@@ -1,0 +1,706 @@
+[
+  {
+    "id": "v-venus",
+    "category_id": "science",
+    "title": "Auf der Venus ist ein Tag länger als ein Jahr",
+    "hook": "243 Erdtage für eine Drehung, nur 225 für einen Umlauf um die Sonne.",
+    "description": "Die Venus dreht sich extrem langsam – und noch dazu rückwärts. Deshalb dauert eine Drehung um die eigene Achse länger als ein kompletter Umlauf um die Sonne.",
+    "video_url": "/clips/v-venus.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 7.27,
+    "has_audio": true,
+    "captions": [
+      "Die Venus dreht sich so langsam,",
+      "dass ein Tag dort länger dauert",
+      "als ein ganzes Jahr."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Venus (Planet)",
+        "url": "https://de.wikipedia.org/wiki/Venus_(Planet)"
+      }
+    ],
+    "published_at": "2026-10-09T12:00:00Z",
+    "tags": [
+      "Planeten",
+      "Sonnensystem"
+    ],
+    "quiz_question_id": "q-v-venus",
+    "verification_status": "unverified",
+    "status": "archived",
+    "demo_popularity": 48,
+    "demo_comments": [
+      {
+        "personId": "p8",
+        "text": "Und sie dreht sich auch noch rückwärts. Mein Lieblingsplanet."
+      },
+      {
+        "personId": "p5",
+        "text": "Zeige ich morgen meiner 9b."
+      }
+    ],
+    "production": {
+      "provider": "canvas_sample",
+      "narration": "Die Venus dreht sich so langsam, dass ein Tag dort länger dauert als ein ganzes Jahr.",
+      "bars": [
+        {
+          "label": "Ein Venustag",
+          "value": 243,
+          "unit": "Erdtage"
+        },
+        {
+          "label": "Ein Venusjahr",
+          "value": 225,
+          "unit": "Erdtage"
+        }
+      ]
+    },
+    "min_age": 10,
+    "translations": {},
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": null
+  },
+  {
+    "id": "v-kleopatra",
+    "category_id": "history",
+    "title": "Kleopatra lebte näher an der Mondlandung als am Pyramidenbau",
+    "hook": "Das alte Ägypten dauerte so lange, dass seine Anfänge für Kleopatra schon Altertum waren.",
+    "description": "Die Cheops-Pyramide entstand um 2560 v. Chr. Kleopatra starb 30 v. Chr. – rund 2500 Jahre später. Bis zur Mondlandung 1969 vergingen danach nur etwa 2000 Jahre.",
+    "video_url": "/clips/v-kleopatra.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 6.91,
+    "has_audio": true,
+    "captions": [
+      "Kleopatra lebte näher",
+      "an der Mondlandung",
+      "als am Bau der großen Pyramide."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Kleopatra VII.",
+        "url": "https://de.wikipedia.org/wiki/Kleopatra_VII."
+      },
+      {
+        "name": "Wikipedia: Cheops-Pyramide",
+        "url": "https://de.wikipedia.org/wiki/Cheops-Pyramide"
+      }
+    ],
+    "published_at": "2026-10-08T12:00:00Z",
+    "tags": [
+      "Ägypten",
+      "Zeitgefühl"
+    ],
+    "quiz_question_id": "q-v-kleopatra",
+    "verification_status": "unverified",
+    "status": "archived",
+    "demo_popularity": 61,
+    "demo_comments": [
+      {
+        "personId": "p3",
+        "text": "Das sprengt jedes Mal mein Zeitgefühl."
+      }
+    ],
+    "production": {
+      "provider": "canvas_sample",
+      "narration": "Kleopatra lebte näher an der Mondlandung als am Bau der großen Pyramide von Gizeh.",
+      "bars": [
+        {
+          "label": "Pyramide bis Kleopatra",
+          "value": 2500,
+          "unit": "Jahre"
+        },
+        {
+          "label": "Kleopatra bis Mondlandung",
+          "value": 2000,
+          "unit": "Jahre"
+        }
+      ]
+    },
+    "min_age": 10,
+    "translations": {},
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": null
+  },
+  {
+    "id": "v-apollo",
+    "category_id": "technology",
+    "title": "Zum Mond mit 4 Kilobyte Arbeitsspeicher",
+    "hook": "Der Apollo-Bordcomputer hatte millionenfach weniger Speicher als ein Smartphone.",
+    "description": "Der Apollo Guidance Computer hatte 2048 Wörter beschreibbaren Speicher, etwa 4 Kilobyte. Ein Smartphone mit 8 Gigabyte hat rund zwei Millionen Mal so viel.",
+    "video_url": "/clips/v-apollo.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 11.3,
+    "has_audio": true,
+    "captions": [
+      "Der Computer, der Menschen zum Mond brachte,",
+      "hatte rund vier Kilobyte Arbeitsspeicher.",
+      "Ein Smartphone hat millionenfach mehr."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Apollo Guidance Computer",
+        "url": "https://de.wikipedia.org/wiki/Apollo_Guidance_Computer"
+      }
+    ],
+    "published_at": "2026-10-10T12:00:00Z",
+    "tags": [
+      "Raumfahrt",
+      "Computer"
+    ],
+    "quiz_question_id": "q-v-apollo",
+    "verification_status": "unverified",
+    "status": "archived",
+    "demo_popularity": 39,
+    "demo_comments": [
+      {
+        "personId": "p2",
+        "text": "Und mein Editor braucht 2 GB zum Starten."
+      },
+      {
+        "personId": "p7",
+        "text": "Effizienz war mal eine Tugend."
+      }
+    ],
+    "production": {
+      "provider": "canvas_sample",
+      "narration": "Der Computer, der Menschen zum Mond brachte, hatte rund vier Kilobyte Arbeitsspeicher. Ein Smartphone hat millionenfach mehr.",
+      "bars": [
+        {
+          "label": "Apollo-Bordcomputer",
+          "value": 0.000004,
+          "display": "4 KB"
+        },
+        {
+          "label": "Smartphone",
+          "value": 8,
+          "display": "8 GB"
+        }
+      ]
+    },
+    "min_age": 10,
+    "translations": {},
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": null
+  },
+  {
+    "id": "v-luft",
+    "category_id": "science",
+    "title": "Was du gerade einatmest, ist vor allem Stickstoff",
+    "hook": "Luft besteht zu etwa 78 % aus Stickstoff und nur zu 21 % aus Sauerstoff.",
+    "description": "Trockene Luft enthält rund 78 % Stickstoff, 21 % Sauerstoff und knapp 1 % Argon. Kohlendioxid macht nur einen Bruchteil eines Prozents aus.",
+    "video_url": "/clips/v-luft.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 9.63,
+    "has_audio": true,
+    "captions": [
+      "Die Luft, die du atmest,",
+      "besteht nur zu einem Fünftel aus Sauerstoff.",
+      "Der größte Teil ist Stickstoff."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Erdatmosphäre",
+        "url": "https://de.wikipedia.org/wiki/Erdatmosphäre"
+      }
+    ],
+    "published_at": "2026-10-05T12:00:00Z",
+    "tags": [
+      "Atmosphäre",
+      "Chemie"
+    ],
+    "quiz_question_id": "q-v-luft",
+    "verification_status": "unverified",
+    "status": "archived",
+    "demo_popularity": 27,
+    "demo_comments": [
+      {
+        "personId": "p1",
+        "text": "Und trotzdem reden alle nur über Sauerstoff."
+      }
+    ],
+    "production": {
+      "provider": "canvas_sample",
+      "narration": "Die Luft, die du atmest, besteht nur zu einem Fünftel aus Sauerstoff. Der größte Teil ist Stickstoff.",
+      "bars": [
+        {
+          "label": "Stickstoff",
+          "value": 78,
+          "unit": "%"
+        },
+        {
+          "label": "Sauerstoff",
+          "value": 21,
+          "unit": "%"
+        }
+      ]
+    },
+    "min_age": 10,
+    "translations": {},
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": null
+  },
+  {
+    "id": "v-ozean",
+    "category_id": "earth",
+    "title": "Der blaue Planet: mehr Wasser als Land",
+    "hook": "Rund 71 % der Erdoberfläche sind von Wasser bedeckt.",
+    "description": "Ozeane und Meere bedecken etwa 71 % der Erdoberfläche. Landflächen machen rund 29 % aus – weniger als ein Drittel.",
+    "video_url": "/clips/v-ozean.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 9.26,
+    "has_audio": true,
+    "captions": [
+      "Rund 71 Prozent der Erdoberfläche",
+      "sind von Wasser bedeckt.",
+      "Land macht weniger als ein Drittel aus."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Erde",
+        "url": "https://de.wikipedia.org/wiki/Erde"
+      }
+    ],
+    "published_at": "2026-10-07T12:00:00Z",
+    "tags": [
+      "Ozeane",
+      "Geografie"
+    ],
+    "quiz_question_id": "q-v-ozean",
+    "verification_status": "unverified",
+    "status": "archived",
+    "demo_popularity": 33,
+    "demo_comments": [
+      {
+        "personId": "p8",
+        "text": "Eigentlich müsste sie Wasser heißen, nicht Erde."
+      }
+    ],
+    "production": {
+      "provider": "canvas_sample",
+      "narration": "Rund einundsiebzig Prozent der Erdoberfläche sind von Wasser bedeckt. Land macht weniger als ein Drittel aus.",
+      "bars": [
+        {
+          "label": "Wasser",
+          "value": 71,
+          "unit": "%"
+        },
+        {
+          "label": "Land",
+          "value": 29,
+          "unit": "%"
+        }
+      ]
+    },
+    "min_age": 10,
+    "translations": {},
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": null
+  },
+  {
+    "id": "v-oxford",
+    "category_id": "history",
+    "title": "Oxford ist älter als das Reich der Azteken",
+    "hook": "In Oxford wurde schon um 1096 gelehrt, Tenochtitlan entstand erst um 1325.",
+    "description": "Die Lehre in Oxford ist seit etwa 1096 belegt. Tenochtitlan, die Hauptstadt der Azteken, wurde um 1325 gegründet – mehr als zwei Jahrhunderte später.",
+    "video_url": "/clips/v-oxford.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 7.04,
+    "has_audio": true,
+    "captions": [
+      "In Oxford wurde schon gelehrt,",
+      "als es die Hauptstadt der Azteken",
+      "noch gar nicht gab."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: University of Oxford",
+        "url": "https://de.wikipedia.org/wiki/University_of_Oxford"
+      },
+      {
+        "name": "Wikipedia: Tenochtitlan",
+        "url": "https://de.wikipedia.org/wiki/Tenochtitlan"
+      }
+    ],
+    "published_at": "2026-10-03T12:00:00Z",
+    "tags": [
+      "Mittelalter",
+      "Zeitgefühl"
+    ],
+    "quiz_question_id": "q-v-oxford",
+    "verification_status": "unverified",
+    "status": "archived",
+    "demo_popularity": 44,
+    "demo_comments": [
+      {
+        "personId": "p3",
+        "text": "Geschichte ist nie so linear, wie man denkt."
+      }
+    ],
+    "production": {
+      "provider": "canvas_sample",
+      "narration": "In Oxford wurde schon gelehrt, als es die Hauptstadt der Azteken noch gar nicht gab.",
+      "bars": [
+        {
+          "label": "Lehre in Oxford seit",
+          "value": 930,
+          "unit": "Jahren"
+        },
+        {
+          "label": "Tenochtitlan gegründet vor",
+          "value": 700,
+          "unit": "Jahren"
+        }
+      ]
+    },
+    "min_age": 10,
+    "translations": {},
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": null
+  },
+  {
+    "id": "v-iss-nacht",
+    "category_id": "earth",
+    "title": "Die Erde bei Nacht – gesehen von der Raumstation",
+    "hook": "Die ISS umrundet die Erde etwa alle 90 Minuten – rund 16 Mal am Tag.",
+    "description": "Die Internationale Raumstation fliegt in rund 400 Kilometern Höhe mit etwa 28.000 km/h. Der farbige Schimmer über dem Horizont ist das Nachthimmelsleuchten der oberen Atmosphäre.",
+    "video_url": "https://images-assets.nasa.gov/video/GSFC_20180124_m12825_ISS_Airglow/GSFC_20180124_m12825_ISS_Airglow~small.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "So sieht die Erde nachts aus dem All aus.",
+      "Die Raumstation fliegt mit rund 28.000 km/h.",
+      "Alle 90 Minuten umrundet sie die Erde."
+    ],
+    "creator_name": "NASA",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "NASA Image and Video Library",
+        "url": "https://images.nasa.gov/details/GSFC_20180124_m12825_ISS_Airglow"
+      }
+    ],
+    "published_at": "2026-10-12T12:00:00Z",
+    "tags": [
+      "ISS",
+      "Raumfahrt",
+      "Atmosphäre"
+    ],
+    "quiz_question_id": "q-v-iss-nacht",
+    "verification_status": "unverified",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "nasa_id": "GSFC_20180124_m12825_ISS_Airglow"
+    },
+    "min_age": 10,
+    "start_seconds": 2,
+    "end_seconds": 12,
+    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "translations": {
+      "en": {
+        "title": "Earth at night – seen from the space station",
+        "hook": "The ISS circles the Earth about every 90 minutes – roughly 16 times a day.",
+        "description": "The International Space Station flies at an altitude of about 400 kilometres at roughly 28,000 km/h. The coloured shimmer above the horizon is airglow in the upper atmosphere.",
+        "captions": [
+          "This is what Earth looks like at night from space.",
+          "The space station travels at about 28,000 km/h.",
+          "It circles the Earth every 90 minutes."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-saturn-v",
+    "category_id": "history",
+    "title": "Der Start von Apollo 11",
+    "hook": "Am 16. Juli 1969 hob die Saturn V ab – vier Tage später landeten Menschen auf dem Mond.",
+    "description": "Die Saturn V war rund 110 Meter hoch und ist bis heute eine der stärksten Raketen, die je geflogen sind. An Bord von Apollo 11: Neil Armstrong, Buzz Aldrin und Michael Collins.",
+    "video_url": "https://images-assets.nasa.gov/video/Apollo_11_Intro_720p/Apollo_11_Intro_720p~small.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 5.5,
+    "has_audio": false,
+    "captions": [
+      "16. Juli 1969: Apollo 11 startet.",
+      "Die Saturn-V-Rakete ist 110 Meter hoch.",
+      "Ihr Ziel: der Mond."
+    ],
+    "creator_name": "NASA",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "NASA Image and Video Library",
+        "url": "https://images.nasa.gov/details/Apollo_11_Intro_720p"
+      }
+    ],
+    "published_at": "2026-10-11T12:00:00Z",
+    "tags": [
+      "Apollo",
+      "Raumfahrt",
+      "Mondlandung"
+    ],
+    "quiz_question_id": "q-v-saturn-v",
+    "verification_status": "unverified",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "nasa_id": "Apollo_11_Intro_720p"
+    },
+    "min_age": 10,
+    "start_seconds": 22,
+    "end_seconds": 27.5,
+    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "translations": {
+      "en": {
+        "title": "The launch of Apollo 11",
+        "hook": "On 16 July 1969 the Saturn V lifted off – four days later humans landed on the Moon.",
+        "description": "The Saturn V was about 110 metres tall and remains one of the most powerful rockets ever flown. On board Apollo 11: Neil Armstrong, Buzz Aldrin and Michael Collins.",
+        "captions": [
+          "16 July 1969: Apollo 11 lifts off.",
+          "The Saturn V rocket is 110 metres tall.",
+          "Its destination: the Moon."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-aldrin",
+    "category_id": "history",
+    "title": "Der zweite Mensch auf dem Mond",
+    "hook": "Buzz Aldrin stieg rund 19 Minuten nach Neil Armstrong die Leiter der Mondfähre hinab.",
+    "description": "Originalaufnahme der Fernsehübertragung vom 20. Juli 1969 in restaurierter Fassung. Rund 600 Millionen Menschen verfolgten die Mondlandung live.",
+    "video_url": "https://images-assets.nasa.gov/video/Buzz_Descends_Comparison__720p/Buzz_Descends_Comparison__720p~small.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "20. Juli 1969, Meer der Ruhe.",
+      "Buzz Aldrin steigt die Leiter hinab.",
+      "Er ist der zweite Mensch auf dem Mond."
+    ],
+    "creator_name": "NASA",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "NASA Image and Video Library",
+        "url": "https://images.nasa.gov/details/Buzz_Descends_Comparison__720p"
+      }
+    ],
+    "published_at": "2026-10-10T12:00:00Z",
+    "tags": [
+      "Apollo",
+      "Mondlandung"
+    ],
+    "quiz_question_id": "q-v-aldrin",
+    "verification_status": "unverified",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "nasa_id": "Buzz_Descends_Comparison__720p"
+    },
+    "min_age": 10,
+    "start_seconds": 24,
+    "end_seconds": 34,
+    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "translations": {
+      "en": {
+        "title": "The second human on the Moon",
+        "hook": "Buzz Aldrin climbed down the lunar module's ladder about 19 minutes after Neil Armstrong.",
+        "description": "Original footage from the television broadcast of 20 July 1969 in a restored version. Around 600 million people watched the Moon landing live.",
+        "captions": [
+          "20 July 1969, Sea of Tranquility.",
+          "Buzz Aldrin climbs down the ladder.",
+          "He is the second human on the Moon."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-ingenuity",
+    "category_id": "technology",
+    "title": "Ein Hubschrauber auf dem Mars",
+    "hook": "Ingenuity gelang 2021 der erste motorisierte Flug auf einem anderen Planeten.",
+    "description": "Animation der NASA. Die Marsluft ist rund hundertmal dünner als die der Erde, deshalb drehen sich die Rotoren von Ingenuity mit etwa 2.400 Umdrehungen pro Minute. Geplant waren fünf Flüge – es wurden 72.",
+    "video_url": "https://images-assets.nasa.gov/video/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation~small.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Das ist Ingenuity, ein Hubschrauber für den Mars.",
+      "Die Luft dort ist hundertmal dünner als auf der Erde.",
+      "Trotzdem flog er 72 Mal."
+    ],
+    "creator_name": "NASA",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "NASA Image and Video Library",
+        "url": "https://images.nasa.gov/details/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation"
+      }
+    ],
+    "published_at": "2026-10-09T12:00:00Z",
+    "tags": [
+      "Mars",
+      "Raumfahrt",
+      "Robotik"
+    ],
+    "quiz_question_id": "q-v-ingenuity",
+    "verification_status": "unverified",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "nasa_id": "JPL-20200429-TECHf-0002-Mars Helicopter Animation"
+    },
+    "min_age": 10,
+    "start_seconds": 62,
+    "end_seconds": 72,
+    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "translations": {
+      "en": {
+        "title": "A helicopter on Mars",
+        "hook": "In 2021 Ingenuity made the first powered flight on another planet.",
+        "description": "NASA animation. The Martian air is about a hundred times thinner than Earth's, so Ingenuity's rotors spin at around 2,400 revolutions per minute. Five flights were planned – it made 72.",
+        "captions": [
+          "This is Ingenuity, a helicopter built for Mars.",
+          "The air there is a hundred times thinner than on Earth.",
+          "It still flew 72 times."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-sonne",
+    "category_id": "science",
+    "title": "Unsere Sonne in Bewegung",
+    "hook": "Die Sonne enthält mehr als 99,8 Prozent der gesamten Masse unseres Sonnensystems.",
+    "description": "Zeitrafferaufnahmen des Sonnenobservatoriums SDO im ultravioletten Licht. Die Sonne ist eine Kugel aus heißem Plasma und besteht vor allem aus Wasserstoff und Helium.",
+    "video_url": "https://images-assets.nasa.gov/video/GSFC_20160212_SDO_m12144_Year6/GSFC_20160212_SDO_m12144_Year6~small.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Das ist unsere Sonne im ultravioletten Licht.",
+      "Ihre Oberfläche ist ständig in Bewegung.",
+      "Sie enthält 99,8 Prozent der Masse des Sonnensystems."
+    ],
+    "creator_name": "NASA",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "NASA Image and Video Library",
+        "url": "https://images.nasa.gov/details/GSFC_20160212_SDO_m12144_Year6"
+      }
+    ],
+    "published_at": "2026-10-08T12:00:00Z",
+    "tags": [
+      "Sonne",
+      "Astronomie"
+    ],
+    "quiz_question_id": "q-v-sonne",
+    "verification_status": "unverified",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "nasa_id": "GSFC_20160212_SDO_m12144_Year6"
+    },
+    "min_age": 10,
+    "start_seconds": 40,
+    "end_seconds": 50,
+    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "translations": {
+      "en": {
+        "title": "Our Sun in motion",
+        "hook": "The Sun contains more than 99.8 percent of the total mass of our solar system.",
+        "description": "Time-lapse footage from the Solar Dynamics Observatory in ultraviolet light. The Sun is a ball of hot plasma made mostly of hydrogen and helium.",
+        "captions": [
+          "This is our Sun in ultraviolet light.",
+          "Its surface is constantly in motion.",
+          "It contains 99.8 percent of the solar system's mass."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-hurrikan",
+    "category_id": "earth",
+    "title": "Ein Hurrikan aus dem All",
+    "hook": "Im Auge eines Hurrikans ist es fast windstill – ringsum toben die stärksten Winde.",
+    "description": "Hurrikan Dorian am 1. September 2019, aufgenommen von Kameras an der Internationalen Raumstation. Tropische Wirbelstürme entstehen über warmem Meerwasser ab etwa 26 Grad.",
+    "video_url": "https://images-assets.nasa.gov/video/jsc2019m000805_Hurricane_Dorian_190901/jsc2019m000805_Hurricane_Dorian_190901~small.mp4",
+    "thumbnail_url": null,
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Hurrikan Dorian, gefilmt von der Raumstation.",
+      "In der Mitte liegt das fast windstille Auge.",
+      "Ringsum toben die stärksten Winde."
+    ],
+    "creator_name": "NASA",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "NASA Image and Video Library",
+        "url": "https://images.nasa.gov/details/jsc2019m000805_Hurricane_Dorian_190901"
+      }
+    ],
+    "published_at": "2026-10-07T12:00:00Z",
+    "tags": [
+      "Wetter",
+      "Hurrikan",
+      "ISS"
+    ],
+    "quiz_question_id": "q-v-hurrikan",
+    "verification_status": "unverified",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "nasa_id": "jsc2019m000805_Hurricane_Dorian_190901"
+    },
+    "min_age": 10,
+    "start_seconds": 100,
+    "end_seconds": 110,
+    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "translations": {
+      "en": {
+        "title": "A hurricane seen from space",
+        "hook": "The eye of a hurricane is almost calm – the strongest winds rage all around it.",
+        "description": "Hurricane Dorian on 1 September 2019, filmed by cameras on the International Space Station. Tropical cyclones form over warm sea water of about 26 degrees or more.",
+        "captions": [
+          "Hurricane Dorian, filmed from the space station.",
+          "In the middle lies the almost windless eye.",
+          "The strongest winds rage all around it."
+        ]
+      }
+    }
+  }
+]

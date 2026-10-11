@@ -1,0 +1,6513 @@
+[
+  {
+    "id": "s1",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches chemische Symbol hat Gold?",
+    "options": [
+      "Go",
+      "Gd",
+      "Au",
+      "Ag"
+    ],
+    "correct_index": 2,
+    "explanation": "Au kommt vom lateinischen „aurum“. Ag steht für Silber (argentum).",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Gold",
+    "source_url": "https://de.wikipedia.org/wiki/Gold",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-06T12:00:00Z",
+    "demo_popularity": 50,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+          "Go",
+          "Gd",
+          "Au",
+          "Ag"
+        ],
+        "explanation": "Au comes from the Latin “aurum”. Ag stands for silver (argentum)."
+      }
+    }
+  },
+  {
+    "id": "s2",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie lange braucht Sonnenlicht ungefähr bis zur Erde?",
+    "options": [
+      "8 Sekunden",
+      "8 Minuten",
+      "8 Stunden",
+      "1 Sekunde"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei rund 150 Millionen Kilometern Abstand braucht Licht etwa 8 Minuten und 20 Sekunden.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Astronomische Einheit",
+    "source_url": "https://de.wikipedia.org/wiki/Astronomische_Einheit",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-01T12:00:00Z",
+    "demo_popularity": 33,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how long does sunlight take to reach Earth?",
+        "options": [
+          "8 seconds",
+          "8 minutes",
+          "8 hours",
+          "1 second"
+        ],
+        "explanation": "At a distance of about 150 million kilometres, light takes roughly 8 minutes and 20 seconds."
+      }
+    }
+  },
+  {
+    "id": "s3",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist das häufigste Gas in der Erdatmosphäre?",
+    "options": [
+      "Sauerstoff",
+      "Kohlendioxid",
+      "Stickstoff",
+      "Argon"
+    ],
+    "correct_index": 2,
+    "explanation": "Stickstoff macht rund 78 % der trockenen Luft aus, Sauerstoff etwa 21 %.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Erdatmosphäre",
+    "source_url": "https://de.wikipedia.org/wiki/Erdatmosphäre",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-08-12T12:00:00Z",
+    "demo_popularity": 20,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Argon"
+        ],
+        "explanation": "Nitrogen makes up about 78% of dry air, oxygen about 21%."
+      }
+    }
+  },
+  {
+    "id": "s4",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Organell gilt als „Kraftwerk der Zelle“?",
+    "options": [
+      "Ribosom",
+      "Mitochondrium",
+      "Golgi-Apparat",
+      "Zellkern"
+    ],
+    "correct_index": 1,
+    "explanation": "Mitochondrien erzeugen durch Zellatmung den Großteil des Energieträgers ATP.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Mitochondrium",
+    "source_url": "https://de.wikipedia.org/wiki/Mitochondrium",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-26T12:00:00Z",
+    "demo_popularity": 18,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which organelle is known as the “powerhouse of the cell”?",
+        "options": [
+          "Ribosome",
+          "Mitochondrion",
+          "Golgi apparatus",
+          "Nucleus"
+        ],
+        "explanation": "Mitochondria produce most of the energy carrier ATP through cellular respiration."
+      }
+    }
+  },
+  {
+    "id": "s5",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie viele Knochen hat ein erwachsener Mensch in der Regel?",
+    "options": [
+      "106",
+      "206",
+      "306",
+      "406"
+    ],
+    "correct_index": 1,
+    "explanation": "Etwa 206. Neugeborene haben deutlich mehr Knochenelemente, die später zusammenwachsen.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Menschliches Skelett",
+    "source_url": "https://de.wikipedia.org/wiki/Menschliches_Skelett",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-05T12:00:00Z",
+    "demo_popularity": 27,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many bones does an adult human usually have?",
+        "options": [
+          "106",
+          "206",
+          "306",
+          "406"
+        ],
+        "explanation": "About 206. Newborns have considerably more bone elements, which later fuse."
+      }
+    }
+  },
+  {
+    "id": "s6",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Teilchen trägt eine negative elektrische Ladung?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Elektron",
+      "Photon"
+    ],
+    "correct_index": 2,
+    "explanation": "Elektronen sind negativ geladen, Protonen positiv, Neutronen neutral.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Elektron",
+    "source_url": "https://de.wikipedia.org/wiki/Elektron",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-13T12:00:00Z",
+    "demo_popularity": 14,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which particle carries a negative electric charge?",
+        "options": [
+          "Proton",
+          "Neutron",
+          "Electron",
+          "Photon"
+        ],
+        "explanation": "Electrons are negatively charged, protons positively, neutrons are neutral."
+      }
+    }
+  },
+  {
+    "id": "s7",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was beschreibt die Halbwertszeit eines radioaktiven Stoffes?",
+    "options": [
+      "Die Zeit bis zum vollständigen Zerfall",
+      "Die Zeit, in der die Hälfte der Atomkerne zerfallen ist",
+      "Die halbe Lebensdauer eines Atoms",
+      "Die Zeit bis zur halben Strahlungsreichweite"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach einer Halbwertszeit ist die Hälfte der ursprünglichen Kerne zerfallen, nach zwei noch ein Viertel übrig.",
+    "difficulty": 3,
+    "tags": [],
+    "source_name": "Wikipedia: Halbwertszeit",
+    "source_url": "https://de.wikipedia.org/wiki/Halbwertszeit",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-09T12:00:00Z",
+    "demo_popularity": 11,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the half-life of a radioactive substance describe?",
+        "options": [
+          "The time until complete decay",
+          "The time in which half of the atomic nuclei have decayed",
+          "Half the lifetime of an atom",
+          "The time until the radiation range is halved"
+        ],
+        "explanation": "After one half-life, half of the original nuclei have decayed; after two, a quarter remains."
+      }
+    }
+  },
+  {
+    "id": "s8",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welcher Planet hat die meisten bekannten Monde?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptun"
+    ],
+    "correct_index": 1,
+    "explanation": "Saturn führt deutlich: 2025 wurden 128 weitere Monde bestätigt, damit sind es 274.",
+    "difficulty": 3,
+    "tags": [],
+    "source_name": "Wikipedia: Saturn (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Saturn_(Planet)",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-10T12:00:00Z",
+    "demo_popularity": 22,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which planet has the most known moons?",
+        "options": [
+          "Jupiter",
+          "Saturn",
+          "Uranus",
+          "Neptun"
+        ],
+        "explanation": "Saturn leads clearly: 128 more moons were confirmed in 2025, bringing the total to 274."
+      }
+    }
+  },
+  {
+    "id": "t1",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht die Abkürzung „CPU“?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Power Unit",
+      "Core Program Utility",
+      "Central Program Upload"
+    ],
+    "correct_index": 0,
+    "explanation": "Die CPU – der Hauptprozessor – führt die Befehle eines Programms aus.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Prozessor",
+    "source_url": "https://de.wikipedia.org/wiki/Prozessor",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-16T12:00:00Z",
+    "demo_popularity": 22,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the abbreviation “CPU” stand for?",
+        "options": [
+          "Central Processing Unit",
+          "Computer Power Unit",
+          "Core Program Utility",
+          "Central Program Upload"
+        ],
+        "explanation": "The CPU – the main processor – executes a program's instructions."
+      }
+    }
+  },
+  {
+    "id": "t2",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wer gilt als Erfinder des World Wide Web?",
+    "options": [
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Steve Jobs",
+      "Vint Cerf"
+    ],
+    "correct_index": 1,
+    "explanation": "Tim Berners-Lee entwickelte das WWW ab 1989 am CERN.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: World Wide Web",
+    "source_url": "https://de.wikipedia.org/wiki/World_Wide_Web",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-08-27T12:00:00Z",
+    "demo_popularity": 30,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is regarded as the inventor of the World Wide Web?",
+        "options": [
+          "Bill Gates",
+          "Tim Berners-Lee",
+          "Steve Jobs",
+          "Vint Cerf"
+        ],
+        "explanation": "Tim Berners-Lee developed the WWW at CERN from 1989."
+      }
+    }
+  },
+  {
+    "id": "t3",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie viele Bits hat ein Byte?",
+    "options": [
+      "4",
+      "8",
+      "10",
+      "16"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Byte besteht aus 8 Bit und kann 256 verschiedene Werte darstellen.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Byte",
+    "source_url": "https://de.wikipedia.org/wiki/Byte",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-08-02T12:00:00Z",
+    "demo_popularity": 15,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many bits are in a byte?",
+        "options": [
+          "4",
+          "8",
+          "10",
+          "16"
+        ],
+        "explanation": "A byte consists of 8 bits and can represent 256 different values."
+      }
+    }
+  },
+  {
+    "id": "t4",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welche Programmiersprache wurde 1995 in nur etwa zehn Tagen entworfen?",
+    "options": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "C"
+    ],
+    "correct_index": 2,
+    "explanation": "Brendan Eich entwarf die erste Version von JavaScript bei Netscape in rund zehn Tagen.",
+    "difficulty": 3,
+    "tags": [],
+    "source_name": "Wikipedia: JavaScript",
+    "source_url": "https://de.wikipedia.org/wiki/JavaScript",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-06T12:00:00Z",
+    "demo_popularity": 19,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which programming language was designed in only about ten days in 1995?",
+        "options": [
+          "Python",
+          "Java",
+          "JavaScript",
+          "C"
+        ],
+        "explanation": "Brendan Eich designed the first version of JavaScript at Netscape in about ten days."
+      }
+    }
+  },
+  {
+    "id": "t5",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht „GPT“ in ChatGPT?",
+    "options": [
+      "General Purpose Technology",
+      "Generative Pre-trained Transformer",
+      "Guided Prompt Tool",
+      "Global Processing Thread"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein generatives Modell, das vorab auf großen Textmengen trainiert wurde und auf der Transformer-Architektur beruht.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Generativer vortrainierter Transformer",
+    "source_url": "https://de.wikipedia.org/wiki/Generativer_vortrainierter_Transformer",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-08T12:00:00Z",
+    "demo_popularity": 41,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “GPT” stand for in ChatGPT?",
+        "options": [
+          "General Purpose Technology",
+          "Generative Pre-trained Transformer",
+          "Guided Prompt Tool",
+          "Global Processing Thread"
+        ],
+        "explanation": "A generative model that was pre-trained on large amounts of text and is based on the transformer architecture."
+      }
+    }
+  },
+  {
+    "id": "t6",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welche Veröffentlichung führte 2017 die Transformer-Architektur ein?",
+    "options": [
+      "„Deep Residual Learning“",
+      "„Attention Is All You Need“",
+      "„ImageNet Classification“",
+      "„Playing Atari with Deep RL“"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Paper von Vaswani und Kollegen ersetzte rekurrente Netze durch Aufmerksamkeitsmechanismen – die Grundlage heutiger Sprachmodelle.",
+    "difficulty": 3,
+    "tags": [],
+    "source_name": "arXiv:1706.03762",
+    "source_url": "https://arxiv.org/abs/1706.03762",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-09T12:00:00Z",
+    "demo_popularity": 24,
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which 2017 publication introduced the transformer architecture?",
+        "options": [
+          "“Deep Residual Learning”",
+          "“Attention Is All You Need”",
+          "“ImageNet Classification”",
+          "“Playing Atari with Deep RL”"
+        ],
+        "explanation": "The paper by Vaswani and colleagues replaced recurrent networks with attention mechanisms – the basis of today's language models."
+      }
+    }
+  },
+  {
+    "id": "t7",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein „Token“ bei Sprachmodellen?",
+    "options": [
+      "Ein Passwort für die API",
+      "Eine Texteinheit, etwa ein Wort oder Wortteil",
+      "Ein Trainingsdurchlauf",
+      "Eine Grafikkarte"
+    ],
+    "correct_index": 1,
+    "explanation": "Modelle zerlegen Text in Tokens und sagen Schritt für Schritt das nächste Token vorher.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Large Language Model",
+    "source_url": "https://de.wikipedia.org/wiki/Large_Language_Model",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-10T12:00:00Z",
+    "demo_popularity": 29,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “token” in language models?",
+        "options": [
+          "A password for the API",
+          "A unit of text, such as a word or part of a word",
+          "A training run",
+          "A graphics card"
+        ],
+        "explanation": "Models split text into tokens and predict the next token step by step."
+      }
+    }
+  },
+  {
+    "id": "t8",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was besagt das Mooresche Gesetz?",
+    "options": [
+      "Rechner werden jedes Jahr halb so teuer",
+      "Die Zahl der Transistoren auf einem Chip verdoppelt sich regelmäßig",
+      "Software wächst schneller als Hardware",
+      "Speicher ist immer der Engpass"
+    ],
+    "correct_index": 1,
+    "explanation": "Gordon Moore beobachtete 1965, dass sich die Transistordichte regelmäßig verdoppelt – später meist mit etwa zwei Jahren angegeben.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Mooresches Gesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Mooresches_Gesetz",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-23T12:00:00Z",
+    "demo_popularity": 13,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Moore's law state?",
+        "options": [
+          "Computers halve in price every year",
+          "The number of transistors on a chip doubles regularly",
+          "Software grows faster than hardware",
+          "Memory is always the bottleneck"
+        ],
+        "explanation": "In 1965 Gordon Moore observed that transistor density doubles regularly – later usually stated as about every two years."
+      }
+    }
+  },
+  {
+    "id": "t9",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wer schlug 1950 einen Test vor, um maschinelle Intelligenz zu beurteilen?",
+    "options": [
+      "Alan Turing",
+      "John von Neumann",
+      "Konrad Zuse",
+      "Claude Shannon"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Turing-Test soll ein Mensch im Gespräch nicht mehr unterscheiden können, ob er mit Mensch oder Maschine schreibt.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Turing-Test",
+    "source_url": "https://de.wikipedia.org/wiki/Turing-Test",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-29T12:00:00Z",
+    "demo_popularity": 17,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who proposed a test for judging machine intelligence in 1950?",
+        "options": [
+          "Alan Turing",
+          "John von Neumann",
+          "Konrad Zuse",
+          "Claude Shannon"
+        ],
+        "explanation": "In the Turing test, a person in conversation should no longer be able to tell whether they are writing with a human or a machine."
+      }
+    }
+  },
+  {
+    "id": "h1",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr fiel die Berliner Mauer?",
+    "options": [
+      "1987",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct_index": 1,
+    "explanation": "Am 9. November 1989 wurde die Grenze geöffnet; die Wiedervereinigung folgte am 3. Oktober 1990.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Berliner Mauer",
+    "source_url": "https://de.wikipedia.org/wiki/Berliner_Mauer",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-11T12:00:00Z",
+    "demo_popularity": 40,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the Berlin Wall fall?",
+        "options": [
+          "1987",
+          "1989",
+          "1990",
+          "1991"
+        ],
+        "explanation": "The border was opened on 9 November 1989; reunification followed on 3 October 1990."
+      }
+    }
+  },
+  {
+    "id": "h2",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer war der erste Kaiser des Römischen Reiches?",
+    "options": [
+      "Julius Caesar",
+      "Augustus",
+      "Nero",
+      "Trajan"
+    ],
+    "correct_index": 1,
+    "explanation": "Augustus regierte ab 27 v. Chr. Caesar war Diktator, aber nie Kaiser.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Augustus",
+    "source_url": "https://de.wikipedia.org/wiki/Augustus",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-01T12:00:00Z",
+    "demo_popularity": 25,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who was the first emperor of the Roman Empire?",
+        "options": [
+          "Julius Caesar",
+          "Augustus",
+          "Nero",
+          "Trajan"
+        ],
+        "explanation": "Augustus ruled from 27 BC. Caesar was dictator but never emperor."
+      }
+    }
+  },
+  {
+    "id": "h3",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welches Dokument von 1215 schränkte die Macht des englischen Königs ein?",
+    "options": [
+      "Bill of Rights",
+      "Magna Carta",
+      "Habeas Corpus Act",
+      "Domesday Book"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Magna Carta wurde 1215 von König Johann besiegelt und gilt als frühes Grundrechtsdokument.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Magna Carta",
+    "source_url": "https://de.wikipedia.org/wiki/Magna_Carta",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-08-22T12:00:00Z",
+    "demo_popularity": 12,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which document of 1215 limited the power of the English king?",
+        "options": [
+          "Bill of Rights",
+          "Magna Carta",
+          "Habeas Corpus Act",
+          "Domesday Book"
+        ],
+        "explanation": "Magna Carta was sealed by King John in 1215 and is regarded as an early charter of rights."
+      }
+    }
+  },
+  {
+    "id": "h4",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Stadt war die Hauptstadt des Byzantinischen Reiches?",
+    "options": [
+      "Rom",
+      "Athen",
+      "Konstantinopel",
+      "Alexandria"
+    ],
+    "correct_index": 2,
+    "explanation": "Konstantinopel, das heutige Istanbul, blieb bis zur osmanischen Eroberung 1453 Hauptstadt.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Byzantinisches Reich",
+    "source_url": "https://de.wikipedia.org/wiki/Byzantinisches_Reich",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-21T12:00:00Z",
+    "demo_popularity": 9,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which city was the capital of the Byzantine Empire?",
+        "options": [
+          "Rome",
+          "Athens",
+          "Constantinople",
+          "Alexandria"
+        ],
+        "explanation": "Constantinople, today's Istanbul, remained the capital until the Ottoman conquest in 1453."
+      }
+    }
+  },
+  {
+    "id": "h5",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr begann die Französische Revolution?",
+    "options": [
+      "1689",
+      "1776",
+      "1789",
+      "1815"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Sturm auf die Bastille am 14. Juli 1789 gilt als ihr symbolischer Auftakt.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Französische Revolution",
+    "source_url": "https://de.wikipedia.org/wiki/Französische_Revolution",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-02T12:00:00Z",
+    "demo_popularity": 21,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the French Revolution begin?",
+        "options": [
+          "1689",
+          "1776",
+          "1789",
+          "1815"
+        ],
+        "explanation": "The storming of the Bastille on 14 July 1789 is regarded as its symbolic start."
+      }
+    }
+  },
+  {
+    "id": "h6",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer entwickelte um 1450 in Europa den Buchdruck mit beweglichen Metalllettern?",
+    "options": [
+      "Martin Luther",
+      "Johannes Gutenberg",
+      "Albrecht Dürer",
+      "Leonardo da Vinci"
+    ],
+    "correct_index": 1,
+    "explanation": "Gutenbergs Verfahren aus Mainz machte Bücher erstmals in großer Zahl verfügbar.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Johannes Gutenberg",
+    "source_url": "https://de.wikipedia.org/wiki/Johannes_Gutenberg",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-27T12:00:00Z",
+    "demo_popularity": 16,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who developed printing with movable metal type in Europe around 1450?",
+        "options": [
+          "Martin Luther",
+          "Johannes Gutenberg",
+          "Albrecht Dürer",
+          "Leonardo da Vinci"
+        ],
+        "explanation": "Gutenberg's process from Mainz made books available in large numbers for the first time."
+      }
+    }
+  },
+  {
+    "id": "h7",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welches Ereignis löste im Sommer 1914 die Krise aus, die zum Ersten Weltkrieg führte?",
+    "options": [
+      "Der Untergang der Lusitania",
+      "Das Attentat von Sarajevo",
+      "Der Einmarsch in Polen",
+      "Die Oktoberrevolution"
+    ],
+    "correct_index": 1,
+    "explanation": "Am 28. Juni 1914 wurde der österreichisch-ungarische Thronfolger Franz Ferdinand in Sarajevo erschossen.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Attentat von Sarajevo",
+    "source_url": "https://de.wikipedia.org/wiki/Attentat_von_Sarajevo",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-07T12:00:00Z",
+    "demo_popularity": 15,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which event in the summer of 1914 triggered the crisis that led to the First World War?",
+        "options": [
+          "The sinking of the Lusitania",
+          "The assassination in Sarajevo",
+          "The invasion of Poland",
+          "The October Revolution"
+        ],
+        "explanation": "On 28 June 1914 the Austro-Hungarian heir to the throne, Franz Ferdinand, was shot in Sarajevo."
+      }
+    }
+  },
+  {
+    "id": "h8",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welcher Friedensschluss beendete 1648 den Dreißigjährigen Krieg?",
+    "options": [
+      "Wiener Kongress",
+      "Westfälischer Friede",
+      "Friede von Versailles",
+      "Augsburger Religionsfriede"
+    ],
+    "correct_index": 1,
+    "explanation": "Er wurde in Münster und Osnabrück ausgehandelt und prägte das europäische Staatensystem.",
+    "difficulty": 3,
+    "tags": [],
+    "source_name": "Wikipedia: Westfälischer Friede",
+    "source_url": "https://de.wikipedia.org/wiki/Westfälischer_Friede",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-09T12:00:00Z",
+    "demo_popularity": 8,
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which peace settlement ended the Thirty Years' War in 1648?",
+        "options": [
+          "Congress of Vienna",
+          "Peace of Westphalia",
+          "Treaty of Versailles",
+          "Peace of Augsburg"
+        ],
+        "explanation": "It was negotiated in Münster and Osnabrück and shaped the European state system."
+      }
+    }
+  },
+  {
+    "id": "h9",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr betraten erstmals Menschen den Mond?",
+    "options": [
+      "1961",
+      "1965",
+      "1969",
+      "1972"
+    ],
+    "correct_index": 2,
+    "explanation": "Am 20. Juli 1969 landete Apollo 11; Neil Armstrong betrat als Erster die Oberfläche.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Apollo 11",
+    "source_url": "https://de.wikipedia.org/wiki/Apollo_11",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-04T12:00:00Z",
+    "demo_popularity": 36,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did humans first set foot on the Moon?",
+        "options": [
+          "1961",
+          "1965",
+          "1969",
+          "1972"
+        ],
+        "explanation": "Apollo 11 landed on 20 July 1969; Neil Armstrong was the first to step onto the surface."
+      }
+    }
+  },
+  {
+    "id": "g1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist die Hauptstadt von Australien?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correct_index": 2,
+    "explanation": "Canberra entstand als Kompromiss zwischen den Rivalen Sydney und Melbourne.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Canberra",
+    "source_url": "https://de.wikipedia.org/wiki/Canberra",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-29T12:00:00Z",
+    "demo_popularity": 45,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the capital of Australia?",
+        "options": [
+          "Sydney",
+          "Melbourne",
+          "Canberra",
+          "Perth"
+        ],
+        "explanation": "Canberra was created as a compromise between the rivals Sydney and Melbourne."
+      }
+    }
+  },
+  {
+    "id": "g2",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher ist der tiefste See der Erde?",
+    "options": [
+      "Kaspisches Meer",
+      "Tanganjikasee",
+      "Baikalsee",
+      "Oberer See"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Baikalsee in Sibirien ist rund 1640 Meter tief und enthält etwa ein Fünftel des flüssigen Süßwassers der Erdoberfläche.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Baikalsee",
+    "source_url": "https://de.wikipedia.org/wiki/Baikalsee",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-03T12:00:00Z",
+    "demo_popularity": 19,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the deepest lake on Earth?",
+        "options": [
+          "Caspian Sea",
+          "Lake Tanganyika",
+          "Lake Baikal",
+          "Lake Superior"
+        ],
+        "explanation": "Lake Baikal in Siberia is about 1,640 metres deep and holds roughly a fifth of the liquid fresh water on the Earth's surface."
+      }
+    }
+  },
+  {
+    "id": "g3",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher Kontinent hat die meisten Staaten?",
+    "options": [
+      "Asien",
+      "Afrika",
+      "Europa",
+      "Südamerika"
+    ],
+    "correct_index": 1,
+    "explanation": "Afrika zählt 54 international anerkannte Staaten.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Afrika",
+    "source_url": "https://de.wikipedia.org/wiki/Afrika",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-08T12:00:00Z",
+    "demo_popularity": 16,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which continent has the most countries?",
+        "options": [
+          "Asia",
+          "Africa",
+          "Europe",
+          "South America"
+        ],
+        "explanation": "Africa has 54 internationally recognised states."
+      }
+    }
+  },
+  {
+    "id": "g4",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches ist das größte heute lebende Tier?",
+    "options": [
+      "Afrikanischer Elefant",
+      "Blauwal",
+      "Pottwal",
+      "Walhai"
+    ],
+    "correct_index": 1,
+    "explanation": "Blauwale werden rund 30 Meter lang und weit über 100 Tonnen schwer.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Blauwal",
+    "source_url": "https://de.wikipedia.org/wiki/Blauwal",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-07T12:00:00Z",
+    "demo_popularity": 42,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest animal alive today?",
+        "options": [
+          "African elephant",
+          "Blue whale",
+          "Sperm whale",
+          "Whale shark"
+        ],
+        "explanation": "Blue whales grow to about 30 metres and weigh well over 100 tonnes."
+      }
+    }
+  },
+  {
+    "id": "g5",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie viele Herzen hat ein Oktopus?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Zwei Kiemenherzen und ein Hauptherz – zusammen drei.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Kraken",
+    "source_url": "https://de.wikipedia.org/wiki/Kraken",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-09T12:00:00Z",
+    "demo_popularity": 31,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many hearts does an octopus have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "8"
+        ],
+        "explanation": "Two gill hearts and one main heart – three in total."
+      }
+    }
+  },
+  {
+    "id": "e1",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was misst das Bruttoinlandsprodukt (BIP)?",
+    "options": [
+      "Die Staatsschulden",
+      "Den Wert aller im Inland erzeugten Waren und Dienstleistungen",
+      "Den Exportüberschuss",
+      "Das Durchschnittseinkommen"
+    ],
+    "correct_index": 1,
+    "explanation": "Das BIP fasst zusammen, was in einem Zeitraum im Inland an Gütern und Dienstleistungen entsteht.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Bruttoinlandsprodukt",
+    "source_url": "https://de.wikipedia.org/wiki/Bruttoinlandsprodukt",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-27T12:00:00Z",
+    "demo_popularity": 17,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does gross domestic product (GDP) measure?",
+        "options": [
+          "Government debt",
+          "The value of all goods and services produced within a country",
+          "The export surplus",
+          "Average income"
+        ],
+        "explanation": "GDP sums up the goods and services produced within a country in a given period."
+      }
+    }
+  },
+  {
+    "id": "e2",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Seit welchem Jahr gibt es Euro-Bargeld?",
+    "options": [
+      "1999",
+      "2000",
+      "2002",
+      "2004"
+    ],
+    "correct_index": 2,
+    "explanation": "Als Buchgeld startete der Euro 1999, Münzen und Scheine kamen am 1. Januar 2002.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Euro",
+    "source_url": "https://de.wikipedia.org/wiki/Euro",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-03T12:00:00Z",
+    "demo_popularity": 24,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since which year has euro cash existed?",
+        "options": [
+          "1999",
+          "2000",
+          "2002",
+          "2004"
+        ],
+        "explanation": "The euro started as book money in 1999; coins and notes followed on 1 January 2002."
+      }
+    }
+  },
+  {
+    "id": "e3",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was beschreibt der Begriff „Inflation“?",
+    "options": [
+      "Sinkende Preise",
+      "Einen Anstieg des allgemeinen Preisniveaus",
+      "Steigende Zinsen",
+      "Wachsende Arbeitslosigkeit"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei Inflation steigen die Preise auf breiter Front – die Kaufkraft des Geldes sinkt.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Inflation",
+    "source_url": "https://de.wikipedia.org/wiki/Inflation",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-09T12:00:00Z",
+    "demo_popularity": 26,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the term “inflation” describe?",
+        "options": [
+          "Falling prices",
+          "A rise in the general price level",
+          "Rising interest rates",
+          "Growing unemployment"
+        ],
+        "explanation": "During inflation, prices rise across the board – the purchasing power of money falls."
+      }
+    }
+  },
+  {
+    "id": "e4",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist eine Aktie?",
+    "options": [
+      "Ein Kredit an den Staat",
+      "Ein Anteil an einem Unternehmen",
+      "Eine Versicherungspolice",
+      "Ein Sparbuch mit festem Zins"
+    ],
+    "correct_index": 1,
+    "explanation": "Wer eine Aktie hält, ist Miteigentümer einer Aktiengesellschaft.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Aktie",
+    "source_url": "https://de.wikipedia.org/wiki/Aktie",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-05T12:00:00Z",
+    "demo_popularity": 20,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a share?",
+        "options": [
+          "A loan to the state",
+          "A stake in a company",
+          "An insurance policy",
+          "A fixed-interest savings account"
+        ],
+        "explanation": "Whoever holds a share is a co-owner of a public company."
+      }
+    }
+  },
+  {
+    "id": "e5",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bedeutet der Zinseszinseffekt?",
+    "options": [
+      "Zinsen werden nur einmal gezahlt",
+      "Auch bereits gutgeschriebene Zinsen werden verzinst",
+      "Zinsen sinken mit der Zeit",
+      "Zinsen werden doppelt besteuert"
+    ],
+    "correct_index": 1,
+    "explanation": "Weil Zinsen mitverzinst werden, wächst ein Guthaben über lange Zeit immer schneller.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Zinseszins",
+    "source_url": "https://de.wikipedia.org/wiki/Zinseszins",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-10T12:00:00Z",
+    "demo_popularity": 23,
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the compound interest effect mean?",
+        "options": [
+          "Interest is paid only once",
+          "Interest already credited also earns interest",
+          "Interest falls over time",
+          "Interest is taxed twice"
+        ],
+        "explanation": "Because interest earns interest, savings grow faster and faster over long periods."
+      }
+    }
+  },
+  {
+    "id": "e6",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welche Institution legt die Leitzinsen im Euroraum fest?",
+    "options": [
+      "Die EU-Kommission",
+      "Die Europäische Zentralbank",
+      "Die Bundesbank",
+      "Der Internationale Währungsfonds"
+    ],
+    "correct_index": 1,
+    "explanation": "Der EZB-Rat in Frankfurt am Main entscheidet über die Geldpolitik des Euroraums.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Europäische Zentralbank",
+    "source_url": "https://de.wikipedia.org/wiki/Europäische_Zentralbank",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-02T12:00:00Z",
+    "demo_popularity": 12,
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which institution sets key interest rates in the euro area?",
+        "options": [
+          "The EU Commission",
+          "The European Central Bank",
+          "The Bundesbank",
+          "The International Monetary Fund"
+        ],
+        "explanation": "The ECB's Governing Council in Frankfurt am Main decides on monetary policy for the euro area."
+      }
+    }
+  },
+  {
+    "id": "c1",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer malte die „Mona Lisa“?",
+    "options": [
+      "Michelangelo",
+      "Raffael",
+      "Leonardo da Vinci",
+      "Botticelli"
+    ],
+    "correct_index": 2,
+    "explanation": "Leonardo malte sie Anfang des 16. Jahrhunderts; heute hängt sie im Louvre.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Mona Lisa",
+    "source_url": "https://de.wikipedia.org/wiki/Mona_Lisa",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-25T12:00:00Z",
+    "demo_popularity": 38,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who painted the “Mona Lisa”?",
+        "options": [
+          "Michelangelo",
+          "Raffael",
+          "Leonardo da Vinci",
+          "Botticelli"
+        ],
+        "explanation": "Leonardo painted it in the early 16th century; today it hangs in the Louvre."
+      }
+    }
+  },
+  {
+    "id": "c2",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer schrieb „Faust“?",
+    "options": [
+      "Friedrich Schiller",
+      "Johann Wolfgang von Goethe",
+      "Heinrich Heine",
+      "Thomas Mann"
+    ],
+    "correct_index": 1,
+    "explanation": "Goethes „Faust“ erschien in zwei Teilen, 1808 und 1832.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Johann Wolfgang von Goethe",
+    "source_url": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-08-30T12:00:00Z",
+    "demo_popularity": 20,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote “Faust”?",
+        "options": [
+          "Friedrich Schiller",
+          "Johann Wolfgang von Goethe",
+          "Heinrich Heine",
+          "Thomas Mann"
+        ],
+        "explanation": "Goethe's “Faust” was published in two parts, in 1808 and 1832."
+      }
+    }
+  },
+  {
+    "id": "c3",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Sinfonien hat Beethoven vollendet?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "correct_index": 2,
+    "explanation": "Neun. Die letzte enthält die „Ode an die Freude“.",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Ludwig van Beethoven",
+    "source_url": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-30T12:00:00Z",
+    "demo_popularity": 14,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many symphonies did Beethoven complete?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "12"
+        ],
+        "explanation": "Nine. The last one contains the “Ode to Joy”."
+      }
+    }
+  },
+  {
+    "id": "c4",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Mitgliedstaaten hat die Europäische Union?",
+    "options": [
+      "25",
+      "27",
+      "28",
+      "30"
+    ],
+    "correct_index": 1,
+    "explanation": "Seit dem Austritt des Vereinigten Königreichs 2020 sind es 27.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Europäische Union",
+    "source_url": "https://de.wikipedia.org/wiki/Europäische_Union",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-08T12:00:00Z",
+    "demo_popularity": 28,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many member states does the European Union have?",
+        "options": [
+          "25",
+          "27",
+          "28",
+          "30"
+        ],
+        "explanation": "Since the United Kingdom left in 2020 there have been 27."
+      }
+    }
+  },
+  {
+    "id": "c5",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer wählt in Deutschland die Bundeskanzlerin oder den Bundeskanzler?",
+    "options": [
+      "Das Volk direkt",
+      "Der Bundesrat",
+      "Der Bundestag",
+      "Der Bundespräsident"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Bundestag wählt auf Vorschlag des Bundespräsidenten (Artikel 63 Grundgesetz).",
+    "difficulty": 2,
+    "tags": [],
+    "source_name": "Wikipedia: Bundeskanzler (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Bundeskanzler_(Deutschland)",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-23T12:00:00Z",
+    "demo_popularity": 21,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who elects the Federal Chancellor in Germany?",
+        "options": [
+          "The people directly",
+          "The Bundesrat",
+          "The Bundestag",
+          "The Federal President"
+        ],
+        "explanation": "The Bundestag elects the chancellor on the proposal of the Federal President (Article 63 of the Basic Law)."
+      }
+    }
+  },
+  {
+    "id": "c6",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt steht die Sagrada Família?",
+    "options": [
+      "Madrid",
+      "Barcelona",
+      "Lissabon",
+      "Rom"
+    ],
+    "correct_index": 1,
+    "explanation": "Antoni Gaudís Basilika in Barcelona ist seit 1882 im Bau.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Sagrada Família",
+    "source_url": "https://de.wikipedia.org/wiki/Sagrada_Família",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-06T12:00:00Z",
+    "demo_popularity": 25,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is the Sagrada Família?",
+        "options": [
+          "Madrid",
+          "Barcelona",
+          "Lisbon",
+          "Rome"
+        ],
+        "explanation": "Antoni Gaudí's basilica in Barcelona has been under construction since 1882."
+      }
+    }
+  },
+  {
+    "id": "sm1",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Menschen nutzen nur zehn Prozent ihres Gehirns.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein hartnäckiger Mythos. Bildgebende Verfahren zeigen, dass praktisch alle Hirnregionen aktiv sind – nur nicht alle gleichzeitig.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Zehn-Prozent-Mythos",
+    "source_url": "https://de.wikipedia.org/wiki/Zehn-Prozent-Mythos",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-09T12:00:00Z",
+    "demo_popularity": 47,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Humans use only ten percent of their brains.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "A persistent myth. Imaging shows that practically all brain regions are active – just not all at the same time."
+      }
+    }
+  },
+  {
+    "id": "sm2",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Ein Blitz schlägt nie zweimal an derselben Stelle ein.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Hohe Bauwerke werden regelmäßig mehrfach getroffen – das Empire State Building etwa rund zwanzigmal pro Jahr.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Blitz",
+    "source_url": "https://de.wikipedia.org/wiki/Blitz",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-02T12:00:00Z",
+    "demo_popularity": 30,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Lightning never strikes the same place twice.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Tall structures are struck repeatedly – the Empire State Building about twenty times a year."
+      }
+    }
+  },
+  {
+    "id": "tm1",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "Das Internet und das World Wide Web sind dasselbe.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Internet ist das weltweite Netz aus Rechnern. Das Web ist nur ein Dienst darin – neben E-Mail und vielen anderen.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: World Wide Web",
+    "source_url": "https://de.wikipedia.org/wiki/World_Wide_Web",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-07T12:00:00Z",
+    "demo_popularity": 22,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The internet and the World Wide Web are the same thing.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The internet is the worldwide network of computers. The web is only one service on it – alongside email and many others."
+      }
+    }
+  },
+  {
+    "id": "hm1",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Die Chinesische Mauer ist vom Mond aus mit bloßem Auge zu sehen.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Dafür ist sie viel zu schmal. Selbst aus einer niedrigen Erdumlaufbahn ist sie mit bloßem Auge kaum auszumachen.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Chinesische Mauer",
+    "source_url": "https://de.wikipedia.org/wiki/Chinesische_Mauer",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-05T12:00:00Z",
+    "demo_popularity": 41,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Great Wall of China can be seen from the Moon with the naked eye.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "It is far too narrow for that. Even from low Earth orbit it can hardly be made out with the naked eye."
+      }
+    }
+  },
+  {
+    "id": "gm1",
+    "kind": "fact",
+    "category_id": "earth",
+    "question": "Der Gipfel des Mount Everest ist der Punkt der Erde, der am weitesten vom Erdmittelpunkt entfernt ist.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Everest ist der höchste Berg über dem Meeresspiegel. Weil die Erde am Äquator dicker ist, liegt aber der Gipfel des Chimborazo in Ecuador weiter vom Erdmittelpunkt entfernt.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Chimborazo",
+    "source_url": "https://de.wikipedia.org/wiki/Chimborazo",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-08T12:00:00Z",
+    "demo_popularity": 36,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The summit of Mount Everest is the point on Earth farthest from the Earth's centre.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Everest is the highest mountain above sea level. But because the Earth bulges at the equator, the summit of Chimborazo in Ecuador is farther from the centre."
+      }
+    }
+  },
+  {
+    "id": "gf1",
+    "kind": "fact",
+    "category_id": "earth",
+    "question": "Bananen sind botanisch gesehen Beeren – Erdbeeren dagegen nicht.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Botanisch ist eine Beere eine Frucht, die aus einem einzigen Fruchtknoten entsteht – wie bei der Banane. Die Erdbeere ist eine Sammelnussfrucht.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Beere",
+    "source_url": "https://de.wikipedia.org/wiki/Beere",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-01T12:00:00Z",
+    "demo_popularity": 34,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Botanically, bananas are berries – but strawberries are not.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Botanically, a berry is a fruit that develops from a single ovary – like the banana. The strawberry is an aggregate fruit."
+      }
+    }
+  },
+  {
+    "id": "em1",
+    "kind": "fact",
+    "category_id": "economy",
+    "question": "Monopoly wurde erfunden, um den Kapitalismus zu feiern.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Gegenteil: Der Vorläufer „The Landlord's Game“ von Elizabeth Magie (1904) sollte zeigen, wie Monopole auf Grundbesitz die Mehrheit verarmen lassen.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Monopoly",
+    "source_url": "https://de.wikipedia.org/wiki/Monopoly",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-06T12:00:00Z",
+    "demo_popularity": 38,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Monopoly was invented to celebrate capitalism.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "On the contrary: its forerunner, “The Landlord's Game” by Elizabeth Magie (1904), was meant to show how land monopolies impoverish the majority."
+      }
+    }
+  },
+  {
+    "id": "ef1",
+    "kind": "fact",
+    "category_id": "economy",
+    "question": "Der größte Teil des Geldes existiert nur als Zahl auf Konten, nicht als Bargeld.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Scheine und Münzen machen nur einen kleinen Teil der Geldmenge aus. Der Rest ist Buchgeld, das Banken bei der Kreditvergabe schaffen.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Buchgeld",
+    "source_url": "https://de.wikipedia.org/wiki/Buchgeld",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-26T12:00:00Z",
+    "demo_popularity": 18,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Most money exists only as numbers in accounts, not as cash.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Notes and coins make up only a small part of the money supply. The rest is book money that banks create when they lend."
+      }
+    }
+  },
+  {
+    "id": "cm1",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Wikinger trugen Helme mit Hörnern.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Dafür gibt es keinen archäologischen Beleg. Das Bild stammt vor allem aus dem 19. Jahrhundert – etwa von Kostümen für Wagner-Opern.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Wikingerhelm",
+    "source_url": "https://de.wikipedia.org/wiki/Wikingerhelm",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-10T12:00:00Z",
+    "demo_popularity": 45,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Vikings wore helmets with horns.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "There is no archaeological evidence for this. The image comes mainly from the 19th century – for example from costumes for Wagner operas."
+      }
+    }
+  },
+  {
+    "id": "cf1",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Die Europahymne stammt aus Beethovens neunter Sinfonie.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Melodie der „Ode an die Freude“ aus dem letzten Satz ist seit 1985 die offizielle Hymne der Europäischen Union.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Europahymne",
+    "source_url": "https://de.wikipedia.org/wiki/Europahymne",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-21T12:00:00Z",
+    "demo_popularity": 15,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The European anthem comes from Beethoven's Ninth Symphony.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The melody of the “Ode to Joy” from the final movement has been the official anthem of the European Union since 1985."
+      }
+    }
+  },
+  {
+    "id": "sf1",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "In dir leben etwa so viele Bakterien, wie du eigene Zellen hast.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Lange hieß es, Bakterien seien zehnfach in der Überzahl. Eine Neuberechnung von 2016 kommt auf ein Verhältnis von ungefähr eins zu eins – rund 38 Billionen Bakterien auf 30 Billionen Körperzellen.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Sender, Fuchs & Milo, PLOS Biology (2016)",
+    "source_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002533",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-10T12:00:00Z",
+    "demo_popularity": 44,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About as many bacteria live in you as you have cells of your own.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "It was long said that bacteria outnumber cells ten to one. A 2016 recalculation arrives at a ratio of roughly one to one – about 38 trillion bacteria to 30 trillion body cells."
+      }
+    }
+  },
+  {
+    "id": "sf2",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Auf der Venus dauert ein Tag länger als ein Jahr.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Für eine Drehung um die eigene Achse braucht die Venus rund 243 Erdtage, für einen Umlauf um die Sonne nur etwa 225.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Venus (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Venus_(Planet)",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-03T12:00:00Z",
+    "demo_popularity": 39,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On Venus, a day lasts longer than a year.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Venus needs about 243 Earth days to rotate once on its axis, but only about 225 to orbit the Sun."
+      }
+    }
+  },
+  {
+    "id": "sf3",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Wasser ist bei 4 °C am dichtesten – darum frieren Seen von oben zu.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Kälteres Wasser ist leichter und bleibt oben, wo sich Eis bildet. Am Grund hält sich 4 °C warmes Wasser, in dem Fische überwintern.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Dichteanomalie",
+    "source_url": "https://de.wikipedia.org/wiki/Dichteanomalie",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-20T12:00:00Z",
+    "demo_popularity": 18,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Water is densest at 4 °C – which is why lakes freeze from the top.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Colder water is lighter and stays on top, where ice forms. Water at 4 °C remains at the bottom, where fish survive the winter."
+      }
+    }
+  },
+  {
+    "id": "tf1",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "Der berühmteste Computer-„Bug“ war eine echte Motte.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "1947 fand das Team um Grace Hopper eine Motte in einem Relais des Harvard Mark II und klebte sie ins Logbuch. Der Begriff „Bug“ für technische Fehler war allerdings schon vorher gebräuchlich.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Programmfehler",
+    "source_url": "https://de.wikipedia.org/wiki/Programmfehler",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-06T12:00:00Z",
+    "demo_popularity": 31,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The most famous computer “bug” was a real moth.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "In 1947 Grace Hopper's team found a moth in a relay of the Harvard Mark II and taped it into the logbook. The term “bug” for technical faults was, however, already in use."
+      }
+    }
+  },
+  {
+    "id": "tf2",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "Der Bordcomputer von Apollo 11 kam mit rund 4 Kilobyte Arbeitsspeicher aus.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Apollo Guidance Computer hatte 2048 Wörter beschreibbaren Speicher – ein heutiges Smartphone hat millionenfach mehr.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Apollo Guidance Computer",
+    "source_url": "https://de.wikipedia.org/wiki/Apollo_Guidance_Computer",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-30T12:00:00Z",
+    "demo_popularity": 35,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Apollo 11 on-board computer got by with about 4 kilobytes of working memory.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The Apollo Guidance Computer had 2,048 words of erasable memory – a modern smartphone has millions of times more."
+      }
+    }
+  },
+  {
+    "id": "tf3",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "Sprachmodelle können überzeugend klingen und trotzdem falschliegen.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie erzeugen Text, der statistisch plausibel ist. Fehlt verlässliches Wissen, entstehen mitunter erfundene Details – sogenannte Halluzinationen. Deshalb zählen Quellen.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Halluzination (Künstliche Intelligenz)",
+    "source_url": "https://de.wikipedia.org/wiki/Halluzination_(Künstliche_Intelligenz)",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-11T12:00:00Z",
+    "demo_popularity": 26,
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Language models can sound convincing and still be wrong.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "They generate text that is statistically plausible. Without reliable knowledge, they sometimes produce invented details – so-called hallucinations. That is why sources matter."
+      }
+    }
+  },
+  {
+    "id": "hf1",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Kleopatra lebte näher an der Mondlandung als am Bau der Cheops-Pyramide.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Pyramide entstand um 2560 v. Chr., Kleopatra starb 30 v. Chr. – gut 2500 Jahre später. Bis zur Mondlandung 1969 waren es nur rund 2000 Jahre.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Kleopatra VII.",
+    "source_url": "https://de.wikipedia.org/wiki/Kleopatra_VII.",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-10-08T12:00:00Z",
+    "demo_popularity": 52,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The pyramid was built around 2560 BC; Cleopatra died in 30 BC – a good 2,500 years later. Only about 2,000 years passed until the Moon landing in 1969."
+      }
+    }
+  },
+  {
+    "id": "hf2",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Die Universität Oxford ist älter als das Reich der Azteken.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "In Oxford wurde bereits um 1096 gelehrt. Tenochtitlan, die Hauptstadt der Azteken, wurde erst um 1325 gegründet.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: University of Oxford",
+    "source_url": "https://de.wikipedia.org/wiki/University_of_Oxford",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-28T12:00:00Z",
+    "demo_popularity": 33,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The University of Oxford is older than the Aztec Empire.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Teaching took place in Oxford as early as 1096. Tenochtitlan, the Aztec capital, was not founded until about 1325."
+      }
+    }
+  },
+  {
+    "id": "hf3",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Der kürzeste Krieg der Geschichte dauerte weniger als eine Stunde.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Britisch-Sansibarische Krieg am 27. August 1896 war nach rund 38 Minuten vorbei.",
+    "difficulty": 1,
+    "tags": [],
+    "source_name": "Wikipedia: Britisch-Sansibarischer Krieg",
+    "source_url": "https://de.wikipedia.org/wiki/Britisch-Sansibarischer_Krieg",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "created_at": "2026-09-25T12:00:00Z",
+    "demo_popularity": 28,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The shortest war in history lasted less than an hour.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The Anglo-Zanzibar War of 27 August 1896 was over after about 38 minutes."
+      }
+    }
+  },
+  {
+    "id": "q-v-venus",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie lange braucht die Venus für eine Drehung um sich selbst?",
+    "options": [
+      "24 Stunden",
+      "88 Erdtage",
+      "243 Erdtage",
+      "687 Erdtage"
+    ],
+    "correct_index": 2,
+    "explanation": "Rund 243 Erdtage – länger als ihr Umlauf um die Sonne mit etwa 225 Erdtagen.",
+    "difficulty": 1,
+    "tags": [
+      "Planeten",
+      "Sonnensystem"
+    ],
+    "source_name": "Wikipedia: Venus (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Venus_(Planet)",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "created_at": "2026-10-09T12:00:00Z",
+    "demo_popularity": 0,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does Venus take to rotate once on its axis?",
+        "options": [
+          "24 hours",
+          "88 Earth days",
+          "243 Earth days",
+          "687 Earth days"
+        ],
+        "explanation": "About 243 Earth days – longer than its orbit around the Sun of about 225 Earth days."
+      }
+    }
+  },
+  {
+    "id": "q-v-kleopatra",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wann entstand die Cheops-Pyramide ungefähr?",
+    "options": [
+      "um 2560 v. Chr.",
+      "um 1200 v. Chr.",
+      "um 500 v. Chr.",
+      "um 30 v. Chr."
+    ],
+    "correct_index": 0,
+    "explanation": "Um 2560 v. Chr. – etwa 2500 Jahre vor Kleopatras Zeit.",
+    "difficulty": 1,
+    "tags": [
+      "Ägypten",
+      "Zeitgefühl"
+    ],
+    "source_name": "Wikipedia: Kleopatra VII.",
+    "source_url": "https://de.wikipedia.org/wiki/Kleopatra_VII.",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "created_at": "2026-10-08T12:00:00Z",
+    "demo_popularity": 0,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly when was the Great Pyramid of Giza built?",
+        "options": [
+          "around 2560 BC",
+          "around 1200 BC",
+          "around 500 BC",
+          "around 30 BC"
+        ],
+        "explanation": "Around 2560 BC – about 2,500 years before Cleopatra's time."
+      }
+    }
+  },
+  {
+    "id": "q-v-apollo",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie viel Arbeitsspeicher hatte der Apollo-Bordcomputer ungefähr?",
+    "options": [
+      "4 Kilobyte",
+      "4 Megabyte",
+      "64 Megabyte",
+      "1 Gigabyte"
+    ],
+    "correct_index": 0,
+    "explanation": "Rund 4 Kilobyte – 2048 Wörter beschreibbarer Speicher.",
+    "difficulty": 1,
+    "tags": [
+      "Raumfahrt",
+      "Computer"
+    ],
+    "source_name": "Wikipedia: Apollo Guidance Computer",
+    "source_url": "https://de.wikipedia.org/wiki/Apollo_Guidance_Computer",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "created_at": "2026-10-10T12:00:00Z",
+    "demo_popularity": 0,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how much working memory did the Apollo on-board computer have?",
+        "options": [
+          "4 kilobytes",
+          "4 megabytes",
+          "64 megabytes",
+          "1 gigabyte"
+        ],
+        "explanation": "About 4 kilobytes – 2,048 words of erasable memory."
+      }
+    }
+  },
+  {
+    "id": "q-v-luft",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Gas macht den größten Teil der Luft aus?",
+    "options": [
+      "Sauerstoff",
+      "Stickstoff",
+      "Kohlendioxid",
+      "Wasserstoff"
+    ],
+    "correct_index": 1,
+    "explanation": "Stickstoff, mit rund 78 %.",
+    "difficulty": 1,
+    "tags": [
+      "Atmosphäre",
+      "Chemie"
+    ],
+    "source_name": "Wikipedia: Erdatmosphäre",
+    "source_url": "https://de.wikipedia.org/wiki/Erdatmosphäre",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "created_at": "2026-10-05T12:00:00Z",
+    "demo_popularity": 0,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which gas makes up most of the air?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "explanation": "Nitrogen, at about 78%."
+      }
+    }
+  },
+  {
+    "id": "q-v-ozean",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie viel der Erdoberfläche ist von Wasser bedeckt?",
+    "options": [
+      "etwa 50 %",
+      "etwa 60 %",
+      "etwa 71 %",
+      "etwa 90 %"
+    ],
+    "correct_index": 2,
+    "explanation": "Etwa 71 % – deshalb heißt die Erde auch der blaue Planet.",
+    "difficulty": 1,
+    "tags": [
+      "Ozeane",
+      "Geografie"
+    ],
+    "source_name": "Wikipedia: Erde",
+    "source_url": "https://de.wikipedia.org/wiki/Erde",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "created_at": "2026-10-07T12:00:00Z",
+    "demo_popularity": 0,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How much of the Earth's surface is covered by water?",
+        "options": [
+          "about 50%",
+          "about 60%",
+          "about 71%",
+          "about 90%"
+        ],
+        "explanation": "About 71% – which is why Earth is also called the blue planet."
+      }
+    }
+  },
+  {
+    "id": "q-v-oxford",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wann wurde Tenochtitlan, die Hauptstadt der Azteken, gegründet?",
+    "options": [
+      "um 800",
+      "um 1096",
+      "um 1325",
+      "um 1521"
+    ],
+    "correct_index": 2,
+    "explanation": "Um 1325. 1521 wurde die Stadt von den Spaniern erobert.",
+    "difficulty": 1,
+    "tags": [
+      "Mittelalter",
+      "Zeitgefühl"
+    ],
+    "source_name": "Wikipedia: University of Oxford",
+    "source_url": "https://de.wikipedia.org/wiki/University_of_Oxford",
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "created_at": "2026-10-03T12:00:00Z",
+    "demo_popularity": 0,
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When was Tenochtitlan, the capital of the Aztecs, founded?",
+        "options": [
+          "around 800",
+          "around 1096",
+          "around 1325",
+          "around 1521"
+        ],
+        "explanation": "Around 1325. In 1521 the city was conquered by the Spanish."
+      }
+    }
+  },
+  {
+    "id": "s9",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie viele Planeten hat unser Sonnensystem?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_index": 1,
+    "explanation": "Acht. Pluto gilt seit 2006 als Zwergplanet.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonnensystem",
+    "source_url": "https://de.wikipedia.org/wiki/Sonnensystem",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many planets are in our solar system?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "explanation": "Eight. Pluto has been classified as a dwarf planet since 2006."
+      }
+    }
+  },
+  {
+    "id": "s10",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Organ pumpt das Blut durch den Körper?",
+    "options": [
+      "Lunge",
+      "Leber",
+      "Herz",
+      "Niere"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Herz schlägt beim Erwachsenen in Ruhe etwa 60- bis 80-mal pro Minute.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Herz",
+    "source_url": "https://de.wikipedia.org/wiki/Herz",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which organ pumps blood through the body?",
+        "options": [
+          "Lungs",
+          "Liver",
+          "Heart",
+          "Kidney"
+        ],
+        "explanation": "An adult heart at rest beats about 60 to 80 times per minute."
+      }
+    }
+  },
+  {
+    "id": "s11",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wofür steht die chemische Formel H₂O?",
+    "options": [
+      "Sauerstoff",
+      "Wasser",
+      "Kochsalz",
+      "Wasserstoff"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Wassermolekül besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasser",
+    "source_url": "https://de.wikipedia.org/wiki/Wasser",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the chemical formula H₂O stand for?",
+        "options": [
+          "Oxygen",
+          "Water",
+          "Table salt",
+          "Hydrogen"
+        ],
+        "explanation": "A water molecule consists of two hydrogen atoms and one oxygen atom."
+      }
+    }
+  },
+  {
+    "id": "s12",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wer formulierte die Relativitätstheorie?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Niels Bohr",
+      "Max Planck"
+    ],
+    "correct_index": 1,
+    "explanation": "Einstein veröffentlichte 1905 die spezielle und 1915 die allgemeine Relativitätstheorie.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Relativitätstheorie",
+    "source_url": "https://de.wikipedia.org/wiki/Relativitätstheorie",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who formulated the theory of relativity?",
+        "options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Niels Bohr",
+          "Max Planck"
+        ],
+        "explanation": "Einstein published special relativity in 1905 and general relativity in 1915."
+      }
+    }
+  },
+  {
+    "id": "s13",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie schnell ist Licht im Vakuum ungefähr?",
+    "options": [
+      "300 km/s",
+      "3.000 km/s",
+      "300.000 km/s",
+      "3 Millionen km/s"
+    ],
+    "correct_index": 2,
+    "explanation": "Rund 299.792 Kilometer pro Sekunde – nichts ist schneller.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lichtgeschwindigkeit",
+    "source_url": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how fast does light travel in a vacuum?",
+        "options": [
+          "300 km/s",
+          "3,000 km/s",
+          "300,000 km/s",
+          "3 million km/s"
+        ],
+        "explanation": "About 299,792 kilometres per second – nothing is faster."
+      }
+    }
+  },
+  {
+    "id": "s14",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Element hat die Ordnungszahl 1?",
+    "options": [
+      "Helium",
+      "Wasserstoff",
+      "Sauerstoff",
+      "Kohlenstoff"
+    ],
+    "correct_index": 1,
+    "explanation": "Wasserstoff ist das leichteste und häufigste Element im Universum.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserstoff",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserstoff",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which element has the atomic number 1?",
+        "options": [
+          "Helium",
+          "Hydrogen",
+          "Oxygen",
+          "Carbon"
+        ],
+        "explanation": "Hydrogen is the lightest and most abundant element in the universe."
+      }
+    }
+  },
+  {
+    "id": "s15",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welcher Planet ist der Sonne am nächsten?",
+    "options": [
+      "Venus",
+      "Merkur",
+      "Mars",
+      "Erde"
+    ],
+    "correct_index": 1,
+    "explanation": "Merkur umrundet die Sonne in nur 88 Tagen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Merkur (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Merkur_(Planet)",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which planet is closest to the Sun?",
+        "options": [
+          "Venus",
+          "Mercury",
+          "Mars",
+          "Earth"
+        ],
+        "explanation": "Mercury orbits the Sun in just 88 days."
+      }
+    }
+  },
+  {
+    "id": "s16",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was wird in der Einheit Hertz gemessen?",
+    "options": [
+      "Druck",
+      "Frequenz",
+      "Stromstärke",
+      "Helligkeit"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Hertz bedeutet eine Schwingung pro Sekunde.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hertz (Einheit)",
+    "source_url": "https://de.wikipedia.org/wiki/Hertz_(Einheit)",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is measured in hertz?",
+        "options": [
+          "Pressure",
+          "Frequency",
+          "Electric current",
+          "Brightness"
+        ],
+        "explanation": "One hertz means one cycle per second."
+      }
+    }
+  },
+  {
+    "id": "s17",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie heißt der Vorgang, bei dem Pflanzen mit Licht Zucker herstellen?",
+    "options": [
+      "Fotosynthese",
+      "Osmose",
+      "Gärung",
+      "Verdunstung"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei der Fotosynthese entstehen aus Wasser und Kohlendioxid Zucker und Sauerstoff.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Photosynthese",
+    "source_url": "https://de.wikipedia.org/wiki/Photosynthese",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the process called in which plants use light to make sugar?",
+        "options": [
+          "Photosynthesis",
+          "Osmosis",
+          "Fermentation",
+          "Evaporation"
+        ],
+        "explanation": "In photosynthesis, water and carbon dioxide are turned into sugar and oxygen."
+      }
+    }
+  },
+  {
+    "id": "s18",
+    "kind": "question",
+    "category_id": "science",
+    "question": "In welchem Molekül ist die Erbinformation des Menschen gespeichert?",
+    "options": [
+      "Eiweiß",
+      "DNA",
+      "Fett",
+      "Zucker"
+    ],
+    "correct_index": 1,
+    "explanation": "Die DNA enthält den Bauplan für den gesamten Körper.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Desoxyribonukleinsäure",
+    "source_url": "https://de.wikipedia.org/wiki/Desoxyribonukleinsäure",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which molecule stores human genetic information?",
+        "options": [
+          "Protein",
+          "DNA",
+          "Fat",
+          "Sugar"
+        ],
+        "explanation": "DNA contains the blueprint for the entire body."
+      }
+    }
+  },
+  {
+    "id": "s19",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Kraft hält die Planeten auf ihrer Bahn um die Sonne?",
+    "options": [
+      "Magnetismus",
+      "Gravitation",
+      "Reibung",
+      "Elektrizität"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Anziehungskraft der Sonne hält die Planeten auf ihren Bahnen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gravitation",
+    "source_url": "https://de.wikipedia.org/wiki/Gravitation",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which force keeps the planets in orbit around the Sun?",
+        "options": [
+          "Magnetism",
+          "Gravity",
+          "Friction",
+          "Electricity"
+        ],
+        "explanation": "The Sun's gravitational pull keeps the planets in their orbits."
+      }
+    }
+  },
+  {
+    "id": "s20",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie alt ist das Universum nach heutigem Wissen ungefähr?",
+    "options": [
+      "4,5 Milliarden Jahre",
+      "13,8 Milliarden Jahre",
+      "100 Milliarden Jahre",
+      "1 Billion Jahre"
+    ],
+    "correct_index": 1,
+    "explanation": "Rund 13,8 Milliarden Jahre. Die Erde ist mit etwa 4,5 Milliarden Jahren deutlich jünger.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Universum",
+    "source_url": "https://de.wikipedia.org/wiki/Universum",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About how old is the universe according to current knowledge?",
+        "options": [
+          "4.5 billion years",
+          "13.8 billion years",
+          "100 billion years",
+          "1 trillion years"
+        ],
+        "explanation": "About 13.8 billion years. Earth, at roughly 4.5 billion years, is much younger."
+      }
+    }
+  },
+  {
+    "id": "ks1",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie viele Beine hat eine Spinne?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correct_index": 1,
+    "explanation": "Spinnen haben acht Beine. Insekten haben nur sechs.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spinnentiere",
+    "source_url": "https://de.wikipedia.org/wiki/Spinnentiere",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "How many legs does a spider have?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "explanation": "Spiders have eight legs. Insects have only six."
+      }
+    }
+  },
+  {
+    "id": "ks2",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was braucht eine Pflanze zum Wachsen?",
+    "options": [
+      "Licht und Wasser",
+      "Nur Dunkelheit",
+      "Zucker",
+      "Sand"
+    ],
+    "correct_index": 0,
+    "explanation": "Pflanzen brauchen Licht, Wasser und Luft, um zu wachsen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pflanzen",
+    "source_url": "https://de.wikipedia.org/wiki/Pflanzen",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What does a plant need to grow?",
+        "options": [
+          "Light and water",
+          "Only darkness",
+          "Sugar",
+          "Sand"
+        ],
+        "explanation": "Plants need light, water and air to grow."
+      }
+    }
+  },
+  {
+    "id": "ks3",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Farbe entsteht, wenn man Blau und Gelb mischt?",
+    "options": [
+      "Grün",
+      "Lila",
+      "Orange",
+      "Braun"
+    ],
+    "correct_index": 0,
+    "explanation": "Blau und Gelb ergeben zusammen Grün.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Farbmischung",
+    "source_url": "https://de.wikipedia.org/wiki/Farbmischung",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "Which colour do you get when you mix blue and yellow?",
+        "options": [
+          "Green",
+          "Purple",
+          "Orange",
+          "Brown"
+        ],
+        "explanation": "Blue and yellow together make green."
+      }
+    }
+  },
+  {
+    "id": "ks4",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was umkreist die Erde und leuchtet nachts am Himmel?",
+    "options": [
+      "Die Sonne",
+      "Der Mond",
+      "Der Mars",
+      "Eine Wolke"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Mond umkreist die Erde etwa einmal im Monat.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mond",
+    "source_url": "https://de.wikipedia.org/wiki/Mond",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What orbits the Earth and shines in the night sky?",
+        "options": [
+          "The Sun",
+          "The Moon",
+          "Mars",
+          "A cloud"
+        ],
+        "explanation": "The Moon orbits the Earth about once a month."
+      }
+    }
+  },
+  {
+    "id": "t10",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht die Abkürzung „KI“?",
+    "options": [
+      "Künstliche Intelligenz",
+      "Kleine Information",
+      "Komplexe Infrastruktur",
+      "Kabelloses Internet"
+    ],
+    "correct_index": 0,
+    "explanation": "KI bezeichnet Computersysteme, die Aufgaben lösen, für die sonst menschliche Intelligenz nötig wäre.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Künstliche Intelligenz",
+    "source_url": "https://de.wikipedia.org/wiki/Künstliche_Intelligenz",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the abbreviation “AI” stand for?",
+        "options": [
+          "Artificial intelligence",
+          "Additional information",
+          "Automated infrastructure",
+          "Advanced internet"
+        ],
+        "explanation": "AI refers to computer systems that solve tasks which would otherwise require human intelligence."
+      }
+    }
+  },
+  {
+    "id": "t11",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches Unternehmen stellte 2007 das erste iPhone vor?",
+    "options": [
+      "Samsung",
+      "Apple",
+      "Nokia",
+      "Google"
+    ],
+    "correct_index": 1,
+    "explanation": "Steve Jobs präsentierte das iPhone im Januar 2007.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: IPhone",
+    "source_url": "https://de.wikipedia.org/wiki/IPhone",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which company introduced the first iPhone in 2007?",
+        "options": [
+          "Samsung",
+          "Apple",
+          "Nokia",
+          "Google"
+        ],
+        "explanation": "Steve Jobs presented the iPhone in January 2007."
+      }
+    }
+  },
+  {
+    "id": "t12",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Algorithmus?",
+    "options": [
+      "Ein Bauteil im Computer",
+      "Eine eindeutige Schritt-für-Schritt-Anleitung zur Lösung eines Problems",
+      "Ein Computervirus",
+      "Eine Programmiersprache"
+    ],
+    "correct_index": 1,
+    "explanation": "Auch ein Kochrezept ist im Grunde ein Algorithmus.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Algorithmus",
+    "source_url": "https://de.wikipedia.org/wiki/Algorithmus",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an algorithm?",
+        "options": [
+          "A computer component",
+          "A precise step-by-step procedure for solving a problem",
+          "A computer virus",
+          "A programming language"
+        ],
+        "explanation": "Even a cooking recipe is basically an algorithm."
+      }
+    }
+  },
+  {
+    "id": "t13",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Mit welchem Zahlensystem arbeiten Computer intern?",
+    "options": [
+      "Dezimalsystem",
+      "Binärsystem",
+      "Römische Zahlen",
+      "Zwölfersystem"
+    ],
+    "correct_index": 1,
+    "explanation": "Computer rechnen mit zwei Zuständen: 0 und 1.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dualsystem",
+    "source_url": "https://de.wikipedia.org/wiki/Dualsystem",
+    "created_at": "2026-09-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which number system do computers use internally?",
+        "options": [
+          "Decimal",
+          "Binary",
+          "Roman numerals",
+          "Base twelve"
+        ],
+        "explanation": "Computers calculate with two states: 0 and 1."
+      }
+    }
+  },
+  {
+    "id": "t14",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bedeutet es, Daten „in der Cloud“ zu speichern?",
+    "options": [
+      "Auf Servern im Internet",
+      "Auf einem USB-Stick",
+      "Im Arbeitsspeicher",
+      "Auf Papier"
+    ],
+    "correct_index": 0,
+    "explanation": "Cloud-Daten liegen in Rechenzentren und sind über das Internet abrufbar.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cloud Computing",
+    "source_url": "https://de.wikipedia.org/wiki/Cloud_Computing",
+    "created_at": "2026-09-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does it mean to store data “in the cloud”?",
+        "options": [
+          "On servers on the internet",
+          "On a USB stick",
+          "In working memory",
+          "On paper"
+        ],
+        "explanation": "Cloud data is kept in data centres and accessed over the internet."
+      }
+    }
+  },
+  {
+    "id": "t15",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was versteht man unter maschinellem Lernen?",
+    "options": [
+      "Computer lernen Muster aus Daten, statt feste Regeln zu befolgen",
+      "Maschinen reparieren sich selbst",
+      "Roboter lernen laufen",
+      "Menschen lernen an Maschinen"
+    ],
+    "correct_index": 0,
+    "explanation": "Das System wird mit Beispielen trainiert und erkennt darin Zusammenhänge.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maschinelles Lernen",
+    "source_url": "https://de.wikipedia.org/wiki/Maschinelles_Lernen",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is machine learning?",
+        "options": [
+          "Computers learn patterns from data instead of following fixed rules",
+          "Machines repair themselves",
+          "Robots learn to walk",
+          "People learn on machines"
+        ],
+        "explanation": "The system is trained on examples and detects relationships in them."
+      }
+    }
+  },
+  {
+    "id": "t16",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht die Abkürzung „URL“?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Record Link",
+      "User Registration Login",
+      "Unified Routing Layer"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine URL ist die Adresse einer Seite oder Datei im Internet.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Uniform Resource Locator",
+    "source_url": "https://de.wikipedia.org/wiki/Uniform_Resource_Locator",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “URL” stand for?",
+        "options": [
+          "Uniform Resource Locator",
+          "Universal Record Link",
+          "User Registration Login",
+          "Unified Routing Layer"
+        ],
+        "explanation": "A URL is the address of a page or file on the internet."
+      }
+    }
+  },
+  {
+    "id": "t17",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bedeutet „Open Source“?",
+    "options": [
+      "Der Quellcode der Software ist öffentlich einsehbar",
+      "Die Software ist eine kostenlose Testversion",
+      "Die Software braucht kein Passwort",
+      "Das WLAN ist unverschlüsselt"
+    ],
+    "correct_index": 0,
+    "explanation": "Jeder darf den Code lesen und je nach Lizenz verändern und weitergeben.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Open Source",
+    "source_url": "https://de.wikipedia.org/wiki/Open_Source",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “open source” mean?",
+        "options": [
+          "The software's source code is publicly available",
+          "The software is a free trial",
+          "The software needs no password",
+          "The Wi-Fi is unencrypted"
+        ],
+        "explanation": "Anyone may read the code and, depending on the licence, change and share it."
+      }
+    }
+  },
+  {
+    "id": "t18",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welche Erfindung von 1947 ist der Grundbaustein moderner Computerchips?",
+    "options": [
+      "Glühbirne",
+      "Transistor",
+      "Relais",
+      "Elektronenröhre"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Transistor wurde 1947 in den Bell Laboratories entwickelt.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Transistor",
+    "source_url": "https://de.wikipedia.org/wiki/Transistor",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which invention from 1947 is the basic building block of modern computer chips?",
+        "options": [
+          "Light bulb",
+          "Transistor",
+          "Relay",
+          "Vacuum tube"
+        ],
+        "explanation": "The transistor was developed at Bell Laboratories in 1947."
+      }
+    }
+  },
+  {
+    "id": "t19",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist Phishing?",
+    "options": [
+      "Der Versuch, mit gefälschten Nachrichten an Passwörter zu gelangen",
+      "Eine Methode zur Datensicherung",
+      "Ein Verschlüsselungsverfahren",
+      "Das Durchsuchen großer Datenmengen"
+    ],
+    "correct_index": 0,
+    "explanation": "Betrüger geben sich etwa als Bank aus, um Zugangsdaten zu stehlen.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Phishing",
+    "source_url": "https://de.wikipedia.org/wiki/Phishing",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is phishing?",
+        "options": [
+          "Trying to obtain passwords with fake messages",
+          "A method of backing up data",
+          "An encryption method",
+          "Searching large amounts of data"
+        ],
+        "explanation": "Fraudsters pose as a bank, for example, to steal login details."
+      }
+    }
+  },
+  {
+    "id": "t20",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wer gilt als erste Programmiererin der Geschichte?",
+    "options": [
+      "Ada Lovelace",
+      "Grace Hopper",
+      "Marie Curie",
+      "Hedy Lamarr"
+    ],
+    "correct_index": 0,
+    "explanation": "Ada Lovelace schrieb in den 1840er-Jahren ein Programm für Charles Babbages geplante Rechenmaschine.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ada Lovelace",
+    "source_url": "https://de.wikipedia.org/wiki/Ada_Lovelace",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is regarded as the first computer programmer in history?",
+        "options": [
+          "Ada Lovelace",
+          "Grace Hopper",
+          "Marie Curie",
+          "Hedy Lamarr"
+        ],
+        "explanation": "In the 1840s, Ada Lovelace wrote a program for Charles Babbage's planned calculating machine."
+      }
+    }
+  },
+  {
+    "id": "kt1",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Womit bewegt man den Zeiger auf dem Computerbildschirm?",
+    "options": [
+      "Mit der Maus",
+      "Mit dem Lautsprecher",
+      "Mit dem Drucker",
+      "Mit dem Kabel"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit der Maus oder einem Touchpad steuert man den Zeiger.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maus (Computer)",
+    "source_url": "https://de.wikipedia.org/wiki/Maus_(Computer)",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What do you use to move the pointer on a computer screen?",
+        "options": [
+          "The mouse",
+          "The speaker",
+          "The printer",
+          "The cable"
+        ],
+        "explanation": "You control the pointer with a mouse or a touchpad."
+      }
+    }
+  },
+  {
+    "id": "kt2",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was brauchen Roboter, damit sie funktionieren?",
+    "options": [
+      "Strom",
+      "Milch",
+      "Erde",
+      "Schlaf"
+    ],
+    "correct_index": 0,
+    "explanation": "Roboter brauchen Strom, zum Beispiel aus einem Akku.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Roboter",
+    "source_url": "https://de.wikipedia.org/wiki/Roboter",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What do robots need in order to work?",
+        "options": [
+          "Electricity",
+          "Milk",
+          "Soil",
+          "Sleep"
+        ],
+        "explanation": "Robots need electricity, for example from a battery."
+      }
+    }
+  },
+  {
+    "id": "kt3",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür benutzt man eine Tastatur?",
+    "options": [
+      "Zum Schreiben",
+      "Zum Hören",
+      "Zum Riechen",
+      "Zum Schwimmen"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit den Tasten tippt man Buchstaben und Zahlen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tastatur",
+    "source_url": "https://de.wikipedia.org/wiki/Tastatur",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What is a keyboard used for?",
+        "options": [
+          "For typing",
+          "For hearing",
+          "For smelling",
+          "For swimming"
+        ],
+        "explanation": "You type letters and numbers with the keys."
+      }
+    }
+  },
+  {
+    "id": "h10",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welcher Seefahrer erreichte 1492 von Europa aus Amerika?",
+    "options": [
+      "Christoph Kolumbus",
+      "Ferdinand Magellan",
+      "Vasco da Gama",
+      "James Cook"
+    ],
+    "correct_index": 0,
+    "explanation": "Kolumbus suchte eigentlich einen Seeweg nach Indien.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Christoph Kolumbus",
+    "source_url": "https://de.wikipedia.org/wiki/Christoph_Kolumbus",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which navigator reached the Americas from Europe in 1492?",
+        "options": [
+          "Christopher Columbus",
+          "Ferdinand Magellan",
+          "Vasco da Gama",
+          "James Cook"
+        ],
+        "explanation": "Columbus was actually looking for a sea route to India."
+      }
+    }
+  },
+  {
+    "id": "h11",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welches Volk baute die Pyramiden von Gizeh?",
+    "options": [
+      "Die Römer",
+      "Die Ägypter",
+      "Die Griechen",
+      "Die Maya"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Pyramiden entstanden vor rund 4.500 Jahren als Gräber für Pharaonen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pyramiden von Gizeh",
+    "source_url": "https://de.wikipedia.org/wiki/Pyramiden_von_Gizeh",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which people built the pyramids of Giza?",
+        "options": [
+          "The Romans",
+          "The Egyptians",
+          "The Greeks",
+          "The Maya"
+        ],
+        "explanation": "The pyramids were built about 4,500 years ago as tombs for pharaohs."
+      }
+    }
+  },
+  {
+    "id": "h12",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr endete der Zweite Weltkrieg?",
+    "options": [
+      "1943",
+      "1945",
+      "1947",
+      "1950"
+    ],
+    "correct_index": 1,
+    "explanation": "In Europa endete er im Mai 1945, in Asien im September 1945.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zweiter Weltkrieg",
+    "source_url": "https://de.wikipedia.org/wiki/Zweiter_Weltkrieg",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the Second World War end?",
+        "options": [
+          "1943",
+          "1945",
+          "1947",
+          "1950"
+        ],
+        "explanation": "It ended in Europe in May 1945 and in Asia in September 1945."
+      }
+    }
+  },
+  {
+    "id": "h13",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+    "options": [
+      "Konrad Adenauer",
+      "Willy Brandt",
+      "Ludwig Erhard",
+      "Theodor Heuss"
+    ],
+    "correct_index": 0,
+    "explanation": "Adenauer regierte von 1949 bis 1963.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Konrad Adenauer",
+    "source_url": "https://de.wikipedia.org/wiki/Konrad_Adenauer",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who was the first chancellor of the Federal Republic of Germany?",
+        "options": [
+          "Konrad Adenauer",
+          "Willy Brandt",
+          "Ludwig Erhard",
+          "Theodor Heuss"
+        ],
+        "explanation": "Adenauer governed from 1949 to 1963."
+      }
+    }
+  },
+  {
+    "id": "h14",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche römische Stadt wurde im Jahr 79 n. Chr. vom Vesuv verschüttet?",
+    "options": [
+      "Pompeji",
+      "Rom",
+      "Ostia",
+      "Karthago"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Asche konservierte die Stadt – deshalb weiß man heute so viel über den römischen Alltag.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pompeji",
+    "source_url": "https://de.wikipedia.org/wiki/Pompeji",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which Roman city was buried by Mount Vesuvius in AD 79?",
+        "options": [
+          "Pompeii",
+          "Rome",
+          "Ostia",
+          "Carthage"
+        ],
+        "explanation": "The ash preserved the city – which is why we know so much about everyday Roman life."
+      }
+    }
+  },
+  {
+    "id": "h15",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welches Ereignis gilt meist als Ende des Weströmischen Reiches?",
+    "options": [
+      "Die Absetzung von Kaiser Romulus Augustulus im Jahr 476",
+      "Der Fall Konstantinopels 1453",
+      "Die Ermordung Caesars",
+      "Die Kaiserkrönung Karls des Großen"
+    ],
+    "correct_index": 0,
+    "explanation": "476 setzte der Heerführer Odoaker den letzten weströmischen Kaiser ab.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Untergang des Römischen Reiches",
+    "source_url": "https://de.wikipedia.org/wiki/Untergang_des_Römischen_Reiches",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which event is usually regarded as the end of the Western Roman Empire?",
+        "options": [
+          "The deposition of Emperor Romulus Augustulus in 476",
+          "The fall of Constantinople in 1453",
+          "The assassination of Caesar",
+          "The coronation of Charlemagne"
+        ],
+        "explanation": "In 476 the general Odoacer deposed the last Western Roman emperor."
+      }
+    }
+  },
+  {
+    "id": "h16",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer hielt 1963 die Rede „I Have a Dream“?",
+    "options": [
+      "Martin Luther King",
+      "Malcolm X",
+      "John F. Kennedy",
+      "Nelson Mandela"
+    ],
+    "correct_index": 0,
+    "explanation": "King sprach beim Marsch auf Washington vor rund 250.000 Menschen.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: I Have a Dream",
+    "source_url": "https://de.wikipedia.org/wiki/I_Have_a_Dream",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who gave the “I Have a Dream” speech in 1963?",
+        "options": [
+          "Martin Luther King",
+          "Malcolm X",
+          "John F. Kennedy",
+          "Nelson Mandela"
+        ],
+        "explanation": "King spoke to about 250,000 people at the March on Washington."
+      }
+    }
+  },
+  {
+    "id": "h17",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Dynastie regierte Russland bis zur Revolution 1917?",
+    "options": [
+      "Die Romanows",
+      "Die Habsburger",
+      "Die Hohenzollern",
+      "Die Bourbonen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Romanows herrschten rund 300 Jahre, zuletzt Zar Nikolaus II.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Romanow",
+    "source_url": "https://de.wikipedia.org/wiki/Romanow",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which dynasty ruled Russia until the revolution of 1917?",
+        "options": [
+          "The Romanovs",
+          "The Habsburgs",
+          "The Hohenzollerns",
+          "The Bourbons"
+        ],
+        "explanation": "The Romanovs ruled for about 300 years; the last was Tsar Nicholas II."
+      }
+    }
+  },
+  {
+    "id": "h18",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie hieß das Schiff, das 1912 nach dem Zusammenstoß mit einem Eisberg sank?",
+    "options": [
+      "Titanic",
+      "Lusitania",
+      "Bismarck",
+      "Queen Mary"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Titanic sank auf ihrer ersten Fahrt im Nordatlantik.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Titanic (Schiff)",
+    "source_url": "https://de.wikipedia.org/wiki/Titanic_(Schiff)",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the name of the ship that sank in 1912 after hitting an iceberg?",
+        "options": [
+          "Titanic",
+          "Lusitania",
+          "Bismarck",
+          "Queen Mary"
+        ],
+        "explanation": "The Titanic sank in the North Atlantic on her maiden voyage."
+      }
+    }
+  },
+  {
+    "id": "h19",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr wurde die Bundesrepublik Deutschland gegründet?",
+    "options": [
+      "1945",
+      "1949",
+      "1955",
+      "1961"
+    ],
+    "correct_index": 1,
+    "explanation": "Am 23. Mai 1949 wurde das Grundgesetz verkündet.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geschichte der Bundesrepublik Deutschland",
+    "source_url": "https://de.wikipedia.org/wiki/Geschichte_der_Bundesrepublik_Deutschland",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year was the Federal Republic of Germany founded?",
+        "options": [
+          "1945",
+          "1949",
+          "1955",
+          "1961"
+        ],
+        "explanation": "The Basic Law was proclaimed on 23 May 1949."
+      }
+    }
+  },
+  {
+    "id": "h20",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer verfasste 1517 die 95 Thesen gegen den Ablasshandel?",
+    "options": [
+      "Martin Luther",
+      "Johannes Calvin",
+      "Ulrich Zwingli",
+      "Erasmus von Rotterdam"
+    ],
+    "correct_index": 0,
+    "explanation": "Luthers Thesen gelten als Beginn der Reformation.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 95 Thesen",
+    "source_url": "https://de.wikipedia.org/wiki/95_Thesen",
+    "created_at": "2026-09-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote the 95 Theses against the sale of indulgences in 1517?",
+        "options": [
+          "Martin Luther",
+          "John Calvin",
+          "Huldrych Zwingli",
+          "Erasmus of Rotterdam"
+        ],
+        "explanation": "Luther's theses are regarded as the start of the Reformation."
+      }
+    }
+  },
+  {
+    "id": "kh1",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer lebte im Mittelalter auf einer Burg?",
+    "options": [
+      "Ritter",
+      "Astronauten",
+      "Piloten",
+      "Roboter"
+    ],
+    "correct_index": 0,
+    "explanation": "Auf Burgen lebten Ritter und Adelige mit ihren Bediensteten.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Burg",
+    "source_url": "https://de.wikipedia.org/wiki/Burg",
+    "created_at": "2026-09-22T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "Who lived in a castle in the Middle Ages?",
+        "options": [
+          "Knights",
+          "Astronauts",
+          "Pilots",
+          "Robots"
+        ],
+        "explanation": "Knights and nobles lived in castles with their servants."
+      }
+    }
+  },
+  {
+    "id": "kh2",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Tiere lebten vor vielen Millionen Jahren und sind ausgestorben?",
+    "options": [
+      "Dinosaurier",
+      "Hunde",
+      "Kühe",
+      "Hühner"
+    ],
+    "correct_index": 0,
+    "explanation": "Die großen Dinosaurier starben vor etwa 66 Millionen Jahren aus.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dinosaurier",
+    "source_url": "https://de.wikipedia.org/wiki/Dinosaurier",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "Which animals lived many millions of years ago and are now extinct?",
+        "options": [
+          "Dinosaurs",
+          "Dogs",
+          "Cows",
+          "Chickens"
+        ],
+        "explanation": "The large dinosaurs died out about 66 million years ago."
+      }
+    }
+  },
+  {
+    "id": "kh3",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Womit schrieben die Menschen früher, bevor es Kugelschreiber gab?",
+    "options": [
+      "Mit Feder und Tinte",
+      "Mit dem Tablet",
+      "Mit dem Laser",
+      "Mit dem Filzstift"
+    ],
+    "correct_index": 0,
+    "explanation": "Lange schrieb man mit einer Vogelfeder, die in Tinte getaucht wurde.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schreibfeder",
+    "source_url": "https://de.wikipedia.org/wiki/Schreibfeder",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What did people write with before ballpoint pens existed?",
+        "options": [
+          "Quill and ink",
+          "A tablet",
+          "A laser",
+          "A felt-tip pen"
+        ],
+        "explanation": "For a long time people wrote with a bird's feather dipped in ink."
+      }
+    }
+  },
+  {
+    "id": "g6",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher ist der höchste Berg der Erde über dem Meeresspiegel?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Mont Blanc",
+      "Kilimandscharo"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Mount Everest im Himalaya ist rund 8.849 Meter hoch.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mount Everest",
+    "source_url": "https://de.wikipedia.org/wiki/Mount_Everest",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the highest mountain on Earth above sea level?",
+        "options": [
+          "Mount Everest",
+          "K2",
+          "Mont Blanc",
+          "Kilimanjaro"
+        ],
+        "explanation": "Mount Everest in the Himalayas is about 8,849 metres high."
+      }
+    }
+  },
+  {
+    "id": "g7",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher ist der größte Ozean der Erde?",
+    "options": [
+      "Atlantik",
+      "Pazifik",
+      "Indischer Ozean",
+      "Arktischer Ozean"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Pazifik bedeckt etwa ein Drittel der Erdoberfläche.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pazifischer Ozean",
+    "source_url": "https://de.wikipedia.org/wiki/Pazifischer_Ozean",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest ocean on Earth?",
+        "options": [
+          "Atlantic",
+          "Pacific",
+          "Indian Ocean",
+          "Arctic Ocean"
+        ],
+        "explanation": "The Pacific covers about a third of the Earth's surface."
+      }
+    }
+  },
+  {
+    "id": "g8",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches ist das flächenmäßig größte Land der Erde?",
+    "options": [
+      "Kanada",
+      "China",
+      "Russland",
+      "USA"
+    ],
+    "correct_index": 2,
+    "explanation": "Russland ist mit rund 17 Millionen Quadratkilometern das größte Land.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Russland",
+    "source_url": "https://de.wikipedia.org/wiki/Russland",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest country on Earth by area?",
+        "options": [
+          "Canada",
+          "China",
+          "Russia",
+          "USA"
+        ],
+        "explanation": "At about 17 million square kilometres, Russia is the largest country."
+      }
+    }
+  },
+  {
+    "id": "g9",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche ist die größte heiße Wüste der Erde?",
+    "options": [
+      "Gobi",
+      "Sahara",
+      "Kalahari",
+      "Atacama"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Sahara ist etwa so groß wie die USA.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sahara",
+    "source_url": "https://de.wikipedia.org/wiki/Sahara",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest hot desert on Earth?",
+        "options": [
+          "Gobi",
+          "Sahara",
+          "Kalahari",
+          "Atacama"
+        ],
+        "explanation": "The Sahara is about the size of the United States."
+      }
+    }
+  },
+  {
+    "id": "g10",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches Gas nehmen Pflanzen bei der Fotosynthese aus der Luft auf?",
+    "options": [
+      "Sauerstoff",
+      "Kohlendioxid",
+      "Stickstoff",
+      "Helium"
+    ],
+    "correct_index": 1,
+    "explanation": "Pflanzen nehmen Kohlendioxid auf und geben Sauerstoff ab.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Photosynthese",
+    "source_url": "https://de.wikipedia.org/wiki/Photosynthese",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which gas do plants take from the air during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Helium"
+        ],
+        "explanation": "Plants take in carbon dioxide and release oxygen."
+      }
+    }
+  },
+  {
+    "id": "g11",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie heißt die gedachte Linie, die die Erde in Nord- und Südhalbkugel teilt?",
+    "options": [
+      "Äquator",
+      "Nullmeridian",
+      "Wendekreis",
+      "Polarkreis"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Äquator ist rund 40.000 Kilometer lang.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Äquator",
+    "source_url": "https://de.wikipedia.org/wiki/Äquator",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the imaginary line that divides the Earth into northern and southern hemispheres?",
+        "options": [
+          "Equator",
+          "Prime meridian",
+          "Tropic",
+          "Arctic Circle"
+        ],
+        "explanation": "The equator is about 40,000 kilometres long."
+      }
+    }
+  },
+  {
+    "id": "g12",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches ist das schnellste Landtier?",
+    "options": [
+      "Gepard",
+      "Löwe",
+      "Antilope",
+      "Windhund"
+    ],
+    "correct_index": 0,
+    "explanation": "Geparde erreichen auf kurzen Strecken rund 100 km/h.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gepard",
+    "source_url": "https://de.wikipedia.org/wiki/Gepard",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the fastest land animal?",
+        "options": [
+          "Cheetah",
+          "Lion",
+          "Antelope",
+          "Greyhound"
+        ],
+        "explanation": "Cheetahs reach about 100 km/h over short distances."
+      }
+    }
+  },
+  {
+    "id": "g13",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wodurch entstehen die Jahreszeiten?",
+    "options": [
+      "Durch die Neigung der Erdachse",
+      "Durch den wechselnden Abstand zur Sonne",
+      "Durch die Mondphasen",
+      "Durch Sonnenflecken"
+    ],
+    "correct_index": 0,
+    "explanation": "Weil die Erdachse geneigt ist, bekommen Nord- und Südhalbkugel im Jahreslauf unterschiedlich viel Sonne.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jahreszeit",
+    "source_url": "https://de.wikipedia.org/wiki/Jahreszeit",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What causes the seasons?",
+        "options": [
+          "The tilt of the Earth's axis",
+          "The changing distance from the Sun",
+          "The phases of the Moon",
+          "Sunspots"
+        ],
+        "explanation": "Because the Earth's axis is tilted, the northern and southern hemispheres receive different amounts of sunlight during the year."
+      }
+    }
+  },
+  {
+    "id": "g14",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Auf welchem Kontinent liegt der Amazonas-Regenwald?",
+    "options": [
+      "Afrika",
+      "Südamerika",
+      "Asien",
+      "Australien"
+    ],
+    "correct_index": 1,
+    "explanation": "Er ist der größte tropische Regenwald der Erde.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Amazonas-Regenwald",
+    "source_url": "https://de.wikipedia.org/wiki/Amazonas-Regenwald",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which continent is the Amazon rainforest?",
+        "options": [
+          "Africa",
+          "South America",
+          "Asia",
+          "Australia"
+        ],
+        "explanation": "It is the largest tropical rainforest on Earth."
+      }
+    }
+  },
+  {
+    "id": "g15",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie heißt die äußere, feste Gesteinsschicht der Erde?",
+    "options": [
+      "Erdkruste",
+      "Erdmantel",
+      "Erdkern",
+      "Atmosphäre"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Erdkruste ist unter den Kontinenten im Mittel etwa 35 Kilometer dick.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erdkruste",
+    "source_url": "https://de.wikipedia.org/wiki/Erdkruste",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Earth's solid outer layer of rock called?",
+        "options": [
+          "Crust",
+          "Mantle",
+          "Core",
+          "Atmosphere"
+        ],
+        "explanation": "Beneath the continents the crust is about 35 kilometres thick on average."
+      }
+    }
+  },
+  {
+    "id": "g16",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches ist der kleinste Staat der Welt?",
+    "options": [
+      "Monaco",
+      "Vatikanstadt",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Vatikanstadt ist nur 0,44 Quadratkilometer groß.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vatikanstadt",
+    "source_url": "https://de.wikipedia.org/wiki/Vatikanstadt",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the smallest country in the world?",
+        "options": [
+          "Monaco",
+          "Vatican City",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "explanation": "Vatican City covers only 0.44 square kilometres."
+      }
+    }
+  },
+  {
+    "id": "kg1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches ist das größte Landtier?",
+    "options": [
+      "Elefant",
+      "Pferd",
+      "Nashorn",
+      "Kuh"
+    ],
+    "correct_index": 0,
+    "explanation": "Afrikanische Elefanten können über sechs Tonnen wiegen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elefanten",
+    "source_url": "https://de.wikipedia.org/wiki/Elefanten",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "Which is the largest land animal?",
+        "options": [
+          "Elephant",
+          "Horse",
+          "Rhinoceros",
+          "Cow"
+        ],
+        "explanation": "African elephants can weigh more than six tonnes."
+      }
+    }
+  },
+  {
+    "id": "kg2",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was wird aus einer Raupe?",
+    "options": [
+      "Ein Schmetterling",
+      "Ein Vogel",
+      "Ein Frosch",
+      "Eine Biene"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Raupe verpuppt sich und wird zum Schmetterling.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schmetterlinge",
+    "source_url": "https://de.wikipedia.org/wiki/Schmetterlinge",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What does a caterpillar turn into?",
+        "options": [
+          "A butterfly",
+          "A bird",
+          "A frog",
+          "A bee"
+        ],
+        "explanation": "The caterpillar forms a chrysalis and becomes a butterfly."
+      }
+    }
+  },
+  {
+    "id": "kg3",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wo leben Pinguine in freier Natur?",
+    "options": [
+      "Auf der Südhalbkugel, zum Beispiel in der Antarktis",
+      "Am Nordpol",
+      "In der Wüste Sahara",
+      "Im Dschungel am Amazonas"
+    ],
+    "correct_index": 0,
+    "explanation": "Pinguine leben nur auf der Südhalbkugel – Eisbären dagegen im Norden.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pinguine",
+    "source_url": "https://de.wikipedia.org/wiki/Pinguine",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "Where do penguins live in the wild?",
+        "options": [
+          "In the southern hemisphere, for example in Antarctica",
+          "At the North Pole",
+          "In the Sahara desert",
+          "In the Amazon jungle"
+        ],
+        "explanation": "Penguins live only in the southern hemisphere – polar bears live in the north."
+      }
+    }
+  },
+  {
+    "id": "kg4",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie viele Jahreszeiten gibt es in Europa?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 2,
+    "explanation": "Frühling, Sommer, Herbst und Winter.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jahreszeit",
+    "source_url": "https://de.wikipedia.org/wiki/Jahreszeit",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "How many seasons are there in Europe?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "Spring, summer, autumn and winter."
+      }
+    }
+  },
+  {
+    "id": "e7",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein Budget?",
+    "options": [
+      "Ein Plan für Einnahmen und Ausgaben",
+      "Eine Steuer",
+      "Ein Kredit",
+      "Eine Aktie"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit einem Budget legt man fest, wie viel Geld wofür ausgegeben werden soll.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Budget",
+    "source_url": "https://de.wikipedia.org/wiki/Budget",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a budget?",
+        "options": [
+          "A plan for income and spending",
+          "A tax",
+          "A loan",
+          "A share"
+        ],
+        "explanation": "A budget sets out how much money is to be spent on what."
+      }
+    }
+  },
+  {
+    "id": "e8",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bedeutet „brutto“ beim Gehalt?",
+    "options": [
+      "Der Betrag vor Abzug von Steuern und Abgaben",
+      "Der Betrag nach allen Abzügen",
+      "Das Gehalt inklusive Bonus",
+      "Der Stundenlohn"
+    ],
+    "correct_index": 0,
+    "explanation": "Was nach Steuern und Sozialabgaben übrig bleibt, ist das Nettogehalt.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bruttoentgelt",
+    "source_url": "https://de.wikipedia.org/wiki/Bruttoentgelt",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “gross” mean for a salary?",
+        "options": [
+          "The amount before taxes and deductions",
+          "The amount after all deductions",
+          "Salary including bonus",
+          "The hourly wage"
+        ],
+        "explanation": "What is left after taxes and social contributions is the net salary."
+      }
+    }
+  },
+  {
+    "id": "e9",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein ETF?",
+    "options": [
+      "Ein börsengehandelter Fonds, der meist einen Index nachbildet",
+      "Ein Sparbuch",
+      "Eine Kryptowährung",
+      "Ein Steuerformular"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit einem ETF investiert man auf einmal in viele Wertpapiere.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Exchange-traded fund",
+    "source_url": "https://de.wikipedia.org/wiki/Exchange-traded_fund",
+    "created_at": "2026-09-23T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an ETF?",
+        "options": [
+          "An exchange-traded fund that usually tracks an index",
+          "A savings account",
+          "A cryptocurrency",
+          "A tax form"
+        ],
+        "explanation": "With an ETF you invest in many securities at once."
+      }
+    }
+  },
+  {
+    "id": "e10",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was passiert in der Regel mit dem Preis, wenn die Nachfrage steigt und das Angebot gleich bleibt?",
+    "options": [
+      "Er steigt",
+      "Er sinkt",
+      "Er bleibt gleich",
+      "Er wird staatlich festgelegt"
+    ],
+    "correct_index": 0,
+    "explanation": "Wollen mehr Menschen ein knappes Gut, können Anbieter höhere Preise verlangen.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marktgleichgewicht",
+    "source_url": "https://de.wikipedia.org/wiki/Marktgleichgewicht",
+    "created_at": "2026-09-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What usually happens to the price when demand rises and supply stays the same?",
+        "options": [
+          "It rises",
+          "It falls",
+          "It stays the same",
+          "It is set by the state"
+        ],
+        "explanation": "If more people want a scarce good, sellers can charge higher prices."
+      }
+    }
+  },
+  {
+    "id": "e11",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bildet der Aktienindex DAX ab?",
+    "options": [
+      "Die 40 größten börsennotierten Unternehmen Deutschlands",
+      "Die Inflationsrate",
+      "Die Arbeitslosenquote",
+      "Den Wechselkurs des Euro"
+    ],
+    "correct_index": 0,
+    "explanation": "Bis 2021 enthielt der DAX 30 Unternehmen, seitdem 40.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: DAX",
+    "source_url": "https://de.wikipedia.org/wiki/DAX",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the DAX stock index track?",
+        "options": [
+          "Germany's 40 largest listed companies",
+          "The inflation rate",
+          "The unemployment rate",
+          "The euro exchange rate"
+        ],
+        "explanation": "Until 2021 the DAX contained 30 companies; since then it has had 40."
+      }
+    }
+  },
+  {
+    "id": "e12",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist eine Rezession?",
+    "options": [
+      "Eine Phase, in der die Wirtschaftsleistung schrumpft",
+      "Eine Phase stark steigender Preise",
+      "Ein Boom an der Börse",
+      "Eine Steuererhöhung"
+    ],
+    "correct_index": 0,
+    "explanation": "Oft spricht man von Rezession, wenn die Wirtschaft zwei Quartale in Folge schrumpft.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rezession",
+    "source_url": "https://de.wikipedia.org/wiki/Rezession",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a recession?",
+        "options": [
+          "A period in which economic output shrinks",
+          "A period of sharply rising prices",
+          "A stock market boom",
+          "A tax increase"
+        ],
+        "explanation": "A recession is often defined as two consecutive quarters of shrinking output."
+      }
+    }
+  },
+  {
+    "id": "e13",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Mit welcher Währung bezahlt man in der Schweiz?",
+    "options": [
+      "Euro",
+      "Schweizer Franken",
+      "Krone",
+      "Pfund"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Schweiz gehört nicht zum Euroraum.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schweizer Franken",
+    "source_url": "https://de.wikipedia.org/wiki/Schweizer_Franken",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which currency is used in Switzerland?",
+        "options": [
+          "Euro",
+          "Swiss franc",
+          "Krone",
+          "Pound"
+        ],
+        "explanation": "Switzerland is not part of the euro area."
+      }
+    }
+  },
+  {
+    "id": "e14",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bedeutet Diversifikation bei der Geldanlage?",
+    "options": [
+      "Das Geld auf viele verschiedene Anlagen verteilen",
+      "Alles in eine einzige Aktie stecken",
+      "Nur Bargeld halten",
+      "Schulden aufnehmen"
+    ],
+    "correct_index": 0,
+    "explanation": "Wer streut, verliert weniger, wenn eine einzelne Anlage einbricht.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diversifikation (Wirtschaft)",
+    "source_url": "https://de.wikipedia.org/wiki/Diversifikation_(Wirtschaft)",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does diversification mean in investing?",
+        "options": [
+          "Spreading money across many different investments",
+          "Putting everything into a single share",
+          "Holding only cash",
+          "Taking on debt"
+        ],
+        "explanation": "If you spread your money, you lose less when a single investment collapses."
+      }
+    }
+  },
+  {
+    "id": "e15",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein Monopol?",
+    "options": [
+      "Ein einziger Anbieter beherrscht den Markt",
+      "Viele kleine Anbieter konkurrieren",
+      "Der Staat verbietet ein Produkt",
+      "Zwei Firmen schließen sich zusammen"
+    ],
+    "correct_index": 0,
+    "explanation": "Ohne Wettbewerb kann ein Monopolist höhere Preise durchsetzen.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Monopol",
+    "source_url": "https://de.wikipedia.org/wiki/Monopol",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a monopoly?",
+        "options": [
+          "A single supplier dominates the market",
+          "Many small suppliers compete",
+          "The state bans a product",
+          "Two companies merge"
+        ],
+        "explanation": "Without competition, a monopolist can push through higher prices."
+      }
+    }
+  },
+  {
+    "id": "e16",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was sind Zinsen?",
+    "options": [
+      "Der Preis für geliehenes Geld",
+      "Eine Steuer auf das Einkommen",
+      "Die Gebühr für ein Konto",
+      "Der Gewinn eines Unternehmens"
+    ],
+    "correct_index": 0,
+    "explanation": "Wer Geld verleiht, bekommt Zinsen – wer sich Geld leiht, zahlt sie.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zins",
+    "source_url": "https://de.wikipedia.org/wiki/Zins",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is interest?",
+        "options": [
+          "The price of borrowed money",
+          "A tax on income",
+          "The fee for a bank account",
+          "A company's profit"
+        ],
+        "explanation": "Those who lend money receive interest – those who borrow pay it."
+      }
+    }
+  },
+  {
+    "id": "ke1",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wofür benutzt man Geld?",
+    "options": [
+      "Zum Bezahlen",
+      "Zum Essen",
+      "Zum Trinken",
+      "Zum Schlafen"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit Geld kann man Dinge kaufen, zum Beispiel Essen oder Spielzeug.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geld",
+    "source_url": "https://de.wikipedia.org/wiki/Geld",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What is money used for?",
+        "options": [
+          "For paying",
+          "For eating",
+          "For drinking",
+          "For sleeping"
+        ],
+        "explanation": "With money you can buy things such as food or toys."
+      }
+    }
+  },
+  {
+    "id": "ke2",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wo kann man sein Geld sicher aufbewahren?",
+    "options": [
+      "Auf der Bank",
+      "Im Sandkasten",
+      "Im Kühlschrank",
+      "Im Briefkasten"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Bank bewahrt Geld auf einem Konto auf.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bank",
+    "source_url": "https://de.wikipedia.org/wiki/Bank",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "Where can you keep your money safe?",
+        "options": [
+          "In a bank",
+          "In the sandpit",
+          "In the fridge",
+          "In the letterbox"
+        ],
+        "explanation": "A bank keeps money in an account."
+      }
+    }
+  },
+  {
+    "id": "ke3",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein Sparschwein?",
+    "options": [
+      "Eine Dose zum Geldsparen",
+      "Ein Tier im Zoo",
+      "Ein Spielzeugauto",
+      "Ein Kuchen"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Sparschwein sammelt man Münzen für später.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sparschwein",
+    "source_url": "https://de.wikipedia.org/wiki/Sparschwein",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "What is a piggy bank?",
+        "options": [
+          "A container for saving money",
+          "An animal in the zoo",
+          "A toy car",
+          "A cake"
+        ],
+        "explanation": "You collect coins in a piggy bank for later."
+      }
+    }
+  },
+  {
+    "id": "c7",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Saiten hat eine klassische Gitarre?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Sechs Saiten – eine Bassgitarre hat meist vier.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gitarre",
+    "source_url": "https://de.wikipedia.org/wiki/Gitarre",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many strings does a classical guitar have?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "explanation": "Six strings – a bass guitar usually has four."
+      }
+    }
+  },
+  {
+    "id": "c8",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer schrieb „Romeo und Julia“?",
+    "options": [
+      "William Shakespeare",
+      "Johann Wolfgang von Goethe",
+      "Molière",
+      "Charles Dickens"
+    ],
+    "correct_index": 0,
+    "explanation": "Shakespeares Tragödie entstand in den 1590er-Jahren.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Romeo und Julia",
+    "source_url": "https://de.wikipedia.org/wiki/Romeo_und_Julia",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote “Romeo and Juliet”?",
+        "options": [
+          "William Shakespeare",
+          "Johann Wolfgang von Goethe",
+          "Molière",
+          "Charles Dickens"
+        ],
+        "explanation": "Shakespeare's tragedy was written in the 1590s."
+      }
+    }
+  },
+  {
+    "id": "c9",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt steht der Eiffelturm?",
+    "options": [
+      "London",
+      "Paris",
+      "Rom",
+      "Brüssel"
+    ],
+    "correct_index": 1,
+    "explanation": "Er wurde 1889 zur Weltausstellung in Paris eröffnet.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eiffelturm",
+    "source_url": "https://de.wikipedia.org/wiki/Eiffelturm",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is the Eiffel Tower?",
+        "options": [
+          "London",
+          "Paris",
+          "Rome",
+          "Brussels"
+        ],
+        "explanation": "It opened in 1889 for the World's Fair in Paris."
+      }
+    }
+  },
+  {
+    "id": "c10",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer komponierte die Oper „Die Zauberflöte“?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven",
+      "Joseph Haydn"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Oper wurde 1791 in Wien uraufgeführt.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Zauberflöte",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Zauberflöte",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who composed the opera “The Magic Flute”?",
+        "options": [
+          "Wolfgang Amadeus Mozart",
+          "Johann Sebastian Bach",
+          "Ludwig van Beethoven",
+          "Joseph Haydn"
+        ],
+        "explanation": "The opera premiered in Vienna in 1791."
+      }
+    }
+  },
+  {
+    "id": "c11",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welche Sprache hat weltweit die meisten Muttersprachler?",
+    "options": [
+      "Englisch",
+      "Mandarin-Chinesisch",
+      "Spanisch",
+      "Hindi"
+    ],
+    "correct_index": 1,
+    "explanation": "Englisch wird dagegen von den meisten Menschen insgesamt gesprochen, wenn man Zweitsprachler mitzählt.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Liste der meistgesprochenen Sprachen",
+    "source_url": "https://de.wikipedia.org/wiki/Liste_der_meistgesprochenen_Sprachen",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language has the most native speakers worldwide?",
+        "options": [
+          "English",
+          "Mandarin Chinese",
+          "Spanish",
+          "Hindi"
+        ],
+        "explanation": "English, however, has the most speakers overall when second-language speakers are included."
+      }
+    }
+  },
+  {
+    "id": "c12",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was garantiert Artikel 1 des deutschen Grundgesetzes?",
+    "options": [
+      "Die Würde des Menschen ist unantastbar",
+      "Die Meinungsfreiheit",
+      "Das Wahlrecht",
+      "Das Recht auf Eigentum"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Menschenwürde steht bewusst an erster Stelle der Verfassung.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Artikel 1 des Grundgesetzes für die Bundesrepublik Deutschland",
+    "source_url": "https://de.wikipedia.org/wiki/Artikel_1_des_Grundgesetzes_für_die_Bundesrepublik_Deutschland",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Article 1 of the German Basic Law guarantee?",
+        "options": [
+          "Human dignity is inviolable",
+          "Freedom of expression",
+          "The right to vote",
+          "The right to property"
+        ],
+        "explanation": "Human dignity was deliberately placed first in the constitution."
+      }
+    }
+  },
+  {
+    "id": "c13",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Ringe hat das olympische Symbol?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_index": 1,
+    "explanation": "Die fünf Ringe stehen für die fünf Erdteile der olympischen Bewegung.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Ringe",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Ringe",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many rings are in the Olympic symbol?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "explanation": "The five rings stand for the five continents of the Olympic movement."
+      }
+    }
+  },
+  {
+    "id": "c14",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welcher Maler schuf das Gemälde „Sternennacht“?",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Salvador Dalí"
+    ],
+    "correct_index": 0,
+    "explanation": "Van Gogh malte es 1889 in Südfrankreich.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sternennacht",
+    "source_url": "https://de.wikipedia.org/wiki/Sternennacht",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which painter created “The Starry Night”?",
+        "options": [
+          "Vincent van Gogh",
+          "Claude Monet",
+          "Pablo Picasso",
+          "Salvador Dalí"
+        ],
+        "explanation": "Van Gogh painted it in 1889 in southern France."
+      }
+    }
+  },
+  {
+    "id": "c15",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt haben die Vereinten Nationen ihren Hauptsitz?",
+    "options": [
+      "Genf",
+      "New York",
+      "Brüssel",
+      "Wien"
+    ],
+    "correct_index": 1,
+    "explanation": "Die UNO wurde 1945 gegründet und hat heute 193 Mitgliedstaaten.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vereinte Nationen",
+    "source_url": "https://de.wikipedia.org/wiki/Vereinte_Nationen",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city are the United Nations headquartered?",
+        "options": [
+          "Geneva",
+          "New York",
+          "Brussels",
+          "Vienna"
+        ],
+        "explanation": "The UN was founded in 1945 and now has 193 member states."
+      }
+    }
+  },
+  {
+    "id": "c16",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Bundesländer hat Deutschland?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correct_index": 2,
+    "explanation": "Darunter sind die drei Stadtstaaten Berlin, Hamburg und Bremen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Land (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Land_(Deutschland)",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many federal states does Germany have?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "explanation": "They include the three city-states of Berlin, Hamburg and Bremen."
+      }
+    }
+  },
+  {
+    "id": "c17",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet Gewaltenteilung?",
+    "options": [
+      "Die Staatsmacht ist auf Gesetzgebung, Regierung und Gerichte verteilt",
+      "Das Land ist in Bundesländer aufgeteilt",
+      "Kirche und Staat sind getrennt",
+      "Alle vier Jahre wird gewählt"
+    ],
+    "correct_index": 0,
+    "explanation": "So kontrollieren sich die Staatsorgane gegenseitig.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewaltenteilung",
+    "source_url": "https://de.wikipedia.org/wiki/Gewaltenteilung",
+    "created_at": "2026-09-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does separation of powers mean?",
+        "options": [
+          "State power is divided between legislature, government and courts",
+          "The country is divided into federal states",
+          "Church and state are separate",
+          "Elections are held every four years"
+        ],
+        "explanation": "This way the branches of government keep each other in check."
+      }
+    }
+  },
+  {
+    "id": "kc1",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welches Instrument hat schwarze und weiße Tasten?",
+    "options": [
+      "Klavier",
+      "Geige",
+      "Trommel",
+      "Flöte"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Klavier hat meist 88 Tasten.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klavier",
+    "source_url": "https://de.wikipedia.org/wiki/Klavier",
+    "created_at": "2026-09-22T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "Which instrument has black and white keys?",
+        "options": [
+          "Piano",
+          "Violin",
+          "Drum",
+          "Flute"
+        ],
+        "explanation": "A piano usually has 88 keys."
+      }
+    }
+  },
+  {
+    "id": "kc2",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welchem Märchen verliert ein Mädchen auf dem Ball seinen Schuh?",
+    "options": [
+      "Aschenputtel",
+      "Rotkäppchen",
+      "Schneewittchen",
+      "Dornröschen"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Prinz findet Aschenputtel mithilfe des Schuhs wieder.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aschenputtel",
+    "source_url": "https://de.wikipedia.org/wiki/Aschenputtel",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "In which fairy tale does a girl lose her shoe at the ball?",
+        "options": [
+          "Cinderella",
+          "Little Red Riding Hood",
+          "Snow White",
+          "Sleeping Beauty"
+        ],
+        "explanation": "The prince finds Cinderella again with the help of the shoe."
+      }
+    }
+  },
+  {
+    "id": "kc3",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Tage hat eine Woche?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Von Montag bis Sonntag sind es sieben Tage.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Woche",
+    "source_url": "https://de.wikipedia.org/wiki/Woche",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": 12,
+    "translations": {
+      "en": {
+        "question": "How many days are in a week?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explanation": "From Monday to Sunday there are seven days."
+      }
+    }
+  },
+  {
+    "id": "sm3",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Der Mensch hat genau fünf Sinne.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Dazu kommen unter anderem Gleichgewichts-, Temperatur- und Schmerzsinn sowie das Gespür für die Lage des eigenen Körpers.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sinn (Wahrnehmung)",
+    "source_url": "https://de.wikipedia.org/wiki/Sinn_(Wahrnehmung)",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Humans have exactly five senses.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "There are also the senses of balance, temperature and pain, and the sense of where your own body is."
+      }
+    }
+  },
+  {
+    "id": "sf4",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Diamanten bestehen fast vollständig aus Kohlenstoff.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Diamant und Graphit im Bleistift sind beide Kohlenstoff – nur anders aufgebaut.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diamant",
+    "source_url": "https://de.wikipedia.org/wiki/Diamant",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Diamonds consist almost entirely of carbon.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Diamond and the graphite in a pencil are both carbon – just arranged differently."
+      }
+    }
+  },
+  {
+    "id": "sf5",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Im Weltraum kann sich Schall nicht ausbreiten.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Schall braucht ein Medium wie Luft oder Wasser. Im nahezu leeren Weltraum fehlt es.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schall",
+    "source_url": "https://de.wikipedia.org/wiki/Schall",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Sound cannot travel in space.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Sound needs a medium such as air or water. In the near-vacuum of space there is none."
+      }
+    }
+  },
+  {
+    "id": "sm5",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Fledermäuse sind blind.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Fledermäuse können sehen. Viele Arten orientieren sich zusätzlich mit Echoortung.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fledermäuse",
+    "source_url": "https://de.wikipedia.org/wiki/Fledermäuse",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Bats are blind.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Bats can see. Many species additionally find their way using echolocation."
+      }
+    }
+  },
+  {
+    "id": "tm2",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "Im Inkognito-Modus ist man im Internet anonym.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Modus speichert nur keinen Verlauf auf dem eigenen Gerät. Websites und Internetanbieter sehen die Zugriffe weiterhin.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Privater Modus",
+    "source_url": "https://de.wikipedia.org/wiki/Privater_Modus",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Incognito mode makes you anonymous on the internet.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The mode merely stops history being saved on your own device. Websites and internet providers can still see your activity."
+      }
+    }
+  },
+  {
+    "id": "tf4",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "Die erste Website der Welt ist heute noch abrufbar.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Das CERN hat die Seite von 1991 unter ihrer ursprünglichen Adresse info.cern.ch wiederhergestellt.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: World Wide Web",
+    "source_url": "https://de.wikipedia.org/wiki/World_Wide_Web",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The world's first website can still be visited today.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "CERN has restored the 1991 page at its original address, info.cern.ch."
+      }
+    }
+  },
+  {
+    "id": "tm3",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "Mehr Megapixel bedeuten immer bessere Fotos.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Sensorgröße, Objektiv und Bildverarbeitung sind für die Bildqualität meist wichtiger als die reine Pixelzahl.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Megapixel",
+    "source_url": "https://de.wikipedia.org/wiki/Megapixel",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "More megapixels always mean better photos.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Sensor size, lens and image processing usually matter more for image quality than the pixel count alone."
+      }
+    }
+  },
+  {
+    "id": "hm2",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Im Mittelalter hielten die Gelehrten die Erde für eine Scheibe.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Dass die Erde eine Kugel ist, war unter Gebildeten seit der Antike bekannt und wurde auch im Mittelalter gelehrt.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flache Erde",
+    "source_url": "https://de.wikipedia.org/wiki/Flache_Erde",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Medieval scholars believed the Earth was flat.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "That the Earth is a sphere had been known to educated people since antiquity and was taught in the Middle Ages too."
+      }
+    }
+  },
+  {
+    "id": "hm3",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Napoleon war ungewöhnlich klein.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Mit etwa 1,68 Metern war er für seine Zeit durchschnittlich groß. Der Mythos geht auf britische Karikaturen und unterschiedliche Maßeinheiten zurück.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Napoleon Bonaparte",
+    "source_url": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Napoleon was unusually short.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "At about 1.68 metres he was of average height for his time. The myth goes back to British caricatures and differing units of measurement."
+      }
+    }
+  },
+  {
+    "id": "hf4",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Wikinger erreichten Nordamerika rund 500 Jahre vor Kolumbus.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "In L’Anse aux Meadows in Neufundland wurde eine Wikingersiedlung aus der Zeit um das Jahr 1000 gefunden.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: L’Anse aux Meadows",
+    "source_url": "https://de.wikipedia.org/wiki/L’Anse_aux_Meadows",
+    "created_at": "2026-09-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Vikings reached North America about 500 years before Columbus.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "A Viking settlement from around the year 1000 was found at L'Anse aux Meadows in Newfoundland."
+      }
+    }
+  },
+  {
+    "id": "gm2",
+    "kind": "fact",
+    "category_id": "earth",
+    "question": "Strauße stecken bei Gefahr den Kopf in den Sand.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Sie legen bei Gefahr manchmal Hals und Kopf flach auf den Boden – aus der Ferne sieht das so aus.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Afrikanischer Strauß",
+    "source_url": "https://de.wikipedia.org/wiki/Afrikanischer_Strauß",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Ostriches bury their heads in the sand when in danger.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "When threatened they sometimes lay their neck and head flat on the ground – from a distance it looks that way."
+      }
+    }
+  },
+  {
+    "id": "gf2",
+    "kind": "fact",
+    "category_id": "earth",
+    "question": "Ein Blitz ist heißer als die Oberfläche der Sonne.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Blitzkanal entstehen bis zu 30.000 Grad Celsius, die Sonnenoberfläche hat rund 5.500 Grad.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blitz",
+    "source_url": "https://de.wikipedia.org/wiki/Blitz",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A lightning bolt is hotter than the surface of the Sun.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Temperatures in the lightning channel reach up to 30,000 degrees Celsius; the Sun's surface is about 5,500 degrees."
+      }
+    }
+  },
+  {
+    "id": "gm3",
+    "kind": "fact",
+    "category_id": "earth",
+    "question": "Goldfische haben nur ein Gedächtnis von drei Sekunden.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "In Versuchen merkten sich Goldfische Aufgaben über Wochen und Monate.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Goldfisch",
+    "source_url": "https://de.wikipedia.org/wiki/Goldfisch",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Goldfish have a memory of only three seconds.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "In experiments, goldfish remembered tasks for weeks and months."
+      }
+    }
+  },
+  {
+    "id": "em2",
+    "kind": "fact",
+    "category_id": "economy",
+    "question": "Wenn ein Staat einfach mehr Geld druckt, werden alle reicher.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Gibt es mehr Geld, aber nicht mehr Waren, steigen vor allem die Preise.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Inflation",
+    "source_url": "https://de.wikipedia.org/wiki/Inflation",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "If a state simply prints more money, everyone becomes richer.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "If there is more money but not more goods, it is mainly prices that rise."
+      }
+    }
+  },
+  {
+    "id": "ef2",
+    "kind": "fact",
+    "category_id": "economy",
+    "question": "Die ersten Münzen wurden vor mehr als 2.500 Jahren geprägt.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Königreich Lydien in der heutigen Türkei entstanden im 7. Jahrhundert v. Chr. die ersten Münzen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Münze",
+    "source_url": "https://de.wikipedia.org/wiki/Münze",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The first coins were minted more than 2,500 years ago.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The first coins were made in the 7th century BC in the kingdom of Lydia, in what is now Turkey."
+      }
+    }
+  },
+  {
+    "id": "em3",
+    "kind": "fact",
+    "category_id": "economy",
+    "question": "Hohe Rendite ohne Risiko ist bei der Geldanlage normal.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Höhere Renditechancen gehen grundsätzlich mit höherem Risiko einher. Wer beides ohne Haken verspricht, ist oft ein Betrüger.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rendite",
+    "source_url": "https://de.wikipedia.org/wiki/Rendite",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "High returns without risk are normal in investing.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Higher potential returns generally come with higher risk. Anyone promising both with no catch is often a fraudster."
+      }
+    }
+  },
+  {
+    "id": "cm2",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Das Monster in Mary Shelleys Roman heißt Frankenstein.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Frankenstein ist der Name des Wissenschaftlers Victor Frankenstein. Sein Geschöpf bleibt im Roman namenlos.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Frankenstein (Roman)",
+    "source_url": "https://de.wikipedia.org/wiki/Frankenstein_(Roman)",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The monster in Mary Shelley's novel is called Frankenstein.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Frankenstein is the name of the scientist, Victor Frankenstein. His creature remains nameless in the novel."
+      }
+    }
+  },
+  {
+    "id": "cf2",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Die antiken Olympischen Spiele fanden in Olympia in Griechenland statt.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie wurden dort über mehr als tausend Jahre zu Ehren des Gottes Zeus ausgetragen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Spiele der Antike",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Spiele_der_Antike",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The ancient Olympic Games were held at Olympia in Greece.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "They were held there for more than a thousand years in honour of the god Zeus."
+      }
+    }
+  },
+  {
+    "id": "cm3",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Das Weihnachtslied „Stille Nacht“ wurde von Mozart komponiert.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Melodie stammt von Franz Xaver Gruber, der Text von Joseph Mohr. Uraufgeführt wurde es 1818 bei Salzburg.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stille Nacht, heilige Nacht",
+    "source_url": "https://de.wikipedia.org/wiki/Stille_Nacht,_heilige_Nacht",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Christmas carol “Silent Night” was composed by Mozart.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The melody is by Franz Xaver Gruber and the words by Joseph Mohr. It was first performed near Salzburg in 1818."
+      }
+    }
+  },
+  {
+    "id": "q-v-iss-nacht",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie lange braucht die ISS für eine Erdumrundung?",
+    "options": [
+      "Rund 90 Minuten",
+      "12 Stunden",
+      "24 Stunden",
+      "Eine Woche"
+    ],
+    "correct_index": 0,
+    "explanation": "Etwa 90 Minuten – die Besatzung erlebt deshalb rund 16 Sonnenaufgänge am Tag.",
+    "difficulty": 1,
+    "tags": [
+      "ISS",
+      "Raumfahrt",
+      "Atmosphäre"
+    ],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "NASA Image and Video Library",
+    "source_url": "https://images.nasa.gov/details/GSFC_20180124_m12825_ISS_Airglow",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does the ISS take to orbit the Earth once?",
+        "options": [
+          "About 90 minutes",
+          "12 hours",
+          "24 hours",
+          "One week"
+        ],
+        "explanation": "About 90 minutes – so the crew sees around 16 sunrises a day."
+      }
+    }
+  },
+  {
+    "id": "q-v-saturn-v",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie hieß die Rakete, die Apollo 11 zum Mond brachte?",
+    "options": [
+      "Saturn V",
+      "Ariane 5",
+      "Falcon 9",
+      "Sojus"
+    ],
+    "correct_index": 0,
+    "explanation": "Die dreistufige Saturn V startete zwischen 1967 und 1973 insgesamt 13 Mal.",
+    "difficulty": 1,
+    "tags": [
+      "Apollo",
+      "Raumfahrt",
+      "Mondlandung"
+    ],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "NASA Image and Video Library",
+    "source_url": "https://images.nasa.gov/details/Apollo_11_Intro_720p",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the rocket that carried Apollo 11 to the Moon called?",
+        "options": [
+          "Saturn V",
+          "Ariane 5",
+          "Falcon 9",
+          "Soyuz"
+        ],
+        "explanation": "The three-stage Saturn V launched 13 times between 1967 and 1973."
+      }
+    }
+  },
+  {
+    "id": "q-v-aldrin",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer betrat als zweiter Mensch den Mond?",
+    "options": [
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Juri Gagarin",
+      "John Glenn"
+    ],
+    "correct_index": 0,
+    "explanation": "Michael Collins blieb währenddessen im Kommandomodul in der Mondumlaufbahn.",
+    "difficulty": 1,
+    "tags": [
+      "Apollo",
+      "Mondlandung"
+    ],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "NASA Image and Video Library",
+    "source_url": "https://images.nasa.gov/details/Buzz_Descends_Comparison__720p",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who was the second person to walk on the Moon?",
+        "options": [
+          "Buzz Aldrin",
+          "Michael Collins",
+          "Yuri Gagarin",
+          "John Glenn"
+        ],
+        "explanation": "Meanwhile, Michael Collins stayed in the command module in lunar orbit."
+      }
+    }
+  },
+  {
+    "id": "q-v-ingenuity",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Auf welchem Planeten flog der Hubschrauber Ingenuity?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Merkur"
+    ],
+    "correct_index": 0,
+    "explanation": "Ingenuity reiste zusammen mit dem Rover Perseverance zum Mars.",
+    "difficulty": 1,
+    "tags": [
+      "Mars",
+      "Raumfahrt",
+      "Robotik"
+    ],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "NASA Image and Video Library",
+    "source_url": "https://images.nasa.gov/details/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which planet did the helicopter Ingenuity fly?",
+        "options": [
+          "Mars",
+          "Venus",
+          "Jupiter",
+          "Mercury"
+        ],
+        "explanation": "Ingenuity travelled to Mars together with the rover Perseverance."
+      }
+    }
+  },
+  {
+    "id": "q-v-sonne",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Woraus besteht die Sonne hauptsächlich?",
+    "options": [
+      "Wasserstoff und Helium",
+      "Feuer und Lava",
+      "Eisen und Gestein",
+      "Sauerstoff"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Kern verschmilzt Wasserstoff zu Helium – daher stammt die Energie der Sonne.",
+    "difficulty": 1,
+    "tags": [
+      "Sonne",
+      "Astronomie"
+    ],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "NASA Image and Video Library",
+    "source_url": "https://images.nasa.gov/details/GSFC_20160212_SDO_m12144_Year6",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Sun mainly made of?",
+        "options": [
+          "Hydrogen and helium",
+          "Fire and lava",
+          "Iron and rock",
+          "Oxygen"
+        ],
+        "explanation": "In the core, hydrogen fuses into helium – that is where the Sun's energy comes from."
+      }
+    }
+  },
+  {
+    "id": "q-v-hurrikan",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie nennt man das ruhige Zentrum eines Hurrikans?",
+    "options": [
+      "Auge",
+      "Kern",
+      "Nabel",
+      "Trichter"
+    ],
+    "correct_index": 0,
+    "explanation": "Um das Auge liegt die Augenwand mit den höchsten Windgeschwindigkeiten.",
+    "difficulty": 1,
+    "tags": [
+      "Wetter",
+      "Hurrikan",
+      "ISS"
+    ],
+    "verification_status": "unverified",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "NASA Image and Video Library",
+    "source_url": "https://images.nasa.gov/details/jsc2019m000805_Hurricane_Dorian_190901",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the calm centre of a hurricane called?",
+        "options": [
+          "Eye",
+          "Core",
+          "Navel",
+          "Funnel"
+        ],
+        "explanation": "Around the eye lies the eyewall, with the highest wind speeds."
+      }
+    }
+  }
+]

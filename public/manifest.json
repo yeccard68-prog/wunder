@@ -1,0 +1,11 @@
+{
+  "name": "Wunder – Jeden Tag ein bisschen klüger",
+  "short_name": "Wunder",
+  "description": "Kurze Fakten, schnelle Quizfragen und Challenges mit Freunden.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f3ee",
+  "theme_color": "#f6f3ee",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

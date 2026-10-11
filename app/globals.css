@@ -1,0 +1,153 @@
+﻿@import "tailwindcss";
+
+/* ---------- Design tokens ---------- */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-raised: var(--raised);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-geist), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  --bg: #f6f3ee; /* warm paper */
+  --surface: #ffffff;
+  --raised: #efebe4;
+  --ink: #1a1714;
+  --muted: #6f6a63;
+  --line: #e3ded6;
+  --accent: #e8502a; /* ember – XP, streak, brand */
+  --good: #1c8f60;
+  --bad: #cf3f3c;
+  --science: #0b7f70;
+  --tech: #4f4cc9;
+  --history: #9a5f0c;
+  --earth: #3c7a2a;
+  --economy: #1d68ad;
+  --culture: #a3386f;
+  --shadow: 0 1px 2px rgb(26 23 20 / 0.04), 0 8px 24px -12px rgb(26 23 20 / 0.12);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #11100e;
+  --surface: #1b1917;
+  --raised: #272421;
+  --ink: #f4f1ec;
+  --muted: #a39d94;
+  --line: #2f2b27;
+  --accent: #ff6d48;
+  --good: #3fbd87;
+  --bad: #f2716d;
+  --science: #41c7b4;
+  --tech: #9794ff;
+  --history: #e2ab4f;
+  --earth: #7fc66a;
+  --economy: #6db3f2;
+  --culture: #e58bb8;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #11100e;
+    --surface: #1b1917;
+    --raised: #272421;
+    --ink: #f4f1ec;
+    --muted: #a39d94;
+    --line: #2f2b27;
+    --accent: #ff6d48;
+    --good: #3fbd87;
+    --bad: #f2716d;
+    --science: #41c7b4;
+    --tech: #9794ff;
+    --history: #e2ab4f;
+    --earth: #7fc66a;
+    --economy: #6db3f2;
+    --culture: #e58bb8;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3);
+  }
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+button:disabled {
+  cursor: default;
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow);
+}
+.press {
+  transition: transform 0.12s ease, background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+}
+.press:active:not(:disabled) {
+  transform: scale(0.97);
+}
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Motion ---------- */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes pop {
+  0% { transform: scale(0.9); opacity: 0; }
+  60% { transform: scale(1.04); opacity: 1; }
+  100% { transform: scale(1); }
+}
+@keyframes shake {
+  20%, 60% { transform: translateX(-4px); }
+  40%, 80% { transform: translateX(4px); }
+}
+@keyframes sheet {
+  from { transform: translateY(100%); }
+  to { transform: none; }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.rise { animation: rise 0.35s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.pop { animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.shake { animation: shake 0.35s ease; }
+.sheet { animation: sheet 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.fade { animation: fade 0.2s ease both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+

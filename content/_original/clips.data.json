@@ -1,0 +1,360 @@
+[
+  {
+    "id": "v-venus",
+    "categoryId": "science",
+    "title": "Auf der Venus ist ein Tag länger als ein Jahr",
+    "takeaway": "243 Erdtage für eine Drehung, nur 225 für einen Umlauf um die Sonne.",
+    "description": "Die Venus dreht sich extrem langsam – und noch dazu rückwärts. Deshalb dauert eine Drehung um die eigene Achse länger als ein kompletter Umlauf um die Sonne.",
+    "narration": "Die Venus dreht sich so langsam, dass ein Tag dort länger dauert als ein ganzes Jahr.",
+    "captions": [
+      "Die Venus dreht sich so langsam,",
+      "dass ein Tag dort länger dauert",
+      "als ein ganzes Jahr."
+    ],
+    "bars": [
+      {
+        "label": "Ein Venustag",
+        "value": 243,
+        "unit": "Erdtage"
+      },
+      {
+        "label": "Ein Venusjahr",
+        "value": 225,
+        "unit": "Erdtage"
+      }
+    ],
+    "tags": [
+      "Planeten",
+      "Sonnensystem"
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Venus (Planet)",
+        "url": "https://de.wikipedia.org/wiki/Venus_(Planet)"
+      }
+    ],
+    "publishedAt": "2026-10-09",
+    "popularity": 48,
+    "quiz": {
+      "question": "Wie lange braucht die Venus für eine Drehung um sich selbst?",
+      "options": [
+        "24 Stunden",
+        "88 Erdtage",
+        "243 Erdtage",
+        "687 Erdtage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rund 243 Erdtage – länger als ihr Umlauf um die Sonne mit etwa 225 Erdtagen."
+    },
+    "comments": [
+      {
+        "personId": "p8",
+        "text": "Und sie dreht sich auch noch rückwärts. Mein Lieblingsplanet."
+      },
+      {
+        "personId": "p5",
+        "text": "Zeige ich morgen meiner 9b."
+      }
+    ],
+    "file": "/clips/v-venus.mp4",
+    "duration": 7.27,
+    "hasAudio": true
+  },
+  {
+    "id": "v-kleopatra",
+    "categoryId": "history",
+    "title": "Kleopatra lebte näher an der Mondlandung als am Pyramidenbau",
+    "takeaway": "Das alte Ägypten dauerte so lange, dass seine Anfänge für Kleopatra schon Altertum waren.",
+    "description": "Die Cheops-Pyramide entstand um 2560 v. Chr. Kleopatra starb 30 v. Chr. – rund 2500 Jahre später. Bis zur Mondlandung 1969 vergingen danach nur etwa 2000 Jahre.",
+    "narration": "Kleopatra lebte näher an der Mondlandung als am Bau der großen Pyramide von Gizeh.",
+    "captions": [
+      "Kleopatra lebte näher",
+      "an der Mondlandung",
+      "als am Bau der großen Pyramide."
+    ],
+    "bars": [
+      {
+        "label": "Pyramide bis Kleopatra",
+        "value": 2500,
+        "unit": "Jahre"
+      },
+      {
+        "label": "Kleopatra bis Mondlandung",
+        "value": 2000,
+        "unit": "Jahre"
+      }
+    ],
+    "tags": [
+      "Ägypten",
+      "Zeitgefühl"
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Kleopatra VII.",
+        "url": "https://de.wikipedia.org/wiki/Kleopatra_VII."
+      },
+      {
+        "name": "Wikipedia: Cheops-Pyramide",
+        "url": "https://de.wikipedia.org/wiki/Cheops-Pyramide"
+      }
+    ],
+    "publishedAt": "2026-10-08",
+    "popularity": 61,
+    "quiz": {
+      "question": "Wann entstand die Cheops-Pyramide ungefähr?",
+      "options": [
+        "um 2560 v. Chr.",
+        "um 1200 v. Chr.",
+        "um 500 v. Chr.",
+        "um 30 v. Chr."
+      ],
+      "correctIndex": 0,
+      "explanation": "Um 2560 v. Chr. – etwa 2500 Jahre vor Kleopatras Zeit."
+    },
+    "comments": [
+      {
+        "personId": "p3",
+        "text": "Das sprengt jedes Mal mein Zeitgefühl."
+      }
+    ],
+    "file": "/clips/v-kleopatra.mp4",
+    "duration": 6.91,
+    "hasAudio": true
+  },
+  {
+    "id": "v-apollo",
+    "categoryId": "technology",
+    "title": "Zum Mond mit 4 Kilobyte Arbeitsspeicher",
+    "takeaway": "Der Apollo-Bordcomputer hatte millionenfach weniger Speicher als ein Smartphone.",
+    "description": "Der Apollo Guidance Computer hatte 2048 Wörter beschreibbaren Speicher, etwa 4 Kilobyte. Ein Smartphone mit 8 Gigabyte hat rund zwei Millionen Mal so viel.",
+    "narration": "Der Computer, der Menschen zum Mond brachte, hatte rund vier Kilobyte Arbeitsspeicher. Ein Smartphone hat millionenfach mehr.",
+    "captions": [
+      "Der Computer, der Menschen zum Mond brachte,",
+      "hatte rund vier Kilobyte Arbeitsspeicher.",
+      "Ein Smartphone hat millionenfach mehr."
+    ],
+    "bars": [
+      {
+        "label": "Apollo-Bordcomputer",
+        "value": 0.000004,
+        "display": "4 KB"
+      },
+      {
+        "label": "Smartphone",
+        "value": 8,
+        "display": "8 GB"
+      }
+    ],
+    "tags": [
+      "Raumfahrt",
+      "Computer"
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Apollo Guidance Computer",
+        "url": "https://de.wikipedia.org/wiki/Apollo_Guidance_Computer"
+      }
+    ],
+    "publishedAt": "2026-10-10",
+    "popularity": 39,
+    "quiz": {
+      "question": "Wie viel Arbeitsspeicher hatte der Apollo-Bordcomputer ungefähr?",
+      "options": [
+        "4 Kilobyte",
+        "4 Megabyte",
+        "64 Megabyte",
+        "1 Gigabyte"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rund 4 Kilobyte – 2048 Wörter beschreibbarer Speicher."
+    },
+    "comments": [
+      {
+        "personId": "p2",
+        "text": "Und mein Editor braucht 2 GB zum Starten."
+      },
+      {
+        "personId": "p7",
+        "text": "Effizienz war mal eine Tugend."
+      }
+    ],
+    "file": "/clips/v-apollo.mp4",
+    "duration": 11.3,
+    "hasAudio": true
+  },
+  {
+    "id": "v-luft",
+    "categoryId": "science",
+    "title": "Was du gerade einatmest, ist vor allem Stickstoff",
+    "takeaway": "Luft besteht zu etwa 78 % aus Stickstoff und nur zu 21 % aus Sauerstoff.",
+    "description": "Trockene Luft enthält rund 78 % Stickstoff, 21 % Sauerstoff und knapp 1 % Argon. Kohlendioxid macht nur einen Bruchteil eines Prozents aus.",
+    "narration": "Die Luft, die du atmest, besteht nur zu einem Fünftel aus Sauerstoff. Der größte Teil ist Stickstoff.",
+    "captions": [
+      "Die Luft, die du atmest,",
+      "besteht nur zu einem Fünftel aus Sauerstoff.",
+      "Der größte Teil ist Stickstoff."
+    ],
+    "bars": [
+      {
+        "label": "Stickstoff",
+        "value": 78,
+        "unit": "%"
+      },
+      {
+        "label": "Sauerstoff",
+        "value": 21,
+        "unit": "%"
+      }
+    ],
+    "tags": [
+      "Atmosphäre",
+      "Chemie"
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Erdatmosphäre",
+        "url": "https://de.wikipedia.org/wiki/Erdatmosphäre"
+      }
+    ],
+    "publishedAt": "2026-10-05",
+    "popularity": 27,
+    "quiz": {
+      "question": "Welches Gas macht den größten Teil der Luft aus?",
+      "options": [
+        "Sauerstoff",
+        "Stickstoff",
+        "Kohlendioxid",
+        "Wasserstoff"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stickstoff, mit rund 78 %."
+    },
+    "comments": [
+      {
+        "personId": "p1",
+        "text": "Und trotzdem reden alle nur über Sauerstoff."
+      }
+    ],
+    "file": "/clips/v-luft.mp4",
+    "duration": 9.63,
+    "hasAudio": true
+  },
+  {
+    "id": "v-ozean",
+    "categoryId": "earth",
+    "title": "Der blaue Planet: mehr Wasser als Land",
+    "takeaway": "Rund 71 % der Erdoberfläche sind von Wasser bedeckt.",
+    "description": "Ozeane und Meere bedecken etwa 71 % der Erdoberfläche. Landflächen machen rund 29 % aus – weniger als ein Drittel.",
+    "narration": "Rund einundsiebzig Prozent der Erdoberfläche sind von Wasser bedeckt. Land macht weniger als ein Drittel aus.",
+    "captions": [
+      "Rund 71 Prozent der Erdoberfläche",
+      "sind von Wasser bedeckt.",
+      "Land macht weniger als ein Drittel aus."
+    ],
+    "bars": [
+      {
+        "label": "Wasser",
+        "value": 71,
+        "unit": "%"
+      },
+      {
+        "label": "Land",
+        "value": 29,
+        "unit": "%"
+      }
+    ],
+    "tags": [
+      "Ozeane",
+      "Geografie"
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Erde",
+        "url": "https://de.wikipedia.org/wiki/Erde"
+      }
+    ],
+    "publishedAt": "2026-10-07",
+    "popularity": 33,
+    "quiz": {
+      "question": "Wie viel der Erdoberfläche ist von Wasser bedeckt?",
+      "options": [
+        "etwa 50 %",
+        "etwa 60 %",
+        "etwa 71 %",
+        "etwa 90 %"
+      ],
+      "correctIndex": 2,
+      "explanation": "Etwa 71 % – deshalb heißt die Erde auch der blaue Planet."
+    },
+    "comments": [
+      {
+        "personId": "p8",
+        "text": "Eigentlich müsste sie Wasser heißen, nicht Erde."
+      }
+    ],
+    "file": "/clips/v-ozean.mp4",
+    "duration": 9.26,
+    "hasAudio": true
+  },
+  {
+    "id": "v-oxford",
+    "categoryId": "history",
+    "title": "Oxford ist älter als das Reich der Azteken",
+    "takeaway": "In Oxford wurde schon um 1096 gelehrt, Tenochtitlan entstand erst um 1325.",
+    "description": "Die Lehre in Oxford ist seit etwa 1096 belegt. Tenochtitlan, die Hauptstadt der Azteken, wurde um 1325 gegründet – mehr als zwei Jahrhunderte später.",
+    "narration": "In Oxford wurde schon gelehrt, als es die Hauptstadt der Azteken noch gar nicht gab.",
+    "captions": [
+      "In Oxford wurde schon gelehrt,",
+      "als es die Hauptstadt der Azteken",
+      "noch gar nicht gab."
+    ],
+    "bars": [
+      {
+        "label": "Lehre in Oxford seit",
+        "value": 930,
+        "unit": "Jahren"
+      },
+      {
+        "label": "Tenochtitlan gegründet vor",
+        "value": 700,
+        "unit": "Jahren"
+      }
+    ],
+    "tags": [
+      "Mittelalter",
+      "Zeitgefühl"
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: University of Oxford",
+        "url": "https://de.wikipedia.org/wiki/University_of_Oxford"
+      },
+      {
+        "name": "Wikipedia: Tenochtitlan",
+        "url": "https://de.wikipedia.org/wiki/Tenochtitlan"
+      }
+    ],
+    "publishedAt": "2026-10-03",
+    "popularity": 44,
+    "quiz": {
+      "question": "Wann wurde Tenochtitlan, die Hauptstadt der Azteken, gegründet?",
+      "options": [
+        "um 800",
+        "um 1096",
+        "um 1325",
+        "um 1521"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um 1325. 1521 wurde die Stadt von den Spaniern erobert."
+    },
+    "comments": [
+      {
+        "personId": "p3",
+        "text": "Geschichte ist nie so linear, wie man denkt."
+      }
+    ],
+    "file": "/clips/v-oxford.mp4",
+    "duration": 7.04,
+    "hasAudio": true
+  }
+]

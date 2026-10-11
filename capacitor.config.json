@@ -1,0 +1,7 @@
+{
+  "appId": "app.wunder.learn",
+  "appName": "Wunder",
+  "webDir": "out",
+  "android": { "backgroundColor": "#f6f3ee" },
+  "ios": { "backgroundColor": "#f6f3ee", "contentInset": "always" }
+}

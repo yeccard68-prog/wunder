@@ -1,0 +1,86 @@
+[
+  {
+    "id": "science",
+    "slug": "science",
+    "name": "Wissenschaft",
+    "description": "Vom Atom bis zum Universum",
+    "display_order": 1,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Science",
+        "description": "From atoms to the universe"
+      }
+    }
+  },
+  {
+    "id": "technology",
+    "slug": "technology",
+    "name": "Technologie & KI",
+    "description": "Wie Computer und KI wirklich funktionieren",
+    "display_order": 2,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Technology & AI",
+        "description": "How computers and AI really work"
+      }
+    }
+  },
+  {
+    "id": "history",
+    "slug": "history",
+    "name": "Geschichte",
+    "description": "Die Geschichten hinter dem Heute",
+    "display_order": 3,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "History",
+        "description": "The stories behind today"
+      }
+    }
+  },
+  {
+    "id": "earth",
+    "slug": "earth",
+    "name": "Erde & Natur",
+    "description": "Länder, Tiere, Klima und Naturwunder",
+    "display_order": 4,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Earth & Nature",
+        "description": "Countries, animals, climate and natural wonders"
+      }
+    }
+  },
+  {
+    "id": "economy",
+    "slug": "economy",
+    "name": "Wirtschaft & Geld",
+    "description": "Wie Märkte, Geld und Finanzen ticken",
+    "display_order": 5,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Economy & Money",
+        "description": "How markets, money and finance work"
+      }
+    }
+  },
+  {
+    "id": "culture",
+    "slug": "culture",
+    "name": "Kultur & Gesellschaft",
+    "description": "Kunst, Politik und Zusammenleben",
+    "display_order": 6,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Culture & Society",
+        "description": "Art, politics and living together"
+      }
+    }
+  }
+]

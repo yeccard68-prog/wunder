@@ -1,0 +1,123 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Wunder – Beispielclips erzeugen</title>
+<body style="background:#11100e;color:#f4f1ec;font-family:Segoe UI,sans-serif;padding:24px">
+  <button id="start" style="font-size:20px;padding:12px 28px">Start</button>
+  <pre id="log"></pre>
+  <canvas id="c" width="720" height="1280" style="height:480px;border:1px solid #333"></canvas>
+  <script type="module">
+    const COLORS = { science: "#41c7b4", technology: "#9794ff", history: "#e2ab4f", earth: "#7fc66a", economy: "#6db3f2", culture: "#e58bb8" };
+    const canvas = document.getElementById("c");
+    const ctx = canvas.getContext("2d");
+    const log = (t) => (document.getElementById("log").textContent += t + "\n");
+    const clamp = (x) => Math.min(1, Math.max(0, x));
+    const ease = (x) => 1 - Math.pow(1 - clamp(x), 3);
+
+    function wrap(text, maxWidth) {
+      const lines = [];
+      let line = "";
+      for (const word of text.split(" ")) {
+        const test = line ? line + " " + word : word;
+        if (ctx.measureText(test).width > maxWidth && line) {
+          lines.push(line);
+          line = word;
+        } else line = test;
+      }
+      lines.push(line);
+      return lines;
+    }
+
+    function draw(clip, s) {
+      const color = COLORS[clip.category_id] ?? "#ff6d48";
+      ctx.globalAlpha = 1;
+      ctx.fillStyle = "#11100e";
+      ctx.fillRect(0, 0, 720, 1280);
+      // slow ambient glow
+      for (const [i, r] of [[0, 520], [1, 420]]) {
+        const x = 360 + Math.sin(s * 0.5 + i * 2.4) * 240;
+        const y = 420 + i * 420 + Math.cos(s * 0.4 + i) * 120;
+        const g = ctx.createRadialGradient(x, y, 0, x, y, r);
+        g.addColorStop(0, color + "38");
+        g.addColorStop(1, color + "00");
+        ctx.fillStyle = g;
+        ctx.fillRect(0, 0, 720, 1280);
+      }
+      // headline
+      const a = ease(s / 0.7);
+      ctx.globalAlpha = a;
+      ctx.textBaseline = "top";
+      ctx.fillStyle = color;
+      ctx.fillRect(60, 150 + (1 - a) * 20, 64, 8);
+      ctx.fillStyle = "#f4f1ec";
+      ctx.font = "bold 54px Georgia";
+      wrap(clip.title, 600).forEach((l, i) => ctx.fillText(l, 60, 186 + i * 66 + (1 - a) * 20));
+      // bars
+      const max = Math.max(...clip.production.bars.map((b) => b.value));
+      clip.production.bars.forEach((b, i) => {
+        const p = ease((s - 1.3 - i * 0.5) / 2.2);
+        // Layout stays inside x 60–580 / y < 900: the app overlays actions (right) and captions (bottom).
+        const y = 520 + i * 200;
+        ctx.globalAlpha = ease((s - 1.1 - i * 0.5) / 0.5);
+        ctx.fillStyle = "#f4f1ec";
+        ctx.font = "bold 60px Georgia";
+        ctx.fillText(b.display ?? Math.round(b.value * p).toLocaleString("de-DE") + " " + b.unit, 60, y);
+        ctx.fillStyle = "#a39d94";
+        ctx.font = "600 30px Segoe UI";
+        ctx.fillText(b.label, 60, y + 72);
+        ctx.fillStyle = "#272421";
+        ctx.beginPath();
+        ctx.roundRect(60, y + 122, 520, 40, 20);
+        ctx.fill();
+        ctx.fillStyle = i === 0 ? color : "#f4f1ec";
+        ctx.beginPath();
+        ctx.roundRect(60, y + 122, Math.max(40, (520 * b.value * p) / max), 40, 20);
+        ctx.fill();
+      });
+      ctx.globalAlpha = 1;
+    }
+
+    const mime = ["video/mp4;codecs=avc1.42E01E,mp4a.40.2", "video/webm;codecs=vp9,opus", "video/webm"].find((m) => MediaRecorder.isTypeSupported(m));
+
+    async function record(clip, ac) {
+      let buffer = null;
+      try {
+        const res = await fetch(`/audio/${clip.id}.wav`);
+        if (res.ok) buffer = await ac.decodeAudioData(await res.arrayBuffer());
+      } catch {}
+      const duration = Math.max(6, buffer ? buffer.duration + 1.2 : 8);
+      const stream = canvas.captureStream(30);
+      if (buffer) {
+        const dest = ac.createMediaStreamDestination();
+        const src = ac.createBufferSource();
+        src.buffer = buffer;
+        src.connect(dest);
+        src.start(ac.currentTime + 0.5);
+        stream.addTrack(dest.stream.getAudioTracks()[0]);
+      }
+      const rec = new MediaRecorder(stream, { mimeType: mime, videoBitsPerSecond: 900_000, audioBitsPerSecond: 96_000 });
+      const chunks = [];
+      rec.ondataavailable = (e) => chunks.push(e.data);
+      const done = new Promise((r) => (rec.onstop = r));
+      const t0 = performance.now();
+      draw(clip, 0);
+      rec.start();
+      const timer = setInterval(() => draw(clip, (performance.now() - t0) / 1000), 33);
+      await new Promise((r) => setTimeout(r, duration * 1000));
+      clearInterval(timer);
+      rec.stop();
+      await done;
+      const ext = mime.startsWith("video/mp4") ? "mp4" : "webm";
+      const blob = new Blob(chunks, { type: mime });
+      await fetch(`/upload/${clip.id}?ext=${ext}&duration=${duration.toFixed(2)}&audio=${buffer ? 1 : 0}`, { method: "POST", body: blob });
+      log(`${clip.id}: ${duration.toFixed(1)} s, ${(blob.size / 1024).toFixed(0)} KB, ${ext}${buffer ? ", mit Ton" : ", ohne Ton"}`);
+    }
+
+    document.getElementById("start").onclick = async () => {
+      const ac = new AudioContext();
+      await ac.resume();
+      log("Format: " + mime);
+      for (const clip of (await (await fetch("/clips.json")).json()).filter((c) => c.production?.provider === "canvas_sample")) await record(clip, ac);
+      log("FERTIG");
+    };
+  </script>
+</body>
