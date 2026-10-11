@@ -129,3 +129,53 @@ export async function setVideoProgress(userId: string, videoId: string, row: Fla
   const { error } = await db().from("video_progress").upsert({ user_id: userId, video_id: videoId, ...row }, { onConflict: "user_id,video_id" });
   if (error) throw error;
 }
+
+// ---------- content review (admins only – enforced by the database, not by the app) ----------
+export interface ReviewItem {
+  kind: "question" | "video";
+  id: string;
+  categoryId: string;
+  title: string;
+  options?: string[];
+  correctIndex?: number;
+  body: string;
+  sourceName: string | null;
+  sourceUrl: string | null;
+  verification: string;
+  status: string;
+  reports: number;
+  note: string | null;
+}
+
+export async function isAdmin(): Promise<boolean> {
+  if (!supabase) return false;
+  const { data, error } = await supabase.rpc("is_admin");
+  return !error && data === true;
+}
+
+/** Everything that still needs a human decision: pulled by reports first, then not yet human-verified. */
+export async function fetchReviewQueue(): Promise<ReviewItem[]> {
+  const [q, v] = await Promise.all([
+    db().from("questions").select("id, kind, category_id, question, options, source_name, source_url, verification_status, status, report_count, review_note, question_answers(correct_index, explanation)").in("status", ["published", "review"]).neq("verification_status", "verified").limit(500),
+    db().from("videos").select("id, category_id, title, hook, description, sources, license, creator_name, verification_status, status, report_count, review_note").in("status", ["published", "review"]).neq("verification_status", "verified").limit(200),
+  ]);
+  if (q.error) throw q.error;
+  if (v.error) throw v.error;
+  type QA = { correct_index: number; explanation: string };
+  const items: ReviewItem[] = [
+    ...(q.data ?? []).map((r) => {
+      const a = (Array.isArray(r.question_answers) ? r.question_answers[0] : r.question_answers) as QA | null;
+      return { kind: "question" as const, id: r.id, categoryId: r.category_id, title: r.question, options: r.options as string[], correctIndex: a?.correct_index, body: a?.explanation ?? "", sourceName: r.source_name, sourceUrl: r.source_url, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note };
+    }),
+    ...(v.data ?? []).map((r) => {
+      const src = (r.sources as { name: string; url: string }[])[0];
+      return { kind: "video" as const, id: r.id, categoryId: r.category_id, title: r.title, body: [r.hook, r.description, r.creator_name && `© ${r.creator_name}`, r.license].filter(Boolean).join(" · "), sourceName: src?.name ?? null, sourceUrl: src?.url ?? null, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note };
+    }),
+  ];
+  return items.sort((a, b) => Number(b.status === "review") - Number(a.status === "review") || b.reports - a.reports);
+}
+
+export async function adminReview(kind: "question" | "video", id: string, action: "approve" | "withdraw") {
+  const { error } = await db().rpc("admin_review", { p_kind: kind, p_id: id, p_action: action });
+  if (error) throw error;
+}

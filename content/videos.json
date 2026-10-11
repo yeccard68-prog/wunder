@@ -28,7 +28,7 @@
       "Sonnensystem"
     ],
     "quiz_question_id": "q-v-venus",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "archived",
     "demo_popularity": 48,
     "demo_comments": [
@@ -96,7 +96,7 @@
       "Zeitgefühl"
     ],
     "quiz_question_id": "q-v-kleopatra",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "archived",
     "demo_popularity": 61,
     "demo_comments": [
@@ -156,7 +156,7 @@
       "Computer"
     ],
     "quiz_question_id": "q-v-apollo",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "archived",
     "demo_popularity": 39,
     "demo_comments": [
@@ -220,7 +220,7 @@
       "Chemie"
     ],
     "quiz_question_id": "q-v-luft",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "archived",
     "demo_popularity": 27,
     "demo_comments": [
@@ -280,7 +280,7 @@
       "Geografie"
     ],
     "quiz_question_id": "q-v-ozean",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "archived",
     "demo_popularity": 33,
     "demo_comments": [
@@ -344,7 +344,7 @@
       "Zeitgefühl"
     ],
     "quiz_question_id": "q-v-oxford",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "archived",
     "demo_popularity": 44,
     "demo_comments": [
@@ -381,8 +381,8 @@
     "title": "Die Erde bei Nacht – gesehen von der Raumstation",
     "hook": "Die ISS umrundet die Erde etwa alle 90 Minuten – rund 16 Mal am Tag.",
     "description": "Die Internationale Raumstation fliegt in rund 400 Kilometern Höhe mit etwa 28.000 km/h. Der farbige Schimmer über dem Horizont ist das Nachthimmelsleuchten der oberen Atmosphäre.",
-    "video_url": "https://images-assets.nasa.gov/video/GSFC_20180124_m12825_ISS_Airglow/GSFC_20180124_m12825_ISS_Airglow~small.mp4",
-    "thumbnail_url": null,
+    "video_url": "/clips/v-iss-nacht.mp4",
+    "thumbnail_url": "/clips/v-iss-nacht.jpg",
     "duration_seconds": 10,
     "has_audio": false,
     "captions": [
@@ -405,18 +405,23 @@
       "Atmosphäre"
     ],
     "quiz_question_id": "q-v-iss-nacht",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "demo_popularity": 0,
     "demo_comments": [],
     "production": {
       "provider": "external",
-      "nasa_id": "GSFC_20180124_m12825_ISS_Airglow"
+      "cache": "iss-nacht",
+      "source_url": "https://images-assets.nasa.gov/video/GSFC_20180124_m12825_ISS_Airglow/GSFC_20180124_m12825_ISS_Airglow~orig.mp4",
+      "start": 2,
+      "end": 12,
+      "mode": "crop",
+      "x": 0.5
     },
     "min_age": 10,
-    "start_seconds": 2,
-    "end_seconds": 12,
-    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
     "translations": {
       "en": {
         "title": "Earth at night – seen from the space station",
@@ -436,9 +441,9 @@
     "title": "Der Start von Apollo 11",
     "hook": "Am 16. Juli 1969 hob die Saturn V ab – vier Tage später landeten Menschen auf dem Mond.",
     "description": "Die Saturn V war rund 110 Meter hoch und ist bis heute eine der stärksten Raketen, die je geflogen sind. An Bord von Apollo 11: Neil Armstrong, Buzz Aldrin und Michael Collins.",
-    "video_url": "https://images-assets.nasa.gov/video/Apollo_11_Intro_720p/Apollo_11_Intro_720p~small.mp4",
-    "thumbnail_url": null,
-    "duration_seconds": 5.5,
+    "video_url": "/clips/v-saturn-v.mp4",
+    "thumbnail_url": "/clips/v-saturn-v.jpg",
+    "duration_seconds": 4.3,
     "has_audio": false,
     "captions": [
       "16. Juli 1969: Apollo 11 startet.",
@@ -460,18 +465,23 @@
       "Mondlandung"
     ],
     "quiz_question_id": "q-v-saturn-v",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "demo_popularity": 0,
     "demo_comments": [],
     "production": {
       "provider": "external",
-      "nasa_id": "Apollo_11_Intro_720p"
+      "cache": "saturn-v",
+      "source_url": "https://images-assets.nasa.gov/video/Apollo_11_Intro_720p/Apollo_11_Intro_720p~medium.mp4",
+      "start": 22,
+      "end": 26.3,
+      "mode": "tall",
+      "x": 0.5
     },
     "min_age": 10,
-    "start_seconds": 22,
-    "end_seconds": 27.5,
-    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
     "translations": {
       "en": {
         "title": "The launch of Apollo 11",
@@ -491,8 +501,8 @@
     "title": "Der zweite Mensch auf dem Mond",
     "hook": "Buzz Aldrin stieg rund 19 Minuten nach Neil Armstrong die Leiter der Mondfähre hinab.",
     "description": "Originalaufnahme der Fernsehübertragung vom 20. Juli 1969 in restaurierter Fassung. Rund 600 Millionen Menschen verfolgten die Mondlandung live.",
-    "video_url": "https://images-assets.nasa.gov/video/Buzz_Descends_Comparison__720p/Buzz_Descends_Comparison__720p~small.mp4",
-    "thumbnail_url": null,
+    "video_url": "/clips/v-aldrin.mp4",
+    "thumbnail_url": "/clips/v-aldrin.jpg",
     "duration_seconds": 10,
     "has_audio": false,
     "captions": [
@@ -514,18 +524,23 @@
       "Mondlandung"
     ],
     "quiz_question_id": "q-v-aldrin",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "demo_popularity": 0,
     "demo_comments": [],
     "production": {
       "provider": "external",
-      "nasa_id": "Buzz_Descends_Comparison__720p"
+      "cache": "aldrin",
+      "source_url": "https://images-assets.nasa.gov/video/Buzz_Descends_Comparison__720p/Buzz_Descends_Comparison__720p~medium.mp4",
+      "start": 24,
+      "end": 34,
+      "mode": "tall",
+      "x": 0.5
     },
     "min_age": 10,
-    "start_seconds": 24,
-    "end_seconds": 34,
-    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
     "translations": {
       "en": {
         "title": "The second human on the Moon",
@@ -545,8 +560,8 @@
     "title": "Ein Hubschrauber auf dem Mars",
     "hook": "Ingenuity gelang 2021 der erste motorisierte Flug auf einem anderen Planeten.",
     "description": "Animation der NASA. Die Marsluft ist rund hundertmal dünner als die der Erde, deshalb drehen sich die Rotoren von Ingenuity mit etwa 2.400 Umdrehungen pro Minute. Geplant waren fünf Flüge – es wurden 72.",
-    "video_url": "https://images-assets.nasa.gov/video/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation~small.mp4",
-    "thumbnail_url": null,
+    "video_url": "/clips/v-ingenuity.mp4",
+    "thumbnail_url": "/clips/v-ingenuity.jpg",
     "duration_seconds": 10,
     "has_audio": false,
     "captions": [
@@ -569,18 +584,23 @@
       "Robotik"
     ],
     "quiz_question_id": "q-v-ingenuity",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "demo_popularity": 0,
     "demo_comments": [],
     "production": {
       "provider": "external",
-      "nasa_id": "JPL-20200429-TECHf-0002-Mars Helicopter Animation"
+      "cache": "ingenuity",
+      "source_url": "https://images-assets.nasa.gov/video/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation~large.mp4",
+      "start": 62,
+      "end": 72,
+      "mode": "crop",
+      "x": 0.5
     },
     "min_age": 10,
-    "start_seconds": 62,
-    "end_seconds": 72,
-    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
     "translations": {
       "en": {
         "title": "A helicopter on Mars",
@@ -600,8 +620,8 @@
     "title": "Unsere Sonne in Bewegung",
     "hook": "Die Sonne enthält mehr als 99,8 Prozent der gesamten Masse unseres Sonnensystems.",
     "description": "Zeitrafferaufnahmen des Sonnenobservatoriums SDO im ultravioletten Licht. Die Sonne ist eine Kugel aus heißem Plasma und besteht vor allem aus Wasserstoff und Helium.",
-    "video_url": "https://images-assets.nasa.gov/video/GSFC_20160212_SDO_m12144_Year6/GSFC_20160212_SDO_m12144_Year6~small.mp4",
-    "thumbnail_url": null,
+    "video_url": "/clips/v-sonne.mp4",
+    "thumbnail_url": "/clips/v-sonne.jpg",
     "duration_seconds": 10,
     "has_audio": false,
     "captions": [
@@ -623,18 +643,23 @@
       "Astronomie"
     ],
     "quiz_question_id": "q-v-sonne",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "demo_popularity": 0,
     "demo_comments": [],
     "production": {
       "provider": "external",
-      "nasa_id": "GSFC_20160212_SDO_m12144_Year6"
+      "cache": "sonne",
+      "source_url": "https://images-assets.nasa.gov/video/GSFC_20160212_SDO_m12144_Year6/GSFC_20160212_SDO_m12144_Year6~large.mp4",
+      "start": 41,
+      "end": 51,
+      "mode": "crop",
+      "x": 0.5
     },
     "min_age": 10,
-    "start_seconds": 40,
-    "end_seconds": 50,
-    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
     "translations": {
       "en": {
         "title": "Our Sun in motion",
@@ -654,8 +679,8 @@
     "title": "Ein Hurrikan aus dem All",
     "hook": "Im Auge eines Hurrikans ist es fast windstill – ringsum toben die stärksten Winde.",
     "description": "Hurrikan Dorian am 1. September 2019, aufgenommen von Kameras an der Internationalen Raumstation. Tropische Wirbelstürme entstehen über warmem Meerwasser ab etwa 26 Grad.",
-    "video_url": "https://images-assets.nasa.gov/video/jsc2019m000805_Hurricane_Dorian_190901/jsc2019m000805_Hurricane_Dorian_190901~small.mp4",
-    "thumbnail_url": null,
+    "video_url": "/clips/v-hurrikan.mp4",
+    "thumbnail_url": "/clips/v-hurrikan.jpg",
     "duration_seconds": 10,
     "has_audio": false,
     "captions": [
@@ -678,18 +703,23 @@
       "ISS"
     ],
     "quiz_question_id": "q-v-hurrikan",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "demo_popularity": 0,
     "demo_comments": [],
     "production": {
       "provider": "external",
-      "nasa_id": "jsc2019m000805_Hurricane_Dorian_190901"
+      "cache": "hurrikan",
+      "source_url": "https://images-assets.nasa.gov/video/jsc2019m000805_Hurricane_Dorian_190901/jsc2019m000805_Hurricane_Dorian_190901~large.mp4",
+      "start": 100,
+      "end": 110,
+      "mode": "crop",
+      "x": 0.45
     },
     "min_age": 10,
-    "start_seconds": 100,
-    "end_seconds": 110,
-    "license": "NASA-Material, gemeinfrei (keine Billigung durch die NASA)",
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
     "translations": {
       "en": {
         "title": "A hurricane seen from space",
@@ -699,6 +729,1483 @@
           "Hurricane Dorian, filmed from the space station.",
           "In the middle lies the almost windless eye.",
           "The strongest winds rage all around it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-blitz",
+    "category_id": "science",
+    "title": "Ein Blitz in Zeitlupe",
+    "hook": "Ein Blitz heizt die Luft auf bis zu 30.000 Grad auf – heißer als die Oberfläche der Sonne.",
+    "description": "Zeitlupenaufnahme mit 240 Bildern pro Sekunde, Finnland. Die schlagartig erhitzte Luft dehnt sich explosionsartig aus: Das hören wir als Donner.",
+    "video_url": "/clips/v-blitz.mp4",
+    "thumbnail_url": "/clips/v-blitz.jpg",
+    "duration_seconds": 6,
+    "has_audio": false,
+    "captions": [
+      "Ein Blitz, zehnfach verlangsamt.",
+      "Er erhitzt die Luft auf bis zu 30.000 Grad.",
+      "Die Druckwelle hören wir als Donner."
+    ],
+    "creator_name": "MrNousia",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Lightning_strikes_in_slow_motion_(240fps)_in_Muurame,_Finland.webm"
+      }
+    ],
+    "published_at": "2026-10-06T12:00:00Z",
+    "tags": [
+      "Wetter",
+      "Physik"
+    ],
+    "quiz_question_id": "q-v-blitz",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "blitz",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Lightning_strikes_in_slow_motion_%28240fps%29_in_Muurame%2C_Finland.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 0.6,
+      "end": 6.6,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, MrNousia – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Lightning in slow motion",
+        "hook": "A lightning bolt heats the air to as much as 30,000 degrees – hotter than the surface of the Sun.",
+        "description": "Slow-motion footage at 240 frames per second, Finland. The suddenly heated air expands explosively: we hear that as thunder.",
+        "captions": [
+          "A lightning bolt, slowed down tenfold.",
+          "It heats the air to as much as 30,000 degrees.",
+          "We hear the shock wave as thunder."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-polarlicht",
+    "category_id": "science",
+    "title": "Polarlichter über Alaska",
+    "hook": "Polarlichter entstehen, wenn geladene Teilchen von der Sonne auf die obere Atmosphäre treffen.",
+    "description": "Zeitraffer aus Alaska. Das grüne Leuchten stammt von Sauerstoffatomen in rund 100 Kilometern Höhe, die durch die Teilchen des Sonnenwinds angeregt werden.",
+    "video_url": "/clips/v-polarlicht.mp4",
+    "thumbnail_url": "/clips/v-polarlicht.jpg",
+    "duration_seconds": 8.5,
+    "has_audio": false,
+    "captions": [
+      "Polarlichter über Alaska im Zeitraffer.",
+      "Teilchen von der Sonne treffen auf die Atmosphäre.",
+      "Grün leuchtet der Sauerstoff."
+    ],
+    "creator_name": "NASA Scientific Visualization Studio",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Alaskan_Aurora_Time_Lapse_(SVS15077).webm"
+      }
+    ],
+    "published_at": "2026-10-05T12:00:00Z",
+    "tags": [
+      "Sonne",
+      "Atmosphäre"
+    ],
+    "quiz_question_id": "q-v-polarlicht",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "polarlicht",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Alaskan_Aurora_Time_Lapse_%28SVS15077%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 0.5,
+      "end": 9,
+      "mode": "crop",
+      "x": 0.45
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "Northern lights over Alaska",
+        "hook": "Auroras occur when charged particles from the Sun hit the upper atmosphere.",
+        "description": "Time-lapse from Alaska. The green glow comes from oxygen atoms about 100 kilometres up that are excited by solar wind particles.",
+        "captions": [
+          "Northern lights over Alaska in time-lapse.",
+          "Particles from the Sun hit the atmosphere.",
+          "The green glow is oxygen."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-keimung",
+    "category_id": "science",
+    "title": "Aus Samen werden Pflanzen",
+    "hook": "Ein Samen enthält einen winzigen Keimling und Nahrung für den Start – Wasser weckt ihn auf.",
+    "description": "Linsen keimen im Zeitraffer. Zum Keimen braucht ein Samen Wasser, Wärme und Sauerstoff. Licht wird erst wichtig, wenn die ersten Blätter erscheinen.",
+    "video_url": "/clips/v-keimung.mp4",
+    "thumbnail_url": "/clips/v-keimung.jpg",
+    "duration_seconds": 11,
+    "has_audio": false,
+    "captions": [
+      "Linsen keimen im Zeitraffer.",
+      "Im Samen steckt Nahrung für den Start.",
+      "Wasser weckt den Keimling auf."
+    ],
+    "creator_name": "Always Shooting",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Lentil_microgreens_growth_time_lapse.webm"
+      }
+    ],
+    "published_at": "2026-10-04T12:00:00Z",
+    "tags": [
+      "Pflanzen",
+      "Biologie"
+    ],
+    "quiz_question_id": "q-v-keimung",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "keimung",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lentil_microgreens_growth_time_lapse.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 0,
+      "end": 11,
+      "mode": "tall",
+      "x": 0.5
+    },
+    "min_age": 6,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 2.0, Always Shooting – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "From seed to plant",
+        "hook": "A seed contains a tiny embryo and food for the start – water wakes it up.",
+        "description": "Lentils sprouting in time-lapse. To germinate, a seed needs water, warmth and oxygen. Light only becomes important once the first leaves appear.",
+        "captions": [
+          "Lentils sprouting in time-lapse.",
+          "The seed holds food for the start.",
+          "Water wakes the embryo up."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-tacoma",
+    "category_id": "technology",
+    "title": "Die Brücke, die sich selbst zerriss",
+    "hook": "1940 versetzte Wind die Tacoma-Narrows-Brücke in immer stärkere Schwingungen – bis sie einstürzte.",
+    "description": "Die Hängebrücke im US-Bundesstaat Washington war erst vier Monate alt. Seit dem Einsturz werden große Brücken im Windkanal getestet. Verletzt wurde niemand.",
+    "video_url": "/clips/v-tacoma.mp4",
+    "thumbnail_url": "/clips/v-tacoma.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Tacoma, USA, 7. November 1940.",
+      "Der Wind lässt die Fahrbahn schwingen.",
+      "Wenig später stürzt die Brücke ein."
+    ],
+    "creator_name": "Barney Elliot",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_Bridge_destruction.ogv"
+      }
+    ],
+    "published_at": "2026-10-03T12:00:00Z",
+    "tags": [
+      "Ingenieurwesen",
+      "Physik"
+    ],
+    "quiz_question_id": "q-v-tacoma",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "tacoma",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tacoma_Narrows_Bridge_destruction.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 77,
+      "end": 85,
+      "mode": "tall",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "The bridge that tore itself apart",
+        "hook": "In 1940 wind set the Tacoma Narrows Bridge swinging more and more violently – until it collapsed.",
+        "description": "The suspension bridge in the US state of Washington was only four months old. Since the collapse, large bridges have been tested in wind tunnels. Nobody was hurt.",
+        "captions": [
+          "Tacoma, USA, 7 November 1940.",
+          "The wind makes the roadway oscillate.",
+          "A little later the bridge collapses."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-3d-druck",
+    "category_id": "technology",
+    "title": "So arbeitet ein 3D-Drucker",
+    "hook": "Ein 3D-Drucker baut Gegenstände Schicht für Schicht aus geschmolzenem Kunststoff auf.",
+    "description": "Zeitraffer eines Druckvorgangs. Die Düse fährt jede Schicht nach einem digitalen Bauplan ab; was hier Sekunden dauert, braucht in Wirklichkeit oft Stunden.",
+    "video_url": "/clips/v-3d-druck.mp4",
+    "thumbnail_url": "/clips/v-3d-druck.jpg",
+    "duration_seconds": 6,
+    "has_audio": false,
+    "captions": [
+      "Ein 3D-Drucker im Zeitraffer.",
+      "Schicht für Schicht wächst die Figur.",
+      "Der Bauplan kommt aus dem Computer."
+    ],
+    "creator_name": "RepRapPro",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Robot_3D_print_timelapse_on_RepRapPro_Fisher.webm"
+      }
+    ],
+    "published_at": "2026-10-02T12:00:00Z",
+    "tags": [
+      "Fertigung",
+      "Maker"
+    ],
+    "quiz_question_id": "q-v-3d-druck",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "druck3d",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Robot_3D_print_timelapse_on_RepRapPro_Fisher.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 0,
+      "end": 6,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, RepRapPro – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "How a 3D printer works",
+        "hook": "A 3D printer builds objects layer by layer from molten plastic.",
+        "description": "Time-lapse of a print. The nozzle traces each layer from a digital blueprint; what takes seconds here often takes hours in reality.",
+        "captions": [
+          "A 3D printer in time-lapse.",
+          "The figure grows layer by layer.",
+          "The blueprint comes from a computer."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-mars-landung",
+    "category_id": "technology",
+    "title": "Landung auf dem Mars – mit Bordkamera",
+    "hook": "So sah der Rover Perseverance 2021 seine eigene Landung auf dem Mars.",
+    "description": "Blick der Bordkamera nach unten auf den Krater Jezero, 18. Februar 2021. Auf den letzten Metern ließ eine schwebende Plattform den Rover an Seilen herab.",
+    "video_url": "/clips/v-mars-landung.mp4",
+    "thumbnail_url": "/clips/v-mars-landung.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "18. Februar 2021: Anflug auf den Mars.",
+      "Die Bordkamera blickt auf den Krater Jezero.",
+      "Sekunden später setzt der Rover auf."
+    ],
+    "creator_name": "NASA",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "NASA Image and Video Library",
+        "url": "https://images.nasa.gov/details/JPL-20210222-M2020f-0001-Perseverance%20Rover%E2%80%99s%20Descent%20and%20Touchdown%20on%20Mars"
+      }
+    ],
+    "published_at": "2026-10-01T12:00:00Z",
+    "tags": [
+      "Mars",
+      "Raumfahrt"
+    ],
+    "quiz_question_id": "q-v-mars-landung",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "mars",
+      "source_url": "https://images-assets.nasa.gov/video/JPL-20210222-M2020f-0001-Perseverance%20Rover%E2%80%99s%20Descent%20and%20Touchdown%20on%20Mars/JPL-20210222-M2020f-0001-Perseverance%20Rover%E2%80%99s%20Descent%20and%20Touchdown%20on%20Mars~large.mp4",
+      "start": 150,
+      "end": 160,
+      "mode": "crop",
+      "x": 0.5,
+      "cropBottom": 0.2
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "Landing on Mars – onboard camera",
+        "hook": "This is how the rover Perseverance saw its own landing on Mars in 2021.",
+        "description": "The onboard camera looks down at Jezero Crater, 18 February 2021. For the final metres, a hovering platform lowered the rover on cables.",
+        "captions": [
+          "18 February 2021: approaching Mars.",
+          "The onboard camera looks at Jezero Crater.",
+          "Seconds later the rover touches down."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-erdaufgang",
+    "category_id": "history",
+    "title": "Der erste Erdaufgang",
+    "hook": "An Heiligabend 1968 sahen Menschen zum ersten Mal die Erde über dem Mond aufgehen.",
+    "description": "Die Besatzung von Apollo 8 umkreiste als erste den Mond. Die Visualisierung der NASA rekonstruiert den Moment, in dem William Anders das berühmte Foto „Earthrise“ aufnahm.",
+    "video_url": "/clips/v-erdaufgang.mp4",
+    "thumbnail_url": "/clips/v-erdaufgang.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "24. Dezember 1968, Mondumlaufbahn.",
+      "Über dem Horizont geht die Erde auf.",
+      "Drei Menschen sehen das als Erste."
+    ],
+    "creator_name": "NASA / Goddard Space Flight Center",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Earthrise.ogv"
+      }
+    ],
+    "published_at": "2026-09-30T12:00:00Z",
+    "tags": [
+      "Apollo",
+      "Raumfahrt"
+    ],
+    "quiz_question_id": "q-v-erdaufgang",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "earthrise",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Earthrise.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 7,
+      "end": 17,
+      "mode": "crop",
+      "x": 0.42
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "The first Earthrise",
+        "hook": "On Christmas Eve 1968, humans saw the Earth rise over the Moon for the first time.",
+        "description": "The crew of Apollo 8 were the first to orbit the Moon. NASA's visualisation reconstructs the moment William Anders took the famous “Earthrise” photograph.",
+        "captions": [
+          "24 December 1968, lunar orbit.",
+          "The Earth rises above the horizon.",
+          "Three people are the first to see it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-titanic",
+    "category_id": "history",
+    "title": "Die Titanic vor ihrer ersten Fahrt",
+    "hook": "Die Titanic war 269 Meter lang und galt 1912 als größtes Schiff der Welt.",
+    "description": "Zeitgenössische Filmaufnahmen aus dem Archiv von British Pathé (1911–1912). Auf ihrer Jungfernfahrt stieß die Titanic mit einem Eisberg zusammen und sank am 15. April 1912; rund 1.500 Menschen starben.",
+    "video_url": "/clips/v-titanic.mp4",
+    "thumbnail_url": "/clips/v-titanic.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Aufnahmen aus den Jahren 1911 und 1912.",
+      "Die Titanic ist 269 Meter lang.",
+      "Ihre erste Fahrt ist auch ihre letzte."
+    ],
+    "creator_name": "British Pathé",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Titanic_Disaster_-_Genuine_Footage_(1911-1912)(enhanced).webm"
+      }
+    ],
+    "published_at": "2026-09-29T12:00:00Z",
+    "tags": [
+      "Schifffahrt",
+      "20. Jahrhundert"
+    ],
+    "quiz_question_id": "q-v-titanic",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "titanic",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Titanic_Disaster_-_Genuine_Footage_%281911-1912%29%28enhanced%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 14,
+      "end": 22,
+      "mode": "tall",
+      "x": 0.4
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "The Titanic before her maiden voyage",
+        "hook": "The Titanic was 269 metres long and in 1912 was considered the largest ship in the world.",
+        "description": "Contemporary film footage from the British Pathé archive (1911–1912). On her maiden voyage the Titanic struck an iceberg and sank on 15 April 1912; about 1,500 people died.",
+        "captions": [
+          "Footage from 1911 and 1912.",
+          "The Titanic is 269 metres long.",
+          "Her first voyage is also her last."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-flugpioniere",
+    "category_id": "history",
+    "title": "Als das Fliegen begann",
+    "hook": "1903 gelang den Brüdern Wright der erste gesteuerte Motorflug – er dauerte zwölf Sekunden.",
+    "description": "Filmaufnahmen früher Flugzeuge aus den ersten Jahren der Luftfahrt. Nur 66 Jahre nach dem ersten Motorflug landeten Menschen auf dem Mond.",
+    "video_url": "/clips/v-flugpioniere.mp4",
+    "thumbnail_url": "/clips/v-flugpioniere.jpg",
+    "duration_seconds": 4,
+    "has_audio": false,
+    "captions": [
+      "Flugzeuge aus den Anfangsjahren der Luftfahrt.",
+      "1903 flogen die Brüder Wright zwölf Sekunden.",
+      "66 Jahre später: die Mondlandung."
+    ],
+    "creator_name": "Unbekannt (gemeinfrei)",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:First_flights_in_aviation_history.ogv"
+      }
+    ],
+    "published_at": "2026-09-28T12:00:00Z",
+    "tags": [
+      "Luftfahrt"
+    ],
+    "quiz_question_id": "q-v-flugpioniere",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "wright",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/First_flights_in_aviation_history.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 15,
+      "end": 19,
+      "mode": "wide",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "When flying began",
+        "hook": "In 1903 the Wright brothers made the first controlled powered flight – it lasted twelve seconds.",
+        "description": "Film footage of early aircraft from the first years of aviation. Only 66 years after the first powered flight, humans landed on the Moon.",
+        "captions": [
+          "Aircraft from the early years of aviation.",
+          "In 1903 the Wright brothers flew for twelve seconds.",
+          "66 years later: the Moon landing."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-buchdruck",
+    "category_id": "history",
+    "title": "Drucken wie zu Gutenbergs Zeit",
+    "hook": "Hochdruck: Farbe kommt auf erhabene Lettern, dann wird Papier dagegengepresst.",
+    "description": "Eine Tiegeldruckpresse in Indien. Das Prinzip geht auf Johannes Gutenberg zurück, der um 1450 in Mainz den Druck mit beweglichen Metalllettern entwickelte.",
+    "video_url": "/clips/v-buchdruck.mp4",
+    "thumbnail_url": "/clips/v-buchdruck.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Eine Druckpresse mit beweglichen Lettern.",
+      "Walzen tragen die Farbe auf.",
+      "Das Prinzip stammt von Gutenberg, um 1450."
+    ],
+    "creator_name": "Subhashish Panigrahi",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Printing_in_a_letterpress.webm"
+      }
+    ],
+    "published_at": "2026-09-27T12:00:00Z",
+    "tags": [
+      "Buchdruck",
+      "Medien"
+    ],
+    "quiz_question_id": "q-v-buchdruck",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "buchdruck",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Printing_in_a_letterpress.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 8,
+      "end": 18,
+      "mode": "tall",
+      "x": 0.45
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 4.0, Subhashish Panigrahi – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Printing as in Gutenberg's day",
+        "hook": "Letterpress: ink is applied to raised type, then paper is pressed against it.",
+        "description": "A platen press in India. The principle goes back to Johannes Gutenberg, who developed printing with movable metal type in Mainz around 1450.",
+        "captions": [
+          "A printing press with movable type.",
+          "Rollers apply the ink.",
+          "The principle is Gutenberg's, from around 1450."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-lumiere",
+    "category_id": "culture",
+    "title": "Einer der ersten Filme der Welt",
+    "hook": "1895 zeigten die Brüder Lumière in Paris erstmals Filme vor zahlendem Publikum – die Geburt des Kinos.",
+    "description": "„Die Ankunft eines Zuges auf dem Bahnhof in La Ciotat“, gedreht Mitte der 1890er-Jahre. Dass die Zuschauer vor dem Zug aus dem Saal flohen, ist eine beliebte, aber unbelegte Legende.",
+    "video_url": "/clips/v-lumiere.mp4",
+    "thumbnail_url": "/clips/v-lumiere.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Frankreich, Mitte der 1890er-Jahre.",
+      "Ein Zug fährt in den Bahnhof ein.",
+      "So begann das Kino."
+    ],
+    "creator_name": "Auguste und Louis Lumière",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat_(1897).webm"
+      }
+    ],
+    "published_at": "2026-09-26T12:00:00Z",
+    "tags": [
+      "Film",
+      "Kino"
+    ],
+    "quiz_question_id": "q-v-lumiere",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "lumiere",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 5.5,
+      "end": 13.5,
+      "mode": "tall",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "One of the world's first films",
+        "hook": "In 1895 the Lumière brothers showed films to a paying audience in Paris for the first time – the birth of cinema.",
+        "description": "“The Arrival of a Train at La Ciotat Station”, shot in the mid-1890s. That audiences fled the room from the train is a popular but unproven legend.",
+        "captions": [
+          "France, mid-1890s.",
+          "A train pulls into the station.",
+          "This is how cinema began."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-roundhay",
+    "category_id": "culture",
+    "title": "Der älteste erhaltene Film",
+    "hook": "Diese zwei Sekunden aus einem Garten in Leeds sind der älteste erhaltene Film der Welt – gedreht 1888.",
+    "description": "„Roundhay Garden Scene“ von Louis Le Prince, aufgenommen am 14. Oktober 1888 in England. Der Clip zeigt die Szene mehrmals hintereinander.",
+    "video_url": "/clips/v-roundhay.mp4",
+    "thumbnail_url": "/clips/v-roundhay.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Leeds, England, 14. Oktober 1888.",
+      "Vier Menschen gehen durch einen Garten.",
+      "Es ist der älteste erhaltene Film."
+    ],
+    "creator_name": "Louis Le Prince",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Roundhay_Garden_Scene_(1888).webm"
+      }
+    ],
+    "published_at": "2026-09-25T12:00:00Z",
+    "tags": [
+      "Film",
+      "Erfindungen"
+    ],
+    "quiz_question_id": "q-v-roundhay",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "roundhay",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Roundhay_Garden_Scene_%281888%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 0,
+      "end": 2,
+      "mode": "tall",
+      "x": 0.5,
+      "loops": 4
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "The oldest surviving film",
+        "hook": "These two seconds from a garden in Leeds are the oldest surviving film in the world – shot in 1888.",
+        "description": "“Roundhay Garden Scene” by Louis Le Prince, filmed in England on 14 October 1888. The clip shows the scene several times in a row.",
+        "captions": [
+          "Leeds, England, 14 October 1888.",
+          "Four people walk through a garden.",
+          "It is the oldest surviving film."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-reise-zum-mond",
+    "category_id": "culture",
+    "title": "Der erste Science-Fiction-Film",
+    "hook": "„Die Reise zum Mond“ von 1902 gilt als erster Science-Fiction-Film der Geschichte.",
+    "description": "Der französische Zauberkünstler Georges Méliès erfand für seine Filme Tricks wie Stopptrick und Mehrfachbelichtung. Jede Kulisse war von Hand gemalt.",
+    "video_url": "/clips/v-reise-zum-mond.mp4",
+    "thumbnail_url": "/clips/v-reise-zum-mond.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Frankreich, 1902.",
+      "Georges Méliès schickt Forscher zum Mond.",
+      "Alle Tricks entstehen direkt in der Kamera."
+    ],
+    "creator_name": "Georges Méliès",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm"
+      }
+    ],
+    "published_at": "2026-09-24T12:00:00Z",
+    "tags": [
+      "Film",
+      "Science-Fiction"
+    ],
+    "quiz_question_id": "q-v-reise-zum-mond",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "melies",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/Le_Voyage_dans_la_Lune_%281902%29.webm.480p.vp9.webm",
+      "start": 470,
+      "end": 478,
+      "mode": "tall",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "The first science-fiction film",
+        "hook": "“A Trip to the Moon” from 1902 is regarded as the first science-fiction film in history.",
+        "description": "The French stage magician Georges Méliès invented tricks such as the stop trick and multiple exposure for his films. Every set was painted by hand.",
+        "captions": [
+          "France, 1902.",
+          "Georges Méliès sends explorers to the Moon.",
+          "All the tricks are created in the camera."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-orchester",
+    "category_id": "culture",
+    "title": "Wie ein Orchester aufgebaut ist",
+    "hook": "Ein Sinfonieorchester hat vier Gruppen: Streicher, Holzbläser, Blechbläser und Schlagwerk.",
+    "description": "Das Sinfonieorchester der University of Colorado Boulder spielt Beethovens 5. Sinfonie. Vorn sitzen die Streicher, dahinter die Bläser, ganz hinten das Schlagwerk.",
+    "video_url": "/clips/v-orchester.mp4",
+    "thumbnail_url": "/clips/v-orchester.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Ein Sinfonieorchester bei der Arbeit.",
+      "Vorn die Streicher, dahinter die Bläser.",
+      "Der Dirigent hält alle zusammen."
+    ],
+    "creator_name": "University of Colorado Boulder College of Music",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Beethoven_Symphony_No._5,_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm"
+      }
+    ],
+    "published_at": "2026-09-23T12:00:00Z",
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "quiz_question_id": "q-v-orchester",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "orchester",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/Beethoven_Symphony_No._5%2C_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm/Beethoven_Symphony_No._5%2C_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm.480p.vp9.webm",
+      "start": 134,
+      "end": 142,
+      "mode": "wide",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, University of Colorado Boulder College of Music – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "How an orchestra is organised",
+        "hook": "A symphony orchestra has four sections: strings, woodwind, brass and percussion.",
+        "description": "The University of Colorado Boulder Symphony Orchestra plays Beethoven's Fifth Symphony. The strings sit at the front, the wind players behind them, percussion at the very back.",
+        "captions": [
+          "A symphony orchestra at work.",
+          "Strings at the front, wind players behind.",
+          "The conductor holds everyone together."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-vulkan",
+    "category_id": "earth",
+    "title": "Blick in einen Vulkankrater",
+    "hook": "Lava ist rund 1.000 Grad heiß. Solange das geschmolzene Gestein unter der Erde ist, heißt es Magma.",
+    "description": "Ausbruch am Litli-Hrútur in Island, 2023. Island liegt auf der Grenze zweier Erdplatten, die auseinanderdriften – deshalb gibt es dort so viele Vulkane.",
+    "video_url": "/clips/v-vulkan.mp4",
+    "thumbnail_url": "/clips/v-vulkan.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Island, 2023: ein Vulkan bricht aus.",
+      "Die Lava ist rund 1.000 Grad heiß.",
+      "Unter der Erde heißt sie Magma."
+    ],
+    "creator_name": "Giles Laurent",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:007_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Video_by_Giles_Laurent.webm"
+      }
+    ],
+    "published_at": "2026-09-22T12:00:00Z",
+    "tags": [
+      "Vulkane",
+      "Geologie"
+    ],
+    "quiz_question_id": "q-v-vulkan",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "vulkan",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/007_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Video_by_Giles_Laurent.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 2,
+      "end": 10,
+      "mode": "tall",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 4.0, Giles Laurent – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Looking into a volcanic crater",
+        "hook": "Lava is about 1,000 degrees hot. As long as the molten rock is underground, it is called magma.",
+        "description": "Eruption at Litli-Hrútur in Iceland, 2023. Iceland lies on the boundary of two tectonic plates that are drifting apart – which is why it has so many volcanoes.",
+        "captions": [
+          "Iceland, 2023: a volcano erupts.",
+          "The lava is about 1,000 degrees hot.",
+          "Underground it is called magma."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-gepard",
+    "category_id": "earth",
+    "title": "Das schnellste Landtier",
+    "hook": "Ein Gepard beschleunigt in etwa drei Sekunden auf fast 100 km/h.",
+    "description": "Zeitlupenaufnahme eines sprintenden Gepards. Die biegsame Wirbelsäule wirkt wie eine Feder, der lange Schwanz hält das Tier in der Kurve im Gleichgewicht.",
+    "video_url": "/clips/v-gepard.mp4",
+    "thumbnail_url": "/clips/v-gepard.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Ein Gepard im Sprint, stark verlangsamt.",
+      "In drei Sekunden auf fast 100 km/h.",
+      "Der Schwanz hilft beim Steuern."
+    ],
+    "creator_name": "Gregory Wilson",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cheetahs_on_the_Edge_(Director%27s_Cut).webm"
+      }
+    ],
+    "published_at": "2026-10-12T12:00:00Z",
+    "tags": [
+      "Tiere",
+      "Rekorde"
+    ],
+    "quiz_question_id": "q-v-gepard",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "gepard",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cheetahs_on_the_Edge_%28Director%27s_Cut%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 74,
+      "end": 82,
+      "mode": "tall",
+      "x": 0.55
+    },
+    "min_age": 6,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, Gregory Wilson – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "The fastest land animal",
+        "hook": "A cheetah accelerates to almost 100 km/h in about three seconds.",
+        "description": "Slow-motion footage of a sprinting cheetah. The flexible spine works like a spring, and the long tail keeps the animal balanced in turns.",
+        "captions": [
+          "A cheetah sprinting, greatly slowed down.",
+          "To almost 100 km/h in three seconds.",
+          "The tail helps with steering."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-oktopus",
+    "category_id": "earth",
+    "title": "Drei Herzen, blaues Blut",
+    "hook": "Ein Oktopus hat drei Herzen, blaues Blut und acht Arme, die teilweise selbstständig handeln.",
+    "description": "Zwei Drittel der Nervenzellen eines Oktopus sitzen in den Armen. Sein Blut ist blau, weil es Sauerstoff mit Kupfer statt mit Eisen transportiert.",
+    "video_url": "/clips/v-oktopus.mp4",
+    "thumbnail_url": "/clips/v-oktopus.jpg",
+    "duration_seconds": 9,
+    "has_audio": false,
+    "captions": [
+      "Ein Oktopus im Aquarium.",
+      "Er hat drei Herzen und blaues Blut.",
+      "Seine Arme denken ein Stück weit mit."
+    ],
+    "creator_name": "MartinThoma",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Sealife-Munich-Octopus-2.ogv"
+      }
+    ],
+    "published_at": "2026-10-11T12:00:00Z",
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "quiz_question_id": "q-v-oktopus",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "oktopus",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sealife-Munich-Octopus-2.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 20,
+      "end": 29,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 6,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC0 (gemeinfrei)",
+    "translations": {
+      "en": {
+        "title": "Three hearts, blue blood",
+        "hook": "An octopus has three hearts, blue blood and eight arms that act partly on their own.",
+        "description": "Two thirds of an octopus's nerve cells are in its arms. Its blood is blue because it carries oxygen with copper instead of iron.",
+        "captions": [
+          "An octopus in an aquarium.",
+          "It has three hearts and blue blood.",
+          "Its arms do some of the thinking."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-bienen",
+    "category_id": "earth",
+    "title": "Bienen sprechen im Tanz",
+    "hook": "Mit dem Schwänzeltanz zeigen Honigbienen ihren Schwestern, in welcher Richtung und wie weit entfernt Futter liegt.",
+    "description": "Honigbienen auf der Wabe. Die Richtung des Tanzes zeigt den Winkel zur Sonne, die Dauer des Schwänzelns die Entfernung. Für diese Entdeckung erhielt Karl von Frisch 1973 den Nobelpreis.",
+    "video_url": "/clips/v-bienen.mp4",
+    "thumbnail_url": "/clips/v-bienen.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Honigbienen auf ihrer Wabe.",
+      "Mit einem Tanz zeigen sie den Weg zum Futter.",
+      "Richtung und Dauer verraten, wo es liegt."
+    ],
+    "creator_name": "OakleyOriginals",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Waggle_Dance.webm"
+      }
+    ],
+    "published_at": "2026-10-10T12:00:00Z",
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "quiz_question_id": "q-v-bienen",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "bienen",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Waggle_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 3,
+      "end": 11,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 2.0, OakleyOriginals – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Bees talk by dancing",
+        "hook": "With the waggle dance, honeybees show their sisters in which direction and how far away food is.",
+        "description": "Honeybees on the comb. The direction of the dance gives the angle to the Sun, the length of the waggle the distance. Karl von Frisch received the Nobel Prize in 1973 for this discovery.",
+        "captions": [
+          "Honeybees on their comb.",
+          "A dance shows the way to food.",
+          "Direction and duration reveal where it is."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-stare",
+    "category_id": "earth",
+    "title": "Tausend Vögel, eine Bewegung",
+    "hook": "In einem Starenschwarm achtet jeder Vogel nur auf seine nächsten Nachbarn – daraus entsteht die gemeinsame Bewegung.",
+    "description": "Stare sammeln sich abends zu riesigen Schwärmen. Niemand führt den Schwarm an. Die dichten, wogenden Formen machen es Greifvögeln schwer, ein einzelnes Tier zu fassen.",
+    "video_url": "/clips/v-stare.mp4",
+    "thumbnail_url": "/clips/v-stare.jpg",
+    "duration_seconds": 9,
+    "has_audio": false,
+    "captions": [
+      "Stare sammeln sich in der Abenddämmerung.",
+      "Niemand führt den Schwarm an.",
+      "Jeder Vogel achtet nur auf seine Nachbarn."
+    ],
+    "creator_name": "Karen Roe",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Flock_of_starlings_(Sturnus_vulgaris).webm"
+      }
+    ],
+    "published_at": "2026-10-09T12:00:00Z",
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "quiz_question_id": "q-v-stare",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "stare",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flock_of_starlings_%28Sturnus_vulgaris%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 8,
+      "end": 17,
+      "mode": "tall",
+      "x": 0.55
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 2.0, Karen Roe – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "A thousand birds, one movement",
+        "hook": "In a flock of starlings each bird watches only its nearest neighbours – that is what creates the shared movement.",
+        "description": "Starlings gather in huge flocks in the evening. Nobody leads the flock. The dense, swirling shapes make it hard for birds of prey to pick out a single animal.",
+        "captions": [
+          "Starlings gather at dusk.",
+          "Nobody leads the flock.",
+          "Each bird watches only its neighbours."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-banknoten",
+    "category_id": "economy",
+    "title": "So entsteht ein 20-Euro-Schein",
+    "hook": "Euro-Banknoten bestehen nicht aus Papier, sondern aus reiner Baumwollfaser.",
+    "description": "Druck der 20-Euro-Note. Baumwolle macht die Scheine reißfest und gibt ihnen ihren typischen Griff. Wasserzeichen, Hologramm und Sicherheitsfaden erschweren Fälschungen.",
+    "video_url": "/clips/v-banknoten.mp4",
+    "thumbnail_url": "/clips/v-banknoten.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Hier werden 20-Euro-Scheine gedruckt.",
+      "Sie bestehen aus Baumwolle, nicht aus Papier.",
+      "Viele Merkmale schützen vor Fälschung."
+    ],
+    "creator_name": "Europäische Zentralbank",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:New_20_Euro_Banknotes_Printing_Production.webm"
+      }
+    ],
+    "published_at": "2026-10-08T12:00:00Z",
+    "tags": [
+      "Geld",
+      "Euro"
+    ],
+    "quiz_question_id": "q-v-banknoten",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "banknoten",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/New_20_Euro_Banknotes_Printing_Production.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 434,
+      "end": 442,
+      "mode": "crop",
+      "x": 0.55
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, Europäische Zentralbank – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "How a 20-euro note is made",
+        "hook": "Euro banknotes are not made of paper but of pure cotton fibre.",
+        "description": "Printing the 20-euro note. Cotton makes the notes tear-resistant and gives them their typical feel. Watermark, hologram and security thread make counterfeiting harder.",
+        "captions": [
+          "This is where 20-euro notes are printed.",
+          "They are made of cotton, not paper.",
+          "Many features protect against forgery."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-muenzen",
+    "category_id": "economy",
+    "title": "Wie Münzen entstehen",
+    "hook": "Münzen werden geprägt: Stempel pressen das Motiv mit vielen Tonnen Druck in einen Metallrohling.",
+    "description": "Frisch geprägte Quarter-Dollar-Münzen in der US-Münzanstalt West Point. Moderne Prägemaschinen schaffen mehrere Hundert Münzen pro Minute.",
+    "video_url": "/clips/v-muenzen.mp4",
+    "thumbnail_url": "/clips/v-muenzen.jpg",
+    "duration_seconds": 6,
+    "has_audio": false,
+    "captions": [
+      "Frisch geprägte Münzen in den USA.",
+      "Ein Stempel presst das Motiv ins Metall.",
+      "Hunderte Münzen pro Minute."
+    ],
+    "creator_name": "United States Mint",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:West_Point_Quarters_B-Roll.webm"
+      }
+    ],
+    "published_at": "2026-10-07T12:00:00Z",
+    "tags": [
+      "Geld",
+      "Münzen"
+    ],
+    "quiz_question_id": "q-v-muenzen",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "muenzen",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/West_Point_Quarters_B-Roll.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 25,
+      "end": 31,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "How coins are made",
+        "hook": "Coins are minted: dies press the design into a metal blank with many tonnes of pressure.",
+        "description": "Freshly minted quarter-dollar coins at the US Mint in West Point. Modern coining presses produce several hundred coins a minute.",
+        "captions": [
+          "Freshly minted coins in the USA.",
+          "A die presses the design into the metal.",
+          "Hundreds of coins a minute."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-container",
+    "category_id": "economy",
+    "title": "Die Kiste, die den Welthandel veränderte",
+    "hook": "Rund 80 Prozent des Welthandels reisen per Schiff – der größte Teil der Stückgüter in genormten Containern.",
+    "description": "Zeitraffer in einem Containerterminal in Gdynia, Polen. Weil Container weltweit dieselben Maße haben, passen sie auf Schiffe, Züge und Lastwagen – das Umladen dauert Minuten statt Tage.",
+    "video_url": "/clips/v-container.mp4",
+    "thumbnail_url": "/clips/v-container.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Ein Containerhafen im Zeitraffer.",
+      "Alle Container haben weltweit dieselben Maße.",
+      "So wurde Transport schnell und billig."
+    ],
+    "creator_name": "PaSt Photo",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:MSC_Paris_-_berthing_at_BCT_Gdynia,_Timelapse..webm"
+      }
+    ],
+    "published_at": "2026-10-06T12:00:00Z",
+    "tags": [
+      "Handel",
+      "Logistik"
+    ],
+    "quiz_question_id": "q-v-container",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "container",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/MSC_Paris_-_berthing_at_BCT_Gdynia%2C_Timelapse..webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 6,
+      "end": 16,
+      "mode": "crop",
+      "x": 0.6
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, PaSt Photo – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "The box that changed world trade",
+        "hook": "About 80 percent of world trade travels by ship – most general cargo in standardised containers.",
+        "description": "Time-lapse at a container terminal in Gdynia, Poland. Because containers have the same dimensions worldwide, they fit on ships, trains and lorries – transferring them takes minutes instead of days.",
+        "captions": [
+          "A container port in time-lapse.",
+          "All containers have the same dimensions worldwide.",
+          "That made transport fast and cheap."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-fliessband",
+    "category_id": "business",
+    "title": "Die Idee, die Autos bezahlbar machte",
+    "hook": "Henry Fords Fließband senkte die Bauzeit eines Autos von über zwölf Stunden auf rund anderthalb.",
+    "description": "Aufnahmen aus einem Ford-Werk, um 1924. Jeder Arbeiter führte nur wenige Handgriffe aus, das Werkstück kam zu ihm. So sank der Preis des Model T von 850 auf unter 300 Dollar.",
+    "video_url": "/clips/v-fliessband.mp4",
+    "thumbnail_url": "/clips/v-fliessband.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Ein Ford-Werk in den 1920er-Jahren.",
+      "Jeder macht nur wenige Handgriffe.",
+      "So wurden Autos für viele bezahlbar."
+    ],
+    "creator_name": "Ford Motor Company",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Model_T_assembling_circa_1924.webm"
+      }
+    ],
+    "published_at": "2026-10-05T12:00:00Z",
+    "tags": [
+      "Industrie",
+      "Unternehmen"
+    ],
+    "quiz_question_id": "q-v-fliessband",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "fliessband",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Model_T_assembling_circa_1924.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 28,
+      "end": 36,
+      "mode": "tall",
+      "x": 0.5,
+      "cropBottom": 0.17
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "The idea that made cars affordable",
+        "hook": "Henry Ford's assembly line cut the time to build a car from more than twelve hours to about an hour and a half.",
+        "description": "Footage from a Ford plant, around 1924. Each worker performed only a few movements; the workpiece came to him. The price of the Model T fell from 850 to under 300 dollars.",
+        "captions": [
+          "A Ford plant in the 1920s.",
+          "Each worker does only a few movements.",
+          "That made cars affordable for many."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-supermarkt",
+    "category_id": "business",
+    "title": "Die Erfindung der Selbstbedienung",
+    "hook": "1916 eröffnete in den USA der erste Laden, in dem Kunden die Ware selbst aus dem Regal nahmen.",
+    "description": "Werbefilm eines kalifornischen Einkaufszentrums von 1957. Selbstbedienung senkte die Personalkosten und machte Verpackung und Marken wichtiger: Das Produkt musste sich nun selbst verkaufen.",
+    "video_url": "/clips/v-supermarkt.mp4",
+    "thumbnail_url": "/clips/v-supermarkt.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Ein Supermarkt in Kalifornien, 1957.",
+      "Kunden bedienen sich selbst.",
+      "Die Idee stammt aus dem Jahr 1916."
+    ],
+    "creator_name": "Hillsdale Shopping Center",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Internet Archive (Prelinger Archives)",
+        "url": "https://archive.org/details/Shopping1957"
+      }
+    ],
+    "published_at": "2026-10-04T12:00:00Z",
+    "tags": [
+      "Handel",
+      "Geschäftsmodell"
+    ],
+    "quiz_question_id": "q-v-supermarkt",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "einkauf",
+      "source_url": "https://archive.org/download/Shopping1957/Shopping1957.mp4",
+      "start": 212,
+      "end": 220,
+      "mode": "tall",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "The invention of self-service",
+        "hook": "In 1916 the first shop opened in the USA where customers took goods from the shelves themselves.",
+        "description": "Promotional film for a Californian shopping centre from 1957. Self-service lowered staff costs and made packaging and brands more important: the product now had to sell itself.",
+        "captions": [
+          "A supermarket in California, 1957.",
+          "Customers serve themselves.",
+          "The idea dates from 1916."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-buero",
+    "category_id": "business",
+    "title": "Büroarbeit vor dem Computer",
+    "hook": "1950 wurde jeder Brief und jede Rechnung auf der Schreibmaschine getippt – unsere Tastatur stammt aus dieser Welt.",
+    "description": "Lehrfilm „Office Etiquette“ von 1950. Die Tastenanordnung QWERTY wurde in den 1870er-Jahren für Schreibmaschinen entwickelt und ist bis heute Standard, im Deutschen als QWERTZ.",
+    "video_url": "/clips/v-buero.mp4",
+    "thumbnail_url": "/clips/v-buero.jpg",
+    "duration_seconds": 5,
+    "has_audio": false,
+    "captions": [
+      "Ein Büro im Jahr 1950.",
+      "Jeder Brief entsteht auf der Schreibmaschine.",
+      "Ihre Tastatur nutzen wir noch heute."
+    ],
+    "creator_name": "Coronet Instructional Films",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Internet Archive (Prelinger Archives)",
+        "url": "https://archive.org/details/OfficeEt1950"
+      }
+    ],
+    "published_at": "2026-10-03T12:00:00Z",
+    "tags": [
+      "Arbeit",
+      "Büro"
+    ],
+    "quiz_question_id": "q-v-buero",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "buero",
+      "source_url": "https://archive.org/download/OfficeEt1950/OfficeEt1950_edit.mp4",
+      "start": 30,
+      "end": 35,
+      "mode": "wide",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "Office work before the computer",
+        "hook": "In 1950 every letter and invoice was typed on a typewriter – our keyboard comes from that world.",
+        "description": "Educational film “Office Etiquette” from 1950. The QWERTY layout was developed for typewriters in the 1870s and is still the standard today.",
+        "captions": [
+          "An office in 1950.",
+          "Every letter is written on a typewriter.",
+          "We still use its keyboard today."
         ]
       }
     }

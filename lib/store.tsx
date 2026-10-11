@@ -37,7 +37,7 @@ const blank = (): UserState => ({
   challenges: [],
   achievements: [],
   log: [],
-  settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: detectLocale() },
+  settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" },
 });
 
 function load<T>(key: string): T | null {
@@ -225,6 +225,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       setContent(demoContent());
       const cached = load<{ state: UserState }>(STATE_KEY);
       if (cached) commit(() => ({ ...blank(), ...cached.state, settings: { ...blank().settings, ...cached.state.settings } }), { silent: true });
+      else commit((s) => ({ ...s, settings: { ...s.settings, locale: detectLocale() } }), { silent: true });
       setStatus("ready");
       return;
     }
@@ -249,7 +250,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const info: AuthInfo = { mode: "live", userId: user.id, email: user.email ?? null, isGuest: !!user.is_anonymous };
       authRef.current = info;
       setAuth(info);
-      const mine = cached?.userId === user.id ? { ...blank(), ...cached.state, settings: { ...blank().settings, ...cached.state.settings } } : blank();
+      const fresh = blank();
+      const mine = cached?.userId === user.id ? { ...fresh, ...cached.state, settings: { ...fresh.settings, ...cached.state.settings } } : { ...fresh, settings: { ...fresh.settings, locale: detectLocale() } };
       const server = await api.fetchMyState(today(), mine.settings.locale);
       commit(() => fromServer(mine, server), { silent: true });
     } catch (e) {

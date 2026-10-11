@@ -18,6 +18,7 @@ const BLURBS: Record<string, string> = {
   history: "Die Geschichten hinter dem Heute",
   earth: "Länder, Tiere, Klima und Naturwunder",
   economy: "Wie Märkte, Geld und Finanzen ticken",
+  business: "Wie Unternehmen entstehen und wachsen",
   culture: "Kunst, Politik und Zusammenleben",
 };
 const AGES: { band: AgeBand; title: string; text: string }[] = [

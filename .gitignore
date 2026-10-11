@@ -45,3 +45,5 @@ scripts/clips/.tmp/
 # keep the template, never the real values
 !.env.example
 
+scripts/clips/.cache/
+

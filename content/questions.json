@@ -16,7 +16,7 @@
     "tags": [],
     "source_name": "Wikipedia: Gold",
     "source_url": "https://de.wikipedia.org/wiki/Gold",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-06T12:00:00Z",
@@ -53,7 +53,7 @@
     "tags": [],
     "source_name": "Wikipedia: Astronomische Einheit",
     "source_url": "https://de.wikipedia.org/wiki/Astronomische_Einheit",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-01T12:00:00Z",
@@ -90,7 +90,7 @@
     "tags": [],
     "source_name": "Wikipedia: Erdatmosphäre",
     "source_url": "https://de.wikipedia.org/wiki/Erdatmosphäre",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-08-12T12:00:00Z",
@@ -127,7 +127,7 @@
     "tags": [],
     "source_name": "Wikipedia: Mitochondrium",
     "source_url": "https://de.wikipedia.org/wiki/Mitochondrium",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-26T12:00:00Z",
@@ -164,7 +164,7 @@
     "tags": [],
     "source_name": "Wikipedia: Menschliches Skelett",
     "source_url": "https://de.wikipedia.org/wiki/Menschliches_Skelett",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-05T12:00:00Z",
@@ -201,7 +201,7 @@
     "tags": [],
     "source_name": "Wikipedia: Elektron",
     "source_url": "https://de.wikipedia.org/wiki/Elektron",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-13T12:00:00Z",
@@ -238,7 +238,7 @@
     "tags": [],
     "source_name": "Wikipedia: Halbwertszeit",
     "source_url": "https://de.wikipedia.org/wiki/Halbwertszeit",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-09T12:00:00Z",
@@ -275,7 +275,7 @@
     "tags": [],
     "source_name": "Wikipedia: Saturn (Planet)",
     "source_url": "https://de.wikipedia.org/wiki/Saturn_(Planet)",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-10T12:00:00Z",
@@ -312,7 +312,7 @@
     "tags": [],
     "source_name": "Wikipedia: Prozessor",
     "source_url": "https://de.wikipedia.org/wiki/Prozessor",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-16T12:00:00Z",
@@ -349,7 +349,7 @@
     "tags": [],
     "source_name": "Wikipedia: World Wide Web",
     "source_url": "https://de.wikipedia.org/wiki/World_Wide_Web",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-08-27T12:00:00Z",
@@ -386,7 +386,7 @@
     "tags": [],
     "source_name": "Wikipedia: Byte",
     "source_url": "https://de.wikipedia.org/wiki/Byte",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-08-02T12:00:00Z",
@@ -423,7 +423,7 @@
     "tags": [],
     "source_name": "Wikipedia: JavaScript",
     "source_url": "https://de.wikipedia.org/wiki/JavaScript",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-06T12:00:00Z",
@@ -460,7 +460,7 @@
     "tags": [],
     "source_name": "Wikipedia: Generativer vortrainierter Transformer",
     "source_url": "https://de.wikipedia.org/wiki/Generativer_vortrainierter_Transformer",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-08T12:00:00Z",
@@ -497,7 +497,7 @@
     "tags": [],
     "source_name": "arXiv:1706.03762",
     "source_url": "https://arxiv.org/abs/1706.03762",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-09T12:00:00Z",
@@ -534,7 +534,7 @@
     "tags": [],
     "source_name": "Wikipedia: Large Language Model",
     "source_url": "https://de.wikipedia.org/wiki/Large_Language_Model",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-10T12:00:00Z",
@@ -571,7 +571,7 @@
     "tags": [],
     "source_name": "Wikipedia: Mooresches Gesetz",
     "source_url": "https://de.wikipedia.org/wiki/Mooresches_Gesetz",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-23T12:00:00Z",
@@ -608,7 +608,7 @@
     "tags": [],
     "source_name": "Wikipedia: Turing-Test",
     "source_url": "https://de.wikipedia.org/wiki/Turing-Test",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-29T12:00:00Z",
@@ -645,7 +645,7 @@
     "tags": [],
     "source_name": "Wikipedia: Berliner Mauer",
     "source_url": "https://de.wikipedia.org/wiki/Berliner_Mauer",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-11T12:00:00Z",
@@ -682,7 +682,7 @@
     "tags": [],
     "source_name": "Wikipedia: Augustus",
     "source_url": "https://de.wikipedia.org/wiki/Augustus",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-01T12:00:00Z",
@@ -719,7 +719,7 @@
     "tags": [],
     "source_name": "Wikipedia: Magna Carta",
     "source_url": "https://de.wikipedia.org/wiki/Magna_Carta",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-08-22T12:00:00Z",
@@ -756,7 +756,7 @@
     "tags": [],
     "source_name": "Wikipedia: Byzantinisches Reich",
     "source_url": "https://de.wikipedia.org/wiki/Byzantinisches_Reich",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-21T12:00:00Z",
@@ -793,7 +793,7 @@
     "tags": [],
     "source_name": "Wikipedia: Französische Revolution",
     "source_url": "https://de.wikipedia.org/wiki/Französische_Revolution",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-02T12:00:00Z",
@@ -830,7 +830,7 @@
     "tags": [],
     "source_name": "Wikipedia: Johannes Gutenberg",
     "source_url": "https://de.wikipedia.org/wiki/Johannes_Gutenberg",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-27T12:00:00Z",
@@ -867,7 +867,7 @@
     "tags": [],
     "source_name": "Wikipedia: Attentat von Sarajevo",
     "source_url": "https://de.wikipedia.org/wiki/Attentat_von_Sarajevo",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-07T12:00:00Z",
@@ -904,7 +904,7 @@
     "tags": [],
     "source_name": "Wikipedia: Westfälischer Friede",
     "source_url": "https://de.wikipedia.org/wiki/Westfälischer_Friede",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-09T12:00:00Z",
@@ -941,7 +941,7 @@
     "tags": [],
     "source_name": "Wikipedia: Apollo 11",
     "source_url": "https://de.wikipedia.org/wiki/Apollo_11",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-04T12:00:00Z",
@@ -978,7 +978,7 @@
     "tags": [],
     "source_name": "Wikipedia: Canberra",
     "source_url": "https://de.wikipedia.org/wiki/Canberra",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-29T12:00:00Z",
@@ -1015,7 +1015,7 @@
     "tags": [],
     "source_name": "Wikipedia: Baikalsee",
     "source_url": "https://de.wikipedia.org/wiki/Baikalsee",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-03T12:00:00Z",
@@ -1052,7 +1052,7 @@
     "tags": [],
     "source_name": "Wikipedia: Afrika",
     "source_url": "https://de.wikipedia.org/wiki/Afrika",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-08T12:00:00Z",
@@ -1089,7 +1089,7 @@
     "tags": [],
     "source_name": "Wikipedia: Blauwal",
     "source_url": "https://de.wikipedia.org/wiki/Blauwal",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-07T12:00:00Z",
@@ -1126,7 +1126,7 @@
     "tags": [],
     "source_name": "Wikipedia: Kraken",
     "source_url": "https://de.wikipedia.org/wiki/Kraken",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-09T12:00:00Z",
@@ -1163,7 +1163,7 @@
     "tags": [],
     "source_name": "Wikipedia: Bruttoinlandsprodukt",
     "source_url": "https://de.wikipedia.org/wiki/Bruttoinlandsprodukt",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-27T12:00:00Z",
@@ -1200,7 +1200,7 @@
     "tags": [],
     "source_name": "Wikipedia: Euro",
     "source_url": "https://de.wikipedia.org/wiki/Euro",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-03T12:00:00Z",
@@ -1237,7 +1237,7 @@
     "tags": [],
     "source_name": "Wikipedia: Inflation",
     "source_url": "https://de.wikipedia.org/wiki/Inflation",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-09T12:00:00Z",
@@ -1274,7 +1274,7 @@
     "tags": [],
     "source_name": "Wikipedia: Aktie",
     "source_url": "https://de.wikipedia.org/wiki/Aktie",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-05T12:00:00Z",
@@ -1311,7 +1311,7 @@
     "tags": [],
     "source_name": "Wikipedia: Zinseszins",
     "source_url": "https://de.wikipedia.org/wiki/Zinseszins",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-10T12:00:00Z",
@@ -1348,7 +1348,7 @@
     "tags": [],
     "source_name": "Wikipedia: Europäische Zentralbank",
     "source_url": "https://de.wikipedia.org/wiki/Europäische_Zentralbank",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-02T12:00:00Z",
@@ -1385,7 +1385,7 @@
     "tags": [],
     "source_name": "Wikipedia: Mona Lisa",
     "source_url": "https://de.wikipedia.org/wiki/Mona_Lisa",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-25T12:00:00Z",
@@ -1422,7 +1422,7 @@
     "tags": [],
     "source_name": "Wikipedia: Johann Wolfgang von Goethe",
     "source_url": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-08-30T12:00:00Z",
@@ -1459,7 +1459,7 @@
     "tags": [],
     "source_name": "Wikipedia: Ludwig van Beethoven",
     "source_url": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-30T12:00:00Z",
@@ -1496,7 +1496,7 @@
     "tags": [],
     "source_name": "Wikipedia: Europäische Union",
     "source_url": "https://de.wikipedia.org/wiki/Europäische_Union",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-08T12:00:00Z",
@@ -1533,7 +1533,7 @@
     "tags": [],
     "source_name": "Wikipedia: Bundeskanzler (Deutschland)",
     "source_url": "https://de.wikipedia.org/wiki/Bundeskanzler_(Deutschland)",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-23T12:00:00Z",
@@ -1570,7 +1570,7 @@
     "tags": [],
     "source_name": "Wikipedia: Sagrada Família",
     "source_url": "https://de.wikipedia.org/wiki/Sagrada_Família",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-06T12:00:00Z",
@@ -1605,7 +1605,7 @@
     "tags": [],
     "source_name": "Wikipedia: Zehn-Prozent-Mythos",
     "source_url": "https://de.wikipedia.org/wiki/Zehn-Prozent-Mythos",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-09T12:00:00Z",
@@ -1638,7 +1638,7 @@
     "tags": [],
     "source_name": "Wikipedia: Blitz",
     "source_url": "https://de.wikipedia.org/wiki/Blitz",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-02T12:00:00Z",
@@ -1671,7 +1671,7 @@
     "tags": [],
     "source_name": "Wikipedia: World Wide Web",
     "source_url": "https://de.wikipedia.org/wiki/World_Wide_Web",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-07T12:00:00Z",
@@ -1704,7 +1704,7 @@
     "tags": [],
     "source_name": "Wikipedia: Chinesische Mauer",
     "source_url": "https://de.wikipedia.org/wiki/Chinesische_Mauer",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-05T12:00:00Z",
@@ -1737,7 +1737,7 @@
     "tags": [],
     "source_name": "Wikipedia: Chimborazo",
     "source_url": "https://de.wikipedia.org/wiki/Chimborazo",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-08T12:00:00Z",
@@ -1770,7 +1770,7 @@
     "tags": [],
     "source_name": "Wikipedia: Beere",
     "source_url": "https://de.wikipedia.org/wiki/Beere",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-01T12:00:00Z",
@@ -1803,7 +1803,7 @@
     "tags": [],
     "source_name": "Wikipedia: Monopoly",
     "source_url": "https://de.wikipedia.org/wiki/Monopoly",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-06T12:00:00Z",
@@ -1836,7 +1836,7 @@
     "tags": [],
     "source_name": "Wikipedia: Buchgeld",
     "source_url": "https://de.wikipedia.org/wiki/Buchgeld",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-26T12:00:00Z",
@@ -1869,7 +1869,7 @@
     "tags": [],
     "source_name": "Wikipedia: Wikingerhelm",
     "source_url": "https://de.wikipedia.org/wiki/Wikingerhelm",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-10T12:00:00Z",
@@ -1902,7 +1902,7 @@
     "tags": [],
     "source_name": "Wikipedia: Europahymne",
     "source_url": "https://de.wikipedia.org/wiki/Europahymne",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-21T12:00:00Z",
@@ -1935,7 +1935,7 @@
     "tags": [],
     "source_name": "Sender, Fuchs & Milo, PLOS Biology (2016)",
     "source_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002533",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-10T12:00:00Z",
@@ -1968,7 +1968,7 @@
     "tags": [],
     "source_name": "Wikipedia: Venus (Planet)",
     "source_url": "https://de.wikipedia.org/wiki/Venus_(Planet)",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-03T12:00:00Z",
@@ -2001,7 +2001,7 @@
     "tags": [],
     "source_name": "Wikipedia: Dichteanomalie",
     "source_url": "https://de.wikipedia.org/wiki/Dichteanomalie",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-20T12:00:00Z",
@@ -2034,7 +2034,7 @@
     "tags": [],
     "source_name": "Wikipedia: Programmfehler",
     "source_url": "https://de.wikipedia.org/wiki/Programmfehler",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-06T12:00:00Z",
@@ -2067,7 +2067,7 @@
     "tags": [],
     "source_name": "Wikipedia: Apollo Guidance Computer",
     "source_url": "https://de.wikipedia.org/wiki/Apollo_Guidance_Computer",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-30T12:00:00Z",
@@ -2100,7 +2100,7 @@
     "tags": [],
     "source_name": "Wikipedia: Halluzination (Künstliche Intelligenz)",
     "source_url": "https://de.wikipedia.org/wiki/Halluzination_(Künstliche_Intelligenz)",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-11T12:00:00Z",
@@ -2133,7 +2133,7 @@
     "tags": [],
     "source_name": "Wikipedia: Kleopatra VII.",
     "source_url": "https://de.wikipedia.org/wiki/Kleopatra_VII.",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-10-08T12:00:00Z",
@@ -2166,7 +2166,7 @@
     "tags": [],
     "source_name": "Wikipedia: University of Oxford",
     "source_url": "https://de.wikipedia.org/wiki/University_of_Oxford",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-28T12:00:00Z",
@@ -2199,7 +2199,7 @@
     "tags": [],
     "source_name": "Wikipedia: Britisch-Sansibarischer Krieg",
     "source_url": "https://de.wikipedia.org/wiki/Britisch-Sansibarischer_Krieg",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "created_at": "2026-09-25T12:00:00Z",
@@ -2237,7 +2237,7 @@
     ],
     "source_name": "Wikipedia: Venus (Planet)",
     "source_url": "https://de.wikipedia.org/wiki/Venus_(Planet)",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "created_at": "2026-10-09T12:00:00Z",
@@ -2277,7 +2277,7 @@
     ],
     "source_name": "Wikipedia: Kleopatra VII.",
     "source_url": "https://de.wikipedia.org/wiki/Kleopatra_VII.",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "created_at": "2026-10-08T12:00:00Z",
@@ -2317,7 +2317,7 @@
     ],
     "source_name": "Wikipedia: Apollo Guidance Computer",
     "source_url": "https://de.wikipedia.org/wiki/Apollo_Guidance_Computer",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "created_at": "2026-10-10T12:00:00Z",
@@ -2357,7 +2357,7 @@
     ],
     "source_name": "Wikipedia: Erdatmosphäre",
     "source_url": "https://de.wikipedia.org/wiki/Erdatmosphäre",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "created_at": "2026-10-05T12:00:00Z",
@@ -2397,7 +2397,7 @@
     ],
     "source_name": "Wikipedia: Erde",
     "source_url": "https://de.wikipedia.org/wiki/Erde",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "created_at": "2026-10-07T12:00:00Z",
@@ -2437,7 +2437,7 @@
     ],
     "source_name": "Wikipedia: University of Oxford",
     "source_url": "https://de.wikipedia.org/wiki/University_of_Oxford",
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "created_at": "2026-10-03T12:00:00Z",
@@ -2472,7 +2472,7 @@
     "explanation": "Acht. Pluto gilt seit 2006 als Zwergplanet.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2509,7 +2509,7 @@
     "explanation": "Das Herz schlägt beim Erwachsenen in Ruhe etwa 60- bis 80-mal pro Minute.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2546,7 +2546,7 @@
     "explanation": "Ein Wassermolekül besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2583,7 +2583,7 @@
     "explanation": "Einstein veröffentlichte 1905 die spezielle und 1915 die allgemeine Relativitätstheorie.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2620,7 +2620,7 @@
     "explanation": "Rund 299.792 Kilometer pro Sekunde – nichts ist schneller.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2657,7 +2657,7 @@
     "explanation": "Wasserstoff ist das leichteste und häufigste Element im Universum.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2694,7 +2694,7 @@
     "explanation": "Merkur umrundet die Sonne in nur 88 Tagen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2731,7 +2731,7 @@
     "explanation": "Ein Hertz bedeutet eine Schwingung pro Sekunde.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2768,7 +2768,7 @@
     "explanation": "Bei der Fotosynthese entstehen aus Wasser und Kohlendioxid Zucker und Sauerstoff.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2805,7 +2805,7 @@
     "explanation": "Die DNA enthält den Bauplan für den gesamten Körper.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2842,7 +2842,7 @@
     "explanation": "Die Anziehungskraft der Sonne hält die Planeten auf ihren Bahnen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2879,7 +2879,7 @@
     "explanation": "Rund 13,8 Milliarden Jahre. Die Erde ist mit etwa 4,5 Milliarden Jahren deutlich jünger.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2916,7 +2916,7 @@
     "explanation": "Spinnen haben acht Beine. Insekten haben nur sechs.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2953,7 +2953,7 @@
     "explanation": "Pflanzen brauchen Licht, Wasser und Luft, um zu wachsen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -2990,7 +2990,7 @@
     "explanation": "Blau und Gelb ergeben zusammen Grün.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3027,7 +3027,7 @@
     "explanation": "Der Mond umkreist die Erde etwa einmal im Monat.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3064,7 +3064,7 @@
     "explanation": "KI bezeichnet Computersysteme, die Aufgaben lösen, für die sonst menschliche Intelligenz nötig wäre.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3101,7 +3101,7 @@
     "explanation": "Steve Jobs präsentierte das iPhone im Januar 2007.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3138,7 +3138,7 @@
     "explanation": "Auch ein Kochrezept ist im Grunde ein Algorithmus.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3175,7 +3175,7 @@
     "explanation": "Computer rechnen mit zwei Zuständen: 0 und 1.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3212,7 +3212,7 @@
     "explanation": "Cloud-Daten liegen in Rechenzentren und sind über das Internet abrufbar.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3249,7 +3249,7 @@
     "explanation": "Das System wird mit Beispielen trainiert und erkennt darin Zusammenhänge.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3286,7 +3286,7 @@
     "explanation": "Eine URL ist die Adresse einer Seite oder Datei im Internet.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3323,7 +3323,7 @@
     "explanation": "Jeder darf den Code lesen und je nach Lizenz verändern und weitergeben.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3360,7 +3360,7 @@
     "explanation": "Der Transistor wurde 1947 in den Bell Laboratories entwickelt.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3397,7 +3397,7 @@
     "explanation": "Betrüger geben sich etwa als Bank aus, um Zugangsdaten zu stehlen.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3434,7 +3434,7 @@
     "explanation": "Ada Lovelace schrieb in den 1840er-Jahren ein Programm für Charles Babbages geplante Rechenmaschine.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3471,7 +3471,7 @@
     "explanation": "Mit der Maus oder einem Touchpad steuert man den Zeiger.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3508,7 +3508,7 @@
     "explanation": "Roboter brauchen Strom, zum Beispiel aus einem Akku.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3545,7 +3545,7 @@
     "explanation": "Mit den Tasten tippt man Buchstaben und Zahlen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3582,7 +3582,7 @@
     "explanation": "Kolumbus suchte eigentlich einen Seeweg nach Indien.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3619,7 +3619,7 @@
     "explanation": "Die Pyramiden entstanden vor rund 4.500 Jahren als Gräber für Pharaonen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3656,7 +3656,7 @@
     "explanation": "In Europa endete er im Mai 1945, in Asien im September 1945.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3693,7 +3693,7 @@
     "explanation": "Adenauer regierte von 1949 bis 1963.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3730,7 +3730,7 @@
     "explanation": "Die Asche konservierte die Stadt – deshalb weiß man heute so viel über den römischen Alltag.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3767,7 +3767,7 @@
     "explanation": "476 setzte der Heerführer Odoaker den letzten weströmischen Kaiser ab.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3804,7 +3804,7 @@
     "explanation": "King sprach beim Marsch auf Washington vor rund 250.000 Menschen.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3841,7 +3841,7 @@
     "explanation": "Die Romanows herrschten rund 300 Jahre, zuletzt Zar Nikolaus II.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3878,7 +3878,7 @@
     "explanation": "Die Titanic sank auf ihrer ersten Fahrt im Nordatlantik.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3915,7 +3915,7 @@
     "explanation": "Am 23. Mai 1949 wurde das Grundgesetz verkündet.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3952,7 +3952,7 @@
     "explanation": "Luthers Thesen gelten als Beginn der Reformation.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -3989,7 +3989,7 @@
     "explanation": "Auf Burgen lebten Ritter und Adelige mit ihren Bediensteten.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4026,7 +4026,7 @@
     "explanation": "Die großen Dinosaurier starben vor etwa 66 Millionen Jahren aus.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4063,7 +4063,7 @@
     "explanation": "Lange schrieb man mit einer Vogelfeder, die in Tinte getaucht wurde.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4100,7 +4100,7 @@
     "explanation": "Der Mount Everest im Himalaya ist rund 8.849 Meter hoch.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4137,7 +4137,7 @@
     "explanation": "Der Pazifik bedeckt etwa ein Drittel der Erdoberfläche.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4174,7 +4174,7 @@
     "explanation": "Russland ist mit rund 17 Millionen Quadratkilometern das größte Land.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4211,7 +4211,7 @@
     "explanation": "Die Sahara ist etwa so groß wie die USA.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4248,7 +4248,7 @@
     "explanation": "Pflanzen nehmen Kohlendioxid auf und geben Sauerstoff ab.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4285,7 +4285,7 @@
     "explanation": "Der Äquator ist rund 40.000 Kilometer lang.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4322,7 +4322,7 @@
     "explanation": "Geparde erreichen auf kurzen Strecken rund 100 km/h.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4359,7 +4359,7 @@
     "explanation": "Weil die Erdachse geneigt ist, bekommen Nord- und Südhalbkugel im Jahreslauf unterschiedlich viel Sonne.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4396,7 +4396,7 @@
     "explanation": "Er ist der größte tropische Regenwald der Erde.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4433,7 +4433,7 @@
     "explanation": "Die Erdkruste ist unter den Kontinenten im Mittel etwa 35 Kilometer dick.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4470,7 +4470,7 @@
     "explanation": "Die Vatikanstadt ist nur 0,44 Quadratkilometer groß.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4507,7 +4507,7 @@
     "explanation": "Afrikanische Elefanten können über sechs Tonnen wiegen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4544,7 +4544,7 @@
     "explanation": "Die Raupe verpuppt sich und wird zum Schmetterling.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4581,7 +4581,7 @@
     "explanation": "Pinguine leben nur auf der Südhalbkugel – Eisbären dagegen im Norden.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4618,7 +4618,7 @@
     "explanation": "Frühling, Sommer, Herbst und Winter.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4655,7 +4655,7 @@
     "explanation": "Mit einem Budget legt man fest, wie viel Geld wofür ausgegeben werden soll.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4692,7 +4692,7 @@
     "explanation": "Was nach Steuern und Sozialabgaben übrig bleibt, ist das Nettogehalt.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4729,7 +4729,7 @@
     "explanation": "Mit einem ETF investiert man auf einmal in viele Wertpapiere.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4766,7 +4766,7 @@
     "explanation": "Wollen mehr Menschen ein knappes Gut, können Anbieter höhere Preise verlangen.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4803,7 +4803,7 @@
     "explanation": "Bis 2021 enthielt der DAX 30 Unternehmen, seitdem 40.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4840,7 +4840,7 @@
     "explanation": "Oft spricht man von Rezession, wenn die Wirtschaft zwei Quartale in Folge schrumpft.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4877,7 +4877,7 @@
     "explanation": "Die Schweiz gehört nicht zum Euroraum.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4914,7 +4914,7 @@
     "explanation": "Wer streut, verliert weniger, wenn eine einzelne Anlage einbricht.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4951,7 +4951,7 @@
     "explanation": "Ohne Wettbewerb kann ein Monopolist höhere Preise durchsetzen.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -4988,7 +4988,7 @@
     "explanation": "Wer Geld verleiht, bekommt Zinsen – wer sich Geld leiht, zahlt sie.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5025,7 +5025,7 @@
     "explanation": "Mit Geld kann man Dinge kaufen, zum Beispiel Essen oder Spielzeug.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5062,7 +5062,7 @@
     "explanation": "Eine Bank bewahrt Geld auf einem Konto auf.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5099,7 +5099,7 @@
     "explanation": "Im Sparschwein sammelt man Münzen für später.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5136,7 +5136,7 @@
     "explanation": "Sechs Saiten – eine Bassgitarre hat meist vier.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5173,7 +5173,7 @@
     "explanation": "Shakespeares Tragödie entstand in den 1590er-Jahren.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5210,7 +5210,7 @@
     "explanation": "Er wurde 1889 zur Weltausstellung in Paris eröffnet.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5247,7 +5247,7 @@
     "explanation": "Die Oper wurde 1791 in Wien uraufgeführt.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5284,7 +5284,7 @@
     "explanation": "Englisch wird dagegen von den meisten Menschen insgesamt gesprochen, wenn man Zweitsprachler mitzählt.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5321,7 +5321,7 @@
     "explanation": "Die Menschenwürde steht bewusst an erster Stelle der Verfassung.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5358,7 +5358,7 @@
     "explanation": "Die fünf Ringe stehen für die fünf Erdteile der olympischen Bewegung.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5395,7 +5395,7 @@
     "explanation": "Van Gogh malte es 1889 in Südfrankreich.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5432,7 +5432,7 @@
     "explanation": "Die UNO wurde 1945 gegründet und hat heute 193 Mitgliedstaaten.",
     "difficulty": 2,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5469,7 +5469,7 @@
     "explanation": "Darunter sind die drei Stadtstaaten Berlin, Hamburg und Bremen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5506,7 +5506,7 @@
     "explanation": "So kontrollieren sich die Staatsorgane gegenseitig.",
     "difficulty": 3,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5543,7 +5543,7 @@
     "explanation": "Ein Klavier hat meist 88 Tasten.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5580,7 +5580,7 @@
     "explanation": "Der Prinz findet Aschenputtel mithilfe des Schuhs wieder.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5617,7 +5617,7 @@
     "explanation": "Von Montag bis Sonntag sind es sieben Tage.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5652,7 +5652,7 @@
     "explanation": "Dazu kommen unter anderem Gleichgewichts-, Temperatur- und Schmerzsinn sowie das Gespür für die Lage des eigenen Körpers.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5685,7 +5685,7 @@
     "explanation": "Diamant und Graphit im Bleistift sind beide Kohlenstoff – nur anders aufgebaut.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5718,7 +5718,7 @@
     "explanation": "Schall braucht ein Medium wie Luft oder Wasser. Im nahezu leeren Weltraum fehlt es.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5751,7 +5751,7 @@
     "explanation": "Fledermäuse können sehen. Viele Arten orientieren sich zusätzlich mit Echoortung.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5784,7 +5784,7 @@
     "explanation": "Der Modus speichert nur keinen Verlauf auf dem eigenen Gerät. Websites und Internetanbieter sehen die Zugriffe weiterhin.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5817,7 +5817,7 @@
     "explanation": "Das CERN hat die Seite von 1991 unter ihrer ursprünglichen Adresse info.cern.ch wiederhergestellt.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5850,7 +5850,7 @@
     "explanation": "Sensorgröße, Objektiv und Bildverarbeitung sind für die Bildqualität meist wichtiger als die reine Pixelzahl.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5883,7 +5883,7 @@
     "explanation": "Dass die Erde eine Kugel ist, war unter Gebildeten seit der Antike bekannt und wurde auch im Mittelalter gelehrt.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5916,7 +5916,7 @@
     "explanation": "Mit etwa 1,68 Metern war er für seine Zeit durchschnittlich groß. Der Mythos geht auf britische Karikaturen und unterschiedliche Maßeinheiten zurück.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5949,7 +5949,7 @@
     "explanation": "In L’Anse aux Meadows in Neufundland wurde eine Wikingersiedlung aus der Zeit um das Jahr 1000 gefunden.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -5982,7 +5982,7 @@
     "explanation": "Sie legen bei Gefahr manchmal Hals und Kopf flach auf den Boden – aus der Ferne sieht das so aus.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6015,7 +6015,7 @@
     "explanation": "Im Blitzkanal entstehen bis zu 30.000 Grad Celsius, die Sonnenoberfläche hat rund 5.500 Grad.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6048,7 +6048,7 @@
     "explanation": "In Versuchen merkten sich Goldfische Aufgaben über Wochen und Monate.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6081,7 +6081,7 @@
     "explanation": "Gibt es mehr Geld, aber nicht mehr Waren, steigen vor allem die Preise.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6114,7 +6114,7 @@
     "explanation": "Im Königreich Lydien in der heutigen Türkei entstanden im 7. Jahrhundert v. Chr. die ersten Münzen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6147,7 +6147,7 @@
     "explanation": "Höhere Renditechancen gehen grundsätzlich mit höherem Risiko einher. Wer beides ohne Haken verspricht, ist oft ein Betrüger.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6180,7 +6180,7 @@
     "explanation": "Frankenstein ist der Name des Wissenschaftlers Victor Frankenstein. Sein Geschöpf bleibt im Roman namenlos.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6213,7 +6213,7 @@
     "explanation": "Sie wurden dort über mehr als tausend Jahre zu Ehren des Gottes Zeus ausgetragen.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6246,7 +6246,7 @@
     "explanation": "Die Melodie stammt von Franz Xaver Gruber, der Text von Joseph Mohr. Uraufgeführt wurde es 1818 bei Salzburg.",
     "difficulty": 1,
     "tags": [],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
@@ -6285,7 +6285,7 @@
       "Raumfahrt",
       "Atmosphäre"
     ],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "demo_popularity": 0,
@@ -6326,7 +6326,7 @@
       "Raumfahrt",
       "Mondlandung"
     ],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "demo_popularity": 0,
@@ -6366,7 +6366,7 @@
       "Apollo",
       "Mondlandung"
     ],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "demo_popularity": 0,
@@ -6407,7 +6407,7 @@
       "Raumfahrt",
       "Robotik"
     ],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "demo_popularity": 0,
@@ -6447,7 +6447,7 @@
       "Sonne",
       "Astronomie"
     ],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "demo_popularity": 0,
@@ -6488,7 +6488,7 @@
       "Hurrikan",
       "ISS"
     ],
-    "verification_status": "unverified",
+    "verification_status": "ai_checked",
     "status": "published",
     "show_in_feed": false,
     "demo_popularity": 0,
@@ -6507,6 +6507,1766 @@
           "Funnel"
         ],
         "explanation": "Around the eye lies the eyewall, with the highest wind speeds."
+      }
+    }
+  },
+  {
+    "id": "b1",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein Start-up?",
+    "options": [
+      "Eine Filiale eines Konzerns",
+      "Ein junges Unternehmen mit neuer Idee und großem Wachstumsziel",
+      "Ein gemeinnütziger Verein",
+      "Ein Unternehmen kurz vor der Schließung"
+    ],
+    "correct_index": 1,
+    "explanation": "Start-ups probieren ein neues Geschäftsmodell aus und wollen schnell wachsen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Start-up-Unternehmen",
+    "source_url": "https://de.wikipedia.org/wiki/Start-up-Unternehmen",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a start-up?",
+        "options": [
+          "A branch of a large corporation",
+          "A young company with a new idea and ambitious growth goals",
+          "A non-profit association",
+          "A company about to close"
+        ],
+        "explanation": "Start-ups try out a new business model and aim to grow quickly."
+      }
+    }
+  },
+  {
+    "id": "b2",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür steht die Abkürzung „CEO“?",
+    "options": [
+      "Chief Executive Officer",
+      "Central Economic Office",
+      "Company Export Organisation",
+      "Chief Engineering Operator"
+    ],
+    "correct_index": 0,
+    "explanation": "Der CEO leitet das Unternehmen – im Deutschen meist Vorstandsvorsitzender oder Geschäftsführer.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chief Executive Officer",
+    "source_url": "https://de.wikipedia.org/wiki/Chief_Executive_Officer",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “CEO” stand for?",
+        "options": [
+          "Chief Executive Officer",
+          "Central Economic Office",
+          "Company Export Organisation",
+          "Chief Engineering Operator"
+        ],
+        "explanation": "The CEO heads the company."
+      }
+    }
+  },
+  {
+    "id": "b3",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist der Umsatz eines Unternehmens?",
+    "options": [
+      "Der Gewinn nach Steuern",
+      "Die Zahl der Mitarbeiter",
+      "Die gesamten Einnahmen aus dem Verkauf von Waren und Leistungen",
+      "Der Wert der Firma an der Börse"
+    ],
+    "correct_index": 2,
+    "explanation": "Umsatz ist, was hereinkommt – noch bevor Kosten abgezogen werden.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Umsatzerlös",
+    "source_url": "https://de.wikipedia.org/wiki/Umsatzerlös",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a company's revenue?",
+        "options": [
+          "Profit after tax",
+          "The number of employees",
+          "Total income from selling goods and services",
+          "The company's stock market value"
+        ],
+        "explanation": "Revenue is what comes in – before any costs are deducted."
+      }
+    }
+  },
+  {
+    "id": "b4",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bleibt übrig, wenn man vom Umsatz alle Kosten abzieht?",
+    "options": [
+      "Das Kapital",
+      "Der Gewinn",
+      "Die Dividende",
+      "Der Kredit"
+    ],
+    "correct_index": 1,
+    "explanation": "Sind die Kosten höher als der Umsatz, entsteht ein Verlust.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewinn",
+    "source_url": "https://de.wikipedia.org/wiki/Gewinn",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is left when all costs are deducted from revenue?",
+        "options": [
+          "Capital",
+          "Profit",
+          "The dividend",
+          "The loan"
+        ],
+        "explanation": "If costs are higher than revenue, the result is a loss."
+      }
+    }
+  },
+  {
+    "id": "b5",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet „B2B“?",
+    "options": [
+      "Geschäfte zwischen Unternehmen",
+      "Verkauf an Privatkunden",
+      "Handel zwischen Staaten",
+      "Tausch ohne Geld"
+    ],
+    "correct_index": 0,
+    "explanation": "B2B steht für „Business to Business“. Verkauft ein Unternehmen an Privatkunden, heißt das B2C.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Business-to-Business",
+    "source_url": "https://de.wikipedia.org/wiki/Business-to-Business",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “B2B” mean?",
+        "options": [
+          "Business between companies",
+          "Selling to private customers",
+          "Trade between states",
+          "Barter without money"
+        ],
+        "explanation": "B2B stands for “business to business”. Selling to private customers is called B2C."
+      }
+    }
+  },
+  {
+    "id": "b6",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was beschreibt ein Geschäftsmodell?",
+    "options": [
+      "Das Logo einer Firma",
+      "Die Rechtsform einer Firma",
+      "Wie ein Unternehmen Nutzen schafft und damit Geld verdient",
+      "Den Dienstplan der Mitarbeiter"
+    ],
+    "correct_index": 2,
+    "explanation": "Es beantwortet: Für wen schaffen wir welchen Wert – und wer bezahlt dafür?",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geschäftsmodell",
+    "source_url": "https://de.wikipedia.org/wiki/Geschäftsmodell",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a business model describe?",
+        "options": [
+          "A company's logo",
+          "A company's legal form",
+          "How a company creates value and earns money with it",
+          "The staff rota"
+        ],
+        "explanation": "It answers: for whom do we create which value – and who pays for it?"
+      }
+    }
+  },
+  {
+    "id": "b7",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist der Break-even-Point?",
+    "options": [
+      "Der Zeitpunkt des Börsengangs",
+      "Der Punkt, an dem die Erlöse die Kosten decken",
+      "Der höchste mögliche Gewinn",
+      "Der Beginn einer Insolvenz"
+    ],
+    "correct_index": 1,
+    "explanation": "Ab diesem Punkt macht ein Unternehmen oder Produkt Gewinn.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewinnschwelle",
+    "source_url": "https://de.wikipedia.org/wiki/Gewinnschwelle",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the break-even point?",
+        "options": [
+          "The time of the stock market launch",
+          "The point at which revenue covers costs",
+          "The highest possible profit",
+          "The start of insolvency"
+        ],
+        "explanation": "From this point on, a company or product makes a profit."
+      }
+    }
+  },
+  {
+    "id": "b8",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wer gründete 1976 zusammen mit Steve Jobs das Unternehmen Apple?",
+    "options": [
+      "Bill Gates",
+      "Tim Cook",
+      "Steve Wozniak",
+      "Elon Musk"
+    ],
+    "correct_index": 2,
+    "explanation": "Wozniak entwickelte die ersten Apple-Computer. Dritter Mitgründer war Ronald Wayne, der früh ausstieg.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Apple",
+    "source_url": "https://de.wikipedia.org/wiki/Apple",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who founded Apple together with Steve Jobs in 1976?",
+        "options": [
+          "Bill Gates",
+          "Tim Cook",
+          "Steve Wozniak",
+          "Elon Musk"
+        ],
+        "explanation": "Wozniak designed the first Apple computers. The third co-founder, Ronald Wayne, left early on."
+      }
+    }
+  },
+  {
+    "id": "b9",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welches Unternehmen startete 1994/95 als Online-Buchhändler?",
+    "options": [
+      "eBay",
+      "Amazon",
+      "Google",
+      "Netflix"
+    ],
+    "correct_index": 1,
+    "explanation": "Jeff Bezos gründete Amazon 1994; 1995 ging der Buchshop online.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Amazon",
+    "source_url": "https://de.wikipedia.org/wiki/Amazon",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which company started out in 1994/95 as an online bookseller?",
+        "options": [
+          "eBay",
+          "Amazon",
+          "Google",
+          "Netflix"
+        ],
+        "explanation": "Jeff Bezos founded Amazon in 1994; the bookshop went online in 1995."
+      }
+    }
+  },
+  {
+    "id": "b10",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist Risikokapital (Venture Capital)?",
+    "options": [
+      "Ein staatlicher Kredit für Großkonzerne",
+      "Geld von Investoren für junge Unternehmen im Tausch gegen Anteile",
+      "Eine Versicherung gegen Verluste",
+      "Bargeldreserve einer Bank"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Investoren tragen ein hohes Risiko und hoffen, dass der Wert ihrer Anteile stark steigt.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Risikokapital",
+    "source_url": "https://de.wikipedia.org/wiki/Risikokapital",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is venture capital?",
+        "options": [
+          "A state loan for large corporations",
+          "Money from investors for young companies in exchange for shares",
+          "Insurance against losses",
+          "A bank's cash reserve"
+        ],
+        "explanation": "The investors take a high risk and hope that the value of their shares rises sharply."
+      }
+    }
+  },
+  {
+    "id": "b11",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet es, wenn ein Geschäft „skaliert“?",
+    "options": [
+      "Es senkt die Preise",
+      "Es entlässt Mitarbeiter",
+      "Es wächst stark, ohne dass die Kosten im gleichen Maß steigen",
+      "Es wird verkauft"
+    ],
+    "correct_index": 2,
+    "explanation": "Software skaliert gut: Eine weitere Kopie kostet fast nichts.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Skalierbarkeit",
+    "source_url": "https://de.wikipedia.org/wiki/Skalierbarkeit",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does it mean when a business “scales”?",
+        "options": [
+          "It lowers prices",
+          "It lays off staff",
+          "It grows strongly without costs rising at the same rate",
+          "It is sold"
+        ],
+        "explanation": "Software scales well: one more copy costs almost nothing."
+      }
+    }
+  },
+  {
+    "id": "b12",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist eine Marke?",
+    "options": [
+      "Ein Lagerraum",
+      "Ein Name oder Zeichen, das Produkte eines Anbieters unterscheidbar macht",
+      "Eine Steuer auf Werbung",
+      "Ein Preisschild"
+    ],
+    "correct_index": 1,
+    "explanation": "Starke Marken schaffen Vertrauen – und erlauben oft höhere Preise.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marke (Marketing)",
+    "source_url": "https://de.wikipedia.org/wiki/Marke_(Marketing)",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a brand?",
+        "options": [
+          "A storeroom",
+          "A name or sign that makes a supplier's products distinguishable",
+          "A tax on advertising",
+          "A price tag"
+        ],
+        "explanation": "Strong brands create trust – and often allow higher prices."
+      }
+    }
+  },
+  {
+    "id": "b13",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welche Fertigungsmethode führte Henry Ford 1913 in der Autoproduktion ein?",
+    "options": [
+      "Das Fließband",
+      "Den 3D-Druck",
+      "Die Handarbeit in Kleingruppen",
+      "Das Franchising"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Bauzeit eines Model T sank damit von über zwölf Stunden auf rund anderthalb.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fließbandfertigung",
+    "source_url": "https://de.wikipedia.org/wiki/Fließbandfertigung",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which production method did Henry Ford introduce in car manufacturing in 1913?",
+        "options": [
+          "The assembly line",
+          "3D printing",
+          "Manual work in small groups",
+          "Franchising"
+        ],
+        "explanation": "It cut the time to build a Model T from more than twelve hours to about an hour and a half."
+      }
+    }
+  },
+  {
+    "id": "b14",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist Franchising?",
+    "options": [
+      "Zwei Firmen schließen sich zusammen",
+      "Ein Unternehmer nutzt gegen Gebühr Marke und Konzept eines anderen",
+      "Ein Staat übernimmt eine Firma",
+      "Mitarbeiter erhalten Aktien"
+    ],
+    "correct_index": 1,
+    "explanation": "Viele Restaurant- und Hotelketten wachsen über Franchise-Partner.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Franchising",
+    "source_url": "https://de.wikipedia.org/wiki/Franchising",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is franchising?",
+        "options": [
+          "Two companies merge",
+          "An entrepreneur uses another's brand and concept for a fee",
+          "A state takes over a company",
+          "Employees receive shares"
+        ],
+        "explanation": "Many restaurant and hotel chains grow through franchise partners."
+      }
+    }
+  },
+  {
+    "id": "b15",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was umfasst Marketing?",
+    "options": [
+      "Nur die Buchhaltung",
+      "Nur die Produktion",
+      "Alles, was ein Angebot bekannt macht und auf die Kunden ausrichtet",
+      "Die Einstellung neuer Mitarbeiter"
+    ],
+    "correct_index": 2,
+    "explanation": "Dazu gehören Produkt, Preis, Vertrieb und Werbung.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marketing",
+    "source_url": "https://de.wikipedia.org/wiki/Marketing",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does marketing cover?",
+        "options": [
+          "Only accounting",
+          "Only production",
+          "Everything that makes an offering known and aligns it with customers",
+          "Hiring new staff"
+        ],
+        "explanation": "It includes product, price, distribution and advertising."
+      }
+    }
+  },
+  {
+    "id": "b16",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür steht die deutsche Rechtsform „GmbH“?",
+    "options": [
+      "Gesellschaft mit beschränkter Haftung",
+      "Gemeinschaft mittlerer Betriebe und Händler",
+      "Gesellschaft mit besonderem Handelsrecht",
+      "Gewerbe mit beschränkter Handlung"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Gesellschafter haften in der Regel nur mit dem Vermögen der Gesellschaft, nicht mit ihrem privaten.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gesellschaft mit beschränkter Haftung (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Gesellschaft_mit_beschränkter_Haftung_(Deutschland)",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the German legal form “GmbH” stand for?",
+        "options": [
+          "Limited liability company (Gesellschaft mit beschränkter Haftung)",
+          "Community of medium-sized businesses and traders",
+          "Company with special trading rights",
+          "Trade with restricted activity"
+        ],
+        "explanation": "As a rule, the owners are liable only with the company's assets, not with their private ones."
+      }
+    }
+  },
+  {
+    "id": "b17",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein Börsengang (IPO)?",
+    "options": [
+      "Ein Unternehmen bietet seine Aktien erstmals öffentlich an",
+      "Ein Unternehmen meldet Insolvenz an",
+      "Zwei Börsen schließen sich zusammen",
+      "Ein Staat verkauft Gold"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit dem Börsengang beschafft sich ein Unternehmen Geld von vielen Anlegern.",
+    "difficulty": 3,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Börsengang",
+    "source_url": "https://de.wikipedia.org/wiki/Börsengang",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an IPO (initial public offering)?",
+        "options": [
+          "A company offers its shares to the public for the first time",
+          "A company files for insolvency",
+          "Two stock exchanges merge",
+          "A state sells gold"
+        ],
+        "explanation": "With an IPO, a company raises money from many investors."
+      }
+    }
+  },
+  {
+    "id": "bf1",
+    "kind": "fact",
+    "category_id": "business",
+    "question": "Nokia begann als Papierfabrik.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Unternehmen wurde 1865 in Finnland als Holzschliff- und Papierfabrik gegründet – lange vor den Mobiltelefonen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nokia",
+    "source_url": "https://de.wikipedia.org/wiki/Nokia",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Nokia started out as a paper mill.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The company was founded in Finland in 1865 as a wood pulp and paper mill – long before mobile phones."
+      }
+    }
+  },
+  {
+    "id": "bf2",
+    "kind": "fact",
+    "category_id": "business",
+    "question": "Nintendo wurde 1889 als Hersteller von Spielkarten gegründet.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Fast hundert Jahre lang stellte Nintendo vor allem Spielkarten her, bevor Videospiele das Geschäft bestimmten.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nintendo",
+    "source_url": "https://de.wikipedia.org/wiki/Nintendo",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Nintendo was founded in 1889 as a maker of playing cards.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "For almost a hundred years Nintendo mainly made playing cards before video games came to dominate its business."
+      }
+    }
+  },
+  {
+    "id": "bm1",
+    "kind": "fact",
+    "category_id": "business",
+    "question": "Die meisten Start-ups werden zu erfolgreichen Großunternehmen.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Die große Mehrheit der Start-ups scheitert oder bleibt klein. Investoren rechnen damit, dass wenige Erfolge viele Ausfälle ausgleichen.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Start-up-Unternehmen",
+    "source_url": "https://de.wikipedia.org/wiki/Start-up-Unternehmen",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Most start-ups become successful large companies.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The great majority of start-ups fail or stay small. Investors expect a few successes to make up for many failures."
+      }
+    }
+  },
+  {
+    "id": "bm2",
+    "kind": "fact",
+    "category_id": "business",
+    "question": "Umsatz und Gewinn sind dasselbe.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Umsatz sind alle Einnahmen. Gewinn ist, was nach Abzug aller Kosten davon übrig bleibt.",
+    "difficulty": 1,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewinn",
+    "source_url": "https://de.wikipedia.org/wiki/Gewinn",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Revenue and profit are the same thing.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Revenue is all the money coming in. Profit is what remains of it after all costs are deducted."
+      }
+    }
+  },
+  {
+    "id": "q-v-blitz",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was hören wir als Donner?",
+    "options": [
+      "Zusammenstoßende Wolken",
+      "Die schlagartig erhitzte Luft, die sich ausdehnt",
+      "Den Einschlag im Boden",
+      "Das Echo des Regens"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Blitzkanal erhitzt die Luft so schnell, dass eine Druckwelle entsteht.",
+    "difficulty": 1,
+    "tags": [
+      "Wetter",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lightning_strikes_in_slow_motion_(240fps)_in_Muurame,_Finland.webm",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do we hear as thunder?",
+        "options": [
+          "Clouds colliding",
+          "The suddenly heated air expanding",
+          "The strike hitting the ground",
+          "The echo of the rain"
+        ],
+        "explanation": "The lightning channel heats the air so quickly that a shock wave forms."
+      }
+    }
+  },
+  {
+    "id": "q-v-polarlicht",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wodurch entstehen Polarlichter?",
+    "options": [
+      "Mondlicht bricht sich im Eis",
+      "Teilchen des Sonnenwinds treffen auf die Atmosphäre",
+      "Stadtlichter spiegeln sich in Wolken",
+      "Vulkanasche leuchtet nach"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Magnetfeld der Erde lenkt die Teilchen zu den Polen – deshalb sieht man Polarlichter vor allem dort.",
+    "difficulty": 1,
+    "tags": [
+      "Sonne",
+      "Atmosphäre"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alaskan_Aurora_Time_Lapse_(SVS15077).webm",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What causes auroras?",
+        "options": [
+          "Moonlight refracting in ice",
+          "Solar wind particles hitting the atmosphere",
+          "City lights reflected in clouds",
+          "Glowing volcanic ash"
+        ],
+        "explanation": "Earth's magnetic field guides the particles towards the poles – which is why auroras are mainly seen there."
+      }
+    }
+  },
+  {
+    "id": "q-v-keimung",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was braucht ein Samen, um zu keimen?",
+    "options": [
+      "Wasser, Wärme und Sauerstoff",
+      "Nur helles Licht",
+      "Dünger",
+      "Starken Wind"
+    ],
+    "correct_index": 0,
+    "explanation": "Die meisten Samen keimen auch im Dunkeln – zum Beispiel in der Erde.",
+    "difficulty": 1,
+    "tags": [
+      "Pflanzen",
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lentil_microgreens_growth_time_lapse.webm",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a seed need in order to germinate?",
+        "options": [
+          "Water, warmth and oxygen",
+          "Only bright light",
+          "Fertiliser",
+          "Strong wind"
+        ],
+        "explanation": "Most seeds germinate even in the dark – in the soil, for example."
+      }
+    }
+  },
+  {
+    "id": "q-v-tacoma",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was brachte die Tacoma-Narrows-Brücke 1940 zum Einsturz?",
+    "options": [
+      "Ein Erdbeben",
+      "Vom Wind angefachte Schwingungen",
+      "Ein Schiff",
+      "Zu viele Autos"
+    ],
+    "correct_index": 1,
+    "explanation": "Der gleichmäßige Wind schaukelte die schlanke Fahrbahn immer weiter auf.",
+    "difficulty": 1,
+    "tags": [
+      "Ingenieurwesen",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_Bridge_destruction.ogv",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What caused the Tacoma Narrows Bridge to collapse in 1940?",
+        "options": [
+          "An earthquake",
+          "Oscillations driven by the wind",
+          "A ship",
+          "Too many cars"
+        ],
+        "explanation": "The steady wind kept amplifying the movement of the slender deck."
+      }
+    }
+  },
+  {
+    "id": "q-v-3d-druck",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie entsteht ein Gegenstand im 3D-Drucker?",
+    "options": [
+      "Er wird aus einem Block gefräst",
+      "Er wird in eine Form gegossen",
+      "Er wird Schicht für Schicht aufgebaut",
+      "Er wird gepresst"
+    ],
+    "correct_index": 2,
+    "explanation": "Deshalb heißt das Verfahren auch additive Fertigung: Es wird Material hinzugefügt, nicht abgetragen.",
+    "difficulty": 1,
+    "tags": [
+      "Fertigung",
+      "Maker"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robot_3D_print_timelapse_on_RepRapPro_Fisher.webm",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is an object made in a 3D printer?",
+        "options": [
+          "It is milled from a block",
+          "It is cast in a mould",
+          "It is built up layer by layer",
+          "It is pressed"
+        ],
+        "explanation": "That is why the process is also called additive manufacturing: material is added, not removed."
+      }
+    }
+  },
+  {
+    "id": "q-v-mars-landung",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "In welchem Marskrater landete der Rover Perseverance?",
+    "options": [
+      "Gale",
+      "Jezero",
+      "Tycho",
+      "Chicxulub"
+    ],
+    "correct_index": 1,
+    "explanation": "Jezero war vor Milliarden Jahren ein See – ein guter Ort, um nach Spuren früheren Lebens zu suchen.",
+    "difficulty": 1,
+    "tags": [
+      "Mars",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "NASA Image and Video Library",
+    "source_url": "https://images.nasa.gov/details/JPL-20210222-M2020f-0001-Perseverance%20Rover%E2%80%99s%20Descent%20and%20Touchdown%20on%20Mars",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which Martian crater did the rover Perseverance land?",
+        "options": [
+          "Gale",
+          "Jezero",
+          "Tycho",
+          "Chicxulub"
+        ],
+        "explanation": "Billions of years ago Jezero was a lake – a good place to look for traces of past life."
+      }
+    }
+  },
+  {
+    "id": "q-v-erdaufgang",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Mission umkreiste 1968 als erste mit Menschen an Bord den Mond?",
+    "options": [
+      "Apollo 11",
+      "Gemini 4",
+      "Apollo 8",
+      "Sputnik 2"
+    ],
+    "correct_index": 2,
+    "explanation": "Frank Borman, Jim Lovell und William Anders umrundeten den Mond zehnmal.",
+    "difficulty": 1,
+    "tags": [
+      "Apollo",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Earthrise.ogv",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which mission was the first to orbit the Moon with people on board in 1968?",
+        "options": [
+          "Apollo 11",
+          "Gemini 4",
+          "Apollo 8",
+          "Sputnik 2"
+        ],
+        "explanation": "Frank Borman, Jim Lovell and William Anders circled the Moon ten times."
+      }
+    }
+  },
+  {
+    "id": "q-v-titanic",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr sank die Titanic?",
+    "options": [
+      "1905",
+      "1912",
+      "1918",
+      "1925"
+    ],
+    "correct_index": 1,
+    "explanation": "Sie sank in der Nacht vom 14. auf den 15. April 1912 im Nordatlantik.",
+    "difficulty": 1,
+    "tags": [
+      "Schifffahrt",
+      "20. Jahrhundert"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Titanic_Disaster_-_Genuine_Footage_(1911-1912)(enhanced).webm",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the Titanic sink?",
+        "options": [
+          "1905",
+          "1912",
+          "1918",
+          "1925"
+        ],
+        "explanation": "She sank in the North Atlantic on the night of 14 to 15 April 1912."
+      }
+    }
+  },
+  {
+    "id": "q-v-flugpioniere",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie lange dauerte der erste Motorflug der Brüder Wright 1903?",
+    "options": [
+      "12 Sekunden",
+      "2 Minuten",
+      "12 Minuten",
+      "1 Stunde"
+    ],
+    "correct_index": 0,
+    "explanation": "Orville Wright flog am 17. Dezember 1903 rund 37 Meter weit.",
+    "difficulty": 1,
+    "tags": [
+      "Luftfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:First_flights_in_aviation_history.ogv",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long did the Wright brothers' first powered flight last in 1903?",
+        "options": [
+          "12 seconds",
+          "2 minutes",
+          "12 minutes",
+          "1 hour"
+        ],
+        "explanation": "On 17 December 1903 Orville Wright flew about 37 metres."
+      }
+    }
+  },
+  {
+    "id": "q-v-buchdruck",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war das Neue an Gutenbergs Buchdruck?",
+    "options": [
+      "Papier statt Pergament",
+      "Bewegliche, wiederverwendbare Metalllettern",
+      "Farbige Tinte",
+      "Die Schreibmaschine"
+    ],
+    "correct_index": 1,
+    "explanation": "Aus einzelnen Lettern ließ sich jede Seite neu zusammensetzen – und danach wiederverwenden.",
+    "difficulty": 1,
+    "tags": [
+      "Buchdruck",
+      "Medien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Printing_in_a_letterpress.webm",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was new about Gutenberg's printing?",
+        "options": [
+          "Paper instead of parchment",
+          "Movable, reusable metal type",
+          "Coloured ink",
+          "The typewriter"
+        ],
+        "explanation": "Any page could be composed from individual letters – and the letters reused afterwards."
+      }
+    }
+  },
+  {
+    "id": "q-v-lumiere",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer veranstaltete 1895 in Paris die ersten öffentlichen Filmvorführungen vor zahlendem Publikum?",
+    "options": [
+      "Die Brüder Grimm",
+      "Die Brüder Lumière",
+      "Die Brüder Wright",
+      "Die Brüder Montgolfier"
+    ],
+    "correct_index": 1,
+    "explanation": "Auguste und Louis Lumière führten ihren „Cinématographe“ am 28. Dezember 1895 vor.",
+    "difficulty": 1,
+    "tags": [
+      "Film",
+      "Kino"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat_(1897).webm",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who held the first public film screenings for a paying audience in Paris in 1895?",
+        "options": [
+          "The Brothers Grimm",
+          "The Lumière brothers",
+          "The Wright brothers",
+          "The Montgolfier brothers"
+        ],
+        "explanation": "Auguste and Louis Lumière presented their “Cinématographe” on 28 December 1895."
+      }
+    }
+  },
+  {
+    "id": "q-v-roundhay",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Jahr stammt der älteste erhaltene Film?",
+    "options": [
+      "1850",
+      "1888",
+      "1912",
+      "1929"
+    ],
+    "correct_index": 1,
+    "explanation": "Louis Le Prince drehte ihn sieben Jahre vor den ersten Kinovorführungen der Brüder Lumière.",
+    "difficulty": 1,
+    "tags": [
+      "Film",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Roundhay_Garden_Scene_(1888).webm",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which year does the oldest surviving film date from?",
+        "options": [
+          "1850",
+          "1888",
+          "1912",
+          "1929"
+        ],
+        "explanation": "Louis Le Prince shot it seven years before the Lumière brothers' first cinema screenings."
+      }
+    }
+  },
+  {
+    "id": "q-v-reise-zum-mond",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer drehte 1902 den Film „Die Reise zum Mond“?",
+    "options": [
+      "Charlie Chaplin",
+      "Fritz Lang",
+      "Georges Méliès",
+      "Walt Disney"
+    ],
+    "correct_index": 2,
+    "explanation": "Méliès drehte mehr als 500 Filme und gilt als Pionier der Filmtricks.",
+    "difficulty": 1,
+    "tags": [
+      "Film",
+      "Science-Fiction"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who made the film “A Trip to the Moon” in 1902?",
+        "options": [
+          "Charlie Chaplin",
+          "Fritz Lang",
+          "Georges Méliès",
+          "Walt Disney"
+        ],
+        "explanation": "Méliès made more than 500 films and is regarded as a pioneer of special effects."
+      }
+    }
+  },
+  {
+    "id": "q-v-orchester",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welche Instrumentengruppe ist in einem Sinfonieorchester am größten?",
+    "options": [
+      "Blechbläser",
+      "Schlagwerk",
+      "Holzbläser",
+      "Streicher"
+    ],
+    "correct_index": 3,
+    "explanation": "Geigen, Bratschen, Celli und Kontrabässe stellen meist mehr als die Hälfte der Musiker.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beethoven_Symphony_No._5,_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm",
+    "created_at": "2026-09-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which section is the largest in a symphony orchestra?",
+        "options": [
+          "Brass",
+          "Percussion",
+          "Woodwind",
+          "Strings"
+        ],
+        "explanation": "Violins, violas, cellos and double basses usually make up more than half of the players."
+      }
+    }
+  },
+  {
+    "id": "q-v-vulkan",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie nennt man geschmolzenes Gestein, solange es unter der Erde ist?",
+    "options": [
+      "Lava",
+      "Magma",
+      "Basalt",
+      "Asche"
+    ],
+    "correct_index": 1,
+    "explanation": "Tritt Magma an der Oberfläche aus, heißt es Lava.",
+    "difficulty": 1,
+    "tags": [
+      "Vulkane",
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:007_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Video_by_Giles_Laurent.webm",
+    "created_at": "2026-09-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is molten rock called while it is underground?",
+        "options": [
+          "Lava",
+          "Magma",
+          "Basalt",
+          "Asche"
+        ],
+        "explanation": "When magma emerges at the surface, it is called lava."
+      }
+    }
+  },
+  {
+    "id": "q-v-gepard",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wofür nutzt der Gepard beim Sprint seinen langen Schwanz?",
+    "options": [
+      "Zum Steuern und Ausbalancieren",
+      "Zum Abkühlen",
+      "Zum Anlocken von Beute",
+      "Zum Bremsen"
+    ],
+    "correct_index": 0,
+    "explanation": "Wie ein Ruder gleicht der Schwanz schnelle Richtungswechsel aus.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cheetahs_on_the_Edge_(Director%27s_Cut).webm",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a cheetah use its long tail for when sprinting?",
+        "options": [
+          "For steering and balance",
+          "For cooling down",
+          "For luring prey",
+          "For braking"
+        ],
+        "explanation": "Like a rudder, the tail compensates for rapid changes of direction."
+      }
+    }
+  },
+  {
+    "id": "q-v-oktopus",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Farbe hat das Blut eines Oktopus?",
+    "options": [
+      "Rot",
+      "Grün",
+      "Blau",
+      "Gelb"
+    ],
+    "correct_index": 2,
+    "explanation": "Der kupferhaltige Blutfarbstoff Hämocyanin färbt es blau.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sealife-Munich-Octopus-2.ogv",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour is an octopus's blood?",
+        "options": [
+          "Red",
+          "Green",
+          "Blue",
+          "Yellow"
+        ],
+        "explanation": "The copper-containing blood pigment haemocyanin makes it blue."
+      }
+    }
+  },
+  {
+    "id": "q-v-bienen",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was teilen Honigbienen mit dem Schwänzeltanz mit?",
+    "options": [
+      "Dass Gefahr droht",
+      "Wo es Futter gibt",
+      "Wer die Königin ist",
+      "Dass es regnen wird"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Tanz verrät Richtung und Entfernung einer Futterquelle.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Waggle_Dance.webm",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do honeybees communicate with the waggle dance?",
+        "options": [
+          "That danger threatens",
+          "Where food can be found",
+          "Who the queen is",
+          "That it is going to rain"
+        ],
+        "explanation": "The dance reveals the direction and distance of a food source."
+      }
+    }
+  },
+  {
+    "id": "q-v-stare",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welchen Vorteil hat der dichte Schwarm für die Stare?",
+    "options": [
+      "Er erzeugt Wind",
+      "Er schützt vor Greifvögeln",
+      "Er lockt Insekten an",
+      "Er wärmt die Luft"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Gewimmel kann sich ein Angreifer kaum auf ein einzelnes Tier konzentrieren.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flock_of_starlings_(Sturnus_vulgaris).webm",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What advantage does the dense flock give the starlings?",
+        "options": [
+          "It creates wind",
+          "It protects against birds of prey",
+          "It attracts insects",
+          "It warms the air"
+        ],
+        "explanation": "In the swirl, an attacker can hardly focus on a single animal."
+      }
+    }
+  },
+  {
+    "id": "q-v-banknoten",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Woraus bestehen Euro-Banknoten?",
+    "options": [
+      "Aus Holzpapier",
+      "Aus Kunststoff",
+      "Aus Baumwollfaser",
+      "Aus Seide"
+    ],
+    "correct_index": 2,
+    "explanation": "Einige Länder wie Australien oder Großbritannien nutzen dagegen Kunststoff.",
+    "difficulty": 1,
+    "tags": [
+      "Geld",
+      "Euro"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:New_20_Euro_Banknotes_Printing_Production.webm",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are euro banknotes made of?",
+        "options": [
+          "Wood-pulp paper",
+          "Plastic",
+          "Cotton fibre",
+          "Silk"
+        ],
+        "explanation": "Some countries, such as Australia and the United Kingdom, use plastic instead."
+      }
+    }
+  },
+  {
+    "id": "q-v-muenzen",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie nennt man die Herstellung von Münzen?",
+    "options": [
+      "Drucken",
+      "Prägen",
+      "Gießen",
+      "Schmieden"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Ort, an dem Münzen geprägt werden, heißt Münzprägeanstalt oder kurz Münze.",
+    "difficulty": 1,
+    "tags": [
+      "Geld",
+      "Münzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:West_Point_Quarters_B-Roll.webm",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the making of coins called?",
+        "options": [
+          "Printing",
+          "Minting",
+          "Casting",
+          "Forging"
+        ],
+        "explanation": "The place where coins are made is called a mint."
+      }
+    }
+  },
+  {
+    "id": "q-v-container",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Warum machte der genormte Container den Welthandel so viel billiger?",
+    "options": [
+      "Er lässt sich schnell zwischen Schiff, Bahn und Lkw umladen",
+      "Er schwimmt von selbst",
+      "Er braucht keinen Hafen",
+      "Er ist von Zöllen befreit"
+    ],
+    "correct_index": 0,
+    "explanation": "Früher wurde jede Kiste und jeder Sack einzeln verladen.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Logistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MSC_Paris_-_berthing_at_BCT_Gdynia,_Timelapse..webm",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why did the standardised container make world trade so much cheaper?",
+        "options": [
+          "It can be moved quickly between ship, rail and lorry",
+          "It floats by itself",
+          "It needs no port",
+          "It is exempt from customs duties"
+        ],
+        "explanation": "In the past every crate and sack was loaded individually."
+      }
+    }
+  },
+  {
+    "id": "q-v-fliessband",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was war eine Folge der Fließbandfertigung bei Ford?",
+    "options": [
+      "Autos wurden deutlich billiger",
+      "Autos wurden seltener",
+      "Jedes Auto war ein Einzelstück",
+      "Die Produktion wurde langsamer"
+    ],
+    "correct_index": 0,
+    "explanation": "Massenproduktion senkt die Kosten pro Stück – ein Grundprinzip vieler Geschäftsmodelle.",
+    "difficulty": 1,
+    "tags": [
+      "Industrie",
+      "Unternehmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Model_T_assembling_circa_1924.webm",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was one consequence of assembly-line production at Ford?",
+        "options": [
+          "Cars became much cheaper",
+          "Cars became rarer",
+          "Every car was one of a kind",
+          "Production became slower"
+        ],
+        "explanation": "Mass production lowers the cost per unit – a basic principle of many business models."
+      }
+    }
+  },
+  {
+    "id": "q-v-supermarkt",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was war das Neue am Selbstbedienungsladen?",
+    "options": [
+      "Es gab keine Preise mehr",
+      "Kunden nahmen die Ware selbst aus dem Regal",
+      "Man bezahlte erst im nächsten Monat",
+      "Alles wurde nach Hause geliefert"
+    ],
+    "correct_index": 1,
+    "explanation": "Vorher reichte ein Verkäufer jede Ware über die Theke.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Geschäftsmodell"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Internet Archive (Prelinger Archives)",
+    "source_url": "https://archive.org/details/Shopping1957",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was new about the self-service shop?",
+        "options": [
+          "There were no prices any more",
+          "Customers took the goods from the shelves themselves",
+          "You paid the following month",
+          "Everything was delivered to your home"
+        ],
+        "explanation": "Before that, a shop assistant handed every item over the counter."
+      }
+    }
+  },
+  {
+    "id": "q-v-buero",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Von welchem Gerät stammt die Tastenanordnung heutiger Computertastaturen?",
+    "options": [
+      "Vom Telegrafen",
+      "Von der Schreibmaschine",
+      "Von der Rechenmaschine",
+      "Vom Telefon"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Anordnung QWERTY entstand in den 1870er-Jahren.",
+    "difficulty": 1,
+    "tags": [
+      "Arbeit",
+      "Büro"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Internet Archive (Prelinger Archives)",
+    "source_url": "https://archive.org/details/OfficeEt1950",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which device does the key layout of today's computer keyboards come from?",
+        "options": [
+          "The telegraph",
+          "The typewriter",
+          "The calculating machine",
+          "The telephone"
+        ],
+        "explanation": "The QWERTY layout dates from the 1870s."
       }
     }
   }

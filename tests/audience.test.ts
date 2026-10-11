@@ -34,14 +34,14 @@ test("age levels: children only see cards made for them", () => {
   const kids = forAudience(content, "de", "6-9");
   assert.ok(kids.items.length >= 20);
   assert.ok(kids.items.every((i) => i.minAge === 6));
-  assert.equal(kids.clips.length, 0);
+  assert.deepEqual(kids.clips.map((c) => c.id).sort(), ["v-gepard", "v-keimung", "v-oktopus"]);
 });
 
 test("age levels: 10–12 sees children's cards plus level 10, nothing above", () => {
   const set = forAudience(content, "de", "10-12");
   assert.ok(set.items.some((i) => i.minAge === 6) && set.items.some((i) => i.minAge === 10));
   assert.ok(set.items.every((i) => i.minAge <= 10));
-  assert.equal(set.clips.length, 6);
+  assert.equal(set.clips.length, 31);
 });
 
 test("age levels: from 16 everything is shown except cards written only for children", () => {

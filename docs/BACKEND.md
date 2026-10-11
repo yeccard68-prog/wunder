@@ -161,15 +161,25 @@ Offen bis zur Store-Reife:
 
 ## 12. Clips
 
-- Veröffentlicht sind sechs Clips mit echtem NASA-Material (ISS bei Nacht, Start der Saturn V, Aldrin auf der Mondleiter, Mars-Hubschrauber Ingenuity als NASA-Animation, Sonne, Hurrikan Dorian). NASA-Material ist gemeinfrei; die App nennt Quelle und Lizenz.
-- Ein Clip ist ein Ausschnitt (`start_seconds`/`end_seconds`) einer Datei bei `images-assets.nasa.gov`. Die App lädt nur den benötigten Teil und spielt ihn stumm in Schleife; Untertitel und Lernsatz kommen aus dem Datensatz (Deutsch/Englisch).
-- Die Ausschnitte wurden anhand von Standbildern ausgewählt, nicht in voller Länge angesehen.
+- Veröffentlicht sind 31 Clips in sieben Themen, alle aus frei lizenziertem Material: NASA, Wikimedia Commons und Internet Archive (Prelinger). Zugelassen sind nur gemeinfrei, CC0, CC BY und CC BY-SA – nichts mit „NC" oder „ND". Quelle, Urheber und Lizenz stehen je Clip im Datensatz und in der App; bei CC-Material mit dem Hinweis „bearbeitet".
+- Die vollständige Quellenliste (Datei-URL, Quellseite, Urheber, Lizenz) liegt in `content/_batches/2026-10-clip-sources.json`.
+- Clips sind eigene Dateien unter `public/clips/` (720×1280, H.264, ohne Ton, je 0,4–3 MB, zusammen rund 45 MB) mit Vorschaubild. Kein Fremd-Hosting mehr.
+- Bauen: `npm run clips:build` (fehlende), `-- --force` (alle), `-- v-id` (einzelne). Braucht ffmpeg. Schnittangaben stehen je Clip unter `production` (`start`, `end`, `mode` crop/tall/wide, `x`, `cropBottom`, `loops`). Quellvideos werden in `scripts/clips/.cache` zwischengespeichert (nicht im Git).
+- Hilfen: `scripts/clips/find.mjs` (Suche in den drei Archiven), `scripts/clips/sheet.mjs` (Standbild-Übersicht einer Quelle).
+- Die Ausschnitte wurden anhand von Standbildern ausgewählt und geprüft, nicht in voller Länge angesehen.
 - Die sechs früheren Balken-Clips sind archiviert (`status = archived`), nicht gelöscht.
-- Vor einem öffentlichen Start: Ausschnitte als eigene kleine Dateien in einen eigenen Speicher legen (kein Fremd-Hosting, schnellerer Start, Vorschaubilder), Hochformat-Zuschnitt prüfen.
-- Higgsfield: Mit dem kostenlosen Konto (10 Credits) war kein Testvideo möglich – das günstigste Modell verlangt einen Bezahltarif, die übrigen kosten 12–15 Credits je 5 Sekunden.
+- Higgsfield: Mit dem kostenlosen Konto (10 Credits) war kein Testvideo möglich.
 
 ## 13. Inhalte erweitern (Stand)
 
-- 167 Feed-Karten (129 Multiple-Choice, 38 „Stimmt das?") + 12 Video-Quizfragen, je Thema 24–33 Karten, davon 20 Kinderkarten.
-- Erweiterungen kommen als Stapel: `content/_batches/<name>.mjs` → `node scripts/content/apply-batch.mjs <datei>` → `npm run content:check` → Import.
-- Größere Importe: statt die SQL-Datei von Hand einzufügen, kann ein Admin-Konto die Zeilen über die Schnittstelle hochladen (`node scripts/content/rows.mjs <datei>` erzeugt sie). Ein Admin-Bildschirm dafür fehlt noch.
+- 188 Feed-Karten + 37 Video-Quizfragen in sieben Themen (neu: Business, 21 Karten + 3 Clips).
+- Erweiterungen kommen als Stapel: `content/_batches/<name>.mjs` → `node scripts/content/apply-batch.mjs <datei>` → `npm run clips:build` → `npm run content:check` → Import.
+- Größere Importe: Ein Admin-Konto lädt die Zeilen über die Schnittstelle hoch (`node scripts/content/rows.mjs <datei>` erzeugt sie). Danach `npm run content:verify`: Prüfsummen lokal und in der Datenbank müssen gleich sein.
+
+## 14. Inhaltsprüfung
+
+- Prüfstatus je Frage und Clip: `unverified` → `ai_checked` (von der KI geschrieben und gegengeprüft) → `verified` (von einem Menschen freigegeben). Die Datenbank verbietet, dass Ungeprüftes veröffentlicht ist.
+- Aktuell ist alles `ai_checked`. `verified` setzt nur ein Mensch im Prüfbildschirm.
+- Meldungen: Melden drei verschiedene Lernende (mit je mindestens fünf beantworteten Fragen) denselben Inhalt, wechselt er automatisch auf `review` und verschwindet aus der App, bis ein Admin entschieden hat.
+- Prüfbildschirm: `/admin/` (Link im Profil, nur für Admins). Reiter „Gemeldet" und „Ungeprüft"; Freigeben (`verified`, wieder online, Meldungen gelöscht) oder Zurückziehen (`archived`). Dahinter steht die Server-Funktion `admin_review`.
+- Admin wird man nur über die Datenbank: `update profiles set is_admin = true where id = '<Nutzer-ID>'`.

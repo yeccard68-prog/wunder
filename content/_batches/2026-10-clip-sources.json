@@ -1,0 +1,392 @@
+{
+ "blitz": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Lightning_strikes_in_slow_motion_%28240fps%29_in_Muurame%2C_Finland.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Lightning_strikes_in_slow_motion_(240fps)_in_Muurame,_Finland.webm",
+  "w": 1080,
+  "h": 1920,
+  "duration": 8.108,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "MrNousia"
+ },
+ "polarlicht": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Alaskan_Aurora_Time_Lapse_%28SVS15077%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Alaskan_Aurora_Time_Lapse_(SVS15077).webm",
+  "w": 4240,
+  "h": 2832,
+  "duration": 24.341,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA's Scientific Visualization Studio - Amentum Services, Inc./Mike Toillion"
+ },
+ "keimung": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lentil_microgreens_growth_time_lapse.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Lentil_microgreens_growth_time_lapse.webm",
+  "w": 1620,
+  "h": 1080,
+  "duration": 10.744,
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "author": "Always Shooting"
+ },
+ "earthrise": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Earthrise.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Earthrise.ogv",
+  "w": 1920,
+  "h": 1080,
+  "duration": 70.83333333333333,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA/Goddard Space Flight Center"
+ },
+ "tacoma": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tacoma_Narrows_Bridge_destruction.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_Bridge_destruction.ogv",
+  "w": 640,
+  "h": 480,
+  "duration": 149.6495,
+  "license": "Public Domain",
+  "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+  "author": "Barney Elliot"
+ },
+ "druck3d": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Robot_3D_print_timelapse_on_RepRapPro_Fisher.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Robot_3D_print_timelapse_on_RepRapPro_Fisher.webm",
+  "w": 1280,
+  "h": 720,
+  "duration": 5.875,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "RepRapPro"
+ },
+ "titanic": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Titanic_Disaster_-_Genuine_Footage_%281911-1912%29%28enhanced%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Titanic_Disaster_-_Genuine_Footage_(1911-1912)(enhanced).webm",
+  "w": 622,
+  "h": 480,
+  "duration": 407.961,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "British Pathé"
+ },
+ "wright": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/First_flights_in_aviation_history.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:First_flights_in_aviation_history.ogv",
+  "w": 400,
+  "h": 288,
+  "duration": 82.11536666666667,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": ""
+ },
+ "lumiere": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:L%27Arriv%C3%A9e_d%27un_train_en_gare_de_La_Ciotat_(1897).webm",
+  "w": 1364,
+  "h": 1022,
+  "duration": 44.999,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "Auguste and Louis Lumière"
+ },
+ "roundhay": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Roundhay_Garden_Scene_%281888%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Roundhay_Garden_Scene_(1888).webm",
+  "w": 980,
+  "h": 720,
+  "duration": 1.667,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "Louis Le Prince"
+ },
+ "melies": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/Le_Voyage_dans_la_Lune_%281902%29.webm.480p.vp9.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm",
+  "w": 1440,
+  "h": 1080,
+  "duration": 766.042,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "Georges Méliès",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+ },
+ "orchester": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/Beethoven_Symphony_No._5%2C_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm/Beethoven_Symphony_No._5%2C_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm.480p.vp9.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Beethoven_Symphony_No._5,_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 440.181,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "University of Colorado Boulder College of Music",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/5/58/Beethoven_Symphony_No._5%2C_Mvmt_1_-_University_of_Colorado_Boulder_Symphony_Orchestra.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+ },
+ "buchdruck": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Printing_in_a_letterpress.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Printing_in_a_letterpress.webm",
+  "w": 1077,
+  "h": 606,
+  "duration": 27.169,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Subhashish Panigrahi"
+ },
+ "vulkan": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/007_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Video_by_Giles_Laurent.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:007_Volcano_eruption_of_Litli-Hr%C3%BAtur_in_Iceland_in_2023_Video_by_Giles_Laurent.webm",
+  "w": 3840,
+  "h": 2160,
+  "duration": 23.837,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Giles Laurent"
+ },
+ "gepard": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cheetahs_on_the_Edge_%28Director%27s_Cut%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Cheetahs_on_the_Edge_(Director%27s_Cut).webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 427.04200000000003,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Gregory Wilson (Director and cinematographer) (personal website)",
+  "orig": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cheetahs_on_the_Edge_%28Director%27s_Cut%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+ },
+ "oktopus": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sealife-Munich-Octopus-2.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Sealife-Munich-Octopus-2.ogv",
+  "w": 1920,
+  "h": 1080,
+  "duration": 29.28,
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "MartinThoma"
+ },
+ "bienen": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Waggle_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Waggle_Dance.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 27.564,
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "author": "OakleyOriginals"
+ },
+ "stare": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flock_of_starlings_%28Sturnus_vulgaris%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Flock_of_starlings_(Sturnus_vulgaris).webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 99.82600000000001,
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "author": "Karen Roe"
+ },
+ "banknoten": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/New_20_Euro_Banknotes_Printing_Production.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:New_20_Euro_Banknotes_Printing_Production.webm",
+  "w": 1280,
+  "h": 720,
+  "duration": 552.731,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "ECB euro"
+ },
+ "muenzen": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/West_Point_Quarters_B-Roll.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:West_Point_Quarters_B-Roll.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 95.941,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "USMINT"
+ },
+ "container": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/MSC_Paris_-_berthing_at_BCT_Gdynia%2C_Timelapse..webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:MSC_Paris_-_berthing_at_BCT_Gdynia,_Timelapse..webm",
+  "w": 1280,
+  "h": 720,
+  "duration": 45.345,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "PaSt Photo"
+ },
+ "fliessband": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Model_T_assembling_circa_1924.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Model_T_assembling_circa_1924.webm",
+  "w": 640,
+  "h": 480,
+  "duration": 242.904,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "Ford Motor Company"
+ },
+ "einkauf": {
+  "source": "Internet Archive (Prelinger Archives)",
+  "url": "https://archive.org/download/Shopping1957/Shopping1957.mp4",
+  "page": "https://archive.org/details/Shopping1957",
+  "w": 640,
+  "h": 480,
+  "duration": 1032.49,
+  "license": "Public domain",
+  "licenseUrl": "http://creativecommons.org/licenses/publicdomain/",
+  "author": "Hillsdale Shopping Center",
+  "title": "Shopping Can Be Fun: A New Concept in Merchandising",
+  "allFiles": [
+   "Shopping1957.mp4 107061854",
+   "Shopping1957.mpeg 476830035",
+   "Shopping1957.ogv 73393549",
+   "Shopping1957_512kb.mp4 72707524",
+   "Shopping1957_edit.mp4 255785637"
+  ]
+ },
+ "buero": {
+  "source": "Internet Archive (Prelinger Archives)",
+  "url": "https://archive.org/download/OfficeEt1950/OfficeEt1950_edit.mp4",
+  "page": "https://archive.org/details/OfficeEt1950",
+  "w": 320,
+  "h": 240,
+  "duration": 794.99,
+  "license": "Public domain",
+  "licenseUrl": "http://creativecommons.org/licenses/publicdomain/",
+  "author": "N/A",
+  "title": "Office Etiquette",
+  "allFiles": [
+   "OfficeEt1950.mp4 82888416",
+   "OfficeEt1950.mpeg 367181294",
+   "OfficeEt1950.ogv 56552305",
+   "OfficeEt1950_512kb.mp4 55991859",
+   "OfficeEt1950_edit.mp4 131626609"
+  ]
+ },
+ "mars": {
+  "source": "NASA Image and Video Library",
+  "url": "https://images-assets.nasa.gov/video/JPL-20210222-M2020f-0001-Perseverance%20Rover%E2%80%99s%20Descent%20and%20Touchdown%20on%20Mars/JPL-20210222-M2020f-0001-Perseverance%20Rover%E2%80%99s%20Descent%20and%20Touchdown%20on%20Mars~large.mp4",
+  "page": "https://images.nasa.gov/details/JPL-20210222-M2020f-0001-Perseverance%20Rover%E2%80%99s%20Descent%20and%20Touchdown%20on%20Mars",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA",
+  "renditions": [
+   "orig.mp4",
+   "large.mp4",
+   "medium.mp4",
+   "mobile.mp4",
+   "preview.mp4",
+   "small.mp4"
+  ]
+ },
+ "iss-nacht": {
+  "source": "NASA Image and Video Library",
+  "url": "https://images-assets.nasa.gov/video/GSFC_20180124_m12825_ISS_Airglow/GSFC_20180124_m12825_ISS_Airglow~orig.mp4",
+  "page": "https://images.nasa.gov/details/GSFC_20180124_m12825_ISS_Airglow",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA",
+  "renditions": [
+   "orig.mp4",
+   "medium.mp4",
+   "mobile.mp4",
+   "preview.mp4",
+   "small.mp4"
+  ]
+ },
+ "saturn-v": {
+  "source": "NASA Image and Video Library",
+  "url": "https://images-assets.nasa.gov/video/Apollo_11_Intro_720p/Apollo_11_Intro_720p~medium.mp4",
+  "page": "https://images.nasa.gov/details/Apollo_11_Intro_720p",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA",
+  "renditions": [
+   "medium.mp4",
+   "mobile.mp4",
+   "preview.mp4",
+   "small.mp4"
+  ]
+ },
+ "aldrin": {
+  "source": "NASA Image and Video Library",
+  "url": "https://images-assets.nasa.gov/video/Buzz_Descends_Comparison__720p/Buzz_Descends_Comparison__720p~medium.mp4",
+  "page": "https://images.nasa.gov/details/Buzz_Descends_Comparison__720p",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA",
+  "renditions": [
+   "medium.mp4",
+   "mobile.mp4",
+   "preview.mp4",
+   "small.mp4"
+  ]
+ },
+ "ingenuity": {
+  "source": "NASA Image and Video Library",
+  "url": "https://images-assets.nasa.gov/video/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation~large.mp4",
+  "page": "https://images.nasa.gov/details/JPL-20200429-TECHf-0002-Mars%20Helicopter%20Animation",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA",
+  "renditions": [
+   "orig.mp4",
+   "large.mp4",
+   "medium.mp4",
+   "mobile.mp4",
+   "preview.mp4",
+   "small.mp4"
+  ]
+ },
+ "sonne": {
+  "source": "NASA Image and Video Library",
+  "url": "https://images-assets.nasa.gov/video/GSFC_20160212_SDO_m12144_Year6/GSFC_20160212_SDO_m12144_Year6~large.mp4",
+  "page": "https://images.nasa.gov/details/GSFC_20160212_SDO_m12144_Year6",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA",
+  "renditions": [
+   "orig.mp4",
+   "large.mp4",
+   "medium.mp4",
+   "mobile.mp4",
+   "preview.mp4",
+   "small.mp4"
+  ]
+ },
+ "hurrikan": {
+  "source": "NASA Image and Video Library",
+  "url": "https://images-assets.nasa.gov/video/jsc2019m000805_Hurricane_Dorian_190901/jsc2019m000805_Hurricane_Dorian_190901~large.mp4",
+  "page": "https://images.nasa.gov/details/jsc2019m000805_Hurricane_Dorian_190901",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "NASA",
+  "renditions": [
+   "orig.mp4",
+   "large.mp4",
+   "medium.mp4",
+   "mobile.mp4",
+   "preview.mp4",
+   "small.mp4"
+  ]
+ }
+}

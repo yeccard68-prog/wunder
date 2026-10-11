@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Award, Bookmark, ChevronRight, Clapperboard, Lock, Settings, Share2 } from "lucide-react";
+import { Award, Bookmark, ChevronRight, Clapperboard, Lock, Settings, Share2, ShieldCheck } from "lucide-react";
 
 import Account from "@/components/Account";
 import KnowledgeCard from "@/components/KnowledgeCard";
@@ -12,6 +12,7 @@ import { ACHIEVEMENTS, leagueFor, levelInfo, liveStreak, mastery, stats } from "
 import { AGE_BANDS } from "@/lib/content";
 import { LOCALES } from "@/lib/i18n";
 import { useStore, useT } from "@/lib/store";
+import { isAdmin } from "@/lib/supabase";
 import type { Theme } from "@/lib/types";
 
 function Stat({ label, value }: { label: string; value: string | number }) {
@@ -28,6 +29,10 @@ export default function ProfilePage() {
   const t = useT();
   const [sheet, setSheet] = useState<"settings" | "saved" | null>(null);
   const [confirm, setConfirm] = useState(false);
+  const [admin, setAdmin] = useState(false);
+  useEffect(() => {
+    isAdmin().then(setAdmin).catch(() => {});
+  }, []);
   const lvl = levelInfo(state.xp);
   const s = stats(state);
   const saved = items.filter((i) => state.saves.includes(i.id));
@@ -117,6 +122,14 @@ export default function ProfilePage() {
         <span className="tnum text-sm text-muted">{saved.length + savedClips.length}</span>
         <ChevronRight size={18} className="text-muted" />
       </button>
+
+      {admin && (
+        <Link href="/admin/" className="press card flex w-full items-center gap-3 p-4">
+          <ShieldCheck size={19} />
+          <span className="flex-1 font-semibold">{t("Inhalte prüfen")}</span>
+          <ChevronRight size={18} className="text-muted" />
+        </Link>
+      )}
 
       <Button variant="secondary" className="w-full" onClick={() => share(t("Ich bin Level {level} auf Wunder – {xp} XP, {days} Tage Streak. Mach mit!", { level: lvl.level, xp: state.xp, days: liveStreak(state) }))}>
         <Share2 size={17} /> {t("Profil teilen")}

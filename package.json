@@ -12,7 +12,8 @@
     "content:check": "node scripts/content/import.mjs --check",
     "content:import": "node scripts/content/import.mjs",
     "test": "tsx --test tests/*.test.ts",
-    "content:verify": "node scripts/content/fingerprint.mjs"
+    "content:verify": "node scripts/content/fingerprint.mjs",
+    "clips:build": "node scripts/clips/build.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.3",

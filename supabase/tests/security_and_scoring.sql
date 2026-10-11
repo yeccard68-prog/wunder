@@ -20,9 +20,9 @@ begin
   begin
     perform set_config('request.jwt.claims', '{"role":"anon"}', true); set local role anon;
     select count(*) into n from public.questions;
-    out := out || (case when n = 179 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published questions, no drafts');
+    out := out || (case when n = 225 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published questions, no drafts');
     select (select count(*) from public.categories) + (select count(*) from public.videos) into n;
-    out := out || (case when n = 12 then 'ok' else 'FAIL (' || n || ')' end || ' 03 anon reads categories and published videos');
+    out := out || (case when n = 38 then 'ok' else 'FAIL (' || n || ')' end || ' 03 anon reads categories and published videos');
   end;
   reset role;
   begin
@@ -230,6 +230,50 @@ begin
     out := out || (case when n = 1 then 'ok' else 'FAIL' end || ' 45 an admin can maintain the answer key');
   end;
   reset role;
+
+  -- ---------- content review: reports and admin decisions ----------
+  declare
+    u uuid[] := array[gen_random_uuid(), gen_random_uuid(), gen_random_uuid(), gen_random_uuid()];
+    s text;
+  begin
+    insert into auth.users (id, aud, role, email) select x, 'authenticated', 'authenticated', 'r-' || x || '@test.invalid' from unnest(u) x;
+    -- three active learners (5 answered questions each), one throw-away account
+    insert into public.daily_activity (user_id, activity_date, answered_count) select x, today, 5 from unnest(u[1:3]) x;
+    insert into public.question_reactions (user_id, question_id, reported) values (u[4], 's5', true), (u[1], 's5', true), (u[2], 's5', true);
+    select status into s from public.questions where id = 's5';
+    out := out || (case when s = 'published' then 'ok' else 'FAIL (' || s || ')' end || ' 50 two valid reports (plus one from an inactive account) leave a question online');
+    insert into public.question_reactions (user_id, question_id, reported) values (u[3], 's5', true);
+    select status into s from public.questions where id = 's5';
+    select report_count into n from public.questions where id = 's5';
+    out := out || (case when s = 'review' and n = 3 then 'ok' else 'FAIL (' || s || ', ' || n || ')' end || ' 51 the third valid report moves the question to review');
+    perform set_config('request.jwt.claims', '{"role":"anon"}', true); set local role anon;
+    select count(*) into n from public.questions where id = 's5';
+    reset role;
+    out := out || (case when n = 0 then 'ok' else 'FAIL' end || ' 52 a question under review is no longer visible in the app');
+
+    insert into public.video_progress (user_id, video_id, reported) select x, 'v-sonne', true from unnest(u[1:3]) x;
+    select status into s from public.videos where id = 'v-sonne';
+    out := out || (case when s = 'review' then 'ok' else 'FAIL (' || s || ')' end || ' 53 three valid reports move a clip to review');
+
+    perform set_config('request.jwt.claims', jsonb_build_object('sub', b, 'role', 'authenticated')::text, true);
+    begin set local role authenticated; perform public.admin_review('question', 's5', 'approve'); out := out || 'FAIL 54 a normal user decided a review'::text;
+    exception when insufficient_privilege then out := out || 'ok 54 only admins can decide a review'::text; end;
+    reset role;
+
+    perform set_config('request.jwt.claims', jsonb_build_object('sub', a, 'role', 'authenticated')::text, true);
+    set local role authenticated;
+    perform public.admin_review('question', 's5', 'approve', 'geprüft');
+    perform public.admin_review('video', 'v-sonne', 'withdraw', 'zurückgezogen');
+    reset role;
+    select status || '/' || verification_status || '/' || report_count into s from public.questions where id = 's5';
+    out := out || (case when s = 'published/verified/0' then 'ok' else 'FAIL (' || s || ')' end || ' 55 approving puts the question back online as verified and clears the reports');
+    select status into s from public.videos where id = 'v-sonne';
+    out := out || (case when s = 'archived' then 'ok' else 'FAIL (' || s || ')' end || ' 56 withdrawing takes the clip offline for good');
+    begin
+      update public.questions set verification_status = 'unverified' where id = 's6';
+      out := out || 'FAIL 57 unchecked content could stay published'::text;
+    exception when check_violation then out := out || 'ok 57 published content can never be unchecked'::text; end;
+  end;
 
   raise exception E'TEST RESULTS (everything rolled back)\n%', array_to_string(out, E'\n');
 end $$;

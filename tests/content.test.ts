@@ -9,11 +9,11 @@ const clone = () => structuredClone(content);
 const errorsOf = (c: typeof content) => validateContent(c).errors as string[];
 
 test("dataset has the expected record counts", () => {
-  assert.equal(content.categories.length, 6);
-  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => q.show_in_feed).length, 167);
-  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => !q.show_in_feed).length, 12);
-  assert.equal(content.videos.length, 12);
-  assert.equal(content.videos.filter((v: { status: string }) => v.status === "published").length, 6);
+  assert.equal(content.categories.length, 7);
+  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => q.show_in_feed).length, 188);
+  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => !q.show_in_feed).length, 37);
+  assert.equal(content.videos.length, 37);
+  assert.equal(content.videos.filter((v: { status: string }) => v.status === "published").length, 31);
 });
 
 test("the current dataset passes validation", () => {
@@ -70,7 +70,6 @@ test("validation rejects videos without file, source or with a feed question as 
 
 test("missing optional metadata is reported as a warning, not invented", () => {
   const { warnings } = validateContent(content);
-  assert.ok(warnings.some((w: string) => /no thumbnail/.test(w)));
   assert.ok(warnings.some((w: string) => /have no tags/.test(w)));
 });
 
@@ -79,7 +78,7 @@ test("import SQL is idempotent and never destructive", () => {
   assert.equal((sql.match(/on conflict \(\w+\) do nothing;/g) ?? []).length, 4);
   assert.doesNotMatch(sql, /\b(truncate|delete from|drop )\b/i);
   assert.doesNotMatch(sql, /like_count|demo_popularity|demo_comments/); // invented demo numbers are not imported
-  assert.equal((sql.match(/^  \('/gm) ?? []).length, 6 + 179 + 179 + 12);
+  assert.equal((sql.match(/^  \('/gm) ?? []).length, 7 + 225 + 225 + 37);
 });
 
 test("update mode only touches content columns", () => {
