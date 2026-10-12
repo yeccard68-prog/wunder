@@ -14523,5 +14523,122 @@
         "explanation": "The President is elected by the Federal Convention: all members of the Bundestag and an equal number of representatives of the federal states."
       }
     }
+  },
+  {
+    "id": "qa-emotor",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was sorgt in einem einfachen Gleichstrommotor dafür, dass sich die Spule immer weiterdreht?",
+    "options": [
+      "Der Stromwender polt den Strom im richtigen Moment um",
+      "Ein schweres Schwungrad",
+      "Die Schwerkraft",
+      "Ein zweiter, kleinerer Motor"
+    ],
+    "correct_index": 0,
+    "explanation": "Ohne das Umpolen würden die Kräfte die Spule nach einer halben Drehung wieder zurückziehen.",
+    "difficulty": 2,
+    "tags": [
+      "Energie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kommutator (Elektrotechnik)",
+    "source_url": "https://de.wikipedia.org/wiki/Kommutator_(Elektrotechnik)",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes the coil in a simple DC motor keep turning?",
+        "options": [
+          "The commutator reverses the current at the right moment",
+          "A heavy flywheel",
+          "Gravity",
+          "A second, smaller motor"
+        ],
+        "explanation": "Without the reversal, the forces would pull the coil back again after half a turn."
+      }
+    }
+  },
+  {
+    "id": "qa-nn",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was wird beim Training eines neuronalen Netzes angepasst?",
+    "options": [
+      "Die Zahl der Bildpunkte",
+      "Die Gewichte der Verbindungen",
+      "Die Geschwindigkeit des Prozessors",
+      "Die Trainingsbeispiele"
+    ],
+    "correct_index": 1,
+    "explanation": "Jedes Gewicht wird nach jedem Fehler ein kleines Stück korrigiert – über sehr viele Beispiele hinweg.",
+    "difficulty": 2,
+    "tags": [
+      "Künstliche Intelligenz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Künstliches neuronales Netz",
+    "source_url": "https://de.wikipedia.org/wiki/Künstliches_neuronales_Netz",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is adjusted when a neural network is trained?",
+        "options": [
+          "The number of pixels",
+          "The weights of the connections",
+          "The speed of the processor",
+          "The training examples"
+        ],
+        "explanation": "Every weight is corrected a little after each error – over a great many examples."
+      }
+    }
+  },
+  {
+    "id": "qa-stern",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was muss im Inneren eines Protosterns einsetzen, damit er zum Stern wird?",
+    "options": [
+      "Die Spaltung von Uran",
+      "Eine chemische Verbrennung",
+      "Die Kernfusion von Wasserstoff zu Helium",
+      "Das Abkühlen auf den absoluten Nullpunkt"
+    ],
+    "correct_index": 2,
+    "explanation": "Dafür muss es im Zentrum etwa zehn Millionen Grad heiß werden.",
+    "difficulty": 2,
+    "tags": [
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sternentstehung",
+    "source_url": "https://de.wikipedia.org/wiki/Sternentstehung",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What has to start inside a protostar for it to become a star?",
+        "options": [
+          "The fission of uranium",
+          "Chemical combustion",
+          "The nuclear fusion of hydrogen into helium",
+          "Cooling down to absolute zero"
+        ],
+        "explanation": "For this, the centre has to reach about ten million degrees."
+      }
+    }
   }
 ]

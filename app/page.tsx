@@ -8,11 +8,13 @@ import { Button, Empty, Ring, Segmented } from "@/components/ui";
 import { dailyCount, dueReviews, goalQuestions, today } from "@/lib/gamification";
 import { rankFollowing, rankForYou } from "@/lib/ranking";
 import { animationsFor } from "@/lib/animations";
+import { rankClips } from "@/lib/clips";
+import { asEntries, mixFeed } from "@/lib/feed";
 import { isChild } from "@/lib/content";
 import { useStore, useT } from "@/lib/store";
 
 export default function HomePage() {
-  const { items, state, getState, setLaunch } = useStore();
+  const { items, clips, state, getState, setLaunch } = useStore();
   const router = useRouter();
   const t = useT();
   const [tab, setTab] = useState<"foryou" | "following">("foryou");
@@ -28,7 +30,10 @@ export default function HomePage() {
   const due = dueReviews(items, state).length;
   const goal = goalQuestions(state.goalMinutes);
   const count = dailyCount(state);
-  const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand).length, [state.settings.locale, state.ageBand]);
+  const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
+  // One feed for everything: clips and animations are woven into the question cards.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState()), [forYou, clips, animations]);
   const start = (mode: "daily" | "review") => {
     setLaunch({ mode });
     router.push("/quiz/");
@@ -64,14 +69,14 @@ export default function HomePage() {
         </button>
       )}
 
-      {animations > 0 && (
+      {animations.length > 0 && (
         <button onClick={() => router.push("/explain/")} className="press card flex w-full items-center gap-3 p-4 text-left">
           <span className="flex h-10 w-10 items-center justify-center rounded-full bg-raised">
             <Shapes size={18} />
           </span>
           <span className="flex-1 text-sm">
             <span className="block font-semibold">{t("So funktioniert’s")}</span>
-            <span className="text-muted">{t("{n} Animationen: Herz, Motor, Gewitter und mehr", { n: animations })}</span>
+            <span className="text-muted">{t("{n} Animationen zum Durchklicken", { n: animations.length })}</span>
           </span>
           <ArrowRight size={18} className="text-muted" />
         </button>
@@ -80,9 +85,9 @@ export default function HomePage() {
       {!child && <Segmented value={tab} onChange={setTab} options={[{ value: "foryou", label: t("Für dich") }, { value: "following", label: t("Folge ich") }]} />}
 
       {tab === "foryou" ? (
-        forYou.length ? <Feed key="fy" entries={forYou} /> : <Empty title={t("Alles entdeckt")} text={t("Du hast jede Karte gesehen. Neue Inhalte sind unterwegs.")} />
+        feed.length ? <Feed key="fy" entries={feed} /> : <Empty title={t("Alles entdeckt")} text={t("Du hast jede Karte gesehen. Neue Inhalte sind unterwegs.")} />
       ) : following.length ? (
-        <Feed key="fo" entries={following} />
+        <Feed key="fo" entries={asEntries(following)} />
       ) : (
         <Empty icon={<Users size={22} />} title={t("Noch niemand hier")} text={t("Folge Leuten, um zu sehen, welche Karten ihnen gefallen.")}>
           <Button onClick={() => router.push("/social/")}>{t("Leute entdecken")}</Button>

@@ -353,5 +353,9 @@
   "Pause": "Pause",
   "Mathe & Logik": "Maths & Logic",
   "Zahlen, Formen und knifflige Schlüsse": "Numbers, shapes and tricky reasoning",
-  "Deutsch, Englisch und wie Sprache funktioniert": "German, English and how language works"
+  "Deutsch, Englisch und wie Sprache funktioniert": "German, English and how language works",
+  "Clip": "Clip",
+  "Frage zum Clip": "Question about the clip",
+  "Frage zum Clip ansehen": "View the question about the clip",
+  "{n} Animationen zum Durchklicken": "{n} animations to step through"
 }

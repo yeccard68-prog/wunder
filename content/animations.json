@@ -10,14 +10,38 @@
     "title": "Wie das Herz Blut pumpt",
     "summary": "Zwei Pumpen in einem Organ: eine für die Lunge, eine für den Körper.",
     "goal": "Du kannst den Weg des Blutes durch die vier Herzräume beschreiben und erklären, wozu die Herzklappen da sind.",
-    "labels": ["Lunge", "Körper", "Rechter Vorhof", "Rechte Kammer", "Linker Vorhof", "Linke Kammer"],
-    "steps": [
-      { "text": "Das Herz hat zwei Hälften. Rechts kommt sauerstoffarmes Blut (blau) aus dem Körper an, links sauerstoffreiches (rot) aus der Lunge. Es sammelt sich in den Vorhöfen.", "seconds": 7 },
-      { "text": "Die Vorhöfe ziehen sich zusammen. Die Klappen zu den Kammern öffnen sich, das Blut strömt nach unten in die Kammern.", "seconds": 6 },
-      { "text": "Jetzt ziehen sich die Kammern zusammen. Die Klappen zu den Vorhöfen schließen – nichts fließt zurück. Die rechte Kammer pumpt zur Lunge, die linke in den Körper.", "seconds": 7 },
-      { "text": "In der Lunge nimmt das Blut Sauerstoff auf, im Körper gibt es ihn ab. Dieser Kreislauf wiederholt sich mit jedem Herzschlag – rund 100.000 Mal am Tag.", "seconds": 9 }
+    "labels": [
+      "Lunge",
+      "Körper",
+      "Rechter Vorhof",
+      "Rechte Kammer",
+      "Linker Vorhof",
+      "Linke Kammer"
     ],
-    "sources": [{ "name": "Wikipedia: Herz", "url": "https://de.wikipedia.org/wiki/Herz" }],
+    "steps": [
+      {
+        "text": "Das Herz hat zwei Hälften. Rechts kommt sauerstoffarmes Blut (blau) aus dem Körper an, links sauerstoffreiches (rot) aus der Lunge. Es sammelt sich in den Vorhöfen.",
+        "seconds": 7
+      },
+      {
+        "text": "Die Vorhöfe ziehen sich zusammen. Die Klappen zu den Kammern öffnen sich, das Blut strömt nach unten in die Kammern.",
+        "seconds": 6
+      },
+      {
+        "text": "Jetzt ziehen sich die Kammern zusammen. Die Klappen zu den Vorhöfen schließen – nichts fließt zurück. Die rechte Kammer pumpt zur Lunge, die linke in den Körper.",
+        "seconds": 7
+      },
+      {
+        "text": "In der Lunge nimmt das Blut Sauerstoff auf, im Körper gibt es ihn ab. Dieser Kreislauf wiederholt sich mit jedem Herzschlag – rund 100.000 Mal am Tag.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Herz",
+        "url": "https://de.wikipedia.org/wiki/Herz"
+      }
+    ],
     "quiz_question_id": "qa-herz",
     "verification_status": "ai_checked",
     "status": "published",
@@ -27,7 +51,14 @@
         "title": "How the heart pumps blood",
         "summary": "Two pumps in one organ: one for the lungs, one for the body.",
         "goal": "You can describe the path of blood through the four chambers of the heart and explain what the valves are for.",
-        "labels": ["Lungs", "Body", "Right atrium", "Right ventricle", "Left atrium", "Left ventricle"],
+        "labels": [
+          "Lungs",
+          "Body",
+          "Right atrium",
+          "Right ventricle",
+          "Left atrium",
+          "Left ventricle"
+        ],
         "steps": [
           "The heart has two halves. Oxygen-poor blood (blue) arrives on the right from the body, oxygen-rich blood (red) on the left from the lungs. It collects in the atria.",
           "The atria contract. The valves to the ventricles open and the blood flows down into the ventricles.",
@@ -48,14 +79,41 @@
     "title": "Wie ein Benzinmotor arbeitet",
     "summary": "Ansaugen, verdichten, arbeiten, ausstoßen – vier Takte, von denen nur einer Kraft liefert.",
     "goal": "Du kannst die vier Takte eines Benzinmotors in der richtigen Reihenfolge erklären.",
-    "labels": ["Einlassventil", "Auslassventil", "Zündkerze", "Kolben", "Kurbelwelle", "1. Ansaugen", "2. Verdichten", "3. Arbeiten", "4. Ausstoßen"],
-    "steps": [
-      { "text": "Ansaugen: Der Kolben fährt nach unten, das Einlassventil ist offen. Ein Gemisch aus Luft und Benzin strömt in den Zylinder.", "seconds": 6 },
-      { "text": "Verdichten: Beide Ventile sind geschlossen. Der Kolben fährt nach oben und presst das Gemisch auf engem Raum zusammen.", "seconds": 6 },
-      { "text": "Arbeiten: Die Zündkerze zündet. Das brennende Gas dehnt sich schlagartig aus und drückt den Kolben nach unten – nur dieser Takt liefert Kraft.", "seconds": 7 },
-      { "text": "Ausstoßen: Das Auslassventil öffnet sich, der Kolben schiebt die Abgase hinaus. Die Kurbelwelle hat sich zweimal gedreht – und alles beginnt von vorn.", "seconds": 7 }
+    "labels": [
+      "Einlassventil",
+      "Auslassventil",
+      "Zündkerze",
+      "Kolben",
+      "Kurbelwelle",
+      "1. Ansaugen",
+      "2. Verdichten",
+      "3. Arbeiten",
+      "4. Ausstoßen"
     ],
-    "sources": [{ "name": "Wikipedia: Viertaktmotor", "url": "https://de.wikipedia.org/wiki/Viertaktmotor" }],
+    "steps": [
+      {
+        "text": "Ansaugen: Der Kolben fährt nach unten, das Einlassventil ist offen. Ein Gemisch aus Luft und Benzin strömt in den Zylinder.",
+        "seconds": 6
+      },
+      {
+        "text": "Verdichten: Beide Ventile sind geschlossen. Der Kolben fährt nach oben und presst das Gemisch auf engem Raum zusammen.",
+        "seconds": 6
+      },
+      {
+        "text": "Arbeiten: Die Zündkerze zündet. Das brennende Gas dehnt sich schlagartig aus und drückt den Kolben nach unten – nur dieser Takt liefert Kraft.",
+        "seconds": 7
+      },
+      {
+        "text": "Ausstoßen: Das Auslassventil öffnet sich, der Kolben schiebt die Abgase hinaus. Die Kurbelwelle hat sich zweimal gedreht – und alles beginnt von vorn.",
+        "seconds": 7
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Viertaktmotor",
+        "url": "https://de.wikipedia.org/wiki/Viertaktmotor"
+      }
+    ],
     "quiz_question_id": "qa-motor",
     "verification_status": "ai_checked",
     "status": "published",
@@ -65,7 +123,17 @@
         "title": "How a petrol engine works",
         "summary": "Intake, compression, power, exhaust – four strokes, only one of which delivers power.",
         "goal": "You can explain the four strokes of a petrol engine in the right order.",
-        "labels": ["Intake valve", "Exhaust valve", "Spark plug", "Piston", "Crankshaft", "1. Intake", "2. Compression", "3. Power", "4. Exhaust"],
+        "labels": [
+          "Intake valve",
+          "Exhaust valve",
+          "Spark plug",
+          "Piston",
+          "Crankshaft",
+          "1. Intake",
+          "2. Compression",
+          "3. Power",
+          "4. Exhaust"
+        ],
         "steps": [
           "Intake: the piston moves down and the intake valve is open. A mixture of air and petrol flows into the cylinder.",
           "Compression: both valves are closed. The piston moves up and squeezes the mixture into a small space.",
@@ -86,14 +154,37 @@
     "title": "Wie ein Gewitter entsteht",
     "summary": "Von warmer Luft über einen Wolkenturm bis zum Blitz.",
     "goal": "Du kannst erklären, warum sich eine Gewitterwolke elektrisch auflädt und was ein Blitz ist.",
-    "labels": ["Warme, feuchte Luft steigt auf", "Eiskristalle", "Graupel", "Blitz: bis zu 30.000 °C", "über 10 km hoch"],
-    "steps": [
-      { "text": "Die Sonne erwärmt den Boden. Warme, feuchte Luft ist leichter als ihre Umgebung und steigt auf. Oben kühlt sie ab, der Wasserdampf kondensiert: Eine Wolke entsteht.", "seconds": 7 },
-      { "text": "Steigt immer mehr Luft nach, wächst die Wolke zu einem Turm, der mehr als zehn Kilometer hoch sein kann. Oben ist es so kalt, dass sich Eiskristalle und Graupel bilden.", "seconds": 7 },
-      { "text": "Im Aufwind stoßen Eiskristalle und Graupel zusammen und laden sich dabei auf. Die leichten Kristalle tragen positive Ladung nach oben, der schwere Graupel sammelt negative Ladung unten.", "seconds": 8 },
-      { "text": "Wird die Spannung zu groß, gleicht sie sich schlagartig aus: ein Blitz. Er erhitzt die Luft auf bis zu 30.000 Grad – sie dehnt sich explosionsartig aus, und das hören wir als Donner.", "seconds": 8 }
+    "labels": [
+      "Warme, feuchte Luft steigt auf",
+      "Eiskristalle",
+      "Graupel",
+      "Blitz: bis zu 30.000 °C",
+      "über 10 km hoch"
     ],
-    "sources": [{ "name": "Wikipedia: Gewitter", "url": "https://de.wikipedia.org/wiki/Gewitter" }],
+    "steps": [
+      {
+        "text": "Die Sonne erwärmt den Boden. Warme, feuchte Luft ist leichter als ihre Umgebung und steigt auf. Oben kühlt sie ab, der Wasserdampf kondensiert: Eine Wolke entsteht.",
+        "seconds": 7
+      },
+      {
+        "text": "Steigt immer mehr Luft nach, wächst die Wolke zu einem Turm, der mehr als zehn Kilometer hoch sein kann. Oben ist es so kalt, dass sich Eiskristalle und Graupel bilden.",
+        "seconds": 7
+      },
+      {
+        "text": "Im Aufwind stoßen Eiskristalle und Graupel zusammen und laden sich dabei auf. Die leichten Kristalle tragen positive Ladung nach oben, der schwere Graupel sammelt negative Ladung unten.",
+        "seconds": 8
+      },
+      {
+        "text": "Wird die Spannung zu groß, gleicht sie sich schlagartig aus: ein Blitz. Er erhitzt die Luft auf bis zu 30.000 Grad – sie dehnt sich explosionsartig aus, und das hören wir als Donner.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Gewitter",
+        "url": "https://de.wikipedia.org/wiki/Gewitter"
+      }
+    ],
     "quiz_question_id": "qa-gewitter",
     "verification_status": "ai_checked",
     "status": "published",
@@ -103,7 +194,13 @@
         "title": "How a thunderstorm forms",
         "summary": "From warm air to a towering cloud to lightning.",
         "goal": "You can explain why a thundercloud becomes electrically charged and what lightning is.",
-        "labels": ["Warm, moist air rises", "Ice crystals", "Graupel", "Lightning: up to 30,000 °C", "over 10 km high"],
+        "labels": [
+          "Warm, moist air rises",
+          "Ice crystals",
+          "Graupel",
+          "Lightning: up to 30,000 °C",
+          "over 10 km high"
+        ],
         "steps": [
           "The Sun warms the ground. Warm, moist air is lighter than its surroundings and rises. Higher up it cools and the water vapour condenses: a cloud forms.",
           "As more and more air follows, the cloud grows into a tower that can be more than ten kilometres high. At the top it is so cold that ice crystals and graupel (soft hail) form.",
@@ -124,14 +221,38 @@
     "title": "Wie eine Batterie Strom liefert",
     "summary": "Chemische Energie wird zu elektrischem Strom – außen fließen Elektronen, innen Ionen.",
     "goal": "Du kannst erklären, warum Strom nur fließt, wenn der Stromkreis geschlossen ist, und was im Inneren der Batterie passiert.",
-    "labels": ["Minuspol", "Pluspol", "Elektrolyt", "Elektronen", "Ionen", "Lampe"],
-    "steps": [
-      { "text": "Eine Batterie speichert Energie chemisch. Sie hat zwei Pole aus unterschiedlichen Materialien. Dazwischen liegt der Elektrolyt, eine Substanz, die geladene Teilchen leitet.", "seconds": 7 },
-      { "text": "Am Minuspol läuft eine chemische Reaktion ab, die Elektronen freisetzt. Sie stauen sich dort – so entsteht die Spannung zwischen den Polen.", "seconds": 7 },
-      { "text": "Verbindet ein Draht die beiden Pole, wandern die Elektronen vom Minuspol durch den Draht zum Pluspol. Unterwegs bringen sie die Lampe zum Leuchten.", "seconds": 7 },
-      { "text": "Im Inneren gleichen Ionen die Ladung aus: Sie wandern durch den Elektrolyten. Erst dadurch ist der Stromkreis geschlossen. Sind die Stoffe an den Polen verbraucht, ist die Batterie leer.", "seconds": 8 }
+    "labels": [
+      "Minuspol",
+      "Pluspol",
+      "Elektrolyt",
+      "Elektronen",
+      "Ionen",
+      "Lampe"
     ],
-    "sources": [{ "name": "Wikipedia: Batterie (Elektrotechnik)", "url": "https://de.wikipedia.org/wiki/Batterie_(Elektrotechnik)" }],
+    "steps": [
+      {
+        "text": "Eine Batterie speichert Energie chemisch. Sie hat zwei Pole aus unterschiedlichen Materialien. Dazwischen liegt der Elektrolyt, eine Substanz, die geladene Teilchen leitet.",
+        "seconds": 7
+      },
+      {
+        "text": "Am Minuspol läuft eine chemische Reaktion ab, die Elektronen freisetzt. Sie stauen sich dort – so entsteht die Spannung zwischen den Polen.",
+        "seconds": 7
+      },
+      {
+        "text": "Verbindet ein Draht die beiden Pole, wandern die Elektronen vom Minuspol durch den Draht zum Pluspol. Unterwegs bringen sie die Lampe zum Leuchten.",
+        "seconds": 7
+      },
+      {
+        "text": "Im Inneren gleichen Ionen die Ladung aus: Sie wandern durch den Elektrolyten. Erst dadurch ist der Stromkreis geschlossen. Sind die Stoffe an den Polen verbraucht, ist die Batterie leer.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Batterie (Elektrotechnik)",
+        "url": "https://de.wikipedia.org/wiki/Batterie_(Elektrotechnik)"
+      }
+    ],
     "quiz_question_id": "qa-batterie",
     "verification_status": "ai_checked",
     "status": "published",
@@ -141,7 +262,14 @@
         "title": "How a battery delivers electricity",
         "summary": "Chemical energy becomes electric current – electrons flow outside, ions inside.",
         "goal": "You can explain why current only flows when the circuit is closed, and what happens inside the battery.",
-        "labels": ["Negative terminal", "Positive terminal", "Electrolyte", "Electrons", "Ions", "Lamp"],
+        "labels": [
+          "Negative terminal",
+          "Positive terminal",
+          "Electrolyte",
+          "Electrons",
+          "Ions",
+          "Lamp"
+        ],
         "steps": [
           "A battery stores energy chemically. It has two terminals made of different materials. Between them is the electrolyte, a substance that conducts charged particles.",
           "At the negative terminal a chemical reaction releases electrons. They build up there – this creates the voltage between the terminals.",
@@ -162,14 +290,39 @@
     "title": "Wie sich Erdplatten bewegen",
     "summary": "Auseinander, gegeneinander, aneinander vorbei – drei Bewegungen formen die Erde.",
     "goal": "Du kannst die drei Arten von Plattengrenzen unterscheiden und sagen, was an ihnen entsteht.",
-    "labels": ["Platte", "Erdmantel", "Magma", "Mittelozeanischer Rücken", "Vulkan", "Erdbeben", "Ozean"],
-    "steps": [
-      { "text": "Die äußere Schale der Erde besteht aus Platten. Sie liegen auf dem heißen, zähen Erdmantel, der sich sehr langsam bewegt. Die Platten wandern mit – wenige Zentimeter pro Jahr, etwa so schnell, wie Fingernägel wachsen.", "seconds": 8 },
-      { "text": "Auseinander: Wo zwei Platten sich voneinander entfernen, steigt Magma auf und erstarrt. So entsteht neue Erdkruste, zum Beispiel am Mittelatlantischen Rücken.", "seconds": 7 },
-      { "text": "Gegeneinander: Stoßen zwei Platten zusammen, taucht oft die schwerere unter die andere ab. In der Tiefe schmilzt Gestein – darüber entstehen Vulkane und Gebirge.", "seconds": 8 },
-      { "text": "Aneinander vorbei (von oben gesehen): Die Platten verhaken sich und bauen Spannung auf. Löst sie sich mit einem Ruck, bebt die Erde – wie an der San-Andreas-Verwerfung in Kalifornien.", "seconds": 8 }
+    "labels": [
+      "Platte",
+      "Erdmantel",
+      "Magma",
+      "Mittelozeanischer Rücken",
+      "Vulkan",
+      "Erdbeben",
+      "Ozean"
     ],
-    "sources": [{ "name": "Wikipedia: Plattentektonik", "url": "https://de.wikipedia.org/wiki/Plattentektonik" }],
+    "steps": [
+      {
+        "text": "Die äußere Schale der Erde besteht aus Platten. Sie liegen auf dem heißen, zähen Erdmantel, der sich sehr langsam bewegt. Die Platten wandern mit – wenige Zentimeter pro Jahr, etwa so schnell, wie Fingernägel wachsen.",
+        "seconds": 8
+      },
+      {
+        "text": "Auseinander: Wo zwei Platten sich voneinander entfernen, steigt Magma auf und erstarrt. So entsteht neue Erdkruste, zum Beispiel am Mittelatlantischen Rücken.",
+        "seconds": 7
+      },
+      {
+        "text": "Gegeneinander: Stoßen zwei Platten zusammen, taucht oft die schwerere unter die andere ab. In der Tiefe schmilzt Gestein – darüber entstehen Vulkane und Gebirge.",
+        "seconds": 8
+      },
+      {
+        "text": "Aneinander vorbei (von oben gesehen): Die Platten verhaken sich und bauen Spannung auf. Löst sie sich mit einem Ruck, bebt die Erde – wie an der San-Andreas-Verwerfung in Kalifornien.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Plattentektonik",
+        "url": "https://de.wikipedia.org/wiki/Plattentektonik"
+      }
+    ],
     "quiz_question_id": "qa-platten",
     "verification_status": "ai_checked",
     "status": "published",
@@ -179,12 +332,229 @@
         "title": "How tectonic plates move",
         "summary": "Apart, together, past each other – three movements shape the Earth.",
         "goal": "You can tell the three kinds of plate boundary apart and say what forms at each of them.",
-        "labels": ["Plate", "Mantle", "Magma", "Mid-ocean ridge", "Volcano", "Earthquake", "Ocean"],
+        "labels": [
+          "Plate",
+          "Mantle",
+          "Magma",
+          "Mid-ocean ridge",
+          "Volcano",
+          "Earthquake",
+          "Ocean"
+        ],
         "steps": [
           "The Earth's outer shell consists of plates. They rest on the hot, viscous mantle, which moves very slowly. The plates travel with it – a few centimetres a year, about as fast as fingernails grow.",
           "Apart: where two plates move away from each other, magma rises and solidifies. This creates new crust, for example at the Mid-Atlantic Ridge.",
           "Together: when two plates collide, the heavier one often dives beneath the other. Rock melts at depth – above it, volcanoes and mountains form.",
           "Past each other (seen from above): the plates lock together and build up stress. When it is released with a jolt, the earth quakes – as at the San Andreas Fault in California."
+        ]
+      }
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-14T12:00:00Z",
+    "id": "a-elektromotor",
+    "category_id": "technology",
+    "scene": "motor",
+    "title": "Wie ein Elektromotor sich dreht",
+    "summary": "Magnet, Spule, Strom – und ein Trick, der die Drehung am Laufen hält.",
+    "goal": "Du kannst erklären, warum sich eine stromdurchflossene Spule im Magnetfeld dreht und wozu der Stromwender da ist.",
+    "labels": [
+      "Nordpol",
+      "Südpol",
+      "Drahtspule (von vorn gesehen)",
+      "Stromwender polt um",
+      "Batterie",
+      "Kraft auf den Draht"
+    ],
+    "steps": [
+      {
+        "text": "Ein einfacher Elektromotor besteht aus einem Magneten und einer drehbaren Drahtspule dazwischen. Wir blicken hier von vorn auf die Achse: Die beiden Kreise sind die Drähte der Spule.",
+        "seconds": 7
+      },
+      {
+        "text": "Fließt Strom durch die Spule, wirkt im Magnetfeld eine Kraft auf die Drähte – auf der einen Seite nach oben, auf der anderen nach unten. Die Spule beginnt sich zu drehen.",
+        "seconds": 7
+      },
+      {
+        "text": "Nach einer halben Drehung würden die Kräfte die Spule wieder zurückziehen. Deshalb polt der Stromwender, ein geteilter Schleifring, den Strom genau im richtigen Moment um.",
+        "seconds": 8
+      },
+      {
+        "text": "So zeigt die Kraft immer in Drehrichtung, und der Motor läuft rund. Dasselbe Prinzip – Kräfte auf stromdurchflossene Spulen im Magnetfeld – steckt in jedem Elektromotor, vom Mixer bis zum E-Auto.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Elektromotor",
+        "url": "https://de.wikipedia.org/wiki/Elektromotor"
+      }
+    ],
+    "quiz_question_id": "qa-emotor",
+    "translations": {
+      "en": {
+        "title": "How an electric motor turns",
+        "summary": "Magnet, coil, current – and a trick that keeps the rotation going.",
+        "goal": "You can explain why a current-carrying coil turns in a magnetic field and what the commutator is for.",
+        "labels": [
+          "North pole",
+          "South pole",
+          "Wire coil (seen from the front)",
+          "Commutator reverses the current",
+          "Battery",
+          "Force on the wire"
+        ],
+        "steps": [
+          "A simple electric motor consists of a magnet and a rotatable coil of wire between its poles. Here we look along the axis from the front: the two circles are the wires of the coil.",
+          "When current flows through the coil, a force acts on the wires in the magnetic field – upwards on one side, downwards on the other. The coil begins to turn.",
+          "After half a turn the forces would pull the coil back again. That is why the commutator, a split slip ring, reverses the current at exactly the right moment.",
+          "This way the force always points in the direction of rotation and the motor runs smoothly. The same principle – forces on current-carrying coils in a magnetic field – is at work in every electric motor, from a blender to an electric car."
+        ]
+      }
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "min_age": 13,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-14T12:00:00Z",
+    "id": "a-neuronales-netz",
+    "category_id": "technology",
+    "scene": "neural",
+    "title": "Wie ein neuronales Netz lernt",
+    "summary": "Schichten, Gewichte und viele kleine Korrekturen: So lernt eine KI, Katze und Hund zu unterscheiden.",
+    "goal": "Du kannst erklären, was Gewichte in einem neuronalen Netz sind und was beim Training mit ihnen geschieht.",
+    "labels": [
+      "Eingabe",
+      "Verborgene Schicht",
+      "Ausgabe",
+      "Katze",
+      "Hund",
+      "Zufällige Gewichte: falsch geraten",
+      "Nach dem Training: richtig erkannt"
+    ],
+    "steps": [
+      {
+        "text": "Ein künstliches neuronales Netz besteht aus Schichten einfacher Recheneinheiten, den Neuronen. Jede Verbindung hat ein Gewicht: eine Zahl, die bestimmt, wie stark ein Signal weitergegeben wird.",
+        "seconds": 8
+      },
+      {
+        "text": "Vorn kommen Zahlen hinein, zum Beispiel die Helligkeit der Bildpunkte eines Fotos. Jedes Neuron verrechnet seine Eingänge mit den Gewichten und gibt das Ergebnis an die nächste Schicht weiter.",
+        "seconds": 8
+      },
+      {
+        "text": "Am Ende steht eine Antwort – hier: Katze oder Hund? Zu Beginn sind die Gewichte zufällig. Das Netz rät, und die Antwort ist oft falsch.",
+        "seconds": 7
+      },
+      {
+        "text": "Beim Training wird der Fehler rückwärts durch das Netz gerechnet und jedes Gewicht ein kleines Stück korrigiert. Nach sehr vielen Beispielen erkennt das Netz die Katze immer zuverlässiger.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Künstliches neuronales Netz",
+        "url": "https://de.wikipedia.org/wiki/Künstliches_neuronales_Netz"
+      }
+    ],
+    "quiz_question_id": "qa-nn",
+    "translations": {
+      "en": {
+        "title": "How a neural network learns",
+        "summary": "Layers, weights and many small corrections: how an AI learns to tell a cat from a dog.",
+        "goal": "You can explain what weights in a neural network are and what happens to them during training.",
+        "labels": [
+          "Input",
+          "Hidden layer",
+          "Output",
+          "Cat",
+          "Dog",
+          "Random weights: wrong guess",
+          "After training: recognised correctly"
+        ],
+        "steps": [
+          "An artificial neural network consists of layers of simple computing units, the neurons. Every connection has a weight: a number that determines how strongly a signal is passed on.",
+          "Numbers go in at the front, for example the brightness of the pixels of a photo. Each neuron combines its inputs with the weights and passes the result on to the next layer.",
+          "At the end there is an answer – here: cat or dog? At the start the weights are random. The network guesses, and the answer is often wrong.",
+          "During training the error is calculated backwards through the network and every weight is corrected a little. After a great many examples the network recognises the cat more and more reliably."
+        ]
+      }
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-14T12:00:00Z",
+    "id": "a-sternentstehung",
+    "category_id": "science",
+    "scene": "star",
+    "title": "Wie ein Stern entsteht",
+    "summary": "Von der kalten Gaswolke zum leuchtenden Stern – die Schwerkraft macht den Anfang.",
+    "goal": "Du kannst die Schritte von der Gaswolke bis zum Zünden der Kernfusion beschreiben.",
+    "labels": [
+      "Wolke aus Gas und Staub",
+      "Die Schwerkraft zieht die Wolke zusammen",
+      "Ein Protostern entsteht",
+      "Scheibe",
+      "Die Kernfusion zündet",
+      "Wasserstoff verschmilzt zu Helium"
+    ],
+    "steps": [
+      {
+        "text": "Sterne entstehen in riesigen, kalten Wolken aus Gas und Staub. Sie bestehen vor allem aus Wasserstoff.",
+        "seconds": 6
+      },
+      {
+        "text": "Wird ein Teil der Wolke dicht genug, zieht ihn seine eigene Schwerkraft zusammen. Die Wolke stürzt in sich zusammen und dreht sich dabei immer schneller.",
+        "seconds": 8
+      },
+      {
+        "text": "Im Zentrum wird es dichter und heißer: Ein Protostern entsteht. Um ihn herum flacht die Wolke zu einer Scheibe ab – aus ihr können später Planeten werden.",
+        "seconds": 8
+      },
+      {
+        "text": "Bei etwa zehn Millionen Grad zündet im Inneren die Kernfusion: Wasserstoff verschmilzt zu Helium und setzt Energie frei. Ein Stern ist geboren. Je nach Masse leuchtet er Millionen bis viele Milliarden Jahre.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Sternentstehung",
+        "url": "https://de.wikipedia.org/wiki/Sternentstehung"
+      }
+    ],
+    "quiz_question_id": "qa-stern",
+    "translations": {
+      "en": {
+        "title": "How a star is born",
+        "summary": "From a cold cloud of gas to a shining star – gravity makes the start.",
+        "goal": "You can describe the steps from the gas cloud to the ignition of nuclear fusion.",
+        "labels": [
+          "Cloud of gas and dust",
+          "Gravity pulls the cloud together",
+          "A protostar forms",
+          "Disc",
+          "Nuclear fusion ignites",
+          "Hydrogen fuses into helium"
+        ],
+        "steps": [
+          "Stars form in huge, cold clouds of gas and dust. They consist mainly of hydrogen.",
+          "When part of the cloud becomes dense enough, its own gravity pulls it together. The cloud collapses and spins faster and faster as it does so.",
+          "At the centre it becomes denser and hotter: a protostar forms. Around it the cloud flattens into a disc – planets can later form from it.",
+          "At about ten million degrees, nuclear fusion ignites in the interior: hydrogen fuses into helium and releases energy. A star is born. Depending on its mass, it shines for millions to many billions of years."
         ]
       }
     }

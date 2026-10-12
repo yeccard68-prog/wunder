@@ -9,9 +9,9 @@ import { useT } from "@/lib/store";
 /**
  * Plays one explainer animation: a scene drawn step by step, with a caption per step.
  * The learner can pause, jump between steps and replay; with "reduce motion" switched on
- * nothing starts by itself and the steps are shown as still images.
+ * nothing starts by itself and the steps are shown as still images. `active` = currently on screen.
  */
-export default function AnimationPlayer({ animation, onFinished }: { animation: Animation; onFinished?: () => void }) {
+export default function AnimationPlayer({ animation, onFinished, active = true }: { animation: Animation; onFinished?: () => void; active?: boolean }) {
   const t = useT();
   const Scene = SCENES[animation.scene];
   const durations = animation.steps.map((s) => s.seconds ?? 6);
@@ -24,8 +24,9 @@ export default function AnimationPlayer({ animation, onFinished }: { animation: 
   useEffect(() => {
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     setStill(reduced);
-    setPlaying(!reduced);
-  }, [animation.id]);
+    // inside a feed the animation only runs while it is on screen
+    setPlaying(active && !reduced && !finished.current);
+  }, [animation.id, active]);
 
   useEffect(() => {
     if (!playing) return;

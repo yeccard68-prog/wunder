@@ -92,3 +92,21 @@ test("an explainer animation plays, can be stepped through and ends with its que
   const box = (await page.locator("svg[role=img]").boundingBox())!;
   expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
 });
+
+test("the home feed mixes question cards, clips and animations", async ({ page }) => {
+  await openClips(page);
+  await page.goto("/");
+  await expect(page.locator("article").first()).toBeVisible();
+  const clip = page.getByTestId("feed-clip").first();
+  await clip.scrollIntoViewIfNeeded();
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-status", "ready");
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "false");
+  await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
+  await expect(clip.getByRole("button", { name: /^A/ }).first()).toBeVisible();
+  const animation = page.getByTestId("feed-animation").first();
+  await animation.scrollIntoViewIfNeeded();
+  await expect(animation.getByTestId("animation-player")).toHaveAttribute("data-playing", "true");
+  // the clip above stops when it leaves the screen
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});

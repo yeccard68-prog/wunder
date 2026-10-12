@@ -333,4 +333,152 @@ function Plates({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates };
+// ------------------------------------------------------------------ electric motor (seen along the axis)
+// labels: 0 north pole, 1 south pole, 2 coil, 3 commutator, 4 battery, 5 force
+function Motor({ step, p, t, labels }: SceneProps) {
+  const deg = step === 0 ? 25 : step === 1 ? lerp(25, 78, ease(p)) : step === 2 ? lerp(78, 192, ease(p)) : 192 + (t % 1000) * 150;
+  const a = (deg * Math.PI) / 180;
+  const C: Pt = [180, 190];
+  const R = 62;
+  const end = (s: number): Pt => [C[0] + s * R * Math.cos(a), C[1] + s * R * Math.sin(a)];
+  const on = step >= 1;
+  // the commutator keeps the current direction fixed in space: the wire on the left always carries current "out"
+  const left = Math.cos(a) < 0 ? 1 : -1;
+  const wire = (s: number) => {
+    const [x, y] = end(s);
+    const out = s === left;
+    const up = out ? -1 : 1; // force: up on one side, down on the other → torque
+    return (
+      <g key={s}>
+        <circle cx={x} cy={y} r={11} fill="#c98a4b" stroke={INK} strokeWidth={2} />
+        {on && (out ? <circle cx={x} cy={y} r={3} fill="#11100e" /> : <path d={`M${x - 5} ${y - 5}l10 10m0-10l-10 10`} stroke="#11100e" strokeWidth={2.5} />)}
+        {on && <path d={`M${x} ${y + up * 16}v${up * 26}m-6 ${-up * 8}l6 ${up * 9} 6 ${-up * 9}`} stroke={YELLOW} strokeWidth={3} fill="none" strokeLinecap="round" strokeLinejoin="round" />}
+      </g>
+    );
+  };
+  const flip = step === 2 && Math.abs(deg - 90) < 16; // passing the dead point
+  return (
+    <>
+      <rect x={22} y={110} width={62} height={160} rx={8} fill="#d9534a" />
+      <rect x={276} y={110} width={62} height={160} rx={8} fill="#4a7fd9" />
+      <Label x={53} y={196} size={22} bold>N</Label>
+      <Label x={307} y={196} size={22} bold>S</Label>
+      <Label x={53} y={100} size={11} color={DIM}>{labels[0]}</Label>
+      <Label x={307} y={100} size={11} color={DIM}>{labels[1]}</Label>
+      {[150, 190, 230].map((y) => <path key={y} d={`M92 ${y}H268`} stroke={LINE} strokeWidth={1.5} strokeDasharray="3 7" />)}
+      <circle cx={C[0]} cy={C[1]} r={R} fill="none" stroke={LINE} strokeWidth={1.5} />
+      <path d={`M${end(-1)[0]} ${end(-1)[1]}L${end(1)[0]} ${end(1)[1]}`} stroke="#c98a4b" strokeWidth={7} strokeLinecap="round" />
+      {wire(-1)}
+      {wire(1)}
+      {/* commutator: split ring turning with the coil, two fixed brushes */}
+      <g transform={`rotate(${deg} ${C[0]} ${C[1]})`}>
+        <path d={`M${C[0] - 15} ${C[1] - 4}A16 16 0 0 1 ${C[0] + 15} ${C[1] - 4}`} fill="none" stroke={flip ? YELLOW : INK} strokeWidth={6} />
+        <path d={`M${C[0] - 15} ${C[1] + 4}A16 16 0 0 0 ${C[0] + 15} ${C[1] + 4}`} fill="none" stroke={flip ? YELLOW : INK} strokeWidth={6} />
+      </g>
+      <path d={`M${C[0]} ${C[1] + 21}V330H150M${C[0]} ${C[1] - 21}V${C[1] - 34}H250V330H210`} fill="none" stroke={DIM} strokeWidth={3} strokeLinejoin="round" />
+      <rect x={150} y={316} width={60} height={28} rx={6} fill="#23303a" stroke={INK} strokeWidth={2} />
+      <Label x={180} y={335} size={11}>{labels[4]}</Label>
+      {on && <Flow pts={[[210, 330], [250, 330], [250, 156], [180, 156], [180, 169]]} phase={t / 2.5} n={4} color={YELLOW} r={3.5} />}
+      <Label x={180} y={60} size={12} color={step === 0 ? INK : DIM}>{labels[2]}</Label>
+      {step === 2 && <Label x={180} y={388} size={12} bold color={flip ? YELLOW : INK}>{labels[3]}</Label>}
+      {step === 1 && <Label x={180} y={388} size={12} color={YELLOW}>{labels[5]}</Label>}
+      <path d="M235 118a70 70 0 0 1 18 30m-10-4l11 6 2-13" stroke={on ? INK : "none"} strokeWidth={2.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+    </>
+  );
+}
+
+// ------------------------------------------------------------------ neural network
+// labels: 0 input, 1 hidden layer, 2 output, 3 cat, 4 dog, 5 "random weights", 6 "after training"
+function Neural({ step, p, t, labels }: SceneProps) {
+  const layers: Pt[][] = [[60, 130, 200, 270].map((y) => [62, y] as Pt), [90, 150, 210, 270, 330].map((y) => [180, y - 10] as Pt), [150, 250].map((y) => [298, y] as Pt)];
+  const rnd = (i: number, k: number) => frac(Math.sin(i * 12.9898 + k * 78.233) * 43758.5453);
+  const train = step === 3 ? ease(p) : 0;
+  const edges: { a: Pt; b: Pt; w: number; i: number; l: number }[] = [];
+  layers.slice(0, 2).forEach((layer, l) => layer.forEach((a, i) => layers[l + 1].forEach((b, j) => {
+    const k = l * 100 + i * 10 + j;
+    edges.push({ a, b, w: lerp(rnd(k, 1), rnd(k, 2) > 0.55 ? 1 : 0.12, train), i: k, l });
+  })));
+  const cat = step < 2 ? 0 : step === 2 ? 0.38 * ease(clamp(p * 2)) : lerp(0.38, 0.93, train);
+  const dog = step < 2 ? 0 : step === 2 ? 0.62 * ease(clamp(p * 2)) : lerp(0.62, 0.07, train);
+  const bar = (y: number, v: number, name: string, good: boolean) => (
+    <g>
+      <rect x={316} y={y - 6} width={36} height={12} rx={3} fill="#2a2724" />
+      <rect x={316} y={y - 6} width={36 * v} height={12} rx={3} fill={good ? "#3fbd87" : "#f2716d"} />
+      <Label x={334} y={y - 14} size={11}>{name}</Label>
+      {step >= 2 && <Label x={334} y={y + 22} size={11} color={DIM}>{Math.round(v * 100)} %</Label>}
+    </g>
+  );
+  return (
+    <>
+      {edges.map((e) => <path key={e.i} d={`M${e.a[0]} ${e.a[1]}L${e.b[0]} ${e.b[1]}`} stroke={step === 3 ? lerpColor("#8c8780", "#ffd24a", train * e.w) : "#8c8780"} strokeOpacity={0.25 + 0.6 * e.w} strokeWidth={0.6 + 3 * e.w} />)}
+      {(step === 1 || step === 2) && edges.filter((e) => e.i % 3 === 0).map((e) => {
+        const u = frac(t / 2 + e.i * 0.13);
+        const [x, y] = along([e.a, e.b], u);
+        return <circle key={e.i} cx={x} cy={y} r={3} fill={YELLOW} />;
+      })}
+      {step === 3 && edges.filter((e) => e.i % 3 === 1).map((e) => {
+        const u = 1 - frac(t / 2 + e.i * 0.13); // the error travels backwards
+        const [x, y] = along([e.a, e.b], u);
+        return <circle key={e.i} cx={x} cy={y} r={3} fill="#f2716d" />;
+      })}
+      {layers.map((layer, l) => layer.map(([x, y], i) => <circle key={`${l}-${i}`} cx={x} cy={y} r={13} fill={l === 0 ? "#5b9bf5" : l === 1 ? "#3a3733" : "#b9b4ab"} stroke={INK} strokeWidth={2} />))}
+      <Label x={62} y={36} size={12} bold color={step === 1 ? INK : DIM}>{labels[0]}</Label>
+      <Label x={180} y={36} size={12} bold color={step === 0 ? INK : DIM}>{labels[1]}</Label>
+      <Label x={298} y={36} size={12} bold color={step >= 2 ? INK : DIM}>{labels[2]}</Label>
+      {/* the picture that goes in: a cat, drawn very simply */}
+      <g transform="translate(40 318)" opacity={step === 0 ? 0.4 : 1}>
+        <rect x={0} y={0} width={44} height={44} rx={8} fill="#2a2724" stroke={LINE} />
+        <path d="M11 30V17l6 6h10l6-6v13a11 9 0 0 1-22 0z" fill="#e2ab4f" />
+        <circle cx={18} cy={28} r={1.6} fill="#11100e" />
+        <circle cx={26} cy={28} r={1.6} fill="#11100e" />
+      </g>
+      <path d="M62 312V290m-5 7l5-8 5 8" stroke={DIM} strokeWidth={2} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+      {bar(150, cat, labels[3], true)}
+      {bar(250, dog, labels[4], false)}
+      {step === 2 && p > 0.6 && <Label x={180} y={388} size={12} bold color="#f2716d">{labels[5]}</Label>}
+      {step === 3 && <Label x={180} y={388} size={12} bold color="#3fbd87">{labels[6]}</Label>}
+    </>
+  );
+}
+
+// ------------------------------------------------------------------ birth of a star
+// labels: 0 cloud of gas and dust, 1 gravity, 2 protostar, 3 disc, 4 nuclear fusion, 5 hydrogen → helium
+function Star({ step, p, t, labels }: SceneProps) {
+  const rnd = (i: number, k: number) => frac(Math.sin(i * 12.9898 + k * 78.233) * 43758.5453);
+  const pull = step === 0 ? 0 : step === 1 ? ease(p) : 1;
+  const flat = step < 2 ? 0 : step === 2 ? ease(p) : 1;
+  const shine = step === 3 ? ease(clamp(p * 2.5)) : 0;
+  const core = step === 1 ? 6 * pull : step === 2 ? lerp(6, 20, ease(p)) : step === 3 ? 20 + 8 * shine + Math.sin(t * 3) * 1.5 : 0;
+  const dots = Array.from({ length: 90 }, (_, i) => {
+    const r0 = 30 + rnd(i, 1) * 150;
+    const a0 = rnd(i, 2) * Math.PI * 2;
+    const r = lerp(r0, 26 + rnd(i, 3) * 95, pull) * (step === 3 ? 1 + shine * 0.25 : 1);
+    const spin = step === 0 ? t * 0.03 : (t * (0.25 + 0.9 * pull)) / Math.max(0.5, r / 60);
+    const a = a0 + spin;
+    return { x: 180 + r * Math.cos(a), y: 200 + r * Math.sin(a) * lerp(1, 0.28, flat), s: 1.2 + rnd(i, 4) * 2.2, o: 0.35 + rnd(i, 5) * 0.6, i };
+  });
+  return (
+    <>
+      <rect x={0} y={0} width={360} height={400} fill="#0b0d1a" />
+      {Array.from({ length: 30 }, (_, i) => <circle key={i} cx={rnd(i, 7) * 360} cy={rnd(i, 8) * 400} r={0.9} fill="#fff" opacity={0.25 + rnd(i, 9) * 0.5} />)}
+      {step === 3 && <circle cx={180} cy={200} r={core * 3.2} fill="#ffd24a" opacity={0.12 + 0.1 * shine} />}
+      {step === 3 && <circle cx={180} cy={200} r={core * 1.9} fill="#ffb24a" opacity={0.25} />}
+      {dots.map((q) => <circle key={q.i} cx={q.x} cy={q.y} r={q.s} fill={step >= 2 ? "#e9b98a" : "#9fb4e8"} opacity={q.o * (step === 3 ? 1 - 0.5 * shine : 1)} />)}
+      {core > 0 && <circle cx={180} cy={200} r={core} fill={step === 3 ? lerpColor("#ff8a3a", "#fff3c4", shine) : "#ff8a3a"} />}
+      {step === 1 && [0, 90, 180, 270].map((d0) => {
+        const a = (d0 * Math.PI) / 180;
+        const r1 = 150 - 26 * frac(t / 2);
+        return <path key={d0} d={`M${180 + r1 * Math.cos(a)} ${200 + r1 * Math.sin(a)}L${180 + (r1 - 24) * Math.cos(a)} ${200 + (r1 - 24) * Math.sin(a)}`} stroke={INK} strokeWidth={3} strokeLinecap="round" opacity={0.8} />;
+      })}
+      {step === 3 && shine > 0.5 && [0, 45, 90, 135, 180, 225, 270, 315].map((d0) => {
+        const a = (d0 * Math.PI) / 180;
+        return <path key={d0} d={`M${180 + (core + 12) * Math.cos(a)} ${200 + (core + 12) * Math.sin(a)}L${180 + (core + 30) * Math.cos(a)} ${200 + (core + 30) * Math.sin(a)}`} stroke="#fff3c4" strokeWidth={3} strokeLinecap="round" />;
+      })}
+      <Label x={180} y={34} size={14} bold color={step === 3 ? YELLOW : INK}>{labels[step === 0 ? 0 : step === 1 ? 1 : step === 2 ? 2 : 4]}</Label>
+      {step === 2 && flat > 0.6 && <Label x={300} y={252} size={11} color="#e9b98a">{labels[3]}</Label>}
+      {step === 3 && shine > 0.5 && <Label x={180} y={380} size={12} color="#fff3c4">{labels[5]}</Label>}
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star };

@@ -1,0 +1,11 @@
+// Content batch 5 (October 2026): check questions for three more explainer animations
+// (electric motor, neural network, birth of a star). AI-checked, see content/animations.json.
+export const LOCALE = "en";
+export const TODAY = "2026-10-14";
+export const verification = "ai_checked";
+
+export const questions = [
+  ["qa-emotor", "technology", 2, 10, null, "Was sorgt in einem einfachen Gleichstrommotor dafür, dass sich die Spule immer weiterdreht?", ["Der Stromwender polt den Strom im richtigen Moment um", "Ein schweres Schwungrad", "Die Schwerkraft", "Ein zweiter, kleinerer Motor"], 0, "Ohne das Umpolen würden die Kräfte die Spule nach einer halben Drehung wieder zurückziehen.", "Kommutator_(Elektrotechnik)", "What makes the coil in a simple DC motor keep turning?", ["The commutator reverses the current at the right moment", "A heavy flywheel", "Gravity", "A second, smaller motor"], "Without the reversal, the forces would pull the coil back again after half a turn.", ["Energie"]],
+  ["qa-nn", "technology", 2, 13, null, "Was wird beim Training eines neuronalen Netzes angepasst?", ["Die Zahl der Bildpunkte", "Die Gewichte der Verbindungen", "Die Geschwindigkeit des Prozessors", "Die Trainingsbeispiele"], 1, "Jedes Gewicht wird nach jedem Fehler ein kleines Stück korrigiert – über sehr viele Beispiele hinweg.", "Künstliches_neuronales_Netz", "What is adjusted when a neural network is trained?", ["The number of pixels", "The weights of the connections", "The speed of the processor", "The training examples"], "Every weight is corrected a little after each error – over a great many examples.", ["Künstliche Intelligenz"]],
+  ["qa-stern", "science", 2, 10, null, "Was muss im Inneren eines Protosterns einsetzen, damit er zum Stern wird?", ["Die Spaltung von Uran", "Eine chemische Verbrennung", "Die Kernfusion von Wasserstoff zu Helium", "Das Abkühlen auf den absoluten Nullpunkt"], 2, "Dafür muss es im Zentrum etwa zehn Millionen Grad heiß werden.", "Sternentstehung", "What has to start inside a protostar for it to become a star?", ["The fission of uranium", "Chemical combustion", "The nuclear fusion of hydrogen into helium", "Cooling down to absolute zero"], "For this, the centre has to reach about ten million degrees.", ["Astronomie"]],
+];
