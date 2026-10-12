@@ -2209,5 +2209,418 @@
         ]
       }
     }
+  },
+  {
+    "id": "v-kugelstoss",
+    "category_id": "science",
+    "title": "Warum immer gleich viele Kugeln wegfliegen",
+    "hook": "Beim Kugelstoßpendel schwingen auf der einen Seite genau so viele Kugeln aus, wie auf der anderen auftreffen.",
+    "description": "Ein Kugelstoßpendel in den Technischen Sammlungen Dresden. Der Stoß wandert durch die ruhenden Kugeln hindurch. Weil dabei sowohl der Impuls als auch die Bewegungsenergie erhalten bleiben müssen, geht die Rechnung nur auf, wenn am Ende gleich viele Kugeln mit gleicher Geschwindigkeit wegfliegen.",
+    "video_url": "/clips/v-kugelstoss.mp4",
+    "thumbnail_url": "/clips/v-kugelstoss.jpg",
+    "duration_seconds": 8,
+    "has_audio": false,
+    "captions": [
+      "Eine Kugel prallt auf – eine fliegt weg.",
+      "Der Stoß wandert durch die Reihe.",
+      "Impuls und Energie bleiben erhalten."
+    ],
+    "creator_name": "Jeremy Wolf",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kugelsto%C3%9Fpendel,_Technische_Sammlungen_Dresden.ogv"
+      }
+    ],
+    "published_at": "2026-10-17T12:00:00Z",
+    "tags": [
+      "Physik",
+      "Mechanik"
+    ],
+    "quiz_question_id": "q-v-kugelstoss",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "kugelstoss",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kugelsto%C3%9Fpendel%2C_Technische_Sammlungen_Dresden.ogv",
+      "start": 7,
+      "end": 15,
+      "mode": "wide",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 4.0, Jeremy Wolf – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Why the same number of balls always flies off",
+        "hook": "In a Newton's cradle, exactly as many balls swing out on one side as hit on the other.",
+        "description": "A Newton's cradle at the Technische Sammlungen in Dresden. The impact travels through the resting balls. Because both momentum and kinetic energy have to be conserved, the sums only work out if the same number of balls flies off at the same speed.",
+        "captions": [
+          "One ball hits – one flies off.",
+          "The impact travels through the row.",
+          "Momentum and energy are conserved."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-geysir",
+    "category_id": "earth",
+    "title": "Ein Geysir bricht aus",
+    "hook": "Der Strokkur auf Island schießt alle paar Minuten eine Säule aus kochendem Wasser in die Luft.",
+    "description": "In der Tiefe erhitzt vulkanische Wärme das Grundwasser weit über 100 Grad. Der Druck der Wassersäule darüber verhindert zunächst das Sieden. Steigt eine Dampfblase auf, sinkt der Druck schlagartig – das überhitzte Wasser verdampft und reißt die Säule mit nach oben. Das Wort „Geysir“ stammt vom isländischen Großen Geysir gleich nebenan.",
+    "video_url": "/clips/v-geysir.mp4",
+    "thumbnail_url": "/clips/v-geysir.jpg",
+    "duration_seconds": 8.5,
+    "has_audio": false,
+    "captions": [
+      "Island: der Geysir Strokkur.",
+      "Unten kocht das Wasser unter hohem Druck.",
+      "Alle paar Minuten schießt es heraus."
+    ],
+    "creator_name": "Alexander Grebenkov",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Strokkur_geyser_eruption_in_Iceland.webm"
+      }
+    ],
+    "published_at": "2026-10-16T12:00:00Z",
+    "tags": [
+      "Vulkanismus",
+      "Island"
+    ],
+    "quiz_question_id": "q-v-geysir",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "geysir",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Strokkur_geyser_eruption_in_Iceland.webm",
+      "start": 1.5,
+      "end": 10,
+      "mode": "tall",
+      "x": 0.45
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, Alexander Grebenkov – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "A geyser erupts",
+        "hook": "Strokkur in Iceland shoots a column of boiling water into the air every few minutes.",
+        "description": "At depth, volcanic heat warms the groundwater to well above 100 degrees. The pressure of the water column above at first prevents it from boiling. When a bubble of steam rises, the pressure drops abruptly – the superheated water turns to steam and carries the column upwards. The word “geyser” comes from the Icelandic Great Geysir right next to it.",
+        "captions": [
+          "Iceland: the geyser Strokkur.",
+          "Below, the water boils under high pressure.",
+          "Every few minutes it shoots out."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-tropfen",
+    "category_id": "science",
+    "title": "Ein Tropfen in Zeitlupe",
+    "hook": "Fällt ein Tropfen ins Wasser, schießt kurz darauf eine kleine Säule nach oben.",
+    "description": "Der Tropfen schlägt einen Krater in die Oberfläche. Die Oberflächenspannung zieht das Wasser wieder zusammen; es schwappt in der Mitte zurück und steigt als Säule auf, von deren Spitze sich oft ein neuer Tropfen löst. Dieselbe Kraft hält auch den fallenden Tropfen in Form.",
+    "video_url": "/clips/v-tropfen.mp4",
+    "thumbnail_url": "/clips/v-tropfen.jpg",
+    "duration_seconds": 9.5,
+    "has_audio": false,
+    "captions": [
+      "Ein Tropfen fällt ins Wasser.",
+      "Er schlägt einen kleinen Krater.",
+      "Das Wasser schnellt als Säule zurück."
+    ],
+    "creator_name": "Christoph Pantel",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Slowmotion_water_drop.webm"
+      }
+    ],
+    "published_at": "2026-10-15T12:00:00Z",
+    "tags": [
+      "Physik",
+      "Wasser"
+    ],
+    "quiz_question_id": "q-v-tropfen",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "tropfen",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Slowmotion_water_drop.webm",
+      "start": 2.5,
+      "end": 12,
+      "mode": "wide",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, Christoph Pantel – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "A drop in slow motion",
+        "hook": "When a drop falls into water, a small column shoots up shortly afterwards.",
+        "description": "The drop punches a crater into the surface. Surface tension pulls the water back together; it sloshes back in the middle and rises as a column, from whose tip a new drop often detaches. The same force also keeps the falling drop in shape.",
+        "captions": [
+          "A drop falls into water.",
+          "It punches a small crater.",
+          "The water springs back as a column."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-sonnenfinsternis",
+    "category_id": "science",
+    "title": "Wenn der Tag zur Nacht wird",
+    "hook": "Bei einer totalen Sonnenfinsternis schiebt sich der Mond genau vor die Sonne – für wenige Minuten wird es dunkel.",
+    "description": "Zeitraffer einer totalen Sonnenfinsternis. Dass der Mond die Sonne so genau verdecken kann, ist ein Zufall: Die Sonne ist rund 400-mal größer als der Mond, aber auch rund 400-mal weiter entfernt. Von der Erde aus erscheinen beide deshalb fast gleich groß.",
+    "video_url": "/clips/v-sonnenfinsternis.mp4",
+    "thumbnail_url": "/clips/v-sonnenfinsternis.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Der Mond schiebt sich vor die Sonne.",
+      "Für wenige Minuten wird es dunkel.",
+      "Dann kehrt das Licht zurück."
+    ],
+    "creator_name": "liquidcrash",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Liquidcrash_-_Time-lapse_of_the_total_solar_eclipse.ogv"
+      }
+    ],
+    "published_at": "2026-10-14T12:00:00Z",
+    "tags": [
+      "Astronomie",
+      "Mond"
+    ],
+    "quiz_question_id": "q-v-sonnenfinsternis",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "finsternis",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Liquidcrash_-_Time-lapse_of_the_total_solar_eclipse.ogv",
+      "start": 19,
+      "end": 29,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 2.0, liquidcrash – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "When day turns to night",
+        "hook": "In a total solar eclipse the Moon moves exactly in front of the Sun – for a few minutes it gets dark.",
+        "description": "Time-lapse of a total solar eclipse. That the Moon can cover the Sun so precisely is a coincidence: the Sun is about 400 times larger than the Moon but also about 400 times farther away. Seen from Earth, the two therefore appear almost the same size.",
+        "captions": [
+          "The Moon moves in front of the Sun.",
+          "For a few minutes it gets dark.",
+          "Then the light returns."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-rippenqualle",
+    "category_id": "earth",
+    "title": "Kein Fisch, keine Qualle",
+    "hook": "Rippenquallen sehen aus wie Quallen, gehören aber zu einer eigenen Tiergruppe – und schwimmen mit winzigen Härchen.",
+    "description": "Eine Rippenqualle im Aquarium von Monterey Bay. Über ihren Körper laufen acht Reihen kleiner Plättchen aus verschmolzenen Wimpern. Sie schlagen nacheinander wie Ruder und treiben das Tier voran. Das Schimmern entsteht, weil die Plättchen das Licht brechen.",
+    "video_url": "/clips/v-rippenqualle.mp4",
+    "thumbnail_url": "/clips/v-rippenqualle.jpg",
+    "duration_seconds": 9,
+    "has_audio": false,
+    "captions": [
+      "Das ist eine Rippenqualle.",
+      "Sie schwimmt mit Reihen winziger Härchen.",
+      "Die Härchen schimmern im Licht."
+    ],
+    "creator_name": "FASTILY",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Jellyfish_at_Monterey_Bay_Aquarium_5_2017-11-21.webm"
+      }
+    ],
+    "published_at": "2026-10-13T12:00:00Z",
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "quiz_question_id": "q-v-rippenqualle",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "qualle",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jellyfish_at_Monterey_Bay_Aquarium_5_2017-11-21.webm",
+      "start": 4,
+      "end": 13,
+      "mode": "crop",
+      "x": 0.43
+    },
+    "min_age": 6,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 4.0, FASTILY – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Not a fish, not a jellyfish",
+        "hook": "Comb jellies look like jellyfish but belong to an animal group of their own – and swim with tiny hairs.",
+        "description": "A comb jelly at the Monterey Bay Aquarium. Eight rows of small plates of fused cilia run along its body. They beat one after another like oars and propel the animal forward. The shimmer appears because the plates refract the light.",
+        "captions": [
+          "This is a comb jelly.",
+          "It swims with rows of tiny hairs.",
+          "The hairs shimmer in the light."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-jupiter",
+    "category_id": "science",
+    "title": "Jupiter dreht sich",
+    "hook": "Ein Tag auf dem Jupiter dauert keine zehn Stunden – kein Planet im Sonnensystem dreht sich schneller.",
+    "description": "Aufnahmen des Weltraumteleskops Hubble von 2019, zu einer Drehung zusammengesetzt. Der Große Rote Fleck ist ein Wirbelsturm, der größer ist als die Erde und seit mindestens 150 Jahren beobachtet wird. Die Streifen sind Wolkenbänder, in denen der Wind in entgegengesetzte Richtungen weht.",
+    "video_url": "/clips/v-jupiter.mp4",
+    "thumbnail_url": "/clips/v-jupiter.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Jupiter, gesehen vom Teleskop Hubble.",
+      "Ein Tag dauert hier keine zehn Stunden.",
+      "Der rote Fleck ist ein riesiger Sturm."
+    ],
+    "creator_name": "NASA, ESA, A. Simon (Goddard Space Flight Center)",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Jupiter-HubbleSpaceTelescope-Animation-20190823.webm"
+      }
+    ],
+    "published_at": "2026-10-12T12:00:00Z",
+    "tags": [
+      "Astronomie",
+      "Planeten"
+    ],
+    "quiz_question_id": "q-v-jupiter",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "jupiter",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Jupiter-HubbleSpaceTelescope-Animation-20190823.webm",
+      "start": 3,
+      "end": 13,
+      "mode": "tall",
+      "x": 0.5
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "Jupiter turns",
+        "hook": "A day on Jupiter lasts less than ten hours – no planet in the solar system rotates faster.",
+        "description": "Images from the Hubble Space Telescope from 2019, assembled into one rotation. The Great Red Spot is a storm larger than the Earth that has been observed for at least 150 years. The stripes are cloud bands in which the wind blows in opposite directions.",
+        "captions": [
+          "Jupiter, seen by the Hubble telescope.",
+          "A day here lasts less than ten hours.",
+          "The red spot is a gigantic storm."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-pendelwelle",
+    "category_id": "science",
+    "title": "Die Pendelwelle",
+    "hook": "Je länger ein Pendel ist, desto langsamer schwingt es – aus vielen verschieden langen Pendeln wird ein wanderndes Muster.",
+    "description": "Computeranimation einer Pendelwelle. Alle Pendel starten gleichzeitig. Weil jedes ein wenig kürzer ist als sein Nachbar, schwingt es etwas schneller; die Pendel geraten aus dem Takt, bilden Wellen und Gruppen und finden nach einer festen Zeit wieder zusammen. Auf das Gewicht der Kugeln kommt es dabei nicht an.",
+    "video_url": "/clips/v-pendelwelle.mp4",
+    "thumbnail_url": "/clips/v-pendelwelle.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Alle Pendel starten gleichzeitig.",
+      "Die kurzen schwingen schneller.",
+      "So entsteht ein wanderndes Muster."
+    ],
+    "creator_name": "Animations for Physics and Astronomy",
+    "format": "animation",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Pendulum_wave.webm"
+      }
+    ],
+    "published_at": "2026-10-11T12:00:00Z",
+    "tags": [
+      "Physik",
+      "Schwingung"
+    ],
+    "quiz_question_id": "q-v-pendelwelle",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "pendelwelle",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pendulum_wave.webm",
+      "start": 26,
+      "end": 36,
+      "mode": "tall",
+      "x": 0.55
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 3.0, Animations for Physics and Astronomy – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "The pendulum wave",
+        "hook": "The longer a pendulum, the more slowly it swings – many pendulums of different lengths make a travelling pattern.",
+        "description": "Computer animation of a pendulum wave. All pendulums start at the same time. Because each is a little shorter than its neighbour, it swings slightly faster; the pendulums fall out of step, form waves and groups and come back together after a fixed time. The weight of the balls does not matter.",
+        "captions": [
+          "All pendulums start together.",
+          "The short ones swing faster.",
+          "This creates a travelling pattern."
+        ]
+      }
+    }
   }
 ]

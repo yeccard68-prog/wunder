@@ -22609,5 +22609,285 @@
         "explanation": "The rays meet in the focal point – with a magnifying glass, sunlight can be concentrated there so strongly that paper starts to burn."
       }
     }
+  },
+  {
+    "id": "q-v-kugelstoss",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Zwei Kugeln prallen gemeinsam auf die Reihe. Wie viele schwingen auf der anderen Seite aus?",
+    "options": [
+      "Eine, doppelt so schnell",
+      "Zwei",
+      "Alle übrigen",
+      "Keine"
+    ],
+    "correct_index": 1,
+    "explanation": "Nur wenn zwei Kugeln mit derselben Geschwindigkeit wegfliegen, bleiben Impuls und Energie beide erhalten.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Mechanik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kugelsto%C3%9Fpendel,_Technische_Sammlungen_Dresden.ogv",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Two balls hit the row together. How many swing out on the other side?",
+        "options": [
+          "One, twice as fast",
+          "Two",
+          "All the others",
+          "None"
+        ],
+        "explanation": "Only if two balls fly off at the same speed are momentum and energy both conserved."
+      }
+    }
+  },
+  {
+    "id": "q-v-geysir",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was treibt den Ausbruch eines Geysirs an?",
+    "options": [
+      "Wind, der in eine Höhle drückt",
+      "Erdwärme, die Wasser in der Tiefe überhitzt",
+      "Ebbe und Flut",
+      "Schmelzendes Gletschereis"
+    ],
+    "correct_index": 1,
+    "explanation": "Das überhitzte Wasser verdampft schlagartig, sobald der Druck nachlässt, und schleudert die Wassersäule heraus.",
+    "difficulty": 1,
+    "tags": [
+      "Vulkanismus",
+      "Island"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Strokkur_geyser_eruption_in_Iceland.webm",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What drives the eruption of a geyser?",
+        "options": [
+          "Wind pushing into a cave",
+          "Geothermal heat that superheats water at depth",
+          "The tides",
+          "Melting glacier ice"
+        ],
+        "explanation": "The superheated water turns to steam abruptly as soon as the pressure drops and throws the column of water out."
+      }
+    }
+  },
+  {
+    "id": "q-v-tropfen",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Eigenschaft des Wassers hält einen Tropfen zusammen?",
+    "options": [
+      "Die Oberflächenspannung",
+      "Der Luftdruck",
+      "Die Schwerkraft",
+      "Der Salzgehalt"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Wasserteilchen ziehen sich gegenseitig an. An der Oberfläche wirkt das wie eine dünne, gespannte Haut.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Slowmotion_water_drop.webm",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which property of water holds a drop together?",
+        "options": [
+          "Surface tension",
+          "Air pressure",
+          "Gravity",
+          "Salinity"
+        ],
+        "explanation": "The water molecules attract one another. At the surface this acts like a thin, taut skin."
+      }
+    }
+  },
+  {
+    "id": "q-v-sonnenfinsternis",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was verdeckt bei einer Sonnenfinsternis die Sonne?",
+    "options": [
+      "Die Erde",
+      "Der Mond",
+      "Eine Wolke",
+      "Die Venus"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Mond steht dann genau zwischen Sonne und Erde und wirft seinen Schatten auf die Erde.",
+    "difficulty": 1,
+    "tags": [
+      "Astronomie",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liquidcrash_-_Time-lapse_of_the_total_solar_eclipse.ogv",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What covers the Sun during a solar eclipse?",
+        "options": [
+          "The Earth",
+          "The Moon",
+          "A cloud",
+          "Venus"
+        ],
+        "explanation": "The Moon is then exactly between the Sun and the Earth and casts its shadow onto the Earth."
+      }
+    }
+  },
+  {
+    "id": "q-v-rippenqualle",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Womit bewegt sich eine Rippenqualle vorwärts?",
+    "options": [
+      "Mit Flossen",
+      "Mit Reihen schlagender Wimpernplättchen",
+      "Mit einem Wasserstrahl",
+      "Sie lässt sich nur treiben"
+    ],
+    "correct_index": 1,
+    "explanation": "Die acht Reihen von Wimpernplättchen – die „Rippen“ – schlagen wie viele kleine Ruder.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jellyfish_at_Monterey_Bay_Aquarium_5_2017-11-21.webm",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a comb jelly move forward?",
+        "options": [
+          "With fins",
+          "With rows of beating plates of cilia",
+          "With a jet of water",
+          "It only drifts"
+        ],
+        "explanation": "The eight rows of ciliary plates – the “combs” – beat like many small oars."
+      }
+    }
+  },
+  {
+    "id": "q-v-jupiter",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist der Große Rote Fleck auf dem Jupiter?",
+    "options": [
+      "Ein Vulkan",
+      "Ein riesiger Wirbelsturm",
+      "Ein Einschlagkrater",
+      "Ein Ozean"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Sturm ist größer als die Erde und tobt seit mindestens 150 Jahren.",
+    "difficulty": 1,
+    "tags": [
+      "Astronomie",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jupiter-HubbleSpaceTelescope-Animation-20190823.webm",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Great Red Spot on Jupiter?",
+        "options": [
+          "A volcano",
+          "A gigantic storm",
+          "An impact crater",
+          "An ocean"
+        ],
+        "explanation": "The storm is larger than the Earth and has been raging for at least 150 years."
+      }
+    }
+  },
+  {
+    "id": "q-v-pendelwelle",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wovon hängt ab, wie schnell ein Pendel hin- und herschwingt?",
+    "options": [
+      "Von seinem Gewicht",
+      "Von seiner Länge",
+      "Von seiner Farbe",
+      "Von der Tageszeit"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein kurzes Pendel schwingt schneller als ein langes. Das Gewicht spielt bei kleinen Ausschlägen keine Rolle.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Schwingung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pendulum_wave.webm",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What determines how fast a pendulum swings back and forth?",
+        "options": [
+          "Its weight",
+          "Its length",
+          "Its colour",
+          "The time of day"
+        ],
+        "explanation": "A short pendulum swings faster than a long one. The weight plays no role for small swings."
+      }
+    }
   }
 ]

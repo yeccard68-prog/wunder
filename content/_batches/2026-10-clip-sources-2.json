@@ -1,0 +1,79 @@
+{
+ "kugelstoss": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kugelsto%C3%9Fpendel%2C_Technische_Sammlungen_Dresden.ogv",
+  "page": "https://commons.wikimedia.org/wiki/File:Kugelsto%C3%9Fpendel,_Technische_Sammlungen_Dresden.ogv",
+  "w": 1920,
+  "h": 1080,
+  "duration": 27.68,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Jeremy Wolf"
+ },
+ "geysir": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Strokkur_geyser_eruption_in_Iceland.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Strokkur_geyser_eruption_in_Iceland.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 21.201,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Alexander Grebenkov"
+ },
+ "tropfen": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Slowmotion_water_drop.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Slowmotion_water_drop.webm",
+  "w": 1280,
+  "h": 720,
+  "duration": 38.569,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Christoph Pantel"
+ },
+ "finsternis": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Liquidcrash_-_Time-lapse_of_the_total_solar_eclipse.ogv",
+  "page": "https://commons.wikimedia.org/wiki/File:Liquidcrash_-_Time-lapse_of_the_total_solar_eclipse.ogv",
+  "w": 1920,
+  "h": 1080,
+  "duration": 42.27482993197279,
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "author": "liquidcrash"
+ },
+ "qualle": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jellyfish_at_Monterey_Bay_Aquarium_5_2017-11-21.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Jellyfish_at_Monterey_Bay_Aquarium_5_2017-11-21.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 17.268,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "FASTILY"
+ },
+ "jupiter": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Jupiter-HubbleSpaceTelescope-Animation-20190823.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Jupiter-HubbleSpaceTelescope-Animation-20190823.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 15.077,
+  "license": "Public domain",
+  "licenseUrl": "",
+  "author": "NASA, ESA, A. Simon (Goddard Space Flight Center), M.H. Wong (University of California, Berkeley), and L. Hustak (STScI)"
+ },
+ "pendelwelle": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pendulum_wave.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Pendulum_wave.webm",
+  "w": 1280,
+  "h": 720,
+  "duration": 145.104,
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Animations for Physics and Astronomy"
+ }
+}
