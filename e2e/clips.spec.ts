@@ -253,3 +253,36 @@ test("books: shelf, search, a book with an interactive idea, progress, and ideas
   await expect(page.getByTestId("book-detail")).toBeVisible();
   expect(errors).toEqual([]);
 });
+
+test("new question formats: put in order, estimate with a slider, fill the gap", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explore/");
+  const find = async (query: string, text: string) => {
+    await page.getByRole("searchbox").fill(query);
+    const card = page.locator("article").filter({ hasText: text }).first();
+    await expect(card).toBeVisible();
+    return card;
+  };
+
+  const order = await find("Takte eines Benzinmotors", "Bring die vier Takte");
+  await order.getByRole("button", { name: "„Ansaugen“ nach oben" }).click();
+  await order.getByRole("button", { name: "„Ansaugen“ nach oben" }).click();
+  await order.getByRole("button", { name: "„Arbeiten“ nach oben" }).click();
+  await expect(order.locator("ol li").first()).toContainText("Ansaugen");
+  await order.getByRole("button", { name: "Reihenfolge prüfen" }).click();
+  await expect(order.getByText("Richtig!")).toBeVisible();
+  await expect(order.getByRole("button", { name: "Reihenfolge prüfen" })).toHaveCount(0); // locked after answering
+
+  const estimate = await find("Erdoberfläche", "Wie viel Prozent der Erdoberfläche");
+  await estimate.getByRole("slider").fill("69");
+  await estimate.getByRole("button", { name: "Schätzung abgeben" }).click();
+  await expect(estimate.getByText("Richtig!")).toBeVisible(); // 69 is within ± 5 of 71
+  await expect(estimate.getByText(/Richtig sind 71 %/)).toBeVisible();
+
+  const blank = await find("Hauptstadt von Frankreich", "Die Hauptstadt von Frankreich ist");
+  await blank.getByRole("textbox", { name: "Deine Antwort" }).fill("Lyon");
+  await blank.getByRole("button", { name: "Prüfen" }).click();
+  await expect(blank.getByText(/Nicht ganz/)).toBeVisible();
+  await expect(blank.getByText("Paris", { exact: true }).first()).toBeVisible(); // the solution is shown
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});

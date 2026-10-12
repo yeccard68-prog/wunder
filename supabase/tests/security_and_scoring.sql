@@ -20,7 +20,7 @@ begin
   begin
     perform set_config('request.jwt.claims', '{"role":"anon"}', true); set local role anon;
     select count(*) into n from public.questions;
-    out := out || (case when n = 566 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published questions, no drafts');
+    out := out || (case when n = 590 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published questions, no drafts');
     select (select count(*) from public.categories) + (select count(*) from public.videos) into n;
     out := out || (case when n = 40 then 'ok' else 'FAIL (' || n || ')' end || ' 03 anon reads categories and published videos');
   end;
@@ -274,6 +274,34 @@ begin
       out := out || 'FAIL 57 unchecked content could stay published'::text;
     exception when check_violation then out := out || 'ok 57 published content can never be unchecked'::text; end;
   end;
+
+  -- ---------- question formats: order, estimate, blank (judged by submit_response) ----------
+  perform set_config('request.jwt.claims', jsonb_build_object('sub', a, 'role', 'authenticated')::text, true);
+  begin set local role authenticated; perform public.submit_answer('o4', 0); out := out || 'FAIL 59 new format answered by option index'::text;
+  exception when insufficient_privilege then out := out || 'ok 59 a new-format question cannot be answered through submit_answer'::text; end;
+  reset role;
+  begin
+    set local role authenticated;
+    r := public.submit_response('o4', '{"order":[2,0,3,1]}');
+    out := out || (case when (r->>'correct')::boolean and r->'answer'->'order' = '[2,0,3,1]'::jsonb then 'ok' else 'FAIL ' || r::text end || ' 60 order: the right sequence is correct and the solution is returned');
+    r := public.submit_response('o1', '{"order":[0,1,2,3]}');
+    out := out || (case when not (r->>'correct')::boolean and (r->>'review_box')::int = 0 then 'ok' else 'FAIL ' || r::text end || ' 61 order: a wrong sequence is wrong and scheduled for review');
+    r := public.submit_response('s-e1', '{"value":75}');
+    out := out || (case when (r->>'correct')::boolean then 'ok' else 'FAIL ' || r::text end || ' 62 estimate: inside the tolerance counts');
+    r := public.submit_response('s-e7', '{"value":50000}');
+    out := out || (case when not (r->>'correct')::boolean then 'ok' else 'FAIL ' || r::text end || ' 63 estimate: outside the tolerance does not');
+    r := public.submit_response('l-b1', '{"text":"  PARIS. "}', 'feed', null, 'en');
+    out := out || (case when (r->>'correct')::boolean and r->>'explanation' like 'Paris is%' then 'ok' else 'FAIL ' || r::text end || ' 65 blank: case, spaces and full stop are ignored');
+    r := public.submit_response('l-b4', '{"text":"Saturn"}');
+    out := out || (case when not (r->>'correct')::boolean then 'ok' else 'FAIL ' || r::text end || ' 66 blank: a wrong word is wrong');
+  end;
+  reset role;
+  begin set local role authenticated; perform public.submit_response('s1', '{"order":[0,1,2,3]}'); out := out || 'FAIL 68 ordinary question accepted a response'::text;
+  exception when others then out := out || 'ok 68 ordinary questions are not answered through submit_response'::text; end;
+  reset role;
+  begin set local role authenticated; perform public.submit_answer('o3', 0); out := out || 'FAIL 71 guard open after a response'::text;
+  exception when insufficient_privilege then out := out || 'ok 71 the guard is closed again after submit_response'::text; end;
+  reset role;
 
   raise exception E'TEST RESULTS (everything rolled back)\n%', array_to_string(out, E'\n');
 end $$;

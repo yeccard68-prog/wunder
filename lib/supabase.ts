@@ -1,6 +1,7 @@
 // Data-access layer for the Supabase backend. UI code never talks to Supabase directly.
 // Without the two public env vars the app runs in clearly labelled demo mode instead.
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
+import type { AnswerKey, FormatResponse } from "./formats";
 import { buildContent, type QuestionRow, type VideoRow } from "./content";
 import type { AgeBand } from "./types";
 
@@ -103,6 +104,7 @@ export interface ServerAnswer {
   review_due: string | null;
   successful_reviews: number;
   stats: ServerStats;
+  answer?: AnswerKey; // only from submit_response
 }
 
 export async function fetchMyState(localDate: string, locale: string): Promise<ServerState> {
@@ -114,6 +116,13 @@ export async function fetchMyState(localDate: string, locale: string): Promise<S
 /** Correctness, XP and streak are decided on the server. */
 export async function submitAnswer(questionId: string, selected: number, context: string, localDate: string, locale: string): Promise<ServerAnswer> {
   const { data, error } = await db().rpc("submit_answer", { p_question_id: questionId, p_selected: selected, p_context: context, p_local_date: localDate, p_locale: locale });
+  if (error) throw error;
+  return data as ServerAnswer;
+}
+
+/** Order, estimate and blank questions: the response itself is judged on the server. */
+export async function submitResponse(questionId: string, response: FormatResponse, context: string, localDate: string, locale: string): Promise<ServerAnswer> {
+  const { data, error } = await db().rpc("submit_response", { p_question_id: questionId, p_response: response, p_context: context, p_local_date: localDate, p_locale: locale });
   if (error) throw error;
   return data as ServerAnswer;
 }

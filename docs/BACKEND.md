@@ -221,3 +221,26 @@ Offen bis zur Store-Reife:
 - Rückfall: Fehlt WebGL oder geht der Grafikkontext verloren, zeigt der Abspieler die 2D-Zeichnung (`fallback_scene`), sonst einen Hinweis; die Erklärsätze bleiben in jedem Fall. Beides ist per Browser-Test abgedeckt.
 - Szenen: `engine` (Viertaktmotor, aufgeschnittener Zylinder), `dna` (Doppelhelix, Basenpaarung, Verdopplung), `orbit` (Trägheit + Schwerkraft, Keplersche Gesetze). Die Ellipse ist bewusst übertrieben; das steht im Text.
 - Hinweis für die Android-Verpackung: Der statische Export legt Vorlade-Dateien als `__next.<seite>/__PAGE__.txt` ab, angefragt wird `__next.<seite>.__PAGE__.txt`. Vercel löst das auf; ein einfacher Dateiserver nicht (siehe `scripts/serve-static.mjs`). Vor dem Capacitor-Build prüfen.
+
+## 19. Bücher
+
+- 20 Sachbücher mit je drei Lerneinheiten (60 Ideen, 18 davon mit interaktiver Darstellung). Quelle der Texte: `content/_batches/2026-10-books.mjs`; `node scripts/content/build-books.mjs` prüft und schreibt `content/books.json`. Schlägt die Prüfung fehl (fehlende Texte, weniger als drei Ideen, unbekannte Darstellung, fehlende Quellseite, doppelte Idee, Sprachen weichen ab), wird nichts geschrieben.
+- Jedes Buch: Titel, Autor, Jahr, Kernthese, Ideen (Erklärung + Beispiel + optional Darstellung), Einordnung und Kritik, Frage zum Weiterdenken, Wissens-Check (normale Karte `bq-…`, Wertung auf dem Server), verwandte Bücher, Quelle, Prüfstatus, Lesezeit.
+- Urheberrecht: nur eigene Erklärungen, keine Auszüge, keine Buchcover (eigene typografische Karten). Was der Autor behauptet und was Kritik ist, steht getrennt.
+- Darstellungen (`components/books/Visual.tsx`): `loop` (Kreislauf), `compare` (Gegenüberstellung), `scenario` (erst entscheiden, dann Erklärung), `growth` (Zinseszins mit Schieberegler). Neue Arten dort und in `build-books.mjs` ergänzen.
+- Seiten: `/books/` (Regal mit Suche und Sparten, „Weiterlesen“, gemerkte Ideen; `?b=<id>` öffnet ein Buch). Einzelne Ideen erscheinen im Feed (Rhythmus Clip – Animation – Buch-Idee – Clip), in der Suche und in der Bibliothek.
+- Fortschritt („Verstanden“) und gemerkte Ideen liegen im Profilzustand auf dem Gerät (`state.books`), noch nicht in der Datenbank – sie wandern nicht auf ein zweites Gerät.
+
+## 20. Fragetypen
+
+- Neben Auswahlfragen (`question`) und „Stimmt das?“ (`fact`) gibt es `order` (Reihenfolge), `estimate` (Schätzen per Schieberegler mit Toleranz) und `blank` (Lückentext).
+- Der Lösungsschlüssel steht in `question_answers.answer` (für Clients unlesbar). Gewertet wird in `submit_response()`; XP, Wiederholung und Serie laufen danach durch dasselbe `submit_answer()` wie bisher. Über `submit_answer()` direkt lassen sich die neuen Typen nicht beantworten.
+- Dieselben Regeln gelten im Demo-Modus (`lib/formats.ts`, `evaluate`). Eingaben: `components/Formats.tsx`.
+- Inhalte anlegen: Export `formats` in einem Stapel (siehe `content/_batches/2026-10-formats.mjs`). Die Erklärung muss die Lösung nennen – nach einem Neuladen sieht man nur sie.
+- Migration: `supabase/migrations/20261016120000_question_formats.sql` (nur Ergänzungen).
+
+## 21. Tempo der Animationen
+
+- Eine Stelle für alle: `TIMING` in `lib/animations.ts` (Faktor auf die Schrittdauern, Mindestdauer je Schritt, Faktor für laufende Bewegung, feste Dauer für Kamerafahrten und Einblendungen).
+- Stand: Faktor 0,7 → jede Animation läuft 30 % schneller als zuerst geschrieben (Herz 29 → 20 s, Motor 26 → 18 s, neuronales Netz 32 → 22 s, DNA 34 → 24 s). Kamerafahrten dauern 0,8 s statt eines Drittels des Schritts.
+- Messen: `node scripts/measure-animations.mjs "Herz" "Benzinmotor"` (Laufzeit erster Durchlauf und Wiederholung, Bilder pro Sekunde). Bildraten hängen vom Gerät ab.

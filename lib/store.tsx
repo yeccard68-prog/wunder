@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { evaluate, type FormatResponse } from "./formats";
 import type { AnswerContext, AnswerRecord, AnswerResult, Item, LogEntry, UserState } from "./types";
 import { demoContent, forAudience, type Clip, type Content } from "./content";
 import { detectLocale, translate } from "./i18n";
@@ -131,7 +132,8 @@ interface Store {
   getState: () => UserState;
   toast: (text: string, tone?: Toast["tone"]) => void;
   /** Resolves with the result, or null if the answer could not be saved. */
-  answer: (item: Item, selected: number, context?: AnswerContext) => Promise<AnswerResult | null>;
+  /** `response` is given for order / estimate / blank questions; `selected` is ignored then. */
+  answer: (item: Item, selected: number, context?: AnswerContext, response?: FormatResponse) => Promise<AnswerResult | null>;
   toggle: (list: "likes" | "saves", item: { id: string }) => void;
   hide: (item: { id: string }, report?: boolean) => void;
   trackClip: (id: string, event: "play" | "complete") => void;
@@ -310,14 +312,14 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   // ---------- answering ----------
   const answer = useCallback(
-    async (item: Item, selected: number, context: AnswerContext = "feed"): Promise<AnswerResult | null> => {
+    async (item: Item, selected: number, context: AnswerContext = "feed", response?: FormatResponse): Promise<AnswerResult | null> => {
       const at = new Date().toISOString();
       if (MODE === "live") {
         try {
-          const res = await api.submitAnswer(item.id, selected, context, today(), ref.current.settings.locale);
+          const res = response ? await api.submitResponse(item.id, response, context, today(), ref.current.settings.locale) : await api.submitAnswer(item.id, selected, context, today(), ref.current.settings.locale);
           const rec: AnswerRecord = { correct: res.last_correct, at, categoryId: item.categoryId, difficulty: item.difficulty, box: res.review_box, due: res.review_due, reviews: res.successful_reviews, correctIndex: res.correct_index, explanation: res.explanation };
           commit((s) => ({ ...s, ...fromStats(res.stats), answers: { ...s.answers, [item.id]: rec } }));
-          return { correct: res.correct, correctIndex: res.correct_index, explanation: res.explanation, xp: res.xp_earned };
+          return { correct: res.correct, correctIndex: res.correct_index, explanation: res.explanation, xp: res.xp_earned, answer: res.answer };
         } catch (e) {
           toast(tr("Antwort nicht gespeichert: {reason}", { reason: tr(message(e)) }));
           return null;
@@ -327,7 +329,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const prev = ref.current.answers[item.id];
       const correctIndex = item.correctIndex ?? -1;
       const explanation = item.explanation ?? "";
-      const correct = selected === correctIndex;
+      const correct = response ? evaluate(item.kind, item.answerKey, response) : selected === correctIndex;
       const base = { at, categoryId: item.categoryId, difficulty: item.difficulty, correctIndex, explanation };
       let xp = 0;
       let rec: AnswerRecord;
@@ -346,7 +348,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         rec = correct ? prev : { ...prev, ...base, correct, box: 0, due: dueAt(0) };
       }
       commit((st) => ({ ...st, answers: { ...st.answers, [item.id]: rec }, ...(counts ? applyActivity(st) : {}) }), { addXp: xp });
-      return { correct, correctIndex, explanation, xp };
+      return { correct, correctIndex, explanation, xp, answer: item.answerKey };
     },
     [commit, toast, tr]
   );

@@ -52,6 +52,10 @@ const base = { tags: [], verification_status: status, status: "published", show_
 (batch.claims ?? []).forEach(([id, category_id, min_age, question, truth, explanation, wiki, enQ, enE, tags], i) =>
   upsert(questions, { id, kind: "fact", category_id, question, options: ["Stimmt", "Stimmt nicht"], correct_index: truth ? 0 : 1, explanation, difficulty: 1, ...base, tags: tags ?? [], source_name: "Wikipedia: " + wiki.replaceAll("_", " "), source_url: W + wiki, created_at: day(i * 2 + 1), min_age, max_age: null, translations: tr(enQ, ["True", "False"], enE) })
 );
+// order / estimate / blank: correct_index is only a placeholder, the real key is `answer`
+(batch.formats ?? []).forEach((f, i) =>
+  upsert(questions, { id: f.id, kind: f.kind, category_id: f.category, question: f.question, options: f.options, correct_index: 0, answer: f.answer, explanation: f.explanation, difficulty: f.difficulty, ...base, tags: f.tags ?? [], source_name: "Wikipedia: " + f.wiki.replaceAll("_", " "), source_url: W + f.wiki, created_at: day(i), min_age: f.minAge, max_age: null, translations: tr(f.en.question, f.en.options, f.en.explanation) })
+);
 for (const q of questions) if (q.kind === "fact" && q.translations[L]) q.translations[L].options = ["True", "False"];
 
 for (const v of videos) {

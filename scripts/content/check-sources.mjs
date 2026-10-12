@@ -5,7 +5,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const batch = await import(pathToFileURL(path.resolve(process.argv[2])).href);
-const titles = [...new Set([...(batch.questions ?? []).map((q) => q[9]), ...(batch.claims ?? []).map((c) => c[6])])].map((t) => t.replaceAll("_", " "));
+const titles = [...new Set([...(batch.questions ?? []).map((q) => q[9]), ...(batch.claims ?? []).map((c) => c[6]), ...(batch.formats ?? []).map((f) => f.wiki)])].map((t) => t.replaceAll("_", " "));
 const missing = [];
 const redirects = [];
 for (let i = 0; i < titles.length; i += 40) {

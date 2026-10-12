@@ -19,7 +19,7 @@ const rows = {
     verification_status: q.verification_status, status: q.status, show_in_feed: q.show_in_feed, created_at: q.created_at, min_age: q.min_age, max_age: q.max_age ?? null,
     translations: mapTr(q.translations, (t) => ({ question: t.question, options: t.options })),
   })),
-  question_answers: content.questions.map((q) => ({ question_id: q.id, correct_index: q.correct_index, explanation: q.explanation, translations: mapTr(q.translations, (t) => ({ explanation: t.explanation })) })),
+  question_answers: content.questions.map((q) => ({ question_id: q.id, correct_index: q.correct_index, explanation: q.explanation, translations: mapTr(q.translations, (t) => ({ explanation: t.explanation })), answer: q.answer ?? null })),
   videos: content.videos.map((v) => ({
     id: v.id, category_id: v.category_id, title: v.title, hook: v.hook, description: v.description, video_url: v.video_url, thumbnail_url: v.thumbnail_url, duration_seconds: v.duration_seconds, has_audio: v.has_audio,
     captions: v.captions, creator_name: v.creator_name, format: v.format, sources: v.sources, published_at: v.published_at, tags: v.tags, quiz_question_id: v.quiz_question_id,

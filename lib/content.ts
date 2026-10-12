@@ -2,6 +2,7 @@
 // and tailors them to the user's language and age level.
 // The JSON dataset is bundled ONLY for demo mode (no backend configured).
 import questionsJson from "../content/questions.json";
+import type { AnswerKey } from "./formats";
 import videosJson from "../content/videos.json";
 import type { AgeBand, Difficulty, Item } from "./types";
 
@@ -50,6 +51,7 @@ export interface QuestionRow {
   translations?: Record<string, { question: string; options: string[]; explanation?: string }>;
   like_count?: number;
   correct_index?: number;
+  answer?: AnswerKey | null;
   explanation?: string;
 }
 
@@ -87,7 +89,8 @@ export interface Content {
 export function toItem(r: QuestionRow): Item {
   return {
     id: r.id,
-    kind: r.kind === "fact" ? "fact" : "question",
+    kind: (["fact", "order", "estimate", "blank"].includes(r.kind) ? r.kind : "question") as Item["kind"],
+    answerKey: r.answer ?? undefined,
     categoryId: r.category_id,
     question: r.question,
     options: r.options,

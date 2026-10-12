@@ -1,3 +1,4 @@
+import type { AnswerKey } from "./formats";
 export type Difficulty = 1 | 2 | 3;
 
 export interface Category {
@@ -20,7 +21,8 @@ export interface Source {
  */
 export interface Item {
   id: string;
-  kind: "question" | "fact";
+  kind: "question" | "fact" | "order" | "estimate" | "blank"; // the last three: see lib/formats.ts
+  answerKey?: AnswerKey; // only where answers are known locally (demo mode)
   categoryId: string;
   question: string;
   options: string[];
@@ -47,6 +49,7 @@ export interface AnswerResult {
   correctIndex: number;
   explanation: string;
   xp: number;
+  answer?: AnswerKey; // the solution of an order / estimate / blank question
 }
 
 export interface AnswerRecord {

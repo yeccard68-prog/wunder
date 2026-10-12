@@ -421,5 +421,17 @@
   "Naturwissenschaft": "Science",
   "Geschichte & Gesellschaft": "History & society",
   "Philosophie": "Philosophy",
-  "Kommunikation": "Communication"
+  "Kommunikation": "Communication",
+  "Bring es in die richtige Reihenfolge": "Put it in the right order",
+  "Schätz mal": "Take a guess",
+  "Ergänze": "Fill the gap",
+  "„{x}“ nach oben": "Move “{x}” up",
+  "„{x}“ nach unten": "Move “{x}” down",
+  "Reihenfolge prüfen": "Check the order",
+  "Deine Schätzung": "Your estimate",
+  "Richtig sind {v} {unit}": "The right answer is {v} {unit}",
+  "Schätzung abgeben": "Submit estimate",
+  "Deine Antwort": "Your answer",
+  "Prüfen": "Check",
+  "Deine Antwort: {x}": "Your answer: {x}"
 }

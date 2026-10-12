@@ -44,7 +44,23 @@ export function validateContent({ categories, questions, videos }, { publicDir =
   for (const q of questions) {
     const at = `question ${q.id}`;
     if (blank(q.id)) errors.push("question without id");
-    if (!["question", "fact"].includes(q.kind)) errors.push(`${at}: kind must be "question" or "fact"`);
+    const special = ["order", "estimate", "blank"].includes(q.kind);
+    if (!["question", "fact"].includes(q.kind) && !special) errors.push(`${at}: unknown kind "${q.kind}"`);
+    if (special) {
+      const a = q.answer ?? {};
+      if (q.correct_index !== 0) errors.push(`${at}: correct_index must be 0 (placeholder) for ${q.kind}`);
+      if (q.kind === "order" && !(Array.isArray(a.order) && [...a.order].sort().join() === (q.options ?? []).map((_, i) => i).join())) errors.push(`${at}: answer.order must list every option index once`);
+      if (q.kind === "estimate") {
+        const [min, max, , step] = (q.options ?? []).map(Number);
+        if (q.options?.length !== 4 || !(min < max) || !(step > 0)) errors.push(`${at}: options must be [min, max, unit, step]`);
+        else if (!(a.value >= min && a.value <= max) || (a.abs == null && a.rel == null)) errors.push(`${at}: answer needs a value inside the range and abs or rel`);
+        else if ((a.value - min) % step !== 0 && a.abs === 0) errors.push(`${at}: exact value cannot be reached with this step`);
+      }
+      if (q.kind === "blank") {
+        if (!String(q.question ?? "").includes("___") || Object.values(q.translations ?? {}).some((t) => !String(t.question).includes("___"))) errors.push(`${at}: the question must be the sentence with ___ (in every language)`);
+        if (!(Array.isArray(a.accept) && a.accept.length && a.accept.every((x) => x === String(x).toLowerCase().trim())) || blank(a.show)) errors.push(`${at}: answer needs lower-case accept[] and show`);
+      }
+    } else if (q.answer != null) errors.push(`${at}: only order / estimate / blank questions carry an answer object`);
     if (!cats.has(q.category_id)) errors.push(`${at}: unknown category "${q.category_id}"`);
     if (blank(q.question)) errors.push(`${at}: question text missing`);
     if (blank(q.explanation)) errors.push(`${at}: explanation missing`);
@@ -153,8 +169,8 @@ export function buildImportSql({ categories, questions, videos }, { update = fal
       qs.map((q) => [s(q.id), s(q.kind), s(q.category_id), s(q.question), j(q.options), q.difficulty, arr(q.tags), s(q.source_name), s(q.source_url), s(q.verification_status), s(q.status), q.show_in_feed, s(q.created_at), q.min_age, n(q.max_age),
         j(mapTr(q.translations, (t) => ({ question: t.question, options: t.options })))]), ["id"], update),
     // explanations (original and translated) go to the private answer table
-    insert("question_answers", ["question_id", "correct_index", "explanation", "translations"],
-      qs.map((q) => [s(q.id), q.correct_index, s(q.explanation), j(mapTr(q.translations, (t) => ({ explanation: t.explanation })))]), ["question_id"], update),
+    insert("question_answers", ["question_id", "correct_index", "explanation", "translations", "answer"],
+      qs.map((q) => [s(q.id), q.correct_index, s(q.explanation), j(mapTr(q.translations, (t) => ({ explanation: t.explanation }))), q.answer ? j(q.answer) : "null"]), ["question_id"], update),
     insert("videos", ["id", "category_id", "title", "hook", "description", "video_url", "thumbnail_url", "duration_seconds", "has_audio", "captions", "creator_name", "format", "sources", "published_at", "tags", "quiz_question_id", "verification_status", "status", "min_age", "start_seconds", "end_seconds", "license", "translations"],
       vs.map((v) => [s(v.id), s(v.category_id), s(v.title), s(v.hook), s(v.description), s(v.video_url), s(v.thumbnail_url), v.duration_seconds, v.has_audio, j(v.captions), s(v.creator_name), s(v.format), j(v.sources), s(v.published_at), arr(v.tags), s(v.quiz_question_id), s(v.verification_status), s(v.status), v.min_age, n(v.start_seconds), n(v.end_seconds), s(v.license), j(v.translations ?? {})]), ["id"], update),
     `commit;`,

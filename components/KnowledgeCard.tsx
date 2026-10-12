@@ -5,6 +5,8 @@ import { Bookmark, Check, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Share2, T
 import type { AnswerContext, Item } from "@/lib/types";
 import { categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
+import { isFormat, type AnswerKey, type FormatResponse } from "@/lib/formats";
+import FormatInput, { FORMAT_LABEL } from "./Formats";
 import { useStore, useT } from "@/lib/store";
 import { Sheet } from "./ui";
 
@@ -44,7 +46,8 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
   const prev = inSession ? undefined : state.answers[item.id];
   const [picked, setPicked] = useState<number | null>(null);
   const [pending, setPending] = useState(false);
-  const [result, setResult] = useState<{ correct: boolean; correctIndex: number; explanation: string } | null>(null);
+  const [result, setResult] = useState<{ correct: boolean; correctIndex: number; explanation: string; answer?: AnswerKey } | null>(null);
+  const special = isFormat(item.kind); // order, estimate, blank: own input instead of options
   const [menu, setMenu] = useState(false);
   const isFact = item.kind === "fact";
   // The answer is only known after submitting (or from an earlier attempt).
@@ -60,6 +63,17 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
     const res = await answer(item, i, context);
     setPending(false);
     if (!res) return setPicked(null); // not saved → let the user try again
+    setResult(res);
+    onAnswered?.(res.correct);
+  };
+
+  const respond = async (response: FormatResponse) => {
+    if (done || pending) return;
+    setPending(true);
+    const res = await answer(item, 0, context, response);
+    setPending(false);
+    if (!res) return; // not saved → the input stays open
+    setPicked(0);
     setResult(res);
     onAnswered?.(res.correct);
   };
@@ -91,10 +105,12 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
         </div>
 
         {isFact && <p className="mb-1.5 font-display text-sm italic text-muted">{t("Stimmt das?")}</p>}
-        <h2 className="font-display text-[1.45rem] font-semibold leading-[1.2] tracking-tight text-balance">{item.question}</h2>
+        {special && <p className="mb-1.5 font-display text-sm italic text-muted">{t(FORMAT_LABEL[item.kind])}</p>}
+        {item.kind !== "blank" && <h2 className="font-display text-[1.45rem] font-semibold leading-[1.2] tracking-tight text-balance">{item.question}</h2>}
 
-        <div className={isFact ? "mt-5 grid grid-cols-2 gap-2.5" : "mt-5 space-y-2.5"}>
-          {item.options.map((opt, i) => (
+        {special && <FormatInput item={item} locale={state.settings.locale} pending={pending} done={reveal ? { correct: reveal.correct, solution: result?.answer } : null} submit={respond} />}
+        <div className={special ? "hidden" : isFact ? "mt-5 grid grid-cols-2 gap-2.5" : "mt-5 space-y-2.5"}>
+          {!special && item.options.map((opt, i) => (
             <button key={i} onClick={() => pick(i)} disabled={done || pending} className={`press flex min-h-[3.25rem] w-full items-center rounded-2xl border py-2.5 text-left text-[15px] font-medium ${isFact ? "justify-center gap-2 whitespace-nowrap px-2" : "gap-3 px-3.5"} ${optionStyle(i)}`}>
               <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${reveal && i === reveal.correctIndex ? "bg-good text-white" : reveal && i === picked ? "bg-bad text-white" : "bg-raised text-muted"}`}>
                 {reveal && i === reveal.correctIndex ? <Check size={14} /> : reveal && i === picked ? <X size={14} /> : isFact ? i === 0 ? <ThumbsUp size={13} /> : <ThumbsDown size={13} /> : LETTERS[i]}
