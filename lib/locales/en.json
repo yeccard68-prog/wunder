@@ -433,5 +433,7 @@
   "Schätzung abgeben": "Submit estimate",
   "Deine Antwort": "Your answer",
   "Prüfen": "Check",
-  "Deine Antwort: {x}": "Your answer: {x}"
+  "Deine Antwort: {x}": "Your answer: {x}",
+  "Nutzungsstatistik teilen": "Share usage statistics",
+  "Hilft uns zu sehen, welche Inhalte angesehen und abgeschlossen werden. Gespeichert wird nur, was du geöffnet oder beendet hast – keine Texte, kein Standort. Jederzeit abschaltbar.": "Helps us see which content is viewed and completed. Only what you opened or finished is stored – no texts, no location. Can be switched off at any time."
 }

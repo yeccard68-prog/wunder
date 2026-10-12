@@ -107,5 +107,5 @@ export interface UserState {
   challenges: ChallengeResult[];
   achievements: string[];
   log: LogEntry[];
-  settings: { theme: Theme; privateProfile: boolean; muted: boolean; captions: boolean; locale: string };
+  settings: { theme: Theme; privateProfile: boolean; muted: boolean; captions: boolean; locale: string; analytics?: boolean }; // analytics: consent to usage events, off unless switched on
 }

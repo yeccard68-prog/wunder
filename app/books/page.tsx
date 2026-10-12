@@ -5,6 +5,7 @@ import { ArrowLeft, BookOpen, Check, Clock, ExternalLink, MessageCircleQuestion,
 import InsightCard, { BookCover, useBookState } from "@/components/books/InsightCard";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Bar, Chip, Empty } from "@/components/ui";
+import { track } from "@/lib/analytics";
 import { BOOK_CATEGORIES, bookProgress, booksFor, type Book } from "@/lib/books";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
@@ -127,6 +128,7 @@ export default function BooksPage() {
     if (id) setOpenId(id);
   }, []);
   const open = (id: string | null) => {
+    if (id) track("book_open", id, "book");
     setOpenId(id);
     window.history.replaceState(null, "", id ? `?b=${id}` : window.location.pathname);
     window.scrollTo(0, 0);

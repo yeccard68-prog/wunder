@@ -6,6 +6,8 @@ import { useEffect, useState, type ReactNode } from "react";
 import { Compass, Flame, House, Library, RotateCcw, User, WifiOff } from "lucide-react";
 import { useStore, useT } from "@/lib/store";
 import { liveStreak } from "@/lib/gamification";
+import { setAnalytics } from "@/lib/analytics";
+import { isChild } from "@/lib/content";
 import Onboarding from "./Onboarding";
 import { Button, Skeleton, Wordmark } from "./ui";
 
@@ -38,6 +40,8 @@ export default function Shell({ children }: { children: ReactNode }) {
   const t = useT();
   const { toasts, ready, state, status, error, retry, stale, auth } = useStore();
   const online = useOnline();
+  // usage events only with consent, only with a real account, never for children
+  useEffect(() => setAnalytics(ready && auth.mode === "live" && !!state.settings.analytics && !isChild(state.ageBand)), [ready, auth.mode, state.settings.analytics, state.ageBand]);
   const immersive = path.startsWith("/clips"); // full-screen video feed
   const feed = path === "/"; // snapping feed: the page itself does not scroll, the feed does
   const nav = NAV;

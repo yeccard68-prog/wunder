@@ -244,3 +244,11 @@ Offen bis zur Store-Reife:
 - Eine Stelle für alle: `TIMING` in `lib/animations.ts` (Faktor auf die Schrittdauern, Mindestdauer je Schritt, Faktor für laufende Bewegung, feste Dauer für Kamerafahrten und Einblendungen).
 - Stand: Faktor 0,7 → jede Animation läuft 30 % schneller als zuerst geschrieben (Herz 29 → 20 s, Motor 26 → 18 s, neuronales Netz 32 → 22 s, DNA 34 → 24 s). Kamerafahrten dauern 0,8 s statt eines Drittels des Schritts.
 - Messen: `node scripts/measure-animations.mjs "Herz" "Benzinmotor"` (Laufzeit erster Durchlauf und Wiederholung, Bilder pro Sekunde). Bildraten hängen vom Gerät ab.
+
+## 22. Nutzungsmessung
+
+- Tabelle `public.events` (Migration `20261016150000_usage_events.sql`): Konto, Ereignisname aus fester Liste, höchstens ID und Art des Inhalts, Zeitpunkt. Kein Freitext, keine Gerätedaten, kein Standort. Clients dürfen eigene Zeilen einfügen und nichts lesen.
+- Geschrieben wird nur mit Einwilligung: Schalter „Nutzungsstatistik teilen“ in den Einstellungen, **standardmäßig aus**. Nie im Demo-Modus, nie für Kinder-Altersstufen (zusätzlich in der Datenbank verboten).
+- Ereignisse heute: `session_start`, `clip_start`, `clip_complete`, `animation_complete`, `insight_complete`, `book_open`, `content_save`. Antworten auf Fragen stehen ohnehin in `question_attempts`.
+- Auswertung: per SQL im Supabase-Dashboard. Ein Auswertungs-Bildschirm fehlt noch. Weil der Schalter aus ist, kommen erst Daten, wenn Nutzer ihn einschalten – für belastbare Zahlen müsste beim Onboarding gefragt werden (Entscheidung offen).
+- Markenname: Vorprüfung und Empfehlung in `docs/BRAND.md`; der Name steht zentral in `lib/brand.ts`.

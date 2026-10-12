@@ -1,3 +1,4 @@
+import { BRAND } from "./brand";
 // Interface languages. German is the source language: the German text itself is the key,
 // every other language is a dictionary in lib/locales/<locale>.json (German → translation).
 // A missing entry falls back to German, so a new language can be added step by step:
@@ -22,7 +23,8 @@ export function detectLocale(): string {
 
 /** translate("de", "Noch {n} bis zum Tagesziel", { n: 3 }) */
 export function translate(locale: string, key: string, vars?: Record<string, string | number>): string {
-  const text = DICTIONARIES[locale]?.[key] ?? key;
+  const raw = DICTIONARIES[locale]?.[key] ?? key;
+  const text = BRAND.name === BRAND.written ? raw : raw.replaceAll(BRAND.written, BRAND.name); // texts follow a rename
   return vars ? text.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? "")) : text;
 }
 

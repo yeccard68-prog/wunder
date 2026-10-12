@@ -2,12 +2,13 @@
 
 import { useEffect, type ButtonHTMLAttributes, type ReactNode } from "react";
 import { X } from "lucide-react";
+import { BRAND } from "@/lib/brand";
 import { useT } from "@/lib/store";
 
 export function Wordmark({ className = "" }: { className?: string }) {
   return (
     <span className={`font-display font-semibold italic tracking-tight ${className}`}>
-      Wunder<span className="text-accent">.</span>
+      {BRAND.name}<span className="text-accent">.</span>
     </span>
   );
 }

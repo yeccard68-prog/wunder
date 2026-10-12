@@ -6,6 +6,7 @@ import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
 import ClipPlayer from "@/components/ClipPlayer";
 import { Sheet } from "@/components/ui";
+import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
 import { categoryById } from "@/lib/categories";
 import type { Clip } from "@/lib/content";
@@ -66,7 +67,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
   const [quiz, setQuiz] = useState(false);
   const answered = !!clip.quiz && !!state.answers[clip.quiz.id];
   const saved = state.saves.includes(clip.id);
-  const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onComplete={() => trackClip(clip.id, "complete")} onStarted={() => trackClip(clip.id, "play")} />;
+  const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onComplete={() => { trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
   const quizLabel = answered ? t("Frage zum Clip ansehen") : t("Frage zum Clip");
 
   if (fill)
@@ -133,7 +134,7 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
       <Kicker categoryId={animation.categoryId} icon={<Shapes size={14} />} label={t("So funktioniert’s")} />
       <h2 className="font-display text-xl font-semibold leading-snug">{animation.title}</h2>
       <div ref={ref}>
-        <AnimationPlayer animation={animation} active={active} compact={compact} onFinished={() => setSeen(true)} />
+        <AnimationPlayer animation={animation} active={active} compact={compact} onFinished={() => { setSeen(true); track("animation_complete", animation.id, "animation"); }} />
       </div>
       {quiz && (seen || !!state.answers[quiz.id]) && (
         <div className="-mx-2 border-t border-line pt-3">

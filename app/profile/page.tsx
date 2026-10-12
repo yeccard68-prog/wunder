@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { isChild } from "@/lib/content";
 import Link from "next/link";
 import { Award, Bookmark, ChevronRight, Clapperboard, Lock, Settings, Share2, ShieldCheck } from "lucide-react";
 
@@ -197,6 +198,12 @@ export default function ProfilePage() {
               <p className="text-sm text-muted">{t("Du erscheinst nicht in Ranglisten und Suchergebnissen.")}</p>
             </div>
             <Toggle label={t("Privates Profil")} checked={state.settings.privateProfile} onChange={(v) => update({ settings: { ...state.settings, privateProfile: v } })} />
+            {!isChild(state.ageBand) && (
+              <div>
+                <Toggle label={t("Nutzungsstatistik teilen")} checked={!!state.settings.analytics} onChange={(v) => update({ settings: { ...state.settings, analytics: v } })} />
+                <p className="mt-1 text-xs leading-relaxed text-muted">{t("Hilft uns zu sehen, welche Inhalte angesehen und abgeschlossen werden. Gespeichert wird nur, was du geöffnet oder beendet hast – keine Texte, kein Standort. Jederzeit abschaltbar.")}</p>
+              </div>
+            )}
           </div>
           <div>
             <p className="mb-2 text-sm font-semibold">{t("Konto")}</p>

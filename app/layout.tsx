@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { BRAND } from "@/lib/brand";
 import { Fraunces, Geist } from "next/font/google";
 import "./globals.css";
 import { StoreProvider } from "@/lib/store";
@@ -8,7 +9,7 @@ const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", dis
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Wunder – Jeden Tag ein bisschen klüger",
+  title: `${BRAND.name} – ${BRAND.tagline}`,
   description: "Entdecke Wissen in Sekunden: kurze Fakten, schnelle Quizfragen, Challenges mit Freunden.",
   manifest: "/manifest.json",
   icons: { icon: "/icon.svg", apple: "/icon.svg" },

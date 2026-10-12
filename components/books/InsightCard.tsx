@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowRight, BookOpen, Bookmark, Check } from "lucide-react";
 import BookVisual from "@/components/books/Visual";
+import { track } from "@/lib/analytics";
 import type { Book, Idea } from "@/lib/books";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
@@ -11,7 +12,10 @@ import { useStore, useT } from "@/lib/store";
 export function useBookState() {
   const { state, update } = useStore();
   const books = state.books ?? { read: [], saved: [] };
-  const flip = (list: "read" | "saved", id: string) => update({ books: { ...books, [list]: books[list].includes(id) ? books[list].filter((x) => x !== id) : [...books[list], id] } });
+  const flip = (list: "read" | "saved", id: string) => {
+    if (!books[list].includes(id)) track(list === "read" ? "insight_complete" : "content_save", id, "insight");
+    update({ books: { ...books, [list]: books[list].includes(id) ? books[list].filter((x) => x !== id) : [...books[list], id] } });
+  };
   return { read: books.read, saved: books.saved, toggleRead: (id: string) => flip("read", id), toggleSaved: (id: string) => flip("saved", id) };
 }
 
