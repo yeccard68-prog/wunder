@@ -74,3 +74,21 @@ test("the built app opens its main pages without errors", async ({ page }) => {
   }
   expect(errors).toEqual([]);
 });
+
+test("an explainer animation plays, can be stepped through and ends with its question", async ({ page }) => {
+  await openClips(page);
+  await page.goto("/explain/");
+  await page.getByRole("button", { name: /Wie das Herz Blut pumpt/ }).click();
+  const player = page.getByTestId("animation-player");
+  await expect(player).toHaveAttribute("data-playing", "true");
+  await page.getByRole("button", { name: "Pause" }).click();
+  await expect(player).toHaveAttribute("data-playing", "false");
+  await page.getByRole("button", { name: "Schritt 4", exact: true }).click();
+  await expect(player).toHaveAttribute("data-step", "3");
+  await expect(page.getByText("4/4")).toBeVisible();
+  await page.getByRole("button", { name: "Abspielen" }).click();
+  await expect(page.getByText("Verstanden?")).toBeVisible({ timeout: 15_000 });
+  await expect(page.getByRole("button", { name: "Noch einmal ansehen" })).toBeVisible();
+  const box = (await page.locator("svg[role=img]").boundingBox())!;
+  expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
+});

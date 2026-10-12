@@ -335,5 +335,20 @@
   "Zurückziehen": "Withdraw",
   "Clip wird geladen": "Loading clip",
   "Du bist offline. Sobald die Verbindung zurück ist, geht es weiter.": "You are offline. It will continue as soon as the connection is back.",
-  "Prüfe deine Verbindung oder wische zum nächsten Clip.": "Check your connection or swipe to the next clip."
+  "Prüfe deine Verbindung oder wische zum nächsten Clip.": "Check your connection or swipe to the next clip.",
+  "So funktioniert’s": "How it works",
+  "{n} Animationen: Herz, Motor, Gewitter und mehr": "{n} animations: heart, engine, thunderstorm and more",
+  "Alle Animationen": "All animations",
+  "Verstanden?": "Got it?",
+  "Kurze Animationen, die Schritt für Schritt zeigen, wie etwas funktioniert.": "Short animations that show step by step how something works.",
+  "Noch keine Animationen": "No animations yet",
+  "Für deine Altersstufe gibt es hier noch nichts. Neue Animationen folgen.": "There is nothing here for your age level yet. New animations will follow.",
+  "{n} Sek.": "{n} sec",
+  "{n} Schritte": "{n} steps",
+  "Diese Animation kann gerade nicht angezeigt werden.": "This animation cannot be shown right now.",
+  "Schritt zurück": "Step back",
+  "Schritt weiter": "Step forward",
+  "Schritt {n}": "Step {n}",
+  "Noch einmal ansehen": "Watch again",
+  "Pause": "Pause"
 }

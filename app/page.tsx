@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowRight, Check, RotateCcw, Users } from "lucide-react";
+import { ArrowRight, Check, RotateCcw, Shapes, Users } from "lucide-react";
 import Feed from "@/components/Feed";
 import { Button, Empty, Ring, Segmented } from "@/components/ui";
 import { dailyCount, dueReviews, goalQuestions, today } from "@/lib/gamification";
 import { rankFollowing, rankForYou } from "@/lib/ranking";
+import { animationsFor } from "@/lib/animations";
 import { isChild } from "@/lib/content";
 import { useStore, useT } from "@/lib/store";
 
@@ -27,6 +28,7 @@ export default function HomePage() {
   const due = dueReviews(items, state).length;
   const goal = goalQuestions(state.goalMinutes);
   const count = dailyCount(state);
+  const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand).length, [state.settings.locale, state.ageBand]);
   const start = (mode: "daily" | "review") => {
     setLaunch({ mode });
     router.push("/quiz/");
@@ -57,6 +59,19 @@ export default function HomePage() {
           <span className="flex-1 text-sm">
             <span className="block font-semibold">{due === 1 ? t("1 Wiederholung ist fällig") : t("{n} Wiederholungen sind fällig", { n: due })}</span>
             <span className="text-muted">{t("Schließe die Lücke, solange sie frisch ist.")}</span>
+          </span>
+          <ArrowRight size={18} className="text-muted" />
+        </button>
+      )}
+
+      {animations > 0 && (
+        <button onClick={() => router.push("/explain/")} className="press card flex w-full items-center gap-3 p-4 text-left">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-raised">
+            <Shapes size={18} />
+          </span>
+          <span className="flex-1 text-sm">
+            <span className="block font-semibold">{t("So funktioniert’s")}</span>
+            <span className="text-muted">{t("{n} Animationen: Herz, Motor, Gewitter und mehr", { n: animations })}</span>
           </span>
           <ArrowRight size={18} className="text-muted" />
         </button>

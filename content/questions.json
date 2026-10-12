@@ -8269,5 +8269,190 @@
         "explanation": "The QWERTY layout dates from the 1870s."
       }
     }
+  },
+  {
+    "id": "qa-herz",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welcher Teil des Herzens pumpt das Blut in den Körper?",
+    "options": [
+      "Der rechte Vorhof",
+      "Die rechte Kammer",
+      "Die linke Kammer",
+      "Der linke Vorhof"
+    ],
+    "correct_index": 2,
+    "explanation": "Die linke Kammer hat die dickste Muskelwand, weil sie das Blut durch den ganzen Körper drücken muss. Die rechte Kammer pumpt nur zur Lunge.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Herz",
+    "source_url": "https://de.wikipedia.org/wiki/Herz",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which part of the heart pumps blood to the body?",
+        "options": [
+          "The right atrium",
+          "The right ventricle",
+          "The left ventricle",
+          "The left atrium"
+        ],
+        "explanation": "The left ventricle has the thickest muscle wall because it has to push blood through the whole body. The right ventricle only pumps to the lungs."
+      }
+    }
+  },
+  {
+    "id": "qa-motor",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "In welchem der vier Takte liefert ein Benzinmotor Kraft?",
+    "options": [
+      "Beim Ansaugen",
+      "Beim Verdichten",
+      "Beim Arbeiten",
+      "Beim Ausstoßen"
+    ],
+    "correct_index": 2,
+    "explanation": "Nur im Arbeitstakt drückt das brennende Gas den Kolben nach unten. Die anderen drei Takte verbrauchen einen Teil dieser Energie.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Viertaktmotor",
+    "source_url": "https://de.wikipedia.org/wiki/Viertaktmotor",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which of the four strokes does a petrol engine deliver power?",
+        "options": [
+          "Intake",
+          "Compression",
+          "Power",
+          "Exhaust"
+        ],
+        "explanation": "Only in the power stroke does the burning gas push the piston down. The other three strokes use up part of that energy."
+      }
+    }
+  },
+  {
+    "id": "qa-gewitter",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wo sammelt sich in einer Gewitterwolke vor allem die negative Ladung?",
+    "options": [
+      "Im unteren Teil der Wolke",
+      "Ganz oben in der Wolke",
+      "Nur am Erdboden",
+      "Gleichmäßig überall"
+    ],
+    "correct_index": 0,
+    "explanation": "Der schwere, negativ geladene Graupel sammelt sich unten, die leichten, positiv geladenen Eiskristalle oben. Zwischen Wolke und Boden entsteht so eine hohe Spannung.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewitter",
+    "source_url": "https://de.wikipedia.org/wiki/Gewitter",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does most of the negative charge collect in a thundercloud?",
+        "options": [
+          "In the lower part of the cloud",
+          "At the very top of the cloud",
+          "Only on the ground",
+          "Evenly everywhere"
+        ],
+        "explanation": "The heavy, negatively charged graupel collects at the bottom, the light, positively charged ice crystals at the top. This creates a high voltage between cloud and ground."
+      }
+    }
+  },
+  {
+    "id": "qa-batterie",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was fließt durch den Draht, wenn eine Batterie eine Lampe zum Leuchten bringt?",
+    "options": [
+      "Ionen",
+      "Elektronen",
+      "Protonen",
+      "Der Elektrolyt"
+    ],
+    "correct_index": 1,
+    "explanation": "Durch den Draht fließen Elektronen vom Minuspol zum Pluspol. Im Inneren der Batterie wandern dagegen Ionen durch den Elektrolyten.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Batterie (Elektrotechnik)",
+    "source_url": "https://de.wikipedia.org/wiki/Batterie_(Elektrotechnik)",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What flows through the wire when a battery lights a lamp?",
+        "options": [
+          "Ions",
+          "Electrons",
+          "Protons",
+          "The electrolyte"
+        ],
+        "explanation": "Electrons flow through the wire from the negative to the positive terminal. Inside the battery, by contrast, ions move through the electrolyte."
+      }
+    }
+  },
+  {
+    "id": "qa-platten",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was entsteht dort, wo zwei Erdplatten auseinanderdriften und Magma aufsteigt?",
+    "options": [
+      "Ein Tiefseegraben",
+      "Neue Erdkruste",
+      "Ein Faltengebirge",
+      "Eine Wüste"
+    ],
+    "correct_index": 1,
+    "explanation": "Das aufsteigende Magma erstarrt zu neuer Kruste – so wächst zum Beispiel der Atlantik jedes Jahr um einige Zentimeter.",
+    "difficulty": 2,
+    "tags": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Plattentektonik",
+    "source_url": "https://de.wikipedia.org/wiki/Plattentektonik",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What forms where two tectonic plates drift apart and magma rises?",
+        "options": [
+          "A deep-sea trench",
+          "New crust",
+          "A fold mountain range",
+          "A desert"
+        ],
+        "explanation": "The rising magma solidifies into new crust – this is how the Atlantic, for example, widens by a few centimetres every year."
+      }
+    }
   }
 ]
