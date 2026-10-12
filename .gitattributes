@@ -1,0 +1,3 @@
+# generated files are compared byte for byte in tests – keep their line endings stable on every system
+*.sql text eol=lf
+*.json text eol=lf

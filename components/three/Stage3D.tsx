@@ -22,24 +22,24 @@ interface Runtime {
  * paused or off-screen animation costs nothing. Labels are HTML on top of the canvas (sharp at any size).
  * If WebGL is not available or the context is lost, onUnavailable() lets the player fall back.
  */
-export default function Stage3D({ scene, step, p, t, labels, title, compact, onUnavailable }: { scene: string; step: number; p: number; t: number; labels: string[]; title: string; compact?: boolean; onUnavailable: () => void }) {
+export default function Stage3D({ scene, step, p, t, into, labels, title, compact, onUnavailable }: { scene: string; step: number; p: number; t: number; into: number; labels: string[]; title: string; compact?: boolean; onUnavailable: () => void }) {
   const host = useRef<HTMLDivElement>(null);
   const canvas = useRef<HTMLCanvasElement>(null);
   const layer = useRef<HTMLDivElement>(null);
   const heading = useRef<HTMLParagraphElement>(null);
   const rt = useRef<Runtime | null>(null);
   const yaw = useRef(0);
-  const frame = useRef({ step, p, t });
+  const frame = useRef({ step, p, t, into });
   const [ready, setReady] = useState(false);
-  frame.current = { step, p, t };
+  frame.current = { step, p, t, into };
 
   const draw = () => {
     const r = rt.current;
     const el = layer.current;
     if (!r || !el) return;
-    const { step, p, t } = frame.current;
-    r.api.update(step, p, t);
-    const view = r.api.camera(step, p, t);
+    const { step, p, t, into } = frame.current;
+    r.api.update(step, p, t, into);
+    const view = r.api.camera(step, p, t, into);
     // the learner's drag turns the camera around the point it looks at
     const dx = view.pos[0] - view.look[0];
     const dz = view.pos[2] - view.look[2];
@@ -50,7 +50,7 @@ export default function Stage3D({ scene, step, p, t, labels, title, compact, onU
     r.renderer.render(r.scene, r.camera);
 
     // labels: project their 3D anchor onto the canvas
-    const list = r.api.labels?.(step, p, t) ?? [];
+    const list = r.api.labels?.(step, p, t, into) ?? [];
     const w = el.clientWidth;
     const h = el.clientHeight;
     const v = new r.T.Vector3();

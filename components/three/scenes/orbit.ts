@@ -1,6 +1,7 @@
 // Why planets orbit: inertia plus gravity, and Kepler's laws on an elliptical orbit.
 // labels: 0 sun, 1 planet, 2 motion, 3 gravity, 4 near the sun: fast, 5 far from the sun: slow,
 //         6 inner orbit: short year, 7 outer orbit: long year, 8 without a force: straight ahead
+import { TIMING } from "@/lib/animations";
 import { clamp, ease, lerp, mix, rand, type SceneFactory, type Vec3 } from "../types";
 
 const A = 3.2; // semi-major axis
@@ -50,15 +51,15 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
   let outerPos: Vec3 = [0, 0, 0];
 
   return {
-    update(step, p, t) {
-      const appear = step === 0 ? 0 : step === 1 ? ease(clamp(p * 4)) : 1;
+    update(step, p, t, s) {
+      const appear = step === 0 ? 0 : step === 1 ? ease(clamp(s / TIMING.appear)) : 1;
       sun.scale.setScalar(Math.max(0.001, appear));
       glow.scale.setScalar(Math.max(0.001, appear * (1 + 0.04 * Math.sin(t * 2.2))));
       light.intensity = 3.2 * appear;
       straight.visible = step === 0;
       ellipse.visible = step >= 1;
       (ellipse.material as InstanceType<typeof T.LineBasicMaterial>).opacity = 0.85 * appear;
-      const more = step === 3 ? ease(clamp(p * 2.5)) : 0;
+      const more = step === 3 ? ease(clamp(s / TIMING.camera)) : 0;
       for (const o of [inner, outer, innerPath, outerPath]) o.visible = more > 0;
       inner.scale.setScalar(Math.max(0.001, more));
       outer.scale.setScalar(Math.max(0.001, more));
@@ -96,10 +97,10 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
       inner.position.set(...innerPos);
       outer.position.set(...outerPos);
     },
-    camera(step, p) {
+    camera(step, _p, _t, s) {
       const near = { pos: [CENTRE[0], 8.2, 9.6] as Vec3, look: [CENTRE[0], 0, 0.4] as Vec3 };
       const far = { pos: [-0.6, 13.5, 15.5] as Vec3, look: [-0.6, 0, 0.6] as Vec3 };
-      const k = step === 3 ? ease(clamp(p * 2.5)) : 0;
+      const k = step === 3 ? ease(clamp(s / TIMING.camera)) : 0;
       return { pos: mix(near.pos, far.pos, k), look: mix(near.look, far.look, k) };
     },
     labels(step, p) {

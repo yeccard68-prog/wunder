@@ -40,7 +40,7 @@ export interface Animation {
   summary: string;
   goal: string;
   labels: string[];
-  steps: { text: string; seconds?: number }[];
+  steps: { text: string; seconds: number }[]; // seconds: paced duration actually played
   seconds: number;
   sources: { name: string; url: string }[];
   quizId: string | null;
@@ -49,17 +49,28 @@ export interface Animation {
 
 export const animationRows = animationsJson as unknown as AnimationRow[];
 
+/**
+ * One place for the pacing of all animations (presentation speed, not physics):
+ *  - pace: factor on the authored step durations. 0.7 = the whole library runs 30 % faster than first written.
+ *  - minStep: no step is shorter than this, so its caption can at least be taken in (seconds).
+ *  - motion: factor on the running time that drives ongoing movement (flowing dots, spinning helix, orbits).
+ *  - camera / appear: how long a camera move or an object fading in takes inside a 3D scene (seconds).
+ * Scenes never state real-world durations; where a process is sped up or exaggerated the caption says so.
+ */
+export const TIMING = { pace: 0.7, minStep: 3.6, motion: 1.35, camera: 0.8, appear: 0.5 };
+const paced = (seconds: number | undefined) => Math.round(Math.max(TIMING.minStep, (seconds ?? 6) * TIMING.pace) * 10) / 10;
+
 /** Published animations for one learner: right language (fallback: original), right age level. */
 export function animationsFor(locale: string, band: AgeBand | null): Animation[] {
   return animationRows
     .filter((a) => a.status === "published" && a.verification_status !== "unverified")
     .map((a) => {
       const tr = a.translations[locale];
-      const steps = a.steps.map((s, i) => ({ ...s, text: tr?.steps[i] ?? s.text }));
+      const steps = a.steps.map((s, i) => ({ seconds: paced(s.seconds), text: tr?.steps[i] ?? s.text }));
       return {
         id: a.id, categoryId: a.category_id, minAge: a.min_age, difficulty: a.difficulty, scene: a.scene, renderer: a.renderer, fallback: a.fallback_scene ?? null,
         title: tr?.title ?? a.title, summary: tr?.summary ?? a.summary, goal: tr?.goal ?? a.goal, labels: tr?.labels ?? a.labels,
-        steps, seconds: steps.reduce((n, s) => n + (s.seconds ?? 6), 0), sources: a.sources, quizId: a.quiz_question_id, verification: a.verification_status,
+        steps, seconds: Math.round(steps.reduce((n, s) => n + s.seconds, 0)), sources: a.sources, quizId: a.quiz_question_id, verification: a.verification_status,
       };
     })
     .filter((a) => fitsAge(a, band));

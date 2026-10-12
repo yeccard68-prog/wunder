@@ -1,5 +1,6 @@
 // DNA: the double helix, base pairing and how the molecule copies itself.
 // labels: 0 backbone, 1 base pair, 2 A, 3 T, 4 G, 5 C, 6 helicase opens the helix, 7 new strand, 8 old strand
+import { TIMING } from "@/lib/animations";
 import { clamp, ease, lerp, mix, type SceneFactory, type Vec3, type View3D } from "../types";
 
 const N = 20; // base pairs shown
@@ -86,7 +87,7 @@ export const dna: SceneFactory = ({ THREE: T, scene }) => {
           }
         }
     },
-    camera(step, p) {
+    camera(step, _p, _t, s) {
       const views: View3D[] = [
         { pos: [0, 0.6, 14.5], look: [0, 0, 0] },
         { pos: [0, 0.2, 5.4], look: [0, 0, 0] },
@@ -94,7 +95,7 @@ export const dna: SceneFactory = ({ THREE: T, scene }) => {
         { pos: [0, 2.6, 15], look: [0, 0.9, 0] },
       ];
       const from = views[Math.max(0, step - 1)];
-      const k = ease(clamp(p * 3));
+      const k = ease(clamp(s / TIMING.camera));
       return { pos: mix(from.pos, views[step].pos, k), look: mix(from.look, views[step].look, k) };
     },
     labels(step, p) {

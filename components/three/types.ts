@@ -19,9 +19,10 @@ export interface View3D {
 }
 
 export interface Scene3D {
-  update(step: number, p: number, t: number): void;
-  camera(step: number, p: number, t: number): View3D;
-  labels?(step: number, p: number, t: number): Label3D[];
+  /** s = seconds since the current step began – use it for moves that should take a fixed time (camera, fade-in). */
+  update(step: number, p: number, t: number, s: number): void;
+  camera(step: number, p: number, t: number, s: number): View3D;
+  labels?(step: number, p: number, t: number, s: number): Label3D[];
   /** Index of the label shown as a heading above the scene, if any. */
   heading?(step: number): number | null;
 }
