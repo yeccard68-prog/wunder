@@ -332,5 +332,8 @@
   "Zurück": "Back",
   "Zurück: Gast-Fortschritt sichern": "Back: save guest progress",
   "Zurückgezogen": "Withdrawn",
-  "Zurückziehen": "Withdraw"
+  "Zurückziehen": "Withdraw",
+  "Clip wird geladen": "Loading clip",
+  "Du bist offline. Sobald die Verbindung zurück ist, geht es weiter.": "You are offline. It will continue as soon as the connection is back.",
+  "Prüfe deine Verbindung oder wische zum nächsten Clip.": "Check your connection or swipe to the next clip."
 }

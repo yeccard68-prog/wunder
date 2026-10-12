@@ -14,6 +14,7 @@ export interface Clip {
   takeaway: string; // the one idea the clip teaches
   tags: string[];
   file: string; // video URL or app-bundled path
+  poster: string | null; // preview image shown while the video loads
   start: number; // segment of the file that is played (seconds)
   end: number | null;
   duration: number; // seconds
@@ -59,6 +60,7 @@ export interface VideoRow {
   hook: string;
   description: string | null;
   video_url: string;
+  thumbnail_url?: string | null;
   duration_seconds: number;
   has_audio: boolean;
   captions: string[];
@@ -117,6 +119,7 @@ export function buildContent(questions: QuestionRow[], videos: VideoRow[]): Cont
         takeaway: v.hook,
         tags: v.tags,
         file: v.video_url,
+        poster: v.thumbnail_url ?? null,
         start: Number(v.start_seconds ?? 0),
         end: v.end_seconds == null ? null : Number(v.end_seconds),
         duration: Number(v.duration_seconds),

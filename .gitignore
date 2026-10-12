@@ -46,4 +46,7 @@ scripts/clips/.tmp/
 !.env.example
 
 scripts/clips/.cache/
+out-e2e/
+test-results/
+playwright-report/
 

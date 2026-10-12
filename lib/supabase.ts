@@ -20,7 +20,7 @@ const db = () => {
 export async function fetchContent() {
   const [q, v] = await Promise.all([
     db().from("questions").select("id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations").eq("status", "published").order("created_at", { ascending: false }).limit(500),
-    db().from("videos").select("id, category_id, title, hook, description, video_url, duration_seconds, has_audio, captions, creator_name, sources, published_at, tags, quiz_question_id, verification_status, like_count, min_age, start_seconds, end_seconds, license, translations").eq("status", "published").order("published_at", { ascending: false }).limit(100),
+    db().from("videos").select("id, category_id, title, hook, description, video_url, thumbnail_url, duration_seconds, has_audio, captions, creator_name, sources, published_at, tags, quiz_question_id, verification_status, like_count, min_age, start_seconds, end_seconds, license, translations").eq("status", "published").order("published_at", { ascending: false }).limit(100),
   ]);
   if (q.error) throw q.error;
   if (v.error) throw v.error;

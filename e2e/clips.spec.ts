@@ -1,0 +1,76 @@
+import { expect, test, type Page } from "@playwright/test";
+
+// A learner who has finished onboarding (demo mode keeps its state on the device).
+const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" } } };
+
+async function openClips(page: Page) {
+  await page.addInitScript((s) => {
+    if (!localStorage.getItem("wunder.demo.state.v3")) localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s));
+  }, seed);
+  await page.goto("/clips/");
+  return page.getByTestId("clip-player").first();
+}
+const currentTime = (page: Page) => page.locator("video").first().evaluate((v: HTMLVideoElement) => v.currentTime);
+
+test("a valid clip starts playing", async ({ page }) => {
+  const player = await openClips(page);
+  await expect(player).toHaveAttribute("data-status", "ready");
+  await expect(player).toHaveAttribute("data-paused", "false");
+  await expect.poll(() => currentTime(page)).toBeGreaterThan(0.3);
+  expect(await page.locator("video").first().evaluate((v: HTMLVideoElement) => v.error)).toBeNull();
+});
+
+test("pause and resume work", async ({ page }) => {
+  const player = await openClips(page);
+  await expect(player).toHaveAttribute("data-paused", "false");
+  await page.locator("video").first().click();
+  await expect(player).toHaveAttribute("data-paused", "true");
+  const at = await currentTime(page);
+  await page.getByRole("button", { name: "Abspielen" }).click();
+  await expect(player).toHaveAttribute("data-paused", "false");
+  await expect.poll(() => currentTime(page)).not.toBe(at);
+});
+
+test("an unreachable clip shows an understandable message and can be retried", async ({ page }) => {
+  await page.route("**/clips/*.mp4", (route) => route.abort());
+  const player = await openClips(page);
+  await expect(player).toHaveAttribute("data-status", "error");
+  await expect(page.getByRole("alert").first()).toContainText("Dieser Clip lädt gerade nicht.");
+  // the rest of the app keeps working
+  await expect(page.getByRole("link", { name: /Quiz/ })).toBeVisible();
+
+  await page.unroute("**/clips/*.mp4");
+  await page.getByRole("button", { name: "Erneut versuchen" }).first().click();
+  await expect(player).toHaveAttribute("data-status", "ready");
+  await expect.poll(() => currentTime(page)).toBeGreaterThan(0.3);
+});
+
+test("a clip without an audio track plays and offers no sound button", async ({ page }) => {
+  const player = await openClips(page);
+  await expect(player).toHaveAttribute("data-status", "ready");
+  const hasAudio = await page.locator("video").first().evaluate((v: HTMLVideoElement & { webkitAudioDecodedByteCount?: number }) => (v.webkitAudioDecodedByteCount ?? 0) > 0);
+  expect(hasAudio).toBe(false);
+  await expect(page.getByRole("button", { name: /Ton (ein|aus)schalten/ })).toHaveCount(0);
+});
+
+test("the clip fills the screen without horizontal scrolling", async ({ page }) => {
+  const player = await openClips(page);
+  await expect(player).toHaveAttribute("data-status", "ready");
+  const view = page.viewportSize()!;
+  const box = (await page.locator("video").first().boundingBox())!;
+  expect(box.x).toBeGreaterThanOrEqual(0);
+  expect(box.x + box.width).toBeLessThanOrEqual(view.width + 1);
+  expect(box.height).toBeGreaterThan(view.height * 0.6);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});
+
+test("the built app opens its main pages without errors", async ({ page }) => {
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  await openClips(page);
+  for (const path of ["/", "/quiz/", "/profile/"]) {
+    await page.goto(path);
+    await expect(page.locator("nav")).toBeVisible();
+  }
+  expect(errors).toEqual([]);
+});

@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Bookmark, Captions, CaptionsOff, Check, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Info, MessageCircle, Play, RotateCcw, Send, Share2, Volume2, VolumeX, Zap } from "lucide-react";
+import { Bookmark, Captions, CaptionsOff, Check, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Info, MessageCircle, Play, Send, Share2, Volume2, VolumeX, Zap } from "lucide-react";
+import ClipPlayer from "@/components/ClipPlayer";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Avatar, Button, Empty, Sheet } from "@/components/ui";
 import { categoryById } from "@/lib/categories";
@@ -37,12 +38,7 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
   const { state, update, toggle, share, trackClip } = useStore();
   const t = useT();
   const section = useRef<HTMLElement>(null);
-  const video = useRef<HTMLVideoElement>(null);
-  const last = useRef(0);
-  const [paused, setPaused] = useState(true);
   const [time, setTime] = useState(0);
-  const [failed, setFailed] = useState(false);
-  const [cover, setCover] = useState(false); // landscape footage fills the screen, vertical clips are shown whole
   const cat = categoryById(clip.categoryId);
   const { muted, captions: showCaptions } = state.settings;
   const liked = state.likes.includes(clip.id);
@@ -59,52 +55,6 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
     return () => obs.disconnect();
   }, [index, onActive]);
 
-  // Only the active clip plays; everything else is paused and rewound.
-  useEffect(() => {
-    const v = video.current;
-    if (!v) return;
-    if (active) {
-      trackClip(clip.id, "play");
-      if (autoplay) v.play().catch(() => {});
-    } else {
-      v.pause();
-      if (v.readyState > 0) v.currentTime = clip.start;
-      last.current = clip.start;
-      setTime(clip.start);
-    }
-  }, [active, autoplay, clip.id, clip.start, trackClip]);
-
-  useEffect(() => {
-    if (video.current) video.current.muted = muted;
-  }, [muted, near]);
-
-  const onTime = () => {
-    const v = video.current;
-    if (!v) return;
-    let now = v.currentTime;
-    // A clip can be a segment of a longer file: jump back to its start when the end is reached.
-    if (clip.end !== null && now >= clip.end) {
-      v.currentTime = clip.start;
-      now = clip.start;
-      trackClip(clip.id, "complete");
-      if (active) v.play().catch(() => {});
-    } else if (now < last.current - 0.5) trackClip(clip.id, "complete"); // looped → watched to the end
-    last.current = now;
-    setTime(now);
-  };
-  const onMeta = () => {
-    const v = video.current;
-    if (!v) return;
-    setCover(v.videoWidth > v.videoHeight);
-    if (clip.start && v.currentTime < clip.start) v.currentTime = clip.start;
-  };
-  const togglePlay = () => {
-    const v = video.current;
-    if (!v) return;
-    if (v.paused) v.play().catch(() => setFailed(true));
-    else v.pause();
-  };
-
   // Captions are spread over the clip in proportion to their length.
   const elapsed = Math.max(0, time - clip.start);
   const total = clip.captions.reduce((n, c) => n + c.length, 0);
@@ -114,22 +64,7 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
 
   return (
     <section ref={section} className="relative h-full snap-start snap-always overflow-hidden bg-[#11100e] text-white" aria-label={clip.title}>
-      {near && !failed && (
-        <video ref={video} src={clip.start ? `${clip.file}#t=${clip.start}` : clip.file} loop={clip.end === null} playsInline muted preload={active ? "auto" : "metadata"} onLoadedMetadata={onMeta} onTimeUpdate={onTime} onPlay={() => setPaused(false)} onPause={() => setPaused(true)} onError={() => setFailed(true)} onClick={togglePlay} className={`absolute inset-0 h-full w-full ${cover ? "object-cover" : "object-contain"}`} />
-      )}
-      {failed && (
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 px-8 text-center">
-          <p className="font-display text-xl font-semibold">{t("Dieser Clip lädt gerade nicht.")}</p>
-          <Button variant="secondary" onClick={() => setFailed(false)}>
-            <RotateCcw size={16} /> {t("Erneut versuchen")}
-          </Button>
-        </div>
-      )}
-      {active && paused && !failed && (
-        <button onClick={togglePlay} aria-label={t("Abspielen")} className="pop absolute left-1/2 top-[42%] flex h-20 w-20 -translate-x-1/2 items-center justify-center rounded-full bg-black/45 backdrop-blur">
-          <Play size={34} fill="currentColor" />
-        </button>
-      )}
+      <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active} mounted={near} autoplay={autoplay} muted={muted} onTime={setTime} onComplete={() => trackClip(clip.id, "complete")} onStarted={() => trackClip(clip.id, "play")} />
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/85 via-black/45 to-transparent" />
 
