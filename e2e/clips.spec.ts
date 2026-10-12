@@ -3,10 +3,12 @@ import { expect, test, type Page } from "@playwright/test";
 // A learner who has finished onboarding (demo mode keeps its state on the device).
 const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" } } };
 
-async function openClips(page: Page) {
-  await page.addInitScript((s) => {
+const signIn = (page: Page) =>
+  page.addInitScript((s) => {
     if (!localStorage.getItem("wunder.demo.state.v3")) localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s));
   }, seed);
+async function openClips(page: Page) {
+  await signIn(page);
   await page.goto("/clips/");
   return page.getByTestId("clip-player").first();
 }
@@ -76,7 +78,7 @@ test("the built app opens its main pages without errors", async ({ page }) => {
 });
 
 test("an explainer animation plays, can be stepped through and ends with its question", async ({ page }) => {
-  await openClips(page);
+  await signIn(page);
   await page.goto("/explain/");
   await page.getByRole("button", { name: /Wie das Herz Blut pumpt/ }).click();
   const player = page.getByTestId("animation-player");
@@ -94,7 +96,7 @@ test("an explainer animation plays, can be stepped through and ends with its que
 });
 
 test("the home feed mixes question cards, clips and animations", async ({ page }) => {
-  await openClips(page);
+  await signIn(page);
   await page.goto("/");
   await expect(page.locator("article").first()).toBeVisible();
   const clip = page.getByTestId("feed-clip").first();
@@ -104,6 +106,11 @@ test("the home feed mixes question cards, clips and animations", async ({ page }
   await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
   await expect(clip.getByRole("button", { name: /^A/ }).first()).toBeVisible();
   const animation = page.getByTestId("feed-animation").first();
+  // the feed loads more entries as the learner scrolls
+  await expect(async () => {
+    await page.mouse.wheel(0, 700);
+    expect(await animation.count()).toBe(1);
+  }).toPass({ timeout: 20_000 });
   await animation.scrollIntoViewIfNeeded();
   await expect(animation.getByTestId("animation-player")).toHaveAttribute("data-playing", "true");
   // the clip above stops when it leaves the screen

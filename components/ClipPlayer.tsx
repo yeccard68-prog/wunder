@@ -34,12 +34,19 @@ export default function ClipPlayer({ src, poster, start = 0, end = null, title, 
   const last = useRef(start);
   const [status, setStatus] = useState<Status>("loading");
   const [paused, setPaused] = useState(true);
+  const [buffering, setBuffering] = useState(false); // waiting for data after the first picture (also briefly at every loop)
   const [attempt, setAttempt] = useState(0);
   const [cover, setCover] = useState(false); // landscape footage fills the screen, vertical clips are shown whole
   const [offline, setOffline] = useState(false);
 
+  // once a picture is there it stays visible; later waiting only shows the spinner on top
+  const shown = () => {
+    setStatus("ready");
+    setBuffering(false);
+  };
   const retry = useCallback(() => {
     setStatus("loading");
+    setBuffering(false);
     setAttempt((n) => n + 1);
   }, []);
 
@@ -92,6 +99,8 @@ export default function ClipPlayer({ src, poster, start = 0, end = null, title, 
     const v = video.current;
     if (!v) return;
     let now = v.currentTime;
+    // the picture is moving → it is not loading, whatever event was missed
+    if (!v.paused && v.readyState >= 3) shown();
     // A clip can be a segment of a longer file: jump back to its start when the end is reached.
     if (end !== null && now >= end) {
       v.currentTime = start;
@@ -134,9 +143,9 @@ export default function ClipPlayer({ src, poster, start = 0, end = null, title, 
           preload={active ? "auto" : "metadata"}
           onLoadedMetadata={onMeta}
           onLoadedData={() => setStatus("ready")}
-          onCanPlay={() => setStatus("ready")}
-          onPlaying={() => setStatus("ready")}
-          onWaiting={() => setStatus("loading")}
+          onCanPlay={shown}
+          onPlaying={shown}
+          onWaiting={() => setBuffering(true)}
           onTimeUpdate={onTimeUpdate}
           onPlay={() => setPaused(false)}
           onPause={() => setPaused(true)}
@@ -145,7 +154,7 @@ export default function ClipPlayer({ src, poster, start = 0, end = null, title, 
           className={`absolute inset-0 h-full w-full ${fit} ${status === "ready" ? "" : "opacity-0"}`}
         />
       )}
-      {active && status === "loading" && (
+      {active && (status === "loading" || (buffering && status === "ready" && !paused)) && (
         <div role="status" aria-label={t("Clip wird geladen")} className="pointer-events-none absolute left-1/2 top-[42%] h-12 w-12 -translate-x-1/2 animate-spin rounded-full border-[3px] border-white/25 border-t-white" />
       )}
       {status === "error" && (
