@@ -96,5 +96,33 @@
         "description": "How companies are started and grow"
       }
     }
+  },
+  {
+    "id": "math",
+    "slug": "math",
+    "name": "Mathe & Logik",
+    "description": "Zahlen, Formen und knifflige Schlüsse",
+    "display_order": 8,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Maths & Logic",
+        "description": "Numbers, shapes and tricky reasoning"
+      }
+    }
+  },
+  {
+    "id": "language",
+    "slug": "language",
+    "name": "Sprache",
+    "description": "Deutsch, Englisch und wie Sprache funktioniert",
+    "display_order": 9,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Language",
+        "description": "German, English and how language works"
+      }
+    }
   }
 ]

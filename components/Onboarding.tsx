@@ -20,6 +20,8 @@ const BLURBS: Record<string, string> = {
   economy: "Wie Märkte, Geld und Finanzen ticken",
   business: "Wie Unternehmen entstehen und wachsen",
   culture: "Kunst, Politik und Zusammenleben",
+  math: "Zahlen, Formen und knifflige Schlüsse",
+  language: "Deutsch, Englisch und wie Sprache funktioniert",
 };
 const AGES: { band: AgeBand; title: string; text: string }[] = [
   { band: "6-9", title: "6 bis 9 Jahre", text: "Einfache Fragen für Grundschulkinder" },
