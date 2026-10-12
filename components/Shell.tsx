@@ -3,19 +3,19 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
-import { Clapperboard, Flame, House, RotateCcw, User, Users, WifiOff, Zap } from "lucide-react";
+import { Compass, Flame, House, Library, RotateCcw, User, WifiOff } from "lucide-react";
 import { useStore, useT } from "@/lib/store";
 import { liveStreak } from "@/lib/gamification";
-import { isChild } from "@/lib/content";
 import Onboarding from "./Onboarding";
 import { Button, Skeleton, Wordmark } from "./ui";
 
+// Four destinations. Clips, quiz rounds, animations and the community are reached through "Entdecken";
+// their routes still exist, the navigation marks "Entdecken" while one of them is open.
 const NAV = [
-  { href: "/", label: "Entdecken", Icon: House },
-  { href: "/clips/", label: "Clips", Icon: Clapperboard },
-  { href: "/quiz/", label: "Quiz", Icon: Zap },
-  { href: "/social/", label: "Community", Icon: Users },
-  { href: "/profile/", label: "Profil", Icon: User },
+  { href: "/", label: "Für dich", Icon: House, also: [] as string[] },
+  { href: "/explore/", label: "Entdecken", Icon: Compass, also: ["/clips", "/quiz", "/explain", "/social"] },
+  { href: "/library/", label: "Bibliothek", Icon: Library, also: [] },
+  { href: "/profile/", label: "Profil", Icon: User, also: ["/admin"] },
 ];
 
 function useOnline() {
@@ -39,7 +39,8 @@ export default function Shell({ children }: { children: ReactNode }) {
   const { toasts, ready, state, status, error, retry, stale, auth } = useStore();
   const online = useOnline();
   const immersive = path.startsWith("/clips"); // full-screen video feed
-  const nav = NAV.filter((n) => !(isChild(state.ageBand) && n.href === "/social/")); // no community for children
+  const feed = path === "/"; // snapping feed: the page itself does not scroll, the feed does
+  const nav = NAV;
 
   // Backend unreachable or misconfigured: say so – never show bundled content instead.
   if (status === "error")
@@ -60,7 +61,7 @@ export default function Shell({ children }: { children: ReactNode }) {
   if (ready && !state.onboarded) return <Onboarding />;
 
   return (
-    <div className="mx-auto flex min-h-dvh max-w-md flex-col">
+    <div className={`mx-auto flex max-w-md flex-col ${feed ? "h-dvh" : "min-h-dvh"}`}>
       {!immersive && <header className="sticky top-0 z-20 flex items-center justify-between bg-bg/85 px-5 pb-2.5 pt-[max(env(safe-area-inset-top),14px)] backdrop-blur-md">
         <Wordmark className="text-2xl" />
         <div className="flex items-center gap-2 text-sm font-semibold">
@@ -90,7 +91,7 @@ export default function Shell({ children }: { children: ReactNode }) {
         </div>
       )}
 
-      <main className={immersive ? "flex-1" : "flex-1 px-4 pb-28 pt-1"}>{ready ? children : <Skeleton />}</main>
+      <main className={immersive ? "flex-1" : feed ? "min-h-0 flex-1 pb-[calc(4rem+env(safe-area-inset-bottom))]" : "flex-1 px-4 pb-28 pt-1"}>{ready ? children : <Skeleton />}</main>
 
       <div className="pointer-events-none fixed inset-x-0 top-16 z-[60] flex flex-col items-center gap-2" aria-live="polite">
         {toasts.map((t) => (
@@ -102,8 +103,8 @@ export default function Shell({ children }: { children: ReactNode }) {
 
       <nav aria-label={t("Hauptnavigation")} className="fixed inset-x-0 bottom-0 z-20 mx-auto max-w-md border-t border-line bg-bg/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-md">
         <ul className="grid" style={{ gridTemplateColumns: `repeat(${nav.length}, minmax(0, 1fr))` }}>
-          {nav.map(({ href, label, Icon }) => {
-            const active = href === "/" ? path === "/" : path.startsWith(href.slice(0, -1));
+          {nav.map(({ href, label, Icon, also }) => {
+            const active = href === "/" ? path === "/" : [href.slice(0, -1), ...also].some((p) => path.startsWith(p));
             return (
               <li key={href}>
                 <Link href={href} aria-current={active ? "page" : undefined} className={`press flex h-16 flex-col items-center justify-center gap-1 text-[11px] font-semibold ${active ? "text-ink" : "text-muted"}`}>

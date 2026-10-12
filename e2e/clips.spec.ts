@@ -39,7 +39,7 @@ test("an unreachable clip shows an understandable message and can be retried", a
   await expect(player).toHaveAttribute("data-status", "error");
   await expect(page.getByRole("alert").first()).toContainText("Dieser Clip lädt gerade nicht.");
   // the rest of the app keeps working
-  await expect(page.getByRole("link", { name: /Quiz/ })).toBeVisible();
+  await expect(page.getByRole("link", { name: "Entdecken" })).toBeVisible();
 
   await page.unroute("**/clips/*.mp4");
   await page.getByRole("button", { name: "Erneut versuchen" }).first().click();
@@ -70,7 +70,7 @@ test("the built app opens its main pages without errors", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await openClips(page);
-  for (const path of ["/", "/quiz/", "/profile/"]) {
+  for (const path of ["/", "/explore/", "/library/", "/quiz/", "/profile/"]) {
     await page.goto(path);
     await expect(page.locator("nav")).toBeVisible();
   }
@@ -95,25 +95,75 @@ test("an explainer animation plays, can be stepped through and ends with its que
   expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
 });
 
-test("the home feed mixes question cards, clips and animations", async ({ page }) => {
+const feedTop = (page: Page, testId: string) => page.getByTestId(testId).first().evaluate((el) => Math.round(el.closest("section")!.getBoundingClientRect().top - el.closest("[data-testid=snap-feed]")!.getBoundingClientRect().top));
+/** One swipe or wheel turn further in the snapping feed. */
+async function next(page: Page) {
+  const box = (await page.getByTestId("snap-feed").boundingBox())!;
+  await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+  await page.mouse.wheel(0, box.height * 0.6);
+  await page.waitForTimeout(700);
+}
+
+test("the feed snaps: one entry per screen, clips and animations in between, only the current one plays", async ({ page }) => {
   await signIn(page);
   await page.goto("/");
-  await expect(page.locator("article").first()).toBeVisible();
+  const feed = page.getByTestId("snap-feed");
+  await expect(feed.getByRole("heading", { name: /Hallo/ })).toBeVisible();
+  // the page itself does not scroll – only the feed does
+  expect(await page.evaluate(() => document.documentElement.scrollHeight <= window.innerHeight + 1)).toBe(true);
+
   const clip = page.getByTestId("feed-clip").first();
-  await clip.scrollIntoViewIfNeeded();
+  await expect(async () => {
+    await next(page);
+    expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2); // settled exactly at the top of the feed area
+  }).toPass({ timeout: 30_000 });
+  // every entry before it was a full screen of its own
+  const kinds = await feed.locator("section[data-feed-entry]").evaluateAll((els) => els.slice(0, 4).map((el) => (el as HTMLElement).dataset.feedEntry));
+  expect(kinds).toEqual(["item", "item", "item", "clip"]);
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-status", "ready");
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "false");
+  const box = (await clip.boundingBox())!;
+  const area = (await feed.boundingBox())!;
+  expect(box.height).toBeGreaterThan(area.height * 0.9); // the clip fills the feed screen
+
   await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
-  await expect(clip.getByRole("button", { name: /^A/ }).first()).toBeVisible();
+  const dialog = page.getByRole("dialog");
+  await expect(dialog.getByRole("button", { name: /^A/ }).first()).toBeVisible();
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true"); // paused while the question is open
+  await page.keyboard.press("Escape");
+  await expect(dialog).toHaveCount(0);
+
   const animation = page.getByTestId("feed-animation").first();
-  // the feed loads more entries as the learner scrolls
   await expect(async () => {
-    await page.mouse.wheel(0, 700);
+    await next(page);
     expect(await animation.count()).toBe(1);
-  }).toPass({ timeout: 20_000 });
-  await animation.scrollIntoViewIfNeeded();
+    expect(Math.abs(await feedTop(page, "feed-animation"))).toBeLessThanOrEqual(2);
+  }).toPass({ timeout: 30_000 });
   await expect(animation.getByTestId("animation-player")).toHaveAttribute("data-playing", "true");
-  // the clip above stops when it leaves the screen
-  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true");
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true"); // the clip stopped when it left the screen
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});
+
+test("explore finds content by search and topic; the library keeps saved clips", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explore/");
+  await page.getByRole("searchbox").fill("Herz");
+  await expect(page.getByRole("status").filter({ hasText: /Treffer/ })).toBeVisible();
+  await expect(page.getByTestId("feed-animation").first()).toContainText("Herz");
+  await page.getByRole("searchbox").fill("");
+  await page.getByRole("button", { name: /Business/ }).click();
+  await expect(page.locator("article").first()).toBeVisible();
+  await page.getByRole("button", { name: /Business/ }).click();
+  await expect(page.getByRole("link", { name: /Alle Clips/ })).toBeVisible();
+
+  await page.goto("/library/");
+  await expect(page.getByText("Noch nichts gemerkt")).toBeVisible();
+  await page.getByRole("link", { name: "Für dich" }).click();
+  await expect(async () => {
+    await next(page);
+    expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2);
+  }).toPass({ timeout: 30_000 });
+  await page.getByTestId("feed-clip").first().getByRole("button", { name: "Merken" }).click();
+  await page.getByRole("link", { name: "Bibliothek" }).click();
+  await expect(page.getByTestId("feed-clip")).toHaveCount(1);
 });

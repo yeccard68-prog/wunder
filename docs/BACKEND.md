@@ -202,3 +202,12 @@ Offen bis zur Store-Reife:
 - Stapel-Werkzeuge: `scripts/content/check-sources.mjs <stapel>` prüft, ob jede genannte Wikipedia-Seite existiert; `content/_batches/_balance.mjs` verteilt die Position der richtigen Antwort gleichmäßig.
 - Die App lädt Inhalte seitenweise (je 500 Zeilen, `allRows` in `lib/supabase.ts`). Vorher war bei 500 Fragen Schluss.
 - Beim Hochladen neuer Stapel nur fehlende Zeilen einfügen (kein Überschreiben): sonst würden gemeldete, zurückgestellte Inhalte wieder veröffentlicht.
+
+## 17. Navigation und Schnapp-Feed (Umbau Oktober 2026)
+
+- Vier Ziele statt fünf: **Für dich** (`/`), **Entdecken** (`/explore/`), **Bibliothek** (`/library/`), **Profil**. Clips, Quiz-Runden, Animationen und Community sind keine eigenen Reiter mehr; ihre Seiten gibt es weiter, erreichbar über „Entdecken“.
+- Begründung für den Wegfall des Clips-Reiters: Alle Clips stehen im gemeinsamen Feed, die Vollbild-Ansicht bot nur dieselben Inhalte in anderer Verpackung. Sie bleibt als Sammlung „Alle Clips“ erhalten. Nutzungsdaten, die dagegen sprächen, gibt es noch nicht (keine Analytics).
+- „Für dich“ ist ein Schnapp-Feed (`components/Feed.tsx`, `layout="snap"`): ein Eintrag pro Bildschirm, natives CSS-Scroll-Snapping (`snap-mandatory`, `snap-always`), die Seite selbst scrollt nicht. Erster Bildschirm ist „Heute“ (Tagesziel, Daily Challenge, fällige Wiederholungen). Clips füllen den Bildschirm, Karten sind zentriert; ein Eintrag, der höher ist als der Bildschirm, lässt sich weiter durchscrollen.
+- Es wird nur geladen, was gebraucht wird: je sechs Einträge, Videos nur für Einträge in Bildschirmnähe, Animationen laufen nur im Bild. „Bewegung reduzieren“ wird beachtet (kein Autostart).
+- „Entdecken“: Suche über Fragen, Clips und Animationen sowie Themenfilter; „Bibliothek“: Gemerktes und Weiterlernen (Wiederholungen, Animationen).
+- Wiederherstellbarer Stand vor dem Umbau: Git-Tag `v0.5-vor-umbau`.

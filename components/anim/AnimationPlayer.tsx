@@ -11,7 +11,7 @@ import { useT } from "@/lib/store";
  * The learner can pause, jump between steps and replay; with "reduce motion" switched on
  * nothing starts by itself and the steps are shown as still images. `active` = currently on screen.
  */
-export default function AnimationPlayer({ animation, onFinished, active = true }: { animation: Animation; onFinished?: () => void; active?: boolean }) {
+export default function AnimationPlayer({ animation, onFinished, active = true, compact }: { animation: Animation; onFinished?: () => void; active?: boolean; compact?: boolean }) {
   const t = useT();
   const Scene = SCENES[animation.scene];
   const durations = animation.steps.map((s) => s.seconds ?? 6);
@@ -80,7 +80,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true }
   return (
     <div data-testid="animation-player" data-step={step} data-playing={playing}>
       <div className="overflow-hidden rounded-3xl bg-[#11100e] text-white">
-        <svg viewBox="0 0 360 400" role="img" aria-label={animation.title} className="block w-full" style={{ fontFamily: "var(--font-geist-sans), system-ui, sans-serif" }} onClick={toggle}>
+        <svg viewBox="0 0 360 400" role="img" aria-label={animation.title} className={`mx-auto block w-full ${compact ? "max-h-[38dvh]" : ""}`} style={{ fontFamily: "var(--font-geist-sans), system-ui, sans-serif" }} onClick={toggle}>
           <Scene step={step} p={p} t={time} labels={animation.labels} />
         </svg>
         <div className="h-1 bg-white/15">
@@ -88,7 +88,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true }
         </div>
       </div>
 
-      <p aria-live="polite" className="mt-4 min-h-[6rem] text-[15px] leading-relaxed">
+      <p aria-live="polite" className={compact ? "mt-3 min-h-[5.25rem] text-sm leading-snug" : "mt-4 min-h-[6rem] text-[15px] leading-relaxed"}>
         <span className="tnum mr-2 text-xs font-bold uppercase tracking-wider text-muted">{step + 1}/{durations.length}</span>
         {animation.steps[step].text}
       </p>
@@ -104,7 +104,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true }
           <ChevronRight size={22} />
         </button>
       </div>
-      <div className="mt-3 flex justify-center gap-2">
+      <div className={compact ? "hidden" : "mt-3 flex justify-center gap-2"}>
         {durations.map((_, i) => (
           <button key={i} onClick={() => go(i)} aria-label={t("Schritt {n}", { n: i + 1 })} aria-current={i === step ? "step" : undefined} className={`h-2 rounded-full transition-all ${i === step ? "w-6 bg-ink" : "w-2 bg-line"}`} />
         ))}
