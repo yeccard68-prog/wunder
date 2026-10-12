@@ -3,6 +3,8 @@
 import type { SceneFactory } from "../types";
 import { dna } from "./dna";
 import { engine } from "./engine";
+import { gears } from "./gears";
+import { lens } from "./lens";
 import { orbit } from "./orbit";
 
-export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit };
+export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens };

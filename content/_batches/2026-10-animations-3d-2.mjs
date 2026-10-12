@@ -1,0 +1,9 @@
+// Content batch 10 (October 2026): check questions for the 3D animations "gears" and "lens". AI-checked.
+export const LOCALE = "en";
+export const TODAY = "2026-10-17";
+export const verification = "ai_checked";
+
+export const questions = [
+  ["qa-zahnrad", "technology", 2, 10, null, "Ein Zahnrad mit 12 Zähnen treibt eines mit 24 Zähnen an. Wie dreht sich das große?", ["Doppelt so schnell, in dieselbe Richtung", "Halb so schnell, in die Gegenrichtung", "Gleich schnell, in die Gegenrichtung", "Halb so schnell, in dieselbe Richtung"], 1, "Das große Rad hat doppelt so viele Zähne und braucht deshalb doppelt so lange für eine Umdrehung – dafür mit doppelter Drehkraft. Direkt ineinandergreifende Räder drehen gegenläufig.", "Zahnrad", "A gear with 12 teeth drives one with 24 teeth. How does the large one turn?", ["Twice as fast, in the same direction", "Half as fast, in the opposite direction", "At the same speed, in the opposite direction", "Half as fast, in the same direction"], "The large gear has twice as many teeth and therefore takes twice as long for one turn – but with twice the torque. Gears that mesh directly turn in opposite directions.", ["Mechanik"]],
+  ["qa-linse", "science", 2, 10, null, "Wie heißt der Punkt, in dem eine Sammellinse paralleles Licht bündelt?", ["Mittelpunkt", "Brennpunkt", "Fluchtpunkt", "Schwerpunkt"], 1, "Im Brennpunkt treffen sich die Strahlen – mit einer Lupe lässt sich dort Sonnenlicht so stark bündeln, dass Papier zu brennen beginnt. Daher der Name.", "Linse_(Optik)", "What is the point called in which a converging lens gathers parallel light?", ["Centre point", "Focal point", "Vanishing point", "Centre of gravity"], "The rays meet in the focal point – with a magnifying glass, sunlight can be concentrated there so strongly that paper starts to burn.", ["Optik"]],
+];

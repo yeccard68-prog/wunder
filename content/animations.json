@@ -719,5 +719,159 @@
         ]
       }
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-17T12:00:00Z",
+    "id": "a-zahnraeder",
+    "category_id": "technology",
+    "scene": "gears",
+    "title": "Wie Zahnräder Kraft übertragen",
+    "summary": "Kleines Rad, großes Rad: Zahnräder tauschen Drehzahl gegen Kraft – und drehen die Richtung um.",
+    "goal": "Du kannst erklären, warum das größere Zahnrad langsamer, aber kräftiger dreht, und was ein Zwischenrad bewirkt.",
+    "labels": [
+      "Antrieb",
+      "Abtrieb",
+      "12 Zähne",
+      "24 Zähne",
+      "halbe Drehzahl – doppelte Drehkraft",
+      "dreht andersherum",
+      "Zwischenrad",
+      "gleiche Richtung wie der Antrieb"
+    ],
+    "steps": [
+      {
+        "text": "Greifen zwei Zahnräder ineinander, schiebt jeder Zahn des einen einen Zahn des anderen weiter. Das angetriebene Rad dreht sich deshalb in die Gegenrichtung.",
+        "seconds": 7
+      },
+      {
+        "text": "Das kleine Rad hat 12 Zähne, das große 24. Pro Umdrehung des kleinen wandern 12 Zähne am Berührungspunkt vorbei – das große kommt damit nur eine halbe Umdrehung weit.",
+        "seconds": 8
+      },
+      {
+        "text": "Dafür dreht das große Rad mit doppelter Kraft: Zahnräder tauschen Drehzahl gegen Drehmoment. So kommt man im kleinen Gang eines Fahrrads leichter den Berg hinauf – nur langsamer.",
+        "seconds": 8
+      },
+      {
+        "text": "Setzt man ein drittes Rad dazwischen, dreht das letzte wieder in dieselbe Richtung wie das erste. An der Übersetzung ändert das Zwischenrad nichts – es zählen nur das erste und das letzte Rad.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Zahnrad",
+        "url": "https://de.wikipedia.org/wiki/Zahnrad"
+      },
+      {
+        "name": "Wikipedia: Übersetzung (Technik)",
+        "url": "https://de.wikipedia.org/wiki/Übersetzung_(Technik)"
+      }
+    ],
+    "quiz_question_id": "qa-zahnrad",
+    "translations": {
+      "en": {
+        "title": "How gears transmit force",
+        "summary": "Small wheel, large wheel: gears trade speed for force – and reverse the direction.",
+        "goal": "You can explain why the larger gear turns more slowly but with more force, and what an idler gear does.",
+        "labels": [
+          "Driving gear",
+          "Driven gear",
+          "12 teeth",
+          "24 teeth",
+          "half the speed – twice the torque",
+          "turns the other way",
+          "Idler gear",
+          "same direction as the drive"
+        ],
+        "steps": [
+          "When two gears mesh, each tooth of one pushes a tooth of the other along. The driven gear therefore turns in the opposite direction.",
+          "The small gear has 12 teeth, the large one 24. For each turn of the small gear, 12 teeth pass the point of contact – which takes the large gear only half a turn.",
+          "In return, the large gear turns with twice the force: gears trade speed for torque. That is how a bicycle's low gear gets you up a hill more easily – only more slowly.",
+          "If a third gear is placed in between, the last one turns in the same direction as the first again. The idler does not change the ratio – only the first and the last gear count."
+        ]
+      }
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-17T12:00:00Z",
+    "id": "a-linse",
+    "category_id": "science",
+    "scene": "lens",
+    "title": "Wie eine Linse ein Bild erzeugt",
+    "summary": "Eine Sammellinse bündelt Licht in einem Punkt – und stellt die Welt dahinter auf den Kopf.",
+    "goal": "Du kannst erklären, was der Brennpunkt ist, warum das Bild hinter einer Sammellinse umgekehrt ist und wie es sich verändert, wenn der Gegenstand näher rückt.",
+    "labels": [
+      "Sammellinse",
+      "Brennpunkt",
+      "paralleles Licht",
+      "Gegenstand",
+      "Bild (steht kopf)",
+      "Die Linse bricht das Licht",
+      "näher heran: Bild größer und weiter weg"
+    ],
+    "steps": [
+      {
+        "text": "Eine Sammellinse ist in der Mitte dicker als am Rand. Lichtstrahlen, die parallel auf sie treffen, lenkt sie so ab, dass sie sich in einem Punkt treffen: dem Brennpunkt.",
+        "seconds": 7
+      },
+      {
+        "text": "Der Grund ist die Lichtbrechung: Beim Übergang von Luft in Glas und wieder hinaus ändert das Licht seine Richtung. Am Rand der Linse wird es stärker abgelenkt als in der Mitte, der Strahl durch die Mitte läuft gerade weiter.",
+        "seconds": 8
+      },
+      {
+        "text": "Von jeder Stelle eines Gegenstands gehen Lichtstrahlen aus. Die Linse führt alle Strahlen von der Spitze wieder in einem Punkt zusammen – dort entsteht das Bild. Es steht auf dem Kopf, weil sich die Strahlen hinter der Linse kreuzen.",
+        "seconds": 9
+      },
+      {
+        "text": "Rückt der Gegenstand näher an die Linse, wandert das Bild weiter weg und wird größer. So stellt eine Kamera scharf: Sie verschiebt die Linse, bis das Bild genau auf dem Sensor liegt. Im Auge wird stattdessen die Linse verformt.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Linse (Optik)",
+        "url": "https://de.wikipedia.org/wiki/Linse_(Optik)"
+      },
+      {
+        "name": "Wikipedia: Linsengleichung",
+        "url": "https://de.wikipedia.org/wiki/Linsengleichung"
+      }
+    ],
+    "quiz_question_id": "qa-linse",
+    "translations": {
+      "en": {
+        "title": "How a lens forms an image",
+        "summary": "A converging lens gathers light in one point – and turns the world behind it upside down.",
+        "goal": "You can explain what the focal point is, why the image behind a converging lens is inverted and how it changes when the object moves closer.",
+        "labels": [
+          "Converging lens",
+          "Focal point",
+          "parallel light",
+          "Object",
+          "Image (upside down)",
+          "The lens bends the light",
+          "closer: image larger and further away"
+        ],
+        "steps": [
+          "A converging lens is thicker in the middle than at the edge. It deflects rays of light that hit it in parallel so that they meet in one point: the focal point.",
+          "The reason is refraction: when light passes from air into glass and out again, it changes direction. At the edge of the lens it is deflected more strongly than in the middle; the ray through the centre goes straight on.",
+          "Rays of light leave every point of an object. The lens brings all rays from the tip back together in one point – that is where the image forms. It is upside down because the rays cross behind the lens.",
+          "If the object moves closer to the lens, the image moves further away and gets larger. This is how a camera focuses: it shifts the lens until the image lies exactly on the sensor. In the eye, the lens changes its shape instead."
+        ]
+      }
+    }
   }
 ]
