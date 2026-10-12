@@ -14640,5 +14640,5961 @@
         "explanation": "For this, the centre has to reach about ten million degrees."
       }
     }
+  },
+  {
+    "id": "m26",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Mit welcher Formel berechnet man den Umfang eines Kreises mit Radius r?",
+    "options": [
+      "2 · π · r",
+      "π · r²",
+      "π · r",
+      "4 · r"
+    ],
+    "correct_index": 0,
+    "explanation": "π · r² ist dagegen die Formel für die Fläche des Kreises.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreis",
+    "source_url": "https://de.wikipedia.org/wiki/Kreis",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which formula gives the circumference of a circle with radius r?",
+        "options": [
+          "2 · π · r",
+          "π · r²",
+          "π · r",
+          "4 · r"
+        ],
+        "explanation": "π · r², by contrast, is the formula for the area of the circle."
+      }
+    }
+  },
+  {
+    "id": "m27",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Woran erkennt man eine gerade Zahl?",
+    "options": [
+      "Sie hat keine Nachkommastellen",
+      "Sie endet auf 5",
+      "Sie ist größer als 10",
+      "Sie ist ohne Rest durch 2 teilbar"
+    ],
+    "correct_index": 3,
+    "explanation": "Gerade Zahlen enden auf 0, 2, 4, 6 oder 8.",
+    "difficulty": 1,
+    "tags": [
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Parität (Mathematik)",
+    "source_url": "https://de.wikipedia.org/wiki/Parität_(Mathematik)",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you recognise an even number?",
+        "options": [
+          "It has no decimal places",
+          "It ends in 5",
+          "It is greater than 10",
+          "It can be divided by 2 without a remainder"
+        ],
+        "explanation": "Even numbers end in 0, 2, 4, 6 or 8."
+      }
+    }
+  },
+  {
+    "id": "m28",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ergibt 7 mal 8?",
+    "options": [
+      "48",
+      "54",
+      "56",
+      "64"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Eselsbrücke: 5, 6, 7, 8 – „56 = 7 · 8“.",
+    "difficulty": 1,
+    "tags": [
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Einmaleins",
+    "source_url": "https://de.wikipedia.org/wiki/Einmaleins",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 7 times 8?",
+        "options": [
+          "48",
+          "54",
+          "56",
+          "64"
+        ],
+        "explanation": "A memory aid: 5, 6, 7, 8 – “56 = 7 × 8”."
+      }
+    }
+  },
+  {
+    "id": "m29",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ist der größte gemeinsame Teiler von 12 und 18?",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "36"
+    ],
+    "correct_index": 2,
+    "explanation": "Beide Zahlen lassen sich durch 6 teilen, durch keine größere Zahl aber beide zugleich.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Größter gemeinsamer Teiler",
+    "source_url": "https://de.wikipedia.org/wiki/Größter_gemeinsamer_Teiler",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the greatest common divisor of 12 and 18?",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "36"
+        ],
+        "explanation": "Both numbers can be divided by 6, but by no larger number at the same time."
+      }
+    }
+  },
+  {
+    "id": "m30",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ergibt −3 + 5?",
+    "options": [
+      "−8",
+      "−2",
+      "2",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf dem Zahlenstrahl geht man von −3 fünf Schritte nach rechts und landet bei 2.",
+    "difficulty": 1,
+    "tags": [
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Positive und negative Zahlen",
+    "source_url": "https://de.wikipedia.org/wiki/Positive_und_negative_Zahlen",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is −3 + 5?",
+        "options": [
+          "−8",
+          "−2",
+          "2",
+          "8"
+        ],
+        "explanation": "On the number line you move five steps to the right from −3 and land on 2."
+      }
+    }
+  },
+  {
+    "id": "m31",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ergibt 2 + 3 · 4?",
+    "options": [
+      "9",
+      "14",
+      "20",
+      "24"
+    ],
+    "correct_index": 1,
+    "explanation": "Punktrechnung geht vor Strichrechnung: erst 3 · 4 = 12, dann 2 + 12.",
+    "difficulty": 2,
+    "tags": [
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Punktrechnung vor Strichrechnung",
+    "source_url": "https://de.wikipedia.org/wiki/Punktrechnung_vor_Strichrechnung",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 2 + 3 × 4?",
+        "options": [
+          "9",
+          "14",
+          "20",
+          "24"
+        ],
+        "explanation": "Multiplication comes before addition: first 3 × 4 = 12, then 2 + 12."
+      }
+    }
+  },
+  {
+    "id": "m32",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welches Volumen hat ein Würfel mit 3 cm Kantenlänge?",
+    "options": [
+      "9 cm³",
+      "12 cm³",
+      "18 cm³",
+      "27 cm³"
+    ],
+    "correct_index": 3,
+    "explanation": "Länge mal Breite mal Höhe: 3 · 3 · 3 = 27.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Volumen",
+    "source_url": "https://de.wikipedia.org/wiki/Volumen",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the volume of a cube with edges 3 cm long?",
+        "options": [
+          "9 cm³",
+          "12 cm³",
+          "18 cm³",
+          "27 cm³"
+        ],
+        "explanation": "Length times width times height: 3 × 3 × 3 = 27."
+      }
+    }
+  },
+  {
+    "id": "m33",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele Minuten hat ein Tag?",
+    "options": [
+      "600",
+      "1.200",
+      "1.440",
+      "3.600"
+    ],
+    "correct_index": 2,
+    "explanation": "24 Stunden mal 60 Minuten.",
+    "difficulty": 2,
+    "tags": [
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Minute",
+    "source_url": "https://de.wikipedia.org/wiki/Minute",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many minutes are there in a day?",
+        "options": [
+          "600",
+          "1,200",
+          "1,440",
+          "3,600"
+        ],
+        "explanation": "24 hours times 60 minutes."
+      }
+    }
+  },
+  {
+    "id": "m34",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Zinssatz steigt von 2 Prozent auf 3 Prozent. Um wie viel ist er gestiegen?",
+    "options": [
+      "Um 1 Prozent",
+      "Um 100 Prozent",
+      "Um 5 Prozent",
+      "Um 1 Prozentpunkt, also um 50 Prozent"
+    ],
+    "correct_index": 3,
+    "explanation": "Prozentpunkte messen den Abstand zweier Prozentwerte. Relativ gesehen ist 3 um die Hälfte größer als 2.",
+    "difficulty": 3,
+    "tags": [
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prozentpunkt",
+    "source_url": "https://de.wikipedia.org/wiki/Prozentpunkt",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An interest rate rises from 2 percent to 3 percent. By how much has it risen?",
+        "options": [
+          "By 1 percent",
+          "By 100 percent",
+          "By 5 percent",
+          "By 1 percentage point, i.e. by 50 percent"
+        ],
+        "explanation": "Percentage points measure the gap between two percentages. In relative terms, 3 is half as much again as 2."
+      }
+    }
+  },
+  {
+    "id": "m35",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Drei Äpfel kosten 1,50 Euro. Was kosten fünf Äpfel?",
+    "options": [
+      "2,00 Euro",
+      "2,50 Euro",
+      "3,00 Euro",
+      "4,50 Euro"
+    ],
+    "correct_index": 1,
+    "explanation": "Dreisatz: Ein Apfel kostet 0,50 Euro, fünf kosten das Fünffache.",
+    "difficulty": 2,
+    "tags": [
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dreisatz",
+    "source_url": "https://de.wikipedia.org/wiki/Dreisatz",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Three apples cost 1.50 euros. What do five apples cost?",
+        "options": [
+          "2.00 euros",
+          "2.50 euros",
+          "3.00 euros",
+          "4.50 euros"
+        ],
+        "explanation": "Rule of three: one apple costs 0.50 euros, five cost five times as much."
+      }
+    }
+  },
+  {
+    "id": "m36",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Eine Karte hat den Maßstab 1 : 100.000. Wie weit ist 1 cm auf der Karte in Wirklichkeit?",
+    "options": [
+      "100 Meter",
+      "1 Kilometer",
+      "10 Kilometer",
+      "100 Kilometer"
+    ],
+    "correct_index": 1,
+    "explanation": "1 cm entspricht 100.000 cm – das sind 1.000 Meter.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maßstab (Kartografie)",
+    "source_url": "https://de.wikipedia.org/wiki/Maßstab_(Kartografie)",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A map has a scale of 1 : 100,000. How far is 1 cm on the map in reality?",
+        "options": [
+          "100 metres",
+          "1 kilometre",
+          "10 kilometres",
+          "100 kilometres"
+        ],
+        "explanation": "1 cm corresponds to 100,000 cm – that is 1,000 metres."
+      }
+    }
+  },
+  {
+    "id": "m37",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ist ein gleichseitiges Dreieck?",
+    "options": [
+      "Ein Dreieck mit zwei gleich langen Seiten",
+      "Ein Dreieck mit einem rechten Winkel",
+      "Ein Dreieck mit drei gleich langen Seiten",
+      "Ein Dreieck mit drei verschiedenen Seiten"
+    ],
+    "correct_index": 2,
+    "explanation": "Alle drei Winkel sind dann ebenfalls gleich groß: jeweils 60 Grad.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gleichseitiges Dreieck",
+    "source_url": "https://de.wikipedia.org/wiki/Gleichseitiges_Dreieck",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an equilateral triangle?",
+        "options": [
+          "A triangle with two sides of equal length",
+          "A triangle with a right angle",
+          "A triangle with three sides of equal length",
+          "A triangle with three different sides"
+        ],
+        "explanation": "All three angles are then equal too: 60 degrees each."
+      }
+    }
+  },
+  {
+    "id": "m38",
+    "kind": "question",
+    "category_id": "math",
+    "question": "In Sommern mit viel Eisverkauf gibt es auch mehr Sonnenbrände. Was folgt daraus?",
+    "options": [
+      "Eis verursacht Sonnenbrand",
+      "Sonnenbrand macht Lust auf Eis",
+      "Der Zusammenhang ist reiner Zufall",
+      "Nichts über Ursache und Wirkung – beides hängt vom Sonnenschein ab"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein statistischer Zusammenhang (Korrelation) beweist noch keine Ursache (Kausalität). Oft steckt ein dritter Faktor dahinter.",
+    "difficulty": 3,
+    "tags": [
+      "Logik",
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cum hoc ergo propter hoc",
+    "source_url": "https://de.wikipedia.org/wiki/Cum_hoc_ergo_propter_hoc",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In summers with high ice-cream sales there are also more cases of sunburn. What follows from this?",
+        "options": [
+          "Ice cream causes sunburn",
+          "Sunburn makes people want ice cream",
+          "The connection is pure coincidence",
+          "Nothing about cause and effect – both depend on sunshine"
+        ],
+        "explanation": "A statistical connection (correlation) does not prove a cause (causation). Often a third factor is behind it."
+      }
+    }
+  },
+  {
+    "id": "m39",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welche Dezimalzahl entspricht der Binärzahl 101?",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "101"
+    ],
+    "correct_index": 1,
+    "explanation": "Von rechts gelesen: 1 · 1 + 0 · 2 + 1 · 4 = 5.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dualsystem",
+    "source_url": "https://de.wikipedia.org/wiki/Dualsystem",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which decimal number corresponds to the binary number 101?",
+        "options": [
+          "3",
+          "5",
+          "6",
+          "101"
+        ],
+        "explanation": "Read from the right: 1 × 1 + 0 × 2 + 1 × 4 = 5."
+      }
+    }
+  },
+  {
+    "id": "m40",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie lautet 3,46 auf eine Nachkommastelle gerundet?",
+    "options": [
+      "3,4",
+      "3,5",
+      "3,0",
+      "4,0"
+    ],
+    "correct_index": 1,
+    "explanation": "Die zweite Nachkommastelle ist eine 6 – ab 5 wird aufgerundet.",
+    "difficulty": 1,
+    "tags": [
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rundung",
+    "source_url": "https://de.wikipedia.org/wiki/Rundung",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 3.46 rounded to one decimal place?",
+        "options": [
+          "3.4",
+          "3.5",
+          "3.0",
+          "4.0"
+        ],
+        "explanation": "The second decimal place is a 6 – from 5 upwards you round up."
+      }
+    }
+  },
+  {
+    "id": "m41",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie hängen Radius und Durchmesser eines Kreises zusammen?",
+    "options": [
+      "Der Durchmesser ist dreimal so lang",
+      "Beide sind gleich lang",
+      "Der Radius ist doppelt so lang",
+      "Der Durchmesser ist doppelt so lang wie der Radius"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Radius reicht vom Mittelpunkt zum Rand, der Durchmesser einmal quer durch den Kreis.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radius",
+    "source_url": "https://de.wikipedia.org/wiki/Radius",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How are the radius and diameter of a circle related?",
+        "options": [
+          "The diameter is three times as long",
+          "They are the same length",
+          "The radius is twice as long",
+          "The diameter is twice as long as the radius"
+        ],
+        "explanation": "The radius runs from the centre to the edge, the diameter right across the circle."
+      }
+    }
+  },
+  {
+    "id": "m42",
+    "kind": "question",
+    "category_id": "math",
+    "question": "„Wenn es regnet, ist die Straße nass.“ Die Straße ist nass. Folgt daraus sicher, dass es regnet?",
+    "options": [
+      "Ja, immer",
+      "Nein – die Straße kann auch aus anderen Gründen nass sein",
+      "Ja, außer im Winter",
+      "Das lässt sich nie sagen"
+    ],
+    "correct_index": 1,
+    "explanation": "Aus „A führt zu B“ folgt nicht „B, also A“. Vielleicht hat jemand die Straße gereinigt.",
+    "difficulty": 3,
+    "tags": [
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fehlschluss",
+    "source_url": "https://de.wikipedia.org/wiki/Fehlschluss",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "“If it rains, the street is wet.” The street is wet. Does it follow for certain that it is raining?",
+        "options": [
+          "Yes, always",
+          "No – the street can be wet for other reasons too",
+          "Yes, except in winter",
+          "That can never be said"
+        ],
+        "explanation": "“A leads to B” does not imply “B, therefore A”. Perhaps someone has cleaned the street."
+      }
+    }
+  },
+  {
+    "id": "m43",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Seerosen auf einem Teich verdoppeln täglich ihre Fläche. Am 30. Tag ist der Teich ganz bedeckt. Wann war er halb bedeckt?",
+    "options": [
+      "Am 15. Tag",
+      "Am 29. Tag",
+      "Am 25. Tag",
+      "Am 20. Tag"
+    ],
+    "correct_index": 1,
+    "explanation": "Verdoppelt sich die Fläche täglich, war sie am Vortag halb so groß. Exponentielles Wachstum wird lange unterschätzt.",
+    "difficulty": 3,
+    "tags": [
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Exponentielles Wachstum",
+    "source_url": "https://de.wikipedia.org/wiki/Exponentielles_Wachstum",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Water lilies on a pond double their area every day. On day 30 the pond is completely covered. When was it half covered?",
+        "options": [
+          "On day 15",
+          "On day 29",
+          "On day 25",
+          "On day 20"
+        ],
+        "explanation": "If the area doubles daily, it was half as large the day before. Exponential growth is underestimated for a long time."
+      }
+    }
+  },
+  {
+    "id": "m44",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viel ist eine Billion im Deutschen?",
+    "options": [
+      "Tausend Millionen",
+      "Eine Million Milliarden",
+      "Tausend Milliarden",
+      "Hundert Millionen"
+    ],
+    "correct_index": 2,
+    "explanation": "Vorsicht bei Übersetzungen: Das englische „billion“ ist eine Milliarde, die deutsche Billion heißt auf Englisch „trillion“.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Billion",
+    "source_url": "https://de.wikipedia.org/wiki/Billion",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How much is a “Billion” in German?",
+        "options": [
+          "A thousand million",
+          "A million billion",
+          "A thousand billion (10¹²)",
+          "A hundred million"
+        ],
+        "explanation": "Careful when translating: the English “billion” is a German “Milliarde”; the German “Billion” is an English “trillion”."
+      }
+    }
+  },
+  {
+    "id": "m45",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele Diagonalen hat ein Quadrat?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "correct_index": 1,
+    "explanation": "Sie verbinden die gegenüberliegenden Ecken und schneiden sich in der Mitte im rechten Winkel.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quadrat",
+    "source_url": "https://de.wikipedia.org/wiki/Quadrat",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many diagonals does a square have?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "explanation": "They connect opposite corners and cross in the middle at a right angle."
+      }
+    }
+  },
+  {
+    "id": "l23",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie lautet die Steigerung von „gut“?",
+    "options": [
+      "gut – guter – am gutesten",
+      "gut – mehr gut – am meisten gut",
+      "gut – besser – am besten",
+      "gut – wohler – am wohlsten"
+    ],
+    "correct_index": 2,
+    "explanation": "„Gut“ wird unregelmäßig gesteigert – wie im Englischen „good – better – best“.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Komparation",
+    "source_url": "https://de.wikipedia.org/wiki/Komparation",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the comparative and superlative of the German word “gut” (good)?",
+        "options": [
+          "gut – guter – am gutesten",
+          "gut – mehr gut – am meisten gut",
+          "gut – besser – am besten",
+          "gut – wohler – am wohlsten"
+        ],
+        "explanation": "“Gut” is compared irregularly – as in English “good – better – best”."
+      }
+    }
+  },
+  {
+    "id": "l24",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welchen Artikel hat das Wort „Mädchen“?",
+    "options": [
+      "der",
+      "die",
+      "Es hat keinen Artikel",
+      "das"
+    ],
+    "correct_index": 3,
+    "explanation": "Wörter mit der Verkleinerungsendung „-chen“ sind im Deutschen immer sächlich.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diminutiv",
+    "source_url": "https://de.wikipedia.org/wiki/Diminutiv",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which article does the German word “Mädchen” (girl) take?",
+        "options": [
+          "der",
+          "die",
+          "It has no article",
+          "das"
+        ],
+        "explanation": "German words with the diminutive ending “-chen” are always neuter."
+      }
+    }
+  },
+  {
+    "id": "l25",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Wortart drückt aus, was jemand tut oder was geschieht?",
+    "options": [
+      "Verb",
+      "Nomen",
+      "Adjektiv",
+      "Präposition"
+    ],
+    "correct_index": 0,
+    "explanation": "„Laufen“, „denken“ und „regnen“ sind Verben. Man nennt sie auch Tätigkeitswörter.",
+    "difficulty": 1,
+    "tags": [
+      "Grammatik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Verb",
+    "source_url": "https://de.wikipedia.org/wiki/Verb",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which part of speech expresses what someone does or what happens?",
+        "options": [
+          "Verb",
+          "Noun",
+          "Adjective",
+          "Preposition"
+        ],
+        "explanation": "“Run”, “think” and “rain” are verbs."
+      }
+    }
+  },
+  {
+    "id": "l26",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie lautet der Plural des englischen Wortes „child“?",
+    "options": [
+      "childs",
+      "children",
+      "childes",
+      "childrens"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein unregelmäßiger Plural – wie „man – men“ oder „mouse – mice“.",
+    "difficulty": 1,
+    "tags": [
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Englische Grammatik",
+    "source_url": "https://de.wikipedia.org/wiki/Englische_Grammatik",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the plural of the English word “child”?",
+        "options": [
+          "childs",
+          "children",
+          "childes",
+          "childrens"
+        ],
+        "explanation": "An irregular plural – like “man – men” or “mouse – mice”."
+      }
+    }
+  },
+  {
+    "id": "l27",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie lautet die einfache Vergangenheit von „to go“?",
+    "options": [
+      "goed",
+      "gone",
+      "went",
+      "going"
+    ],
+    "correct_index": 2,
+    "explanation": "„Gone“ ist das Partizip: „I went home“, aber „I have gone home“.",
+    "difficulty": 1,
+    "tags": [
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Englische Grammatik",
+    "source_url": "https://de.wikipedia.org/wiki/Englische_Grammatik",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the simple past of “to go”?",
+        "options": [
+          "goed",
+          "gone",
+          "went",
+          "going"
+        ],
+        "explanation": "“Gone” is the participle: “I went home”, but “I have gone home”."
+      }
+    }
+  },
+  {
+    "id": "l28",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das englische Wort „actually“?",
+    "options": [
+      "aktuell",
+      "schnell",
+      "aktiv",
+      "eigentlich, tatsächlich"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein falscher Freund: „Aktuell“ heißt auf Englisch „current“ oder „currently“.",
+    "difficulty": 2,
+    "tags": [
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Falscher Freund",
+    "source_url": "https://de.wikipedia.org/wiki/Falscher_Freund",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the English word “actually” mean in German?",
+        "options": [
+          "aktuell",
+          "schnell",
+          "aktiv",
+          "eigentlich, tatsächlich"
+        ],
+        "explanation": "A false friend: the German “aktuell” means “current” or “currently”."
+      }
+    }
+  },
+  {
+    "id": "l29",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das englische Wort „gift“?",
+    "options": [
+      "Geschenk",
+      "Gift",
+      "Gabel",
+      "Glück"
+    ],
+    "correct_index": 0,
+    "explanation": "Das deutsche „Gift“ heißt auf Englisch „poison“. Beide Wörter gehen auf „geben“ zurück.",
+    "difficulty": 1,
+    "tags": [
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Falscher Freund",
+    "source_url": "https://de.wikipedia.org/wiki/Falscher_Freund",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the English word “gift” mean in German?",
+        "options": [
+          "Geschenk",
+          "Gift",
+          "Gabel",
+          "Glück"
+        ],
+        "explanation": "The German word “Gift” means “poison”. Both words go back to “give”."
+      }
+    }
+  },
+  {
+    "id": "l30",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Oxymoron?",
+    "options": [
+      "Ein Wort, das ein Geräusch nachahmt",
+      "Eine starke Übertreibung",
+      "Eine Verbindung zweier Begriffe, die sich widersprechen",
+      "Eine Frage, auf die keine Antwort erwartet wird"
+    ],
+    "correct_index": 2,
+    "explanation": "Beispiele sind „bittersüß“, „alter Knabe“ oder „beredtes Schweigen“.",
+    "difficulty": 2,
+    "tags": [
+      "Stilmittel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oxymoron",
+    "source_url": "https://de.wikipedia.org/wiki/Oxymoron",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an oxymoron?",
+        "options": [
+          "A word that imitates a sound",
+          "A strong exaggeration",
+          "A combination of two terms that contradict each other",
+          "A question to which no answer is expected"
+        ],
+        "explanation": "Examples are “bittersweet”, “deafening silence” or “living dead”."
+      }
+    }
+  },
+  {
+    "id": "l31",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist Ironie?",
+    "options": [
+      "Man verschweigt etwas",
+      "Man wiederholt ein Wort mehrfach",
+      "Man spricht besonders höflich",
+      "Man sagt das Gegenteil von dem, was man meint – und erwartet, dass es verstanden wird"
+    ],
+    "correct_index": 3,
+    "explanation": "„Na, das hast du ja toll gemacht!“ – gesagt nach einem Missgeschick.",
+    "difficulty": 2,
+    "tags": [
+      "Stilmittel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ironie",
+    "source_url": "https://de.wikipedia.org/wiki/Ironie",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is irony?",
+        "options": [
+          "Keeping something quiet",
+          "Repeating a word several times",
+          "Speaking particularly politely",
+          "Saying the opposite of what you mean – expecting it to be understood"
+        ],
+        "explanation": "“Well, you did a great job there!” – said after a mishap."
+      }
+    }
+  },
+  {
+    "id": "l32",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Sprache ist Amtssprache in Brasilien?",
+    "options": [
+      "Portugiesisch",
+      "Spanisch",
+      "Brasilianisch",
+      "Englisch"
+    ],
+    "correct_index": 0,
+    "explanation": "Brasilien war eine portugiesische Kolonie – anders als die meisten Nachbarländer, in denen Spanisch gesprochen wird.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brasilien",
+    "source_url": "https://de.wikipedia.org/wiki/Brasilien",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language is the official language of Brazil?",
+        "options": [
+          "Portuguese",
+          "Spanish",
+          "Brazilian",
+          "English"
+        ],
+        "explanation": "Brazil was a Portuguese colony – unlike most neighbouring countries, where Spanish is spoken."
+      }
+    }
+  },
+  {
+    "id": "l33",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie viele Landessprachen hat die Schweiz?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 2,
+    "explanation": "Deutsch, Französisch, Italienisch und Rätoromanisch.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sprachen in der Schweiz",
+    "source_url": "https://de.wikipedia.org/wiki/Sprachen_in_der_Schweiz",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many national languages does Switzerland have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "German, French, Italian and Romansh."
+      }
+    }
+  },
+  {
+    "id": "l34",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Dialekt?",
+    "options": [
+      "Eine Geheimsprache",
+      "Eine ausgestorbene Sprache",
+      "Eine regionale Ausprägung einer Sprache",
+      "Eine Fremdsprache"
+    ],
+    "correct_index": 2,
+    "explanation": "Bairisch, Sächsisch oder Plattdeutsch klingen sehr verschieden – und unterscheiden sich auch in Wortschatz und Grammatik.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dialekt",
+    "source_url": "https://de.wikipedia.org/wiki/Dialekt",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a dialect?",
+        "options": [
+          "A secret language",
+          "An extinct language",
+          "A regional variety of a language",
+          "A foreign language"
+        ],
+        "explanation": "Bavarian, Saxon or Low German sound very different – and also differ in vocabulary and grammar."
+      }
+    }
+  },
+  {
+    "id": "l35",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache stammt das Wort „Restaurant“?",
+    "options": [
+      "Aus dem Italienischen",
+      "Aus dem Griechischen",
+      "Aus dem Englischen",
+      "Aus dem Französischen"
+    ],
+    "correct_index": 3,
+    "explanation": "Auch „Büro“, „Balkon“ und „Portemonnaie“ kamen aus dem Französischen ins Deutsche.",
+    "difficulty": 1,
+    "tags": [
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gallizismus",
+    "source_url": "https://de.wikipedia.org/wiki/Gallizismus",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word “restaurant” come from?",
+        "options": [
+          "Italian",
+          "Greek",
+          "English",
+          "French"
+        ],
+        "explanation": "“Bureau”, “balcony” and “ballet” also came from French."
+      }
+    }
+  },
+  {
+    "id": "l36",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist Esperanto?",
+    "options": [
+      "Eine geplante, künstlich geschaffene Sprache",
+      "Ein spanischer Dialekt",
+      "Eine alte Schrift",
+      "Eine Programmiersprache"
+    ],
+    "correct_index": 0,
+    "explanation": "Ludwik Zamenhof veröffentlichte sie 1887 als leicht erlernbare Brückensprache zwischen den Völkern.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Esperanto",
+    "source_url": "https://de.wikipedia.org/wiki/Esperanto",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is Esperanto?",
+        "options": [
+          "A planned, artificially created language",
+          "A Spanish dialect",
+          "An ancient script",
+          "A programming language"
+        ],
+        "explanation": "Ludwik Zamenhof published it in 1887 as an easy-to-learn bridge language between peoples."
+      }
+    }
+  },
+  {
+    "id": "l37",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wofür wird die Brailleschrift verwendet?",
+    "options": [
+      "Zum Verschlüsseln von Nachrichten",
+      "Zum Lesen mit den Fingern für blinde Menschen",
+      "Zum Schreiben von Musik",
+      "Für die Gebärdensprache"
+    ],
+    "correct_index": 1,
+    "explanation": "Jedes Zeichen besteht aus bis zu sechs tastbaren Punkten. Louis Braille entwickelte die Schrift um 1825.",
+    "difficulty": 1,
+    "tags": [
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brailleschrift",
+    "source_url": "https://de.wikipedia.org/wiki/Brailleschrift",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is Braille used for?",
+        "options": [
+          "For encrypting messages",
+          "For blind people to read with their fingers",
+          "For writing music",
+          "For sign language"
+        ],
+        "explanation": "Each character consists of up to six raised dots. Louis Braille developed the script around 1825."
+      }
+    }
+  },
+  {
+    "id": "l38",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Anagramm?",
+    "options": [
+      "Ein besonders kurzes Gedicht",
+      "Ein Wort mit doppelter Bedeutung",
+      "Ein Wort, das aus den umgestellten Buchstaben eines anderen entsteht",
+      "Ein Rechtschreibfehler"
+    ],
+    "correct_index": 2,
+    "explanation": "Aus „Lager“ wird zum Beispiel „Regal“.",
+    "difficulty": 1,
+    "tags": [
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Anagramm",
+    "source_url": "https://de.wikipedia.org/wiki/Anagramm",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an anagram?",
+        "options": [
+          "A particularly short poem",
+          "A word with a double meaning",
+          "A word formed by rearranging the letters of another",
+          "A spelling mistake"
+        ],
+        "explanation": "For example, “listen” becomes “silent”."
+      }
+    }
+  },
+  {
+    "id": "l39",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welches Wort passt: „Ihr ___ zu spät.“",
+    "options": [
+      "seit",
+      "said",
+      "sait",
+      "seid"
+    ],
+    "correct_index": 3,
+    "explanation": "„Seid“ kommt von „sein“ (ihr seid). „Seit“ ist eine Zeitangabe: seit gestern.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Deutsche Rechtschreibung",
+    "source_url": "https://de.wikipedia.org/wiki/Deutsche_Rechtschreibung",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which word fits the German sentence “Ihr ___ zu spät.” (You are too late)?",
+        "options": [
+          "seit",
+          "said",
+          "sait",
+          "seid"
+        ],
+        "explanation": "“Seid” comes from “sein” (to be). “Seit” refers to time: “seit gestern” (since yesterday)."
+      }
+    }
+  },
+  {
+    "id": "l40",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet die Abkürzung „etc.“?",
+    "options": [
+      "zum Beispiel",
+      "und so weiter",
+      "das heißt",
+      "siehe oben"
+    ],
+    "correct_index": 1,
+    "explanation": "Sie steht für das lateinische „et cetera“ – „und die übrigen Dinge“.",
+    "difficulty": 1,
+    "tags": [
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Et cetera",
+    "source_url": "https://de.wikipedia.org/wiki/Et_cetera",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the abbreviation “etc.” mean?",
+        "options": [
+          "for example",
+          "and so on",
+          "that is",
+          "see above"
+        ],
+        "explanation": "It stands for the Latin “et cetera” – “and the other things”."
+      }
+    }
+  },
+  {
+    "id": "s39",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie viele Zähne hat das vollständige Gebiss eines Erwachsenen?",
+    "options": [
+      "20",
+      "28",
+      "32",
+      "36"
+    ],
+    "correct_index": 2,
+    "explanation": "Dazu zählen vier Weisheitszähne, die oft gar nicht durchbrechen. Das Milchgebiss hat 20 Zähne.",
+    "difficulty": 1,
+    "tags": [
+      "Menschlicher Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zahn",
+    "source_url": "https://de.wikipedia.org/wiki/Zahn",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many teeth does a complete adult set have?",
+        "options": [
+          "20",
+          "28",
+          "32",
+          "36"
+        ],
+        "explanation": "This includes four wisdom teeth, which often never come through. The milk teeth number 20."
+      }
+    }
+  },
+  {
+    "id": "s40",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Organ bildet das Hormon Insulin?",
+    "options": [
+      "Die Bauchspeicheldrüse",
+      "Die Leber",
+      "Die Niere",
+      "Die Schilddrüse"
+    ],
+    "correct_index": 0,
+    "explanation": "Insulin senkt den Blutzuckerspiegel. Fehlt es oder wirkt es zu schwach, entsteht Diabetes.",
+    "difficulty": 2,
+    "tags": [
+      "Menschlicher Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Insulin",
+    "source_url": "https://de.wikipedia.org/wiki/Insulin",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which organ produces the hormone insulin?",
+        "options": [
+          "The pancreas",
+          "The liver",
+          "The kidney",
+          "The thyroid"
+        ],
+        "explanation": "Insulin lowers the blood sugar level. If it is missing or too weak in effect, diabetes develops."
+      }
+    }
+  },
+  {
+    "id": "s41",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wo sitzt der kleinste Knochen des menschlichen Körpers?",
+    "options": [
+      "In der Nase",
+      "Im Ohr",
+      "Im kleinen Zeh",
+      "Im Handgelenk"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Steigbügel im Mittelohr ist nur etwa drei Millimeter groß und überträgt Schallschwingungen.",
+    "difficulty": 2,
+    "tags": [
+      "Menschlicher Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Steigbügel (Anatomie)",
+    "source_url": "https://de.wikipedia.org/wiki/Steigbügel_(Anatomie)",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where is the smallest bone in the human body?",
+        "options": [
+          "In the nose",
+          "In the ear",
+          "In the little toe",
+          "In the wrist"
+        ],
+        "explanation": "The stapes in the middle ear is only about three millimetres long and transmits sound vibrations."
+      }
+    }
+  },
+  {
+    "id": "s42",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie hoch ist die normale Körpertemperatur des Menschen ungefähr?",
+    "options": [
+      "32 °C",
+      "37 °C",
+      "40 °C",
+      "42 °C"
+    ],
+    "correct_index": 1,
+    "explanation": "Sie schwankt im Tagesverlauf leicht. Ab etwa 38 °C spricht man von Fieber.",
+    "difficulty": 1,
+    "tags": [
+      "Menschlicher Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Körpertemperatur",
+    "source_url": "https://de.wikipedia.org/wiki/Körpertemperatur",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the normal human body temperature, approximately?",
+        "options": [
+          "32 °C",
+          "37 °C",
+          "40 °C",
+          "42 °C"
+        ],
+        "explanation": "It varies slightly over the day. From about 38 °C it is called a fever."
+      }
+    }
+  },
+  {
+    "id": "s43",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Vitamin bildet die Haut mithilfe von Sonnenlicht?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin D"
+    ],
+    "correct_index": 3,
+    "explanation": "Es wird für stabile Knochen gebraucht. Im Winter reicht die Sonne in Mitteleuropa dafür oft nicht aus.",
+    "difficulty": 2,
+    "tags": [
+      "Menschlicher Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vitamin D",
+    "source_url": "https://de.wikipedia.org/wiki/Vitamin_D",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which vitamin does the skin produce with the help of sunlight?",
+        "options": [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin K",
+          "Vitamin D"
+        ],
+        "explanation": "It is needed for strong bones. In winter the sun in central Europe is often not enough for this."
+      }
+    }
+  },
+  {
+    "id": "s44",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie heißt das wichtigste System der Blutgruppen?",
+    "options": [
+      "AB0-System",
+      "XY-System",
+      "DNA-System",
+      "pH-System"
+    ],
+    "correct_index": 0,
+    "explanation": "Es unterscheidet die Gruppen A, B, AB und 0. Bei einer Bluttransfusion müssen sie zusammenpassen.",
+    "difficulty": 2,
+    "tags": [
+      "Medizin"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: AB0-System",
+    "source_url": "https://de.wikipedia.org/wiki/AB0-System",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the most important blood group system called?",
+        "options": [
+          "ABO system",
+          "XY system",
+          "DNA system",
+          "pH system"
+        ],
+        "explanation": "It distinguishes the groups A, B, AB and O. They have to match for a blood transfusion."
+      }
+    }
+  },
+  {
+    "id": "s45",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wer ordnete 1869 die chemischen Elemente in einem Periodensystem?",
+    "options": [
+      "Albert Einstein",
+      "Dmitri Mendelejew",
+      "Niels Bohr",
+      "Antoine Lavoisier"
+    ],
+    "correct_index": 1,
+    "explanation": "Er ließ Lücken für noch unbekannte Elemente und sagte ihre Eigenschaften richtig voraus.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Periodensystem",
+    "source_url": "https://de.wikipedia.org/wiki/Periodensystem",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who arranged the chemical elements in a periodic table in 1869?",
+        "options": [
+          "Albert Einstein",
+          "Dmitri Mendeleev",
+          "Niels Bohr",
+          "Antoine Lavoisier"
+        ],
+        "explanation": "He left gaps for elements not yet known and correctly predicted their properties."
+      }
+    }
+  },
+  {
+    "id": "s46",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches dieser Elemente ist ein Edelgas?",
+    "options": [
+      "Sauerstoff",
+      "Stickstoff",
+      "Argon",
+      "Chlor"
+    ],
+    "correct_index": 2,
+    "explanation": "Edelgase wie Helium, Neon und Argon reagieren kaum mit anderen Stoffen.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Edelgase",
+    "source_url": "https://de.wikipedia.org/wiki/Edelgase",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these elements is a noble gas?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Argon",
+          "Chlorine"
+        ],
+        "explanation": "Noble gases such as helium, neon and argon hardly react with other substances."
+      }
+    }
+  },
+  {
+    "id": "s47",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Säure hilft im Magen bei der Verdauung?",
+    "options": [
+      "Schwefelsäure",
+      "Essigsäure",
+      "Zitronensäure",
+      "Salzsäure"
+    ],
+    "correct_index": 3,
+    "explanation": "Sie tötet viele Keime ab. Eine Schleimschicht schützt die Magenwand vor der Säure.",
+    "difficulty": 2,
+    "tags": [
+      "Menschlicher Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Magensaft",
+    "source_url": "https://de.wikipedia.org/wiki/Magensaft",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which acid helps with digestion in the stomach?",
+        "options": [
+          "Sulphuric acid",
+          "Acetic acid",
+          "Citric acid",
+          "Hydrochloric acid"
+        ],
+        "explanation": "It kills many germs. A layer of mucus protects the stomach wall from the acid."
+      }
+    }
+  },
+  {
+    "id": "s48",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie schnell breitet sich Schall in Luft ungefähr aus?",
+    "options": [
+      "34 Meter pro Sekunde",
+      "343 Meter pro Sekunde",
+      "3.430 Meter pro Sekunde",
+      "300.000 Kilometer pro Sekunde"
+    ],
+    "correct_index": 1,
+    "explanation": "Deshalb hört man den Donner später, als man den Blitz sieht: etwa drei Sekunden pro Kilometer Entfernung.",
+    "difficulty": 2,
+    "tags": [
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schallgeschwindigkeit",
+    "source_url": "https://de.wikipedia.org/wiki/Schallgeschwindigkeit",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how fast does sound travel in air?",
+        "options": [
+          "34 metres per second",
+          "343 metres per second",
+          "3,430 metres per second",
+          "300,000 kilometres per second"
+        ],
+        "explanation": "That is why you hear thunder later than you see lightning: about three seconds per kilometre of distance."
+      }
+    }
+  },
+  {
+    "id": "s49",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was besagt der Energieerhaltungssatz?",
+    "options": [
+      "Energie nimmt mit der Zeit immer zu",
+      "Energie kann weder erzeugt noch vernichtet, nur umgewandelt werden",
+      "Jede Bewegung braucht Strom",
+      "Wärme fließt von kalt nach warm"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Kraftwerk „erzeugt“ deshalb keine Energie – es wandelt sie nur in eine nutzbare Form um.",
+    "difficulty": 2,
+    "tags": [
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Energieerhaltungssatz",
+    "source_url": "https://de.wikipedia.org/wiki/Energieerhaltungssatz",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the law of conservation of energy state?",
+        "options": [
+          "Energy always increases over time",
+          "Energy can be neither created nor destroyed, only converted",
+          "Every movement needs electricity",
+          "Heat flows from cold to warm"
+        ],
+        "explanation": "So a power station does not “generate” energy – it only converts it into a usable form."
+      }
+    }
+  },
+  {
+    "id": "s50",
+    "kind": "question",
+    "category_id": "science",
+    "question": "In welcher Einheit wird die Kraft gemessen?",
+    "options": [
+      "Kelvin",
+      "Joule",
+      "Pascal",
+      "Newton"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Newton ist etwa die Gewichtskraft einer Tafel Schokolade von 100 Gramm.",
+    "difficulty": 1,
+    "tags": [
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Newton (Einheit)",
+    "source_url": "https://de.wikipedia.org/wiki/Newton_(Einheit)",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which unit is force measured?",
+        "options": [
+          "Kelvin",
+          "Joule",
+          "Pascal",
+          "Newton"
+        ],
+        "explanation": "One newton is roughly the weight of a 100-gram bar of chocolate."
+      }
+    }
+  },
+  {
+    "id": "s51",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was gibt ein Lichtjahr an?",
+    "options": [
+      "Eine Entfernung",
+      "Eine Zeitspanne",
+      "Eine Helligkeit",
+      "Eine Geschwindigkeit"
+    ],
+    "correct_index": 0,
+    "explanation": "Es ist die Strecke, die Licht in einem Jahr zurücklegt: rund 9,5 Billionen Kilometer.",
+    "difficulty": 2,
+    "tags": [
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lichtjahr",
+    "source_url": "https://de.wikipedia.org/wiki/Lichtjahr",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a light-year measure?",
+        "options": [
+          "A distance",
+          "A period of time",
+          "A brightness",
+          "A speed"
+        ],
+        "explanation": "It is the distance light travels in one year: about 9.5 trillion kilometres."
+      }
+    }
+  },
+  {
+    "id": "s52",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie heißt die Galaxie, in der sich unser Sonnensystem befindet?",
+    "options": [
+      "Andromeda",
+      "Milchstraße",
+      "Orion",
+      "Großer Wagen"
+    ],
+    "correct_index": 1,
+    "explanation": "Sie enthält mindestens 100 Milliarden Sterne.",
+    "difficulty": 1,
+    "tags": [
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Milchstraße",
+    "source_url": "https://de.wikipedia.org/wiki/Milchstraße",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the galaxy that contains our solar system called?",
+        "options": [
+          "Andromeda",
+          "Milky Way",
+          "Orion",
+          "The Plough"
+        ],
+        "explanation": "It contains at least 100 billion stars."
+      }
+    }
+  },
+  {
+    "id": "s53",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist ein Schwarzes Loch?",
+    "options": [
+      "Ein leerer Bereich im All ohne Sterne",
+      "Ein erloschener Planet",
+      "Ein Objekt mit so starker Schwerkraft, dass nicht einmal Licht entkommt",
+      "Ein Loch in der Ozonschicht"
+    ],
+    "correct_index": 2,
+    "explanation": "Schwarze Löcher entstehen zum Beispiel, wenn sehr massereiche Sterne am Ende ihres Lebens in sich zusammenstürzen.",
+    "difficulty": 2,
+    "tags": [
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwarzes Loch",
+    "source_url": "https://de.wikipedia.org/wiki/Schwarzes_Loch",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a black hole?",
+        "options": [
+          "An empty region of space without stars",
+          "An extinct planet",
+          "An object with gravity so strong that not even light escapes",
+          "A hole in the ozone layer"
+        ],
+        "explanation": "Black holes form, for example, when very massive stars collapse at the end of their lives."
+      }
+    }
+  },
+  {
+    "id": "s54",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wer veröffentlichte 1859 die Theorie der Evolution durch natürliche Auslese?",
+    "options": [
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Isaac Newton",
+      "Charles Darwin"
+    ],
+    "correct_index": 3,
+    "explanation": "Sein Buch heißt „Über die Entstehung der Arten“.",
+    "difficulty": 2,
+    "tags": [
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Charles Darwin",
+    "source_url": "https://de.wikipedia.org/wiki/Charles_Darwin",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who published the theory of evolution by natural selection in 1859?",
+        "options": [
+          "Gregor Mendel",
+          "Louis Pasteur",
+          "Isaac Newton",
+          "Charles Darwin"
+        ],
+        "explanation": "His book is called “On the Origin of Species”."
+      }
+    }
+  },
+  {
+    "id": "s55",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was unterscheidet Viren grundlegend von Bakterien?",
+    "options": [
+      "Viren können sich nur in fremden Zellen vermehren",
+      "Viren sind größer",
+      "Viren kommen nur bei Tieren vor",
+      "Viren sind immer harmlos"
+    ],
+    "correct_index": 0,
+    "explanation": "Bakterien sind eigenständige Lebewesen mit eigenem Stoffwechsel. Viren brauchen eine Wirtszelle.",
+    "difficulty": 2,
+    "tags": [
+      "Biologie",
+      "Medizin"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Viren",
+    "source_url": "https://de.wikipedia.org/wiki/Viren",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What fundamentally distinguishes viruses from bacteria?",
+        "options": [
+          "Viruses can only reproduce inside other cells",
+          "Viruses are larger",
+          "Viruses occur only in animals",
+          "Viruses are always harmless"
+        ],
+        "explanation": "Bacteria are independent living organisms with their own metabolism. Viruses need a host cell."
+      }
+    }
+  },
+  {
+    "id": "s56",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum ist der Himmel am Tag blau?",
+    "options": [
+      "Weil sich das Meer darin spiegelt",
+      "Weil die Luft blaues Licht stärker streut als rotes",
+      "Weil die Ozonschicht blau ist",
+      "Weil die Sonne blaues Licht aussendet"
+    ],
+    "correct_index": 1,
+    "explanation": "Kurzwelliges blaues Licht wird an den Luftmolekülen in alle Richtungen gestreut. Abends legt das Licht einen längeren Weg zurück – übrig bleibt Rot.",
+    "difficulty": 2,
+    "tags": [
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rayleigh-Streuung",
+    "source_url": "https://de.wikipedia.org/wiki/Rayleigh-Streuung",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the sky blue during the day?",
+        "options": [
+          "Because the sea is reflected in it",
+          "Because the air scatters blue light more strongly than red",
+          "Because the ozone layer is blue",
+          "Because the Sun emits blue light"
+        ],
+        "explanation": "Short-wave blue light is scattered in all directions by the air molecules. In the evening the light travels a longer path – what remains is red."
+      }
+    }
+  },
+  {
+    "id": "t35",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Browser?",
+    "options": [
+      "Ein Virenscanner",
+      "Eine Suchmaschine",
+      "Ein Internetanbieter",
+      "Ein Programm zum Anzeigen von Webseiten"
+    ],
+    "correct_index": 3,
+    "explanation": "Chrome, Firefox, Safari und Edge sind Browser. Eine Suchmaschine wie Google ist dagegen eine Website.",
+    "difficulty": 1,
+    "tags": [
+      "Internet"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Webbrowser",
+    "source_url": "https://de.wikipedia.org/wiki/Webbrowser",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a browser?",
+        "options": [
+          "A virus scanner",
+          "A search engine",
+          "An internet provider",
+          "A program for displaying web pages"
+        ],
+        "explanation": "Chrome, Firefox, Safari and Edge are browsers. A search engine like Google, by contrast, is a website."
+      }
+    }
+  },
+  {
+    "id": "t36",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Pixel?",
+    "options": [
+      "Ein einzelner Bildpunkt",
+      "Ein Dateiformat",
+      "Ein Computerprogramm",
+      "Eine Maßeinheit für Speicher"
+    ],
+    "correct_index": 0,
+    "explanation": "Digitale Bilder bestehen aus einem Raster vieler solcher Punkte.",
+    "difficulty": 1,
+    "tags": [
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pixel",
+    "source_url": "https://de.wikipedia.org/wiki/Pixel",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a pixel?",
+        "options": [
+          "A single picture element (dot)",
+          "A file format",
+          "A computer program",
+          "A unit of storage"
+        ],
+        "explanation": "Digital images consist of a grid of many such dots."
+      }
+    }
+  },
+  {
+    "id": "t37",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür braucht ein Computer Arbeitsspeicher (RAM)?",
+    "options": [
+      "Zum dauerhaften Speichern von Dateien",
+      "Als schnellen Zwischenspeicher für gerade laufende Programme",
+      "Zum Kühlen des Prozessors",
+      "Für die Internetverbindung"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Ausschalten wird er geleert. Dauerhaft liegen Daten auf der Festplatte oder SSD.",
+    "difficulty": 2,
+    "tags": [
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arbeitsspeicher",
+    "source_url": "https://de.wikipedia.org/wiki/Arbeitsspeicher",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a computer need working memory (RAM) for?",
+        "options": [
+          "For storing files permanently",
+          "As fast temporary storage for programs that are currently running",
+          "For cooling the processor",
+          "For the internet connection"
+        ],
+        "explanation": "It is emptied when the computer is switched off. Data is stored permanently on the hard disk or SSD."
+      }
+    }
+  },
+  {
+    "id": "t38",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Backup?",
+    "options": [
+      "Ein zweiter Bildschirm",
+      "Ein Programm zum Löschen von Viren",
+      "Eine Sicherungskopie von Daten",
+      "Ein schnelleres Internet"
+    ],
+    "correct_index": 2,
+    "explanation": "Geht ein Gerät kaputt oder verloren, lassen sich die Daten aus der Kopie wiederherstellen.",
+    "difficulty": 1,
+    "tags": [
+      "Sicherheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Datensicherung",
+    "source_url": "https://de.wikipedia.org/wiki/Datensicherung",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a backup?",
+        "options": [
+          "A second screen",
+          "A program for deleting viruses",
+          "A safety copy of data",
+          "Faster internet"
+        ],
+        "explanation": "If a device breaks or is lost, the data can be restored from the copy."
+      }
+    }
+  },
+  {
+    "id": "t39",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was macht ein Passwort besonders sicher?",
+    "options": [
+      "Es wird für alle Konten gleich gewählt",
+      "Es enthält den eigenen Namen",
+      "Es ist kurz und leicht zu merken",
+      "Es ist lang und wird nur für ein einziges Konto benutzt"
+    ],
+    "correct_index": 3,
+    "explanation": "Wird ein Dienst gehackt, sind bei mehrfach verwendeten Passwörtern gleich alle anderen Konten in Gefahr. Ein Passwortmanager hilft.",
+    "difficulty": 2,
+    "tags": [
+      "Sicherheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Passwort",
+    "source_url": "https://de.wikipedia.org/wiki/Passwort",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes a password particularly secure?",
+        "options": [
+          "It is the same for all accounts",
+          "It contains your own name",
+          "It is short and easy to remember",
+          "It is long and used for one account only"
+        ],
+        "explanation": "If a service is hacked, reused passwords put all your other accounts at risk too. A password manager helps."
+      }
+    }
+  },
+  {
+    "id": "t40",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bedeutet Verschlüsselung?",
+    "options": [
+      "Daten werden gelöscht",
+      "Daten werden so umgewandelt, dass nur Berechtigte sie lesen können",
+      "Daten werden verkleinert",
+      "Daten werden doppelt gespeichert"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei der Ende-zu-Ende-Verschlüsselung können nicht einmal die Betreiber eines Dienstes die Nachrichten mitlesen.",
+    "difficulty": 2,
+    "tags": [
+      "Sicherheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Verschlüsselung",
+    "source_url": "https://de.wikipedia.org/wiki/Verschlüsselung",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does encryption mean?",
+        "options": [
+          "Data is deleted",
+          "Data is transformed so that only authorised people can read it",
+          "Data is made smaller",
+          "Data is stored twice"
+        ],
+        "explanation": "With end-to-end encryption, not even the operators of a service can read the messages."
+      }
+    }
+  },
+  {
+    "id": "t41",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Cookie im Internet?",
+    "options": [
+      "Eine Werbeanzeige",
+      "Ein Computervirus",
+      "Eine kleine Datei, die eine Website im Browser speichert",
+      "Ein Bildformat"
+    ],
+    "correct_index": 2,
+    "explanation": "Cookies merken sich zum Beispiel den Warenkorb oder die Anmeldung – können aber auch dazu dienen, Nutzer über Websites hinweg zu verfolgen.",
+    "difficulty": 2,
+    "tags": [
+      "Internet"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: HTTP-Cookie",
+    "source_url": "https://de.wikipedia.org/wiki/HTTP-Cookie",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a cookie on the internet?",
+        "options": [
+          "An advertisement",
+          "A computer virus",
+          "A small file that a website stores in the browser",
+          "An image format"
+        ],
+        "explanation": "Cookies remember things like the shopping basket or the login – but can also be used to track users across websites."
+      }
+    }
+  },
+  {
+    "id": "t42",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür wird Bluetooth verwendet?",
+    "options": [
+      "Zum Laden von Akkus",
+      "Für Satellitennavigation",
+      "Für Telefonate über das Festnetz",
+      "Für Funkverbindungen über kurze Entfernungen"
+    ],
+    "correct_index": 3,
+    "explanation": "Typisch sind Kopfhörer, Lautsprecher oder Tastaturen. Benannt ist die Technik nach dem Wikingerkönig Harald Blauzahn.",
+    "difficulty": 1,
+    "tags": [
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bluetooth",
+    "source_url": "https://de.wikipedia.org/wiki/Bluetooth",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is Bluetooth used for?",
+        "options": [
+          "For charging batteries",
+          "For satellite navigation",
+          "For landline phone calls",
+          "For radio connections over short distances"
+        ],
+        "explanation": "Typical uses are headphones, speakers or keyboards. The technology is named after the Viking king Harald Bluetooth."
+      }
+    }
+  },
+  {
+    "id": "t43",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was speichert ein QR-Code?",
+    "options": [
+      "Informationen wie eine Webadresse in einem Muster aus Quadraten",
+      "Ein Foto",
+      "Den Standort des Handys",
+      "Ein Passwort des Nutzers"
+    ],
+    "correct_index": 0,
+    "explanation": "„QR“ steht für „Quick Response“. Der Code wurde 1994 in Japan für die Autoindustrie entwickelt.",
+    "difficulty": 1,
+    "tags": [
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: QR-Code",
+    "source_url": "https://de.wikipedia.org/wiki/QR-Code",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a QR code store?",
+        "options": [
+          "Information such as a web address in a pattern of squares",
+          "A photo",
+          "The phone's location",
+          "The user's password"
+        ],
+        "explanation": "“QR” stands for “quick response”. The code was developed in Japan in 1994 for the car industry."
+      }
+    }
+  },
+  {
+    "id": "t44",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Womit werden große KI-Sprachmodelle trainiert?",
+    "options": [
+      "Mit handgeschriebenen Regeln für jede Frage",
+      "Mit sehr großen Mengen an Text",
+      "Mit Gesprächen in Echtzeit",
+      "Mit Sensordaten von Robotern"
+    ],
+    "correct_index": 1,
+    "explanation": "Aus den Texten lernen sie statistische Muster der Sprache – nicht, was wahr ist.",
+    "difficulty": 2,
+    "tags": [
+      "Künstliche Intelligenz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Large Language Model",
+    "source_url": "https://de.wikipedia.org/wiki/Large_Language_Model",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are large AI language models trained on?",
+        "options": [
+          "Hand-written rules for every question",
+          "Very large amounts of text",
+          "Conversations in real time",
+          "Sensor data from robots"
+        ],
+        "explanation": "From the texts they learn statistical patterns of language – not what is true."
+      }
+    }
+  },
+  {
+    "id": "t45",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist HTML?",
+    "options": [
+      "Ein Bildformat",
+      "Ein Virenschutzprogramm",
+      "Die Sprache, mit der der Aufbau von Webseiten beschrieben wird",
+      "Ein soziales Netzwerk"
+    ],
+    "correct_index": 2,
+    "explanation": "HTML legt fest, was Überschrift, Absatz, Bild oder Link ist. Das Aussehen bestimmt meist CSS.",
+    "difficulty": 1,
+    "tags": [
+      "Programmieren"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hypertext Markup Language",
+    "source_url": "https://de.wikipedia.org/wiki/Hypertext_Markup_Language",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is HTML?",
+        "options": [
+          "An image format",
+          "An antivirus program",
+          "The language used to describe the structure of web pages",
+          "A social network"
+        ],
+        "explanation": "HTML defines what is a heading, paragraph, image or link. The appearance is usually set by CSS."
+      }
+    }
+  },
+  {
+    "id": "t46",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Server?",
+    "options": [
+      "Ein Programm zum Chatten",
+      "Ein Bildschirm",
+      "Ein Kabel",
+      "Ein Computer, der anderen Geräten Dienste oder Daten bereitstellt"
+    ],
+    "correct_index": 3,
+    "explanation": "Ruft man eine Website auf, schickt ein Server die Seite an den eigenen Browser.",
+    "difficulty": 2,
+    "tags": [
+      "Internet"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Server",
+    "source_url": "https://de.wikipedia.org/wiki/Server",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a server?",
+        "options": [
+          "A chat program",
+          "A screen",
+          "A cable",
+          "A computer that provides services or data to other devices"
+        ],
+        "explanation": "When you open a website, a server sends the page to your browser."
+      }
+    }
+  },
+  {
+    "id": "t47",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Womit überträgt ein Glasfaserkabel Daten?",
+    "options": [
+      "Mit Lichtsignalen",
+      "Mit Schallwellen",
+      "Mit Wasserdruck",
+      "Mit Magneten"
+    ],
+    "correct_index": 0,
+    "explanation": "Lichtimpulse laufen durch haarfeine Glasfasern – sehr schnell und über weite Strecken fast verlustfrei.",
+    "difficulty": 2,
+    "tags": [
+      "Internet"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lichtwellenleiter",
+    "source_url": "https://de.wikipedia.org/wiki/Lichtwellenleiter",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a fibre-optic cable use to transmit data?",
+        "options": [
+          "Light signals",
+          "Sound waves",
+          "Water pressure",
+          "Magnets"
+        ],
+        "explanation": "Pulses of light travel through hair-thin glass fibres – very fast and almost without loss over long distances."
+      }
+    }
+  },
+  {
+    "id": "t48",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum sollte man Software-Updates zeitnah installieren?",
+    "options": [
+      "Weil das Gerät sonst nicht mehr lädt",
+      "Weil sie oft Sicherheitslücken schließen",
+      "Weil sie den Bildschirm heller machen",
+      "Weil sie Speicherplatz frei machen"
+    ],
+    "correct_index": 1,
+    "explanation": "Bekannte Lücken werden von Angreifern gezielt ausgenutzt – auf Geräten, die noch nicht aktualisiert sind.",
+    "difficulty": 1,
+    "tags": [
+      "Sicherheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Softwareaktualisierung",
+    "source_url": "https://de.wikipedia.org/wiki/Softwareaktualisierung",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why should you install software updates promptly?",
+        "options": [
+          "Because the device will otherwise stop charging",
+          "Because they often close security holes",
+          "Because they make the screen brighter",
+          "Because they free up storage space"
+        ],
+        "explanation": "Known holes are deliberately exploited by attackers – on devices that have not yet been updated."
+      }
+    }
+  },
+  {
+    "id": "h36",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer erhielt 1876 das Patent für das Telefon?",
+    "options": [
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Werner von Siemens"
+    ],
+    "correct_index": 0,
+    "explanation": "Auch andere arbeiteten an der Idee, etwa Philipp Reis in Deutschland. Bell meldete sein Patent als Erster an.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alexander Graham Bell",
+    "source_url": "https://de.wikipedia.org/wiki/Alexander_Graham_Bell",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who received the patent for the telephone in 1876?",
+        "options": [
+          "Alexander Graham Bell",
+          "Thomas Edison",
+          "Nikola Tesla",
+          "Werner von Siemens"
+        ],
+        "explanation": "Others were working on the idea too, such as Philipp Reis in Germany. Bell was the first to file his patent."
+      }
+    }
+  },
+  {
+    "id": "h37",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Zwischen welchen beiden Flüssen entstanden in Mesopotamien einige der ersten Städte der Welt?",
+    "options": [
+      "Nil und Kongo",
+      "Euphrat und Tigris",
+      "Indus und Ganges",
+      "Donau und Rhein"
+    ],
+    "correct_index": 1,
+    "explanation": "Mesopotamien bedeutet „Land zwischen den Flüssen“ und liegt im heutigen Irak. Dort entstand auch die Keilschrift.",
+    "difficulty": 2,
+    "tags": [
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mesopotamien",
+    "source_url": "https://de.wikipedia.org/wiki/Mesopotamien",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Between which two rivers did some of the world's first cities arise in Mesopotamia?",
+        "options": [
+          "Nile and Congo",
+          "Euphrates and Tigris",
+          "Indus and Ganges",
+          "Danube and Rhine"
+        ],
+        "explanation": "Mesopotamia means “land between the rivers” and lies in present-day Iraq. Cuneiform writing also originated there."
+      }
+    }
+  },
+  {
+    "id": "h38",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welcher Fund ermöglichte es, die ägyptischen Hieroglyphen zu entziffern?",
+    "options": [
+      "Die Himmelsscheibe von Nebra",
+      "Die Maske des Tutanchamun",
+      "Der Stein von Rosette",
+      "Die Schriftrollen vom Toten Meer"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf dem Stein steht derselbe Text in drei Schriften. Jean-François Champollion gelang damit 1822 der Durchbruch.",
+    "difficulty": 2,
+    "tags": [
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stein von Rosette",
+    "source_url": "https://de.wikipedia.org/wiki/Stein_von_Rosette",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which find made it possible to decipher Egyptian hieroglyphs?",
+        "options": [
+          "The Nebra sky disc",
+          "The mask of Tutankhamun",
+          "The Rosetta Stone",
+          "The Dead Sea Scrolls"
+        ],
+        "explanation": "The stone bears the same text in three scripts. With it, Jean-François Champollion made the breakthrough in 1822."
+      }
+    }
+  },
+  {
+    "id": "h39",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Aus welchem Königreich stammte Alexander der Große?",
+    "options": [
+      "Rom",
+      "Persien",
+      "Ägypten",
+      "Makedonien"
+    ],
+    "correct_index": 3,
+    "explanation": "Bis zu seinem Tod 323 v. Chr. eroberte er ein Reich, das von Griechenland bis nach Indien reichte.",
+    "difficulty": 2,
+    "tags": [
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alexander der Große",
+    "source_url": "https://de.wikipedia.org/wiki/Alexander_der_Große",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which kingdom did Alexander the Great come from?",
+        "options": [
+          "Rome",
+          "Persia",
+          "Egypt",
+          "Macedonia"
+        ],
+        "explanation": "By his death in 323 BC he had conquered an empire stretching from Greece to India."
+      }
+    }
+  },
+  {
+    "id": "h40",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was geschah an den „Iden des März“ im Jahr 44 v. Chr.?",
+    "options": [
+      "Rom wurde gegründet",
+      "Julius Caesar wurde ermordet",
+      "Der Vesuv brach aus",
+      "Karthago wurde zerstört"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Gruppe von Senatoren erstach ihn am 15. März, weil sie eine Alleinherrschaft fürchtete.",
+    "difficulty": 2,
+    "tags": [
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Iden des März",
+    "source_url": "https://de.wikipedia.org/wiki/Iden_des_März",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happened on the “Ides of March” in 44 BC?",
+        "options": [
+          "Rome was founded",
+          "Julius Caesar was assassinated",
+          "Vesuvius erupted",
+          "Carthage was destroyed"
+        ],
+        "explanation": "A group of senators stabbed him on 15 March because they feared one-man rule."
+      }
+    }
+  },
+  {
+    "id": "h41",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer wurde im Jahr 800 in Rom zum Kaiser gekrönt?",
+    "options": [
+      "Friedrich Barbarossa",
+      "Otto der Große",
+      "Karl der Große",
+      "Chlodwig"
+    ],
+    "correct_index": 2,
+    "explanation": "Sein Frankenreich umfasste große Teile West- und Mitteleuropas.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karl der Große",
+    "source_url": "https://de.wikipedia.org/wiki/Karl_der_Große",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who was crowned emperor in Rome in the year 800?",
+        "options": [
+          "Frederick Barbarossa",
+          "Otto the Great",
+          "Charlemagne",
+          "Clovis"
+        ],
+        "explanation": "His Frankish empire covered large parts of western and central Europe."
+      }
+    }
+  },
+  {
+    "id": "h42",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wessen Expedition gelang von 1519 bis 1522 die erste Umsegelung der Erde?",
+    "options": [
+      "Die von Christoph Kolumbus",
+      "Die von Vasco da Gama",
+      "Die von James Cook",
+      "Die von Ferdinand Magellan"
+    ],
+    "correct_index": 3,
+    "explanation": "Magellan selbst starb unterwegs auf den Philippinen. Juan Sebastián Elcano brachte das letzte Schiff nach Hause.",
+    "difficulty": 2,
+    "tags": [
+      "Entdeckungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ferdinand Magellan",
+    "source_url": "https://de.wikipedia.org/wiki/Ferdinand_Magellan",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Whose expedition completed the first circumnavigation of the Earth from 1519 to 1522?",
+        "options": [
+          "Christopher Columbus's",
+          "Vasco da Gama's",
+          "James Cook's",
+          "Ferdinand Magellan's"
+        ],
+        "explanation": "Magellan himself died on the way in the Philippines. Juan Sebastián Elcano brought the last ship home."
+      }
+    }
+  },
+  {
+    "id": "h43",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer war Jeanne d’Arc?",
+    "options": [
+      "Eine junge Frau, die im Hundertjährigen Krieg französische Truppen anführte",
+      "Eine französische Königin",
+      "Eine Malerin der Renaissance",
+      "Eine Forscherin der Aufklärung"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie wurde 1431 mit etwa 19 Jahren als Ketzerin verbrannt und später heiliggesprochen.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jeanne d’Arc",
+    "source_url": "https://de.wikipedia.org/wiki/Jeanne_d’Arc",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who was Joan of Arc?",
+        "options": [
+          "A young woman who led French troops in the Hundred Years' War",
+          "A French queen",
+          "A Renaissance painter",
+          "An Enlightenment scholar"
+        ],
+        "explanation": "She was burned as a heretic in 1431 at about the age of 19 and later canonised."
+      }
+    }
+  },
+  {
+    "id": "h44",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welcher Schlacht wurde Napoleon 1815 endgültig besiegt?",
+    "options": [
+      "Bei Austerlitz",
+      "Bei Waterloo",
+      "Bei Leipzig",
+      "Bei Trafalgar"
+    ],
+    "correct_index": 1,
+    "explanation": "Danach wurde er auf die Atlantikinsel St. Helena verbannt.",
+    "difficulty": 2,
+    "tags": [
+      "Neuzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schlacht bei Waterloo",
+    "source_url": "https://de.wikipedia.org/wiki/Schlacht_bei_Waterloo",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which battle was Napoleon finally defeated in 1815?",
+        "options": [
+          "Austerlitz",
+          "Waterloo",
+          "Leipzig",
+          "Trafalgar"
+        ],
+        "explanation": "Afterwards he was exiled to the Atlantic island of St Helena."
+      }
+    }
+  },
+  {
+    "id": "h45",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr wurde das Deutsche Kaiserreich gegründet?",
+    "options": [
+      "1815",
+      "1848",
+      "1871",
+      "1918"
+    ],
+    "correct_index": 2,
+    "explanation": "Wilhelm I. wurde im Spiegelsaal von Versailles zum Deutschen Kaiser ausgerufen.",
+    "difficulty": 2,
+    "tags": [
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Deutsches Kaiserreich",
+    "source_url": "https://de.wikipedia.org/wiki/Deutsches_Kaiserreich",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year was the German Empire founded?",
+        "options": [
+          "1815",
+          "1848",
+          "1871",
+          "1918"
+        ],
+        "explanation": "Wilhelm I was proclaimed German Emperor in the Hall of Mirrors at Versailles."
+      }
+    }
+  },
+  {
+    "id": "h46",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr endete der Erste Weltkrieg?",
+    "options": [
+      "1914",
+      "1916",
+      "1918",
+      "1939"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Waffenstillstand trat am 11. November 1918 in Kraft.",
+    "difficulty": 1,
+    "tags": [
+      "20. Jahrhundert"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erster Weltkrieg",
+    "source_url": "https://de.wikipedia.org/wiki/Erster_Weltkrieg",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the First World War end?",
+        "options": [
+          "1914",
+          "1916",
+          "1918",
+          "1939"
+        ],
+        "explanation": "The armistice came into force on 11 November 1918."
+      }
+    }
+  },
+  {
+    "id": "h47",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war die Berliner Luftbrücke 1948/49?",
+    "options": [
+      "Die Versorgung West-Berlins per Flugzeug während der sowjetischen Blockade",
+      "Eine Brücke über die Spree",
+      "Die erste Fluglinie nach Amerika",
+      "Eine Flugschau der Alliierten"
+    ],
+    "correct_index": 0,
+    "explanation": "Fast ein Jahr lang brachten Flugzeuge der Westalliierten Lebensmittel und Kohle in die abgeriegelte Stadt.",
+    "difficulty": 2,
+    "tags": [
+      "Deutschland",
+      "20. Jahrhundert"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Berliner Luftbrücke",
+    "source_url": "https://de.wikipedia.org/wiki/Berliner_Luftbrücke",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the Berlin Airlift of 1948/49?",
+        "options": [
+          "Supplying West Berlin by aircraft during the Soviet blockade",
+          "A bridge over the Spree",
+          "The first air route to America",
+          "An Allied air show"
+        ],
+        "explanation": "For almost a year, aircraft of the Western Allies brought food and coal into the sealed-off city."
+      }
+    }
+  },
+  {
+    "id": "h48",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Verträge legten 1957 den Grundstein für die heutige Europäische Union?",
+    "options": [
+      "Der Versailler Vertrag",
+      "Die Römischen Verträge",
+      "Der Vertrag von Maastricht",
+      "Der Westfälische Friede"
+    ],
+    "correct_index": 1,
+    "explanation": "Sechs Staaten gründeten damit die Europäische Wirtschaftsgemeinschaft. Die EU in ihrer heutigen Form entstand 1993 mit dem Vertrag von Maastricht.",
+    "difficulty": 2,
+    "tags": [
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Römische Verträge",
+    "source_url": "https://de.wikipedia.org/wiki/Römische_Verträge",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which treaties laid the foundation for today's European Union in 1957?",
+        "options": [
+          "The Treaty of Versailles",
+          "The Treaties of Rome",
+          "The Maastricht Treaty",
+          "The Peace of Westphalia"
+        ],
+        "explanation": "Six states used them to found the European Economic Community. The EU in its present form was created in 1993 by the Maastricht Treaty."
+      }
+    }
+  },
+  {
+    "id": "h49",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Jahr wurde die Berliner Mauer gebaut?",
+    "options": [
+      "1949",
+      "1953",
+      "1961",
+      "1989"
+    ],
+    "correct_index": 2,
+    "explanation": "Ab dem 13. August 1961 riegelte die DDR die Grenze zu West-Berlin ab.",
+    "difficulty": 1,
+    "tags": [
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Berliner Mauer",
+    "source_url": "https://de.wikipedia.org/wiki/Berliner_Mauer",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year was the Berlin Wall built?",
+        "options": [
+          "1949",
+          "1953",
+          "1961",
+          "1989"
+        ],
+        "explanation": "From 13 August 1961 East Germany sealed off the border to West Berlin."
+      }
+    }
+  },
+  {
+    "id": "h50",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Forscherin erhielt als erster Mensch zwei Nobelpreise – in Physik und in Chemie?",
+    "options": [
+      "Marie Curie",
+      "Lise Meitner",
+      "Rosalind Franklin",
+      "Ada Lovelace"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie erforschte die Radioaktivität und entdeckte die Elemente Polonium und Radium.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaftsgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marie Curie",
+    "source_url": "https://de.wikipedia.org/wiki/Marie_Curie",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which scientist was the first person to receive two Nobel Prizes – in physics and in chemistry?",
+        "options": [
+          "Marie Curie",
+          "Lise Meitner",
+          "Rosalind Franklin",
+          "Ada Lovelace"
+        ],
+        "explanation": "She researched radioactivity and discovered the elements polonium and radium."
+      }
+    }
+  },
+  {
+    "id": "g32",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches ist die größte Insel der Erde?",
+    "options": [
+      "Island",
+      "Madagaskar",
+      "Borneo",
+      "Grönland"
+    ],
+    "correct_index": 3,
+    "explanation": "Australien ist größer, zählt aber als Kontinent.",
+    "difficulty": 1,
+    "tags": [
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grönland",
+    "source_url": "https://de.wikipedia.org/wiki/Grönland",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest island on Earth?",
+        "options": [
+          "Iceland",
+          "Madagascar",
+          "Borneo",
+          "Greenland"
+        ],
+        "explanation": "Australia is larger but counts as a continent."
+      }
+    }
+  },
+  {
+    "id": "g33",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist die Hauptstadt von Brasilien?",
+    "options": [
+      "Brasília",
+      "São Paulo",
+      "Rio de Janeiro",
+      "Salvador"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Stadt wurde eigens als Hauptstadt geplant und 1960 eingeweiht.",
+    "difficulty": 2,
+    "tags": [
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brasília",
+    "source_url": "https://de.wikipedia.org/wiki/Brasília",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the capital of Brazil?",
+        "options": [
+          "Brasília",
+          "São Paulo",
+          "Rio de Janeiro",
+          "Salvador"
+        ],
+        "explanation": "The city was planned specifically as the capital and inaugurated in 1960."
+      }
+    }
+  },
+  {
+    "id": "g34",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist die Hauptstadt der Türkei?",
+    "options": [
+      "Istanbul",
+      "Ankara",
+      "Izmir",
+      "Antalya"
+    ],
+    "correct_index": 1,
+    "explanation": "Istanbul ist die größte Stadt des Landes, Regierungssitz ist seit 1923 Ankara.",
+    "difficulty": 2,
+    "tags": [
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ankara",
+    "source_url": "https://de.wikipedia.org/wiki/Ankara",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the capital of Turkey?",
+        "options": [
+          "Istanbul",
+          "Ankara",
+          "Izmir",
+          "Antalya"
+        ],
+        "explanation": "Istanbul is the country's largest city; the seat of government has been Ankara since 1923."
+      }
+    }
+  },
+  {
+    "id": "g35",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher ist der höchste Berg Deutschlands?",
+    "options": [
+      "Der Watzmann",
+      "Der Brocken",
+      "Die Zugspitze",
+      "Der Feldberg"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Zugspitze in den bayerischen Alpen ist 2.962 Meter hoch.",
+    "difficulty": 1,
+    "tags": [
+      "Geographie",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zugspitze",
+    "source_url": "https://de.wikipedia.org/wiki/Zugspitze",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the highest mountain in Germany?",
+        "options": [
+          "The Watzmann",
+          "The Brocken",
+          "The Zugspitze",
+          "The Feldberg"
+        ],
+        "explanation": "The Zugspitze in the Bavarian Alps is 2,962 metres high."
+      }
+    }
+  },
+  {
+    "id": "g36",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher ist der höchste Berg Afrikas?",
+    "options": [
+      "Der Mount Kenia",
+      "Der Atlas",
+      "Der Tafelberg",
+      "Der Kilimandscharo"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Bergmassiv in Tansania ist 5.895 Meter hoch.",
+    "difficulty": 2,
+    "tags": [
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kilimandscharo",
+    "source_url": "https://de.wikipedia.org/wiki/Kilimandscharo",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the highest mountain in Africa?",
+        "options": [
+          "Mount Kenya",
+          "The Atlas",
+          "Table Mountain",
+          "Kilimanjaro"
+        ],
+        "explanation": "The massif in Tanzania is 5,895 metres high."
+      }
+    }
+  },
+  {
+    "id": "g37",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Auf welchem Kontinent gibt es keine Staaten?",
+    "options": [
+      "Antarktika",
+      "Australien",
+      "Südamerika",
+      "Afrika"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Antarktisvertrag von 1959 reserviert den Kontinent für friedliche Zwecke und die Forschung.",
+    "difficulty": 1,
+    "tags": [
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Antarktika",
+    "source_url": "https://de.wikipedia.org/wiki/Antarktika",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which continent are there no countries?",
+        "options": [
+          "Antarctica",
+          "Australia",
+          "South America",
+          "Africa"
+        ],
+        "explanation": "The Antarctic Treaty of 1959 reserves the continent for peaceful purposes and research."
+      }
+    }
+  },
+  {
+    "id": "g38",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wo liegt die tiefste bekannte Stelle der Weltmeere?",
+    "options": [
+      "Im Roten Meer",
+      "Im Marianengraben",
+      "Vor Grönland",
+      "Im Bermudadreieck"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Challengertief im Pazifik liegt knapp 11.000 Meter unter dem Meeresspiegel.",
+    "difficulty": 2,
+    "tags": [
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marianengraben",
+    "source_url": "https://de.wikipedia.org/wiki/Marianengraben",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where is the deepest known point in the world's oceans?",
+        "options": [
+          "In the Red Sea",
+          "In the Mariana Trench",
+          "Off Greenland",
+          "In the Bermuda Triangle"
+        ],
+        "explanation": "The Challenger Deep in the Pacific lies almost 11,000 metres below sea level."
+      }
+    }
+  },
+  {
+    "id": "g39",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Vor der Küste welches Landes liegt das Great Barrier Reef?",
+    "options": [
+      "Indonesien",
+      "Mexiko",
+      "Australien",
+      "Südafrika"
+    ],
+    "correct_index": 2,
+    "explanation": "Es ist das größte Korallenriff der Erde und erstreckt sich über mehr als 2.000 Kilometer.",
+    "difficulty": 1,
+    "tags": [
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Great Barrier Reef",
+    "source_url": "https://de.wikipedia.org/wiki/Great_Barrier_Reef",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Off the coast of which country is the Great Barrier Reef?",
+        "options": [
+          "Indonesia",
+          "Mexico",
+          "Australia",
+          "South Africa"
+        ],
+        "explanation": "It is the largest coral reef on Earth and stretches for more than 2,000 kilometres."
+      }
+    }
+  },
+  {
+    "id": "g40",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches dieser Meerestiere ist ein Säugetier?",
+    "options": [
+      "Der Delfin",
+      "Der Hai",
+      "Der Thunfisch",
+      "Der Rochen"
+    ],
+    "correct_index": 0,
+    "explanation": "Delfine atmen Luft, bringen lebende Junge zur Welt und säugen sie.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Delfine",
+    "source_url": "https://de.wikipedia.org/wiki/Delfine",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these sea animals is a mammal?",
+        "options": [
+          "The dolphin",
+          "The shark",
+          "The tuna",
+          "The ray"
+        ],
+        "explanation": "Dolphins breathe air, give birth to live young and suckle them."
+      }
+    }
+  },
+  {
+    "id": "g41",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum sind Bienen für viele Pflanzen so wichtig?",
+    "options": [
+      "Sie lockern den Boden",
+      "Sie bestäuben die Blüten",
+      "Sie fressen Schädlinge",
+      "Sie verbreiten Wasser"
+    ],
+    "correct_index": 1,
+    "explanation": "Ohne Bestäubung bilden viele Obst- und Gemüsesorten keine Früchte.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Umwelt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bestäubung",
+    "source_url": "https://de.wikipedia.org/wiki/Bestäubung",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why are bees so important for many plants?",
+        "options": [
+          "They loosen the soil",
+          "They pollinate the flowers",
+          "They eat pests",
+          "They spread water"
+        ],
+        "explanation": "Without pollination many kinds of fruit and vegetables do not bear fruit."
+      }
+    }
+  },
+  {
+    "id": "g42",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Woraus besteht der Erdkern vor allem?",
+    "options": [
+      "Aus flüssigem Wasser",
+      "Aus Granit",
+      "Aus Eisen und Nickel",
+      "Aus Gold"
+    ],
+    "correct_index": 2,
+    "explanation": "Der innere Kern ist fest, der äußere flüssig. Seine Bewegungen erzeugen das Magnetfeld der Erde.",
+    "difficulty": 2,
+    "tags": [
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erdkern",
+    "source_url": "https://de.wikipedia.org/wiki/Erdkern",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Earth's core mainly made of?",
+        "options": [
+          "Liquid water",
+          "Granite",
+          "Iron and nickel",
+          "Gold"
+        ],
+        "explanation": "The inner core is solid, the outer one liquid. Its movements generate the Earth's magnetic field."
+      }
+    }
+  },
+  {
+    "id": "g43",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Mit welchem Gerät zeichnet man Erdbeben auf?",
+    "options": [
+      "Mit einem Barometer",
+      "Mit einem Kompass",
+      "Mit einem Thermometer",
+      "Mit einem Seismografen"
+    ],
+    "correct_index": 3,
+    "explanation": "Er registriert die Erschütterungen des Bodens, auch von sehr weit entfernten Beben.",
+    "difficulty": 2,
+    "tags": [
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seismograph",
+    "source_url": "https://de.wikipedia.org/wiki/Seismograph",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which instrument is used to record earthquakes?",
+        "options": [
+          "A barometer",
+          "A compass",
+          "A thermometer",
+          "A seismograph"
+        ],
+        "explanation": "It records the vibrations of the ground, even from very distant quakes."
+      }
+    }
+  },
+  {
+    "id": "g44",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was löst die meisten Tsunamis aus?",
+    "options": [
+      "Erdbeben unter dem Meeresboden",
+      "Starker Wind",
+      "Die Gezeiten",
+      "Schmelzende Gletscher"
+    ],
+    "correct_index": 0,
+    "explanation": "Hebt oder senkt sich der Meeresboden ruckartig, setzt das die gesamte Wassersäule darüber in Bewegung.",
+    "difficulty": 2,
+    "tags": [
+      "Meer",
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tsunami",
+    "source_url": "https://de.wikipedia.org/wiki/Tsunami",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What triggers most tsunamis?",
+        "options": [
+          "Earthquakes beneath the sea floor",
+          "Strong wind",
+          "The tides",
+          "Melting glaciers"
+        ],
+        "explanation": "When the sea floor rises or falls abruptly, it sets the entire column of water above it in motion."
+      }
+    }
+  },
+  {
+    "id": "g45",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "In welcher Reihenfolge läuft der Wasserkreislauf ab?",
+    "options": [
+      "Regnen – Gefrieren – Schmelzen – Verschwinden",
+      "Verdunsten – Wolken bilden – Regnen – Abfließen",
+      "Abfließen – Verdunsten – Gefrieren – Regnen",
+      "Wolken bilden – Abfließen – Verdunsten – Schneien"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Wasser der Erde wird dabei nicht verbraucht, sondern immer wieder neu verteilt.",
+    "difficulty": 1,
+    "tags": [
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserkreislauf",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserkreislauf",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which order does the water cycle run?",
+        "options": [
+          "Rain – freeze – melt – disappear",
+          "Evaporate – form clouds – rain – run off",
+          "Run off – evaporate – freeze – rain",
+          "Form clouds – run off – evaporate – snow"
+        ],
+        "explanation": "The Earth's water is not used up in the process but redistributed again and again."
+      }
+    }
+  },
+  {
+    "id": "g46",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche dieser Energiequellen ist nicht erneuerbar?",
+    "options": [
+      "Windkraft",
+      "Sonnenenergie",
+      "Erdgas",
+      "Wasserkraft"
+    ],
+    "correct_index": 2,
+    "explanation": "Erdgas ist wie Kohle und Erdöl ein fossiler Brennstoff, der über Millionen Jahre entstanden ist.",
+    "difficulty": 2,
+    "tags": [
+      "Energie",
+      "Umwelt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fossile Energie",
+    "source_url": "https://de.wikipedia.org/wiki/Fossile_Energie",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these energy sources is not renewable?",
+        "options": [
+          "Wind power",
+          "Solar energy",
+          "Natural gas",
+          "Hydropower"
+        ],
+        "explanation": "Like coal and oil, natural gas is a fossil fuel that formed over millions of years."
+      }
+    }
+  },
+  {
+    "id": "g47",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum ziehen viele Vögel im Herbst nach Süden?",
+    "options": [
+      "Weil die Tage im Süden kürzer sind",
+      "Weil sie die Kälte nicht spüren",
+      "Weil sie dort brüten",
+      "Weil sie dort im Winter genug Nahrung finden"
+    ],
+    "correct_index": 3,
+    "explanation": "Insektenfresser wie Schwalben fänden im mitteleuropäischen Winter kaum etwas zu fressen.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vogelzug",
+    "source_url": "https://de.wikipedia.org/wiki/Vogelzug",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do many birds fly south in autumn?",
+        "options": [
+          "Because the days are shorter in the south",
+          "Because they do not feel the cold",
+          "Because they breed there",
+          "Because they find enough food there in winter"
+        ],
+        "explanation": "Insect-eaters such as swallows would find hardly anything to eat in a central European winter."
+      }
+    }
+  },
+  {
+    "id": "e27",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was passiert in der Regel mit dem Preis, wenn das Angebot einer Ware stark steigt und die Nachfrage gleich bleibt?",
+    "options": [
+      "Er steigt",
+      "Er verdoppelt sich",
+      "Er bleibt immer gleich",
+      "Er sinkt"
+    ],
+    "correct_index": 3,
+    "explanation": "Nach einer sehr guten Ernte sind Erdbeeren deshalb oft günstiger.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marktgleichgewicht",
+    "source_url": "https://de.wikipedia.org/wiki/Marktgleichgewicht",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What usually happens to the price when the supply of a good rises sharply and demand stays the same?",
+        "options": [
+          "It rises",
+          "It doubles",
+          "It always stays the same",
+          "It falls"
+        ],
+        "explanation": "That is why strawberries are often cheaper after a very good harvest."
+      }
+    }
+  },
+  {
+    "id": "e28",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bedeutet Kaufkraft?",
+    "options": [
+      "Wie viel man sich für sein Geld kaufen kann",
+      "Wie stark ein Verkäufer ist",
+      "Wie viel Bargeld im Umlauf ist",
+      "Wie oft jemand einkauft"
+    ],
+    "correct_index": 0,
+    "explanation": "Steigen die Preise schneller als die Löhne, sinkt die Kaufkraft.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaufkraft",
+    "source_url": "https://de.wikipedia.org/wiki/Kaufkraft",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does purchasing power mean?",
+        "options": [
+          "How much you can buy with your money",
+          "How strong a seller is",
+          "How much cash is in circulation",
+          "How often someone goes shopping"
+        ],
+        "explanation": "If prices rise faster than wages, purchasing power falls."
+      }
+    }
+  },
+  {
+    "id": "e29",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein Dauerauftrag?",
+    "options": [
+      "Ein Kredit ohne Ende",
+      "Eine Zahlung, die die Bank regelmäßig in gleicher Höhe ausführt",
+      "Eine Bestellung im Internet",
+      "Ein Auftrag an einen Handwerker"
+    ],
+    "correct_index": 1,
+    "explanation": "Typisch ist die monatliche Miete. Bei einer Lastschrift zieht dagegen der Empfänger den Betrag ein.",
+    "difficulty": 1,
+    "tags": [
+      "Finanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dauerauftrag",
+    "source_url": "https://de.wikipedia.org/wiki/Dauerauftrag",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a standing order?",
+        "options": [
+          "A loan without an end",
+          "A payment the bank makes regularly for the same amount",
+          "An online order",
+          "A job for a tradesperson"
+        ],
+        "explanation": "The monthly rent is a typical example. With a direct debit, by contrast, the recipient collects the amount."
+      }
+    }
+  },
+  {
+    "id": "e30",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist der Nettolohn?",
+    "options": [
+      "Der Lohn vor allen Abzügen",
+      "Der Lohn pro Stunde",
+      "Der Lohn inklusive Bonus",
+      "Der Lohn nach Abzug von Steuern und Sozialabgaben"
+    ],
+    "correct_index": 3,
+    "explanation": "Netto ist, was tatsächlich auf dem Konto ankommt.",
+    "difficulty": 1,
+    "tags": [
+      "Finanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arbeitsentgelt",
+    "source_url": "https://de.wikipedia.org/wiki/Arbeitsentgelt",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is net pay?",
+        "options": [
+          "Pay before all deductions",
+          "Pay per hour",
+          "Pay including bonus",
+          "Pay after tax and social security contributions are deducted"
+        ],
+        "explanation": "Net is what actually arrives in your account."
+      }
+    }
+  },
+  {
+    "id": "e31",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welche dieser Versicherungen gehört in Deutschland zur gesetzlichen Sozialversicherung?",
+    "options": [
+      "Die Rentenversicherung",
+      "Die Hausratversicherung",
+      "Die Kfz-Versicherung",
+      "Die Reiseversicherung"
+    ],
+    "correct_index": 0,
+    "explanation": "Dazu gehören auch die Kranken-, Pflege-, Arbeitslosen- und Unfallversicherung.",
+    "difficulty": 2,
+    "tags": [
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sozialversicherung (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Sozialversicherung_(Deutschland)",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these insurances is part of statutory social insurance in Germany?",
+        "options": [
+          "Pension insurance",
+          "Household contents insurance",
+          "Motor insurance",
+          "Travel insurance"
+        ],
+        "explanation": "It also includes health, long-term care, unemployment and accident insurance."
+      }
+    }
+  },
+  {
+    "id": "e32",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bezeichnet man an der Börse als „Bärenmarkt“?",
+    "options": [
+      "Eine Phase stark steigender Kurse",
+      "Eine längere Phase fallender Kurse",
+      "Den Handel mit Rohstoffen",
+      "Einen Markt für Tierfutter"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Gegenteil ist der „Bullenmarkt“ mit steigenden Kursen.",
+    "difficulty": 3,
+    "tags": [
+      "Börse"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bullen- und Bärenmarkt",
+    "source_url": "https://de.wikipedia.org/wiki/Bullen-_und_Bärenmarkt",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is called a “bear market” on the stock exchange?",
+        "options": [
+          "A period of sharply rising prices",
+          "A prolonged period of falling prices",
+          "Trading in commodities",
+          "A market for animal feed"
+        ],
+        "explanation": "The opposite is the “bull market” with rising prices."
+      }
+    }
+  },
+  {
+    "id": "e33",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was beschreibt der Begriff Globalisierung?",
+    "options": [
+      "Die Vermessung der Kontinente",
+      "Die Erwärmung der Erde",
+      "Die zunehmende weltweite Verflechtung von Wirtschaft, Kommunikation und Kultur",
+      "Die Gründung der Vereinten Nationen"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Smartphone wird oft in einem Land entwickelt, in einem anderen gebaut und weltweit verkauft.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Globalisierung",
+    "source_url": "https://de.wikipedia.org/wiki/Globalisierung",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the term globalisation describe?",
+        "options": [
+          "The surveying of the continents",
+          "The warming of the Earth",
+          "The growing worldwide interconnection of economies, communication and culture",
+          "The founding of the United Nations"
+        ],
+        "explanation": "A smartphone is often designed in one country, built in another and sold worldwide."
+      }
+    }
+  },
+  {
+    "id": "e34",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein Zoll?",
+    "options": [
+      "Ein Rabatt für Großkunden",
+      "Eine Steuer auf Einkommen",
+      "Eine Gebühr für Bargeld",
+      "Eine Abgabe auf Waren, die über eine Grenze eingeführt werden"
+    ],
+    "correct_index": 3,
+    "explanation": "Zölle machen ausländische Waren teurer und schützen so heimische Hersteller – oft zulasten der Verbraucher.",
+    "difficulty": 2,
+    "tags": [
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zoll (Abgabe)",
+    "source_url": "https://de.wikipedia.org/wiki/Zoll_(Abgabe)",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a customs duty (tariff)?",
+        "options": [
+          "A discount for bulk buyers",
+          "A tax on income",
+          "A fee for cash",
+          "A charge on goods imported across a border"
+        ],
+        "explanation": "Tariffs make foreign goods more expensive and thus protect domestic producers – often at the expense of consumers."
+      }
+    }
+  },
+  {
+    "id": "e35",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "In welcher Stadt hat die Europäische Zentralbank ihren Sitz?",
+    "options": [
+      "Frankfurt am Main",
+      "Brüssel",
+      "Paris",
+      "Luxemburg"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie ist für die Geldpolitik im Euroraum zuständig.",
+    "difficulty": 1,
+    "tags": [
+      "Geldpolitik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäische Zentralbank",
+    "source_url": "https://de.wikipedia.org/wiki/Europäische_Zentralbank",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is the European Central Bank based?",
+        "options": [
+          "Frankfurt am Main",
+          "Brussels",
+          "Paris",
+          "Luxembourg"
+        ],
+        "explanation": "It is responsible for monetary policy in the euro area."
+      }
+    }
+  },
+  {
+    "id": "e36",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was gibt die Arbeitslosenquote an?",
+    "options": [
+      "Die Zahl der offenen Stellen",
+      "Den Anteil der Arbeitslosen an allen Erwerbspersonen",
+      "Den Anteil der Rentner an der Bevölkerung",
+      "Die durchschnittliche Arbeitszeit"
+    ],
+    "correct_index": 1,
+    "explanation": "Erwerbspersonen sind alle, die arbeiten oder Arbeit suchen.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arbeitslosenstatistik",
+    "source_url": "https://de.wikipedia.org/wiki/Arbeitslosenstatistik",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the unemployment rate indicate?",
+        "options": [
+          "The number of vacancies",
+          "The share of unemployed people among the whole labour force",
+          "The share of pensioners in the population",
+          "Average working hours"
+        ],
+        "explanation": "The labour force is everyone who works or is looking for work."
+      }
+    }
+  },
+  {
+    "id": "e37",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist eine Subvention?",
+    "options": [
+      "Ein Kredit einer Bank",
+      "Eine Strafe für Unternehmen",
+      "Eine staatliche Unterstützung ohne direkte Gegenleistung",
+      "Eine Steuer auf Luxusgüter"
+    ],
+    "correct_index": 2,
+    "explanation": "Staaten fördern damit zum Beispiel Landwirtschaft, erneuerbare Energien oder bestimmte Regionen.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Subvention",
+    "source_url": "https://de.wikipedia.org/wiki/Subvention",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a subsidy?",
+        "options": [
+          "A bank loan",
+          "A penalty for companies",
+          "State support without anything directly in return",
+          "A tax on luxury goods"
+        ],
+        "explanation": "States use them to support, for example, agriculture, renewable energy or particular regions."
+      }
+    }
+  },
+  {
+    "id": "e38",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein Haushaltsdefizit eines Staates?",
+    "options": [
+      "Der Staat druckt neues Geld",
+      "Der Staat nimmt mehr ein, als er ausgibt",
+      "Der Staat hat keine Schulden",
+      "Der Staat gibt in einem Jahr mehr aus, als er einnimmt"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Lücke wird meist durch neue Schulden geschlossen. Das Gegenteil ist ein Überschuss.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haushaltssaldo",
+    "source_url": "https://de.wikipedia.org/wiki/Haushaltssaldo",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a state's budget deficit?",
+        "options": [
+          "The state prints new money",
+          "The state takes in more than it spends",
+          "The state has no debt",
+          "The state spends more in a year than it takes in"
+        ],
+        "explanation": "The gap is usually closed with new debt. The opposite is a surplus."
+      }
+    }
+  },
+  {
+    "id": "b24",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein Alleinstellungsmerkmal (USP)?",
+    "options": [
+      "Der niedrigste Preis am Markt",
+      "Das, was ein Angebot klar von der Konkurrenz abhebt",
+      "Der Name des Firmengründers",
+      "Ein gesetzlicher Schutz"
+    ],
+    "correct_index": 1,
+    "explanation": "USP steht für „Unique Selling Proposition“ – das einzigartige Verkaufsversprechen.",
+    "difficulty": 2,
+    "tags": [
+      "Marketing"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alleinstellungsmerkmal",
+    "source_url": "https://de.wikipedia.org/wiki/Alleinstellungsmerkmal",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a unique selling proposition (USP)?",
+        "options": [
+          "The lowest price on the market",
+          "What clearly sets an offering apart from the competition",
+          "The founder's name",
+          "A legal protection"
+        ],
+        "explanation": "It is the one promise that only this offering makes."
+      }
+    }
+  },
+  {
+    "id": "b25",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was zeigt die Bilanz eines Unternehmens?",
+    "options": [
+      "Die Werbeausgaben eines Monats",
+      "Die Zahl der Kunden",
+      "Vermögen und Schulden zu einem bestimmten Stichtag",
+      "Den Aktienkurs"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf der einen Seite steht, was das Unternehmen besitzt, auf der anderen, wie es finanziert ist. Beide Seiten sind immer gleich groß.",
+    "difficulty": 3,
+    "tags": [
+      "Finanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bilanz",
+    "source_url": "https://de.wikipedia.org/wiki/Bilanz",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a company's balance sheet show?",
+        "options": [
+          "A month's advertising spending",
+          "The number of customers",
+          "Assets and liabilities on a particular date",
+          "The share price"
+        ],
+        "explanation": "One side shows what the company owns, the other how it is financed. Both sides are always equal."
+      }
+    }
+  },
+  {
+    "id": "b26",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet E-Commerce?",
+    "options": [
+      "Einkauf auf Kredit",
+      "Handel mit Elektrogeräten",
+      "Export in andere Länder",
+      "Handel über das Internet"
+    ],
+    "correct_index": 3,
+    "explanation": "Dazu gehören Online-Shops ebenso wie Marktplätze, auf denen viele Händler verkaufen.",
+    "difficulty": 1,
+    "tags": [
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elektronischer Handel",
+    "source_url": "https://de.wikipedia.org/wiki/Elektronischer_Handel",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does e-commerce mean?",
+        "options": [
+          "Buying on credit",
+          "Trade in electrical appliances",
+          "Exporting to other countries",
+          "Trade over the internet"
+        ],
+        "explanation": "It includes online shops as well as marketplaces where many retailers sell."
+      }
+    }
+  },
+  {
+    "id": "b27",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was kennzeichnet ein Abo-Modell?",
+    "options": [
+      "Kunden zahlen regelmäßig für die laufende Nutzung",
+      "Kunden zahlen einmal und besitzen das Produkt",
+      "Das Produkt ist immer kostenlos",
+      "Der Preis wird jedes Mal verhandelt"
+    ],
+    "correct_index": 0,
+    "explanation": "Für Unternehmen bedeutet das planbare, wiederkehrende Einnahmen – etwa bei Streamingdiensten.",
+    "difficulty": 2,
+    "tags": [
+      "Geschäftsmodell"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Abonnement",
+    "source_url": "https://de.wikipedia.org/wiki/Abonnement",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What characterises a subscription model?",
+        "options": [
+          "Customers pay regularly for ongoing use",
+          "Customers pay once and own the product",
+          "The product is always free",
+          "The price is negotiated each time"
+        ],
+        "explanation": "For companies this means predictable, recurring revenue – as with streaming services."
+      }
+    }
+  },
+  {
+    "id": "b28",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet Insolvenz?",
+    "options": [
+      "Ein Unternehmen wird an die Börse gebracht",
+      "Ein Unternehmen kann seine Rechnungen nicht mehr bezahlen",
+      "Ein Unternehmen zieht in ein anderes Land",
+      "Ein Unternehmen stellt neue Mitarbeiter ein"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Insolvenzverfahren soll klären, ob der Betrieb gerettet werden kann und wie die Gläubiger ihr Geld bekommen.",
+    "difficulty": 2,
+    "tags": [
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Insolvenz",
+    "source_url": "https://de.wikipedia.org/wiki/Insolvenz",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does insolvency mean?",
+        "options": [
+          "A company is floated on the stock exchange",
+          "A company can no longer pay its bills",
+          "A company moves to another country",
+          "A company hires new staff"
+        ],
+        "explanation": "Insolvency proceedings are meant to clarify whether the business can be saved and how creditors get their money."
+      }
+    }
+  },
+  {
+    "id": "b29",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist eine Lieferkette?",
+    "options": [
+      "Die Reihenfolge der Bestellungen",
+      "Eine Kette von Filialen",
+      "Alle Stationen vom Rohstoff bis zum fertigen Produkt beim Kunden",
+      "Ein Rabattsystem für Lieferanten"
+    ],
+    "correct_index": 2,
+    "explanation": "Fällt ein Zulieferer aus, kann die ganze Produktion stocken.",
+    "difficulty": 2,
+    "tags": [
+      "Produktion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lieferkette",
+    "source_url": "https://de.wikipedia.org/wiki/Lieferkette",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a supply chain?",
+        "options": [
+          "The order in which orders arrive",
+          "A chain of branches",
+          "All the stages from raw material to the finished product at the customer",
+          "A discount scheme for suppliers"
+        ],
+        "explanation": "If one supplier fails, the whole production can come to a halt."
+      }
+    }
+  },
+  {
+    "id": "b30",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet „B2C“?",
+    "options": [
+      "Geschäfte zwischen Unternehmen und Privatkunden",
+      "Geschäfte zwischen zwei Behörden",
+      "Handel zwischen zwei Ländern",
+      "Verkauf unter Privatleuten"
+    ],
+    "correct_index": 0,
+    "explanation": "B2C steht für „Business to Consumer“ – im Gegensatz zu B2B, dem Geschäft zwischen Unternehmen.",
+    "difficulty": 2,
+    "tags": [
+      "Geschäftsmodell"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Business-to-Consumer",
+    "source_url": "https://de.wikipedia.org/wiki/Business-to-Consumer",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “B2C” mean?",
+        "options": [
+          "Business between companies and private customers",
+          "Business between two public authorities",
+          "Trade between two countries",
+          "Sales between private individuals"
+        ],
+        "explanation": "B2C stands for “business to consumer” – as opposed to B2B, business between companies."
+      }
+    }
+  },
+  {
+    "id": "b31",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wem gehört eine Aktiengesellschaft (AG)?",
+    "options": [
+      "Dem Staat",
+      "Ihren Aktionären",
+      "Dem Vorstand",
+      "Den Kunden"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Vorstand führt die Geschäfte, der Aufsichtsrat kontrolliert ihn. Eigentümer sind die Inhaber der Aktien.",
+    "difficulty": 2,
+    "tags": [
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aktiengesellschaft (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Aktiengesellschaft_(Deutschland)",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who owns a public limited company (German: Aktiengesellschaft, AG)?",
+        "options": [
+          "The state",
+          "Its shareholders",
+          "The executive board",
+          "The customers"
+        ],
+        "explanation": "The executive board runs the business and the supervisory board oversees it. The owners are the holders of the shares."
+      }
+    }
+  },
+  {
+    "id": "b32",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet Outsourcing?",
+    "options": [
+      "Produkte werden ins Ausland verkauft",
+      "Mitarbeiter arbeiten im Freien",
+      "Aufgaben werden an externe Firmen vergeben",
+      "Ein Unternehmen wird geschlossen"
+    ],
+    "correct_index": 2,
+    "explanation": "Viele Firmen lagern etwa IT, Reinigung oder Kundendienst aus, um sich auf ihr Kerngeschäft zu konzentrieren.",
+    "difficulty": 2,
+    "tags": [
+      "Organisation"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Outsourcing",
+    "source_url": "https://de.wikipedia.org/wiki/Outsourcing",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does outsourcing mean?",
+        "options": [
+          "Products are sold abroad",
+          "Employees work outdoors",
+          "Tasks are handed over to external companies",
+          "A company is closed down"
+        ],
+        "explanation": "Many firms outsource IT, cleaning or customer service, for example, in order to concentrate on their core business."
+      }
+    }
+  },
+  {
+    "id": "b33",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein „Freemium“-Modell?",
+    "options": [
+      "Das Produkt wird verschenkt, wenn man Werbung macht",
+      "Alles ist dauerhaft kostenlos",
+      "Man zahlt nur bei Erfolg",
+      "Die Grundversion ist kostenlos, Zusatzfunktionen kosten Geld"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Wort verbindet „free“ und „premium“. Viele Apps und Spiele arbeiten so.",
+    "difficulty": 2,
+    "tags": [
+      "Geschäftsmodell"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Freemium",
+    "source_url": "https://de.wikipedia.org/wiki/Freemium",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “freemium” model?",
+        "options": [
+          "The product is given away if you advertise it",
+          "Everything is permanently free",
+          "You only pay if it works",
+          "The basic version is free, extra features cost money"
+        ],
+        "explanation": "The word combines “free” and “premium”. Many apps and games work this way."
+      }
+    }
+  },
+  {
+    "id": "c35",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wen vertritt der Bundesrat in Deutschland?",
+    "options": [
+      "Die Bundesregierung",
+      "Die Gemeinden",
+      "Die Bundesländer",
+      "Die Parteien"
+    ],
+    "correct_index": 2,
+    "explanation": "Über den Bundesrat wirken die 16 Länder an der Gesetzgebung des Bundes mit.",
+    "difficulty": 2,
+    "tags": [
+      "Politik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bundesrat (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Bundesrat_(Deutschland)",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Whom does the Bundesrat represent in Germany?",
+        "options": [
+          "The federal government",
+          "The municipalities",
+          "The federal states",
+          "The parties"
+        ],
+        "explanation": "Through the Bundesrat the 16 states take part in federal legislation."
+      }
+    }
+  },
+  {
+    "id": "c36",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt haben die Europäische Kommission und der Rat der EU ihren Hauptsitz?",
+    "options": [
+      "Genf",
+      "Berlin",
+      "Wien",
+      "Brüssel"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Europäische Parlament tagt in Straßburg und Brüssel.",
+    "difficulty": 1,
+    "tags": [
+      "Politik",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brüssel",
+    "source_url": "https://de.wikipedia.org/wiki/Brüssel",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city are the European Commission and the Council of the EU based?",
+        "options": [
+          "Geneva",
+          "Berlin",
+          "Vienna",
+          "Brussels"
+        ],
+        "explanation": "The European Parliament meets in Strasbourg and Brussels."
+      }
+    }
+  },
+  {
+    "id": "c37",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer schrieb die Erzählung „Die Verwandlung“, in der ein Mann als Ungeziefer erwacht?",
+    "options": [
+      "Franz Kafka",
+      "Thomas Mann",
+      "Hermann Hesse",
+      "Bertolt Brecht"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Erzählung erschien 1915. „Kafkaesk“ nennt man bis heute beklemmend undurchschaubare Situationen.",
+    "difficulty": 2,
+    "tags": [
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Verwandlung",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Verwandlung",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote the story “The Metamorphosis”, in which a man wakes up as a vermin?",
+        "options": [
+          "Franz Kafka",
+          "Thomas Mann",
+          "Hermann Hesse",
+          "Bertolt Brecht"
+        ],
+        "explanation": "The story was published in 1915. To this day, oppressively inscrutable situations are called “Kafkaesque”."
+      }
+    }
+  },
+  {
+    "id": "c38",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer schrieb „Der kleine Prinz“?",
+    "options": [
+      "Jules Verne",
+      "Antoine de Saint-Exupéry",
+      "Michael Ende",
+      "Erich Kästner"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Buch des französischen Piloten erschien 1943 und gehört zu den meistübersetzten Büchern der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der kleine Prinz",
+    "source_url": "https://de.wikipedia.org/wiki/Der_kleine_Prinz",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote “The Little Prince”?",
+        "options": [
+          "Jules Verne",
+          "Antoine de Saint-Exupéry",
+          "Michael Ende",
+          "Erich Kästner"
+        ],
+        "explanation": "The French pilot's book was published in 1943 and is one of the most translated books in the world."
+      }
+    }
+  },
+  {
+    "id": "c39",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt wird der Friedensnobelpreis verliehen?",
+    "options": [
+      "Stockholm",
+      "Kopenhagen",
+      "Oslo",
+      "Genf"
+    ],
+    "correct_index": 2,
+    "explanation": "Alle anderen Nobelpreise werden in Stockholm vergeben – so hat es Alfred Nobel in seinem Testament bestimmt.",
+    "difficulty": 2,
+    "tags": [
+      "Gesellschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Friedensnobelpreis",
+    "source_url": "https://de.wikipedia.org/wiki/Friedensnobelpreis",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is the Nobel Peace Prize awarded?",
+        "options": [
+          "Stockholm",
+          "Copenhagen",
+          "Oslo",
+          "Geneva"
+        ],
+        "explanation": "All the other Nobel Prizes are awarded in Stockholm – as Alfred Nobel laid down in his will."
+      }
+    }
+  },
+  {
+    "id": "c40",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was wird mit dem „Oscar“ ausgezeichnet?",
+    "options": [
+      "Filme und Filmschaffende",
+      "Musikalben",
+      "Bücher",
+      "Fernsehserien"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Academy Awards werden seit 1929 jährlich in Los Angeles vergeben.",
+    "difficulty": 1,
+    "tags": [
+      "Film"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oscar",
+    "source_url": "https://de.wikipedia.org/wiki/Oscar",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is honoured with the “Oscar”?",
+        "options": [
+          "Films and film-makers",
+          "Music albums",
+          "Books",
+          "Television series"
+        ],
+        "explanation": "The Academy Awards have been presented annually in Los Angeles since 1929."
+      }
+    }
+  },
+  {
+    "id": "c41",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welcher Stadt kamen die Beatles?",
+    "options": [
+      "London",
+      "Liverpool",
+      "Manchester",
+      "Dublin"
+    ],
+    "correct_index": 1,
+    "explanation": "Ihre ersten längeren Engagements hatte die Band Anfang der 1960er-Jahre in Hamburg.",
+    "difficulty": 1,
+    "tags": [
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: The Beatles",
+    "source_url": "https://de.wikipedia.org/wiki/The_Beatles",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which city did the Beatles come from?",
+        "options": [
+          "London",
+          "Liverpool",
+          "Manchester",
+          "Dublin"
+        ],
+        "explanation": "The band had its first longer engagements in Hamburg in the early 1960s."
+      }
+    }
+  },
+  {
+    "id": "c42",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welche Religion hat weltweit die meisten Anhänger?",
+    "options": [
+      "Der Hinduismus",
+      "Der Islam",
+      "Das Christentum",
+      "Der Buddhismus"
+    ],
+    "correct_index": 2,
+    "explanation": "Rund 2,3 Milliarden Menschen gehören christlichen Kirchen an; der Islam folgt mit etwa 1,9 Milliarden.",
+    "difficulty": 2,
+    "tags": [
+      "Religion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weltreligion",
+    "source_url": "https://de.wikipedia.org/wiki/Weltreligion",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which religion has the most followers worldwide?",
+        "options": [
+          "Hinduism",
+          "Islam",
+          "Christianity",
+          "Buddhism"
+        ],
+        "explanation": "Around 2.3 billion people belong to Christian churches; Islam follows with about 1.9 billion."
+      }
+    }
+  },
+  {
+    "id": "c43",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist der Ramadan?",
+    "options": [
+      "Ein buddhistischer Feiertag",
+      "Ein hinduistisches Lichterfest",
+      "Das jüdische Neujahrsfest",
+      "Der Fastenmonat im Islam"
+    ],
+    "correct_index": 3,
+    "explanation": "Gläubige Muslime verzichten in diesem Monat tagsüber auf Essen und Trinken. Er endet mit dem Fest des Fastenbrechens.",
+    "difficulty": 1,
+    "tags": [
+      "Religion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ramadan",
+    "source_url": "https://de.wikipedia.org/wiki/Ramadan",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is Ramadan?",
+        "options": [
+          "A Buddhist holiday",
+          "A Hindu festival of lights",
+          "The Jewish New Year",
+          "The month of fasting in Islam"
+        ],
+        "explanation": "During this month, observant Muslims go without food and drink during the day. It ends with the festival of breaking the fast."
+      }
+    }
+  },
+  {
+    "id": "c44",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist ein Haiku?",
+    "options": [
+      "Ein kurzes japanisches Gedicht aus drei Zeilen",
+      "Ein japanischer Kampfsport",
+      "Eine Maltechnik mit Tusche",
+      "Ein Musikinstrument"
+    ],
+    "correct_index": 0,
+    "explanation": "Traditionell hat es 5, 7 und 5 Silben und fängt einen Augenblick in der Natur ein.",
+    "difficulty": 2,
+    "tags": [
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haiku",
+    "source_url": "https://de.wikipedia.org/wiki/Haiku",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a haiku?",
+        "options": [
+          "A short Japanese poem of three lines",
+          "A Japanese martial art",
+          "An ink painting technique",
+          "A musical instrument"
+        ],
+        "explanation": "Traditionally it has 5, 7 and 5 syllables and captures a moment in nature."
+      }
+    }
+  },
+  {
+    "id": "c45",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was war das Bauhaus?",
+    "options": [
+      "Ein Baumarkt",
+      "Eine Hochschule für Gestaltung, die Architektur und Design weltweit prägte",
+      "Ein Schloss in Weimar",
+      "Eine Künstlergruppe der Romantik"
+    ],
+    "correct_index": 1,
+    "explanation": "Es wurde 1919 von Walter Gropius in Weimar gegründet und 1933 unter dem Druck der Nationalsozialisten geschlossen.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Design"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bauhaus",
+    "source_url": "https://de.wikipedia.org/wiki/Bauhaus",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the Bauhaus?",
+        "options": [
+          "A DIY store",
+          "A school of design that shaped architecture and design worldwide",
+          "A palace in Weimar",
+          "A group of Romantic artists"
+        ],
+        "explanation": "It was founded in Weimar in 1919 by Walter Gropius and closed in 1933 under pressure from the National Socialists."
+      }
+    }
+  },
+  {
+    "id": "c46",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Land stammte die Malerin Frida Kahlo?",
+    "options": [
+      "Spanien",
+      "Argentinien",
+      "Mexiko",
+      "Italien"
+    ],
+    "correct_index": 2,
+    "explanation": "Berühmt sind vor allem ihre Selbstporträts, in denen sie Schmerz und Identität verarbeitete.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Frida Kahlo",
+    "source_url": "https://de.wikipedia.org/wiki/Frida_Kahlo",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country did the painter Frida Kahlo come from?",
+        "options": [
+          "Spain",
+          "Argentina",
+          "Mexico",
+          "Italy"
+        ],
+        "explanation": "She is famous above all for her self-portraits, in which she dealt with pain and identity."
+      }
+    }
+  },
+  {
+    "id": "c47",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer malte die Decke der Sixtinischen Kapelle im Vatikan?",
+    "options": [
+      "Leonardo da Vinci",
+      "Raffael",
+      "Tizian",
+      "Michelangelo"
+    ],
+    "correct_index": 3,
+    "explanation": "Er arbeitete von 1508 bis 1512 daran. Am bekanntesten ist die „Erschaffung Adams“.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sixtinische Kapelle",
+    "source_url": "https://de.wikipedia.org/wiki/Sixtinische_Kapelle",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who painted the ceiling of the Sistine Chapel in the Vatican?",
+        "options": [
+          "Leonardo da Vinci",
+          "Raphael",
+          "Titian",
+          "Michelangelo"
+        ],
+        "explanation": "He worked on it from 1508 to 1512. The best-known scene is the “Creation of Adam”."
+      }
+    }
+  },
+  {
+    "id": "c48",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was zeichnet die UNESCO als Welterbe aus?",
+    "options": [
+      "Kultur- und Naturstätten von außergewöhnlichem Wert für die Menschheit",
+      "Die größten Städte der Welt",
+      "Die besten Universitäten",
+      "Die ältesten Unternehmen"
+    ],
+    "correct_index": 0,
+    "explanation": "Dazu gehören etwa der Kölner Dom, die Pyramiden von Gizeh und das Wattenmeer.",
+    "difficulty": 2,
+    "tags": [
+      "Gesellschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: UNESCO-Welterbe",
+    "source_url": "https://de.wikipedia.org/wiki/UNESCO-Welterbe",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does UNESCO designate as World Heritage?",
+        "options": [
+          "Cultural and natural sites of outstanding value to humanity",
+          "The largest cities in the world",
+          "The best universities",
+          "The oldest companies"
+        ],
+        "explanation": "They include Cologne Cathedral, the Pyramids of Giza and the Wadden Sea."
+      }
+    }
+  },
+  {
+    "id": "c49",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Spieler einer Fußballmannschaft stehen zu Spielbeginn auf dem Feld?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct_index": 2,
+    "explanation": "Zehn Feldspieler und ein Torwart.",
+    "difficulty": 1,
+    "tags": [
+      "Sport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußball",
+    "source_url": "https://de.wikipedia.org/wiki/Fußball",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many players of a football team are on the pitch at kick-off?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "explanation": "Ten outfield players and a goalkeeper."
+      }
+    }
+  },
+  {
+    "id": "c50",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welchem Abstand finden Olympische Sommerspiele normalerweise statt?",
+    "options": [
+      "Alle zwei Jahre",
+      "Jedes Jahr",
+      "Alle fünf Jahre",
+      "Alle vier Jahre"
+    ],
+    "correct_index": 3,
+    "explanation": "Sommer- und Winterspiele wechseln sich seit 1994 im Zweijahresrhythmus ab.",
+    "difficulty": 1,
+    "tags": [
+      "Sport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Spiele",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Spiele",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How often do the Summer Olympic Games normally take place?",
+        "options": [
+          "Every two years",
+          "Every year",
+          "Every five years",
+          "Every four years"
+        ],
+        "explanation": "Since 1994 the Summer and Winter Games have alternated every two years."
+      }
+    }
+  },
+  {
+    "id": "mf3",
+    "kind": "fact",
+    "category_id": "math",
+    "question": "Eine Million Sekunden sind weniger als zwei Wochen.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Es sind etwa elfeinhalb Tage. Eine Milliarde Sekunden dagegen sind fast 32 Jahre.",
+    "difficulty": 1,
+    "tags": [
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sekunde",
+    "source_url": "https://de.wikipedia.org/wiki/Sekunde",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A million seconds is less than two weeks.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "It is about eleven and a half days. A billion seconds, by contrast, is almost 32 years."
+      }
+    }
+  },
+  {
+    "id": "mm3",
+    "kind": "fact",
+    "category_id": "math",
+    "question": "Minus mal Minus ergibt Minus.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Produkt zweier negativer Zahlen ist positiv: (−2) · (−3) = 6.",
+    "difficulty": 1,
+    "tags": [
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Positive und negative Zahlen",
+    "source_url": "https://de.wikipedia.org/wiki/Positive_und_negative_Zahlen",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A negative times a negative gives a negative.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The product of two negative numbers is positive: (−2) × (−3) = 6."
+      }
+    }
+  },
+  {
+    "id": "lf3",
+    "kind": "fact",
+    "category_id": "language",
+    "question": "Deutsch und Englisch gehen auf eine gemeinsame Ursprache zurück.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Beide sind westgermanische Sprachen. Verwandte Wörter wie „Wasser“ und „water“ oder „Haus“ und „house“ zeigen das bis heute.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Westgermanische Sprachen",
+    "source_url": "https://de.wikipedia.org/wiki/Westgermanische_Sprachen",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "German and English go back to a common ancestral language.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Both are West Germanic languages. Related words such as “Wasser” and “water” or “Haus” and “house” still show this today."
+      }
+    }
+  },
+  {
+    "id": "lm2",
+    "kind": "fact",
+    "category_id": "language",
+    "question": "Die Gebärdensprache ist auf der ganzen Welt dieselbe.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Es gibt viele verschiedene Gebärdensprachen mit eigener Grammatik, etwa die Deutsche und die Amerikanische Gebärdensprache.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gebärdensprache",
+    "source_url": "https://de.wikipedia.org/wiki/Gebärdensprache",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Sign language is the same all over the world.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "There are many different sign languages with their own grammar, such as German Sign Language and American Sign Language."
+      }
+    }
+  },
+  {
+    "id": "sf7",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Große Dinosaurier wie der Tyrannosaurus waren schon ausgestorben, lange bevor es Menschen gab.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Zwischen dem Aussterben dieser Dinosaurier vor rund 66 Millionen Jahren und den ersten Menschen liegen mehr als 60 Millionen Jahre.",
+    "difficulty": 1,
+    "tags": [
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dinosaurier",
+    "source_url": "https://de.wikipedia.org/wiki/Dinosaurier",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Large dinosaurs such as Tyrannosaurus had died out long before there were humans.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "More than 60 million years lie between the extinction of these dinosaurs about 66 million years ago and the first humans."
+      }
+    }
+  },
+  {
+    "id": "sm6",
+    "kind": "fact",
+    "category_id": "science",
+    "question": "Die Zunge schmeckt süß nur an der Spitze und bitter nur ganz hinten.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Diese „Zungenkarte“ ist überholt. Alle Geschmacksrichtungen werden überall dort wahrgenommen, wo Geschmacksknospen sitzen.",
+    "difficulty": 1,
+    "tags": [
+      "Menschlicher Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zunge",
+    "source_url": "https://de.wikipedia.org/wiki/Zunge",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The tongue tastes sweet only at the tip and bitter only at the very back.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "This “tongue map” is outdated. All tastes are perceived wherever there are taste buds."
+      }
+    }
+  },
+  {
+    "id": "tm4",
+    "kind": "fact",
+    "category_id": "technology",
+    "question": "WLAN und Internet sind dasselbe.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "WLAN ist nur die Funkverbindung zwischen Gerät und Router. Ins Internet führt erst die Leitung dahinter – WLAN kann auch ohne Internet funktionieren.",
+    "difficulty": 1,
+    "tags": [
+      "Internet"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wireless Local Area Network",
+    "source_url": "https://de.wikipedia.org/wiki/Wireless_Local_Area_Network",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Wi-Fi and the internet are the same thing.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Wi-Fi is only the radio link between device and router. The line behind it leads to the internet – Wi-Fi can also work without internet."
+      }
+    }
+  },
+  {
+    "id": "hf6",
+    "kind": "fact",
+    "category_id": "history",
+    "question": "Das Kolosseum in Rom bot Platz für rund 50.000 Zuschauer.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Das im Jahr 80 n. Chr. eröffnete Amphitheater war das größte der Antike.",
+    "difficulty": 1,
+    "tags": [
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kolosseum",
+    "source_url": "https://de.wikipedia.org/wiki/Kolosseum",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Colosseum in Rome had room for about 50,000 spectators.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Opened in AD 80, the amphitheatre was the largest of antiquity."
+      }
+    }
+  },
+  {
+    "id": "gf4",
+    "kind": "fact",
+    "category_id": "earth",
+    "question": "Tomaten sind botanisch gesehen Früchte.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Genauer gesagt sind sie Beeren. Im Alltag und in der Küche zählt man sie trotzdem zum Gemüse.",
+    "difficulty": 1,
+    "tags": [
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tomate",
+    "source_url": "https://de.wikipedia.org/wiki/Tomate",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Botanically speaking, tomatoes are fruits.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "More precisely, they are berries. In everyday life and in the kitchen they still count as vegetables."
+      }
+    }
+  },
+  {
+    "id": "gf5",
+    "kind": "fact",
+    "category_id": "earth",
+    "question": "Die Sahara war vor einigen tausend Jahren eine grüne Savanne mit Seen.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Felsbilder zeigen Giraffen und Rinder. Vor etwa 5.000 Jahren wurde das Klima dort wieder trocken.",
+    "difficulty": 1,
+    "tags": [
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sahara",
+    "source_url": "https://de.wikipedia.org/wiki/Sahara",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A few thousand years ago the Sahara was a green savannah with lakes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Rock paintings show giraffes and cattle. About 5,000 years ago the climate there became dry again."
+      }
+    }
+  },
+  {
+    "id": "em4",
+    "kind": "fact",
+    "category_id": "economy",
+    "question": "In allen Ländern der Europäischen Union wird mit dem Euro bezahlt.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Mehrere EU-Staaten haben eigene Währungen behalten, zum Beispiel Dänemark, Polen und Schweden.",
+    "difficulty": 1,
+    "tags": [
+      "Währungen",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eurozone",
+    "source_url": "https://de.wikipedia.org/wiki/Eurozone",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The euro is used for payment in all countries of the European Union.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Several EU states have kept their own currencies, for example Denmark, Poland and Sweden."
+      }
+    }
+  },
+  {
+    "id": "bf3",
+    "kind": "fact",
+    "category_id": "business",
+    "question": "Der Spielzeughersteller Lego begann mit Holzspielzeug.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Der dänische Tischler Ole Kirk Christiansen gründete die Firma 1932. Die Kunststoffsteine kamen erst später.",
+    "difficulty": 1,
+    "tags": [
+      "Unternehmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lego",
+    "source_url": "https://de.wikipedia.org/wiki/Lego",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The toy maker Lego started out with wooden toys.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "The Danish carpenter Ole Kirk Christiansen founded the company in 1932. The plastic bricks only came later."
+      }
+    }
+  },
+  {
+    "id": "bf4",
+    "kind": "fact",
+    "category_id": "business",
+    "question": "Amazon machte in seinen ersten Jahren keinen Gewinn.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Das 1994 gegründete Unternehmen steckte sein Geld lange ins Wachstum. Den ersten Quartalsgewinn meldete es Ende 2001.",
+    "difficulty": 1,
+    "tags": [
+      "Unternehmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Amazon",
+    "source_url": "https://de.wikipedia.org/wiki/Amazon",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Amazon made no profit in its first years.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Founded in 1994, the company put its money into growth for a long time. It reported its first quarterly profit at the end of 2001."
+      }
+    }
+  },
+  {
+    "id": "cf4",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Beethoven war in seinen letzten Lebensjahren fast völlig taub.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Trotzdem komponierte er weiter – auch seine neunte Sinfonie entstand in dieser Zeit.",
+    "difficulty": 1,
+    "tags": [
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ludwig van Beethoven",
+    "source_url": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Beethoven was almost completely deaf in the last years of his life.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "He nevertheless went on composing – his Ninth Symphony was also written during this time."
+      }
+    }
+  },
+  {
+    "id": "cm5",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Vincent van Gogh war schon zu Lebzeiten ein gefeierter und reicher Maler.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Er verkaufte zu Lebzeiten kaum Bilder und lebte von der Unterstützung seines Bruders. Berühmt wurde er erst nach seinem Tod 1890.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vincent van Gogh",
+    "source_url": "https://de.wikipedia.org/wiki/Vincent_van_Gogh",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Vincent van Gogh was a celebrated and wealthy painter during his lifetime.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "He sold hardly any paintings during his lifetime and lived on his brother's support. He only became famous after his death in 1890."
+      }
+    }
   }
 ]

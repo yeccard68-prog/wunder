@@ -10,7 +10,7 @@ const errorsOf = (c: typeof content) => validateContent(c).errors as string[];
 
 test("dataset has the expected record counts", () => {
   assert.equal(content.categories.length, 9);
-  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => q.show_in_feed).length, 353);
+  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => q.show_in_feed).length, 507);
   assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => !q.show_in_feed).length, 37);
   assert.equal(content.videos.length, 37);
   assert.equal(content.videos.filter((v: { status: string }) => v.status === "published").length, 31);
@@ -78,7 +78,7 @@ test("import SQL is idempotent and never destructive", () => {
   assert.equal((sql.match(/on conflict \(\w+\) do nothing;/g) ?? []).length, 4);
   assert.doesNotMatch(sql, /\b(truncate|delete from|drop )\b/i);
   assert.doesNotMatch(sql, /like_count|demo_popularity|demo_comments/); // invented demo numbers are not imported
-  assert.equal((sql.match(/^  \('/gm) ?? []).length, 9 + 390 + 390 + 37);
+  assert.equal((sql.match(/^  \('/gm) ?? []).length, 9 + 544 + 544 + 37);
 });
 
 test("update mode only touches content columns", () => {

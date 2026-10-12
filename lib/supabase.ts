@@ -17,14 +17,25 @@ const db = () => {
 };
 
 // ---------- public content (answers are never part of these queries) ----------
+const PAGE_SIZE = 500;
+/** Loads every row of a query page by page – the API returns at most a limited number of rows per request. */
+async function allRows<T>(page: (from: number, to: number) => PromiseLike<{ data: unknown; error: unknown }>): Promise<T[]> {
+  const rows: T[] = [];
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const { data, error } = await page(from, from + PAGE_SIZE - 1);
+    if (error) throw error;
+    const chunk = (data ?? []) as T[];
+    rows.push(...chunk);
+    if (chunk.length < PAGE_SIZE) return rows;
+  }
+}
+
 export async function fetchContent() {
-  const [q, v] = await Promise.all([
-    db().from("questions").select("id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations").eq("status", "published").order("created_at", { ascending: false }).limit(500),
-    db().from("videos").select("id, category_id, title, hook, description, video_url, thumbnail_url, duration_seconds, has_audio, captions, creator_name, sources, published_at, tags, quiz_question_id, verification_status, like_count, min_age, start_seconds, end_seconds, license, translations").eq("status", "published").order("published_at", { ascending: false }).limit(100),
+  const [questions, videos] = await Promise.all([
+    allRows<QuestionRow>((from, to) => db().from("questions").select("id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations").eq("status", "published").order("created_at", { ascending: false }).order("id").range(from, to)),
+    allRows<VideoRow>((from, to) => db().from("videos").select("id, category_id, title, hook, description, video_url, thumbnail_url, duration_seconds, has_audio, captions, creator_name, sources, published_at, tags, quiz_question_id, verification_status, like_count, min_age, start_seconds, end_seconds, license, translations").eq("status", "published").order("published_at", { ascending: false }).order("id").range(from, to)),
   ]);
-  if (q.error) throw q.error;
-  if (v.error) throw v.error;
-  return buildContent(q.data as QuestionRow[], v.data as VideoRow[]);
+  return buildContent(questions, videos);
 }
 
 // ---------- session ----------
