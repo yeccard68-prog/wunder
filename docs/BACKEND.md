@@ -211,3 +211,13 @@ Offen bis zur Store-Reife:
 - Es wird nur geladen, was gebraucht wird: je sechs Einträge, Videos nur für Einträge in Bildschirmnähe, Animationen laufen nur im Bild. „Bewegung reduzieren“ wird beachtet (kein Autostart).
 - „Entdecken“: Suche über Fragen, Clips und Animationen sowie Themenfilter; „Bibliothek“: Gemerktes und Weiterlernen (Wiederholungen, Animationen).
 - Wiederherstellbarer Stand vor dem Umbau: Git-Tag `v0.5-vor-umbau`.
+
+## 18. 3D-Animationen
+
+- Rahmen: `components/three/Stage3D.tsx` (Bühne) + `components/three/scenes/*.ts` (Szenen) + `components/three/types.ts` (Vertrag). Bibliothek: Three.js 0.170 (MIT, kostenlos), keine weiteren Abhängigkeiten, keine externen Modelle – alle Geometrie wird im Code erzeugt.
+- Eine Szene baut ihre Objekte einmal und liefert dann für (Schritt, Fortschritt, Zeit) Objektzustand, Kameraposition und Beschriftungen. Der vorhandene Abspieler (Schritte, Erklärsätze, Pause, Vor/Zurück, Verständnisfrage) wird unverändert genutzt: in `content/animations.json` genügt `"renderer": "three"` und der Szenenname.
+- Leistung: Three.js wird erst geladen, wenn eine 3D-Animation gezeigt wird (eigene Datei, rund 0,6 MB vor Komprimierung). Es gibt keine eigene Zeichenschleife – gezeichnet wird genau ein Bild pro Änderung; pausierte oder nicht sichtbare Animationen kosten nichts. Auflösung auf das Doppelte der Bildschirmpunkte begrenzt.
+- Bedienung: waagerechtes Ziehen dreht die Szene; senkrechtes Wischen bleibt beim Feed. Beschriftungen sind HTML über der Zeichenfläche und bleiben vollständig im Bild.
+- Rückfall: Fehlt WebGL oder geht der Grafikkontext verloren, zeigt der Abspieler die 2D-Zeichnung (`fallback_scene`), sonst einen Hinweis; die Erklärsätze bleiben in jedem Fall. Beides ist per Browser-Test abgedeckt.
+- Szenen: `engine` (Viertaktmotor, aufgeschnittener Zylinder), `dna` (Doppelhelix, Basenpaarung, Verdopplung), `orbit` (Trägheit + Schwerkraft, Keplersche Gesetze). Die Ellipse ist bewusst übertrieben; das steht im Text.
+- Hinweis für die Android-Verpackung: Der statische Export legt Vorlade-Dateien als `__next.<seite>/__PAGE__.txt` ab, angefragt wird `__next.<seite>.__PAGE__.txt`. Vercel löst das auf; ein einfacher Dateiserver nicht (siehe `scripts/serve-static.mjs`). Vor dem Capacitor-Build prüfen.

@@ -5,12 +5,14 @@ import { animationRows, animationsFor } from "../lib/animations";
 
 const questions = JSON.parse(fs.readFileSync("content/questions.json", "utf8")) as { id: string; show_in_feed: boolean; status: string }[];
 const categories = JSON.parse(fs.readFileSync("content/categories.json", "utf8")) as { id: string }[];
+const scenes3d = fs.readFileSync("components/three/scenes/index.ts", "utf8").match(/SCENES_3D.*= \{([^}]*)\}/)![1].split(",").map((s) => s.trim());
 const scenes = fs.readFileSync("components/anim/scenes.tsx", "utf8").match(/SCENES.*= \{([^}]*)\}/)![1].split(",").map((s) => s.split(":")[0].trim());
 
 test("animations: every record is complete and points to things that exist", () => {
   assert.equal(new Set(animationRows.map((a) => a.id)).size, animationRows.length);
   for (const a of animationRows) {
-    assert.ok(scenes.includes(a.scene), `${a.id}: unknown scene ${a.scene}`);
+    assert.ok((a.renderer === "three" ? scenes3d : scenes).includes(a.scene), `${a.id}: unknown scene ${a.scene}`);
+    if (a.fallback_scene) assert.ok(scenes.includes(a.fallback_scene), `${a.id}: unknown fallback scene`);
     assert.ok(categories.some((c) => c.id === a.category_id), `${a.id}: unknown category`);
     assert.ok(a.title && a.summary && a.goal && a.steps.length >= 2 && a.steps.every((s) => s.text.length > 20), `${a.id}: incomplete texts`);
     assert.ok(a.sources.length > 0 && a.sources.every((s) => /^https:\/\//.test(s.url)), `${a.id}: needs a source`);

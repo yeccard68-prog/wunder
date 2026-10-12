@@ -167,3 +167,48 @@ test("explore finds content by search and topic; the library keeps saved clips",
   await page.getByRole("link", { name: "Bibliothek" }).click();
   await expect(page.getByTestId("feed-clip")).toHaveCount(1);
 });
+
+test("a 3D animation renders, can be stepped through and turned", async ({ page }) => {
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  await signIn(page);
+  await page.goto("/explain/");
+  await page.getByRole("button", { name: /Wie DNA aufgebaut ist/ }).click();
+  const player = page.getByTestId("animation-player");
+  await expect(player).toHaveAttribute("data-renderer", /three|text/); // "text" where the test machine has no WebGL
+  if ((await player.getAttribute("data-renderer")) === "three") {
+    const stage = page.getByTestId("stage-3d");
+    await expect(stage).toHaveAttribute("data-ready", "true", { timeout: 20_000 });
+    // something was actually drawn: a picture of one flat colour compresses to almost nothing
+    expect((await stage.locator("canvas").screenshot()).length).toBeGreaterThan(6000);
+    const box = (await stage.boundingBox())!;
+    await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+    await page.mouse.down();
+    await page.mouse.move(box.x + box.width / 2 + 80, box.y + box.height / 2, { steps: 4 });
+    await page.mouse.up();
+    expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
+  }
+  await page.getByRole("button", { name: "Schritt 3", exact: true }).click();
+  await expect(player).toHaveAttribute("data-step", "2");
+  await expect(page.getByText("Helikase")).toBeVisible();
+  expect(errors).toEqual([]);
+});
+
+test("without WebGL a 3D animation falls back to the drawing or to text, and still explains", async ({ page }) => {
+  await signIn(page);
+  await page.addInitScript(() => {
+    const original = HTMLCanvasElement.prototype.getContext;
+    HTMLCanvasElement.prototype.getContext = function (this: HTMLCanvasElement, type: string, ...rest: unknown[]) {
+      return /webgl/.test(type) ? null : (original as (...a: unknown[]) => unknown).call(this, type, ...rest);
+    } as typeof original;
+  });
+  await page.goto("/explain/");
+  await page.getByRole("button", { name: /Wie ein Benzinmotor arbeitet/ }).click();
+  await expect(page.getByTestId("animation-player")).toHaveAttribute("data-renderer", "svg");
+  await expect(page.locator("svg[role=img]")).toBeVisible();
+  await page.getByText("Alle Animationen").click();
+  await page.getByRole("button", { name: /Wie DNA aufgebaut ist/ }).click();
+  await expect(page.getByTestId("animation-player")).toHaveAttribute("data-renderer", "text");
+  await expect(page.getByText("Die 3D-Ansicht ist auf diesem Gerät nicht verfügbar")).toBeVisible();
+  await expect(page.getByText(/verdrehte Strickleiter/)).toBeVisible();
+});

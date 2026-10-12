@@ -74,7 +74,7 @@
     "min_age": 10,
     "difficulty": 2,
     "language": "de",
-    "renderer": "svg-scene",
+    "renderer": "three",
     "scene": "engine",
     "title": "Wie ein Benzinmotor arbeitet",
     "summary": "Ansaugen, verdichten, arbeiten, ausstoßen – vier Takte, von denen nur einer Kraft liefert.",
@@ -141,7 +141,8 @@
           "Exhaust: the exhaust valve opens and the piston pushes the burnt gases out. The crankshaft has turned twice – and it all starts again."
         ]
       }
-    }
+    },
+    "fallback_scene": "engine"
   },
   {
     "id": "a-gewitter",
@@ -555,6 +556,166 @@
           "When part of the cloud becomes dense enough, its own gravity pulls it together. The cloud collapses and spins faster and faster as it does so.",
           "At the centre it becomes denser and hotter: a protostar forms. Around it the cloud flattens into a disc – planets can later form from it.",
           "At about ten million degrees, nuclear fusion ignites in the interior: hydrogen fuses into helium and releases energy. A star is born. Depending on its mass, it shines for millions to many billions of years."
+        ]
+      }
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-15T12:00:00Z",
+    "id": "a-dna",
+    "category_id": "science",
+    "scene": "dna",
+    "fallback_scene": null,
+    "title": "Wie DNA aufgebaut ist und sich verdoppelt",
+    "summary": "Eine verdrehte Leiter aus vier Bausteinen – und der Trick, mit dem sie sich selbst kopiert.",
+    "goal": "Du kannst den Aufbau der Doppelhelix beschreiben, die Regel der Basenpaarung nennen und erklären, warum beim Kopieren zwei identische Moleküle entstehen.",
+    "labels": [
+      "Rückgrat aus Zucker und Phosphat",
+      "Basenpaar",
+      "A",
+      "T",
+      "G",
+      "C",
+      "Hier öffnet sich die Doppelhelix",
+      "Neuer Strang",
+      "Alter Strang"
+    ],
+    "steps": [
+      {
+        "text": "Die DNA sieht aus wie eine verdrehte Strickleiter: die Doppelhelix. Die beiden Holme bestehen aus Zucker und Phosphat, die Sprossen aus Paaren von Basen. Etwa zehn Sprossen ergeben eine volle Windung.",
+        "seconds": 8
+      },
+      {
+        "text": "Es gibt vier Basen: Adenin (A), Thymin (T), Guanin (G) und Cytosin (C). Sie passen nur auf eine Weise zusammen – A immer mit T, G immer mit C. In ihrer Reihenfolge steckt die Erbinformation.",
+        "seconds": 9
+      },
+      {
+        "text": "Bevor sich eine Zelle teilt, muss die DNA kopiert werden. Ein Enzym, die Helikase, trennt die Basenpaare und öffnet die Doppelhelix wie einen Reißverschluss.",
+        "seconds": 8
+      },
+      {
+        "text": "An jedem der beiden Einzelstränge lagern Enzyme neue Bausteine an – nach derselben Regel: A zu T, G zu C. So entstehen zwei identische Doppelstränge, jeder aus einem alten und einem neuen Strang.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Desoxyribonukleinsäure",
+        "url": "https://de.wikipedia.org/wiki/Desoxyribonukleinsäure"
+      },
+      {
+        "name": "Wikipedia: Replikation",
+        "url": "https://de.wikipedia.org/wiki/Replikation"
+      }
+    ],
+    "quiz_question_id": "qa-dna",
+    "translations": {
+      "en": {
+        "title": "How DNA is built and copies itself",
+        "summary": "A twisted ladder made of four building blocks – and the trick it uses to copy itself.",
+        "goal": "You can describe the structure of the double helix, state the rule of base pairing and explain why copying produces two identical molecules.",
+        "labels": [
+          "Backbone of sugar and phosphate",
+          "Base pair",
+          "A",
+          "T",
+          "G",
+          "C",
+          "The double helix opens here",
+          "New strand",
+          "Old strand"
+        ],
+        "steps": [
+          "DNA looks like a twisted rope ladder: the double helix. The two rails consist of sugar and phosphate, the rungs of pairs of bases. About ten rungs make one full turn.",
+          "There are four bases: adenine (A), thymine (T), guanine (G) and cytosine (C). They fit together in only one way – A always with T, G always with C. Their order holds the genetic information.",
+          "Before a cell divides, its DNA has to be copied. An enzyme called helicase separates the base pairs and opens the double helix like a zip.",
+          "On each of the two single strands, enzymes attach new building blocks – by the same rule: A to T, G to C. This produces two identical double strands, each made of one old and one new strand."
+        ]
+      }
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-15T12:00:00Z",
+    "id": "a-planetenbahn",
+    "category_id": "science",
+    "scene": "orbit",
+    "fallback_scene": null,
+    "title": "Warum Planeten um die Sonne kreisen",
+    "summary": "Geradeaus fliegen und gleichzeitig fallen: Aus beidem zusammen entsteht eine Umlaufbahn.",
+    "goal": "Du kannst erklären, wie aus Bewegung und Schwerkraft eine Umlaufbahn entsteht und warum ein Planet in Sonnennähe schneller ist.",
+    "labels": [
+      "Sonne",
+      "Planet",
+      "Bewegung",
+      "Schwerkraft",
+      "sonnennah: schnell",
+      "sonnenfern: langsam",
+      "innen: kurzes Jahr",
+      "außen: langes Jahr",
+      "Ohne Kraft: immer geradeaus"
+    ],
+    "steps": [
+      {
+        "text": "Ein Körper, auf den keine Kraft wirkt, fliegt mit gleicher Geschwindigkeit geradeaus weiter. Ein Planet würde also einfach in den Weltraum davonziehen.",
+        "seconds": 6
+      },
+      {
+        "text": "Die Sonne zieht den Planeten mit ihrer Schwerkraft an. Er fällt ständig auf sie zu – und fliegt wegen seiner Bewegung doch immer an ihr vorbei. So wird aus der geraden Linie eine geschlossene Bahn.",
+        "seconds": 9
+      },
+      {
+        "text": "Die Bahn ist eine Ellipse, hier stark übertrieben gezeichnet. Nah an der Sonne ist die Anziehung stärker und der Planet schneller, weit entfernt wird er langsamer. Das beschreibt das zweite Keplersche Gesetz.",
+        "seconds": 9
+      },
+      {
+        "text": "Je weiter ein Planet von der Sonne entfernt ist, desto länger dauert ein Umlauf: Merkur braucht 88 Tage, die Erde ein Jahr, Neptun rund 165 Jahre.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Keplersche Gesetze",
+        "url": "https://de.wikipedia.org/wiki/Keplersche_Gesetze"
+      },
+      {
+        "name": "Wikipedia: Umlaufbahn",
+        "url": "https://de.wikipedia.org/wiki/Umlaufbahn"
+      }
+    ],
+    "quiz_question_id": "qa-bahn",
+    "translations": {
+      "en": {
+        "title": "Why planets orbit the Sun",
+        "summary": "Flying straight ahead and falling at the same time: together they make an orbit.",
+        "goal": "You can explain how motion and gravity together produce an orbit and why a planet is faster when it is near the Sun.",
+        "labels": [
+          "Sun",
+          "Planet",
+          "Motion",
+          "Gravity",
+          "near the Sun: fast",
+          "far from the Sun: slow",
+          "inner orbit: short year",
+          "outer orbit: long year",
+          "No force: straight ahead"
+        ],
+        "steps": [
+          "A body on which no force acts keeps moving straight ahead at the same speed. So a planet would simply drift away into space.",
+          "The Sun pulls on the planet with its gravity. The planet keeps falling towards it – and yet, because of its motion, always flies past it. This turns the straight line into a closed path.",
+          "The path is an ellipse, drawn here with strong exaggeration. Close to the Sun the pull is stronger and the planet faster; far away it slows down. This is described by Kepler's second law.",
+          "The farther a planet is from the Sun, the longer one orbit takes: Mercury needs 88 days, the Earth one year, Neptune about 165 years."
         ]
       }
     }

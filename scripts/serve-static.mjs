@@ -14,6 +14,8 @@ http
     let file = path.join(root, decodeURIComponent(new URL(req.url, "http://x").pathname));
     if (!file.startsWith(root)) return res.writeHead(403).end();
     if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, "index.html");
+    // Next's static export stores prefetch data as __next.<page>/__PAGE__.txt but requests __next.<page>.__PAGE__.txt
+    if (!fs.existsSync(file)) file = file.replace(/(__next.[^.\/]+).([^\/]+.txt)$/, "$1/$2");
     if (!fs.existsSync(file)) return res.writeHead(404, { "Content-Type": "text/plain" }).end("not found");
     const size = fs.statSync(file).size;
     const head = { "Content-Type": TYPES[path.extname(file)] ?? "application/octet-stream", "Accept-Ranges": "bytes" };

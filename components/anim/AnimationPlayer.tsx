@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Pause, Play, RotateCcw } from "lucide-react";
 import { SCENES } from "@/components/anim/scenes";
+import Stage3D from "@/components/three/Stage3D";
 import type { Animation } from "@/lib/animations";
 import { useT } from "@/lib/store";
 
@@ -13,7 +14,9 @@ import { useT } from "@/lib/store";
  */
 export default function AnimationPlayer({ animation, onFinished, active = true, compact }: { animation: Animation; onFinished?: () => void; active?: boolean; compact?: boolean }) {
   const t = useT();
-  const Scene = SCENES[animation.scene];
+  const [no3d, setNo3d] = useState(false); // WebGL missing or lost → 2D drawing, or text only
+  const three = animation.renderer === "three" && !no3d;
+  const Scene = (SCENES as Record<string, (typeof SCENES)[string] | undefined>)[animation.renderer === "three" ? (animation.fallback ?? "") : animation.scene];
   const durations = animation.steps.map((s) => s.seconds ?? 6);
   const total = durations.reduce((a, b) => a + b, 0);
   const [time, setTime] = useState(0);
@@ -76,13 +79,18 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
     setPlaying((v) => !v || done);
   };
 
-  if (!Scene) return <p role="alert" className="card p-4 text-sm">{t("Diese Animation kann gerade nicht angezeigt werden.")}</p>;
   return (
-    <div data-testid="animation-player" data-step={step} data-playing={playing}>
+    <div data-testid="animation-player" data-step={step} data-playing={playing} data-renderer={three ? "three" : Scene ? "svg" : "text"}>
       <div className="overflow-hidden rounded-3xl bg-[#11100e] text-white">
-        <svg viewBox="0 0 360 400" role="img" aria-label={animation.title} className={`mx-auto block w-full ${compact ? "max-h-[38dvh]" : ""}`} style={{ fontFamily: "var(--font-geist-sans), system-ui, sans-serif" }} onClick={toggle}>
-          <Scene step={step} p={p} t={time} labels={animation.labels} />
-        </svg>
+        {three ? (
+          <Stage3D scene={animation.scene} step={step} p={p} t={time} labels={animation.labels} title={animation.title} compact={compact} onUnavailable={() => setNo3d(true)} />
+        ) : Scene ? (
+          <svg viewBox="0 0 360 400" role="img" aria-label={animation.title} className={`mx-auto block w-full ${compact ? "max-h-[38dvh]" : ""}`} style={{ fontFamily: "var(--font-geist-sans), system-ui, sans-serif" }} onClick={toggle}>
+            <Scene step={step} p={p} t={time} labels={animation.labels} />
+          </svg>
+        ) : (
+          <p role="status" className="px-5 py-10 text-center text-sm text-white/75">{t("Die 3D-Ansicht ist auf diesem Gerät nicht verfügbar. Die Erklärung kannst du trotzdem Schritt für Schritt lesen.")}</p>
+        )}
         <div className="h-1 bg-white/15">
           <div className="h-full bg-white/80" style={{ width: `${(time / total) * 100}%` }} />
         </div>

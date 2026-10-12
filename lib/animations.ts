@@ -17,8 +17,9 @@ export interface AnimationRow extends Omit<Texts, "steps"> {
   min_age: number;
   difficulty: 1 | 2 | 3;
   language: string;
-  renderer: "svg-scene"; // how it is drawn; further renderers (video, lottie) can be added here
-  scene: string; // key in SCENES
+  renderer: "svg-scene" | "three"; // drawn as 2D SVG (components/anim/scenes.tsx) or as a 3D scene (components/three/scenes)
+  scene: string; // key in SCENES or SCENES_3D
+  fallback_scene?: string | null; // SVG scene shown where 3D is not available
   steps: { text: string; seconds?: number }[];
   sources: { name: string; url: string }[];
   quiz_question_id: string | null;
@@ -33,6 +34,8 @@ export interface Animation {
   minAge: number;
   difficulty: number;
   scene: string;
+  renderer: AnimationRow["renderer"];
+  fallback: string | null;
   title: string;
   summary: string;
   goal: string;
@@ -54,7 +57,7 @@ export function animationsFor(locale: string, band: AgeBand | null): Animation[]
       const tr = a.translations[locale];
       const steps = a.steps.map((s, i) => ({ ...s, text: tr?.steps[i] ?? s.text }));
       return {
-        id: a.id, categoryId: a.category_id, minAge: a.min_age, difficulty: a.difficulty, scene: a.scene,
+        id: a.id, categoryId: a.category_id, minAge: a.min_age, difficulty: a.difficulty, scene: a.scene, renderer: a.renderer, fallback: a.fallback_scene ?? null,
         title: tr?.title ?? a.title, summary: tr?.summary ?? a.summary, goal: tr?.goal ?? a.goal, labels: tr?.labels ?? a.labels,
         steps, seconds: steps.reduce((n, s) => n + (s.seconds ?? 6), 0), sources: a.sources, quizId: a.quiz_question_id, verification: a.verification_status,
       };

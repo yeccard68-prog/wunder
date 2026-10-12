@@ -20596,5 +20596,83 @@
         "explanation": "He sold hardly any paintings during his lifetime and lived on his brother's support. He only became famous after his death in 1890."
       }
     }
+  },
+  {
+    "id": "qa-dna",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Base paart sich in der DNA immer mit Adenin (A)?",
+    "options": [
+      "Guanin (G)",
+      "Cytosin (C)",
+      "Thymin (T)",
+      "Uracil (U)"
+    ],
+    "correct_index": 2,
+    "explanation": "A paart sich mit T, G mit C. Uracil ersetzt das Thymin nur in der RNA.",
+    "difficulty": 2,
+    "tags": [
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Desoxyribonukleinsäure",
+    "source_url": "https://de.wikipedia.org/wiki/Desoxyribonukleinsäure",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which base always pairs with adenine (A) in DNA?",
+        "options": [
+          "Guanine (G)",
+          "Cytosine (C)",
+          "Thymine (T)",
+          "Uracil (U)"
+        ],
+        "explanation": "A pairs with T, G with C. Uracil replaces thymine only in RNA."
+      }
+    }
+  },
+  {
+    "id": "qa-bahn",
+    "kind": "question",
+    "category_id": "science",
+    "question": "An welcher Stelle seiner Umlaufbahn ist ein Planet am schnellsten?",
+    "options": [
+      "Am sonnenfernsten Punkt",
+      "Am sonnennächsten Punkt",
+      "Er ist überall gleich schnell",
+      "Genau in der Mitte dazwischen"
+    ],
+    "correct_index": 1,
+    "explanation": "In Sonnennähe ist die Anziehung am stärksten. Das zweite Keplersche Gesetz beschreibt, wie sich die Geschwindigkeit entlang der Bahn ändert.",
+    "difficulty": 2,
+    "tags": [
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Keplersche Gesetze",
+    "source_url": "https://de.wikipedia.org/wiki/Keplersche_Gesetze",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At which point of its orbit is a planet fastest?",
+        "options": [
+          "At the point farthest from the Sun",
+          "At the point closest to the Sun",
+          "It is equally fast everywhere",
+          "Exactly halfway in between"
+        ],
+        "explanation": "Near the Sun the pull is strongest. Kepler's second law describes how the speed changes along the orbit."
+      }
+    }
   }
 ]
