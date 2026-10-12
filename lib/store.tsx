@@ -25,6 +25,7 @@ const blank = (): UserState => ({
   answers: {},
   clipStats: {},
   comments: {},
+  books: { read: [], saved: [] },
   likes: [],
   saves: [],
   hidden: [],

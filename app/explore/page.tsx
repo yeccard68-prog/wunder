@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { ArrowRight, Clapperboard, Search, Shapes, Users, X, Zap } from "lucide-react";
+import { ArrowRight, BookOpen, Clapperboard, Search, Shapes, Users, X, Zap } from "lucide-react";
 import Feed from "@/components/Feed";
 import { Chip, Empty } from "@/components/ui";
 import { animationsFor } from "@/lib/animations";
+import { booksFor } from "@/lib/books";
 import { CATEGORIES } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import type { FeedEntry } from "@/lib/feed";
@@ -21,6 +22,7 @@ export default function ExplorePage() {
   const [query, setQuery] = useState("");
   const [topic, setTopic] = useState<string | null>(null);
   const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
+  const books = useMemo(() => booksFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   const counts = useMemo(() => Object.fromEntries(CATEGORIES.map((c) => [c.id, items.filter((i) => i.categoryId === c.id).length + clips.filter((x) => x.categoryId === c.id).length + animations.filter((a) => a.categoryId === c.id).length])), [items, clips, animations]);
 
   const searching = query.trim().length >= 2 || topic !== null;
@@ -32,11 +34,13 @@ export default function ExplorePage() {
     return [
       ...animations.filter((a) => hit(a.categoryId, a.title, a.summary)).map((animation): FeedEntry => ({ kind: "animation", animation })),
       ...clips.filter((c) => hit(c.categoryId, c.title, c.takeaway, c.description, c.tags.join(" "))).map((clip): FeedEntry => ({ kind: "clip", clip })),
+      ...books.flatMap((book) => book.ideas.filter((idea) => hit(book.topicId, book.title, book.original ?? "", book.author, idea.title)).map((idea): FeedEntry => ({ kind: "insight", book, idea }))),
       ...items.filter((i) => !quizIds.has(i.id) && hit(i.categoryId, i.question)).map((item): FeedEntry => ({ kind: "item", item, reason: "" })),
     ].slice(0, MAX_RESULTS);
-  }, [searching, query, topic, items, clips, animations]);
+  }, [searching, query, topic, items, clips, animations, books]);
 
   const collections = [
+    { href: "/books/", Icon: BookOpen, title: t("Bücher"), text: t("{n} Sachbücher, {m} Ideen zum Mitnehmen", { n: books.length, m: books.reduce((s, b) => s + b.ideas.length, 0) }) },
     { href: "/quiz/", Icon: Zap, title: t("Quiz-Runden"), text: t("Daily Challenge, Wiederholung und Üben nach Thema") },
     { href: "/explain/", Icon: Shapes, title: t("So funktioniert’s"), text: t("{n} Animationen zum Durchklicken", { n: animations.length }) },
     { href: "/clips/", Icon: Clapperboard, title: t("Alle Clips"), text: t("{n} kurze Videos im Vollbild", { n: clips.length }) },

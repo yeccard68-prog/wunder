@@ -14,7 +14,7 @@ import { Button, Skeleton, Wordmark } from "./ui";
 const NAV = [
   { href: "/", label: "Für dich", Icon: House, also: [] as string[] },
   { href: "/explore/", label: "Entdecken", Icon: Compass, also: ["/clips", "/quiz", "/explain", "/social"] },
-  { href: "/library/", label: "Bibliothek", Icon: Library, also: [] },
+  { href: "/library/", label: "Bibliothek", Icon: Library, also: ["/books"] },
   { href: "/profile/", label: "Profil", Icon: User, also: ["/admin"] },
 ];
 

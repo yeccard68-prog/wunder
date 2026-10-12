@@ -212,3 +212,44 @@ test("without WebGL a 3D animation falls back to the drawing or to text, and sti
   await expect(page.getByText("Die 3D-Ansicht ist auf diesem Gerät nicht verfügbar")).toBeVisible();
   await expect(page.getByText(/verdrehte Strickleiter/)).toBeVisible();
 });
+
+test("books: shelf, search, a book with an interactive idea, progress, and ideas in the feed", async ({ page }) => {
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  await signIn(page);
+  await page.goto("/books/");
+  await expect(page.getByTestId("book-row")).toHaveCount(20);
+  await page.getByRole("searchbox").fill("Kahneman");
+  await expect(page.getByTestId("book-row")).toHaveCount(1);
+  await page.getByTestId("book-row").click();
+
+  const detail = page.getByTestId("book-detail");
+  await expect(detail.getByRole("heading", { level: 1 })).toHaveText("Schnelles Denken, langsames Denken");
+  await expect(detail.getByText("Kernthese")).toBeVisible();
+  await expect(detail.getByTestId("insight-card")).toHaveCount(3);
+  await expect(detail.getByText("Einordnung und Kritik")).toBeVisible();
+  // decide first, then the explanation appears
+  await detail.getByRole("button", { name: /Der für 55/ }).click();
+  await expect(detail.getByRole("status").filter({ hasText: "Rechnerisch richtig" })).toBeVisible();
+  await detail.getByRole("button", { name: "Verstanden" }).first().click();
+  await expect(detail.getByText("1 von 3 Ideen gelernt").first()).toBeVisible();
+  await expect(detail.getByText("Wissens-Check")).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+
+  await page.getByText("Alle Bücher").first().click();
+  await page.getByRole("searchbox").fill("");
+  await expect(page.getByText("Weiterlesen")).toBeVisible(); // continue where you left off
+  await page.reload();
+  await expect(page.getByText("Weiterlesen")).toBeVisible(); // progress survives a reload
+
+  // a book idea shows up in the feed and leads back to its book
+  await page.goto("/");
+  const idea = page.getByTestId("snap-feed").getByTestId("insight-card").first();
+  await expect(async () => {
+    await next(page);
+    expect(await idea.count()).toBe(1);
+  }).toPass({ timeout: 40_000 });
+  await idea.getByRole("link", { name: "Zum Buch" }).click();
+  await expect(page.getByTestId("book-detail")).toBeVisible();
+  expect(errors).toEqual([]);
+});

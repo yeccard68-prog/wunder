@@ -10,7 +10,7 @@ import type { AnswerRecord, UserState } from "../lib/types";
 const { items, clips } = demoContent();
 const day = (offset: number) => new Date(Date.now() + offset * 86_400_000).toLocaleDateString("sv");
 const user = (patch: Partial<UserState> = {}): UserState => ({
-  onboarded: true, username: "Test", interests: ["science"], goalMinutes: 5, motivation: "discover", xp: 0, week: { key: "", xp: 0 },
+  onboarded: true, username: "Test", interests: ["science"], books: { read: [], saved: [] }, goalMinutes: 5, motivation: "discover", xp: 0, week: { key: "", xp: 0 },
   answers: {}, clipStats: {}, comments: {}, likes: [], saves: [], hidden: [], reported: [], blocked: [], following: [],
   daily: { date: "", count: 0 }, streak: { current: 0, best: 0, lastDate: null }, dailyChallenge: { date: "", score: null },
   challenges: [], achievements: [], log: [], settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" }, ageBand: null, ...patch,
@@ -106,7 +106,7 @@ test("clip ranking: interests first, hidden clips removed, watched clips later",
 });
 
 test("content mapping: video quizzes stay out of the feed and are attached to their clip", () => {
-  assert.equal(items.length, 509);
+  assert.equal(items.length, 529);
   assert.equal(clips.length, 31);
   assert.ok(clips.every((c) => c.quiz && !items.some((i) => i.id === c.quiz!.id)));
 });

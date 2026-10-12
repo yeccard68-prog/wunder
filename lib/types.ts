@@ -91,6 +91,7 @@ export interface UserState {
   answers: Record<string, AnswerRecord>;
   clipStats: Record<string, { plays: number; completed: number }>; // watch signals for ranking
   comments: Record<string, string[]>; // own comments per clip (device only)
+  books: { read: string[]; saved: string[] }; // book ideas marked as learned / saved (device only for now)
   likes: string[];
   saves: string[];
   hidden: string[];

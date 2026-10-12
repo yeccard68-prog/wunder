@@ -20674,5 +20674,805 @@
         "explanation": "Near the Sun the pull is strongest. Kepler's second law describes how the speed changes along the orbit."
       }
     }
+  },
+  {
+    "id": "bq-kahneman",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie nennt Daniel Kahneman das schnelle, automatische Denken?",
+    "options": [
+      "System 1",
+      "System 2",
+      "Das Unterbewusstsein",
+      "Den Autopiloten"
+    ],
+    "correct_index": 0,
+    "explanation": "System 1 arbeitet mühelos und sofort. System 2 ist das langsame, bewusste Nachdenken.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Psychologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schnelles Denken, langsames Denken",
+    "source_url": "https://de.wikipedia.org/wiki/Schnelles_Denken,_langsames_Denken",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Daniel Kahneman call fast, automatic thinking?",
+        "options": [
+          "System 1",
+          "System 2",
+          "The subconscious",
+          "The autopilot"
+        ],
+        "explanation": "System 1 works effortlessly and instantly. System 2 is slow, deliberate thinking."
+      }
+    }
+  },
+  {
+    "id": "bq-clear",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche vier Schritte bilden nach James Clear eine Gewohnheit?",
+    "options": [
+      "Wunsch, Zweifel, Versuch, Erfolg",
+      "Ziel, Plan, Handlung, Kontrolle",
+      "Auslöser, Verlangen, Reaktion, Belohnung",
+      "Vorsatz, Disziplin, Routine, Stolz"
+    ],
+    "correct_index": 2,
+    "explanation": "Wer eine Gewohnheit ändern will, kann nach Clear an jedem dieser vier Schritte ansetzen.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Gewohnheiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewohnheit",
+    "source_url": "https://de.wikipedia.org/wiki/Gewohnheit",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which four steps make up a habit according to James Clear?",
+        "options": [
+          "Wish, doubt, attempt, success",
+          "Goal, plan, action, control",
+          "Cue, craving, response, reward",
+          "Resolution, discipline, routine, pride"
+        ],
+        "explanation": "According to Clear, anyone who wants to change a habit can start at any of these four steps."
+      }
+    }
+  },
+  {
+    "id": "bq-duhigg",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was besagt die „goldene Regel“ in Charles Duhiggs „Die Macht der Gewohnheit“?",
+    "options": [
+      "Jede Gewohnheit 21 Tage lang wiederholen",
+      "Auslöser und Belohnung behalten, die Routine austauschen",
+      "Schlechte Gewohnheiten sofort komplett streichen",
+      "Nur eine Gewohnheit pro Jahr ändern"
+    ],
+    "correct_index": 1,
+    "explanation": "Alte Gewohnheiten lassen sich nach Duhigg kaum löschen, aber umbauen.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Gewohnheiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewohnheit",
+    "source_url": "https://de.wikipedia.org/wiki/Gewohnheit",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the “golden rule” in Charles Duhigg's “The Power of Habit”?",
+        "options": [
+          "Repeat every habit for 21 days",
+          "Keep the cue and the reward, swap the routine",
+          "Give up bad habits completely at once",
+          "Change only one habit per year"
+        ],
+        "explanation": "According to Duhigg, old habits can hardly be erased but they can be rebuilt."
+      }
+    }
+  },
+  {
+    "id": "bq-harari",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was ermöglicht es Menschen nach Yuval Noah Harari, in sehr großen Gruppen zusammenzuarbeiten?",
+    "options": [
+      "Ihr besonders gutes Gedächtnis",
+      "Ihre Körperkraft",
+      "Der Glaube an gemeinsame Geschichten",
+      "Ein angeborener Herdentrieb"
+    ],
+    "correct_index": 2,
+    "explanation": "Geld, Nationen oder Unternehmen existieren, weil viele Menschen gemeinsam an sie glauben.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Menschheitsgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eine kurze Geschichte der Menschheit",
+    "source_url": "https://de.wikipedia.org/wiki/Eine_kurze_Geschichte_der_Menschheit",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to Yuval Noah Harari, what enables humans to cooperate in very large groups?",
+        "options": [
+          "Their particularly good memory",
+          "Their physical strength",
+          "Belief in shared stories",
+          "An innate herd instinct"
+        ],
+        "explanation": "Money, nations or companies exist because many people jointly believe in them."
+      }
+    }
+  },
+  {
+    "id": "bq-ries",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wie heißt der Kernkreislauf der Lean-Startup-Methode?",
+    "options": [
+      "Bauen – Messen – Lernen",
+      "Planen – Finanzieren – Verkaufen",
+      "Erfinden – Patentieren – Skalieren",
+      "Analysieren – Entscheiden – Ausführen"
+    ],
+    "correct_index": 0,
+    "explanation": "Je schneller ein Team diese Schleife durchläuft, desto früher erfährt es, ob seine Annahmen stimmen.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Gründen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lean Startup",
+    "source_url": "https://de.wikipedia.org/wiki/Lean_Startup",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the core loop of the Lean Startup method called?",
+        "options": [
+          "Build – Measure – Learn",
+          "Plan – Finance – Sell",
+          "Invent – Patent – Scale",
+          "Analyse – Decide – Execute"
+        ],
+        "explanation": "The faster a team runs through this loop, the sooner it finds out whether its assumptions hold."
+      }
+    }
+  },
+  {
+    "id": "bq-thiel",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was meint Peter Thiel mit „von 0 auf 1“?",
+    "options": [
+      "Den ersten Euro Umsatz erzielen",
+      "Etwas wirklich Neues schaffen statt Bestehendes zu kopieren",
+      "Ein Unternehmen an die Börse bringen",
+      "Vom Angestellten zum Gründer werden"
+    ],
+    "correct_index": 1,
+    "explanation": "Bestehendes zu kopieren nennt Thiel „von 1 auf n“.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Gründen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Peter Thiel",
+    "source_url": "https://de.wikipedia.org/wiki/Peter_Thiel",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Peter Thiel mean by “from 0 to 1”?",
+        "options": [
+          "Making the first euro of revenue",
+          "Creating something truly new instead of copying what exists",
+          "Taking a company public",
+          "Going from employee to founder"
+        ],
+        "explanation": "Thiel calls copying what already exists “from 1 to n”."
+      }
+    }
+  },
+  {
+    "id": "bq-rumelt",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Womit beginnt nach Richard Rumelt jede gute Strategie?",
+    "options": [
+      "Mit einem inspirierenden Leitbild",
+      "Mit einem ehrgeizigen Umsatzziel",
+      "Mit einer Diagnose der eigentlichen Herausforderung",
+      "Mit einer Liste aller Projekte"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf die Diagnose folgen eine Leitlinie und abgestimmte Maßnahmen. Ziele allein sind für Rumelt noch keine Strategie.",
+    "difficulty": 3,
+    "tags": [
+      "Bücher",
+      "Strategie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strategie (Wirtschaft)",
+    "source_url": "https://de.wikipedia.org/wiki/Strategie_(Wirtschaft)",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to Richard Rumelt, what does every good strategy begin with?",
+        "options": [
+          "An inspiring mission statement",
+          "An ambitious revenue target",
+          "A diagnosis of the actual challenge",
+          "A list of all projects"
+        ],
+        "explanation": "The diagnosis is followed by a guiding policy and coherent actions. For Rumelt, goals alone are not yet a strategy."
+      }
+    }
+  },
+  {
+    "id": "bq-christensen",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was kennzeichnet eine disruptive Innovation nach Clayton Christensen?",
+    "options": [
+      "Sie richtet sich zuerst an die anspruchsvollsten Kunden",
+      "Sie ist von Beginn an das technisch beste Produkt",
+      "Sie wird immer vom Marktführer selbst entwickelt",
+      "Sie ist anfangs einfacher und billiger und arbeitet sich von unten in den Markt vor"
+    ],
+    "correct_index": 3,
+    "explanation": "Marktführer ignorieren sie oft, weil das neue Geschäft anfangs klein und wenig profitabel ist.",
+    "difficulty": 3,
+    "tags": [
+      "Bücher",
+      "Innovation"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Disruptive Technologie",
+    "source_url": "https://de.wikipedia.org/wiki/Disruptive_Technologie",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What characterises a disruptive innovation according to Clayton Christensen?",
+        "options": [
+          "It first targets the most demanding customers",
+          "It is the technically best product from the start",
+          "It is always developed by the market leader itself",
+          "It is initially simpler and cheaper and works its way into the market from below"
+        ],
+        "explanation": "Market leaders often ignore it because the new business is small and not very profitable at first."
+      }
+    }
+  },
+  {
+    "id": "bq-housel",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist nach Morgan Housel beim Vermögensaufbau wichtiger als eine besonders hohe Rendite?",
+    "options": [
+      "Nur in Gold anzulegen",
+      "Den perfekten Zeitpunkt zu treffen",
+      "Möglichst oft umzuschichten",
+      "Sehr lange investiert zu bleiben"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Zinseszins entfaltet seine Wirkung erst über Jahrzehnte.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Finanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zinseszins",
+    "source_url": "https://de.wikipedia.org/wiki/Zinseszins",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to Morgan Housel, what matters more for building wealth than a particularly high return?",
+        "options": [
+          "Investing only in gold",
+          "Hitting the perfect moment",
+          "Reshuffling as often as possible",
+          "Staying invested for a very long time"
+        ],
+        "explanation": "Compound interest only unfolds its effect over decades."
+      }
+    }
+  },
+  {
+    "id": "bq-cialdini",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Prinzip beschreibt nach Robert Cialdini, dass wir uns nach einem Geschenk zu einer Gegenleistung verpflichtet fühlen?",
+    "options": [
+      "Gegenseitigkeit",
+      "Knappheit",
+      "Autorität",
+      "Soziale Bewährtheit"
+    ],
+    "correct_index": 0,
+    "explanation": "Das wirkt sogar bei Geschenken, um die wir nie gebeten haben.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Psychologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Robert Cialdini",
+    "source_url": "https://de.wikipedia.org/wiki/Robert_Cialdini",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to Robert Cialdini, which principle describes our feeling obliged to return a favour after receiving a gift?",
+        "options": [
+          "Reciprocity",
+          "Scarcity",
+          "Authority",
+          "Social proof"
+        ],
+        "explanation": "This works even for gifts we never asked for."
+      }
+    }
+  },
+  {
+    "id": "bq-rosling",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bezeichnen die Autoren von „Factfulness“ als „Instinkt der Kluft“?",
+    "options": [
+      "Die Angst vor großen Höhen",
+      "Die Neigung, die Welt in zwei gegensätzliche Lager zu teilen",
+      "Die Lücke zwischen Wissen und Handeln",
+      "Den Abstand zwischen den Generationen"
+    ],
+    "correct_index": 1,
+    "explanation": "Tatsächlich lebt die große Mehrheit der Menschen zwischen den Extremen.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Kritisches Denken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hans Rosling",
+    "source_url": "https://de.wikipedia.org/wiki/Hans_Rosling",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the authors of “Factfulness” call the “gap instinct”?",
+        "options": [
+          "The fear of great heights",
+          "The tendency to divide the world into two opposing camps",
+          "The gap between knowing and acting",
+          "The distance between generations"
+        ],
+        "explanation": "In fact the great majority of people live between the extremes."
+      }
+    }
+  },
+  {
+    "id": "bq-meadows",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist eine verstärkende Rückkopplung?",
+    "options": [
+      "Ein System kehrt zu seinem Ausgangswert zurück",
+      "Eine Veränderung treibt sich selbst immer weiter an",
+      "Zwei Systeme tauschen Energie aus",
+      "Ein Eingriff bleibt ohne Wirkung"
+    ],
+    "correct_index": 1,
+    "explanation": "Beispiel Zinseszins: mehr Guthaben bringt mehr Zinsen, die das Guthaben weiter erhöhen. Ein Thermostat ist dagegen eine ausgleichende Rückkopplung.",
+    "difficulty": 3,
+    "tags": [
+      "Bücher",
+      "Systemdenken_(Systemtheorie)"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rückkopplung",
+    "source_url": "https://de.wikipedia.org/wiki/Rückkopplung",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a reinforcing feedback loop?",
+        "options": [
+          "A system returns to its starting value",
+          "A change keeps driving itself further",
+          "Two systems exchange energy",
+          "An intervention has no effect"
+        ],
+        "explanation": "Example compound interest: a bigger balance brings more interest, which increases the balance further. A thermostat, by contrast, is a balancing loop."
+      }
+    }
+  },
+  {
+    "id": "bq-newport",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was versteht Cal Newport unter „Deep Work“?",
+    "options": [
+      "Möglichst viele Aufgaben gleichzeitig erledigen",
+      "Arbeiten bis tief in die Nacht",
+      "Konzentriertes Arbeiten ohne Ablenkung an anspruchsvollen Aufgaben",
+      "Arbeiten im Großraumbüro"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Gegenteil nennt er „Shallow Work“: Aufgaben, die man auch halb abgelenkt erledigen kann.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Produktivität"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cal Newport",
+    "source_url": "https://de.wikipedia.org/wiki/Cal_Newport",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Cal Newport mean by “deep work”?",
+        "options": [
+          "Doing as many tasks as possible at once",
+          "Working late into the night",
+          "Concentrated, distraction-free work on demanding tasks",
+          "Working in an open-plan office"
+        ],
+        "explanation": "He calls the opposite “shallow work”: tasks that can be done half-distracted."
+      }
+    }
+  },
+  {
+    "id": "bq-dweck",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was kennzeichnet nach Carol Dweck ein dynamisches Selbstbild („Growth Mindset“)?",
+    "options": [
+      "Die Abneigung gegen Kritik",
+      "Der Glaube an angeborenes Talent",
+      "Besonders hohes Selbstvertrauen",
+      "Die Überzeugung, dass sich Fähigkeiten entwickeln lassen"
+    ],
+    "correct_index": 3,
+    "explanation": "Im statischen Selbstbild gelten Begabung und Intelligenz dagegen als feststehend.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Lernen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Carol Dweck",
+    "source_url": "https://de.wikipedia.org/wiki/Carol_Dweck",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to Carol Dweck, what characterises a growth mindset?",
+        "options": [
+          "A dislike of criticism",
+          "Belief in innate talent",
+          "Particularly high self-confidence",
+          "The belief that abilities can be developed"
+        ],
+        "explanation": "In the fixed mindset, by contrast, talent and intelligence are seen as given."
+      }
+    }
+  },
+  {
+    "id": "bq-brown",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Lernmethode wirkt laut Lernforschung besser als mehrfaches Durchlesen?",
+    "options": [
+      "Alles an einem Abend lernen",
+      "Farbig markieren",
+      "Den Text abschreiben",
+      "Sich selbst abfragen"
+    ],
+    "correct_index": 3,
+    "explanation": "Jedes Abrufen aus dem Gedächtnis festigt die Erinnerung – das nennt man Testeffekt.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Lernen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lernen",
+    "source_url": "https://de.wikipedia.org/wiki/Lernen",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to learning research, which study method works better than rereading several times?",
+        "options": [
+          "Learning everything in one evening",
+          "Highlighting in colour",
+          "Copying out the text",
+          "Quizzing yourself"
+        ],
+        "explanation": "Every act of retrieval from memory strengthens the memory – this is called the testing effect."
+      }
+    }
+  },
+  {
+    "id": "bq-dawkins",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welchen Begriff prägte Richard Dawkins 1976 für kulturelle Einheiten, die von Kopf zu Kopf weitergegeben werden?",
+    "options": [
+      "Trend",
+      "Gen",
+      "Mem",
+      "Code"
+    ],
+    "correct_index": 2,
+    "explanation": "Gemeint waren Melodien, Ideen oder Redewendungen. Die Bedeutung „Internet-Witzbild“ kam erst Jahrzehnte später.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Evolution"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Das egoistische Gen",
+    "source_url": "https://de.wikipedia.org/wiki/Das_egoistische_Gen",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which term did Richard Dawkins coin in 1976 for cultural units passed from mind to mind?",
+        "options": [
+          "Trend",
+          "Gene",
+          "Meme",
+          "Code"
+        ],
+        "explanation": "He meant tunes, ideas or catchphrases. The meaning “internet joke image” only came decades later."
+      }
+    }
+  },
+  {
+    "id": "bq-hawking",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was sagte Stephen Hawking 1974 über Schwarze Löcher voraus?",
+    "options": [
+      "Dass sie aus Antimaterie bestehen",
+      "Dass sie unendlich groß werden",
+      "Dass sie eine schwache Strahlung abgeben",
+      "Dass es sie gar nicht gibt"
+    ],
+    "correct_index": 2,
+    "explanation": "Durch diese Hawking-Strahlung können Schwarze Löcher über extrem lange Zeit Masse verlieren.",
+    "difficulty": 3,
+    "tags": [
+      "Bücher",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hawking-Strahlung",
+    "source_url": "https://de.wikipedia.org/wiki/Hawking-Strahlung",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Stephen Hawking predict about black holes in 1974?",
+        "options": [
+          "That they consist of antimatter",
+          "That they become infinitely large",
+          "That they emit faint radiation",
+          "That they do not exist at all"
+        ],
+        "explanation": "Through this Hawking radiation, black holes can lose mass over extremely long periods."
+      }
+    }
+  },
+  {
+    "id": "bq-diamond",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Worin sieht Jared Diamond die Hauptursache für die unterschiedliche Entwicklung der Kontinente?",
+    "options": [
+      "In biologischen Unterschieden zwischen Völkern",
+      "In Geografie und Umweltbedingungen",
+      "In der Religion",
+      "Im Zufall einzelner Schlachten"
+    ],
+    "correct_index": 1,
+    "explanation": "Entscheidend waren für ihn zähmbare Pflanzen und Tiere und die Ausrichtung der Kontinente.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Menschheitsgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jared Diamond",
+    "source_url": "https://de.wikipedia.org/wiki/Jared_Diamond",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Jared Diamond see as the main cause of the different development of the continents?",
+        "options": [
+          "Biological differences between peoples",
+          "Geography and environmental conditions",
+          "Religion",
+          "The chance outcome of individual battles"
+        ],
+        "explanation": "For him the decisive factors were domesticable plants and animals and the orientation of the continents."
+      }
+    }
+  },
+  {
+    "id": "bq-aurel",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welcher philosophischen Richtung gehörte der römische Kaiser Mark Aurel an?",
+    "options": [
+      "Der Scholastik",
+      "Dem Epikureismus",
+      "Der Stoa",
+      "Dem Existenzialismus"
+    ],
+    "correct_index": 2,
+    "explanation": "Seine „Selbstbetrachtungen“ sind eines der bekanntesten Werke der späten Stoa.",
+    "difficulty": 2,
+    "tags": [
+      "Bücher",
+      "Philosophie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Selbstbetrachtungen",
+    "source_url": "https://de.wikipedia.org/wiki/Selbstbetrachtungen",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which school of philosophy did the Roman emperor Marcus Aurelius belong to?",
+        "options": [
+          "Scholasticism",
+          "Epicureanism",
+          "Stoicism",
+          "Existentialism"
+        ],
+        "explanation": "His “Meditations” are one of the best-known works of late Stoicism."
+      }
+    }
+  },
+  {
+    "id": "bq-carnegie",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was empfiehlt Dale Carnegie als wirksamsten Weg, Menschen für sich zu gewinnen?",
+    "options": [
+      "Jede Diskussion zu gewinnen",
+      "Ihnen ihre Fehler klar zu benennen",
+      "Möglichst viel von sich zu erzählen",
+      "Sich ehrlich für sie zu interessieren"
+    ],
+    "correct_index": 3,
+    "explanation": "Kritik löst nach Carnegie vor allem Verteidigung aus – echtes Interesse dagegen Vertrauen.",
+    "difficulty": 1,
+    "tags": [
+      "Bücher",
+      "Kommunikation"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dale Carnegie",
+    "source_url": "https://de.wikipedia.org/wiki/Dale_Carnegie",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Dale Carnegie recommend as the most effective way to win people over?",
+        "options": [
+          "Winning every argument",
+          "Clearly pointing out their mistakes",
+          "Talking about yourself as much as possible",
+          "Taking a sincere interest in them"
+        ],
+        "explanation": "According to Carnegie, criticism mainly triggers defensiveness – genuine interest, by contrast, trust."
+      }
+    }
   }
 ]

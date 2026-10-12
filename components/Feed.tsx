@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Bookmark, ChevronDown, Clapperboard, HelpCircle, Shapes } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
+import InsightCard from "@/components/books/InsightCard";
 import ClipPlayer from "@/components/ClipPlayer";
 import { Sheet } from "@/components/ui";
 import type { Animation } from "@/lib/animations";
@@ -148,6 +149,7 @@ function Entry({ entry, fill }: { entry: FeedEntry; fill?: boolean }) {
   const t = useT();
   if (entry.kind === "item") return <KnowledgeCard item={entry.item} reason={t(entry.reason, entry.vars)} />;
   if (entry.kind === "clip") return <ClipCard clip={entry.clip} fill={fill} />;
+  if (entry.kind === "insight") return <InsightCard book={entry.book} idea={entry.idea} standalone />;
   return <AnimationCard animation={entry.animation} compact={fill} />;
 }
 

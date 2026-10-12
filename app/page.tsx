@@ -6,6 +6,7 @@ import { ArrowRight, Check, ChevronsDown, RotateCcw } from "lucide-react";
 import Feed from "@/components/Feed";
 import { Button, Empty, Ring } from "@/components/ui";
 import { animationsFor } from "@/lib/animations";
+import { booksFor, insightQueue } from "@/lib/books";
 import { rankClips } from "@/lib/clips";
 import { mixFeed } from "@/lib/feed";
 import { dailyCount, dueReviews, goalQuestions, today } from "@/lib/gamification";
@@ -75,7 +76,9 @@ export default function HomePage() {
   const forYou = useMemo(() => rankForYou(items, getState()), [items, interestsKey]);
   const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState()), [forYou, clips, animations]);
+  const books = useMemo(() => booksFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState())), [forYou, clips, animations, books]);
 
   if (!feed.length)
     return (
