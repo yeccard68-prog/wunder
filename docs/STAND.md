@@ -4,11 +4,11 @@
 
 | Inhalt | Anzahl | Status |
 |---|---|---|
-| Fragekarten im Feed | 555 | alle „von KI geprüft“, keine „redaktionell geprüft“ |
+| Fragekarten im Feed | 558 | alle „von KI geprüft“, keine „redaktionell geprüft“ |
 | davon neue Formate | 24 (8 Reihenfolge, 8 Schätzen, 8 Lückentext) | |
 | Video-Quizfragen | 44 | |
 | Clips | 38 veröffentlicht, 6 archiviert (alte Balken-Clips) | frei lizenziert, Quelle und Urheber je Clip |
-| Animationen | 12 (7 gezeichnet in 2D, 5 in 3D) | |
+| Animationen | 15 (10 in 3D, 5 gezeichnet) | |
 | Bücher | 20 mit 60 Lektionen (Abruf, Wiederholung, 20 Transferaufgaben) | Beleg-Stufe je Idee |
 | Vorhersagefragen in Animationen | 12 (eine je Animation) | |
 | Themen | 9 | |
@@ -21,9 +21,9 @@ Karten je Thema (Feed, aus dem Datensatz gezählt): Wissenschaft 94, Technologie
 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
-| 1.000 Quizfragen | 599 | rund 150 pro Stapel sind in guter Qualität machbar |
+| 1.000 Quizfragen | 602 | rund 150 pro Stapel sind in guter Qualität machbar |
 | 100 Kurzvideos | 38 | Engpass ist das Sichten freier Quellen, nicht die Technik |
-| 50 Animationen | 12 | jede 3D-Szene ist Handarbeit im Code |
+| 50 Animationen | 15 | jede 3D-Szene ist Handarbeit im Code |
 | rund 20 Bücher | 20 | je drei Ideen; fünf bis zehn Ideen je Buch wären der nächste Ausbau |
 | 200 Aufgaben für unter 6-Jährige | 0 | zurückgestellt; die App ist seit 18.10. nur ab 16 freigegeben |
 

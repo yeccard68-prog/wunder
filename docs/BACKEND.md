@@ -272,3 +272,12 @@ Offen bis zur Store-Reife:
 - **Motor:** Pleuel mit kleinem und großem Auge und Steg statt Quader, sichtbarer Kolbenbolzen, Kühlrippen am Zylinder, untere Kurbelgehäuse-Hälfte, Ventilfedern mit Federteller, die beim Öffnen zusammengedrückt werden; Schatten auf dem Boden.
 - **DNA:** Schatten der Stränge aufeinander. **Planetenbahn und Linse:** nur Hintergrund und Kantenlicht, keine Schatten (Weltraum bzw. Glas).
 - Gemessen am Entwicklungs-PC (`scripts/measure-animations.mjs`, beantwortet jetzt die Vorhersagefrage selbst): Motor, Zahnräder, DNA je 60 Bilder pro Sekunde, Laufzeiten unverändert.
+
+## 25. 3D-Ausbau (19.10.2026)
+
+- **Linse** (`scenes/lens.ts`): gedrehtes bikonvexes Linsenprofil aus echtem Glas (Lichtdurchlass mit Brechzahl 1,5), optische Bank mit Skala, Halter und Tisch, Lichtstrahlen als leuchtende Bündel, Gegenstand ist eine brennende Kerze, das Bild eine kopfstehende Kerze aus Licht in der Größe, die die Linsengleichung ergibt.
+- **Planetenbahn** (`scenes/orbit.ts`): gemalte Oberflächen (Sonne mit Granulation, blauer Planet, Gesteinsplanet, Gasriese), Leuchten der Sonne, drehende Planeten mit Tag- und Nachtseite, Sterne in zwei Helligkeiten. Neue Bühnen-Option `stage.space`: schwarzer Hintergrund, kein Umgebungslicht.
+- **Elektromotor** (`scenes/emotor.ts`) und **Batterie** (`scenes/cell.ts`) sind von der Zeichnung nach 3D gewandert; die Zeichnungen bleiben Rückfall ohne 3D. Motor: Hufeisenmagnet, Spule aus drei Windungen, geteilter Schleifring mit Bürsten, Batterie, Kraftpfeile (linke Seite immer nach oben, rechte nach unten). Batterie: Glas mit Elektrolyt, zwei Metallplatten, Draht mit Lampe, Elektronen im Draht, Ionen in der Flüssigkeit.
+- **Neu:** Jahreszeiten (`seasons`), Mondphasen (`moon`, die Phasen entstehen aus der berechneten Beleuchtung beim Blick von der Erde), Hebel (`lever`). Inhalte und Prüffragen: `content/_batches/2026-10-animations-3d-4.mjs`. Gemalte Kugeloberflächen liegen gemeinsam in `components/three/surface.ts` – stilisiert, keine Fotos, keine fremden Texturen.
+- Stand: 15 Animationen, davon 10 in 3D und 5 gezeichnet (Herz, Gewitter, Erdplatten, neuronales Netz, Sternentstehung). 602 Fragen (558 im Feed).
+- Gemessen am Entwicklungs-PC: Elektromotor, Mondphasen, Hebel, Motor, Zahnräder, DNA je 60 Bilder pro Sekunde. Die Linse erreicht im sichtbaren Browser 60, im Messskript ohne Bildschirm läuft sie nicht durch (Glas mit Lichtdurchlass ist dort sehr langsam) – auf schwächeren Handys ist sie die Szene mit dem größten Risiko.

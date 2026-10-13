@@ -20,7 +20,7 @@ begin
   begin
     perform set_config('request.jwt.claims', '{"role":"anon"}', true); set local role anon;
     select count(*) into n from public.questions;
-    out := out || (case when n = 599 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published questions, no drafts');
+    out := out || (case when n = 602 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published questions, no drafts');
     select (select count(*) from public.categories) + (select count(*) from public.videos) into n;
     out := out || (case when n = 47 then 'ok' else 'FAIL (' || n || ')' end || ' 03 anon reads categories and published videos');
   end;

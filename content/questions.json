@@ -22889,5 +22889,125 @@
         "explanation": "A short pendulum swings faster than a long one. The weight plays no role for small swings."
       }
     }
+  },
+  {
+    "id": "qa-jahreszeiten",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum ist es bei uns im Sommer wärmer als im Winter?",
+    "options": [
+      "Weil die Erde der Sonne dann näher ist",
+      "Weil die Erdachse geneigt ist: Die Sonne steht höher und scheint länger",
+      "Weil die Sonne im Sommer stärker brennt",
+      "Weil sich die Erde im Sommer langsamer dreht"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Erdachse ist um 23,4 Grad geneigt. Im Nordsommer ist die Nordhalbkugel der Sonne zugewandt – das Licht trifft steiler auf und die Tage sind länger. Der Sonne am nächsten ist die Erde Anfang Januar.",
+    "difficulty": 2,
+    "tags": [
+      "Jahreszeiten",
+      "Erde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jahreszeit",
+    "source_url": "https://de.wikipedia.org/wiki/Jahreszeit",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is it warmer in summer than in winter where we live?",
+        "options": [
+          "Because the Earth is closer to the Sun then",
+          "Because the Earth's axis is tilted: the Sun is higher and shines longer",
+          "Because the Sun burns more strongly in summer",
+          "Because the Earth spins more slowly in summer"
+        ],
+        "explanation": "The Earth's axis is tilted by 23.4 degrees. In the northern summer the northern hemisphere faces the Sun – the light arrives more steeply and the days are longer. The Earth is closest to the Sun in early January."
+      }
+    }
+  },
+  {
+    "id": "qa-mondphasen",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum sehen wir den Mond bei Neumond nicht?",
+    "options": [
+      "Die Erde wirft ihren Schatten auf ihn",
+      "Er steht zwischen Erde und Sonne – wir blicken auf seine unbeleuchtete Seite",
+      "Er steht hinter der Sonne",
+      "Er leuchtet nur in der zweiten Monatshälfte"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei Neumond steht der Mond von uns aus in Richtung Sonne. Die Sonne beleuchtet seine Rückseite, uns zeigt er die dunkle Hälfte. Der Erdschatten trifft den Mond nur bei einer Mondfinsternis.",
+    "difficulty": 2,
+    "tags": [
+      "Mond",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mondphase",
+    "source_url": "https://de.wikipedia.org/wiki/Mondphase",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can we not see the Moon at new moon?",
+        "options": [
+          "The Earth casts its shadow on it",
+          "It is between the Earth and the Sun – we look at its unlit side",
+          "It is behind the Sun",
+          "It only shines in the second half of the month"
+        ],
+        "explanation": "At new moon the Moon is in the direction of the Sun as seen from us. The Sun lights its far side; it shows us the dark half. The Earth's shadow only falls on the Moon during a lunar eclipse."
+      }
+    }
+  },
+  {
+    "id": "qa-hebel",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Der Kraftarm eines Hebels ist dreimal so lang wie der Lastarm. Wie viel Kraft braucht man, um die Last zu heben?",
+    "options": [
+      "Dreimal so viel wie die Last wiegt",
+      "Genauso viel",
+      "Ein Drittel",
+      "Ein Neuntel"
+    ],
+    "correct_index": 2,
+    "explanation": "Hebelgesetz: Kraft mal Kraftarm gleich Last mal Lastarm. Ein dreimal so langer Kraftarm heißt ein Drittel der Kraft – dafür muss die Hand den dreifachen Weg zurücklegen.",
+    "difficulty": 2,
+    "tags": [
+      "Mechanik",
+      "Hebel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hebel (Physik)",
+    "source_url": "https://de.wikipedia.org/wiki/Hebel_(Physik)",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The force arm of a lever is three times as long as the load arm. How much force is needed to lift the load?",
+        "options": [
+          "Three times the weight of the load",
+          "The same",
+          "One third",
+          "One ninth"
+        ],
+        "explanation": "Law of the lever: force times force arm equals load times load arm. A force arm three times as long means a third of the force – in return the hand has to travel three times the distance."
+      }
+    }
   }
 ]

@@ -7,6 +7,9 @@ import { emotor } from "./emotor";
 import { engine } from "./engine";
 import { gears } from "./gears";
 import { lens } from "./lens";
+import { lever } from "./lever";
+import { moon } from "./moon";
 import { orbit } from "./orbit";
+import { seasons } from "./seasons";
 
-export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell };
+export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell, seasons, moon, lever };

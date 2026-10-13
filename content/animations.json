@@ -1139,5 +1139,297 @@
       ],
       "correct": 2
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T12:00:00Z",
+    "id": "a-jahreszeiten",
+    "category_id": "earth",
+    "scene": "seasons",
+    "title": "Warum es Jahreszeiten gibt",
+    "summary": "Nicht die Entfernung zur Sonne macht den Sommer – sondern die schiefe Erdachse.",
+    "goal": "Du kannst erklären, warum es im Sommer wärmer ist als im Winter und warum auf der Südhalbkugel dann Winter herrscht.",
+    "labels": [
+      "Sonne",
+      "Erdachse, 23,4° geneigt",
+      "Äquator",
+      "Juni: Sommer im Norden",
+      "Dezember: Winter im Norden",
+      "März",
+      "September"
+    ],
+    "steps": [
+      {
+        "text": "Die Erde dreht sich um eine Achse, die schief steht: Sie ist um 23,4 Grad geneigt. Während die Erde um die Sonne wandert, zeigt die Achse immer in dieselbe Richtung.",
+        "seconds": 7
+      },
+      {
+        "text": "Im Juni ist die Nordhalbkugel zur Sonne geneigt. Das Sonnenlicht trifft dort steiler auf, und die Tage sind lang: Im Norden ist Sommer, im Süden Winter.",
+        "seconds": 8
+      },
+      {
+        "text": "Ein halbes Jahr später steht die Erde auf der anderen Seite der Sonne. Die Achse zeigt noch genauso – jetzt ist der Norden von der Sonne weggeneigt: Winter im Norden, Sommer im Süden.",
+        "seconds": 9
+      },
+      {
+        "text": "Mit der Entfernung hat das nichts zu tun: Der Sonne am nächsten ist die Erde Anfang Januar – mitten im Nordwinter. Im März und September werden beide Halbkugeln gleich beschienen.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Jahreszeit",
+        "url": "https://de.wikipedia.org/wiki/Jahreszeit"
+      },
+      {
+        "name": "Wikipedia: Ekliptik",
+        "url": "https://de.wikipedia.org/wiki/Ekliptik"
+      }
+    ],
+    "quiz_question_id": "qa-jahreszeiten",
+    "translations": {
+      "en": {
+        "title": "Why there are seasons",
+        "summary": "It is not the distance to the Sun that makes summer – it is the tilted axis of the Earth.",
+        "goal": "You can explain why summer is warmer than winter and why it is winter in the southern hemisphere at that time.",
+        "labels": [
+          "Sun",
+          "Earth's axis, tilted 23.4°",
+          "Equator",
+          "June: summer in the north",
+          "December: winter in the north",
+          "March",
+          "September"
+        ],
+        "steps": [
+          "The Earth spins around an axis that is not upright: it is tilted by 23.4 degrees. While the Earth travels around the Sun, the axis always points in the same direction.",
+          "In June the northern hemisphere is tilted towards the Sun. Sunlight arrives more steeply there and the days are long: it is summer in the north and winter in the south.",
+          "Half a year later the Earth is on the other side of the Sun. The axis still points the same way – now the north is tilted away from the Sun: winter in the north, summer in the south.",
+          "Distance has nothing to do with it: the Earth is closest to the Sun in early January – in the middle of the northern winter. In March and September both hemispheres are lit equally."
+        ],
+        "predict": {
+          "question": "Half a year later the Earth is on the other side of the Sun. Where does its axis point then?",
+          "options": [
+            "It has turned along towards the Sun",
+            "In the same direction as before",
+            "It is upright now"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 2,
+      "question": "Ein halbes Jahr später steht die Erde auf der anderen Seite der Sonne. Wohin zeigt ihre Achse dann?",
+      "options": [
+        "Sie hat sich zur Sonne mitgedreht",
+        "In dieselbe Richtung wie zuvor",
+        "Sie steht jetzt senkrecht"
+      ],
+      "correct": 1
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:00:00Z",
+    "id": "a-mondphasen",
+    "category_id": "science",
+    "scene": "moon",
+    "title": "Wie die Mondphasen entstehen",
+    "summary": "Der Mond ist immer zur Hälfte beleuchtet – wir sehen nur unterschiedlich viel davon.",
+    "goal": "Du kannst erklären, warum der Mond als Sichel, Halbmond oder Vollmond erscheint und was bei Neumond passiert.",
+    "labels": [
+      "Sonnenlicht",
+      "Erde",
+      "Mond",
+      "Neumond",
+      "zunehmender Halbmond",
+      "Vollmond",
+      "abnehmender Halbmond",
+      "Blick von der Erde"
+    ],
+    "steps": [
+      {
+        "text": "Der Mond umrundet die Erde. Die Sonne beleuchtet immer genau eine Hälfte von ihm – die Hälfte, die ihr zugewandt ist. Die Abstände sind hier stark verkürzt.",
+        "seconds": 7
+      },
+      {
+        "text": "Wir wechseln den Standort und schauen von der Erde aus. Steht der Mond zwischen Erde und Sonne, blicken wir auf seine unbeleuchtete Seite: Neumond.",
+        "seconds": 8
+      },
+      {
+        "text": "Der Mond wandert weiter. Erst sehen wir eine schmale Sichel, nach einer Woche die halbe Scheibe, nach zwei Wochen die ganze beleuchtete Hälfte: Vollmond.",
+        "seconds": 10
+      },
+      {
+        "text": "Danach nimmt er wieder ab, bis zum nächsten Neumond. Von Neumond zu Neumond vergehen rund 29,5 Tage – daher kommt unser Monat.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Mondphase",
+        "url": "https://de.wikipedia.org/wiki/Mondphase"
+      },
+      {
+        "name": "Wikipedia: Mond",
+        "url": "https://de.wikipedia.org/wiki/Mond"
+      }
+    ],
+    "quiz_question_id": "qa-mondphasen",
+    "translations": {
+      "en": {
+        "title": "How the phases of the Moon arise",
+        "summary": "Half of the Moon is always lit – we just see different amounts of it.",
+        "goal": "You can explain why the Moon appears as a crescent, a half or a full disc, and what happens at new moon.",
+        "labels": [
+          "Sunlight",
+          "Earth",
+          "Moon",
+          "New moon",
+          "First quarter (waxing)",
+          "Full moon",
+          "Last quarter (waning)",
+          "View from the Earth"
+        ],
+        "steps": [
+          "The Moon orbits the Earth. The Sun always lights exactly one half of it – the half facing the Sun. Distances are greatly shortened here.",
+          "We change our position and look from the Earth. When the Moon is between the Earth and the Sun, we look at its unlit side: new moon.",
+          "The Moon moves on. First we see a thin crescent, after a week half the disc, after two weeks the whole lit half: full moon.",
+          "Then it wanes again until the next new moon. From new moon to new moon takes about 29.5 days – that is where our month comes from."
+        ],
+        "predict": {
+          "question": "The Moon now moves on around the Earth. What do we see over the next days?",
+          "options": [
+            "A thin crescent that grows wider",
+            "The full moon at once",
+            "Nothing at all until it has gone round once"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 2,
+      "question": "Der Mond wandert jetzt weiter um die Erde. Was sehen wir in den nächsten Tagen?",
+      "options": [
+        "Eine schmale Sichel, die breiter wird",
+        "Sofort den Vollmond",
+        "Gar nichts mehr, bis er einmal herum ist"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T10:00:00Z",
+    "id": "a-hebel",
+    "category_id": "science",
+    "scene": "lever",
+    "title": "Wie ein Hebel Kraft spart",
+    "summary": "Langer Arm, kleine Kraft: Mit einem Hebel hebt man Lasten, die man sonst nicht schafft.",
+    "goal": "Du kannst das Hebelgesetz anwenden und erklären, warum man mit weniger Kraft dafür einen längeren Weg braucht.",
+    "labels": [
+      "Drehpunkt",
+      "Last",
+      "Kraft",
+      "Lastarm",
+      "Kraftarm",
+      "4 × so lang – ¼ der Kraft",
+      "4 × so weiter Weg"
+    ],
+    "steps": [
+      {
+        "text": "Ein Hebel ist eine Stange, die sich um einen festen Punkt dreht: den Drehpunkt. Auf der einen Seite liegt die Last, auf der anderen drückt die Kraft.",
+        "seconds": 7
+      },
+      {
+        "text": "Liegt der Drehpunkt genau in der Mitte, sind beide Arme gleich lang. Dann braucht man so viel Kraft, wie die Last wiegt – hier hält ein gleich schweres Gewicht die Waage.",
+        "seconds": 8
+      },
+      {
+        "text": "Rückt der Drehpunkt näher an die Last, wird der Kraftarm länger. Ist er viermal so lang wie der Lastarm, reicht ein Viertel der Kraft. Das ist das Hebelgesetz: Kraft mal Kraftarm gleich Last mal Lastarm.",
+        "seconds": 9
+      },
+      {
+        "text": "Geschenkt wird einem nichts: Die Hand muss viermal so weit nach unten wie die Last nach oben kommt. So funktionieren Brechstange, Schubkarre und Flaschenöffner.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Hebel (Physik)",
+        "url": "https://de.wikipedia.org/wiki/Hebel_(Physik)"
+      }
+    ],
+    "quiz_question_id": "qa-hebel",
+    "translations": {
+      "en": {
+        "title": "How a lever saves force",
+        "summary": "Long arm, small force: with a lever you can lift loads you could not manage otherwise.",
+        "goal": "You can apply the law of the lever and explain why less force means a longer distance.",
+        "labels": [
+          "Pivot",
+          "Load",
+          "Force",
+          "Load arm",
+          "Force arm",
+          "4 × as long – ¼ of the force",
+          "4 × the distance"
+        ],
+        "steps": [
+          "A lever is a bar that turns around a fixed point: the pivot. The load rests on one side, the force pushes on the other.",
+          "If the pivot is exactly in the middle, both arms are equally long. Then you need as much force as the load weighs – here an equally heavy weight keeps the balance.",
+          "If the pivot moves closer to the load, the force arm gets longer. If it is four times as long as the load arm, a quarter of the force is enough. This is the law of the lever: force times force arm equals load times load arm.",
+          "Nothing comes for free: the hand has to move four times as far down as the load comes up. This is how crowbars, wheelbarrows and bottle openers work."
+        ],
+        "predict": {
+          "question": "The pivot now moves closer to the load. What happens to the force needed to lift it?",
+          "options": [
+            "It gets larger",
+            "It stays the same",
+            "It gets smaller"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.68,
+      "motion": 1.4
+    },
+    "predict": {
+      "step": 2,
+      "question": "Der Drehpunkt rückt jetzt näher an die Last. Was passiert mit der Kraft, die man zum Heben braucht?",
+      "options": [
+        "Sie wird größer",
+        "Sie bleibt gleich",
+        "Sie wird kleiner"
+      ],
+      "correct": 2
+    }
   }
 ]

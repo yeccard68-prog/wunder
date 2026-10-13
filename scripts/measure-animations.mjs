@@ -26,6 +26,7 @@ const untilDone = async () => {
       const t0 = Date.now();
       await predict.getByRole("button").first().click();
       await predict.getByRole("button", { name: "Weiter" }).click();
+      await predict.waitFor({ state: "hidden" });
       paused += Date.now() - t0;
     }
     await page.waitForTimeout(100);
