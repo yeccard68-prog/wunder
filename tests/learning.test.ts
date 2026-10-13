@@ -94,3 +94,13 @@ test("captions are spread over the clip by their length", () => {
   assert.equal(captionAt(clip, 99), "ein deutlich längerer Satz");
   assert.equal(captionAt({ ...clip, captions: [] }, 3), undefined);
 });
+
+test("retention counts what was known again after a pause, not what was looked at", async () => {
+  const { retention } = await import("../lib/gamification");
+  const a = (patch: object) => ({ correct: true, at: "", categoryId: "science", difficulty: 1, box: null, due: null, reviews: 0, correctIndex: 0, explanation: "", ...patch });
+  const s = {
+    answers: { q1: a({ reviews: 2 }), q2: a({ correct: false, box: 0, due: "2026-10-18T10:00:00Z" }), q3: a({}), cq: a({}), cq2: a({ correct: false, box: 0, due: "2026-10-30T10:00:00Z" }) },
+    clipStats: { c1: { plays: 2, completed: 1 }, c2: { plays: 1, completed: 1 }, c3: { plays: 1, completed: 0 }, c4: { plays: 1, completed: 1 } },
+  } as never;
+  assert.deepEqual(retention(s, { c1: "cq", c2: "cq2", c3: "cq", c4: undefined }, Date.parse("2026-10-19T00:00:00Z")), { recalled: 1, gaps: 2, due: 1, clipsWatched: 3, clipsUnderstood: 1 });
+});

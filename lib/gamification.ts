@@ -14,6 +14,24 @@ export const XP = {
 };
 
 const THRESHOLDS = [0, 100, 250, 450, 700, 1000, 1400, 1900, 2500];
+/**
+ * What has actually stuck – as opposed to what was merely looked at:
+ *  recalled = questions answered correctly again after a pause (a successful review) ·
+ *  gaps = questions last answered wrong and scheduled to come back · due = of those, due now ·
+ *  clipsWatched / clipsUnderstood = clips seen to the end / clips whose question was answered correctly.
+ */
+export function retention(state: Pick<UserState, "answers" | "clipStats">, clipQuiz: Record<string, string | undefined>, now = Date.now()) {
+  const answers = Object.values(state.answers);
+  const watched = Object.entries(state.clipStats).filter(([, s]) => s.completed > 0).map(([id]) => id);
+  return {
+    recalled: answers.filter((a) => a.reviews > 0).length,
+    gaps: answers.filter((a) => a.box !== null && !a.correct).length,
+    due: answers.filter((a) => a.due !== null && Date.parse(a.due) <= now).length,
+    clipsWatched: watched.length,
+    clipsUnderstood: watched.filter((id) => { const q = clipQuiz[id]; return !!q && state.answers[q]?.correct; }).length,
+  };
+}
+
 export function levelThreshold(level: number): number {
   if (level <= THRESHOLDS.length) return THRESHOLDS[level - 1];
   return THRESHOLDS[THRESHOLDS.length - 1] + (level - THRESHOLDS.length) * 600;

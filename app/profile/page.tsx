@@ -9,7 +9,8 @@ import Account from "@/components/Account";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Avatar, Bar, Button, Chip, Empty, Ring, Segmented, Sheet, Toggle } from "@/components/ui";
 import { CATEGORIES } from "@/lib/categories";
-import { ACHIEVEMENTS, leagueFor, levelInfo, liveStreak, mastery, stats } from "@/lib/gamification";
+import { recallStats } from "@/lib/books";
+import { ACHIEVEMENTS, leagueFor, levelInfo, liveStreak, mastery, retention, stats } from "@/lib/gamification";
 import { OFFERED_AGE_BANDS } from "@/lib/content";
 import { LOCALES } from "@/lib/i18n";
 import { useStore, useT } from "@/lib/store";
@@ -36,6 +37,8 @@ export default function ProfilePage() {
   }, []);
   const lvl = levelInfo(state.xp);
   const s = stats(state);
+  const kept = retention(state, Object.fromEntries(clips.map((c) => [c.id, c.quiz?.id])));
+  const ideas = recallStats(state);
   const saved = items.filter((i) => state.saves.includes(i.id));
   const savedClips = clips.filter((c) => state.saves.includes(c.id));
   const toggleInterest = (id: string) => {
@@ -76,6 +79,31 @@ export default function ProfilePage() {
         <Stat label={t("Längste Streak")} value={state.streak.best} />
         <Stat label={t("Fragen beantwortet")} value={s.answered} />
         <Stat label={t("Trefferquote")} value={s.answered ? `${Math.round(s.accuracy * 100)} %` : "–"} />
+      </section>
+
+      <section className="card space-y-3 p-5" data-testid="retention">
+        <div>
+          <h2 className="font-display text-xl font-semibold">{t("Was hängen geblieben ist")}</h2>
+          <p className="text-xs text-muted">{t("Gezählt wird, was du nach einer Pause noch wusstest – nicht, was du nur angesehen hast.")}</p>
+        </div>
+        <dl className="divide-y divide-line text-sm">
+          {[
+            [t("Fragen nach einer Pause wieder gewusst"), kept.recalled],
+            [t("Offene Lücken (kommen zur Wiederholung)"), kept.gaps],
+            [t("Buch-Ideen nach einer Pause gewusst"), `${ideas.retained} / ${ideas.recalled}`],
+            [t("Clips angesehen – Frage dazu richtig"), `${kept.clipsWatched} – ${kept.clipsUnderstood}`],
+          ].map(([label, value]) => (
+            <div key={label} className="flex items-center justify-between gap-3 py-2.5">
+              <dt className="text-muted">{label}</dt>
+              <dd className="tnum font-semibold">{value}</dd>
+            </div>
+          ))}
+        </dl>
+        {kept.due + ideas.due > 0 && (
+          <Link href={kept.due > 0 ? "/quiz/" : "/books/"} className="press flex h-11 items-center justify-center rounded-full bg-ink text-sm font-semibold text-bg">
+            {t("{n} Wiederholungen fällig", { n: kept.due + ideas.due })}
+          </Link>
+        )}
       </section>
 
       <section className="card space-y-4 p-5">
