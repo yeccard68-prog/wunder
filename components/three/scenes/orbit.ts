@@ -57,10 +57,15 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
   const sun = new T.Mesh(new T.SphereGeometry(0.6, 48, 32), new T.MeshBasicMaterial({ map: sunTexture }));
   // its glow: light that fades out smoothly, always facing the viewer
   const halo = paint((c, w, h) => {
+    // falls off steeply: in linear light even 1 % shows on black, so a straight ramp would end in a visible edge
     const grad = c.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, h / 2);
     grad.addColorStop(0, "rgba(255,225,150,1)");
-    grad.addColorStop(0.22, "rgba(255,190,90,0.55)");
-    grad.addColorStop(0.55, "rgba(255,140,50,0.14)");
+    grad.addColorStop(0.14, "rgba(255,200,105,0.5)");
+    grad.addColorStop(0.28, "rgba(255,170,75,0.2)");
+    grad.addColorStop(0.42, "rgba(255,150,60,0.075)");
+    grad.addColorStop(0.56, "rgba(255,140,52,0.026)");
+    grad.addColorStop(0.7, "rgba(255,130,46,0.008)");
+    grad.addColorStop(0.85, "rgba(255,125,42,0.0015)");
     grad.addColorStop(1, "rgba(255,120,40,0)");
     c.fillStyle = grad;
     c.fillRect(w / 2 - h / 2, 0, h, h);
@@ -121,7 +126,7 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
       sun.scale.setScalar(Math.max(0.001, appear));
       sun.rotation.y = t * 0.12;
       const flare = Math.max(0.001, appear * (1 + 0.04 * Math.sin(t * 2.2)));
-      glow.scale.set(9 * flare, 4.5 * flare, 1); // the canvas is twice as wide as high
+      glow.scale.set(12 * flare, 6 * flare, 1); // the canvas is twice as wide as high
       planet.rotation.y = t * 1.6; // day and night: the planet spins while it orbits
       inner.rotation.y = t * 0.5;
       outer.rotation.y = t * 2.4;

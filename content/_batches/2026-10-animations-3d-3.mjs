@@ -19,5 +19,8 @@ motor.translations.en.steps[0] = "A simple electric motor consists of a magnet a
 motor.labels[2] = "Drahtspule";
 motor.translations.en.labels[2] = "Wire coil";
 to3d("a-batterie", "cell", "battery");
+// 20.10.2026: plate tectonics and the birth of a star follow
+to3d("a-platten", "plates", "plates");
+to3d("a-sternentstehung", "starbirth", "star");
 fs.writeFileSync(file, JSON.stringify(animations, null, 2) + "\n");
-console.log("motor and battery are 3D scenes now.");
+console.log("motor, battery, plates and star are 3D scenes now.");

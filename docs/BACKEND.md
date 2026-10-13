@@ -281,3 +281,11 @@ Offen bis zur Store-Reife:
 - **Neu:** Jahreszeiten (`seasons`), Mondphasen (`moon`, die Phasen entstehen aus der berechneten Beleuchtung beim Blick von der Erde), Hebel (`lever`). Inhalte und Prüffragen: `content/_batches/2026-10-animations-3d-4.mjs`. Gemalte Kugeloberflächen liegen gemeinsam in `components/three/surface.ts` – stilisiert, keine Fotos, keine fremden Texturen.
 - Stand: 15 Animationen, davon 10 in 3D und 5 gezeichnet (Herz, Gewitter, Erdplatten, neuronales Netz, Sternentstehung). 602 Fragen (558 im Feed).
 - Gemessen am Entwicklungs-PC: Elektromotor, Mondphasen, Hebel, Motor, Zahnräder, DNA je 60 Bilder pro Sekunde. Die Linse erreicht im sichtbaren Browser 60, im Messskript ohne Bildschirm läuft sie nicht durch (Glas mit Lichtdurchlass ist dort sehr langsam) – auf schwächeren Handys ist sie die Szene mit dem größten Risiko.
+
+## 26. Erdplatten und Sternentstehung in 3D (20.10.2026)
+
+- **Erdplatten** (`scenes/plates.ts`): Blockbild aus der Erde geschnitten – glühender Mantel mit umlaufendem Gestein, ozeanische Platten mit Streifen am Meeresboden (machen die Bewegung sichtbar), Ozean, aufquellendes Magma am Rücken, abtauchende Platte mit Gebirge und Vulkan, zum Schluss Blick von oben auf eine Verwerfung: Die Platten hängen fest, rucken, Wellen breiten sich aus und ein Weg ist versetzt. Höhen überzeichnet, Millionen Jahre in Sekunden (steht im Code-Kommentar; die Schritttexte nennen „wenige Zentimeter pro Jahr“).
+- **Sternentstehung** (`scenes/starbirth.ts`): 3.200 Teilchen als Wolke, die zusammenfällt, schneller dreht und zur Scheibe abflacht; Protostern glimmt erst rot, wird orange und nach dem Zünden weißgelb; innere Teilchen fallen in den Stern.
+- Die Zeichnungen bleiben als Rückfall ohne 3D. Texte und Prüffragen unverändert.
+- Sonnenleuchten in allen Szenen mit steilerem Abfall (im linearen Licht war der Rand des Leuchtens als Kante sichtbar).
+- Stand: 15 Animationen, 12 in 3D, 3 gezeichnet (Herz, Gewitter, neuronales Netz).

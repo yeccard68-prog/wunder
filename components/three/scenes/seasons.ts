@@ -19,7 +19,7 @@ export const seasons: SceneFactory = ({ THREE: T, scene }) => {
 
   const sun = new T.Mesh(new T.SphereGeometry(0.75, 48, 32), new T.MeshBasicMaterial({ map: sunTexture() }));
   const glow = new T.Sprite(new T.SpriteMaterial({ map: halo(), blending: T.AdditiveBlending, depthWrite: false, transparent: true }));
-  glow.scale.set(11, 5.5, 1);
+  glow.scale.set(14, 7, 1);
   const light = new T.PointLight(0xfff1d6, 3.4, 0, 0);
   const path = new T.LineLoop(new T.BufferGeometry().setFromPoints(Array.from({ length: 160 }, (_, i) => new T.Vector3(...at((i / 160) * 6.2832)))), new T.LineBasicMaterial({ color: 0xcfc8bb, transparent: true, opacity: 0.6 }));
 

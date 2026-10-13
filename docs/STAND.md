@@ -8,7 +8,7 @@
 | davon neue Formate | 24 (8 Reihenfolge, 8 Schätzen, 8 Lückentext) | |
 | Video-Quizfragen | 44 | |
 | Clips | 38 veröffentlicht, 6 archiviert (alte Balken-Clips) | frei lizenziert, Quelle und Urheber je Clip |
-| Animationen | 15 (10 in 3D, 5 gezeichnet) | |
+| Animationen | 15 (12 in 3D, 3 gezeichnet) | |
 | Bücher | 20 mit 60 Lektionen (Abruf, Wiederholung, 20 Transferaufgaben) | Beleg-Stufe je Idee |
 | Vorhersagefragen in Animationen | 12 (eine je Animation) | |
 | Themen | 9 | |

@@ -375,7 +375,7 @@
     "min_age": 10,
     "difficulty": 2,
     "language": "de",
-    "renderer": "svg-scene",
+    "renderer": "three",
     "scene": "plates",
     "title": "Wie sich Erdplatten bewegen",
     "summary": "Auseinander, gegeneinander, aneinander vorbei – drei Bewegungen formen die Erde.",
@@ -460,7 +460,8 @@
         "Beide bleiben einfach stehen"
       ],
       "correct": 0
-    }
+    },
+    "fallback_scene": "plates"
   },
   {
     "language": "de",
@@ -649,7 +650,7 @@
   },
   {
     "language": "de",
-    "renderer": "svg-scene",
+    "renderer": "three",
     "min_age": 10,
     "difficulty": 2,
     "verification_status": "ai_checked",
@@ -657,7 +658,7 @@
     "created_at": "2026-10-14T12:00:00Z",
     "id": "a-sternentstehung",
     "category_id": "science",
-    "scene": "star",
+    "scene": "starbirth",
     "title": "Wie ein Stern entsteht",
     "summary": "Von der kalten Gaswolke zum leuchtenden Stern – die Schwerkraft macht den Anfang.",
     "goal": "Du kannst die Schritte von der Gaswolke bis zum Zünden der Kernfusion beschreiben.",
@@ -736,7 +737,8 @@
         "Die Kälte des Weltraums"
       ],
       "correct": 0
-    }
+    },
+    "fallback_scene": "star"
   },
   {
     "language": "de",
