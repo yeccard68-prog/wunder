@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { Bookmark, ChevronDown, Clapperboard, HelpCircle, Shapes } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
 import ClipPlayer from "@/components/ClipPlayer";
 import { Sheet } from "@/components/ui";
+import { scrollToElement, useAutoAdvance } from "@/lib/advance";
 import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
 import { categoryById } from "@/lib/categories";
@@ -74,6 +75,22 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
   const saved = state.saves.includes(clip.id);
   const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onTime={setTime} onComplete={() => { setWatchedNow(true); trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
   const quizLabel = answered ? t("Frage zum Clip ansehen") : t("Frage zum Clip");
+  // answered → close the question and move on to the next entry of the feed
+  const next = useCallback(() => {
+    setQuiz(false);
+    scrollToElement(ref.current?.closest("section")?.nextElementSibling);
+  }, [ref]);
+  const advance = useAutoAdvance(next);
+  const closeQuiz = () => {
+    advance.stay();
+    setQuiz(false);
+  };
+  const staying = advance.pending && (
+    <p className="mt-3 flex items-center justify-between gap-3 text-sm text-muted" role="status" data-testid="advance">
+      {t("Gleich geht es weiter …")}
+      <button onClick={advance.stay} className="press h-9 rounded-full border border-line px-3.5 text-sm font-semibold text-ink">{t("Hier bleiben")}</button>
+    </p>
+  );
 
   if (fill)
     return (
@@ -97,8 +114,9 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
             </button>
           </div>
         </div>
-        <Sheet open={quiz} onClose={() => setQuiz(false)} title={t("Frage zum Clip")}>
-          {clip.quiz && <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway, rewatch: () => setQuiz(false) }} />}
+        <Sheet open={quiz} onClose={closeQuiz} title={t("Frage zum Clip")}>
+          {clip.quiz && <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway, rewatch: closeQuiz, done: advance.start }} />}
+          {staying}
         </Sheet>
       </article>
     );

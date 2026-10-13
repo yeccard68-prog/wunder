@@ -356,3 +356,88 @@ test("an account set up for a children's age band is asked for the age again", a
   await expect(page.getByRole("button", { name: "Los geht's" })).toBeVisible();
   await expect(page.locator("nav")).toHaveCount(0);
 });
+
+test("interactive: compound interest – guess first, then the sliders change curve and numbers", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/lab/");
+  await expect(page.getByTestId("visual-row")).toHaveCount(3);
+  await page.getByRole("button", { name: /Zinseszins/ }).click();
+  const card = page.getByTestId("visual-card");
+  await expect(card).toHaveAttribute("data-revealed", "false");
+  await expect(card.getByTestId("data-kind")).toHaveText("Rechenmodell mit Beispielzahlen");
+  await card.getByRole("button", { name: /82\.000/ }).click(); // a wrong guess: the right one is marked, the reason given
+  await expect(card.getByTestId("visual-predict").getByRole("status")).toContainText("153.000");
+  await expect(card).toHaveAttribute("data-revealed", "true");
+  const readout = card.getByTestId("viz-readout");
+  await expect(readout).toContainText("41.103 €"); // 100 € a month, 5 %, 20 years
+  await card.getByRole("slider", { name: "Laufzeit" }).fill("40");
+  await expect(readout).toContainText("152.602 €");
+  await expect(readout).toContainText("48.000 €"); // paid in
+  await expect(card.getByText("69 % des Endwerts sind Zinsen.")).toBeVisible();
+  await card.getByRole("slider", { name: "Zinssatz pro Jahr" }).fill("0");
+  await expect(readout).toContainText("0 €");
+  await card.getByText("Zahlen als Tabelle zeigen").click();
+  await expect(card.getByRole("table")).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});
+
+test("interactive: planets – real data, a point can be picked, axes and law can be switched", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/lab/?v=v-kepler");
+  const card = page.getByTestId("visual-card");
+  await expect(card.getByTestId("data-kind")).toHaveText("Echte Daten");
+  await expect(card.locator("[data-point=ceres]")).toHaveCount(0); // only after the prediction
+  await card.getByRole("button", { name: "Etwa 4,6 Jahre" }).click();
+  await expect(card.locator("[data-point=ceres]")).toHaveCount(1);
+  await card.locator("[data-point=jupiter]").click();
+  await expect(card.getByTestId("viz-readout")).toHaveText("Jupiter: 5,2 AE von der Sonne, ein Umlauf dauert 11,9 Jahre.");
+  await expect(card.getByTestId("viz-law")).toHaveCount(0);
+  await card.getByRole("button", { name: "Gesetz einblenden" }).click();
+  await expect(card.getByTestId("viz-law")).toHaveCount(1);
+  const before = await card.locator("[data-point=earth] circle").last().getAttribute("cx");
+  await card.getByRole("button", { name: "gleichmäßige Achsen" }).click();
+  await expect(card.getByRole("button", { name: "logarithmische Achsen" })).toHaveAttribute("aria-pressed", "true");
+  expect(await card.locator("[data-point=earth] circle").last().getAttribute("cx")).not.toBe(before);
+  await expect(card.getByRole("link", { name: /Warum Planeten um die Sonne kreisen/ })).toBeVisible(); // link to the 3D animation
+});
+
+test("interactive: supply and demand – the crossing point follows the sliders and the text explains", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/lab/?v=v-angebot-nachfrage");
+  const card = page.getByTestId("visual-card");
+  await card.getByRole("button", { name: "Preis und verkaufte Menge steigen" }).click();
+  await expect(card.getByTestId("viz-readout")).toContainText("1,5 €");
+  await expect(card.getByTestId("viz-explain")).toContainText("im Gleichgewicht");
+  const point = card.getByTestId("viz-point");
+  const [x0, y0] = [Number(await point.getAttribute("cx")), Number(await point.getAttribute("cy"))];
+  await card.getByRole("slider", { name: "Lust auf Eis" }).fill("1");
+  await expect(card.getByTestId("viz-explain")).toContainText("Mehr Leute wollen Eis");
+  expect(Number(await point.getAttribute("cx"))).toBeGreaterThan(x0); // more is sold …
+  expect(Number(await point.getAttribute("cy"))).toBeLessThan(y0); // … at a higher price (up in the picture)
+  await card.getByRole("slider", { name: "Lust auf Eis" }).fill("0");
+  await card.getByRole("slider", { name: "Kosten der Eisdielen" }).fill("0.5");
+  await expect(card.getByTestId("viz-explain")).toContainText("teurer");
+  expect(Number(await point.getAttribute("cx"))).toBeLessThan(x0);
+  await expect(card.getByTestId("visual-apply")).toContainText("Milch");
+});
+
+test("after the question about a clip is answered, the feed moves on by itself – or stays if asked to", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/");
+  await expect(async () => {
+    await next(page);
+    expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2);
+  }).toPass({ timeout: 30_000 });
+  const clip = page.getByTestId("feed-clip").first();
+  const answer = async () => {
+    await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
+    const option = (letter: string) => page.getByRole("dialog", { name: "Frage zum Clip" }).getByRole("button", { name: new RegExp("^" + letter + "\\s*\\S") });
+    await option("A").click();
+    if (await page.getByTestId("clip-hint").isVisible().catch(() => false)) await option("B").click(); // wrong first try: second attempt
+  };
+  await answer();
+  const notice = page.getByTestId("advance");
+  await expect(notice).toContainText("Gleich geht es weiter");
+  await expect(notice).toHaveCount(0, { timeout: 8_000 }); // the question closes …
+  await expect.poll(() => feedTop(page, "feed-clip"), { timeout: 5_000 }).toBeLessThan(-200); // … and the next entry is on screen
+});

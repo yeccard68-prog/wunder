@@ -124,5 +124,19 @@
         "description": "German, English and how language works"
       }
     }
+  },
+  {
+    "id": "sport",
+    "slug": "sport",
+    "name": "Sport",
+    "description": "Regeln, Rekorde und wie der Körper Leistung bringt",
+    "display_order": 10,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Sport",
+        "description": "Rules, records and how the body performs"
+      }
+    }
   }
 ]

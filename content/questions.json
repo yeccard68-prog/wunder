@@ -23089,5 +23089,930 @@
         "explanation": "Sunlight reaches the ground almost unhindered. The heat radiation the ground gives off is absorbed by greenhouse gases and emitted again in all directions – also back to the Earth. Without this effect the average temperature would be about −18 °C."
       }
     }
+  },
+  {
+    "id": "sp1",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie lang ist die Strecke eines Marathonlaufs?",
+    "options": [
+      "21,1 km",
+      "36,5 km",
+      "42,195 km",
+      "50 km"
+    ],
+    "correct_index": 2,
+    "explanation": "Die krumme Zahl geht auf die Olympischen Spiele 1908 in London zurück; seit 1921 ist sie offiziell festgelegt.",
+    "difficulty": 1,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marathonlauf",
+    "source_url": "https://de.wikipedia.org/wiki/Marathonlauf",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is a marathon?",
+        "options": [
+          "21.1 km",
+          "36.5 km",
+          "42.195 km",
+          "50 km"
+        ],
+        "explanation": "The odd number goes back to the 1908 Olympic Games in London; it has been the official distance since 1921."
+      }
+    }
+  },
+  {
+    "id": "sp2",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welcher Stadt fanden 1896 die ersten Olympischen Spiele der Neuzeit statt?",
+    "options": [
+      "Athen",
+      "Paris",
+      "London",
+      "Rom"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Spiele kehrten damit symbolisch in das Land zurück, in dem sie in der Antike entstanden waren.",
+    "difficulty": 1,
+    "tags": [
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Sommerspiele 1896",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1896",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city were the first modern Olympic Games held in 1896?",
+        "options": [
+          "Athens",
+          "Paris",
+          "London",
+          "Rome"
+        ],
+        "explanation": "The Games thus returned symbolically to the country where they had originated in antiquity."
+      }
+    }
+  },
+  {
+    "id": "sp3",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Ringe zeigt die olympische Flagge?",
+    "options": [
+      "Drei",
+      "Vier",
+      "Sechs",
+      "Fünf"
+    ],
+    "correct_index": 3,
+    "explanation": "Fünf verschlungene Ringe in Blau, Gelb, Schwarz, Grün und Rot auf weißem Grund.",
+    "difficulty": 1,
+    "tags": [
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Ringe",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Ringe",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many rings are on the Olympic flag?",
+        "options": [
+          "Three",
+          "Four",
+          "Six",
+          "Five"
+        ],
+        "explanation": "Five interlaced rings in blue, yellow, black, green and red on a white background."
+      }
+    }
+  },
+  {
+    "id": "sp4",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welcher Höhe hängt ein Basketballkorb?",
+    "options": [
+      "2,60 m",
+      "3,05 m",
+      "3,50 m",
+      "2,80 m"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Höhe von zehn Fuß – 3,05 Meter – gilt seit der Erfindung des Spiels 1891.",
+    "difficulty": 2,
+    "tags": [
+      "Basketball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Basketball",
+    "source_url": "https://de.wikipedia.org/wiki/Basketball",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How high is a basketball hoop?",
+        "options": [
+          "2.60 m",
+          "3.05 m",
+          "3.50 m",
+          "2.80 m"
+        ],
+        "explanation": "The height of ten feet – 3.05 metres – has applied since the game was invented in 1891."
+      }
+    }
+  },
+  {
+    "id": "sp5",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie lang ist ein olympisches Schwimmbecken?",
+    "options": [
+      "25 m",
+      "100 m",
+      "50 m",
+      "75 m"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf der 50-Meter-Bahn werden olympische Wettkämpfe geschwommen; die 25-Meter-Bahn heißt Kurzbahn.",
+    "difficulty": 1,
+    "tags": [
+      "Schwimmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwimmbecken",
+    "source_url": "https://de.wikipedia.org/wiki/Schwimmbecken",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is an Olympic swimming pool?",
+        "options": [
+          "25 m",
+          "100 m",
+          "50 m",
+          "75 m"
+        ],
+        "explanation": "Olympic races are swum in a 50-metre pool; the 25-metre pool is called short course."
+      }
+    }
+  },
+  {
+    "id": "sp6",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welches Land gewann 1930 die erste Fußball-Weltmeisterschaft?",
+    "options": [
+      "Brasilien",
+      "Italien",
+      "Argentinien",
+      "Uruguay"
+    ],
+    "correct_index": 3,
+    "explanation": "Uruguay war auch Gastgeber und schlug im Finale Argentinien mit 4:2.",
+    "difficulty": 2,
+    "tags": [
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußball-Weltmeisterschaft 1930",
+    "source_url": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1930",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country won the first football World Cup in 1930?",
+        "options": [
+          "Brazil",
+          "Italy",
+          "Argentina",
+          "Uruguay"
+        ],
+        "explanation": "Uruguay was also the host and beat Argentina 4–2 in the final."
+      }
+    }
+  },
+  {
+    "id": "sp7",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie nennt man im Tennis den Spielstand 40:40?",
+    "options": [
+      "Einstand",
+      "Vorteil",
+      "Tiebreak",
+      "Satzball"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach Einstand braucht ein Spieler zwei Punkte in Folge: erst den Vorteil, dann den Spielgewinn.",
+    "difficulty": 2,
+    "tags": [
+      "Tennis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tennis",
+    "source_url": "https://de.wikipedia.org/wiki/Tennis",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the score 40–40 called in tennis?",
+        "options": [
+          "Deuce",
+          "Advantage",
+          "Tie-break",
+          "Set point"
+        ],
+        "explanation": "After deuce a player needs two points in a row: first the advantage, then the game."
+      }
+    }
+  },
+  {
+    "id": "sp8",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Aus welchen drei Sportarten besteht ein Triathlon?",
+    "options": [
+      "Laufen, Springen, Werfen",
+      "Schwimmen, Radfahren, Laufen",
+      "Schwimmen, Rudern, Laufen",
+      "Radfahren, Laufen, Schießen"
+    ],
+    "correct_index": 1,
+    "explanation": "Immer in dieser Reihenfolge: erst schwimmen, dann Rad fahren, dann laufen.",
+    "difficulty": 1,
+    "tags": [
+      "Ausdauer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Triathlon",
+    "source_url": "https://de.wikipedia.org/wiki/Triathlon",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which three sports make up a triathlon?",
+        "options": [
+          "Running, jumping, throwing",
+          "Swimming, cycling, running",
+          "Swimming, rowing, running",
+          "Cycling, running, shooting"
+        ],
+        "explanation": "Always in this order: first swimming, then cycling, then running."
+      }
+    }
+  },
+  {
+    "id": "sp9",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie lange dauert ein Fußballspiel ohne Nachspielzeit?",
+    "options": [
+      "60 Minuten",
+      "80 Minuten",
+      "90 Minuten",
+      "120 Minuten"
+    ],
+    "correct_index": 2,
+    "explanation": "Zweimal 45 Minuten. 120 Minuten werden es nur mit Verlängerung.",
+    "difficulty": 1,
+    "tags": [
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußball",
+    "source_url": "https://de.wikipedia.org/wiki/Fußball",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does a football match last without stoppage time?",
+        "options": [
+          "60 minutes",
+          "80 minutes",
+          "90 minutes",
+          "120 minutes"
+        ],
+        "explanation": "Two halves of 45 minutes. It only becomes 120 minutes with extra time."
+      }
+    }
+  },
+  {
+    "id": "sp10",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche Sportart wird in Wimbledon gespielt?",
+    "options": [
+      "Golf",
+      "Cricket",
+      "Rugby",
+      "Tennis"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Turnier im Südwesten Londons gibt es seit 1877; gespielt wird auf Rasen.",
+    "difficulty": 1,
+    "tags": [
+      "Tennis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wimbledon Championships",
+    "source_url": "https://de.wikipedia.org/wiki/Wimbledon_Championships",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which sport is played at Wimbledon?",
+        "options": [
+          "Golf",
+          "Cricket",
+          "Rugby",
+          "Tennis"
+        ],
+        "explanation": "The tournament in south-west London has existed since 1877; it is played on grass."
+      }
+    }
+  },
+  {
+    "id": "sp11",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie schwer ist die Kugel beim Kugelstoßen der Männer?",
+    "options": [
+      "7,26 kg",
+      "4 kg",
+      "10 kg",
+      "5,5 kg"
+    ],
+    "correct_index": 0,
+    "explanation": "7,26 Kilogramm entsprechen 16 englischen Pfund. Die Kugel der Frauen wiegt 4 Kilogramm.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kugelstoßen",
+    "source_url": "https://de.wikipedia.org/wiki/Kugelstoßen",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How heavy is the shot in the men's shot put?",
+        "options": [
+          "7.26 kg",
+          "4 kg",
+          "10 kg",
+          "5.5 kg"
+        ],
+        "explanation": "7.26 kilograms equal 16 pounds. The women's shot weighs 4 kilograms."
+      }
+    }
+  },
+  {
+    "id": "sp12",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Spieler einer Mannschaft stehen beim Volleyball auf dem Feld?",
+    "options": [
+      "Fünf",
+      "Sechs",
+      "Sieben",
+      "Elf"
+    ],
+    "correct_index": 1,
+    "explanation": "Sechs Spieler je Seite; nach jedem zurückgewonnenen Aufschlag rücken sie eine Position weiter.",
+    "difficulty": 1,
+    "tags": [
+      "Volleyball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Volleyball",
+    "source_url": "https://de.wikipedia.org/wiki/Volleyball",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many players of one team are on the court in volleyball?",
+        "options": [
+          "Five",
+          "Six",
+          "Seven",
+          "Eleven"
+        ],
+        "explanation": "Six players per side; each time they win back the serve they rotate one position."
+      }
+    }
+  },
+  {
+    "id": "sp13",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wer lief 2009 in Berlin den 100-Meter-Weltrekord von 9,58 Sekunden?",
+    "options": [
+      "Carl Lewis",
+      "Tyson Gay",
+      "Usain Bolt",
+      "Asafa Powell"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Jamaikaner stellte den Rekord bei der Weltmeisterschaft im Berliner Olympiastadion auf.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 100-Meter-Lauf",
+    "source_url": "https://de.wikipedia.org/wiki/100-Meter-Lauf",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who ran the 100 metres world record of 9.58 seconds in Berlin in 2009?",
+        "options": [
+          "Carl Lewis",
+          "Tyson Gay",
+          "Usain Bolt",
+          "Asafa Powell"
+        ],
+        "explanation": "The Jamaican set the record at the World Championships in Berlin's Olympic Stadium."
+      }
+    }
+  },
+  {
+    "id": "sp14",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche Farbe hat das Trikot des Gesamtführenden bei der Tour de France?",
+    "options": [
+      "Grün",
+      "Rot",
+      "Weiß",
+      "Gelb"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Gelbe Trikot gibt es seit 1919. Grün trägt der Punktbeste, das gepunktete Trikot der beste Bergfahrer.",
+    "difficulty": 1,
+    "tags": [
+      "Radsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gelbes Trikot",
+    "source_url": "https://de.wikipedia.org/wiki/Gelbes_Trikot",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour is the jersey of the overall leader in the Tour de France?",
+        "options": [
+          "Green",
+          "Red",
+          "White",
+          "Yellow"
+        ],
+        "explanation": "The yellow jersey has existed since 1919. Green is worn by the points leader, the polka-dot jersey by the best climber."
+      }
+    }
+  },
+  {
+    "id": "sp15",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Löcher hat eine volle Golfrunde?",
+    "options": [
+      "18",
+      "9",
+      "12",
+      "24"
+    ],
+    "correct_index": 0,
+    "explanation": "Achtzehn Bahnen – diese Zahl geht auf den Platz im schottischen St Andrews zurück.",
+    "difficulty": 1,
+    "tags": [
+      "Golf"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Golf (Sport)",
+    "source_url": "https://de.wikipedia.org/wiki/Golf_(Sport)",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many holes does a full round of golf have?",
+        "options": [
+          "18",
+          "9",
+          "12",
+          "24"
+        ],
+        "explanation": "Eighteen holes – the number goes back to the course at St Andrews in Scotland."
+      }
+    }
+  },
+  {
+    "id": "sp16",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie lange dauert ein Handballspiel bei Erwachsenen?",
+    "options": [
+      "Zweimal 20 Minuten",
+      "Zweimal 30 Minuten",
+      "Zweimal 45 Minuten",
+      "Viermal 12 Minuten"
+    ],
+    "correct_index": 1,
+    "explanation": "Zwei Halbzeiten von je 30 Minuten, dazwischen eine Pause.",
+    "difficulty": 1,
+    "tags": [
+      "Handball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Handball",
+    "source_url": "https://de.wikipedia.org/wiki/Handball",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does a handball match last for adults?",
+        "options": [
+          "Two halves of 20 minutes",
+          "Two halves of 30 minutes",
+          "Two halves of 45 minutes",
+          "Four quarters of 12 minutes"
+        ],
+        "explanation": "Two halves of 30 minutes each, with a break in between."
+      }
+    }
+  },
+  {
+    "id": "sp17",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Warum atmet man bei Anstrengung schneller?",
+    "options": [
+      "Weil die Lunge größer wird",
+      "Weil das Herz Luft braucht",
+      "Weil die Muskeln mehr Sauerstoff brauchen und mehr Kohlendioxid abgeben",
+      "Weil der Körper Wasser verliert"
+    ],
+    "correct_index": 2,
+    "explanation": "Arbeitende Muskeln verbrauchen mehr Sauerstoff und erzeugen mehr Kohlendioxid. Vor allem das Kohlendioxid im Blut treibt die Atmung an.",
+    "difficulty": 2,
+    "tags": [
+      "Körper",
+      "Training"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Atmung",
+    "source_url": "https://de.wikipedia.org/wiki/Atmung",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do we breathe faster during exertion?",
+        "options": [
+          "Because the lungs get bigger",
+          "Because the heart needs air",
+          "Because the muscles need more oxygen and give off more carbon dioxide",
+          "Because the body loses water"
+        ],
+        "explanation": "Working muscles use more oxygen and produce more carbon dioxide. Above all, the carbon dioxide in the blood drives breathing."
+      }
+    }
+  },
+  {
+    "id": "sp18",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was passiert bei regelmäßigem Ausdauertraining mit dem Ruhepuls?",
+    "options": [
+      "Er steigt",
+      "Er bleibt gleich",
+      "Er schwankt stärker",
+      "Er sinkt"
+    ],
+    "correct_index": 3,
+    "explanation": "Das trainierte Herz pumpt mit jedem Schlag mehr Blut und muss in Ruhe seltener schlagen.",
+    "difficulty": 2,
+    "tags": [
+      "Körper",
+      "Training"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Herzfrequenz",
+    "source_url": "https://de.wikipedia.org/wiki/Herzfrequenz",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens to the resting heart rate with regular endurance training?",
+        "options": [
+          "It rises",
+          "It stays the same",
+          "It fluctuates more",
+          "It falls"
+        ],
+        "explanation": "The trained heart pumps more blood with every beat and has to beat less often at rest."
+      }
+    }
+  },
+  {
+    "id": "sp19",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welcher Stoff ist der schnell verfügbare Energiespeicher in Muskeln und Leber?",
+    "options": [
+      "Glykogen",
+      "Eiweiß",
+      "Kalzium",
+      "Milchsäure"
+    ],
+    "correct_index": 0,
+    "explanation": "Glykogen ist die Speicherform von Traubenzucker. Sind die Speicher leer, lässt die Leistung deutlich nach.",
+    "difficulty": 3,
+    "tags": [
+      "Körper",
+      "Ernährung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glykogen",
+    "source_url": "https://de.wikipedia.org/wiki/Glykogen",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which substance is the quickly available energy store in muscles and liver?",
+        "options": [
+          "Glycogen",
+          "Protein",
+          "Calcium",
+          "Lactic acid"
+        ],
+        "explanation": "Glycogen is the storage form of glucose. When the stores are empty, performance drops markedly."
+      }
+    }
+  },
+  {
+    "id": "sp20",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie oft finden Olympische Sommerspiele statt?",
+    "options": [
+      "Jedes Jahr",
+      "Alle vier Jahre",
+      "Alle zwei Jahre",
+      "Alle fünf Jahre"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Zeitraum von vier Jahren heißt Olympiade. Winter- und Sommerspiele wechseln sich seit 1994 im Zweijahrestakt ab.",
+    "difficulty": 2,
+    "tags": [
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Spiele",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Spiele",
+    "created_at": "2026-09-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How often are the Summer Olympic Games held?",
+        "options": [
+          "Every year",
+          "Every four years",
+          "Every two years",
+          "Every five years"
+        ],
+        "explanation": "The period of four years is called an Olympiad. Since 1994 Winter and Summer Games have alternated every two years."
+      }
+    }
+  },
+  {
+    "id": "spf1",
+    "kind": "fact",
+    "category_id": "sport",
+    "question": "Ein Fußballtor ist 7,32 Meter breit.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Und 2,44 Meter hoch – acht Yards mal acht Fuß, so legten es die englischen Regeln fest.",
+    "difficulty": 1,
+    "tags": [
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tor (Fußball)",
+    "source_url": "https://de.wikipedia.org/wiki/Tor_(Fußball)",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A football goal is 7.32 metres wide.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "And 2.44 metres high – eight yards by eight feet, as the English rules laid down."
+      }
+    }
+  },
+  {
+    "id": "spf2",
+    "kind": "fact",
+    "category_id": "sport",
+    "question": "Tischtennis ist seit 1988 olympisch.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei den Spielen in Seoul wurden zum ersten Mal olympische Medaillen im Tischtennis vergeben.",
+    "difficulty": 1,
+    "tags": [
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tischtennis",
+    "source_url": "https://de.wikipedia.org/wiki/Tischtennis",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Table tennis has been an Olympic sport since 1988.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Olympic medals in table tennis were awarded for the first time at the Games in Seoul."
+      }
+    }
+  },
+  {
+    "id": "spf3",
+    "kind": "fact",
+    "category_id": "sport",
+    "question": "Muskeln wachsen während des Trainings selbst.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Training setzt nur den Reiz. Aufgebaut wird in der Erholung danach – deshalb gehören Pausen zum Trainingsplan.",
+    "difficulty": 1,
+    "tags": [
+      "Körper",
+      "Training"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Superkompensation",
+    "source_url": "https://de.wikipedia.org/wiki/Superkompensation",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Muscles grow during the workout itself.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Training only provides the stimulus. The building happens during recovery afterwards – which is why rest is part of a training plan."
+      }
+    }
+  },
+  {
+    "id": "spf4",
+    "kind": "fact",
+    "category_id": "sport",
+    "question": "Der Marathon ist nach einem Ort in Griechenland benannt.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Legende nach lief ein Bote vom Schlachtfeld bei Marathon nach Athen, um den Sieg zu melden.",
+    "difficulty": 1,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marathonlauf",
+    "source_url": "https://de.wikipedia.org/wiki/Marathonlauf",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The marathon is named after a place in Greece.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "According to legend a messenger ran from the battlefield at Marathon to Athens to report the victory."
+      }
+    }
   }
 ]

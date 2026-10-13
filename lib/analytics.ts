@@ -3,8 +3,8 @@
 // kind of the content. Nothing else leaves the device. Table and rules: public.events.
 import { supabase } from "./supabase";
 
-export type EventName = "session_start" | "clip_start" | "clip_complete" | "animation_complete" | "insight_complete" | "book_open" | "content_save" | "recall_known" | "recall_again" | "clip_quiz_retry" | "animation_predict";
-type Kind = "item" | "clip" | "animation" | "insight" | "book";
+export type EventName = "session_start" | "clip_start" | "clip_complete" | "animation_complete" | "insight_complete" | "book_open" | "content_save" | "recall_known" | "recall_again" | "clip_quiz_retry" | "animation_predict" | "visual_predict" | "visual_explore";
+type Kind = "item" | "clip" | "animation" | "insight" | "book" | "visual";
 
 let enabled = false;
 let queue: { name: EventName; content_id: string | null; content_kind: Kind | null }[] = [];

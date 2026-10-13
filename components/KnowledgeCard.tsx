@@ -41,7 +41,7 @@ interface Props {
    * The question belongs to a clip: a wrong first try gets a hint and a second attempt instead of
    * the solution, and the feedback points back to the clip. note = what the clip says; rewatch = back to the clip.
    */
-  clip?: { note: string; rewatch?: () => void };
+  clip?: { note: string; rewatch?: () => void; done?: (correct: boolean) => void }; // done: the question has its final answer
 }
 
 export default function KnowledgeCard({ item, reason, onAnswered, context = "feed", clip }: Props) {
@@ -80,6 +80,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
     if (!res) return setPicked(null); // not saved → let the user try again
     setResult(res);
     onAnswered?.(res.correct);
+    clip?.done?.(res.correct);
   };
 
   const respond = async (response: FormatResponse) => {

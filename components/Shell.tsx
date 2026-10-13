@@ -16,7 +16,7 @@ import { Button, Skeleton, Wordmark } from "./ui";
 // their routes still exist, the navigation marks "Entdecken" while one of them is open.
 const NAV = [
   { href: "/", label: "Für dich", Icon: House, also: [] as string[] },
-  { href: "/explore/", label: "Entdecken", Icon: Compass, also: ["/clips", "/quiz", "/explain", "/social"] },
+  { href: "/explore/", label: "Entdecken", Icon: Compass, also: ["/clips", "/quiz", "/explain", "/social", "/lab"] },
   { href: "/library/", label: "Bibliothek", Icon: Library, also: ["/books"] },
   { href: "/profile/", label: "Profil", Icon: User, also: ["/admin", "/legal"] },
 ];
