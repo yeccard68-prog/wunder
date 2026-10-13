@@ -220,7 +220,10 @@ export default function ProfilePage() {
                 </div>
               </div>
             ) : (
-              <button onClick={() => setConfirm(true)} className="press h-10 text-sm font-semibold text-bad">{t("Konto und Daten löschen")}</button>
+              <>
+                <Link href="/legal/" className="press flex h-10 items-center text-sm font-semibold text-muted underline">{t("Quellen, Lizenzen & Daten")}</Link>
+                <button onClick={() => setConfirm(true)} className="press h-10 text-sm font-semibold text-bad">{t("Konto und Daten löschen")}</button>
+              </>
             )}
           </div>
         </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, Check, ExternalLink, Play, Target } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import KnowledgeCard from "@/components/KnowledgeCard";
@@ -17,6 +17,11 @@ export default function ExplainPage() {
   const [openId, setOpenId] = useState<string | null>(null);
   const [seen, setSeen] = useState(false);
   const current = animations.find((a) => a.id === openId);
+  // an animation can be opened directly: /explain/?a=a-dna (links from books)
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get("a");
+    if (id) setOpenId(id);
+  }, []);
 
   if (current) {
     const cat = categoryById(current.categoryId);

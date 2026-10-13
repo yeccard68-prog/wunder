@@ -7,6 +7,7 @@ import { demoContent, forAudience, type Clip, type Content } from "./content";
 import { detectLocale, translate } from "./i18n";
 import { XP, applyActivity, dueAt, isDue, levelInfo, newAchievements, today, weekKey, BOX_MS } from "./gamification";
 import * as api from "./supabase";
+import { mergeBookState } from "./books";
 
 // Two separate worlds: "demo" (no backend, local sample data) and "live" (Supabase).
 // They never share storage, and live mode never falls back to bundled content.
@@ -134,6 +135,8 @@ interface Store {
   /** Resolves with the result, or null if the answer could not be saved. */
   /** `response` is given for order / estimate / blank questions; `selected` is ignored then. */
   answer: (item: Item, selected: number, context?: AnswerContext, response?: FormatResponse) => Promise<AnswerResult | null>;
+  /** Clip questions: judges a first try without revealing the solution. null = could not be checked. */
+  firstTry: (item: Item, selected: number) => Promise<boolean | null>;
   toggle: (list: "likes" | "saves", item: { id: string }) => void;
   hide: (item: { id: string }, report?: boolean) => void;
   trackClip: (id: string, event: "play" | "complete") => void;
@@ -257,6 +260,15 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const mine = cached?.userId === user.id ? { ...fresh, ...cached.state, settings: { ...fresh.settings, ...cached.state.settings } } : { ...fresh, settings: { ...fresh.settings, locale: detectLocale() } };
       const server = await api.fetchMyState(today(), mine.settings.locale);
       commit(() => fromServer(mine, server), { silent: true });
+      // book learning state: join what this device knows with what the account has stored
+      try {
+        const stored = await api.fetchBookState(user.id);
+        const merged = mergeBookState(ref.current.books, stored);
+        commit((s) => ({ ...s, books: merged }), { silent: true });
+        if (JSON.stringify(merged) !== JSON.stringify(mergeBookState(stored, null))) await api.saveBookState(user.id, merged);
+      } catch (e) {
+        console.warn("Sync fehlgeschlagen:", message(e));
+      }
     } catch (e) {
       // Known user on this device and server unreachable → continue with the cached copy, clearly marked.
       if (!cached || !/verbindung/i.test(message(e))) {
@@ -311,6 +323,15 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const isClip = (id: string) => clipsRef.current.some((c) => c.id === id);
 
   // ---------- answering ----------
+  const firstTry = useCallback(async (item: Item, selected: number): Promise<boolean | null> => {
+    if (MODE !== "live") return item.correctIndex == null ? null : selected === item.correctIndex;
+    try {
+      return await api.checkFirstAttempt(item.id, selected);
+    } catch {
+      return null; // offline or not eligible → the try simply counts as the answer
+    }
+  }, []);
+
   const answer = useCallback(
     async (item: Item, selected: number, context: AnswerContext = "feed", response?: FormatResponse): Promise<AnswerResult | null> => {
       const at = new Date().toISOString();
@@ -435,10 +456,19 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   );
 
   // ---------- profile & account ----------
+  const bookTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const update = useCallback(
     (patch: Partial<UserState>) => {
       const before = ref.current.settings.locale;
       const next = commit((s) => ({ ...s, ...patch }));
+      if ("books" in patch && MODE === "live" && authRef.current.userId) {
+        // several taps in a row are written once
+        if (bookTimer.current) clearTimeout(bookTimer.current);
+        bookTimer.current = setTimeout(() => {
+          const uid = authRef.current.userId;
+          if (uid) api.saveBookState(uid, ref.current.books).catch((e) => console.warn("Sync fehlgeschlagen:", message(e)));
+        }, 1200);
+      }
       if ("username" in patch || "interests" in patch || "onboarded" in patch || "goalMinutes" in patch || "motivation" in patch || "settings" in patch || "ageBand" in patch) {
         const uid = authRef.current.userId;
         if (MODE === "live" && uid)
@@ -503,7 +533,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   return (
     <Ctx.Provider
-      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, toggle, hide, trackClip, addComment, toggleFollow, block, completeDaily, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset }}
+      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, firstTry, toggle, hide, trackClip, addComment, toggleFollow, block, completeDaily, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset }}
     >
       {children}
     </Ctx.Provider>

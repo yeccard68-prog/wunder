@@ -1,12 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, BookOpen, Check, Clock, ExternalLink, MessageCircleQuestion, Scale, Search, X } from "lucide-react";
+import Link from "next/link";
+import { ArrowLeft, BookOpen, Brain, Check, Clock, ExternalLink, MessageCircleQuestion, Scale, Search, Shapes, Target, X } from "lucide-react";
 import InsightCard, { BookCover, useBookState } from "@/components/books/InsightCard";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Bar, Chip, Empty } from "@/components/ui";
 import { track } from "@/lib/analytics";
-import { BOOK_CATEGORIES, bookProgress, booksFor, type Book } from "@/lib/books";
+import { animationsFor } from "@/lib/animations";
+import { BOOK_CATEGORIES, bookProgress, booksFor, dueIdeas, recallStats, type Book } from "@/lib/books";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
 
@@ -41,6 +43,11 @@ function Detail({ book, books, open, back }: { book: Book; books: Book[]; open: 
   const quiz = book.quizId ? items.find((i) => i.id === book.quizId) : undefined;
   const done = bookProgress(book, state);
   const related = book.related.map((id) => books.find((b) => b.id === id)).filter((b): b is Book => !!b);
+  // matching content elsewhere in the app – only what this learner may see
+  const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
+  const linkedAnimations = book.links.filter((l) => l.kind === "animation").map((l) => animations.find((a) => a.id === l.id)).filter((a) => !!a);
+  const linkedQuestions = book.links.filter((l) => l.kind === "question").map((l) => items.find((i) => i.id === l.id)).filter((i) => !!i);
+  const [question, setQuestion] = useState(0);
   return (
     <div className="space-y-5" data-testid="book-detail">
       <button onClick={back} className="press -ml-1 flex items-center gap-1.5 text-sm font-semibold text-muted">
@@ -58,6 +65,10 @@ function Detail({ book, books, open, back }: { book: Book; books: Book[]; open: 
         </div>
       </header>
 
+      <p className="flex gap-2.5 rounded-2xl bg-raised px-4 py-3 text-sm leading-relaxed" data-testid="book-goal">
+        <Target size={17} className="mt-0.5 shrink-0" style={{ color }} />
+        <span><span className="block text-xs font-bold uppercase tracking-wider text-muted">{t("Lernziel")}</span>{book.goal}</span>
+      </p>
       <section className="card p-5">
         <p className="mb-1.5 text-xs font-bold uppercase tracking-wider text-muted">{t("Kernthese")}</p>
         <p className="font-display text-lg leading-snug">{book.thesis}</p>
@@ -82,6 +93,29 @@ function Detail({ book, books, open, back }: { book: Book; books: Book[]; open: 
         <section>
           <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">{t("Wissens-Check")}</p>
           <KnowledgeCard item={quiz} />
+        </section>
+      )}
+
+      {(linkedAnimations.length > 0 || linkedQuestions.length > 0) && (
+        <section className="space-y-3" data-testid="book-links">
+          <p className="text-xs font-semibold uppercase tracking-wider text-muted">{t("Dazu in der App")}</p>
+          {linkedAnimations.map((a) => (
+            <Link key={a.id} href={`/explain/?a=${a.id}`} className="press card flex items-center gap-3 p-4">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-raised"><Shapes size={18} /></span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-xs font-semibold uppercase tracking-wider text-muted">{t("Animation")}</span>
+                <span className="block font-semibold leading-snug">{a.title}</span>
+              </span>
+            </Link>
+          ))}
+          {linkedQuestions.length > 0 && (
+            <div>
+              <KnowledgeCard key={linkedQuestions[question % linkedQuestions.length].id} item={linkedQuestions[question % linkedQuestions.length]} />
+              {linkedQuestions.length > 1 && (
+                <button onClick={() => setQuestion((n) => n + 1)} className="press mt-2 text-sm font-semibold text-muted">{t("Andere Frage zum Thema")}</button>
+              )}
+            </div>
+          )}
         </section>
       )}
 
@@ -144,13 +178,16 @@ export default function BooksPage() {
     return n > 0 && n < b.ideas.length;
   });
   const savedIdeas = books.flatMap((book) => book.ideas.filter((i) => saved.includes(i.id)).map((idea) => ({ book, idea })));
+  const all = books.flatMap((book) => book.ideas.map((idea) => ({ book, idea })));
+  const due = dueIdeas(state).map((id) => all.find((x) => x.idea.id === id)).filter((x) => !!x).slice(0, 5);
+  const stats = recallStats(state);
   const browsing = q.length < 2 && !category;
 
   return (
     <div className="space-y-5">
       <header>
         <h1 className="font-display text-3xl font-semibold tracking-tight">{t("Bücher")}</h1>
-        <p className="text-sm text-muted">{t("Die wichtigsten Ideen einflussreicher Sachbücher – je Idee etwa eine Minute.")}</p>
+        <p className="text-sm text-muted">{t("Die wichtigsten Ideen einflussreicher Sachbücher – als kurze Lektionen mit Abruf und Wiederholung.")}</p>
       </header>
       <label className="flex h-12 items-center gap-2.5 rounded-2xl bg-surface px-4 shadow-sm ring-1 ring-line focus-within:ring-2 focus-within:ring-ink">
         <Search size={18} className="text-muted" />
@@ -169,6 +206,19 @@ export default function BooksPage() {
         ))}
       </div>
 
+      {browsing && stats.recalled > 0 && (
+        <section className="card grid grid-cols-3 gap-2 p-4 text-center" data-testid="recall-stats">
+          <p><span className="tnum block text-xl font-bold">{stats.recalled}</span><span className="text-xs text-muted">{t("Ideen abgerufen")}</span></p>
+          <p><span className="tnum block text-xl font-bold text-good">{stats.retained}</span><span className="text-xs text-muted">{t("nach Pause gewusst")}</span></p>
+          <p><span className="tnum block text-xl font-bold">{stats.shaky}</span><span className="text-xs text-muted">{t("noch unsicher")}</span></p>
+        </section>
+      )}
+      {browsing && due.length > 0 && (
+        <section className="space-y-3" data-testid="recall-due">
+          <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-muted"><Brain size={14} /> {t("Heute wiederholen")} · {stats.due}</p>
+          {due.map(({ book, idea }) => <InsightCard key={idea.id} book={book} idea={idea} standalone />)}
+        </section>
+      )}
       {browsing && started.length > 0 && (
         <section className="space-y-3">
           <p className="text-xs font-semibold uppercase tracking-wider text-muted">{t("Weiterlesen")}</p>

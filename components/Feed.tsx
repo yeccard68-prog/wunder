@@ -9,7 +9,7 @@ import { Sheet } from "@/components/ui";
 import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
 import { categoryById } from "@/lib/categories";
-import type { Clip } from "@/lib/content";
+import { captionAt, type Clip } from "@/lib/content";
 import { entryId, type FeedEntry } from "@/lib/feed";
 import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
@@ -65,9 +65,14 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
   const { ref, active, near } = useOnScreen(0.6);
   const autoplay = useAutoplay();
   const [quiz, setQuiz] = useState(false);
+  const [time, setTime] = useState(0);
+  const [watchedNow, setWatchedNow] = useState(false);
+  // the question is offered once the clip has been seen to the end (or cannot play by itself)
+  const ready = watchedNow || !autoplay || (state.clipStats[clip.id]?.completed ?? 0) > 0;
+  const caption = state.settings.captions ? captionAt(clip, time) : undefined;
   const answered = !!clip.quiz && !!state.answers[clip.quiz.id];
   const saved = state.saves.includes(clip.id);
-  const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onComplete={() => { trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
+  const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onTime={setTime} onComplete={() => { setWatchedNow(true); trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
   const quizLabel = answered ? t("Frage zum Clip ansehen") : t("Frage zum Clip");
 
   if (fill)
@@ -76,13 +81,14 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
         <div ref={ref} className="absolute inset-0">{player}</div>
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 space-y-1.5 p-5">
+          {caption && <p className="mb-2 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">{caption}</p>}
           <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} light />
           <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{clip.title}</h2>
           <p className="text-[15px] leading-snug text-white/90">{clip.takeaway}</p>
           <p className="text-[11px] text-white/60">{clip.creator}{clip.license ? ` · ${clip.license}` : ""}</p>
           <div className="pointer-events-auto flex items-center gap-2 pt-2">
             {clip.quiz && (
-              <button onClick={() => setQuiz(true)} className="press flex h-11 items-center gap-2 rounded-full bg-white px-4 text-sm font-semibold text-[#11100e]">
+              <button onClick={() => setQuiz(true)} data-ready={ready} className={`press flex h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${ready ? "pop bg-white text-[#11100e]" : "bg-white/15 text-white backdrop-blur"}`}>
                 <HelpCircle size={17} /> {quizLabel}
               </button>
             )}
@@ -92,7 +98,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
           </div>
         </div>
         <Sheet open={quiz} onClose={() => setQuiz(false)} title={t("Frage zum Clip")}>
-          {clip.quiz && <KnowledgeCard item={clip.quiz} />}
+          {clip.quiz && <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway, rewatch: () => setQuiz(false) }} />}
         </Sheet>
       </article>
     );
@@ -115,7 +121,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
       </div>
       {clip.quiz && quiz && (
         <div className="border-t border-line p-3">
-          <KnowledgeCard item={clip.quiz} />
+          <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway }} />
         </div>
       )}
     </article>
@@ -126,7 +132,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
 export function AnimationCard({ animation, compact }: { animation: Animation; compact?: boolean }) {
   const { items, state } = useStore();
   const t = useT();
-  const { ref, active } = useOnScreen(0.5);
+  const { ref, active, near } = useOnScreen(0.5);
   const [seen, setSeen] = useState(false);
   const quiz = animation.quizId ? items.find((i) => i.id === animation.quizId) : undefined;
   return (
@@ -134,7 +140,7 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
       <Kicker categoryId={animation.categoryId} icon={<Shapes size={14} />} label={t("So funktioniert’s")} />
       <h2 className="font-display text-xl font-semibold leading-snug">{animation.title}</h2>
       <div ref={ref}>
-        <AnimationPlayer animation={animation} active={active} compact={compact} onFinished={() => { setSeen(true); track("animation_complete", animation.id, "animation"); }} />
+        <AnimationPlayer animation={animation} active={active} mounted={near} compact={compact} onFinished={() => { setSeen(true); track("animation_complete", animation.id, "animation"); }} />
       </div>
       {quiz && (seen || !!state.answers[quiz.id]) && (
         <div className="-mx-2 border-t border-line pt-3">

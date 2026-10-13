@@ -231,7 +231,20 @@ test("books: shelf, search, a book with an interactive idea, progress, and ideas
   // decide first, then the explanation appears
   await detail.getByRole("button", { name: /Der für 55/ }).click();
   await expect(detail.getByRole("status").filter({ hasText: "Rechnerisch richtig" })).toBeVisible();
-  await detail.getByRole("button", { name: "Verstanden" }).first().click();
+  // a lesson: the answer stays hidden until asked for; rating it counts as learned and unlocks transfer and takeaway
+  const lesson = detail.getByTestId("insight-card").nth(2);
+  await expect(detail.getByTestId("book-goal")).toContainText("Du kannst");
+  await expect(lesson.getByText("Etwa doppelt so schwer")).toHaveCount(0);
+  await expect(lesson.getByTestId("takeaway")).toHaveCount(0);
+  await lesson.getByRole("button", { name: "Antwort zeigen" }).click();
+  await expect(lesson.getByText(/Etwa doppelt so schwer/)).toBeVisible();
+  await lesson.getByRole("button", { name: "Gewusst" }).click();
+  await expect(lesson.getByTestId("takeaway")).toContainText("Wir fürchten Verluste");
+  await lesson.getByTestId("transfer").getByRole("button", { name: /Würde ich sie heute/ }).click();
+  await expect(lesson.getByText("Dazu rät die Idee")).toBeVisible();
+  await lesson.getByTestId("evidence").click();
+  await expect(lesson.getByText(/Durch viele Untersuchungen gestützt/)).toBeVisible();
+  await expect(detail.getByTestId("book-links")).toBeVisible();
   await expect(detail.getByText("1 von 3 Ideen gelernt").first()).toBeVisible();
   await expect(detail.getByText("Wissens-Check")).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
@@ -239,6 +252,7 @@ test("books: shelf, search, a book with an interactive idea, progress, and ideas
   await page.getByText("Alle Bücher").first().click();
   await page.getByRole("searchbox").fill("");
   await expect(page.getByText("Weiterlesen")).toBeVisible(); // continue where you left off
+  await expect(page.getByTestId("recall-stats")).toContainText("Ideen abgerufen");
   await page.reload();
   await expect(page.getByText("Weiterlesen")).toBeVisible(); // progress survives a reload
 
@@ -285,4 +299,36 @@ test("new question formats: put in order, estimate with a slider, fill the gap",
   await expect(blank.getByText(/Nicht ganz/)).toBeVisible();
   await expect(blank.getByText("Paris", { exact: true }).first()).toBeVisible(); // the solution is shown
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});
+
+test("a question about a clip: a wrong first try gets a hint and a second attempt, not the solution", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explore/");
+  await page.getByRole("searchbox").fill("Sonnenfinsternis");
+  const clip = page.getByTestId("feed-clip").first();
+  await clip.getByRole("button", { name: "Frage zum Clip" }).click();
+  await clip.getByRole("button", { name: /Die Erde/ }).click();
+  await expect(clip.getByTestId("clip-hint")).toContainText("zweiten Versuch");
+  await expect(clip.getByRole("button", { name: /Die Erde/ })).toBeDisabled();
+  await expect(clip.getByText(/Richtig|Nicht ganz/)).toHaveCount(0); // nothing is given away yet
+  await clip.getByRole("button", { name: /Der Mond/ }).click();
+  await expect(clip.getByText("Richtig – im zweiten Anlauf!")).toBeVisible();
+  await expect(clip.getByText("Im Clip:")).toBeVisible();
+  await expect(clip.getByTestId("clip-hint")).toHaveCount(0);
+});
+
+test("an animation stops once to ask what happens next, then shows it", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explain/?a=a-zahnraeder"); // opened directly, as from a book
+  const player = page.getByTestId("animation-player");
+  await expect(player).toHaveAttribute("data-asking", "true", { timeout: 15_000 });
+  await expect(player).toHaveAttribute("data-playing", "false");
+  const predict = page.getByTestId("predict");
+  await expect(predict).toContainText("12 Zähne");
+  await predict.getByRole("button", { name: "Zwei Umdrehungen" }).click();
+  await expect(predict.getByRole("status")).toContainText("Nicht ganz");
+  await predict.getByRole("button", { name: "Weiter" }).click();
+  await expect(player).toHaveAttribute("data-asking", "false");
+  await expect(player).toHaveAttribute("data-playing", "true");
+  await expect(player).toHaveAttribute("data-step", "1");
 });

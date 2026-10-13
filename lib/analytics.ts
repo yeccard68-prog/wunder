@@ -3,7 +3,7 @@
 // kind of the content. Nothing else leaves the device. Table and rules: public.events.
 import { supabase } from "./supabase";
 
-export type EventName = "session_start" | "clip_start" | "clip_complete" | "animation_complete" | "insight_complete" | "book_open" | "content_save";
+export type EventName = "session_start" | "clip_start" | "clip_complete" | "animation_complete" | "insight_complete" | "book_open" | "content_save" | "recall_known" | "recall_again" | "clip_quiz_retry" | "animation_predict";
 type Kind = "item" | "clip" | "animation" | "insight" | "book";
 
 let enabled = false;

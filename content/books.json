@@ -11,10 +11,24 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst schnelles und langsames Denken unterscheiden und zwei typische Fehler des schnellen Denkens erkennen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "s34"
+      },
+      {
+        "kind": "question",
+        "id": "mm1"
+      }
+    ],
     "thesis": "Kahneman beschreibt zwei Arten zu denken: eine schnelle, mühelose und eine langsame, anstrengende. Die schnelle trifft die meisten Entscheidungen – und macht dabei vorhersagbare Fehler.",
     "ideas": [
       {
         "id": "b-kahneman-1",
+        "format": "compare",
+        "evidence": "thesis",
+        "hook": "Was ist 2 + 2? Und was ist 17 × 24? Warum fühlt sich das so verschieden an?",
         "title": "Zwei Systeme",
         "text": "„System 1“ arbeitet automatisch und sofort: Gesichter erkennen, 2 + 2 rechnen, einem lauten Geräusch ausweichen. „System 2“ ist das bewusste Nachdenken, das wir für 17 × 24 brauchen. System 2 hält sich für den Chef, übernimmt aber meist einfach, was System 1 vorschlägt.",
         "example": "Ein Schläger und ein Ball kosten zusammen 1,10 €. Der Schläger kostet 1 € mehr als der Ball. Die schnelle Antwort „10 Cent“ ist falsch – richtig sind 5 Cent.",
@@ -34,10 +48,19 @@
             "kann rechnen und prüfen",
             "wird schnell müde"
           ]
-        }
+        },
+        "recall": {
+          "question": "Welches System ist schnell und mühelos – und worin liegt sein Nachteil?",
+          "answer": "System 1. Es arbeitet automatisch, macht dabei aber vorhersagbare Fehler; System 2 prüft nur, wenn wir es einschalten."
+        },
+        "transfer": null,
+        "takeaway": "Dein schnelles Denken antwortet zuerst – ob es stimmt, prüft nur das langsame."
       },
       {
         "id": "b-kahneman-2",
+        "format": "spot",
+        "evidence": "evidence",
+        "hook": "Kann eine völlig zufällige Zahl beeinflussen, was du für einen Pullover zahlen würdest?",
         "title": "Der Anker",
         "text": "Eine Zahl, die wir kurz vorher gesehen haben, zieht unsere Schätzung zu sich hin – selbst wenn sie mit der Frage nichts zu tun hat. Kahneman nennt das den Ankereffekt.",
         "example": "Wer in einer Verhandlung die erste Zahl nennt, setzt den Anker. Auch „statt 199 € nur 99 €“ funktioniert so.",
@@ -55,14 +78,42 @@
             ]
           ],
           "insight": "Frag dich bei jedem Angebot: Was wäre mir das wert, wenn ich die erste Zahl nie gesehen hätte?"
-        }
+        },
+        "recall": {
+          "question": "Was ist der Ankereffekt?",
+          "answer": "Eine zuvor gesehene Zahl zieht unsere Schätzung zu sich hin – auch wenn sie mit der Frage nichts zu tun hat."
+        },
+        "transfer": null,
+        "takeaway": "Die erste Zahl im Raum bestimmt, was danach günstig oder teuer wirkt."
       },
       {
         "id": "b-kahneman-3",
+        "format": "apply",
+        "evidence": "evidence",
+        "hook": "Würdest du eine Münze werfen: Kopf, du gewinnst 150 €, Zahl, du verlierst 100 €?",
         "title": "Verluste wiegen schwerer",
         "text": "Ein Verlust schmerzt nach Kahneman und Tversky etwa doppelt so stark, wie ein gleich großer Gewinn freut. Deshalb meiden Menschen faire Wetten und halten an Dingen fest, die sie einmal besitzen.",
         "example": "Viele lehnen einen Münzwurf ab, bei dem sie 100 € verlieren oder 150 € gewinnen können – obwohl er sich im Schnitt lohnt.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Wie stark wiegt ein Verlust im Vergleich zu einem gleich großen Gewinn?",
+          "answer": "Etwa doppelt so schwer. Deshalb lehnen viele Menschen auch Wetten ab, die sich im Schnitt lohnen."
+        },
+        "transfer": {
+          "situation": "Du hast vor zwei Jahren eine Aktie für 1.000 € gekauft, heute ist sie 600 € wert. Du glaubst nicht mehr an das Unternehmen, magst aber nicht verkaufen.",
+          "options": [
+            [
+              "Halten, bis sie wieder bei 1.000 € steht",
+              "So denken viele – aus Verlustangst. Der Kaufpreis ist aber ein Anker: Die Aktie „weiß“ nicht, was du bezahlt hast."
+            ],
+            [
+              "Fragen: Würde ich sie heute für 600 € kaufen?",
+              "Genau diese Frage nimmt dem Verlust seine Macht. Lautet die Antwort Nein, spricht nichts fürs Halten."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Wir fürchten Verluste stärker, als wir Gewinne schätzen."
       }
     ],
     "limits": "Einige im Buch zitierte Studien, vor allem zum sogenannten Priming, ließen sich später nicht bestätigen; Kahneman hat das selbst eingeräumt. Die Einteilung in zwei Systeme ist ein Bild zum Verstehen, keine Beschreibung zweier Hirnregionen.",
@@ -79,16 +130,18 @@
         "url": "https://de.wikipedia.org/wiki/Schnelles_Denken,_langsames_Denken"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T12:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can tell fast from slow thinking and recognise two typical errors of fast thinking.",
         "thesis": "Kahneman describes two ways of thinking: one fast and effortless, one slow and demanding. The fast one makes most decisions – and makes predictable mistakes in the process.",
         "ideas": [
           {
+            "hook": "What is 2 + 2? And what is 17 × 24? Why do they feel so different?",
             "title": "Two systems",
             "text": "“System 1” works automatically and instantly: recognising faces, adding 2 + 2, dodging a loud noise. “System 2” is the deliberate thinking we need for 17 × 24. System 2 believes it is in charge but mostly just accepts what System 1 suggests.",
             "example": "A bat and a ball cost 1.10 together. The bat costs 1.00 more than the ball. The quick answer “10 cents” is wrong – the right answer is 5 cents.",
@@ -108,9 +161,16 @@
                 "can calculate and check",
                 "tires quickly"
               ]
-            }
+            },
+            "recall": {
+              "question": "Which system is fast and effortless – and what is its drawback?",
+              "answer": "System 1. It works automatically but makes predictable errors; System 2 only checks when we switch it on."
+            },
+            "transfer": null,
+            "takeaway": "Your fast thinking answers first – only the slow one checks whether it is right."
           },
           {
+            "hook": "Can a completely random number influence what you would pay for a jumper?",
             "title": "The anchor",
             "text": "A number we have just seen pulls our estimate towards it – even when it has nothing to do with the question. Kahneman calls this the anchoring effect.",
             "example": "Whoever names the first number in a negotiation sets the anchor. “Was 199, now only 99” works the same way.",
@@ -128,13 +188,39 @@
                 ]
               ],
               "insight": "With every offer, ask yourself: what would this be worth to me if I had never seen the first number?"
-            }
+            },
+            "recall": {
+              "question": "What is the anchoring effect?",
+              "answer": "A number seen beforehand pulls our estimate towards it – even if it has nothing to do with the question."
+            },
+            "transfer": null,
+            "takeaway": "The first number in the room decides what seems cheap or expensive afterwards."
           },
           {
+            "hook": "Would you toss a coin: heads you win 150, tails you lose 100?",
             "title": "Losses loom larger",
             "text": "According to Kahneman and Tversky, a loss hurts about twice as much as an equal gain pleases. That is why people avoid fair bets and hold on to things once they own them.",
             "example": "Many people turn down a coin toss in which they could lose 100 or win 150 – although it pays off on average.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "How much does a loss weigh compared with an equal gain?",
+              "answer": "About twice as much. That is why many people turn down even bets that pay off on average."
+            },
+            "transfer": {
+              "situation": "Two years ago you bought a share for 1,000; today it is worth 600. You no longer believe in the company but do not like to sell.",
+              "options": [
+                [
+                  "Hold until it is back at 1,000",
+                  "That is how many people think – out of loss aversion. But the purchase price is an anchor: the share does not “know” what you paid."
+                ],
+                [
+                  "Ask: would I buy it today for 600?",
+                  "Exactly this question takes away the power of the loss. If the answer is no, there is no reason to hold."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "We fear losses more than we value gains."
           }
         ],
         "limits": "Some studies cited in the book, especially on so-called priming, could not be confirmed later; Kahneman acknowledged this himself. The division into two systems is an image to aid understanding, not a description of two brain regions.",
@@ -154,10 +240,20 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst erklären, aus welchen vier Schritten eine Gewohnheit besteht, und eine eigene Gewohnheit danach umbauen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-duhigg"
+      }
+    ],
     "thesis": "Clear argumentiert, dass große Veränderungen selten aus großen Vorsätzen entstehen, sondern aus sehr kleinen Gewohnheiten, die man lange durchhält – und dass man dafür an der Umgebung ansetzen sollte, nicht an der Willenskraft.",
     "ideas": [
       {
         "id": "b-clear-1",
+        "format": "model",
+        "evidence": "thesis",
+        "hook": "Warum greifst du zum Handy, bevor du überhaupt darüber nachgedacht hast?",
         "title": "Vier Schritte einer Gewohnheit",
         "text": "Jede Gewohnheit läuft nach Clear in vier Schritten ab: Ein Auslöser weckt ein Verlangen, darauf folgt eine Reaktion, und eine Belohnung sorgt dafür, dass wir es wieder tun. Wer eine Gewohnheit ändern will, kann an jedem Schritt ansetzen.",
         "example": "Handy vibriert (Auslöser) → wissen wollen, wer schreibt (Verlangen) → nachsehen (Reaktion) → Neugier gestillt (Belohnung).",
@@ -170,21 +266,58 @@
             "Belohnung"
           ],
           "note": "Gute Gewohnheit: offensichtlich, attraktiv, einfach und befriedigend machen."
-        }
+        },
+        "recall": {
+          "question": "Nenne die vier Schritte einer Gewohnheit in der richtigen Reihenfolge.",
+          "answer": "Auslöser, Verlangen, Reaktion, Belohnung."
+        },
+        "transfer": {
+          "situation": "Du möchtest abends mehr lesen, landest aber immer am Handy auf dem Sofa.",
+          "options": [
+            [
+              "Das Buch aufs Sofa legen, das Handy im Flur laden",
+              "Das setzt am Auslöser an: Das Gewünschte wird offensichtlich und einfach, das Ungewünschte unbequem. Genau das empfiehlt Clear."
+            ],
+            [
+              "Dir fest vornehmen, ab morgen disziplinierter zu sein",
+              "Vorsätze verlassen sich auf Willenskraft – die ist abends meist aufgebraucht. Die Umgebung zu ändern wirkt zuverlässiger."
+            ]
+          ],
+          "best": 0
+        },
+        "takeaway": "Wer eine Gewohnheit ändern will, ändert am leichtesten den Auslöser."
       },
       {
         "id": "b-clear-2",
+        "format": "challenge",
+        "evidence": "thesis",
+        "hook": "Alle Olympia-Teilnehmer haben dasselbe Ziel. Was unterscheidet dann die Sieger?",
         "title": "Systeme statt Ziele",
         "text": "Ziele geben die Richtung vor, aber Gewinner und Verlierer haben oft dasselbe Ziel. Den Unterschied macht nach Clear das System – also das, was man jeden Tag tatsächlich tut.",
         "example": "Statt „Ich will ein Buch schreiben“: „Ich schreibe jeden Morgen eine Seite.“",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was ist der Unterschied zwischen einem Ziel und einem System?",
+          "answer": "Das Ziel ist das gewünschte Ergebnis; das System ist, was man jeden Tag tatsächlich tut. Clear hält das System für entscheidend."
+        },
+        "transfer": null,
+        "takeaway": "Du steigst nicht auf das Niveau deiner Ziele, du fällst auf das Niveau deiner Systeme."
       },
       {
         "id": "b-clear-3",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Warum hält „Ich bin Läufer“ länger als „Ich will fünf Kilo abnehmen“?",
         "title": "Wer will ich sein?",
         "text": "Gewohnheiten halten besser, wenn sie zum eigenen Selbstbild passen. Clear empfiehlt, nicht beim Ergebnis anzufangen, sondern bei der Identität: Jede kleine Handlung ist eine Stimme dafür, welche Art Mensch man ist.",
         "example": "„Ich versuche aufzuhören“ klingt anders als „Ich bin Nichtraucher“.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Wo soll man nach Clear ansetzen: beim Ergebnis oder bei der Identität?",
+          "answer": "Bei der Identität. Jede kleine Handlung ist eine Stimme dafür, wer man sein will."
+        },
+        "transfer": null,
+        "takeaway": "Gewohnheiten halten, wenn sie zu dem passen, wer du sein willst."
       }
     ],
     "limits": "Die Rechnung „jeden Tag 1 % besser ergibt nach einem Jahr das 37-Fache“ ist ein Bild, keine Messung – Fähigkeiten wachsen nicht wie Zinsen. Vieles im Buch stützt sich auf Einzelbeispiele; wie lange es dauert, bis eine Gewohnheit sitzt, schwankt in Studien stark.",
@@ -201,16 +334,18 @@
         "url": "https://de.wikipedia.org/wiki/Gewohnheit"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T11:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can explain the four steps of a habit and redesign one of your own accordingly.",
         "thesis": "Clear argues that big changes rarely come from big resolutions but from very small habits kept up for a long time – and that the place to start is your environment, not your willpower.",
         "ideas": [
           {
+            "hook": "Why do you reach for your phone before you have even thought about it?",
             "title": "Four steps of a habit",
             "text": "According to Clear, every habit runs in four steps: a cue triggers a craving, a response follows, and a reward makes sure we do it again. Anyone who wants to change a habit can start at any of these steps.",
             "example": "Phone vibrates (cue) → wanting to know who wrote (craving) → checking (response) → curiosity satisfied (reward).",
@@ -223,19 +358,52 @@
                 "Reward"
               ],
               "note": "For a good habit: make it obvious, attractive, easy and satisfying."
-            }
+            },
+            "recall": {
+              "question": "Name the four steps of a habit in the right order.",
+              "answer": "Cue, craving, response, reward."
+            },
+            "transfer": {
+              "situation": "You would like to read more in the evening but always end up on your phone on the sofa.",
+              "options": [
+                [
+                  "Put the book on the sofa, charge the phone in the hall",
+                  "This starts at the cue: what you want becomes obvious and easy, what you do not want becomes inconvenient. Exactly what Clear recommends."
+                ],
+                [
+                  "Firmly resolve to be more disciplined from tomorrow",
+                  "Resolutions rely on willpower – which is usually used up by the evening. Changing the environment works more reliably."
+                ]
+              ],
+              "best": 0
+            },
+            "takeaway": "The easiest way to change a habit is to change the cue."
           },
           {
+            "hook": "All Olympic athletes have the same goal. So what distinguishes the winners?",
             "title": "Systems instead of goals",
             "text": "Goals set the direction, but winners and losers often have the same goal. According to Clear, the difference is the system – what you actually do every day.",
             "example": "Instead of “I want to write a book”: “I write one page every morning.”",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What is the difference between a goal and a system?",
+              "answer": "The goal is the desired outcome; the system is what you actually do every day. Clear considers the system decisive."
+            },
+            "transfer": null,
+            "takeaway": "You do not rise to the level of your goals, you fall to the level of your systems."
           },
           {
+            "hook": "Why does “I am a runner” last longer than “I want to lose five kilos”?",
             "title": "Who do I want to be?",
             "text": "Habits last better when they fit your self-image. Clear recommends starting not with the outcome but with identity: every small action is a vote for the kind of person you are.",
             "example": "“I'm trying to quit” sounds different from “I'm a non-smoker”.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Where should you start according to Clear: with the outcome or with identity?",
+              "answer": "With identity. Every small action is a vote for who you want to be."
+            },
+            "transfer": null,
+            "takeaway": "Habits last when they fit who you want to be."
           }
         ],
         "limits": "The calculation “1% better every day makes you 37 times better after a year” is an image, not a measurement – skills do not grow like interest. Much of the book rests on individual examples; how long it takes for a habit to stick varies widely in studies.",
@@ -255,10 +423,20 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst in einer eigenen Routine Auslöser und Belohnung erkennen und die Routine dazwischen gezielt austauschen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-clear"
+      }
+    ],
     "thesis": "Duhigg erklärt Gewohnheiten als Schleife aus Auslöser, Routine und Belohnung. Wer die Schleife erkennt, kann die Routine austauschen – bei sich selbst, in Unternehmen und in ganzen Gesellschaften.",
     "ideas": [
       {
         "id": "b-duhigg-1",
+        "format": "model",
+        "evidence": "thesis",
+        "hook": "Warum fährst du manchmal nach Hause und weißt kaum noch, wie du gefahren bist?",
         "title": "Die Gewohnheitsschleife",
         "text": "Ein Auslöser startet eine Routine, die mit einer Belohnung endet. Wiederholt sich das oft genug, erwartet das Gehirn die Belohnung schon beim Auslöser – und die Handlung läuft fast von selbst ab.",
         "example": "Nachmittags um drei (Auslöser) zur Kaffeeküche gehen (Routine) und mit Kollegen plaudern (Belohnung).",
@@ -270,21 +448,58 @@
             "Belohnung"
           ],
           "note": "Goldene Regel: Auslöser und Belohnung behalten, nur die Routine austauschen."
-        }
+        },
+        "recall": {
+          "question": "Aus welchen drei Teilen besteht Duhiggs Gewohnheitsschleife?",
+          "answer": "Auslöser, Routine, Belohnung."
+        },
+        "transfer": null,
+        "takeaway": "Eine Gewohnheit ist eine Schleife, die das Gehirn irgendwann von selbst abspielt."
       },
       {
         "id": "b-duhigg-2",
+        "format": "apply",
+        "evidence": "thesis",
+        "hook": "Kann man eine schlechte Gewohnheit löschen – oder nur ersetzen?",
         "title": "Die goldene Regel",
         "text": "Alte Gewohnheiten lassen sich nach Duhigg kaum löschen, aber umbauen: Man behält Auslöser und Belohnung und ersetzt nur die Routine dazwischen. Dafür muss man zuerst herausfinden, welche Belohnung man eigentlich sucht.",
         "example": "Geht es beim Keks um den Zucker – oder um die Pause und das Gespräch? Dann hilft vielleicht ein kurzer Gang zu den Kollegen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was sagt die „goldene Regel“ der Gewohnheitsänderung?",
+          "answer": "Auslöser und Belohnung bleiben, nur die Routine dazwischen wird ausgetauscht."
+        },
+        "transfer": {
+          "situation": "Jeden Nachmittag um drei holst du dir am Automaten einen Schokoriegel. Du willst damit aufhören.",
+          "options": [
+            [
+              "Den Automaten künftig einfach meiden",
+              "Der Auslöser (Nachmittagstief) und das Bedürfnis bleiben. Ohne Ersatz kehrt die alte Routine meist zurück."
+            ],
+            [
+              "Testen, was du wirklich suchst: Zucker, Pause oder Gesellschaft?",
+              "Das ist Duhiggs Vorgehen. Geht es um die Pause, reicht vielleicht ein kurzer Gang an die frische Luft – Auslöser und Belohnung bleiben gleich."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Finde heraus, welche Belohnung du wirklich suchst – dann findest du eine bessere Routine dafür."
       },
       {
         "id": "b-duhigg-3",
+        "format": "examples",
+        "evidence": "thesis",
+        "hook": "Gibt es eine einzige Gewohnheit, die viele andere mitzieht?",
         "title": "Schlüsselgewohnheiten",
         "text": "Manche Gewohnheiten ziehen andere nach sich. Duhigg nennt sie Schlüsselgewohnheiten: Wer eine davon verändert, stößt oft eine Kette weiterer Veränderungen an.",
         "example": "Menschen, die anfangen, regelmäßig Sport zu treiben, essen laut Duhigg oft auch bewusster und schlafen besser.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was ist eine Schlüsselgewohnheit?",
+          "answer": "Eine Gewohnheit, deren Veränderung eine Kette weiterer Veränderungen auslöst – zum Beispiel regelmäßiger Sport."
+        },
+        "transfer": null,
+        "takeaway": "Manche Gewohnheiten sind Hebel: Verändere eine, und andere folgen."
       }
     ],
     "limits": "Die Schleife vereinfacht stark, was die Forschung über Gewohnheiten weiß. Viele Beispiele sind gut erzählte Einzelfälle; ob eine „Schlüsselgewohnheit“ wirklich die Ursache der übrigen Veränderungen war, lässt sich daraus nicht sicher ableiten.",
@@ -300,16 +515,18 @@
         "url": "https://de.wikipedia.org/wiki/Gewohnheit"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T10:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can spot the cue and the reward in one of your routines and deliberately swap the routine in between.",
         "thesis": "Duhigg explains habits as a loop of cue, routine and reward. Whoever recognises the loop can swap the routine – in themselves, in companies and in whole societies.",
         "ideas": [
           {
+            "hook": "Why do you sometimes drive home and hardly remember how you got there?",
             "title": "The habit loop",
             "text": "A cue starts a routine that ends with a reward. If this repeats often enough, the brain expects the reward as soon as the cue appears – and the action runs almost by itself.",
             "example": "Three in the afternoon (cue), walking to the coffee kitchen (routine) and chatting with colleagues (reward).",
@@ -321,19 +538,52 @@
                 "Reward"
               ],
               "note": "Golden rule: keep the cue and the reward, swap only the routine."
-            }
+            },
+            "recall": {
+              "question": "Which three parts make up Duhigg's habit loop?",
+              "answer": "Cue, routine, reward."
+            },
+            "transfer": null,
+            "takeaway": "A habit is a loop the brain eventually plays by itself."
           },
           {
+            "hook": "Can a bad habit be erased – or only replaced?",
             "title": "The golden rule",
             "text": "According to Duhigg, old habits can hardly be erased but they can be rebuilt: you keep the cue and the reward and replace only the routine in between. To do that, you first have to find out which reward you are actually after.",
             "example": "Is the biscuit about the sugar – or about the break and the chat? Then a short walk to your colleagues might do.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What does the “golden rule” of habit change say?",
+              "answer": "The cue and the reward stay; only the routine in between is swapped."
+            },
+            "transfer": {
+              "situation": "Every afternoon at three you get a chocolate bar from the vending machine. You want to stop.",
+              "options": [
+                [
+                  "Simply avoid the vending machine from now on",
+                  "The cue (afternoon slump) and the need remain. Without a replacement the old routine usually returns."
+                ],
+                [
+                  "Test what you are really after: sugar, a break or company?",
+                  "This is Duhigg's approach. If it is about the break, a short walk in the fresh air may be enough – cue and reward stay the same."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Find out which reward you are really after – then you will find a better routine for it."
           },
           {
+            "hook": "Is there a single habit that pulls many others along?",
             "title": "Keystone habits",
             "text": "Some habits bring others with them. Duhigg calls them keystone habits: changing one of them often sets off a chain of further changes.",
             "example": "People who start exercising regularly often also eat more consciously and sleep better, Duhigg says.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What is a keystone habit?",
+              "answer": "A habit whose change sets off a chain of further changes – regular exercise, for example."
+            },
+            "transfer": null,
+            "takeaway": "Some habits are levers: change one and others follow."
           }
         ],
         "limits": "The loop greatly simplifies what research knows about habits. Many examples are well-told individual cases; whether a “keystone habit” really caused the other changes cannot be safely concluded from them.",
@@ -353,28 +603,79 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst erklären, warum gemeinsame Geschichten nach Harari die Grundlage menschlicher Zusammenarbeit sind.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "ef1"
+      },
+      {
+        "kind": "question",
+        "id": "bq-diamond"
+      }
+    ],
     "thesis": "Harari erzählt die Geschichte des Homo sapiens als Folge von drei Umbrüchen – der kognitiven, der landwirtschaftlichen und der wissenschaftlichen Revolution. Seine Kernthese: Menschen beherrschen den Planeten, weil sie an gemeinsame Geschichten glauben können.",
     "ideas": [
       {
         "id": "b-harari-1",
+        "format": "challenge",
+        "evidence": "thesis",
+        "hook": "Warum ist ein Stück bedrucktes Papier mehr wert als ein Apfel?",
         "title": "Gemeinsame Geschichten",
         "text": "Tiere arbeiten nur in kleinen Gruppen eng zusammen, in denen sich alle kennen. Menschen können nach Harari mit Millionen Fremden kooperieren, weil sie gemeinsam an Dinge glauben, die es nur in ihrer Vorstellung gibt: Götter, Nationen, Geld, Unternehmen, Menschenrechte.",
         "example": "Ein Geldschein ist ein Stück Papier. Er hat Wert, weil alle darauf vertrauen, dass alle anderen ihn annehmen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was ermöglicht es Menschen, mit Millionen Fremden zusammenzuarbeiten?",
+          "answer": "Der gemeinsame Glaube an Dinge, die nur in der Vorstellung existieren – etwa Geld, Nationen oder Unternehmen."
+        },
+        "transfer": {
+          "situation": "Eine Freundin sagt: „Ein Unternehmen ist doch etwas Reales – es hat Gebäude und Mitarbeiter.“",
+          "options": [
+            [
+              "Ihr zustimmen: Ohne Gebäude gäbe es die Firma nicht",
+              "Gebäude und Mitarbeiter können komplett wechseln, und die Firma besteht weiter. Was sie zusammenhält, ist eine rechtliche Vereinbarung."
+            ],
+            [
+              "Einwenden: Die Firma bliebe dieselbe, auch wenn alle Gebäude und Mitarbeiter wechseln",
+              "Das ist Hararis Punkt: Ein Unternehmen ist eine gemeinsame Vorstellung, festgehalten in Verträgen und Gesetzen – sehr wirksam, aber nicht greifbar."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Geld, Staaten und Firmen existieren, weil genug Menschen an sie glauben."
       },
       {
         "id": "b-harari-2",
+        "format": "challenge",
+        "evidence": "debated",
+        "hook": "War die Erfindung der Landwirtschaft wirklich ein Fortschritt – für den einzelnen Menschen?",
         "title": "Die Falle der Landwirtschaft",
         "text": "Harari nennt die Erfindung der Landwirtschaft provokant den „größten Betrug der Geschichte“: Sie ernährte viel mehr Menschen, aber der einzelne Bauer arbeitete härter, aß einseitiger und war anfälliger für Hunger und Seuchen als die Jäger und Sammler vor ihm.",
         "example": "Mehr Nahrung führte zu mehr Kindern – und damit zu noch mehr Arbeit. Ein Zurück gab es nicht mehr.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum nennt Harari die Landwirtschaft eine „Falle“?",
+          "answer": "Sie ernährte mehr Menschen, aber der Einzelne arbeitete härter und lebte oft schlechter – und ein Zurück gab es nicht mehr."
+        },
+        "transfer": null,
+        "takeaway": "Was einer Art nützt, muss dem Einzelnen nicht guttun."
       },
       {
         "id": "b-harari-3",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Warum ließen Kartenzeichner im 15. Jahrhundert plötzlich Flächen weiß?",
         "title": "Die Entdeckung des Nichtwissens",
         "text": "Die wissenschaftliche Revolution begann nach Harari mit einem Eingeständnis: Wir wissen vieles nicht. Erst wer das zugibt, forscht systematisch – und Europas Herrscher finanzierten diese Forschung, weil sie Macht und Reichtum versprach.",
         "example": "Auf alten Weltkarten waren unbekannte Gebiete ausgemalt. Ab dem 15. Jahrhundert ließ man sie weiß – als Einladung, sie zu erkunden.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Womit begann nach Harari die wissenschaftliche Revolution?",
+          "answer": "Mit dem Eingeständnis, vieles nicht zu wissen – erst das macht systematisches Forschen sinnvoll."
+        },
+        "transfer": null,
+        "takeaway": "Wissenschaft beginnt mit dem Satz: Wir wissen es nicht."
       }
     ],
     "limits": "Fachhistoriker und Anthropologen werfen dem Buch vor, sehr große Thesen auf dünner Beweislage zu bauen – etwa zum Leben der Jäger und Sammler, über das wir wenig sicher wissen. Es ist eine Deutung der Geschichte, kein Nachschlagewerk.",
@@ -391,32 +692,67 @@
         "url": "https://de.wikipedia.org/wiki/Eine_kurze_Geschichte_der_Menschheit"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T09:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can explain why, according to Harari, shared stories are the basis of human cooperation.",
         "thesis": "Harari tells the history of Homo sapiens as a sequence of three upheavals – the cognitive, the agricultural and the scientific revolution. His central claim: humans rule the planet because they can believe in shared stories.",
         "ideas": [
           {
+            "hook": "Why is a piece of printed paper worth more than an apple?",
             "title": "Shared stories",
             "text": "Animals cooperate closely only in small groups in which everyone knows everyone. According to Harari, humans can cooperate with millions of strangers because they jointly believe in things that exist only in their imagination: gods, nations, money, companies, human rights.",
             "example": "A banknote is a piece of paper. It has value because everyone trusts that everyone else will accept it.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What enables humans to cooperate with millions of strangers?",
+              "answer": "Shared belief in things that exist only in the imagination – such as money, nations or companies."
+            },
+            "transfer": {
+              "situation": "A friend says: “But a company is something real – it has buildings and employees.”",
+              "options": [
+                [
+                  "Agree with her: without buildings there would be no firm",
+                  "Buildings and employees can change completely and the firm continues. What holds it together is a legal agreement."
+                ],
+                [
+                  "Object: the firm would stay the same even if all buildings and employees changed",
+                  "That is Harari's point: a company is a shared idea, fixed in contracts and laws – very effective but not tangible."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Money, states and companies exist because enough people believe in them."
           },
           {
+            "hook": "Was the invention of agriculture really progress – for the individual?",
             "title": "The trap of agriculture",
             "text": "Harari provocatively calls the invention of agriculture “history's biggest fraud”: it fed far more people, but the individual farmer worked harder, ate a narrower diet and was more vulnerable to hunger and disease than the hunter-gatherers before him.",
             "example": "More food led to more children – and so to even more work. There was no way back.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why does Harari call agriculture a “trap”?",
+              "answer": "It fed more people, but the individual worked harder and often lived worse – and there was no way back."
+            },
+            "transfer": null,
+            "takeaway": "What benefits a species need not be good for the individual."
           },
           {
+            "hook": "Why did map-makers in the 15th century suddenly leave areas blank?",
             "title": "The discovery of ignorance",
             "text": "According to Harari, the scientific revolution began with an admission: there is much we do not know. Only those who admit this investigate systematically – and Europe's rulers funded that research because it promised power and wealth.",
             "example": "On old world maps, unknown regions were filled in. From the 15th century they were left blank – as an invitation to explore them.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What did the scientific revolution begin with, according to Harari?",
+              "answer": "With the admission of not knowing many things – only that makes systematic research worthwhile."
+            },
+            "transfer": null,
+            "takeaway": "Science begins with the sentence: we do not know."
           }
         ],
         "limits": "Historians and anthropologists accuse the book of building very large claims on thin evidence – for instance about the lives of hunter-gatherers, about which we know little for certain. It is an interpretation of history, not a reference work.",
@@ -436,10 +772,24 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst eine Idee in eine überprüfbare Annahme übersetzen und den kleinsten Test dafür entwerfen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "b18"
+      },
+      {
+        "kind": "question",
+        "id": "b1"
+      }
+    ],
     "thesis": "Ries versteht ein Start-up als Experiment unter extremer Unsicherheit. Statt lange im Verborgenen zu entwickeln, soll es so früh wie möglich mit echten Kunden prüfen, ob seine Annahmen stimmen.",
     "ideas": [
       {
         "id": "b-ries-1",
+        "format": "model",
+        "evidence": "thesis",
+        "hook": "Wie verkauft man Schuhe im Internet, ohne einen einzigen Schuh zu besitzen?",
         "title": "Bauen, messen, lernen",
         "text": "Der Kern der Methode ist eine Schleife: eine Idee in ein Produkt umsetzen, messen, wie Kunden reagieren, daraus lernen – und die nächste Runde starten. Je schneller ein Team diese Schleife durchläuft, desto weniger Zeit und Geld verschwendet es.",
         "example": "Zappos-Gründer Nick Swinmurn fotografierte Schuhe im Laden und stellte sie online, bevor er ein Lager hatte. Erst als Leute bestellten, kaufte er die Schuhe.",
@@ -451,21 +801,58 @@
             "Lernen"
           ],
           "note": "Ziel ist nicht das Produkt, sondern möglichst schnell geprüftes Wissen."
-        }
+        },
+        "recall": {
+          "question": "Wie heißen die drei Schritte der Lean-Startup-Schleife?",
+          "answer": "Bauen, messen, lernen."
+        },
+        "transfer": null,
+        "takeaway": "Nicht das Produkt ist das Ziel der ersten Monate, sondern geprüftes Wissen."
       },
       {
         "id": "b-ries-2",
+        "format": "apply",
+        "evidence": "thesis",
+        "hook": "Was ist das Wenigste, das du bauen musst, um zu erfahren, ob jemand deine Idee will?",
         "title": "Das kleinste brauchbare Produkt",
         "text": "Ein „Minimum Viable Product“ ist nach Ries die einfachste Version, mit der sich eine Annahme testen lässt. Es soll nicht beeindrucken, sondern eine Frage beantworten: Will das überhaupt jemand?",
         "example": "Dropbox zeigte zuerst nur ein kurzes Video der geplanten Funktion – und bekam über Nacht Zehntausende Anmeldungen für die Warteliste.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was ist ein Minimum Viable Product?",
+          "answer": "Die einfachste Version eines Produkts, mit der sich eine Annahme an echten Kunden testen lässt."
+        },
+        "transfer": {
+          "situation": "Du möchtest einen Lieferdienst für frisches Brot in deinem Viertel starten und hast 2.000 € Erspartes.",
+          "options": [
+            [
+              "Einen Aushang machen, Bestellungen per Nachricht annehmen und eine Woche selbst ausfahren",
+              "Ein klassisches MVP: Für fast kein Geld erfährst du, ob Nachbarn bestellen – und was sie zu zahlen bereit sind."
+            ],
+            [
+              "Erst eine App programmieren lassen und einen Lieferwagen leasen",
+              "Damit ist das Geld weg, bevor du weißt, ob jemand bestellt. Genau davor warnt Ries."
+            ]
+          ],
+          "best": 0
+        },
+        "takeaway": "Ein MVP soll nicht beeindrucken – es soll eine Frage beantworten."
       },
       {
         "id": "b-ries-3",
+        "format": "spot",
+        "evidence": "thesis",
+        "hook": "Deine App hat 10.000 Downloads. Ist das eine gute Nachricht?",
         "title": "Kurswechsel oder durchhalten",
         "text": "Zeigen die Messungen, dass eine Grundannahme falsch war, empfiehlt Ries einen „Pivot“: einen gezielten Kurswechsel, bei dem das Gelernte erhalten bleibt. Gefährlich seien „Eitelkeitskennzahlen“ – Zahlen, die gut aussehen, aber nichts über den Erfolg sagen.",
         "example": "Die Zahl der Downloads steigt, aber fast niemand öffnet die App ein zweites Mal: ein Warnsignal, kein Grund zum Feiern.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was ist eine Eitelkeitskennzahl?",
+          "answer": "Eine Zahl, die gut aussieht, aber nichts darüber sagt, ob das Geschäft funktioniert – etwa Downloads ohne aktive Nutzer."
+        },
+        "transfer": null,
+        "takeaway": "Miss, was eine Entscheidung verändert – nicht, was sich gut anfühlt."
       }
     ],
     "limits": "Die Methode passt gut zu Software, wo ein Test wenig kostet. Bei Medikamenten, Flugzeugen oder Hardware sind halbfertige Produkte teuer oder gefährlich. Kritiker merken an, dass schnelle Kundentests große, visionäre Sprünge eher ausbremsen können.",
@@ -482,16 +869,18 @@
         "url": "https://de.wikipedia.org/wiki/Lean_Startup"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T08:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can turn an idea into a testable assumption and design the smallest test for it.",
         "thesis": "Ries sees a start-up as an experiment under extreme uncertainty. Instead of developing in secret for a long time, it should test with real customers as early as possible whether its assumptions hold.",
         "ideas": [
           {
+            "hook": "How do you sell shoes online without owning a single shoe?",
             "title": "Build, measure, learn",
             "text": "The core of the method is a loop: turn an idea into a product, measure how customers react, learn from it – and start the next round. The faster a team runs through this loop, the less time and money it wastes.",
             "example": "Zappos founder Nick Swinmurn photographed shoes in a shop and put them online before he had a warehouse. Only when people ordered did he buy the shoes.",
@@ -503,19 +892,52 @@
                 "Learn"
               ],
               "note": "The goal is not the product but validated knowledge, as fast as possible."
-            }
+            },
+            "recall": {
+              "question": "What are the three steps of the Lean Startup loop called?",
+              "answer": "Build, measure, learn."
+            },
+            "transfer": null,
+            "takeaway": "The goal of the first months is not the product but validated knowledge."
           },
           {
+            "hook": "What is the least you have to build to find out whether anyone wants your idea?",
             "title": "The minimum viable product",
             "text": "According to Ries, a “minimum viable product” is the simplest version with which an assumption can be tested. It is not meant to impress but to answer one question: does anyone want this at all?",
             "example": "Dropbox first showed only a short video of the planned feature – and got tens of thousands of sign-ups for the waiting list overnight.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What is a minimum viable product?",
+              "answer": "The simplest version of a product with which an assumption can be tested on real customers."
+            },
+            "transfer": {
+              "situation": "You want to start a fresh-bread delivery service in your neighbourhood and have 2,000 in savings.",
+              "options": [
+                [
+                  "Put up a notice, take orders by message and deliver yourself for a week",
+                  "A classic MVP: for almost no money you find out whether neighbours order – and what they are willing to pay."
+                ],
+                [
+                  "First have an app built and lease a van",
+                  "The money is gone before you know whether anyone orders. Exactly what Ries warns against."
+                ]
+              ],
+              "best": 0
+            },
+            "takeaway": "An MVP is not meant to impress – it is meant to answer a question."
           },
           {
+            "hook": "Your app has 10,000 downloads. Is that good news?",
             "title": "Pivot or persevere",
             "text": "If the measurements show that a basic assumption was wrong, Ries recommends a “pivot”: a deliberate change of course that keeps what has been learned. “Vanity metrics” are dangerous, he says – numbers that look good but say nothing about success.",
             "example": "Downloads are rising, but almost nobody opens the app a second time: a warning sign, not a reason to celebrate.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What is a vanity metric?",
+              "answer": "A number that looks good but says nothing about whether the business works – downloads without active users, for instance."
+            },
+            "transfer": null,
+            "takeaway": "Measure what changes a decision – not what feels good."
           }
         ],
         "limits": "The method fits software well, where a test costs little. With medicines, aircraft or hardware, half-finished products are expensive or dangerous. Critics note that quick customer tests can slow down big, visionary leaps.",
@@ -535,10 +957,24 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst zwischen Kopieren und echter Neuerung unterscheiden und Thiels These zum Wettbewerb kritisch einordnen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "e15"
+      },
+      {
+        "kind": "question",
+        "id": "b1"
+      }
+    ],
     "thesis": "Thiel unterscheidet zwei Arten von Fortschritt: Bestehendes kopieren („von 1 auf n“) und etwas wirklich Neues schaffen („von 0 auf 1“). Nur das zweite bringt nach seiner Ansicht die Zukunft voran – und macht Unternehmen wertvoll.",
     "ideas": [
       {
         "id": "b-thiel-1",
+        "format": "compare",
+        "evidence": "thesis",
+        "hook": "Die hundertste Pizzeria der Stadt oder das erste Restaurant einer neuen Art: Was ist schwerer – und was lohnender?",
         "title": "Von null auf eins",
         "text": "Wer etwas nachbaut, das es schon gibt, verbreitet eine bekannte Lösung weiter. Wer etwas Neues schafft, verändert, was überhaupt möglich ist. Thiels Lieblingsfrage an Bewerber: „Welche wichtige Wahrheit sehen nur sehr wenige Menschen so wie du?“",
         "example": "Die tausendste Suchmaschine wäre „von 1 auf n“. Die erste gute war „von 0 auf 1“.",
@@ -558,21 +994,58 @@
             "kaum Konkurrenz",
             "Raum für Gewinne"
           ]
-        }
+        },
+        "recall": {
+          "question": "Was bedeutet „von 0 auf 1“ im Unterschied zu „von 1 auf n“?",
+          "answer": "Von 0 auf 1: etwas wirklich Neues schaffen. Von 1 auf n: Bestehendes kopieren und verbreiten."
+        },
+        "transfer": null,
+        "takeaway": "Fortschritt entsteht, wenn jemand etwas zum ersten Mal tut."
       },
       {
         "id": "b-thiel-2",
+        "format": "challenge",
+        "evidence": "debated",
+        "hook": "Ist Wettbewerb gut für Unternehmen – oder nur für ihre Kunden?",
         "title": "Wettbewerb ist für Verlierer",
         "text": "Thiels provokanteste These: In perfektem Wettbewerb verdient niemand Geld, weil sich alle gegenseitig unterbieten. Erfolgreiche Unternehmen seien deshalb Monopole – nicht durch Tricks, sondern weil sie etwas so viel besser machen, dass niemand mithalten kann.",
         "example": "Thiel empfiehlt, mit einem sehr kleinen Markt zu beginnen und ihn zu beherrschen, statt in einem riesigen Markt unterzugehen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum hält Thiel Wettbewerb für schädlich aus Sicht eines Unternehmens?",
+          "answer": "Weil sich im vollkommenen Wettbewerb alle gegenseitig unterbieten, bis niemand mehr Gewinn macht."
+        },
+        "transfer": {
+          "situation": "Du liest Thiels Satz „Wettbewerb ist für Verlierer“ und sollst ihn in einer Diskussion einordnen.",
+          "options": [
+            [
+              "Zustimmen: Monopole sind für alle das Beste",
+              "Das behauptet nicht einmal Thiel. Für Kunden bedeuten Monopole oft höhere Preise und weniger Auswahl – deshalb gibt es Kartellrecht."
+            ],
+            [
+              "Unterscheiden: gut für das Unternehmen, oft schlecht für Kunden und Neugründer",
+              "Genau diese Trennung fehlt im Buch häufig. Thiel schreibt aus Sicht des Gründers, nicht der Gesellschaft."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Thiels Rat: einen kleinen Markt beherrschen statt in einem großen untergehen – eine These, der viele Ökonomen widersprechen."
       },
       {
         "id": "b-thiel-3",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Gibt es noch etwas Wichtiges zu entdecken – oder ist alles Naheliegende schon gefunden?",
         "title": "Geheimnisse",
         "text": "Thiel glaubt, dass es noch viele unentdeckte Wahrheiten gibt – über die Natur und über Menschen. Großartige Unternehmen entstehen für ihn dort, wo jemand ein solches „Geheimnis“ findet, das andere für unmöglich oder uninteressant halten.",
         "example": "Dass Fremde einander ihre Wohnung vermieten würden, hielten viele für abwegig, bevor es Plattformen dafür gab.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was meint Thiel mit einem „Geheimnis“?",
+          "answer": "Eine wichtige Wahrheit, die noch kaum jemand erkannt hat – der Ausgangspunkt für ein wirklich neues Unternehmen."
+        },
+        "transfer": null,
+        "takeaway": "Neue Unternehmen entstehen dort, wo jemand etwas für möglich hält, das andere abtun."
       }
     ],
     "limits": "Thiels Lob des Monopols ist umstritten: Ökonomen und Wettbewerbshüter sehen in marktbeherrschenden Unternehmen oft Nachteile für Kunden und Neugründungen. Das Buch argumentiert vor allem mit Gewinnern – die vielen gescheiterten Versuche, „von 0 auf 1“ zu kommen, bleiben unsichtbar.",
@@ -588,16 +1061,18 @@
         "url": "https://de.wikipedia.org/wiki/Peter_Thiel"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T07:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can distinguish copying from genuine novelty and critically assess Thiel's claim about competition.",
         "thesis": "Thiel distinguishes two kinds of progress: copying what exists (“from 1 to n”) and creating something truly new (“from 0 to 1”). In his view only the second moves the future forward – and makes companies valuable.",
         "ideas": [
           {
+            "hook": "The hundredth pizzeria in town or the first restaurant of a new kind: which is harder – and which more rewarding?",
             "title": "From zero to one",
             "text": "Whoever rebuilds something that already exists spreads a known solution further. Whoever creates something new changes what is possible at all. Thiel's favourite question for applicants: “What important truth do very few people agree with you on?”",
             "example": "The thousandth search engine would be “from 1 to n”. The first good one was “from 0 to 1”.",
@@ -617,19 +1092,52 @@
                 "hardly any competition",
                 "room for profit"
               ]
-            }
+            },
+            "recall": {
+              "question": "What does “from 0 to 1” mean as opposed to “from 1 to n”?",
+              "answer": "From 0 to 1: creating something truly new. From 1 to n: copying and spreading what exists."
+            },
+            "transfer": null,
+            "takeaway": "Progress happens when someone does something for the first time."
           },
           {
+            "hook": "Is competition good for companies – or only for their customers?",
             "title": "Competition is for losers",
             "text": "Thiel's most provocative claim: under perfect competition nobody makes money because everyone undercuts everyone else. Successful companies are therefore monopolies, he says – not through tricks but because they do something so much better that nobody can keep up.",
             "example": "Thiel recommends starting with a very small market and dominating it instead of drowning in a huge one.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why does Thiel consider competition harmful from a company's point of view?",
+              "answer": "Because under perfect competition everyone undercuts everyone else until nobody makes a profit."
+            },
+            "transfer": {
+              "situation": "You read Thiel's sentence “competition is for losers” and have to put it in context in a discussion.",
+              "options": [
+                [
+                  "Agree: monopolies are best for everyone",
+                  "Not even Thiel claims that. For customers, monopolies often mean higher prices and less choice – which is why competition law exists."
+                ],
+                [
+                  "Distinguish: good for the company, often bad for customers and newcomers",
+                  "Exactly this distinction is often missing in the book. Thiel writes from the founder's point of view, not society's."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Thiel's advice: dominate a small market rather than drown in a large one – a claim many economists dispute."
           },
           {
+            "hook": "Is there still something important to discover – or has everything obvious been found?",
             "title": "Secrets",
             "text": "Thiel believes there are still many undiscovered truths – about nature and about people. For him, great companies arise where someone finds such a “secret” that others consider impossible or uninteresting.",
             "example": "That strangers would rent their homes to one another seemed absurd to many before platforms for it existed.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What does Thiel mean by a “secret”?",
+              "answer": "An important truth that hardly anyone has recognised yet – the starting point for a truly new company."
+            },
+            "transfer": null,
+            "takeaway": "New companies arise where someone thinks possible what others dismiss."
           }
         ],
         "limits": "Thiel's praise of monopoly is controversial: economists and competition authorities often see dominant companies as a disadvantage for customers and new ventures. The book argues mainly from winners – the many failed attempts to get “from 0 to 1” remain invisible.",
@@ -649,10 +1157,20 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst eine Strategie von einer Zielvorgabe unterscheiden und die drei Teile einer guten Strategie benennen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "b6"
+      }
+    ],
     "thesis": "Rumelt hält das meiste, was als Strategie bezeichnet wird, für Wunschdenken. Eine gute Strategie benennt nach ihm ehrlich das entscheidende Problem und bündelt die Kräfte, um es zu lösen.",
     "ideas": [
       {
         "id": "b-rumelt-1",
+        "format": "model",
+        "evidence": "thesis",
+        "hook": "Was hat ein guter Arzt mit einem guten Strategen gemeinsam?",
         "title": "Der Kern einer Strategie",
         "text": "Jede gute Strategie hat nach Rumelt drei Teile: eine Diagnose, die erklärt, worin die Herausforderung eigentlich besteht; eine Leitlinie, wie man ihr begegnet; und abgestimmte Maßnahmen, die diese Leitlinie umsetzen.",
         "example": "Ein Arzt arbeitet genauso: Befund, Behandlungsansatz, konkrete Therapie.",
@@ -664,10 +1182,19 @@
             "Abgestimmte Maßnahmen"
           ],
           "note": "Fehlt einer der drei Teile, ist es noch keine Strategie."
-        }
+        },
+        "recall": {
+          "question": "Aus welchen drei Teilen besteht der Kern einer Strategie?",
+          "answer": "Diagnose, Leitlinie und abgestimmte Maßnahmen."
+        },
+        "transfer": null,
+        "takeaway": "Ohne ehrliche Diagnose ist jede Strategie nur ein Wunsch."
       },
       {
         "id": "b-rumelt-2",
+        "format": "spot",
+        "evidence": "thesis",
+        "hook": "„Wir wollen die Nummer eins werden.“ Ist das eine Strategie?",
         "title": "Woran man schlechte Strategie erkennt",
         "text": "Rumelt nennt vier Warnzeichen: hochtrabende Worthülsen, das Ausweichen vor dem eigentlichen Problem, Ziele, die als Strategie ausgegeben werden, und eine lange Liste unverbundener Vorhaben.",
         "example": "„Wir wollen Marktführer werden und um 20 % wachsen“ ist ein Ziel. Wie das gelingen soll, sagt der Satz nicht.",
@@ -687,14 +1214,42 @@
             "sagt, was man NICHT tut",
             "bündelt die Kräfte"
           ]
-        }
+        },
+        "recall": {
+          "question": "Nenne zwei Warnzeichen für schlechte Strategie.",
+          "answer": "Zum Beispiel: Worthülsen, Ausweichen vor dem eigentlichen Problem, Ziele statt Plan, eine Liste unverbundener Vorhaben."
+        },
+        "transfer": {
+          "situation": "Dein Sportverein verliert Mitglieder. Der Vorstand beschließt: „Unsere Strategie: 20 % mehr Mitglieder bis nächstes Jahr.“",
+          "options": [
+            [
+              "Nachfragen: Warum gehen die Leute eigentlich?",
+              "Das ist der erste Schritt nach Rumelt – die Diagnose. Erst wenn klar ist, ob es an Zeiten, Preisen oder dem Angebot liegt, lässt sich etwas Gezieltes tun."
+            ],
+            [
+              "Den Beschluss unterstützen und Werbung schalten",
+              "„20 % mehr“ ist ein Ziel, keine Strategie. Werbung hilft nicht, wenn die Leute aus einem Grund gehen, den niemand untersucht hat."
+            ]
+          ],
+          "best": 0
+        },
+        "takeaway": "Ein Ziel sagt, wohin – eine Strategie sagt, wie und warum gerade so."
       },
       {
         "id": "b-rumelt-3",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Warum war es eine Stärke, dass Apple 1997 die meisten seiner Produkte strich?",
         "title": "Strategie heißt auswählen",
         "text": "Weil Mittel und Aufmerksamkeit begrenzt sind, bedeutet Strategie für Rumelt vor allem Verzicht: Man konzentriert die Kraft auf den Punkt, an dem sie am meisten bewirkt – und sagt zu vielem anderen Nein.",
         "example": "Als Steve Jobs 1997 zu Apple zurückkehrte, strich er den Großteil der Produktpalette und konzentrierte das Unternehmen auf wenige Geräte.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum bedeutet Strategie nach Rumelt vor allem Verzicht?",
+          "answer": "Weil Mittel und Aufmerksamkeit begrenzt sind: Wirkung entsteht nur, wenn man die Kräfte auf wenige Punkte bündelt."
+        },
+        "transfer": null,
+        "takeaway": "Wer alles zur Priorität erklärt, hat keine."
       }
     ],
     "limits": "Rumelts Beispiele sind im Rückblick ausgewählt; ob eine Strategie „gut“ war, steht oft erst fest, wenn das Ergebnis bekannt ist. Die drei Teile sind ein hilfreiches Prüfraster, garantieren aber keine richtige Diagnose.",
@@ -711,16 +1266,18 @@
         "url": "https://de.wikipedia.org/wiki/Strategie_(Wirtschaft)"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T06:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can tell a strategy from a target and name the three parts of a good strategy.",
         "thesis": "Rumelt considers most of what is called strategy to be wishful thinking. A good strategy, he says, honestly names the decisive problem and concentrates effort on solving it.",
         "ideas": [
           {
+            "hook": "What does a good doctor have in common with a good strategist?",
             "title": "The kernel of a strategy",
             "text": "According to Rumelt, every good strategy has three parts: a diagnosis that explains what the challenge actually is; a guiding policy for dealing with it; and coherent actions that carry out that policy.",
             "example": "A doctor works the same way: findings, approach to treatment, specific therapy.",
@@ -732,9 +1289,16 @@
                 "Coherent actions"
               ],
               "note": "If one of the three parts is missing, it is not yet a strategy."
-            }
+            },
+            "recall": {
+              "question": "Which three parts make up the kernel of a strategy?",
+              "answer": "Diagnosis, guiding policy and coherent actions."
+            },
+            "transfer": null,
+            "takeaway": "Without an honest diagnosis every strategy is only a wish."
           },
           {
+            "hook": "“We want to be number one.” Is that a strategy?",
             "title": "How to spot bad strategy",
             "text": "Rumelt names four warning signs: pompous buzzwords, dodging the real problem, goals passed off as strategy, and a long list of unconnected initiatives.",
             "example": "“We want to be market leader and grow by 20%” is a goal. The sentence does not say how.",
@@ -754,13 +1318,39 @@
                 "says what NOT to do",
                 "concentrates effort"
               ]
-            }
+            },
+            "recall": {
+              "question": "Name two warning signs of bad strategy.",
+              "answer": "For example: buzzwords, dodging the real problem, goals instead of a plan, a list of unconnected initiatives."
+            },
+            "transfer": {
+              "situation": "Your sports club is losing members. The board decides: “Our strategy: 20% more members by next year.”",
+              "options": [
+                [
+                  "Ask: why are people actually leaving?",
+                  "This is the first step according to Rumelt – the diagnosis. Only once it is clear whether it is the times, the prices or the offering can something targeted be done."
+                ],
+                [
+                  "Support the decision and run advertisements",
+                  "“20% more” is a goal, not a strategy. Advertising does not help if people leave for a reason nobody has examined."
+                ]
+              ],
+              "best": 0
+            },
+            "takeaway": "A goal says where – a strategy says how, and why this way."
           },
           {
+            "hook": "Why was it a strength that Apple cut most of its products in 1997?",
             "title": "Strategy means choosing",
             "text": "Because resources and attention are limited, strategy for Rumelt above all means giving things up: you concentrate force on the point where it achieves most – and say no to much else.",
             "example": "When Steve Jobs returned to Apple in 1997, he cut most of the product range and focused the company on a few devices.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why does strategy above all mean giving things up, according to Rumelt?",
+              "answer": "Because resources and attention are limited: impact only arises when effort is concentrated on a few points."
+            },
+            "transfer": null,
+            "takeaway": "Whoever declares everything a priority has none."
           }
         ],
         "limits": "Rumelt's examples are chosen in hindsight; whether a strategy was “good” is often clear only once the outcome is known. The three parts are a useful checklist but do not guarantee a correct diagnosis.",
@@ -780,17 +1370,40 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst erklären, warum gerade gut geführte Marktführer disruptive Neuerungen übersehen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "b13"
+      },
+      {
+        "kind": "question",
+        "id": "t11"
+      }
+    ],
     "thesis": "Christensen fragt, warum gut geführte Marktführer immer wieder von Neulingen verdrängt werden. Seine Antwort: gerade weil sie alles „richtig“ machen – auf ihre besten Kunden hören und in die profitabelsten Produkte investieren.",
     "ideas": [
       {
         "id": "b-christensen-1",
+        "format": "explain",
+        "evidence": "debated",
+        "hook": "Wie kann ein schlechteres Produkt ein besseres vom Markt verdrängen?",
         "title": "Disruption kommt von unten",
         "text": "Eine disruptive Innovation ist nach Christensen anfangs schlechter als das etablierte Produkt, aber billiger, einfacher oder bequemer. Sie gewinnt Kunden, die der Marktführer gar nicht haben will, wird Jahr für Jahr besser – und reicht irgendwann auch den anspruchsvollen Kunden.",
         "example": "Die ersten Digitalkameras machten deutlich schlechtere Bilder als Film. Zwanzig Jahre später war der Filmmarkt fast verschwunden.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Woran erkennt man eine disruptive Innovation zu Beginn?",
+          "answer": "Sie ist schlechter als das etablierte Produkt, aber billiger, einfacher oder bequemer – und sie wird stetig besser."
+        },
+        "transfer": null,
+        "takeaway": "Disruption beginnt unten, bei Kunden, die den Großen egal sind."
       },
       {
         "id": "b-christensen-2",
+        "format": "apply",
+        "evidence": "thesis",
+        "hook": "Kodak baute 1975 eine Digitalkamera. Warum ging die Firma trotzdem daran zugrunde?",
         "title": "Das Dilemma",
         "text": "Für den Marktführer ist es vernünftig, das neue, billige Geschäft zu ignorieren: Die Margen sind klein, der Markt winzig, die besten Kunden wollen es nicht. Genau diese vernünftige Entscheidung führt nach Christensen später in den Untergang.",
         "example": "Kodak entwickelte 1975 selbst eine der ersten Digitalkameras – und verfolgte sie nicht entschlossen weiter, weil das Filmgeschäft so profitabel war.",
@@ -808,14 +1421,42 @@
             ]
           ],
           "insight": "Das Gefährliche an Disruption: Sie sieht lange nach einem Geschäft aus, das sich nicht lohnt."
-        }
+        },
+        "recall": {
+          "question": "Worin besteht das Dilemma des Marktführers?",
+          "answer": "Das neue Geschäft zu ignorieren ist kurzfristig vernünftig – kleine Margen, winziger Markt – und führt langfristig in den Untergang."
+        },
+        "transfer": {
+          "situation": "Du leitest eine erfolgreiche Druckerei. Ein kleiner Anbieter verkauft billige Online-Drucke in mäßiger Qualität – deine Stammkunden winken ab.",
+          "options": [
+            [
+              "Ignorieren: Meine Kunden wollen Qualität, und die Margen dort sind winzig",
+              "Genau so entscheiden nach Christensen gut geführte Marktführer – und jede einzelne Begründung stimmt. Das Risiko liegt darin, dass der Neue Jahr für Jahr besser wird."
+            ],
+            [
+              "Ein kleines, eigenständiges Team damit experimentieren lassen",
+              "Das ist Christensens Empfehlung: Das neue Geschäft braucht eigene Ziele und darf klein anfangen, weil es sich am Hauptgeschäft gemessen nie lohnt. Eine Erfolgsgarantie ist das nicht."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Die vernünftigste Entscheidung von heute kann die fatalste von morgen sein."
       },
       {
         "id": "b-christensen-3",
+        "format": "compare",
+        "evidence": "thesis",
+        "hook": "Ist jede Verbesserung eine Disruption?",
         "title": "Erhaltend oder disruptiv",
         "text": "Christensen trennt zwei Arten von Neuerungen. Erhaltende Innovationen machen gute Produkte für bestehende Kunden noch besser – darin sind Marktführer stark. Disruptive verändern, wer überhaupt Kunde ist und worauf es ankommt.",
         "example": "Ein noch schärferes Kameraobjektiv ist erhaltend. Die Kamera im Telefon war disruptiv.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was unterscheidet erhaltende von disruptiven Innovationen?",
+          "answer": "Erhaltende machen gute Produkte für bestehende Kunden besser. Disruptive verändern, wer Kunde ist und worauf es ankommt."
+        },
+        "transfer": null,
+        "takeaway": "Nicht alles Neue ist disruptiv – das Wort meint einen bestimmten Weg von unten nach oben."
       }
     ],
     "limits": "Die Historikerin Jill Lepore und andere haben kritisiert, Christensen habe seine Fallbeispiele passend ausgewählt und einige der „verdrängten“ Firmen hätten lange überlebt. Der Begriff „Disruption“ wird heute zudem für fast jede Neuerung verwendet – weit über Christensens enge Definition hinaus.",
@@ -832,22 +1473,31 @@
         "url": "https://de.wikipedia.org/wiki/Disruptive_Technologie"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T05:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can explain why well-managed market leaders in particular overlook disruptive innovations.",
         "thesis": "Christensen asks why well-managed market leaders are repeatedly displaced by newcomers. His answer: precisely because they do everything “right” – listening to their best customers and investing in their most profitable products.",
         "ideas": [
           {
+            "hook": "How can a worse product push a better one out of the market?",
             "title": "Disruption comes from below",
             "text": "According to Christensen, a disruptive innovation is initially worse than the established product but cheaper, simpler or more convenient. It wins customers the market leader does not even want, gets better year by year – and eventually is good enough for demanding customers too.",
             "example": "The first digital cameras took clearly worse pictures than film. Twenty years later the film market had almost disappeared.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "How do you recognise a disruptive innovation at the beginning?",
+              "answer": "It is worse than the established product but cheaper, simpler or more convenient – and it keeps getting better."
+            },
+            "transfer": null,
+            "takeaway": "Disruption begins at the bottom, with customers the big players do not care about."
           },
           {
+            "hook": "Kodak built a digital camera in 1975. Why did it still perish from it?",
             "title": "The dilemma",
             "text": "For the market leader it is rational to ignore the new, cheap business: margins are small, the market tiny, the best customers do not want it. According to Christensen, exactly this rational decision later leads to downfall.",
             "example": "Kodak itself built one of the first digital cameras in 1975 – and did not pursue it decisively because the film business was so profitable.",
@@ -865,13 +1515,39 @@
                 ]
               ],
               "insight": "The dangerous thing about disruption: for a long time it looks like a business not worth having."
-            }
+            },
+            "recall": {
+              "question": "What is the market leader's dilemma?",
+              "answer": "Ignoring the new business is rational in the short term – small margins, tiny market – and leads to downfall in the long term."
+            },
+            "transfer": {
+              "situation": "You run a successful print shop. A small provider sells cheap online prints of mediocre quality – your regular customers wave it away.",
+              "options": [
+                [
+                  "Ignore it: my customers want quality, and the margins there are tiny",
+                  "This is exactly how well-managed market leaders decide, according to Christensen – and every single reason is true. The risk is that the newcomer gets better year after year."
+                ],
+                [
+                  "Let a small, independent team experiment with it",
+                  "This is Christensen's recommendation: the new business needs its own goals and may start small, because measured against the core business it never pays. It is no guarantee of success."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Today's most reasonable decision can be tomorrow's most fatal one."
           },
           {
+            "hook": "Is every improvement a disruption?",
             "title": "Sustaining or disruptive",
             "text": "Christensen separates two kinds of innovation. Sustaining innovations make good products even better for existing customers – market leaders are strong at this. Disruptive ones change who is a customer at all and what matters.",
             "example": "An even sharper camera lens is sustaining. The camera in the phone was disruptive.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What distinguishes sustaining from disruptive innovations?",
+              "answer": "Sustaining ones make good products better for existing customers. Disruptive ones change who the customer is and what matters."
+            },
+            "transfer": null,
+            "takeaway": "Not everything new is disruptive – the word means a specific path from the bottom up."
           }
         ],
         "limits": "The historian Jill Lepore and others have criticised Christensen for choosing his case studies to fit, and note that some of the “displaced” firms survived for a long time. Today the term “disruption” is also used for almost any novelty – far beyond Christensen's narrow definition.",
@@ -891,10 +1567,28 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst erklären, warum beim Vermögensaufbau die Zeit wichtiger ist als die Höhe der Rendite.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "e5"
+      },
+      {
+        "kind": "question",
+        "id": "e14"
+      },
+      {
+        "kind": "question",
+        "id": "em3"
+      }
+    ],
     "thesis": "Housel argumentiert, dass der Umgang mit Geld weniger mit Wissen als mit Verhalten zu tun hat. Geduld, Bescheidenheit und der Umgang mit Angst zählen für ihn mehr als Intelligenz oder die perfekte Strategie.",
     "ideas": [
       {
         "id": "b-housel-1",
+        "format": "model",
+        "evidence": "evidence",
+        "hook": "Wann hat Warren Buffett den größten Teil seines Vermögens aufgebaut – vor oder nach seinem 65. Geburtstag?",
         "title": "Zeit schlägt Rendite",
         "text": "Der Zinseszins wirkt erst über sehr lange Zeiträume richtig stark. Housels Beispiel: Warren Buffett ist ein hervorragender Anleger – aber den weitaus größten Teil seines Vermögens hat er erst nach seinem 65. Geburtstag aufgebaut, weil er seit seiner Kindheit investiert.",
         "example": "Wer mit 25 anfängt zu sparen, kann mit deutlich kleineren Beträgen mehr erreichen als jemand, der mit 45 beginnt.",
@@ -905,21 +1599,58 @@
           "rate": 6,
           "label": "100 € im Monat, 6 % Rendite pro Jahr (Annahme)",
           "hint": "Die Kurve wird erst spät steil – der größte Teil des Zuwachses entsteht in den letzten Jahren."
-        }
+        },
+        "recall": {
+          "question": "Warum ist die Anlagedauer oft wichtiger als die Rendite?",
+          "answer": "Weil der Zinseszins erst über Jahrzehnte seine Wirkung entfaltet: Der größte Zuwachs entsteht in den letzten Jahren."
+        },
+        "transfer": {
+          "situation": "Zwei Freunde sparen bis 65. Anna zahlt von 25 bis 35 ein und lässt das Geld dann liegen. Ben beginnt mit 35 und zahlt 30 Jahre lang dieselbe Monatsrate. Gleiche Rendite – wer hat am Ende mehr?",
+          "options": [
+            [
+              "Anna – obwohl sie nur zehn Jahre eingezahlt hat",
+              "Bei rund 7 % Rendite liegt Anna tatsächlich vorn: Ihr Geld hatte zehn Jahre länger Zeit, Zinsen auf Zinsen zu bilden. Bei niedrigeren Renditen dreht sich das Ergebnis um – entscheidend ist die Annahme."
+            ],
+            [
+              "Ben – er hat dreimal so lange eingezahlt",
+              "Naheliegend, aber bei rund 7 % Rendite hat Anna mehr. Ihr Vorsprung von zehn Jahren wiegt schwerer als Bens zwanzig zusätzliche Einzahlungsjahre. Bei niedrigen Renditen gewinnt Ben."
+            ]
+          ],
+          "best": 0
+        },
+        "takeaway": "Beim Zinseszins schlägt Geduld Genialität."
       },
       {
         "id": "b-housel-2",
+        "format": "compare",
+        "evidence": "thesis",
+        "hook": "Braucht man zum Reichwerden dieselben Eigenschaften wie zum Reichbleiben?",
         "title": "Reich werden, reich bleiben",
         "text": "Um Vermögen aufzubauen, braucht man nach Housel Mut und Optimismus. Um es zu behalten, braucht man das Gegenteil: Vorsicht und die Bereitschaft, mit Fehlern zu rechnen. Überleben sei wichtiger als die höchste Rendite.",
         "example": "Ein Sicherheitspuffer bringt keine Rendite – aber er verhindert, dass man im schlechtesten Moment verkaufen muss.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Welche Haltung braucht man nach Housel, um Vermögen zu behalten?",
+          "answer": "Vorsicht und die Bereitschaft, mit Fehlern zu rechnen – Überleben ist wichtiger als die höchste Rendite."
+        },
+        "transfer": null,
+        "takeaway": "Wer im schlechtesten Moment nicht verkaufen muss, hat schon gewonnen."
       },
       {
         "id": "b-housel-3",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Wie viel ist genug?",
         "title": "Genug",
         "text": "Wer nie definiert, wie viel genug ist, verschiebt das Ziel immer weiter. Housel beschreibt Menschen, die Reichtum und Ruf riskierten, um noch mehr von etwas zu bekommen, das sie nicht brauchten.",
         "example": "Nicht jeder Gehaltssprung muss in einen größeren Lebensstil fließen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum hält Housel die Frage nach dem „Genug“ für so wichtig?",
+          "answer": "Wer sie nie beantwortet, verschiebt das Ziel immer weiter – und riskiert irgendwann, was er hat, für etwas, das er nicht braucht."
+        },
+        "transfer": null,
+        "takeaway": "Das Ziel, das sich ständig verschiebt, erreicht man nie."
       }
     ],
     "limits": "Das Buch besteht aus Geschichten und Beobachtungen, nicht aus Belegen für eine bestimmte Anlagestrategie. Renditen der Vergangenheit sind keine Garantie, und nicht jeder hat die Möglichkeit, früh und regelmäßig zu sparen. Es ersetzt keine persönliche Finanzberatung.",
@@ -935,16 +1666,18 @@
         "url": "https://de.wikipedia.org/wiki/Zinseszins"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T04:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can explain why time matters more than the size of the return when building wealth.",
         "thesis": "Housel argues that handling money has less to do with knowledge than with behaviour. For him, patience, humility and dealing with fear count for more than intelligence or the perfect strategy.",
         "ideas": [
           {
+            "hook": "When did Warren Buffett build most of his fortune – before or after his 65th birthday?",
             "title": "Time beats returns",
             "text": "Compound interest only becomes really powerful over very long periods. Housel's example: Warren Buffett is an excellent investor – but he built by far the largest part of his fortune after his 65th birthday, because he has been investing since childhood.",
             "example": "Someone who starts saving at 25 can achieve more with much smaller amounts than someone who starts at 45.",
@@ -955,19 +1688,52 @@
               "rate": 6,
               "label": "100 a month, 6% return per year (assumption)",
               "hint": "The curve only gets steep late – most of the growth happens in the final years."
-            }
+            },
+            "recall": {
+              "question": "Why is the investment period often more important than the return?",
+              "answer": "Because compound interest only unfolds its effect over decades: the largest gains come in the final years."
+            },
+            "transfer": {
+              "situation": "Two friends save until 65. Anna pays in from 25 to 35 and then leaves the money alone. Ben starts at 35 and pays the same monthly amount for 30 years. Same return – who has more in the end?",
+              "options": [
+                [
+                  "Anna – although she paid in for only ten years",
+                  "At a return of about 7%, Anna is indeed ahead: her money had ten more years to earn interest on interest. At lower returns the result reverses – the assumption is decisive."
+                ],
+                [
+                  "Ben – he paid in three times as long",
+                  "Plausible, but at about 7% Anna has more. Her ten-year head start outweighs Ben's twenty additional years of contributions. At low returns Ben wins."
+                ]
+              ],
+              "best": 0
+            },
+            "takeaway": "With compound interest, patience beats genius."
           },
           {
+            "hook": "Do you need the same qualities to get rich as to stay rich?",
             "title": "Getting rich, staying rich",
             "text": "To build wealth, Housel says, you need courage and optimism. To keep it you need the opposite: caution and the willingness to expect mistakes. Survival matters more than the highest return.",
             "example": "A safety buffer earns no return – but it prevents you from having to sell at the worst moment.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Which attitude do you need, according to Housel, to keep wealth?",
+              "answer": "Caution and the willingness to expect mistakes – survival matters more than the highest return."
+            },
+            "transfer": null,
+            "takeaway": "Whoever does not have to sell at the worst moment has already won."
           },
           {
+            "hook": "How much is enough?",
             "title": "Enough",
             "text": "Whoever never defines how much is enough keeps moving the goalposts. Housel describes people who risked wealth and reputation to get even more of something they did not need.",
             "example": "Not every pay rise has to flow into a bigger lifestyle.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why does Housel consider the question of “enough” so important?",
+              "answer": "Whoever never answers it keeps moving the goalposts – and eventually risks what they have for something they do not need."
+            },
+            "transfer": null,
+            "takeaway": "A goal that keeps moving is never reached."
           }
         ],
         "limits": "The book consists of stories and observations, not of evidence for a particular investment strategy. Past returns are no guarantee, and not everyone is able to save early and regularly. It does not replace personal financial advice.",
@@ -987,17 +1753,40 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst drei Prinzipien der Überzeugung benennen und erkennen, wenn sie auf dich angewendet werden.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "c23"
+      },
+      {
+        "kind": "question",
+        "id": "t19"
+      }
+    ],
     "thesis": "Cialdini beschreibt sechs Prinzipien, mit denen Menschen einander zu einem Ja bewegen. Sie funktionieren, weil wir im Alltag auf Faustregeln angewiesen sind – und genau deshalb lassen sie sich ausnutzen.",
     "ideas": [
       {
         "id": "b-cialdini-1",
+        "format": "explain",
+        "evidence": "evidence",
+        "hook": "Warum fühlt man sich nach einer Gratisprobe fast verpflichtet, etwas zu kaufen?",
         "title": "Gegenseitigkeit",
         "text": "Wer etwas bekommt, fühlt sich verpflichtet, etwas zurückzugeben. Das gilt nach Cialdini sogar für Geschenke, um die wir nie gebeten haben – und die Gegenleistung fällt oft größer aus als das Geschenk.",
         "example": "Die Gratisprobe im Supermarkt: Viele kaufen danach, auch aus einem leisen Gefühl der Verpflichtung.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was besagt das Prinzip der Gegenseitigkeit?",
+          "answer": "Wer etwas bekommt, fühlt sich verpflichtet, etwas zurückzugeben – selbst bei ungebetenen Geschenken."
+        },
+        "transfer": null,
+        "takeaway": "Ein Geschenk ist manchmal der erste Schritt eines Verkaufsgesprächs."
       },
       {
         "id": "b-cialdini-2",
+        "format": "apply",
+        "evidence": "evidence",
+        "hook": "Zwei unbekannte Restaurants: eines voll, eines leer. Woher weißt du, welches besser ist?",
         "title": "Soziale Bewährtheit",
         "text": "In unsicheren Situationen orientieren wir uns daran, was andere tun. Was viele für richtig halten, erscheint uns richtig – besonders, wenn diese anderen uns ähnlich sind.",
         "example": "„Meistverkauft“, Sternebewertungen und eingespielte Lacher im Fernsehen nutzen denselben Effekt.",
@@ -1015,14 +1804,42 @@
             ]
           ],
           "insight": "Frag dich: Wissen die anderen wirklich mehr als ich – oder folgen sie auch nur den anderen?"
-        }
+        },
+        "recall": {
+          "question": "Wann orientieren wir uns besonders stark am Verhalten anderer?",
+          "answer": "In unsicheren Situationen – und besonders, wenn die anderen uns ähnlich sind."
+        },
+        "transfer": null,
+        "takeaway": "Dass viele etwas tun, zeigt nur, dass viele es tun."
       },
       {
         "id": "b-cialdini-3",
+        "format": "spot",
+        "evidence": "evidence",
+        "hook": "„Nur noch 2 Zimmer zu diesem Preis!“ Was passiert da gerade mit dir?",
         "title": "Knappheit",
         "text": "Was selten ist oder bald nicht mehr zu haben, erscheint uns wertvoller. Dahinter steckt nach Cialdini auch die Abneigung, eine Wahlmöglichkeit zu verlieren.",
         "example": "„Nur noch 2 Zimmer zu diesem Preis“ erzeugt Druck – unabhängig davon, wie gut das Angebot wirklich ist.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum wirkt Knappheit so stark?",
+          "answer": "Was selten ist, erscheint wertvoller – und wir verlieren ungern eine Wahlmöglichkeit."
+        },
+        "transfer": {
+          "situation": "Ein Online-Shop zeigt: „Noch 3 Stück – 14 Personen sehen sich das gerade an.“ Du warst dir eigentlich unsicher.",
+          "options": [
+            [
+              "Schnell kaufen, bevor es weg ist",
+              "Hier wirken zwei Prinzipien zugleich: Knappheit und soziale Bewährtheit. Über die Qualität des Produkts sagt beides nichts."
+            ],
+            [
+              "Die Seite schließen und morgen entscheiden",
+              "Gute Probe: Willst du es morgen noch, war der Wunsch echt. Ist das Angebot dann weg, hast du meist wenig verloren."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Zeitdruck ist kein Argument für die Qualität eines Angebots."
       }
     ],
     "limits": "Die übrigen drei Prinzipien sind Konsistenz, Sympathie und Autorität; später ergänzte Cialdini „Einheit“. Wie stark die Effekte sind, hängt sehr von der Situation ab – im Labor und im Alltag fallen sie unterschiedlich aus. Das Buch erklärt Mechanismen, keine sicheren Rezepte.",
@@ -1039,22 +1856,31 @@
         "url": "https://de.wikipedia.org/wiki/Robert_Cialdini"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T03:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can name three principles of persuasion and notice when they are being used on you.",
         "thesis": "Cialdini describes six principles by which people move one another to say yes. They work because we depend on rules of thumb in everyday life – and that is exactly why they can be exploited.",
         "ideas": [
           {
+            "hook": "Why do you feel almost obliged to buy something after a free sample?",
             "title": "Reciprocity",
             "text": "Whoever receives something feels obliged to give something back. According to Cialdini this holds even for gifts we never asked for – and what we give in return is often larger than the gift.",
             "example": "The free sample in the supermarket: many buy afterwards, partly out of a quiet sense of obligation.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What does the principle of reciprocity say?",
+              "answer": "Whoever receives something feels obliged to give something back – even with unsolicited gifts."
+            },
+            "transfer": null,
+            "takeaway": "A gift is sometimes the first step of a sales pitch."
           },
           {
+            "hook": "Two unknown restaurants: one full, one empty. How do you know which is better?",
             "title": "Social proof",
             "text": "In uncertain situations we look to what others are doing. What many consider right seems right to us – especially when those others are similar to us.",
             "example": "“Bestseller”, star ratings and canned laughter on television use the same effect.",
@@ -1072,13 +1898,39 @@
                 ]
               ],
               "insight": "Ask yourself: do the others really know more than I do – or are they also just following the others?"
-            }
+            },
+            "recall": {
+              "question": "When do we orient ourselves particularly strongly by others' behaviour?",
+              "answer": "In uncertain situations – and especially when the others are similar to us."
+            },
+            "transfer": null,
+            "takeaway": "That many people do something only shows that many people do it."
           },
           {
+            "hook": "“Only 2 rooms left at this price!” What is happening to you right now?",
             "title": "Scarcity",
             "text": "What is rare or soon unavailable seems more valuable to us. According to Cialdini, behind this is also the dislike of losing an option.",
             "example": "“Only 2 rooms left at this price” creates pressure – regardless of how good the offer really is.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why is scarcity so powerful?",
+              "answer": "What is rare seems more valuable – and we dislike losing an option."
+            },
+            "transfer": {
+              "situation": "An online shop shows: “3 left – 14 people are looking at this right now.” You were actually unsure.",
+              "options": [
+                [
+                  "Buy quickly before it is gone",
+                  "Two principles are at work at once here: scarcity and social proof. Neither says anything about the quality of the product."
+                ],
+                [
+                  "Close the page and decide tomorrow",
+                  "A good test: if you still want it tomorrow, the wish was real. If the offer is gone by then, you have usually lost little."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Time pressure is no argument for the quality of an offer."
           }
         ],
         "limits": "The other three principles are consistency, liking and authority; Cialdini later added “unity”. How strong the effects are depends heavily on the situation – they turn out differently in the laboratory and in everyday life. The book explains mechanisms, not sure-fire recipes.",
@@ -1098,10 +1950,24 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst zwei Denkfehler benennen, die unser Bild der Welt zu düster machen, und weißt, wie du sie prüfst.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "c22"
+      },
+      {
+        "kind": "question",
+        "id": "c24"
+      }
+    ],
     "thesis": "Die Roslings zeigen, dass die meisten Menschen – auch sehr gebildete – den Zustand der Welt deutlich zu düster einschätzen. Schuld seien nicht fehlende Informationen, sondern Instinkte, die unseren Blick verzerren.",
     "ideas": [
       {
         "id": "b-rosling-1",
+        "format": "challenge",
+        "evidence": "evidence",
+        "hook": "Wie viele der einjährigen Kinder weltweit sind geimpft: 20, 50 oder 80 Prozent?",
         "title": "Schlechter als Schimpansen",
         "text": "Rosling stellte Tausenden Menschen einfache Fragen zur Welt mit drei Antwortmöglichkeiten. Die meisten schnitten schlechter ab als der Zufall – ihr Weltbild war nicht nur lückenhaft, sondern systematisch zu negativ.",
         "example": "Viele glauben, die extreme Armut habe weltweit zugenommen. Tatsächlich hat sich ihr Anteil in den zwanzig Jahren vor Erscheinen des Buches etwa halbiert.",
@@ -1123,21 +1989,58 @@
             ]
           ],
           "insight": "Unser Weltbild stammt oft aus der Schulzeit und aus Schlagzeilen – nicht aus aktuellen Zahlen."
-        }
+        },
+        "recall": {
+          "question": "Was zeigten Roslings Wissenstests über unser Weltbild?",
+          "answer": "Die meisten Menschen schnitten schlechter ab als der Zufall – ihr Weltbild war systematisch zu negativ."
+        },
+        "transfer": null,
+        "takeaway": "Unser Bild der Welt ist oft Jahrzehnte alt."
       },
       {
         "id": "b-rosling-2",
+        "format": "spot",
+        "evidence": "thesis",
+        "hook": "„Die Reichen und die Armen“ – wo lebt eigentlich die Mehrheit der Menschheit?",
         "title": "Der Instinkt der Kluft",
         "text": "Wir teilen die Welt gern in zwei Lager: reich und arm, „wir“ und „die“. Die Roslings zeigen, dass die große Mehrheit der Menschen dazwischen lebt, und schlagen stattdessen vier Einkommensstufen vor.",
         "example": "Die meisten Menschen leben weder in bitterer Armut noch im Wohlstand, sondern in Ländern mittleren Einkommens.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was ist der „Instinkt der Kluft“?",
+          "answer": "Die Neigung, die Welt in zwei gegensätzliche Lager zu teilen, obwohl die meisten Menschen dazwischen leben."
+        },
+        "transfer": null,
+        "takeaway": "Zwischen den Extremen liegt die Mehrheit."
       },
       {
         "id": "b-rosling-3",
+        "format": "apply",
+        "evidence": "thesis",
+        "hook": "Warum hörst du von jedem Flugzeugabsturz, aber nie von 100.000 sicheren Landungen?",
         "title": "Der Instinkt der Negativität",
         "text": "Schlechte Nachrichten erreichen uns eher als gute: Katastrophen sind Ereignisse, allmähliche Verbesserungen nicht. Rosling empfiehlt, zwei Gedanken gleichzeitig zu halten – etwas kann schlimm sein und trotzdem besser werden.",
         "example": "Ein Flugzeugabsturz ist eine Meldung. Dass an einem Tag 100.000 Flüge sicher gelandet sind, ist keine.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Welche zwei Gedanken soll man nach Rosling gleichzeitig halten?",
+          "answer": "Etwas kann schlimm sein – und trotzdem besser werden."
+        },
+        "transfer": {
+          "situation": "Du liest die Schlagzeile: „Zahl der Hai-Angriffe verdoppelt!“",
+          "options": [
+            [
+              "Den nächsten Strandurlaub überdenken",
+              "Eine Verdopplung klingt dramatisch – aber von welcher Zahl? Von fünf auf zehn bei Millionen Badenden bleibt das Risiko winzig."
+            ],
+            [
+              "Nachsehen: Wie viele sind es absolut – und im Vergleich wozu?",
+              "Das ist Roslings Rat: Eine einzelne Zahl sagt wenig. Erst der Vergleich und die Größenordnung machen sie verständlich."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Schlechte Nachrichten sind Ereignisse, gute sind Entwicklungen – deshalb sieht man sie nicht."
       }
     ],
     "limits": "Kritiker werfen dem Buch vor, die Kennzahlen auszuwählen, die sich verbessert haben, und Probleme wie Klimawandel, Artensterben oder Ungleichheit innerhalb von Ländern zu kurz zu behandeln. Dass sich vieles gebessert hat, sagt zudem nichts darüber, ob es so weitergeht.",
@@ -1154,16 +2057,18 @@
         "url": "https://de.wikipedia.org/wiki/Hans_Rosling"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T02:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can name two thinking errors that make our view of the world too gloomy, and know how to check them.",
         "thesis": "The Roslings show that most people – including very educated ones – judge the state of the world to be far gloomier than it is. The cause, they say, is not a lack of information but instincts that distort our view.",
         "ideas": [
           {
+            "hook": "How many of the world's one-year-olds are vaccinated: 20, 50 or 80 percent?",
             "title": "Worse than chimpanzees",
             "text": "Rosling asked thousands of people simple questions about the world with three possible answers. Most did worse than chance – their world view was not just patchy but systematically too negative.",
             "example": "Many believe extreme poverty has increased worldwide. In fact its share roughly halved in the twenty years before the book was published.",
@@ -1185,19 +2090,52 @@
                 ]
               ],
               "insight": "Our view of the world often comes from our school days and from headlines – not from current figures."
-            }
+            },
+            "recall": {
+              "question": "What did Rosling's knowledge tests show about our view of the world?",
+              "answer": "Most people scored worse than chance – their view of the world was systematically too negative."
+            },
+            "transfer": null,
+            "takeaway": "Our picture of the world is often decades old."
           },
           {
+            "hook": "“The rich and the poor” – where does the majority of humanity actually live?",
             "title": "The gap instinct",
             "text": "We like to divide the world into two camps: rich and poor, “us” and “them”. The Roslings show that the great majority of people live in between, and propose four income levels instead.",
             "example": "Most people live neither in bitter poverty nor in affluence but in middle-income countries.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What is the “gap instinct”?",
+              "answer": "The tendency to divide the world into two opposing camps although most people live in between."
+            },
+            "transfer": null,
+            "takeaway": "The majority lies between the extremes."
           },
           {
+            "hook": "Why do you hear about every plane crash but never about 100,000 safe landings?",
             "title": "The negativity instinct",
             "text": "Bad news reaches us more readily than good: disasters are events, gradual improvements are not. Rosling recommends holding two thoughts at once – something can be bad and still be getting better.",
             "example": "A plane crash is a news story. That 100,000 flights landed safely in a day is not.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Which two thoughts should one hold at the same time, according to Rosling?",
+              "answer": "Something can be bad – and still be getting better."
+            },
+            "transfer": {
+              "situation": "You read the headline: “Number of shark attacks doubled!”",
+              "options": [
+                [
+                  "Reconsider the next beach holiday",
+                  "A doubling sounds dramatic – but from what number? From five to ten among millions of bathers, the risk remains tiny."
+                ],
+                [
+                  "Look up: how many in absolute terms – and compared with what?",
+                  "This is Rosling's advice: a single number says little. Only comparison and scale make it understandable."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Bad news comes as events, good news as trends – which is why you do not see it."
           }
         ],
         "limits": "Critics accuse the book of selecting the indicators that have improved and of giving too little space to problems such as climate change, species loss or inequality within countries. That much has improved also says nothing about whether it will continue.",
@@ -1217,17 +2155,53 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst Bestände, Flüsse und Rückkopplungen in einem Alltagssystem erkennen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-housel"
+      },
+      {
+        "kind": "question",
+        "id": "g22"
+      }
+    ],
     "thesis": "Meadows zeigt, dass sich das Verhalten von Unternehmen, Ökosystemen oder Volkswirtschaften oft besser aus ihrer Struktur erklären lässt als aus den Absichten der Beteiligten. Wer Bestände, Flüsse und Rückkopplungen sieht, versteht, warum gut gemeinte Eingriffe scheitern.",
     "ideas": [
       {
         "id": "b-meadows-1",
+        "format": "model",
+        "evidence": "evidence",
+        "hook": "Warum steigt der Wasserstand in der Wanne weiter, obwohl du den Hahn schon halb zugedreht hast?",
         "title": "Bestände und Flüsse",
         "text": "Ein Bestand ist das, was sich ansammelt: Wasser in einer Wanne, Geld auf einem Konto, CO₂ in der Atmosphäre. Er ändert sich nur durch Zu- und Abflüsse – und deshalb träge. Viele Probleme entstehen, weil wir auf die Flüsse schauen und den Bestand vergessen.",
         "example": "Auch wenn die Emissionen sinken, steigt die CO₂-Menge in der Luft weiter – solange der Zufluss größer ist als der Abfluss.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Wodurch ändert sich ein Bestand – und warum nur langsam?",
+          "answer": "Nur durch Zu- und Abflüsse. Solange der Zufluss größer ist als der Abfluss, wächst er weiter."
+        },
+        "transfer": {
+          "situation": "Jemand sagt: „Die CO₂-Emissionen sinken endlich – dann geht auch die CO₂-Menge in der Luft zurück.“",
+          "options": [
+            [
+              "Zustimmen: weniger Ausstoß, weniger CO₂ in der Luft",
+              "Das verwechselt Fluss und Bestand. Auch ein kleinerer Zufluss füllt die Wanne weiter, solange er größer ist als der Abfluss."
+            ],
+            [
+              "Widersprechen: Die Menge steigt weiter, nur langsamer",
+              "Richtig gedacht: Der Bestand in der Atmosphäre sinkt erst, wenn weniger hineinkommt, als Ozeane und Pflanzen aufnehmen."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Den Zufluss zu senken reicht nicht – er muss kleiner werden als der Abfluss."
       },
       {
         "id": "b-meadows-2",
+        "format": "compare",
+        "evidence": "evidence",
+        "hook": "Was haben ein Thermostat und ein Gerücht gemeinsam – und was unterscheidet sie?",
         "title": "Rückkopplungen",
         "text": "Systeme steuern sich über Schleifen. Eine ausgleichende Rückkopplung wirkt einer Veränderung entgegen, wie ein Thermostat. Eine verstärkende treibt sie weiter an – in beide Richtungen, als Aufwärts- oder Abwärtsspirale.",
         "example": "Zinsen auf ein Guthaben bringen mehr Guthaben, das wieder mehr Zinsen bringt: eine verstärkende Schleife.",
@@ -1239,14 +2213,29 @@
             "Noch mehr Guthaben"
           ],
           "note": "Verstärkende Schleife: Sie wächst, bis eine ausgleichende Schleife sie bremst."
-        }
+        },
+        "recall": {
+          "question": "Was ist der Unterschied zwischen ausgleichender und verstärkender Rückkopplung?",
+          "answer": "Die ausgleichende wirkt einer Veränderung entgegen, die verstärkende treibt sie weiter an."
+        },
+        "transfer": null,
+        "takeaway": "Verstärkende Schleifen erklären Spiralen – nach oben wie nach unten."
       },
       {
         "id": "b-meadows-3",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Warum senkt ein Stromzähler im Flur den Verbrauch – ganz ohne neue Regeln?",
         "title": "Hebelpunkte",
         "text": "Nicht jeder Eingriff wirkt gleich stark. Meadows ordnet „Hebelpunkte“ nach ihrer Wirkung: Zahlen wie Steuersätze zu verändern bewirkt meist wenig; Regeln, Informationsflüsse und vor allem die Ziele eines Systems zu verändern bewirkt viel.",
         "example": "Ein Stromzähler, der gut sichtbar im Flur hängt statt im Keller, senkt nachweislich den Verbrauch – allein durch die Information.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Welche Eingriffe wirken nach Meadows stärker: Zahlen ändern oder Informationsflüsse und Ziele ändern?",
+          "answer": "Informationsflüsse, Regeln und vor allem die Ziele eines Systems. Zahlen wie Steuersätze bewirken meist wenig."
+        },
+        "transfer": null,
+        "takeaway": "Wer sieht, was sein Verhalten bewirkt, verhält sich anders."
       }
     ],
     "limits": "Das Buch erschien 2008 nach Meadows’ Tod aus einem älteren Manuskript; ihre Beispiele sind bewusst einfach. Systemmodelle hängen stark von ihren Annahmen ab – sie helfen beim Denken, sagen aber die Zukunft nicht zuverlässig voraus.",
@@ -1263,22 +2252,44 @@
         "url": "https://de.wikipedia.org/wiki/Systemdenken_(Systemtheorie)"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T01:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can identify stocks, flows and feedback loops in an everyday system.",
         "thesis": "Meadows shows that the behaviour of companies, ecosystems or economies can often be explained better by their structure than by the intentions of those involved. Seeing stocks, flows and feedback helps to understand why well-meant interventions fail.",
         "ideas": [
           {
+            "hook": "Why does the water level in the bath keep rising although you have already turned the tap half off?",
             "title": "Stocks and flows",
             "text": "A stock is whatever accumulates: water in a bathtub, money in an account, CO₂ in the atmosphere. It changes only through inflows and outflows – and therefore slowly. Many problems arise because we look at the flows and forget the stock.",
             "example": "Even when emissions fall, the amount of CO₂ in the air keeps rising – as long as the inflow is larger than the outflow.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What changes a stock – and why only slowly?",
+              "answer": "Only inflows and outflows. As long as the inflow is larger than the outflow, it keeps growing."
+            },
+            "transfer": {
+              "situation": "Someone says: “CO₂ emissions are finally falling – so the amount of CO₂ in the air is going down too.”",
+              "options": [
+                [
+                  "Agree: lower emissions, less CO₂ in the air",
+                  "This confuses flow and stock. Even a smaller inflow keeps filling the bath as long as it is larger than the outflow."
+                ],
+                [
+                  "Disagree: the amount keeps rising, only more slowly",
+                  "Correct thinking: the stock in the atmosphere only falls when less comes in than oceans and plants take up."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Reducing the inflow is not enough – it has to become smaller than the outflow."
           },
           {
+            "hook": "What do a thermostat and a rumour have in common – and what distinguishes them?",
             "title": "Feedback loops",
             "text": "Systems regulate themselves through loops. A balancing loop counteracts a change, like a thermostat. A reinforcing loop drives it on – in either direction, as an upward or a downward spiral.",
             "example": "Interest on a balance produces a bigger balance, which again produces more interest: a reinforcing loop.",
@@ -1290,13 +2301,26 @@
                 "Even bigger balance"
               ],
               "note": "Reinforcing loop: it grows until a balancing loop slows it down."
-            }
+            },
+            "recall": {
+              "question": "What is the difference between balancing and reinforcing feedback?",
+              "answer": "The balancing loop counteracts a change, the reinforcing loop drives it further."
+            },
+            "transfer": null,
+            "takeaway": "Reinforcing loops explain spirals – upwards as well as downwards."
           },
           {
+            "hook": "Why does an electricity meter in the hall lower consumption – without any new rules?",
             "title": "Leverage points",
             "text": "Not every intervention has the same effect. Meadows ranks “leverage points” by their power: changing numbers such as tax rates usually achieves little; changing rules, information flows and above all the goals of a system achieves a lot.",
             "example": "An electricity meter hanging clearly visible in the hall instead of the cellar demonstrably lowers consumption – through information alone.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Which interventions are more powerful according to Meadows: changing numbers or changing information flows and goals?",
+              "answer": "Information flows, rules and above all the goals of a system. Numbers such as tax rates usually achieve little."
+            },
+            "transfer": null,
+            "takeaway": "Whoever sees what their behaviour causes behaves differently."
           }
         ],
         "limits": "The book was published in 2008 after Meadows' death from an older manuscript; her examples are deliberately simple. System models depend heavily on their assumptions – they help with thinking but do not reliably predict the future.",
@@ -1316,10 +2340,20 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst tiefe von oberflächlicher Arbeit unterscheiden und einen ungestörten Arbeitsblock planen.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-brown"
+      }
+    ],
     "thesis": "Newport behauptet, dass die Fähigkeit, lange und ungestört an schwierigen Dingen zu arbeiten, immer seltener und zugleich immer wertvoller wird. Wer sie trainiert, lernt schneller und leistet in weniger Zeit mehr.",
     "ideas": [
       {
         "id": "b-newport-1",
+        "format": "compare",
+        "evidence": "thesis",
+        "hook": "Du hast acht Stunden gearbeitet und bist erschöpft. Was hast du eigentlich geschafft?",
         "title": "Tiefe und oberflächliche Arbeit",
         "text": "„Deep Work“ nennt Newport konzentrierte Arbeit ohne Ablenkung, die das Denken an seine Grenze bringt. „Shallow Work“ sind Aufgaben, die man auch halb abgelenkt erledigen kann – E-Mails, Abstimmungen, Formulare. Sie fühlen sich produktiv an, schaffen aber wenig Neues.",
         "example": "Eine Stunde am Stück an einem schwierigen Text bringt oft mehr als ein ganzer Tag, der von Nachrichten zerhackt wird.",
@@ -1339,21 +2373,58 @@
             "Lernen, Schreiben, Lösen",
             "schafft bleibenden Wert"
           ]
-        }
+        },
+        "recall": {
+          "question": "Was unterscheidet „Deep Work“ von „Shallow Work“?",
+          "answer": "Deep Work braucht volle, ungestörte Konzentration und schafft bleibenden Wert. Shallow Work lässt sich nebenbei erledigen."
+        },
+        "transfer": null,
+        "takeaway": "Beschäftigt sein ist nicht dasselbe wie etwas Wertvolles schaffen."
       },
       {
         "id": "b-newport-2",
+        "format": "explain",
+        "evidence": "evidence",
+        "hook": "Warum kostet ein „kurzer Blick“ aufs Handy mehr als die zehn Sekunden, die er dauert?",
         "title": "Aufmerksamkeitsreste",
         "text": "Wer von einer Aufgabe zur nächsten springt, nimmt einen Teil der Aufmerksamkeit mit. Newport stützt sich dabei auf die Forscherin Sophie Leroy: Nach jedem Wechsel arbeitet man eine Weile schlechter – auch nach einem „kurzen Blick“ aufs Handy.",
         "example": "Deshalb empfiehlt er feste Blöcke für tiefe Arbeit und feste Zeiten für E-Mails, statt beides zu mischen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was sind Aufmerksamkeitsreste?",
+          "answer": "Nach einem Aufgabenwechsel bleibt ein Teil der Aufmerksamkeit bei der alten Aufgabe – man arbeitet eine Weile schlechter."
+        },
+        "transfer": {
+          "situation": "Du musst bis Freitag einen schwierigen Bericht schreiben. Dein Kalender ist voller kurzer Termine.",
+          "options": [
+            [
+              "Zwei 90-Minuten-Blöcke freihalten, Benachrichtigungen aus",
+              "Das ist Newports Vorschlag: wenige, aber ungestörte Blöcke. E-Mails bekommen danach ein eigenes Zeitfenster."
+            ],
+            [
+              "Immer zwischen den Terminen ein paar Zeilen schreiben",
+              "So zahlst du bei jedem Wechsel mit Aufmerksamkeitsresten. Für anspruchsvolles Denken reichen Zehn-Minuten-Lücken selten."
+            ]
+          ],
+          "best": 0
+        },
+        "takeaway": "Jeder Wechsel hinterlässt einen Rest – und Reste summieren sich."
       },
       {
         "id": "b-newport-3",
+        "format": "challenge",
+        "evidence": "thesis",
+        "hook": "Wann hast du zuletzt zwei Minuten gewartet, ohne zum Handy zu greifen?",
         "title": "Langeweile aushalten",
         "text": "Konzentration ist für Newport ein Muskel. Wer jede freie Minute mit dem Handy füllt, trainiert das Gehirn darauf, bei der kleinsten Langeweile Ablenkung zu verlangen – und kann sie dann auch bei der Arbeit nicht mehr abstellen.",
         "example": "In der Schlange im Supermarkt einfach mal warten, ohne das Telefon herauszuholen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum ist es nach Newport wichtig, Langeweile auszuhalten?",
+          "answer": "Weil Konzentration trainiert werden muss: Wer jede Lücke mit Ablenkung füllt, kann sie auch bei der Arbeit nicht abstellen."
+        },
+        "transfer": null,
+        "takeaway": "Konzentration ist ein Muskel – und Ablenkung auch."
       }
     ],
     "limits": "Newport ist Informatikprofessor und schreibt aus einer Lage, in der man seine Zeit selbst einteilen kann. Wer Kunden bedient, pflegt oder im Team auf Zuruf arbeitet, kann seine Tage nicht einfach blocken. Vieles stützt sich auf Beispiele erfolgreicher Einzelner.",
@@ -1369,16 +2440,18 @@
         "url": "https://de.wikipedia.org/wiki/Cal_Newport"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-16T00:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can tell deep from shallow work and plan an undisturbed block of work.",
         "thesis": "Newport claims that the ability to work for long, undisturbed stretches on difficult things is becoming ever rarer and at the same time ever more valuable. Those who train it learn faster and achieve more in less time.",
         "ideas": [
           {
+            "hook": "You have worked eight hours and are exhausted. What have you actually achieved?",
             "title": "Deep and shallow work",
             "text": "Newport calls concentrated, distraction-free work that pushes thinking to its limit “deep work”. “Shallow work” is tasks that can be done half-distracted – emails, coordination, forms. They feel productive but create little that is new.",
             "example": "One uninterrupted hour on a difficult text often achieves more than a whole day chopped up by messages.",
@@ -1398,19 +2471,52 @@
                 "learning, writing, solving",
                 "creates lasting value"
               ]
-            }
+            },
+            "recall": {
+              "question": "What distinguishes “deep work” from “shallow work”?",
+              "answer": "Deep work needs full, undisturbed concentration and creates lasting value. Shallow work can be done on the side."
+            },
+            "transfer": null,
+            "takeaway": "Being busy is not the same as creating something of value."
           },
           {
+            "hook": "Why does a “quick look” at your phone cost more than the ten seconds it takes?",
             "title": "Attention residue",
             "text": "Whoever jumps from one task to the next carries part of their attention along. Newport relies here on the researcher Sophie Leroy: after every switch you work worse for a while – even after a “quick look” at your phone.",
             "example": "That is why he recommends fixed blocks for deep work and fixed times for email instead of mixing the two.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What is attention residue?",
+              "answer": "After switching tasks, part of your attention stays with the old task – you work worse for a while."
+            },
+            "transfer": {
+              "situation": "You have to write a difficult report by Friday. Your calendar is full of short appointments.",
+              "options": [
+                [
+                  "Keep two 90-minute blocks free, notifications off",
+                  "This is Newport's suggestion: few but undisturbed blocks. Email gets its own time slot afterwards."
+                ],
+                [
+                  "Write a few lines between appointments each time",
+                  "This way you pay with attention residue at every switch. Ten-minute gaps are rarely enough for demanding thought."
+                ]
+              ],
+              "best": 0
+            },
+            "takeaway": "Every switch leaves a residue – and residues add up."
           },
           {
+            "hook": "When did you last wait two minutes without reaching for your phone?",
             "title": "Putting up with boredom",
             "text": "For Newport, concentration is a muscle. Whoever fills every free minute with their phone trains the brain to demand distraction at the slightest boredom – and can then no longer switch that off at work either.",
             "example": "Just wait in the supermarket queue for once without taking out your phone.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why is it important, according to Newport, to put up with boredom?",
+              "answer": "Because concentration has to be trained: whoever fills every gap with distraction cannot switch it off at work either."
+            },
+            "transfer": null,
+            "takeaway": "Concentration is a muscle – and so is distraction."
           }
         ],
         "limits": "Newport is a computer science professor and writes from a position in which you can organise your own time. Those who serve customers, provide care or work in a team on call cannot simply block out their days. Much rests on examples of successful individuals.",
@@ -1430,10 +2536,20 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst statisches und dynamisches Selbstbild unterscheiden und Lob so formulieren, dass es das Lernen fördert.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-brown"
+      }
+    ],
     "thesis": "Dweck unterscheidet zwei Überzeugungen über die eigenen Fähigkeiten: dass sie feststehen oder dass sie sich entwickeln lassen. Welche davon jemand hat, beeinflusst nach ihrer Forschung, wie er mit Herausforderungen und Rückschlägen umgeht.",
     "ideas": [
       {
         "id": "b-dweck-1",
+        "format": "compare",
+        "evidence": "debated",
+        "hook": "Zwei Kinder scheitern an derselben Aufgabe. Eines gibt auf, eines sagt „Spannend!“. Was unterscheidet sie?",
         "title": "Zwei Selbstbilder",
         "text": "Im statischen Selbstbild gelten Begabung und Intelligenz als gegeben – jede Aufgabe wird zum Test, ob man „es hat“. Im dynamischen Selbstbild gelten sie als trainierbar – eine schwere Aufgabe ist dann eine Gelegenheit, besser zu werden.",
         "example": "Dieselbe schlechte Note: „Ich bin eben schlecht in Mathe“ – oder „Ich habe das noch nicht verstanden“.",
@@ -1453,21 +2569,58 @@
             "Fehler = Information",
             "Anstrengung ist der Weg"
           ]
-        }
+        },
+        "recall": {
+          "question": "Was unterscheidet das statische vom dynamischen Selbstbild?",
+          "answer": "Statisch: Fähigkeiten stehen fest. Dynamisch: Fähigkeiten lassen sich durch Übung entwickeln."
+        },
+        "transfer": null,
+        "takeaway": "Ob du eine Schwierigkeit als Urteil oder als Übung siehst, entscheidet, was du daraus machst."
       },
       {
         "id": "b-dweck-2",
+        "format": "apply",
+        "evidence": "debated",
+        "hook": "Ist „Du bist so klug!“ ein gutes Lob?",
         "title": "Lob für den Weg, nicht für das Talent",
         "text": "In Dwecks Versuchen wählten Kinder, die für ihre Klugheit gelobt wurden, danach lieber leichte Aufgaben. Kinder, die für ihre Anstrengung gelobt wurden, trauten sich an schwierigere heran und hielten länger durch.",
         "example": "Statt „Du bist so schlau“: „Du hast verschiedene Wege ausprobiert, bis es geklappt hat.“",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Wofür sollte man nach Dwecks Versuchen loben?",
+          "answer": "Für Anstrengung und Vorgehen, nicht für Begabung – sonst meiden Kinder schwierige Aufgaben."
+        },
+        "transfer": {
+          "situation": "Deine kleine Schwester zeigt dir stolz eine Eins in Mathe.",
+          "options": [
+            [
+              "„Du bist eben ein Mathe-Genie!“",
+              "Gut gemeint – aber so wird die nächste schlechte Note zum Beweis, dass sie doch keines ist. Solches Lob macht vorsichtig."
+            ],
+            [
+              "„Du hast dich richtig reingehängt – was hat am meisten geholfen?“",
+              "Das lenkt den Blick auf das, was sie beeinflussen kann. Genau diesen Unterschied fand Dweck in ihren Versuchen."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Lobe den Weg, nicht das Talent."
       },
       {
         "id": "b-dweck-3",
+        "format": "remember",
+        "evidence": "thesis",
+        "hook": "Welches Wort macht aus „Ich kann das nicht“ einen Plan?",
         "title": "Die Macht des „noch nicht“",
         "text": "Ein einziges Wort verändert nach Dweck die Bedeutung eines Misserfolgs: „Ich kann das nicht“ beschreibt einen Zustand, „Ich kann das noch nicht“ einen Weg. Niemand hat dabei nur ein Selbstbild – es wechselt je nach Gebiet und Situation.",
         "example": "Wer sich für unmusikalisch hält, kann beim Sport durchaus ein dynamisches Selbstbild haben.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Welches Wort empfiehlt Dweck anzuhängen – und was bewirkt es?",
+          "answer": "„Noch“: „Ich kann das noch nicht“ beschreibt einen Weg statt eines Zustands."
+        },
+        "transfer": null,
+        "takeaway": "„Noch nicht“ ist kein Scheitern, sondern eine Position auf dem Weg."
       }
     ],
     "limits": "Große Studien und Metaanalysen fanden für Mindset-Programme an Schulen meist nur kleine Effekte, die vor allem schwächeren Schülern nützen. Dweck selbst warnt vor einem „falschen“ dynamischen Selbstbild: bloß Anstrengung zu loben, ohne dass jemand tatsächlich dazulernt.",
@@ -1484,16 +2637,18 @@
         "url": "https://de.wikipedia.org/wiki/Carol_Dweck"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-15T23:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can tell fixed from growth mindset and phrase praise so that it supports learning.",
         "thesis": "Dweck distinguishes two beliefs about one's own abilities: that they are fixed or that they can be developed. According to her research, which of these someone holds influences how they deal with challenges and setbacks.",
         "ideas": [
           {
+            "hook": "Two children fail at the same task. One gives up, one says “Interesting!”. What distinguishes them?",
             "title": "Two mindsets",
             "text": "In the fixed mindset, talent and intelligence are seen as given – every task becomes a test of whether you “have it”. In the growth mindset they are seen as trainable – a hard task is then an opportunity to get better.",
             "example": "The same bad mark: “I'm just bad at maths” – or “I haven't understood this yet”.",
@@ -1513,19 +2668,52 @@
                 "mistakes = information",
                 "effort is the way"
               ]
-            }
+            },
+            "recall": {
+              "question": "What distinguishes the fixed from the growth mindset?",
+              "answer": "Fixed: abilities are given. Growth: abilities can be developed through practice."
+            },
+            "transfer": null,
+            "takeaway": "Whether you see a difficulty as a verdict or as practice decides what you make of it."
           },
           {
+            "hook": "Is “You're so clever!” good praise?",
             "title": "Praise the process, not the talent",
             "text": "In Dweck's experiments, children praised for being clever afterwards preferred easy tasks. Children praised for their effort dared to take on harder ones and persisted longer.",
             "example": "Instead of “You're so smart”: “You tried different approaches until it worked.”",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What should one praise, according to Dweck's experiments?",
+              "answer": "Effort and approach, not talent – otherwise children avoid difficult tasks."
+            },
+            "transfer": {
+              "situation": "Your little sister proudly shows you a top mark in maths.",
+              "options": [
+                [
+                  "“You're just a maths genius!”",
+                  "Well meant – but this turns the next bad mark into proof that she is not one after all. Such praise makes children cautious."
+                ],
+                [
+                  "“You really put the work in – what helped most?”",
+                  "This directs attention to what she can influence. Exactly the difference Dweck found in her experiments."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Praise the process, not the talent."
           },
           {
+            "hook": "Which word turns “I can't do this” into a plan?",
             "title": "The power of “not yet”",
             "text": "According to Dweck, a single word changes the meaning of a failure: “I can't do this” describes a state, “I can't do this yet” a path. Nobody has only one mindset – it varies by field and situation.",
             "example": "Someone who thinks they are unmusical may well have a growth mindset in sport.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Which word does Dweck recommend adding – and what does it do?",
+              "answer": "“Yet”: “I can't do this yet” describes a path instead of a state."
+            },
+            "transfer": null,
+            "takeaway": "“Not yet” is not failure but a position on the way."
           }
         ],
         "limits": "Large studies and meta-analyses have mostly found only small effects for mindset programmes in schools, mainly benefiting weaker students. Dweck herself warns of a “false” growth mindset: merely praising effort without anyone actually learning more.",
@@ -1545,10 +2733,20 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst drei Lernmethoden nennen, die nachweislich besser wirken als Wiederlesen, und eine davon heute anwenden.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-dweck"
+      }
+    ],
     "thesis": "Die Autoren – zwei Gedächtnisforscher und ein Schriftsteller – zeigen, dass die beliebtesten Lernmethoden die schwächsten sind. Was sich leicht anfühlt, bleibt selten hängen; wirksames Lernen ist anstrengend.",
     "ideas": [
       {
         "id": "b-brown-1",
+        "format": "challenge",
+        "evidence": "evidence",
+        "hook": "Du hast das Kapitel dreimal gelesen und alles markiert. Warum weißt du in der Prüfung trotzdem so wenig?",
         "title": "Abrufen statt wiederlesen",
         "text": "Einen Text mehrmals zu lesen und anzustreichen erzeugt ein Gefühl von Vertrautheit, das wir mit Wissen verwechseln. Deutlich wirksamer ist es, das Buch zuzuklappen und sich selbst abzufragen: Jedes Abrufen festigt die Erinnerung.",
         "example": "Nach einem Kapitel drei Fragen aufschreiben und am nächsten Tag ohne Nachsehen beantworten.",
@@ -1568,21 +2766,58 @@
             "über Tage verteilen",
             "Themen abwechseln"
           ]
-        }
+        },
+        "recall": {
+          "question": "Was wirkt besser als mehrfaches Durchlesen – und warum?",
+          "answer": "Sich selbst abfragen: Jedes Abrufen aus dem Gedächtnis festigt die Erinnerung, Wiederlesen erzeugt nur Vertrautheit."
+        },
+        "transfer": {
+          "situation": "In drei Tagen schreibst du einen Test über 40 Vokabeln. Du hast pro Tag 20 Minuten.",
+          "options": [
+            [
+              "Jeden Tag die Liste zweimal aufmerksam durchlesen",
+              "Das fühlt sich gut an, weil die Wörter vertraut wirken – aber Wiedererkennen ist nicht Erinnern."
+            ],
+            [
+              "Die deutsche Seite abdecken und dich jeden Tag selbst abfragen",
+              "Abrufen plus Verteilen über drei Tage: genau die Kombination, die in der Lernforschung am besten belegt ist."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Was sich beim Lernen leicht anfühlt, bleibt selten hängen."
       },
       {
         "id": "b-brown-2",
+        "format": "explain",
+        "evidence": "evidence",
+        "hook": "Warum ist es gut, zwischen zwei Lerneinheiten etwas zu vergessen?",
         "title": "Verteilt lernen",
         "text": "Wer Wiederholungen über Tage und Wochen verteilt, behält mehr als jemand, der dieselbe Zeit am Stück lernt. Das teilweise Vergessen dazwischen ist kein Fehler, sondern der Grund: Das Gehirn muss die Erinnerung neu aufbauen und stärkt sie dabei.",
         "example": "Vokabeln lieber an fünf Tagen je zehn Minuten als einmal fünfzig Minuten.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum wirkt verteiltes Lernen besser als Lernen am Stück?",
+          "answer": "Weil das Gehirn die halb vergessene Erinnerung neu aufbauen muss – und sie dabei stärkt."
+        },
+        "transfer": null,
+        "takeaway": "Fünfmal zehn Minuten schlagen einmal fünfzig."
       },
       {
         "id": "b-brown-3",
+        "format": "examples",
+        "evidence": "evidence",
+        "hook": "Soll man eine Aufgabe erst versuchen, bevor man die Lösung kennt – auch wenn man scheitert?",
         "title": "Erwünschte Schwierigkeiten",
         "text": "Lernen, das sich mühsam anfühlt, wirkt oft am besten. Die Autoren greifen dafür den Begriff „erwünschte Schwierigkeiten“ des Psychologen Robert Bjork auf: Aufgaben mischen, selbst nach einer Lösung suchen, bevor man sie gezeigt bekommt.",
         "example": "Erst selbst versuchen, eine Aufgabe zu lösen – auch wenn es misslingt –, und dann die Erklärung lesen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was sind „erwünschte Schwierigkeiten“?",
+          "answer": "Hürden, die das Lernen anstrengender, aber wirksamer machen – etwa Aufgaben mischen oder erst selbst nach der Lösung suchen."
+        },
+        "transfer": null,
+        "takeaway": "Die richtige Mühe beim Lernen ist kein Zeichen von Schwäche, sondern der Mechanismus."
       }
     ],
     "limits": "Die Befunde zu Abrufen und verteiltem Lernen gehören zu den am besten gesicherten der Lernforschung. Wie groß der Vorteil ist, hängt aber vom Stoff und vom Vorwissen ab – und nicht jede Schwierigkeit ist „erwünscht“: Ist eine Aufgabe zu schwer, lernt man wenig.",
@@ -1599,16 +2834,18 @@
         "url": "https://de.wikipedia.org/wiki/Lernen"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-15T22:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can name three study methods that demonstrably work better than rereading, and apply one of them today.",
         "thesis": "The authors – two memory researchers and a writer – show that the most popular learning methods are the weakest. What feels easy rarely sticks; effective learning is effortful.",
         "ideas": [
           {
+            "hook": "You have read the chapter three times and highlighted everything. Why do you still know so little in the exam?",
             "title": "Retrieve instead of rereading",
             "text": "Reading a text several times and highlighting it creates a feeling of familiarity that we mistake for knowledge. It is far more effective to close the book and quiz yourself: every act of retrieval strengthens the memory.",
             "example": "After a chapter, write down three questions and answer them the next day without looking.",
@@ -1628,19 +2865,52 @@
                 "spreading over days",
                 "mixing topics"
               ]
-            }
+            },
+            "recall": {
+              "question": "What works better than rereading – and why?",
+              "answer": "Quizzing yourself: every retrieval from memory strengthens it, whereas rereading only creates familiarity."
+            },
+            "transfer": {
+              "situation": "In three days you have a test on 40 vocabulary items. You have 20 minutes a day.",
+              "options": [
+                [
+                  "Read the list through attentively twice every day",
+                  "This feels good because the words seem familiar – but recognising is not remembering."
+                ],
+                [
+                  "Cover one side and quiz yourself every day",
+                  "Retrieval plus spacing over three days: exactly the combination best supported by learning research."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "What feels easy while learning rarely sticks."
           },
           {
+            "hook": "Why is it good to forget a little between two study sessions?",
             "title": "Spaced practice",
             "text": "Whoever spreads repetitions over days and weeks retains more than someone who studies for the same time in one go. The partial forgetting in between is not a flaw but the reason: the brain has to rebuild the memory and strengthens it in the process.",
             "example": "Vocabulary: rather ten minutes on each of five days than fifty minutes once.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why does spaced practice work better than cramming?",
+              "answer": "Because the brain has to rebuild the half-forgotten memory – and strengthens it in doing so."
+            },
+            "transfer": null,
+            "takeaway": "Five times ten minutes beat fifty minutes once."
           },
           {
+            "hook": "Should you attempt a problem before knowing the solution – even if you fail?",
             "title": "Desirable difficulties",
             "text": "Learning that feels laborious often works best. The authors take up the psychologist Robert Bjork's term “desirable difficulties”: mixing tasks, searching for a solution yourself before being shown it.",
             "example": "First try to solve a problem yourself – even if you fail – and then read the explanation.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What are “desirable difficulties”?",
+              "answer": "Hurdles that make learning more effortful but more effective – such as mixing tasks or first searching for the solution yourself."
+            },
+            "transfer": null,
+            "takeaway": "The right kind of effort in learning is not a sign of weakness but the mechanism."
           }
         ],
         "limits": "The findings on retrieval and spaced practice are among the best established in learning research. How large the advantage is depends, however, on the material and prior knowledge – and not every difficulty is “desirable”: if a task is too hard, little is learned.",
@@ -1660,28 +2930,79 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst erklären, was „egoistisch“ bei Dawkins bedeutet – und warum daraus trotzdem Hilfsbereitschaft entstehen kann.",
+    "links": [
+      {
+        "kind": "animation",
+        "id": "a-dna"
+      },
+      {
+        "kind": "question",
+        "id": "s54"
+      }
+    ],
     "thesis": "Dawkins schlägt vor, die Evolution aus der Sicht der Gene zu betrachten: Nicht Arten oder Individuen sind die Einheit, die über Generationen fortbesteht, sondern Gene. Lebewesen sind in seinem Bild die „Überlebensmaschinen“, die Gene sich gebaut haben.",
     "ideas": [
       {
         "id": "b-dawkins-1",
+        "format": "challenge",
+        "evidence": "thesis",
+        "hook": "Können Gene „etwas wollen“?",
         "title": "Der Blick des Gens",
         "text": "Ein Gen, das seinem Träger hilft, sich fortzupflanzen, wird in der nächsten Generation häufiger. „Egoistisch“ meint bei Dawkins nichts anderes: Gene haben keine Absichten, aber es setzen sich die durch, die ihre eigene Verbreitung begünstigen.",
         "example": "Ein Gen für schärfere Augen bei einem Greifvogel verbreitet sich, weil seine Träger mehr Beute machen und mehr Junge aufziehen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was meint Dawkins mit einem „egoistischen“ Gen?",
+          "answer": "Kein Wollen: Es setzen sich schlicht die Gene durch, die ihre eigene Verbreitung begünstigen."
+        },
+        "transfer": null,
+        "takeaway": "„Egoistisch“ beschreibt hier ein Ergebnis der Auslese, keine Absicht."
       },
       {
         "id": "b-dawkins-2",
+        "format": "explain",
+        "evidence": "evidence",
+        "hook": "Warum opfert sich eine Arbeiterbiene für ihren Stock, obwohl sie nie eigene Nachkommen hat?",
         "title": "Warum es trotzdem Selbstlosigkeit gibt",
         "text": "Aus egoistischen Genen folgen nicht egoistische Lebewesen. Hilft ein Tier seinen Verwandten, fördert es Kopien der eigenen Gene, die auch in ihnen stecken. Dawkins erklärt so Fürsorge, Warnrufe und die Arbeiterinnen im Bienenstock.",
         "example": "Eine Arbeiterbiene hat keinen eigenen Nachwuchs – aber sie hilft, ihre Schwestern aufzuziehen, mit denen sie besonders eng verwandt ist.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Wie erklärt die Sicht des Gens selbstloses Verhalten unter Verwandten?",
+          "answer": "Wer Verwandten hilft, fördert Kopien der eigenen Gene, die auch in ihnen stecken."
+        },
+        "transfer": {
+          "situation": "Jemand folgert: „Dawkins beweist, dass der Mensch von Natur aus egoistisch ist und es auch sein darf.“",
+          "options": [
+            [
+              "Zustimmen: So ist die Natur eben",
+              "Das ist das häufigste Missverständnis des Buchs. Dawkins beschreibt, wie Auslese wirkt – nicht, wie Menschen handeln sollen."
+            ],
+            [
+              "Widersprechen: Das Buch beschreibt Gene, nicht Moral",
+              "Richtig. Aus dem, was ist, folgt nicht, was sein soll. Dawkins selbst betont, dass Menschen sich gegen ihre Gene entscheiden können."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Egoistische Gene können selbstlose Lebewesen hervorbringen."
       },
       {
         "id": "b-dawkins-3",
+        "format": "remember",
+        "evidence": "debated",
+        "hook": "Woher kommt eigentlich das Wort „Meme“?",
         "title": "Das Mem",
         "text": "Im letzten Kapitel überträgt Dawkins die Idee auf die Kultur. Auch Melodien, Redewendungen oder Moden werden kopiert, verändert und ausgelesen. Für solche Einheiten erfand er das Wort „Mem“ – Jahrzehnte, bevor es im Internet eine neue Bedeutung bekam.",
         "example": "Ein Ohrwurm verbreitet sich von Kopf zu Kopf, unabhängig davon, ob er dem Menschen nützt.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was verstand Dawkins 1976 unter einem Mem?",
+          "answer": "Eine kulturelle Einheit – Melodie, Idee, Redewendung –, die kopiert, verändert und ausgelesen wird wie ein Gen."
+        },
+        "transfer": null,
+        "takeaway": "Auch Ideen verbreiten sich, weil sie sich gut kopieren lassen – nicht, weil sie wahr sind."
       }
     ],
     "limits": "Der Titel wird oft missverstanden: Dawkins beschreibt, wie Auslese wirkt, und empfiehlt keinen Egoismus. Unter Biologen ist umstritten, ob das Gen die einzige sinnvolle Ebene der Auslese ist; Gene wirken zudem selten einzeln, sondern im Zusammenspiel mit vielen anderen und mit der Umwelt.",
@@ -1698,32 +3019,67 @@
         "url": "https://de.wikipedia.org/wiki/Das_egoistische_Gen"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-15T21:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can explain what “selfish” means for Dawkins – and why helpfulness can nevertheless arise from it.",
         "thesis": "Dawkins proposes looking at evolution from the point of view of the genes: it is not species or individuals that persist over generations but genes. In his image, living things are the “survival machines” that genes have built for themselves.",
         "ideas": [
           {
+            "hook": "Can genes “want” anything?",
             "title": "The gene's-eye view",
             "text": "A gene that helps its carrier to reproduce becomes more common in the next generation. That is all “selfish” means for Dawkins: genes have no intentions, but those that favour their own spread prevail.",
             "example": "A gene for sharper eyes in a bird of prey spreads because its carriers catch more prey and raise more young.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What does Dawkins mean by a “selfish” gene?",
+              "answer": "No wanting: simply those genes prevail that favour their own spread."
+            },
+            "transfer": null,
+            "takeaway": "Here “selfish” describes an outcome of selection, not an intention."
           },
           {
+            "hook": "Why does a worker bee sacrifice herself for her hive although she never has offspring of her own?",
             "title": "Why there is altruism anyway",
             "text": "Selfish genes do not imply selfish organisms. When an animal helps its relatives, it promotes copies of its own genes that are also in them. Dawkins uses this to explain care, alarm calls and the workers in a beehive.",
             "example": "A worker bee has no offspring of her own – but she helps to raise her sisters, to whom she is particularly closely related.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "How does the gene's-eye view explain altruistic behaviour among relatives?",
+              "answer": "Whoever helps relatives promotes copies of their own genes that are also in them."
+            },
+            "transfer": {
+              "situation": "Someone concludes: “Dawkins proves that humans are selfish by nature and are allowed to be.”",
+              "options": [
+                [
+                  "Agree: that is just how nature is",
+                  "This is the most common misunderstanding of the book. Dawkins describes how selection works – not how people ought to act."
+                ],
+                [
+                  "Disagree: the book describes genes, not morality",
+                  "Correct. What is does not imply what ought to be. Dawkins himself stresses that humans can decide against their genes."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Selfish genes can produce altruistic organisms."
           },
           {
+            "hook": "Where does the word “meme” actually come from?",
             "title": "The meme",
             "text": "In the last chapter Dawkins applies the idea to culture. Tunes, catchphrases and fashions are also copied, altered and selected. For such units he invented the word “meme” – decades before it took on a new meaning on the internet.",
             "example": "A catchy tune spreads from head to head regardless of whether it benefits the person.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What did Dawkins mean by a meme in 1976?",
+              "answer": "A cultural unit – a tune, an idea, a catchphrase – that is copied, altered and selected like a gene."
+            },
+            "transfer": null,
+            "takeaway": "Ideas, too, spread because they copy well – not because they are true."
           }
         ],
         "limits": "The title is often misunderstood: Dawkins describes how selection works and does not recommend selfishness. Biologists dispute whether the gene is the only meaningful level of selection; genes also rarely act alone but in interplay with many others and with the environment.",
@@ -1743,28 +3099,83 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst erklären, woher wir wissen, dass das Universum einen Anfang hatte, und was an Schwarzen Löchern überraschend ist.",
+    "links": [
+      {
+        "kind": "animation",
+        "id": "a-sternentstehung"
+      },
+      {
+        "kind": "animation",
+        "id": "a-planetenbahn"
+      },
+      {
+        "kind": "question",
+        "id": "s53"
+      }
+    ],
     "thesis": "Hawking erklärt Laien, was die Physik über Ursprung, Aufbau und Schicksal des Universums weiß – vom Urknall bis zu Schwarzen Löchern – und warum Relativitätstheorie und Quantenphysik noch nicht zusammenpassen.",
     "ideas": [
       {
         "id": "b-hawking-1",
+        "format": "model",
+        "evidence": "evidence",
+        "hook": "Wenn sich alle Galaxien voneinander entfernen – wo ist dann die Mitte?",
         "title": "Das Universum hat einen Anfang",
         "text": "Die Galaxien entfernen sich voneinander: Der Raum selbst dehnt sich aus. Rechnet man zurück, war alles vor rund 13,8 Milliarden Jahren extrem dicht und heiß beisammen. Mit dem Urknall begannen nach heutigem Verständnis auch Raum und Zeit.",
         "example": "Wie Punkte auf einem Luftballon, der aufgeblasen wird: Jeder Punkt entfernt sich von jedem anderen, ohne dass es eine Mitte gibt.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Woraus schließen wir, dass das Universum einen Anfang hatte?",
+          "answer": "Der Raum dehnt sich aus. Rechnet man zurück, war alles vor rund 13,8 Milliarden Jahren extrem dicht und heiß beisammen."
+        },
+        "transfer": null,
+        "takeaway": "Der Urknall war keine Explosion im Raum – der Raum selbst begann sich auszudehnen."
       },
       {
         "id": "b-hawking-2",
+        "format": "challenge",
+        "evidence": "thesis",
+        "hook": "Kann aus einem Schwarzen Loch wirklich gar nichts entkommen?",
         "title": "Schwarze Löcher sind nicht ganz schwarz",
         "text": "Ein Schwarzes Loch hat eine so starke Schwerkraft, dass aus seinem Inneren nichts entkommt. Hawking zeigte 1974 rechnerisch, dass es durch Quanteneffekte an seinem Rand trotzdem eine schwache Strahlung abgibt – und so über unvorstellbar lange Zeit verdampfen kann.",
         "example": "Diese „Hawking-Strahlung“ ist bei echten Schwarzen Löchern so schwach, dass sie bisher nicht direkt gemessen wurde.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Was sagte Hawking 1974 über Schwarze Löcher voraus?",
+          "answer": "Dass sie durch Quanteneffekte an ihrem Rand eine schwache Strahlung abgeben und so langsam Masse verlieren."
+        },
+        "transfer": null,
+        "takeaway": "Schwarze Löcher sind nicht ganz schwarz – gemessen wurde das allerdings noch nicht."
       },
       {
         "id": "b-hawking-3",
+        "format": "compare",
+        "evidence": "evidence",
+        "hook": "Warum hat die Physik zwei hervorragende Theorien – die einander widersprechen?",
         "title": "Die Suche nach einer einzigen Theorie",
         "text": "Die Allgemeine Relativitätstheorie beschreibt das Große – Schwerkraft, Sterne, Galaxien. Die Quantenphysik beschreibt das Kleine. Beide sind hervorragend bestätigt, widersprechen sich aber dort, wo beides zugleich zählt: im Urknall und im Inneren Schwarzer Löcher.",
         "example": "Eine Theorie, die beide vereint, wird bis heute gesucht.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Welche beiden Theorien passen noch nicht zusammen – und wo zeigt sich das?",
+          "answer": "Allgemeine Relativitätstheorie und Quantenphysik. Sie widersprechen sich im Urknall und im Inneren Schwarzer Löcher."
+        },
+        "transfer": {
+          "situation": "Ein Freund fragt: „Und was war vor dem Urknall?“",
+          "options": [
+            [
+              "Antworten: „Ein leerer Raum, in dem dann etwas explodierte.“",
+              "Das ist das verbreitete Bild – aber nach heutigem Verständnis entstanden Raum und Zeit selbst mit dem Urknall."
+            ],
+            [
+              "Antworten: „Vielleicht ergibt die Frage keinen Sinn – auch die Zeit begann erst dort.“",
+              "So argumentiert Hawking: Wie es nichts „nördlich vom Nordpol“ gibt, gibt es womöglich kein „vor“ dem Anfang der Zeit. Gesichert ist das nicht."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Die größte offene Frage der Physik liegt dort, wo das ganz Große auf das ganz Kleine trifft."
       }
     ],
     "limits": "Das Buch ist von 1988: Dass sich die Ausdehnung des Universums beschleunigt, wurde erst 1998 entdeckt, und viele Zahlen sind seither genauer bestimmt. Hawkings eigene Vorschläge zum Anfang des Universums sind Hypothesen, keine gesicherten Ergebnisse.",
@@ -1780,32 +3191,67 @@
         "url": "https://de.wikipedia.org/wiki/Eine_kurze_Geschichte_der_Zeit"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-15T20:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can explain how we know the universe had a beginning and what is surprising about black holes.",
         "thesis": "Hawking explains to lay readers what physics knows about the origin, structure and fate of the universe – from the Big Bang to black holes – and why relativity and quantum physics do not yet fit together.",
         "ideas": [
           {
+            "hook": "If all galaxies are moving apart – where is the centre?",
             "title": "The universe has a beginning",
             "text": "The galaxies are moving apart: space itself is expanding. Run the clock backwards and everything was extremely dense and hot about 13.8 billion years ago. On current understanding, space and time also began with the Big Bang.",
             "example": "Like dots on a balloon being blown up: every dot moves away from every other without there being a centre.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "From what do we conclude that the universe had a beginning?",
+              "answer": "Space is expanding. Run backwards, everything was extremely dense and hot about 13.8 billion years ago."
+            },
+            "transfer": null,
+            "takeaway": "The Big Bang was not an explosion in space – space itself began to expand."
           },
           {
+            "hook": "Can really nothing at all escape from a black hole?",
             "title": "Black holes are not entirely black",
             "text": "A black hole has gravity so strong that nothing escapes from inside it. In 1974 Hawking showed by calculation that, through quantum effects at its edge, it nevertheless emits faint radiation – and can thus evaporate over unimaginably long periods.",
             "example": "This “Hawking radiation” is so weak for real black holes that it has not yet been measured directly.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What did Hawking predict about black holes in 1974?",
+              "answer": "That through quantum effects at their edge they emit faint radiation and so slowly lose mass."
+            },
+            "transfer": null,
+            "takeaway": "Black holes are not entirely black – though this has not yet been measured."
           },
           {
+            "hook": "Why does physics have two superb theories – that contradict each other?",
             "title": "The search for a single theory",
             "text": "General relativity describes the large – gravity, stars, galaxies. Quantum physics describes the small. Both are superbly confirmed but contradict each other where both matter at once: in the Big Bang and inside black holes.",
             "example": "A theory uniting the two is still being sought today.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Which two theories do not yet fit together – and where does this show?",
+              "answer": "General relativity and quantum physics. They contradict each other in the Big Bang and inside black holes."
+            },
+            "transfer": {
+              "situation": "A friend asks: “And what was there before the Big Bang?”",
+              "options": [
+                [
+                  "Answer: “An empty space in which something then exploded.”",
+                  "This is the common picture – but on current understanding space and time themselves came into being with the Big Bang."
+                ],
+                [
+                  "Answer: “Perhaps the question makes no sense – time, too, only began there.”",
+                  "This is how Hawking argues: just as there is nothing “north of the North Pole”, there may be no “before” the beginning of time. It is not established."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "The biggest open question in physics lies where the very large meets the very small."
           }
         ],
         "limits": "The book dates from 1988: that the expansion of the universe is accelerating was only discovered in 1998, and many figures have been determined more precisely since. Hawking's own proposals about the beginning of the universe are hypotheses, not established results.",
@@ -1825,28 +3271,79 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst erklären, wie Geografie nach Diamond die unterschiedliche Entwicklung der Kontinente beeinflusst hat.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-harari"
+      },
+      {
+        "kind": "question",
+        "id": "h10"
+      }
+    ],
     "thesis": "Diamond fragt, warum Eurasier Amerika, Australien und Afrika eroberten und nicht umgekehrt. Seine Antwort: nicht wegen biologischer Unterschiede zwischen Menschen, sondern wegen der Geografie – der Pflanzen, Tiere und Kontinente, mit denen sie zufällig lebten.",
     "ideas": [
       {
         "id": "b-diamond-1",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Warum wurden Pferd und Kuh gezähmt, das Zebra aber nie?",
         "title": "Der Vorsprung der Landwirtschaft",
         "text": "Von den vielen Wildpflanzen und großen Säugetieren der Erde ließen sich nur wenige zähmen – und sie waren sehr ungleich verteilt. Im Fruchtbaren Halbmond gab es Weizen, Gerste, Schafe, Ziegen und Rinder. Wo früh Ackerbau entstand, wuchsen Bevölkerung, Arbeitsteilung, Schrift und Staaten.",
         "example": "In Australien gab es kein einziges heimisches Großtier, das sich als Nutztier eignete.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum war der Fruchtbare Halbmond im Vorteil?",
+          "answer": "Dort gab es ungewöhnlich viele zähmbare Pflanzen und Tiere – Weizen, Gerste, Schafe, Ziegen, Rinder."
+        },
+        "transfer": null,
+        "takeaway": "Der Startvorteil lag in der Natur vor Ort, nicht in den Menschen."
       },
       {
         "id": "b-diamond-2",
+        "format": "model",
+        "evidence": "debated",
+        "hook": "Was hat die Form eines Kontinents mit der Ausbreitung von Weizen zu tun?",
         "title": "Die Achsen der Kontinente",
         "text": "Eurasien erstreckt sich vor allem von Ost nach West. Auf gleicher geografischer Breite ähneln sich Klima und Tageslängen – Nutzpflanzen und Tiere konnten sich über Tausende Kilometer verbreiten. Amerika und Afrika verlaufen von Nord nach Süd; dort bremsten Klimazonen die Ausbreitung.",
         "example": "Weizen gelangte vom Nahen Osten bis nach Spanien und China. Der Mais brauchte Jahrtausende von Mexiko bis in den Osten Nordamerikas.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum breiteten sich Nutzpflanzen in Eurasien schneller aus als in Amerika?",
+          "answer": "Eurasien erstreckt sich von Ost nach West: Auf gleicher Breite ähneln sich Klima und Tageslängen."
+        },
+        "transfer": null,
+        "takeaway": "Ost–West verbindet, Nord–Süd trennt."
       },
       {
         "id": "b-diamond-3",
+        "format": "challenge",
+        "evidence": "evidence",
+        "hook": "Was tötete in Amerika mehr Menschen: die Waffen der Eroberer oder etwas Unsichtbares?",
         "title": "Keime als Waffe",
         "text": "Wer seit Jahrtausenden eng mit Nutztieren lebte, war auch deren Krankheiten ausgesetzt – und entwickelte eine gewisse Abwehr. Als Europäer nach Amerika kamen, töteten Pocken, Masern und Grippe einen sehr großen Teil der Bevölkerung, oft bevor es zu Kämpfen kam.",
         "example": "Die eingeschleppten Seuchen forderten weit mehr Opfer als die Waffen der Eroberer.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum waren Europäer gegen viele Seuchen besser gewappnet?",
+          "answer": "Sie lebten seit Jahrtausenden eng mit Nutztieren, von denen viele Krankheiten stammen, und hatten eine gewisse Abwehr entwickelt."
+        },
+        "transfer": {
+          "situation": "Jemand erklärt den Wohlstand eines Landes mit dem „Fleiß seiner Bevölkerung“.",
+          "options": [
+            [
+              "Zustimmen: Die Mentalität ist entscheidend",
+              "Diamond würde widersprechen: Solche Erklärungen übersehen Ausgangsbedingungen wie Klima, Nutzpflanzen und Lage."
+            ],
+            [
+              "Nachfragen: Welche Startbedingungen hatte das Land – und welche Rolle spielten Politik und Institutionen?",
+              "Das verbindet Diamonds Blick auf die Geografie mit der Kritik an ihm: Ausgangsbedingungen zählen, aber auch Entscheidungen."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Die folgenreichste Waffe der Eroberung war keine Absicht."
       }
     ],
     "limits": "Historiker und Anthropologen werfen Diamond vor, die Umwelt zu stark zu betonen und Entscheidungen, Politik und Zufälle zu wenig – etwa die Frage, warum Europa und nicht China die Welt eroberte, obwohl beide in Eurasien liegen. Auch das Ausmaß einzelner Bevölkerungsverluste ist umstritten.",
@@ -1862,32 +3359,67 @@
         "url": "https://de.wikipedia.org/wiki/Jared_Diamond"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-15T19:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can explain how, according to Diamond, geography influenced the different development of the continents.",
         "thesis": "Diamond asks why Eurasians conquered the Americas, Australia and Africa and not the other way round. His answer: not because of biological differences between people but because of geography – the plants, animals and continents they happened to live with.",
         "ideas": [
           {
+            "hook": "Why were the horse and the cow domesticated but never the zebra?",
             "title": "The head start of farming",
             "text": "Of the many wild plants and large mammals on Earth only a few could be domesticated – and they were very unevenly distributed. The Fertile Crescent had wheat, barley, sheep, goats and cattle. Where farming arose early, population, division of labour, writing and states grew.",
             "example": "Australia had not a single native large animal suitable as livestock.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why did the Fertile Crescent have an advantage?",
+              "answer": "It had an unusually large number of domesticable plants and animals – wheat, barley, sheep, goats, cattle."
+            },
+            "transfer": null,
+            "takeaway": "The head start lay in the local nature, not in the people."
           },
           {
+            "hook": "What does the shape of a continent have to do with the spread of wheat?",
             "title": "The axes of the continents",
             "text": "Eurasia stretches mainly from east to west. At the same latitude, climate and day length are similar – crops and animals could spread over thousands of kilometres. The Americas and Africa run from north to south; there, climate zones slowed the spread.",
             "example": "Wheat travelled from the Middle East to Spain and China. Maize needed millennia to get from Mexico to eastern North America.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why did crops spread faster in Eurasia than in the Americas?",
+              "answer": "Eurasia stretches from east to west: at the same latitude, climate and day length are similar."
+            },
+            "transfer": null,
+            "takeaway": "East–west connects, north–south divides."
           },
           {
+            "hook": "What killed more people in the Americas: the conquerors' weapons or something invisible?",
             "title": "Germs as a weapon",
             "text": "Those who had lived closely with livestock for millennia were also exposed to their diseases – and developed some resistance. When Europeans came to the Americas, smallpox, measles and influenza killed a very large part of the population, often before any fighting took place.",
             "example": "The introduced epidemics claimed far more victims than the conquerors' weapons.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why were Europeans better protected against many epidemics?",
+              "answer": "They had lived closely with livestock, the source of many diseases, for millennia and had developed some resistance."
+            },
+            "transfer": {
+              "situation": "Someone explains a country's prosperity by the “diligence of its population”.",
+              "options": [
+                [
+                  "Agree: mentality is decisive",
+                  "Diamond would disagree: such explanations overlook starting conditions such as climate, crops and location."
+                ],
+                [
+                  "Ask: what starting conditions did the country have – and what role did politics and institutions play?",
+                  "This combines Diamond's view of geography with the criticism of him: starting conditions matter, but so do decisions."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "The most consequential weapon of conquest was not intentional."
           }
         ],
         "limits": "Historians and anthropologists accuse Diamond of emphasising the environment too much and decisions, politics and chance too little – for instance the question of why Europe and not China conquered the world, although both are in Eurasia. The scale of individual population losses is also disputed.",
@@ -1907,10 +3439,20 @@
     "min_age": 16,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst unterscheiden, was in deiner Macht steht und was nicht, und das auf einen Ärger des Tages anwenden.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-carnegie"
+      }
+    ],
     "thesis": "Die „Selbstbetrachtungen“ sind die privaten Notizen des römischen Kaisers Mark Aurel, geschrieben auf Griechisch um 170–180 n. Chr. und nie zur Veröffentlichung gedacht. Er ermahnt sich darin selbst, nach den Grundsätzen der Stoa zu leben: gelassen, pflichtbewusst und im Bewusstsein der eigenen Vergänglichkeit.",
     "ideas": [
       {
         "id": "b-aurel-1",
+        "format": "apply",
+        "evidence": "thesis",
+        "hook": "Der Zug fällt aus. Was genau ärgert dich: der Zug – oder dein Gedanke darüber?",
         "title": "Was in meiner Macht steht",
         "text": "Ein Grundgedanke der Stoa, den Mark Aurel immer wieder aufgreift: Über äußere Ereignisse haben wir keine Gewalt, wohl aber über unser Urteil darüber. Nicht die Dinge selbst beunruhigen uns, sondern unsere Meinung über sie.",
         "example": "Der Zug fällt aus. Daran lässt sich nichts ändern – wohl aber daran, ob man eine Stunde lang innerlich tobt.",
@@ -1930,21 +3472,58 @@
             "worauf ich achte",
             "mein Einsatz"
           ]
-        }
+        },
+        "recall": {
+          "question": "Was liegt nach der Stoa in unserer Macht – und was nicht?",
+          "answer": "In unserer Macht: unser Urteil und unser Handeln. Nicht in unserer Macht: äußere Ereignisse und das Verhalten anderer."
+        },
+        "transfer": {
+          "situation": "Ein Kollege hat in der Besprechung deine Idee als seine ausgegeben. Du kochst.",
+          "options": [
+            [
+              "Den ganzen Abend darüber nachdenken, wie unfair das war",
+              "Verständlich – aber sein Verhalten liegt nicht mehr in deiner Hand. Der Ärger kostet nur dich etwas."
+            ],
+            [
+              "Trennen: Was kann ich tun (ansprechen, künftig schriftlich festhalten) – und was nicht (seinen Charakter ändern)?",
+              "Das ist die stoische Übung. Sie bedeutet nicht, alles hinzunehmen, sondern die Kraft auf das zu richten, was sich ändern lässt."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Nicht die Dinge beunruhigen uns, sondern unsere Meinung über sie."
       },
       {
         "id": "b-aurel-2",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Warum sollte der mächtigste Mann der Welt jeden Tag an seinen Tod denken?",
         "title": "Die Vergänglichkeit bedenken",
         "text": "Mark Aurel erinnert sich oft daran, dass Ruhm, Besitz und das eigene Leben kurz sind. Das soll nicht entmutigen, sondern ordnen: Wer weiß, dass seine Zeit begrenzt ist, verschwendet sie weniger mit Ärger und Nebensachen.",
         "example": "Seine Frage an sich selbst: Wenn dies meine letzte Handlung wäre – würde ich sie so tun?",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Wozu dient bei Mark Aurel der Gedanke an die eigene Vergänglichkeit?",
+          "answer": "Er ordnet: Wer weiß, dass seine Zeit begrenzt ist, verschwendet sie weniger mit Ärger und Nebensachen."
+        },
+        "transfer": null,
+        "takeaway": "An das Ende zu denken macht das Heute wichtiger, nicht trauriger."
       },
       {
         "id": "b-aurel-3",
+        "format": "challenge",
+        "evidence": "thesis",
+        "hook": "Heute wirst du jemandem begegnen, der rücksichtslos ist. Lohnt es sich, sich darüber zu ärgern?",
         "title": "Teil eines Ganzen",
         "text": "Menschen sind für Mark Aurel füreinander gemacht, wie die Glieder eines Körpers. Wer anderen schadet, schadet dem Ganzen und damit sich selbst. Ärger über schwierige Menschen sei deshalb sinnlos: Man soll sie belehren oder ertragen.",
         "example": "Am Morgen nimmt er sich vor: Heute werde ich undankbaren und rücksichtslosen Menschen begegnen – und sie sind trotzdem meinesgleichen.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum hält Mark Aurel Ärger über schwierige Menschen für sinnlos?",
+          "answer": "Weil Menschen füreinander gemacht sind wie Glieder eines Körpers: Man soll sie belehren oder ertragen."
+        },
+        "transfer": null,
+        "takeaway": "Rechne am Morgen mit schwierigen Menschen – dann überraschen sie dich nicht."
       }
     ],
     "limits": "Es sind persönliche Notizen ohne Ordnung, voller Wiederholungen, und je nach Übersetzung klingen sie sehr verschieden. Kritiker sehen in der stoischen Gelassenheit die Gefahr, Ungerechtigkeit hinzunehmen, statt sie zu ändern – und Mark Aurel schrieb als mächtigster Mann seiner Welt, der zugleich Kriege führte.",
@@ -1960,16 +3539,18 @@
         "url": "https://de.wikipedia.org/wiki/Selbstbetrachtungen"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-15T18:00:00Z",
     "translations": {
       "en": {
         "year_label": "c. AD 175",
+        "goal": "You can distinguish what is in your power from what is not and apply this to one of the day's annoyances.",
         "thesis": "The “Meditations” are the private notes of the Roman emperor Marcus Aurelius, written in Greek around AD 170–180 and never meant for publication. In them he urges himself to live by the principles of Stoicism: calm, dutiful and aware of his own mortality.",
         "ideas": [
           {
+            "hook": "The train is cancelled. What exactly annoys you: the train – or your thought about it?",
             "title": "What is in my power",
             "text": "A basic Stoic idea that Marcus Aurelius returns to again and again: we have no power over external events, but we do over our judgement of them. It is not things themselves that trouble us but our opinion of them.",
             "example": "The train is cancelled. Nothing can be done about that – but something can be done about whether you rage inwardly for an hour.",
@@ -1989,19 +3570,52 @@
                 "what I pay attention to",
                 "my effort"
               ]
-            }
+            },
+            "recall": {
+              "question": "What is in our power according to Stoicism – and what is not?",
+              "answer": "In our power: our judgement and our actions. Not in our power: external events and other people's behaviour."
+            },
+            "transfer": {
+              "situation": "A colleague presented your idea as his own in the meeting. You are fuming.",
+              "options": [
+                [
+                  "Spend the whole evening thinking about how unfair it was",
+                  "Understandable – but his behaviour is no longer in your hands. The anger costs only you."
+                ],
+                [
+                  "Separate: what can I do (raise it, put things in writing in future) – and what not (change his character)?",
+                  "This is the Stoic exercise. It does not mean accepting everything but directing your energy at what can be changed."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "It is not things that trouble us but our opinion of them."
           },
           {
+            "hook": "Why should the most powerful man in the world think about his death every day?",
             "title": "Remembering impermanence",
             "text": "Marcus Aurelius often reminds himself that fame, possessions and his own life are short. This is meant not to discourage but to put things in order: whoever knows their time is limited wastes less of it on anger and trivia.",
             "example": "His question to himself: if this were my last act – would I do it this way?",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What purpose does the thought of one's own mortality serve for Marcus Aurelius?",
+              "answer": "It puts things in order: whoever knows their time is limited wastes less of it on anger and trivia."
+            },
+            "transfer": null,
+            "takeaway": "Thinking of the end makes today more important, not sadder."
           },
           {
+            "hook": "Today you will meet someone inconsiderate. Is it worth getting angry about?",
             "title": "Part of a whole",
             "text": "For Marcus Aurelius, human beings are made for one another, like the limbs of one body. Whoever harms others harms the whole and thereby themselves. Anger at difficult people is therefore pointless: one should teach them or bear with them.",
             "example": "In the morning he tells himself: today I shall meet ungrateful and inconsiderate people – and they are still my own kind.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why does Marcus Aurelius consider anger at difficult people pointless?",
+              "answer": "Because humans are made for one another like the limbs of one body: one should teach them or bear with them."
+            },
+            "transfer": null,
+            "takeaway": "Expect difficult people in the morning – then they will not surprise you."
           }
         ],
         "limits": "They are personal notes without order, full of repetition, and they sound very different depending on the translation. Critics see in Stoic calm the danger of accepting injustice instead of changing it – and Marcus Aurelius wrote as the most powerful man of his world, who was also waging wars.",
@@ -2021,17 +3635,49 @@
     "min_age": 13,
     "language": "de",
     "minutes": 2,
+    "goal": "Du kannst in einem Gespräch vom Erzählen zum Fragen wechseln und Kritik so formulieren, dass sie ankommt.",
+    "links": [
+      {
+        "kind": "question",
+        "id": "bq-cialdini"
+      }
+    ],
     "thesis": "Carnegies Grundgedanke: Menschen lassen sich nicht durch Kritik und Argumente gewinnen, sondern dadurch, dass man sich ehrlich für sie interessiert und ihnen das Gefühl gibt, wichtig zu sein.",
     "ideas": [
       {
         "id": "b-carnegie-1",
+        "format": "apply",
+        "evidence": "thesis",
+        "hook": "Wann hat dich Kritik zuletzt dazu gebracht, dich wirklich zu ändern – und wann nur dazu, dich zu verteidigen?",
         "title": "Kritik bewirkt selten, was sie soll",
         "text": "Wer kritisiert wird, verteidigt sich – und ändert sich deshalb gerade nicht. Carnegie rät, zuerst verstehen zu wollen, warum jemand so handelt, und eigene Fehler zu erwähnen, bevor man die des anderen anspricht.",
         "example": "Statt „Das hast du falsch gemacht“: „Mir ist das früher auch passiert. Wie könnten wir es beim nächsten Mal anders angehen?“",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Warum bewirkt Kritik nach Carnegie selten, was sie soll?",
+          "answer": "Weil sich der Kritisierte verteidigt, statt sich zu ändern. Besser: erst verstehen wollen und eigene Fehler erwähnen."
+        },
+        "transfer": {
+          "situation": "Ein Teammitglied hat zum dritten Mal eine Frist verpasst. Du sprichst es an.",
+          "options": [
+            [
+              "„Du bist einfach unzuverlässig.“",
+              "Das greift die Person an, nicht das Problem – und löst Verteidigung aus."
+            ],
+            [
+              "„Mir ist das früher auch passiert. Was hat diesmal gefehlt, damit es klappt?“",
+              "Das folgt Carnegie: eigene Fehler zuerst, dann eine Frage statt eines Urteils. Die Frist bleibt trotzdem Thema."
+            ]
+          ],
+          "best": 1
+        },
+        "takeaway": "Wer sich angegriffen fühlt, hört nicht mehr zu."
       },
       {
         "id": "b-carnegie-2",
+        "format": "explain",
+        "evidence": "thesis",
+        "hook": "Worüber sprechen Menschen am liebsten?",
         "title": "Echtes Interesse",
         "text": "Man gewinnt nach Carnegie in zwei Monaten mehr Freunde, wenn man sich für andere interessiert, als in zwei Jahren, wenn man versucht, andere für sich zu interessieren. Dazu gehört: zuhören, Fragen stellen, den Namen behalten.",
         "example": "Im Gespräch eine Frage mehr stellen, bevor man von sich selbst erzählt.",
@@ -2049,14 +3695,29 @@
             ]
           ],
           "insight": "Menschen erinnern sich weniger daran, was du gesagt hast, als daran, wie sie sich im Gespräch mit dir gefühlt haben."
-        }
+        },
+        "recall": {
+          "question": "Wie gewinnt man nach Carnegie am schnellsten Freunde?",
+          "answer": "Indem man sich ehrlich für andere interessiert – zuhören, nachfragen, den Namen behalten."
+        },
+        "transfer": null,
+        "takeaway": "Interessiert sein wirkt stärker als interessant sein."
       },
       {
         "id": "b-carnegie-3",
+        "format": "examples",
+        "evidence": "thesis",
+        "hook": "Du willst etwas von jemandem. Über wessen Wünsche solltest du sprechen?",
         "title": "Die Sicht des anderen",
         "text": "Wer jemanden überzeugen will, sollte nach Carnegie nicht über die eigenen Wünsche sprechen, sondern über die des anderen – und Streit möglichst vermeiden, weil man ihn selbst dann verliert, wenn man recht behält.",
         "example": "Nicht „Ich brauche den Bericht bis Freitag“, sondern erklären, was der andere davon hat, wenn er rechtzeitig fertig ist.",
-        "visual": null
+        "visual": null,
+        "recall": {
+          "question": "Womit überzeugt man nach Carnegie eher: mit den eigenen Wünschen oder mit denen des anderen?",
+          "answer": "Mit denen des anderen – man zeigt, was er davon hat, und vermeidet Streit."
+        },
+        "transfer": null,
+        "takeaway": "Sprich über das, was der andere will – dann hört er zu."
       }
     ],
     "limits": "Das Buch von 1936 stützt sich auf Anekdoten, nicht auf Forschung. Kritiker werfen ihm vor, Freundlichkeit als Technik zu lehren, die sich auch zur Manipulation eignet. Carnegie selbst betont, dass die Ratschläge nur wirken, wenn das Interesse ehrlich ist.",
@@ -2072,22 +3733,44 @@
         "url": "https://de.wikipedia.org/wiki/Dale_Carnegie"
       }
     ],
-    "license": "Eigene Zusammenfassung und Einordnung; keine Auszüge aus dem Buch, kein Buchcover.",
+    "license": "Eigene Zusammenfassung und Einordnung in eigenen Worten; keine Auszüge oder Zitate aus dem Buch, kein Buchcover des Verlags.",
     "verification_status": "ai_checked",
     "status": "published",
     "created_at": "2026-10-15T17:00:00Z",
     "translations": {
       "en": {
         "year_label": null,
+        "goal": "You can switch from telling to asking in a conversation and phrase criticism so that it lands.",
         "thesis": "Carnegie's basic idea: people are not won over by criticism and arguments but by taking a sincere interest in them and making them feel important.",
         "ideas": [
           {
+            "hook": "When did criticism last make you really change – and when only defend yourself?",
             "title": "Criticism rarely does what it should",
             "text": "Whoever is criticised defends themselves – and for that very reason does not change. Carnegie advises first trying to understand why someone acts as they do, and mentioning your own mistakes before addressing the other person's.",
             "example": "Instead of “You did that wrong”: “That used to happen to me too. How could we approach it differently next time?”",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "Why does criticism rarely achieve what it should, according to Carnegie?",
+              "answer": "Because the person criticised defends themselves instead of changing. Better: first try to understand and mention your own mistakes."
+            },
+            "transfer": {
+              "situation": "A team member has missed a deadline for the third time. You raise it.",
+              "options": [
+                [
+                  "“You are simply unreliable.”",
+                  "This attacks the person, not the problem – and triggers defensiveness."
+                ],
+                [
+                  "“That used to happen to me too. What was missing this time for it to work?”",
+                  "This follows Carnegie: your own mistakes first, then a question instead of a verdict. The deadline still remains the topic."
+                ]
+              ],
+              "best": 1
+            },
+            "takeaway": "Whoever feels attacked stops listening."
           },
           {
+            "hook": "What do people like talking about most?",
             "title": "Genuine interest",
             "text": "According to Carnegie, you make more friends in two months by being interested in other people than in two years by trying to get other people interested in you. That includes listening, asking questions, remembering names.",
             "example": "In a conversation, ask one more question before talking about yourself.",
@@ -2105,13 +3788,26 @@
                 ]
               ],
               "insight": "People remember less what you said than how they felt in the conversation with you."
-            }
+            },
+            "recall": {
+              "question": "How do you make friends fastest, according to Carnegie?",
+              "answer": "By taking a sincere interest in others – listening, asking, remembering names."
+            },
+            "transfer": null,
+            "takeaway": "Being interested works better than being interesting."
           },
           {
+            "hook": "You want something from someone. Whose wishes should you talk about?",
             "title": "The other person's point of view",
             "text": "Whoever wants to persuade someone should, Carnegie says, talk not about their own wishes but about the other person's – and avoid arguments wherever possible, because you lose them even when you are right.",
             "example": "Not “I need the report by Friday” but explain what the other person gains by finishing on time.",
-            "visual": null
+            "visual": null,
+            "recall": {
+              "question": "What persuades better according to Carnegie: your own wishes or the other person's?",
+              "answer": "The other person's – you show what is in it for them and avoid arguments."
+            },
+            "transfer": null,
+            "takeaway": "Talk about what the other person wants – then they listen."
           }
         ],
         "limits": "The 1936 book relies on anecdotes, not research. Critics accuse it of teaching friendliness as a technique that also lends itself to manipulation. Carnegie himself stresses that the advice only works if the interest is sincere.",

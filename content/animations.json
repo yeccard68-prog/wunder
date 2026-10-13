@@ -64,8 +64,30 @@
           "The atria contract. The valves to the ventricles open and the blood flows down into the ventricles.",
           "Now the ventricles contract. The valves to the atria close – nothing flows back. The right ventricle pumps to the lungs, the left one to the body.",
           "In the lungs the blood takes up oxygen, in the body it gives it off. This cycle repeats with every heartbeat – about 100,000 times a day."
-        ]
+        ],
+        "predict": {
+          "question": "The ventricles are about to contract. What stops the blood from flowing back into the atria?",
+          "options": [
+            "The atria push against it",
+            "The valves close",
+            "The blood is too thick for that"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.66,
+      "motion": 1.4
+    },
+    "predict": {
+      "step": 2,
+      "question": "Gleich ziehen sich die Kammern zusammen. Was verhindert, dass das Blut zurück in die Vorhöfe fließt?",
+      "options": [
+        "Die Vorhöfe drücken dagegen",
+        "Die Klappen schließen sich",
+        "Das Blut ist dafür zu zäh"
+      ],
+      "correct": 1
     }
   },
   {
@@ -139,10 +161,32 @@
           "Compression: both valves are closed. The piston moves up and squeezes the mixture into a small space.",
           "Power: the spark plug fires. The burning gas expands abruptly and pushes the piston down – only this stroke delivers power.",
           "Exhaust: the exhaust valve opens and the piston pushes the burnt gases out. The crankshaft has turned twice – and it all starts again."
-        ]
+        ],
+        "predict": {
+          "question": "The mixture is compressed. What happens when the spark plug fires now?",
+          "options": [
+            "The piston is pushed down",
+            "The piston is pulled up",
+            "The intake valve opens"
+          ]
+        }
       }
     },
-    "fallback_scene": "engine"
+    "fallback_scene": "engine",
+    "timing": {
+      "pace": 0.66,
+      "motion": 1.5
+    },
+    "predict": {
+      "step": 2,
+      "question": "Das Gemisch ist verdichtet. Was passiert, wenn jetzt die Zündkerze zündet?",
+      "options": [
+        "Der Kolben wird nach unten gedrückt",
+        "Der Kolben wird nach oben gezogen",
+        "Das Einlassventil öffnet sich"
+      ],
+      "correct": 0
+    }
   },
   {
     "id": "a-gewitter",
@@ -207,8 +251,30 @@
           "As more and more air follows, the cloud grows into a tower that can be more than ten kilometres high. At the top it is so cold that ice crystals and graupel (soft hail) form.",
           "In the updraught, ice crystals and graupel collide and become charged. The light crystals carry positive charge upwards, the heavy graupel collects negative charge at the bottom.",
           "When the voltage becomes too great, it equalises abruptly: lightning. It heats the air to as much as 30,000 degrees – the air expands explosively, and we hear that as thunder."
-        ]
+        ],
+        "predict": {
+          "question": "Inside the cloud, ice crystals and heavier graupel collide and become charged. Where does the negative charge gather?",
+          "options": [
+            "At the top of the cloud",
+            "Evenly spread",
+            "At the bottom of the cloud"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.68,
+      "motion": 1.35
+    },
+    "predict": {
+      "step": 2,
+      "question": "In der Wolke stoßen Eiskristalle und schwerer Graupel zusammen und laden sich auf. Wo sammelt sich die negative Ladung?",
+      "options": [
+        "Oben in der Wolke",
+        "Gleichmäßig verteilt",
+        "Unten in der Wolke"
+      ],
+      "correct": 2
     }
   },
   {
@@ -276,8 +342,30 @@
           "At the negative terminal a chemical reaction releases electrons. They build up there – this creates the voltage between the terminals.",
           "When a wire connects the two terminals, the electrons travel from the negative terminal through the wire to the positive terminal. On the way they light up the lamp.",
           "Inside, ions balance the charge: they move through the electrolyte. Only this closes the circuit. Once the materials at the terminals are used up, the battery is flat."
-        ]
+        ],
+        "predict": {
+          "question": "Electrons pile up at the negative terminal. A wire is about to connect the terminals. Where do the electrons go?",
+          "options": [
+            "From the positive to the negative terminal",
+            "From the negative to the positive terminal",
+            "They stay where they are"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.67,
+      "motion": 1.35
+    },
+    "predict": {
+      "step": 2,
+      "question": "Am Minuspol stauen sich Elektronen. Gleich verbindet ein Draht die Pole. Wohin wandern die Elektronen?",
+      "options": [
+        "Vom Pluspol zum Minuspol",
+        "Vom Minuspol zum Pluspol",
+        "Sie bleiben, wo sie sind"
+      ],
+      "correct": 1
     }
   },
   {
@@ -347,8 +435,30 @@
           "Apart: where two plates move away from each other, magma rises and solidifies. This creates new crust, for example at the Mid-Atlantic Ridge.",
           "Together: when two plates collide, the heavier one often dives beneath the other. Rock melts at depth – above it, volcanoes and mountains form.",
           "Past each other (seen from above): the plates lock together and build up stress. When it is released with a jolt, the earth quakes – as at the San Andreas Fault in California."
-        ]
+        ],
+        "predict": {
+          "question": "Now two plates collide. What usually happens to the heavier one?",
+          "options": [
+            "It dives beneath the other",
+            "It rides over the other",
+            "Both simply stop"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 2,
+      "question": "Jetzt stoßen zwei Platten zusammen. Was passiert meist mit der schwereren?",
+      "options": [
+        "Sie taucht unter die andere ab",
+        "Sie schiebt sich über die andere",
+        "Beide bleiben einfach stehen"
+      ],
+      "correct": 0
     }
   },
   {
@@ -416,8 +526,30 @@
           "When current flows through the coil, a force acts on the wires in the magnetic field – upwards on one side, downwards on the other. The coil begins to turn.",
           "After half a turn the forces would pull the coil back again. That is why the commutator, a split slip ring, reverses the current at exactly the right moment.",
           "This way the force always points in the direction of rotation and the motor runs smoothly. The same principle – forces on current-carrying coils in a magnetic field – is at work in every electric motor, from a blender to an electric car."
-        ]
+        ],
+        "predict": {
+          "question": "The coil has made half a turn and the current flows unchanged. What would the forces do now?",
+          "options": [
+            "Spin the coil faster and faster",
+            "Nothing at all",
+            "Pull the coil back again"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.4
+    },
+    "predict": {
+      "step": 2,
+      "question": "Die Spule hat eine halbe Drehung geschafft, der Strom fließt unverändert. Was würden die Kräfte jetzt tun?",
+      "options": [
+        "Die Spule immer schneller drehen",
+        "Gar nichts mehr",
+        "Die Spule wieder zurückziehen"
+      ],
+      "correct": 2
     }
   },
   {
@@ -487,8 +619,30 @@
           "Numbers go in at the front, for example the brightness of the pixels of a photo. Each neuron combines its inputs with the weights and passes the result on to the next layer.",
           "At the end there is an answer – here: cat or dog? At the start the weights are random. The network guesses, and the answer is often wrong.",
           "During training the error is calculated backwards through the network and every weight is corrected a little. After a great many examples the network recognises the cat more and more reliably."
-        ]
+        ],
+        "predict": {
+          "question": "The network guessed wrong. What is changed during training so that it improves?",
+          "options": [
+            "The number of pixels",
+            "The weights of the connections",
+            "The order of the layers"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.68,
+      "motion": 1.35
+    },
+    "predict": {
+      "step": 3,
+      "question": "Das Netz hat falsch geraten. Was wird beim Training verändert, damit es besser wird?",
+      "options": [
+        "Die Zahl der Bildpunkte",
+        "Die Gewichte der Verbindungen",
+        "Die Reihenfolge der Schichten"
+      ],
+      "correct": 1
     }
   },
   {
@@ -556,8 +710,30 @@
           "When part of the cloud becomes dense enough, its own gravity pulls it together. The cloud collapses and spins faster and faster as it does so.",
           "At the centre it becomes denser and hotter: a protostar forms. Around it the cloud flattens into a disc – planets can later form from it.",
           "At about ten million degrees, nuclear fusion ignites in the interior: hydrogen fuses into helium and releases energy. A star is born. Depending on its mass, it shines for millions to many billions of years."
-        ]
+        ],
+        "predict": {
+          "question": "Part of the gas cloud becomes denser than the rest. What pulls it together further?",
+          "options": [
+            "Its own gravity",
+            "The light of neighbouring stars",
+            "The cold of space"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.67,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 1,
+      "question": "Ein Teil der Gaswolke wird dichter als der Rest. Was zieht ihn weiter zusammen?",
+      "options": [
+        "Seine eigene Schwerkraft",
+        "Das Licht benachbarter Sterne",
+        "Die Kälte des Weltraums"
+      ],
+      "correct": 0
     }
   },
   {
@@ -636,8 +812,30 @@
           "There are four bases: adenine (A), thymine (T), guanine (G) and cytosine (C). They fit together in only one way – A always with T, G always with C. Their order holds the genetic information.",
           "Before a cell divides, its DNA has to be copied. An enzyme called helicase separates the base pairs and opens the double helix like a zip.",
           "On each of the two single strands, enzymes attach new building blocks – by the same rule: A to T, G to C. This produces two identical double strands, each made of one old and one new strand."
-        ]
+        ],
+        "predict": {
+          "question": "The double helix has opened. On one single strand there is the base A. Which base is added opposite it?",
+          "options": [
+            "G",
+            "C",
+            "T"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.25
+    },
+    "predict": {
+      "step": 3,
+      "question": "Die Doppelhelix ist geöffnet. An einem Einzelstrang steht die Base A. Welche Base wird gegenüber angelagert?",
+      "options": [
+        "G",
+        "C",
+        "T"
+      ],
+      "correct": 2
     }
   },
   {
@@ -716,8 +914,30 @@
           "The Sun pulls on the planet with its gravity. The planet keeps falling towards it – and yet, because of its motion, always flies past it. This turns the straight line into a closed path.",
           "The path is an ellipse, drawn here with strong exaggeration. Close to the Sun the pull is stronger and the planet faster; far away it slows down. This is described by Kepler's second law.",
           "The farther a planet is from the Sun, the longer one orbit takes: Mercury needs 88 days, the Earth one year, Neptune about 165 years."
-        ]
+        ],
+        "predict": {
+          "question": "Without a force the planet would fly off in a straight line. What happens when the Sun pulls on it?",
+          "options": [
+            "Its path bends around the Sun",
+            "It falls straight into the Sun",
+            "It stops"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.4
+    },
+    "predict": {
+      "step": 1,
+      "question": "Ohne Kraft flöge der Planet geradeaus davon. Was passiert, wenn die Sonne ihn anzieht?",
+      "options": [
+        "Seine Bahn krümmt sich um die Sonne",
+        "Er stürzt geradewegs in die Sonne",
+        "Er bleibt stehen"
+      ],
+      "correct": 0
     }
   },
   {
@@ -794,8 +1014,30 @@
           "The small gear has 12 teeth, the large one 24. For each turn of the small gear, 12 teeth pass the point of contact – which takes the large gear only half a turn.",
           "In return, the large gear turns with twice the force: gears trade speed for torque. That is how a bicycle's low gear gets you up a hill more easily – only more slowly.",
           "If a third gear is placed in between, the last one turns in the same direction as the first again. The idler does not change the ratio – only the first and the last gear count."
-        ]
+        ],
+        "predict": {
+          "question": "The small gear has 12 teeth, the large one 24. How far does the large one turn when the small one makes one turn?",
+          "options": [
+            "Two turns",
+            "Half a turn",
+            "One full turn"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.68,
+      "motion": 1.5
+    },
+    "predict": {
+      "step": 1,
+      "question": "Das kleine Rad hat 12 Zähne, das große 24. Wie weit dreht sich das große, wenn das kleine eine Umdrehung macht?",
+      "options": [
+        "Zwei Umdrehungen",
+        "Eine halbe Umdrehung",
+        "Eine ganze Umdrehung"
+      ],
+      "correct": 1
     }
   },
   {
@@ -870,8 +1112,30 @@
           "The reason is refraction: when light passes from air into glass and out again, it changes direction. At the edge of the lens it is deflected more strongly than in the middle; the ray through the centre goes straight on.",
           "Rays of light leave every point of an object. The lens brings all rays from the tip back together in one point – that is where the image forms. It is upside down because the rays cross behind the lens.",
           "If the object moves closer to the lens, the image moves further away and gets larger. This is how a camera focuses: it shifts the lens until the image lies exactly on the sensor. In the eye, the lens changes its shape instead."
-        ]
+        ],
+        "predict": {
+          "question": "The object is about to move closer to the lens. What happens to the image?",
+          "options": [
+            "It moves closer and gets smaller",
+            "It stays where it is",
+            "It moves further away and gets larger"
+          ]
+        }
       }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.25
+    },
+    "predict": {
+      "step": 3,
+      "question": "Gleich rückt der Gegenstand näher an die Linse. Was geschieht mit dem Bild?",
+      "options": [
+        "Es rückt näher und wird kleiner",
+        "Es bleibt, wo es ist",
+        "Es wandert weiter weg und wird größer"
+      ],
+      "correct": 2
     }
   }
 ]

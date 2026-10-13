@@ -627,7 +627,7 @@
     "captions": [
       "Das ist unsere Sonne im ultravioletten Licht.",
       "Ihre Oberfläche ist ständig in Bewegung.",
-      "Sie enthält 99,8 Prozent der Masse des Sonnensystems."
+      "Sie besteht vor allem aus Wasserstoff und Helium."
     ],
     "creator_name": "NASA",
     "format": "footage",
@@ -668,7 +668,7 @@
         "captions": [
           "This is our Sun in ultraviolet light.",
           "Its surface is constantly in motion.",
-          "It contains 99.8 percent of the solar system's mass."
+          "It consists mainly of hydrogen and helium."
         ]
       }
     }
@@ -864,7 +864,7 @@
     "captions": [
       "Linsen keimen im Zeitraffer.",
       "Im Samen steckt Nahrung für den Start.",
-      "Wasser weckt den Keimling auf."
+      "Wasser, Wärme und Sauerstoff wecken den Keimling – Licht braucht er noch nicht."
     ],
     "creator_name": "Always Shooting",
     "format": "footage",
@@ -905,7 +905,7 @@
         "captions": [
           "Lentils sprouting in time-lapse.",
           "The seed holds food for the start.",
-          "Water wakes the embryo up."
+          "Water, warmth and oxygen wake the embryo – it does not need light yet."
         ]
       }
     }
@@ -1101,7 +1101,7 @@
     "captions": [
       "24. Dezember 1968, Mondumlaufbahn.",
       "Über dem Horizont geht die Erde auf.",
-      "Drei Menschen sehen das als Erste."
+      "Die drei von Apollo 8 sehen das als erste Menschen."
     ],
     "creator_name": "NASA / Goddard Space Flight Center",
     "format": "footage",
@@ -1142,7 +1142,7 @@
         "captions": [
           "24 December 1968, lunar orbit.",
           "The Earth rises above the horizon.",
-          "Three people are the first to see it."
+          "The three of Apollo 8 are the first humans to see it."
         ]
       }
     }
@@ -1160,7 +1160,7 @@
     "captions": [
       "Aufnahmen aus den Jahren 1911 und 1912.",
       "Die Titanic ist 269 Meter lang.",
-      "Ihre erste Fahrt ist auch ihre letzte."
+      "Im April 1912 sinkt sie auf ihrer ersten Fahrt."
     ],
     "creator_name": "British Pathé",
     "format": "footage",
@@ -1201,7 +1201,7 @@
         "captions": [
           "Footage from 1911 and 1912.",
           "The Titanic is 269 metres long.",
-          "Her first voyage is also her last."
+          "In April 1912 she sinks on her first voyage."
         ]
       }
     }
@@ -1513,7 +1513,7 @@
     "has_audio": false,
     "captions": [
       "Ein Sinfonieorchester bei der Arbeit.",
-      "Vorn die Streicher, dahinter die Bläser.",
+      "Vorn die Streicher – die größte Gruppe –, dahinter die Bläser.",
       "Der Dirigent hält alle zusammen."
     ],
     "creator_name": "University of Colorado Boulder College of Music",
@@ -1554,7 +1554,7 @@
         "description": "The University of Colorado Boulder Symphony Orchestra plays Beethoven's Fifth Symphony. The strings sit at the front, the wind players behind them, percussion at the very back.",
         "captions": [
           "A symphony orchestra at work.",
-          "Strings at the front, wind players behind.",
+          "Strings at the front – the largest group – wind players behind.",
           "The conductor holds everyone together."
         ]
       }
@@ -1808,7 +1808,7 @@
     "has_audio": false,
     "captions": [
       "Stare sammeln sich in der Abenddämmerung.",
-      "Niemand führt den Schwarm an.",
+      "Im dichten Schwarm kann ein Greifvogel kaum ein Tier fassen.",
       "Jeder Vogel achtet nur auf seine Nachbarn."
     ],
     "creator_name": "Karen Roe",
@@ -1849,7 +1849,7 @@
         "description": "Starlings gather in huge flocks in the evening. Nobody leads the flock. The dense, swirling shapes make it hard for birds of prey to pick out a single animal.",
         "captions": [
           "Starlings gather at dusk.",
-          "Nobody leads the flock.",
+          "In the dense flock a bird of prey can hardly single one out.",
           "Each bird watches only its neighbours."
         ]
       }
@@ -1986,7 +1986,7 @@
     "captions": [
       "Ein Containerhafen im Zeitraffer.",
       "Alle Container haben weltweit dieselben Maße.",
-      "So wurde Transport schnell und billig."
+      "Schiff, Zug, Lkw: Umladen dauert Minuten statt Tage."
     ],
     "creator_name": "PaSt Photo",
     "format": "footage",
@@ -2027,7 +2027,7 @@
         "captions": [
           "A container port in time-lapse.",
           "All containers have the same dimensions worldwide.",
-          "That made transport fast and cheap."
+          "Ship, train, lorry: transfer takes minutes instead of days."
         ]
       }
     }
@@ -2341,7 +2341,7 @@
     "captions": [
       "Ein Tropfen fällt ins Wasser.",
       "Er schlägt einen kleinen Krater.",
-      "Das Wasser schnellt als Säule zurück."
+      "Die Oberflächenspannung hält ihn zusammen – und zieht das Wasser als Säule zurück."
     ],
     "creator_name": "Christoph Pantel",
     "format": "footage",
@@ -2382,7 +2382,7 @@
         "captions": [
           "A drop falls into water.",
           "It punches a small crater.",
-          "The water springs back as a column."
+          "Surface tension holds it together – and pulls the water back up as a column."
         ]
       }
     }

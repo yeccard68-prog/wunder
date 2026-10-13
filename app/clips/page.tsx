@@ -8,7 +8,7 @@ import { Avatar, Button, Empty, Sheet } from "@/components/ui";
 import { categoryById } from "@/lib/categories";
 import { rankClips, type Clip } from "@/lib/clips";
 import { personById } from "@/lib/people";
-import { isChild } from "@/lib/content";
+import { captionAt, isChild } from "@/lib/content";
 import { formatLocale } from "@/lib/i18n";
 import { useStore, useT } from "@/lib/store";
 
@@ -55,12 +55,7 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
     return () => obs.disconnect();
   }, [index, onActive]);
 
-  // Captions are spread over the clip in proportion to their length.
-  const elapsed = Math.max(0, time - clip.start);
-  const total = clip.captions.reduce((n, c) => n + c.length, 0);
-  const progress = Math.min(0.999, elapsed / Math.max(1, clip.duration));
-  let acc = 0;
-  const caption = clip.captions.find((c) => (acc += c.length / total) > progress);
+  const caption = captionAt(clip, time);
 
   return (
     <section ref={section} className="relative h-full snap-start snap-always overflow-hidden bg-[#11100e] text-white" aria-label={clip.title}>
@@ -135,7 +130,7 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
       </div>
 
       <div className="absolute inset-x-0 bottom-0 h-1 bg-white/15">
-        <div className="h-full bg-white/80" style={{ width: `${Math.min(100, (elapsed / clip.duration) * 100)}%` }} />
+        <div className="h-full bg-white/80" style={{ width: `${Math.min(100, (Math.max(0, time - clip.start) / clip.duration) * 100)}%` }} />
       </div>
     </section>
   );
@@ -205,7 +200,7 @@ export default function ClipsPage() {
       <Sheet open={sheet?.kind === "quiz"} onClose={close} title={t("Kurz testen")}>
         {clip && (
           <div className="pb-2">
-            {clip.quiz && <KnowledgeCard key={clip.quiz.id} item={clip.quiz} context="video" onAnswered={() => {}} />}
+            {clip.quiz && <KnowledgeCard key={clip.quiz.id} item={clip.quiz} context="video" onAnswered={() => {}} clip={{ note: clip.takeaway, rewatch: close }} />}
             <Button variant="secondary" className="mt-4 w-full" onClick={close}>
               {t("Weiter schauen")}
             </Button>

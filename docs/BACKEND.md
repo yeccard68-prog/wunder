@@ -229,7 +229,7 @@ Offen bis zur Store-Reife:
 - Urheberrecht: nur eigene Erklärungen, keine Auszüge, keine Buchcover (eigene typografische Karten). Was der Autor behauptet und was Kritik ist, steht getrennt.
 - Darstellungen (`components/books/Visual.tsx`): `loop` (Kreislauf), `compare` (Gegenüberstellung), `scenario` (erst entscheiden, dann Erklärung), `growth` (Zinseszins mit Schieberegler). Neue Arten dort und in `build-books.mjs` ergänzen.
 - Seiten: `/books/` (Regal mit Suche und Sparten, „Weiterlesen“, gemerkte Ideen; `?b=<id>` öffnet ein Buch). Einzelne Ideen erscheinen im Feed (Rhythmus Clip – Animation – Buch-Idee – Clip), in der Suche und in der Bibliothek.
-- Fortschritt („Verstanden“) und gemerkte Ideen liegen im Profilzustand auf dem Gerät (`state.books`), noch nicht in der Datenbank – sie wandern nicht auf ein zweites Gerät.
+- (überholt, siehe Abschnitt 23) Fortschritt und gemerkte Ideen lagen im Profilzustand auf dem Gerät (`state.books`), noch nicht in der Datenbank – sie wandern nicht auf ein zweites Gerät.
 
 ## 20. Fragetypen
 
@@ -252,3 +252,15 @@ Offen bis zur Store-Reife:
 - Ereignisse heute: `session_start`, `clip_start`, `clip_complete`, `animation_complete`, `insight_complete`, `book_open`, `content_save`. Antworten auf Fragen stehen ohnehin in `question_attempts`.
 - Auswertung: per SQL im Supabase-Dashboard. Ein Auswertungs-Bildschirm fehlt noch. Weil der Schalter aus ist, kommen erst Daten, wenn Nutzer ihn einschalten – für belastbare Zahlen müsste beim Onboarding gefragt werden (Entscheidung offen).
 - Markenname: Vorprüfung und Empfehlung in `docs/BRAND.md`; der Name steht zentral in `lib/brand.ts`.
+
+## 23. Lernpfade: Bücher, Clip-Fragen, Animationen (18.10.2026)
+
+- **Buch-Lektion** (`components/books/InsightCard.tsx`): Einstiegsfrage → Idee mit Darstellung und Beispiel → Abruf aus dem Kopf (Antwort erst auf Tipp) → Selbsteinschätzung → Transferaufgabe (mindestens eine je Buch) → Merksatz. Inhalte: `content/_batches/2026-10-books-learning.mjs` (Lernziel je Buch, je Idee Format, Einstiegsfrage, Abruf, Merksatz, Beleg-Stufe, Querverweise); `build-books.mjs` prüft und führt sie mit den Buchtexten zusammen.
+- **Acht Formate** (`FORMAT_NAME` in `lib/books.ts`): erklären, hinterfragen, anwenden, merken, vergleichen, Denkfehler finden, Denkmodell, mehrere Beispiele. **Beleg-Stufe** je Idee: gut belegt · These des Autors · umstritten.
+- **Wiederholung:** `rateRecall` – gewusst: Abstand 2, 7, 21, 60 Tage; nicht gewusst: morgen wieder. Fällige Ideen stehen im Feed vorn und unter „Heute wiederholen“. „Gelernt“ heißt: mindestens einmal aus dem Kopf abgerufen – ansehen allein zählt nicht. Kennzahlen: `recallStats` (abgerufen, nach Pause gewusst, unsicher).
+- **Geräteübergreifend:** Tabelle `book_states` (ein JSON je Konto, nur eigene Zeile les- und schreibbar, höchstens 60 kB). Beim Start werden Gerät und Konto zusammengeführt (`mergeBookState`), Änderungen nach 1,2 s geschrieben.
+- **Clip-Fragen:** Einblendungen laufen jetzt auch im Feed mit; die Frage wird nach dem ersten vollständigen Durchlauf hervorgehoben. Falscher erster Versuch → Hinweis, Option gesperrt, zweiter Versuch, keine Lösung. Server: `check_first_attempt()` beurteilt genau einen ersten Versuch je Frage und Konto (Tabelle `clip_quiz_attempts`, für Clients unlesbar); gewertet wird weiter in `submit_answer()`. Ein richtiger zweiter Versuch bekommt derzeit die vollen Punkte.
+- **Animationen:** Tempo je Animation (`timing.pace`, `timing.motion` in `content/animations.json`, gesetzt durch `content/_batches/2026-10-animations-learning.mjs`); `TIMING` liefert nur noch Standardwerte. Je Animation eine Vorhersagefrage (`predict`): Die Animation hält einmal vor dem Schritt an, der die Antwort zeigt.
+- **3D-Leistung:** Bühne wird erst nahe am Bildschirm gebaut und beim Verlassen samt WebGL-Kontext freigegeben; schwache Geräte (≤ 4 GB oder ≤ 4 Kerne) starten ohne Kantenglättung mit geringerer Auflösung; braucht ein Bild im Schnitt über 24 ms, sinkt die Auflösung einmalig; Beschriftungen werden nicht mehr in jedem Bild neu vermessen.
+- **Rechtliches:** Seite `/legal/` (Clip-Nachweise mit Lizenz-Links, Bücher, Daten, Software); Checkliste in `docs/LEGAL.md`.
+- Migration: `supabase/migrations/20261018100000_learning_state.sql` (nur Ergänzungen).

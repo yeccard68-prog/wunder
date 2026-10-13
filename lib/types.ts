@@ -82,6 +82,14 @@ export type Theme = "system" | "light" | "dark";
 /** Age level chosen by the user. Only this band is stored – never a birth date. */
 export type AgeBand = "6-9" | "10-12" | "13-15" | "16+";
 
+/** Spaced repetition of one book idea. level = successful recalls in a row; due = day (YYYY-MM-DD) of the next repetition. */
+export interface RecallRecord {
+  level: number;
+  due: string;
+  tries: number;
+  known: number;
+}
+
 export interface UserState {
   onboarded: boolean;
   username: string;
@@ -94,7 +102,8 @@ export interface UserState {
   answers: Record<string, AnswerRecord>;
   clipStats: Record<string, { plays: number; completed: number }>; // watch signals for ranking
   comments: Record<string, string[]>; // own comments per clip (device only)
-  books: { read: string[]; saved: string[] }; // book ideas marked as learned / saved (device only for now)
+  // book ideas: learned / saved, and for each idea recalled from memory when it is due again
+  books: { read: string[]; saved: string[]; recall?: Record<string, RecallRecord> };
   likes: string[];
   saves: string[];
   hidden: string[];

@@ -3,7 +3,7 @@
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import type { AnswerKey, FormatResponse } from "./formats";
 import { buildContent, type QuestionRow, type VideoRow } from "./content";
-import type { AgeBand } from "./types";
+import type { AgeBand, UserState } from "./types";
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 // Publishable key only – it is safe in the app bundle because every table is protected by RLS.
@@ -120,6 +120,13 @@ export async function submitAnswer(questionId: string, selected: number, context
   return data as ServerAnswer;
 }
 
+/** Clip questions: is the first try right? The solution is not revealed, and only the first try is ever judged. */
+export async function checkFirstAttempt(questionId: string, selected: number): Promise<boolean> {
+  const { data, error } = await db().rpc("check_first_attempt", { p_question_id: questionId, p_selected: selected });
+  if (error) throw error;
+  return data as boolean;
+}
+
 /** Order, estimate and blank questions: the response itself is judged on the server. */
 export async function submitResponse(questionId: string, response: FormatResponse, context: string, localDate: string, locale: string): Promise<ServerAnswer> {
   const { data, error } = await db().rpc("submit_response", { p_question_id: questionId, p_response: response, p_context: context, p_local_date: localDate, p_locale: locale });
@@ -131,6 +138,18 @@ export async function completeDailyChallenge(localDate: string): Promise<{ score
   const { data, error } = await db().rpc("complete_daily_challenge", { p_local_date: localDate });
   if (error) throw error;
   return data;
+}
+
+/** Book learning state of this account (null: nothing stored yet). */
+export async function fetchBookState(userId: string): Promise<UserState["books"] | null> {
+  const { data, error } = await db().from("book_states").select("data").eq("user_id", userId).maybeSingle();
+  if (error) throw error;
+  return (data?.data as UserState["books"] | undefined) ?? null;
+}
+
+export async function saveBookState(userId: string, books: UserState["books"]) {
+  const { error } = await db().from("book_states").upsert({ user_id: userId, data: books, updated_at: new Date().toISOString() }, { onConflict: "user_id" });
+  if (error) throw error;
 }
 
 export async function saveProfile(userId: string, patch: Partial<{ display_name: string; interests: string[]; onboarded: boolean; goal_minutes: number; motivation: string; is_private: boolean; locale: string; age_band: AgeBand | null }>) {

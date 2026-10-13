@@ -33,6 +33,14 @@ export interface Clip {
   translations?: Record<string, { title: string; hook: string; description?: string; captions: string[] }>;
 }
 
+/** The caption to show at a moment of the clip: captions are spread over the clip in proportion to their length. */
+export function captionAt(clip: Pick<Clip, "captions" | "start" | "duration">, time: number): string | undefined {
+  const total = clip.captions.reduce((n, c) => n + c.length, 0);
+  const progress = Math.min(0.999, Math.max(0, time - clip.start) / Math.max(1, clip.duration));
+  let acc = 0;
+  return clip.captions.find((c) => (acc += c.length / total) > progress);
+}
+
 /** Row shape shared by content/questions.json and public.questions (answers optional). */
 export interface QuestionRow {
   id: string;
