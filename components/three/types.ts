@@ -29,8 +29,10 @@ export interface Scene3D {
    * How the stage presents the scene. shadows: objects throw soft shadows on each other (solid
    * things in a workshop – not planets in space). floor: height of an invisible ground that only
    * shows the shadow falling on it, so the object does not float.
+   * space: outer space – black background and no light from the surroundings, so the side of a
+   * planet facing away from the sun is dark.
    */
-  stage?: { shadows?: boolean; floor?: number };
+  stage?: { shadows?: boolean; floor?: number; space?: boolean };
 }
 
 export interface SceneContext {

@@ -19,17 +19,82 @@ function onEllipse(M: number): Vec3 {
 }
 
 export const orbit: SceneFactory = ({ THREE: T, scene }) => {
-  const stars = new T.BufferGeometry();
-  stars.setAttribute("position", new T.Float32BufferAttribute(Array.from({ length: 900 }, (_, i) => (rand(i, 3) - 0.5) * 140), 3));
-  scene.add(new T.Points(stars, new T.PointsMaterial({ color: 0xffffff, size: 0.22, transparent: true, opacity: 0.7 })));
+  // stars: many faint ones, a few bright ones – always the same sky (deterministic)
+  const sky = (count: number, size: number, opacity: number, seed: number) => {
+    const g = new T.BufferGeometry();
+    g.setAttribute("position", new T.Float32BufferAttribute(Array.from({ length: count * 3 }, (_, i) => (rand(i, seed) - 0.5) * 150), 3));
+    scene.add(new T.Points(g, new T.PointsMaterial({ color: 0xffffff, size, sizeAttenuation: false, transparent: true, opacity })));
+  };
+  sky(1100, 1.2, 0.5, 3);
+  sky(120, 2.4, 0.9, 7);
 
-  const sun = new T.Mesh(new T.SphereGeometry(0.6, 40, 28), new T.MeshBasicMaterial({ color: 0xffd76a }));
-  const glow = new T.Mesh(new T.SphereGeometry(1.05, 32, 20), new T.MeshBasicMaterial({ color: 0xffb347, transparent: true, opacity: 0.22, depthWrite: false }));
+  /** A surface painted once on a canvas (256 × 128, wraps around the sphere). Drawn, not photographed. */
+  const paint = (draw: (c: CanvasRenderingContext2D, w: number, h: number) => void) => {
+    const canvas = document.createElement("canvas");
+    canvas.width = 256;
+    canvas.height = 128;
+    const c = canvas.getContext("2d");
+    if (c) draw(c, 256, 128);
+    const texture = new T.CanvasTexture(canvas);
+    texture.colorSpace = T.SRGBColorSpace;
+    return texture;
+  };
+  const blobs = (c: CanvasRenderingContext2D, w: number, h: number, n: number, seed: number, color: (i: number) => string, size: number) => {
+    for (let i = 0; i < n; i++) {
+      c.fillStyle = color(i);
+      c.beginPath();
+      c.ellipse(rand(i, seed) * w, (0.12 + 0.76 * rand(i, seed + 1)) * h, size * (0.4 + rand(i, seed + 2)), size * 0.6 * (0.4 + rand(i, seed + 3)), rand(i, seed + 4) * 3, 0, 6.2832);
+      c.fill();
+    }
+  };
+  // the sun: bright granulated surface, a few darker spots
+  const sunTexture = paint((c, w, h) => {
+    c.fillStyle = "#ffcf5a";
+    c.fillRect(0, 0, w, h);
+    blobs(c, w, h, 260, 11, (i) => (i % 3 ? "rgba(255,236,150,0.5)" : "rgba(255,150,40,0.45)"), 7);
+    blobs(c, w, h, 5, 21, () => "rgba(150,70,10,0.55)", 4);
+  });
+  const sun = new T.Mesh(new T.SphereGeometry(0.6, 48, 32), new T.MeshBasicMaterial({ map: sunTexture }));
+  // its glow: light that fades out smoothly, always facing the viewer
+  const halo = paint((c, w, h) => {
+    const grad = c.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, h / 2);
+    grad.addColorStop(0, "rgba(255,225,150,1)");
+    grad.addColorStop(0.22, "rgba(255,190,90,0.55)");
+    grad.addColorStop(0.55, "rgba(255,140,50,0.14)");
+    grad.addColorStop(1, "rgba(255,120,40,0)");
+    c.fillStyle = grad;
+    c.fillRect(w / 2 - h / 2, 0, h, h);
+  });
+  const glow = new T.Sprite(new T.SpriteMaterial({ map: halo, blending: T.AdditiveBlending, depthWrite: false, transparent: true }));
   const light = new T.PointLight(0xfff1d6, 0, 0, 0);
-  const ball = (r: number, color: number) => new T.Mesh(new T.SphereGeometry(r, 32, 22), new T.MeshStandardMaterial({ color, roughness: 0.75 }));
-  const planet = ball(0.24, 0x4f8fe8);
-  const inner = ball(0.15, 0xc9a37a);
-  const outer = ball(0.34, 0x7fc8d9);
+  const ball = (r: number, map: InstanceType<typeof T.CanvasTexture>, tilt: number) => {
+    const m = new T.Mesh(new T.SphereGeometry(r, 40, 28), new T.MeshStandardMaterial({ map, roughness: 0.85, metalness: 0 }));
+    m.rotation.z = tilt; // the axis the planet spins around is tilted
+    return m;
+  };
+  // a blue planet with land, clouds and ice caps; a cratered rocky one; a banded gas giant
+  const planet = ball(0.24, paint((c, w, h) => {
+    c.fillStyle = "#2f6fd0";
+    c.fillRect(0, 0, w, h);
+    blobs(c, w, h, 22, 31, (i) => (i % 2 ? "#4f9a4a" : "#8c8a4e"), 16);
+    blobs(c, w, h, 40, 41, () => "rgba(255,255,255,0.5)", 9);
+    c.fillStyle = "#f4f8ff";
+    c.fillRect(0, 0, w, 9);
+    c.fillRect(0, h - 9, w, 9);
+  }), 0.41);
+  const inner = ball(0.15, paint((c, w, h) => {
+    c.fillStyle = "#b08f6c";
+    c.fillRect(0, 0, w, h);
+    blobs(c, w, h, 70, 51, (i) => (i % 2 ? "rgba(70,50,35,0.45)" : "rgba(225,200,170,0.35)"), 5);
+  }), 0.05);
+  const outer = ball(0.34, paint((c, w, h) => {
+    const bands = ["#7fc8d9", "#a9dde6", "#6bb3c9", "#bfe6ec", "#72bdd0", "#9ad3df", "#63a9c0", "#aadce6"];
+    bands.forEach((color, i) => {
+      c.fillStyle = color;
+      c.fillRect(0, (i * h) / bands.length, w, h / bands.length + 1);
+    });
+    blobs(c, w, h, 18, 61, () => "rgba(255,255,255,0.22)", 14);
+  }), 0.3);
   const ring = (points: Vec3[], closed: boolean) => {
     const g = new T.BufferGeometry().setFromPoints(points.map((q) => new T.Vector3(...q)));
     const m = new T.LineBasicMaterial({ color: 0xcfc8bb, transparent: true, opacity: 0.85 });
@@ -54,8 +119,13 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
     update(step, p, t, s) {
       const appear = step === 0 ? 0 : step === 1 ? ease(clamp(s / TIMING.appear)) : 1;
       sun.scale.setScalar(Math.max(0.001, appear));
-      glow.scale.setScalar(Math.max(0.001, appear * (1 + 0.04 * Math.sin(t * 2.2))));
-      light.intensity = 3.2 * appear;
+      sun.rotation.y = t * 0.12;
+      const flare = Math.max(0.001, appear * (1 + 0.04 * Math.sin(t * 2.2)));
+      glow.scale.set(9 * flare, 4.5 * flare, 1); // the canvas is twice as wide as high
+      planet.rotation.y = t * 1.6; // day and night: the planet spins while it orbits
+      inner.rotation.y = t * 0.5;
+      outer.rotation.y = t * 2.4;
+      light.intensity = 3.2; // the planet is lit from where the sun is, also before the sun is shown
       straight.visible = step === 0;
       ellipse.visible = step >= 1;
       (ellipse.material as InstanceType<typeof T.LineBasicMaterial>).opacity = 0.85 * appear;
@@ -110,5 +180,6 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
       if (step === 2) return [{ at: [A * (1 - E) + 0.2, 0.5, -1.2], text: 4, color: "#ffd24a" }, { at: [-A * (1 + E) + 0.3, 0.5, 1.3], text: 5 }];
       return p > 0.4 ? [{ at: above(innerPos, 0.45), text: 6, color: "#e2c39f" }, { at: above(outerPos, 0.6), text: 7, color: "#9fdcea" }] : [];
     },
+    stage: { space: true },
   };
 };

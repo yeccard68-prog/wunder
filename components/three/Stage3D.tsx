@@ -157,6 +157,12 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
         world.add(key, rim, new T.HemisphereLight(0xdfe8ff, 0x2a241c, 0.5));
         const camera = new T.PerspectiveCamera(36, 1, 0.1, 200);
         const api = factory({ THREE: T, scene: world });
+        if (api.stage?.space) {
+          world.background = new T.Color(0x020308);
+          world.environmentIntensity = 0;
+          world.remove(key, rim);
+          world.traverse((o) => (o as THREE.HemisphereLight).isHemisphereLight && ((o as THREE.HemisphereLight).intensity = 0.22)); // a little light, so the night side is dim rather than invisible
+        }
         // soft shadows where the scene asks for them – not on weak devices
         if (api.stage?.shadows && !weak) {
           const box = new T.Box3().setFromObject(world);
@@ -166,7 +172,8 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
             const m = o as THREE.Mesh;
             const mat = m.material as THREE.Material | undefined;
             if (!m.isMesh || !mat || Array.isArray(mat)) return;
-            const solid = !mat.transparent && (mat as THREE.MeshStandardMaterial).isMeshStandardMaterial;
+            // glass lets light through: it receives no shadow and throws none
+            const solid = !mat.transparent && (mat as THREE.MeshStandardMaterial).isMeshStandardMaterial && !((mat as THREE.MeshPhysicalMaterial).transmission > 0);
             m.castShadow = solid;
             m.receiveShadow = solid;
           });
@@ -220,7 +227,10 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
             const m = o as THREE.Mesh;
             m.geometry?.dispose();
             const mat = m.material as THREE.Material | THREE.Material[] | undefined;
-            (Array.isArray(mat) ? mat : mat ? [mat] : []).forEach((x) => x.dispose());
+            (Array.isArray(mat) ? mat : mat ? [mat] : []).forEach((x) => {
+              (x as THREE.MeshStandardMaterial).map?.dispose();
+              x.dispose();
+            });
           });
           env.dispose();
           backdropTexture?.dispose();
