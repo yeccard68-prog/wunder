@@ -25,6 +25,12 @@ export interface Scene3D {
   labels?(step: number, p: number, t: number, s: number): Label3D[];
   /** Index of the label shown as a heading above the scene, if any. */
   heading?(step: number): number | null;
+  /**
+   * How the stage presents the scene. shadows: objects throw soft shadows on each other (solid
+   * things in a workshop – not planets in space). floor: height of an invisible ground that only
+   * shows the shadow falling on it, so the object does not float.
+   */
+  stage?: { shadows?: boolean; floor?: number };
 }
 
 export interface SceneContext {

@@ -23,6 +23,18 @@ export const engine: SceneFactory = ({ THREE: T, scene }) => {
   const head = add(new T.Mesh(new T.CylinderGeometry(BORE + 0.14, BORE + 0.14, 0.3, 56, 1, false, Math.PI / 2, Math.PI), block));
   head.position.y = HEAD + 0.15;
 
+  // cooling fins around the cylinder, as on an air-cooled engine
+  for (let i = 0; i < 7; i++) {
+    // a flat half ring behind the cut – it must not reach into the bore
+    const fin = add(new T.Mesh(new T.RingGeometry(BORE + 0.14, BORE + 0.44, 56, 1, Math.PI, Math.PI), block));
+    fin.rotation.x = Math.PI / 2;
+    fin.position.y = HEAD - 0.15 - i * 0.33;
+  }
+  // crankcase: the lower half of the housing the crankshaft turns in
+  const crankcase = add(new T.Mesh(new T.CylinderGeometry(1.32, 1.32, 1.7, 48, 1, true, -Math.PI / 2, Math.PI), block));
+  crankcase.rotation.x = Math.PI / 2;
+  crankcase.position.y = CY;
+
   // intake (left, bluish) and exhaust (right) ports
   const port = (side: number, color: number) => {
     const m = add(new T.Mesh(new T.CylinderGeometry(0.24, 0.24, 1.5, 24, 1, true), new T.MeshStandardMaterial({ color, metalness: 0.5, roughness: 0.5, side: T.DoubleSide, transparent: true, opacity: 0.55 })));
@@ -38,9 +50,18 @@ export const engine: SceneFactory = ({ THREE: T, scene }) => {
     const g = add(new T.Group());
     add(new T.Mesh(new T.CylinderGeometry(0.045, 0.045, 0.9, 12), steel), g).position.y = 0.48;
     add(new T.Mesh(new T.CylinderGeometry(0.3, 0.22, 0.07, 28), steel), g);
+    add(new T.Mesh(new T.CylinderGeometry(0.15, 0.15, 0.04, 20), steel), g).position.y = 0.92; // spring retainer
     g.position.set(side * 0.47, HEAD - 0.04, 0);
     return g;
   };
+  // valve springs: they sit on the head and are squeezed when a valve opens
+  const helix = new T.CatmullRomCurve3(Array.from({ length: 73 }, (_, i) => new T.Vector3(0.12 * Math.cos((i / 72) * Math.PI * 12), (i / 72) * 0.56, 0.12 * Math.sin((i / 72) * Math.PI * 12))));
+  const spring = (side: number) => {
+    const s = add(new T.Mesh(new T.TubeGeometry(helix, 96, 0.022, 6), steel));
+    s.position.set(side * 0.47, HEAD + 0.3, 0);
+    return s;
+  };
+  const springs = [spring(-1), spring(1)];
   const intake = valve(-1);
   const exhaust = valve(1);
 
@@ -60,7 +81,19 @@ export const engine: SceneFactory = ({ THREE: T, scene }) => {
     ring.rotation.x = Math.PI / 2;
     ring.position.y = y;
   }
-  const rod = add(new T.Mesh(new T.BoxGeometry(0.24, L, 0.18), iron));
+  // connecting rod: a slim beam between the small eye at the piston pin and the big eye on the crank pin
+  const rod = add(new T.Group());
+  add(new T.Mesh(new T.BoxGeometry(0.2, L - 0.5, 0.1), iron), rod);
+  add(new T.Mesh(new T.BoxGeometry(0.08, L - 0.6, 0.16), iron), rod); // web of the I-beam
+  for (const [y, r] of [[L / 2, 0.19], [-L / 2, 0.29]] as const) {
+    const eye = add(new T.Mesh(new T.CylinderGeometry(r, r, 0.2, 28), iron), rod);
+    eye.rotation.x = Math.PI / 2;
+    eye.position.y = y;
+  }
+  // piston pin, visible in the cut-open skirt
+  const wrist = add(new T.Mesh(new T.CylinderGeometry(0.11, 0.11, 1.5, 20), steel), piston);
+  wrist.rotation.x = Math.PI / 2;
+  wrist.position.y = -0.1;
 
   // crankshaft: turns around the z axis
   const crank = add(new T.Group());
@@ -111,6 +144,8 @@ export const engine: SceneFactory = ({ THREE: T, scene }) => {
       const open = (active: boolean) => (active ? -0.24 * Math.sin(Math.PI * clamp(p * 1.05)) : 0);
       intake.position.y = HEAD - 0.04 + open(step === 0);
       exhaust.position.y = HEAD - 0.04 + open(step === 3);
+      springs[0].scale.y = (0.56 + open(step === 0)) / 0.56;
+      springs[1].scale.y = (0.56 + open(step === 3)) / 0.56;
 
       const top = pistonY + 0.375;
       gas.scale.y = Math.max(0.01, HEAD - top);
@@ -156,5 +191,6 @@ export const engine: SceneFactory = ({ THREE: T, scene }) => {
       ];
     },
     heading: (step) => 5 + step,
+    stage: { shadows: true, floor: CY - 1.7 },
   };
 };

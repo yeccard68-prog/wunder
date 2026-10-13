@@ -105,5 +105,6 @@ export const dna: SceneFactory = ({ THREE: T, scene }) => {
       if (step === 2) return [{ at: [0, y(Math.min(N - 1, Math.round(fork))) - 0.2, 0] as Vec3, text: 6, color: "#ffd24a" }];
       return p > 0.25 ? [{ at: at(N - 2, 0, true, RAD + 0.7), text: 7, color: "#9fd8ff" }, { at: at(N - 4, 1, false, RAD + 0.7), text: 8 }] : [];
     },
+    stage: { shadows: true },
   };
 };

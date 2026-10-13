@@ -264,3 +264,11 @@ Offen bis zur Store-Reife:
 - **3D-Leistung:** Bühne wird erst nahe am Bildschirm gebaut und beim Verlassen samt WebGL-Kontext freigegeben; schwache Geräte (≤ 4 GB oder ≤ 4 Kerne) starten ohne Kantenglättung mit geringerer Auflösung; braucht ein Bild im Schnitt über 24 ms, sinkt die Auflösung einmalig; Beschriftungen werden nicht mehr in jedem Bild neu vermessen.
 - **Rechtliches:** Seite `/legal/` (Clip-Nachweise mit Lizenz-Links, Bücher, Daten, Software); Checkliste in `docs/LEGAL.md`.
 - Migration: `supabase/migrations/20261018100000_learning_state.sql` (nur Ergänzungen).
+
+## 24. Realismus der 3D-Szenen (19.10.2026)
+
+- **Bühne für alle Szenen** (`Stage3D.tsx`): Hintergrund mit weichem Lichtkegel statt Einheitsfarbe, zusätzliches kühles Kantenlicht von hinten. Eine Szene kann über `stage: { shadows, floor }` weiche Schatten und einen unsichtbaren Boden anfordern, der nur den Schatten zeigt. Schatten gibt es nicht auf schwachen Geräten.
+- **Zahnräder:** Zähne mit echten Proportionen (Kopfhöhe = Modul, Fußhöhe = 1,25 × Modul, zur Spitze schmaler werdende Flanken, gerundeter Zahnfuß), erhabene Nabe mit Passfeder auf heller Welle, Erleichterungsbohrungen bei größeren Rädern, verschraubte Lagerflansche auf dunkler Grundplatte, auf die die Räder Schatten werfen. Übersetzung und Eingriff unverändert.
+- **Motor:** Pleuel mit kleinem und großem Auge und Steg statt Quader, sichtbarer Kolbenbolzen, Kühlrippen am Zylinder, untere Kurbelgehäuse-Hälfte, Ventilfedern mit Federteller, die beim Öffnen zusammengedrückt werden; Schatten auf dem Boden.
+- **DNA:** Schatten der Stränge aufeinander. **Planetenbahn und Linse:** nur Hintergrund und Kantenlicht, keine Schatten (Weltraum bzw. Glas).
+- Gemessen am Entwicklungs-PC (`scripts/measure-animations.mjs`, beantwortet jetzt die Vorhersagefrage selbst): Motor, Zahnräder, DNA je 60 Bilder pro Sekunde, Laufzeiten unverändert.

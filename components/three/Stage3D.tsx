@@ -128,7 +128,22 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
         renderer.toneMapping = T.ACESFilmicToneMapping;
         renderer.outputColorSpace = T.SRGBColorSpace;
         const world = new T.Scene();
-        world.background = new T.Color(BACKGROUND);
+        // backdrop: a soft pool of light behind the object instead of a flat colour
+        const backdrop = document.createElement("canvas");
+        backdrop.width = backdrop.height = 256;
+        const g2 = backdrop.getContext("2d");
+        let backdropTexture: THREE.CanvasTexture | null = null;
+        if (g2) {
+          const grad = g2.createRadialGradient(128, 118, 10, 128, 128, 190);
+          grad.addColorStop(0, "#26231f");
+          grad.addColorStop(0.55, "#161412");
+          grad.addColorStop(1, "#0b0a09");
+          g2.fillStyle = grad;
+          g2.fillRect(0, 0, 256, 256);
+          backdropTexture = new T.CanvasTexture(backdrop);
+          backdropTexture.colorSpace = T.SRGBColorSpace;
+          world.background = backdropTexture;
+        } else world.background = new T.Color(BACKGROUND);
         // soft studio light from a generated environment: gives metal and glossy surfaces something to reflect
         const pmrem = new T.PMREMGenerator(renderer);
         const env = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
@@ -136,9 +151,49 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
         world.environmentIntensity = 0.55;
         const key = new T.DirectionalLight(0xffffff, 1.6);
         key.position.set(4, 7, 6);
-        world.add(key, new T.HemisphereLight(0xdfe8ff, 0x2a241c, 0.5));
+        // a cool light from behind lifts the edges off the dark background
+        const rim = new T.DirectionalLight(0xbcd2ff, 0.7);
+        rim.position.set(-5, 3, -6);
+        world.add(key, rim, new T.HemisphereLight(0xdfe8ff, 0x2a241c, 0.5));
         const camera = new T.PerspectiveCamera(36, 1, 0.1, 200);
         const api = factory({ THREE: T, scene: world });
+        // soft shadows where the scene asks for them – not on weak devices
+        if (api.stage?.shadows && !weak) {
+          const box = new T.Box3().setFromObject(world);
+          const centre = box.getCenter(new T.Vector3());
+          const reach = Math.min(14, box.getSize(new T.Vector3()).length() / 2);
+          world.traverse((o) => {
+            const m = o as THREE.Mesh;
+            const mat = m.material as THREE.Material | undefined;
+            if (!m.isMesh || !mat || Array.isArray(mat)) return;
+            const solid = !mat.transparent && (mat as THREE.MeshStandardMaterial).isMeshStandardMaterial;
+            m.castShadow = solid;
+            m.receiveShadow = solid;
+          });
+          if (api.stage.floor != null) {
+            const floor = new T.Mesh(new T.PlaneGeometry(60, 60), new T.ShadowMaterial({ opacity: 0.42 }));
+            floor.rotation.x = -Math.PI / 2;
+            floor.position.set(centre.x, api.stage.floor, centre.z);
+            floor.receiveShadow = true;
+            world.add(floor);
+          }
+          renderer.shadowMap.enabled = true;
+          renderer.shadowMap.type = T.PCFSoftShadowMap;
+          key.castShadow = true;
+          key.position.copy(centre).add(new T.Vector3(4, 7, 6).normalize().multiplyScalar(reach * 2.5));
+          key.target.position.copy(centre);
+          world.add(key.target);
+          const cam = key.shadow.camera;
+          cam.left = cam.bottom = -reach * 1.15;
+          cam.right = cam.top = reach * 1.15;
+          cam.near = 0.5;
+          cam.far = reach * 5.5;
+          cam.updateProjectionMatrix();
+          key.shadow.mapSize.set(2048, 2048);
+          key.shadow.bias = -0.0005;
+          key.shadow.normalBias = 0.03;
+          key.shadow.radius = 4;
+        }
         const resize = () => {
           const w = el.clientWidth;
           const h = el.clientHeight;
@@ -168,6 +223,8 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
             (Array.isArray(mat) ? mat : mat ? [mat] : []).forEach((x) => x.dispose());
           });
           env.dispose();
+          backdropTexture?.dispose();
+          key.shadow.map?.dispose();
           pmrem.dispose();
           renderer.dispose();
           renderer.forceContextLoss(); // browsers allow only a handful of WebGL contexts per page – give this one back now

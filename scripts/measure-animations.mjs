@@ -14,10 +14,23 @@ const browser = await chromium.launch({ channel });
 const page = await browser.newPage({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true });
 await page.addInitScript(() => localStorage.setItem("wunder.demo.state.v3", JSON.stringify({ state: { onboarded: true, username: "Test", interests: ["science"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" } } })));
 
+// Plays to the end. The stop for the prediction question is answered at once and its duration left out.
 const untilDone = async () => {
   const start = Date.now();
-  await page.getByRole("button", { name: "Noch einmal ansehen" }).waitFor({ timeout: 90_000 });
-  return (Date.now() - start) / 1000;
+  let paused = 0;
+  const done = page.getByRole("button", { name: "Noch einmal ansehen" });
+  const predict = page.getByTestId("predict");
+  while (!(await done.isVisible())) {
+    if (Date.now() - start > 90_000) throw new Error("animation did not finish");
+    if (await predict.isVisible()) {
+      const t0 = Date.now();
+      await predict.getByRole("button").first().click();
+      await predict.getByRole("button", { name: "Weiter" }).click();
+      paused += Date.now() - t0;
+    }
+    await page.waitForTimeout(100);
+  }
+  return (Date.now() - start - paused) / 1000;
 };
 const result = [];
 for (const title of titles) {

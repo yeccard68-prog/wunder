@@ -12,12 +12,23 @@ const radius = (teeth: number) => (MODULE * teeth) / 2;
 const SPEED = 1.15; // radians per second of the driving gear (presentation speed)
 
 export const gears: SceneFactory = ({ THREE: T, scene }) => {
-  /** A gear wheel as an extruded outline: every tooth takes half of its pitch, the gap the other half. */
+  const dark = new T.MeshStandardMaterial({ color: 0x3d4046, metalness: 0.85, roughness: 0.45 });
+  const bright = new T.MeshStandardMaterial({ color: 0xc9ccd2, metalness: 0.95, roughness: 0.22 });
+  /**
+   * A spur gear with the proportions of a real one: teeth one module high above the pitch circle
+   * and a little more below it, flanks that narrow towards the tip (close to the involute curve of
+   * machined gears), rounded roots, a raised hub on a keyed shaft and – on larger wheels – holes
+   * in the web to save weight. At the pitch circle tooth and gap are equally wide, so two wheels mesh.
+   */
   const gear = (teeth: number, color: number) => {
     const r = radius(teeth);
     const pitch = (2 * Math.PI) / teeth;
     const shape = new T.Shape();
-    const profile: [number, number][] = [[0, r - 0.16], [0.25, r - 0.16], [0.31, r + 0.15], [0.69, r + 0.15], [0.75, r - 0.16]];
+    const tip = r + MODULE;
+    const root = r - 1.25 * MODULE;
+    // one tooth, centred on 0.5 of its pitch: [fraction of the pitch, radius]
+    const half: [number, number][] = [[0.36, root], [0.31, root + 0.045], [0.275, r - 0.5 * MODULE], [0.25, r], [0.205, r + 0.55 * MODULE], [0.165, tip - 0.03], [0.14, tip]];
+    const profile: [number, number][] = [[0, root], ...half.map(([f, rad]): [number, number] => [0.5 - f, rad]), ...half.reverse().map(([f, rad]): [number, number] => [0.5 + f, rad])];
     for (let i = 0; i < teeth; i++)
       for (const [f, rad] of profile) {
         const a = (i + f) * pitch;
@@ -28,25 +39,59 @@ export const gears: SceneFactory = ({ THREE: T, scene }) => {
       }
     shape.closePath();
     const hole = new T.Path();
-    hole.absarc(0, 0, 0.22, 0, Math.PI * 2, true);
+    hole.absarc(0, 0, 0.2, 0, Math.PI * 2, true);
     shape.holes.push(hole);
+    // lightening holes in the web of the larger wheels
+    const windows = r > 1.4 ? Math.round(teeth / 4) : 0;
+    for (let i = 0; i < windows; i++) {
+      const a = ((i + 0.5) / windows) * Math.PI * 2;
+      const w = new T.Path();
+      w.absarc(0.57 * r * Math.cos(a), 0.57 * r * Math.sin(a), 0.17 * r, 0, Math.PI * 2, true);
+      shape.holes.push(w);
+    }
     const g = new T.Group();
-    const body = new T.Mesh(new T.ExtrudeGeometry(shape, { depth: 0.36, bevelEnabled: true, bevelSize: 0.02, bevelThickness: 0.02, bevelSegments: 1, curveSegments: 6 }), new T.MeshStandardMaterial({ color, metalness: 0.85, roughness: 0.35 }));
+    const metal = new T.MeshStandardMaterial({ color, metalness: 0.9, roughness: 0.32 });
+    const body = new T.Mesh(new T.ExtrudeGeometry(shape, { depth: 0.36, bevelEnabled: true, bevelSize: 0.025, bevelThickness: 0.025, bevelSegments: 2, curveSegments: 20 }), metal);
     body.position.z = -0.18;
+    // raised hub with a chamfer, clamped on the shaft by a key
+    const hub = new T.Mesh(new T.CylinderGeometry(0.4, 0.46, 0.2, 40), metal);
+    hub.rotation.x = Math.PI / 2;
+    hub.position.z = 0.3;
+    const key = new T.Mesh(new T.BoxGeometry(0.1, 0.13, 0.5), dark);
+    key.position.set(0, 0.2, 0.2);
+    const cap = new T.Mesh(new T.CylinderGeometry(0.2, 0.2, 0.06, 28), bright);
+    cap.rotation.x = Math.PI / 2;
+    cap.position.z = 0.56;
     // a mark on the rim, so the eye can follow one turn
     const mark = new T.Mesh(new T.CylinderGeometry(0.1, 0.1, 0.06, 16), new T.MeshBasicMaterial({ color: 0xfff2a8 }));
     mark.rotation.x = Math.PI / 2;
     mark.position.set(r - 0.42, 0, 0.22);
-    const axle = new T.Mesh(new T.CylinderGeometry(0.2, 0.2, 1.1, 20), new T.MeshStandardMaterial({ color: 0x4a4d52, metalness: 0.8, roughness: 0.5 }));
+    const axle = new T.Mesh(new T.CylinderGeometry(0.2, 0.2, 1.3, 28), bright);
     axle.rotation.x = Math.PI / 2;
-    g.add(body, mark, axle);
-    scene.add(g);
-    return g;
+    axle.position.z = -0.1;
+    g.add(body, hub, key, cap, mark, axle);
+    // the bearing the shaft runs in: bolted to the base plate, does not turn
+    const bearing = new T.Group();
+    const flange = new T.Mesh(new T.CylinderGeometry(0.52, 0.56, 0.16, 40), dark);
+    flange.rotation.x = Math.PI / 2;
+    bearing.add(flange);
+    for (let i = 0; i < 4; i++) {
+      const bolt = new T.Mesh(new T.CylinderGeometry(0.055, 0.055, 0.08, 6), bright);
+      bolt.rotation.x = Math.PI / 2;
+      bolt.position.set(0.42 * Math.cos((i + 0.5) * (Math.PI / 2)), 0.42 * Math.sin((i + 0.5) * (Math.PI / 2)), 0.1);
+      bearing.add(bolt);
+    }
+    bearing.position.z = -0.57;
+    const unit = new T.Group(); // moves as one; only `g` turns
+    unit.add(g, bearing);
+    scene.add(unit);
+    return { unit, wheel: g };
   };
   const a = gear(NA, 0xd9a441);
   const b = gear(NB, 0xaab0b8);
   const idler = gear(NI, 0xc7754a);
-  const plate = new T.Mesh(new T.BoxGeometry(16, 9, 0.2), new T.MeshStandardMaterial({ color: 0x1c1b19, roughness: 0.9 }));
+  // base plate of dark anodised metal; the wheels throw their shadows on it
+  const plate = new T.Mesh(new T.BoxGeometry(16, 9, 0.2), new T.MeshStandardMaterial({ color: 0x24262a, metalness: 0.6, roughness: 0.62 }));
   plate.position.set(3.5, 0, -0.75);
   scene.add(plate);
 
@@ -60,14 +105,14 @@ export const gears: SceneFactory = ({ THREE: T, scene }) => {
       const theta = t * SPEED;
       k = step === 3 ? ease(clamp(s / TIMING.camera)) : 0;
       bx = lerp(DIRECT, WITH_IDLER, k);
-      a.rotation.z = theta - Math.PI / NA; // a tooth points at the neighbour when theta = 0
-      b.position.x = bx;
-      idler.position.x = radius(NA) + radius(NI);
-      idler.visible = k > 0.02;
-      idler.scale.setScalar(Math.max(0.001, k));
-      idler.rotation.z = (-theta * NA) / NI; // meshes with the driving gear → turns the other way
+      a.wheel.rotation.z = theta - Math.PI / NA; // a tooth points at the neighbour when theta = 0
+      b.unit.position.x = bx;
+      idler.unit.position.x = radius(NA) + radius(NI);
+      idler.unit.visible = k > 0.02;
+      idler.unit.scale.setScalar(Math.max(0.001, k));
+      idler.wheel.rotation.z = (-theta * NA) / NI; // meshes with the driving gear → turns the other way
       // direct mesh: opposite direction; through the idler: same direction again. The ratio 12 : 24 stays.
-      b.rotation.z = k > 0.5 ? (theta * NA) / NB - Math.PI / NB : (-theta * NA) / NB;
+      b.wheel.rotation.z = k > 0.5 ? (theta * NA) / NB - Math.PI / NB : (-theta * NA) / NB;
     },
     camera(step) {
       // centre of everything on show: from the left edge of the small gear to the right edge of the large one
@@ -83,5 +128,6 @@ export const gears: SceneFactory = ({ THREE: T, scene }) => {
       if (step === 2) return [{ at: [bx / 2 + 0.5, -radius(NB) - 0.7, 0.3], text: 4, color: "#ffd24a" }, { at: A, text: 0, dim: true }, { at: B, text: 1, dim: true }];
       return k > 0.6 ? [{ at: top(radius(NA) + radius(NI), radius(NI)), text: 6, color: "#e59a72" }, { at: [bx, -radius(NB) - 0.7, 0.3], text: 7, color: "#ffd24a" }] : [];
     },
+    stage: { shadows: true },
   };
 };
