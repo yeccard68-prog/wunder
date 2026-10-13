@@ -194,7 +194,7 @@
     "min_age": 10,
     "difficulty": 2,
     "language": "de",
-    "renderer": "svg-scene",
+    "renderer": "three",
     "scene": "storm",
     "title": "Wie ein Gewitter entsteht",
     "summary": "Von warmer Luft über einen Wolkenturm bis zum Blitz.",
@@ -275,7 +275,8 @@
         "Unten in der Wolke"
       ],
       "correct": 2
-    }
+    },
+    "fallback_scene": "storm"
   },
   {
     "id": "a-batterie",
@@ -557,7 +558,7 @@
   },
   {
     "language": "de",
-    "renderer": "svg-scene",
+    "renderer": "three",
     "min_age": 13,
     "difficulty": 2,
     "verification_status": "ai_checked",
@@ -646,7 +647,8 @@
         "Die Reihenfolge der Schichten"
       ],
       "correct": 1
-    }
+    },
+    "fallback_scene": "neural"
   },
   {
     "language": "de",
@@ -1432,6 +1434,206 @@
         "Sie wird kleiner"
       ],
       "correct": 2
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "id": "a-finsternis",
+    "category_id": "science",
+    "scene": "eclipse",
+    "title": "Wie Finsternisse entstehen",
+    "summary": "Mal verdeckt der Mond die Sonne, mal taucht er in den Schatten der Erde – aber nur, wenn alles auf einer Linie steht.",
+    "goal": "Du kannst Sonnen- und Mondfinsternis unterscheiden und erklären, warum sie selten sind.",
+    "labels": [
+      "Sonnenlicht",
+      "Erde",
+      "Mond",
+      "Mondbahn: um 5° geneigt (hier übertrieben)",
+      "Sonnenfinsternis",
+      "Mondschatten",
+      "Mondfinsternis",
+      "Erdschatten",
+      "meist zieht der Mond am Schatten vorbei"
+    ],
+    "steps": [
+      {
+        "text": "Der Mond umrundet die Erde einmal im Monat. Seine Bahn ist aber um etwa fünf Grad geneigt: Meist zieht er über oder unter der Linie zwischen Sonne und Erde vorbei.",
+        "seconds": 8
+      },
+      {
+        "text": "Steht der Neumond genau auf dieser Linie, fällt sein Schatten auf die Erde. In einem schmalen Streifen verdeckt er die Sonne: eine Sonnenfinsternis.",
+        "seconds": 8
+      },
+      {
+        "text": "Steht der Vollmond genau hinter der Erde, taucht er in ihren Schatten: eine Mondfinsternis. Er verschwindet nicht, sondern leuchtet rötlich – die Lufthülle der Erde lenkt rotes Licht in den Schatten.",
+        "seconds": 10
+      },
+      {
+        "text": "Eine Mondfinsternis sieht die ganze Nachtseite der Erde, eine Sonnenfinsternis nur ein schmaler Streifen. Meist aber verfehlt der Mond die Linie – deshalb sind Finsternisse selten.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Sonnenfinsternis",
+        "url": "https://de.wikipedia.org/wiki/Sonnenfinsternis"
+      },
+      {
+        "name": "Wikipedia: Mondfinsternis",
+        "url": "https://de.wikipedia.org/wiki/Mondfinsternis"
+      }
+    ],
+    "quiz_question_id": "qa-finsternis",
+    "translations": {
+      "en": {
+        "title": "How eclipses happen",
+        "summary": "Sometimes the Moon covers the Sun, sometimes it dips into the Earth's shadow – but only when everything is in one line.",
+        "goal": "You can tell a solar from a lunar eclipse and explain why they are rare.",
+        "labels": [
+          "Sunlight",
+          "Earth",
+          "Moon",
+          "Moon's orbit: tilted by 5° (exaggerated here)",
+          "Solar eclipse",
+          "Moon's shadow",
+          "Lunar eclipse",
+          "Earth's shadow",
+          "usually the Moon misses the shadow"
+        ],
+        "steps": [
+          "The Moon goes around the Earth once a month. But its orbit is tilted by about five degrees: usually it passes above or below the line between the Sun and the Earth.",
+          "If the new moon is exactly on this line, its shadow falls on the Earth. In a narrow strip it covers the Sun: a solar eclipse.",
+          "If the full moon is exactly behind the Earth, it dips into the Earth's shadow: a lunar eclipse. It does not vanish but glows reddish – the Earth's atmosphere bends red light into the shadow.",
+          "A lunar eclipse is seen by the whole night side of the Earth, a solar eclipse only by a narrow strip. Mostly, though, the Moon misses the line – which is why eclipses are rare."
+        ],
+        "predict": {
+          "question": "Two weeks later the Moon is on the other side – exactly behind the Earth. What happens to it?",
+          "options": [
+            "It shines especially brightly",
+            "It moves into the Earth's shadow",
+            "It covers the Sun"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 2,
+      "question": "Zwei Wochen später steht der Mond auf der anderen Seite – genau hinter der Erde. Was passiert mit ihm?",
+      "options": [
+        "Er leuchtet besonders hell",
+        "Er gerät in den Schatten der Erde",
+        "Er verdeckt die Sonne"
+      ],
+      "correct": 1
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:00:00Z",
+    "id": "a-treibhauseffekt",
+    "category_id": "earth",
+    "scene": "greenhouse",
+    "title": "Wie der Treibhauseffekt funktioniert",
+    "summary": "Sonnenlicht kommt herein, Wärme will hinaus – und Treibhausgase halten einen Teil davon zurück.",
+    "goal": "Du kannst erklären, warum die Erde ohne Treibhausgase eisig wäre und warum zusätzliches CO₂ sie erwärmt.",
+    "labels": [
+      "Sonnenlicht",
+      "Wärmestrahlung",
+      "Treibhausgase (CO₂, Wasserdampf, Methan)",
+      "ohne Treibhausgase: −18 °C",
+      "natürlicher Treibhauseffekt: etwa +15 °C",
+      "mehr CO₂ – mehr Wärme bleibt",
+      "Weltraum"
+    ],
+    "steps": [
+      {
+        "text": "Sonnenlicht durchquert die Luft fast ungehindert. Es trifft auf den Boden und die Meere und erwärmt sie.",
+        "seconds": 7
+      },
+      {
+        "text": "Der warme Boden gibt die Energie als unsichtbare Wärmestrahlung wieder ab. Könnte sie ungehindert ins All entweichen, läge die Durchschnittstemperatur der Erde bei etwa −18 Grad.",
+        "seconds": 9
+      },
+      {
+        "text": "Treibhausgase wie Wasserdampf, CO₂ und Methan nehmen Wärmestrahlung auf und geben sie in alle Richtungen wieder ab – auch zurück zum Boden. Dieser natürliche Treibhauseffekt macht die Erde mit rund +15 Grad erst bewohnbar.",
+        "seconds": 10
+      },
+      {
+        "text": "Beim Verbrennen von Kohle, Öl und Gas entsteht zusätzliches CO₂. Sein Anteil in der Luft ist seit Beginn der Industrialisierung um etwa die Hälfte gestiegen. Mehr Wärme bleibt in der Atmosphäre – die Erde erwärmt sich.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Treibhauseffekt",
+        "url": "https://de.wikipedia.org/wiki/Treibhauseffekt"
+      },
+      {
+        "name": "Wikipedia: Kohlenstoffdioxid in der Erdatmosphäre",
+        "url": "https://de.wikipedia.org/wiki/Kohlenstoffdioxid_in_der_Erdatmosphäre"
+      }
+    ],
+    "quiz_question_id": "qa-treibhaus",
+    "translations": {
+      "en": {
+        "title": "How the greenhouse effect works",
+        "summary": "Sunlight comes in, heat wants out – and greenhouse gases hold part of it back.",
+        "goal": "You can explain why the Earth would be icy without greenhouse gases and why additional CO₂ warms it.",
+        "labels": [
+          "Sunlight",
+          "Heat radiation",
+          "Greenhouse gases (CO₂, water vapour, methane)",
+          "without greenhouse gases: −18 °C",
+          "natural greenhouse effect: about +15 °C",
+          "more CO₂ – more heat stays",
+          "Space"
+        ],
+        "steps": [
+          "Sunlight passes through the air almost unhindered. It hits the ground and the seas and warms them.",
+          "The warm ground gives the energy off again as invisible heat radiation. If it could escape into space unhindered, the Earth's average temperature would be about −18 degrees.",
+          "Greenhouse gases such as water vapour, CO₂ and methane absorb heat radiation and emit it again in all directions – also back to the ground. This natural greenhouse effect is what makes the Earth habitable, at about +15 degrees.",
+          "Burning coal, oil and gas produces additional CO₂. Its share in the air has risen by about half since the start of industrialisation. More heat stays in the atmosphere – the Earth warms."
+        ],
+        "predict": {
+          "question": "Coal, oil and gas put additional CO₂ into the air. What happens to the Earth's heat radiation?",
+          "options": [
+            "More of it escapes into space",
+            "More of it is held back",
+            "Nothing changes"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 3,
+      "question": "Durch Kohle, Öl und Gas gelangt zusätzliches CO₂ in die Luft. Was passiert mit der Wärmestrahlung der Erde?",
+      "options": [
+        "Mehr davon entweicht ins All",
+        "Mehr davon wird zurückgehalten",
+        "Es ändert sich nichts"
+      ],
+      "correct": 1
     }
   }
 ]

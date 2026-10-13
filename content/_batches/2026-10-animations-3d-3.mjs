@@ -22,5 +22,8 @@ to3d("a-batterie", "cell", "battery");
 // 20.10.2026: plate tectonics and the birth of a star follow
 to3d("a-platten", "plates", "plates");
 to3d("a-sternentstehung", "starbirth", "star");
+// 21.10.2026: thunderstorm and neural network
+to3d("a-gewitter", "storm", "storm");
+to3d("a-neuronales-netz", "neural", "neural");
 fs.writeFileSync(file, JSON.stringify(animations, null, 2) + "\n");
 console.log("motor, battery, plates and star are 3D scenes now.");

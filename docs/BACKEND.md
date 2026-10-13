@@ -289,3 +289,11 @@ Offen bis zur Store-Reife:
 - Die Zeichnungen bleiben als Rückfall ohne 3D. Texte und Prüffragen unverändert.
 - Sonnenleuchten in allen Szenen mit steilerem Abfall (im linearen Licht war der Rand des Leuchtens als Kante sichtbar).
 - Stand: 15 Animationen, 12 in 3D, 3 gezeichnet (Herz, Gewitter, neuronales Netz).
+
+## 27. Gewitter, neuronales Netz, Finsternisse, Treibhauseffekt (21.10.2026)
+
+- **Gewitter** (`scenes/storm.ts`): Landschaft mit Bäumen, aufsteigende Warmluft, Wolkenturm aus 64 weichen Kugeln mit Amboss, Eiskristalle und Graupel, Ladungszeichen (+ oben, – unten, + am Boden), gezackter Blitz mit Lichtblitz. Die Szene setzt ihren eigenen Himmel als Hintergrund.
+- **Neuronales Netz** (`scenes/neural.ts`): 16 Eingänge, 6 verborgene Neuronen, 2 Ausgänge – wirklich gerechnet. Linienfarbe = Gewicht (orange positiv, blau negativ), Helligkeit der Neuronen = Aktivierung. Vor dem Training gewinnt die falsche Antwort, beim Training läuft der Fehler rot rückwärts und die Gewichte wandern zu den trainierten Werten.
+- **Neu:** Finsternisse (`eclipse`, geneigte Mondbahn, Mondschatten auf der Erde, rötlicher Mond im Erdschatten) und Treibhauseffekt (`greenhouse`, Sonnenlicht, Wärmestrahlung, CO₂-Moleküle, Thermometer, Kraftwerk). Inhalte: `content/_batches/2026-10-animations-3d-5.mjs`; gemeinsame Zusammenführung jetzt in `scripts/content/merge-animations.mjs`.
+- Beim Treibhauseffekt sind die Anteile zurückgeschickter Strahlung („etwa die Hälfte“, „etwa drei Viertel“) reine Veranschaulichung, keine Messwerte – steht im Kopf der Szene.
+- Stand: 17 Animationen, 16 in 3D, eine gezeichnet (Herz). 604 Fragen (560 im Feed).

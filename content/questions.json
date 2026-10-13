@@ -23009,5 +23009,85 @@
         "explanation": "Law of the lever: force times force arm equals load times load arm. A force arm three times as long means a third of the force – in return the hand has to travel three times the distance."
       }
     }
+  },
+  {
+    "id": "qa-finsternis",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum gibt es nicht bei jedem Neumond eine Sonnenfinsternis?",
+    "options": [
+      "Weil der Mond dafür meist zu weit entfernt ist",
+      "Weil die Erde sich zu schnell dreht",
+      "Weil die Mondbahn geneigt ist: Der Mond zieht meist über oder unter der Linie Sonne–Erde vorbei",
+      "Weil Neumond nur zweimal im Jahr vorkommt"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Mondbahn ist um rund fünf Grad gegen die Erdbahn geneigt. Nur wenn Neumond oder Vollmond gerade dort eintritt, wo sich beide Bahnebenen schneiden, stehen Sonne, Mond und Erde auf einer Linie.",
+    "difficulty": 2,
+    "tags": [
+      "Mond",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonnenfinsternis",
+    "source_url": "https://de.wikipedia.org/wiki/Sonnenfinsternis",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is there not a solar eclipse at every new moon?",
+        "options": [
+          "Because the Moon is usually too far away for that",
+          "Because the Earth spins too fast",
+          "Because the Moon's orbit is tilted: the Moon usually passes above or below the line from the Sun to the Earth",
+          "Because a new moon only happens twice a year"
+        ],
+        "explanation": "The Moon's orbit is tilted by about five degrees against the Earth's orbit. Only when a new or full moon happens just where the two orbital planes cross are the Sun, Moon and Earth in one line."
+      }
+    }
+  },
+  {
+    "id": "qa-treibhaus",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was bewirken Treibhausgase wie CO₂ in der Atmosphäre?",
+    "options": [
+      "Sie halten das Sonnenlicht von der Erde fern",
+      "Sie nehmen Wärmestrahlung der Erde auf und schicken einen Teil zurück",
+      "Sie erzeugen selbst Wärme",
+      "Sie kühlen die Luft in großer Höhe ab und lassen es regnen"
+    ],
+    "correct_index": 1,
+    "explanation": "Sonnenlicht gelangt fast ungehindert zum Boden. Die Wärmestrahlung, die der Boden abgibt, wird von Treibhausgasen aufgenommen und in alle Richtungen wieder abgegeben – auch zurück zur Erde. Ohne diesen Effekt läge die Durchschnittstemperatur bei etwa −18 °C.",
+    "difficulty": 2,
+    "tags": [
+      "Klima",
+      "Atmosphäre"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Treibhauseffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Treibhauseffekt",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do greenhouse gases such as CO₂ do in the atmosphere?",
+        "options": [
+          "They keep sunlight away from the Earth",
+          "They absorb heat radiation from the Earth and send part of it back",
+          "They produce heat themselves",
+          "They cool the air at great heights and make it rain"
+        ],
+        "explanation": "Sunlight reaches the ground almost unhindered. The heat radiation the ground gives off is absorbed by greenhouse gases and emitted again in all directions – also back to the Earth. Without this effect the average temperature would be about −18 °C."
+      }
+    }
   }
 ]
