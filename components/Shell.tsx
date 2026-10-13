@@ -9,6 +9,7 @@ import { liveStreak } from "@/lib/gamification";
 import { setAnalytics } from "@/lib/analytics";
 import { isChild } from "@/lib/content";
 import Onboarding from "./Onboarding";
+import { ageAllowed } from "@/lib/content";
 import { Button, Skeleton, Wordmark } from "./ui";
 
 // Four destinations. Clips, quiz rounds, animations and the community are reached through "Entdecken";
@@ -62,7 +63,8 @@ export default function Shell({ children }: { children: ReactNode }) {
       </div>
     );
 
-  if (ready && !state.onboarded) return <Onboarding />;
+  // also for an account set up for an age band the app is no longer open to: it passes the age question again
+  if (ready && (!state.onboarded || !ageAllowed(state.ageBand))) return <Onboarding />;
 
   return (
     <div className={`mx-auto flex max-w-md flex-col ${feed ? "h-dvh" : "min-h-dvh"}`}>

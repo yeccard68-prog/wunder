@@ -178,6 +178,14 @@ export function localizeClip(clip: Clip, locale: string): Clip {
 // Only a band is known about the user, never a birth date. Content carries min_age (6, 10, 13, 16)
 // and, for cards written for children, max_age. From 16 everything is shown.
 export const AGE_BANDS: AgeBand[] = ["6-9", "10-12", "13-15", "16+"];
+/**
+ * The age bands the app is open to. For now only 16+: a younger person's account – even an
+ * anonymous one – needs parental consent (GDPR Art. 8, COPPA), which the app cannot collect yet.
+ * The filtering by age below stays in place for the day the younger bands are opened.
+ */
+export const OFFERED_AGE_BANDS: AgeBand[] = ["16+"];
+/** null = not asked yet. */
+export const ageAllowed = (band: AgeBand | null) => band === null || OFFERED_AGE_BANDS.includes(band);
 const AGE_OF: Record<AgeBand, number> = { "6-9": 6, "10-12": 10, "13-15": 13, "16+": 16 };
 export const ageOf = (band: AgeBand | null) => (band ? AGE_OF[band] : 16);
 /** Under 13: no community, comments or sharing. Under 16: no self-service registration (parental consent). */

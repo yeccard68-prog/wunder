@@ -332,3 +332,27 @@ test("an animation stops once to ask what happens next, then shows it", async ({
   await expect(player).toHaveAttribute("data-playing", "true");
   await expect(player).toHaveAttribute("data-step", "1");
 });
+
+test("the app is open from 16: a younger person cannot continue, and nothing is stored about them", async ({ page }) => {
+  // a new visitor (German, so the texts below match whatever language the test browser reports)
+  await page.addInitScript((s) => localStorage.getItem("wunder.demo.state.v3") || localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { settings: seed.state.settings } });
+  await page.goto("/");
+  await page.getByRole("button", { name: "Los geht's" }).click();
+  await expect(page.getByRole("heading", { name: "Wie alt bist du?" })).toBeVisible();
+  await expect(page.getByText("6 bis 9 Jahre")).toHaveCount(0); // children's age bands are not offered
+  const next = page.getByRole("button", { name: "Weiter" });
+  await expect(next).toBeDisabled();
+  await page.getByRole("button", { name: "Jünger als 16" }).click();
+  await expect(page.getByTestId("too-young")).toContainText("ab 16 Jahren");
+  await expect(next).toBeDisabled();
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem("wunder.demo.state.v3") ?? "{}").state?.ageBand ?? null)).toBeNull();
+  await page.getByRole("button", { name: /16 Jahre und älter/ }).click();
+  await expect(next).toBeEnabled();
+});
+
+test("an account set up for a children's age band is asked for the age again", async ({ page }) => {
+  await page.addInitScript((s) => localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { ...seed.state, ageBand: "6-9" } });
+  await page.goto("/profile/");
+  await expect(page.getByRole("button", { name: "Los geht's" })).toBeVisible();
+  await expect(page.locator("nav")).toHaveCount(0);
+});

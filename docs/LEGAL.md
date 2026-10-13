@@ -13,13 +13,13 @@ Das ist eine technische Bestandsaufnahme, **keine Rechtsberatung**. Vor dem Star
 | Animationen | Vollständig eigener Programmcode, keine fremden Modelle. |
 | Software | Nur freie Lizenzen (MIT, ISC, SIL OFL), aufgeführt auf `/legal/`. |
 | Daten | Anonymes Konto, kein Name, keine E-Mail nötig; Nutzungsstatistik nur mit Einwilligung und nie für Kinderkonten; Konto-Löschung in der App; Zugriff je Tabelle auf die eigenen Zeilen beschränkt; Datenbank in Frankfurt (EU). |
-| Kinder | Altersstufe wird abgefragt; unter 16 keine E-Mail-Anmeldung; unter 13 keine Nutzungsereignisse. Der Bereich für unter 6-Jährige ist bewusst zurückgestellt. |
+| Kinder | **Die App ist seit 18.10.2026 nur ab 16 freigegeben** (`OFFERED_AGE_BANDS` in `lib/content.ts`). Beim Einstieg wird das Alter abgefragt; wer „Jünger als 16“ wählt, kommt nicht weiter, und über ihn wird nichts gespeichert. Konten, die früher für eine Kinderstufe angelegt wurden, müssen die Altersfrage neu beantworten. Die Kinderstufen und ihre Inhalte bleiben im Code, sind aber nicht wählbar. |
 
 ## Offen – braucht dich oder eine Kanzlei
 
 1. **Impressum** (Deutschland: § 5 DDG) und **Datenschutzerklärung** (DSGVO Art. 13): Beides braucht Name und Anschrift des Betreibers – das kann ich nicht erfinden. `/legal/` beschreibt, was die App tut, ersetzt die beiden Texte aber nicht. Die Stores verlangen außerdem eine öffentlich erreichbare Datenschutz-Adresse.
 2. **Auftragsverarbeitung:** Verträge (DPA) mit Vercel und Supabase abschließen; beide bieten sie im Konto an. Vercel liefert auch aus den USA aus – in der Datenschutzerklärung nennen.
-3. **Kinder unter 13 (USA: COPPA) und unter 16 (EU: Art. 8 DSGVO):** Auch ein anonymes Konto mit Lernstand ist ein personenbezogenes Datum. Solange die App Kinderaltersstufen anbietet, braucht sie entweder eine Einwilligung der Eltern oder einen Modus ohne Konto für diese Altersstufen. Einfachster Weg bis zur Klärung: App ab 13 bzw. 16 einstufen und die Kinderstufen ausblenden. Für Apples „Kids“-Kategorie und Googles „Designed for Families“ gelten zusätzliche Regeln.
+3. **Kinder:** In der App gelöst durch die Freigabe ab 16 (siehe oben). Noch zu tun: in den Stores die passende Altersangabe wählen und die App **nicht** in Kinder- oder Familienkategorien einreichen. Die Altersabfrage ist eine Selbstauskunft – das ist üblich, aber kein Altersnachweis. Technisch entsteht beim ersten Öffnen ein leeres anonymes Konto, bevor das Alter abgefragt wird; es enthält keine Angaben. Sollen die Kinderstufen später geöffnet werden, braucht es eine Einwilligung der Eltern oder einen Modus ganz ohne Konto.
 4. **Nutzungsbedingungen**, sobald es Bezahlfunktionen oder echte Community-Beiträge gibt (dann auch Meldewege nach dem Digital Services Act).
 5. **Markenname:** „Wunder“ ist nur vorgeprüft (`docs/BRAND.md`); vor dem Store-Eintrag Markenrecherche.
 6. **Buchtitel:** Die Nennung ist üblich und zulässig, aber Titel und Autorennamen dürfen nicht als Werbung mit fremdem Namen wirken – keine Store-Screenshots, die nur mit bekannten Buchtiteln werben.

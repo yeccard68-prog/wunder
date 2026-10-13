@@ -10,7 +10,7 @@ import KnowledgeCard from "@/components/KnowledgeCard";
 import { Avatar, Bar, Button, Chip, Empty, Ring, Segmented, Sheet, Toggle } from "@/components/ui";
 import { CATEGORIES } from "@/lib/categories";
 import { ACHIEVEMENTS, leagueFor, levelInfo, liveStreak, mastery, stats } from "@/lib/gamification";
-import { AGE_BANDS } from "@/lib/content";
+import { OFFERED_AGE_BANDS } from "@/lib/content";
 import { LOCALES } from "@/lib/i18n";
 import { useStore, useT } from "@/lib/store";
 import { isAdmin } from "@/lib/supabase";
@@ -183,11 +183,13 @@ export default function ProfilePage() {
             <p className="mb-2 text-sm font-semibold">{t("Sprache")}</p>
             <Segmented value={state.settings.locale} onChange={(locale) => update({ settings: { ...state.settings, locale } })} options={LOCALES.map((l) => ({ value: l.id as string, label: l.name }))} />
           </div>
-          <div>
-            <p className="mb-2 text-sm font-semibold">{t("Altersstufe")}</p>
-            <Segmented value={state.ageBand ?? "16+"} onChange={(ageBand) => update({ ageBand })} options={AGE_BANDS.map((b) => ({ value: b, label: b }))} />
-            <p className="mt-1.5 text-xs text-muted">{t("Bestimmt, welche Inhalte angezeigt werden. Ab 16 wird alles gezeigt.")}</p>
-          </div>
+          {OFFERED_AGE_BANDS.length > 1 && (
+            <div>
+              <p className="mb-2 text-sm font-semibold">{t("Altersstufe")}</p>
+              <Segmented value={state.ageBand ?? "16+"} onChange={(ageBand) => update({ ageBand })} options={OFFERED_AGE_BANDS.map((b) => ({ value: b, label: b }))} />
+              <p className="mt-1.5 text-xs text-muted">{t("Bestimmt, welche Inhalte angezeigt werden. Ab 16 wird alles gezeigt.")}</p>
+            </div>
+          )}
           <div>
             <p className="mb-2 text-sm font-semibold">{t("Darstellung")}</p>
             <Segmented<Theme> value={state.settings.theme} onChange={(theme) => update({ settings: { ...state.settings, theme } })} options={[{ value: "system", label: t("System") }, { value: "light", label: t("Hell") }, { value: "dark", label: t("Dunkel") }]} />

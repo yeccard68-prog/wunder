@@ -25,7 +25,7 @@ Karten je Thema (Feed, aus dem Datensatz gezählt): Wissenschaft 94, Technologie
 | 100 Kurzvideos | 38 | Engpass ist das Sichten freier Quellen, nicht die Technik |
 | 50 Animationen | 12 | jede 3D-Szene ist Handarbeit im Code |
 | rund 20 Bücher | 20 | je drei Ideen; fünf bis zehn Ideen je Buch wären der nächste Ausbau |
-| 200 Aufgaben für unter 6-Jährige | 0 | bewusst zurückgestellt (rechtliche Klärung) |
+| 200 Aufgaben für unter 6-Jährige | 0 | zurückgestellt; die App ist seit 18.10. nur ab 16 freigegeben |
 
 ## Offene Punkte, nach Wichtigkeit
 

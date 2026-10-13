@@ -102,8 +102,9 @@ export default function LegalPage() {
         <ul className={`${p} list-disc space-y-1.5 pl-5`}>
           <li>{t("Ein anonymes Konto ohne Namen und ohne E-Mail-Adresse, damit dein Lernstand erhalten bleibt.")}</li>
           <li>{t("Deinen Lernstand: beantwortete Fragen, Wiederholungen, Punkte, gemerkte Inhalte und deine Einstellungen.")}</li>
-          <li>{t("Eine E-Mail-Adresse nur, wenn du dich ab 16 Jahren selbst damit anmeldest.")}</li>
-          <li>{t("Nutzungsstatistik nur, wenn du sie im Profil einschaltest – nie bei Konten von Kindern. Erfasst wird, welcher Inhalt geöffnet oder abgeschlossen wurde, kein freier Text, kein Standort, keine Gerätedaten.")}</li>
+          <li>{t("Die App ist ab 16 Jahren freigegeben. Gespeichert wird nur die Altersgruppe, kein Geburtsdatum.")}</li>
+          <li>{t("Eine E-Mail-Adresse nur, wenn du dich selbst damit anmeldest.")}</li>
+          <li>{t("Nutzungsstatistik nur, wenn du sie im Profil einschaltest. Erfasst wird, welcher Inhalt geöffnet oder abgeschlossen wurde, kein freier Text, kein Standort, keine Gerätedaten.")}</li>
           <li>{t("Keine Werbung, keine Werbe-Tracker, kein Verkauf von Daten.")}</li>
           <li>{t("Unter Profil → „Konto und Daten löschen“ entfernst du alles sofort und endgültig.")}</li>
         </ul>

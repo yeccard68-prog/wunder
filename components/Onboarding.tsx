@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, Check, Compass, Globe, Swords, TrendingUp } from "lucide-react";
 import { CATEGORIES, categoryById } from "@/lib/categories";
-import { AGE_BANDS } from "@/lib/content";
+import { BRAND } from "@/lib/brand";
+import { OFFERED_AGE_BANDS, ageAllowed } from "@/lib/content";
 import { goalQuestions } from "@/lib/gamification";
 import { LOCALES } from "@/lib/i18n";
 import { useStore, useT } from "@/lib/store";
@@ -54,7 +55,9 @@ export default function Onboarding() {
   const { items, state, auth, update } = useStore();
   const t = useT();
   const [step, setStep] = useState(0);
-  const [age, setAge] = useState<AgeBand | null>(state.ageBand);
+  const [age, setAge] = useState<AgeBand | null>(ageAllowed(state.ageBand) ? state.ageBand : null);
+  const [tooYoung, setTooYoung] = useState(false);
+  const ages = AGES.filter((a) => OFFERED_AGE_BANDS.includes(a.band));
   const [interests, setInterests] = useState<string[]>([]);
   const [goal, setGoal] = useState<3 | 5 | 10>(5);
   const [motivation, setMotivation] = useState<Motivation>("discover");
@@ -68,6 +71,7 @@ export default function Onboarding() {
   const preview = items.find((i) => i.id === "hf1") ?? items.find((i) => i.kind === "fact");
   const next = () => setStep((s) => s + 1);
   const pickAge = (band: AgeBand) => {
+    setTooYoung(false);
     setAge(band);
     update({ ageBand: band }); // content is filtered from the next step on
   };
@@ -142,17 +146,28 @@ export default function Onboarding() {
         {step === 1 && (
           <>
             <h1 className="font-display text-3xl font-semibold tracking-tight">{t("Wie alt bist du?")}</h1>
-            <p className="mb-4 mt-1.5 text-sm text-muted">{t("Damit die Inhalte zu dir passen. Wir speichern nur die Altersgruppe, kein Geburtsdatum.")}</p>
+            <p className="mb-4 mt-1.5 text-sm text-muted">{t("Wir speichern nur die Altersgruppe, kein Geburtsdatum.")}</p>
             <div className="space-y-2">
-              {AGES.map((a) => (
-                <Option key={a.band} active={age === a.band} onClick={() => pickAge(a.band)}>
+              {ages.map((a) => (
+                <Option key={a.band} active={age === a.band && !tooYoung} onClick={() => pickAge(a.band)}>
                   <span>
                     <span className="block font-semibold">{t(a.title)}</span>
                     <span className="block text-[13px] leading-tight text-muted">{t(a.text)}</span>
                   </span>
                 </Option>
               ))}
+              {ages.length < AGES.length && (
+                // nothing is stored for someone who is too young – not even the answer
+                <Option active={tooYoung} onClick={() => { setTooYoung(true); setAge(null); }}>
+                  <span className="block font-semibold">{t("Jünger als 16")}</span>
+                </Option>
+              )}
             </div>
+            {tooYoung && (
+              <p role="alert" className="mt-4 rounded-2xl bg-raised px-4 py-3 text-sm leading-relaxed" data-testid="too-young">
+                {t("{brand} ist im Moment erst ab 16 Jahren freigegeben. Für Jüngere bräuchten wir die Zustimmung der Eltern – das können wir noch nicht anbieten.", { brand: BRAND.name })}
+              </p>
+            )}
           </>
         )}
         {step === 2 && (
