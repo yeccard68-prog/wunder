@@ -1,4 +1,4 @@
-# Rechtliches für eine weltweite Veröffentlichung (Stand 18.10.2026)
+# Rechtliches für eine weltweite Veröffentlichung (Stand 13.10.2026)
 
 Das ist eine technische Bestandsaufnahme, **keine Rechtsberatung**. Vor dem Start in den App-Stores sollte eine Kanzlei die Punkte unter „Offen“ prüfen.
 
@@ -13,7 +13,7 @@ Das ist eine technische Bestandsaufnahme, **keine Rechtsberatung**. Vor dem Star
 | Animationen | Vollständig eigener Programmcode, keine fremden Modelle. |
 | Software | Nur freie Lizenzen (MIT, ISC, SIL OFL), aufgeführt auf `/legal/`. |
 | Daten | Anonymes Konto, kein Name, keine E-Mail nötig; Nutzungsstatistik nur mit Einwilligung und nie für Kinderkonten; Konto-Löschung in der App; Zugriff je Tabelle auf die eigenen Zeilen beschränkt; Datenbank in Frankfurt (EU). |
-| Kinder | **Die App ist seit 18.10.2026 nur ab 16 freigegeben** (`OFFERED_AGE_BANDS` in `lib/content.ts`). Beim Einstieg wird das Alter abgefragt; wer „Jünger als 16“ wählt, kommt nicht weiter, und über ihn wird nichts gespeichert. Konten, die früher für eine Kinderstufe angelegt wurden, müssen die Altersfrage neu beantworten. Die Kinderstufen und ihre Inhalte bleiben im Code, sind aber nicht wählbar. |
+| Kinder | **Die App ist seit 13.10.2026 nur ab 16 freigegeben** (`OFFERED_AGE_BANDS` in `lib/content.ts`). Beim Einstieg wird das Alter abgefragt; wer „Jünger als 16“ wählt, kommt nicht weiter, und über ihn wird nichts gespeichert. Konten, die früher für eine Kinderstufe angelegt wurden, müssen die Altersfrage neu beantworten. Die Kinderstufen und ihre Inhalte bleiben im Code, sind aber nicht wählbar. |
 
 ## Offen – braucht dich oder eine Kanzlei
 

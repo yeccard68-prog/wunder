@@ -43,10 +43,11 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
 
   // stop once, right before the step that answers the prediction (only while it plays by itself)
   useEffect(() => {
-    if (!predict || asked.current || !playing || time < predictAt - 0.05 || time > predictAt + 0.5) return;
+    if (!predict || asked.current || !playing || time < predictAt - 0.25 || time > predictAt + 0.5) return;
     asked.current = true;
     setPlaying(false);
     setAsking(true);
+    setTime(predictAt - 0.02); // stay in the step before: the next one would show the answer
   }, [time, playing, predict, predictAt]);
   const choose = (i: number) => {
     if (guess !== null || !predict) return;

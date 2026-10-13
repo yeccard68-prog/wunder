@@ -253,7 +253,7 @@ Offen bis zur Store-Reife:
 - Auswertung: per SQL im Supabase-Dashboard. Ein Auswertungs-Bildschirm fehlt noch. Weil der Schalter aus ist, kommen erst Daten, wenn Nutzer ihn einschalten – für belastbare Zahlen müsste beim Onboarding gefragt werden (Entscheidung offen).
 - Markenname: Vorprüfung und Empfehlung in `docs/BRAND.md`; der Name steht zentral in `lib/brand.ts`.
 
-## 23. Lernpfade: Bücher, Clip-Fragen, Animationen (18.10.2026)
+## 23. Lernpfade: Bücher, Clip-Fragen, Animationen (13.10.2026)
 
 - **Buch-Lektion** (`components/books/InsightCard.tsx`): Einstiegsfrage → Idee mit Darstellung und Beispiel → Abruf aus dem Kopf (Antwort erst auf Tipp) → Selbsteinschätzung → Transferaufgabe (mindestens eine je Buch) → Merksatz. Inhalte: `content/_batches/2026-10-books-learning.mjs` (Lernziel je Buch, je Idee Format, Einstiegsfrage, Abruf, Merksatz, Beleg-Stufe, Querverweise); `build-books.mjs` prüft und führt sie mit den Buchtexten zusammen.
 - **Acht Formate** (`FORMAT_NAME` in `lib/books.ts`): erklären, hinterfragen, anwenden, merken, vergleichen, Denkfehler finden, Denkmodell, mehrere Beispiele. **Beleg-Stufe** je Idee: gut belegt · These des Autors · umstritten.
@@ -265,7 +265,7 @@ Offen bis zur Store-Reife:
 - **Rechtliches:** Seite `/legal/` (Clip-Nachweise mit Lizenz-Links, Bücher, Daten, Software); Checkliste in `docs/LEGAL.md`.
 - Migration: `supabase/migrations/20261018100000_learning_state.sql` (nur Ergänzungen).
 
-## 24. Realismus der 3D-Szenen (19.10.2026)
+## 24. Realismus der 3D-Szenen (13.10.2026)
 
 - **Bühne für alle Szenen** (`Stage3D.tsx`): Hintergrund mit weichem Lichtkegel statt Einheitsfarbe, zusätzliches kühles Kantenlicht von hinten. Eine Szene kann über `stage: { shadows, floor }` weiche Schatten und einen unsichtbaren Boden anfordern, der nur den Schatten zeigt. Schatten gibt es nicht auf schwachen Geräten.
 - **Zahnräder:** Zähne mit echten Proportionen (Kopfhöhe = Modul, Fußhöhe = 1,25 × Modul, zur Spitze schmaler werdende Flanken, gerundeter Zahnfuß), erhabene Nabe mit Passfeder auf heller Welle, Erleichterungsbohrungen bei größeren Rädern, verschraubte Lagerflansche auf dunkler Grundplatte, auf die die Räder Schatten werfen. Übersetzung und Eingriff unverändert.
@@ -273,7 +273,7 @@ Offen bis zur Store-Reife:
 - **DNA:** Schatten der Stränge aufeinander. **Planetenbahn und Linse:** nur Hintergrund und Kantenlicht, keine Schatten (Weltraum bzw. Glas).
 - Gemessen am Entwicklungs-PC (`scripts/measure-animations.mjs`, beantwortet jetzt die Vorhersagefrage selbst): Motor, Zahnräder, DNA je 60 Bilder pro Sekunde, Laufzeiten unverändert.
 
-## 25. 3D-Ausbau (19.10.2026)
+## 25. 3D-Ausbau (13.10.2026)
 
 - **Linse** (`scenes/lens.ts`): gedrehtes bikonvexes Linsenprofil aus echtem Glas (Lichtdurchlass mit Brechzahl 1,5), optische Bank mit Skala, Halter und Tisch, Lichtstrahlen als leuchtende Bündel, Gegenstand ist eine brennende Kerze, das Bild eine kopfstehende Kerze aus Licht in der Größe, die die Linsengleichung ergibt.
 - **Planetenbahn** (`scenes/orbit.ts`): gemalte Oberflächen (Sonne mit Granulation, blauer Planet, Gesteinsplanet, Gasriese), Leuchten der Sonne, drehende Planeten mit Tag- und Nachtseite, Sterne in zwei Helligkeiten. Neue Bühnen-Option `stage.space`: schwarzer Hintergrund, kein Umgebungslicht.
@@ -282,7 +282,7 @@ Offen bis zur Store-Reife:
 - Stand: 15 Animationen, davon 10 in 3D und 5 gezeichnet (Herz, Gewitter, Erdplatten, neuronales Netz, Sternentstehung). 602 Fragen (558 im Feed).
 - Gemessen am Entwicklungs-PC: Elektromotor, Mondphasen, Hebel, Motor, Zahnräder, DNA je 60 Bilder pro Sekunde. Die Linse erreicht im sichtbaren Browser 60, im Messskript ohne Bildschirm läuft sie nicht durch (Glas mit Lichtdurchlass ist dort sehr langsam) – auf schwächeren Handys ist sie die Szene mit dem größten Risiko.
 
-## 26. Erdplatten und Sternentstehung in 3D (20.10.2026)
+## 26. Erdplatten und Sternentstehung in 3D (13.10.2026)
 
 - **Erdplatten** (`scenes/plates.ts`): Blockbild aus der Erde geschnitten – glühender Mantel mit umlaufendem Gestein, ozeanische Platten mit Streifen am Meeresboden (machen die Bewegung sichtbar), Ozean, aufquellendes Magma am Rücken, abtauchende Platte mit Gebirge und Vulkan, zum Schluss Blick von oben auf eine Verwerfung: Die Platten hängen fest, rucken, Wellen breiten sich aus und ein Weg ist versetzt. Höhen überzeichnet, Millionen Jahre in Sekunden (steht im Code-Kommentar; die Schritttexte nennen „wenige Zentimeter pro Jahr“).
 - **Sternentstehung** (`scenes/starbirth.ts`): 3.200 Teilchen als Wolke, die zusammenfällt, schneller dreht und zur Scheibe abflacht; Protostern glimmt erst rot, wird orange und nach dem Zünden weißgelb; innere Teilchen fallen in den Stern.
@@ -290,10 +290,19 @@ Offen bis zur Store-Reife:
 - Sonnenleuchten in allen Szenen mit steilerem Abfall (im linearen Licht war der Rand des Leuchtens als Kante sichtbar).
 - Stand: 15 Animationen, 12 in 3D, 3 gezeichnet (Herz, Gewitter, neuronales Netz).
 
-## 27. Gewitter, neuronales Netz, Finsternisse, Treibhauseffekt (21.10.2026)
+## 27. Gewitter, neuronales Netz, Finsternisse, Treibhauseffekt (13.10.2026)
 
 - **Gewitter** (`scenes/storm.ts`): Landschaft mit Bäumen, aufsteigende Warmluft, Wolkenturm aus 64 weichen Kugeln mit Amboss, Eiskristalle und Graupel, Ladungszeichen (+ oben, – unten, + am Boden), gezackter Blitz mit Lichtblitz. Die Szene setzt ihren eigenen Himmel als Hintergrund.
 - **Neuronales Netz** (`scenes/neural.ts`): 16 Eingänge, 6 verborgene Neuronen, 2 Ausgänge – wirklich gerechnet. Linienfarbe = Gewicht (orange positiv, blau negativ), Helligkeit der Neuronen = Aktivierung. Vor dem Training gewinnt die falsche Antwort, beim Training läuft der Fehler rot rückwärts und die Gewichte wandern zu den trainierten Werten.
 - **Neu:** Finsternisse (`eclipse`, geneigte Mondbahn, Mondschatten auf der Erde, rötlicher Mond im Erdschatten) und Treibhauseffekt (`greenhouse`, Sonnenlicht, Wärmestrahlung, CO₂-Moleküle, Thermometer, Kraftwerk). Inhalte: `content/_batches/2026-10-animations-3d-5.mjs`; gemeinsame Zusammenführung jetzt in `scripts/content/merge-animations.mjs`.
 - Beim Treibhauseffekt sind die Anteile zurückgeschickter Strahlung („etwa die Hälfte“, „etwa drei Viertel“) reine Veranschaulichung, keine Messwerte – steht im Kopf der Szene.
 - Stand: 17 Animationen, 16 in 3D, eine gezeichnet (Herz). 604 Fragen (560 im Feed).
+
+## 28. Interaktive Visualisierungen, Sport, Weiterscrollen, drei Animationen (13.10.2026)
+
+- **Interaktiv** (`/lab/`): Datenmodell `content/visuals.json`, Formeln `lib/visuals.ts`, Bausteine und Typen in `components/viz/`, Registry `VIZ`. Drei Lektionen: Zinseszins (Rechenmodell), Planeten und Keplers drittes Gesetz (echte Daten), Angebot und Nachfrage (Lehrmodell). Ausführlich: `docs/VISUALS.md`. Neue Nutzungsereignisse `visual_predict`, `visual_explore` (Migration `20261019100000_visual_events.sql`).
+- **Sport** ist das zehnte Thema: 20 Fragen und 4 „Stimmt das?“-Karten (`content/_batches/2026-10-sport.mjs`), Farbe `--sport`.
+- **Clip-Fragen:** Nach der endgültigen Antwort schließt die Frage von selbst und der Feed rückt zum nächsten Eintrag (`lib/advance.ts`: 2,6 s nach richtiger, 4,6 s nach falscher Antwort; „Hier bleiben“ bricht ab). Gilt im Feed und in der Clip-Ansicht.
+- **Animationen:** Flaschenzug (`pulley`), Stromkreis (`circuit`), Wasserkreislauf (`watercycle`); Inhalte in `content/_batches/2026-10-animations-3d-6.mjs`. Die Vorhersagefrage hält jetzt kurz *vor* dem nächsten Schritt an, damit dessen Beschriftung die Antwort nicht verrät.
+- Stand: 20 Animationen (19 in 3D, Herz gezeichnet), 631 Fragen (587 im Feed), 10 Themen, 3 interaktive Visualisierungen.
+- Hinweis: Mehrere Abschnitte oben trugen Daten zwischen dem 18. und 21.10.; sie sind auf den 13.10.2026 berichtigt. Einige Fragen haben ein Erstelldatum bis zum 21.10. in der Datenbank – ohne Folgen, sie gelten lediglich ein paar Tage länger als „neu“.

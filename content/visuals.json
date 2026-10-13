@@ -8,26 +8,82 @@
     "data_kind": "model",
     "config": {
       "unit": "€",
-      "start": { "min": 0, "max": 20000, "step": 500, "value": 0 },
-      "monthly": { "min": 0, "max": 500, "step": 25, "value": 100 },
-      "rate": { "min": 0, "max": 10, "step": 0.5, "value": 5 },
-      "years": { "min": 1, "max": 45, "step": 1, "value": 20 }
+      "start": {
+        "min": 0,
+        "max": 20000,
+        "step": 500,
+        "value": 0
+      },
+      "monthly": {
+        "min": 0,
+        "max": 500,
+        "step": 25,
+        "value": 100
+      },
+      "rate": {
+        "min": 0,
+        "max": 10,
+        "step": 0.5,
+        "value": 5
+      },
+      "years": {
+        "min": 1,
+        "max": 45,
+        "step": 1,
+        "value": 20
+      }
     },
     "title": "Zinseszins: Was Zeit aus Geld macht",
     "goal": "Du kannst erklären, warum beim Sparen die Laufzeit stärker wirkt als die Sparrate, und den Anteil der Zinsen am Endwert abschätzen.",
     "intro": "Wer regelmäßig spart, bekommt Zinsen – und im nächsten Jahr Zinsen auf diese Zinsen. Verändere Startbetrag, Sparrate, Zinssatz und Laufzeit und beobachte die beiden Linien.",
     "note": "Rechenmodell: Die Zinsen werden monatlich gutgeschrieben und bleiben stehen. Steuern, Gebühren, Inflation und schwankende Renditen sind nicht berücksichtigt – in der Wirklichkeit ist kein Zinssatz über Jahrzehnte fest.",
-    "labels": { "start": "Startbetrag", "monthly": "Sparrate pro Monat", "rate": "Zinssatz pro Jahr", "years": "Laufzeit", "withInterest": "mit Zinsen", "paid": "nur eingezahlt", "final": "Endwert", "paidTotal": "eingezahlt", "interest": "davon Zinsen", "yearsUnit": "Jahre", "share": "{pct} % des Endwerts sind Zinsen.", "axisX": "Jahre", "axisY": "Guthaben" },
+    "labels": {
+      "start": "Startbetrag",
+      "monthly": "Sparrate pro Monat",
+      "rate": "Zinssatz pro Jahr",
+      "years": "Laufzeit",
+      "withInterest": "mit Zinsen",
+      "paid": "nur eingezahlt",
+      "final": "Endwert",
+      "paidTotal": "eingezahlt",
+      "interest": "davon Zinsen",
+      "yearsUnit": "Jahre",
+      "share": "{pct} % des Endwerts sind Zinsen.",
+      "axisX": "Jahre",
+      "axisY": "Guthaben"
+    },
     "explain": "Am Anfang verlaufen beide Linien fast gleich: Die Zinsen sind klein, weil das Guthaben klein ist. Je größer das Guthaben wird, desto mehr Zinsen kommen jedes Jahr dazu – die Kurve wird immer steiler. Deshalb bringt die zweite Hälfte der Laufzeit viel mehr als die erste.",
     "predict": {
       "question": "Du sparst 100 € im Monat bei 5 % Zinsen. Nach 20 Jahren hast du rund 41.000 €. Wie viel ist es nach 40 Jahren?",
-      "options": ["Rund 82.000 € – das Doppelte", "Rund 150.000 €", "Rund 300.000 €"],
+      "options": [
+        "Rund 82.000 € – das Doppelte",
+        "Rund 150.000 €",
+        "Rund 300.000 €"
+      ],
       "feedback": "Rund 153.000 € – fast das Vierfache, obwohl du nur doppelt so viel eingezahlt hast. Stell die Laufzeit auf 40 Jahre und sieh nach."
     },
     "predict_correct": 1,
     "apply": "Stell 100 € Sparrate und 5 % ein. Probier aus: Was bringt mehr – die Sparrate von 100 € auf 200 € zu verdoppeln oder die Laufzeit von 20 auf 40 Jahre?",
-    "sources": [{ "name": "Wikipedia: Zinseszins", "url": "https://de.wikipedia.org/wiki/Zinseszins" }, { "name": "Wikipedia: Sparkassenformel", "url": "https://de.wikipedia.org/wiki/Sparkassenformel" }],
-    "links": [{ "kind": "book", "id": "b-housel" }, { "kind": "question", "id": "e5" }],
+    "sources": [
+      {
+        "name": "Wikipedia: Zinseszins",
+        "url": "https://de.wikipedia.org/wiki/Zinseszins"
+      },
+      {
+        "name": "Wikipedia: Sparkassenformel",
+        "url": "https://de.wikipedia.org/wiki/Sparkassenformel"
+      }
+    ],
+    "links": [
+      {
+        "kind": "book",
+        "id": "b-housel"
+      },
+      {
+        "kind": "question",
+        "id": "e5"
+      }
+    ],
     "verification_status": "ai_checked",
     "status": "published",
     "translations": {
@@ -36,11 +92,29 @@
         "goal": "You can explain why, when saving, time matters more than the amount saved, and estimate the share of interest in the final value.",
         "intro": "If you save regularly you earn interest – and next year interest on that interest. Change the starting amount, monthly saving, interest rate and duration and watch the two lines.",
         "note": "Calculation model: interest is credited monthly and stays in the account. Taxes, fees, inflation and fluctuating returns are not included – in reality no interest rate is fixed for decades.",
-        "labels": { "start": "Starting amount", "monthly": "Saving per month", "rate": "Interest rate per year", "years": "Duration", "withInterest": "with interest", "paid": "paid in only", "final": "Final value", "paidTotal": "paid in", "interest": "of which interest", "yearsUnit": "years", "share": "{pct}% of the final value is interest.", "axisX": "Years", "axisY": "Balance" },
+        "labels": {
+          "start": "Starting amount",
+          "monthly": "Saving per month",
+          "rate": "Interest rate per year",
+          "years": "Duration",
+          "withInterest": "with interest",
+          "paid": "paid in only",
+          "final": "Final value",
+          "paidTotal": "paid in",
+          "interest": "of which interest",
+          "yearsUnit": "years",
+          "share": "{pct}% of the final value is interest.",
+          "axisX": "Years",
+          "axisY": "Balance"
+        },
         "explain": "At the beginning both lines run almost together: the interest is small because the balance is small. The larger the balance gets, the more interest is added every year – the curve becomes steeper and steeper. That is why the second half of the period brings much more than the first.",
         "predict": {
           "question": "You save 100 a month at 5% interest. After 20 years you have about 41,000. How much is it after 40 years?",
-          "options": ["About 82,000 – twice as much", "About 150,000", "About 300,000"],
+          "options": [
+            "About 82,000 – twice as much",
+            "About 150,000",
+            "About 300,000"
+          ],
           "feedback": "About 153,000 – almost four times as much, although you paid in only twice as much. Set the duration to 40 years and see."
         },
         "apply": "Set 100 per month and 5%. Try it: what brings more – doubling the monthly saving from 100 to 200, or doubling the duration from 20 to 40 years?"
@@ -57,32 +131,111 @@
     "config": {
       "power": 1.5,
       "points": [
-        { "key": "mercury", "x": 0.387, "y": 0.241 },
-        { "key": "venus", "x": 0.723, "y": 0.615 },
-        { "key": "earth", "x": 1, "y": 1 },
-        { "key": "mars", "x": 1.524, "y": 1.881 },
-        { "key": "ceres", "x": 2.77, "y": 4.6, "late": true },
-        { "key": "jupiter", "x": 5.203, "y": 11.86 },
-        { "key": "saturn", "x": 9.54, "y": 29.45 },
-        { "key": "uranus", "x": 19.19, "y": 84.01 },
-        { "key": "neptune", "x": 30.07, "y": 164.8 }
+        {
+          "key": "mercury",
+          "x": 0.387,
+          "y": 0.241
+        },
+        {
+          "key": "venus",
+          "x": 0.723,
+          "y": 0.615
+        },
+        {
+          "key": "earth",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "key": "mars",
+          "x": 1.524,
+          "y": 1.881
+        },
+        {
+          "key": "ceres",
+          "x": 2.77,
+          "y": 4.6,
+          "late": true
+        },
+        {
+          "key": "jupiter",
+          "x": 5.203,
+          "y": 11.86
+        },
+        {
+          "key": "saturn",
+          "x": 9.54,
+          "y": 29.45
+        },
+        {
+          "key": "uranus",
+          "x": 19.19,
+          "y": 84.01
+        },
+        {
+          "key": "neptune",
+          "x": 30.07,
+          "y": 164.8
+        }
       ]
     },
     "title": "Planeten: Je weiter weg, desto länger das Jahr",
     "goal": "Du kannst aus dem Abstand eines Planeten von der Sonne abschätzen, wie lange sein Umlauf dauert, und erklären, was eine logarithmische Achse sichtbar macht.",
     "intro": "Jeder Punkt ist ein Planet: nach rechts sein Abstand von der Sonne, nach oben die Dauer eines Umlaufs. Tippe einen Punkt an – und schalte dann die Achsen um.",
     "note": "Echte Daten, gerundet: mittlerer Abstand von der Sonne in Astronomischen Einheiten (1 AE = Abstand Erde–Sonne) und Umlaufzeit in Erdjahren. Die Bahnen sind leicht elliptisch; angegeben ist jeweils die große Halbachse.",
-    "labels": { "mercury": "Merkur", "venus": "Venus", "earth": "Erde", "mars": "Mars", "ceres": "Ceres (Zwergplanet)", "jupiter": "Jupiter", "saturn": "Saturn", "uranus": "Uranus", "neptune": "Neptun", "axisX": "Abstand von der Sonne (AE)", "axisY": "Umlaufzeit (Jahre)", "xUnit": "AE", "yUnit": "Jahre", "law": "Keplers drittes Gesetz", "linear": "gleichmäßige Achsen", "log": "logarithmische Achsen", "showLaw": "Gesetz einblenden", "pick": "Tippe einen Punkt an.", "detail": "{name}: {x} AE von der Sonne, ein Umlauf dauert {y} Jahre." },
+    "labels": {
+      "mercury": "Merkur",
+      "venus": "Venus",
+      "earth": "Erde",
+      "mars": "Mars",
+      "ceres": "Ceres (Zwergplanet)",
+      "jupiter": "Jupiter",
+      "saturn": "Saturn",
+      "uranus": "Uranus",
+      "neptune": "Neptun",
+      "axisX": "Abstand von der Sonne (AE)",
+      "axisY": "Umlaufzeit (Jahre)",
+      "xUnit": "AE",
+      "yUnit": "Jahre",
+      "law": "Keplers drittes Gesetz",
+      "linear": "gleichmäßige Achsen",
+      "log": "logarithmische Achsen",
+      "showLaw": "Gesetz einblenden",
+      "pick": "Tippe einen Punkt an.",
+      "detail": "{name}: {x} AE von der Sonne, ein Umlauf dauert {y} Jahre."
+    },
     "explain": "Auf gleichmäßigen Achsen drängen sich die inneren Planeten in der Ecke, und die Punkte liegen auf einer gebogenen Kurve. Auf logarithmischen Achsen – jeder Schritt bedeutet „mal zehn“ – liegen alle auf einer Geraden. Das ist Keplers drittes Gesetz: Die Umlaufzeit wächst mit dem Abstand hoch 1,5. Doppelter Abstand heißt also nicht doppelt, sondern rund 2,8-mal so lange.",
     "predict": {
       "question": "Der Zwergplanet Ceres ist 2,77-mal so weit von der Sonne entfernt wie die Erde. Wie lange braucht er für einen Umlauf?",
-      "options": ["Etwa 2,8 Jahre", "Etwa 4,6 Jahre", "Etwa 7,7 Jahre"],
+      "options": [
+        "Etwa 2,8 Jahre",
+        "Etwa 4,6 Jahre",
+        "Etwa 7,7 Jahre"
+      ],
       "feedback": "Etwa 4,6 Jahre: 2,77 hoch 1,5 ergibt 4,61. Ceres ist jetzt im Diagramm eingetragen – er liegt genau auf der Linie."
     },
     "predict_correct": 1,
     "apply": "Schalte auf logarithmische Achsen und blende das Gesetz ein. Liegt ein Planet neben der Linie?",
-    "sources": [{ "name": "NASA: Planetary Fact Sheet", "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/" }, { "name": "Wikipedia: Keplersche Gesetze", "url": "https://de.wikipedia.org/wiki/Keplersche_Gesetze" }],
-    "links": [{ "kind": "animation", "id": "a-planetenbahn" }, { "kind": "question", "id": "qa-bahn" }],
+    "sources": [
+      {
+        "name": "NASA: Planetary Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      },
+      {
+        "name": "Wikipedia: Keplersche Gesetze",
+        "url": "https://de.wikipedia.org/wiki/Keplersche_Gesetze"
+      }
+    ],
+    "links": [
+      {
+        "kind": "animation",
+        "id": "a-planetenbahn"
+      },
+      {
+        "kind": "question",
+        "id": "qa-bahn"
+      }
+    ],
     "verification_status": "ai_checked",
     "status": "published",
     "translations": {
@@ -91,11 +244,35 @@
         "goal": "You can estimate from a planet's distance from the Sun how long its orbit takes, and explain what a logarithmic axis reveals.",
         "intro": "Each point is a planet: to the right its distance from the Sun, upwards the time one orbit takes. Tap a point – then switch the axes.",
         "note": "Real data, rounded: mean distance from the Sun in astronomical units (1 AU = distance Earth–Sun) and orbital period in Earth years. The orbits are slightly elliptical; the value given is the semi-major axis.",
-        "labels": { "mercury": "Mercury", "venus": "Venus", "earth": "Earth", "mars": "Mars", "ceres": "Ceres (dwarf planet)", "jupiter": "Jupiter", "saturn": "Saturn", "uranus": "Uranus", "neptune": "Neptune", "axisX": "Distance from the Sun (AU)", "axisY": "Orbital period (years)", "xUnit": "AU", "yUnit": "years", "law": "Kepler's third law", "linear": "linear axes", "log": "logarithmic axes", "showLaw": "Show the law", "pick": "Tap a point.", "detail": "{name}: {x} AU from the Sun, one orbit takes {y} years." },
+        "labels": {
+          "mercury": "Mercury",
+          "venus": "Venus",
+          "earth": "Earth",
+          "mars": "Mars",
+          "ceres": "Ceres (dwarf planet)",
+          "jupiter": "Jupiter",
+          "saturn": "Saturn",
+          "uranus": "Uranus",
+          "neptune": "Neptune",
+          "axisX": "Distance from the Sun (AU)",
+          "axisY": "Orbital period (years)",
+          "xUnit": "AU",
+          "yUnit": "years",
+          "law": "Kepler's third law",
+          "linear": "linear axes",
+          "log": "logarithmic axes",
+          "showLaw": "Show the law",
+          "pick": "Tap a point.",
+          "detail": "{name}: {x} AU from the Sun, one orbit takes {y} years."
+        },
         "explain": "On linear axes the inner planets crowd into the corner and the points lie on a bent curve. On logarithmic axes – every step means “times ten” – they all lie on a straight line. This is Kepler's third law: the orbital period grows with the distance to the power of 1.5. Twice the distance therefore means not twice but about 2.8 times as long.",
         "predict": {
           "question": "The dwarf planet Ceres is 2.77 times as far from the Sun as the Earth. How long does one orbit take?",
-          "options": ["About 2.8 years", "About 4.6 years", "About 7.7 years"],
+          "options": [
+            "About 2.8 years",
+            "About 4.6 years",
+            "About 7.7 years"
+          ],
           "feedback": "About 4.6 years: 2.77 to the power of 1.5 is 4.61. Ceres is now in the chart – it lies exactly on the line."
         },
         "apply": "Switch to logarithmic axes and show the law. Is any planet off the line?"
@@ -111,10 +288,26 @@
     "data_kind": "model",
     "config": {
       "unit": "€",
-      "demand": { "intercept": 4, "slope": 0.25 },
-      "supply": { "intercept": 0.5, "slope": 0.1 },
-      "demandShift": { "min": -1.5, "max": 1.5, "step": 0.25, "value": 0 },
-      "costShift": { "min": -0.4, "max": 1, "step": 0.1, "value": 0 },
+      "demand": {
+        "intercept": 4,
+        "slope": 0.25
+      },
+      "supply": {
+        "intercept": 0.5,
+        "slope": 0.1
+      },
+      "demandShift": {
+        "min": -1.5,
+        "max": 1.5,
+        "step": 0.25,
+        "value": 0
+      },
+      "costShift": {
+        "min": -0.4,
+        "max": 1,
+        "step": 0.1,
+        "value": 0
+      },
       "maxQuantity": 16,
       "maxPrice": 5
     },
@@ -122,17 +315,52 @@
     "goal": "Du kannst vorhersagen, wie sich Preis und Menge ändern, wenn sich die Nachfrage oder die Kosten der Hersteller verschieben.",
     "intro": "Ein Markt für Eiskugeln an einem Sommertag. Die blaue Linie zeigt, wie viele Kugeln die Leute bei einem Preis kaufen wollen, die orange, wie viele die Eisdielen anbieten. Wo sie sich treffen, liegt der Preis.",
     "note": "Lehrmodell mit Beispielzahlen und geraden Linien. Es setzt voraus, dass viele Anbieter und Käufer frei handeln und alle den Preis kennen. Echte Märkte reagieren oft verzögert, und Kurven sind selten gerade.",
-    "labels": { "demand": "Nachfrage", "supply": "Angebot", "axisX": "Menge (1.000 Kugeln pro Tag)", "axisY": "Preis je Kugel", "demandShift": "Lust auf Eis", "costShift": "Kosten der Eisdielen", "less": "weniger", "more": "mehr", "cheaper": "niedriger", "dearer": "höher", "price": "Preis", "quantity": "Menge", "quantityUnit": "Tsd. Kugeln", "before": "vorher", "same": "Der Markt ist im Gleichgewicht: Zu diesem Preis wollen die Leute genau so viel kaufen, wie angeboten wird.", "demandUp": "Mehr Leute wollen Eis. Beim alten Preis wäre es knapp – der Preis steigt, und weil sich das Verkaufen mehr lohnt, wird auch mehr angeboten.", "demandDown": "Weniger Leute wollen Eis. Beim alten Preis bliebe Eis übrig – der Preis sinkt, und es wird weniger angeboten.", "costUp": "Das Herstellen wird teurer. Zum alten Preis lohnt es sich für manche nicht mehr – der Preis steigt, und es wird weniger verkauft.", "costDown": "Das Herstellen wird billiger. Die Eisdielen können günstiger anbieten – der Preis sinkt, und es wird mehr verkauft.", "both": "Beides wirkt zusammen: Die Nachfrage und die Kosten haben sich verschoben. Stell einen Regler zurück, um die Wirkungen einzeln zu sehen." },
+    "labels": {
+      "demand": "Nachfrage",
+      "supply": "Angebot",
+      "axisX": "Menge (1.000 Kugeln pro Tag)",
+      "axisY": "Preis je Kugel",
+      "demandShift": "Lust auf Eis",
+      "costShift": "Kosten der Eisdielen",
+      "less": "weniger",
+      "more": "mehr",
+      "cheaper": "niedriger",
+      "dearer": "höher",
+      "price": "Preis",
+      "quantity": "Menge",
+      "quantityUnit": "Tsd. Kugeln",
+      "before": "vorher",
+      "same": "Der Markt ist im Gleichgewicht: Zu diesem Preis wollen die Leute genau so viel kaufen, wie angeboten wird.",
+      "demandUp": "Mehr Leute wollen Eis. Beim alten Preis wäre es knapp – der Preis steigt, und weil sich das Verkaufen mehr lohnt, wird auch mehr angeboten.",
+      "demandDown": "Weniger Leute wollen Eis. Beim alten Preis bliebe Eis übrig – der Preis sinkt, und es wird weniger angeboten.",
+      "costUp": "Das Herstellen wird teurer. Zum alten Preis lohnt es sich für manche nicht mehr – der Preis steigt, und es wird weniger verkauft.",
+      "costDown": "Das Herstellen wird billiger. Die Eisdielen können günstiger anbieten – der Preis sinkt, und es wird mehr verkauft.",
+      "both": "Beides wirkt zusammen: Die Nachfrage und die Kosten haben sich verschoben. Stell einen Regler zurück, um die Wirkungen einzeln zu sehen."
+    },
     "explain": "Der Preis ist kein Zufall und keine Vorschrift, sondern das Ergebnis zweier Seiten. Verschiebt sich die Nachfrage, bewegen sich Preis und Menge in dieselbe Richtung. Verschieben sich die Kosten, bewegen sie sich entgegengesetzt: teurer und weniger – oder billiger und mehr.",
     "predict": {
       "question": "Der Sommer wird ungewöhnlich heiß, viel mehr Leute wollen Eis. Was passiert auf dem Markt?",
-      "options": ["Preis und verkaufte Menge steigen", "Der Preis steigt, die Menge sinkt", "Der Preis sinkt, die Menge steigt"],
+      "options": [
+        "Preis und verkaufte Menge steigen",
+        "Der Preis steigt, die Menge sinkt",
+        "Der Preis sinkt, die Menge steigt"
+      ],
       "feedback": "Preis und Menge steigen: Die Nachfragelinie rückt nach oben, der Schnittpunkt wandert nach rechts oben. Schieb den Regler „Lust auf Eis“ nach rechts."
     },
     "predict_correct": 0,
     "apply": "Jetzt eine andere Lage: Die Milch wird deutlich teurer. Schieb den Regler „Kosten der Eisdielen“ nach rechts – was geschieht mit Preis und Menge, und warum anders als bei der Hitze?",
-    "sources": [{ "name": "Wikipedia: Marktgleichgewicht", "url": "https://de.wikipedia.org/wiki/Marktgleichgewicht" }, { "name": "Wikipedia: Angebot und Nachfrage", "url": "https://de.wikipedia.org/wiki/Angebot_und_Nachfrage" }],
-    "links": [{ "kind": "question", "id": "e15" }],
+    "sources": [
+      {
+        "name": "Wikipedia: Marktgleichgewicht",
+        "url": "https://de.wikipedia.org/wiki/Marktgleichgewicht"
+      }
+    ],
+    "links": [
+      {
+        "kind": "question",
+        "id": "e15"
+      }
+    ],
     "verification_status": "ai_checked",
     "status": "published",
     "translations": {
@@ -141,11 +369,36 @@
         "goal": "You can predict how price and quantity change when demand or producers' costs shift.",
         "intro": "A market for scoops of ice cream on a summer day. The blue line shows how many scoops people want to buy at a given price, the orange one how many the ice-cream parlours offer. The price is where they meet.",
         "note": "Teaching model with example numbers and straight lines. It assumes many sellers and buyers trading freely, all of whom know the price. Real markets often react with a delay, and curves are rarely straight.",
-        "labels": { "demand": "Demand", "supply": "Supply", "axisX": "Quantity (1,000 scoops per day)", "axisY": "Price per scoop", "demandShift": "Appetite for ice cream", "costShift": "Costs of the parlours", "less": "less", "more": "more", "cheaper": "lower", "dearer": "higher", "price": "Price", "quantity": "Quantity", "quantityUnit": "thousand scoops", "before": "before", "same": "The market is in equilibrium: at this price people want to buy exactly as much as is offered.", "demandUp": "More people want ice cream. At the old price it would run short – the price rises, and because selling pays better, more is offered too.", "demandDown": "Fewer people want ice cream. At the old price some would be left over – the price falls, and less is offered.", "costUp": "Producing becomes more expensive. At the old price it no longer pays for some – the price rises and less is sold.", "costDown": "Producing becomes cheaper. The parlours can offer at a lower price – the price falls and more is sold.", "both": "Both act together: demand and costs have shifted. Move one slider back to see the effects separately." },
+        "labels": {
+          "demand": "Demand",
+          "supply": "Supply",
+          "axisX": "Quantity (1,000 scoops per day)",
+          "axisY": "Price per scoop",
+          "demandShift": "Appetite for ice cream",
+          "costShift": "Costs of the parlours",
+          "less": "less",
+          "more": "more",
+          "cheaper": "lower",
+          "dearer": "higher",
+          "price": "Price",
+          "quantity": "Quantity",
+          "quantityUnit": "thousand scoops",
+          "before": "before",
+          "same": "The market is in equilibrium: at this price people want to buy exactly as much as is offered.",
+          "demandUp": "More people want ice cream. At the old price it would run short – the price rises, and because selling pays better, more is offered too.",
+          "demandDown": "Fewer people want ice cream. At the old price some would be left over – the price falls, and less is offered.",
+          "costUp": "Producing becomes more expensive. At the old price it no longer pays for some – the price rises and less is sold.",
+          "costDown": "Producing becomes cheaper. The parlours can offer at a lower price – the price falls and more is sold.",
+          "both": "Both act together: demand and costs have shifted. Move one slider back to see the effects separately."
+        },
         "explain": "The price is neither chance nor decree but the result of two sides. If demand shifts, price and quantity move in the same direction. If costs shift, they move in opposite directions: dearer and less – or cheaper and more.",
         "predict": {
           "question": "The summer turns unusually hot and many more people want ice cream. What happens on the market?",
-          "options": ["Price and quantity sold both rise", "The price rises, the quantity falls", "The price falls, the quantity rises"],
+          "options": [
+            "Price and quantity sold both rise",
+            "The price rises, the quantity falls",
+            "The price falls, the quantity rises"
+          ],
           "feedback": "Price and quantity rise: the demand line moves up, the crossing point moves up and to the right. Push the “appetite for ice cream” slider to the right."
         },
         "apply": "Now a different situation: milk becomes much more expensive. Push the “costs of the parlours” slider to the right – what happens to price and quantity, and why is it different from the heat?"
