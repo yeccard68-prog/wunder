@@ -283,8 +283,8 @@
     "min_age": 10,
     "difficulty": 2,
     "language": "de",
-    "renderer": "svg-scene",
-    "scene": "battery",
+    "renderer": "three",
+    "scene": "cell",
     "title": "Wie eine Batterie Strom liefert",
     "summary": "Chemische Energie wird zu elektrischem Strom – außen fließen Elektronen, innen Ionen.",
     "goal": "Du kannst erklären, warum Strom nur fließt, wenn der Stromkreis geschlossen ist, und was im Inneren der Batterie passiert.",
@@ -366,7 +366,8 @@
         "Sie bleiben, wo sie sind"
       ],
       "correct": 1
-    }
+    },
+    "fallback_scene": "battery"
   },
   {
     "id": "a-platten",
@@ -463,7 +464,7 @@
   },
   {
     "language": "de",
-    "renderer": "svg-scene",
+    "renderer": "three",
     "min_age": 10,
     "difficulty": 2,
     "verification_status": "ai_checked",
@@ -471,21 +472,21 @@
     "created_at": "2026-10-14T12:00:00Z",
     "id": "a-elektromotor",
     "category_id": "technology",
-    "scene": "motor",
+    "scene": "emotor",
     "title": "Wie ein Elektromotor sich dreht",
     "summary": "Magnet, Spule, Strom – und ein Trick, der die Drehung am Laufen hält.",
     "goal": "Du kannst erklären, warum sich eine stromdurchflossene Spule im Magnetfeld dreht und wozu der Stromwender da ist.",
     "labels": [
       "Nordpol",
       "Südpol",
-      "Drahtspule (von vorn gesehen)",
+      "Drahtspule",
       "Stromwender polt um",
       "Batterie",
       "Kraft auf den Draht"
     ],
     "steps": [
       {
-        "text": "Ein einfacher Elektromotor besteht aus einem Magneten und einer drehbaren Drahtspule dazwischen. Wir blicken hier von vorn auf die Achse: Die beiden Kreise sind die Drähte der Spule.",
+        "text": "Ein einfacher Elektromotor besteht aus einem Magneten und einer drehbaren Drahtspule zwischen seinen Polen. Der Strom kommt aus der Batterie und fließt über zwei Schleifkontakte in die Spule.",
         "seconds": 7
       },
       {
@@ -516,13 +517,13 @@
         "labels": [
           "North pole",
           "South pole",
-          "Wire coil (seen from the front)",
+          "Wire coil",
           "Commutator reverses the current",
           "Battery",
           "Force on the wire"
         ],
         "steps": [
-          "A simple electric motor consists of a magnet and a rotatable coil of wire between its poles. Here we look along the axis from the front: the two circles are the wires of the coil.",
+          "A simple electric motor consists of a magnet and a wire coil that can turn between its poles. The current comes from the battery and flows into the coil through two sliding contacts.",
           "When current flows through the coil, a force acts on the wires in the magnetic field – upwards on one side, downwards on the other. The coil begins to turn.",
           "After half a turn the forces would pull the coil back again. That is why the commutator, a split slip ring, reverses the current at exactly the right moment.",
           "This way the force always points in the direction of rotation and the motor runs smoothly. The same principle – forces on current-carrying coils in a magnetic field – is at work in every electric motor, from a blender to an electric car."
@@ -550,7 +551,8 @@
         "Die Spule wieder zurückziehen"
       ],
       "correct": 2
-    }
+    },
+    "fallback_scene": "motor"
   },
   {
     "language": "de",
