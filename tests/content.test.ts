@@ -10,10 +10,10 @@ const errorsOf = (c: typeof content) => validateContent(c).errors as string[];
 
 test("dataset has the expected record counts", () => {
   assert.equal(content.categories.length, 10);
-  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => q.show_in_feed).length, 587);
-  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => !q.show_in_feed).length, 44);
-  assert.equal(content.videos.length, 44);
-  assert.equal(content.videos.filter((v: { status: string }) => v.status === "published").length, 38);
+  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => q.show_in_feed).length, 672);
+  assert.equal(content.questions.filter((q: { show_in_feed: boolean }) => !q.show_in_feed).length, 49);
+  assert.equal(content.videos.length, 49);
+  assert.equal(content.videos.filter((v: { status: string }) => v.status === "published").length, 43);
 });
 
 test("the current dataset passes validation", () => {
@@ -78,7 +78,7 @@ test("import SQL is idempotent and never destructive", () => {
   assert.equal((sql.match(/on conflict \(\w+\) do nothing;/g) ?? []).length, 4);
   assert.doesNotMatch(sql, /^\s*(truncate|delete from|drop |alter )/im); // as statements – the words may occur inside texts ("a drop of water")
   assert.doesNotMatch(sql, /like_count|demo_popularity|demo_comments/); // invented demo numbers are not imported
-  assert.equal((sql.match(/^  \('/gm) ?? []).length, 10 + 631 + 631 + 44);
+  assert.equal((sql.match(/^  \('/gm) ?? []).length, 10 + 721 + 721 + 49);
 });
 
 test("update mode only touches content columns", () => {

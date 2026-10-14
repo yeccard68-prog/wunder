@@ -1935,5 +1935,327 @@
       ],
       "correct": 1
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-15T12:00:00Z",
+    "id": "a-windrad",
+    "category_id": "technology",
+    "scene": "windturbine",
+    "title": "Wie ein Windrad Strom erzeugt",
+    "summary": "Vom Luftzug zur Steckdose: Rotor, Getriebe, Generator – und warum doppelter Wind so viel ausmacht.",
+    "goal": "Du kannst erklären, wie ein Windrad Bewegung in Strom verwandelt und warum die Windgeschwindigkeit so stark zählt.",
+    "labels": [
+      "Rotorblatt",
+      "Gondel",
+      "Turm",
+      "Wind",
+      "Getriebe",
+      "Generator",
+      "langsame Welle",
+      "schnelle Welle",
+      "Magnet dreht sich in Spulen: Strom",
+      "doppelter Wind: 8-fache Leistung",
+      "ins Stromnetz"
+    ],
+    "steps": [
+      {
+        "text": "Der Wind strömt gegen die Rotorblätter. Sie sind geformt wie Flugzeugflügel: Die Luft strömt so um sie herum, dass eine Kraft entsteht, die den Rotor dreht. Große Anlagen drehen sich gemächlich – oft nur etwa zehn- bis fünfzehnmal pro Minute.",
+        "seconds": 9
+      },
+      {
+        "text": "In der Gondel sitzt die Technik. Bei vielen Anlagen treibt die langsame Rotorwelle ein Getriebe an, das die Drehung stark beschleunigt, denn der Generator braucht viel mehr Umdrehungen. Andere Anlagen haben einen großen, langsam laufenden Generator und kommen ohne Getriebe aus.",
+        "seconds": 10
+      },
+      {
+        "text": "Im Generator dreht sich ein Magnet zwischen Drahtspulen. Das wechselnde Magnetfeld schiebt die Elektronen im Draht an – es fließt Strom. Er wird durch Kabel im Turm nach unten und ins Stromnetz geleitet.",
+        "seconds": 9
+      },
+      {
+        "text": "Weht der Wind doppelt so schnell, steckt achtmal so viel Leistung in ihm: Die Leistung wächst mit der dritten Potenz der Windgeschwindigkeit. Deshalb stehen Windräder hoch und an windigen Orten. Bei Sturm drehen sie ihre Blätter aus dem Wind und halten an, damit nichts kaputtgeht.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Windkraftanlage",
+        "url": "https://de.wikipedia.org/wiki/Windkraftanlage"
+      },
+      {
+        "name": "Wikipedia: Windenergie",
+        "url": "https://de.wikipedia.org/wiki/Windenergie"
+      },
+      {
+        "name": "Wikipedia: Elektrischer Generator",
+        "url": "https://de.wikipedia.org/wiki/Elektrischer_Generator"
+      }
+    ],
+    "quiz_question_id": "qa-windrad",
+    "translations": {
+      "en": {
+        "title": "How a wind turbine makes electricity",
+        "summary": "From a breeze to the socket: rotor, gearbox, generator – and why twice the wind makes such a difference.",
+        "goal": "You can explain how a wind turbine turns motion into electricity and why wind speed matters so much.",
+        "labels": [
+          "Rotor blade",
+          "Nacelle",
+          "Tower",
+          "Wind",
+          "Gearbox",
+          "Generator",
+          "slow shaft",
+          "fast shaft",
+          "magnet turns in coils: current",
+          "twice the wind: 8 × the power",
+          "to the grid"
+        ],
+        "steps": [
+          "The wind flows against the rotor blades. They are shaped like aircraft wings: the air flows around them in a way that creates a force turning the rotor. Large turbines turn leisurely – often only about ten to fifteen times a minute.",
+          "The machinery sits in the nacelle. In many turbines the slow rotor shaft drives a gearbox that speeds up the rotation a lot, because the generator needs many more revolutions. Other turbines have a large, slow-running generator and need no gearbox.",
+          "In the generator a magnet turns between coils of wire. The changing magnetic field pushes the electrons in the wire along – current flows. It is led down through cables in the tower and into the grid.",
+          "If the wind blows twice as fast, it carries eight times as much power: power grows with the cube of the wind speed. That is why wind turbines stand tall and in windy places. In a storm they turn their blades out of the wind and stop so that nothing breaks."
+        ],
+        "predict": {
+          "question": "In a moment the wind blows twice as fast. How much more power will it carry?",
+          "options": [
+            "Twice as much",
+            "Four times as much",
+            "Eight times as much"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 3,
+      "question": "Gleich weht der Wind doppelt so schnell. Wie viel mehr Leistung steckt dann in ihm?",
+      "options": [
+        "Doppelt so viel",
+        "Viermal so viel",
+        "Achtmal so viel"
+      ],
+      "correct": 2
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-15T11:00:00Z",
+    "id": "a-gps",
+    "category_id": "technology",
+    "scene": "gps",
+    "title": "Wie GPS deinen Standort findet",
+    "summary": "Satelliten in 20.000 Kilometern Höhe, Atomuhren und etwas Geometrie – so weiß dein Handy, wo du bist.",
+    "goal": "Du kannst erklären, wie aus Signallaufzeiten Abstände werden und warum man mindestens vier Satelliten braucht.",
+    "labels": [
+      "Satellit",
+      "Funksignal mit Uhrzeit",
+      "Empfänger",
+      "gleicher Abstand: ein Kreis",
+      "zwei Kreise: zwei mögliche Punkte",
+      "drei Kreise: ein Punkt",
+      "ungenaue Uhr: Kreise treffen sich nicht",
+      "vierter Satellit korrigiert die Uhr"
+    ],
+    "steps": [
+      {
+        "text": "Rund 30 GPS-Satelliten umkreisen die Erde in etwa 20.000 Kilometern Höhe. Jeder hat Atomuhren an Bord und sendet ständig ein Funksignal: wer er ist, wo er gerade ist und wie spät es genau ist.",
+        "seconds": 9
+      },
+      {
+        "text": "Dein Handy empfängt das Signal und vergleicht die Sendezeit mit seiner eigenen Uhr. Funkwellen sind so schnell wie Licht – aus der Laufzeit folgt der Abstand. Alle Orte mit genau diesem Abstand liegen auf einer riesigen Kugel um den Satelliten; auf dem Boden ist das ein Kreis.",
+        "seconds": 10
+      },
+      {
+        "text": "Ein zweiter Satellit liefert einen zweiten Kreis. Die beiden schneiden sich in zwei Punkten. Erst der Kreis eines dritten Satelliten legt fest, an welchem davon du stehst.",
+        "seconds": 9
+      },
+      {
+        "text": "Die Uhr im Handy ist viel ungenauer als eine Atomuhr. Schon eine millionstel Sekunde Fehler verschiebt jeden Abstand um 300 Meter – die Kreise treffen sich nicht mehr in einem Punkt. Mit dem Signal eines vierten Satelliten rechnet das Handy diesen Uhrfehler heraus.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Global Positioning System",
+        "url": "https://de.wikipedia.org/wiki/Global_Positioning_System"
+      },
+      {
+        "name": "Wikipedia: Lateration",
+        "url": "https://de.wikipedia.org/wiki/Lateration"
+      }
+    ],
+    "quiz_question_id": "qa-gps",
+    "translations": {
+      "en": {
+        "title": "How GPS finds where you are",
+        "summary": "Satellites 20,000 kilometres up, atomic clocks and a little geometry – that's how your phone knows where you are.",
+        "goal": "You can explain how signal travel times become distances and why at least four satellites are needed.",
+        "labels": [
+          "Satellite",
+          "radio signal with the time",
+          "Receiver",
+          "same distance: a circle",
+          "two circles: two possible points",
+          "three circles: one point",
+          "inaccurate clock: the circles miss",
+          "fourth satellite corrects the clock"
+        ],
+        "steps": [
+          "About 30 GPS satellites orbit the Earth at a height of about 20,000 kilometres. Each has atomic clocks on board and constantly sends a radio signal: who it is, where it is right now and exactly what time it is.",
+          "Your phone receives the signal and compares the time it was sent with its own clock. Radio waves travel at the speed of light – the travel time gives the distance. All places at exactly this distance lie on a huge sphere around the satellite; on the ground that is a circle.",
+          "A second satellite provides a second circle. The two cross at two points. Only the circle of a third satellite settles which of them you are standing on.",
+          "The clock in a phone is far less accurate than an atomic clock. An error of just a millionth of a second shifts every distance by 300 metres – the circles no longer meet in one point. With the signal of a fourth satellite, the phone calculates this clock error out."
+        ],
+        "predict": {
+          "question": "In a moment the circle of a second satellite is added. How many possible places will be left?",
+          "options": [
+            "One",
+            "Two",
+            "Infinitely many"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 2,
+      "question": "Gleich kommt der Kreis eines zweiten Satelliten dazu. Wie viele mögliche Orte bleiben dann übrig?",
+      "options": [
+        "Einer",
+        "Zwei",
+        "Unendlich viele"
+      ],
+      "correct": 1
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-15T10:00:00Z",
+    "id": "a-waermepumpe",
+    "category_id": "technology",
+    "scene": "heatpump",
+    "title": "Wie eine Wärmepumpe heizt",
+    "summary": "Sie holt Wärme aus kalter Außenluft und bringt sie ins Haus – mit einem Kreislauf, der auch im Kühlschrank steckt.",
+    "goal": "Du kannst die vier Stationen des Kältemittel-Kreislaufs erklären und sagen, woher die meiste Wärme kommt.",
+    "labels": [
+      "Verdampfer",
+      "Verdichter",
+      "Verflüssiger",
+      "Expansionsventil",
+      "Wärme aus der Außenluft",
+      "heißes Gas",
+      "Wärme fürs Haus",
+      "sehr kalt",
+      "Strom",
+      "draußen",
+      "drinnen",
+      "aus 1 kWh Strom: 3–4 kWh Wärme"
+    ],
+    "steps": [
+      {
+        "text": "Draußen bläst ein Ventilator Luft durch den Verdampfer. In seinen Rohren fließt ein Kältemittel, das schon bei sehr niedrigen Temperaturen siedet. Es ist kälter als die Außenluft – selbst im Winter. Deshalb nimmt es Wärme aus der Luft auf und verdampft.",
+        "seconds": 10
+      },
+      {
+        "text": "Der Verdichter presst das gasförmige Kältemittel zusammen. Dabei wird es heiß – so wie eine Fahrradpumpe beim Pumpen warm wird. Für diesen Schritt braucht die Wärmepumpe Strom.",
+        "seconds": 8
+      },
+      {
+        "text": "Im Verflüssiger gibt das heiße Gas seine Wärme an das Heizungswasser ab und wird dabei wieder flüssig. Das warme Wasser fließt zu den Heizkörpern oder in die Fußbodenheizung.",
+        "seconds": 8
+      },
+      {
+        "text": "Im Expansionsventil fällt der Druck plötzlich ab: Das Kältemittel wird sehr kalt, und der Kreislauf beginnt von vorn. Weil der größte Teil der Wärme aus der Umgebung stammt, liefert eine Wärmepumpe je nach Anlage und Wetter etwa drei- bis viermal so viel Wärme, wie sie Strom verbraucht. Ein Kühlschrank arbeitet nach demselben Prinzip – er pumpt Wärme aus seinem Inneren nach außen.",
+        "seconds": 11
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Wärmepumpe",
+        "url": "https://de.wikipedia.org/wiki/Wärmepumpe"
+      },
+      {
+        "name": "Wikipedia: Kältemittel",
+        "url": "https://de.wikipedia.org/wiki/Kältemittel"
+      },
+      {
+        "name": "Wikipedia: Leistungszahl",
+        "url": "https://de.wikipedia.org/wiki/Leistungszahl"
+      }
+    ],
+    "quiz_question_id": "qa-waermepumpe",
+    "translations": {
+      "en": {
+        "title": "How a heat pump heats",
+        "summary": "It takes heat from cold outside air and brings it into the house – with a cycle that is also inside every fridge.",
+        "goal": "You can explain the four stations of the refrigerant cycle and say where most of the heat comes from.",
+        "labels": [
+          "Evaporator",
+          "Compressor",
+          "Condenser",
+          "Expansion valve",
+          "heat from the outside air",
+          "hot gas",
+          "heat for the house",
+          "very cold",
+          "Electricity",
+          "outside",
+          "inside",
+          "from 1 kWh of electricity: 3–4 kWh of heat"
+        ],
+        "steps": [
+          "Outside, a fan blows air through the evaporator. Its pipes carry a refrigerant that boils at very low temperatures. It is colder than the outside air – even in winter. So it takes up heat from the air and evaporates.",
+          "The compressor squeezes the gaseous refrigerant together. This makes it hot – just as a bicycle pump gets warm when you pump. This is the step for which the heat pump needs electricity.",
+          "In the condenser the hot gas gives its heat to the heating water and turns liquid again. The warm water flows to the radiators or into the underfloor heating.",
+          "In the expansion valve the pressure suddenly drops: the refrigerant becomes very cold, and the cycle starts again. Because most of the heat comes from the surroundings, a heat pump delivers – depending on the system and the weather – about three to four times as much heat as the electricity it uses. A fridge works on the same principle – it pumps heat out of its inside."
+        ],
+        "predict": {
+          "question": "In a moment the compressor squeezes the gas hard. What happens to its temperature?",
+          "options": [
+            "It rises",
+            "It falls",
+            "It stays the same"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 1,
+      "question": "Gleich presst der Verdichter das Gas stark zusammen. Was passiert mit seiner Temperatur?",
+      "options": [
+        "Sie steigt",
+        "Sie sinkt",
+        "Sie bleibt gleich"
+      ],
+      "correct": 0
+    }
   }
 ]

@@ -4,7 +4,7 @@
 //   node scripts/clips/find.mjs archive "assembly line" [collection]
 // Only public-domain and CC0 / CC BY / CC BY-SA material may be used (no NC, no ND).
 const [source, query, extra] = process.argv.slice(2);
-const UA = { "User-Agent": "WunderLearningApp/0.1 (content research; contact: y.eccard68@gmail.com)" };
+const UA = { "User-Agent": "WunderLearningApp/0.1 (content research; contact: https://github.com/yeccard68-prog/wunder)" };
 const strip = (s) => (s ?? "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 const get = async (url) => (await fetch(url, { headers: UA })).json();
 

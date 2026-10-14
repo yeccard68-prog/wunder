@@ -55,6 +55,9 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
   const [asking, setAsking] = useState(false); // stopped for the prediction
   const [guess, setGuess] = useState<number | null>(null);
   const asked = useRef(false);
+  // set at once when stopping for the prediction: a frame that is already on its way must not move the
+  // time on into the step that shows the answer (that happened on slow devices and when jumping ahead)
+  const hold = useRef(false);
 
   useEffect(() => {
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -69,6 +72,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
   useEffect(() => {
     if (!predict || asked.current || !playing || time < predictAt - 0.25 || time > predictAt + 0.5) return;
     asked.current = true;
+    hold.current = true;
     setPlaying(false);
     setAsking(true);
     setTime(predictAt - 0.02); // stay in the step before: the next one would show the answer
@@ -79,6 +83,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
     track("animation_predict", animation.id, "animation");
   };
   const resume = () => {
+    hold.current = false;
     setAsking(false);
     setPlaying(true);
   };
@@ -90,7 +95,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
     const tick = (now: number) => {
       const dt = Math.min(0.1, (now - last) / 1000); // a hidden tab must not jump ahead
       last = now;
-      setTime((v) => Math.min(total, v + dt * speedRef.current));
+      setTime((v) => (hold.current ? v : Math.min(total, v + dt * speedRef.current)));
       frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick);

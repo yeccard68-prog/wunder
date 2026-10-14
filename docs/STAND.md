@@ -1,26 +1,26 @@
-# Stand, offene Punkte und was als Nächstes kommt (14.10.2026)
+# Stand, offene Punkte und was als Nächstes kommt (15.10.2026)
 
 ## Was veröffentlicht ist
 
 | Inhalt | Anzahl | Status |
 |---|---|---|
-| Fragekarten im Feed | 587 (davon 76 „Stimmt das?“, 24 neue Formate) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
-| Video-Quizfragen | 44 | zweiter Versuch mit Hinweis, halbe Punkte |
-| Clips | 38 veröffentlicht, 6 archiviert | frei lizenziert, Quelle und Urheber je Clip, Nachweise unter `/legal/` |
-| Animationen | 20 (19 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
+| Fragekarten im Feed | 672 (davon 79 „Stimmt das?“, 38 neue Formate, 25 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
+| Video-Quizfragen | 49 | zweiter Versuch mit Hinweis, halbe Punkte |
+| Clips | 43 veröffentlicht, 6 archiviert | frei lizenziert, Quelle und Urheber je Clip, Nachweise unter `/legal/` |
+| Animationen | 23 (22 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 5 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste) | 3 mit echten Daten, 2 Rechenmodelle; auch im Feed |
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee |
 | Themen | 10 | |
 
-Karten je Thema (Feed): Wissenschaft 98, Technologie & KI 71, Erde & Natur 69, Geschichte 67, Kultur & Gesellschaft 67, Mathe & Logik 54, Wirtschaft & Geld 49, Sprache 45, Business 43, Sport 24.
+Karten je Thema (Feed): Wissenschaft 101, Technologie & KI 75, Erde & Natur 70, Mathe & Logik 69, Geschichte 68, Kultur & Gesellschaft 67, Sprache 65, Business 57, Wirtschaft & Geld 53, Sport 47.
 
 ## Ziele aus den Aufträgen
 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
-| 1.000 Quizfragen | 631 | rund 150 pro Stapel sind in guter Qualität machbar |
-| 100 Kurzvideos | 38 | Engpass ist das Sichten freier Quellen, nicht die Technik |
-| 50 Animationen | 20 | jede 3D-Szene ist Handarbeit im Code |
+| 1.000 Quizfragen | 721 | rund 150 pro Stapel sind in guter Qualität machbar |
+| 100 Kurzvideos | 43 | Engpass ist das Sichten freier Quellen, nicht die Technik |
+| 50 Animationen | 23 | jede 3D-Szene ist Handarbeit im Code |
 | rund 20 Bücher | 20 | je drei Ideen; fünf je Buch wären der nächste Ausbau |
 | 200 Aufgaben für unter 6-Jährige | 0 | zurückgestellt; die App ist nur ab 16 freigegeben |
 
@@ -41,13 +41,13 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 ### 2. Technisch als Nächstes (kann ich machen)
 
 1. ~~Store-Fassung mit Capacitor~~ – Android eingerichtet am 14.10.2026 (`docs/STORE.md`): GitHub baut bei jedem Push eine Testversion und startet sie im Emulator. Offen: Upload-Schlüssel, Play-Konto, iOS (braucht Apple-Konto und Mac oder macOS-Bau).
-2. ~~Prüfbildschirm für alle Inhalte~~ – erledigt am 14.10.2026 (`/admin/`, siehe `docs/BACKEND.md` Abschnitt 30). Offen ist die Prüfung selbst: rund 670 Fragen und Clips sowie 45 Bücher, Animationen und Visualisierungen.
+2. ~~Prüfbildschirm für alle Inhalte~~ – erledigt am 14.10.2026 (`/admin/`, siehe `docs/BACKEND.md` Abschnitt 30). Offen ist die Prüfung selbst: rund 765 Fragen und Clips sowie 48 Bücher, Animationen und Visualisierungen.
 3. **Einwilligung zur Nutzungsstatistik im Einstieg anbieten.** Der Schalter ist aus und versteckt – ohne Daten lässt sich nach dem Start nicht erkennen, was wirkt. Kleiner Aufwand, rechtlich sauber, wenn freiwillig und abwählbar.
 4. **E-Mail-Anmeldung einmal durchspielen** (nach der Site-URL-Einstellung). Klein.
 
 ### 3. Inhalte, die Lernende zurückbringen
 
-1. **Fragen auf 1.000** – vor allem Sport (24), Business (43), Sprache (45) und mehr der neuen Formate (nur 24). Zwei bis drei Stapel.
+1. **Fragen auf 1.000** – am 15.10.2026 kamen 25 Rätsel und 57 Karten für Sport, Business, Sprache und Wirtschaft dazu. Weiter: mehr Rätsel (auch für Geschichte und Erde), Wirtschaft (53) und Sport (47).
 2. **Bücher auf fünf Ideen je Buch** (40 neue Lektionen) – die Bücher sind das Format mit der tiefsten Lernwirkung.
 3. **Weitere Visualisierungen** aus den vorhandenen fünf Typen (nur Daten, kein Code) und zwei neue Typen: Kreis-/Anteilsdiagramm und Wahrscheinlichkeits-Experiment.
 4. **Clips** – der langsamste Weg (Sichtung freier Quellen); sinnvoll in kleinen Paketen.

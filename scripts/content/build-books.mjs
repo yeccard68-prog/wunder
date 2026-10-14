@@ -80,7 +80,7 @@ if (!args.includes("--offline")) {
   const titles = [...new Set(books.map((b) => b.wiki.replaceAll("_", " ")))];
   for (let i = 0; i < titles.length; i += 40) {
     const url = "https://de.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=" + encodeURIComponent(titles.slice(i, i + 40).join("|"));
-    const res = await (await fetch(url, { headers: { "User-Agent": "WunderLearningApp/0.1 (book source check; contact: y.eccard68@gmail.com)" } })).json();
+    const res = await (await fetch(url, { headers: { "User-Agent": "WunderLearningApp/0.1 (book source check; contact: https://github.com/yeccard68-prog/wunder)" } })).json();
     for (const p of Object.values(res.query.pages)) if ("missing" in p || "invalid" in p) errors.push(`source page missing on Wikipedia: ${p.title}`);
     for (const r of res.query.redirects ?? []) console.log(`  note: source "${r.from}" redirects to "${r.to}"`);
   }

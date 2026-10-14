@@ -47,6 +47,7 @@ interface Props {
 export default function KnowledgeCard({ item, reason, onAnswered, context = "feed", clip }: Props) {
   const { state, answer, firstTry, toggle, hide, share } = useStore();
   const [miss, setMiss] = useState<number | null>(null); // wrong first try on a clip question
+  const [hintsShown, setHintsShown] = useState(0); // riddles: hints revealed so far
   const t = useT();
   const cat = categoryById(item.categoryId);
   const inSession = !!onAnswered;
@@ -125,6 +126,18 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
         {special && <p className="mb-1.5 font-display text-sm italic text-muted">{t(FORMAT_LABEL[item.kind])}</p>}
         {item.kind !== "blank" && <h2 className="font-display text-[1.45rem] font-semibold leading-[1.2] tracking-tight text-balance">{item.question}</h2>}
 
+        {item.hints && item.hints.length > 0 && !reveal && (
+          <div className="mt-3 space-y-2" data-testid="hints">
+            {item.hints.slice(0, hintsShown).map((h, i) => (
+              <p key={i} className="pop flex gap-2 rounded-xl bg-raised px-3 py-2 text-sm leading-relaxed"><Lightbulb size={15} className="mt-0.5 shrink-0" /> {h}</p>
+            ))}
+            {hintsShown < item.hints.length && (
+              <button onClick={() => setHintsShown((n) => n + 1)} className="press flex h-9 items-center gap-1.5 rounded-full border border-line px-3.5 text-sm font-semibold">
+                <Lightbulb size={15} /> {hintsShown === 0 ? t("Tipp") : t("Noch ein Tipp")} <span className="text-muted">{hintsShown + 1}/{item.hints.length}</span>
+              </button>
+            )}
+          </div>
+        )}
         {special && <FormatInput item={item} locale={state.settings.locale} pending={pending} done={reveal ? { correct: reveal.correct, solution: result?.answer } : null} submit={respond} />}
         <div className={special ? "hidden" : isFact ? "mt-5 grid grid-cols-2 gap-2.5" : "mt-5 space-y-2.5"}>
           {!special && item.options.map((opt, i) => (

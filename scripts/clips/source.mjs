@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const CACHE = path.join(here, ".cache");
-export const USER_AGENT = "WunderLearningApp/0.1 (educational clips; contact: y.eccard68@gmail.com)";
+export const USER_AGENT = "WunderLearningApp/0.1 (educational clips; contact: https://github.com/yeccard68-prog/wunder)";
 export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const MAX = 300e6;
 

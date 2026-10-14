@@ -7,7 +7,7 @@ const base = (process.argv[2] ?? "https://wunder-one.vercel.app").replace(/\/$/,
 const videos = JSON.parse(fs.readFileSync("content/videos.json", "utf8")).filter((v) => v.status === "published");
 const problems = [];
 
-for (const page of ["/", "/clips/", "/quiz/", "/profile/", "/social/", "/explain/", "/explore/", "/library/", "/books/", "/legal/", "/lab/"]) {
+for (const page of ["/", "/clips/", "/quiz/", "/profile/", "/social/", "/explain/", "/explore/", "/library/", "/books/", "/legal/", "/lab/", "/riddles/"]) {
   const r = await fetch(base + page, { redirect: "manual" });
   if (r.status !== 200) problems.push(`${page}: HTTP ${r.status}${r.status === 302 || r.status === 401 ? " (login required – deployment protection?)" : ""}`);
 }
@@ -22,7 +22,7 @@ for (const v of videos) {
     else if (type === "video/mp4" && r.status !== 206) problems.push(`${v.id}: ${file} → no byte-range support`);
   }
 }
-console.log(`${base}: 11 pages, ${videos.length} clips checked`);
+console.log(`${base}: 12 pages, ${videos.length} clips checked`);
 if (problems.length) {
   console.error(problems.join("\n"));
   process.exit(1);

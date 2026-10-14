@@ -34,7 +34,7 @@ async function allRows<T>(page: (from: number, to: number) => PromiseLike<{ data
 
 export async function fetchContent() {
   const [questions, videos] = await Promise.all([
-    allRows<QuestionRow>((from, to) => db().from("questions").select("id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations").eq("status", "published").order("created_at", { ascending: false }).order("id").range(from, to)),
+    allRows<QuestionRow>((from, to) => db().from("questions").select("id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations, hints").eq("status", "published").order("created_at", { ascending: false }).order("id").range(from, to)),
     allRows<VideoRow>((from, to) => db().from("videos").select("id, category_id, title, hook, description, video_url, thumbnail_url, duration_seconds, has_audio, captions, creator_name, sources, published_at, tags, quiz_question_id, verification_status, like_count, min_age, start_seconds, end_seconds, license, translations").eq("status", "published").order("published_at", { ascending: false }).order("id").range(from, to)),
   ]);
   return buildContent(questions, videos);
@@ -192,7 +192,8 @@ export async function setVideoProgress(userId: string, videoId: string, row: Fla
 // ---------- content review (admins only – enforced by the database, not by the app) ----------
 export interface ReviewItem {
   kind: "question" | "video";
-  en?: { title: string; options?: string[]; body: string }; // the English version, where there is one
+  en?: { title: string; options?: string[]; body: string; hints?: string[] }; // the English version, where there is one
+  hints?: string[]; // riddles
   id: string;
   categoryId: string;
   title: string;
@@ -216,23 +217,23 @@ export async function isAdmin(): Promise<boolean> {
 /** Everything that still needs a human decision: pulled by reports first, then not yet human-verified. */
 export async function fetchReviewQueue(): Promise<ReviewItem[]> {
   // all of them, page by page – there are more than the 1,000 rows one request may return
-  type Q = { id: string; kind: string; category_id: string; question: string; options: unknown; source_name: string | null; source_url: string | null; verification_status: string; status: string; report_count: number; review_note: string | null; translations: unknown; question_answers: unknown };
+  type Q = { id: string; kind: string; category_id: string; question: string; options: unknown; source_name: string | null; source_url: string | null; verification_status: string; status: string; report_count: number; review_note: string | null; translations: unknown; question_answers: unknown; hints: string[] | null };
   type V = { id: string; category_id: string; title: string; hook: string; description: string; sources: unknown; license: string | null; creator_name: string; verification_status: string; status: string; report_count: number; review_note: string | null; translations: unknown };
   const [qRows, vRows] = await Promise.all([
-    allRows<Q>((from, to) => db().from("questions").select("id, kind, category_id, question, options, source_name, source_url, verification_status, status, report_count, review_note, translations, question_answers(correct_index, explanation, translations)").in("status", ["published", "review"]).neq("verification_status", "verified").order("id").range(from, to)),
+    allRows<Q>((from, to) => db().from("questions").select("id, kind, category_id, question, options, source_name, source_url, verification_status, status, report_count, review_note, translations, hints, question_answers(correct_index, explanation, translations)").in("status", ["published", "review"]).neq("verification_status", "verified").order("id").range(from, to)),
     allRows<V>((from, to) => db().from("videos").select("id, category_id, title, hook, description, sources, license, creator_name, verification_status, status, report_count, review_note, translations").in("status", ["published", "review"]).neq("verification_status", "verified").order("id").range(from, to)),
   ]);
   const q = { data: qRows };
   const v = { data: vRows };
   type QA = { correct_index: number; explanation: string; translations?: Record<string, { explanation?: string }> };
-  type QT = Record<string, { question: string; options: string[] }> | null;
+  type QT = Record<string, { question: string; options: string[]; hints?: string[] }> | null;
   type VT = Record<string, { title: string; hook: string; description?: string }> | null;
   const items: ReviewItem[] = [
     ...(q.data ?? []).map((r) => {
       const a = (Array.isArray(r.question_answers) ? r.question_answers[0] : r.question_answers) as QA | null;
       const en = (r.translations as QT)?.en;
-      return { kind: "question" as const, id: r.id, categoryId: r.category_id, title: r.question, options: r.options as string[], correctIndex: a?.correct_index, body: a?.explanation ?? "", sourceName: r.source_name, sourceUrl: r.source_url, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note,
-        en: en ? { title: en.question, options: en.options, body: a?.translations?.en?.explanation ?? "" } : undefined };
+      return { kind: "question" as const, id: r.id, categoryId: r.category_id, title: r.question, options: r.options as string[], correctIndex: a?.correct_index, body: a?.explanation ?? "", sourceName: r.source_name, sourceUrl: r.source_url, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note, hints: r.hints ?? undefined,
+        en: en ? { title: en.question, options: en.options, body: a?.translations?.en?.explanation ?? "", hints: en.hints } : undefined };
     }),
     ...(v.data ?? []).map((r) => {
       const src = (r.sources as { name: string; url: string }[])[0];

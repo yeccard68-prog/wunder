@@ -36,8 +36,9 @@ export interface Item {
   verification: "unverified" | "ai_checked" | "verified";
   minAge: number; // 6, 10, 13 or 16
   maxAge: number | null; // set for cards written only for children
+  hints?: string[]; // riddles: revealed one after another before answering
   /** Other languages keyed by locale; the base fields hold the original language. */
-  translations?: Record<string, { question: string; options: string[]; explanation?: string }>;
+  translations?: Record<string, { question: string; options: string[]; explanation?: string; hints?: string[] }>;
 }
 
 /** Where an answer was given – stored with every attempt. */

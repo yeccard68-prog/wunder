@@ -1,4 +1,27 @@
-# Markenname – Vorprüfung (Stand 16.10.2026)
+# Markenname – Vorprüfung
+
+## Neu (14.10.2026): Richtung „Curious“
+
+**Wichtig:** Vorprüfung, keine rechtliche Freigabe. Geprüft: Websuche nach gleichnamigen Apps und Firmen, Domains per DNS (ein fehlender Eintrag heißt nur „vermutlich frei“). Nicht geprüft: Markenregister (EUIPO, DPMA, WIPO, USPTO), Social-Media-Namen. Nichts gekauft oder registriert.
+
+**„Curious“ selbst ist nicht geeignet.** Es gibt bereits Lern-Apps mit fast genau unserem Konzept unter diesem Namen – „Curious – Scroll & Learn“ (kurze Lernvideos), „Curious – the game of learning“ (tägliche Lektionen und Rätsel) und die Lernplattform Curious. Dazu kommen „Curio“ (mindestens vier Lern- und Wissens-Apps, u. a. „Curio AI: Daily Knowledge“), „Curiosity“ (Wissens-App, CuriosityStream) und „CurioQ“. curious.app und curio.app sind vergeben. Ein Alltagswort lässt sich zudem kaum als Marke schützen und ist in den Stores schwer zu finden.
+
+| Name | Idee | Websuche | Domains (DNS) | Einschätzung |
+|---|---|---|---|---|
+| **Curiosmo** | *curiosity* + *cosmos*: „ein Universum der Neugier“ | keine Treffer (ähnlich klingt nur das Wissenschaftszentrum „Curiosum“ in Umeå) | .com, .app, .de, .io, .net, .org, .eu vermutlich frei | **Favorit**: international aussprechbar (DE ku-ri-OS-mo, EN kyoo-ree-OZ-mo, ES/IT fast wie „curioso“), sofort als „neugierig“ erkennbar, Bildwelt Sterne/Planeten passt zu den 3D-Animationen |
+| Curiova | *curio* + *nova* | keine Treffer | .com vergeben, .app/.de vermutlich frei | gut, aber ohne .com |
+| Curiwise | *curious* + *wise* | nicht gesucht | .com vergeben, .app vermutlich frei | erklärt sich selbst, wirkt aber generisch |
+| Curiozy | *curious* + *cozy* | keine Treffer | .com vergeben, .app vermutlich frei | verspielt; „cozy“ passt weniger zu Wissen |
+| Curiora | | keine App gefunden | .com und .app vergeben (Domainhändler) | ausgeschieden |
+| Curious, Curio, Curiosity, Quriosity, Curioso | | besetzt | – | ausgeschieden |
+
+**Empfehlung:** Curiosmo als Arbeitstitel. Vor der Entscheidung eine Markenrecherche in den Klassen 9 (Software) und 41 (Bildung) durch eine Kanzlei; danach Domains und Social-Media-Namen sichern. Der Name steht zentral in `lib/brand.ts` und lässt sich mit einer Zeile umstellen (dazu App-Name in `capacitor.config.ts` und `public/manifest.json`).
+
+Quellen der Websuche: [Curious – Scroll & Learn](https://apps.apple.com/pt/app/curious-scroll-learn/id6747272352), [Curious – the game of learning](https://apps.apple.com/app/id766149271), [Curio AI: Daily Knowledge](https://apps.apple.com/us/app/-/id6739725206), [Curio – Learn by Discovering](https://mwm.ai/apps/curio-learn-by-discovering/6754835692), [CurioQ](https://apps.apple.com/qa/app/deep-questions-talks-curioq/id6749513961), [Curiosum Umeå](https://curiosum.umu.se/en/visit/).
+
+---
+
+## Frühere Vorprüfung (13.10.2026)
 
 **Wichtig:** Das ist eine Vorprüfung, keine rechtliche Freigabe. Geprüft wurden (1) ob Domains per DNS bereits vergeben sind und (2) für die Favoriten eine Websuche nach gleichnamigen Apps und Firmen. **Nicht geprüft** sind die Markenregister (EUIPO, DPMA, WIPO, USPTO), die App-Stores selbst und Social-Media-Namen. Vor einer Entscheidung braucht es eine Markenrecherche durch eine Kanzlei. Es wurde nichts gekauft oder registriert.
 

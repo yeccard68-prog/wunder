@@ -333,6 +333,38 @@ test("an animation stops once to ask what happens next, then shows it", async ({
   await expect(player).toHaveAttribute("data-step", "1");
 });
 
+test("jumping straight to the step that answers the prediction still asks first – without showing the answer", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explain/?a=a-windrad");
+  const player = page.getByTestId("animation-player");
+  await page.getByRole("button", { name: "Schritt 4", exact: true }).click();
+  await expect(player).toHaveAttribute("data-asking", "true");
+  await expect(player).toHaveAttribute("data-step", "2"); // the step before, not the one with the answer
+  await page.waitForTimeout(600); // a frame already on its way must not move on either
+  await expect(player).toHaveAttribute("data-step", "2");
+  await expect(page.getByText("doppelter Wind: 8-fache Leistung")).toHaveCount(0);
+});
+
+test("riddles: hints come one at a time and never before they are asked for", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explore/");
+  await page.getByRole("link", { name: /Rätsel/ }).click();
+  await expect(page.getByRole("heading", { name: "Rätsel" })).toBeVisible();
+  // pin the card by its question – once answered it no longer has hints, so "first card with hints" would move on
+  const question = await page.locator("article", { has: page.getByTestId("hints") }).first().locator("h2").textContent();
+  const card = page.locator("article", { has: page.getByRole("heading", { name: question!, exact: true }) });
+  const hints = card.getByTestId("hints");
+  await expect(hints.locator("p")).toHaveCount(0);
+  await hints.getByRole("button", { name: /Tipp/ }).click();
+  await expect(hints.locator("p")).toHaveCount(1);
+  await expect(hints.getByRole("button", { name: /Noch ein Tipp/ })).toContainText("2/");
+  await hints.getByRole("button", { name: /Noch ein Tipp/ }).click();
+  await expect(hints.locator("p")).toHaveCount(2);
+  // answering ends the hints
+  await card.locator("button[class*=\"min-h-[3.25rem]\"]").first().click(); // an answer option
+  await expect(card.getByTestId("hints")).toHaveCount(0);
+});
+
 test("the app is open from 16: a younger person cannot continue, and nothing is stored about them", async ({ page }) => {
   // a new visitor (German, so the texts below match whatever language the test browser reports)
   await page.addInitScript((s) => localStorage.getItem("wunder.demo.state.v3") || localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { settings: seed.state.settings } });

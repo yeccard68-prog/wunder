@@ -2622,5 +2622,300 @@
         ]
       }
     }
+  },
+  {
+    "id": "v-windrad",
+    "category_id": "technology",
+    "title": "Ein Windrad bei der Arbeit",
+    "hook": "Die Rotorblätter sind geformt wie Flugzeugflügel – und doppelter Wind bringt achtmal so viel Leistung.",
+    "description": "Das Brooklyn-Windrad in Wellington, Neuseeland. Der Wind strömt so um die Blätter, dass eine Kraft entsteht, die den Rotor dreht; ein Generator in der Gondel macht daraus Strom. Die Leistung im Wind wächst mit der dritten Potenz seiner Geschwindigkeit – deshalb stehen Windräder hoch und an windigen Orten. Wie es innen aussieht, zeigt die Animation „Wie ein Windrad Strom erzeugt“.",
+    "video_url": "/clips/v-windrad.mp4",
+    "thumbnail_url": "/clips/v-windrad.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Ein Windrad in Wellington, Neuseeland.",
+      "Der Wind erzeugt an den Blättern eine Kraft, die den Rotor dreht.",
+      "Doppelt so viel Wind bringt achtmal so viel Leistung."
+    ],
+    "creator_name": "Tom Ackroyd",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Wind_Turbine.webm"
+      }
+    ],
+    "published_at": "2026-10-15T12:00:00Z",
+    "tags": [
+      "Energie",
+      "Windkraft"
+    ],
+    "quiz_question_id": "q-v-windrad",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "windrad",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Brooklyn_Wind_Turbine.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 2,
+      "end": 12,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC0 (gemeinfrei)",
+    "translations": {
+      "en": {
+        "title": "A wind turbine at work",
+        "hook": "The rotor blades are shaped like aircraft wings – and twice the wind brings eight times the power.",
+        "description": "The Brooklyn wind turbine in Wellington, New Zealand. The wind flows around the blades in a way that creates a force turning the rotor; a generator in the nacelle turns this into electricity. The power in the wind grows with the cube of its speed – which is why wind turbines stand tall and in windy places. The animation \"How a wind turbine makes electricity\" shows what it looks like inside.",
+        "captions": [
+          "A wind turbine in Wellington, New Zealand.",
+          "The wind creates a force on the blades that turns the rotor.",
+          "Twice the wind brings eight times the power."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-galton",
+    "category_id": "math",
+    "title": "Zufall mit festem Muster",
+    "hook": "Jede Kugel springt zufällig – und trotzdem entsteht jedes Mal dieselbe Glockenform.",
+    "description": "Ein Galtonbrett in der Matemateca der Universität São Paulo. An jedem Nagel springt eine Kugel nach links oder rechts. Ganz außen landet nur, wer jedes Mal in dieselbe Richtung springt – das ist selten. Für die Mitte gibt es dagegen sehr viele Wege. So entsteht die Glockenkurve der Normalverteilung, benannt nach Carl Friedrich Gauß.",
+    "video_url": "/clips/v-galton.mp4",
+    "thumbnail_url": "/clips/v-galton.jpg",
+    "duration_seconds": 10.2,
+    "has_audio": false,
+    "captions": [
+      "Kugeln fallen durch Reihen von Nägeln.",
+      "An jedem Nagel springen sie zufällig nach links oder rechts.",
+      "In die Mitte führen die meisten Wege – es entsteht eine Glockenform."
+    ],
+    "creator_name": "Rodrigo Argenton (Video), Estes Objethos Atelier (Exponat)",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Galton_box.webm"
+      }
+    ],
+    "published_at": "2026-10-14T12:00:00Z",
+    "tags": [
+      "Wahrscheinlichkeit",
+      "Statistik"
+    ],
+    "quiz_question_id": "q-v-galton",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "galton",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Galton_box.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 4.3,
+      "end": 14.5,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 4.0, Rodrigo Argenton (Video), Estes Objethos Atelier (Exponat) – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Chance with a fixed pattern",
+        "hook": "Every ball bounces at random – and still the same bell shape appears every time.",
+        "description": "A Galton board in the Matemateca of the University of São Paulo. At every pin a ball bounces left or right. Only a ball that bounces the same way every time ends up at the far edge – that is rare. There are, however, very many paths to the middle. This creates the bell curve of the normal distribution, named after Carl Friedrich Gauss.",
+        "captions": [
+          "Balls fall through rows of pins.",
+          "At every pin they bounce left or right at random.",
+          "Most paths lead to the middle – a bell shape appears."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-muybridge",
+    "category_id": "sport",
+    "title": "Schwebt ein galoppierendes Pferd?",
+    "hook": "Mit dem bloßen Auge war es nicht zu erkennen – erst Serienfotos gaben die Antwort.",
+    "description": "Der Unternehmer Leland Stanford wollte wissen, ob ein galoppierendes Pferd zeitweise alle vier Hufe in der Luft hat. Der Fotograf Eadweard Muybridge zeigte es 1878 mit einer Reihe von Kameras, die nacheinander auslösten. Diese Bildfolge stammt aus seinem Werk „Animal Locomotion“ (1887). Der Schwebemoment kommt, wenn die Beine unter dem Körper zusammengezogen sind – nicht gestreckt, wie Maler es lange gezeigt hatten.",
+    "video_url": "/clips/v-muybridge.mp4",
+    "thumbnail_url": "/clips/v-muybridge.jpg",
+    "duration_seconds": 9,
+    "has_audio": false,
+    "captions": [
+      "Hat ein galoppierendes Pferd je alle vier Hufe in der Luft?",
+      "Eadweard Muybridge fotografierte es in schneller Bildfolge.",
+      "Die Antwort: Ja – mit den Beinen unter dem Körper."
+    ],
+    "creator_name": "Eadweard Muybridge",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Muybridge_race_horse.webm"
+      }
+    ],
+    "published_at": "2026-10-13T12:00:00Z",
+    "tags": [
+      "Pferdesport",
+      "Fotografie",
+      "Geschichte"
+    ],
+    "quiz_question_id": "q-v-muybridge",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "muybridge",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Muybridge_race_horse.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 0.5,
+      "end": 9.5,
+      "mode": "wide",
+      "x": 0.5
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Gemeinfrei",
+    "translations": {
+      "en": {
+        "title": "Does a galloping horse float?",
+        "hook": "The naked eye couldn't tell – only series photographs gave the answer.",
+        "description": "The businessman Leland Stanford wanted to know whether a galloping horse ever has all four hooves in the air. In 1878 the photographer Eadweard Muybridge showed it with a row of cameras that fired one after another. This sequence comes from his work \"Animal Locomotion\" (1887). The floating moment comes when the legs are gathered under the body – not stretched out, as painters had long shown it.",
+        "captions": [
+          "Does a galloping horse ever have all four hooves in the air?",
+          "Eadweard Muybridge photographed it in rapid sequence.",
+          "The answer: yes – with the legs under the body."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-delfinkick",
+    "category_id": "sport",
+    "title": "Schneller unter Wasser",
+    "hook": "Nach Start und Wende tauchen Schwimmer – denn unter der Oberfläche bremsen keine Wellen.",
+    "description": "Ein Schwimmer stößt sich ab und gleitet mit dem Delfinbeinschlag: Beide Beine schlagen gleichzeitig, der Körper bewegt sich wie eine Welle. Unter Wasser entsteht viel weniger Wellenwiderstand als an der Oberfläche. Damit Rennen keine Tauchwettbewerbe werden, dürfen Kraul-, Rücken- und Schmetterlingsschwimmer nach Start und Wende höchstens 15 Meter unter Wasser bleiben.",
+    "video_url": "/clips/v-delfinkick.mp4",
+    "thumbnail_url": "/clips/v-delfinkick.jpg",
+    "duration_seconds": 6.9,
+    "has_audio": false,
+    "captions": [
+      "Unter Wasser bremsen keine Wellen.",
+      "Delfinbeinschlag: beide Beine schlagen gleichzeitig.",
+      "Im Wettkampf sind höchstens 15 Meter unter Wasser erlaubt."
+    ],
+    "creator_name": "It is a wonderful world",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Dolphin_Underwater.webm"
+      }
+    ],
+    "published_at": "2026-10-12T12:00:00Z",
+    "tags": [
+      "Schwimmen"
+    ],
+    "quiz_question_id": "q-v-delfinkick",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "delfin",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Dolphin_Underwater.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 1.2,
+      "end": 8.1,
+      "mode": "wide",
+      "x": 0.5
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 4.0, It is a wonderful world – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Faster under water",
+        "hook": "After the start and every turn, swimmers dive – because below the surface there are no waves to slow them down.",
+        "description": "A swimmer pushes off and glides with the dolphin kick: both legs beat together and the body moves like a wave. Under water there is far less wave drag than at the surface. So that races don't turn into diving contests, freestyle, backstroke and butterfly swimmers may stay under water for at most 15 metres after the start and each turn.",
+        "captions": [
+          "Under water there are no waves to slow you down.",
+          "Dolphin kick: both legs beat together.",
+          "In races at most 15 metres under water are allowed."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-fingeralphabet",
+    "category_id": "language",
+    "title": "Buchstabieren mit einer Hand",
+    "hook": "Gebärdensprachen haben eigene Wörter und eine eigene Grammatik – für Namen gibt es zusätzlich ein Fingeralphabet.",
+    "description": "Ein Mann zeigt Buchstaben des Fingeralphabets der Amerikanischen Gebärdensprache (ASL). Jeder Buchstabe hat eine eigene Handform. Gebärdensprachen sind eigenständige Sprachen und von Land zu Land verschieden: Das britische Fingeralphabet etwa nutzt beide Hände.",
+    "video_url": "/clips/v-fingeralphabet.mp4",
+    "thumbnail_url": "/clips/v-fingeralphabet.jpg",
+    "duration_seconds": 12,
+    "has_audio": false,
+    "captions": [
+      "Das Fingeralphabet der Amerikanischen Gebärdensprache.",
+      "Jeder Buchstabe hat eine eigene Handform – mit nur einer Hand.",
+      "Man braucht es vor allem für Namen und Fachwörter."
+    ],
+    "creator_name": "Fuzheado",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:American_Sign_Language_demo_-_Travis_Dougherty.ogv"
+      }
+    ],
+    "published_at": "2026-10-11T12:00:00Z",
+    "tags": [
+      "Gebärdensprache",
+      "Sprachen der Welt"
+    ],
+    "quiz_question_id": "q-v-fingeralphabet",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "gebaerden",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/American_Sign_Language_demo_-_Travis_Dougherty.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 20,
+      "end": 32,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 3.0, Fuzheado – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Spelling with one hand",
+        "hook": "Sign languages have their own words and grammar – and a finger alphabet for names on top.",
+        "description": "A man shows letters of the finger alphabet of American Sign Language (ASL). Each letter has its own handshape. Sign languages are languages in their own right and differ from country to country: the British finger alphabet, for example, uses both hands.",
+        "captions": [
+          "The finger alphabet of American Sign Language.",
+          "Each letter has its own handshape – made with just one hand.",
+          "It is used mainly for names and technical terms."
+        ]
+      }
+    }
   }
 ]

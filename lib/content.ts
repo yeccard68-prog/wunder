@@ -56,7 +56,8 @@ export interface QuestionRow {
   created_at: string;
   min_age?: number;
   max_age?: number | null;
-  translations?: Record<string, { question: string; options: string[]; explanation?: string }>;
+  translations?: Record<string, { question: string; options: string[]; explanation?: string; hints?: string[] }>;
+  hints?: string[] | null;
   like_count?: number;
   correct_index?: number;
   answer?: AnswerKey | null;
@@ -111,6 +112,7 @@ export function toItem(r: QuestionRow): Item {
     verification: r.verification_status as Item["verification"],
     minAge: r.min_age ?? 10,
     maxAge: r.max_age ?? null,
+    hints: r.hints ?? undefined,
     translations: r.translations,
   };
 }
@@ -166,7 +168,7 @@ export function demoContent(): Content {
 /** Shows an item in the requested language; untranslated items stay in the original language. */
 export function localizeItem(item: Item, locale: string): Item {
   const t = item.translations?.[locale];
-  return t ? { ...item, question: t.question, options: t.options, explanation: t.explanation ?? item.explanation } : item;
+  return t ? { ...item, question: t.question, options: t.options, explanation: t.explanation ?? item.explanation, hints: t.hints ?? item.hints } : item;
 }
 export function localizeClip(clip: Clip, locale: string): Clip {
   const t = clip.translations?.[locale];

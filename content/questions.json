@@ -24132,5 +24132,3843 @@
         "explanation": "The Sun's heat makes water evaporate. The water vapour rises, cools, forms clouds and falls back as rain or snow – gravity then takes the water back to the sea."
       }
     }
+  },
+  {
+    "id": "rt1",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Schläger und ein Ball kosten zusammen 1,10 Euro. Der Schläger kostet 1 Euro mehr als der Ball. Was kostet der Ball?",
+    "options": [
+      "10 Cent",
+      "5 Cent",
+      "1 Cent",
+      "15 Cent"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Ball kostet 0,05 €, der Schläger 1,05 €: zusammen 1,10 €, Unterschied genau 1 €. Die schnelle Antwort 10 Cent ergäbe nur 90 Cent Unterschied. Die Aufgabe stammt aus dem „Cognitive Reflection Test“ des Psychologen Shane Frederick, der misst, ob man eine naheliegende Antwort noch einmal prüft.",
+    "hints": [
+      "Die Antwort, die sofort im Kopf auftaucht, ist falsch. Prüfe sie: Wäre der Schläger dann wirklich 1 Euro teurer?",
+      "Nenne den Ballpreis x. Dann kostet der Schläger x + 1 Euro.",
+      "Zusammen gilt: x + (x + 1) = 1,10."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Logik",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia (en): Cognitive reflection test",
+    "source_url": "https://en.wikipedia.org/wiki/Cognitive_reflection_test",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A bat and a ball cost 1.10 euros in total. The bat costs 1 euro more than the ball. How much does the ball cost?",
+        "options": [
+          "10 cents",
+          "5 cents",
+          "1 cent",
+          "15 cents"
+        ],
+        "explanation": "The ball costs 0.05 €, the bat 1.05 €: 1.10 € together, exactly 1 € apart. The quick answer of 10 cents would leave a difference of only 90 cents. The puzzle comes from psychologist Shane Frederick's Cognitive Reflection Test, which measures whether people check an obvious answer again.",
+        "hints": [
+          "The answer that pops into your head is wrong. Check it: would the bat really cost 1 euro more?",
+          "Call the ball's price x. Then the bat costs x + 1 euro.",
+          "Together: x + (x + 1) = 1.10."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt2",
+    "kind": "question",
+    "category_id": "math",
+    "question": "5 Maschinen stellen in 5 Minuten 5 Teile her. Wie lange brauchen 100 Maschinen für 100 Teile?",
+    "options": [
+      "100 Minuten",
+      "5 Minuten",
+      "20 Minuten",
+      "1 Minute"
+    ],
+    "correct_index": 1,
+    "explanation": "Jede Maschine braucht 5 Minuten für ein Teil. 100 Maschinen bauen gleichzeitig 100 Teile – in denselben 5 Minuten. Auch diese Aufgabe gehört zum „Cognitive Reflection Test“: Das Muster „5, 5, 5 → 100, 100, 100“ verleitet zur falschen Antwort.",
+    "hints": [
+      "Wie lange braucht eine einzelne Maschine für ein einzelnes Teil?",
+      "Mehr Maschinen arbeiten nebeneinander – jede einzelne wird dadurch nicht schneller."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia (en): Cognitive reflection test",
+    "source_url": "https://en.wikipedia.org/wiki/Cognitive_reflection_test",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "5 machines make 5 parts in 5 minutes. How long do 100 machines need for 100 parts?",
+        "options": [
+          "100 minutes",
+          "5 minutes",
+          "20 minutes",
+          "1 minute"
+        ],
+        "explanation": "Each machine needs 5 minutes for one part. 100 machines make 100 parts at the same time – in the same 5 minutes. This puzzle is also part of the Cognitive Reflection Test: the pattern \"5, 5, 5 → 100, 100, 100\" tempts people into the wrong answer.",
+        "hints": [
+          "How long does a single machine need for a single part?",
+          "More machines work side by side – none of them gets any faster."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt3",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Bauer will einen Wolf, eine Ziege und einen Kohlkopf über einen Fluss bringen. Ins Boot passt neben ihm nur eines davon. Allein gelassen frisst der Wolf die Ziege und die Ziege den Kohl. Was muss er zuerst hinüberbringen?",
+    "options": [
+      "Den Wolf",
+      "Die Ziege",
+      "Den Kohl",
+      "Egal – er muss nur oft genug fahren"
+    ],
+    "correct_index": 1,
+    "explanation": "Ziege hinüber, leer zurück. Wolf hinüber, Ziege wieder mit zurück. Kohl hinüber, leer zurück. Zum Schluss die Ziege – sieben Fahrten. Wer zuerst Wolf oder Kohl mitnimmt, lässt ein gefährliches Paar allein. Das Rätsel ist über 1200 Jahre alt: Es steht in einer mittelalterlichen Aufgabensammlung, die Alkuin von York zugeschrieben wird.",
+    "hints": [
+      "Welche Paare dürfen nicht allein bleiben – und welches Paar ist harmlos?",
+      "Wolf und Kohl vertragen sich.",
+      "Auf dem Rückweg darf er auch etwas wieder mitnehmen."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Logik",
+      "Geschichte der Mathematik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flussüberquerungsrätsel",
+    "source_url": "https://de.wikipedia.org/wiki/Flussüberquerungsrätsel",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A farmer wants to take a wolf, a goat and a cabbage across a river. Besides him, the boat holds only one of them. Left alone, the wolf eats the goat and the goat eats the cabbage. What must he take across first?",
+        "options": [
+          "The wolf",
+          "The goat",
+          "The cabbage",
+          "Doesn't matter – he just has to go often enough"
+        ],
+        "explanation": "Goat across, back empty. Wolf across, goat back again. Cabbage across, back empty. Finally the goat – seven crossings. Taking the wolf or the cabbage first leaves a dangerous pair alone. The riddle is over 1,200 years old: it appears in a medieval collection of problems attributed to Alcuin of York.",
+        "hints": [
+          "Which pairs must not be left alone – and which pair is harmless?",
+          "The wolf and the cabbage get along fine.",
+          "On the way back he may also take something with him again."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt4",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Auf einer Insel sagen Ritter immer die Wahrheit und Schurken lügen immer. Du triffst A und B. A sagt: „Wir sind beide Schurken.“ Was sind die beiden?",
+    "options": [
+      "Beide Ritter",
+      "Beide Schurken",
+      "A ist Schurke, B ist Ritter",
+      "A ist Ritter, B ist Schurke"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Ritter würde nie behaupten, ein Schurke zu sein – also lügt A und ist ein Schurke. Dann ist der Satz falsch: Es sind nicht beide Schurken, also ist B ein Ritter. Rätsel dieser Art machte der Logiker Raymond Smullyan bekannt.",
+    "hints": [
+      "Könnte ein Ritter diesen Satz überhaupt sagen?",
+      "Wenn A lügt, ist „wir sind beide Schurken“ falsch. Was bedeutet das für B?"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Raymond Smullyan",
+    "source_url": "https://de.wikipedia.org/wiki/Raymond_Smullyan",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On an island, knights always tell the truth and knaves always lie. You meet A and B. A says: \"We are both knaves.\" What are the two?",
+        "options": [
+          "Both knights",
+          "Both knaves",
+          "A is a knave, B is a knight",
+          "A is a knight, B is a knave"
+        ],
+        "explanation": "A knight would never claim to be a knave – so A is lying and is a knave. Then the sentence is false: they are not both knaves, so B is a knight. The logician Raymond Smullyan made puzzles of this kind famous.",
+        "hints": [
+          "Could a knight say this sentence at all?",
+          "If A is lying, \"we are both knaves\" is false. What does that mean for B?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt5",
+    "kind": "question",
+    "category_id": "math",
+    "question": "In einer dunklen Schublade liegen 10 schwarze und 10 weiße Socken durcheinander. Wie viele musst du blind herausnehmen, um sicher zwei gleichfarbige zu haben?",
+    "options": [
+      "2",
+      "3",
+      "11",
+      "20"
+    ],
+    "correct_index": 1,
+    "explanation": "Mit zwei Socken kannst du Pech haben: eine schwarz, eine weiß. Die dritte hat aber zwangsläufig eine dieser beiden Farben. Das ist das Schubfachprinzip: Verteilt man mehr Dinge auf Fächer, als es Fächer gibt, landen in mindestens einem Fach zwei.",
+    "hints": [
+      "Denk an den größten Pech-Fall: Wie viele Socken kannst du ziehen, ohne ein Paar zu haben?",
+      "Es gibt nur zwei Farben."
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schubfachprinzip",
+    "source_url": "https://de.wikipedia.org/wiki/Schubfachprinzip",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A dark drawer holds 10 black and 10 white socks, all mixed up. How many must you take out blindly to be sure of two of the same colour?",
+        "options": [
+          "2",
+          "3",
+          "11",
+          "20"
+        ],
+        "explanation": "With two socks you may be unlucky: one black, one white. But the third one must have one of those two colours. This is the pigeonhole principle: put more things into boxes than there are boxes, and at least one box gets two.",
+        "hints": [
+          "Think of the unluckiest case: how many socks can you draw without getting a pair?",
+          "There are only two colours."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt6",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Eine Mutter ist heute dreimal so alt wie ihr Sohn. In 12 Jahren wird sie nur noch doppelt so alt sein wie er. Wie alt ist der Sohn heute?",
+    "options": [
+      "6",
+      "10",
+      "12",
+      "18"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Sohn ist 12, die Mutter 36. In 12 Jahren sind sie 24 und 48 – genau doppelt so alt. Rechnerisch: 3s + 12 = 2s + 24, also s = 12.",
+    "hints": [
+      "Nenne das Alter des Sohnes s. Wie alt ist die Mutter dann?",
+      "In 12 Jahren sind beide 12 Jahre älter: 3s + 12 = 2 · (s + 12)."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lineare Gleichung",
+    "source_url": "https://de.wikipedia.org/wiki/Lineare_Gleichung",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A mother is three times as old as her son today. In 12 years she will be only twice as old as him. How old is the son today?",
+        "options": [
+          "6",
+          "10",
+          "12",
+          "18"
+        ],
+        "explanation": "The son is 12, the mother 36. In 12 years they will be 24 and 48 – exactly twice as old. As an equation: 3s + 12 = 2s + 24, so s = 12.",
+        "hints": [
+          "Call the son's age s. How old is the mother then?",
+          "In 12 years both are 12 years older: 3s + 12 = 2 · (s + 12)."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt7",
+    "kind": "question",
+    "category_id": "math",
+    "question": "In einer Spielshow gibt es drei Türen, hinter einer steht ein Auto, hinter den anderen je eine Ziege. Du wählst Tür 1. Der Moderator weiß, wo das Auto ist, öffnet immer eine andere Tür mit einer Ziege – hier Tür 3 – und bietet dir immer an zu wechseln. Was ist klüger?",
+    "options": [
+      "Bei Tür 1 bleiben",
+      "Zu Tür 2 wechseln",
+      "Es ist egal – beide haben 50 Prozent",
+      "Es hängt davon ab, welche Tür er öffnet"
+    ],
+    "correct_index": 1,
+    "explanation": "Wechseln gewinnt in 2 von 3 Fällen, Bleiben nur in 1 von 3. Deine erste Wahl trifft in einem Drittel der Fälle. In den anderen zwei Dritteln steht das Auto hinter einer der beiden übrigen Türen – und der Moderator zeigt dir, hinter welcher es nicht steht. Das „Ziegenproblem“ löste 1990 eine heftige Debatte aus, weil selbst viele Fachleute die Lösung zuerst nicht glaubten.",
+    "hints": [
+      "Wie wahrscheinlich war es, dass deine erste Wahl stimmt – und ändert das Öffnen daran etwas?",
+      "Der Moderator öffnet nie die Tür mit dem Auto. Damit verrät er etwas über die beiden Türen, die du nicht gewählt hast.",
+      "Stell dir 100 Türen vor: Du wählst eine, er öffnet 98 Türen mit Ziegen."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Wahrscheinlichkeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ziegenproblem",
+    "source_url": "https://de.wikipedia.org/wiki/Ziegenproblem",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A game show has three doors: behind one is a car, behind each of the others a goat. You pick door 1. The host knows where the car is, always opens another door with a goat – here door 3 – and always offers you a switch. What is smarter?",
+        "options": [
+          "Stay with door 1",
+          "Switch to door 2",
+          "Doesn't matter – both are 50 percent",
+          "It depends on which door he opens"
+        ],
+        "explanation": "Switching wins in 2 out of 3 cases, staying only in 1 out of 3. Your first pick is right a third of the time. In the other two thirds the car is behind one of the two remaining doors – and the host shows you which one it is not behind. The Monty Hall problem caused a fierce debate in 1990, because even many experts did not believe the solution at first.",
+        "hints": [
+          "How likely was it that your first pick was right – and does opening a door change that?",
+          "The host never opens the door with the car. So he reveals something about the two doors you didn't pick.",
+          "Imagine 100 doors: you pick one, he opens 98 doors with goats."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt8",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Zehn Leute treffen sich, und jeder gibt jedem anderen genau einmal die Hand. Wie viele Handschläge sind das?",
+    "options": [
+      "90",
+      "45",
+      "100",
+      "50"
+    ],
+    "correct_index": 1,
+    "explanation": "10 · 9 / 2 = 45. Das ist der Binomialkoeffizient „10 über 2“: die Zahl der Möglichkeiten, aus 10 Personen 2 auszuwählen.",
+    "hints": [
+      "Jede Person schüttelt 9 anderen die Hand.",
+      "Rechnest du 10 · 9, zählst du jeden Handschlag doppelt – einmal von jeder Seite."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Kombinatorik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Binomialkoeffizient",
+    "source_url": "https://de.wikipedia.org/wiki/Binomialkoeffizient",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Ten people meet, and everyone shakes hands with everyone else exactly once. How many handshakes is that?",
+        "options": [
+          "90",
+          "45",
+          "100",
+          "50"
+        ],
+        "explanation": "10 · 9 / 2 = 45. This is the binomial coefficient \"10 choose 2\": the number of ways to pick 2 people out of 10.",
+        "hints": [
+          "Each person shakes hands with 9 others.",
+          "If you calculate 10 · 9, you count every handshake twice – once from each side."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt9",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welche Zahl setzt die Reihe fort: 1, 4, 9, 16, 25, …?",
+    "options": [
+      "30",
+      "36",
+      "35",
+      "49"
+    ],
+    "correct_index": 1,
+    "explanation": "Es sind die Quadratzahlen; als Nächstes kommt 6 · 6 = 36. Auch die Abstände verraten es: Sie wachsen jeweils um 2 (3, 5, 7, 9, 11).",
+    "hints": [
+      "Schau dir die Abstände an: 3, 5, 7, 9 …",
+      "Oder so: 1 = 1 · 1, 4 = 2 · 2, 9 = 3 · 3 …"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quadratzahl",
+    "source_url": "https://de.wikipedia.org/wiki/Quadratzahl",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which number continues the sequence: 1, 4, 9, 16, 25, …?",
+        "options": [
+          "30",
+          "36",
+          "35",
+          "49"
+        ],
+        "explanation": "These are the square numbers; next comes 6 · 6 = 36. The gaps give it away too: they grow by 2 each time (3, 5, 7, 9, 11).",
+        "hints": [
+          "Look at the gaps: 3, 5, 7, 9 …",
+          "Or like this: 1 = 1 · 1, 4 = 2 · 2, 9 = 3 · 3 …"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt10",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie geht diese Reihe weiter: 1, 11, 21, 1211, 111221, …?",
+    "options": [
+      "312211",
+      "1112221",
+      "122111",
+      "11131221"
+    ],
+    "correct_index": 0,
+    "explanation": "Jede Zahl beschreibt die vorige: 111221 besteht aus „drei Einsen, zwei Zweien, einer Eins“ – also 312211. Der Mathematiker John Conway hat diese „Look-and-say“-Folge genau untersucht.",
+    "hints": [
+      "Mit Rechnen kommst du hier nicht weiter. Lies jede Zahl laut vor – Ziffer für Ziffer.",
+      "11 heißt: „eine Eins“. 21 heißt: „zwei Einsen“."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Conway-Folge",
+    "source_url": "https://de.wikipedia.org/wiki/Conway-Folge",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does this sequence continue: 1, 11, 21, 1211, 111221, …?",
+        "options": [
+          "312211",
+          "1112221",
+          "122111",
+          "11131221"
+        ],
+        "explanation": "Each number describes the previous one: 111221 consists of \"three ones, two twos, one one\" – so 312211. The mathematician John Conway studied this look-and-say sequence in detail.",
+        "hints": [
+          "Arithmetic won't help here. Read each number out loud – digit by digit.",
+          "11 means \"one one\". 21 means \"two ones\"."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt11",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Eine Schnecke sitzt am Grund eines 10 Meter tiefen Brunnens. Tagsüber kriecht sie 3 Meter hoch, nachts rutscht sie 2 Meter zurück. An welchem Tag erreicht sie den Rand?",
+    "options": [
+      "Am 10. Tag",
+      "Am 8. Tag",
+      "Am 7. Tag",
+      "Am 9. Tag"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach 7 Tagen und Nächten ist sie bei 7 Metern. Am 8. Tag kriecht sie die letzten 3 Meter und ist oben – die Nacht danach zählt nicht mehr. Wer einfach 10 Meter durch 1 Meter pro Tag teilt, übersieht genau diesen letzten Tag.",
+    "hints": [
+      "Pro Tag und Nacht kommt sie 1 Meter voran – aber Vorsicht beim letzten Tag.",
+      "Sobald sie tagsüber oben ankommt, rutscht sie nicht mehr zurück.",
+      "In welcher Höhe muss sie morgens starten, damit 3 Meter reichen?"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arithmetische Folge",
+    "source_url": "https://de.wikipedia.org/wiki/Arithmetische_Folge",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A snail sits at the bottom of a 10-metre-deep well. By day it climbs 3 metres, by night it slides back 2 metres. On which day does it reach the top?",
+        "options": [
+          "On day 10",
+          "On day 8",
+          "On day 7",
+          "On day 9"
+        ],
+        "explanation": "After 7 days and nights it is at 7 metres. On day 8 it climbs the last 3 metres and is out – the following night no longer counts. Simply dividing 10 metres by 1 metre per day misses exactly this last day.",
+        "hints": [
+          "Each day and night it gains 1 metre – but watch out on the last day.",
+          "Once it reaches the top during the day, it no longer slides back.",
+          "At what height must it start in the morning for 3 metres to be enough?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt12",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie groß ist der kleinere Winkel zwischen den beiden Zeigern einer Uhr um 3:15 Uhr?",
+    "options": [
+      "0°",
+      "7,5°",
+      "15°",
+      "2,5°"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Stundenzeiger legt 30° pro Stunde zurück, in 15 Minuten also ein Viertel davon: 7,5°. Der Minutenzeiger steht auf der 3 – die Lücke zwischen beiden beträgt 7,5°.",
+    "hints": [
+      "Der Minutenzeiger steht genau auf der 3.",
+      "Der Stundenzeiger bleibt nicht auf der 3 stehen – er wandert in einer Stunde 30 Grad weiter.",
+      "Eine Viertelstunde ist ein Viertel davon."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zifferblatt",
+    "source_url": "https://de.wikipedia.org/wiki/Zifferblatt",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the smaller angle between the two hands of a clock at 3:15?",
+        "options": [
+          "0°",
+          "7.5°",
+          "15°",
+          "2.5°"
+        ],
+        "explanation": "The hour hand moves 30° per hour, so a quarter of that in 15 minutes: 7.5°. The minute hand points at the 3 – the gap between them is 7.5°.",
+        "hints": [
+          "The minute hand points exactly at the 3.",
+          "The hour hand does not stay on the 3 – it moves on by 30 degrees in an hour.",
+          "A quarter of an hour is a quarter of that."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt13",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Unter 9 gleich aussehenden Münzen ist eine etwas leichter. Wie oft musst du eine Balkenwaage mindestens benutzen, um sie sicher zu finden?",
+    "options": [
+      "1-mal",
+      "2-mal",
+      "3-mal",
+      "4-mal"
+    ],
+    "correct_index": 1,
+    "explanation": "Lege je drei Münzen in jede Schale. Bei Gleichstand ist die leichte unter den übrigen drei, sonst in der leichteren Schale. Von diesen drei legst du je eine auf jede Seite – die Waage zeigt die leichte, oder es ist die dritte. Weil jedes Wiegen drei Ausgänge hat, reichen zwei Wägungen für 3 · 3 = 9 Münzen.",
+    "hints": [
+      "Eine Balkenwaage zeigt drei mögliche Ergebnisse: links schwerer, rechts schwerer oder Gleichstand.",
+      "Teile die Münzen in drei gleich große Gruppen."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia (en): Balance puzzle",
+    "source_url": "https://en.wikipedia.org/wiki/Balance_puzzle",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Among 9 identical-looking coins, one is slightly lighter. What is the smallest number of weighings on a balance scale that is sure to find it?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "explanation": "Put three coins in each pan. If they balance, the light coin is among the other three, otherwise in the lighter pan. Of those three, put one on each side – the scale shows the light one, or it is the third. Because every weighing has three outcomes, two weighings are enough for 3 · 3 = 9 coins.",
+        "hints": [
+          "A balance scale shows three possible results: left heavier, right heavier, or balanced.",
+          "Split the coins into three groups of equal size."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt14",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Ein Eiswürfel schwimmt in einem randvoll gefüllten Glas Wasser. Was passiert, wenn er schmilzt?",
+    "options": [
+      "Das Glas läuft über",
+      "Der Wasserstand bleibt gleich",
+      "Der Wasserstand sinkt",
+      "Das hängt von der Raumtemperatur ab"
+    ],
+    "correct_index": 1,
+    "explanation": "Schwimmendes Eis verdrängt genau sein eigenes Gewicht an Wasser. Geschmolzen wird es zu genau dieser Wassermenge und füllt die Mulde, die es vorher verdrängt hat. Deshalb hebt schmelzendes Meereis den Meeresspiegel kaum – schmelzendes Eis an Land dagegen schon.",
+    "hints": [
+      "Ein schwimmender Körper verdrängt genau so viel Wasser, wie er selbst wiegt.",
+      "Wie viel wiegt der Eiswürfel – und wie viel das Wasser, zu dem er schmilzt?"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Archimedisches Prinzip",
+    "source_url": "https://de.wikipedia.org/wiki/Archimedisches_Prinzip",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An ice cube floats in a glass filled to the brim with water. What happens when it melts?",
+        "options": [
+          "The glass overflows",
+          "The water level stays the same",
+          "The water level drops",
+          "It depends on the room temperature"
+        ],
+        "explanation": "Floating ice displaces exactly its own weight in water. When it melts it becomes exactly that amount of water and fills the hollow it displaced before. That is why melting sea ice barely raises the sea level – unlike melting ice on land.",
+        "hints": [
+          "A floating object displaces exactly as much water as it weighs.",
+          "How much does the ice cube weigh – and how much does the water it melts into weigh?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt15",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Du sitzt in einem Boot auf einem kleinen Teich und wirfst einen schweren Stein über Bord. Er sinkt auf den Grund. Was passiert mit dem Wasserspiegel des Teichs?",
+    "options": [
+      "Er steigt",
+      "Er sinkt",
+      "Er bleibt gleich",
+      "Er steigt kurz und bleibt dann gleich"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Boot muss das Wasser das Gewicht des Steins tragen: Das Boot verdrängt dafür so viel Wasser, wie der Stein wiegt – bei Gestein etwa zwei- bis dreimal sein eigenes Volumen. Am Grund verdrängt er nur noch sein Volumen. Also sinkt der Spiegel ein wenig.",
+    "hints": [
+      "Im Boot verdrängt der Stein so viel Wasser, wie er wiegt.",
+      "Auf dem Grund verdrängt er nur so viel Wasser, wie er Platz einnimmt.",
+      "Stein ist viel dichter als Wasser."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Archimedisches Prinzip",
+    "source_url": "https://de.wikipedia.org/wiki/Archimedisches_Prinzip",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "You sit in a boat on a small pond and throw a heavy stone overboard. It sinks to the bottom. What happens to the pond's water level?",
+        "options": [
+          "It rises",
+          "It drops",
+          "It stays the same",
+          "It rises briefly, then stays the same"
+        ],
+        "explanation": "In the boat, the water has to carry the stone's weight: the boat displaces as much water as the stone weighs – for rock about two to three times its own volume. On the bottom it displaces only its own volume. So the level drops a little.",
+        "hints": [
+          "In the boat, the stone displaces as much water as it weighs.",
+          "On the bottom, it displaces only as much water as it takes up space.",
+          "Stone is much denser than water."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt16",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Jemand geht 1 Kilometer nach Süden, dann 1 Kilometer nach Osten, dann 1 Kilometer nach Norden – und steht wieder genau am Ausgangspunkt. Dort sieht er einen Bären. Welche Farbe hat der Bär?",
+    "options": [
+      "Braun",
+      "Weiß",
+      "Schwarz",
+      "Grau"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Startpunkt ist der Nordpol: Von dort führt jeder Weg nach Süden, der Weg nach Osten verläuft auf einem Kreis um den Pol, und der Weg nach Norden führt zurück. In der Arktis leben Eisbären. (Es gibt weitere solche Orte nahe dem Südpol – dort aber keine Bären.)",
+    "hints": [
+      "Auf einer flachen Karte wäre der Weg unmöglich – es muss an der Kugelform der Erde liegen.",
+      "An welchem Ort der Erde führt jede Richtung, in die man losgeht, nach Süden?"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Geographie",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nordpol",
+    "source_url": "https://de.wikipedia.org/wiki/Nordpol",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Someone walks 1 kilometre south, then 1 kilometre east, then 1 kilometre north – and is back exactly where they started. There they see a bear. What colour is the bear?",
+        "options": [
+          "Brown",
+          "White",
+          "Black",
+          "Grey"
+        ],
+        "explanation": "The starting point is the North Pole: from there every path leads south, the path east runs on a circle around the pole, and the path north leads back. Polar bears live in the Arctic. (There are other such places near the South Pole – but no bears there.)",
+        "hints": [
+          "On a flat map this route would be impossible – it must have to do with the Earth being a sphere.",
+          "At which place on Earth does every direction you set off in lead south?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt17",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was gehört dir, wird aber von anderen viel öfter benutzt als von dir?",
+    "options": [
+      "Dein Name",
+      "Dein Handy",
+      "Deine Adresse",
+      "Dein Schatten"
+    ],
+    "correct_index": 0,
+    "explanation": "Dein Name: Du sagst ihn selten, andere sprechen und schreiben ihn ständig. Solche Fragen sind klassische Rätsel – sie leben davon, dass ein Wort („benutzen“) in einem ungewohnten Sinn gemeint ist.",
+    "hints": [
+      "Man kann es nicht anfassen.",
+      "Andere brauchen es, wenn sie dich rufen oder über dich sprechen."
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Wortspiel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rätsel",
+    "source_url": "https://de.wikipedia.org/wiki/Rätsel",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What belongs to you but is used far more often by others than by you?",
+        "options": [
+          "Your name",
+          "Your phone",
+          "Your address",
+          "Your shadow"
+        ],
+        "explanation": "Your name: you rarely say it, others say and write it all the time. Questions like this are classic riddles – they work because a word (\"use\") is meant in an unusual sense.",
+        "hints": [
+          "You can't touch it.",
+          "Others need it when they call you or talk about you."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt18",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Je mehr man davon wegnimmt, desto größer wird es. Was ist es?",
+    "options": [
+      "Ein Loch",
+      "Ein Schatten",
+      "Ein Berg",
+      "Ein Geheimnis"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Loch: Je mehr Erde man weggräbt, desto größer wird es. Das Rätsel spielt mit dem Widerspruch zwischen „wegnehmen“ und „größer werden“ – er löst sich auf, sobald man an etwas denkt, das selbst aus Leere besteht.",
+    "hints": [
+      "Man findet es zum Beispiel im Boden oder in einer Socke.",
+      "Eigentlich besteht es aus … nichts."
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Wortspiel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rätsel",
+    "source_url": "https://de.wikipedia.org/wiki/Rätsel",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The more you take away from it, the bigger it gets. What is it?",
+        "options": [
+          "A hole",
+          "A shadow",
+          "A mountain",
+          "A secret"
+        ],
+        "explanation": "A hole: the more earth you dig away, the bigger it gets. The riddle plays with the contradiction between \"taking away\" and \"getting bigger\" – it dissolves as soon as you think of something that is itself made of emptiness.",
+        "hints": [
+          "You find it in the ground or in a sock, for example.",
+          "Actually it consists of … nothing."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt19",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Ich habe Städte, aber keine Häuser, Wälder, aber keine Bäume, Wasser, aber keine Fische. Was bin ich?",
+    "options": [
+      "Eine Landkarte",
+      "Ein Traum",
+      "Ein Spiegel",
+      "Eine Wolke"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Landkarte zeigt Städte, Wälder und Gewässer als Zeichen und Farben – ohne Häuser, Bäume oder Fische. Der Maßstab gibt an, wie stark verkleinert ist.",
+    "hints": [
+      "Man kann es falten oder auf dem Handy öffnen.",
+      "Es zeigt alles viel kleiner, als es ist."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Wortspiel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karte (Kartografie)",
+    "source_url": "https://de.wikipedia.org/wiki/Karte_(Kartografie)",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "I have cities but no houses, forests but no trees, water but no fish. What am I?",
+        "options": [
+          "A map",
+          "A dream",
+          "A mirror",
+          "A cloud"
+        ],
+        "explanation": "A map shows cities, forests and water as symbols and colours – without houses, trees or fish. The scale tells you how much it is reduced.",
+        "hints": [
+          "You can fold it or open it on your phone.",
+          "It shows everything much smaller than it is."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt20",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele Monate haben 28 Tage?",
+    "options": [
+      "Einer",
+      "Alle zwölf",
+      "Zwei",
+      "Keiner – der Februar hat 28 oder 29"
+    ],
+    "correct_index": 1,
+    "explanation": "Jeder Monat hat mindestens 28 Tage – nur der Februar hat in den meisten Jahren genau 28. Das Rätsel testet, ob man die Frage liest oder nur das erwartete Muster erkennt.",
+    "hints": [
+      "Lies die Frage genau: Da steht nicht „genau 28 Tage“.",
+      "Hat der Januar 28 Tage? Er hat jedenfalls nicht weniger."
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Monat",
+    "source_url": "https://de.wikipedia.org/wiki/Monat",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many months have 28 days?",
+        "options": [
+          "One",
+          "All twelve",
+          "Two",
+          "None – February has 28 or 29"
+        ],
+        "explanation": "Every month has at least 28 days – only February has exactly 28 in most years. The riddle tests whether you read the question or just recognise the expected pattern.",
+        "hints": [
+          "Read the question carefully: it doesn't say \"exactly 28 days\".",
+          "Does January have 28 days? It certainly doesn't have fewer."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt21",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele Quadrate kannst du auf einem Schachbrett mit 8 × 8 Feldern finden, wenn auch größere Quadrate aus mehreren Feldern zählen?",
+    "options": [
+      "64",
+      "65",
+      "204",
+      "100"
+    ],
+    "correct_index": 2,
+    "explanation": "1 × 1: 64, 2 × 2: 49, 3 × 3: 36, 4 × 4: 25, 5 × 5: 16, 6 × 6: 9, 7 × 7: 4, 8 × 8: 1 – zusammen 204. Die Summe der ersten n Quadratzahlen heißt quadratische Pyramidalzahl, weil man so viele Kugeln zu einer Pyramide mit quadratischem Grundriss stapeln kann.",
+    "hints": [
+      "Zähle Größe für Größe: 1 × 1, 2 × 2, 3 × 3 … bis 8 × 8.",
+      "Von den 2 × 2-Quadraten gibt es 7 · 7 = 49.",
+      "Zum Schluss: 64 + 49 + 36 + … + 1."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Geometrie",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quadratische Pyramidalzahl",
+    "source_url": "https://de.wikipedia.org/wiki/Quadratische_Pyramidalzahl",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many squares can you find on an 8 × 8 chessboard if larger squares made of several fields count too?",
+        "options": [
+          "64",
+          "65",
+          "204",
+          "100"
+        ],
+        "explanation": "1 × 1: 64, 2 × 2: 49, 3 × 3: 36, 4 × 4: 25, 5 × 5: 16, 6 × 6: 9, 7 × 7: 4, 8 × 8: 1 – 204 in total. The sum of the first n square numbers is called a square pyramidal number, because that many balls can be stacked into a pyramid with a square base.",
+        "hints": [
+          "Count size by size: 1 × 1, 2 × 2, 3 × 3 … up to 8 × 8.",
+          "There are 7 · 7 = 49 squares of size 2 × 2.",
+          "Finally: 64 + 49 + 36 + … + 1."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt22",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Ein Hammer und eine Feder werden im luftleeren Raum gleichzeitig aus derselben Höhe fallen gelassen. Was kommt zuerst unten an?",
+    "options": [
+      "Der Hammer",
+      "Die Feder",
+      "Beide gleichzeitig",
+      "Keins – ohne Luft fällt nichts"
+    ],
+    "correct_index": 2,
+    "explanation": "Ohne Luftwiderstand fallen alle Körper gleich schnell, egal wie schwer sie sind. Der Astronaut David Scott führte das 1971 bei der Mission Apollo 15 auf dem Mond mit einem Hammer und einer Falkenfeder vor.",
+    "hints": [
+      "Was bremst eine Feder auf der Erde normalerweise?",
+      "Im luftleeren Raum fehlt genau das."
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Physik",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Freier Fall",
+    "source_url": "https://de.wikipedia.org/wiki/Freier_Fall",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A hammer and a feather are dropped at the same time from the same height in a vacuum. Which reaches the ground first?",
+        "options": [
+          "The hammer",
+          "The feather",
+          "Both at the same time",
+          "Neither – without air nothing falls"
+        ],
+        "explanation": "Without air resistance all objects fall equally fast, however heavy they are. Astronaut David Scott demonstrated this on the Moon in 1971 during the Apollo 15 mission with a hammer and a falcon feather.",
+        "hints": [
+          "What normally slows a feather down on Earth?",
+          "In a vacuum, exactly that is missing."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt23",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie viel Zeit liegt zwischen dem Beginn des Jahres 1 v. Chr. und dem Beginn des Jahres 1 n. Chr.?",
+    "options": [
+      "Zwei Jahre",
+      "Ein Jahr",
+      "Gar keine",
+      "Ein Tag"
+    ],
+    "correct_index": 1,
+    "explanation": "Die christliche Zeitrechnung kennt kein Jahr 0: Auf das Jahr 1 v. Chr. folgt unmittelbar das Jahr 1 n. Chr. Dazwischen liegt also genau ein Jahr. Deshalb begann das dritte Jahrtausend streng genommen erst am 1. Januar 2001.",
+    "hints": [
+      "Gibt es in unserer Zeitrechnung das Jahr 0?",
+      "Auf den 31. Dezember des Jahres 1 v. Chr. folgt direkt der 1. Januar …"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Zeitrechnung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jahr null",
+    "source_url": "https://de.wikipedia.org/wiki/Jahr_null",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How much time lies between the start of the year 1 BC and the start of the year AD 1?",
+        "options": [
+          "Two years",
+          "One year",
+          "None at all",
+          "One day"
+        ],
+        "explanation": "The Christian calendar has no year 0: the year 1 BC is followed directly by AD 1. So exactly one year lies in between. That is why, strictly speaking, the third millennium only began on 1 January 2001.",
+        "hints": [
+          "Is there a year 0 in our calendar?",
+          "31 December of the year 1 BC is directly followed by 1 January …"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt24",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Du kaufst ein Fahrrad für 100 €, verkaufst es für 120 €, kaufst es für 140 € zurück und verkaufst es wieder für 160 €. Wie viel Gewinn hast du insgesamt gemacht?",
+    "options": [
+      "20 €",
+      "40 €",
+      "0 €",
+      "60 €"
+    ],
+    "correct_index": 1,
+    "explanation": "Eingenommen: 280 €, ausgegeben: 240 € – Gewinn 40 €. Viele rechnen „+20, −20, +20“. Der Rückkauf für 140 € ist aber kein Verlust, sondern ein neuer Einkauf, den der zweite Verkauf wieder einbringt.",
+    "hints": [
+      "Schreib jede Zahlung auf: Was geht hinaus, was kommt herein?",
+      "Ausgegeben hast du 100 und 140 Euro, eingenommen 120 und 160 Euro."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Rechnen",
+      "Finanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewinn",
+    "source_url": "https://de.wikipedia.org/wiki/Gewinn",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "You buy a bike for €100, sell it for €120, buy it back for €140 and sell it again for €160. How much profit did you make in total?",
+        "options": [
+          "€20",
+          "€40",
+          "€0",
+          "€60"
+        ],
+        "explanation": "Taken in: €280, spent: €240 – a profit of €40. Many people calculate \"+20, −20, +20\". But buying it back for €140 is not a loss, it is a new purchase that the second sale earns back.",
+        "hints": [
+          "Write down every payment: what goes out, what comes in?",
+          "You spent €100 and €140 and took in €120 and €160."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt25",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Jeder Finger einer Hand darf nur gestreckt oder gebeugt sein. Bis zu welcher Zahl kannst du mit einer Hand zählen, wenn du bei 0 beginnst?",
+    "options": [
+      "Bis 5",
+      "Bis 10",
+      "Bis 31",
+      "Bis 25"
+    ],
+    "correct_index": 2,
+    "explanation": "Fünf Finger ergeben 2⁵ = 32 verschiedene Muster – genug für die Zahlen 0 bis 31. So zählen Computer im Dualsystem. Mit zehn Fingern käme man auf diese Weise bis 1023.",
+    "hints": [
+      "Jeder Finger hat zwei Zustände – wie ein Bit im Computer.",
+      "Mit 2 Fingern gibt es 4 Muster, mit 3 Fingern schon 8."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Computer",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dualsystem",
+    "source_url": "https://de.wikipedia.org/wiki/Dualsystem",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Each finger of one hand may only be stretched or bent. Up to which number can you count with one hand, starting at 0?",
+        "options": [
+          "Up to 5",
+          "Up to 10",
+          "Up to 31",
+          "Up to 25"
+        ],
+        "explanation": "Five fingers give 2⁵ = 32 different patterns – enough for the numbers 0 to 31. This is how computers count in the binary system. With ten fingers you could count up to 1023 this way.",
+        "hints": [
+          "Each finger has two states – like a bit in a computer.",
+          "With 2 fingers there are 4 patterns, with 3 fingers already 8."
+        ]
+      }
+    }
+  },
+  {
+    "id": "sp21",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Spieler einer Basketballmannschaft stehen gleichzeitig auf dem Feld?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correct_index": 0,
+    "explanation": "Fünf je Mannschaft. Ausgewechselt werden darf beliebig oft, auch Spieler, die schon draußen waren.",
+    "difficulty": 1,
+    "tags": [
+      "Basketball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Basketball",
+    "source_url": "https://de.wikipedia.org/wiki/Basketball",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many players of a basketball team are on the court at the same time?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "4"
+        ],
+        "explanation": "Five per team. Substitutions are unlimited, even for players who have already been taken off."
+      }
+    }
+  },
+  {
+    "id": "sp22",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche Sportart ist nach einer englischen Schule benannt?",
+    "options": [
+      "Cricket",
+      "Rugby",
+      "Polo",
+      "Squash"
+    ],
+    "correct_index": 1,
+    "explanation": "Rugby ist nach der Rugby School in Mittelengland benannt, an der im 19. Jahrhundert die ersten Regeln aufgeschrieben wurden.",
+    "difficulty": 2,
+    "tags": [
+      "Rugby"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rugby",
+    "source_url": "https://de.wikipedia.org/wiki/Rugby",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which sport is named after an English school?",
+        "options": [
+          "Cricket",
+          "Rugby",
+          "Polo",
+          "Squash"
+        ],
+        "explanation": "Rugby is named after Rugby School in the English Midlands, where the first rules were written down in the 19th century."
+      }
+    }
+  },
+  {
+    "id": "sp23",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welcher Disziplin gibt es den „Fosbury-Flop“?",
+    "options": [
+      "Stabhochsprung",
+      "Weitsprung",
+      "Hochsprung",
+      "Turmspringen"
+    ],
+    "correct_index": 2,
+    "explanation": "Dick Fosbury sprang 1968 bei den Olympischen Spielen in Mexiko-Stadt rücklings über die Latte und gewann Gold. Heute springen fast alle Hochspringer so.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hochsprung",
+    "source_url": "https://de.wikipedia.org/wiki/Hochsprung",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which event is the \"Fosbury Flop\" used?",
+        "options": [
+          "Pole vault",
+          "Long jump",
+          "High jump",
+          "Platform diving"
+        ],
+        "explanation": "Dick Fosbury went over the bar backwards at the 1968 Olympic Games in Mexico City and won gold. Today almost all high jumpers jump this way."
+      }
+    }
+  },
+  {
+    "id": "sp24",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bei welcher Sportart versucht der Werfer, ein „Wicket“ zu treffen?",
+    "options": [
+      "Baseball",
+      "Cricket",
+      "Hockey",
+      "Lacrosse"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Wicket besteht aus drei Stäben mit zwei aufgelegten Hölzchen; der Schlagmann verteidigt es. Cricket ist vor allem in Indien, Pakistan, Australien und England sehr beliebt.",
+    "difficulty": 2,
+    "tags": [
+      "Cricket"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cricket",
+    "source_url": "https://de.wikipedia.org/wiki/Cricket",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which sport does the bowler try to hit a \"wicket\"?",
+        "options": [
+          "Baseball",
+          "Cricket",
+          "Hockey",
+          "Lacrosse"
+        ],
+        "explanation": "The wicket consists of three stumps with two small bails on top; the batter defends it. Cricket is especially popular in India, Pakistan, Australia and England."
+      }
+    }
+  },
+  {
+    "id": "sp25",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie lang ist eine Runde auf der innersten Bahn eines Leichtathletikstadions?",
+    "options": [
+      "200 m",
+      "400 m",
+      "500 m",
+      "1000 m"
+    ],
+    "correct_index": 1,
+    "explanation": "400 Meter. Weil die äußeren Bahnen länger sind, starten die Läufer dort bei Kurvenläufen versetzt weiter vorn.",
+    "difficulty": 1,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leichtathletik",
+    "source_url": "https://de.wikipedia.org/wiki/Leichtathletik",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is one lap on the innermost lane of an athletics track?",
+        "options": [
+          "200 m",
+          "400 m",
+          "500 m",
+          "1000 m"
+        ],
+        "explanation": "400 metres. Because the outer lanes are longer, runners there start further ahead in staggered positions in races with bends."
+      }
+    }
+  },
+  {
+    "id": "sp26",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Mit welcher Disziplin endet ein Zehnkampf?",
+    "options": [
+      "Speerwurf",
+      "1500-Meter-Lauf",
+      "Stabhochsprung",
+      "400-Meter-Lauf"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Zehnkampf dauert zwei Tage. Am ersten: 100 m, Weitsprung, Kugelstoßen, Hochsprung, 400 m. Am zweiten: 110 m Hürden, Diskus, Stabhochsprung, Speer – und zum Schluss 1500 m.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zehnkampf",
+    "source_url": "https://de.wikipedia.org/wiki/Zehnkampf",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which event ends a decathlon?",
+        "options": [
+          "Javelin",
+          "1500 metres",
+          "Pole vault",
+          "400 metres"
+        ],
+        "explanation": "The decathlon lasts two days. Day one: 100 m, long jump, shot put, high jump, 400 m. Day two: 110 m hurdles, discus, pole vault, javelin – and finally 1500 m."
+      }
+    }
+  },
+  {
+    "id": "sp27",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie nennt man im Golf ein Loch, das mit einem Schlag weniger als vorgesehen (Par) gespielt wird?",
+    "options": [
+      "Bogey",
+      "Birdie",
+      "Eagle",
+      "Albatros"
+    ],
+    "correct_index": 1,
+    "explanation": "Birdie heißt ein Schlag unter Par, Eagle zwei, Albatros drei. Ein Bogey ist ein Schlag über Par.",
+    "difficulty": 2,
+    "tags": [
+      "Golf"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Golf (Sport)",
+    "source_url": "https://de.wikipedia.org/wiki/Golf_(Sport)",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In golf, what is a hole played in one stroke fewer than planned (par) called?",
+        "options": [
+          "Bogey",
+          "Birdie",
+          "Eagle",
+          "Albatross"
+        ],
+        "explanation": "A birdie is one stroke under par, an eagle two, an albatross three. A bogey is one stroke over par."
+      }
+    }
+  },
+  {
+    "id": "sp28",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Zu welcher Sportart gehören Florett, Degen und Säbel?",
+    "options": [
+      "Fechten",
+      "Bogenschießen",
+      "Kendo",
+      "Judo"
+    ],
+    "correct_index": 0,
+    "explanation": "Es sind die drei Waffen des olympischen Fechtens. Sie unterscheiden sich darin, mit welchem Teil der Klinge und wo am Körper Treffer zählen.",
+    "difficulty": 1,
+    "tags": [
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fechten",
+    "source_url": "https://de.wikipedia.org/wiki/Fechten",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which sport do foil, épée and sabre belong to?",
+        "options": [
+          "Fencing",
+          "Archery",
+          "Kendo",
+          "Judo"
+        ],
+        "explanation": "They are the three weapons of Olympic fencing. They differ in which part of the blade counts and where on the body hits score."
+      }
+    }
+  },
+  {
+    "id": "sp29",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wer gewann 2014 in Brasilien die Fußball-Weltmeisterschaft der Männer?",
+    "options": [
+      "Argentinien",
+      "Deutschland",
+      "Brasilien",
+      "Niederlande"
+    ],
+    "correct_index": 1,
+    "explanation": "Deutschland schlug im Finale in Rio de Janeiro Argentinien mit 1:0 nach Verlängerung. Das Tor schoss Mario Götze.",
+    "difficulty": 2,
+    "tags": [
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußball-Weltmeisterschaft 2014",
+    "source_url": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_2014",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who won the 2014 men's football World Cup in Brazil?",
+        "options": [
+          "Argentina",
+          "Germany",
+          "Brazil",
+          "Netherlands"
+        ],
+        "explanation": "Germany beat Argentina 1–0 after extra time in the final in Rio de Janeiro. Mario Götze scored the goal."
+      }
+    }
+  },
+  {
+    "id": "sp30",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Spieler einer Eishockeymannschaft stehen gleichzeitig auf dem Eis, den Torwart mitgezählt?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "11"
+    ],
+    "correct_index": 1,
+    "explanation": "Fünf Feldspieler und ein Torwart. Weil das Spiel so anstrengend ist, wechseln die Reihen oft schon nach weniger als einer Minute.",
+    "difficulty": 1,
+    "tags": [
+      "Eishockey"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eishockey",
+    "source_url": "https://de.wikipedia.org/wiki/Eishockey",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many players of an ice hockey team are on the ice at the same time, including the goalkeeper?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "11"
+        ],
+        "explanation": "Five skaters and a goalkeeper. Because the game is so exhausting, lines often change after less than a minute."
+      }
+    }
+  },
+  {
+    "id": "sp31",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was gibt der Wert „VO₂max“ an?",
+    "options": [
+      "Die höchste Herzfrequenz",
+      "Wie viel Sauerstoff der Körper bei voller Belastung höchstens aufnehmen kann",
+      "Den Muskelanteil am Körpergewicht",
+      "Die Milchsäure im Blut"
+    ],
+    "correct_index": 1,
+    "explanation": "Die maximale Sauerstoffaufnahme zeigt, wie viel Sauerstoff der Körper pro Minute bei voller Belastung aufnehmen und verwerten kann – ein wichtiges Maß für die Ausdauer. Training kann sie steigern.",
+    "difficulty": 3,
+    "tags": [
+      "Körper",
+      "Training"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maximale Sauerstoffaufnahme",
+    "source_url": "https://de.wikipedia.org/wiki/Maximale_Sauerstoffaufnahme",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the value \"VO₂max\" indicate?",
+        "options": [
+          "The highest heart rate",
+          "How much oxygen the body can take in at most under full exertion",
+          "The share of muscle in body weight",
+          "The lactic acid in the blood"
+        ],
+        "explanation": "Maximal oxygen uptake shows how much oxygen the body can take in and use per minute under full exertion – an important measure of endurance. Training can raise it."
+      }
+    }
+  },
+  {
+    "id": "sp32",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wodurch entsteht nach heutigem Wissen Muskelkater?",
+    "options": [
+      "Durch Milchsäure, die sich im Muskel ablagert",
+      "Durch winzige Verletzungen in den Muskelfasern",
+      "Durch Wassermangel",
+      "Durch zu wenig Zucker im Blut"
+    ],
+    "correct_index": 1,
+    "explanation": "Feinste Risse in den Muskelfasern entzünden sich und schmerzen nach ein bis zwei Tagen. Die alte Erklärung mit Milchsäure gilt als widerlegt: Laktat ist nach kurzer Zeit wieder abgebaut.",
+    "difficulty": 2,
+    "tags": [
+      "Körper",
+      "Training"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Muskelkater",
+    "source_url": "https://de.wikipedia.org/wiki/Muskelkater",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to current knowledge, what causes muscle soreness after exercise?",
+        "options": [
+          "Lactic acid building up in the muscle",
+          "Tiny injuries in the muscle fibres",
+          "A lack of water",
+          "Too little sugar in the blood"
+        ],
+        "explanation": "Tiny tears in the muscle fibres become inflamed and hurt after one or two days. The old lactic-acid explanation is considered disproved: lactate is broken down again within a short time."
+      }
+    }
+  },
+  {
+    "id": "sp33",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Sätze muss ein Spieler im Herren-Einzel eines Grand-Slam-Turniers gewinnen?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei den Männern wird auf drei Gewinnsätze gespielt („best of five“), bei den Frauen auf zwei.",
+    "difficulty": 2,
+    "tags": [
+      "Tennis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grand Slam (Tennis)",
+    "source_url": "https://de.wikipedia.org/wiki/Grand_Slam_(Tennis)",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many sets must a player win in the men's singles at a Grand Slam tournament?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "explanation": "Men play for three winning sets (\"best of five\"), women for two."
+      }
+    }
+  },
+  {
+    "id": "sp34",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welcher Stadt finden die Olympischen Sommerspiele 2028 statt?",
+    "options": [
+      "Brisbane",
+      "Los Angeles",
+      "Paris",
+      "Tokio"
+    ],
+    "correct_index": 1,
+    "explanation": "Los Angeles ist nach 1932 und 1984 zum dritten Mal Gastgeber. 2032 folgt Brisbane in Australien.",
+    "difficulty": 1,
+    "tags": [
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Sommerspiele 2028",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_2028",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which city hosts the 2028 Summer Olympics?",
+        "options": [
+          "Brisbane",
+          "Los Angeles",
+          "Paris",
+          "Tokyo"
+        ],
+        "explanation": "Los Angeles hosts for the third time after 1932 and 1984. Brisbane in Australia follows in 2032."
+      }
+    }
+  },
+  {
+    "id": "sp35",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche Organisation stellt die weltweit gültige Liste verbotener Dopingmittel auf?",
+    "options": [
+      "FIFA",
+      "WADA",
+      "UNESCO",
+      "Das Rote Kreuz"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Welt-Anti-Doping-Agentur wurde 1999 gegründet und sitzt in Montreal. Ihre Verbotsliste wird jedes Jahr überarbeitet.",
+    "difficulty": 2,
+    "tags": [
+      "Fairness"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Welt-Anti-Doping-Agentur",
+    "source_url": "https://de.wikipedia.org/wiki/Welt-Anti-Doping-Agentur",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which organisation draws up the worldwide list of banned doping substances?",
+        "options": [
+          "FIFA",
+          "WADA",
+          "UNESCO",
+          "The Red Cross"
+        ],
+        "explanation": "The World Anti-Doping Agency was founded in 1999 and is based in Montreal. Its prohibited list is revised every year."
+      }
+    }
+  },
+  {
+    "id": "sp36",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Spieler einer Fußballmannschaft stehen zu Spielbeginn auf dem Platz?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct_index": 2,
+    "explanation": "Elf, darunter ein Torwart. Hat eine Mannschaft weniger als sieben Spieler, wird das Spiel abgebrochen.",
+    "difficulty": 1,
+    "tags": [
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußball",
+    "source_url": "https://de.wikipedia.org/wiki/Fußball",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many players of a football team are on the pitch at kick-off?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "explanation": "Eleven, including a goalkeeper. If a team has fewer than seven players, the match is abandoned."
+      }
+    }
+  },
+  {
+    "id": "b34",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was nennt man in der Start-up-Welt ein „Unicorn“?",
+    "options": [
+      "Ein Start-up ohne Mitarbeiter",
+      "Ein nicht börsennotiertes Start-up mit mindestens einer Milliarde US-Dollar Bewertung",
+      "Eine Gründung ohne Investoren",
+      "Ein Unternehmen, das nur ein Produkt verkauft"
+    ],
+    "correct_index": 1,
+    "explanation": "Den Begriff prägte die Investorin Aileen Lee 2013 – solche Firmen waren damals so selten wie Einhörner.",
+    "difficulty": 2,
+    "tags": [
+      "Start-up"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Einhorn (Finanzen)",
+    "source_url": "https://de.wikipedia.org/wiki/Einhorn_(Finanzen)",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is called a \"unicorn\" in the start-up world?",
+        "options": [
+          "A start-up without employees",
+          "A privately held start-up valued at one billion US dollars or more",
+          "A company founded without investors",
+          "A company that sells only one product"
+        ],
+        "explanation": "Investor Aileen Lee coined the term in 2013 – at the time such companies were as rare as unicorns."
+      }
+    }
+  },
+  {
+    "id": "b35",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet „Bootstrapping“ bei einer Gründung?",
+    "options": [
+      "Das Unternehmen wächst nur aus eigenen Mitteln und Einnahmen, ohne Investoren",
+      "Die Gründer verkaufen ihr Unternehmen schnell",
+      "Ein großer Konzern übernimmt das Start-up",
+      "Das Produkt wird kostenlos verteilt"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Name kommt von der englischen Redewendung, sich an den eigenen Stiefelschlaufen aus dem Sumpf zu ziehen. Vorteil: Die Gründer behalten die Kontrolle. Nachteil: Das Wachstum ist oft langsamer.",
+    "difficulty": 2,
+    "tags": [
+      "Start-up",
+      "Finanzierung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Finanzierung",
+    "source_url": "https://de.wikipedia.org/wiki/Finanzierung",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"bootstrapping\" mean when founding a company?",
+        "options": [
+          "The company grows only from its own funds and revenue, without investors",
+          "The founders sell their company quickly",
+          "A large corporation takes over the start-up",
+          "The product is given away for free"
+        ],
+        "explanation": "The name comes from the phrase about pulling yourself up by your own bootstraps. Advantage: the founders keep control. Disadvantage: growth is often slower."
+      }
+    }
+  },
+  {
+    "id": "b36",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was gibt die Gewinnmarge an?",
+    "options": [
+      "Wie viele Kunden ein Unternehmen hat",
+      "Welcher Anteil des Umsatzes als Gewinn übrig bleibt",
+      "Wie hoch die Schulden sind",
+      "Wie schnell ein Unternehmen wächst"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Marge wird meist in Prozent angegeben. Im Lebensmittelhandel liegt sie oft nur bei wenigen Prozent, bei Software kann sie deutlich höher sein.",
+    "difficulty": 2,
+    "tags": [
+      "Kennzahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewinnspanne",
+    "source_url": "https://de.wikipedia.org/wiki/Gewinnspanne",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the profit margin indicate?",
+        "options": [
+          "How many customers a company has",
+          "What share of revenue is left as profit",
+          "How high the debts are",
+          "How fast a company is growing"
+        ],
+        "explanation": "The margin is usually given as a percentage. In grocery retail it is often only a few percent; in software it can be much higher."
+      }
+    }
+  },
+  {
+    "id": "b37",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein „Pivot“ bei einem Start-up?",
+    "options": [
+      "Ein grundlegender Kurswechsel, wenn die ursprüngliche Idee nicht trägt",
+      "Die erste Finanzierungsrunde",
+      "Ein Werbespot",
+      "Der Umzug in ein größeres Büro"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei einem Pivot wechselt ein Start-up etwa Zielgruppe, Produkt oder Geschäftsmodell. Bekanntes Beispiel: Der Messenger Slack entstand aus einem Computerspiel, das sich nicht durchsetzte.",
+    "difficulty": 2,
+    "tags": [
+      "Start-up"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lean Startup",
+    "source_url": "https://de.wikipedia.org/wiki/Lean_Startup",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a \"pivot\" for a start-up?",
+        "options": [
+          "A fundamental change of course when the original idea doesn't work",
+          "The first funding round",
+          "A commercial",
+          "Moving into a bigger office"
+        ],
+        "explanation": "In a pivot, a start-up changes, for example, its target group, product or business model. A well-known example: the messenger Slack grew out of a computer game that failed to catch on."
+      }
+    }
+  },
+  {
+    "id": "b38",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist Crowdfunding?",
+    "options": [
+      "Ein Bankkredit für Großunternehmen",
+      "Viele Menschen finanzieren ein Projekt mit kleinen Beträgen, meist über das Internet",
+      "Eine staatliche Förderung",
+      "Eine Steuer auf Veranstaltungen"
+    ],
+    "correct_index": 1,
+    "explanation": "Oft bekommen die Unterstützer dafür eine Gegenleistung, etwa das fertige Produkt. Bekannte Plattformen sind Kickstarter und Indiegogo.",
+    "difficulty": 1,
+    "tags": [
+      "Finanzierung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Crowdfunding",
+    "source_url": "https://de.wikipedia.org/wiki/Crowdfunding",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is crowdfunding?",
+        "options": [
+          "A bank loan for large companies",
+          "Many people finance a project with small amounts, usually via the internet",
+          "A government grant",
+          "A tax on events"
+        ],
+        "explanation": "Backers often get something in return, such as the finished product. Well-known platforms are Kickstarter and Indiegogo."
+      }
+    }
+  },
+  {
+    "id": "b39",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was beschreibt der „Customer Lifetime Value“?",
+    "options": [
+      "Wie lange ein Kunde schon Kunde ist",
+      "Welchen Wert ein Kunde einem Unternehmen über die ganze Kundenbeziehung bringt",
+      "Wie alt die Kunden im Durchschnitt sind",
+      "Was die Werbung für einen Kunden gekostet hat"
+    ],
+    "correct_index": 1,
+    "explanation": "Unternehmen vergleichen diesen Wert mit den Kosten, einen Kunden zu gewinnen. Ist die Gewinnung teurer, als der Kunde später einbringt, rechnet sich das Geschäft nicht.",
+    "difficulty": 3,
+    "tags": [
+      "Kennzahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Customer Lifetime Value",
+    "source_url": "https://de.wikipedia.org/wiki/Customer_Lifetime_Value",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"customer lifetime value\" describe?",
+        "options": [
+          "How long a customer has been a customer",
+          "What a customer is worth to a company over the whole relationship",
+          "How old customers are on average",
+          "What advertising cost per customer"
+        ],
+        "explanation": "Companies compare this value with the cost of winning a customer. If winning one costs more than the customer brings in later, the business does not pay off."
+      }
+    }
+  },
+  {
+    "id": "b40",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür stehen die vier Buchstaben einer SWOT-Analyse?",
+    "options": [
+      "Stärken, Schwächen, Chancen, Risiken",
+      "Strategie, Wachstum, Organisation, Technik",
+      "Sparen, Werben, Ordnen, Teilen",
+      "Service, Ware, Ort, Termin"
+    ],
+    "correct_index": 0,
+    "explanation": "Englisch: Strengths, Weaknesses, Opportunities, Threats. Stärken und Schwächen liegen im Unternehmen selbst, Chancen und Risiken kommen von außen, etwa vom Markt.",
+    "difficulty": 2,
+    "tags": [
+      "Strategie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: SWOT-Analyse",
+    "source_url": "https://de.wikipedia.org/wiki/SWOT-Analyse",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the four letters of a SWOT analysis stand for?",
+        "options": [
+          "Strengths, weaknesses, opportunities, threats",
+          "Strategy, growth, organisation, technology",
+          "Saving, advertising, ordering, sharing",
+          "Service, goods, place, date"
+        ],
+        "explanation": "Strengths and weaknesses lie within the company itself; opportunities and threats come from outside, for example from the market."
+      }
+    }
+  },
+  {
+    "id": "b41",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist die „Burn Rate“ eines Start-ups?",
+    "options": [
+      "Wie schnell Produkte verkauft werden",
+      "Wie viel Geld das Unternehmen pro Monat mehr ausgibt, als es einnimmt",
+      "Wie viele Mitarbeiter kündigen",
+      "Der Energieverbrauch der Server"
+    ],
+    "correct_index": 1,
+    "explanation": "Teilt man das Geld auf dem Konto durch die Burn Rate, erhält man die „Runway“: wie viele Monate das Geld noch reicht.",
+    "difficulty": 2,
+    "tags": [
+      "Start-up",
+      "Kennzahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cash-Burn-Rate",
+    "source_url": "https://de.wikipedia.org/wiki/Cash-Burn-Rate",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a start-up's \"burn rate\"?",
+        "options": [
+          "How fast products are sold",
+          "How much more money the company spends per month than it takes in",
+          "How many employees quit",
+          "The servers' energy consumption"
+        ],
+        "explanation": "Dividing the money in the bank by the burn rate gives the \"runway\": how many months the money will last."
+      }
+    }
+  },
+  {
+    "id": "b42",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür steht die Abkürzung „KPI“?",
+    "options": [
+      "Key Performance Indicator – eine Kennzahl für den Erfolg",
+      "Kunden-Preis-Index",
+      "Kontrollierte Produkt-Innovation",
+      "Key Product Investment"
+    ],
+    "correct_index": 0,
+    "explanation": "KPIs sind ausgewählte Kennzahlen, an denen ein Unternehmen misst, ob es seine Ziele erreicht – etwa Umsatz, Kundenzahl oder Kündigungsquote.",
+    "difficulty": 1,
+    "tags": [
+      "Kennzahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Key-Performance-Indicator",
+    "source_url": "https://de.wikipedia.org/wiki/Key-Performance-Indicator",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the abbreviation \"KPI\" stand for?",
+        "options": [
+          "Key performance indicator – a measure of success",
+          "Customer price index",
+          "Controlled product innovation",
+          "Key product investment"
+        ],
+        "explanation": "KPIs are selected figures a company uses to measure whether it reaches its goals – such as revenue, number of customers or churn rate."
+      }
+    }
+  },
+  {
+    "id": "b43",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welches Unternehmen wurde 1998 in einer Garage in Menlo Park, Kalifornien, gegründet?",
+    "options": [
+      "Apple",
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "correct_index": 1,
+    "explanation": "Larry Page und Sergey Brin mieteten die Garage von Susan Wojcicki, die später YouTube leitete.",
+    "difficulty": 2,
+    "tags": [
+      "Gründer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Google LLC",
+    "source_url": "https://de.wikipedia.org/wiki/Google_LLC",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which company was founded in a garage in Menlo Park, California, in 1998?",
+        "options": [
+          "Apple",
+          "Google",
+          "Amazon",
+          "Microsoft"
+        ],
+        "explanation": "Larry Page and Sergey Brin rented the garage from Susan Wojcicki, who later ran YouTube."
+      }
+    }
+  },
+  {
+    "id": "b44",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein Netzwerkeffekt?",
+    "options": [
+      "Ein Produkt wird wertvoller, je mehr Menschen es nutzen",
+      "Ein Computervirus verbreitet sich",
+      "Mitarbeiter arbeiten in Teams",
+      "Werbung erreicht viele Menschen"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Messenger, den niemand sonst nutzt, ist wertlos; einer, den alle Freunde nutzen, sehr wertvoll. Deshalb setzen sich in solchen Märkten oft wenige große Anbieter durch.",
+    "difficulty": 2,
+    "tags": [
+      "Geschäftsmodell"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Netzwerkeffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Netzwerkeffekt",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a network effect?",
+        "options": [
+          "A product becomes more valuable the more people use it",
+          "A computer virus spreads",
+          "Employees work in teams",
+          "Advertising reaches many people"
+        ],
+        "explanation": "A messenger nobody else uses is worthless; one all your friends use is very valuable. That is why a few large providers often win in such markets."
+      }
+    }
+  },
+  {
+    "id": "b45",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet „Due Diligence“ vor einer Firmenübernahme?",
+    "options": [
+      "Eine sorgfältige Prüfung des Unternehmens vor dem Kauf",
+      "Eine Frist, bis zu der bezahlt werden muss",
+      "Eine Feier nach dem Abschluss",
+      "Ein Rabatt auf den Kaufpreis"
+    ],
+    "correct_index": 0,
+    "explanation": "Käufer prüfen dabei Zahlen, Verträge, Risiken und rechtliche Fragen, bevor sie einen Preis festlegen. Der Begriff heißt wörtlich „gebotene Sorgfalt“.",
+    "difficulty": 3,
+    "tags": [
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Due-Diligence-Prüfung",
+    "source_url": "https://de.wikipedia.org/wiki/Due-Diligence-Prüfung",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"due diligence\" mean before a company takeover?",
+        "options": [
+          "A careful examination of the company before buying it",
+          "A deadline for payment",
+          "A celebration after the deal",
+          "A discount on the price"
+        ],
+        "explanation": "Buyers examine figures, contracts, risks and legal questions before agreeing on a price."
+      }
+    }
+  },
+  {
+    "id": "l41",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Lehnwort?",
+    "options": [
+      "Ein Wort, das aus einer anderen Sprache übernommen und angepasst wurde",
+      "Ein Wort, das man nur leihweise benutzen darf",
+      "Ein besonders altes Wort",
+      "Ein Wort aus der Jugendsprache"
+    ],
+    "correct_index": 0,
+    "explanation": "„Fenster“ zum Beispiel kommt vom lateinischen „fenestra“, hat sich aber an Aussprache und Schreibung des Deutschen angepasst. Ein Fremdwort wie „Restaurant“ ist dagegen noch als fremd erkennbar.",
+    "difficulty": 2,
+    "tags": [
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lehnwort",
+    "source_url": "https://de.wikipedia.org/wiki/Lehnwort",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a loanword?",
+        "options": [
+          "A word taken over from another language and adapted",
+          "A word you may only borrow",
+          "A particularly old word",
+          "A word from youth slang"
+        ],
+        "explanation": "The German \"Fenster\" (window), for example, comes from Latin \"fenestra\" but has adapted to German pronunciation and spelling. A foreign word like \"Restaurant\" still looks foreign."
+      }
+    }
+  },
+  {
+    "id": "l42",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie viele Amtssprachen hat die Europäische Union?",
+    "options": [
+      "12",
+      "24",
+      "27",
+      "6"
+    ],
+    "correct_index": 1,
+    "explanation": "24 Amtssprachen für 27 Mitgliedstaaten – mehrere Länder teilen sich eine Sprache, etwa Deutsch in Deutschland, Österreich, Luxemburg und Belgien. Gesetze der EU werden in alle 24 Sprachen übersetzt.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Amtssprachen der Europäischen Union",
+    "source_url": "https://de.wikipedia.org/wiki/Amtssprachen_der_Europäischen_Union",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many official languages does the European Union have?",
+        "options": [
+          "12",
+          "24",
+          "27",
+          "6"
+        ],
+        "explanation": "24 official languages for 27 member states – several countries share a language, such as German in Germany, Austria, Luxembourg and Belgium. EU laws are translated into all 24 languages."
+      }
+    }
+  },
+  {
+    "id": "l43",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Kompositum?",
+    "options": [
+      "Ein zusammengesetztes Wort wie „Haustür“",
+      "Ein Musikstück",
+      "Ein Satz ohne Verb",
+      "Ein Wort mit nur einer Silbe"
+    ],
+    "correct_index": 0,
+    "explanation": "Das letzte Teil bestimmt Wortart und Artikel: die Haustür ist eine Tür, die Türklinke eine Klinke. Im Deutschen kann man fast beliebig lange Komposita bilden.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kompositum",
+    "source_url": "https://de.wikipedia.org/wiki/Kompositum",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a compound word (Kompositum)?",
+        "options": [
+          "A word made of other words, like the German \"Haustür\" (front door)",
+          "A piece of music",
+          "A sentence without a verb",
+          "A word with only one syllable"
+        ],
+        "explanation": "The last part determines the word class and the article: a \"Haustür\" is a kind of door, a \"Türklinke\" a kind of handle. German can form compounds of almost any length."
+      }
+    }
+  },
+  {
+    "id": "l44",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was steht im Spanischen am Anfang eines Fragesatzes?",
+    "options": [
+      "Ein umgekehrtes Fragezeichen",
+      "Ein Doppelpunkt",
+      "Ein Gedankenstrich",
+      "Ein Apostroph"
+    ],
+    "correct_index": 0,
+    "explanation": "Spanisch setzt „¿“ an den Anfang und „?“ an das Ende: „¿Cómo estás?“. So erkennt man beim Lesen sofort, dass eine Frage kommt. Beim Ausruf gilt dasselbe mit „¡ … !“.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fragezeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Fragezeichen",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What comes at the start of a question in Spanish?",
+        "options": [
+          "An inverted question mark",
+          "A colon",
+          "A dash",
+          "An apostrophe"
+        ],
+        "explanation": "Spanish puts \"¿\" at the beginning and \"?\" at the end: \"¿Cómo estás?\". That way readers know right away that a question is coming. Exclamations work the same way with \"¡ … !\"."
+      }
+    }
+  },
+  {
+    "id": "l45",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das englische Wort „eventually“?",
+    "options": [
+      "eventuell",
+      "vielleicht",
+      "schließlich, am Ende",
+      "sofort"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein falscher Freund: „eventually“ heißt „schließlich“. Das deutsche „eventuell“ heißt auf Englisch „possibly“ oder „maybe“.",
+    "difficulty": 2,
+    "tags": [
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Falscher Freund",
+    "source_url": "https://de.wikipedia.org/wiki/Falscher_Freund",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the English word \"eventually\" mean in German?",
+        "options": [
+          "eventuell",
+          "vielleicht",
+          "schließlich, am Ende",
+          "sofort"
+        ],
+        "explanation": "A false friend: the German \"eventuell\" means \"possibly\" or \"maybe\"."
+      }
+    }
+  },
+  {
+    "id": "l46",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das englische Wort „sensible“?",
+    "options": [
+      "sensibel",
+      "vernünftig",
+      "empfindlich",
+      "sinnlich"
+    ],
+    "correct_index": 1,
+    "explanation": "„Sensible“ heißt „vernünftig“. Wer „sensibel“ meint, sagt auf Englisch „sensitive“.",
+    "difficulty": 2,
+    "tags": [
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Falscher Freund",
+    "source_url": "https://de.wikipedia.org/wiki/Falscher_Freund",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the English word \"sensible\" mean in German?",
+        "options": [
+          "sensibel",
+          "vernünftig",
+          "empfindlich",
+          "sinnlich"
+        ],
+        "explanation": "The German \"sensibel\" means \"sensitive\" in English."
+      }
+    }
+  },
+  {
+    "id": "l47",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie viele Grundbuchstaben hat das koreanische Alphabet Hangeul heute?",
+    "options": [
+      "24",
+      "26",
+      "50",
+      "Über 2000"
+    ],
+    "correct_index": 0,
+    "explanation": "14 Konsonanten und 10 Vokale. König Sejong ließ die Schrift im 15. Jahrhundert entwickeln, damit auch einfache Leute lesen und schreiben lernen konnten.",
+    "difficulty": 3,
+    "tags": [
+      "Sprachen der Welt",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Koreanisches Alphabet",
+    "source_url": "https://de.wikipedia.org/wiki/Koreanisches_Alphabet",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many basic letters does the Korean alphabet Hangul have today?",
+        "options": [
+          "24",
+          "26",
+          "50",
+          "Over 2000"
+        ],
+        "explanation": "14 consonants and 10 vowels. King Sejong had the script developed in the 15th century so that ordinary people could learn to read and write too."
+      }
+    }
+  },
+  {
+    "id": "l48",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Euphemismus?",
+    "options": [
+      "Ein beschönigender Ausdruck, etwa „Preisanpassung“ statt „Preiserhöhung“",
+      "Ein besonders grobes Schimpfwort",
+      "Ein Wort aus dem Griechischen",
+      "Ein Reim am Zeilenende"
+    ],
+    "correct_index": 0,
+    "explanation": "Euphemismen lassen Unangenehmes harmloser klingen – im Alltag aus Höflichkeit, in Politik und Werbung oft mit Absicht. Das Wort kommt vom griechischen „gut reden“.",
+    "difficulty": 2,
+    "tags": [
+      "Wortschatz",
+      "Medienkompetenz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Euphemismus",
+    "source_url": "https://de.wikipedia.org/wiki/Euphemismus",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a euphemism?",
+        "options": [
+          "A softening expression, such as \"price adjustment\" instead of \"price increase\"",
+          "A particularly rude swear word",
+          "A word from Greek",
+          "A rhyme at the end of a line"
+        ],
+        "explanation": "Euphemisms make unpleasant things sound harmless – in everyday life out of politeness, in politics and advertising often on purpose. The word comes from the Greek for \"speaking well\"."
+      }
+    }
+  },
+  {
+    "id": "l49",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welcher Sprache sagt man „Arigatō“, um sich zu bedanken?",
+    "options": [
+      "Chinesisch",
+      "Koreanisch",
+      "Japanisch",
+      "Thailändisch"
+    ],
+    "correct_index": 2,
+    "explanation": "„Arigatō“ heißt auf Japanisch „danke“; höflicher ist „arigatō gozaimasu“.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Japanische Sprache",
+    "source_url": "https://de.wikipedia.org/wiki/Japanische_Sprache",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which language do you say \"arigatō\" to thank someone?",
+        "options": [
+          "Chinese",
+          "Korean",
+          "Japanese",
+          "Thai"
+        ],
+        "explanation": "\"Arigatō\" means \"thank you\" in Japanese; more polite is \"arigatō gozaimasu\"."
+      }
+    }
+  },
+  {
+    "id": "l50",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Homonym?",
+    "options": [
+      "Ein Wort mit mehreren Bedeutungen, etwa „Bank“ oder „Schloss“",
+      "Ein Wort mit gleicher Bedeutung wie ein anderes",
+      "Ein Name für einen Menschen",
+      "Ein Wort, das rückwärts gleich lautet"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine „Bank“ kann zum Sitzen oder für Geld sein, ein „Schloss“ an der Tür oder ein Gebäude. Erst der Zusammenhang zeigt, was gemeint ist.",
+    "difficulty": 2,
+    "tags": [
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Homonym",
+    "source_url": "https://de.wikipedia.org/wiki/Homonym",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a homonym?",
+        "options": [
+          "A word with several meanings, like the German \"Bank\" (bench or bank) or \"Schloss\" (lock or castle)",
+          "A word with the same meaning as another",
+          "A name for a person",
+          "A word that reads the same backwards"
+        ],
+        "explanation": "The German \"Bank\" can be for sitting or for money, a \"Schloss\" can be on a door or a building. Only the context shows which is meant."
+      }
+    }
+  },
+  {
+    "id": "l51",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher stammt das Wort „Algorithmus“?",
+    "options": [
+      "Vom Namen eines Gelehrten aus Bagdad",
+      "Vom griechischen Wort für „Regel“",
+      "Vom lateinischen Wort für „rechnen“",
+      "Vom englischen Wort für „Schritt“"
+    ],
+    "correct_index": 0,
+    "explanation": "Es geht auf al-Chwarizmi zurück, der im 9. Jahrhundert in Bagdad lebte. Im mittelalterlichen Latein wurde sein Name zu „Algorismi“. Auch „Algebra“ stammt aus dem Titel eines seiner Bücher.",
+    "difficulty": 3,
+    "tags": [
+      "Wortgeschichte",
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Algorithmus",
+    "source_url": "https://de.wikipedia.org/wiki/Algorithmus",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the word \"algorithm\" come from?",
+        "options": [
+          "From the name of a scholar from Baghdad",
+          "From the Greek word for \"rule\"",
+          "From the Latin word for \"calculate\"",
+          "From the English word for \"step\""
+        ],
+        "explanation": "It goes back to al-Khwarizmi, who lived in Baghdad in the 9th century. In medieval Latin his name became \"Algorismi\". \"Algebra\" also comes from the title of one of his books."
+      }
+    }
+  },
+  {
+    "id": "l52",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Sprache ist neben Englisch Amtssprache in Kanada?",
+    "options": [
+      "Spanisch",
+      "Französisch",
+      "Deutsch",
+      "Portugiesisch"
+    ],
+    "correct_index": 1,
+    "explanation": "Kanada ist offiziell zweisprachig. Französisch wird vor allem in der Provinz Québec gesprochen.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kanada",
+    "source_url": "https://de.wikipedia.org/wiki/Kanada",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language is an official language of Canada besides English?",
+        "options": [
+          "Spanish",
+          "French",
+          "German",
+          "Portuguese"
+        ],
+        "explanation": "Canada is officially bilingual. French is spoken mainly in the province of Quebec."
+      }
+    }
+  },
+  {
+    "id": "spf5",
+    "kind": "fact",
+    "category_id": "sport",
+    "question": "Ein Volleyballspiel kann unentschieden enden.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Gespielt wird, bis eine Mannschaft drei Sätze gewonnen hat, und ein Satz endet erst mit zwei Punkten Vorsprung. Ein Unentschieden ist deshalb unmöglich.",
+    "difficulty": 1,
+    "tags": [
+      "Volleyball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Volleyball",
+    "source_url": "https://de.wikipedia.org/wiki/Volleyball",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A volleyball match can end in a draw.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Play continues until one team has won three sets, and a set only ends with a two-point lead. A draw is therefore impossible."
+      }
+    }
+  },
+  {
+    "id": "spf6",
+    "kind": "fact",
+    "category_id": "sport",
+    "question": "Beim olympischen Gehen muss für das Auge immer ein Fuß den Boden berühren.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Es darf kein sichtbarer Moment ohne Bodenkontakt entstehen, und das vordere Bein muss beim Aufsetzen gestreckt sein. Kampfrichter achten darauf und können verwarnen und disqualifizieren.",
+    "difficulty": 1,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gehen (Sport)",
+    "source_url": "https://de.wikipedia.org/wiki/Gehen_(Sport)",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Olympic race walking, one foot must always visibly touch the ground.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "There must be no visible moment without contact with the ground, and the front leg must be straight when it lands. Judges watch for this and can warn and disqualify athletes."
+      }
+    }
+  },
+  {
+    "id": "lm3",
+    "kind": "fact",
+    "category_id": "language",
+    "question": "Die chinesische Schrift ist eine Buchstabenschrift wie das lateinische Alphabet.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Chinesische Schriftzeichen stehen meist für eine Silbe mit eigener Bedeutung, nicht für einzelne Laute. Für den Alltag braucht man einige Tausend Zeichen.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chinesische Schrift",
+    "source_url": "https://de.wikipedia.org/wiki/Chinesische_Schrift",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Chinese writing is an alphabet like the Latin one.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Chinese characters usually stand for a syllable with its own meaning, not for single sounds. Everyday reading requires a few thousand characters."
+      }
+    }
+  },
+  {
+    "id": "o9",
+    "kind": "order",
+    "category_id": "sport",
+    "question": "Ordne die Strecken nach ihrer Länge – die kürzeste zuerst.",
+    "options": [
+      "Marathon",
+      "Halbmarathon",
+      "10.000-Meter-Lauf",
+      "Radstrecke eines Ironman-Triathlons"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "order": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    "explanation": "10.000 m, Halbmarathon (21,1 km), Marathon (42,195 km), Radstrecke eines Ironman-Triathlons (180 km).",
+    "difficulty": 2,
+    "tags": [
+      "Ausdauer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Triathlon",
+    "source_url": "https://de.wikipedia.org/wiki/Triathlon",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Put the distances in order of length – the shortest first.",
+        "options": [
+          "Marathon",
+          "Half marathon",
+          "10,000 metres",
+          "Bike leg of an Ironman triathlon"
+        ],
+        "explanation": "10,000 m, half marathon (21.1 km), marathon (42.195 km), bike leg of an Ironman triathlon (180 km)."
+      }
+    }
+  },
+  {
+    "id": "o10",
+    "kind": "order",
+    "category_id": "sport",
+    "question": "Ordne die Olympischen Sommerspiele zeitlich – die frühesten zuerst.",
+    "options": [
+      "Peking",
+      "Barcelona",
+      "Rio de Janeiro",
+      "Sydney"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "order": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "explanation": "Barcelona 1992, Sydney 2000, Peking 2008, Rio de Janeiro 2016.",
+    "difficulty": 3,
+    "tags": [
+      "Olympia",
+      "Zeitleiste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Sommerspiele",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Put the Summer Olympics in chronological order – the earliest first.",
+        "options": [
+          "Beijing",
+          "Barcelona",
+          "Rio de Janeiro",
+          "Sydney"
+        ],
+        "explanation": "Barcelona 1992, Sydney 2000, Beijing 2008, Rio de Janeiro 2016."
+      }
+    }
+  },
+  {
+    "id": "s-e9",
+    "kind": "estimate",
+    "category_id": "sport",
+    "question": "Schätze: Wie viel wiegt der Speer im Speerwurf der Männer?",
+    "options": [
+      "200",
+      "2000",
+      "g",
+      "50"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "value": 800,
+      "abs": 100
+    },
+    "explanation": "Mindestens 800 Gramm bei 2,60 bis 2,70 Metern Länge. Der Speer der Frauen wiegt 600 Gramm.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Speerwurf",
+    "source_url": "https://de.wikipedia.org/wiki/Speerwurf",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Estimate: how much does the javelin weigh in the men's javelin throw?",
+        "options": [
+          "200",
+          "2000",
+          "g",
+          "50"
+        ],
+        "explanation": "At least 800 grams, with a length of 2.60 to 2.70 metres. The women's javelin weighs 600 grams."
+      }
+    }
+  },
+  {
+    "id": "s-e10",
+    "kind": "estimate",
+    "category_id": "sport",
+    "question": "Schätze: Wie viele Kilometer ist die Tour de France ungefähr lang?",
+    "options": [
+      "1000",
+      "6000",
+      "km",
+      "100"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "value": 3400,
+      "abs": 400
+    },
+    "explanation": "Meist zwischen 3.300 und 3.500 Kilometern, verteilt auf 21 Etappen in gut drei Wochen. Die Strecke ändert sich jedes Jahr.",
+    "difficulty": 2,
+    "tags": [
+      "Radsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tour de France",
+    "source_url": "https://de.wikipedia.org/wiki/Tour_de_France",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Estimate: roughly how many kilometres long is the Tour de France?",
+        "options": [
+          "1000",
+          "6000",
+          "km",
+          "100"
+        ],
+        "explanation": "Usually between 3,300 and 3,500 kilometres, spread over 21 stages in just over three weeks. The route changes every year."
+      }
+    }
+  },
+  {
+    "id": "l-b9",
+    "kind": "blank",
+    "category_id": "sport",
+    "question": "Ein Satz im Tischtennis geht bis ___ Punkte.",
+    "options": [
+      "eine Zahl",
+      "Lückentext"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "accept": [
+        "11",
+        "elf",
+        "eleven"
+      ],
+      "show": "11"
+    },
+    "explanation": "Seit 2001 bis 11 Punkte (vorher 21). Steht es 10:10, braucht man zwei Punkte Vorsprung.",
+    "difficulty": 2,
+    "tags": [
+      "Tischtennis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tischtennis",
+    "source_url": "https://de.wikipedia.org/wiki/Tischtennis",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A game in table tennis is played to ___ points.",
+        "options": [
+          "a number",
+          "Fill the gap"
+        ],
+        "explanation": "Since 2001 to 11 points (before that 21). At 10–10, a two-point lead is needed."
+      }
+    }
+  },
+  {
+    "id": "o11",
+    "kind": "order",
+    "category_id": "business",
+    "question": "Ordne die Finanzierungsrunden eines Start-ups in der üblichen Reihenfolge – die früheste zuerst.",
+    "options": [
+      "Serie A",
+      "Pre-Seed",
+      "Serie B",
+      "Seed"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "order": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "explanation": "Pre-Seed (Idee, oft Geld von Gründern, Familie oder Business Angels), Seed (erstes Produkt), Serie A (das Geschäftsmodell ausbauen), Serie B (weiter wachsen).",
+    "difficulty": 2,
+    "tags": [
+      "Start-up",
+      "Finanzierung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wagniskapital",
+    "source_url": "https://de.wikipedia.org/wiki/Wagniskapital",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Put a start-up's funding rounds in the usual order – the earliest first.",
+        "options": [
+          "Series A",
+          "Pre-seed",
+          "Series B",
+          "Seed"
+        ],
+        "explanation": "Pre-seed (the idea, often money from founders, family or business angels), seed (first product), Series A (expanding the business model), Series B (further growth)."
+      }
+    }
+  },
+  {
+    "id": "s-e11",
+    "kind": "estimate",
+    "category_id": "business",
+    "question": "Schätze: Wie viel Prozent aller Unternehmen in Deutschland sind kleine und mittlere Unternehmen (KMU)?",
+    "options": [
+      "50",
+      "100",
+      "%",
+      "1"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "value": 99,
+      "abs": 2
+    },
+    "explanation": "Rund 99 Prozent. Gemeint sind Unternehmen mit weniger als 250 Beschäftigten und begrenztem Umsatz; sie beschäftigen gut die Hälfte aller Arbeitnehmer.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelstand"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleine und mittlere Unternehmen",
+    "source_url": "https://de.wikipedia.org/wiki/Kleine_und_mittlere_Unternehmen",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Estimate: what percentage of all companies in Germany are small and medium-sized enterprises (SMEs)?",
+        "options": [
+          "50",
+          "100",
+          "%",
+          "1"
+        ],
+        "explanation": "About 99 percent. These are companies with fewer than 250 employees and limited turnover; they employ just over half of all employees."
+      }
+    }
+  },
+  {
+    "id": "o12",
+    "kind": "order",
+    "category_id": "language",
+    "question": "Ordne die Sprachen nach der Zahl ihrer Muttersprachler – die meisten zuerst.",
+    "options": [
+      "Deutsch",
+      "Isländisch",
+      "Hochchinesisch",
+      "Spanisch"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "order": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    "explanation": "Hochchinesisch (über 900 Millionen), Spanisch (knapp 500 Millionen), Deutsch (je nach Zählung 75 bis 100 Millionen), Isländisch (rund 350.000).",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Liste der meistgesprochenen Sprachen",
+    "source_url": "https://de.wikipedia.org/wiki/Liste_der_meistgesprochenen_Sprachen",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Put the languages in order of their number of native speakers – the most first.",
+        "options": [
+          "German",
+          "Icelandic",
+          "Standard Chinese",
+          "Spanish"
+        ],
+        "explanation": "Standard Chinese (over 900 million), Spanish (almost 500 million), German (75 to 100 million, depending on the count), Icelandic (about 350,000)."
+      }
+    }
+  },
+  {
+    "id": "l-b10",
+    "kind": "blank",
+    "category_id": "language",
+    "question": "Die übliche Mehrzahl von „Kaktus“ lautet ___.",
+    "options": [
+      "ein Wort",
+      "Lückentext"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "accept": [
+        "kakteen",
+        "kaktusse"
+      ],
+      "show": "Kakteen"
+    },
+    "explanation": "Üblich ist „Kakteen“; umgangssprachlich ist auch „Kaktusse“ zu hören.",
+    "difficulty": 2,
+    "tags": [
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kakteengewächse",
+    "source_url": "https://de.wikipedia.org/wiki/Kakteengewächse",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The usual plural of the German word \"Kaktus\" (cactus) is ___.",
+        "options": [
+          "a word",
+          "Fill the gap"
+        ],
+        "explanation": "The usual form is \"Kakteen\"; colloquially \"Kaktusse\" is also heard."
+      }
+    }
+  },
+  {
+    "id": "l-b11",
+    "kind": "blank",
+    "category_id": "language",
+    "question": "„Danke“ heißt auf Spanisch ___.",
+    "options": [
+      "ein Wort",
+      "Lückentext"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "accept": [
+        "gracias"
+      ],
+      "show": "Gracias"
+    },
+    "explanation": "„Gracias“ – und „muchas gracias“ heißt „vielen Dank“.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spanische Sprache",
+    "source_url": "https://de.wikipedia.org/wiki/Spanische_Sprache",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "\"Thank you\" in Spanish is ___.",
+        "options": [
+          "a word",
+          "Fill the gap"
+        ],
+        "explanation": "\"Gracias\" – and \"muchas gracias\" means \"thank you very much\"."
+      }
+    }
+  },
+  {
+    "id": "s-e12",
+    "kind": "estimate",
+    "category_id": "language",
+    "question": "Schätze: Wie viele Stichwörter enthält der aktuelle Rechtschreib-Duden ungefähr?",
+    "options": [
+      "10000",
+      "500000",
+      "Wörter",
+      "5000"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "value": 150000,
+      "rel": 0.2
+    },
+    "explanation": "Rund 150.000. Der deutsche Wortschatz insgesamt ist viel größer, weil man ständig neue Zusammensetzungen bilden kann – sie stehen nicht alle im Wörterbuch.",
+    "difficulty": 3,
+    "tags": [
+      "Deutsch",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Duden",
+    "source_url": "https://de.wikipedia.org/wiki/Duden",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Estimate: roughly how many entries does the current Duden spelling dictionary contain?",
+        "options": [
+          "10000",
+          "500000",
+          "words",
+          "5000"
+        ],
+        "explanation": "About 150,000. The German vocabulary as a whole is much larger, because new compounds are formed all the time – they are not all in the dictionary."
+      }
+    }
+  },
+  {
+    "id": "o13",
+    "kind": "order",
+    "category_id": "economy",
+    "question": "Ordne die Geldformen nach ihrer Entstehung – die früheste zuerst.",
+    "options": [
+      "Euro-Bargeld",
+      "Bitcoin",
+      "Münzen in Lydien",
+      "Papiergeld in China"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "order": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    "explanation": "Münzen in Lydien (um 600 v. Chr.), Papiergeld in China (11. Jahrhundert), Euro-Bargeld (2002), Bitcoin (2009).",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Zeitleiste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geschichte des Geldes",
+    "source_url": "https://de.wikipedia.org/wiki/Geschichte_des_Geldes",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Put the forms of money in order of their origin – the earliest first.",
+        "options": [
+          "Euro cash",
+          "Bitcoin",
+          "Coins in Lydia",
+          "Paper money in China"
+        ],
+        "explanation": "Coins in Lydia (around 600 BC), paper money in China (11th century), euro cash (2002), Bitcoin (2009)."
+      }
+    }
+  },
+  {
+    "id": "s-e13",
+    "kind": "estimate",
+    "category_id": "economy",
+    "question": "Schätze: In wie vielen Ländern der EU wird 2026 mit dem Euro bezahlt?",
+    "options": [
+      "5",
+      "27",
+      "Länder",
+      "1"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "value": 21,
+      "abs": 2
+    },
+    "explanation": "In 21 der 27 EU-Staaten – zuletzt kam am 1. Januar 2026 Bulgarien dazu.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eurozone",
+    "source_url": "https://de.wikipedia.org/wiki/Eurozone",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Estimate: in how many EU countries is the euro used in 2026?",
+        "options": [
+          "5",
+          "27",
+          "countries",
+          "1"
+        ],
+        "explanation": "In 21 of the 27 EU countries – Bulgaria was the most recent to join, on 1 January 2026."
+      }
+    }
+  },
+  {
+    "id": "l-b12",
+    "kind": "blank",
+    "category_id": "economy",
+    "question": "Die Währung Japans heißt ___.",
+    "options": [
+      "ein Wort",
+      "Lückentext"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "accept": [
+        "yen",
+        "¥"
+      ],
+      "show": "Yen"
+    },
+    "explanation": "Der Yen (¥) ist seit 1871 die Währung Japans.",
+    "difficulty": 1,
+    "tags": [
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Yen",
+    "source_url": "https://de.wikipedia.org/wiki/Yen",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The currency of Japan is called the ___.",
+        "options": [
+          "a word",
+          "Fill the gap"
+        ],
+        "explanation": "The yen (¥) has been Japan's currency since 1871."
+      }
+    }
+  },
+  {
+    "id": "qa-windrad",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was passiert im Generator eines Windrads?",
+    "options": [
+      "Ein Magnet dreht sich in Drahtspulen und erzeugt so Strom",
+      "Der Wind wird in Batterien gespeichert",
+      "Reibung erzeugt Wärme, die zu Strom wird",
+      "Die Rotorblätter laden sich elektrisch auf"
+    ],
+    "correct_index": 0,
+    "explanation": "Das sich ändernde Magnetfeld schiebt die Elektronen in den Spulen an – das ist elektromagnetische Induktion. Nach demselben Prinzip arbeiten die Generatoren in Wasser-, Kohle- und Atomkraftwerken.",
+    "difficulty": 2,
+    "tags": [
+      "Energie",
+      "Elektrizität"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elektrischer Generator",
+    "source_url": "https://de.wikipedia.org/wiki/Elektrischer_Generator",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens in the generator of a wind turbine?",
+        "options": [
+          "A magnet turns inside wire coils and so produces current",
+          "The wind is stored in batteries",
+          "Friction produces heat that becomes electricity",
+          "The rotor blades become electrically charged"
+        ],
+        "explanation": "The changing magnetic field pushes the electrons in the coils along – this is electromagnetic induction. Generators in hydro, coal and nuclear power stations work on the same principle."
+      }
+    }
+  },
+  {
+    "id": "qa-gps",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Woraus berechnet ein GPS-Empfänger seinen Abstand zu einem Satelliten?",
+    "options": [
+      "Aus der Laufzeit des Funksignals",
+      "Aus der Stärke des Signals",
+      "Aus der Farbe des Signals",
+      "Aus einem Foto des Satelliten"
+    ],
+    "correct_index": 0,
+    "explanation": "Jeder Satellit sendet die genaue Uhrzeit mit. Der Empfänger misst, wie lange das Signal unterwegs war, und multipliziert mit der Lichtgeschwindigkeit. Mit vier Satelliten kennt er Ort, Höhe und die genaue Zeit.",
+    "difficulty": 2,
+    "tags": [
+      "Internet",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Global Positioning System",
+    "source_url": "https://de.wikipedia.org/wiki/Global_Positioning_System",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a GPS receiver work out its distance to a satellite?",
+        "options": [
+          "From the travel time of the radio signal",
+          "From the strength of the signal",
+          "From the colour of the signal",
+          "From a photo of the satellite"
+        ],
+        "explanation": "Every satellite sends the exact time along. The receiver measures how long the signal was on its way and multiplies by the speed of light. With four satellites it knows its position, its height and the exact time."
+      }
+    }
+  },
+  {
+    "id": "qa-waermepumpe",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum liefert eine Wärmepumpe mehr Wärme, als sie Strom verbraucht?",
+    "options": [
+      "Sie holt den größten Teil der Wärme aus der Umgebung",
+      "Sie verbrennt zusätzlich Gas",
+      "Der Strom wird in ihr vervielfacht",
+      "Das stimmt nicht – sie liefert weniger Wärme als Strom"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Strom treibt nur den Verdichter an. Die Wärme selbst stammt größtenteils aus Luft, Erde oder Grundwasser. Je nach Anlage und Wetter entstehen aus einer Kilowattstunde Strom etwa drei bis vier Kilowattstunden Wärme.",
+    "difficulty": 2,
+    "tags": [
+      "Energie",
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wärmepumpe",
+    "source_url": "https://de.wikipedia.org/wiki/Wärmepumpe",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a heat pump deliver more heat than the electricity it uses?",
+        "options": [
+          "It takes most of the heat from its surroundings",
+          "It also burns gas",
+          "The electricity is multiplied inside it",
+          "That's not true – it delivers less heat than electricity"
+        ],
+        "explanation": "The electricity only drives the compressor. Most of the heat itself comes from the air, the ground or groundwater. Depending on the system and the weather, one kilowatt-hour of electricity yields about three to four kilowatt-hours of heat."
+      }
+    }
+  },
+  {
+    "id": "q-v-windrad",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie verändert sich die Leistung im Wind, wenn er doppelt so schnell weht?",
+    "options": [
+      "Sie verachtfacht sich",
+      "Sie verdoppelt sich",
+      "Sie vervierfacht sich",
+      "Sie bleibt gleich"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Leistung wächst mit der dritten Potenz der Geschwindigkeit: 2 · 2 · 2 = 8.",
+    "difficulty": 1,
+    "tags": [
+      "Energie",
+      "Windkraft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Wind_Turbine.webm",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the power in the wind change when it blows twice as fast?",
+        "options": [
+          "It becomes eight times as much",
+          "It doubles",
+          "It becomes four times as much",
+          "It stays the same"
+        ],
+        "explanation": "Power grows with the cube of the speed: 2 · 2 · 2 = 8."
+      }
+    }
+  },
+  {
+    "id": "q-v-galton",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Warum landen im Galtonbrett die meisten Kugeln in der Mitte?",
+    "options": [
+      "Weil es viel mehr Wege in die Mitte gibt als an den Rand",
+      "Weil die Mitte tiefer liegt",
+      "Weil die Nägel in der Mitte enger stehen",
+      "Zufall – beim nächsten Mal ist es anders"
+    ],
+    "correct_index": 0,
+    "explanation": "Für den Rand müsste eine Kugel an jedem Nagel in dieselbe Richtung springen. Für die Mitte gibt es die meisten Mischungen aus links und rechts.",
+    "difficulty": 1,
+    "tags": [
+      "Wahrscheinlichkeit",
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Galton_box.webm",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do most balls in a Galton board land in the middle?",
+        "options": [
+          "Because there are far more paths to the middle than to the edge",
+          "Because the middle is lower",
+          "Because the pins are closer together in the middle",
+          "Chance – next time it will be different"
+        ],
+        "explanation": "To reach the edge, a ball would have to bounce the same way at every pin. For the middle there are the most mixtures of left and right."
+      }
+    }
+  },
+  {
+    "id": "q-v-muybridge",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was zeigten Muybridges Serienfotos eines galoppierenden Pferdes?",
+    "options": [
+      "Für einen Moment sind alle vier Hufe in der Luft",
+      "Ein Huf berührt immer den Boden",
+      "Das Pferd schwebt mit weit gestreckten Beinen",
+      "Die Hinterbeine bewegen sich kaum"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Schwebemoment sind die Beine unter dem Körper zusammengezogen. Die gestreckten Beine auf alten Gemälden gibt es so nicht.",
+    "difficulty": 1,
+    "tags": [
+      "Pferdesport",
+      "Fotografie",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Muybridge_race_horse.webm",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Muybridge's series photographs of a galloping horse show?",
+        "options": [
+          "For a moment all four hooves are in the air",
+          "One hoof always touches the ground",
+          "The horse floats with its legs stretched far out",
+          "The hind legs hardly move"
+        ],
+        "explanation": "In the floating moment the legs are gathered under the body. The stretched-out legs of old paintings don't happen like that."
+      }
+    }
+  },
+  {
+    "id": "q-v-delfinkick",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie weit dürfen Kraul-, Rücken- und Schmetterlingsschwimmer nach Start und Wende höchstens unter Wasser schwimmen?",
+    "options": [
+      "5 Meter",
+      "15 Meter",
+      "25 Meter",
+      "So weit sie wollen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die 15-Meter-Regel verhindert, dass Rennen größtenteils unter Wasser stattfinden – dort wäre man schneller.",
+    "difficulty": 1,
+    "tags": [
+      "Schwimmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dolphin_Underwater.webm",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How far may freestyle, backstroke and butterfly swimmers swim under water after the start and each turn?",
+        "options": [
+          "5 metres",
+          "15 metres",
+          "25 metres",
+          "As far as they like"
+        ],
+        "explanation": "The 15-metre rule stops races from taking place mostly under water – where swimmers would be faster."
+      }
+    }
+  },
+  {
+    "id": "q-v-fingeralphabet",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Mit wie vielen Händen buchstabiert man im amerikanischen Fingeralphabet?",
+    "options": [
+      "Mit einer Hand",
+      "Mit beiden Händen",
+      "Ganz ohne Hände",
+      "Abwechselnd links und rechts"
+    ],
+    "correct_index": 0,
+    "explanation": "Das amerikanische Fingeralphabet kommt mit einer Hand aus, das britische braucht zwei.",
+    "difficulty": 1,
+    "tags": [
+      "Gebärdensprache",
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:American_Sign_Language_demo_-_Travis_Dougherty.ogv",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many hands are used to spell in the American finger alphabet?",
+        "options": [
+          "One hand",
+          "Both hands",
+          "No hands at all",
+          "Left and right in turns"
+        ],
+        "explanation": "The American finger alphabet needs only one hand; the British one uses two."
+      }
+    }
   }
 ]

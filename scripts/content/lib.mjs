@@ -84,6 +84,14 @@ export function validateContent({ categories, questions, videos }, { publicDir =
       if (blank(t.question) || blank(t.explanation)) errors.push(`${at}: translation "${loc}" needs question and explanation`);
       if (!Array.isArray(t.options) || t.options.length !== q.options?.length || t.options.some(blank)) errors.push(`${at}: translation "${loc}" must have the same number of options as the original`);
     }
+    // riddle hints: 1–3 per language, the same number in every language, never the answer itself
+    if (q.hints != null) {
+      const sets = [q.hints, ...Object.values(q.translations ?? {}).map((t) => t.hints)];
+      const answers = [q.options?.[q.correct_index], ...Object.values(q.translations ?? {}).map((t) => t.options?.[q.correct_index])].filter(Boolean).map((a) => String(a).toLowerCase());
+      if (!Array.isArray(q.hints) || q.hints.length < 1 || q.hints.length > 3 || q.hints.some(blank)) errors.push(`${at}: hints must be 1–3 texts`);
+      else if (sets.some((h) => !Array.isArray(h) || h.length !== q.hints.length)) errors.push(`${at}: every language needs the same number of hints`);
+      else if (sets.flat().some((h) => answers.some((a) => a.length > 3 && String(h).toLowerCase().includes(a)))) errors.push(`${at}: a hint gives away the answer`);
+    }
     if (blank(q.source_name)) warnings.push(`${at}: no source name`);
     if (blank(q.source_url)) warnings.push(`${at}: no source URL`);
   }
@@ -165,9 +173,9 @@ export function buildImportSql({ categories, questions, videos }, { update = fal
     `begin;`,
     insert("categories", ["id", "slug", "name", "description", "display_order", "is_active", "translations"],
       (only ? [] : categories).map((c) => [s(c.id), s(c.slug), s(c.name), s(c.description), c.display_order, c.is_active, j(c.translations ?? {})]), ["id"], update),
-    insert("questions", ["id", "kind", "category_id", "question", "options", "difficulty", "tags", "source_name", "source_url", "verification_status", "status", "show_in_feed", "created_at", "min_age", "max_age", "translations"],
+    insert("questions", ["id", "kind", "category_id", "question", "options", "difficulty", "tags", "source_name", "source_url", "verification_status", "status", "show_in_feed", "created_at", "min_age", "max_age", "translations", "hints"],
       qs.map((q) => [s(q.id), s(q.kind), s(q.category_id), s(q.question), j(q.options), q.difficulty, arr(q.tags), s(q.source_name), s(q.source_url), s(q.verification_status), s(q.status), q.show_in_feed, s(q.created_at), q.min_age, n(q.max_age),
-        j(mapTr(q.translations, (t) => ({ question: t.question, options: t.options })))]), ["id"], update),
+        j(mapTr(q.translations, (t) => ({ question: t.question, options: t.options, ...(t.hints ? { hints: t.hints } : {}) }))), q.hints ? j(q.hints) : "null"]), ["id"], update),
     // explanations (original and translated) go to the private answer table
     insert("question_answers", ["question_id", "correct_index", "explanation", "translations", "answer"],
       qs.map((q) => [s(q.id), q.correct_index, s(q.explanation), j(mapTr(q.translations, (t) => ({ explanation: t.explanation }))), q.answer ? j(q.answer) : "null"]), ["question_id"], update),

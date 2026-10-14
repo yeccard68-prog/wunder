@@ -17,7 +17,7 @@ const rows = {
   questions: content.questions.map((q) => ({
     id: q.id, kind: q.kind, category_id: q.category_id, question: q.question, options: q.options, difficulty: q.difficulty, tags: q.tags, source_name: q.source_name, source_url: q.source_url,
     verification_status: q.verification_status, status: q.status, show_in_feed: q.show_in_feed, created_at: q.created_at, min_age: q.min_age, max_age: q.max_age ?? null,
-    translations: mapTr(q.translations, (t) => ({ question: t.question, options: t.options })),
+    translations: mapTr(q.translations, (t) => ({ question: t.question, options: t.options, ...(t.hints ? { hints: t.hints } : {}) })), hints: q.hints ?? null,
   })),
   question_answers: content.questions.map((q) => ({ question_id: q.id, correct_index: q.correct_index, explanation: q.explanation, translations: mapTr(q.translations, (t) => ({ explanation: t.explanation })), answer: q.answer ?? null })),
   videos: content.videos.map((v) => ({

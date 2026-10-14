@@ -1,0 +1,67 @@
+{
+ "windrad": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Brooklyn_Wind_Turbine.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Brooklyn_Wind_Turbine.webm",
+  "w": 2160,
+  "h": 3840,
+  "duration": 22.921,
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Tom Ackroyd",
+  "credit": "Own work",
+  "description": "This is a video of the Brooklyn Wind Turbine in operation, Carey's Gully Reserve, Wellington, New Zealand."
+ },
+ "galton": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Galton_box.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Galton_box.webm",
+  "w": 3952,
+  "h": 2222,
+  "duration": 14.851,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Exhibit made by Estes Objethos Atelier, video by Rodrigo.Argenton",
+  "credit": "Matemateca (IME/USP)",
+  "description": "Galton box that presents a normal distribution, available on the collection of Matemateca IME-USP"
+ },
+ "muybridge": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Muybridge_race_horse.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Muybridge_race_horse.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 22.573,
+  "license": "Public domain",
+  "licenseUrl": null,
+  "author": "Eadweard Muybridge",
+  "credit": "https://commons.wikimedia.org/wiki/File:Muybridge_race_horse_animated.gif",
+  "description": "Animated sequence of a race horse galloping. Photos taken by Eadweard Muybridge (died 1904), first published in 1887 at Philadelphia (Animal Locomotion). In this version, the animation has been stretched to give it a 16ː9 aspect ratio."
+ },
+ "delfin": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Dolphin_Underwater.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Dolphin_Underwater.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 8.483,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "It is a wonderful world",
+  "credit": "Own work",
+  "description": "Swimmer performing the dolphin kick underwater, filmed from underwater"
+ },
+ "gebaerden": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/American_Sign_Language_demo_-_Travis_Dougherty.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:American_Sign_Language_demo_-_Travis_Dougherty.ogv",
+  "w": 960,
+  "h": 540,
+  "duration": 45.461333333333336,
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Fuzheado",
+  "credit": "Own work",
+  "description": "American Sign Language demo - Travis Dougherty, alphabet"
+ }
+}

@@ -111,9 +111,11 @@ export function databaseEntries(items: ReviewItem[], locale: string, reviews: Ma
   return items.map((item) => {
     const en = locale === "en" && item.en ? item.en : null;
     const options = en?.options ?? item.options;
+    const hints = en?.hints ?? item.hints ?? [];
     const blocks: Block[] = [
       ...(options ?? []).map((o, i) => ({ text: `${i === item.correctIndex ? "✓" : "·"} ${o}`, tone: (i === item.correctIndex ? "good" : "muted") as Block["tone"] })),
       { text: en?.body ?? item.body },
+      ...hints.map((h, i) => ({ label: `Tipp ${i + 1}`, text: h })),
     ];
     const review = stateOf(item.kind, item.id, null, reviews);
     const state: ReviewState = item.status === "review" || item.reports > 0 ? "reported" : review.state === "change" ? "change" : "open";
