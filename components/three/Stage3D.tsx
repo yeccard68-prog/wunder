@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type * as THREE from "three";
 import type { Scene3D } from "./types";
+import { useT } from "@/lib/store";
 
 const BACKGROUND = 0x0f0e0d;
 const MAX_PIXEL_RATIO = 2; // sharper than that costs frames on phones and is not visible
@@ -15,6 +16,7 @@ const weakDevice = () => {
   return (n.deviceMemory ?? 8) <= 4 || (n.hardwareConcurrency ?? 8) <= 4;
 };
 const MAX_YAW = 1.1; // how far the learner can turn the scene with a horizontal drag (radians)
+const ZOOM = { min: 0.55, max: 1.6 }; // factor on the camera distance: smaller = closer
 
 interface Runtime {
   T: typeof THREE;
@@ -37,6 +39,9 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
   const heading = useRef<HTMLParagraphElement>(null);
   const rt = useRef<Runtime | null>(null);
   const yaw = useRef(0);
+  const zoom = useRef(1);
+  const [zoomShown, setZoomShown] = useState(1); // for the buttons (disabled at the limits) and tests
+  const tr = useT();
   const frame = useRef({ step, p, t, into });
   const [ready, setReady] = useState(false);
   const cost = useRef({ frames: 0, ms: 0, lowered: false });
@@ -57,7 +62,8 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
     const dz = view.pos[2] - view.look[2];
     const c = Math.cos(yaw.current);
     const s = Math.sin(yaw.current);
-    r.camera.position.set(view.look[0] + dx * c - dz * s, view.pos[1], view.look[2] + dx * s + dz * c);
+    const z = zoom.current;
+    r.camera.position.set(view.look[0] + (dx * c - dz * s) * z, view.look[1] + (view.pos[1] - view.look[1]) * z, view.look[2] + (dx * s + dz * c) * z);
     r.camera.lookAt(view.look[0], view.look[1], view.look[2]);
     r.renderer.render(r.scene, r.camera);
     // a device that needs too long per frame gets a lower resolution – once, after a short measurement
@@ -262,25 +268,63 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
     yaw.current = 0; // every step starts from its intended view
   }, [step]);
 
-  // horizontal drag turns the scene; vertical movement stays with the page (feed scrolling)
+  // horizontal drag turns the scene; vertical movement stays with the page (feed scrolling).
+  // Two fingers pinch to zoom; on a computer: the buttons, or pinching on the trackpad (ctrl + wheel).
+  const setZoom = (value: number) => {
+    zoom.current = Math.max(ZOOM.min, Math.min(ZOOM.max, value));
+    setZoomShown(Math.round(zoom.current * 100) / 100);
+    draw();
+  };
   const drag = useRef<{ x: number; yaw: number } | null>(null);
+  const touches = useRef(new Map<number, { x: number; y: number }>());
+  const pinch = useRef<{ distance: number; zoom: number } | null>(null);
+  const spread = () => {
+    const [a, b] = [...touches.current.values()];
+    return Math.hypot(a.x - b.x, a.y - b.y);
+  };
   const onDown = (e: React.PointerEvent) => {
-    drag.current = { x: e.clientX, yaw: yaw.current };
+    touches.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (touches.current.size === 2) {
+      drag.current = null;
+      pinch.current = { distance: spread(), zoom: zoom.current };
+    } else drag.current = { x: e.clientX, yaw: yaw.current };
   };
   const onMove = (e: React.PointerEvent) => {
+    if (touches.current.has(e.pointerId)) touches.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinch.current && touches.current.size === 2) return setZoom((pinch.current.zoom * pinch.current.distance) / Math.max(1, spread()));
     if (!drag.current) return;
     yaw.current = Math.max(-MAX_YAW, Math.min(MAX_YAW, drag.current.yaw - (e.clientX - drag.current.x) * 0.008));
     draw();
   };
-  const onUp = () => {
+  const onUp = (e: React.PointerEvent) => {
+    touches.current.delete(e.pointerId);
+    if (touches.current.size < 2) pinch.current = null;
     drag.current = null;
   };
+  useEffect(() => {
+    const el = host.current;
+    if (!el) return;
+    const wheel = (e: WheelEvent) => {
+      if (!e.ctrlKey) return; // a plain wheel keeps scrolling the page
+      e.preventDefault();
+      setZoom(zoom.current * Math.exp(e.deltaY * 0.01));
+    };
+    el.addEventListener("wheel", wheel, { passive: false });
+    return () => el.removeEventListener("wheel", wheel);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div ref={host} data-testid="stage-3d" data-ready={ready} className="relative w-full select-none" style={{ aspectRatio: "9 / 10", maxHeight: compact ? "38dvh" : undefined, touchAction: "pan-y" }} onPointerDown={onDown} onPointerMove={onMove} onPointerUp={onUp} onPointerLeave={onUp} onPointerCancel={onUp}>
       <canvas ref={canvas} role="img" aria-label={title} className="absolute inset-0 block h-full w-full" />
       <div ref={layer} className="pointer-events-none absolute inset-0 overflow-hidden" />
       <p ref={heading} className="pointer-events-none absolute inset-x-0 top-2.5 text-center font-display text-lg font-semibold drop-shadow" />
+      {ready && (
+        <div className="absolute right-2 top-2 flex flex-col gap-1.5" data-zoom={zoomShown}>
+          <button onClick={() => setZoom(zoom.current / 1.25)} disabled={zoomShown <= ZOOM.min} aria-label={tr("Näher heran")} className="press flex h-9 w-9 items-center justify-center rounded-full bg-black/45 text-lg font-bold text-white backdrop-blur disabled:opacity-30">+</button>
+          <button onClick={() => setZoom(zoom.current * 1.25)} disabled={zoomShown >= ZOOM.max} aria-label={tr("Weiter weg")} className="press flex h-9 w-9 items-center justify-center rounded-full bg-black/45 text-lg font-bold text-white backdrop-blur disabled:opacity-30">−</button>
+        </div>
+      )}
       {!ready && <div role="status" aria-label="3D" className="absolute left-1/2 top-1/2 h-10 w-10 -translate-x-1/2 -translate-y-1/2 animate-spin rounded-full border-[3px] border-white/25 border-t-white" />}
     </div>
   );

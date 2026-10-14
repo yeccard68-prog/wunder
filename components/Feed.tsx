@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState, type ReactNode } from "react"
 import { Bookmark, ChevronDown, Clapperboard, HelpCircle, Shapes } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
+import VisualCard from "@/components/viz";
 import ClipPlayer from "@/components/ClipPlayer";
 import { Sheet } from "@/components/ui";
 import { scrollToElement, useAutoAdvance } from "@/lib/advance";
@@ -175,6 +176,7 @@ function Entry({ entry, fill }: { entry: FeedEntry; fill?: boolean }) {
   if (entry.kind === "item") return <KnowledgeCard item={entry.item} reason={t(entry.reason, entry.vars)} />;
   if (entry.kind === "clip") return <ClipCard clip={entry.clip} fill={fill} />;
   if (entry.kind === "insight") return <InsightCard book={entry.book} idea={entry.idea} standalone />;
+  if (entry.kind === "visual") return <VisualCard visual={entry.visual} />;
   return <AnimationCard animation={entry.animation} compact={fill} />;
 }
 

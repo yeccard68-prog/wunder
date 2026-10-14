@@ -306,3 +306,9 @@ Offen bis zur Store-Reife:
 - **Animationen:** Flaschenzug (`pulley`), Stromkreis (`circuit`), Wasserkreislauf (`watercycle`); Inhalte in `content/_batches/2026-10-animations-3d-6.mjs`. Die Vorhersagefrage hält jetzt kurz *vor* dem nächsten Schritt an, damit dessen Beschriftung die Antwort nicht verrät.
 - Stand: 20 Animationen (19 in 3D, Herz gezeichnet), 631 Fragen (587 im Feed), 10 Themen, 3 interaktive Visualisierungen.
 - Hinweis: Mehrere Abschnitte oben trugen Daten zwischen dem 18. und 21.10.; sie sind auf den 13.10.2026 berichtigt. Einige Fragen haben ein Erstelldatum bis zum 21.10. in der Datenbank – ohne Folgen, sie gelten lediglich ein paar Tage länger als „neu“.
+
+## 29. Offene Punkte abgearbeitet (14.10.2026)
+
+- **Visualisierungen:** zwei neue Typen `bars` (Schallgeschwindigkeit, Werte aus dem Wikipedia-Artikel „Schallgeschwindigkeit“, abgerufen 14.10.2026) und `timeline` (Technik-Meilensteine); Inhalte in `content/_batches/2026-10-visuals-2.mjs`. Visualisierungen stehen jetzt auch im Feed (`mixFeed`, fünfter Medienplatz; ausprobierte rücken nach hinten, gemerkt in `state.visuals`).
+- **3D-Bedienung:** Tempo-Knopf im Player (0,75×/1×/1,5×, auf dem Gerät gemerkt), Zoom in der 3D-Bühne (Knöpfe, Zwei-Finger-Geste, Strg + Mausrad bzw. Trackpad-Geste; ein normales Mausrad scrollt weiter die Seite).
+- **Clip-Fragen:** Wer erst im zweiten Versuch richtig liegt, bekommt die Hälfte der Punkte – auf dem Server (`submit_answer`, Migration `20261020100000_second_attempt_half_points.sql`) und im Demo-Modus.

@@ -18,6 +18,8 @@ export const VIZ: Record<VisualType, ComponentType<VizProps>> = {
   growth: lazy(() => import("@/components/viz/GrowthViz")),
   scatter: lazy(() => import("@/components/viz/ScatterViz")),
   market: lazy(() => import("@/components/viz/MarketViz")),
+  bars: lazy(() => import("@/components/viz/BarsViz")),
+  timeline: lazy(() => import("@/components/viz/TimelineViz")),
 };
 
 /**
@@ -27,7 +29,7 @@ export const VIZ: Record<VisualType, ComponentType<VizProps>> = {
  */
 export default function VisualCard({ visual, titles = {} }: { visual: Visual; titles?: Record<string, string> }) {
   const t = useT();
-  const { state, items } = useStore();
+  const { state, items, update } = useStore();
   const color = categoryById(visual.categoryId).color;
   const Viz = VIZ[visual.type];
   const [guess, setGuess] = useState<number | null>(null);
@@ -39,6 +41,7 @@ export default function VisualCard({ visual, titles = {} }: { visual: Visual; ti
     if (guess !== null) return;
     setGuess(i);
     track("visual_predict", visual.id, "visual");
+    if (!(state.visuals ?? []).includes(visual.id)) update({ visuals: [...(state.visuals ?? []), visual.id] });
   };
   const changed = () => {
     if (!touched) track("visual_explore", visual.id, "visual");

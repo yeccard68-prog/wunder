@@ -360,7 +360,7 @@ test("an account set up for a children's age band is asked for the age again", a
 test("interactive: compound interest – guess first, then the sliders change curve and numbers", async ({ page }) => {
   await signIn(page);
   await page.goto("/lab/");
-  await expect(page.getByTestId("visual-row")).toHaveCount(3);
+  await expect(page.getByTestId("visual-row")).toHaveCount(5);
   await page.getByRole("button", { name: /Zinseszins/ }).click();
   const card = page.getByTestId("visual-card");
   await expect(card).toHaveAttribute("data-revealed", "false");
@@ -440,4 +440,63 @@ test("after the question about a clip is answered, the feed moves on by itself �
   await expect(notice).toContainText("Gleich geht es weiter");
   await expect(notice).toHaveCount(0, { timeout: 8_000 }); // the question closes …
   await expect.poll(() => feedTop(page, "feed-clip"), { timeout: 5_000 }).toBeLessThan(-200); // … and the next entry is on screen
+});
+
+test("interactive: speed of sound – bars switch to the relative view and can be sorted", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/lab/?v=v-schall");
+  const card = page.getByTestId("visual-card");
+  await expect(card.getByTestId("data-kind")).toHaveText("Echte Daten");
+  await card.getByRole("button", { name: "Gut viermal so schnell" }).click();
+  await card.locator("[data-bar=water]").click();
+  await expect(card.getByTestId("viz-readout")).toHaveText("Wasser: 1.484 m/s – 4,3-mal so schnell wie in Luft.");
+  await expect(card.locator("[data-bar=steel]")).toContainText("5.920 m/s");
+  await card.getByRole("button", { name: "× so schnell wie in Luft" }).click();
+  await expect(card.locator("[data-bar=steel]")).toContainText("17 ×");
+  await expect(card.locator("[data-bar=air]")).toContainText("1 ×");
+  const first = () => card.locator("[data-bar]").first().getAttribute("data-bar");
+  expect(await first()).toBe("co2"); // the order of the data: gases, liquids, solids
+  await card.getByRole("button", { name: "nach Tempo sortieren" }).click();
+  expect(await first()).toBe("steel");
+});
+
+test("interactive: timeline – the Moon landing appears after the guess, gaps and spacing can be switched", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/lab/?v=v-technik-zeitleiste");
+  const card = page.getByTestId("visual-card");
+  await expect(card.locator("[data-event=moon]")).toHaveCount(0);
+  await card.getByRole("button", { name: "66 Jahre" }).click();
+  await expect(card.locator("[data-event=moon]")).toHaveCount(1);
+  await card.locator("[data-event=flight]").click();
+  await expect(card.getByTestId("viz-readout")).toHaveText("Erster Motorflug: 1903");
+  await card.getByRole("button", { name: "Jahre dazwischen zeigen" }).click();
+  await expect(card.locator("[data-event=moon]")).toContainText("+66");
+  const y = () => card.locator("[data-event=bulb] circle").first().getAttribute("cy");
+  const scaled = await y();
+  await card.getByRole("button", { name: "maßstabsgetreu" }).click();
+  await expect(card.getByRole("button", { name: "gleiche Abstände" })).toHaveAttribute("aria-pressed", "true");
+  expect(await y()).not.toBe(scaled);
+});
+
+test("3D animations: the playback speed can be chosen and is remembered; the view can be zoomed", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explain/?a=a-zahnraeder");
+  const speed = page.getByTestId("speed");
+  await expect(speed).toHaveText("1×");
+  await speed.click();
+  await expect(speed).toHaveText("1,5×");
+  await page.reload();
+  await expect(page.getByTestId("speed")).toHaveText("1,5×");
+  const player = page.getByTestId("animation-player");
+  if ((await player.getAttribute("data-renderer")) === "three") {
+    const stage = page.getByTestId("stage-3d");
+    await expect(stage).toHaveAttribute("data-ready", "true", { timeout: 20_000 });
+    const zoom = stage.locator("[data-zoom]");
+    await expect(zoom).toHaveAttribute("data-zoom", "1");
+    await stage.getByRole("button", { name: "Näher heran" }).click();
+    await expect(zoom).toHaveAttribute("data-zoom", "0.8");
+    await stage.getByRole("button", { name: "Weiter weg" }).click();
+    await stage.getByRole("button", { name: "Weiter weg" }).click();
+    await expect(zoom).toHaveAttribute("data-zoom", "1.25");
+  }
 });

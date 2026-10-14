@@ -104,6 +104,7 @@ export interface UserState {
   comments: Record<string, string[]>; // own comments per clip (device only)
   // book ideas: learned / saved, and for each idea recalled from memory when it is due again
   books: { read: string[]; saved: string[]; recall?: Record<string, RecallRecord> };
+  visuals?: string[]; // interactive visualisations already tried (prediction made) – they move to the back of the feed
   likes: string[];
   saves: string[];
   hidden: string[];

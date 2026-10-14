@@ -323,8 +323,14 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const isClip = (id: string) => clipsRef.current.some((c) => c.id === id);
 
   // ---------- answering ----------
+  const missed = useRef(new Set<string>()); // demo mode: clip questions whose first try was wrong
   const firstTry = useCallback(async (item: Item, selected: number): Promise<boolean | null> => {
-    if (MODE !== "live") return item.correctIndex == null ? null : selected === item.correctIndex;
+    if (MODE !== "live") {
+      if (item.correctIndex == null) return null;
+      const right = selected === item.correctIndex;
+      if (!right) missed.current.add(item.id);
+      return right;
+    }
     try {
       return await api.checkFirstAttempt(item.id, selected);
     } catch {
@@ -357,6 +363,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       let counts = true; // counts toward daily goal + streak
       if (!prev) {
         xp = item.kind === "fact" ? (correct ? XP.claim : 0) : XP.first(correct, item.difficulty);
+        if (correct && missed.current.has(item.id)) xp = Math.floor(xp / 2); // right only on the second attempt – as on the server
         rec = { ...base, correct, box: correct ? null : 0, due: correct ? null : dueAt(0), reviews: 0 };
       } else if (isDue(prev.due)) {
         const box = (prev.box ?? 0) + 1;

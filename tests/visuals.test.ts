@@ -26,7 +26,7 @@ test("visuals: every record is complete, sourced, translated and points to thing
   }
   assert.ok(new Set(visualRows.map((v) => v.type)).size >= 3); // several kinds of visualisation
   assert.equal(visualsFor("en", null).find((v) => v.id === "v-kepler")!.labels.earth, "Earth");
-  assert.equal(visualsFor("de", "10-12").length, 0);
+  assert.deepEqual(visualsFor("de", "10-12").map((v) => v.id).sort(), visualRows.filter((v) => v.min_age <= 10).map((v) => v.id).sort()); // the age level filters
 });
 
 test("compound interest: the numbers shown are right", () => {
@@ -78,4 +78,28 @@ test("axes: round ticks, logarithmic ticks, scaling and number formats", () => {
   assert.equal(formatNumber(152602.3, "de"), "152.602");
   assert.equal(formatNumber(152602.3, "en"), "152,602");
   assert.equal(formatNumber(1.5, "de", 2), "1,5");
+});
+
+test("speed of sound: real values, relative view and the thunder task add up", async () => {
+  const { relativeTo } = await import("../lib/visuals");
+  const c = visualRows.find((v) => v.id === "v-schall")!.config as import("../lib/visuals").BarsConfig;
+  const rel = relativeTo(c.items, c.baseline);
+  assert.equal(rel[c.items.findIndex((i) => i.key === "air")], 1);
+  assert.equal(Math.round(rel[c.items.findIndex((i) => i.key === "water")] * 100) / 100, 4.33); // "a little over four times" in the prediction
+  assert.equal(Math.round((6 * 343) / 100) / 10, 2.1); // six seconds to the thunder: about two kilometres
+  assert.ok(relativeTo(c.items, "nothing").every((x) => Number.isNaN(x))); // an unknown baseline gives no numbers rather than wrong ones
+});
+
+test("timeline: gaps between milestones, and labels never overlap", async () => {
+  const { gaps, spreadLabels } = await import("../lib/visuals");
+  const c = visualRows.find((v) => v.id === "v-technik-zeitleiste")!.config as import("../lib/visuals").TimelineConfig;
+  const g = gaps(c.items);
+  assert.equal(g[0].years, null);
+  assert.equal(g.find((x) => x.key === "moon")!.years, 66); // the prediction: first flight → Moon landing
+  assert.equal(g.find((x) => x.key === "steam")!.years, 319);
+  assert.equal(g.find((x) => x.key === "smartphone")!.years, 16);
+  assert.ok(c.items.every((e) => e.year >= c.from && e.year <= c.to));
+  const placed = spreadLabels([10, 12, 13, 80, 81], 19);
+  assert.deepEqual(placed, [10, 29, 48, 80, 99]);
+  for (let i = 1; i < placed.length; i++) assert.ok(placed[i] - placed[i - 1] >= 19);
 });

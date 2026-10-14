@@ -1,4 +1,4 @@
-# Interaktive Visualisierungen (Stand 13.10.2026)
+# Interaktive Visualisierungen (Stand 14.10.2026)
 
 Diagramme und kleine Modelle, die Lernende selbst verändern. Erreichbar unter **Entdecken → Interaktiv** (`/lab/`, eine einzelne über `/lab/?v=<id>`).
 
@@ -29,6 +29,8 @@ Typen heute:
 | `growth` | `GrowthViz` | Zinseszins | vier Regler, zwei Linien, Zahlen, Datentabelle |
 | `scatter` | `ScatterViz` | Planeten (Keplers drittes Gesetz, echte Daten) | Punkt antippen, lineare ↔ logarithmische Achsen, Gesetz einblenden, Punkt erscheint nach der Schätzung |
 | `market` | `MarketViz` | Angebot und Nachfrage | zwei Regler verschieben die Geraden, Schnittpunkt und Erklärtext folgen |
+| `bars` | `BarsViz` | Schallgeschwindigkeit (echte Daten) | Balken antippen, absolute ↔ relative Werte („× so schnell wie in Luft“), sortieren |
+| `timeline` | `TimelineViz` | Technik-Meilensteine (echte Daten) | Ereignis antippen, Abstände einblenden, maßstabsgetreu ↔ gleiche Abstände; Beschriftungen weichen sich aus (`spreadLabels`) |
 
 Lernmuster aus dem Auftrag und wo sie stecken: **Predict** (Schätzfrage, sperrt das Ausprobieren bis zur Antwort), **Manipulate/Explore** (Regler, Umschalter), **Explain** (fester Erklärtext, beim Markt zusätzlich ein Text, der auf die Reglerstellung reagiert), **Compare** (gestrichelte Ausgangslage, „vorher“-Werte), **Apply** (Aufgabe), **Recall** (verknüpfte Quizfrage).
 
@@ -78,4 +80,4 @@ Hinweis: `scatter` zeichnet das Gesetz als `y = x^power` ohne Vorfaktor. Für `y
 
 ## Was der Auftrag nennt und es noch nicht gibt
 
-Balken-, Stapel-, Kreisdiagramme, Histogramm, Heatmap, Sankey, Netzwerk, Treemap, Zeitachse; Geometrie zum Ziehen, Vektoren, Wahrscheinlichkeit, Ableitungen, Trigonometrie; Entscheidungsbäume, Zustandsmaschinen, Algorithmus-Visualisierungen; Concept Map über alle Inhalte. In den 3D-Animationen fehlen Zoom, wählbare Geschwindigkeit, ein- und ausblendbare Ebenen und antippbare Bauteile (vorhanden: Start, Pause, Schritt vor und zurück, Neustart, Drehen per Wischen, Vorhersagefrage). Visualisierungen erscheinen noch nicht im Feed und nicht im Prüfbildschirm.
+Stapel- und Kreisdiagramme, Histogramm, Heatmap, Sankey, Netzwerk, Treemap; Geometrie zum Ziehen, Vektoren, Wahrscheinlichkeit, Ableitungen, Trigonometrie; Entscheidungsbäume, Zustandsmaschinen, Algorithmus-Visualisierungen; Concept Map über alle Inhalte. In den 3D-Animationen fehlen ein- und ausblendbare Ebenen und antippbare Bauteile (vorhanden: Start, Pause, Schritt vor und zurück, Neustart, Tempo 0,75×/1×/1,5×, Zoom per Knopf, Zwei-Finger-Geste oder Trackpad, Drehen per Wischen, Vorhersagefrage). Visualisierungen erscheinen im Feed (jede fünfte Medien-Position), aber noch nicht im Prüfbildschirm.

@@ -39,3 +39,15 @@ test("combined feed: watched clips and finished animations move to the back, hid
   const hidden = mixFeed(ranked, clips, animations, state({ hidden: [clip.clip.id] }));
   assert.ok(!hidden.some((e) => entryId(e) === clip.clip.id));
 });
+
+test("combined feed: interactive visualisations take the fifth media slot; tried ones move to the back", async () => {
+  const { visualsFor } = await import("../lib/visuals");
+  const visuals = visualsFor("de", "16+");
+  const feed = mixFeed(ranked, clips, animations, state(), [], visuals);
+  assert.equal(feed.filter((e) => e.kind === "visual").length, visuals.length);
+  const media = feed.filter((e) => e.kind !== "item").map((e) => e.kind);
+  assert.equal(media[4], "visual");
+  const tried = mixFeed(ranked, clips, animations, { ...state(), visuals: [visuals[0].id] }, [], visuals);
+  const order = tried.filter((e) => e.kind === "visual").map((e) => (e as { visual: { id: string } }).visual.id);
+  assert.equal(order.at(-1), visuals[0].id);
+});

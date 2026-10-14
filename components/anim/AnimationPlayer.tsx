@@ -6,7 +6,9 @@ import { SCENES } from "@/components/anim/scenes";
 import Stage3D from "@/components/three/Stage3D";
 import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
-import { useT } from "@/lib/store";
+import { useStore, useT } from "@/lib/store";
+
+const SPEEDS = [0.75, 1, 1.5];
 
 /**
  * Plays one explainer animation: a scene drawn step by step, with a caption per step.
@@ -17,6 +19,7 @@ import { useT } from "@/lib/store";
  */
 export default function AnimationPlayer({ animation, onFinished, active = true, compact, mounted = true }: { animation: Animation; onFinished?: () => void; active?: boolean; compact?: boolean; mounted?: boolean }) {
   const t = useT();
+  const { state } = useStore();
   const [no3d, setNo3d] = useState(false); // WebGL missing or lost → 2D drawing, or text only
   const three = animation.renderer === "three" && !no3d;
   const Scene = (SCENES as Record<string, (typeof SCENES)[string] | undefined>)[animation.renderer === "three" ? (animation.fallback ?? "") : animation.scene];
@@ -26,6 +29,27 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
   const [playing, setPlaying] = useState(false);
   const [still, setStill] = useState(false); // reduced motion
   const finished = useRef(false);
+  // playback speed, remembered on this device (a convenience – nothing breaks without it)
+  const [speed, setSpeed] = useState(1);
+  const speedRef = useRef(1);
+  speedRef.current = speed;
+  useEffect(() => {
+    try {
+      const saved = Number(localStorage.getItem("wunder.anim.speed"));
+      if (SPEEDS.includes(saved)) setSpeed(saved);
+    } catch {
+      /* storage blocked */
+    }
+  }, []);
+  const nextSpeed = () => {
+    const value = SPEEDS[(SPEEDS.indexOf(speed) + 1) % SPEEDS.length];
+    setSpeed(value);
+    try {
+      localStorage.setItem("wunder.anim.speed", String(value));
+    } catch {
+      /* storage blocked */
+    }
+  };
   const predict = animation.predict;
   const predictAt = predict ? durations.slice(0, predict.step).reduce((a, b) => a + b, 0) : Infinity;
   const [asking, setAsking] = useState(false); // stopped for the prediction
@@ -66,7 +90,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
     const tick = (now: number) => {
       const dt = Math.min(0.1, (now - last) / 1000); // a hidden tab must not jump ahead
       last = now;
-      setTime((v) => Math.min(total, v + dt));
+      setTime((v) => Math.min(total, v + dt * speedRef.current));
       frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick);
@@ -156,7 +180,8 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
         </p>
       )}
 
-      <div className="mt-2 flex items-center justify-center gap-3">
+      <div className="relative mt-2 flex items-center justify-center gap-3">
+        <button onClick={nextSpeed} aria-label={t("Tempo: {n}-fach", { n: String(speed).replace(".", ",") })} data-testid="speed" className="press absolute left-0 h-9 rounded-full border border-line px-3 text-xs font-bold tnum">{String(speed).replace(".", state.settings.locale === "en" ? "." : ",")}×</button>
         <button onClick={() => go(step - (p > 0.25 && !still ? 0 : 1))} disabled={step === 0 && time === 0} aria-label={t("Schritt zurück")} className="press flex h-12 w-12 items-center justify-center rounded-full bg-raised disabled:opacity-40">
           <ChevronLeft size={22} />
         </button>

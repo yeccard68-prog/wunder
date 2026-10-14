@@ -9,6 +9,7 @@ import { animationsFor } from "@/lib/animations";
 import { booksFor, insightQueue } from "@/lib/books";
 import { rankClips } from "@/lib/clips";
 import { mixFeed } from "@/lib/feed";
+import { visualsFor } from "@/lib/visuals";
 import { dailyCount, dueReviews, goalQuestions, today } from "@/lib/gamification";
 import { rankForYou } from "@/lib/ranking";
 import { useStore, useT } from "@/lib/store";
@@ -78,7 +79,8 @@ export default function HomePage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const books = useMemo(() => booksFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState())), [forYou, clips, animations, books]);
+  const visuals = useMemo(() => visualsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
+  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals), [forYou, clips, animations, books, visuals]);
 
   if (!feed.length)
     return (

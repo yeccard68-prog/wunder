@@ -7,7 +7,7 @@ import visualsJson from "@/content/visuals.json";
 import { fitsAge } from "@/lib/content";
 import type { AgeBand } from "@/lib/types";
 
-export type VisualType = "growth" | "scatter" | "market";
+export type VisualType = "growth" | "scatter" | "market" | "bars" | "timeline";
 /** real = measured values from the named source · model = computed from the stated formula with example numbers */
 export type DataKind = "real" | "model";
 
@@ -29,6 +29,16 @@ export interface ScatterConfig {
   points: { key: string; x: number; y: number; late?: boolean }[];
   /** y = x^power is drawn as the law behind the points */
   power: number;
+}
+export interface BarsConfig {
+  unit: string;
+  baseline: string; // key of the bar the others are compared with in the relative view
+  items: { key: string; value: number }[]; // in a meaningful order (e.g. gases, liquids, solids)
+}
+export interface TimelineConfig {
+  from: number; // first and last year of the axis
+  to: number;
+  items: { key: string; year: number; late?: boolean }[];
 }
 export interface MarketConfig {
   unit: string;
@@ -56,7 +66,7 @@ export interface VisualRow extends Texts {
   min_age: number;
   difficulty: 1 | 2 | 3;
   data_kind: DataKind;
-  config: GrowthConfig | ScatterConfig | MarketConfig;
+  config: GrowthConfig | ScatterConfig | MarketConfig | BarsConfig | TimelineConfig;
   predict_correct: number | null;
   sources: { name: string; url: string }[];
   links: { kind: "question" | "animation" | "book"; id: string }[];
@@ -80,7 +90,7 @@ export interface Visual extends Texts {
 
 export const visualRows = visualsJson as unknown as VisualRow[];
 /** German names of the types; also the translation keys. */
-export const TYPE_NAME: Record<VisualType, string> = { growth: "Rechner mit Verlauf", scatter: "Daten erkunden", market: "Modell zum Ausprobieren" };
+export const TYPE_NAME: Record<VisualType, string> = { growth: "Rechner mit Verlauf", scatter: "Daten erkunden", market: "Modell zum Ausprobieren", bars: "Vergleich", timeline: "Zeitleiste" };
 export const KIND_NAME: Record<DataKind, string> = { real: "Echte Daten", model: "Rechenmodell mit Beispielzahlen" };
 
 /** Published visualisations for one learner: right language (fallback: German), right age level. */
@@ -126,6 +136,28 @@ export const paidIn = (start: number, monthly: number, years: number): number[] 
 export function equilibrium(c: Pick<MarketConfig, "demand" | "supply">, demandShift = 0, costShift = 0): { quantity: number; price: number } {
   const quantity = Math.max(0, (c.demand.intercept + demandShift - c.supply.intercept - costShift) / (c.demand.slope + c.supply.slope));
   return { quantity, price: c.supply.intercept + costShift + c.supply.slope * quantity };
+}
+
+/** Each value as a multiple of the baseline value (for "x times as fast as …"). */
+export function relativeTo(items: BarsConfig["items"], baseline: string): number[] {
+  const base = items.find((i) => i.key === baseline)?.value;
+  return items.map((i) => (base ? i.value / base : NaN));
+}
+
+/** Years between each event and the one before it (sorted by year; the first has none). */
+export function gaps(items: TimelineConfig["items"]): { key: string; years: number | null }[] {
+  const sorted = [...items].sort((a, b) => a.year - b.year);
+  return sorted.map((e, i) => ({ key: e.key, years: i ? e.year - sorted[i - 1].year : null }));
+}
+
+/**
+ * Positions for labels next to points on a line: as close to the point as possible, but never
+ * closer than `min` to the previous label (points stay where they are; a short line connects them).
+ */
+export function spreadLabels(positions: number[], min: number): number[] {
+  const out: number[] = [];
+  positions.forEach((p, i) => out.push(i ? Math.max(p, out[i - 1] + min) : p));
+  return out;
 }
 
 // ---------- axes ----------
