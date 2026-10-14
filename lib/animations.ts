@@ -2,6 +2,7 @@
 // The texts and metadata live in content/animations.json, the drawings in components/anim/scenes.tsx.
 import animationsJson from "@/content/animations.json";
 import { fitsAge } from "@/lib/content";
+import { reviewedStatus } from "@/lib/reviews";
 import type { AgeBand } from "@/lib/types";
 
 interface Texts {
@@ -77,7 +78,7 @@ export function animationsFor(locale: string, band: AgeBand | null): Animation[]
       return {
         id: a.id, categoryId: a.category_id, minAge: a.min_age, difficulty: a.difficulty, scene: a.scene, renderer: a.renderer, fallback: a.fallback_scene ?? null,
         title: tr?.title ?? a.title, summary: tr?.summary ?? a.summary, goal: tr?.goal ?? a.goal, labels: tr?.labels ?? a.labels,
-        steps, seconds: Math.round(steps.reduce((n, s) => n + s.seconds, 0)), sources: a.sources, quizId: a.quiz_question_id, verification: a.verification_status,
+        steps, seconds: Math.round(steps.reduce((n, s) => n + s.seconds, 0)), sources: a.sources, quizId: a.quiz_question_id, verification: reviewedStatus("animation", a),
         motion: a.timing?.motion ?? TIMING.motion, predict: a.predict ? { ...a.predict, ...(tr?.predict ?? {}) } : null,
       };
     })

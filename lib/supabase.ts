@@ -172,6 +172,7 @@ export async function setVideoProgress(userId: string, videoId: string, row: Fla
 // ---------- content review (admins only – enforced by the database, not by the app) ----------
 export interface ReviewItem {
   kind: "question" | "video";
+  en?: { title: string; options?: string[]; body: string }; // the English version, where there is one
   id: string;
   categoryId: string;
   title: string;
@@ -195,26 +196,62 @@ export async function isAdmin(): Promise<boolean> {
 /** Everything that still needs a human decision: pulled by reports first, then not yet human-verified. */
 export async function fetchReviewQueue(): Promise<ReviewItem[]> {
   const [q, v] = await Promise.all([
-    db().from("questions").select("id, kind, category_id, question, options, source_name, source_url, verification_status, status, report_count, review_note, question_answers(correct_index, explanation)").in("status", ["published", "review"]).neq("verification_status", "verified").limit(500),
-    db().from("videos").select("id, category_id, title, hook, description, sources, license, creator_name, verification_status, status, report_count, review_note").in("status", ["published", "review"]).neq("verification_status", "verified").limit(200),
+    db().from("questions").select("id, kind, category_id, question, options, source_name, source_url, verification_status, status, report_count, review_note, translations, question_answers(correct_index, explanation, translations)").in("status", ["published", "review"]).neq("verification_status", "verified").limit(500),
+    db().from("videos").select("id, category_id, title, hook, description, sources, license, creator_name, verification_status, status, report_count, review_note, translations").in("status", ["published", "review"]).neq("verification_status", "verified").limit(200),
   ]);
   if (q.error) throw q.error;
   if (v.error) throw v.error;
-  type QA = { correct_index: number; explanation: string };
+  type QA = { correct_index: number; explanation: string; translations?: Record<string, { explanation?: string }> };
+  type QT = Record<string, { question: string; options: string[] }> | null;
+  type VT = Record<string, { title: string; hook: string; description?: string }> | null;
   const items: ReviewItem[] = [
     ...(q.data ?? []).map((r) => {
       const a = (Array.isArray(r.question_answers) ? r.question_answers[0] : r.question_answers) as QA | null;
-      return { kind: "question" as const, id: r.id, categoryId: r.category_id, title: r.question, options: r.options as string[], correctIndex: a?.correct_index, body: a?.explanation ?? "", sourceName: r.source_name, sourceUrl: r.source_url, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note };
+      const en = (r.translations as QT)?.en;
+      return { kind: "question" as const, id: r.id, categoryId: r.category_id, title: r.question, options: r.options as string[], correctIndex: a?.correct_index, body: a?.explanation ?? "", sourceName: r.source_name, sourceUrl: r.source_url, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note,
+        en: en ? { title: en.question, options: en.options, body: a?.translations?.en?.explanation ?? "" } : undefined };
     }),
     ...(v.data ?? []).map((r) => {
       const src = (r.sources as { name: string; url: string }[])[0];
-      return { kind: "video" as const, id: r.id, categoryId: r.category_id, title: r.title, body: [r.hook, r.description, r.creator_name && `© ${r.creator_name}`, r.license].filter(Boolean).join(" · "), sourceName: src?.name ?? null, sourceUrl: src?.url ?? null, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note };
+      const en = (r.translations as VT)?.en;
+      return { kind: "video" as const, id: r.id, categoryId: r.category_id, title: r.title, body: [r.hook, r.description, r.creator_name && `© ${r.creator_name}`, r.license].filter(Boolean).join(" · "), sourceName: src?.name ?? null, sourceUrl: src?.url ?? null, verification: r.verification_status, status: r.status, reports: r.report_count, note: r.review_note,
+        en: en ? { title: en.title, body: [en.hook, en.description].filter(Boolean).join(" · ") } : undefined };
     }),
   ];
   return items.sort((a, b) => Number(b.status === "review") - Number(a.status === "review") || b.reports - a.reports);
 }
 
-export async function adminReview(kind: "question" | "video", id: string, action: "approve" | "withdraw") {
-  const { error } = await db().rpc("admin_review", { p_kind: kind, p_id: id, p_action: action });
+export async function adminReview(kind: "question" | "video", id: string, action: "approve" | "withdraw", note?: string) {
+  const { error } = await db().rpc("admin_review", { p_kind: kind, p_id: id, p_action: action, p_note: note ?? null });
+  if (error) throw error;
+}
+
+export type ReviewKind = "question" | "video" | "book" | "animation" | "visual";
+export interface ContentReview {
+  kind: ReviewKind;
+  id: string;
+  decision: "approved" | "change";
+  note: string | null;
+  content_hash: string | null;
+  reviewed_at: string;
+}
+
+/** Which bundled pieces an editor approved, and for which version (public; no notes). */
+export async function fetchApprovals(): Promise<{ kind: string; id: string; content_hash: string | null }[]> {
+  const { data, error } = await db().from("content_reviews").select("kind, id, content_hash").eq("decision", "approved");
+  if (error) throw error;
+  return data ?? [];
+}
+
+/** All editorial decisions including notes – editors only. */
+export async function fetchContentReviews(): Promise<ContentReview[]> {
+  const { data, error } = await db().rpc("admin_content_reviews");
+  if (error) throw error;
+  return (data ?? []) as ContentReview[];
+}
+
+/** Records an editorial decision: approve a version, or ask for a change (with a note). */
+export async function reviewContent(kind: ReviewKind, id: string, decision: "approved" | "change", note?: string, hash?: string) {
+  const { error } = await db().rpc("review_content", { p_kind: kind, p_id: id, p_decision: decision, p_note: note ?? null, p_hash: hash ?? null });
   if (error) throw error;
 }

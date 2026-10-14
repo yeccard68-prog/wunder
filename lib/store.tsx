@@ -8,6 +8,7 @@ import { detectLocale, translate } from "./i18n";
 import { XP, applyActivity, dueAt, isDue, levelInfo, newAchievements, today, weekKey, BOX_MS } from "./gamification";
 import * as api from "./supabase";
 import { mergeBookState } from "./books";
+import { setApprovals } from "./reviews";
 
 // Two separate worlds: "demo" (no backend, local sample data) and "live" (Supabase).
 // They never share storage, and live mode never falls back to bundled content.
@@ -250,6 +251,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       offline = true;
     }
     setContent(content);
+    // which books, animations and visualisations an editor has approved (in exactly this version)
+    try {
+      setApprovals(await api.fetchApprovals());
+    } catch {
+      /* offline or not yet set up: everything simply shows its own status */
+    }
     const cached = load<{ userId: string; state: UserState }>(STATE_KEY);
     try {
       const user = await api.ensureUser();

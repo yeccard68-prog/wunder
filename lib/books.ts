@@ -3,6 +3,7 @@
 // All texts are original explanations – no excerpts, no covers. See docs/BACKEND.md, "Bücher".
 import booksJson from "@/content/books.json";
 import { fitsAge } from "@/lib/content";
+import { reviewedStatus } from "@/lib/reviews";
 import type { AgeBand, RecallRecord, UserState } from "@/lib/types";
 
 export type Visual =
@@ -127,7 +128,7 @@ export function booksFor(locale: string, band: AgeBand | null): Book[] {
         author: b.author, year: (tr ? tr.year_label : b.year_label) ?? String(b.year), minAge: b.min_age, minutes: b.minutes,
         goal: tr?.goal ?? b.goal, links: b.links, thesis: tr?.thesis ?? b.thesis, limits: tr?.limits ?? b.limits, reflect: tr?.reflect ?? b.reflect,
         ideas: b.ideas.map((idea, i) => ({ ...idea, ...(tr?.ideas[i] ?? {}), id: idea.id }) as Idea),
-        related: b.related, quizId: b.quiz_question_id, sources: b.sources, verification: b.verification_status,
+        related: b.related, quizId: b.quiz_question_id, sources: b.sources, verification: reviewedStatus("book", b),
       };
     })
     .filter((b) => fitsAge(b, band));

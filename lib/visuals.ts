@@ -5,6 +5,7 @@
 // This file holds the data model and every formula, so the numbers on screen can be tested.
 import visualsJson from "@/content/visuals.json";
 import { fitsAge } from "@/lib/content";
+import { reviewedStatus } from "@/lib/reviews";
 import type { AgeBand } from "@/lib/types";
 
 export type VisualType = "growth" | "scatter" | "market" | "bars" | "timeline";
@@ -102,7 +103,7 @@ export function visualsFor(locale: string, band: AgeBand | null): Visual[] {
       const t: Texts = tr ?? v;
       return {
         id: v.id, type: v.type, categoryId: v.category_id, minAge: v.min_age, difficulty: v.difficulty, dataKind: v.data_kind, config: v.config, correct: v.predict_correct,
-        sources: v.sources, links: v.links, verification: v.verification_status,
+        sources: v.sources, links: v.links, verification: reviewedStatus("visual", v),
         title: t.title, goal: t.goal, intro: t.intro, note: t.note, labels: t.labels, explain: t.explain, predict: t.predict, apply: t.apply,
       };
     })
