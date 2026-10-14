@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
@@ -33,7 +33,7 @@ jobs:
         run: npx cap sync android
       - name: Build the test version (debug APK)
         working-directory: android
-        run: ./gradlew assembleDebug --no-daemon
+        run: chmod +x gradlew && ./gradlew assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: wunder-debug-apk
