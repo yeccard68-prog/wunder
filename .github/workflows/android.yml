@@ -44,9 +44,16 @@ jobs:
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
-      # offline on purpose: the check must not create a guest account in the real database on every push.
-      # Without a connection the app must still start and show its own "no connection" screen.
-      - name: Start the app in an emulator (offline) and check that it starts
+      # The start check uses the demo variant of the same app (bundled content, no database), so a
+      # check on every push never creates a guest account in the real database. It proves that the
+      # native shell, the WebView and the app's first screen work; the APK above is the real variant.
+      - name: Build the demo variant for the start check
+        run: |
+          E2E=1 NEXT_PUBLIC_SUPABASE_URL= NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY= npx next build
+          rm -rf out && cp -r out-e2e out
+          npx cap sync android
+          cd android && ./gradlew assembleDebug --no-daemon
+      - name: Start the demo variant in an emulator and check that the first screen appears
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 34
@@ -55,9 +62,6 @@ jobs:
           disable-animations: true
           script: |
             adb install -r android/app/build/outputs/apk/debug/app-debug.apk
-            adb shell svc wifi disable
-            adb shell svc data disable
-            adb shell cmd connectivity airplane-mode enable || true
             adb shell am start -n io.github.yeccard68.wunder/.MainActivity
             sleep 25
             adb exec-out screencap -p > first-screen.png
@@ -66,7 +70,7 @@ jobs:
             # what the screen shows, as a note on the run (readable without access to the logs)
             echo "::notice title=Texts on the first screen::$(grep -o 'text="[^"]\+"' ui.xml | head -12 | tr '\n' ' ')"
             echo "::notice title=App log::$(grep -i -E 'error|exception|console' logcat.txt | tail -6 | tr '\n' ' ' | cut -c1-900)"
-            grep -q -E "Erneut versuchen|klüger" ui.xml && echo "The app starts." || (echo "The app's screen was not found."; exit 1)
+            grep -q "klüger" ui.xml && echo "The app starts and shows its first screen." || (echo "The app's first screen was not found."; exit 1)
       - uses: actions/upload-artifact@v4
         if: always()
         with:
