@@ -8,6 +8,11 @@ export const WEB_ORIGIN = "https://wunder-one.vercel.app";
 
 export const isNative = () => Capacitor.isNativePlatform();
 
+/** One line in the device log once the app is ready – the automatic start check looks for it. */
+export function reportReady(screen: string) {
+  if (isNative()) console.info(`wunder:ready ${screen}`);
+}
+
 /** Where a link in an e-mail should send the learner back to. */
 export const linkOrigin = () => (isNative() ? WEB_ORIGIN : window.location.origin);
 

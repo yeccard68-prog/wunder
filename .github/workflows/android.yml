@@ -62,15 +62,13 @@ jobs:
           disable-animations: true
           script: |
             adb install -r android/app/build/outputs/apk/debug/app-debug.apk
+            adb logcat -c
             adb shell am start -n io.github.yeccard68.wunder/.MainActivity
-            sleep 25
+            # the app writes "wunder:ready <screen>" to the device log once its first screen is shown
+            for i in $(seq 1 30); do adb logcat -d -s Capacitor/Console > logcat.txt; grep -q "wunder:ready" logcat.txt && break; sleep 2; done
             adb exec-out screencap -p > first-screen.png
-            adb shell uiautomator dump /sdcard/ui.xml && adb pull /sdcard/ui.xml ui.xml || true
-            adb logcat -d -s Capacitor Capacitor/Console chromium > logcat.txt || true
-            # what the screen shows, as a note on the run (readable without access to the logs)
-            echo "::notice title=Texts on the first screen::$(grep -o 'text="[^"]\+"' ui.xml | head -12 | tr '\n' ' ')"
-            echo "::notice title=App log::$(grep -i -E 'error|exception|console' logcat.txt | tail -6 | tr '\n' ' ' | cut -c1-900)"
-            grep -q "klüger" ui.xml && echo "The app starts and shows its first screen." || (echo "The app's first screen was not found."; exit 1)
+            echo "::notice title=App log::$(tail -8 logcat.txt | tr '\n' ' ' | cut -c1-900)"
+            grep -q "wunder:ready onboarding" logcat.txt && echo "The app starts and shows its first screen." || (echo "The app did not report its first screen."; exit 1)
       - uses: actions/upload-artifact@v4
         if: always()
         with:

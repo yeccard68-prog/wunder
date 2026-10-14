@@ -7,7 +7,7 @@ import { Compass, Flame, House, Library, RotateCcw, User, WifiOff } from "lucide
 import { useStore, useT } from "@/lib/store";
 import { liveStreak } from "@/lib/gamification";
 import { setAnalytics } from "@/lib/analytics";
-import { setupNative } from "@/lib/native";
+import { reportReady, setupNative } from "@/lib/native";
 import { isChild } from "@/lib/content";
 import Onboarding from "./Onboarding";
 import { ageAllowed } from "@/lib/content";
@@ -43,6 +43,9 @@ export default function Shell({ children }: { children: ReactNode }) {
   const { toasts, ready, state, status, error, retry, stale, auth } = useStore();
   const online = useOnline();
   // usage events only with consent, only with a real account, never for children
+  useEffect(() => {
+    if (ready) reportReady(state.onboarded ? "app" : "onboarding");
+  }, [ready, state.onboarded]);
   // store apps: Android back button
   useEffect(() => {
     let undo = () => {};
