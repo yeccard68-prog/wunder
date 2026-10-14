@@ -44,7 +44,9 @@ jobs:
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
-      - name: Start the app in an emulator and check that the first screen appears
+      # offline on purpose: the check must not create a guest account in the real database on every push.
+      # Without a connection the app must still start and show its own "no connection" screen.
+      - name: Start the app in an emulator (offline) and check that it starts
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 34
@@ -53,12 +55,14 @@ jobs:
           disable-animations: true
           script: |
             adb install -r android/app/build/outputs/apk/debug/app-debug.apk
+            adb shell svc wifi disable
+            adb shell svc data disable
             adb shell am start -n io.github.yeccard68.wunder/.MainActivity
             sleep 25
             adb exec-out screencap -p > first-screen.png
             adb shell uiautomator dump /sdcard/ui.xml && adb pull /sdcard/ui.xml ui.xml || true
             adb logcat -d -s Capacitor Capacitor/Console chromium > logcat.txt || true
-            grep -q "klüger" ui.xml && echo "First screen shows the app." || (echo "The app's first screen was not found."; tail -50 logcat.txt; exit 1)
+            grep -q "Erneut versuchen" ui.xml && echo "The app starts and shows its no-connection screen." || (echo "The app's screen was not found."; tail -50 logcat.txt; exit 1)
       - uses: actions/upload-artifact@v4
         if: always()
         with:

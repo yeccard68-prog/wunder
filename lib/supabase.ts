@@ -46,7 +46,26 @@ export async function ensureUser(): Promise<User> {
   const { data, error } = await db().auth.getSession();
   if (error) throw error;
   if (data.session) return data.session.user;
-  const guest = await db().auth.signInAnonymously();
+  // Only one guest account per device: if the page reloads while the first launch is still creating
+  // its account (it happened in the Android app on first start), the second load waits for that
+  // account instead of creating another one.
+  const LOCK = "wunder.guest.creating";
+  const store = (() => {
+    try {
+      return window.localStorage;
+    } catch {
+      return null;
+    }
+  })();
+  if (Date.now() - Number(store?.getItem(LOCK) ?? 0) < 10_000) {
+    for (let i = 0; i < 20; i++) {
+      await new Promise((r) => setTimeout(r, 500));
+      const again = await db().auth.getSession();
+      if (again.data.session) return again.data.session.user;
+    }
+  }
+  store?.setItem(LOCK, String(Date.now()));
+  const guest = await db().auth.signInAnonymously().finally(() => store?.removeItem(LOCK));
   if (guest.error || !guest.data.user) throw guest.error ?? new Error("Gast-Anmeldung fehlgeschlagen");
   return guest.data.user;
 }

@@ -10,7 +10,7 @@ Die Website ist ein statischer Export (`out/`). **Capacitor** (Version 8.5.2, qu
 | Android-Projekt | `android/` (von `npx cap add android` erzeugt; die Web-Dateien darin werden nicht eingecheckt) |
 | App-Symbole, Startbildschirm, Store-Symbol | `scripts/app/icons.mjs` erzeugt sie aus `public/icon.svg` → `android/app/src/main/res/…`, `store/icon-512.png` |
 | Verhalten nur in der App | `lib/native.ts`: Zurück-Taste (schließt erst offene Fenster, geht dann zurück, minimiert auf dem ersten Bildschirm), Links in E-Mails führen zur Website |
-| Automatischer Bau | `.github/workflows/android.yml`: baut bei jedem Push die Testversion (APK), startet sie in einem Android-Emulator und prüft, dass der erste Bildschirm erscheint |
+| Automatischer Bau | `.github/workflows/android.yml`: baut bei jedem Push die Testversion (APK), startet sie ohne Netz in einem Android-Emulator und prüft, dass sie startet (ohne Netz, damit kein Gastkonto in der echten Datenbank entsteht) |
 
 **Testversion aufs eigene Handy:** GitHub → Repository → *Actions* → *Android app* → letzter grüner Lauf → *Artifacts* → `wunder-debug-apk` herunterladen, entpacken, auf dem Android-Handy öffnen (Installation aus unbekannter Quelle einmal erlauben). Die Testversion ist nicht für die Veröffentlichung signiert.
 
