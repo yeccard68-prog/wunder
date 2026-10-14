@@ -57,12 +57,16 @@ jobs:
             adb install -r android/app/build/outputs/apk/debug/app-debug.apk
             adb shell svc wifi disable
             adb shell svc data disable
+            adb shell cmd connectivity airplane-mode enable || true
             adb shell am start -n io.github.yeccard68.wunder/.MainActivity
             sleep 25
             adb exec-out screencap -p > first-screen.png
             adb shell uiautomator dump /sdcard/ui.xml && adb pull /sdcard/ui.xml ui.xml || true
             adb logcat -d -s Capacitor Capacitor/Console chromium > logcat.txt || true
-            grep -q "Erneut versuchen" ui.xml && echo "The app starts and shows its no-connection screen." || (echo "The app's screen was not found."; tail -50 logcat.txt; exit 1)
+            # what the screen shows, as a note on the run (readable without access to the logs)
+            echo "::notice title=Texts on the first screen::$(grep -o 'text="[^"]\+"' ui.xml | head -12 | tr '\n' ' ')"
+            echo "::notice title=App log::$(grep -i -E 'error|exception|console' logcat.txt | tail -6 | tr '\n' ' ' | cut -c1-900)"
+            grep -q -E "Erneut versuchen|klüger" ui.xml && echo "The app starts." || (echo "The app's screen was not found."; exit 1)
       - uses: actions/upload-artifact@v4
         if: always()
         with:

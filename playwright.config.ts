@@ -10,7 +10,7 @@ export default defineConfig({
   timeout: 45_000,
   retries: process.env.CI ? 1 : 0,
   workers: process.env.CI ? 1 : undefined, // several videos decoding at once make the shared CI machine flaky
-  reporter: process.env.CI ? [["list"], ["html", { open: "never" }]] : "list",
+  reporter: process.env.CI ? [["github"], ["list"], ["html", { open: "never" }]] : "list", // "github": failures become annotations on the run
   use: { baseURL: `http://127.0.0.1:${PORT}`, channel, trace: "retain-on-failure" },
   projects: [
     { name: "phone", use: { viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true } },
