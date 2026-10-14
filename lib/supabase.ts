@@ -195,12 +195,15 @@ export async function isAdmin(): Promise<boolean> {
 
 /** Everything that still needs a human decision: pulled by reports first, then not yet human-verified. */
 export async function fetchReviewQueue(): Promise<ReviewItem[]> {
-  const [q, v] = await Promise.all([
-    db().from("questions").select("id, kind, category_id, question, options, source_name, source_url, verification_status, status, report_count, review_note, translations, question_answers(correct_index, explanation, translations)").in("status", ["published", "review"]).neq("verification_status", "verified").limit(500),
-    db().from("videos").select("id, category_id, title, hook, description, sources, license, creator_name, verification_status, status, report_count, review_note, translations").in("status", ["published", "review"]).neq("verification_status", "verified").limit(200),
+  // all of them, page by page – there are more than the 1,000 rows one request may return
+  type Q = { id: string; kind: string; category_id: string; question: string; options: unknown; source_name: string | null; source_url: string | null; verification_status: string; status: string; report_count: number; review_note: string | null; translations: unknown; question_answers: unknown };
+  type V = { id: string; category_id: string; title: string; hook: string; description: string; sources: unknown; license: string | null; creator_name: string; verification_status: string; status: string; report_count: number; review_note: string | null; translations: unknown };
+  const [qRows, vRows] = await Promise.all([
+    allRows<Q>((from, to) => db().from("questions").select("id, kind, category_id, question, options, source_name, source_url, verification_status, status, report_count, review_note, translations, question_answers(correct_index, explanation, translations)").in("status", ["published", "review"]).neq("verification_status", "verified").order("id").range(from, to)),
+    allRows<V>((from, to) => db().from("videos").select("id, category_id, title, hook, description, sources, license, creator_name, verification_status, status, report_count, review_note, translations").in("status", ["published", "review"]).neq("verification_status", "verified").order("id").range(from, to)),
   ]);
-  if (q.error) throw q.error;
-  if (v.error) throw v.error;
+  const q = { data: qRows };
+  const v = { data: vRows };
   type QA = { correct_index: number; explanation: string; translations?: Record<string, { explanation?: string }> };
   type QT = Record<string, { question: string; options: string[] }> | null;
   type VT = Record<string, { title: string; hook: string; description?: string }> | null;

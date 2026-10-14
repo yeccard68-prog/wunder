@@ -135,7 +135,7 @@ export default function AdminPage() {
         </div>
       )}
       <Segmented value={tab} onChange={(v) => { setTab(v); setCount(PAGE); }} options={[
-        { value: "open", label: `${t("Zu prüfen")} (${tabCount("open")})` },
+        { value: "open", label: `${t("Offen")} (${tabCount("open")})` },
         { value: "reported", label: `${t("Gemeldet")} (${tabCount("reported")})` },
         { value: "change", label: `${t("Ändern")} (${tabCount("change")})` },
         { value: "approved", label: `${t("Frei")} (${tabCount("approved")})` },
