@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Check, Mail } from "lucide-react";
 import { canRegister } from "@/lib/content";
 import { useStore, useT } from "@/lib/store";
+import { isNative } from "@/lib/native";
 import { Button } from "./ui";
 
 /**
@@ -81,12 +82,17 @@ export default function Account({ allowSignIn = true, initialMode = "register" }
             ? t("Achtung: Nach der Anmeldung siehst du den Stand deines Kontos. Der Gast-Fortschritt auf diesem Gerät ({n} XP) wird nicht übernommen.", { n: state.xp })
             : t("Wir senden dir einen Anmeldelink per E-Mail.")}
       </p>
+      {mode === "signin" && isNative() ? (
+        // the sign-in link opens the browser, which cannot hand the session to the app (yet)
+        <p className="rounded-2xl bg-raised p-4 text-sm leading-relaxed" data-testid="native-signin">{t("Mit einem bestehenden Konto anmelden geht in der App noch nicht. Öffne dafür {site} im Browser.", { site: "wunder-one.vercel.app" })}</p>
+      ) : (
       <form className="flex gap-2" onSubmit={submit}>
         <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder={t("E-Mail-Adresse")} aria-label={t("E-Mail-Adresse")} autoComplete="email" className="h-12 min-w-0 flex-1 rounded-full border border-line bg-surface px-4 text-[15px] outline-none focus:border-ink" />
         <Button type="submit" disabled={busy}>
           {mode === "register" ? t("Sichern") : t("Anmelden")}
         </Button>
       </form>
+      )}
       {allowSignIn && (
         <button onClick={() => setMode(mode === "register" ? "signin" : "register")} className="text-sm font-semibold underline">
           {mode === "register" ? t("Ich habe schon ein Konto") : t("Zurück: Gast-Fortschritt sichern")}

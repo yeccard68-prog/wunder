@@ -1,0 +1,70 @@
+name: Android app
+# Builds the Android app from the same static export as the website and starts it once in an
+# Android emulator. The installable test version (debug APK) is attached to every run as an
+# artifact. A signed release for Google Play needs an upload key – see docs/STORE.md.
+on:
+  push:
+    branches: [main]
+    paths: ["app/**", "components/**", "lib/**", "content/**", "public/**", "android/**", "capacitor.config.ts", "package.json", "package-lock.json", ".github/workflows/android.yml"]
+  workflow_dispatch:
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      # public values that every browser receives anyway; the app talks to the database with them
+      NEXT_PUBLIC_SUPABASE_URL: https://lkmzxxxkfyidhtwrcmdq.supabase.co
+      NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: sb_publishable_2D5kJpPZq6PQZKfhiaW1GA_YyXGgeRT
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: npm ci
+      - name: Web export
+        run: npx next build
+      - name: Copy the web export into the Android project
+        run: npx cap sync android
+      - name: Build the test version (debug APK)
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wunder-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 14
+      - name: Enable KVM for the emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Start the app in an emulator and check that the first screen appears
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          script: |
+            adb install -r android/app/build/outputs/apk/debug/app-debug.apk
+            adb shell am start -n io.github.yeccard68.wunder/.MainActivity
+            sleep 25
+            adb exec-out screencap -p > first-screen.png
+            adb shell uiautomator dump /sdcard/ui.xml && adb pull /sdcard/ui.xml ui.xml || true
+            adb logcat -d -s Capacitor Capacitor/Console chromium > logcat.txt || true
+            grep -q "klüger" ui.xml && echo "First screen shows the app." || (echo "The app's first screen was not found."; tail -50 logcat.txt; exit 1)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: emulator-check
+          path: |
+            first-screen.png
+            ui.xml
+            logcat.txt
+          retention-days: 14

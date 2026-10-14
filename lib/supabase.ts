@@ -3,6 +3,7 @@
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import type { AnswerKey, FormatResponse } from "./formats";
 import { buildContent, type QuestionRow, type VideoRow } from "./content";
+import { linkOrigin } from "./native";
 import type { AgeBand, UserState } from "./types";
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -52,13 +53,13 @@ export async function ensureUser(): Promise<User> {
 
 /** Guest → permanent account. The user id stays the same, so all progress is kept. */
 export async function linkEmail(email: string) {
-  const { error } = await db().auth.updateUser({ email }, { emailRedirectTo: window.location.origin });
+  const { error } = await db().auth.updateUser({ email }, { emailRedirectTo: linkOrigin() });
   if (error) throw error;
 }
 
 /** Sign in to an existing account with a one-time email link. */
 export async function signInWithEmail(email: string) {
-  const { error } = await db().auth.signInWithOtp({ email, options: { shouldCreateUser: false, emailRedirectTo: window.location.origin } });
+  const { error } = await db().auth.signInWithOtp({ email, options: { shouldCreateUser: false, emailRedirectTo: linkOrigin() } });
   if (error) throw error;
 }
 

@@ -19,6 +19,9 @@
     "lint:content": "node scripts/content/import.mjs --check"
   },
   "dependencies": {
+    "@capacitor/android": "8.5.2",
+    "@capacitor/app": "8.1.1",
+    "@capacitor/core": "8.5.2",
     "@supabase/supabase-js": "^2.117.3",
     "lucide-react": "^1.55.0",
     "next": "16.4.0",
@@ -28,6 +31,7 @@
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.132.1",
+    "@capacitor/cli": "8.5.2",
     "@playwright/test": "^1.64.0",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",

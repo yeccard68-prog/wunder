@@ -7,6 +7,7 @@ import { Compass, Flame, House, Library, RotateCcw, User, WifiOff } from "lucide
 import { useStore, useT } from "@/lib/store";
 import { liveStreak } from "@/lib/gamification";
 import { setAnalytics } from "@/lib/analytics";
+import { setupNative } from "@/lib/native";
 import { isChild } from "@/lib/content";
 import Onboarding from "./Onboarding";
 import { ageAllowed } from "@/lib/content";
@@ -42,6 +43,12 @@ export default function Shell({ children }: { children: ReactNode }) {
   const { toasts, ready, state, status, error, retry, stale, auth } = useStore();
   const online = useOnline();
   // usage events only with consent, only with a real account, never for children
+  // store apps: Android back button
+  useEffect(() => {
+    let undo = () => {};
+    setupNative().then((u) => (undo = u));
+    return () => undo();
+  }, []);
   useEffect(() => setAnalytics(ready && auth.mode === "live" && !!state.settings.analytics && !isChild(state.ageBand)), [ready, auth.mode, state.settings.analytics, state.ageBand]);
   const immersive = path.startsWith("/clips"); // full-screen video feed
   const feed = path === "/"; // snapping feed: the page itself does not scroll, the feed does

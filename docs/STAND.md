@@ -40,7 +40,7 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 
 ### 2. Technisch als Nächstes (kann ich machen)
 
-1. **Store-Fassung mit Capacitor.** Die App ist eine statische Web-App und lässt sich ohne Umbau in eine Android- und iOS-Hülle packen. Ich kann das Projekt einrichten; zum Bauen braucht es Android Studio (kostenlos) und für iOS einen Mac. Mittlerer Aufwand, Voraussetzung für die Stores.
+1. ~~Store-Fassung mit Capacitor~~ – Android eingerichtet am 14.10.2026 (`docs/STORE.md`): GitHub baut bei jedem Push eine Testversion und startet sie im Emulator. Offen: Upload-Schlüssel, Play-Konto, iOS (braucht Apple-Konto und Mac oder macOS-Bau).
 2. ~~Prüfbildschirm für alle Inhalte~~ – erledigt am 14.10.2026 (`/admin/`, siehe `docs/BACKEND.md` Abschnitt 30). Offen ist die Prüfung selbst: rund 670 Fragen und Clips sowie 45 Bücher, Animationen und Visualisierungen.
 3. **Einwilligung zur Nutzungsstatistik im Einstieg anbieten.** Der Schalter ist aus und versteckt – ohne Daten lässt sich nach dem Start nicht erkennen, was wirkt. Kleiner Aufwand, rechtlich sauber, wenn freiwillig und abwählbar.
 4. **E-Mail-Anmeldung einmal durchspielen** (nach der Site-URL-Einstellung). Klein.
