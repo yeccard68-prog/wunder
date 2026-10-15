@@ -78,7 +78,7 @@ for (const v of videos) {
   upsert(videos, {
     id: v.id, category_id: v.category_id, title: v.title, hook: v.hook, description: v.description,
     video_url: p ? `/clips/${v.id}.mp4` : v.video_url, thumbnail_url: p ? `/clips/${v.id}.jpg` : null,
-    duration_seconds: Math.round((p ? (p.end - p.start) * (p.loops ?? 1) : v.end - v.start) * 100) / 100, has_audio: false, captions: v.captions, creator_name: v.creator_name ?? "NASA", format: v.format ?? "footage", sources: [v.source],
+    duration_seconds: Math.round((p ? (p.end - p.start) * (p.loops ?? 1) : v.end - v.start) * 100) / 100, has_audio: false, captions: v.captions, creator_name: v.creator_name ?? "NASA", format: v.format ?? "footage", sources: v.sources ?? [v.source],
     published_at: day(i), tags: v.tags, quiz_question_id: quizId, verification_status: status, status: "published", demo_popularity: 0, demo_comments: [],
     production: p ?? { provider: "external", nasa_id: v.nasa_id }, min_age: v.min_age, start_seconds: p ? null : v.start, end_seconds: p ? null : v.end, license: v.license, translations: { [L]: v.en },
   });

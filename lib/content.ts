@@ -28,7 +28,8 @@ export interface Clip {
   minAge: number;
   quiz: Item | null; // optional reinforcement question
   comments: { personId: string; text: string }[]; // demo mode only
-  translations?: Record<string, { title: string; hook: string; description?: string; captions: string[] }>;
+  // file / poster: own clips with text in the picture are rendered once per language (video/, Remotion)
+  translations?: Record<string, { title: string; hook: string; description?: string; captions: string[]; file?: string; poster?: string }>;
 }
 
 /** The caption to show at a moment of the clip: captions are spread over the clip in proportion to their length. */
@@ -160,7 +161,7 @@ export function localizeItem(item: Item, locale: string): Item {
 export function localizeClip(clip: Clip, locale: string): Clip {
   const t = clip.translations?.[locale];
   const quiz = clip.quiz && localizeItem(clip.quiz, locale);
-  return t ? { ...clip, title: t.title, takeaway: t.hook, description: t.description ?? clip.description, captions: t.captions, quiz } : { ...clip, quiz };
+  return t ? { ...clip, title: t.title, takeaway: t.hook, description: t.description ?? clip.description, captions: t.captions, file: t.file ?? clip.file, poster: t.poster ?? clip.poster, quiz } : { ...clip, quiz };
 }
 
 // ---------- age levels ----------

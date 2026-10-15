@@ -124,9 +124,10 @@ function Board({ view, t }: { view: DuelView; t: T }) {
 }
 
 // ---------- one round: three questions against the clock ----------
-function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: number; onAnswer: (idx: number, selected: number | null) => Promise<DuelAnswerResult>; onDone: () => void; t: T }) {
+function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: number; onAnswer: (idx: number, selected: number | null) => Promise<DuelAnswerResult>; onDone: () => void | Promise<void>; t: T }) {
   const r = view.rounds[round - 1];
   const [idx, setIdx] = useState(r.mine.length);
+  const [finishing, setFinishing] = useState(false);
   const [picked, setPicked] = useState<number | null>(null);
   const [result, setResult] = useState<DuelAnswerResult | null>(null);
   const [pending, setPending] = useState(false);
@@ -179,7 +180,10 @@ function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: nu
 
   if (!q) return null;
   const next = () => {
-    if (idx + 1 >= PER_ROUND) return onDone();
+    if (idx + 1 >= PER_ROUND) {
+      setFinishing(true);
+      return void onDone();
+    }
     sent.current = false;
     setIdx(idx + 1);
     setPicked(null);
@@ -220,7 +224,7 @@ function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: nu
         <div ref={revealRef} className="rise mt-4 scroll-mb-24 rounded-2xl bg-raised p-4" aria-live="polite">
           <p className={`text-sm font-bold ${result.correct ? "text-good" : "text-bad"}`}>{result.correct ? t("Richtig!") : picked === null ? t("Zeit abgelaufen") : t("Leider falsch")}</p>
           <p className="mt-1 text-[15px] leading-relaxed">{result.explanation}</p>
-          <Button className="mt-4 w-full" onClick={next}>
+          <Button className="mt-4 w-full" onClick={next} disabled={finishing}>
             {idx + 1 >= PER_ROUND ? t("Runde beenden") : t("Nächste Frage")}
           </Button>
         </div>
@@ -298,9 +302,10 @@ function DuelScreen({ view, actions, onBack, t }: { view: DuelView; actions: Act
           round={playing}
           t={t}
           onAnswer={(idx, selected) => actions.answer(playing, idx, selected)}
-          onDone={() => {
+          onDone={async () => {
+            // keep the round on screen until the new state is in – otherwise the old one flashes up with "play round n"
+            await actions.refresh();
             setPlaying(null);
-            void actions.refresh();
           }}
         />
       ) : (

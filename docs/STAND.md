@@ -6,7 +6,7 @@
 |---|---|---|
 | Fragekarten im Feed | 766 (davon 84 „Stimmt das?“, 49 neue Formate, 51 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
 | Video-Quizfragen | 51 | zweiter Versuch mit Hinweis, halbe Punkte |
-| Clips | 45 veröffentlicht, 6 archiviert | frei lizenziert, Quelle und Urheber je Clip, Nachweise unter `/legal/` |
+| Clips | 48 veröffentlicht (45 fremde, 3 eigene), 6 archiviert | fremde frei lizenziert mit Quelle und Urheber je Clip (`/legal/`); eigene mit Remotion gerendert (`video/`), je Sprache eine Datei |
 | Animationen | 25 (24 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 6 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste, Schrift-Zeitleiste) | 4 mit echten Daten, 2 Rechenmodelle; auch im Feed |
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee; Copyright am 15.10.2026 erneut geprüft; Affiliate-Link vorbereitet (aus, bis ein Partner-Tag eingetragen ist) |
@@ -20,7 +20,7 @@ Karten je Thema (Feed): Wissenschaft 105, Kultur & Gesellschaft 83, Technologie 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
 | 1.000 Quizfragen | 817 | rund 150 pro Stapel sind in guter Qualität machbar |
-| 100 Kurzvideos | 45 | Engpass ist das Sichten freier Quellen, nicht die Technik |
+| 100 Kurzvideos | 48 | seit 15.10.2026 auch eigene Clips mit Remotion – unabhängig von freien Quellen, je Clip etwa so viel Handarbeit wie eine kleine Animation |
 | 50 Animationen | 25 | jede 3D-Szene ist Handarbeit im Code |
 | rund 20 Bücher | 20 | je drei Ideen; fünf je Buch wären der nächste Ausbau |
 | 200 Aufgaben für unter 6-Jährige | 0 | zurückgestellt; die App ist nur ab 16 freigegeben |
@@ -60,7 +60,7 @@ Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, we
 ## Bekannte Schwächen
 
 - Kein Inhalt ist redaktionell geprüft.
-- **Duelle:** Mit zwei echten Konten im Browser noch nicht durchgespielt – geprüft sind die Regeln in der Datenbank (30 Prüfungen, `supabase/tests/duels.sql`) und das Übungsduell im Browser. Das 20-Sekunden-Limit zählt auf dem Gerät: Wer die Seite während einer Frage neu lädt, bekommt dieselbe Frage mit voller Zeit. Für Meldungen gibt es noch keine Ansicht im Prüfbildschirm (nur per SQL: `select * from admin_duel_reports()`).
+- **Duelle:** Am 15.10.2026 mit zwei Gast-Testkonten auf der Live-Seite durchgespielt (Einladung per Link, drei Runden, Ergebnis auf beiden Seiten gleich, Zufallsgegner, Melden, Revanche danach gesperrt); die Testkonten wurden über die App gelöscht. Nach dem Löschen legt die App sofort ein neues, leeres Gastkonto an – zwei solche leeren Konten vom Test sind noch übrig. Das 20-Sekunden-Limit zählt auf dem Gerät: Wer die Seite während einer Frage neu lädt, bekommt dieselbe Frage mit voller Zeit. Für Meldungen gibt es noch keine Ansicht im Prüfbildschirm (nur per SQL: `select * from admin_duel_reports()`).
 - Getestet auf einem Windows-PC (Edge) und einem Handy des Betreibers (Animationen „flüssig“); Safari auf dem iPhone und ältere Android-Geräte nicht.
 - In den Erdplatten ist im Blick von oben ein kleiner grauer Keil zu sehen, der nicht zugeordnet ist.
 - `scripts/measure-animations.mjs` bricht ab, wenn man mehrere Animationen nacheinander misst; einzeln läuft es (Bildraten der letzten drei: 57–58 pro Sekunde).

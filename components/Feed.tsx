@@ -103,7 +103,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
           <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} light />
           <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{clip.title}</h2>
           <p className="text-[15px] leading-snug text-white/90">{clip.takeaway}</p>
-          <p className="text-[11px] text-white/60">{clip.creator}{clip.license ? ` · ${clip.license}` : ""}</p>
+          <p className="text-[11px] text-white/60">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""}</p>
           <div className="pointer-events-auto flex items-center gap-2 pt-2">
             {clip.quiz && (
               <button onClick={() => setQuiz(true)} data-ready={ready} className={`press flex h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${ready ? "pop bg-white text-[#11100e]" : "bg-white/15 text-white backdrop-blur"}`}>
@@ -131,7 +131,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
         <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} />
         <h2 className="font-display text-xl font-semibold leading-snug">{clip.title}</h2>
         <p className="text-[15px] leading-relaxed">{clip.takeaway}</p>
-        <p className="text-xs text-muted">{clip.creator}{clip.license ? ` · ${clip.license}` : ""}</p>
+        <p className="text-xs text-muted">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""}</p>
         {clip.quiz && !quiz && (
           <button onClick={() => setQuiz(true)} className="press flex items-center gap-1 pt-1 text-sm font-semibold text-accent">
             {quizLabel} <ChevronDown size={16} />

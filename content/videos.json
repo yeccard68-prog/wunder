@@ -3035,5 +3035,191 @@
         ]
       }
     }
+  },
+  {
+    "id": "v-zinseszins",
+    "category_id": "economy",
+    "title": "Wie aus 1.000 € über 7.600 € werden",
+    "hook": "Mit Zinseszins wächst Geld nicht gleichmäßig, sondern immer schneller – weil auch die Zinsen wieder Zinsen bringen.",
+    "description": "Angenommen, 1.000 € bringen 30 Jahre lang 7 % Zinsen pro Jahr, und die Zinsen bleiben angelegt. Dann wächst das Geld auf rund 7.612 €. Ohne Zinseszins – wenn man sich die Zinsen jedes Jahr auszahlen lässt – wären es nur 3.100 €: 1.000 € plus 30-mal 70 €. Der Unterschied entsteht, weil beim Zinseszins auch die Zinsen der Vorjahre mitverzinst werden. Bei 7 % verdoppelt sich der Betrag etwa alle zehn Jahre. Steuern, Gebühren und Inflation lässt die Rechnung weg.",
+    "video_url": "/clips/v-zinseszins.mp4",
+    "thumbnail_url": "/clips/v-zinseszins.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "1.000 €, 7 % Zinsen pro Jahr – und die Zinsen bleiben angelegt.",
+      "Jedes Jahr werden auch die Zinsen der Vorjahre verzinst.",
+      "Nach 30 Jahren: rund 7.612 € statt 3.100 € ohne Zinseszins."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Zinseszins",
+        "url": "https://de.wikipedia.org/wiki/Zinseszins"
+      }
+    ],
+    "published_at": "2026-10-15T12:00:00Z",
+    "tags": [
+      "Geld",
+      "Zinsen"
+    ],
+    "quiz_question_id": "q-v-zinseszins",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-zinseszins",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "How €1,000 becomes more than €7,600",
+        "hook": "With compound interest, money doesn't grow evenly but faster and faster – because the interest earns interest too.",
+        "description": "Suppose €1,000 earns 7% interest a year for 30 years and the interest stays invested. The money grows to about €7,612. Without compounding – taking the interest out every year – it would be just €3,100: €1,000 plus 30 times €70. The difference arises because compounding also pays interest on the interest of previous years. At 7%, the amount roughly doubles every ten years. The calculation leaves out taxes, fees and inflation.",
+        "captions": [
+          "€1,000 at 7% interest a year – and the interest stays invested.",
+          "Every year the interest of previous years earns interest too.",
+          "After 30 years: about €7,612 instead of €3,100 without compounding."
+        ],
+        "file": "/clips/v-zinseszins.en.mp4",
+        "poster": "/clips/v-zinseszins.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-pyramide-mond",
+    "category_id": "history",
+    "title": "Kleopatra lebte näher an der Mondlandung als am Bau der Pyramide",
+    "hook": "Zwischen der Cheops-Pyramide und Kleopatra liegen rund 2.500 Jahre – zwischen Kleopatra und der Mondlandung nur gut 2.000.",
+    "description": "Die Cheops-Pyramide entstand unter Pharao Cheops, der etwa 2620 bis 2580 v. Chr. regierte. Kleopatra VII., die letzte Herrscherin der Ptolemäer, wurde 69 v. Chr. geboren – rund 2.500 Jahre später. Von ihrer Geburt bis zur ersten Mondlandung am 20. Juli 1969 vergingen dagegen nur etwa 2.040 Jahre. Für Kleopatra war die Große Pyramide also schon ein uraltes Bauwerk. Der Zeitstrahl im Clip ist maßstabsgetreu; weil es kein Jahr 0 gibt, zählt der Übergang von v. Chr. zu n. Chr. ein Jahr weniger.",
+    "video_url": "/clips/v-pyramide-mond.mp4",
+    "thumbnail_url": "/clips/v-pyramide-mond.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Die Cheops-Pyramide entstand um 2600 v. Chr.",
+      "Kleopatra wurde 69 v. Chr. geboren – rund 2.500 Jahre später.",
+      "Bis zur Mondlandung 1969 vergingen nur gut 2.000 Jahre."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Kleopatra VII.",
+        "url": "https://de.wikipedia.org/wiki/Kleopatra_VII."
+      },
+      {
+        "name": "Wikipedia: Cheops-Pyramide",
+        "url": "https://de.wikipedia.org/wiki/Cheops-Pyramide"
+      },
+      {
+        "name": "Wikipedia: Apollo 11",
+        "url": "https://de.wikipedia.org/wiki/Apollo_11"
+      }
+    ],
+    "published_at": "2026-10-14T12:00:00Z",
+    "tags": [
+      "Antike",
+      "Zeitgefühl"
+    ],
+    "quiz_question_id": "q-v-pyramide-mond",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-pyramide-mond",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Cleopatra lived closer to the Moon landing than to the building of the pyramid",
+        "hook": "About 2,500 years separate the Great Pyramid from Cleopatra – but only just over 2,000 separate Cleopatra from the Moon landing.",
+        "description": "The Great Pyramid was built under Pharaoh Khufu, who reigned from about 2620 to 2580 BC. Cleopatra VII, the last ruler of the Ptolemies, was born in 69 BC – some 2,500 years later. From her birth to the first Moon landing on 20 July 1969, on the other hand, only about 2,040 years passed. To Cleopatra, the Great Pyramid was already an ancient monument. The timeline in the clip is to scale; since there is no year 0, the step from BC to AD counts one year less.",
+        "captions": [
+          "The Great Pyramid was built around 2600 BC.",
+          "Cleopatra was born in 69 BC – some 2,500 years later.",
+          "Only just over 2,000 years passed until the Moon landing in 1969."
+        ],
+        "file": "/clips/v-pyramide-mond.en.mp4",
+        "poster": "/clips/v-pyramide-mond.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-marathon-runden",
+    "category_id": "sport",
+    "title": "Ein Marathon im Stadion: 105 Runden und 195 Meter",
+    "hook": "42,195 Kilometer klingen abstrakt. Auf einer 400-Meter-Bahn wären es über 105 Runden.",
+    "description": "Die Marathonstrecke ist seit 1921 auf 42,195 Kilometer festgelegt. Eine Wettkampf-Laufbahn ist auf der innersten Bahn 400 Meter lang. 42.195 geteilt durch 400 ergibt 105,49: 105 volle Runden und noch 195 Meter. Gelaufen wird ein Marathon meist auf Straßen; bei großen Meisterschaften endet die Strecke oft mit einer Runde im Stadion.",
+    "video_url": "/clips/v-marathon-runden.mp4",
+    "thumbnail_url": "/clips/v-marathon-runden.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Die Marathonstrecke: seit 1921 genau 42,195 Kilometer.",
+      "Eine Runde auf der Stadionbahn misst 400 Meter.",
+      "Macht 105 Runden – und noch 195 Meter."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Marathonlauf",
+        "url": "https://de.wikipedia.org/wiki/Marathonlauf"
+      },
+      {
+        "name": "Wikipedia (englisch): Running track",
+        "url": "https://en.wikipedia.org/wiki/Running_track"
+      }
+    ],
+    "published_at": "2026-10-13T12:00:00Z",
+    "tags": [
+      "Laufen",
+      "Olympia"
+    ],
+    "quiz_question_id": "q-v-marathon-runden",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-marathon-runden",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "A marathon in the stadium: 105 laps and 195 metres",
+        "hook": "42.195 kilometres sounds abstract. On a 400-metre track it would be more than 105 laps.",
+        "description": "The marathon distance has been fixed at 42.195 kilometres since 1921. A competition running track is 400 metres long in the innermost lane. 42,195 divided by 400 is 105.49: 105 full laps plus another 195 metres. A marathon is usually run on roads; at major championships the course often ends with a lap in the stadium.",
+        "captions": [
+          "The marathon distance: exactly 42.195 kilometres since 1921.",
+          "One lap of a stadium track is 400 metres.",
+          "That makes 105 laps – plus another 195 metres."
+        ],
+        "file": "/clips/v-marathon-runden.en.mp4",
+        "poster": "/clips/v-marathon-runden.en.jpg"
+      }
+    }
   }
 ]

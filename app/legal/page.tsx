@@ -66,7 +66,7 @@ export default function LegalPage() {
 
       <section className="space-y-3">
         <h2 className={h2}>{t("Clips")} · {credits.length}</h2>
-        <p className={p}>{t("Alle Clips sind gemeinfrei oder stehen unter einer freien Creative-Commons-Lizenz. Sie wurden bearbeitet: gekürzt, auf Hochformat zugeschnitten, ohne Ton. Bearbeitete Fassungen von Werken unter „CC BY-SA“ stehen unter derselben Lizenz. Die Urheber haben mit dieser App nichts zu tun und unterstützen sie nicht.")}</p>
+        <p className={p}>{t("Fremde Clips sind gemeinfrei oder stehen unter einer freien Creative-Commons-Lizenz. Sie wurden bearbeitet: gekürzt, auf Hochformat zugeschnitten, ohne Ton. Bearbeitete Fassungen von Werken unter „CC BY-SA“ stehen unter derselben Lizenz. Die Urheber haben mit dieser App nichts zu tun und unterstützen sie nicht. Clips mit „Eigene Produktion“ sind für diese App im Programmcode entstanden; ihre Zahlen sind aus den verlinkten Quellen berechnet.")}</p>
         <ul className="divide-y divide-line rounded-2xl bg-surface ring-1 ring-line">
           {credits.map((v) => {
             const url = deed(v.license);

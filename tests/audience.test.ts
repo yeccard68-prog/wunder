@@ -42,7 +42,7 @@ test("age levels: 10–12 sees children's cards plus level 10, nothing above", (
   const set = forAudience(content, "de", "10-12");
   assert.ok(set.items.some((i) => i.minAge === 6) && set.items.some((i) => i.minAge === 10));
   assert.ok(set.items.every((i) => i.minAge <= 10));
-  assert.equal(set.clips.length, 38);
+  assert.equal(set.clips.length, 40);
 });
 
 test("age levels: from 16 everything is shown except cards written only for children", () => {
@@ -77,4 +77,15 @@ test("the English dictionary has no empty entries and keeps all placeholders", (
     assert.ok(text.trim().length > 0, de);
     assert.deepEqual((text.match(/\{\w+\}/g) ?? []).sort(), (de.match(/\{\w+\}/g) ?? []).sort(), de);
   }
+});
+
+test("own clips with text in the picture play the video of the chosen language", () => {
+  const de = forAudience(content, "de", "16+").clips.find((c) => c.id === "v-zinseszins")!;
+  const en = forAudience(content, "en", "16+").clips.find((c) => c.id === "v-zinseszins")!;
+  assert.equal(de.file, "/clips/v-zinseszins.mp4");
+  assert.equal(en.file, "/clips/v-zinseszins.en.mp4");
+  assert.equal(en.poster, "/clips/v-zinseszins.en.jpg");
+  // footage without labels keeps one file for every language
+  const footage = forAudience(content, "en", "16+").clips.find((c) => c.id === "v-taiko")!;
+  assert.equal(footage.file, "/clips/v-taiko.mp4");
 });

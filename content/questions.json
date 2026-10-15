@@ -32021,5 +32021,123 @@
         "explanation": "It is dated to around 3000 BC, which is why the invention is often credited to the Sumerians."
       }
     }
+  },
+  {
+    "id": "q-v-zinseszins",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "1.000 € bringen 30 Jahre lang 7 % Zinsen pro Jahr, die Zinsen bleiben angelegt. Wie viel ist es am Ende ungefähr?",
+    "options": [
+      "Rund 7.600 €",
+      "Rund 3.100 €",
+      "Rund 2.100 €",
+      "Rund 21.000 €"
+    ],
+    "correct_index": 0,
+    "explanation": "1.000 € · 1,07³⁰ ≈ 7.612 €. Ohne Zinseszins wären es 1.000 € + 30 · 70 € = 3.100 €.",
+    "difficulty": 1,
+    "tags": [
+      "Geld",
+      "Zinsen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zinseszins",
+    "source_url": "https://de.wikipedia.org/wiki/Zinseszins",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "€1,000 earns 7% interest a year for 30 years, and the interest stays invested. Roughly how much is it at the end?",
+        "options": [
+          "About €7,600",
+          "About €3,100",
+          "About €2,100",
+          "About €21,000"
+        ],
+        "explanation": "€1,000 · 1.07³⁰ ≈ €7,612. Without compounding it would be €1,000 + 30 · €70 = €3,100."
+      }
+    }
+  },
+  {
+    "id": "q-v-pyramide-mond",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was liegt zeitlich näher an Kleopatras Geburt (69 v. Chr.)?",
+    "options": [
+      "Die erste Mondlandung 1969",
+      "Der Bau der Cheops-Pyramide",
+      "Beides ist etwa gleich weit entfernt"
+    ],
+    "correct_index": 0,
+    "explanation": "Bis zur Mondlandung sind es rund 2.040 Jahre, zurück zum Pyramidenbau unter Cheops (etwa 2620–2580 v. Chr.) rund 2.500.",
+    "difficulty": 1,
+    "tags": [
+      "Antike",
+      "Zeitgefühl"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleopatra VII.",
+    "source_url": "https://de.wikipedia.org/wiki/Kleopatra_VII.",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is closer in time to Cleopatra's birth (69 BC)?",
+        "options": [
+          "The first Moon landing in 1969",
+          "The building of the Great Pyramid",
+          "Both are about equally far away"
+        ],
+        "explanation": "It is about 2,040 years to the Moon landing, but about 2,500 back to the building of the pyramid under Khufu (about 2620–2580 BC)."
+      }
+    }
+  },
+  {
+    "id": "q-v-marathon-runden",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Runden auf einer 400-Meter-Bahn ergeben ungefähr einen Marathon?",
+    "options": [
+      "Gut 105",
+      "Gut 42",
+      "Genau 100",
+      "Gut 210"
+    ],
+    "correct_index": 0,
+    "explanation": "42.195 m : 400 m = 105,49 – also 105 Runden und 195 Meter.",
+    "difficulty": 1,
+    "tags": [
+      "Laufen",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marathonlauf",
+    "source_url": "https://de.wikipedia.org/wiki/Marathonlauf",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how many laps of a 400-metre track make a marathon?",
+        "options": [
+          "Just over 105",
+          "Just over 42",
+          "Exactly 100",
+          "Just over 210"
+        ],
+        "explanation": "42,195 m ÷ 400 m = 105.49 – so 105 laps and 195 metres."
+      }
+    }
   }
 ]

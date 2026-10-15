@@ -108,6 +108,10 @@ export function validateContent({ categories, questions, videos }, { publicDir =
       else if (fs.statSync(file).size < 10_000) errors.push(`${at}: file ${v.video_url} is suspiciously small`);
     } else if (!/^https:\/\//.test(v.video_url)) errors.push(`${at}: video_url must be https:// or an app path starting with /`);
     else if (blank(v.license)) errors.push(`${at}: external videos need a license note`);
+    // own clips with labels in the picture bring one video per language (translations.<lang>.file / poster)
+    for (const [lang, tr] of Object.entries(v.translations ?? {}))
+      for (const key of ["file", "poster"])
+        if (tr?.[key] && !(String(tr[key]).startsWith("/") && fs.existsSync(path.join(publicDir, tr[key])))) errors.push(`${at}: ${lang} ${key} ${tr[key]} not found in ${publicDir}/`);
     if (!(v.duration_seconds > 0 && v.duration_seconds <= 60)) errors.push(`${at}: duration_seconds must be between 0 and 60`);
     if (v.end_seconds != null && !(v.end_seconds > (v.start_seconds ?? 0))) errors.push(`${at}: end_seconds must be after start_seconds`);
     if (v.end_seconds != null && Math.abs(v.end_seconds - (v.start_seconds ?? 0) - v.duration_seconds) > 0.01) errors.push(`${at}: duration_seconds must equal the segment length`);
