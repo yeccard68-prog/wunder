@@ -36,7 +36,7 @@ const visuals = [
     predict_correct: 1,
     apply: "Bei einem Gewitter siehst du den Blitz und zählst sechs Sekunden bis zum Donner. Wie weit ist das Gewitter ungefähr entfernt? Rechne mit dem Wert für Luft.",
     sources: [W("Schallgeschwindigkeit")],
-    links: [{ kind: "animation", id: "a-gewitter" }],
+    links: [{ kind: "animation", id: "a-schall" }, { kind: "animation", id: "a-gewitter" }],
     verification_status: "ai_checked",
     status: "published",
     translations: {

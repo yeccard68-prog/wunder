@@ -334,3 +334,11 @@ Capacitor 8.5.2 packt den statischen Export in eine Android-App (`android/`, `ca
 - **Fehler behoben:** Sprang man über die Schritt-Punkte direkt zum Schritt mit der Antwort auf die Vorhersagefrage – oder lief ein langsames Gerät mit weniger als etwa 50 Bildern pro Sekunde –, konnte während der Frage schon die Beschriftung mit der Lösung zu sehen sein. Der Player hält die Zeit jetzt sofort an (`hold` in `AnimationPlayer.tsx`); ein Browser-Test prüft das.
 - Kontakt in den Kennungen der Recherche-Skripte (Wikipedia/Commons-API) ist jetzt die Projektseite statt einer E-Mail-Adresse.
 - Stand: 23 Animationen (22 in 3D), 721 Fragen (672 im Feed, davon 25 Rätsel, 38 in den neuen Formaten), 43 Clips, 10 Themen.
+
+## 33. Zweite Rätselrunde, Wirtschaft und Sport, Schall in 3D (15.10.2026)
+
+- **Rätsel:** 14 weitere (`2026-10-riddles-2.mjs`), jetzt auch für Geschichte, Erde, Kultur, Sport und Technik – zusammen 39.
+- **Karten:** 18 Fragen, 2 „Stimmt das?“-Karten und 6 Formatkarten für Wirtschaft & Geld und Sport (`2026-10-wissen-4.mjs`). Zwei Erklärungen wurden beim Abgleich mit den Quellen geändert: Usain Bolts Spitzengeschwindigkeit steht dort mit 44,72 km/h, und für die Hyperinflation 1923 nennt der Artikel überdruckte Geldscheine („500 Milliarden“) statt eines Brotpreises.
+- **Animation:** Schall (`sound`): Membran, Verdichtungen und Verdünnungen, ein markiertes Teilchen, das nur hin und her schwingt, Frequenz und Tonhöhe, Auslenkung und Lautstärke, Trommelfell (`2026-10-animations-3d-8.mjs`). Die Luft ist eine einzige InstancedMesh (520 Teilchen). Eine Änderung an der Membran wandert mit der Welle nach außen. Die Visualisierung „Wie schnell ist Schall?“ verweist jetzt auf diese Animation.
+- **Clips:** In dieser Runde keine neuen – die übrigen frei lizenzierten Kandidaten für Wirtschaft und Business waren zu unscharf oder doppelten vorhandene Clips.
+- Stand: 24 Animationen (23 in 3D), 762 Fragen (713 im Feed, davon 39 Rätsel, 44 in den neuen Formaten), 43 Clips.

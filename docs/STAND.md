@@ -4,23 +4,23 @@
 
 | Inhalt | Anzahl | Status |
 |---|---|---|
-| Fragekarten im Feed | 672 (davon 79 „Stimmt das?“, 38 neue Formate, 25 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
+| Fragekarten im Feed | 713 (davon 81 „Stimmt das?“, 44 neue Formate, 39 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
 | Video-Quizfragen | 49 | zweiter Versuch mit Hinweis, halbe Punkte |
 | Clips | 43 veröffentlicht, 6 archiviert | frei lizenziert, Quelle und Urheber je Clip, Nachweise unter `/legal/` |
-| Animationen | 23 (22 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
+| Animationen | 24 (23 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 5 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste) | 3 mit echten Daten, 2 Rechenmodelle; auch im Feed |
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee |
 | Themen | 10 | |
 
-Karten je Thema (Feed): Wissenschaft 101, Technologie & KI 75, Erde & Natur 70, Mathe & Logik 69, Geschichte 68, Kultur & Gesellschaft 67, Sprache 65, Business 57, Wirtschaft & Geld 53, Sport 47.
+Karten je Thema (Feed): Wissenschaft 104, Technologie & KI 77, Erde & Natur 72, Mathe & Logik 72, Geschichte 69, Wirtschaft & Geld 68, Kultur & Gesellschaft 68, Sprache 66, Sport 60, Business 57.
 
 ## Ziele aus den Aufträgen
 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
-| 1.000 Quizfragen | 721 | rund 150 pro Stapel sind in guter Qualität machbar |
+| 1.000 Quizfragen | 762 | rund 150 pro Stapel sind in guter Qualität machbar |
 | 100 Kurzvideos | 43 | Engpass ist das Sichten freier Quellen, nicht die Technik |
-| 50 Animationen | 23 | jede 3D-Szene ist Handarbeit im Code |
+| 50 Animationen | 24 | jede 3D-Szene ist Handarbeit im Code |
 | rund 20 Bücher | 20 | je drei Ideen; fünf je Buch wären der nächste Ausbau |
 | 200 Aufgaben für unter 6-Jährige | 0 | zurückgestellt; die App ist nur ab 16 freigegeben |
 
@@ -47,7 +47,7 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 
 ### 3. Inhalte, die Lernende zurückbringen
 
-1. **Fragen auf 1.000** – am 15.10.2026 kamen 25 Rätsel und 57 Karten für Sport, Business, Sprache und Wirtschaft dazu. Weiter: mehr Rätsel (auch für Geschichte und Erde), Wirtschaft (53) und Sport (47).
+1. **Fragen auf 1.000** – am 15.10.2026 kamen 25 Rätsel und 57 Karten für Sport, Business, Sprache und Wirtschaft dazu. Danach eine zweite Runde mit 14 Rätseln und 26 Karten für Wirtschaft und Sport. Am dünnsten sind jetzt Business (57) und Sport (60).
 2. **Bücher auf fünf Ideen je Buch** (40 neue Lektionen) – die Bücher sind das Format mit der tiefsten Lernwirkung.
 3. **Weitere Visualisierungen** aus den vorhandenen fünf Typen (nur Daten, kein Code) und zwei neue Typen: Kreis-/Anteilsdiagramm und Wahrscheinlichkeits-Experiment.
 4. **Clips** – der langsamste Weg (Sichtung freier Quellen); sinnvoll in kleinen Paketen.
