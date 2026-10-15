@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { DataTable } from "@/components/viz/Chart";
 import type { VizProps } from "@/components/viz/types";
-import { gaps, scale, spreadLabels, type TimelineConfig } from "@/lib/visuals";
+import { formatYear, gaps, scale, spreadLabels, yearTicks, type TimelineConfig } from "@/lib/visuals";
 
 const W = 340;
 const H = 380;
@@ -30,14 +30,14 @@ export default function TimelineViz({ visual, color, locale, revealed, onChange 
   const overflow = Math.max(0, labels[labels.length - 1] - BOTTOM);
   const placed = labels.map((l) => l - overflow);
   const between = gaps(items);
-  const centuries = Array.from({ length: Math.floor(c.to / 100) - Math.ceil(c.from / 100) + 1 }, (_, i) => (Math.ceil(c.from / 100) + i) * 100);
+  const centuries = yearTicks(c.from, c.to);
   const toggle = (set: (f: (b: boolean) => boolean) => void) => () => {
     set((b) => !b);
     onChange?.();
   };
   const chip = (on: boolean) => `press h-10 rounded-full border px-4 text-sm font-semibold ${on ? "border-ink bg-ink text-bg" : "border-line bg-surface"}`;
   const current = items.find((e) => e.key === picked);
-  const yearText = (year: number) => String(year);
+  const yearText = (year: number) => formatYear(year, locale, c.from < 0);
 
   return (
     <div className="space-y-3">
@@ -46,14 +46,14 @@ export default function TimelineViz({ visual, color, locale, revealed, onChange 
         {!even && centuries.map((year) => (
           <g key={year}>
             <path d={`M${LINE - 6} ${scale(year, c.from, c.to, TOP, BOTTOM)}h12`} stroke="var(--muted)" strokeWidth={1} />
-            <text x={LINE - 10} y={scale(year, c.from, c.to, TOP, BOTTOM) + 3.5} textAnchor="end" fontSize={9.5} fill="var(--muted)">{year}</text>
+            <text x={LINE - 10} y={scale(year, c.from, c.to, TOP, BOTTOM) + 3.5} textAnchor="end" fontSize={9.5} fill="var(--muted)">{yearText(year)}</text>
           </g>
         ))}
         {items.map((e, i) => {
           const on = e.key === picked;
           const gap = between[i].years;
           return (
-            <g key={e.key} role="button" tabIndex={0} aria-label={`${L[e.key]}, ${e.year}`} aria-pressed={on} data-event={e.key} style={{ cursor: "pointer" }}
+            <g key={e.key} role="button" tabIndex={0} aria-label={`${L[e.key]}, ${yearText(e.year)}`} aria-pressed={on} data-event={e.key} style={{ cursor: "pointer" }}
               onClick={() => { setPicked(e.key); onChange?.(); }} onKeyDown={(k) => (k.key === "Enter" || k.key === " ") && setPicked(e.key)}>
               <path d={`M${LINE} ${dots[i]}L${LINE + 18} ${placed[i]}H${LINE + 24}`} fill="none" stroke="var(--muted)" strokeWidth={0.8} />
               <circle cx={LINE} cy={dots[i]} r={on ? 6.5 : 5} fill={e.late ? "var(--surface)" : color} stroke={on ? "var(--ink)" : color} strokeWidth={2} />
@@ -74,7 +74,7 @@ export default function TimelineViz({ visual, color, locale, revealed, onChange 
         <button onClick={toggle(setEven)} aria-pressed={even} className={chip(even)}>{even ? L.even : L.toScale}</button>
         <button onClick={toggle(setShowGaps)} aria-pressed={showGaps} className={chip(showGaps)}>{L.showGaps}</button>
       </div>
-      <DataTable summary={locale === "en" ? "Show the years as a table" : "Jahreszahlen als Tabelle zeigen"} head={["", L.year, L.gapHead]} rows={items.map((e, i) => [L[e.key], e.year, between[i].years ?? "–"])} />
+      <DataTable summary={locale === "en" ? "Show the years as a table" : "Jahreszahlen als Tabelle zeigen"} head={["", L.year, L.gapHead]} rows={items.map((e, i) => [L[e.key], yearText(e.year), between[i].years ?? "–"])} />
     </div>
   );
 }

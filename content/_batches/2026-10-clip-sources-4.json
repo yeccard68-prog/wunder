@@ -1,0 +1,54 @@
+{
+ "taiko": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Taiko_Tsukiji_Honganji_Festival.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Taiko_Tsukiji_Honganji_Festival.webm",
+  "w": 1280,
+  "h": 720,
+  "duration": 70.54,
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "author": "Guilhem Vellut; public performance from Tsukiji Honganji Bon Dance Festival",
+  "credit": "https://www.flickr.com/photos/o_0/9434405338",
+  "description": "Taiko performance at the Tsukiji Honganji Bon Dance Festival in 2013."
+ },
+ "taiko2": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Claremont_Taiko_performance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Claremont_Taiko_performance.webm",
+  "w": 1920,
+  "h": 1080,
+  "duration": 8.44,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Sdkb",
+  "credit": "Own work",
+  "description": "Clip from a performance by Claremont Taiko at Scripps College in 2018"
+ },
+ "toepfer": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Pottery_on_porters_wheel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Pottery_on_porters_wheel.webm",
+  "w": 721,
+  "h": 1192,
+  "duration": 111.706,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Alvin Ategyeka",
+  "credit": "Own work",
+  "description": "Making clay products on a porters wheel"
+ },
+ "glas": {
+  "source": "Wikimedia Commons",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kosta-Boda_vinglas%2C_2018_TEST.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File:Kosta-Boda_vinglas,_2018_TEST.webm",
+  "w": 1440,
+  "h": 1080,
+  "duration": 38.062,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "User:Holger.Ellgaard",
+  "credit": "Own work",
+  "description": "Kosta-Boda, vinglasproduktion (test)"
+ }
+}

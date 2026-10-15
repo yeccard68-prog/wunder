@@ -2361,5 +2361,113 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-15T12:00:00Z",
+    "id": "a-photosynthese",
+    "category_id": "earth",
+    "scene": "photosynthesis",
+    "title": "Wie ein Blatt aus Licht Zucker macht",
+    "summary": "Licht, Wasser und Luft – mehr braucht ein Blatt nicht, um Nahrung herzustellen und Sauerstoff abzugeben.",
+    "goal": "Du kannst die Zutaten und Produkte der Photosynthese nennen und erklären, warum Blätter grün aussehen.",
+    "labels": [
+      "Sonnenlicht",
+      "Wasser aus den Wurzeln",
+      "Kohlendioxid aus der Luft",
+      "Spaltöffnungen auf der Unterseite",
+      "Chlorophyll schluckt Rot und Blau",
+      "Grün wird zurückgeworfen",
+      "Zucker (Glukose)",
+      "Sauerstoff",
+      "6 CO₂ + 6 H₂O → Zucker + 6 O₂",
+      "Zucker wandert in die Pflanze"
+    ],
+    "steps": [
+      {
+        "text": "Ein Blatt braucht drei Zutaten: Sonnenlicht, Wasser, das die Wurzeln aus dem Boden holen, und Kohlendioxid aus der Luft. Das Gas gelangt durch winzige Spaltöffnungen, die meist auf der Blattunterseite liegen.",
+        "seconds": 9
+      },
+      {
+        "text": "In den Blattzellen sitzen Chloroplasten mit dem Farbstoff Chlorophyll. Er schluckt vor allem rotes und blaues Licht und nutzt dessen Energie. Grünes Licht wird größtenteils zurückgeworfen – deshalb sehen Blätter grün aus.",
+        "seconds": 9
+      },
+      {
+        "text": "Mit der Energie des Lichts baut das Blatt aus Wasser und Kohlendioxid Zucker. Dabei wird Sauerstoff frei und durch die Spaltöffnungen abgegeben. Er stammt übrigens aus dem Wasser, nicht aus dem Kohlendioxid.",
+        "seconds": 9
+      },
+      {
+        "text": "Der Zucker wird über die Leitbahnen in die ganze Pflanze gebracht. Sie nutzt ihn als Energie und baut daraus zum Beispiel Stärke und Zellulose. Nachts ruht die Photosynthese; die Pflanze atmet dann nur – und verbraucht dabei ein wenig Sauerstoff.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Photosynthese",
+        "url": "https://de.wikipedia.org/wiki/Photosynthese"
+      },
+      {
+        "name": "Wikipedia: Chlorophylle",
+        "url": "https://de.wikipedia.org/wiki/Chlorophylle"
+      },
+      {
+        "name": "Wikipedia: Stoma (Botanik)",
+        "url": "https://de.wikipedia.org/wiki/Stoma_(Botanik)"
+      }
+    ],
+    "quiz_question_id": "qa-photosynthese",
+    "translations": {
+      "en": {
+        "title": "How a leaf makes sugar from light",
+        "summary": "Light, water and air – that is all a leaf needs to make food and give off oxygen.",
+        "goal": "You can name the ingredients and products of photosynthesis and explain why leaves look green.",
+        "labels": [
+          "Sunlight",
+          "water from the roots",
+          "carbon dioxide from the air",
+          "pores on the underside",
+          "chlorophyll absorbs red and blue",
+          "green is reflected",
+          "sugar (glucose)",
+          "oxygen",
+          "6 CO₂ + 6 H₂O → sugar + 6 O₂",
+          "sugar travels into the plant"
+        ],
+        "steps": [
+          "A leaf needs three ingredients: sunlight, water that the roots draw from the soil, and carbon dioxide from the air. The gas gets in through tiny pores, which are mostly on the underside of the leaf.",
+          "The leaf cells contain chloroplasts with the pigment chlorophyll. It mainly absorbs red and blue light and uses its energy. Green light is largely reflected – which is why leaves look green.",
+          "With the energy of the light, the leaf builds sugar from water and carbon dioxide. Oxygen is released and given off through the pores. Incidentally, it comes from the water, not from the carbon dioxide.",
+          "The sugar is carried through the veins to the whole plant. The plant uses it for energy and builds things like starch and cellulose from it. At night photosynthesis rests; the plant then only breathes – and uses up a little oxygen."
+        ],
+        "predict": {
+          "question": "In a moment the leaf builds sugar from water and carbon dioxide. What does it give off into the air?",
+          "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1.3
+    },
+    "predict": {
+      "step": 2,
+      "question": "Gleich baut das Blatt aus Wasser und Kohlendioxid Zucker. Was gibt es dabei an die Luft ab?",
+      "options": [
+        "Sauerstoff",
+        "Kohlendioxid",
+        "Stickstoff"
+      ],
+      "correct": 0
+    }
   }
 ]

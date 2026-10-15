@@ -392,7 +392,7 @@ test("an account set up for a children's age band is asked for the age again", a
 test("interactive: compound interest – guess first, then the sliders change curve and numbers", async ({ page }) => {
   await signIn(page);
   await page.goto("/lab/");
-  await expect(page.getByTestId("visual-row")).toHaveCount(5);
+  await expect(page.getByTestId("visual-row")).toHaveCount(6);
   await page.getByRole("button", { name: /Zinseszins/ }).click();
   const card = page.getByTestId("visual-card");
   await expect(card).toHaveAttribute("data-revealed", "false");
@@ -508,6 +508,20 @@ test("interactive: timeline – the Moon landing appears after the guess, gaps a
   await card.getByRole("button", { name: "maßstabsgetreu" }).click();
   await expect(card.getByRole("button", { name: "gleiche Abstände" })).toHaveAttribute("aria-pressed", "true");
   expect(await y()).not.toBe(scaled);
+});
+
+test("interactive: a timeline before Christ reads „v. Chr.“ and counts the gaps without a year 0", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/lab/?v=v-schrift-zeitleiste");
+  const card = page.getByTestId("visual-card");
+  await expect(card.locator("[data-event=greek]")).toHaveCount(0); // only after the guess
+  await card.getByRole("button", { name: "Gut 2.000 Jahre" }).click();
+  await expect(card.locator("[data-event=greek]")).toHaveCount(1);
+  await card.locator("[data-event=uruk]").click();
+  await expect(card.getByTestId("viz-readout")).toHaveText("Bilderschrift in Uruk: 3300 v. Chr.");
+  await card.getByRole("button", { name: "Jahre dazwischen zeigen" }).click();
+  await expect(card.locator("[data-event=runes]")).toContainText("150 n. Chr.");
+  await expect(card.locator("[data-event=runes]")).toContainText("+399"); // 250 BC → AD 150
 });
 
 test("3D animations: the playback speed can be chosen and is remembered; the view can be zoomed", async ({ page }) => {

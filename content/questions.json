@@ -23172,15 +23172,15 @@
     "id": "sp3",
     "kind": "question",
     "category_id": "sport",
-    "question": "Wie viele Ringe zeigt die olympische Flagge?",
+    "question": "Wofür stehen die fünf Ringe der olympischen Flagge?",
     "options": [
-      "Drei",
-      "Vier",
-      "Sechs",
-      "Fünf"
+      "Für die fünf Kontinente, vereint durch die Spiele",
+      "Für fünf Sportarten der ersten Spiele",
+      "Für die fünf Gründerstaaten",
+      "Für fünf olympische Werte"
     ],
-    "correct_index": 3,
-    "explanation": "Fünf verschlungene Ringe in Blau, Gelb, Schwarz, Grün und Rot auf weißem Grund.",
+    "correct_index": 0,
+    "explanation": "Pierre de Coubertin entwarf das Symbol 1913. Die verschlungenen Ringe stehen für die Vereinigung der Kontinente; die fünf Farben zusammen mit dem weißen Grund sollten sich in jeder Nationalflagge wiederfinden.",
     "difficulty": 1,
     "tags": [
       "Olympia"
@@ -23196,14 +23196,14 @@
     "max_age": null,
     "translations": {
       "en": {
-        "question": "How many rings are on the Olympic flag?",
+        "question": "What do the five rings of the Olympic flag stand for?",
         "options": [
-          "Three",
-          "Four",
-          "Six",
-          "Five"
+          "The five continents, united by the Games",
+          "Five sports of the first Games",
+          "The five founding countries",
+          "Five Olympic values"
         ],
-        "explanation": "Five interlaced rings in blue, yellow, black, green and red on a white background."
+        "explanation": "Pierre de Coubertin designed the symbol in 1913. The interlaced rings stand for the union of the continents; the five colours together with the white background were meant to appear in every national flag."
       }
     }
   },
@@ -23839,15 +23839,15 @@
     "id": "sp20",
     "kind": "question",
     "category_id": "sport",
-    "question": "Wie oft finden Olympische Sommerspiele statt?",
+    "question": "In welchem Jahr fanden zum ersten Mal Olympische Winterspiele statt?",
     "options": [
-      "Jedes Jahr",
-      "Alle vier Jahre",
-      "Alle zwei Jahre",
-      "Alle fünf Jahre"
+      "1896",
+      "1924",
+      "1936",
+      "1952"
     ],
     "correct_index": 1,
-    "explanation": "Der Zeitraum von vier Jahren heißt Olympiade. Winter- und Sommerspiele wechseln sich seit 1994 im Zweijahrestakt ab.",
+    "explanation": "1924 in Chamonix in Frankreich. Seit 1994 finden Sommer- und Winterspiele um zwei Jahre versetzt statt.",
     "difficulty": 2,
     "tags": [
       "Olympia"
@@ -23856,21 +23856,21 @@
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
-    "source_name": "Wikipedia: Olympische Spiele",
-    "source_url": "https://de.wikipedia.org/wiki/Olympische_Spiele",
+    "source_name": "Wikipedia: Olympische Winterspiele 1924",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Winterspiele_1924",
     "created_at": "2026-09-24T12:00:00Z",
     "min_age": 10,
     "max_age": null,
     "translations": {
       "en": {
-        "question": "How often are the Summer Olympic Games held?",
+        "question": "In which year were the first Winter Olympics held?",
         "options": [
-          "Every year",
-          "Every four years",
-          "Every two years",
-          "Every five years"
+          "1896",
+          "1924",
+          "1936",
+          "1952"
         ],
-        "explanation": "The period of four years is called an Olympiad. Since 1994 Winter and Summer Games have alternated every two years."
+        "explanation": "In 1924 in Chamonix, France. Since 1994 the Summer and Winter Games have been held two years apart."
       }
     }
   },
@@ -25945,16 +25945,16 @@
     "id": "sp36",
     "kind": "question",
     "category_id": "sport",
-    "question": "Wie viele Spieler einer Fußballmannschaft stehen zu Spielbeginn auf dem Platz?",
+    "question": "Wie viele Spieler muss eine Fußballmannschaft mindestens auf dem Platz haben, damit ein Spiel weiterläuft?",
     "options": [
+      "5",
+      "7",
       "9",
-      "10",
-      "11",
-      "12"
+      "10"
     ],
-    "correct_index": 2,
-    "explanation": "Elf, darunter ein Torwart. Hat eine Mannschaft weniger als sieben Spieler, wird das Spiel abgebrochen.",
-    "difficulty": 1,
+    "correct_index": 1,
+    "explanation": "Sinkt eine Mannschaft – etwa durch Platzverweise – unter sieben Spieler, wird das Spiel abgebrochen. Zu Beginn stehen elf auf dem Platz, darunter ein Torwart.",
+    "difficulty": 2,
     "tags": [
       "Fußball"
     ],
@@ -25962,21 +25962,21 @@
     "status": "published",
     "show_in_feed": true,
     "demo_popularity": 0,
-    "source_name": "Wikipedia: Fußball",
-    "source_url": "https://de.wikipedia.org/wiki/Fußball",
+    "source_name": "Wikipedia: Fußballregeln",
+    "source_url": "https://de.wikipedia.org/wiki/Fußballregeln",
     "created_at": "2026-09-30T12:00:00Z",
     "min_age": 13,
     "max_age": null,
     "translations": {
       "en": {
-        "question": "How many players of a football team are on the pitch at kick-off?",
+        "question": "How many players must a football team have on the pitch at least for a match to continue?",
         "options": [
+          "5",
+          "7",
           "9",
-          "10",
-          "11",
-          "12"
+          "10"
         ],
-        "explanation": "Eleven, including a goalkeeper. If a team has fewer than seven players, the match is abandoned."
+        "explanation": "If a team drops below seven players – for example through sendings-off – the match is abandoned. At kick-off there are eleven, including a goalkeeper."
       }
     }
   },
@@ -29731,6 +29731,2294 @@
           "Because sound only arises in daylight"
         ],
         "explanation": "Sound is a vibration that particles pass on to their neighbours. In almost empty space these particles are missing – explosions in space would in reality be silent."
+      }
+    }
+  },
+  {
+    "id": "b46",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein Joint Venture?",
+    "options": [
+      "Ein gemeinsames Unternehmen von zwei oder mehr Firmen",
+      "Eine feindliche Übernahme",
+      "Ein Kredit unter Unternehmen",
+      "Eine Fusion zweier Staaten"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Partner bringen Geld, Wissen oder Zugang zu einem Markt ein und teilen Gewinne und Risiken. Häufig dient es dazu, gemeinsam in einem neuen Land Fuß zu fassen.",
+    "difficulty": 2,
+    "tags": [
+      "Strategie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Joint Venture",
+    "source_url": "https://de.wikipedia.org/wiki/Joint_Venture",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a joint venture?",
+        "options": [
+          "A shared company of two or more firms",
+          "A hostile takeover",
+          "A loan between companies",
+          "A merger of two states"
+        ],
+        "explanation": "The partners contribute money, know-how or access to a market and share profits and risks. It often serves to gain a foothold in a new country together."
+      }
+    }
+  },
+  {
+    "id": "b47",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein „Elevator Pitch“?",
+    "options": [
+      "Eine Idee in so kurzer Zeit erklären wie eine Aufzugfahrt dauert",
+      "Ein Verkaufsgespräch im Treppenhaus",
+      "Eine Werbung in Aufzügen",
+      "Eine Präsentation mit Folien"
+    ],
+    "correct_index": 0,
+    "explanation": "Rund 30 bis 60 Sekunden, um jemanden für ein Vorhaben zu interessieren – etwa einen Investor, den man zufällig im Aufzug trifft.",
+    "difficulty": 1,
+    "tags": [
+      "Start-up",
+      "Kommunikation"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elevator Pitch",
+    "source_url": "https://de.wikipedia.org/wiki/Elevator_Pitch",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an \"elevator pitch\"?",
+        "options": [
+          "Explaining an idea in about as long as a lift ride takes",
+          "A sales talk in the stairwell",
+          "Advertising in lifts",
+          "A slide presentation"
+        ],
+        "explanation": "Around 30 to 60 seconds to get someone interested in a project – such as an investor you happen to meet in the lift."
+      }
+    }
+  },
+  {
+    "id": "b48",
+    "kind": "question",
+    "category_id": "business",
+    "question": "In welchem Jahr stellte Apple das erste iPhone vor?",
+    "options": [
+      "2001",
+      "2004",
+      "2007",
+      "2010"
+    ],
+    "correct_index": 2,
+    "explanation": "Steve Jobs präsentierte es im Januar 2007; im Sommer kam es in den USA auf den Markt. Es war nicht das erste Smartphone, machte die Bedienung mit dem Finger aber massentauglich.",
+    "difficulty": 1,
+    "tags": [
+      "Technik",
+      "Gründer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: IPhone (1. Generation)",
+    "source_url": "https://de.wikipedia.org/wiki/IPhone_(1._Generation)",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did Apple present the first iPhone?",
+        "options": [
+          "2001",
+          "2004",
+          "2007",
+          "2010"
+        ],
+        "explanation": "Steve Jobs presented it in January 2007; it went on sale in the USA that summer. It was not the first smartphone, but it made finger-touch operation mainstream."
+      }
+    }
+  },
+  {
+    "id": "b49",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was misst die „Churn Rate“ (Abwanderungsquote)?",
+    "options": [
+      "Den Anteil der Kunden, die in einem Zeitraum kündigen",
+      "Wie schnell ein Produkt hergestellt wird",
+      "Wie viele Bewerbungen eingehen",
+      "Den Anteil der Werbung am Umsatz"
+    ],
+    "correct_index": 0,
+    "explanation": "Gerade bei Abo-Modellen ist sie entscheidend: Wer jeden Monat viele Kunden verliert, muss ständig neue gewinnen, nur um nicht zu schrumpfen.",
+    "difficulty": 2,
+    "tags": [
+      "Kennzahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Abwanderungsquote",
+    "source_url": "https://de.wikipedia.org/wiki/Abwanderungsquote",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the churn rate measure?",
+        "options": [
+          "The share of customers who cancel within a period",
+          "How quickly a product is made",
+          "How many job applications come in",
+          "Advertising as a share of revenue"
+        ],
+        "explanation": "It is crucial for subscription models in particular: losing many customers every month means constantly winning new ones just to avoid shrinking."
+      }
+    }
+  },
+  {
+    "id": "b50",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist die Aufgabe des Aufsichtsrats einer Aktiengesellschaft?",
+    "options": [
+      "Den Vorstand zu überwachen",
+      "Die Kantine zu betreiben",
+      "Die Buchhaltung zu erledigen",
+      "Neue Mitarbeiter auszubilden"
+    ],
+    "correct_index": 0,
+    "explanation": "In Deutschland bestellt und kontrolliert der Aufsichtsrat den Vorstand, der die Geschäfte führt. In großen Unternehmen sitzen darin auch Vertreter der Beschäftigten.",
+    "difficulty": 2,
+    "tags": [
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aufsichtsrat",
+    "source_url": "https://de.wikipedia.org/wiki/Aufsichtsrat",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the job of the supervisory board of a German stock corporation?",
+        "options": [
+          "To supervise the management board",
+          "To run the canteen",
+          "To do the accounting",
+          "To train new staff"
+        ],
+        "explanation": "In Germany the supervisory board appoints and monitors the management board, which runs the business. In large companies, employee representatives sit on it too."
+      }
+    }
+  },
+  {
+    "id": "b51",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist eine Holding?",
+    "options": [
+      "Ein Unternehmen, das Anteile an anderen Unternehmen hält und sie steuert",
+      "Ein Lager für Waren",
+      "Eine Telefon-Warteschleife",
+      "Eine Bank für Privatkunden"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Holding selbst stellt oft nichts her. Bekanntes Beispiel ist Alphabet, die Muttergesellschaft von Google.",
+    "difficulty": 2,
+    "tags": [
+      "Recht",
+      "Strategie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Holding",
+    "source_url": "https://de.wikipedia.org/wiki/Holding",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a holding company?",
+        "options": [
+          "A company that holds and controls shares in other companies",
+          "A warehouse for goods",
+          "A telephone queue",
+          "A bank for private customers"
+        ],
+        "explanation": "The holding company itself often produces nothing. A well-known example is Alphabet, Google's parent company."
+      }
+    }
+  },
+  {
+    "id": "b52",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür gibt es in Deutschland das Handelsregister?",
+    "options": [
+      "Es verzeichnet öffentlich Unternehmen und wer sie vertreten darf",
+      "Es listet alle Preise im Handel",
+      "Es zählt verkaufte Waren",
+      "Es registriert Kassenbelege"
+    ],
+    "correct_index": 0,
+    "explanation": "Jeder kann einsehen, wie eine Firma heißt, wo sie sitzt, welche Rechtsform sie hat und wer für sie unterschreiben darf.",
+    "difficulty": 2,
+    "tags": [
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Handelsregister (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Handelsregister_(Deutschland)",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the German commercial register for?",
+        "options": [
+          "It publicly records companies and who may represent them",
+          "It lists all prices in retail",
+          "It counts goods sold",
+          "It registers receipts"
+        ],
+        "explanation": "Anyone can look up a company's name, seat, legal form and who may sign on its behalf."
+      }
+    }
+  },
+  {
+    "id": "b53",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wer gründete 1975 zusammen mit Paul Allen das Unternehmen Microsoft?",
+    "options": [
+      "Steve Jobs",
+      "Bill Gates",
+      "Larry Page",
+      "Jeff Bezos"
+    ],
+    "correct_index": 1,
+    "explanation": "Die beiden kannten sich aus der Schulzeit in Seattle. Mit dem Betriebssystem MS-DOS und später Windows wurde Microsoft zu einem der größten Unternehmen der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Gründer",
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Microsoft",
+    "source_url": "https://de.wikipedia.org/wiki/Microsoft",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who founded Microsoft together with Paul Allen in 1975?",
+        "options": [
+          "Steve Jobs",
+          "Bill Gates",
+          "Larry Page",
+          "Jeff Bezos"
+        ],
+        "explanation": "The two knew each other from school in Seattle. With the operating system MS-DOS and later Windows, Microsoft became one of the largest companies in the world."
+      }
+    }
+  },
+  {
+    "id": "b54",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet „Skonto“ auf einer Rechnung?",
+    "options": [
+      "Ein Preisnachlass, wenn man schnell bezahlt",
+      "Eine Mahngebühr",
+      "Die Mehrwertsteuer",
+      "Eine Ratenzahlung"
+    ],
+    "correct_index": 0,
+    "explanation": "Zum Beispiel „2 % Skonto bei Zahlung innerhalb von 10 Tagen“. Der Verkäufer bekommt sein Geld schneller, der Käufer spart.",
+    "difficulty": 2,
+    "tags": [
+      "Finanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Skonto",
+    "source_url": "https://de.wikipedia.org/wiki/Skonto",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"cash discount\" (Skonto) mean on an invoice?",
+        "options": [
+          "A price reduction for paying quickly",
+          "A late-payment fee",
+          "VAT",
+          "An instalment plan"
+        ],
+        "explanation": "For example \"2% discount for payment within 10 days\". The seller gets the money sooner, the buyer saves."
+      }
+    }
+  },
+  {
+    "id": "b55",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wie berechnet man die Marktkapitalisierung eines börsennotierten Unternehmens?",
+    "options": [
+      "Aktienkurs mal Zahl der Aktien",
+      "Umsatz mal Zahl der Mitarbeiter",
+      "Gewinn geteilt durch Schulden",
+      "Zahl der Kunden mal Preis"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie zeigt, wie viel alle Aktien zusammen an der Börse gerade wert sind. Der Wert schwankt mit jedem Kursausschlag.",
+    "difficulty": 2,
+    "tags": [
+      "Börse",
+      "Kennzahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marktkapitalisierung",
+    "source_url": "https://de.wikipedia.org/wiki/Marktkapitalisierung",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is a listed company's market capitalisation calculated?",
+        "options": [
+          "Share price times number of shares",
+          "Revenue times number of employees",
+          "Profit divided by debt",
+          "Number of customers times price"
+        ],
+        "explanation": "It shows what all the shares together are currently worth on the stock exchange. The value moves with every price change."
+      }
+    }
+  },
+  {
+    "id": "b56",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was meint „Corporate Social Responsibility“?",
+    "options": [
+      "Die Verantwortung eines Unternehmens für Gesellschaft und Umwelt",
+      "Die Pflicht, Gewinne auszuschütten",
+      "Eine Versicherung gegen Haftung",
+      "Ein soziales Netzwerk für Firmen"
+    ],
+    "correct_index": 0,
+    "explanation": "Dazu gehören etwa faire Arbeitsbedingungen in der Lieferkette, Umweltschutz und Engagement vor Ort – über das hinaus, was Gesetze verlangen.",
+    "difficulty": 2,
+    "tags": [
+      "Nachhaltigkeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Corporate Social Responsibility",
+    "source_url": "https://de.wikipedia.org/wiki/Corporate_Social_Responsibility",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"corporate social responsibility\" mean?",
+        "options": [
+          "A company's responsibility towards society and the environment",
+          "The duty to pay out profits",
+          "Liability insurance",
+          "A social network for companies"
+        ],
+        "explanation": "It includes fair working conditions in the supply chain, environmental protection and local involvement – beyond what the law requires."
+      }
+    }
+  },
+  {
+    "id": "b57",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Woher stammt die Idee des „Lean Management“?",
+    "options": [
+      "Aus dem Produktionssystem von Toyota",
+      "Aus der Raumfahrt",
+      "Aus dem Militär im Mittelalter",
+      "Aus der Landwirtschaft"
+    ],
+    "correct_index": 0,
+    "explanation": "Schlank wirtschaften heißt: Verschwendung vermeiden – etwa unnötige Lager, Wartezeiten und Fehler. Die Prinzipien wurden ab den 1950er-Jahren bei Toyota entwickelt.",
+    "difficulty": 2,
+    "tags": [
+      "Strategie",
+      "Produktion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lean Management",
+    "source_url": "https://de.wikipedia.org/wiki/Lean_Management",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the idea of \"lean management\" come from?",
+        "options": [
+          "From Toyota's production system",
+          "From space travel",
+          "From medieval armies",
+          "From agriculture"
+        ],
+        "explanation": "Working lean means avoiding waste – such as unnecessary stock, waiting times and defects. The principles were developed at Toyota from the 1950s."
+      }
+    }
+  },
+  {
+    "id": "b58",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was zeigt die Gewinn- und Verlustrechnung eines Unternehmens?",
+    "options": [
+      "Erträge und Aufwendungen eines Zeitraums – und was am Ende übrig bleibt",
+      "Alle Vermögenswerte an einem Stichtag",
+      "Die Zahl der Mitarbeiter",
+      "Den Aktienkurs"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Bilanz ist eine Momentaufnahme des Vermögens; die Gewinn- und Verlustrechnung zeigt dagegen, wie im Laufe eines Jahres Gewinn oder Verlust zustande kam.",
+    "difficulty": 2,
+    "tags": [
+      "Kennzahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewinn- und Verlustrechnung",
+    "source_url": "https://de.wikipedia.org/wiki/Gewinn-_und_Verlustrechnung",
+    "created_at": "2026-10-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a company's income statement show?",
+        "options": [
+          "Income and expenses for a period – and what is left at the end",
+          "All assets on a given date",
+          "The number of employees",
+          "The share price"
+        ],
+        "explanation": "The balance sheet is a snapshot of assets; the income statement shows how a profit or loss came about over the year."
+      }
+    }
+  },
+  {
+    "id": "b59",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welches Unternehmen gründete Elon Musk im Jahr 2002?",
+    "options": [
+      "Tesla",
+      "SpaceX",
+      "PayPal",
+      "Neuralink"
+    ],
+    "correct_index": 1,
+    "explanation": "SpaceX entwickelt Raketen und Raumschiffe. Tesla wurde 2003 von anderen gegründet; Musk stieg 2004 als Geldgeber ein.",
+    "difficulty": 2,
+    "tags": [
+      "Gründer",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: SpaceX",
+    "source_url": "https://de.wikipedia.org/wiki/SpaceX",
+    "created_at": "2026-10-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which company did Elon Musk found in 2002?",
+        "options": [
+          "Tesla",
+          "SpaceX",
+          "PayPal",
+          "Neuralink"
+        ],
+        "explanation": "SpaceX develops rockets and spacecraft. Tesla was founded by others in 2003; Musk came in as an investor in 2004."
+      }
+    }
+  },
+  {
+    "id": "c51",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer schrieb den Roman „1984“ über einen totalitären Überwachungsstaat?",
+    "options": [
+      "Aldous Huxley",
+      "George Orwell",
+      "Franz Kafka",
+      "Ray Bradbury"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Roman erschien 1949. Begriffe daraus wie „Big Brother“ und „Neusprech“ werden bis heute benutzt.",
+    "difficulty": 1,
+    "tags": [
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 1984 (Roman)",
+    "source_url": "https://de.wikipedia.org/wiki/1984_(Roman)",
+    "created_at": "2026-10-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote the novel \"1984\" about a totalitarian surveillance state?",
+        "options": [
+          "Aldous Huxley",
+          "George Orwell",
+          "Franz Kafka",
+          "Ray Bradbury"
+        ],
+        "explanation": "The novel appeared in 1949. Terms from it such as \"Big Brother\" and \"Newspeak\" are still used today."
+      }
+    }
+  },
+  {
+    "id": "c52",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Land stammt das Kabuki-Theater?",
+    "options": [
+      "China",
+      "Japan",
+      "Indien",
+      "Korea"
+    ],
+    "correct_index": 1,
+    "explanation": "Kabuki entstand Anfang des 17. Jahrhunderts in Japan – mit prächtigen Kostümen, stark geschminkten Gesichtern und Musik. Heute stehen dort traditionell nur Männer auf der Bühne.",
+    "difficulty": 2,
+    "tags": [
+      "Theater"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kabuki",
+    "source_url": "https://de.wikipedia.org/wiki/Kabuki",
+    "created_at": "2026-09-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country does kabuki theatre come from?",
+        "options": [
+          "China",
+          "Japan",
+          "India",
+          "Korea"
+        ],
+        "explanation": "Kabuki emerged in Japan in the early 17th century – with splendid costumes, heavily made-up faces and music. Today, traditionally, only men perform on stage."
+      }
+    }
+  },
+  {
+    "id": "c53",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer schrieb „Don Quijote“, den Roman über einen Ritter, der gegen Windmühlen kämpft?",
+    "options": [
+      "Miguel de Cervantes",
+      "Dante Alighieri",
+      "Victor Hugo",
+      "Goethe"
+    ],
+    "correct_index": 0,
+    "explanation": "Der erste Teil erschien 1605 in Spanien. Er gilt als einer der ersten modernen Romane.",
+    "difficulty": 1,
+    "tags": [
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Don Quijote",
+    "source_url": "https://de.wikipedia.org/wiki/Don_Quijote",
+    "created_at": "2026-09-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote \"Don Quixote\", the novel about a knight who fights windmills?",
+        "options": [
+          "Miguel de Cervantes",
+          "Dante Alighieri",
+          "Victor Hugo",
+          "Goethe"
+        ],
+        "explanation": "The first part was published in Spain in 1605. It is considered one of the first modern novels."
+      }
+    }
+  },
+  {
+    "id": "c54",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt steht das Kolosseum?",
+    "options": [
+      "Athen",
+      "Rom",
+      "Istanbul",
+      "Neapel"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Amphitheater wurde im Jahr 80 eingeweiht und fasste wohl rund 50.000 Menschen. Dort fanden Gladiatorenkämpfe und Tierhetzen statt.",
+    "difficulty": 1,
+    "tags": [
+      "Architektur",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kolosseum",
+    "source_url": "https://de.wikipedia.org/wiki/Kolosseum",
+    "created_at": "2026-09-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is the Colosseum?",
+        "options": [
+          "Athens",
+          "Rome",
+          "Istanbul",
+          "Naples"
+        ],
+        "explanation": "The amphitheatre was inaugurated in AD 80 and probably held around 50,000 people. Gladiator fights and animal hunts took place there."
+      }
+    }
+  },
+  {
+    "id": "c55",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welcher Bildhauer schuf die Figur „Der Denker“?",
+    "options": [
+      "Michelangelo",
+      "Auguste Rodin",
+      "Henry Moore",
+      "Alberto Giacometti"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Franzose Auguste Rodin entwarf sie ursprünglich als Teil seines großen „Höllentors“. Es gibt sie heute in vielen Abgüssen auf der ganzen Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Denker",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Denker",
+    "created_at": "2026-09-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which sculptor created \"The Thinker\"?",
+        "options": [
+          "Michelangelo",
+          "Auguste Rodin",
+          "Henry Moore",
+          "Alberto Giacometti"
+        ],
+        "explanation": "The Frenchman Auguste Rodin originally designed it as part of his large \"Gates of Hell\". Today there are many casts of it around the world."
+      }
+    }
+  },
+  {
+    "id": "c56",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Zeilen hat ein klassisches Sonett?",
+    "options": [
+      "8",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct_index": 2,
+    "explanation": "Vierzehn: in der italienischen Form zwei Vierzeiler und zwei Dreizeiler. Shakespeare schrieb 154 Sonette.",
+    "difficulty": 2,
+    "tags": [
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonett",
+    "source_url": "https://de.wikipedia.org/wiki/Sonett",
+    "created_at": "2026-09-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many lines does a classic sonnet have?",
+        "options": [
+          "8",
+          "12",
+          "14",
+          "16"
+        ],
+        "explanation": "Fourteen: in the Italian form, two quatrains and two tercets. Shakespeare wrote 154 sonnets."
+      }
+    }
+  },
+  {
+    "id": "c57",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wo entstand der Tango?",
+    "options": [
+      "In Spanien",
+      "Am Río de la Plata in Argentinien und Uruguay",
+      "In Kuba",
+      "In Portugal"
+    ],
+    "correct_index": 1,
+    "explanation": "Er entstand Ende des 19. Jahrhunderts in Buenos Aires und Montevideo, wo viele Einwanderer zusammenkamen. Seit 2009 gehört er zum immateriellen Kulturerbe der UNESCO.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Tanz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tango",
+    "source_url": "https://de.wikipedia.org/wiki/Tango",
+    "created_at": "2026-09-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the tango originate?",
+        "options": [
+          "In Spain",
+          "On the Río de la Plata in Argentina and Uruguay",
+          "In Cuba",
+          "In Portugal"
+        ],
+        "explanation": "It emerged at the end of the 19th century in Buenos Aires and Montevideo, where many immigrants came together. Since 2009 it has been part of UNESCO's intangible cultural heritage."
+      }
+    }
+  },
+  {
+    "id": "c58",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer drehte 1927 den Stummfilm „Metropolis“?",
+    "options": [
+      "Fritz Lang",
+      "Charlie Chaplin",
+      "Alfred Hitchcock",
+      "Billy Wilder"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Science-Fiction-Film zeigt eine Stadt der Zukunft, geteilt in Herrschende und Arbeiter. Er gehört zum Weltdokumentenerbe der UNESCO.",
+    "difficulty": 2,
+    "tags": [
+      "Film"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Metropolis (Film)",
+    "source_url": "https://de.wikipedia.org/wiki/Metropolis_(Film)",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who made the 1927 silent film \"Metropolis\"?",
+        "options": [
+          "Fritz Lang",
+          "Charlie Chaplin",
+          "Alfred Hitchcock",
+          "Billy Wilder"
+        ],
+        "explanation": "The science-fiction film shows a city of the future divided into rulers and workers. It is part of UNESCO's Memory of the World register."
+      }
+    }
+  },
+  {
+    "id": "c59",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welches Bauwerk ließ der Mogulkaiser Shah Jahan als Grabmal für seine verstorbene Frau errichten?",
+    "options": [
+      "Den Taj Mahal",
+      "Die Hagia Sophia",
+      "Angkor Wat",
+      "Die Alhambra"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Taj Mahal in Agra in Indien wurde im 17. Jahrhundert aus weißem Marmor gebaut. Er ist UNESCO-Welterbe.",
+    "difficulty": 1,
+    "tags": [
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Taj Mahal",
+    "source_url": "https://de.wikipedia.org/wiki/Taj_Mahal",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which building did the Mughal emperor Shah Jahan have built as a tomb for his late wife?",
+        "options": [
+          "The Taj Mahal",
+          "The Hagia Sophia",
+          "Angkor Wat",
+          "The Alhambra"
+        ],
+        "explanation": "The Taj Mahal in Agra, India, was built of white marble in the 17th century. It is a UNESCO World Heritage Site."
+      }
+    }
+  },
+  {
+    "id": "c60",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist ein Leitmotiv in der Musik, etwa in den Opern Richard Wagners?",
+    "options": [
+      "Eine wiederkehrende Tonfolge, die für eine Person oder Idee steht",
+      "Die erste Note eines Stücks",
+      "Das Lieblingsinstrument des Komponisten",
+      "Eine Pause zwischen zwei Akten"
+    ],
+    "correct_index": 0,
+    "explanation": "Erklingt das Motiv, weiß das Publikum, wer oder was gemeint ist – auch wenn die Figur gar nicht auf der Bühne steht. Filmmusik arbeitet bis heute oft so.",
+    "difficulty": 3,
+    "tags": [
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leitmotiv",
+    "source_url": "https://de.wikipedia.org/wiki/Leitmotiv",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a leitmotif in music, for example in Richard Wagner's operas?",
+        "options": [
+          "A recurring musical phrase that stands for a person or idea",
+          "The first note of a piece",
+          "The composer's favourite instrument",
+          "A pause between two acts"
+        ],
+        "explanation": "When the motif sounds, the audience knows who or what is meant – even if the character isn't on stage. Film music still often works this way."
+      }
+    }
+  },
+  {
+    "id": "l53",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Neologismus?",
+    "options": [
+      "Ein neu gebildetes Wort, etwa „googeln“",
+      "Ein besonders altes Wort",
+      "Ein Wort aus dem Griechischen",
+      "Ein Schimpfwort"
+    ],
+    "correct_index": 0,
+    "explanation": "Neue Dinge brauchen neue Wörter. Setzen sie sich durch, landen sie irgendwann im Wörterbuch – „googeln“ etwa steht seit 2004 im Duden.",
+    "difficulty": 2,
+    "tags": [
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neologismus",
+    "source_url": "https://de.wikipedia.org/wiki/Neologismus",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a neologism?",
+        "options": [
+          "A newly coined word, such as \"to google\"",
+          "A particularly old word",
+          "A word from Greek",
+          "A swear word"
+        ],
+        "explanation": "New things need new words. If they catch on, they end up in the dictionary at some point – the German \"googeln\" has been in the Duden since 2004."
+      }
+    }
+  },
+  {
+    "id": "l54",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welche Richtung schreibt man Arabisch?",
+    "options": [
+      "Von links nach rechts",
+      "Von rechts nach links",
+      "Von oben nach unten",
+      "Abwechselnd hin und her"
+    ],
+    "correct_index": 1,
+    "explanation": "Arabisch wird von rechts nach links geschrieben, ebenso Hebräisch und Persisch. Zahlen werden im Arabischen aber meist von links nach rechts gelesen.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arabisches Alphabet",
+    "source_url": "https://de.wikipedia.org/wiki/Arabisches_Alphabet",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which direction is Arabic written?",
+        "options": [
+          "From left to right",
+          "From right to left",
+          "From top to bottom",
+          "Alternating back and forth"
+        ],
+        "explanation": "Arabic is written from right to left, as are Hebrew and Persian. Numbers, however, are usually read from left to right in Arabic."
+      }
+    }
+  },
+  {
+    "id": "l55",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Pleonasmus?",
+    "options": [
+      "Eine doppelte Aussage wie „weißer Schimmel“",
+      "Ein Wort mit mehreren Bedeutungen",
+      "Ein Reim",
+      "Eine Abkürzung"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Schimmel ist schon ein weißes Pferd – das Wort „weiß“ sagt nichts Neues. Manchmal dient die Doppelung bewusst der Betonung.",
+    "difficulty": 2,
+    "tags": [
+      "Deutsch",
+      "Stil"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pleonasmus",
+    "source_url": "https://de.wikipedia.org/wiki/Pleonasmus",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a pleonasm?",
+        "options": [
+          "A redundant phrase such as \"white Schimmel\" (a Schimmel is a white horse)",
+          "A word with several meanings",
+          "A rhyme",
+          "An abbreviation"
+        ],
+        "explanation": "A Schimmel already is a white horse – the word \"white\" adds nothing. Sometimes the repetition is used on purpose for emphasis."
+      }
+    }
+  },
+  {
+    "id": "l56",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was meint man mit „Tomaten auf den Augen haben“?",
+    "options": [
+      "Etwas Offensichtliches nicht sehen",
+      "Müde sein",
+      "Weinen müssen",
+      "Rot werden vor Scham"
+    ],
+    "correct_index": 0,
+    "explanation": "Wer Tomaten auf den Augen hat, übersieht etwas, das direkt vor ihm liegt.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch",
+      "Redewendungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Liste deutscher Redewendungen",
+    "source_url": "https://de.wikipedia.org/wiki/Liste_deutscher_Redewendungen",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the German saying \"to have tomatoes on your eyes\" mean?",
+        "options": [
+          "Not to see something obvious",
+          "To be tired",
+          "To have to cry",
+          "To blush with shame"
+        ],
+        "explanation": "Someone with tomatoes on their eyes overlooks something right in front of them."
+      }
+    }
+  },
+  {
+    "id": "l57",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie viele Buchstaben hat das griechische Alphabet?",
+    "options": [
+      "22",
+      "24",
+      "26",
+      "28"
+    ],
+    "correct_index": 1,
+    "explanation": "Vierundzwanzig, von Alpha bis Omega. Viele werden in Mathematik und Naturwissenschaften als Zeichen benutzt, etwa π (Pi) oder Δ (Delta).",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Griechisches Alphabet",
+    "source_url": "https://de.wikipedia.org/wiki/Griechisches_Alphabet",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many letters does the Greek alphabet have?",
+        "options": [
+          "22",
+          "24",
+          "26",
+          "28"
+        ],
+        "explanation": "Twenty-four, from alpha to omega. Many are used as symbols in maths and science, such as π (pi) or Δ (delta)."
+      }
+    }
+  },
+  {
+    "id": "l58",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was sind lautmalerische Wörter (Onomatopoesie)?",
+    "options": [
+      "Wörter, die ein Geräusch nachahmen, wie „zischen“ oder „Kuckuck“",
+      "Wörter, die besonders laut sind",
+      "Fremdwörter aus der Musik",
+      "Wörter ohne Vokale"
+    ],
+    "correct_index": 0,
+    "explanation": "Dieselben Geräusche klingen in jeder Sprache etwas anders: Der deutsche Hahn kräht „kikeriki“, der englische „cock-a-doodle-doo“.",
+    "difficulty": 1,
+    "tags": [
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Onomatopoesie",
+    "source_url": "https://de.wikipedia.org/wiki/Onomatopoesie",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are onomatopoeic words?",
+        "options": [
+          "Words that imitate a sound, like \"hiss\" or \"cuckoo\"",
+          "Words that are especially loud",
+          "Foreign words from music",
+          "Words without vowels"
+        ],
+        "explanation": "The same sounds come out a little differently in every language: a German rooster crows \"kikeriki\", an English one \"cock-a-doodle-doo\"."
+      }
+    }
+  },
+  {
+    "id": "l59",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche dieser Sprachen ist keine Amtssprache der Vereinten Nationen?",
+    "options": [
+      "Arabisch",
+      "Deutsch",
+      "Russisch",
+      "Spanisch"
+    ],
+    "correct_index": 1,
+    "explanation": "Die sechs Amtssprachen sind Arabisch, Chinesisch, Englisch, Französisch, Russisch und Spanisch. Wichtige Dokumente gibt es aber auch auf Deutsch.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vereinte Nationen",
+    "source_url": "https://de.wikipedia.org/wiki/Vereinte_Nationen",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these languages is not an official language of the United Nations?",
+        "options": [
+          "Arabic",
+          "German",
+          "Russian",
+          "Spanish"
+        ],
+        "explanation": "The six official languages are Arabic, Chinese, English, French, Russian and Spanish. Important documents are also available in German, though."
+      }
+    }
+  },
+  {
+    "id": "l60",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache stammt das Wort „Tsunami“?",
+    "options": [
+      "Aus dem Japanischen",
+      "Aus dem Hawaiianischen",
+      "Aus dem Indonesischen",
+      "Aus dem Griechischen"
+    ],
+    "correct_index": 0,
+    "explanation": "Es bedeutet etwa „Hafenwelle“: Fischer auf dem Meer bemerkten die Welle kaum, fanden bei ihrer Rückkehr aber den Hafen verwüstet.",
+    "difficulty": 2,
+    "tags": [
+      "Wortgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tsunami",
+    "source_url": "https://de.wikipedia.org/wiki/Tsunami",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word \"tsunami\" come from?",
+        "options": [
+          "Japanese",
+          "Hawaiian",
+          "Indonesian",
+          "Greek"
+        ],
+        "explanation": "It means roughly \"harbour wave\": fishermen at sea hardly noticed the wave but found the harbour devastated when they returned."
+      }
+    }
+  },
+  {
+    "id": "cf5",
+    "kind": "fact",
+    "category_id": "culture",
+    "question": "Die Freiheitsstatue in New York war ein Geschenk Frankreichs an die USA.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie wurde 1886 eingeweiht. Entworfen hat sie der Bildhauer Frédéric-Auguste Bartholdi, das innere Stahlgerüst stammt von Gustave Eiffel.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Freiheitsstatue",
+    "source_url": "https://de.wikipedia.org/wiki/Freiheitsstatue",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Statue of Liberty in New York was a gift from France to the USA.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "It was inaugurated in 1886. The sculptor Frédéric-Auguste Bartholdi designed it; the inner steel framework is by Gustave Eiffel."
+      }
+    }
+  },
+  {
+    "id": "bm3",
+    "kind": "fact",
+    "category_id": "business",
+    "question": "Samsung stellte von Anfang an Elektronik her.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Samsung wurde 1938 in Korea als Handelsfirma gegründet und verkaufte zunächst unter anderem getrockneten Fisch, Gemüse und Nudeln. Elektronik kam erst 1969 dazu.",
+    "difficulty": 1,
+    "tags": [
+      "Gründer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Samsung",
+    "source_url": "https://de.wikipedia.org/wiki/Samsung",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Samsung made electronics from the very beginning.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "Samsung was founded in Korea in 1938 as a trading company and at first sold dried fish, vegetables and noodles, among other things. Electronics only came in 1969."
+      }
+    }
+  },
+  {
+    "id": "lf4",
+    "kind": "fact",
+    "category_id": "language",
+    "question": "Deutsch ist in der Europäischen Union die Muttersprache mit den meisten Sprechern.",
+    "options": [
+      "Stimmt",
+      "Stimmt nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Deutsch ist Muttersprache vieler Menschen in Deutschland, Österreich, Luxemburg, Belgien und Teilen Italiens – mehr als jede andere Sprache in der EU. Als Fremdsprache wird dagegen Englisch am meisten gesprochen.",
+    "difficulty": 1,
+    "tags": [
+      "Sprachen der Welt",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Deutsche Sprache",
+    "source_url": "https://de.wikipedia.org/wiki/Deutsche_Sprache",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "German is the native language with the most speakers in the European Union.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "explanation": "German is the native language of many people in Germany, Austria, Luxembourg, Belgium and parts of Italy – more than any other language in the EU. As a foreign language, however, English is the most widely spoken."
+      }
+    }
+  },
+  {
+    "id": "o15",
+    "kind": "order",
+    "category_id": "culture",
+    "question": "Ordne die Kunstepochen zeitlich – die früheste zuerst.",
+    "options": [
+      "Barock",
+      "Romanik",
+      "Renaissance",
+      "Gotik"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "order": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    "explanation": "Romanik (etwa 1000–1250), Gotik (etwa 1150–1500), Renaissance (15. und 16. Jahrhundert), Barock (etwa 1600–1750). Die Übergänge waren fließend und von Land zu Land verschieden.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Zeitleiste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kunstepoche",
+    "source_url": "https://de.wikipedia.org/wiki/Kunstepoche",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Put the art periods in chronological order – the earliest first.",
+        "options": [
+          "Baroque",
+          "Romanesque",
+          "Renaissance",
+          "Gothic"
+        ],
+        "explanation": "Romanesque (about 1000–1250), Gothic (about 1150–1500), Renaissance (15th and 16th centuries), Baroque (about 1600–1750). The transitions were gradual and differed from country to country."
+      }
+    }
+  },
+  {
+    "id": "s-e17",
+    "kind": "estimate",
+    "category_id": "culture",
+    "question": "Schätze: Wie viele Theaterstücke werden William Shakespeare heute zugeschrieben?",
+    "options": [
+      "10",
+      "80",
+      "Stücke",
+      "1"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "value": 38,
+      "abs": 4
+    },
+    "explanation": "Rund 37 bis 39 – je nachdem, ob man Stücke mitzählt, die er zusammen mit anderen schrieb. Dazu kommen 154 Sonette und mehrere lange Gedichte.",
+    "difficulty": 2,
+    "tags": [
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: William Shakespeare",
+    "source_url": "https://de.wikipedia.org/wiki/William_Shakespeare",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Estimate: how many plays are attributed to William Shakespeare today?",
+        "options": [
+          "10",
+          "80",
+          "plays",
+          "1"
+        ],
+        "explanation": "About 37 to 39 – depending on whether plays he co-wrote with others are counted. On top of that come 154 sonnets and several long poems."
+      }
+    }
+  },
+  {
+    "id": "s-e18",
+    "kind": "estimate",
+    "category_id": "business",
+    "question": "Schätze: In welchem Jahr wurde Coca-Cola erfunden?",
+    "options": [
+      "1800",
+      "1950",
+      "Jahr",
+      "1"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "value": 1886,
+      "abs": 6
+    },
+    "explanation": "1886 mischte der Apotheker John Pemberton in Atlanta den ersten Sirup. Heute ist Coca-Cola eine der bekanntesten Marken der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Marke",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Coca-Cola",
+    "source_url": "https://de.wikipedia.org/wiki/Coca-Cola",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Estimate: in which year was Coca-Cola invented?",
+        "options": [
+          "1800",
+          "1950",
+          "year",
+          "1"
+        ],
+        "explanation": "In 1886 the pharmacist John Pemberton mixed the first syrup in Atlanta. Today Coca-Cola is one of the best-known brands in the world."
+      }
+    }
+  },
+  {
+    "id": "l-b15",
+    "kind": "blank",
+    "category_id": "language",
+    "question": "Das griechische Alphabet beginnt mit Alpha und ___.",
+    "options": [
+      "ein Wort",
+      "Lückentext"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "accept": [
+        "beta"
+      ],
+      "show": "Beta"
+    },
+    "explanation": "Aus den ersten beiden Buchstaben, Alpha und Beta, entstand das Wort „Alphabet“.",
+    "difficulty": 1,
+    "tags": [
+      "Schrift",
+      "Wortgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alphabet",
+    "source_url": "https://de.wikipedia.org/wiki/Alphabet",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Greek alphabet begins with alpha and ___.",
+        "options": [
+          "a word",
+          "Fill the gap"
+        ],
+        "explanation": "The word \"alphabet\" comes from the first two letters, alpha and beta."
+      }
+    }
+  },
+  {
+    "id": "l-b16",
+    "kind": "blank",
+    "category_id": "culture",
+    "question": "Das bekannteste Gemälde von Edvard Munch heißt „Der ___“.",
+    "options": [
+      "ein Wort",
+      "Lückentext"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "accept": [
+        "schrei",
+        "scream"
+      ],
+      "show": "Schrei"
+    },
+    "explanation": "„Der Schrei“ von 1893 zeigt eine Gestalt mit verzerrtem Gesicht vor einem glühenden Himmel. Munch schuf mehrere Fassungen.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Schrei",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Schrei",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Edvard Munch's most famous painting is called \"The ___\".",
+        "options": [
+          "a word",
+          "Fill the gap"
+        ],
+        "explanation": "\"The Scream\" of 1893 shows a figure with a distorted face against a glowing sky. Munch made several versions."
+      }
+    }
+  },
+  {
+    "id": "rt40",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Ein Händler kauft eine Ware für 60 € und verkauft sie für 80 €. Wie hoch ist seine Gewinnspanne, bezogen auf den Verkaufspreis?",
+    "options": [
+      "20 %",
+      "25 %",
+      "33 %",
+      "80 %"
+    ],
+    "correct_index": 1,
+    "explanation": "20 € Gewinn von 80 € Verkaufspreis sind 25 Prozent. Bezogen auf den Einkaufspreis – das nennt man Aufschlag – wären es 33 Prozent. Die beiden Werte werden oft verwechselt.",
+    "hints": [
+      "Der Gewinn ist der Unterschied zwischen Verkaufs- und Einkaufspreis.",
+      "Teile den Gewinn durch den Verkaufspreis – nicht durch den Einkaufspreis."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Kennzahlen",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewinnspanne",
+    "source_url": "https://de.wikipedia.org/wiki/Gewinnspanne",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A trader buys goods for €60 and sells them for €80. What is the profit margin, based on the selling price?",
+        "options": [
+          "20%",
+          "25%",
+          "33%",
+          "80%"
+        ],
+        "explanation": "€20 profit out of an €80 selling price is 25 percent. Based on the buying price – that is called the mark-up – it would be 33 percent. The two values are often confused.",
+        "hints": [
+          "The profit is the difference between selling and buying price.",
+          "Divide the profit by the selling price – not by the buying price."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt41",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Ein Preis steigt um 50 Prozent und sinkt danach um 50 Prozent. Wo liegt er am Ende im Vergleich zum Anfang?",
+    "options": [
+      "Genau beim Anfangspreis",
+      "25 Prozent darunter",
+      "50 Prozent darunter",
+      "25 Prozent darüber"
+    ],
+    "correct_index": 1,
+    "explanation": "100 € → 150 € → 75 €. Prozente beziehen sich immer auf den aktuellen Wert; deshalb gleicht ein Minus von 50 Prozent ein Plus von 50 Prozent nicht aus. An der Börse heißt das: Nach 50 Prozent Verlust braucht es 100 Prozent Gewinn, um wieder beim Ausgangswert zu sein.",
+    "hints": [
+      "Rechne mit einem Startpreis von 100 €.",
+      "Die 50 Prozent Abschlag beziehen sich auf den schon gestiegenen Preis."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Rechnen",
+      "Finanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prozent",
+    "source_url": "https://de.wikipedia.org/wiki/Prozent",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A price rises by 50 percent and then falls by 50 percent. Where does it end up compared with the start?",
+        "options": [
+          "Exactly at the starting price",
+          "25 percent below",
+          "50 percent below",
+          "25 percent above"
+        ],
+        "explanation": "€100 → €150 → €75. Percentages always refer to the current value, so a 50 percent fall does not cancel out a 50 percent rise. On the stock market this means: after a 50 percent loss you need a 100 percent gain to get back to where you started.",
+        "hints": [
+          "Work with a starting price of €100.",
+          "The 50 percent reduction applies to the price that has already risen."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt42",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Ein alter Brief ist auf den 30. Februar 1712 datiert. In welchem Land könnte er trotzdem echt sein?",
+    "options": [
+      "In Schweden",
+      "In Frankreich",
+      "In keinem – einen 30. Februar gab es nie",
+      "In England"
+    ],
+    "correct_index": 0,
+    "explanation": "Schweden wollte ab 1700 schrittweise auf den gregorianischen Kalender umstellen, ließ die geplanten Schalttage dann aber doch nicht ausfallen. 1712 kehrte das Land zum julianischen Kalender zurück – dafür bekam der Februar einen 30. Tag. Endgültig umgestellt wurde 1753.",
+    "hints": [
+      "Damals benutzten nicht alle Länder Europas denselben Kalender.",
+      "Ein Land wollte den Kalender wechseln, machte den Schritt dann rückgängig – und brauchte dafür einen zusätzlichen Tag."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Zeitrechnung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 30. Februar",
+    "source_url": "https://de.wikipedia.org/wiki/30._Februar",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An old letter is dated 30 February 1712. In which country could it still be genuine?",
+        "options": [
+          "In Sweden",
+          "In France",
+          "Nowhere – there never was a 30 February",
+          "In England"
+        ],
+        "explanation": "From 1700 Sweden wanted to switch to the Gregorian calendar gradually, but then did not skip the planned leap days after all. In 1712 the country returned to the Julian calendar – and February got a 30th day for it. The final switch came in 1753.",
+        "hints": [
+          "Back then not all European countries used the same calendar.",
+          "One country wanted to switch calendars, then reversed the step – and needed an extra day to do it."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt43",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Millionenstadt liegt auf zwei Kontinenten zugleich?",
+    "options": [
+      "Kairo",
+      "Istanbul",
+      "Moskau",
+      "Athen"
+    ],
+    "correct_index": 1,
+    "explanation": "Istanbul liegt beiderseits des Bosporus – ein Teil in Europa, ein Teil in Asien. Brücken und Tunnel verbinden die beiden Seiten.",
+    "hints": [
+      "Die Stadt liegt an einer Meerenge, die zwei Kontinente trennt.",
+      "Die Meerenge heißt Bosporus."
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Istanbul",
+    "source_url": "https://de.wikipedia.org/wiki/Istanbul",
+    "created_at": "2026-10-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which city of millions lies on two continents at once?",
+        "options": [
+          "Cairo",
+          "Istanbul",
+          "Moscow",
+          "Athens"
+        ],
+        "explanation": "Istanbul lies on both sides of the Bosphorus – one part in Europe, one part in Asia. Bridges and tunnels connect the two sides.",
+        "hints": [
+          "The city lies on a strait that separates two continents.",
+          "The strait is called the Bosphorus."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt44",
+    "kind": "question",
+    "category_id": "science",
+    "question": "In einem Bus schwebt ein Heliumballon an einer Schnur. Der Bus fährt plötzlich an. In welche Richtung bewegt sich der Ballon?",
+    "options": [
+      "Nach vorn",
+      "Nach hinten",
+      "Gar nicht",
+      "Nach unten"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Anfahren drängt die träge Luft nach hinten und wird dort etwas dichter. Der leichte Ballon weicht – wie beim Auftrieb nach oben – in die Gegenrichtung aus: Er schwingt nach vorn, während die Fahrgäste nach hinten gedrückt werden.",
+    "hints": [
+      "Beim Anfahren wird auch die Luft im Bus nach hinten gedrückt – wie die Fahrgäste.",
+      "Ein Heliumballon steigt dorthin, wo die Luft weniger dicht ist."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Statischer Auftrieb",
+    "source_url": "https://de.wikipedia.org/wiki/Statischer_Auftrieb",
+    "created_at": "2026-10-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A helium balloon floats on a string inside a bus. The bus suddenly pulls away. Which way does the balloon move?",
+        "options": [
+          "Forwards",
+          "Backwards",
+          "Not at all",
+          "Downwards"
+        ],
+        "explanation": "As the bus pulls away, the inert air is pushed backwards and becomes slightly denser there. The light balloon moves the opposite way – just as buoyancy lifts it upwards: it swings forwards while the passengers are pressed backwards.",
+        "hints": [
+          "When the bus pulls away, the air inside is pushed backwards too – like the passengers.",
+          "A helium balloon rises to where the air is less dense."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt45",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was steht genau in der Mitte von Paris?",
+    "options": [
+      "Der Eiffelturm",
+      "Der Buchstabe R",
+      "Die Seine",
+      "Die Kathedrale Notre-Dame"
+    ],
+    "correct_index": 1,
+    "explanation": "In der Mitte des Wortes „Paris“ steht das R. Das Rätsel lockt mit Sehenswürdigkeiten auf die falsche Fährte – der Eiffelturm steht übrigens nicht in der Mitte der Stadt, sondern am Ufer der Seine im Westen.",
+    "hints": [
+      "Denk nicht an die Stadt, sondern an das Wort.",
+      "Buchstabiere es: P-A-…"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "Rätsel",
+      "Wortspiel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rätsel",
+    "source_url": "https://de.wikipedia.org/wiki/Rätsel",
+    "created_at": "2026-10-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is exactly in the middle of Paris?",
+        "options": [
+          "The Eiffel Tower",
+          "The letter R",
+          "The Seine",
+          "Notre-Dame Cathedral"
+        ],
+        "explanation": "In the middle of the word \"Paris\" is the R. The riddle leads you astray with landmarks – incidentally, the Eiffel Tower is not in the middle of the city but on the bank of the Seine in the west.",
+        "hints": [
+          "Don't think of the city, think of the word.",
+          "Spell it: P-A-…"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt46",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Denk dir eine Zahl. Verdopple sie, zähle 10 dazu, halbiere das Ergebnis und ziehe die gedachte Zahl ab. Was kommt heraus?",
+    "options": [
+      "Immer 5",
+      "Immer 10",
+      "Immer 0",
+      "Das hängt von der Zahl ab"
+    ],
+    "correct_index": 0,
+    "explanation": "(2x + 10) : 2 = x + 5; zieht man x ab, bleibt 5 – für jede Zahl. Solche „Zaubertricks“ beruhen auf einfacher Algebra: Die gedachte Zahl hebt sich am Ende auf.",
+    "hints": [
+      "Probier es mit zwei verschiedenen Zahlen aus.",
+      "Nenne die Zahl x und rechne: (2x + 10) : 2 − x."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Rechnen",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Term",
+    "source_url": "https://de.wikipedia.org/wiki/Term",
+    "created_at": "2026-10-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Think of a number. Double it, add 10, halve the result and subtract the number you thought of. What do you get?",
+        "options": [
+          "Always 5",
+          "Always 10",
+          "Always 0",
+          "It depends on the number"
+        ],
+        "explanation": "(2x + 10) : 2 = x + 5; subtract x and 5 is left – for any number. Such \"magic tricks\" rest on simple algebra: the number you thought of cancels out in the end.",
+        "hints": [
+          "Try it with two different numbers.",
+          "Call the number x and work out: (2x + 10) : 2 − x."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt47",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Im Tennis steht es 0:40. Wie viele Punkte muss der zurückliegende Spieler mindestens hintereinander gewinnen, um das Spiel noch zu holen?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_index": 2,
+    "explanation": "Drei Punkte bis zum Einstand bei 40:40, dann einer zum Vorteil und einer zum Spielgewinn – mindestens fünf Punkte in Folge.",
+    "hints": [
+      "Erst muss er zum Einstand bei 40:40 aufholen.",
+      "Nach dem Einstand braucht man zwei Punkte Vorsprung."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Tennis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tennis",
+    "source_url": "https://de.wikipedia.org/wiki/Tennis",
+    "created_at": "2026-10-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In tennis the score is 0–40. What is the minimum number of points in a row the player who is behind must win to take the game?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "explanation": "Three points to reach deuce at 40–40, then one for advantage and one for the game – at least five points in a row.",
+        "hints": [
+          "First he has to catch up to deuce at 40–40.",
+          "After deuce you need a two-point lead."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt48",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Viele Notizen von Leonardo da Vinci kann man nur mit einem Spiegel bequem lesen. Wie hat er sie geschrieben?",
+    "options": [
+      "Spiegelverkehrt von rechts nach links",
+      "In einer Geheimsprache",
+      "Auf Arabisch",
+      "Mit unsichtbarer Tinte"
+    ],
+    "correct_index": 0,
+    "explanation": "Leonardo schrieb viele Notizen in Spiegelschrift. Warum, ist nicht sicher belegt: Als Linkshänder verschmierte er so die Tinte nicht; ob er seine Ideen zusätzlich verbergen wollte, ist umstritten.",
+    "hints": [
+      "Ein Spiegel dreht links und rechts um.",
+      "Leonardo war Linkshänder – wer mit links nach links schreibt, verwischt die frische Tinte nicht."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Kunst",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spiegelschrift",
+    "source_url": "https://de.wikipedia.org/wiki/Spiegelschrift",
+    "created_at": "2026-10-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many of Leonardo da Vinci's notes can only be read comfortably with a mirror. How did he write them?",
+        "options": [
+          "Mirrored, from right to left",
+          "In a secret language",
+          "In Arabic",
+          "With invisible ink"
+        ],
+        "explanation": "Leonardo wrote many notes in mirror writing. Why is not certain: as a left-hander he avoided smudging the ink this way; whether he also wanted to hide his ideas is disputed.",
+        "hints": [
+          "A mirror swaps left and right.",
+          "Leonardo was left-handed – writing leftwards with the left hand doesn't smudge the fresh ink."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt49",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Eine Datei ist 1 Gigabyte groß, dein Internetanschluss schafft 100 Megabit pro Sekunde. Wie lange dauert der Download ungefähr?",
+    "options": [
+      "10 Sekunden",
+      "80 Sekunden",
+      "1 Sekunde",
+      "100 Sekunden"
+    ],
+    "correct_index": 1,
+    "explanation": "1 Gigabyte = 1.000 Megabyte = 8.000 Megabit; 8.000 : 100 = 80 Sekunden. Anbieter nennen Geschwindigkeiten in Bit, Dateigrößen stehen in Byte – deshalb dauert ein Download achtmal so lang, wie man auf den ersten Blick denkt.",
+    "hints": [
+      "Achte auf Byte und Bit: 1 Byte sind 8 Bit.",
+      "1 Gigabyte sind 1.000 Megabyte – wie viele Megabit sind das?"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Internet",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bit",
+    "source_url": "https://de.wikipedia.org/wiki/Bit",
+    "created_at": "2026-10-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A file is 1 gigabyte, your internet connection manages 100 megabits per second. Roughly how long does the download take?",
+        "options": [
+          "10 seconds",
+          "80 seconds",
+          "1 second",
+          "100 seconds"
+        ],
+        "explanation": "1 gigabyte = 1,000 megabytes = 8,000 megabits; 8,000 : 100 = 80 seconds. Providers state speeds in bits, file sizes are given in bytes – so a download takes eight times as long as you might first think.",
+        "hints": [
+          "Watch out for bytes and bits: 1 byte is 8 bits.",
+          "1 gigabyte is 1,000 megabytes – how many megabits is that?"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt50",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Zwei Geschwister wurden am selben Tag im selben Jahr von derselben Mutter geboren – und sind trotzdem keine Zwillinge. Wie ist das möglich?",
+    "options": [
+      "Sie sind zwei von Drillingen",
+      "Sie wurden in verschiedenen Ländern geboren",
+      "Eines ist adoptiert",
+      "Das ist unmöglich"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie gehören zu Drillingen (oder noch mehr Mehrlingen). Die Frage lässt bewusst offen, dass es ein drittes Kind gibt – das Rätsel testet, ob man stillschweigende Annahmen hinterfragt.",
+    "hints": [
+      "Zwillinge sind genau zwei. Was, wenn es mehr Kinder waren?",
+      "An diesem Tag kam noch ein drittes Geschwisterkind zur Welt."
+    ],
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mehrlinge",
+    "source_url": "https://de.wikipedia.org/wiki/Mehrlinge",
+    "created_at": "2026-10-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Two siblings were born on the same day in the same year to the same mother – and yet they are not twins. How is that possible?",
+        "options": [
+          "They are two of triplets",
+          "They were born in different countries",
+          "One is adopted",
+          "It's impossible"
+        ],
+        "explanation": "They are part of triplets (or even more multiples). The question deliberately leaves out that there is a third child – the riddle tests whether you question silent assumptions.",
+        "hints": [
+          "Twins are exactly two. What if there were more children?",
+          "A third sibling was born that day too."
+        ]
+      }
+    }
+  },
+  {
+    "id": "rt51",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher Punkt der Erdoberfläche ist am weitesten vom Erdmittelpunkt entfernt?",
+    "options": [
+      "Der Gipfel des Mount Everest",
+      "Der Gipfel des Chimborazo in Ecuador",
+      "Der Nordpol",
+      "Der Gipfel des Kilimandscharo"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Chimborazo liegt fast am Äquator, wo der Erdradius gut 21 Kilometer größer ist als an den Polen. Sein Gipfel ist deshalb rund 2 Kilometer weiter vom Erdmittelpunkt entfernt als der des Everest – obwohl er über dem Meeresspiegel etwa 2.600 Meter niedriger ist.",
+    "hints": [
+      "Die Erde ist keine perfekte Kugel – am Äquator ist sie dicker.",
+      "Gesucht ist ein hoher Berg möglichst nahe am Äquator."
+    ],
+    "difficulty": 3,
+    "tags": [
+      "Rätsel",
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chimborazo",
+    "source_url": "https://de.wikipedia.org/wiki/Chimborazo",
+    "created_at": "2026-10-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which point on the Earth's surface is farthest from the centre of the Earth?",
+        "options": [
+          "The summit of Mount Everest",
+          "The summit of Chimborazo in Ecuador",
+          "The North Pole",
+          "The summit of Kilimanjaro"
+        ],
+        "explanation": "Chimborazo lies almost on the equator, where the Earth's radius is a good 21 kilometres larger than at the poles. Its summit is therefore about 2 kilometres farther from the Earth's centre than Everest's – even though it is about 2,600 metres lower above sea level.",
+        "hints": [
+          "The Earth is not a perfect sphere – it is fatter at the equator.",
+          "Look for a high mountain as close to the equator as possible."
+        ]
+      }
+    }
+  },
+  {
+    "id": "qa-photosynthese",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum sehen die meisten Blätter grün aus?",
+    "options": [
+      "Weil Chlorophyll vor allem rotes und blaues Licht schluckt und grünes zurückwirft",
+      "Weil Blätter grünes Licht besonders gut verwerten",
+      "Weil das Wasser in den Blättern grün ist",
+      "Weil sie Sauerstoff enthalten"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Blattfarbstoff Chlorophyll nutzt vor allem rotes und blaues Licht. Grünes Licht wird größtenteils zurückgeworfen oder durchgelassen – und genau das sehen wir.",
+    "difficulty": 2,
+    "tags": [
+      "Pflanzen",
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chlorophylle",
+    "source_url": "https://de.wikipedia.org/wiki/Chlorophylle",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do most leaves look green?",
+        "options": [
+          "Because chlorophyll mainly absorbs red and blue light and reflects green",
+          "Because leaves use green light particularly well",
+          "Because the water in the leaves is green",
+          "Because they contain oxygen"
+        ],
+        "explanation": "The leaf pigment chlorophyll mainly uses red and blue light. Green light is largely reflected or let through – and that is exactly what we see."
+      }
+    }
+  },
+  {
+    "id": "q-v-taiko",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Woran erinnert das japanische Bon-Fest, bei dem oft Taiko gespielt wird?",
+    "options": [
+      "An die verstorbenen Vorfahren",
+      "An den Beginn der Kirschblüte",
+      "An das neue Jahr",
+      "An die Reisernte"
+    ],
+    "correct_index": 0,
+    "explanation": "Obon ist ein buddhistisches Fest zu Ehren der Ahnen. Viele Familien kommen dafür zusammen, und es wird getanzt und getrommelt.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taiko_Tsukiji_Honganji_Festival.webm",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Japanese Bon festival, where taiko is often played, commemorate?",
+        "options": [
+          "Deceased ancestors",
+          "The start of the cherry blossom",
+          "The new year",
+          "The rice harvest"
+        ],
+        "explanation": "Obon is a Buddhist festival honouring the ancestors. Many families get together for it, and there is dancing and drumming."
+      }
+    }
+  },
+  {
+    "id": "q-v-toepferscheibe",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woher stammt die älteste bekannte Töpferscheibe?",
+    "options": [
+      "Aus Mesopotamien",
+      "Aus China",
+      "Aus Griechenland",
+      "Aus Mexiko"
+    ],
+    "correct_index": 0,
+    "explanation": "Sie wird auf etwa 3000 v. Chr. datiert; deshalb schreibt man die Erfindung oft den Sumerern zu.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pottery_on_porters_wheel.webm",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the oldest known potter's wheel come from?",
+        "options": [
+          "From Mesopotamia",
+          "From China",
+          "From Greece",
+          "From Mexico"
+        ],
+        "explanation": "It is dated to around 3000 BC, which is why the invention is often credited to the Sumerians."
       }
     }
   }

@@ -148,7 +148,23 @@ export function relativeTo(items: BarsConfig["items"], baseline: string): number
 /** Years between each event and the one before it (sorted by year; the first has none). */
 export function gaps(items: TimelineConfig["items"]): { key: string; years: number | null }[] {
   const sorted = [...items].sort((a, b) => a.year - b.year);
-  return sorted.map((e, i) => ({ key: e.key, years: i ? e.year - sorted[i - 1].year : null }));
+  // years before Christ are negative; there is no year 0, so a span across it is one year shorter
+  return sorted.map((e, i) => ({ key: e.key, years: i ? e.year - sorted[i - 1].year - (sorted[i - 1].year < 0 && e.year > 0 ? 1 : 0) : null }));
+}
+
+/** A year for display: negative years before Christ; early years after Christ are marked when the axis spans both eras. */
+export function formatYear(year: number, locale: string, bothEras = false): string {
+  if (year < 0) return locale === "en" ? `${-year} BC` : `${-year} v. Chr.`;
+  if (bothEras && year < 1000) return locale === "en" ? `AD ${year}` : `${year} n. Chr.`;
+  return String(year);
+}
+
+/** Tick marks for a time axis: round years, at most about eight of them. */
+export function yearTicks(from: number, to: number): number[] {
+  const step = [100, 200, 500, 1000, 2000].find((s) => (to - from) / s <= 8) ?? 5000;
+  const out: number[] = [];
+  for (let y = Math.ceil(from / step) * step; y <= to; y += step) if (y !== 0) out.push(y);
+  return out;
 }
 
 /**

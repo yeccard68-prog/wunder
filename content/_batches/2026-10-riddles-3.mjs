@@ -1,0 +1,165 @@
+// Content batch (15.10.2026): third set of riddles – business, economy, history, earth, science, culture, language,
+// sport and technology. Up to three hints each, never naming the answer. AI-checked.
+//   node scripts/content/apply-batch.mjs content/_batches/2026-10-riddles-3.mjs
+export const LOCALE = "en";
+export const TODAY = "2026-10-15";
+export const verification = "ai_checked";
+
+export const riddles = [
+  {
+    id: "rt40", category: "business", difficulty: 2, minAge: 13, tags: ["Kennzahlen", "Rechnen"], wiki: "Gewinnspanne",
+    question: "Ein Händler kauft eine Ware für 60 € und verkauft sie für 80 €. Wie hoch ist seine Gewinnspanne, bezogen auf den Verkaufspreis?",
+    options: ["20 %", "25 %", "33 %", "80 %"], correct: 1,
+    hints: ["Der Gewinn ist der Unterschied zwischen Verkaufs- und Einkaufspreis.", "Teile den Gewinn durch den Verkaufspreis – nicht durch den Einkaufspreis."],
+    explanation: "20 € Gewinn von 80 € Verkaufspreis sind 25 Prozent. Bezogen auf den Einkaufspreis – das nennt man Aufschlag – wären es 33 Prozent. Die beiden Werte werden oft verwechselt.",
+    en: {
+      question: "A trader buys goods for €60 and sells them for €80. What is the profit margin, based on the selling price?",
+      options: ["20%", "25%", "33%", "80%"],
+      hints: ["The profit is the difference between selling and buying price.", "Divide the profit by the selling price – not by the buying price."],
+      explanation: "€20 profit out of an €80 selling price is 25 percent. Based on the buying price – that is called the mark-up – it would be 33 percent. The two values are often confused.",
+    },
+  },
+  {
+    id: "rt41", category: "economy", difficulty: 2, minAge: 13, tags: ["Rechnen", "Finanzen"], wiki: "Prozent",
+    question: "Ein Preis steigt um 50 Prozent und sinkt danach um 50 Prozent. Wo liegt er am Ende im Vergleich zum Anfang?",
+    options: ["Genau beim Anfangspreis", "25 Prozent darunter", "50 Prozent darunter", "25 Prozent darüber"], correct: 1,
+    hints: ["Rechne mit einem Startpreis von 100 €.", "Die 50 Prozent Abschlag beziehen sich auf den schon gestiegenen Preis."],
+    explanation: "100 € → 150 € → 75 €. Prozente beziehen sich immer auf den aktuellen Wert; deshalb gleicht ein Minus von 50 Prozent ein Plus von 50 Prozent nicht aus. An der Börse heißt das: Nach 50 Prozent Verlust braucht es 100 Prozent Gewinn, um wieder beim Ausgangswert zu sein.",
+    en: {
+      question: "A price rises by 50 percent and then falls by 50 percent. Where does it end up compared with the start?",
+      options: ["Exactly at the starting price", "25 percent below", "50 percent below", "25 percent above"],
+      hints: ["Work with a starting price of €100.", "The 50 percent reduction applies to the price that has already risen."],
+      explanation: "€100 → €150 → €75. Percentages always refer to the current value, so a 50 percent fall does not cancel out a 50 percent rise. On the stock market this means: after a 50 percent loss you need a 100 percent gain to get back to where you started.",
+    },
+  },
+  {
+    id: "rt42", category: "history", difficulty: 3, minAge: 13, tags: ["Zeitrechnung"], wiki: "30._Februar",
+    question: "Ein alter Brief ist auf den 30. Februar 1712 datiert. In welchem Land könnte er trotzdem echt sein?",
+    options: ["In Schweden", "In Frankreich", "In keinem – einen 30. Februar gab es nie", "In England"], correct: 0,
+    hints: ["Damals benutzten nicht alle Länder Europas denselben Kalender.", "Ein Land wollte den Kalender wechseln, machte den Schritt dann rückgängig – und brauchte dafür einen zusätzlichen Tag."],
+    explanation: "Schweden wollte ab 1700 schrittweise auf den gregorianischen Kalender umstellen, ließ die geplanten Schalttage dann aber doch nicht ausfallen. 1712 kehrte das Land zum julianischen Kalender zurück – dafür bekam der Februar einen 30. Tag. Endgültig umgestellt wurde 1753.",
+    en: {
+      question: "An old letter is dated 30 February 1712. In which country could it still be genuine?",
+      options: ["In Sweden", "In France", "Nowhere – there never was a 30 February", "In England"],
+      hints: ["Back then not all European countries used the same calendar.", "One country wanted to switch calendars, then reversed the step – and needed an extra day to do it."],
+      explanation: "From 1700 Sweden wanted to switch to the Gregorian calendar gradually, but then did not skip the planned leap days after all. In 1712 the country returned to the Julian calendar – and February got a 30th day for it. The final switch came in 1753.",
+    },
+  },
+  {
+    id: "rt43", category: "earth", difficulty: 1, minAge: 13, tags: ["Geographie"], wiki: "Istanbul",
+    question: "Welche Millionenstadt liegt auf zwei Kontinenten zugleich?",
+    options: ["Kairo", "Istanbul", "Moskau", "Athen"], correct: 1,
+    hints: ["Die Stadt liegt an einer Meerenge, die zwei Kontinente trennt.", "Die Meerenge heißt Bosporus."],
+    explanation: "Istanbul liegt beiderseits des Bosporus – ein Teil in Europa, ein Teil in Asien. Brücken und Tunnel verbinden die beiden Seiten.",
+    en: {
+      question: "Which city of millions lies on two continents at once?",
+      options: ["Cairo", "Istanbul", "Moscow", "Athens"],
+      hints: ["The city lies on a strait that separates two continents.", "The strait is called the Bosphorus."],
+      explanation: "Istanbul lies on both sides of the Bosphorus – one part in Europe, one part in Asia. Bridges and tunnels connect the two sides.",
+    },
+  },
+  {
+    id: "rt44", category: "science", difficulty: 3, minAge: 13, tags: ["Physik"], wiki: "Statischer_Auftrieb",
+    question: "In einem Bus schwebt ein Heliumballon an einer Schnur. Der Bus fährt plötzlich an. In welche Richtung bewegt sich der Ballon?",
+    options: ["Nach vorn", "Nach hinten", "Gar nicht", "Nach unten"], correct: 0,
+    hints: ["Beim Anfahren wird auch die Luft im Bus nach hinten gedrückt – wie die Fahrgäste.", "Ein Heliumballon steigt dorthin, wo die Luft weniger dicht ist."],
+    explanation: "Beim Anfahren drängt die träge Luft nach hinten und wird dort etwas dichter. Der leichte Ballon weicht – wie beim Auftrieb nach oben – in die Gegenrichtung aus: Er schwingt nach vorn, während die Fahrgäste nach hinten gedrückt werden.",
+    en: {
+      question: "A helium balloon floats on a string inside a bus. The bus suddenly pulls away. Which way does the balloon move?",
+      options: ["Forwards", "Backwards", "Not at all", "Downwards"],
+      hints: ["When the bus pulls away, the air inside is pushed backwards too – like the passengers.", "A helium balloon rises to where the air is less dense."],
+      explanation: "As the bus pulls away, the inert air is pushed backwards and becomes slightly denser there. The light balloon moves the opposite way – just as buoyancy lifts it upwards: it swings forwards while the passengers are pressed backwards.",
+    },
+  },
+  {
+    id: "rt45", category: "language", difficulty: 1, minAge: 13, tags: ["Wortspiel"], wiki: "Rätsel",
+    question: "Was steht genau in der Mitte von Paris?",
+    options: ["Der Eiffelturm", "Der Buchstabe R", "Die Seine", "Die Kathedrale Notre-Dame"], correct: 1,
+    hints: ["Denk nicht an die Stadt, sondern an das Wort.", "Buchstabiere es: P-A-…"],
+    explanation: "In der Mitte des Wortes „Paris“ steht das R. Das Rätsel lockt mit Sehenswürdigkeiten auf die falsche Fährte – der Eiffelturm steht übrigens nicht in der Mitte der Stadt, sondern am Ufer der Seine im Westen.",
+    en: {
+      question: "What is exactly in the middle of Paris?",
+      options: ["The Eiffel Tower", "The letter R", "The Seine", "Notre-Dame Cathedral"],
+      hints: ["Don't think of the city, think of the word.", "Spell it: P-A-…"],
+      explanation: "In the middle of the word \"Paris\" is the R. The riddle leads you astray with landmarks – incidentally, the Eiffel Tower is not in the middle of the city but on the bank of the Seine in the west.",
+    },
+  },
+  {
+    id: "rt46", category: "math", difficulty: 2, minAge: 13, tags: ["Rechnen", "Logik"], wiki: "Term",
+    question: "Denk dir eine Zahl. Verdopple sie, zähle 10 dazu, halbiere das Ergebnis und ziehe die gedachte Zahl ab. Was kommt heraus?",
+    options: ["Immer 5", "Immer 10", "Immer 0", "Das hängt von der Zahl ab"], correct: 0,
+    hints: ["Probier es mit zwei verschiedenen Zahlen aus.", "Nenne die Zahl x und rechne: (2x + 10) : 2 − x."],
+    explanation: "(2x + 10) : 2 = x + 5; zieht man x ab, bleibt 5 – für jede Zahl. Solche „Zaubertricks“ beruhen auf einfacher Algebra: Die gedachte Zahl hebt sich am Ende auf.",
+    en: {
+      question: "Think of a number. Double it, add 10, halve the result and subtract the number you thought of. What do you get?",
+      options: ["Always 5", "Always 10", "Always 0", "It depends on the number"],
+      hints: ["Try it with two different numbers.", "Call the number x and work out: (2x + 10) : 2 − x."],
+      explanation: "(2x + 10) : 2 = x + 5; subtract x and 5 is left – for any number. Such \"magic tricks\" rest on simple algebra: the number you thought of cancels out in the end.",
+    },
+  },
+  {
+    id: "rt47", category: "sport", difficulty: 2, minAge: 13, tags: ["Tennis"], wiki: "Tennis",
+    question: "Im Tennis steht es 0:40. Wie viele Punkte muss der zurückliegende Spieler mindestens hintereinander gewinnen, um das Spiel noch zu holen?",
+    options: ["3", "4", "5", "6"], correct: 2,
+    hints: ["Erst muss er zum Einstand bei 40:40 aufholen.", "Nach dem Einstand braucht man zwei Punkte Vorsprung."],
+    explanation: "Drei Punkte bis zum Einstand bei 40:40, dann einer zum Vorteil und einer zum Spielgewinn – mindestens fünf Punkte in Folge.",
+    en: {
+      question: "In tennis the score is 0–40. What is the minimum number of points in a row the player who is behind must win to take the game?",
+      options: ["3", "4", "5", "6"],
+      hints: ["First he has to catch up to deuce at 40–40.", "After deuce you need a two-point lead."],
+      explanation: "Three points to reach deuce at 40–40, then one for advantage and one for the game – at least five points in a row.",
+    },
+  },
+  {
+    id: "rt48", category: "culture", difficulty: 2, minAge: 13, tags: ["Kunst", "Geschichte"], wiki: "Spiegelschrift",
+    question: "Viele Notizen von Leonardo da Vinci kann man nur mit einem Spiegel bequem lesen. Wie hat er sie geschrieben?",
+    options: ["Spiegelverkehrt von rechts nach links", "In einer Geheimsprache", "Auf Arabisch", "Mit unsichtbarer Tinte"], correct: 0,
+    hints: ["Ein Spiegel dreht links und rechts um.", "Leonardo war Linkshänder – wer mit links nach links schreibt, verwischt die frische Tinte nicht."],
+    explanation: "Leonardo schrieb viele Notizen in Spiegelschrift. Warum, ist nicht sicher belegt: Als Linkshänder verschmierte er so die Tinte nicht; ob er seine Ideen zusätzlich verbergen wollte, ist umstritten.",
+    en: {
+      question: "Many of Leonardo da Vinci's notes can only be read comfortably with a mirror. How did he write them?",
+      options: ["Mirrored, from right to left", "In a secret language", "In Arabic", "With invisible ink"],
+      hints: ["A mirror swaps left and right.", "Leonardo was left-handed – writing leftwards with the left hand doesn't smudge the fresh ink."],
+      explanation: "Leonardo wrote many notes in mirror writing. Why is not certain: as a left-hander he avoided smudging the ink this way; whether he also wanted to hide his ideas is disputed.",
+    },
+  },
+  {
+    id: "rt49", category: "technology", difficulty: 2, minAge: 13, tags: ["Internet", "Rechnen"], wiki: "Bit",
+    question: "Eine Datei ist 1 Gigabyte groß, dein Internetanschluss schafft 100 Megabit pro Sekunde. Wie lange dauert der Download ungefähr?",
+    options: ["10 Sekunden", "80 Sekunden", "1 Sekunde", "100 Sekunden"], correct: 1,
+    hints: ["Achte auf Byte und Bit: 1 Byte sind 8 Bit.", "1 Gigabyte sind 1.000 Megabyte – wie viele Megabit sind das?"],
+    explanation: "1 Gigabyte = 1.000 Megabyte = 8.000 Megabit; 8.000 : 100 = 80 Sekunden. Anbieter nennen Geschwindigkeiten in Bit, Dateigrößen stehen in Byte – deshalb dauert ein Download achtmal so lang, wie man auf den ersten Blick denkt.",
+    en: {
+      question: "A file is 1 gigabyte, your internet connection manages 100 megabits per second. Roughly how long does the download take?",
+      options: ["10 seconds", "80 seconds", "1 second", "100 seconds"],
+      hints: ["Watch out for bytes and bits: 1 byte is 8 bits.", "1 gigabyte is 1,000 megabytes – how many megabits is that?"],
+      explanation: "1 gigabyte = 1,000 megabytes = 8,000 megabits; 8,000 : 100 = 80 seconds. Providers state speeds in bits, file sizes are given in bytes – so a download takes eight times as long as you might first think.",
+    },
+  },
+  {
+    id: "rt50", category: "math", difficulty: 2, minAge: 13, tags: ["Logik"], wiki: "Mehrlinge",
+    question: "Zwei Geschwister wurden am selben Tag im selben Jahr von derselben Mutter geboren – und sind trotzdem keine Zwillinge. Wie ist das möglich?",
+    options: ["Sie sind zwei von Drillingen", "Sie wurden in verschiedenen Ländern geboren", "Eines ist adoptiert", "Das ist unmöglich"], correct: 0,
+    hints: ["Zwillinge sind genau zwei. Was, wenn es mehr Kinder waren?", "An diesem Tag kam noch ein drittes Geschwisterkind zur Welt."],
+    explanation: "Sie gehören zu Drillingen (oder noch mehr Mehrlingen). Die Frage lässt bewusst offen, dass es ein drittes Kind gibt – das Rätsel testet, ob man stillschweigende Annahmen hinterfragt.",
+    en: {
+      question: "Two siblings were born on the same day in the same year to the same mother – and yet they are not twins. How is that possible?",
+      options: ["They are two of triplets", "They were born in different countries", "One is adopted", "It's impossible"],
+      hints: ["Twins are exactly two. What if there were more children?", "A third sibling was born that day too."],
+      explanation: "They are part of triplets (or even more multiples). The question deliberately leaves out that there is a third child – the riddle tests whether you question silent assumptions.",
+    },
+  },
+  {
+    id: "rt51", category: "earth", difficulty: 3, minAge: 13, tags: ["Geographie"], wiki: "Chimborazo",
+    question: "Welcher Punkt der Erdoberfläche ist am weitesten vom Erdmittelpunkt entfernt?",
+    options: ["Der Gipfel des Mount Everest", "Der Gipfel des Chimborazo in Ecuador", "Der Nordpol", "Der Gipfel des Kilimandscharo"], correct: 1,
+    hints: ["Die Erde ist keine perfekte Kugel – am Äquator ist sie dicker.", "Gesucht ist ein hoher Berg möglichst nahe am Äquator."],
+    explanation: "Der Chimborazo liegt fast am Äquator, wo der Erdradius gut 21 Kilometer größer ist als an den Polen. Sein Gipfel ist deshalb rund 2 Kilometer weiter vom Erdmittelpunkt entfernt als der des Everest – obwohl er über dem Meeresspiegel etwa 2.600 Meter niedriger ist.",
+    en: {
+      question: "Which point on the Earth's surface is farthest from the centre of the Earth?",
+      options: ["The summit of Mount Everest", "The summit of Chimborazo in Ecuador", "The North Pole", "The summit of Kilimanjaro"],
+      hints: ["The Earth is not a perfect sphere – it is fatter at the equator.", "Look for a high mountain as close to the equator as possible."],
+      explanation: "Chimborazo lies almost on the equator, where the Earth's radius is a good 21 kilometres larger than at the poles. Its summit is therefore about 2 kilometres farther from the Earth's centre than Everest's – even though it is about 2,600 metres lower above sea level.",
+    },
+  },
+];

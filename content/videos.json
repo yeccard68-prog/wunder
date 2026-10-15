@@ -2917,5 +2917,123 @@
         ]
       }
     }
+  },
+  {
+    "id": "v-taiko",
+    "category_id": "culture",
+    "title": "Trommeln mit dem ganzen Körper",
+    "hook": "Taiko-Trommeln sind in Japan bei vielen Festen zu hören – gespielt mit Kraft, Takt und großen Bewegungen.",
+    "description": "Eine Taiko-Gruppe beim Bon-Tanzfest am Tempel Tsukiji Hongan-ji in Tokio, 2013. „Taiko“ heißt auf Japanisch „dicke Trommel“; in Japan meint man damit große Röhrentrommeln, die mit Schlägeln gespielt werden. Das Bon-Fest (Obon) ist ein buddhistisches Fest, an dem man der verstorbenen Vorfahren gedenkt – und für viele ein Anlass, die Familie zu besuchen.",
+    "video_url": "/clips/v-taiko.mp4",
+    "thumbnail_url": "/clips/v-taiko.jpg",
+    "duration_seconds": 9.97,
+    "has_audio": false,
+    "captions": [
+      "Taiko heißt „dicke Trommel“.",
+      "Getrommelt wird mit dem ganzen Körper.",
+      "Hier beim Bon-Fest in Tokio, an dem man der verstorbenen Vorfahren gedenkt."
+    ],
+    "creator_name": "Guilhem Vellut",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Taiko_Tsukiji_Honganji_Festival.webm"
+      }
+    ],
+    "published_at": "2026-10-15T12:00:00Z",
+    "tags": [
+      "Musik",
+      "Japan"
+    ],
+    "quiz_question_id": "q-v-taiko",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "taiko",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Taiko_Tsukiji_Honganji_Festival.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 26,
+      "end": 36,
+      "mode": "tall",
+      "x": 0.56
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY 2.0, Guilhem Vellut – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "Drumming with the whole body",
+        "hook": "Taiko drums can be heard at many festivals in Japan – played with power, rhythm and big movements.",
+        "description": "A taiko group at the Bon dance festival at the Tsukiji Hongan-ji temple in Tokyo, 2013. \"Taiko\" means \"fat drum\" in Japanese; in Japan it refers to large barrel drums played with sticks. The Bon festival (Obon) is a Buddhist festival to remember deceased ancestors – and for many an occasion to visit their family.",
+        "captions": [
+          "Taiko means \"fat drum\".",
+          "The drumming uses the whole body.",
+          "Here at the Bon festival in Tokyo, when deceased ancestors are remembered."
+        ]
+      }
+    }
+  },
+  {
+    "id": "v-toepferscheibe",
+    "category_id": "history",
+    "title": "Eine Erfindung, die sich seit 5.000 Jahren dreht",
+    "hook": "Auf der Töpferscheibe entsteht ein Gefäß, das rundum gleich ist – weil sich der Ton unter den Händen dreht.",
+    "description": "Ein Töpfer formt Ton auf einer Töpferscheibe. Weil sich die Scheibe dreht, wird jede Stelle gleich bearbeitet, und das Gefäß wird rotationssymmetrisch. Die älteste bekannte Töpferscheibe stammt aus Mesopotamien und wird auf etwa 3000 v. Chr. datiert; Funde aus dem Industal deuten darauf hin, dass man dort womöglich schon früher mit schnell drehenden Scheiben arbeitete.",
+    "video_url": "/clips/v-toepferscheibe.mp4",
+    "thumbnail_url": "/clips/v-toepferscheibe.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Ton auf einer sich drehenden Scheibe.",
+      "Durch die Drehung wird das Gefäß rundum gleichmäßig.",
+      "Die älteste bekannte Töpferscheibe stammt aus Mesopotamien – rund 5.000 Jahre alt."
+    ],
+    "creator_name": "Alvin Ategyeka",
+    "format": "footage",
+    "sources": [
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Pottery_on_porters_wheel.webm"
+      }
+    ],
+    "published_at": "2026-10-14T12:00:00Z",
+    "tags": [
+      "Erfindungen",
+      "Antike"
+    ],
+    "quiz_question_id": "q-v-toepferscheibe",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "external",
+      "cache": "toepfer",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Pottery_on_porters_wheel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "start": 96,
+      "end": 106,
+      "mode": "crop",
+      "x": 0.5
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "CC BY-SA 4.0, Alvin Ategyeka – bearbeitet (Ausschnitt, Hochformat)",
+    "translations": {
+      "en": {
+        "title": "An invention that has been turning for 5,000 years",
+        "hook": "On the potter's wheel a vessel takes shape that is the same all the way round – because the clay turns under the hands.",
+        "description": "A potter shapes clay on a potter's wheel. Because the wheel turns, every point is worked the same way and the vessel becomes rotationally symmetric. The oldest known potter's wheel comes from Mesopotamia and is dated to around 3000 BC; finds from the Indus Valley suggest that fast-turning wheels may have been used there even earlier.",
+        "captions": [
+          "Clay on a turning wheel.",
+          "The turning makes the vessel even all the way round.",
+          "The oldest known potter's wheel comes from Mesopotamia – about 5,000 years old."
+        ]
+      }
+    }
   }
 ]

@@ -4,7 +4,7 @@ import { animationRows, type AnimationRow } from "./animations";
 import { bookRows, EVIDENCE_NAME, FORMAT_NAME, type BookRow } from "./books";
 import { contentHash, type BundleKind } from "./reviews";
 import type { ContentReview, ReviewItem, ReviewKind } from "./supabase";
-import { visualRows, type BarsConfig, type ScatterConfig, type TimelineConfig, type VisualRow } from "./visuals";
+import { formatYear, visualRows, type BarsConfig, type ScatterConfig, type TimelineConfig, type VisualRow } from "./visuals";
 
 export interface Block {
   label?: string; // small heading above the text
@@ -68,7 +68,7 @@ const visualBlocks = (v: VisualRow, locale: string, t: Tr): Block[] => {
   const L = x.labels;
   const data: string[] =
     v.type === "bars" ? (v.config as BarsConfig).items.map((i) => `${L[i.key]}: ${i.value} ${(v.config as BarsConfig).unit}`)
-    : v.type === "timeline" ? (v.config as TimelineConfig).items.map((i) => `${i.year} ${L[i.key]}`)
+    : v.type === "timeline" ? (v.config as TimelineConfig).items.map((i) => `${formatYear(i.year, locale, (v.config as TimelineConfig).from < 0)} ${L[i.key]}`)
     : v.type === "scatter" ? (v.config as ScatterConfig).points.map((p) => `${L[p.key]}: ${p.x} / ${p.y}`)
     : [JSON.stringify(v.config)];
   return [

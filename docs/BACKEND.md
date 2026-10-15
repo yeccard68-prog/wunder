@@ -342,3 +342,13 @@ Capacitor 8.5.2 packt den statischen Export in eine Android-App (`android/`, `ca
 - **Animation:** Schall (`sound`): Membran, Verdichtungen und Verdünnungen, ein markiertes Teilchen, das nur hin und her schwingt, Frequenz und Tonhöhe, Auslenkung und Lautstärke, Trommelfell (`2026-10-animations-3d-8.mjs`). Die Luft ist eine einzige InstancedMesh (520 Teilchen). Eine Änderung an der Membran wandert mit der Welle nach außen. Die Visualisierung „Wie schnell ist Schall?“ verweist jetzt auf diese Animation.
 - **Clips:** In dieser Runde keine neuen – die übrigen frei lizenzierten Kandidaten für Wirtschaft und Business waren zu unscharf oder doppelten vorhandene Clips.
 - Stand: 24 Animationen (23 in 3D), 762 Fragen (713 im Feed, davon 39 Rätsel, 44 in den neuen Formaten), 43 Clips.
+
+## 34. Business, Kultur, Sprache, Photosynthese, Schrift-Zeitleiste, zwei Clips (15.10.2026)
+
+- **Dubletten bereinigt:** Drei Sportfragen fragten dieselbe Tatsache wie ältere Kulturfragen (olympische Ringe, Abstand der Sommerspiele, Spieler zu Spielbeginn). sp3, sp20 und sp36 haben neue Fragen mit denselben Kennungen bekommen. Neues Hilfsskript `scripts/content/near-duplicates.mjs` listet Fragenpaare mit großer Wortüberschneidung; die meisten Treffer sind harmlos (gleiche Satzmuster), es ersetzt also nicht das Lesen.
+- **Karten:** 14 Business-, 10 Kultur- und 8 Sprachfragen, 3 „Stimmt das?“-Karten, 5 Formatkarten (`2026-10-wissen-5.mjs`).
+- **Rätsel:** 12 weitere (`2026-10-riddles-3.mjs`) – zusammen 51.
+- **Animation:** Photosynthese (`photosynthesis`): Zutaten, Chlorophyll und Lichtfarben (warum Blätter grün sind), Zucker und Sauerstoff, Transport in die Pflanze (`2026-10-animations-3d-9.mjs`).
+- **Visualisierung:** „Wie die Schrift entstand“ (Zeitleiste, echte Daten aus „Geschichte der Schrift“, `2026-10-visuals-3.mjs`). Die Zeitleiste kann jetzt Jahre vor Christus: `formatYear` („3300 v. Chr.“, „150 n. Chr.“), `yearTicks` (runde Teilstriche, höchstens etwa acht) und `gaps` berücksichtigt, dass es kein Jahr 0 gibt. Auch der Prüfbildschirm zeigt die Jahre so.
+- **Clips:** Taiko-Trommeln beim Bon-Fest in Tokio (CC BY 2.0) und eine Töpferscheibe (CC BY-SA 4.0), `2026-10-clips-4.mjs`.
+- Stand: 25 Animationen (24 in 3D), 817 Fragen (766 im Feed, davon 51 Rätsel, 49 in den neuen Formaten), 45 Clips, 6 Visualisierungen.

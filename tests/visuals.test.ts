@@ -103,3 +103,21 @@ test("timeline: gaps between milestones, and labels never overlap", async () => 
   assert.deepEqual(placed, [10, 29, 48, 80, 99]);
   for (let i = 1; i < placed.length; i++) assert.ok(placed[i] - placed[i - 1] >= 19);
 });
+
+test("timeline before Christ: years read correctly, no year 0, round ticks", async () => {
+  const { formatYear, gaps, yearTicks } = await import("../lib/visuals");
+  assert.equal(formatYear(-3300, "de"), "3300 v. Chr.");
+  assert.equal(formatYear(-3300, "en"), "3300 BC");
+  assert.equal(formatYear(150, "de", true), "150 n. Chr.");
+  assert.equal(formatYear(150, "en", true), "AD 150");
+  assert.equal(formatYear(1446, "de", true), "1446");
+  assert.equal(formatYear(1969, "de"), "1969");
+  // from 250 BC to AD 150 are 399 years, because the year 1 BC is followed directly by AD 1
+  assert.deepEqual(gaps([{ key: "a", year: -250 }, { key: "b", year: 150 }]).map((g) => g.years), [null, 399]);
+  assert.deepEqual(yearTicks(-3500, 1600), [-3000, -2000, -1000, 1000]);
+  assert.deepEqual(yearTicks(1400, 2030), [1400, 1500, 1600, 1700, 1800, 1900, 2000]);
+  const c = visualRows.find((v) => v.id === "v-schrift-zeitleiste")!.config as import("../lib/visuals").TimelineConfig;
+  assert.ok(c.items.every((e) => e.year >= c.from && e.year <= c.to && e.year !== 0));
+  const g = gaps(c.items.filter((e) => !e.late));
+  assert.equal(g.find((x) => x.key === "runes")!.years, 399); // Brahmi (250 BC) → runes (AD 150)
+});
