@@ -4,7 +4,8 @@ import assert from "node:assert/strict";
 import { XP, applyActivity, dailyItems, dueReviews, goalQuestions, isDue, levelInfo, liveStreak, mastery, newAchievements, today } from "../lib/gamification";
 import { rankFollowing, rankForYou } from "../lib/ranking";
 import { rankClips } from "../lib/clips";
-import { buildContent, demoContent } from "../lib/content";
+import { buildContent } from "../lib/content";
+import { demoContent } from "../lib/demo-content";
 import type { AnswerRecord, UserState } from "../lib/types";
 
 const { items, clips } = demoContent();

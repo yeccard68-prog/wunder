@@ -1,7 +1,8 @@
 // Languages and age levels.  Run: npm test
 import test from "node:test";
 import assert from "node:assert/strict";
-import { canRegister, demoContent, fitsAge, forAudience, isChild } from "../lib/content";
+import { canRegister, fitsAge, forAudience, isChild } from "../lib/content";
+import { demoContent } from "../lib/demo-content";
 import { translate } from "../lib/i18n";
 import en from "../lib/locales/en.json";
 

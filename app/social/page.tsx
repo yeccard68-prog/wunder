@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Award, CalendarCheck, Flag, Flame, Heart, Lock, Search, Swords, TrendingUp, Users } from "lucide-react";
@@ -77,6 +78,13 @@ export default function SocialPage() {
         <h1 className="font-display text-3xl font-semibold tracking-tight">Community</h1>
         <span className="rounded-full bg-raised px-2.5 py-1 text-[11px] font-semibold text-muted">{t("Demo-Profile")}</span>
       </div>
+      <Link href="/duel/" className="press card flex items-center gap-3 p-4 text-sm">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-white"><Swords size={18} /></span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-semibold">{t("Duell gegen echte Leute")}</span>
+          <span className="text-muted">{t("Drei Runden, abwechselnd Themen wählen – per Link mit Freunden oder gegen Zufallsgegner.")}</span>
+        </span>
+      </Link>
       <Segmented value={tab} onChange={setTab} options={[{ value: "activity", label: t("Aktivität") }, { value: "league", label: t("Rangliste") }, { value: "people", label: t("Leute") }]} />
 
       {tab === "activity" && activity.length > 0 && !state.following.length && (

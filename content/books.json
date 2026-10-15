@@ -651,7 +651,7 @@
         "evidence": "debated",
         "hook": "War die Erfindung der Landwirtschaft wirklich ein Fortschritt – für den einzelnen Menschen?",
         "title": "Die Falle der Landwirtschaft",
-        "text": "Harari nennt die Erfindung der Landwirtschaft provokant den „größten Betrug der Geschichte“: Sie ernährte viel mehr Menschen, aber der einzelne Bauer arbeitete härter, aß einseitiger und war anfälliger für Hunger und Seuchen als die Jäger und Sammler vor ihm.",
+        "text": "Harari bezeichnet die Erfindung der Landwirtschaft provokant als großen Betrug an den Menschen: Sie ernährte viel mehr Menschen, aber der einzelne Bauer arbeitete härter, aß einseitiger und war anfälliger für Hunger und Seuchen als die Jäger und Sammler vor ihm.",
         "example": "Mehr Nahrung führte zu mehr Kindern – und damit zu noch mehr Arbeit. Ein Zurück gab es nicht mehr.",
         "visual": null,
         "recall": {
@@ -731,7 +731,7 @@
           {
             "hook": "Was the invention of agriculture really progress – for the individual?",
             "title": "The trap of agriculture",
-            "text": "Harari provocatively calls the invention of agriculture “history's biggest fraud”: it fed far more people, but the individual farmer worked harder, ate a narrower diet and was more vulnerable to hunger and disease than the hunter-gatherers before him.",
+            "text": "Harari provocatively describes the invention of agriculture as a great fraud on humanity: it fed far more people, but the individual farmer worked harder, ate a narrower diet and was more vulnerable to hunger and disease than the hunter-gatherers before him.",
             "example": "More food led to more children – and so to even more work. There was no way back.",
             "visual": null,
             "recall": {
@@ -976,7 +976,7 @@
         "evidence": "thesis",
         "hook": "Die hundertste Pizzeria der Stadt oder das erste Restaurant einer neuen Art: Was ist schwerer – und was lohnender?",
         "title": "Von null auf eins",
-        "text": "Wer etwas nachbaut, das es schon gibt, verbreitet eine bekannte Lösung weiter. Wer etwas Neues schafft, verändert, was überhaupt möglich ist. Thiels Lieblingsfrage an Bewerber: „Welche wichtige Wahrheit sehen nur sehr wenige Menschen so wie du?“",
+        "text": "Wer etwas nachbaut, das es schon gibt, verbreitet eine bekannte Lösung weiter. Wer etwas Neues schafft, verändert, was überhaupt möglich ist. Thiel fragt Bewerber gern sinngemäß, welche wichtige Wahrheit sie anders sehen als fast alle anderen.",
         "example": "Die tausendste Suchmaschine wäre „von 1 auf n“. Die erste gute war „von 0 auf 1“.",
         "visual": {
           "type": "compare",
@@ -1016,7 +1016,7 @@
           "answer": "Weil sich im vollkommenen Wettbewerb alle gegenseitig unterbieten, bis niemand mehr Gewinn macht."
         },
         "transfer": {
-          "situation": "Du liest Thiels Satz „Wettbewerb ist für Verlierer“ und sollst ihn in einer Diskussion einordnen.",
+          "situation": "Du liest Thiels zugespitzte These, Wettbewerb sei etwas für Verlierer, und sollst sie in einer Diskussion einordnen.",
           "options": [
             [
               "Zustimmen: Monopole sind für alle das Beste",
@@ -1074,7 +1074,7 @@
           {
             "hook": "The hundredth pizzeria in town or the first restaurant of a new kind: which is harder – and which more rewarding?",
             "title": "From zero to one",
-            "text": "Whoever rebuilds something that already exists spreads a known solution further. Whoever creates something new changes what is possible at all. Thiel's favourite question for applicants: “What important truth do very few people agree with you on?”",
+            "text": "Whoever rebuilds something that already exists spreads a known solution further. Whoever creates something new changes what is possible at all. Thiel likes to ask applicants, in essence, which important truth they see differently from almost everyone else.",
             "example": "The thousandth search engine would be “from 1 to n”. The first good one was “from 0 to 1”.",
             "visual": {
               "type": "compare",
@@ -1111,7 +1111,7 @@
               "answer": "Because under perfect competition everyone undercuts everyone else until nobody makes a profit."
             },
             "transfer": {
-              "situation": "You read Thiel's sentence “competition is for losers” and have to put it in context in a discussion.",
+              "situation": "You read Thiel's pointed claim that competition is for losers and have to put it in context in a discussion.",
               "options": [
                 [
                   "Agree: monopolies are best for everyone",

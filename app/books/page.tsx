@@ -2,10 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Brain, Check, Clock, ExternalLink, MessageCircleQuestion, Scale, Search, Shapes, Target, X } from "lucide-react";
+import { ArrowLeft, BookOpen, Brain, Check, Clock, ExternalLink, MessageCircleQuestion, Scale, Search, Shapes, ShoppingBag, Target, X } from "lucide-react";
 import InsightCard, { BookCover, useBookState } from "@/components/books/InsightCard";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Bar, Chip, Empty } from "@/components/ui";
+import { bookShopUrl, showsAffiliate } from "@/lib/affiliate";
 import { track } from "@/lib/analytics";
 import { animationsFor } from "@/lib/animations";
 import { BOOK_CATEGORIES, bookProgress, booksFor, dueIdeas, recallStats, type Book } from "@/lib/books";
@@ -88,6 +89,18 @@ function Detail({ book, books, open, back }: { book: Book; books: Book[]; open: 
         </p>
         <p className="font-display text-lg leading-snug">{book.reflect}</p>
       </section>
+
+      {showsAffiliate(state.ageBand) && bookShopUrl(book) && (
+        <section className="card space-y-2 p-5" data-testid="book-shop">
+          <a href={bookShopUrl(book)!} target="_blank" rel="sponsored noopener noreferrer" className="press flex items-center gap-3 font-semibold">
+            <ShoppingBag size={18} className="shrink-0" />
+            <span className="flex-1">{t("Das ganze Buch bei Amazon ansehen")}</span>
+            <span className="rounded-full bg-raised px-2 py-0.5 text-[11px] font-semibold text-muted">{t("Anzeige")}</span>
+            <ExternalLink size={14} className="shrink-0 text-muted" />
+          </a>
+          <p className="text-xs leading-relaxed text-muted">{t("Affiliate-Link: Kaufst du darüber, erhalten wir eine Provision – der Preis bleibt für dich gleich. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.")}</p>
+        </section>
+      )}
 
       {quiz && (
         <section>

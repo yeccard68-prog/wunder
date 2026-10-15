@@ -1,9 +1,7 @@
 // Maps content records (content/*.json and the identical database rows) to app models,
 // and tailors them to the user's language and age level.
 // The JSON dataset is bundled ONLY for demo mode (no backend configured).
-import questionsJson from "../content/questions.json";
 import type { AnswerKey } from "./formats";
-import videosJson from "../content/videos.json";
 import type { AgeBand, Difficulty, Item } from "./types";
 
 /** Short learning video. Mirrors the `videos` table. */
@@ -151,17 +149,6 @@ export function buildContent(questions: QuestionRow[], videos: VideoRow[]): Cont
       };
     }),
   };
-}
-
-/** Demo mode: the local dataset including answers, invented like counts and fictional comments. */
-export function demoContent(): Content {
-  const questions = (questionsJson as unknown as (QuestionRow & { status: string; demo_popularity: number })[])
-    .filter((q) => q.status === "published")
-    .map((q) => ({ ...q, like_count: q.demo_popularity }));
-  const videos = (videosJson as unknown as (VideoRow & { status: string; demo_popularity: number })[])
-    .filter((v) => v.status === "published")
-    .map((v) => ({ ...v, like_count: v.demo_popularity }));
-  return buildContent(questions, videos);
 }
 
 // ---------- language ----------

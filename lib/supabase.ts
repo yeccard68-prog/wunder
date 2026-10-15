@@ -3,6 +3,7 @@
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import type { AnswerKey, FormatResponse } from "./formats";
 import { buildContent, type QuestionRow, type VideoRow } from "./content";
+import type { DuelAnswerResult, DuelSummary, DuelView } from "./duel";
 import { linkOrigin } from "./native";
 import type { AgeBand, UserState } from "./types";
 
@@ -186,6 +187,55 @@ export async function setQuestionReaction(userId: string, questionId: string, fl
 
 export async function setVideoProgress(userId: string, videoId: string, row: Flags & Partial<{ plays: number; completions: number }>) {
   const { error } = await db().from("video_progress").upsert({ user_id: userId, video_id: videoId, ...row }, { onConflict: "user_id,video_id" });
+  if (error) throw error;
+}
+
+// ---------- duels (turn order, answer key and visibility are decided by the database) ----------
+export async function createDuel(kind: "invite" | "random"): Promise<{ id: string; code: string; joined: boolean }> {
+  const { data, error } = await db().rpc("duel_create", { p_kind: kind });
+  if (error) throw error;
+  return data;
+}
+export async function joinDuel(code: string): Promise<string> {
+  const { data, error } = await db().rpc("duel_join", { p_code: code });
+  if (error) throw error;
+  return data as string;
+}
+export async function fetchDuel(id: string, locale: string): Promise<DuelView> {
+  const { data, error } = await db().rpc("duel_state", { p_duel: id, p_locale: locale });
+  if (error) throw error;
+  return data as DuelView;
+}
+export async function fetchMyDuels(): Promise<DuelSummary[]> {
+  const { data, error } = await db().rpc("my_duels");
+  if (error) throw error;
+  return (data ?? []) as DuelSummary[];
+}
+export async function pickDuelTopic(id: string, category: string) {
+  const { error } = await db().rpc("duel_pick", { p_duel: id, p_category: category });
+  if (error) throw error;
+}
+/** selected null: the time ran out. */
+export async function answerDuel(id: string, round: number, idx: number, selected: number | null, locale: string): Promise<DuelAnswerResult> {
+  const { data, error } = await db().rpc("duel_answer", { p_duel: id, p_round: round, p_idx: idx, p_selected: selected, p_locale: locale });
+  if (error) throw error;
+  return data as DuelAnswerResult;
+}
+export async function rematchDuel(id: string): Promise<string> {
+  const { data, error } = await db().rpc("duel_rematch", { p_duel: id });
+  if (error) throw error;
+  return data as string;
+}
+export async function declineDuel(id: string) {
+  const { error } = await db().rpc("duel_decline", { p_duel: id });
+  if (error) throw error;
+}
+export async function resignDuel(id: string) {
+  const { error } = await db().rpc("duel_resign", { p_duel: id });
+  if (error) throw error;
+}
+export async function reportDuel(id: string, reason: "name" | "cheating" | "other") {
+  const { error } = await db().rpc("duel_report", { p_duel: id, p_reason: reason });
   if (error) throw error;
 }
 

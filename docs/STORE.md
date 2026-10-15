@@ -35,10 +35,13 @@ Die Website ist ein statischer Export (`out/`). **Capacitor** (Version 8.5.2, qu
 
 **Google Play – Datensicherheit**
 - Erhobene Daten: *App-Aktivität* (beantwortete Fragen, Lernstand, Einstellungen) – für die App-Funktion, an ein anonymes Konto gebunden. *E-Mail-Adresse* – nur wenn jemand sein Konto selbst sichert (optional). *Nutzungsstatistik* (welche Inhalte geöffnet oder abgeschlossen wurden) – nur mit Einwilligung, für Analyse.
+- *Name* (selbst gewählter Anzeigename): optional; in Duellen sieht ihn der Gegner, außer bei privatem Profil oder unter 16. Bei Google heißt das „mit anderen Nutzern geteilt“ – für die App-Funktion, nicht an Unternehmen.
 - Keine Weitergabe an Dritte (Vercel und Supabase sind Auftragsverarbeiter). Keine Werbung, keine Werbe-ID. Übertragung verschlüsselt (HTTPS). Löschung jederzeit in der App (Profil → „Konto und Daten löschen“).
 - Berechtigungen der App: nur Internet.
 
-**Zielgruppe:** 16 Jahre und älter; nicht für Kinder- oder Familienkategorien einreichen. Den Fragebogen zur Altersfreigabe wahrheitsgemäß ausfüllen (Lerninhalte, keine Gewalt, keine Käufe, Nutzerinhalte derzeit simuliert).
+**Werbung:** Solange `NEXT_PUBLIC_AMAZON_PARTNER_TAG` leer ist, enthält die App keine Werbung. Mit Tag gibt es gekennzeichnete Affiliate-Links bei den Büchern (kein Werbe-SDK, keine Werbe-ID) – dann im Formular „Enthält Werbung“ prüfen, im Zweifel „Ja“ angeben.
+
+**Zielgruppe:** 16 Jahre und älter; nicht für Kinder- oder Familienkategorien einreichen. Den Fragebogen zur Altersfreigabe wahrheitsgemäß ausfüllen (Lerninhalte, keine Gewalt, keine Käufe; Nutzer können in Duellen miteinander spielen und sehen dabei nur Anzeigenamen und Ergebnisse – kein Chat, keine Bilder, keine freien Texte).
 
 **Apple – App-Datenschutz:** dieselben Angaben; „Mit Apple anmelden“ ist nicht nötig, weil es keine Anmeldung über Google, Facebook o. Ä. gibt.
 

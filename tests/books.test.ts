@@ -1,8 +1,10 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import test from "node:test";
+import { shopUrl, showsAffiliate } from "../lib/affiliate";
 import { BOOK_CATEGORIES, bookRows, booksFor, insightQueue } from "../lib/books";
-import { demoContent, forAudience } from "../lib/content";
+import { forAudience } from "../lib/content";
+import { demoContent } from "../lib/demo-content";
 import { mixFeed } from "../lib/feed";
 import type { UserState } from "../lib/types";
 
@@ -57,4 +59,23 @@ test("books in the feed: unread ideas first, spread over many books, in the rhyt
   const media = feed.filter((e) => e.kind !== "item").slice(0, 4).map((e) => e.kind);
   assert.deepEqual(media, ["clip", "clip", "insight", "clip"]); // no animations passed in → their slot goes to a clip
   assert.equal(feed.filter((e) => e.kind === "insight").length, queue.length);
+});
+
+test("books: no quotes from the books, and shop links only with a partner tag", () => {
+  // the lessons promise "no excerpts or quotes": "Harari calls it „…four or more words…“" would break that
+  const escape = (x: string) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const texts = (o: unknown): string[] => (typeof o === "string" ? [o] : o && typeof o === "object" ? Object.values(o).flatMap(texts) : []);
+  for (const b of bookRows) {
+    const surname = escape(b.author.replace(/\s*\(.*\)/, "").split(" ").pop()!);
+    const quote = new RegExp(`${surname}(s|'s)?\\b[^.„“”"]{0,60}?(Satz|Lieblingsfrage|nennt|bezeichnet|sentence|calls|question)[^.]{0,60}[„“"]([^„“”"]*\\s){3}[^„“”"]*[“”"]`);
+    for (const text of texts(b)) assert.doesNotMatch(text, quote, b.id);
+  }
+  assert.equal(shopUrl({ title: "Schnelles Denken, langsames Denken", author: "Daniel Kahneman" }, ""), null);
+  assert.equal(shopUrl({ title: "x", author: "y" }, "bad tag!"), null);
+  assert.equal(shopUrl({ title: "x", author: "y" }, "wunder-21", "evil.example"), null);
+  assert.equal(
+    shopUrl({ title: "Schnelles Denken, langsames Denken", author: "Daniel Kahneman" }, "wunder-21"),
+    "https://www.amazon.de/s?k=Schnelles%20Denken%2C%20langsames%20Denken%20Daniel%20Kahneman&i=stripbooks&tag=wunder-21"
+  );
+  assert.equal(showsAffiliate("16+"), false, "the test build has no partner tag");
 });

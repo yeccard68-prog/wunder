@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { evaluate, type FormatResponse } from "./formats";
 import type { AnswerContext, AnswerRecord, AnswerResult, Item, LogEntry, UserState } from "./types";
-import { demoContent, forAudience, type Clip, type Content } from "./content";
+import { forAudience, type Clip, type Content } from "./content";
 import { detectLocale, translate } from "./i18n";
 import { XP, applyActivity, dueAt, isDue, levelInfo, newAchievements, today, weekKey, BOX_MS } from "./gamification";
 import * as api from "./supabase";
@@ -229,7 +229,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     setStatus("loading");
     setError(null);
     if (MODE === "demo") {
-      setContent(demoContent());
+      // The answer key exists only in demo builds: with a backend URL the bundler drops this branch, so the
+      // file is not even published as a chunk someone could download (it would give away duel answers).
+      if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
+        const { demoContent } = await import("./demo-content");
+        setContent(demoContent());
+      }
       const cached = load<{ state: UserState }>(STATE_KEY);
       if (cached) commit(() => ({ ...blank(), ...cached.state, settings: { ...blank().settings, ...cached.state.settings } }), { silent: true });
       else commit((s) => ({ ...s, settings: { ...s.settings, locale: detectLocale() } }), { silent: true });

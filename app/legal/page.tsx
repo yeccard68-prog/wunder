@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import videosJson from "@/content/videos.json";
+import { showsAffiliate } from "@/lib/affiliate";
 import { BRAND } from "@/lib/brand";
 import { useStore, useT } from "@/lib/store";
 
@@ -104,12 +105,20 @@ export default function LegalPage() {
           <li>{t("Deinen Lernstand: beantwortete Fragen, Wiederholungen, Punkte, gemerkte Inhalte und deine Einstellungen.")}</li>
           <li>{t("Die App ist ab 16 Jahren freigegeben. Gespeichert wird nur die Altersgruppe, kein Geburtsdatum.")}</li>
           <li>{t("Eine E-Mail-Adresse nur, wenn du dich selbst damit anmeldest.")}</li>
+          <li>{t("Duelle: die Spielzüge, deine Antworten und das Ergebnis. Dein Gegner sieht deinen Anzeigenamen (bei privatem Profil nicht) und eure Ergebnisse, sonst nichts von dir. Wenn du jemanden meldest, speichern wir die Meldung mit Grund, damit die Redaktion sie prüfen kann.")}</li>
           <li>{t("Nutzungsstatistik nur, wenn du sie im Profil einschaltest. Erfasst wird, welcher Inhalt geöffnet oder abgeschlossen wurde, kein freier Text, kein Standort, keine Gerätedaten.")}</li>
-          <li>{t("Keine Werbung, keine Werbe-Tracker, kein Verkauf von Daten.")}</li>
+          <li>{showsAffiliate(state.ageBand) ? t("Keine Werbe-Tracker, kein Verkauf von Daten. Einzige Werbung sind gekennzeichnete Affiliate-Links bei den Büchern (siehe unten).") : t("Keine Werbung, keine Werbe-Tracker, kein Verkauf von Daten.")}</li>
           <li>{t("Unter Profil → „Konto und Daten löschen“ entfernst du alles sofort und endgültig.")}</li>
         </ul>
         <p className={p}>{t("Technische Dienstleister: Vercel (Auslieferung der App) und Supabase (Datenbank und Anmeldung).")}</p>
       </section>
+
+      {showsAffiliate(state.ageBand) && (
+        <section className="space-y-2" data-testid="legal-affiliate">
+          <h2 className={h2}>{t("Werbung: Affiliate-Links")}</h2>
+          <p className={p}>{t("Bei jedem Buch steht ein als „Anzeige“ gekennzeichneter Link zur Buchsuche bei Amazon. Kaufst du darüber ein, erhalten wir eine Provision; der Preis ändert sich für dich nicht. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen. Die App lädt dafür nichts von Amazon – keine Bilder, Preise oder Tracker. Erst wenn du den Link öffnest, bist du bei Amazon, und dort gelten Amazons Datenschutzbestimmungen. Die Auswahl und die Texte der Bücher hängen nicht von Provisionen ab.")}</p>
+        </section>
+      )}
 
       <section className="space-y-2">
         <h2 className={h2}>{t("Software")}</h2>

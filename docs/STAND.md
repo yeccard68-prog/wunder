@@ -9,8 +9,9 @@
 | Clips | 45 veröffentlicht, 6 archiviert | frei lizenziert, Quelle und Urheber je Clip, Nachweise unter `/legal/` |
 | Animationen | 25 (24 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 6 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste, Schrift-Zeitleiste) | 4 mit echten Daten, 2 Rechenmodelle; auch im Feed |
-| Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee |
+| Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee; Copyright am 15.10.2026 erneut geprüft; Affiliate-Link vorbereitet (aus, bis ein Partner-Tag eingetragen ist) |
 | Themen | 10 | |
+| Duelle | drei Runden à drei Fragen, gegen Freunde (Link/Code) oder Zufallsgegner; im Demo-Modus gegen einen Übungsgegner | Regeln, Zeitlimit und Antworten auf dem Server; Melden und Sperren eingebaut |
 
 Karten je Thema (Feed): Wissenschaft 105, Kultur & Gesellschaft 83, Technologie & KI 78, Sprache 77, Erde & Natur 75, Business 74, Mathe & Logik 74, Geschichte 70, Wirtschaft & Geld 69, Sport 61.
 
@@ -54,11 +55,12 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 
 ### 4. Später
 
-Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, echte Community (braucht Moderation und Meldewege nach dem Digital Services Act), Bereich für Jüngere (braucht Einwilligung der Eltern), Herz und andere organische 3D-Modelle (brauchen lizenzierte Modelle).
+Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, weitere Community-Funktionen über Duelle hinaus (brauchen Moderation und Meldewege nach dem Digital Services Act), Bereich für Jüngere (braucht Einwilligung der Eltern), Herz und andere organische 3D-Modelle (brauchen lizenzierte Modelle).
 
 ## Bekannte Schwächen
 
 - Kein Inhalt ist redaktionell geprüft.
+- **Duelle:** Mit zwei echten Konten im Browser noch nicht durchgespielt – geprüft sind die Regeln in der Datenbank (30 Prüfungen, `supabase/tests/duels.sql`) und das Übungsduell im Browser. Das 20-Sekunden-Limit zählt auf dem Gerät: Wer die Seite während einer Frage neu lädt, bekommt dieselbe Frage mit voller Zeit. Für Meldungen gibt es noch keine Ansicht im Prüfbildschirm (nur per SQL: `select * from admin_duel_reports()`).
 - Getestet auf einem Windows-PC (Edge) und einem Handy des Betreibers (Animationen „flüssig“); Safari auf dem iPhone und ältere Android-Geräte nicht.
 - In den Erdplatten ist im Blick von oben ein kleiner grauer Keil zu sehen, der nicht zugeordnet ist.
 - `scripts/measure-animations.mjs` bricht ab, wenn man mehrere Animationen nacheinander misst; einzeln läuft es (Bildraten der letzten drei: 57–58 pro Sekunde).

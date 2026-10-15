@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { animationsFor } from "../lib/animations";
-import { demoContent, forAudience } from "../lib/content";
+import { forAudience } from "../lib/content";
+import { demoContent } from "../lib/demo-content";
 import { entryId, mixFeed, MEDIA_EVERY } from "../lib/feed";
 import type { UserState } from "../lib/types";
 

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { ArrowRight, BookOpen, Clapperboard, Search, Shapes, Users, X, Zap, FlaskConical, Puzzle } from "lucide-react";
+import { ArrowRight, BookOpen, Clapperboard, Search, Shapes, Swords, Users, X, Zap, FlaskConical, Puzzle } from "lucide-react";
 import Feed from "@/components/Feed";
 import { Chip, Empty } from "@/components/ui";
 import { animationsFor } from "@/lib/animations";
@@ -42,6 +42,7 @@ export default function ExplorePage() {
   const collections = [
     { href: "/books/", Icon: BookOpen, title: t("Bücher"), text: t("{n} Sachbücher, {m} Ideen zum Mitnehmen", { n: books.length, m: books.reduce((s, b) => s + b.ideas.length, 0) }) },
     { href: "/quiz/", Icon: Zap, title: t("Quiz-Runden"), text: t("Daily Challenge, Wiederholung und Üben nach Thema") },
+    ...(isChild(state.ageBand) ? [] : [{ href: "/duel/", Icon: Swords, title: t("Duell"), text: t("Drei Runden gegen Freunde oder Zufallsgegner") }]),
     { href: "/riddles/", Icon: Puzzle, title: t("Rätsel"), text: t("{n} Knobelaufgaben mit Tipps", { n: items.filter((i) => i.hints?.length).length }) },
     { href: "/explain/", Icon: Shapes, title: t("So funktioniert’s"), text: t("{n} Animationen zum Durchklicken", { n: animations.length }) },
     { href: "/lab/", Icon: FlaskConical, title: t("Interaktiv"), text: t("Diagramme und Modelle zum Selbst-Verändern") },
