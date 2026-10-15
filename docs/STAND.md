@@ -5,7 +5,7 @@
 | Inhalt | Anzahl | Status |
 |---|---|---|
 | Fragekarten im Feed | 766 (davon 84 „Stimmt das?“, 49 neue Formate, 51 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
-| Video-Quizfragen | 51 | zweiter Versuch mit Hinweis, halbe Punkte |
+| Video-Quizfragen | 54 | zweiter Versuch mit Hinweis, halbe Punkte |
 | Clips | 48 veröffentlicht (45 fremde, 3 eigene), 6 archiviert | fremde frei lizenziert mit Quelle und Urheber je Clip (`/legal/`); eigene mit Remotion gerendert (`video/`), je Sprache eine Datei |
 | Animationen | 25 (24 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 6 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste, Schrift-Zeitleiste) | 4 mit echten Daten, 2 Rechenmodelle; auch im Feed |
@@ -19,7 +19,7 @@ Karten je Thema (Feed): Wissenschaft 105, Kultur & Gesellschaft 83, Technologie 
 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
-| 1.000 Quizfragen | 817 | rund 150 pro Stapel sind in guter Qualität machbar |
+| 1.000 Quizfragen | 820 | rund 150 pro Stapel sind in guter Qualität machbar |
 | 100 Kurzvideos | 48 | seit 15.10.2026 auch eigene Clips mit Remotion – unabhängig von freien Quellen, je Clip etwa so viel Handarbeit wie eine kleine Animation |
 | 50 Animationen | 25 | jede 3D-Szene ist Handarbeit im Code |
 | rund 20 Bücher | 20 | je drei Ideen; fünf je Buch wären der nächste Ausbau |
