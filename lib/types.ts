@@ -106,6 +106,8 @@ export interface UserState {
   // book ideas: learned / saved, and for each idea recalled from memory when it is due again
   books: { read: string[]; saved: string[]; recall?: Record<string, RecallRecord> };
   visuals?: string[]; // interactive visualisations already tried (prediction made) – they move to the back of the feed
+  facts?: { wow: string[]; known: string[] }; // reactions to "Did you know?" cards
+  signals?: import("./engagement").Signals; // what the feed learns from viewing behaviour – stays on this device
   likes: string[];
   saves: string[];
   hidden: string[];

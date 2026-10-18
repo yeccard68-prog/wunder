@@ -3,7 +3,7 @@
 // "checked by an editor" only while the record still has that fingerprint – editing the text later
 // makes the approval lapse. Approvals are loaded from the database at start (live mode only).
 
-export type BundleKind = "book" | "animation" | "visual";
+export type BundleKind = "book" | "animation" | "visual" | "fact";
 
 /** Fields that describe the review state, not the content – they do not change the fingerprint. */
 const IGNORED = new Set(["verification_status", "status", "created_at"]);

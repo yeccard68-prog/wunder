@@ -2,6 +2,7 @@ import type { Item, UserState } from "./types";
 import { categoryById } from "./categories";
 import { ACTIVITIES, personById } from "./people";
 import { hash, today } from "./gamification";
+import { recentAccuracy, topicEngagement, unexplored } from "./engagement";
 
 // Deterministic, explainable "For You" ranking. No ML, no LLM calls.
 // Every card carries the main reason it was picked.
@@ -13,6 +14,7 @@ const W = {
   difficultyFit: 2,
   freshness: 3,
   popularity: 1, // secondary signal only
+  engaged: 3, // lingers on the topic in the feed (from −1 to +1, see engagement.ts)
   completed: -20,
 };
 
@@ -22,11 +24,18 @@ export interface Ranked {
   vars?: Record<string, string>;
 }
 
+/**
+ * The difficulty that keeps learning in the "flow" zone (roughly 70–80 % right): overall accuracy sets the
+ * level, the last few answers nudge it – a run of mistakes makes the next cards easier, a streak harder.
+ */
 export function targetDifficulty(state: UserState): number {
   const all = Object.values(state.answers);
   if (all.length < 5) return 1;
   const acc = all.filter((a) => a.correct).length / all.length;
-  return acc > 0.8 ? 3 : acc > 0.55 ? 2 : 1;
+  const base = acc > 0.8 ? 3 : acc > 0.55 ? 2 : 1;
+  const recent = recentAccuracy(state);
+  const nudge = recent === null ? 0 : recent >= 0.9 ? 1 : recent <= 0.5 ? -1 : 0;
+  return Math.max(1, Math.min(3, base + nudge));
 }
 
 export function rankForYou(items: Item[], state: UserState): Ranked[] {
@@ -47,7 +56,7 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
   const hidden = new Set(state.hidden);
   const day = today();
 
-  return items
+  const ranked = items
     .filter((i) => !hidden.has(i.id))
     .map((item) => {
       const cat = categoryById(item.categoryId);
@@ -58,6 +67,7 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
         [(W.gap * (gaps[item.categoryId] ?? 0)) / maxGap, "Zum Üben: {topic}", { topic: cat.name }],
         [W.freshness * Math.exp(-ageDays / 10), "Neu"],
         [(W.popularity * item.popularity) / maxPop, "Gerade beliebt"],
+        [W.engaged * topicEngagement(state, item.categoryId), "Weil dir Ähnliches gefallen hat"],
       ];
       const done = state.answers[item.id];
       const score =
@@ -69,6 +79,28 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
       return { item, reason, vars, score };
     })
     .sort((a, b) => b.score - a.score);
+  return withDiscoveries(ranked, state);
+}
+
+/** From the 5th place on, every 7th card comes from a topic the learner neither chose nor has seen much – so new interests can show. */
+export const DISCOVER_FROM = 4;
+export const DISCOVER_EVERY = 7;
+function withDiscoveries(ranked: Ranked[], state: UserState): Ranked[] {
+  const isNew = (r: Ranked) => !state.interests.includes(r.item.categoryId) && unexplored(state, r.item.categoryId) && !state.answers[r.item.id];
+  const pool = ranked.filter(isNew);
+  const out = ranked.filter((r) => !isNew(r));
+  const seen = new Set<string>();
+  for (let at = DISCOVER_FROM; at <= out.length && pool.length; at += DISCOVER_EVERY) {
+    // one topic at a time: the next discovery comes from a topic not yet offered
+    const i = Math.max(0, pool.findIndex((r) => !seen.has(r.item.categoryId)));
+    const [r] = pool.splice(i, 1);
+    seen.add(r.item.categoryId);
+    out.splice(at, 0, { ...r, reason: "Etwas Neues für dich", vars: undefined });
+  }
+  // the rest of them before the cards already answered, which always come last
+  const done = out.findIndex((x) => !!state.answers[x.item.id]);
+  out.splice(done < 0 ? out.length : done, 0, ...pool);
+  return out;
 }
 
 /** Following feed: cards that people you follow have liked, newest activity first. */

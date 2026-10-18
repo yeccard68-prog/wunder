@@ -9,6 +9,7 @@ import { XP, applyActivity, dueAt, isDue, levelInfo, newAchievements, today, wee
 import * as api from "./supabase";
 import { mergeBookState } from "./books";
 import { setApprovals } from "./reviews";
+import { recordView, type EntryKind } from "./engagement";
 
 // Two separate worlds: "demo" (no backend, local sample data) and "live" (Supabase).
 // They never share storage, and live mode never falls back to bundled content.
@@ -141,6 +142,10 @@ interface Store {
   toggle: (list: "likes" | "saves", item: { id: string }) => void;
   hide: (item: { id: string }, report?: boolean) => void;
   trackClip: (id: string, event: "play" | "complete") => void;
+  /** How long an entry was on screen in the feed – the feed learns from it (kept on this device only). */
+  trackView: (categoryId: string, kind: EntryKind, seconds: number) => void;
+  /** Reaction to a "did you know" fact. */
+  reactFact: (id: string, reaction: "wow" | "known") => void;
   addComment: (clipId: string, text: string) => void;
   toggleFollow: (personId: string) => void;
   block: (personId: string) => void;
@@ -456,6 +461,24 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     [commit, sync]
   );
 
+  const trackView = useCallback(
+    (categoryId: string, kind: EntryKind, seconds: number) => {
+      if (!categoryId || seconds <= 0) return;
+      commit((s) => ({ ...s, signals: recordView(s.signals, categoryId, kind, seconds) }), { silent: true });
+    },
+    [commit]
+  );
+  const reactFact = useCallback(
+    (id: string, reaction: "wow" | "known") =>
+      commit((s) => {
+        const f = s.facts ?? { wow: [], known: [] };
+        const other = reaction === "wow" ? "known" : "wow";
+        const on = f[reaction].includes(id);
+        return { ...s, facts: { ...f, [reaction]: on ? f[reaction].filter((x) => x !== id) : [...f[reaction], id], [other]: f[other].filter((x) => x !== id) } };
+      }),
+    [commit]
+  );
+
   const addComment = useCallback(
     (clipId: string, text: string) => commit((s) => ({ ...s, comments: { ...s.comments, [clipId]: [...(s.comments[clipId] ?? []), text] } })),
     [commit]
@@ -552,7 +575,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   return (
     <Ctx.Provider
-      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, firstTry, toggle, hide, trackClip, addComment, toggleFollow, block, completeDaily, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset }}
+      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, firstTry, toggle, hide, trackClip, trackView, reactFact, addComment, toggleFollow, block, completeDaily, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset }}
     >
       {children}
     </Ctx.Provider>

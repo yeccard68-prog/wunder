@@ -12,7 +12,8 @@ import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
 import { categoryById } from "@/lib/categories";
 import { captionAt, type Clip } from "@/lib/content";
-import { entryId, type FeedEntry } from "@/lib/feed";
+import { entryId, entryTopic, type FeedEntry } from "@/lib/feed";
+import FactCard from "./FactCard";
 import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
 
@@ -171,13 +172,54 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
   );
 }
 
+/** Once, after a long time in the feed: a friendly suggestion to take a break – not a wall, just a hint. */
+function PauseCard() {
+  const { state } = useStore();
+  const t = useT();
+  return (
+    <article className="card p-6 text-center" data-testid="pause-card">
+      <p className="text-4xl" aria-hidden>☕</p>
+      <p className="mt-3 font-display text-2xl font-semibold">{t("Zeit für eine kurze Pause?")}</p>
+      <p className="mt-2 text-[15px] leading-relaxed text-muted">{t("Du bist schon eine Weile dabei – heute {n} Antworten. Pausen helfen dem Gehirn, Neues zu behalten. Weiter geht es jederzeit mit einem Wisch.", { n: state.daily.count })}</p>
+    </article>
+  );
+}
+
 function Entry({ entry, fill }: { entry: FeedEntry; fill?: boolean }) {
   const t = useT();
+  if (entry.kind === "fact") return <FactCard fact={entry.fact} />;
+  if (entry.kind === "pause") return <PauseCard />;
   if (entry.kind === "item") return <KnowledgeCard item={entry.item} reason={t(entry.reason, entry.vars)} />;
   if (entry.kind === "clip") return <ClipCard clip={entry.clip} fill={fill} />;
   if (entry.kind === "insight") return <InsightCard book={entry.book} idea={entry.idea} standalone />;
   if (entry.kind === "visual") return <VisualCard visual={entry.visual} />;
   return <AnimationCard animation={entry.animation} compact={fill} />;
+}
+
+/** A screen of the snapping feed that reports how long it was in view (the feed learns from it, on this device). */
+function Tracked({ entry, root, className, children }: { entry: FeedEntry; root: React.RefObject<HTMLDivElement | null>; className: string; children: ReactNode }) {
+  const { trackView } = useStore();
+  const ref = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || entry.kind === "pause") return;
+    let since = 0;
+    const leave = () => {
+      if (since) trackView(entryTopic(entry), entry.kind as Exclude<FeedEntry["kind"], "pause">, (performance.now() - since) / 1000);
+      since = 0;
+    };
+    const obs = new IntersectionObserver(([e]) => (e.isIntersecting ? (since = performance.now()) : leave()), { root: root.current, threshold: 0.6 });
+    obs.observe(el);
+    const hide = () => document.visibilityState === "hidden" && leave();
+    document.addEventListener("visibilitychange", hide);
+    return () => {
+      leave();
+      obs.disconnect();
+      document.removeEventListener("visibilitychange", hide);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  return <section ref={ref} data-feed-entry={entry.kind} className={className}>{children}</section>;
 }
 
 /**
@@ -221,9 +263,9 @@ export default function Feed({ entries, layout = "list", lead }: { entries: Feed
       {lead && <section className={`${screen} min-h-full`}>{lead}</section>}
       {visible.slice(0, count).map((e) => (
         // a clip fills the screen exactly; cards are at least one screen tall and centred
-        <section key={entryId(e)} data-feed-entry={e.kind} className={`${screen} ${e.kind === "clip" ? "h-full" : "min-h-full"}`}>
+        <Tracked key={entryId(e)} entry={e} root={scroller} className={`${screen} ${e.kind === "clip" ? "h-full" : "min-h-full"}`}>
           <Entry entry={e} fill />
-        </section>
+        </Tracked>
       ))}
       <div ref={sentinel} />
       {end && <section className={`${screen} min-h-[40%]`}>{end}</section>}

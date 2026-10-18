@@ -300,7 +300,7 @@ export async function adminReview(kind: "question" | "video", id: string, action
   if (error) throw error;
 }
 
-export type ReviewKind = "question" | "video" | "book" | "animation" | "visual";
+export type ReviewKind = "question" | "video" | "book" | "animation" | "visual" | "fact";
 export interface ContentReview {
   kind: ReviewKind;
   id: string;

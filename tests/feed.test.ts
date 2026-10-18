@@ -21,9 +21,9 @@ test("combined feed: every card, clip and animation appears exactly once", () =>
   assert.equal(feed.filter((e) => e.kind === "item").length, items.length - animations.length);
 });
 
-test("combined feed: something to watch after every third card, animations in between", () => {
+test("combined feed: something to watch after the second card, then after every third, animations in between", () => {
   const feed = mixFeed(ranked, clips, animations, state());
-  assert.deepEqual(feed.slice(0, 8).map((e) => e.kind), ["item", "item", "item", "clip", "item", "item", "item", "animation"]);
+  assert.deepEqual(feed.slice(0, 8).map((e) => e.kind), ["item", "item", "clip", "item", "item", "item", "animation", "item"]);
   assert.equal(MEDIA_EVERY, 3);
 });
 

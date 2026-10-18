@@ -1,0 +1,903 @@
+[
+  {
+    "id": "f-krake-herzen",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Ein Krake hat drei Herzen.",
+    "detail": "Zwei Kiemenherzen pumpen das Blut durch die Kiemen, wo es Sauerstoff aufnimmt. Ein Hauptherz versorgt dann den übrigen Körper.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kraken",
+        "url": "https://de.wikipedia.org/wiki/Kraken"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "An octopus has three hearts.",
+        "detail": "Two gill hearts pump the blood through the gills, where it takes up oxygen. A main heart then supplies the rest of the body."
+      }
+    }
+  },
+  {
+    "id": "f-wombat",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Wombats hinterlassen würfelförmigen Kot – 80 bis 100 Stück am Tag.",
+    "detail": "Die Würfelform entsteht schon während der Verdauung durch Grate in der Darmwand, nicht erst am Ausgang. Mit dem Kot markieren Wombats ihr Revier.",
+    "sources": [
+      {
+        "name": "Wikipedia: Wombats",
+        "url": "https://de.wikipedia.org/wiki/Wombats"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Wombats leave cube-shaped droppings – 80 to 100 a day.",
+        "detail": "The cube shape forms during digestion, from ridges in the gut wall – not only at the exit. Wombats use the droppings to mark their territory."
+      }
+    }
+  },
+  {
+    "id": "f-flamingo",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Flamingos sind rosa, weil sie Farbstoffe aus ihrer Nahrung aufnehmen.",
+    "detail": "In den Algen, die sie fressen, stecken Carotinoide. Der Körper der Flamingos baut sie um und lagert sie in die Federn ein.",
+    "sources": [
+      {
+        "name": "Wikipedia: Flamingos",
+        "url": "https://de.wikipedia.org/wiki/Flamingos"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Flamingos are pink because they take up pigments from their food.",
+        "detail": "The algae they eat contain carotenoids. A flamingo's body converts them and stores them in its feathers."
+      }
+    }
+  },
+  {
+    "id": "f-giraffe-hals",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Der lange Hals einer Giraffe hat nur sieben Halswirbel – so viele wie deiner.",
+    "detail": "Fast alle Säugetiere haben sieben Halswirbel. Bei der Giraffe sind sie bloß stark verlängert.",
+    "sources": [
+      {
+        "name": "Wikipedia: Giraffen",
+        "url": "https://de.wikipedia.org/wiki/Giraffen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "A giraffe's long neck has only seven vertebrae – as many as yours.",
+        "detail": "Almost all mammals have seven neck vertebrae. In the giraffe they are simply very long."
+      }
+    }
+  },
+  {
+    "id": "f-blauwal",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Der Blauwal gehört zu den größten Tieren, die je auf der Erde gelebt haben.",
+    "detail": "Er wird bis zu 33 Meter lang und bis zu 200 Tonnen schwer – und kommt in allen Ozeanen vor.",
+    "sources": [
+      {
+        "name": "Wikipedia: Blauwal",
+        "url": "https://de.wikipedia.org/wiki/Blauwal"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The blue whale is among the largest animals that have ever lived on Earth.",
+        "detail": "It grows up to 33 metres long and up to 200 tonnes heavy – and lives in every ocean."
+      }
+    }
+  },
+  {
+    "id": "f-kamel-hoecker",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Im Höcker eines Kamels ist kein Wasser, sondern Fett.",
+    "detail": "Der Höcker ist ein Fettspeicher. Ist er geschrumpft, zeigt das, dass das Tier schlecht ernährt ist.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kamele",
+        "url": "https://de.wikipedia.org/wiki/Kamele"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "A camel's hump holds fat, not water.",
+        "detail": "The hump is a fat store. If it has shrunk, the animal is poorly fed."
+      }
+    }
+  },
+  {
+    "id": "f-kolibri",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Kolibris können auf der Stelle schweben und sogar rückwärts fliegen.",
+    "detail": "Möglich machen das besonders bewegliche Schulter- und Ellenbogengelenke. Die Flügelspitzen beschreiben dabei eine liegende Acht.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kolibris",
+        "url": "https://de.wikipedia.org/wiki/Kolibris"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Hummingbirds can hover in place and even fly backwards.",
+        "detail": "Very flexible shoulder and elbow joints make this possible. The wing tips trace a figure of eight on its side."
+      }
+    }
+  },
+  {
+    "id": "f-babyknochen",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Babys haben über 300 Knochen – Erwachsene nur gut 200.",
+    "detail": "Viele Knochen eines Säuglings wachsen mit der Zeit zusammen. Ein Erwachsener hat in der Regel 206 Knochen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Skelett des Menschen",
+        "url": "https://de.wikipedia.org/wiki/Skelett_des_Menschen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Babies have more than 300 bones – adults only just over 200.",
+        "detail": "Many of a baby's bones fuse over time. An adult usually has 206 bones."
+      }
+    }
+  },
+  {
+    "id": "f-gehirn-energie",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Das Gehirn macht etwa 2 % unseres Körpergewichts aus, verbraucht aber rund 20 % der Energie.",
+    "detail": "Mit etwa 20 Watt ist es ein sehr aktives Organ. Bei Neugeborenen beansprucht es sogar rund die Hälfte des Grundumsatzes.",
+    "sources": [
+      {
+        "name": "Wikipedia: Gehirn",
+        "url": "https://de.wikipedia.org/wiki/Gehirn"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T10:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The brain makes up about 2% of our body weight but uses around 20% of its energy.",
+        "detail": "At about 20 watts it is a very busy organ. In newborns it even takes about half of the basic energy use."
+      }
+    }
+  },
+  {
+    "id": "f-fingerabdruck",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Selbst eineiige Zwillinge haben unterschiedliche Fingerabdrücke.",
+    "detail": "Die Hautleisten bilden sich vor der Geburt, während die Finger wachsen – und dabei spielen viele Einflüsse mit. Deshalb gilt jeder Fingerabdruck als einzigartig.",
+    "sources": [
+      {
+        "name": "Wikipedia: Fingerabdruck",
+        "url": "https://de.wikipedia.org/wiki/Fingerabdruck"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T10:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Even identical twins have different fingerprints.",
+        "detail": "The skin ridges form before birth while the fingers grow – and many influences play a part. That is why every fingerprint is considered unique."
+      }
+    }
+  },
+  {
+    "id": "f-zungenkarte",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Die bekannte „Zungenkarte“ mit eigenen Zonen für süß, sauer, salzig und bitter stimmt nicht.",
+    "detail": "Jede Geschmacksrichtung kann auf der ganzen Zunge wahrgenommen werden. Manche Bereiche sind nur etwas empfindlicher für bestimmte Geschmäcker.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Tongue map",
+        "url": "https://en.wikipedia.org/wiki/Tongue_map"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T10:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The well-known \"tongue map\" with separate zones for sweet, sour, salty and bitter is wrong.",
+        "detail": "Every taste can be sensed all over the tongue. Some areas are just a little more sensitive to certain tastes."
+      }
+    }
+  },
+  {
+    "id": "f-herzschlaege",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Ein Herz schlägt in einem langen Leben rund drei Milliarden Mal.",
+    "detail": "Gerechnet mit 70 Schlägen pro Minute über 80 Jahre: 70 × 60 × 24 × 365 × 80 ergibt etwa 2,9 Milliarden.",
+    "sources": [
+      {
+        "name": "Wikipedia: Herz",
+        "url": "https://de.wikipedia.org/wiki/Herz"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T10:10:00Z",
+    "translations": {
+      "en": {
+        "text": "A heart beats about three billion times in a long life.",
+        "detail": "At 70 beats a minute for 80 years: 70 × 60 × 24 × 365 × 80 comes to about 2.9 billion."
+      }
+    }
+  },
+  {
+    "id": "f-venus-tag",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Die Venus braucht für eine Drehung um sich selbst länger als für eine Runde um die Sonne.",
+    "detail": "Eine Umdrehung dauert rund 243 Erdtage, ein Umlauf um die Sonne nur rund 225. Außerdem dreht sie sich andersherum als die meisten Planeten.",
+    "sources": [
+      {
+        "name": "Wikipedia: Venus (Planet)",
+        "url": "https://de.wikipedia.org/wiki/Venus_(Planet)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T10:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Venus takes longer to spin once than to go once round the Sun.",
+        "detail": "One rotation takes about 243 Earth days, one orbit only about 225. It also spins the opposite way to most planets."
+      }
+    }
+  },
+  {
+    "id": "f-mond-entfernt",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Der Mond entfernt sich jedes Jahr um etwa 3,8 Zentimeter von der Erde.",
+    "detail": "Das liegt an den Gezeiten: Sie bremsen die Drehung der Erde, und dieser Schwung geht auf den Mond über. Gemessen wird der Abstand mit Laserstrahlen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Mond",
+        "url": "https://de.wikipedia.org/wiki/Mond"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T09:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The Moon moves about 3.8 centimetres further away from Earth every year.",
+        "detail": "This is due to the tides: they slow Earth's rotation, and that momentum passes to the Moon. The distance is measured with laser beams."
+      }
+    }
+  },
+  {
+    "id": "f-saturn-dichte",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Saturn hat von allen Planeten die geringste Dichte – weniger als Wasser.",
+    "detail": "Im Mittel sind es etwa 0,69 Gramm pro Kubikzentimeter, Wasser hat 1. Er besteht größtenteils aus Wasserstoff.",
+    "sources": [
+      {
+        "name": "Wikipedia: Saturn (Planet)",
+        "url": "https://de.wikipedia.org/wiki/Saturn_(Planet)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T09:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Saturn has the lowest density of all planets – less than water.",
+        "detail": "On average about 0.69 grams per cubic centimetre; water has 1. It consists mostly of hydrogen."
+      }
+    }
+  },
+  {
+    "id": "f-iss",
+    "category_id": "technology",
+    "area": "space",
+    "min_age": 10,
+    "text": "Die Besatzung der ISS erlebt etwa 15 Sonnenaufgänge am Tag.",
+    "detail": "Die Station umrundet die Erde in rund 400 Kilometern Höhe etwa alle 93 Minuten – auf jeder Runde geht einmal die Sonne auf.",
+    "sources": [
+      {
+        "name": "Wikipedia: Internationale Raumstation",
+        "url": "https://de.wikipedia.org/wiki/Internationale_Raumstation"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T09:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The ISS crew sees about 15 sunrises a day.",
+        "detail": "The station circles Earth at about 400 kilometres up roughly every 93 minutes – and the sun rises once on every lap."
+      }
+    }
+  },
+  {
+    "id": "f-olympus-mons",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Der höchste Berg im Sonnensystem steht auf dem Mars.",
+    "detail": "Der Vulkan Olympus Mons ragt über 22 Kilometer über das mittlere Niveau des Mars – etwa zweieinhalbmal so hoch wie der Mount Everest über dem Meer.",
+    "sources": [
+      {
+        "name": "Wikipedia: Olympus Mons",
+        "url": "https://de.wikipedia.org/wiki/Olympus_Mons"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T09:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The highest mountain in the solar system is on Mars.",
+        "detail": "The volcano Olympus Mons rises more than 22 kilometres above Mars's average level – about two and a half times the height of Mount Everest above the sea."
+      }
+    }
+  },
+  {
+    "id": "f-banane-beere",
+    "category_id": "science",
+    "area": "food",
+    "min_age": 10,
+    "text": "Botanisch gesehen ist die Banane eine Beere.",
+    "detail": "Auch Tomaten, Paprika, Kiwis und Zitrusfrüchte zählen dazu. Entscheidend ist der Aufbau der Frucht, nicht der Name im Alltag.",
+    "sources": [
+      {
+        "name": "Wikipedia: Beere",
+        "url": "https://de.wikipedia.org/wiki/Beere"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T09:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Botanically, the banana is a berry.",
+        "detail": "So are tomatoes, peppers, kiwis and citrus fruits. What counts is how the fruit is built, not its everyday name."
+      }
+    }
+  },
+  {
+    "id": "f-paprika",
+    "category_id": "science",
+    "area": "food",
+    "min_age": 10,
+    "text": "Paprika enthält oft mehr als doppelt so viel Vitamin C wie Äpfel oder Orangen.",
+    "detail": "Wie viel genau, hängt von Sorte, Reife und Zubereitung ab. Paprika liefert außerdem die Vitamine A und E.",
+    "sources": [
+      {
+        "name": "Wikipedia: Spanischer Pfeffer",
+        "url": "https://de.wikipedia.org/wiki/Spanischer_Pfeffer"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T09:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Peppers often contain more than twice as much vitamin C as apples or oranges.",
+        "detail": "Exactly how much depends on the variety, ripeness and preparation. Peppers also provide vitamins A and E."
+      }
+    }
+  },
+  {
+    "id": "f-erdnuss",
+    "category_id": "science",
+    "area": "food",
+    "min_age": 10,
+    "text": "Die Erdnuss ist botanisch keine Nuss, sondern eine Hülsenfrucht.",
+    "detail": "Sie gehört zur selben Familie wie Erbsen und Bohnen – den Hülsenfrüchtlern.",
+    "sources": [
+      {
+        "name": "Wikipedia: Erdnuss",
+        "url": "https://de.wikipedia.org/wiki/Erdnuss"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T08:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Botanically, the peanut is not a nut but a legume.",
+        "detail": "It belongs to the same family as peas and beans – the legumes."
+      }
+    }
+  },
+  {
+    "id": "f-schokolade-hund",
+    "category_id": "science",
+    "area": "food",
+    "min_age": 10,
+    "text": "Schokolade kann für Hunde giftig sein.",
+    "detail": "Sie enthält Theobromin. Menschen bauen den Stoff in einigen Stunden ab, Hunde viel langsamer: Bei ihnen dauert es etwa 17 Stunden, bis die Hälfte abgebaut ist.",
+    "sources": [
+      {
+        "name": "Wikipedia: Theobromin",
+        "url": "https://de.wikipedia.org/wiki/Theobromin"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T08:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Chocolate can be poisonous for dogs.",
+        "detail": "It contains theobromine. Humans break it down within a few hours, dogs much more slowly: it takes about 17 hours for half of it to go."
+      }
+    }
+  },
+  {
+    "id": "f-honig",
+    "category_id": "science",
+    "area": "food",
+    "min_age": 10,
+    "text": "Honig hält sich sehr lange, weil sich Mikroben darin kaum vermehren können.",
+    "detail": "Das liegt am hohen Zucker- und geringen Wassergehalt. Ein Mindesthaltbarkeitsdatum muss trotzdem auf das Glas – meist zwei Jahre nach dem Abfüllen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Honig",
+        "url": "https://de.wikipedia.org/wiki/Honig"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T08:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Honey keeps for a very long time because microbes can hardly grow in it.",
+        "detail": "That is due to its high sugar and low water content. A best-before date must still be on the jar – usually two years after filling."
+      }
+    }
+  },
+  {
+    "id": "f-methusalem",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "In Kalifornien wächst eine Kiefer, die rund 4.850 Jahre alt ist.",
+    "detail": "Der Baum mit dem Namen „Methuselah“ steht in den White Mountains; sein Alter wurde an den Jahresringen eines kleinen Bohrkerns abgezählt. Er war schon ein junger Baum, bevor in Ägypten die großen Pyramiden entstanden.",
+    "sources": [
+      {
+        "name": "Wikipedia: Langlebige Kiefer",
+        "url": "https://de.wikipedia.org/wiki/Langlebige_Kiefer"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T08:20:00Z",
+    "translations": {
+      "en": {
+        "text": "A pine in California is about 4,850 years old.",
+        "detail": "The tree called \"Methuselah\" stands in the White Mountains; its age was counted from the rings in a small core sample. It was already a young tree before the great pyramids were built in Egypt."
+      }
+    }
+  },
+  {
+    "id": "f-marianengraben",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Der Marianengraben ist tiefer, als der Mount Everest hoch ist.",
+    "detail": "Seine tiefste Stelle liegt etwa 11.000 Meter unter dem Meeresspiegel – der Everest ragt knapp 8.850 Meter darüber hinaus.",
+    "sources": [
+      {
+        "name": "Wikipedia: Marianengraben",
+        "url": "https://de.wikipedia.org/wiki/Marianengraben"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T08:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The Mariana Trench is deeper than Mount Everest is high.",
+        "detail": "Its deepest point is about 11,000 metres below sea level – Everest rises just under 8,850 metres above it."
+      }
+    }
+  },
+  {
+    "id": "f-kaeltewueste",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Wüsten müssen nicht heiß sein: In der Antarktis liegen einige der trockensten Gebiete der Erde.",
+    "detail": "Für eine Wüste zählt, dass kaum Niederschlag fällt. In den McMurdo-Trockentälern ist der Boden gefroren und die Luft sehr trocken.",
+    "sources": [
+      {
+        "name": "Wikipedia: Wüste",
+        "url": "https://de.wikipedia.org/wiki/Wüste"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T08:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Deserts need not be hot: some of the driest places on Earth are in Antarctica.",
+        "detail": "What makes a desert is that hardly any rain or snow falls. In the McMurdo Dry Valleys the ground is frozen and the air very dry."
+      }
+    }
+  },
+  {
+    "id": "f-qr-code",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Der QR-Code wurde 1994 in Japan erfunden.",
+    "detail": "Entwickelt hat ihn Denso Wave, eine Tochter des Autozulieferers Denso. Dank eingebauter Fehlerkorrektur lässt er sich auch dann noch lesen, wenn ein Teil beschädigt ist.",
+    "sources": [
+      {
+        "name": "Wikipedia: QR-Code",
+        "url": "https://de.wikipedia.org/wiki/QR-Code"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T07:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The QR code was invented in Japan in 1994.",
+        "detail": "It was developed by Denso Wave, part of the car parts maker Denso. Thanks to built-in error correction it can still be read when part of it is damaged."
+      }
+    }
+  },
+  {
+    "id": "f-bug-motte",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "In einem frühen Computer sorgte einmal eine echte Motte für einen Fehler.",
+    "detail": "Laut der Geschichte, die die Computerpionierin Grace Hopper verbreitete, steckte 1945 eine Motte in einem Relais des Rechners Mark II. Sie wurde entfernt und ins Logbuch geklebt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Programmfehler",
+        "url": "https://de.wikipedia.org/wiki/Programmfehler"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T07:40:00Z",
+    "translations": {
+      "en": {
+        "text": "In an early computer, a real moth once caused a fault.",
+        "detail": "According to the story spread by computer pioneer Grace Hopper, in 1945 a moth was stuck in a relay of the Mark II computer. It was removed and taped into the logbook."
+      }
+    }
+  },
+  {
+    "id": "f-oxford",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "In Oxford wurde schon gelehrt, bevor die Azteken ihre Hauptstadt Tenochtitlan gründeten.",
+    "detail": "Die ältesten Hinweise auf Unterricht in Oxford stammen aus der Zeit um 1096. Als Gründungsjahr von Tenochtitlan gilt traditionell 1325.",
+    "sources": [
+      {
+        "name": "Wikipedia: University of Oxford",
+        "url": "https://de.wikipedia.org/wiki/University_of_Oxford"
+      },
+      {
+        "name": "Wikipedia (englisch): Tenochtitlan",
+        "url": "https://en.wikipedia.org/wiki/Tenochtitlan"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T07:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Teaching took place in Oxford before the Aztecs founded their capital Tenochtitlan.",
+        "detail": "The oldest signs of teaching in Oxford date from around 1096. Tenochtitlan's founding is traditionally dated to 1325."
+      }
+    }
+  },
+  {
+    "id": "f-wikinger",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Wikinger trugen keine Helme mit Hörnern.",
+    "detail": "Dieses Bild entstand erst im 19. Jahrhundert und hält sich seitdem in Filmen, Comics und Kostümen.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Horned helmet",
+        "url": "https://en.wikipedia.org/wiki/Horned_helmet"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T07:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Vikings did not wear horned helmets.",
+        "detail": "This picture only emerged in the 19th century and has lived on in films, comics and costumes ever since."
+      }
+    }
+  },
+  {
+    "id": "f-olympia-kunst",
+    "category_id": "culture",
+    "area": "history",
+    "min_age": 10,
+    "text": "Von 1912 bis 1948 gab es bei Olympischen Spielen auch Medaillen für Kunst.",
+    "detail": "Die Idee stammte von Pierre de Coubertin, dem Begründer der modernen Olympischen Spiele. Ausgezeichnet wurden Werke mit Bezug zum Sport.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kunstwettbewerbe bei den Olympischen Spielen",
+        "url": "https://de.wikipedia.org/wiki/Kunstwettbewerbe_bei_den_Olympischen_Spielen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T07:10:00Z",
+    "translations": {
+      "en": {
+        "text": "From 1912 to 1948 the Olympic Games also awarded medals for art.",
+        "detail": "The idea came from Pierre de Coubertin, founder of the modern Olympics. Works related to sport were honoured."
+      }
+    }
+  },
+  {
+    "id": "f-napoleon",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Dass Napoleon besonders klein gewesen sei, geht vor allem auf englische Karikaturen zurück.",
+    "detail": "Die englische Propaganda zeichnete ihn immer wieder als winzigen Mann – 1803 etwa als Figur aus „Gullivers Reisen“. Das Bild hat sich bis heute gehalten.",
+    "sources": [
+      {
+        "name": "Wikipedia: Napoleon Bonaparte",
+        "url": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T07:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The idea that Napoleon was especially short comes mainly from English caricatures.",
+        "detail": "English propaganda kept drawing him as a tiny man – in 1803, for example, as a figure from \"Gulliver's Travels\". The picture has stuck to this day."
+      }
+    }
+  },
+  {
+    "id": "f-papiergeld",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Papiergeld gab es in China schon vor rund 1.000 Jahren.",
+    "detail": "In der Stadt Chengdu wurde es bereits in der frühen Song-Dynastie ausgegeben. Um 1024 diente es als Notgeld, als Münzen knapp geworden waren.",
+    "sources": [
+      {
+        "name": "Wikipedia: Banknote",
+        "url": "https://de.wikipedia.org/wiki/Banknote"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T06:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Paper money existed in China around 1,000 years ago.",
+        "detail": "It was issued in the city of Chengdu as early as the early Song dynasty. Around 1024 it was used as emergency money when coins had become scarce."
+      }
+    }
+  },
+  {
+    "id": "f-muenzen-lydien",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Die ersten Münzen wurden vor rund 2.600 Jahren im Reich der Lyder geprägt.",
+    "detail": "Das Reich lag im Westen der heutigen Türkei. Dort wurden zwischen 650 und 600 v. Chr. die ersten Münzen als Zahlungsmittel herausgegeben.",
+    "sources": [
+      {
+        "name": "Wikipedia: Münze",
+        "url": "https://de.wikipedia.org/wiki/Münze"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T06:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The first coins were made about 2,600 years ago in the kingdom of Lydia.",
+        "detail": "The kingdom lay in the west of today's Turkey. The first coins were issued there as money between 650 and 600 BC."
+      }
+    }
+  },
+  {
+    "id": "f-handy",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "„Handy“ klingt englisch, ist es aber nicht.",
+    "detail": "Im Englischen heißt das Gerät „mobile phone“ oder „cell phone“. „Handy“ ist ein Scheinanglizismus – ein englisch klingendes Wort, das so nur im Deutschen benutzt wird.",
+    "sources": [
+      {
+        "name": "Wikipedia: Scheinanglizismus",
+        "url": "https://de.wikipedia.org/wiki/Scheinanglizismus"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T06:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The German word \"Handy\" sounds English, but it isn't.",
+        "detail": "In English the device is a \"mobile phone\" or \"cell phone\". \"Handy\" is a pseudo-anglicism – an English-sounding word used this way only in German."
+      }
+    }
+  },
+  {
+    "id": "f-eiffelturm",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Der Eiffelturm kann im Sommer mehrere Zentimeter höher sein.",
+    "detail": "Starke Sonne erwärmt den Stahl, und er dehnt sich aus. Der bisherige Spitzenwert liegt bei 18 Zentimetern.",
+    "sources": [
+      {
+        "name": "Wikipedia: Eiffelturm",
+        "url": "https://de.wikipedia.org/wiki/Eiffelturm"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T06:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The Eiffel Tower can be several centimetres taller in summer.",
+        "detail": "Strong sunshine heats the steel and it expands. The record so far is 18 centimetres."
+      }
+    }
+  },
+  {
+    "id": "f-golfball",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Ein Golfball hat 300 bis 450 kleine Dellen – und fliegt damit weiter.",
+    "detail": "Die Dellen, „Dimples“ genannt, verwirbeln die Luft direkt an der Oberfläche. Dadurch sinkt der Luftwiderstand, und der Ball fliegt weiter als ein glatter.",
+    "sources": [
+      {
+        "name": "Wikipedia: Golfball",
+        "url": "https://de.wikipedia.org/wiki/Golfball"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T06:10:00Z",
+    "translations": {
+      "en": {
+        "text": "A golf ball has 300 to 450 little dents – and flies further because of them.",
+        "detail": "The dents, called dimples, stir up the air right at the surface. This lowers air resistance, so the ball flies further than a smooth one."
+      }
+    }
+  },
+  {
+    "id": "f-geburtstag",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Schon bei 23 Menschen ist es wahrscheinlicher als nicht, dass zwei am selben Tag Geburtstag haben.",
+    "detail": "Es geht nicht um einen bestimmten Tag, sondern um irgendein Paar – und 23 Menschen bilden schon 253 mögliche Paare.",
+    "sources": [
+      {
+        "name": "Wikipedia: Geburtstagsparadoxon",
+        "url": "https://de.wikipedia.org/wiki/Geburtstagsparadoxon"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T06:00:00Z",
+    "translations": {
+      "en": {
+        "text": "With just 23 people it is more likely than not that two share a birthday.",
+        "detail": "It is not about one particular day but about any pair – and 23 people already make 253 possible pairs."
+      }
+    }
+  },
+  {
+    "id": "f-papier-mond",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Ein Blatt Papier, 42-mal gefaltet, wäre dicker, als der Mond von der Erde entfernt ist.",
+    "detail": "Jedes Falten verdoppelt die Dicke. Bei 0,1 Millimetern ergeben 42 Verdopplungen rund 440.000 Kilometer – der Mond ist im Mittel etwa 384.400 Kilometer entfernt. In Wirklichkeit lässt sich Papier nur wenige Male falten.",
+    "sources": [
+      {
+        "name": "Wikipedia: Exponentielles Wachstum",
+        "url": "https://de.wikipedia.org/wiki/Exponentielles_Wachstum"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T05:50:00Z",
+    "translations": {
+      "en": {
+        "text": "A sheet of paper folded 42 times would be thicker than the distance to the Moon.",
+        "detail": "Each fold doubles the thickness. At 0.1 millimetres, 42 doublings make about 440,000 kilometres – the Moon is on average about 384,400 kilometres away. In reality paper can only be folded a few times."
+      }
+    }
+  },
+  {
+    "id": "f-kartenspiel",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Ein gut gemischtes Kartenspiel liegt fast sicher in einer Reihenfolge, die es noch nie gab.",
+    "detail": "52 Karten lassen sich auf 52! Arten anordnen – das sind rund 8 · 10⁶⁷ Möglichkeiten, eine Zahl mit 68 Stellen. Alle jemals gemischten Kartenspiele zusammen sind dagegen verschwindend wenige.",
+    "sources": [
+      {
+        "name": "Wikipedia: Fakultät (Mathematik)",
+        "url": "https://de.wikipedia.org/wiki/Fakultät_(Mathematik)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-18T05:40:00Z",
+    "translations": {
+      "en": {
+        "text": "A well-shuffled deck of cards is almost certainly in an order that has never existed before.",
+        "detail": "52 cards can be arranged in 52! ways – about 8 · 10⁶⁷ possibilities, a number with 68 digits. All the decks ever shuffled are vanishingly few by comparison."
+      }
+    }
+  }
+]
