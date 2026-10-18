@@ -1,11 +1,15 @@
 [
   {
-    "id": "a-herz",
-    "category_id": "science",
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": "heart",
     "min_age": 10,
     "difficulty": 2,
-    "language": "de",
-    "renderer": "svg-scene",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-13T12:00:00Z",
+    "id": "a-herz",
+    "category_id": "science",
     "scene": "heart",
     "title": "Wie das Herz Blut pumpt",
     "summary": "Zwei Pumpen in einem Organ: eine für die Lunge, eine für den Körper.",
@@ -16,36 +20,45 @@
       "Rechter Vorhof",
       "Rechte Kammer",
       "Linker Vorhof",
-      "Linke Kammer"
+      "Linke Kammer",
+      "Klappen offen",
+      "Klappen geschlossen",
+      "nimmt Sauerstoff auf",
+      "gibt Sauerstoff ab"
     ],
     "steps": [
       {
-        "text": "Das Herz hat zwei Hälften. Rechts kommt sauerstoffarmes Blut (blau) aus dem Körper an, links sauerstoffreiches (rot) aus der Lunge. Es sammelt sich in den Vorhöfen.",
-        "seconds": 7
-      },
-      {
-        "text": "Die Vorhöfe ziehen sich zusammen. Die Klappen zu den Kammern öffnen sich, das Blut strömt nach unten in die Kammern.",
-        "seconds": 6
-      },
-      {
-        "text": "Jetzt ziehen sich die Kammern zusammen. Die Klappen zu den Vorhöfen schließen – nichts fließt zurück. Die rechte Kammer pumpt zur Lunge, die linke in den Körper.",
-        "seconds": 7
-      },
-      {
-        "text": "In der Lunge nimmt das Blut Sauerstoff auf, im Körper gibt es ihn ab. Dieser Kreislauf wiederholt sich mit jedem Herzschlag – rund 100.000 Mal am Tag.",
+        "text": "Das Herz besteht aus zwei Pumpen mit je einem Vorhof und einer Kammer. Die rechte Hälfte – im Bild links, weil wir von vorn auf den Körper schauen – bekommt sauerstoffarmes Blut (blau) aus dem Körper, die linke sauerstoffreiches (rot) aus der Lunge.",
         "seconds": 9
+      },
+      {
+        "text": "Zuerst ziehen sich die Vorhöfe zusammen. Die Klappen zu den Kammern sind offen, und das Blut strömt nach unten in die Kammern.",
+        "seconds": 7
+      },
+      {
+        "text": "Jetzt ziehen sich die kräftigeren Kammern zusammen. Die Klappen zu den Vorhöfen schließen sich, nichts fließt zurück. Dafür öffnen sich die Klappen an den Ausgängen: Die rechte Kammer pumpt in die Lungenarterie, die linke in die Hauptschlagader (Aorta).",
+        "seconds": 9
+      },
+      {
+        "text": "In der Lunge nimmt das Blut Sauerstoff auf und fließt rot zur linken Herzhälfte zurück. Im Körper gibt es den Sauerstoff ab und kehrt blau zur rechten Hälfte zurück. Das wiederholt sich mit jedem Herzschlag – in Ruhe rund 100.000 Mal am Tag.",
+        "seconds": 10
       }
     ],
     "sources": [
       {
         "name": "Wikipedia: Herz",
         "url": "https://de.wikipedia.org/wiki/Herz"
+      },
+      {
+        "name": "Wikipedia: Herzklappe",
+        "url": "https://de.wikipedia.org/wiki/Herzklappe"
+      },
+      {
+        "name": "Wikipedia: Blutkreislauf",
+        "url": "https://de.wikipedia.org/wiki/Blutkreislauf"
       }
     ],
     "quiz_question_id": "qa-herz",
-    "verification_status": "ai_checked",
-    "status": "published",
-    "created_at": "2026-10-13T12:00:00Z",
     "translations": {
       "en": {
         "title": "How the heart pumps blood",
@@ -57,13 +70,17 @@
           "Right atrium",
           "Right ventricle",
           "Left atrium",
-          "Left ventricle"
+          "Left ventricle",
+          "valves open",
+          "valves closed",
+          "takes up oxygen",
+          "gives off oxygen"
         ],
         "steps": [
-          "The heart has two halves. Oxygen-poor blood (blue) arrives on the right from the body, oxygen-rich blood (red) on the left from the lungs. It collects in the atria.",
-          "The atria contract. The valves to the ventricles open and the blood flows down into the ventricles.",
-          "Now the ventricles contract. The valves to the atria close – nothing flows back. The right ventricle pumps to the lungs, the left one to the body.",
-          "In the lungs the blood takes up oxygen, in the body it gives it off. This cycle repeats with every heartbeat – about 100,000 times a day."
+          "The heart is made of two pumps, each with an atrium and a ventricle. The right half – on the left of the picture, because we are looking at the body from the front – receives oxygen-poor blood (blue) from the body, the left half oxygen-rich blood (red) from the lungs.",
+          "First the atria contract. The valves to the ventricles are open, and the blood flows down into the ventricles.",
+          "Now the stronger ventricles contract. The valves to the atria close, so nothing flows back. Instead the valves at the exits open: the right ventricle pumps into the pulmonary artery, the left one into the main artery (aorta).",
+          "In the lungs the blood takes up oxygen and flows back red to the left half of the heart. In the body it gives off the oxygen and returns blue to the right half. This repeats with every heartbeat – at rest about 100,000 times a day."
         ],
         "predict": {
           "question": "The ventricles are about to contract. What stops the blood from flowing back into the atria?",
@@ -76,8 +93,8 @@
       }
     },
     "timing": {
-      "pace": 0.66,
-      "motion": 1.4
+      "pace": 0.7,
+      "motion": 1
     },
     "predict": {
       "step": 2,

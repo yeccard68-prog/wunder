@@ -125,7 +125,7 @@ export const circuit: SceneFactory = ({ THREE: T, scene }) => {
       });
     },
     camera() {
-      return { pos: [1.6, -2.4, 11.6], look: [0, 0, 0] };
+      return { pos: [2.1, -2.6, 13.2], look: [0.55, 0, 0] }; // room for the second lamp on the right
     },
     labels(step) {
       const parts = [{ at: [0, -Y - 0.75, 0] as Vec3, text: 0, dim: step > 0 }, { at: [-X - 1, 0, 0] as Vec3, text: 1, dim: step > 1 }];

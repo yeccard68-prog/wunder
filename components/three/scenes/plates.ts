@@ -102,7 +102,7 @@ export const plates: SceneFactory = ({ THREE: T, scene }) => {
   });
   const show = (o: { visible: boolean }, v: boolean) => (o.visible = v);
   const side = { pos: [4, 3.6, 14.8] as Vec3, look: [0, -0.95, 0] as Vec3 };
-  const above = { pos: [0, 14.2, 4.4] as Vec3, look: [0, 0, 0.15] as Vec3 };
+  const above = { pos: [2.4, 10.8, 8.6] as Vec3, look: [0, -0.3, 0] as Vec3 }; // from above at an angle: the block stays a block
   let gap = 0;
   let quake = 0;
 

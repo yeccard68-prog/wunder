@@ -73,7 +73,7 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
   const glow = new T.Sprite(new T.SpriteMaterial({ map: halo, blending: T.AdditiveBlending, depthWrite: false, transparent: true }));
   const light = new T.PointLight(0xfff1d6, 0, 0, 0);
   const ball = (r: number, map: InstanceType<typeof T.CanvasTexture>, tilt: number) => {
-    const m = new T.Mesh(new T.SphereGeometry(r, 40, 28), new T.MeshStandardMaterial({ map, roughness: 0.85, metalness: 0 }));
+    const m = new T.Mesh(new T.SphereGeometry(r, 40, 28), new T.MeshStandardMaterial({ map, roughness: 0.85, metalness: 0, emissive: new T.Color(0x1c2c44), emissiveIntensity: 0.9 })); // the night side stays faintly visible
     m.rotation.z = tilt; // the axis the planet spins around is tilted
     return m;
   };
@@ -112,7 +112,13 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
   const outerPath = circle(OUTER);
   const motion = new T.ArrowHelper(new T.Vector3(1, 0, 0), new T.Vector3(), 1, 0xffd24a, 0.32, 0.22);
   const pull = new T.ArrowHelper(new T.Vector3(1, 0, 0), new T.Vector3(), 1, 0xff6b5a, 0.32, 0.22);
-  scene.add(sun, glow, light, planet, inner, outer, ellipse, straight, innerPath, outerPath, motion, pull);
+  // where the planet was a moment ago (fading dots), and where it would go without the sun's pull (dashed)
+  const ghosts = Array.from({ length: 10 }, (_, k) => new T.Mesh(new T.SphereGeometry(0.1, 12, 8), new T.MeshBasicMaterial({ color: 0xcfe2ff, transparent: true, opacity: 0.8 * (1 - k / 10) })));
+  const tangentGeo = new T.BufferGeometry();
+  tangentGeo.setAttribute("position", new T.Float32BufferAttribute(new Float32Array(6), 3));
+  const tangent = new T.Line(tangentGeo, new T.LineDashedMaterial({ color: 0xffd24a, dashSize: 0.18, gapSize: 0.14, transparent: true, opacity: 0.7 }));
+  tangent.frustumCulled = false;
+  scene.add(sun, glow, light, planet, inner, outer, ellipse, straight, innerPath, outerPath, motion, pull, tangent, ...ghosts);
 
   const dir = new T.Vector3();
   let pos: Vec3 = [0, 0, 0];
@@ -140,8 +146,17 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
       outer.scale.setScalar(Math.max(0.001, more));
 
       let velocity: Vec3;
+      const trail = (k: number): Vec3 => {
+        if (step === 0) return [lerp(-3.6, 5.5, Math.max(0, p - k * 0.035)), 0, 2.2];
+        const turns = step === 1 ? p : step === 2 ? 1 + 1.5 * p : 2.5 + 1.25 * p;
+        return onEllipse(Math.PI + turns * 2 * Math.PI - k * 0.16);
+      };
+      ghosts.forEach((g, k) => {
+        g.position.set(...trail(k + 1));
+        g.visible = step <= 2;
+      });
       if (step === 0) {
-        pos = [lerp(-5.5, 5.5, p), 0, 2.2];
+        pos = [lerp(-3.6, 5.5, p), 0, 2.2]; // starts inside the picture
         velocity = [1, 0, 0];
       } else {
         // starts at the far point of the orbit and keeps going from step to step
@@ -164,6 +179,14 @@ export const orbit: SceneFactory = ({ THREE: T, scene }) => {
       pull.position.set(...pos);
       pull.setDirection(dir.set(-pos[0], 0, -pos[2]).normalize());
       pull.setLength(clamp(9 / (d * d), 0.55, 2.2) * appear + 0.001, 0.3, 0.2); // stronger when closer
+      // step 1: the straight line it would follow if the sun let go
+      tangent.visible = step === 1;
+      const along = dir.set(velocity[0], 0, velocity[2]).normalize();
+      const tp = tangentGeo.attributes.position as InstanceType<typeof T.BufferAttribute>;
+      tp.setXYZ(0, pos[0], 0, pos[2]);
+      tp.setXYZ(1, pos[0] + along.x * 3.2, 0, pos[2] + along.z * 3.2);
+      tp.needsUpdate = true;
+      tangent.computeLineDistances();
 
       // Kepler's third law: the period grows with distance^1.5
       const w = (r: number) => (t * 1.9) / Math.pow(r, 1.5);

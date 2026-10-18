@@ -5,13 +5,35 @@ import { rand } from "./types";
 
 type Ctx = CanvasRenderingContext2D;
 
+// Rough continent outlines as [longitude, latitude] – drawn for this app, simplified on purpose.
+const CONTINENTS = [
+  [[-168, 66], [-156, 71], [-130, 70], [-95, 72], [-80, 73], [-62, 60], [-55, 52], [-66, 45], [-75, 35], [-81, 25], [-97, 26], [-105, 20], [-87, 15], [-79, 8], [-83, 10], [-92, 15], [-106, 23], [-115, 30], [-124, 40], [-125, 49], [-135, 58], [-150, 60], [-165, 62]], // North America
+  [[-80, 9], [-72, 12], [-60, 10], [-50, 0], [-35, -6], [-39, -14], [-48, -26], [-58, -38], [-65, -42], [-68, -52], [-75, -50], [-72, -35], [-71, -18], [-81, -5]], // South America
+  [[-10, 36], [-9, 43], [-2, 47], [-5, 48], [0, 50], [8, 54], [10, 58], [5, 62], [15, 69], [28, 71], [40, 67], [60, 69], [80, 73], [100, 77], [115, 73], [140, 72], [160, 70], [180, 68], [180, 62], [163, 60], [158, 52], [143, 59], [135, 54], [140, 48], [130, 42], [127, 35], [122, 40], [118, 38], [122, 30], [120, 24], [110, 20], [108, 12], [104, 9], [100, 13], [98, 8], [103, 1], [98, 16], [94, 20], [90, 22], [80, 15], [77, 8], [73, 18], [70, 22], [62, 25], [57, 25], [48, 30], [52, 24], [56, 26], [59, 22], [55, 17], [44, 12], [43, 15], [35, 28], [33, 31], [36, 36], [27, 37], [26, 40], [23, 38], [20, 40], [15, 38], [12, 44], [8, 44], [3, 43], [-1, 37]], // Eurasia
+  [[-17, 21], [-16, 12], [-8, 4], [5, 5], [9, 4], [10, -2], [13, -12], [12, -18], [15, -27], [18, -34], [25, -34], [33, -27], [35, -20], [40, -15], [40, -5], [44, 2], [51, 11], [43, 12], [38, 18], [33, 28], [30, 31], [20, 32], [10, 37], [-1, 36], [-6, 36], [-10, 30]], // Africa
+  [[114, -22], [122, -18], [130, -12], [137, -12], [142, -11], [146, -19], [153, -26], [150, -37], [141, -38], [135, -35], [129, -32], [117, -35], [114, -28]], // Australia
+  [[-5, 50], [1, 51], [-1, 55], [-3, 58], [-6, 56]], // Great Britain
+  [[44, -25], [47, -25], [50, -15], [49, -12], [44, -17]], // Madagascar
+  [[130, 31], [135, 34], [141, 36], [142, 43], [140, 41], [136, 36]], // Japan
+  [[109, 1], [118, 7], [119, 0], [115, -4], [110, -3]], // Borneo
+  [[95, 5], [106, -6], [104, -5], [98, 1]], // Sumatra
+  [[131, -1], [141, -2], [150, -10], [141, -9], [133, -4]], // New Guinea
+  [[172, -35], [178, -38], [174, -41], [167, -46], [171, -44]], // New Zealand
+];
+const DESERTS = [
+  [[-15, 18], [0, 30], [30, 30], [33, 21], [15, 15], [0, 16]], // Sahara
+  [[38, 28], [48, 29], [56, 22], [52, 16], [44, 15]], // Arabia
+  [[120, -22], [138, -20], [140, -30], [125, -31]], // Australian interior
+];
+const GREENLAND = [[-55, 60], [-42, 60], [-20, 70], [-18, 80], [-40, 83], [-65, 80], [-72, 77], [-55, 70]];
+
 export function painter(T: typeof THREE) {
-  const paint = (draw: (c: Ctx, w: number, h: number) => void) => {
+  const paint = (draw: (c: Ctx, w: number, h: number) => void, width = 256, height = 128) => {
     const canvas = document.createElement("canvas");
-    canvas.width = 256;
-    canvas.height = 128;
+    canvas.width = width;
+    canvas.height = height;
     const c = canvas.getContext("2d");
-    if (c) draw(c, 256, 128);
+    if (c) draw(c, width, height);
     const texture = new T.CanvasTexture(canvas);
     texture.colorSpace = T.SRGBColorSpace;
     return texture;
@@ -28,16 +50,41 @@ export function painter(T: typeof THREE) {
   return {
     paint,
     blobs,
-    /** Blue planet: land, clouds, ice caps. */
+    /** The Earth: simplified continents (own drawing from rough outlines), deserts, ice caps, a few clouds. */
     earth: () => paint((c, w, h) => {
-      c.fillStyle = "#2f6fd0";
+      const at = ([lon, lat]: number[]): [number, number] => [((lon + 180) / 360) * w, ((90 - lat) / 180) * h];
+      const shape = (points: number[][], fill: string) => {
+        c.fillStyle = fill;
+        c.beginPath();
+        points.forEach((p, i) => (i ? c.lineTo(...at(p)) : c.moveTo(...at(p))));
+        c.closePath();
+        c.fill();
+      };
+      const ocean = c.createLinearGradient(0, 0, 0, h);
+      ocean.addColorStop(0, "#1d4f9c");
+      ocean.addColorStop(0.5, "#2a6cc4");
+      ocean.addColorStop(1, "#1d4f9c");
+      c.fillStyle = ocean;
       c.fillRect(0, 0, w, h);
-      blobs(c, w, h, 22, 31, (i) => (i % 2 ? "#4f9a4a" : "#8c8a4e"), 16);
-      blobs(c, w, h, 90, 41, () => "rgba(255,255,255,0.34)", 4.5); // thin scattered clouds
-      c.fillStyle = "#f4f8ff";
-      c.fillRect(0, 0, w, 9);
-      c.fillRect(0, h - 9, w, 9);
-    }),
+      for (const land of CONTINENTS) shape(land, "#4f8f45");
+      for (const sand of DESERTS) shape(sand, "#c8ad6a");
+      // ice: Arctic sea ice, Greenland, Antarctica
+      c.fillStyle = "#eef4fb";
+      c.fillRect(0, 0, w, h * 0.06);
+      shape(GREENLAND, "#eef4fb");
+      c.fillRect(0, h * 0.86, w, h * 0.14);
+      // thin streaks of cloud
+      c.strokeStyle = "rgba(255,255,255,0.32)";
+      c.lineCap = "round";
+      for (let i = 0; i < 46; i++) {
+        c.lineWidth = 2 + 5 * rand(i, 43);
+        const x = rand(i, 41) * w, y = (0.12 + 0.76 * rand(i, 42)) * h;
+        c.beginPath();
+        c.moveTo(x, y);
+        c.quadraticCurveTo(x + 30 * rand(i, 44), y - 8 * rand(i, 45), x + 25 + 50 * rand(i, 46), y + 4 * (rand(i, 47) - 0.5));
+        c.stroke();
+      }
+    }, 1024, 512),
     /** Grey moon with dark plains and small bright craters. */
     moon: () => paint((c, w, h) => {
       c.fillStyle = "#b9b6b0";

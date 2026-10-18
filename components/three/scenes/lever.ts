@@ -86,7 +86,7 @@ export const lever: SceneFactory = ({ THREE: T, scene }) => {
       push.setLength(length, 0.34, 0.26);
     },
     camera(step) {
-      return { pos: [1.6, 4.4, step === 3 ? 12.4 : 13.2], look: [-0.3, 0.75, 0] };
+      return { pos: [1.9, 4.6, step === 3 ? 13.6 : 14.4], look: [0.35, 0.75, 0] }; // both ends of the bar in view
     },
     labels(step, p) {
       const pivotLabel = { at: [pivot, 0.28, 0.9] as Vec3, text: 0, dim: step > 1 };

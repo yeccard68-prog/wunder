@@ -53,7 +53,7 @@ export const seasons: SceneFactory = ({ THREE: T, scene }) => {
       ray.setLength(ORBIT - 1.85, 0.3, 0.2);
     },
     camera(step, _p, _t, s) {
-      const near = (q: Vec3, side: number): { pos: Vec3; look: Vec3 } => ({ pos: [q[0] + side * 0.8, 1.3, q[2] + 4.6], look: [q[0] + side * 0.9, 0, q[2]] });
+      const near = (q: Vec3, side: number): { pos: Vec3; look: Vec3 } => ({ pos: [q[0] + side * 0.45, 1.4, q[2] + 5.6], look: [q[0] + side * 0.45, 0, q[2]] }); // the whole globe stays in the picture
       const wide = { pos: [0, 9, 11.5] as Vec3, look: [0, 0, 0.6] as Vec3 };
       const k = ease(clamp(s / TIMING.camera));
       if (step === 0) return near(pos, 0);

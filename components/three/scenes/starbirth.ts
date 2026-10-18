@@ -31,14 +31,14 @@ export const starbirth: SceneFactory = ({ THREE: T, scene }) => {
     start[i * 3 + 2] = rand(i, 5) * 6.2832;
     disc[i] = 0.55 + 3.6 * Math.pow(rand(i, 6), 0.7);
     pace[i] = 1 / Math.pow(0.35 + disc[i] / 4, 1.5);
-    tint.setHSL(lerp(0.06, 0.6, rand(i, 7) ** 2), 0.45, lerp(0.42, 0.7, rand(i, 8))); // dusty brown to cool blue
+    tint.setHSL(lerp(0.03, 0.62, rand(i, 7) ** 2), 0.6, lerp(0.38, 0.62, rand(i, 8))); // dusty red-brown to cool blue
     colors.set([tint.r, tint.g, tint.b], i * 3);
   }
   const geometry = new T.BufferGeometry();
   const position = new T.Float32BufferAttribute(new Float32Array(N * 3), 3);
   geometry.setAttribute("position", position);
   geometry.setAttribute("color", new T.Float32BufferAttribute(colors, 3));
-  const cloudMat = new T.PointsMaterial({ size: 2.3, sizeAttenuation: false, vertexColors: true, transparent: true, opacity: 0.8, blending: T.AdditiveBlending, depthWrite: false });
+  const cloudMat = new T.PointsMaterial({ size: 1.7, sizeAttenuation: false, vertexColors: true, transparent: true, opacity: 0.6, blending: T.AdditiveBlending, depthWrite: false });
   const cloud = new T.Points(geometry, cloudMat);
   cloud.frustumCulled = false;
 
@@ -46,6 +46,31 @@ export const starbirth: SceneFactory = ({ THREE: T, scene }) => {
   const star = new T.Mesh(new T.SphereGeometry(0.5, 48, 32), starMat);
   const glowMat = new T.SpriteMaterial({ map: surface.halo(), blending: T.AdditiveBlending, depthWrite: false, transparent: true });
   const glow = new T.Sprite(glowMat);
+  // soft glowing patches of gas, so the cloud reads as a nebula and not as snow
+  const soft = surface.paint((c, w, h) => {
+    const g = c.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, w / 2);
+    g.addColorStop(0, "rgba(255,255,255,0.9)");
+    g.addColorStop(0.35, "rgba(255,255,255,0.35)");
+    g.addColorStop(1, "rgba(255,255,255,0)");
+    c.fillStyle = g;
+    c.fillRect(0, 0, w, h);
+  }, 128, 128);
+  const puffColours = [0x8a3326, 0x2c4f96, 0x5b3a84, 0x9a5a2a];
+  const puffs = Array.from({ length: 34 }, (_, i) => {
+    const s = new T.Sprite(new T.SpriteMaterial({ map: soft, color: puffColours[i % 4], transparent: true, opacity: 0.32, blending: T.AdditiveBlending, depthWrite: false }));
+    const r = 4.6 * Math.cbrt(rand(i, 31)), up = Math.acos(2 * rand(i, 32) - 1), a = rand(i, 33) * 6.2832;
+    s.userData = { r: r * Math.sin(up), y: r * Math.cos(up) * 0.8, a, size: 3 + 3.5 * rand(i, 34) };
+    scene.add(s);
+    return s;
+  });
+  // gravity: arrows pointing inwards while the cloud contracts
+  const pulls = Array.from({ length: 8 }, (_, i) => {
+    const a = (i / 8) * 6.2832;
+    const arrow = new T.ArrowHelper(new T.Vector3(-Math.cos(a), 0, -Math.sin(a)), new T.Vector3(), 1.1, 0xffd24a, 0.35, 0.22);
+    arrow.userData.a = a;
+    scene.add(arrow);
+    return arrow;
+  });
   scene.add(cloud, star, glow);
 
   const ember = new T.Color(0x9a2f14);
@@ -74,7 +99,22 @@ export const starbirth: SceneFactory = ({ THREE: T, scene }) => {
         position.setXYZ(i, r * Math.cos(a), y, r * Math.sin(a));
       }
       position.needsUpdate = true;
-      cloudMat.opacity = lerp(0.8, 0.6, flatten);
+      cloudMat.opacity = lerp(0.6, 0.5, flatten);
+      puffs.forEach((s, i) => {
+        const { r, y, a, size } = s.userData as { r: number; y: number; a: number; size: number };
+        const rr = r * lerp(1, lerp(0.45, 0.8, flatten), collapse);
+        const angle = a + spin * 0.35;
+        s.position.set(rr * Math.cos(angle), y * lerp(1, 0.45, collapse) * lerp(1, 0.08, flatten), rr * Math.sin(angle));
+        const sz = size * lerp(1, 0.6, collapse) * lerp(1, 0.7, flatten);
+        s.scale.set(sz, sz * lerp(1, 0.45, flatten), 1);
+        (s.material as InstanceType<typeof T.SpriteMaterial>).opacity = 0.32 * lerp(1, 0.35, flatten) * (1 - 0.6 * ignite) * (0.85 + 0.15 * Math.sin(t * 0.7 + i));
+      });
+      const ring = lerp(5.2, 2.6, collapse);
+      pulls.forEach((arrow) => {
+        const a = arrow.userData.a as number;
+        arrow.visible = step === 1;
+        arrow.position.set(ring * Math.cos(a), 0, ring * Math.sin(a));
+      });
 
       // the protostar: first a dull red glow from the heat of compression, then white-hot when fusion starts
       const grown = step < 2 ? (step === 1 ? 0.25 * ease(clamp(p * 2 - 1)) : 0) : step === 2 ? lerp(0.25, 1, ease(p)) : 1;
@@ -93,8 +133,8 @@ export const starbirth: SceneFactory = ({ THREE: T, scene }) => {
       return { pos: mix(from.pos, views[step].pos, k), look: mix(from.look, views[step].look, k) };
     },
     labels(step, p) {
-      if (step === 0) return [{ at: [0, 4.6, 0], text: 0 }];
-      if (step === 1) return [{ at: [0, 3.4, 0], text: 1, color: "#ffd24a" }];
+      if (step === 0) return [{ at: [0, 3.5, 0], text: 0 }];
+      if (step === 1) return [{ at: [0, 2.5, 0], text: 1, color: "#ffd24a" }];
       if (step === 2) return p > 0.4 ? [{ at: [0, 1.25, 0], text: 2, color: "#ffb37a" }, { at: [2.3, 0.45, 1.6], text: 3 }] : [];
       return p > 0.25 ? [{ at: [0, 1.7, 0], text: 4, color: "#fff2a8" }, { at: [0, -1.5, 0.5], text: 5 }] : [];
     },

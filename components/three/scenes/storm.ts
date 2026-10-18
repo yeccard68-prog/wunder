@@ -36,19 +36,28 @@ export const storm: SceneFactory = ({ THREE: T, scene }) => {
   }
 
   // the cloud: many soft balls, appearing from the base upwards as it grows; an anvil spreads out at the top
-  const cloudMat = new T.MeshStandardMaterial({ color: 0xffffff, roughness: 1, metalness: 0 });
+  // dark at the base, bright at the top – the way a thundercloud looks from below
+  const shadeBase = Array.from({ length: 6 }, (_, k) => new T.Color(0x8a92a2).lerp(new T.Color(0xffffff), Math.pow(k / 5, 0.8)));
+  const shades = shadeBase.map((c) => new T.MeshStandardMaterial({ color: c.clone(), roughness: 1, metalness: 0 }));
   const puffs = Array.from({ length: 64 }, (_, i) => {
     const level = i / 63; // 0 base … 1 top
     const anvil = level > 0.82;
     const spread = anvil ? 3.4 : lerp(2.1, 1.35, level) * (1 + 0.25 * Math.sin(level * 9));
     const a = rand(i, 1) * 6.2832;
     const d = Math.sqrt(rand(i, 2)) * spread;
-    const m = new T.Mesh(new T.SphereGeometry(1, 20, 14), cloudMat);
+    const m = new T.Mesh(new T.SphereGeometry(1, 20, 14), shades[Math.min(5, Math.floor(level * 6))]);
     m.position.set(d * Math.cos(a), lerp(BASE + 0.3, TOPY, level) + (anvil ? 0 : 0.3 * (rand(i, 5) - 0.5)), d * Math.sin(a) * 0.75);
     scene.add(m);
     return { m, level, size: (anvil ? 0.75 : lerp(1.05, 0.8, level)) * (0.8 + 0.4 * rand(i, 6)), flat: anvil ? 0.55 : 1 };
   });
 
+  // rain falling from the base of the mature cloud
+  const rain = Array.from({ length: 30 }, (_, i) => {
+    const m = new T.Mesh(new T.CylinderGeometry(0.012, 0.012, 0.32, 4), new T.MeshBasicMaterial({ color: 0xbfd6f0, transparent: true, opacity: 0.6 }));
+    m.userData = { x: -1.8 + 3.6 * rand(i, 21), z: 1.2 * (rand(i, 22) - 0.5), o: rand(i, 23) };
+    scene.add(m);
+    return m;
+  });
   const dot = (r: number, color: number, opacity = 1) => {
     const m = new T.Mesh(new T.SphereGeometry(r, 10, 8), new T.MeshBasicMaterial({ color, transparent: opacity < 1, opacity }));
     scene.add(m);
@@ -104,7 +113,6 @@ export const storm: SceneFactory = ({ THREE: T, scene }) => {
   flash.position.set(0.4, 1.4, 2.5);
   scene.add(bolt, flash);
 
-  const white = new T.Color(0xffffff);
   const dark = new T.Color(0x5f6a78);
   const views: { pos: Vec3; look: Vec3 }[] = [
     { pos: [1.5, 1.9, 13.5], look: [0, 1.9, 0] },
@@ -124,7 +132,8 @@ export const storm: SceneFactory = ({ THREE: T, scene }) => {
         m.scale.set(Math.max(0.001, size * k * breathe), Math.max(0.001, size * k * flat), Math.max(0.001, size * k));
       });
       // a storm cloud is dense: it turns dark as it fills with ice and water
-      cloudMat.color.copy(white).lerp(dark, step === 0 ? 0 : step === 1 ? 0.45 * ease(p) : step === 2 ? lerp(0.45, 0.75, p) : 0.75);
+      const dense = step === 0 ? 0 : step === 1 ? 0.45 * ease(p) : step === 2 ? lerp(0.45, 0.75, p) : 0.75;
+      shades.forEach((m, k) => m.color.copy(shadeBase[k]).lerp(dark, dense * (1 - 0.55 * (k / 5)))); // the top stays brighter
 
       warm.forEach((m, i) => {
         const u = (t * 0.2 + i / warm.length) % 1;
@@ -156,6 +165,12 @@ export const storm: SceneFactory = ({ THREE: T, scene }) => {
       const beat = (t * 0.62) % 1;
       strike = step === 3 && beat < 0.2 ? (0.55 + 0.45 * Math.sin(beat * 95)) * (1 - beat / 0.2) : 0;
       bolt.visible = strike > 0.08;
+      rain.forEach((m) => {
+        const { x, z, o } = m.userData as { x: number; z: number; o: number };
+        const u = (t * 0.9 + o) % 1;
+        m.visible = step === 3;
+        m.position.set(x, lerp(BASE, 0.1, u), z);
+      });
       flash.intensity = 90 * strike;
     },
     camera(step, _p, _t, s) {

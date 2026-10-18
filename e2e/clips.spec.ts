@@ -91,7 +91,7 @@ test("an explainer animation plays, can be stepped through and ends with its que
   await page.getByRole("button", { name: "Abspielen" }).click();
   await expect(page.getByText("Verstanden?")).toBeVisible({ timeout: 15_000 });
   await expect(page.getByRole("button", { name: "Noch einmal ansehen" })).toBeVisible();
-  const box = (await page.locator("svg[role=img]").boundingBox())!;
+  const box = (await player.locator("> div").first().boundingBox())!; // the heart is 3D since 18.10.2026
   expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
 });
 

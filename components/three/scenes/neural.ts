@@ -100,7 +100,7 @@ export const neural: SceneFactory = ({ THREE: T, scene }) => {
     camera(step, _p, t) {
       const sway = 0.12 * Math.sin(t * 0.25); // a slow drift, so the depth of the net can be seen
       const a = 0.32 + sway;
-      if (step >= 2) return { pos: [2 + 14 * Math.sin(a * 0.6), 2, 14 * Math.cos(a * 0.6)], look: [1.7, -0.1, 0] }; // towards the output
+      if (step >= 2) return { pos: [0.6 + 19 * Math.sin(a * 0.6), 2.4, 19 * Math.cos(a * 0.6)], look: [0.5, -0.1, 0] }; // towards the output, the whole net still in view
       return { pos: [17.5 * Math.sin(a), 2.8, 17.5 * Math.cos(a)], look: [0.1, -0.1, 0] };
     },
     labels(step, p) {

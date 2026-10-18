@@ -99,7 +99,7 @@ export const cell: SceneFactory = ({ THREE: T, scene }) => {
     camera(step, _p, _t, s) {
       const k = ease(clamp(s / TIMING.camera));
       const y = step === 3 ? lerp(1.9, 0.9, k) : 1.9; // down to the liquid for the ions
-      return { pos: [2.8, y + 1.2, 10.4], look: [0, step === 3 ? lerp(0.75, 0.2, k) : 0.75, 0] };
+      return { pos: [2.8, y + 1.2, step === 3 ? lerp(10.4, 13.4, k) : 10.4], look: [0, step === 3 ? lerp(0.75, 0.5, k) : 0.75, 0] }; // step 4: the wires to the lamp stay in view
     },
     labels(step) {
       const poles = [{ at: [-X - 0.75, TOP + 0.35, 0] as Vec3, text: 0, dim: step > 1 }, { at: [X + 0.75, TOP + 0.35, 0] as Vec3, text: 1, dim: step > 1 }];
