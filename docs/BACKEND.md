@@ -414,3 +414,8 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Der Feed wird weiterhin einmal pro Besuch berechnet (Momentaufnahme) – während des Scrollens sortiert sich nichts um. Tests: `tests/seen.test.ts`.
 - **Inhalte:** 6 weitere Fakten (74: kleinster Knochen, Schneekristalle, Lichtjahr, Erdrotation, Diamant und Graphit, Kupfer statt Eisen im Blut).
 - **Eigener Clip** „So lange ist Licht unterwegs“ (`v-licht-reise`, Mond 1,3 s, Sonne 8 min 19 s, Proxima Centauri gut 4 Jahre – berechnet aus Lichtgeschwindigkeit und den Entfernungen). Stand: 26 Animationen, 824 Fragen, 51 veröffentlichte Clips (6 eigene), 74 Fakten.
+
+## 42. Start direkt im Feed, Daily Challenge entfernt (19.10.2026)
+
+- Auf Wunsch des Betreibers öffnet die App sofort den Feed – die frühere erste Seite („Hallo …“, Tagesziel-Ring, Daily Challenge, fällige Wiederholungen) ist weg. Fällige Wiederholungen mischt der Feed selbst ein (Abschnitt 41); die Quiz-Seite bietet weiter „Wiederholen“ und „Freies Üben“.
+- Die Daily Challenge ist aus der Oberfläche entfernt (Quiz-Seite, Sitzungsmodus, Store, Server-Aufruf im Client). Die Datenbankfunktion `complete_daily_challenge` und die Felder in `user_stats` bleiben unangetastet (keine Daten gelöscht); Challenges gegen Freunde nutzen weiter `dailyItems`. Die Abzeichen „Tagesform“ und „Fünf von fünf“ sind ersetzt durch „Staunender Blick“ (10 Fakten mit Wow) und „Dranbleiber im Kino“ (5 Clips zu Ende geschaut).

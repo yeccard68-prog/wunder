@@ -52,7 +52,7 @@ export interface Activity {
 }
 
 export const ACTIVITIES: Activity[] = [
-  { id: "a1", userId: "p5", type: "daily", text: "hat die Daily Challenge mit 5/5 abgeschlossen", hoursAgo: 1 },
+  { id: "a1", userId: "p5", type: "daily", text: "hat eine Übungsrunde mit 7/7 abgeschlossen", hoursAgo: 1 },
   { id: "a2", userId: "p1", type: "like", text: "gefällt eine Karte", itemId: "sf1", hoursAgo: 2 },
   { id: "a3", userId: "p2", type: "like", text: "gefällt eine Karte", itemId: "t6", hoursAgo: 3 },
   { id: "a4", userId: "p3", type: "streak", text: "lernt seit 21 Tagen am Stück", hoursAgo: 5 },
@@ -62,7 +62,7 @@ export const ACTIVITIES: Activity[] = [
   { id: "a8", userId: "p3", type: "like", text: "gefällt eine Karte", itemId: "hf1", hoursAgo: 14 },
   { id: "a9", userId: "p4", type: "badge", text: "hat das Abzeichen „Dranbleiber“ erhalten", hoursAgo: 19 },
   { id: "a10", userId: "p5", type: "like", text: "gefällt eine Karte", itemId: "s8", hoursAgo: 22 },
-  { id: "a11", userId: "p6", type: "daily", text: "hat die Daily Challenge mit 3/5 abgeschlossen", hoursAgo: 26 },
+  { id: "a11", userId: "p6", type: "daily", text: "hat drei Wissenslücken geschlossen", hoursAgo: 26 },
   { id: "a12", userId: "p2", type: "like", text: "gefällt eine Karte", itemId: "tf1", hoursAgo: 30 },
   { id: "a13", userId: "p8", type: "like", text: "gefällt eine Karte", itemId: "hf2", hoursAgo: 33 },
   { id: "a14", userId: "p7", type: "like", text: "gefällt eine Karte", itemId: "t5", hoursAgo: 40 },

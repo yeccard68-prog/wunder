@@ -117,7 +117,7 @@ export interface AuthInfo {
   isGuest: boolean;
 }
 /** A quiz session requested from another screen (home banner, friend profile). */
-export type Launch = { mode: "daily" } | { mode: "review" } | { mode: "challenge"; opponentId: string };
+export type Launch = { mode: "review" } | { mode: "challenge"; opponentId: string };
 
 interface Store {
   status: "loading" | "ready" | "error";
@@ -150,7 +150,6 @@ interface Store {
   addComment: (clipId: string, text: string) => void;
   toggleFollow: (personId: string) => void;
   block: (personId: string) => void;
-  completeDaily: (score: number) => void;
   recordChallenge: (opponentId: string, mine: number, theirs: number) => void;
   update: (patch: Partial<UserState>) => void;
   share: (text: string) => void;
@@ -399,21 +398,6 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     [commit, toast, tr]
   );
 
-  const completeDaily = useCallback(
-    (score: number) => {
-      if (ref.current.dailyChallenge.date === today()) return; // bonus once per day
-      if (MODE === "live") {
-        api
-          .completeDailyChallenge(today())
-          .then((res) => commit((s) => ({ ...s, ...fromStats(res.stats) }), { log: { type: "daily", text: `Daily Challenge: ${res.score}/5` } }))
-          .catch((e) => toast(tr("Bonus nicht gespeichert: {reason}", { reason: tr(message(e)) })));
-        return;
-      }
-      commit((s) => ({ ...s, dailyChallenge: { date: today(), score } }), { addXp: XP.dailyPerCorrect * score + (score === 5 ? XP.dailyPerfect : 0), log: { type: "daily", text: `Daily Challenge: ${score}/5` } });
-    },
-    [commit, toast]
-  );
-
   const recordChallenge = useCallback(
     (opponentId: string, mine: number, theirs: number) => {
       const date = today();
@@ -576,7 +560,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   return (
     <Ctx.Provider
-      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, firstTry, toggle, hide, trackClip, trackView, reactFact, addComment, toggleFollow, block, completeDaily, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset }}
+      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, firstTry, toggle, hide, trackClip, trackView, reactFact, addComment, toggleFollow, block, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset }}
     >
       {children}
     </Ctx.Provider>

@@ -226,10 +226,10 @@ function Tracked({ entry, root, className, children }: { entry: FeedEntry; root:
  * The feed of question cards, clips and animations. More entries are added while scrolling.
  *  - layout "snap": one entry per screen. Every entry settles at the top of the feed area when
  *    scrolling stops (native CSS scroll snapping); an entry taller than the screen can still be
- *    scrolled through. `lead` is shown as the first screen.
+ *    scrolled through.
  *  - layout "list": plain list inside the page (search results, collections).
  */
-export default function Feed({ entries, layout = "list", lead }: { entries: FeedEntry[]; layout?: "snap" | "list"; lead?: ReactNode }) {
+export default function Feed({ entries, layout = "list" }: { entries: FeedEntry[]; layout?: "snap" | "list" }) {
   const { state } = useStore();
   const t = useT();
   const [count, setCount] = useState(PAGE);
@@ -260,7 +260,6 @@ export default function Feed({ entries, layout = "list", lead }: { entries: Feed
   const screen = "flex snap-start snap-always flex-col justify-center px-4 py-2";
   return (
     <div ref={scroller} tabIndex={0} aria-label={t("Dein Feed")} data-testid="snap-feed" className="no-scrollbar h-full snap-y snap-mandatory overflow-y-auto overscroll-contain outline-none">
-      {lead && <section className={`${screen} min-h-full`}>{lead}</section>}
       {visible.slice(0, count).map((e) => (
         // a clip fills the screen exactly; cards are at least one screen tall and centred
         <Tracked key={entryId(e)} entry={e} root={scroller} className={`${screen} ${e.kind === "clip" ? "h-full" : "min-h-full"}`}>

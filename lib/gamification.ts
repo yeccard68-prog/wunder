@@ -85,7 +85,7 @@ export const isDue = (due: string | null | undefined) => !!due && Date.parse(due
 export const dueReviews = (items: Item[], s: UserState) => items.filter((i) => isDue(s.answers[i.id]?.due));
 export const scheduledReviews = (s: UserState) => Object.values(s.answers).filter((a) => a.due).length;
 
-// ---------- daily challenge ----------
+// ---------- hash and challenge questions ----------
 /** FNV-1a with a final mix: a different date reshuffles the order (a plain polynomial hash only shifts it). */
 export function hash(str: string) {
   let h = 2166136261;
@@ -98,7 +98,7 @@ export function hash(str: string) {
   h ^= h >>> 15;
   return h >>> 0;
 }
-/** Same five questions for everyone with the same interests on a given day. */
+/** Same five questions for everyone with the same interests on a given day (used for challenges against friends). */
 export function dailyItems(items: Item[], interests: string[], date = today()): Item[] {
   const pool = items.filter((i) => i.kind === "question" && (!interests.length || interests.includes(i.categoryId)));
   return [...pool].sort((a, b) => hash(a.id + date) - hash(b.id + date)).slice(0, 5);
@@ -132,8 +132,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   { id: "first", name: "Erster Funke", description: "Erste Frage beantwortet", check: (s) => answers(s).length >= 1 },
   { id: "correct10", name: "Schlaukopf", description: "10 Fragen richtig", check: (s) => stats(s).correct >= 10 },
   { id: "answered25", name: "Wissensdurst", description: "25 Fragen beantwortet", check: (s) => answers(s).length >= 25 },
-  { id: "daily", name: "Tagesform", description: "Daily Challenge abgeschlossen", check: (s) => s.dailyChallenge.score !== null },
-  { id: "perfect", name: "Fünf von fünf", description: "Daily Challenge ohne Fehler", check: (s) => s.dailyChallenge.score === 5 },
+  { id: "wow10", name: "Staunender Blick", description: "10 Fakten mit „Wow!“ markiert", check: (s) => (s.facts?.wow.length ?? 0) >= 10 },
+  { id: "clips5", name: "Dranbleiber im Kino", description: "5 Clips bis zum Ende geschaut", check: (s) => Object.values(s.clipStats).filter((c) => c.completed > 0).length >= 5 },
   { id: "comeback", name: "Comeback", description: "Eine Wissenslücke geschlossen", check: (s) => answers(s).some((a) => a.reviews > 0) },
   { id: "streak3", name: "Dranbleiber", description: "3 Tage in Folge gelernt", check: (s) => s.streak.best >= 3 },
   { id: "streak7", name: "Wochenheld", description: "7 Tage in Folge gelernt", check: (s) => s.streak.best >= 7 },

@@ -42,7 +42,7 @@ export default function ExplorePage() {
 
   const collections = [
     { href: "/books/", Icon: BookOpen, title: t("Bücher"), text: t("{n} Sachbücher, {m} Ideen zum Mitnehmen", { n: books.length, m: books.reduce((s, b) => s + b.ideas.length, 0) }) },
-    { href: "/quiz/", Icon: Zap, title: t("Quiz-Runden"), text: t("Daily Challenge, Wiederholung und Üben nach Thema") },
+    { href: "/quiz/", Icon: Zap, title: t("Quiz-Runden"), text: t("Wiederholung und Üben nach Thema und Schwierigkeit") },
     ...(isChild(state.ageBand) ? [] : [
       { href: "/duel/", Icon: Swords, title: t("Duell"), text: t("Gegen Freunde, Zufallsgegner oder den Computer") },
       { href: "/groups/", Icon: Users, title: t("Gruppen"), text: t("Gemeinsame Runden mit Rangliste und Chat") },

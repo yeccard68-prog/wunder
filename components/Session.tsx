@@ -9,7 +9,7 @@ import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
 import { Avatar, Button, Ring } from "./ui";
 
-export type SessionMode = "practice" | "daily" | "review" | "challenge";
+export type SessionMode = "practice" | "review" | "challenge";
 
 interface Props {
   title: string;
@@ -21,7 +21,7 @@ interface Props {
 
 /** One quiz round: question by question, then a shareable result. */
 export default function Session({ title, items, mode, opponent, onExit }: Props) {
-  const { state, completeDaily, recordChallenge, share } = useStore();
+  const { state, recordChallenge, share } = useStore();
   const t = useT();
   const [idx, setIdx] = useState(0);
   const [results, setResults] = useState<boolean[]>([]);
@@ -34,13 +34,12 @@ export default function Session({ title, items, mode, opponent, onExit }: Props)
   useEffect(() => {
     if (!finished || recorded.current) return;
     recorded.current = true;
-    if (mode === "daily") completeDaily(score);
     if (mode === "challenge" && opponent) {
       const t = challengeScore(opponent, items, today());
       setTheirs(t);
       recordChallenge(opponent.id, score, t);
     }
-  }, [finished, mode, opponent, items, score, completeDaily, recordChallenge]);
+  }, [finished, mode, opponent, items, score, recordChallenge]);
 
   if (finished) {
     const gained = state.xp - startXp;

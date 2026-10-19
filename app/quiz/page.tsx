@@ -1,7 +1,7 @@
 ﻿"use client";
 
 import { useEffect, useState } from "react";
-import { ArrowRight, CalendarCheck, Check, RotateCcw } from "lucide-react";
+import { RotateCcw } from "lucide-react";
 import Session, { type SessionMode } from "@/components/Session";
 import { Bar, Button, Chip, Segmented } from "@/components/ui";
 import { CATEGORIES } from "@/lib/categories";
@@ -25,19 +25,15 @@ export default function QuizPage() {
   const [cats, setCats] = useState<string[]>(state.interests);
   const [level, setLevel] = useState<"0" | "1" | "2" | "3">("0");
 
-  const daily = dailyItems(items, state.interests);
-  const dailyDone = state.dailyChallenge.date === today();
   const due = dueReviews(items, state);
   const scheduled = scheduledReviews(state);
 
-  const startDaily = () => setActive({ title: "Daily Challenge", items: daily, mode: "daily" });
   const startReview = () => due.length && setActive({ title: t("Wiederholung"), items: due.slice(0, 10), mode: "review" });
 
-  // Sessions requested from other screens (home banner, friend profile).
+  // Sessions requested from other screens (friend profile).
   useEffect(() => {
     if (!launch) return;
-    if (launch.mode === "daily" && !dailyDone) startDaily();
-    else if (launch.mode === "review") startReview();
+    if (launch.mode === "review") startReview();
     else if (launch.mode === "challenge") {
       const opponent = personById(launch.opponentId);
       if (opponent) setActive({ title: t("Challenge gegen {name}", { name: opponent.name.split(" ")[0] }), items: dailyItems(items, opponent.interests, today() + opponent.id), mode: "challenge", opponent });
@@ -59,27 +55,6 @@ export default function QuizPage() {
   return (
     <div className="space-y-4">
       <h1 className="font-display text-3xl font-semibold tracking-tight">Quiz</h1>
-
-      <section className="card overflow-hidden">
-        <div className="p-5">
-          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-accent">
-            <CalendarCheck size={14} /> {t("Heute")}
-          </p>
-          <h2 className="mt-2 font-display text-2xl font-semibold">Daily Challenge</h2>
-          <p className="mt-1 text-sm text-muted">{t("Fünf Fragen, für alle dieselben. +4 Bonus-XP pro richtiger Antwort, +10 für fünf von fünf.")}</p>
-        </div>
-        <div className="border-t border-line p-4">
-          {dailyDone ? (
-            <p className="flex items-center gap-2 px-1 text-sm font-semibold text-good">
-              <Check size={16} /> {t("Heute erledigt: {a}/5 – morgen gibt es neue Fragen.", { a: state.dailyChallenge.score ?? 0 })}
-            </p>
-          ) : (
-            <Button variant="accent" className="w-full" onClick={startDaily}>
-              {t("Jetzt spielen")} <ArrowRight size={17} />
-            </Button>
-          )}
-        </div>
-      </section>
 
       <button onClick={startReview} disabled={!due.length} className="press card flex w-full items-center gap-4 p-4 text-left disabled:opacity-100">
         <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-raised">

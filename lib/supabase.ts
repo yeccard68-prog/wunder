@@ -166,12 +166,6 @@ export async function submitResponse(questionId: string, response: FormatRespons
   return data as ServerAnswer;
 }
 
-export async function completeDailyChallenge(localDate: string): Promise<{ score: number; bonus_xp: number; stats: ServerStats }> {
-  const { data, error } = await db().rpc("complete_daily_challenge", { p_local_date: localDate });
-  if (error) throw error;
-  return data;
-}
-
 /** Book learning state of this account (null: nothing stored yet). */
 export async function fetchBookState(userId: string): Promise<UserState["books"] | null> {
   const { data, error } = await db().from("book_states").select("data").eq("user_id", userId).maybeSingle();
