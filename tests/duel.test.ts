@@ -102,3 +102,13 @@ test("practice duel: giving up is a loss, and B's choice of topic is never shown
   assert.equal(resigned.result, "loss");
   assert.equal(resigned.forfeit, "me");
 });
+
+test("names: offensive ones are caught, harmless look-alikes pass, and the database uses the same lists", async () => {
+  const { BLOCK_ANYWHERE, BLOCK_WORD, nameAllowed } = await import("../lib/names");
+  for (const bad of ["F u c k", "fuck3r", "Big Dick", "Arsch", "H1tler", "Spasti99"]) assert.equal(nameAllowed(bad), false, bad);
+  for (const ok of ["Alex", "Dickens", "Nazir", "Barsch", "Scharf", "Müller", "Neugierig"]) assert.equal(nameAllowed(ok), true, ok);
+  const sql = fs.readFileSync("supabase/migrations/20261024110000_name_filter.sql", "utf8");
+  const lists = [...sql.matchAll(/array\[([^\]]+)\]/g)].map((m) => m[1].split(",").map((s) => s.trim().replace(/^'|'$/g, "")));
+  assert.deepEqual(lists[0], BLOCK_ANYWHERE);
+  assert.deepEqual(lists[1], BLOCK_WORD);
+});

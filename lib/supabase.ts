@@ -3,7 +3,7 @@
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import type { AnswerKey, FormatResponse } from "./formats";
 import { buildContent, type QuestionRow, type VideoRow } from "./content";
-import type { DuelAnswerResult, DuelSummary, DuelView } from "./duel";
+import type { DuelAnswerResult, DuelQuestion, DuelSummary, DuelView } from "./duel";
 import { linkOrigin } from "./native";
 import type { AgeBand, UserState } from "./types";
 
@@ -221,6 +221,12 @@ export async function answerDuel(id: string, round: number, idx: number, selecte
   if (error) throw error;
   return data as DuelAnswerResult;
 }
+/** Shows the next question of the round; the server notes the moment and counts the 20 seconds from it. */
+export async function openDuelQuestion(id: string, round: number, idx: number, locale: string): Promise<{ question: DuelQuestion; secondsLeft: number }> {
+  const { data, error } = await db().rpc("duel_question", { p_duel: id, p_round: round, p_idx: idx, p_locale: locale });
+  if (error) throw error;
+  return data as { question: DuelQuestion; secondsLeft: number };
+}
 export async function rematchDuel(id: string): Promise<string> {
   const { data, error } = await db().rpc("duel_rematch", { p_duel: id });
   if (error) throw error;
@@ -236,6 +242,19 @@ export async function resignDuel(id: string) {
 }
 export async function reportDuel(id: string, reason: "name" | "cheating" | "other") {
   const { error } = await db().rpc("duel_report", { p_duel: id, p_reason: reason });
+  if (error) throw error;
+}
+
+export interface DuelReport { reported: string; display_name: string | null; reports: number; reasons: string[]; last_at: string }
+/** Editors: players with open reports, most reports first. */
+export async function fetchDuelReports(): Promise<DuelReport[]> {
+  const { data, error } = await db().rpc("admin_duel_reports");
+  if (error) throw error;
+  return (data ?? []) as DuelReport[];
+}
+/** Editors: close a player's reports, resetting the name to "Neugierig" if it was offensive. */
+export async function resolveDuelReports(user: string, resetName: boolean) {
+  const { error } = await db().rpc("admin_resolve_reports", { p_user: user, p_reset: resetName });
   if (error) throw error;
 }
 

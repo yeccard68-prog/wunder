@@ -8,7 +8,7 @@ import { categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import {
   createPractice, duelPool, duelRecord, PER_ROUND, practiceAnswer, practiceBot, practicePick, practiceView, SECONDS_PER_QUESTION,
-  type DuelAnswer, type DuelAnswerResult, type DuelSummary, type DuelView, type PracticeDuel,
+  type DuelAnswer, type DuelAnswerResult, type DuelQuestion, type DuelSummary, type DuelView, type PracticeDuel,
 } from "@/lib/duel";
 import { linkOrigin } from "@/lib/native";
 import { useStore, useT } from "@/lib/store";
@@ -124,7 +124,7 @@ function Board({ view, t }: { view: DuelView; t: T }) {
 }
 
 // ---------- one round: three questions against the clock ----------
-function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: number; onAnswer: (idx: number, selected: number | null) => Promise<DuelAnswerResult>; onDone: () => void | Promise<void>; t: T }) {
+function Round({ view, round, onOpen, onAnswer, onDone, t }: { view: DuelView; round: number; onOpen?: (idx: number) => Promise<{ question: DuelQuestion; secondsLeft: number }>; onAnswer: (idx: number, selected: number | null) => Promise<DuelAnswerResult>; onDone: () => void | Promise<void>; t: T }) {
   const r = view.rounds[round - 1];
   const [idx, setIdx] = useState(r.mine.length);
   const [finishing, setFinishing] = useState(false);
@@ -134,7 +134,29 @@ function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: nu
   const [left, setLeft] = useState(SECONDS_PER_QUESTION);
   const sent = useRef(false);
   const revealRef = useRef<HTMLDivElement>(null);
-  const q = r.questions?.[idx];
+  // online the server hands out one question at a time and keeps the time; the practice duel has them all
+  const [opened, setOpened] = useState<{ idx: number; question: DuelQuestion } | null>(null);
+  const q = opened?.idx === idx ? opened.question : onOpen ? undefined : r.questions?.[idx];
+  useEffect(() => {
+    if (!onOpen) return;
+    let gone = false;
+    onOpen(idx).then(
+      ({ question, secondsLeft }) => {
+        if (gone) return;
+        setLeft(Math.max(0, Math.min(SECONDS_PER_QUESTION, secondsLeft)));
+        setOpened({ idx, question });
+      },
+      () => {
+        // older server without duel_question: the question comes with the duel state
+        const question = r.questions?.[idx];
+        if (!gone && question) setOpened({ idx, question });
+      }
+    );
+    return () => {
+      gone = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [idx]);
 
   const send = useCallback(
     async (selected: number | null) => {
@@ -164,7 +186,7 @@ function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: nu
 
   // the clock: when it runs out, the question counts as not answered
   useEffect(() => {
-    if (result || pending) return;
+    if (result || pending || !q) return;
     const end = Date.now() + left * 1000;
     const timer = window.setInterval(() => {
       const rest = Math.max(0, (end - Date.now()) / 1000);
@@ -176,9 +198,9 @@ function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: nu
     }, 100);
     return () => window.clearInterval(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [idx, result, pending]);
+  }, [idx, result, pending, q?.id]);
 
-  if (!q) return null;
+  if (!q) return <p className="py-16 text-center text-sm text-muted" aria-busy>{t("Lädt")}</p>;
   const next = () => {
     if (idx + 1 >= PER_ROUND) {
       setFinishing(true);
@@ -237,6 +259,7 @@ function Round({ view, round, onAnswer, onDone, t }: { view: DuelView; round: nu
 interface Actions {
   pick: (category: string) => Promise<void>;
   answer: (round: number, idx: number, selected: number | null) => Promise<DuelAnswerResult>;
+  open?: (round: number, idx: number) => Promise<{ question: DuelQuestion; secondsLeft: number }>;
   resign: () => Promise<void>;
   decline?: () => Promise<void>;
   report?: (reason: "name" | "cheating" | "other") => Promise<void>;
@@ -296,11 +319,12 @@ function DuelScreen({ view, actions, onBack, t }: { view: DuelView; actions: Act
       </div>
       <h1 className="font-display text-2xl font-semibold leading-tight" data-testid="duel-headline">{headline}</h1>
 
-      {playing !== null && playingRound?.questions ? (
+      {playing !== null && playingRound ? (
         <Round
           view={view}
           round={playing}
           t={t}
+          onOpen={actions.open ? (idx) => actions.open!(playing, idx) : undefined}
           onAnswer={(idx, selected) => actions.answer(playing, idx, selected)}
           onDone={async () => {
             // keep the round on screen until the new state is in – otherwise the old one flashes up with "play round n"
@@ -523,6 +547,7 @@ export default function DuelPage() {
     return {
       pick: (c) => api.pickDuelTopic(openId, c).then(refresh),
       answer: (round, idx, selected) => api.answerDuel(openId, round, idx, selected, locale),
+      open: (round, idx) => api.openDuelQuestion(openId, round, idx, locale),
       resign: async () => {
         await api.resignDuel(openId);
         if (view.opponent.joined) await refresh();

@@ -13,6 +13,7 @@ import { recallStats } from "@/lib/books";
 import { ACHIEVEMENTS, leagueFor, levelInfo, liveStreak, mastery, retention, stats } from "@/lib/gamification";
 import { OFFERED_AGE_BANDS } from "@/lib/content";
 import { LOCALES } from "@/lib/i18n";
+import { nameAllowed } from "@/lib/names";
 import { useStore, useT } from "@/lib/store";
 import { isAdmin } from "@/lib/supabase";
 import type { Theme } from "@/lib/types";
@@ -27,7 +28,7 @@ function Stat({ label, value }: { label: string; value: string | number }) {
 }
 
 export default function ProfilePage() {
-  const { state, items, clips, update, reset, share } = useStore();
+  const { state, items, clips, update, reset, share, toast } = useStore();
   const t = useT();
   const [sheet, setSheet] = useState<"settings" | "saved" | null>(null);
   const [confirm, setConfirm] = useState(false);
@@ -191,7 +192,16 @@ export default function ProfilePage() {
         <div className="space-y-6 pb-2">
           <div>
             <label htmlFor="uname" className="mb-2 block text-sm font-semibold">{t("Anzeigename")}</label>
-            <input id="uname" defaultValue={state.username} maxLength={20} onBlur={(e) => e.target.value.trim() && update({ username: e.target.value.trim() })} className="h-12 w-full rounded-2xl border border-line bg-surface px-4 outline-none focus:border-ink" />
+            <input id="uname" defaultValue={state.username} maxLength={20} onBlur={(e) => {
+              const v = e.target.value.trim();
+              if (!v) return;
+              if (!nameAllowed(v)) {
+                toast(t("Dieser Name ist nicht erlaubt – andere sehen ihn im Duell."));
+                e.target.value = state.username;
+                return;
+              }
+              update({ username: v });
+            }} className="h-12 w-full rounded-2xl border border-line bg-surface px-4 outline-none focus:border-ink" />
           </div>
           <div>
             <p className="mb-2 text-sm font-semibold">{t("Interessen")}</p>

@@ -7,6 +7,7 @@ import { BRAND } from "@/lib/brand";
 import { OFFERED_AGE_BANDS, ageAllowed } from "@/lib/content";
 import { goalQuestions } from "@/lib/gamification";
 import { LOCALES } from "@/lib/i18n";
+import { nameAllowed } from "@/lib/names";
 import { useStore, useT } from "@/lib/store";
 import type { AgeBand, Motivation } from "@/lib/types";
 import Account from "./Account";
@@ -77,7 +78,8 @@ export default function Onboarding() {
     update({ ageBand: band }); // content is filtered from the next step on
   };
   const finish = () => update({ onboarded: true, interests, goalMinutes: goal, motivation, ageBand: age, username: name.trim() || t("Neugierig") });
-  const canNext = step === 1 ? !!age : step === 2 ? interests.length > 0 : step === 5 ? answered || !sample : true;
+  const badName = !!name.trim() && !nameAllowed(name);
+  const canNext = step === 1 ? !!age : step === 2 ? interests.length > 0 : step === 5 ? answered || !sample : step === 6 ? !badName : true;
 
   if (step === 0)
     return (
@@ -241,7 +243,8 @@ export default function Onboarding() {
             <label className="mb-2 block text-sm font-semibold" htmlFor="name">
               {t("Anzeigename")}
             </label>
-            <input id="name" value={name} onChange={(e) => setName(e.target.value)} maxLength={20} placeholder={t("z. B. Alex")} className="mb-8 h-14 w-full rounded-2xl border border-line bg-surface px-4 text-lg outline-none focus:border-ink" />
+            <input id="name" value={name} onChange={(e) => setName(e.target.value)} maxLength={20} placeholder={t("z. B. Alex")} aria-invalid={badName} className={`h-14 w-full rounded-2xl border bg-surface px-4 text-lg outline-none focus:border-ink ${badName ? "border-bad" : "border-line"}`} />
+            <p className={`mb-8 mt-1.5 text-sm ${badName ? "text-bad" : "text-muted"}`} role={badName ? "alert" : undefined}>{badName ? t("Dieser Name ist nicht erlaubt – andere sehen ihn im Duell.") : t("Andere sehen ihn im Duell, wenn dein Profil nicht privat ist.")}</p>
             <p className="mb-2 text-sm font-semibold">{t("Fortschritt sichern (optional)")}</p>
             <Account allowSignIn={false} />
           </>
