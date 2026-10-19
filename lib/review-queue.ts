@@ -106,7 +106,12 @@ export function bundleEntries(locale: string, reviews: Map<string, ContentReview
     ...visualRows.filter((v) => v.status === "published").map((v) => make("visual", v, v.category_id, v.translations[locale]?.title ?? v.title, `/lab/?v=${v.id}`, visualBlocks(v, locale, t))),
     ...factRows.filter((f) => f.status === "published").map((f) => {
       const tr = f.translations[locale] ?? f;
-      return make("fact", f, f.category_id, tr.text, "/facts/", [{ label: t(AREAS[f.area]), text: tr.detail }]);
+      const en = f.translations.en;
+      // both languages: the reviewer checks the statement and its explanation in each
+      return make("fact", f, f.category_id, tr.text, "/facts/", [
+        { label: t(AREAS[f.area]), text: f.text }, { label: t("Erklärung"), text: f.detail },
+        { label: "English", text: en?.text ?? "–" }, { label: "English", text: en?.detail ?? "–" },
+      ]);
     }),
   ];
 }
