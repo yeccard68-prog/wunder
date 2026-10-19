@@ -107,8 +107,11 @@ test("names: offensive ones are caught, harmless look-alikes pass, and the datab
   const { BLOCK_ANYWHERE, BLOCK_WORD, nameAllowed } = await import("../lib/names");
   for (const bad of ["F u c k", "fuck3r", "Big Dick", "Arsch", "H1tler", "Spasti99"]) assert.equal(nameAllowed(bad), false, bad);
   for (const ok of ["Alex", "Dickens", "Nazir", "Barsch", "Scharf", "Müller", "Neugierig"]) assert.equal(nameAllowed(ok), true, ok);
-  const sql = fs.readFileSync("supabase/migrations/20261024110000_name_filter.sql", "utf8");
-  const lists = [...sql.matchAll(/array\[([^\]]+)\]/g)].map((m) => m[1].split(",").map((s) => s.trim().replace(/^'|'$/g, "")));
-  assert.deepEqual(lists[0], BLOCK_ANYWHERE);
-  assert.deepEqual(lists[1], BLOCK_WORD);
+  // the lists live in three places in the database: name check, the inlined name trigger, and the chat filter
+  for (const file of ["20261024110000_name_filter.sql", "20261025130000_name_filter_trigger_fix.sql", "20261025120000_chat.sql"]) {
+    const sql = fs.readFileSync(`supabase/migrations/${file}`, "utf8");
+    const lists = [...sql.matchAll(/array\[('[^\]]+)\]/g)].map((m) => m[1].split(",").map((s) => s.trim().replace(/^'|'$/g, "")));
+    assert.deepEqual(lists[0], BLOCK_ANYWHERE, file);
+    assert.deepEqual(lists[1], BLOCK_WORD, file);
+  }
 });
