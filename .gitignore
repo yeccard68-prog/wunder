@@ -54,3 +54,4 @@ playwright-report/
 # Remotion clips (video/): dependencies and render output stay local
 /video/node_modules/
 /video/out/
+*.tmp.mjs
