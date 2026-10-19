@@ -3,7 +3,9 @@
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import type { AnswerKey, FormatResponse } from "./formats";
 import { buildContent, type QuestionRow, type VideoRow } from "./content";
-import type { DuelAnswerResult, DuelQuestion, DuelSummary, DuelView } from "./duel";
+import type { ChatList, ChatMessage, ChatReason, ChatPlace } from "./chat";
+import type { BotLevel, DuelAnswerResult, DuelQuestion, DuelSummary, DuelView } from "./duel";
+import type { GroupState, GroupSummary } from "./groups";
 import { linkOrigin } from "./native";
 import type { AgeBand, UserState } from "./types";
 
@@ -205,6 +207,12 @@ export async function createDuel(kind: "invite" | "random"): Promise<{ id: strin
   if (error) throw error;
   return data;
 }
+/** A duel against the computer: it plays its turns on the server right after yours. */
+export async function createBotDuel(level: BotLevel): Promise<{ id: string; code: string; joined: boolean }> {
+  const { data, error } = await db().rpc("duel_create_bot", { p_level: level });
+  if (error) throw error;
+  return data;
+}
 export async function joinDuel(code: string): Promise<string> {
   const { data, error } = await db().rpc("duel_join", { p_code: code });
   if (error) throw error;
@@ -264,6 +272,80 @@ export async function fetchDuelReports(): Promise<DuelReport[]> {
 /** Editors: close a player's reports, resetting the name to "Neugierig" if it was offensive. */
 export async function resolveDuelReports(user: string, resetName: boolean) {
   const { error } = await db().rpc("admin_resolve_reports", { p_user: user, p_reset: resetName });
+  if (error) throw error;
+}
+
+// ---------- groups: members, group rounds with a ranking (rules in the database) ----------
+export async function fetchMyGroups(): Promise<GroupSummary[]> {
+  const { data, error } = await db().rpc("my_groups");
+  if (error) throw error;
+  return (data ?? []) as GroupSummary[];
+}
+export async function createGroup(name: string): Promise<{ id: string; code: string }> {
+  const { data, error } = await db().rpc("group_create", { p_name: name });
+  if (error) throw error;
+  return data;
+}
+export async function joinGroup(code: string): Promise<string> {
+  const { data, error } = await db().rpc("group_join", { p_code: code });
+  if (error) throw error;
+  return data as string;
+}
+export async function fetchGroup(id: string): Promise<GroupState> {
+  const { data, error } = await db().rpc("group_state", { p_group: id });
+  if (error) throw error;
+  return data as GroupState;
+}
+export async function leaveGroup(id: string) {
+  const { error } = await db().rpc("group_leave", { p_group: id });
+  if (error) throw error;
+}
+export async function removeGroupMember(id: string, user: string) {
+  const { error } = await db().rpc("group_remove_member", { p_group: id, p_user: user });
+  if (error) throw error;
+}
+export async function startGroupRound(id: string, category?: string): Promise<string> {
+  const { data, error } = await db().rpc("group_round_start", { p_group: id, p_category: category ?? null });
+  if (error) throw error;
+  return data as string;
+}
+export async function openGroupQuestion(round: string, idx: number, locale: string): Promise<{ question: DuelQuestion; secondsLeft: number }> {
+  const { data, error } = await db().rpc("group_round_question", { p_round: round, p_idx: idx, p_locale: locale });
+  if (error) throw error;
+  return data as { question: DuelQuestion; secondsLeft: number };
+}
+export async function answerGroupQuestion(round: string, idx: number, selected: number | null, locale: string): Promise<DuelAnswerResult> {
+  const { data, error } = await db().rpc("group_round_answer", { p_round: round, p_idx: idx, p_selected: selected, p_locale: locale });
+  if (error) throw error;
+  return data as DuelAnswerResult;
+}
+
+// ---------- chat in duels and groups (16+, filter, rate limit and reports in the database) ----------
+const placeArgs = (p: ChatPlace) => ({ p_duel: p.duel ?? null, p_group: p.group ?? null });
+export async function fetchChat(place: ChatPlace, after = 0): Promise<ChatList> {
+  const { data, error } = await db().rpc("chat_list", { ...placeArgs(place), p_after: after });
+  if (error) throw error;
+  return data as ChatList;
+}
+export async function sendChat(place: ChatPlace, body: string): Promise<ChatMessage> {
+  const { data, error } = await db().rpc("chat_send", { ...placeArgs(place), p_body: body });
+  if (error) throw error;
+  return data as ChatMessage;
+}
+export async function reportChat(message: number, reason: ChatReason, block: boolean) {
+  const { error } = await db().rpc("chat_report", { p_message: message, p_reason: reason, p_block: block });
+  if (error) throw error;
+}
+export interface ChatReport { message_id: number; body: string; author: string; display_name: string | null; reports: number; reasons: string[]; hidden: boolean; last_at: string }
+/** Editors: reported chat messages, most reports first. */
+export async function fetchChatReports(): Promise<ChatReport[]> {
+  const { data, error } = await db().rpc("admin_chat_reports");
+  if (error) throw error;
+  return (data ?? []) as ChatReport[];
+}
+/** Editors: delete the message or show it again; its reports close. */
+export async function resolveChatReport(message: number, remove: boolean) {
+  const { error } = await db().rpc("admin_resolve_chat", { p_message: message, p_remove: remove });
   if (error) throw error;
 }
 

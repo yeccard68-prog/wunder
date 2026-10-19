@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Check, ExternalLink, Flag, MessageSquareWarning, ShieldCheck, Undo2 } from "lucide-react";
 import { Bar, Button, Chip, Empty, Segmented, Skeleton } from "@/components/ui";
+import ChatReports from "@/components/admin/ChatReports";
 import DuelReports from "@/components/admin/DuelReports";
 import { categoryById } from "@/lib/categories";
 import { bundleEntries, databaseEntries, type ReviewEntry } from "@/lib/review-queue";
@@ -220,6 +221,7 @@ export default function AdminPage() {
         <Button variant="secondary" className="w-full" onClick={() => setCount((c) => c + PAGE)}>{t("Weitere {n} zeigen", { n: Math.min(PAGE, shown.length - count) })} · {shown.length - count}</Button>
       )}
       <DuelReports />
+      <ChatReports />
     </div>
   );
 }

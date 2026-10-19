@@ -1,21 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, Bot, Check, Clock, Flag, Link2, RotateCcw, Shuffle, Swords, Trophy, X } from "lucide-react";
-import { Avatar, Bar, Button, Empty, Sheet } from "@/components/ui";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { ArrowLeft, Bot, Check, Clock, Cpu, Flag, Link2, RotateCcw, Shuffle, Swords, Trophy, Users, X } from "lucide-react";
+import { Chat } from "@/components/Chat";
+import { QuestionRound } from "@/components/QuestionRound";
+import { Avatar, Button, Empty, Sheet } from "@/components/ui";
 import { categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import {
   createPractice, duelPool, duelRecord, PER_ROUND, practiceAnswer, practiceBot, practicePick, practiceView, SECONDS_PER_QUESTION,
-  type DuelAnswer, type DuelAnswerResult, type DuelQuestion, type DuelSummary, type DuelView, type PracticeDuel,
+  type BotLevel, type DuelAnswer, type DuelAnswerResult, type DuelQuestion, type DuelSummary, type DuelView, type PracticeDuel,
 } from "@/lib/duel";
 import { linkOrigin } from "@/lib/native";
 import { useStore, useT } from "@/lib/store";
 import * as api from "@/lib/supabase";
 
 type T = ReturnType<typeof useT>;
-const LETTERS = ["A", "B", "C", "D"];
 const PRACTICE_KEY = "wunder.duel.practice.v1";
 const POLL_MS = 10_000;
 
@@ -54,8 +55,12 @@ const colorFor = (name: string | null) => {
   return `hsl(${h} 45% 48%)`;
 };
 
-function opponentName(d: Pick<DuelView, "kind" | "opponent">, t: T) {
+const levelName = (level: BotLevel | null | undefined, t: T) => ({ 1: t("leicht"), 2: t("mittel"), 3: t("schwer") })[level ?? 2];
+const isComputer = (d: Pick<DuelView, "kind">) => d.kind === "practice" || d.kind === "bot";
+
+function opponentName(d: Pick<DuelView, "kind" | "opponent" | "level">, t: T) {
   if (d.kind === "practice") return t("Übungsgegner");
+  if (d.kind === "bot") return t("Computer ({level})", { level: levelName(d.level, t) });
   if (d.opponent.name) return d.opponent.name;
   if (!d.opponent.joined) return d.kind === "invite" ? t("Einladung offen") : t("Gegner wird gesucht");
   return t("Gegner");
@@ -101,7 +106,7 @@ function Board({ view, t }: { view: DuelView; t: T }) {
         </span>
         <span className="flex min-w-0 items-center justify-end gap-2">
           <span className="truncate text-right font-semibold">{name}</span>
-          {view.kind === "practice" ? (
+          {isComputer(view) ? (
             <span className="flex h-[34px] w-[34px] shrink-0 items-center justify-center rounded-full bg-raised"><Bot size={18} /></span>
           ) : (
             <Avatar name={view.opponent.name ?? "?"} color={colorFor(view.opponent.name)} size={34} />
@@ -119,138 +124,6 @@ function Board({ view, t }: { view: DuelView; t: T }) {
           </li>
         ))}
       </ol>
-    </section>
-  );
-}
-
-// ---------- one round: three questions against the clock ----------
-function Round({ view, round, onOpen, onAnswer, onDone, t }: { view: DuelView; round: number; onOpen?: (idx: number) => Promise<{ question: DuelQuestion; secondsLeft: number }>; onAnswer: (idx: number, selected: number | null) => Promise<DuelAnswerResult>; onDone: () => void | Promise<void>; t: T }) {
-  const r = view.rounds[round - 1];
-  const [idx, setIdx] = useState(r.mine.length);
-  const [finishing, setFinishing] = useState(false);
-  const [picked, setPicked] = useState<number | null>(null);
-  const [result, setResult] = useState<DuelAnswerResult | null>(null);
-  const [pending, setPending] = useState(false);
-  const [left, setLeft] = useState(SECONDS_PER_QUESTION);
-  const sent = useRef(false);
-  const revealRef = useRef<HTMLDivElement>(null);
-  // online the server hands out one question at a time and keeps the time; the practice duel has them all
-  const [opened, setOpened] = useState<{ idx: number; question: DuelQuestion } | null>(null);
-  const q = opened?.idx === idx ? opened.question : onOpen ? undefined : r.questions?.[idx];
-  useEffect(() => {
-    if (!onOpen) return;
-    let gone = false;
-    onOpen(idx).then(
-      ({ question, secondsLeft }) => {
-        if (gone) return;
-        setLeft(Math.max(0, Math.min(SECONDS_PER_QUESTION, secondsLeft)));
-        setOpened({ idx, question });
-      },
-      () => {
-        // older server without duel_question: the question comes with the duel state
-        const question = r.questions?.[idx];
-        if (!gone && question) setOpened({ idx, question });
-      }
-    );
-    return () => {
-      gone = true;
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [idx]);
-
-  const send = useCallback(
-    async (selected: number | null) => {
-      if (sent.current) return;
-      sent.current = true;
-      setPicked(selected);
-      setPending(true);
-      try {
-        setResult(await onAnswer(idx, selected));
-      } catch {
-        sent.current = false; // let them try again
-        setPicked(null);
-      } finally {
-        setPending(false);
-      }
-    },
-    [idx, onAnswer]
-  );
-  // on a phone the explanation and the next button sit below the options
-  useEffect(() => {
-    if (result) revealRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
-  }, [result]);
-  const sendRef = useRef(send);
-  useEffect(() => {
-    sendRef.current = send;
-  }, [send]);
-
-  // the clock: when it runs out, the question counts as not answered
-  useEffect(() => {
-    if (result || pending || !q) return;
-    const end = Date.now() + left * 1000;
-    const timer = window.setInterval(() => {
-      const rest = Math.max(0, (end - Date.now()) / 1000);
-      setLeft(rest);
-      if (rest === 0) {
-        window.clearInterval(timer);
-        void sendRef.current(null);
-      }
-    }, 100);
-    return () => window.clearInterval(timer);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [idx, result, pending, q?.id]);
-
-  if (!q) return <p className="py-16 text-center text-sm text-muted" aria-busy>{t("Lädt")}</p>;
-  const next = () => {
-    if (idx + 1 >= PER_ROUND) {
-      setFinishing(true);
-      return void onDone();
-    }
-    sent.current = false;
-    setIdx(idx + 1);
-    setPicked(null);
-    setResult(null);
-    setLeft(SECONDS_PER_QUESTION);
-  };
-  const style = (i: number) => {
-    if (!result) return pending ? (i === picked ? "border-ink/50 bg-raised animate-pulse" : "border-line opacity-50") : "border-line bg-surface hover:border-ink/30";
-    if (i === result.correctIndex) return "border-good bg-good/10";
-    if (i === picked) return "border-bad bg-bad/10 shake";
-    return "border-line opacity-50";
-  };
-  const cat = r.category ? categoryById(r.category) : null;
-
-  return (
-    <section className="card p-5" data-testid="duel-question">
-      <div className="mb-3 flex items-center justify-between text-xs font-semibold">
-        <span className="uppercase tracking-wider" style={{ color: cat?.color }}>{cat ? t(cat.name) : ""}</span>
-        <span className="tnum text-muted">{t("Frage {n} von {m}", { n: idx + 1, m: PER_ROUND })}</span>
-      </div>
-      <div className="mb-4 flex items-center gap-2" aria-label={t("Noch {n} Sekunden", { n: Math.ceil(left) })}>
-        <Clock size={14} className={left < 5 && !result ? "text-bad" : "text-muted"} />
-        <div className="flex-1"><Bar value={left / SECONDS_PER_QUESTION} color={left < 5 ? "var(--bad)" : "var(--accent)"} /></div>
-        <span className="tnum w-6 text-right text-xs font-semibold text-muted">{Math.ceil(left)}</span>
-      </div>
-      <h2 className="font-display text-[1.35rem] font-semibold leading-[1.2] tracking-tight text-balance">{q.question}</h2>
-      <div className="mt-5 space-y-2.5">
-        {q.options.map((opt, i) => (
-          <button key={i} onClick={() => send(i)} disabled={!!result || pending} className={`press flex min-h-[3.25rem] w-full items-center gap-3 rounded-2xl border px-3.5 py-2.5 text-left text-[15px] font-medium ${style(i)}`}>
-            <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${result && i === result.correctIndex ? "bg-good text-white" : result && i === picked ? "bg-bad text-white" : "bg-raised text-muted"}`}>
-              {result && i === result.correctIndex ? <Check size={14} /> : result && i === picked ? <X size={14} /> : LETTERS[i]}
-            </span>
-            {opt}
-          </button>
-        ))}
-      </div>
-      {result && (
-        <div ref={revealRef} className="rise mt-4 scroll-mb-24 rounded-2xl bg-raised p-4" aria-live="polite">
-          <p className={`text-sm font-bold ${result.correct ? "text-good" : "text-bad"}`}>{result.correct ? t("Richtig!") : picked === null || result.late ? t("Zeit abgelaufen") : t("Leider falsch")}</p>
-          <p className="mt-1 text-[15px] leading-relaxed">{result.explanation}</p>
-          <Button className="mt-4 w-full" onClick={next} disabled={finishing}>
-            {idx + 1 >= PER_ROUND ? t("Runde beenden") : t("Nächste Frage")}
-          </Button>
-        </div>
-      )}
     </section>
   );
 }
@@ -280,7 +153,7 @@ function DuelScreen({ view, actions, onBack, t }: { view: DuelView; actions: Act
 
   // waiting for the other player: look again every few seconds
   useEffect(() => {
-    if (closed || next.mine || playing !== null || view.kind === "practice") return;
+    if (closed || next.mine || playing !== null || isComputer(view)) return;
     const timer = window.setInterval(() => document.visibilityState === "visible" && void actions.refresh(), POLL_MS);
     return () => window.clearInterval(timer);
   }, [closed, next.mine, playing, view.kind, actions]);
@@ -320,9 +193,11 @@ function DuelScreen({ view, actions, onBack, t }: { view: DuelView; actions: Act
       <h1 className="font-display text-2xl font-semibold leading-tight" data-testid="duel-headline">{headline}</h1>
 
       {playing !== null && playingRound ? (
-        <Round
-          view={view}
-          round={playing}
+        <QuestionRound
+          category={playingRound.category}
+          questions={playingRound.questions}
+          start={playingRound.mine.length}
+          count={PER_ROUND}
           t={t}
           onOpen={actions.open ? (idx) => actions.open!(playing, idx) : undefined}
           onAnswer={(idx, selected) => actions.answer(playing, idx, selected)}
@@ -367,7 +242,7 @@ function DuelScreen({ view, actions, onBack, t }: { view: DuelView; actions: Act
               </Button>
             </section>
           )}
-          {!closed && !next.mine && next.action !== "join" && view.kind !== "practice" && (
+          {!closed && !next.mine && next.action !== "join" && !isComputer(view) && (
             <p className="flex items-center justify-center gap-2 text-sm text-muted"><Clock size={15} /> {t("Wir schauen regelmäßig nach – du kannst die Seite auch verlassen.")}</p>
           )}
           {!closed && next.action === "join" && view.kind === "random" && (
@@ -384,6 +259,8 @@ function DuelScreen({ view, actions, onBack, t }: { view: DuelView; actions: Act
               <Button variant="secondary" className="w-full" onClick={onBack}>{t("Zur Übersicht")}</Button>
             </div>
           )}
+          {(view.kind === "invite" || view.kind === "random") && view.opponent.joined && <Chat place={{ duel: view.id }} />}
+
           {closed && actions.report && view.opponent.joined && (
             <button onClick={() => setMenu(true)} className="press mx-auto flex h-10 items-center gap-2 px-3 text-sm text-muted">
               <Flag size={14} /> {t("Gegner melden")}
@@ -557,17 +434,19 @@ export default function DuelPage() {
         await api.declineDuel(openId);
         await refresh();
       },
-      report: (reason) => api.reportDuel(openId, reason),
+      report: view.kind === "bot" ? undefined : (reason) => api.reportDuel(openId, reason),
       rematch: async () => open(await api.rematchDuel(openId)),
       refresh,
     };
     // `current` must follow the stored duel, so the actions are rebuilt whenever it changes
   }, [practiceDuel, openId, view, pool, locale, storePractice, refresh, open, close]);
 
-  const start = async (kind: "invite" | "random") => {
+  const [levels, setLevels] = useState(false);
+  const start = async (kind: "invite" | "random" | BotLevel) => {
     setBusy(true);
+    setLevels(false);
     try {
-      const r = await api.createDuel(kind);
+      const r = typeof kind === "number" ? await api.createBotDuel(kind) : await api.createDuel(kind);
       if (kind === "random") toast(r.joined ? t("Gegner gefunden!") : t("Du spielst schon mal vor – dein Gegner folgt."));
       await open(r.id);
     } catch (e) {
@@ -607,7 +486,7 @@ export default function DuelPage() {
   const Row = ({ d }: { d: DuelSummary }) => (
     <li>
       <button onClick={() => open(d.id)} className="press flex w-full items-center gap-3 py-3 text-left">
-        {d.kind === "practice" ? (
+        {isComputer(d) ? (
           <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-raised"><Bot size={18} /></span>
         ) : (
           <Avatar name={d.opponent.name ?? "?"} color={colorFor(d.opponent.name)} />
@@ -657,6 +536,25 @@ export default function DuelPage() {
               <Shuffle size={18} /> {t("Zufälliger Gegner")}
             </Button>
           </div>
+          <div className="grid grid-cols-2 gap-2.5">
+            <Button variant="secondary" className="h-auto min-h-12 flex-col gap-1 py-3" disabled={busy} onClick={() => setLevels(true)}>
+              <Cpu size={18} /> {t("Gegen den Computer")}
+            </Button>
+            <Link href="/groups/" className="press flex min-h-12 flex-col items-center justify-center gap-1 rounded-full bg-raised py-3 text-[15px] font-semibold">
+              <Users size={18} /> {t("Gruppen")}
+            </Link>
+          </div>
+          <Sheet open={levels} onClose={() => setLevels(false)} title={t("Gegen den Computer")}>
+            <div className="space-y-2 pb-2">
+              {([1, 2, 3] as const).map((l) => (
+                <button key={l} disabled={busy} onClick={() => start(l)} className="press flex w-full items-center justify-between gap-3 rounded-2xl bg-raised p-4 text-left">
+                  <span className="font-semibold">{levelName(l, t)}</span>
+                  <span className="text-sm text-muted">{t("trifft etwa {n} von 10", { n: { 1: 5, 2: 7, 3: 8 }[l] })}</span>
+                </button>
+              ))}
+              <p className="pt-1 text-xs leading-relaxed text-muted">{t("Der Computer spielt sofort nach dir – kein Warten. Thema und Fragen wählt er wie ein echter Gegner.")}</p>
+            </div>
+          </Sheet>
           <form onSubmit={(e) => { e.preventDefault(); if (code.trim().length === 6) void joinByCode(); }} className="flex gap-2">
             <input value={code} onChange={(e) => setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6))} placeholder={t("Code eingeben")} aria-label={t("Einladungscode")} className="tnum h-12 min-w-0 flex-1 rounded-full border border-line bg-surface px-4 text-[15px] uppercase tracking-widest outline-none" />
             <Button variant="secondary" type="submit" disabled={busy || code.length !== 6}>{t("Beitreten")}</Button>

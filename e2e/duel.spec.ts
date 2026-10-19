@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 
 // Demo mode: the practice duel against the computer, on the device. (Duels between people need the
-// live backend; their rules are tested in supabase/tests/duels.sql.)
+// live backend; their rules are tested in supabase/tests/duels.sql and groups_chat.sql.)
 const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" } } };
 const signIn = (page: Page) =>
   page.addInitScript((s) => {
@@ -69,4 +69,13 @@ test("a practice duel can be given up – it counts as a loss", async ({ page })
   await page.getByRole("button", { name: /Wirklich aufgeben/ }).click();
   await expect(page.getByTestId("duel-headline")).toHaveText("Verloren");
   await expect(page.getByText("Du hast aufgegeben oder zu lange nicht gespielt.")).toBeVisible();
+});
+
+test("groups need other players: the demo explains it, and explore links there", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explore/");
+  await page.getByRole("link", { name: /Gruppen/ }).click();
+  await expect(page).toHaveURL(/\/groups\/$/);
+  await expect(page.getByTestId("groups-demo")).toBeVisible();
+  await expect(page.getByTestId("chat")).toHaveCount(0); // no chat without the live backend
 });

@@ -43,7 +43,10 @@ export default function ExplorePage() {
   const collections = [
     { href: "/books/", Icon: BookOpen, title: t("Bücher"), text: t("{n} Sachbücher, {m} Ideen zum Mitnehmen", { n: books.length, m: books.reduce((s, b) => s + b.ideas.length, 0) }) },
     { href: "/quiz/", Icon: Zap, title: t("Quiz-Runden"), text: t("Daily Challenge, Wiederholung und Üben nach Thema") },
-    ...(isChild(state.ageBand) ? [] : [{ href: "/duel/", Icon: Swords, title: t("Duell"), text: t("Drei Runden gegen Freunde oder Zufallsgegner") }]),
+    ...(isChild(state.ageBand) ? [] : [
+      { href: "/duel/", Icon: Swords, title: t("Duell"), text: t("Gegen Freunde, Zufallsgegner oder den Computer") },
+      { href: "/groups/", Icon: Users, title: t("Gruppen"), text: t("Gemeinsame Runden mit Rangliste und Chat") },
+    ]),
     { href: "/facts/", Icon: Lightbulb, title: t("Fakten"), text: t("{n} überraschende Fakten aus allen Bereichen", { n: factsFor(state.settings.locale, state.ageBand).length }) },
     { href: "/riddles/", Icon: Puzzle, title: t("Rätsel"), text: t("{n} Knobelaufgaben mit Tipps", { n: items.filter((i) => i.hints?.length).length }) },
     { href: "/explain/", Icon: Shapes, title: t("So funktioniert’s"), text: t("{n} Animationen zum Durchklicken", { n: animations.length }) },

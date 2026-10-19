@@ -24,7 +24,8 @@ export interface DuelRound {
 export interface DuelView {
   id: string;
   code: string;
-  kind: "invite" | "random" | "practice";
+  kind: "invite" | "random" | "practice" | "bot"; // bot: the computer on the server, practice: on this device
+  level?: BotLevel | null; // only for kind bot
   status: DuelStatus;
   role: Role;
   opponent: { name: string | null; joined: boolean };
@@ -35,7 +36,10 @@ export interface DuelView {
   forfeit: "me" | "them" | null;
   updatedAt: string;
 }
-export type DuelSummary = Pick<DuelView, "id" | "code" | "kind" | "status" | "opponent" | "next" | "score" | "result" | "updatedAt">;
+export type DuelSummary = Pick<DuelView, "id" | "code" | "kind" | "level" | "status" | "opponent" | "next" | "score" | "result" | "updatedAt">;
+export type BotLevel = 1 | 2 | 3;
+/** How often the computer answers correctly, per level (the database uses the same numbers). */
+export const BOT_ACCURACY: Record<BotLevel, number> = { 1: 0.5, 2: 0.67, 3: 0.8 };
 export interface DuelAnswerResult { correct: boolean; correctIndex: number; explanation: string; late?: boolean } // late: the server counted it as time ran out
 
 export const ROUNDS = 3;

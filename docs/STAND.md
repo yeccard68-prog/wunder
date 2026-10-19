@@ -1,4 +1,4 @@
-# Stand, offene Punkte und was als Nächstes kommt (15.10.2026)
+# Stand, offene Punkte und was als Nächstes kommt (19.10.2026)
 
 ## Was veröffentlicht ist
 
@@ -12,7 +12,8 @@
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee; Copyright am 15.10.2026 erneut geprüft; Affiliate-Link vorbereitet (aus, bis ein Partner-Tag eingetragen ist) |
 | Fakten („Wusstest du?“) | 58 aus 13 Bereichen | im Feed und unter Entdecken → Fakten, je mit Quelle |
 | Themen | 10 | |
-| Duelle | drei Runden à drei Fragen, gegen Freunde (Link/Code) oder Zufallsgegner; im Demo-Modus gegen einen Übungsgegner | Regeln, Zeitlimit und Antworten auf dem Server; Melden und Sperren eingebaut |
+| Duelle | drei Runden à drei Fragen, gegen Freunde (Link/Code), Zufallsgegner oder den Computer (drei Stufen); im Demo-Modus gegen einen Übungsgegner | Regeln, Zeitlimit und Antworten auf dem Server; Melden und Sperren eingebaut |
+| Gruppen und Chat | Gruppen per Code, Gruppenrunden (6 Fragen, 3 Tage, Rangliste); Chat in Duellen und Gruppen nur ab 16 | Filter, Melden, Blockieren, Prüfbildschirm, Löschung nach 90 Tagen; Nutzungsbedingungen und Meldestelle fehlen noch (`docs/LEGAL.md` Punkt 4) |
 
 Karten je Thema (Feed): Wissenschaft 105, Kultur & Gesellschaft 83, Technologie & KI 78, Sprache 77, Erde & Natur 75, Business 74, Mathe & Logik 74, Geschichte 70, Wirtschaft & Geld 69, Sport 61.
 
@@ -48,6 +49,7 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 4. **E-Mail-Anmeldung einmal durchspielen** (nach Site-URL und E-Mail-Vorlage mit Code, siehe `docs/STORE.md`). Klein.
 5. ~~Duell fertig machen~~ – erledigt am 19.10.2026: Zeitlimit auf dem Server, Namensfilter, Meldungen im Prüfbildschirm.
 6. ~~Anmeldung in der Android-App~~ – per Code aus der E-Mail (braucht die angepasste E-Mail-Vorlage).
+7. ~~Computer-Gegner, Gruppen, Chat~~ – erledigt am 19.10.2026 (`docs/BACKEND.md` Abschnitt 40). Offen: einmal live mit zwei Testkonten durchspielen (braucht deine Zustimmung, weil dabei Gastkonten entstehen); Push-Benachrichtigungen bei neuen Nachrichten (bisher nur, solange die Seite offen ist).
 
 ### 3. Inhalte, die Lernende zurückbringen
 
@@ -58,7 +60,7 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 
 ### 4. Später
 
-Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, weitere Community-Funktionen über Duelle hinaus (brauchen Moderation und Meldewege nach dem Digital Services Act), Bereich für Jüngere (braucht Einwilligung der Eltern), Herz und andere organische 3D-Modelle (brauchen lizenzierte Modelle).
+Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, Freundesliste und Profile anderer (brauchen weitere Moderation), Bereich für Jüngere (braucht Einwilligung der Eltern), Herz und andere organische 3D-Modelle (brauchen lizenzierte Modelle).
 
 ## Vorschlag: Zeitplan bis zur Veröffentlichung (Stand 19.10.2026)
 
