@@ -36,7 +36,7 @@ export interface DuelView {
   updatedAt: string;
 }
 export type DuelSummary = Pick<DuelView, "id" | "code" | "kind" | "status" | "opponent" | "next" | "score" | "result" | "updatedAt">;
-export interface DuelAnswerResult { correct: boolean; correctIndex: number; explanation: string }
+export interface DuelAnswerResult { correct: boolean; correctIndex: number; explanation: string; late?: boolean } // late: the server counted it as time ran out
 
 export const ROUNDS = 3;
 export const PER_ROUND = 3;

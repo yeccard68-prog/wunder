@@ -244,7 +244,7 @@ function Round({ view, round, onOpen, onAnswer, onDone, t }: { view: DuelView; r
       </div>
       {result && (
         <div ref={revealRef} className="rise mt-4 scroll-mb-24 rounded-2xl bg-raised p-4" aria-live="polite">
-          <p className={`text-sm font-bold ${result.correct ? "text-good" : "text-bad"}`}>{result.correct ? t("Richtig!") : picked === null ? t("Zeit abgelaufen") : t("Leider falsch")}</p>
+          <p className={`text-sm font-bold ${result.correct ? "text-good" : "text-bad"}`}>{result.correct ? t("Richtig!") : picked === null || result.late ? t("Zeit abgelaufen") : t("Leider falsch")}</p>
           <p className="mt-1 text-[15px] leading-relaxed">{result.explanation}</p>
           <Button className="mt-4 w-full" onClick={next} disabled={finishing}>
             {idx + 1 >= PER_ROUND ? t("Runde beenden") : t("Nächste Frage")}

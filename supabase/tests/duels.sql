@@ -27,7 +27,7 @@ begin
   begin perform public.duel_pick(v_id, 'nonexistent'); out := array_append(out, 'FAIL 04'); exception when others then out := array_append(out, 'ok 04 a topic that was not offered is refused'); end;
   perform public.duel_pick(v_id, v_cat);
   s := public.duel_state(v_id, 'en');
-  out := array_append(out, case when jsonb_array_length(s->'rounds'->0->'questions') = 3 and s->'next'->>'action' = 'answer' and not (s->'rounds'->0->'questions'->0 ? 'correctIndex') then 'ok' else 'FAIL' end || ' 05 three questions, without the answer key');
+  out := array_append(out, case when s->'rounds'->0->'questions' = 'null'::jsonb and s->'next'->>'action' = 'answer' and not (public.duel_question(v_id, 1, 0, 'en')->'question' ? 'correctIndex') then 'ok' else 'FAIL' end || ' 05 questions come one by one, without the answer key');
   begin perform public.duel_answer(v_id, 1, 2, 0); out := array_append(out, 'FAIL 06'); exception when others then out := array_append(out, 'ok 06 questions must be answered in order'); end;
   r := public.duel_answer(v_id, 1, 0, 0); perform public.duel_answer(v_id, 1, 1, null); perform public.duel_answer(v_id, 1, 2, 1);
   out := array_append(out, case when r ? 'correctIndex' and r ? 'explanation' then 'ok' else 'FAIL' end || ' 07 an answer reveals the solution');
@@ -38,7 +38,7 @@ begin
   r := public.duel_create('random');
   out := array_append(out, case when (r->>'id')::uuid = v_id and (r->>'joined')::boolean then 'ok' else 'FAIL' end || ' 09 second random player joins the waiting duel');
   s := public.duel_state(v_id, 'de');
-  out := array_append(out, case when s->'rounds'->0->'theirs' = 'null'::jsonb and (s->'score'->>'theirs')::int = 0 and s->'opponent'->>'name' = 'Anna' and jsonb_array_length(s->'rounds'->0->'questions') = 3 then 'ok' else 'FAIL ' || s::text end || ' 10 B sees the questions but not yet A''s answers');
+  out := array_append(out, case when s->'rounds'->0->'theirs' = 'null'::jsonb and (s->'score'->>'theirs')::int = 0 and s->'opponent'->>'name' = 'Anna' and s->'rounds'->0->'questions' = 'null'::jsonb then 'ok' else 'FAIL ' || s::text end || ' 10 B does not see A''s answers, and gets the questions one by one');
   perform public.duel_answer(v_id, 1, 0, 1); perform public.duel_answer(v_id, 1, 1, 1); perform public.duel_answer(v_id, 1, 2, 1);
   s := public.duel_state(v_id, 'de');
   out := array_append(out, case when jsonb_array_length(s->'rounds'->0->'theirs') = 3 and s->'next'->>'action' = 'pick' and (s->'next'->>'round')::int = 2 and s->'rounds'->1->'offered' <> 'null'::jsonb then 'ok' else 'FAIL ' || (s->'next')::text end || ' 11 after the round B sees A''s answers and picks round 2');
@@ -121,6 +121,24 @@ begin
   select count(*) into n from public.duel_rounds x cross join unnest(x.question_ids) as u (id) join public.questions q on q.id = u.id
     where x.duel_id = v_id and (q.min_age > 13 or q.max_age is not null);
   out := array_append(out, case when n = 0 then 'ok' else 'FAIL (' || n || ')' end || ' 30 duel questions suit everyone from 13 up');
+
+  -- the server keeps the time (20261024120000_duel_timer.sql)
+  perform set_config('request.jwt.claims', jsonb_build_object('sub', a, 'role', 'authenticated')::text, true);
+  set local role authenticated;
+  r := public.duel_create('invite'); v_id2 := (r->>'id')::uuid;
+  s := public.duel_state(v_id2, 'de');
+  perform public.duel_pick(v_id2, s->'rounds'->0->'offered'->>0);
+  r := public.duel_question(v_id2, 1, 0, 'de');
+  out := array_append(out, case when (r->>'secondsLeft')::numeric between 19 and 20 then 'ok' else 'FAIL ' || r::text end || ' 31 a question opens with 20 seconds');
+  reset role;
+  update public.duel_shown set shown_at = now() - interval '30 seconds' where duel_id = v_id2;
+  set local role authenticated;
+  r := public.duel_question(v_id2, 1, 0, 'de');
+  out := array_append(out, case when (r->>'secondsLeft')::numeric = 0 then 'ok' else 'FAIL ' || r::text end || ' 32 opening it again does not reset the clock');
+  r := public.duel_answer(v_id2, 1, 0, 0);
+  out := array_append(out, case when (r->>'correct')::boolean = false and (r->>'late')::boolean then 'ok' else 'FAIL ' || r::text end || ' 33 an answer after the time counts as time ran out');
+  begin perform public.duel_question(v_id2, 1, 2, 'de'); out := array_append(out, 'FAIL 34'); exception when others then out := array_append(out, 'ok 34 questions cannot be opened ahead'); end;
+  reset role;
 
   raise exception E'DUEL TESTS (rolled back):\n%', array_to_string(out, E'\n');
 end $$;
