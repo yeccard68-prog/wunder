@@ -118,8 +118,8 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
     expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2); // settled exactly at the top of the feed area
   }).toPass({ timeout: 30_000 });
   // every entry before it was a full screen of its own
-  const kinds = await feed.locator("section[data-feed-entry]").evaluateAll((els) => els.slice(0, 4).map((el) => (el as HTMLElement).dataset.feedEntry));
-  expect(kinds).toEqual(["item", "item", "item", "clip"]);
+  const kinds = await feed.locator("section[data-feed-entry]").evaluateAll((els) => els.slice(0, 3).map((el) => (el as HTMLElement).dataset.feedEntry));
+  expect(kinds).toEqual(["item", "item", "clip"]); // a strong start: the first clip after two cards
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-status", "ready");
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "false");
   const box = (await clip.boundingBox())!;
@@ -545,4 +545,22 @@ test("3D animations: the playback speed can be chosen and is remembered; the vie
     await stage.getByRole("button", { name: "Weiter weg" }).click();
     await expect(zoom).toHaveAttribute("data-zoom", "1.25");
   }
+});
+
+test("facts: a page with every fact, filter by area, the explanation on request, reactions", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explore/");
+  await page.getByRole("link", { name: /Fakten/ }).click();
+  await expect(page.getByRole("heading", { name: "Fakten", exact: true })).toBeVisible();
+  const cards = page.getByTestId("fact-card");
+  expect(await cards.count()).toBeGreaterThanOrEqual(39);
+  await page.getByRole("button", { name: "Tiere", exact: true }).click();
+  await expect(cards.first()).toContainText("Tiere");
+  const first = cards.first();
+  await expect(first.getByTestId("fact-detail")).toHaveCount(0);
+  await first.getByRole("button", { name: "Mehr dazu" }).click();
+  await expect(first.getByTestId("fact-detail")).toBeVisible();
+  await first.getByRole("button", { name: "Wow!" }).click();
+  await expect(first.getByRole("button", { name: "Wow!" })).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByText("1× „Wow!“")).toBeVisible();
 });

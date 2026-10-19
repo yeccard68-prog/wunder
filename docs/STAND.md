@@ -10,6 +10,7 @@
 | Animationen | 25 (24 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 6 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste, Schrift-Zeitleiste) | 4 mit echten Daten, 2 Rechenmodelle; auch im Feed |
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee; Copyright am 15.10.2026 erneut geprüft; Affiliate-Link vorbereitet (aus, bis ein Partner-Tag eingetragen ist) |
+| Fakten („Wusstest du?“) | 39 aus 13 Bereichen | im Feed und unter Entdecken → Fakten, je mit Quelle |
 | Themen | 10 | |
 | Duelle | drei Runden à drei Fragen, gegen Freunde (Link/Code) oder Zufallsgegner; im Demo-Modus gegen einen Übungsgegner | Regeln, Zeitlimit und Antworten auf dem Server; Melden und Sperren eingebaut |
 

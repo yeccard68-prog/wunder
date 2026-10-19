@@ -17,6 +17,7 @@ const KINDS: { id: ReviewKind | "all"; name: string }[] = [
   { id: "book", name: "Bücher" },
   { id: "animation", name: "Animationen" },
   { id: "visual", name: "Visualisierungen" },
+  { id: "fact", name: "Fakten" },
 ];
 const KIND_NAME: Record<ReviewKind, string> = { question: "Frage", video: "Clip", book: "Buch", animation: "Animation", visual: "Visualisierung", fact: "Fakt" };
 type Tab = "reported" | "open" | "change" | "approved";

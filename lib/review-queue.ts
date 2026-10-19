@@ -4,6 +4,7 @@ import { animationRows, type AnimationRow } from "./animations";
 import { bookRows, EVIDENCE_NAME, FORMAT_NAME, type BookRow } from "./books";
 import { contentHash, type BundleKind } from "./reviews";
 import type { ContentReview, ReviewItem, ReviewKind } from "./supabase";
+import { AREAS, factRows } from "./facts";
 import { formatYear, visualRows, type BarsConfig, type ScatterConfig, type TimelineConfig, type VisualRow } from "./visuals";
 
 export interface Block {
@@ -103,6 +104,10 @@ export function bundleEntries(locale: string, reviews: Map<string, ContentReview
     ...bookRows.filter((b) => b.status === "published").map((b) => make("book", b, b.topic_id, `${locale === "de" ? b.title_de : b.title} – ${b.author}`, `/books/?b=${b.id}`, bookBlocks(b, locale, t))),
     ...animationRows.filter((a) => a.status === "published").map((a) => make("animation", a, a.category_id, a.translations[locale]?.title ?? a.title, `/explain/?a=${a.id}`, animationBlocks(a, locale, t))),
     ...visualRows.filter((v) => v.status === "published").map((v) => make("visual", v, v.category_id, v.translations[locale]?.title ?? v.title, `/lab/?v=${v.id}`, visualBlocks(v, locale, t))),
+    ...factRows.filter((f) => f.status === "published").map((f) => {
+      const tr = f.translations[locale] ?? f;
+      return make("fact", f, f.category_id, tr.text, "/facts/", [{ label: t(AREAS[f.area]), text: tr.detail }]);
+    }),
   ];
 }
 
