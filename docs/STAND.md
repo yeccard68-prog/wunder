@@ -80,7 +80,7 @@ Realistisch also: Android etwa **6–8 Wochen** nach dem Start von Phase 1, iOS 
 ## Bekannte Schwächen
 
 - Kein Inhalt ist redaktionell geprüft.
-- **Duelle:** Am 15.10.2026 mit zwei Gast-Testkonten auf der Live-Seite durchgespielt (Einladung per Link, drei Runden, Ergebnis auf beiden Seiten gleich, Zufallsgegner, Melden, Revanche danach gesperrt); die Testkonten wurden über die App gelöscht. Nach dem Löschen legt die App sofort ein neues, leeres Gastkonto an – zwei solche leeren Konten vom Test sind noch übrig. Seit 19.10.2026 zählt der Server die 20 Sekunden (Neuladen bringt keine neue Zeit), und Meldungen stehen im Prüfbildschirm.
+- **Duelle:** Am 15.10.2026 mit zwei Gast-Testkonten auf der Live-Seite durchgespielt (Einladung per Link, drei Runden, Ergebnis auf beiden Seiten gleich, Zufallsgegner, Melden, Revanche danach gesperrt); die Testkonten wurden über die App gelöscht. Nach dem Löschen legt die App sofort ein neues, leeres Gastkonto an – die leeren Testkonten (2 vom 15.10., 6 vom 19.10.) wurden am 19.10.2026 mit Zustimmung des Betreibers per SQL gelöscht. Live-Test von Gruppen, Chat und Computer-Duell am 19.10.2026 bestanden (`docs/BACKEND.md` Abschnitt 40). Seit 19.10.2026 zählt der Server die 20 Sekunden (Neuladen bringt keine neue Zeit), und Meldungen stehen im Prüfbildschirm.
 - Getestet auf einem Windows-PC (Edge) und einem Handy des Betreibers (Animationen „flüssig“); Safari auf dem iPhone und ältere Android-Geräte nicht.
 - In den Erdplatten ist im Blick von oben ein kleiner grauer Keil zu sehen, der nicht zugeordnet ist.
 - `scripts/measure-animations.mjs` bricht ab, wenn man mehrere Animationen nacheinander misst; einzeln läuft es (Bildraten der letzten drei: 57–58 pro Sekunde).
