@@ -4,7 +4,8 @@
 // The order everywhere in the feed:
 //   1. never seen (ranked as before) – plus questions answered wrongly once their repetition is due;
 //   2. seen but not done (scrolled past, clip not finished, fact without a reaction) – seen longest ago first;
-//   3. done (answered correctly, clip watched to the end, …) – done longest ago first.
+//   3. done (clip watched to the end, fact reacted to, …) – done longest ago first. Answered questions leave the
+//      feed entirely until a repetition is due.
 // Wrong answers come back on purpose: after 10 minutes, then 1, 3, 7 and 21 days (spaced repetition,
 // BOX_MS in gamification.ts) – until they are answered right often enough.
 import type { AnswerRecord, UserState } from "./types";

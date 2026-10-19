@@ -8,6 +8,7 @@ import { categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import { isFormat, type AnswerKey, type FormatResponse } from "@/lib/formats";
 import FormatInput, { FORMAT_LABEL } from "./Formats";
+import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
 import ShareImageButton from "./ShareImageButton";
 import { HintSheet } from "./HintButton";
@@ -53,7 +54,9 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
   const t = useT();
   const cat = categoryById(item.categoryId);
   const inSession = !!onAnswered;
-  const prev = inSession ? undefined : state.answers[item.id];
+  // an earlier answer is shown – unless the repetition is due: then the card asks again (decided once, when it appears)
+  const [askAgain] = useState(() => reviewDue(state.answers[item.id]));
+  const prev = inSession || askAgain ? undefined : state.answers[item.id];
   const [picked, setPicked] = useState<number | null>(null);
   const [pending, setPending] = useState(false);
   const [result, setResult] = useState<{ correct: boolean; correctIndex: number; explanation: string; answer?: AnswerKey } | null>(null);

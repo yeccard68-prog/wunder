@@ -32,15 +32,15 @@ test("freshFirst: new in order, then seen longest ago first, done last", () => {
   assert.deepEqual(freshFirst(["a", "b", "c", "d", "e"], (x) => x, s, (x) => x === "d"), ["a", "e", "c", "b", "d"]);
 });
 
-test("questions: seen ones after all new ones, answered ones after the seen, seen longest ago first", () => {
+test("questions: seen ones after all new ones (seen longest ago first); answered ones are left out", () => {
   const [q1, q2, q3, q4] = questions;
   const s = state({ seen: { [q1.id]: sec(5), [q2.id]: sec(500) }, answers: { [q3.id]: answer(true, null) } });
   const order = rankForYou(items, s).map((r) => r.item.id);
   const pos = (id: string) => order.indexOf(id);
   assert.ok(pos(q4.id) < pos(q2.id), "a new card comes before a seen one");
   assert.ok(pos(q2.id) < pos(q1.id), "seen longer ago comes first");
-  assert.ok(pos(q1.id) < pos(q3.id), "answered correctly comes last");
-  assert.equal(pos(q3.id), order.length - 1);
+  assert.equal(pos(q3.id), -1, "answered correctly is not shown again");
+  assert.equal(order[order.length - 1], q1.id, "the card seen most recently comes last");
 });
 
 test("questions answered wrongly come back once due – mixed in among the new ones", () => {
@@ -52,14 +52,14 @@ test("questions answered wrongly come back once due – mixed in among the new o
   assert.match(ranked[REVIEW_FROM].reason, /Wiederholen/);
 });
 
-test("a wrong answer not yet due waits at the back; a correct one never counts as due", () => {
+test("a wrong answer stays out until its repetition is due; a correct one never counts as due", () => {
   const [q1, q2] = questions;
   const soon = new Date(Date.now() + 5 * 60_000).toISOString();
   assert.equal(reviewDue(answer(false, soon)), false);
   assert.equal(reviewDue(answer(true, null)), false);
   assert.equal(reviewDue(answer(false, ago(1))), true);
   const order = rankForYou(items, state({ answers: { [q1.id]: answer(false, soon), [q2.id]: answer(true, null) } })).map((r) => r.item.id);
-  assert.deepEqual(order.slice(-2), [q1.id, q2.id]); // the repetition coming up soon before the one already known
+  assert.ok(!order.includes(q1.id) && !order.includes(q2.id)); // neither is in the feed right now
 });
 
 test("facts and clips: seen ones move back behind everything new", () => {

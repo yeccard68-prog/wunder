@@ -85,11 +85,11 @@ test("achievements unlock from state and are not awarded twice", () => {
   assert.ok(!newAchievements({ ...s, achievements: ["first"] }).some((a) => a.id === "first"));
 });
 
-test("feed ranking: interests first, answered cards last, hidden cards removed", () => {
+test("feed ranking: interests first, answered and hidden cards left out", () => {
   const ranked = rankForYou(items, user({ interests: ["economy"], hidden: ["e1"], answers: { e2: rec({ categoryId: "economy" }) } }));
   assert.ok(!ranked.some((r) => r.item.id === "e1"));
   assert.equal(ranked[0].item.categoryId, "economy");
-  assert.equal(ranked.at(-1)!.item.id, "e2");
+  assert.ok(!ranked.some((r) => r.item.id === "e2")); // answered correctly: not shown again
   assert.ok(ranked.every((r) => r.reason.length > 0));
 });
 

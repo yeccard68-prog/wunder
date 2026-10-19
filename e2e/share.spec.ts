@@ -1,3 +1,4 @@
+import fs from "node:fs";
 import { expect, test } from "@playwright/test";
 
 // Sharing a fact as a picture: drawn on the device, offered as a download where the system cannot share files.
@@ -15,8 +16,7 @@ test("a fact can be shared as a picture (download where sharing files is not pos
   await card.getByRole("button", { name: "Als Bild teilen" }).click();
   const file = await download;
   expect(file.suggestedFilename()).toMatch(/^f-.+\.png$/);
-  const size = (await file.createReadStream()).readableLength; // something was written
-  expect(size).toBeGreaterThanOrEqual(0);
+  expect(fs.statSync(await file.path()).size).toBeGreaterThan(10_000); // a real picture, not an empty file
 });
 
 test("a note to the editors: choose a reason, optional text, links are refused", async ({ page }) => {
@@ -35,4 +35,17 @@ test("a note to the editors: choose a reason, optional text, links are refused",
   await sheet.getByRole("textbox").fill("Laut Quelle war es 1934.");
   await send.click();
   await expect(page.getByText("Danke! Die Redaktion schaut es sich an.")).toBeVisible();
+});
+
+test("a question answered wrongly comes back when due – and asks again instead of showing the old answer", async ({ page }) => {
+  const past = new Date(Date.now() - 60_000).toISOString();
+  const answers = { s1: { correct: false, at: past, categoryId: "science", difficulty: 1, box: 0, due: past, reviews: 0, correctIndex: 1, explanation: "Au" } };
+  await page.addInitScript((s) => localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { ...seed.state, answers } });
+  await page.goto("/");
+  const card = page.locator("article").filter({ hasText: "Welches chemische Symbol hat Gold?" }).first();
+  await expect(card).toBeVisible({ timeout: 20_000 });
+  await expect(card).toContainText("Zum Wiederholen");
+  const options = card.getByRole("button", { name: /^[A-D]\s/ });
+  await expect(options.first()).toBeEnabled(); // not answered yet: the options can be chosen
+  await expect(card.getByText("Au", { exact: true })).toHaveCount(0); // the old explanation is not shown
 });

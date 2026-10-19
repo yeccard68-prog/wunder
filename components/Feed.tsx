@@ -15,6 +15,7 @@ import { categoryById } from "@/lib/categories";
 import { captionAt, type Clip } from "@/lib/content";
 import { entryId, entryTopic, type FeedEntry } from "@/lib/feed";
 import FactCard from "./FactCard";
+import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
 
@@ -157,6 +158,8 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
   const { ref, active, near } = useOnScreen(0.5);
   const [seen, setSeen] = useState(false);
   const quiz = animation.quizId ? items.find((i) => i.id === animation.quizId) : undefined;
+  // answered before and not due again: the animation is shown without its question (decided when it appears)
+  const [askable] = useState(() => !quiz || !state.answers[quiz.id] || reviewDue(state.answers[quiz.id]));
   return (
     <article className="card space-y-3 p-5" data-testid="feed-animation">
       <Kicker categoryId={animation.categoryId} icon={<Shapes size={14} />} label={t("So funktioniert’s")} />
@@ -165,7 +168,7 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
         <AnimationPlayer animation={animation} active={active} mounted={near} compact={compact} onFinished={() => { setSeen(true); track("animation_complete", animation.id, "animation"); }} />
       </div>
       <div className="flex justify-end"><HintButton kind="animation" id={animation.id} label /></div>
-      {quiz && (seen || !!state.answers[quiz.id]) && (
+      {quiz && askable && seen && (
         <div className="-mx-2 border-t border-line pt-3">
           <p className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-muted">{t("Verstanden?")}</p>
           <KnowledgeCard item={quiz} />

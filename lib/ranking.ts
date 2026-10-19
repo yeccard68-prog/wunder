@@ -94,13 +94,9 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
   head.push(...reviews);
   // 2. seen but not answered – seen longest ago first
   const seen = scored.filter((r) => !r.rec && r.at !== null).sort((a, b) => a.at! - b.at!).map(strip);
-  // 3. answered: repetitions coming up soonest first, then those known – answered longest ago first
-  const pending = (r: (typeof scored)[number]) => (r.rec!.due ? Date.parse(r.rec!.due) : Infinity);
-  const done = scored
-    .filter((r) => r.rec && !reviewDue(r.rec, now))
-    .sort((a, b) => pending(a) - pending(b) || Date.parse(a.rec!.at) - Date.parse(b.rec!.at))
-    .map(strip);
-  return [...head, ...seen, ...done];
+  // answered questions stay out of the feed: known ones for good, wrong ones until their repetition is due
+  // (they come back above as "Zum Wiederholen" and ask again – see KnowledgeCard)
+  return [...head, ...seen];
 }
 
 /** From the 5th place on, every 7th card comes from a topic the learner neither chose nor has seen much – so new interests can show. */
