@@ -496,11 +496,11 @@ export function StoreProvider({ children }: { children: ReactNode }) {
           if (uid) api.saveBookState(uid, ref.current.books).catch((e) => console.warn("Sync fehlgeschlagen:", message(e)));
         }, 1200);
       }
-      if ("username" in patch || "interests" in patch || "onboarded" in patch || "goalMinutes" in patch || "motivation" in patch || "settings" in patch || "ageBand" in patch) {
+      if ("username" in patch || "interests" in patch || "onboarded" in patch || "goalMinutes" in patch || "motivation" in patch || "settings" in patch || "ageBand" in patch || "heardFrom" in patch) {
         const uid = authRef.current.userId;
         if (MODE === "live" && uid)
           api
-            .saveProfile(uid, { display_name: next.username || "Neugierig", interests: next.interests, onboarded: next.onboarded, goal_minutes: next.goalMinutes, motivation: next.motivation, is_private: next.settings.privateProfile, locale: next.settings.locale, age_band: next.ageBand })
+            .saveProfile(uid, { display_name: next.username || "Neugierig", interests: next.interests, onboarded: next.onboarded, goal_minutes: next.goalMinutes, motivation: next.motivation, is_private: next.settings.privateProfile, locale: next.settings.locale, age_band: next.ageBand, ...(next.heardFrom ? { heard_from: next.heardFrom } : {}) })
             // explanations of answered cards are stored per language → reload them after a language switch
             .then(async () => {
               if (next.settings.locale === before || !next.onboarded) return;

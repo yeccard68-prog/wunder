@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Bookmark, Check, Clapperboard, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Lightbulb, RotateCcw, Share2, ThumbsDown, ThumbsUp, X } from "lucide-react";
+import { Bookmark, Check, Clapperboard, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Lightbulb, RotateCcw, ThumbsDown, ThumbsUp, X } from "lucide-react";
 import { track } from "@/lib/analytics";
 import type { AnswerContext, Item } from "@/lib/types";
 import { categoryById } from "@/lib/categories";
@@ -9,6 +9,7 @@ import { isChild } from "@/lib/content";
 import { isFormat, type AnswerKey, type FormatResponse } from "@/lib/formats";
 import FormatInput, { FORMAT_LABEL } from "./Formats";
 import { useStore, useT } from "@/lib/store";
+import ShareImageButton from "./ShareImageButton";
 import { Sheet } from "./ui";
 
 const LEVELS = ["", "Leicht", "Mittel", "Schwer"];
@@ -45,7 +46,7 @@ interface Props {
 }
 
 export default function KnowledgeCard({ item, reason, onAnswered, context = "feed", clip }: Props) {
-  const { state, answer, firstTry, toggle, hide, share } = useStore();
+  const { state, answer, firstTry, toggle, hide } = useStore();
   const [miss, setMiss] = useState<number | null>(null); // wrong first try on a clip question
   const [hintsShown, setHintsShown] = useState(0); // riddles: hints revealed so far
   const t = useT();
@@ -188,9 +189,8 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
             <Bookmark size={19} fill={saved ? "currentColor" : "none"} />
           </button>
           {!isChild(state.ageBand) && (
-            <button onClick={() => share(shareText)} aria-label={t("Teilen")} className="press flex h-11 w-11 items-center justify-center rounded-full text-muted">
-              <Share2 size={19} />
-            </button>
+            <ShareImageButton className="h-11 w-11" fileName={`${item.id}.png`} text={shareText}
+              card={{ kicker: `${isFact ? t("Stimmt das?") : t("Weißt du es?")} · ${t(categoryById(item.categoryId).name)}`, title: isFact ? `„${item.question}“` : item.question, detail: item.kind !== "question" ? undefined : item.options.map((o, i) => `${"ABCD"[i]})  ${o}`), footer: t("Antwort und Quelle in der App"), color: categoryById(item.categoryId).color }} />
           )}
           {reason && <span className="ml-auto truncate pr-2 text-xs text-muted">{reason}</span>}
         </footer>

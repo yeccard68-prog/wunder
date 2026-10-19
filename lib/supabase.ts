@@ -178,7 +178,7 @@ export async function saveBookState(userId: string, books: UserState["books"]) {
   if (error) throw error;
 }
 
-export async function saveProfile(userId: string, patch: Partial<{ display_name: string; interests: string[]; onboarded: boolean; goal_minutes: number; motivation: string; is_private: boolean; locale: string; age_band: AgeBand | null }>) {
+export async function saveProfile(userId: string, patch: Partial<{ display_name: string; interests: string[]; onboarded: boolean; goal_minutes: number; motivation: string; is_private: boolean; locale: string; age_band: AgeBand | null; heard_from: string }>) {
   const { error } = await db().from("profiles").update(patch).eq("id", userId);
   if (error) throw error;
 }
@@ -341,6 +341,14 @@ export async function fetchChatReports(): Promise<ChatReport[]> {
 export async function resolveChatReport(message: number, remove: boolean) {
   const { error } = await db().rpc("admin_resolve_chat", { p_message: message, p_remove: remove });
   if (error) throw error;
+}
+
+export interface HeardFromRow { heard_from: string; players: number; last_30_days: number }
+/** Editors: how many players heard of the app where (answers from the onboarding, totals only). */
+export async function fetchHeardFrom(): Promise<HeardFromRow[]> {
+  const { data, error } = await db().rpc("admin_heard_from");
+  if (error) throw error;
+  return (data ?? []) as HeardFromRow[];
 }
 
 // ---------- content review (admins only – enforced by the database, not by the app) ----------

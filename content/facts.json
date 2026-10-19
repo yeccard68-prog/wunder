@@ -1850,5 +1850,143 @@
         "detail": "The Moon is about 380,000 kilometres away – spotting the wall from there with the naked eye would be impossible. Most crewed spaceflights have taken place 300 to 600 kilometres up."
       }
     }
+  },
+  {
+    "id": "f-ikea-name",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "IKEA ist eine Abkürzung – aus dem Namen des Gründers und zwei Ortsnamen.",
+    "detail": "Die Buchstaben stehen für Ingvar Kamprad, Elmtaryd und Agunnaryd. Kamprad gründete das Unternehmen 1943 in Schweden.",
+    "sources": [
+      {
+        "name": "Wikipedia: IKEA",
+        "url": "https://de.wikipedia.org/wiki/IKEA"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "IKEA is an acronym – made of the founder's name and two place names.",
+        "detail": "The letters stand for Ingvar Kamprad, Elmtaryd and Agunnaryd. Kamprad founded the company in Sweden in 1943."
+      }
+    }
+  },
+  {
+    "id": "f-lego-name",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Der Name Lego kommt aus dem Dänischen und heißt „spiel gut“.",
+    "detail": "Er leitet sich von „leg godt“ ab und wird seit 1934 verwendet.",
+    "sources": [
+      {
+        "name": "Wikipedia: Lego",
+        "url": "https://de.wikipedia.org/wiki/Lego"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The name Lego comes from Danish and means “play well”.",
+        "detail": "It is derived from “leg godt” and has been used since 1934."
+      }
+    }
+  },
+  {
+    "id": "f-nokia-papier",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Nokia hat als Papierhersteller angefangen.",
+    "detail": "Fredrik Idestam gründete das Unternehmen 1865 in Tampere in Finnland; anfangs stellte es Papiererzeugnisse her. Den Namen hat es von der Stadt Nokia, wo 1868 ein zweites Werk eröffnete.",
+    "sources": [
+      {
+        "name": "Wikipedia: Nokia",
+        "url": "https://de.wikipedia.org/wiki/Nokia"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Nokia started out as a paper maker.",
+        "detail": "Fredrik Idestam founded the company in Tampere, Finland, in 1865; at first it made paper products. It takes its name from the town of Nokia, where a second mill opened in 1868."
+      }
+    }
+  },
+  {
+    "id": "f-roboter-wort",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das Wort „Roboter“ kommt aus dem Tschechischen und bedeutete ursprünglich Zwangsarbeit.",
+    "detail": "Es geht auf das tschechische Wort „robota“ zurück, das man mit „Frondienst“ oder „Zwangsarbeit“ übersetzen kann.",
+    "sources": [
+      {
+        "name": "Wikipedia: Roboter",
+        "url": "https://de.wikipedia.org/wiki/Roboter"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The word “robot” comes from Czech and originally meant forced labour.",
+        "detail": "It goes back to the Czech word “robota”, which can be translated as “corvée” or “forced labour”."
+      }
+    }
+  },
+  {
+    "id": "f-freiheitsstatue",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Die Freiheitsstatue in New York ist ein Geschenk Frankreichs.",
+    "detail": "Sie steht auf Liberty Island im New Yorker Hafen und wurde am 28. Oktober 1886 eingeweiht. Seit 1984 ist sie UNESCO-Weltkulturerbe.",
+    "sources": [
+      {
+        "name": "Wikipedia: Freiheitsstatue",
+        "url": "https://de.wikipedia.org/wiki/Freiheitsstatue"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The Statue of Liberty in New York is a gift from France.",
+        "detail": "It stands on Liberty Island in New York Harbor and was dedicated on 28 October 1886. It has been a UNESCO World Heritage Site since 1984."
+      }
+    }
+  },
+  {
+    "id": "f-sms-1992",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Die SMS wurde 1992 entwickelt – und 2012 so viel genutzt wie nie.",
+    "detail": "Danach wurde sie rasch von Messengern wie WhatsApp abgelöst. Ihr Nachfolger als Standard heißt RCS (Rich Communication Services).",
+    "sources": [
+      {
+        "name": "Wikipedia: Short Message Service",
+        "url": "https://de.wikipedia.org/wiki/Short_Message_Service"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Text messaging (SMS) was developed in 1992 – and used most in 2012.",
+        "detail": "After that it was quickly replaced by messengers such as WhatsApp. Its successor standard is called RCS (Rich Communication Services)."
+      }
+    }
   }
 ]

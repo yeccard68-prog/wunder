@@ -1,0 +1,60 @@
+// Checks the evidence of a facts batch against Wikipedia: every fact must name at least one quote per claim,
+// and each quote must appear word for word in the linked article (whitespace and quote marks normalised).
+// A batch exports `evidence = { "<fact id>": ["de|Article_Title|exact words from the article", …] }`.
+//   node scripts/content/verify-evidence.mjs content/_batches/2026-10-facts-6.mjs
+// Exit code 1 if anything is missing or not found – then the batch must not be merged.
+import path from "node:path";
+import { pathToFileURL } from "node:url";
+
+const file = process.argv[2];
+if (!file) throw new Error("usage: node scripts/content/verify-evidence.mjs <batch.mjs>");
+const batch = await import(pathToFileURL(path.resolve(file)).href);
+const facts = batch.facts ?? [];
+const evidence = batch.evidence ?? {};
+
+const norm = (s) => s.normalize("NFC").replace(/[„“”"«»]/g, '"').replace(/[‚‘’']/g, "'").replace(/[–—]/g, "-").replace(/\s+/g, " ").trim().toLowerCase();
+const cache = new Map();
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function article(lang, title) {
+  const key = `${lang}|${title}`;
+  if (cache.has(key)) return cache.get(key);
+  const url = `https://${lang}.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(title)}`;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const res = await fetch(url, { headers: { "User-Agent": "WunderContentCheck/1.0 (https://github.com/yeccard68-prog/wunder)" } });
+    if (res.ok) {
+      const page = Object.values((await res.json()).query.pages)[0];
+      const text = page.extract ? norm(page.extract) : null;
+      cache.set(key, text);
+      await sleep(1200); // be gentle with the API
+      return text;
+    }
+    await sleep(3000 * (attempt + 1));
+  }
+  cache.set(key, null);
+  return null;
+}
+
+let failed = 0;
+for (const row of facts) {
+  const [id, , , sources] = row;
+  const quotes = evidence[id] ?? [];
+  const problems = [];
+  if (!quotes.length) problems.push("no evidence");
+  const linked = new Set(sources.map((s) => decodeURIComponent(s.url.split("/wiki/")[1] ?? "").replaceAll("_", " ")));
+  for (const q of quotes) {
+    const [lang, title, ...rest] = q.split("|");
+    const quote = rest.join("|");
+    if (!linked.has(title.replaceAll("_", " "))) problems.push(`"${title}" is not among the fact's sources`);
+    if (quote.trim().split(/\s+/).length < 3) problems.push(`quote too short: "${quote}"`);
+    const text = await article(lang, title);
+    if (text === null) problems.push(`article not found: ${lang}|${title}`);
+    else if (!text.includes(norm(quote))) problems.push(`not in ${title}: "${quote}"`);
+  }
+  if (problems.length) {
+    failed++;
+    console.log(`FAIL ${id}\n  - ${problems.join("\n  - ")}`);
+  } else console.log(`ok   ${id} (${quotes.length} quote${quotes.length === 1 ? "" : "s"})`);
+}
+console.log(`${facts.length - failed} of ${facts.length} facts confirmed.`);
+process.exit(failed ? 1 : 0);

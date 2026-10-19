@@ -79,6 +79,8 @@ export interface ChallengeResult {
 }
 
 export type Motivation = "discover" | "improve" | "compete";
+export const HEARD_FROM = ["friends", "tiktok", "instagram", "youtube", "store", "press", "school", "other"] as const;
+export type HeardFrom = (typeof HEARD_FROM)[number];
 export type Theme = "system" | "light" | "dark";
 /** Age level chosen by the user. Only this band is stored – never a birth date. */
 export type AgeBand = "6-9" | "10-12" | "13-15" | "16+";
@@ -108,6 +110,7 @@ export interface UserState {
   visuals?: string[]; // interactive visualisations already tried (prediction made) – they move to the back of the feed
   facts?: { wow: string[]; known: string[] }; // reactions to "Did you know?" cards
   signals?: import("./engagement").Signals; // what the feed learns from viewing behaviour – stays on this device
+  heardFrom?: HeardFrom; // optional answer in the onboarding: where they heard of the app
   seen?: import("./seen").Seen; // when each entry was last on screen, so the feed repeats as late as possible – stays on this device
   likes: string[];
   saves: string[];

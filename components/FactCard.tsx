@@ -4,7 +4,9 @@ import { useState } from "react";
 import { Bookmark, ChevronDown, ExternalLink, Lightbulb, Sparkles } from "lucide-react";
 import { categoryById } from "@/lib/categories";
 import { AREAS, type Fact } from "@/lib/facts";
+import { isChild } from "@/lib/content";
 import { useStore, useT } from "@/lib/store";
+import ShareImageButton from "./ShareImageButton";
 
 /** "Did you know?": one surprising fact, the explanation behind it on request, and its source. */
 export default function FactCard({ fact }: { fact: Fact }) {
@@ -33,7 +35,11 @@ export default function FactCard({ fact }: { fact: Fact }) {
           <button onClick={() => reactFact(fact.id, "known")} aria-pressed={known} className={`press h-10 rounded-full border px-4 text-sm font-semibold ${known ? "border-ink bg-ink text-bg" : "border-line"}`}>
             {t("Wusste ich schon")}
           </button>
-          <button onClick={() => toggle("saves", fact)} aria-pressed={saved} aria-label={saved ? t("Gemerkt") : t("Merken")} className={`press ml-auto flex h-10 w-10 items-center justify-center rounded-full ${saved ? "text-accent" : "text-muted"}`}>
+          {!isChild(state.ageBand) && (
+            <ShareImageButton className="ml-auto" fileName={`${fact.id}.png`} text={fact.text}
+              card={{ kicker: `${t("Wusstest du?")} · ${t(AREAS[fact.area])}`, title: fact.text, detail: fact.detail, footer: `${t("Quelle:")} ${fact.sources.map((s) => s.name).join(", ")}`, color: cat.color }} />
+          )}
+          <button onClick={() => toggle("saves", fact)} aria-pressed={saved} aria-label={saved ? t("Gemerkt") : t("Merken")} className={`press ${isChild(state.ageBand) ? "ml-auto " : ""}flex h-10 w-10 items-center justify-center rounded-full ${saved ? "text-accent" : "text-muted"}`}>
             <Bookmark size={18} fill={saved ? "currentColor" : "none"} />
           </button>
         </div>

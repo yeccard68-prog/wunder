@@ -9,10 +9,12 @@ import { goalQuestions } from "@/lib/gamification";
 import { LOCALES } from "@/lib/i18n";
 import { nameAllowed } from "@/lib/names";
 import { useStore, useT } from "@/lib/store";
-import type { AgeBand, Motivation } from "@/lib/types";
+import { HEARD_FROM, type AgeBand, type HeardFrom, type Motivation } from "@/lib/types";
 import Account from "./Account";
 import KnowledgeCard from "./KnowledgeCard";
-import { Button, Sheet, Toggle, Wordmark } from "./ui";
+import { Button, Chip, Sheet, Toggle, Wordmark } from "./ui";
+
+const HEARD_LABEL: Record<HeardFrom, string> = { friends: "Freunde oder Familie", tiktok: "TikTok", instagram: "Instagram", youtube: "YouTube", store: "Suche im App Store", press: "Artikel oder Presse", school: "Schule oder Uni", other: "Woanders" };
 
 const BLURBS: Record<string, string> = {
   science: "Vom Atom bis zum Universum",
@@ -78,7 +80,8 @@ export default function Onboarding() {
     setAge(band);
     update({ ageBand: band }); // content is filtered from the next step on
   };
-  const finish = () => update({ onboarded: true, interests, goalMinutes: goal, motivation, ageBand: age, username: name.trim() || t("Neugierig"), settings: { ...state.settings, analytics: stats } });
+  const [heard, setHeard] = useState<HeardFrom | null>(null);
+  const finish = () => update({ onboarded: true, interests, goalMinutes: goal, motivation, ageBand: age, username: name.trim() || t("Neugierig"), settings: { ...state.settings, analytics: stats }, ...(heard ? { heardFrom: heard } : {}) });
   const badName = !!name.trim() && !nameAllowed(name);
   const canNext = step === 1 ? !!age : step === 2 ? interests.length > 0 : step === 5 ? answered || !sample : step === 6 ? !badName : true;
 
@@ -246,6 +249,12 @@ export default function Onboarding() {
             </label>
             <input id="name" value={name} onChange={(e) => setName(e.target.value)} maxLength={20} placeholder={t("z. B. Alex")} aria-invalid={badName} className={`h-14 w-full rounded-2xl border bg-surface px-4 text-lg outline-none focus:border-ink ${badName ? "border-bad" : "border-line"}`} />
             <p className={`mb-8 mt-1.5 text-sm ${badName ? "text-bad" : "text-muted"}`} role={badName ? "alert" : undefined}>{badName ? t("Dieser Name ist nicht erlaubt – andere sehen ihn im Duell.") : t("Andere sehen ihn im Duell, wenn dein Profil nicht privat ist.")}</p>
+            <p className="mb-2 text-sm font-semibold">{t("Wie hast du von uns gehört? (freiwillig)")}</p>
+            <div className="mb-8 flex flex-wrap gap-2" data-testid="heard-from">
+              {HEARD_FROM.map((h) => (
+                <Chip key={h} active={heard === h} onClick={() => setHeard(heard === h ? null : h)}>{t(HEARD_LABEL[h])}</Chip>
+              ))}
+            </div>
             <div className="mb-8 flex items-start gap-3 rounded-2xl bg-raised p-4">
               <div className="flex-1">
                 <p className="text-sm font-semibold">{t("Nutzungsstatistik teilen (freiwillig)")}</p>
