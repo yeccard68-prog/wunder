@@ -6,6 +6,7 @@ import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
 import VisualCard from "@/components/viz";
 import ClipPlayer from "@/components/ClipPlayer";
+import HintButton from "@/components/HintButton";
 import { Sheet } from "@/components/ui";
 import { scrollToElement, useAutoAdvance } from "@/lib/advance";
 import { track } from "@/lib/analytics";
@@ -114,6 +115,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
             <button onClick={() => toggle("saves", clip)} aria-label={saved ? t("Nicht mehr merken") : t("Merken")} aria-pressed={saved} className="press flex h-11 w-11 items-center justify-center rounded-full bg-white/15 backdrop-blur">
               <Bookmark size={19} fill={saved ? "currentColor" : "none"} />
             </button>
+            <HintButton kind="video" id={clip.id} light />
           </div>
         </div>
         <Sheet open={quiz} onClose={closeQuiz} title={t("Frage zum Clip")}>
@@ -132,7 +134,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
         <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} />
         <h2 className="font-display text-xl font-semibold leading-snug">{clip.title}</h2>
         <p className="text-[15px] leading-relaxed">{clip.takeaway}</p>
-        <p className="text-xs text-muted">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""}</p>
+        <p className="flex items-center justify-between gap-2 text-xs text-muted">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""} <HintButton kind="video" id={clip.id} label /></p>
         {clip.quiz && !quiz && (
           <button onClick={() => setQuiz(true)} className="press flex items-center gap-1 pt-1 text-sm font-semibold text-accent">
             {quizLabel} <ChevronDown size={16} />
@@ -162,6 +164,7 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
       <div ref={ref}>
         <AnimationPlayer animation={animation} active={active} mounted={near} compact={compact} onFinished={() => { setSeen(true); track("animation_complete", animation.id, "animation"); }} />
       </div>
+      <div className="flex justify-end"><HintButton kind="animation" id={animation.id} label /></div>
       {quiz && (seen || !!state.answers[quiz.id]) && (
         <div className="-mx-2 border-t border-line pt-3">
           <p className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-muted">{t("Verstanden?")}</p>

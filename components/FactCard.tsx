@@ -6,6 +6,7 @@ import { categoryById } from "@/lib/categories";
 import { AREAS, type Fact } from "@/lib/facts";
 import { isChild } from "@/lib/content";
 import { useStore, useT } from "@/lib/store";
+import HintButton from "./HintButton";
 import ShareImageButton from "./ShareImageButton";
 
 /** "Did you know?": one surprising fact, the explanation behind it on request, and its source. */
@@ -51,6 +52,7 @@ export default function FactCard({ fact }: { fact: Fact }) {
           </a>
         ))}
         <p className="mt-1">{fact.verification === "verified" ? t("Redaktionell geprüft") : t("Von KI geprüft, noch nicht redaktionell bestätigt.")}</p>
+        <div className="mt-1.5"><HintButton kind="fact" id={fact.id} label /></div>
       </footer>
     </article>
   );

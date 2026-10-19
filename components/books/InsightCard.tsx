@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Bookmark, Brain, Check, ChevronDown, Info, Lightbulb, RotateCcw } from "lucide-react";
 import BookVisual from "@/components/books/Visual";
+import HintButton from "@/components/HintButton";
 import { track } from "@/lib/analytics";
 import { EVIDENCE_HELP, EVIDENCE_NAME, FORMAT_NAME, rateRecall, type Book, type Idea } from "@/lib/books";
 import { categoryById } from "@/lib/categories";
@@ -175,6 +176,7 @@ export default function InsightCard({ book, idea, standalone, index }: { book: B
         <button onClick={() => toggleSaved(idea.id)} aria-label={isSaved ? t("Nicht mehr merken") : t("Merken")} aria-pressed={isSaved} className="press flex h-10 w-10 items-center justify-center rounded-full text-muted">
           <Bookmark size={19} fill={isSaved ? "currentColor" : "none"} />
         </button>
+        <HintButton kind="book" id={idea.id} />
         {record && (
           <span className="flex items-center gap-1 text-xs font-semibold text-good">
             <Check size={14} /> {t("{n}× abgerufen", { n: record.tries })}

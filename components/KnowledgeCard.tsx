@@ -10,6 +10,7 @@ import { isFormat, type AnswerKey, type FormatResponse } from "@/lib/formats";
 import FormatInput, { FORMAT_LABEL } from "./Formats";
 import { useStore, useT } from "@/lib/store";
 import ShareImageButton from "./ShareImageButton";
+import { HintSheet } from "./HintButton";
 import { Sheet } from "./ui";
 
 const LEVELS = ["", "Leicht", "Mittel", "Schwer"];
@@ -58,6 +59,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
   const [result, setResult] = useState<{ correct: boolean; correctIndex: number; explanation: string; answer?: AnswerKey } | null>(null);
   const special = isFormat(item.kind); // order, estimate, blank: own input instead of options
   const [menu, setMenu] = useState(false);
+  const [hint, setHint] = useState(false);
   const isFact = item.kind === "fact";
   // The answer is only known after submitting (or from an earlier attempt).
   const reveal = result ?? (prev ? { correct: prev.correct, correctIndex: prev.correctIndex, explanation: prev.explanation } : null);
@@ -202,11 +204,12 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
           <button onClick={() => hide(item)} className="press flex h-14 w-full items-center gap-3 rounded-2xl bg-raised px-4 text-left font-semibold">
             <EyeOff size={19} /> {t("Kein Interesse")}
           </button>
-          <button onClick={() => hide(item, true)} className="press flex h-14 w-full items-center gap-3 rounded-2xl bg-raised px-4 text-left font-semibold text-bad">
-            <Flag size={19} /> {t("Fehler oder Problem melden")}
+          <button onClick={() => { setMenu(false); setHint(true); }} data-testid="hint-button" className="press flex h-14 w-full items-center gap-3 rounded-2xl bg-raised px-4 text-left font-semibold">
+            <Flag size={19} /> {t("Hinweis an die Redaktion")}
           </button>
         </div>
       </Sheet>
+      <HintSheet kind="question" id={item.id} open={hint} onClose={() => setHint(false)} />
     </article>
   );
 }

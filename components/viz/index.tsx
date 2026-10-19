@@ -9,6 +9,7 @@ import { BookOpen, Check, ExternalLink, FlaskConical, Hand, Lightbulb, Shapes, T
 import KnowledgeCard from "@/components/KnowledgeCard";
 import type { VizProps } from "@/components/viz/types";
 import { track } from "@/lib/analytics";
+import HintButton from "@/components/HintButton";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
 import { KIND_NAME, TYPE_NAME, type Visual, type VisualType } from "@/lib/visuals";
@@ -130,6 +131,7 @@ export default function VisualCard({ visual, titles = {} }: { visual: Visual; ti
           </a>
         ))}
         <p>{visual.verification === "verified" ? t("Redaktionell geprüft") : t("Von KI geprüft, noch nicht redaktionell bestätigt.")}</p>
+        <HintButton kind="visual" id={visual.id} label />
       </footer>
     </article>
   );

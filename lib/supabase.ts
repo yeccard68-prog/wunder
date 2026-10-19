@@ -351,6 +351,24 @@ export async function fetchHeardFrom(): Promise<HeardFromRow[]> {
   return (data ?? []) as HeardFromRow[];
 }
 
+// ---------- hints to the editors (not public; filter and daily limit in the database) ----------
+export async function sendContentHint(kind: string, id: string, reason: string, note: string, locale: string) {
+  const { error } = await db().rpc("content_hint_send", { p_kind: kind, p_id: id, p_reason: reason, p_note: note.trim() || null, p_locale: locale });
+  if (error) throw error;
+}
+export interface ContentHint { kind: string; content_id: string; hints: number; reasons: string[]; notes: string[]; last_at: string }
+/** Editors: open hints grouped by card, most first. */
+export async function fetchContentHints(): Promise<ContentHint[]> {
+  const { data, error } = await db().rpc("admin_content_hints");
+  if (error) throw error;
+  return (data ?? []) as ContentHint[];
+}
+/** Editors: close the open hints of a card – corrected or left as it is. */
+export async function resolveContentHints(kind: string, id: string, resolution: "fixed" | "kept") {
+  const { error } = await db().rpc("admin_resolve_hints", { p_kind: kind, p_id: id, p_resolution: resolution });
+  if (error) throw error;
+}
+
 // ---------- content review (admins only – enforced by the database, not by the app) ----------
 export interface ReviewItem {
   kind: "question" | "video";
