@@ -1712,5 +1712,143 @@
         "detail": "Their blood pigment is called hemocyanin – from the Greek word for “dark blue”. Our red haemoglobin binds oxygen with iron instead."
       }
     }
+  },
+  {
+    "id": "f-hawaii-alphabet",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das hawaiische Alphabet kommt mit 13 Zeichen aus.",
+    "detail": "Es besteht aus 12 Buchstaben der lateinischen Schrift und dem Zeichen ʻOkina. Damit ist es eines der kürzesten Alphabete der Welt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Hawaiische Sprache",
+        "url": "https://de.wikipedia.org/wiki/Hawaiische_Sprache"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The Hawaiian alphabet gets by with 13 characters.",
+        "detail": "It consists of 12 letters of the Latin script plus the character ʻokina. That makes it one of the shortest alphabets in the world."
+      }
+    }
+  },
+  {
+    "id": "f-marathon-1921",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Die Marathonstrecke von 42,195 Kilometern ist erst seit 1921 festgelegt.",
+    "detail": "Der Marathon ist die längste olympische Laufdisziplin in der Leichtathletik. Bei großen Meisterschaften endet er oft mit einer Runde im Stadion.",
+    "sources": [
+      {
+        "name": "Wikipedia: Marathonlauf",
+        "url": "https://de.wikipedia.org/wiki/Marathonlauf"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The marathon distance of 42.195 kilometres has only been fixed since 1921.",
+        "detail": "The marathon is the longest Olympic running event in athletics. At major championships it often finishes with a lap in the stadium."
+      }
+    }
+  },
+  {
+    "id": "f-erste-aktie",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Die ersten Aktien gab die Niederländische Ostindien-Kompanie aus – gegründet 1602.",
+    "detail": "Das Handelsunternehmen beherrschte einen Teil des lukrativen Indienhandels und war in sechs „Kammern“ gegliedert. Nach einem Krieg gegen England geriet es in Geldnot und wurde 1798 aufgelöst.",
+    "sources": [
+      {
+        "name": "Wikipedia: Niederländische Ostindien-Kompanie",
+        "url": "https://de.wikipedia.org/wiki/Niederländische_Ostindien-Kompanie"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The first shares were issued by the Dutch East India Company – founded in 1602.",
+        "detail": "The trading company dominated part of the lucrative trade with the East Indies and was organised in six “chambers”. After a war with England it ran into financial trouble and was dissolved in 1798."
+      }
+    }
+  },
+  {
+    "id": "f-euro-bargeld",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Den Euro gab es drei Jahre lang nur auf dem Konto, bevor Scheine und Münzen kamen.",
+    "detail": "Am 1. Januar 1999 wurde er als Buchgeld eingeführt, am 1. Januar 2002 als Bargeld. Nach dem US-Dollar ist er die zweitwichtigste Reservewährung der Welt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Euro",
+        "url": "https://de.wikipedia.org/wiki/Euro"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "For three years the euro existed only in accounts before notes and coins arrived.",
+        "detail": "It was introduced as book money on 1 January 1999 and as cash on 1 January 2002. After the US dollar it is the world's second most important reserve currency."
+      }
+    }
+  },
+  {
+    "id": "f-kuerzester-krieg",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Der kürzeste Krieg der Geschichte dauerte 38 Minuten.",
+    "detail": "Großbritannien und das Sultanat Sansibar kämpften am 27. August 1896 von 9:00 bis 9:38 Uhr. Das Guinness-Buch der Rekorde führt ihn als kürzesten Krieg der Weltgeschichte.",
+    "sources": [
+      {
+        "name": "Wikipedia: Britisch-Sansibarischer Krieg",
+        "url": "https://de.wikipedia.org/wiki/Britisch-Sansibarischer_Krieg"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The shortest war in history lasted 38 minutes.",
+        "detail": "Britain and the Sultanate of Zanzibar fought on 27 August 1896 from 9:00 to 9:38 a.m. Guinness World Records lists it as the shortest war in history."
+      }
+    }
+  },
+  {
+    "id": "f-mauer-mond",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Die Chinesische Mauer ist vom Mond aus nicht zu sehen.",
+    "detail": "Der Mond ist rund 380.000 Kilometer entfernt – die Mauer mit bloßem Auge von dort zu erkennen, wäre unmöglich. Die meisten bemannten Raumflüge fanden in 300 bis 600 Kilometern Höhe statt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Chinesische Mauer",
+        "url": "https://de.wikipedia.org/wiki/Chinesische_Mauer"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The Great Wall of China cannot be seen from the Moon.",
+        "detail": "The Moon is about 380,000 kilometres away – spotting the wall from there with the naked eye would be impossible. Most crewed spaceflights have taken place 300 to 600 kilometres up."
+      }
+    }
   }
 ]

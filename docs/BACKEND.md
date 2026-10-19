@@ -419,3 +419,4 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 
 - Auf Wunsch des Betreibers öffnet die App sofort den Feed – die frühere erste Seite („Hallo …“, Tagesziel-Ring, Daily Challenge, fällige Wiederholungen) ist weg. Fällige Wiederholungen mischt der Feed selbst ein (Abschnitt 41); die Quiz-Seite bietet weiter „Wiederholen“ und „Freies Üben“.
 - Die Daily Challenge ist aus der Oberfläche entfernt (Quiz-Seite, Sitzungsmodus, Store, Server-Aufruf im Client). Die Datenbankfunktion `complete_daily_challenge` und die Felder in `user_stats` bleiben unangetastet (keine Daten gelöscht); Challenges gegen Freunde nutzen weiter `dailyItems`. Die Abzeichen „Tagesform“ und „Fünf von fünf“ sind ersetzt durch „Staunender Blick“ (10 Fakten mit Wow) und „Dranbleiber im Kino“ (5 Clips zu Ende geschaut).
+- **Inhalte:** 6 weitere Fakten (80) aus Sprache, Sport, Wirtschaft, Geschichte. Benchmark und Vorschläge in `docs/BENCHMARK.md`.
