@@ -5,9 +5,9 @@
 | Inhalt | Anzahl | Status |
 |---|---|---|
 | Fragekarten im Feed | 766 (davon 84 „Stimmt das?“, 49 neue Formate, 51 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
-| Video-Quizfragen | 54 | zweiter Versuch mit Hinweis, halbe Punkte |
-| Clips | 48 veröffentlicht (45 fremde, 3 eigene), 6 archiviert | fremde frei lizenziert mit Quelle und Urheber je Clip (`/legal/`); eigene mit Remotion gerendert (`video/`), je Sprache eine Datei |
-| Animationen | 25 (24 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
+| Video-Quizfragen | 56 | zweiter Versuch mit Hinweis, halbe Punkte |
+| Clips | 50 veröffentlicht (45 fremde, 5 eigene), 6 archiviert | fremde frei lizenziert mit Quelle und Urheber je Clip (`/legal/`); eigene mit Remotion gerendert (`video/`), je Sprache eine Datei |
+| Animationen | 26 (alle in 3D; Herz seit 18.10.2026 neu) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 6 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste, Schrift-Zeitleiste) | 4 mit echten Daten, 2 Rechenmodelle; auch im Feed |
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee; Copyright am 15.10.2026 erneut geprüft; Affiliate-Link vorbereitet (aus, bis ein Partner-Tag eingetragen ist) |
 | Fakten („Wusstest du?“) | 58 aus 13 Bereichen | im Feed und unter Entdecken → Fakten, je mit Quelle |
@@ -20,9 +20,9 @@ Karten je Thema (Feed): Wissenschaft 105, Kultur & Gesellschaft 83, Technologie 
 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
-| 1.000 Quizfragen | 820 | rund 150 pro Stapel sind in guter Qualität machbar |
-| 100 Kurzvideos | 48 | seit 15.10.2026 auch eigene Clips mit Remotion – unabhängig von freien Quellen, je Clip etwa so viel Handarbeit wie eine kleine Animation |
-| 50 Animationen | 25 | jede 3D-Szene ist Handarbeit im Code |
+| 1.000 Quizfragen | 823 | rund 150 pro Stapel sind in guter Qualität machbar |
+| 100 Kurzvideos | 50 | seit 15.10.2026 auch eigene Clips mit Remotion – unabhängig von freien Quellen, je Clip etwa so viel Handarbeit wie eine kleine Animation |
+| 50 Animationen | 26 | jede 3D-Szene ist Handarbeit im Code |
 | rund 20 Bücher | 20 | je drei Ideen; fünf je Buch wären der nächste Ausbau |
 | 200 Aufgaben für unter 6-Jährige | 0 | zurückgestellt; die App ist nur ab 16 freigegeben |
 
