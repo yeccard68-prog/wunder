@@ -12,7 +12,7 @@ import { useStore, useT } from "@/lib/store";
 import type { AgeBand, Motivation } from "@/lib/types";
 import Account from "./Account";
 import KnowledgeCard from "./KnowledgeCard";
-import { Button, Sheet, Wordmark } from "./ui";
+import { Button, Sheet, Toggle, Wordmark } from "./ui";
 
 const BLURBS: Record<string, string> = {
   science: "Vom Atom bis zum Universum",
@@ -65,6 +65,7 @@ export default function Onboarding() {
   const [motivation, setMotivation] = useState<Motivation>("discover");
   const [answered, setAnswered] = useState(false);
   const [name, setName] = useState("");
+  const [stats, setStats] = useState(false); // opt-in: off until the learner switches it on
   const [signIn, setSignIn] = useState(false);
   const locale = state.settings.locale;
 
@@ -77,7 +78,7 @@ export default function Onboarding() {
     setAge(band);
     update({ ageBand: band }); // content is filtered from the next step on
   };
-  const finish = () => update({ onboarded: true, interests, goalMinutes: goal, motivation, ageBand: age, username: name.trim() || t("Neugierig") });
+  const finish = () => update({ onboarded: true, interests, goalMinutes: goal, motivation, ageBand: age, username: name.trim() || t("Neugierig"), settings: { ...state.settings, analytics: stats } });
   const badName = !!name.trim() && !nameAllowed(name);
   const canNext = step === 1 ? !!age : step === 2 ? interests.length > 0 : step === 5 ? answered || !sample : step === 6 ? !badName : true;
 
@@ -245,6 +246,13 @@ export default function Onboarding() {
             </label>
             <input id="name" value={name} onChange={(e) => setName(e.target.value)} maxLength={20} placeholder={t("z. B. Alex")} aria-invalid={badName} className={`h-14 w-full rounded-2xl border bg-surface px-4 text-lg outline-none focus:border-ink ${badName ? "border-bad" : "border-line"}`} />
             <p className={`mb-8 mt-1.5 text-sm ${badName ? "text-bad" : "text-muted"}`} role={badName ? "alert" : undefined}>{badName ? t("Dieser Name ist nicht erlaubt – andere sehen ihn im Duell.") : t("Andere sehen ihn im Duell, wenn dein Profil nicht privat ist.")}</p>
+            <div className="mb-8 flex items-start gap-3 rounded-2xl bg-raised p-4">
+              <div className="flex-1">
+                <p className="text-sm font-semibold">{t("Nutzungsstatistik teilen (freiwillig)")}</p>
+                <p className="mt-1 text-xs leading-relaxed text-muted">{t("Hilft uns zu sehen, welche Inhalte angesehen und abgeschlossen werden. Gespeichert wird nur, was du geöffnet oder beendet hast – keine Texte, kein Standort. Jederzeit abschaltbar.")}</p>
+              </div>
+              <Toggle label={t("Nutzungsstatistik teilen")} checked={stats} onChange={setStats} />
+            </div>
             <p className="mb-2 text-sm font-semibold">{t("Fortschritt sichern (optional)")}</p>
             <Account allowSignIn={false} />
           </>

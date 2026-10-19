@@ -5,6 +5,7 @@ import { Check, Mail } from "lucide-react";
 import { canRegister } from "@/lib/content";
 import { useStore, useT } from "@/lib/store";
 import { isNative } from "@/lib/native";
+import { verifyEmailCode } from "@/lib/supabase";
 import { Button } from "./ui";
 
 /**
@@ -20,6 +21,7 @@ export default function Account({ allowSignIn = true, initialMode = "register" }
   const [email, setEmail] = useState("");
   const [busy, setBusy] = useState(false);
   const [sentTo, setSentTo] = useState<string | null>(null);
+  const [code, setCode] = useState("");
 
   if (auth.mode === "demo")
     return (
@@ -55,6 +57,25 @@ export default function Account({ allowSignIn = true, initialMode = "register" }
           <Mail size={16} /> {t("Link gesendet an {email}", { email: sentTo })}
         </p>
         <p className="mt-1 text-muted">{mode === "register" ? t("Öffne die E-Mail auf diesem Gerät und tippe auf den Link, um dein Konto zu bestätigen.") : t("Öffne die E-Mail auf diesem Gerät und tippe auf den Link, um dich anzumelden.")}</p>
+        <form
+          className="mt-3 flex gap-2"
+          onSubmit={async (e) => {
+            e.preventDefault();
+            setBusy(true);
+            try {
+              await verifyEmailCode(sentTo, code, mode);
+              toast(mode === "register" ? t("Konto gesichert") : t("Angemeldet"));
+            } catch {
+              toast(t("Der Code stimmt nicht oder ist abgelaufen."));
+            } finally {
+              setBusy(false);
+            }
+          }}
+        >
+          <input inputMode="numeric" autoComplete="one-time-code" value={code} onChange={(e) => setCode(e.target.value.replace(/[^0-9]/g, "").slice(0, 6))} placeholder={t("Code aus der E-Mail")} aria-label={t("Code aus der E-Mail")} className="tnum h-11 min-w-0 flex-1 rounded-full border border-line bg-surface px-4 tracking-widest outline-none focus:border-ink" />
+          <Button type="submit" className="h-11" disabled={busy || code.length !== 6}>{t("Bestätigen")}</Button>
+        </form>
+        <p className="mt-1 text-xs text-muted">{t("Oder gib den sechsstelligen Code aus der E-Mail ein – praktisch in der App.")}</p>
         <button onClick={() => setSentTo(null)} className="mt-2 text-sm font-semibold underline">{t("Andere Adresse verwenden")}</button>
       </div>
     );
@@ -82,17 +103,16 @@ export default function Account({ allowSignIn = true, initialMode = "register" }
             ? t("Achtung: Nach der Anmeldung siehst du den Stand deines Kontos. Der Gast-Fortschritt auf diesem Gerät ({n} XP) wird nicht übernommen.", { n: state.xp })
             : t("Wir senden dir einen Anmeldelink per E-Mail.")}
       </p>
-      {mode === "signin" && isNative() ? (
-        // the sign-in link opens the browser, which cannot hand the session to the app (yet)
-        <p className="rounded-2xl bg-raised p-4 text-sm leading-relaxed" data-testid="native-signin">{t("Mit einem bestehenden Konto anmelden geht in der App noch nicht. Öffne dafür {site} im Browser.", { site: "wunder-one.vercel.app" })}</p>
-      ) : (
+      {mode === "signin" && isNative() && (
+        // the link opens the browser, which cannot hand the session to the app – the code from the e-mail can
+        <p className="rounded-2xl bg-raised p-3 text-xs leading-relaxed text-muted" data-testid="native-signin">{t("In der App: Gib danach den Code aus der E-Mail ein – der Link würde den Browser öffnen.")}</p>
+      )}
       <form className="flex gap-2" onSubmit={submit}>
         <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder={t("E-Mail-Adresse")} aria-label={t("E-Mail-Adresse")} autoComplete="email" className="h-12 min-w-0 flex-1 rounded-full border border-line bg-surface px-4 text-[15px] outline-none focus:border-ink" />
         <Button type="submit" disabled={busy}>
           {mode === "register" ? t("Sichern") : t("Anmelden")}
         </Button>
       </form>
-      )}
       {allowSignIn && (
         <button onClick={() => setMode(mode === "register" ? "signin" : "register")} className="text-sm font-semibold underline">
           {mode === "register" ? t("Ich habe schon ein Konto") : t("Zurück: Gast-Fortschritt sichern")}

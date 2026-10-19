@@ -83,6 +83,15 @@ export async function signInWithEmail(email: string) {
   if (error) throw error;
 }
 
+/**
+ * The six-digit code from the e-mail instead of the link – works in the Android app too, where the link would
+ * open the browser. Needs {{ .Token }} in the Supabase e-mail templates (Authentication → Email Templates).
+ */
+export async function verifyEmailCode(email: string, token: string, purpose: "signin" | "register") {
+  const { error } = await db().auth.verifyOtp({ email, token, type: purpose === "signin" ? "email" : "email_change" });
+  if (error) throw error;
+}
+
 export async function signOut() {
   const { error } = await db().auth.signOut();
   if (error) throw error;
