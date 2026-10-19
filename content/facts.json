@@ -1336,5 +1336,239 @@
         "detail": "With 64 squares, each doubling the last, the total is 2⁶⁴ − 1, a little over 18 · 10¹⁸. The legend tells of a sage who asked the king for his reward this way."
       }
     }
+  },
+  {
+    "id": "f-faultier-algen",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Im Fell von Faultieren wachsen Algen – sie färben es grünlich.",
+    "detail": "Die Algen siedeln in den Haaren und sind eine Tarnung: Zwischen den Blättern wirkt das Tier dadurch grün schimmernd, besonders in der Regenzeit.",
+    "sources": [
+      {
+        "name": "Wikipedia: Faultiere",
+        "url": "https://de.wikipedia.org/wiki/Faultiere"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Algae grow in sloths' fur – they give it a greenish tint.",
+        "detail": "The algae live in the hair and act as camouflage: among the leaves the animal looks shimmering green, especially in the rainy season."
+      }
+    }
+  },
+  {
+    "id": "f-seepferdchen",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Bei Seepferdchen bringen die Männchen die Jungen zur Welt.",
+    "detail": "Das Weibchen legt die Eier in eine Bruttasche am Bauch des Männchens. Dort entwickeln sie sich, bis das Männchen die fertigen Jungfische ausstößt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Seepferdchen",
+        "url": "https://de.wikipedia.org/wiki/Seepferdchen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "In seahorses, the males give birth to the young.",
+        "detail": "The female lays her eggs in a brood pouch on the male's belly. They develop there until the male releases the finished young fish."
+      }
+    }
+  },
+  {
+    "id": "f-eisbaer-haut",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Eisbären haben unter ihrem hellen Fell eine schwarze Haut.",
+    "detail": "Bei Jungtieren ist die Haut noch rosa. Die äußeren Fellhaare sind hohl und durchsichtig, nicht weiß. Unter der Haut liegt eine 5 bis 10 Zentimeter dicke Fettschicht.",
+    "sources": [
+      {
+        "name": "Wikipedia: Eisbär",
+        "url": "https://de.wikipedia.org/wiki/Eisbär"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Under their pale fur, polar bears have black skin.",
+        "detail": "In cubs the skin is still pink. The outer hairs are hollow and transparent, not white. Under the skin lies a layer of fat 5 to 10 centimetres thick."
+      }
+    }
+  },
+  {
+    "id": "f-zitteraal",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Ein Zitteraal kann Stromstöße mit bis zu 860 Volt abgeben.",
+    "detail": "Damit verteidigt er sich und betäubt oder tötet Beute. Seine elektrischen Organe nehmen etwa vier Fünftel seiner Körperlänge ein. Schwächere Felder nutzt er zur Orientierung.",
+    "sources": [
+      {
+        "name": "Wikipedia: Zitteraale",
+        "url": "https://de.wikipedia.org/wiki/Zitteraale"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "An electric eel can deliver shocks of up to 860 volts.",
+        "detail": "It uses them to defend itself and to stun or kill prey. Its electric organs take up about four fifths of its body length. It uses weaker fields to find its way."
+      }
+    }
+  },
+  {
+    "id": "f-schnecken-zaehne",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Die Raspelzunge von Schnecken und anderen Weichtieren kann bis zu 800.000 winzige Zähne tragen.",
+    "detail": "Sie sitzen in Reihen auf der Radula, mit der die Tiere ihre Nahrung abraspeln und zerkleinern.",
+    "sources": [
+      {
+        "name": "Wikipedia: Radula",
+        "url": "https://de.wikipedia.org/wiki/Radula"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The rasping tongue of snails and other molluscs can carry up to 800,000 tiny teeth.",
+        "detail": "They sit in rows on the radula, which the animals use to rasp off and break up their food."
+      }
+    }
+  },
+  {
+    "id": "f-baertierchen",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Bärtierchen haben zehn Tage ungeschützt im Weltall überlebt.",
+    "detail": "2007 setzte die ESA sie auf dem Satelliten FOTON-M3 dem Vakuum, der Kälte und der UV-Strahlung des Alls aus. Nach der Rückkehr fanden sich Überlebende – selbst unter denen, die den härtesten Bedingungen ausgesetzt waren.",
+    "sources": [
+      {
+        "name": "Wikipedia: Bärtierchen",
+        "url": "https://de.wikipedia.org/wiki/Bärtierchen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Tardigrades survived ten days unprotected in space.",
+        "detail": "In 2007 ESA exposed them to the vacuum, cold and UV radiation of space on the FOTON-M3 satellite. After their return there were survivors – even among those exposed to the harshest conditions."
+      }
+    }
+  },
+  {
+    "id": "f-venus-rueckwaerts",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Die Venus dreht sich andersherum als fast alle anderen Planeten.",
+    "detail": "Von ihrem Nordpol aus gesehen rotiert sie im Uhrzeigersinn – rückläufig. Auf der Venus ginge die Sonne deshalb im Westen auf.",
+    "sources": [
+      {
+        "name": "Wikipedia: Venus (Planet)",
+        "url": "https://de.wikipedia.org/wiki/Venus_(Planet)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Venus spins the opposite way to almost all other planets.",
+        "detail": "Seen from its north pole it rotates clockwise – retrograde. On Venus the Sun would therefore rise in the west."
+      }
+    }
+  },
+  {
+    "id": "f-neutronenstern",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Auf einem Neutronenstern wiegt ein Kubikzentimeter Materie schon an der Oberfläche etwa eine Tonne.",
+    "detail": "Ein Neutronenstern hat mehr Masse als die Sonne, ist aber extrem klein. Nach innen steigt die Dichte noch um ein Vielfaches – bis auf etwa das Dreifache der Dichte eines Atomkerns.",
+    "sources": [
+      {
+        "name": "Wikipedia: Neutronenstern",
+        "url": "https://de.wikipedia.org/wiki/Neutronenstern"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "On a neutron star, one cubic centimetre of matter weighs about a tonne even at the surface.",
+        "detail": "A neutron star has more mass than the Sun but is extremely small. Further in, the density rises many times over – up to about three times the density of an atomic nucleus."
+      }
+    }
+  },
+  {
+    "id": "f-blitz-heiss",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Ein Blitz erhitzt die Luft auf bis zu 30.000 °C – mehrmals heißer als die Oberfläche der Sonne.",
+    "detail": "Die Sonne leuchtet mit etwa 5800 Kelvin, also gut 5500 °C.",
+    "sources": [
+      {
+        "name": "Wikipedia: Blitz",
+        "url": "https://de.wikipedia.org/wiki/Blitz"
+      },
+      {
+        "name": "Wikipedia: Sonne",
+        "url": "https://de.wikipedia.org/wiki/Sonne"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T10:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Lightning heats the air to as much as 30,000 °C – several times hotter than the surface of the Sun.",
+        "detail": "The Sun shines at about 5,800 kelvin, a little over 5,500 °C."
+      }
+    }
+  },
+  {
+    "id": "f-eis-ausdehnung",
+    "category_id": "science",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Wasser dehnt sich beim Gefrieren um fast 9 % aus.",
+    "detail": "Genauer: um 8,92 %. Umgekehrt schrumpft Eis beim Schmelzen um 8,19 %.",
+    "sources": [
+      {
+        "name": "Wikipedia: Dichteanomalie",
+        "url": "https://de.wikipedia.org/wiki/Dichteanomalie"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T10:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Water expands by almost 9% when it freezes.",
+        "detail": "To be exact: by 8.92%. The other way round, ice shrinks by 8.19% when it melts."
+      }
+    }
   }
 ]
