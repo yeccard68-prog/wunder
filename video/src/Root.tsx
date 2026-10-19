@@ -4,6 +4,8 @@ import type { ComponentType } from "react";
 import { Composition } from "remotion";
 import clips from "./clips.json";
 import { MarathonRunden } from "./clips/MarathonRunden";
+import { PapierMond } from "./clips/PapierMond";
+import { SonneMasse } from "./clips/SonneMasse";
 import { PyramideMond } from "./clips/PyramideMond";
 import { Zinseszins } from "./clips/Zinseszins";
 import { FPS, H, W, type Locale } from "./theme";
@@ -12,6 +14,8 @@ const COMPONENTS: Record<string, ComponentType<{ locale: Locale }>> = {
   "v-zinseszins": Zinseszins,
   "v-pyramide-mond": PyramideMond,
   "v-marathon-runden": MarathonRunden,
+  "v-papier-mond": PapierMond,
+  "v-sonne-masse": SonneMasse,
 };
 
 export function Root() {

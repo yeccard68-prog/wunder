@@ -3221,5 +3221,133 @@
         "poster": "/clips/v-marathon-runden.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-papier-mond",
+    "category_id": "math",
+    "title": "42-mal gefaltet bis zum Mond",
+    "hook": "Jedes Falten verdoppelt die Dicke – und Verdoppeln wird schneller riesig, als man denkt.",
+    "description": "Ein Blatt Papier ist etwa 0,1 Millimeter dick. Jedes Falten verdoppelt die Dicke. Nach 27 Faltungen wäre der Stapel höher als der Mount Everest (gut 8.848 Meter), nach 32 höher, als die Raumstation ISS fliegt (rund 400 Kilometer), und nach 42 Faltungen wären es rund 440.000 Kilometer – mehr als die mittlere Entfernung zum Mond von 384.400 Kilometern. In Wirklichkeit lässt sich Papier nur wenige Male falten; der Clip zeigt, wie schnell Verdoppeln wächst.",
+    "video_url": "/clips/v-papier-mond.mp4",
+    "thumbnail_url": "/clips/v-papier-mond.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Ein Blatt Papier: 0,1 Millimeter.",
+      "Jedes Falten verdoppelt die Dicke – nach 27-mal höher als der Everest.",
+      "Nach 42-mal: rund 440.000 Kilometer, weiter als bis zum Mond."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Exponentielles Wachstum",
+        "url": "https://de.wikipedia.org/wiki/Exponentielles_Wachstum"
+      },
+      {
+        "name": "Wikipedia: Mond",
+        "url": "https://de.wikipedia.org/wiki/Mond"
+      },
+      {
+        "name": "Wikipedia: Internationale Raumstation",
+        "url": "https://de.wikipedia.org/wiki/Internationale_Raumstation"
+      },
+      {
+        "name": "Wikipedia: Mount Everest",
+        "url": "https://de.wikipedia.org/wiki/Mount_Everest"
+      }
+    ],
+    "published_at": "2026-10-19T12:00:00Z",
+    "tags": [
+      "Zahlen",
+      "Mond"
+    ],
+    "quiz_question_id": "q-v-papier-mond",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-papier-mond",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Folded 42 times to the Moon",
+        "hook": "Every fold doubles the thickness – and doubling gets huge faster than you think.",
+        "description": "A sheet of paper is about 0.1 millimetres thick. Each fold doubles the thickness. After 27 folds the stack would be taller than Mount Everest (just over 8,848 metres), after 32 higher than the ISS flies (about 400 kilometres), and after 42 folds it would be about 440,000 kilometres – more than the average distance to the Moon of 384,400 kilometres. In reality paper can only be folded a few times; the clip shows how fast doubling grows.",
+        "captions": [
+          "A sheet of paper: 0.1 millimetres.",
+          "Every fold doubles the thickness – after 27 it is taller than Everest.",
+          "After 42: about 440,000 kilometres, further than the Moon."
+        ],
+        "file": "/clips/v-papier-mond.en.mp4",
+        "poster": "/clips/v-papier-mond.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-sonne-masse",
+    "category_id": "science",
+    "title": "Die Sonne wiegt fast alles",
+    "hook": "Von 1.000 Teilen der Masse im Sonnensystem gehören fast 999 der Sonne.",
+    "description": "Die Sonne enthält 99,86 % der Masse des Sonnensystems. Teilt man diese Masse in 1.000 gleiche Teile, gehören 998,6 davon der Sonne. Für alle acht Planeten, ihre Monde, die Asteroiden und Kometen zusammen bleiben nur 1,4 Teile. Ihr Durchmesser ist etwa 110-mal so groß wie der der Erde.",
+    "video_url": "/clips/v-sonne-masse.mp4",
+    "thumbnail_url": "/clips/v-sonne-masse.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Die Masse des Sonnensystems in 1.000 Teilen.",
+      "998,6 davon gehören der Sonne.",
+      "Für alle Planeten, Monde und Kometen bleiben 1,4 Teile."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Sonne",
+        "url": "https://de.wikipedia.org/wiki/Sonne"
+      }
+    ],
+    "published_at": "2026-10-18T12:00:00Z",
+    "tags": [
+      "Weltraum",
+      "Sonne"
+    ],
+    "quiz_question_id": "q-v-sonne-masse",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-sonne-masse",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "The Sun weighs almost everything",
+        "hook": "Of 1,000 parts of the solar system's mass, almost 999 belong to the Sun.",
+        "description": "The Sun holds 99.86% of the solar system's mass. Split that mass into 1,000 equal parts and 998.6 of them belong to the Sun. All eight planets, their moons, the asteroids and comets together share just 1.4 parts. Its diameter is about 110 times that of Earth.",
+        "captions": [
+          "The solar system's mass in 1,000 parts.",
+          "998.6 of them belong to the Sun.",
+          "All planets, moons and comets share 1.4 parts."
+        ],
+        "file": "/clips/v-sonne-masse.en.mp4",
+        "poster": "/clips/v-sonne-masse.en.jpg"
+      }
+    }
   }
 ]

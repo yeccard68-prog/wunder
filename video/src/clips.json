@@ -1,5 +1,27 @@
 [
-  { "id": "v-zinseszins", "seconds": 10, "thumbFrame": 270 },
-  { "id": "v-pyramide-mond", "seconds": 10, "thumbFrame": 270 },
-  { "id": "v-marathon-runden", "seconds": 10, "thumbFrame": 285 }
+  {
+    "id": "v-zinseszins",
+    "seconds": 10,
+    "thumbFrame": 270
+  },
+  {
+    "id": "v-pyramide-mond",
+    "seconds": 10,
+    "thumbFrame": 270
+  },
+  {
+    "id": "v-marathon-runden",
+    "seconds": 10,
+    "thumbFrame": 285
+  },
+  {
+    "id": "v-papier-mond",
+    "seconds": 10,
+    "thumbFrame": 270
+  },
+  {
+    "id": "v-sonne-masse",
+    "seconds": 10,
+    "thumbFrame": 270
+  }
 ]

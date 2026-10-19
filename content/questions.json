@@ -32179,5 +32179,85 @@
         "explanation": "The Moon's pull stretches the oceans into two bulges – one on the side facing the Moon and one on the far side. As the Earth turns once, a place passes both."
       }
     }
+  },
+  {
+    "id": "q-v-papier-mond",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie oft müsste man ein 0,1 mm dickes Blatt falten, damit der Stapel bis zum Mond reicht?",
+    "options": [
+      "Etwa 42-mal",
+      "Etwa 420-mal",
+      "Etwa 4.200-mal",
+      "Etwa 42.000-mal"
+    ],
+    "correct_index": 0,
+    "explanation": "0,1 mm · 2⁴² ≈ 440.000 km – mehr als die mittlere Entfernung zum Mond (384.400 km). Verdoppeln wächst extrem schnell.",
+    "difficulty": 1,
+    "tags": [
+      "Zahlen",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Exponentielles Wachstum",
+    "source_url": "https://de.wikipedia.org/wiki/Exponentielles_Wachstum",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many times would you have to fold a 0.1 mm sheet for the stack to reach the Moon?",
+        "options": [
+          "About 42 times",
+          "About 420 times",
+          "About 4,200 times",
+          "About 42,000 times"
+        ],
+        "explanation": "0.1 mm · 2⁴² ≈ 440,000 km – more than the average distance to the Moon (384,400 km). Doubling grows extremely fast."
+      }
+    }
+  },
+  {
+    "id": "q-v-sonne-masse",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welcher Anteil der Masse des Sonnensystems steckt in der Sonne?",
+    "options": [
+      "Rund 99,9 %",
+      "Rund 75 %",
+      "Rund 50 %",
+      "Rund 10 %"
+    ],
+    "correct_index": 0,
+    "explanation": "Es sind 99,86 %. Alle Planeten, Monde, Asteroiden und Kometen zusammen machen nur rund 0,14 % aus.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Sonne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonne",
+    "source_url": "https://de.wikipedia.org/wiki/Sonne",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What share of the solar system's mass is in the Sun?",
+        "options": [
+          "About 99.9%",
+          "About 75%",
+          "About 50%",
+          "About 10%"
+        ],
+        "explanation": "It is 99.86%. All planets, moons, asteroids and comets together make up only about 0.14%."
+      }
+    }
   }
 ]
