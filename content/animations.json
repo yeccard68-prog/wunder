@@ -2486,5 +2486,103 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T12:00:00Z",
+    "id": "a-gezeiten",
+    "category_id": "earth",
+    "scene": "tides",
+    "title": "Wie Ebbe und Flut entstehen",
+    "summary": "Der Mond zieht an den Meeren – und die Erde dreht sich darunter hindurch.",
+    "goal": "Du kannst erklären, warum es meist zweimal am Tag Hochwasser gibt und wann die Flut besonders hoch ausfällt.",
+    "labels": [
+      "Mond",
+      "Flutberg zum Mond",
+      "Flutberg auf der abgewandten Seite",
+      "Hochwasser",
+      "Niedrigwasser",
+      "Springtide: Sonne und Mond in einer Linie",
+      "Nipptide: im rechten Winkel",
+      "Sonne",
+      "Anziehung des Mondes"
+    ],
+    "steps": [
+      {
+        "text": "Der Mond zieht mit seiner Schwerkraft an der Erde und an ihren Meeren. Auf der Seite, die ihm zugewandt ist, zieht er etwas stärker – dort wölbt sich das Wasser zu einem Flutberg auf. (Die Höhe ist hier stark übertrieben.)",
+        "seconds": 9
+      },
+      {
+        "text": "Auch auf der abgewandten Seite entsteht ein Flutberg. Dort zieht der Mond etwas schwächer als im Durchschnitt. Der Unterschied streckt die Meere nach beiden Seiten.",
+        "seconds": 9
+      },
+      {
+        "text": "Die Erde dreht sich unter den beiden Flutbergen hindurch. Ein Hafen kommt deshalb an beiden vorbei: zweimal Hochwasser und zweimal Niedrigwasser – und weil der Mond weiterwandert, rund 24 Stunden und 50 Minuten für eine volle Runde.",
+        "seconds": 10
+      },
+      {
+        "text": "Auch die Sonne zieht an den Meeren, im Mittel mit knapp der Hälfte der Kraft des Mondes. Stehen Sonne und Mond in einer Linie – bei Neumond und Vollmond –, addieren sich ihre Wirkungen zur Springtide. Bei Halbmond stehen sie im rechten Winkel: Es gibt eine kleine Nipptide.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Gezeiten",
+        "url": "https://de.wikipedia.org/wiki/Gezeiten"
+      }
+    ],
+    "quiz_question_id": "qa-gezeiten",
+    "translations": {
+      "en": {
+        "title": "How ebb and flow happen",
+        "summary": "The Moon pulls on the oceans – and the Earth turns underneath.",
+        "goal": "You can explain why there is usually high tide twice a day and when the tide is especially high.",
+        "labels": [
+          "Moon",
+          "bulge facing the Moon",
+          "bulge on the far side",
+          "high tide",
+          "low tide",
+          "spring tide: Sun and Moon in a line",
+          "neap tide: at a right angle",
+          "Sun",
+          "pull of the Moon"
+        ],
+        "steps": [
+          "The Moon's gravity pulls on the Earth and its oceans. On the side facing it, it pulls a little harder – there the water rises into a bulge. (The height is greatly exaggerated here.)",
+          "A bulge also forms on the far side. There the Moon pulls a little less than on average. The difference stretches the oceans out to both sides.",
+          "The Earth turns underneath the two bulges. So a harbour passes both: two high tides and two low tides – and because the Moon moves on, a full round takes about 24 hours and 50 minutes.",
+          "The Sun pulls on the oceans too, on average with just under half the force of the Moon. When Sun and Moon are in a line – at new and full moon – their effects add up to a spring tide. At half moon they stand at a right angle: a small neap tide."
+        ],
+        "predict": {
+          "question": "In a moment the Earth turns underneath the bulges. Roughly how often does a harbour then have high tide in a day?",
+          "options": [
+            "Twice",
+            "Once",
+            "Four times"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 2,
+      "question": "Gleich dreht sich die Erde unter den Flutbergen hindurch. Wie oft hat ein Hafen dann ungefähr an einem Tag Hochwasser?",
+      "options": [
+        "Zweimal",
+        "Einmal",
+        "Viermal"
+      ],
+      "correct": 0
+    }
   }
 ]

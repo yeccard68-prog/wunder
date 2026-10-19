@@ -30,6 +30,7 @@ Die Website ist ein statischer Export (`out/`). **Capacitor** (Version 8.5.2, qu
 | Upload-Schlüssel für Google Play | – | Wird einmal erzeugt und als geheimer Wert bei GitHub hinterlegt (nie im Code). Ich kann den Bauablauf dafür vorbereiten; den Schlüssel erzeugst und verwahrst du. Google verwaltet den eigentlichen App-Signaturschlüssel (Play App Signing). |
 | Datenschutzerklärung unter einer festen Adresse | – | Pflicht in beiden Stores; braucht Name und Anschrift (siehe `docs/LEGAL.md`). |
 | Supabase „Site URL“ | – | Authentication → URL Configuration → `https://wunder-one.vercel.app` |
+| E-Mail-Vorlagen mit Code | – | Authentication → Email Templates → „Magic Link“ und „Change Email Address“: zusätzlich `{{ .Token }}` in den Text, z. B. „Oder gib diesen Code in der App ein: {{ .Token }}“. Erst dann funktioniert die Anmeldung per Code in der Android-App. |
 
 ## Angaben für die Store-Formulare (aus dem, was die App tatsächlich tut)
 
@@ -47,7 +48,7 @@ Die Website ist ein statischer Export (`out/`). **Capacitor** (Version 8.5.2, qu
 
 ## Bekannte Grenzen der App-Fassung
 
-- **Anmelden mit einem bestehenden Konto** geht in der App noch nicht: Der Anmeldelink öffnet den Browser, der die Sitzung nicht an die App übergeben kann. Die App zeigt dann einen Hinweis. Lösung später: Anmeldung per sechsstelligem Code statt Link (braucht eine angepasste E-Mail-Vorlage in Supabase) oder App-Links.
+- **Anmelden mit einem bestehenden Konto** in der App: seit 19.10.2026 per sechsstelligem Code aus der E-Mail (der Link würde den Browser öffnen). Voraussetzung ist die angepasste E-Mail-Vorlage (siehe oben); bis dahin enthält die E-Mail nur den Link.
 - **Konto sichern per E-Mail** funktioniert: Der Bestätigungslink führt zur Website und bestätigt die Adresse für das Konto der App.
 - **Seiten direkt aufrufen:** In der App startet alles auf dem ersten Bildschirm; die Navigation innerhalb der App funktioniert normal.
 - **Apple prüft Hüllen-Apps streng** (Richtlinie 4.2 „Minimum Functionality“). Eine App, die nur eine Website zeigt, kann abgelehnt werden. Wunder hat eigene Inhalte, Clips und Animationen in der App; Erinnerungen an das Tagesziel als Mitteilung wären ein zusätzliches natives Merkmal.

@@ -10,7 +10,7 @@
 | Animationen | 25 (24 in 3D, Herz gezeichnet) | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
 | Interaktive Visualisierungen | 6 (Zinseszins, Planeten, Angebot und Nachfrage, Schall, Technik-Zeitleiste, Schrift-Zeitleiste) | 4 mit echten Daten, 2 Rechenmodelle; auch im Feed |
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee; Copyright am 15.10.2026 erneut geprüft; Affiliate-Link vorbereitet (aus, bis ein Partner-Tag eingetragen ist) |
-| Fakten („Wusstest du?“) | 39 aus 13 Bereichen | im Feed und unter Entdecken → Fakten, je mit Quelle |
+| Fakten („Wusstest du?“) | 58 aus 13 Bereichen | im Feed und unter Entdecken → Fakten, je mit Quelle |
 | Themen | 10 | |
 | Duelle | drei Runden à drei Fragen, gegen Freunde (Link/Code) oder Zufallsgegner; im Demo-Modus gegen einen Übungsgegner | Regeln, Zeitlimit und Antworten auf dem Server; Melden und Sperren eingebaut |
 
@@ -44,8 +44,10 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 
 1. ~~Store-Fassung mit Capacitor~~ – Android eingerichtet am 14.10.2026 (`docs/STORE.md`): GitHub baut bei jedem Push eine Testversion und startet sie im Emulator. Offen: Upload-Schlüssel, Play-Konto, iOS (braucht Apple-Konto und Mac oder macOS-Bau).
 2. ~~Prüfbildschirm für alle Inhalte~~ – erledigt am 14.10.2026 (`/admin/`, siehe `docs/BACKEND.md` Abschnitt 30). Offen ist die Prüfung selbst: rund 765 Fragen und Clips sowie 48 Bücher, Animationen und Visualisierungen.
-3. **Einwilligung zur Nutzungsstatistik im Einstieg anbieten.** Der Schalter ist aus und versteckt – ohne Daten lässt sich nach dem Start nicht erkennen, was wirkt. Kleiner Aufwand, rechtlich sauber, wenn freiwillig und abwählbar.
-4. **E-Mail-Anmeldung einmal durchspielen** (nach der Site-URL-Einstellung). Klein.
+3. ~~Einwilligung zur Nutzungsstatistik im Einstieg~~ – erledigt am 19.10.2026 (freiwilliger Schalter im letzten Schritt, ausgeschaltet voreingestellt).
+4. **E-Mail-Anmeldung einmal durchspielen** (nach Site-URL und E-Mail-Vorlage mit Code, siehe `docs/STORE.md`). Klein.
+5. ~~Duell fertig machen~~ – erledigt am 19.10.2026: Zeitlimit auf dem Server, Namensfilter, Meldungen im Prüfbildschirm.
+6. ~~Anmeldung in der Android-App~~ – per Code aus der E-Mail (braucht die angepasste E-Mail-Vorlage).
 
 ### 3. Inhalte, die Lernende zurückbringen
 
@@ -58,10 +60,25 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 
 Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, weitere Community-Funktionen über Duelle hinaus (brauchen Moderation und Meldewege nach dem Digital Services Act), Bereich für Jüngere (braucht Einwilligung der Eltern), Herz und andere organische 3D-Modelle (brauchen lizenzierte Modelle).
 
+## Vorschlag: Zeitplan bis zur Veröffentlichung (Stand 19.10.2026)
+
+Ohne feste Frist, aber in einer sinnvollen Reihenfolge – die Wochen sind Richtwerte, keine Zusagen:
+
+| Phase | Was | Wer | Dauer |
+|---|---|---|---|
+| 1. Rechtliches | Impressum und Datenschutzerklärung, Verträge zur Auftragsverarbeitung (Vercel, Supabase), kurze Nutzungsbedingungen mit Meldeadresse, Markenrecherche für den Namen | du / Kanzlei | 2–4 Wochen, läuft parallel |
+| 2. Inhalte prüfen | zuerst „Einordnung und Kritik“ der Bücher, dann die meistgesehenen Fragen und Clips im Prüfbildschirm | du oder eine Hilfskraft | 2–3 Wochen, ein paar Stunden pro Woche |
+| 3. Einstellungen | Supabase Site URL und E-Mail-Vorlage mit Code; E-Mail-Anmeldung einmal durchspielen | du (10 Minuten), dann ich | 1 Tag |
+| 4. Geschlossener Test | Google-Play-Konto (25 $), Upload-Schlüssel, Testgruppe mit mindestens 12 Personen für 14 Tage (Pflicht bei neuen Play-Konten); Rückmeldungen einarbeiten | du + ich | 3 Wochen |
+| 5. Start Android | Store-Eintrag (Texte, Screenshots, Datenschutz-Formular), Veröffentlichung | du + ich | 1 Woche |
+| 6. iOS | Apple-Entwicklerkonto (99 $/Jahr), Bau über einen Mac oder macOS in GitHub, TestFlight, Prüfung durch Apple | du + ich | 2–4 Wochen danach |
+
+Realistisch also: Android etwa **6–8 Wochen** nach dem Start von Phase 1, iOS einige Wochen später. Inhalte (Fragen, Fakten, Animationen, Clips) baue ich währenddessen weiter aus.
+
 ## Bekannte Schwächen
 
 - Kein Inhalt ist redaktionell geprüft.
-- **Duelle:** Am 15.10.2026 mit zwei Gast-Testkonten auf der Live-Seite durchgespielt (Einladung per Link, drei Runden, Ergebnis auf beiden Seiten gleich, Zufallsgegner, Melden, Revanche danach gesperrt); die Testkonten wurden über die App gelöscht. Nach dem Löschen legt die App sofort ein neues, leeres Gastkonto an – zwei solche leeren Konten vom Test sind noch übrig. Das 20-Sekunden-Limit zählt auf dem Gerät: Wer die Seite während einer Frage neu lädt, bekommt dieselbe Frage mit voller Zeit. Für Meldungen gibt es noch keine Ansicht im Prüfbildschirm (nur per SQL: `select * from admin_duel_reports()`).
+- **Duelle:** Am 15.10.2026 mit zwei Gast-Testkonten auf der Live-Seite durchgespielt (Einladung per Link, drei Runden, Ergebnis auf beiden Seiten gleich, Zufallsgegner, Melden, Revanche danach gesperrt); die Testkonten wurden über die App gelöscht. Nach dem Löschen legt die App sofort ein neues, leeres Gastkonto an – zwei solche leeren Konten vom Test sind noch übrig. Seit 19.10.2026 zählt der Server die 20 Sekunden (Neuladen bringt keine neue Zeit), und Meldungen stehen im Prüfbildschirm.
 - Getestet auf einem Windows-PC (Edge) und einem Handy des Betreibers (Animationen „flüssig“); Safari auf dem iPhone und ältere Android-Geräte nicht.
 - In den Erdplatten ist im Blick von oben ein kleiner grauer Keil zu sehen, der nicht zugeordnet ist.
 - `scripts/measure-animations.mjs` bricht ab, wenn man mehrere Animationen nacheinander misst; einzeln läuft es (Bildraten der letzten drei: 57–58 pro Sekunde).

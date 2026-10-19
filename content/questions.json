@@ -32139,5 +32139,45 @@
         "explanation": "42,195 m ÷ 400 m = 105.49 – so 105 laps and 195 metres."
       }
     }
+  },
+  {
+    "id": "qa-gezeiten",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum gibt es an den meisten Küsten zweimal am Tag Hochwasser?",
+    "options": [
+      "Weil sich die Erde unter zwei Flutbergen hindurchdreht",
+      "Weil der Mond zweimal am Tag um die Erde läuft",
+      "Weil die Sonne das Wasser zweimal erwärmt",
+      "Weil der Wind zweimal am Tag dreht"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Anziehung des Mondes zieht die Meere zu zwei Flutbergen auseinander – einem auf der Seite zum Mond und einem auf der abgewandten Seite. Bei einer Drehung der Erde kommt ein Ort an beiden vorbei.",
+    "difficulty": 2,
+    "tags": [
+      "Meer",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gezeiten",
+    "source_url": "https://de.wikipedia.org/wiki/Gezeiten",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do most coasts have high tide twice a day?",
+        "options": [
+          "Because the Earth turns underneath two tidal bulges",
+          "Because the Moon goes round the Earth twice a day",
+          "Because the Sun warms the water twice",
+          "Because the wind turns twice a day"
+        ],
+        "explanation": "The Moon's pull stretches the oceans into two bulges – one on the side facing the Moon and one on the far side. As the Earth turns once, a place passes both."
+      }
+    }
   }
 ]
