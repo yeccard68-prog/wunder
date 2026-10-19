@@ -108,6 +108,7 @@ export interface UserState {
   visuals?: string[]; // interactive visualisations already tried (prediction made) – they move to the back of the feed
   facts?: { wow: string[]; known: string[] }; // reactions to "Did you know?" cards
   signals?: import("./engagement").Signals; // what the feed learns from viewing behaviour – stays on this device
+  seen?: import("./seen").Seen; // when each entry was last on screen, so the feed repeats as late as possible – stays on this device
   likes: string[];
   saves: string[];
   hidden: string[];

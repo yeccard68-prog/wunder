@@ -3,6 +3,7 @@
 import type { ComponentType } from "react";
 import { Composition } from "remotion";
 import clips from "./clips.json";
+import { LichtReise } from "./clips/LichtReise";
 import { MarathonRunden } from "./clips/MarathonRunden";
 import { PapierMond } from "./clips/PapierMond";
 import { SonneMasse } from "./clips/SonneMasse";
@@ -16,6 +17,7 @@ const COMPONENTS: Record<string, ComponentType<{ locale: Locale }>> = {
   "v-marathon-runden": MarathonRunden,
   "v-papier-mond": PapierMond,
   "v-sonne-masse": SonneMasse,
+  "v-licht-reise": LichtReise,
 };
 
 export function Root() {

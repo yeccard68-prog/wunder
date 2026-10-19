@@ -10,6 +10,7 @@ import * as api from "./supabase";
 import { mergeBookState } from "./books";
 import { setApprovals } from "./reviews";
 import { recordView, type EntryKind } from "./engagement";
+import { recordSeen, SEEN_MIN_SECONDS } from "./seen";
 
 // Two separate worlds: "demo" (no backend, local sample data) and "live" (Supabase).
 // They never share storage, and live mode never falls back to bundled content.
@@ -143,7 +144,7 @@ interface Store {
   hide: (item: { id: string }, report?: boolean) => void;
   trackClip: (id: string, event: "play" | "complete") => void;
   /** How long an entry was on screen in the feed – the feed learns from it (kept on this device only). */
-  trackView: (categoryId: string, kind: EntryKind, seconds: number) => void;
+  trackView: (categoryId: string, kind: EntryKind, seconds: number, id?: string) => void;
   /** Reaction to a "did you know" fact. */
   reactFact: (id: string, reaction: "wow" | "known") => void;
   addComment: (clipId: string, text: string) => void;
@@ -462,9 +463,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   );
 
   const trackView = useCallback(
-    (categoryId: string, kind: EntryKind, seconds: number) => {
+    (categoryId: string, kind: EntryKind, seconds: number, id?: string) => {
       if (!categoryId || seconds <= 0) return;
-      commit((s) => ({ ...s, signals: recordView(s.signals, categoryId, kind, seconds) }), { silent: true });
+      commit((s) => ({ ...s, signals: recordView(s.signals, categoryId, kind, seconds), seen: id && seconds >= SEEN_MIN_SECONDS ? recordSeen(s.seen, id) : s.seen }), { silent: true });
     },
     [commit]
   );

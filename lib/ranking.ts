@@ -3,6 +3,7 @@ import { categoryById } from "./categories";
 import { ACTIVITIES, personById } from "./people";
 import { hash, today } from "./gamification";
 import { recentAccuracy, topicEngagement, unexplored } from "./engagement";
+import { lastSeen, reviewDue } from "./seen";
 
 // Deterministic, explainable "For You" ranking. No ML, no LLM calls.
 // Every card carries the main reason it was picked.
@@ -15,8 +16,11 @@ const W = {
   freshness: 3,
   popularity: 1, // secondary signal only
   engaged: 3, // lingers on the topic in the feed (from −1 to +1, see engagement.ts)
-  completed: -20,
 };
+
+/** Questions due for repetition are mixed in from this place on, one every few cards. */
+export const REVIEW_FROM = 2;
+export const REVIEW_EVERY = 3;
 
 export interface Ranked {
   item: Item;
@@ -55,8 +59,9 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
   const target = targetDifficulty(state);
   const hidden = new Set(state.hidden);
   const day = today();
+  const now = Date.now();
 
-  const ranked = items
+  const scored = items
     .filter((i) => !hidden.has(i.id))
     .map((item) => {
       const cat = categoryById(item.categoryId);
@@ -69,17 +74,33 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
         [(W.popularity * item.popularity) / maxPop, "Gerade beliebt"],
         [W.engaged * topicEngagement(state, item.categoryId), "Weil dir Ähnliches gefallen hat"],
       ];
-      const done = state.answers[item.id];
       const score =
         parts.reduce((n, [v]) => n + v, 0) +
         (item.kind === "question" ? W.difficultyFit * (1 - Math.abs(item.difficulty - target) / 2) : 1) +
-        (done ? W.completed : 0) +
         (hash(item.id + day) % 100) / 100; // small daily shuffle
       const [, reason, vars] = [...parts].sort((a, b) => b[0] - a[0])[0];
-      return { item, reason, vars, score };
-    })
-    .sort((a, b) => b.score - a.score);
-  return withDiscoveries(ranked, state);
+      return { item, reason, vars, score, rec: state.answers[item.id], at: lastSeen(state, item.id) };
+    });
+  const strip = ({ item, reason, vars }: Ranked): Ranked => ({ item, reason, vars });
+
+  // 1. never seen, best first; questions due for repetition mixed in (soonest due first)
+  const fresh = scored.filter((r) => !r.rec && r.at === null).sort((a, b) => b.score - a.score).map(strip);
+  const reviews = scored
+    .filter((r) => reviewDue(r.rec, now))
+    .sort((a, b) => Date.parse(a.rec!.due!) - Date.parse(b.rec!.due!))
+    .map((r): Ranked => ({ item: r.item, reason: "Zum Wiederholen: Hier lagst du daneben" }));
+  const head = withDiscoveries(fresh, state);
+  for (let at = REVIEW_FROM; reviews.length && at <= head.length; at += REVIEW_EVERY) head.splice(at, 0, reviews.shift()!);
+  head.push(...reviews);
+  // 2. seen but not answered – seen longest ago first
+  const seen = scored.filter((r) => !r.rec && r.at !== null).sort((a, b) => a.at! - b.at!).map(strip);
+  // 3. answered: repetitions coming up soonest first, then those known – answered longest ago first
+  const pending = (r: (typeof scored)[number]) => (r.rec!.due ? Date.parse(r.rec!.due) : Infinity);
+  const done = scored
+    .filter((r) => r.rec && !reviewDue(r.rec, now))
+    .sort((a, b) => pending(a) - pending(b) || Date.parse(a.rec!.at) - Date.parse(b.rec!.at))
+    .map(strip);
+  return [...head, ...seen, ...done];
 }
 
 /** From the 5th place on, every 7th card comes from a topic the learner neither chose nor has seen much – so new interests can show. */
@@ -97,10 +118,7 @@ function withDiscoveries(ranked: Ranked[], state: UserState): Ranked[] {
     seen.add(r.item.categoryId);
     out.splice(at, 0, { ...r, reason: "Etwas Neues für dich", vars: undefined });
   }
-  // the rest of them before the cards already answered, which always come last
-  const done = out.findIndex((x) => !!state.answers[x.item.id]);
-  out.splice(done < 0 ? out.length : done, 0, ...pool);
-  return out;
+  return [...out, ...pool];
 }
 
 /** Following feed: cards that people you follow have liked, newest activity first. */

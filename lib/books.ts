@@ -4,6 +4,7 @@
 import booksJson from "@/content/books.json";
 import { fitsAge } from "@/lib/content";
 import { reviewedStatus } from "@/lib/reviews";
+import { freshFirst } from "@/lib/seen";
 import type { AgeBand, RecallRecord, UserState } from "@/lib/types";
 
 export type Visual =
@@ -139,13 +140,16 @@ export function booksFor(locale: string, band: AgeBand | null): Book[] {
  * anyone's second – so the feed samples many books instead of finishing one. Books on the
  * learner's topics come first.
  */
-export function insightQueue(books: Book[], state: Pick<UserState, "interests" | "books">, day = today()): Insight[] {
+export function insightQueue(books: Book[], state: Pick<UserState, "interests" | "books" | "seen">, day = today()): Insight[] {
   const read = new Set(state.books?.read ?? []);
   const due = new Set(dueIdeas(state, day));
   const all = books.flatMap((book) => book.ideas.map((idea, i) => ({ book, idea, i })));
   // ideas due for repetition come first, then new ones, then those already learned
   const rank = (x: (typeof all)[number]) => (due.has(x.idea.id) ? -1000 : read.has(x.idea.id) ? 1000 : 0) + x.i * 10 + (state.interests.includes(x.book.topicId) ? 0 : 5);
-  return all.sort((a, b) => rank(a) - rank(b)).map(({ book, idea }) => ({ book, idea }));
+  const ranked = all.sort((a, b) => rank(a) - rank(b));
+  // after the due ones: ideas not on screen yet, then those seen (longest ago first), then those learned
+  const rest = freshFirst(ranked.filter((x) => !due.has(x.idea.id)), (x) => x.idea.id, state, (x) => read.has(x.idea.id));
+  return [...ranked.filter((x) => due.has(x.idea.id)), ...rest].map(({ book, idea }) => ({ book, idea }));
 }
 
 const today = () => new Date().toISOString().slice(0, 10);

@@ -1570,5 +1570,147 @@
         "detail": "To be exact: by 8.92%. The other way round, ice shrinks by 8.19% when it melts."
       }
     }
+  },
+  {
+    "id": "f-steigbuegel",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Der kleinste Knochen deines Körpers sitzt im Ohr und ist nur gut 3 Millimeter hoch.",
+    "detail": "Der Steigbügel ist eines der drei Gehörknöchelchen im Mittelohr. Er wiegt 3 bis 4 Milligramm und hat seinen Namen von seiner Form.",
+    "sources": [
+      {
+        "name": "Wikipedia: Steigbügel (Anatomie)",
+        "url": "https://de.wikipedia.org/wiki/Steigbügel_(Anatomie)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The smallest bone in your body sits in your ear and is just over 3 millimetres tall.",
+        "detail": "The stirrup (stapes) is one of the three tiny bones in the middle ear. It weighs 3 to 4 milligrams and is named after its shape."
+      }
+    }
+  },
+  {
+    "id": "f-schnee-sechseck",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Schneekristalle sind immer sechseckig aufgebaut.",
+    "detail": "Wenn Wasserdampf direkt zu Eis wird, wachsen die Kristalle wegen der Struktur der Wassermoleküle nur in Winkeln von genau 60° oder 120° – daher die sechs Arme.",
+    "sources": [
+      {
+        "name": "Wikipedia: Schnee",
+        "url": "https://de.wikipedia.org/wiki/Schnee"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Snow crystals are always built on a six-sided pattern.",
+        "detail": "When water vapour turns straight into ice, the crystals can only grow at angles of exactly 60° or 120° because of the structure of water molecules – hence the six arms."
+      }
+    }
+  },
+  {
+    "id": "f-lichtjahr",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Ein Lichtjahr ist keine Zeit, sondern eine Strecke: rund 9,46 Billionen Kilometer.",
+    "detail": "So weit kommt Licht im Vakuum in einem Jahr. Man nutzt die Einheit vor allem, um die riesigen Entfernungen zwischen Sternen anschaulich zu machen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Lichtjahr",
+        "url": "https://de.wikipedia.org/wiki/Lichtjahr"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "A light-year is not a time but a distance: about 9.46 trillion kilometres.",
+        "detail": "That is how far light travels in a vacuum in one year. The unit is mainly used to make the huge distances between stars easier to grasp."
+      }
+    }
+  },
+  {
+    "id": "f-erdrotation",
+    "category_id": "science",
+    "area": "space",
+    "min_age": 10,
+    "text": "Am Äquator rast du mit etwa 1670 km/h nach Osten – ohne es zu merken.",
+    "detail": "So schnell bewegt sich die Erdoberfläche dort durch die Drehung der Erde. Zu den Polen hin wird es langsamer, weil die Breitenkreise kürzer werden.",
+    "sources": [
+      {
+        "name": "Wikipedia: Erdrotation",
+        "url": "https://de.wikipedia.org/wiki/Erdrotation"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "At the equator you are racing east at about 1,670 km/h – without noticing.",
+        "detail": "That is how fast Earth's surface moves there as the planet turns. Towards the poles it gets slower because the circles of latitude get shorter."
+      }
+    }
+  },
+  {
+    "id": "f-diamant-graphit",
+    "category_id": "science",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Diamant und Graphit – das Grau im Bleistift – bestehen beide aus reinem Kohlenstoff.",
+    "detail": "Beim Diamanten sitzen die Kohlenstoffatome in einem kubischen Kristall, beim Graphit in einem sechseckigen. Graphit reibt sich leicht ab – deshalb schreibt der Bleistift.",
+    "sources": [
+      {
+        "name": "Wikipedia: Diamant",
+        "url": "https://de.wikipedia.org/wiki/Diamant"
+      },
+      {
+        "name": "Wikipedia: Graphit",
+        "url": "https://de.wikipedia.org/wiki/Graphit"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Diamond and graphite – the grey in a pencil – are both pure carbon.",
+        "detail": "In diamond the carbon atoms sit in a cubic crystal, in graphite in a hexagonal one. Graphite rubs off easily – that is why a pencil writes."
+      }
+    }
+  },
+  {
+    "id": "f-kupferblut",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Tintenfische, Schnecken und Krebse transportieren Sauerstoff mit Kupfer statt mit Eisen.",
+    "detail": "Ihr Blutfarbstoff heißt Hämocyanin – nach dem griechischen Wort für „dunkelblau“. Unser rotes Hämoglobin bindet den Sauerstoff dagegen mit Eisen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Hämocyanin",
+        "url": "https://de.wikipedia.org/wiki/Hämocyanin"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-19T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Squid, snails and crabs carry oxygen with copper instead of iron.",
+        "detail": "Their blood pigment is called hemocyanin – from the Greek word for “dark blue”. Our red haemoglobin binds oxygen with iron instead."
+      }
+    }
   }
 ]

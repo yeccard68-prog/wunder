@@ -3349,5 +3349,75 @@
         "poster": "/clips/v-sonne-masse.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-licht-reise",
+    "category_id": "science",
+    "title": "So lange ist Licht unterwegs",
+    "hook": "Vom Mond eine gute Sekunde, von der Sonne acht Minuten – und vom nächsten Stern über vier Jahre.",
+    "description": "Licht legt im Vakuum 299.792,458 Kilometer pro Sekunde zurück. Bis zum Mond (im Mittel 384.400 Kilometer) braucht es etwa 1,3 Sekunden. Von der Sonne zur Erde (eine Astronomische Einheit, rund 149,6 Millionen Kilometer) sind es etwa 8 Minuten und 19 Sekunden. Vom nächsten Stern, Proxima Centauri, rund 4,2 Lichtjahre entfernt, ist sein Licht gut vier Jahre unterwegs – wir sehen ihn also so, wie er vor über vier Jahren war.",
+    "video_url": "/clips/v-licht-reise.mp4",
+    "thumbnail_url": "/clips/v-licht-reise.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Bis zum Mond braucht Licht 1,3 Sekunden.",
+      "Von der Sonne zur Erde: 8 Minuten 19 Sekunden.",
+      "Vom nächsten Stern ist es über vier Jahre unterwegs."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Lichtgeschwindigkeit",
+        "url": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit"
+      },
+      {
+        "name": "Wikipedia: Mond",
+        "url": "https://de.wikipedia.org/wiki/Mond"
+      },
+      {
+        "name": "Wikipedia: Astronomische Einheit",
+        "url": "https://de.wikipedia.org/wiki/Astronomische_Einheit"
+      },
+      {
+        "name": "Wikipedia: Proxima Centauri",
+        "url": "https://de.wikipedia.org/wiki/Proxima_Centauri"
+      }
+    ],
+    "published_at": "2026-10-19T12:00:00Z",
+    "tags": [
+      "Weltraum",
+      "Licht"
+    ],
+    "quiz_question_id": "q-v-licht-reise",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-licht-reise",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "How long light is on its way",
+        "hook": "From the Moon just over a second, from the Sun eight minutes – and from the nearest star more than four years.",
+        "description": "In a vacuum light travels 299,792.458 kilometres per second. It takes about 1.3 seconds to reach the Moon (384,400 kilometres away on average). From the Sun to Earth (one astronomical unit, about 149.6 million kilometres) it takes about 8 minutes and 19 seconds. Light from the nearest star, Proxima Centauri, about 4.2 light-years away, travels for more than four years – so we see it as it was over four years ago.",
+        "captions": [
+          "Light reaches the Moon in 1.3 seconds.",
+          "From the Sun to Earth: 8 minutes 19 seconds.",
+          "From the nearest star it travels for more than four years."
+        ],
+        "file": "/clips/v-licht-reise.en.mp4",
+        "poster": "/clips/v-licht-reise.en.jpg"
+      }
+    }
   }
 ]

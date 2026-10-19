@@ -205,7 +205,7 @@ function Tracked({ entry, root, className, children }: { entry: FeedEntry; root:
     if (!el || entry.kind === "pause") return;
     let since = 0;
     const leave = () => {
-      if (since) trackView(entryTopic(entry), entry.kind as Exclude<FeedEntry["kind"], "pause">, (performance.now() - since) / 1000);
+      if (since) trackView(entryTopic(entry), entry.kind as Exclude<FeedEntry["kind"], "pause">, (performance.now() - since) / 1000, entryId(entry));
       since = 0;
     };
     const obs = new IntersectionObserver(([e]) => (e.isIntersecting ? (since = performance.now()) : leave()), { root: root.current, threshold: 0.6 });

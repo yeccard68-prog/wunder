@@ -1,6 +1,7 @@
 import type { Clip } from "./content";
 import type { UserState } from "./types";
 import { hash, today } from "./gamification";
+import { freshFirst } from "./seen";
 
 export type { Clip };
 
@@ -33,5 +34,7 @@ export function rankClips(clips: Clip[], s: UserState): Clip[] {
       (hash(c.id + day) % 100) / 100
     );
   };
-  return clips.filter((c) => !s.hidden.includes(c.id)).sort((a, b) => score(b) - score(a));
+  const ranked = clips.filter((c) => !s.hidden.includes(c.id)).sort((a, b) => score(b) - score(a));
+  // not seen yet first; clips started but not finished next, watched ones last – each seen longest ago first
+  return freshFirst(ranked, (c) => c.id, s, (c) => (s.clipStats[c.id]?.completed ?? 0) > 0);
 }

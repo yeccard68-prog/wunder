@@ -23,5 +23,10 @@
     "id": "v-sonne-masse",
     "seconds": 10,
     "thumbFrame": 270
+  },
+  {
+    "id": "v-licht-reise",
+    "seconds": 10,
+    "thumbFrame": 275
   }
 ]

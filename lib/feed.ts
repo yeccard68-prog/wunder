@@ -12,6 +12,7 @@ import { mediaEvery, PAUSE_AFTER, spreadTopics, formatEngagement, type EntryKind
 import type { Fact } from "./facts";
 import type { Ranked } from "./ranking";
 import type { UserState } from "./types";
+import { freshFirst } from "./seen";
 import type { Visual } from "./visuals";
 
 export type FeedEntry =
@@ -38,17 +39,17 @@ export const FACT_EVERY = 3;
 type Media = Extract<FeedEntry, { kind: "clip" | "animation" | "insight" | "visual" }>;
 
 /**
- * Weaves everything into one feed (see the comment at the top). New material comes first – clips already
- * watched, animations whose question is answered and visualisations already tried move to the back. The
+ * Weaves everything into one feed (see the comment at the top). New material comes first – anything already
+ * on screen moves back, and what is done (clip watched, question answered, visualisation tried) comes last. The
  * check question of an animation is shown with the animation, not a second time as a card of its own.
  */
 export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[], state: UserState, insights: Insight[] = [], visuals: Visual[] = [], facts: Fact[] = []): FeedEntry[] {
   const hidden = new Set(state.hidden);
-  const fresh = <T,>(list: T[], seen: (x: T) => boolean) => [...list.filter((x) => !seen(x)), ...list.filter(seen)];
-  const clipQueue = fresh(clips.filter((c) => !hidden.has(c.id)), (c) => (state.clipStats[c.id]?.completed ?? 0) > 0);
-  const animQueue = fresh(animations, (a) => !!a.quizId && !!state.answers[a.quizId]);
+  // new first; seen but not done next; done last – each seen longest ago first (lib/seen.ts)
+  const clipQueue = freshFirst(clips.filter((c) => !hidden.has(c.id)), (c) => c.id, state, (c) => (state.clipStats[c.id]?.completed ?? 0) > 0);
+  const animQueue = freshFirst(animations, (a) => a.id, state, (a) => !!a.quizId && !!state.answers[a.quizId]);
   const ideaQueue = [...insights]; // already ordered: unread first, spread over the books
-  const visualQueue = fresh(visuals, (v) => (state.visuals ?? []).includes(v.id));
+  const visualQueue = freshFirst(visuals, (v) => v.id, state, (v) => (state.visuals ?? []).includes(v.id));
   const factQueue = [...facts]; // already ranked
   const withAnimation = new Set(animQueue.map((a) => a.quizId));
 

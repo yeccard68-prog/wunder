@@ -106,6 +106,8 @@ export default function LegalPage() {
           <li>{t("Die App ist ab 16 Jahren freigegeben. Gespeichert wird nur die Altersgruppe, kein Geburtsdatum.")}</li>
           <li>{t("Eine E-Mail-Adresse nur, wenn du dich selbst damit anmeldest.")}</li>
           <li>{t("Duelle: die Spielzüge, deine Antworten und das Ergebnis. Dein Gegner sieht deinen Anzeigenamen (bei privatem Profil nicht) und eure Ergebnisse, sonst nichts von dir. Wenn du jemanden meldest, speichern wir die Meldung mit Grund, damit die Redaktion sie prüfen kann.")}</li>
+          <li>{t("Gruppen und Chat (nur ab 16): Gruppenname, Mitglieder, Ergebnisse der Gruppenrunden und Chatnachrichten mit Zeitpunkt. Andere sehen deinen Anzeigenamen (bei privatem Profil oder unter 16 nicht). Chatnachrichten werden nach 90 Tagen gelöscht; gemeldete Nachrichten prüft die Redaktion.")}</li>
+          <li>{t("Nur auf deinem Gerät, nie auf dem Server: was du im Feed wie lange angesehen hast – damit Themen passen und du dieselben Inhalte möglichst spät wieder siehst.")}</li>
           <li>{t("Nutzungsstatistik nur, wenn du sie im Profil einschaltest. Erfasst wird, welcher Inhalt geöffnet oder abgeschlossen wurde, kein freier Text, kein Standort, keine Gerätedaten.")}</li>
           <li>{showsAffiliate(state.ageBand) ? t("Keine Werbe-Tracker, kein Verkauf von Daten. Einzige Werbung sind gekennzeichnete Affiliate-Links bei den Büchern (siehe unten).") : t("Keine Werbung, keine Werbe-Tracker, kein Verkauf von Daten.")}</li>
           <li>{t("Unter Profil → „Konto und Daten löschen“ entfernst du alles sofort und endgültig.")}</li>

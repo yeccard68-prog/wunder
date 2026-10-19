@@ -5,6 +5,7 @@ import { fitsAge } from "@/lib/content";
 import { hash, today } from "@/lib/gamification";
 import { reviewedStatus } from "@/lib/reviews";
 import { topicEngagement } from "@/lib/engagement";
+import { freshFirst } from "@/lib/seen";
 import type { AgeBand, UserState } from "@/lib/types";
 
 /** Areas of life a fact can come from – finer than the ten topics. German names are the translation keys. */
@@ -76,5 +77,7 @@ export function rankFacts(facts: Fact[], state: UserState): Fact[] {
     2 * topicEngagement(state, f.categoryId) +
     Math.min(2, (wowAreas.get(f.area) ?? 0) * 0.5) +
     (hash(f.id + day) % 100) / 40; // a fair share of chance: facts are about surprise
-  return facts.filter((f) => !state.hidden.includes(f.id)).sort((a, b) => score(b) - score(a));
+  const ranked = facts.filter((f) => !state.hidden.includes(f.id)).sort((a, b) => score(b) - score(a));
+  // facts already on screen come after the new ones (seen longest ago first), those reacted to last
+  return freshFirst(ranked, (f) => f.id, state, (f) => wow.has(f.id) || known.has(f.id));
 }
