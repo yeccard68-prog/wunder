@@ -108,7 +108,9 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
   await signIn(page);
   await page.goto("/");
   const feed = page.getByTestId("snap-feed");
-  await expect(feed.getByRole("heading", { name: /Hallo/ })).toBeVisible();
+  // the app opens straight into the feed: the first entry is a card, no greeting screen before it
+  await expect(feed.locator("section[data-feed-entry]").first()).toBeVisible();
+  await expect(feed.getByRole("heading", { name: /Hallo/ })).toHaveCount(0);
   // the page itself does not scroll â€“ only the feed does
   expect(await page.evaluate(() => document.documentElement.scrollHeight <= window.innerHeight + 1)).toBe(true);
 
@@ -128,7 +130,7 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
 
   await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
   const dialog = page.getByRole("dialog");
-  await expect(dialog.getByRole("button", { name: /^A/ }).first()).toBeVisible();
+  await expect(dialog.getByRole("button", { name: /^A\s/ }).first()).toBeVisible();
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true"); // paused while the question is open
   await page.keyboard.press("Escape");
   await expect(dialog).toHaveCount(0);
@@ -463,7 +465,7 @@ test("after the question about a clip is answered, the feed moves on by itself â
   const clip = page.getByTestId("feed-clip").first();
   const answer = async () => {
     await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
-    const option = (letter: string) => page.getByRole("dialog", { name: "Frage zum Clip" }).getByRole("button", { name: new RegExp("^" + letter + "\\s*\\S") });
+    const option = (letter: string) => page.getByRole("dialog", { name: "Frage zum Clip" }).getByRole("button", { name: new RegExp("^" + letter + "\\s+\\S") });
     await option("A").click();
     if (await page.getByTestId("clip-hint").isVisible().catch(() => false)) await option("B").click(); // wrong first try: second attempt
   };
