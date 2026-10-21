@@ -64,9 +64,56 @@
         "Etwa 4 Stunden",
         "Etwa 400 Jahre"
       ]
+    },
+    {
+      "clipId": "v-herz-schlaege",
+      "locale": "de",
+      "question": "Wie oft schlägt ein Herz in einem 80-jährigen Leben ungefähr?",
+      "options": [
+        "Rund 3 Milliarden Mal",
+        "Rund 3 Millionen Mal",
+        "Rund 30 Millionen Mal",
+        "Rund 300 Milliarden Mal"
+      ]
     }
   ],
   "facts": [
+    {
+      "id": "f-wm-1930",
+      "locale": "de",
+      "color": "#f09a6e",
+      "kicker": "Wusstest du? · Sport",
+      "text": "Die erste Fußball-Weltmeisterschaft fand 1930 in Uruguay statt.",
+      "detail": "Sie dauerte vom 13. bis zum 30. Juli 1930. Gastgeber war Uruguay.",
+      "source": "Quelle: Wikipedia – Fußball-Weltmeisterschaft 1930"
+    },
+    {
+      "id": "f-esperanto",
+      "locale": "de",
+      "color": "#6ccbdc",
+      "kicker": "Wusstest du? · Sprache",
+      "text": "Esperanto heißt übersetzt „der Hoffende“ – nach dem Decknamen seines Erfinders.",
+      "detail": "Der Augenarzt Ludwik Lejzer Zamenhof veröffentlichte die Grundlagen 1887 unter dem Namen Doktoro Esperanto. Es ist die am weitesten verbreitete Plansprache.",
+      "source": "Quelle: Wikipedia – Esperanto"
+    },
+    {
+      "id": "f-coca-cola",
+      "locale": "de",
+      "color": "#f08a6c",
+      "kicker": "Wusstest du? · Kurioses",
+      "text": "Coca-Cola hat ein Pharmazeut erfunden – 1886 in Atlanta.",
+      "detail": "John Stith Pemberton, Kriegsveteran und Pharmazeut, entwickelte das Getränk am 8. Mai 1886.",
+      "source": "Quelle: Wikipedia – The Coca-Cola Company"
+    },
+    {
+      "id": "f-inflation-1923",
+      "locale": "de",
+      "color": "#6db3f2",
+      "kicker": "Wusstest du? · Geld",
+      "text": "Im November 1923 kostete ein US-Dollar 4,2 Billionen Mark.",
+      "detail": "Der Kurs der Mark gegenüber dem Dollar sank rapide. Die Hyperinflation führte zu einem teilweisen Zusammenbruch der deutschen Wirtschaft und des Bankensystems.",
+      "source": "Quelle: Wikipedia – Deutsche Inflation 1914 bis 1923"
+    },
     {
       "id": "f-bienentanz",
       "locale": "de",
@@ -84,42 +131,6 @@
       "text": "Der kleinste Knochen deines Körpers sitzt im Ohr und ist nur gut 3 Millimeter hoch.",
       "detail": "Der Steigbügel ist eines der drei Gehörknöchelchen im Mittelohr. Er wiegt 3 bis 4 Milligramm und hat seinen Namen von seiner Form.",
       "source": "Quelle: Wikipedia – Steigbügel (Anatomie)"
-    },
-    {
-      "id": "f-hawaii-alphabet",
-      "locale": "de",
-      "color": "#6ccbdc",
-      "kicker": "Wusstest du? · Sprache",
-      "text": "Das hawaiische Alphabet kommt mit 13 Zeichen aus.",
-      "detail": "Es besteht aus 12 Buchstaben der lateinischen Schrift und dem Zeichen ʻOkina. Damit ist es eines der kürzesten Alphabete der Welt.",
-      "source": "Quelle: Wikipedia – Hawaiische Sprache"
-    },
-    {
-      "id": "f-ikea-name",
-      "locale": "de",
-      "color": "#f08a6c",
-      "kicker": "Wusstest du? · Kurioses",
-      "text": "IKEA ist eine Abkürzung – aus dem Namen des Gründers und zwei Ortsnamen.",
-      "detail": "Die Buchstaben stehen für Ingvar Kamprad, Elmtaryd und Agunnaryd. Kamprad gründete das Unternehmen 1943 in Schweden.",
-      "source": "Quelle: Wikipedia – IKEA"
-    },
-    {
-      "id": "f-marathon-1921",
-      "locale": "de",
-      "color": "#f09a6e",
-      "kicker": "Wusstest du? · Sport",
-      "text": "Die Marathonstrecke von 42,195 Kilometern ist erst seit 1921 festgelegt.",
-      "detail": "Der Marathon ist die längste olympische Laufdisziplin in der Leichtathletik. Bei großen Meisterschaften endet er oft mit einer Runde im Stadion.",
-      "source": "Quelle: Wikipedia – Marathonlauf"
-    },
-    {
-      "id": "f-erste-aktie",
-      "locale": "de",
-      "color": "#6db3f2",
-      "kicker": "Wusstest du? · Geld",
-      "text": "Die ersten Aktien gab die Niederländische Ostindien-Kompanie aus – gegründet 1602.",
-      "detail": "Das Handelsunternehmen beherrschte einen Teil des lukrativen Indienhandels und war in sechs „Kammern“ gegliedert. Nach einem Krieg gegen England geriet es in Geldnot und wurde 1798 aufgelöst.",
-      "source": "Quelle: Wikipedia – Niederländische Ostindien-Kompanie"
     },
     {
       "id": "f-kuerzester-krieg",
@@ -158,6 +169,42 @@
       "source": "Quelle: Wikipedia – Kreiszahl"
     },
     {
+      "id": "f-basketball-1891",
+      "locale": "de",
+      "color": "#f09a6e",
+      "kicker": "Wusstest du? · Sport",
+      "text": "Basketball wurde 1891 erfunden – als Hallensport.",
+      "detail": "Erfunden hat ihn der kanadische Arzt und Pädagoge James Naismith, ursprünglich für YMCA-Studenten. Über den YMCA verbreitete sich das Spiel schnell weltweit. Seit 1936 ist es olympisch.",
+      "source": "Quelle: Wikipedia – Basketball"
+    },
+    {
+      "id": "f-quarantaene",
+      "locale": "de",
+      "color": "#6ccbdc",
+      "kicker": "Wusstest du? · Sprache",
+      "text": "„Quarantäne“ bedeutet eigentlich „vierzig Tage“.",
+      "detail": "Das Wort kam im 17. Jahrhundert aus dem Französischen (quarantaine de jours) ins Deutsche.",
+      "source": "Quelle: Wikipedia – Quarantäne"
+    },
+    {
+      "id": "f-adidas-puma",
+      "locale": "de",
+      "color": "#f08a6c",
+      "kicker": "Wusstest du? · Kurioses",
+      "text": "Adidas und Puma wurden von zwei Brüdern gegründet – aus derselben Kleinstadt.",
+      "detail": "Adolf und Rudolf Dassler fertigten in den 1920er-Jahren in Herzogenaurach gemeinsam Sportschuhe. Dann gingen sie getrennte Wege: Rudolf gründete 1948 Puma.",
+      "source": "Quelle: Wikipedia – Adidas"
+    },
+    {
+      "id": "f-erste-aktie",
+      "locale": "de",
+      "color": "#6db3f2",
+      "kicker": "Wusstest du? · Geld",
+      "text": "Die ersten Aktien gab die Niederländische Ostindien-Kompanie aus – gegründet 1602.",
+      "detail": "Das Handelsunternehmen beherrschte einen Teil des lukrativen Indienhandels und war in sechs „Kammern“ gegliedert. Nach einem Krieg gegen England geriet es in Geldnot und wurde 1798 aufgelöst.",
+      "source": "Quelle: Wikipedia – Niederländische Ostindien-Kompanie"
+    },
+    {
       "id": "f-faultier-algen",
       "locale": "de",
       "color": "#7fc66a",
@@ -174,42 +221,6 @@
       "text": "Ein Lichtjahr ist keine Zeit, sondern eine Strecke: rund 9,46 Billionen Kilometer.",
       "detail": "So weit kommt Licht im Vakuum in einem Jahr. Man nutzt die Einheit vor allem, um die riesigen Entfernungen zwischen Sternen anschaulich zu machen.",
       "source": "Quelle: Wikipedia – Lichtjahr"
-    },
-    {
-      "id": "f-roboter-wort",
-      "locale": "de",
-      "color": "#6ccbdc",
-      "kicker": "Wusstest du? · Sprache",
-      "text": "Das Wort „Roboter“ kommt aus dem Tschechischen und bedeutete ursprünglich Zwangsarbeit.",
-      "detail": "Es geht auf das tschechische Wort „robota“ zurück, das man mit „Frondienst“ oder „Zwangsarbeit“ übersetzen kann.",
-      "source": "Quelle: Wikipedia – Roboter"
-    },
-    {
-      "id": "f-lego-name",
-      "locale": "de",
-      "color": "#f08a6c",
-      "kicker": "Wusstest du? · Kurioses",
-      "text": "Der Name Lego kommt aus dem Dänischen und heißt „spiel gut“.",
-      "detail": "Er leitet sich von „leg godt“ ab und wird seit 1934 verwendet.",
-      "source": "Quelle: Wikipedia – Lego"
-    },
-    {
-      "id": "f-olympia-antike",
-      "locale": "de",
-      "color": "#f09a6e",
-      "kicker": "Wusstest du? · Geschichte",
-      "text": "Olympische Spiele gab es schon vor über 2.700 Jahren.",
-      "detail": "Nach der offiziellen Zählung fanden sie von 776 v. Chr. bis 393 n. Chr. in Olympia auf der Peloponnes statt. Archäologisch belegt sind Wettkämpfe dort ab etwa 700 v. Chr.",
-      "source": "Quelle: Wikipedia – Olympische Spiele der Antike"
-    },
-    {
-      "id": "f-euro-bargeld",
-      "locale": "de",
-      "color": "#6db3f2",
-      "kicker": "Wusstest du? · Geld",
-      "text": "Den Euro gab es drei Jahre lang nur auf dem Konto, bevor Scheine und Münzen kamen.",
-      "detail": "Am 1. Januar 1999 wurde er als Buchgeld eingeführt, am 1. Januar 2002 als Bargeld. Nach dem US-Dollar ist er die zweitwichtigste Reservewährung der Welt.",
-      "source": "Quelle: Wikipedia – Euro"
     },
     {
       "id": "f-mauer-mond",
@@ -248,40 +259,40 @@
       "source": "Quelle: Wikipedia – Ziegenproblem"
     },
     {
-      "id": "f-delfin-schlaf",
+      "id": "f-golf-mond",
       "locale": "de",
-      "color": "#7fc66a",
-      "kicker": "Wusstest du? · Tiere",
-      "text": "Delfine schlafen immer nur mit einer Gehirnhälfte.",
-      "detail": "Die andere Hälfte bleibt wach – so atmen sie weiter und bleiben aufmerksam. Ein Auge ist dabei meist geöffnet.",
-      "source": "Quelle: Wikipedia – Delfine"
+      "color": "#f09a6e",
+      "kicker": "Wusstest du? · Sport",
+      "text": "Auf dem Mond wurde schon Golf gespielt.",
+      "detail": "Alan Shepard, Kommandant von Apollo 14, nahm zwei Golfbälle und ein Eisen 6 mit auf den Mond. Er ging als erster Golfspieler auf dem Mond in die Geschichte ein.",
+      "source": "Quelle: Wikipedia – Alan Shepard"
     },
     {
-      "id": "f-sonne-masse",
-      "locale": "de",
-      "color": "#41c7b4",
-      "kicker": "Wusstest du? · Weltraum",
-      "text": "Die Sonne enthält 99,86 % der Masse des ganzen Sonnensystems.",
-      "detail": "Alle Planeten, Monde, Asteroiden und Kometen zusammen machen also nur einen winzigen Rest aus. Ihr Durchmesser ist etwa 110-mal so groß wie der der Erde.",
-      "source": "Quelle: Wikipedia – Sonne"
-    },
-    {
-      "id": "f-handy",
+      "id": "f-hawaii-alphabet",
       "locale": "de",
       "color": "#6ccbdc",
       "kicker": "Wusstest du? · Sprache",
-      "text": "„Handy“ klingt englisch, ist es aber nicht.",
-      "detail": "Im Englischen heißt das Gerät „mobile phone“ oder „cell phone“. „Handy“ ist ein Scheinanglizismus – ein englisch klingendes Wort, das so nur im Deutschen benutzt wird.",
-      "source": "Quelle: Wikipedia – Scheinanglizismus"
+      "text": "Das hawaiische Alphabet kommt mit 13 Zeichen aus.",
+      "detail": "Es besteht aus 12 Buchstaben der lateinischen Schrift und dem Zeichen ʻOkina. Damit ist es eines der kürzesten Alphabete der Welt.",
+      "source": "Quelle: Wikipedia – Hawaiische Sprache"
     },
     {
-      "id": "f-nokia-papier",
+      "id": "f-ikea-name",
       "locale": "de",
       "color": "#f08a6c",
       "kicker": "Wusstest du? · Kurioses",
-      "text": "Nokia hat als Papierhersteller angefangen.",
-      "detail": "Fredrik Idestam gründete das Unternehmen 1865 in Tampere in Finnland; anfangs stellte es Papiererzeugnisse her. Den Namen hat es von der Stadt Nokia, wo 1868 ein zweites Werk eröffnete.",
-      "source": "Quelle: Wikipedia – Nokia"
+      "text": "IKEA ist eine Abkürzung – aus dem Namen des Gründers und zwei Ortsnamen.",
+      "detail": "Die Buchstaben stehen für Ingvar Kamprad, Elmtaryd und Agunnaryd. Kamprad gründete das Unternehmen 1943 in Schweden.",
+      "source": "Quelle: Wikipedia – IKEA"
+    },
+    {
+      "id": "f-euro-bargeld",
+      "locale": "de",
+      "color": "#6db3f2",
+      "kicker": "Wusstest du? · Geld",
+      "text": "Den Euro gab es drei Jahre lang nur auf dem Konto, bevor Scheine und Münzen kamen.",
+      "detail": "Am 1. Januar 1999 wurde er als Buchgeld eingeführt, am 1. Januar 2002 als Bargeld. Nach dem US-Dollar ist er die zweitwichtigste Reservewährung der Welt.",
+      "source": "Quelle: Wikipedia – Euro"
     }
   ]
 }

@@ -11,32 +11,21 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #wirtschaft #geld
 ```
 
-### Tag 2 · Bild · `facts/f-bienentanz.png`
+### Tag 2 · Bild · `facts/f-wm-1930.png`
 
 ```
-Honigbienen zeigen einander mit einem Tanz, wo es Futter gibt.
+Die erste Fußball-Weltmeisterschaft fand 1930 in Uruguay statt.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
-#wusstestdu #allgemeinwissen #fakten #lernen #natur #tiere
+#wusstestdu #allgemeinwissen #fakten #lernen #sport
 ```
 
-### Tag 3 · Bild · `facts/f-steigbuegel.png`
+### Tag 3 · Bild · `facts/f-esperanto.png`
 
 ```
-Der kleinste Knochen deines Körpers sitzt im Ohr und ist nur gut 3 Millimeter hoch.
-
-Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
-wunder-one.vercel.app
-
-#wusstestdu #allgemeinwissen #fakten #lernen #wissenschaft #weltraum
-```
-
-### Tag 4 · Bild · `facts/f-hawaii-alphabet.png`
-
-```
-Das hawaiische Alphabet kommt mit 13 Zeichen aus.
+Esperanto heißt übersetzt „der Hoffende“ – nach dem Decknamen seines Erfinders.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
@@ -44,15 +33,26 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #sprache #wörter
 ```
 
-### Tag 5 · Bild · `facts/f-ikea-name.png`
+### Tag 4 · Bild · `facts/f-coca-cola.png`
 
 ```
-IKEA ist eine Abkürzung – aus dem Namen des Gründers und zwei Ortsnamen.
+Coca-Cola hat ein Pharmazeut erfunden – 1886 in Atlanta.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
 #wusstestdu #allgemeinwissen #fakten #lernen #marken #business
+```
+
+### Tag 5 · Bild · `facts/f-inflation-1923.png`
+
+```
+Im November 1923 kostete ein US-Dollar 4,2 Billionen Mark.
+
+Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
+wunder-one.vercel.app
+
+#wusstestdu #allgemeinwissen #fakten #lernen #wirtschaft #geld
 ```
 
 ### Tag 6 · Video · `clips/v-pyramide-mond.mp4`
@@ -66,26 +66,26 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #geschichte
 ```
 
-### Tag 7 · Bild · `facts/f-marathon-1921.png`
+### Tag 7 · Bild · `facts/f-bienentanz.png`
 
 ```
-Die Marathonstrecke von 42,195 Kilometern ist erst seit 1921 festgelegt.
+Honigbienen zeigen einander mit einem Tanz, wo es Futter gibt.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
-#wusstestdu #allgemeinwissen #fakten #lernen #sport
+#wusstestdu #allgemeinwissen #fakten #lernen #natur #tiere
 ```
 
-### Tag 8 · Bild · `facts/f-erste-aktie.png`
+### Tag 8 · Bild · `facts/f-steigbuegel.png`
 
 ```
-Die ersten Aktien gab die Niederländische Ostindien-Kompanie aus – gegründet 1602.
+Der kleinste Knochen deines Körpers sitzt im Ohr und ist nur gut 3 Millimeter hoch.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
-#wusstestdu #allgemeinwissen #fakten #lernen #wirtschaft #geld
+#wusstestdu #allgemeinwissen #fakten #lernen #wissenschaft #weltraum
 ```
 
 ### Tag 9 · Bild · `facts/f-kuerzester-krieg.png`
@@ -143,26 +143,26 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #mathe #zahlen
 ```
 
-### Tag 14 · Bild · `facts/f-faultier-algen.png`
+### Tag 14 · Bild · `facts/f-basketball-1891.png`
 
 ```
-Im Fell von Faultieren wachsen Algen – sie färben es grünlich.
+Basketball wurde 1891 erfunden – als Hallensport.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
-#wusstestdu #allgemeinwissen #fakten #lernen #natur #tiere
+#wusstestdu #allgemeinwissen #fakten #lernen #sport
 ```
 
-### Tag 15 · Bild · `facts/f-lichtjahr.png`
+### Tag 15 · Bild · `facts/f-quarantaene.png`
 
 ```
-Ein Lichtjahr ist keine Zeit, sondern eine Strecke: rund 9,46 Billionen Kilometer.
+„Quarantäne“ bedeutet eigentlich „vierzig Tage“.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
-#wusstestdu #allgemeinwissen #fakten #lernen #wissenschaft #weltraum
+#wusstestdu #allgemeinwissen #fakten #lernen #sprache #wörter
 ```
 
 ### Tag 16 · Video · `clips/v-papier-mond.mp4`
@@ -176,21 +176,10 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #mathe #zahlen
 ```
 
-### Tag 17 · Bild · `facts/f-roboter-wort.png`
+### Tag 17 · Bild · `facts/f-adidas-puma.png`
 
 ```
-Das Wort „Roboter“ kommt aus dem Tschechischen und bedeutete ursprünglich Zwangsarbeit.
-
-Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
-wunder-one.vercel.app
-
-#wusstestdu #allgemeinwissen #fakten #lernen #sprache #wörter
-```
-
-### Tag 18 · Bild · `facts/f-lego-name.png`
-
-```
-Der Name Lego kommt aus dem Dänischen und heißt „spiel gut“.
+Adidas und Puma wurden von zwei Brüdern gegründet – aus derselben Kleinstadt.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
@@ -198,26 +187,37 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #marken #business
 ```
 
-### Tag 19 · Bild · `facts/f-olympia-antike.png`
+### Tag 18 · Bild · `facts/f-erste-aktie.png`
 
 ```
-Olympische Spiele gab es schon vor über 2.700 Jahren.
-
-Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
-wunder-one.vercel.app
-
-#wusstestdu #allgemeinwissen #fakten #lernen #sport
-```
-
-### Tag 20 · Bild · `facts/f-euro-bargeld.png`
-
-```
-Den Euro gab es drei Jahre lang nur auf dem Konto, bevor Scheine und Münzen kamen.
+Die ersten Aktien gab die Niederländische Ostindien-Kompanie aus – gegründet 1602.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
 #wusstestdu #allgemeinwissen #fakten #lernen #wirtschaft #geld
+```
+
+### Tag 19 · Bild · `facts/f-faultier-algen.png`
+
+```
+Im Fell von Faultieren wachsen Algen – sie färben es grünlich.
+
+Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
+wunder-one.vercel.app
+
+#wusstestdu #allgemeinwissen #fakten #lernen #natur #tiere
+```
+
+### Tag 20 · Bild · `facts/f-lichtjahr.png`
+
+```
+Ein Lichtjahr ist keine Zeit, sondern eine Strecke: rund 9,46 Billionen Kilometer.
+
+Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
+wunder-one.vercel.app
+
+#wusstestdu #allgemeinwissen #fakten #lernen #wissenschaft #weltraum
 ```
 
 ### Tag 21 · Video · `clips/v-sonne-masse.mp4`
@@ -286,32 +286,21 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #wissenschaft #weltraum
 ```
 
-### Tag 27 · Bild · `facts/f-delfin-schlaf.png`
+### Tag 27 · Bild · `facts/f-golf-mond.png`
 
 ```
-Delfine schlafen immer nur mit einer Gehirnhälfte.
+Auf dem Mond wurde schon Golf gespielt.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
-#wusstestdu #allgemeinwissen #fakten #lernen #natur #tiere
+#wusstestdu #allgemeinwissen #fakten #lernen #sport
 ```
 
-### Tag 28 · Bild · `facts/f-sonne-masse.png`
+### Tag 28 · Bild · `facts/f-hawaii-alphabet.png`
 
 ```
-Die Sonne enthält 99,86 % der Masse des ganzen Sonnensystems.
-
-Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
-wunder-one.vercel.app
-
-#wusstestdu #allgemeinwissen #fakten #lernen #wissenschaft #weltraum
-```
-
-### Tag 29 · Bild · `facts/f-handy.png`
-
-```
-„Handy“ klingt englisch, ist es aber nicht.
+Das hawaiische Alphabet kommt mit 13 Zeichen aus.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
@@ -319,14 +308,25 @@ wunder-one.vercel.app
 #wusstestdu #allgemeinwissen #fakten #lernen #sprache #wörter
 ```
 
-### Tag 30 · Bild · `facts/f-nokia-papier.png`
+### Tag 29 · Bild · `facts/f-ikea-name.png`
 
 ```
-Nokia hat als Papierhersteller angefangen.
+IKEA ist eine Abkürzung – aus dem Namen des Gründers und zwei Ortsnamen.
 
 Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
 wunder-one.vercel.app
 
 #wusstestdu #allgemeinwissen #fakten #lernen #marken #business
+```
+
+### Tag 30 · Bild · `facts/f-euro-bargeld.png`
+
+```
+Den Euro gab es drei Jahre lang nur auf dem Konto, bevor Scheine und Münzen kamen.
+
+Mehr überraschendes Wissen – mit Quelle – jeden Tag in der App.
+wunder-one.vercel.app
+
+#wusstestdu #allgemeinwissen #fakten #lernen #wirtschaft #geld
 ```
 
