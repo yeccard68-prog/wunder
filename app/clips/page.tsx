@@ -146,9 +146,16 @@ export default function ClipsPage() {
   const [sheet, setSheet] = useState<{ kind: SheetKind; clip: Clip } | null>(null);
   const [draft, setDraft] = useState("");
 
+  // ?c=<id> (from Entdecken): that clip first, then the usual order
+  const [startId, setStartId] = useState<string | null>(null);
+  useEffect(() => setStartId(new URLSearchParams(window.location.search).get("c")), []);
   // Rank once per visit so the order stays stable while watching.
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const ranked = useMemo(() => rankClips(allClips, getState()), [allClips]);
+  const ranked = useMemo(() => {
+    const list = rankClips(allClips, getState());
+    const i = startId ? list.findIndex((c) => c.id === startId) : -1;
+    return i > 0 ? [list[i], ...list.slice(0, i), ...list.slice(i + 1)] : list;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allClips, startId]);
   const clips = ranked.filter((c) => !state.hidden.includes(c.id));
   const close = () => {
     advance.stay();

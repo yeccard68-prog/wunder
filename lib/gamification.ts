@@ -125,22 +125,38 @@ export interface Achievement {
   name: string;
   description: string;
   check: (s: UserState) => boolean;
+  /** how far along: [current, target] – shown as a ring around a locked badge */
+  progress: (s: UserState) => [number, number];
+  icon: AchievementIcon;
+  color: string; // CSS colour of the medal
 }
+export type AchievementIcon = "spark" | "brain" | "book" | "star" | "film" | "comeback" | "flame" | "calendar" | "globe" | "people" | "swords" | "rise";
 const answers = (s: UserState) => Object.values(s.answers);
+const clipsDone = (s: UserState) => Object.values(s.clipStats).filter((c) => c.completed > 0).length;
+const topicsAnswered = (s: UserState) => CATEGORIES.filter((c) => answers(s).some((a) => a.categoryId === c.id)).length;
+
+/** The locked badge that is closest to being earned (largest share done), or null when all are earned. */
+export function nextAchievement(s: UserState): { achievement: Achievement; current: number; target: number } | null {
+  const open = ACHIEVEMENTS.filter((a) => !s.achievements.includes(a.id) && !a.check(s)).map((a) => {
+    const [current, target] = a.progress(s);
+    return { achievement: a, current: Math.min(current, target), target };
+  });
+  return open.sort((x, y) => y.current / y.target - x.current / x.target)[0] ?? null;
+}
 
 export const ACHIEVEMENTS: Achievement[] = [
-  { id: "first", name: "Erster Funke", description: "Erste Frage beantwortet", check: (s) => answers(s).length >= 1 },
-  { id: "correct10", name: "Schlaukopf", description: "10 Fragen richtig", check: (s) => stats(s).correct >= 10 },
-  { id: "answered25", name: "Wissensdurst", description: "25 Fragen beantwortet", check: (s) => answers(s).length >= 25 },
-  { id: "wow10", name: "Staunender Blick", description: "10 Fakten mit „Wow!“ markiert", check: (s) => (s.facts?.wow.length ?? 0) >= 10 },
-  { id: "clips5", name: "Dranbleiber im Kino", description: "5 Clips bis zum Ende geschaut", check: (s) => Object.values(s.clipStats).filter((c) => c.completed > 0).length >= 5 },
-  { id: "comeback", name: "Comeback", description: "Eine Wissenslücke geschlossen", check: (s) => answers(s).some((a) => a.reviews > 0) },
-  { id: "streak3", name: "Dranbleiber", description: "3 Tage in Folge gelernt", check: (s) => s.streak.best >= 3 },
-  { id: "streak7", name: "Wochenheld", description: "7 Tage in Folge gelernt", check: (s) => s.streak.best >= 7 },
-  { id: "allround", name: "Allrounder", description: "In jedem Thema geantwortet", check: (s) => CATEGORIES.every((c) => answers(s).some((a) => a.categoryId === c.id)) },
-  { id: "social", name: "Gut vernetzt", description: "3 Leuten gefolgt", check: (s) => s.following.length >= 3 },
-  { id: "duel", name: "Duellant", description: "Eine Challenge gewonnen", check: (s) => s.challenges.some((c) => c.mine > c.theirs) },
-  { id: "level5", name: "Aufsteiger", description: "Level 5 erreicht", check: (s) => levelInfo(s.xp).level >= 5 },
+  { id: "first", name: "Erster Funke", description: "Erste Frage beantwortet", icon: "spark", color: "#ff6d48", check: (s) => answers(s).length >= 1, progress: (s) => [Math.min(1, answers(s).length), 1] },
+  { id: "correct10", name: "Schlaukopf", description: "10 Fragen richtig", icon: "brain", color: "#41c7b4", check: (s) => stats(s).correct >= 10, progress: (s) => [stats(s).correct, 10] },
+  { id: "answered25", name: "Wissensdurst", description: "25 Fragen beantwortet", icon: "book", color: "#6db3f2", check: (s) => answers(s).length >= 25, progress: (s) => [answers(s).length, 25] },
+  { id: "wow10", name: "Staunender Blick", description: "10 Fakten mit „Wow!“ markiert", icon: "star", color: "#e2ab4f", check: (s) => (s.facts?.wow.length ?? 0) >= 10, progress: (s) => [s.facts?.wow.length ?? 0, 10] },
+  { id: "clips5", name: "Dranbleiber im Kino", description: "5 Clips bis zum Ende geschaut", icon: "film", color: "#9794ff", check: (s) => clipsDone(s) >= 5, progress: (s) => [clipsDone(s), 5] },
+  { id: "comeback", name: "Comeback", description: "Eine Wissenslücke geschlossen", icon: "comeback", color: "#7fc66a", check: (s) => answers(s).some((a) => a.reviews > 0), progress: (s) => [answers(s).some((a) => a.reviews > 0) ? 1 : 0, 1] },
+  { id: "streak3", name: "Dranbleiber", description: "3 Tage in Folge gelernt", icon: "flame", color: "#f09a6e", check: (s) => s.streak.best >= 3, progress: (s) => [s.streak.best, 3] },
+  { id: "streak7", name: "Wochenheld", description: "7 Tage in Folge gelernt", icon: "calendar", color: "#ff6d48", check: (s) => s.streak.best >= 7, progress: (s) => [s.streak.best, 7] },
+  { id: "allround", name: "Allrounder", description: "In jedem Thema geantwortet", icon: "globe", color: "#6ccbdc", check: (s) => topicsAnswered(s) >= CATEGORIES.length, progress: (s) => [topicsAnswered(s), CATEGORIES.length] },
+  { id: "social", name: "Gut vernetzt", description: "3 Leuten gefolgt", icon: "people", color: "#e58bb8", check: (s) => s.following.length >= 3, progress: (s) => [s.following.length, 3] },
+  { id: "duel", name: "Duellant", description: "Eine Challenge gewonnen", icon: "swords", color: "#f08a6c", check: (s) => s.challenges.some((c) => c.mine > c.theirs), progress: (s) => [s.challenges.some((c) => c.mine > c.theirs) ? 1 : 0, 1] },
+  { id: "level5", name: "Aufsteiger", description: "Level 5 erreicht", icon: "rise", color: "#d6c35a", check: (s) => levelInfo(s.xp).level >= 5, progress: (s) => [levelInfo(s.xp).level, 5] },
 ];
 
 export const newAchievements = (s: UserState) => ACHIEVEMENTS.filter((a) => !s.achievements.includes(a.id) && a.check(s));

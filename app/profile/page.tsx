@@ -3,14 +3,15 @@
 import { useEffect, useState } from "react";
 import { isChild } from "@/lib/content";
 import Link from "next/link";
-import { Award, Bookmark, ChevronRight, Clapperboard, Lock, Settings, Share2, ShieldCheck } from "lucide-react";
+import { Bookmark, ChevronRight, Clapperboard, Lock, Settings, Share2, ShieldCheck } from "lucide-react";
 
 import Account from "@/components/Account";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Avatar, Bar, Button, Chip, Empty, Ring, Segmented, Sheet, Toggle } from "@/components/ui";
 import { CATEGORIES } from "@/lib/categories";
 import { recallStats } from "@/lib/books";
-import { ACHIEVEMENTS, leagueFor, levelInfo, liveStreak, mastery, retention, stats } from "@/lib/gamification";
+import { ACHIEVEMENTS, leagueFor, levelInfo, liveStreak, mastery, nextAchievement, retention, stats, type Achievement } from "@/lib/gamification";
+import Badge from "@/components/Badge";
 import { OFFERED_AGE_BANDS } from "@/lib/content";
 import { LOCALES } from "@/lib/i18n";
 import { nameAllowed } from "@/lib/names";
@@ -31,6 +32,8 @@ export default function ProfilePage() {
   const { state, items, clips, update, reset, share, toast } = useStore();
   const t = useT();
   const [sheet, setSheet] = useState<"settings" | "saved" | null>(null);
+  const [badge, setBadge] = useState<Achievement | null>(null);
+  const upcoming = nextAchievement(state);
   const [confirm, setConfirm] = useState(false);
   const [admin, setAdmin] = useState(false);
   useEffect(() => {
@@ -130,21 +133,46 @@ export default function ProfilePage() {
             {state.achievements.length}/{ACHIEVEMENTS.length}
           </span>
         </div>
-        <ul className="grid grid-cols-3 gap-x-2 gap-y-4">
+        {upcoming && (
+          <button onClick={() => setBadge(upcoming.achievement)} className="press mb-5 flex w-full items-center gap-4 rounded-2xl bg-raised p-3.5 text-left" data-testid="next-badge">
+            <Badge icon={upcoming.achievement.icon} color={upcoming.achievement.color} earned={false} progress={upcoming.current / upcoming.target} size={56} />
+            <span className="min-w-0 flex-1">
+              <span className="block text-xs font-semibold uppercase tracking-wider text-muted">{t("Nächstes Abzeichen")}</span>
+              <span className="block font-display text-lg font-semibold leading-tight">{t(upcoming.achievement.name)}</span>
+              <span className="mt-1.5 block"><Bar value={upcoming.current / upcoming.target} color={upcoming.achievement.color} /></span>
+              <span className="mt-1 block text-xs text-muted">{t(upcoming.achievement.description)} · {upcoming.current}/{upcoming.target}</span>
+            </span>
+          </button>
+        )}
+        <ul className="grid grid-cols-3 gap-x-2 gap-y-5" data-testid="badges">
           {ACHIEVEMENTS.map((a) => {
             const has = state.achievements.includes(a.id);
+            const [cur, target] = a.progress(state);
             return (
-              <li key={a.id} className={`text-center ${has ? "" : "opacity-35"}`}>
-                <span className={`mx-auto flex h-12 w-12 items-center justify-center rounded-full ${has ? "bg-accent text-white" : "bg-raised text-muted"}`}>
-                  <Award size={22} />
-                </span>
-                <p className="mt-1.5 text-xs font-semibold leading-tight">{t(a.name)}</p>
-                <p className="text-[11px] leading-tight text-muted">{t(a.description)}</p>
+              <li key={a.id}>
+                <button onClick={() => setBadge(a)} className="press flex w-full flex-col items-center text-center" aria-label={`${t(a.name)}: ${has ? t("erreicht") : `${Math.min(cur, target)}/${target}`}`}>
+                  <Badge icon={a.icon} color={a.color} earned={has} progress={Math.min(1, cur / target)} />
+                  <span className={`mt-1.5 text-xs font-semibold leading-tight ${has ? "" : "text-muted"}`}>{t(a.name)}</span>
+                  {!has && target > 1 && <span className="tnum text-[11px] text-muted">{Math.min(cur, target)}/{target}</span>}
+                </button>
               </li>
             );
           })}
         </ul>
       </section>
+      <Sheet open={!!badge} onClose={() => setBadge(null)} title={badge ? t(badge.name) : ""}>
+        {badge && (() => {
+          const has = state.achievements.includes(badge.id);
+          const [cur, target] = badge.progress(state);
+          return (
+            <div className="flex flex-col items-center gap-3 pb-4 text-center">
+              <span className={has ? "pop" : ""}><Badge icon={badge.icon} color={badge.color} earned={has} progress={Math.min(1, cur / target)} size={112} /></span>
+              <p className="text-[15px]">{t(badge.description)}</p>
+              <p className={`text-sm font-semibold ${has ? "text-good" : "text-muted"}`}>{has ? t("Erreicht!") : t("Noch {n} bis zum Abzeichen", { n: Math.max(0, target - cur) })}</p>
+            </div>
+          );
+        })()}
+      </Sheet>
 
       <button onClick={() => setSheet("saved")} className="press card flex w-full items-center gap-3 p-4 text-left">
         <Bookmark size={19} />

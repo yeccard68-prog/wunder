@@ -155,8 +155,8 @@ test("explore finds content by search and topic; the library keeps saved clips",
   await page.getByRole("searchbox").fill("");
   await page.getByRole("button", { name: /Business/ }).click();
   await expect(page.locator("article").first()).toBeVisible();
-  await page.getByRole("button", { name: /Business/ }).click();
-  await expect(page.getByRole("link", { name: /Alle Clips/ })).toBeVisible();
+  await page.getByTestId("topic-filter").click(); // the topic filter can be removed again
+  await expect(page.getByTestId("explore-topics")).toBeVisible();
 
   await page.goto("/library/");
   await expect(page.getByText("Noch nichts gemerkt")).toBeVisible();
@@ -552,7 +552,7 @@ test("3D animations: the playback speed can be chosen and is remembered; the vie
 test("facts: a page with every fact, filter by area, the explanation on request, reactions", async ({ page }) => {
   await signIn(page);
   await page.goto("/explore/");
-  await page.getByRole("link", { name: /Fakten/ }).click();
+  await page.getByTestId("explore-fact").click(); // the fact of the day leads to all facts
   await expect(page.getByRole("heading", { name: "Fakten", exact: true })).toBeVisible();
   const cards = page.getByTestId("fact-card");
   expect(await cards.count()).toBeGreaterThanOrEqual(39);

@@ -120,3 +120,15 @@ test("content from the backend carries no answers until the user has answered", 
   assert.equal(live[0].explanation, undefined);
   assert.equal(live[0].popularity, 0);
 });
+
+test("badges: every badge has a progress that matches its check, and the next badge is the closest one", async () => {
+  const { ACHIEVEMENTS, nextAchievement } = await import("../lib/gamification");
+  const s = user({ answers: { a: rec(), b: rec({ correct: false }) }, streak: { current: 2, best: 2, lastDate: null } } as Partial<UserState>);
+  for (const a of ACHIEVEMENTS) {
+    const [cur, target] = a.progress(s);
+    assert.ok(target > 0, a.id);
+    assert.equal(cur >= target, a.check(s), a.id); // the ring is full exactly when the badge is earned
+  }
+  const next = nextAchievement({ ...s, achievements: ["first"] });
+  assert.equal(next?.achievement.id, "streak3"); // 2 of 3 days is the largest share done
+});
