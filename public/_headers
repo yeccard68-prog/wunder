@@ -1,0 +1,3 @@
+/clips/*
+  Cache-Control: public, max-age=604800
+  Access-Control-Allow-Origin: *
