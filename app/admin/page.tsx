@@ -6,6 +6,7 @@ import { Check, ExternalLink, Flag, MessageSquareWarning, ShieldCheck, Undo2 } f
 import { Bar, Button, Chip, Empty, Segmented, Skeleton } from "@/components/ui";
 import ChatReports from "@/components/admin/ChatReports";
 import ContentHints from "@/components/admin/ContentHints";
+import Overview from "@/components/admin/Overview";
 import DuelReports from "@/components/admin/DuelReports";
 import HeardFrom from "@/components/admin/HeardFrom";
 import { categoryById } from "@/lib/categories";
@@ -222,6 +223,7 @@ export default function AdminPage() {
       {shown.length > count && (
         <Button variant="secondary" className="w-full" onClick={() => setCount((c) => c + PAGE)}>{t("Weitere {n} zeigen", { n: Math.min(PAGE, shown.length - count) })} · {shown.length - count}</Button>
       )}
+      <Overview />
       <ContentHints />
       <HeardFrom />
       <DuelReports />

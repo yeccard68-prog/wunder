@@ -9,6 +9,7 @@ import { Avatar, Button, Empty, Sheet } from "@/components/ui";
 import { CATEGORIES, categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import { GROUP_NAME_MAX, GROUP_QUESTIONS, places, timeLeft, type GroupRound, type GroupState, type GroupSummary } from "@/lib/groups";
+import { useFlags } from "@/lib/flags";
 import { linkOrigin } from "@/lib/native";
 import { nameAllowed } from "@/lib/names";
 import { useStore, useT } from "@/lib/store";
@@ -214,6 +215,8 @@ export default function GroupsPage() {
   const { auth, state, ready, toast } = useStore();
   const t = useT();
   const live = auth.mode === "live";
+  const flags = useFlags();
+  const off = live && flags?.groups === false;
   const blocked = live && isChild(state.ageBand);
   const [list, setList] = useState<GroupSummary[] | null>(null);
   const [openId, setOpenId] = useState<string | null>(null);
@@ -310,7 +313,9 @@ export default function GroupsPage() {
         <p className="text-sm text-muted">{t("Spielt als Gruppe dieselben Fragen und vergleicht euch in einer Rangliste.")}</p>
       </header>
 
-      {blocked ? (
+      {off ? (
+        <Empty icon={<Users size={22} />} title={t("Gruppen kommen bald")} text={t("Bis dahin: Fordere Freunde im Duell heraus.")} />
+      ) : blocked ? (
         <Empty icon={<Users size={22} />} title={t("Gruppen gibt es ab 13 Jahren")} text={t("Bis dahin kannst du allein im Quiz üben und Rätsel lösen.")} />
       ) : !live ? (
         <p className="rounded-2xl bg-raised p-3.5 text-sm text-muted" data-testid="groups-demo">{t("Gruppen gibt es in der Live-Version – dort braucht es andere Mitspieler.")}</p>

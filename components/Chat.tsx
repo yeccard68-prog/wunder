@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Flag, MessageCircle, Send } from "lucide-react";
 import { Sheet } from "@/components/ui";
 import { CHAT_MAX, CHAT_POLL_MS, chatAllowedFor, chatProblem, type ChatMessage, type ChatPlace, type ChatReason } from "@/lib/chat";
+import { useFlags } from "@/lib/flags";
 import { useStore, useT } from "@/lib/store";
 import * as api from "@/lib/supabase";
 
@@ -25,7 +26,8 @@ function problemText(p: ReturnType<typeof chatProblem>, t: T) {
 export function Chat({ place, title }: { place: ChatPlace; title?: string }) {
   const { auth, state, toast } = useStore();
   const t = useT();
-  const enabled = auth.mode === "live" && chatAllowedFor(state.ageBand);
+  const flags = useFlags();
+  const enabled = auth.mode === "live" && chatAllowedFor(state.ageBand) && !!flags?.chat;
   const [allowed, setAllowed] = useState<boolean | null>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [text, setText] = useState("");

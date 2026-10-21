@@ -12,6 +12,7 @@ import {
   createPractice, duelPool, duelRecord, PER_ROUND, practiceAnswer, practiceBot, practicePick, practiceView, SECONDS_PER_QUESTION,
   type BotLevel, type DuelAnswer, type DuelAnswerResult, type DuelQuestion, type DuelSummary, type DuelView, type PracticeDuel,
 } from "@/lib/duel";
+import { useFlags } from "@/lib/flags";
 import { linkOrigin } from "@/lib/native";
 import { useStore, useT } from "@/lib/store";
 import * as api from "@/lib/supabase";
@@ -442,6 +443,7 @@ export default function DuelPage() {
   }, [practiceDuel, openId, view, pool, locale, storePractice, refresh, open, close]);
 
   const [levels, setLevels] = useState(false);
+  const flags = useFlags();
   const start = async (kind: "invite" | "random" | BotLevel) => {
     setBusy(true);
     setLevels(false);
@@ -540,9 +542,9 @@ export default function DuelPage() {
             <Button variant="secondary" className="h-auto min-h-12 flex-col gap-1 py-3" disabled={busy} onClick={() => setLevels(true)}>
               <Cpu size={18} /> {t("Gegen den Computer")}
             </Button>
-            <Link href="/groups/" className="press flex min-h-12 flex-col items-center justify-center gap-1 rounded-full bg-raised py-3 text-[15px] font-semibold">
+            {flags?.groups !== false && <Link href="/groups/" className="press flex min-h-12 flex-col items-center justify-center gap-1 rounded-full bg-raised py-3 text-[15px] font-semibold">
               <Users size={18} /> {t("Gruppen")}
-            </Link>
+            </Link>}
           </div>
           <Sheet open={levels} onClose={() => setLevels(false)} title={t("Gegen den Computer")}>
             <div className="space-y-2 pb-2">

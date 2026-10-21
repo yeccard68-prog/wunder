@@ -351,6 +351,27 @@ export async function fetchHeardFrom(): Promise<HeardFromRow[]> {
   return (data ?? []) as HeardFromRow[];
 }
 
+// ---------- feature switches and overview (editors switch chat/groups on and off) ----------
+export async function fetchFlags(): Promise<Partial<{ chat: boolean; groups: boolean }>> {
+  const { data, error } = await db().rpc("app_flags");
+  if (error) throw error;
+  return (data ?? {}) as Partial<{ chat: boolean; groups: boolean }>;
+}
+export async function setFlag(key: "chat" | "groups", on: boolean) {
+  const { error } = await db().rpc("admin_set_flag", { p_key: key, p_on: on });
+  if (error) throw error;
+}
+export interface Overview {
+  days: { day: string; active: number; new: number }[];
+  players: number; active7: number; active30: number; answers30: number; duels30: number; groups: number;
+  openHints: number; openChatReports: number; dbSize: string;
+}
+export async function fetchOverview(days = 14): Promise<Overview> {
+  const { data, error } = await db().rpc("admin_overview", { p_days: days });
+  if (error) throw error;
+  return data as Overview;
+}
+
 // ---------- hints to the editors (not public; filter and daily limit in the database) ----------
 export async function sendContentHint(kind: string, id: string, reason: string, note: string, locale: string) {
   const { error } = await db().rpc("content_hint_send", { p_kind: kind, p_id: id, p_reason: reason, p_note: note.trim() || null, p_locale: locale });

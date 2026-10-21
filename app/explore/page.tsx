@@ -11,6 +11,7 @@ import { booksFor } from "@/lib/books";
 import { CATEGORIES } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import type { FeedEntry } from "@/lib/feed";
+import { useFlags } from "@/lib/flags";
 import { useStore, useT } from "@/lib/store";
 
 const MAX_RESULTS = 60;
@@ -20,6 +21,7 @@ const norm = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,
 export default function ExplorePage() {
   const { items, clips, state } = useStore();
   const t = useT();
+  const flags = useFlags();
   const [query, setQuery] = useState("");
   const [topic, setTopic] = useState<string | null>(null);
   const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
@@ -45,7 +47,7 @@ export default function ExplorePage() {
     { href: "/quiz/", Icon: Zap, title: t("Quiz-Runden"), text: t("Wiederholung und Üben nach Thema und Schwierigkeit") },
     ...(isChild(state.ageBand) ? [] : [
       { href: "/duel/", Icon: Swords, title: t("Duell"), text: t("Gegen Freunde, Zufallsgegner oder den Computer") },
-      { href: "/groups/", Icon: Users, title: t("Gruppen"), text: t("Gemeinsame Runden mit Rangliste und Chat") },
+      ...(flags?.groups === false ? [] : [{ href: "/groups/", Icon: Users, title: t("Gruppen"), text: t("Gemeinsame Runden mit Rangliste und Chat") }]),
     ]),
     { href: "/facts/", Icon: Lightbulb, title: t("Fakten"), text: t("{n} überraschende Fakten aus allen Bereichen", { n: factsFor(state.settings.locale, state.ageBand).length }) },
     { href: "/riddles/", Icon: Puzzle, title: t("Rätsel"), text: t("{n} Knobelaufgaben mit Tipps", { n: items.filter((i) => i.hints?.length).length }) },
