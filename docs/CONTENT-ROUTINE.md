@@ -45,3 +45,11 @@ etwas Ungeprüftes.
 
 Eine Zeile in `docs/CONTENT-LOG.md` mit „ABGEBROCHEN“, Datum und Grund – nur diese Datei committen und pushen,
 wenn das Repo sonst sauber ist; sonst gar nichts committen.
+
+## Sub-Agents (seit 21.10.2026)
+
+Um Kosten zu sparen, recherchiert und schreibt der Sub-Agent `wunder-fakten-recherche` (günstigeres Modell, Definition
+in `~/.claude/agents/wunder-fakten-recherche.md`). Die Routine prüft danach selbst: `verify-evidence.mjs`, Durchsicht
+jedes Fakts (jede Zahl, jeder Name, jedes Datum braucht ein Zitat), Tests – erst dann wird veröffentlicht.
+Für Übersetzungen und Social-Texte gibt es `wunder-texte` (noch günstigeres Modell). Datenbank, Rechtliches und
+Sicherheit bleiben beim Hauptmodell.

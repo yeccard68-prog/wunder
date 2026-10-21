@@ -35,11 +35,22 @@ async function article(lang, title) {
   return null;
 }
 
+// structure: the right field order, known area and topic, a new id, every text in both languages
+import fs from "node:fs";
+const AREAS = [...fs.readFileSync("lib/facts.ts", "utf8").match(/export const AREAS = \{([\s\S]*?)\}/)[1].matchAll(/^\s*(\w+):/gm)].map((m) => m[1]);
+const CATEGORIES = JSON.parse(fs.readFileSync("content/categories.json", "utf8")).map((c) => c.id);
+const existing = new Set(JSON.parse(fs.readFileSync("content/facts.json", "utf8")).map((f) => f.id));
+const isNewFile = !JSON.parse(fs.readFileSync("content/facts.json", "utf8")).some((f) => facts.some((r) => r[0] === f.id));
+
 let failed = 0;
 for (const row of facts) {
-  const [id, , , sources] = row;
+  const [id, area, category, sources, text, detail, enText, enDetail] = row;
   const quotes = evidence[id] ?? [];
   const problems = [];
+  if (!AREAS.includes(area)) problems.push(`area "${area}" is not one of ${AREAS.join(", ")} (order: id, area, category, …)`);
+  if (!CATEGORIES.includes(category)) problems.push(`category "${category}" is not one of ${CATEGORIES.join(", ")}`);
+  if (isNewFile && existing.has(id)) problems.push(`id ${id} already exists`);
+  if (![text, detail, enText, enDetail].every((s) => typeof s === "string" && s.trim().length > 10)) problems.push("text/detail missing in German or English");
   if (!quotes.length) problems.push("no evidence");
   const linked = new Set(sources.map((s) => decodeURIComponent(s.url.split("/wiki/")[1] ?? "").replaceAll("_", " ")));
   for (const q of quotes) {

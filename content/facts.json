@@ -2176,5 +2176,189 @@
         "detail": "The mark fell rapidly against the dollar. The hyperinflation led to a partial collapse of the German economy and banking system."
       }
     }
+  },
+  {
+    "id": "f-zauberwuerfel-20",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Jeder verdrehte Zauberwürfel lässt sich in höchstens 20 Zügen lösen.",
+    "detail": "Das haben Forschende im Juli 2010 berechnet. Der Würfel selbst wurde 1974 vom ungarischen Architekten Ernő Rubik konstruiert.",
+    "sources": [
+      {
+        "name": "Wikipedia: Zauberwürfel",
+        "url": "https://de.wikipedia.org/wiki/Zauberwürfel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Every scrambled Rubik's Cube can be solved in 20 moves or fewer.",
+        "detail": "Researchers calculated this in July 2010. The cube itself was designed in 1974 by the Hungarian architect Ernő Rubik."
+      }
+    }
+  },
+  {
+    "id": "f-lochkarte",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Lochkarten steuerten schon 1805 Webstühle – lange bevor sie Daten speicherten.",
+    "detail": "Der Jacquardwebstuhl wurde 1805 mit gelochten Kartonkarten gesteuert. Zur Datenspeicherung kamen Lochkarten bei der US-Volkszählung 1890, für die Herman Hollerith ein Verfahren entwickelte.",
+    "sources": [
+      {
+        "name": "Wikipedia: Lochkarte",
+        "url": "https://de.wikipedia.org/wiki/Lochkarte"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Punched cards controlled looms as early as 1805 – long before they stored data.",
+        "detail": "The Jacquard loom was controlled with punched cardboard cards in 1805. Punched cards were used to store data in the US census of 1890, for which Herman Hollerith developed a system."
+      }
+    }
+  },
+  {
+    "id": "f-schreibkugel",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Die erste Schreibmaschine in größerer Stückzahl baute ein dänischer Pastor.",
+    "detail": "Rasmus Malling-Hansen, Direktor eines dänischen Instituts für Gehörlose, baute 1865 die Schreibkugel mit etwa 50 Typenstäben. Ab 1876 stellte dann eine Gewehrfabrik, Remington & Sons, Schreibmaschinen in Serie her.",
+    "sources": [
+      {
+        "name": "Wikipedia: Schreibmaschine",
+        "url": "https://de.wikipedia.org/wiki/Schreibmaschine"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The first typewriter made in larger numbers was built by a Danish pastor.",
+        "detail": "Rasmus Malling-Hansen, head of a Danish institute for the deaf, built the “writing ball” with about 50 type rods in 1865. From 1876 a gun factory, Remington & Sons, produced typewriters in series."
+      }
+    }
+  },
+  {
+    "id": "f-primzahl-euklid",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Es gibt keine größte Primzahl – das wusste man schon vor über 2.000 Jahren.",
+    "detail": "Der Grieche Euklid zeigte im 4. Jahrhundert v. Chr. mit einem logischen Beweis, dass es unendlich viele Primzahlen gibt. Eine Primzahl hat genau zwei Teiler: die 1 und sich selbst.",
+    "sources": [
+      {
+        "name": "Wikipedia: Primzahl",
+        "url": "https://de.wikipedia.org/wiki/Primzahl"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "There is no largest prime number – people knew this over 2,000 years ago.",
+        "detail": "The Greek Euclid showed with a logical proof in the 4th century BC that there are infinitely many primes. A prime number has exactly two divisors: 1 and itself."
+      }
+    }
+  },
+  {
+    "id": "f-sudoku",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Sudoku klingt japanisch, wurde in seiner heutigen Form aber in den USA erfunden.",
+    "detail": "Howard Garns erfand die moderne Form; sie erschien 1979 unter dem Namen Number Place in einer US-Rätselzeitschrift. Beliebt wurde das Rätsel zunächst ab 1984 in Japan. Vorläufer waren die lateinischen Quadrate von Leonhard Euler.",
+    "sources": [
+      {
+        "name": "Wikipedia: Sudoku",
+        "url": "https://de.wikipedia.org/wiki/Sudoku"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Sudoku sounds Japanese, but its modern form was invented in the USA.",
+        "detail": "Howard Garns invented the modern form; it appeared in 1979 under the name Number Place in a US puzzle magazine. The puzzle first became popular from 1984 in Japan. Its forerunners were the Latin squares of Leonhard Euler."
+      }
+    }
+  },
+  {
+    "id": "f-reliefpfeiler",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "„Reliefpfeiler“ liest sich vorwärts und rückwärts gleich – hat aber Konkurrenz.",
+    "detail": "Laut Guinness-Buch der Rekorde von 1997 ist es mit 13 Buchstaben das längste deutsche Ein-Wort-Palindrom. Das Wort „Retsinakanister“ hat sogar 15 Buchstaben.",
+    "sources": [
+      {
+        "name": "Wikipedia: Palindrom",
+        "url": "https://de.wikipedia.org/wiki/Palindrom"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The German word “Reliefpfeiler” reads the same forwards and backwards – but it has competition.",
+        "detail": "According to the 1997 Guinness Book of Records it is the longest German one-word palindrome at 13 letters. The word “Retsinakanister” even has 15 letters."
+      }
+    }
+  },
+  {
+    "id": "f-comic-toepffer",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Comics mit Bildrahmen gab es schon um 1830.",
+    "detail": "Rodolphe Töpffer wird als Vater des modernen Comics bezeichnet: Er verwendete um 1830 erstmals Panelrahmen. Hergé schuf 1929 Tim und Struppi.",
+    "sources": [
+      {
+        "name": "Wikipedia: Comic",
+        "url": "https://de.wikipedia.org/wiki/Comic"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Comics with panel frames already existed around 1830.",
+        "detail": "Rodolphe Töpffer is called the father of the modern comic: around 1830 he was the first to use panel frames. Hergé created Tintin in 1929."
+      }
+    }
+  },
+  {
+    "id": "f-piano-name",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "„Piano“ ist eine Kurzform – das ganze Wort heißt „Pianoforte“, leise-laut.",
+    "detail": "Pianoforte setzt sich aus den italienischen Wörtern für „leise“ und „laut“ zusammen. Auf dem Klavier sind durch unterschiedlich starkes Anschlagen der Tasten große Lautstärkeunterschiede möglich, anders als auf älteren Tasteninstrumenten.",
+    "sources": [
+      {
+        "name": "Wikipedia: Klavier",
+        "url": "https://de.wikipedia.org/wiki/Klavier"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "“Piano” is short for “pianoforte” – literally “soft-loud”.",
+        "detail": "Pianoforte combines the Italian words for “soft” and “loud”. On the piano, striking the keys with different force produces large differences in volume, unlike on older keyboard instruments."
+      }
+    }
   }
 ]
