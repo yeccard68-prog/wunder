@@ -18,6 +18,7 @@ begin
   update public.profiles set display_name = 'Yus', age_band = '13-15' where id = y;
   update public.profiles set display_name = 'Kim', age_band = '10-12' where id = k;
   v_plain := private.chat_text_allowed('eine gerade Linie, 2024 waren es 15 Fragen');
+  update private.app_flags set on_ = true; -- chat and groups are off at launch; this test needs them on (rolled back)
   set local role authenticated;
 
   -- computer duel

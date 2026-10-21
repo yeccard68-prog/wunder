@@ -1,0 +1,287 @@
+{
+  "clips": [
+    {
+      "clipId": "v-zinseszins",
+      "locale": "de",
+      "question": "1.000 € bringen 30 Jahre lang 7 % Zinsen pro Jahr, die Zinsen bleiben angelegt. Wie viel ist es am Ende ungefähr?",
+      "options": [
+        "Rund 7.600 €",
+        "Rund 3.100 €",
+        "Rund 2.100 €",
+        "Rund 21.000 €"
+      ]
+    },
+    {
+      "clipId": "v-pyramide-mond",
+      "locale": "de",
+      "question": "Was liegt zeitlich näher an Kleopatras Geburt (69 v. Chr.)?",
+      "options": [
+        "Die erste Mondlandung 1969",
+        "Der Bau der Cheops-Pyramide",
+        "Beides ist etwa gleich weit entfernt"
+      ]
+    },
+    {
+      "clipId": "v-marathon-runden",
+      "locale": "de",
+      "question": "Wie viele Runden auf einer 400-Meter-Bahn ergeben ungefähr einen Marathon?",
+      "options": [
+        "Gut 105",
+        "Gut 42",
+        "Genau 100",
+        "Gut 210"
+      ]
+    },
+    {
+      "clipId": "v-papier-mond",
+      "locale": "de",
+      "question": "Wie oft müsste man ein 0,1 mm dickes Blatt falten, damit der Stapel bis zum Mond reicht?",
+      "options": [
+        "Etwa 42-mal",
+        "Etwa 420-mal",
+        "Etwa 4.200-mal",
+        "Etwa 42.000-mal"
+      ]
+    },
+    {
+      "clipId": "v-sonne-masse",
+      "locale": "de",
+      "question": "Welcher Anteil der Masse des Sonnensystems steckt in der Sonne?",
+      "options": [
+        "Rund 99,9 %",
+        "Rund 75 %",
+        "Rund 50 %",
+        "Rund 10 %"
+      ]
+    },
+    {
+      "clipId": "v-licht-reise",
+      "locale": "de",
+      "question": "Wie lange ist Licht vom nächsten Stern, Proxima Centauri, zu uns unterwegs?",
+      "options": [
+        "Etwa 4 Jahre",
+        "Etwa 4 Tage",
+        "Etwa 4 Stunden",
+        "Etwa 400 Jahre"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "f-bienentanz",
+      "locale": "de",
+      "color": "#7fc66a",
+      "kicker": "Wusstest du? · Tiere",
+      "text": "Honigbienen zeigen einander mit einem Tanz, wo es Futter gibt.",
+      "detail": "Beim Schwänzeltanz verraten Richtung und Dauer der Bewegungen, in welcher Richtung und wie weit die Futterquelle vom Stock entfernt liegt. Wie lebhaft getanzt wird, zeigt, wie ergiebig sie ist.",
+      "source": "Quelle: Wikipedia – Tanzsprache"
+    },
+    {
+      "id": "f-steigbuegel",
+      "locale": "de",
+      "color": "#41c7b4",
+      "kicker": "Wusstest du? · Körper",
+      "text": "Der kleinste Knochen deines Körpers sitzt im Ohr und ist nur gut 3 Millimeter hoch.",
+      "detail": "Der Steigbügel ist eines der drei Gehörknöchelchen im Mittelohr. Er wiegt 3 bis 4 Milligramm und hat seinen Namen von seiner Form.",
+      "source": "Quelle: Wikipedia – Steigbügel (Anatomie)"
+    },
+    {
+      "id": "f-hawaii-alphabet",
+      "locale": "de",
+      "color": "#6ccbdc",
+      "kicker": "Wusstest du? · Sprache",
+      "text": "Das hawaiische Alphabet kommt mit 13 Zeichen aus.",
+      "detail": "Es besteht aus 12 Buchstaben der lateinischen Schrift und dem Zeichen ʻOkina. Damit ist es eines der kürzesten Alphabete der Welt.",
+      "source": "Quelle: Wikipedia – Hawaiische Sprache"
+    },
+    {
+      "id": "f-ikea-name",
+      "locale": "de",
+      "color": "#f08a6c",
+      "kicker": "Wusstest du? · Kurioses",
+      "text": "IKEA ist eine Abkürzung – aus dem Namen des Gründers und zwei Ortsnamen.",
+      "detail": "Die Buchstaben stehen für Ingvar Kamprad, Elmtaryd und Agunnaryd. Kamprad gründete das Unternehmen 1943 in Schweden.",
+      "source": "Quelle: Wikipedia – IKEA"
+    },
+    {
+      "id": "f-marathon-1921",
+      "locale": "de",
+      "color": "#f09a6e",
+      "kicker": "Wusstest du? · Sport",
+      "text": "Die Marathonstrecke von 42,195 Kilometern ist erst seit 1921 festgelegt.",
+      "detail": "Der Marathon ist die längste olympische Laufdisziplin in der Leichtathletik. Bei großen Meisterschaften endet er oft mit einer Runde im Stadion.",
+      "source": "Quelle: Wikipedia – Marathonlauf"
+    },
+    {
+      "id": "f-erste-aktie",
+      "locale": "de",
+      "color": "#6db3f2",
+      "kicker": "Wusstest du? · Geld",
+      "text": "Die ersten Aktien gab die Niederländische Ostindien-Kompanie aus – gegründet 1602.",
+      "detail": "Das Handelsunternehmen beherrschte einen Teil des lukrativen Indienhandels und war in sechs „Kammern“ gegliedert. Nach einem Krieg gegen England geriet es in Geldnot und wurde 1798 aufgelöst.",
+      "source": "Quelle: Wikipedia – Niederländische Ostindien-Kompanie"
+    },
+    {
+      "id": "f-kuerzester-krieg",
+      "locale": "de",
+      "color": "#e2ab4f",
+      "kicker": "Wusstest du? · Geschichte",
+      "text": "Der kürzeste Krieg der Geschichte dauerte 38 Minuten.",
+      "detail": "Großbritannien und das Sultanat Sansibar kämpften am 27. August 1896 von 9:00 bis 9:38 Uhr. Das Guinness-Buch der Rekorde führt ihn als kürzesten Krieg der Weltgeschichte.",
+      "source": "Quelle: Wikipedia – Britisch-Sansibarischer Krieg"
+    },
+    {
+      "id": "f-freiheitsstatue",
+      "locale": "de",
+      "color": "#e58bb8",
+      "kicker": "Wusstest du? · Kunst & Kultur",
+      "text": "Die Freiheitsstatue in New York ist ein Geschenk Frankreichs.",
+      "detail": "Sie steht auf Liberty Island im New Yorker Hafen und wurde am 28. Oktober 1886 eingeweiht. Seit 1984 ist sie UNESCO-Weltkulturerbe.",
+      "source": "Quelle: Wikipedia – Freiheitsstatue"
+    },
+    {
+      "id": "f-sms-1992",
+      "locale": "de",
+      "color": "#9794ff",
+      "kicker": "Wusstest du? · Technik",
+      "text": "Die SMS wurde 1992 entwickelt – und 2012 so viel genutzt wie nie.",
+      "detail": "Danach wurde sie rasch von Messengern wie WhatsApp abgelöst. Ihr Nachfolger als Standard heißt RCS (Rich Communication Services).",
+      "source": "Quelle: Wikipedia – Short Message Service"
+    },
+    {
+      "id": "f-pi",
+      "locale": "de",
+      "color": "#d6c35a",
+      "kicker": "Wusstest du? · Zahlen",
+      "text": "Die Zahl Pi hat unendlich viele Nachkommastellen – ohne je in eine Wiederholung zu fallen.",
+      "detail": "Pi ist irrational: Sie lässt sich nicht als Bruch zweier ganzer Zahlen schreiben. Deshalb gibt es keine letzte Stelle und kein sich wiederholendes Muster.",
+      "source": "Quelle: Wikipedia – Kreiszahl"
+    },
+    {
+      "id": "f-faultier-algen",
+      "locale": "de",
+      "color": "#7fc66a",
+      "kicker": "Wusstest du? · Tiere",
+      "text": "Im Fell von Faultieren wachsen Algen – sie färben es grünlich.",
+      "detail": "Die Algen siedeln in den Haaren und sind eine Tarnung: Zwischen den Blättern wirkt das Tier dadurch grün schimmernd, besonders in der Regenzeit.",
+      "source": "Quelle: Wikipedia – Faultiere"
+    },
+    {
+      "id": "f-lichtjahr",
+      "locale": "de",
+      "color": "#41c7b4",
+      "kicker": "Wusstest du? · Weltraum",
+      "text": "Ein Lichtjahr ist keine Zeit, sondern eine Strecke: rund 9,46 Billionen Kilometer.",
+      "detail": "So weit kommt Licht im Vakuum in einem Jahr. Man nutzt die Einheit vor allem, um die riesigen Entfernungen zwischen Sternen anschaulich zu machen.",
+      "source": "Quelle: Wikipedia – Lichtjahr"
+    },
+    {
+      "id": "f-roboter-wort",
+      "locale": "de",
+      "color": "#6ccbdc",
+      "kicker": "Wusstest du? · Sprache",
+      "text": "Das Wort „Roboter“ kommt aus dem Tschechischen und bedeutete ursprünglich Zwangsarbeit.",
+      "detail": "Es geht auf das tschechische Wort „robota“ zurück, das man mit „Frondienst“ oder „Zwangsarbeit“ übersetzen kann.",
+      "source": "Quelle: Wikipedia – Roboter"
+    },
+    {
+      "id": "f-lego-name",
+      "locale": "de",
+      "color": "#f08a6c",
+      "kicker": "Wusstest du? · Kurioses",
+      "text": "Der Name Lego kommt aus dem Dänischen und heißt „spiel gut“.",
+      "detail": "Er leitet sich von „leg godt“ ab und wird seit 1934 verwendet.",
+      "source": "Quelle: Wikipedia – Lego"
+    },
+    {
+      "id": "f-olympia-antike",
+      "locale": "de",
+      "color": "#f09a6e",
+      "kicker": "Wusstest du? · Geschichte",
+      "text": "Olympische Spiele gab es schon vor über 2.700 Jahren.",
+      "detail": "Nach der offiziellen Zählung fanden sie von 776 v. Chr. bis 393 n. Chr. in Olympia auf der Peloponnes statt. Archäologisch belegt sind Wettkämpfe dort ab etwa 700 v. Chr.",
+      "source": "Quelle: Wikipedia – Olympische Spiele der Antike"
+    },
+    {
+      "id": "f-euro-bargeld",
+      "locale": "de",
+      "color": "#6db3f2",
+      "kicker": "Wusstest du? · Geld",
+      "text": "Den Euro gab es drei Jahre lang nur auf dem Konto, bevor Scheine und Münzen kamen.",
+      "detail": "Am 1. Januar 1999 wurde er als Buchgeld eingeführt, am 1. Januar 2002 als Bargeld. Nach dem US-Dollar ist er die zweitwichtigste Reservewährung der Welt.",
+      "source": "Quelle: Wikipedia – Euro"
+    },
+    {
+      "id": "f-mauer-mond",
+      "locale": "de",
+      "color": "#e2ab4f",
+      "kicker": "Wusstest du? · Geschichte",
+      "text": "Die Chinesische Mauer ist vom Mond aus nicht zu sehen.",
+      "detail": "Der Mond ist rund 380.000 Kilometer entfernt – die Mauer mit bloßem Auge von dort zu erkennen, wäre unmöglich. Die meisten bemannten Raumflüge fanden in 300 bis 600 Kilometern Höhe statt.",
+      "source": "Quelle: Wikipedia – Chinesische Mauer"
+    },
+    {
+      "id": "f-mona-lisa",
+      "locale": "de",
+      "color": "#e58bb8",
+      "kicker": "Wusstest du? · Kunst & Kultur",
+      "text": "Die Mona Lisa wurde 1911 aus dem Louvre gestohlen.",
+      "detail": "Der Dieb Vincenzo Peruggia nahm das Bild am 21. August 1911 mit. Der Diebstahl machte das Gemälde noch berühmter. Es ist übrigens nur 77 × 53 Zentimeter groß.",
+      "source": "Quelle: Wikipedia – Mona Lisa"
+    },
+    {
+      "id": "f-webcam-kaffee",
+      "locale": "de",
+      "color": "#9794ff",
+      "kicker": "Wusstest du? · Technik",
+      "text": "Die erste Webcam der Welt zeigte eine Kaffeemaschine.",
+      "detail": "1991 richteten Forschende in Cambridge eine Kamera auf die Kanne im Flur – so sahen sie vom Schreibtisch aus, ob noch Kaffee da war.",
+      "source": "Quelle: Wikipedia – Trojan Room coffee pot"
+    },
+    {
+      "id": "f-ziegenproblem",
+      "locale": "de",
+      "color": "#d6c35a",
+      "kicker": "Wusstest du? · Zahlen",
+      "text": "Bei der Spielshow mit drei Türen gewinnt, wer seine Wahl wechselt, doppelt so oft.",
+      "detail": "Hinter einer Tür ist der Gewinn, hinter zwei eine Ziege. Nach der ersten Wahl öffnet der Moderator eine Ziegentür. Wer wechselt, gewinnt mit 2/3 Wahrscheinlichkeit, wer bleibt, nur mit 1/3 – die erste Wahl war ja nur zu einem Drittel richtig.",
+      "source": "Quelle: Wikipedia – Ziegenproblem"
+    },
+    {
+      "id": "f-delfin-schlaf",
+      "locale": "de",
+      "color": "#7fc66a",
+      "kicker": "Wusstest du? · Tiere",
+      "text": "Delfine schlafen immer nur mit einer Gehirnhälfte.",
+      "detail": "Die andere Hälfte bleibt wach – so atmen sie weiter und bleiben aufmerksam. Ein Auge ist dabei meist geöffnet.",
+      "source": "Quelle: Wikipedia – Delfine"
+    },
+    {
+      "id": "f-sonne-masse",
+      "locale": "de",
+      "color": "#41c7b4",
+      "kicker": "Wusstest du? · Weltraum",
+      "text": "Die Sonne enthält 99,86 % der Masse des ganzen Sonnensystems.",
+      "detail": "Alle Planeten, Monde, Asteroiden und Kometen zusammen machen also nur einen winzigen Rest aus. Ihr Durchmesser ist etwa 110-mal so groß wie der der Erde.",
+      "source": "Quelle: Wikipedia – Sonne"
+    },
+    {
+      "id": "f-handy",
+      "locale": "de",
+      "color": "#6ccbdc",
+      "kicker": "Wusstest du? · Sprache",
+      "text": "„Handy“ klingt englisch, ist es aber nicht.",
+      "detail": "Im Englischen heißt das Gerät „mobile phone“ oder „cell phone“. „Handy“ ist ein Scheinanglizismus – ein englisch klingendes Wort, das so nur im Deutschen benutzt wird.",
+      "source": "Quelle: Wikipedia – Scheinanglizismus"
+    },
+    {
+      "id": "f-nokia-papier",
+      "locale": "de",
+      "color": "#f08a6c",
+      "kicker": "Wusstest du? · Kurioses",
+      "text": "Nokia hat als Papierhersteller angefangen.",
+      "detail": "Fredrik Idestam gründete das Unternehmen 1865 in Tampere in Finnland; anfangs stellte es Papiererzeugnisse her. Den Namen hat es von der Stadt Nokia, wo 1868 ein zweites Werk eröffnete.",
+      "source": "Quelle: Wikipedia – Nokia"
+    }
+  ]
+}

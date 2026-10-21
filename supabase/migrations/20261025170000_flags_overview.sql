@@ -45,7 +45,7 @@ begin
 end $$;
 
 -- group_create and group_join refuse while groups are off
-create or replace function public.group_create(p_name text) returns jsonb language plpgsql security definer set search_path = '' as $
+create or replace function public.group_create(p_name text) returns jsonb language plpgsql security definer set search_path = '' as $$
 declare
   v_user uuid := (select auth.uid());
   v_id uuid;
@@ -64,10 +64,10 @@ begin
   end loop;
   insert into public.group_members (group_id, user_id) values (v_id, v_user);
   return jsonb_build_object('id', v_id, 'code', (select code from public.groups where id = v_id));
-end $;
+end $$;
 
 
-create or replace function public.group_join(p_code text) returns uuid language plpgsql security definer set search_path = '' as $
+create or replace function public.group_join(p_code text) returns uuid language plpgsql security definer set search_path = '' as $$
 declare
   v_user uuid := (select auth.uid());
   g public.groups%rowtype;
@@ -83,7 +83,7 @@ begin
   insert into public.group_members (group_id, user_id) values (g.id, v_user);
   update public.groups set updated_at = now() where id = g.id;
   return g.id;
-end $;
+end $$;
 
 
 -- editors: players per day (active = answered at least one question that day) and totals
