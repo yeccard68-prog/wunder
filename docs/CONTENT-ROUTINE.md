@@ -64,3 +64,14 @@ anlegen (Muster: `2026-10-facts-formats-1.mjs`), höchstens 6 Einträge, für ne
 - `figure` mit `figureSuffixEn` – die Kernzahl zählt hoch; sie muss im geprüften Text des Fakts stehen.
 Prüfen mit `node scripts/content/verify-evidence.mjs <datei>`, einspielen mit `node scripts/content/annotate-facts.mjs <datei>`
 (nach dem Fakten-Batch).
+
+## „Heute vor … Jahren“ (seit 21.10.2026)
+
+`content/days.json` soll immer mindestens 21 Tage im Voraus abdecken (ein Ereignis pro Kalendertag). Fehlen Tage, legt
+der Lauf zusätzlich einen Batch `content/_batches/<YYYY-MM>-days-<n>.mjs` an (Muster: `2026-10-days-1.mjs`) für die
+nächsten bis zu 14 fehlenden Tage: Quelle ist der Wikipedia-Tagesartikel, ein Zitat muss mit „<Jahr>:“ beginnen.
+Bevorzugt Wissenschaft, Technik, Kultur, Raumfahrt; keine Kriege, Anschläge, Katastrophen, Verbrechen, Politik.
+Achtung: Auch Tagesartikel irren – Ortsangaben und Zahlen, die einem bekannten Fakt widersprechen, mit dem Artikel zum
+Ereignis gegenprüfen (Beispiel: Radiosender KDKA sitzt in Pittsburgh, nicht in Philadelphia).
+Prüfen: `node scripts/content/verify-evidence.mjs <datei>`, einspielen: `node scripts/content/merge-days.mjs <datei>`.
+Welche Tage fehlen: `node scripts/content/coverage.mjs` (Abschnitt „Heute vor … Jahren“).

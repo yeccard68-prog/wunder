@@ -1,0 +1,750 @@
+[
+  {
+    "id": "d-1879-10-21-gluehlampe",
+    "date": "10-21",
+    "year": 1879,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Edisons erste markttaugliche Glühlampe brannte über 40 Stunden am Stück.",
+    "detail": "Im Menlo-Park-Labor in New Jersey bestand sie einen Dauertest von über 40 Stunden.",
+    "sources": [
+      {
+        "name": "Wikipedia: 21. Oktober",
+        "url": "https://de.wikipedia.org/wiki/21._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Edison's first marketable light bulb burned for more than 40 hours straight.",
+        "detail": "At the Menlo Park laboratory in New Jersey it passed an endurance test of more than 40 hours."
+      }
+    }
+  },
+  {
+    "id": "d-1938-10-22-fotokopie",
+    "date": "10-22",
+    "year": 1938,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Die allererste Fotokopie einer Schriftvorlage entstand in einem Labor bei New York.",
+    "detail": "Chester Carlson gelang das Kunststück in einem Labor in der Nähe von New York.",
+    "sources": [
+      {
+        "name": "Wikipedia: 22. Oktober",
+        "url": "https://de.wikipedia.org/wiki/22._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The very first photocopy of a written original was made in a laboratory near New York.",
+        "detail": "Chester Carlson managed the feat in a laboratory near New York."
+      }
+    }
+  },
+  {
+    "id": "d-1970-10-23-blueflame",
+    "date": "10-23",
+    "year": 1970,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Ein Raketenauto knackte erstmals die Marke von 1000 Kilometern pro Stunde.",
+    "detail": "Gary Gabelich fuhr die Rekordfahrt im Raketenauto Blue Flame in der Großen Salzwüste im US-Bundesstaat Utah.",
+    "sources": [
+      {
+        "name": "Wikipedia: 23. Oktober",
+        "url": "https://de.wikipedia.org/wiki/23._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "A rocket car broke the 1000 kilometres per hour mark on land for the first time.",
+        "detail": "Gary Gabelich drove the record run in the rocket car Blue Flame on the Great Salt Flats in the US state of Utah."
+      }
+    }
+  },
+  {
+    "id": "d-1998-10-24-ionenantrieb",
+    "date": "10-24",
+    "year": 1998,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Die Raumsonde Deep Space 1 flog als erstes Raumfahrzeug mit einem Ionenantrieb ins All.",
+    "detail": "Sie startete von Cape Canaveral aus.",
+    "sources": [
+      {
+        "name": "Wikipedia: 24. Oktober",
+        "url": "https://de.wikipedia.org/wiki/24._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The space probe Deep Space 1 was the first spacecraft to head into space with an ion drive.",
+        "detail": "It was launched from Cape Canaveral."
+      }
+    }
+  },
+  {
+    "id": "d-2007-10-25-a380",
+    "date": "10-25",
+    "year": 2007,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Der Airbus A380 trug zum ersten Mal Passagiere in die Luft.",
+    "detail": "Die Singapore Airlines absolvierten den ersten Flug des Flugzeugs mit Passagieren an Bord.",
+    "sources": [
+      {
+        "name": "Wikipedia: 25. Oktober",
+        "url": "https://de.wikipedia.org/wiki/25._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The Airbus A380 carried passengers through the air for the first time.",
+        "detail": "Singapore Airlines flew the first flight of the aircraft with passengers on board."
+      }
+    }
+  },
+  {
+    "id": "d-1861-10-26-fernsprecher",
+    "date": "10-26",
+    "year": 1861,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Ein früher Vorläufer des Telefons wurde in Frankfurt vorgeführt.",
+    "detail": "Johann Philipp Reis stellte sein Fernsprechgerät im Physikalischen Verein zu Frankfurt am Main vor.",
+    "sources": [
+      {
+        "name": "Wikipedia: 26. Oktober",
+        "url": "https://de.wikipedia.org/wiki/26._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "An early forerunner of the telephone was demonstrated in Frankfurt.",
+        "detail": "Johann Philipp Reis presented his telephone device to the Physikalischer Verein in Frankfurt am Main."
+      }
+    }
+  },
+  {
+    "id": "d-1873-10-27-stacheldraht",
+    "date": "10-27",
+    "year": 1873,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Ein Mann meldete Stacheldraht zum Patent an.",
+    "detail": "Der Erfinder hieß Joseph Glidden.",
+    "sources": [
+      {
+        "name": "Wikipedia: 27. Oktober",
+        "url": "https://de.wikipedia.org/wiki/27._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "A man applied for a patent on barbed wire.",
+        "detail": "The inventor was Joseph Glidden."
+      }
+    }
+  },
+  {
+    "id": "d-1869-10-28-periodensystem",
+    "date": "10-28",
+    "year": 1869,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Das Periodensystem der Elemente wurde veröffentlicht.",
+    "detail": "Veröffentlicht hat es Dmitri Iwanowitsch Mendelejew.",
+    "sources": [
+      {
+        "name": "Wikipedia: 28. Oktober",
+        "url": "https://de.wikipedia.org/wiki/28._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The periodic table of the elements was published.",
+        "detail": "It was published by Dmitri Ivanovich Mendeleev."
+      }
+    }
+  },
+  {
+    "id": "d-1969-10-29-internet",
+    "date": "10-29",
+    "year": 1969,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Die erste Nachricht ging zwischen zwei weit entfernten Rechnern hin und her, das Internet war geboren.",
+    "detail": "Die Nachricht wurde an der University of California in Los Angeles verschickt.",
+    "sources": [
+      {
+        "name": "Wikipedia: 29. Oktober",
+        "url": "https://de.wikipedia.org/wiki/29._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first message was sent between two distant computers, and the internet was born.",
+        "detail": "The message was sent at the University of California in Los Angeles."
+      }
+    }
+  },
+  {
+    "id": "d-1996-10-30-morse",
+    "date": "10-30",
+    "year": 1996,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Norddeich Radio funkte zum letzten Mal offiziell per Morsealphabet.",
+    "detail": "Die Nachricht bestand aus den Buchstaben C U L T R, was so viel heißt wie See You later.",
+    "sources": [
+      {
+        "name": "Wikipedia: 30. Oktober",
+        "url": "https://de.wikipedia.org/wiki/30._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Norddeich Radio sent its last official message in Morse code.",
+        "detail": "The message consisted of the letters C U L T R, standing for See You later."
+      }
+    }
+  },
+  {
+    "id": "d-2005-10-31-plutomonde",
+    "date": "10-31",
+    "year": 2005,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Der Zwergplanet Pluto bekam zwei neue Monde.",
+    "detail": "Die NASA gab die Entdeckung von Nix und Hydra bekannt, die mit dem Hubble-Weltraumteleskop gelungen war.",
+    "sources": [
+      {
+        "name": "Wikipedia: 31. Oktober",
+        "url": "https://de.wikipedia.org/wiki/31._Oktober"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The dwarf planet Pluto gained two new moons.",
+        "detail": "NASA announced the discovery of Nix and Hydra, which had been made with the Hubble Space Telescope."
+      }
+    }
+  },
+  {
+    "id": "d-1895-11-01-kino",
+    "date": "11-01",
+    "year": 1895,
+    "category_id": "culture",
+    "min_age": 10,
+    "text": "Im Berliner Varieté Wintergarten lief die erste Filmvorführung der Welt.",
+    "detail": "Die Gebrüder Max und Emil Skladanowsky zeigten sie in Berlin.",
+    "sources": [
+      {
+        "name": "Wikipedia: 1. November",
+        "url": "https://de.wikipedia.org/wiki/1._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The world's first film show took place in Berlin's Wintergarten variety theatre.",
+        "detail": "The brothers Max and Emil Skladanowsky presented it in Berlin."
+      }
+    }
+  },
+  {
+    "id": "d-1920-11-02-kdka",
+    "date": "11-02",
+    "year": 1920,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "In den USA ging das erste regelmäßige private Radioprogramm der Welt auf Sendung.",
+    "detail": "Der kommerzielle Sender KDKA aus Pittsburgh präsentierte Nachrichten, Musik und Unterhaltung.",
+    "sources": [
+      {
+        "name": "Wikipedia: 2. November",
+        "url": "https://de.wikipedia.org/wiki/2._November"
+      },
+      {
+        "name": "Wikipedia: KDKA-AM",
+        "url": "https://de.wikipedia.org/wiki/KDKA-AM"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The world's first regular private radio programme went on air in the USA.",
+        "detail": "The commercial station KDKA from Pittsburgh presented news, music and entertainment."
+      }
+    }
+  },
+  {
+    "id": "d-1957-11-03-laika",
+    "date": "11-03",
+    "year": 1957,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Die Hündin Laika flog als erstes Lebewesen in eine Erdumlaufbahn.",
+    "detail": "Sie war an Bord von Sputnik 2.",
+    "sources": [
+      {
+        "name": "Wikipedia: 3. November",
+        "url": "https://de.wikipedia.org/wiki/3._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The dog Laika became the first living creature in orbit around the Earth.",
+        "detail": "She was on board Sputnik 2."
+      }
+    }
+  },
+  {
+    "id": "d-1869-11-04-nature",
+    "date": "11-04",
+    "year": 1869,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Die erste Ausgabe der Wissenschaftszeitschrift Nature erschien.",
+    "detail": "Nature ist eine britische Wissenschaftszeitschrift.",
+    "sources": [
+      {
+        "name": "Wikipedia: 4. November",
+        "url": "https://de.wikipedia.org/wiki/4._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first issue of the science journal Nature was published.",
+        "detail": "Nature is a British science journal."
+      }
+    }
+  },
+  {
+    "id": "d-2018-11-05-voyager2",
+    "date": "11-05",
+    "year": 2018,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Die Raumsonde Voyager 2 verließ den Bereich der Sonne und drang in den interstellaren Raum vor.",
+    "detail": "Nach Angaben der NASA erreichte sie dabei die Heliopause des Sonnensystems.",
+    "sources": [
+      {
+        "name": "Wikipedia: 5. November",
+        "url": "https://de.wikipedia.org/wiki/5._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The space probe Voyager 2 left the Sun's realm and entered interstellar space.",
+        "detail": "According to NASA, it reached the heliopause of the Solar System."
+      }
+    }
+  },
+  {
+    "id": "d-1880-11-06-malaria",
+    "date": "11-06",
+    "year": 1880,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Ein Militärarzt entdeckte in einer Blutprobe den Erreger der Malaria.",
+    "detail": "Der Franzose Charles Louis Alphonse Laveran fand Plasmodium falciparum.",
+    "sources": [
+      {
+        "name": "Wikipedia: 6. November",
+        "url": "https://de.wikipedia.org/wiki/6._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "A military doctor discovered the malaria parasite in a blood sample.",
+        "detail": "The Frenchman Charles Louis Alphonse Laveran found Plasmodium falciparum."
+      }
+    }
+  },
+  {
+    "id": "d-1801-11-07-batterie",
+    "date": "11-07",
+    "year": 1801,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Die erste Batterie der Welt wurde der Öffentlichkeit gezeigt.",
+    "detail": "Alessandro Volta stellte sie vor.",
+    "sources": [
+      {
+        "name": "Wikipedia: 7. November",
+        "url": "https://de.wikipedia.org/wiki/7._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first battery in the world was shown to the public.",
+        "detail": "Alessandro Volta presented it."
+      }
+    }
+  },
+  {
+    "id": "d-1895-11-08-roentgen",
+    "date": "11-08",
+    "year": 1895,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Wilhelm Conrad Röntgen entdeckte die Röntgenstrahlen.",
+    "detail": "Die Entdeckung gelang ihm am 8. November 1895 – die Strahlen tragen bis heute seinen Namen.",
+    "sources": [
+      {
+        "name": "Wikipedia: 8. November",
+        "url": "https://de.wikipedia.org/wiki/8._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Wilhelm Conrad Röntgen discovered X-rays.",
+        "detail": "He made the discovery on 8 November 1895 – in German the rays still bear his name."
+      }
+    }
+  },
+  {
+    "id": "d-1994-11-09-darmstadtium",
+    "date": "11-09",
+    "year": 1994,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Forscher erzeugten zum ersten Mal das Element 110.",
+    "detail": "Der Gesellschaft für Schwerionenforschung gelang es, einen Blei- und einen Nickel-Atomkern zu verschmelzen. Das Element heißt später Darmstadtium.",
+    "sources": [
+      {
+        "name": "Wikipedia: 9. November",
+        "url": "https://de.wikipedia.org/wiki/9._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Researchers created element 110 for the first time.",
+        "detail": "The Gesellschaft für Schwerionenforschung managed to fuse a lead and a nickel nucleus. The element was later named darmstadtium."
+      }
+    }
+  },
+  {
+    "id": "d-1903-11-10-scheibenwischer",
+    "date": "11-10",
+    "year": 1903,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Der erste funktionierende Scheibenwischer der Welt wurde patentiert.",
+    "detail": "Mary Anderson erhielt das Patent auf die Scheibenwischanlage.",
+    "sources": [
+      {
+        "name": "Wikipedia: 10. November",
+        "url": "https://de.wikipedia.org/wiki/10._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The world's first working windscreen wiper was patented.",
+        "detail": "Mary Anderson received the patent for the wiper system."
+      }
+    }
+  },
+  {
+    "id": "d-1930-11-11-kuehlschrank",
+    "date": "11-11",
+    "year": 1930,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Albert Einstein erfand zusammen mit einem Kollegen einen Kühlschrank.",
+    "detail": "Er und Leó Szilárd erhielten in den USA das Patent Nummer 1.781.541.",
+    "sources": [
+      {
+        "name": "Wikipedia: 11. November",
+        "url": "https://de.wikipedia.org/wiki/11._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Albert Einstein invented a refrigerator together with a colleague.",
+        "detail": "He and Leó Szilárd received US patent number 1,781,541."
+      }
+    }
+  },
+  {
+    "id": "d-2014-11-12-philae",
+    "date": "11-12",
+    "year": 2014,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Eine Sonde landete erfolgreich auf einem Kometen.",
+    "detail": "Der Lander Philae der ESA-Raumsonde Rosetta setzte auf dem Kometen 67/P Tschurjumov-Gerassimenko auf.",
+    "sources": [
+      {
+        "name": "Wikipedia: 12. November",
+        "url": "https://de.wikipedia.org/wiki/12._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "A probe landed successfully on a comet.",
+        "detail": "The lander Philae of ESA's Rosetta space probe touched down on comet 67/P Churyumov-Gerasimenko."
+      }
+    }
+  },
+  {
+    "id": "d-1990-11-13-webseite",
+    "date": "11-13",
+    "year": 1990,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Die erste Webseite der Welt wurde veröffentlicht.",
+    "detail": "Sie erschien einen Tag nach dem Konzept von Tim Berners-Lee und Robert Cailliau für ein weltweites Hypertext-Projekt.",
+    "sources": [
+      {
+        "name": "Wikipedia: 13. November",
+        "url": "https://de.wikipedia.org/wiki/13._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first web page in the world was published.",
+        "detail": "It appeared one day after Tim Berners-Lee and Robert Cailliau's concept for a worldwide hypertext project."
+      }
+    }
+  },
+  {
+    "id": "d-1901-11-14-blutgruppen",
+    "date": "11-14",
+    "year": 1901,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Ein Wiener Arzt gab die Entdeckung der Blutgruppen bekannt.",
+    "detail": "Karl Landsteiner nannte die drei Blutgruppen A, B und 0.",
+    "sources": [
+      {
+        "name": "Wikipedia: 14. November",
+        "url": "https://de.wikipedia.org/wiki/14._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "A Viennese doctor announced the discovery of blood groups.",
+        "detail": "Karl Landsteiner named the three blood groups A, B and 0."
+      }
+    }
+  },
+  {
+    "id": "d-1971-11-15-intel4004",
+    "date": "11-15",
+    "year": 1971,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Intel brachte den ersten Mikroprozessor auf einem einzigen Chip auf den freien Markt.",
+    "detail": "Er hieß 4004 und war der erste in Serie produzierte Ein-Chip-Mikroprozessor.",
+    "sources": [
+      {
+        "name": "Wikipedia: 15. November",
+        "url": "https://de.wikipedia.org/wiki/15._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Intel put the first microprocessor on a single chip on the open market.",
+        "detail": "It was called the 4004 and was the first mass-produced single-chip microprocessor."
+      }
+    }
+  },
+  {
+    "id": "d-1974-11-16-arecibo",
+    "date": "11-16",
+    "year": 1974,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Die Menschheit schickte eine Botschaft an mögliche Außerirdische ins All.",
+    "detail": "Die Arecibo-Botschaft wurde als Radiowellen-Signal vom Arecibo-Observatorium aus gesendet.",
+    "sources": [
+      {
+        "name": "Wikipedia: 16. November",
+        "url": "https://de.wikipedia.org/wiki/16._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Humanity sent a message into space for possible extraterrestrials.",
+        "detail": "The Arecibo message was sent as a radio-wave signal from the Arecibo Observatory."
+      }
+    }
+  },
+  {
+    "id": "d-1970-11-17-maus",
+    "date": "11-17",
+    "year": 1970,
+    "category_id": "technology",
+    "min_age": 10,
+    "text": "Die Computermaus bekam ihr Patent.",
+    "detail": "Der US-amerikanische Erfinder Douglas C. Engelbart erhielt das Patent auf die erste EDV-Maus.",
+    "sources": [
+      {
+        "name": "Wikipedia: 17. November",
+        "url": "https://de.wikipedia.org/wiki/17._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The computer mouse received its patent.",
+        "detail": "The American inventor Douglas C. Engelbart received the patent for the first computer mouse."
+      }
+    }
+  },
+  {
+    "id": "d-1928-11-18-steamboatwillie",
+    "date": "11-18",
+    "year": 1928,
+    "category_id": "culture",
+    "min_age": 10,
+    "text": "Micky Maus hatte ihren ersten großen Auftritt.",
+    "detail": "Er fand im Zeichentrickfilm Steamboat Willie statt, einem der ersten Filme mit Ton.",
+    "sources": [
+      {
+        "name": "Wikipedia: 18. November",
+        "url": "https://de.wikipedia.org/wiki/18._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Mickey Mouse made his first big appearance.",
+        "detail": "It took place in the cartoon Steamboat Willie, one of the first with sound."
+      }
+    }
+  },
+  {
+    "id": "d-2002-11-19-mathematikum",
+    "date": "11-19",
+    "year": 2002,
+    "category_id": "math",
+    "min_age": 10,
+    "text": "In Gießen öffnete das erste Mathematikmuseum der Welt.",
+    "detail": "Das Museum steht in Gießen.",
+    "sources": [
+      {
+        "name": "Wikipedia: 19. November",
+        "url": "https://de.wikipedia.org/wiki/19._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The world's first mathematics museum opened in Giessen.",
+        "detail": "The museum is located in Giessen."
+      }
+    }
+  },
+  {
+    "id": "d-1998-11-20-sarja",
+    "date": "11-20",
+    "year": 1998,
+    "category_id": "science",
+    "min_age": 10,
+    "text": "Das erste Modul der Internationalen Raumstation ISS startete ins All.",
+    "detail": "Das Modul Sarja flog mit einer russischen Proton-K Rakete von Baikonur aus los.",
+    "sources": [
+      {
+        "name": "Wikipedia: 20. November",
+        "url": "https://de.wikipedia.org/wiki/20._November"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first module of the International Space Station ISS was launched into space.",
+        "detail": "The module Zarya lifted off on a Russian Proton-K rocket from Baikonur."
+      }
+    }
+  }
+]

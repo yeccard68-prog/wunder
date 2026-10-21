@@ -86,8 +86,9 @@ test("the feed: facts between the cards, something to watch from the second card
   assert.equal(facts.at(-1)!.id, "f-wombat", "facts already reacted to come last");
   const feed = mixFeed(rankForYou(items, state), clips, [], state, [], [], facts);
   assert.equal(feed[2].kind, "clip", "a strong start: the first clip after two cards");
-  assert.ok(feed.slice(0, 12).some((e) => e.kind === "fact"));
+  assert.ok(feed.slice(0, 12).some((e) => e.kind === "fact" || e.kind === "series"));
+  assert.ok(feed.some((e) => e.kind === "series"), "theme series of three facts");
   assert.equal(feed.filter((e) => e.kind === "pause").length, 1);
-  const cards = feed.filter((e) => e.kind === "item" || e.kind === "fact").map(entryTopic);
+  const cards = feed.filter((e) => e.kind === "item" || e.kind === "fact" || e.kind === "series" || e.kind === "day").map(entryTopic);
   for (let i = 2; i < 60; i++) assert.ok(!(cards[i] === cards[i - 1] && cards[i] === cards[i - 2]), `three ${cards[i]} in a row at ${i}`);
 });

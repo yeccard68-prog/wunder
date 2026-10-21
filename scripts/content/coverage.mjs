@@ -20,3 +20,17 @@ console.log("\nArticles already used:");
 console.log("  " + [...new Set(facts.flatMap((f) => f.sources.map((s) => s.name.replace(/^Wikipedia(?: \(englisch\))?: /, ""))))].sort().join(", "));
 console.log("\nExisting facts (do not repeat):");
 for (const f of facts) console.log(`  ${f.id}: ${f.text}`);
+
+// "Heute vor … Jahren": which of the next 30 days have no event yet
+const days = fs.existsSync("content/days.json") ? JSON.parse(fs.readFileSync("content/days.json", "utf8")) : [];
+const have = new Set(days.map((d) => d.date));
+const missing = [];
+const now = new Date();
+for (let i = 0; i < 30; i++) {
+  const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() + i);
+  const key = `${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  if (!have.has(key)) missing.push(key);
+}
+console.log(`\nHeute vor … Jahren: ${days.length} events; days without an event in the next 30 days: ${missing.length ? missing.join(", ") : "none"}`);
+const covered = (() => { let n = 0; for (let i = 0; i < 366; i++) { const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() + i); if (!have.has(`${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`)) break; n++; } return n; })();
+console.log(`Covered in a row from today: ${covered} days${covered < 21 ? " – add a days batch (docs/CONTENT-ROUTINE.md)" : ""}`);

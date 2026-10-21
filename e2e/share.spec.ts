@@ -64,3 +64,20 @@ test("myth or truth: guess first, then the verdict and the fact with its source"
   await expect(card).toContainText("nicht zu sehen");
   await expect(card.getByTestId("fact-detail")).toBeVisible();
 });
+
+test("the feed: today's event as the second card, and a theme series to swipe", async ({ page }) => {
+  await page.clock.install({ time: new Date(2026, 9, 21, 10) }); // 21 October: an event for this day exists
+  await page.addInitScript((s) => localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), seed);
+  await page.goto("/");
+  const kinds = page.getByTestId("snap-feed").locator("section[data-feed-entry]");
+  await expect(kinds.nth(1)).toHaveAttribute("data-feed-entry", "day");
+  await expect(page.getByTestId("day-card")).toContainText("Heute vor 147 Jahren");
+  await expect(page.getByTestId("day-card")).toContainText("Glühlampe");
+  const feed = page.getByTestId("snap-feed");
+  for (let i = 0; i < 60 && !(await page.getByTestId("series-card").count()); i++) await feed.evaluate((el) => el.scrollBy(0, el.clientHeight));
+  const series = page.getByTestId("series-card").first();
+  await expect(series).toContainText("3 Fakten");
+  await expect(series.getByTestId("series-slide")).toHaveCount(3);
+  await series.getByRole("button", { name: "Fakt 3" }).click();
+  await expect(series).toContainText("3/3");
+});

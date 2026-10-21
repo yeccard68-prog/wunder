@@ -144,7 +144,7 @@ interface Store {
   hide: (item: { id: string }, report?: boolean) => void;
   trackClip: (id: string, event: "play" | "complete") => void;
   /** How long an entry was on screen in the feed – the feed learns from it (kept on this device only). */
-  trackView: (categoryId: string, kind: EntryKind, seconds: number, id?: string) => void;
+  trackView: (categoryId: string, kind: EntryKind, seconds: number, ids?: string | string[]) => void;
   /** Reaction to a "did you know" fact. */
   reactFact: (id: string, reaction: "wow" | "known") => void;
   addComment: (clipId: string, text: string) => void;
@@ -447,9 +447,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   );
 
   const trackView = useCallback(
-    (categoryId: string, kind: EntryKind, seconds: number, id?: string) => {
+    (categoryId: string, kind: EntryKind, seconds: number, ids?: string | string[]) => {
       if (!categoryId || seconds <= 0) return;
-      commit((s) => ({ ...s, signals: recordView(s.signals, categoryId, kind, seconds), seen: id && seconds >= SEEN_MIN_SECONDS ? recordSeen(s.seen, id) : s.seen }), { silent: true });
+      const list = ids === undefined ? [] : Array.isArray(ids) ? ids : [ids];
+      commit((s) => ({ ...s, signals: recordView(s.signals, categoryId, kind, seconds), seen: seconds >= SEEN_MIN_SECONDS ? list.reduce((seen, id) => recordSeen(seen, id), s.seen) : s.seen }), { silent: true });
     },
     [commit]
   );

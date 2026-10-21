@@ -55,6 +55,40 @@ const rows = annotations
     })
   : facts;
 
+// "Heute vor … Jahren" batches export `events`: [id, "MM-DD", year, category, sources, text de, detail de, text en,
+// detail en]. One quote must come from the Wikipedia day article of that date and start with "<year>:".
+const MONTHS = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+if (batch.events) {
+  const days = fs.existsSync("content/days.json") ? JSON.parse(fs.readFileSync("content/days.json", "utf8")) : [];
+  const isNew = !days.some((d) => batch.events.some((e) => e[0] === d.id));
+  let bad = 0;
+  for (const [id, date, year, category, sources, text, detail, enText, enDetail] of batch.events) {
+    const problems = [];
+    const [mm, dd] = String(date).split("-").map(Number);
+    const dayTitle = mm >= 1 && mm <= 12 && dd >= 1 && dd <= 31 ? `${dd}. ${MONTHS[mm - 1]}` : null;
+    if (!/^\d\d-\d\d$/.test(String(date)) || !dayTitle) problems.push(`date "${date}" must be "MM-DD"`);
+    if (!Number.isInteger(year) || year < 1 || year > new Date().getFullYear() - 1) problems.push(`year ${year} must be a past year`);
+    if (!CATEGORIES.includes(category)) problems.push(`category "${category}" is not one of ${CATEGORIES.join(", ")}`);
+    if (isNew && days.some((d) => d.id === id)) problems.push(`id ${id} already exists`);
+    if (![text, detail, enText, enDetail].every((s) => typeof s === "string" && s.trim().length > 10)) problems.push("text/detail missing in German or English");
+    const quotes = evidence[id] ?? [];
+    const linked = new Set(sources.map((s) => decodeURIComponent(s.url.split("/wiki/")[1] ?? "").replaceAll("_", " ")));
+    if (dayTitle && !linked.has(dayTitle)) problems.push(`the day article "${dayTitle}" must be among the sources`);
+    if (dayTitle && !quotes.some((q) => q.split("|")[1].replaceAll("_", " ") === dayTitle && q.split("|").slice(2).join("|").trim().startsWith(`${year}:`))) problems.push(`one quote must come from "${dayTitle}" and start with "${year}:"`);
+    for (const q of quotes) {
+      const [lang, title, ...rest] = q.split("|");
+      const quote = rest.join("|");
+      if (!linked.has(title.replaceAll("_", " "))) problems.push(`"${title}" is not among the sources`);
+      const t = await article(lang, title);
+      if (t === null) problems.push(`article not found: ${lang}|${title}`);
+      else if (!t.includes(norm(quote))) problems.push(`not in ${title}: "${quote}"`);
+    }
+    if (problems.length) { bad++; console.log(`FAIL ${id}\n  - ${problems.join("\n  - ")}`); } else console.log(`ok   ${id} (${dd}.${mm}.${year})`);
+  }
+  console.log(`${batch.events.length - bad} of ${batch.events.length} events confirmed.`);
+  process.exit(bad ? 1 : 0);
+}
+
 let failed = 0;
 for (const row of rows) {
   const [id, area, category, sources, text, detail, enText, enDetail, ann] = row;

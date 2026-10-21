@@ -6,6 +6,7 @@ import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
 import VisualCard from "@/components/viz";
 import ClipPlayer from "@/components/ClipPlayer";
+import { DayCard, SeriesCard } from "@/components/DayCards";
 import HintButton from "@/components/HintButton";
 import { Sheet } from "@/components/ui";
 import { scrollToElement, useAutoAdvance } from "@/lib/advance";
@@ -13,7 +14,7 @@ import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
 import { categoryById } from "@/lib/categories";
 import { captionAt, type Clip } from "@/lib/content";
-import { entryId, entryTopic, type FeedEntry } from "@/lib/feed";
+import { entryContentIds, entryId, entryTopic, type FeedEntry } from "@/lib/feed";
 import FactCard from "./FactCard";
 import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
@@ -194,6 +195,8 @@ function PauseCard() {
 function Entry({ entry, fill }: { entry: FeedEntry; fill?: boolean }) {
   const t = useT();
   if (entry.kind === "fact") return <FactCard fact={entry.fact} />;
+  if (entry.kind === "series") return <SeriesCard area={entry.area} facts={entry.facts} />;
+  if (entry.kind === "day") return <DayCard event={entry.event} />;
   if (entry.kind === "pause") return <PauseCard />;
   if (entry.kind === "item") return <KnowledgeCard item={entry.item} reason={t(entry.reason, entry.vars)} />;
   if (entry.kind === "clip") return <ClipCard clip={entry.clip} fill={fill} />;
@@ -211,7 +214,7 @@ function Tracked({ entry, root, className, children }: { entry: FeedEntry; root:
     if (!el || entry.kind === "pause") return;
     let since = 0;
     const leave = () => {
-      if (since) trackView(entryTopic(entry), entry.kind as Exclude<FeedEntry["kind"], "pause">, (performance.now() - since) / 1000, entryId(entry));
+      if (since) trackView(entryTopic(entry), entry.kind as Exclude<FeedEntry["kind"], "pause">, (performance.now() - since) / 1000, entryContentIds(entry));
       since = 0;
     };
     const obs = new IntersectionObserver(([e]) => (e.isIntersecting ? (since = performance.now()) : leave()), { root: root.current, threshold: 0.6 });

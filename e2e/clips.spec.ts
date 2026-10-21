@@ -105,6 +105,7 @@ async function next(page: Page) {
 }
 
 test("the feed snaps: one entry per screen, clips and animations in between, only the current one plays", async ({ page }) => {
+  await page.clock.setFixedTime(new Date(2026, 1, 10, 10)); // a date without a "today in history" event: the classic rhythm
   await signIn(page);
   await page.goto("/");
   const feed = page.getByTestId("snap-feed");

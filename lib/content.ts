@@ -158,10 +158,21 @@ export function localizeItem(item: Item, locale: string): Item {
   const t = item.translations?.[locale];
   return t ? { ...item, question: t.question, options: t.options, explanation: t.explanation ?? item.explanation, hints: t.hints ?? item.hints } : item;
 }
+/**
+ * Own media files (/clips/…) can be served from another host – e.g. Cloudflare Pages, which has no bandwidth limit –
+ * by setting NEXT_PUBLIC_MEDIA_BASE (like "https://wunder.pages.dev"). Empty: served by the app itself.
+ */
+const MEDIA_BASE = (process.env.NEXT_PUBLIC_MEDIA_BASE ?? "").replace(/\/$/, "");
+export const media = (path: string) => (MEDIA_BASE && path.startsWith("/clips/") ? MEDIA_BASE + path : path);
+
 export function localizeClip(clip: Clip, locale: string): Clip {
   const t = clip.translations?.[locale];
   const quiz = clip.quiz && localizeItem(clip.quiz, locale);
-  return t ? { ...clip, title: t.title, takeaway: t.hook, description: t.description ?? clip.description, captions: t.captions, file: t.file ?? clip.file, poster: t.poster ?? clip.poster, quiz } : { ...clip, quiz };
+  const file = media(t?.file ?? clip.file);
+  const poster = t?.poster ?? clip.poster;
+  return t
+    ? { ...clip, title: t.title, takeaway: t.hook, description: t.description ?? clip.description, captions: t.captions, file, poster: poster && media(poster), quiz }
+    : { ...clip, file, poster: poster && media(poster), quiz };
 }
 
 // ---------- age levels ----------
