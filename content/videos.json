@@ -3419,5 +3419,67 @@
         "poster": "/clips/v-licht-reise.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-herz-schlaege",
+    "category_id": "science",
+    "title": "So oft schlägt dein Herz",
+    "hook": "Pro Tag über 100.000-mal – und in einem langen Leben fast drei Milliarden Mal.",
+    "description": "Bei rund 70 Schlägen pro Minute – so viel nennt die Quelle etwa für einen 70-Jährigen in Ruhe – schlägt ein Herz 100.800-mal am Tag und rund 36,8 Millionen Mal im Jahr. In 80 Jahren sind das etwa 2,9 Milliarden Schläge. Der echte Wert schwankt: Er hängt von Belastung, Alter und Fitness ab.",
+    "video_url": "/clips/v-herz-schlaege.mp4",
+    "thumbnail_url": "/clips/v-herz-schlaege.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Rund 70 Schläge pro Minute.",
+      "Das sind über 100.000 am Tag.",
+      "In 80 Jahren: fast drei Milliarden Schläge."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Herzfrequenz",
+        "url": "https://de.wikipedia.org/wiki/Herzfrequenz"
+      },
+      {
+        "name": "Wikipedia: Herz",
+        "url": "https://de.wikipedia.org/wiki/Herz"
+      }
+    ],
+    "published_at": "2026-10-21T12:00:00Z",
+    "tags": [
+      "Körper",
+      "Herz"
+    ],
+    "quiz_question_id": "q-v-herz-schlaege",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-herz-schlaege",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "How often your heart beats",
+        "hook": "More than 100,000 times a day – and almost three billion times in a long life.",
+        "description": "At about 70 beats a minute – the source gives this, for example, for a 70-year-old at rest – a heart beats 100,800 times a day and about 36.8 million times a year. In 80 years that is about 2.9 billion beats. The real value varies: it depends on effort, age and fitness.",
+        "captions": [
+          "About 70 beats a minute.",
+          "That is more than 100,000 a day.",
+          "In 80 years: almost three billion beats."
+        ],
+        "file": "/clips/v-herz-schlaege.en.mp4",
+        "poster": "/clips/v-herz-schlaege.en.jpg"
+      }
+    }
   }
 ]

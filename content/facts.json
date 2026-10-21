@@ -263,6 +263,10 @@
       {
         "name": "Wikipedia: Herz",
         "url": "https://de.wikipedia.org/wiki/Herz"
+      },
+      {
+        "name": "Wikipedia: Herzfrequenz",
+        "url": "https://de.wikipedia.org/wiki/Herzfrequenz"
       }
     ],
     "verification_status": "ai_checked",
@@ -1986,6 +1990,190 @@
       "en": {
         "text": "Text messaging (SMS) was developed in 1992 – and used most in 2012.",
         "detail": "After that it was quickly replaced by messengers such as WhatsApp. Its successor standard is called RCS (Rich Communication Services)."
+      }
+    }
+  },
+  {
+    "id": "f-wm-1930",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Die erste Fußball-Weltmeisterschaft fand 1930 in Uruguay statt.",
+    "detail": "Sie dauerte vom 13. bis zum 30. Juli 1930. Gastgeber war Uruguay.",
+    "sources": [
+      {
+        "name": "Wikipedia: Fußball-Weltmeisterschaft 1930",
+        "url": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1930"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first FIFA World Cup took place in Uruguay in 1930.",
+        "detail": "It ran from 13 to 30 July 1930. Uruguay was the host."
+      }
+    }
+  },
+  {
+    "id": "f-basketball-1891",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Basketball wurde 1891 erfunden – als Hallensport.",
+    "detail": "Erfunden hat ihn der kanadische Arzt und Pädagoge James Naismith, ursprünglich für YMCA-Studenten. Über den YMCA verbreitete sich das Spiel schnell weltweit. Seit 1936 ist es olympisch.",
+    "sources": [
+      {
+        "name": "Wikipedia: Basketball",
+        "url": "https://de.wikipedia.org/wiki/Basketball"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Basketball was invented in 1891 – as an indoor sport.",
+        "detail": "It was invented by the Canadian physician and educator James Naismith, originally for YMCA students. Through the YMCA the game quickly spread around the world. It has been an Olympic sport since 1936."
+      }
+    }
+  },
+  {
+    "id": "f-golf-mond",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Auf dem Mond wurde schon Golf gespielt.",
+    "detail": "Alan Shepard, Kommandant von Apollo 14, nahm zwei Golfbälle und ein Eisen 6 mit auf den Mond. Er ging als erster Golfspieler auf dem Mond in die Geschichte ein.",
+    "sources": [
+      {
+        "name": "Wikipedia: Alan Shepard",
+        "url": "https://de.wikipedia.org/wiki/Alan_Shepard"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Golf has been played on the Moon.",
+        "detail": "Alan Shepard, commander of Apollo 14, took two golf balls and a 6-iron to the Moon. He went down in history as the first person to play golf on the Moon."
+      }
+    }
+  },
+  {
+    "id": "f-esperanto",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Esperanto heißt übersetzt „der Hoffende“ – nach dem Decknamen seines Erfinders.",
+    "detail": "Der Augenarzt Ludwik Lejzer Zamenhof veröffentlichte die Grundlagen 1887 unter dem Namen Doktoro Esperanto. Es ist die am weitesten verbreitete Plansprache.",
+    "sources": [
+      {
+        "name": "Wikipedia: Esperanto",
+        "url": "https://de.wikipedia.org/wiki/Esperanto"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Esperanto means “one who hopes” – after its inventor's pen name.",
+        "detail": "The ophthalmologist Ludwik Lejzer Zamenhof published its foundations in 1887 under the name Doktoro Esperanto. It is the most widely spoken constructed language."
+      }
+    }
+  },
+  {
+    "id": "f-quarantaene",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "„Quarantäne“ bedeutet eigentlich „vierzig Tage“.",
+    "detail": "Das Wort kam im 17. Jahrhundert aus dem Französischen (quarantaine de jours) ins Deutsche.",
+    "sources": [
+      {
+        "name": "Wikipedia: Quarantäne",
+        "url": "https://de.wikipedia.org/wiki/Quarantäne"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "“Quarantine” actually means “forty days”.",
+        "detail": "The word came into German from French (quarantaine de jours) in the 17th century."
+      }
+    }
+  },
+  {
+    "id": "f-coca-cola",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Coca-Cola hat ein Pharmazeut erfunden – 1886 in Atlanta.",
+    "detail": "John Stith Pemberton, Kriegsveteran und Pharmazeut, entwickelte das Getränk am 8. Mai 1886.",
+    "sources": [
+      {
+        "name": "Wikipedia: The Coca-Cola Company",
+        "url": "https://de.wikipedia.org/wiki/The_Coca-Cola_Company"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Coca-Cola was invented by a pharmacist – in Atlanta in 1886.",
+        "detail": "John Stith Pemberton, a war veteran and pharmacist, created the drink on 8 May 1886."
+      }
+    }
+  },
+  {
+    "id": "f-adidas-puma",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Adidas und Puma wurden von zwei Brüdern gegründet – aus derselben Kleinstadt.",
+    "detail": "Adolf und Rudolf Dassler fertigten in den 1920er-Jahren in Herzogenaurach gemeinsam Sportschuhe. Dann gingen sie getrennte Wege: Rudolf gründete 1948 Puma.",
+    "sources": [
+      {
+        "name": "Wikipedia: Adidas",
+        "url": "https://de.wikipedia.org/wiki/Adidas"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Adidas and Puma were founded by two brothers – from the same small town.",
+        "detail": "In the 1920s Adolf and Rudolf Dassler made sports shoes together in Herzogenaurach. Then they went separate ways: Rudolf founded Puma in 1948."
+      }
+    }
+  },
+  {
+    "id": "f-inflation-1923",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Im November 1923 kostete ein US-Dollar 4,2 Billionen Mark.",
+    "detail": "Der Kurs der Mark gegenüber dem Dollar sank rapide. Die Hyperinflation führte zu einem teilweisen Zusammenbruch der deutschen Wirtschaft und des Bankensystems.",
+    "sources": [
+      {
+        "name": "Wikipedia: Deutsche Inflation 1914 bis 1923",
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Inflation_1914_bis_1923"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-21T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "In November 1923 one US dollar cost 4.2 trillion marks.",
+        "detail": "The mark fell rapidly against the dollar. The hyperinflation led to a partial collapse of the German economy and banking system."
       }
     }
   }

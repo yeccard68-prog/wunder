@@ -28,5 +28,10 @@
     "id": "v-licht-reise",
     "seconds": 10,
     "thumbFrame": 275
+  },
+  {
+    "id": "v-herz-schlaege",
+    "seconds": 10,
+    "thumbFrame": 275
   }
 ]

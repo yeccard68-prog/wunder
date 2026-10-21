@@ -32299,5 +32299,45 @@
         "explanation": "Proxima Centauri is about 4.2 light-years away – so its light travels for just over four years. A light-year is the distance light covers in one year."
       }
     }
+  },
+  {
+    "id": "q-v-herz-schlaege",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie oft schlägt ein Herz in einem 80-jährigen Leben ungefähr?",
+    "options": [
+      "Rund 3 Milliarden Mal",
+      "Rund 3 Millionen Mal",
+      "Rund 30 Millionen Mal",
+      "Rund 300 Milliarden Mal"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei 70 Schlägen pro Minute: 70 × 60 × 24 × 365 × 80 ≈ 2,9 Milliarden.",
+    "difficulty": 1,
+    "tags": [
+      "Körper",
+      "Herz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Herzfrequenz",
+    "source_url": "https://de.wikipedia.org/wiki/Herzfrequenz",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About how often does a heart beat in an 80-year life?",
+        "options": [
+          "About 3 billion times",
+          "About 3 million times",
+          "About 30 million times",
+          "About 300 billion times"
+        ],
+        "explanation": "At 70 beats a minute: 70 × 60 × 24 × 365 × 80 ≈ 2.9 billion."
+      }
+    }
   }
 ]

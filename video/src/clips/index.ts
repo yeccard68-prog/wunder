@@ -1,6 +1,7 @@
 // Every own clip by its id in content/videos.json – used by Root (app clips) and Social (versions for social media).
 import type { ComponentType } from "react";
 import type { Locale } from "../theme";
+import { HerzSchlaege } from "./HerzSchlaege";
 import { LichtReise } from "./LichtReise";
 import { MarathonRunden } from "./MarathonRunden";
 import { PapierMond } from "./PapierMond";
@@ -15,4 +16,5 @@ export const COMPONENTS: Record<string, ComponentType<{ locale: Locale }>> = {
   "v-papier-mond": PapierMond,
   "v-sonne-masse": SonneMasse,
   "v-licht-reise": LichtReise,
+  "v-herz-schlaege": HerzSchlaege,
 };

@@ -555,6 +555,7 @@ test("facts: a page with every fact, filter by area, the explanation on request,
   await page.getByTestId("explore-fact").click(); // the fact of the day leads to all facts
   await expect(page.getByRole("heading", { name: "Fakten", exact: true })).toBeVisible();
   const cards = page.getByTestId("fact-card");
+  await expect(cards.first()).toBeVisible(); // count only once the cards are drawn
   expect(await cards.count()).toBeGreaterThanOrEqual(39);
   await page.getByRole("button", { name: "Tiere", exact: true }).click();
   await expect(cards.first()).toContainText("Tiere");
