@@ -53,3 +53,14 @@ in `~/.claude/agents/wunder-fakten-recherche.md`). Die Routine prüft danach sel
 jedes Fakts (jede Zahl, jeder Name, jedes Datum braucht ein Zitat), Tests – erst dann wird veröffentlicht.
 Für Übersetzungen und Social-Texte gibt es `wunder-texte` (noch günstigeres Modell). Datenbank, Rechtliches und
 Sicherheit bleiben beim Hauptmodell.
+
+## Kartenformate (seit 21.10.2026)
+
+Zusätzlich zum Fakten-Batch darf ein Lauf eine **Format-Datei** `content/_batches/<YYYY-MM>-facts-formats-<n>.mjs`
+anlegen (Muster: `2026-10-facts-formats-1.mjs`), höchstens 6 Einträge, für neue oder bestehende Fakten:
+- `quiz: "truth"` – überraschender, aber wahrer Fakt wird zuerst als Behauptung zum Raten gezeigt (nichts Neues behauptet).
+- `quiz: "myth"` mit `myth`/`mythEn` – ein verbreiteter Irrtum wird zuerst gezeigt; braucht ein Zitat, in dem die Quelle den
+  Irrtum ausdrücklich widerlegt.
+- `figure` mit `figureSuffixEn` – die Kernzahl zählt hoch; sie muss im geprüften Text des Fakts stehen.
+Prüfen mit `node scripts/content/verify-evidence.mjs <datei>`, einspielen mit `node scripts/content/annotate-facts.mjs <datei>`
+(nach dem Fakten-Batch).

@@ -862,5 +862,12 @@
   "Nächstes Abzeichen": "Next badge",
   "erreicht": "earned",
   "Erreicht!": "Earned!",
-  "Noch {n} bis zum Abzeichen": "{n} more to earn it"
+  "Noch {n} bis zum Abzeichen": "{n} more to earn it",
+  "Mythos oder Wahrheit?": "Myth or truth?",
+  "Stimmt": "True",
+  "Mythos": "Myth",
+  "Richtig – das ist ein Mythos!": "Right – that is a myth!",
+  "Doch ein Mythos!": "Actually a myth!",
+  "Richtig – das stimmt wirklich!": "Right – it really is true!",
+  "Doch, das stimmt!": "Actually, it is true!"
 }

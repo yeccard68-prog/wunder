@@ -75,3 +75,18 @@ test("facts and clips: seen ones move back behind everything new", () => {
   const after = rankClips(clips, state({ seen: { [started]: sec(1), [watched]: sec(100) }, clipStats: { [watched]: { plays: 1, completed: 1 } } }));
   assert.deepEqual(after.slice(-2).map((x) => x.id), [started, watched]); // started but not finished before watched
 });
+
+test("facts: myth and truth cards carry the statement to judge, figures their localized suffix", async () => {
+  const { factsFor } = await import("../lib/facts");
+  const de = factsFor("de", "16+");
+  const en = factsFor("en", "16+");
+  const myth = de.find((f) => f.id === "f-mauer-mond")!;
+  assert.equal(myth.quiz, "myth");
+  assert.match(myth.claim!, /kann man vom Mond/);
+  assert.notEqual(myth.claim, myth.text); // the belief, not the fact
+  assert.match(en.find((f) => f.id === "f-mauer-mond")!.claim!, /naked eye/);
+  const truth = de.find((f) => f.id === "f-seepferdchen")!;
+  assert.equal(truth.claim, truth.text);
+  assert.deepEqual(de.find((f) => f.id === "f-zitteraal")!.figure, { value: 860, suffix: " Volt" });
+  assert.equal(en.find((f) => f.id === "f-zitteraal")!.figure!.suffix, " volts");
+});

@@ -11,7 +11,7 @@ test("a fact can be shared as a picture (download where sharing files is not pos
     delete (Navigator.prototype as { share?: unknown }).share;
   }, seed);
   await page.goto("/facts/");
-  const card = page.getByTestId("fact-card").first();
+  const card = page.locator('[data-testid="fact-card"]:not([data-quiz])').first(); // a plain fact – quiz cards show their buttons after the guess
   const download = page.waitForEvent("download");
   await card.getByRole("button", { name: "Als Bild teilen" }).click();
   const file = await download;
@@ -24,7 +24,7 @@ test("a note to the editors: choose a reason, optional text, links are refused",
     if (!localStorage.getItem("wunder.demo.state.v3")) localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s));
   }, seed);
   await page.goto("/facts/");
-  await page.getByTestId("fact-card").first().getByTestId("hint-button").click();
+  await page.locator('[data-testid="fact-card"]:not([data-quiz])').first().getByTestId("hint-button").click();
   const sheet = page.getByTestId("hint-sheet");
   const send = sheet.getByRole("button", { name: "Hinweis senden" });
   await expect(send).toBeDisabled(); // a reason is needed
@@ -48,4 +48,19 @@ test("a question answered wrongly comes back when due – and asks again instead
   const options = card.getByRole("button", { name: /^[A-D]\s/ });
   await expect(options.first()).toBeEnabled(); // not answered yet: the options can be chosen
   await expect(card.getByText("Au", { exact: true })).toHaveCount(0); // the old explanation is not shown
+});
+
+test("myth or truth: guess first, then the verdict and the fact with its source", async ({ page }) => {
+  await page.addInitScript((s) => {
+    if (!localStorage.getItem("wunder.demo.state.v3")) localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s));
+  }, seed);
+  await page.goto("/facts/");
+  const card = page.locator('[data-testid="fact-card"][data-quiz="myth"]').filter({ hasText: "Mauer" }).first();
+  await card.scrollIntoViewIfNeeded();
+  await expect(card).toContainText("Mythos oder Wahrheit?");
+  await expect(card.getByTestId("fact-detail")).toHaveCount(0); // nothing revealed before the guess
+  await card.getByRole("button", { name: "Mythos" }).click();
+  await expect(card.getByTestId("fact-verdict")).toContainText("Richtig");
+  await expect(card).toContainText("nicht zu sehen");
+  await expect(card.getByTestId("fact-detail")).toBeVisible();
 });

@@ -42,14 +42,42 @@ const CATEGORIES = JSON.parse(fs.readFileSync("content/categories.json", "utf8")
 const existing = new Set(JSON.parse(fs.readFileSync("content/facts.json", "utf8")).map((f) => f.id));
 const isNewFile = !JSON.parse(fs.readFileSync("content/facts.json", "utf8")).some((f) => facts.some((r) => r[0] === f.id));
 
+// annotation batches add a "myth or truth" quiz or a counting figure to existing facts: a myth needs a quote that
+// refutes the belief; a figure must appear in the fact's already checked text (digits compared without separators)
+const annotations = batch.annotations ?? null;
+const allRows = JSON.parse(fs.readFileSync("content/facts.json", "utf8"));
+const digitsOf = (s) => s.replace(/[.,\s]/g, "");
+const rows = annotations
+  ? Object.entries(annotations).map(([id, a]) => {
+      const f = allRows.find((x) => x.id === id);
+      if (!f) return [id, "", "", [], "", "", "", "", a];
+      return [id, f.area, f.category_id, f.sources, f.text, f.detail, f.translations?.en?.text ?? "", f.translations?.en?.detail ?? "", a];
+    })
+  : facts;
+
 let failed = 0;
-for (const row of facts) {
-  const [id, area, category, sources, text, detail, enText, enDetail] = row;
+for (const row of rows) {
+  const [id, area, category, sources, text, detail, enText, enDetail, ann] = row;
   const quotes = evidence[id] ?? [];
   const problems = [];
+  if (ann) {
+    if (!allRows.some((x) => x.id === id)) { problems.push("no such fact"); }
+    if (ann.quiz && !["myth", "truth"].includes(ann.quiz)) problems.push(`quiz must be "myth" or "truth"`);
+    if (ann.quiz === "myth" && !(ann.myth && ann.mythEn)) problems.push("a myth needs its belief in German and English (myth, mythEn)");
+    if (ann.figure) {
+      const v = ann.figure.value.toFixed(ann.figure.digits ?? 0).replace(".", "");
+      if (!digitsOf(`${text} ${detail}`).includes(v)) problems.push(`figure ${ann.figure.value} does not appear in the fact's text`);
+      if (!ann.figureSuffixEn) problems.push("figure needs an English suffix (figureSuffixEn)");
+    }
+    if (ann.quiz !== "myth") {
+      // nothing new is claimed: the quiz shows the fact itself, the figure repeats its number
+      if (problems.length) { failed++; console.log(`FAIL ${id}\n  - ${problems.join("\n  - ")}`); } else console.log(`ok   ${id} (${[ann.quiz, ann.figure && "figure"].filter(Boolean).join(", ")})`);
+      continue;
+    }
+  }
   if (!AREAS.includes(area)) problems.push(`area "${area}" is not one of ${AREAS.join(", ")} (order: id, area, category, …)`);
   if (!CATEGORIES.includes(category)) problems.push(`category "${category}" is not one of ${CATEGORIES.join(", ")}`);
-  if (isNewFile && existing.has(id)) problems.push(`id ${id} already exists`);
+  if (!annotations && isNewFile && existing.has(id)) problems.push(`id ${id} already exists`);
   if (![text, detail, enText, enDetail].every((s) => typeof s === "string" && s.trim().length > 10)) problems.push("text/detail missing in German or English");
   if (!quotes.length) problems.push("no evidence");
   const linked = new Set(sources.map((s) => decodeURIComponent(s.url.split("/wiki/")[1] ?? "").replaceAll("_", " ")));
@@ -67,5 +95,5 @@ for (const row of facts) {
     console.log(`FAIL ${id}\n  - ${problems.join("\n  - ")}`);
   } else console.log(`ok   ${id} (${quotes.length} quote${quotes.length === 1 ? "" : "s"})`);
 }
-console.log(`${facts.length - failed} of ${facts.length} facts confirmed.`);
+console.log(`${rows.length - failed} of ${rows.length} facts confirmed.`);
 process.exit(failed ? 1 : 0);

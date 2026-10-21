@@ -559,7 +559,7 @@ test("facts: a page with every fact, filter by area, the explanation on request,
   expect(await cards.count()).toBeGreaterThanOrEqual(39);
   await page.getByRole("button", { name: "Tiere", exact: true }).click();
   await expect(cards.first()).toContainText("Tiere");
-  const first = cards.first();
+  const first = page.locator('[data-testid="fact-card"]:not([data-quiz])').first(); // a plain fact (quiz cards are asked first)
   await expect(first.getByTestId("fact-detail")).toHaveCount(0);
   await first.getByRole("button", { name: "Mehr dazu" }).click();
   await expect(first.getByTestId("fact-detail")).toBeVisible();

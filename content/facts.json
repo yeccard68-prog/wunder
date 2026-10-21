@@ -43,7 +43,8 @@
         "text": "Wombats leave cube-shaped droppings – 80 to 100 a day.",
         "detail": "The cube shape forms during digestion, from ridges in the gut wall – not only at the exit. Wombats use the droppings to mark their territory."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-flamingo",
@@ -415,7 +416,8 @@
         "text": "Botanically, the banana is a berry.",
         "detail": "So are tomatoes, peppers, kiwis and citrus fruits. What counts is how the fruit is built, not its everyday name."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-paprika",
@@ -622,7 +624,8 @@
         "text": "In an early computer, a real moth once caused a fault.",
         "detail": "According to the story spread by computer pioneer Grace Hopper, in 1945 a moth was stuck in a relay of the Mark II computer. It was removed and taped into the logbook."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-oxford",
@@ -649,7 +652,8 @@
         "text": "Teaching took place in Oxford before the Aztecs founded their capital Tenochtitlan.",
         "detail": "The oldest signs of teaching in Oxford date from around 1096. Tenochtitlan's founding is traditionally dated to 1325."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-wikinger",
@@ -992,8 +996,14 @@
     "translations": {
       "en": {
         "text": "The Sun holds 99.86% of the mass of the whole solar system.",
-        "detail": "All the planets, moons, asteroids and comets together make up only a tiny remainder. Its diameter is about 110 times that of Earth."
+        "detail": "All the planets, moons, asteroids and comets together make up only a tiny remainder. Its diameter is about 110 times that of Earth.",
+        "figureSuffix": "%"
       }
+    },
+    "figure": {
+      "value": 99.86,
+      "digits": 2,
+      "suffix": " %"
     }
   },
   {
@@ -1268,9 +1278,12 @@
     "translations": {
       "en": {
         "text": "Medieval scholars knew that the Earth is a sphere.",
-        "detail": "The round shape had been known since antiquity and remained the prevailing view. The idea that people in the Middle Ages believed in a flat Earth is a 19th-century legend."
+        "detail": "The round shape had been known since antiquity and remained the prevailing view. The idea that people in the Middle Ages believed in a flat Earth is a 19th-century legend.",
+        "myth": "In the Middle Ages people believed the Earth was flat."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "Im Mittelalter glaubte man, die Erde sei eine Scheibe."
   },
   {
     "id": "f-pi",
@@ -1385,7 +1398,8 @@
         "text": "In seahorses, the males give birth to the young.",
         "detail": "The female lays her eggs in a brood pouch on the male's belly. They develop there until the male releases the finished young fish."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-eisbaer-haut",
@@ -1429,8 +1443,13 @@
     "translations": {
       "en": {
         "text": "An electric eel can deliver shocks of up to 860 volts.",
-        "detail": "It uses them to defend itself and to stun or kill prey. Its electric organs take up about four fifths of its body length. It uses weaker fields to find its way."
+        "detail": "It uses them to defend itself and to stun or kill prey. Its electric organs take up about four fifths of its body length. It uses weaker fields to find its way.",
+        "figureSuffix": " volts"
       }
+    },
+    "figure": {
+      "value": 860,
+      "suffix": " Volt"
     }
   },
   {
@@ -1452,8 +1471,13 @@
     "translations": {
       "en": {
         "text": "The rasping tongue of snails and other molluscs can carry up to 800,000 tiny teeth.",
-        "detail": "They sit in rows on the radula, which the animals use to rasp off and break up their food."
+        "detail": "They sit in rows on the radula, which the animals use to rasp off and break up their food.",
+        "figureSuffix": " teeth"
       }
+    },
+    "figure": {
+      "value": 800000,
+      "suffix": " Zähne"
     }
   },
   {
@@ -1548,8 +1572,13 @@
     "translations": {
       "en": {
         "text": "Lightning heats the air to as much as 30,000 °C – several times hotter than the surface of the Sun.",
-        "detail": "The Sun shines at about 5,800 kelvin, a little over 5,500 °C."
+        "detail": "The Sun shines at about 5,800 kelvin, a little over 5,500 °C.",
+        "figureSuffix": " °C"
       }
+    },
+    "figure": {
+      "value": 30000,
+      "suffix": " °C"
     }
   },
   {
@@ -1571,8 +1600,14 @@
     "translations": {
       "en": {
         "text": "Water expands by almost 9% when it freezes.",
-        "detail": "To be exact: by 8.92%. The other way round, ice shrinks by 8.19% when it melts."
+        "detail": "To be exact: by 8.92%. The other way round, ice shrinks by 8.19% when it melts.",
+        "figureSuffix": "%"
       }
+    },
+    "figure": {
+      "value": 8.92,
+      "digits": 2,
+      "suffix": " %"
     }
   },
   {
@@ -1640,8 +1675,14 @@
     "translations": {
       "en": {
         "text": "A light-year is not a time but a distance: about 9.46 trillion kilometres.",
-        "detail": "That is how far light travels in a vacuum in one year. The unit is mainly used to make the huge distances between stars easier to grasp."
+        "detail": "That is how far light travels in a vacuum in one year. The unit is mainly used to make the huge distances between stars easier to grasp.",
+        "figureSuffix": " trillion km"
       }
+    },
+    "figure": {
+      "value": 9.46,
+      "digits": 2,
+      "suffix": " Billionen km"
     }
   },
   {
@@ -1663,8 +1704,13 @@
     "translations": {
       "en": {
         "text": "At the equator you are racing east at about 1,670 km/h – without noticing.",
-        "detail": "That is how fast Earth's surface moves there as the planet turns. Towards the poles it gets slower because the circles of latitude get shorter."
+        "detail": "That is how fast Earth's surface moves there as the planet turns. Towards the poles it gets slower because the circles of latitude get shorter.",
+        "figureSuffix": " km/h"
       }
+    },
+    "figure": {
+      "value": 1670,
+      "suffix": " km/h"
     }
   },
   {
@@ -1736,8 +1782,13 @@
     "translations": {
       "en": {
         "text": "The Hawaiian alphabet gets by with 13 characters.",
-        "detail": "It consists of 12 letters of the Latin script plus the character ʻokina. That makes it one of the shortest alphabets in the world."
+        "detail": "It consists of 12 letters of the Latin script plus the character ʻokina. That makes it one of the shortest alphabets in the world.",
+        "figureSuffix": " characters"
       }
+    },
+    "figure": {
+      "value": 13,
+      "suffix": " Zeichen"
     }
   },
   {
@@ -1828,8 +1879,14 @@
     "translations": {
       "en": {
         "text": "The shortest war in history lasted 38 minutes.",
-        "detail": "Britain and the Sultanate of Zanzibar fought on 27 August 1896 from 9:00 to 9:38 a.m. Guinness World Records lists it as the shortest war in history."
+        "detail": "Britain and the Sultanate of Zanzibar fought on 27 August 1896 from 9:00 to 9:38 a.m. Guinness World Records lists it as the shortest war in history.",
+        "figureSuffix": " minutes"
       }
+    },
+    "quiz": "truth",
+    "figure": {
+      "value": 38,
+      "suffix": " Minuten"
     }
   },
   {
@@ -1851,9 +1908,12 @@
     "translations": {
       "en": {
         "text": "The Great Wall of China cannot be seen from the Moon.",
-        "detail": "The Moon is about 380,000 kilometres away – spotting the wall from there with the naked eye would be impossible. Most crewed spaceflights have taken place 300 to 600 kilometres up."
+        "detail": "The Moon is about 380,000 kilometres away – spotting the wall from there with the naked eye would be impossible. Most crewed spaceflights have taken place 300 to 600 kilometres up.",
+        "myth": "You can see the Great Wall of China from the Moon with the naked eye."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "Die Chinesische Mauer kann man vom Mond aus mit bloßem Auge sehen."
   },
   {
     "id": "f-ikea-name",
@@ -2060,7 +2120,8 @@
         "text": "Golf has been played on the Moon.",
         "detail": "Alan Shepard, commander of Apollo 14, took two golf balls and a 6-iron to the Moon. He went down in history as the first person to play golf on the Moon."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-esperanto",
@@ -2173,8 +2234,14 @@
     "translations": {
       "en": {
         "text": "In November 1923 one US dollar cost 4.2 trillion marks.",
-        "detail": "The mark fell rapidly against the dollar. The hyperinflation led to a partial collapse of the German economy and banking system."
+        "detail": "The mark fell rapidly against the dollar. The hyperinflation led to a partial collapse of the German economy and banking system.",
+        "figureSuffix": " trillion marks"
       }
+    },
+    "figure": {
+      "value": 4.2,
+      "digits": 1,
+      "suffix": " Billionen Mark"
     }
   },
   {

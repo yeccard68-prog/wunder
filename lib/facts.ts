@@ -26,8 +26,13 @@ export const AREAS = {
 } as const;
 export type Area = keyof typeof AREAS;
 
-interface Texts { text: string; detail: string }
+interface Texts { text: string; detail: string; myth?: string; figureSuffix?: string }
+/** A strong number to count up on the card, e.g. { value: 860, suffix: " Volt" } (suffix per language: figureSuffix). */
+export interface Figure { value: number; digits?: number; suffix: string }
 export interface FactRow extends Texts {
+  /** "Myth or truth?" card: "myth" shows the false belief (`myth`) first, "truth" shows the fact itself – the learner guesses */
+  quiz?: "myth" | "truth";
+  figure?: Figure;
   id: string;
   category_id: string; // one of the ten topics, for the feed and the interests
   area: Area;
@@ -39,6 +44,10 @@ export interface FactRow extends Texts {
   translations: Record<string, Texts>;
 }
 export interface Fact extends Texts {
+  quiz?: "myth" | "truth";
+  /** the statement to judge: the false belief for a myth, the fact for a truth */
+  claim?: string;
+  figure?: Figure;
   id: string;
   categoryId: string;
   area: Area;
@@ -56,7 +65,13 @@ export function factsFor(locale: string, band: AgeBand | null): Fact[] {
     .filter((f) => f.status === "published" && f.verification_status !== "unverified")
     .map((f) => {
       const t = f.translations[locale] ?? f;
-      return { id: f.id, categoryId: f.category_id, area: f.area, minAge: f.min_age, sources: f.sources, verification: reviewedStatus("fact", f), createdAt: f.created_at, text: t.text, detail: t.detail };
+      const myth = t.myth ?? f.myth;
+      const quiz = f.quiz === "myth" && !myth ? undefined : f.quiz; // a myth card without the belief's text cannot be asked
+      return {
+        id: f.id, categoryId: f.category_id, area: f.area, minAge: f.min_age, sources: f.sources, verification: reviewedStatus("fact", f), createdAt: f.created_at, text: t.text, detail: t.detail,
+        quiz, claim: quiz === "myth" ? myth : quiz === "truth" ? t.text : undefined,
+        figure: f.figure ? { ...f.figure, suffix: t.figureSuffix ?? f.figure.suffix } : undefined,
+      };
     })
     .filter((f) => fitsAge(f, band));
 }
@@ -76,6 +91,8 @@ export function rankFacts(facts: Fact[], state: UserState): Fact[] {
     (state.interests.includes(f.categoryId) ? 2 : 0) +
     2 * topicEngagement(state, f.categoryId) +
     Math.min(2, (wowAreas.get(f.area) ?? 0) * 0.5) +
+    (f.quiz ? 1 : 0) + // something to do: a "myth or truth?" card comes up a little more often
+    (f.figure ? 0.5 : 0) +
     (hash(f.id + day) % 100) / 40; // a fair share of chance: facts are about surprise
   const ranked = facts.filter((f) => !state.hidden.includes(f.id)).sort((a, b) => score(b) - score(a));
   // facts already on screen come after the new ones (seen longest ago first), those reacted to last
