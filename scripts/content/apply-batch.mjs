@@ -92,4 +92,6 @@ if (batch.verification) {
 write("categories", categories);
 write("questions", questions);
 write("videos", videos);
+// clip titles that would give away their quiz answer (content/quiz-leaks.json)
+await import("./quiz-leaks.mjs");
 console.log(`categories ${categories.length}, questions ${questions.length} (feed ${questions.filter((q) => q.show_in_feed).length}), videos ${videos.length} (published ${videos.filter((v) => v.status === "published").length})`);

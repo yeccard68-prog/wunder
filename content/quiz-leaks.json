@@ -1,0 +1,35 @@
+{
+  "de": [
+    "v-apollo",
+    "v-fingeralphabet",
+    "v-fliessband",
+    "v-ingenuity",
+    "v-luft",
+    "v-marathon-runden",
+    "v-oktopus",
+    "v-papier-mond",
+    "v-person-beethoven",
+    "v-person-hopper",
+    "v-person-humboldt",
+    "v-person-kepler",
+    "v-person-vangogh",
+    "v-pyramide-mond",
+    "v-supermarkt",
+    "v-zinseszins"
+  ],
+  "en": [
+    "v-fingeralphabet",
+    "v-fliessband",
+    "v-ingenuity",
+    "v-marathon-runden",
+    "v-oktopus",
+    "v-papier-mond",
+    "v-person-beethoven",
+    "v-person-humboldt",
+    "v-person-kepler",
+    "v-person-vangogh",
+    "v-pyramide-mond",
+    "v-stare",
+    "v-zinseszins"
+  ]
+}

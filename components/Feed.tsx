@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
-import { Bookmark, ChevronDown, Clapperboard, HelpCircle, Shapes } from "lucide-react";
+import { Bookmark, Check, ChevronDown, Clapperboard, HelpCircle, Shapes } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
 import VisualCard from "@/components/viz";
@@ -17,6 +17,7 @@ import { captionAt, type Clip } from "@/lib/content";
 import { entryContentIds, entryId, entryTopic, type FeedEntry } from "@/lib/feed";
 import FactCard from "./FactCard";
 import StudyCard from "./StudyCard";
+import { titleGivesAway, useAsking } from "@/lib/quizGate";
 import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
@@ -78,6 +79,9 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
   const ready = watchedNow || !autoplay || (state.clipStats[clip.id]?.completed ?? 0) > 0;
   const caption = state.settings.captions ? captionAt(clip, time) : undefined;
   const answered = !!clip.quiz && !!state.answers[clip.quiz.id];
+  // until its question is answered, the clip does not print the answer next to it (key message, telling titles)
+  const hideAnswer = !!clip.quiz && !answered;
+  const heading = hideAnswer && titleGivesAway(clip.id, state.settings.locale) ? t("Schau genau hin – danach kommt eine Frage.") : clip.title;
   const saved = state.saves.includes(clip.id);
   const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onTime={setTime} onComplete={() => { setWatchedNow(true); trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
   const quizLabel = answered ? t("Frage zum Clip ansehen") : t("Frage zum Clip");
@@ -106,8 +110,8 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
         <div className="pointer-events-none absolute inset-x-0 bottom-0 space-y-1.5 p-5">
           {caption && <p className="mb-2 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">{caption}</p>}
           <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} light />
-          <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{clip.title}</h2>
-          <p className="text-[15px] leading-snug text-white/90">{clip.takeaway}</p>
+          <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{heading}</h2>
+          {!hideAnswer && <p className="text-[15px] leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
           <p className="text-[11px] text-white/60">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""}</p>
           <div className="pointer-events-auto flex items-center gap-2 pt-2">
             {clip.quiz && (
@@ -135,8 +139,8 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
       </div>
       <div className="space-y-2 p-5">
         <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} />
-        <h2 className="font-display text-xl font-semibold leading-snug">{clip.title}</h2>
-        <p className="text-[15px] leading-relaxed">{clip.takeaway}</p>
+        <h2 className="font-display text-xl font-semibold leading-snug">{heading}</h2>
+        {!hideAnswer && <p className="text-[15px] leading-relaxed" data-testid="clip-takeaway">{clip.takeaway}</p>}
         <p className="flex items-center justify-between gap-2 text-xs text-muted">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""} <HintButton kind="video" id={clip.id} label /></p>
         {clip.quiz && !quiz && (
           <button onClick={() => setQuiz(true)} className="press flex items-center gap-1 pt-1 text-sm font-semibold text-accent">
@@ -162,12 +166,18 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
   const quiz = animation.quizId ? items.find((i) => i.id === animation.quizId) : undefined;
   // answered before and not due again: the animation is shown without its question (decided when it appears)
   const [askable] = useState(() => !quiz || !state.answers[quiz.id] || reviewDue(state.answers[quiz.id]));
+  // while the question is open the animation (its captions and labels show the answer) steps aside
+  const asking = useAsking(quiz, askable && seen, state);
   return (
     <article className="card space-y-3 p-5" data-testid="feed-animation">
       <Kicker categoryId={animation.categoryId} icon={<Shapes size={14} />} label={t("So funktioniert’s")} />
       <h2 className="font-display text-xl font-semibold leading-snug">{animation.title}</h2>
       <div ref={ref}>
-        <AnimationPlayer animation={animation} active={active} mounted={near} compact={compact} onFinished={() => { setSeen(true); track("animation_complete", animation.id, "animation"); }} />
+        {asking ? (
+          <p className="flex items-center gap-2 rounded-2xl bg-raised p-3.5 text-sm text-muted" data-testid="animation-aside"><Check size={16} className="shrink-0 text-good" /> {t("Angesehen. Jetzt die Frage – danach kannst du die Animation noch einmal ansehen.")}</p>
+        ) : (
+          <AnimationPlayer animation={animation} active={active} mounted={near} compact={compact} onFinished={() => { setSeen(true); track("animation_complete", animation.id, "animation"); }} />
+        )}
       </div>
       <div className="flex justify-end"><HintButton kind="animation" id={animation.id} label /></div>
       {quiz && askable && seen && (

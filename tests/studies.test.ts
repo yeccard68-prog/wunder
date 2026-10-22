@@ -42,3 +42,8 @@ test("studies in the feed: one after every few questions, each once, seen ones l
   const order = later.filter((e) => e.kind === "study").map(entryId);
   assert.equal(order[order.length - 1], "s-a");
 });
+
+test("clips: the list of titles that give away their quiz answer is up to date", async () => {
+  const { execFileSync } = await import("node:child_process");
+  execFileSync(process.execPath, ["scripts/content/quiz-leaks.mjs", "--check"], { stdio: "pipe" });
+});

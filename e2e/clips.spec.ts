@@ -90,7 +90,12 @@ test("an explainer animation plays, can be stepped through and ends with its que
   await expect(page.getByText("4/4")).toBeVisible();
   await page.getByRole("button", { name: "Abspielen" }).click();
   await expect(page.getByText("Verstanden?")).toBeVisible({ timeout: 15_000 });
-  await expect(page.getByRole("button", { name: "Noch einmal ansehen" })).toBeVisible();
+  // while the question is open, the animation (whose captions show the answer) steps aside – and comes back after answering
+  await expect(page.getByTestId("animation-aside")).toBeVisible();
+  await expect(player).toHaveCount(0);
+  await page.getByRole("button", { name: /^A\s/ }).first().click();
+  await expect(page.getByTestId("animation-aside")).toHaveCount(0);
+  await expect(player).toBeVisible();
   const box = (await player.locator("> div").first().boundingBox())!; // the heart is 3D since 18.10.2026
   expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
 });
@@ -128,6 +133,7 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
   const box = (await clip.boundingBox())!;
   const area = (await feed.boundingBox())!;
   expect(box.height).toBeGreaterThan(area.height * 0.9); // the clip fills the feed screen
+  await expect(clip.getByTestId("clip-takeaway")).toHaveCount(0); // the key message (the answer) waits until the quiz is answered
 
   await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
   const dialog = page.getByRole("dialog");

@@ -11,6 +11,7 @@ import { personById } from "@/lib/people";
 import { scrollToElement, useAutoAdvance } from "@/lib/advance";
 import { captionAt, isChild } from "@/lib/content";
 import { formatLocale } from "@/lib/i18n";
+import { titleGivesAway } from "@/lib/quizGate";
 import { useStore, useT } from "@/lib/store";
 
 type SheetKind = "info" | "comments" | "menu" | "quiz";
@@ -46,6 +47,9 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
   const saved = state.saves.includes(clip.id);
   const watched = (state.clipStats[clip.id]?.completed ?? 0) > 0;
   const quizDone = !!clip.quiz && !!state.answers[clip.quiz.id];
+  // the key message (the answer) only once the quiz is answered – the explanation sheet stays available on request
+  const hideAnswer = !!clip.quiz && !quizDone;
+  const label = hideAnswer && titleGivesAway(clip.id, state.settings.locale) ? t("Clip") : clip.title;
   const ownComments = state.comments[clip.id]?.length ?? 0;
 
   useEffect(() => {
@@ -59,7 +63,7 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
   const caption = captionAt(clip, time);
 
   return (
-    <section ref={section} data-clip-section className="relative h-full snap-start snap-always overflow-hidden bg-[#11100e] text-white" aria-label={clip.title}>
+    <section ref={section} data-clip-section className="relative h-full snap-start snap-always overflow-hidden bg-[#11100e] text-white" aria-label={label}>
       <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active} mounted={near} autoplay={autoplay} muted={muted} onTime={setTime} onComplete={() => trackClip(clip.id, "complete")} onStarted={() => trackClip(clip.id, "play")} />
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/85 via-black/45 to-transparent" />
@@ -111,7 +115,7 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
           <span className="h-1.5 w-1.5 rounded-full" style={{ background: cat.color }} />
           {t(cat.name)}
         </p>
-        <p className="mt-1.5 text-[15px] font-medium leading-snug text-white/90">{clip.takeaway}</p>
+        {!hideAnswer && <p className="mt-1.5 text-[15px] font-medium leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
         <p className="mt-1.5 truncate text-xs text-white/60">
           {clip.creator} · {t("Quelle:")} {clip.sources[0].name}
         </p>
