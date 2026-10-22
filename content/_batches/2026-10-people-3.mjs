@@ -19,10 +19,10 @@ const own = (id, category_id, min_age, tags, sources, de, en, quiz) => ({
 
 export const videos = [
   own("v-person-zuse", "technology", 10, ["Persönlichkeiten", "Computer"], [wiki("Konrad_Zuse")],
-    ["Konrad Zuse: der erste Computer stand in Berlin", "Mit der Z3 baute Konrad Zuse 1941 den Rechner, der als erster funktionsfähiger Computer der Welt gilt.",
+    ["Konrad Zuse: der erste Computer der Welt", "Mit der Z3 baute Konrad Zuse 1941 den Rechner, der als erster funktionsfähiger Computer der Welt gilt.",
       "Konrad Zuse wurde am 22. Juni 1910 in Deutsch-Wilmersdorf geboren. Schon mit 14 Jahren tüftelte er an Erfindungen. In der Wohnung seiner Eltern entstand die Z1, 1938 fertiggestellt: ein elektrisch angetriebener mechanischer Rechner, der als erster Rechner mit binären Zahlen arbeitete. Mit der Z3 baute Zuse 1941 den ersten funktionstüchtigen, vollautomatischen, frei programmierbaren Rechner und damit den ersten funktionsfähigen Computer der Welt. 1949 gründete er die Zuse KG. Konrad Zuse starb am 18. Dezember 1995 in Hünfeld.",
       ["Geboren 1910, schon als Jugendlicher ein Tüftler.", "1938: die Z1 rechnete mit binären Zahlen.", "1941: die Z3 – der erste funktionsfähige Computer."]],
-    ["Konrad Zuse: the first computer stood in Berlin", "With the Z3 in 1941, Konrad Zuse built the machine regarded as the world's first working computer.",
+    ["Konrad Zuse: the world's first computer", "With the Z3 in 1941, Konrad Zuse built the machine regarded as the world's first working computer.",
       "Konrad Zuse was born in Deutsch-Wilmersdorf on 22 June 1910. At 14 he was already tinkering with inventions. In his parents' flat he built the Z1, completed in 1938: an electrically driven mechanical calculator, the first to work with binary numbers. With the Z3 in 1941, Zuse built the first working, fully automatic, freely programmable calculator and thus the world's first functioning computer. In 1949 he founded the company Zuse KG. Konrad Zuse died in Hünfeld on 18 December 1995.",
       ["Born in 1910, a tinkerer from his youth.", "1938: the Z1 calculated with binary numbers.", "1941: the Z3 – the first working computer."]],
     ["Wie hieß der Rechner, den Konrad Zuse 1941 baute?", ["Z3", "ENIAC", "Mark I", "UNIVAC"], 0,
