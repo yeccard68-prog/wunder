@@ -32459,5 +32459,405 @@
         "explanation": "In her notes on the Analytical Engine she set out a plan for calculating the Bernoulli numbers."
       }
     }
+  },
+  {
+    "id": "q-v-person-einstein",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wofür erhielt Albert Einstein den Nobelpreis?",
+    "options": [
+      "Für den photoelektrischen Effekt",
+      "Für die Relativitätstheorie",
+      "Für ein neues Atommodell",
+      "Für die Entdeckung des Neutrons"
+    ],
+    "correct_index": 0,
+    "explanation": "Ausgezeichnet wurde er besonders für die Entdeckung des Gesetzes des photoelektrischen Effekts – nicht für die Relativitätstheorie.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Albert Einstein",
+    "source_url": "https://de.wikipedia.org/wiki/Albert_Einstein",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Albert Einstein win the Nobel Prize for?",
+        "options": [
+          "The photoelectric effect",
+          "The theory of relativity",
+          "A new model of the atom",
+          "Discovering the neutron"
+        ],
+        "explanation": "He was honoured especially for discovering the law of the photoelectric effect – not for the theory of relativity."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-galilei",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was entdeckte Galileo Galilei?",
+    "options": [
+      "Die vier größten Monde des Jupiter",
+      "Den Planeten Uranus",
+      "Die Ringe des Neptun",
+      "Den Halleyschen Kometen"
+    ],
+    "correct_index": 0,
+    "explanation": "Er entdeckte die vier größten Monde des Jupiter; heute heißen sie die Galileischen Monde.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Galileo Galilei",
+    "source_url": "https://de.wikipedia.org/wiki/Galileo_Galilei",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Galileo Galilei discover?",
+        "options": [
+          "The four largest moons of Jupiter",
+          "The planet Uranus",
+          "The rings of Neptune",
+          "Halley's Comet"
+        ],
+        "explanation": "He discovered the four largest moons of Jupiter; today they are called the Galilean moons."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-newton",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Instrument baute Isaac Newton 1672?",
+    "options": [
+      "Ein Spiegelteleskop",
+      "Ein Mikroskop",
+      "Eine Rechenmaschine",
+      "Eine Pendeluhr"
+    ],
+    "correct_index": 0,
+    "explanation": "1672 baute Newton ein Spiegelteleskop und führte es der Royal Society in London vor.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Isaac Newton",
+    "source_url": "https://de.wikipedia.org/wiki/Isaac_Newton",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What instrument did Isaac Newton build in 1672?",
+        "options": [
+          "A reflecting telescope",
+          "A microscope",
+          "A calculating machine",
+          "A pendulum clock"
+        ],
+        "explanation": "In 1672 Newton built a reflecting telescope and demonstrated it to the Royal Society in London."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-darwin",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Mit welchem Schiff reiste Charles Darwin um die Welt?",
+    "options": [
+      "Mit der Beagle",
+      "Mit der Endeavour",
+      "Mit der Mayflower",
+      "Mit der Bounty"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Ende 1831 begonnene, fast fünf Jahre lange Reise mit der Beagle führte Darwin einmal um die Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Evolution"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Charles Darwin",
+    "source_url": "https://de.wikipedia.org/wiki/Charles_Darwin",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which ship did Charles Darwin sail around the world?",
+        "options": [
+          "The Beagle",
+          "The Endeavour",
+          "The Mayflower",
+          "The Bounty"
+        ],
+        "explanation": "His voyage on the Beagle, begun at the end of 1831 and lasting almost five years, took Darwin around the world."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-humboldt",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welchen Berg bestieg Alexander von Humboldt 1802 fast bis zum Gipfel?",
+    "options": [
+      "Den Chimborazo",
+      "Den Mount Everest",
+      "Den Kilimandscharo",
+      "Den Mont Blanc"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Juni 1802 kam er am Chimborazo (6263 Meter) fast bis zum Gipfel; eine unpassierbare Felsspalte zwang ihn zur Umkehr.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Entdecker"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alexander von Humboldt",
+    "source_url": "https://de.wikipedia.org/wiki/Alexander_von_Humboldt",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which mountain did Alexander von Humboldt climb almost to the top in 1802?",
+        "options": [
+          "Chimborazo",
+          "Mount Everest",
+          "Kilimanjaro",
+          "Mont Blanc"
+        ],
+        "explanation": "In June 1802 he got almost to the summit of Chimborazo (6,263 metres); an impassable crevice forced him to turn back."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-mozart",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt wurde Wolfgang Amadeus Mozart geboren?",
+    "options": [
+      "In Salzburg",
+      "In Wien",
+      "In Prag",
+      "In München"
+    ],
+    "correct_index": 0,
+    "explanation": "Mozart wurde am 27. Januar 1756 in Salzburg geboren; später lebte er in Wien.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wolfgang Amadeus Mozart",
+    "source_url": "https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city was Wolfgang Amadeus Mozart born?",
+        "options": [
+          "Salzburg",
+          "Vienna",
+          "Prague",
+          "Munich"
+        ],
+        "explanation": "Mozart was born in Salzburg on 27 January 1756; later he lived in Vienna."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-beethoven",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was beendete Beethovens Karriere als Pianist?",
+    "options": [
+      "Ein Gehörleiden",
+      "Ein Augenleiden",
+      "Gicht in den Händen",
+      "Ein Streit mit Haydn"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Gehörleiden, das sich zur fast völligen Taubheit verschlimmerte, setzte seiner Karriere als Pianist ein vorzeitiges Ende.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ludwig van Beethoven",
+    "source_url": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What ended Beethoven's career as a pianist?",
+        "options": [
+          "A hearing disorder",
+          "An eye disease",
+          "Gout in his hands",
+          "A quarrel with Haydn"
+        ],
+        "explanation": "A hearing disorder, which worsened into almost complete deafness, cut short his career as a pianist."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-kahlo",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welchen Rekord stellte Frida Kahlos Bild „El sueño“ 2025 auf?",
+    "options": [
+      "Teuerstes Werk einer Frau bei einer Auktion",
+      "Größtes Gemälde Mexikos",
+      "Meistbesuchtes Bild eines Museums",
+      "Ältestes erhaltenes Selbstbildnis"
+    ],
+    "correct_index": 0,
+    "explanation": "Es wurde für rund 48 Millionen Euro versteigert – das teuerste je bei einer Auktion verkaufte Werk einer Frau.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Frida Kahlo",
+    "source_url": "https://de.wikipedia.org/wiki/Frida_Kahlo",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What record did Frida Kahlo's painting El sueño set in 2025?",
+        "options": [
+          "Most expensive work by a woman at auction",
+          "Largest painting in Mexico",
+          "Most visited painting in a museum",
+          "Oldest surviving self-portrait"
+        ],
+        "explanation": "It sold for about 48 million euros – the most expensive work by a woman ever sold at auction."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-leonardo",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet „da Vinci“ im Namen von Leonardo?",
+    "options": [
+      "Es verweist auf seinen Geburtsort",
+      "Es ist sein Familienname",
+      "Es ist ein Ehrentitel",
+      "Es ist der Name seines Lehrers"
+    ],
+    "correct_index": 0,
+    "explanation": "„Da Vinci“ ist kein Familienname, sondern ein Verweis auf den Geburtsort Vinci in der Nähe von Empoli.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leonardo da Vinci",
+    "source_url": "https://de.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"da Vinci\" in Leonardo's name mean?",
+        "options": [
+          "It refers to his birthplace",
+          "It is his family name",
+          "It is an honorary title",
+          "It is his teacher's name"
+        ],
+        "explanation": "\"Da Vinci\" is not a family name but refers to his birthplace, Vinci, near Empoli."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-tesla",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Für welchen Erfinder arbeitete Nikola Tesla ab 1884 in New York?",
+    "options": [
+      "Thomas Alva Edison",
+      "Alexander Graham Bell",
+      "Werner von Siemens",
+      "Guglielmo Marconi"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Juni 1884 zog Tesla nach New York und begann für Thomas Alva Edison zu arbeiten.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nikola Tesla",
+    "source_url": "https://de.wikipedia.org/wiki/Nikola_Tesla",
+    "created_at": "2026-10-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which inventor did Nikola Tesla work for in New York from 1884?",
+        "options": [
+          "Thomas Alva Edison",
+          "Alexander Graham Bell",
+          "Werner von Siemens",
+          "Guglielmo Marconi"
+        ],
+        "explanation": "In June 1884 Tesla moved to New York and began working for Thomas Alva Edison."
+      }
+    }
   }
 ]

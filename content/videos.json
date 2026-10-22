@@ -3655,5 +3655,585 @@
         "poster": "/clips/v-person-lovelace.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-person-einstein",
+    "category_id": "science",
+    "title": "Albert Einstein: Den Nobelpreis gab es nicht für die Relativität",
+    "hook": "Einstein ist für die Relativitätstheorie berühmt – den Nobelpreis bekam er aber für etwas anderes: den photoelektrischen Effekt.",
+    "description": "Albert Einstein wurde am 14. März 1879 in Ulm geboren. 1905 erschien seine Arbeit „Zur Elektrodynamik bewegter Körper“, deren Inhalt heute Spezielle Relativitätstheorie heißt; 1915 veröffentlichte er die Allgemeine Relativitätstheorie. Den Nobelpreis des Jahres 1921, überreicht 1922, erhielt er für seine Verdienste um die Theoretische Physik, besonders für die Entdeckung des Gesetzes des photoelektrischen Effekts. 1999 wählten führende Physiker in einer Umfrage der Fachzeitschrift Physics World Einstein zum bedeutendsten Physiker aller Zeiten. Er starb am 18. April 1955 in Princeton.",
+    "video_url": "/clips/v-person-einstein.mp4",
+    "thumbnail_url": "/clips/v-person-einstein.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1879 in Ulm.",
+      "1905 und 1915: die beiden Relativitätstheorien.",
+      "Den Nobelpreis bekam er für den photoelektrischen Effekt."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Albert Einstein",
+        "url": "https://de.wikipedia.org/wiki/Albert_Einstein"
+      }
+    ],
+    "published_at": "2026-10-22T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Physik"
+    ],
+    "quiz_question_id": "q-v-person-einstein",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-einstein",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Albert Einstein: no Nobel Prize for relativity",
+        "hook": "Einstein is famous for the theory of relativity – but he won the Nobel Prize for something else: the photoelectric effect.",
+        "description": "Albert Einstein was born in Ulm on 14 March 1879. In 1905 he published his paper \"On the Electrodynamics of Moving Bodies\", whose content is now called the special theory of relativity; in 1915 he published the general theory of relativity. He received the Nobel Prize for 1921, presented in 1922, for his services to theoretical physics and especially for discovering the law of the photoelectric effect. In 1999 leading physicists chose Einstein as the greatest physicist of all time in a survey by the journal Physics World. He died in Princeton on 18 April 1955.",
+        "captions": [
+          "Born in Ulm in 1879.",
+          "1905 and 1915: the two theories of relativity.",
+          "He won the Nobel Prize for the photoelectric effect."
+        ],
+        "file": "/clips/v-person-einstein.en.mp4",
+        "poster": "/clips/v-person-einstein.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-galilei",
+    "category_id": "science",
+    "title": "Galileo Galilei: verurteilt – und 1992 rehabilitiert",
+    "hook": "Galilei entdeckte die großen Jupitermonde und wurde von der Kirche verurteilt. Rehabilitiert wurde er erst 1992.",
+    "description": "Galileo Galilei wurde am 15. Februar 1564 in Pisa geboren. Er entwickelte die Methode, die Natur mit Experimenten, Messungen und Mathematik zu erforschen, und wurde damit einer der wichtigsten Begründer der neuzeitlichen Naturwissenschaften. Mit dem Fernrohr entdeckte er die vier größten Monde des Jupiter, die er im März 1610 in seiner Schrift „Sidereus Nuncius“ als Mediceische Sterne bezeichnete. 1633 wurde ihm der Prozess gemacht: Die katholische Kirche verurteilte ihn, weil einige seiner Theorien ihrer damaligen Auslegung der Bibel widersprachen. 1992 rehabilitierte sie ihn. Galilei starb am 8. Januar 1642.",
+    "video_url": "/clips/v-person-galilei.mp4",
+    "thumbnail_url": "/clips/v-person-galilei.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1564 in Pisa.",
+      "Mit dem Fernrohr fand er die vier größten Jupitermonde.",
+      "1633 verurteilt – 1992 rehabilitiert."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Galileo Galilei",
+        "url": "https://de.wikipedia.org/wiki/Galileo_Galilei"
+      }
+    ],
+    "published_at": "2026-10-21T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "quiz_question_id": "q-v-person-galilei",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-galilei",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Galileo Galilei: condemned – and rehabilitated in 1992",
+        "hook": "Galileo discovered Jupiter's large moons and was condemned by the Church. He was only rehabilitated in 1992.",
+        "description": "Galileo Galilei was born in Pisa on 15 February 1564. He developed the method of studying nature through experiments, measurements and mathematics, making him one of the most important founders of modern science. With the telescope he discovered the four largest moons of Jupiter, which he called the Medicean Stars in his work Sidereus Nuncius in March 1610. In 1633 he was put on trial: the Catholic Church condemned him because some of his theories contradicted its interpretation of the Bible at the time. In 1992 it rehabilitated him. Galileo died on 8 January 1642.",
+        "captions": [
+          "Born in Pisa in 1564.",
+          "With the telescope he found Jupiter's four largest moons.",
+          "Condemned in 1633 – rehabilitated in 1992."
+        ],
+        "file": "/clips/v-person-galilei.en.mp4",
+        "poster": "/clips/v-person-galilei.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-newton",
+    "category_id": "science",
+    "title": "Isaac Newton: ein Gesetz für Äpfel und Planeten",
+    "hook": "In seinen „Principia“ beschrieb Newton das Gravitationsgesetz – dieselbe Kraft für Körper auf der Erde und am Himmel.",
+    "description": "Isaac Newton wurde am 4. Januar 1643 in Woolsthorpe Manor in Lincolnshire geboren. 1672 baute er ein Spiegelteleskop, das er der Royal Society in London vorführte. In seinem Hauptwerk, den „Philosophiae Naturalis Principia Mathematica“ (London 1687), beschreibt er das nach ihm benannte Gravitationsgesetz; erstmals werden darin die Bewegungsgesetze irdischer und himmlischer Körper mathematisch vereinheitlicht. Fast gleichzeitig mit Gottfried Wilhelm Leibniz entwickelte er die Infinitesimalrechnung. 1703 wurde er Präsident der Royal Society und blieb es bis zu seinem Tod am 31. März 1727. Die physikalische Einheit Newton ist nach ihm benannt.",
+    "video_url": "/clips/v-person-newton.mp4",
+    "thumbnail_url": "/clips/v-person-newton.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1643 in England.",
+      "1672 baute er ein Spiegelteleskop.",
+      "1687: die „Principia“ mit dem Gravitationsgesetz."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Isaac Newton",
+        "url": "https://de.wikipedia.org/wiki/Isaac_Newton"
+      }
+    ],
+    "published_at": "2026-10-20T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Physik"
+    ],
+    "quiz_question_id": "q-v-person-newton",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-newton",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Isaac Newton: one law for apples and planets",
+        "hook": "In his Principia Newton described the law of gravitation – the same force for bodies on Earth and in the sky.",
+        "description": "Isaac Newton was born at Woolsthorpe Manor in Lincolnshire on 4 January 1643. In 1672 he built a reflecting telescope, which he demonstrated to the Royal Society in London. In his main work, the Philosophiae Naturalis Principia Mathematica (London 1687), he describes the law of gravitation named after him; for the first time, the laws of motion of earthly and heavenly bodies are unified mathematically. Almost at the same time as Gottfried Wilhelm Leibniz he developed calculus. In 1703 he became President of the Royal Society and remained so until his death on 31 March 1727. The physical unit newton is named after him.",
+        "captions": [
+          "Born in England in 1643.",
+          "In 1672 he built a reflecting telescope.",
+          "1687: the Principia with the law of gravitation."
+        ],
+        "file": "/clips/v-person-newton.en.mp4",
+        "poster": "/clips/v-person-newton.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-darwin",
+    "category_id": "earth",
+    "title": "Charles Darwin: 20 Jahre Belege für eine Idee",
+    "hook": "Schon 1838 entwarf Darwin seine Theorie der natürlichen Selektion – veröffentlicht hat er sein Hauptwerk erst 1859.",
+    "description": "Charles Darwin wurde am 12. Februar 1809 in Shrewsbury geboren. Ende 1831 brach er zu seiner fast fünf Jahre dauernden Reise mit der „Beagle“ auf, die ihn einmal um die Welt führte; sie wurde Grundlage für sein späteres Werk. Bereits 1838 entwarf er seine Theorie der Anpassung an den Lebensraum durch Variation und natürliche Selektion. Über 20 Jahre lang sammelte er Belege dafür. 1859 erschien sein Hauptwerk „Über die Entstehung der Arten“, die Grundlage der modernen Evolutionsbiologie. Darwin starb am 19. April 1882.",
+    "video_url": "/clips/v-person-darwin.mp4",
+    "thumbnail_url": "/clips/v-person-darwin.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1809 in Shrewsbury, England.",
+      "Ab 1831 fast fünf Jahre mit der „Beagle“ um die Welt.",
+      "1859 erschien „Über die Entstehung der Arten“."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Charles Darwin",
+        "url": "https://de.wikipedia.org/wiki/Charles_Darwin"
+      }
+    ],
+    "published_at": "2026-10-19T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Evolution"
+    ],
+    "quiz_question_id": "q-v-person-darwin",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-darwin",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Charles Darwin: 20 years of evidence for one idea",
+        "hook": "Darwin sketched his theory of natural selection as early as 1838 – but he only published his main work in 1859.",
+        "description": "Charles Darwin was born in Shrewsbury on 12 February 1809. At the end of 1831 he set off on his voyage of almost five years on the Beagle, which took him around the world; it became the basis of his later work. As early as 1838 he sketched his theory of adaptation to the environment through variation and natural selection. For more than 20 years he collected evidence for it. In 1859 his main work, On the Origin of Species, appeared – the foundation of modern evolutionary biology. Darwin died on 19 April 1882.",
+        "captions": [
+          "Born in Shrewsbury, England, in 1809.",
+          "From 1831 almost five years around the world on the Beagle.",
+          "On the Origin of Species appeared in 1859."
+        ],
+        "file": "/clips/v-person-darwin.en.mp4",
+        "poster": "/clips/v-person-darwin.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-humboldt",
+    "category_id": "earth",
+    "title": "Alexander von Humboldt: fast auf dem Chimborazo",
+    "hook": "1802 stieg Humboldt am Chimborazo (6263 Meter) fast bis zum Gipfel – eine Felsspalte stoppte ihn.",
+    "description": "Alexander von Humboldt wurde am 14. September 1769 in Berlin geboren. Er gilt als Mitbegründer der Geographie als empirischer Wissenschaft. Im Juli 1799 erreichte er mit seinem Begleiter Bonpland die Küste des heutigen Venezuela – der Beginn jahrelanger Forschungen in Lateinamerika. Im Juni 1802 kamen die beiden bei der Besteigung des Chimborazo (6263 Meter) fast bis zum Gipfel, mussten aber wegen einer unpassierbaren Felsspalte umkehren. Sein großes Werk „Kosmos“ erschien von 1845 bis 1862 in fünf Bänden. Humboldt starb am 6. Mai 1859 in Berlin.",
+    "video_url": "/clips/v-person-humboldt.mp4",
+    "thumbnail_url": "/clips/v-person-humboldt.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1769 in Berlin.",
+      "1799 erreichte er Südamerika, 1802 fast den Gipfel des Chimborazo.",
+      "Ab 1845 erschien sein Werk „Kosmos“."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Alexander von Humboldt",
+        "url": "https://de.wikipedia.org/wiki/Alexander_von_Humboldt"
+      }
+    ],
+    "published_at": "2026-10-18T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Entdecker"
+    ],
+    "quiz_question_id": "q-v-person-humboldt",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-humboldt",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Alexander von Humboldt: almost to the top of Chimborazo",
+        "hook": "In 1802 Humboldt climbed almost to the summit of Chimborazo (6,263 metres) – a crevice stopped him.",
+        "description": "Alexander von Humboldt was born in Berlin on 14 September 1769. He is regarded as a co-founder of geography as an empirical science. In July 1799 he and his companion Bonpland reached the coast of today's Venezuela – the start of years of research in Latin America. In June 1802 the two climbed Chimborazo (6,263 metres) almost to the summit, but had to turn back because of an impassable crevice. His great work Kosmos appeared in five volumes from 1845 to 1862. Humboldt died in Berlin on 6 May 1859.",
+        "captions": [
+          "Born in Berlin in 1769.",
+          "In 1799 he reached South America, in 1802 almost the top of Chimborazo.",
+          "His work Kosmos appeared from 1845."
+        ],
+        "file": "/clips/v-person-humboldt.en.mp4",
+        "poster": "/clips/v-person-humboldt.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-mozart",
+    "category_id": "culture",
+    "title": "Mozart: vom Wunderkind zur „Zauberflöte“",
+    "hook": "Schon als Kind tourte Mozart durch Europa – seine „Zauberflöte“ wurde wenige Wochen vor seinem Tod uraufgeführt.",
+    "description": "Wolfgang Amadeus Mozart wurde am 27. Januar 1756 in Salzburg geboren. Ab 1762 reiste sein Vater Leopold mit der Familie durch Westeuropa und Italien, um die „Wunderkinder“ Wolfgang und seine Schwester Maria Anna an Fürstenhöfen bekannt zu machen. Im Sommer 1781 brach Mozart mit dem Salzburger Erzbischof und lebte fortan als freischaffender Musiker und Komponist in Wien. Am 30. September 1791 wurde seine Oper „Die Zauberflöte“ in Wien uraufgeführt und hatte überaus großen Erfolg. Mozart starb am 5. Dezember 1791 in Wien.",
+    "video_url": "/clips/v-person-mozart.mp4",
+    "thumbnail_url": "/clips/v-person-mozart.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1756 in Salzburg.",
+      "Ab 1762 reiste er als „Wunderkind“ durch Europa.",
+      "1791 wurde „Die Zauberflöte“ uraufgeführt."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Wolfgang Amadeus Mozart",
+        "url": "https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+      }
+    ],
+    "published_at": "2026-10-17T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "quiz_question_id": "q-v-person-mozart",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-mozart",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Mozart: from child prodigy to The Magic Flute",
+        "hook": "Mozart toured Europe as a child – his Magic Flute premiered a few weeks before his death.",
+        "description": "Wolfgang Amadeus Mozart was born in Salzburg on 27 January 1756. From 1762 his father Leopold travelled with the family through Western Europe and Italy to make the \"child prodigies\" Wolfgang and his sister Maria Anna known at royal courts. In the summer of 1781 Mozart broke with the Archbishop of Salzburg and from then on lived in Vienna as a freelance musician and composer. On 30 September 1791 his opera The Magic Flute premiered in Vienna and was a great success. Mozart died in Vienna on 5 December 1791.",
+        "captions": [
+          "Born in Salzburg in 1756.",
+          "From 1762 he toured Europe as a child prodigy.",
+          "The Magic Flute premiered in 1791."
+        ],
+        "file": "/clips/v-person-mozart.en.mp4",
+        "poster": "/clips/v-person-mozart.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-beethoven",
+    "category_id": "culture",
+    "title": "Beethoven: komponieren, obwohl er kaum noch hörte",
+    "hook": "Ein Gehörleiden beendete Beethovens Karriere als Pianist – komponiert hat er weiter, bis zur 9. Sinfonie.",
+    "description": "Ludwig van Beethoven wurde am 17. Dezember 1770 in Bonn getauft. Anfang November 1792 brach er nach Wien auf, wo er Kompositionsunterricht bei Joseph Haydn nahm. Ein Gehörleiden, das sich mit der Zeit zur fast völligen Taubheit verschlimmerte, setzte seiner Karriere als Pianist ein vorzeitiges Ende. Die Krankheit löste eine Krise aus, über die Beethoven 1802 in seinem „Heiligenstädter Testament“ Zeugnis ablegte. Er konzentrierte sich mehr und mehr aufs Komponieren. Die Uraufführung seiner 9. Sinfonie am 7. Mai 1824 wurde vom Publikum begeistert aufgenommen. Beethoven starb am 26. März 1827 in Wien.",
+    "video_url": "/clips/v-person-beethoven.mp4",
+    "thumbnail_url": "/clips/v-person-beethoven.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "1770 in Bonn getauft, ab 1792 in Wien.",
+      "Ein Gehörleiden beendete seine Karriere als Pianist.",
+      "1824 wurde seine 9. Sinfonie uraufgeführt."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Ludwig van Beethoven",
+        "url": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven"
+      }
+    ],
+    "published_at": "2026-10-16T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "quiz_question_id": "q-v-person-beethoven",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-beethoven",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Beethoven: composing while he could barely hear",
+        "hook": "A hearing disorder ended Beethoven's career as a pianist – but he kept composing, up to the Ninth Symphony.",
+        "description": "Ludwig van Beethoven was baptised in Bonn on 17 December 1770. At the beginning of November 1792 he set off for Vienna, where he took composition lessons with Joseph Haydn. A hearing disorder, which over time worsened into almost complete deafness, cut short his career as a pianist. The illness triggered a crisis that Beethoven described in 1802 in his Heiligenstadt Testament. He concentrated more and more on composing. The premiere of his Ninth Symphony on 7 May 1824 was received enthusiastically by the audience. Beethoven died in Vienna on 26 March 1827.",
+        "captions": [
+          "Baptised in Bonn in 1770, in Vienna from 1792.",
+          "A hearing disorder ended his career as a pianist.",
+          "His Ninth Symphony premiered in 1824."
+        ],
+        "file": "/clips/v-person-beethoven.en.mp4",
+        "poster": "/clips/v-person-beethoven.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-kahlo",
+    "category_id": "culture",
+    "title": "Frida Kahlo: Rekord für ein Selbstbildnis",
+    "hook": "2025 wurde Frida Kahlos Selbstbildnis „El sueño“ für rund 48 Millionen Euro versteigert – Rekord für das Werk einer Frau.",
+    "description": "Frida Kahlo wurde am 6. Juli 1907 in Coyoacán in Mexiko-Stadt geboren. Im September 1925 wurde sie Opfer eines Busunglücks, bei dem sich eine Stahlstange durch ihr Becken bohrte; danach musste sie ihren Alltag immer wieder liegend, im Ganzkörpergips oder Stahlkorsett verbringen. 1929 heiratete sie den mexikanischen Maler Diego Rivera, der mit seinen Wandbildern bereits weltberühmt war. Kahlo gilt als die bekannteste Künstlerin Mexikos. Ihr Selbstbildnis „El sueño (La cama)“ wurde 2025 für rund 48 Millionen Euro versteigert und ist damit das teuerste je bei einer Auktion verkaufte Werk einer Frau. Sie starb am 13. Juli 1954.",
+    "video_url": "/clips/v-person-kahlo.mp4",
+    "thumbnail_url": "/clips/v-person-kahlo.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1907 in Mexiko-Stadt.",
+      "1925 wurde sie bei einem Busunglück schwer verletzt.",
+      "2025: Auktionsrekord für ein Werk einer Frau."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Frida Kahlo",
+        "url": "https://de.wikipedia.org/wiki/Frida_Kahlo"
+      }
+    ],
+    "published_at": "2026-10-15T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "quiz_question_id": "q-v-person-kahlo",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-kahlo",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 13,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Frida Kahlo: a record for a self-portrait",
+        "hook": "In 2025 Frida Kahlo's self-portrait El sueño sold at auction for about 48 million euros – a record for a work by a woman.",
+        "description": "Frida Kahlo was born in Coyoacán, Mexico City, on 6 July 1907. In September 1925 she was the victim of a bus accident in which a steel rod pierced her pelvis; afterwards she often had to spend her days lying down, in a full-body cast or a steel corset. In 1929 she married the Mexican painter Diego Rivera, who was already world-famous for his murals. Kahlo is regarded as Mexico's best-known artist. Her self-portrait El sueño (La cama) sold at auction in 2025 for about 48 million euros, making it the most expensive work by a woman ever sold at auction. She died on 13 July 1954.",
+        "captions": [
+          "Born in Mexico City in 1907.",
+          "In 1925 she was badly injured in a bus accident.",
+          "2025: an auction record for a work by a woman."
+        ],
+        "file": "/clips/v-person-kahlo.en.mp4",
+        "poster": "/clips/v-person-kahlo.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-leonardo",
+    "category_id": "culture",
+    "title": "Leonardo da Vinci: vom Abendmahl zur Mona Lisa",
+    "hook": "Maler, Ingenieur, Anatom: Leonardo da Vinci gilt als einer der berühmtesten Universalgelehrten aller Zeiten.",
+    "description": "Leonardo da Vinci wurde am 15. April 1452 geboren, vermutlich in Vinci in der Toskana. Er war Maler, Bildhauer, Architekt, Anatom, Mechaniker, Ingenieur und Naturphilosoph und gilt als einer der berühmtesten Universalgelehrten aller Zeiten. Sein Wandgemälde „Das Abendmahl“, 8,8 mal 4,6 Meter groß, entstand in den Jahren 1494 bis 1498. Von 1503 bis 1506 arbeitete er intensiv am Porträt der Mona Lisa. „Da Vinci“ ist übrigens kein Familienname, sondern verweist auf seinen Geburtsort. Leonardo starb am 2. Mai 1519 auf Schloss Clos Lucé in Amboise.",
+    "video_url": "/clips/v-person-leonardo.mp4",
+    "thumbnail_url": "/clips/v-person-leonardo.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1452, vermutlich in Vinci in der Toskana.",
+      "1494 bis 1498 entstand „Das Abendmahl“.",
+      "Ab 1503 arbeitete er an der Mona Lisa."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Leonardo da Vinci",
+        "url": "https://de.wikipedia.org/wiki/Leonardo_da_Vinci"
+      }
+    ],
+    "published_at": "2026-10-14T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "quiz_question_id": "q-v-person-leonardo",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-leonardo",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Leonardo da Vinci: from The Last Supper to the Mona Lisa",
+        "hook": "Painter, engineer, anatomist: Leonardo da Vinci is regarded as one of the most famous polymaths of all time.",
+        "description": "Leonardo da Vinci was born on 15 April 1452, probably in Vinci in Tuscany. He was a painter, sculptor, architect, anatomist, mechanic, engineer and natural philosopher and is regarded as one of the most famous polymaths of all time. His mural The Last Supper, 8.8 by 4.6 metres, was made between 1494 and 1498. From 1503 to 1506 he worked intensively on the portrait of the Mona Lisa. By the way, \"da Vinci\" is not a surname but refers to his birthplace. Leonardo died on 2 May 1519 at the Château du Clos Lucé in Amboise.",
+        "captions": [
+          "Born in 1452, probably in Vinci in Tuscany.",
+          "The Last Supper was made from 1494 to 1498.",
+          "From 1503 he worked on the Mona Lisa."
+        ],
+        "file": "/clips/v-person-leonardo.en.mp4",
+        "poster": "/clips/v-person-leonardo.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-tesla",
+    "category_id": "technology",
+    "title": "Nikola Tesla: über 280 Patente",
+    "hook": "Tesla prägte die Stromversorgung mit Wechselstrom – und erhielt in 26 Ländern über 280 Patente.",
+    "description": "Nikola Tesla wurde am 10. Juli 1856 in Smiljan geboren, einem Dorf im heutigen Kroatien. Im Juni 1884 zog er praktisch ohne Geld nach New York und begann für Thomas Alva Edison zu arbeiten. Bis zum Mai 1888 wurden sieben Patente angemeldet, die sich mit mehrphasigem Wechselstrom und dessen Übertragung beschäftigten. Sein Lebenswerk ist durch zahlreiche Neuerungen in der Elektrotechnik geprägt, besonders in der elektrischen Energietechnik. Tesla erhielt in 26 Ländern über 280 Patente, davon 112 in den USA. Er starb am 7. Januar 1943 in New York City.",
+    "video_url": "/clips/v-person-tesla.mp4",
+    "thumbnail_url": "/clips/v-person-tesla.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1856 im heutigen Kroatien.",
+      "1884 arbeitete er in New York für Thomas Edison.",
+      "Über 280 Patente in 26 Ländern."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Nikola Tesla",
+        "url": "https://de.wikipedia.org/wiki/Nikola_Tesla"
+      }
+    ],
+    "published_at": "2026-10-13T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Erfindungen"
+    ],
+    "quiz_question_id": "q-v-person-tesla",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-tesla",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Nikola Tesla: more than 280 patents",
+        "hook": "Tesla shaped power supply with alternating current – and received more than 280 patents in 26 countries.",
+        "description": "Nikola Tesla was born in Smiljan, a village in today's Croatia, on 10 July 1856. In June 1884 he moved to New York with almost no money and began working for Thomas Alva Edison. By May 1888 seven patents had been filed on polyphase alternating current and its transmission. His life's work is marked by many innovations in electrical engineering, especially in electric power engineering. Tesla received more than 280 patents in 26 countries, 112 of them in the USA. He died in New York City on 7 January 1943.",
+        "captions": [
+          "Born in today's Croatia in 1856.",
+          "In 1884 he worked for Thomas Edison in New York.",
+          "More than 280 patents in 26 countries."
+        ],
+        "file": "/clips/v-person-tesla.en.mp4",
+        "poster": "/clips/v-person-tesla.en.jpg"
+      }
+    }
   }
 ]

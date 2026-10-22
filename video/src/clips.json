@@ -48,5 +48,55 @@
     "id": "v-person-lovelace",
     "seconds": 10,
     "thumbFrame": 280
+  },
+  {
+    "id": "v-person-einstein",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-galilei",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-newton",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-darwin",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-humboldt",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-mozart",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-beethoven",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-kahlo",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-leonardo",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-tesla",
+    "seconds": 10,
+    "thumbFrame": 280
   }
 ]

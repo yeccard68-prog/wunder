@@ -1,8 +1,10 @@
 // A life on a timeline: name and dates, then four stations that appear one after another, each year counting up
 // to its value. Used for the "Persönlichkeiten" clips (people.ts); every station is quoted from the linked article
 // in the clip's content batch. Purely typographic – no portraits, so no picture rights are involved.
+// Layout: the app lays its title and text over the lower half of a clip and its buttons (like, share, …) along the
+// right edge, so everything sits in the upper half and the station texts end well left of the buttons.
 import { useCurrentFrame } from "remotion";
-import { C, ease, FONT, SAFE_BOTTOM, Stage, type Locale } from "../theme";
+import { C, ease, FONT, Stage, type Locale } from "../theme";
 
 export type Station = { year: number; approx?: boolean; de: string; en: string };
 export type Person = {
@@ -15,8 +17,12 @@ export type Person = {
   stations: Station[];
 };
 
-const TOP = 300; // first station
-const STEP = (SAFE_BOTTOM - 80 - TOP) / 3; // four stations above the app's captions; the last one keeps to one line
+const TOP = 300; // centre of the first station
+const STEP = 102; // between stations: the last one ends at about y = 640, above the app's texts
+const DOT_X = 76;
+const YEAR_X = 112;
+const TEXT_X = 284;
+const TEXT_RIGHT = 585; // the app's buttons cover x > 610 on a phone
 const START = 34; // frame when the first station appears
 const EACH = 54; // frames between stations
 
@@ -26,40 +32,35 @@ export function Lebenslinie({ person, locale }: { person: Person; locale: Locale
   const lineEnd = TOP + STEP * (n - 1);
   const grow = ease(frame, START - 6, START + EACH * (n - 1) + 10);
   const first = person.stations[0].year;
+  const head = ease(frame, 2, 16);
   return (
     <Stage topic={person.topic[locale]} color={person.color}>
-      {/* a large, faint initial as the only "picture" */}
-      <div style={{ position: "absolute", right: -30, top: 120, fontFamily: FONT.display, fontWeight: 600, fontSize: 620, lineHeight: 1, color: person.color, opacity: 0.07 * ease(frame, 0, 30) }}>
-        {person.name.split(" ").pop()![0]}
-      </div>
-      <div style={{ position: "absolute", top: 112, left: 64, right: 64, opacity: ease(frame, 2, 16), transform: `translateY(${(1 - ease(frame, 2, 16)) * 16}px)` }}>
-        <div style={{ fontFamily: FONT.display, fontSize: person.name.length > 16 ? 56 : 64, fontWeight: 600, lineHeight: 1.05 }}>{person.name}</div>
-        <div style={{ marginTop: 12, fontSize: 26, color: C.muted }}>
+      <div style={{ position: "absolute", top: 112, left: 64, right: 64, opacity: head, transform: `translateY(${(1 - head) * 16}px)` }}>
+        <div style={{ fontFamily: FONT.display, fontSize: person.name.length > 22 ? 42 : person.name.length > 20 ? 46 : person.name.length > 16 ? 54 : 62, fontWeight: 600, lineHeight: 1.05 }}>{person.name}</div>
+        <div style={{ marginTop: 10, fontSize: 25, color: C.muted }}>
           {person.lived[locale]} · {person.role[locale]}
         </div>
       </div>
-      <svg width={720} height={1280} style={{ position: "absolute", inset: 0 }}>
-        <line x1={96} y1={TOP} x2={96} y2={lineEnd} stroke={C.line} strokeWidth={4} strokeLinecap="round" />
-        <line x1={96} y1={TOP} x2={96} y2={TOP + (lineEnd - TOP) * grow} stroke={person.color} strokeWidth={4} strokeLinecap="round" />
+      <svg width={720} height={720} style={{ position: "absolute", left: 0, top: 0 }}>
+        <line x1={DOT_X} y1={TOP} x2={DOT_X} y2={lineEnd} stroke={C.line} strokeWidth={4} strokeLinecap="round" />
+        <line x1={DOT_X} y1={TOP} x2={DOT_X} y2={TOP + (lineEnd - TOP) * grow} stroke={person.color} strokeWidth={4} strokeLinecap="round" />
       </svg>
       {person.stations.map((s, i) => {
         const at = START + i * EACH;
         const show = ease(frame, at, at + 12);
         const count = ease(frame, at, at + 22);
-        // the first year counts up from 0 digits' worth, later ones from the previous station
+        // the first year counts up over a few decades, later ones from the previous station
         const from = i === 0 ? first - 40 : person.stations[i - 1].year;
         const year = Math.round(from + (s.year - from) * count);
         const y = TOP + i * STEP;
         return (
-          <div key={i} style={{ position: "absolute", top: y - 26, left: 0, right: 0, opacity: show }}>
-            <div style={{ position: "absolute", left: 96 - 14 * show, top: 26 - 14 * show, width: 28 * show, height: 28 * show, borderRadius: 14, background: person.color, boxShadow: `0 0 0 8px ${C.bg}` }} />
-            <div style={{ position: "absolute", left: 140, right: 56, top: 0, transform: `translateX(${(1 - show) * 24}px)` }}>
-              <div style={{ fontFamily: FONT.display, fontSize: 46, fontWeight: 600, lineHeight: 1, color: person.color, fontVariantNumeric: "tabular-nums" }}>
-                {s.approx ? (locale === "de" ? "um " : "c. ") : ""}
-                {year}
-              </div>
-              <div style={{ marginTop: 10, fontSize: 28, lineHeight: 1.25, color: C.ink }}>{s[locale]}</div>
+          <div key={i} style={{ opacity: show }}>
+            <div style={{ position: "absolute", left: DOT_X - 13 * show, top: y - 13 * show, width: 26 * show, height: 26 * show, borderRadius: 13, background: person.color, boxShadow: `0 0 0 7px ${C.bg}` }} />
+            <div style={{ position: "absolute", left: YEAR_X, top: y - 24, width: TEXT_X - YEAR_X - 8, fontFamily: FONT.display, fontWeight: 600, color: person.color, fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
+              {s.approx && <span style={{ fontSize: 22, marginRight: 6 }}>{locale === "de" ? "um" : "c."}</span>}
+              <span style={{ fontSize: 42, lineHeight: "48px" }}>{year}</span>
             </div>
+            <div style={{ position: "absolute", left: TEXT_X, width: TEXT_RIGHT - TEXT_X, top: y - 17, fontSize: 25, lineHeight: 1.25, color: C.ink, transform: `translateX(${(1 - show) * 20}px)` }}>{s[locale]}</div>
           </div>
         );
       })}
