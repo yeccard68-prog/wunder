@@ -85,6 +85,35 @@ Wichtig: Bei allen Profilen gelten Impressum und Kennzeichnung (eigene Inhalte =
 3. Nach dem Start: Wunder Plus (Lernpfade, Offline, Vorlesen), Widget, Wochenliga.
 4. Später: weitere Sprachen, Schulen, KI-Funktionen (nur mit Kostenfreigabe).
 
+## 7. Nachtrag: Vergleich mit Deepstash (Stand 22.10.2026)
+
+Deepstash (Brainstash, Inc.) ist der nächste Verwandte von Wunder: ein Feed mit kurzen „Ideen“-Karten statt Doomscrolling.
+
+| | Deepstash | Wunder |
+|---|---|---|
+| Inhalt | „200.000+ Ideen“ aus Büchern, Artikeln, Podcasts, Videos – von Nutzern zusammengefasst⁸ | rund 850 Fragen, 109 Fakten, 71 Clips, 31 Tagesereignisse – von der Redaktion, jede Aussage mit Zitat aus der Quelle |
+| Lernen | Lesen und Sammeln („Stashes“), kaum aktives Üben⁹ | Quiz, Mythos-oder-Wahrheit, Wiederholung falscher Antworten, Duelle |
+| Formate | Textkarten, Vorlesen (Audio), Buch-Zusammenfassungen⁸ | Fragen, Fakten, eigene Clips, 3D-Animationen, Grafiken, Serien, „Heute vor … Jahren“ |
+| Gemeinschaft | anderen folgen, Sammlungen teilen⁹ | Duelle; Gruppen und Chat gebaut, aber noch aus |
+| Reichweite | „10M+“ Downloads (eigene Angabe)⁸; US-App-Store 4,7 bei 49.782 Bewertungen, DE 4,5 bei 2.016 (Stand Juni/Juli 2026)¹⁰ | noch nicht veröffentlicht |
+| Geld | Gratis mit Werbung; Pro ohne Werbung, unbegrenztes Speichern, offline, Vorlesen – ca. 13 $/Monat, Jahresabo je nach Region/Aktion ca. 50–120 $ (Drittquellen, uneinheitlich)⁹ | noch keine Einnahmen |
+| Kritik | Qualität schwankt (Nutzer schreiben die Karten), passives Lesen, Gratisversion stark eingeschränkt⁹ | – |
+
+Was Wunder daraus mitnehmen kann – nach Nutzen pro Aufwand:
+1. **Positionierung schärfen:** Deepstash wirbt mit „statt Doomscrolling“. Wunder kann dasselbe Versprechen geben und es
+   übertreffen: *„Statt Doomscrolling – Wissen mit Quelle, das hängen bleibt.“* (Quellen + Quiz sind genau Deepstashs Schwächen.)
+2. **Vorlesen:** Deepstash bietet Audio. Wunder könnte Fakten und Erklärungen mit der eingebauten Sprachausgabe des Geräts
+   vorlesen (Web Speech API) – ohne Kosten, ohne Server, auf Deutsch und Englisch. Ein Nachmittag Arbeit.
+3. **Eigene Sammlungen:** Wunder hat „Merken“, aber nur eine Liste. Sammlungen mit Namen („Für die Party“, „Weltraum“) wären der
+   Deepstash-Kern in klein – lokal gespeichert, kein Datenschutzthema.
+4. **Menge ohne Qualitätsverlust:** Deepstash wächst über Nutzerinhalte und kämpft mit schwankender Qualität. Wunder wächst
+   lieber langsamer über die geprüfte Routine; Nutzer helfen über „Hinweis an die Redaktion“. Nutzerinhalte erst, wenn es
+   eine Moderation gibt.
+5. **Bücher:** Deepstashs Herzstück sind Buchideen. Für Wunder gilt weiter: eigene Worte, keine Auszüge, keine Verlagscover
+   (siehe `docs/LEGAL.md`). Daran nichts ändern – das Risiko trägt sonst der Betreiber.
+6. **Preis später:** Deepstash zeigt, dass Werbung + Pro-Abo funktioniert, aber die Gratisversion wird als zu knapp kritisiert.
+   Für „Wunder Plus“ (Abschnitt 4) gilt: Lernen bleibt gratis, Plus bringt Komfort (offline, Vorlesen, Sammlungen, Statistik).
+
 ## Quellen
 
 1. Duolingo, Quartalsbericht Q2 2026 (Form 10-Q / Shareholder Letter): https://www.sec.gov/Archives/edgar/data/0001562088/000162828026053603/duol-20260630.htm und https://www.sec.gov/Archives/edgar/data/0001562088/000162828026053299/q2fy26duolingo6-30x26share.htm
@@ -94,5 +123,9 @@ Wichtig: Bei allen Profilen gelten Impressum und Kennzeichnung (eigene Inhalte =
 5. Store-Gebühren (Drittanbieter): https://www.revenuecat.com/blog/engineering/small-business-program, https://appbot.co/blog/app-developers-apple-google-small-business-programs/
 6. Supabase/Vercel (Drittanbieter): https://makerkit.dev/blog/md/saas/supabase-pricing, https://makerkit.dev/blog/saas/vercel-cost
 7. Duolingo-Marketing: Shareholder Letter Q4 2021 https://www.sec.gov/Archives/edgar/data/1562088/000156208822000033/duolingo_q4-2021xshareho.htm, Adweek https://www.adweek.com/brand-marketing/duolingo-duo-owl-marketing-strategy/
+
+8. Deepstash, eigene Website: https://deepstash.com/ und App Store: https://apps.apple.com/app/id1445023295
+9. Deepstash-Funktionen und -Preise (Konkurrenz-Blogs, mit Vorsicht): https://nibble-app.com/blog/deepstash-review, https://nibble-app.com/blog/is-deepstash-worth-it, https://makeheadway.com/blog/deepstash-cost/
+10. App-Store-Bewertungen (AppFollow-Momentaufnahmen): https://apps.appfollow.io/ios/deepstash-smarter-every-day/1445023295?country=us, https://apps.appfollow.io/ios/deepstash-smarter-every-day/1445023295?country=de
 
 Preise und Gebühren ändern sich und sind teils nur aus Drittquellen; vor Entscheidungen bitte die offiziellen Seiten prüfen.

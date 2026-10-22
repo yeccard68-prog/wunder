@@ -98,5 +98,35 @@
     "id": "v-person-tesla",
     "seconds": 10,
     "thumbFrame": 280
+  },
+  {
+    "id": "v-person-zuse",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-kepler",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-amundsen",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-vangogh",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-owens",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-hopper",
+    "seconds": 10,
+    "thumbFrame": 280
   }
 ]

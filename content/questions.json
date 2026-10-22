@@ -32859,5 +32859,245 @@
         "explanation": "In June 1884 Tesla moved to New York and began working for Thomas Alva Edison."
       }
     }
+  },
+  {
+    "id": "q-v-person-zuse",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie hieß der Rechner, den Konrad Zuse 1941 baute?",
+    "options": [
+      "Z3",
+      "ENIAC",
+      "Mark I",
+      "UNIVAC"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit der Z3 baute Zuse 1941 den ersten funktionstüchtigen, frei programmierbaren Rechner – den ersten funktionsfähigen Computer der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Konrad Zuse",
+    "source_url": "https://de.wikipedia.org/wiki/Konrad_Zuse",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the machine Konrad Zuse built in 1941 called?",
+        "options": [
+          "Z3",
+          "ENIAC",
+          "Mark I",
+          "UNIVAC"
+        ],
+        "explanation": "With the Z3 in 1941 Zuse built the first working, freely programmable calculator – the world's first functioning computer."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-kepler",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was beschreiben die Keplerschen Gesetze?",
+    "options": [
+      "Wie sich Planeten um die Sonne bewegen",
+      "Wie Licht gebrochen wird",
+      "Wie sich Gase ausdehnen",
+      "Wie ein Pendel schwingt"
+    ],
+    "correct_index": 0,
+    "explanation": "Kepler entdeckte die Gesetzmäßigkeiten, nach denen sich Planeten um die Sonne bewegen; sie heißen nach ihm Keplersche Gesetze.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Johannes Kepler",
+    "source_url": "https://de.wikipedia.org/wiki/Johannes_Kepler",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do Kepler's laws describe?",
+        "options": [
+          "How planets move around the Sun",
+          "How light is refracted",
+          "How gases expand",
+          "How a pendulum swings"
+        ],
+        "explanation": "Kepler discovered the laws by which planets move around the Sun; they are named after him."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-amundsen",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wen ließ Roald Amundsen 1911 im Wettlauf zum Südpol hinter sich?",
+    "options": [
+      "Robert Falcon Scott",
+      "Fridtjof Nansen",
+      "Umberto Nobile",
+      "Ernest Shackleton"
+    ],
+    "correct_index": 0,
+    "explanation": "Amundsen erreichte den Südpol am 14. Dezember 1911 – vor seinem britischen Rivalen Robert Falcon Scott.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Entdecker"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Roald Amundsen",
+    "source_url": "https://de.wikipedia.org/wiki/Roald_Amundsen",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Whom did Roald Amundsen beat in the race to the South Pole in 1911?",
+        "options": [
+          "Robert Falcon Scott",
+          "Fridtjof Nansen",
+          "Umberto Nobile",
+          "Ernest Shackleton"
+        ],
+        "explanation": "Amundsen reached the South Pole on 14 December 1911 – ahead of his British rival Robert Falcon Scott."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-vangogh",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele seiner Bilder konnte Vincent van Gogh zu Lebzeiten verkaufen?",
+    "options": [
+      "Nur eines",
+      "Rund 50",
+      "Über 300",
+      "Gar keines"
+    ],
+    "correct_index": 0,
+    "explanation": "Zu Lebzeiten konnte er nur ein Bild verkaufen, an die Künstlerin Anna Boch.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vincent van Gogh",
+    "source_url": "https://de.wikipedia.org/wiki/Vincent_van_Gogh",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many of his paintings did Vincent van Gogh sell in his lifetime?",
+        "options": [
+          "Just one",
+          "About 50",
+          "More than 300",
+          "None at all"
+        ],
+        "explanation": "In his lifetime he was able to sell only one painting, to the artist Anna Boch."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-owens",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Goldmedaillen gewann Jesse Owens bei den Olympischen Spielen 1936?",
+    "options": [
+      "Vier",
+      "Zwei",
+      "Sechs",
+      "Eine"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit vier Goldmedaillen – drei im Sprint und eine im Weitsprung – war er der erfolgreichste Athlet der Spiele.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jesse Owens",
+    "source_url": "https://de.wikipedia.org/wiki/Jesse_Owens",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many gold medals did Jesse Owens win at the 1936 Olympic Games?",
+        "options": [
+          "Four",
+          "Two",
+          "Six",
+          "One"
+        ],
+        "explanation": "With four gold medals – three in sprint events and one in the long jump – he was the most successful athlete of the Games."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-hopper",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was entwickelte Grace Hopper 1952?",
+    "options": [
+      "Den ersten Compiler",
+      "Die erste Computermaus",
+      "Das erste E-Mail-Programm",
+      "Den ersten Mikrochip"
+    ],
+    "correct_index": 0,
+    "explanation": "1952 entwickelte sie den ersten Compiler (A-0) – damit konnten Programme in verständlicherer Sprache geschrieben werden.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grace Hopper",
+    "source_url": "https://de.wikipedia.org/wiki/Grace_Hopper",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Grace Hopper develop in 1952?",
+        "options": [
+          "The first compiler",
+          "The first computer mouse",
+          "The first e-mail program",
+          "The first microchip"
+        ],
+        "explanation": "In 1952 she developed the first compiler (A-0) – it let programs be written in more understandable language."
+      }
+    }
   }
 ]

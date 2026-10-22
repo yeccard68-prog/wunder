@@ -4235,5 +4235,353 @@
         "poster": "/clips/v-person-tesla.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-person-zuse",
+    "category_id": "technology",
+    "title": "Konrad Zuse: der erste Computer stand in Berlin",
+    "hook": "Mit der Z3 baute Konrad Zuse 1941 den Rechner, der als erster funktionsfähiger Computer der Welt gilt.",
+    "description": "Konrad Zuse wurde am 22. Juni 1910 in Deutsch-Wilmersdorf geboren. Schon mit 14 Jahren tüftelte er an Erfindungen. In der Wohnung seiner Eltern entstand die Z1, 1938 fertiggestellt: ein elektrisch angetriebener mechanischer Rechner, der als erster Rechner mit binären Zahlen arbeitete. Mit der Z3 baute Zuse 1941 den ersten funktionstüchtigen, vollautomatischen, frei programmierbaren Rechner und damit den ersten funktionsfähigen Computer der Welt. 1949 gründete er die Zuse KG. Konrad Zuse starb am 18. Dezember 1995 in Hünfeld.",
+    "video_url": "/clips/v-person-zuse.mp4",
+    "thumbnail_url": "/clips/v-person-zuse.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1910, schon als Jugendlicher ein Tüftler.",
+      "1938: die Z1 rechnete mit binären Zahlen.",
+      "1941: die Z3 – der erste funktionsfähige Computer."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Konrad Zuse",
+        "url": "https://de.wikipedia.org/wiki/Konrad_Zuse"
+      }
+    ],
+    "published_at": "2026-10-22T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Computer"
+    ],
+    "quiz_question_id": "q-v-person-zuse",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-zuse",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Konrad Zuse: the first computer stood in Berlin",
+        "hook": "With the Z3 in 1941, Konrad Zuse built the machine regarded as the world's first working computer.",
+        "description": "Konrad Zuse was born in Deutsch-Wilmersdorf on 22 June 1910. At 14 he was already tinkering with inventions. In his parents' flat he built the Z1, completed in 1938: an electrically driven mechanical calculator, the first to work with binary numbers. With the Z3 in 1941, Zuse built the first working, fully automatic, freely programmable calculator and thus the world's first functioning computer. In 1949 he founded the company Zuse KG. Konrad Zuse died in Hünfeld on 18 December 1995.",
+        "captions": [
+          "Born in 1910, a tinkerer from his youth.",
+          "1938: the Z1 calculated with binary numbers.",
+          "1941: the Z3 – the first working computer."
+        ],
+        "file": "/clips/v-person-zuse.en.mp4",
+        "poster": "/clips/v-person-zuse.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-kepler",
+    "category_id": "science",
+    "title": "Johannes Kepler: die Gesetze der Planetenbahnen",
+    "hook": "Kepler entdeckte, nach welchen Gesetzen sich die Planeten um die Sonne bewegen – sie tragen bis heute seinen Namen.",
+    "description": "Johannes Kepler wurde am 27. Dezember 1571 in Weil der Stadt geboren. Nach dem Tod des Astronomen Tycho Brahe im Oktober 1601 wurde er dessen Nachfolger als kaiserlicher Mathematiker und Hofastronom. 1609 veröffentlichte er die „Astronomia nova“; das Buch enthielt das erste und zweite Keplersche Gesetz. Am 15. Mai 1618 entdeckte er das dritte Gesetz, das er in seinem 1619 veröffentlichten Werk „Harmonices mundi“ erläuterte. Von 1615 bis 1621 organisierte er die erfolgreiche Verteidigung seiner Mutter, die der Hexerei angeklagt war. Kepler starb am 15. November 1630 in Regensburg.",
+    "video_url": "/clips/v-person-kepler.mp4",
+    "thumbnail_url": "/clips/v-person-kepler.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1571 in Weil der Stadt.",
+      "Ab 1601 war er Hofastronom des Kaisers.",
+      "1609 und 1619 veröffentlichte er die Gesetze der Planetenbahnen."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Johannes Kepler",
+        "url": "https://de.wikipedia.org/wiki/Johannes_Kepler"
+      }
+    ],
+    "published_at": "2026-10-21T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "quiz_question_id": "q-v-person-kepler",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-kepler",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Johannes Kepler: the laws of planetary orbits",
+        "hook": "Kepler discovered the laws by which the planets move around the Sun – they still bear his name today.",
+        "description": "Johannes Kepler was born in Weil der Stadt on 27 December 1571. After the death of the astronomer Tycho Brahe in October 1601 he became his successor as imperial mathematician and court astronomer. In 1609 he published the Astronomia nova; the book contained Kepler's first and second laws. On 15 May 1618 he discovered the third law, which he explained in his work Harmonices mundi, published in 1619. From 1615 to 1621 he organised the successful defence of his mother, who had been accused of witchcraft. Kepler died in Regensburg on 15 November 1630.",
+        "captions": [
+          "Born in Weil der Stadt in 1571.",
+          "From 1601 he was the emperor's court astronomer.",
+          "In 1609 and 1619 he published the laws of planetary orbits."
+        ],
+        "file": "/clips/v-person-kepler.en.mp4",
+        "poster": "/clips/v-person-kepler.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-amundsen",
+    "category_id": "earth",
+    "title": "Roald Amundsen: der Erste am Südpol",
+    "hook": "Am 14. Dezember 1911 erreichte Roald Amundsen als erster Mensch den Südpol – vor seinem Rivalen Robert Falcon Scott.",
+    "description": "Roald Amundsen wurde am 16. Juli 1872 in Borge in Norwegen geboren. Von 1903 bis 1906 erkundete er mit dem kleinen Segelschiff Gjøa die Nordwestpassage; er durchfuhr sie als Erster. Am 14. Dezember 1911 erreichte er mit vier Begleitern als erster Mensch den geographischen Südpol, vor seinem britischen Rivalen Robert Falcon Scott. Am 12. Mai 1926 überquerte er im Luftschiff Norge mit 15 weiteren Expeditionsteilnehmern den Nordpol. Amundsen kam 1928 bei einem Rettungsflug für den Polarforscher Umberto Nobile ums Leben.",
+    "video_url": "/clips/v-person-amundsen.mp4",
+    "thumbnail_url": "/clips/v-person-amundsen.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1872 in Norwegen.",
+      "1903 bis 1906: als Erster durch die Nordwestpassage.",
+      "1911 stand er als erster Mensch am Südpol."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Roald Amundsen",
+        "url": "https://de.wikipedia.org/wiki/Roald_Amundsen"
+      }
+    ],
+    "published_at": "2026-10-20T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Entdecker"
+    ],
+    "quiz_question_id": "q-v-person-amundsen",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-amundsen",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Roald Amundsen: first at the South Pole",
+        "hook": "On 14 December 1911 Roald Amundsen became the first person to reach the South Pole – ahead of his rival Robert Falcon Scott.",
+        "description": "Roald Amundsen was born in Borge, Norway, on 16 July 1872. From 1903 to 1906 he explored the Northwest Passage in the small sailing ship Gjøa; he was the first to sail through it. On 14 December 1911, with four companions, he became the first person to reach the geographic South Pole, ahead of his British rival Robert Falcon Scott. On 12 May 1926 he crossed the North Pole in the airship Norge with 15 other expedition members. Amundsen died in 1928 on a rescue flight for the polar explorer Umberto Nobile.",
+        "captions": [
+          "Born in Norway in 1872.",
+          "1903 to 1906: first through the Northwest Passage.",
+          "In 1911 he was the first person at the South Pole."
+        ],
+        "file": "/clips/v-person-amundsen.en.mp4",
+        "poster": "/clips/v-person-amundsen.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-vangogh",
+    "category_id": "culture",
+    "title": "Vincent van Gogh: ein einziges Bild verkauft",
+    "hook": "Zu Lebzeiten verkaufte van Gogh nur ein Bild – heute erzielen seine Werke Rekordpreise.",
+    "description": "Vincent van Gogh wurde am 30. März 1853 in Groot-Zundert geboren. Er gilt als einer der Begründer der modernen Malerei. Am 19. Februar 1888 reiste er ins südfranzösische Arles; dort malte er in kurzer Zeit zahlreiche Bilder, darunter die bekannten Sonnenblumenbilder. Seine Gemälde entstanden überwiegend in den letzten zehn seiner 37 Lebensjahre. Nach dem Wissensstand von 2021 hinterließ er über 900 Gemälde und über 1000 Zeichnungen. Zu Lebzeiten konnte er nur ein Bild verkaufen, an die Künstlerin Anna Boch; seit den 1980er Jahren erzielen seine Werke bei Auktionen Rekordpreise. Er starb am 29. Juli 1890 in Auvers-sur-Oise.",
+    "video_url": "/clips/v-person-vangogh.mp4",
+    "thumbnail_url": "/clips/v-person-vangogh.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1853 in den Niederlanden.",
+      "1888 in Arles entstanden die Sonnenblumenbilder.",
+      "Über 900 Gemälde – verkauft hat er zu Lebzeiten nur eines."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Vincent van Gogh",
+        "url": "https://de.wikipedia.org/wiki/Vincent_van_Gogh"
+      }
+    ],
+    "published_at": "2026-10-19T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "quiz_question_id": "q-v-person-vangogh",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-vangogh",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Vincent van Gogh: just one painting sold",
+        "hook": "Van Gogh sold only one painting in his lifetime – today his works fetch record prices.",
+        "description": "Vincent van Gogh was born in Groot-Zundert on 30 March 1853. He is regarded as one of the founders of modern painting. On 19 February 1888 he travelled to Arles in the south of France, where he painted many pictures in a short time, among them the famous sunflower paintings. Most of his paintings were made in the last ten of his 37 years. As of 2021 he is known to have left more than 900 paintings and more than 1,000 drawings. In his lifetime he was able to sell only one painting, to the artist Anna Boch; since the 1980s his works have fetched record prices at auction. He died in Auvers-sur-Oise on 29 July 1890.",
+        "captions": [
+          "Born in the Netherlands in 1853.",
+          "In Arles in 1888 he painted the sunflowers.",
+          "Over 900 paintings – he sold only one in his lifetime."
+        ],
+        "file": "/clips/v-person-vangogh.en.mp4",
+        "poster": "/clips/v-person-vangogh.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-owens",
+    "category_id": "sport",
+    "title": "Jesse Owens: fünf Weltrekorde in 45 Minuten",
+    "hook": "An einem einzigen Nachmittag im Mai 1935 stellte Jesse Owens innerhalb von 45 Minuten fünf neue Weltrekorde auf.",
+    "description": "Jesse Owens wurde am 12. September 1913 in Oakville in Alabama geboren; den Spitznamen „Jesse“ bekam er von einer Lehrerin, die seinen Akzent nicht verstand, als er sagte, man nenne ihn J. C. Am 25. Mai 1935 stellte er in Ann Arbor innerhalb von 45 Minuten fünf neue Weltrekorde auf und stellte einen weiteren ein. Seine Weitsprung-Weltrekordweite von 8,13 Metern wurde erst am 12. August 1960 übertroffen. Bei den Olympischen Spielen 1936 in Berlin gewann er vier Goldmedaillen und war damit der erfolgreichste Athlet. Owens starb am 31. März 1980 in Tucson.",
+    "video_url": "/clips/v-person-owens.mp4",
+    "thumbnail_url": "/clips/v-person-owens.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1913 in Alabama.",
+      "1935: fünf neue Weltrekorde in 45 Minuten.",
+      "1936 gewann er vier olympische Goldmedaillen."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Jesse Owens",
+        "url": "https://de.wikipedia.org/wiki/Jesse_Owens"
+      }
+    ],
+    "published_at": "2026-10-18T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Olympia"
+    ],
+    "quiz_question_id": "q-v-person-owens",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-owens",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Jesse Owens: five world records in 45 minutes",
+        "hook": "On a single afternoon in May 1935 Jesse Owens set five new world records within 45 minutes.",
+        "description": "Jesse Owens was born in Oakville, Alabama, on 12 September 1913; he got the nickname \"Jesse\" from a teacher who did not understand his accent when he said he was called J. C. On 25 May 1935 in Ann Arbor he set five new world records within 45 minutes and equalled another. His long jump world record of 8.13 metres was only beaten on 12 August 1960. At the 1936 Olympic Games in Berlin he won four gold medals, making him the most successful athlete. Owens died in Tucson on 31 March 1980.",
+        "captions": [
+          "Born in Alabama in 1913.",
+          "1935: five new world records in 45 minutes.",
+          "In 1936 he won four Olympic gold medals."
+        ],
+        "file": "/clips/v-person-owens.en.mp4",
+        "poster": "/clips/v-person-owens.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-hopper",
+    "category_id": "technology",
+    "title": "Grace Hopper: Programme in verständlicher Sprache",
+    "hook": "Grace Hopper wollte Programme in verständlicher Sprache schreiben statt in Einsen und Nullen – und entwickelte 1952 den ersten Compiler.",
+    "description": "Grace Hopper wurde am 9. Dezember 1906 in New York City geboren. Mit dem 1944 fertiggestellten Computer Mark I führte sie an der Harvard University mathematische Berechnungen durch. Ende der 1940er Jahre kam sie auf die Idee, Computerprogramme in einer verständlichen Sprache zu verfassen statt nur mit Einsen und Nullen. 1952 entwickelte sie den ersten Compiler (A-0). Mit der Programmiersprache FLOW-MATIC und dem zugehörigen Compiler (1957) leistete sie wesentliche Vorarbeiten für die Programmiersprache COBOL. Grace Hopper starb am 1. Januar 1992.",
+    "video_url": "/clips/v-person-hopper.mp4",
+    "thumbnail_url": "/clips/v-person-hopper.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1906 in New York City.",
+      "Ab 1944 rechnete sie am Computer Mark I.",
+      "1952 entwickelte sie den ersten Compiler."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Grace Hopper",
+        "url": "https://de.wikipedia.org/wiki/Grace_Hopper"
+      }
+    ],
+    "published_at": "2026-10-17T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Computer"
+    ],
+    "quiz_question_id": "q-v-person-hopper",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-hopper",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Grace Hopper: programs in plain language",
+        "hook": "Grace Hopper wanted to write programs in understandable language instead of ones and zeros – and developed the first compiler in 1952.",
+        "description": "Grace Hopper was born in New York City on 9 December 1906. With the Mark I computer, completed in 1944, she carried out mathematical calculations at Harvard University. In the late 1940s she had the idea of writing computer programs in an understandable language instead of only ones and zeros. In 1952 she developed the first compiler (A-0). With the programming language FLOW-MATIC and its compiler (1957) she laid important groundwork for the programming language COBOL. Grace Hopper died on 1 January 1992.",
+        "captions": [
+          "Born in New York City in 1906.",
+          "From 1944 she calculated on the Mark I computer.",
+          "In 1952 she developed the first compiler."
+        ],
+        "file": "/clips/v-person-hopper.en.mp4",
+        "poster": "/clips/v-person-hopper.en.jpg"
+      }
+    }
   }
 ]

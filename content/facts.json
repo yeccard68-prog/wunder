@@ -2427,5 +2427,166 @@
         "detail": "Pianoforte combines the Italian words for “soft” and “loud”. On the piano, striking the keys with different force produces large differences in volume, unlike on older keyboard instruments."
       }
     }
+  },
+  {
+    "id": "f-steingeld-yap",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Auf den Yap-Inseln war Geld ein Stein – manchmal über fünf Tonnen schwer.",
+    "detail": "Die Steinscheiben hatten bis zu 4 Meter Durchmesser und kamen von Palau, etwa 400 Kilometer entfernt. Wegen des Gewichts ließ man sie nach einem Besitzerwechsel einfach liegen; wem ein Stein gehörte, merkte man sich.",
+    "sources": [
+      {
+        "name": "Wikipedia: Steingeld",
+        "url": "https://de.wikipedia.org/wiki/Steingeld"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "On the Yap islands, money was a stone – sometimes weighing more than five tonnes.",
+        "detail": "The stone discs were up to 4 metres across and came from Palau, about 400 kilometres away. Because of their weight they were simply left where they were when the owner changed; people just remembered who owned which stone."
+      }
+    }
+  },
+  {
+    "id": "f-nintendo-karten",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Nintendo hat 1889 mit Spielkarten angefangen – nicht mit Videospielen.",
+    "detail": "Gegründet wurde die Firma am 23. September 1889 in Kyōto von Fusajirō Yamauchi; sie stellte zuerst japanische Hanafuda-Karten her. In den Videospielmarkt stieg sie erst in den 1970er Jahren ein.",
+    "sources": [
+      {
+        "name": "Wikipedia: Nintendo",
+        "url": "https://de.wikipedia.org/wiki/Nintendo"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Nintendo started in 1889 with playing cards – not video games.",
+        "detail": "The company was founded on 23 September 1889 in Kyoto by Fusajirō Yamauchi and first made Japanese Hanafuda cards. It only entered the video game market in the 1970s."
+      }
+    }
+  },
+  {
+    "id": "f-gutenberg-bibel",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Von Gutenbergs berühmter Bibel wurden nur rund 180 Stück gedruckt.",
+    "detail": "Etwa 150 davon entstanden auf Papier und rund 30 auf Pergament. Gedruckt wurde sie zwischen 1452 und 1454 in Mainz, mit Hilfe von etwa 20 Mitarbeitern.",
+    "sources": [
+      {
+        "name": "Wikipedia: Gutenberg-Bibel",
+        "url": "https://de.wikipedia.org/wiki/Gutenberg-Bibel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Only about 180 copies of Gutenberg's famous Bible were printed.",
+        "detail": "About 150 of them were made on paper and around 30 on parchment. It was printed between 1452 and 1454 in Mainz, with the help of about 20 co-workers."
+      }
+    }
+  },
+  {
+    "id": "f-okay-1839",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "„OK“ begann als Abkürzung einer absichtlich falsch geschriebenen Wendung.",
+    "detail": "Die früheste bekannte Verwendung steht in der Boston Morning Post vom 23. März 1839. „O. K.“ stand dort für „oll korrekt“, eine absichtlich falsch geschriebene Form von „all correct“ – das war damals Mode.",
+    "sources": [
+      {
+        "name": "Wikipedia: Okay",
+        "url": "https://de.wikipedia.org/wiki/Okay"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "“OK” began as an abbreviation of a deliberately misspelled phrase.",
+        "detail": "The earliest known use appears in the Boston Morning Post of 23 March 1839. “O.K.” stood for “oll korrect”, a deliberately misspelled form of “all correct” – that was fashionable at the time."
+      }
+    }
+  },
+  {
+    "id": "f-pingpong-marke",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "„Ping-Pong“ ist eigentlich eine eingetragene Handelsmarke.",
+    "detail": "Die Spielefirma Parker Brothers kaufte den Namen 1901 und ließ ihn schützen. Die Bälle waren früher aus Zelluloid; heute sind sie aus Kunststoff.",
+    "sources": [
+      {
+        "name": "Wikipedia: Tischtennis",
+        "url": "https://de.wikipedia.org/wiki/Tischtennis"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "“Ping-Pong” is actually a registered trademark.",
+        "detail": "The game company Parker Brothers bought the name in 1901 and had it protected. Table tennis balls used to be made of celluloid; today they are plastic."
+      }
+    }
+  },
+  {
+    "id": "f-cheops-hoechstes",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Die Cheops-Pyramide war rund 4.000 Jahre lang das höchste Bauwerk der Welt.",
+    "detail": "Ursprünglich war sie etwa 146,59 Meter hoch. Weil spätere Generationen sie als Steinbruch nutzten, misst sie heute nur noch 138,75 Meter.",
+    "sources": [
+      {
+        "name": "Wikipedia: Cheops-Pyramide",
+        "url": "https://de.wikipedia.org/wiki/Cheops-Pyramide"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The Great Pyramid of Khufu was the tallest structure in the world for about 4,000 years.",
+        "detail": "Originally it was about 146.59 metres high. Because later generations used it as a quarry, it is only 138.75 metres tall today."
+      }
+    }
+  },
+  {
+    "id": "f-nintendo-taxi",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Nintendo hat zwischendurch Instant-Reis ausprobiert – und ein Taxiunternehmen.",
+    "detail": "Als die Umsätze mit Spielkarten zurückgingen, suchte die Firma nach neuen Geschäftszweigen. Am Ende besann sie sich wieder auf ihr Kerngeschäft. Der Name bedeutet nach Firmenangabe „Lege das Glück in die Hände des Himmels“.",
+    "sources": [
+      {
+        "name": "Wikipedia: Nintendo",
+        "url": "https://de.wikipedia.org/wiki/Nintendo"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Nintendo once tried instant rice – and a taxi company.",
+        "detail": "When playing card sales declined, the company looked for new lines of business. In the end it returned to its core business. According to the company, the name means “leave luck to heaven”."
+      }
+    }
   }
 ]
