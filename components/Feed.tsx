@@ -16,6 +16,7 @@ import { categoryById } from "@/lib/categories";
 import { captionAt, type Clip } from "@/lib/content";
 import { entryContentIds, entryId, entryTopic, type FeedEntry } from "@/lib/feed";
 import FactCard from "./FactCard";
+import StudyCard from "./StudyCard";
 import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
@@ -197,6 +198,7 @@ function Entry({ entry, fill }: { entry: FeedEntry; fill?: boolean }) {
   if (entry.kind === "fact") return <FactCard fact={entry.fact} />;
   if (entry.kind === "series") return <SeriesCard area={entry.area} facts={entry.facts} />;
   if (entry.kind === "day") return <DayCard event={entry.event} />;
+  if (entry.kind === "study") return <StudyCard study={entry.study} />;
   if (entry.kind === "pause") return <PauseCard />;
   if (entry.kind === "item") return <KnowledgeCard item={entry.item} reason={t(entry.reason, entry.vars)} />;
   if (entry.kind === "clip") return <ClipCard clip={entry.clip} fill={fill} />;

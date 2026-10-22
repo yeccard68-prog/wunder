@@ -1,0 +1,234 @@
+[
+  {
+    "id": "s-marshmallow",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1968,
+    "name": "Marshmallow-Test",
+    "question": "Können Kinder auf eine kleine Belohnung verzichten, um später eine größere zu bekommen – und sagt das etwas über ihr späteres Leben?",
+    "method": "Ab 1968 setzte der Psychologe Walter Mischel etwa vierjährige Vorschulkinder einzeln vor einen Marshmallow. Der Versuchsleiter verließ den Raum: Wer die Glocke läutete, bekam sofort einen Marshmallow, wer wartete, bis er von selbst zurückkam (gewöhnlich nach 15 Minuten), bekam zwei.",
+    "result": "Die Kinder warteten im Durchschnitt etwa 6 bis 10 Minuten, die Werte streuten aber stark. Wer länger gewartet hatte, wurde später als Heranwachsender als kompetenter in Schule und Umgang mit anderen beschrieben.",
+    "caveat": "Aber eine Wiederholung aus dem Jahr 2018 mit 900 Kindern aus ganz unterschiedlichen Elternhäusern fand nur einen halb so großen Zusammenhang, und zwei Drittel davon ließen sich durch den Bildungshintergrund der Familie erklären.",
+    "sources": [
+      {
+        "name": "Wikipedia: Marshmallow-Test",
+        "url": "https://de.wikipedia.org/wiki/Marshmallow-Test"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T12:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The marshmallow test",
+        "question": "Can children give up a small reward to get a bigger one later – and does that say anything about their later life?",
+        "method": "Starting in 1968, the psychologist Walter Mischel sat preschoolers of about four years old alone in front of a marshmallow. The experimenter left the room: a child who rang the bell got one marshmallow right away, and a child who waited until he came back by himself (usually after 15 minutes) got two.",
+        "result": "On average the children waited about 6 to 10 minutes, but the times varied a lot. Children who had waited longer were later described, as teenagers, as more capable at school and with other people.",
+        "caveat": "But a repeat from 2018 with 900 children from much more varied family backgrounds found a link only half as strong, and two thirds of it could be explained by the family's educational background."
+      }
+    }
+  },
+  {
+    "id": "s-asch",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1951,
+    "name": "Asch-Experiment (Linien und Gruppendruck)",
+    "question": "Schließen sich Menschen der Gruppe an, auch wenn die richtige Antwort eindeutig ist?",
+    "method": "Der Psychologe Solomon Asch veröffentlichte die Studienreihe 1951. Eine echte Versuchsperson saß mit sechs bis neun anderen im Raum und sollte sagen, welche von drei Linien so lang ist wie eine Referenzlinie – doch die anderen waren eingeweiht und gaben in zwölf von 18 Durchgängen einstimmig eine falsche Antwort.",
+    "result": "76 % der Versuchspersonen folgten mindestens einmal dem falschen Urteil der Gruppe. Im Durchschnitt passten sie sich bei etwa einem Drittel der manipulierten Durchgänge an, und nur ein Viertel machte nie einen Fehler.",
+    "caveat": "Aber es wurde kritisiert, dass die Teilnehmer keinen Anreiz hatten, richtig zu antworten. In einer Wiederholung mit Schweizer Studierenden aus dem Jahr 2024 sank die Anpassung zwar, als richtige Antworten Geld brachten, blieb mit 25 % aber erheblich.",
+    "sources": [
+      {
+        "name": "Wikipedia: Asch-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Asch-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T11:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Asch experiment (lines and group pressure)",
+        "question": "Do people go along with a group even when the right answer is clear?",
+        "method": "The psychologist Solomon Asch published this series of studies in 1951. One real participant sat in a room with six to nine others and had to say which of three lines was as long as a reference line – but the others were in on it and, in twelve of 18 rounds, all gave the same wrong answer.",
+        "result": "76% of the participants followed the group's wrong answer at least once. On average they went along in about a third of the rigged rounds, and only a quarter never made a mistake.",
+        "caveat": "But critics said the participants had no reason to answer correctly. In a repeat with Swiss students from 2024, conformity dropped when correct answers earned money, but it stayed considerable at 25%."
+      }
+    }
+  },
+  {
+    "id": "s-milgram",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1961,
+    "name": "Milgram-Experiment (Gehorsam)",
+    "question": "Wie weit gehen ganz normale Menschen, wenn eine Autorität es verlangt – auch gegen ihr Gewissen?",
+    "method": "Der Psychologe Stanley Milgram ließ ab 1961 in New Haven 40 Versuchspersonen als „Lehrer“ einem „Schüler“ bei Fehlern in Wortpaaren elektrische Schläge geben, nach jedem Fehler 15 Volt stärker. Versuchsleiter und „Schüler“ waren Schauspieler, die Schläge waren nicht echt.",
+    "result": "26 der 40 Versuchspersonen gingen bis zur höchsten Spannung von 450 Volt, nur 14 brachen vorher ab; viele empfanden dabei einen starken Gewissenskonflikt. War der Versuchsleiter nicht im Raum, fiel der Gehorsam auf ein Drittel.",
+    "caveat": "Aber die Studie ist umstritten: Es gab von Anfang an ethische Kritik, und die Psychologin Gina Perry fand in Archiven heraus, dass sich Milgrams Veröffentlichungen deutlich von seinen persönlichen Aufzeichnungen unterschieden.",
+    "sources": [
+      {
+        "name": "Wikipedia: Milgram-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Milgram-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T10:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Milgram experiment (obedience)",
+        "question": "How far do completely ordinary people go when an authority demands it – even against their conscience?",
+        "method": "Starting in 1961 in New Haven, the psychologist Stanley Milgram had 40 participants act as \"teachers\" and give a \"learner\" electric shocks for mistakes in word pairs, 15 volts stronger after each mistake. The experimenter and the \"learner\" were actors, and the shocks were not real.",
+        "result": "26 of the 40 participants went all the way to the highest voltage of 450 volts and only 14 stopped earlier; many felt a strong conflict of conscience. When the experimenter was not in the room, obedience fell to a third.",
+        "caveat": "But the study is controversial: it faced ethical criticism from the start, and the psychologist Gina Perry found in the archives that Milgram's publications differed clearly from his personal notes."
+      }
+    }
+  },
+  {
+    "id": "s-stanford-prison",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1971,
+    "name": "Stanford-Prison-Experiment",
+    "question": "Wie verhalten sich Menschen unter den Bedingungen von Gefangenschaft?",
+    "method": "1971 richteten Philip Zimbardo und sein Team im Keller der Stanford University ein Scheingefängnis ein. 24 ausgewählte Studenten wurden durch Münzwurf zufällig in Wärter und Gefangene eingeteilt.",
+    "result": "Das Experiment geriet schnell außer Kontrolle: Einige Wärter zeigten sadistische Verhaltensweisen, vier Gefangene erlitten emotionale Zusammenbrüche. Nach nur sechs Tagen statt der geplanten zwei Wochen wurde es abgebrochen.",
+    "caveat": "Aber Teilnehmer sagten später, sie seien zu besonders strengem Verhalten gedrängt worden. Als britische Forscher es 2001 für die BBC ohne solche Vorgaben wiederholten, kam es zu Solidarität statt Eskalation – und das Original bestand nur aus einem einzigen mehrtägigen Ablauf.",
+    "sources": [
+      {
+        "name": "Wikipedia: Stanford-Prison-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Stanford-Prison-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T09:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Stanford prison experiment",
+        "question": "How do people behave under the conditions of imprisonment?",
+        "method": "In 1971, Philip Zimbardo and his team set up a mock prison in the basement of Stanford University. 24 selected students were randomly split into guards and prisoners by a coin toss.",
+        "result": "The experiment quickly got out of control: some guards showed sadistic behavior and four prisoners suffered emotional breakdowns. It was stopped after only six days instead of the planned two weeks.",
+        "caveat": "But participants later said they had been pushed to behave especially strictly. When British researchers repeated it for the BBC in 2001 without such instructions, the result was solidarity instead of escalation – and the original consisted of just one run lasting several days."
+      }
+    }
+  },
+  {
+    "id": "s-dunning-kruger",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1999,
+    "name": "Dunning-Kruger-Effekt",
+    "question": "Schätzen Menschen, die in etwas weniger gut sind, ihr eigenes Können falsch ein?",
+    "method": "Die Sozialpsychologen David Dunning und Justin Kruger hatten bemerkt, dass Unwissenheit etwa beim Schachspielen oder Autofahren oft zu mehr Selbstvertrauen führt als Wissen. An der Cornell University prüften sie das in weiteren Experimenten.",
+    "result": "1999 kamen sie zu dem Ergebnis, dass weniger kompetente Personen ihre Fähigkeiten überschätzen und überlegene Fähigkeiten bei anderen nicht erkennen. Wer sich durch Übung verbesserte, schätzte sich und andere genauer ein.",
+    "caveat": "Aber neuere Forschung hält den Effekt für schwächer als gedacht: Er lässt sich sogar mit zufällig erzeugten Daten hervorbringen, und in einer neueren Studie schätzten fast 80 % der am wenigsten kompetenten Teilnehmer ihr Können recht gut ein.",
+    "sources": [
+      {
+        "name": "Wikipedia: Dunning-Kruger-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Dunning-Kruger-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T08:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Dunning-Kruger effect",
+        "question": "Do people who are less good at something misjudge their own ability?",
+        "method": "The social psychologists David Dunning and Justin Kruger had noticed that ignorance, for example in chess or driving, often leads to more self-confidence than knowledge does. At Cornell University they tested this in further experiments.",
+        "result": "In 1999 they concluded that less competent people overestimate their abilities and do not recognize superior abilities in others. People who improved through practice judged themselves and others more accurately.",
+        "caveat": "But newer research thinks the effect is weaker than assumed: it can even be produced with randomly generated data, and in one newer study almost 80% of the least competent participants judged their ability quite well."
+      }
+    }
+  },
+  {
+    "id": "s-pygmalion",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1965,
+    "name": "Pygmalion-Effekt (Rosenthal und Jacobson)",
+    "question": "Werden Schüler besser, wenn ihre Lehrer glauben, dass sie besonders begabt sind?",
+    "method": "1965 untersuchten die Psychologen Robert Rosenthal und Lenore Jacobson an einer Grundschule, wie Lehrer und Schüler sich beeinflussen. Den Lehrern wurde gesagt, ein Test zeige, welche 20 Prozent der Kinder kurz vor einem Entwicklungsschub stünden – in Wirklichkeit wurden sie per Los ausgewählt. Nach acht Monaten wurde der IQ-Test wiederholt.",
+    "result": "Nach einem Jahr hatten die vermeintlichen „Aufblüher“ ihren IQ viel stärker gesteigert als die anderen Kinder. Insgesamt 45 Prozent von ihnen legten 20 oder mehr IQ-Punkte zu.",
+    "caveat": "Aber der Psychologe Robert Thorndike kritisierte, die IQ-Tests seien für jüngere Kinder nicht geeignet. Ohne fünf Schüler mit unglaubwürdig hohen Zugewinnen verschwindet der Effekt, und eine Metastudie zeigt, dass er insgesamt schwach ist.",
+    "sources": [
+      {
+        "name": "Wikipedia: Pygmalion-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Pygmalion-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T07:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Pygmalion effect (Rosenthal and Jacobson)",
+        "question": "Do pupils get better when their teachers believe they are especially gifted?",
+        "method": "In 1965, the psychologists Robert Rosenthal and Lenore Jacobson studied at a primary school how teachers and pupils influence each other. The teachers were told that a test showed which 20 percent of the children were about to make a developmental leap – in reality they were picked by lot. After eight months the IQ test was repeated.",
+        "result": "After a year, the supposed \"bloomers\" had raised their IQ much more than the other children. In total, 45 percent of them gained 20 or more IQ points.",
+        "caveat": "But the psychologist Robert Thorndike criticized that the IQ tests were not suitable for younger children. Without five pupils with unbelievably high gains the effect disappears, and a meta-study shows the effect is weak overall."
+      }
+    }
+  },
+  {
+    "id": "s-hawthorne",
+    "category_id": "economy",
+    "min_age": 10,
+    "year": 1924,
+    "name": "Hawthorne-Studien (Licht in der Fabrik)",
+    "question": "Arbeiten Menschen besser, wenn das Licht am Arbeitsplatz besser wird?",
+    "method": "Zwischen 1924 und 1933 untersuchten Forschende in der Hawthorne-Fabrik der Western Electric Company in Cicero (USA), wie sich die Arbeitsleistung steigern lässt. Zuerst veränderten sie die Lichtverhältnisse für eine Gruppe, während eine Kontrollgruppe bei unverändertem Licht arbeitete.",
+    "result": "Die Leistung stieg in der Gruppe mit besserem Licht – aber auch in der Kontrollgruppe, und sie blieb sogar erhöht, als das Licht wieder wie vorher war. Die Forscher schlossen daraus, dass schon das Bewusstsein, beobachtet zu werden, die Leistung steigerte.",
+    "caveat": "Aber spätere Prüfungen zeigten, dass die Teilnehmenden höhere Löhne und ständige Leistungsrückmeldungen erhielten; man drohte ihnen sogar, sie an ihre alten Arbeitsplätze zurückzuschicken. Die erneute Prüfung der Daten ergab, dass Lohnanreize wichtiger waren und soziale Faktoren weniger, als die Forscher damals einschätzten.",
+    "sources": [
+      {
+        "name": "Wikipedia: Hawthorne-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Hawthorne-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T06:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Hawthorne studies (light in the factory)",
+        "question": "Do people work better when the light at their workplace gets better?",
+        "method": "Between 1924 and 1933, researchers at the Hawthorne factory of the Western Electric Company in Cicero (USA) studied how work performance can be increased. First they changed the lighting for one group, while a control group worked under unchanged light.",
+        "result": "Performance rose in the group with better light – but also in the control group, and it even stayed up when the light went back to how it was. The researchers concluded that simply knowing they were being observed raised performance.",
+        "caveat": "But later checks showed that the participants received higher pay and constant performance feedback; they were even threatened with being sent back to their old jobs. Re-examining the data showed that pay incentives mattered more, and social factors less, than the researchers estimated at the time."
+      }
+    }
+  },
+  {
+    "id": "s-bystander-smoke",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1970,
+    "name": "Rauchstudie zum Zuschauereffekt (Latané und Darley)",
+    "question": "Melden Menschen ein Problem seltener, wenn andere dabei sind, die nichts tun?",
+    "method": "Latané und Darley ließen 1970 Rauch durch einen Türspalt in einen Raum dringen. Die Versuchspersonen saßen dort entweder allein, mit zwei weiteren Teilnehmern oder mit zwei Strohmännern, die den Rauch ignorierten.",
+    "result": "Allein meldeten 75 % den Rauch, mit zwei weiteren Teilnehmern nur noch 38 %. Mit den zwei Strohmännern, die den Rauch ignorierten, meldeten ihn nur 10 % der Versuchspersonen.",
+    "caveat": "Aber der Zuschauereffekt gilt nicht immer: In gefährlichen Situationen fällt er geringer aus oder fehlt ganz. Eine Untersuchung von 2019 mit 219 Kameraaufnahmen fand, dass in 91 % der Fälle Zuschauende eingriffen – und neuere Studien stellen den Effekt sogar grundsätzlich in Frage.",
+    "sources": [
+      {
+        "name": "Wikipedia: Zuschauereffekt",
+        "url": "https://de.wikipedia.org/wiki/Zuschauereffekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-22T05:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The smoke study on the bystander effect (Latané and Darley)",
+        "question": "Do people report a problem less often when others are present who do nothing?",
+        "method": "In 1970, Latané and Darley let smoke seep into a room through a gap under a door. The participants sat there either alone, with two other participants, or with two stooges who ignored the smoke.",
+        "result": "Alone, 75% reported the smoke; with two other participants only 38% did. With the two stooges who ignored the smoke, only 10% of the participants reported it.",
+        "caveat": "But the bystander effect does not always hold: in dangerous situations it is weaker or missing altogether. A 2019 study of 219 camera recordings found that bystanders stepped in in 91% of cases – and newer studies even question the effect altogether."
+      }
+    }
+  }
+]

@@ -23,7 +23,7 @@ y.eccard68@gmail.com. Die geplante Aufgabe `wunder-hinweise` läuft täglich und
    `select id, kind, content_id, reason, note, locale, created_at from public.content_hints where resolved_at is null order by created_at;`
    Keine offenen Hinweise → Protokollzeile „keine offenen Hinweise“ ist nicht nötig, einfach beenden.
 2. Inhalt finden (`kind`): `question` → `content/questions.json` (+ Datenbank), `video` → `content/videos.json`
-   (+ Datenbank), `fact` → `content/facts.json` oder `content/days.json` (IDs `d-…`), `animation` → `content/animations.json`,
+   (+ Datenbank), `fact` → `content/facts.json`, `content/days.json` (IDs `d-…`) oder `content/studies.json` (IDs `s-…`), `animation` → `content/animations.json`,
    `book` → `content/books.json`, `visual` → die interaktiven Grafiken (`content/visuals.json` bzw. `lib/visuals*`).
    Mehrere Hinweise zum selben Inhalt gemeinsam behandeln.
 3. Prüfen, je nach `reason`:

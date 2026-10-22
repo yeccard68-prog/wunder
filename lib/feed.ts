@@ -11,6 +11,7 @@ import type { Clip } from "./content";
 import { mediaEvery, PAUSE_AFTER, spreadTopics, formatEngagement, type EntryKind } from "./engagement";
 import type { DayEvent } from "./days";
 import type { Fact } from "./facts";
+import type { Study } from "./studies";
 import { withSeries } from "./series";
 import type { Ranked } from "./ranking";
 import type { UserState } from "./types";
@@ -26,21 +27,24 @@ export type FeedEntry =
   | { kind: "fact"; fact: Fact }
   | { kind: "series"; id: string; area: Fact["area"]; facts: Fact[] }
   | { kind: "day"; event: DayEvent }
+  | { kind: "study"; study: Study }
   | { kind: "pause"; id: string };
 
 export const entryId = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "pause" ? e.id : e.idea.id;
+  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "study" ? e.study.id : e.kind === "pause" ? e.id : e.idea.id;
 /** Every content id an entry shows (a series shows three facts) – all of them count as seen. */
 export const entryContentIds = (e: FeedEntry) => (e.kind === "series" ? e.facts.map((f) => f.id) : [entryId(e)]);
 /** Topic of an entry (for the signals and for spreading topics). */
 export const entryTopic = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "insight" ? e.book.topicId : "";
+  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "study" ? e.study.categoryId : e.kind === "insight" ? e.book.topicId : "";
 export const asEntries = (ranked: Ranked[]): FeedEntry[] => ranked.map((r) => ({ kind: "item", ...r }));
 
 /** Default number of cards between two things to watch (adapted per learner by mediaEvery). */
 export const MEDIA_EVERY = 3;
 /** A fact after this many question cards. */
 export const FACT_EVERY = 3;
+/** A "Studie kurz erklärt" after this many question cards (longer reads, so less often than facts). */
+export const STUDY_EVERY = 7;
 
 type Media = Extract<FeedEntry, { kind: "clip" | "animation" | "insight" | "visual" }>;
 
@@ -49,7 +53,7 @@ type Media = Extract<FeedEntry, { kind: "clip" | "animation" | "insight" | "visu
  * on screen moves back, and what is done (clip watched, question answered, visualisation tried) comes last. The
  * check question of an animation is shown with the animation, not a second time as a card of its own.
  */
-export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[], state: UserState, insights: Insight[] = [], visuals: Visual[] = [], facts: Fact[] = [], days: DayEvent[] = []): FeedEntry[] {
+export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[], state: UserState, insights: Insight[] = [], visuals: Visual[] = [], facts: Fact[] = [], days: DayEvent[] = [], studies: Study[] = []): FeedEntry[] {
   const hidden = new Set(state.hidden);
   // new first; seen but not done next; done last – each seen longest ago first (lib/seen.ts)
   const clipQueue = freshFirst(clips.filter((c) => !hidden.has(c.id)), (c) => c.id, state, (c) => (state.clipStats[c.id]?.completed ?? 0) > 0);
@@ -58,6 +62,7 @@ export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[]
   const visualQueue = freshFirst(visuals, (v) => v.id, state, (v) => (state.visuals ?? []).includes(v.id));
   // facts (already ranked) – every few a theme series of three from one area
   const factQueue: FeedEntry[] = withSeries(facts).map((u) => (u.kind === "fact" ? u : { kind: "series", id: `series-${u.facts.map((f) => f.id).join("+")}`, area: u.area, facts: u.facts }));
+  const studyQueue = freshFirst(studies, (s) => s.id, state);
   const withAnimation = new Set(animQueue.map((a) => a.quizId));
 
   // 1. the stream of cards: questions with a fact after every few, topics spread out
@@ -65,8 +70,9 @@ export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[]
   ranked.filter((r) => !withAnimation.has(r.item.id)).forEach((r, i) => {
     stream.push({ kind: "item", ...r });
     if ((i + 1) % FACT_EVERY === 0 && factQueue.length) stream.push(factQueue.shift()!);
+    if ((i + 1) % STUDY_EVERY === 0 && studyQueue.length) stream.push({ kind: "study", study: studyQueue.shift()! });
   });
-  stream.push(...factQueue);
+  stream.push(...factQueue, ...studyQueue.map((study): FeedEntry => ({ kind: "study", study })));
   // "Heute vor … Jahren": today's event as the second card, unless it was seen already
   const day = days.find((d) => state.seen?.[d.id] === undefined);
   if (day) stream.splice(Math.min(1, stream.length), 0, { kind: "day", event: day });

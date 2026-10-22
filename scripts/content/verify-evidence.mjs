@@ -89,6 +89,43 @@ if (batch.events) {
   process.exit(bad ? 1 : 0);
 }
 
+// "Studie kurz erklärt" batches export `studies`: { id, category, minAge, year, name, sources, de: { question, method,
+// result, caveat }, en: { … } }. Every part needs quotes from a linked article; the caveat ("Aber …") is required –
+// a study without its limits is not explained. Every year in the texts (and the study year) must be quoted.
+if (batch.studies) {
+  const existingStudies = fs.existsSync("content/studies.json") ? JSON.parse(fs.readFileSync("content/studies.json", "utf8")) : [];
+  const isNewStudyFile = !existingStudies.some((s) => batch.studies.some((b) => b.id === s.id));
+  let bad = 0;
+  for (const s of batch.studies) {
+    const problems = [];
+    const quotes = evidence[s.id] ?? [];
+    if (!/^s-[a-z0-9-]+$/.test(s.id)) problems.push(`id "${s.id}" must look like s-name`);
+    if (isNewStudyFile && existingStudies.some((x) => x.id === s.id)) problems.push(`id ${s.id} already exists`);
+    if (!CATEGORIES.includes(s.category)) problems.push(`category "${s.category}" is not one of ${CATEGORIES.join(", ")}`);
+    if (![6, 10, 13, 16].includes(s.minAge)) problems.push("minAge must be 6, 10, 13 or 16");
+    if (!Number.isInteger(s.year) || s.year > new Date().getFullYear()) problems.push(`year ${s.year} must be a past year`);
+    for (const l of ["de", "en"]) for (const k of ["question", "method", "result", "caveat"]) if (!(typeof s[l]?.[k] === "string" && s[l][k].trim().length > 15)) problems.push(`${l}.${k} missing`);
+    if (!s.name?.de || !s.name?.en) problems.push("name.de / name.en missing");
+    if (!quotes.length) problems.push("no evidence");
+    const linked = new Set(s.sources.map((x) => decodeURIComponent(x.url.split("/wiki/")[1] ?? "").replaceAll("_", " ")));
+    for (const q of quotes) {
+      const [lang, title, ...rest] = q.split("|");
+      const quote = rest.join("|");
+      if (!linked.has(title.replaceAll("_", " "))) problems.push(`"${title}" is not among the study's sources`);
+      if (quote.trim().split(/\s+/).length < 3) problems.push(`quote too short: "${quote}"`);
+      const t = await article(lang, title);
+      if (t === null) problems.push(`article not found: ${lang}|${title}`);
+      else if (!t.includes(norm(quote))) problems.push(`not in ${title}: "${quote}"`);
+    }
+    const shown = [s.name.de, ...Object.values(s.de), String(s.year)].join(" ");
+    const quoted = quotes.join(" ");
+    for (const year of new Set(shown.match(/\b1\d{3}\b|\b20\d\d\b/g) ?? [])) if (!quoted.includes(year)) problems.push(`year ${year} is shown but not quoted`);
+    if (problems.length) { bad++; console.log(`FAIL ${s.id}\n  - ${problems.join("\n  - ")}`); } else console.log(`ok   ${s.id} (${quotes.length} quotes)`);
+  }
+  console.log(`${batch.studies.length - bad} of ${batch.studies.length} studies confirmed.`);
+  process.exit(bad ? 1 : 0);
+}
+
 // clip batches (own clips, e.g. the "Persönlichkeiten" timelines): every quote must be in a linked article, and every
 // year that the clip shows or names (people.ts stations, title, texts, captions, quiz) must appear in one of the quotes
 if (batch.videos) {

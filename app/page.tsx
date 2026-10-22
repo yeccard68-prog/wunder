@@ -9,6 +9,7 @@ import { rankClips } from "@/lib/clips";
 import { mixFeed } from "@/lib/feed";
 import { eventsFor } from "@/lib/days";
 import { factsFor, rankFacts } from "@/lib/facts";
+import { studiesFor } from "@/lib/studies";
 import { visualsFor } from "@/lib/visuals";
 import { rankForYou } from "@/lib/ranking";
 import { useStore, useT } from "@/lib/store";
@@ -30,7 +31,7 @@ export default function HomePage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const facts = useMemo(() => factsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand)), [forYou, clips, animations, books, visuals, facts]);
+  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand)), [forYou, clips, animations, books, visuals, facts]);
 
   if (!feed.length)
     return (

@@ -75,3 +75,13 @@ Achtung: Auch Tagesartikel irren – Ortsangaben und Zahlen, die einem bekannten
 Ereignis gegenprüfen (Beispiel: Radiosender KDKA sitzt in Pittsburgh, nicht in Philadelphia).
 Prüfen: `node scripts/content/verify-evidence.mjs <datei>`, einspielen: `node scripts/content/merge-days.mjs <datei>`.
 Welche Tage fehlen: `node scripts/content/coverage.mjs` (Abschnitt „Heute vor … Jahren“).
+
+## „Studie kurz erklärt“ (seit 22.10.2026)
+
+Bekannte Studien in vier Teilen: die Frage, so lief die Studie, das Ergebnis, **Aber** (Grenzen, Kritik, spätere
+Wiederholungen – Pflicht). Daten in `content/studies.json`, im Feed nach jeweils 7 Fragekarten. Ein Lauf darf zusätzlich
+einen Batch `content/_batches/<YYYY-MM>-studies-<n>.mjs` anlegen (Muster: `2026-10-studies-1.mjs`), höchstens 4 Studien.
+Keine Medizin-, Ernährungs- oder Gesundheitsstudien und keine Ratschläge; Studien mit belastenden Inhalten (z. B. Milgram)
+ab 13 Jahren. Jede Aussage, jede Zahl und jedes Jahr braucht ein Zitat; bekannte Studien werden oft falsch nacherzählt –
+es gilt nur, was der Artikel sagt.
+Prüfen: `node scripts/content/verify-evidence.mjs <datei>`, einspielen: `node scripts/content/merge-studies.mjs <datei>`.
