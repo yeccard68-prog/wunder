@@ -1684,11 +1684,11 @@
         "seconds": 7
       },
       {
-        "text": "Bei einer losen Rolle hängt die Last an der Rolle selbst. Zwei Seilstücke tragen sie gemeinsam – an jedem zieht nur die halbe Last. Man braucht also nur halb so viel Kraft.",
+        "text": "Bei einer losen Rolle hängt die Last an der Rolle selbst. Zwei Seilstücke tragen sie gemeinsam – jedes trägt nur die Hälfte. Man braucht also nur halb so viel Kraft.",
         "seconds": 9
       },
       {
-        "text": "Dafür muss man doppelt so viel Seil ziehen: Soll die Last einen Meter steigen, müssen beide Seilstücke einen Meter kürzer werden.",
+        "text": "Dafür muss man doppelt so viel Seil ziehen: Soll die Last einen Meter steigen, muss jedes der beiden Seilstücke einen Meter kürzer werden. Man zieht also zwei Meter Seil.",
         "seconds": 8
       },
       {
@@ -1724,8 +1724,8 @@
         ],
         "steps": [
           "A fixed pulley hangs from the ceiling. It saves no force but redirects it: you pull down and the load goes up.",
-          "With a movable pulley the load hangs on the pulley itself. Two pieces of rope carry it together – each bears only half the load. So you need only half as much force.",
-          "In return you have to pull twice as much rope: for the load to rise one metre, both pieces of rope have to get one metre shorter.",
+          "With a movable pulley the load hangs on the pulley itself. Two pieces of rope carry it together – each carries only half. So you need only half as much force.",
+          "In return you have to pull twice as much rope: for the load to rise one metre, each of the two pieces of rope has to get one metre shorter. So you pull two metres of rope.",
           "A block and tackle combines fixed and movable pulleys. If four pieces of rope carry the load, a quarter of the force is enough – with four times the rope. This is the golden rule of mechanics: what you save in force you have to add in distance."
         ],
         "predict": {
