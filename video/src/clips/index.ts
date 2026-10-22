@@ -1,7 +1,10 @@
 // Every own clip by its id in content/videos.json – used by Root (app clips) and Social (versions for social media).
 import type { ComponentType } from "react";
 import type { Locale } from "../theme";
+import { createElement } from "react";
+import { PEOPLE } from "../people";
 import { HerzSchlaege } from "./HerzSchlaege";
+import { Lebenslinie } from "./Lebenslinie";
 import { LichtReise } from "./LichtReise";
 import { MarathonRunden } from "./MarathonRunden";
 import { PapierMond } from "./PapierMond";
@@ -17,4 +20,6 @@ export const COMPONENTS: Record<string, ComponentType<{ locale: Locale }>> = {
   "v-sonne-masse": SonneMasse,
   "v-licht-reise": LichtReise,
   "v-herz-schlaege": HerzSchlaege,
+  // "Persönlichkeiten": one timeline component, the people come from people.ts
+  ...Object.fromEntries(PEOPLE.map((person) => [person.id, ({ locale }: { locale: Locale }) => createElement(Lebenslinie, { person, locale })])),
 };

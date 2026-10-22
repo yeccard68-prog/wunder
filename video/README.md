@@ -24,3 +24,20 @@ Vorschau beim Bauen: `npm run studio` öffnet Remotion Studio im Browser.
 Remotion ist kostenlos für Einzelpersonen, gemeinnützige Organisationen und Firmen mit höchstens 3 Beschäftigten, auch für kommerzielle Videos (`node_modules/remotion/LICENSE.md`). Größere Firmen brauchen eine Company License (remotion.pro). Der Betreiber hat am 15.10.2026 bestätigt, dass die kostenlose Lizenz passt – bei Wachstum über 3 Beschäftigte neu prüfen. Die fertigen Videos selbst sind eigene Werke; Remotion verlangt keinen Hinweis im Video oder in der App.
 
 Version: 4.0.531 (bewusst eine Version, die bei der Installation gut zwei Wochen alt war). Alle `@remotion/*`-Pakete müssen dieselbe Version haben.
+
+## Persönlichkeiten (seit 22.10.2026)
+
+Eine Komponente für alle: `src/clips/Lebenslinie.tsx` zeigt Name, Lebensdaten und vier Stationen auf einem Zeitstrahl.
+Die Personen stehen in `src/people.ts`, Texte, Quiz und Belege im Batch (Vorbild: `content/_batches/2026-10-people-1.mjs`).
+Regeln: nur lange verstorbene Menschen, die für ihr Werk bekannt sind; keine Kriege, keine Diktatoren; keine Porträts
+(rein typografisch, damit keine Bildrechte berührt sind); die letzte Station passt in eine Zeile.
+`node scripts/content/verify-evidence.mjs <batch>` prüft jedes Zitat im Artikel **und** dass jede Jahreszahl aus Clip,
+Texten und Quiz in einem Zitat vorkommt. Danach wie oben: `apply-batch`, `npm run render -- <ids>`, Zähltests, Seed,
+Dateien veröffentlichen, dann die Zeilen in die Datenbank.
+
+## „An diesem Tag“ für Social Media (seit 22.10.2026)
+
+`src/DayClip.tsx` macht aus jedem Ereignis in `content/days.json` einen 8-Sekunden-Clip (Datum, hochzählende
+Jahreszahl, der Satz, Quelle, Link). Ohne „vor x Jahren“ im Bild, damit er jedes Jahr stimmt.
+`npm run days` rendert die nächsten 14 Tage nach `out/social/de/days/` und schreibt `days.md` mit fertigem Text pro
+Post; `npm run days -- en 30` für Englisch und 30 Tage. Nicht in der App, nicht in git – zum Hochladen von Hand.

@@ -32339,5 +32339,125 @@
         "explanation": "At 70 beats a minute: 70 × 60 × 24 × 365 × 80 ≈ 2.9 billion."
       }
     }
+  },
+  {
+    "id": "q-v-person-curie",
+    "kind": "question",
+    "category_id": "science",
+    "question": "In welchen beiden Fächern erhielt Marie Curie einen Nobelpreis?",
+    "options": [
+      "Physik und Chemie",
+      "Chemie und Medizin",
+      "Physik und Medizin",
+      "Chemie und Literatur"
+    ],
+    "correct_index": 0,
+    "explanation": "1903 erhielt sie einen anteiligen Nobelpreis für Physik, 1911 den Nobelpreis für Chemie.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Nobelpreis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marie Curie",
+    "source_url": "https://de.wikipedia.org/wiki/Marie_Curie",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which two subjects did Marie Curie win a Nobel Prize?",
+        "options": [
+          "Physics and chemistry",
+          "Chemistry and medicine",
+          "Physics and medicine",
+          "Chemistry and literature"
+        ],
+        "explanation": "In 1903 she received a share of the Nobel Prize in Physics, in 1911 the Nobel Prize in Chemistry."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-gutenberg",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woraus bestanden Gutenbergs bewegliche Lettern?",
+    "options": [
+      "Aus Metall",
+      "Aus Holz",
+      "Aus Ton",
+      "Aus Stein"
+    ],
+    "correct_index": 0,
+    "explanation": "Gutenberg druckte mit beweglichen Metalllettern – aus einer Legierung von Zinn, Blei und Antimon.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Johannes Gutenberg",
+    "source_url": "https://de.wikipedia.org/wiki/Johannes_Gutenberg",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was Gutenberg's movable type made of?",
+        "options": [
+          "Metal",
+          "Wood",
+          "Clay",
+          "Stone"
+        ],
+        "explanation": "Gutenberg printed with movable metal type – made of an alloy of tin, lead and antimony."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-lovelace",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was sollte das Programm berechnen, das Ada Lovelace 1843 veröffentlichte?",
+    "options": [
+      "Bernoulli-Zahlen",
+      "Planetenbahnen",
+      "Zinsen",
+      "Primzahlen"
+    ],
+    "correct_index": 0,
+    "explanation": "In ihren Notizen zur Analytical Engine legte sie einen Plan zur Berechnung der Bernoulli-Zahlen vor.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ada Lovelace",
+    "source_url": "https://de.wikipedia.org/wiki/Ada_Lovelace",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the program Ada Lovelace published in 1843 meant to calculate?",
+        "options": [
+          "Bernoulli numbers",
+          "Planetary orbits",
+          "Interest",
+          "Prime numbers"
+        ],
+        "explanation": "In her notes on the Analytical Engine she set out a plan for calculating the Bernoulli numbers."
+      }
+    }
   }
 ]

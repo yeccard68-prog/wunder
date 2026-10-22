@@ -3481,5 +3481,179 @@
         "poster": "/clips/v-herz-schlaege.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-person-curie",
+    "category_id": "science",
+    "title": "Marie Curie: zwei Nobelpreise in zwei Fächern",
+    "hook": "Marie Curie erhielt Nobelpreise für Physik und für Chemie – Nobelpreise in zwei verschiedenen Fachgebieten bekam sonst nur Linus Pauling.",
+    "description": "Marie Curie wurde am 7. November 1867 in Warschau geboren. Weil Frauen dort nicht studieren durften, zog sie nach Paris und begann Ende 1891 ein Studium an der Sorbonne. Gemeinsam mit ihrem Ehemann Pierre Curie entdeckte sie die chemischen Elemente Polonium und Radium. 1903 erhielt sie einen anteiligen Nobelpreis für Physik, 1911 den Nobelpreis für Chemie. Sie ist die einzige Frau, der bisher mehrfach ein Nobelpreis verliehen wurde, und neben Linus Pauling die einzige Person mit Nobelpreisen in zwei verschiedenen Fachgebieten. Sie war auch die erste Frau, die an der Sorbonne lehrte. Marie Curie starb am 4. Juli 1934.",
+    "video_url": "/clips/v-person-curie.mp4",
+    "thumbnail_url": "/clips/v-person-curie.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1867 in Warschau – studiert hat sie in Paris.",
+      "Mit Pierre Curie entdeckte sie Polonium und Radium.",
+      "Nobelpreise 1903 für Physik und 1911 für Chemie."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Marie Curie",
+        "url": "https://de.wikipedia.org/wiki/Marie_Curie"
+      }
+    ],
+    "published_at": "2026-10-22T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Nobelpreis"
+    ],
+    "quiz_question_id": "q-v-person-curie",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-curie",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Marie Curie: two Nobel Prizes in two subjects",
+        "hook": "Marie Curie won Nobel Prizes in physics and in chemistry – only Linus Pauling has also won them in two different fields.",
+        "description": "Marie Curie was born in Warsaw on 7 November 1867. Because women were not allowed to study there, she moved to Paris and began studying at the Sorbonne at the end of 1891. Together with her husband Pierre Curie she discovered the chemical elements polonium and radium. In 1903 she received a share of the Nobel Prize in Physics, in 1911 the Nobel Prize in Chemistry. She is the only woman to have been awarded a Nobel Prize more than once so far, and apart from Linus Pauling the only person with Nobel Prizes in two different fields. She was also the first woman to teach at the Sorbonne. Marie Curie died on 4 July 1934.",
+        "captions": [
+          "Born in Warsaw in 1867 – she studied in Paris.",
+          "With Pierre Curie she discovered polonium and radium.",
+          "Nobel Prizes in 1903 for physics and in 1911 for chemistry."
+        ],
+        "file": "/clips/v-person-curie.en.mp4",
+        "poster": "/clips/v-person-curie.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-gutenberg",
+    "category_id": "history",
+    "title": "Gutenberg: Bücher in Serie statt von Hand",
+    "hook": "Mit beweglichen Metalllettern veränderte Johannes Gutenberg ab 1450 die Herstellung von Büchern – bis dahin wurden sie abgeschrieben.",
+    "description": "Johannes Gutenberg wurde um 1400 in Mainz geboren; sein genaues Geburtsdatum lässt sich nicht feststellen. Er gilt als Erfinder des modernen Buchdrucks mit beweglichen Metalllettern und der Druckerpresse. Ab 1450 revolutionierten die beweglichen Lettern die herkömmliche Buchproduktion, das Abschreiben von Hand. Zwischen 1452 und 1454 entstand sein Hauptwerk, die Gutenberg-Bibel. Zu seinen Neuerungen gehört auch eine besonders praktikable Legierung aus Zinn, Blei und Antimon. 1997 wählte das US-Magazin Time Gutenbergs Buchdruck zur bedeutendsten Erfindung des zweiten Jahrtausends. Gutenberg starb vor dem 26. Februar 1468.",
+    "video_url": "/clips/v-person-gutenberg.mp4",
+    "thumbnail_url": "/clips/v-person-gutenberg.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren um 1400 in Mainz.",
+      "Ab 1450: Druck mit beweglichen Lettern aus Metall statt Abschreiben.",
+      "1452 bis 1454 entstand die berühmte Gutenberg-Bibel."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Johannes Gutenberg",
+        "url": "https://de.wikipedia.org/wiki/Johannes_Gutenberg"
+      }
+    ],
+    "published_at": "2026-10-21T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Erfindungen"
+    ],
+    "quiz_question_id": "q-v-person-gutenberg",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-gutenberg",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Gutenberg: books in series instead of by hand",
+        "hook": "With movable metal type, Johannes Gutenberg changed how books were made from 1450 on – until then they were copied by hand.",
+        "description": "Johannes Gutenberg was born in Mainz around 1400; his exact date of birth cannot be determined. He is regarded as the inventor of modern printing with movable metal type and of the printing press. From 1450, movable type revolutionised the traditional way of making books, copying them by hand. His main work, the Gutenberg Bible, was made between 1452 and 1454. His innovations also include a particularly practical alloy of tin, lead and antimony. In 1997 the US magazine Time chose Gutenberg's printing as the most important invention of the second millennium. Gutenberg died before 26 February 1468.",
+        "captions": [
+          "Born in Mainz around 1400.",
+          "From 1450: printing with movable metal type instead of copying.",
+          "The famous Gutenberg Bible was made from 1452 to 1454."
+        ],
+        "file": "/clips/v-person-gutenberg.en.mp4",
+        "poster": "/clips/v-person-gutenberg.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-lovelace",
+    "category_id": "technology",
+    "title": "Ada Lovelace: ein Programm, bevor es Computer gab",
+    "hook": "1843 veröffentlichte Ada Lovelace einen Plan, mit dem eine Rechenmaschine Bernoulli-Zahlen berechnen sollte – gebaut wurde die Maschine nie.",
+    "description": "Ada Lovelace wurde am 10. Dezember 1815 in London geboren; sie war die Tochter des Dichters Lord Byron. Nach ihrem ersten Treffen mit Charles Babbage im Jahr 1833 war sie schnell fasziniert von seiner Arbeit an der „analytischen Maschine“, die nie fertiggestellt wurde. 1843 übersetzte sie einen Artikel über diese Analytical Engine und fügte eigene Notizen hinzu, zweimal so lang wie der ursprüngliche Text. Darin legte sie einen Plan zur Berechnung der Bernoulli-Zahlen vor, der als das erste veröffentlichte formale Computerprogramm gelten kann. Kritiker wenden ein, dass konkrete Programmbeispiele schon mehrere Jahre zuvor in Babbages Aufzeichnungen standen. Ada Lovelace starb am 27. November 1852 mit 36 Jahren. Die Programmiersprache Ada ist nach ihr benannt.",
+    "video_url": "/clips/v-person-lovelace.mp4",
+    "thumbnail_url": "/clips/v-person-lovelace.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1815 in London, Tochter des Dichters Lord Byron.",
+      "1833 lernte sie Charles Babbage und seine Rechenmaschine kennen.",
+      "1843 veröffentlichte sie einen Plan zur Berechnung von Bernoulli-Zahlen."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Ada Lovelace",
+        "url": "https://de.wikipedia.org/wiki/Ada_Lovelace"
+      }
+    ],
+    "published_at": "2026-10-20T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Computer"
+    ],
+    "quiz_question_id": "q-v-person-lovelace",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-lovelace",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Ada Lovelace: a program before computers existed",
+        "hook": "In 1843 Ada Lovelace published a plan for a calculating engine to compute Bernoulli numbers – the engine itself was never built.",
+        "description": "Ada Lovelace was born in London on 10 December 1815; she was the daughter of the poet Lord Byron. After first meeting Charles Babbage in 1833 she was soon fascinated by his work on the \"Analytical Engine\", which was never completed. In 1843 she translated an article about this engine and added her own notes, twice as long as the original text. In them she set out a plan for calculating the Bernoulli numbers that can count as the first published formal computer program. Critics object that concrete program examples had already appeared in Babbage's notes several years earlier. Ada Lovelace died on 27 November 1852, aged 36. The programming language Ada is named after her.",
+        "captions": [
+          "Born in London in 1815, daughter of the poet Lord Byron.",
+          "In 1833 she met Charles Babbage and his calculating engine.",
+          "In 1843 she published a plan for calculating Bernoulli numbers."
+        ],
+        "file": "/clips/v-person-lovelace.en.mp4",
+        "poster": "/clips/v-person-lovelace.en.jpg"
+      }
+    }
   }
 ]

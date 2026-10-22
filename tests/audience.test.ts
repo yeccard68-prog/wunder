@@ -42,7 +42,7 @@ test("age levels: 10–12 sees children's cards plus level 10, nothing above", (
   const set = forAudience(content, "de", "10-12");
   assert.ok(set.items.some((i) => i.minAge === 6) && set.items.some((i) => i.minAge === 10));
   assert.ok(set.items.every((i) => i.minAge <= 10));
-  assert.equal(set.clips.length, 44);
+  assert.equal(set.clips.length, 47);
 });
 
 test("age levels: from 16 everything is shown except cards written only for children", () => {

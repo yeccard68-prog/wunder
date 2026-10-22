@@ -8,6 +8,9 @@ Ziel: mit fast null Budget testen, ob die App ankommt. Inhalte sind fertig, dein
   „Antwort in der App“ und dem Link. Hochformat 720×1280, ohne Ton (Musik kannst du in TikTok/Instagram
   selbst aus deren freigegebener Bibliothek wählen).
 - **24 Bildposts** (`video/out/social/de/facts/`): „Wusstest du?“-Fakten, 1080×1350, jeweils mit Quelle.
+- **„An diesem Tag“-Videos** (`video/out/social/de/days/`, seit 22.10.2026): 8 s, je ein geprüftes Ereignis aus der
+  Geschichte des Kalendertags, mit fertigem Text in `days.md`. Erzeugen: `npm --prefix video run days` (nächste 14 Tage).
+  Ideal für einen täglichen Post am jeweiligen Tag.
 - **30-Tage-Plan mit fertigen Texten und Hashtags:** `docs/SOCIAL-PLAN.de.md` (Video alle fünf Tage, Bilder dazwischen).
 - Neu erzeugen (z. B. wenn neue Clips oder Fakten dazukommen): `npm --prefix video run social`
   (Englisch: `npm --prefix video run social -- en`). Alles wird auf deinem Rechner gerendert, ohne Kosten.

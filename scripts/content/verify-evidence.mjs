@@ -89,6 +89,35 @@ if (batch.events) {
   process.exit(bad ? 1 : 0);
 }
 
+// clip batches (own clips, e.g. the "Persönlichkeiten" timelines): every quote must be in a linked article, and every
+// year that the clip shows or names (people.ts stations, title, texts, captions, quiz) must appear in one of the quotes
+if (batch.videos) {
+  const people = fs.readFileSync("video/src/people.ts", "utf8");
+  let bad = 0;
+  for (const v of batch.videos) {
+    const problems = [];
+    const quotes = evidence[v.id] ?? [];
+    if (!quotes.length) problems.push("no evidence");
+    if (!CATEGORIES.includes(v.category_id)) problems.push(`category "${v.category_id}" is not one of ${CATEGORIES.join(", ")}`);
+    const linked = new Set(v.sources.map((s) => decodeURIComponent(s.url.split("/wiki/")[1] ?? "").replaceAll("_", " ")));
+    for (const q of quotes) {
+      const [lang, title, ...rest] = q.split("|");
+      const quote = rest.join("|");
+      if (!linked.has(title.replaceAll("_", " "))) problems.push(`"${title}" is not among the clip's sources`);
+      const t = await article(lang, title);
+      if (t === null) problems.push(`article not found: ${lang}|${title}`);
+      else if (!t.includes(norm(quote))) problems.push(`not in ${title}: "${quote}"`);
+    }
+    const block = people.split(`id: "${v.id}"`)[1]?.split(/\n  \},?\n/)[0] ?? "";
+    const shown = [block, v.title, v.hook, v.description, ...v.captions, v.quiz[0], ...v.quiz[1], v.quiz[3]].join(" ");
+    const quoted = quotes.join(" ");
+    for (const year of new Set(shown.match(/\b1\d{3}\b|\b20\d\d\b/g) ?? [])) if (!quoted.includes(year)) problems.push(`year ${year} is shown but not quoted`);
+    if (problems.length) { bad++; console.log(`FAIL ${v.id}\n  - ${problems.join("\n  - ")}`); } else console.log(`ok   ${v.id} (${quotes.length} quotes)`);
+  }
+  console.log(`${batch.videos.length - bad} of ${batch.videos.length} clips confirmed.`);
+  process.exit(bad ? 1 : 0);
+}
+
 let failed = 0;
 for (const row of rows) {
   const [id, area, category, sources, text, detail, enText, enDetail, ann] = row;
