@@ -25,17 +25,26 @@ const TEXT_X = 284;
 const TEXT_RIGHT = 585; // the app's buttons cover x > 610 on a phone
 const START = 34; // frame when the first station appears
 const EACH = 54; // frames between stations
+const LEAVE = 10; // frames after a dot appears until the line sets off to the next one
 
 export function Lebenslinie({ person, locale }: { person: Person; locale: Locale }) {
   const frame = useCurrentFrame();
   const n = person.stations.length;
   const lineEnd = TOP + STEP * (n - 1);
-  const grow = ease(frame, START - 6, START + EACH * (n - 1) + 10);
+  // the line travels from dot to dot and arrives exactly when the next dot appears (slowing down into it)
+  const smooth = (t: number) => t * t * (3 - 2 * t);
+  let travelled = 0;
+  for (let i = 0; i < n - 1; i++) {
+    const from = START + i * EACH + LEAVE;
+    travelled += smooth(Math.min(1, Math.max(0, (frame - from) / (START + (i + 1) * EACH - from))));
+  }
+  const head = TOP + STEP * travelled;
+  const moving = travelled > 0 && travelled < n - 1 && travelled % 1 !== 0;
   const first = person.stations[0].year;
-  const head = ease(frame, 2, 16);
+  const intro = ease(frame, 2, 16);
   return (
     <Stage topic={person.topic[locale]} color={person.color}>
-      <div style={{ position: "absolute", top: 112, left: 64, right: 64, opacity: head, transform: `translateY(${(1 - head) * 16}px)` }}>
+      <div style={{ position: "absolute", top: 112, left: 64, right: 64, opacity: intro, transform: `translateY(${(1 - intro) * 16}px)` }}>
         <div style={{ fontFamily: FONT.display, fontSize: person.name.length > 22 ? 42 : person.name.length > 20 ? 46 : person.name.length > 16 ? 54 : 62, fontWeight: 600, lineHeight: 1.05 }}>{person.name}</div>
         <div style={{ marginTop: 10, fontSize: 25, color: C.muted }}>
           {person.lived[locale]} · {person.role[locale]}
@@ -43,7 +52,8 @@ export function Lebenslinie({ person, locale }: { person: Person; locale: Locale
       </div>
       <svg width={720} height={720} style={{ position: "absolute", left: 0, top: 0 }}>
         <line x1={DOT_X} y1={TOP} x2={DOT_X} y2={lineEnd} stroke={C.line} strokeWidth={4} strokeLinecap="round" />
-        <line x1={DOT_X} y1={TOP} x2={DOT_X} y2={TOP + (lineEnd - TOP) * grow} stroke={person.color} strokeWidth={4} strokeLinecap="round" />
+        <line x1={DOT_X} y1={TOP} x2={DOT_X} y2={head} stroke={person.color} strokeWidth={4} strokeLinecap="round" />
+        {moving && <circle cx={DOT_X} cy={head} r={7} fill={person.color} style={{ filter: `drop-shadow(0 0 8px ${person.color})` }} />}
       </svg>
       {person.stations.map((s, i) => {
         const at = START + i * EACH;
