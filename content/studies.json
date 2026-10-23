@@ -433,5 +433,92 @@
         "caveat": "But later experiments showed that Millikan's values were too low; the cause, as turned out in 1936, was a wrong value for the viscosity of air. The historian of science Gerald Holton also accused him in 1978 of leaving out measurements, but other historians saw good reasons for this in part."
       }
     }
+  },
+  {
+    "id": "s-kleine-welt",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1967,
+    "name": "Kleine-Welt-Experiment (Milgram)",
+    "question": "Ist jeder Mensch mit jedem anderen über eine überraschend kurze Kette von Bekanntschaftsbeziehungen verbunden?",
+    "method": "Stanley Milgram ließ 1967 ein Informationspaket an 60 zufällig ausgewählte Teilnehmer schicken, das eine vorher festgelegte Person in Boston erreichen sollte. Wer die Zielperson nicht persönlich kannte, sollte das Paket an eine Person senden, die sie persönlich kannte und die die Zielperson wahrscheinlicher kannte.",
+    "result": "Insgesamt erreichten drei Pakete die Zielpersonen mit einer durchschnittlichen Pfadlänge von 5,5 oder aufgerundet sechs. Die Wissenschaftler schlossen daraus, dass jede Person der US-amerikanischen Bevölkerung von jeder anderen durchschnittlich durch sechs Personen getrennt ist.",
+    "caveat": "Aber sowohl das Experiment als auch die Schlussfolgerungen sind umstritten und werden als nicht beweiskräftig angesehen. Judith Kleinfeld kritisierte 2002 die nicht ausreichende Datenlage, sie spricht von einer „5 % chain completion rate“.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kleine-Welt-Phänomen",
+        "url": "https://de.wikipedia.org/wiki/Kleine-Welt-Phänomen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T12:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The small-world experiment (Milgram)",
+        "question": "Is every person connected to every other person by a surprisingly short chain of acquaintances?",
+        "method": "In 1967 Stanley Milgram had an information package sent to 60 randomly chosen participants, which was meant to reach a pre-set person in Boston. Anyone who did not know the target personally was to send the package to a person they knew personally and who was more likely to know the target.",
+        "result": "Altogether three packages reached the target persons, with an average path length of 5.5, or rounded up, six. The scientists concluded from this that each person in the US population is separated from every other person in the USA by an average of six people.",
+        "caveat": "But both the experiment and its conclusions are controversial and are regarded as not conclusive. In 2002 Judith Kleinfeld criticised the insufficient data and speaks of a “5 % chain completion rate”."
+      }
+    }
+  },
+  {
+    "id": "s-mere-exposure",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1968,
+    "name": "Zajonc und der Mere-Exposure-Effekt (bloßes Kennen)",
+    "question": "Führt allein die wiederholte Wahrnehmung eines ursprünglich neutral beurteilten Reizes zu einer positiveren Bewertung?",
+    "method": "Robert Zajonc untersuchte den Effekt 1968 in drei Experimenten. Er zeigte Versuchspersonen türkische Wörter oder chinesische Schriftzeichen unterschiedlich oft, und sie sollten angeben, wie positiv oder negativ diese Reize wirkten. Im dritten Experiment verwendete er Porträtfotos von Studierenden, die später auf Sympathie bewertet wurden.",
+    "result": "Häufiger präsentierte Wörter und Zeichen wurden deutlich positiver bewertet als selten oder gar nicht gezeigte. Auch häufiger gezeigte Gesichter wurden als deutlich sympathischer eingeschätzt, wobei der Anstieg mit zunehmender Darbietung schrittweise abflachte.",
+    "caveat": "Aber der Effekt tritt in der Regel nicht auf, wenn ein Reiz bereits beim ersten Kontakt negativ bewertet wurde, dann kann wiederholte Darbietung die Abneigung sogar verstärken. Die Metaanalyse von Montoya et al. (2017) fand unter bestimmten Bedingungen eine umgekehrt U-förmige Kurve: Das Gefallen steigt zunächst an, nimmt jedoch bei weiterer Wiederholung wieder ab.",
+    "sources": [
+      {
+        "name": "Wikipedia: Mere-Exposure-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Mere-Exposure-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Zajonc and the mere-exposure effect (simply being familiar)",
+        "question": "Does the mere repeated perception of an originally neutral stimulus lead to a more positive evaluation?",
+        "method": "Robert Zajonc studied the effect in three experiments in 1968. He showed participants Turkish words or Chinese characters different numbers of times, and they were to say how positive or negative these stimuli seemed. In the third experiment he used portrait photos of students, who were later rated for likeability.",
+        "result": "Words and characters shown more often were rated clearly more positively than ones shown rarely or not at all. Faces shown more often were also judged clearly more likeable, with the increase levelling off step by step as presentations increased.",
+        "caveat": "But the effect usually does not occur if a stimulus was already rated negatively at first contact; then repeated presentation can even strengthen the dislike. The meta-analysis by Montoya et al. (2017) found an inverted U-shaped curve under certain conditions: liking first rises, but falls again with further repetition."
+      }
+    }
+  },
+  {
+    "id": "s-gorilla",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1999,
+    "name": "Der unsichtbare Gorilla (Simons und Chabris)",
+    "question": "Übersehen wir etwas sehr Auffälliges, wenn wir mit einer Beobachtungsaufgabe beschäftigt sind?",
+    "method": "Daniel Simons und Christopher Chabris zeigten Videos von jeweils 75 Sekunden Dauer. Jeder Film zeigt zwei Teams mit je drei Spielern, die sich einen Basketball zuwerfen, und die Versuchspersonen sollten die Ballwechsel eines Teams mitzählen. Nach 44 bis 48 Sekunden läuft in der Gorilla-Version eine kleinere Frau, die vollständig in ein Gorillakostüm gehüllt ist, durchs Bild. Ihre Studie „Gorillas in Our Midst“ ist von 1999.",
+    "result": "Von 192 Versuchspersonen bemerkten 54 Prozent den „Zwischenfall“ und 46 Prozent nicht. Die Frau mit dem Regenschirm wurde öfter entdeckt als die im Gorillakostüm (65 % versus 44 %).",
+    "caveat": "Aber wie oft der Gorilla bemerkt wurde, hing vom Team ab: Wer das schwarze Team beobachtete, bemerkte ihn öfter als wer das weiße Team beobachtete (schwarz 58 %, weiß 27 %). Die Höhe der Unaufmerksamkeitsblindheit hängt außerdem vom Schwierigkeitsgrad der Beobachtungsaufgabe ab.",
+    "sources": [
+      {
+        "name": "Wikipedia: Unaufmerksamkeitsblindheit",
+        "url": "https://de.wikipedia.org/wiki/Unaufmerksamkeitsblindheit"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T10:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The invisible gorilla (Simons and Chabris)",
+        "question": "Do we overlook something very conspicuous when we are busy with an observation task?",
+        "method": "Daniel Simons and Christopher Chabris showed videos of 75 seconds each. Each film shows two teams of three players each passing a basketball, and the participants were to count the passes of one team. After 44 to 48 seconds, in the gorilla version a smaller woman, completely wrapped in a gorilla costume, walks through the scene. Their study “Gorillas in Our Midst” dates from 1999.",
+        "result": "Of 192 participants, 54 percent noticed the “incident” and 46 percent did not. The woman with the umbrella was spotted more often than the one in the gorilla costume (65% versus 44%).",
+        "caveat": "But how often the gorilla was noticed depended on the team: those who watched the black team noticed it more often than those who watched the white team (black 58%, white 27%). The degree of inattentional blindness also depends on how difficult the observation task is."
+      }
+    }
   }
 ]

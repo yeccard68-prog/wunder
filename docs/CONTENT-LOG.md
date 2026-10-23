@@ -2,6 +2,10 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-23 · 2026-10-facts-11 · 8 Fakten · Mathe (Googol), Technik (Centennial Light), Wirtschaft (Tulpenmanie), Business (Haftzettel), Geschichte (Kalender 1582), Sprache (Cherokee-Schrift), Kultur (Happy Birthday), Sport (Olympische Ringe) · Recherche: Sub-Agent (Sonnet).
+
+- 2026-10-23 · 2026-10-studies-3 · 3 Studien · Kleine-Welt-Experiment, Mere-Exposure-Effekt, Gorilla-Experiment · verworfen: Rosenhan und Schachter-Singer (zu nah an Gesundheitsthemen), Zeigarnik (Ablauf in der Quelle zu dünn).
+
 - 2026-10-23 · 2026-10-people-4 · 6 Persönlichkeiten-Clips · Kopernikus, Bach, Shakespeare, Gauß, Rosalind Franklin, Marco Polo · Recherche: Sub-Agent (Sonnet), Belege und Stationen geprüft.
 
 - 2026-10-23 · 2026-10-studies-2 · 7 Studien · Ultimatumspiel, Ebbinghaus, Miller-Urey, Little Albert, Mozart-Effekt, Attraktivität vor Gericht, Millikan · Recherche: Sub-Agent (Sonnet) · verworfen: Galtons Ochsen-Schätzung (Haken betraf das Buch, nicht die Studie); Beiname „Urknall des Lebens“ ersetzt.

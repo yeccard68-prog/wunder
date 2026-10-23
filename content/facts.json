@@ -2772,5 +2772,189 @@
         "detail": "The first Lawn Tennis Championships began on 9 July 1877. The occasion was a bill of 10 pounds for a lawn roller that had to be replaced. Wimbledon is the only Grand Slam tournament played on grass."
       }
     }
+  },
+  {
+    "id": "f-googol",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Der Mathematiker Edward Kasner bat seinen neunjährigen Neffen, ein Wort für eine 1 mit 100 Nullen zu erfinden.",
+    "detail": "Der Begriff Googol wurde ab 1938 durch Kasner etabliert. Es gibt mehr als ein Googol Möglichkeiten, 70 Objekte unterschiedlich zu ordnen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Googol",
+        "url": "https://de.wikipedia.org/wiki/Googol"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The mathematician Edward Kasner asked his nine-year-old nephew to invent a word for a 1 followed by 100 zeros.",
+        "detail": "The term googol was established by Kasner from 1938 onwards. There are more than a googol ways to arrange 70 objects."
+      }
+    }
+  },
+  {
+    "id": "f-centennial-light",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "In einer Feuerwache in Kalifornien leuchtet die Glühlampe, die als langlebigste der Welt gilt.",
+    "detail": "Sie wurde in den 1890er-Jahren hergestellt und hatte ursprünglich 60 Watt, heute sind es nur noch vier. Am 21. Mai 2013 erlosch sie zum ersten Mal seit 37 Jahren ununterbrochenem Betrieb, für fast zehn Stunden – angeblich wegen eines Problems bei der Stromversorgung.",
+    "sources": [
+      {
+        "name": "Wikipedia: Centennial Light",
+        "url": "https://de.wikipedia.org/wiki/Centennial_Light"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "A light bulb in a fire station in California is considered the longest-lasting in the world.",
+        "detail": "It was made in the 1890s and originally had 60 watts, today it has just four. On 21 May 2013 it went out for the first time after 37 years of continuous operation, for almost ten hours – reportedly because of a power supply problem."
+      }
+    }
+  },
+  {
+    "id": "f-tulpenmanie",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Anfang Februar 1637 brach in den Niederlanden der Markt für Tulpenzwiebeln abrupt ein.",
+    "detail": "Zuvor waren die Preise in den 1630er-Jahren auf ein vergleichsweise extrem hohes Niveau gestiegen. Die Tulpenmanie gilt als die erste verhältnismäßig gut dokumentierte Spekulationsblase der Wirtschaftsgeschichte.",
+    "sources": [
+      {
+        "name": "Wikipedia: Tulpenmanie",
+        "url": "https://de.wikipedia.org/wiki/Tulpenmanie"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "In early February 1637 the market for tulip bulbs in the Netherlands suddenly collapsed.",
+        "detail": "Before that, prices had risen to a comparatively extremely high level in the 1630s. The tulip mania is regarded as the first relatively well-documented speculative bubble in economic history."
+      }
+    }
+  },
+  {
+    "id": "f-postit",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Der Haftzettel entstand aus einem Kleber, der eigentlich der stärkste von allen werden sollte.",
+    "detail": "1968 arbeitete Spencer Silver bei 3M an einem Superkleber. Das Ergebnis klebte auf allen Flächen, ließ sich aber ebenso leicht wieder lösen. 1974 ärgerte sich sein Kollege Art Fry, dass ihm seine Lesezeichen aus den Notenheften fielen, und erinnerte sich daran.",
+    "sources": [
+      {
+        "name": "Wikipedia: Klebezettel",
+        "url": "https://de.wikipedia.org/wiki/Klebezettel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The sticky note grew out of a glue that was actually meant to become the strongest of all.",
+        "detail": "In 1968 Spencer Silver was working on a super glue at 3M. The result stuck to all surfaces but could just as easily be removed again. In 1974 his colleague Art Fry was annoyed that his bookmarks kept falling out of his song books, and remembered it."
+      }
+    }
+  },
+  {
+    "id": "f-kalender-1582",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "In Spanien, Portugal, Polen und teilweise Italien folgte 1582 auf den 4. Oktober sofort der 15. Oktober.",
+    "detail": "Zehn Kalendertage wurden ausgelassen, um den Kalender zu korrigieren. Weil nicht alle Länder gleichzeitig umstellten, starben Shakespeare und Cervantes am selben Datum, dem 23. April 1616, obwohl Shakespeare zehn Tage länger lebte.",
+    "sources": [
+      {
+        "name": "Wikipedia: Gregorianischer Kalender",
+        "url": "https://de.wikipedia.org/wiki/Gregorianischer_Kalender"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "In Spain, Portugal, Poland and partly Italy, 4 October 1582 was followed immediately by 15 October.",
+        "detail": "Ten calendar days were skipped to correct the calendar. Because not all countries switched at the same time, Shakespeare and Cervantes died on the same date, 23 April 1616, although Shakespeare outlived Cervantes by ten days."
+      }
+    }
+  },
+  {
+    "id": "f-cherokee-schrift",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Die Cherokee-Schrift kommt mit nur 86 Zeichen aus.",
+    "detail": "Ihr Erfinder Sequoyah entwickelte zunächst 200 Zeichen und verfeinerte sie mit Hilfe seiner Tochter Ayoka auf 86. Die Zeichen geben Silben wieder, und die Schrift wird noch heute benutzt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Sequoyah",
+        "url": "https://de.wikipedia.org/wiki/Sequoyah"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The Cherokee script gets by with just 86 characters.",
+        "detail": "Its inventor Sequoyah first developed 200 characters and refined them to 86 with the help of his daughter Ayoka. The characters represent syllables, and the script is still used today."
+      }
+    }
+  },
+  {
+    "id": "f-happy-birthday",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "„Happy Birthday to You“ war ursprünglich ein Begrüßungslied für einen Kindergarten – mit dem Text „Good Morning to All“.",
+    "detail": "Die Melodie schrieb Mildred Hill, den ursprünglichen Text ihre Schwester Patty. Erstmals veröffentlicht wurde das Lied 1893. Bis zum September 2015 galt es nahezu weltweit als urheberrechtlich geschützt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Happy Birthday to You",
+        "url": "https://de.wikipedia.org/wiki/Happy_Birthday_to_You"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "“Happy Birthday to You” was originally a greeting song for a kindergarten – with the words “Good Morning to All”.",
+        "detail": "Mildred Hill wrote the melody and her sister Patty the original text. The song was first published in 1893. Until September 2015 it was considered protected by copyright almost worldwide."
+      }
+    }
+  },
+  {
+    "id": "f-olympische-ringe",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Dass jeder olympische Ring für einen Kontinent steht, stand früher im offiziellen Handbuch – belegt ist es aber nicht.",
+    "detail": "Die Ringe wurden 1913 von Pierre de Coubertin entworfen und erstmals bei den Spielen 1920 in Antwerpen auf der Fahne verwendet. Den Hinweis auf die Kontinente strich man, weil es keine Anhaltspunkte gibt, dass Coubertin ihn so beabsichtigt hatte.",
+    "sources": [
+      {
+        "name": "Wikipedia: Olympische Ringe",
+        "url": "https://de.wikipedia.org/wiki/Olympische_Ringe"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "That each Olympic ring stands for a continent used to be in the official handbook – but it is not documented.",
+        "detail": "The rings were designed by Pierre de Coubertin in 1913 and first used on the flag at the 1920 Games in Antwerp. The note about the continents was removed because there is no evidence that Coubertin intended it that way."
+      }
+    }
   }
 ]
