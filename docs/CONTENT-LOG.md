@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-23 · 2026-10-facts-10 · 8 Fakten · Technik (Bluetooth), Sport (Gelbes Trikot, Wimbledon), Geschichte (Stein von Rosette), Sprache (großes ẞ), Wirtschaft (Dollarzeichen, Monopoly), Kultur (Micky Maus) · Recherche: Sub-Agent (Sonnet) · bei der Kontrolle enger an die Quelle: „einem Soldaten“ statt „französischen Soldaten“, „in Gelb gedruckt“ statt „auf gelbem Papier“.
+
 - 2026-10-22 · 2026-10-studies-1 · 8 Studien (neues Format „Studie kurz erklärt“) · Marshmallow-Test, Asch, Milgram, Stanford-Prison, Dunning-Kruger, Pygmalion, Hawthorne, Rauchstudie (Zuschauereffekt) · Recherche: Sub-Agent (Sonnet) · bei der Kontrolle angepasst: Hawthorne „bedroht“ präzisiert, Dunning-Kruger 80 % als Einzelstudie gekennzeichnet, Zitat zur Glocke ergänzt.
 
 - 2026-10-22 · 2026-10-facts-9 · 7 Fakten · Wirtschaft (Steingeld auf Yap), Business (Nintendo: Spielkarten, Instant-Reis und Taxi), Kultur (Gutenberg-Bibel), Sprache (OK), Sport (Ping-Pong als Marke), Geschichte (Cheops-Pyramide) · Recherche: Sub-Agent (Sonnet) · verworfen: Emu-Krieg (Gewaltdetails), Kleopatra (kein Beleg im Artikel); bei der Kontrolle korrigiert: „Scherz“ bei OK stand nicht in der Quelle.

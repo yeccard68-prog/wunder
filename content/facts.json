@@ -2588,5 +2588,189 @@
         "detail": "When playing card sales declined, the company looked for new lines of business. In the end it returned to its core business. According to the company, the name means “leave luck to heaven”."
       }
     }
+  },
+  {
+    "id": "f-bluetooth-name",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Bluetooth ist nach einem dänischen König benannt.",
+    "detail": "Der Name geht auf Harald Blauzahn zurück, der Teile von Norwegen und Dänemark unter seiner Herrschaft vereinte. Das Logo ist ein Monogramm aus zwei altnordischen Runen, die für H und B stehen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Bluetooth",
+        "url": "https://de.wikipedia.org/wiki/Bluetooth"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Bluetooth is named after a Danish king.",
+        "detail": "The name goes back to Harald Bluetooth, who united parts of Norway and Denmark under his rule. The logo is a monogram of two Old Norse runes standing for H and B."
+      }
+    }
+  },
+  {
+    "id": "f-gelbes-trikot",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Das Gelbe Trikot der Tour de France ist gelb, weil eine Zeitung in Gelb gedruckt wurde.",
+    "detail": "Die Idee hatte 1919 Henri Desgrange: Der Führende sollte für die Zuschauer besser erkennbar sein. Er wählte Gelb, weil seine Sportzeitung L’Auto in dieser Farbe gedruckt wurde. Nach einer anderen Version gab es auf die Schnelle keinen anderen Stoff.",
+    "sources": [
+      {
+        "name": "Wikipedia: Gelbes Trikot",
+        "url": "https://de.wikipedia.org/wiki/Gelbes_Trikot"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The yellow jersey of the Tour de France is yellow because a newspaper was printed in yellow.",
+        "detail": "Henri Desgrange had the idea in 1919: the leader should be easier for spectators to recognise. He chose yellow because his sports paper L’Auto was printed in that colour. According to another version, no other fabric was available at short notice."
+      }
+    }
+  },
+  {
+    "id": "f-rosetta",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Ein Stein mit drei Schriften half, die ägyptischen Hieroglyphen zu entschlüsseln.",
+    "detail": "Auf dem Stein von Rosette steht derselbe Text in Hieroglyphen, in Demotisch und auf Altgriechisch. Er fiel im Juli 1799 einem Soldaten auf; Champollion kündigte 1822 die Entzifferung an. Heute ist er das meistbesuchte Objekt des British Museum.",
+    "sources": [
+      {
+        "name": "Wikipedia: Stein von Rosette",
+        "url": "https://de.wikipedia.org/wiki/Stein_von_Rosette"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "A stone with three scripts helped decipher Egyptian hieroglyphs.",
+        "detail": "The Rosetta Stone carries the same text in hieroglyphs, in Demotic and in ancient Greek. A soldier noticed it in July 1799; Champollion announced the decipherment in 1822. Today it is the most visited object in the British Museum."
+      }
+    }
+  },
+  {
+    "id": "f-grosses-eszett",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das große ẞ gehört erst seit 2017 offiziell zur deutschen Rechtschreibung.",
+    "detail": "Seit dem 29. Juni 2017 ist der Großbuchstabe ẞ amtlich. Über seine Aufnahme ins Alphabet wurde seit Ende des 19. Jahrhunderts diskutiert. Das ß selbst geht auf eine Ligatur aus langem s und z zurück.",
+    "sources": [
+      {
+        "name": "Wikipedia: Eszett",
+        "url": "https://de.wikipedia.org/wiki/Eszett"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The capital ẞ has only been officially part of German spelling since 2017.",
+        "detail": "Since 29 June 2017 the capital letter ẞ has been official. Whether to include it in the alphabet had been debated since the end of the 19th century. The ß itself goes back to a ligature of long s and z."
+      }
+    }
+  },
+  {
+    "id": "f-dollarzeichen",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Das Dollarzeichen heißt auch Pesozeichen – und tauchte zuerst für spanisches Geld auf.",
+    "detail": "Spätestens in den 1770er-Jahren stand es in Handschriften im Geschäftsverkehr zwischen Mexiko und den britischen Kolonien Nordamerikas für die spanische Währung. Seine genaue Herkunft lässt sich nicht eindeutig belegen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Dollarzeichen",
+        "url": "https://de.wikipedia.org/wiki/Dollarzeichen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The dollar sign is also called the peso sign – and first appeared for Spanish money.",
+        "detail": "By the 1770s at the latest, it appeared in handwritten business papers between Mexico and the British colonies of North America to mark the Spanish currency. Its exact origin cannot be clearly proven."
+      }
+    }
+  },
+  {
+    "id": "f-micky-maus",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Micky Maus sollte ursprünglich Mortimer Mouse heißen.",
+    "detail": "Sein Schöpfer wollte die Figur anfangs Mortimer Mouse nennen. Der Tonfilm Steamboat Willie wurde am 18. November 1928 in New York uraufgeführt; dieses Datum gilt auch als Geburtstag von Micky Maus.",
+    "sources": [
+      {
+        "name": "Wikipedia: Micky Maus",
+        "url": "https://de.wikipedia.org/wiki/Micky_Maus"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Mickey Mouse was originally going to be called Mortimer Mouse.",
+        "detail": "His creator first wanted to name the character Mortimer Mouse. The sound film Steamboat Willie premiered in New York on 18 November 1928; this date is also regarded as Mickey Mouse's birthday."
+      }
+    }
+  },
+  {
+    "id": "f-monopoly-magie",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Ein Vorbild von Monopoly sollte eigentlich vor Landbesitz-Monopolen warnen.",
+    "detail": "Als Vorlage diente The Landlord’s Game, das Elizabeth Magie 1904 patentieren ließ. Es sollte die Gefahren des monopolistischen Landbesitzes zeigen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Monopoly",
+        "url": "https://de.wikipedia.org/wiki/Monopoly"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "A forerunner of Monopoly was actually meant to warn against land monopolies.",
+        "detail": "The template was The Landlord’s Game, which Elizabeth Magie patented in 1904. It was meant to show the dangers of monopolistic land ownership."
+      }
+    }
+  },
+  {
+    "id": "f-wimbledon-rasenwalze",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Das erste Wimbledon-Turnier gab es wegen der Rechnung für eine Rasenwalze.",
+    "detail": "Die ersten Lawn Tennis Championships begannen am 9. Juli 1877. Anlass war eine Rechnung über 10 Pfund für eine Rasenwalze, die erneuert werden musste. Wimbledon ist das einzige Grand-Slam-Turnier, das auf Rasen gespielt wird.",
+    "sources": [
+      {
+        "name": "Wikipedia: Wimbledon Championships",
+        "url": "https://de.wikipedia.org/wiki/Wimbledon_Championships"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The first Wimbledon tournament came about because of a bill for a lawn roller.",
+        "detail": "The first Lawn Tennis Championships began on 9 July 1877. The occasion was a bill of 10 pounds for a lawn roller that had to be replaced. Wimbledon is the only Grand Slam tournament played on grass."
+      }
+    }
   }
 ]
