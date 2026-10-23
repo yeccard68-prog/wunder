@@ -4583,5 +4583,353 @@
         "poster": "/clips/v-person-hopper.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-person-kopernikus",
+    "category_id": "science",
+    "title": "Nikolaus Kopernikus: Astronom, Domherr und Arzt",
+    "hook": "Sein Hauptwerk von 1543 führte zu einem Umbruch, der als „kopernikanische Wende“ bezeichnet wird.",
+    "description": "Nikolaus Kopernikus wurde am 19. Februar 1473 in Thorn geboren. Von 1491 bis 1494 besuchte er die Universität Krakau, wo er die Sieben Freien Künste studierte. Zum Wintersemester 1496/1497 begann er in Bologna ein Studium beider Rechte; dort studierte er auch Astronomie. In seinem Hauptwerk De revolutionibus orbium coelestium von 1543 beschreibt er ein heliozentrisches Weltbild: Die Erde sei ein Planet, drehe sich um ihre eigene Achse und bewege sich wie die anderen Planeten um die Sonne. Kopernikus starb am 24. Mai 1543 in Frauenburg.",
+    "video_url": "/clips/v-person-kopernikus.mp4",
+    "thumbnail_url": "/clips/v-person-kopernikus.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1473 in Thorn.",
+      "Studium in Krakau und später in Bologna.",
+      "1543: sein Hauptwerk De revolutionibus."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Nikolaus Kopernikus",
+        "url": "https://de.wikipedia.org/wiki/Nikolaus_Kopernikus"
+      }
+    ],
+    "published_at": "2026-10-23T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "quiz_question_id": "q-v-person-kopernikus",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-kopernikus",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Nicolaus Copernicus: astronomer, canon and physician",
+        "hook": "His main work of 1543 led to an upheaval known as the \"Copernican Revolution\".",
+        "description": "Nicolaus Copernicus was born in Thorn on 19 February 1473. From 1491 to 1494 he attended the University of Kraków, where he studied the seven liberal arts. In the winter semester of 1496/1497 he began studying both laws in Bologna; there he also studied astronomy. In his main work De revolutionibus orbium coelestium of 1543 he describes a heliocentric view of the world: the Earth is a planet, rotates on its own axis and, like the other planets, moves around the Sun. Copernicus died in Frauenburg on 24 May 1543.",
+        "captions": [
+          "Born in Thorn in 1473.",
+          "Studied in Kraków and later in Bologna.",
+          "1543: his main work De revolutionibus."
+        ],
+        "file": "/clips/v-person-kopernikus.en.mp4",
+        "poster": "/clips/v-person-kopernikus.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-bach",
+    "category_id": "culture",
+    "title": "Johann Sebastian Bach: Komponist des Barock",
+    "hook": "Vielen Berufsmusikern gilt Bach als der Inbegriff eines tiefgründigen und genialen Komponisten.",
+    "description": "Johann Sebastian Bach wurde nach dem Gregorianischen Kalender am 31. März 1685 in Eisenach geboren. Im Juli 1708 zog er mit seiner Frau nach Weimar. 1717 unterschrieb er den Vertrag als Hofkapellmeister in Köthen. 1723 trat er in Leipzig seinen Dienst als Thomaskantor an und behielt diese Stelle bis zu seinem Tod. Zu seinen bekanntesten Werken gehören die Brandenburgischen Konzerte, die Matthäus-Passion und das Weihnachtsoratorium. Bach hatte insgesamt 20 Kinder, von denen die meisten schon im Kindesalter starben. Er starb am 28. Juli 1750 in Leipzig.",
+    "video_url": "/clips/v-person-bach.mp4",
+    "thumbnail_url": "/clips/v-person-bach.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1685 in Eisenach.",
+      "1708 Weimar, 1717 Köthen.",
+      "Ab 1723 Thomaskantor in Leipzig."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Johann Sebastian Bach",
+        "url": "https://de.wikipedia.org/wiki/Johann_Sebastian_Bach"
+      }
+    ],
+    "published_at": "2026-10-22T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "quiz_question_id": "q-v-person-bach",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-bach",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Johann Sebastian Bach: a Baroque composer",
+        "hook": "Many professional musicians regard Bach as the epitome of a profound and brilliant composer.",
+        "description": "Johann Sebastian Bach was born in Eisenach on 31 March 1685 by the Gregorian calendar. In July 1708 he moved to Weimar with his wife. In 1717 he signed the contract as court Kapellmeister in Köthen. In 1723 he took up his post in Leipzig as Thomaskantor and kept this position until his death. His best-known works include the Brandenburg Concertos, the St Matthew Passion and the Christmas Oratorio. Bach had 20 children in total, most of whom died in childhood. He died in Leipzig on 28 July 1750.",
+        "captions": [
+          "Born in Eisenach in 1685.",
+          "1708 Weimar, 1717 Köthen.",
+          "From 1723 Thomaskantor in Leipzig."
+        ],
+        "file": "/clips/v-person-bach.en.mp4",
+        "poster": "/clips/v-person-bach.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-shakespeare",
+    "category_id": "culture",
+    "title": "William Shakespeare: Dichter der Weltliteratur",
+    "hook": "Shakespeares Dramen gehören zu den bedeutendsten Werken der Weltliteratur.",
+    "description": "William Shakespeare wurde laut Kirchenregister am 26. April 1564 in Stratford-upon-Avon getauft; sein Geburtsdatum ist nicht überliefert. Im Alter von 18 Jahren heiratete er vermutlich 1582 Anne Hathaway. Als seine Truppe 1599 ihren Spielort in das neu errichtete Globe Theatre verlegte, wurde er dort Teilhaber. Das überlieferte Gesamtwerk umfasst um 38 Bühnenstücke, sechs Versdichtungen sowie 154 Sonette. 1623 erschienen seine dramatischen Werke in der First Folio. Shakespeare starb 1616 in Stratford-upon-Avon.",
+    "video_url": "/clips/v-person-shakespeare.mp4",
+    "thumbnail_url": "/clips/v-person-shakespeare.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Getauft 1564 in Stratford-upon-Avon.",
+      "1599: Teilhaber am neuen Globe Theatre.",
+      "1623 erschien die First Folio mit seinen Dramen."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: William Shakespeare",
+        "url": "https://de.wikipedia.org/wiki/William_Shakespeare"
+      }
+    ],
+    "published_at": "2026-10-21T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Literatur"
+    ],
+    "quiz_question_id": "q-v-person-shakespeare",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-shakespeare",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "William Shakespeare: a poet of world literature",
+        "hook": "Shakespeare's dramas are among the most important works of world literature.",
+        "description": "According to the church register, William Shakespeare was baptised in Stratford-upon-Avon on 26 April 1564; his date of birth is not recorded. At the age of 18 he probably married Anne Hathaway in 1582. When his company moved to the newly built Globe Theatre in 1599, he became a shareholder there. His surviving works comprise about 38 plays, six narrative poems and 154 sonnets. In 1623 his dramatic works were published in the First Folio. Shakespeare died in Stratford-upon-Avon in 1616.",
+        "captions": [
+          "Baptised in Stratford-upon-Avon in 1564.",
+          "1599: shareholder in the new Globe Theatre.",
+          "1623: the First Folio of his plays appears."
+        ],
+        "file": "/clips/v-person-shakespeare.en.mp4",
+        "poster": "/clips/v-person-shakespeare.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-gauss",
+    "category_id": "math",
+    "title": "Carl Friedrich Gauß: Mathematiker und Astronom",
+    "hook": "Wegen seiner überragenden Leistungen galt Gauß schon zu Lebzeiten als „Fürst der Mathematiker“.",
+    "description": "Carl Friedrich Gauß wurde am 30. April 1777 in Braunschweig geboren. Am 30. März 1796, einen Monat vor seinem neunzehnten Geburtstag, bewies er die Konstruierbarkeit des regelmäßigen Siebzehnecks. Mit der Methode der kleinsten Quadrate ermöglichte er 1801 die Wiederentdeckung des ersten Asteroiden Ceres. 1807 wurde er zum Universitätsprofessor und Sternwartendirektor in Göttingen berufen. Zusammen mit Wilhelm Eduard Weber erfand er als einer der Ersten die elektromagnetische Telegrafie. Gauß starb am 23. Februar 1855 in Göttingen.",
+    "video_url": "/clips/v-person-gauss.mp4",
+    "thumbnail_url": "/clips/v-person-gauss.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1777 in Braunschweig.",
+      "1796 bewies er die Konstruierbarkeit des Siebzehnecks.",
+      "1801 berechnete er die Bahn der Ceres, 1807 wurde er Professor."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Carl Friedrich Gauß",
+        "url": "https://de.wikipedia.org/wiki/Carl_Friedrich_Gauß"
+      }
+    ],
+    "published_at": "2026-10-20T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Mathematik"
+    ],
+    "quiz_question_id": "q-v-person-gauss",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-gauss",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Carl Friedrich Gauss: mathematician and astronomer",
+        "hook": "Because of his outstanding achievements, Gauss was already regarded in his lifetime as the \"Prince of Mathematicians\".",
+        "description": "Carl Friedrich Gauss was born in Braunschweig on 30 April 1777. On 30 March 1796, a month before his nineteenth birthday, he proved that the regular heptadecagon (17-gon) can be constructed. With the method of least squares he made the rediscovery of the first asteroid, Ceres, possible in 1801. In 1807 he was appointed university professor and director of the observatory in Göttingen. Together with Wilhelm Eduard Weber he was one of the first to invent electromagnetic telegraphy. Gauss died in Göttingen on 23 February 1855.",
+        "captions": [
+          "Born in Braunschweig in 1777.",
+          "In 1796 he proved the 17-gon constructible.",
+          "1801: orbit of Ceres; 1807: professor."
+        ],
+        "file": "/clips/v-person-gauss.en.mp4",
+        "poster": "/clips/v-person-gauss.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-franklin",
+    "category_id": "science",
+    "title": "Rosalind Franklin: ein Schlüssel zur DNA-Struktur",
+    "hook": "Ihre Forschung bildete die Grundlage für die Entschlüsselung der DNA – doch Rosalind Franklin wurde dafür nicht gewürdigt.",
+    "description": "Rosalind Franklin wurde am 25. Juli 1920 in London geboren. Im Oktober 1938 begann sie in Cambridge ein Studium der Naturwissenschaften, das sie 1941 abschloss. 1950 kehrte sie nach London zurück, um am King's College London weiterzuforschen. Sie war Spezialistin für Röntgenstrukturanalyse; ihre mathematische Analyse der Röntgenbeugungsdiagramme der DNA war Voraussetzung zur Aufklärung der Doppelhelixstruktur. Ihr im April 1953 veröffentlichter Forschungsartikel bildete die Basis für den parallel erschienenen Artikel von James Watson und Francis Crick, die dafür 1962 den Nobelpreis erhielten. Franklin starb am 16. April 1958 im Alter von 37 Jahren.",
+    "video_url": "/clips/v-person-franklin.mp4",
+    "thumbnail_url": "/clips/v-person-franklin.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1920 in London.",
+      "1938 Studium in Cambridge, ab 1950 am King's College.",
+      "1953: ihr Artikel zur DNA erscheint."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Rosalind Franklin",
+        "url": "https://de.wikipedia.org/wiki/Rosalind_Franklin"
+      }
+    ],
+    "published_at": "2026-10-19T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Biologie"
+    ],
+    "quiz_question_id": "q-v-person-franklin",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-franklin",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Rosalind Franklin: a key to the structure of DNA",
+        "hook": "Her research formed the basis for deciphering DNA – yet Rosalind Franklin was never honoured for it.",
+        "description": "Rosalind Franklin was born in London on 25 July 1920. In October 1938 she began studying natural sciences in Cambridge, which she completed in 1941. In 1950 she returned to London to continue her research at King's College London. She was a specialist in X-ray crystallography; her mathematical analysis of the X-ray diffraction patterns of DNA was a prerequisite for working out the double-helix structure. Her research paper, published in April 1953, formed the basis for the paper by James Watson and Francis Crick that appeared at the same time; they received the Nobel Prize for it in 1962. Franklin died on 16 April 1958, aged 37.",
+        "captions": [
+          "Born in London in 1920.",
+          "1938 studies in Cambridge, from 1950 at King's College.",
+          "1953: her paper on DNA appears."
+        ],
+        "file": "/clips/v-person-franklin.en.mp4",
+        "poster": "/clips/v-person-franklin.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-polo",
+    "category_id": "earth",
+    "title": "Marco Polo: Reisender zwischen Venedig und China",
+    "hook": "Marco Polo wurde durch seinen Bericht über seinen mehr als zwei Jahrzehnte dauernden Aufenthalt in China bekannt.",
+    "description": "Marco Polo wurde 1254 in Venedig geboren. 1271 brachen sein Vater Niccolò und sein Onkel Maffeo wieder zur Reise auf und nahmen den siebzehnjährigen Marco mit. 1275 kamen sie in Shangdu an, wo Marco Polo Kublai Khan traf, den Großkhan der Mongolen. Die Rückreise nach Venedig begann 1291 im Hafen von Quanzhou; 1295 erreichten die Reisenden schließlich Venedig. Die größte Verbreitung seines Reiseberichts fand die lateinische Übersetzung, die allein in über 50 Handschriften erhalten ist. Marco Polo starb am 8. Januar 1324 in Venedig.",
+    "video_url": "/clips/v-person-polo.mp4",
+    "thumbnail_url": "/clips/v-person-polo.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1254 in Venedig.",
+      "1271 brach er mit Vater und Onkel nach Asien auf.",
+      "1275 traf er Kublai Khan, 1295 kehrte er heim."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Marco Polo",
+        "url": "https://de.wikipedia.org/wiki/Marco_Polo"
+      }
+    ],
+    "published_at": "2026-10-18T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Entdecker"
+    ],
+    "quiz_question_id": "q-v-person-polo",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-polo",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Marco Polo: a traveller between Venice and China",
+        "hook": "Marco Polo became famous for his account of a stay in China lasting more than two decades.",
+        "description": "Marco Polo was born in Venice in 1254. In 1271 his father Niccolò and his uncle Maffeo set off again and took the seventeen-year-old Marco with them. In 1275 they arrived in Shangdu, where Marco Polo met Kublai Khan, the Great Khan of the Mongols. The return journey to Venice began in 1291 in the port of Quanzhou; in 1295 the travellers finally reached Venice. The Latin translation of his travel account was the most widely circulated and survives in more than 50 manuscripts alone. Marco Polo died in Venice on 8 January 1324.",
+        "captions": [
+          "Born in Venice in 1254.",
+          "In 1271 he set off for Asia with his father and uncle.",
+          "1275: met Kublai Khan; 1295: back home."
+        ],
+        "file": "/clips/v-person-polo.en.mp4",
+        "poster": "/clips/v-person-polo.en.jpg"
+      }
+    }
   }
 ]

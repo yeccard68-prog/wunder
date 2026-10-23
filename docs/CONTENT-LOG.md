@@ -2,6 +2,10 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-23 · 2026-10-people-4 · 6 Persönlichkeiten-Clips · Kopernikus, Bach, Shakespeare, Gauß, Rosalind Franklin, Marco Polo · Recherche: Sub-Agent (Sonnet), Belege und Stationen geprüft.
+
+- 2026-10-23 · 2026-10-studies-2 · 7 Studien · Ultimatumspiel, Ebbinghaus, Miller-Urey, Little Albert, Mozart-Effekt, Attraktivität vor Gericht, Millikan · Recherche: Sub-Agent (Sonnet) · verworfen: Galtons Ochsen-Schätzung (Haken betraf das Buch, nicht die Studie); Beiname „Urknall des Lebens“ ersetzt.
+
 - 2026-10-23 · 2026-10-facts-10 · 8 Fakten · Technik (Bluetooth), Sport (Gelbes Trikot, Wimbledon), Geschichte (Stein von Rosette), Sprache (großes ẞ), Wirtschaft (Dollarzeichen, Monopoly), Kultur (Micky Maus) · Recherche: Sub-Agent (Sonnet) · bei der Kontrolle enger an die Quelle: „einem Soldaten“ statt „französischen Soldaten“, „in Gelb gedruckt“ statt „auf gelbem Papier“.
 
 - 2026-10-22 · 2026-10-studies-1 · 8 Studien (neues Format „Studie kurz erklärt“) · Marshmallow-Test, Asch, Milgram, Stanford-Prison, Dunning-Kruger, Pygmalion, Hawthorne, Rauchstudie (Zuschauereffekt) · Recherche: Sub-Agent (Sonnet) · bei der Kontrolle angepasst: Hawthorne „bedroht“ präzisiert, Dunning-Kruger 80 % als Einzelstudie gekennzeichnet, Zitat zur Glocke ergänzt.

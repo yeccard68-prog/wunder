@@ -230,5 +230,208 @@
         "caveat": "But the bystander effect does not always hold: in dangerous situations it is weaker or missing altogether. A 2019 study of 219 camera recordings found that bystanders stepped in in 91% of cases – and newer studies even question the effect altogether."
       }
     }
+  },
+  {
+    "id": "s-ultimatumspiel",
+    "category_id": "economy",
+    "min_age": 10,
+    "year": 1982,
+    "name": "Ultimatumspiel (fairer Anteil)",
+    "question": "Teilen Menschen Geld fair auf, obwohl sie auch nur an den eigenen Gewinn denken könnten?",
+    "method": "Werner Güth setzte das Spiel 1982 im Experiment um: Ein Spieler bekommt Geld und muss einem zweiten einen Teil davon anbieten. Lehnt der zweite ab, gehen beide leer aus.",
+    "result": "Spieler aus Industrieländern boten dem anderen meist 40 bis 50 % der Summe an, und Angebote unter 30 % wurden in der Regel abgelehnt. Viele nahmen also lieber nichts als eine unfair empfundene Aufteilung.",
+    "caveat": "Aber bei kleinen ethnischen Gruppen wurden sehr niedrige Angebote gemacht und nicht abgelehnt. Die Ergebnisse aus den Industrieländern sind demnach keine menschliche Universalie, sondern hängen von der Kultur ab.",
+    "sources": [
+      {
+        "name": "Wikipedia: Ultimatumspiel",
+        "url": "https://de.wikipedia.org/wiki/Ultimatumspiel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T12:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The ultimatum game (a fair share)",
+        "question": "Do people split money fairly even though they could think only of their own gain?",
+        "method": "Werner Güth ran the game as an experiment in 1982: one player gets money and has to offer a share of it to a second player. If the second player says no, both get nothing.",
+        "result": "Players from industrialised countries usually offered the other 40 to 50% of the sum, and offers below 30% were usually rejected. So many preferred nothing to a split they felt was unfair.",
+        "caveat": "But in small ethnic groups very low offers were made and not rejected. The results from industrialised countries are therefore not a human universal but depend on culture."
+      }
+    }
+  },
+  {
+    "id": "s-ebbinghaus",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1885,
+    "name": "Ebbinghaus und die Vergessenskurve",
+    "question": "Wie schnell vergessen wir etwas, das wir gerade gelernt haben?",
+    "method": "Der Psychologe Hermann Ebbinghaus lernte in Selbstversuchen Reihen sinnloser Silben auswendig. Er maß, wie viele Wiederholungen nötig waren, um sie nach einer Pause wieder fehlerfrei aufzusagen. Sein Buch dazu erschien 1885.",
+    "result": "Seine Ergebnisse besagen grob, dass man schon 20 Minuten nach dem Lernen nur noch 60 % des Gelernten abrufen kann und nach einem Tag nur noch 34 %.",
+    "caveat": "Aber es wurde kritisiert, dass es bei den Selbstversuchen keine Kontrolle von Störfaktoren gab und sinnlose Silben nur begrenzt etwas über sinnvoll Gelerntes sagen. Die Befunde gelten in ihren Grundzügen trotzdem noch heute als gültig.",
+    "sources": [
+      {
+        "name": "Wikipedia: Vergessenskurve",
+        "url": "https://de.wikipedia.org/wiki/Vergessenskurve"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Ebbinghaus and the forgetting curve",
+        "question": "How quickly do we forget something we have just learned?",
+        "method": "The psychologist Hermann Ebbinghaus memorised rows of meaningless syllables in experiments on himself. He measured how many repetitions it took to recite them without mistakes again after a break. His book on it appeared in 1885.",
+        "result": "Roughly, his results say that only 20 minutes after learning you can recall just 60% of what you learned, and after one day only 34%.",
+        "caveat": "But critics pointed out that his self-experiments had no control of disturbing factors and that meaningless syllables say only a limited amount about things learned with meaning. Even so, the findings are still regarded as valid in their basic outline today."
+      }
+    }
+  },
+  {
+    "id": "s-miller-urey",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1953,
+    "name": "Miller-Urey-Experiment (Bausteine des Lebens im Kolben)",
+    "question": "Konnten sich Bausteine des Lebens, etwa Aminosäuren, aus einfachen Stoffen der frühen Erde bilden?",
+    "method": "Stanley Miller und Harold Urey ließen 1953 in Chicago in einem Glaskolben elektrische Entladungen auf ein Gemisch aus Wasser, Methan, Ammoniak und Wasserstoff einwirken. Die Lichtbögen sollten Blitze auf der frühen Erde nachbilden.",
+    "result": "Es bildeten sich organische Moleküle: 18 % der Methanmoleküle wurden in Biomoleküle umgewandelt, aus dem Rest entstand eine teerartige Masse. Spätere Untersuchungen der Originalgefäße fanden 2008 acht weitere Aminosäuren.",
+    "caveat": "Aber es gibt ernste Zweifel, ob die Bedingungen der frühen Erde im Versuch realistisch nachgebildet waren. Und das Experiment kann nicht sagen, wie sich die Moleküle zu großen Strukturen verbunden hätten.",
+    "sources": [
+      {
+        "name": "Wikipedia: Miller-Urey-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Miller-Urey-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T10:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Miller–Urey experiment (building blocks of life in a flask)",
+        "question": "Could building blocks of life, such as amino acids, form from simple substances on the early Earth?",
+        "method": "In 1953 in Chicago, Stanley Miller and Harold Urey let electric discharges act on a mixture of water, methane, ammonia and hydrogen in a glass flask. The arcs were meant to imitate lightning on the early Earth.",
+        "result": "Organic molecules formed: 18% of the methane molecules were turned into biomolecules, and the rest became a tarry mass. Later tests of the original flasks found eight more amino acids in 2008.",
+        "caveat": "But there are serious doubts that the conditions of the early Earth were realistically recreated in the experiment. And the experiment cannot say how these molecules would have joined into large structures."
+      }
+    }
+  },
+  {
+    "id": "s-little-albert",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1920,
+    "name": "Little-Albert-Experiment (Angst lernen)",
+    "question": "Kann ein Kind eine Angstreaktion durch Konditionierung lernen?",
+    "method": "1920 zeigten John B. Watson und Rosalie Rayner an der Johns-Hopkins-Universität einem elf Monate alten Kind eine weiße Ratte. Gleichzeitig ließen sie es den lauten Ton einer Eisenstange hinter sich hören.",
+    "result": "Nach sieben Wiederholungen zeigte das Kind eine massive Angstreaktion beim Anblick der Ratte, später auch bei ähnlichen Reizen wie Fell, Baumwollbüscheln und weißen Bärten.",
+    "caveat": "Aber das Experiment ist ethisch wie wissenschaftlich umstritten: Es fehlten eine Quantifizierung und eine systematische Kontrolle der Variablen, und die empirische Basis für die weitreichenden Schlüsse war mehr als dünn. Spätere Darstellungen übertrieben die Furchtreaktion zudem manchmal.",
+    "sources": [
+      {
+        "name": "Wikipedia: Little-Albert-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Little-Albert-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T09:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Little Albert experiment (learning fear)",
+        "question": "Can a child learn a fear reaction through conditioning?",
+        "method": "In 1920, John B. Watson and Rosalie Rayner at Johns Hopkins University showed an eleven-month-old child a white rat. At the same time they let the child hear the loud sound of an iron bar behind it.",
+        "result": "After seven repetitions the child showed a massive fear reaction at the sight of the rat, and later also at similar things such as fur, tufts of cotton and white beards.",
+        "caveat": "But the experiment is controversial on ethical as well as scientific grounds: it lacked quantification and systematic control of variables, and the empirical basis for the far-reaching conclusions was more than thin. Later retellings also sometimes exaggerated the fear reaction."
+      }
+    }
+  },
+  {
+    "id": "s-mozart-effekt",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1993,
+    "name": "Mozart-Effekt (macht Mozart schlauer?)",
+    "question": "Steigert das Hören von Mozart kurzzeitig die Denkleistung?",
+    "method": "36 Studenten hörten in drei Sitzungen Mozarts Sonate für zwei Klaviere, eine Entspannungsanleitung oder verbrachten 10 Minuten in Stille. Danach löste jeder Aufgaben zum visuell-räumlichen Denken aus dem Stanford-Binet-Intelligenztest. Die Studie erschien 1993 in der Fachzeitschrift Nature.",
+    "result": "Nach dem Mozartstück lagen die Leistungen laut den Autoren um das Äquivalent von 8 beziehungsweise 9 IQ-Punkten über denen nach Entspannung beziehungsweise Stille. Die Autoren betonten, dass die Steigerung nur 10 bis 15 Minuten anhielt.",
+    "caveat": "Aber eine Forschergruppe um Steele fand 1999 bei einer genauen Wiederholung keinen statistisch signifikanten Effekt. Ein Team um Jakob Pietschnig untersuchte 36 Studien mit 3000 Teilnehmern und fand keine Belege für einen spezifischen Mozart-Effekt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Mozart-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Mozart-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T08:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Mozart effect (does Mozart make you smarter?)",
+        "question": "Does listening to Mozart briefly boost thinking performance?",
+        "method": "36 students, in three sessions, listened to Mozart's sonata for two pianos, listened to relaxation instructions, or spent 10 minutes in silence. Afterwards each solved visual-spatial tasks from the Stanford-Binet intelligence test. The study appeared in the journal Nature in 1993.",
+        "result": "After the Mozart piece, performance was, according to the authors, higher by the equivalent of 8 and 9 IQ points compared with after relaxation and silence. The authors stressed that the boost lasted only 10 to 15 minutes.",
+        "caveat": "But a research group around Steele found no statistically significant effect in 1999 when repeating it exactly. A team around Jakob Pietschnig examined 36 studies with 3000 participants and found no evidence for a specific Mozart effect."
+      }
+    }
+  },
+  {
+    "id": "s-halo-gericht",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1991,
+    "name": "Attraktivität vor Gericht (Downs und Lyons)",
+    "question": "Bekommen Angeklagte, die als attraktiver gelten, mildere Strafen?",
+    "method": "Downs und Lyons analysierten 1991 reale Gerichtsverfahren mit echten Richtern und Angeklagten an der Texas Gulf Coast. Unabhängige Beobachter bewerteten die Attraktivität der Angeklagten vor dem Urteil.",
+    "result": "Attraktivere Angeklagte erhielten bei kleineren Delikten signifikant niedrigere Geldstrafen als weniger attraktive. Je attraktiver sie waren, desto niedriger fiel die Strafe aus.",
+    "caveat": "Aber bei schwereren Delikten konnte kein Einfluss der Attraktivität festgestellt werden, und Mehrfachdelikte und Kapitalverbrechen waren ausgeschlossen. Die Autoren sehen deshalb weiteren Forschungsbedarf.",
+    "sources": [
+      {
+        "name": "Wikipedia: Halo-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Halo-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T07:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Attractiveness in court (Downs and Lyons)",
+        "question": "Do defendants who are seen as more attractive get milder punishments?",
+        "method": "In 1991, Downs and Lyons analysed real court cases with real judges and defendants on the Texas Gulf Coast. Independent observers rated the defendants' attractiveness before the verdict.",
+        "result": "For minor offences, more attractive defendants received significantly lower fines than less attractive ones. The more attractive they were, the lower the punishment.",
+        "caveat": "But for more serious offences no influence of attractiveness could be found, and repeat offences and capital crimes were excluded. The authors therefore see a need for further research."
+      }
+    }
+  },
+  {
+    "id": "s-millikan",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1910,
+    "name": "Millikans Öltröpfchenversuch",
+    "question": "Wie groß ist die kleinste elektrische Ladung, die Elementarladung?",
+    "method": "Robert Millikan und Harvey Fletcher maßen die Sinkgeschwindigkeit von elektrisch aufgeladenen Öltröpfchen mit und ohne elektrisches Feld. Daraus bestimmten sie die Elementarladung.",
+    "result": "Ihnen gelang 1910, die Elementarladung deutlich genauer zu bestimmen, als es bis dahin möglich gewesen war. Für diese Messung erhielt Millikan 1923 den Nobelpreis für Physik.",
+    "caveat": "Aber spätere Experimente zeigten, dass Millikans Werte zu niedrig waren; die Ursache war, wie sich 1936 herausstellte, ein falscher Wert für die Viskosität der Luft. Der Wissenschaftshistoriker Gerald Holton warf ihm 1978 zudem vor, Messwerte weggelassen zu haben, doch andere Historiker sahen dafür teils gute Gründe.",
+    "sources": [
+      {
+        "name": "Wikipedia: Millikan-Versuch",
+        "url": "https://de.wikipedia.org/wiki/Millikan-Versuch"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T06:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Millikan's oil drop experiment",
+        "question": "How big is the smallest electric charge, the elementary charge?",
+        "method": "Robert Millikan and Harvey Fletcher measured the sinking speed of electrically charged oil droplets with and without an electric field. From this they determined the elementary charge.",
+        "result": "In 1910 they managed to determine the elementary charge much more precisely than had been possible until then. For this measurement Millikan received the Nobel Prize in Physics in 1923.",
+        "caveat": "But later experiments showed that Millikan's values were too low; the cause, as turned out in 1936, was a wrong value for the viscosity of air. The historian of science Gerald Holton also accused him in 1978 of leaving out measurements, but other historians saw good reasons for this in part."
+      }
+    }
   }
 ]

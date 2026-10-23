@@ -33099,5 +33099,245 @@
         "explanation": "In 1952 she developed the first compiler (A-0) – it let programs be written in more understandable language."
       }
     }
+  },
+  {
+    "id": "q-v-person-kopernikus",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was beschreibt Kopernikus in seinem Hauptwerk über die Erde?",
+    "options": [
+      "Sie ist ein Planet, der um die Sonne kreist",
+      "Sie ruht im Mittelpunkt des Weltalls",
+      "Sie ist eine flache Scheibe",
+      "Sie ist ein Stern"
+    ],
+    "correct_index": 0,
+    "explanation": "Kopernikus beschreibt ein heliozentrisches Weltbild: Die Erde ist ein Planet, der sich um die eigene Achse dreht und wie die anderen Planeten um die Sonne bewegt.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nikolaus Kopernikus",
+    "source_url": "https://de.wikipedia.org/wiki/Nikolaus_Kopernikus",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Copernicus describe about the Earth in his main work?",
+        "options": [
+          "It is a planet that orbits the Sun",
+          "It rests at the centre of the universe",
+          "It is a flat disc",
+          "It is a star"
+        ],
+        "explanation": "Copernicus describes a heliocentric view of the world: the Earth is a planet that rotates on its own axis and, like the other planets, moves around the Sun."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-bach",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Kinder hatte Johann Sebastian Bach insgesamt?",
+    "options": [
+      "20",
+      "8",
+      "12",
+      "5"
+    ],
+    "correct_index": 0,
+    "explanation": "Bach hatte insgesamt 20 Kinder – neun Töchter und elf Söhne; die meisten starben schon im Kindesalter.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Johann Sebastian Bach",
+    "source_url": "https://de.wikipedia.org/wiki/Johann_Sebastian_Bach",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many children did Johann Sebastian Bach have in total?",
+        "options": [
+          "20",
+          "8",
+          "12",
+          "5"
+        ],
+        "explanation": "Bach had 20 children in total – nine daughters and eleven sons; most of them died in childhood."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-shakespeare",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Mitbesitzer welches Londoner Theaters war Shakespeare?",
+    "options": [
+      "Globe Theatre",
+      "Royal Opera House",
+      "Old Vic",
+      "London Palladium"
+    ],
+    "correct_index": 0,
+    "explanation": "Als Mitbesitzer des Londoner Globe Theatre war Shakespeare zunehmend als Dichter und Geschäftsmann erfolgreich.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: William Shakespeare",
+    "source_url": "https://de.wikipedia.org/wiki/William_Shakespeare",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Shakespeare was a co-owner of which London theatre?",
+        "options": [
+          "The Globe Theatre",
+          "The Royal Opera House",
+          "The Old Vic",
+          "The London Palladium"
+        ],
+        "explanation": "As co-owner of the London Globe Theatre, Shakespeare became increasingly successful as a poet and businessman."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-gauss",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wessen Wiederentdeckung ermöglichte Gauß im Jahr 1801?",
+    "options": [
+      "Des Asteroiden Ceres",
+      "Des Planeten Neptun",
+      "Des Halleyschen Kometen",
+      "Des Mondes Titan"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit der Methode der kleinsten Quadrate ermöglichte Gauß 1801 die Wiederentdeckung des ersten Asteroiden Ceres.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Mathematik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Carl Friedrich Gauß",
+    "source_url": "https://de.wikipedia.org/wiki/Carl_Friedrich_Gauß",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Whose rediscovery did Gauss make possible in 1801?",
+        "options": [
+          "The asteroid Ceres",
+          "The planet Neptune",
+          "Halley's Comet",
+          "The moon Titan"
+        ],
+        "explanation": "With the method of least squares, Gauss made the rediscovery of the first asteroid, Ceres, possible in 1801."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-franklin",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Mit welcher Methode untersuchte Rosalind Franklin die DNA?",
+    "options": [
+      "Röntgenbeugung",
+      "Elektronenmikroskopie",
+      "Chromatographie",
+      "Massenspektrometrie"
+    ],
+    "correct_index": 0,
+    "explanation": "Franklin war Spezialistin für Röntgenstrukturanalyse; ihr wichtigstes Ergebnis war die mathematische Analyse ihrer Röntgenbeugungsdiagramme der DNA.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rosalind Franklin",
+    "source_url": "https://de.wikipedia.org/wiki/Rosalind_Franklin",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which method did Rosalind Franklin use to study DNA?",
+        "options": [
+          "X-ray diffraction",
+          "Electron microscopy",
+          "Chromatography",
+          "Mass spectrometry"
+        ],
+        "explanation": "Franklin was a specialist in X-ray crystallography; her most important result was the mathematical analysis of her X-ray diffraction patterns of DNA."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-polo",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie alt war Marco Polo, als er 1271 mit Vater und Onkel aufbrach?",
+    "options": [
+      "17",
+      "25",
+      "12",
+      "31"
+    ],
+    "correct_index": 0,
+    "explanation": "Niccolò und Maffeo Polo nahmen 1271 den siebzehnjährigen Marco mit auf die Reise.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Entdecker"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marco Polo",
+    "source_url": "https://de.wikipedia.org/wiki/Marco_Polo",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How old was Marco Polo when he set off with his father and uncle in 1271?",
+        "options": [
+          "17",
+          "25",
+          "12",
+          "31"
+        ],
+        "explanation": "In 1271 Niccolò and Maffeo Polo took the seventeen-year-old Marco with them on the journey."
+      }
+    }
   }
 ]
