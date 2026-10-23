@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-23 · 2026-10-facts-12 + 2026-10-animations-anatomy-1 · 8 Anatomie-Fakten (Haut, Dünndarm, Lungenbläschen, Stäbchen und Zapfen, Kniescheibe, Wirbelsäule, Oberschenkelknochen, Muskeln ziehen nur) und die 3D-Animation „Wie Muskeln den Arm bewegen“ (neue Szene arm) mit Kontrollfrage · Recherche Fakten: Sub-Agent (Sonnet); Animation selbst, Szene in allen Schritten angesehen.
+
 - 2026-10-23 · 2026-10-facts-11 · 8 Fakten · Mathe (Googol), Technik (Centennial Light), Wirtschaft (Tulpenmanie), Business (Haftzettel), Geschichte (Kalender 1582), Sprache (Cherokee-Schrift), Kultur (Happy Birthday), Sport (Olympische Ringe) · Recherche: Sub-Agent (Sonnet).
 
 - 2026-10-23 · 2026-10-studies-3 · 3 Studien · Kleine-Welt-Experiment, Mere-Exposure-Effekt, Gorilla-Experiment · verworfen: Rosenhan und Schachter-Singer (zu nah an Gesundheitsthemen), Zeigarnik (Ablauf in der Quelle zu dünn).

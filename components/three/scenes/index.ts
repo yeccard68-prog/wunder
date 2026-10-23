@@ -1,6 +1,7 @@
 // Registry of 3D scenes. A scene is added here and referenced by its key from content/animations.json
 // ("renderer": "three", "scene": "<key>"). Everything in this folder is loaded only when a 3D animation is shown.
 import type { SceneFactory } from "../types";
+import { arm } from "./arm";
 import { cell } from "./cell";
 import { circuit } from "./circuit";
 import { dna } from "./dna";
@@ -28,4 +29,4 @@ import { tides } from "./tides";
 import { watercycle } from "./watercycle";
 import { windturbine } from "./windturbine";
 
-export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell, seasons, moon, lever, plates, starbirth, storm, neural, eclipse, greenhouse, pulley, circuit, watercycle, windturbine, gps, heatpump, sound, photosynthesis, heart, tides };
+export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell, seasons, moon, lever, plates, starbirth, storm, neural, eclipse, greenhouse, pulley, circuit, watercycle, windturbine, gps, heatpump, sound, photosynthesis, heart, tides, arm };

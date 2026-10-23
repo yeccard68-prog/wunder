@@ -2956,5 +2956,193 @@
         "detail": "The rings were designed by Pierre de Coubertin in 1913 and first used on the flag at the 1920 Games in Antwerp. The note about the continents was removed because there is no evidence that Coubertin intended it that way."
       }
     }
+  },
+  {
+    "id": "f-muskeln-ziehen",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Muskeln können nur ziehen – schieben können sie nicht.",
+    "detail": "Ein Skelettmuskel kann sich nur zusammenziehen und nicht von selbst wieder in die Ausgangslage dehnen. Dafür braucht er einen Gegenspieler auf der anderen Seite des Gelenks. Bizeps und Trizeps sind so ein Paar von Gegenspielern.",
+    "sources": [
+      {
+        "name": "Wikipedia: Bewegungsapparat",
+        "url": "https://de.wikipedia.org/wiki/Bewegungsapparat"
+      },
+      {
+        "name": "Wikipedia: Muskel",
+        "url": "https://de.wikipedia.org/wiki/Muskel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Muscles can only pull – they cannot push.",
+        "detail": "A skeletal muscle can only contract and cannot stretch itself back to its starting position. For that it needs an opposing muscle on the other side of the joint. Biceps and triceps are such a pair of opposing muscles."
+      }
+    }
+  },
+  {
+    "id": "f-haut-flaeche",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Deine Haut ist ein Organ mit rund 1,7 Quadratmetern Fläche.",
+    "detail": "Bei Erwachsenen misst die Haut im Durchschnitt 1,73 m² und wiegt 4 bis 5 Kilogramm. Dabei ist sie nur 1 bis 2 Millimeter dick – je nach Körperregion.",
+    "sources": [
+      {
+        "name": "Wikipedia: Haut",
+        "url": "https://de.wikipedia.org/wiki/Haut"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Your skin is an organ with an area of about 1.7 square metres.",
+        "detail": "In adults the skin averages 1.73 m² and weighs 4 to 5 kilograms. Yet it is only 1 to 2 millimetres thick, depending on the body region."
+      }
+    }
+  },
+  {
+    "id": "f-duenndarm-flaeche",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Dein Dünndarm ist innen viel größer als deine Haut außen.",
+    "detail": "Er ist 3 bis 5 Meter lang. Zotten und Mikrovilli vergrößern seine Innenfläche auf geschätzt 60 bis 200 m² – deutlich mehr als die Körperoberfläche.",
+    "sources": [
+      {
+        "name": "Wikipedia: Dünndarm",
+        "url": "https://de.wikipedia.org/wiki/Dünndarm"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Your small intestine has far more surface inside than your skin has outside.",
+        "detail": "It is 3 to 5 metres long. Villi and microvilli enlarge its inner surface to an estimated 60 to 200 m² – much more than the body surface."
+      }
+    }
+  },
+  {
+    "id": "f-lungenblaeschen",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "In deinen Lungen sitzen etwa 300 Millionen winzige Bläschen.",
+    "detail": "In diesen Lungenbläschen (Alveolen) findet der Gasaustausch statt. Jedes hat nur etwa 200 Mikrometer Durchmesser.",
+    "sources": [
+      {
+        "name": "Wikipedia: Lunge",
+        "url": "https://de.wikipedia.org/wiki/Lunge"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Your lungs contain about 300 million tiny air sacs.",
+        "detail": "Gas exchange takes place in these alveoli. Each one is only about 200 micrometres across."
+      }
+    }
+  },
+  {
+    "id": "f-staebchen-zapfen",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "In jedem Auge sitzen rund 126 Millionen Lichtsinneszellen.",
+    "detail": "Es sind etwa 120 Millionen Stäbchen und etwa 6 Millionen Zapfen. Sie sind nicht gleichmäßig auf der Netzhaut verteilt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Netzhaut",
+        "url": "https://de.wikipedia.org/wiki/Netzhaut"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Each eye holds around 126 million light-sensing cells.",
+        "detail": "There are about 120 million rods and about 6 million cones. They are not spread evenly across the retina."
+      }
+    }
+  },
+  {
+    "id": "f-kniescheibe-hebel",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Die Kniescheibe ist ein Kraftverstärker.",
+    "detail": "Sie sitzt als großes Sesambein in der Sehne des vierköpfigen Oberschenkelmuskels. Dort verlängert sie den Hebelarm und vervielfacht so die Kraft des Muskels.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kniescheibe",
+        "url": "https://de.wikipedia.org/wiki/Kniescheibe"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The kneecap is a force amplifier.",
+        "detail": "It sits as a large sesamoid bone in the tendon of the four-headed thigh muscle. There it lengthens the lever arm and so multiplies the muscle's force."
+      }
+    }
+  },
+  {
+    "id": "f-wirbelsaeule",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Deine Wirbelsäule ist doppelt S-förmig gebogen – als Stoßdämpfer.",
+    "detail": "Sie besteht aus 33 bis 34 Segmenten, davon 24 freie Wirbel, die über 23 Bandscheiben beweglich verbunden sind. Die Doppel-S-Form dämpft Stöße.",
+    "sources": [
+      {
+        "name": "Wikipedia: Wirbelsäule",
+        "url": "https://de.wikipedia.org/wiki/Wirbelsäule"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Your spine curves in a double S – as a shock absorber.",
+        "detail": "It consists of 33 to 34 segments, 24 of them free vertebrae connected flexibly by 23 discs. The double-S shape cushions impacts."
+      }
+    }
+  },
+  {
+    "id": "f-oberschenkelknochen",
+    "category_id": "science",
+    "area": "body",
+    "min_age": 10,
+    "text": "Der längste Knochen deines Körpers steckt im Oberschenkel.",
+    "detail": "Der Oberschenkelknochen (Femur) ist zugleich der kräftigste Röhrenknochen. Sein Kopf bildet mit dem Becken das Hüftgelenk.",
+    "sources": [
+      {
+        "name": "Wikipedia: Oberschenkelknochen",
+        "url": "https://de.wikipedia.org/wiki/Oberschenkelknochen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-23T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The longest bone in your body is in your thigh.",
+        "detail": "The thigh bone (femur) is also the strongest long bone. Its head forms the hip joint with the pelvis."
+      }
+    }
   }
 ]
