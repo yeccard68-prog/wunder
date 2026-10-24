@@ -6,6 +6,7 @@ import { SCENES } from "@/components/anim/scenes";
 import Stage3D from "@/components/three/Stage3D";
 import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
+import stills from "@/content/anim-stills.json";
 import { useStore, useT } from "@/lib/store";
 
 const SPEEDS = [0.75, 1, 1.5];
@@ -166,7 +167,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
   };
 
   return (
-    <div data-testid="animation-player" data-step={step} data-playing={playing} data-seconds={total} data-asking={asking} data-renderer={three ? "three" : Scene ? "svg" : "text"}>
+    <div data-testid="animation-player" data-step={step} data-playing={playing} data-seconds={total} data-asking={asking} data-renderer={three ? "three" : Scene ? "svg" : (stills as string[]).includes(animation.id) ? "still" : "text"}>
       <div className="overflow-hidden rounded-3xl bg-[#11100e] text-white">
         {three ? (
           <Stage3D scene={animation.scene} step={step} p={p} t={time * animation.motion} into={time - before} labels={animation.labels} title={animation.title} compact={compact} mounted={mounted} onUnavailable={() => setNo3d(true)} />
@@ -174,6 +175,10 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
           <svg viewBox="0 0 360 400" role="img" aria-label={animation.title} className={`mx-auto block w-full ${compact ? "max-h-[38dvh]" : ""}`} style={{ fontFamily: "var(--font-geist-sans), system-ui, sans-serif" }} onClick={toggle}>
             <Scene step={step} p={p} t={time * animation.motion} labels={animation.labels} />
           </svg>
+        ) : (stills as string[]).includes(animation.id) ? (
+          // no 3D on this device and no drawing: a still picture of the 3D scene for this step (scripts/anim-stills.mjs)
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={`/anim-stills/${animation.id}-${step}.jpg`} alt={animation.title} data-testid="animation-still" className={`mx-auto block w-full ${compact ? "max-h-[38dvh] object-contain" : ""}`} onClick={toggle} />
         ) : (
           <p role="status" className="px-5 py-10 text-center text-sm text-white/75">{t("Die 3D-Ansicht ist auf diesem Gerät nicht verfügbar. Die Erklärung kannst du trotzdem Schritt für Schritt lesen.")}</p>
         )}

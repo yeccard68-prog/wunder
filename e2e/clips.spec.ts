@@ -184,7 +184,7 @@ test("a 3D animation renders, can be stepped through and turned", async ({ page 
   await page.goto("/explain/");
   await page.getByRole("button", { name: /Wie DNA aufgebaut ist/ }).click();
   const player = page.getByTestId("animation-player");
-  await expect(player).toHaveAttribute("data-renderer", /three|text/); // "text" where the test machine has no WebGL
+  await expect(player).toHaveAttribute("data-renderer", /three|text|still/); // "text" or "still" where the test machine has no WebGL
   if ((await player.getAttribute("data-renderer")) === "three") {
     const stage = page.getByTestId("stage-3d");
     await expect(stage).toHaveAttribute("data-ready", "true", { timeout: 20_000 });
@@ -203,7 +203,7 @@ test("a 3D animation renders, can be stepped through and turned", async ({ page 
   expect(errors).toEqual([]);
 });
 
-test("without WebGL a 3D animation falls back to the drawing or to text, and still explains", async ({ page }) => {
+test("without WebGL a 3D animation falls back to the drawing or to still pictures, and still explains", async ({ page }) => {
   await signIn(page);
   await page.addInitScript(() => {
     const original = HTMLCanvasElement.prototype.getContext;
@@ -217,9 +217,11 @@ test("without WebGL a 3D animation falls back to the drawing or to text, and sti
   await expect(page.locator("svg[role=img]")).toBeVisible();
   await page.getByText("Alle Animationen").click();
   await page.getByRole("button", { name: /Wie DNA aufgebaut ist/ }).click();
-  await expect(page.getByTestId("animation-player")).toHaveAttribute("data-renderer", "text");
-  await expect(page.getByText("Die 3D-Ansicht ist auf diesem Gerät nicht verfügbar")).toBeVisible();
+  await expect(page.getByTestId("animation-player")).toHaveAttribute("data-renderer", "still");
+  await expect(page.getByTestId("animation-still")).toHaveAttribute("src", "/anim-stills/a-dna-0.jpg");
   await expect(page.getByText(/verdrehte Strickleiter/)).toBeVisible();
+  await page.getByRole("button", { name: "Schritt 2", exact: true }).click();
+  await expect(page.getByTestId("animation-still")).toHaveAttribute("src", "/anim-stills/a-dna-1.jpg");
 });
 
 test("books: shelf, search, a book with an interactive idea, progress, and ideas in the feed", async ({ page }) => {

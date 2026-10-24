@@ -21,9 +21,16 @@ export interface Tick {
 export function Frame({ title, xTicks, yTicks, xLabel, yLabel, children }: { title: string; xTicks: Tick[]; yTicks: Tick[]; xLabel: string; yLabel: string; children: ReactNode }) {
   return (
     <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={title} className="w-full select-none" style={{ touchAction: "pan-y", fontFamily: "var(--font-geist-sans), system-ui, sans-serif" }}>
+      <defs>
+        {/* a soft shadow under the data, so bars, points and lines stand off the paper */}
+        <filter id="viz-soft" x="-10%" y="-10%" width="120%" height="130%">
+          <feDropShadow dx="0" dy="1.2" stdDeviation="1.4" floodColor="#000" floodOpacity="0.22" />
+        </filter>
+      </defs>
+      <rect x={X0} y={Y1} width={X1 - X0} height={Y0 - Y1} rx={6} fill="var(--raised)" opacity={0.55} />
       {yTicks.map((t) => (
         <g key={"y" + t.label}>
-          <path d={`M${X0} ${t.at}H${X1}`} stroke="var(--line)" strokeWidth={1} />
+          <path d={`M${X0} ${t.at}H${X1}`} stroke="var(--line)" strokeWidth={1} strokeDasharray="3 3" />
           <text x={X0 - 6} y={t.at + 3.5} textAnchor="end" fontSize={10} fill="var(--muted)">{t.label}</text>
         </g>
       ))}
@@ -33,10 +40,10 @@ export function Frame({ title, xTicks, yTicks, xLabel, yLabel, children }: { tit
           <text x={t.at} y={Y0 + 15} textAnchor="middle" fontSize={10} fill="var(--muted)">{t.label}</text>
         </g>
       ))}
-      <path d={`M${X0} ${Y1}V${Y0}H${X1}`} fill="none" stroke="var(--muted)" strokeWidth={1.2} />
+      <path d={`M${X0} ${Y1}V${Y0}H${X1}`} fill="none" stroke="var(--muted)" strokeWidth={1.2} strokeLinecap="round" strokeLinejoin="round" />
       <text x={(X0 + X1) / 2} y={H - 5} textAnchor="middle" fontSize={10.5} fontWeight={600} fill="var(--ink)">{xLabel}</text>
       <text x={11} y={(Y0 + Y1) / 2} textAnchor="middle" fontSize={10.5} fontWeight={600} fill="var(--ink)" transform={`rotate(-90 11 ${(Y0 + Y1) / 2})`}>{yLabel}</text>
-      {children}
+      <g filter="url(#viz-soft)">{children}</g>
     </svg>
   );
 }

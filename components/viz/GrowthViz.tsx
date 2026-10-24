@@ -32,7 +32,14 @@ export default function GrowthViz({ visual, color, locale, onChange }: VizProps)
   return (
     <div className="space-y-4">
       <Frame title={visual.title} xLabel={L.axisX} yLabel={`${L.axisY} (${c.unit})`} xTicks={xT.map((t) => ({ at: x(t), label: String(t) }))} yTicks={yT.map((t) => ({ at: y(t), label: short(t) }))}>
-        <path d={`${line(grown)}L${x(v.years)} ${y(paid[v.years])}${paid.map((value, year) => `L${x(year).toFixed(1)} ${y(value).toFixed(1)}`).reverse().join("")}Z`} fill={color} opacity={0.14} />
+        <defs>
+          {/* the area under the curve fades out downwards */}
+          <linearGradient id={`grow-${visual.id}`} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor={color} stopOpacity={0.38} />
+            <stop offset="1" stopColor={color} stopOpacity={0.03} />
+          </linearGradient>
+        </defs>
+        <path d={`${line(grown)}L${x(v.years)} ${y(paid[v.years])}${paid.map((value, year) => `L${x(year).toFixed(1)} ${y(value).toFixed(1)}`).reverse().join("")}Z`} fill={`url(#grow-${visual.id})`} />
         <path d={line(paid)} fill="none" stroke="var(--muted)" strokeWidth={2} strokeDasharray="5 5" />
         <path d={line(grown)} fill="none" stroke={color} strokeWidth={3} strokeLinecap="round" />
         <circle cx={x(v.years)} cy={y(final)} r={5} fill={color} stroke="var(--surface)" strokeWidth={2} />

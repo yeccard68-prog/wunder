@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-24 · 2026-10-animations-anatomy-3 · neue 3D-Animation „Wie das Auge sieht“ (Szene eye: echtes Auge aus Z-Anatomy, seitlich aufgeschnitten, Strahlengang einer Kerze, Pupille verengt sich, Impulse im Sehnerv) mit Vorhersage- und Kontrollfrage qa-auge · Belege wörtlich aus Hornhaut, Iris, Linse, Netzhaut, Pupille, Sehnerv, Auge · „Bild steht auf dem Kopf“ nicht belegt, daher nur gezeigt, nicht behauptet.
+
 - 2026-10-24 · 2026-10-animations-anatomy-2 · neue 3D-Animation „Wie wir atmen“ (Szene lungs: echte Lunge, Zwerchfell, Luftröhre/Bronchien, Rippen, Herz aus Z-Anatomy; Lupe auf Lungenbläschen gezeichnet) mit Vorhersage- und Kontrollfrage qa-atmung · Belege wörtlich aus Zwerchfell, Lunge, Lungenventilation · alle Schritte angesehen.
 
 - 2026-10-24 · Szene heart neu · 3D-Animation „Wie das Herz Blut pumpt“ mit echtem Herz (Kammern, Klappen, Sehnenfäden, große Gefäße, Lunge; public/models/heart.glb aus Z-Anatomy/BodyParts3D, CC BY-SA), schräg aufgeschnitten, Blut fließt entlang der echten Gefäßlinien · Texte unverändert · alle Schritte angesehen.

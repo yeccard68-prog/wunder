@@ -54,7 +54,7 @@ export interface Animation {
 }
 
 /** 3D scenes built on third-party models (public/models): credit shown with the animation, details on the credits page. */
-export const MODEL_CREDITS: Record<string, string> = { arm: "Z-Anatomy, BodyParts3D (CC BY-SA)", heart: "Z-Anatomy, BodyParts3D (CC BY-SA)", lungs: "Z-Anatomy, BodyParts3D (CC BY-SA)" };
+export const MODEL_CREDITS: Record<string, string> = { arm: "Z-Anatomy, BodyParts3D (CC BY-SA)", heart: "Z-Anatomy, BodyParts3D (CC BY-SA)", lungs: "Z-Anatomy, BodyParts3D (CC BY-SA)", eye: "Z-Anatomy, BodyParts3D (CC BY-SA)" };
 
 export const animationRows = animationsJson as unknown as AnimationRow[];
 

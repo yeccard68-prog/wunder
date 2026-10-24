@@ -2804,5 +2804,129 @@
       ],
       "correct": 1
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-24T12:00:00Z",
+    "id": "a-auge",
+    "category_id": "science",
+    "scene": "eye",
+    "title": "Wie das Auge sieht",
+    "summary": "Vom Lichtstrahl zum Bild: Hornhaut, Linse und Netzhaut arbeiten zusammen.",
+    "goal": "Du kannst den Weg des Lichts durch das Auge beschreiben und erklären, wozu Pupille und Linse da sind.",
+    "labels": [
+      "Hornhaut",
+      "Iris",
+      "Pupille",
+      "Linse",
+      "Netzhaut",
+      "Sehnerv",
+      "Glaskörper",
+      "Scharfes Bild auf der Netzhaut",
+      "Hell: Die Pupille wird enger",
+      "Nervenimpulse zum Gehirn"
+    ],
+    "steps": [
+      {
+        "text": "Licht fällt zuerst durch die Hornhaut, ein klares Scheibchen. Dahinter liegt die Iris, die gefärbte Blende des Auges. In ihrer Mitte lässt sie eine Öffnung frei: die Pupille.",
+        "seconds": 9
+      },
+      {
+        "text": "Hinter der Pupille sitzt die Linse. Als Sammellinse bündelt sie das einfallende Licht so, dass hinten im Auge auf der Netzhaut ein scharfes Bild entsteht.",
+        "seconds": 9
+      },
+      {
+        "text": "Wird es plötzlich heller, verengt sich die Pupille; wird es dunkler, erweitert sie sich. So schwankt die Lichtmenge, die auf die Netzhaut fällt, weniger stark.",
+        "seconds": 9
+      },
+      {
+        "text": "In der Netzhaut wird das Licht in Nervenimpulse umgewandelt. Der Sehnerv mit rund einer Million Nervenfasern leitet sie weiter. Erst im Sehzentrum des Gehirns entsteht daraus, was wir sehen.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Hornhaut",
+        "url": "https://de.wikipedia.org/wiki/Hornhaut"
+      },
+      {
+        "name": "Wikipedia: Iris (Auge)",
+        "url": "https://de.wikipedia.org/wiki/Iris_(Auge)"
+      },
+      {
+        "name": "Wikipedia: Linse (Auge)",
+        "url": "https://de.wikipedia.org/wiki/Linse_(Auge)"
+      },
+      {
+        "name": "Wikipedia: Netzhaut",
+        "url": "https://de.wikipedia.org/wiki/Netzhaut"
+      },
+      {
+        "name": "Wikipedia: Pupille",
+        "url": "https://de.wikipedia.org/wiki/Pupille"
+      },
+      {
+        "name": "Wikipedia: Sehnerv",
+        "url": "https://de.wikipedia.org/wiki/Sehnerv"
+      },
+      {
+        "name": "Wikipedia: Auge",
+        "url": "https://de.wikipedia.org/wiki/Auge"
+      }
+    ],
+    "quiz_question_id": "qa-auge",
+    "translations": {
+      "en": {
+        "title": "How the eye sees",
+        "summary": "From a ray of light to a picture: cornea, lens and retina work together.",
+        "goal": "You can describe the path of light through the eye and explain what the pupil and the lens are for.",
+        "labels": [
+          "Cornea",
+          "Iris",
+          "Pupil",
+          "Lens",
+          "Retina",
+          "Optic nerve",
+          "Vitreous body",
+          "Sharp image on the retina",
+          "Bright: the pupil narrows",
+          "Nerve impulses to the brain"
+        ],
+        "steps": [
+          "Light first passes through the cornea, a clear little disc. Behind it lies the iris, the coloured aperture of the eye. It leaves an opening in its middle: the pupil.",
+          "Behind the pupil sits the lens. As a converging lens it focuses the incoming light so that a sharp image forms at the back of the eye, on the retina.",
+          "When it suddenly gets brighter, the pupil narrows; when it gets darker, it widens. That way the amount of light falling on the retina varies less.",
+          "In the retina the light is turned into nerve impulses. The optic nerve, with about a million nerve fibres, carries them on. Only in the visual centre of the brain does this become what we see."
+        ],
+        "predict": {
+          "question": "It is about to get bright suddenly. What does the pupil do?",
+          "options": [
+            "It narrows",
+            "It widens",
+            "It stays exactly the same"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 2,
+      "question": "Gleich wird es plötzlich hell. Was macht die Pupille?",
+      "options": [
+        "Sie wird enger",
+        "Sie wird weiter",
+        "Sie bleibt genau gleich"
+      ],
+      "correct": 0
+    }
   }
 ]

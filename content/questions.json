@@ -33419,5 +33419,45 @@
         "explanation": "The diaphragm contracts when you breathe in and flattens as it does. The chest cavity gets bigger, the lungs expand with it, and air flows in."
       }
     }
+  },
+  {
+    "id": "qa-auge",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie heißt die Öffnung in der Mitte der Iris, durch die Licht ins Auge fällt?",
+    "options": [
+      "Pupille",
+      "Linse",
+      "Netzhaut",
+      "Hornhaut"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Iris ist die gefärbte Blende des Auges. In ihrer Mitte lässt sie eine Öffnung frei: die Pupille. Ihre Größe regelt, wie viel Licht ins Auge fällt.",
+    "difficulty": 1,
+    "tags": [
+      "Anatomie",
+      "Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Iris (Auge)",
+    "source_url": "https://de.wikipedia.org/wiki/Iris_(Auge)",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the opening in the middle of the iris through which light enters the eye called?",
+        "options": [
+          "Pupil",
+          "Lens",
+          "Retina",
+          "Cornea"
+        ],
+        "explanation": "The iris is the coloured aperture of the eye. It leaves an opening in its middle: the pupil. Its size controls how much light enters the eye."
+      }
+    }
   }
 ]
