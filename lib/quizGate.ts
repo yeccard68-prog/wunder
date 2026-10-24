@@ -12,7 +12,16 @@ export const titleGivesAway = (clipId: string, locale: string) => ((leaks as Rec
 
 /** True from the moment the question is shown until it is answered in this view (answers from earlier views don't count). */
 export function useAsking(quiz: Item | undefined, shown: boolean, state: Pick<UserState, "answers">) {
+  return useQuizView(quiz, shown, state).asking;
+}
+
+/**
+ * asking: as useAsking. solved: answered correctly in this view – the question can then make way, so the learner
+ * has the animation to themselves and can play with it (a wrong answer keeps its explanation on screen).
+ */
+export function useQuizView(quiz: Item | undefined, shown: boolean, state: Pick<UserState, "answers">) {
   const [before] = useState(() => (quiz ? state.answers[quiz.id]?.at : undefined));
-  const answeredHere = !!quiz && !!state.answers[quiz.id] && state.answers[quiz.id].at !== before;
-  return !!quiz && shown && !answeredHere;
+  const record = quiz ? state.answers[quiz.id] : undefined;
+  const answeredHere = !!record && record.at !== before;
+  return { asking: !!quiz && shown && !answeredHere, solved: answeredHere && !!record?.correct };
 }

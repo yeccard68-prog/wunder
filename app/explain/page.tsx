@@ -7,7 +7,7 @@ import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Empty } from "@/components/ui";
 import { animationsFor, MODEL_CREDITS, type Animation } from "@/lib/animations";
-import { useAsking } from "@/lib/quizGate";
+import { useQuizView } from "@/lib/quizGate";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
 
@@ -62,7 +62,7 @@ function Detail({ current, onBack }: { current: Animation; onBack: () => void })
   const quiz = current.quizId ? items.find((i) => i.id === current.quizId) : undefined;
   const shown = !!quiz && (seen || !!state.answers[quiz.id]);
   // while the question is open the animation (its captions show the answer) steps aside
-  const asking = useAsking(quiz, shown && seen, state);
+  const { asking, solved } = useQuizView(quiz, shown && seen, state);
   return (
     <div className="space-y-5">
       <button onClick={onBack} className="press -ml-1 flex items-center gap-1.5 text-sm font-semibold text-muted">
@@ -81,7 +81,9 @@ function Detail({ current, onBack }: { current: Animation; onBack: () => void })
         <Target size={18} className="mt-0.5 shrink-0 text-accent" />
         <span>{current.goal}</span>
       </p>
-      {quiz && shown && (
+      {solved ? (
+        <p className="card flex items-center gap-2 p-4 text-sm font-semibold" role="status" data-testid="animation-solved"><Check size={16} className="shrink-0 text-good" /> {t("Richtig! Jetzt kannst du frei mit der Animation spielen.")}</p>
+      ) : quiz && shown && (
         <section>
           <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">{t("Verstanden?")}</p>
           <KnowledgeCard item={quiz} />

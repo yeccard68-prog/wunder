@@ -342,6 +342,28 @@ test("an animation stops once to ask what happens next, then shows it", async ({
   await expect(player).toHaveAttribute("data-step", "1");
 });
 
+test("a right guess makes way at once – the animation plays on", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explain/?a=a-arm");
+  const player = page.getByTestId("animation-player");
+  await page.getByRole("button", { name: "Schritt 3", exact: true }).click();
+  await expect(player).toHaveAttribute("data-asking", "true");
+  await page.getByTestId("predict").getByRole("button", { name: "Der Trizeps" }).click();
+  await expect(page.getByTestId("predict")).toHaveCount(0);
+  await expect(page.getByTestId("predict-right")).toBeVisible();
+  await expect(player).toHaveAttribute("data-playing", "true");
+});
+
+test("the how-to hint shows until it is closed once", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explain/?a=a-arm");
+  await page.getByTestId("animation-hint").getByRole("button", { name: "Verstanden" }).click();
+  await expect(page.getByTestId("animation-hint")).toHaveCount(0);
+  await page.reload();
+  await expect(page.getByTestId("animation-player")).toBeVisible();
+  await expect(page.getByTestId("animation-hint")).toHaveCount(0);
+});
+
 test("jumping straight to the step that answers the prediction still asks first – without showing the answer", async ({ page }) => {
   await signIn(page);
   await page.goto("/explain/?a=a-windrad");
@@ -462,7 +484,7 @@ test("interactive: supply and demand – the crossing point follows the sliders 
   await expect(card.getByTestId("visual-apply")).toContainText("Milch");
 });
 
-test("after the question about a clip is answered, the feed moves on by itself – or stays if asked to", async ({ page }) => {
+test("after the question about a clip is answered, it closes at once – the feed can be scrolled on right away", async ({ page }) => {
   await signIn(page);
   await page.goto("/");
   await expect(async () => {
@@ -477,10 +499,11 @@ test("after the question about a clip is answered, the feed moves on by itself �
     if (await page.getByTestId("clip-hint").isVisible().catch(() => false)) await option("B").click(); // wrong first try: second attempt
   };
   await answer();
-  const notice = page.getByTestId("advance");
-  await expect(notice).toContainText("Gleich geht es weiter");
-  await expect(notice).toHaveCount(0, { timeout: 8_000 }); // the question closes …
-  await expect.poll(() => feedTop(page, "feed-clip"), { timeout: 5_000 }).toBeLessThan(-200); // … and the next entry is on screen
+  await expect(page.getByRole("dialog", { name: "Frage zum Clip" })).toHaveCount(0, { timeout: 2_000 }); // no waiting, nothing loads
+  await expect(clip.getByTestId("clip-result")).toBeVisible(); // the result stays on the clip for a moment
+  await expect(clip.getByTestId("clip-takeaway")).toBeVisible();
+  await next(page);
+  await expect.poll(() => feedTop(page, "feed-clip"), { timeout: 5_000 }).toBeLessThan(-200); // the next entry is on screen
 });
 
 test("interactive: speed of sound – bars switch to the relative view and can be sorted", async ({ page }) => {

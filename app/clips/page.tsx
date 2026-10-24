@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, useCallback } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Bookmark, Captions, CaptionsOff, Check, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Info, MessageCircle, Play, Send, Share2, Volume2, VolumeX, Zap } from "lucide-react";
 import ClipPlayer from "@/components/ClipPlayer";
 import KnowledgeCard from "@/components/KnowledgeCard";
@@ -8,7 +8,6 @@ import { Avatar, Button, Empty, Sheet } from "@/components/ui";
 import { categoryById } from "@/lib/categories";
 import { rankClips, type Clip } from "@/lib/clips";
 import { personById } from "@/lib/people";
-import { scrollToElement, useAutoAdvance } from "@/lib/advance";
 import { captionAt, isChild } from "@/lib/content";
 import { formatLocale } from "@/lib/i18n";
 import { titleGivesAway } from "@/lib/quizGate";
@@ -161,16 +160,8 @@ export default function ClipsPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allClips, startId]);
   const clips = ranked.filter((c) => !state.hidden.includes(c.id));
-  const close = () => {
-    advance.stay();
-    setSheet(null);
-  };
-  // answered → close the question and move on to the next clip
-  const next = useCallback(() => {
-    setSheet(null);
-    scrollToElement(document.querySelectorAll("[data-clip-section]")[active + 1]);
-  }, [active]);
-  const advance = useAutoAdvance(next);
+  // answered → the question closes at once, so the next clip is only a swipe away
+  const close = () => setSheet(null);
   const clip = sheet?.clip;
 
   if (!clips.length)
@@ -221,13 +212,7 @@ export default function ClipsPage() {
       <Sheet open={sheet?.kind === "quiz"} onClose={close} title={t("Kurz testen")}>
         {clip && (
           <div className="pb-2">
-            {clip.quiz && <KnowledgeCard key={clip.quiz.id} item={clip.quiz} context="video" onAnswered={() => {}} clip={{ note: clip.takeaway, rewatch: close, done: advance.start }} />}
-            {advance.pending && (
-              <p className="mt-3 flex items-center justify-between gap-3 text-sm text-muted" role="status" data-testid="advance">
-                {t("Gleich geht es weiter …")}
-                <button onClick={advance.stay} className="press h-9 rounded-full border border-line px-3.5 text-sm font-semibold text-ink">{t("Hier bleiben")}</button>
-              </p>
-            )}
+            {clip.quiz && <KnowledgeCard key={clip.quiz.id} item={clip.quiz} context="video" onAnswered={() => {}} clip={{ note: clip.takeaway, rewatch: close, done: close }} />}
             <Button variant="secondary" className="mt-4 w-full" onClick={close}>
               {t("Weiter schauen")}
             </Button>

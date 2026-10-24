@@ -338,7 +338,6 @@
   "Gewonnen!": "You won!",
   "Gewusst": "Knew it",
   "Gezählt wird, was du nach einer Pause noch wusstest – nicht, was du nur angesehen hast.": "This counts what you still knew after a gap – not what you merely looked at.",
-  "Gleich geht es weiter …": "Moving on in a moment …",
   "Gold-Liga": "Gold League",
   "Gut belegt": "Well supported",
   "Gut eingeschätzt!": "Well judged!",
@@ -360,7 +359,6 @@
   "Heute erledigt: {a}/5 – morgen gibt es neue Fragen.": "Done for today: {a}/5 – new questions tomorrow.",
   "Heute wiederholen": "Review today",
   "Heutige Challenge: {a}:{b}": "Today's challenge: {a}:{b}",
-  "Hier bleiben": "Stay here",
   "Hier landen Karten, die du noch einmal üben solltest.": "Cards you should practise again end up here.",
   "Hier wird es lebendig": "This is where it comes alive",
   "Hilft uns zu sehen, welche Inhalte angesehen und abgeschlossen werden. Gespeichert wird nur, was du geöffnet oder beendet hast – keine Texte, kein Standort. Jederzeit abschaltbar.": "Helps us see which content is viewed and completed. Only what you opened or finished is stored – no texts, no location. Can be switched off at any time.",
@@ -887,5 +885,10 @@
   "Bearbeitete Auszüge aus": "Adapted excerpts from",
   "Bearbeitet: Ausschnitt, Formen vereinfacht, eigene Farben und Bewegung. Das bearbeitete Modell steht unter derselben Lizenz (CC BY-SA 4.0).": "Adapted: excerpt, simplified shapes, own colours and motion. The adapted model is available under the same licence (CC BY-SA 4.0).",
   "3D-Modell:": "3D model:",
-  "Lizenzen": "Licences"
+  "Lizenzen": "Licences",
+  "Nicht ganz – die Lösung steht hier.": "Not quite – the answer is right here.",
+  "Richtig! Jetzt kannst du frei mit der Animation spielen.": "Correct! Now the animation is yours to play with.",
+  "Gut vermutet!": "Good guess!",
+  "Tipp: Zum Drehen seitlich wischen, zum Zoomen mit zwei Fingern ziehen oder + und − tippen. Die Pfeile springen zwischen den Schritten. Nach der Frage gehört die Animation dir – spiel ruhig damit herum.": "Tip: swipe sideways to turn it, pinch or tap + and − to zoom. The arrows jump between steps. After the question the animation is yours – feel free to play with it.",
+  "Tipp: Die Pfeile springen zwischen den Schritten, Tippen aufs Bild hält an. Nach der Frage gehört die Animation dir – spiel ruhig damit herum.": "Tip: the arrows jump between steps, tapping the picture pauses it. After the question the animation is yours – feel free to play with it."
 }

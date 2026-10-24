@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Check, ChevronLeft, ChevronRight, Pause, Play, RotateCcw, X } from "lucide-react";
+import { Check, ChevronLeft, ChevronRight, Hand, Pause, Play, RotateCcw, X } from "lucide-react";
 import { SCENES } from "@/components/anim/scenes";
 import Stage3D from "@/components/three/Stage3D";
 import { track } from "@/lib/analytics";
@@ -9,6 +9,7 @@ import type { Animation } from "@/lib/animations";
 import { useStore, useT } from "@/lib/store";
 
 const SPEEDS = [0.75, 1, 1.5];
+const HINT_KEY = "wunder.anim.hint"; // the how-to hint has been closed on this device
 
 /**
  * Plays one explainer animation: a scene drawn step by step, with a caption per step.
@@ -50,6 +51,23 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
       /* storage blocked */
     }
   };
+  // how to use the player – shown until the learner closes it once (a convenience: without storage it simply shows again)
+  const [hint, setHint] = useState(false);
+  useEffect(() => {
+    try {
+      setHint(!localStorage.getItem(HINT_KEY));
+    } catch {
+      /* storage blocked */
+    }
+  }, []);
+  const closeHint = () => {
+    setHint(false);
+    try {
+      localStorage.setItem(HINT_KEY, "1");
+    } catch {
+      /* storage blocked */
+    }
+  };
   const predict = animation.predict;
   const predictAt = predict ? durations.slice(0, predict.step).reduce((a, b) => a + b, 0) : Infinity;
   const [asking, setAsking] = useState(false); // stopped for the prediction
@@ -77,16 +95,26 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
     setAsking(true);
     setTime(predictAt - 0.02); // stay in the step before: the next one would show the answer
   }, [time, playing, predict, predictAt]);
-  const choose = (i: number) => {
-    if (guess !== null || !predict) return;
-    setGuess(i);
-    track("animation_predict", animation.id, "animation");
-  };
+  const [praised, setPraised] = useState(false); // right guess: the question makes way at once, a short "well guessed" stays
   const resume = () => {
     hold.current = false;
     setAsking(false);
     setPlaying(true);
   };
+  const choose = (i: number) => {
+    if (guess !== null || !predict) return;
+    setGuess(i);
+    track("animation_predict", animation.id, "animation");
+    if (i === predict.correct) {
+      setPraised(true);
+      resume();
+    }
+  };
+  useEffect(() => {
+    if (!praised) return;
+    const id = setTimeout(() => setPraised(false), 2500);
+    return () => clearTimeout(id);
+  }, [praised]);
 
   useEffect(() => {
     if (!playing) return;
@@ -180,11 +208,19 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
         </div>
       ) : (
         <p aria-live="polite" className={compact ? "mt-3 min-h-[5.25rem] text-sm leading-snug" : "mt-4 min-h-[6rem] text-[15px] leading-relaxed"}>
+          {praised && <span className="pop mr-2 inline-flex items-center gap-1 rounded-full bg-good px-2.5 py-0.5 text-xs font-bold text-white" data-testid="predict-right"><Check size={13} /> {t("Gut vermutet!")}</span>}
           <span className="tnum mr-2 text-xs font-bold uppercase tracking-wider text-muted">{step + 1}/{durations.length}</span>
           {animation.steps[step].text}
         </p>
       )}
 
+      {hint && (
+        <div className="mb-2 flex items-start gap-2.5 rounded-2xl bg-raised p-3 text-xs leading-snug" role="note" data-testid="animation-hint">
+          <Hand size={16} className="mt-0.5 shrink-0 text-accent" />
+          <p className="flex-1">{three ? t("Tipp: Zum Drehen seitlich wischen, zum Zoomen mit zwei Fingern ziehen oder + und − tippen. Die Pfeile springen zwischen den Schritten. Nach der Frage gehört die Animation dir – spiel ruhig damit herum.") : t("Tipp: Die Pfeile springen zwischen den Schritten, Tippen aufs Bild hält an. Nach der Frage gehört die Animation dir – spiel ruhig damit herum.")}</p>
+          <button onClick={closeHint} className="press shrink-0 rounded-full border border-line px-2.5 py-1 font-semibold">{t("Verstanden")}</button>
+        </div>
+      )}
       <div className="relative mt-2 flex items-center justify-center gap-3">
         <button onClick={nextSpeed} aria-label={t("Tempo: {n}-fach", { n: String(speed).replace(".", ",") })} data-testid="speed" className="press absolute left-0 h-9 rounded-full border border-line px-3 text-xs font-bold tnum">{String(speed).replace(".", state.settings.locale === "en" ? "." : ",")}×</button>
         <button onClick={() => go(step - (p > 0.25 && !still ? 0 : 1))} disabled={step === 0 && time === 0} aria-label={t("Schritt zurück")} className="press flex h-12 w-12 items-center justify-center rounded-full bg-raised disabled:opacity-40">

@@ -75,8 +75,10 @@ export const arm: SceneFactory = async ({ THREE: T, scene, load }) => {
   scene.add(model);
 
   // A muscle bends with the forearm: each point turns around the elbow by a share of the forearm's angle –
-  // nothing at the shoulder end, fully where the tendon is fixed to the forearm. While it contracts, its
-  // belly gets thicker (same volume, shorter muscle). Texture coordinates run along the muscle for the fibres.
+  // nothing at the shoulder end, fully where the tendon is fixed to the forearm. Contraction c (−1 … 1):
+  // above 0 the belly bunches up towards the shoulder and gets thicker – most of all to the side it bulges to
+  // (same volume, shorter muscle); below 0 it is stretched long and thin. The tendon below the belly takes up
+  // the difference. Texture coordinates run along the muscle for the fibres.
   const muscle = (meshes: THREE.Mesh[], top: number, bottom: number, belly: [number, number]) => {
     const all = meshes.map((m) => m.geometry.getAttribute("position") as THREE.BufferAttribute);
     // centre line of the belly (x and z) – the belly swells away from it
@@ -108,12 +110,17 @@ export const arm: SceneFactory = async ({ THREE: T, scene, load }) => {
     const insertion = new T.Vector3();
     for (let i = 0; i < ends.length; i += 3) insertion.add(new T.Vector3(ends[i], ends[i + 1], ends[i + 2]));
     insertion.divideScalar(ends.length / 3 || 1);
+    let head = -Infinity;
+    rest.forEach((r) => {
+      for (let i = 1; i < r.length; i += 3) head = Math.max(head, r[i]);
+    });
     const q = new T.Quaternion();
     const v = new T.Vector3();
     return {
       insertion,
       origin: new T.Vector3(cx, belly[1] + 0.4, cz),
-      pose(angle: number, swell: number) {
+      pose(angle: number, c: number, side: number) {
+        const shift = 0.13 * c * (head - belly[0]); // how far the lower end of the belly moves up
         meshes.forEach((m, k) => {
           const a = all[k];
           const r = rest[k];
@@ -121,11 +128,16 @@ export const arm: SceneFactory = async ({ THREE: T, scene, load }) => {
             const y = r[i * 3 + 1];
             const w = ease(clamp((top - y) / (top - bottom)));
             v.set(r[i * 3], y, r[i * 3 + 2]);
-            if (swell > 0 && y > belly[0] && y < belly[1]) {
-              const grow = 1 + swell * Math.sin(((y - belly[0]) / (belly[1] - belly[0])) * Math.PI);
-              v.x = cx + (v.x - cx) * grow;
-              v.z = cz + (v.z - cz) * grow;
+            if (y > belly[0] && y < belly[1]) {
+              const bulge = Math.sin(((y - belly[0]) / (belly[1] - belly[0])) * Math.PI);
+              const grow = c * (c > 0 ? 0.55 : 0.25) * bulge;
+              const out = v.x - cx;
+              v.x = cx + out * (1 + grow * (Math.sign(out) === side ? 1.5 : 0.7)) + side * grow * 0.12;
+              v.z = cz + (v.z - cz) * (1 + grow * 0.75);
             }
+            // shorten towards the shoulder: the belly moves up, the tendon below it stretches
+            if (y >= belly[0]) v.y += (shift * (head - y)) / (head - belly[0]);
+            else v.y += shift * clamp((y - low) / (belly[0] - low));
             if (w > 0) v.applyQuaternion(q.setFromAxisAngle(axis, angle * w));
             a.setXYZ(i, v.x, v.y, v.z);
           }
@@ -162,10 +174,11 @@ export const arm: SceneFactory = async ({ THREE: T, scene, load }) => {
       turn.setFromAxisAngle(axis, angle);
       fore.node.quaternion.copy(turn);
       const bent = (angle - STRAIGHT) / (BENT - STRAIGHT);
-      bi.pose(angle, 0.32 * bent); // the shorter the biceps, the thicker its belly
-      tri.pose(angle, 0.12 * (1 - bent));
-      bicepsMat.emissive.setHex(active === 0 ? 0x3c0d08 : 0x000000);
-      tricepsMat.emissive.setHex(active === 1 ? 0x3c0d14 : 0x000000);
+      // the biceps is short and thick when the arm is bent and long and thin when it is straight – the triceps the other way round
+      bi.pose(angle, lerp(-0.6, 1, bent), 1);
+      tri.pose(angle, lerp(0.85, -0.6, bent), -1);
+      bicepsMat.emissive.setHex(active === 0 ? 0x5c1a0e : 0x000000);
+      tricepsMat.emissive.setHex(active === 1 ? 0x5c1424 : 0x000000);
       pull.visible = active >= 0;
       if (active >= 0) {
         const m = active === 0 ? bi : tri;

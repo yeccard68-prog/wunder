@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Bookmark, Check, ChevronDown, Clapperboard, HelpCircle, Shapes } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
@@ -9,7 +9,6 @@ import ClipPlayer from "@/components/ClipPlayer";
 import { DayCard, SeriesCard } from "@/components/DayCards";
 import HintButton from "@/components/HintButton";
 import { Sheet } from "@/components/ui";
-import { scrollToElement, useAutoAdvance } from "@/lib/advance";
 import { track } from "@/lib/analytics";
 import type { Animation } from "@/lib/animations";
 import { categoryById } from "@/lib/categories";
@@ -17,7 +16,7 @@ import { captionAt, type Clip } from "@/lib/content";
 import { entryContentIds, entryId, entryTopic, type FeedEntry } from "@/lib/feed";
 import FactCard from "./FactCard";
 import StudyCard from "./StudyCard";
-import { titleGivesAway, useAsking } from "@/lib/quizGate";
+import { titleGivesAway, useQuizView } from "@/lib/quizGate";
 import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
@@ -85,20 +84,21 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
   const saved = state.saves.includes(clip.id);
   const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onTime={setTime} onComplete={() => { setWatchedNow(true); trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
   const quizLabel = answered ? t("Frage zum Clip ansehen") : t("Frage zum Clip");
-  // answered → close the question and move on to the next entry of the feed
-  const next = useCallback(() => {
+  // answered → the question closes at once and the feed can be scrolled on; the result stays on the clip for a moment
+  const [result, setResult] = useState<boolean | null>(null);
+  const closeQuiz = () => setQuiz(false);
+  const finish = (correct: boolean) => {
     setQuiz(false);
-    scrollToElement(ref.current?.closest("section")?.nextElementSibling);
-  }, [ref]);
-  const advance = useAutoAdvance(next);
-  const closeQuiz = () => {
-    advance.stay();
-    setQuiz(false);
+    setResult(correct);
   };
-  const staying = advance.pending && (
-    <p className="mt-3 flex items-center justify-between gap-3 text-sm text-muted" role="status" data-testid="advance">
-      {t("Gleich geht es weiter …")}
-      <button onClick={advance.stay} className="press h-9 rounded-full border border-line px-3.5 text-sm font-semibold text-ink">{t("Hier bleiben")}</button>
+  useEffect(() => {
+    if (result === null) return;
+    const id = setTimeout(() => setResult(null), 3000);
+    return () => clearTimeout(id);
+  }, [result]);
+  const resultBadge = result !== null && (
+    <p className={`pop mb-1 inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-semibold ${result ? "bg-good text-white" : "bg-white text-[#11100e]"}`} role="status" data-testid="clip-result">
+      {result ? <><Check size={15} /> {t("Richtig!")}</> : t("Nicht ganz – die Lösung steht hier.")}
     </p>
   );
 
@@ -108,6 +108,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
         <div ref={ref} className="absolute inset-0">{player}</div>
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 space-y-1.5 p-5">
+          {resultBadge}
           {caption && <p className="mb-2 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">{caption}</p>}
           <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} light />
           <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{heading}</h2>
@@ -126,8 +127,7 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
           </div>
         </div>
         <Sheet open={quiz} onClose={closeQuiz} title={t("Frage zum Clip")}>
-          {clip.quiz && <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway, rewatch: closeQuiz, done: advance.start }} />}
-          {staying}
+          {clip.quiz && <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway, rewatch: closeQuiz, done: finish }} />}
         </Sheet>
       </article>
     );
@@ -167,7 +167,7 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
   // answered before and not due again: the animation is shown without its question (decided when it appears)
   const [askable] = useState(() => !quiz || !state.answers[quiz.id] || reviewDue(state.answers[quiz.id]));
   // while the question is open the animation (its captions and labels show the answer) steps aside
-  const asking = useAsking(quiz, askable && seen, state);
+  const { asking, solved } = useQuizView(quiz, askable && seen, state);
   return (
     <article className="card space-y-3 p-5" data-testid="feed-animation">
       <Kicker categoryId={animation.categoryId} icon={<Shapes size={14} />} label={t("So funktioniert’s")} />
@@ -180,7 +180,9 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
         )}
       </div>
       <div className="flex justify-end"><HintButton kind="animation" id={animation.id} label /></div>
-      {quiz && askable && seen && (
+      {solved ? (
+        <p className="flex items-center gap-2 rounded-2xl bg-good/10 p-3.5 text-sm font-semibold" role="status" data-testid="animation-solved"><Check size={16} className="shrink-0 text-good" /> {t("Richtig! Jetzt kannst du frei mit der Animation spielen.")}</p>
+      ) : quiz && askable && seen && (
         <div className="-mx-2 border-t border-line pt-3">
           <p className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-muted">{t("Verstanden?")}</p>
           <KnowledgeCard item={quiz} />
