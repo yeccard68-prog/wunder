@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-24 · Szene heart neu · 3D-Animation „Wie das Herz Blut pumpt“ mit echtem Herz (Kammern, Klappen, Sehnenfäden, große Gefäße, Lunge; public/models/heart.glb aus Z-Anatomy/BodyParts3D, CC BY-SA), schräg aufgeschnitten, Blut fließt entlang der echten Gefäßlinien · Texte unverändert · alle Schritte angesehen.
+
 - 2026-10-24 · Szene arm neu · 3D-Animation „Wie Muskeln den Arm bewegen“ mit echten Knochen und Muskeln (public/models/arm.glb aus Z-Anatomy/BodyParts3D, CC BY-SA, Quellenhinweis unter der Animation und auf der Lizenzseite; Weg: scripts/models/README.md) · Texte unverändert · alle Schritte angesehen.
 
 - 2026-10-23 · 2026-10-facts-12 + 2026-10-animations-anatomy-1 · 8 Anatomie-Fakten (Haut, Dünndarm, Lungenbläschen, Stäbchen und Zapfen, Kniescheibe, Wirbelsäule, Oberschenkelknochen, Muskeln ziehen nur) und die 3D-Animation „Wie Muskeln den Arm bewegen“ (neue Szene arm) mit Kontrollfrage · Recherche Fakten: Sub-Agent (Sonnet); Animation selbst, Szene in allen Schritten angesehen.

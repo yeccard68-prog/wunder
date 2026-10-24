@@ -131,6 +131,7 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
         renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, weak ? LOW_PIXEL_RATIO : MAX_PIXEL_RATIO));
         cost.current = { frames: 0, ms: 0, lowered: false };
         widths.current = [];
+        renderer.localClippingEnabled = true; // scenes may cut a model open (material.clippingPlanes)
         renderer.toneMapping = T.ACESFilmicToneMapping;
         renderer.outputColorSpace = T.SRGBColorSpace;
         const world = new T.Scene();

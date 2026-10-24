@@ -37,6 +37,15 @@ const MODELS = [
     ],
     source: "https://github.com/Z-Anatomy/Models-of-human-anatomy",
   },
+  {
+    file: "heart.glb",
+    used: "Animation „Wie das Herz Blut pumpt“: Herz mit Klappen, große Blutgefäße und Lunge",
+    credits: [
+      ["Z-Anatomy – The libre 3D atlas of anatomy", "CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/"],
+      ["BodyParts3D – The Database Center for Life Science", "CC BY-SA 2.1 Japan", "https://creativecommons.org/licenses/by-sa/2.1/jp/"],
+    ],
+    source: "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  },
 ];
 
 const SOFTWARE = [
