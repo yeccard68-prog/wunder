@@ -31,25 +31,59 @@ export const emotor: SceneFactory = ({ THREE: T, scene }) => {
     return m;
   };
 
-  // horseshoe magnet: red north pole on the left, green south pole on the right, joined by an iron yoke below
-  box(0.9, 2.2, 1.7, new T.MeshStandardMaterial({ color: 0xc8443a, metalness: 0.35, roughness: 0.45 }), [-2.25, -0.2, 0]);
-  box(0.9, 2.2, 1.7, new T.MeshStandardMaterial({ color: 0x3a8f5c, metalness: 0.35, roughness: 0.45 }), [2.25, -0.2, 0]);
-  box(5.4, 0.5, 1.7, iron, [0, -1.55, 0]);
-  // bearings holding the axle
-  // (the front one is slim, so it does not hide the commutator)
-  for (const [z, w] of [[-LEN / 2 - 0.55, 0.5], [FRONT + 0.6, 0.2]]) {
-    box(w, 1.5, 0.14, iron, [0, -0.6, z]);
-    box(w + 0.6, 0.14, 0.5, iron, [0, -1.37, z]);
+  // the base board everything stands on
+  box(6.4, 0.16, 5.4, new T.MeshPhysicalMaterial({ color: 0x9a6a3e, roughness: 0.62, clearcoat: 0.3, clearcoatRoughness: 0.5 }), [0, -1.9, 0.9]);
+  // horseshoe magnet, painted: red north pole on the left, green south pole on the right, bare steel at the pole faces
+  const half = (side: number) => {
+    // one half of the U, as a profile in x/y extruded along the axle, with rounded edges
+    const sh = new T.Shape();
+    const o = 2.7, i = 1.8, top = 0.9, bottom = -1.8, inner = -1.25, bend = 0.55;
+    const x = (v: number) => side * v; // drawn mirrored for the left half (flipping the mesh would turn its faces inside out)
+    sh.moveTo(0, bottom);
+    sh.lineTo(x(o - bend), bottom);
+    sh.quadraticCurveTo(x(o), bottom, x(o), bottom + bend);
+    sh.lineTo(x(o), top);
+    sh.lineTo(x(i), top);
+    sh.lineTo(x(i), inner + 0.25);
+    sh.quadraticCurveTo(x(i), inner, x(i - 0.25), inner);
+    sh.lineTo(0, inner);
+    sh.closePath();
+    const g = new T.ExtrudeGeometry(sh, { depth: 1.5, bevelEnabled: true, bevelThickness: 0.08, bevelSize: 0.08, bevelSegments: 3, curveSegments: 16 });
+    g.translate(0, 0, -0.75);
+    const paint = new T.MeshPhysicalMaterial({ color: side < 0 ? 0xc23b30 : 0x2f8a55, roughness: 0.35, clearcoat: 0.8, clearcoatRoughness: 0.15 });
+    add(new T.Mesh(g, paint));
+    // the pole face: bare, ground steel
+    box(0.06, 1.6, 1.62, steel, [side * 1.73, 0.05, 0]);
+  };
+  half(-1);
+  half(1);
+  // bearing blocks holding the axle: a post with a round bearing at the top (the front one is slim, so it does not hide the commutator)
+  const brass = new T.MeshPhysicalMaterial({ color: 0xc9a14a, metalness: 1, roughness: 0.25 });
+  for (const [z, w] of [[-LEN / 2 - 0.55, 0.42], [FRONT + 0.6, 0.22]]) {
+    box(w, 1.6, 0.16, iron, [0, -1.0, z]);
+    box(w + 0.7, 0.12, 0.6, iron, [0, -1.76, z]);
+    const ring = add(new T.Mesh(new T.TorusGeometry(0.16, 0.07, 12, 28), brass));
+    ring.position.set(0, 0, z);
   }
 
   // the rotor: axle, coil (three turns of copper wire) and the two halves of the commutator
   const rotor = add(new T.Group());
   rod(0.09, LEN + 2.6, steel, [0, 0, 0.35], "z", rotor);
-  for (const d of [-0.07, 0, 0.07]) {
-    rod(0.045, LEN, copper, [-RAD, d, 0], "z", rotor);
-    rod(0.045, LEN, copper, [RAD, d, 0], "z", rotor);
-    rod(0.045, 2 * RAD, copper, [0, d, -LEN / 2], "x", rotor);
-  }
+  // the coil: six turns of enamelled copper wire, wound as a rounded rectangle round the axle
+  const enamel = new T.MeshPhysicalMaterial({ color: 0xb8662c, metalness: 0.85, roughness: 0.22, clearcoat: 1, clearcoatRoughness: 0.08 });
+  const turn = (off: number, y: number) => {
+    const w = RAD + off, l = LEN / 2 + off, c = 0.18;
+    const path = new T.CurvePath<InstanceType<typeof T.Vector3>>();
+    const P = (x: number, z: number) => new T.Vector3(x, y, z);
+    const corner = (cx: number, cz: number, a0: number) => new T.QuadraticBezierCurve3(P(cx + c * Math.cos(a0), cz + c * Math.sin(a0)), P(cx + c * (Math.cos(a0) + Math.cos(a0 + Math.PI / 2)), cz + c * (Math.sin(a0) + Math.sin(a0 + Math.PI / 2))), P(cx + c * Math.cos(a0 + Math.PI / 2), cz + c * Math.sin(a0 + Math.PI / 2)));
+    path.add(new T.LineCurve3(P(-w, l), P(-w, -l + c)));
+    path.add(corner(-w + c, -l + c, Math.PI));
+    path.add(new T.LineCurve3(P(-w + c, -l), P(w - c, -l)));
+    path.add(corner(w - c, -l + c, -Math.PI / 2));
+    path.add(new T.LineCurve3(P(w, -l + c), P(w, l)));
+    add(new T.Mesh(new T.TubeGeometry(path, 120, 0.032, 8, false), enamel), rotor);
+  };
+  for (let k = 0; k < 6; k++) turn((k % 2) * 0.05, -0.1 + Math.floor(k / 2) * 0.07 + (k % 2) * 0.035);
   // leads from the coil to the commutator halves
   for (const side of [-1, 1]) {
     rod(0.04, RAD - 0.2, copper, [side * (RAD + 0.2) * 0.5, 0, LEN / 2], "x", rotor);
@@ -64,6 +98,10 @@ export const emotor: SceneFactory = ({ THREE: T, scene }) => {
   // brushes pressing on the ring, wires down to the battery
   for (const side of [-1, 1]) {
     box(0.34, 0.22, 0.3, graphite, [side * 0.5, 0, FRONT]);
+    // brass holder around the carbon, and the spring that presses it onto the ring
+    box(0.3, 0.3, 0.36, brass, [side * 1.0, 0, FRONT]);
+    const coil = new T.CatmullRomCurve3(Array.from({ length: 49 }, (_, i) => new T.Vector3(side * (0.67 + (i / 48) * 0.17), Math.cos(i * 0.785) * 0.07, FRONT + Math.sin(i * 0.785) * 0.07)));
+    add(new T.Mesh(new T.TubeGeometry(coil, 96, 0.012, 6, false), steel));
     rod(0.03, 1.55, copper, [side * 0.67, -0.85, FRONT], "y");
     rod(0.03, 0.3, copper, [side * 0.82, -1.62, FRONT], "x");
   }

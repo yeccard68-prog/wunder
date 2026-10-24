@@ -2,18 +2,39 @@
 // labels: 0 pivot, 1 load, 2 force, 3 load arm, 4 force arm, 5 "4 × as long – ¼ of the force",
 //         6 "4 × the distance"
 // Law of the lever: force × force arm = load × load arm. The weight of the beam itself is left out.
+import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { TIMING } from "@/lib/animations";
-import { clamp, ease, lerp, type SceneFactory, type Vec3 } from "../types";
+import { clamp, ease, lerp, type SceneFactory, type Vec3, rand } from "../types";
 
 const TOP = 1.1; // height of the pivot edge
 const LOAD_X = -3.4;
 const SWING = 0.085; // how far the beam tilts (radians)
 
 export const lever: SceneFactory = ({ THREE: T, scene }) => {
-  const wood = new T.MeshStandardMaterial({ color: 0xb98a55, roughness: 0.7, metalness: 0 });
-  const iron = new T.MeshStandardMaterial({ color: 0x565a61, metalness: 0.8, roughness: 0.45 });
+  // oiled wood with a grain along the beam (painted once on a canvas)
+  const grain = document.createElement("canvas");
+  grain.width = 512;
+  grain.height = 64;
+  const g2 = grain.getContext("2d");
+  if (g2) {
+    g2.fillStyle = "#b98a55";
+    g2.fillRect(0, 0, 512, 64);
+    for (let i = 0; i < 70; i++) {
+      const y = rand(i, 1) * 64;
+      g2.strokeStyle = `rgba(${rand(i, 2) > 0.5 ? "120,78,40" : "214,170,118"},${0.18 + 0.25 * rand(i, 3)})`;
+      g2.lineWidth = 0.6 + 2.2 * rand(i, 4);
+      g2.beginPath();
+      g2.moveTo(0, y);
+      for (let x = 0; x <= 512; x += 32) g2.lineTo(x, y + Math.sin(x * 0.02 + i) * 2.5 * rand(i, 5));
+      g2.stroke();
+    }
+  }
+  const grainMap = new T.CanvasTexture(grain);
+  grainMap.colorSpace = T.SRGBColorSpace;
+  const wood = new T.MeshPhysicalMaterial({ color: 0xffffff, map: grainMap, roughness: 0.55, clearcoat: 0.35, clearcoatRoughness: 0.4 });
+  const iron = new T.MeshPhysicalMaterial({ color: 0x5d6168, metalness: 0.85, roughness: 0.38, clearcoat: 0.3 });
   const steel = new T.MeshStandardMaterial({ color: 0xc3c6cc, metalness: 0.95, roughness: 0.3 });
-  const ground = new T.Mesh(new T.BoxGeometry(30, 0.2, 12), new T.MeshStandardMaterial({ color: 0x1d1e21, roughness: 0.9 }));
+  const ground = new T.Mesh(new T.BoxGeometry(30, 0.2, 12), new T.MeshStandardMaterial({ color: 0x2a2724, roughness: 0.8 })); // a dark workbench
   ground.position.y = -0.1;
   // pivot: a steel wedge
   const triangle = new T.Shape();
@@ -21,12 +42,12 @@ export const lever: SceneFactory = ({ THREE: T, scene }) => {
   triangle.lineTo(0.55, 0);
   triangle.lineTo(0, TOP);
   triangle.closePath();
-  const wedge = new T.Mesh(new T.ExtrudeGeometry(triangle, { depth: 1.1, bevelEnabled: false }), steel);
+  const wedge = new T.Mesh(new T.ExtrudeGeometry(triangle, { depth: 1.1, bevelEnabled: true, bevelThickness: 0.03, bevelSize: 0.03, bevelSegments: 3 }), steel);
   wedge.position.z = -0.55;
   // everything that tilts hangs in this group, whose origin is the pivot edge
   const tilt = new T.Group();
   tilt.position.y = TOP;
-  const beam = new T.Mesh(new T.BoxGeometry(8, 0.16, 0.7), wood);
+  const beam = new T.Mesh(new RoundedBoxGeometry(8, 0.16, 0.7, 3, 0.04), wood);
   beam.position.y = 0.08;
   // marks every unit of length along the beam
   const marks = new T.Group();
@@ -39,7 +60,8 @@ export const lever: SceneFactory = ({ THREE: T, scene }) => {
   const stack = () => {
     const g = new T.Group();
     for (let i = 0; i < 4; i++) {
-      const w = new T.Mesh(new T.CylinderGeometry(0.42, 0.42, 0.24, 32), iron);
+      // a weight with chamfered edges and a groove, as on a set of lab weights
+      const w = new T.Mesh(new T.LatheGeometry([[0, -0.12], [0.39, -0.12], [0.42, -0.09], [0.42, -0.02], [0.4, 0], [0.42, 0.02], [0.42, 0.09], [0.39, 0.12], [0, 0.12]].map(([x, y]) => new T.Vector2(x, y)), 48), iron);
       w.position.y = 0.16 + 0.12 + i * 0.25;
       g.add(w);
     }

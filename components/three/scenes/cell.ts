@@ -2,6 +2,7 @@
 // labels: 0 negative terminal, 1 positive terminal, 2 electrolyte, 3 electrons, 4 ions, 5 lamp
 // Electrons leave the negative plate through the wire and reach the positive plate; inside the cell
 // ions carry the charge through the liquid. Sizes of electrons and ions are of course not to scale.
+import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { TIMING } from "@/lib/animations";
 import { clamp, ease, lerp, rand, type SceneFactory, type Vec3 } from "../types";
 
@@ -18,6 +19,10 @@ export const cell: SceneFactory = ({ THREE: T, scene }) => {
   glass.renderOrder = 4;
   const base = add(new T.Mesh(new T.CylinderGeometry(1.75, 1.75, 0.08, 64), new T.MeshPhysicalMaterial({ color: 0xdff2ff, transparent: true, opacity: 0.3, roughness: 0.05, clearcoat: 1 })));
   base.position.y = BOTTOM - 0.04;
+  // the rolled rim at the top of the beaker
+  const rim = add(new T.Mesh(new T.TorusGeometry(1.75, 0.035, 10, 96), new T.MeshPhysicalMaterial({ color: 0xe8f6ff, transparent: true, opacity: 0.45, roughness: 0.03, clearcoat: 1 })));
+  rim.rotation.x = Math.PI / 2;
+  rim.position.y = BOTTOM + 2.9;
   const liquidMat = new T.MeshStandardMaterial({ color: 0x5aa7d6, transparent: true, opacity: 0.3, roughness: 0.2, depthWrite: false });
   const liquid = add(new T.Mesh(new T.CylinderGeometry(1.7, 1.7, LIQUID - BOTTOM, 64), liquidMat));
   liquid.position.y = (LIQUID + BOTTOM) / 2;
@@ -29,15 +34,18 @@ export const cell: SceneFactory = ({ THREE: T, scene }) => {
 
   // the two plates: a grey metal that gives up electrons easily (negative) and a reddish one (positive)
   const plate = (x: number, color: number) => {
-    const m = add(new T.Mesh(new T.BoxGeometry(0.16, TOP - BOTTOM - 0.25, 1.1), new T.MeshStandardMaterial({ color, metalness: 0.85, roughness: 0.38 })));
+    const m = add(new T.Mesh(new RoundedBoxGeometry(0.16, TOP - BOTTOM - 0.25, 1.1, 3, 0.03), new T.MeshStandardMaterial({ color, metalness: 0.85, roughness: 0.42 })));
     m.position.set(x, (TOP + BOTTOM + 0.25) / 2, 0);
     return m;
   };
   plate(-X, 0xa9adb5);
   plate(X, 0xc8793a);
   const clip = (x: number) => {
-    const m = add(new T.Mesh(new T.BoxGeometry(0.28, 0.2, 0.3), new T.MeshStandardMaterial({ color: 0x33353a, metalness: 0.7, roughness: 0.5 })));
+    // a terminal clamp with a knurled screw on top
+    const m = add(new T.Mesh(new RoundedBoxGeometry(0.3, 0.22, 0.32, 3, 0.04), new T.MeshStandardMaterial({ color: 0xb8973f, metalness: 1, roughness: 0.3 })));
     m.position.set(x, TOP + 0.02, 0);
+    const screw = add(new T.Mesh(new T.CylinderGeometry(0.09, 0.09, 0.1, 18), new T.MeshStandardMaterial({ color: 0x33353a, metalness: 0.7, roughness: 0.45 })));
+    screw.position.set(x, TOP + 0.18, 0);
   };
   clip(-X);
   clip(X);
@@ -45,15 +53,22 @@ export const cell: SceneFactory = ({ THREE: T, scene }) => {
   // the wire over the top with a small lamp in the middle
   const wirePath = new T.CatmullRomCurve3([[-X, TOP, 0], [-X, 2.35, 0], [-0.75, 2.75, 0], [-0.28, 2.8, 0], [0.28, 2.8, 0], [0.75, 2.75, 0], [X, 2.35, 0], [X, TOP, 0]].map((q) => new T.Vector3(...(q as Vec3))), false, "catmullrom", 0.2);
   const wire = add(new T.Mesh(new T.TubeGeometry(wirePath, 96, 0.035, 10), new T.MeshStandardMaterial({ color: 0xc8793a, metalness: 0.9, roughness: 0.3 })));
-  const socket = add(new T.Mesh(new T.CylinderGeometry(0.16, 0.16, 0.5, 24), new T.MeshStandardMaterial({ color: 0x9a9da3, metalness: 0.9, roughness: 0.35 })));
-  socket.rotation.z = Math.PI / 2;
-  socket.position.set(0, 2.8, 0);
+  // a screw-in lamp: threaded metal base, pear-shaped glass, a coiled filament on two support wires
+  const thread = Array.from({ length: 13 }, (_, i) => new T.Vector2(i % 2 ? 0.15 : 0.165, i * 0.022));
+  const socket = add(new T.Mesh(new T.LatheGeometry([new T.Vector2(0, 0), new T.Vector2(0.11, 0), ...thread, new T.Vector2(0.17, 0.3), new T.Vector2(0, 0.3)], 32), new T.MeshStandardMaterial({ color: 0xb9bcc2, metalness: 1, roughness: 0.25 })));
+  socket.position.set(0, 2.78, 0);
   const bulbMat = new T.MeshStandardMaterial({ color: 0xfff3d0, transparent: true, opacity: 0.35, roughness: 0.05, emissive: new T.Color(0xffc94a), emissiveIntensity: 0, depthWrite: false });
-  const bulb = add(new T.Mesh(new T.SphereGeometry(0.36, 32, 24), bulbMat));
+  const pear = [[0.16, -0.17], [0.2, -0.1], [0.3, 0.02], [0.36, 0.14], [0.37, 0.26], [0.33, 0.38], [0.22, 0.47], [0, 0.5]].map(([x, y]) => new T.Vector2(x, y));
+  const bulb = add(new T.Mesh(new T.LatheGeometry(pear, 40), bulbMat));
   bulb.position.set(0, 3.25, 0);
   bulb.renderOrder = 5;
-  const filament = add(new T.Mesh(new T.TorusGeometry(0.09, 0.012, 6, 20), new T.MeshBasicMaterial({ color: 0x6b5a45 })));
-  filament.position.set(0, 3.2, 0);
+  const coil = new T.CatmullRomCurve3(Array.from({ length: 61 }, (_, i) => new T.Vector3(-0.1 + (i / 60) * 0.2, Math.sin(i * 0.9) * 0.025, Math.cos(i * 0.9) * 0.025)));
+  const filament = add(new T.Mesh(new T.TubeGeometry(coil, 120, 0.006, 5, false), new T.MeshBasicMaterial({ color: 0x6b5a45 })));
+  filament.position.set(0, 3.38, 0);
+  for (const side of [-1, 1]) {
+    const support = add(new T.Mesh(new T.CylinderGeometry(0.006, 0.006, 0.36, 5), new T.MeshStandardMaterial({ color: 0x9a9da3, metalness: 0.9, roughness: 0.3 })));
+    support.position.set(side * 0.1, 3.2, 0);
+  }
   const glow = add(new T.PointLight(0xffc56a, 0, 7, 1.4));
   glow.position.copy(bulb.position);
 

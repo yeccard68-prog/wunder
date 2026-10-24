@@ -4,6 +4,7 @@
 //         8 magnet turns in coils: current, 9 twice the wind: 8 × the power, 10 to the grid
 // Not to scale: the rotor turns faster than a real one (10–15 turns a minute) and the gearbox ratio is
 // shown as 6 : 1 instead of about 100 : 1, so that both shafts can be seen turning.
+import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { TIMING } from "@/lib/animations";
 import { painter } from "../surface";
 import { clamp, ease, lerp, mix, rand, type SceneFactory, type Vec3 } from "../types";
@@ -35,10 +36,16 @@ export const windturbine: SceneFactory = ({ THREE: T, scene }) => {
   const tower = new T.Mesh(new T.CylinderGeometry(0.2, 0.42, 6.4, 32), white);
   tower.position.y = 3.2;
   const shellMat = new T.MeshStandardMaterial({ color: 0xf2f4f6, roughness: 0.4, metalness: 0.1, transparent: true, opacity: 1 });
-  const shell = new T.Mesh(new T.CapsuleGeometry(0.55, 1.9, 8, 24), shellMat);
-  shell.rotation.x = Math.PI / 2;
+  const shell = new T.Mesh(new RoundedBoxGeometry(1.15, 1.1, 2.9, 5, 0.3), shellMat); // the nacelle: a box with rounded edges
   shell.position.set(0, 6.6, -0.35);
   scene.add(ground, tower, shell);
+  // flanges where the tower sections are bolted together
+  for (const y of [2.15, 4.3]) {
+    const flange = new T.Mesh(new T.TorusGeometry(0.42 - (y / 6.4) * 0.22 + 0.01, 0.025, 8, 40), white);
+    flange.rotation.x = Math.PI / 2;
+    flange.position.y = y;
+    scene.add(flange);
+  }
 
   // inside the nacelle: slow shaft → gearbox → fast shaft → generator
   const inside = new T.Group();
@@ -50,25 +57,36 @@ export const windturbine: SceneFactory = ({ THREE: T, scene }) => {
     return m;
   };
   const slowShaft = shaft(0.14, 1.4, 0.6, steel);
-  const gearbox = new T.Mesh(new T.BoxGeometry(0.75, 0.75, 0.55), dark);
+  const gearbox = new T.Mesh(new RoundedBoxGeometry(0.75, 0.75, 0.55, 4, 0.1), dark);
   gearbox.position.set(0, 6.6, -0.35);
   inside.add(gearbox);
+  for (let k = -2; k <= 2; k++) {
+    const rib = new T.Mesh(new RoundedBoxGeometry(0.82, 0.05, 0.5, 2, 0.02), dark); // cooling ribs
+    rib.position.set(0, 6.6 + k * 0.14, -0.35);
+    inside.add(rib);
+  }
   const fastShaft = shaft(0.06, 0.55, -0.85, steel);
   // generator: copper coils around a ring, a magnet turning inside
   const stator = new T.Group();
   for (let i = 0; i < 8; i++) {
     const a = (i / 8) * Math.PI * 2;
-    const coil = new T.Mesh(new T.BoxGeometry(0.16, 0.13, 0.5), copper);
+    const coil = new T.Mesh(new RoundedBoxGeometry(0.16, 0.13, 0.5, 3, 0.05), copper);
     coil.position.set(0.36 * Math.cos(a), 0.36 * Math.sin(a), 0);
     coil.rotation.z = a;
     stator.add(coil);
   }
+  const yoke = new T.Mesh(new T.TorusGeometry(0.47, 0.05, 10, 48), dark); // the iron ring the coils sit on
+  stator.add(yoke);
   stator.position.set(0, 6.6, -1.35);
   const magnet = new T.Group();
-  const north = new T.Mesh(new T.BoxGeometry(0.22, 0.24, 0.46), new T.MeshStandardMaterial({ color: 0xc8443a, roughness: 0.45 }));
-  north.position.y = 0.12;
-  const south = new T.Mesh(new T.BoxGeometry(0.22, 0.24, 0.46), new T.MeshStandardMaterial({ color: 0x3a8f5c, roughness: 0.45 }));
-  south.position.y = -0.12;
+  // a round magnet: north half (red) and south half (green), turning about the shaft
+  const halfMagnet = (color: number, start: number) => {
+    const m = new T.Mesh(new T.CylinderGeometry(0.24, 0.24, 0.46, 32, 1, false, start, Math.PI), new T.MeshPhysicalMaterial({ color, roughness: 0.35, clearcoat: 0.7 }));
+    m.rotation.x = Math.PI / 2;
+    return m;
+  };
+  const north = halfMagnet(0xc8443a, -Math.PI / 2);
+  const south = halfMagnet(0x3a8f5c, Math.PI / 2);
   magnet.add(north, south);
   magnet.position.set(0, 6.6, -1.35);
   inside.add(stator, magnet);
@@ -80,19 +98,42 @@ export const windturbine: SceneFactory = ({ THREE: T, scene }) => {
   const spinner = new T.Mesh(new T.SphereGeometry(0.42, 24, 16, 0, Math.PI * 2, 0, Math.PI / 2), white);
   spinner.rotation.x = Math.PI / 2;
   rotor.add(spinner);
-  const outline = new T.Shape();
-  outline.moveTo(-0.1, 0.2);
-  outline.lineTo(0.3, 0.75);
-  outline.quadraticCurveTo(0.2, 2.6, 0.05, 4.1);
-  outline.lineTo(-0.06, 4.1);
-  outline.quadraticCurveTo(-0.16, 2.2, -0.16, 0.6);
-  outline.closePath();
-  const bladeGeo = new T.ExtrudeGeometry(outline, { depth: 0.05, bevelEnabled: true, bevelSize: 0.025, bevelThickness: 0.025, bevelSegments: 2, curveSegments: 10 });
+  // a blade: wing sections (a thick, rounded front edge and a thin back edge) along the span – round at the
+  // root, widest just outside it, narrowing towards the tip and twisted, flatter towards the tip
+  const bladeGeo = (() => {
+    const SPAN = 26, AROUND = 24, ROOT = 0.2, TIP = 4.1;
+    const pos: number[] = [], idx: number[] = [];
+    for (let j = 0; j <= SPAN; j++) {
+      const t = j / SPAN, y = ROOT + (TIP - ROOT) * t;
+      const chord = t < 0.12 ? lerp(0.22, 0.58, t / 0.12) : lerp(0.58, 0.1, (t - 0.12) / 0.88);
+      const round = clamp(1 - t / 0.1); // round (a tube) at the root
+      const thick = lerp(0.12, 1, round);
+      const twist = (lerp(22, 2, Math.pow(t, 0.7)) * Math.PI) / 180;
+      for (let i = 0; i < AROUND; i++) {
+        const a = (i / AROUND) * Math.PI * 2;
+        // a simple wing section: x from the front edge (−) to the back edge (+), z the thickness
+        const x = (Math.cos(a) * 0.5) * chord;
+        const k = (1 - Math.cos(a)) / 2; // 0 at the back edge, 1 at the front edge
+        const z = Math.sin(a) * chord * thick * (0.35 + 0.65 * Math.sqrt(k)) * 0.5;
+        pos.push(x * Math.cos(twist) - z * Math.sin(twist) - 0.05, y, x * Math.sin(twist) + z * Math.cos(twist));
+      }
+    }
+    for (let j = 0; j < SPAN; j++)
+      for (let i = 0; i < AROUND; i++) {
+        const a = j * AROUND + i, b = j * AROUND + ((i + 1) % AROUND), c = a + AROUND, d = b + AROUND;
+        idx.push(a, c, b, b, c, d);
+      }
+    const g = new T.BufferGeometry();
+    g.setAttribute("position", new T.Float32BufferAttribute(pos, 3));
+    g.setIndex(idx);
+    g.computeVertexNormals();
+    return g;
+  })();
   for (let i = 0; i < 3; i++) {
     const arm = new T.Group();
     arm.rotation.z = (i / 3) * Math.PI * 2;
     const blade = new T.Mesh(bladeGeo, white);
-    blade.rotation.y = 0.32; // pitch
+    blade.rotation.y = 0.12; // pitch (the twist is part of the blade)
     arm.add(blade);
     rotor.add(arm);
   }
