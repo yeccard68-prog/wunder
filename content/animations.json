@@ -3036,5 +3036,129 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-24T12:00:00Z",
+    "id": "a-gehirn",
+    "category_id": "science",
+    "scene": "brain",
+    "title": "Wie das Gehirn aufgebaut ist",
+    "summary": "Vier Lappen, ein Kleinhirn, ein Hirnstamm – jeder Teil mit eigenen Aufgaben.",
+    "goal": "Du kannst die Lappen des Großhirns, das Kleinhirn und den Hirnstamm zeigen und je eine ihrer Aufgaben nennen.",
+    "labels": [
+      "Stirnlappen",
+      "Scheitellappen",
+      "Schläfenlappen",
+      "Hinterhauptslappen",
+      "Kleinhirn",
+      "Hirnstamm",
+      "Steuert Bewegungen",
+      "Räumliches Denken, Rechnen, Lesen",
+      "Hören, Sprache, Gedächtnis",
+      "Sehzentrum",
+      "Feinabstimmung der Bewegungen",
+      "Atmung, Herzschlag, Blutdruck"
+    ],
+    "steps": [
+      {
+        "text": "Das Großhirn hat zwei Hälften. Jede besteht aus vier Lappen, die unterschiedliche Aufgaben übernehmen: Stirnlappen, Scheitellappen, Schläfenlappen und Hinterhauptslappen.",
+        "seconds": 9
+      },
+      {
+        "text": "Ganz vorn liegt der Stirnlappen. Er macht beim Menschen mehr als 30 % der Großhirnrinde aus und steuert Bewegungen. Dahinter liegt der Scheitellappen: Sein unterer Teil ist für das räumliche Denken zuständig – und für Rechnen und Lesen.",
+        "seconds": 10
+      },
+      {
+        "text": "Seitlich unten liegt der Schläfenlappen mit dem Hörzentrum, dem Wernicke-Sprachzentrum und wichtigen Strukturen für das Gedächtnis. Ganz hinten liegt der Hinterhauptslappen: Er verarbeitet die Impulse aus den Augen – das Sehzentrum.",
+        "seconds": 10
+      },
+      {
+        "text": "Unter dem Großhirn sitzt das Kleinhirn. Es ist zuständig für die Koordination, die Feinabstimmung und das Erlernen von Bewegungen – und enthält mit knapp 70 Milliarden etwa vier Fünftel aller Nervenzellen von Gehirn und Rückenmark. Der Hirnstamm steuert überlebenswichtige Dinge wie Atmung, Herzschlag und Blutdruck.",
+        "seconds": 11
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Frontallappen",
+        "url": "https://de.wikipedia.org/wiki/Frontallappen"
+      },
+      {
+        "name": "Wikipedia: Parietallappen",
+        "url": "https://de.wikipedia.org/wiki/Parietallappen"
+      },
+      {
+        "name": "Wikipedia: Temporallappen",
+        "url": "https://de.wikipedia.org/wiki/Temporallappen"
+      },
+      {
+        "name": "Wikipedia: Okzipitallappen",
+        "url": "https://de.wikipedia.org/wiki/Okzipitallappen"
+      },
+      {
+        "name": "Wikipedia: Kleinhirn",
+        "url": "https://de.wikipedia.org/wiki/Kleinhirn"
+      },
+      {
+        "name": "Wikipedia: Hirnstamm",
+        "url": "https://de.wikipedia.org/wiki/Hirnstamm"
+      }
+    ],
+    "quiz_question_id": "qa-gehirn",
+    "translations": {
+      "en": {
+        "title": "How the brain is built",
+        "summary": "Four lobes, a cerebellum, a brainstem – each part with its own tasks.",
+        "goal": "You can point to the lobes of the cerebrum, the cerebellum and the brainstem and name one of their tasks each.",
+        "labels": [
+          "Frontal lobe",
+          "Parietal lobe",
+          "Temporal lobe",
+          "Occipital lobe",
+          "Cerebellum",
+          "Brainstem",
+          "Controls movements",
+          "Spatial thinking, arithmetic, reading",
+          "Hearing, language, memory",
+          "Visual centre",
+          "Fine-tunes movements",
+          "Breathing, heartbeat, blood pressure"
+        ],
+        "steps": [
+          "The cerebrum has two halves. Each consists of four lobes that take on different tasks: the frontal, parietal, temporal and occipital lobes.",
+          "At the very front lies the frontal lobe. In humans it makes up more than 30 % of the cerebral cortex and controls movements. Behind it lies the parietal lobe: its lower part is responsible for spatial thinking – and for arithmetic and reading.",
+          "At the side and lower down lies the temporal lobe with the hearing centre, Wernicke's language area and important structures for memory. At the very back lies the occipital lobe: it processes the impulses from the eyes – the visual centre.",
+          "Below the cerebrum sits the cerebellum. It is responsible for coordinating, fine-tuning and learning movements – and with almost 70 billion it contains about four fifths of all nerve cells of the brain and spinal cord. The brainstem controls vital things such as breathing, heartbeat and blood pressure."
+        ],
+        "predict": {
+          "question": "Below the cerebrum sits the cerebellum. What does it mainly help with?",
+          "options": [
+            "Fine-tuning movements",
+            "Recognising smells",
+            "Cleaning the blood"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Unter dem Großhirn sitzt das Kleinhirn. Wobei hilft es vor allem?",
+      "options": [
+        "Bewegungen fein abzustimmen",
+        "Gerüche zu erkennen",
+        "Das Blut zu reinigen"
+      ],
+      "correct": 0
+    }
   }
 ]
