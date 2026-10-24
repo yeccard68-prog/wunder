@@ -33459,5 +33459,45 @@
         "explanation": "The iris is the coloured aperture of the eye. It leaves an opening in its middle: the pupil. Its size controls how much light enters the eye."
       }
     }
+  },
+  {
+    "id": "qa-knie",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie heißen die halbmondförmigen Knorpelscheiben im Kniegelenk?",
+    "options": [
+      "Menisken",
+      "Bandscheiben",
+      "Kreuzbänder",
+      "Sesambeine"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Menisken sind halbmondförmige Scheiben aus Faserknorpel. Sie gleichen aus, dass die Gelenkflächen von Oberschenkelknochen und Schienbein nicht genau aufeinander passen, und tragen einen wesentlichen Teil der Last.",
+    "difficulty": 1,
+    "tags": [
+      "Anatomie",
+      "Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kniegelenk",
+    "source_url": "https://de.wikipedia.org/wiki/Kniegelenk",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the crescent-shaped discs of cartilage in the knee joint called?",
+        "options": [
+          "Menisci",
+          "Intervertebral discs",
+          "Cruciate ligaments",
+          "Sesamoid bones"
+        ],
+        "explanation": "The menisci are crescent-shaped discs of fibrocartilage. They make up for the joint surfaces of the thigh bone and the shin bone not fitting exactly, and they carry a substantial part of the load."
+      }
+    }
   }
 ]

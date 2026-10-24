@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-24 · 2026-10-animations-anatomy-4 · neue 3D-Animation „Wie das Knie funktioniert“ (Szene knee: echtes Knie aus Z-Anatomy, Beugung um die Knieachse, Menisken, Kreuzbänder, Kniescheibe mit Quadrizeps; Kniescheibenband gezeichnet) mit Vorhersage- und Kontrollfrage qa-knie · Belege wörtlich aus Kniegelenk, Kreuzband, Kniescheibe.
+
 - 2026-10-24 · 2026-10-animations-anatomy-3 · neue 3D-Animation „Wie das Auge sieht“ (Szene eye: echtes Auge aus Z-Anatomy, seitlich aufgeschnitten, Strahlengang einer Kerze, Pupille verengt sich, Impulse im Sehnerv) mit Vorhersage- und Kontrollfrage qa-auge · Belege wörtlich aus Hornhaut, Iris, Linse, Netzhaut, Pupille, Sehnerv, Auge · „Bild steht auf dem Kopf“ nicht belegt, daher nur gezeigt, nicht behauptet.
 
 - 2026-10-24 · 2026-10-animations-anatomy-2 · neue 3D-Animation „Wie wir atmen“ (Szene lungs: echte Lunge, Zwerchfell, Luftröhre/Bronchien, Rippen, Herz aus Z-Anatomy; Lupe auf Lungenbläschen gezeichnet) mit Vorhersage- und Kontrollfrage qa-atmung · Belege wörtlich aus Zwerchfell, Lunge, Lungenventilation · alle Schritte angesehen.

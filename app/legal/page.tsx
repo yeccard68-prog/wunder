@@ -65,6 +65,15 @@ const MODELS: { file: string; used: string; credits: string[][]; source: string;
     source: "https://github.com/Z-Anatomy/Models-of-human-anatomy",
   },
   {
+    file: "knee.glb",
+    used: "Animation „Wie das Knie funktioniert“: Knochen des Knies, Menisken, Kreuzbänder und Oberschenkelmuskel",
+    credits: [
+      ["Z-Anatomy – The libre 3D atlas of anatomy", "CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/"],
+      ["BodyParts3D – The Database Center for Life Science", "CC BY-SA 2.1 Japan", "https://creativecommons.org/licenses/by-sa/2.1/jp/"],
+    ],
+    source: "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  },
+  {
     file: "studio_small_09_1k.hdr",
     used: "Licht und Spiegelungen in allen 3D-Animationen",
     credits: [["Studio Small 09 – Sergej Majboroda, Poly Haven", "CC0", "https://creativecommons.org/publicdomain/zero/1.0/"]],
