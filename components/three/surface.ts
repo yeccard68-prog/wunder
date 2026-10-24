@@ -1,9 +1,12 @@
 // Surfaces painted once on a canvas and wrapped around a sphere (256 × 128). They are drawn from
 // deterministic pseudo-random numbers – stylised, not photographs, and the same on every run.
+// Earth and Moon are replaced by NASA photographs (public/textures, public domain) as soon as these have
+// loaded; the painted version is shown until then and stays if they cannot be loaded.
 import type * as THREE from "three";
-import { rand } from "./types";
+import { rand, TEXTURE_LOADED } from "./types";
 
 type Ctx = CanvasRenderingContext2D;
+
 
 // Rough continent outlines as [longitude, latitude] – drawn for this app, simplified on purpose.
 const CONTINENTS = [
@@ -47,7 +50,7 @@ export function painter(T: typeof THREE) {
       c.fill();
     }
   };
-  return {
+  const painted = {
     paint,
     blobs,
     /** The Earth: simplified continents (own drawing from rough outlines), deserts, ice caps, a few clouds. */
@@ -113,5 +116,22 @@ export function painter(T: typeof THREE) {
       c.fillRect(0, 0, w, h);
       blobs(c, w, h, 260, 11, (i) => (i % 3 ? "rgba(255,236,150,0.5)" : "rgba(255,150,40,0.45)"), 7);
     }),
+  };
+  /** Swaps a painted texture for a photograph once it has loaded (same equirectangular layout). */
+  const photo = (texture: THREE.CanvasTexture, url: string) => {
+    const img = new Image();
+    img.onload = () => {
+      texture.dispose(); // the GPU copy has the painted size; the photograph needs a new one
+      texture.image = img;
+      texture.needsUpdate = true;
+      window.dispatchEvent(new Event(TEXTURE_LOADED)); // a paused stage draws once more
+    };
+    img.src = url;
+    return texture;
+  };
+  return {
+    ...painted,
+    earth: () => photo(painted.earth(), "/textures/earth-blue-marble.jpg"), // NASA Visible Earth, Blue Marble (Reto Stöckli, NASA GSFC)
+    moon: () => photo(painted.moon(), "/textures/moon-lroc.jpg"), // NASA Scientific Visualization Studio, CGI Moon Kit (LRO data)
   };
 }

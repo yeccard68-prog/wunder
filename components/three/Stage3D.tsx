@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type * as THREE from "three";
+import { TEXTURE_LOADED } from "./types";
 import type { Scene3D } from "./types";
 import { useT } from "@/lib/store";
 
@@ -15,6 +16,52 @@ const weakDevice = () => {
   const n = navigator as Navigator & { deviceMemory?: number };
   return (n.deviceMemory ?? 8) <= 4 || (n.hardwareConcurrency ?? 8) <= 4;
 };
+const ENVIRONMENT = "/env/studio_small_09_1k.hdr";
+
+/**
+ * A fine, irregular surface (as a normal map and a roughness map) for materials a scene left plain, so
+ * metal, plastic and paint do not look like perfectly smooth computer shapes. Only for meshes with texture
+ * coordinates; scenes that bring their own textures or models keep theirs.
+ */
+function surfaceDetail(T: typeof THREE) {
+  const size = 128;
+  const c = document.createElement("canvas");
+  c.width = c.height = size;
+  const g = c.getContext("2d");
+  if (!g) return null;
+  const height = new Float32Array(size * size);
+  for (let i = 0; i < height.length; i++) height[i] = Math.random();
+  // blur a little, so it reads as a fine grain rather than as noise on single pixels
+  const at = (x: number, y: number) => height[((y + size) % size) * size + ((x + size) % size)];
+  const smooth = height.map((_, i) => {
+    const x = i % size, y = Math.floor(i / size);
+    return (at(x, y) * 4 + at(x + 1, y) + at(x - 1, y) + at(x, y + 1) + at(x, y - 1)) / 8;
+  });
+  const normal = g.createImageData(size, size);
+  const rough = g.createImageData(size, size);
+  const h = (x: number, y: number) => smooth[((y + size) % size) * size + ((x + size) % size)];
+  for (let y = 0; y < size; y++)
+    for (let x = 0; x < size; x++) {
+      const i = (y * size + x) * 4;
+      normal.data[i] = 128 + (h(x - 1, y) - h(x + 1, y)) * 160;
+      normal.data[i + 1] = 128 + (h(x, y - 1) - h(x, y + 1)) * 160;
+      normal.data[i + 2] = 255;
+      normal.data[i + 3] = 255;
+      const r = 215 + h(x, y) * 40;
+      rough.data[i] = rough.data[i + 1] = rough.data[i + 2] = r;
+      rough.data[i + 3] = 255;
+    }
+  const tex = (img: ImageData) => {
+    const cv = document.createElement("canvas");
+    cv.width = cv.height = size;
+    cv.getContext("2d")!.putImageData(img, 0, 0);
+    const t = new T.CanvasTexture(cv);
+    t.wrapS = t.wrapT = T.RepeatWrapping;
+    t.repeat.set(3, 3);
+    return t;
+  };
+  return { normalMap: tex(normal), roughnessMap: tex(rough) };
+}
 const MAX_YAW = 1.1; // how far the learner can turn the scene with a horizontal drag (radians)
 const ZOOM = { min: 0.55, max: 1.6 }; // factor on the camera distance: smaller = closer
 
@@ -151,11 +198,20 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
           backdropTexture.colorSpace = T.SRGBColorSpace;
           world.background = backdropTexture;
         } else world.background = new T.Color(BACKGROUND);
-        // soft studio light from a generated environment: gives metal and glossy surfaces something to reflect
+        // light from a photographed studio (public/env, Poly Haven, CC0): gives metal, glass and glossy surfaces
+        // a real surrounding to reflect. If it cannot be loaded, a generated studio takes its place.
         const pmrem = new T.PMREMGenerator(renderer);
-        const env = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+        let env: THREE.Texture;
+        try {
+          const { RGBELoader } = await import("three/examples/jsm/loaders/RGBELoader.js");
+          const hdr = await new RGBELoader().loadAsync(ENVIRONMENT);
+          env = pmrem.fromEquirectangular(hdr).texture;
+          hdr.dispose();
+        } catch {
+          env = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+        }
         world.environment = env;
-        world.environmentIntensity = 0.55;
+        world.environmentIntensity = 0.7;
         const key = new T.DirectionalLight(0xffffff, 1.6);
         key.position.set(4, 7, 6);
         // a cool light from behind lifts the edges off the dark background
@@ -179,6 +235,18 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
           world.remove(key, rim);
           world.traverse((o) => (o as THREE.HemisphereLight).isHemisphereLight && ((o as THREE.HemisphereLight).intensity = 0.22)); // a little light, so the night side is dim rather than invisible
         }
+        // fine surface grain for plain materials (not in space: planets and stars bring their own look)
+        const detail = api.stage?.space ? null : surfaceDetail(T);
+        if (detail)
+          world.traverse((o) => {
+            const m = o as THREE.Mesh;
+            const mat = m.material as THREE.MeshStandardMaterial | undefined;
+            if (!m.isMesh || !mat || Array.isArray(mat) || !mat.isMeshStandardMaterial || mat.transparent || mat.map || mat.normalMap || mat.roughnessMap || !m.geometry.getAttribute("uv")) return;
+            mat.normalMap = detail.normalMap;
+            mat.normalScale.set(0.18, 0.18);
+            mat.roughnessMap = detail.roughnessMap;
+            mat.needsUpdate = true;
+          });
         // soft shadows where the scene asks for them – not on weak devices
         if (api.stage?.shadows && !weak) {
           const box = new T.Box3().setFromObject(world);
@@ -249,6 +317,8 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
             });
           });
           env.dispose();
+          detail?.normalMap.dispose();
+          detail?.roughnessMap.dispose();
           backdropTexture?.dispose();
           key.shadow.map?.dispose();
           pmrem.dispose();
@@ -274,6 +344,13 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
     if (ready) draw();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready, step, p, t, labels]);
+  // a photograph that arrives after the scene was built (Earth, Moon) shows up even while paused
+  useEffect(() => {
+    const again = () => ready && draw();
+    window.addEventListener(TEXTURE_LOADED, again);
+    return () => window.removeEventListener(TEXTURE_LOADED, again);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ready]);
   useEffect(() => {
     yaw.current = 0; // every step starts from its intended view
   }, [step]);

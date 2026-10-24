@@ -26,8 +26,8 @@ function deed(license: string | null): string | null {
   return null;
 }
 
-/** Foreign 3D models in public/models and the animations that use them (attribution as the licensors ask for it). */
-const MODELS = [
+/** Foreign 3D models, textures and light in public/ and the animations that use them (attribution as the licensors ask for it). */
+const MODELS: { file: string; used: string; credits: string[][]; source: string; origin?: string; free?: string }[] = [
   {
     file: "arm.glb",
     used: "Animation „Wie Muskeln den Arm bewegen“: Knochen und Muskeln des Arms",
@@ -54,6 +54,22 @@ const MODELS = [
       ["BodyParts3D – The Database Center for Life Science", "CC BY-SA 2.1 Japan", "https://creativecommons.org/licenses/by-sa/2.1/jp/"],
     ],
     source: "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  },
+  {
+    file: "studio_small_09_1k.hdr",
+    used: "Licht und Spiegelungen in allen 3D-Animationen",
+    credits: [["Studio Small 09 – Sergej Majboroda, Poly Haven", "CC0", "https://creativecommons.org/publicdomain/zero/1.0/"]],
+    source: "https://polyhaven.com/a/studio_small_09",
+    origin: "Poly Haven",
+    free: "Gemeinfrei, ohne Bedingungen nutzbar.",
+  },
+  {
+    file: "earth-blue-marble.jpg, moon-lroc.jpg",
+    used: "Erde und Mond in den Weltraum-Animationen",
+    credits: [["NASA Visible Earth – Blue Marble (Reto Stöckli, NASA Goddard Space Flight Center)", "gemeinfrei", "https://visibleearth.nasa.gov/images/57752"], ["NASA Scientific Visualization Studio – CGI Moon Kit (Daten: Lunar Reconnaissance Orbiter)", "gemeinfrei", "https://svs.gsfc.nasa.gov/4720"]],
+    source: "https://svs.gsfc.nasa.gov/4720",
+    origin: "NASA",
+    free: "Bilder der NASA sind gemeinfrei. Die NASA hat mit dieser App nichts zu tun und unterstützt sie nicht.",
   },
 ];
 
@@ -131,10 +147,10 @@ export default function LegalPage() {
           {MODELS.map((m) => (
             <li key={m.file} className="space-y-0.5 px-4 py-3" data-testid="model-credit">
               <p className="font-semibold">{t(m.used)}</p>
-              <p className="text-muted">{t("Bearbeitete Auszüge aus")} {m.credits.map(([name, license, url], i) => (
+              <p className="text-muted">{t(m.free ? "Aus" : "Bearbeitete Auszüge aus")} {m.credits.map(([name, license, url], i) => (
                 <span key={name}>{i > 0 && ", "}{name} (<a href={url} target="_blank" rel="noopener noreferrer license" className="underline">{license}</a>)</span>
-              ))}. {t("Bearbeitet: Ausschnitt, Formen vereinfacht, eigene Farben und Bewegung. Das bearbeitete Modell steht unter derselben Lizenz (CC BY-SA 4.0).")}</p>
-              <a href={m.source} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-xs text-muted underline">{t("Original:")} Z-Anatomy <ExternalLink size={11} /></a>
+              ))}. {t(m.free ?? "Bearbeitet: Ausschnitt, Formen vereinfacht, eigene Farben und Bewegung. Das bearbeitete Modell steht unter derselben Lizenz (CC BY-SA 4.0).")}</p>
+              <a href={m.source} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-xs text-muted underline">{t("Original:")} {m.origin ?? "Z-Anatomy"} <ExternalLink size={11} /></a>
             </li>
           ))}
         </ul>

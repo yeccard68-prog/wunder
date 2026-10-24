@@ -45,6 +45,9 @@ export interface SceneContext {
 /** A scene that loads a model is built asynchronously; the stage shows its spinner until it is ready. */
 export type SceneFactory = (ctx: SceneContext) => Scene3D | Promise<Scene3D>;
 
+/** Sent on window when a texture changed after the scene was built (Stage3D draws again). */
+export const TEXTURE_LOADED = "wunder:texture-loaded";
+
 // small helpers every scene needs
 export const lerp = (a: number, b: number, p: number) => a + (b - a) * p;
 export const clamp = (v: number, lo = 0, hi = 1) => Math.max(lo, Math.min(hi, v));
