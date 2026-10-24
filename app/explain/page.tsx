@@ -1,11 +1,12 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, Check, ExternalLink, Play, Target } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Empty } from "@/components/ui";
-import { animationsFor, type Animation } from "@/lib/animations";
+import { animationsFor, MODEL_CREDITS, type Animation } from "@/lib/animations";
 import { useAsking } from "@/lib/quizGate";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
@@ -92,6 +93,12 @@ function Detail({ current, onBack }: { current: Animation; onBack: () => void })
             {s.name} <ExternalLink size={12} />
           </a>
         ))}
+        {MODEL_CREDITS[current.scene] && (
+          <p>
+            {t("3D-Modell:")} {MODEL_CREDITS[current.scene]} ·{" "}
+            <Link href="/legal/" className="underline">{t("Lizenzen")}</Link>
+          </p>
+        )}
         <p>{current.verification === "verified" ? t("Redaktionell geprüft") : t("Von KI geprüft, noch nicht redaktionell bestätigt.")}</p>
       </footer>
     </div>

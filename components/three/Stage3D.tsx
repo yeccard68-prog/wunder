@@ -162,7 +162,16 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
         rim.position.set(-5, 3, -6);
         world.add(key, rim, new T.HemisphereLight(0xdfe8ff, 0x2a241c, 0.5));
         const camera = new T.PerspectiveCamera(36, 1, 0.1, 200);
-        const api = factory({ THREE: T, scene: world });
+        const load = async (file: string) => {
+          const { GLTFLoader } = await import("three/examples/jsm/loaders/GLTFLoader.js");
+          return (await new GLTFLoader().loadAsync(`/models/${file}`)).scene;
+        };
+        const api = await factory({ THREE: T, scene: world, load });
+        if (cancelled) {
+          renderer.dispose();
+          renderer.forceContextLoss();
+          return;
+        }
         if (api.stage?.space) {
           world.background = new T.Color(0x020308);
           world.environmentIntensity = 0;

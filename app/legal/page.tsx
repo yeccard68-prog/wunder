@@ -26,6 +26,19 @@ function deed(license: string | null): string | null {
   return null;
 }
 
+/** Foreign 3D models in public/models and the animations that use them (attribution as the licensors ask for it). */
+const MODELS = [
+  {
+    file: "arm.glb",
+    used: "Animation „Wie Muskeln den Arm bewegen“: Knochen und Muskeln des Arms",
+    credits: [
+      ["Z-Anatomy – The libre 3D atlas of anatomy", "CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/"],
+      ["BodyParts3D – The Database Center for Life Science", "CC BY-SA 2.1 Japan", "https://creativecommons.org/licenses/by-sa/2.1/jp/"],
+    ],
+    source: "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  },
+];
+
 const SOFTWARE = [
   ["Next.js, React", "MIT"],
   ["Three.js", "MIT"],
@@ -95,7 +108,18 @@ export default function LegalPage() {
 
       <section className="space-y-2">
         <h2 className={h2}>{t("Animationen")}</h2>
-        <p className={p}>{t("Alle Animationen – gezeichnet und in 3D – sind eigens für diese App im Programmcode entstanden. Sie verwenden keine fremden Modelle, Bilder oder Videos.")}</p>
+        <p className={p}>{t("Die Animationen – gezeichnet und in 3D – sind eigens für diese App im Programmcode entstanden. Fremde 3D-Modelle stecken nur in den unten genannten Animationen; sonst verwenden sie keine fremden Modelle, Bilder oder Videos.")}</p>
+        <ul className="card divide-y divide-line text-sm">
+          {MODELS.map((m) => (
+            <li key={m.file} className="space-y-0.5 px-4 py-3" data-testid="model-credit">
+              <p className="font-semibold">{t(m.used)}</p>
+              <p className="text-muted">{t("Bearbeitete Auszüge aus")} {m.credits.map(([name, license, url], i) => (
+                <span key={name}>{i > 0 && ", "}{name} (<a href={url} target="_blank" rel="noopener noreferrer license" className="underline">{license}</a>)</span>
+              ))}. {t("Bearbeitet: Ausschnitt, Formen vereinfacht, eigene Farben und Bewegung. Das bearbeitete Modell steht unter derselben Lizenz (CC BY-SA 4.0).")}</p>
+              <a href={m.source} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-xs text-muted underline">{t("Original:")} Z-Anatomy <ExternalLink size={11} /></a>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="space-y-2">

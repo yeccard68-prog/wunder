@@ -61,7 +61,6 @@
   "Aktivität": "Activity",
   "Alle": "All",
   "Alle Animationen": "All animations",
-  "Alle Animationen – gezeichnet und in 3D – sind eigens für diese App im Programmcode entstanden. Sie verwenden keine fremden Modelle, Bilder oder Videos.": "All animations – drawn and in 3D – were created in code specifically for this app. They use no third-party models, images or videos.",
   "Alle Bücher": "All books",
   "Alle Clips": "All clips",
   "Alle Duelle": "All duels",
@@ -882,5 +881,11 @@
   "Das Ergebnis": "The result",
   "Der Haken": "The catch",
   "Schau genau hin – danach kommt eine Frage.": "Watch closely – a question follows.",
-  "Angesehen. Jetzt die Frage – danach kannst du die Animation noch einmal ansehen.": "Watched. Now the question – afterwards you can watch the animation again."
+  "Angesehen. Jetzt die Frage – danach kannst du die Animation noch einmal ansehen.": "Watched. Now the question – afterwards you can watch the animation again.",
+  "Die Animationen – gezeichnet und in 3D – sind eigens für diese App im Programmcode entstanden. Fremde 3D-Modelle stecken nur in den unten genannten Animationen; sonst verwenden sie keine fremden Modelle, Bilder oder Videos.": "The animations – drawn and in 3D – were created in code specifically for this app. Third-party 3D models are used only in the animations listed below; otherwise they use no third-party models, images or videos.",
+  "Animation „Wie Muskeln den Arm bewegen“: Knochen und Muskeln des Arms": "Animation “How muscles move the arm”: bones and muscles of the arm",
+  "Bearbeitete Auszüge aus": "Adapted excerpts from",
+  "Bearbeitet: Ausschnitt, Formen vereinfacht, eigene Farben und Bewegung. Das bearbeitete Modell steht unter derselben Lizenz (CC BY-SA 4.0).": "Adapted: excerpt, simplified shapes, own colours and motion. The adapted model is available under the same licence (CC BY-SA 4.0).",
+  "3D-Modell:": "3D model:",
+  "Lizenzen": "Licences"
 }
