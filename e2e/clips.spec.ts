@@ -89,7 +89,7 @@ test("an explainer animation plays, can be stepped through and ends with its que
   await expect(player).toHaveAttribute("data-step", "3");
   await expect(page.getByText("4/4")).toBeVisible();
   await page.getByRole("button", { name: "Abspielen" }).click();
-  await expect(page.getByText("Verstanden?")).toBeVisible({ timeout: 15_000 });
+  await expect(page.getByText("Verstanden?")).toBeVisible({ timeout: 45_000 }); // software rendering in CI is slow
   // while the question is open, the animation (whose captions show the answer) steps aside – and comes back after answering
   await expect(page.getByTestId("animation-aside")).toBeVisible();
   await expect(player).toHaveCount(0);

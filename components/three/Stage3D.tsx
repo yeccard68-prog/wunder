@@ -235,8 +235,8 @@ export default function Stage3D({ scene, step, p, t, into, labels, title, compac
           world.remove(key, rim);
           world.traverse((o) => (o as THREE.HemisphereLight).isHemisphereLight && ((o as THREE.HemisphereLight).intensity = 0.22)); // a little light, so the night side is dim rather than invisible
         }
-        // fine surface grain for plain materials (not in space: planets and stars bring their own look)
-        const detail = api.stage?.space ? null : surfaceDetail(T);
+        // fine surface grain for plain materials – not in space (planets and stars bring their own look), not on weak devices
+        const detail = api.stage?.space || weak ? null : surfaceDetail(T);
         if (detail)
           world.traverse((o) => {
             const m = o as THREE.Mesh;
