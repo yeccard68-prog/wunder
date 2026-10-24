@@ -33379,5 +33379,45 @@
         "explanation": "The triceps on the back of the upper arm is the only extensor of the elbow. Its counterpart, the biceps, bends the arm."
       }
     }
+  },
+  {
+    "id": "qa-atmung",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was macht das Zwerchfell, wenn du einatmest?",
+    "options": [
+      "Es zieht sich zusammen und flacht sich ab",
+      "Es entspannt sich und wölbt sich nach oben",
+      "Es bleibt ganz ruhig liegen",
+      "Es drückt die Lunge nach oben"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Zwerchfell zieht sich beim Einatmen zusammen und flacht sich dabei ab. So wird der Brustraum größer, die Lunge dehnt sich mit, und Luft strömt hinein.",
+    "difficulty": 1,
+    "tags": [
+      "Anatomie",
+      "Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zwerchfell",
+    "source_url": "https://de.wikipedia.org/wiki/Zwerchfell",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the diaphragm do when you breathe in?",
+        "options": [
+          "It contracts and flattens",
+          "It relaxes and arches upwards",
+          "It stays completely still",
+          "It pushes the lungs upwards"
+        ],
+        "explanation": "The diaphragm contracts when you breathe in and flattens as it does. The chest cavity gets bigger, the lungs expand with it, and air flows in."
+      }
+    }
   }
 ]

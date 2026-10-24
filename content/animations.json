@@ -2692,5 +2692,117 @@
       ],
       "correct": 1
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-24T12:00:00Z",
+    "id": "a-atmung",
+    "category_id": "science",
+    "scene": "lungs",
+    "title": "Wie wir atmen",
+    "summary": "Die Lunge hat keine eigenen Muskeln – ein Muskel darunter macht die Arbeit: das Zwerchfell.",
+    "goal": "Du kannst erklären, wie das Zwerchfell Luft in die Lunge holt und warum das Ausatmen in Ruhe von allein geht.",
+    "labels": [
+      "Lunge",
+      "Zwerchfell",
+      "Luftröhre",
+      "Bronchien",
+      "Rippen",
+      "Zwerchfell zieht sich zusammen – flacht ab",
+      "Luft strömt hinein",
+      "Zwerchfell entspannt sich",
+      "Lungenbläschen",
+      "Sauerstoff ins Blut",
+      "Kohlenstoffdioxid in die Luft",
+      "Luft strömt hinaus"
+    ],
+    "steps": [
+      {
+        "text": "Unterhalb des Brustkorbs liegt das Zwerchfell: eine kuppelförmige Muskel-Sehnen-Platte, die Brust- und Bauchhöhle voneinander trennt. Es ist der wichtigste Atemmuskel – die Lunge selbst besitzt keine Muskeln.",
+        "seconds": 9
+      },
+      {
+        "text": "Beim Einatmen zieht sich das Zwerchfell zusammen und flacht sich ab. Der Brustraum wird größer, und die Lunge dehnt sich mit. Weil der Luftdruck außen nun größer ist als in der Lunge, strömt Luft hinein.",
+        "seconds": 9
+      },
+      {
+        "text": "Beim Ausatmen entspannt sich das Zwerchfell. Die gedehnte Lunge zieht sich durch ihre elastischen Fasern wieder zusammen – wie eine losgelassene Feder – und treibt die verbrauchte Luft hinaus. In Ruhe arbeitet dabei kein Muskel aktiv mit.",
+        "seconds": 10
+      },
+      {
+        "text": "Die Luft strömt durch die Luftröhre, die sich in die Bronchien verzweigt, bis in die Lungenbläschen. Durch deren dünne Wand tritt Sauerstoff ins Blut über, und Kohlenstoffdioxid wird aus dem Blut an die Luft abgegeben.",
+        "seconds": 11
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Zwerchfell",
+        "url": "https://de.wikipedia.org/wiki/Zwerchfell"
+      },
+      {
+        "name": "Wikipedia: Lunge",
+        "url": "https://de.wikipedia.org/wiki/Lunge"
+      },
+      {
+        "name": "Wikipedia: Lungenventilation",
+        "url": "https://de.wikipedia.org/wiki/Lungenventilation"
+      }
+    ],
+    "quiz_question_id": "qa-atmung",
+    "translations": {
+      "en": {
+        "title": "How we breathe",
+        "summary": "The lungs have no muscles of their own – a muscle below them does the work: the diaphragm.",
+        "goal": "You can explain how the diaphragm draws air into the lungs and why breathing out at rest happens by itself.",
+        "labels": [
+          "Lungs",
+          "Diaphragm",
+          "Windpipe",
+          "Bronchi",
+          "Ribs",
+          "Diaphragm contracts – flattens",
+          "Air flows in",
+          "Diaphragm relaxes",
+          "Air sacs (alveoli)",
+          "Oxygen into the blood",
+          "Carbon dioxide into the air",
+          "Air flows out"
+        ],
+        "steps": [
+          "Below the rib cage lies the diaphragm: a dome-shaped plate of muscle and tendon that separates the chest from the abdomen. It is the most important breathing muscle – the lungs themselves have no muscles.",
+          "When you breathe in, the diaphragm contracts and flattens. The chest cavity gets bigger and the lungs expand with it. Because the air pressure outside is now higher than inside the lungs, air flows in.",
+          "When you breathe out, the diaphragm relaxes. The stretched lungs pull together again through their elastic fibres – like a spring being let go – and push the used air out. At rest no muscle actively takes part.",
+          "The air flows through the windpipe, which branches into the bronchi, all the way into the air sacs. Through their thin walls oxygen passes into the blood, and carbon dioxide is released from the blood into the air."
+        ],
+        "predict": {
+          "question": "You are about to breathe out. Does a muscle have to work for that at rest?",
+          "options": [
+            "Yes – the diaphragm pushes the air out",
+            "No – the stretched lungs pull together by themselves",
+            "Yes – the lungs pump with their own muscles"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 2,
+      "question": "Gleich atmest du aus. Muss dafür in Ruhe ein Muskel arbeiten?",
+      "options": [
+        "Ja – das Zwerchfell drückt die Luft hinaus",
+        "Nein – die gedehnte Lunge zieht sich von selbst zusammen",
+        "Ja – die Lunge pumpt mit eigenen Muskeln"
+      ],
+      "correct": 1
+    }
   }
 ]

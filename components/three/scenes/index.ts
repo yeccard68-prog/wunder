@@ -15,6 +15,7 @@ import { heart } from "./heart";
 import { heatpump } from "./heatpump";
 import { lens } from "./lens";
 import { lever } from "./lever";
+import { lungs } from "./lungs";
 import { moon } from "./moon";
 import { neural } from "./neural";
 import { orbit } from "./orbit";
@@ -29,4 +30,4 @@ import { tides } from "./tides";
 import { watercycle } from "./watercycle";
 import { windturbine } from "./windturbine";
 
-export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell, seasons, moon, lever, plates, starbirth, storm, neural, eclipse, greenhouse, pulley, circuit, watercycle, windturbine, gps, heatpump, sound, photosynthesis, heart, tides, arm };
+export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell, seasons, moon, lever, plates, starbirth, storm, neural, eclipse, greenhouse, pulley, circuit, watercycle, windturbine, gps, heatpump, sound, photosynthesis, heart, tides, arm, lungs };
