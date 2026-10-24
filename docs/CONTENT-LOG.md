@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-24 · 2026-10-animations-economy-1, -tech-1, -history-1 · drei neue 3D-Animationen ohne fremde Modelle: „Wie an der Börse ein Preis entsteht“ (Szene orderbook), „Wie ein Touchscreen Berührungen erkennt“ (Szene touchscreen), „Wie Gutenbergs Buchdruck funktionierte“ (Szene printing), je mit Vorhersage- und Kontrollfrage (qa-boerse, qa-touch, qa-buchdruck) · Belege wörtlich aus Börse, Orderbuch, Geld-/Briefkurs, Marktpreis · Touchscreen · Druckpresse, Handgießinstrument, Winkelhaken, Buchdruck · keine Anlageberatung, nur Funktionsweise.
+
 - 2026-10-24 · 2026-10-animations-anatomy-5 · neue 3D-Animation „Wie das Gehirn aufgebaut ist“ (Szene brain: echtes Gehirn aus Z-Anatomy, Lappen leuchten nacheinander auf, Kleinhirn und Hirnstamm) mit Vorhersage- und Kontrollfrage qa-gehirn · Belege wörtlich aus Frontal-, Parietal-, Temporal-, Okzipitallappen, Kleinhirn, Hirnstamm · Nervenzellen-Zahl auf „Gehirn und Rückenmark“ eingegrenzt (Quelle: zentralnervöse Neuronen).
 
 - 2026-10-24 · 2026-10-animations-anatomy-4 · neue 3D-Animation „Wie das Knie funktioniert“ (Szene knee: echtes Knie aus Z-Anatomy, Beugung um die Knieachse, Menisken, Kreuzbänder, Kniescheibe mit Quadrizeps; Kniescheibenband gezeichnet) mit Vorhersage- und Kontrollfrage qa-knie · Belege wörtlich aus Kniegelenk, Kreuzband, Kniescheibe.

@@ -3160,5 +3160,327 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-24T12:00:00Z",
+    "id": "a-boerse",
+    "category_id": "economy",
+    "scene": "orderbook",
+    "title": "Wie an der Börse ein Preis entsteht",
+    "summary": "Kaufaufträge treffen auf Verkaufsaufträge – und daraus ergibt sich der Preis.",
+    "goal": "Du kannst erklären, was im Orderbuch steht, wann ein Geschäft zustande kommt und warum der Preis steigt oder sinkt.",
+    "labels": [
+      "Kaufaufträge",
+      "Verkaufsaufträge",
+      "Orderbuch",
+      "Höchstens so viel will der Käufer zahlen",
+      "Mindestens so viel will der Verkäufer",
+      "Lücke: kein Geschäft",
+      "Passt – Geschäft!",
+      "Mehr Nachfrage: Preis steigt",
+      "Preis"
+    ],
+    "steps": [
+      {
+        "text": "An der Börse treffen Angebot und Nachfrage zusammen. Alle Aufträge zu einem Wertpapier stehen im Orderbuch, geordnet nach Preis und Eingangszeitpunkt: links die Kaufaufträge, rechts die Verkaufsaufträge.",
+        "seconds": 9
+      },
+      {
+        "text": "Jeder Käufer nennt den Preis, den er höchstens zahlen will, jeder Verkäufer den Preis, den er mindestens erzielen will. Solange alle Verkäufer mehr verlangen, als die Käufer bieten, kommt kein Geschäft zustande.",
+        "seconds": 10
+      },
+      {
+        "text": "Ein Geschäft kommt zustande, wenn zu einem Kaufauftrag ein passender Verkaufsauftrag vorliegt. Ein elektronisches System prüft die Aufträge ständig und führt passende automatisch aus.",
+        "seconds": 9
+      },
+      {
+        "text": "Der Preis richtet sich laufend nach Angebot und Nachfrage. Wollen mehr Menschen kaufen, als Angebote da sind, steigt er; gibt es mehr Angebot als Nachfrage, sinkt er.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Börse",
+        "url": "https://de.wikipedia.org/wiki/Börse"
+      },
+      {
+        "name": "Wikipedia: Orderbuch",
+        "url": "https://de.wikipedia.org/wiki/Orderbuch"
+      },
+      {
+        "name": "Wikipedia: Geldkurs",
+        "url": "https://de.wikipedia.org/wiki/Geldkurs"
+      },
+      {
+        "name": "Wikipedia: Briefkurs",
+        "url": "https://de.wikipedia.org/wiki/Briefkurs"
+      },
+      {
+        "name": "Wikipedia: Marktpreis",
+        "url": "https://de.wikipedia.org/wiki/Marktpreis"
+      }
+    ],
+    "quiz_question_id": "qa-boerse",
+    "translations": {
+      "en": {
+        "title": "How a price comes about at the stock exchange",
+        "summary": "Buy orders meet sell orders – and the price follows from that.",
+        "goal": "You can explain what is in the order book, when a trade takes place and why the price rises or falls.",
+        "labels": [
+          "Buy orders",
+          "Sell orders",
+          "Order book",
+          "The buyer will pay at most this much",
+          "The seller wants at least this much",
+          "Gap: no trade",
+          "A match – trade!",
+          "More demand: the price rises",
+          "Price"
+        ],
+        "steps": [
+          "At the stock exchange supply and demand meet. All orders for a security are listed in the order book, sorted by price and time of arrival: buy orders on the left, sell orders on the right.",
+          "Every buyer names the price they will pay at most, every seller the price they want at least. As long as all sellers ask for more than the buyers offer, no trade takes place.",
+          "A trade takes place when a buy order meets a matching sell order. An electronic system checks the orders all the time and carries out matching ones automatically.",
+          "The price follows supply and demand all the time. If more people want to buy than there are offers, it rises; if there is more supply than demand, it falls."
+        ],
+        "predict": {
+          "question": "Suddenly many new buy orders arrive, but hardly any new sell orders. What happens to the price?",
+          "options": [
+            "It rises",
+            "It falls",
+            "It stays exactly the same"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Plötzlich kommen viele neue Kaufaufträge, aber kaum neue Verkaufsaufträge. Was passiert mit dem Preis?",
+      "options": [
+        "Er steigt",
+        "Er sinkt",
+        "Er bleibt genau gleich"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-24T12:00:00Z",
+    "id": "a-touchscreen",
+    "category_id": "technology",
+    "scene": "touchscreen",
+    "title": "Wie ein Touchscreen Berührungen erkennt",
+    "summary": "Unter dem Glas liegt ein Gitter aus Streifen – und ein Finger verändert es.",
+    "goal": "Du kannst erklären, wie ein Smartphone-Bildschirm merkt, wo dein Finger ist, und warum Handschuhe nicht funktionieren.",
+    "labels": [
+      "Deckglas",
+      "Sensor-Streifen",
+      "Treiber-Streifen",
+      "Display",
+      "Kreuzungspunkt",
+      "Größeres Signal: hier ist der Finger",
+      "Mehrere Finger zugleich",
+      "Isoliert voneinander"
+    ],
+    "steps": [
+      {
+        "text": "Fast alle Smartphones und Tablets nutzen projiziert-kapazitive Touchscreens. Auf der Rückseite des Deckglases liegen zwei Ebenen mit einem leitfähigen Muster aus Streifen – voneinander isoliert.",
+        "seconds": 9
+      },
+      {
+        "text": "Eine Ebene dient als Treiber, die andere als Sensor. Ihre Streifen kreuzen sich, und an jedem Kreuzungspunkt liegt ein winziger Kondensator.",
+        "seconds": 9
+      },
+      {
+        "text": "Kommt ein Finger an einen Kreuzungspunkt, ändert sich die Kapazität dieses Kondensators – und am Empfängerstreifen kommt ein größeres Signal an. Die Stelle des Signals ist die Stelle des Fingers.",
+        "seconds": 10
+      },
+      {
+        "text": "Der Bildschirm erkennt auch Gesten und mehrere Finger zugleich (Multi-Touch). Bedienen lässt er sich nur mit dem bloßen Finger – ob kalt oder warm – oder mit leitfähigen Stiften, nicht mit dicken Handschuhen.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Touchscreen",
+        "url": "https://de.wikipedia.org/wiki/Touchscreen"
+      }
+    ],
+    "quiz_question_id": "qa-touch",
+    "translations": {
+      "en": {
+        "title": "How a touchscreen detects a touch",
+        "summary": "Under the glass lies a grid of stripes – and a finger changes it.",
+        "goal": "You can explain how a smartphone screen notices where your finger is, and why gloves do not work.",
+        "labels": [
+          "Cover glass",
+          "Sensor stripes",
+          "Driver stripes",
+          "Display",
+          "Crossing point",
+          "Bigger signal: the finger is here",
+          "Several fingers at once",
+          "Insulated from each other"
+        ],
+        "steps": [
+          "Almost all smartphones and tablets use projected capacitive touchscreens. On the back of the cover glass lie two layers with a conductive pattern of stripes – insulated from each other.",
+          "One layer works as the driver, the other as the sensor. Their stripes cross, and at every crossing point there is a tiny capacitor.",
+          "When a finger comes to a crossing point, the capacitance of this capacitor changes – and a bigger signal arrives at the receiving stripe. Where the signal is, the finger is.",
+          "The screen also recognises gestures and several fingers at once (multi-touch). It only works with a bare finger – cold or warm – or with conductive styluses, not with thick gloves."
+        ],
+        "predict": {
+          "question": "Does such a touchscreen also work with thick gloves?",
+          "options": [
+            "No – it needs a bare finger or a conductive stylus",
+            "Yes – it reacts to pressure",
+            "Only when your hands are warm"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Funktioniert so ein Touchscreen auch mit dicken Handschuhen?",
+      "options": [
+        "Nein – er braucht den bloßen Finger oder einen leitfähigen Stift",
+        "Ja – er reagiert auf Druck",
+        "Nur wenn die Hände warm sind"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-24T12:00:00Z",
+    "id": "a-buchdruck",
+    "category_id": "history",
+    "scene": "printing",
+    "title": "Wie Gutenbergs Buchdruck funktionierte",
+    "summary": "Gegossene Lettern, ein Winkelhaken und eine Spindelpresse – und das Buch wird erschwinglich.",
+    "goal": "Du kannst die drei Schritte des Buchdrucks – Gießen, Setzen, Drucken – beschreiben und erklären, warum er so wichtig war.",
+    "labels": [
+      "Druckpresse",
+      "Handgießinstrument",
+      "Flüssiges Metall",
+      "Seitenverkehrte Letter",
+      "Winkelhaken",
+      "Zeile um Zeile zur Seite",
+      "Druckerballen: Farbe auf die Lettern",
+      "Spindel",
+      "Tiegel drückt das Papier",
+      "Gedruckte Seite"
+    ],
+    "steps": [
+      {
+        "text": "Um 1440 entwickelte Johannes Gutenberg in Mainz den Buchdruck. Er bestand aus zwei Teilen: beweglichen Lettern aus Metall und einer Druckpresse.",
+        "seconds": 8
+      },
+      {
+        "text": "Die Lettern wurden gegossen. Gutenbergs Handgießinstrument nahm eine Matrize auf, durch einen Kanal kam flüssiges Metall hinein. Weil sich die Matrizen auswechseln ließen, entstand jede Letter in beliebiger Anzahl und gleich groß – seitenverkehrt.",
+        "seconds": 10
+      },
+      {
+        "text": "Der Setzer reihte die Lettern im Winkelhaken zu Zeilen, bis eine ganze Seite beisammen war. Fertige Lettern zu setzen war viel einfacher und schneller, als für jede Seite eine Druckplatte herzustellen.",
+        "seconds": 10
+      },
+      {
+        "text": "Die eingefärbte Druckform kam in die Presse. Über eine Spindel drückte der Tiegel das Papier gleichmäßig auf die Lettern – die Seite war gedruckt. So wurde das Buch zum Massenartikel, den sich viel mehr Menschen leisten konnten.",
+        "seconds": 11
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Druckpresse",
+        "url": "https://de.wikipedia.org/wiki/Druckpresse"
+      },
+      {
+        "name": "Wikipedia: Handgießinstrument",
+        "url": "https://de.wikipedia.org/wiki/Handgießinstrument"
+      },
+      {
+        "name": "Wikipedia: Winkelhaken",
+        "url": "https://de.wikipedia.org/wiki/Winkelhaken"
+      },
+      {
+        "name": "Wikipedia: Buchdruck",
+        "url": "https://de.wikipedia.org/wiki/Buchdruck"
+      }
+    ],
+    "quiz_question_id": "qa-buchdruck",
+    "translations": {
+      "en": {
+        "title": "How Gutenberg's printing worked",
+        "summary": "Cast type, a composing stick and a screw press – and books become affordable.",
+        "goal": "You can describe the three steps of printing – casting, setting, printing – and explain why it mattered so much.",
+        "labels": [
+          "Printing press",
+          "Hand mould",
+          "Liquid metal",
+          "Mirror-image letter",
+          "Composing stick",
+          "Line by line into a page",
+          "Ink ball: ink onto the type",
+          "Screw",
+          "The platen presses the paper",
+          "Printed page"
+        ],
+        "steps": [
+          "Around 1440 Johannes Gutenberg developed printing in Mainz. It had two parts: movable type made of metal and a printing press.",
+          "The letters were cast. Gutenberg's hand mould held a matrix, and liquid metal flowed in through a channel. Because the matrices could be exchanged, every letter could be made in any number and the same size – as a mirror image.",
+          "The compositor lined up the letters in the composing stick into lines until a whole page was together. Setting ready-made letters was much simpler and faster than making a printing block for every page.",
+          "The inked forme went into the press. Through a screw the platen pressed the paper evenly onto the type – the page was printed. This turned the book into a mass product that far more people could afford."
+        ],
+        "predict": {
+          "question": "The page is set and covered with ink. What does the press do now?",
+          "options": [
+            "It presses the paper evenly onto the type",
+            "It cuts the letters into the paper",
+            "It burns the ink in with heat"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Die Seite ist gesetzt und mit Farbe bestrichen. Was macht jetzt die Presse?",
+      "options": [
+        "Sie drückt das Papier gleichmäßig auf die Lettern",
+        "Sie schneidet die Buchstaben ins Papier",
+        "Sie brennt die Farbe mit Hitze ein"
+      ],
+      "correct": 0
+    }
   }
 ]

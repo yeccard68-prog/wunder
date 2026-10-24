@@ -33539,5 +33539,125 @@
         "explanation": "The occipital lobe is the rearmost part of the cerebrum. It processes the impulses from the eyes, which is why it is the brain's visual centre."
       }
     }
+  },
+  {
+    "id": "qa-boerse",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wo stehen an der Börse alle Kauf- und Verkaufsaufträge zu einem Wertpapier?",
+    "options": [
+      "Im Orderbuch",
+      "Im Grundbuch",
+      "In der Bilanz",
+      "Im Kassenbuch"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Orderbuch ist eine nach Preis und Eingangszeitpunkt geordnete Liste aller Aufträge zu einem Wertpapier. Es ist die Grundlage dafür, wie der Börsenkurs ermittelt wird.",
+    "difficulty": 1,
+    "tags": [
+      "Börse",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Orderbuch",
+    "source_url": "https://de.wikipedia.org/wiki/Orderbuch",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where are all the buy and sell orders for a security listed at the stock exchange?",
+        "options": [
+          "In the order book",
+          "In the land register",
+          "In the balance sheet",
+          "In the cash book"
+        ],
+        "explanation": "The order book is a list of all orders for a security, sorted by price and time of arrival. It is the basis on which the stock exchange price is worked out."
+      }
+    }
+  },
+  {
+    "id": "qa-touch",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Womit lässt sich der Touchscreen eines Smartphones nicht bedienen?",
+    "options": [
+      "Mit dicken Handschuhen",
+      "Mit dem bloßen Finger",
+      "Mit einem leitfähigen Eingabestift",
+      "Mit kalten Fingern"
+    ],
+    "correct_index": 0,
+    "explanation": "Smartphones nutzen kapazitive Touchscreens. Die reagieren auf den bloßen Finger – ob kalt oder warm – und auf leitfähige Stifte, nicht aber auf dicke Handschuhe oder herkömmliche Stifte.",
+    "difficulty": 1,
+    "tags": [
+      "Smartphone",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Touchscreen",
+    "source_url": "https://de.wikipedia.org/wiki/Touchscreen",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can you not use to operate a smartphone's touchscreen?",
+        "options": [
+          "Thick gloves",
+          "A bare finger",
+          "A conductive stylus",
+          "Cold fingers"
+        ],
+        "explanation": "Smartphones use capacitive touchscreens. They respond to a bare finger – cold or warm – and to conductive styluses, but not to thick gloves or ordinary styluses."
+      }
+    }
+  },
+  {
+    "id": "qa-buchdruck",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was gehörte zu Gutenbergs Buchdruck neben der Druckpresse?",
+    "options": [
+      "Bewegliche Lettern aus Metall",
+      "Lettern aus Kunststoff",
+      "Ein Kopiergerät mit Licht",
+      "Handgeschriebene Vorlagen aus Pergament"
+    ],
+    "correct_index": 0,
+    "explanation": "Gutenberg entwickelte den Buchdruck um 1440 in Mainz aus zwei Bestandteilen: einer Druckpresse und beweglichen Lettern aus Metall, die er in einem Handgießinstrument goss.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Druckpresse",
+    "source_url": "https://de.wikipedia.org/wiki/Druckpresse",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Besides the printing press, what was part of Gutenberg's printing?",
+        "options": [
+          "Movable metal type",
+          "Plastic type",
+          "A copier that works with light",
+          "Handwritten templates on parchment"
+        ],
+        "explanation": "Gutenberg developed printing around 1440 in Mainz from two parts: a printing press and movable metal type, which he cast in a hand mould."
+      }
+    }
   }
 ]
