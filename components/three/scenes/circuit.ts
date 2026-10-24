@@ -3,6 +3,7 @@
 //         5 in series: both dimmer, 6 in parallel: both bright
 // The moving dots stand for electrons drifting from the negative to the positive terminal; real
 // electrons creep along at fractions of a millimetre per second. Brightness is shown relative to one lamp.
+import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { TIMING } from "@/lib/animations";
 import { clamp, ease, lerp, mix, type SceneFactory, type Vec3 } from "../types";
 
@@ -35,7 +36,7 @@ export const circuit: SceneFactory = ({ THREE: T, scene }) => {
   const rung = wire([RUNG, -Y, 0], [RUNG, Y, 0]); // second branch, only in the parallel circuit
 
   // battery: negative end on the left, positive (with the cap) on the right
-  const cell = new T.Mesh(new T.CylinderGeometry(0.34, 0.34, 1.5, 28), new T.MeshStandardMaterial({ color: 0x2f5fb8, metalness: 0.4, roughness: 0.4 }));
+  const cell = new T.Mesh(new T.CylinderGeometry(0.34, 0.34, 1.5, 40), new T.MeshPhysicalMaterial({ color: 0x2f5fb8, metalness: 0.35, roughness: 0.35, clearcoat: 0.8, clearcoatRoughness: 0.2 }));
   cell.rotation.z = Math.PI / 2;
   cell.position.set(-0.12, -Y, 0);
   const plus = new T.Mesh(new T.CylinderGeometry(0.34, 0.34, 0.3, 28), new T.MeshStandardMaterial({ color: 0xd9a441, metalness: 0.8, roughness: 0.3 }));
@@ -46,9 +47,12 @@ export const circuit: SceneFactory = ({ THREE: T, scene }) => {
   cap.position.set(0.95, -Y, 0);
   // switch: a lever that closes the gap
   const lever = new T.Group();
-  const arm = new T.Mesh(new T.BoxGeometry(0.1, 0.95, 0.1), steel);
+  // a knife switch: a metal blade with an insulating handle at its end
+  const arm = new T.Mesh(new RoundedBoxGeometry(0.1, 0.95, 0.06, 2, 0.02), steel);
   arm.position.y = 0.47;
-  lever.add(arm);
+  const handle = new T.Mesh(new T.CapsuleGeometry(0.07, 0.22, 6, 12), new T.MeshPhysicalMaterial({ color: 0x1b1b1d, roughness: 0.3, clearcoat: 0.8 }));
+  handle.position.set(0, 0.85, 0.12);
+  lever.add(arm, handle);
   lever.position.set(-X, -0.45, 0.05);
   const posts = [-0.45, 0.45].map((y) => {
     const m = new T.Mesh(new T.CylinderGeometry(0.1, 0.1, 0.16, 16), dark);
@@ -63,8 +67,9 @@ export const circuit: SceneFactory = ({ THREE: T, scene }) => {
     const socket = new T.Mesh(new T.CylinderGeometry(0.2, 0.2, 0.34, 20), steel);
     socket.rotation.x = Math.PI / 2;
     const glassMat = new T.MeshStandardMaterial({ color: 0xfff3d0, transparent: true, opacity: 0.4, roughness: 0.05, emissive: new T.Color(0xffc94a), emissiveIntensity: 0, depthWrite: false });
-    const glass = new T.Mesh(new T.SphereGeometry(0.42, 28, 20), glassMat);
-    glass.position.z = 0.45;
+    const glass = new T.Mesh(new T.LatheGeometry([[0.17, -0.2], [0.22, -0.12], [0.34, 0.0], [0.41, 0.14], [0.42, 0.28], [0.37, 0.42], [0.24, 0.52], [0, 0.55]].map(([x, y]) => new T.Vector2(x, y)), 36), glassMat);
+    glass.rotation.x = Math.PI / 2; // the lamp points out of the board
+    glass.position.z = 0.37;
     glass.renderOrder = 4;
     const light = new T.PointLight(0xffc56a, 0, 5, 1.5);
     light.position.z = 0.6;

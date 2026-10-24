@@ -31,7 +31,36 @@ export const photosynthesis: SceneFactory = ({ THREE: T, scene }) => {
   outline.quadraticCurveTo(2.1, 0.7, 2.8, 0);
   outline.quadraticCurveTo(2.1, -0.7, 1, -1.05);
   outline.quadraticCurveTo(-1.2, -1.55, -2.4, 0);
-  const leafMat = new T.MeshStandardMaterial({ color: 0x2f7d2c, roughness: 0.55, side: T.DoubleSide });
+  // the leaf surface, painted once: lighter in the middle, darker at the edge, with a fine net of small veins
+  // (the outline spans x −2.4…2.8, y −1.3…1.3; the texture is stretched over exactly that)
+  const skin = document.createElement("canvas");
+  skin.width = 512;
+  skin.height = 256;
+  const c = skin.getContext("2d");
+  if (c) {
+    const grad = c.createRadialGradient(230, 128, 20, 230, 128, 300);
+    grad.addColorStop(0, "#4f9a3c");
+    grad.addColorStop(0.6, "#2f7d2c");
+    grad.addColorStop(1, "#1d5a1f");
+    c.fillStyle = grad;
+    c.fillRect(0, 0, 512, 256);
+    for (let i = 0; i < 900; i++) {
+      // tiny vein segments, a little lighter than the leaf
+      const x = rand(i, 21) * 512, y = rand(i, 22) * 256, a = rand(i, 23) * 6.28, l = 6 + 14 * rand(i, 24);
+      c.strokeStyle = `rgba(170,215,120,${0.08 + 0.12 * rand(i, 25)})`;
+      c.lineWidth = 0.8;
+      c.beginPath();
+      c.moveTo(x, y);
+      c.lineTo(x + Math.cos(a) * l, y + Math.sin(a) * l);
+      c.stroke();
+    }
+  }
+  const skinMap = new T.CanvasTexture(skin);
+  skinMap.colorSpace = T.SRGBColorSpace;
+  skinMap.repeat.set(1 / 5.2, 1 / 2.6);
+  skinMap.offset.set(2.4 / 5.2, 1.3 / 2.6);
+  // a waxy skin: a little gloss on top
+  const leafMat = new T.MeshPhysicalMaterial({ color: 0xffffff, map: skinMap, roughness: 0.5, clearcoat: 0.5, clearcoatRoughness: 0.35, sheen: 0.4, sheenColor: new T.Color(0xc8f0a0), side: T.DoubleSide });
   const blade = new T.Mesh(new T.ExtrudeGeometry(outline, { depth: 0.04, bevelEnabled: false, curveSegments: 24 }), leafMat);
   blade.position.z = -0.02;
   leaf.add(blade);

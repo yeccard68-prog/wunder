@@ -1,5 +1,6 @@
 // Four-stroke petrol engine, one cylinder, cut open at the front.
 // labels: 0 intake valve, 1 exhaust valve, 2 spark plug, 3 piston, 4 crankshaft, 5–8 names of the four strokes
+import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { clamp, ease, lerp, type SceneFactory, type Vec3 } from "../types";
 
 const R = 0.6; // crank radius
@@ -75,7 +76,8 @@ export const engine: SceneFactory = ({ THREE: T, scene }) => {
 
   // piston with rings, connecting rod
   const piston = add(new T.Group());
-  add(new T.Mesh(new T.CylinderGeometry(0.95, 0.95, 0.75, 48), steel), piston);
+  // the piston: a slightly dished crown, two ring grooves, a skirt that narrows a little towards the bottom
+  add(new T.Mesh(new T.LatheGeometry([[0, 0.33], [0.6, 0.35], [0.92, 0.375], [0.95, 0.35], [0.95, 0.25], [0.93, 0.24], [0.93, 0.2], [0.95, 0.19], [0.95, 0.13], [0.93, 0.12], [0.93, 0.08], [0.95, 0.07], [0.945, -0.375], [0.86, -0.375], [0.86, 0.25], [0, 0.25]].map(([x, y]) => new T.Vector2(x, y)), 64), steel), piston);
   for (const y of [0.22, 0.1]) {
     const ring = add(new T.Mesh(new T.TorusGeometry(0.955, 0.022, 8, 48), iron), piston);
     ring.rotation.x = Math.PI / 2;
@@ -104,7 +106,7 @@ export const engine: SceneFactory = ({ THREE: T, scene }) => {
     journal.position.z = z;
   }
   for (const z of [-0.24, 0.24]) {
-    add(new T.Mesh(new T.BoxGeometry(0.46, R + 0.5, 0.14), iron), crank).position.set(0, R / 2, z);
+    add(new T.Mesh(new RoundedBoxGeometry(0.46, R + 0.5, 0.14, 3, 0.05), iron), crank).position.set(0, R / 2, z);
     // counterweight: half a disc on the side opposite the crank pin
     const half = new T.CylinderGeometry(0.74, 0.74, 0.14, 32, 1, false, 0, Math.PI);
     half.rotateX(Math.PI / 2);

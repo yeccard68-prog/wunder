@@ -3,6 +3,7 @@
 // labels: 0 warm, moist air rises, 1 ice crystals, 2 graupel, 3 lightning: up to 30,000 °C, 4 over 10 km high
 // Not to scale: crystals, graupel and the charge signs are enormously enlarged, the growth of the
 // cloud – in reality tens of minutes – takes seconds.
+import { mergeVertices } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { TIMING } from "@/lib/animations";
 import { painter } from "../surface";
 import { clamp, ease, lerp, mix, rand, type SceneFactory, type Vec3 } from "../types";
@@ -38,17 +39,33 @@ export const storm: SceneFactory = ({ THREE: T, scene }) => {
   // the cloud: many soft balls, appearing from the base upwards as it grows; an anvil spreads out at the top
   // dark at the base, bright at the top – the way a thundercloud looks from below
   const shadeBase = Array.from({ length: 6 }, (_, k) => new T.Color(0x8a92a2).lerp(new T.Color(0xffffff), Math.pow(k / 5, 0.8)));
-  const shades = shadeBase.map((c) => new T.MeshStandardMaterial({ color: c.clone(), roughness: 1, metalness: 0 }));
-  const puffs = Array.from({ length: 64 }, (_, i) => {
-    const level = i / 63; // 0 base … 1 top
+  // soft, fuzzy material: the edges light up a little, as on a real cloud
+  const shades = shadeBase.map((c) => new T.MeshPhysicalMaterial({ color: c.clone(), roughness: 1, metalness: 0, sheen: 1, sheenRoughness: 0.85, sheenColor: new T.Color(0xffffff) }));
+  // one lumpy ball (cauliflower-like bumps) shared by all puffs; each puff is turned differently
+  const lump = mergeVertices(new T.IcosahedronGeometry(1, 4).deleteAttribute("normal").deleteAttribute("uv")); // shared corners: smooth shading
+  {
+    const p = lump.getAttribute("position") as InstanceType<typeof T.BufferAttribute>;
+    const v = new T.Vector3();
+    for (let i = 0; i < p.count; i++) {
+      v.fromBufferAttribute(p, i).normalize();
+      const bump = 0.13 * Math.sin(v.x * 7.1 + 1.3) * Math.sin(v.y * 6.3 + 0.4) * Math.sin(v.z * 7.7 + 2.1) + 0.06 * Math.sin(v.x * 17 + v.y * 13) * Math.sin(v.z * 15 - v.y * 11);
+      v.multiplyScalar(1 + bump);
+      p.setXYZ(i, v.x, v.y, v.z);
+    }
+    lump.computeVertexNormals();
+  }
+  const PUFFS = 110;
+  const puffs = Array.from({ length: PUFFS }, (_, i) => {
+    const level = i / (PUFFS - 1); // 0 base … 1 top
     const anvil = level > 0.82;
     const spread = anvil ? 3.4 : lerp(2.1, 1.35, level) * (1 + 0.25 * Math.sin(level * 9));
     const a = rand(i, 1) * 6.2832;
     const d = Math.sqrt(rand(i, 2)) * spread;
-    const m = new T.Mesh(new T.SphereGeometry(1, 20, 14), shades[Math.min(5, Math.floor(level * 6))]);
+    const m = new T.Mesh(lump, shades[Math.min(5, Math.floor(level * 6))]);
+    m.rotation.set(rand(i, 7) * 6.28, rand(i, 8) * 6.28, rand(i, 9) * 6.28);
     m.position.set(d * Math.cos(a), lerp(BASE + 0.3, TOPY, level) + (anvil ? 0 : 0.3 * (rand(i, 5) - 0.5)), d * Math.sin(a) * 0.75);
     scene.add(m);
-    return { m, level, size: (anvil ? 0.75 : lerp(1.05, 0.8, level)) * (0.8 + 0.4 * rand(i, 6)), flat: anvil ? 0.55 : 1 };
+    return { m, level, size: (anvil ? 0.62 : lerp(0.9, 0.66, level)) * (0.75 + 0.5 * rand(i, 6)), flat: anvil ? 0.55 : 1 };
   });
 
   // rain falling from the base of the mature cloud

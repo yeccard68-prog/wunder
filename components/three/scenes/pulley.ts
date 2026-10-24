@@ -3,6 +3,7 @@
 // labels: 0 fixed pulley, 1 movable pulley, 2 load, 3 force, 4 same force – other direction,
 //         5 two ropes carry: half the force, 6 twice the rope, 7 four ropes carry: a quarter of the force
 // Idealised: ropes and pulleys weigh nothing and turn without friction.
+import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { TIMING } from "@/lib/animations";
 import { clamp, ease, type SceneFactory, type Vec3 } from "../types";
 
@@ -38,18 +39,20 @@ export const pulley: SceneFactory = ({ THREE: T, scene }) => {
   };
   const wheel = (parent: Group) => {
     const g = new T.Group();
-    const disc = new T.Mesh(new T.CylinderGeometry(R, R, 0.16, 36), brass);
+    // a sheave: a wheel with a groove round its rim that guides the rope
+    const disc = new T.Mesh(new T.LatheGeometry([[0, -0.08], [R, -0.08], [R, -0.05], [R - 0.06, -0.02], [R - 0.07, 0], [R - 0.06, 0.02], [R, 0.05], [R, 0.08], [0, 0.08]].map(([x, y]) => new T.Vector2(x, y)), 48), brass);
     disc.rotation.x = Math.PI / 2;
     const hub = new T.Mesh(new T.CylinderGeometry(0.09, 0.09, 0.3, 16), steel);
     hub.rotation.x = Math.PI / 2;
-    const spoke = new T.Mesh(new T.BoxGeometry(R * 1.7, 0.05, 0.18), iron); // makes the turning visible
+    const spoke = new T.Mesh(new RoundedBoxGeometry(R * 1.7, 0.06, 0.18, 2, 0.025), iron); // makes the turning visible
     g.add(disc, hub, spoke);
     parent.add(g);
     return g;
   };
   const weight = (parent: Group) => {
     const g = new T.Group();
-    const body = new T.Mesh(new T.CylinderGeometry(0.5, 0.55, 0.8, 28), iron);
+    // a cast weight with a rounded shoulder
+    const body = new T.Mesh(new T.LatheGeometry([[0, -0.4], [0.53, -0.4], [0.56, -0.36], [0.55, 0.22], [0.42, 0.36], [0.14, 0.4], [0, 0.4]].map(([x, y]) => new T.Vector2(x, y)), 40), iron);
     body.position.y = -0.55;
     const eye = new T.Mesh(new T.TorusGeometry(0.1, 0.03, 8, 20), steel);
     eye.position.y = -0.08;
