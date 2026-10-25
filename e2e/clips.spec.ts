@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 
 // A learner who has finished onboarding (demo mode keeps its state on the device).
-const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" } } };
+const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de", dailyPuzzles: false } } };
 
 const signIn = (page: Page) =>
   page.addInitScript((s) => {
@@ -605,4 +605,35 @@ test("facts: a page with every fact, filter by area, the explanation on request,
   await first.getByRole("button", { name: "Wow!" }).click();
   await expect(first.getByRole("button", { name: "Wow!" })).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByText("1× „Wow!“")).toBeVisible();
+});
+
+test("the three puzzles of the day come before the feed, and giving up counts as done", async ({ page }) => {
+  await page.addInitScript((s) => localStorage.getItem("wunder.demo.state.v3") || localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { ...seed.state, settings: { ...seed.state.settings, dailyPuzzles: true } } });
+  await page.goto("/");
+  const gate = page.getByTestId("daily-puzzles");
+  await expect(gate).toBeVisible();
+  for (let k = 1; k <= 3; k++) {
+    await expect(gate.getByRole("status").first()).toContainText(`Rätsel ${k} von 3`);
+    await gate.getByTestId("puzzle-reveal").click();
+    await expect(gate.getByTestId("puzzle-result")).toContainText("Lösung");
+    await gate.getByTestId("daily-next").click();
+  }
+  await expect(page.getByTestId("snap-feed")).toBeVisible();
+  await page.reload();
+  await expect(page.getByTestId("snap-feed")).toBeVisible(); // done for today
+  await expect(page.getByTestId("daily-puzzles")).toHaveCount(0);
+});
+
+test("a nearly finished sudoku can be solved by typing the missing numbers", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/riddles/");
+  const sudoku = page.locator('[data-testid="puzzle"][data-kind="sudoku"]').first();
+  await expect(sudoku).toBeVisible();
+  // hints fill one square each – all but the last; the last one is typed with the number pad
+  const open = await sudoku.locator('[data-testid="puzzle-cell"][data-open]').count();
+  for (let k = 0; k < open - 1; k++) await sudoku.getByTestId("puzzle-hint").click();
+  const last = sudoku.locator('[data-testid="puzzle-cell"][data-open]').filter({ hasText: /^$/ }).first();
+  await last.click();
+  for (let d = 1; d <= 9 && !(await sudoku.getByTestId("puzzle-result").count()); d++) await sudoku.getByTestId("puzzle-digit").nth(d - 1).click();
+  await expect(sudoku.getByTestId("puzzle-result")).toContainText("Gelöst");
 });

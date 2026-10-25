@@ -81,7 +81,7 @@ export default function ExplorePage() {
   const play = [
     ...(child ? [] : [{ href: "/duel/", Icon: Swords, title: t("Duell"), text: t("Freunde, Zufall oder Computer"), color: "var(--accent)" }]),
     { href: "/quiz/", Icon: Zap, title: t("Quiz"), text: t("Üben und Wiederholen"), color: "var(--tech)" },
-    { href: "/riddles/", Icon: Puzzle, title: t("Rätsel"), text: t("{n} Knobelaufgaben", { n: items.filter((i) => i.hints?.length).length }), color: "var(--math)" },
+    { href: "/riddles/", Icon: Puzzle, title: t("Rätsel"), text: t("Sudoku, Kreuzworträtsel und {n} Knobelaufgaben", { n: items.filter((i) => i.hints?.length).length }), color: "var(--math)" },
   ];
   const featured = picks.animations[0];
 

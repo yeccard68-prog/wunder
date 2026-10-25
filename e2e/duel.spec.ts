@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test";
 
 // Demo mode: the practice duel against the computer, on the device. (Duels between people need the
 // live backend; their rules are tested in supabase/tests/duels.sql and groups_chat.sql.)
-const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" } } };
+const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de", dailyPuzzles: false } } };
 const signIn = (page: Page) =>
   page.addInitScript((s) => {
     if (!localStorage.getItem("wunder.demo.state.v3")) localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s));

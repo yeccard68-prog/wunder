@@ -262,6 +262,13 @@ export default function ProfilePage() {
           </div>
           <div className="flex items-center gap-4">
             <div className="flex-1">
+              <p className="text-sm font-semibold">{t("Rätsel des Tages")}</p>
+              <p className="text-sm text-muted">{t("Drei knifflige Rätsel, bevor dein Feed startet.")}</p>
+            </div>
+            <Toggle label={t("Rätsel des Tages vor dem Feed")} checked={state.settings.dailyPuzzles !== false} onChange={(v) => update({ settings: { ...state.settings, dailyPuzzles: v } })} />
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="flex-1">
               <p className="text-sm font-semibold">{t("Privates Profil")}</p>
               <p className="text-sm text-muted">{t("Du erscheinst nicht in Ranglisten und Suchergebnissen.")}</p>
             </div>

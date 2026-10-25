@@ -1,6 +1,6 @@
 // One feed for everything: question cards, "did you know" facts, clips, explainer animations, book ideas and
 // interactive visualisations. How it is put together (see docs/BACKEND.md, "Feed"):
-//  - a stream of cards: the ranked questions with a fact after every third, spread so that no more than two
+//  - a stream of cards: the ranked questions with a fact after every third (a nearly finished grid puzzle after every eighth), spread so that no more than two
 //    of the same topic follow each other;
 //  - something to watch or try between the cards – after the second card already (a strong start), then
 //    every 2–4 cards depending on whether this learner lingers more on clips and animations or on cards;
@@ -11,6 +11,7 @@ import type { Clip } from "./content";
 import { mediaEvery, PAUSE_AFTER, spreadTopics, formatEngagement, type EntryKind } from "./engagement";
 import type { DayEvent } from "./days";
 import type { Fact } from "./facts";
+import type { Puzzle } from "./puzzles";
 import type { Study } from "./studies";
 import { withSeries } from "./series";
 import type { Ranked } from "./ranking";
@@ -28,15 +29,16 @@ export type FeedEntry =
   | { kind: "series"; id: string; area: Fact["area"]; facts: Fact[] }
   | { kind: "day"; event: DayEvent }
   | { kind: "study"; study: Study }
+  | { kind: "puzzle"; puzzle: Puzzle }
   | { kind: "pause"; id: string };
 
 export const entryId = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "study" ? e.study.id : e.kind === "pause" ? e.id : e.idea.id;
+  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "study" ? e.study.id : e.kind === "puzzle" ? e.puzzle.id : e.kind === "pause" ? e.id : e.idea.id;
 /** Every content id an entry shows (a series shows three facts) – all of them count as seen. */
 export const entryContentIds = (e: FeedEntry) => (e.kind === "series" ? e.facts.map((f) => f.id) : [entryId(e)]);
 /** Topic of an entry (for the signals and for spreading topics). */
 export const entryTopic = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "study" ? e.study.categoryId : e.kind === "insight" ? e.book.topicId : "";
+  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "study" ? e.study.categoryId : e.kind === "puzzle" ? "math" : e.kind === "insight" ? e.book.topicId : "";
 export const asEntries = (ranked: Ranked[]): FeedEntry[] => ranked.map((r) => ({ kind: "item", ...r }));
 
 /** Default number of cards between two things to watch (adapted per learner by mediaEvery). */
@@ -45,6 +47,8 @@ export const MEDIA_EVERY = 3;
 export const FACT_EVERY = 3;
 /** A "Studie kurz erklärt" after this many question cards (longer reads, so less often than facts). */
 export const STUDY_EVERY = 7;
+/** A nearly finished grid puzzle (sudoku, crossword, pyramid) after this many question cards. */
+export const PUZZLE_EVERY = 8;
 
 type Media = Extract<FeedEntry, { kind: "clip" | "animation" | "insight" | "visual" }>;
 
@@ -53,7 +57,7 @@ type Media = Extract<FeedEntry, { kind: "clip" | "animation" | "insight" | "visu
  * on screen moves back, and what is done (clip watched, question answered, visualisation tried) comes last. The
  * check question of an animation is shown with the animation, not a second time as a card of its own.
  */
-export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[], state: UserState, insights: Insight[] = [], visuals: Visual[] = [], facts: Fact[] = [], days: DayEvent[] = [], studies: Study[] = []): FeedEntry[] {
+export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[], state: UserState, insights: Insight[] = [], visuals: Visual[] = [], facts: Fact[] = [], days: DayEvent[] = [], studies: Study[] = [], puzzles: Puzzle[] = []): FeedEntry[] {
   const hidden = new Set(state.hidden);
   // new first; seen but not done next; done last – each seen longest ago first (lib/seen.ts)
   const clipQueue = freshFirst(clips.filter((c) => !hidden.has(c.id)), (c) => c.id, state, (c) => (state.clipStats[c.id]?.completed ?? 0) > 0);
@@ -63,6 +67,8 @@ export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[]
   // facts (already ranked) – every few a theme series of three from one area
   const factQueue: FeedEntry[] = withSeries(facts).map((u) => (u.kind === "fact" ? u : { kind: "series", id: `series-${u.facts.map((f) => f.id).join("+")}`, area: u.area, facts: u.facts }));
   const studyQueue = freshFirst(studies, (s) => s.id, state);
+  const solved = new Set(state.puzzles?.done ?? []);
+  const puzzleQueue = puzzles.filter((p) => !solved.has(p.id));
   const withAnimation = new Set(animQueue.map((a) => a.quizId));
 
   // 1. the stream of cards: questions with a fact after every few, topics spread out
@@ -71,6 +77,7 @@ export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[]
     stream.push({ kind: "item", ...r });
     if ((i + 1) % FACT_EVERY === 0 && factQueue.length) stream.push(factQueue.shift()!);
     if ((i + 1) % STUDY_EVERY === 0 && studyQueue.length) stream.push({ kind: "study", study: studyQueue.shift()! });
+    if ((i + 1) % PUZZLE_EVERY === 0 && puzzleQueue.length) stream.push({ kind: "puzzle", puzzle: puzzleQueue.shift()! });
   });
   stream.push(...factQueue, ...studyQueue.map((study): FeedEntry => ({ kind: "study", study })));
   // "Heute vor … Jahren": today's event as the second card, unless it was seen already

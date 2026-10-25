@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { expect, test } from "@playwright/test";
 
 // Sharing a fact as a picture: drawn on the device, offered as a download where the system cannot share files.
-const seed = { state: { onboarded: true, username: "Test", interests: ["science"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" } } };
+const seed = { state: { onboarded: true, username: "Test", interests: ["science"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de", dailyPuzzles: false } } };
 
 test("a fact can be shared as a picture (download where sharing files is not possible)", async ({ page }) => {
   await page.addInitScript((s) => {

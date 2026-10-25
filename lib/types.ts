@@ -111,6 +111,7 @@ export interface UserState {
   facts?: { wow: string[]; known: string[] }; // reactions to "Did you know?" cards
   signals?: import("./engagement").Signals; // what the feed learns from viewing behaviour – stays on this device
   heardFrom?: HeardFrom; // optional answer in the onboarding: where they heard of the app
+  puzzles?: import("./puzzles").PuzzleState; // grid puzzles: today’s three before the feed, feed puzzles solved – stays on this device
   seen?: import("./seen").Seen; // when each entry was last on screen, so the feed repeats as late as possible – stays on this device
   likes: string[];
   saves: string[];
@@ -124,5 +125,5 @@ export interface UserState {
   challenges: ChallengeResult[];
   achievements: string[];
   log: LogEntry[];
-  settings: { theme: Theme; privateProfile: boolean; muted: boolean; captions: boolean; locale: string; analytics?: boolean }; // analytics: consent to usage events, off unless switched on
+  settings: { theme: Theme; privateProfile: boolean; muted: boolean; captions: boolean; locale: string; analytics?: boolean; dailyPuzzles?: boolean }; // analytics: consent to usage events, off unless switched on · dailyPuzzles: false = no "Rätsel des Tages" before the feed
 }

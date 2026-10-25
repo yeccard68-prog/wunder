@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
+import DailyPuzzles from "@/components/DailyPuzzles";
 import Feed from "@/components/Feed";
 import { Empty } from "@/components/ui";
 import { animationsFor } from "@/lib/animations";
@@ -9,12 +10,17 @@ import { rankClips } from "@/lib/clips";
 import { mixFeed } from "@/lib/feed";
 import { eventsFor } from "@/lib/days";
 import { factsFor, rankFacts } from "@/lib/facts";
+import { today } from "@/lib/gamification";
+import { dailyOpen, dailyPuzzles, feedPuzzles } from "@/lib/puzzles";
 import { studiesFor } from "@/lib/studies";
 import { visualsFor } from "@/lib/visuals";
 import { rankForYou } from "@/lib/ranking";
 import { useStore, useT } from "@/lib/store";
 
-/** "Für dich": the app opens straight into one snapping feed – cards, facts, clips, animations; due repetitions are mixed in. */
+/**
+ * "Für dich": one snapping feed – cards, facts, clips, animations, puzzles; due repetitions are mixed in. Once a day
+ * the three "Rätsel des Tages" come first.
+ */
 export default function HomePage() {
   const { items, clips, state, getState } = useStore();
   const t = useT();
@@ -31,7 +37,19 @@ export default function HomePage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const facts = useMemo(() => factsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand)), [forYou, clips, animations, books, visuals, facts]);
+  const date = today();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const puzzles = useMemo(() => feedPuzzles(items, getState(), 6, date), [items.length, date, state.settings.locale, state.ageBand]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand), puzzles), [forYou, clips, animations, books, visuals, facts, puzzles]);
+  // today’s three puzzles, fixed for this visit (answering a card must not swap the crossword under the finger)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const daily = useMemo(() => (items.length ? dailyPuzzles(items, getState(), date) : []), [items.length > 0, date, state.settings.locale, state.ageBand]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const dailyLeft = useMemo(() => dailyOpen(getState(), daily, date), [daily]);
+  const [gateDone, setGateDone] = useState(false);
+
+  if (dailyLeft.length && !gateDone && state.settings.dailyPuzzles !== false) return <DailyPuzzles puzzles={daily} open={dailyLeft} onFinished={() => setGateDone(true)} />;
 
   if (!feed.length)
     return (

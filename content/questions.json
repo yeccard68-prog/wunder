@@ -33859,5 +33859,359 @@
         "explanation": "On an assembly line the steps and stations are arranged so that each needs exactly the same time: the cycle time. Only then can the line keep moving evenly."
       }
     }
+  },
+  {
+    "id": "sp45",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wer erfand 1891 das Basketballspiel?",
+    "options": [
+      "James Naismith",
+      "Pierre de Coubertin",
+      "William Webb Ellis",
+      "Walter Camp"
+    ],
+    "correct_index": 0,
+    "explanation": "Der kanadische Arzt und Pädagoge James Naismith entwickelte Basketball 1891 in Springfield (USA) als Hallensport für seine Studenten.",
+    "difficulty": 2,
+    "tags": [
+      "Basketball",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Basketball",
+    "source_url": "https://de.wikipedia.org/wiki/Basketball",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who invented the game of basketball in 1891?",
+        "options": [
+          "James Naismith",
+          "Pierre de Coubertin",
+          "William Webb Ellis",
+          "Walter Camp"
+        ],
+        "explanation": "The Canadian doctor and teacher James Naismith developed basketball in 1891 in Springfield (USA) as an indoor sport for his students."
+      }
+    }
+  },
+  {
+    "id": "sp46",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woraus besteht ein heutiger Eishockeypuck?",
+    "options": [
+      "Aus Hartgummi",
+      "Aus Kork",
+      "Aus Aluminium",
+      "Aus Styropor"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Puck ist eine flache Scheibe aus Hartgummi. Frühe Pucks waren noch aus Holz oder gefüllten Lederlappen.",
+    "difficulty": 1,
+    "tags": [
+      "Eishockey"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Puck (Sport)",
+    "source_url": "https://de.wikipedia.org/wiki/Puck_(Sport)",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a modern ice hockey puck made of?",
+        "options": [
+          "Hard rubber",
+          "Cork",
+          "Aluminium",
+          "Polystyrene"
+        ],
+        "explanation": "A puck is a flat disc of hard rubber. Early pucks were made of wood or stuffed leather."
+      }
+    }
+  },
+  {
+    "id": "sp47",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woraus besteht der Federkranz eines Naturfederballs beim Badminton?",
+    "options": [
+      "Aus Gänse- oder Entenfedern",
+      "Aus Papier",
+      "Aus Gummi",
+      "Aus Leder"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Kopf des Balls ist aus Kork, der Federkranz besteht meist aus 16 Gänse- oder Entenfedern.",
+    "difficulty": 2,
+    "tags": [
+      "Badminton"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Badminton",
+    "source_url": "https://de.wikipedia.org/wiki/Badminton",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the feather skirt of a natural shuttlecock in badminton made of?",
+        "options": [
+          "Goose or duck feathers",
+          "Paper",
+          "Rubber",
+          "Leather"
+        ],
+        "explanation": "The head of the shuttlecock is made of cork; the skirt usually consists of 16 goose or duck feathers."
+      }
+    }
+  },
+  {
+    "id": "sp48",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Von welcher Insel stammt der Granit der meisten Curlingsteine für Wettkämpfe?",
+    "options": [
+      "Von Ailsa Craig in Schottland",
+      "Von Island",
+      "Von Sizilien",
+      "Von Grönland"
+    ],
+    "correct_index": 0,
+    "explanation": "Die meisten Wettkampfsteine stellt seit 1876 eine schottische Firma her. Das Rohmaterial kommt von der Insel Ailsa Craig – ihr Granit ist außergewöhnlich feinkörnig.",
+    "difficulty": 3,
+    "tags": [
+      "Curling",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Curling",
+    "source_url": "https://de.wikipedia.org/wiki/Curling",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which island does the granite of most competition curling stones come from?",
+        "options": [
+          "Ailsa Craig in Scotland",
+          "Iceland",
+          "Sicily",
+          "Greenland"
+        ],
+        "explanation": "Most competition stones have been made by a Scottish company since 1876. The raw material comes from the island of Ailsa Craig – its granite is unusually fine-grained."
+      }
+    }
+  },
+  {
+    "id": "sp49",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie oft findet die Fußball-Weltmeisterschaft der Männer statt?",
+    "options": [
+      "Alle vier Jahre",
+      "Jedes Jahr",
+      "Alle zwei Jahre",
+      "Alle fünf Jahre"
+    ],
+    "correct_index": 0,
+    "explanation": "Alle vier Jahre können sich die Nationalmannschaften für die Endrunde qualifizieren, die dann als rund vierwöchiges Turnier ausgetragen wird.",
+    "difficulty": 1,
+    "tags": [
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußball-Weltmeisterschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How often is the men's football World Cup held?",
+        "options": [
+          "Every four years",
+          "Every year",
+          "Every two years",
+          "Every five years"
+        ],
+        "explanation": "Every four years the national teams can qualify for the final tournament, which then lasts about four weeks."
+      }
+    }
+  },
+  {
+    "id": "sp50",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Punkte zählt das rote Bull’s Eye in der Mitte einer Dartscheibe?",
+    "options": [
+      "25",
+      "50",
+      "60",
+      "100"
+    ],
+    "correct_index": 1,
+    "explanation": "Der innere rote Kreis, das Bull’s Eye, zählt 50 Punkte. Der grüne Ring darum, das Single Bull, zählt 25.",
+    "difficulty": 1,
+    "tags": [
+      "Darts"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Darts",
+    "source_url": "https://de.wikipedia.org/wiki/Darts",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many points is the red bull's eye in the centre of a dartboard worth?",
+        "options": [
+          "25",
+          "50",
+          "60",
+          "100"
+        ],
+        "explanation": "The inner red circle, the bull's eye, is worth 50 points. The green ring around it, the single bull, is worth 25."
+      }
+    }
+  },
+  {
+    "id": "sp51",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Punkte bringt die schwarze Kugel beim Snooker?",
+    "options": [
+      "1",
+      "5",
+      "7",
+      "10"
+    ],
+    "correct_index": 2,
+    "explanation": "Die 15 roten Kugeln sind je einen Punkt wert, die Farben steigen von Gelb (2) bis Schwarz (7).",
+    "difficulty": 2,
+    "tags": [
+      "Snooker"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Snooker",
+    "source_url": "https://de.wikipedia.org/wiki/Snooker",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many points is the black ball worth in snooker?",
+        "options": [
+          "1",
+          "5",
+          "7",
+          "10"
+        ],
+        "explanation": "The 15 red balls are worth one point each; the colours rise from yellow (2) to black (7)."
+      }
+    }
+  },
+  {
+    "id": "sp52",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Punkte kann man in einem Bowlingspiel höchstens erreichen?",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "1000"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Spiel hat zehn Durchgänge. Für das gesamte Spiel können höchstens 300 Punkte erzielt werden.",
+    "difficulty": 2,
+    "tags": [
+      "Bowling"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bowling",
+    "source_url": "https://de.wikipedia.org/wiki/Bowling",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the highest possible score in a game of bowling?",
+        "options": [
+          "100",
+          "200",
+          "300",
+          "1000"
+        ],
+        "explanation": "A game has ten frames. At most 300 points can be scored in a whole game."
+      }
+    }
+  },
+  {
+    "id": "sp53",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welcher Eiskunstlaufsprung wird als einziger der sechs Grundsprünge vorwärts abgesprungen?",
+    "options": [
+      "Der Axel",
+      "Der Rittberger",
+      "Der Salchow",
+      "Der Lutz"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Axel ist der einzige der sechs Grundsprünge mit einem Absprung nach vorn. Benannt ist er nach dem Norweger Axel Paulsen, der ihn 1882 erstmals zeigte.",
+    "difficulty": 2,
+    "tags": [
+      "Eiskunstlauf",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Axel (Eiskunstlauf)",
+    "source_url": "https://de.wikipedia.org/wiki/Axel_(Eiskunstlauf)",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which figure skating jump is the only one of the six basic jumps taken off forwards?",
+        "options": [
+          "The Axel",
+          "The loop",
+          "The Salchow",
+          "The Lutz"
+        ],
+        "explanation": "The Axel is the only one of the six basic jumps with a forward take-off. It is named after the Norwegian Axel Paulsen, who first showed it in 1882."
+      }
+    }
   }
 ]

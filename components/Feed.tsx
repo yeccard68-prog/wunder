@@ -20,6 +20,7 @@ import { titleGivesAway, useQuizView } from "@/lib/quizGate";
 import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
+import PuzzleCard from "./PuzzleCard";
 
 const PAGE = 6;
 
@@ -212,6 +213,7 @@ function Entry({ entry, fill }: { entry: FeedEntry; fill?: boolean }) {
   if (entry.kind === "day") return <DayCard event={entry.event} />;
   if (entry.kind === "study") return <StudyCard study={entry.study} />;
   if (entry.kind === "pause") return <PauseCard />;
+  if (entry.kind === "puzzle") return <PuzzleCard puzzle={entry.puzzle} />;
   if (entry.kind === "item") return <KnowledgeCard item={entry.item} reason={t(entry.reason, entry.vars)} />;
   if (entry.kind === "clip") return <ClipCard clip={entry.clip} fill={fill} />;
   if (entry.kind === "insight") return <InsightCard book={entry.book} idea={entry.idea} standalone />;
