@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-25 · 2026-10-wissen-6 · 12 Fragen · Wirtschaft (Greshamsches Gesetz, Grenznutzen, Planwirtschaft, Homo oeconomicus), Business (Paretoprinzip, Kaizen, Genossenschaft, Just in time), Sprache (Kofferwort, Pangramm, Haiku, Plattdeutsch) · Belege wörtlich aus den verlinkten Artikeln · verworfen: englisches Pangramm-Beispiel (steht nicht in der Quelle).
+
 - 2026-10-25 · 2026-10-sport-2 · 9 Sportfragen (Sport hatte die wenigsten Karten) · Basketball-Erfinder, Puck, Federball, Curling-Granit, WM-Rhythmus, Bull’s Eye, Snooker-Schwarz, Bowling-Höchstwert, Axel · Belege wörtlich aus Basketball, Puck (Sport), Badminton, Curling, Fußball-Weltmeisterschaft, Darts, Snooker, Bowling, Axel (Eiskunstlauf) · Federball: Quelle nennt „Gänse- oder Entenfedern“, so übernommen.
 
 - 2026-10-25 · 2026-10-animations-culture-business-1 · zwei neue 3D-Animationen ohne fremde Modelle: „Wie eine Geige klingt“ (Szene violin: Bogen, Kolophonium, Stick-Slip, Steg, Stimmstock) und „Wie das Fließband die Produktion verändert hat“ (Szene assembly: Stationen, Taktzeit, Ford 1913 ×8) mit qa-geige, qa-fliessband · Belege wörtlich aus Violine, Bogen (Streichinstrument), Stick-Slip-Effekt, Steg, Stimmstock · Fließbandfertigung, Ford Modell T · Auto-Arbeitsschritte ausdrücklich als Beispiel der Animation formuliert.

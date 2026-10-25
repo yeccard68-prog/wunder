@@ -34213,5 +34213,478 @@
         "explanation": "The Axel is the only one of the six basic jumps with a forward take-off. It is named after the Norwegian Axel Paulsen, who first showed it in 1882."
       }
     }
+  },
+  {
+    "id": "e49",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was besagt das Greshamsche Gesetz über zwei gleichzeitig erlaubte Währungen?",
+    "options": [
+      "Die schwächere Währung verdrängt die stärkere vom Markt",
+      "Die stärkere Währung verdrängt die schwächere",
+      "Beide werden mit der Zeit gleich viel wert",
+      "Der Staat muss eine davon abschaffen"
+    ],
+    "correct_index": 0,
+    "explanation": "Sind in einem Staat zwei Währungen nebeneinander zugelassen, wird die harte Währung durch die weiche vom Markt verdrängt.",
+    "difficulty": 3,
+    "tags": [
+      "Geld",
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Greshamsches Gesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Greshamsches_Gesetz",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Gresham's law say about two currencies allowed at the same time?",
+        "options": [
+          "The weaker currency drives the stronger one out of the market",
+          "The stronger currency drives out the weaker one",
+          "Both end up worth the same",
+          "The state must abolish one of them"
+        ],
+        "explanation": "If two currencies are allowed side by side in a state, the hard currency is driven out of the market by the soft one."
+      }
+    }
+  },
+  {
+    "id": "e50",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was beschreibt das Gesetz vom abnehmenden Grenznutzen?",
+    "options": [
+      "Jede weitere Einheit eines Genusses bringt weniger Freude – bis zur Sättigung",
+      "Je mehr man kauft, desto billiger wird es",
+      "Der Nutzen eines Guts steigt mit seinem Preis",
+      "Grenzen zwischen Ländern senken den Handel"
+    ],
+    "correct_index": 0,
+    "explanation": "Es ist das erste Gossensche Gesetz, aufgestellt 1854 von Hermann Heinrich Gossen: Wer einen Genuss ununterbrochen fortsetzt, hat immer weniger davon, bis zuletzt Sättigung eintritt.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gossensches Gesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Gossensches_Gesetz",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the law of diminishing marginal utility describe?",
+        "options": [
+          "Each further unit of something enjoyable gives less pleasure – until you are satisfied",
+          "The more you buy, the cheaper it gets",
+          "A good's usefulness rises with its price",
+          "Borders between countries reduce trade"
+        ],
+        "explanation": "It is Gossen's first law, set out in 1854 by Hermann Heinrich Gossen: anyone who keeps on enjoying the same thing gets less and less from it, until they are finally satisfied."
+      }
+    }
+  },
+  {
+    "id": "e51",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie werden in einer Planwirtschaft Produktion und Verteilung von Gütern gesteuert?",
+    "options": [
+      "Auf Grundlage von Plänen statt nur über den Markt",
+      "Allein über Angebot und Nachfrage",
+      "Durch Versteigerungen an der Börse",
+      "Gar nicht – jeder stellt her, was er will"
+    ],
+    "correct_index": 0,
+    "explanation": "In der Planwirtschaft werden Produktion, Verteilung und Konsum nicht (nur) über Marktmechanismen, sondern auf Grundlage von Plänen koordiniert.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Planwirtschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Planwirtschaft",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How are the production and distribution of goods steered in a planned economy?",
+        "options": [
+          "On the basis of plans instead of only through the market",
+          "Only through supply and demand",
+          "By auctions on the stock exchange",
+          "Not at all – everyone makes what they like"
+        ],
+        "explanation": "In a planned economy, production, distribution and consumption are coordinated not (only) through market mechanisms but on the basis of plans."
+      }
+    }
+  },
+  {
+    "id": "e52",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist der „Homo oeconomicus“?",
+    "options": [
+      "Ein Denkmodell eines Menschen, der stets den größten Nutzen für sich sucht",
+      "Der erste Kaufmann der Geschichte",
+      "Ein Fachbegriff für Wirtschaftsminister",
+      "Eine Frühmenschenart, die Tauschhandel trieb"
+    ],
+    "correct_index": 0,
+    "explanation": "Der lateinische Name bedeutet „Wirtschaftsmensch“. Gemeint ist das theoretische Modell einer Person, die mit ihrem Handeln den größtmöglichen Nutzen für sich erreicht.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Homo oeconomicus",
+    "source_url": "https://de.wikipedia.org/wiki/Homo_oeconomicus",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is \"homo economicus\"?",
+        "options": [
+          "A model of a person who always seeks the greatest benefit for themselves",
+          "The first merchant in history",
+          "A technical term for economy ministers",
+          "An early human species that bartered"
+        ],
+        "explanation": "The Latin name means \"economic man\". It is the theoretical model of a person whose actions achieve the greatest possible benefit for themselves."
+      }
+    }
+  },
+  {
+    "id": "b60",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was besagt das Paretoprinzip (80-zu-20-Regel)?",
+    "options": [
+      "80 % der Ergebnisse entstehen mit 20 % des Aufwands",
+      "80 % der Mitarbeiter erledigen 20 % der Arbeit",
+      "Ein Projekt braucht 80 % Planung und 20 % Umsetzung",
+      "20 % Gewinn sind bei 80 % Umsatz normal"
+    ],
+    "correct_index": 0,
+    "explanation": "Benannt nach Vilfredo Pareto: 80 % der Ergebnisse werden mit 20 % des Gesamtaufwands erreicht – die restlichen 20 % machen die meiste Arbeit.",
+    "difficulty": 2,
+    "tags": [
+      "Management"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paretoprinzip",
+    "source_url": "https://de.wikipedia.org/wiki/Paretoprinzip",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Pareto principle (80/20 rule) say?",
+        "options": [
+          "80% of the results come from 20% of the effort",
+          "80% of employees do 20% of the work",
+          "A project needs 80% planning and 20% doing",
+          "A 20% profit on 80% of sales is normal"
+        ],
+        "explanation": "Named after Vilfredo Pareto: 80% of the results are achieved with 20% of the total effort – the remaining 20% take most of the work."
+      }
+    }
+  },
+  {
+    "id": "b61",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet das japanische Managementkonzept „Kaizen“?",
+    "options": [
+      "Ständige Verbesserung in kleinen Schritten",
+      "Lebenslange Anstellung in einer Firma",
+      "Strenge Hierarchie von oben nach unten",
+      "Produktion nur auf Vorrat"
+    ],
+    "correct_index": 0,
+    "explanation": "Kai heißt „Veränderung“, zen „zum Besseren“. Im Zentrum steht das Streben nach kontinuierlicher Verbesserung – Schritt für Schritt.",
+    "difficulty": 2,
+    "tags": [
+      "Management",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaizen",
+    "source_url": "https://de.wikipedia.org/wiki/Kaizen",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Japanese management idea \"kaizen\" mean?",
+        "options": [
+          "Constant improvement in small steps",
+          "Lifelong employment at one company",
+          "A strict top-down hierarchy",
+          "Producing only for stock"
+        ],
+        "explanation": "Kai means \"change\", zen \"for the better\". At its core is the striving for continuous improvement – step by step."
+      }
+    }
+  },
+  {
+    "id": "b62",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wozu schließen sich Menschen in einer Genossenschaft zusammen?",
+    "options": [
+      "Um sich als Mitglieder durch ein gemeinsames Geschäft gegenseitig zu fördern",
+      "Um möglichst hohe Gewinne an fremde Aktionäre auszuschütten",
+      "Um Steuern ganz zu vermeiden",
+      "Um ein staatliches Amt zu bilden"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Genossenschaft fördert ihre Mitglieder durch einen gemeinschaftlichen Geschäftsbetrieb – nach dem Prinzip „Hilfe durch Selbsthilfe“.",
+    "difficulty": 2,
+    "tags": [
+      "Rechtsform",
+      "Unternehmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Genossenschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Genossenschaft",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do people join together in a cooperative?",
+        "options": [
+          "To support each other as members through a shared business",
+          "To pay out the highest possible profits to outside shareholders",
+          "To avoid taxes completely",
+          "To form a government office"
+        ],
+        "explanation": "A cooperative supports its members through a shared business – following the principle of \"help through self-help\"."
+      }
+    }
+  },
+  {
+    "id": "b63",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was kennzeichnet die Just-in-time-Produktion?",
+    "options": [
+      "Material wird erst dann geliefert, wenn es für einen Auftrag gebraucht wird",
+      "Es wird möglichst viel auf Vorrat produziert",
+      "Jeder Auftrag wird innerhalb einer Stunde fertig",
+      "Alle Teile stellt die Firma selbst her"
+    ],
+    "correct_index": 0,
+    "explanation": "Geliefert und produziert wird nur so viel und dann, wie es für die Kundenaufträge tatsächlich gebraucht wird. Umgangssprachlich heißt das auch „rollendes Lager“.",
+    "difficulty": 2,
+    "tags": [
+      "Produktion",
+      "Logistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Just-in-time-Produktion",
+    "source_url": "https://de.wikipedia.org/wiki/Just-in-time-Produktion",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is typical of just-in-time production?",
+        "options": [
+          "Material is delivered only when it is needed for an order",
+          "As much as possible is produced for stock",
+          "Every order is finished within an hour",
+          "The company makes all parts itself"
+        ],
+        "explanation": "Only as much is delivered and produced, and only at the time, as is actually needed for customer orders. Informally it is also called a \"rolling warehouse\"."
+      }
+    }
+  },
+  {
+    "id": "l61",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Kofferwort wie „Brunch“?",
+    "options": [
+      "Ein Wort, das aus zwei Wörtern verschmolzen ist",
+      "Ein Wort, das man rückwärts gleich liest",
+      "Ein Wort aus einer anderen Sprache",
+      "Ein besonders langes Wort"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Kofferwort entsteht aus mindestens zwei Wörtern, die zu einem neuen Begriff verschmelzen – etwa Brunch aus breakfast und lunch oder Denglisch aus Deutsch und Englisch.",
+    "difficulty": 1,
+    "tags": [
+      "Wortbildung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kofferwort",
+    "source_url": "https://de.wikipedia.org/wiki/Kofferwort",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a portmanteau word like \"brunch\"?",
+        "options": [
+          "A word blended from two words",
+          "A word that reads the same backwards",
+          "A word from another language",
+          "A particularly long word"
+        ],
+        "explanation": "A portmanteau is formed from at least two words merged into a new term – such as brunch from breakfast and lunch, or Denglisch from Deutsch and Englisch."
+      }
+    }
+  },
+  {
+    "id": "l62",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Pangramm wie „Franz jagt im komplett verwahrlosten Taxi quer durch Bayern“?",
+    "options": [
+      "Ein Satz, der alle Buchstaben des Alphabets enthält",
+      "Ein Satz, der sich reimt",
+      "Ein Satz ohne Vokale",
+      "Ein Satz, der vorwärts und rückwärts gleich ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Pangramm enthält alle Buchstaben eines Alphabets. Der Franz-Satz ist ein im Deutschen oft verwendetes Beispiel.",
+    "difficulty": 2,
+    "tags": [
+      "Wortspiele"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pangramm",
+    "source_url": "https://de.wikipedia.org/wiki/Pangramm",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a pangram, such as the German sentence \"Franz jagt im komplett verwahrlosten Taxi quer durch Bayern\"?",
+        "options": [
+          "A sentence that contains every letter of the alphabet",
+          "A sentence that rhymes",
+          "A sentence without vowels",
+          "A sentence that reads the same backwards"
+        ],
+        "explanation": "A pangram contains every letter of an alphabet. The Franz sentence is an example often used in German."
+      }
+    }
+  },
+  {
+    "id": "l63",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welchem Land stammt das Haiku, die kürzeste Gedichtform der Welt?",
+    "options": [
+      "Japan",
+      "China",
+      "Indien",
+      "Griechenland"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Haiku ist eine traditionelle japanische Gedichtform, die heute weltweit verbreitet ist. Im Deutschen galt lange die Vorgabe von 5-7-5 Silben.",
+    "difficulty": 1,
+    "tags": [
+      "Dichtung",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haiku",
+    "source_url": "https://de.wikipedia.org/wiki/Haiku",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country does the haiku, the world's shortest form of poem, come from?",
+        "options": [
+          "Japan",
+          "China",
+          "India",
+          "Greece"
+        ],
+        "explanation": "The haiku is a traditional Japanese form of poem that is now popular worldwide. In German, the rule of 5-7-5 syllables applied for a long time."
+      }
+    }
+  },
+  {
+    "id": "l64",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie wird die niederdeutsche Sprache in Deutschland volkstümlich genannt?",
+    "options": [
+      "Plattdeutsch",
+      "Schwyzerdütsch",
+      "Hochdeutsch",
+      "Mittelhochdeutsch"
+    ],
+    "correct_index": 0,
+    "explanation": "Niederdeutsch heißt im Volksmund Plattdeutsch. Eine gemeinsame niederdeutsche Schriftsprache gab es bis ins 16. Jahrhundert, heute ist es in viele Dialekte gegliedert.",
+    "difficulty": 1,
+    "tags": [
+      "Dialekte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Niederdeutsche Sprache",
+    "source_url": "https://de.wikipedia.org/wiki/Niederdeutsche_Sprache",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is Low German popularly called in Germany?",
+        "options": [
+          "Plattdeutsch",
+          "Swiss German",
+          "High German",
+          "Middle High German"
+        ],
+        "explanation": "Low German is popularly called Plattdeutsch. A shared written Low German existed until the 16th century; today it is split into many dialects."
+      }
+    }
   }
 ]
