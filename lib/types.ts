@@ -37,6 +37,7 @@ export interface Item {
   minAge: number; // 6, 10, 13 or 16
   maxAge: number | null; // set for cards written only for children
   hints?: string[]; // riddles: revealed one after another before answering
+  countries?: string[]; // ISO 3166 codes of the countries a card is about – the feed prefers the learner's own
   /** Other languages keyed by locale; the base fields hold the original language. */
   translations?: Record<string, { question: string; options: string[]; explanation?: string; hints?: string[] }>;
 }

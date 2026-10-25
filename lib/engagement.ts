@@ -55,29 +55,4 @@ export function recentAccuracy(state: UserState, last = 8): number | null {
   return recent.filter((a) => a.correct).length / recent.length;
 }
 
-/** How many question cards between two things to watch: fewer for people who love clips and animations. */
-export function mediaEvery(state: UserState): number {
-  const media = Math.max(formatEngagement(state, "clip"), formatEngagement(state, "animation"));
-  const cards = formatEngagement(state, "item");
-  const lean = media - cards;
-  return lean > 0.25 ? 2 : lean < -0.25 ? 4 : 3;
-}
-
-/**
- * Reorders a list so that no more than `max` entries of the same topic follow each other, keeping the
- * order otherwise (an entry is only pulled forward when the next ones would repeat a topic).
- */
-export function spreadTopics<T>(list: T[], topic: (x: T) => string, max = 2): T[] {
-  const rest = [...list];
-  const out: T[] = [];
-  while (rest.length) {
-    const lastTopics = out.slice(-max).map(topic);
-    const blocked = lastTopics.length === max && lastTopics.every((x) => x === lastTopics[0]) ? lastTopics[0] : null;
-    const i = blocked === null ? 0 : rest.findIndex((x) => topic(x) !== blocked);
-    out.push(rest.splice(i < 0 ? 0 : i, 1)[0]);
-  }
-  return out;
-}
-
-/** After this many entries in the feed, one friendly suggestion to take a break (shown once per feed). */
 export const PAUSE_AFTER = 40;

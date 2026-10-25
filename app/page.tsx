@@ -15,6 +15,7 @@ import { dailyOpen, dailyPuzzles, feedPuzzles } from "@/lib/puzzles";
 import { studiesFor } from "@/lib/studies";
 import { visualsFor } from "@/lib/visuals";
 import { rankForYou } from "@/lib/ranking";
+import { deviceRegion } from "@/lib/region";
 import { useStore, useT } from "@/lib/store";
 
 /**
@@ -25,10 +26,11 @@ export default function HomePage() {
   const { items, clips, state, getState } = useStore();
   const t = useT();
 
-  // Rank once per visit so entries don't jump while the user interacts.
+  // Rank once per visit so entries don't jump while the user interacts; the feed's chance is drawn once per visit too.
+  const [seed] = useState(() => String(Date.now()));
   const interestsKey = state.interests.join();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const forYou = useMemo(() => rankForYou(items, getState()), [items, interestsKey]);
+  const forYou = useMemo(() => rankForYou(items, getState(), { region: deviceRegion(), seed }), [items, interestsKey]);
   const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const books = useMemo(() => booksFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
@@ -41,7 +43,7 @@ export default function HomePage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const puzzles = useMemo(() => feedPuzzles(items, getState(), 6, date), [items.length, date, state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand), puzzles), [forYou, clips, animations, books, visuals, facts, puzzles]);
+  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand), puzzles, seed), [forYou, clips, animations, books, visuals, facts, puzzles]);
   // today’s three puzzles, fixed for this visit (answering a card must not swap the crossword under the finger)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const daily = useMemo(() => (items.length ? dailyPuzzles(items, getState(), date) : []), [items.length > 0, date, state.settings.locale, state.ageBand]);

@@ -98,6 +98,16 @@ export function hash(str: string) {
   h ^= h >>> 15;
   return h >>> 0;
 }
+/** Small deterministic random generator (mulberry32): the same seed gives the same sequence on every device. */
+export function rng(seed: string) {
+  let a = hash(seed);
+  return () => {
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
 /** Same five questions for everyone with the same interests on a given day (used for challenges against friends). */
 export function dailyItems(items: Item[], interests: string[], date = today()): Item[] {
   const pool = items.filter((i) => i.kind === "question" && (!interests.length || interests.includes(i.categoryId)));

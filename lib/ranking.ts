@@ -1,7 +1,7 @@
 import type { Item, UserState } from "./types";
 import { categoryById } from "./categories";
 import { ACTIVITIES, personById } from "./people";
-import { hash, today } from "./gamification";
+import { hash, rng, today } from "./gamification";
 import { recentAccuracy, topicEngagement, unexplored } from "./engagement";
 import { lastSeen, reviewDue } from "./seen";
 
@@ -16,10 +16,10 @@ const W = {
   freshness: 3,
   popularity: 1, // secondary signal only
   engaged: 3, // lingers on the topic in the feed (from −1 to +1, see engagement.ts)
+  home: 2, // about the learner's own country (from the device language, e.g. de-AT → AT; never stored)
 };
 
-/** Questions due for repetition are mixed in from this place on, one every few cards. */
-export const REVIEW_FROM = 2;
+/** Questions due for repetition: on average one card in REVIEW_EVERY is one of them, at random places. */
 export const REVIEW_EVERY = 3;
 
 export interface Ranked {
@@ -42,7 +42,8 @@ export function targetDifficulty(state: UserState): number {
   return Math.max(1, Math.min(3, base + nudge));
 }
 
-export function rankForYou(items: Item[], state: UserState): Ranked[] {
+export function rankForYou(items: Item[], state: UserState, opts: { region?: string | null; seed?: string } = {}): Ranked[] {
+  const r = rng(opts.seed ?? today());
   const byId = new Map(items.map((i) => [i.id, i]));
   const liked: Record<string, number> = {};
   const gaps: Record<string, number> = {};
@@ -73,6 +74,7 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
         [W.freshness * Math.exp(-ageDays / 10), "Neu"],
         [(W.popularity * item.popularity) / maxPop, "Gerade beliebt"],
         [W.engaged * topicEngagement(state, item.categoryId), "Weil dir Ähnliches gefallen hat"],
+        [opts.region && item.countries?.includes(opts.region) ? W.home : 0, "Aus deiner Gegend"],
       ];
       const score =
         parts.reduce((n, [v]) => n + v, 0) +
@@ -89,9 +91,7 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
     .filter((r) => reviewDue(r.rec, now))
     .sort((a, b) => Date.parse(a.rec!.due!) - Date.parse(b.rec!.due!))
     .map((r): Ranked => ({ item: r.item, reason: "Zum Wiederholen: Hier lagst du daneben" }));
-  const head = withDiscoveries(fresh, state);
-  for (let at = REVIEW_FROM; reviews.length && at <= head.length; at += REVIEW_EVERY) head.splice(at, 0, reviews.shift()!);
-  head.push(...reviews);
+  const head = mixAtRandom(withDiscoveries(fresh, state, r), reviews, 1 / REVIEW_EVERY, r);
   // 2. seen but not answered – seen longest ago first
   const seen = scored.filter((r) => !r.rec && r.at !== null).sort((a, b) => a.at! - b.at!).map(strip);
   // answered questions stay out of the feed: known ones for good, wrong ones until their repetition is due
@@ -99,22 +99,31 @@ export function rankForYou(items: Item[], state: UserState): Ranked[] {
   return [...head, ...seen];
 }
 
-/** From the 5th place on, every 7th card comes from a topic the learner neither chose nor has seen much – so new interests can show. */
-export const DISCOVER_FROM = 4;
+/** Weaves `extra` into `main` at random places: each place takes the next of `extra` with probability `share`. */
+function mixAtRandom(main: Ranked[], extra: Ranked[], share: number, r: () => number): Ranked[] {
+  const out: Ranked[] = [];
+  const a = [...main], b = [...extra];
+  while (a.length || b.length) out.push((b.length && (!a.length || r() < share) ? b : a).shift()!);
+  return out;
+}
+
+/** On average one card in DISCOVER_EVERY comes from a topic the learner neither chose nor has seen much – so new interests can show. */
 export const DISCOVER_EVERY = 7;
-function withDiscoveries(ranked: Ranked[], state: UserState): Ranked[] {
-  const isNew = (r: Ranked) => !state.interests.includes(r.item.categoryId) && unexplored(state, r.item.categoryId) && !state.answers[r.item.id];
+function withDiscoveries(ranked: Ranked[], state: UserState, r: () => number): Ranked[] {
+  const isNew = (x: Ranked) => !state.interests.includes(x.item.categoryId) && unexplored(state, x.item.categoryId) && !state.answers[x.item.id];
+  const rest = ranked.filter((x) => !isNew(x));
+  // one topic at a time: the next discovery comes from a topic not yet offered
   const pool = ranked.filter(isNew);
-  const out = ranked.filter((r) => !isNew(r));
-  const seen = new Set<string>();
-  for (let at = DISCOVER_FROM; at <= out.length && pool.length; at += DISCOVER_EVERY) {
-    // one topic at a time: the next discovery comes from a topic not yet offered
-    const i = Math.max(0, pool.findIndex((r) => !seen.has(r.item.categoryId)));
-    const [r] = pool.splice(i, 1);
-    seen.add(r.item.categoryId);
-    out.splice(at, 0, { ...r, reason: "Etwas Neues für dich", vars: undefined });
+  const order: Ranked[] = [];
+  const offered = new Set<string>();
+  while (pool.length) {
+    const i = Math.max(0, pool.findIndex((x) => !offered.has(x.item.categoryId)));
+    const [x] = pool.splice(i, 1);
+    offered.add(x.item.categoryId);
+    order.push({ ...x, reason: "Etwas Neues für dich", vars: undefined });
   }
-  return [...out, ...pool];
+  // the first few places belong to the learner's own topics
+  return [...rest.slice(0, 3), ...mixAtRandom(rest.slice(3), order, 1 / DISCOVER_EVERY, r)];
 }
 
 /** Following feed: cards that people you follow have liked, newest activity first. */

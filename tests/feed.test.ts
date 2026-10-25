@@ -3,7 +3,7 @@ import test from "node:test";
 import { animationsFor } from "../lib/animations";
 import { forAudience } from "../lib/content";
 import { demoContent } from "../lib/demo-content";
-import { entryId, mixFeed, MEDIA_EVERY } from "../lib/feed";
+import { entryId, mixFeed } from "../lib/feed";
 import type { UserState } from "../lib/types";
 
 const { items, clips } = forAudience(demoContent(), "de", "16+");
@@ -21,12 +21,6 @@ test("combined feed: every card, clip and animation appears exactly once", () =>
   assert.equal(feed.filter((e) => e.kind === "item").length, items.length - animations.length);
 });
 
-test("combined feed: something to watch after the second card, then after every third, animations in between", () => {
-  const feed = mixFeed(ranked, clips, animations, state());
-  assert.deepEqual(feed.slice(0, 8).map((e) => e.kind), ["item", "item", "clip", "item", "item", "item", "animation", "item"]);
-  assert.equal(MEDIA_EVERY, 3);
-});
-
 test("combined feed: watched clips and finished animations move to the back, hidden clips disappear", () => {
   const first = mixFeed(ranked, clips, animations, state());
   const clip = first.find((e) => e.kind === "clip")!;
@@ -41,13 +35,11 @@ test("combined feed: watched clips and finished animations move to the back, hid
   assert.ok(!hidden.some((e) => entryId(e) === clip.clip.id));
 });
 
-test("combined feed: interactive visualisations take the fifth media slot; tried ones move to the back", async () => {
+test("combined feed: every interactive visualisation is in it; tried ones move to the back", async () => {
   const { visualsFor } = await import("../lib/visuals");
   const visuals = visualsFor("de", "16+");
   const feed = mixFeed(ranked, clips, animations, state(), [], visuals);
   assert.equal(feed.filter((e) => e.kind === "visual").length, visuals.length);
-  const media = feed.filter((e) => e.kind !== "item").map((e) => e.kind);
-  assert.equal(media[4], "visual");
   const tried = mixFeed(ranked, clips, animations, { ...state(), visuals: [visuals[0].id] }, [], visuals);
   const order = tried.filter((e) => e.kind === "visual").map((e) => (e as { visual: { id: string } }).visual.id);
   assert.equal(order.at(-1), visuals[0].id);

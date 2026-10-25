@@ -4,7 +4,8 @@ import { forAudience } from "../lib/content";
 import { demoContent } from "../lib/demo-content";
 import { rankFacts, factsFor } from "../lib/facts";
 import { rankClips } from "../lib/clips";
-import { rankForYou, REVIEW_EVERY, REVIEW_FROM } from "../lib/ranking";
+import { rankForYou } from "../lib/ranking";
+import { regionFrom } from "../lib/region";
 import { freshFirst, recordSeen, reviewDue, SEEN_MAX } from "../lib/seen";
 import type { AnswerRecord, UserState } from "../lib/types";
 
@@ -48,8 +49,21 @@ test("questions answered wrongly come back once due – mixed in among the new o
   const s = state({ answers: Object.fromEntries(wrong.map((q, i) => [q.id, answer(false, ago(30 - i))])), seen: Object.fromEntries(wrong.map((q) => [q.id, sec(40)])) });
   const ranked = rankForYou(items, s);
   const at = wrong.map((q) => ranked.findIndex((r) => r.item.id === q.id)).sort((a, b) => a - b);
-  assert.deepEqual(at, [REVIEW_FROM, REVIEW_FROM + REVIEW_EVERY, REVIEW_FROM + 2 * REVIEW_EVERY]);
-  assert.match(ranked[REVIEW_FROM].reason, /Wiederholen/);
+  // at random places, but among the new ones – not after them
+  assert.ok(at.every((i) => i >= 0 && i < 25), JSON.stringify(at));
+  assert.ok(wrong.every((q) => /Wiederholen/.test(ranked.find((r) => r.item.id === q.id)!.reason)));
+  const other = rankForYou(items, s, { seed: "another day" }).map((r) => r.item.id);
+  assert.notDeepEqual(other.slice(0, 25), ranked.map((r) => r.item.id).slice(0, 25), "places drawn by chance");
+});
+
+test("cards about the learner's own country come first; the country is read from the device language", () => {
+  assert.equal(regionFrom(["de-AT", "de"]), "AT");
+  assert.equal(regionFrom(["de"]), "DE");
+  assert.equal(regionFrom(["en"]), null);
+  const local = { ...questions[questions.length - 1], countries: ["AT"] };
+  const list = [...items.filter((i) => i.id !== local.id), local];
+  const pos = (region: string | null) => rankForYou(list, state(), { region, seed: "x" }).findIndex((r) => r.item.id === local.id);
+  assert.ok(pos("AT") < pos("DE"), `AT ${pos("AT")} vs DE ${pos("DE")}`);
 });
 
 test("a wrong answer stays out until its repetition is due; a correct one never counts as due", () => {

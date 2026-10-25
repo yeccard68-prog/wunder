@@ -2,9 +2,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { engagement, mediaEvery, recordView, recentAccuracy, spreadTopics, topicEngagement, type Signals } from "../lib/engagement";
+import { engagement, recordView, recentAccuracy, topicEngagement, type Signals } from "../lib/engagement";
 import { AREAS, factRows, factsFor, rankFacts } from "../lib/facts";
-import { entryTopic, mixFeed } from "../lib/feed";
+import { entryTopic, mixFeed, type FeedEntry } from "../lib/feed";
 import { forAudience } from "../lib/content";
 import { demoContent } from "../lib/demo-content";
 import { rankForYou, targetDifficulty } from "../lib/ranking";
@@ -46,22 +46,24 @@ test("flow: a run of mistakes makes the next cards easier, a streak harder", () 
   assert.equal(targetDifficulty(streak), 3);
 });
 
-test("variety: never more than two of the same topic in a row, otherwise the order stays", () => {
-  const list = ["a", "a", "a", "a", "b", "c", "a", "b"].map((topic, i) => ({ topic, i }));
-  const out = spreadTopics(list, (x) => x.topic);
-  assert.equal(out.length, list.length);
-  for (let i = 2; i < out.length - 2; i++) assert.ok(!(out[i].topic === out[i - 1].topic && out[i].topic === out[i - 2].topic), JSON.stringify(out.map((x) => x.topic)));
-  assert.deepEqual(out.slice(0, 2).map((x) => x.i), [0, 1]);
-});
-
-test("rhythm: people who linger on clips get them more often", () => {
-  let s = view(undefined, "science", "clip", 20, 10);
-  s = view(s, "science", "item", 2, 10);
-  assert.equal(mediaEvery(blank({ signals: s })), 2);
-  let c = view(undefined, "science", "item", 20, 10);
-  c = view(c, "science", "clip", 1, 10);
-  assert.equal(mediaEvery(blank({ signals: c })), 4);
-  assert.equal(mediaEvery(blank()), 3);
+test("odds: a format someone lingers on comes up more often, one they swipe away less often – no fixed places", () => {
+  const { items, clips } = forAudience(demoContent(), "de", "16+");
+  const share = (s: UserState, seed: string) => {
+    const feed = mixFeed(rankForYou(items, s), clips, [], s, [], [], [], [], [], [], seed).slice(0, 30);
+    return feed.filter((e: FeedEntry) => e.kind === "clip").length;
+  };
+  let likes = view(undefined, "science", "clip", 30, 10);
+  likes = view(likes, "science", "item", 2, 10);
+  let skips = view(undefined, "science", "item", 20, 10);
+  skips = view(skips, "science", "clip", 0.5, 10);
+  const seeds = ["a", "b", "c", "d", "e", "f"];
+  const sum = (s: UserState) => seeds.reduce((n, seed) => n + share(s, seed), 0);
+  assert.ok(sum(blank({ signals: likes })) > sum(blank()), "lingering on clips brings more clips");
+  assert.ok(sum(blank({ signals: skips })) < sum(blank()), "swiping clips away brings fewer");
+  // chance, not slots: different seeds give different orders, the same seed the same one
+  const kinds = (seed: string) => mixFeed(rankForYou(items, blank()), clips, [], blank(), [], [], [], [], [], [], seed).slice(0, 15).map((e) => e.kind).join();
+  assert.notEqual(kinds("a"), kinds("b"));
+  assert.equal(kinds("a"), kinds("a"));
 });
 
 test("facts: complete in both languages, sourced, valid area and topic, no duplicates", () => {
@@ -78,17 +80,16 @@ test("facts: complete in both languages, sourced, valid area and topic, no dupli
   assert.equal(factsFor("en", "16+").find((f) => f.id === "f-krake-herzen")!.text, "An octopus has three hearts.");
 });
 
-test("the feed: facts between the cards, something to watch from the second card on, topics spread, one pause", () => {
+test("the feed: facts between the cards, topics spread, one pause", () => {
   const content = demoContent();
   const { items, clips } = forAudience(content, "de", "16+");
   const state = blank({ facts: { wow: ["f-wombat"], known: [] } });
   const facts = rankFacts(factsFor("de", "16+"), state);
   assert.equal(facts.at(-1)!.id, "f-wombat", "facts already reacted to come last");
-  const feed = mixFeed(rankForYou(items, state), clips, [], state, [], [], facts);
-  assert.equal(feed[2].kind, "clip", "a strong start: the first clip after two cards");
+  const feed = mixFeed(rankForYou(items, state), clips, [], state, [], [], facts, [], [], [], "test");
   assert.ok(feed.slice(0, 12).some((e) => e.kind === "fact" || e.kind === "series"));
   assert.ok(feed.some((e) => e.kind === "series"), "theme series of three facts");
   assert.equal(feed.filter((e) => e.kind === "pause").length, 1);
-  const cards = feed.filter((e) => e.kind === "item" || e.kind === "fact" || e.kind === "series" || e.kind === "day").map(entryTopic);
+  const cards = feed.filter((e) => e.kind !== "pause").map(entryTopic);
   for (let i = 2; i < 60; i++) assert.ok(!(cards[i] === cards[i - 1] && cards[i] === cards[i - 2]), `three ${cards[i]} in a row at ${i}`);
 });

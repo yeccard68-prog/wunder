@@ -100,7 +100,9 @@ test("an explainer animation plays, can be stepped through and ends with its que
   expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
 });
 
-const feedTop = (page: Page, testId: string) => page.getByTestId(testId).first().evaluate((el) => Math.round(el.closest("section")!.getBoundingClientRect().top - el.closest("[data-testid=snap-feed]")!.getBoundingClientRect().top));
+/** Distance of the nearest entry with this test id from the top of the feed area (0 = settled exactly there). */
+const feedTop = (page: Page, testId: string) =>
+  page.getByTestId(testId).evaluateAll((els) => els.map((el) => Math.round(el.closest("section")!.getBoundingClientRect().top - el.closest("[data-testid=snap-feed]")!.getBoundingClientRect().top)).sort((a, b) => Math.abs(a) - Math.abs(b))[0] ?? 9999);
 /** One swipe or wheel turn further in the snapping feed. */
 async function next(page: Page) {
   const box = (await page.getByTestId("snap-feed").boundingBox())!;
@@ -110,7 +112,8 @@ async function next(page: Page) {
 }
 
 test("the feed snaps: one entry per screen, clips and animations in between, only the current one plays", async ({ page }) => {
-  await page.clock.setFixedTime(new Date(2026, 1, 10, 10)); // a date without a "today in history" event: the classic rhythm
+  test.setTimeout(150_000);
+  await page.clock.setFixedTime(new Date(2026, 1, 10, 10)); // a fixed time: the feed's chance is drawn from it, so the run is repeatable
   await signIn(page);
   await page.goto("/");
   const feed = page.getByTestId("snap-feed");
@@ -124,10 +127,7 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
   await expect(async () => {
     await next(page);
     expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2); // settled exactly at the top of the feed area
-  }).toPass({ timeout: 30_000 });
-  // every entry before it was a full screen of its own
-  const kinds = await feed.locator("section[data-feed-entry]").evaluateAll((els) => els.slice(0, 3).map((el) => (el as HTMLElement).dataset.feedEntry));
-  expect(kinds).toEqual(["item", "item", "clip"]); // a strong start: the first clip after two cards
+  }).toPass({ timeout: 60_000 });
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-status", "ready");
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "false");
   const box = (await clip.boundingBox())!;
@@ -142,13 +142,12 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
   await page.keyboard.press("Escape");
   await expect(dialog).toHaveCount(0);
 
-  const animation = page.getByTestId("feed-animation").first();
+  // formats come by chance – scroll on until an animation sits at the top (one may also have come before the clip)
   await expect(async () => {
     await next(page);
-    expect(await animation.count()).toBe(1);
     expect(Math.abs(await feedTop(page, "feed-animation"))).toBeLessThanOrEqual(2);
-  }).toPass({ timeout: 30_000 });
-  await expect(animation.getByTestId("animation-player")).toHaveAttribute("data-playing", "true");
+  }).toPass({ timeout: 60_000 });
+  await expect(page.locator('[data-testid="feed-animation"] [data-testid="animation-player"][data-playing="true"]')).toHaveCount(1);
   await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true"); // the clip stopped when it left the screen
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
@@ -494,13 +493,16 @@ test("interactive: supply and demand – the crossing point follows the sliders 
 });
 
 test("after the question about a clip is answered, it closes at once – the feed can be scrolled on right away", async ({ page }) => {
+  test.setTimeout(120_000);
+  await page.clock.setFixedTime(new Date(2026, 1, 10, 10)); // the feed's chance is drawn from the time: repeatable
   await signIn(page);
   await page.goto("/");
   await expect(async () => {
     await next(page);
     expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2);
-  }).toPass({ timeout: 30_000 });
+  }).toPass({ timeout: 60_000 });
   const clip = page.getByTestId("feed-clip").first();
+  const top = () => clip.evaluate((el) => Math.round(el.closest("section")!.getBoundingClientRect().top - el.closest("[data-testid=snap-feed]")!.getBoundingClientRect().top));
   const answer = async () => {
     await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
     const option = (letter: string) => page.getByRole("dialog", { name: "Frage zum Clip" }).getByRole("button", { name: new RegExp("^" + letter + "\\s+\\S") });
@@ -512,7 +514,7 @@ test("after the question about a clip is answered, it closes at once – the fee
   await expect(clip.getByTestId("clip-result")).toBeVisible(); // the result stays on the clip for a moment
   await expect(clip.getByTestId("clip-takeaway")).toBeVisible();
   await next(page);
-  await expect.poll(() => feedTop(page, "feed-clip"), { timeout: 5_000 }).toBeLessThan(-200); // the next entry is on screen
+  await expect.poll(top, { timeout: 5_000 }).toBeLessThan(-200); // the next entry is on screen
 });
 
 test("interactive: speed of sound – bars switch to the relative view and can be sorted", async ({ page }) => {

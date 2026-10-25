@@ -462,3 +462,10 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - **Themen-Serien** (`lib/series.ts`, `SeriesCard`): jeder dritte Fakten-Platz wird, wenn möglich, zu einer Karte mit drei Fakten aus demselben Bereich zum Wischen (Punkte, „1/3“). Quiz-Fakten bleiben einzeln. Alle drei Fakten zählen als gesehen.
 - **Clips von einem anderen Host:** `NEXT_PUBLIC_MEDIA_BASE` (z. B. eine Cloudflare-Pages-Adresse) lässt `/clips/…` von dort laden (`media()` in `lib/content.ts`); leer = wie bisher.
 - Tests: `tests/series.test.ts`, `tests/engagement.test.ts`, E2E in `e2e/share.spec.ts`; der Rhythmus-Test fixiert ein Datum ohne Tagesereignis.
+
+## 50. Feed per Zufall, gesteuert nur vom Nutzerverhalten; Herkunftsland (25.10.2026)
+
+- **Keine festen Plätze mehr** (`mixFeed` in `lib/feed.ts`): Für jeden Platz wird ein Format (Karte, Fakt, Clip, Animation, Buch-Idee, Visualisierung, Studie, Rätsel, „Heute vor … Jahren“) per Zufall gezogen. Startchancen `START_ODDS`; das Verhalten verschiebt sie – Verweildauer und Wegwischen pro Format (`formatEngagement`, Faktor bis ×3 bzw. ÷3). Innerhalb eines Formats: neu vor gesehen vor erledigt; bei Karten und Fakten wird unter den nächsten vier nach dem Themen-Verhalten gewählt; nie drei Einträge desselben Themas hintereinander.
+- Wiederholungen und „Etwas Neues für dich“ (`rankForYou`) stehen an zufälligen Plätzen (im Schnitt jede 3. bzw. 7. Karte) statt an festen.
+- Der Zufall wird einmal pro Besuch gezogen (`seed`), damit der Feed beim Scrollen nicht neu gemischt wird. Tests geben den Seed fest vor.
+- **Herkunftsland** (`lib/region.ts`): aus der Spracheinstellung des Geräts (`de-AT` → AT, nur `de` → DE). Nicht abgefragt, nicht gespeichert, nicht gesendet. Karten mit `countries` (ISO-Codes, kommt mit den Wikidata-Fragen) bekommen im Ranking einen Bonus (`W.home`, Grund „Aus deiner Gegend“).

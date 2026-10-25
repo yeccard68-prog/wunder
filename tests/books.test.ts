@@ -56,8 +56,6 @@ test("books in the feed: unread ideas first, spread over many books, in the rhyt
 
   const { items, clips } = forAudience(demoContent(), "de", "16+");
   const feed = mixFeed(items.map((item) => ({ item, reason: "Neu" })), clips, [], state(), queue);
-  const media = feed.filter((e) => e.kind !== "item").slice(0, 4).map((e) => e.kind);
-  assert.deepEqual(media, ["clip", "clip", "insight", "clip"]); // no animations passed in → their slot goes to a clip
   assert.equal(feed.filter((e) => e.kind === "insight").length, queue.length);
 });
 

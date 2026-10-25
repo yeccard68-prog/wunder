@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { forAudience } from "../lib/content";
 import { demoContent } from "../lib/demo-content";
-import { entryId, mixFeed, STUDY_EVERY } from "../lib/feed";
+import { entryId, mixFeed } from "../lib/feed";
 import { studiesFor, studyRows, type StudyRow } from "../lib/studies";
 import type { UserState } from "../lib/types";
 
@@ -30,14 +30,11 @@ test("studies: language, age level and drafts", () => {
   assert.equal(studiesFor("en", "16+", rows)[0].caveat, "But");
 });
 
-test("studies in the feed: one after every few questions, each once, seen ones last", () => {
+test("studies in the feed: each once, seen ones last", () => {
   const studies = studiesFor("de", "16+", [row("s-a"), row("s-b"), row("s-c")]);
   const feed = mixFeed(ranked, [], [], state(), [], [], [], [], studies);
   const ids = feed.filter((e) => e.kind === "study").map(entryId);
   assert.deepEqual([...ids].sort(), ["s-a", "s-b", "s-c"]);
-  // the first study comes after STUDY_EVERY question cards (topics are spread, so allow a little room)
-  const firstAt = feed.findIndex((e) => e.kind === "study");
-  assert.ok(firstAt >= STUDY_EVERY - 2 && firstAt <= STUDY_EVERY + 3, `first study at ${firstAt}`);
   const later = mixFeed(ranked, [], [], state({ seen: { "s-a": Date.now() } } as Partial<UserState>), [], [], [], [], studies);
   const order = later.filter((e) => e.kind === "study").map(entryId);
   assert.equal(order[order.length - 1], "s-a");

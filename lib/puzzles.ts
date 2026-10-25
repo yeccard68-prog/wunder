@@ -6,7 +6,9 @@
 //  - in the feed: a nearly finished puzzle – only a few steps are left;
 //  - "Rätsel des Tages": three trickier ones before the feed starts (one of each kind, the same for everyone that day).
 import type { AgeBand, Item, UserState } from "./types";
-import { hash, today } from "./gamification";
+import { rng, today } from "./gamification";
+
+export { rng };
 
 export type Level = "few" | "tricky"; // few = a few steps left (feed), tricky = the daily puzzles
 
@@ -16,16 +18,6 @@ export interface Crossword { kind: "crossword"; id: string; rows: number; cols: 
 export interface Pyramid { kind: "pyramid"; id: string; rows: number[][]; shown: boolean[][] }
 export type Puzzle = Sudoku | Crossword | Pyramid;
 
-/** Small deterministic random generator (mulberry32). */
-export function rng(seed: string) {
-  let a = hash(seed);
-  return () => {
-    a = (a + 0x6d2b79f5) | 0;
-    let t = Math.imul(a ^ (a >>> 15), 1 | a);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
 const shuffle = <T,>(list: T[], r: () => number) => {
   const a = [...list];
   for (let i = a.length - 1; i > 0; i--) {
