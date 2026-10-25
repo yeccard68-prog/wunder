@@ -34220,12 +34220,12 @@
     "category_id": "economy",
     "question": "Was besagt das Greshamsche Gesetz über zwei gleichzeitig erlaubte Währungen?",
     "options": [
-      "Die schwächere Währung verdrängt die stärkere vom Markt",
+      "Der Staat muss eine davon abschaffen",
       "Die stärkere Währung verdrängt die schwächere",
       "Beide werden mit der Zeit gleich viel wert",
-      "Der Staat muss eine davon abschaffen"
+      "Die schwächere Währung verdrängt die stärkere vom Markt"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation": "Sind in einem Staat zwei Währungen nebeneinander zugelassen, wird die harte Währung durch die weiche vom Markt verdrängt.",
     "difficulty": 3,
     "tags": [
@@ -34245,10 +34245,10 @@
       "en": {
         "question": "What does Gresham's law say about two currencies allowed at the same time?",
         "options": [
-          "The weaker currency drives the stronger one out of the market",
+          "The state must abolish one of them",
           "The stronger currency drives out the weaker one",
           "Both end up worth the same",
-          "The state must abolish one of them"
+          "The weaker currency drives the stronger one out of the market"
         ],
         "explanation": "If two currencies are allowed side by side in a state, the hard currency is driven out of the market by the soft one."
       }
@@ -34260,12 +34260,12 @@
     "category_id": "economy",
     "question": "Was beschreibt das Gesetz vom abnehmenden Grenznutzen?",
     "options": [
-      "Jede weitere Einheit eines Genusses bringt weniger Freude – bis zur Sättigung",
       "Je mehr man kauft, desto billiger wird es",
+      "Jede weitere Einheit eines Genusses bringt weniger Freude – bis zur Sättigung",
       "Der Nutzen eines Guts steigt mit seinem Preis",
       "Grenzen zwischen Ländern senken den Handel"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation": "Es ist das erste Gossensche Gesetz, aufgestellt 1854 von Hermann Heinrich Gossen: Wer einen Genuss ununterbrochen fortsetzt, hat immer weniger davon, bis zuletzt Sättigung eintritt.",
     "difficulty": 2,
     "tags": [
@@ -34284,8 +34284,8 @@
       "en": {
         "question": "What does the law of diminishing marginal utility describe?",
         "options": [
-          "Each further unit of something enjoyable gives less pleasure – until you are satisfied",
           "The more you buy, the cheaper it gets",
+          "Each further unit of something enjoyable gives less pleasure – until you are satisfied",
           "A good's usefulness rises with its price",
           "Borders between countries reduce trade"
         ],
@@ -34299,12 +34299,12 @@
     "category_id": "economy",
     "question": "Wie werden in einer Planwirtschaft Produktion und Verteilung von Gütern gesteuert?",
     "options": [
-      "Auf Grundlage von Plänen statt nur über den Markt",
-      "Allein über Angebot und Nachfrage",
       "Durch Versteigerungen an der Börse",
+      "Allein über Angebot und Nachfrage",
+      "Auf Grundlage von Plänen statt nur über den Markt",
       "Gar nicht – jeder stellt her, was er will"
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation": "In der Planwirtschaft werden Produktion, Verteilung und Konsum nicht (nur) über Marktmechanismen, sondern auf Grundlage von Plänen koordiniert.",
     "difficulty": 2,
     "tags": [
@@ -34323,9 +34323,9 @@
       "en": {
         "question": "How are the production and distribution of goods steered in a planned economy?",
         "options": [
-          "On the basis of plans instead of only through the market",
-          "Only through supply and demand",
           "By auctions on the stock exchange",
+          "Only through supply and demand",
+          "On the basis of plans instead of only through the market",
           "Not at all – everyone makes what they like"
         ],
         "explanation": "In a planned economy, production, distribution and consumption are coordinated not (only) through market mechanisms but on the basis of plans."
@@ -34338,12 +34338,12 @@
     "category_id": "economy",
     "question": "Was ist der „Homo oeconomicus“?",
     "options": [
-      "Ein Denkmodell eines Menschen, der stets den größten Nutzen für sich sucht",
+      "Eine Frühmenschenart, die Tauschhandel trieb",
       "Der erste Kaufmann der Geschichte",
       "Ein Fachbegriff für Wirtschaftsminister",
-      "Eine Frühmenschenart, die Tauschhandel trieb"
+      "Ein Denkmodell eines Menschen, der stets den größten Nutzen für sich sucht"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation": "Der lateinische Name bedeutet „Wirtschaftsmensch“. Gemeint ist das theoretische Modell einer Person, die mit ihrem Handeln den größtmöglichen Nutzen für sich erreicht.",
     "difficulty": 2,
     "tags": [
@@ -34362,10 +34362,10 @@
       "en": {
         "question": "What is \"homo economicus\"?",
         "options": [
-          "A model of a person who always seeks the greatest benefit for themselves",
+          "An early human species that bartered",
           "The first merchant in history",
           "A technical term for economy ministers",
-          "An early human species that bartered"
+          "A model of a person who always seeks the greatest benefit for themselves"
         ],
         "explanation": "The Latin name means \"economic man\". It is the theoretical model of a person whose actions achieve the greatest possible benefit for themselves."
       }
@@ -34416,12 +34416,12 @@
     "category_id": "business",
     "question": "Was bedeutet das japanische Managementkonzept „Kaizen“?",
     "options": [
-      "Ständige Verbesserung in kleinen Schritten",
-      "Lebenslange Anstellung in einer Firma",
       "Strenge Hierarchie von oben nach unten",
+      "Lebenslange Anstellung in einer Firma",
+      "Ständige Verbesserung in kleinen Schritten",
       "Produktion nur auf Vorrat"
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation": "Kai heißt „Veränderung“, zen „zum Besseren“. Im Zentrum steht das Streben nach kontinuierlicher Verbesserung – Schritt für Schritt.",
     "difficulty": 2,
     "tags": [
@@ -34441,9 +34441,9 @@
       "en": {
         "question": "What does the Japanese management idea \"kaizen\" mean?",
         "options": [
-          "Constant improvement in small steps",
-          "Lifelong employment at one company",
           "A strict top-down hierarchy",
+          "Lifelong employment at one company",
+          "Constant improvement in small steps",
           "Producing only for stock"
         ],
         "explanation": "Kai means \"change\", zen \"for the better\". At its core is the striving for continuous improvement – step by step."
@@ -34456,12 +34456,12 @@
     "category_id": "business",
     "question": "Wozu schließen sich Menschen in einer Genossenschaft zusammen?",
     "options": [
-      "Um sich als Mitglieder durch ein gemeinsames Geschäft gegenseitig zu fördern",
+      "Um ein staatliches Amt zu bilden",
       "Um möglichst hohe Gewinne an fremde Aktionäre auszuschütten",
       "Um Steuern ganz zu vermeiden",
-      "Um ein staatliches Amt zu bilden"
+      "Um sich als Mitglieder durch ein gemeinsames Geschäft gegenseitig zu fördern"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation": "Eine Genossenschaft fördert ihre Mitglieder durch einen gemeinschaftlichen Geschäftsbetrieb – nach dem Prinzip „Hilfe durch Selbsthilfe“.",
     "difficulty": 2,
     "tags": [
@@ -34481,10 +34481,10 @@
       "en": {
         "question": "Why do people join together in a cooperative?",
         "options": [
-          "To support each other as members through a shared business",
+          "To form a government office",
           "To pay out the highest possible profits to outside shareholders",
           "To avoid taxes completely",
-          "To form a government office"
+          "To support each other as members through a shared business"
         ],
         "explanation": "A cooperative supports its members through a shared business – following the principle of \"help through self-help\"."
       }
@@ -34575,12 +34575,12 @@
     "category_id": "language",
     "question": "Was ist ein Pangramm wie „Franz jagt im komplett verwahrlosten Taxi quer durch Bayern“?",
     "options": [
-      "Ein Satz, der alle Buchstaben des Alphabets enthält",
       "Ein Satz, der sich reimt",
+      "Ein Satz, der alle Buchstaben des Alphabets enthält",
       "Ein Satz ohne Vokale",
       "Ein Satz, der vorwärts und rückwärts gleich ist"
     ],
-    "correct_index": 0,
+    "correct_index": 1,
     "explanation": "Ein Pangramm enthält alle Buchstaben eines Alphabets. Der Franz-Satz ist ein im Deutschen oft verwendetes Beispiel.",
     "difficulty": 2,
     "tags": [
@@ -34599,8 +34599,8 @@
       "en": {
         "question": "What is a pangram, such as the German sentence \"Franz jagt im komplett verwahrlosten Taxi quer durch Bayern\"?",
         "options": [
-          "A sentence that contains every letter of the alphabet",
           "A sentence that rhymes",
+          "A sentence that contains every letter of the alphabet",
           "A sentence without vowels",
           "A sentence that reads the same backwards"
         ],
@@ -34614,12 +34614,12 @@
     "category_id": "language",
     "question": "Aus welchem Land stammt das Haiku, die kürzeste Gedichtform der Welt?",
     "options": [
-      "Japan",
-      "China",
       "Indien",
+      "China",
+      "Japan",
       "Griechenland"
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation": "Das Haiku ist eine traditionelle japanische Gedichtform, die heute weltweit verbreitet ist. Im Deutschen galt lange die Vorgabe von 5-7-5 Silben.",
     "difficulty": 1,
     "tags": [
@@ -34639,9 +34639,9 @@
       "en": {
         "question": "Which country does the haiku, the world's shortest form of poem, come from?",
         "options": [
-          "Japan",
-          "China",
           "India",
+          "China",
+          "Japan",
           "Greece"
         ],
         "explanation": "The haiku is a traditional Japanese form of poem that is now popular worldwide. In German, the rule of 5-7-5 syllables applied for a long time."
@@ -34654,12 +34654,12 @@
     "category_id": "language",
     "question": "Wie wird die niederdeutsche Sprache in Deutschland volkstümlich genannt?",
     "options": [
-      "Plattdeutsch",
+      "Mittelhochdeutsch",
       "Schwyzerdütsch",
       "Hochdeutsch",
-      "Mittelhochdeutsch"
+      "Plattdeutsch"
     ],
-    "correct_index": 0,
+    "correct_index": 3,
     "explanation": "Niederdeutsch heißt im Volksmund Plattdeutsch. Eine gemeinsame niederdeutsche Schriftsprache gab es bis ins 16. Jahrhundert, heute ist es in viele Dialekte gegliedert.",
     "difficulty": 1,
     "tags": [
@@ -34678,10 +34678,10 @@
       "en": {
         "question": "What is Low German popularly called in Germany?",
         "options": [
-          "Plattdeutsch",
+          "Middle High German",
           "Swiss German",
           "High German",
-          "Middle High German"
+          "Plattdeutsch"
         ],
         "explanation": "Low German is popularly called Plattdeutsch. A shared written Low German existed until the 16th century; today it is split into many dialects."
       }
