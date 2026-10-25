@@ -2,6 +2,7 @@
 // ("renderer": "three", "scene": "<key>"). Everything in this folder is loaded only when a 3D animation is shown.
 import type { SceneFactory } from "../types";
 import { arm } from "./arm";
+import { assembly } from "./assembly";
 import { brain } from "./brain";
 import { cell } from "./cell";
 import { circuit } from "./circuit";
@@ -36,7 +37,8 @@ import { starbirth } from "./starbirth";
 import { storm } from "./storm";
 import { tides } from "./tides";
 import { touchscreen } from "./touchscreen";
+import { violin } from "./violin";
 import { watercycle } from "./watercycle";
 import { windturbine } from "./windturbine";
 
-export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell, seasons, moon, lever, plates, starbirth, storm, neural, eclipse, greenhouse, pulley, circuit, watercycle, windturbine, gps, heatpump, sound, photosynthesis, heart, tides, arm, lungs, eye, knee, brain, orderbook, touchscreen, printing, pythagoras, magnus, mouth };
+export const SCENES_3D: Record<string, SceneFactory> = { engine, dna, orbit, gears, lens, emotor, cell, seasons, moon, lever, plates, starbirth, storm, neural, eclipse, greenhouse, pulley, circuit, watercycle, windturbine, gps, heatpump, sound, photosynthesis, heart, tides, arm, lungs, eye, knee, brain, orderbook, touchscreen, printing, pythagoras, magnus, mouth, violin, assembly };

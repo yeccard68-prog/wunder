@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-25 · 2026-10-animations-culture-business-1 · zwei neue 3D-Animationen ohne fremde Modelle: „Wie eine Geige klingt“ (Szene violin: Bogen, Kolophonium, Stick-Slip, Steg, Stimmstock) und „Wie das Fließband die Produktion verändert hat“ (Szene assembly: Stationen, Taktzeit, Ford 1913 ×8) mit qa-geige, qa-fliessband · Belege wörtlich aus Violine, Bogen (Streichinstrument), Stick-Slip-Effekt, Steg, Stimmstock · Fließbandfertigung, Ford Modell T · Auto-Arbeitsschritte ausdrücklich als Beispiel der Animation formuliert.
+
 - 2026-10-25 · 2026-10-animations-math-1, -sport-1, -language-1 · drei neue 3D-Animationen: „Der Satz des Pythagoras zum Anfassen“ (Szene pythagoras), „Warum ein angeschnittener Ball eine Kurve fliegt“ (Szene magnus), „Wie wir Laute formen“ (Szene mouth, echtes Modell aus Z-Anatomy, Stimmlippen gezeichnet) mit qa-pythagoras, qa-effet, qa-laute · Belege wörtlich aus Satz des Pythagoras · Magnus-Effekt, Bananenflanke (Druck-Erklärung ausdrücklich als Magnus’ Erklärung) · Stimmlippe, Vokal, Konsonant, Artikulationsort.
 
 - 2026-10-24 · 2026-10-animations-economy-1, -tech-1, -history-1 · drei neue 3D-Animationen ohne fremde Modelle: „Wie an der Börse ein Preis entsteht“ (Szene orderbook), „Wie ein Touchscreen Berührungen erkennt“ (Szene touchscreen), „Wie Gutenbergs Buchdruck funktionierte“ (Szene printing), je mit Vorhersage- und Kontrollfrage (qa-boerse, qa-touch, qa-buchdruck) · Belege wörtlich aus Börse, Orderbuch, Geld-/Briefkurs, Marktpreis · Touchscreen · Druckpresse, Handgießinstrument, Winkelhaken, Buchdruck · keine Anlageberatung, nur Funktionsweise.
