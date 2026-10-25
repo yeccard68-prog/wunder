@@ -33659,5 +33659,125 @@
         "explanation": "Gutenberg developed printing around 1440 in Mainz from two parts: a printing press and movable metal type, which he cast in a hand mould."
       }
     }
+  },
+  {
+    "id": "qa-pythagoras",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein rechtwinkliges Dreieck hat Katheten von 3 cm und 4 cm. Wie lang ist die Hypotenuse?",
+    "options": [
+      "5 cm",
+      "7 cm",
+      "6 cm",
+      "12 cm"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach dem Satz des Pythagoras gilt a² + b² = c²: 3² + 4² = 9 + 16 = 25 = 5². Die Hypotenuse ist also 5 cm lang.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie",
+      "Mathe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Satz des Pythagoras",
+    "source_url": "https://de.wikipedia.org/wiki/Satz_des_Pythagoras",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A right-angled triangle has legs of 3 cm and 4 cm. How long is the hypotenuse?",
+        "options": [
+          "5 cm",
+          "7 cm",
+          "6 cm",
+          "12 cm"
+        ],
+        "explanation": "By the Pythagorean theorem a² + b² = c²: 3² + 4² = 9 + 16 = 25 = 5². So the hypotenuse is 5 cm long."
+      }
+    }
+  },
+  {
+    "id": "qa-effet",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie heißt der Effekt, der einen rotierenden Ball in der Luft zur Seite lenkt?",
+    "options": [
+      "Magnus-Effekt",
+      "Doppler-Effekt",
+      "Treibhauseffekt",
+      "Domino-Effekt"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Magnus-Effekt beschreibt die Kraft, die ein rotierender runder Körper in einer Strömung quer zur Strömung erfährt. Deshalb fliegt ein Fußball mit Effet im Bogen.",
+    "difficulty": 1,
+    "tags": [
+      "Fußball",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Magnus-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Magnus-Effekt",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the effect called that pushes a spinning ball sideways in the air?",
+        "options": [
+          "Magnus effect",
+          "Doppler effect",
+          "Greenhouse effect",
+          "Domino effect"
+        ],
+        "explanation": "The Magnus effect describes the force a spinning round body experiences across a flow. That is why a football kicked with spin flies in a curve."
+      }
+    }
+  },
+  {
+    "id": "qa-laute",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bringt beim Sprechen die Stimmlippen im Kehlkopf zum Schwingen?",
+    "options": [
+      "Die Luft aus dem Brustkorb",
+      "Die Zunge",
+      "Die Zähne",
+      "Das Gaumensegel"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Stimmlippen werden von der Luft aus dem Brustkorb angeblasen und geraten in Schwingungen. So entsteht der Grundschall der Stimme, den Zunge und Mund dann zu Lauten formen.",
+    "difficulty": 1,
+    "tags": [
+      "Sprache",
+      "Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stimmlippe",
+    "source_url": "https://de.wikipedia.org/wiki/Stimmlippe",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes the vocal folds in the larynx vibrate when we speak?",
+        "options": [
+          "The air from the chest",
+          "The tongue",
+          "The teeth",
+          "The soft palate"
+        ],
+        "explanation": "The air from the chest blows against the vocal folds and sets them vibrating. That makes the basic sound of the voice, which the tongue and mouth then shape into speech sounds."
+      }
+    }
   }
 ]

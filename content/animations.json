@@ -3482,5 +3482,321 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-25T12:00:00Z",
+    "id": "a-pythagoras",
+    "category_id": "math",
+    "scene": "pythagoras",
+    "title": "Der Satz des Pythagoras zum Anfassen",
+    "summary": "Zwei kleine Quadrate füllen zusammen genau ein großes – in jedem rechtwinkligen Dreieck.",
+    "goal": "Du kannst den Satz des Pythagoras erklären, mit ihm eine Seite berechnen und prüfen, ob ein Dreieck rechtwinklig ist.",
+    "labels": [
+      "Kathete a",
+      "Kathete b",
+      "Hypotenuse c",
+      "Rechter Winkel",
+      "a² = 9",
+      "b² = 16",
+      "c² = 25",
+      "9 + 16 = 25",
+      "36 + 64 = 100: rechtwinklig"
+    ],
+    "steps": [
+      {
+        "text": "In einem rechtwinkligen Dreieck heißen die beiden Seiten am rechten Winkel Katheten. Die Seite gegenüber dem rechten Winkel ist die Hypotenuse – hier mit den Längen 3, 4 und 5.",
+        "seconds": 9
+      },
+      {
+        "text": "Über jede Seite legen wir ein Quadrat. Der Satz des Pythagoras sagt: Die Flächen der beiden Quadrate über den Katheten sind zusammen genauso groß wie die Fläche des Quadrats über der Hypotenuse – kurz a² + b² = c².",
+        "seconds": 10
+      },
+      {
+        "text": "Hier zählt man nach: 9 Kästchen und 16 Kästchen – zusammen 25. Genau so viele passen in das Quadrat über der Hypotenuse, kein Kästchen bleibt übrig.",
+        "seconds": 10
+      },
+      {
+        "text": "Mit dem Satz lässt sich aus zwei bekannten Seiten die dritte berechnen – und umgekehrt prüfen, ob ein Dreieck rechtwinklig ist. Bekannt war die Aussage schon lange vor Pythagoras in Babylon und Indien; heute kennt man mehrere hundert Beweise.",
+        "seconds": 11
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Satz des Pythagoras",
+        "url": "https://de.wikipedia.org/wiki/Satz_des_Pythagoras"
+      }
+    ],
+    "quiz_question_id": "qa-pythagoras",
+    "translations": {
+      "en": {
+        "title": "The Pythagorean theorem to watch",
+        "summary": "Two small squares together fill exactly one big one – in every right-angled triangle.",
+        "goal": "You can explain the Pythagorean theorem, use it to work out a side and check whether a triangle is right-angled.",
+        "labels": [
+          "Leg a",
+          "Leg b",
+          "Hypotenuse c",
+          "Right angle",
+          "a² = 9",
+          "b² = 16",
+          "c² = 25",
+          "9 + 16 = 25",
+          "36 + 64 = 100: right-angled"
+        ],
+        "steps": [
+          "In a right-angled triangle the two sides at the right angle are called the legs. The side opposite the right angle is the hypotenuse – here with the lengths 3, 4 and 5.",
+          "We put a square on each side. The Pythagorean theorem says: the areas of the two squares on the legs together are exactly as large as the area of the square on the hypotenuse – in short a² + b² = c².",
+          "Count them here: 9 little squares and 16 little squares – 25 together. Exactly that many fit into the square on the hypotenuse, with none left over.",
+          "With the theorem you can work out the third side from two known sides – and the other way round check whether a triangle is right-angled. The statement was known in Babylon and India long before Pythagoras; today several hundred proofs are known."
+        ],
+        "predict": {
+          "question": "A triangle has the sides 6, 8 and 10. Is it right-angled?",
+          "options": [
+            "Yes – 36 + 64 = 100",
+            "No – for that 6 + 8 would have to be 10",
+            "That cannot be checked"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Ein Dreieck hat die Seiten 6, 8 und 10. Ist es rechtwinklig?",
+      "options": [
+        "Ja – 36 + 64 = 100",
+        "Nein – dafür müsste 6 + 8 = 10 sein",
+        "Das lässt sich nicht prüfen"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-25T12:00:00Z",
+    "id": "a-effet",
+    "category_id": "sport",
+    "scene": "magnus",
+    "title": "Warum ein angeschnittener Ball eine Kurve fliegt",
+    "summary": "Ein Ball, der sich dreht, reißt Luft mit – und wird zur Seite gedrückt.",
+    "goal": "Du kannst erklären, warum ein Ball mit Effet im Bogen fliegt, und wie sich die Kurve mit der Drehrichtung ändert.",
+    "labels": [
+      "Tor",
+      "Ball mit Effet",
+      "Luft wird mitgerissen",
+      "Schnellere Luft",
+      "Langsamere Luft",
+      "Kleinerer Druck",
+      "Kraft quer zur Flugrichtung",
+      "Die Bahn krümmt sich",
+      "Andersherum gedreht: andere Kurve"
+    ],
+    "steps": [
+      {
+        "text": "Fußballer schießen den Ball mit Effet, damit er im Bogen ins Tor fliegt. Bei der Bananenflanke wischt der Fuß mit der Innenseite am Ball vorbei und bringt ihn seitlich zum Drehen.",
+        "seconds": 9
+      },
+      {
+        "text": "Der rotierende Ball reißt Luft mit sich – in die Richtung, in die er sich dreht. Auf der Seite, die sich mit der anströmenden Luft dreht, strömt die Luft schneller vorbei als auf der anderen.",
+        "seconds": 10
+      },
+      {
+        "text": "Heinrich Gustav Magnus erklärte es so: Wo die Luft schneller strömt, ist der Druck kleiner. Der Ball erfährt deshalb eine Kraft im rechten Winkel zur Flugrichtung – den Magnus-Effekt –, und seine Bahn krümmt sich.",
+        "seconds": 10
+      },
+      {
+        "text": "Dreht sich der Ball andersherum, krümmt sich die Bahn zur anderen Seite. Beschrieben hatte den Effekt schon Benjamin Robins, 100 Jahre vor Magnus; Magnus wies ihn 1852 im Experiment nach.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Magnus-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Magnus-Effekt"
+      },
+      {
+        "name": "Wikipedia: Bananenflanke",
+        "url": "https://de.wikipedia.org/wiki/Bananenflanke"
+      }
+    ],
+    "quiz_question_id": "qa-effet",
+    "translations": {
+      "en": {
+        "title": "Why a ball with spin flies a curve",
+        "summary": "A spinning ball drags air along – and gets pushed sideways.",
+        "goal": "You can explain why a ball with spin flies in a curve and how the curve changes with the direction of spin.",
+        "labels": [
+          "Goal",
+          "Ball with spin",
+          "Air is dragged along",
+          "Faster air",
+          "Slower air",
+          "Lower pressure",
+          "Force across the flight",
+          "The path bends",
+          "Spun the other way: other curve"
+        ],
+        "steps": [
+          "Footballers kick the ball with spin so that it flies into the goal in a curve. For a banana kick the inside of the foot wipes past the ball and sets it spinning sideways.",
+          "The spinning ball drags air along with it – in the direction it is turning. On the side that turns with the oncoming air, the air flows past faster than on the other side.",
+          "Heinrich Gustav Magnus explained it like this: where the air flows faster, the pressure is lower. So the ball feels a force at right angles to its flight – the Magnus effect – and its path bends.",
+          "If the ball spins the other way, the path bends to the other side. Benjamin Robins had already described the effect 100 years before Magnus; Magnus proved it by experiment in 1852."
+        ],
+        "predict": {
+          "question": "Now the ball spins the other way. What happens to its path?",
+          "options": [
+            "It bends to the other side",
+            "It becomes completely straight",
+            "The ball drops to the ground at once"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Jetzt dreht sich der Ball andersherum. Was passiert mit seiner Flugbahn?",
+      "options": [
+        "Sie krümmt sich zur anderen Seite",
+        "Sie wird ganz gerade",
+        "Der Ball fällt sofort zu Boden"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "three",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-25T12:00:00Z",
+    "id": "a-laute",
+    "category_id": "language",
+    "scene": "mouth",
+    "title": "Wie wir Laute formen",
+    "summary": "Im Kehlkopf entsteht ein Ton – Zunge und Mund machen daraus Vokale und Konsonanten.",
+    "goal": "Du kannst erklären, wie die Stimme entsteht und wie die Zunge Vokale und Konsonanten wie t und k formt.",
+    "labels": [
+      "Stimmlippen",
+      "Kehlkopf",
+      "Zunge",
+      "Gaumensegel",
+      "Zähne",
+      "Luft strömt frei: Vokal",
+      "i: Zunge vorne",
+      "u: Zunge hinten",
+      "a: Mund weit offen",
+      "t: am Zahndamm",
+      "k: Zungenrücken am Gaumensegel",
+      "Schall"
+    ],
+    "steps": [
+      {
+        "text": "Die Stimme entsteht im Kehlkopf. Die Stimmlippen werden von der Luft aus dem Brustkorb angeblasen, geraten in Schwingungen und bilden so den Grundschall der Stimme.",
+        "seconds": 9
+      },
+      {
+        "text": "Bei Vokalen strömt die Luft weitgehend ungehindert durch den Mund – die Zunge formt nur den Raum. Das i entsteht vorne im Mundraum, das u hinten; beim a ist der Mund weit offen.",
+        "seconds": 11
+      },
+      {
+        "text": "Bei Konsonanten wird der Luftstrom gehemmt – etwa am Gaumen, an den Zähnen oder an den Lippen. Das t wird am Zahndamm hinter den oberen Zähnen gebildet: Der Luftstrom wird kurz unterbrochen und dann plötzlich freigegeben.",
+        "seconds": 10
+      },
+      {
+        "text": "Beim k wie in „Karte“ bildet der Zungenrücken den Verschluss mit dem Gaumensegel. Die Zunge ist das beweglichste und wichtigste Werkzeug beim Sprechen: Die meisten Merkmale der Laute gehen auf ihre verschiedenen Teile zurück.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Stimmlippe",
+        "url": "https://de.wikipedia.org/wiki/Stimmlippe"
+      },
+      {
+        "name": "Wikipedia: Vokal",
+        "url": "https://de.wikipedia.org/wiki/Vokal"
+      },
+      {
+        "name": "Wikipedia: Konsonant",
+        "url": "https://de.wikipedia.org/wiki/Konsonant"
+      },
+      {
+        "name": "Wikipedia: Artikulationsort",
+        "url": "https://de.wikipedia.org/wiki/Artikulationsort"
+      }
+    ],
+    "quiz_question_id": "qa-laute",
+    "translations": {
+      "en": {
+        "title": "How we form sounds",
+        "summary": "A tone starts in the larynx – the tongue and mouth turn it into vowels and consonants.",
+        "goal": "You can explain how the voice is made and how the tongue forms vowels and consonants such as t and k.",
+        "labels": [
+          "Vocal folds",
+          "Larynx",
+          "Tongue",
+          "Soft palate",
+          "Teeth",
+          "Air flows freely: vowel",
+          "i: tongue at the front",
+          "u: tongue at the back",
+          "a: mouth wide open",
+          "t: at the tooth ridge",
+          "k: back of the tongue at the soft palate",
+          "Sound"
+        ],
+        "steps": [
+          "The voice starts in the larynx. Air from the chest blows against the vocal folds, sets them vibrating and so makes the basic sound of the voice.",
+          "For vowels the air flows out through the mouth largely unhindered – the tongue only shapes the space. The i is made at the front of the mouth, the u at the back; for the a the mouth is wide open.",
+          "For consonants the airflow is held up – for example at the palate, the teeth or the lips. The t is made at the ridge behind the upper teeth: the airflow is briefly stopped and then suddenly released.",
+          "For the k as in “Karte” the back of the tongue closes against the soft palate. The tongue is the most flexible and important tool for speaking: most features of speech sounds come from its different parts."
+        ],
+        "predict": {
+          "question": "Next comes the k as in “Karte”. Where does the tongue close the way for the air?",
+          "options": [
+            "At the back, at the soft palate",
+            "At the front, at the lips",
+            "At the front teeth"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Gleich kommt das k wie in „Karte“. Wo verschließt die Zunge den Weg der Luft?",
+      "options": [
+        "Hinten am Gaumensegel",
+        "Vorne an den Lippen",
+        "An den Schneidezähnen"
+      ],
+      "correct": 0
+    }
   }
 ]
