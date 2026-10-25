@@ -254,7 +254,7 @@ function Tracked({ entry, root, className, children }: { entry: FeedEntry; root:
  *    scrolled through.
  *  - layout "list": plain list inside the page (search results, collections).
  */
-export default function Feed({ entries, layout = "list" }: { entries: FeedEntry[]; layout?: "snap" | "list" }) {
+export default function Feed({ entries, layout = "list", onNearEnd }: { entries: FeedEntry[]; layout?: "snap" | "list"; onNearEnd?: () => void }) {
   const { state } = useStore();
   const t = useT();
   const [count, setCount] = useState(PAGE);
@@ -270,7 +270,18 @@ export default function Feed({ entries, layout = "list" }: { entries: FeedEntry[
     return () => obs.disconnect();
   }, [snap]);
 
-  const visible = entries.filter((e) => !state.hidden.includes(entryId(e)));
+  // snapping feed: entries already rendered keep their place when the list changes (e.g. a new portion of cards
+  // arrived), so nothing jumps under the finger; new ones only ever come after them. Lists (search) just follow.
+  const shown = useRef<FeedEntry[]>([]);
+  const kept = snap ? shown.current.slice(0, count) : [];
+  const keptIds = new Set(kept.map(entryId));
+  const ordered = [...kept, ...entries.filter((e) => !keptIds.has(entryId(e)))];
+  shown.current = ordered;
+  const visible = ordered.filter((e) => !state.hidden.includes(entryId(e)));
+  const nearEnd = count + PAGE >= visible.length;
+  useEffect(() => {
+    if (nearEnd) onNearEnd?.();
+  }, [nearEnd, onNearEnd]);
   const end = count >= visible.length && visible.length > 0 && <p className="py-8 text-center text-sm text-muted">{t("Das war alles für heute. Morgen gibt es Neues.")}</p>;
 
   if (!snap)

@@ -2,11 +2,12 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { evaluate, type FormatResponse } from "./formats";
-import type { AnswerContext, AnswerRecord, AnswerResult, Item, LogEntry, UserState } from "./types";
+import type { AgeBand, AnswerContext, AnswerRecord, AnswerResult, Item, LogEntry, UserState } from "./types";
 import { forAudience, type Clip, type Content } from "./content";
 import { detectLocale, translate } from "./i18n";
 import { XP, applyActivity, dueAt, isDue, levelInfo, newAchievements, today, weekKey, BOX_MS } from "./gamification";
 import * as api from "./supabase";
+import { deviceRegion } from "./region";
 import { mergeBookState } from "./books";
 import { setApprovals } from "./reviews";
 import { recordView, type EntryKind } from "./engagement";
@@ -16,6 +17,9 @@ import { recordSeen, SEEN_MIN_SECONDS } from "./seen";
 // They never share storage, and live mode never falls back to bundled content.
 const MODE: "demo" | "live" = api.isLive ? "live" : "demo";
 const STATE_KEY = `wunder.${MODE}.state.v3`;
+/** Generated cards kept on the device at most (older portions make room for new ones). */
+const GENERATED_MAX = 600;
+const AGE_OF: Record<AgeBand, number> = { "6-9": 6, "10-12": 10, "13-15": 13, "16+": 16 };
 const CONTENT_KEY = "wunder.live.content.v1";
 
 const blank = (): UserState => ({
@@ -158,6 +162,8 @@ interface Store {
   signOut: () => Promise<void>;
   /** Deletes the account (live) or the local data (demo). */
   reset: () => Promise<void>;
+  /** Loads another portion of generated cards (e.g. when the feed runs out). */
+  loadMore: () => Promise<void>;
 }
 
 const Ctx = createContext<Store | null>(null);
@@ -168,13 +174,15 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [stale, setStale] = useState(false);
   const [auth, setAuth] = useState<AuthInfo>({ mode: MODE, userId: null, email: null, isGuest: true });
   const [content, setContent] = useState<Content>({ items: [], clips: [] });
+  const [generated, setGenerated] = useState<Item[]>([]); // generated cards loaded so far (portions, see loadMore)
+  const loadingMore = useRef(false);
   const [state, setState] = useState<UserState>(blank);
   const [toasts, setToasts] = useState<Toast[]>([]);
   const [launch, setLaunch] = useState<Launch | null>(null);
   const ref = useRef(state);
   const authRef = useRef(auth);
   // what this user sees: their language, their age level
-  const { items, clips } = useMemo(() => forAudience(content, state.settings.locale, state.ageBand), [content, state.settings.locale, state.ageBand]);
+  const { items, clips } = useMemo(() => forAudience({ ...content, items: [...content.items, ...generated] }, state.settings.locale, state.ageBand), [content, generated, state.settings.locale, state.ageBand]);
   const clipsRef = useRef(content.clips);
   const tr = useCallback((key: string, vars?: Record<string, string | number>) => translate(ref.current.settings.locale, key, vars), []);
   const resetting = useRef(false);
@@ -559,9 +567,31 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   const getState = useCallback(() => ref.current, []);
 
+  /** One more portion of generated cards (live mode only; at most GENERATED_MAX on the device at a time). */
+  const loadMore = useCallback(async () => {
+    if (MODE !== "live" || loadingMore.current) return;
+    loadingMore.current = true;
+    try {
+      const s = ref.current;
+      const have = new Set(content.items.map((i) => i.id));
+      const exclude = [...new Set([...generated.map((i) => i.id), ...Object.keys(s.answers).filter((id) => !have.has(id))])].slice(-1500);
+      const more = await api.fetchGenerated({ categories: s.interests, region: deviceRegion(), age: AGE_OF[s.ageBand ?? "16+"], exclude });
+      if (more.length) setGenerated((g) => [...g, ...more.filter((m) => !g.some((x) => x.id === m.id))].slice(-GENERATED_MAX));
+    } catch (e) {
+      console.warn("Weitere Karten konnten nicht geladen werden:", message(e));
+    } finally {
+      loadingMore.current = false;
+    }
+  }, [content.items, generated]);
+  // the first portion as soon as the hand-made content is there
+  useEffect(() => {
+    if (status === "ready" && MODE === "live" && !generated.length) loadMore();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [status]);
+
   return (
     <Ctx.Provider
-      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, firstTry, toggle, hide, trackClip, trackView, reactFact, addComment, toggleFollow, block, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset }}
+      value={{ status, ready: status === "ready", error, retry: boot, stale, auth, items, clips, state, toasts, launch, setLaunch, getState, toast, answer, firstTry, toggle, hide, trackClip, trackView, reactFact, addComment, toggleFollow, block, recordChallenge, update, share, registerEmail, signInEmail, signOut, reset, loadMore }}
     >
       {children}
     </Ctx.Provider>

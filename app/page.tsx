@@ -23,7 +23,7 @@ import { useStore, useT } from "@/lib/store";
  * the three "Rätsel des Tages" come first.
  */
 export default function HomePage() {
-  const { items, clips, state, getState } = useStore();
+  const { items, clips, state, getState, loadMore } = useStore();
   const t = useT();
 
   // Rank once per visit so entries don't jump while the user interacts; the feed's chance is drawn once per visit too.
@@ -59,5 +59,5 @@ export default function HomePage() {
         <Empty title={t("Alles entdeckt")} text={t("Du hast jede Karte gesehen. Neue Inhalte sind unterwegs.")} />
       </div>
     );
-  return <Feed entries={feed} layout="snap" />;
+  return <Feed entries={feed} layout="snap" onNearEnd={loadMore} />;
 }

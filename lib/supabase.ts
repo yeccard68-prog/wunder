@@ -2,7 +2,8 @@
 // Without the two public env vars the app runs in clearly labelled demo mode instead.
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import type { AnswerKey, FormatResponse } from "./formats";
-import { buildContent, type QuestionRow, type VideoRow } from "./content";
+import { buildContent, toItem, type QuestionRow, type VideoRow } from "./content";
+import type { Item } from "./types";
 import type { ChatList, ChatMessage, ChatReason, ChatPlace } from "./chat";
 import type { BotLevel, DuelAnswerResult, DuelQuestion, DuelSummary, DuelView } from "./duel";
 import type { GroupState, GroupSummary } from "./groups";
@@ -35,12 +36,25 @@ async function allRows<T>(page: (from: number, to: number) => PromiseLike<{ data
   }
 }
 
+const QUESTION_COLUMNS = "id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations, hints, countries";
+
+/** The hand-made cards and clips – loaded in full at app start. Generated cards come in portions (fetchGenerated). */
 export async function fetchContent() {
   const [questions, videos] = await Promise.all([
-    allRows<QuestionRow>((from, to) => db().from("questions").select("id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations, hints").eq("status", "published").order("created_at", { ascending: false }).order("id").range(from, to)),
+    allRows<QuestionRow>((from, to) => db().from("questions").select(QUESTION_COLUMNS).eq("status", "published").eq("origin", "editorial").order("created_at", { ascending: false }).order("id").range(from, to)),
     allRows<VideoRow>((from, to) => db().from("videos").select("id, category_id, title, hook, description, video_url, thumbnail_url, duration_seconds, has_audio, captions, creator_name, sources, published_at, tags, quiz_question_id, verification_status, like_count, min_age, start_seconds, end_seconds, license, translations").eq("status", "published").order("published_at", { ascending: false }).order("id").range(from, to)),
   ]);
   return buildContent(questions, videos);
+}
+
+/**
+ * A random portion of generated cards (e.g. from Wikidata) for the feed: the learner's topics first, cards about their
+ * country more often, none of the ids already on the device. Answers stay on the server as for every card.
+ */
+export async function fetchGenerated(p: { categories: string[]; region: string | null; age: number; exclude: string[]; limit?: number }): Promise<Item[]> {
+  const { data, error } = await db().rpc("sample_generated", { p_categories: p.categories, p_region: p.region, p_age: p.age, p_exclude: p.exclude, p_limit: p.limit ?? 80 });
+  if (error) throw error;
+  return ((data ?? []) as QuestionRow[]).map((r) => ({ ...toItem(r), generated: true }));
 }
 
 // ---------- session ----------
