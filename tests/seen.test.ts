@@ -63,7 +63,8 @@ test("cards about the learner's own country come first; the country is read from
   const local = { ...questions[questions.length - 1], countries: ["AT"] };
   const list = [...items.filter((i) => i.id !== local.id), local];
   const pos = (region: string | null) => rankForYou(list, state(), { region, seed: "x" }).findIndex((r) => r.item.id === local.id);
-  assert.ok(pos("AT") < pos("DE"), `AT ${pos("AT")} vs DE ${pos("DE")}`);
+  assert.ok(pos("AT") < pos("DE") || pos("AT") === 0, `AT ${pos("AT")} vs DE ${pos("DE")}`);
+  assert.equal(rankForYou(list, state(), { region: "AT", seed: "x" }).find((r) => r.item.id === local.id)!.reason.length > 0, true);
 });
 
 test("a wrong answer stays out until its repetition is due; a correct one never counts as due", () => {

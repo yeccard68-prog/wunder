@@ -82,17 +82,20 @@ export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[]
   const topicOdds = (e: FeedEntry) => TOPIC_MOVE ** topicEngagement(state, entryTopic(e));
   const out: FeedEntry[] = [];
   for (;;) {
-    const kinds = (Object.keys(queues) as (keyof typeof START_ODDS)[]).filter((k) => queues[k].length);
-    if (!kinds.length) break;
+    // never a third entry of the same topic in a row: formats with only that topic left sit this place out
+    const last = out.slice(-2).map(entryTopic);
+    const blocked = last.length === 2 && last[0] === last[1] ? last[0] : null;
+    const all = (Object.keys(queues) as (keyof typeof START_ODDS)[]).filter((k) => queues[k].length);
+    if (!all.length) break;
+    const free = all.filter((k) => queues[k].some((e) => entryTopic(e) !== blocked));
+    const kinds = free.length ? free : all;
     // draw a format
     const weights = kinds.map(odds);
     let x = r() * weights.reduce((a, b) => a + b, 0);
     const kind = kinds[weights.findIndex((w) => (x -= w) < 0)] ?? kinds[kinds.length - 1];
-    // within it: never a third entry of the same topic in a row. Cards and facts (long lists) pick one of the next
-    // few by the learner's topic odds; the other formats keep their order, so what is done stays at the back.
+    // within it: cards and facts (long lists) pick one of the next few by the learner's topic odds; the other
+    // formats keep their order, so what is done stays at the back
     const q = queues[kind];
-    const last = out.slice(-2).map(entryTopic);
-    const blocked = last.length === 2 && last[0] === last[1] ? last[0] : null;
     const open = q.map((e, i) => ({ e, i })).filter(({ e }) => entryTopic(e) !== blocked);
     if (!open.length) open.push({ e: q[0], i: 0 }); // nothing else left in this format
     let chosen = open[0];

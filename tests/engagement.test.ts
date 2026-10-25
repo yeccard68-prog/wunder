@@ -49,7 +49,7 @@ test("flow: a run of mistakes makes the next cards easier, a streak harder", () 
 test("odds: a format someone lingers on comes up more often, one they swipe away less often – no fixed places", () => {
   const { items, clips } = forAudience(demoContent(), "de", "16+");
   const share = (s: UserState, seed: string) => {
-    const feed = mixFeed(rankForYou(items, s), clips, [], s, [], [], [], [], [], [], seed).slice(0, 30);
+    const feed = mixFeed(rankForYou(items, s, { seed: "t" }), clips, [], s, [], [], [], [], [], [], seed).slice(0, 30);
     return feed.filter((e: FeedEntry) => e.kind === "clip").length;
   };
   let likes = view(undefined, "science", "clip", 30, 10);
@@ -61,7 +61,7 @@ test("odds: a format someone lingers on comes up more often, one they swipe away
   assert.ok(sum(blank({ signals: likes })) > sum(blank()), "lingering on clips brings more clips");
   assert.ok(sum(blank({ signals: skips })) < sum(blank()), "swiping clips away brings fewer");
   // chance, not slots: different seeds give different orders, the same seed the same one
-  const kinds = (seed: string) => mixFeed(rankForYou(items, blank()), clips, [], blank(), [], [], [], [], [], [], seed).slice(0, 15).map((e) => e.kind).join();
+  const kinds = (seed: string) => mixFeed(rankForYou(items, blank(), { seed: "t" }), clips, [], blank(), [], [], [], [], [], [], seed).slice(0, 15).map((e) => e.kind).join();
   assert.notEqual(kinds("a"), kinds("b"));
   assert.equal(kinds("a"), kinds("a"));
 });
@@ -86,8 +86,9 @@ test("the feed: facts between the cards, topics spread, one pause", () => {
   const state = blank({ facts: { wow: ["f-wombat"], known: [] } });
   const facts = rankFacts(factsFor("de", "16+"), state);
   assert.equal(facts.at(-1)!.id, "f-wombat", "facts already reacted to come last");
-  const feed = mixFeed(rankForYou(items, state), clips, [], state, [], [], facts, [], [], [], "test");
-  assert.ok(feed.slice(0, 12).some((e) => e.kind === "fact" || e.kind === "series"));
+  const feed = mixFeed(rankForYou(items, state, { seed: "t" }), clips, [], state, [], [], facts, [], [], [], "test");
+  // by chance, so not at a fixed place – but practically always within the first 40 (fact odds ~18 % per place)
+  assert.ok(feed.slice(0, 40).some((e) => e.kind === "fact" || e.kind === "series"));
   assert.ok(feed.some((e) => e.kind === "series"), "theme series of three facts");
   assert.equal(feed.filter((e) => e.kind === "pause").length, 1);
   const cards = feed.filter((e) => e.kind !== "pause").map(entryTopic);
