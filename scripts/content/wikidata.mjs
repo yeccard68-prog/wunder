@@ -198,21 +198,28 @@ SELECT ?e ?eLabel ?eLabelEn ?sym ?num ?links WHERE {
   // "In welchem Land liegt die Welterbestätte …?" – sites in exactly one country
   async heritage(r) {
     const rows = await sparql(`
-SELECT ?s ?sLabel ?sLabelEn ?links ?c ?cLabel ?cLabelEn ?iso ?cont WHERE {
+SELECT ?s ?sLabel ?sLabelEn ?links ?c WHERE {
   ?s wdt:P1435 wd:Q9259; wikibase:sitelinks ?links; wdt:P17 ?c. FILTER(?links >= 45)
-  ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso; wdt:P30 ?cont.
-  ${LABELS("s", "c")} ${LABELS_EN("s", "c")}
+  ${LABELS("s")} ${LABELS_EN("s")}
 }`);
+    const states = new Map((await sparql(`
+SELECT ?c ?cLabel ?cLabelEn ?iso ?cont WHERE {
+  ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso; wdt:P30 ?cont. FILTER NOT EXISTS { ?c wdt:P576 [] }
+  ${LABELS("c")} ${LABELS_EN("c")}
+}`)).map((x) => [qid(x.c), x]));
     const by = new Map();
     for (const x of rows) {
-      if (!named(x.sLabel, x.sLabelEn, x.cLabel, x.cLabelEn)) continue;
+      const c = states.get(qid(x.c));
+      if (!named(x.sLabel, x.sLabelEn) || /^Qd+$/.test(x.sLabel)) continue;
       const e = by.get(qid(x.s)) ?? { id: qid(x.s), de: x.sLabel, en: x.sLabelEn, links: +x.links, countries: new Map() };
-      e.countries.set(qid(x.c), { id: qid(x.c), de: x.cLabel, en: x.cLabelEn, iso: x.iso, group: qid(x.cont) });
+      e.countries.set(qid(x.c), c ? { id: qid(x.c), de: c.cLabel, en: c.cLabelEn, iso: c.iso, group: qid(c.cont) } : null);
       by.set(e.id, e);
     }
-    const list = [...by.values()].filter((e) => e.countries.size === 1 && !DISPUTED.has([...e.countries.keys()][0])).map((e) => ({ ...e, country: [...e.countries.values()][0] }));
+    const list = [...by.values()].filter((e) => e.countries.size === 1 && [...e.countries.values()][0] && !DISPUTED.has([...e.countries.keys()][0])).map((e) => ({ ...e, country: [...e.countries.values()][0] }));
     const pool = [...new Map(list.map((e) => [e.country.id, e.country])).values()];
-    const keep = list.filter((e) => !givesAway(e.country.de, e.de) && !givesAway(e.country.en, e.en));
+    // places of war, genocide and slavery are memorials, not quiz material
+    const SOMBRE = /KZ|Konzentrationslager|Vernichtung|Gedenk|Friedensdenkmal|Völkermord|Genozid|Schlachtfeld|Sklav|camp|memorial|genocide|battle|slave|prison|Gefängnis|Gorée|Bikini|Robben Island|Hiroshima|Auschwitz|Ruanda|Rwanda|Fort Jesus|Kunta Kinteh|Elmina|Cape Coast/i; // (named ones: slave trade, atomic tests)
+    const keep = list.filter((e) => !givesAway(e.country.de, e.de) && !givesAway(e.country.en, e.en) && !SOMBRE.test(e.de) && !SOMBRE.test(e.en));
     return byFame(keep.map((e) => {
       const id = `wd-heri-${e.id}`;
       const o = arrange(id, e.country, wrongOptions(e.country, pool, e.country.group, r));
@@ -225,34 +232,8 @@ SELECT ?s ?sLabel ?sLabelEn ?links ?c ?cLabel ?cLabelEn ?iso ?cont WHERE {
       };
     }), keep.map((e) => e.links));
   },
-  // "Zu welcher Tierklasse gehört …?" – well-known species with a common name in both languages
-  async animals(r) {
-    const CLASSES = { Q7377: ["Säugetiere", "mammals"], Q5113: ["Vögel", "birds"], Q10811: ["Reptilien", "reptiles"], Q10908: ["Amphibien", "amphibians"], Q127282: ["Knochenfische", "ray-finned fishes"], Q1390: ["Insekten", "insects"] };
-    const found = [];
-    for (const [cls, [cde, cen]] of Object.entries(CLASSES)) {
-      const rows = await sparql(`
-SELECT ?t ?tLabel ?tLabelEn ?name ?links WHERE {
-  ?t wdt:P171+ wd:${cls}. ?t wdt:P105 wd:Q7432; wdt:P225 ?name; wikibase:sitelinks ?links. FILTER(?links >= 60)
-  ${LABELS("t")} ${LABELS_EN("t")}
-}`);
-      for (const x of rows) if (named(x.tLabel, x.tLabelEn) && x.tLabel !== x.name && x.tLabelEn !== x.name && !x.tLabel.includes("(")) found.push({ id: qid(x.t), de: x.tLabel, en: x.tLabelEn, links: +x.links, cls, cde, cen });
-      await new Promise((ok) => setTimeout(ok, 1500)); // gentle on the query service
-    }
-    const list = [...new Map(found.map((e) => [e.id, e])).values()];
-    const pool = Object.entries(CLASSES).map(([id, [de, en]]) => ({ id, de, en: en[0].toUpperCase() + en.slice(1), group: "all" }));
-    return byFame(list.map((e) => {
-      const id = `wd-ani-${e.id}`;
-      const answer = pool.find((p) => p.id === e.cls);
-      const o = arrange(id, answer, wrongOptions(answer, pool, "all", r));
-      return {
-        id, category_id: "earth", min_age: 6, countries: [], tags: ["Tiere", "Biologie"],
-        question: `Zu welcher Tierklasse gehört das Tier „${e.de}“?`, options: o.de, correct_index: o.correct,
-        explanation: `Das Tier „${e.de}“ gehört zu den ${e.cde}.`,
-        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
-        translations: { en: { question: `Which class of animals does the "${e.en}" belong to?`, options: o.en, explanation: `The ${e.en} belongs to the ${e.cen}.` } },
-      };
-    }), list.map((e) => e.links));
-  },
+  // (an animal-class template was tried: the taxon tree in Wikidata is too deep and uneven – queries time out or miss
+  // whole classes such as reptiles; needs another approach)
 };
 
 // editorial cards already asking the same thing (e.g. "Was ist die Hauptstadt von Australien?") – the generated twin is skipped
