@@ -33792,7 +33792,7 @@
       "Mit Seife"
     ],
     "correct_index": 0,
-    "explanation": "Das Rosshaar des Bogens wird mit Kolophonium, einem Harz, eingerieben. Das erhöht die Reibung zwischen Haaren und Saite – erst so kann der Bogen die Saite zum Schwingen bringen.",
+    "explanation": "Das Rosshaar des Bogens wird mit Kolophonium, einem Harz, eingerieben. Das erhöht die Reibung zwischen Haaren und Saite.",
     "difficulty": 1,
     "tags": [
       "Musik",
@@ -33816,7 +33816,7 @@
           "With water",
           "With soap"
         ],
-        "explanation": "The horsehair of the bow is rubbed with rosin, a resin. It increases the friction between the hairs and the string – only then can the bow set the string vibrating."
+        "explanation": "The horsehair of the bow is rubbed with rosin, a resin. It increases the friction between the hairs and the string."
       }
     }
   },

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, Check, ExternalLink, Play, Target } from "lucide-react";
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
+import HintButton from "@/components/HintButton";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Empty } from "@/components/ui";
 import { animationsFor, MODEL_CREDITS, type Animation } from "@/lib/animations";
@@ -81,6 +82,7 @@ function Detail({ current, onBack }: { current: Animation; onBack: () => void })
         <Target size={18} className="mt-0.5 shrink-0 text-accent" />
         <span>{current.goal}</span>
       </p>
+      <div className="flex justify-end"><HintButton kind="animation" id={current.id} label /></div>
       {solved ? (
         <p className="card flex items-center gap-2 p-4 text-sm font-semibold" role="status" data-testid="animation-solved"><Check size={16} className="shrink-0 text-good" /> {t("Richtig! Jetzt kannst du frei mit der Animation spielen.")}</p>
       ) : quiz && shown && (

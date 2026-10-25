@@ -356,6 +356,13 @@ test("a right guess makes way at once – the animation plays on", async ({ page
   await expect(player).toHaveAttribute("data-playing", "true");
 });
 
+test("an animation opened on its own can be reported to the editors", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/explain/?a=a-arm");
+  await page.getByTestId("hint-button").click();
+  await expect(page.getByTestId("hint-sheet")).toBeVisible();
+});
+
 test("the how-to hint shows until it is closed once", async ({ page }) => {
   await signIn(page);
   await page.goto("/explain/?a=a-arm");
