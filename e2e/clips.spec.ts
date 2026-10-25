@@ -634,6 +634,10 @@ test("a nearly finished sudoku can be solved by typing the missing numbers", asy
   for (let k = 0; k < open - 1; k++) await sudoku.getByTestId("puzzle-hint").click();
   const last = sudoku.locator('[data-testid="puzzle-cell"][data-open]').filter({ hasText: /^$/ }).first();
   await last.click();
-  for (let d = 1; d <= 9 && !(await sudoku.getByTestId("puzzle-result").count()); d++) await sudoku.getByTestId("puzzle-digit").nth(d - 1).click();
+  // try the digits in turn; once the right one is in, the pad gives way to the result
+  for (let d = 1; d <= 9; d++) {
+    await sudoku.getByTestId("puzzle-digit").nth(d - 1).click();
+    if (await sudoku.getByTestId("puzzle-result").waitFor({ timeout: 700 }).then(() => true, () => false)) break;
+  }
   await expect(sudoku.getByTestId("puzzle-result")).toContainText("Gelöst");
 });
