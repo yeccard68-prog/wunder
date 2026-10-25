@@ -13,10 +13,22 @@ import { rng } from "./lib-rng.mjs";
 
 const UA = "wunder-content/1.0 (learning app; y.eccard68@gmail.com)";
 async function sparql(query) {
-  const r = await fetch("https://query.wikidata.org/sparql?format=json&query=" + encodeURIComponent(query), { headers: { "user-agent": UA, accept: "application/sparql-results+json" } });
-  if (!r.ok) throw new Error(`Wikidata ${r.status}`);
-  return (await r.json()).results.bindings.map((b) => Object.fromEntries(Object.entries(b).map(([k, v]) => [k, v.value])));
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const r = await fetch("https://query.wikidata.org/sparql", { method: "POST", headers: { "user-agent": UA, accept: "application/sparql-results+json", "content-type": "application/x-www-form-urlencoded" }, body: "query=" + encodeURIComponent(query) });
+      if (!r.ok) throw new Error(`Wikidata ${r.status}`);
+      return (await r.json()).results.bindings.map((b) => Object.fromEntries(Object.entries(b).map(([k, v]) => [k, v.value])));
+    } catch (e) {
+      if (attempt >= 3) throw e;
+      await new Promise((ok) => setTimeout(ok, 8000 * attempt)); // the query service is busy now and then
+    }
+  }
 }
+/** German and English names through the label service (much faster than joining rdfs:label). */
+const LABELS = (...vars) => `SERVICE wikibase:label { bd:serviceParam wikibase:language "de". ${vars.map((v) => `?${v} rdfs:label ?${v}Label.`).join(" ")} }`;
+const LABELS_EN = (...vars) => `SERVICE wikibase:label { bd:serviceParam wikibase:language "en". ${vars.map((v) => `?${v} rdfs:label ?${v}LabelEn.`).join(" ")} }`;
+/** The label service falls back to the Q-id when there is no name – such rows are left out. */
+const named = (...names) => names.every((n) => n && !/^Q\d+$/.test(n));
 const qid = (url) => url.split("/").pop();
 const shuffle = (list, r) => {
   const a = [...list];
@@ -81,6 +93,59 @@ async function countryValues(prop, extra = "") {
   return [...by.values()].filter((e) => e.values.size === 1).map((e) => ({ ...e, value: [...e.values.values()][0] }));
 }
 
+/**
+ * Works and their creator (paintings, books, operas): only creators who died before 1950 – people known for their
+ * work, long ago. Exactly one creator; wrong options are other creators of the same century.
+ */
+async function works(r, t) {
+  const rows = await sparql(`
+SELECT ?w ?wLabel ?wLabelEn ?links ?c ?cLabel ?cLabelEn ?died ?year WHERE {
+  ${t.match ?? `?w wdt:P31 wd:${t.cls}.`} ?w wdt:${t.prop} ?c; wikibase:sitelinks ?links. FILTER(?links >= ${t.minLinks})
+  ?c wdt:P570 ?died. FILTER(YEAR(?died) < 1950)
+  # people known for their work only: no politicians, rulers, military, prophets or religious leaders
+  FILTER NOT EXISTS { ?c wdt:P106 ?occ. FILTER(?occ IN (wd:Q82955, wd:Q116, wd:Q47064, wd:Q189290, wd:Q42857, wd:Q1423891, wd:Q250867)) }
+  # a year only where Wikidata knows it to the year (precision 9 or finer) – "19th century" must not become 1850
+  OPTIONAL { ?w p:P577/psv:P577 [ wikibase:timeValue ?pub; wikibase:timePrecision ?pp ]. FILTER(?pp >= 9) }
+  OPTIONAL { ?w p:P571/psv:P571 [ wikibase:timeValue ?inc; wikibase:timePrecision ?ip ]. FILTER(?ip >= 9) }
+  BIND(YEAR(COALESCE(?pub, ?inc)) AS ?year)
+  ${LABELS("w", "c")} ${LABELS_EN("w", "c")}
+}`);
+  const by = new Map();
+  for (const x of rows) {
+    if (!named(x.wLabel, x.wLabelEn, x.cLabel, x.cLabelEn)) continue;
+    const e = by.get(qid(x.w)) ?? { id: qid(x.w), de: x.wLabel, en: x.wLabelEn, links: +x.links, year: x.year ? +x.year : null, creators: new Map() };
+    e.creators.set(qid(x.c), { id: qid(x.c), de: x.cLabel, en: x.cLabelEn, group: String(Math.floor(new Date(x.died).getUTCFullYear() / 100)) });
+    by.set(e.id, e);
+  }
+  // a title that names its creator ("Selbstbildnis Rembrandts") gives the answer away
+  const lastName = (name) => name.split(" ").at(-1);
+  const list = [...by.values()]
+    .filter((e) => e.creators.size === 1 && !BLOCKED.has(e.id) && ![...e.creators.values()].some((c) => BLOCKED.has(c.id) || BLOCKED_NAMES.test(c.en)))
+    .map((e) => ({ ...e, creator: [...e.creators.values()][0] }))
+    .filter((e) => !givesAway(lastName(e.creator.de), e.de) && !givesAway(lastName(e.creator.en), e.en));
+  const pool = [...new Map(list.map((e) => [e.creator.id, e.creator])).values()];
+  return byFame(list.map((e) => {
+    const id = `${t.prefix}-${e.id}`;
+    const o = arrange(id, e.creator, wrongOptions(e.creator, pool, e.creator.group, r));
+    return {
+      id, category_id: "culture", min_age: 13, countries: [], tags: t.tags,
+      question: t.de(e.de), options: o.de, correct_index: o.correct, explanation: t.deX(e.de, e.creator.de, e.year),
+      source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+      translations: { en: { question: t.en(e.en), options: o.en, explanation: t.enX(e.en, e.creator.en, e.year) } },
+    };
+  }), list.map((e) => e.links));
+}
+// Left out on purpose: rulers, dictators, political leaders and religious figures (also as wrong options), religious
+// scripture, and folk tales whose "author" only wrote them down.
+const BLOCKED = new Set([
+  "Q352", "Q855", "Q1394", "Q5816", "Q23559", "Q9061", "Q34943", // Hitler, Stalin, Lenin, Mao, Mussolini, Marx, Engels
+  "Q9077", "Q9200", "Q128538", "Q9458", "Q302", "Q41166", "Q43982", "Q130777", // Moses, Paul, Luke, Muhammad, Jesus, …
+  "Q1062358", // Three Little Pigs (recorded, not written)
+]);
+const BLOCKED_NAMES = /Hitler|Stalin|Lenin|Mao Zedong|Mussolini|Karl Marx|Friedrich Engels|Moses|Muhammad/; // in case an id above is off
+const inYear = (y) => (y ? ` (${y < 0 ? `${-y} v. Chr.` : y})` : "");
+const inYearEn = (y) => (y ? ` (${y < 0 ? `${-y} BC` : y})` : "");
+
 const TEMPLATES = {
   async capitals(r) {
     const list = await countryValues("P36");
@@ -120,13 +185,82 @@ SELECT ?e ?eLabel ?eLabelEn ?sym ?num ?links WHERE {
       };
     });
   },
+  paintings: (r) => works(r, { cls: "Q3305213", prop: "P170", minLinks: 25, tags: ["Kunst", "Malerei"], prefix: "wd-paint",
+    de: (w) => `Wer malte das Bild „${w}“?`, en: (w) => `Who painted "${w}"?`,
+    deX: (w, c, y) => `„${w}“${inYear(y)} stammt von ${c}.`, enX: (w, c, y) => `"${w}"${inYearEn(y)} was painted by ${c}.` }),
+  books: (r) => works(r, { cls: "Q7725634", prop: "P50", minLinks: 50, tags: ["Literatur", "Bücher"], prefix: "wd-book",
+    de: (w) => `Wer schrieb „${w}“?`, en: (w) => `Who wrote "${w}"?`,
+    deX: (w, c, y) => `„${w}“${inYear(y)} stammt von ${c}.`, enX: (w, c, y) => `"${w}"${inYearEn(y)} was written by ${c}.` }),
+  // operas are marked by their genre, not by what they are an instance of
+  operas: (r) => works(r, { match: "?w wdt:P136 wd:Q1344.", prop: "P86", minLinks: 15, tags: ["Musik", "Oper"], prefix: "wd-opera",
+    de: (w) => `Wer komponierte die Oper „${w}“?`, en: (w) => `Who composed the opera "${w}"?`,
+    deX: (w, c, y) => `Die Oper „${w}“${inYear(y)} stammt von ${c}.`, enX: (w, c, y) => `The opera "${w}"${inYearEn(y)} was composed by ${c}.` }),
+  // "In welchem Land liegt die Welterbestätte …?" – sites in exactly one country
+  async heritage(r) {
+    const rows = await sparql(`
+SELECT ?s ?sLabel ?sLabelEn ?links ?c ?cLabel ?cLabelEn ?iso ?cont WHERE {
+  ?s wdt:P1435 wd:Q9259; wikibase:sitelinks ?links; wdt:P17 ?c. FILTER(?links >= 45)
+  ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso; wdt:P30 ?cont.
+  ${LABELS("s", "c")} ${LABELS_EN("s", "c")}
+}`);
+    const by = new Map();
+    for (const x of rows) {
+      if (!named(x.sLabel, x.sLabelEn, x.cLabel, x.cLabelEn)) continue;
+      const e = by.get(qid(x.s)) ?? { id: qid(x.s), de: x.sLabel, en: x.sLabelEn, links: +x.links, countries: new Map() };
+      e.countries.set(qid(x.c), { id: qid(x.c), de: x.cLabel, en: x.cLabelEn, iso: x.iso, group: qid(x.cont) });
+      by.set(e.id, e);
+    }
+    const list = [...by.values()].filter((e) => e.countries.size === 1 && !DISPUTED.has([...e.countries.keys()][0])).map((e) => ({ ...e, country: [...e.countries.values()][0] }));
+    const pool = [...new Map(list.map((e) => [e.country.id, e.country])).values()];
+    const keep = list.filter((e) => !givesAway(e.country.de, e.de) && !givesAway(e.country.en, e.en));
+    return byFame(keep.map((e) => {
+      const id = `wd-heri-${e.id}`;
+      const o = arrange(id, e.country, wrongOptions(e.country, pool, e.country.group, r));
+      return {
+        id, category_id: "earth", min_age: 10, countries: [e.country.iso], tags: ["Geografie", "Welterbe"],
+        question: `In welchem Land liegt die Welterbestätte „${e.de}“?`, options: o.de, correct_index: o.correct,
+        explanation: `„${e.de}“ gehört zum UNESCO-Welterbe und liegt in ${e.country.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `Which country is the World Heritage Site "${e.en}" in?`, options: o.en, explanation: `"${e.en}" is a UNESCO World Heritage Site in ${e.country.en}.` } },
+      };
+    }), keep.map((e) => e.links));
+  },
+  // "Zu welcher Tierklasse gehört …?" – well-known species with a common name in both languages
+  async animals(r) {
+    const CLASSES = { Q7377: ["Säugetiere", "mammals"], Q5113: ["Vögel", "birds"], Q10811: ["Reptilien", "reptiles"], Q10908: ["Amphibien", "amphibians"], Q127282: ["Knochenfische", "ray-finned fishes"], Q1390: ["Insekten", "insects"] };
+    const found = [];
+    for (const [cls, [cde, cen]] of Object.entries(CLASSES)) {
+      const rows = await sparql(`
+SELECT ?t ?tLabel ?tLabelEn ?name ?links WHERE {
+  ?t wdt:P171+ wd:${cls}. ?t wdt:P105 wd:Q7432; wdt:P225 ?name; wikibase:sitelinks ?links. FILTER(?links >= 60)
+  ${LABELS("t")} ${LABELS_EN("t")}
+}`);
+      for (const x of rows) if (named(x.tLabel, x.tLabelEn) && x.tLabel !== x.name && x.tLabelEn !== x.name && !x.tLabel.includes("(")) found.push({ id: qid(x.t), de: x.tLabel, en: x.tLabelEn, links: +x.links, cls, cde, cen });
+      await new Promise((ok) => setTimeout(ok, 1500)); // gentle on the query service
+    }
+    const list = [...new Map(found.map((e) => [e.id, e])).values()];
+    const pool = Object.entries(CLASSES).map(([id, [de, en]]) => ({ id, de, en: en[0].toUpperCase() + en.slice(1), group: "all" }));
+    return byFame(list.map((e) => {
+      const id = `wd-ani-${e.id}`;
+      const answer = pool.find((p) => p.id === e.cls);
+      const o = arrange(id, answer, wrongOptions(answer, pool, "all", r));
+      return {
+        id, category_id: "earth", min_age: 6, countries: [], tags: ["Tiere", "Biologie"],
+        question: `Zu welcher Tierklasse gehört das Tier „${e.de}“?`, options: o.de, correct_index: o.correct,
+        explanation: `Das Tier „${e.de}“ gehört zu den ${e.cde}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `Which class of animals does the "${e.en}" belong to?`, options: o.en, explanation: `The ${e.en} belongs to the ${e.cen}.` } },
+      };
+    }), list.map((e) => e.links));
+  },
 };
 
 // editorial cards already asking the same thing (e.g. "Was ist die Hauptstadt von Australien?") – the generated twin is skipped
 const editorial = JSON.parse(fs.readFileSync("content/questions.json", "utf8"));
 const asked = (card) => {
-  const subject = card.question.split(":")[0].replace(/^Welches chemische Element hat das Symbol „|“\?$/g, "");
-  const word = card.tags.includes("Hauptstädte") ? "Hauptstadt" : "Symbol";
+  // the subject: the quoted title („…“) or what stands before the colon
+  const subject = card.question.match(/„(.+)“/)?.[1] ?? card.question.split(":")[0];
+  const word = card.tags.includes("Hauptstädte") ? "Hauptstadt" : card.tags.includes("Elemente") ? "Symbol" : "";
   return editorial.some((q) => q.question.includes(word) && q.question.includes(subject));
 };
 

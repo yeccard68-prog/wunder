@@ -38,12 +38,18 @@ test("a note to the editors: choose a reason, optional text, links are refused",
 });
 
 test("a question answered wrongly comes back when due – and asks again instead of showing the old answer", async ({ page }) => {
+  test.setTimeout(120_000);
   const past = new Date(Date.now() - 60_000).toISOString();
   const answers = { s1: { correct: false, at: past, categoryId: "science", difficulty: 1, box: 0, due: past, reviews: 0, correctIndex: 1, explanation: "Au" } };
   await page.addInitScript((s) => localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { ...seed.state, answers } });
   await page.goto("/");
+  // repetitions come at random places among the first cards: swipe on until it shows up
   const card = page.locator("article").filter({ hasText: "Welches chemische Symbol hat Gold?" }).first();
-  await expect(card).toBeVisible({ timeout: 20_000 });
+  const feed = page.getByTestId("snap-feed");
+  await expect(feed.locator("section[data-feed-entry]").first()).toBeVisible();
+  for (let i = 0; i < 80 && !(await card.count()); i++) await feed.evaluate((el) => el.scrollBy(0, el.clientHeight));
+  await card.scrollIntoViewIfNeeded();
+  await expect(card).toBeVisible();
   await expect(card).toContainText("Zum Wiederholen");
   const options = card.getByRole("button", { name: /^[A-D]\s/ });
   await expect(options.first()).toBeEnabled(); // not answered yet: the options can be chosen

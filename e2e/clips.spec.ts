@@ -224,6 +224,7 @@ test("without WebGL a 3D animation falls back to the drawing or to still picture
 });
 
 test("books: shelf, search, a book with an interactive idea, progress, and ideas in the feed", async ({ page }) => {
+  test.setTimeout(150_000);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await signIn(page);
@@ -266,13 +267,14 @@ test("books: shelf, search, a book with an interactive idea, progress, and ideas
   await page.reload();
   await expect(page.getByText("Weiterlesen")).toBeVisible(); // progress survives a reload
 
-  // a book idea shows up in the feed and leads back to its book
+  // a book idea shows up in the feed (by chance, so swipe on until it comes) and leads back to its book
   await page.goto("/");
-  const idea = page.getByTestId("snap-feed").getByTestId("insight-card").first();
-  await expect(async () => {
-    await next(page);
-    expect(await idea.count()).toBe(1);
-  }).toPass({ timeout: 40_000 });
+  const feed = page.getByTestId("snap-feed");
+  const idea = feed.getByTestId("insight-card").first();
+  await expect(feed.locator("section[data-feed-entry]").first()).toBeVisible();
+  for (let i = 0; i < 150 && !(await idea.count()); i++) await feed.evaluate((el) => el.scrollBy(0, el.clientHeight));
+  await idea.scrollIntoViewIfNeeded();
+  await expect(idea).toBeVisible();
   await idea.getByRole("link", { name: "Zum Buch" }).click();
   await expect(page.getByTestId("book-detail")).toBeVisible();
   expect(errors).toEqual([]);
