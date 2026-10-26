@@ -117,6 +117,7 @@ export interface UserState {
   heardFrom?: HeardFrom; // optional answer in the onboarding: where they heard of the app
   puzzles?: import("./puzzles").PuzzleState; // grid puzzles: today’s three before the feed, feed puzzles solved – stays on this device
   seen?: import("./seen").Seen; // when each entry was last on screen, so the feed repeats as late as possible – stays on this device
+  skill?: import("./skill").Skill; // level 1–5 per exercise and puzzle kind (lib/skill.ts) – stays on this device
   likes: string[];
   saves: string[];
   hidden: string[];

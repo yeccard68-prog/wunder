@@ -7,10 +7,12 @@
 //  - "Rätsel des Tages": three trickier ones before the feed starts (one of each kind, the same for everyone that day).
 import type { AgeBand, Item, UserState } from "./types";
 import { rng, today } from "./gamification";
+import { START, stepOf, type Step } from "./skill";
 
 export { rng };
 
 export type Level = "few" | "tricky"; // few = a few steps left (feed), tricky = the daily puzzles
+// Within each, the learner's step (1–5, lib/skill.ts) sets size and gaps; step 3 is what every adult got before.
 
 export interface Sudoku { kind: "sudoku"; id: string; size: 4 | 6 | 9; boxRows: number; boxCols: number; givens: number[]; solution: number[] }
 export interface CrossWord { answer: string; clue: string; row: number; col: number; across: boolean; itemId: string }
@@ -67,13 +69,21 @@ function fill(g: number[], n: number, br: number, bc: number, r: () => number): 
   g[i] = 0;
   return false;
 }
-/** A sudoku with exactly one solution; `few` leaves a handful of empty cells, `tricky` many more. */
-export function makeSudoku(seed: string, size: 4 | 6 | 9, level: Level): Sudoku {
+/** Empty cells by step: [few, tricky] for each size. */
+const HOLES: Record<4 | 6 | 9, [number[], number[]]> = {
+  4: [[3, 4, 4, 5, 6], [7, 8, 9, 9, 10]],
+  6: [[4, 5, 5, 8, 12], [14, 16, 18, 20, 22]],
+  9: [[4, 5, 6, 12, 20], [28, 33, 38, 44, 50]],
+};
+/** The sudoku size for an age band and step: children keep the small ones, adults start on 9 × 9 from step 2. */
+export const sudokuSizeAt = (age: AgeBand | null, step: Step): 4 | 6 | 9 => Math.min(sudokuSize(age), step <= 1 ? 6 : 9) as 4 | 6 | 9;
+/** A sudoku with exactly one solution; `few` leaves a handful of empty cells, `tricky` many more – more with each step. */
+export function makeSudoku(seed: string, size: 4 | 6 | 9, level: Level, step: Step = START as Step): Sudoku {
   const r = rng(seed);
   const [br, bc] = SIZES[size];
   const solution = Array<number>(size * size).fill(0);
   fill(solution, size, br, bc, r);
-  const holes = { 4: { few: 4, tricky: 9 }, 6: { few: 5, tricky: 18 }, 9: { few: 6, tricky: 38 } }[size][level];
+  const holes = HOLES[size][level === "few" ? 0 : 1][step - 1];
   const givens = [...solution];
   let open = 0;
   for (const i of shuffle(Array.from({ length: size * size }, (_, k) => k), r)) {
@@ -172,11 +182,11 @@ export function layoutCrossword(words: { answer: string; clue: string; itemId: s
   const [r0, , c0] = bounds();
   return placed.map((p) => ({ ...p, row: p.row - r0, col: p.col - c0 }));
 }
-export function makeCrossword(seed: string, items: Item[], state: Pick<UserState, "answers">, level: Level): Crossword | null {
+export function makeCrossword(seed: string, items: Item[], state: Pick<UserState, "answers">, level: Level, step: Step = START as Step): Crossword | null {
   const r = rng(seed);
   const pool = shuffle(clueWords(items, state), r);
   if (pool.length < 4) return null;
-  const want = level === "tricky" ? 6 : 5;
+  const want = level === "tricky" ? (step <= 2 ? 5 : step <= 4 ? 6 : 7) : 5;
   let words: Placed[] = [];
   // a few tries with different word orders – the one with the most words wins
   for (let t = 0; t < 6 && words.length < want; t++) {
@@ -189,8 +199,10 @@ export function makeCrossword(seed: string, items: Item[], state: Pick<UserState
   const solution: (string | null)[] = Array(rows * cols).fill(null);
   const cellsOf = (w: Placed) => [...w.answer].map((_, k) => (w.row + (w.across ? 0 : k)) * cols + w.col + (w.across ? k : 0));
   words.forEach((w) => cellsOf(w).forEach((i, k) => (solution[i] = w.answer[k])));
-  // few: two words are left to fill in, everything else is written in · tricky: everything open but each first letter
-  const open = level === "few" ? new Set(shuffle(words, r).slice(0, 2).flatMap(cellsOf)) : new Set(words.flatMap((w) => cellsOf(w).slice(1)));
+  // few: two words are left to fill in (three from step 4, all from step 5), everything else is written in ·
+  // tricky: everything open but each first letter
+  const left = step <= 3 ? 2 : step === 4 ? 3 : words.length;
+  const open = level === "few" ? new Set(shuffle(words, r).slice(0, left).flatMap(cellsOf)) : new Set(words.flatMap((w) => cellsOf(w).slice(1)));
   const givens = solution.map((ch, i) => ch !== null && !open.has(i));
   return { kind: "crossword", id: `pz-crossword-${seed}`, rows, cols, words, solution, givens };
 }
@@ -213,15 +225,15 @@ function solvable(rows: number[][], shown: boolean[][]) {
   }
   return known.every((r) => r.every(Boolean));
 }
-export function makePyramid(seed: string, age: AgeBand | null, level: Level): Pyramid {
+export function makePyramid(seed: string, age: AgeBand | null, level: Level, step: Step = START as Step): Pyramid {
   const r = rng(seed);
-  const height = age === "6-9" ? 3 : level === "tricky" ? 5 : 4;
-  const top = age === "6-9" ? 5 : age === "10-12" ? 12 : 20;
+  const height = age === "6-9" ? 3 : level === "tricky" ? [4, 5, 5, 6, 6][step - 1] : step >= 4 ? 5 : 4;
+  const top = age === "6-9" ? 5 : age === "10-12" ? 12 : [10, 15, 20, 30, 50][step - 1];
   const base = Array.from({ length: height }, () => 1 + Math.floor(r() * top));
   const rows: number[][] = [base];
   while (rows[0].length > 1) rows.unshift(rows[0].slice(1).map((v, i) => v + rows[0][i]));
   const shown = rows.map((row) => row.map(() => true));
-  const want = level === "few" ? Math.min(3, height) : Math.round((height * (height + 1)) / 2) - height;
+  const want = level === "few" ? Math.min([2, 3, 3, 5, 7][step - 1], height) : Math.round((height * (height + 1)) / 2) - height;
   let hidden = 0;
   for (const [y, x] of shuffle(rows.flatMap((row, y) => row.map((_, x) => [y, x] as const)), r)) {
     if (hidden >= want) break;
@@ -240,8 +252,9 @@ export const puzzleState = (s: UserState): PuzzleState => s.puzzles ?? { daily: 
 export function dailyPuzzles(items: Item[], state: UserState, date = today()): Puzzle[] {
   const age = state.ageBand;
   const seed = `daily-${date}-${age ?? ""}`;
-  const cw = makeCrossword(`${seed}-c-${state.settings.locale}`, items, state, "tricky");
-  return [makeSudoku(`${seed}-s`, sudokuSize(age), "tricky"), cw ?? makePyramid(`${seed}-p2`, age, "few"), makePyramid(`${seed}-p`, age, "tricky")];
+  const at = (kind: string) => stepOf(state, kind);
+  const cw = makeCrossword(`${seed}-c-${state.settings.locale}`, items, state, "tricky", at("crossword"));
+  return [makeSudoku(`${seed}-s`, sudokuSizeAt(age, at("sudoku")), "tricky", at("sudoku")), cw ?? makePyramid(`${seed}-p2`, age, "few", at("pyramid")), makePyramid(`${seed}-p`, age, "tricky", at("pyramid"))];
 }
 export const dailyOpen = (s: UserState, puzzles: Puzzle[], date = today()) => {
   const st = puzzleState(s);
@@ -256,7 +269,8 @@ export function feedPuzzles(items: Item[], state: UserState, count = 6, date = t
   for (let k = 0; k < count; k++) {
     const seed = `feed-${date}-${k}-${age ?? ""}`;
     const kind = k % 3;
-    const p = kind === 0 ? makeSudoku(seed, sudokuSize(age), "few") : kind === 1 ? makeCrossword(`${seed}-${state.settings.locale}`, items, state, "few") : makePyramid(seed, age, "few");
+    const at = (k: string) => stepOf(state, k);
+    const p = kind === 0 ? makeSudoku(seed, sudokuSizeAt(age, at("sudoku")), "few", at("sudoku")) : kind === 1 ? makeCrossword(`${seed}-${state.settings.locale}`, items, state, "few", at("crossword")) : makePyramid(seed, age, "few", at("pyramid"));
     if (p) out.push(p);
   }
   return out;

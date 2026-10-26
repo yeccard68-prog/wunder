@@ -544,3 +544,11 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - `attribute()`: gleichnamige Dinge fallen heraus (San José in Costa Rica und den USA – sonst wären zwei Antworten richtig); `t.skip` lässt Namen nach Muster weg.
 - Von Hand ausgeschlossen: Flüsse über eine Grenze, obwohl Wikidata nur ein Land nennt (Ganges, Bagmati, Rio Purus, Sereth, Chabur), in besetzten oder umstrittenen Gebieten (Kalmius, Enguri, Drin), mehrdeutige Namen (Avon, Red River, Río Negro, Morava, Ill, Río Colorado); Camelot (Sage), Fort São Jorge da Mina (Sklavenhandel); Trump-Gebäude (lebende Person); Hebräische Universität (Ostjerusalem); KZ-Gedenkstätten und Yad Vashem (kein Quizstoff); Nikosia (geteilt), Simferopol, Sewastopol (Krim), Tiraspol (Transnistrien).
 - Versucht und weggelassen: Kathedralen (Klasse enthält Moscheen), Brücken (keine Treffer).
+
+## 62. Schwierigkeit nach Können für Übungen und Rätsel (27.10.2026)
+
+- `lib/skill.ts`: je Art (Kopfrechnen, Prozente, … Sudoku, Kreuzworträtsel, Zahlenpyramide) ein Wert 1–5 im Nutzerzustand (`skill`, bleibt auf dem Gerät). Richtig +0,2, mit Tipps +0,05, falsch oder „Lösung zeigen“ −0,45 – so pendelt er sich bei etwa 70 % Lösungen ein. Start bei 3 = die bisherige Schwierigkeit für Erwachsene.
+- Übungen (`lib/exercises.ts`) haben 5 Stufen. Neu auf 4/5: zweistellig × zweistellig, Prozent rückwärts (Preis vor dem Rabatt), Prozentketten (+20 %, dann −20 %), Brüche malnehmen/teilen, km/h ↔ m/s, Flächen und Rauminhalte, Folgen mit wachsenden Abständen, × 2 + 1, Kubik- und Primzahlen, zwei verschränkte Folgen, Wochentag zwischen zwei Daten, Uhrzeit über Mitternacht, Flug über Zeitzonen. Die Altersstufe begrenzt weiterhin (Kinder: Stufe 1 bzw. 2).
+- Rätsel (`lib/puzzles.ts`): Stufe bestimmt Sudoku-Größe und Lücken (Tagesrätsel 9 × 9 von 28 bis 50 Lücken, stets genau eine Lösung), Höhe und Zahlen der Pyramide, offene Wörter im Kreuzworträtsel.
+- Die Übungskarte wird beim Erscheinen auf der aktuellen Stufe neu gebaut, falls sich die Stufe seit dem Aufbau des Feeds geändert hat.
+- Quizkarten passten sich schon vorher an (`targetDifficulty` in `ranking.ts`).

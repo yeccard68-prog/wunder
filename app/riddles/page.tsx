@@ -9,6 +9,7 @@ import PuzzleCard from "@/components/PuzzleCard";
 import { Empty } from "@/components/ui";
 import type { FeedEntry } from "@/lib/feed";
 import { exercisesFor } from "@/lib/exercises";
+import { stepOf } from "@/lib/skill";
 import { feedPuzzles } from "@/lib/puzzles";
 import { useStore, useT } from "@/lib/store";
 
@@ -18,7 +19,7 @@ export default function RiddlesPage() {
   const [more, setMore] = useState(3);
   const [exCount, setExCount] = useState(4);
   const [exSeed] = useState(() => String(Date.now()));
-  const exercises = useMemo(() => exercisesFor(state.ageBand, state.settings.locale, exCount, exSeed), [state.ageBand, state.settings.locale, exCount, exSeed]);
+  const exercises = useMemo(() => exercisesFor(state.ageBand, state.settings.locale, exCount, exSeed, (k) => stepOf(getState(), k)), [state.ageBand, state.settings.locale, exCount, exSeed]);
   // fixed while the page is open: a solved puzzle stays where it is
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const done = useMemo(() => new Set(getState().puzzles?.done ?? []), []);

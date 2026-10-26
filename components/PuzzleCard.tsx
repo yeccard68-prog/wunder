@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from "react"
 import { Check, Delete, Eye, Grid3x3, Lightbulb } from "lucide-react";
 import { today } from "@/lib/gamification";
 import { puzzleState, sudokuConflicts, wordCells, type Crossword, type Puzzle, type Pyramid, type Sudoku } from "@/lib/puzzles";
+import { practised } from "@/lib/skill";
 import { useStore, useT } from "@/lib/store";
 
 const NAMES = { sudoku: "Sudoku", crossword: "Kreuzworträtsel", pyramid: "Zahlenpyramide" } as const;
@@ -20,14 +21,18 @@ function cellsOf(p: Puzzle) {
   return { solution: p.rows.flat().map(String), given: p.shown.flat() };
 }
 
-/** Marks a puzzle as done on this device (daily: also for today's three). */
+/** Marks a puzzle as done on this device (daily: also for today's three) and moves the step for its kind (lib/skill.ts). */
 function useFinish() {
   const { getState, update } = useStore();
-  return (id: string, daily: boolean) => {
+  return (puzzle: Puzzle, daily: boolean, result: "right" | "hinted" | "wrong") => {
+    const id = puzzle.id;
     const st = puzzleState(getState());
     const date = today();
     const todays = st.daily.date === date ? st.daily.done : [];
-    update({ puzzles: { done: [...st.done.filter((x) => x !== id), id].slice(-300), daily: daily ? { date, done: [...todays.filter((x) => x !== id), id] } : st.daily } });
+    update({
+      puzzles: { done: [...st.done.filter((x) => x !== id), id].slice(-300), daily: daily ? { date, done: [...todays.filter((x) => x !== id), id] } : st.daily },
+      skill: practised(getState(), puzzle.kind, result),
+    });
   };
 }
 
@@ -48,7 +53,7 @@ export default function PuzzleCard({ puzzle, daily = false, onDone }: { puzzle: 
   useEffect(() => {
     if (solved && !result) {
       setResult("solved");
-      finish(puzzle.id, daily);
+      finish(puzzle, daily, hinted.length ? "hinted" : "right");
       onDone?.(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -64,7 +69,7 @@ export default function PuzzleCard({ puzzle, daily = false, onDone }: { puzzle: 
   const reveal = () => {
     setResult("shown");
     setValues(solution.map((s) => s ?? ""));
-    finish(puzzle.id, daily);
+    finish(puzzle, daily, "wrong");
     onDone?.(false);
   };
   const props = { values, set, open, done: !!result };

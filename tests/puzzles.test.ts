@@ -54,3 +54,18 @@ test("three daily puzzles, a pyramid in place of the crossword while too few que
   assert.equal(dailyOpen(s, full, "2026-10-26").length, 3);
   assert.equal(feedPuzzles(items, state(), 6, "2026-10-25").length, 6);
 });
+
+test("puzzles grow with the step: more empty cells, bigger pyramids, still exactly one solution", async () => {
+  const { makeSudoku, makePyramid, countSolutions } = await import("../lib/puzzles");
+  let last = 0;
+  for (const step of [1, 2, 3, 4, 5] as const) {
+    const p = makeSudoku(`st-${step}`, 9, "tricky", step);
+    const holes = p.givens.filter((v) => v === 0).length;
+    assert.ok(holes > last, `step ${step}: ${holes} holes`);
+    assert.equal(countSolutions([...p.givens], 9, 3, 3), 1);
+    last = holes;
+  }
+  assert.ok(makePyramid("py", "16+", "tricky", 5).rows.length > makePyramid("py", "16+", "tricky", 1).rows.length);
+  // step 3 is what every adult got before
+  assert.equal(makeSudoku("same", 9, "few", 3).givens.filter((v) => v === 0).length, 6);
+});
