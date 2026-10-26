@@ -35126,5 +35126,363 @@
         "explanation": "Coins are milled so that grinding or filing precious metal off the edge is easier to spot."
       }
     }
+  },
+  {
+    "id": "t50",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bewirkt die Strahlung eines Mikrowellenherds bei den Molekülen im Essen?",
+    "options": [
+      "Sie versetzt sie in Drehbewegung",
+      "Sie spaltet ihre Atome",
+      "Sie macht sie radioaktiv",
+      "Sie entzieht ihnen Wasser"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Mikrowellenherd erwärmt Essen mit elektromagnetischer Hochfrequenzenergie: Die Strahlung regt Moleküle mit elektrischem Dipolmoment zu einer Drehbewegung an.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Haushalt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mikrowellenherd",
+    "source_url": "https://de.wikipedia.org/wiki/Mikrowellenherd",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the radiation in a microwave oven do to the molecules in food?",
+        "options": [
+          "It makes them rotate",
+          "It splits their atoms",
+          "It makes them radioactive",
+          "It takes water out of them"
+        ],
+        "explanation": "A microwave oven heats food with electromagnetic high-frequency energy: the radiation makes molecules with an electric dipole moment rotate."
+      }
+    }
+  },
+  {
+    "id": "t51",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht „QR“ im Wort QR-Code?",
+    "options": [
+      "Quality Record – „Qualitätsnachweis“",
+      "Quick Response – „schnelle Antwort“",
+      "Quadrat-Raster",
+      "Quick Read – „schnell lesen“"
+    ],
+    "correct_index": 1,
+    "explanation": "QR steht für englisch Quick Response, „schnelle Antwort“. Entwickelt hat den Code 1994 Denso Wave, eine Tochter der japanischen Firma Denso.",
+    "difficulty": 1,
+    "tags": [
+      "Technik",
+      "Abkürzungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: QR-Code",
+    "source_url": "https://de.wikipedia.org/wiki/QR-Code",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"QR\" in QR code stand for?",
+        "options": [
+          "Quality Record",
+          "Quick Response",
+          "Square grid",
+          "Quick Read"
+        ],
+        "explanation": "QR stands for Quick Response. The code was developed in 1994 by Denso Wave, a subsidiary of the Japanese company Denso."
+      }
+    }
+  },
+  {
+    "id": "b64",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür wurde der QR-Code ursprünglich entwickelt?",
+    "options": [
+      "Für Eintrittskarten bei den Olympischen Spielen",
+      "Um Bauteile in der Autoproduktion von Toyota zu kennzeichnen",
+      "Für Briefmarken der japanischen Post",
+      "Für Preisschilder im Supermarkt"
+    ],
+    "correct_index": 1,
+    "explanation": "Der QR-Code wurde zur Markierung von Baugruppen und Komponenten für die Logistik in der Automobilproduktion des Toyota-Konzerns entwickelt.",
+    "difficulty": 2,
+    "tags": [
+      "Logistik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: QR-Code",
+    "source_url": "https://de.wikipedia.org/wiki/QR-Code",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the QR code originally developed for?",
+        "options": [
+          "For tickets at the Olympic Games",
+          "To label parts in Toyota's car production",
+          "For Japanese postage stamps",
+          "For supermarket price tags"
+        ],
+        "explanation": "The QR code was developed to mark assemblies and components for logistics in the Toyota group's car production."
+      }
+    }
+  },
+  {
+    "id": "e54",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Von welcher Münze leitet sich das Wort „Dollar“ ab?",
+    "options": [
+      "Vom Gulden",
+      "Vom Taler",
+      "Vom Pfennig",
+      "Vom Dukaten"
+    ],
+    "correct_index": 1,
+    "explanation": "Dollar leitet sich von der deutschen Münzbezeichnung Taler ab – kurz für den Joachimstaler, eine Silbermünze aus den Minen von Sankt Joachimsthal in Böhmen.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dollar",
+    "source_url": "https://de.wikipedia.org/wiki/Dollar",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which coin does the word \"dollar\" come from?",
+        "options": [
+          "The guilder",
+          "The thaler",
+          "The pfennig",
+          "The ducat"
+        ],
+        "explanation": "Dollar comes from the German coin name Taler (thaler) – short for the Joachimstaler, a silver coin from the mines of Sankt Joachimsthal in Bohemia."
+      }
+    }
+  },
+  {
+    "id": "e55",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Woher hat die Bank als Geldinstitut ihren Namen?",
+    "options": [
+      "Von „Bankett“, weil Geschäfte beim Essen gemacht wurden",
+      "Von einem italienischen Bankier namens Banco",
+      "Vom Tisch der Geldwechsler auf Märkten – ursprünglich ein Sitzmöbel",
+      "Von einer Uferbank, an der Händler anlegten"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Wort ist dasselbe wie „Bank“ zum Sitzen. Im Altitalienischen bezeichnete banco zuerst ein Sitzmöbel, später den Rechentisch der Geldwechsler auf Märkten.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bank",
+    "source_url": "https://de.wikipedia.org/wiki/Bank",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the bank (the financial institution) get its name?",
+        "options": [
+          "From \"banquet\", because deals were done over meals",
+          "From an Italian banker named Banco",
+          "From the money changers' table at markets – originally a bench",
+          "From a riverbank where traders landed"
+        ],
+        "explanation": "It is the same word as a bench to sit on. In Old Italian, banco first meant a bench, later the counting table of money changers at markets."
+      }
+    }
+  },
+  {
+    "id": "e56",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Woher kommt das Wort „Börse“?",
+    "options": [
+      "Vom deutschen Wort „Bürgersaal“",
+      "Vom Namen des ersten Londoner Börsenhändlers",
+      "Von französisch bourgeois, „Bürger“",
+      "Von mittellateinisch bursa, „Geldbeutel“"
+    ],
+    "correct_index": 3,
+    "explanation": "Börse geht auf mittellateinisch bursa zurück, „Beutel, Geldsäckchen“. Eine Brügger Kaufmannsfamilie mit drei Geldbeuteln im Wappen hieß „van de Borse“ – und der Platz vor ihrem Haus, wo sich Kaufleute trafen, ebenfalls borse.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Börse",
+    "source_url": "https://de.wikipedia.org/wiki/Börse",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German word „Börse“ (stock exchange) come from?",
+        "options": [
+          "From the German word \"Bürgersaal\" (town hall)",
+          "From the name of the first London stockbroker",
+          "From French bourgeois, \"citizen\"",
+          "From Medieval Latin bursa, \"purse\""
+        ],
+        "explanation": "Börse goes back to Medieval Latin bursa, \"bag, purse\". A merchant family in Bruges with three purses in its coat of arms was called \"van de Borse\" – and so was the square in front of their house where merchants met."
+      }
+    }
+  },
+  {
+    "id": "l66",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache stammt das Wort „Pleite“?",
+    "options": [
+      "Aus dem Französischen",
+      "Aus dem Jiddischen",
+      "Aus dem Lateinischen",
+      "Aus dem Englischen"
+    ],
+    "correct_index": 1,
+    "explanation": "Pleite ist aus dem Jiddischen entlehnt: plejte bedeutet eigentlich „Flucht“.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pleite",
+    "source_url": "https://de.wikipedia.org/wiki/Pleite",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the German word „Pleite“ (bankruptcy) come from?",
+        "options": [
+          "French",
+          "Yiddish",
+          "Latin",
+          "English"
+        ],
+        "explanation": "Pleite is borrowed from Yiddish: plejte actually means \"escape\"."
+      }
+    }
+  },
+  {
+    "id": "l67",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das Abschiedswort „Tschüss“ ursprünglich?",
+    "options": [
+      "„Gute Reise“",
+      "„Bis morgen“",
+      "„Gott befohlen“ – wie adieu",
+      "„Bleib gesund“"
+    ],
+    "correct_index": 2,
+    "explanation": "Tschüs kommt aus dem romanischen Sprachraum – verwandt mit adieu, adiós und ade – und bedeutet eigentlich „Gott befohlen“. Es entwickelte sich aus dem älteren atschüs.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Grüße"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tschüs",
+    "source_url": "https://de.wikipedia.org/wiki/Tschüs",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the German goodbye „Tschüss“ originally mean?",
+        "options": [
+          "\"Have a good trip\"",
+          "\"See you tomorrow\"",
+          "\"Commended to God\" – like adieu",
+          "\"Stay well\""
+        ],
+        "explanation": "Tschüs comes from the Romance languages – related to adieu, adiós and ade – and actually means \"commended to God\". It developed from the older atschüs."
+      }
+    }
+  },
+  {
+    "id": "l68",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Auf welches Wort lässt sich „Kaffee“ zurückverfolgen?",
+    "options": [
+      "Auf das chinesische kafei",
+      "Auf das lateinische cafea",
+      "Auf das spanische café",
+      "Auf das arabische qahwa"
+    ],
+    "correct_index": 3,
+    "explanation": "Kaffee geht auf das arabische qahwa zurück. Über das türkische kahve kam es ins Italienische und von dort ins Französische (café).",
+    "difficulty": 1,
+    "tags": [
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaffee",
+    "source_url": "https://de.wikipedia.org/wiki/Kaffee",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which word can „Kaffee“ (coffee) be traced back to?",
+        "options": [
+          "The Chinese kafei",
+          "The Latin cafea",
+          "The Spanish café",
+          "The Arabic qahwa"
+        ],
+        "explanation": "Coffee goes back to the Arabic qahwa. Through the Turkish kahve it came into Italian and from there into French (café)."
+      }
+    }
   }
 ]
