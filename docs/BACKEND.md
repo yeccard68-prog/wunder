@@ -537,3 +537,10 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Fragen wiederholen den Namen nicht („In welchem Land liegt der „Nationalpark Teide“?“ statt „der Nationalpark „Nationalpark Teide““).
 - Von Hand ausgeschlossen: Utøya (Anschlag 2011), Schlangeninsel (Krieg); Diego Garcia, Südgeorgien, Navassa, Peñón de Vélez (Hoheit umstritten), St. Martin (geteilt); zweimal „Glacier-Nationalpark“ (Kanada/USA), Deosai (Kaschmir), Festungen und Ausgrabungen mit Nationalpark-Status; K2, Kasbek, Belucha, Gangkhar Puensum (Grenzberge), Nanga Parbat, Ölberg (umstrittene Gebiete); Murray River (Südlicher oder Indischer Ozean je nach Zählung). Mündungstrichter und Buchten (Gironde, Humber, Chesapeake Bay, Río de la Plata) zählen nicht als Meer.
 - Großstädte → Land wurde versucht: die Klasse „Großstadt“ liefert in Wikidata keine eindeutigen Treffer – weggelassen.
+
+## 61. Vorlagen Flüsse, Burgen, Bauwerke, Universitäten, Museen, Städte (27.10.2026)
+
+- `placeIn()` baut „In welchem Land steht/liegt/fließt …?“ für eine Art Ort (Artikel und Nomen aus `word`, kein doppeltes Nomen bei Namen wie „Burg Eltz“). Neu: `rivers` (257), `castles` (77), `towers` (49, „Bauwerk“: Türme und Hochhäuser), `universities` (24), `museums` (17), `cities` (569) plus „Stimmt das?“ (992); 152 freie Fotos.
+- `attribute()`: gleichnamige Dinge fallen heraus (San José in Costa Rica und den USA – sonst wären zwei Antworten richtig); `t.skip` lässt Namen nach Muster weg.
+- Von Hand ausgeschlossen: Flüsse über eine Grenze, obwohl Wikidata nur ein Land nennt (Ganges, Bagmati, Rio Purus, Sereth, Chabur), in besetzten oder umstrittenen Gebieten (Kalmius, Enguri, Drin), mehrdeutige Namen (Avon, Red River, Río Negro, Morava, Ill, Río Colorado); Camelot (Sage), Fort São Jorge da Mina (Sklavenhandel); Trump-Gebäude (lebende Person); Hebräische Universität (Ostjerusalem); KZ-Gedenkstätten und Yad Vashem (kein Quizstoff); Nikosia (geteilt), Simferopol, Sewastopol (Krim), Tiraspol (Transnistrien).
+- Versucht und weggelassen: Kathedralen (Klasse enthält Moscheen), Brücken (keine Treffer).

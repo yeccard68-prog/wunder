@@ -155,6 +155,7 @@ const BLOCKED_NAMES = /Hitler|Stalin|Lenin|Mao Zedong|Mussolini|Karl Marx|Friedr
  * Something (?p) and one attribute (?v): painter → movement, mountain → range, lake → country … `t.query` binds ?p, ?v
  * and ?links. Exactly one value; wrong options are other values of the same template; no answer that names the subject.
  * t.ordered: joins in the written order – for some queries the planner picks an order that runs into the 60 s timeout.
+ * t.skip: a name pattern to leave out (e.g. palaces among the museums).
  * t.apart(value): wrong options only from other groups – no "Mittelmeer" next to "Adriatisches Meer", both would be right.
  */
 async function attribute(r, t) {
@@ -168,7 +169,7 @@ SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
 }`);
   const by = new Map();
   for (const x of rows) {
-    if (!named(x.pLabel, x.pLabelEn, x.vLabel, x.vLabelEn) || BLOCKED.has(qid(x.p)) || BLOCKED_NAMES.test(x.pLabelEn) || t.exclude?.includes(x.pLabel)) continue;
+    if (!named(x.pLabel, x.pLabelEn, x.vLabel, x.vLabelEn) || BLOCKED.has(qid(x.p)) || BLOCKED_NAMES.test(x.pLabelEn) || t.exclude?.includes(x.pLabel) || t.skip?.test(x.pLabel)) continue;
     // t.normalize: fold sub-labels into one ("Hochrenaissance" → "Renaissance"), so no two options are both right
     const norm = t.normalize?.[x.vLabel];
     if (norm) Object.assign(x, { v: "norm:" + norm[0], vLabel: norm[0], vLabelEn: norm[1] });
@@ -178,6 +179,10 @@ SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
   }
   let list = [...by.values()].filter((e) => e.values.size === 1 && !e.de.includes("(")).map((e) => ({ ...e, value: [...e.values.values()][0] }))
     .filter((e) => !CONTESTED.has(e.value.id)); // a place "in Taiwan" or "in Kosovo" is a political statement – left out
+  // two things of the same name (San José in Costa Rica and in the USA) – the other one's answer would be right too
+  const names = new Map();
+  for (const e of list) names.set(e.de, (names.get(e.de) ?? 0) + 1);
+  list = list.filter((e) => names.get(e.de) === 1);
   // t.minUses: only values shared by at least that many entries (keeps out one-off labels as answers and options)
   if (t.minUses) {
     const uses = new Map();
@@ -202,6 +207,23 @@ SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
 const inYear = (y) => (y ? ` (${y < 0 ? `${-y} v. Chr.` : y})` : "");
 const inYearEn = (y) => (y ? ` (${y < 0 ? `${-y} BC` : y})` : "");
 
+/**
+ * "In welchem Land steht …?" for one kind of place: exactly one country (see attribute()). The German article and noun come
+ * from t.word; a name that already says what it is (t.said: "Burg Eltz", "Tower Bridge") is not repeated with the noun.
+ */
+const placeIn = (t) => (r) => {
+  const types = [t.cls].flat().map((c) => `wd:${c}`).join(" ");
+  const [art, noun] = t.word.de.split(" "), Art = art[0].toUpperCase() + art.slice(1);
+  const said = (p) => t.said.test(p);
+  return attribute(r, {
+    query: `VALUES ?t { ${types} } ?p wdt:P31 ?t; wikibase:sitelinks ?links. FILTER(?links >= ${t.min}) ?p wdt:P17 ?v. ?v wdt:P31 wd:Q3624078.`,
+    prefix: t.prefix, ordered: true, cat: t.cat ?? "earth", tags: t.tags, minAge: 10, noPersonFilter: true, valueIso: true, exclude: t.exclude, skip: t.skip,
+    de: (p) => (said(p) ? `In welchem Land ${t.verb.de} „${p}“?` : `In welchem Land ${t.verb.de} ${art} ${noun} „${p}“?`),
+    en: (p) => (said(p) ? `Which country is "${p}" in?` : `Which country is the ${t.word.en} "${p}" in?`),
+    deX: (p, v) => (said(p) ? `„${p}“ ${t.verb.de} in diesem Land: ${v}.` : `${Art} ${noun} „${p}“ ${t.verb.de} in diesem Land: ${v}.`),
+    enX: (p, v) => (said(p) ? `"${p}" is in this country: ${v}.` : `The ${t.word.en} "${p}" is in this country: ${v}.`),
+  });
+};
 const TEMPLATES = {
   async capitals(r) {
     const list = await countryValues("P36");
@@ -785,6 +807,24 @@ SELECT ?c ?cLabel ?cLabelEn ?iso ?cont ?links WHERE {
       deX: (p, v) => `Der Fluss „${p}“ mündet hier: ${v}.`, enX: (p, v) => `The river "${p}" flows into: ${v}.`,
     });
   },
+  // places in exactly one country (placeIn)
+  // rivers whose one country in Wikidata is not the whole story (they cross a border), that flow through occupied or
+  // disputed land, or whose name stands for several rivers
+  rivers: placeIn({ cls: "Q4022", min: 40, prefix: "wd-river", tags: ["Geografie", "Flüsse"], word: { de: "der Fluss", en: "river" }, verb: { de: "fließt" }, said: /fluss|river|strom/i,
+    exclude: ["Ganges", "Bagmati", "Rio Purus", "Sereth", "Chabur", "Kalmius", "Enguri", "Drin", "Avon", "River Avon", "Red River", "Río Negro", "Morava", "Ill", "Río Colorado"] }),
+  castles: placeIn({ cls: "Q23413", min: 30, prefix: "wd-castle", cat: "history", tags: ["Bauwerke", "Burgen"], word: { de: "die Burg", en: "castle" }, verb: { de: "steht" }, said: /burg|castle|schloss|château|castillo|castello|zamek|hrad|festung|fort|zitadelle|citadel/i,
+    exclude: ["Camelot", "Fort São Jorge da Mina"] }), // a castle of legend; a fort of the slave trade
+  // (cathedrals were tried: the class also holds mosques – "die Kathedrale „Selimiye-Moschee“" – too few after cleaning)
+  // (bridges were tried: no bridge came out with exactly one country and enough fame)
+  towers: placeIn({ cls: ["Q12518", "Q11303"], min: 40, prefix: "wd-tower", cat: "technology", tags: ["Bauwerke", "Türme"], word: { de: "das Bauwerk", en: "building" }, verb: { de: "steht" }, said: /turm|tower|tour|torre|center|centre|building|gebäude/i,
+    skip: /trump/i }), // named after a living person
+  universities: placeIn({ cls: "Q3918", min: 60, prefix: "wd-uni", cat: "culture", tags: ["Bildung", "Universitäten"], word: { de: "die Universität", en: "university" }, verb: { de: "liegt" }, said: /universit|hochschule|college|école|institut/i,
+    exclude: ["Hebräische Universität Jerusalem"] }), // campus partly in East Jerusalem
+  museums: placeIn({ cls: ["Q33506", "Q207694"], min: 50, prefix: "wd-museum", cat: "culture", tags: ["Kultur", "Museen"], word: { de: "das Museum", en: "museum" }, verb: { de: "steht" }, said: /museum|museo|musée|muzeum|galerie|gallery|galleria|pinakothek/i,
+    // memorials of the Holocaust are no quiz material; palaces, castles and churches that are also museums come elsewhere
+    skip: /^KZ |Yad Vashem|schloss|burg|castle|tower|turm|kathedrale|kirche|palast|palace|palazzo|sophia|herculaneum|mausoleum|verbotene stadt|observatory|eremitage/i }),
+  cities: placeIn({ cls: "Q1549591", min: 100, prefix: "wd-city", tags: ["Geografie", "Städte"], word: { de: "die Stadt", en: "city" }, verb: { de: "liegt" }, said: /^$/,
+    exclude: ["Nikosia", "Simferopol", "Sewastopol", "Tiraspol"] }), // a divided city; Crimea; Transnistria
 };
 
 // editorial cards already asking the same thing (e.g. "Was ist die Hauptstadt von Australien?") – the generated twin is skipped

@@ -10,7 +10,7 @@
 import fs from "node:fs";
 
 const TEMPLATES = ["capitals", "regions", "elements", "atomicnumbers", "summits", "domains", "continents", "heritage", "companies",
-  "olympics", "worldcups", "nobel", "discoverers", "instruments", "moons", "flags", "lakes", "volcanoes", "waterfalls", "carbrands", "islands", "parks", "mountains", "rivermouths"];
+  "olympics", "worldcups", "nobel", "discoverers", "instruments", "moons", "flags", "lakes", "volcanoes", "waterfalls", "carbrands", "islands", "parks", "mountains", "rivermouths", "rivers", "castles", "towers", "universities", "museums", "cities"];
 const before = (s) => s.split(":")[0];
 const quoted = (s) => s.match(/[„"]([^“"]+)[“"]/)?.[1];
 const REGION_KIND = { DE: ["Die Landeshauptstadt", "The state capital"], AT: ["Die Landeshauptstadt", "The state capital"], CH: ["Der Hauptort", "The capital"], US: ["Die Hauptstadt", "The capital"] };
