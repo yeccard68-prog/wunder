@@ -22,15 +22,15 @@ test("combined feed: every card, clip and animation appears exactly once", () =>
 });
 
 test("combined feed: watched clips and finished animations move to the back, hidden clips disappear", () => {
-  const first = mixFeed(ranked, clips, animations, state());
+  const first = mixFeed(ranked, clips, animations, state(), [], [], [], [], [], [], "watched");
   const clip = first.find((e) => e.kind === "clip")!;
   const anim = first.find((e) => e.kind === "animation")!;
   if (clip.kind !== "clip" || anim.kind !== "animation") throw new Error("unexpected");
-  const later = mixFeed(ranked, clips, animations, state({ clipStats: { [clip.clip.id]: { plays: 1, completed: 1 } }, answers: { [anim.animation.quizId!]: { correct: true } } } as unknown as Partial<UserState>));
-  const clipsLater = later.filter((e) => e.kind === "clip");
-  const animsLater = later.filter((e) => e.kind === "animation");
-  assert.equal(entryId(clipsLater[clipsLater.length - 1]), clip.clip.id);
-  assert.equal(entryId(animsLater[animsLater.length - 1]), anim.animation.id);
+  const later = mixFeed(ranked, clips, animations, state({ clipStats: { [clip.clip.id]: { plays: 1, completed: 1 } }, answers: { [anim.animation.quizId!]: { correct: true } } } as unknown as Partial<UserState>), [], [], [], [], [], [], "watched");
+  // at the back – the last or, when the topic rule (never three of one topic in a row) let one more pass, the one before
+  const tail = (kind: string) => later.filter((e) => e.kind === kind).slice(-2).map(entryId);
+  assert.ok(tail("clip").includes(clip.clip.id), String(tail("clip")));
+  assert.ok(tail("animation").includes(anim.animation.id), String(tail("animation")));
   const hidden = mixFeed(ranked, clips, animations, state({ hidden: [clip.clip.id] }));
   assert.ok(!hidden.some((e) => entryId(e) === clip.clip.id));
 });
