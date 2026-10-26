@@ -143,6 +143,47 @@ const BLOCKED = new Set([
   "Q1062358", // Three Little Pigs (recorded, not written)
 ]);
 const BLOCKED_NAMES = /Hitler|Stalin|Lenin|Mao Zedong|Mussolini|Karl Marx|Friedrich Engels|Moses|Muhammad/; // in case an id above is off
+/**
+ * Something (?p) and one attribute (?v): painter → movement, mountain → range, lake → country … `t.query` binds ?p, ?v
+ * and ?links. Exactly one value; wrong options are other values of the same template; no answer that names the subject.
+ */
+async function attribute(r, t) {
+  const rows = await sparql(`
+SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
+  ${t.query}
+  ${t.valueIso ? "OPTIONAL { ?v wdt:P297 ?iso. }" : ""}
+  ${t.noPersonFilter ? "" : "FILTER NOT EXISTS { ?p wdt:P106 ?occ. FILTER(?occ IN (wd:Q82955, wd:Q116, wd:Q47064, wd:Q189290, wd:Q42857)) }"}
+  ${LABELS("p", "v")} ${LABELS_EN("p", "v")}
+}`);
+  const by = new Map();
+  for (const x of rows) {
+    if (!named(x.pLabel, x.pLabelEn, x.vLabel, x.vLabelEn) || BLOCKED.has(qid(x.p)) || BLOCKED_NAMES.test(x.pLabelEn)) continue;
+    const e = by.get(qid(x.p)) ?? { id: qid(x.p), de: x.pLabel, en: x.pLabelEn, links: +x.links, values: new Map() };
+    e.values.set(qid(x.v), { id: qid(x.v), de: x.vLabel, en: x.vLabelEn, iso: x.iso, group: "all" });
+    by.set(e.id, e);
+  }
+  let list = [...by.values()].filter((e) => e.values.size === 1 && !e.de.includes("(")).map((e) => ({ ...e, value: [...e.values.values()][0] }));
+  // t.minUses: only values shared by at least that many entries (keeps out one-off labels as answers and options)
+  if (t.minUses) {
+    const uses = new Map();
+    for (const e of list) uses.set(e.value.id, (uses.get(e.value.id) ?? 0) + 1);
+    list = list.filter((e) => uses.get(e.value.id) >= t.minUses);
+  }
+  // t.extra: wrong options only (e.g. the medicine prize: never an answer, but a plausible fourth option)
+  const pool = [...new Map([...list.map((e) => [e.value.id, e.value]), ...(t.extra ?? []).map((v) => [v.id, { ...v, group: "all" }])]).values()];
+  if (pool.length < 4) return [];
+  const keep = list.filter((e) => !givesAway(e.de, e.value.de) && !givesAway(e.value.de, e.de));
+  return byFame(keep.map((e) => {
+    const id = `${t.prefix}-${e.id}`;
+    const o = arrange(id, e.value, wrongOptions(e.value, pool, "all", r));
+    return {
+      id, category_id: t.cat, min_age: t.minAge, countries: t.valueIso && e.value.iso ? [e.value.iso] : [], tags: t.tags,
+      question: t.de(e.de), options: o.de, correct_index: o.correct, explanation: t.deX(e.de, e.value.de),
+      source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+      translations: { en: { question: t.en(e.en), options: o.en, explanation: t.enX(e.en, e.value.en) } },
+    };
+  }), keep.map((e) => e.links));
+}
 const inYear = (y) => (y ? ` (${y < 0 ? `${-y} v. Chr.` : y})` : "");
 const inYearEn = (y) => (y ? ` (${y < 0 ? `${-y} BC` : y})` : "");
 
@@ -484,6 +525,111 @@ SELECT ?e ?eLabel ?eLabelEn ?num WHERE { ?e wdt:P31 wd:Q11344; wdt:P1086 ?num. F
       };
     });
   },
+  // more works and their creators
+  compositions: (r) => works(r, { match: "?w wdt:P86 ?x; wdt:P31/wdt:P279* wd:Q2188189. ?x wikibase:sitelinks ?xl. FILTER(?xl >= 70) FILTER NOT EXISTS { ?w wdt:P136 wd:Q1344 } FILTER NOT EXISTS { ?w wdt:P31 wd:Q23691 }", prop: "P86", minLinks: 30, tags: ["Musik", "Klassik"], prefix: "wd-comp",
+    de: (w) => `Wer komponierte „${w}“?`, en: (w) => `Who composed "${w}"?`,
+    deX: (w, c, y) => `„${w}“${inYear(y)} stammt von ${c}.`, enX: (w, c, y) => `"${w}"${inYearEn(y)} was composed by ${c}.` }),
+  // (sculptures and inventions were tried: too few sculptures, and the inventions mixed in drugs and obscure stars – left out)
+  // "In welcher Stadt steht …?" – famous towers, bridges, cathedrals, museums and palaces
+  async structures(r) {
+    const rows = await sparql(`
+SELECT ?s ?sLabel ?sLabelEn ?links ?city ?cityLabel ?cityLabelEn ?iso WHERE {
+  VALUES ?type { wd:Q12518 wd:Q11303 wd:Q12280 wd:Q2977 wd:Q33506 wd:Q16560 wd:Q23413 wd:Q4989906 }
+  ?s wdt:P31 ?type; wikibase:sitelinks ?links; wdt:P131 ?city. FILTER(?links >= 60)
+  ?city wdt:P31 ?ct. ?ct wdt:P279* wd:Q515. ?city wdt:P17 ?c. ?c wdt:P297 ?iso.
+  ${LABELS("s", "city")} ${LABELS_EN("s", "city")}
+}`);
+    const by = new Map();
+    for (const x of rows) {
+      if (!named(x.sLabel, x.sLabelEn, x.cityLabel, x.cityLabelEn)) continue;
+      const e = by.get(qid(x.s)) ?? { id: qid(x.s), de: x.sLabel, en: x.sLabelEn, links: +x.links, cities: new Map() };
+      e.cities.set(qid(x.city), { id: qid(x.city), de: x.cityLabel, en: x.cityLabelEn, iso: x.iso, group: x.iso });
+      by.set(e.id, e);
+    }
+    const list = [...by.values()].filter((e) => e.cities.size === 1).map((e) => ({ ...e, city: [...e.cities.values()][0] }));
+    const pool = [...new Map(list.map((e) => [e.city.id, e.city])).values()];
+    const keep = list.filter((e) => !givesAway(e.city.de, e.de) && !givesAway(e.city.en, e.en));
+    return byFame(keep.map((e) => {
+      const id = `wd-bldg-${e.id}`;
+      const o = arrange(id, e.city, wrongOptions(e.city, pool, e.city.iso, r));
+      return {
+        id, category_id: "culture", min_age: 10, countries: [e.city.iso], tags: ["Bauwerke", "Städte"],
+        question: `In welcher Stadt steht „${e.de}“?`, options: o.de, correct_index: o.correct,
+        explanation: `„${e.de}“ steht in ${e.city.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `Which city is "${e.en}" in?`, options: o.en, explanation: `"${e.en}" is in ${e.city.en}.` } },
+      };
+    }), keep.map((e) => e.links));
+  },
+  // "An welchem Fluss liegt Wien?" – capitals next to exactly one river
+  async capitalrivers(r) {
+    const rows = await sparql(`
+SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?iso WHERE {
+  ?c wdt:P31 wd:Q3624078; wdt:P36 ?city; wdt:P297 ?iso.
+  ?city wdt:P206 ?river; wikibase:sitelinks ?links. ?river wdt:P31/wdt:P279* wd:Q4022.
+  ${LABELS("city", "river")} ${LABELS_EN("city", "river")}
+}`);
+    const by = new Map();
+    for (const x of rows) {
+      if (!named(x.cityLabel, x.cityLabelEn, x.riverLabel, x.riverLabelEn)) continue;
+      const e = by.get(qid(x.city)) ?? { id: qid(x.city), de: x.cityLabel, en: x.cityLabelEn, links: +x.links, iso: x.iso, rivers: new Map() };
+      e.rivers.set(qid(x.river), { id: qid(x.river), de: x.riverLabel, en: x.riverLabelEn, group: "all" });
+      by.set(e.id, e);
+    }
+    const list = [...by.values()].filter((e) => e.rivers.size === 1).map((e) => ({ ...e, river: [...e.rivers.values()][0] }));
+    const pool = [...new Map(list.map((e) => [e.river.id, e.river])).values()];
+    const keep = list.filter((e) => !givesAway(e.de, e.river.de) && !givesAway(e.river.de, e.de));
+    return byFame(keep.map((e) => {
+      const id = `wd-crivr-${e.id}`;
+      const o = arrange(id, e.river, wrongOptions(e.river, pool, "all", r));
+      return {
+        id, category_id: "earth", min_age: 10, countries: [e.iso], tags: ["Geografie", "Flüsse"],
+        question: `An welchem Fluss liegt die Hauptstadt ${e.de}?`, options: o.de, correct_index: o.correct,
+        explanation: `${e.de} liegt am Fluss ${e.river.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `Which river is the capital ${e.en} on?`, options: o.en, explanation: `${e.en} lies on the ${e.river.en}.` } },
+      };
+    }), keep.map((e) => e.links));
+  },
+  // "Zu welcher Kunstrichtung gehört Claude Monet?" – painters who died before 1950, exactly one movement
+  async movements(r) {
+    return attribute(r, {
+      query: `?p wdt:P106 wd:Q1028181; wdt:P570 ?died; wdt:P135 ?v; wikibase:sitelinks ?links. FILTER(YEAR(?died) < 1950 && ?links >= 60)`,
+      prefix: "wd-move", cat: "culture", tags: ["Kunst", "Malerei"], minAge: 13,
+      de: (p) => `Malerei: Zu welcher Kunstrichtung wird ${p} gezählt?`, en: (p) => `Painting: Which art movement is ${p} associated with?`, minUses: 2,
+      deX: (p, v) => `${p} wird zur Kunstrichtung ${v} gezählt.`, enX: (p, v) => `${p} is associated with ${v}.`,
+    });
+  },
+  // Nobel laureates in physics, chemistry and literature who died before 1950: the subject
+  async nobel(r) {
+    return attribute(r, {
+      query: `VALUES ?v { wd:Q38104 wd:Q44585 wd:Q37922 } ?p wdt:P166 ?v; wdt:P570 ?died; wikibase:sitelinks ?links. FILTER(YEAR(?died) < 1950 && ?links >= 40)`,
+      prefix: "wd-nobel", cat: "science", tags: ["Nobelpreis", "Wissenschaft"], minAge: 13,
+      extra: [{ id: "Q80061", de: "Nobelpreis für Physiologie oder Medizin", en: "Nobel Prize in Physiology or Medicine" }],
+      de: (p) => `Für welches Fach erhielt ${p} den Nobelpreis?`, en: (p) => `In which field was ${p} awarded the Nobel Prize?`,
+      deX: (p, v) => `${p} erhielt den ${v}.`, enX: (p, v) => `${p} was awarded the ${v}.`,
+    });
+  },
+  // (a writing-system template was tried: "Latin script" and "Latin alphabet" both came up as options – left out)
+  // "Zu welchem Gebirge gehört das Matterhorn?"
+  async ranges(r) {
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q8502; wdt:P4552 ?v; wikibase:sitelinks ?links. FILTER(?links >= 45)`,
+      prefix: "wd-range", cat: "earth", tags: ["Geografie", "Berge"], minAge: 10, noPersonFilter: true,
+      de: (p) => `Zu welchem Gebirge gehört der Berg „${p}“?`, en: (p) => `Which mountain range is "${p}" part of?`,
+      deX: (p, v) => `Der Berg „${p}“ gehört zum Gebirge ${v}.`, enX: (p, v) => `"${p}" is part of the ${v}.`,
+    });
+  },
+  // lakes that lie in exactly one country
+  async lakes(r) {
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q23397; wdt:P17 ?v; wikibase:sitelinks ?links. ?v wdt:P31 wd:Q3624078. FILTER(?links >= 50)`,
+      prefix: "wd-lake", cat: "earth", tags: ["Geografie", "Seen"], minAge: 10, noPersonFilter: true, valueIso: true,
+      de: (p) => `In welchem Land liegt der See „${p}“?`, en: (p) => `Which country is the lake "${p}" in?`,
+      deX: (p, v) => `Der See „${p}“ liegt in ${v}.`, enX: (p, v) => `"${p}" is in ${v}.`,
+    });
+  },
+  // (a neighbouring-countries template was tried: Wikidata's shared borders include sea borders – Gabon "borders" Angola)
   // (an animal-class template was tried: the taxon tree in Wikidata is too deep and uneven – queries time out or miss
   // whole classes such as reptiles; needs another approach)
 };
