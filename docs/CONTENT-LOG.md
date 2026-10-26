@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-26 · 2026-10-warum-3 · 9 Fragen zu Kultur, Sport und Markennamen · Oboe stimmt das Orchester, toi toi toi, Museum, Derby, Tennis, Badminton, Haribo, Audi, Nike · Belege wörtlich aus den verlinkten Artikeln · Derby und Tennis ausdrücklich als mögliche bzw. wahrscheinlichste Herkunft formuliert (so im Artikel) · verworfen: WM-Ball Telstar (kein deutscher Artikel).
+
 - 2026-10-26 · 2026-10-warum-2 · 9 Fragen zu Technik, Geldwörtern und Wortherkunft · Mikrowelle, QR (Name, ursprünglicher Zweck), Dollar, Bank, Börse, Pleite, Tschüss, Kaffee · Belege wörtlich aus den verlinkten Artikeln · bei „Börse“ die belegte Brügger Familie „van de Borse“ statt der verbreiteten Van-der-Beurze-Geschichte (laut Artikel ein Irrglaube) · verworfen: GPS und Computer-„Bug“ (gibt es schon).
 
 - 2026-10-26 · 2026-10-warum-1 · 11 Warum-/Wie-Fragen · Eis schwimmt, Regenbogen, Glühwürmchen, Kühlschrank, Montag, Meersalz, Amerika, Marathon 1908, Herbstlaub, Mondphasen, Münzränder · Belege wörtlich aus den verlinkten Artikeln · verworfen: Flamingo-Farbe und Banknoten-Wasserzeichen (kein Beleg im Artikel); gestrichen: ein nicht belegter Nebensatz (warm hinter dem Kühlschrank), eine teils richtige falsche Antwort (Münzrand zum Ertasten).

@@ -35484,5 +35484,365 @@
         "explanation": "Coffee goes back to the Arabic qahwa. Through the Turkish kahve it came into Italian and from there into French (café)."
       }
     }
+  },
+  {
+    "id": "c61",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welches Instrument gibt im Orchester meist den Ton zum Einstimmen an?",
+    "options": [
+      "Die Pauke",
+      "Die erste Geige",
+      "Das Klavier",
+      "Die Oboe"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Klang der Oboe ist durch ihre Obertöne besonders deutlich hörbar. Darum gibt seit dem 19. Jahrhundert meist ein Oboist vor Proben und Konzerten den Ton a' an.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Orchester"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oboe",
+    "source_url": "https://de.wikipedia.org/wiki/Oboe",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which instrument usually gives the note for tuning in an orchestra?",
+        "options": [
+          "The timpani",
+          "The first violin",
+          "The piano",
+          "The oboe"
+        ],
+        "explanation": "The oboe's sound is especially easy to hear because of its overtones. So since the 19th century an oboist has usually given the note A before rehearsals and concerts."
+      }
+    }
+  },
+  {
+    "id": "c62",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wofür ist „toi, toi, toi“ laut Duden ein Ersatz?",
+    "options": [
+      "Für dreifaches Ausspucken, das Glück bringen sollte",
+      "Für dreimaliges Klatschen vor der Vorstellung",
+      "Für einen alten Trinkspruch",
+      "Für das Läuten der Theaterglocke"
+    ],
+    "correct_index": 0,
+    "explanation": "Laut Duden entstand „toi, toi, toi“ als lautmalerischer Ersatz für das dreifache Ausspucken, das dem Volksglauben nach Glück brachte – Ausspucken galt seit dem 18. Jahrhundert zunehmend als unanständig.",
+    "difficulty": 2,
+    "tags": [
+      "Brauchtum",
+      "Theater"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Toi, toi, toi",
+    "source_url": "https://de.wikipedia.org/wiki/Toi,_toi,_toi",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the Duden dictionary, what does the German good-luck wish „toi, toi, toi“ stand in for?",
+        "options": [
+          "Spitting three times, which was meant to bring luck",
+          "Clapping three times before a show",
+          "An old drinking toast",
+          "The ringing of the theatre bell"
+        ],
+        "explanation": "According to the Duden, „toi, toi, toi“ arose as an imitation of the sound of spitting three times, which folk belief said brought luck – spitting was increasingly seen as rude from the 18th century on."
+      }
+    }
+  },
+  {
+    "id": "c63",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bezeichnete das altgriechische Wort, von dem „Museum“ kommt?",
+    "options": [
+      "Eine Schatzkammer der Könige",
+      "Ein Heiligtum der Musen",
+      "Einen Marktplatz",
+      "Eine Bibliothek für Gesetze"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Wort Museum (altgriechisch mouseîon) taucht zuerst in der hellenistischen Antike auf und bezeichnete ein Heiligtum der Musen.",
+    "difficulty": 1,
+    "tags": [
+      "Wortherkunft",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Museum",
+    "source_url": "https://de.wikipedia.org/wiki/Museum",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the ancient Greek word that \"museum\" comes from mean?",
+        "options": [
+          "A treasury of kings",
+          "A shrine of the Muses",
+          "A marketplace",
+          "A library of laws"
+        ],
+        "explanation": "The word museum (ancient Greek mouseîon) first appears in Hellenistic antiquity and meant a shrine of the Muses."
+      }
+    }
+  },
+  {
+    "id": "sp55",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Auf welches englische Pferderennen könnte der Begriff „Derby“ für ein Lokalduell zurückgehen?",
+    "options": [
+      "Auf das Epsom Derby",
+      "Auf das Royal Ascot",
+      "Auf den Grand National",
+      "Auf das Kentucky Derby"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine mögliche Herleitung: Der Begriff könnte auf das Epsom Derby zurückgehen, eines der ältesten englischen Pferderennen – benannt nach seinem Gründer, dem 12. Earl of Derby.",
+    "difficulty": 2,
+    "tags": [
+      "Fußball",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Derby (Mannschaftssport)",
+    "source_url": "https://de.wikipedia.org/wiki/Derby_(Mannschaftssport)",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which English horse race might the word \"derby\" for a local rivalry match go back to?",
+        "options": [
+          "The Epsom Derby",
+          "Royal Ascot",
+          "The Grand National",
+          "The Kentucky Derby"
+        ],
+        "explanation": "One possible origin: the word might go back to the Epsom Derby, one of the oldest English horse races – named after its founder, the 12th Earl of Derby."
+      }
+    }
+  },
+  {
+    "id": "sp56",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Von welchem Ausruf leitet sich „Tennis“ nach der wahrscheinlichsten Erklärung ab?",
+    "options": [
+      "Vom lateinischen „tenuis“ – „dünn“",
+      "Vom anglonormannischen „tenez!“ – „Nehmt, haltet (den Ball)!“",
+      "Vom englischen „ten“ – zehn Punkte",
+      "Vom italienischen „tenere“ – „Tempo“"
+    ],
+    "correct_index": 1,
+    "explanation": "Als wahrscheinlichste Herkunft gilt ein anglonormannischer Ausruf „tenez!“ – „Nehmt, haltet (den Ball)!“. In dieser Form ist er allerdings nicht bezeugt.",
+    "difficulty": 3,
+    "tags": [
+      "Tennis",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tennis",
+    "source_url": "https://de.wikipedia.org/wiki/Tennis",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the most likely explanation, which call does \"tennis\" come from?",
+        "options": [
+          "The Latin \"tenuis\" – \"thin\"",
+          "The Anglo-Norman \"tenez!\" – \"take it, hold (the ball)!\"",
+          "The English \"ten\" – ten points",
+          "The Italian \"tenere\" – \"tempo\""
+        ],
+        "explanation": "The most likely origin is an Anglo-Norman call \"tenez!\" – \"take it, hold (the ball)!\". It is, however, not attested in that form."
+      }
+    }
+  },
+  {
+    "id": "sp57",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wonach ist die Sportart Badminton benannt?",
+    "options": [
+      "Nach einer indischen Stadt",
+      "Nach ihrem Erfinder, Mister Badminton",
+      "Nach einem englischen Landsitz",
+      "Nach dem Geräusch des Federballs"
+    ],
+    "correct_index": 2,
+    "explanation": "Badminton verdankt seinen Namen dem englischen Landsitz Badminton House des Duke of Beaufort. Dort wurde 1872 das aus Indien mitgebrachte Spiel „Poona“ vorgestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Badminton",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Badminton",
+    "source_url": "https://de.wikipedia.org/wiki/Badminton",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the sport of badminton named after?",
+        "options": [
+          "An Indian city",
+          "Its inventor, Mr Badminton",
+          "An English country house",
+          "The sound of the shuttlecock"
+        ],
+        "explanation": "Badminton owes its name to the English country house Badminton House of the Duke of Beaufort. In 1872 the game \"Poona\", brought from India, was presented there."
+      }
+    }
+  },
+  {
+    "id": "b65",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür steht der Firmenname HARIBO?",
+    "options": [
+      "Hamburger Riesen-Bonbons",
+      "Harz Rheinland Bonbons",
+      "Hans Riegel Bonn",
+      "Harte Ringe aus Bonn"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name setzt sich aus den ersten beiden Buchstaben von Vor- und Nachname des Gründers und seines Standorts zusammen: Hans Riegel Bonn.",
+    "difficulty": 1,
+    "tags": [
+      "Marken",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haribo",
+    "source_url": "https://de.wikipedia.org/wiki/Haribo",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the company name HARIBO stand for?",
+        "options": [
+          "Hamburg Giant Bonbons",
+          "Harz Rhineland Bonbons",
+          "Hans Riegel Bonn",
+          "Hard Rings from Bonn"
+        ],
+        "explanation": "The name is made of the first two letters of the founder's first and last name and of his location: Hans Riegel Bonn."
+      }
+    }
+  },
+  {
+    "id": "b66",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet der Markenname „Audi“?",
+    "options": [
+      "Den Namen der Tochter des Gründers",
+      "„Auto Deutschland“",
+      "„Ich fahre“ auf Lateinisch",
+      "„Höre!“ – die lateinische Übersetzung von „Horch!“"
+    ],
+    "correct_index": 3,
+    "explanation": "August Horch durfte seinen Namen für die neue Firma nicht mehr verwenden. Ein Gymnasiast übersetzte „Horch“ ins Lateinische: Audi heißt „Höre!“.",
+    "difficulty": 2,
+    "tags": [
+      "Marken",
+      "Autos"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Audi",
+    "source_url": "https://de.wikipedia.org/wiki/Audi",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the brand name \"Audi\" mean?",
+        "options": [
+          "The name of the founder's daughter",
+          "\"Auto Germany\"",
+          "\"I drive\" in Latin",
+          "\"Listen!\" – the Latin translation of \"Horch!\""
+        ],
+        "explanation": "August Horch was no longer allowed to use his name for the new company. A grammar-school pupil translated \"Horch\" (\"listen\") into Latin: Audi means \"Listen!\"."
+      }
+    }
+  },
+  {
+    "id": "b67",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Nach wem ist der Sportartikelhersteller Nike benannt?",
+    "options": [
+      "Nach der griechischen Siegesgöttin",
+      "Nach dem Gründer Phil Nike",
+      "Nach einem Berg in Oregon",
+      "Nach einem Laufschuh-Modell"
+    ],
+    "correct_index": 0,
+    "explanation": "Ab 1971 stellte die Firma unter dem Namen Nike eigene Schuhe her – benannt nach der griechischen Göttin des Sieges.",
+    "difficulty": 1,
+    "tags": [
+      "Marken",
+      "Sport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nike (Unternehmen)",
+    "source_url": "https://de.wikipedia.org/wiki/Nike_(Unternehmen)",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is the sportswear maker Nike named after?",
+        "options": [
+          "The Greek goddess of victory",
+          "Its founder Phil Nike",
+          "A mountain in Oregon",
+          "A running shoe model"
+        ],
+        "explanation": "From 1971 the company made its own shoes under the name Nike – named after the Greek goddess of victory."
+      }
+    }
   }
 ]
