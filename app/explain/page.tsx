@@ -9,6 +9,7 @@ import KnowledgeCard from "@/components/KnowledgeCard";
 import { Empty } from "@/components/ui";
 import { animationsFor, MODEL_CREDITS, type Animation } from "@/lib/animations";
 import { comparisonsFor } from "@/lib/compare";
+import { portraitsFor } from "@/lib/portraits";
 import { useQuizView } from "@/lib/quizGate";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
@@ -19,8 +20,8 @@ export default function ExplainPage() {
   const t = useT();
   const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   const [openId, setOpenId] = useState<string | null>(null);
-  // size comparisons are not listed here, but open by link like the others (/explain/?a=cmp-area-Q183)
-  const current = animations.find((a) => a.id === openId) ?? (openId?.startsWith("cmp-") ? comparisonsFor(state.settings.locale, state.ageBand).find((a) => a.id === openId) : undefined);
+  // size comparisons and country portraits are not listed here, but open by link like the others (/explain/?a=cmp-area-Q183)
+  const current = animations.find((a) => a.id === openId) ?? (openId?.startsWith("cmp-") ? comparisonsFor(state.settings.locale, state.ageBand) : openId?.startsWith("por-") ? portraitsFor(state.settings.locale, state.ageBand) : []).find((a) => a.id === openId);
   // an animation can be opened directly: /explain/?a=a-dna (links from books)
   useEffect(() => {
     const id = new URLSearchParams(window.location.search).get("a");

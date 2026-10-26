@@ -46,3 +46,19 @@ test("comparisons in the feed: hand-made and comparisons alternate, the learner'
   const firstCmp = mixed.filter((a) => a.compare).slice(0, own);
   assert.ok(firstCmp.every((a) => a.countries?.includes("DE")));
 });
+
+test("country portraits: map, flag and capital always; the capital question has its answer; names only before a colon", async () => {
+  const { portraitRows, portraitAnimation } = await import("../lib/portraits");
+  assert.ok(portraitRows.length >= 100);
+  for (const row of portraitRows) {
+    for (const locale of ["de", "en"]) {
+      const a = portraitAnimation(row, locale);
+      assert.deepEqual(a.portrait!.steps.slice(0, 3), ["map", "flag", "capital"], row.id);
+      assert.equal(a.steps.length, a.portrait!.steps.length, row.id);
+      assert.equal(a.predict!.options[a.predict!.correct], locale === "de" ? row.capital.de : row.capital.en, row.id);
+      assert.equal(a.labels.length, 11, row.id);
+      assert.ok(!a.steps.some((s) => / von [A-ZÄÖÜ]/.test(s.text)), row.id);
+    }
+    assert.match(row.flag.url, /^\/img\/gen\/.+\.webp$/);
+  }
+});

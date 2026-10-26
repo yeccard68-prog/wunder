@@ -3,13 +3,13 @@
 import { useEffect, useState } from "react";
 import { useT } from "@/lib/store";
 
-type World = { width: number; height: number; paths: Record<string, string>; dots: Record<string, [number, number]> };
+export type World = { width: number; height: number; paths: Record<string, string>; dots: Record<string, [number, number]> };
 let cache: Promise<World | null> | null = null;
 /** The map file (public/map/world.json, ~100 KB) is loaded once, the first time a card needs it. */
-const loadWorld = () => (cache ??= fetch("/map/world.json").then((r) => (r.ok ? r.json() : null)).catch(() => null));
+export const loadWorld = () => (cache ??= fetch("/map/world.json").then((r) => (r.ok ? r.json() : null)).catch(() => null));
 
-/** The box around a country's shape (or dot), widened to show its surroundings – at least a quarter of the map's width. */
-function around(world: World, isos: string[]): string {
+/** The box around a country's shape (or dot), widened to show its surroundings – at least 1/min of the map's width. */
+export function around(world: World, isos: string[], min = 4): string {
   const xs: number[] = [], ys: number[] = [];
   for (const iso of isos) {
     for (const m of (world.paths[iso] ?? "").matchAll(/(-?[\d.]+),(-?[\d.]+)/g)) { xs.push(+m[1]); ys.push(+m[2]); }
@@ -17,7 +17,7 @@ function around(world: World, isos: string[]): string {
   }
   if (!xs.length) return `0 0 ${world.width} ${world.height}`;
   const ratio = world.width / world.height;
-  let w = Math.max(Math.max(...xs) - Math.min(...xs), world.width / 4) * 1.6, h = w / ratio;
+  let w = Math.max(Math.max(...xs) - Math.min(...xs), world.width / min) * 1.6, h = w / ratio;
   const hy = (Math.max(...ys) - Math.min(...ys)) * 1.6;
   if (hy > h) { h = hy; w = h * ratio; }
   w = Math.min(w, world.width); h = Math.min(h, world.height);

@@ -515,3 +515,10 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Größenvergleich (Szene `compare` im Animationsplayer): vier Dinge maßstabsgetreu nebeneinander – Landesflächen (Quadrate), höchste Punkte von Ländern (Gipfel), Planetendurchmesser (Kreise). Erst die Schätzfrage („Welches ist am größten?“), dann wächst eins nach dem anderen, am Ende das Verhältnis („rund 4,8-mal so viel Fläche“).
 - Daten: `scripts/content/compare.mjs` → `content/compare.json` (234 Vergleiche), Werte aus Wikidata (nur Best-Rank, richtige Einheit, eindeutiger Wert; Planeten mittlerer Radius). Nur Länder auf genau einem Kontinent, keine umstrittenen Gebiete, größtes höchstens 25-mal (Fläche) bzw. 6-mal (Höhe) das kleinste. Jedes Ding ist als Quelle verlinkt. Texte baut `lib/compare.ts`; Ländernamen nie dort, wo das Deutsche einen Artikel bräuchte.
 - Im Feed wechseln sich handgemachte Animationen und Vergleiche ab (eine, zwei, eine …), Vergleiche zum eigenen Land zuerst. In der Übersicht „So funktioniert’s“ stehen sie nicht, sind aber per Link erreichbar (`/explain/?a=cmp-area-Q183`).
+
+## 58. Länderporträts statt Videodateien (26.10.2026)
+
+- Entscheidung: Daten-Clips entstehen in der App selbst (Szene `portrait` im Animationsplayer), nicht als MP4 – Hunderte Videos würden Repo und Hosting um mehrere hundert MB aufblähen.
+- Ablauf (~30 s): Die Weltkarte zoomt aufs Land, dann Flagge, Hauptstadt (vorher Schätzfrage), Fläche, höchster Punkt mit Höhe, Internetendung – soweit vorhanden.
+- Daten: `scripts/content/portraits.mjs` → `content/portraits.json` (134 Länder), ohne neue Abfragen aus `public/gen/{capitals,continents,flags,summits,domains}.json` und den Flächen/Gipfelhöhen aus `content/compare.json`. Länder ohne Hauptstadt-Karte (umstrittene Fälle wie Schweiz, Niederlande) fehlen. Quellen: Wikidata-Eintrag des Landes und die Commons-Seite der Flagge mit Urheber.
+- Im Feed zusammen mit den Größenvergleichen (Kicker „Länderporträt“), eigenes Land zuerst; per Link `/explain/?a=por-al`.

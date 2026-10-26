@@ -2,7 +2,8 @@
 // step number `step`, progress `p` (0–1) within that step and running time `t` (seconds, for motion
 // that simply keeps going). All visible words come from `labels`, so scenes are language-independent.
 // New scenes are registered in SCENES at the bottom; their texts live in content/animations.json.
-import type { ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
+import { around, loadWorld, type World } from "@/components/CountryMap";
 
 export interface SceneProps {
   step: number;
@@ -10,6 +11,7 @@ export interface SceneProps {
   t: number;
   labels: string[];
   compare?: { shape: "square" | "peak" | "disc"; values: number[] }; // only for the size comparisons
+  portrait?: { iso: string; flag: string; steps: ("map" | "flag" | "capital" | "area" | "peak" | "domain")[] }; // only for country portraits
 }
 type Pt = [number, number];
 
@@ -558,4 +560,53 @@ function Compare({ step, p, labels, compare }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare };
+// ------------------------------------------------------------------ country portrait
+// lib/portraits.ts. The map (Natural Earth, public/map/world.json) flies from the whole world to the country in the
+// first step and stays above; below, one fact per step. labels: 0 name, 1 continent, 2 capital, 3 area, 4 peak,
+// 5 web ending, 6–9 headings (capital, area, highest point, web), 10 height of the peak.
+function Portrait({ step, p, labels, portrait }: SceneProps) {
+  const [world, setWorld] = useState<World | null>(null);
+  useEffect(() => {
+    let live = true;
+    loadWorld().then((w) => live && setWorld(w));
+    return () => {
+      live = false;
+    };
+  }, []);
+  if (!portrait) return null;
+  const kind = portrait.steps[Math.min(step, portrait.steps.length - 1)];
+  const z = step === 0 ? ease(clamp((p - 0.15) / 0.7)) : 1;
+  const show = step === 0 ? 1 : ease(clamp(p * 3));
+  let box = "0 0 1000 394";
+  if (world) {
+    const to = around(world, [portrait.iso], 9).split(" ").map(Number);
+    box = [0, 0, world.width, world.height].map((v, i) => lerp(v, to[i], z).toFixed(1)).join(" ");
+  }
+  const big = (text: string, y: number, max = 34) => <Label x={180} y={y} size={Math.min(max, Math.floor(600 / Math.max(8, text.length)))} bold>{text}</Label>;
+  return (
+    <>
+      <Label x={180} y={28} size={18} bold>{labels[0]}</Label>
+      <rect x={10} y={40} width={340} height={180} rx={10} fill="#1d1b19" />
+      {world && (
+        <svg x={10} y={40} width={340} height={180} viewBox={box} preserveAspectRatio="xMidYMid meet">
+          {Object.entries(world.paths).map(([iso, d]) => <path key={iso} d={d} fill={iso === portrait.iso ? YELLOW : LINE} stroke="#1d1b19" strokeWidth={0.5} vectorEffect="non-scaling-stroke" />)}
+          {world.dots[portrait.iso] && <circle cx={world.dots[portrait.iso][0]} cy={world.dots[portrait.iso][1]} r={4} fill={YELLOW} />}
+        </svg>
+      )}
+      <g opacity={show}>
+        {kind === "map" && big(labels[1], 316)}
+        {kind === "flag" && <image href={portrait.flag} x={70} y={238} width={220} height={140} preserveAspectRatio="xMidYMid meet" />}
+        {kind === "capital" && <><Label x={180} y={280} size={13} color={DIM}>{labels[6]}</Label>{big(labels[2], 322)}</>}
+        {kind === "area" && <><Label x={180} y={280} size={13} color={DIM}>{labels[7]}</Label>{big(labels[3], 322)}</>}
+        {kind === "peak" && <>
+          <path d="M150 300 L180 252 L210 300Z" fill={BLUE} /><path d="M168 271 L180 252 L192 271Z" fill="#fff" opacity={0.85} />
+          <Label x={180} y={322} size={13} color={DIM}>{labels[8]}</Label>{big(labels[4], 352, 26)}
+          {labels[10] ? <Label x={180} y={376} size={14} color={INK}>{labels[10]}</Label> : null}
+        </>}
+        {kind === "domain" && <><Label x={180} y={280} size={13} color={DIM}>{labels[9]}</Label>{big(labels[5], 330, 44)}</>}
+      </g>
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait };
