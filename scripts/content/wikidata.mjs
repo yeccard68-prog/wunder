@@ -66,6 +66,8 @@ const givesAway = (subject, answer) => {
 };
 
 // Countries whose capital or currency is disputed or split – left out on purpose.
+// Territories whose status is disputed – never an answer for "in which country is …?"
+const CONTESTED = new Set(["Q219060", "Q865", "Q1246", "Q40362", "Q23681"]); // Palestine, Taiwan, Kosovo, Western Sahara, Northern Cyprus
 const DISPUTED = new Set(["Q801", "Q219060", "Q865", "Q1246", "Q40362", "Q23681", "Q750", "Q258", "Q39", "Q55"]); // Israel, Palestine, Taiwan, Kosovo, Western Sahara, Northern Cyprus, Bolivia, South Africa, Switzerland, Netherlands
 
 const COUNTRIES = `
@@ -153,6 +155,7 @@ const BLOCKED_NAMES = /Hitler|Stalin|Lenin|Mao Zedong|Mussolini|Karl Marx|Friedr
  * Something (?p) and one attribute (?v): painter → movement, mountain → range, lake → country … `t.query` binds ?p, ?v
  * and ?links. Exactly one value; wrong options are other values of the same template; no answer that names the subject.
  * t.ordered: joins in the written order – for some queries the planner picks an order that runs into the 60 s timeout.
+ * t.apart(value): wrong options only from other groups – no "Mittelmeer" next to "Adriatisches Meer", both would be right.
  */
 async function attribute(r, t) {
   const rows = await sparql(`
@@ -173,7 +176,8 @@ SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
     e.values.set(qid(x.v), { id: qid(x.v), de: x.vLabel, en: x.vLabelEn, iso: x.iso, group: "all" });
     by.set(e.id, e);
   }
-  let list = [...by.values()].filter((e) => e.values.size === 1 && !e.de.includes("(")).map((e) => ({ ...e, value: [...e.values.values()][0] }));
+  let list = [...by.values()].filter((e) => e.values.size === 1 && !e.de.includes("(")).map((e) => ({ ...e, value: [...e.values.values()][0] }))
+    .filter((e) => !CONTESTED.has(e.value.id)); // a place "in Taiwan" or "in Kosovo" is a political statement – left out
   // t.minUses: only values shared by at least that many entries (keeps out one-off labels as answers and options)
   if (t.minUses) {
     const uses = new Map();
@@ -186,7 +190,7 @@ SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
   const keep = list.filter((e) => !givesAway(e.de, e.value.de) && !givesAway(e.value.de, e.de));
   return byFame(keep.map((e) => {
     const id = `${t.prefix}-${e.id}`;
-    const o = arrange(id, e.value, wrongOptions(e.value, pool, "all", r));
+    const o = arrange(id, e.value, wrongOptions(e.value, t.apart ? pool.filter((x) => t.apart(x.de) !== t.apart(e.value.de)) : pool, "all", r));
     return {
       id, category_id: t.cat, min_age: t.minAge, countries: t.valueIso && e.value.iso ? [e.value.iso] : [], tags: t.tags,
       question: t.de(e.de), options: o.de, correct_index: o.correct, explanation: t.deX(e.de, e.value.de),
@@ -720,6 +724,67 @@ SELECT ?c ?cLabel ?cLabelEn ?iso ?cont ?links WHERE {
   // (a neighbouring-countries template was tried: Wikidata's shared borders include sea borders – Gabon "borders" Angola)
   // (an animal-class template was tried: the taxon tree in Wikidata is too deep and uneven – queries time out or miss
   // whole classes such as reptiles; needs another approach)
+  // islands, national parks, mountains and big cities in exactly one country (border peaks and split islands drop out).
+  // Names that already say what they are ("Insel Skye", "Nationalpark Teide", "Mount Cook") are not repeated in the question.
+  async islands(r) {
+    const said = (p) => /insel|island|isle|atoll/i.test(p);
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q23442; wikibase:sitelinks ?links. FILTER(?links >= 50) ?p wdt:P17 ?v. ?v wdt:P31 wd:Q3624078.`,
+      prefix: "wd-isl", ordered: true, cat: "earth", tags: ["Geografie", "Inseln"], minAge: 10, noPersonFilter: true, valueIso: true,
+      // Utøya (attack of 2011) and the Snake Island (war of 2022) are no quiz material; sovereignty disputed or the island split
+      exclude: ["Utøya", "Schlangeninsel", "Diego Garcia", "Südgeorgien", "Navassa", "Peñón de Vélez de la Gomera", "St. Martin"],
+      de: (p) => (said(p) ? `Zu welchem Land gehört „${p}“?` : `Zu welchem Land gehört die Insel „${p}“?`),
+      en: (p) => (said(p) ? `Which country does "${p}" belong to?` : `Which country does the island "${p}" belong to?`),
+      deX: (p, v) => (said(p) ? `„${p}“ gehört zu diesem Land: ${v}.` : `Die Insel „${p}“ gehört zu diesem Land: ${v}.`),
+      enX: (p, v) => (said(p) ? `"${p}" belongs to this country: ${v}.` : `The island "${p}" belongs to this country: ${v}.`),
+    });
+  },
+  async parks(r) {
+    const said = (p) => /nationalpark|national park/i.test(p);
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q46169; wikibase:sitelinks ?links. FILTER(?links >= 30) ?p wdt:P17 ?v. ?v wdt:P31 wd:Q3624078.`,
+      prefix: "wd-park", ordered: true, cat: "earth", tags: ["Geografie", "Nationalparks"], minAge: 10, noPersonFilter: true, valueIso: true,
+      // two parks of the same name (Canada, USA); Kashmir; forts and excavations that are national parks only by law
+      exclude: ["Glacier-Nationalpark", "Deosai-Nationalpark", "Sepphoris", "Gezer", "Fort Jesus", "Nationalpark Brimstone Hill Fortress", "Berg Olymp"],
+      de: (p) => (said(p) ? `In welchem Land liegt der „${p}“?` : `In welchem Land liegt der Nationalpark „${p}“?`),
+      en: (p) => (said(p) ? `Which country is "${p}" in?` : `Which country is the national park "${p}" in?`),
+      deX: (p, v) => (said(p) ? `Der „${p}“ liegt in diesem Land: ${v}.` : `Der Nationalpark „${p}“ liegt in diesem Land: ${v}.`),
+      enX: (p, v) => (said(p) ? `"${p}" is in this country: ${v}.` : `The national park "${p}" is in this country: ${v}.`),
+    });
+  },
+  async mountains(r) {
+    const said = (p) => /^(Berg|Mount|Mont|Pik) |-Massiv$/i.test(p);
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q8502; wikibase:sitelinks ?links. FILTER(?links >= 50) ?p wdt:P17 ?v. ?v wdt:P31 wd:Q3624078.`,
+      prefix: "wd-mtn", ordered: true, cat: "earth", tags: ["Geografie", "Berge"], minAge: 10, noPersonFilter: true, valueIso: true,
+      // on a border although Wikidata names one country; in disputed Kashmir or East Jerusalem; an island
+      exclude: ["K2", "Kasbek", "Belucha", "Gangkhar Puensum", "Nanga Parbat", "Ölberg", "Vulcano"],
+      de: (p) => (said(p) ? `In welchem Land steht der „${p}“?` : `In welchem Land steht der Berg „${p}“?`),
+      en: (p) => (said(p) ? `Which country is "${p}" in?` : `Which country is the mountain "${p}" in?`),
+      deX: (p, v) => (said(p) ? `Der „${p}“ steht in diesem Land: ${v}.` : `Der Berg „${p}“ steht in diesem Land: ${v}.`),
+      enX: (p, v) => (said(p) ? `"${p}" is in this country: ${v}.` : `The mountain "${p}" is in this country: ${v}.`),
+    });
+  },
+  // rivers and the sea or ocean they flow into – not an estuary or a bay; a marginal sea and its ocean never stand side by side
+  async rivermouths(r) {
+    const family = {
+      med: ["Mittelmeer", "Adriatisches Meer", "Tyrrhenisches Meer", "Ägäisches Meer", "Thrakisches Meer", "Ionisches Meer", "Ligurisches Meer", "Levantisches Meer", "Balearenmeer", "Alboránmeer"],
+      atl: ["Atlantischer Ozean", "Nordsee", "Ostsee", "Ärmelkanal", "Irische See", "Karibisches Meer", "Golf von Mexiko", "Keltische See", "Golf von Biskaya", "Sargassosee"],
+      pac: ["Pazifischer Ozean", "Beringmeer", "Südchinesisches Meer", "Gelbes Meer", "Ostchinesisches Meer", "Japanisches Meer", "Ochotskisches Meer", "Bohai-Meer"],
+      ind: ["Indischer Ozean", "Arabisches Meer", "Persischer Golf", "Golf von Bengalen", "Rotes Meer", "Andamanensee"],
+      arc: ["Arktischer Ozean", "Karasee", "Ostsibirische See", "Beaufortsee", "Laptewsee", "Barentssee", "Weißes Meer", "Petschorasee", "Tschuktschensee"],
+      black: ["Schwarzes Meer", "Asowsches Meer"],
+    };
+    const apart = (v) => Object.keys(family).find((k) => family[k].includes(v)) ?? v;
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q4022; wikibase:sitelinks ?links. FILTER(?links >= 50) ?p wdt:P403 ?v. ?v wdt:P31 ?vt. VALUES ?vt { wd:Q165 wd:Q9430 wd:Q1286517 wd:Q1973404 }`,
+      prefix: "wd-mouth", ordered: true, cat: "earth", tags: ["Geografie", "Flüsse"], minAge: 10, noPersonFilter: true, apart,
+      // the Murray ends in the Southern Ocean by Australian count, in the Indian Ocean by others
+      exclude: ["Murray River"],
+      de: (p) => `In welches Meer oder welchen Ozean mündet der Fluss „${p}“?`, en: (p) => `Which sea or ocean does the river "${p}" flow into?`,
+      deX: (p, v) => `Der Fluss „${p}“ mündet hier: ${v}.`, enX: (p, v) => `The river "${p}" flows into: ${v}.`,
+    });
+  },
 };
 
 // editorial cards already asking the same thing (e.g. "Was ist die Hauptstadt von Australien?") – the generated twin is skipped

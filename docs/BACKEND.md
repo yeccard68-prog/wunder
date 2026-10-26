@@ -529,3 +529,11 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Die Abfragen liefen bisher in den 60-s-Timeout: `attribute()` kann jetzt `ordered: true` (Joins in der geschriebenen Reihenfolge) – dieselbe Abfrage braucht dann ~2,5 s. Sternbilder bleiben draußen (Wikidata führt Millionen Himmelsobjekte mit Sternbild; nicht schnell genug filterbar), Bauwerke ebenso (Timeout).
 - Erklärungen artikelfrei („… liegt in diesem Land: Japan.“).
 - Von Hand ausgeschlossen: Volvo und smart (Eigentümer bzw. Sitz heute in China, China unter den Antworten), „Stellantis North America“, ELBO; Kasbek (Grenzberg Georgien/Russland), Amsterdam-Insel, Sankt-Paul-Insel, Ball’s Pyramid, Inaccessible (Inseln, keine bekannten Vulkane); Livingstonefälle (größtenteils DR Kongo).
+
+## 60. Vorlagen Inseln, Nationalparks, Berge, Flussmündungen (26.10.2026)
+
+- Neu: `islands` (206), `parks` (186), `mountains` (65), `rivermouths` (66) plus „Stimmt das?“-Dateien (521 Karten); 431 freie Fotos.
+- `attribute()`: Orte in umstrittenen Gebieten (Palästina, Taiwan, Kosovo, Westsahara, Nordzypern) fallen generell heraus (`CONTESTED`); `t.apart` hält Randmeer und Ozean auseinander (nie „Mittelmeer“ als falsche Antwort zu „Adriatisches Meer“).
+- Fragen wiederholen den Namen nicht („In welchem Land liegt der „Nationalpark Teide“?“ statt „der Nationalpark „Nationalpark Teide““).
+- Von Hand ausgeschlossen: Utøya (Anschlag 2011), Schlangeninsel (Krieg); Diego Garcia, Südgeorgien, Navassa, Peñón de Vélez (Hoheit umstritten), St. Martin (geteilt); zweimal „Glacier-Nationalpark“ (Kanada/USA), Deosai (Kaschmir), Festungen und Ausgrabungen mit Nationalpark-Status; K2, Kasbek, Belucha, Gangkhar Puensum (Grenzberge), Nanga Parbat, Ölberg (umstrittene Gebiete); Murray River (Südlicher oder Indischer Ozean je nach Zählung). Mündungstrichter und Buchten (Gironde, Humber, Chesapeake Bay, Río de la Plata) zählen nicht als Meer.
+- Großstädte → Land wurde versucht: die Klasse „Großstadt“ liefert in Wikidata keine eindeutigen Treffer – weggelassen.
