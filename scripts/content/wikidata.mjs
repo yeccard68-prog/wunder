@@ -119,10 +119,15 @@ SELECT ?w ?wLabel ?wLabelEn ?links ?c ?cLabel ?cLabelEn ?died ?year WHERE {
   }
   // a title that names its creator ("Selbstbildnis Rembrandts") gives the answer away
   const lastName = (name) => name.split(" ").at(-1);
-  const list = [...by.values()]
+  let list = [...by.values()]
     .filter((e) => e.creators.size === 1 && !BLOCKED.has(e.id) && ![...e.creators.values()].some((c) => BLOCKED.has(c.id) || BLOCKED_NAMES.test(c.en)))
     .map((e) => ({ ...e, creator: [...e.creators.values()][0] }))
     .filter((e) => !givesAway(lastName(e.creator.de), e.de) && !givesAway(lastName(e.creator.en), e.en));
+  // two works with the same title (Botticelli's and Bouguereau's "Birth of Venus") would ask one question with two answers:
+  // keep only the best-known work of each title
+  const byTitle = new Map();
+  for (const e of list) if (!byTitle.has(e.de) || byTitle.get(e.de).links < e.links) byTitle.set(e.de, e);
+  list = list.filter((e) => byTitle.get(e.de) === e);
   const pool = [...new Map(list.map((e) => [e.creator.id, e.creator])).values()];
   return byFame(list.map((e) => {
     const id = `${t.prefix}-${e.id}`;
