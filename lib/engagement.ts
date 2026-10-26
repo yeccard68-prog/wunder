@@ -3,7 +3,7 @@
 // swiped away within a moment. Older signals fade, so the feed follows changing interests.
 import type { UserState } from "./types";
 
-export type EntryKind = "item" | "clip" | "animation" | "insight" | "visual" | "fact" | "series" | "day" | "study" | "puzzle";
+export type EntryKind = "item" | "clip" | "animation" | "insight" | "visual" | "fact" | "series" | "day" | "study" | "puzzle" | "exercise";
 export interface Signal { views: number; dwell: number; skips: number } // dwell in seconds
 export interface Signals { cat: Record<string, Signal>; kind: Partial<Record<EntryKind, Signal>> }
 

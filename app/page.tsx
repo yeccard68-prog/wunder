@@ -11,6 +11,7 @@ import { mixFeed } from "@/lib/feed";
 import { eventsFor } from "@/lib/days";
 import { factsFor, rankFacts } from "@/lib/facts";
 import { today } from "@/lib/gamification";
+import { exercisesFor } from "@/lib/exercises";
 import { dailyOpen, dailyPuzzles, feedPuzzles } from "@/lib/puzzles";
 import { studiesFor } from "@/lib/studies";
 import { visualsFor } from "@/lib/visuals";
@@ -43,7 +44,7 @@ export default function HomePage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const puzzles = useMemo(() => feedPuzzles(items, getState(), 6, date), [items.length, date, state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand), puzzles, seed), [forYou, clips, animations, books, visuals, facts, puzzles]);
+  const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand), puzzles, seed, exercisesFor(state.ageBand, state.settings.locale, 40, seed)), [forYou, clips, animations, books, visuals, facts, puzzles]);
   // today’s three puzzles, fixed for this visit (answering a card must not swap the crossword under the finger)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const daily = useMemo(() => (items.length ? dailyPuzzles(items, getState(), date) : []), [items.length > 0, date, state.settings.locale, state.ageBand]);

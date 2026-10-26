@@ -12,6 +12,7 @@ import { formatEngagement, PAUSE_AFTER, topicEngagement, type EntryKind } from "
 import { rng } from "./gamification";
 import type { DayEvent } from "./days";
 import type { Fact } from "./facts";
+import type { Exercise } from "./exercises";
 import type { Puzzle } from "./puzzles";
 import type { Study } from "./studies";
 import { withSeries } from "./series";
@@ -31,15 +32,16 @@ export type FeedEntry =
   | { kind: "day"; event: DayEvent }
   | { kind: "study"; study: Study }
   | { kind: "puzzle"; puzzle: Puzzle }
+  | { kind: "exercise"; exercise: Exercise }
   | { kind: "pause"; id: string };
 
 export const entryId = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "study" ? e.study.id : e.kind === "puzzle" ? e.puzzle.id : e.kind === "pause" ? e.id : e.idea.id;
+  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "study" ? e.study.id : e.kind === "puzzle" ? e.puzzle.id : e.kind === "exercise" ? e.exercise.id : e.kind === "pause" ? e.id : e.idea.id;
 /** Every content id an entry shows (a series shows three facts) – all of them count as seen. */
 export const entryContentIds = (e: FeedEntry) => (e.kind === "series" ? e.facts.map((f) => f.id) : [entryId(e)]);
 /** Topic of an entry (for the signals and for spreading topics). */
 export const entryTopic = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "study" ? e.study.categoryId : e.kind === "puzzle" ? "math" : e.kind === "insight" ? e.book.topicId : "";
+  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "study" ? e.study.categoryId : e.kind === "puzzle" || e.kind === "exercise" ? "math" : e.kind === "insight" ? e.book.topicId : "";
 export const asEntries = (ranked: Ranked[]): FeedEntry[] => ranked.map((r) => ({ kind: "item", ...r }));
 
 /**
@@ -47,7 +49,7 @@ export const asEntries = (ranked: Ranked[]): FeedEntry[] => ranked.map((r) => ({
  * every view moves them – a format someone lingers on comes up more often, one they keep swiping away less often
  * (lib/engagement.ts). No format has a fixed place in the feed.
  */
-export const START_ODDS: Record<Exclude<EntryKind, "series">, number> = { item: 50, fact: 13, clip: 10, animation: 7, insight: 4, visual: 3, study: 3, puzzle: 4, day: 3 };
+export const START_ODDS: Record<Exclude<EntryKind, "series">, number> = { item: 50, fact: 13, clip: 10, animation: 7, insight: 4, visual: 3, study: 3, puzzle: 4, exercise: 5, day: 3 };
 /** How strongly behaviour moves the odds: engagement −1 … +1 → odds × 1/MOVE … × MOVE. */
 const MOVE = 3;
 /** Topics someone keeps skipping come up this much less (they never disappear – interests change). */
@@ -60,7 +62,7 @@ const TOPIC_MOVE = 2;
  * lingers on. The same `seed` gives the same feed, so it does not reshuffle while someone scrolls. The check question
  * of an animation is shown with the animation, not a second time as a card of its own.
  */
-export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[], state: UserState, insights: Insight[] = [], visuals: Visual[] = [], facts: Fact[] = [], days: DayEvent[] = [], studies: Study[] = [], puzzles: Puzzle[] = [], seed = String(Date.now())): FeedEntry[] {
+export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[], state: UserState, insights: Insight[] = [], visuals: Visual[] = [], facts: Fact[] = [], days: DayEvent[] = [], studies: Study[] = [], puzzles: Puzzle[] = [], seed = String(Date.now()), exercises: Exercise[] = []): FeedEntry[] {
   const hidden = new Set(state.hidden);
   const r = rng(seed);
   const animQueue = freshFirst(animations, (a) => a.id, state, (a) => !!a.quizId && !!state.answers[a.quizId]);
@@ -77,6 +79,7 @@ export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[]
     study: freshFirst(studies, (s) => s.id, state).map((study): FeedEntry => ({ kind: "study", study })),
     puzzle: puzzles.filter((p) => !solved.has(p.id)).map((puzzle): FeedEntry => ({ kind: "puzzle", puzzle })),
     day: days.filter((d) => state.seen?.[d.id] === undefined).slice(0, 1).map((event): FeedEntry => ({ kind: "day", event })),
+    exercise: exercises.map((exercise): FeedEntry => ({ kind: "exercise", exercise })),
   };
   const odds = (kind: keyof typeof START_ODDS) => START_ODDS[kind] * MOVE ** formatEngagement(state, kind === "fact" ? "fact" : kind);
   const topicOdds = (e: FeedEntry) => TOPIC_MOVE ** topicEngagement(state, entryTopic(e));

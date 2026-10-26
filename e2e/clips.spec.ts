@@ -645,3 +645,15 @@ test("a nearly finished sudoku can be solved by typing the missing numbers", asy
   }
   await expect(sudoku.getByTestId("puzzle-result")).toContainText("Gelöst");
 });
+
+test("a maths exercise checks the answer at once and shows how it is worked out", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/riddles/");
+  const ex = page.getByTestId("exercise").first();
+  await expect(ex).toBeVisible();
+  await ex.getByTestId("exercise-option").first().click();
+  await expect(ex.getByTestId("exercise-result")).toBeVisible();
+  await expect(ex.getByTestId("exercise-result")).toContainText(/Richtig!|Nicht ganz\./);
+  await page.getByTestId("more-exercises").click();
+  await expect(page.getByTestId("exercise")).toHaveCount(8);
+});

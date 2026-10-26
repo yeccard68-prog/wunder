@@ -4,9 +4,11 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ArrowLeft, Puzzle } from "lucide-react";
 import Feed from "@/components/Feed";
+import ExerciseCard from "@/components/ExerciseCard";
 import PuzzleCard from "@/components/PuzzleCard";
 import { Empty } from "@/components/ui";
 import type { FeedEntry } from "@/lib/feed";
+import { exercisesFor } from "@/lib/exercises";
 import { feedPuzzles } from "@/lib/puzzles";
 import { useStore, useT } from "@/lib/store";
 
@@ -14,6 +16,9 @@ import { useStore, useT } from "@/lib/store";
 export default function RiddlesPage() {
   const { items, state, getState } = useStore();
   const [more, setMore] = useState(3);
+  const [exCount, setExCount] = useState(4);
+  const [exSeed] = useState(() => String(Date.now()));
+  const exercises = useMemo(() => exercisesFor(state.ageBand, state.settings.locale, exCount, exSeed), [state.ageBand, state.settings.locale, exCount, exSeed]);
   // fixed while the page is open: a solved puzzle stays where it is
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const done = useMemo(() => new Set(getState().puzzles?.done ?? []), []);
@@ -42,6 +47,11 @@ export default function RiddlesPage() {
       <section className="space-y-4" aria-label={t("Gitterrätsel")}>
         {grids.map((p) => <PuzzleCard key={p.id} puzzle={p} />)}
         <button onClick={() => setMore((m) => m + 3)} className="press w-full rounded-full bg-raised py-3 text-sm font-semibold" data-testid="more-puzzles">{t("Mehr Gitterrätsel")}</button>
+      </section>
+      <section className="space-y-4" aria-label={t("Übungen")}>
+        <h2 className="font-display text-xl font-semibold">{t("Übungen")}</h2>
+        {exercises.map((e) => <ExerciseCard key={e.id} exercise={e} />)}
+        <button onClick={() => setExCount((n) => n + 4)} className="press w-full rounded-full bg-raised py-3 text-sm font-semibold" data-testid="more-exercises">{t("Mehr Übungen")}</button>
       </section>
       {entries.length ? <Feed entries={entries} /> : <Empty icon={<Puzzle size={22} />} title={t("Noch keine Rätsel")} text={t("Neue Rätsel folgen.")} />}
     </div>
