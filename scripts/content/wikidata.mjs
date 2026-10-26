@@ -141,6 +141,7 @@ const BLOCKED = new Set([
   "Q352", "Q855", "Q1394", "Q5816", "Q23559", "Q9061", "Q34943", // Hitler, Stalin, Lenin, Mao, Mussolini, Marx, Engels
   "Q9077", "Q9200", "Q128538", "Q9458", "Q302", "Q41166", "Q43982", "Q130777", // Moses, Paul, Luke, Muhammad, Jesus, …
   "Q1062358", // Three Little Pigs (recorded, not written)
+  "Q629", // oxygen: discovered independently by Scheele and Priestley, Wikidata names one
 ]);
 const BLOCKED_NAMES = /Hitler|Stalin|Lenin|Mao Zedong|Mussolini|Karl Marx|Friedrich Engels|Moses|Muhammad/; // in case an id above is off
 /**
@@ -536,7 +537,7 @@ SELECT ?e ?eLabel ?eLabelEn ?num WHERE { ?e wdt:P31 wd:Q11344; wdt:P1086 ?num. F
 SELECT ?s ?sLabel ?sLabelEn ?links ?city ?cityLabel ?cityLabelEn ?iso WHERE {
   VALUES ?type { wd:Q12518 wd:Q11303 wd:Q12280 wd:Q2977 wd:Q33506 wd:Q16560 wd:Q23413 wd:Q4989906 }
   ?s wdt:P31 ?type; wikibase:sitelinks ?links; wdt:P131 ?city. FILTER(?links >= 60)
-  ?city wdt:P31 ?ct. ?ct wdt:P279* wd:Q515. ?city wdt:P17 ?c. ?c wdt:P297 ?iso.
+  VALUES ?ct { wd:Q515 wd:Q1549591 wd:Q1637706 wd:Q5119 wd:Q200250 } ?city wdt:P31 ?ct; wdt:P17 ?c. ?c wdt:P297 ?iso.
   ${LABELS("s", "city")} ${LABELS_EN("s", "city")}
 }`);
     const by = new Map();
@@ -627,6 +628,63 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
       prefix: "wd-lake", cat: "earth", tags: ["Geografie", "Seen"], minAge: 10, noPersonFilter: true, valueIso: true,
       de: (p) => `In welchem Land liegt der See „${p}“?`, en: (p) => `Which country is the lake "${p}" in?`,
       deX: (p, v) => `Der See „${p}“ liegt in ${v}.`, enX: (p, v) => `"${p}" is in ${v}.`,
+    });
+  },
+  // (a professions template was tried: Wikidata often lists only some professions – Pavlov came out as a chemist –
+  // and has no female forms; left out)
+  // "Zu welchem Sternbild gehört Sirius?"
+  async constellations(r) {
+    return attribute(r, {
+      query: `?p wdt:P31/wdt:P279* wd:Q523; wdt:P59 ?v; wikibase:sitelinks ?links. FILTER(?links >= 40)`,
+      prefix: "wd-star", cat: "science", tags: ["Weltraum", "Sterne"], minAge: 10, noPersonFilter: true,
+      de: (p) => `Zu welchem Sternbild gehört der Stern „${p}“?`, en: (p) => `Which constellation is the star "${p}" in?`,
+      deX: (p, v) => `Der Stern „${p}“ gehört zum Sternbild ${v}.`, enX: (p, v) => `The star "${p}" is in the constellation ${v}.`,
+    });
+  },
+  // car brands and the country they come from
+  async carbrands(r) {
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q786820; wdt:P17 ?v; wikibase:sitelinks ?links. ?v wdt:P31 wd:Q3624078. FILTER(?links >= 40) FILTER NOT EXISTS { ?p wdt:P576 [] }`,
+      prefix: "wd-car", cat: "business", tags: ["Unternehmen", "Autos"], minAge: 10, noPersonFilter: true, valueIso: true,
+      de: (p) => `Aus welchem Land stammt der Autohersteller „${p}“?`, en: (p) => `Which country does the carmaker "${p}" come from?`,
+      deX: (p, v) => `Der Autohersteller „${p}“ stammt aus ${v}.`, enX: (p, v) => `The carmaker "${p}" comes from ${v}.`,
+    });
+  },
+  // who discovered an element (one discoverer only, died before 1950)
+  async discoverers(r) {
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q11344; wdt:P61 ?v; wikibase:sitelinks ?links. ?v wdt:P570 ?died. FILTER(YEAR(?died) < 1950) FILTER NOT EXISTS { ?p wdt:P61 ?other. FILTER(?other != ?v) }`,
+      prefix: "wd-disc", cat: "science", tags: ["Chemie", "Elemente"], minAge: 13, noPersonFilter: true,
+      de: (p) => `Wer entdeckte das chemische Element ${p}?`, en: (p) => `Who discovered the chemical element ${p}?`,
+      deX: (p, v) => `Das Element ${p} wurde von ${v} entdeckt.`, enX: (p, v) => `${p} was discovered by ${v}.`,
+    });
+  },
+  // volcanoes and waterfalls in exactly one country, deserts on exactly one continent
+  async volcanoes(r) {
+    return attribute(r, {
+      query: `?p wdt:P31 ?t; wdt:P17 ?v; wikibase:sitelinks ?links. VALUES ?t { wd:Q8072 wd:Q169358 wd:Q212057 } ?v wdt:P31 wd:Q3624078. FILTER(?links >= 40)`,
+      prefix: "wd-volc", cat: "earth", tags: ["Geografie", "Vulkane"], minAge: 10, noPersonFilter: true, valueIso: true,
+      de: (p) => `In welchem Land liegt der Vulkan „${p}“?`, en: (p) => `Which country is the volcano "${p}" in?`,
+      deX: (p, v) => `Der Vulkan „${p}“ liegt in ${v}.`, enX: (p, v) => `The volcano "${p}" is in ${v}.`,
+    });
+  },
+  async waterfalls(r) {
+    return attribute(r, {
+      query: `?p wdt:P31 wd:Q34038; wdt:P17 ?v; wikibase:sitelinks ?links. ?v wdt:P31 wd:Q3624078. FILTER(?links >= 30)`,
+      prefix: "wd-fall", cat: "earth", tags: ["Geografie", "Wasserfälle"], minAge: 10, noPersonFilter: true, valueIso: true,
+      de: (p) => `In welchem Land liegt der Wasserfall „${p}“?`, en: (p) => `Which country is the waterfall "${p}" in?`,
+      deX: (p, v) => `Der Wasserfall „${p}“ liegt in ${v}.`, enX: (p, v) => `The waterfall "${p}" is in ${v}.`,
+    });
+  },
+  // (deserts and football clubs were tried: too few deserts, partly not deserts; clubs came out with the city of their
+  // stadium, not their home – left out)
+  // musical instruments and their family
+  async instruments(r) {
+    return attribute(r, {
+      query: `VALUES ?v { wd:Q1798603 wd:Q173453 wd:Q133163 wd:Q52954 } ?p wdt:P279+ ?v; wikibase:sitelinks ?links. FILTER(?links >= 40)`,
+      prefix: "wd-instr", cat: "culture", tags: ["Musik", "Instrumente"], minAge: 6, noPersonFilter: true,
+      de: (p) => `Zu welcher Gruppe von Musikinstrumenten gehört das Instrument „${p}“?`, en: (p) => `Which family of musical instruments does the "${p}" belong to?`,
+      deX: (p, v) => `Das Instrument „${p}“ gehört zur Gruppe ${v}.`, enX: (p, v) => `The ${p} belongs to the family: ${v}.`,
     });
   },
   // (a neighbouring-countries template was tried: Wikidata's shared borders include sea borders – Gabon "borders" Angola)
