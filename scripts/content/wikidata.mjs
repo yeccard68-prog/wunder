@@ -152,10 +152,12 @@ const BLOCKED_NAMES = /Hitler|Stalin|Lenin|Mao Zedong|Mussolini|Karl Marx|Friedr
 /**
  * Something (?p) and one attribute (?v): painter → movement, mountain → range, lake → country … `t.query` binds ?p, ?v
  * and ?links. Exactly one value; wrong options are other values of the same template; no answer that names the subject.
+ * t.ordered: joins in the written order – for some queries the planner picks an order that runs into the 60 s timeout.
  */
 async function attribute(r, t) {
   const rows = await sparql(`
 SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
+  ${t.ordered ? 'hint:Query hint:optimizer "None".' : ""}
   ${t.query}
   ${t.valueIso ? "OPTIONAL { ?v wdt:P297 ?iso. }" : ""}
   ${t.noPersonFilter ? "" : "FILTER NOT EXISTS { ?p wdt:P106 ?occ. FILTER(?occ IN (wd:Q82955, wd:Q116, wd:Q47064, wd:Q189290, wd:Q42857)) }"}
@@ -630,9 +632,9 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
   async lakes(r) {
     return attribute(r, {
       query: `?p wdt:P31 wd:Q23397; wdt:P17 ?v; wikibase:sitelinks ?links. ?v wdt:P31 wd:Q3624078. FILTER(?links >= 50)`,
-      prefix: "wd-lake", cat: "earth", tags: ["Geografie", "Seen"], minAge: 10, noPersonFilter: true, valueIso: true,
+      prefix: "wd-lake", ordered: true, cat: "earth", tags: ["Geografie", "Seen"], minAge: 10, noPersonFilter: true, valueIso: true,
       de: (p) => `In welchem Land liegt der See „${p}“?`, en: (p) => `Which country is the lake "${p}" in?`,
-      deX: (p, v) => `Der See „${p}“ liegt in ${v}.`, enX: (p, v) => `"${p}" is in ${v}.`,
+      deX: (p, v) => `Der See „${p}“ liegt in diesem Land: ${v}.`, enX: (p, v) => `The lake "${p}" is in this country: ${v}.`,
     });
   },
   // (a professions template was tried: Wikidata often lists only some professions – Pavlov came out as a chemist –
@@ -640,8 +642,8 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
   // "Zu welchem Sternbild gehört Sirius?"
   async constellations(r) {
     return attribute(r, {
-      query: `?p wdt:P31/wdt:P279* wd:Q523; wdt:P59 ?v; wikibase:sitelinks ?links. FILTER(?links >= 40)`,
-      prefix: "wd-star", cat: "science", tags: ["Weltraum", "Sterne"], minAge: 10, noPersonFilter: true,
+      query: `?p wdt:P59 ?v; wikibase:sitelinks ?links. FILTER(?links >= 40) ?p wdt:P31/wdt:P279* wd:Q523.`,
+      prefix: "wd-star", ordered: true, cat: "science", tags: ["Weltraum", "Sterne"], minAge: 10, noPersonFilter: true,
       de: (p) => `Zu welchem Sternbild gehört der Stern „${p}“?`, en: (p) => `Which constellation is the star "${p}" in?`,
       deX: (p, v) => `Der Stern „${p}“ gehört zum Sternbild ${v}.`, enX: (p, v) => `The star "${p}" is in the constellation ${v}.`,
     });
@@ -650,9 +652,9 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
   async carbrands(r) {
     return attribute(r, {
       query: `?p wdt:P31 wd:Q786820; wdt:P17 ?v; wikibase:sitelinks ?links. ?v wdt:P31 wd:Q3624078. FILTER(?links >= 40) FILTER NOT EXISTS { ?p wdt:P576 [] }`,
-      prefix: "wd-car", cat: "business", tags: ["Unternehmen", "Autos"], minAge: 10, noPersonFilter: true, valueIso: true,
+      prefix: "wd-car", ordered: true, exclude: ["Volvo Car Corporation", "smart", "Stellantis North America", "ELBO"], cat: "business", tags: ["Unternehmen", "Autos"], minAge: 10, noPersonFilter: true, valueIso: true,
       de: (p) => `Aus welchem Land stammt der Autohersteller „${p}“?`, en: (p) => `Which country does the carmaker "${p}" come from?`,
-      deX: (p, v) => `Der Autohersteller „${p}“ stammt aus ${v}.`, enX: (p, v) => `The carmaker "${p}" comes from ${v}.`,
+      deX: (p, v) => `Der Autohersteller „${p}“ stammt aus diesem Land: ${v}.`, enX: (p, v) => `The carmaker "${p}" comes from this country: ${v}.`,
     });
   },
   // who discovered an element (one discoverer only, died before 1950)
@@ -668,17 +670,17 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
   async volcanoes(r) {
     return attribute(r, {
       query: `?p wdt:P31 ?t; wdt:P17 ?v; wikibase:sitelinks ?links. VALUES ?t { wd:Q8072 wd:Q169358 wd:Q212057 } ?v wdt:P31 wd:Q3624078. FILTER(?links >= 40)`,
-      prefix: "wd-volc", cat: "earth", tags: ["Geografie", "Vulkane"], minAge: 10, noPersonFilter: true, valueIso: true,
+      prefix: "wd-volc", ordered: true, exclude: ["Kasbek", "Amsterdam-Insel", "Sankt-Paul-Insel", "Ball’s Pyramid", "Inaccessible"], cat: "earth", tags: ["Geografie", "Vulkane"], minAge: 10, noPersonFilter: true, valueIso: true,
       de: (p) => `In welchem Land liegt der Vulkan „${p}“?`, en: (p) => `Which country is the volcano "${p}" in?`,
-      deX: (p, v) => `Der Vulkan „${p}“ liegt in ${v}.`, enX: (p, v) => `The volcano "${p}" is in ${v}.`,
+      deX: (p, v) => `Der Vulkan „${p}“ liegt in diesem Land: ${v}.`, enX: (p, v) => `The volcano "${p}" is in this country: ${v}.`,
     });
   },
   async waterfalls(r) {
     return attribute(r, {
       query: `?p wdt:P31 wd:Q34038; wdt:P17 ?v; wikibase:sitelinks ?links. ?v wdt:P31 wd:Q3624078. FILTER(?links >= 30)`,
-      prefix: "wd-fall", cat: "earth", tags: ["Geografie", "Wasserfälle"], minAge: 10, noPersonFilter: true, valueIso: true,
+      prefix: "wd-fall", ordered: true, exclude: ["Livingstonefälle"], cat: "earth", tags: ["Geografie", "Wasserfälle"], minAge: 10, noPersonFilter: true, valueIso: true,
       de: (p) => `In welchem Land liegt der Wasserfall „${p}“?`, en: (p) => `Which country is the waterfall "${p}" in?`,
-      deX: (p, v) => `Der Wasserfall „${p}“ liegt in ${v}.`, enX: (p, v) => `The waterfall "${p}" is in ${v}.`,
+      deX: (p, v) => `Der Wasserfall „${p}“ liegt in diesem Land: ${v}.`, enX: (p, v) => `The waterfall "${p}" is in this country: ${v}.`,
     });
   },
   // (deserts and football clubs were tried: too few deserts, partly not deserts; clubs came out with the city of their

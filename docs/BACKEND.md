@@ -522,3 +522,10 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Ablauf (~30 s): Die Weltkarte zoomt aufs Land, dann Flagge, Hauptstadt (vorher Schätzfrage), Fläche, höchster Punkt mit Höhe, Internetendung – soweit vorhanden.
 - Daten: `scripts/content/portraits.mjs` → `content/portraits.json` (134 Länder), ohne neue Abfragen aus `public/gen/{capitals,continents,flags,summits,domains}.json` und den Flächen/Gipfelhöhen aus `content/compare.json`. Länder ohne Hauptstadt-Karte (umstrittene Fälle wie Schweiz, Niederlande) fehlen. Quellen: Wikidata-Eintrag des Landes und die Commons-Seite der Flagge mit Urheber.
 - Im Feed zusammen mit den Größenvergleichen (Kicker „Länderporträt“), eigenes Land zuerst; per Link `/explain/?a=por-al`.
+
+## 59. Vorlagen Seen, Automarken, Vulkane, Wasserfälle (26.10.2026)
+
+- Neu: `lakes` (42), `carbrands` (50), `volcanoes` (61), `waterfalls` (25) plus je eine „Stimmt das?“-Datei (178 Karten); 120 freie Fotos (Seen, Vulkane, Wasserfälle) über `commons-images.mjs`.
+- Die Abfragen liefen bisher in den 60-s-Timeout: `attribute()` kann jetzt `ordered: true` (Joins in der geschriebenen Reihenfolge) – dieselbe Abfrage braucht dann ~2,5 s. Sternbilder bleiben draußen (Wikidata führt Millionen Himmelsobjekte mit Sternbild; nicht schnell genug filterbar), Bauwerke ebenso (Timeout).
+- Erklärungen artikelfrei („… liegt in diesem Land: Japan.“).
+- Von Hand ausgeschlossen: Volvo und smart (Eigentümer bzw. Sitz heute in China, China unter den Antworten), „Stellantis North America“, ELBO; Kasbek (Grenzberg Georgien/Russland), Amsterdam-Insel, Sankt-Paul-Insel, Ball’s Pyramid, Inaccessible (Inseln, keine bekannten Vulkane); Livingstonefälle (größtenteils DR Kongo).
