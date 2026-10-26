@@ -158,7 +158,10 @@ SELECT ?p ?pLabel ?pLabelEn ?v ?vLabel ?vLabelEn ?links ?iso WHERE {
 }`);
   const by = new Map();
   for (const x of rows) {
-    if (!named(x.pLabel, x.pLabelEn, x.vLabel, x.vLabelEn) || BLOCKED.has(qid(x.p)) || BLOCKED_NAMES.test(x.pLabelEn)) continue;
+    if (!named(x.pLabel, x.pLabelEn, x.vLabel, x.vLabelEn) || BLOCKED.has(qid(x.p)) || BLOCKED_NAMES.test(x.pLabelEn) || t.exclude?.includes(x.pLabel)) continue;
+    // t.normalize: fold sub-labels into one ("Hochrenaissance" → "Renaissance"), so no two options are both right
+    const norm = t.normalize?.[x.vLabel];
+    if (norm) Object.assign(x, { v: "norm:" + norm[0], vLabel: norm[0], vLabelEn: norm[1] });
     const e = by.get(qid(x.p)) ?? { id: qid(x.p), de: x.pLabel, en: x.pLabelEn, links: +x.links, values: new Map() };
     e.values.set(qid(x.v), { id: qid(x.v), de: x.vLabel, en: x.vLabelEn, iso: x.iso, group: "all" });
     by.set(e.id, e);
@@ -596,7 +599,11 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
   async movements(r) {
     return attribute(r, {
       query: `?p wdt:P106 wd:Q1028181; wdt:P570 ?died; wdt:P135 ?v; wikibase:sitelinks ?links. FILTER(YEAR(?died) < 1950 && ?links >= 60)`,
-      prefix: "wd-move", cat: "culture", tags: ["Kunst", "Malerei"], minAge: 13,
+      prefix: "wd-move2", cat: "culture", tags: ["Kunst", "Malerei"], minAge: 13,
+      normalize: Object.fromEntries([
+        ...["Italienische Renaissance", "Deutsche Renaissance", "Frührenaissance", "Hochrenaissance", "Nordische Renaissance", "Manierismus"].map((k) => [k, ["Renaissance", "Renaissance"]]),
+        ["barocke Malerei", ["Barock", "Baroque"]],
+      ]),
       de: (p) => `Malerei: Zu welcher Kunstrichtung wird ${p} gezählt?`, en: (p) => `Painting: Which art movement is ${p} associated with?`, minUses: 2,
       deX: (p, v) => `${p} wird zur Kunstrichtung ${v} gezählt.`, enX: (p, v) => `${p} is associated with ${v}.`,
     });
@@ -612,15 +619,8 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
     });
   },
   // (a writing-system template was tried: "Latin script" and "Latin alphabet" both came up as options – left out)
-  // "Zu welchem Gebirge gehört das Matterhorn?"
-  async ranges(r) {
-    return attribute(r, {
-      query: `?p wdt:P31 wd:Q8502; wdt:P4552 ?v; wikibase:sitelinks ?links. FILTER(?links >= 45)`,
-      prefix: "wd-range", cat: "earth", tags: ["Geografie", "Berge"], minAge: 10, noPersonFilter: true,
-      de: (p) => `Zu welchem Gebirge gehört der Berg „${p}“?`, en: (p) => `Which mountain range is "${p}" part of?`,
-      deX: (p, v) => `Der Berg „${p}“ gehört zum Gebirge ${v}.`, enX: (p, v) => `"${p}" is part of the ${v}.`,
-    });
-  },
+  // (a mountain-range template was published and withdrawn on 26.10.2026: wrong pairs such as Mount Kenya → Kilimanjaro, and
+  // sub-ranges next to their parent range – Mahalangur Himal and Himalaya would both be right)
   // lakes that lie in exactly one country
   async lakes(r) {
     return attribute(r, {
@@ -683,6 +683,8 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
     return attribute(r, {
       query: `VALUES ?v { wd:Q1798603 wd:Q173453 wd:Q133163 wd:Q52954 } ?p wdt:P279+ ?v; wikibase:sitelinks ?links. FILTER(?links >= 40)`,
       prefix: "wd-instr", cat: "culture", tags: ["Musik", "Instrumente"], minAge: 6, noPersonFilter: true,
+      // wrong in Wikidata (harmonica as keyboard, jaw harp as string instrument), not an instrument, or fits two families
+      exclude: ["Mundharmonika", "Bandoneon", "Akkordeon", "Zymbal", "Stimmgabel", "Maultrommel", "Streichinstrument", "Fender Stratocaster", "Drehorgel"],
       de: (p) => `Zu welcher Gruppe von Musikinstrumenten gehört das Instrument „${p}“?`, en: (p) => `Which family of musical instruments does the "${p}" belong to?`,
       deX: (p, v) => `Das Instrument „${p}“ gehört zur Gruppe ${v}.`, enX: (p, v) => `The ${p} belongs to the family: ${v}.`,
     });
