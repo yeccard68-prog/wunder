@@ -62,6 +62,9 @@ Maßstab: Was verhindert eine Veröffentlichung in den Stores, was bringt Lernen
 
 Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, Freundesliste und Profile anderer (brauchen weitere Moderation), Bereich für Jüngere (braucht Einwilligung der Eltern), Herz und andere organische 3D-Modelle (brauchen lizenzierte Modelle).
 
+Ideen aus Hinweisen der App:
+- Animation „Photosynthese“ (a-photosynthese): Das Blatt wirkt „komisch“ (Hinweis #26, 26.10.2026) – die Mittelrippe läuft als gerade Linie über das ganze Blatt hinaus; ein Blattstiel nur auf einer Seite und eine leicht gewölbte Blattform wären natürlicher.
+
 ## Vorschlag: Zeitplan bis zur Veröffentlichung (Stand 19.10.2026)
 
 Ohne feste Frist, aber in einer sinnvollen Reihenfolge – die Wochen sind Richtwerte, keine Zusagen:

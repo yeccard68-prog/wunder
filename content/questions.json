@@ -34686,5 +34686,445 @@
         "explanation": "Low German is popularly called Plattdeutsch. A shared written Low German existed until the 16th century; today it is split into many dialects."
       }
     }
+  },
+  {
+    "id": "s57",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum schwimmt Eis auf Wasser?",
+    "options": [
+      "Weil kaltes Wasser nach oben steigt",
+      "Weil im Eis Luftblasen eingeschlossen sind, die es tragen",
+      "Weil Eis eine geringere Dichte hat als flüssiges Wasser",
+      "Weil Eis wasserabweisend ist"
+    ],
+    "correct_index": 2,
+    "explanation": "Das ist die Dichteanomalie des Wassers: Festes Eis hat eine geringere Dichte als flüssiges Wasser – darum schwimmt es oben.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dichteanomalie",
+    "source_url": "https://de.wikipedia.org/wiki/Dichteanomalie",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does ice float on water?",
+        "options": [
+          "Because cold water rises",
+          "Because air bubbles trapped in the ice hold it up",
+          "Because ice is less dense than liquid water",
+          "Because ice repels water"
+        ],
+        "explanation": "This is water's density anomaly: solid ice is less dense than liquid water, so it floats on top."
+      }
+    }
+  },
+  {
+    "id": "s58",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie entstehen die Farben eines Regenbogens?",
+    "options": [
+      "Der Wind mischt Licht und Wasser",
+      "Die Regentropfen sind unterschiedlich gefärbt",
+      "Die Wolken färben das Licht ein",
+      "Das Sonnenlicht wird in den Regentropfen gebrochen und in Farben aufgefächert"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Farben entstehen durch Brechung des Sonnenlichts in den Wassertropfen – wie in einem Prisma wird jede Farbe unterschiedlich stark abgelenkt.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Regenbogen",
+    "source_url": "https://de.wikipedia.org/wiki/Regenbogen",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do the colours of a rainbow come about?",
+        "options": [
+          "The wind mixes light and water",
+          "The raindrops have different colours",
+          "The clouds tint the light",
+          "Sunlight is refracted in the raindrops and fanned out into colours"
+        ],
+        "explanation": "The colours come from sunlight being refracted in the water droplets – as in a prism, each colour is bent by a different amount."
+      }
+    }
+  },
+  {
+    "id": "g48",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wozu leuchten Glühwürmchen (Leuchtkäfer) meistens?",
+    "options": [
+      "Damit Männchen und Weibchen zur Paarung zueinanderfinden",
+      "Um im Dunkeln den Weg zu sehen",
+      "Um sich zu wärmen",
+      "Um Pflanzen beim Wachsen zu helfen"
+    ],
+    "correct_index": 0,
+    "explanation": "In den meisten Fällen senden Leuchtkäfer ihre Lichtsignale aus, damit männliche und weibliche Tiere zur Paarung zueinanderfinden.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leuchtkäfer",
+    "source_url": "https://de.wikipedia.org/wiki/Leuchtkäfer",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do fireflies mostly glow for?",
+        "options": [
+          "So that males and females find each other to mate",
+          "To see their way in the dark",
+          "To keep warm",
+          "To help plants grow"
+        ],
+        "explanation": "In most cases fireflies send their light signals so that males and females find each other to mate."
+      }
+    }
+  },
+  {
+    "id": "t49",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie kühlt ein Kühlschrank seinen Innenraum?",
+    "options": [
+      "Er erzeugt Kälte aus Eiswürfeln",
+      "Er bläst kalte Außenluft hinein",
+      "Er entzieht dem Innenraum Wärme und gibt sie nach außen ab",
+      "Er hält Wärme nur durch dicke Wände ab"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei allen Kühlschranktypen wird dem Innenraum Wärme entzogen und an die Umgebung abgegeben.",
+    "difficulty": 1,
+    "tags": [
+      "Technik",
+      "Haushalt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kühlschrank",
+    "source_url": "https://de.wikipedia.org/wiki/Kühlschrank",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a fridge cool its inside?",
+        "options": [
+          "It makes cold from ice cubes",
+          "It blows in cold outside air",
+          "It takes heat out of the inside and releases it outside",
+          "It only keeps heat out with thick walls"
+        ],
+        "explanation": "In every type of fridge, heat is taken out of the inside and released to the surroundings."
+      }
+    }
+  },
+  {
+    "id": "l65",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher hat der Montag seinen Namen?",
+    "options": [
+      "Vom Mond – nach dem lateinischen „Tag der Luna“",
+      "Von einem Berg, auf dem man montags betete",
+      "Vom Wort „Montage“ für Arbeit",
+      "Von einem römischen Kaiser"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Name ist eine Lehnübersetzung aus dem lateinischen Dies Lunae, „Tag der Luna“ – der Mondgöttin.",
+    "difficulty": 1,
+    "tags": [
+      "Wortherkunft",
+      "Wochentage"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Montag",
+    "source_url": "https://de.wikipedia.org/wiki/Montag",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German word for Monday, „Montag“, come from?",
+        "options": [
+          "From the moon – after the Latin \"day of Luna\"",
+          "From a mountain where people prayed on Mondays",
+          "From the word \"Montage\" for work",
+          "From a Roman emperor"
+        ],
+        "explanation": "The name is a loan translation of the Latin Dies Lunae, \"day of Luna\" – the moon goddess."
+      }
+    }
+  },
+  {
+    "id": "g49",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie viel Salz enthält ein Kilogramm Meerwasser im Durchschnitt?",
+    "options": [
+      "Etwa 3,5 Gramm",
+      "Etwa 35 Gramm",
+      "Etwa 150 Gramm",
+      "Etwa 350 Gramm"
+    ],
+    "correct_index": 1,
+    "explanation": "Meerwasser hat im Schnitt 3,5 % Salz – das sind 35 Gramm pro Kilogramm. Das Tote Meer ist mit 28 % weit salziger.",
+    "difficulty": 2,
+    "tags": [
+      "Meer",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meerwasser",
+    "source_url": "https://de.wikipedia.org/wiki/Meerwasser",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On average, how much salt is in one kilogram of sea water?",
+        "options": [
+          "About 3.5 grams",
+          "About 35 grams",
+          "About 150 grams",
+          "About 350 grams"
+        ],
+        "explanation": "Sea water averages 3.5% salt – that is 35 grams per kilogram. The Dead Sea, at 28%, is far saltier."
+      }
+    }
+  },
+  {
+    "id": "h51",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Nach wem ist der Kontinent Amerika benannt?",
+    "options": [
+      "Nach Christoph Kolumbus",
+      "Nach Amerigo Vespucci",
+      "Nach Ferdinand Magellan",
+      "Nach Vasco da Gama"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Name Amerika wurde vom Vornamen des Italieners Amerigo Vespucci (1451–1512) abgeleitet.",
+    "difficulty": 1,
+    "tags": [
+      "Entdeckungen",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Amerika",
+    "source_url": "https://de.wikipedia.org/wiki/Amerika",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is the continent of America named after?",
+        "options": [
+          "Christopher Columbus",
+          "Amerigo Vespucci",
+          "Ferdinand Magellan",
+          "Vasco da Gama"
+        ],
+        "explanation": "The name America was derived from the first name of the Italian Amerigo Vespucci (1451–1512)."
+      }
+    }
+  },
+  {
+    "id": "sp54",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bei welchen Olympischen Spielen war die Marathonstrecke zum ersten Mal 42,195 km lang?",
+    "options": [
+      "1896 in Athen",
+      "1900 in Paris",
+      "1908 in London",
+      "1912 in Stockholm"
+    ],
+    "correct_index": 2,
+    "explanation": "1908 in London maß die Strecke laut Vermessungsprotokoll 26 Meilen 385 Yards – umgerechnet 42,195 km. Festgelegt wurde diese Länge 1921.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marathonlauf",
+    "source_url": "https://de.wikipedia.org/wiki/Marathonlauf",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At which Olympic Games was the marathon first 42.195 km long?",
+        "options": [
+          "1896 in Athens",
+          "1900 in Paris",
+          "1908 in London",
+          "1912 in Stockholm"
+        ],
+        "explanation": "In London in 1908 the course measured 26 miles 385 yards according to the survey – 42.195 km. The length was fixed in 1921."
+      }
+    }
+  },
+  {
+    "id": "g50",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum werden viele Blätter im Herbst gelb?",
+    "options": [
+      "Die Bäume nehmen gelbe Farbstoffe aus dem Boden auf",
+      "Die Blätter trocknen in der Sonne aus und verbleichen",
+      "Der erste Frost färbt die Blätter gelb",
+      "Das grüne Chlorophyll wird abgebaut, und die gelblich-roten Carotinoide werden sichtbar"
+    ],
+    "correct_index": 3,
+    "explanation": "Das grüne Chlorophyll wird zu farblosen Formen umgebaut. So kommen die gelblich-roten Carotinoide zum Vorschein, die schon im Blatt sind.",
+    "difficulty": 1,
+    "tags": [
+      "Pflanzen",
+      "Jahreszeiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Laub (Botanik)",
+    "source_url": "https://de.wikipedia.org/wiki/Laub_(Botanik)",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do many leaves turn yellow in autumn?",
+        "options": [
+          "The trees take up yellow dyes from the soil",
+          "The leaves dry out in the sun and fade",
+          "The first frost dyes the leaves yellow",
+          "The green chlorophyll is broken down and the yellow-red carotenoids become visible"
+        ],
+        "explanation": "The green chlorophyll is converted into colourless forms. This reveals the yellow-red carotenoids that are already in the leaf."
+      }
+    }
+  },
+  {
+    "id": "s59",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum sehen wir den Mond mal als Sichel und mal als volle Scheibe?",
+    "options": [
+      "Wir sehen jeweils einen anderen Anteil seiner von der Sonne beleuchteten Seite",
+      "Der Schatten der Erde bedeckt ihn unterschiedlich stark",
+      "Wolken verdecken immer einen Teil",
+      "Der Mond leuchtet selbst mal heller, mal dunkler"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Mondphase ist der Anteil der von der Sonne beleuchteten und von der Erde aus sichtbaren Mondoberfläche. Ab Neumond nimmt er zu und danach wieder ab.",
+    "difficulty": 2,
+    "tags": [
+      "Astronomie",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mondphase",
+    "source_url": "https://de.wikipedia.org/wiki/Mondphase",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do we sometimes see the moon as a crescent and sometimes as a full disc?",
+        "options": [
+          "We see a different share of its sunlit side each time",
+          "The Earth's shadow covers it by different amounts",
+          "Clouds always hide part of it",
+          "The moon itself glows brighter or dimmer"
+        ],
+        "explanation": "The moon's phase is the share of its surface that is lit by the Sun and visible from Earth. It grows from new moon and then shrinks again."
+      }
+    }
+  },
+  {
+    "id": "e53",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Warum haben manche Münzen einen geriffelten oder beschrifteten Rand?",
+    "options": [
+      "Damit man erkennt, wenn jemand Edelmetall abgefeilt hat",
+      "Damit sie nicht vom Tisch rollen",
+      "Damit sie schwerer werden",
+      "Damit sie besser in Automaten passen"
+    ],
+    "correct_index": 0,
+    "explanation": "Münzen werden gerändelt, damit das Abschleifen oder Abfeilen von Edelmetall am Rand leichter erkennbar ist.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rändelung",
+    "source_url": "https://de.wikipedia.org/wiki/Rändelung",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do some coins have a ridged or lettered edge?",
+        "options": [
+          "So that you can tell if someone has filed off precious metal",
+          "So that they don't roll off the table",
+          "So that they are heavier",
+          "So that they fit vending machines better"
+        ],
+        "explanation": "Coins are milled so that grinding or filing precious metal off the edge is easier to spot."
+      }
+    }
   }
 ]
