@@ -1,0 +1,40 @@
+// Content batch (26.10.2026): 8 "why / where from" questions on maths words, history words, Mars, snow and the Dead Sea.
+// Every statement is taken from the linked article, word-for-word evidence below. AI-checked.
+//   node scripts/content/apply-batch.mjs content/_batches/2026-10-warum-4.mjs
+//
+// Evidence (de.wikipedia.org):
+//   Algebra: "Die Algebra (von arabisch الجبر, DMG al-ǧabr „das Zusammenfügen gebrochener Teile“)" · "(„Das kurz gefasste Buch
+//     über die Rechenverfahren durch Ergänzen und Ausgleichen“, entstanden um 825) des persischen Mathematikers und
+//     Universalgelehrten al-Chwarizmi, der im 9. Jahrhundert in Bagdad wirkte"
+//   Prozent: "Zahlenangaben in Prozent (von lateinisch-italienisch per cento „von Hundert, Hundertstel“)"
+//   Geometrie: "Die Geometrie (altgriechisch γεωμετρία geometria, ionisch γεωμετρίη geometriē, ‚Erdmaße‘, ‚Erdmessung‘,
+//     ‚Landmessung‘) ist ein Teilgebiet der Mathematik."
+//   Renaissance: "das französische Wort für „Wiedergeburt“" · "Kennzeichnend war die Wiederbelebung der kulturellen Leistungen
+//     der griechischen und römischen Antike"
+//   Hanse: "Die Benennung Hanse leitet sich vom althochdeutschen und altsächsischen Wort hansa ab, das im Hochmittelalter zur
+//     Übersetzung des lateinischen cohors („Gefolge, Schar, Gruppe“) wurde" · "Bei der frühen Hanse handelte es sich um den
+//     freien Zusammenschluss von Kaufleuten, die den Schutz der Gruppe für die gefahrvolle Reise suchten"
+//   Mars (Planet): "Der Mars wird auch als der Rote Planet bezeichnet. Diese Färbung geht auf Eisenoxid-Staub (Rost) zurück, der
+//     sich auf der Oberfläche und in der dünnen CO2-Atmosphäre verteilt hat."
+//   Schnee: "Die weiße Farbe des Schnees liegt darin begründet, dass der Schnee aus Eiskristallen besteht. Jeder einzelne Kristall
+//     ist – wie Eis als solches – transparent; das Licht aller sichtbaren Wellenlängen wird an den Grenzflächen zwischen den
+//     Eiskristallen und der umgebenden Luft reflektiert und gestreut."
+//   Totes Meer: "Das Tote Meer ist der am tiefsten unter dem Meeresspiegel gelegene See der Erde." · "ein abflussloser See, der
+//     mehr als 440 m unter dem Meeresspiegel liegt"
+import { balance } from "./_balance.mjs";
+
+export const LOCALE = "en";
+export const TODAY = "2026-10-26";
+export const verification = "ai_checked";
+
+// [id, category, difficulty, minAge, maxAge, question, options, correct, explanation, wiki, enQuestion, enOptions, enExplanation, tags]
+export const questions = balance([
+  ["m46", "math", 2, 10, null, "Aus welcher Sprache stammt das Wort „Algebra“?", ["Aus dem Arabischen", "Aus dem Griechischen", "Aus dem Lateinischen", "Aus dem Hebräischen"], 0, "Algebra kommt vom arabischen al-ǧabr, „das Zusammenfügen gebrochener Teile“ – aus dem Titel eines Rechenbuchs des persischen Mathematikers al-Chwarizmi von etwa 825.", "Algebra", "Which language does the word \"algebra\" come from?", ["Arabic", "Greek", "Latin", "Hebrew"], "Algebra comes from the Arabic al-jabr, \"the joining of broken parts\" – from the title of a book on calculation by the Persian mathematician al-Khwarizmi from around 825.", ["Mathe", "Wortherkunft"]],
+  ["m47", "math", 1, 10, null, "Was bedeutet das Wort „Prozent“ wörtlich?", ["„Von Hundert“", "„Teil vom Ganzen“", "„Zehnmal zehn“", "„Mehr als die Hälfte“"], 0, "Prozent kommt vom lateinisch-italienischen per cento, „von Hundert, Hundertstel“.", "Prozent", "What does the word \"percent\" literally mean?", ["\"Of a hundred\"", "\"Part of the whole\"", "\"Ten times ten\"", "\"More than half\""], "Percent comes from the Latin-Italian per cento, \"of a hundred, hundredth\".", ["Mathe", "Wortherkunft"]],
+  ["m48", "math", 2, 10, null, "Was bedeutet das altgriechische Wort „Geometrie“ wörtlich?", ["„Erdmessung“", "„Formenlehre“", "„Zahlenkunst“", "„Linienzeichnen“"], 0, "Geometrie kommt vom altgriechischen geometria – „Erdmaße“, „Erdmessung“, „Landmessung“.", "Geometrie", "What does the ancient Greek word \"geometry\" literally mean?", ["\"Earth measurement\"", "\"Study of shapes\"", "\"Art of numbers\"", "\"Drawing lines\""], "Geometry comes from the ancient Greek geometria – \"measuring the earth\", \"land measurement\".", ["Mathe", "Wortherkunft"]],
+  ["h52", "history", 1, 10, null, "Was bedeutet das französische Wort „Renaissance“, nach dem eine Kulturepoche benannt ist?", ["„Wiedergeburt“", "„Aufbruch“", "„Neue Welt“", "„Erleuchtung“"], 0, "Renaissance ist das französische Wort für „Wiedergeburt“. Kennzeichnend für die Epoche war die Wiederbelebung der Kultur der griechischen und römischen Antike.", "Renaissance", "What does the French word \"Renaissance\", which names a cultural era, mean?", ["\"Rebirth\"", "\"Departure\"", "\"New world\"", "\"Enlightenment\""], "Renaissance is the French word for \"rebirth\". The era was marked by the revival of the culture of Greek and Roman antiquity.", ["Epochen", "Wortherkunft"]],
+  ["h53", "history", 2, 10, null, "Was bedeutete das alte Wort „hansa“, von dem der Name der Hanse kommt?", ["„Gefolge, Schar, Gruppe“", "„Hafen“", "„Handel“", "„Kogge“"], 0, "Hanse kommt vom althochdeutschen und altsächsischen hansa, das das lateinische cohors übersetzte: „Gefolge, Schar, Gruppe“. Die frühe Hanse war ein Zusammenschluss von Kaufleuten, die gemeinsam sicherer reisten.", "Hanse", "What did the old word \"hansa\", from which the Hanseatic League takes its name, mean?", ["\"Following, band, group\"", "\"Harbour\"", "\"Trade\"", "\"Cog (ship)\""], "Hanse comes from the Old High German and Old Saxon hansa, which translated the Latin cohors: \"following, band, group\". The early Hansa was a union of merchants who travelled more safely together.", ["Mittelalter", "Handel"]],
+  ["s60", "science", 1, 10, null, "Warum ist der Mars rot?", ["Wegen Eisenoxid-Staub – also Rost", "Weil er sehr heiß ist", "Weil er Licht von der Sonne rot färbt", "Wegen roter Pflanzen auf seiner Oberfläche"], 0, "Der Mars heißt der Rote Planet, weil Eisenoxid-Staub – Rost – auf seiner Oberfläche und in seiner dünnen Atmosphäre verteilt ist.", "Mars_(Planet)", "Why is Mars red?", ["Because of iron oxide dust – rust", "Because it is very hot", "Because it turns sunlight red", "Because of red plants on its surface"], "Mars is called the Red Planet because iron oxide dust – rust – is spread over its surface and in its thin atmosphere.", ["Weltraum", "Planeten"]],
+  ["s61", "science", 2, 10, null, "Warum ist Schnee weiß, obwohl Eis durchsichtig ist?", ["Das Licht wird an den vielen Eiskristallen in alle Richtungen zurückgeworfen und gestreut", "Im Schnee ist weißer Staub aus den Wolken", "Kälte färbt Wasser weiß", "Schneeflocken enthalten Kalk"], 0, "Jeder einzelne Eiskristall ist durchsichtig. Doch an den Grenzflächen zwischen den vielen Kristallen und der Luft wird Licht aller Farben reflektiert und gestreut – so erscheint Schnee weiß.", "Schnee", "Why is snow white, even though ice is clear?", ["Light is reflected and scattered in all directions by the many ice crystals", "Snow contains white dust from the clouds", "Cold turns water white", "Snowflakes contain lime"], "Each ice crystal on its own is clear. But at the boundaries between the many crystals and the air, light of all colours is reflected and scattered – so snow looks white.", ["Physik", "Wetter"]],
+  ["g51", "earth", 1, 10, null, "Was ist das Besondere an der Lage des Toten Meeres?", ["Es ist der am tiefsten unter dem Meeresspiegel gelegene See der Erde", "Es ist der höchstgelegene See der Erde", "Es liegt genau auf dem Äquator", "Es ist der größte See der Erde"], 0, "Das Tote Meer liegt mehr als 440 Meter unter dem Meeresspiegel – es ist der am tiefsten gelegene See der Erde.", "Totes_Meer", "What is special about where the Dead Sea lies?", ["It is the lake lying furthest below sea level on Earth", "It is the highest lake on Earth", "It lies exactly on the equator", "It is the largest lake on Earth"], "The Dead Sea lies more than 440 metres below sea level – it is the lowest-lying lake on Earth.", ["Geografie", "Seen"]],
+]);

@@ -35844,5 +35844,325 @@
         "explanation": "From 1971 the company made its own shoes under the name Nike – named after the Greek goddess of victory."
       }
     }
+  },
+  {
+    "id": "m46",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Aus welcher Sprache stammt das Wort „Algebra“?",
+    "options": [
+      "Aus dem Arabischen",
+      "Aus dem Griechischen",
+      "Aus dem Lateinischen",
+      "Aus dem Hebräischen"
+    ],
+    "correct_index": 0,
+    "explanation": "Algebra kommt vom arabischen al-ǧabr, „das Zusammenfügen gebrochener Teile“ – aus dem Titel eines Rechenbuchs des persischen Mathematikers al-Chwarizmi von etwa 825.",
+    "difficulty": 2,
+    "tags": [
+      "Mathe",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Algebra",
+    "source_url": "https://de.wikipedia.org/wiki/Algebra",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word \"algebra\" come from?",
+        "options": [
+          "Arabic",
+          "Greek",
+          "Latin",
+          "Hebrew"
+        ],
+        "explanation": "Algebra comes from the Arabic al-jabr, \"the joining of broken parts\" – from the title of a book on calculation by the Persian mathematician al-Khwarizmi from around 825."
+      }
+    }
+  },
+  {
+    "id": "m47",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was bedeutet das Wort „Prozent“ wörtlich?",
+    "options": [
+      "„Teil vom Ganzen“",
+      "„Von Hundert“",
+      "„Zehnmal zehn“",
+      "„Mehr als die Hälfte“"
+    ],
+    "correct_index": 1,
+    "explanation": "Prozent kommt vom lateinisch-italienischen per cento, „von Hundert, Hundertstel“.",
+    "difficulty": 1,
+    "tags": [
+      "Mathe",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prozent",
+    "source_url": "https://de.wikipedia.org/wiki/Prozent",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the word \"percent\" literally mean?",
+        "options": [
+          "\"Part of the whole\"",
+          "\"Of a hundred\"",
+          "\"Ten times ten\"",
+          "\"More than half\""
+        ],
+        "explanation": "Percent comes from the Latin-Italian per cento, \"of a hundred, hundredth\"."
+      }
+    }
+  },
+  {
+    "id": "m48",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was bedeutet das altgriechische Wort „Geometrie“ wörtlich?",
+    "options": [
+      "„Zahlenkunst“",
+      "„Formenlehre“",
+      "„Erdmessung“",
+      "„Linienzeichnen“"
+    ],
+    "correct_index": 2,
+    "explanation": "Geometrie kommt vom altgriechischen geometria – „Erdmaße“, „Erdmessung“, „Landmessung“.",
+    "difficulty": 2,
+    "tags": [
+      "Mathe",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geometrie",
+    "source_url": "https://de.wikipedia.org/wiki/Geometrie",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the ancient Greek word \"geometry\" literally mean?",
+        "options": [
+          "\"Art of numbers\"",
+          "\"Study of shapes\"",
+          "\"Earth measurement\"",
+          "\"Drawing lines\""
+        ],
+        "explanation": "Geometry comes from the ancient Greek geometria – \"measuring the earth\", \"land measurement\"."
+      }
+    }
+  },
+  {
+    "id": "h52",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was bedeutet das französische Wort „Renaissance“, nach dem eine Kulturepoche benannt ist?",
+    "options": [
+      "„Neue Welt“",
+      "„Aufbruch“",
+      "„Wiedergeburt“",
+      "„Erleuchtung“"
+    ],
+    "correct_index": 2,
+    "explanation": "Renaissance ist das französische Wort für „Wiedergeburt“. Kennzeichnend für die Epoche war die Wiederbelebung der Kultur der griechischen und römischen Antike.",
+    "difficulty": 1,
+    "tags": [
+      "Epochen",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Renaissance",
+    "source_url": "https://de.wikipedia.org/wiki/Renaissance",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the French word \"Renaissance\", which names a cultural era, mean?",
+        "options": [
+          "\"New world\"",
+          "\"Departure\"",
+          "\"Rebirth\"",
+          "\"Enlightenment\""
+        ],
+        "explanation": "Renaissance is the French word for \"rebirth\". The era was marked by the revival of the culture of Greek and Roman antiquity."
+      }
+    }
+  },
+  {
+    "id": "h53",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was bedeutete das alte Wort „hansa“, von dem der Name der Hanse kommt?",
+    "options": [
+      "„Kogge“",
+      "„Hafen“",
+      "„Handel“",
+      "„Gefolge, Schar, Gruppe“"
+    ],
+    "correct_index": 3,
+    "explanation": "Hanse kommt vom althochdeutschen und altsächsischen hansa, das das lateinische cohors übersetzte: „Gefolge, Schar, Gruppe“. Die frühe Hanse war ein Zusammenschluss von Kaufleuten, die gemeinsam sicherer reisten.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hanse",
+    "source_url": "https://de.wikipedia.org/wiki/Hanse",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the old word \"hansa\", from which the Hanseatic League takes its name, mean?",
+        "options": [
+          "\"Cog (ship)\"",
+          "\"Harbour\"",
+          "\"Trade\"",
+          "\"Following, band, group\""
+        ],
+        "explanation": "Hanse comes from the Old High German and Old Saxon hansa, which translated the Latin cohors: \"following, band, group\". The early Hansa was a union of merchants who travelled more safely together."
+      }
+    }
+  },
+  {
+    "id": "s60",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum ist der Mars rot?",
+    "options": [
+      "Weil er Licht von der Sonne rot färbt",
+      "Weil er sehr heiß ist",
+      "Wegen Eisenoxid-Staub – also Rost",
+      "Wegen roter Pflanzen auf seiner Oberfläche"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Mars heißt der Rote Planet, weil Eisenoxid-Staub – Rost – auf seiner Oberfläche und in seiner dünnen Atmosphäre verteilt ist.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mars (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Mars_(Planet)",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is Mars red?",
+        "options": [
+          "Because it turns sunlight red",
+          "Because it is very hot",
+          "Because of iron oxide dust – rust",
+          "Because of red plants on its surface"
+        ],
+        "explanation": "Mars is called the Red Planet because iron oxide dust – rust – is spread over its surface and in its thin atmosphere."
+      }
+    }
+  },
+  {
+    "id": "s61",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum ist Schnee weiß, obwohl Eis durchsichtig ist?",
+    "options": [
+      "Schneeflocken enthalten Kalk",
+      "Im Schnee ist weißer Staub aus den Wolken",
+      "Kälte färbt Wasser weiß",
+      "Das Licht wird an den vielen Eiskristallen in alle Richtungen zurückgeworfen und gestreut"
+    ],
+    "correct_index": 3,
+    "explanation": "Jeder einzelne Eiskristall ist durchsichtig. Doch an den Grenzflächen zwischen den vielen Kristallen und der Luft wird Licht aller Farben reflektiert und gestreut – so erscheint Schnee weiß.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schnee",
+    "source_url": "https://de.wikipedia.org/wiki/Schnee",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is snow white, even though ice is clear?",
+        "options": [
+          "Snowflakes contain lime",
+          "Snow contains white dust from the clouds",
+          "Cold turns water white",
+          "Light is reflected and scattered in all directions by the many ice crystals"
+        ],
+        "explanation": "Each ice crystal on its own is clear. But at the boundaries between the many crystals and the air, light of all colours is reflected and scattered – so snow looks white."
+      }
+    }
+  },
+  {
+    "id": "g51",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist das Besondere an der Lage des Toten Meeres?",
+    "options": [
+      "Es ist der am tiefsten unter dem Meeresspiegel gelegene See der Erde",
+      "Es ist der höchstgelegene See der Erde",
+      "Es liegt genau auf dem Äquator",
+      "Es ist der größte See der Erde"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Tote Meer liegt mehr als 440 Meter unter dem Meeresspiegel – es ist der am tiefsten gelegene See der Erde.",
+    "difficulty": 1,
+    "tags": [
+      "Geografie",
+      "Seen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Totes Meer",
+    "source_url": "https://de.wikipedia.org/wiki/Totes_Meer",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about where the Dead Sea lies?",
+        "options": [
+          "It is the lake lying furthest below sea level on Earth",
+          "It is the highest lake on Earth",
+          "It lies exactly on the equator",
+          "It is the largest lake on Earth"
+        ],
+        "explanation": "The Dead Sea lies more than 440 metres below sea level – it is the lowest-lying lake on Earth."
+      }
+    }
   }
 ]

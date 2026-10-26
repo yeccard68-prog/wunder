@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-10-26 · 2026-10-warum-4 · 8 Fragen · Algebra, Prozent, Geometrie (Wortherkunft), Renaissance, Hanse, roter Mars, weißer Schnee, Lage des Toten Meeres · Belege wörtlich aus den verlinkten Artikeln · verworfen: 360 Grad (kein Beleg zur Herkunft), Ebbe und Flut (gibt es schon).
+
 - 2026-10-26 · 2026-10-warum-3 · 9 Fragen zu Kultur, Sport und Markennamen · Oboe stimmt das Orchester, toi toi toi, Museum, Derby, Tennis, Badminton, Haribo, Audi, Nike · Belege wörtlich aus den verlinkten Artikeln · Derby und Tennis ausdrücklich als mögliche bzw. wahrscheinlichste Herkunft formuliert (so im Artikel) · verworfen: WM-Ball Telstar (kein deutscher Artikel).
 
 - 2026-10-26 · 2026-10-warum-2 · 9 Fragen zu Technik, Geldwörtern und Wortherkunft · Mikrowelle, QR (Name, ursprünglicher Zweck), Dollar, Bank, Börse, Pleite, Tschüss, Kaffee · Belege wörtlich aus den verlinkten Artikeln · bei „Börse“ die belegte Brügger Familie „van de Borse“ statt der verbreiteten Van-der-Beurze-Geschichte (laut Artikel ein Irrglaube) · verworfen: GPS und Computer-„Bug“ (gibt es schon).
