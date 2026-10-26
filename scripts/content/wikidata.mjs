@@ -390,6 +390,100 @@ SELECT ?c ?cLabel ?cLabelEn ?iso WHERE { ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso. 
       };
     }), keep.map((e) => e.links));
   },
+  // "Peru: Auf welchem Kontinent liegt das Land?" – countries on exactly one continent (easy, also for children)
+  async continents(r) {
+    const list = await countryValues("P30");
+    const pool = [...new Map(list.map((e) => [e.value.id, { ...e.value, group: "all" }])).values()].filter((c) => c.id !== "Q51"); // not Antarctica
+    return byFame(list.filter((e) => e.links >= 150).map((e) => {
+      const id = `wd-cont-${e.id}`;
+      const o = arrange(id, e.value, wrongOptions(e.value, pool, "all", r));
+      return {
+        id, category_id: "earth", min_age: 6, countries: [e.iso], tags: ["Geografie", "Kontinente"],
+        question: `${e.de}: Auf welchem Kontinent liegt das Land?`, options: o.de, correct_index: o.correct,
+        explanation: `${e.de} liegt in ${e.value.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `${e.en}: Which continent is the country in?`, options: o.en, explanation: `${e.en} is in ${e.value.en}.` } },
+      };
+    }), list.filter((e) => e.links >= 150).map((e) => e.links));
+  },
+  // highest point of a country (P610)
+  async summits(r) {
+    const list = await countryValues("P610");
+    const pool = list.map((e) => ({ ...e.value, group: e.cont }));
+    const keep = list.filter((e) => e.links >= 150 && !givesAway(e.de, e.value.de) && !givesAway(e.en, e.value.en));
+    return byFame(keep.map((e) => {
+      const id = `wd-peak-${e.id}`;
+      const o = arrange(id, e.value, wrongOptions(e.value, pool, e.cont, r));
+      return {
+        id, category_id: "earth", min_age: 10, countries: [e.iso], tags: ["Geografie", "Berge"],
+        question: `${e.de}: Wie heißt der höchste Punkt des Landes?`, options: o.de, correct_index: o.correct,
+        explanation: `Der höchste Punkt von ${e.de} ist ${e.value.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `${e.en}: What is the country's highest point?`, options: o.en, explanation: `The highest point of ${e.en} is ${e.value.en}.` } },
+      };
+    }), keep.map((e) => e.links));
+  },
+  // country code top-level domains (.de, .fr …)
+  async domains(r) {
+    const list = (await countryValues("P78")).filter((e) => /^\.[a-z]{2}$/.test(e.value.en));
+    const pool = list.map((e) => ({ ...e.value, de: e.value.en, group: e.cont }));
+    return byFame(list.filter((e) => e.links >= 150).map((e) => {
+      const id = `wd-tld-${e.id}`;
+      const answer = { ...e.value, de: e.value.en };
+      const o = arrange(id, answer, wrongOptions(answer, pool, e.cont, r));
+      return {
+        id, category_id: "technology", min_age: 10, countries: [e.iso], tags: ["Internet", "Länder"],
+        question: `${e.de}: Mit welcher Endung enden Internetadressen aus diesem Land?`, options: o.de, correct_index: o.correct,
+        explanation: `Die Länderendung von ${e.de} ist ${answer.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `${e.en}: Which ending do web addresses from this country have?`, options: o.en, explanation: `The country code domain of ${e.en} is ${answer.en}.` } },
+      };
+    }), list.filter((e) => e.links >= 150).map((e) => e.links));
+  },
+  // moons and the planet they orbit
+  async moons(r) {
+    const PLANETS = ["Q111", "Q319", "Q193", "Q324", "Q332", "Q2"]; // Mars, Jupiter, Saturn, Uranus, Neptune, Earth
+    const rows = await sparql(`
+SELECT ?m ?mLabel ?mLabelEn ?p ?pLabel ?pLabelEn ?links WHERE {
+  VALUES ?p { ${PLANETS.map((p) => "wd:" + p).join(" ")} }
+  ?m wdt:P397 ?p; wdt:P31/wdt:P279* wd:Q2537; wikibase:sitelinks ?links. FILTER(?links >= 55)
+  ${LABELS("m", "p")} ${LABELS_EN("m", "p")}
+}`);
+    // not the Moon itself, no numbered moons (S/2011 J 2)
+    const list = [...new Map(rows.filter((x) => named(x.mLabel, x.mLabelEn, x.pLabel, x.pLabelEn) && qid(x.m) !== "Q405" && !/[0-9/]/.test(x.mLabel)).map((x) => [qid(x.m), { id: qid(x.m), de: x.mLabel.replace(/^\S+ [IVXL]+ /, ""), en: x.mLabelEn.replace(/^\S+ [IVXL]+ /, ""), links: +x.links, planet: { id: qid(x.p), de: x.pLabel, en: x.pLabelEn, group: "all" } }])).values()];
+    const pool = [...new Map(list.map((e) => [e.planet.id, e.planet])).values()];
+    return byFame(list.map((e) => {
+      const id = `wd-moon-${e.id}`;
+      const o = arrange(id, e.planet, wrongOptions(e.planet, pool, "all", r));
+      return {
+        id, category_id: "science", min_age: 10, countries: [], tags: ["Weltraum", "Monde"],
+        question: `Um welchen Planeten kreist der Mond „${e.de}“?`, options: o.de, correct_index: o.correct,
+        explanation: `${e.de} ist ein Mond des ${e.planet.de === "Erde" ? "Planeten Erde" : `Planeten ${e.planet.de}`}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `Which planet does the moon "${e.en}" orbit?`, options: o.en, explanation: `${e.en} is a moon of ${e.planet.en}.` } },
+      };
+    }), list.map((e) => e.links));
+  },
+  // (a rivers-by-continent template was tried: Wikidata rarely gives rivers a continent – left out)
+  // elements by atomic number (the first 36: the ones people meet at school)
+  async atomicnumbers(r) {
+    const rows = await sparql(`
+SELECT ?e ?eLabel ?eLabelEn ?num WHERE { ?e wdt:P31 wd:Q11344; wdt:P1086 ?num. FILTER(?num <= 36) ${LABELS("e")} ${LABELS_EN("e")} }`);
+    const list = [...new Map(rows.filter((x) => named(x.eLabel, x.eLabelEn)).map((x) => [qid(x.e), { id: qid(x.e), de: x.eLabel, en: x.eLabelEn, num: +x.num }])).values()];
+    const pool = list.map((e) => ({ ...e, group: String(Math.floor((e.num - 1) / 6)) }));
+    return list.map((e) => {
+      const id = `wd-z-${e.id}`;
+      const answer = pool.find((p) => p.id === e.id);
+      const o = arrange(id, answer, wrongOptions(answer, pool, answer.group, r));
+      return {
+        id, category_id: "science", difficulty: e.num <= 10 ? 1 : e.num <= 20 ? 2 : 3, min_age: 10, countries: [], tags: ["Chemie", "Elemente"],
+        question: `Welches chemische Element hat die Ordnungszahl ${e.num}?`, options: o.de, correct_index: o.correct,
+        explanation: `${e.de} hat die Ordnungszahl ${e.num}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `Which chemical element has atomic number ${e.num}?`, options: o.en, explanation: `${e.en} has atomic number ${e.num}.` } },
+      };
+    });
+  },
   // (an animal-class template was tried: the taxon tree in Wikidata is too deep and uneven – queries time out or miss
   // whole classes such as reptiles; needs another approach)
 };
