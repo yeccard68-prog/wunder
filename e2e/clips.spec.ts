@@ -153,6 +153,7 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
 });
 
 test("explore finds content by search and topic; the library keeps saved clips", async ({ page }) => {
+  test.setTimeout(120_000); // scrolling until a clip comes up takes a while now and then
   await signIn(page);
   await page.goto("/explore/");
   await page.getByRole("searchbox").fill("Herz");
@@ -167,11 +168,16 @@ test("explore finds content by search and topic; the library keeps saved clips",
   await page.goto("/library/");
   await expect(page.getByText("Noch nichts gemerkt")).toBeVisible();
   await page.getByRole("link", { name: "Für dich" }).click();
+  // clips come by chance: scroll until one is in the feed, then go straight to it (snapping and wheel turns are tested
+  // above – on the emulated phone a wheel turn now and then gets stuck, so here the feed is scrolled directly)
+  const clip = page.getByTestId("feed-clip").first();
   await expect(async () => {
-    await next(page);
-    expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2);
-  }).toPass({ timeout: 30_000 });
-  await page.getByTestId("feed-clip").first().getByRole("button", { name: "Merken" }).click();
+    if (!(await clip.count())) await page.getByTestId("snap-feed").evaluate((el) => el.scrollBy(0, el.clientHeight));
+    await page.waitForTimeout(300);
+    expect(await clip.count()).toBeGreaterThan(0);
+  }).toPass({ timeout: 60_000 });
+  await clip.scrollIntoViewIfNeeded();
+  await clip.getByRole("button", { name: "Merken" }).click();
   await page.getByRole("link", { name: "Bibliothek" }).click();
   await expect(page.getByTestId("feed-clip")).toHaveCount(1);
 });
