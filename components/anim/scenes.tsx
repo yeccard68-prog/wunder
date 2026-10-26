@@ -9,6 +9,7 @@ export interface SceneProps {
   p: number;
   t: number;
   labels: string[];
+  compare?: { shape: "square" | "peak" | "disc"; values: number[] }; // only for the size comparisons
 }
 type Pt = [number, number];
 
@@ -481,4 +482,80 @@ function Star({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star };
+// ------------------------------------------------------------------ size comparison
+// Four things to scale (lib/compare.ts). labels: 0–3 names, 4–7 values as text. Step 0 asks (sizes hidden), steps 1–4
+// grow one thing each, step 5 marks the largest. Squares (area) and circles (diameter) stand side by side with widths
+// to scale and a legend below; peaks (height) stand in equal slots with the names underneath.
+const CMP_COLORS = ["#5b9bf5", "#f0604f", "#4fc28b", "#c58cf2"];
+/** A name in at most two lines of about `width` characters. */
+function lines(name: string, width: number): string[] {
+  const out: string[] = [];
+  for (const w of name.split(" ")) {
+    if (out.length && (out[out.length - 1] + " " + w).length <= width) out[out.length - 1] += " " + w;
+    else out.push(w);
+  }
+  return out.length > 2 ? [out[0], out.slice(1).join(" ").slice(0, width - 1) + "…"] : out;
+}
+function Compare({ step, p, labels, compare }: SceneProps) {
+  if (!compare) return null;
+  const { shape, values } = compare;
+  const n = values.length;
+  const grow = (i: number) => (step > i + 1 ? 1 : step === i + 1 ? ease(p) : 0);
+  const max = Math.max(...values);
+  const top = values.indexOf(max);
+  const end = step >= n + 1;
+  const mark = (i: number) => (end ? { stroke: i === top ? YELLOW : "none", strokeWidth: 3, opacity: i === top ? 1 : 0.5 } : { stroke: "none", strokeWidth: 0, opacity: 1 });
+  if (shape === "peak") {
+    const base = 290;
+    return (
+      <>
+        <line x1={10} y1={base} x2={350} y2={base} stroke={LINE} strokeWidth={2} />
+        {values.map((v, i) => {
+          const cx = 45 + i * 90, h = (225 * v) / max * grow(i);
+          const name = lines(labels[i], 13);
+          return (
+            <g key={i}>
+              {h > 0 && <path d={`M${cx - 42} ${base} L${cx} ${base - h} L${cx + 42} ${base}Z`} fill={CMP_COLORS[i]} {...mark(i)} />}
+              {h > 0 && h > 40 && <path d={`M${cx - 42 * (18 / h)} ${base - h + 18} L${cx} ${base - h} L${cx + 42 * (18 / h)} ${base - h + 18}Z`} fill="#fff" opacity={0.85 * mark(i).opacity} />}
+              {grow(i) > 0.6 ? <Label x={cx} y={base - h - 10} size={12} bold color={end && i === top ? YELLOW : INK}>{labels[n + i]}</Label> : grow(i) === 0 && <Label x={cx} y={base - 20} size={22} bold color={DIM}>?</Label>}
+              {name.map((l, k) => <Label key={k} x={cx} y={base + 20 + k * 14} size={11} color={end && i === top ? YELLOW : INK}>{l}</Label>)}
+            </g>
+          );
+        })}
+      </>
+    );
+  }
+  // squares and circles: widths to scale, side by side on one line
+  const size = values.map((v) => (shape === "square" ? Math.sqrt(v) : v));
+  const gap = 10, sum = size.reduce((a, b) => a + b, 0), big = Math.max(...size);
+  const scale = Math.min((340 - gap * (n - 1)) / sum, 230 / big);
+  const base = 262;
+  let x = (360 - (scale * sum + gap * (n - 1))) / 2;
+  const at = size.map((s) => { const x0 = x; x += s * scale + gap; return x0; });
+  return (
+    <>
+      <line x1={10} y1={base} x2={350} y2={base} stroke={LINE} strokeWidth={2} />
+      {step === 0 && <Label x={180} y={180} size={72} bold color={DIM}>?</Label>}
+      {size.map((s, i) => {
+        const w = s * scale, g = grow(i), c = w * g;
+        if (g <= 0) return null;
+        return shape === "square"
+          ? <rect key={i} x={at[i] + (w - c) / 2} y={base - c} width={c} height={c} rx={2} fill={CMP_COLORS[i]} {...mark(i)} />
+          : <circle key={i} cx={at[i] + w / 2} cy={base - c / 2} r={c / 2} fill={CMP_COLORS[i]} {...mark(i)} />;
+      })}
+      {values.map((_, i) => {
+        const lx = i % 2 ? 190 : 20, ly = 296 + Math.floor(i / 2) * 50;
+        const shown = grow(i) > 0.6;
+        return (
+          <g key={i} opacity={end && i !== top ? 0.6 : 1}>
+            <rect x={lx} y={ly - 11} width={12} height={12} rx={2} fill={CMP_COLORS[i]} />
+            <Label x={lx + 18} y={ly} anchor="start" size={12} bold color={end && i === top ? YELLOW : INK}>{lines(labels[i], 22)[0]}</Label>
+            <Label x={lx + 18} y={ly + 17} anchor="start" size={12} color={shown ? INK : DIM}>{shown ? labels[n + i] : "?"}</Label>
+          </g>
+        );
+      })}
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare };

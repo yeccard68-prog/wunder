@@ -51,6 +51,8 @@ export interface Animation {
   sources: { name: string; url: string }[];
   quizId: string | null;
   verification: AnimationRow["verification_status"];
+  compare?: { shape: "square" | "peak" | "disc"; values: number[] }; // size comparisons (lib/compare.ts): what the scene draws to scale
+  countries?: string[]; // ISO codes the animation is about (size comparisons)
 }
 
 /** 3D scenes built on third-party models (public/models): credit shown with the animation, details on the credits page. */

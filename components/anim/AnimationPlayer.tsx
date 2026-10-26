@@ -173,7 +173,7 @@ export default function AnimationPlayer({ animation, onFinished, active = true, 
           <Stage3D scene={animation.scene} step={step} p={p} t={time * animation.motion} into={time - before} labels={animation.labels} title={animation.title} compact={compact} mounted={mounted} onUnavailable={() => setNo3d(true)} />
         ) : Scene ? (
           <svg viewBox="0 0 360 400" role="img" aria-label={animation.title} className={`mx-auto block w-full ${compact ? "max-h-[38dvh]" : ""}`} style={{ fontFamily: "var(--font-geist-sans), system-ui, sans-serif" }} onClick={toggle}>
-            <Scene step={step} p={p} t={time * animation.motion} labels={animation.labels} />
+            <Scene step={step} p={p} t={time * animation.motion} labels={animation.labels} compare={animation.compare} />
           </svg>
         ) : (stills as string[]).includes(animation.id) ? (
           // no 3D on this device and no drawing: a still picture of the 3D scene for this step (scripts/anim-stills.mjs)

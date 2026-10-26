@@ -5,6 +5,7 @@ import DailyPuzzles from "@/components/DailyPuzzles";
 import Feed from "@/components/Feed";
 import { Empty } from "@/components/ui";
 import { animationsFor } from "@/lib/animations";
+import { comparisonsFor, withComparisons } from "@/lib/compare";
 import { booksFor, insightQueue } from "@/lib/books";
 import { rankClips } from "@/lib/clips";
 import { mixFeed } from "@/lib/feed";
@@ -32,7 +33,8 @@ export default function HomePage() {
   const interestsKey = state.interests.join();
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const forYou = useMemo(() => rankForYou(items, getState(), { region: deviceRegion(), seed }), [items, interestsKey]);
-  const animations = useMemo(() => animationsFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const animations = useMemo(() => withComparisons(animationsFor(state.settings.locale, state.ageBand), comparisonsFor(state.settings.locale, state.ageBand), deviceRegion(), seed), [state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const books = useMemo(() => booksFor(state.settings.locale, state.ageBand), [state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps

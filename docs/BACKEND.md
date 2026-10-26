@@ -508,3 +508,10 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - `import_generated` übernimmt jetzt `kind`; `sample_generated` zieht Stimmt-das-Karten etwa ein Drittel so oft wie Fragen.
 - Doppelte Werktitel: Zwei Fragen „Wer malte ‚Die Geburt der Venus‘?“ (Botticelli, Bouguereau) und „Der Kuss“ (Klimt, Hayez) – die weniger bekannten archiviert; `works()` behält künftig pro Titel nur das bekannteste Werk.
 - Bekannte Schwäche: Ältere generierte Erklärungen enthalten Sätze wie „Die Hauptstadt von Vereinigte Staaten ist …“ – noch nicht korrigiert.
+
+## 57. Bilder für „Studie kurz erklärt“; Größenvergleiche (26.10.2026)
+
+- Studien: `scripts/content/study-images.mjs` holt das Hauptbild des Wikipedia-Artikels, nur mit klar freier Lizenz (CC0, CC BY, CC BY-SA, gemeinfrei), als WebP nach `public/img/studies/`; Urheber und Lizenz stehen unter dem Bild. 5 Studien haben so ein Foto/Diagramm. Das Foto zum Stanford-Prison-Experiment wurde bewusst nicht genommen (zeigt einen echten Teilnehmer, der noch leben kann). Die übrigen 13 haben eine wortlose Zeichnung (SVG, „Zeichnung: Wunder“).
+- Größenvergleich (Szene `compare` im Animationsplayer): vier Dinge maßstabsgetreu nebeneinander – Landesflächen (Quadrate), höchste Punkte von Ländern (Gipfel), Planetendurchmesser (Kreise). Erst die Schätzfrage („Welches ist am größten?“), dann wächst eins nach dem anderen, am Ende das Verhältnis („rund 4,8-mal so viel Fläche“).
+- Daten: `scripts/content/compare.mjs` → `content/compare.json` (234 Vergleiche), Werte aus Wikidata (nur Best-Rank, richtige Einheit, eindeutiger Wert; Planeten mittlerer Radius). Nur Länder auf genau einem Kontinent, keine umstrittenen Gebiete, größtes höchstens 25-mal (Fläche) bzw. 6-mal (Höhe) das kleinste. Jedes Ding ist als Quelle verlinkt. Texte baut `lib/compare.ts`; Ländernamen nie dort, wo das Deutsche einen Artikel bräuchte.
+- Im Feed wechseln sich handgemachte Animationen und Vergleiche ab (eine, zwei, eine …), Vergleiche zum eigenen Land zuerst. In der Übersicht „So funktioniert’s“ stehen sie nicht, sind aber per Link erreichbar (`/explain/?a=cmp-area-Q183`).

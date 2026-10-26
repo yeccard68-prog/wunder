@@ -172,7 +172,7 @@ export function AnimationCard({ animation, compact }: { animation: Animation; co
   const { asking, solved } = useQuizView(quiz, askable && seen, state);
   return (
     <article className="card space-y-3 p-5" data-testid="feed-animation">
-      <Kicker categoryId={animation.categoryId} icon={<Shapes size={14} />} label={t("So funktioniert’s")} />
+      <Kicker categoryId={animation.categoryId} icon={<Shapes size={14} />} label={animation.compare ? t("Größenvergleich") : t("So funktioniert’s")} />
       <h2 className="font-display text-xl font-semibold leading-snug">{animation.title}</h2>
       <div ref={ref}>
         {asking ? (
