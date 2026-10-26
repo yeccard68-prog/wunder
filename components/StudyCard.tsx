@@ -26,6 +26,17 @@ export default function StudyCard({ study }: { study: Study }) {
   );
   return (
     <article className="card overflow-hidden" data-testid="study-card">
+      {study.image && (
+        <figure>
+          {/* eslint-disable-next-line @next/next/no-img-element -- small static picture; the static export has no image optimiser */}
+          <img src={study.image.url} alt="" loading="lazy" className="aspect-[4/3] w-full bg-raised object-contain" />
+          {study.image.credit && (
+            <figcaption className="truncate px-5 pt-1 text-[11px] text-muted" data-testid="image-credit">
+              {study.image.credit === "Zeichnung: Wunder" ? t("Zeichnung: Wunder") : <>{t("Bild:")} {study.image.source ? <a href={study.image.source} target="_blank" rel="noopener noreferrer" className="underline">{study.image.credit}</a> : study.image.credit}</>}
+            </figcaption>
+          )}
+        </figure>
+      )}
       <div className="p-5">
         <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider" style={{ color: cat.color }}>
           <FlaskConical size={14} /> {t("Studie kurz erklärt")} · <span className="tnum">{study.year}</span>

@@ -26,7 +26,9 @@
         "result": "On average the children waited about 6 to 10 minutes, but the times varied a lot. Children who had waited longer were later described, as teenagers, as more capable at school and with other people.",
         "caveat": "But a repeat from 2018 with 900 children from much more varied family backgrounds found a link only half as strong, and two thirds of it could be explained by the family's educational background."
       }
-    }
+    },
+    "image_url": "/img/studies/s-marshmallow.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-asch",
@@ -55,7 +57,10 @@
         "result": "76% of the participants followed the group's wrong answer at least once. On average they went along in about a third of the rigged rounds, and only a quarter never made a mistake.",
         "caveat": "But critics said the participants had no reason to answer correctly. In a repeat with Swiss students from 2024, conformity dropped when correct answers earned money, but it stayed considerable at 25%."
       }
-    }
+    },
+    "image_url": "/img/studies/s-asch.webp",
+    "image_credit": "Fred the Oyster · CC BY-SA 4.0",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Asch_experiment.svg"
   },
   {
     "id": "s-milgram",
@@ -84,7 +89,9 @@
         "result": "26 of the 40 participants went all the way to the highest voltage of 450 volts and only 14 stopped earlier; many felt a strong conflict of conscience. When the experimenter was not in the room, obedience fell to a third.",
         "caveat": "But the study is controversial: it faced ethical criticism from the start, and the psychologist Gina Perry found in the archives that Milgram's publications differed clearly from his personal notes."
       }
-    }
+    },
+    "image_url": "/img/studies/s-milgram.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-stanford-prison",
@@ -113,7 +120,9 @@
         "result": "The experiment quickly got out of control: some guards showed sadistic behavior and four prisoners suffered emotional breakdowns. It was stopped after only six days instead of the planned two weeks.",
         "caveat": "But participants later said they had been pushed to behave especially strictly. When British researchers repeated it for the BBC in 2001 without such instructions, the result was solidarity instead of escalation – and the original consisted of just one run lasting several days."
       }
-    }
+    },
+    "image_url": "/img/studies/s-stanford-prison.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-dunning-kruger",
@@ -142,7 +151,10 @@
         "result": "In 1999 they concluded that less competent people overestimate their abilities and do not recognize superior abilities in others. People who improved through practice judged themselves and others more accurately.",
         "caveat": "But newer research thinks the effect is weaker than assumed: it can even be produced with randomly generated data, and in one newer study almost 80% of the least competent participants judged their ability quite well."
       }
-    }
+    },
+    "image_url": "/img/studies/s-dunning-kruger.webp",
+    "image_credit": "Phlsph7 · CC BY-SA 4.0",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Dunning-kruger_effect_-_percentile.svg"
   },
   {
     "id": "s-pygmalion",
@@ -171,7 +183,9 @@
         "result": "After a year, the supposed \"bloomers\" had raised their IQ much more than the other children. In total, 45 percent of them gained 20 or more IQ points.",
         "caveat": "But the psychologist Robert Thorndike criticized that the IQ tests were not suitable for younger children. Without five pupils with unbelievably high gains the effect disappears, and a meta-study shows the effect is weak overall."
       }
-    }
+    },
+    "image_url": "/img/studies/s-pygmalion.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-hawthorne",
@@ -200,7 +214,9 @@
         "result": "Performance rose in the group with better light – but also in the control group, and it even stayed up when the light went back to how it was. The researchers concluded that simply knowing they were being observed raised performance.",
         "caveat": "But later checks showed that the participants received higher pay and constant performance feedback; they were even threatened with being sent back to their old jobs. Re-examining the data showed that pay incentives mattered more, and social factors less, than the researchers estimated at the time."
       }
-    }
+    },
+    "image_url": "/img/studies/s-hawthorne.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-bystander-smoke",
@@ -229,7 +245,9 @@
         "result": "Alone, 75% reported the smoke; with two other participants only 38% did. With the two stooges who ignored the smoke, only 10% of the participants reported it.",
         "caveat": "But the bystander effect does not always hold: in dangerous situations it is weaker or missing altogether. A 2019 study of 219 camera recordings found that bystanders stepped in in 91% of cases – and newer studies even question the effect altogether."
       }
-    }
+    },
+    "image_url": "/img/studies/s-bystander-smoke.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-ultimatumspiel",
@@ -258,7 +276,9 @@
         "result": "Players from industrialised countries usually offered the other 40 to 50% of the sum, and offers below 30% were usually rejected. So many preferred nothing to a split they felt was unfair.",
         "caveat": "But in small ethnic groups very low offers were made and not rejected. The results from industrialised countries are therefore not a human universal but depend on culture."
       }
-    }
+    },
+    "image_url": "/img/studies/s-ultimatumspiel.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-ebbinghaus",
@@ -287,7 +307,10 @@
         "result": "Roughly, his results say that only 20 minutes after learning you can recall just 60% of what you learned, and after one day only 34%.",
         "caveat": "But critics pointed out that his self-experiments had no control of disturbing factors and that meaningless syllables say only a limited amount about things learned with meaning. Even so, the findings are still regarded as valid in their basic outline today."
       }
-    }
+    },
+    "image_url": "/img/studies/s-ebbinghaus.webp",
+    "image_credit": "Der ursprünglich hochladende Benutzer war Icez in der Wikipedia auf Englisch · Public domain",
+    "image_source": "https://commons.wikimedia.org/wiki/File:ForgettingCurve.svg"
   },
   {
     "id": "s-miller-urey",
@@ -316,7 +339,10 @@
         "result": "Organic molecules formed: 18% of the methane molecules were turned into biomolecules, and the rest became a tarry mass. Later tests of the original flasks found eight more amino acids in 2008.",
         "caveat": "But there are serious doubts that the conditions of the early Earth were realistically recreated in the experiment. And the experiment cannot say how these molecules would have joined into large structures."
       }
-    }
+    },
+    "image_url": "/img/studies/s-miller-urey.webp",
+    "image_credit": "Vollbracht · CC BY-SA 3.0",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Miller-Urey_experiment-de.svg"
   },
   {
     "id": "s-little-albert",
@@ -345,7 +371,9 @@
         "result": "After seven repetitions the child showed a massive fear reaction at the sight of the rat, and later also at similar things such as fur, tufts of cotton and white beards.",
         "caveat": "But the experiment is controversial on ethical as well as scientific grounds: it lacked quantification and systematic control of variables, and the empirical basis for the far-reaching conclusions was more than thin. Later retellings also sometimes exaggerated the fear reaction."
       }
-    }
+    },
+    "image_url": "/img/studies/s-little-albert.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-mozart-effekt",
@@ -374,7 +402,9 @@
         "result": "After the Mozart piece, performance was, according to the authors, higher by the equivalent of 8 and 9 IQ points compared with after relaxation and silence. The authors stressed that the boost lasted only 10 to 15 minutes.",
         "caveat": "But a research group around Steele found no statistically significant effect in 1999 when repeating it exactly. A team around Jakob Pietschnig examined 36 studies with 3000 participants and found no evidence for a specific Mozart effect."
       }
-    }
+    },
+    "image_url": "/img/studies/s-mozart-effekt.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-halo-gericht",
@@ -403,7 +433,9 @@
         "result": "For minor offences, more attractive defendants received significantly lower fines than less attractive ones. The more attractive they were, the lower the punishment.",
         "caveat": "But for more serious offences no influence of attractiveness could be found, and repeat offences and capital crimes were excluded. The authors therefore see a need for further research."
       }
-    }
+    },
+    "image_url": "/img/studies/s-halo-gericht.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-millikan",
@@ -432,7 +464,10 @@
         "result": "In 1910 they managed to determine the elementary charge much more precisely than had been possible until then. For this measurement Millikan received the Nobel Prize in Physics in 1923.",
         "caveat": "But later experiments showed that Millikan's values were too low; the cause, as turned out in 1936, was a wrong value for the viscosity of air. The historian of science Gerald Holton also accused him in 1978 of leaving out measurements, but other historians saw good reasons for this in part."
       }
-    }
+    },
+    "image_url": "/img/studies/s-millikan.webp",
+    "image_credit": "Stefan (Diskussion). Original uploader was StefanPohl in der Wikipedia auf Deuts · Public domain",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Millikan_aufbau.jpg"
   },
   {
     "id": "s-kleine-welt",
@@ -461,7 +496,9 @@
         "result": "Altogether three packages reached the target persons, with an average path length of 5.5, or rounded up, six. The scientists concluded from this that each person in the US population is separated from every other person in the USA by an average of six people.",
         "caveat": "But both the experiment and its conclusions are controversial and are regarded as not conclusive. In 2002 Judith Kleinfeld criticised the insufficient data and speaks of a “5 % chain completion rate”."
       }
-    }
+    },
+    "image_url": "/img/studies/s-kleine-welt.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-mere-exposure",
@@ -490,7 +527,9 @@
         "result": "Words and characters shown more often were rated clearly more positively than ones shown rarely or not at all. Faces shown more often were also judged clearly more likeable, with the increase levelling off step by step as presentations increased.",
         "caveat": "But the effect usually does not occur if a stimulus was already rated negatively at first contact; then repeated presentation can even strengthen the dislike. The meta-analysis by Montoya et al. (2017) found an inverted U-shaped curve under certain conditions: liking first rises, but falls again with further repetition."
       }
-    }
+    },
+    "image_url": "/img/studies/s-mere-exposure.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-gorilla",
@@ -519,6 +558,8 @@
         "result": "Of 192 participants, 54 percent noticed the “incident” and 46 percent did not. The woman with the umbrella was spotted more often than the one in the gorilla costume (65% versus 44%).",
         "caveat": "But how often the gorilla was noticed depended on the team: those who watched the black team noticed it more often than those who watched the white team (black 58%, white 27%). The degree of inattentional blindness also depends on how difficult the observation task is."
       }
-    }
+    },
+    "image_url": "/img/studies/s-gorilla.svg",
+    "image_credit": "Zeichnung: Wunder"
   }
 ]

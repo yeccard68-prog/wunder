@@ -16,6 +16,9 @@ export interface StudyRow extends Texts {
   status: "draft" | "published" | "archived";
   created_at: string;
   translations: Record<string, Texts>;
+  image_url?: string; // a free lead image from Wikipedia (WebP) or a drawn sketch (SVG), on the app's own site
+  image_credit?: string; // author · licence, or "Zeichnung: Wunder"
+  image_source?: string; // page of the original file
 }
 export interface Study extends Texts {
   id: string;
@@ -25,6 +28,7 @@ export interface Study extends Texts {
   sources: StudyRow["sources"];
   verification: StudyRow["verification_status"];
   createdAt: string;
+  image?: { url: string; credit?: string; source?: string };
 }
 
 export const studyRows = studiesJson as unknown as StudyRow[];
@@ -35,7 +39,7 @@ export function studiesFor(locale: string, band: AgeBand | null, rows: StudyRow[
     .filter((s) => s.status === "published" && s.verification_status !== "unverified")
     .map((s) => {
       const t = s.translations[locale] ?? s;
-      return { id: s.id, categoryId: s.category_id, minAge: s.min_age, year: s.year, sources: s.sources, verification: s.verification_status, createdAt: s.created_at, name: t.name, question: t.question, method: t.method, result: t.result, caveat: t.caveat };
+      return { id: s.id, categoryId: s.category_id, minAge: s.min_age, year: s.year, sources: s.sources, verification: s.verification_status, createdAt: s.created_at, image: s.image_url ? { url: s.image_url, credit: s.image_credit, source: s.image_source } : undefined, name: t.name, question: t.question, method: t.method, result: t.result, caveat: t.caveat };
     })
     .filter((s) => fitsAge(s, band));
 }
