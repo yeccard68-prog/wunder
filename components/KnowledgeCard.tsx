@@ -185,7 +185,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
               {reveal.correct ? (isFact ? t("Gut eingeschätzt!") : miss !== null ? t("Richtig – im zweiten Anlauf!") : t("Richtig!")) : picked === null ? t("Beim letzten Mal falsch") : isFact ? t("Kommt später noch einmal.") : t("Nicht ganz – kommt später zur Wiederholung")}
             </p>
             <p className="mt-1 text-[15px] leading-relaxed">{reveal.explanation}</p>
-            {item.countries && item.countries.length > 0 && <CountryMap countries={item.countries} />}
+            {item.countries && item.countries.length > 0 && <CountryMap countries={item.countries} zoom />}
             {clip && (
               <p className="mt-2 flex gap-2 border-t border-line pt-2 text-sm leading-relaxed text-muted">
                 <Clapperboard size={15} className="mt-0.5 shrink-0" />
