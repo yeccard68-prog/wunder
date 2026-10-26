@@ -8,9 +8,10 @@ import type { AgeBand } from "./types";
 import { rng } from "./gamification";
 import { START, type Step } from "./skill";
 import MAP_COUNTRIES from "./map-countries.json";
+import { LOGIC } from "./logic";
 import { REASONING } from "./reasoning";
 
-export type ExerciseKind = "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock" | "map" | "sufficiency" | "word" | "numbers";
+export type ExerciseKind = "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock" | "map" | "sufficiency" | "word" | "numbers" | "knights" | "syllogism" | "order";
 export interface Exercise {
   id: string;
   kind: ExerciseKind;
@@ -30,7 +31,7 @@ const lv = (d: Step): Level => (d <= 1 ? 0 : d === 2 ? 1 : 2);
 export const KINDS: Record<Level, ExerciseKind[]> = {
   0: ["arithmetic", "units", "sequence", "weekday", "clock", "map"],
   1: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map"],
-  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "map", "sufficiency", "word", "word", "numbers"], // tricky ones (lib/reasoning.ts) for adults only
+  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "map", "sufficiency", "word", "word", "numbers", "knights", "syllogism", "order"], // tricky ones (lib/reasoning.ts, lib/logic.ts) for adults only
 };
 
 export const fmt = (n: number, locale: string) => n.toLocaleString(locale === "de" ? "de-DE" : "en-GB", { maximumFractionDigits: 3 });
@@ -277,7 +278,7 @@ const map: Make = (r, _d, de, locale) => {
   return { question: de ? "Welches Land ist auf der Karte markiert?" : "Which country is marked on the map?", options: list, correct: at, explanation: de ? `Markiert ist ${name(iso)}.` : `The marked country is ${name(iso)}.`, countries: [iso] };
 };
 
-const MAKERS: Record<ExerciseKind, Make> = { arithmetic, percent, fraction, units, sequence, weekday, clock, map, ...REASONING };
+const MAKERS: Record<ExerciseKind, Make> = { arithmetic, percent, fraction, units, sequence, weekday, clock, map, ...REASONING, ...LOGIC };
 
 /** One exercise. `step` is the learner's level for this kind (lib/skill.ts); the age band caps it. */
 export function makeExercise(seed: string, kind: ExerciseKind, age: AgeBand | null, locale: string, step: Step = START as Step): Exercise {

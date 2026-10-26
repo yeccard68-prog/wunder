@@ -7,7 +7,7 @@ import { makeExercise, type Exercise } from "@/lib/exercises";
 import { practised, stepOf } from "@/lib/skill";
 import { useStore, useT } from "@/lib/store";
 
-const NAMES = { arithmetic: "Kopfrechnen", percent: "Prozente", fraction: "Brüche", units: "Einheiten", sequence: "Zahlenreihe", weekday: "Wochentage", clock: "Uhrzeit", map: "Landkarte", sufficiency: "Reichen die Angaben?", word: "Textaufgabe", numbers: "Zahlen-Knobelei" } as const;
+const NAMES = { arithmetic: "Kopfrechnen", percent: "Prozente", fraction: "Brüche", units: "Einheiten", sequence: "Zahlenreihe", weekday: "Wochentage", clock: "Uhrzeit", map: "Landkarte", sufficiency: "Reichen die Angaben?", word: "Textaufgabe", numbers: "Zahlen-Knobelei", knights: "Ehrlich oder gelogen?", syllogism: "Was folgt?", order: "Reihenfolge" } as const;
 const LETTERS = ["A", "B", "C", "D", "E"];
 
 /**

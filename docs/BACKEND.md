@@ -560,3 +560,13 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - **Textaufgaben:** Händedrücke, Durchschnitt, Sprachen-Mengen, Pumpen, Mischungen, Durchschnittsgeschwindigkeit (harmonisches Mittel), Alter, zwei Würfel, Ziehen ohne Zurücklegen, Teams (Kombinationen), Sitzordnung mit Paar.
 - **Zahlen-Knobelei:** Busse (kgV), Summe 1 bis n, Reste, Teilerzahl, Endziffer großer Potenzen, Endnullen von n!, Rest großer Potenzen, „durch a oder b teilbar“ (Ein- und Ausschluss).
 - Tests rechnen Textaufgaben und Zahlen unabhängig nach (BigInt, Abzählen) und prüfen „Reichen die Angaben?“ an klassischen Fällen und auf eine ausgewogene Verteilung der fünf Antworten.
+
+## 64. Logikrätsel und Futoshiki (27.10.2026)
+
+- `lib/logic.ts`, drei Übungsarten nur für Erwachsene, je 5 Stufen; jede Aufgabe wird durch Durchprobieren gelöst und nur gezeigt, wenn genau eine Antwort passt:
+  - **Ehrlich oder gelogen?** (Ritter und Schurken, ohne gegenderte Rollenwörter): 2–4 Personen, Aussagen über andere, über „gleich“, „mindestens eine lügt“, „genau zwei sind ehrlich“, „Ich lüge, oder …“. Die Erklärung prüft jede Aussage und zeigt, wo eine falsche Verteilung bricht.
+  - **Was folgt?** (Syllogismen) mit erfundenen Gruppen (Blimps, Draxe …), damit Weltwissen nicht hilft oder täuscht. Geprüft über alle 256 Lagen der drei Gruppen (alle drei nicht leer – das steht in der Aufgabe). Immer mit „Nichts davon folgt sicher“; Gegenbeispiel in der Erklärung.
+  - **Reihenfolge:** 4–5 Personen im Ziel, Hinweise (vor, direkt vor, nebeneinander, genau eine dazwischen, (nicht) auf Platz …), ab Stufe 2 auf die nötigen Hinweise reduziert; Stufe 5 ohne „landet auf Platz“.
+- **Futoshiki** als viertes Gitterrätsel im Feed (Sudoku, Kreuzwort, Pyramide, Futoshiki im Wechsel): lateinisches Quadrat 4×4 bis 6×6 mit < und > zwischen Nachbarn, stets genau eine Lösung; eigene Stufe (`futoshiki`). Fehler (doppelte Zahl, falsches Zeichen) werden beim Tippen rot.
+- KenKen bewusst weggelassen (braucht eine eigene Käfig-Darstellung; Futoshiki übt dasselbe Denken).
+- Tests lesen die Logikaufgaben aus dem deutschen Text zurück und lösen sie unabhängig vom Erzeuger.

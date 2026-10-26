@@ -18,7 +18,10 @@ export interface Sudoku { kind: "sudoku"; id: string; size: 4 | 6 | 9; boxRows: 
 export interface CrossWord { answer: string; clue: string; row: number; col: number; across: boolean; itemId: string }
 export interface Crossword { kind: "crossword"; id: string; rows: number; cols: number; words: CrossWord[]; solution: (string | null)[]; givens: boolean[] }
 export interface Pyramid { kind: "pyramid"; id: string; rows: number[][]; shown: boolean[][] }
-export type Puzzle = Sudoku | Crossword | Pyramid;
+/** Futoshiki: a Latin square (each number once per row and column) with < and > between some neighbours. right[i]:
+ *  sign between cell i and the cell to its right; down[i]: between cell i and the cell below ("<" = this one is smaller). */
+export interface Futoshiki { kind: "futoshiki"; id: string; size: number; givens: number[]; solution: number[]; right: string[]; down: string[] }
+export type Puzzle = Sudoku | Crossword | Pyramid | Futoshiki;
 
 const shuffle = <T,>(list: T[], r: () => number) => {
   const a = [...list];
@@ -208,6 +211,69 @@ export function makeCrossword(seed: string, items: Item[], state: Pick<UserState
 }
 export const wordCells = (p: Crossword, w: CrossWord) => [...w.answer].map((_, k) => (w.row + (w.across ? 0 : k)) * p.cols + w.col + (w.across ? k : 0));
 
+// ---------- futoshiki ----------
+const range = (n: number) => Array.from({ length: n }, (_, i) => i);
+/** How many solutions (stopping at `limit`): each number once per row and column, every sign kept, the givens kept. */
+export function countFutoshiki(p: Pick<Futoshiki, "size" | "right" | "down">, g: number[], limit = 2): number {
+  const n = p.size, i = g.indexOf(0);
+  if (i < 0) return 1;
+  const r = Math.floor(i / n), c = i % n;
+  // a sign between two cells holds, or one of them is still empty
+  const ok = (sign: string, other: number, smaller: boolean) => !sign || !other || (sign === "<") === smaller;
+  let found = 0;
+  for (let v = 1; v <= n && found < limit; v++) {
+    if (range(n).some((k) => g[r * n + k] === v || g[k * n + c] === v)) continue;
+    if (c > 0 && !ok(p.right[i - 1], g[i - 1], g[i - 1] < v)) continue;
+    if (c < n - 1 && !ok(p.right[i], g[i + 1], v < g[i + 1])) continue;
+    if (r > 0 && !ok(p.down[i - n], g[i - n], g[i - n] < v)) continue;
+    if (r < n - 1 && !ok(p.down[i], g[i + n], v < g[i + n])) continue;
+    g[i] = v;
+    found += countFutoshiki(p, g, limit - found);
+    g[i] = 0;
+  }
+  return found;
+}
+/** Size and empty cells by step – the feed's "few" leaves fewer open. */
+const FUTOSHIKI: { size: number; few: number; tricky: number }[] = [{ size: 4, few: 4, tricky: 9 }, { size: 4, few: 6, tricky: 12 }, { size: 5, few: 7, tricky: 17 }, { size: 5, few: 10, tricky: 21 }, { size: 6, few: 14, tricky: 30 }];
+/** A futoshiki with exactly one solution: signs between about a third of the neighbours, then as many cells emptied as the step asks and uniqueness allows. */
+export function makeFutoshiki(seed: string, level: Level, step: Step = START as Step): Futoshiki {
+  const r = rng(seed);
+  const { size: n, ...holes } = FUTOSHIKI[step - 1];
+  // a Latin square: (row + column) mod n, with rows, columns and numbers shuffled
+  const rows = shuffle(range(n), r), cols = shuffle(range(n), r), nums = shuffle(range(n), r);
+  const solution = range(n * n).map((i) => nums[(rows[Math.floor(i / n)] + cols[i % n]) % n] + 1);
+  const sign = (a: number, b: number) => (a < b ? "<" : ">");
+  const right = range(n * n).map((i) => (i % n < n - 1 && r() < 0.35 ? sign(solution[i], solution[i + 1]) : ""));
+  const down = range(n * n).map((i) => (i < n * (n - 1) && r() < 0.35 ? sign(solution[i], solution[i + n]) : ""));
+  const givens = [...solution];
+  let open = 0;
+  for (const i of shuffle(range(n * n), r)) {
+    if (open >= holes[level]) break;
+    const keep = givens[i];
+    givens[i] = 0;
+    if (countFutoshiki({ size: n, right, down }, [...givens]) === 1) open++;
+    else givens[i] = keep;
+  }
+  return { kind: "futoshiki", id: `pz-futoshiki-${seed}`, size: n, givens, solution, right, down };
+}
+/** Cells that break a rule while typing: a number twice in a row or column, or a sign that does not hold. */
+export function futoshikiConflicts(p: Futoshiki, cells: number[]) {
+  const n = p.size, bad = new Set<number>();
+  for (let i = 0; i < n * n; i++) {
+    const v = cells[i];
+    if (!v) continue;
+    const r = Math.floor(i / n), c = i % n;
+    for (let k = 0; k < n; k++) {
+      if (k !== c && cells[r * n + k] === v) bad.add(i);
+      if (k !== r && cells[k * n + c] === v) bad.add(i);
+    }
+    const breaks = (j: number, s: string) => !!s && !!cells[j] && (s === "<") !== v < cells[j];
+    if (c < n - 1 && breaks(i + 1, p.right[i])) bad.add(i).add(i + 1);
+    if (r < n - 1 && breaks(i + n, p.down[i])) bad.add(i).add(i + n);
+  }
+  return bad;
+}
+
 // ---------- number pyramid ----------
 /** Every stone is the sum of the two below it. A hidden stone can be worked out from two neighbours in its triangle. */
 function solvable(rows: number[][], shown: boolean[][]) {
@@ -262,15 +328,15 @@ export const dailyOpen = (s: UserState, puzzles: Puzzle[], date = today()) => {
   return puzzles.filter((p) => !done.includes(p.id));
 };
 
-/** Puzzles for the feed: new ones each day, nearly finished, the kinds taking turns. */
+/** Puzzles for the feed: new ones each day, nearly finished, the kinds taking turns (sudoku, crossword, pyramid, futoshiki). */
 export function feedPuzzles(items: Item[], state: UserState, count = 6, date = today()): Puzzle[] {
   const age = state.ageBand;
   const out: Puzzle[] = [];
   for (let k = 0; k < count; k++) {
     const seed = `feed-${date}-${k}-${age ?? ""}`;
-    const kind = k % 3;
+    const kind = k % 4;
     const at = (k: string) => stepOf(state, k);
-    const p = kind === 0 ? makeSudoku(seed, sudokuSizeAt(age, at("sudoku")), "few", at("sudoku")) : kind === 1 ? makeCrossword(`${seed}-${state.settings.locale}`, items, state, "few", at("crossword")) : makePyramid(seed, age, "few", at("pyramid"));
+    const p = kind === 0 ? makeSudoku(seed, sudokuSizeAt(age, at("sudoku")), "few", at("sudoku")) : kind === 1 ? makeCrossword(`${seed}-${state.settings.locale}`, items, state, "few", at("crossword")) : kind === 2 ? makePyramid(seed, age, "few", at("pyramid")) : makeFutoshiki(seed, "few", at("futoshiki"));
     if (p) out.push(p);
   }
   return out;

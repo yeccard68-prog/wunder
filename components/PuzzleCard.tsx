@@ -1,23 +1,25 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from "react";
+import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { Check, Delete, Eye, Grid3x3, Lightbulb } from "lucide-react";
 import { today } from "@/lib/gamification";
-import { puzzleState, sudokuConflicts, wordCells, type Crossword, type Puzzle, type Pyramid, type Sudoku } from "@/lib/puzzles";
+import { futoshikiConflicts, puzzleState, sudokuConflicts, wordCells, type Crossword, type Futoshiki, type Puzzle, type Pyramid, type Sudoku } from "@/lib/puzzles";
 import { practised } from "@/lib/skill";
 import { useStore, useT } from "@/lib/store";
 
-const NAMES = { sudoku: "Sudoku", crossword: "Kreuzworträtsel", pyramid: "Zahlenpyramide" } as const;
+const NAMES = { sudoku: "Sudoku", crossword: "Kreuzworträtsel", pyramid: "Zahlenpyramide", futoshiki: "Futoshiki" } as const;
 const HOW = {
   sudoku: "Jede Zahl darf in jeder Zeile, jeder Spalte und jedem Kasten nur einmal vorkommen.",
   crossword: "Tippe auf ein Feld und schreib das Lösungswort. Die Fragen kennst du schon aus deinem Feed.",
   pyramid: "Jeder Stein ist die Summe der beiden Steine darunter.",
+  futoshiki: "Jede Zahl steht in jeder Zeile und Spalte genau einmal. Die Zeichen < und > zwischen zwei Feldern müssen stimmen.",
 } as const;
 
 /** Every puzzle as flat cells: the solution per cell (null = no cell) and which cells are written in from the start. */
 function cellsOf(p: Puzzle) {
   if (p.kind === "sudoku") return { solution: p.solution.map(String), given: p.givens.map((v) => v > 0) };
   if (p.kind === "crossword") return { solution: p.solution, given: p.givens };
+  if (p.kind === "futoshiki") return { solution: p.solution.map(String), given: p.givens.map((v) => v > 0) };
   return { solution: p.rows.flat().map(String), given: p.shown.flat() };
 }
 
@@ -82,7 +84,7 @@ export default function PuzzleCard({ puzzle, daily = false, onDone }: { puzzle: 
         </p>
         <p className="mt-1 text-sm text-muted">{t(HOW[puzzle.kind])}</p>
       </div>
-      {puzzle.kind === "sudoku" ? <SudokuBoard p={puzzle} {...props} /> : puzzle.kind === "crossword" ? <CrosswordBoard p={puzzle} {...props} /> : <PyramidBoard p={puzzle} {...props} />}
+      {puzzle.kind === "sudoku" ? <SudokuBoard p={puzzle} {...props} /> : puzzle.kind === "crossword" ? <CrosswordBoard p={puzzle} {...props} /> : puzzle.kind === "futoshiki" ? <FutoshikiBoard p={puzzle} {...props} /> : <PyramidBoard p={puzzle} {...props} />}
       {result ? (
         <p className={`flex items-center gap-2 rounded-2xl p-3.5 text-sm font-semibold ${result === "solved" ? "bg-good/10" : "bg-raised"}`} role="status" data-testid="puzzle-result">
           {result === "solved" ? <><Check size={16} className="shrink-0 text-good" /> {hinted.length ? t("Gelöst! Genutzte Tipps: {n}", { n: hinted.length }) : t("Gelöst – ganz ohne Tipp!")}</> : t("Hier ist die Lösung.")}
@@ -130,6 +132,56 @@ function SudokuBoard({ p, values, set, open, done }: BoardProps & { p: Sudoku })
             </button>
           );
         })}
+      </div>
+      {!done && (
+        <div className="mx-auto flex max-w-[360px] flex-wrap justify-center gap-1.5">
+          {Array.from({ length: n }, (_, k) => String(k + 1)).map((d) => (
+            <button key={d} onClick={() => set(sel, d)} className={`press ${cellText} h-11 w-11 rounded-xl bg-raised text-lg`} data-testid="puzzle-digit">{d}</button>
+          ))}
+          <button onClick={() => set(sel, "")} aria-label={t("Löschen")} className="press flex h-11 w-11 items-center justify-center rounded-xl bg-raised"><Delete size={18} /></button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** Futoshiki: the cells in a grid with the signs in narrow gaps between them (∧ ∨ between rows); numbers as in the sudoku. */
+function FutoshikiBoard({ p, values, set, open, done }: BoardProps & { p: Futoshiki }) {
+  const t = useT();
+  const n = p.size;
+  const [sel, setSel] = useState(() => open.findIndex(Boolean));
+  const bad = futoshikiConflicts(p, values.map(Number));
+  const key = (e: KeyboardEvent) => {
+    const d = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -n, ArrowDown: n }[e.key];
+    if (d !== undefined) {
+      e.preventDefault();
+      setSel((s) => Math.min(n * n - 1, Math.max(0, s + d)));
+    } else if (/^[1-9]$/.test(e.key) && +e.key <= n) set(sel, e.key);
+    else if (e.key === "Backspace" || e.key === "Delete") set(sel, "");
+  };
+  const gap = "1.1rem";
+  const cells: ReactNode[] = [];
+  for (let r = 0; r < n; r++) {
+    for (let c = 0; c < n; c++) {
+      const i = r * n + c, v = values[i];
+      cells.push(
+        <button key={`c${i}`} role="gridcell" aria-label={t("Zeile {r}, Spalte {c}", { r: r + 1, c: c + 1 }) + (v ? `: ${v}` : "")} onClick={() => setSel(i)} data-testid="puzzle-cell" data-open={open[i] || undefined}
+          className={`${cellText} flex aspect-square items-center justify-center rounded-lg border-2 text-lg ${sel === i && !done ? "border-accent bg-accent/15" : "border-line bg-surface"} ${open[i] ? (bad.has(i) ? "text-bad" : "text-accent") : ""}`}>
+          {v}
+        </button>,
+      );
+      if (c < n - 1) cells.push(<span key={`h${i}`} aria-hidden className="flex items-center justify-center font-bold text-muted">{p.right[i]}</span>);
+    }
+    if (r < n - 1) for (let c = 0; c < n; c++) {
+      const i = r * n + c;
+      cells.push(<span key={`v${i}`} aria-hidden className="flex items-center justify-center font-bold leading-none text-muted">{p.down[i] === "<" ? "∧" : p.down[i] === ">" ? "∨" : ""}</span>);
+      if (c < n - 1) cells.push(<span key={`x${i}`} aria-hidden />);
+    }
+  }
+  return (
+    <div className="space-y-3">
+      <div role="grid" aria-label={t("Futoshiki")} tabIndex={0} onKeyDown={key} className="mx-auto grid w-full max-w-[340px] outline-none" style={{ gridTemplateColumns: `repeat(${n - 1}, 1fr ${gap}) 1fr`, gridTemplateRows: `repeat(${n - 1}, auto ${gap}) auto` }}>
+        {cells}
       </div>
       {!done && (
         <div className="mx-auto flex max-w-[360px] flex-wrap justify-center gap-1.5">
