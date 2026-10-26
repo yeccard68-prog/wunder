@@ -36164,5 +36164,283 @@
         "explanation": "The Dead Sea lies more than 440 metres below sea level – it is the lowest-lying lake on Earth."
       }
     }
+  },
+  {
+    "id": "g52",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum fliegen große Zugvögel oft in V-Formation?",
+    "options": [
+      "Damit sie sich nicht verfliegen",
+      "Um Energie zu sparen",
+      "Um Feinde abzuschrecken",
+      "Weil der Anführer sonst nichts sieht"
+    ],
+    "correct_index": 1,
+    "explanation": "Große und schwere Zugvögel fliegen meist am Tag über Land und nutzen dabei meist die V-Formation, um Energie zu sparen.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vogelzug",
+    "source_url": "https://de.wikipedia.org/wiki/Vogelzug",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do large migrating birds often fly in a V formation?",
+        "options": [
+          "So that they don't get lost",
+          "To save energy",
+          "To scare off enemies",
+          "Because the leader would otherwise see nothing"
+        ],
+        "explanation": "Large, heavy migrating birds mostly fly by day over land and mostly use the V formation to save energy."
+      }
+    }
+  },
+  {
+    "id": "t52",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht das Wort „Laser“?",
+    "options": [
+      "Leuchtende Anlage für schnelle Entfernungsmessung",
+      "Lichtstrahl aus sehr energiereichem Rubin",
+      "Lichtverstärkung durch stimulierte Emission von Strahlung",
+      "Langer, schmaler Energiestrahl"
+    ],
+    "correct_index": 2,
+    "explanation": "Laser ist ein Akronym: light amplification by stimulated emission of radiation – „Lichtverstärkung durch stimulierte Emission von Strahlung“.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Abkürzungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Laser",
+    "source_url": "https://de.wikipedia.org/wiki/Laser",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the word \"laser\" stand for?",
+        "options": [
+          "Luminous apparatus for swift distance measuring",
+          "Light beam from a very energetic ruby",
+          "Light amplification by stimulated emission of radiation",
+          "Long, narrow energy ray"
+        ],
+        "explanation": "Laser is an acronym: light amplification by stimulated emission of radiation."
+      }
+    }
+  },
+  {
+    "id": "t53",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht die Abkürzung RADAR?",
+    "options": [
+      "Radiated Antenna Direction Range",
+      "Rapid Data Radio – schneller Datenfunk",
+      "Reflected Air Detection And Response",
+      "Radio Detection And Ranging – funkgestützte Ortung und Entfernungsmessung"
+    ],
+    "correct_index": 3,
+    "explanation": "RADAR ist die Abkürzung für Radio Detection And Ranging, frei übersetzt „funkgestützte Ortung und Entfernungsmessung“.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Abkürzungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radar",
+    "source_url": "https://de.wikipedia.org/wiki/Radar",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the abbreviation RADAR stand for?",
+        "options": [
+          "Radiated Antenna Direction Range",
+          "Rapid Data Radio",
+          "Reflected Air Detection And Response",
+          "Radio Detection And Ranging"
+        ],
+        "explanation": "RADAR stands for Radio Detection And Ranging – locating things and measuring their distance by radio."
+      }
+    }
+  },
+  {
+    "id": "t54",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür steht die Abkürzung USB?",
+    "options": [
+      "Universal Serial Bus",
+      "Unified System Board",
+      "Universal Storage Box",
+      "User Service Bridge"
+    ],
+    "correct_index": 0,
+    "explanation": "USB heißt Universal Serial Bus – ein System, um Daten zwischen einem Computer und externen Geräten zu übertragen.",
+    "difficulty": 1,
+    "tags": [
+      "Technik",
+      "Abkürzungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Universal Serial Bus",
+    "source_url": "https://de.wikipedia.org/wiki/Universal_Serial_Bus",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the abbreviation USB stand for?",
+        "options": [
+          "Universal Serial Bus",
+          "Unified System Board",
+          "Universal Storage Box",
+          "User Service Bridge"
+        ],
+        "explanation": "USB stands for Universal Serial Bus – a system for transferring data between a computer and external devices."
+      }
+    }
+  },
+  {
+    "id": "c64",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wo ist das Wort „Kitsch“ wahrscheinlich entstanden?",
+    "options": [
+      "In der Wiener Oper",
+      "In einer Pariser Porzellanmanufaktur",
+      "Im Münchner Kunsthandel der 1870er Jahre",
+      "In einer Berliner Werbeagentur"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Wort ist wahrscheinlich in den 1870er Jahren im Münchner Kunsthandel entstanden. Seine genaue Herkunft bleibt aber unsicher.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kitsch",
+    "source_url": "https://de.wikipedia.org/wiki/Kitsch",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the word \"kitsch\" probably come from?",
+        "options": [
+          "The Vienna Opera",
+          "A Paris porcelain factory",
+          "The Munich art trade of the 1870s",
+          "A Berlin advertising agency"
+        ],
+        "explanation": "The word probably arose in the Munich art trade in the 1870s. Its exact origin, however, remains uncertain."
+      }
+    }
+  },
+  {
+    "id": "l69",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache stammt das Wort „Pyjama“?",
+    "options": [
+      "Aus dem Persischen",
+      "Aus dem Französischen",
+      "Aus dem Spanischen",
+      "Aus dem Japanischen"
+    ],
+    "correct_index": 0,
+    "explanation": "Pyjama stammt aus dem Persischen und heißt wörtlich „Beinkleidung“ – ursprünglich eine leichte Hose.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pyjama",
+    "source_url": "https://de.wikipedia.org/wiki/Pyjama",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word \"pyjama\" come from?",
+        "options": [
+          "Persian",
+          "French",
+          "Spanish",
+          "Japanese"
+        ],
+        "explanation": "Pyjama comes from Persian and literally means \"leg garment\" – originally a light pair of trousers."
+      }
+    }
+  },
+  {
+    "id": "l70",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das Swahili-Wort „safari“?",
+    "options": [
+      "„Löwe“",
+      "„Jagd“",
+      "„Reise“",
+      "„Steppe“"
+    ],
+    "correct_index": 2,
+    "explanation": "Safari kommt vom Swahili-Wort safari, „Reise“ – das wiederum auf das arabische safar, „Reise“, zurückgeht.",
+    "difficulty": 1,
+    "tags": [
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Safari",
+    "source_url": "https://de.wikipedia.org/wiki/Safari",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Swahili word \"safari\" mean?",
+        "options": [
+          "\"Lion\"",
+          "\"Hunt\"",
+          "\"Journey\"",
+          "\"Savannah\""
+        ],
+        "explanation": "Safari comes from the Swahili word safari, \"journey\" – which in turn goes back to the Arabic safar, \"journey\"."
+      }
+    }
   }
 ]
