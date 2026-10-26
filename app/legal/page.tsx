@@ -192,6 +192,15 @@ export default function LegalPage() {
         </ul>
       </section>
 
+      <section className="space-y-2" data-testid="data-credits">
+        <h2 className={h2}>{t("Daten, Karte und Fotos")}</h2>
+        <ul className={`${p} list-disc space-y-1.5 pl-5`}>
+          <li>{t("Viele Fragen (Hauptstädte, Werke, Welterbe, Olympia …) sind aus Daten von Wikidata erzeugt. Wikidata-Daten sind gemeinfrei (CC0); jede dieser Fragen verlinkt ihren Wikidata-Eintrag als Quelle.")} <a href="https://www.wikidata.org/" target="_blank" rel="noopener noreferrer" className="underline">Wikidata</a></li>
+          <li>{t("Die Weltkarte stammt aus Natural Earth (gemeinfrei).")} <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer" className="underline">Natural Earth</a></li>
+          <li>{t("Fotos stammen von Wikimedia Commons und stehen unter freien Lizenzen (CC0, CC BY, CC BY-SA oder gemeinfrei). Urheber und Lizenz stehen unter jedem Bild und führen zur Originaldatei. Die Bilder wurden verkleinert und liegen auf unserem eigenen Server.")} <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer" className="underline">Wikimedia Commons</a></li>
+        </ul>
+      </section>
+
       <section className="space-y-2">
         <h2 className={h2}>{t("Was die App speichert")}</h2>
         <ul className={`${p} list-disc space-y-1.5 pl-5`}>

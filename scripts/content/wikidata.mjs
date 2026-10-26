@@ -232,6 +232,164 @@ SELECT ?c ?cLabel ?cLabelEn ?iso ?cont WHERE {
       };
     }), keep.map((e) => e.links));
   },
+  // "Bayern: Wie heißt die Landeshauptstadt?" – states of Germany and Austria, Swiss cantons, US states
+  async regions(r) {
+    const KINDS = [
+      { cls: "Q1221156", iso: "DE", de: "Landeshauptstadt", art: "die", en: "state capital" },
+      { cls: "Q261543", iso: "AT", de: "Landeshauptstadt", art: "die", en: "state capital" },
+      { cls: "Q23058", iso: "CH", de: "Hauptort", art: "der", en: "capital" },
+      { cls: "Q35657", iso: "US", de: "Hauptstadt", art: "die", en: "capital" },
+    ];
+    const out = [];
+    for (const k of KINDS) {
+      const rows = await sparql(`
+SELECT ?s ?sLabel ?sLabelEn ?v ?vLabel ?vLabelEn ?links WHERE {
+  ?s wdt:P31 wd:${k.cls}; wikibase:sitelinks ?links. ?s p:P36 ?st. ?st ps:P36 ?v. FILTER NOT EXISTS { ?st pq:P582 [] }
+  ${LABELS("s", "v")} ${LABELS_EN("s", "v")}
+}`);
+      const by = new Map();
+      for (const x of rows) {
+        if (!named(x.sLabel, x.sLabelEn, x.vLabel, x.vLabelEn)) continue;
+        const e = by.get(qid(x.s)) ?? { id: qid(x.s), de: x.sLabel, en: x.sLabelEn, links: +x.links, values: new Map(), k };
+        e.values.set(qid(x.v), { id: qid(x.v), de: x.vLabel, en: x.vLabelEn, group: k.iso });
+        by.set(e.id, e);
+      }
+      out.push(...[...by.values()].filter((e) => e.values.size === 1).map((e) => ({ ...e, value: [...e.values.values()][0] })));
+    }
+    const pool = out.map((e) => e.value);
+    const keep = out.filter((e) => e.value.id !== e.id && !givesAway(e.de, e.value.de) && !givesAway(e.value.de, e.de));
+    return byFame(keep.map((e) => {
+      const id = `wd-reg-${e.id}`;
+      const o = arrange(id, e.value, wrongOptions(e.value, pool, e.k.iso, r));
+      return {
+        id, category_id: "earth", min_age: 10, countries: [e.k.iso], tags: ["Geografie", "Hauptstädte"],
+        question: `${e.de}: Wie heißt ${e.k.art} ${e.k.de}?`, options: o.de, correct_index: o.correct,
+        explanation: `${e.k.art === "der" ? "Der" : "Die"} ${e.k.de} von ${e.de} ist ${e.value.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `${e.en}: What is the ${e.k.en}?`, options: o.en, explanation: `The ${e.k.en} of ${e.en} is ${e.value.en}.` } },
+      };
+    }), keep.map((e) => e.links));
+  },
+  // Olympic Games that have taken place: host city
+  async olympics(r) {
+    const out = [];
+    for (const [cls, de, en] of [["Q159821", "Olympischen Sommerspiele", "Summer Olympics"], ["Q82414", "Olympischen Winterspiele", "Winter Olympics"]]) {
+      const rows = await sparql(`
+SELECT ?g (YEAR(?start) AS ?year) ?city ?cityLabel ?cityLabelEn WHERE {
+  ?g wdt:P3450 wd:${cls}; wdt:P276 ?city; wdt:P580 ?start. FILTER(YEAR(?start) <= 2024) # editions point to their series
+  ?city wdt:P31/wdt:P279* wd:Q515.
+  ${LABELS("city")} ${LABELS_EN("city")}
+}`);
+      const by = new Map();
+      for (const x of rows) {
+        if (!named(x.cityLabel, x.cityLabelEn)) continue;
+        const e = by.get(qid(x.g)) ?? { id: qid(x.g), year: +x.year, cities: new Map(), de, en };
+        e.cities.set(qid(x.city), { id: qid(x.city), de: x.cityLabel, en: x.cityLabelEn, group: de });
+        by.set(e.id, e);
+      }
+      out.push(...[...by.values()].filter((e) => e.cities.size === 1).map((e) => ({ ...e, city: [...e.cities.values()][0] })));
+    }
+    const pool = [...new Map(out.map((e) => [e.city.id, e.city])).values()];
+    return out.map((e) => {
+      const id = `wd-olym-${e.id}`;
+      const o = arrange(id, e.city, wrongOptions(e.city, pool, e.de, r));
+      return {
+        id, category_id: "sport", difficulty: e.year >= 1980 ? 1 : e.year >= 1948 ? 2 : 3, min_age: 10, countries: [], tags: ["Olympia"],
+        question: `In welcher Stadt fanden die ${e.de} ${e.year} statt?`, options: o.de, correct_index: o.correct,
+        explanation: `Die ${e.de} ${e.year} fanden in ${e.city.de} statt.`,
+        source_name: `Wikidata: ${e.de} ${e.year}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `Which city hosted the ${e.year} ${e.en}?`, options: o.en, explanation: `The ${e.year} ${e.en} were held in ${e.city.en}.` } },
+      };
+    });
+  },
+  // men's football World Cups that have taken place: host country and winner
+  async worldcups(r) {
+    const rows = await sparql(`
+SELECT ?w (YEAR(?start) AS ?year) ?p ?c ?cLabel ?cLabelEn WHERE {
+  ?w wdt:P3450 wd:Q19317; wdt:P580 ?start. FILTER(YEAR(?start) <= 2022) # editions point to their series
+  { ?w wdt:P17 ?c. BIND("host" AS ?p) } UNION { ?w wdt:P1346 ?team. ?team wdt:P17 ?c. BIND("winner" AS ?p) }
+  ${LABELS("c")} ${LABELS_EN("c")}
+}`);
+    const by = new Map();
+    for (const x of rows) {
+      // England, Scotland … play as their own teams – Wikidata gives the United Kingdom, which would be wrong here
+      if (!named(x.cLabel, x.cLabelEn) || qid(x.c) === "Q145") continue;
+      const e = by.get(qid(x.w)) ?? { id: qid(x.w), year: +x.year, host: new Map(), winner: new Map() };
+      e[x.p].set(qid(x.c), { id: qid(x.c), de: x.cLabel, en: x.cLabelEn, group: "all" });
+      by.set(e.id, e);
+    }
+    const list = [...by.values()];
+    const pool = [...new Map(list.flatMap((e) => [...e.host.values(), ...e.winner.values()]).map((c) => [c.id, c])).values()];
+    const cards = [];
+    for (const e of list) {
+      const diff = e.year >= 1990 ? 1 : e.year >= 1966 ? 2 : 3;
+      if (e.host.size === 1 && e.winner.size === 1) { // a winner marks the final tournament (not a qualification)
+        const c = [...e.host.values()][0], id = `wd-wch-${e.id}`, o = arrange(id, c, wrongOptions(c, pool, "all", r));
+        cards.push({ id, category_id: "sport", difficulty: diff, min_age: 10, countries: [], tags: ["Fußball", "Weltmeisterschaft"],
+          question: `In welchem Land fand die Fußball-Weltmeisterschaft der Männer ${e.year} statt?`, options: o.de, correct_index: o.correct,
+          explanation: `Gastgeber der Fußball-WM ${e.year} war ${c.de}.`, source_name: `Wikidata: Fußball-Weltmeisterschaft ${e.year}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+          translations: { en: { question: `Which country hosted the ${e.year} men's FIFA World Cup?`, options: o.en, explanation: `The ${e.year} World Cup was hosted by ${c.en}.` } } });
+      }
+      if (e.winner.size === 1) {
+        const c = [...e.winner.values()][0], id = `wd-wcw-${e.id}`, o = arrange(id, c, wrongOptions(c, pool, "all", r));
+        cards.push({ id, category_id: "sport", difficulty: diff, min_age: 10, countries: [], tags: ["Fußball", "Weltmeisterschaft"],
+          question: `Welches Land wurde ${e.year} Fußball-Weltmeister der Männer?`, options: o.de, correct_index: o.correct,
+          explanation: `${e.year} gewann ${c.de} die Fußball-Weltmeisterschaft.`, source_name: `Wikidata: Fußball-Weltmeisterschaft ${e.year}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+          translations: { en: { question: `Which country won the ${e.year} men's FIFA World Cup?`, options: o.en, explanation: `${c.en} won the ${e.year} World Cup.` } } });
+      }
+    }
+    return cards;
+  },
+  // countries with exactly one official language that does not give itself away (Frankreich → Französisch)
+  async languages(r) {
+    const list = await countryValues("P37");
+    const pool = [...new Map(list.map((e) => [e.value.id, { ...e.value, group: "all" }])).values()];
+    const keep = list.filter((e) => e.links >= 150 && !givesAway(e.de, e.value.de) && !givesAway(e.en, e.value.en));
+    return byFame(keep.map((e) => {
+      const id = `wd-lang-${e.id}`;
+      const o = arrange(id, e.value, wrongOptions(e.value, pool, "all", r));
+      return {
+        id, category_id: "language", min_age: 10, countries: [e.iso], tags: ["Sprachen", "Länder"],
+        question: `${e.de}: Welche Sprache ist dort Amtssprache?`, options: o.de, correct_index: o.correct,
+        explanation: `Amtssprache von ${e.de} ist ${e.value.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `${e.en}: What is the official language there?`, options: o.en, explanation: `The official language of ${e.en} is ${e.value.en}.` } },
+      };
+    }), keep.map((e) => e.links));
+  },
+  // well-known companies: country of their headquarters
+  async companies(r) {
+    const rows = await sparql(`
+SELECT ?f ?fLabel ?fLabelEn ?links ?c WHERE {
+  ?f wdt:P31 ?type; wikibase:sitelinks ?links. FILTER(?type IN (wd:Q4830453, wd:Q891723, wd:Q6881511, wd:Q783794)) FILTER(?links >= 70)
+  ?f wdt:P159 ?hq. ?hq wdt:P17 ?c. FILTER NOT EXISTS { ?f wdt:P576 [] }
+  ${LABELS("f")} ${LABELS_EN("f")}
+}`);
+    const states = new Map((await sparql(`
+SELECT ?c ?cLabel ?cLabelEn ?iso WHERE { ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso. ${LABELS("c")} ${LABELS_EN("c")} }`)).map((x) => [qid(x.c), x]));
+    const by = new Map();
+    for (const x of rows) {
+      const c = states.get(qid(x.c));
+      if (!c || !named(x.fLabel, x.fLabelEn)) continue;
+      const e = by.get(qid(x.f)) ?? { id: qid(x.f), de: x.fLabel, en: x.fLabelEn, links: +x.links, countries: new Map() };
+      e.countries.set(qid(x.c), { id: qid(x.c), de: c.cLabel, en: c.cLabelEn, iso: c.iso, group: "all" });
+      by.set(e.id, e);
+    }
+    const list = [...by.values()].filter((e) => e.countries.size === 1).map((e) => ({ ...e, country: [...e.countries.values()][0] }));
+    const pool = [...new Map(list.map((e) => [e.country.id, e.country])).values()];
+    const keep = list.filter((e) => !givesAway(e.country.de, e.de) && !givesAway(e.country.en, e.en));
+    return byFame(keep.map((e) => {
+      const id = `wd-firm-${e.id}`;
+      const o = arrange(id, e.country, wrongOptions(e.country, pool, "all", r));
+      return {
+        id, category_id: "business", min_age: 10, countries: [e.country.iso], tags: ["Unternehmen"],
+        question: `In welchem Land hat das Unternehmen „${e.de}“ seinen Hauptsitz?`, options: o.de, correct_index: o.correct,
+        explanation: `„${e.de}“ hat seinen Hauptsitz in ${e.country.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: `In which country does the company "${e.en}" have its headquarters?`, options: o.en, explanation: `"${e.en}" is headquartered in ${e.country.en}.` } },
+      };
+    }), keep.map((e) => e.links));
+  },
   // (an animal-class template was tried: the taxon tree in Wikidata is too deep and uneven – queries time out or miss
   // whole classes such as reptiles; needs another approach)
 };

@@ -30,7 +30,9 @@ export interface Item {
   explanation?: string;
   source: Source;
   difficulty: Difficulty;
-  imageUrl?: string;
+  imageUrl?: string; // a thumbnail on the app's own site
+  imageCredit?: string; // author · licence of the picture
+  imageSource?: string; // page of the original file (e.g. on Wikimedia Commons)
   createdAt: string;
   popularity: number; // like count
   verification: "unverified" | "ai_checked" | "verified";

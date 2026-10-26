@@ -36,7 +36,7 @@ async function allRows<T>(page: (from: number, to: number) => PromiseLike<{ data
   }
 }
 
-const QUESTION_COLUMNS = "id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations, hints, countries";
+const QUESTION_COLUMNS = "id, kind, category_id, question, options, difficulty, source_name, source_url, verification_status, show_in_feed, created_at, like_count, min_age, max_age, translations, hints, countries, image_url, image_credit, image_source";
 
 /** The hand-made cards and clips – loaded in full at app start. Generated cards come in portions (fetchGenerated). */
 export async function fetchContent() {

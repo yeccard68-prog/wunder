@@ -7,6 +7,7 @@ import type { AnswerContext, Item } from "@/lib/types";
 import { categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import { isFormat, type AnswerKey, type FormatResponse } from "@/lib/formats";
+import CountryMap from "./CountryMap";
 import FormatInput, { FORMAT_LABEL } from "./Formats";
 import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
@@ -128,6 +129,17 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
           )}
         </div>
 
+        {item.imageUrl && (
+          <figure className="-mx-1 mb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element -- a small static thumbnail; the static export has no image optimiser */}
+            <img src={item.imageUrl} alt="" loading="lazy" className="aspect-[4/3] w-full rounded-2xl bg-raised object-cover" />
+            {item.imageCredit && (
+              <figcaption className="mt-1 truncate text-[11px] text-muted" data-testid="image-credit">
+                {t("Bild:")} {item.imageSource ? <a href={item.imageSource} target="_blank" rel="noopener noreferrer" className="underline">{item.imageCredit}</a> : item.imageCredit}
+              </figcaption>
+            )}
+          </figure>
+        )}
         {isFact && <p className="mb-1.5 font-display text-sm italic text-muted">{t("Stimmt das?")}</p>}
         {special && <p className="mb-1.5 font-display text-sm italic text-muted">{t(FORMAT_LABEL[item.kind])}</p>}
         {item.kind !== "blank" && <h2 className="font-display text-[1.45rem] font-semibold leading-[1.2] tracking-tight text-balance">{item.question}</h2>}
@@ -173,6 +185,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
               {reveal.correct ? (isFact ? t("Gut eingeschätzt!") : miss !== null ? t("Richtig – im zweiten Anlauf!") : t("Richtig!")) : picked === null ? t("Beim letzten Mal falsch") : isFact ? t("Kommt später noch einmal.") : t("Nicht ganz – kommt später zur Wiederholung")}
             </p>
             <p className="mt-1 text-[15px] leading-relaxed">{reveal.explanation}</p>
+            {item.countries && item.countries.length > 0 && <CountryMap countries={item.countries} />}
             {clip && (
               <p className="mt-2 flex gap-2 border-t border-line pt-2 text-sm leading-relaxed text-muted">
                 <Clapperboard size={15} className="mt-0.5 shrink-0" />

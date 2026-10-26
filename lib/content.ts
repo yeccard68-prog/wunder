@@ -58,6 +58,9 @@ export interface QuestionRow {
   translations?: Record<string, { question: string; options: string[]; explanation?: string; hints?: string[] }>;
   hints?: string[] | null;
   countries?: string[] | null; // ISO 3166 codes of the countries the card is about
+  image_url?: string | null;
+  image_credit?: string | null;
+  image_source?: string | null;
   like_count?: number;
   correct_index?: number;
   answer?: AnswerKey | null;
@@ -114,6 +117,9 @@ export function toItem(r: QuestionRow): Item {
     maxAge: r.max_age ?? null,
     hints: r.hints ?? undefined,
     countries: r.countries ?? undefined,
+    imageUrl: r.image_url ?? undefined,
+    imageCredit: r.image_credit ?? undefined,
+    imageSource: r.image_source ?? undefined,
     translations: r.translations,
   };
 }
