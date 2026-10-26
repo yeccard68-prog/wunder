@@ -4,8 +4,9 @@
 // The level follows the age band: children get small numbers and no percentages or fractions.
 import type { AgeBand } from "./types";
 import { rng } from "./gamification";
+import MAP_COUNTRIES from "./map-countries.json";
 
-export type ExerciseKind = "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock";
+export type ExerciseKind = "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock" | "map";
 export interface Exercise {
   id: string;
   kind: ExerciseKind;
@@ -13,14 +14,15 @@ export interface Exercise {
   options: string[];
   correct: number;
   explanation: string;
+  countries?: string[]; // map quiz: the country shown on the map (ISO code)
 }
 
 type Level = 0 | 1 | 2; // 0 = 6–9 years, 1 = 10–12, 2 = 13+
 export const levelOf = (age: AgeBand | null): Level => (age === "6-9" ? 0 : age === "10-12" ? 1 : 2);
 export const KINDS: Record<Level, ExerciseKind[]> = {
-  0: ["arithmetic", "units", "sequence", "weekday", "clock"],
-  1: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock"],
-  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock"],
+  0: ["arithmetic", "units", "sequence", "weekday", "clock", "map"],
+  1: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map"],
+  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "map"],
 };
 
 const fmt = (n: number, locale: string) => n.toLocaleString(locale === "de" ? "de-DE" : "en-GB", { maximumFractionDigits: 3 });
@@ -136,7 +138,24 @@ const clock: Make = (r, level, de) => {
   return { question: de ? `Es ist ${hm(start)} Uhr. Wie spät ist es in ${plus} Minuten?` : `It is ${hm(start)}. What time is it in ${plus} minutes?`, options: list, correct: at, explanation: de ? `${hm(start)} + ${plus} Minuten = ${hm(end)} Uhr` : `${hm(start)} + ${plus} minutes = ${hm(end)}` };
 };
 
-const MAKERS: Record<ExerciseKind, Make> = { arithmetic, percent, fraction, units, sequence, weekday, clock };
+// "Welches Land ist auf der Karte markiert?" – names from the browser (Intl.DisplayNames), wrong options from the same
+// continent; shapes from the app's own world map (Natural Earth)
+const COUNTRIES = MAP_COUNTRIES as Record<string, string>;
+const map: Make = (r, _level, de, locale) => {
+  const codes = Object.keys(COUNTRIES);
+  const iso = pick(r, codes);
+  const name = (c: string) => new Intl.DisplayNames([locale], { type: "region" }).of(c) ?? c;
+  const near = codes.filter((c) => c !== iso && COUNTRIES[c] === COUNTRIES[iso]);
+  const pool = near.length >= 3 ? near : codes.filter((c) => c !== iso);
+  const wrong: string[] = [];
+  while (wrong.length < 3) { const c = pick(r, pool); if (!wrong.includes(c)) wrong.push(c); }
+  const at = Math.floor(r() * 4);
+  const list = wrong.map(name);
+  list.splice(at, 0, name(iso));
+  return { question: de ? "Welches Land ist auf der Karte markiert?" : "Which country is marked on the map?", options: list, correct: at, explanation: de ? `Markiert ist ${name(iso)}.` : `The marked country is ${name(iso)}.`, countries: [iso] };
+};
+
+const MAKERS: Record<ExerciseKind, Make> = { arithmetic, percent, fraction, units, sequence, weekday, clock, map };
 
 export function makeExercise(seed: string, kind: ExerciseKind, age: AgeBand | null, locale: string): Exercise {
   const r = rng(seed);

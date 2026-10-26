@@ -19,10 +19,11 @@ async function sparql(query) {
   return (await r.json()).results.bindings;
 }
 // ISO numeric → alpha-2, and a point for every sovereign state
-const rows = await sparql(`SELECT ?num ?iso ?coord WHERE { ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso. OPTIONAL { ?c wdt:P299 ?num } OPTIONAL { ?c wdt:P625 ?coord } }`);
-const alpha = new Map(), point = new Map();
+const rows = await sparql(`SELECT ?num ?iso ?coord ?cont WHERE { ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso. OPTIONAL { ?c wdt:P299 ?num } OPTIONAL { ?c wdt:P625 ?coord } OPTIONAL { ?c wdt:P30 ?cont } }`);
+const alpha = new Map(), point = new Map(), continent = new Map();
 for (const r of rows) {
   if (r.num) alpha.set(r.num.value.padStart(3, "0"), r.iso.value);
+  if (r.cont && !continent.has(r.iso.value)) continent.set(r.iso.value, r.cont.value.split("/").pop());
   const m = r.coord?.value.match(/Point\(([-\d.]+) ([-\d.]+)\)/);
   if (m) point.set(r.iso.value, [x(+m[1]), y(+m[2])]);
 }
@@ -48,4 +49,7 @@ for (const f of world.features) {
 const dots = Object.fromEntries([...point].filter(([iso]) => !paths[iso]));
 fs.mkdirSync("public/map", { recursive: true });
 fs.writeFileSync("public/map/world.json", JSON.stringify({ width: W, height: H, paths, dots }));
+// the countries the map quiz can ask (a shape on the map) and their continent – for wrong options nearby
+const quiz = Object.fromEntries(Object.keys(paths).filter((iso) => continent.has(iso)).sort().map((iso) => [iso, continent.get(iso)]));
+fs.writeFileSync("lib/map-countries.json", JSON.stringify(quiz));
 console.log(`map: ${Object.keys(paths).length} shapes, ${Object.keys(dots).length} dots, ${(fs.statSync("public/map/world.json").size / 1024).toFixed(0)} KB`);

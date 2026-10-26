@@ -687,6 +687,27 @@ SELECT ?city ?cityLabel ?cityLabelEn ?links ?river ?riverLabel ?riverLabelEn ?is
       deX: (p, v) => `Das Instrument „${p}“ gehört zur Gruppe ${v}.`, enX: (p, v) => `The ${p} belongs to the family: ${v}.`,
     });
   },
+  // "Zu welchem Land gehört diese Flagge?" – the flag picture (P41) is added by commons-images.mjs; a card without a
+  // clearly free picture is dropped there (needs_image)
+  async flags(r) {
+    const rows = await sparql(`
+SELECT ?c ?cLabel ?cLabelEn ?iso ?cont ?links WHERE {
+  ?c wdt:P31 wd:Q3624078; wdt:P297 ?iso; wdt:P30 ?cont; wdt:P41 []; wikibase:sitelinks ?links. FILTER NOT EXISTS { ?c wdt:P576 [] }
+  ${LABELS("c")} ${LABELS_EN("c")}
+}`);
+    const list = [...new Map(rows.filter((x) => named(x.cLabel, x.cLabelEn) && !DISPUTED.has(qid(x.c))).map((x) => [qid(x.c), { id: qid(x.c), de: x.cLabel, en: x.cLabelEn, iso: x.iso, group: qid(x.cont), links: +x.links }])).values()];
+    return byFame(list.map((e) => {
+      const id = `wd-flag-${e.id}`;
+      const o = arrange(id, e, wrongOptions(e, list, e.group, r));
+      return {
+        id, category_id: "earth", min_age: 6, countries: [e.iso], tags: ["Geografie", "Flaggen"], needs_image: true,
+        question: "Zu welchem Land gehört diese Flagge?", options: o.de, correct_index: o.correct,
+        explanation: `Das ist die Flagge von ${e.de}.`,
+        source_name: `Wikidata: ${e.de}`, source_url: `https://www.wikidata.org/wiki/${e.id}`,
+        translations: { en: { question: "Which country does this flag belong to?", options: o.en, explanation: `This is the flag of ${e.en}.` } },
+      };
+    }), list.map((e) => e.links));
+  },
   // (a neighbouring-countries template was tried: Wikidata's shared borders include sea borders – Gabon "borders" Angola)
   // (an animal-class template was tried: the taxon tree in Wikidata is too deep and uneven – queries time out or miss
   // whole classes such as reptiles; needs another approach)

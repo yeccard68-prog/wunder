@@ -132,7 +132,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
         {item.imageUrl && (
           <figure className="-mx-1 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element -- a small static thumbnail; the static export has no image optimiser */}
-            <img src={item.imageUrl} alt="" loading="lazy" className="aspect-[4/3] w-full rounded-2xl bg-raised object-cover" />
+            <img src={item.imageUrl} alt="" loading="lazy" className={`aspect-[4/3] w-full rounded-2xl bg-raised ${item.imageUrl.includes("/wd-flag-") ? "object-contain p-4" : "object-cover"}`} />
             {item.imageCredit && (
               <figcaption className="mt-1 truncate text-[11px] text-muted" data-testid="image-credit">
                 {t("Bild:")} {item.imageSource ? <a href={item.imageSource} target="_blank" rel="noopener noreferrer" className="underline">{item.imageCredit}</a> : item.imageCredit}

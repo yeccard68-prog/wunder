@@ -489,3 +489,8 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - `lib/exercises.ts`: Kopfrechnen, Prozente, Brüche, Einheiten, Zahlenreihen, Wochentage, Uhrzeiten – auf dem Gerät aus einem Seed erzeugt, unbegrenzt, ohne Quelle. Die Lösung wird mitberechnet und sofort geprüft (nur Übung, keine Punkte). Niveau nach Altersgruppe (6–9: kleine Zahlen, ohne Prozente und Brüche; die App ist derzeit aber erst ab 16 freigegeben).
 - Im Feed ein eigenes Format `exercise` (Startchance 5, vom Verhalten verschoben), 40 pro Besuch; auf der Rätsel-Seite ein Block „Übungen“ mit „Mehr Übungen“. `ExerciseCard` zeigt nach dem Tippen richtig/falsch und den Rechenweg.
 - Tests: `tests/exercises.test.ts` (200 Aufgaben je Art und Altersgruppe: vier verschiedene Antworten, Rechenweg passt, Kopfrechnen nachgerechnet), E2E auf der Rätsel-Seite.
+
+## 54. Karten-Quiz und Flaggen (26.10.2026)
+
+- **Karten-Quiz** (Übungsart `map` in `lib/exercises.ts`): „Welches Land ist auf der Karte markiert?“ – ein Land der eigenen Weltkarte rot, falsche Antworten vom selben Kontinent (`lib/map-countries.json`, von `scripts/build-map.mjs` mit erzeugt), Ländernamen vom Browser (`Intl.DisplayNames`, Deutsch/Englisch). Die Karte zoomt auf das Land und seine Umgebung (`CountryMap zoom`); ihre Beschreibung für Screenreader nennt im Quiz kein Land.
+- **Flaggen** (Wikidata-Vorlage `flags` + `commons-images.mjs flags`): Flaggenbild (P41) von Wikimedia Commons, nur mit eindeutig freier Lizenz (Flaggen sind fast alle gemeinfrei), WebP auf dem eigenen Server; ohne freies Bild keine Flaggenfrage. 188 Länder. Flaggen werden ganz gezeigt (nicht beschnitten). Nach dem Antworten zeigt die Karte das Land.
