@@ -9,9 +9,10 @@ test("every kind, every age band: four different options, the answer is the one 
       for (let i = 0; i < 200; i++)
         for (const locale of ["de", "en"]) {
           const e = makeExercise(`t${i}`, kind, age, locale);
-          assert.equal(e.options.length, 4, `${kind} ${i}`);
-          assert.equal(new Set(e.options).size, 4, `${kind} ${i}: ${e.options}`);
-          assert.ok(e.correct >= 0 && e.correct < 4);
+          const n = kind === "sufficiency" ? 5 : 4;
+          assert.equal(e.options.length, n, `${kind} ${i}`);
+          assert.equal(new Set(e.options).size, n, `${kind} ${i}: ${e.options}`);
+          assert.ok(e.correct >= 0 && e.correct < n);
           const answer = e.options[e.correct];
           if (kind !== "weekday" && kind !== "sequence") assert.ok(e.explanation.includes(answer), `${kind} ${i}: ${e.explanation} vs ${answer}`);
           if (kind === "weekday") assert.ok(e.explanation.endsWith(`${answer}.`), e.explanation);
@@ -39,8 +40,8 @@ test("every kind on every step: four different options, the right one checked ag
         for (const locale of ["de", "en"]) {
           const e = makeExercise(`s${step}-${i}`, kind, "16+", locale, step);
           assert.equal(e.step, step);
-          assert.equal(e.options.length, 4, `${kind} ${step} ${i}: ${e.options}`);
-          assert.equal(new Set(e.options).size, 4, `${kind} ${step} ${i}: ${e.options}`);
+          assert.equal(e.options.length, kind === "sufficiency" ? 5 : 4, `${kind} ${step} ${i}: ${e.options}`);
+          assert.equal(new Set(e.options).size, e.options.length, `${kind} ${step} ${i}: ${e.options}`);
           const answer = e.options[e.correct];
           if (kind === "weekday") assert.ok(e.explanation.endsWith(`${answer}.`), e.explanation);
           else if (kind !== "sequence") assert.ok(e.explanation.includes(answer.replace(/ €$/, "")), `${kind} ${step} ${i}: ${e.explanation} vs ${answer}`);

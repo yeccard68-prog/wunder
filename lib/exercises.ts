@@ -8,8 +8,9 @@ import type { AgeBand } from "./types";
 import { rng } from "./gamification";
 import { START, type Step } from "./skill";
 import MAP_COUNTRIES from "./map-countries.json";
+import { REASONING } from "./reasoning";
 
-export type ExerciseKind = "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock" | "map";
+export type ExerciseKind = "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock" | "map" | "sufficiency" | "word" | "numbers";
 export interface Exercise {
   id: string;
   kind: ExerciseKind;
@@ -29,12 +30,12 @@ const lv = (d: Step): Level => (d <= 1 ? 0 : d === 2 ? 1 : 2);
 export const KINDS: Record<Level, ExerciseKind[]> = {
   0: ["arithmetic", "units", "sequence", "weekday", "clock", "map"],
   1: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map"],
-  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "map"],
+  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "map", "sufficiency", "word", "word", "numbers"], // tricky ones (lib/reasoning.ts) for adults only
 };
 
-const fmt = (n: number, locale: string) => n.toLocaleString(locale === "de" ? "de-DE" : "en-GB", { maximumFractionDigits: 3 });
+export const fmt = (n: number, locale: string) => n.toLocaleString(locale === "de" ? "de-DE" : "en-GB", { maximumFractionDigits: 3 });
 /** Four different options: the answer and three near misses, at a position drawn from the seed. */
-function choices(answer: number, near: number[], r: () => number, show: (n: number) => string) {
+export function choices(answer: number, near: number[], r: () => number, show: (n: number) => string) {
   const wrong = [...new Set(near.filter((n) => n !== answer && Number.isFinite(n) && n >= 0))].slice(0, 3);
   for (let d = 1; wrong.length < 3; d++) for (const n of [answer + d, answer - d]) if (n >= 0 && n !== answer && !wrong.includes(n) && wrong.length < 3) wrong.push(n);
   const at = Math.floor(r() * 4);
@@ -43,16 +44,16 @@ function choices(answer: number, near: number[], r: () => number, show: (n: numb
   return { options: list, correct: at };
 }
 /** Like choices(), for texts: the answer and three different wrong ones. */
-function textChoices(answer: string, wrong: string[], r: () => number) {
+export function textChoices(answer: string, wrong: string[], r: () => number) {
   const list = [...new Set(wrong.filter((w) => w !== answer))].slice(0, 3);
   const at = Math.floor(r() * 4);
   list.splice(at, 0, answer);
   return { options: list, correct: at };
 }
-const int = (r: () => number, lo: number, hi: number) => lo + Math.floor(r() * (hi - lo + 1));
-const pick = <T,>(r: () => number, list: T[]) => list[Math.floor(r() * list.length)];
+export const int = (r: () => number, lo: number, hi: number) => lo + Math.floor(r() * (hi - lo + 1));
+export const pick = <T,>(r: () => number, list: T[]) => list[Math.floor(r() * list.length)];
 
-type Make = (r: () => number, d: Step, de: boolean, locale: string) => Omit<Exercise, "id" | "kind" | "step">;
+export type Make = (r: () => number, d: Step, de: boolean, locale: string) => Omit<Exercise, "id" | "kind" | "step">;
 
 const arithmetic: Make = (r, d, de, locale) => {
   const level = lv(d);
@@ -107,8 +108,8 @@ const percent: Make = (r, d, de, locale) => {
   };
 };
 
-const gcd = (a: number, b: number): number => (b ? gcd(b, a % b) : a);
-const show = (n: number, m: number) => { const k = gcd(n, m); return m / k === 1 ? String(n / k) : `${n / k}/${m / k}`; };
+export const gcd = (a: number, b: number): number => (b ? gcd(b, a % b) : a);
+export const show = (n: number, m: number) => { const k = gcd(n, m); return m / k === 1 ? String(n / k) : `${n / k}/${m / k}`; };
 const fraction: Make = (r, d, de) => {
   const dens = d <= 2 ? [2, 4, 8] : [2, 3, 4, 5, 6, 8, 10, 12];
   const b = pick(r, dens), q = pick(r, dens);
@@ -234,8 +235,8 @@ const weekday: Make = (r, d, de) => {
   };
 };
 
-const hm = (m: number) => `${String(Math.floor(((m % 1440) + 1440) % 1440 / 60)).padStart(2, "0")}:${String(((m % 60) + 60) % 60).padStart(2, "0")}`;
-const dur = (m: number) => `${Math.floor(m / 60)} h ${m % 60} min`.replace(" 0 min", "").replace(/^0 h /, "");
+export const hm = (m: number) => `${String(Math.floor(((m % 1440) + 1440) % 1440 / 60)).padStart(2, "0")}:${String(((m % 60) + 60) % 60).padStart(2, "0")}`;
+export const dur = (m: number) => `${Math.floor(m / 60)} h ${m % 60} min`.replace(" 0 min", "").replace(/^0 h /, "");
 const clock: Make = (r, d, de) => {
   if (d === 5) {
     // a flight across time zones: departure in local time, flying time, the clock at the destination differs by k hours
@@ -276,7 +277,7 @@ const map: Make = (r, _d, de, locale) => {
   return { question: de ? "Welches Land ist auf der Karte markiert?" : "Which country is marked on the map?", options: list, correct: at, explanation: de ? `Markiert ist ${name(iso)}.` : `The marked country is ${name(iso)}.`, countries: [iso] };
 };
 
-const MAKERS: Record<ExerciseKind, Make> = { arithmetic, percent, fraction, units, sequence, weekday, clock, map };
+const MAKERS: Record<ExerciseKind, Make> = { arithmetic, percent, fraction, units, sequence, weekday, clock, map, ...REASONING };
 
 /** One exercise. `step` is the learner's level for this kind (lib/skill.ts); the age band caps it. */
 export function makeExercise(seed: string, kind: ExerciseKind, age: AgeBand | null, locale: string, step: Step = START as Step): Exercise {

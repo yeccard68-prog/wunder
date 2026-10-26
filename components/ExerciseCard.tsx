@@ -7,8 +7,8 @@ import { makeExercise, type Exercise } from "@/lib/exercises";
 import { practised, stepOf } from "@/lib/skill";
 import { useStore, useT } from "@/lib/store";
 
-const NAMES = { arithmetic: "Kopfrechnen", percent: "Prozente", fraction: "Brüche", units: "Einheiten", sequence: "Zahlenreihe", weekday: "Wochentage", clock: "Uhrzeit", map: "Landkarte" } as const;
-const LETTERS = ["A", "B", "C", "D"];
+const NAMES = { arithmetic: "Kopfrechnen", percent: "Prozente", fraction: "Brüche", units: "Einheiten", sequence: "Zahlenreihe", weekday: "Wochentage", clock: "Uhrzeit", map: "Landkarte", sufficiency: "Reichen die Angaben?", word: "Textaufgabe", numbers: "Zahlen-Knobelei" } as const;
+const LETTERS = ["A", "B", "C", "D", "E"];
 
 /**
  * A maths or logic exercise: tap an answer, see right away whether it fits and how it is worked out. Practice only – no
@@ -36,7 +36,7 @@ export default function ExerciseCard({ exercise: given }: { exercise: Exercise }
       <p className="mb-4 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider" style={{ color: "var(--math)" }}>
         <Calculator size={14} /> {t("Übung")} · {t(NAMES[exercise.kind])}
       </p>
-      <h2 className="font-display text-[1.45rem] font-semibold leading-[1.2] tracking-tight text-balance">{exercise.question}</h2>
+      <h2 className={`font-display font-semibold tracking-tight whitespace-pre-line ${exercise.question.length > 140 ? "text-lg leading-snug" : "text-[1.45rem] leading-[1.2] text-balance"}`}>{exercise.question}</h2>
       {exercise.countries && <CountryMap countries={exercise.countries} zoom />}
       <div className="mt-5 grid gap-2">
         {exercise.options.map((o, i) => (

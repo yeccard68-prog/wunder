@@ -552,3 +552,11 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Rätsel (`lib/puzzles.ts`): Stufe bestimmt Sudoku-Größe und Lücken (Tagesrätsel 9 × 9 von 28 bis 50 Lücken, stets genau eine Lösung), Höhe und Zahlen der Pyramide, offene Wörter im Kreuzworträtsel.
 - Die Übungskarte wird beim Erscheinen auf der aktuellen Stufe neu gebaut, falls sich die Stufe seit dem Aufbau des Feeds geändert hat.
 - Quizkarten passten sich schon vorher an (`targetDifficulty` in `ranking.ts`).
+
+## 63. Knifflige Mathe: „Reichen die Angaben?“, Textaufgaben, Zahlen-Knobelei (27.10.2026)
+
+- `lib/reasoning.ts`, drei neue Übungsarten nur für Erwachsene, je 5 Stufen (Stufe nach Können, §62). Alles wird erzeugt und nachgerechnet – keine Quellen nötig, keine übernommenen Testaufgaben (Stil von Einstellungstests, aber eigene Aufgaben; der Markenname eines solchen Tests steht nirgends in der App).
+- **Reichen die Angaben?** Eine Frage über ganze Zahlen in einem genannten Bereich, zwei Angaben, fünf feste Antworten (A–E). Welche Angaben reichen, entscheidet ein Löser, der alle Werte des Bereichs durchprobiert – also exakt; die Erklärung nennt Gegenbeispiele. Stufen: 1–2 eine Zahl von 1 bis 20, 3 Reste/Primzahlen/Quadratzahlen, 4 zwei Zahlen, 5 negative Zahlen (Fallen wie x² > 16) oder zwei Zahlen von −5 bis 5. Angaben, die die Frage nur wiederholen oder verneinen, kommen nicht vor.
+- **Textaufgaben:** Händedrücke, Durchschnitt, Sprachen-Mengen, Pumpen, Mischungen, Durchschnittsgeschwindigkeit (harmonisches Mittel), Alter, zwei Würfel, Ziehen ohne Zurücklegen, Teams (Kombinationen), Sitzordnung mit Paar.
+- **Zahlen-Knobelei:** Busse (kgV), Summe 1 bis n, Reste, Teilerzahl, Endziffer großer Potenzen, Endnullen von n!, Rest großer Potenzen, „durch a oder b teilbar“ (Ein- und Ausschluss).
+- Tests rechnen Textaufgaben und Zahlen unabhängig nach (BigInt, Abzählen) und prüfen „Reichen die Angaben?“ an klassischen Fällen und auf eine ausgewogene Verteilung der fünf Antworten.
