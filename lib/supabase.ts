@@ -166,13 +166,6 @@ export async function submitAnswer(questionId: string, selected: number, context
   return data as ServerAnswer;
 }
 
-/** Clip questions: is the first try right? The solution is not revealed, and only the first try is ever judged. */
-export async function checkFirstAttempt(questionId: string, selected: number): Promise<boolean> {
-  const { data, error } = await db().rpc("check_first_attempt", { p_question_id: questionId, p_selected: selected });
-  if (error) throw error;
-  return data as boolean;
-}
-
 /** Order, estimate and blank questions: the response itself is judged on the server. */
 export async function submitResponse(questionId: string, response: FormatResponse, context: string, localDate: string, locale: string): Promise<ServerAnswer> {
   const { data, error } = await db().rpc("submit_response", { p_question_id: questionId, p_response: response, p_context: context, p_local_date: localDate, p_locale: locale });

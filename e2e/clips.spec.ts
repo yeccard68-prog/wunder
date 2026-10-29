@@ -10,7 +10,13 @@ const signIn = (page: Page) =>
 async function openClips(page: Page) {
   await signIn(page);
   await page.goto("/clips/");
+  await guessFirst(page.locator("section[data-clip-section]").first());
   return page.getByTestId("clip-player").first();
+}
+// a clip with a question asks it before it plays („erst raten, dann schauen“): tap the first answer
+async function guessFirst(box: Locator) {
+  const guess = box.getByTestId("clip-guess");
+  if (await guess.waitFor({ timeout: 5_000 }).then(() => true, () => false)) await guess.getByRole("button", { name: /^A\s/ }).click();
 }
 const currentTime = (page: Page) => page.locator("video").first().evaluate((v: HTMLVideoElement) => v.currentTime);
 
@@ -31,9 +37,13 @@ const clearOfText = async (box: Locator) => {
   expect(top + picture * (880 / 1280)).toBeLessThanOrEqual(text.y + 1);
   const caption = box.getByTestId("clip-caption"); // captions may cover the lower part of the picture, not the upper
   if (await caption.count()) expect(top + picture * (880 / 1280)).toBeLessThanOrEqual((await caption.boundingBox())!.y + 1);
+  const bar = box.getByTestId("clip-bar"); // a header over the picture covers at most its empty top margin, not the topic label
+  if (await bar.count()) { const head = (await bar.boundingBox())!; expect(top + picture * (64 / 1280)).toBeGreaterThanOrEqual(head.y + head.height - 1); }
 };
 
 test("full-screen clips: the important part of the picture stays above the title and buttons", async ({ page }) => {
+  test.setTimeout(150_000);
+  await page.clock.setFixedTime(new Date(2026, 1, 10, 10)); // the feed's chance is drawn from the time – the same feed on every run
   await openClips(page);
   await clearOfText(page.locator("section[data-clip-section]").first());
   await page.goto("/");
@@ -153,19 +163,17 @@ test("the feed snaps: one entry per screen, clips and animations in between, onl
     await next(page);
     expect(Math.abs(await feedTop(page, "feed-clip"))).toBeLessThanOrEqual(2); // settled exactly at the top of the feed area
   }).toPass({ timeout: 60_000 });
-  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-status", "ready");
-  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "false");
+  // „erst raten, dann schauen“: the question comes first, over the paused clip, and the key message waits
+  await expect(clip.getByTestId("clip-guess")).toBeVisible();
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true");
+  await expect(clip.getByTestId("clip-takeaway")).toHaveCount(0);
   const box = (await clip.boundingBox())!;
   const area = (await feed.boundingBox())!;
   expect(box.height).toBeGreaterThan(area.height * 0.9); // the clip fills the feed screen
-  await expect(clip.getByTestId("clip-takeaway")).toHaveCount(0); // the key message (the answer) waits until the quiz is answered
-
-  await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
-  const dialog = page.getByRole("dialog");
-  await expect(dialog.getByRole("button", { name: /^A\s/ }).first()).toBeVisible();
-  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "true"); // paused while the question is open
-  await page.keyboard.press("Escape");
-  await expect(dialog).toHaveCount(0);
+  await clip.getByTestId("clip-guess").getByRole("button", { name: /^A\s/ }).click();
+  await expect(clip.getByTestId("clip-tip")).toBeVisible(); // the tip stays on the clip while it plays
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-status", "ready");
+  await expect(clip.getByTestId("clip-player")).toHaveAttribute("data-paused", "false");
 
   // formats come by chance – scroll on until an animation sits at the top (one may also have come before the clip)
   await expect(async () => {
@@ -202,6 +210,7 @@ test("explore finds content by search and topic; the library keeps saved clips",
     expect(await clip.count()).toBeGreaterThan(0);
   }).toPass({ timeout: 60_000 });
   await clip.scrollIntoViewIfNeeded();
+  await guessFirst(clip);
   await clip.getByRole("button", { name: "Merken" }).click();
   await page.getByRole("link", { name: "Bibliothek" }).click();
   await expect(page.getByTestId("feed-clip")).toHaveCount(1);
@@ -353,20 +362,23 @@ test("new question formats: put in order, estimate with a slider, fill the gap",
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 
-test("a question about a clip: a wrong first try gets a hint and a second attempt, not the solution", async ({ page }) => {
+test("a question about a clip comes first: guess, watch, then the result (hints #31–33)", async ({ page }) => {
   await signIn(page);
   await page.goto("/explore/");
   await page.getByRole("searchbox").fill("Sonnenfinsternis");
   const clip = page.getByTestId("feed-clip").first();
-  await clip.getByRole("button", { name: "Frage zum Clip" }).click();
-  await clip.getByRole("button", { name: /Die Erde/ }).click();
-  await expect(clip.getByTestId("clip-hint")).toContainText("zweiten Versuch");
-  await expect(clip.getByRole("button", { name: /Die Erde/ })).toBeDisabled();
-  await expect(clip.getByText(/Richtig|Nicht ganz/)).toHaveCount(0); // nothing is given away yet
-  await clip.getByRole("button", { name: /Der Mond/ }).click();
-  await expect(clip.getByText("Richtig – im zweiten Anlauf!")).toBeVisible();
+  await expect(clip.getByTestId("clip-guess")).toContainText("Erst raten, dann schauen");
+  await expect(clip.getByTestId("clip-takeaway")).toHaveCount(0);
+  await clip.getByRole("button", { name: /Die Erde/ }).click(); // a wrong guess
+  await expect(clip.getByTestId("clip-tip")).toContainText("Die Erde");
+  await expect(clip.getByText(/Richtig|Nicht ganz/)).toHaveCount(0); // nothing is given away before the clip has shown it
+  await expect(clip.getByTestId("clip-takeaway")).toHaveCount(0);
+  await clip.getByRole("button", { name: "Auflösung" }).click(); // or wait for the end of the clip
+  await expect(clip.getByTestId("clip-reveal")).toContainText("Nicht ganz – richtig ist: Der Mond");
   await expect(clip.getByText("Im Clip:")).toBeVisible();
-  await expect(clip.getByTestId("clip-hint")).toHaveCount(0);
+  await clip.getByRole("button", { name: "Weiter" }).click();
+  await expect(clip.getByTestId("clip-takeaway")).toBeVisible();
+  await expect(clip.getByTestId("clip-guess")).toHaveCount(0); // asked once – the answer counts and is kept
 });
 
 test("an animation stops once to ask what happens next, then shows it", async ({ page }) => {
@@ -589,7 +601,7 @@ test("interactive: supply and demand – the crossing point follows the sliders 
   await expect(card.getByTestId("visual-apply")).toContainText("Milch");
 });
 
-test("after the question about a clip is answered, it closes at once – the feed can be scrolled on right away", async ({ page }) => {
+test("a guessed clip shows its result at the end, and the feed can be scrolled on right away", async ({ page }) => {
   test.setTimeout(120_000);
   await page.clock.setFixedTime(new Date(2026, 1, 10, 10)); // the feed's chance is drawn from the time: repeatable
   await signIn(page);
@@ -600,15 +612,9 @@ test("after the question about a clip is answered, it closes at once – the fee
   }).toPass({ timeout: 60_000 });
   const clip = page.getByTestId("feed-clip").first();
   const top = () => clip.evaluate((el) => Math.round(el.closest("section")!.getBoundingClientRect().top - el.closest("[data-testid=snap-feed]")!.getBoundingClientRect().top));
-  const answer = async () => {
-    await clip.getByRole("button", { name: /Frage zum Clip/ }).click();
-    const option = (letter: string) => page.getByRole("dialog", { name: "Frage zum Clip" }).getByRole("button", { name: new RegExp("^" + letter + "\\s+\\S") });
-    await option("A").click();
-    if (await page.getByTestId("clip-hint").isVisible().catch(() => false)) await option("B").click(); // wrong first try: second attempt
-  };
-  await answer();
-  await expect(page.getByRole("dialog", { name: "Frage zum Clip" })).toHaveCount(0, { timeout: 2_000 }); // no waiting, nothing loads
-  await expect(clip.getByTestId("clip-result")).toBeVisible(); // the result stays on the clip for a moment
+  await clip.getByTestId("clip-guess").getByRole("button", { name: /^A\s/ }).click();
+  await expect(clip.getByTestId("clip-reveal")).toBeVisible({ timeout: 40_000 }); // the result comes by itself at the end of the clip
+  await clip.getByRole("button", { name: "Weiter" }).click();
   await expect(clip.getByTestId("clip-takeaway")).toBeVisible();
   await next(page);
   await expect.poll(top, { timeout: 5_000 }).toBeLessThan(-200); // the next entry is on screen

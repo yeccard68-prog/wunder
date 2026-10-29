@@ -6,6 +6,7 @@ import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
 import VisualCard from "@/components/viz";
 import ClipPlayer, { useClipFrame } from "@/components/ClipPlayer";
+import { GuessOverlay, GuessPanel, RevealPanel, TipChip, useClipGuess } from "@/components/ClipGuess";
 import { DayCard, SeriesCard } from "@/components/DayCards";
 import HintButton from "@/components/HintButton";
 import { Sheet } from "@/components/ui";
@@ -67,62 +68,43 @@ function useAutoplay() {
 /**
  * A clip as a feed entry: plays muted while it is on screen. `fill` = the clip takes the whole
  * feed screen with its text on top (snap feed); otherwise it is a card with the text below.
+ * A clip with a question asks it first – „erst raten, dann schauen“ (components/ClipGuess.tsx).
  */
 export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
   const { state, trackClip, toggle } = useStore();
   const t = useT();
   const { ref, active, near } = useOnScreen(0.6);
   const autoplay = useAutoplay();
-  const [quiz, setQuiz] = useState(false);
+  const guess = useClipGuess(clip);
+  const [quiz, setQuiz] = useState(false); // the answered question, looked at again
   const [time, setTime] = useState(0);
-  const [watchedNow, setWatchedNow] = useState(false);
-  // the question is offered once the clip has been seen to the end (or cannot play by itself)
-  const ready = watchedNow || !autoplay || (state.clipStats[clip.id]?.completed ?? 0) > 0;
   const caption = state.settings.captions ? captionAt(clip, time) : undefined;
   const answered = !!clip.quiz && !!state.answers[clip.quiz.id];
-  // until its question is answered, the clip does not print the answer next to it (key message, telling titles)
-  const hideAnswer = !!clip.quiz && !answered;
-  const heading = hideAnswer && titleGivesAway(clip.id, state.settings.locale) ? t("Schau genau hin – danach kommt eine Frage.") : clip.title;
+  // while the question is open, a title that names the answer gives way to a neutral line
+  const heading = guess.phase === "guess" && titleGivesAway(clip.id, state.settings.locale) ? t("Was meinst du? Danach zeigt es der Clip.") : clip.title;
   const saved = state.saves.includes(clip.id);
-  const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && !quiz} mounted={near} autoplay={autoplay} muted onTime={setTime} onComplete={() => { setWatchedNow(true); trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
-  const quizLabel = answered ? t("Frage zum Clip ansehen") : t("Frage zum Clip");
-  // answered → the question closes at once and the feed can be scrolled on; the result stays on the clip for a moment
-  const [result, setResult] = useState<boolean | null>(null);
-  const closeQuiz = () => setQuiz(false);
-  const finish = (correct: boolean) => {
-    setQuiz(false);
-    setResult(correct);
-  };
-  useEffect(() => {
-    if (result === null) return;
-    const id = setTimeout(() => setResult(null), 3000);
-    return () => clearTimeout(id);
-  }, [result]);
-  const resultBadge = result !== null && (
-    <p className={`pop mb-1 inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-semibold ${result ? "bg-good text-white" : "bg-white text-[#11100e]"}`} role="status" data-testid="clip-result">
-      {result ? <><Check size={15} /> {t("Richtig!")}</> : t("Nicht ganz – die Lösung steht hier.")}
-    </p>
-  );
+  const player = <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && guess.playing && !quiz} mounted={near} autoplay={autoplay} muted onTime={setTime} onComplete={() => { guess.reveal(); trackClip(clip.id, "complete"); track("clip_complete", clip.id, "clip"); }} onStarted={() => { trackClip(clip.id, "play"); track("clip_start", clip.id, "clip"); }} />;
+  const review = answered && guess.phase === "done";
 
-  const { card, words, height: videoHeight } = useClipFrame(!!fill, state.settings.captions && clip.captions.length > 0);
+  const { card, words, height: videoHeight, top: videoTop } = useClipFrame(!!fill, state.settings.captions && clip.captions.length > 0);
 
   if (fill)
     return (
-      <article ref={card} className="relative h-full overflow-hidden rounded-3xl bg-[#11100e] text-white" data-testid="feed-clip">
-        <div ref={ref} className="absolute inset-x-0 top-0" style={{ height: videoHeight ?? "100%" }} data-testid="clip-frame">{player}</div>
+      <article ref={card} className="relative h-full overflow-hidden rounded-3xl bg-[#11100e] text-white" data-testid="feed-clip" data-phase={guess.phase}>
+        <div ref={ref} className="absolute inset-x-0" style={{ top: videoTop, height: videoHeight ?? "100%" }} data-testid="clip-frame">{player}</div>
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 space-y-1.5 p-5">
-          {resultBadge}
-          {caption && <p className="mb-2 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">{caption}</p>}
+          {caption && guess.playing && <p className="mb-2 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">{caption}</p>}
           <div ref={words} className="space-y-1.5" data-testid="clip-text">
+            <TipChip clip={clip} guess={guess} light />
             <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} light />
             <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{heading}</h2>
-            {!hideAnswer && <p className="text-[15px] leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
+            {!guess.hideAnswer && <p className="text-[15px] leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
             <p className="text-[11px] text-white/60">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""}</p>
             <div className="pointer-events-auto flex items-center gap-2 pt-2">
-              {clip.quiz && (
-                <button onClick={() => setQuiz(true)} data-ready={ready} className={`press flex h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${ready ? "pop bg-white text-[#11100e]" : "bg-white/15 text-white backdrop-blur"}`}>
-                  <HelpCircle size={17} /> {quizLabel}
+              {review && (
+                <button onClick={() => setQuiz(true)} className="press flex h-11 items-center gap-2 rounded-full bg-white/15 px-4 text-sm font-semibold text-white backdrop-blur">
+                  <HelpCircle size={17} /> {t("Frage zum Clip ansehen")}
                 </button>
               )}
               <button onClick={() => toggle("saves", clip)} aria-label={saved ? t("Nicht mehr merken") : t("Merken")} aria-pressed={saved} className="press flex h-11 w-11 items-center justify-center rounded-full bg-white/15 backdrop-blur">
@@ -132,25 +114,29 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
             </div>
           </div>
         </div>
-        <Sheet open={quiz} onClose={closeQuiz} title={t("Frage zum Clip")}>
-          {clip.quiz && <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway, rewatch: closeQuiz, done: finish }} />}
+        <GuessOverlay clip={clip} guess={guess} title={heading} />
+        <Sheet open={quiz} onClose={() => setQuiz(false)} title={t("Frage zum Clip")}>
+          {clip.quiz && <KnowledgeCard item={clip.quiz} context="video" clip={{ note: clip.takeaway }} />}
         </Sheet>
       </article>
     );
 
   return (
-    <article className="card overflow-hidden" data-testid="feed-clip">
+    <article className="card overflow-hidden" data-testid="feed-clip" data-phase={guess.phase}>
       <div ref={ref} className="relative h-[min(68dvh,calc((100vw-2rem)*16/9))] bg-[#11100e] text-white">
         {player}
       </div>
       <div className="space-y-2 p-5">
         <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} />
         <h2 className="font-display text-xl font-semibold leading-snug">{heading}</h2>
-        {!hideAnswer && <p className="text-[15px] leading-relaxed" data-testid="clip-takeaway">{clip.takeaway}</p>}
+        <GuessPanel clip={clip} guess={guess} />
+        <TipChip clip={clip} guess={guess} />
+        <RevealPanel clip={clip} guess={guess} />
+        {!guess.hideAnswer && <p className="text-[15px] leading-relaxed" data-testid="clip-takeaway">{clip.takeaway}</p>}
         <p className="flex items-center justify-between gap-2 text-xs text-muted">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""} <HintButton kind="video" id={clip.id} label /></p>
-        {clip.quiz && !quiz && (
+        {review && !quiz && (
           <button onClick={() => setQuiz(true)} className="press flex items-center gap-1 pt-1 text-sm font-semibold text-accent">
-            {quizLabel} <ChevronDown size={16} />
+            {t("Frage zum Clip ansehen")} <ChevronDown size={16} />
           </button>
         )}
       </div>

@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Bookmark, Captions, CaptionsOff, Check, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Info, MessageCircle, Play, Send, Share2, Volume2, VolumeX, Zap } from "lucide-react";
 import ClipPlayer, { useClipFrame } from "@/components/ClipPlayer";
+import { GuessOverlay, TipChip, useClipGuess } from "@/components/ClipGuess";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Avatar, Button, Empty, Sheet } from "@/components/ui";
 import { categoryById } from "@/lib/categories";
@@ -41,14 +42,13 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
   const [time, setTime] = useState(0);
   const cat = categoryById(clip.categoryId);
   const { muted, captions: showCaptions } = state.settings;
-  const { card: section, words, height } = useClipFrame(true, showCaptions && clip.captions.length > 0);
+  const { card: section, words, bar, height, top } = useClipFrame(true, showCaptions && clip.captions.length > 0);
   const liked = state.likes.includes(clip.id);
   const saved = state.saves.includes(clip.id);
-  const watched = (state.clipStats[clip.id]?.completed ?? 0) > 0;
-  const quizDone = !!clip.quiz && !!state.answers[clip.quiz.id];
-  // the key message (the answer) only once the quiz is answered – the explanation sheet stays available on request
-  const hideAnswer = !!clip.quiz && !quizDone;
-  const label = hideAnswer && titleGivesAway(clip.id, state.settings.locale) ? t("Clip") : clip.title;
+  // a clip with a question asks it first – „erst raten, dann schauen“ (components/ClipGuess.tsx)
+  const guess = useClipGuess(clip);
+  const quizDone = !!clip.quiz && !!state.answers[clip.quiz.id] && guess.phase === "done";
+  const label = guess.phase === "guess" && titleGivesAway(clip.id, state.settings.locale) ? t("Clip") : clip.title;
   const ownComments = state.comments[clip.id]?.length ?? 0;
 
   useEffect(() => {
@@ -63,13 +63,13 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
 
   return (
     <section ref={section} data-clip-section className="relative h-full snap-start snap-always overflow-hidden bg-[#11100e] text-white" aria-label={label}>
-      <div className="absolute inset-x-0 top-0" style={{ height: height ?? "100%" }} data-testid="clip-frame">
-        <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active} mounted={near} autoplay={autoplay} muted={muted} onTime={setTime} onComplete={() => trackClip(clip.id, "complete")} onStarted={() => trackClip(clip.id, "play")} />
+      <div className="absolute inset-x-0" style={{ top, height: height ?? "100%" }} data-testid="clip-frame">
+        <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active && guess.playing} mounted={near} autoplay={autoplay} muted={muted} onTime={setTime} onComplete={() => { guess.reveal(); trackClip(clip.id, "complete"); }} onStarted={() => trackClip(clip.id, "play")} />
       </div>
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/85 via-black/45 to-transparent" />
 
-      <div className="absolute inset-x-0 top-0 flex items-center gap-2 px-4 pt-[max(env(safe-area-inset-top),14px)]">
+      <div ref={bar} data-testid="clip-bar" className="absolute inset-x-0 top-0 flex items-center gap-2 px-4 pt-[max(env(safe-area-inset-top),14px)]">
         <span className="font-display text-xl font-semibold italic drop-shadow">Clips</span>
         <span className="rounded-full bg-white/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide backdrop-blur">{clip.creator}</span>
         <span className="flex-1" />
@@ -107,35 +107,30 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
       </div>
 
       <div className="absolute inset-x-0 bottom-0 pb-5 pl-4 pr-[4.5rem]">
-        {showCaptions && caption && (
+        {showCaptions && caption && guess.playing && (
           <p className="mb-3 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">
             {caption}
           </p>
         )}
         <div ref={words} data-testid="clip-text">
+          <div className="mb-2"><TipChip clip={clip} guess={guess} light /></div>
           <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider">
             <span className="h-1.5 w-1.5 rounded-full" style={{ background: cat.color }} />
             {t(cat.name)}
           </p>
-          {!hideAnswer && <p className="mt-1.5 text-[15px] font-medium leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
+          {!guess.hideAnswer && <p className="mt-1.5 text-[15px] font-medium leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
           <p className="mt-1.5 truncate text-xs text-white/60">
             {clip.creator} · {t("Quelle:")} {clip.sources[0].name}
           </p>
-          {clip.quiz && (watched || quizDone) && (
+          {quizDone && (
             <button onClick={() => open("quiz")} className="press rise mt-3 inline-flex h-10 items-center gap-2 rounded-full bg-white px-4 text-sm font-bold text-[#1a1714]">
-              {quizDone ? (
-                <>
-                  <Check size={16} /> {t("Quiz gelöst")}
-                </>
-              ) : (
-                <>
-                  <Zap size={16} /> {t("Kurz testen · 10 XP")}
-                </>
-              )}
+              <Check size={16} /> {t("Quiz gelöst")}
             </button>
           )}
         </div>
       </div>
+
+      <GuessOverlay clip={clip} guess={guess} title={label} />
 
       <div className="absolute inset-x-0 bottom-0 h-1 bg-white/15">
         <div className="h-full bg-white/80" style={{ width: `${Math.min(100, (Math.max(0, time - clip.start) / clip.duration) * 100)}%` }} />
@@ -206,9 +201,11 @@ export default function ClipsPage() {
               {clip.creator} · {new Date(clip.publishedAt).toLocaleDateString(formatLocale(state.settings.locale))} · {clip.verification === "verified" ? t("Redaktionell geprüft.") : t("Noch nicht redaktionell geprüft.")}
               {clip.license && <span className="block">{t("Lizenz:")} {clip.license}</span>}
             </p>
-            <Button className="w-full" disabled={!clip.quiz} onClick={() => setSheet({ kind: "quiz", clip })}>
-              <Zap size={17} /> {clip.quiz && state.answers[clip.quiz.id] ? t("Quiz ansehen") : t("Wissen testen")}
-            </Button>
+            {clip.quiz && state.answers[clip.quiz.id] && (
+              <Button className="w-full" onClick={() => setSheet({ kind: "quiz", clip })}>
+                <Zap size={17} /> {t("Quiz ansehen")}
+              </Button>
+            )}
           </div>
         )}
       </Sheet>
@@ -216,7 +213,7 @@ export default function ClipsPage() {
       <Sheet open={sheet?.kind === "quiz"} onClose={close} title={t("Kurz testen")}>
         {clip && (
           <div className="pb-2">
-            {clip.quiz && <KnowledgeCard key={clip.quiz.id} item={clip.quiz} context="video" onAnswered={() => {}} clip={{ note: clip.takeaway, rewatch: close, done: close }} />}
+            {clip.quiz && <KnowledgeCard key={clip.quiz.id} item={clip.quiz} context="video" onAnswered={() => {}} clip={{ note: clip.takeaway }} />}
             <Button variant="secondary" className="mt-4 w-full" onClick={close}>
               {t("Weiter schauen")}
             </Button>

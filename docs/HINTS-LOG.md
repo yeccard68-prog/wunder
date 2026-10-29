@@ -2,6 +2,7 @@
 
 Neueste zuerst. Jede Zeile: Datum · Hinweis-ID · Inhalt · Grund · Ergebnis · was geändert wurde. Ablauf: `docs/HINTS-ROUTINE.md`.
 
+- 2026-10-30 · #31, #32, #33 · Clips „Roundhay“, „Papier bis zum Mond“, „Marathon-Runden“ · sonstiges: Lösung steht im Clip · behoben (Entscheidung des Betreibers: erst raten, dann schauen) · Clip-Fragen kommen jetzt vor dem Clip; der Tipp zählt als Antwort, das Ergebnis zeigt sich nach dem Clip (BACKEND.md §67).
 - 2026-10-29 · #34 · Frage wd-river-Q78861 (Jana, Russland) · Fehler: Russland-Karte falsch · behoben · Russlands Festland fehlte auf allen Karten (die Fläche über der Datumsgrenze wurde beim Kartenbau weggelassen); scripts/build-map.mjs zeichnet sie jetzt, Karte neu gebaut.
 - 2026-10-29 · #31, #32, #33 · Clips „Roundhay“, „Papier bis zum Mond“, „Marathon-Runden“ · sonstiges: Lösung steht im Clip · braucht den Betreiber – keine Mail, am 29.10. im Chat gefragt (Grundsatzfrage: 47 von 77 Clip-Fragen fragen ab, was der Clip zeigt; Optionen: erst raten, dann schauen / später wiederholen / weiterführende Fragen). Nächster Lauf: nicht mailen.
 - 2026-10-29 · #30, #27 · Grafik „Zinseszins“ (v-zinseszins) · Beispielzahlen nicht wählbar / startet von vorn · behoben · Knöpfe für die Beispiel-Einstellungen; Schätzung und Regler bleiben auf dem Gerät gespeichert.

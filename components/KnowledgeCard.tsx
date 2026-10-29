@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Bookmark, Check, Clapperboard, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Lightbulb, RotateCcw, ThumbsDown, ThumbsUp, X } from "lucide-react";
-import { track } from "@/lib/analytics";
+import { Bookmark, Check, Clapperboard, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Lightbulb, ThumbsDown, ThumbsUp, X } from "lucide-react";
 import type { AnswerContext, Item } from "@/lib/types";
 import { categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
@@ -41,16 +40,12 @@ interface Props {
   /** Inside a quiz session: always answerable, no social actions. */
   onAnswered?: (correct: boolean) => void;
   context?: AnswerContext;
-  /**
-   * The question belongs to a clip: a wrong first try gets a hint and a second attempt instead of
-   * the solution, and the feedback points back to the clip. note = what the clip says; rewatch = back to the clip.
-   */
-  clip?: { note: string; rewatch?: () => void; done?: (correct: boolean) => void }; // done: the question has its final answer
+  /** The question belongs to a clip (seen again after its guess, components/ClipGuess.tsx): the feedback quotes what the clip says. */
+  clip?: { note: string };
 }
 
 export default function KnowledgeCard({ item, reason, onAnswered, context = "feed", clip }: Props) {
-  const { state, answer, firstTry, toggle, hide } = useStore();
-  const [miss, setMiss] = useState<number | null>(null); // wrong first try on a clip question
+  const { state, answer, toggle, hide } = useStore();
   const [hintsShown, setHintsShown] = useState(0); // riddles: hints revealed so far
   const t = useT();
   const cat = categoryById(item.categoryId);
@@ -75,20 +70,11 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
     if (done || pending) return;
     setPicked(i);
     setPending(true);
-    if (clip && miss === null && item.kind === "question" && item.options.length >= 3 && !state.answers[item.id]) {
-      if ((await firstTry(item, i)) === false) {
-        track("clip_quiz_retry", item.id, "item");
-        setMiss(i);
-        setPicked(null);
-        return setPending(false);
-      }
-    }
     const res = await answer(item, i, context);
     setPending(false);
     if (!res) return setPicked(null); // not saved → let the user try again
     setResult(res);
     onAnswered?.(res.correct);
-    clip?.done?.(res.correct);
   };
 
   const respond = async (response: FormatResponse) => {
@@ -103,7 +89,6 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
   };
 
   const optionStyle = (i: number) => {
-    if (!reveal && i === miss) return "border-line opacity-40 line-through";
     if (!reveal) return pending ? (i === picked ? "border-ink/50 bg-raised animate-pulse" : "border-line opacity-50") : "border-line bg-surface hover:border-ink/30";
     if (i === reveal.correctIndex) return "border-good bg-good/10";
     if (i === picked) return "border-bad bg-bad/10 shake";
@@ -159,7 +144,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
         {special && <FormatInput item={item} locale={state.settings.locale} pending={pending} done={reveal ? { correct: reveal.correct, solution: result?.answer } : null} submit={respond} />}
         <div className={special ? "hidden" : isFact ? "mt-5 grid grid-cols-2 gap-2.5" : "mt-5 space-y-2.5"}>
           {!special && item.options.map((opt, i) => (
-            <button key={i} onClick={() => pick(i)} disabled={done || pending || i === miss} className={`press flex min-h-[3.25rem] w-full items-center rounded-2xl border py-2.5 text-left text-[15px] font-medium ${isFact ? "justify-center gap-2 whitespace-nowrap px-2" : "gap-3 px-3.5"} ${optionStyle(i)}`}>
+            <button key={i} onClick={() => pick(i)} disabled={done || pending} className={`press flex min-h-[3.25rem] w-full items-center rounded-2xl border py-2.5 text-left text-[15px] font-medium ${isFact ? "justify-center gap-2 whitespace-nowrap px-2" : "gap-3 px-3.5"} ${optionStyle(i)}`}>
               <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${reveal && i === reveal.correctIndex ? "bg-good text-white" : reveal && i === picked ? "bg-bad text-white" : "bg-raised text-muted"}`}>
                 {reveal && i === reveal.correctIndex ? <Check size={14} /> : reveal && i === picked ? <X size={14} /> : isFact ? i === 0 ? <ThumbsUp size={13} /> : <ThumbsDown size={13} /> : LETTERS[i]}
               </span>
@@ -167,22 +152,11 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
             </button>
           ))}
         </div>
-        {clip && miss !== null && !reveal && (
-          <div className="rise mt-4 rounded-2xl bg-raised p-4" role="status" data-testid="clip-hint">
-            <p className="flex items-center gap-1.5 text-sm font-bold"><Lightbulb size={16} /> {t("Noch nicht – du hast einen zweiten Versuch.")}</p>
-            <p className="mt-1 text-sm leading-relaxed text-muted">{t("Die Antwort steckt im Clip: Achte auf die Einblendungen am unteren Rand.")}</p>
-            {clip.rewatch && (
-              <button onClick={clip.rewatch} className="press mt-3 flex h-10 items-center gap-1.5 rounded-full border border-line bg-surface px-4 text-sm font-semibold">
-                <RotateCcw size={15} /> {t("Clip noch einmal ansehen")}
-              </button>
-            )}
-          </div>
-        )}
         {reveal && (
           <div className="rise mt-4 rounded-2xl bg-raised p-4" aria-live="polite">
             <p className={`text-sm font-bold ${reveal.correct ? "text-good" : "text-bad"}`}>
               {isFact ? (reveal.correctIndex === 0 ? t("Stimmt wirklich. ") : t("Ein Mythos. ")) : ""}
-              {reveal.correct ? (isFact ? t("Gut eingeschätzt!") : miss !== null ? t("Richtig – im zweiten Anlauf!") : t("Richtig!")) : picked === null ? t("Beim letzten Mal falsch") : isFact ? t("Kommt später noch einmal.") : t("Nicht ganz – kommt später zur Wiederholung")}
+              {reveal.correct ? (isFact ? t("Gut eingeschätzt!") : t("Richtig!")) : picked === null ? t("Beim letzten Mal falsch") : isFact ? t("Kommt später noch einmal.") : t("Nicht ganz – kommt später zur Wiederholung")}
             </p>
             <p className="mt-1 text-[15px] leading-relaxed">{reveal.explanation}</p>
             {item.countries && item.countries.length > 0 && <CountryMap countries={item.countries} zoom />}

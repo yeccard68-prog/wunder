@@ -14,33 +14,43 @@ type Status = "loading" | "ready" | "error";
 const SAFE = 880 / 1280;
 /** Two lines of a caption bubble and the gap below it. */
 const CAPTION_ROOM = 64;
+/** Above their topic label (at 64 of 1280 pixels, video/src/theme.tsx Stage) the clips are empty – a header may cover that. */
+const MARGIN = 56 / 1280;
 
 /**
  * Full-screen clip with text laid over its lower part: below the safe line the captions may cover the picture, but not
  * the title, the key message and the buttons. On a short screen that text reaches higher, so the picture gets smaller
- * (and moves to the top) until its important part ends above the text (hint #25: the timeline sat behind the title).
- * `card`: the full-screen box, `words`: the text over the picture, `captions`: room for two caption lines above it is kept
- * free too. `height`: for the box around the player, null = all.
+ * until its important part ends above the text (hint #25: the timeline sat behind the title). A header over the top may
+ * cover the empty margin, not the topic label below it. Within these limits the picture is as large as possible and centred.
+ * `card`: the full-screen box, `words`: the text over the picture, `bar`: an optional header over its top, `captions`:
+ * room for two caption lines above the text is kept free too. `height` and `top`: for the box around the player, null = all.
  */
 export function useClipFrame(enabled = true, captions = false) {
   const card = useRef<HTMLElement>(null);
   const words = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState<number | null>(null);
+  const bar = useRef<HTMLDivElement>(null);
+  const [frame, setFrame] = useState<{ height: number; top: number } | null>(null);
   useEffect(() => {
     const box = card.current, text = words.current;
     if (!enabled || !box || !text) return;
     const fit = () => {
-      const free = text.getBoundingClientRect().top - box.getBoundingClientRect().top - (captions ? CAPTION_ROOM : 0);
-      const tall = Math.min(box.clientHeight, (box.clientWidth * 16) / 9, free / SAFE);
-      setHeight(tall < box.clientHeight - 1 ? Math.round(tall) : null);
+      const start = box.getBoundingClientRect().top, room = box.clientHeight;
+      const free = text.getBoundingClientRect().top - start - (captions ? CAPTION_ROOM : 0);
+      const head = bar.current ? Math.max(0, bar.current.getBoundingClientRect().bottom - start) : 0;
+      // picture height: fits the box and its width, safe line above the text, label below the header (also when pushed down)
+      const tall = Math.max(0, Math.min(room, (box.clientWidth * 16) / 9, free / SAFE, (free - head) / (SAFE - MARGIN), (room - head) / (1 - MARGIN)));
+      const lowest = Math.max(0, head - tall * MARGIN), highest = Math.min(free - tall * SAFE, room - tall);
+      const top = Math.max(lowest, Math.min((room - tall) / 2, highest));
+      setFrame(tall < room - 1 || top > 0.5 ? { height: Math.floor(tall), top: Math.round(top) } : null);
     };
     fit();
     const watch = new ResizeObserver(fit);
     watch.observe(box);
     watch.observe(text);
+    if (bar.current) watch.observe(bar.current);
     return () => watch.disconnect();
   }, [enabled, captions]);
-  return { card, words, height };
+  return { card, words, bar, height: frame?.height ?? null, top: frame?.top ?? 0 };
 }
 
 /**
