@@ -37560,5 +37560,3592 @@
         "explanation": "Algorithmic bias can have many causes – including unintended ones: how data is collected, selected or used for training. It has been observed in search results and on social media, for example."
       }
     }
+  },
+  {
+    "id": "at1",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum funktioniert auf einem Induktionskochfeld nur bestimmtes Kochgeschirr?",
+    "options": [
+      "Glas und Keramik würden auf der heißen Platte schmelzen",
+      "Das Kochfeld erkennt nur Töpfe einer bestimmten Marke",
+      "Nur dünne Töpfe leiten die heiße Platte gut genug",
+      "Der Topfboden muss ferromagnetisch sein – in ihm selbst entsteht die Wärme"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein magnetisches Wechselfeld geht durch die kalte Glaskeramikplatte hindurch und erzeugt im Topfboden Wirbelströme – dort entsteht die Wärme. Der Boden muss deshalb ferromagnetisch sein, etwa aus Gusseisen oder geeignetem Edelstahl.",
+    "difficulty": 2,
+    "tags": [
+      "Haushalt",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Induktionskochfeld",
+    "source_url": "https://de.wikipedia.org/wiki/Induktionskochfeld",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does only certain cookware work on an induction hob?",
+        "options": [
+          "Glass and ceramics would melt on the hot plate",
+          "The hob only recognises pots of a certain brand",
+          "Only thin pots conduct the hot plate well enough",
+          "The bottom of the pot must be ferromagnetic – the heat is produced in it"
+        ],
+        "explanation": "An alternating magnetic field passes through the cold glass-ceramic plate and creates eddy currents in the bottom of the pot – that is where the heat is produced. The bottom therefore has to be ferromagnetic, such as cast iron or suitable stainless steel."
+      }
+    }
+  },
+  {
+    "id": "at2",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wovon hängt ab, in welcher Farbe eine Leuchtdiode (LED) leuchtet?",
+    "options": [
+      "Vom Halbleitermaterial und seiner Dotierung",
+      "Von der Farbe ihres Kunststoffgehäuses",
+      "Von der Länge des Kabels",
+      "Von der Stärke des Stroms"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine LED ist ein Halbleiter-Bauteil, das Licht ausstrahlt, wenn Strom in Durchlassrichtung fließt. Die Wellenlänge – also die Farbe – hängt vom Halbleitermaterial und der Dotierung ab; sie kann sogar im Infrarot- oder Ultraviolettbereich liegen.",
+    "difficulty": 2,
+    "tags": [
+      "Licht",
+      "Elektronik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leuchtdiode",
+    "source_url": "https://de.wikipedia.org/wiki/Leuchtdiode",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What decides which colour a light-emitting diode (LED) shines in?",
+        "options": [
+          "The semiconductor material and its doping",
+          "The colour of its plastic case",
+          "The length of the cable",
+          "The strength of the current"
+        ],
+        "explanation": "An LED is a semiconductor component that gives off light when current flows in the forward direction. The wavelength – that is, the colour – depends on the semiconductor material and the doping; it can even lie in the infrared or ultraviolet range."
+      }
+    }
+  },
+  {
+    "id": "at3",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist der Unterschied zwischen WLAN und Wi-Fi?",
+    "options": [
+      "Wi-Fi ist schneller als WLAN",
+      "WLAN ist das Funknetz, Wi-Fi eine Zertifizierung für Geräte nach dem Standard IEEE 802.11",
+      "WLAN gibt es nur in Deutschland, Wi-Fi nur in den USA",
+      "Es gibt keinen – beides ist dasselbe Kabel"
+    ],
+    "correct_index": 1,
+    "explanation": "Technisch sind es zwei verschiedene Dinge: WLAN bezeichnet das drahtlose lokale Funknetz, Wi-Fi die Zertifizierung durch die Wi-Fi Alliance anhand des Standards IEEE 802.11.",
+    "difficulty": 3,
+    "tags": [
+      "Internet",
+      "Funk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wireless Local Area Network",
+    "source_url": "https://de.wikipedia.org/wiki/Wireless_Local_Area_Network",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the difference between WLAN and Wi-Fi?",
+        "options": [
+          "Wi-Fi is faster than WLAN",
+          "WLAN is the radio network, Wi-Fi a certification of devices to the IEEE 802.11 standard",
+          "WLAN only exists in Germany, Wi-Fi only in the USA",
+          "There is none – both are the same cable"
+        ],
+        "explanation": "Technically they are two different things: WLAN is the wireless local radio network, Wi-Fi the certification by the Wi-Fi Alliance to the IEEE 802.11 standard."
+      }
+    }
+  },
+  {
+    "id": "at4",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Über welche Entfernung funktioniert NFC, etwa beim kontaktlosen Bezahlen mit der Karte?",
+    "options": [
+      "Rund 100 Meter",
+      "Einige Meter",
+      "Wenige Zentimeter",
+      "Beliebig weit über das Internet"
+    ],
+    "correct_index": 2,
+    "explanation": "Near Field Communication (Nahfeldkommunikation) tauscht Daten per elektromagnetischer Induktion über kurze Strecken von wenigen Zentimetern aus. Sie beruht auf der RFID-Technik und wird vor allem für kontaktlose Zahlungen kleiner Beträge genutzt.",
+    "difficulty": 1,
+    "tags": [
+      "Funk",
+      "Bezahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Near Field Communication",
+    "source_url": "https://de.wikipedia.org/wiki/Near_Field_Communication",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Over what distance does NFC work, for example when paying contactless with a card?",
+        "options": [
+          "About 100 metres",
+          "A few metres",
+          "A few centimetres",
+          "Any distance over the internet"
+        ],
+        "explanation": "Near field communication exchanges data by electromagnetic induction over short distances of a few centimetres. It is based on RFID technology and is used above all for contactless payments of small amounts."
+      }
+    }
+  },
+  {
+    "id": "at5",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Strichcode (Barcode), wie er auf fast jeder Verpackung steht?",
+    "options": [
+      "Eine Preisangabe in Geheimschrift",
+      "Ein Bild, das nur Menschen lesen können",
+      "Ein Siegel, das die Echtheit eines Produkts beweist",
+      "Eine maschinenlesbare Schrift aus verschieden breiten Strichen und Lücken"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Strichcode ist eine optoelektronisch lesbare Schrift aus verschieden breiten, parallelen Strichen und Lücken. Scanner oder Kameras lesen die Daten maschinell ein, danach werden sie elektronisch weiterverarbeitet.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Daten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strichcode",
+    "source_url": "https://de.wikipedia.org/wiki/Strichcode",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a barcode, as found on almost every package?",
+        "options": [
+          "A price written in secret code",
+          "A picture that only people can read",
+          "A seal that proves a product is genuine",
+          "A machine-readable script of bars and gaps of different widths"
+        ],
+        "explanation": "A barcode is an optoelectronically readable script of parallel bars and gaps of different widths. Scanners or cameras read the data by machine, then it is processed electronically."
+      }
+    }
+  },
+  {
+    "id": "at6",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie erkennt ein optischer Rauchmelder, dass es brennt?",
+    "options": [
+      "Rauch streut einen unsichtbaren Lichtstrahl im Gerät auf einen Sensor",
+      "Er misst, ob es im Raum wärmer wird",
+      "Ein Mikrofon hört das Knistern des Feuers",
+      "Er riecht verbrannten Kunststoff"
+    ],
+    "correct_index": 0,
+    "explanation": "Die häufigsten Brandmelder sind optische Rauchmelder. Sie arbeiten nach dem Streulichtverfahren: Eine Infrarot-LED erzeugt einen für Menschen unsichtbaren Lichtstrahl. Dringt Rauch ein, wird Licht auf einen lichtempfindlichen Sensor gestreut – und der Alarm geht los.",
+    "difficulty": 2,
+    "tags": [
+      "Sicherheit",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brandmelder",
+    "source_url": "https://de.wikipedia.org/wiki/Brandmelder",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does an optical smoke detector notice that there is a fire?",
+        "options": [
+          "Smoke scatters an invisible light beam inside the device onto a sensor",
+          "It measures whether the room is getting warmer",
+          "A microphone hears the crackling of the fire",
+          "It smells burnt plastic"
+        ],
+        "explanation": "The most common fire detectors are optical smoke detectors. They work by scattered light: an infrared LED produces a light beam invisible to people. If smoke gets in, light is scattered onto a light-sensitive sensor – and the alarm goes off."
+      }
+    }
+  },
+  {
+    "id": "at7",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wer gilt als Erfinderin des Geschirrspülers?",
+    "options": [
+      "Marie Curie",
+      "Josephine Cochrane",
+      "Ada Lovelace",
+      "Melitta Bentz"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Amerikanerin Josephine Cochrane (1839–1913) reichte 1886 ein Patent für einen mit Wasserdruck arbeitenden Geschirrspüler ein. Ihre Maschine wurde auf der Weltausstellung 1893 in Chicago gezeigt.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Haushalt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geschirrspülmaschine",
+    "source_url": "https://de.wikipedia.org/wiki/Geschirrspülmaschine",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is regarded as the inventor of the dishwasher?",
+        "options": [
+          "Marie Curie",
+          "Josephine Cochrane",
+          "Ada Lovelace",
+          "Melitta Bentz"
+        ],
+        "explanation": "The American Josephine Cochrane (1839–1913) filed a patent in 1886 for a dishwasher that worked with water pressure. Her machine was shown at the 1893 World's Fair in Chicago."
+      }
+    }
+  },
+  {
+    "id": "at8",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum hält eine Thermoskanne Getränke so lange heiß oder kalt?",
+    "options": [
+      "Ihr Deckel ist besonders schwer",
+      "Sie enthält eine kleine Batterie, die heizt",
+      "Zwischen ihren zwei Wänden ist ein Vakuum, das kaum Wärme durchlässt",
+      "Das Metall speichert die Wärme wie ein Akku"
+    ],
+    "correct_index": 2,
+    "explanation": "Klassisch steckt in der Kanne ein doppelwandiges Gefäß, dessen Zwischenraum luftleer gepumpt ist – das unterbindet die Wärmeleitung. Eine Verspiegelung der Wände vermindert zusätzlich den Wärmeverlust durch Strahlung. Das Prinzip stammt vom Dewargefäß.",
+    "difficulty": 2,
+    "tags": [
+      "Haushalt",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Isolierkanne",
+    "source_url": "https://de.wikipedia.org/wiki/Isolierkanne",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a vacuum flask keep drinks hot or cold for so long?",
+        "options": [
+          "Its lid is particularly heavy",
+          "It contains a small battery that heats",
+          "There is a vacuum between its two walls that lets hardly any heat through",
+          "The metal stores the heat like a battery"
+        ],
+        "explanation": "Classically, the flask contains a double-walled vessel whose gap has been pumped empty of air – this stops heat conduction. Mirrored walls also reduce heat loss by radiation. The principle comes from the Dewar flask."
+      }
+    }
+  },
+  {
+    "id": "at9",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie heißt das Teil eines Reißverschlusses, das die kleinen Zähne ineinander verhakt und wieder löst?",
+    "options": [
+      "Die Öse",
+      "Die Krampe",
+      "Der Knebel",
+      "Der Schieber"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Reißverschluss besteht aus zwei Seitenteilen mit Krampen – kleinen Zähnen – und einem Schieber, der die Krampen ineinander verhakt und wieder löst. In der Schweiz heißt der Schieber Schlitten.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Reißverschluss",
+    "source_url": "https://de.wikipedia.org/wiki/Reißverschluss",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the part of a zip called that hooks the little teeth together and separates them again?",
+        "options": [
+          "The eyelet",
+          "The tooth",
+          "The toggle",
+          "The slider"
+        ],
+        "explanation": "A zip consists of two sides with small teeth and a slider that hooks the teeth together and separates them again."
+      }
+    }
+  },
+  {
+    "id": "at10",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches Vorbild aus der Natur hat der Klettverschluss?",
+    "options": [
+      "Die Saugnäpfe von Kraken",
+      "Klettfrüchte, die mit Widerhaken im Fell hängen bleiben",
+      "Die Haftfüße von Geckos",
+      "Spinnweben"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Klettverschluss beruht auf dem Prinzip der Klettfrüchte – eine bionische Umsetzung: Ein gewebter Streifen trägt flexible Widerhäkchen, der andere Schlaufen. Zusammengepresst halten sie fest und lassen sich doch fast beliebig oft wieder lösen.",
+    "difficulty": 1,
+    "tags": [
+      "Bionik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klettverschluss",
+    "source_url": "https://de.wikipedia.org/wiki/Klettverschluss",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which model from nature is the hook-and-loop fastener (Velcro) based on?",
+        "options": [
+          "The suckers of octopuses",
+          "Burrs that stick in fur with their little hooks",
+          "The sticky feet of geckos",
+          "Spider webs"
+        ],
+        "explanation": "The hook-and-loop fastener is based on the principle of burrs – a case of bionics: one woven strip carries flexible little hooks, the other loops. Pressed together they hold firmly and can still be undone almost any number of times."
+      }
+    }
+  },
+  {
+    "id": "at11",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist das Gegenstück zum Elektromotor, das ganz ähnlich aufgebaut ist?",
+    "options": [
+      "Die Batterie",
+      "Der Transformator",
+      "Der Generator – er macht aus Bewegung elektrischen Strom",
+      "Der Kondensator"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Elektromotor wandelt elektrische Leistung in mechanische um: Stromdurchflossene Spulen erzeugen Magnetfelder, deren Anziehung und Abstoßung Bewegung erzeugen. Der sehr ähnlich aufgebaute Generator macht es umgekehrt und wandelt Bewegung in elektrische Leistung.",
+    "difficulty": 2,
+    "tags": [
+      "Elektrizität"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elektromotor",
+    "source_url": "https://de.wikipedia.org/wiki/Elektromotor",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the counterpart of the electric motor, built in a very similar way?",
+        "options": [
+          "The battery",
+          "The transformer",
+          "The generator – it turns movement into electric current",
+          "The capacitor"
+        ],
+        "explanation": "An electric motor turns electrical power into mechanical power: coils carrying current create magnetic fields whose attraction and repulsion produce movement. The very similar generator works the other way round and turns movement into electrical power."
+      }
+    }
+  },
+  {
+    "id": "at12",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welchen Bereich von Tonhöhen kann der Mensch ungefähr hören?",
+    "options": [
+      "Etwa 20 Hertz bis 20 Kilohertz",
+      "Etwa 1 Hertz bis 100 Hertz",
+      "Etwa 500 Hertz bis 600 Hertz",
+      "Etwa 100 Kilohertz bis 1 Megahertz"
+    ],
+    "correct_index": 0,
+    "explanation": "Lautsprecher für Sprache und Musik sind auf den Hörbereich des Menschen ausgerichtet: 20 Hz bis 20 kHz (Kilohertz). Schall oberhalb des menschlichen Hörbereichs heißt Ultraschall.",
+    "difficulty": 2,
+    "tags": [
+      "Schall",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lautsprecher",
+    "source_url": "https://de.wikipedia.org/wiki/Lautsprecher",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly what range of pitches can humans hear?",
+        "options": [
+          "About 20 hertz to 20 kilohertz",
+          "About 1 hertz to 100 hertz",
+          "About 500 hertz to 600 hertz",
+          "About 100 kilohertz to 1 megahertz"
+        ],
+        "explanation": "Loudspeakers for speech and music are designed for the human hearing range: 20 Hz to 20 kHz (kilohertz). Sound above the human hearing range is called ultrasound."
+      }
+    }
+  },
+  {
+    "id": "at13",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bewegt sich in einem Mikrofon mit dem Schall mit?",
+    "options": [
+      "Eine dünne Membran",
+      "Eine kleine Kugel aus Metall",
+      "Ein Tropfen Flüssigkeit",
+      "Nichts – Mikrofone messen Licht"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Mikrofon wandelt Luftschall in elektrische Spannungsänderungen um. In der gängigen Bauform folgt eine dünne, elastisch gelagerte Membran den Druckschwankungen des Schalls. Der Name kommt aus dem Griechischen: mikrós „klein“ und phōnē „Stimme“.",
+    "difficulty": 2,
+    "tags": [
+      "Schall",
+      "Elektronik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mikrofon",
+    "source_url": "https://de.wikipedia.org/wiki/Mikrofon",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What moves along with the sound inside a microphone?",
+        "options": [
+          "A thin membrane",
+          "A small metal ball",
+          "A drop of liquid",
+          "Nothing – microphones measure light"
+        ],
+        "explanation": "A microphone turns sound in the air into changes of electrical voltage. In the usual design, a thin, elastically mounted membrane follows the pressure changes of the sound. The name comes from Greek: mikrós \"small\" and phōnē \"voice\"."
+      }
+    }
+  },
+  {
+    "id": "at14",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Worin wird das Licht in einem Glasfaserkabel geführt?",
+    "options": [
+      "In einem Rohr voller Wasser",
+      "In dünnen Fasern aus Quarzglas oder Kunststoff",
+      "In Kupferdrähten",
+      "In einem Vakuum"
+    ],
+    "correct_index": 1,
+    "explanation": "Lichtwellenleiter führen Licht in Fasern aus Quarzglas oder Kunststoff. In einem Glasfaserkabel sind typischerweise mehrere solcher Fasern gebündelt und zum Schutz mechanisch verstärkt.",
+    "difficulty": 2,
+    "tags": [
+      "Internet",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lichtwellenleiter",
+    "source_url": "https://de.wikipedia.org/wiki/Lichtwellenleiter",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What carries the light in a fibre-optic cable?",
+        "options": [
+          "A pipe full of water",
+          "Thin fibres of quartz glass or plastic",
+          "Copper wires",
+          "A vacuum"
+        ],
+        "explanation": "Optical fibres guide light in strands of quartz glass or plastic. A fibre-optic cable typically bundles several of these fibres and reinforces them for protection."
+      }
+    }
+  },
+  {
+    "id": "at15",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welcher physikalische Effekt lässt eine Solarzelle Strom erzeugen?",
+    "options": [
+      "Der Doppler-Effekt",
+      "Der Treibhauseffekt",
+      "Der photovoltaische Effekt",
+      "Der Placebo-Effekt"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Solarzelle wandelt Strahlungsenergie, meist Sonnenlicht, direkt in elektrische Energie um. Grundlage ist der photovoltaische Effekt, ein Sonderfall des inneren photoelektrischen Effekts.",
+    "difficulty": 2,
+    "tags": [
+      "Energie",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Solarzelle",
+    "source_url": "https://de.wikipedia.org/wiki/Solarzelle",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which physical effect lets a solar cell produce electricity?",
+        "options": [
+          "The Doppler effect",
+          "The greenhouse effect",
+          "The photovoltaic effect",
+          "The placebo effect"
+        ],
+        "explanation": "A solar cell turns radiant energy, usually sunlight, directly into electrical energy. The basis is the photovoltaic effect, a special case of the internal photoelectric effect."
+      }
+    }
+  },
+  {
+    "id": "at16",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Fahrraddynamo?",
+    "options": [
+      "Ein Messgerät für die Geschwindigkeit",
+      "Eine Batterie, die man an der Steckdose lädt",
+      "Ein Motor, der beim Treten hilft",
+      "Ein kleiner Generator, der die Drehung eines Rads in Strom fürs Licht umwandelt"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Fahrraddynamo ist ein kleiner elektrischer Generator. Er nimmt während der Fahrt die Drehkraft eines Laufrads ab und versorgt damit die Fahrradbeleuchtung mit Strom. Der Name kommt vom griechischen dýnamis „Kraft“.",
+    "difficulty": 1,
+    "tags": [
+      "Elektrizität",
+      "Fahrrad"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fahrraddynamo",
+    "source_url": "https://de.wikipedia.org/wiki/Fahrraddynamo",
+    "created_at": "2026-10-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a bicycle dynamo?",
+        "options": [
+          "A device that measures speed",
+          "A battery you charge at the socket",
+          "A motor that helps you pedal",
+          "A small generator that turns the rotation of a wheel into electricity for the lights"
+        ],
+        "explanation": "A bicycle dynamo is a small electric generator. While you ride, it takes up the turning force of a wheel and uses it to power the bicycle lights. The name comes from the Greek dýnamis, \"power\"."
+      }
+    }
+  },
+  {
+    "id": "ew1",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Land A kann alle Waren billiger herstellen als Land B. Kann sich Handel zwischen beiden trotzdem für beide lohnen?",
+    "options": [
+      "Ja – jedes Land spezialisiert sich auf das, was es vergleichsweise am besten kann",
+      "Nein – Land A hat nur Nachteile vom Handel",
+      "Nur, wenn Land B Zölle erhebt",
+      "Nur bei Rohstoffen wie Öl"
+    ],
+    "correct_index": 0,
+    "explanation": "Das ist der komparative Kostenvorteil, ein Modell von David Ricardo aus dem frühen 19. Jahrhundert: Handel kann einem Land auch dann Vorteile bringen, wenn es bei allen Produkten absolute Kostennachteile hat. Der Tausch steigert so die Wohlfahrt beider Handelspartner.",
+    "difficulty": 3,
+    "tags": [
+      "Handel",
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Komparativer Kostenvorteil",
+    "source_url": "https://de.wikipedia.org/wiki/Komparativer_Kostenvorteil",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Country A can make all goods more cheaply than country B. Can trade between them still pay off for both?",
+        "options": [
+          "Yes – each country specialises in what it does comparatively best",
+          "No – country A only loses from trade",
+          "Only if country B charges customs duties",
+          "Only for raw materials such as oil"
+        ],
+        "explanation": "This is comparative advantage, a model by David Ricardo from the early 19th century: trade can benefit a country even if it is at an absolute cost disadvantage for every product. The exchange thus increases the welfare of both trading partners."
+      }
+    }
+  },
+  {
+    "id": "ew2",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was zeigt Adam Smiths berühmtes Beispiel von der Herstellung von Stecknadeln?",
+    "options": [
+      "Maschinen sind immer schneller als Menschen",
+      "Teilt man die Arbeit in einzelne Handgriffe auf, entstehen viel mehr Stecknadeln",
+      "Kleine Betriebe arbeiten besser als große",
+      "Stecknadeln waren früher sehr teuer"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein einzelner ungelernter Arbeiter schafft an einem Tag nur wenige Stecknadeln. Teilt man die Arbeit in Handgriffe auf – Draht ziehen, abzwicken, zuspitzen, Kopf daraufsetzen –, können fünf Arbeiter tausende am Tag herstellen. So erklärte Smith den Nutzen der Arbeitsteilung.",
+    "difficulty": 2,
+    "tags": [
+      "Arbeit",
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arbeitsteilung",
+    "source_url": "https://de.wikipedia.org/wiki/Arbeitsteilung",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Adam Smith's famous example of making pins show?",
+        "options": [
+          "Machines are always faster than people",
+          "If the work is split into single steps, far more pins are made",
+          "Small workshops work better than large ones",
+          "Pins used to be very expensive"
+        ],
+        "explanation": "A single unskilled worker manages only a few pins a day. If the work is split into steps – drawing the wire, cutting it, sharpening it, putting on the head – five workers can make thousands a day. This is how Smith explained the benefit of the division of labour."
+      }
+    }
+  },
+  {
+    "id": "ew3",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Eine Fabrik verschmutzt einen Fluss, die Fischer flussabwärts tragen den Schaden. Wie nennt man so etwas in der Volkswirtschaft?",
+    "options": [
+      "Eine Subvention",
+      "Einen Skaleneffekt",
+      "Einen externen Effekt",
+      "Einen Bärenmarkt"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein externer Effekt ist die Auswirkung einer wirtschaftlichen Entscheidung, die nicht dem Verursacher angelastet wird, weil zwischen ihm und den Betroffenen kein Preis vermittelt. Umweltschäden durch Abwässer, Abgase oder Lärm sind typische negative externe Effekte.",
+    "difficulty": 2,
+    "tags": [
+      "Umwelt",
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Externer Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Externer_Effekt",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A factory pollutes a river, and the fishers downstream bear the damage. What is this called in economics?",
+        "options": [
+          "A subsidy",
+          "An economy of scale",
+          "An externality",
+          "A bear market"
+        ],
+        "explanation": "An externality is the effect of an economic decision that is not charged to whoever caused it, because no price links them to the people affected. Environmental damage from waste water, exhaust fumes or noise is a typical negative externality."
+      }
+    }
+  },
+  {
+    "id": "ew4",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was zeichnet ein öffentliches Gut wie saubere Luft aus – im Gegensatz zu einem Apfel?",
+    "options": [
+      "Es kann nur einmal benutzt werden",
+      "Es ist immer kostenlos herzustellen",
+      "Es gehört immer einer einzelnen Person",
+      "Viele können es gleichzeitig nutzen, ohne es anderen wegzunehmen"
+    ],
+    "correct_index": 3,
+    "explanation": "Öffentliche Güter zeigen keine Rivalität im Konsum: Verschiedene Menschen können sie zur gleichen Zeit nutzen. Einen Apfel kann dagegen nur einer essen. Weil der Markt solche Güter oft nicht ausreichend bereitstellt, kann das zu Marktversagen führen.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft",
+      "Staat"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Öffentliches Gut",
+    "source_url": "https://de.wikipedia.org/wiki/Öffentliches_Gut",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What marks a public good such as clean air – unlike an apple?",
+        "options": [
+          "It can only be used once",
+          "It always costs nothing to produce",
+          "It always belongs to one person",
+          "Many can use it at the same time without taking it away from others"
+        ],
+        "explanation": "Public goods show no rivalry in consumption: different people can use them at the same time. An apple, by contrast, can only be eaten by one person. Because the market often does not provide enough of such goods, this can lead to market failure."
+      }
+    }
+  },
+  {
+    "id": "ew5",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Jeder fischt in einem gemeinsamen See so viel er kann – bis kaum noch Fische da sind. Wie heißt dieses Problem?",
+    "options": [
+      "Tragik der Allmende",
+      "Gesetz der großen Zahlen",
+      "Kalte Progression",
+      "Greshamsches Gesetz"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Tragik der Allmende (englisch tragedy of the commons) beschreibt, wie eine begrenzte, gemeinsam genutzte Ressource durch Übernutzung erschöpft wird: Jeder sucht den größten eigenen Nutzen, am Ende schadet das allen. Beispiele sind Überweidung, Überfischung und Raubbau.",
+    "difficulty": 2,
+    "tags": [
+      "Umwelt",
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tragik der Allmende",
+    "source_url": "https://de.wikipedia.org/wiki/Tragik_der_Allmende",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Everyone fishes as much as they can in a shared lake – until hardly any fish are left. What is this problem called?",
+        "options": [
+          "The tragedy of the commons",
+          "The law of large numbers",
+          "Bracket creep",
+          "Gresham's law"
+        ],
+        "explanation": "The tragedy of the commons describes how a limited, shared resource is exhausted by overuse: everyone seeks the greatest benefit for themselves, and in the end it harms everyone. Examples are overgrazing, overfishing and overexploitation."
+      }
+    }
+  },
+  {
+    "id": "ew6",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wer gut versichert ist, passt manchmal weniger auf. Wie nennt man dieses Risiko?",
+    "options": [
+      "Wechselkursrisiko",
+      "Moralisches Risiko (Moral Hazard)",
+      "Inflationsrisiko",
+      "Klumpenrisiko"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein moralisches Risiko (englisch moral hazard) liegt vor, wenn sich Menschen wegen falscher Anreize leichtsinnig verhalten und so ein Risiko auslösen oder verstärken. Das Standardbeispiel: Verhaltensänderungen, weil ein Risiko versichert ist. Der Begriff stammt aus der Versicherungswissenschaft.",
+    "difficulty": 3,
+    "tags": [
+      "Versicherung",
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moralisches Risiko",
+    "source_url": "https://de.wikipedia.org/wiki/Moralisches_Risiko",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "People who are well insured sometimes take less care. What is this risk called?",
+        "options": [
+          "Exchange rate risk",
+          "Moral hazard",
+          "Inflation risk",
+          "Concentration risk"
+        ],
+        "explanation": "Moral hazard exists when people behave carelessly because of the wrong incentives and so cause or increase a risk. The standard example: changes in behaviour because a risk is insured. The term comes from insurance science."
+      }
+    }
+  },
+  {
+    "id": "ew7",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie misst man, wie stark die Preise insgesamt steigen?",
+    "options": [
+      "An der Höhe der Löhne",
+      "Am Preis eines einzigen Brötchens",
+      "Mit einem Preisindex für einen Warenkorb aus vielen Gütern und Dienstleistungen",
+      "An der Zahl der neuen Banknoten"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Preisindex fasst die Preise vieler ausgewählter Güter zusammen. Er gibt an, wie sich die Preise der Güter und Dienstleistungen eines Warenkorbs im Durchschnitt über die Zeit verändern – ein Maß für die Änderung des Preisniveaus. Ein Basiswert erhält den Indexwert 100.",
+    "difficulty": 2,
+    "tags": [
+      "Inflation",
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Preisindex",
+    "source_url": "https://de.wikipedia.org/wiki/Preisindex",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you measure how much prices rise overall?",
+        "options": [
+          "By the level of wages",
+          "By the price of a single bread roll",
+          "With a price index for a basket of many goods and services",
+          "By the number of new banknotes"
+        ],
+        "explanation": "A price index combines the prices of many selected goods. It shows how the prices of the goods and services in a basket change on average over time – a measure of the change in the price level. A base value is given the index value 100."
+      }
+    }
+  },
+  {
+    "id": "ew8",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist die „kalte Progression“?",
+    "options": [
+      "Das Einfrieren aller Löhne",
+      "Eine Steuer auf Heizkosten im Winter",
+      "Ein Rabatt für Steuerzahler mit niedrigem Einkommen",
+      "Mehr Steuerlast, weil die Grenzen des Steuertarifs nicht an die Preissteigerung angepasst werden"
+    ],
+    "correct_index": 3,
+    "explanation": "Kalte Progression ist die Steuermehrbelastung, die mit der Zeit entsteht, wenn die Eckwerte eines progressiven Steuertarifs nicht an die Preissteigerungsrate angepasst werden. Der Staat nimmt dann mehr Steuern ein, obwohl die Menschen real nicht mehr verdienen.",
+    "difficulty": 3,
+    "tags": [
+      "Steuern"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kalte Progression",
+    "source_url": "https://de.wikipedia.org/wiki/Kalte_Progression",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is \"bracket creep\" (cold progression)?",
+        "options": [
+          "Freezing all wages",
+          "A tax on heating costs in winter",
+          "A discount for low-income taxpayers",
+          "A rising tax burden because the brackets of the tax scale are not adjusted to rising prices"
+        ],
+        "explanation": "Bracket creep is the extra tax burden that builds up over time when the thresholds of a progressive tax scale are not adjusted to the rate of price increases. The state then collects more tax although people do not earn more in real terms."
+      }
+    }
+  },
+  {
+    "id": "ew9",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie entsteht der Großteil des Geldes auf unseren Konten (Buchgeld)?",
+    "options": [
+      "Geschäftsbanken erzeugen es, wenn sie Kredite vergeben",
+      "Die Zentralbank druckt es als Banknoten",
+      "Es wird aus Goldreserven geprägt",
+      "Der Staat überweist es jedes Jahr an alle"
+    ],
+    "correct_index": 0,
+    "explanation": "Buch- oder Giralgeld erzeugen Geschäftsbanken für ihre Kunden bei der Kreditvergabe oder beim Ankauf von Vermögenswerten. Bargeld schafft dagegen die Zentralbank – in Umlauf kommt es erst, wenn Kunden Buchgeld am Schalter oder Geldautomaten in Bargeld umtauschen.",
+    "difficulty": 3,
+    "tags": [
+      "Geld",
+      "Banken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geldschöpfung",
+    "source_url": "https://de.wikipedia.org/wiki/Geldschöpfung",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is most of the money in our accounts (book money) created?",
+        "options": [
+          "Commercial banks create it when they grant loans",
+          "The central bank prints it as banknotes",
+          "It is minted from gold reserves",
+          "The state transfers it to everyone each year"
+        ],
+        "explanation": "Book money (deposit money) is created by commercial banks for their customers when they grant loans or buy assets. Cash, by contrast, is created by the central bank – it only goes into circulation when customers exchange book money for cash at the counter or a cash machine."
+      }
+    }
+  },
+  {
+    "id": "ew10",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was zeigt das Gefangenendilemma aus der Spieltheorie?",
+    "options": [
+      "Wie Entscheidungen, die für jeden Einzelnen vernünftig sind, für beide zusammen schlechter ausgehen können",
+      "Dass Ehrlichkeit sich immer auszahlt",
+      "Dass Gefangene nie zusammenarbeiten",
+      "Wie man im Schach gewinnt"
+    ],
+    "correct_index": 0,
+    "explanation": "Zwei Beteiligte müssen sich unabhängig und ohne Absprache entscheiden, und das Ergebnis jedes Einzelnen hängt stark von der Wahl des anderen ab. Das Spiel aus den 1950er Jahren zeigt, wie individuell rationale Entscheidungen zu kollektiv schlechteren Ergebnissen führen können.",
+    "difficulty": 2,
+    "tags": [
+      "Spieltheorie",
+      "Entscheidungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gefangenendilemma",
+    "source_url": "https://de.wikipedia.org/wiki/Gefangenendilemma",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the prisoner's dilemma from game theory show?",
+        "options": [
+          "How decisions that are sensible for each individual can turn out worse for both together",
+          "That honesty always pays",
+          "That prisoners never cooperate",
+          "How to win at chess"
+        ],
+        "explanation": "Two players must decide independently and without consulting each other, and each one's result depends strongly on the other's choice. The game from the 1950s shows how individually rational decisions can lead to collectively worse results."
+      }
+    }
+  },
+  {
+    "id": "ew11",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Ein Messenger wird für jeden nützlicher, je mehr Menschen ihn benutzen. Wie heißt dieser Effekt?",
+    "options": [
+      "Ankereffekt",
+      "Netzwerkeffekt",
+      "Skaleneffekt",
+      "Treibhauseffekt"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Netzwerkeffekt liegt vor, wenn der Nutzen von Gütern, Diensten oder Informationen in einem Netzwerk mit wachsender Mitgliederzahl zunimmt. Er beschreibt, wie sich der Nutzen eines Produkts für den Einzelnen ändert, wenn sich die Zahl der anderen Nutzer ändert.",
+    "difficulty": 2,
+    "tags": [
+      "Digitale Wirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Netzwerkeffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Netzwerkeffekt",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A messaging app becomes more useful for everyone the more people use it. What is this effect called?",
+        "options": [
+          "Anchoring effect",
+          "Network effect",
+          "Economy of scale",
+          "Greenhouse effect"
+        ],
+        "explanation": "A network effect exists when the usefulness of goods, services or information in a network grows with the number of members. It describes how a product's usefulness to one person changes when the number of other users changes."
+      }
+    }
+  },
+  {
+    "id": "ew12",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Warum wird ein Produkt oft billiger pro Stück, wenn eine Firma sehr viel davon herstellt?",
+    "options": [
+      "Weil das Material bei Massenproduktion nichts kostet",
+      "Weil große Firmen keine Steuern zahlen",
+      "Die festen Kosten verteilen sich auf mehr Stücke (Skaleneffekt)",
+      "Das stimmt nicht – große Mengen sind immer teurer"
+    ],
+    "correct_index": 2,
+    "explanation": "Skaleneffekte (englisch economies of scale) setzen Massenproduktion voraus: Wird die Menge bis zur Kapazitätsgrenze ausgedehnt, sinken die fixen Kosten pro Stück. Diese Größenvorteile regen Unternehmen zum Wachsen an.",
+    "difficulty": 3,
+    "tags": [
+      "Unternehmen",
+      "Produktion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Skaleneffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Skaleneffekt",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a product often become cheaper per item when a company makes a great many of them?",
+        "options": [
+          "Because materials cost nothing in mass production",
+          "Because large companies pay no taxes",
+          "The fixed costs are spread over more items (economies of scale)",
+          "That is not true – large quantities are always more expensive"
+        ],
+        "explanation": "Economies of scale require mass production: if output is expanded up to capacity, the fixed costs per item fall. These size advantages encourage companies to grow."
+      }
+    }
+  },
+  {
+    "id": "ew13",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Warum ist ein Euro-Schein etwas wert, obwohl das Papier selbst fast nichts kostet?",
+    "options": [
+      "Weil der Wert auf den Schein gedruckt ist und daher nicht sinken kann",
+      "Weil die Bank für jeden Schein Gold aufbewahrt",
+      "Weil das Papier besonders selten ist",
+      "Weil alle darauf vertrauen, dass er auch künftig als Zahlungsmittel anerkannt wird"
+    ],
+    "correct_index": 3,
+    "explanation": "Euro-Scheine sind Fiatgeld: ein Tauschmittel ohne inneren Wert, anders als Warengeld wie Gold oder Getreide. Seit dem Ende des Bretton-Woods-Systems 1971 deckt kein Währungssystem mehr den Wert des Geldes durch eine Ware. Es funktioniert, weil es allgemein anerkannt wird und man darauf vertraut, dass es auch in Zukunft als Tauschmittel gilt.",
+    "difficulty": 3,
+    "tags": [
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fiatgeld",
+    "source_url": "https://de.wikipedia.org/wiki/Fiatgeld",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is a euro note worth something although the paper itself costs almost nothing?",
+        "options": [
+          "Because the value is printed on the note and so cannot fall",
+          "Because the bank keeps gold for every note",
+          "Because the paper is especially rare",
+          "Because everyone trusts that it will be accepted as a means of payment in future too"
+        ],
+        "explanation": "Euro notes are fiat money: a means of exchange without intrinsic value, unlike commodity money such as gold or grain. Since the end of the Bretton Woods system in 1971, no currency system has backed the value of money with a commodity. It works because it is generally accepted and people trust that it will also be a means of exchange in future."
+      }
+    }
+  },
+  {
+    "id": "ew14",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was stellt die Handelsbilanz eines Landes gegenüber?",
+    "options": [
+      "Den Wert aller Warenexporte und -importe in einem Zeitraum",
+      "Einnahmen und Ausgaben des Staates",
+      "Das Vermögen der reichsten und ärmsten Einwohner",
+      "Die Gewinne aller Firmen eines Jahres"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Handelsbilanz stellt alle Importe und Exporte von Gütern einer Volkswirtschaft in einem bestimmten Zeitraum wertmäßig gegenüber. Dienstleistungen stehen nicht darin, sondern in der Dienstleistungsbilanz.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Handelsbilanz",
+    "source_url": "https://de.wikipedia.org/wiki/Handelsbilanz",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a country's trade balance compare?",
+        "options": [
+          "The value of all goods exported and imported in a period",
+          "The state's income and spending",
+          "The wealth of the richest and poorest inhabitants",
+          "The profits of all companies in a year"
+        ],
+        "explanation": "The trade balance compares the value of all imports and exports of goods of an economy within a certain period. Services are not included; they are recorded in the services balance."
+      }
+    }
+  },
+  {
+    "id": "sw1",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Warum ist „Handy“ für ein Mobiltelefon ein Scheinanglizismus?",
+    "options": [
+      "Es stammt eigentlich aus dem Französischen",
+      "Es ist ein englisches Wort mit genau derselben Bedeutung",
+      "Es klingt englisch, wird im Englischen aber nicht für Mobiltelefone benutzt",
+      "Es ist eine Abkürzung für „Hand-Telefon“ aus dem Japanischen"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Scheinanglizismus nutzt englische Wortbausteine für ein Wort, das es im Englischen nicht oder nur mit anderer Bedeutung gibt. „Handy“ heißt dort als Adjektiv „handlich, praktisch“ – ein Mobiltelefon nennt man im englischsprachigen Raum nicht so.",
+    "difficulty": 1,
+    "tags": [
+      "Anglizismen",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Scheinanglizismus",
+    "source_url": "https://de.wikipedia.org/wiki/Scheinanglizismus",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the German word \"Handy\" for a mobile phone a pseudo-anglicism?",
+        "options": [
+          "It actually comes from French",
+          "It is an English word with exactly the same meaning",
+          "It sounds English, but English does not use it for mobile phones",
+          "It is a Japanese abbreviation for \"hand telephone\""
+        ],
+        "explanation": "A pseudo-anglicism uses English word parts for a word that does not exist in English or only with another meaning. In English, \"handy\" is an adjective meaning \"convenient, practical\" – mobile phones are not called that in the English-speaking world."
+      }
+    }
+  },
+  {
+    "id": "sw2",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Warum sagt man im Englischen „apple“, im Deutschen aber „Apfel“?",
+    "options": [
+      "Die Wörter haben gar nichts miteinander zu tun",
+      "Das Deutsche hat das Wort aus dem Lateinischen übernommen",
+      "Englisch hat das Wort später absichtlich vereinfacht",
+      "Im Hochdeutschen wurden Konsonanten verschoben – die zweite Lautverschiebung –, im Englischen nicht"
+    ],
+    "correct_index": 3,
+    "explanation": "Die zweite Lautverschiebung war ein regelhafter Lautwandel der Konsonanten, durch den aus südlichen westgermanischen Dialekten das Althochdeutsche wurde. Im modernen Englischen fand sie nicht statt – daher stehen sich etwa „apple“ und „Apfel“ gegenüber, die auf eine Form *appul zurückgehen.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachgeschichte",
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zweite Lautverschiebung",
+    "source_url": "https://de.wikipedia.org/wiki/Zweite_Lautverschiebung",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do you say \"apple\" in English but \"Apfel\" in German?",
+        "options": [
+          "The words have nothing to do with each other",
+          "German borrowed the word from Latin",
+          "English later simplified the word on purpose",
+          "In High German consonants shifted – the second sound shift – but not in English"
+        ],
+        "explanation": "The second sound shift was a regular change in consonants that turned southern West Germanic dialects into Old High German. It did not happen in modern English – which is why \"apple\" and \"Apfel\" stand side by side, both going back to a form *appul."
+      }
+    }
+  },
+  {
+    "id": "sw3",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Die Benrather Linie heißt auch „maken/machen-Linie“. Was trennt sie?",
+    "options": [
+      "Hochdeutsche Dialekte im Süden von niederdeutschen im Norden",
+      "Deutsch und Niederländisch an der Staatsgrenze",
+      "Dialekte mit und ohne gerolltes R",
+      "Gebiete, in denen man „Brötchen“ oder „Semmel“ sagt"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Benrather Linie ist eine Sprachgrenze, die Hochdeutsch von Niederdeutsch und Niederfränkisch scheidet: Nördlich sagt man „maken“, südlich „machen“. Sie markiert den nördlichen Rand der zweiten Lautverschiebung. Ihren Namen bekam sie 1877 nach einem Ort bei Düsseldorf.",
+    "difficulty": 3,
+    "tags": [
+      "Dialekte",
+      "Sprachgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Benrather Linie",
+    "source_url": "https://de.wikipedia.org/wiki/Benrather_Linie",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Benrath line is also called the \"maken/machen line\". What does it separate?",
+        "options": [
+          "High German dialects in the south from Low German ones in the north",
+          "German and Dutch along the state border",
+          "Dialects with and without a rolled R",
+          "Areas that say \"Brötchen\" or \"Semmel\" for a bread roll"
+        ],
+        "explanation": "The Benrath line is a language boundary that separates High German from Low German and Low Franconian: north of it people say \"maken\", south of it \"machen\" (to make). It marks the northern edge of the second sound shift. It was named in 1877 after a place near Düsseldorf."
+      }
+    }
+  },
+  {
+    "id": "sw4",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Im Dänischen heißt die Vokuhila-Frisur „Bundesligahår“. Wofür ist das ein Beispiel?",
+    "options": [
+      "Für einen Scheinanglizismus",
+      "Für einen Germanismus – ein deutsches Wort, das in eine andere Sprache gewandert ist",
+      "Für ein Palindrom",
+      "Für eine Abkürzung"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Germanismus ist ein deutsches Wort, das eine andere Sprache als Lehn- oder Fremdwort aufgenommen hat. „Bundesligahår“ heißt „Bundesliga-Haar“ – die Frisur galt als typisch für die Fußball-Bundesliga. Das bekannteste deutsche Wort im Englischen ist „Kindergarten“.",
+    "difficulty": 2,
+    "tags": [
+      "Wortschatz",
+      "Lehnwörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Germanismus",
+    "source_url": "https://de.wikipedia.org/wiki/Germanismus",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Danish, the mullet haircut is called \"Bundesligahår\". What is this an example of?",
+        "options": [
+          "A pseudo-anglicism",
+          "A Germanism – a German word that has travelled into another language",
+          "A palindrome",
+          "An abbreviation"
+        ],
+        "explanation": "A Germanism is a German word that another language has taken in as a loanword or foreign word. \"Bundesligahår\" means \"Bundesliga hair\" – the haircut was seen as typical of the German football league. The best-known German word in English is \"kindergarten\"."
+      }
+    }
+  },
+  {
+    "id": "sw5",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Sprache in Europa ist nach heutigem Wissen mit keiner anderen bekannten Sprache verwandt?",
+    "options": [
+      "Finnisch",
+      "Ungarisch",
+      "Baskisch",
+      "Maltesisch"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Baskische gilt nach dem überwiegenden Urteil der Forschung als isolierte Sprache. Alle anderen heutigen Sprachen Europas gehören zu einer größeren Familie: indogermanisch, uralisch, Turksprachen oder – beim Maltesischen – semitisch.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachfamilien",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Baskische Sprache",
+    "source_url": "https://de.wikipedia.org/wiki/Baskische_Sprache",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language in Europe is, as far as we know, related to no other known language?",
+        "options": [
+          "Finnish",
+          "Hungarian",
+          "Basque",
+          "Maltese"
+        ],
+        "explanation": "According to the prevailing view of research, Basque is a language isolate. All other present-day languages of Europe belong to a larger family: Indo-European, Uralic, Turkic or – in the case of Maltese – Semitic."
+      }
+    }
+  },
+  {
+    "id": "sw6",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Zu welcher Sprachfamilie gehört das Ungarische?",
+    "options": [
+      "Zu den germanischen Sprachen",
+      "Zu den romanischen Sprachen",
+      "Zu den slawischen Sprachen",
+      "Zu den uralischen Sprachen"
+    ],
+    "correct_index": 3,
+    "explanation": "Die uralischen Sprachen sind eine Familie von etwa 30 Sprachen mit rund 25 Millionen Sprechern im Norden Eurasiens – und in Mitteleuropa gehört das Ungarische dazu. Typisch sind reiche Endungen und Kasussysteme mit bis zu 20 Fällen.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachfamilien",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Uralische Sprachen",
+    "source_url": "https://de.wikipedia.org/wiki/Uralische_Sprachen",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language family does Hungarian belong to?",
+        "options": [
+          "The Germanic languages",
+          "The Romance languages",
+          "The Slavic languages",
+          "The Uralic languages"
+        ],
+        "explanation": "The Uralic languages are a family of about 30 languages with around 25 million speakers in northern Eurasia – and in Central Europe, Hungarian belongs to it. Typical are rich word endings and case systems with up to 20 cases."
+      }
+    }
+  },
+  {
+    "id": "sw7",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welchen Sprachen gehören Klicklaute (Schnalzlaute) zu den ganz normalen Sprachlauten?",
+    "options": [
+      "In afrikanischen Sprachen wie den Khoisan-Sprachen, Zulu und Xhosa",
+      "Im Japanischen und Koreanischen",
+      "In den skandinavischen Sprachen",
+      "In allen Sprachen der Welt gleichermaßen"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Klick entsteht durch Schnalzen mit der Zunge. Als reguläre Sprachlaute nutzen ihn nur die afrikanischen Khoisan-Sprachen, benachbarte Bantusprachen wie Zulu und Xhosa und die Sprache Dahalo – zusammen etwa 80 Sprachen. Anderswo dienen Klicks höchstens als Ausdruck, etwa des Missfallens.",
+    "difficulty": 2,
+    "tags": [
+      "Laute",
+      "Afrika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klick (Phonetik)",
+    "source_url": "https://de.wikipedia.org/wiki/Klick_(Phonetik)",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which languages are clicks (click sounds) quite normal speech sounds?",
+        "options": [
+          "In African languages such as the Khoisan languages, Zulu and Xhosa",
+          "In Japanese and Korean",
+          "In the Scandinavian languages",
+          "Equally in all languages of the world"
+        ],
+        "explanation": "A click is made by smacking the tongue. Only the African Khoisan languages, neighbouring Bantu languages such as Zulu and Xhosa, and the Dahalo language use it as a regular speech sound – about 80 languages together. Elsewhere, clicks serve at most as an expression, for example of disapproval."
+      }
+    }
+  },
+  {
+    "id": "sw8",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was kennzeichnet eine Tonsprache wie Hochchinesisch?",
+    "options": [
+      "Sie wird nur gesungen",
+      "Die Tonhöhe einer Silbe kann die Bedeutung eines Wortes ändern",
+      "Sie hat kein Schriftsystem",
+      "Jedes Wort hat genau einen Ton"
+    ],
+    "correct_index": 1,
+    "explanation": "In einer Tonsprache ändert eine andere Tonhöhe oder ein anderer Tonverlauf in einer Silbe meist auch die Bedeutung des Wortes. Hochchinesisch hat vier Töne plus einen neutralen Ton, Vietnamesisch sechs. Tonsprachen sind die häufigsten Sprachen der Welt – die Mehrheit der Sprecher stellen sie aber nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Laute",
+      "Asien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tonsprache",
+    "source_url": "https://de.wikipedia.org/wiki/Tonsprache",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What characterises a tone language such as Standard Chinese?",
+        "options": [
+          "It is only sung",
+          "The pitch of a syllable can change the meaning of a word",
+          "It has no writing system",
+          "Every word has exactly one tone"
+        ],
+        "explanation": "In a tone language, a different pitch or pitch contour in a syllable usually also changes the meaning of the word. Standard Chinese has four tones plus a neutral tone, Vietnamese six. Tone languages are the most common languages in the world – but they do not account for the majority of speakers."
+      }
+    }
+  },
+  {
+    "id": "sw9",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist eine Pidgin-Sprache?",
+    "options": [
+      "Die älteste Sprache der Welt",
+      "Eine Geheimsprache von Kindern",
+      "Eine vereinfachte Behelfssprache, mit der sich Menschen verschiedener Sprachen verständigen",
+      "Eine Sprache, die nur geschrieben wird"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Pidgin ist eine reduzierte, in der Grammatik vereinfachte Sprachform, die Menschen mit verschiedenen Sprachen als Verkehrssprache dient – entstanden etwa im Handel oder unter kolonialen Bedingungen. Niemand spricht ein Pidgin als Erstsprache; man lernt es als Fremdsprache.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachkontakt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pidgin-Sprache",
+    "source_url": "https://de.wikipedia.org/wiki/Pidgin-Sprache",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a pidgin language?",
+        "options": [
+          "The oldest language in the world",
+          "A secret language of children",
+          "A simplified makeshift language that lets people with different languages understand each other",
+          "A language that is only written"
+        ],
+        "explanation": "A pidgin is a reduced form of language with simplified grammar that serves people with different languages as a common language – it arose, for example, in trade or under colonial conditions. Nobody speaks a pidgin as a first language; it is learned as a foreign language."
+      }
+    }
+  },
+  {
+    "id": "sw10",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was unterscheidet eine Kreolsprache von einer Pidgin-Sprache?",
+    "options": [
+      "Kreolsprachen gibt es nur in Europa",
+      "Eine Kreolsprache hat keinen eigenen Wortschatz",
+      "Eine Kreolsprache wird von einer Gemeinschaft als Muttersprache gesprochen",
+      "Es gibt keinen Unterschied"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Kreolsprache ist aus dem Kontakt mehrerer Sprachen entstanden und wird von einer Sprachgemeinschaft als Muttersprache gesprochen – ein Pidgin dagegen ist keine Erstsprache. Viele Kreolsprachen entstanden im 17. und 18. Jahrhundert im Zuge der Kolonialisierung, oft unter den Bedingungen des Sklavenhandels.",
+    "difficulty": 3,
+    "tags": [
+      "Sprachkontakt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreolsprache",
+    "source_url": "https://de.wikipedia.org/wiki/Kreolsprache",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What distinguishes a creole language from a pidgin?",
+        "options": [
+          "Creoles only exist in Europe",
+          "A creole has no vocabulary of its own",
+          "A creole is spoken by a community as its mother tongue",
+          "There is no difference"
+        ],
+        "explanation": "A creole arose from contact between several languages and is spoken by a language community as its mother tongue – a pidgin, by contrast, is nobody's first language. Many creoles arose in the 17th and 18th centuries in the course of colonisation, often under the conditions of the slave trade."
+      }
+    }
+  },
+  {
+    "id": "sw11",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet der Ausdruck „Lingua franca“ für eine gemeinsame Verkehrssprache wörtlich?",
+    "options": [
+      "Sprache der Händler",
+      "Freie Sprache",
+      "Französische Schrift",
+      "Fränkische Sprache"
+    ],
+    "correct_index": 3,
+    "explanation": "Lingua franca ist Italienisch für „fränkische Sprache“. So hieß eine romanisch geprägte Handelssprache, die im Mittelalter rund ums Mittelmeer entstand. Seit dem 18. Jahrhundert ist der Name eine allgemeine Bezeichnung für Verkehrssprachen.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Sprachkontakt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lingua franca",
+    "source_url": "https://de.wikipedia.org/wiki/Lingua_franca",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the expression \"lingua franca\" for a shared common language mean literally?",
+        "options": [
+          "Language of the traders",
+          "Free language",
+          "French script",
+          "Frankish language"
+        ],
+        "explanation": "Lingua franca is Italian for \"Frankish language\". That was the name of a Romance-based trading language that arose around the Mediterranean in the Middle Ages. Since the 18th century, the name has been a general term for common languages."
+      }
+    }
+  },
+  {
+    "id": "sw12",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher kommt nach einer verbreiteten Erklärung der Ausdruck „blaumachen“?",
+    "options": [
+      "Vom „blauen Montag“: In der Fastenzeit waren Kirchen montags blau geschmückt, und an diesen Montagen wurde nicht gearbeitet",
+      "Von Matrosen, die das blaue Meer anschauten",
+      "Von blauer Farbe, die beim Streichen schnell trocknet",
+      "Von der blauen Uniform der Feuerwehr"
+    ],
+    "correct_index": 0,
+    "explanation": "„Blaumachen“ heißt umgangssprachlich, nicht zu arbeiten. Eine Erklärung bezieht sich auf die Sitte, an Montagen der Fastenzeit die Kirchen blau oder violett zu schmücken. Die Arbeitsfreiheit dieses Fastenmontags wurde bald auf andere Montage ausgedehnt.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blauer Montag",
+    "source_url": "https://de.wikipedia.org/wiki/Blauer_Montag",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to a widespread explanation, where does the German expression \"blaumachen\" (to skip work, literally \"to make blue\") come from?",
+        "options": [
+          "From \"blue Monday\": in Lent, churches were decorated in blue on Mondays, and those Mondays were free from work",
+          "From sailors looking at the blue sea",
+          "From blue paint that dries quickly",
+          "From the blue uniform of the fire brigade"
+        ],
+        "explanation": "\"Blaumachen\" is colloquial German for not going to work. One explanation refers to the custom of decorating churches in blue or violet on the Mondays of Lent. The freedom from work on these Lenten Mondays was soon extended to other Mondays."
+      }
+    }
+  },
+  {
+    "id": "sw13",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was wünscht man mit „Hals- und Beinbruch“ – und woher kommt der Ausdruck wahrscheinlich?",
+    "options": [
+      "Eine Verletzung – als Fluch aus dem Mittelalter",
+      "Viel Glück – wohl verballhornt aus jiddisch „hatsloche un broche“, „Erfolg und Segen“",
+      "Gute Besserung – aus der Sprache der Ärzte",
+      "Eine gute Reise – aus der Seefahrt"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Redewendung wünscht viel Glück, etwa vor einer Prüfung. Sie ist wahrscheinlich eine Verballhornung des jiddischen „hatsloche un broche“ (Erfolg und Segen), das auf das Hebräische zurückgeht. Deutschsprachige Zuhörer machten daraus Wörter, die ähnlich klangen.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen",
+      "Jiddisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hals- und Beinbruch",
+    "source_url": "https://de.wikipedia.org/wiki/Hals-_und_Beinbruch",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you wish someone with the German saying \"Hals- und Beinbruch\" (literally \"neck and leg break\") – and where does it probably come from?",
+        "options": [
+          "An injury – as a curse from the Middle Ages",
+          "Good luck – probably a distortion of the Yiddish \"hatsloche un broche\", \"success and blessing\"",
+          "Get well soon – from doctors' language",
+          "A good journey – from seafaring"
+        ],
+        "explanation": "The saying wishes good luck, for example before an exam. It is probably a distortion of the Yiddish \"hatsloche un broche\" (success and blessing), which goes back to Hebrew. German speakers turned it into words that sounded similar."
+      }
+    }
+  },
+  {
+    "id": "sw14",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutete „etwas auf dem Kerbholz haben“ ursprünglich?",
+    "options": [
+      "Im Wald arbeiten",
+      "Ein Messer bei sich tragen",
+      "Schulden haben – sie wurden als Kerben in ein Holz geschnitten",
+      "Einen Baum gefällt haben"
+    ],
+    "correct_index": 2,
+    "explanation": "Mit dem Kerbholz zählte und notierte man früher Schulden als Kerben. Daher kommt die Redewendung: Sie bedeutet eigentlich „Schulden haben“ und übertragen „sich schuldig gemacht haben“. Im Mittelalter galt der Kerbstock sogar vor Gericht als Beweismittel.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kerbholz",
+    "source_url": "https://de.wikipedia.org/wiki/Kerbholz",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the German saying \"etwas auf dem Kerbholz haben\" (to have something on the tally stick) originally mean?",
+        "options": [
+          "To work in the forest",
+          "To carry a knife",
+          "To be in debt – debts were cut as notches into a piece of wood",
+          "To have felled a tree"
+        ],
+        "explanation": "Tally sticks were once used to count and record debts as notches. That is where the saying comes from: it really means \"to be in debt\" and figuratively \"to have done something wrong\". In the Middle Ages, the tally stick was even accepted as evidence in court."
+      }
+    }
+  },
+  {
+    "id": "sw15",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Althochdeutsch „tior“ bezeichnete nur wild lebende Tiere, heute meint „Tier“ alle Tiere. Wie nennt man diese Art Bedeutungswandel?",
+    "options": [
+      "Lautverschiebung",
+      "Bedeutungsverengung",
+      "Metapher",
+      "Bedeutungserweiterung"
+    ],
+    "correct_index": 3,
+    "explanation": "Wird die Bedeutung eines Wortes weiter, spricht man von Bedeutungserweiterung: Aus „wildlebendes Tier“ wurde „Tier“ für alle Arten. Andere Wörter wandeln sich durch Ähnlichkeit – die Maus vom Nagetier zum Computerzubehör ist eine Metapher.",
+    "difficulty": 3,
+    "tags": [
+      "Sprachgeschichte",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bedeutungswandel",
+    "source_url": "https://de.wikipedia.org/wiki/Bedeutungswandel",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Old High German \"tior\" meant only wild animals; today German \"Tier\" means all animals. What is this kind of change in meaning called?",
+        "options": [
+          "Sound shift",
+          "Narrowing of meaning",
+          "Metaphor",
+          "Broadening of meaning"
+        ],
+        "explanation": "If the meaning of a word becomes wider, it is called broadening: \"wild animal\" became \"animal\" for every kind. Other words change through similarity – the mouse going from rodent to computer accessory is a metaphor."
+      }
+    }
+  },
+  {
+    "id": "ag1",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie alt sind die ältesten Hinweise darauf, dass Menschen Räder zum Transport nutzten?",
+    "options": [
+      "Älter als 4000 v. Chr.",
+      "Aus der Zeit um Christi Geburt",
+      "Aus dem Mittelalter",
+      "Aus dem 18. Jahrhundert"
+    ],
+    "correct_index": 0,
+    "explanation": "Die ältesten Hinweise sind Miniaturräder aus Ton, gefunden nordwestlich des Schwarzen Meeres – bereits vor 4000 v. Chr. Ab der Mitte des 4. Jahrtausends häufen sich Wagenmodelle in ganz Europa.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Vorgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rad",
+    "source_url": "https://de.wikipedia.org/wiki/Rad",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How old is the earliest evidence that people used wheels for transport?",
+        "options": [
+          "Older than 4000 BC",
+          "From around the birth of Christ",
+          "From the Middle Ages",
+          "From the 18th century"
+        ],
+        "explanation": "The earliest evidence is miniature clay wheels found north-west of the Black Sea – from before 4000 BC. From the middle of the 4th millennium, models of wagons become frequent all over Europe."
+      }
+    }
+  },
+  {
+    "id": "ag2",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Seit wann tragen Menschen Brillen vor den Augen?",
+    "options": [
+      "Seit der Antike in Ägypten",
+      "Seit dem 13. Jahrhundert",
+      "Seit dem 19. Jahrhundert",
+      "Seit der Erfindung der Glühbirne"
+    ],
+    "correct_index": 1,
+    "explanation": "Brillen werden seit dem 13. Jahrhundert vor den Augen getragen. Meist korrigieren sie Fehlsichtigkeiten – daneben schützen Brillen auch vor Verletzungen oder grellem Licht.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brille",
+    "source_url": "https://de.wikipedia.org/wiki/Brille",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since when have people worn glasses in front of their eyes?",
+        "options": [
+          "Since antiquity in Egypt",
+          "Since the 13th century",
+          "Since the 19th century",
+          "Since the invention of the light bulb"
+        ],
+        "explanation": "Glasses have been worn in front of the eyes since the 13th century. Mostly they correct poor eyesight – they are also used to protect against injuries or glare."
+      }
+    }
+  },
+  {
+    "id": "ag3",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wem wurde 1810 die Idee patentiert, Lebensmittel nach Apperts Verfahren in Blechkanistern haltbar zu machen – die Konservendose?",
+    "options": [
+      "Louis Pasteur",
+      "Nicolas Appert",
+      "Peter Durand",
+      "Justus von Liebig"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Pariser Zuckerbäcker Nicolas Appert machte Lebensmittel in luftdicht verschlossenen Glasflaschen durch Erhitzen haltbar. Der britische Kaufmann Peter Durand setzte die Methode mit Blechkanistern um; sein Patent stammt vom 25. August 1810. Manche Berichte nennen allerdings Philippe Henri de Girard als eigentlichen Erfinder.",
+    "difficulty": 3,
+    "tags": [
+      "Erfindungen",
+      "Haushalt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Konservendose",
+    "source_url": "https://de.wikipedia.org/wiki/Konservendose",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who received a patent in 1810 for preserving food by Appert's method in tin canisters – the tin can?",
+        "options": [
+          "Louis Pasteur",
+          "Nicolas Appert",
+          "Peter Durand",
+          "Justus von Liebig"
+        ],
+        "explanation": "The Paris confectioner Nicolas Appert preserved food by heating it in airtight glass bottles. The British merchant Peter Durand applied the method to tin canisters; his patent dates from 25 August 1810. Some reports, however, name Philippe Henri de Girard as the actual inventor."
+      }
+    }
+  },
+  {
+    "id": "ag4",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer soll um 1826 das erste Streichholz erfunden haben, das sich durch Reiben entzünden ließ?",
+    "options": [
+      "Die Brüder Montgolfier",
+      "Benjamin Franklin",
+      "Thomas Alva Edison",
+      "Der englische Apotheker John Walker"
+    ],
+    "correct_index": 3,
+    "explanation": "Das erste echte Streichholz mit Reibungszündung soll der englische Apotheker John Walker um 1826 erfunden haben. Man riss den Zündkopf an gefaltetem Sandpapier an – die Hölzer waren groß, und die Köpfe brachen oft ab.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Streichholz",
+    "source_url": "https://de.wikipedia.org/wiki/Streichholz",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is said to have invented the first match that could be lit by striking, around 1826?",
+        "options": [
+          "The Montgolfier brothers",
+          "Benjamin Franklin",
+          "Thomas Alva Edison",
+          "The English chemist John Walker"
+        ],
+        "explanation": "The first real friction match is said to have been invented around 1826 by the English chemist John Walker. You struck the head on folded sandpaper – the sticks were large and the heads often broke off."
+      }
+    }
+  },
+  {
+    "id": "ag5",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Ab wann sind in Europa mechanische Räderuhren nachweisbar?",
+    "options": [
+      "Um 1300",
+      "Um 500",
+      "Um 1800",
+      "Erst im 20. Jahrhundert"
+    ],
+    "correct_index": 0,
+    "explanation": "Erste Räderuhren sind um 1300 nachweisbar: Erfurt, Augsburg und St. Gotthard in Mailand erhielten 1304/06 die ersten belegten. Sie hingen zunächst als öffentliche Uhren in Kirchen, Klöstern, Türmen und Rathäusern. Vorher maß man die Zeit mit Sonnen-, Wasser- oder Kerzenuhren.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Zeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Räderuhr",
+    "source_url": "https://de.wikipedia.org/wiki/Räderuhr",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From when are mechanical clocks with gear wheels documented in Europe?",
+        "options": [
+          "Around 1300",
+          "Around 500",
+          "Around 1800",
+          "Only in the 20th century"
+        ],
+        "explanation": "The first wheel clocks are documented around 1300: Erfurt, Augsburg and St. Gotthard in Milan received the first recorded ones in 1304/06. At first they were public clocks in churches, monasteries, towers and town halls. Before that, time was measured with sundials, water clocks or candle clocks."
+      }
+    }
+  },
+  {
+    "id": "ag6",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wem wird die Erfindung des Papiers offiziell zugeschrieben?",
+    "options": [
+      "Johannes Gutenberg",
+      "Cai Lun, einem Beamten am chinesischen Kaiserhof um 105 n. Chr.",
+      "Den alten Römern",
+      "Ägyptischen Priestern um 3000 v. Chr."
+    ],
+    "correct_index": 1,
+    "explanation": "Offiziell gilt Cai Lun als Erfinder: Um 105 n. Chr. beschrieb der Beamte am chinesischen Kaiserhof erstmals das bekannte Verfahren der Papierherstellung. Es gibt allerdings Funde aus China, die etwa auf 140 v. Chr. datiert werden.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "China"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Papier",
+    "source_url": "https://de.wikipedia.org/wiki/Papier",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is officially credited with inventing paper?",
+        "options": [
+          "Johannes Gutenberg",
+          "Cai Lun, an official at the Chinese imperial court around AD 105",
+          "The ancient Romans",
+          "Egyptian priests around 3000 BC"
+        ],
+        "explanation": "Cai Lun is officially regarded as the inventor: around AD 105, the official at the Chinese imperial court first described the known method of making paper. However, there are finds from China dated to about 140 BC."
+      }
+    }
+  },
+  {
+    "id": "ag7",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wo wurde 1708 das erste europäische Porzellan entwickelt?",
+    "options": [
+      "Im niederländischen Delft",
+      "In Venedig",
+      "In Sachsen – daraus wurde das Meissener Porzellan",
+      "In Paris"
+    ],
+    "correct_index": 2,
+    "explanation": "Meissener Porzellan wurde 1708 als erstes europäisches Porzellan entwickelt, 1710 folgte die Manufaktur. Seit 1864 wird es im sächsischen Meißen in einer eigens erbauten Manufaktur hergestellt. Ihre gekreuzten blauen Schwerter gelten als älteste noch benutzte Luxusmarke der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Kunsthandwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meissener Porzellan",
+    "source_url": "https://de.wikipedia.org/wiki/Meissener_Porzellan",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where was the first European porcelain developed in 1708?",
+        "options": [
+          "In Delft in the Netherlands",
+          "In Venice",
+          "In Saxony – it became Meissen porcelain",
+          "In Paris"
+        ],
+        "explanation": "Meissen porcelain was developed in 1708 as the first European porcelain, and the manufactory followed in 1710. Since 1864 it has been made in a purpose-built manufactory in Meissen, Saxony. Its blue crossed swords are said to be the oldest luxury brand in the world still in use."
+      }
+    }
+  },
+  {
+    "id": "ag8",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was entwickelte die Dresdnerin Melitta Bentz im Jahr 1908?",
+    "options": [
+      "Die Teebeutel-Schnur",
+      "Die Kaffeemaschine mit Strom",
+      "Den löslichen Kaffee",
+      "Den Einweg-Kaffeefilter aus Papier"
+    ],
+    "correct_index": 3,
+    "explanation": "Melitta Bentz (1873–1950) wollte den Kaffeesatz aus dem Kaffee heraushalten. Sie nahm Löschblätter aus den Schulheften ihres Sohnes – und entwickelte 1908 den vorgefertigten Einweg-Kaffeefilter.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Haushalt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Melitta Bentz",
+    "source_url": "https://de.wikipedia.org/wiki/Melitta_Bentz",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Melitta Bentz from Dresden develop in 1908?",
+        "options": [
+          "The tea bag string",
+          "The electric coffee machine",
+          "Instant coffee",
+          "The disposable paper coffee filter"
+        ],
+        "explanation": "Melitta Bentz (1873–1950) wanted to keep coffee grounds out of the coffee. She took blotting paper from her son's exercise books – and in 1908 developed the ready-made disposable coffee filter."
+      }
+    }
+  },
+  {
+    "id": "ag9",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Erfindung von Karl Drais aus dem Jahr 1817 gilt als Ur-Fahrrad?",
+    "options": [
+      "Die Laufmaschine, auch Draisine genannt",
+      "Das Hochrad",
+      "Der Kettenantrieb",
+      "Der Luftreifen"
+    ],
+    "correct_index": 0,
+    "explanation": "Drais’ bedeutendste Erfindung ist die Laufmaschine oder Draisine von 1817: Damit wurde zum ersten Mal ein gelenktes Zweirad verwirklicht.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Fahrrad"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karl von Drais",
+    "source_url": "https://de.wikipedia.org/wiki/Karl_von_Drais",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which 1817 invention by Karl Drais is regarded as the first bicycle?",
+        "options": [
+          "The running machine, also called the draisine",
+          "The penny-farthing",
+          "The chain drive",
+          "The pneumatic tyre"
+        ],
+        "explanation": "Drais's most important invention is the running machine or draisine of 1817: with it, a steerable two-wheeler was built for the first time."
+      }
+    }
+  },
+  {
+    "id": "ag10",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer erwarb schon 1878 in England ein Patent auf eine brauchbare elektrische Glühlampe – zwei Jahre vor Edison in den USA?",
+    "options": [
+      "Joseph Wilson Swan",
+      "Nikola Tesla",
+      "Werner von Siemens",
+      "Alessandro Volta"
+    ],
+    "correct_index": 0,
+    "explanation": "Der britische Physiker und Chemiker Joseph Wilson Swan baute schon 1860 eine Glühlampe mit verkohltem Papier als Faden; 1878 gelang ihm eine praktisch brauchbare. Sein englisches Patent kam zwei Jahre vor Edisons vergleichbarem Patent in den USA. Später einigten sich beide.",
+    "difficulty": 3,
+    "tags": [
+      "Erfindungen",
+      "Elektrizität"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glühlampe",
+    "source_url": "https://de.wikipedia.org/wiki/Glühlampe",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who obtained a patent in England as early as 1878 for a practical electric light bulb – two years before Edison in the USA?",
+        "options": [
+          "Joseph Wilson Swan",
+          "Nikola Tesla",
+          "Werner von Siemens",
+          "Alessandro Volta"
+        ],
+        "explanation": "The British physicist and chemist Joseph Wilson Swan built a light bulb with carbonised paper as the filament as early as 1860; in 1878 he made a practical one. His English patent came two years before Edison's comparable patent in the USA. Later the two came to an agreement."
+      }
+    }
+  },
+  {
+    "id": "ag11",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Warum wurden einheitliche Uhrzeiten nötig, statt dass jeder Ort seine eigene Zeit nach der Sonne hatte?",
+    "options": [
+      "Weil Uhren zu teuer wurden",
+      "Wegen der Eisenbahn und der Telegrafie",
+      "Wegen der ersten Flugzeuge",
+      "Weil das Radio täglich die Zeit ansagte"
+    ],
+    "correct_index": 1,
+    "explanation": "Früher richtete sich jeder Ort nach der Sonne: Stand sie im Süden am höchsten, war es 12 Uhr. Mit der Telegrafie und längeren Eisenbahnstrecken brauchte man eine einheitliche Zeit entlang der ganzen Strecke – oft die Ortszeit einer größeren Stadt.",
+    "difficulty": 2,
+    "tags": [
+      "Zeit",
+      "Eisenbahn"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zeitzone",
+    "source_url": "https://de.wikipedia.org/wiki/Zeitzone",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why did uniform times become necessary, instead of every place having its own sun time?",
+        "options": [
+          "Because clocks became too expensive",
+          "Because of the railway and the telegraph",
+          "Because of the first aeroplanes",
+          "Because the radio announced the time every day"
+        ],
+        "explanation": "Each place used to follow the sun: when it stood highest in the south, it was 12 o'clock. With the telegraph and longer railway lines, a uniform time was needed along the whole line – often the local time of a larger city."
+      }
+    }
+  },
+  {
+    "id": "ag12",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wo vereinbarten Staaten 1884, dass der Meridian von Greenwich der Nullmeridian sein soll?",
+    "options": [
+      "In Paris an der Sternwarte",
+      "In London im Parlament",
+      "In Washington, auf der Internationalen Meridiankonferenz",
+      "In Genf beim Völkerbund"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf der Internationalen Meridiankonferenz 1884 in Washington wurde Greenwich als Nullmeridian vereinbart. Daraus entstand das weltweite System von Zeitzonen – der Nullmeridian wurde Bezug für alle 25 Zeitzonen.",
+    "difficulty": 2,
+    "tags": [
+      "Zeit",
+      "Geografie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zeitzone",
+    "source_url": "https://de.wikipedia.org/wiki/Zeitzone",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did countries agree in 1884 that the Greenwich meridian should be the prime meridian?",
+        "options": [
+          "In Paris at the observatory",
+          "In London in Parliament",
+          "In Washington, at the International Meridian Conference",
+          "In Geneva at the League of Nations"
+        ],
+        "explanation": "At the International Meridian Conference in Washington in 1884, Greenwich was agreed as the prime meridian. This led to the worldwide system of time zones – the prime meridian became the reference for all 25 time zones."
+      }
+    }
+  },
+  {
+    "id": "ag13",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Über welche Zwischenstation kam die Kartoffel aus Südamerika nach Europa?",
+    "options": [
+      "Über die Arktis",
+      "Über Island",
+      "Über Indien",
+      "Über die Kanarischen Inseln"
+    ],
+    "correct_index": 3,
+    "explanation": "Wann und durch wen die Kartoffel nach Europa kam, ist nicht genau geklärt. Bekannt ist, dass sie auf dem Weg nach Spanien auf den Kanarischen Inseln Zwischenstation machte: Im November 1567 wurden Fässer mit Kartoffeln von Gran Canaria nach Antwerpen verschifft.",
+    "difficulty": 3,
+    "tags": [
+      "Alltag",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kartoffel",
+    "source_url": "https://de.wikipedia.org/wiki/Kartoffel",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Via which stopover did the potato come from South America to Europe?",
+        "options": [
+          "Via the Arctic",
+          "Via Iceland",
+          "Via India",
+          "Via the Canary Islands"
+        ],
+        "explanation": "When and by whom the potato reached Europe is not exactly known. What is known is that on its way to Spain it stopped over on the Canary Islands: in November 1567, barrels of potatoes were shipped from Gran Canaria to Antwerp."
+      }
+    }
+  },
+  {
+    "id": "ag14",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer erhielt 1873 gemeinsam das Patent auf die mit Nieten verstärkte Arbeitshose – die Jeans?",
+    "options": [
+      "Levi Strauss und der Schneider Jacob Davis",
+      "Coco Chanel und Karl Lagerfeld",
+      "Die Brüder Grimm",
+      "Henry Ford und Thomas Edison"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Idee, Hosen mit Nieten zu verstärken, hatte der Schneider Jacob Davis. Ihm fehlte das Geld für ein Patent, also wandte er sich an den Händler Levi Strauss. Patentiert wurde die Hose am 20. Mai 1873 – für beide gemeinsam. Später ersetzte blauer Denim das braune Segeltuch.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Mode"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jeans",
+    "source_url": "https://de.wikipedia.org/wiki/Jeans",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who jointly received the patent in 1873 for the work trousers reinforced with rivets – jeans?",
+        "options": [
+          "Levi Strauss and the tailor Jacob Davis",
+          "Coco Chanel and Karl Lagerfeld",
+          "The Brothers Grimm",
+          "Henry Ford and Thomas Edison"
+        ],
+        "explanation": "The idea of reinforcing trousers with rivets came from the tailor Jacob Davis. He lacked the money for a patent, so he turned to the merchant Levi Strauss. The trousers were patented on 20 May 1873 – for both of them together. Later, blue denim replaced the brown canvas."
+      }
+    }
+  },
+  {
+    "id": "ag15",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wodurch wird aus klebrigem Naturkautschuk elastisches Gummi?",
+    "options": [
+      "Durch Einfrieren",
+      "Durch Vulkanisation mit Schwefel",
+      "Durch Mischen mit Wasser",
+      "Durch Trocknen in der Sonne"
+    ],
+    "correct_index": 1,
+    "explanation": "Die klassische Vulkanisation – Naturkautschuk mit Schwefel – entwickelte Charles Goodyear 1839. Dabei vernetzen sich die Moleküle, sodass sie nicht mehr frei aneinander vorbeigleiten: Aus plastischem Kautschuk wird elastisches Gummi.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vulkanisation",
+    "source_url": "https://de.wikipedia.org/wiki/Vulkanisation",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does sticky natural rubber become elastic rubber?",
+        "options": [
+          "By freezing",
+          "By vulcanisation with sulphur",
+          "By mixing with water",
+          "By drying in the sun"
+        ],
+        "explanation": "Classic vulcanisation – natural rubber with sulphur – was developed by Charles Goodyear in 1839. The molecules become cross-linked so they can no longer slide freely past each other: plastic rubber becomes elastic rubber."
+      }
+    }
+  },
+  {
+    "id": "ku1",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Auf einem Bild mit Zentralperspektive laufen Schienen oder Straßenränder in der Ferne zusammen. Wie heißt der Punkt, in dem sie sich treffen?",
+    "options": [
+      "Fluchtpunkt",
+      "Augenpunkt der Leinwand",
+      "Goldener Schnitt",
+      "Brennpunkt"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei der Zentralperspektive werden parallele Linien, die in die Tiefe führen, als Geraden gezeichnet, die sich in einem Punkt schneiden – dem Fluchtpunkt. Das entspricht dem, wie das menschliche Auge die Umwelt abbildet, und wirkt deshalb natürlich.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Perspektive"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zentralprojektion",
+    "source_url": "https://de.wikipedia.org/wiki/Zentralprojektion",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a picture drawn in central perspective, rails or road edges converge in the distance. What is the point where they meet called?",
+        "options": [
+          "Vanishing point",
+          "Eye point of the canvas",
+          "Golden ratio",
+          "Focal point"
+        ],
+        "explanation": "In central perspective, parallel lines running into the depth are drawn as lines that meet in one point – the vanishing point. This matches how the human eye images the world, so it looks natural."
+      }
+    }
+  },
+  {
+    "id": "ku2",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was beschreibt der Goldene Schnitt, der in der Kunst häufig verwendet wird?",
+    "options": [
+      "Die genaue Mitte eines Bildes",
+      "Eine Teilung, bei der sich die längere Strecke zur kürzeren verhält wie das Ganze zur längeren",
+      "Einen goldenen Rahmen um ein Gemälde",
+      "Die Regel, dass Bilder quadratisch sein müssen"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Goldenen Schnitt wird eine Strecke so geteilt, dass sich der längere Teil zum kürzeren verhält wie die ganze Strecke zum längeren Teil. Das Konzept ist seit der Antike zur Zeit des Euklid bekannt und findet häufig Anwendung in der Kunst – es taucht aber auch in der Natur auf.",
+    "difficulty": 3,
+    "tags": [
+      "Malerei",
+      "Mathematik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Goldener Schnitt",
+    "source_url": "https://de.wikipedia.org/wiki/Goldener_Schnitt",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the golden ratio, often used in art, describe?",
+        "options": [
+          "The exact middle of a picture",
+          "A division where the longer part relates to the shorter as the whole relates to the longer",
+          "A golden frame around a painting",
+          "The rule that pictures must be square"
+        ],
+        "explanation": "With the golden ratio, a line is divided so that the longer part relates to the shorter part as the whole line relates to the longer part. The concept has been known since antiquity at the time of Euclid and is often used in art – but it also appears in nature."
+      }
+    }
+  },
+  {
+    "id": "ku3",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie nennt man die Malweise mit starken Kontrasten von Hell und Dunkel, berühmt durch Caravaggio und Rembrandt?",
+    "options": [
+      "Fresko",
+      "Pointillismus",
+      "Chiaroscuro (Hell-Dunkel-Malerei)",
+      "Trompe-l’œil"
+    ],
+    "correct_index": 2,
+    "explanation": "Chiaroscuro heißt italienisch „hell-dunkel“. Das Gestaltungsmittel aus Spätrenaissance und Barock lebt von starken Hell-Dunkel-Kontrasten: Ins Licht gerückte Figuren vor dunklem Hintergrund steigern Raumwirkung und Ausdruck. Bedeutende Vertreter sind Caravaggio und Rembrandt.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Barock"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chiaroscuro",
+    "source_url": "https://de.wikipedia.org/wiki/Chiaroscuro",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the style of painting with strong contrasts of light and dark, made famous by Caravaggio and Rembrandt, called?",
+        "options": [
+          "Fresco",
+          "Pointillism",
+          "Chiaroscuro",
+          "Trompe-l'œil"
+        ],
+        "explanation": "Chiaroscuro is Italian for \"light-dark\". This technique from the late Renaissance and Baroque thrives on strong contrasts of light and dark: figures moved into the light against a dark background heighten the sense of space and expression. Leading painters are Caravaggio and Rembrandt."
+      }
+    }
+  },
+  {
+    "id": "ku4",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist das Besondere an einem Fresko?",
+    "options": [
+      "Es wird mit Öl auf Leinwand gemalt",
+      "Es wird auf Glas gemalt",
+      "Es besteht aus kleinen Steinchen",
+      "Die Farben werden auf frischen, noch feuchten Kalkputz gemalt und verbinden sich mit ihm"
+    ],
+    "correct_index": 3,
+    "explanation": "Fresko kommt vom italienischen „a fresco“ – „ins Frische“: In Wasser angerührte Pigmente werden auf den frischen Kalkputz einer Wand oder Decke aufgetragen. Wenn der Kalk abbindet, werden die Farben stabil in den Putz eingebunden.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fresko",
+    "source_url": "https://de.wikipedia.org/wiki/Fresko",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about a fresco?",
+        "options": [
+          "It is painted in oil on canvas",
+          "It is painted on glass",
+          "It is made of small stones",
+          "The paint is applied to fresh, still damp lime plaster and binds with it"
+        ],
+        "explanation": "Fresco comes from the Italian \"a fresco\" – \"into the fresh\": pigments mixed with water are applied to the fresh lime plaster of a wall or ceiling. When the lime sets, the colours become firmly bound into the plaster."
+      }
+    }
+  },
+  {
+    "id": "ku5",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Womit wird bei der Ölmalerei die Farbe gebunden?",
+    "options": [
+      "Mit trocknendem Öl, etwa Lein-, Walnuss- oder Mohnöl",
+      "Mit Wasser und Leim",
+      "Mit Eigelb",
+      "Mit Wachs, das geschmolzen wird"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei der Ölmalerei reibt man Pigmente mit einem trocknenden Öl als Bindemittel zu Ölfarbe an – verwendet werden Lein-, Walnuss- und Mohnöl. Haltbarkeit und Farbbrillanz der Ölmalerei gelten als unübertroffen.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ölmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Ölmalerei",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In oil painting, what binds the paint?",
+        "options": [
+          "A drying oil, such as linseed, walnut or poppy-seed oil",
+          "Water and glue",
+          "Egg yolk",
+          "Melted wax"
+        ],
+        "explanation": "In oil painting, pigments are ground with a drying oil as binder to make oil paint – linseed, walnut and poppy-seed oil are used. The durability and brilliance of oil painting are considered unsurpassed."
+      }
+    }
+  },
+  {
+    "id": "ku6",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie entsteht ein Bild im Pointillismus, etwa bei Georges Seurat?",
+    "options": [
+      "Aus wenigen großen Farbflächen",
+      "Aus unzähligen winzigen Farbpunkten, die sich erst im Auge mischen",
+      "Aus aufgeklebten Zeitungsschnipseln",
+      "Durch Spritzen von Farbe auf den Boden"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Name kommt vom französischen „point“ – Punkt. Die Farbe wird in unzähligen winzigen Tupfern reiner Farbe aufgetragen, die sich erst im Auge des Betrachters mischen. Die Blütezeit lag zwischen 1889 und 1910; bekannte Vertreter sind Georges Seurat und Paul Signac.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Stilrichtungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pointillismus",
+    "source_url": "https://de.wikipedia.org/wiki/Pointillismus",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is a picture made in pointillism, for example by Georges Seurat?",
+        "options": [
+          "From a few large areas of colour",
+          "From countless tiny dots of colour that only mix in the eye",
+          "From glued-on scraps of newspaper",
+          "By splashing paint on the floor"
+        ],
+        "explanation": "The name comes from the French \"point\" – dot. The paint is applied in countless tiny dabs of pure colour that only mix in the eye of the viewer. Its heyday was between 1889 and 1910; well-known painters are Georges Seurat and Paul Signac."
+      }
+    }
+  },
+  {
+    "id": "ku7",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer gelten als die maßgebenden Gründer des Kubismus, der ab 1906 in Frankreich entstand?",
+    "options": [
+      "Salvador Dalí und René Magritte",
+      "Claude Monet und Auguste Renoir",
+      "Pablo Picasso und Georges Braque",
+      "Albrecht Dürer und Lucas Cranach"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Kubismus entstand ab 1906 in Frankreich aus der Avantgarde der Malerei. Als maßgebende Gründer gelten Pablo Picasso und Georges Braque. Zusammen mit dem Fauvismus leitete er die Klassische Moderne ein – ein eigenes Manifest hatte er nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Stilrichtungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kubismus",
+    "source_url": "https://de.wikipedia.org/wiki/Kubismus",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who are regarded as the leading founders of cubism, which arose in France from 1906?",
+        "options": [
+          "Salvador Dalí and René Magritte",
+          "Claude Monet and Auguste Renoir",
+          "Pablo Picasso and Georges Braque",
+          "Albrecht Dürer and Lucas Cranach"
+        ],
+        "explanation": "Cubism arose from 1906 in France out of the avant-garde of painting. Pablo Picasso and Georges Braque are regarded as its leading founders. Together with fauvism, it ushered in classical modernism – it had no manifesto of its own."
+      }
+    }
+  },
+  {
+    "id": "ku8",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was kennzeichnet den Surrealismus, der seit den 1920er Jahren entstand?",
+    "options": [
+      "Ausschließlich religiöse Motive",
+      "Möglichst genaue Abbildung des Alltags",
+      "Nur geometrische Formen",
+      "Traumhaftes, Unbewusstes, Absurdes und Phantastisches"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Surrealismus brach seit den 1920er Jahren mit traditionellen Normen und verarbeitete vor allem psychoanalytisch begründete Theorien. Traumhaftes, Unbewusstes, Absurdes und Phantastisches prägen seine Werke – in Literatur, Kunst und Film.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Stilrichtungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Surrealismus",
+    "source_url": "https://de.wikipedia.org/wiki/Surrealismus",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What characterises surrealism, which emerged from the 1920s?",
+        "options": [
+          "Exclusively religious subjects",
+          "Depicting everyday life as accurately as possible",
+          "Only geometric shapes",
+          "The dreamlike, the unconscious, the absurd and the fantastic"
+        ],
+        "explanation": "From the 1920s, surrealism broke with traditional norms and drew above all on theories grounded in psychoanalysis. The dreamlike, the unconscious, the absurd and the fantastic shape its works – in literature, art and film."
+      }
+    }
+  },
+  {
+    "id": "ku9",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet „Trompe-l’œil“ bei einer Wandmalerei?",
+    "options": [
+      "„Täusche das Auge“ – die Malerei gaukelt räumliche Tiefe vor",
+      "„Malerei im Freien“",
+      "„Kunst für Kinder“",
+      "„Bild ohne Farbe“"
+    ],
+    "correct_index": 0,
+    "explanation": "Trompe-l’œil ist Französisch für „täusche das Auge“. Die illusionistische Malerei täuscht mit Perspektive Dreidimensionalität vor – etwa Scheinarchitektur an Wänden und Decken. Die ältesten erhaltenen Beispiele stammen aus Pompeji.",
+    "difficulty": 1,
+    "tags": [
+      "Malerei",
+      "Perspektive"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trompe-l’œil",
+    "source_url": "https://de.wikipedia.org/wiki/Trompe-l’œil",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does \"trompe-l'œil\" mean for a mural?",
+        "options": [
+          "\"Deceive the eye\" – the painting fakes spatial depth",
+          "\"Painting outdoors\"",
+          "\"Art for children\"",
+          "\"Picture without colour\""
+        ],
+        "explanation": "Trompe-l'œil is French for \"deceive the eye\". This illusionistic painting uses perspective to fake three dimensions – for example sham architecture on walls and ceilings. The oldest surviving examples come from Pompeii."
+      }
+    }
+  },
+  {
+    "id": "ku10",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ergeben zwei Komplementärfarben, wenn man sie miteinander mischt?",
+    "options": [
+      "Eine unbunte Farbe – je nach Mischung Weiß, Grau oder Schwarz",
+      "Immer ein leuchtendes Gelb",
+      "Die Farbe Braun-Orange",
+      "Einen Regenbogen"
+    ],
+    "correct_index": 0,
+    "explanation": "Komplementärfarben treten immer zu zweit auf und ergeben miteinander gemischt eine unbunte Farbe – je nach Mischungsart Weiß, Grau oder Schwarz. Der Name kommt vom lateinischen complementum, „Ergänzung“.",
+    "difficulty": 2,
+    "tags": [
+      "Farbenlehre"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Komplementärfarbe",
+    "source_url": "https://de.wikipedia.org/wiki/Komplementärfarbe",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do two complementary colours give when mixed together?",
+        "options": [
+          "An achromatic colour – white, grey or black depending on the mixing",
+          "Always a bright yellow",
+          "A brownish orange",
+          "A rainbow"
+        ],
+        "explanation": "Complementary colours always come in pairs and, mixed together, give an achromatic colour – white, grey or black depending on the kind of mixing. The name comes from the Latin complementum, \"completion\"."
+      }
+    }
+  },
+  {
+    "id": "ku11",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was zeigt ein Stillleben?",
+    "options": [
+      "Menschen beim Sport",
+      "Unbelebte Gegenstände wie Blumen, Früchte, Gläser oder Instrumente",
+      "Eine stürmische Landschaft",
+      "Ein Porträt einer schlafenden Person"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Stillleben zeigt unbelebte oder reglose Gegenstände – Blumen, Früchte, Gläser, Instrumente –, ausgewählt nach Inhalt und Schönheit, manchmal mit symbolischer Bedeutung. Als eigene Gattung der Malerei entwickelte es sich zu Beginn des 17. Jahrhunderts im Barock.",
+    "difficulty": 1,
+    "tags": [
+      "Malerei",
+      "Barock"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stillleben",
+    "source_url": "https://de.wikipedia.org/wiki/Stillleben",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a still life show?",
+        "options": [
+          "People doing sport",
+          "Inanimate objects such as flowers, fruit, glasses or instruments",
+          "A stormy landscape",
+          "A portrait of a sleeping person"
+        ],
+        "explanation": "A still life shows inanimate or motionless objects – flowers, fruit, glasses, instruments – chosen for content and beauty, sometimes with symbolic meaning. It developed into a genre of painting in its own right at the beginning of the 17th century, in the Baroque."
+      }
+    }
+  },
+  {
+    "id": "ku12",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "„Die große Welle vor Kanagawa“ von Katsushika Hokusai ist der bekannteste japanische Druck. Wie wurde er hergestellt?",
+    "options": [
+      "Als Fotografie",
+      "Als Ölgemälde auf Leinwand",
+      "Als Farbholzschnitt",
+      "Als Mosaik aus Muscheln"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Blatt ist ein Farbholzschnitt im Stil des Ukiyo-e und das erste und bekannteste der Serie „36 Ansichten des Berges Fuji“ (1830 bis 1836). Hokusai schuf es mit etwa siebzig Jahren; es gehört zu den berühmtesten grafischen Werken der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Grafik",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die große Welle vor Kanagawa",
+    "source_url": "https://de.wikipedia.org/wiki/Die_große_Welle_vor_Kanagawa",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "\"The Great Wave off Kanagawa\" by Katsushika Hokusai is the best-known Japanese print. How was it made?",
+        "options": [
+          "As a photograph",
+          "As an oil painting on canvas",
+          "As a colour woodcut",
+          "As a mosaic of shells"
+        ],
+        "explanation": "The print is a colour woodcut in the ukiyo-e style and the first and best-known of the series \"Thirty-six Views of Mount Fuji\" (1830 to 1836). Hokusai made it at about seventy; it is one of the most famous graphic works in the world."
+      }
+    }
+  },
+  {
+    "id": "ku13",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welche Künstlergruppe des Expressionismus gründeten vier Architekturstudenten 1905 in Dresden?",
+    "options": [
+      "Die Wiener Secession",
+      "Der Blaue Reiter",
+      "Das Bauhaus",
+      "Die Brücke"
+    ],
+    "correct_index": 3,
+    "explanation": "Die „Brücke“ wurde am 7. Juni 1905 in Dresden von Ernst Ludwig Kirchner, Fritz Bleyl, Erich Heckel und Karl Schmidt-Rottluff gegründet und 1913 in Berlin aufgelöst. Sie gilt als wichtiger Vertreter des Expressionismus und als Wegbereiter der Klassischen Moderne.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Expressionismus"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brücke (Künstlergruppe)",
+    "source_url": "https://de.wikipedia.org/wiki/Brücke_(Künstlergruppe)",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which expressionist artists' group did four architecture students found in Dresden in 1905?",
+        "options": [
+          "The Vienna Secession",
+          "Der Blaue Reiter (The Blue Rider)",
+          "The Bauhaus",
+          "Die Brücke (The Bridge)"
+        ],
+        "explanation": "\"Die Brücke\" was founded in Dresden on 7 June 1905 by Ernst Ludwig Kirchner, Fritz Bleyl, Erich Heckel and Karl Schmidt-Rottluff and dissolved in Berlin in 1913. It is regarded as an important representative of expressionism and a pioneer of classical modernism."
+      }
+    }
+  },
+  {
+    "id": "ku14",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist ein „Ready-made“ in der Kunst?",
+    "options": [
+      "Ein Alltagsgegenstand, den ein Künstler zum Kunstwerk erklärt",
+      "Ein Gemälde, das in einem Tag fertig wird",
+      "Eine Kopie eines berühmten Bildes",
+      "Ein Bausatz zum Selbermalen"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Ready-made (englisch „Fertigware“) ist ein Alltags- oder Naturgegenstand, den ein Künstler „findet“ und zum Kunstwerk erklärt – etwa durch Sockel, Signatur oder neuen Namen. Bekannte Beispiele sind Marcel Duchamps „Fahrrad-Rad“ (1913) und sein Flaschentrockner (1914); das Urinal „Fountain“ (1917) hat vermutlich Elsa von Freytag-Loringhoven verwirklicht.",
+    "difficulty": 2,
+    "tags": [
+      "Moderne Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ready-made (Kunst)",
+    "source_url": "https://de.wikipedia.org/wiki/Ready-made_(Kunst)",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a \"ready-made\" in art?",
+        "options": [
+          "An everyday object that an artist declares to be a work of art",
+          "A painting finished in one day",
+          "A copy of a famous picture",
+          "A paint-it-yourself kit"
+        ],
+        "explanation": "A ready-made is an everyday or natural object that an artist \"finds\" and declares to be a work of art – for example by means of a pedestal, a signature or a new name. Well-known examples are Marcel Duchamp's \"Bicycle Wheel\" (1913) and his bottle rack (1914); the urinal \"Fountain\" (1917) was probably realised by Elsa von Freytag-Loringhoven."
+      }
+    }
+  },
+  {
+    "id": "ku15",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Woher nimmt die Pop Art, die Mitte der 1950er Jahre entstand, ihre Motive?",
+    "options": [
+      "Aus der griechischen Mythologie",
+      "Aus Alltagskultur, Konsum, Massenmedien und Werbung",
+      "Aus Träumen und dem Unbewussten",
+      "Aus mittelalterlichen Handschriften"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Pop Art entstand Mitte der 1950er Jahre unabhängig voneinander in Großbritannien und den USA. Ihre Motive stammen aus Alltagskultur, Konsum, Massenmedien und Werbung, oft fotorealistisch und stark vergrößert. Pop Art steht für „popular art“.",
+    "difficulty": 2,
+    "tags": [
+      "Moderne Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pop Art",
+    "source_url": "https://de.wikipedia.org/wiki/Pop_Art",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does pop art, which emerged in the mid-1950s, take its subjects from?",
+        "options": [
+          "From Greek mythology",
+          "From everyday culture, consumer goods, mass media and advertising",
+          "From dreams and the unconscious",
+          "From medieval manuscripts"
+        ],
+        "explanation": "Pop art emerged in the mid-1950s independently in Britain and the USA. Its subjects come from everyday culture, consumption, mass media and advertising, often photorealistic and greatly enlarged. Pop art stands for \"popular art\"."
+      }
+    }
+  },
+  {
+    "id": "mu1",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Ein Ton und der Ton eine Oktave höher: In welchem Verhältnis stehen ihre Frequenzen?",
+    "options": [
+      "3 : 2",
+      "2 : 1",
+      "4 : 3",
+      "10 : 1"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Rahmentöne einer Oktave stehen im Frequenzverhältnis 2 : 1 – der obere schwingt doppelt so schnell. Der Name kommt vom lateinischen octava, „die achte“: Die Oktave ist die achte Stufe einer Tonleiter.",
+    "difficulty": 2,
+    "tags": [
+      "Musiktheorie",
+      "Schall"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oktave",
+    "source_url": "https://de.wikipedia.org/wiki/Oktave",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A note and the note one octave higher: in what ratio are their frequencies?",
+        "options": [
+          "3 : 2",
+          "2 : 1",
+          "4 : 3",
+          "10 : 1"
+        ],
+        "explanation": "The two notes of an octave are in the frequency ratio 2 : 1 – the upper one vibrates twice as fast. The name comes from the Latin octava, \"the eighth\": the octave is the eighth step of a scale."
+      }
+    }
+  },
+  {
+    "id": "mu2",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welche Neuerung der Notenschrift geht auf den Mönch Guido von Arezzo (um 992 bis 1050) zurück?",
+    "options": [
+      "Die Zwölftonmusik",
+      "Die Erfindung des Violinschlüssels für Gitarren",
+      "Die ersten gedruckten Noten",
+      "Notenlinien im Terzabstand – zunächst vier"
+    ],
+    "correct_index": 3,
+    "explanation": "Guido von Arezzo beschrieb erstmals eine Notenschrift auf vier Linien im Terzabstand. Außerdem erläuterte er die Solmisation: Töne werden mit den Anfangssilben der Zeilen des Johannes-Hymnus „Ut queant laxis“ gesungen.",
+    "difficulty": 2,
+    "tags": [
+      "Notenschrift",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Guido von Arezzo",
+    "source_url": "https://de.wikipedia.org/wiki/Guido_von_Arezzo",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which innovation in musical notation goes back to the monk Guido of Arezzo (around 992 to 1050)?",
+        "options": [
+          "Twelve-tone music",
+          "Inventing the treble clef for guitars",
+          "The first printed sheet music",
+          "Staff lines a third apart – at first four"
+        ],
+        "explanation": "Guido of Arezzo was the first to describe a notation on four lines a third apart. He also explained solmisation: notes are sung with the first syllables of the lines of the hymn to St John \"Ut queant laxis\"."
+      }
+    }
+  },
+  {
+    "id": "mu3",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welchem Takt wird ein Walzer getanzt?",
+    "options": [
+      "Im 3/4-Takt",
+      "Im 4/4-Takt",
+      "Im 2/4-Takt",
+      "Im 7/8-Takt"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Walzer ist ein Paartanz im 3/4-Takt mit drei Schritten pro Takt, getanzt in geschlossener Haltung mit Drehungen. Er gilt als ältester der modernen Gesellschaftstänze.",
+    "difficulty": 1,
+    "tags": [
+      "Tanz",
+      "Rhythmus"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Walzer (Tanz)",
+    "source_url": "https://de.wikipedia.org/wiki/Walzer_(Tanz)",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What time signature is a waltz danced in?",
+        "options": [
+          "3/4 time",
+          "4/4 time",
+          "2/4 time",
+          "7/8 time"
+        ],
+        "explanation": "The waltz is a couple dance in 3/4 time with three steps per bar, danced in closed hold with turns. It is regarded as the oldest of the modern ballroom dances."
+      }
+    }
+  },
+  {
+    "id": "mu4",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist ein Kanon in der Musik?",
+    "options": [
+      "Ein besonders lautes Orchesterstück",
+      "Ein Stück, bei dem die Stimmen nacheinander einsetzen und dieselbe Melodie singen",
+      "Ein Lied mit nur einer einzigen Stimme",
+      "Ein Stück ohne Melodie"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Kanon setzt eine Stimme nach der anderen ein und kopiert die erste Stimme genau – meist auf gleicher Tonhöhe, nur zeitlich versetzt. Das Wort kommt aus dem Griechischen und heißt „Maßstab, Richtschnur, Regel“.",
+    "difficulty": 1,
+    "tags": [
+      "Musiktheorie",
+      "Gesang"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kanon (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Kanon_(Musik)",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a canon in music?",
+        "options": [
+          "A particularly loud orchestral piece",
+          "A piece in which the voices come in one after the other and sing the same melody",
+          "A song with only a single voice",
+          "A piece without a melody"
+        ],
+        "explanation": "In a canon, one voice after another comes in and copies the first voice exactly – usually at the same pitch, only shifted in time. The word comes from Greek and means \"measure, guideline, rule\"."
+      }
+    }
+  },
+  {
+    "id": "mu5",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Woher hat die Fuge ihren Namen, und was kennzeichnet sie?",
+    "options": [
+      "Vom Ort Fugen in Tirol – dort wurde sie erfunden",
+      "Von der Fuge zwischen zwei Steinen – sie ist besonders ruhig",
+      "Von lateinisch fuga „Flucht“ – ein Thema wird in mehreren Stimmen versetzt wiederholt",
+      "Von „fügen“ – alle Stimmen spielen genau dasselbe gleichzeitig"
+    ],
+    "correct_index": 2,
+    "explanation": "Fuge kommt vom lateinischen fuga, „Flucht“. Kennzeichnend: Ein musikalisches Thema wird in verschiedenen Stimmen zeitlich versetzt wiederholt und setzt jeweils auf unterschiedlichen Tonhöhen ein – meist abwechselnd auf dem Grundton und der Quinte. Oft geht einer Fuge ein Präludium voraus.",
+    "difficulty": 3,
+    "tags": [
+      "Musiktheorie",
+      "Barock"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fuge (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Fuge_(Musik)",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the fugue get its name, and what characterises it?",
+        "options": [
+          "From the village of Fügen in Tyrol – it was invented there",
+          "From the joint between two stones – it is particularly calm",
+          "From the Latin fuga, \"flight\" – a theme is repeated in several voices, staggered in time",
+          "From \"fitting together\" – all voices play exactly the same at the same time"
+        ],
+        "explanation": "Fugue comes from the Latin fuga, \"flight\". Characteristic: a musical theme is repeated in different voices, staggered in time, each entering at a different pitch – usually alternating between the keynote and the fifth. A fugue is often preceded by a prelude."
+      }
+    }
+  },
+  {
+    "id": "mu6",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus wie vielen Sätzen besteht eine klassische Sinfonie meist?",
+    "options": [
+      "Aus einem",
+      "Aus zwei",
+      "Aus zwölf",
+      "Aus vier"
+    ],
+    "correct_index": 3,
+    "explanation": "Die klassische Form der Sinfonie – ein Werk für Orchester aus mehreren, meist vier Sätzen – bildete sich im 18. Jahrhundert nach dem Vorbild der Sonate aus. Der Name kommt vom griechischen sýmphōnos, „zusammenklingend“.",
+    "difficulty": 2,
+    "tags": [
+      "Orchester",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sinfonie",
+    "source_url": "https://de.wikipedia.org/wiki/Sinfonie",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many movements does a classical symphony usually have?",
+        "options": [
+          "One",
+          "Two",
+          "Twelve",
+          "Four"
+        ],
+        "explanation": "The classical form of the symphony – a work for orchestra in several, usually four, movements – took shape in the 18th century on the model of the sonata. The name comes from the Greek sýmphōnos, \"sounding together\"."
+      }
+    }
+  },
+  {
+    "id": "mu7",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welches Werk gilt als erste Oper überhaupt?",
+    "options": [
+      "„La Dafne“ von Jacopo Peri, uraufgeführt 1598",
+      "„Die Zauberflöte“ von Mozart",
+      "„Carmen“ von Georges Bizet",
+      "„Aida“ von Giuseppe Verdi"
+    ],
+    "correct_index": 0,
+    "explanation": "Als erstes Werk der Gattung Oper gilt „La Dafne“ von Jacopo Peri, uraufgeführt 1598 – erhalten sind davon nur Fragmente. Die älteste erhaltene Oper ist Peris „Euridice“ aus dem Jahr 1600.",
+    "difficulty": 3,
+    "tags": [
+      "Oper",
+      "Barock"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oper",
+    "source_url": "https://de.wikipedia.org/wiki/Oper",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which work is regarded as the very first opera?",
+        "options": [
+          "\"La Dafne\" by Jacopo Peri, first performed in 1598",
+          "\"The Magic Flute\" by Mozart",
+          "\"Carmen\" by Georges Bizet",
+          "\"Aida\" by Giuseppe Verdi"
+        ],
+        "explanation": "\"La Dafne\" by Jacopo Peri, first performed in 1598, is regarded as the first work of the genre opera – only fragments of it survive. The oldest surviving opera is Peri's \"Euridice\" from 1600."
+      }
+    }
+  },
+  {
+    "id": "mu8",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Auf welche Frequenz ist der international übliche Kammerton a′ festgelegt?",
+    "options": [
+      "220 Hertz",
+      "400 Hertz",
+      "440 Hertz",
+      "1.000 Hertz"
+    ],
+    "correct_index": 2,
+    "explanation": "Seit einer internationalen Konferenz in London 1939 gilt in vielen Ländern der Standard-Kammerton a′ = 440 Hertz. Auf ihn werden die Instrumente gleich hoch eingestimmt. In deutschen und österreichischen Sinfonieorchestern sind allerdings 443 Hertz üblich, in der Schweiz 442.",
+    "difficulty": 2,
+    "tags": [
+      "Musiktheorie",
+      "Orchester"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kammerton",
+    "source_url": "https://de.wikipedia.org/wiki/Kammerton",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What frequency is the internationally common concert pitch A (a′) set to?",
+        "options": [
+          "220 hertz",
+          "400 hertz",
+          "440 hertz",
+          "1,000 hertz"
+        ],
+        "explanation": "Since an international conference in London in 1939, the standard concert pitch a′ = 440 hertz has applied in many countries. Instruments are tuned to the same pitch with it. In German and Austrian symphony orchestras, however, 443 hertz is usual, in Switzerland 442."
+      }
+    }
+  },
+  {
+    "id": "mu9",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was unterscheidet das Cembalo vom Klavier?",
+    "options": [
+      "Das Cembalo hat keine Saiten, sondern Pfeifen",
+      "Das Cembalo hat keine Tasten",
+      "Beim Cembalo werden die Saiten gezupft statt mit Hämmerchen angeschlagen",
+      "Das Cembalo ist ein elektronisches Instrument"
+    ],
+    "correct_index": 2,
+    "explanation": "Anders als beim Klavier werden die Saiten des Cembalos nicht mit Hämmerchen angeschlagen, sondern mit Plektren – sogenannten Kielen – gezupft. Der Tastendruck hat daher kaum Einfluss auf die Lautstärke. Seine Blütezeit hatte das Cembalo vom 15. bis zum 18. Jahrhundert.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cembalo",
+    "source_url": "https://de.wikipedia.org/wiki/Cembalo",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the difference between the harpsichord and the piano?",
+        "options": [
+          "The harpsichord has pipes instead of strings",
+          "The harpsichord has no keys",
+          "On the harpsichord the strings are plucked instead of struck by little hammers",
+          "The harpsichord is an electronic instrument"
+        ],
+        "explanation": "Unlike on the piano, the harpsichord's strings are not struck by little hammers but plucked with plectra – so-called quills. Pressing the keys harder therefore hardly changes the volume. The harpsichord had its heyday from the 15th to the 18th century."
+      }
+    }
+  },
+  {
+    "id": "mu10",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Warum heißt das Klavier auch „Pianoforte“?",
+    "options": [
+      "Weil es aus dem Holz der Pinie gebaut wird",
+      "Weil es in der Stadt Pianoforte erfunden wurde",
+      "Weil man damit erstmals stufenlos leise (piano) und laut (forte) spielen konnte",
+      "Weil es nur zwei Lautstärken hat"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Hammerklavier schlagen Hämmerchen auf Tastendruck gegen die Saiten. Es bot erstmals die Möglichkeit, die Lautstärke über die Anschlagstärke jederzeit stufenlos zwischen leise (piano) und laut (forte) zu verändern – beim Cembalo, dessen Saiten gezupft werden, ging das nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klavier",
+    "source_url": "https://de.wikipedia.org/wiki/Klavier",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the piano also called the \"pianoforte\"?",
+        "options": [
+          "Because it is built from pine wood",
+          "Because it was invented in a town called Pianoforte",
+          "Because for the first time you could play soft (piano) and loud (forte) with smooth transitions",
+          "Because it has only two volume levels"
+        ],
+        "explanation": "On the piano, little hammers strike the strings when a key is pressed. It was the first instrument that let the player change the volume smoothly at any time between soft (piano) and loud (forte) through the force of the touch – which was not possible on the harpsichord, whose strings are plucked."
+      }
+    }
+  },
+  {
+    "id": "mu11",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was gibt die Zahl an, die man auf einem Metronom einstellt?",
+    "options": [
+      "Wie viele Musiker mitspielen",
+      "Wie laut die Musik sein soll",
+      "In welcher Tonart man spielt",
+      "Wie oft es pro Minute schlägt"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Metronom gibt mit gleichmäßigen Schlägen ein konstantes Tempo vor. Die eingestellte Zahl sagt, wie oft es pro Minute schlägt – in „Beats per minute“ (bpm). In der klassischen Musik steht dafür M. M., kurz für „Mälzels Metronom“.",
+    "difficulty": 1,
+    "tags": [
+      "Rhythmus",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Metronom",
+    "source_url": "https://de.wikipedia.org/wiki/Metronom",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the number you set on a metronome indicate?",
+        "options": [
+          "How many musicians play along",
+          "How loud the music should be",
+          "Which key you are playing in",
+          "How many times it beats per minute"
+        ],
+        "explanation": "A metronome sets a constant tempo with even beats. The number you set says how many times it beats per minute – in beats per minute (bpm). In classical music this is written M. M., short for \"Maelzel's metronome\"."
+      }
+    }
+  },
+  {
+    "id": "mu12",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wann und wo entstand der Jazz?",
+    "options": [
+      "Um 1900 in den Südstaaten der USA",
+      "Um 1700 in Wien",
+      "Um 1950 in London",
+      "Im Mittelalter in Spanien"
+    ],
+    "correct_index": 0,
+    "explanation": "Jazz entstand ungefähr um 1900 in den Südstaaten der USA und wurde ursprünglich überwiegend von Afroamerikanern hervorgebracht. Er baut auf Blues, Gospel und Ragtime auf; einer der frühen Stile ist der New Orleans Jazz.",
+    "difficulty": 2,
+    "tags": [
+      "Musikstile",
+      "USA"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jazz",
+    "source_url": "https://de.wikipedia.org/wiki/Jazz",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When and where did jazz arise?",
+        "options": [
+          "Around 1900 in the southern states of the USA",
+          "Around 1700 in Vienna",
+          "Around 1950 in London",
+          "In the Middle Ages in Spain"
+        ],
+        "explanation": "Jazz arose around 1900 in the southern states of the USA and was originally created mainly by African Americans. It builds on blues, gospel and ragtime; one of the early styles is New Orleans jazz."
+      }
+    }
+  },
+  {
+    "id": "mu13",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist ein Gamelan?",
+    "options": [
+      "Ein japanisches Saiteninstrument",
+      "Ein traditionelles Instrumentenensemble aus Indonesien mit Bronzegongs und Metallophonen",
+      "Ein afrikanischer Tanz",
+      "Eine Trommel aus Brasilien"
+    ],
+    "correct_index": 1,
+    "explanation": "Gamelan ist der Oberbegriff für Musikensembles in Indonesien, vor allem in der traditionellen Musik Javas und Balis. Dazu gehören Buckelgongs aus Bronze und Metallophone, je nach Größe auch Trommeln, Saiteninstrumente, Flöten und Gesang. Das Wort meint die Instrumente, nicht die Musiker.",
+    "difficulty": 2,
+    "tags": [
+      "Musikstile",
+      "Asien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gamelan",
+    "source_url": "https://de.wikipedia.org/wiki/Gamelan",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a gamelan?",
+        "options": [
+          "A Japanese stringed instrument",
+          "A traditional ensemble of instruments from Indonesia with bronze gongs and metallophones",
+          "An African dance",
+          "A drum from Brazil"
+        ],
+        "explanation": "Gamelan is the general term for music ensembles in Indonesia, especially in the traditional music of Java and Bali. They include bronze gongs and metallophones and, depending on the size, drums, stringed instruments, flutes and voices. The word refers to the instruments, not the musicians."
+      }
+    }
+  },
+  {
+    "id": "mu14",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wofür ist Antonio Stradivari (gestorben 1737 in Cremona) berühmt?",
+    "options": [
+      "Als Erfinder des Klaviers",
+      "Als Komponist von Opern",
+      "Als unübertroffener Meister des Geigenbaus",
+      "Als Dirigent der ersten Sinfonie"
+    ],
+    "correct_index": 2,
+    "explanation": "Antonio Stradivari war ein italienischer Geigen- und Gitarrenbauer in Cremona, wo er 1737 starb. Er gilt als unübertroffener Meister des Geigenbaus.",
+    "difficulty": 1,
+    "tags": [
+      "Instrumente",
+      "Italien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Antonio Stradivari",
+    "source_url": "https://de.wikipedia.org/wiki/Antonio_Stradivari",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is Antonio Stradivari (died 1737 in Cremona) famous for?",
+        "options": [
+          "As the inventor of the piano",
+          "As a composer of operas",
+          "As an unsurpassed master of violin making",
+          "As the conductor of the first symphony"
+        ],
+        "explanation": "Antonio Stradivari was an Italian maker of violins and guitars in Cremona, where he died in 1737. He is regarded as the unsurpassed master of violin making."
+      }
+    }
+  },
+  {
+    "id": "mu15",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet die Tempoangabe „Allegro“ über einem Musikstück?",
+    "options": [
+      "Wiederholen",
+      "Sehr langsam",
+      "Leise",
+      "Schnell – italienisch für „rasch, munter, heiter“"
+    ],
+    "correct_index": 3,
+    "explanation": "Allegro ist Italienisch für „rasch, munter, heiter, fröhlich“. Als musikalische Tempobezeichnung bedeutet es „schnell“.",
+    "difficulty": 1,
+    "tags": [
+      "Musiktheorie",
+      "Tempo"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Allegro",
+    "source_url": "https://de.wikipedia.org/wiki/Allegro",
+    "created_at": "2026-10-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the tempo marking \"allegro\" above a piece of music mean?",
+        "options": [
+          "Repeat",
+          "Very slow",
+          "Soft",
+          "Fast – Italian for \"quick, lively, cheerful\""
+        ],
+        "explanation": "Allegro is Italian for \"quick, lively, cheerful, merry\". As a musical tempo marking it means \"fast\"."
+      }
+    }
   }
 ]
