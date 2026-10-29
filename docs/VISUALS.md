@@ -31,6 +31,8 @@ Typen heute:
 | `market` | `MarketViz` | Angebot und Nachfrage | zwei Regler verschieben die Geraden, Schnittpunkt und Erklärtext folgen |
 | `bars` | `BarsViz` | Schallgeschwindigkeit (echte Daten) | Balken antippen, absolute ↔ relative Werte („× so schnell wie in Luft“), sortieren |
 | `timeline` | `TimelineViz` | Technik-Meilensteine (echte Daten) | Ereignis antippen, Abstände einblenden, maßstabsgetreu ↔ gleiche Abstände; Beschriftungen weichen sich aus (`spreadLabels`) |
+| `chance` | `ChanceViz` | Geburtstagsparadoxon, Ziegenproblem, Münzwurf (Rechenmodell, 29.10.2026) | einmal von Hand, dann tausendmal auf Knopfdruck; ausgezählt neben berechnet; Simulation mit `Math.random`, Formeln getestet mit `seeded` |
+| `sampling` | `SamplingViz` | Wie eine KI das nächste Wort wählt (Beispielzahlen) | Temperatur-Regler formt die Wahrscheinlichkeiten um (p^(1/T)), Wörter ziehen und zählen |
 
 Lernmuster aus dem Auftrag und wo sie stecken: **Predict** (Schätzfrage, sperrt das Ausprobieren bis zur Antwort), **Manipulate/Explore** (Regler, Umschalter), **Explain** (fester Erklärtext, beim Markt zusätzlich ein Text, der auf die Reglerstellung reagiert), **Compare** (gestrichelte Ausgangslage, „vorher“-Werte), **Apply** (Aufgabe), **Recall** (verknüpfte Quizfrage).
 
