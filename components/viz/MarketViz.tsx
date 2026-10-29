@@ -8,11 +8,12 @@ import { equilibrium, formatNumber, scale, ticks, type MarketConfig } from "@/li
 const SUPPLY = "#d9772b"; // supply line; demand uses the topic colour. Both lines are also named in the picture.
 
 /** Supply and demand as two straight lines; two sliders shift them and the crossing point follows. */
-export default function MarketViz({ visual, color, locale, onChange }: VizProps) {
+export default function MarketViz({ visual, color, locale, saved, onChange }: VizProps) {
   const c = visual.config as MarketConfig;
   const L = visual.labels;
-  const [demand, setDemand] = useState(c.demandShift.value);
-  const [cost, setCost] = useState(c.costShift.value);
+  const fit = (s: MarketConfig["demandShift"], value: number | undefined) => (typeof value === "number" && Number.isFinite(value) ? Math.min(s.max, Math.max(s.min, value)) : s.value);
+  const [demand, setDemand] = useState(() => fit(c.demandShift, saved?.demand));
+  const [cost, setCost] = useState(() => fit(c.costShift, saved?.cost));
   const x = (q: number) => scale(q, 0, c.maxQuantity, X0, X1);
   const y = (p: number) => scale(p, 0, c.maxPrice, Y0, Y1);
   const base = equilibrium(c);
@@ -27,9 +28,9 @@ export default function MarketViz({ visual, color, locale, onChange }: VizProps)
   const money = (p: number) => `${formatNumber(p, locale, 2)} ${c.unit}`;
   const moved = demand !== 0 || cost !== 0;
   const text = demand !== 0 && cost !== 0 ? L.both : demand > 0 ? L.demandUp : demand < 0 ? L.demandDown : cost > 0 ? L.costUp : cost < 0 ? L.costDown : L.same;
-  const change = (set: (v: number) => void) => (v: number) => {
-    set(v);
-    onChange?.();
+  const change = (key: "demand" | "cost") => (v: number) => {
+    (key === "demand" ? setDemand : setCost)(v);
+    onChange?.({ demand, cost, [key]: v });
   };
   const arrow = (delta: number) => (Math.abs(delta) < 0.005 ? "→" : delta > 0 ? "↑" : "↓");
 
@@ -59,8 +60,8 @@ export default function MarketViz({ visual, color, locale, onChange }: VizProps)
       </div>
       <p className="min-h-[4.5rem] rounded-2xl bg-raised px-4 py-3 text-sm leading-relaxed" role="status" data-testid="viz-explain">{text}</p>
       <div className="space-y-2">
-        <Control label={L.demandShift} text={demand === 0 ? "±0" : demand > 0 ? L.more : L.less} {...c.demandShift} value={demand} onChange={change(setDemand)} color={color} ends={[L.less, L.more]} />
-        <Control label={L.costShift} text={cost === 0 ? "±0" : cost > 0 ? L.dearer : L.cheaper} {...c.costShift} value={cost} onChange={change(setCost)} color={SUPPLY} ends={[L.cheaper, L.dearer]} />
+        <Control label={L.demandShift} text={demand === 0 ? "±0" : demand > 0 ? L.more : L.less} {...c.demandShift} value={demand} onChange={change("demand")} color={color} ends={[L.less, L.more]} />
+        <Control label={L.costShift} text={cost === 0 ? "±0" : cost > 0 ? L.dearer : L.cheaper} {...c.costShift} value={cost} onChange={change("cost")} color={SUPPLY} ends={[L.cheaper, L.dearer]} />
       </div>
     </div>
   );

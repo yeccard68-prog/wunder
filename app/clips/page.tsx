@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Bookmark, Captions, CaptionsOff, Check, Ellipsis, EyeOff, ExternalLink, Flag, Heart, Info, MessageCircle, Play, Send, Share2, Volume2, VolumeX, Zap } from "lucide-react";
-import ClipPlayer from "@/components/ClipPlayer";
+import ClipPlayer, { useClipFrame } from "@/components/ClipPlayer";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import { Avatar, Button, Empty, Sheet } from "@/components/ui";
 import { categoryById } from "@/lib/categories";
@@ -38,10 +38,10 @@ function RailButton({ label, onClick, active, children, count }: { label: string
 function ClipView({ clip, index, active, near, autoplay, onActive, open, comments }: { clip: Clip; index: number; active: boolean; near: boolean; autoplay: boolean; onActive: (i: number) => void; open: (kind: SheetKind) => void; comments: boolean }) {
   const { state, update, toggle, share, trackClip } = useStore();
   const t = useT();
-  const section = useRef<HTMLElement>(null);
   const [time, setTime] = useState(0);
   const cat = categoryById(clip.categoryId);
   const { muted, captions: showCaptions } = state.settings;
+  const { card: section, words, height } = useClipFrame(true, showCaptions && clip.captions.length > 0);
   const liked = state.likes.includes(clip.id);
   const saved = state.saves.includes(clip.id);
   const watched = (state.clipStats[clip.id]?.completed ?? 0) > 0;
@@ -63,7 +63,9 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
 
   return (
     <section ref={section} data-clip-section className="relative h-full snap-start snap-always overflow-hidden bg-[#11100e] text-white" aria-label={label}>
-      <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active} mounted={near} autoplay={autoplay} muted={muted} onTime={setTime} onComplete={() => trackClip(clip.id, "complete")} onStarted={() => trackClip(clip.id, "play")} />
+      <div className="absolute inset-x-0 top-0" style={{ height: height ?? "100%" }} data-testid="clip-frame">
+        <ClipPlayer src={clip.file} poster={clip.poster} start={clip.start} end={clip.end} title={clip.title} active={active} mounted={near} autoplay={autoplay} muted={muted} onTime={setTime} onComplete={() => trackClip(clip.id, "complete")} onStarted={() => trackClip(clip.id, "play")} />
+      </div>
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-black/85 via-black/45 to-transparent" />
 
@@ -106,31 +108,33 @@ function ClipView({ clip, index, active, near, autoplay, onActive, open, comment
 
       <div className="absolute inset-x-0 bottom-0 pb-5 pl-4 pr-[4.5rem]">
         {showCaptions && caption && (
-          <p className="mb-3 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off">
+          <p className="mb-3 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">
             {caption}
           </p>
         )}
-        <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider">
-          <span className="h-1.5 w-1.5 rounded-full" style={{ background: cat.color }} />
-          {t(cat.name)}
-        </p>
-        {!hideAnswer && <p className="mt-1.5 text-[15px] font-medium leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
-        <p className="mt-1.5 truncate text-xs text-white/60">
-          {clip.creator} · {t("Quelle:")} {clip.sources[0].name}
-        </p>
-        {clip.quiz && (watched || quizDone) && (
-          <button onClick={() => open("quiz")} className="press rise mt-3 inline-flex h-10 items-center gap-2 rounded-full bg-white px-4 text-sm font-bold text-[#1a1714]">
-            {quizDone ? (
-              <>
-                <Check size={16} /> {t("Quiz gelöst")}
-              </>
-            ) : (
-              <>
-                <Zap size={16} /> {t("Kurz testen · 10 XP")}
-              </>
-            )}
-          </button>
-        )}
+        <div ref={words} data-testid="clip-text">
+          <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider">
+            <span className="h-1.5 w-1.5 rounded-full" style={{ background: cat.color }} />
+            {t(cat.name)}
+          </p>
+          {!hideAnswer && <p className="mt-1.5 text-[15px] font-medium leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
+          <p className="mt-1.5 truncate text-xs text-white/60">
+            {clip.creator} · {t("Quelle:")} {clip.sources[0].name}
+          </p>
+          {clip.quiz && (watched || quizDone) && (
+            <button onClick={() => open("quiz")} className="press rise mt-3 inline-flex h-10 items-center gap-2 rounded-full bg-white px-4 text-sm font-bold text-[#1a1714]">
+              {quizDone ? (
+                <>
+                  <Check size={16} /> {t("Quiz gelöst")}
+                </>
+              ) : (
+                <>
+                  <Zap size={16} /> {t("Kurz testen · 10 XP")}
+                </>
+              )}
+            </button>
+          )}
+        </div>
       </div>
 
       <div className="absolute inset-x-0 bottom-0 h-1 bg-white/15">

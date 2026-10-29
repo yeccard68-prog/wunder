@@ -24,6 +24,8 @@ export interface GrowthConfig {
   monthly: Slider;
   rate: Slider;
   years: Slider;
+  /** example settings from the texts, one tap each; `label` is a key in `labels` (so it is translated) */
+  presets?: { label: string; values: Partial<Record<"start" | "monthly" | "rate" | "years", number>> }[];
 }
 export interface ScatterConfig {
   /** x and y of every point; `late` points only appear after the prediction */

@@ -5,15 +5,22 @@ import { Control, DataTable, Frame, Readout, X0, X1, Y0, Y1 } from "@/components
 import type { VizProps } from "@/components/viz/types";
 import { compound, formatNumber, paidIn, scale, ticks, type GrowthConfig } from "@/lib/visuals";
 
+const KEYS = ["start", "monthly", "rate", "years"] as const;
+type Values = Record<(typeof KEYS)[number], number>;
+
 /** Saving with compound interest: four sliders, two lines (with interest / only paid in), the numbers below. */
-export default function GrowthViz({ visual, color, locale, onChange }: VizProps) {
+export default function GrowthViz({ visual, color, locale, saved, onChange }: VizProps) {
   const c = visual.config as GrowthConfig;
   const L = visual.labels;
-  const [v, setV] = useState({ start: c.start.value, monthly: c.monthly.value, rate: c.rate.value, years: c.years.value });
-  const set = (key: keyof typeof v) => (value: number) => {
-    setV((old) => ({ ...old, [key]: value }));
-    onChange?.();
+  // values kept from the last visit, held inside the slider range in case the range changed since
+  const fit = (key: keyof Values, value: number | undefined) => (typeof value === "number" && Number.isFinite(value) ? Math.min(c[key].max, Math.max(c[key].min, value)) : c[key].value);
+  const [v, setV] = useState(() => Object.fromEntries(KEYS.map((k) => [k, fit(k, saved?.[k])])) as Values);
+  const apply = (patch: Partial<Values>) => {
+    const next = { ...v, ...patch };
+    setV(next);
+    onChange?.(next);
   };
+  const set = (key: keyof Values) => (value: number) => apply({ [key]: value });
   const grown = compound(v.start, v.monthly, v.rate, v.years);
   const paid = paidIn(v.start, v.monthly, v.years);
   const top = Math.max(grown[v.years], 1);
@@ -53,6 +60,21 @@ export default function GrowthViz({ visual, color, locale, onChange }: VizProps)
         <Readout label={L.final} value={money(final)} />
       </div>
       <p className="text-center text-sm font-semibold" role="status">{L.share.replace("{pct}", String(share))}</p>
+      {c.presets && c.presets.length > 0 && (
+        <div data-testid="viz-presets">
+          <p className="mb-1.5 text-xs font-semibold text-muted">{L.presets}</p>
+          <div className="flex flex-wrap gap-1.5">
+            {c.presets.map((p) => {
+              const on = KEYS.every((k) => p.values[k] === undefined || p.values[k] === v[k]);
+              return (
+                <button key={p.label} onClick={() => apply(p.values)} aria-pressed={on} className={`press tnum rounded-full border px-3 py-1.5 text-xs font-semibold ${on ? "text-white" : "border-line bg-surface"}`} style={on ? { background: color, borderColor: color } : undefined}>
+                  {L[p.label]}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
       <div className="space-y-2">
         <Control label={L.years} text={`${v.years} ${L.yearsUnit}`} {...c.years} value={v.years} onChange={set("years")} color={color} />
         <Control label={L.monthly} text={money(v.monthly)} {...c.monthly} value={v.monthly} onChange={set("monthly")} color={color} />

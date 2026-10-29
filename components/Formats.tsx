@@ -26,13 +26,18 @@ function Order({ item, pending, done, submit }: Props) {
     [next[pos], next[pos + by]] = [next[pos + by], next[pos]];
     setOrder(next);
   };
-  const shown = done?.solution?.order ?? order;
+  const [sent, setSent] = useState<number[] | null>(null);
+  const solution = done?.solution?.order;
+  // After a wrong answer the learner's own order stays, each place marked right or wrong, and the solution follows below.
+  const mine = done && solution && !done.correct && sent;
+  const shown = mine ? sent : (solution ?? order);
+  const mark = (idx: number, pos: number) => (!done || !solution ? null : solution[pos] === idx);
   return (
     <div className="mt-5">
-      <ol className="space-y-2">
+      <ol className="space-y-2" data-testid="order-list">
         {shown.map((idx, pos) => (
-          <li key={idx} className={`flex min-h-[3.25rem] items-center gap-3 rounded-2xl border px-3.5 py-2 text-[15px] font-medium ${done ? (done.solution ? "border-good bg-good/10" : "border-line") : "border-line bg-surface"}`}>
-            <span className="tnum flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-raised text-xs font-bold text-muted">{pos + 1}</span>
+          <li key={idx} data-mark={String(mark(idx, pos))} className={`flex min-h-[3.25rem] items-center gap-3 rounded-2xl border px-3.5 py-2 text-[15px] font-medium ${mark(idx, pos) === true ? "border-good bg-good/10" : mark(idx, pos) === false ? "border-bad bg-bad/10" : done ? "border-line" : "border-line bg-surface"}`}>
+            <span className={`tnum flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold ${mark(idx, pos) === true ? "bg-good text-white" : mark(idx, pos) === false ? "bg-bad text-white" : "bg-raised text-muted"}`}>{mark(idx, pos) === false ? <X size={14} /> : pos + 1}</span>
             <span className="flex-1">{item.options[idx]}</span>
             {!done && (
               <span className="flex gap-1">
@@ -47,8 +52,21 @@ function Order({ item, pending, done, submit }: Props) {
           </li>
         ))}
       </ol>
+      {mine && (
+        <>
+          <p className="mt-4 text-sm font-semibold text-muted">{t("Richtige Reihenfolge")}</p>
+          <ol className="mt-2 space-y-1.5" data-testid="order-solution">
+            {solution.map((idx, pos) => (
+              <li key={idx} className="flex items-center gap-3 rounded-xl border border-good bg-good/10 px-3.5 py-1.5 text-[15px] font-medium">
+                <span className="tnum flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-good text-xs font-bold text-white">{pos + 1}</span>
+                {item.options[idx]}
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
       {!done && (
-        <Button className="mt-3 w-full" disabled={pending} onClick={() => submit({ order })}>
+        <Button className="mt-3 w-full" disabled={pending} onClick={() => { setSent(order); submit({ order }); }}>
           {t("Reihenfolge prüfen")}
         </Button>
       )}

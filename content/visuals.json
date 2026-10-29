@@ -31,7 +31,36 @@
         "max": 45,
         "step": 1,
         "value": 20
-      }
+      },
+      "presets": [
+        {
+          "label": "p20",
+          "values": {
+            "start": 0,
+            "monthly": 100,
+            "rate": 5,
+            "years": 20
+          }
+        },
+        {
+          "label": "p40",
+          "values": {
+            "start": 0,
+            "monthly": 100,
+            "rate": 5,
+            "years": 40
+          }
+        },
+        {
+          "label": "p200",
+          "values": {
+            "start": 0,
+            "monthly": 200,
+            "rate": 5,
+            "years": 20
+          }
+        }
+      ]
     },
     "title": "Zinseszins: Was Zeit aus Geld macht",
     "goal": "Du kannst erklären, warum beim Sparen die Laufzeit stärker wirkt als die Sparrate, und den Anteil der Zinsen am Endwert abschätzen.",
@@ -50,7 +79,11 @@
       "yearsUnit": "Jahre",
       "share": "{pct} % des Endwerts sind Zinsen.",
       "axisX": "Jahre",
-      "axisY": "Guthaben"
+      "axisY": "Guthaben",
+      "presets": "Beispiele aus den Aufgaben",
+      "p20": "100 € im Monat · 20 Jahre",
+      "p40": "100 € im Monat · 40 Jahre",
+      "p200": "200 € im Monat · 20 Jahre"
     },
     "explain": "Am Anfang verlaufen beide Linien fast gleich: Die Zinsen sind klein, weil das Guthaben klein ist. Je größer das Guthaben wird, desto mehr Zinsen kommen jedes Jahr dazu – die Kurve wird immer steiler. Deshalb bringt die zweite Hälfte der Laufzeit viel mehr als die erste.",
     "predict": {
@@ -105,7 +138,11 @@
           "yearsUnit": "years",
           "share": "{pct}% of the final value is interest.",
           "axisX": "Years",
-          "axisY": "Balance"
+          "axisY": "Balance",
+          "presets": "Examples from the tasks",
+          "p20": "100 a month · 20 years",
+          "p40": "100 a month · 40 years",
+          "p200": "200 a month · 20 years"
         },
         "explain": "At the beginning both lines run almost together: the interest is small because the balance is small. The larger the balance gets, the more interest is added every year – the curve becomes steeper and steeper. That is why the second half of the period brings much more than the first.",
         "predict": {

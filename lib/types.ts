@@ -112,6 +112,7 @@ export interface UserState {
   // book ideas: learned / saved, and for each idea recalled from memory when it is due again
   books: { read: string[]; saved: string[]; recall?: Record<string, RecallRecord> };
   visuals?: string[]; // interactive visualisations already tried (prediction made) – they move to the back of the feed
+  visualState?: Record<string, { guess?: number; values?: Record<string, number> }>; // per visualisation: the prediction and the slider values – stays on this device
   facts?: { wow: string[]; known: string[] }; // reactions to "Did you know?" cards
   signals?: import("./engagement").Signals; // what the feed learns from viewing behaviour – stays on this device
   heardFrom?: HeardFrom; // optional answer in the onboarding: where they heard of the app

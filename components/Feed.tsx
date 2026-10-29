@@ -5,7 +5,7 @@ import { Bookmark, Check, ChevronDown, Clapperboard, HelpCircle, Shapes } from "
 import AnimationPlayer from "@/components/anim/AnimationPlayer";
 import InsightCard from "@/components/books/InsightCard";
 import VisualCard from "@/components/viz";
-import ClipPlayer from "@/components/ClipPlayer";
+import ClipPlayer, { useClipFrame } from "@/components/ClipPlayer";
 import { DayCard, SeriesCard } from "@/components/DayCards";
 import HintButton from "@/components/HintButton";
 import { Sheet } from "@/components/ui";
@@ -104,28 +104,32 @@ export function ClipCard({ clip, fill }: { clip: Clip; fill?: boolean }) {
     </p>
   );
 
+  const { card, words, height: videoHeight } = useClipFrame(!!fill, state.settings.captions && clip.captions.length > 0);
+
   if (fill)
     return (
-      <article className="relative h-full overflow-hidden rounded-3xl bg-[#11100e] text-white" data-testid="feed-clip">
-        <div ref={ref} className="absolute inset-0">{player}</div>
+      <article ref={card} className="relative h-full overflow-hidden rounded-3xl bg-[#11100e] text-white" data-testid="feed-clip">
+        <div ref={ref} className="absolute inset-x-0 top-0" style={{ height: videoHeight ?? "100%" }} data-testid="clip-frame">{player}</div>
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 space-y-1.5 p-5">
           {resultBadge}
           {caption && <p className="mb-2 inline-block rounded-lg bg-black/70 px-2.5 py-1.5 text-[15px] font-semibold leading-snug" aria-live="off" data-testid="clip-caption">{caption}</p>}
-          <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} light />
-          <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{heading}</h2>
-          {!hideAnswer && <p className="text-[15px] leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
-          <p className="text-[11px] text-white/60">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""}</p>
-          <div className="pointer-events-auto flex items-center gap-2 pt-2">
-            {clip.quiz && (
-              <button onClick={() => setQuiz(true)} data-ready={ready} className={`press flex h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${ready ? "pop bg-white text-[#11100e]" : "bg-white/15 text-white backdrop-blur"}`}>
-                <HelpCircle size={17} /> {quizLabel}
+          <div ref={words} className="space-y-1.5" data-testid="clip-text">
+            <Kicker categoryId={clip.categoryId} icon={<Clapperboard size={14} />} label={t("Clip")} light />
+            <h2 className="font-display text-2xl font-semibold leading-tight drop-shadow">{heading}</h2>
+            {!hideAnswer && <p className="text-[15px] leading-snug text-white/90" data-testid="clip-takeaway">{clip.takeaway}</p>}
+            <p className="text-[11px] text-white/60">{clip.creator}{clip.license ? ` · ${t(clip.license)}` : ""}</p>
+            <div className="pointer-events-auto flex items-center gap-2 pt-2">
+              {clip.quiz && (
+                <button onClick={() => setQuiz(true)} data-ready={ready} className={`press flex h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors ${ready ? "pop bg-white text-[#11100e]" : "bg-white/15 text-white backdrop-blur"}`}>
+                  <HelpCircle size={17} /> {quizLabel}
+                </button>
+              )}
+              <button onClick={() => toggle("saves", clip)} aria-label={saved ? t("Nicht mehr merken") : t("Merken")} aria-pressed={saved} className="press flex h-11 w-11 items-center justify-center rounded-full bg-white/15 backdrop-blur">
+                <Bookmark size={19} fill={saved ? "currentColor" : "none"} />
               </button>
-            )}
-            <button onClick={() => toggle("saves", clip)} aria-label={saved ? t("Nicht mehr merken") : t("Merken")} aria-pressed={saved} className="press flex h-11 w-11 items-center justify-center rounded-full bg-white/15 backdrop-blur">
-              <Bookmark size={19} fill={saved ? "currentColor" : "none"} />
-            </button>
-            <HintButton kind="video" id={clip.id} light />
+              <HintButton kind="video" id={clip.id} light />
+            </div>
           </div>
         </div>
         <Sheet open={quiz} onClose={closeQuiz} title={t("Frage zum Clip")}>

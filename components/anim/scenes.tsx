@@ -589,7 +589,7 @@ function Portrait({ step, p, labels, portrait }: SceneProps) {
       <rect x={10} y={40} width={340} height={180} rx={10} fill="#1d1b19" />
       {world && (
         <svg x={10} y={40} width={340} height={180} viewBox={box} preserveAspectRatio="xMidYMid meet">
-          {Object.entries(world.paths).map(([iso, d]) => <path key={iso} d={d} fill={iso === portrait.iso ? YELLOW : LINE} stroke="#1d1b19" strokeWidth={0.5} vectorEffect="non-scaling-stroke" />)}
+          {[...Object.entries(world.paths), ...Object.entries(world.wrap ?? {})].map(([iso, d], i) => <path key={i} d={d} fill={iso === portrait.iso ? YELLOW : LINE} stroke="#1d1b19" strokeWidth={0.5} vectorEffect="non-scaling-stroke" />)}
           {world.dots[portrait.iso] && <circle cx={world.dots[portrait.iso][0]} cy={world.dots[portrait.iso][1]} r={4} fill={YELLOW} />}
         </svg>
       )}

@@ -1,4 +1,4 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 
 // A learner who has finished onboarding (demo mode keeps its state on the device).
 const seed = { state: { onboarded: true, username: "Test", interests: ["science", "history"], ageBand: "16+", settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de", dailyPuzzles: false } } };
@@ -20,6 +20,31 @@ test("a valid clip starts playing", async ({ page }) => {
   await expect(player).toHaveAttribute("data-paused", "false");
   await expect.poll(() => currentTime(page)).toBeGreaterThan(0.3);
   expect(await page.locator("video").first().evaluate((v: HTMLVideoElement) => v.error)).toBeNull();
+});
+
+// The clips keep their content in the top 880 of 1280 pixels; the text laid over the picture starts below that (hint #25)
+const clearOfText = async (box: Locator) => {
+  const frame = (await box.getByTestId("clip-frame").boundingBox())!;
+  const text = (await box.getByTestId("clip-text").boundingBox())!;
+  const picture = Math.min(frame.height, (frame.width * 16) / 9); // the video inside the frame (contained, at the top or centred)
+  const top = frame.y + (frame.height - picture) / 2;
+  expect(top + picture * (880 / 1280)).toBeLessThanOrEqual(text.y + 1);
+  const caption = box.getByTestId("clip-caption"); // captions may cover the lower part of the picture, not the upper
+  if (await caption.count()) expect(top + picture * (880 / 1280)).toBeLessThanOrEqual((await caption.boundingBox())!.y + 1);
+};
+
+test("full-screen clips: the important part of the picture stays above the title and buttons", async ({ page }) => {
+  await openClips(page);
+  await clearOfText(page.locator("section[data-clip-section]").first());
+  await page.goto("/");
+  const clip = page.getByTestId("feed-clip").first();
+  await expect(async () => {
+    if (!(await clip.count())) await page.getByTestId("snap-feed").evaluate((el) => el.scrollBy(0, el.clientHeight));
+    await page.waitForTimeout(300);
+    expect(await clip.count()).toBeGreaterThan(0);
+  }).toPass({ timeout: 60_000 });
+  await clip.scrollIntoViewIfNeeded();
+  await clearOfText(clip);
 });
 
 test("pause and resume work", async ({ page }) => {
@@ -305,6 +330,15 @@ test("new question formats: put in order, estimate with a slider, fill the gap",
   await expect(order.getByText("Richtig!")).toBeVisible();
   await expect(order.getByRole("button", { name: "Reihenfolge prüfen" })).toHaveCount(0); // locked after answering
 
+  // A wrong order keeps the learner's own list, marks each place, and shows the solution below (hint #28: it used to show the solution in green)
+  const planets = await find("Planeten nach ihrem Abstand", "Ordne die Planeten");
+  await planets.getByRole("button", { name: "Reihenfolge prüfen" }).click();
+  await expect(planets.getByText(/Nicht ganz/)).toBeVisible();
+  await expect(planets.getByTestId("order-list").locator("li").first()).toContainText("Mars");
+  await expect(planets.locator('[data-testid="order-list"] li[data-mark="false"]')).toHaveCount(3);
+  await expect(planets.locator('[data-testid="order-list"] li[data-mark="true"]')).toContainText("Erde");
+  await expect(planets.getByTestId("order-solution").locator("li").first()).toContainText("Merkur");
+
   const estimate = await find("Erdoberfläche", "Wie viel Prozent der Erdoberfläche");
   await estimate.getByRole("slider").fill("69");
   await estimate.getByRole("button", { name: "Schätzung abgeben" }).click();
@@ -458,6 +492,21 @@ test("interactive: compound interest – guess first, then the sliders change cu
   await card.getByText("Zahlen als Tabelle zeigen").click();
   await expect(card.getByRole("table")).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+
+  // the example settings from the texts are one tap each (hint #30)
+  const presets = card.getByTestId("viz-presets");
+  await presets.getByRole("button", { name: "100 € im Monat · 40 Jahre" }).click();
+  await expect(readout).toContainText("152.602 €");
+  await expect(presets.getByRole("button", { name: "100 € im Monat · 40 Jahre" })).toHaveAttribute("aria-pressed", "true");
+  await presets.getByRole("button", { name: "200 € im Monat · 20 Jahre" }).click();
+  await expect(readout).toContainText("82.207 €");
+
+  // coming back later: the guess and the sliders are where they were left (hint #27)
+  await page.waitForTimeout(800); // slider values are written once they rest
+  await page.reload(); // the address keeps ?v=v-zinseszins, so the same visualisation opens again
+  await expect(card).toHaveAttribute("data-revealed", "true");
+  await expect(card.getByRole("button", { name: /82\.000/ })).toHaveAttribute("aria-pressed", "true");
+  await expect(card.getByTestId("viz-readout")).toContainText("82.207 €");
 });
 
 test("interactive: planets – real data, a point can be picked, axes and law can be switched", async ({ page }) => {

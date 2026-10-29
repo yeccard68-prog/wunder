@@ -38,17 +38,36 @@ const ring = (pts) => {
   });
   return d + "Z";
 };
-const paths = {};
+const paths = {}, wrap = {};
 for (const f of world.features) {
   const iso = alpha.get(String(f.id).padStart(3, "0"));
   if (!iso) continue;
   const polys = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
-  // skip rings that wrap around the date line (they would draw a stripe across the map)
-  paths[iso] = polys.flatMap((poly) => poly.filter((r) => !r.some(([lon], i) => i && Math.abs(lon - r[i - 1][0]) > 180)).map(ring)).join("");
+  // A ring that crosses the date line (Russia's mainland, a Fiji island) would draw a stripe across the map: it is made
+  // continuous past ±180° and drawn twice – on the country's own side, running past the map edge, and as a copy past the
+  // other edge (`wrap`, drawn but not used to frame the zoomed view). The map frame cuts both.
+  // (Until 29.10.2026 such rings were left out – Russia showed only a few islands.)
+  const all = polys.flat(2);
+  const east = all.reduce((s, [lon]) => s + lon, 0) / all.length > 0;
+  const own = [], copy = [];
+  for (const r of polys.flat()) {
+    if (!r.some(([lon], i) => i && Math.abs(lon - r[i - 1][0]) > 180)) { own.push(ring(r)); continue; }
+    let shift = 0;
+    const flat = r.map(([lon, lat], i) => {
+      if (i && Math.abs(lon - r[i - 1][0]) > 180) shift += r[i - 1][0] > lon ? 360 : -360;
+      return [lon + shift, lat];
+    });
+    const mean = flat.reduce((s, [lon]) => s + lon, 0) / flat.length;
+    const side = flat.map(([lon, lat]) => [lon + (east === mean > 0 ? 0 : east ? 360 : -360), lat]);
+    own.push(ring(side));
+    copy.push(ring(side.map(([lon, lat]) => [lon + (east ? -360 : 360), lat])));
+  }
+  paths[iso] = own.join("");
+  if (copy.length) wrap[iso] = copy.join("");
 }
 const dots = Object.fromEntries([...point].filter(([iso]) => !paths[iso]));
 fs.mkdirSync("public/map", { recursive: true });
-fs.writeFileSync("public/map/world.json", JSON.stringify({ width: W, height: H, paths, dots }));
+fs.writeFileSync("public/map/world.json", JSON.stringify({ width: W, height: H, paths, wrap, dots }));
 // the countries the map quiz can ask (a shape on the map) and their continent – for wrong options nearby
 const quiz = Object.fromEntries(Object.keys(paths).filter((iso) => continent.has(iso)).sort().map((iso) => [iso, continent.get(iso)]));
 fs.writeFileSync("lib/map-countries.json", JSON.stringify(quiz));

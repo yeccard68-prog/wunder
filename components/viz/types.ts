@@ -6,5 +6,6 @@ export interface VizProps {
   color: string; // colour of the topic
   locale: string;
   revealed: boolean; // the prediction has been made (or there is none): hidden parts may be shown
-  onChange?: () => void; // the learner changed something
+  saved?: Record<string, number>; // slider values from the last visit (this device) – the picture starts where it was left
+  onChange?: (values?: Record<string, number>) => void; // the learner changed something; sliders pass all their values to keep
 }

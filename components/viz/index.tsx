@@ -3,7 +3,7 @@
 // Registry of visualisation types and the card every visualisation is shown in.
 // A new type = one component here + its config type in lib/visuals.ts. A new topic of an existing
 // type = one entry in content/visuals.json. See docs/VISUALS.md.
-import { lazy, Suspense, useState, type ComponentType } from "react";
+import { lazy, Suspense, useEffect, useRef, useState, type ComponentType } from "react";
 import Link from "next/link";
 import { BookOpen, Check, ExternalLink, FlaskConical, Hand, Lightbulb, Shapes, Target, X } from "lucide-react";
 import KnowledgeCard from "@/components/KnowledgeCard";
@@ -12,6 +12,7 @@ import { track } from "@/lib/analytics";
 import HintButton from "@/components/HintButton";
 import { categoryById } from "@/lib/categories";
 import { useStore, useT } from "@/lib/store";
+import type { UserState } from "@/lib/types";
 import { KIND_NAME, TYPE_NAME, type Visual, type VisualType } from "@/lib/visuals";
 
 /** type → component. Loaded only when a visualisation of that type is shown. */
@@ -30,11 +31,28 @@ export const VIZ: Record<VisualType, ComponentType<VizProps>> = {
  */
 export default function VisualCard({ visual, titles = {} }: { visual: Visual; titles?: Record<string, string> }) {
   const t = useT();
-  const { state, items, update } = useStore();
+  const { state, items, update, getState } = useStore();
   const color = categoryById(visual.categoryId).color;
   const Viz = VIZ[visual.type];
-  const [guess, setGuess] = useState<number | null>(null);
+  // the prediction and the slider values from the last visit (hint #27: it used to start from scratch every time)
+  const kept = state.visualState?.[visual.id];
+  const [guess, setGuess] = useState<number | null>(() => (typeof kept?.guess === "number" && kept.guess < (visual.predict?.options.length ?? 0) ? kept.guess : null));
   const [touched, setTouched] = useState(false);
+  const keep = (patch: { guess?: number; values?: Record<string, number> }, extra: Partial<UserState> = {}) => {
+    const all = getState().visualState ?? {};
+    update({ ...extra, visualState: { ...all, [visual.id]: { ...all[visual.id], ...patch } } });
+  };
+  // sliders fire many times a second: write once they rest, and when the card leaves the screen
+  const pending = useRef<Record<string, number> | null>(null);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const flush = useRef(() => {});
+  flush.current = () => {
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = null;
+    if (pending.current) keep({ values: pending.current });
+    pending.current = null;
+  };
+  useEffect(() => () => flush.current(), []);
   const revealed = !visual.predict || guess !== null;
   const question = visual.links.filter((l) => l.kind === "question").map((l) => items.find((i) => i.id === l.id)).find((i) => !!i);
   const label = "mb-1 flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider";
@@ -42,11 +60,16 @@ export default function VisualCard({ visual, titles = {} }: { visual: Visual; ti
     if (guess !== null) return;
     setGuess(i);
     track("visual_predict", visual.id, "visual");
-    if (!(state.visuals ?? []).includes(visual.id)) update({ visuals: [...(state.visuals ?? []), visual.id] });
+    const tried = getState().visuals ?? [];
+    keep({ guess: i }, tried.includes(visual.id) ? {} : { visuals: [...tried, visual.id] });
   };
-  const changed = () => {
+  const changed = (values?: Record<string, number>) => {
     if (!touched) track("visual_explore", visual.id, "visual");
     setTouched(true);
+    if (!values) return;
+    pending.current = values;
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = setTimeout(() => flush.current(), 600);
   };
 
   return (
@@ -89,7 +112,7 @@ export default function VisualCard({ visual, titles = {} }: { visual: Visual; ti
       <section className={revealed ? "space-y-3" : "pointer-events-none space-y-3 opacity-40"} aria-hidden={!revealed} inert={!revealed}>
         <p className="text-[15px] leading-relaxed">{visual.intro}</p>
         <Suspense fallback={<div role="status" aria-label={t("Lädt …")} className="mx-auto h-10 w-10 animate-spin rounded-full border-[3px] border-line border-t-ink" />}>
-          <Viz visual={visual} color={color} locale={state.settings.locale} revealed={revealed} onChange={changed} />
+          <Viz visual={visual} color={color} locale={state.settings.locale} revealed={revealed} saved={kept?.values} onChange={changed} />
         </Suspense>
       </section>
 

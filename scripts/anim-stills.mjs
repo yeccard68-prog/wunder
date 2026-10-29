@@ -9,7 +9,9 @@ import fs from "node:fs";
 const [base, id] = process.argv.slice(2);
 const a = JSON.parse(fs.readFileSync("content/animations.json", "utf8")).find((x) => x.id === id);
 fs.mkdirSync("public/anim-stills", { recursive: true });
-const browser = await chromium.launch({ channel: "msedge", args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
+// GPU=1 renders on the graphics card: the animation then runs in real time, so the moments below are the ones meant
+// (software rendering is slower than the clock, and the scene falls behind)
+const browser = await chromium.launch({ channel: "msedge", args: process.env.GPU ? ["--use-angle=d3d11", "--enable-gpu", "--ignore-gpu-blocklist"] : ["--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
 const page = await browser.newPage({ viewport: { width: 420, height: 900 } });
 await page.goto(base + "/");
 await page.getByRole("button", { name: /Los geht/ }).click();
@@ -44,11 +46,21 @@ for (let n = 1; n <= a.steps.length; n++) {
     await page.getByTestId("predict").getByRole("button").first().click();
     await page.getByTestId("predict").getByRole("button", { name: "Weiter" }).click({ timeout: 1500 }).catch(() => {});
   }
-  // play a little into the step – except the last one: played to its end, the animation makes way for the check question
+  // play a little into the step; the last one nearly to its end (where it usually shows the result) – played to the
+  // very end, the animation would make way for the check question
   const last = n === a.steps.length;
-  if (!last) await page.getByRole("button", { name: "Abspielen" }).click({ timeout: 1500 }).catch(() => {});
-  await page.waitForTimeout(last ? 1500 : 3000);
-  if (!last) await page.getByRole("button", { name: "Pause" }).click({ timeout: 1500 }).catch(() => {});
+  const paced = Math.max(3.6, (a.steps[n - 1].seconds ?? 6) * (a.timing?.pace ?? 0.7));
+  await page.getByRole("button", { name: "Abspielen" }).click({ timeout: 1500 }).catch(() => {});
+  // a prediction may also stop the player only once it reaches the step: answer it and play on
+  await page.waitForTimeout(600);
+  if ((await player.getAttribute("data-asking")) === "true") {
+    // a right guess plays on by itself, a wrong one through "Weiter" – no waiting for a button that is not there
+    await page.getByTestId("predict").getByRole("button").first().click();
+    const go = page.getByTestId("predict").getByRole("button", { name: "Weiter" });
+    if (await go.count()) await go.click();
+  }
+  await page.waitForTimeout(last ? paced * 800 : 3000);
+  await page.getByRole("button", { name: "Pause" }).click({ timeout: 1500 }).catch(() => {});
   await page.getByTestId("stage-3d").screenshot({ path: `public/anim-stills/${id}-${n - 1}.jpg`, type: "jpeg", quality: 72 });
 }
 await browser.close();

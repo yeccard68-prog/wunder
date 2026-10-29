@@ -41,6 +41,22 @@ test("compound interest: the numbers shown are right", () => {
   assert.ok(compound(0, 200, 5, 20)[20] < compound(0, 100, 5, 40)[40]); // the task: doubling the time beats doubling the rate
 });
 
+test("example settings: each one is a slider position that exists, and is named in every language", () => {
+  for (const v of visualRows.filter((x) => x.type === "growth")) {
+    const c = v.config as GrowthConfig;
+    for (const p of c.presets ?? []) {
+      assert.ok(v.labels[p.label] && v.translations.en.labels[p.label] && v.labels.presets, `${v.id}: ${p.label} named`);
+      for (const [k, value] of Object.entries(p.values)) {
+        const s = c[k as keyof typeof p.values];
+        assert.ok(s.min <= value! && value! <= s.max && Number.isInteger(Math.round((value! - s.min) / s.step * 1e6) / 1e6), `${v.id}: ${p.label}.${k} on the slider`);
+      }
+    }
+  }
+  // the compound interest examples are exactly the settings its prediction and task talk about
+  const z = visualRows.find((v) => v.id === "v-zinseszins")!.config as GrowthConfig;
+  assert.deepEqual(z.presets!.map((p) => [p.values.monthly, p.values.rate, p.values.years]), [[100, 5, 20], [100, 5, 40], [200, 5, 20]]);
+});
+
 test("supply and demand: the crossing point moves the way the texts say", () => {
   const c = visualRows.find((v) => v.id === "v-angebot-nachfrage")!.config as MarketConfig;
   const base = equilibrium(c);

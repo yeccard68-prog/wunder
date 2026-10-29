@@ -10,6 +10,39 @@ export const STALL_MS = 15000;
 
 type Status = "loading" | "ready" | "error";
 
+/** The clips keep everything important in the top 880 of their 1280 pixels (video/src/theme.tsx SAFE_BOTTOM). */
+const SAFE = 880 / 1280;
+/** Two lines of a caption bubble and the gap below it. */
+const CAPTION_ROOM = 64;
+
+/**
+ * Full-screen clip with text laid over its lower part: below the safe line the captions may cover the picture, but not
+ * the title, the key message and the buttons. On a short screen that text reaches higher, so the picture gets smaller
+ * (and moves to the top) until its important part ends above the text (hint #25: the timeline sat behind the title).
+ * `card`: the full-screen box, `words`: the text over the picture, `captions`: room for two caption lines above it is kept
+ * free too. `height`: for the box around the player, null = all.
+ */
+export function useClipFrame(enabled = true, captions = false) {
+  const card = useRef<HTMLElement>(null);
+  const words = useRef<HTMLDivElement>(null);
+  const [height, setHeight] = useState<number | null>(null);
+  useEffect(() => {
+    const box = card.current, text = words.current;
+    if (!enabled || !box || !text) return;
+    const fit = () => {
+      const free = text.getBoundingClientRect().top - box.getBoundingClientRect().top - (captions ? CAPTION_ROOM : 0);
+      const tall = Math.min(box.clientHeight, (box.clientWidth * 16) / 9, free / SAFE);
+      setHeight(tall < box.clientHeight - 1 ? Math.round(tall) : null);
+    };
+    fit();
+    const watch = new ResizeObserver(fit);
+    watch.observe(box);
+    watch.observe(text);
+    return () => watch.disconnect();
+  }, [enabled, captions]);
+  return { card, words, height };
+}
+
 /**
  * Video player for one clip in the feed. Shows the preview image and a spinner while loading,
  * a play button when paused, and an explanation with a retry button when the file cannot be

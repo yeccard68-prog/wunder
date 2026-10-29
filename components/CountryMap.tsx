@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { useT } from "@/lib/store";
 
-export type World = { width: number; height: number; paths: Record<string, string>; dots: Record<string, [number, number]> };
+/** wrap: the part of a shape across the date line, repeated past the other edge of the map (drawn, not used for framing) */
+export type World = { width: number; height: number; paths: Record<string, string>; wrap?: Record<string, string>; dots: Record<string, [number, number]> };
 let cache: Promise<World | null> | null = null;
 /** The map file (public/map/world.json, ~100 KB) is loaded once, the first time a card needs it. */
 export const loadWorld = () => (cache ??= fetch("/map/world.json").then((r) => (r.ok ? r.json() : null)).catch(() => null));
@@ -12,7 +13,8 @@ export const loadWorld = () => (cache ??= fetch("/map/world.json").then((r) => (
 export function around(world: World, isos: string[], min = 4): string {
   const xs: number[] = [], ys: number[] = [];
   for (const iso of isos) {
-    for (const m of (world.paths[iso] ?? "").matchAll(/(-?[\d.]+),(-?[\d.]+)/g)) { xs.push(+m[1]); ys.push(+m[2]); }
+    // a shape across the date line runs past the map edge (Russia's far east): only the part on the map counts
+    for (const m of (world.paths[iso] ?? "").matchAll(/(-?[\d.]+),(-?[\d.]+)/g)) { xs.push(Math.min(world.width, Math.max(0, +m[1]))); ys.push(+m[2]); }
     if (world.dots[iso]) { xs.push(world.dots[iso][0]); ys.push(world.dots[iso][1]); }
   }
   if (!xs.length) return `0 0 ${world.width} ${world.height}`;
@@ -46,8 +48,8 @@ export default function CountryMap({ countries, zoom = false }: { countries: str
   if (!known.length) return null;
   return (
     <svg viewBox={zoom ? around(world, known) : `0 0 ${world.width} ${world.height}`} role="img" aria-label={zoom ? t("Karte") : t("Karte: {list}", { list: known.join(", ") })} className="mt-3 w-full rounded-xl bg-surface" data-testid="country-map">
-      {Object.entries(world.paths).map(([iso, d]) => (
-        <path key={iso} d={d} fill={known.includes(iso) ? "var(--accent)" : "var(--line)"} stroke="var(--surface)" strokeWidth={0.6} />
+      {[...Object.entries(world.paths), ...Object.entries(world.wrap ?? {})].map(([iso, d], i) => (
+        <path key={i} d={d} fill={known.includes(iso) ? "var(--accent)" : "var(--line)"} stroke="var(--surface)" strokeWidth={0.6} />
       ))}
       {known.filter((iso) => world.dots[iso]).map((iso) => (
         <circle key={iso} cx={world.dots[iso][0]} cy={world.dots[iso][1]} r={7} fill="var(--accent)" stroke="var(--surface)" strokeWidth={2} />
