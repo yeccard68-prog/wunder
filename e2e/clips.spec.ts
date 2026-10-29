@@ -473,7 +473,7 @@ test("an account set up for a children's age band is asked for the age again", a
 test("interactive: compound interest – guess first, then the sliders change curve and numbers", async ({ page }) => {
   await signIn(page);
   await page.goto("/lab/");
-  await expect(page.getByTestId("visual-row")).toHaveCount(6);
+  await expect(page.getByTestId("visual-row")).toHaveCount(10);
   await page.getByRole("button", { name: /Zinseszins/ }).click();
   const card = page.getByTestId("visual-card");
   await expect(card).toHaveAttribute("data-revealed", "false");
@@ -507,6 +507,46 @@ test("interactive: compound interest – guess first, then the sliders change cu
   await expect(card).toHaveAttribute("data-revealed", "true");
   await expect(card.getByRole("button", { name: /82\.000/ })).toHaveAttribute("aria-pressed", "true");
   await expect(card.getByTestId("viz-readout")).toContainText("82.207 €");
+});
+
+test("interactive: chance experiments – by hand once, then a thousand times; the next word follows the temperature", async ({ page }) => {
+  await signIn(page);
+  const card = page.getByTestId("visual-card");
+
+  await page.goto("/lab/?v=v-ziegen");
+  await card.getByRole("button", { name: "Zu Tür 2 wechseln" }).click();
+  await expect(card).toHaveAttribute("data-revealed", "true");
+  await card.getByRole("button", { name: /^Tür 1/ }).click();
+  await expect(card.getByText(/steht eine Ziege. Bleibst du/)).toBeVisible();
+  await card.getByRole("button", { name: "Wechseln", exact: true }).click();
+  await expect(card.getByText(/Gewonnen|Leider eine Ziege/)).toBeVisible();
+  await expect(card.getByTestId("viz-readout")).toContainText(/von 1 gewonnen/);
+  await card.getByTestId("viz-simulate").click();
+  await expect(card.getByTestId("viz-readout")).toContainText("von 1.001 gewonnen");
+  await expect(card.getByTestId("viz-readout")).toContainText("von 1.000 gewonnen");
+
+  await page.goto("/lab/?v=v-geburtstag");
+  await card.getByRole("button", { name: "Etwa 70 %" }).click();
+  await card.getByRole("slider", { name: "Menschen in der Gruppe" }).fill("30");
+  await expect(card.getByTestId("viz-readout")).toContainText("70,6 %");
+  await card.getByTestId("viz-simulate").click();
+  await expect(card.getByTestId("viz-readout")).toContainText("ausgezählt in 1.000 Gruppen");
+  await card.getByRole("button", { name: "Eine Gruppe auslosen" }).click();
+  await expect(card.getByTestId("viz-group")).toContainText(/Doppelt|Kein Geburtstag doppelt/);
+
+  await page.goto("/lab/?v=v-muenzwurf");
+  await card.getByRole("button", { name: "5 bis 8 Würfe" }).click();
+  await card.getByTestId("viz-simulate").click();
+  await expect(card.getByTestId("viz-readout")).toContainText("von 1.000 Würfen");
+
+  await page.goto("/lab/?v=v-naechstes-wort");
+  await card.getByRole("button", { name: "Fast immer das wahrscheinlichste" }).click();
+  await card.getByRole("slider", { name: "Temperatur" }).fill("0.2");
+  await expect(card.locator("[data-word=kino]")).toContainText("99 %");
+  await card.getByTestId("viz-simulate").click();
+  await expect(card.getByTestId("viz-readout")).toContainText("20 Wörter gezogen");
+  await expect(card.getByTestId("viz-sentence")).toContainText("Am Wochenende gehen wir ins");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 
 test("interactive: planets – real data, a point can be picked, axes and law can be switched", async ({ page }) => {

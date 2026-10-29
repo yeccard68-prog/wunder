@@ -959,5 +959,6 @@
   "Was folgt?": "What follows?",
   "Reihenfolge": "Order",
   "Jede Zahl steht in jeder Zeile und Spalte genau einmal. Die Zeichen < und > zwischen zwei Feldern müssen stimmen.": "Every number appears exactly once in each row and column. The signs < and > between two cells must hold.",
-  "Richtige Reihenfolge": "Right order"
+  "Richtige Reihenfolge": "Right order",
+  "Zufallsexperiment": "Chance experiment"
 }

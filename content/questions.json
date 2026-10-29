@@ -36442,5 +36442,1123 @@
         "explanation": "Safari comes from the Swahili word safari, \"journey\" – which in turn goes back to the Arabic safar, \"journey\"."
       }
     }
+  },
+  {
+    "id": "dk1",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Auf ein außergewöhnlich gutes Ergebnis folgt beim nächsten Mal oft ein schwächeres – ohne dass sich etwas geändert hat. Wie heißt dieser Effekt?",
+    "options": [
+      "Spielerfehlschluss",
+      "Gesetz der großen Zahlen",
+      "Ankereffekt",
+      "Regression zur Mitte"
+    ],
+    "correct_index": 3,
+    "explanation": "Regression zur Mitte: Spielt der Zufall mit, liegt nach einem extremen Messwert die nächste Messung wahrscheinlich wieder näher am Durchschnitt. Wer das übersieht, sieht leicht eine Ursache, wo nur Zufall wirkt.",
+    "difficulty": 2,
+    "tags": [
+      "Denkfallen",
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Regression zur Mitte",
+    "source_url": "https://de.wikipedia.org/wiki/Regression_zur_Mitte",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An unusually good result is often followed by a weaker one next time – although nothing has changed. What is this effect called?",
+        "options": [
+          "Gambler's fallacy",
+          "Law of large numbers",
+          "Anchoring effect",
+          "Regression to the mean"
+        ],
+        "explanation": "Regression to the mean: if chance plays a part, the measurement after an extreme value is likely to be closer to the average again. Overlooking this makes people see a cause where there is only chance."
+      }
+    }
+  },
+  {
+    "id": "dk2",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Ratgeber untersucht nur erfolgreiche Firmen und leitet daraus Erfolgsrezepte ab. Welcher Denkfehler droht?",
+    "options": [
+      "Survivorship Bias – die Gescheiterten fehlen in der Auswertung",
+      "Ankereffekt",
+      "Framing-Effekt",
+      "Regression zur Mitte"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Survivorship Bias (Überlebenden-Irrtum) werden Erfolgschancen überschätzt, weil Erfolgreiche eher in einer Statistik auftauchen als Gescheiterte. Firmen, die mit denselben Rezepten gescheitert sind, kommen in der Auswertung gar nicht vor.",
+    "difficulty": 2,
+    "tags": [
+      "Denkfallen",
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Survivorship Bias",
+    "source_url": "https://de.wikipedia.org/wiki/Survivorship_Bias",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A guidebook studies only successful companies and derives recipes for success from them. Which thinking error threatens?",
+        "options": [
+          "Survivorship bias – the failures are missing from the analysis",
+          "Anchoring effect",
+          "Framing effect",
+          "Regression to the mean"
+        ],
+        "explanation": "With survivorship bias, the chances of success are overestimated because successful cases are more likely to appear in statistics than failures. Companies that failed with the same recipes do not appear in the analysis at all."
+      }
+    }
+  },
+  {
+    "id": "dk3",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie heißt die Neigung, Informationen so zu suchen und zu deuten, dass sie die eigene Erwartung bestätigen?",
+    "options": [
+      "Regression zur Mitte",
+      "Bestätigungsfehler",
+      "Scheinkorrelation",
+      "Prävalenzfehler"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Bestätigungsfehler (englisch confirmation bias) ist die Neigung, Informationen so zu ermitteln, auszuwählen und zu interpretieren, dass sie die eigenen Erwartungen erfüllen. Er gilt als Grundlage vieler weiterer Urteilsfehler.",
+    "difficulty": 1,
+    "tags": [
+      "Denkfallen",
+      "Psychologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bestätigungsfehler",
+    "source_url": "https://de.wikipedia.org/wiki/Bestätigungsfehler",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the tendency to look for and interpret information so that it confirms what you already expect called?",
+        "options": [
+          "Regression to the mean",
+          "Confirmation bias",
+          "Spurious correlation",
+          "Base rate fallacy"
+        ],
+        "explanation": "Confirmation bias is the tendency to gather, select and interpret information so that it fulfils one's own expectations. It is seen as the basis of many other errors of judgement."
+      }
+    }
+  },
+  {
+    "id": "dk4",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Kurz bevor Menschen einen Preis schätzen, sehen sie eine hohe, völlig unwichtige Zahl – und schätzen danach höher. Wie heißt der Effekt?",
+    "options": [
+      "Bestätigungsfehler",
+      "Framing-Effekt",
+      "Ankereffekt",
+      "Survivorship Bias"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Ankereffekt lenkt eine Information aus der Umgebung – der „Anker“ – die Entscheidung, ohne dass man es merkt. Das gilt selbst dann, wenn sie für die Entscheidung eigentlich irrelevant ist: Das Urteil verschiebt sich in Richtung des Ankers.",
+    "difficulty": 2,
+    "tags": [
+      "Denkfallen",
+      "Psychologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ankereffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Ankereffekt",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Just before people estimate a price, they see a high, completely irrelevant number – and then estimate higher. What is this effect called?",
+        "options": [
+          "Confirmation bias",
+          "Framing effect",
+          "Anchoring effect",
+          "Survivorship bias"
+        ],
+        "explanation": "With the anchoring effect, information from the surroundings – the \"anchor\" – steers a decision without people noticing. This happens even when the information is actually irrelevant to the decision: the judgement shifts towards the anchor."
+      }
+    }
+  },
+  {
+    "id": "dk5",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Zwei Formulierungen sagen inhaltlich genau dasselbe, beeinflussen aber das Verhalten unterschiedlich. Wie heißt dieser Effekt?",
+    "options": [
+      "Gesetz der großen Zahlen",
+      "Ankereffekt",
+      "Regression zur Mitte",
+      "Framing-Effekt"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Framing-Effekt (deutsch „Rahmungseffekt“) beeinflussen unterschiedliche Formulierungen einer Botschaft bei gleichem Inhalt das Verhalten. Mit der Theorie der rationalen Entscheidung lässt sich das nicht erklären.",
+    "difficulty": 2,
+    "tags": [
+      "Denkfallen",
+      "Psychologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Framing-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Framing-Effekt",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Two wordings say exactly the same thing, but influence behaviour differently. What is this effect called?",
+        "options": [
+          "Law of large numbers",
+          "Anchoring effect",
+          "Regression to the mean",
+          "Framing effect"
+        ],
+        "explanation": "With the framing effect, different wordings of a message with the same content influence behaviour differently. The theory of rational choice cannot explain this."
+      }
+    }
+  },
+  {
+    "id": "dk6",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Du hast eine Konzertkarte gekauft, die du nicht zurückgeben kannst, und hast keine Lust mehr. Welche Rolle sollte der Kaufpreis bei der Entscheidung spielen, ob du hingehst?",
+    "options": [
+      "Keine – er ist versunken und kommt so oder so nicht zurück",
+      "Eine große – sonst war das Geld verschwendet",
+      "Man sollte eine zweite Karte kaufen",
+      "Er zählt doppelt, weil er schon bezahlt ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Versunkene Kosten (englisch sunk cost) sind ausgegeben und lassen sich durch keine künftige Entscheidung zurückholen. Vernünftigerweise dürfen sie für Entscheidungen über die Zukunft nicht zählen – das Geld ist weg, ob du hingehst oder nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Denkfallen",
+      "Entscheidungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Versunkene Kosten",
+    "source_url": "https://de.wikipedia.org/wiki/Versunkene_Kosten",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "You bought a concert ticket that you cannot return, and you no longer feel like going. What part should the price play in deciding whether to go?",
+        "options": [
+          "None – it is sunk and will not come back either way",
+          "A big one – otherwise the money was wasted",
+          "You should buy a second ticket",
+          "It counts double because it is already paid"
+        ],
+        "explanation": "Sunk costs have been spent and cannot be recovered by any future decision. Rationally, they must not count in decisions about the future – the money is gone whether you go or not."
+      }
+    }
+  },
+  {
+    "id": "dk7",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was zeigt das Simpson-Paradoxon?",
+    "options": [
+      "Zwei Zufallsereignisse heben sich immer gegenseitig auf",
+      "Ein Vergleich kann für Teilgruppen anders ausfallen als für alle zusammen",
+      "Kleine Stichproben sind immer genauer als große",
+      "Ein Mittelwert ist immer größer als der Median"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Simpson-Paradoxon fällt die Bewertung von Gruppen unterschiedlich aus, je nachdem, ob man die Ergebnisse zusammenfasst oder getrennt betrachtet. Ursache sind Störvariablen, die in der Auswertung nicht beachtet werden.",
+    "difficulty": 3,
+    "tags": [
+      "Denkfallen",
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Simpson-Paradoxon",
+    "source_url": "https://de.wikipedia.org/wiki/Simpson-Paradoxon",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Simpson's paradox show?",
+        "options": [
+          "Two random events always cancel each other out",
+          "A comparison can come out differently for subgroups than for everyone together",
+          "Small samples are always more accurate than large ones",
+          "An average is always larger than the median"
+        ],
+        "explanation": "In Simpson's paradox, groups are rated differently depending on whether their results are combined or looked at separately. The cause is confounding variables that the analysis does not take into account."
+      }
+    }
+  },
+  {
+    "id": "dk8",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was passiert laut dem Gesetz der großen Zahlen, wenn man eine faire Münze sehr oft wirft?",
+    "options": [
+      "Kopf und Zahl kommen am Ende genau gleich oft",
+      "Nach vielen Kopf-Würfen muss bald Zahl kommen",
+      "Der Anteil von Kopf pendelt sich in der Regel bei der Hälfte ein",
+      "Der Anteil von Kopf wird immer kleiner"
+    ],
+    "correct_index": 2,
+    "explanation": "Wird ein Zufallsexperiment immer wieder unter gleichen Bedingungen durchgeführt, stabilisiert sich die relative Häufigkeit in der Regel um die Wahrscheinlichkeit – hier ein Halb. Aber nicht gleichmäßig: Auch nach vielen Würfen gibt es Ausreißer.",
+    "difficulty": 1,
+    "tags": [
+      "Wahrscheinlichkeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gesetz der großen Zahlen",
+    "source_url": "https://de.wikipedia.org/wiki/Gesetz_der_großen_Zahlen",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the law of large numbers, what happens when you toss a fair coin very many times?",
+        "options": [
+          "Heads and tails end up exactly equally often",
+          "After many heads, tails must come soon",
+          "The share of heads usually settles at about half",
+          "The share of heads keeps getting smaller"
+        ],
+        "explanation": "If a random experiment is repeated again and again under the same conditions, the relative frequency usually settles around the probability – here one half. But not evenly: even after many tosses there are outliers."
+      }
+    }
+  },
+  {
+    "id": "dk9",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Zinssatz steigt von 2 % auf 3 %. Wie beschreibt man das richtig?",
+    "options": [
+      "Er bleibt fast gleich",
+      "Er steigt um ein Prozent",
+      "Er steigt um drei Prozentpunkte",
+      "Er steigt um einen Prozentpunkt"
+    ],
+    "correct_index": 3,
+    "explanation": "Der absolute Unterschied zwischen zwei Prozentangaben heißt Prozentpunkt: Von 2 % auf 3 % ist ein Prozentpunkt mehr. Relativ gerechnet ist der Zinssatz dagegen um die Hälfte gestiegen – „um ein Prozent“ wäre also falsch.",
+    "difficulty": 2,
+    "tags": [
+      "Prozente",
+      "Zahlen in den Medien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prozentpunkt",
+    "source_url": "https://de.wikipedia.org/wiki/Prozentpunkt",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An interest rate rises from 2% to 3%. How do you describe this correctly?",
+        "options": [
+          "It stays almost the same",
+          "It rises by one percent",
+          "It rises by three percentage points",
+          "It rises by one percentage point"
+        ],
+        "explanation": "The absolute difference between two percentages is called a percentage point: from 2% to 3% is one percentage point more. In relative terms, however, the rate has risen by half – so \"by one percent\" would be wrong."
+      }
+    }
+  },
+  {
+    "id": "dk10",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Neun Menschen verdienen etwa gleich viel, die zehnte Person ist Millionärin. Welcher Wert beschreibt das typische Einkommen besser?",
+    "options": [
+      "Das arithmetische Mittel (Durchschnitt)",
+      "Der Median",
+      "Das höchste Einkommen",
+      "Die Summe aller Einkommen"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Median ist der Wert in der Mitte, wenn man alle Werte der Größe nach ordnet – bei 1, 1, 2, 4, 37 also die 2. Eine wichtige Eigenschaft ist seine Robustheit gegenüber Ausreißern: Ein einzelner riesiger Wert verschiebt ihn kaum, den Durchschnitt dagegen stark.",
+    "difficulty": 2,
+    "tags": [
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Median",
+    "source_url": "https://de.wikipedia.org/wiki/Median",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Nine people earn about the same, the tenth person is a millionaire. Which value describes the typical income better?",
+        "options": [
+          "The arithmetic mean (average)",
+          "The median",
+          "The highest income",
+          "The sum of all incomes"
+        ],
+        "explanation": "The median is the value in the middle when all values are sorted by size – for 1, 1, 2, 4, 37 it is the 2. An important property is its robustness against outliers: a single huge value hardly moves it, while it moves the average a lot."
+      }
+    }
+  },
+  {
+    "id": "dk11",
+    "kind": "question",
+    "category_id": "math",
+    "question": "In vielen echten Datensammlungen, etwa den Einwohnerzahlen von Städten: Wie oft beginnt eine Zahl mit der Ziffer 1?",
+    "options": [
+      "In etwa 5 % der Fälle",
+      "In etwa 11 % der Fälle – wie jede Ziffer",
+      "In etwa 30 % der Fälle",
+      "In etwa der Hälfte der Fälle"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Benfordsche Gesetz: Je kleiner die Anfangsziffer, desto häufiger kommt sie vor – die 1 steht in etwa 30,1 % der Fälle vorne. Beobachten lässt sich das etwa bei Einwohnerzahlen, Geldbeträgen in der Buchhaltung und Naturkonstanten.",
+    "difficulty": 3,
+    "tags": [
+      "Zahlen",
+      "Statistik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Benfordsches Gesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Benfordsches_Gesetz",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In many real collections of data, such as the populations of cities: how often does a number start with the digit 1?",
+        "options": [
+          "In about 5% of cases",
+          "In about 11% of cases – like every digit",
+          "In about 30% of cases",
+          "In about half of the cases"
+        ],
+        "explanation": "Benford's law: the smaller the leading digit, the more often it occurs – 1 comes first in about 30.1% of cases. It can be observed in city populations, amounts in accounting and natural constants, for example."
+      }
+    }
+  },
+  {
+    "id": "dk12",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welchen Fehler macht, wer eine bedingte Wahrscheinlichkeit schätzt, ohne zu beachten, wie häufig etwas überhaupt vorkommt?",
+    "options": [
+      "Den Ankereffekt",
+      "Den Spielerfehlschluss",
+      "Das Simpson-Paradoxon",
+      "Den Prävalenzfehler (Basisratenfehler)"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Prävalenzfehler wird eine bedingte Wahrscheinlichkeit ohne Rücksicht auf die Grundhäufigkeit bestimmt. Diese Prävalenz heißt auch Basisrate – deshalb spricht man auch vom Basisratenfehler (englisch base rate fallacy).",
+    "difficulty": 3,
+    "tags": [
+      "Denkfallen",
+      "Wahrscheinlichkeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prävalenzfehler",
+    "source_url": "https://de.wikipedia.org/wiki/Prävalenzfehler",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which error do you make if you estimate a conditional probability without considering how common something is in the first place?",
+        "options": [
+          "The anchoring effect",
+          "The gambler's fallacy",
+          "Simpson's paradox",
+          "The base rate fallacy"
+        ],
+        "explanation": "The base rate fallacy means determining a conditional probability without regard to how common the thing is overall. This prevalence is also called the base rate – hence the name base rate fallacy."
+      }
+    }
+  },
+  {
+    "id": "dk13",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele verschiedene Tipps gibt es beim Lotto „6 aus 49“ (ohne Superzahl)?",
+    "options": [
+      "1.000.000",
+      "2.118.760",
+      "13.983.816",
+      "117.649"
+    ],
+    "correct_index": 2,
+    "explanation": "Man wählt 6 von 49 Zahlen ohne Reihenfolge: 49! / (6! · (49 − 6)!) = 13.983.816 Möglichkeiten. Mit der Superzahl sind es zehnmal so viele, also 139.838.160.",
+    "difficulty": 2,
+    "tags": [
+      "Wahrscheinlichkeit",
+      "Kombinatorik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lotto",
+    "source_url": "https://de.wikipedia.org/wiki/Lotto",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many different tickets are there in the German lottery \"6 out of 49\" (without the bonus number)?",
+        "options": [
+          "1,000,000",
+          "2,118,760",
+          "13,983,816",
+          "117,649"
+        ],
+        "explanation": "You choose 6 of 49 numbers regardless of order: 49! / (6! · (49 − 6)!) = 13,983,816 possibilities. With the bonus number (Superzahl) there are ten times as many, 139,838,160."
+      }
+    }
+  },
+  {
+    "id": "dk14",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie heißt der Fehlschluss „Es geschah gleichzeitig, also ist das eine die Ursache des anderen“?",
+    "options": [
+      "Ad hominem",
+      "Cum hoc ergo propter hoc",
+      "Ceteris paribus",
+      "Pars pro toto"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Scheinkorrelation ist ein Zusammenhang zwischen zwei Größen, dem kein Kausalzusammenhang zugrunde liegt, sondern nur eine zufällige oder indirekte Beziehung. Sie ist die statistische Entsprechung des Fehlschlusses „Cum hoc ergo propter hoc“ (lateinisch: mit diesem, also deswegen).",
+    "difficulty": 2,
+    "tags": [
+      "Denkfallen",
+      "Logik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Scheinkorrelation",
+    "source_url": "https://de.wikipedia.org/wiki/Scheinkorrelation",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the fallacy \"it happened at the same time, so one caused the other\" called?",
+        "options": [
+          "Ad hominem",
+          "Cum hoc ergo propter hoc",
+          "Ceteris paribus",
+          "Pars pro toto"
+        ],
+        "explanation": "A spurious correlation is a connection between two quantities that rests not on cause and effect but only on a random or indirect relationship. It is the statistical counterpart of the fallacy \"cum hoc ergo propter hoc\" (Latin: with this, therefore because of this)."
+      }
+    }
+  },
+  {
+    "id": "ki1",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie erzeugt ein großes Sprachmodell (Large Language Model) seinen Text?",
+    "options": [
+      "Es hat aus sehr vielen Texten gelernt, welche Wörter wahrscheinlich aufeinander folgen",
+      "Es schlägt jede Antwort in einer festen Liste nach",
+      "Im Hintergrund tippen Menschen die Antworten",
+      "Es kopiert immer einen passenden Artikel aus dem Internet"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein großes Sprachmodell ist ein Wahrscheinlichkeitsmodell: In einem rechenintensiven Training hat es statistische Beziehungen zwischen Wort- und Satzfolgen aus einer Vielzahl von Texten erlernt. Damit erzeugt es neuen Text.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Sprachmodelle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Large Language Model",
+    "source_url": "https://de.wikipedia.org/wiki/Large_Language_Model",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a large language model produce its text?",
+        "options": [
+          "It has learned from huge amounts of text which words are likely to follow each other",
+          "It looks up every answer in a fixed list",
+          "People type the answers in the background",
+          "It always copies a suitable article from the internet"
+        ],
+        "explanation": "A large language model is a probability model: in computing-intensive training it has learned statistical relationships between sequences of words and sentences from a great many texts. It uses them to produce new text."
+      }
+    }
+  },
+  {
+    "id": "ki2",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist beim überwachten Lernen (supervised learning) das Besondere an den Trainingsdaten?",
+    "options": [
+      "Sie werden während des Trainings ständig gelöscht",
+      "Zu jeder Eingabe ist die passende Antwort angegeben",
+      "Sie bestehen nur aus Zahlen zwischen 0 und 1",
+      "Niemand weiß, was in ihnen steckt"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim überwachten Lernen enthalten die Datensätze zu jeder Eingabe einen passenden Ausgabewert – sie sind „gelabelt“. Beispiel: Bilder von Katzen und Hunden, bei denen ein Mensch zu jedem Bild notiert hat, was darauf zu sehen ist.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Maschinelles Lernen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Überwachtes Lernen",
+    "source_url": "https://de.wikipedia.org/wiki/Überwachtes_Lernen",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In supervised learning, what is special about the training data?",
+        "options": [
+          "It is constantly deleted during training",
+          "The right answer is given for every input",
+          "It consists only of numbers between 0 and 1",
+          "Nobody knows what is in it"
+        ],
+        "explanation": "In supervised learning, the data sets contain a matching output value for every input – they are \"labelled\". Example: pictures of cats and dogs where a person has noted for each picture what it shows."
+      }
+    }
+  },
+  {
+    "id": "ki3",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie lernt ein KI-Agent beim bestärkenden Lernen (reinforcement learning)?",
+    "options": [
+      "Indem ein Mensch jeden Schritt vorgibt",
+      "Indem er fertige Antworten auswendig lernt",
+      "Durch Versuch und Irrtum – er sammelt möglichst viele Belohnungen",
+      "Gar nicht – er bleibt immer gleich"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim bestärkenden Lernen führt ein KI-Agent selbstständig Aktionen in einer Umgebung aus. Durch Versuch und Irrtum lernt er eine Strategie, die die Summe der erhaltenen Belohnungen maximiert. Der Begriff stammt aus der Psychologie.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Maschinelles Lernen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bestärkendes Lernen",
+    "source_url": "https://de.wikipedia.org/wiki/Bestärkendes_Lernen",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does an AI agent learn in reinforcement learning?",
+        "options": [
+          "By having a person dictate every step",
+          "By memorising ready-made answers",
+          "By trial and error – it collects as many rewards as possible",
+          "Not at all – it always stays the same"
+        ],
+        "explanation": "In reinforcement learning, an AI agent carries out actions in an environment on its own. By trial and error it learns a strategy that maximises the sum of the rewards it receives. The term comes from psychology."
+      }
+    }
+  },
+  {
+    "id": "ki4",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches einfache künstliche neuronale Netz stellte Frank Rosenblatt 1957 vor?",
+    "options": [
+      "Die Suchmaschine",
+      "Den Transistor",
+      "Den Turing-Test",
+      "Das Perzeptron"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Perzeptron (nach englisch perception, „Wahrnehmung“) besteht in der Grundversion aus einem einzigen künstlichen Neuron mit anpassbaren Gewichten und einem Schwellenwert. Frank Rosenblatt stellte es 1957 vor.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Geschichte der KI"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Perzeptron",
+    "source_url": "https://de.wikipedia.org/wiki/Perzeptron",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which simple artificial neural network did Frank Rosenblatt present in 1957?",
+        "options": [
+          "The search engine",
+          "The transistor",
+          "The Turing test",
+          "The perceptron"
+        ],
+        "explanation": "In its basic form, the perceptron (from \"perception\") consists of a single artificial neuron with adjustable weights and a threshold. Frank Rosenblatt presented it in 1957."
+      }
+    }
+  },
+  {
+    "id": "ki5",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist am Deep Learning „tief“?",
+    "options": [
+      "Das neuronale Netz hat viele Zwischenschichten",
+      "Die Rechner stehen tief unter der Erde",
+      "Es lernt nur nachts",
+      "Es kann nur sehr lange Texte lesen"
+    ],
+    "correct_index": 0,
+    "explanation": "Deep Learning nutzt künstliche neuronale Netze mit zahlreichen Zwischenschichten (englisch hidden layers) zwischen Eingabe- und Ausgabeschicht. So entsteht eine umfangreiche innere Struktur, die selbst abstrakte Merkmale aus den Daten herausholt.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Neuronale Netze"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Deep Learning",
+    "source_url": "https://de.wikipedia.org/wiki/Deep_Learning",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is \"deep\" about deep learning?",
+        "options": [
+          "The neural network has many intermediate layers",
+          "The computers are deep underground",
+          "It only learns at night",
+          "It can only read very long texts"
+        ],
+        "explanation": "Deep learning uses artificial neural networks with numerous intermediate layers (hidden layers) between the input and output layers. This creates an extensive internal structure that extracts even abstract features from the data."
+      }
+    }
+  },
+  {
+    "id": "ki6",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wozu dient Backpropagation (Fehlerrückführung)?",
+    "options": [
+      "Zum Komprimieren von Videos",
+      "Zum Trainieren künstlicher neuronaler Netze",
+      "Zum Verschlüsseln von Passwörtern",
+      "Zum Sichern von Daten in der Cloud"
+    ],
+    "correct_index": 1,
+    "explanation": "Backpropagation ist ein verbreitetes Verfahren zum Einlernen künstlicher neuronaler Netze. Vereinfacht: Der Fehler am Ausgang wird rückwärts durch das Netz verteilt, und die Gewichte werden so angepasst, dass er kleiner wird – ein Spezialfall des Gradientenverfahrens.",
+    "difficulty": 3,
+    "tags": [
+      "KI",
+      "Neuronale Netze"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Backpropagation",
+    "source_url": "https://de.wikipedia.org/wiki/Backpropagation",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is backpropagation used for?",
+        "options": [
+          "Compressing videos",
+          "Training artificial neural networks",
+          "Encrypting passwords",
+          "Backing up data in the cloud"
+        ],
+        "explanation": "Backpropagation is a widely used method for training artificial neural networks. Put simply, the error at the output is passed backwards through the network, and the weights are adjusted so that it becomes smaller – a special case of gradient descent."
+      }
+    }
+  },
+  {
+    "id": "ki7",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Ein Modell passt perfekt zu seinen Trainingsdaten, liegt bei neuen Daten aber oft daneben. Wie heißt das?",
+    "options": [
+      "Datenschutz",
+      "Halluzination",
+      "Überanpassung (Overfitting)",
+      "Komprimierung"
+    ],
+    "correct_index": 2,
+    "explanation": "Überanpassung (englisch overfitting): Das Modell bildet einen bestimmten Datensatz zu genau ab – samt zufälligem Rauschen – und versagt deshalb bei weiteren Daten oder Vorhersagen. Es hat gewissermaßen auswendig gelernt statt verstanden.",
+    "difficulty": 3,
+    "tags": [
+      "KI",
+      "Maschinelles Lernen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia (englisch): Overfitting",
+    "source_url": "https://en.wikipedia.org/wiki/Overfitting",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A model fits its training data perfectly but is often wrong on new data. What is this called?",
+        "options": [
+          "Data protection",
+          "Hallucination",
+          "Overfitting",
+          "Compression"
+        ],
+        "explanation": "Overfitting: the model matches a particular data set too closely – including random noise – and therefore fails on further data or predictions. In a sense it has memorised instead of understood."
+      }
+    }
+  },
+  {
+    "id": "ki8",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie hieß das Computerprogramm aus den Jahren 1964 bis 1966, das im Gespräch einen Psychotherapeuten nachahmte?",
+    "options": [
+      "Z3",
+      "Deep Blue",
+      "Siri",
+      "ELIZA"
+    ],
+    "correct_index": 3,
+    "explanation": "ELIZA sollte zeigen, wie Mensch und Computer über natürliche Sprache kommunizieren können. Bekannt wurde es mit dem Skript „DOCTOR“, einer oberflächlichen Simulation eines Psychotherapeuten.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Geschichte der KI"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: ELIZA",
+    "source_url": "https://de.wikipedia.org/wiki/ELIZA",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the name of the computer program from 1964 to 1966 that imitated a psychotherapist in conversation?",
+        "options": [
+          "Z3",
+          "Deep Blue",
+          "Siri",
+          "ELIZA"
+        ],
+        "explanation": "ELIZA was meant to show how people and computers can communicate in natural language. It became known for its \"DOCTOR\" script, a superficial simulation of a psychotherapist."
+      }
+    }
+  },
+  {
+    "id": "ki9",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches Ereignis gilt als Geburtsstunde der Künstlichen Intelligenz als Forschungsgebiet?",
+    "options": [
+      "Eine Sommerkonferenz am Dartmouth College im Jahr 1956",
+      "Die erste Mondlandung 1969",
+      "Der Start des World Wide Web 1989",
+      "Die Erfindung des Buchdrucks"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Dartmouth Conference fand im Sommer 1956 vom 19. Juni bis zum 16. August am Dartmouth College in Hanover (New Hampshire) statt. Ihr voller Name: Dartmouth Summer Research Project on Artificial Intelligence.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Geschichte der KI"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dartmouth Conference",
+    "source_url": "https://de.wikipedia.org/wiki/Dartmouth_Conference",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which event is regarded as the birth of artificial intelligence as a field of research?",
+        "options": [
+          "A summer conference at Dartmouth College in 1956",
+          "The first moon landing in 1969",
+          "The launch of the World Wide Web in 1989",
+          "The invention of printing"
+        ],
+        "explanation": "The Dartmouth Conference took place in summer 1956, from 19 June to 16 August, at Dartmouth College in Hanover, New Hampshire. Its full name: Dartmouth Summer Research Project on Artificial Intelligence."
+      }
+    }
+  },
+  {
+    "id": "ki10",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was nennt man einen „KI-Winter“?",
+    "options": [
+      "Eine Zeit, in der Geld und Interesse für KI-Forschung stark zurückgehen",
+      "Eine KI, die das Wetter vorhersagt",
+      "Den Stromverbrauch von Rechenzentren im Winter",
+      "Eine Pause, in der KI-Systeme abgeschaltet werden"
+    ],
+    "correct_index": 0,
+    "explanation": "Als KI-Winter bezeichnet man Phasen, in denen öffentliche und private Forschungsförderung und Investitionen in KI stark zurückgehen – meist nach überzogenen Erwartungen. Das gilt als Beispiel für das „Tal der Enttäuschungen“ im Hype-Zyklus.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Geschichte der KI"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: KI-Winter",
+    "source_url": "https://de.wikipedia.org/wiki/KI-Winter",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an \"AI winter\"?",
+        "options": [
+          "A time when money and interest for AI research drop sharply",
+          "An AI that forecasts the weather",
+          "The power use of data centres in winter",
+          "A break in which AI systems are switched off"
+        ],
+        "explanation": "AI winters are phases in which public and private research funding and investment in AI drop sharply – usually after exaggerated expectations. They are an example of the \"trough of disillusionment\" in the hype cycle."
+      }
+    }
+  },
+  {
+    "id": "ki11",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wozu dient ein Captcha, etwa das Abtippen verzerrter Buchstaben auf einer Website?",
+    "options": [
+      "Es misst die Tippgeschwindigkeit",
+      "Es soll prüfen, ob ein Mensch oder ein Programm die Eingabe macht",
+      "Es speichert das Passwort",
+      "Es übersetzt die Website"
+    ],
+    "correct_index": 1,
+    "explanation": "Captcha steht für „completely automated public Turing test to tell computers and humans apart“ – ein vollautomatischer Turing-Test, der Menschen von Computern unterscheiden soll. Er schützt etwa Internetformulare vor Bots.",
+    "difficulty": 1,
+    "tags": [
+      "KI",
+      "Internet"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Captcha",
+    "source_url": "https://de.wikipedia.org/wiki/Captcha",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a captcha, such as typing distorted letters on a website, for?",
+        "options": [
+          "To measure typing speed",
+          "To check whether a person or a program is making the entry",
+          "To store the password",
+          "To translate the website"
+        ],
+        "explanation": "Captcha stands for \"completely automated public Turing test to tell computers and humans apart\". It protects, for example, web forms against bots."
+      }
+    }
+  },
+  {
+    "id": "ki12",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was unterscheidet ein generatives KI-Modell von einem, das Daten nur einordnet?",
+    "options": [
+      "Es kann ausschließlich rechnen",
+      "Es arbeitet nur ohne Strom",
+      "Es erzeugt neue Inhalte wie Texte, Bilder oder Programmcode",
+      "Es braucht keine Trainingsdaten"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein generatives KI-Modell lernt Muster und Strukturen aus Trainingsdaten und erzeugt daraus neue Inhalte, etwa Texte, Bilder, Audio, Video oder Programmcode. Diskriminative Modelle dagegen ordnen vorhandene Daten ein oder grenzen sie voneinander ab.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Sprachmodelle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Generatives KI-Modell",
+    "source_url": "https://de.wikipedia.org/wiki/Generatives_KI-Modell",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What distinguishes a generative AI model from one that only classifies data?",
+        "options": [
+          "It can only do arithmetic",
+          "It works only without electricity",
+          "It creates new content such as texts, pictures or program code",
+          "It needs no training data"
+        ],
+        "explanation": "A generative AI model learns patterns and structures from training data and uses them to create new content, such as text, images, audio, video or program code. Discriminative models, in contrast, classify existing data or tell it apart."
+      }
+    }
+  },
+  {
+    "id": "ki13",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bewirkt bei der Textausgabe eines Sprachmodells eine höhere „Temperatur“?",
+    "options": [
+      "Der Rechner wird heiß und schaltet ab",
+      "Das Modell rechnet schneller",
+      "Die Antworten werden kürzer",
+      "Die Wortwahl wird zufälliger und vielfältiger"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Temperatur verteilt die Wahrscheinlichkeiten für das nächste Wort um: Je höher sie ist, desto gleichmäßiger wird die Verteilung – die Ausgabe wird „zufälliger“. Bei niedriger Temperatur gewinnt fast immer das wahrscheinlichste Wort.",
+    "difficulty": 3,
+    "tags": [
+      "KI",
+      "Sprachmodelle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia (englisch): Softmax function",
+    "source_url": "https://en.wikipedia.org/wiki/Softmax_function",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When a language model produces text, what does a higher \"temperature\" do?",
+        "options": [
+          "The computer gets hot and switches off",
+          "The model calculates faster",
+          "The answers become shorter",
+          "The choice of words becomes more random and varied"
+        ],
+        "explanation": "Temperature reshapes the probabilities for the next word: the higher it is, the more uniform the distribution – the output becomes \"more random\". At a low temperature the most likely word almost always wins."
+      }
+    }
+  },
+  {
+    "id": "ki14",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum kann ein KI-System unfaire Ergebnisse liefern, obwohl niemand das beabsichtigt hat?",
+    "options": [
+      "Es kann Verzerrungen aus den Daten übernehmen, mit denen es trainiert wurde",
+      "Weil Computer absichtlich lügen",
+      "Weil KI grundsätzlich zufällig entscheidet",
+      "Das ist unmöglich – Rechner sind immer neutral"
+    ],
+    "correct_index": 0,
+    "explanation": "Algorithmische Verzerrung (englisch algorithmic bias) kann viele Ursachen haben – auch ungewollte: wie Daten erfasst, ausgewählt oder zum Training genutzt werden. Beobachtet wurde sie etwa bei Suchergebnissen und in sozialen Medien.",
+    "difficulty": 2,
+    "tags": [
+      "KI",
+      "Gesellschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia (englisch): Algorithmic bias",
+    "source_url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can an AI system produce unfair results even though nobody intended it?",
+        "options": [
+          "It can take on distortions from the data it was trained on",
+          "Because computers lie on purpose",
+          "Because AI always decides at random",
+          "That is impossible – computers are always neutral"
+        ],
+        "explanation": "Algorithmic bias can have many causes – including unintended ones: how data is collected, selected or used for training. It has been observed in search results and on social media, for example."
+      }
+    }
   }
 ]

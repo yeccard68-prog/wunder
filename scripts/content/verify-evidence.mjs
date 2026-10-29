@@ -155,6 +155,44 @@ if (batch.videos) {
   process.exit(bad ? 1 : 0);
 }
 
+// question batches (rows as in apply-batch.mjs) with `evidence` keyed by question id: every question needs a quote from
+// its own article (more articles may back it up), each found word for word; every year and every number of the right
+// answer must appear in a quote, so nothing on screen goes unchecked
+if (batch.questions && !batch.facts) {
+  const known = new Set(JSON.parse(fs.readFileSync("content/questions.json", "utf8")).map((q) => q.id));
+  const isNewQ = !batch.questions.some((r) => known.has(r[0]));
+  let bad = 0;
+  for (const row of batch.questions) {
+    const [id, category, difficulty, minAge, , question, options, correct, explanation, wiki, enQ, enO, enE] = row;
+    const problems = [];
+    const quotes = evidence[id] ?? [];
+    if (!CATEGORIES.includes(category)) problems.push(`category "${category}" is not one of ${CATEGORIES.join(", ")}`);
+    if (isNewQ && known.has(id)) problems.push(`id ${id} already exists`);
+    if (![1, 2, 3].includes(difficulty) || ![6, 10, 13, 16].includes(minAge)) problems.push("difficulty 1–3, minAge 6/10/13/16");
+    if (!Array.isArray(options) || options.length < 3 || options.length > 5 || new Set(options).size !== options.length) problems.push("3–5 different options");
+    if (!Array.isArray(enO) || enO.length !== options.length) problems.push("English options missing or a different number");
+    if (!(correct >= 0 && correct < options.length)) problems.push("correct index out of range");
+    if (![question, explanation, enQ, enE].every((s) => typeof s === "string" && s.trim().length > 10)) problems.push("question/explanation missing in German or English");
+    if (!quotes.length) problems.push("no evidence");
+    const [ownLang, ownTitle] = wiki.startsWith("en:") ? ["en", wiki.slice(3)] : ["de", wiki];
+    if (!quotes.some((q) => q.split("|")[0] === ownLang && q.split("|")[1] === ownTitle)) problems.push(`no quote from its own article ${wiki}`);
+    for (const q of quotes) {
+      const [lang, title, ...rest] = q.split("|");
+      const quote = rest.join("|");
+      if (quote.trim().split(/\s+/).length < 3) problems.push(`quote too short: "${quote}"`);
+      const t = await article(lang, title);
+      if (t === null) problems.push(`article not found: ${lang}|${title}`);
+      else if (!t.includes(norm(quote))) problems.push(`not in ${title}: "${quote}"`);
+    }
+    const quoted = digitsOf(quotes.join(" "));
+    const shown = [question, options[correct], explanation].join(" ");
+    for (const n of new Set(shown.match(/\d[\d.,]*\d|\d/g) ?? [])) if (n.replace(/[.,]/g, "").length >= 2 && !quoted.includes(digitsOf(n))) problems.push(`number ${n} is shown but not quoted`);
+    if (problems.length) { bad++; console.log(`FAIL ${id}\n  - ${problems.join("\n  - ")}`); } else console.log(`ok   ${id} (${quotes.length} quote${quotes.length === 1 ? "" : "s"})`);
+  }
+  console.log(`${batch.questions.length - bad} of ${batch.questions.length} questions confirmed.`);
+  process.exit(bad ? 1 : 0);
+}
+
 let failed = 0;
 for (const row of rows) {
   const [id, area, category, sources, text, detail, enText, enDetail, ann] = row;

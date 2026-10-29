@@ -46,8 +46,10 @@ for (const q of questions) {
 }
 
 const base = { tags: [], verification_status: status, status: "published", show_in_feed: true, demo_popularity: 0 };
+// a question's article: "Title" on German Wikipedia, or "en:Title" on English Wikipedia (where German has none that fits)
+const source = (wiki) => (wiki.startsWith("en:") ? { source_name: "Wikipedia (englisch): " + wiki.slice(3).replaceAll("_", " "), source_url: "https://en.wikipedia.org/wiki/" + wiki.slice(3) } : { source_name: "Wikipedia: " + wiki.replaceAll("_", " "), source_url: W + wiki });
 (batch.questions ?? []).forEach(([id, category_id, difficulty, min_age, max_age, question, options, correct_index, explanation, wiki, enQ, enO, enE, tags], i) =>
-  upsert(questions, { id, kind: "question", category_id, question, options, correct_index, explanation, difficulty, ...base, tags: tags ?? [], source_name: "Wikipedia: " + wiki.replaceAll("_", " "), source_url: W + wiki, created_at: day(i), min_age, max_age, translations: tr(enQ, enO ?? options, enE) })
+  upsert(questions, { id, kind: "question", category_id, question, options, correct_index, explanation, difficulty, ...base, tags: tags ?? [], ...source(wiki), created_at: day(i), min_age, max_age, translations: tr(enQ, enO ?? options, enE) })
 );
 (batch.claims ?? []).forEach(([id, category_id, min_age, question, truth, explanation, wiki, enQ, enE, tags], i) =>
   upsert(questions, { id, kind: "fact", category_id, question, options: ["Stimmt", "Stimmt nicht"], correct_index: truth ? 0 : 1, explanation, difficulty: 1, ...base, tags: tags ?? [], source_name: "Wikipedia: " + wiki.replaceAll("_", " "), source_url: W + wiki, created_at: day(i * 2 + 1), min_age, max_age: null, translations: tr(enQ, ["True", "False"], enE) })

@@ -8,7 +8,7 @@ import { fitsAge } from "@/lib/content";
 import { reviewedStatus } from "@/lib/reviews";
 import type { AgeBand } from "@/lib/types";
 
-export type VisualType = "growth" | "scatter" | "market" | "bars" | "timeline";
+export type VisualType = "growth" | "scatter" | "market" | "bars" | "timeline" | "chance" | "sampling";
 /** real = measured values from the named source · model = computed from the stated formula with example numbers */
 export type DataKind = "real" | "model";
 
@@ -43,6 +43,17 @@ export interface TimelineConfig {
   to: number;
   items: { key: string; year: number; late?: boolean }[];
 }
+/** A chance experiment that is run once by hand or a thousand times at a tap: shared birthdays, the three doors, coins */
+export interface ChanceConfig {
+  experiment: "birthday" | "doors" | "coins";
+  people?: Slider; // birthday: the size of the group
+  runs: number; // how many times one tap of "simulate" repeats it
+}
+/** How a language model picks the next word: example probabilities, reshaped by the temperature */
+export interface SamplingConfig {
+  words: { key: string; p: number }[]; // example values, they add up to 1
+  temperature: Slider;
+}
 export interface MarketConfig {
   unit: string;
   demand: { intercept: number; slope: number }; // price = intercept − slope × quantity
@@ -69,7 +80,7 @@ export interface VisualRow extends Texts {
   min_age: number;
   difficulty: 1 | 2 | 3;
   data_kind: DataKind;
-  config: GrowthConfig | ScatterConfig | MarketConfig | BarsConfig | TimelineConfig;
+  config: GrowthConfig | ScatterConfig | MarketConfig | BarsConfig | TimelineConfig | ChanceConfig | SamplingConfig;
   predict_correct: number | null;
   sources: { name: string; url: string }[];
   links: { kind: "question" | "animation" | "book"; id: string }[];
@@ -93,7 +104,7 @@ export interface Visual extends Texts {
 
 export const visualRows = visualsJson as unknown as VisualRow[];
 /** German names of the types; also the translation keys. */
-export const TYPE_NAME: Record<VisualType, string> = { growth: "Rechner mit Verlauf", scatter: "Daten erkunden", market: "Modell zum Ausprobieren", bars: "Vergleich", timeline: "Zeitleiste" };
+export const TYPE_NAME: Record<VisualType, string> = { growth: "Rechner mit Verlauf", scatter: "Daten erkunden", market: "Modell zum Ausprobieren", bars: "Vergleich", timeline: "Zeitleiste", chance: "Zufallsexperiment", sampling: "Modell zum Ausprobieren" };
 export const KIND_NAME: Record<DataKind, string> = { real: "Echte Daten", model: "Rechenmodell mit Beispielzahlen" };
 
 /** Published visualisations for one learner: right language (fallback: German), right age level. */
@@ -128,6 +139,64 @@ export function compound(start: number, monthly: number, ratePercent: number, ye
   }
   return out;
 }
+// ---------- chance ----------
+
+/** A small seeded random generator (mulberry32), so simulations can be tested; the app passes Math.random. */
+export function seeded(seed: number): () => number {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+/** The chance that at least two of n people share a birthday (365 equally likely days, no 29 February). */
+export function birthdayChance(n: number): number {
+  let none = 1;
+  for (let k = 0; k < n; k++) none *= (365 - k) / 365;
+  return 1 - none;
+}
+/** One group of n birthdays (day of the year 0–364) and the days that occur more than once. */
+export function birthdayGroup(n: number, rnd: () => number): { days: number[]; shared: number[] } {
+  const days = Array.from({ length: n }, () => Math.floor(rnd() * 365));
+  const seen = new Map<number, number>();
+  for (const d of days) seen.set(d, (seen.get(d) ?? 0) + 1);
+  return { days, shared: [...seen].filter(([, c]) => c > 1).map(([d]) => d).sort((a, b) => a - b) };
+}
+/**
+ * One game of the three doors: the car is behind a random door, the player picks one, the host opens another door with
+ * a goat (at random if he has two to choose from), and the player stays or switches.
+ */
+export function doorsGame(pick: number, switching: boolean, rnd: () => number): { car: number; opened: number; final: number; won: boolean } {
+  const car = Math.floor(rnd() * 3);
+  const goats = [0, 1, 2].filter((d) => d !== pick && d !== car);
+  const opened = goats[Math.floor(rnd() * goats.length)];
+  const final = switching ? [0, 1, 2].find((d) => d !== pick && d !== opened)! : pick;
+  return { car, opened, final, won: final === car };
+}
+/** The share of heads after each toss, for the running line of the coin experiment. */
+export function runningShare(tosses: boolean[]): number[] {
+  let heads = 0;
+  return tosses.map((h, i) => (heads += h ? 1 : 0) / (i + 1));
+}
+
+// ---------- sampling ----------
+
+/** Probabilities reshaped by a temperature: p^(1/T), normalised. T < 1 sharpens, T > 1 evens out (softmax with temperature). */
+export function withTemperature(p: number[], t: number): number[] {
+  const w = p.map((x) => Math.pow(x, 1 / Math.max(0.05, t)));
+  const sum = w.reduce((a, b) => a + b, 0);
+  return w.map((x) => x / sum);
+}
+/** The index a random number r in [0, 1) falls on when the probabilities are laid end to end. */
+export function drawIndex(p: number[], r: number): number {
+  let acc = 0;
+  for (let i = 0; i < p.length; i++) if (r < (acc += p[i])) return i;
+  return p.length - 1;
+}
+
 /** The same payments without any interest. */
 export const paidIn = (start: number, monthly: number, years: number): number[] => Array.from({ length: years + 1 }, (_, y) => start + monthly * 12 * y);
 

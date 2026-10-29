@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import test from "node:test";
 import { CATEGORIES } from "../lib/categories";
-import { compound, equilibrium, formatNumber, logTicks, paidIn, scale, ticks, visualRows, visualsFor, type GrowthConfig, type MarketConfig, type ScatterConfig } from "../lib/visuals";
+import { birthdayChance, birthdayGroup, compound, doorsGame, drawIndex, equilibrium, formatNumber, logTicks, paidIn, runningShare, scale, seeded, ticks, visualRows, visualsFor, withTemperature, type ChanceConfig, type GrowthConfig, type MarketConfig, type SamplingConfig, type ScatterConfig } from "../lib/visuals";
 
 const ids = (file: string) => new Set((JSON.parse(fs.readFileSync(file, "utf8")) as { id: string }[]).map((x) => x.id));
 const known = { question: ids("content/questions.json"), animation: ids("content/animations.json"), book: ids("content/books.json") };
@@ -136,4 +136,58 @@ test("timeline before Christ: years read correctly, no year 0, round ticks", asy
   assert.ok(c.items.every((e) => e.year >= c.from && e.year <= c.to && e.year !== 0));
   const g = gaps(c.items.filter((e) => !e.late));
   assert.equal(g.find((x) => x.key === "runes")!.years, 399); // Brahmi (250 BC) → runes (AD 150)
+});
+
+test("chance: birthdays, three doors and coins give the values the texts quote", () => {
+  assert.equal(Math.round(birthdayChance(23) * 1000), 507); // just over half from 23 people on
+  assert.equal(Math.round(birthdayChance(30) * 1000), 706); // the prediction for 30 people: about 70.6 %
+  assert.equal([...Array(60).keys()].find((n) => birthdayChance(n) >= 0.9), 41); // the task: the smallest group with 90 %
+  const g = birthdayGroup(40, seeded(3));
+  assert.equal(g.days.length, 40);
+  assert.deepEqual(g.shared, [...new Set(g.days.filter((d, i) => g.days.indexOf(d) !== i))].sort((a, b) => a - b));
+  // switching wins two games in three, staying one in three
+  const rnd = seeded(11);
+  let swap = 0, stay = 0;
+  for (let i = 0; i < 30000; i++) {
+    const pick = Math.floor(rnd() * 3);
+    swap += doorsGame(pick, true, rnd).won ? 1 : 0;
+    stay += doorsGame(pick, false, rnd).won ? 1 : 0;
+  }
+  assert.ok(Math.abs(swap / 30000 - 2 / 3) < 0.01 && Math.abs(stay / 30000 - 1 / 3) < 0.01, `${swap} ${stay}`);
+  const game = doorsGame(0, true, seeded(5));
+  assert.ok(game.opened !== 0 && game.opened !== game.car && game.final !== game.opened);
+  assert.deepEqual(runningShare([true, false, true, true]), [1, 0.5, 2 / 3, 0.75]);
+  // the coin prediction: in 100 tosses the longest run of one side is usually 5 to 8
+  const coin = seeded(7);
+  let usual = 0;
+  for (let k = 0; k < 4000; k++) {
+    let longest = 0, run = 0, prev = -1;
+    for (let i = 0; i < 100; i++) {
+      const t = coin() < 0.5 ? 1 : 0;
+      run = t === prev ? run + 1 : 1;
+      prev = t;
+      longest = Math.max(longest, run);
+    }
+    if (longest >= 5 && longest <= 8) usual++;
+  }
+  assert.ok(usual / 4000 > 0.7, String(usual));
+});
+
+test("sampling: the temperature sharpens or evens out, and the draw follows the probabilities", () => {
+  const c = visualRows.find((v) => v.id === "v-naechstes-wort")!.config as SamplingConfig;
+  const p = c.words.map((w) => w.p);
+  assert.ok(Math.abs(p.reduce((a, b) => a + b, 0) - 1) < 1e-9, "the example values add up to 100 %");
+  for (const t of [0.2, 1, 2]) assert.ok(Math.abs(withTemperature(p, t).reduce((a, b) => a + b, 0) - 1) < 1e-9);
+  withTemperature(p, 1).forEach((x, i) => assert.ok(Math.abs(x - p[i]) < 1e-12)); // T = 1 changes nothing
+  assert.ok(withTemperature(p, 0.2)[0] > 0.95); // the prediction: at 0.2 almost always the most likely word
+  assert.ok(withTemperature(p, 2)[0] < p[0] && withTemperature(p, 2)[5] > p[5]); // high temperature evens out
+  assert.equal(drawIndex([0.5, 0.3, 0.2], 0), 0);
+  assert.equal(drawIndex([0.5, 0.3, 0.2], 0.5), 1);
+  assert.equal(drawIndex([0.5, 0.3, 0.2], 0.999), 2);
+  const rnd = seeded(2);
+  const n = Array(6).fill(0);
+  for (let i = 0; i < 20000; i++) n[drawIndex(p, rnd())]++;
+  n.forEach((k, i) => assert.ok(Math.abs(k / 20000 - p[i]) < 0.015, `${i}: ${k}`));
+  const birthday = visualRows.find((v) => v.id === "v-geburtstag")!.config as ChanceConfig;
+  assert.ok(birthday.people!.min <= 30 && birthday.people!.max >= 41); // the prediction and the task can be set
 });

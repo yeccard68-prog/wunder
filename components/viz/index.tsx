@@ -22,6 +22,8 @@ export const VIZ: Record<VisualType, ComponentType<VizProps>> = {
   market: lazy(() => import("@/components/viz/MarketViz")),
   bars: lazy(() => import("@/components/viz/BarsViz")),
   timeline: lazy(() => import("@/components/viz/TimelineViz")),
+  chance: lazy(() => import("@/components/viz/ChanceViz")),
+  sampling: lazy(() => import("@/components/viz/SamplingViz")),
 };
 
 /**
