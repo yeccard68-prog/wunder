@@ -122,7 +122,7 @@ SELECT ?w ?wLabel ?wLabelEn ?links ?c ?cLabel ?cLabelEn ?died ?year WHERE {
   // a title that names its creator ("Selbstbildnis Rembrandts") gives the answer away
   const lastName = (name) => name.split(" ").at(-1);
   let list = [...by.values()]
-    .filter((e) => e.creators.size === 1 && !BLOCKED.has(e.id) && ![...e.creators.values()].some((c) => BLOCKED.has(c.id) || BLOCKED_NAMES.test(c.en)))
+    .filter((e) => e.creators.size === 1 && !t.skip?.test(e.de) && !BLOCKED.has(e.id) && ![...e.creators.values()].some((c) => BLOCKED.has(c.id) || BLOCKED_NAMES.test(c.en)))
     .map((e) => ({ ...e, creator: [...e.creators.values()][0] }))
     .filter((e) => !givesAway(lastName(e.creator.de), e.de) && !givesAway(lastName(e.creator.en), e.en));
   // two works with the same title (Botticelli's and Bouguereau's "Birth of Venus") would ask one question with two answers:
@@ -564,6 +564,8 @@ SELECT ?e ?eLabel ?eLabelEn ?num WHERE { ?e wdt:P31 wd:Q11344; wdt:P1086 ?num. F
   },
   // more works and their creators
   compositions: (r) => works(r, { match: "?w wdt:P86 ?x; wdt:P31/wdt:P279* wd:Q2188189. ?x wikibase:sitelinks ?xl. FILTER(?xl >= 70) FILTER NOT EXISTS { ?w wdt:P136 wd:Q1344 } FILTER NOT EXISTS { ?w wdt:P31 wd:Q23691 }", prop: "P86", minLinks: 30, tags: ["Musik", "Klassik"], prefix: "wd-comp",
+    // numbered titles ("3. Sinfonie") fit several composers, BWV names Bach, and the Champions League anthem is only an arrangement of Händel
+    skip: /^\d+\. Sinfonie|^Sinfonie in|Nr\. \d|BWV|Hymne/,
     de: (w) => `Wer komponierte „${w}“?`, en: (w) => `Who composed "${w}"?`,
     deX: (w, c, y) => `„${w}“${inYear(y)} stammt von ${c}.`, enX: (w, c, y) => `"${w}"${inYearEn(y)} was composed by ${c}.` }),
   // (sculptures and inventions were tried: too few sculptures, and the inventions mixed in drugs and obscure stars – left out)
