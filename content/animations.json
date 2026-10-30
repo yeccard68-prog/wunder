@@ -4367,5 +4367,220 @@
       ],
       "correct": 2
     }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "id": "a-weltbevoelkerung",
+    "category_id": "culture",
+    "scene": "population",
+    "title": "Die Weltbevölkerung im Zeitraffer",
+    "summary": "Von einer auf acht Milliarden Menschen – und warum jede Milliarde schneller kam als die vorige.",
+    "goal": "Du kannst beschreiben, wie die Weltbevölkerung seit 1804 gewachsen ist und warum das Wachstum heute langsamer wird.",
+    "labels": [
+      "Menschen auf der Erde",
+      "1 Milliarde",
+      "2 Milliarden",
+      "3 Milliarden",
+      "4 Milliarden",
+      "5 Milliarden",
+      "6 Milliarden",
+      "7 Milliarden",
+      "8 Milliarden",
+      "Jahre bis zur nächsten Milliarde",
+      "Prognose",
+      "10,3 Milliarden (2084)"
+    ],
+    "steps": [
+      {
+        "text": "Um das Jahr 1804 lebten erstmals eine Milliarde Menschen auf der Erde – nach Jahrtausenden langsamen Wachstums.",
+        "seconds": 7
+      },
+      {
+        "text": "Bis zur zweiten Milliarde dauerte es noch 123 Jahre: Sie war 1927 erreicht.",
+        "seconds": 7
+      },
+      {
+        "text": "Dann ging es immer schneller: 3 Milliarden 1960, 4 Milliarden 1974, 5 Milliarden 1987, 6 Milliarden 1999 – alle 12 bis 14 Jahre eine Milliarde mehr.",
+        "seconds": 9
+      },
+      {
+        "text": "7 Milliarden waren es 2011, und im November 2022 wurde die Marke von 8 Milliarden überschritten. Im August 2026 lebten rund 8,4 Milliarden Menschen auf der Erde.",
+        "seconds": 9
+      },
+      {
+        "text": "Das Wachstum wird aber langsamer: Seit Ende der 1980er Jahre kommen jedes Jahr ungefähr gleich viele Menschen hinzu, rund 80 Millionen – anteilig also immer weniger. Nach Prognosen geht das Wachstum bis etwa 2084 weiter, auf rund 10,3 Milliarden.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Weltbevölkerung",
+        "url": "https://de.wikipedia.org/wiki/Weltbevölkerung"
+      },
+      {
+        "name": "Wikipedia (englisch): World population",
+        "url": "https://en.wikipedia.org/wiki/World_population"
+      }
+    ],
+    "quiz_question_id": "wb1",
+    "translations": {
+      "en": {
+        "title": "The world population in time-lapse",
+        "summary": "From one to eight billion people – and why each billion came faster than the last.",
+        "goal": "You can describe how the world population has grown since 1804 and why the growth is slowing today.",
+        "labels": [
+          "people on Earth",
+          "1 billion",
+          "2 billion",
+          "3 billion",
+          "4 billion",
+          "5 billion",
+          "6 billion",
+          "7 billion",
+          "8 billion",
+          "years to the next billion",
+          "forecast",
+          "10.3 billion (2084)"
+        ],
+        "steps": [
+          "Around the year 1804, a billion people lived on Earth for the first time – after thousands of years of slow growth.",
+          "It took another 123 years to reach the second billion: in 1927.",
+          "Then it went faster and faster: 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999 – another billion every 12 to 14 years.",
+          "It was 7 billion in 2011, and in November 2022 the mark of 8 billion was passed. In August 2026 about 8.4 billion people lived on Earth.",
+          "But growth is slowing: since the late 1980s about the same number of people have been added each year, around 80 million – so a smaller and smaller share. Forecasts see growth continuing until about 2084, to around 10.3 billion."
+        ],
+        "predict": {
+          "question": "Going from 1 to 2 billion took 123 years. How long did it take from 7 to 8 billion?",
+          "options": [
+            "About 60 years",
+            "About 30 years",
+            "About 11 years"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Von 1 auf 2 Milliarden dauerte es 123 Jahre. Wie lange dauerte es von 7 auf 8 Milliarden?",
+      "options": [
+        "Rund 60 Jahre",
+        "Rund 30 Jahre",
+        "Rund 11 Jahre"
+      ],
+      "correct": 2
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:00:00Z",
+    "id": "a-wasser",
+    "category_id": "earth",
+    "scene": "water",
+    "title": "Wie viel Wasser hat die Erde?",
+    "summary": "Alles Wasser der Erde als 100 Liter – und wie wenig davon in Seen und Flüssen fließt.",
+    "goal": "Du kannst erklären, wie wenig des Wassers auf der Erde Süßwasser ist und wie wenig davon flüssig an der Oberfläche liegt.",
+    "labels": [
+      "alles Wasser der Erde",
+      "1,386 Milliarden km³ – hier als 100 Liter",
+      "Salzwasser: 97,5 l",
+      "Süßwasser: 2,5 l",
+      "fast alles Eis, Schnee, Grundwasser",
+      "flüssig an der Oberfläche: 7,5 ml",
+      "Seen 87 %",
+      "Sümpfe 11 %",
+      "Flüsse 2 % = 0,15 ml"
+    ],
+    "steps": [
+      {
+        "text": "Alles Wasser der Erde zusammen sind rund 1,386 Milliarden Kubikkilometer. Stell es dir als 100 Liter vor.",
+        "seconds": 7
+      },
+      {
+        "text": "Davon sind 97,5 Liter Salzwasser – vor allem in den Meeren. Nur 2,5 Liter sind Süßwasser.",
+        "seconds": 8
+      },
+      {
+        "text": "Und auch davon ist fast alles Eis, Schnee, Grundwasser oder Bodenfeuchte. Flüssig an der Oberfläche liegen nur 0,3 % des Süßwassers – von unseren 100 Litern gerade 7,5 Milliliter.",
+        "seconds": 9
+      },
+      {
+        "text": "Diese 7,5 Milliliter verteilen sich auf Seen (87 %), Sümpfe (11 %) und Flüsse (nur 2 %). Alle Flüsse der Erde wären in unserem Bild 0,15 Milliliter.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Water distribution on Earth",
+        "url": "https://en.wikipedia.org/wiki/Water_distribution_on_Earth"
+      },
+      {
+        "name": "Wikipedia: Süßwasser",
+        "url": "https://de.wikipedia.org/wiki/Süßwasser"
+      }
+    ],
+    "quiz_question_id": "wa1",
+    "translations": {
+      "en": {
+        "title": "How much water does the Earth have?",
+        "summary": "All the water on Earth as 100 litres – and how little of it flows in lakes and rivers.",
+        "goal": "You can explain how little of the water on Earth is fresh water and how little of that is liquid on the surface.",
+        "labels": [
+          "all the water on Earth",
+          "1.386 billion km³ – here as 100 litres",
+          "salt water: 97.5 l",
+          "fresh water: 2.5 l",
+          "almost all ice, snow, groundwater",
+          "liquid on the surface: 7.5 ml",
+          "lakes 87%",
+          "swamps 11%",
+          "rivers 2% = 0.15 ml"
+        ],
+        "steps": [
+          "All the water on Earth together is about 1.386 billion cubic kilometres. Imagine it as 100 litres.",
+          "Of that, 97.5 litres are salt water – mostly in the oceans. Only 2.5 litres are fresh water.",
+          "And almost all of that is ice, snow, groundwater or soil moisture. Only 0.3% of the fresh water is liquid on the surface – from our 100 litres just 7.5 millilitres.",
+          "These 7.5 millilitres are shared by lakes (87%), swamps (11%) and rivers (only 2%). All the rivers on Earth would be 0.15 millilitres in our picture."
+        ],
+        "predict": {
+          "question": "Of the 2.5 litres of fresh water: how much is liquid on the surface – in lakes, swamps and rivers?",
+          "options": [
+            "Over half, about 1.5 litres",
+            "About a tenth, 0.25 litres",
+            "Only 7.5 millilitres"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 2,
+      "question": "Von den 2,5 Litern Süßwasser: Wie viel liegt flüssig an der Oberfläche – in Seen, Sümpfen und Flüssen?",
+      "options": [
+        "Gut die Hälfte, rund 1,5 Liter",
+        "Rund ein Zehntel, 0,25 Liter",
+        "Nur 7,5 Milliliter"
+      ],
+      "correct": 2
+    }
   }
 ]

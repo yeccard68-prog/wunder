@@ -239,4 +239,78 @@ const eye: Scene = {
   ),
 };
 
-export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye };
+// ---------- a hen's egg lying on its side, the blunt end left: shell, membrane, air cell, egg white, yolk, chalazae ----------
+const EGG = "M50,200 C50,118 120,90 200,90 C285,90 355,150 365,200 C355,250 285,310 200,310 C120,310 50,282 50,200 Z";
+const egg: Scene = {
+  outside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-shell`} cx="38%" cy="32%" r="75%"><stop offset="0" stopColor="#ecc08e" /><stop offset="1" stopColor="#b9773f" /></radialGradient>
+      </defs>
+      <ellipse cx="208" cy="326" rx="140" ry="14" fill="#000" opacity="0.35" />
+      <path d={EGG} fill={`url(#${id}-shell)`} />
+      {[[120, 150], [170, 128], [250, 140], [300, 190], [140, 240], [220, 270], [280, 250], [95, 200], [330, 220]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={i % 3 ? 2 : 3} fill="#9c5f2e" opacity="0.5" />)}
+      <ellipse cx="140" cy="135" rx="38" ry="16" fill="#fff" opacity="0.25" transform="rotate(-20 140 135)" />
+    </>
+  ),
+  inside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-yolk`} cx="40%" cy="35%" r="70%"><stop offset="0" stopColor="#ffd25e" /><stop offset="1" stopColor="#e8901c" /></radialGradient>
+      </defs>
+      <ellipse cx="208" cy="326" rx="140" ry="14" fill="#000" opacity="0.35" />
+      {/* the shell in section, the membrane inside it; at the blunt end they part around the air cell */}
+      <path d={EGG} fill="#f4ead8" />
+      <path d="M57,200 C57,124 124,97 200,97 C282,97 348,152 358,200 C348,248 282,303 200,303 C124,303 57,276 57,200 Z" fill="#efe6d2" stroke="#d8ccb2" strokeWidth="2" />
+      <path d="M62,200 C62,150 80,124 104,112 C92,140 90,170 92,200 C90,230 92,260 104,288 C80,276 62,250 62,200 Z" fill="#cfe1ea" stroke="#d8ccb2" strokeWidth="2" />
+      {/* the chalazae hold the yolk in the middle of the egg white */}
+      <path d="M143,200 c-6,-6 -12,6 -18,0 c-6,-6 -12,6 -18,0" stroke="#e2dcc6" strokeWidth="5" fill="none" strokeLinecap="round" />
+      <path d="M267,200 c6,-6 12,6 18,0 c6,-6 12,6 18,0 c6,-6 12,6 18,0" stroke="#e2dcc6" strokeWidth="5" fill="none" strokeLinecap="round" />
+      <circle cx="205" cy="200" r="62" fill={`url(#${id}-yolk)`} />
+      <circle cx="205" cy="146" r="6" fill="#fff8e6" stroke="#e8c27a" strokeWidth="1.5" />
+      {/* pores in the shell */}
+      {[[150, 99], [230, 100], [300, 128], [120, 290], [260, 296]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r="1.6" fill="#b9a98a" />)}
+    </>
+  ),
+};
+
+// ---------- a classic light bulb: frosted glass outside; inside the filament on its supports, the lead-in wires, the screw base ----------
+const BULB = "M200,30 C272,30 318,82 318,146 C318,196 282,222 262,250 L258,268 L142,268 L138,250 C118,222 82,196 82,146 C82,82 128,30 200,30 Z";
+const base = (
+  <>
+    <path d="M144,268 L256,268 L252,326 L148,326 Z" fill="#a9a9a9" />
+    {[278, 292, 306, 320].map((y) => <path key={y} d={`M146,${y} Q200,${y + 8} 254,${y}`} stroke="#7d7d7d" strokeWidth="4" fill="none" />)}
+    <path d="M160,326 L240,326 L226,340 L174,340 Z" fill="#2b2a28" />
+    <path d="M186,340 L214,340 L208,352 L192,352 Z" fill="#c9a24a" />
+  </>
+);
+const bulb: Scene = {
+  outside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-frost`} cx="40%" cy="35%" r="70%"><stop offset="0" stopColor="#ffffff" /><stop offset="1" stopColor="#d9d6cf" /></radialGradient>
+      </defs>
+      <path d={BULB} fill={`url(#${id}-frost)`} stroke="#c2bdb3" strokeWidth="2" />
+      <ellipse cx="160" cy="96" rx="22" ry="34" fill="#fff" opacity="0.6" transform="rotate(25 160 96)" />
+      {base}
+    </>
+  ),
+  inside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-glow`} cx="50%" cy="50%" r="50%"><stop offset="0" stopColor="#fff2b0" stopOpacity="0.9" /><stop offset="1" stopColor="#ffd24a" stopOpacity="0" /></radialGradient>
+      </defs>
+      {/* clear glass with its fill gas */}
+      <path d={BULB} fill="#e9f1f5" fillOpacity="0.16" stroke="#9fc3d6" strokeWidth="3" />
+      <circle cx="200" cy="130" r="70" fill={`url(#${id}-glow)`} />
+      {/* stem, lead-in wires and supports, the glowing coil between them */}
+      <path d="M186,268 L186,214 Q200,200 214,214 L214,268 Z" fill="#dfe8ec" fillOpacity="0.6" stroke="#9fc3d6" strokeWidth="2" />
+      <path d="M192,214 L170,130 M208,214 L230,130 M200,206 L200,108" stroke="#8b8b8b" strokeWidth="2.5" fill="none" />
+      <path d="M170,130 C172,120 176,140 180,130 C182,120 186,140 190,130 C192,120 196,140 200,130 C202,120 206,140 210,130 C212,120 216,140 220,130 C222,120 226,140 230,130" stroke="#ffb020" strokeWidth="3" fill="none" />
+      <path d="M192,268 L192,330 L200,346 M208,268 L208,300 L252,300" stroke="#c9a24a" strokeWidth="2.5" fill="none" />
+      <g opacity="0.55">{base}</g>
+    </>
+  ),
+};
+
+export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye, egg, bulb };

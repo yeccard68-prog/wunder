@@ -41227,5 +41227,85 @@
         "explanation": "The Sun is about 1.4 million kilometres across – about 110 times as much as the Earth. If the Sun were a football, the Earth would be a crumb of just 2 millimetres."
       }
     }
+  },
+  {
+    "id": "wb1",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Um welches Jahr lebten erstmals eine Milliarde Menschen auf der Erde?",
+    "options": [
+      "Um 1500",
+      "Um 1950",
+      "Um 1900",
+      "Um 1804"
+    ],
+    "correct_index": 3,
+    "explanation": "Um das Jahr 1804 überschritt die Weltbevölkerung erstmals eine Milliarde Menschen. Im November 2022 wurde die Marke von acht Milliarden überschritten.",
+    "difficulty": 2,
+    "tags": [
+      "Bevölkerung",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weltbevölkerung",
+    "source_url": "https://de.wikipedia.org/wiki/Weltbevölkerung",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around which year did a billion people live on Earth for the first time?",
+        "options": [
+          "Around 1500",
+          "Around 1950",
+          "Around 1900",
+          "Around 1804"
+        ],
+        "explanation": "Around the year 1804 the world population passed one billion people for the first time. In November 2022 it passed the mark of eight billion."
+      }
+    }
+  },
+  {
+    "id": "wa1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher Anteil des Wassers auf der Erde ist Süßwasser?",
+    "options": [
+      "Nur wenige Prozent",
+      "Etwa ein Viertel",
+      "Etwa die Hälfte",
+      "Etwa drei Viertel"
+    ],
+    "correct_index": 0,
+    "explanation": "Nur ein kleiner Teil: Je nach Schätzung sind es etwa 2,6 bis 3,5 % – der Rest ist Salzwasser. Und ein erheblicher Teil des Süßwassers ist als Eis in Gletschern und Polkappen gebunden.",
+    "difficulty": 2,
+    "tags": [
+      "Wasser",
+      "Erde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Süßwasser",
+    "source_url": "https://de.wikipedia.org/wiki/Süßwasser",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What share of the water on Earth is fresh water?",
+        "options": [
+          "Only a few percent",
+          "About a quarter",
+          "About half",
+          "About three quarters"
+        ],
+        "explanation": "Only a small part: depending on the estimate about 2.6 to 3.5% – the rest is salt water. And a large part of the fresh water is locked up as ice in glaciers and polar ice caps."
+      }
+    }
   }
 ]

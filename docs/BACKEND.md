@@ -630,3 +630,9 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 ## 73. Blick ins Innere: Vulkan und Auge (30.10.2026)
 
 - Zwei weitere eigene Zeichnungen für den Regler zwischen außen und innen (`content/_batches/2026-10-visuals-6.mjs`, Szenen `volcano` und `eye` in `components/viz/reveal/scenes.tsx`): ein Schichtvulkan (Aschewolke, Krater, Lava- und Ascheschichten, Schlot, Magmakammer; Schätzfrage: Magmakammern liegen einige bis Dutzende Kilometer tief – in der Zeichnung gestaucht) und das Auge von der Seite (Hornhaut, Iris, Linse, Glaskörper, Netzhaut, blinder Fleck, Sehnerv, Lederhaut; Schätzfrage: der Glaskörper ist zu etwa 98 % Wasser). Belege wörtlich geprüft.
+
+## 74. Weltbevölkerung und Wasser als Motion Graphics; Ei und Glühbirne im Regler (30.10.2026)
+
+- **`a-weltbevoelkerung`** (Szene `population`): Die Kurve von 1 auf 8 Milliarden zeichnet sich, ein Jahreszähler läuft, jede Milliarde bekommt ihren Punkt; darunter schrumpfende Balken für die Jahre bis zur nächsten Milliarde (123, 33, 14, 13, 12, 12, 11). Zum Schluss die gestrichelte Prognose bis etwa 10,3 Milliarden um 2084. Jahre nach UN-Angaben (deutsche und englische Wikipedia). Prüffrage `wb1`.
+- **`a-wasser`** (Szene `water`): Alles Wasser der Erde als 100 Liter – 97,5 l Salzwasser, 2,5 l Süßwasser, davon fast alles Eis, Schnee und Grundwasser, nur 7,5 ml flüssig an der Oberfläche; die verteilen sich auf Seen (87 %), Sümpfe (11 %) und Flüsse (2 % = 0,15 ml). Anteile aus der englischen Wikipedia (Water distribution on Earth), Mengen daraus berechnet. Prüffrage `wa1` (Süßwasser: nur wenige Prozent).
+- **Regler „Blick ins Innere“**: `v-ei-innen` (Kalkschale mit Poren, Schalenhaut, Luftkammer, Eiklar, Dotter, Keimscheibe, Hagelschnüre; Schätzfrage: warum die Luftkammer wächst) und `v-gluehbirne-innen` (Glaskolben mit Füllgas, Glühwendel, Halterung, Stromzuführungen, Edisonsockel, Kontakt; Schätzfrage: nur ca. 2,2 % der Energie werden Licht). Damit sechs Motive.

@@ -845,4 +845,131 @@ function SolarScale({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale };
+// ------------------------------------------------------------------ the world population in time-lapse (motion graphics, 30.10.2026)
+// From one to eight billion: the curve draws itself, a year counter runs, each billion gets its mark, and below a row
+// of bars shows how many years each further billion took (123, 33, 14 …). Years from POPULATION (UN figures, sources
+// in the animation). labels: 0 people on Earth, 1–8 "1 billion" … "8 billion", 9 years to the next billion,
+// 10 forecast, 11 "10.3 billion (2084)"
+export const POPULATION = { billions: [1804, 1927, 1960, 1974, 1987, 1999, 2011, 2022], now: [2026, 8.4], peak: [2084, 10.3], end: [2100, 10.2] };
+const GREEN2 = "#4fc28b";
+
+function Population({ step, p, labels }: SceneProps) {
+  const s = Math.min(step, 4);
+  const k = ease(clamp(p / 0.85));
+  const B = POPULATION.billions;
+  const X = (year: number) => 30 + ((year - 1800) / 300) * 300;
+  const Y = (bn: number) => 268 - bn * 17;
+  const pts: Pt[] = [[1800, 0.98], ...B.map((y, i): Pt => [y, i + 1]), POPULATION.now as Pt];
+  const forecast: Pt[] = [POPULATION.now as Pt, POPULATION.peak as Pt, POPULATION.end as Pt];
+  const path = (list: Pt[]) => list.map(([yr, bn], i) => `${i ? "L" : "M"}${X(yr).toFixed(1)} ${Y(bn).toFixed(1)}`).join(" ");
+  // how far the curve has come: the year at the end of each step
+  const ends = [1804, 1927, 1999, 2026];
+  const year = s === 0 ? 1804 : s < 4 ? lerp(ends[s - 1], ends[s], k) : 2026;
+  const reached = B.filter((y) => y <= year + 0.01).length;
+  const gaps = B.slice(1).map((y, i) => y - B[i]);
+  const dashed = s === 4 ? k : 0;
+  return (
+    <>
+      {/* the year running, and how many people that makes */}
+      <Label x={180} y={42} size={30} bold>{String(Math.round(year))}</Label>
+      <Label x={180} y={64} size={12} bold color={GREEN2}>{reached ? labels[reached] : ""}</Label>
+      <Label x={180} y={80} size={10} color={DIM}>{labels[0]}</Label>
+      {/* axes: years 1800–2100, 0–11 billion */}
+      <line x1={30} y1={268} x2={330} y2={268} stroke={LINE} strokeWidth={2} />
+      {[1800, 1900, 2000, 2100].map((y) => <Label key={y} x={X(y)} y={284} size={10} color={DIM}>{String(y)}</Label>)}
+      {[2, 4, 6, 8, 10].map((b) => <g key={b}><line x1={30} y1={Y(b)} x2={330} y2={Y(b)} stroke={LINE} strokeWidth={0.6} strokeDasharray="2 4" /><Label x={26} y={Y(b) + 3} anchor="end" size={9} color={DIM}>{String(b)}</Label></g>)}
+      {/* the curve so far (clipped at the running year) and the forecast */}
+      <clipPath id="pop-clip"><rect x={0} y={0} width={X(year)} height={400} /></clipPath>
+      <path d={`${path(pts)} L${X(POPULATION.now[0])} 268 L${X(1800)} 268 Z`} fill={GREEN2} opacity={0.18} clipPath="url(#pop-clip)" />
+      <path d={path(pts)} fill="none" stroke={GREEN2} strokeWidth={3} strokeLinejoin="round" clipPath="url(#pop-clip)" />
+      {dashed > 0 && <>
+        <clipPath id="pop-fc"><rect x={X(2026)} y={0} width={(X(2100) - X(2026)) * dashed} height={400} /></clipPath>
+        <path d={path(forecast)} fill="none" stroke={DIM} strokeWidth={2.5} strokeDasharray="5 5" clipPath="url(#pop-fc)" />
+        <g opacity={clamp((dashed - 0.7) / 0.3)}>
+          <circle cx={X(2084)} cy={Y(10.3)} r={4} fill={DIM} />
+          <Label x={330} y={Y(10.3) + 17} anchor="end" size={10} color={INK}>{labels[11]}</Label>
+          <Label x={X(2058)} y={Y(8.3) + 4} anchor="start" size={10} color={DIM}>{labels[10]}</Label>
+        </g>
+      </>}
+      {B.slice(0, reached).map((y, i) => <circle key={y} cx={X(y)} cy={Y(i + 1)} r={3.5} fill={i === reached - 1 ? YELLOW : GREEN2} stroke="#11100e" strokeWidth={1.5} />)}
+      {/* years to the next billion, as shrinking bars */}
+      <Label x={30} y={318} anchor="start" size={11} color={DIM}>{labels[9]}</Label>
+      {gaps.map((g, i) => {
+        if (i + 2 > reached) return null;
+        const x0 = 30 + gaps.slice(0, i).reduce((a, b) => a + b + 6, 0);
+        return (
+          <g key={i}>
+            <rect x={x0} y={332} width={g} height={16} rx={3} fill={i === reached - 2 ? YELLOW : GREEN2} opacity={i === reached - 2 ? 1 : 0.6} />
+            <Label x={x0 + g / 2} y={364} size={10} color={INK}>{String(g)}</Label>
+          </g>
+        );
+      })}
+    </>
+  );
+}
+
+// ------------------------------------------------------------------ how much water does the Earth have? (motion graphics, 30.10.2026)
+// All water on Earth shrunk to 100 litres: 97.5 l salt water, 2.5 l fresh water – of that only 0.3 % liquid on the
+// surface (7.5 ml), shared by lakes (87 %), swamps (11 %) and rivers (2 % = 0.15 ml). Shares from WATER (sources in
+// the animation). labels: 0 all water on Earth, 1 "1.386 billion km³ – here: 100 litres", 2 salt water, 3 fresh water,
+// 4 ice, snow, groundwater, 5 liquid on the surface, 6 lakes, 7 swamps, 8 rivers
+export const WATER = { fresh: 0.025, surface: 0.003, lakes: 0.87, swamps: 0.11, rivers: 0.02 };
+const SEA = "#2d5fa8", FRESH = "#7cc4f0", ICE = "#e3eef6";
+
+function Water({ step, p, labels }: SceneProps) {
+  const s = Math.min(step, 3);
+  const k = ease(clamp(p / 0.8));
+  const tank = { x: 22, y: 120, w: 150, h: 170 };
+  const fade = (from: number) => (s > from ? 1 : s === from ? k : 0);
+  const bottle = fade(1), spoon = fade(2), split = fade(3);
+  const freshTop = tank.h * WATER.fresh; // the 2.5 l at the top of the tank
+  const dim = s >= 3 ? lerp(0.45, 0.12, k) : s >= 2 ? 0.45 : 1; // the bigger amounts step back as the focus narrows
+  return (
+    <>
+      <Label x={180} y={44} size={15} bold>{labels[0]}</Label>
+      <Label x={180} y={64} size={11} color={DIM}>{labels[1]}</Label>
+      {/* 100 litres: salt water, and the thin layer of fresh water that leaves for the bottle */}
+      <g opacity={dim}>
+        <rect x={tank.x} y={tank.y} width={tank.w} height={tank.h} rx={6} fill="#1d1b19" stroke={LINE} strokeWidth={2} />
+        <rect x={tank.x + 3} y={tank.y + 3 + freshTop * bottle} width={tank.w - 6} height={tank.h - 6 - freshTop * bottle} rx={4} fill={SEA} />
+        {bottle < 1 && <rect x={tank.x + 3} y={tank.y + 3} width={tank.w - 6} height={freshTop * (1 - bottle) + 0.01} fill={SEA} />}
+        <Label x={tank.x + tank.w / 2} y={tank.y + tank.h / 2 + 4} size={12} bold>{s === 0 ? "100 l" : labels[2]}</Label>
+      </g>
+      {/* 2.5 litres of fresh water – almost all of it frozen or underground */}
+      <g opacity={bottle * (s >= 3 ? lerp(1, 0.12, k) : 1)}>
+        <path d="M206 300 L206 222 Q206 210 216 206 L216 190 L232 190 L232 206 Q242 210 242 222 L242 300 Z" fill="#1d1b19" stroke={LINE} strokeWidth={2} />
+        <rect x={209} y={224} width={30} height={73} rx={3} fill={s >= 2 ? ICE : FRESH} />
+        {s >= 2 && [236, 252, 268, 284].map((y) => <line key={y} x1={211} y1={y} x2={237} y2={y - 6} stroke="#b9d3e6" strokeWidth={2} />)}
+        <Label x={224} y={318} size={11} bold color={FRESH}>{labels[3]}</Label>
+        {s >= 2 && <Label x={224} y={334} size={9} color={DIM}>{labels[4]}</Label>}
+      </g>
+      {/* 7.5 millilitres, liquid on the surface */}
+      <g opacity={spoon}>
+        <path d="M200 206 C226 198 250 182 262 168" stroke={DIM} strokeWidth={1.2} fill="none" strokeDasharray="3 4" />
+        <path d="M272 150 h40 l-6 20 h-28 z" fill="#1d1b19" stroke={LINE} strokeWidth={2} />
+        <path d="M276 160 h32 l-3 9 h-26 z" fill={FRESH} />
+        <Label x={340} y={140} anchor="end" size={11} bold color={FRESH}>{labels[5]}</Label>
+      </g>
+      {/* where those 7.5 ml are: lakes, swamps, rivers */}
+      <g opacity={split}>
+        {(() => {
+          const x0 = 22, w = 316;
+          const parts: [number, string, string][] = [[WATER.lakes, labels[6], FRESH], [WATER.swamps, labels[7], "#5fae8c"], [WATER.rivers, labels[8], YELLOW]];
+          let x = x0;
+          return parts.map(([share, text, color], i) => {
+            const pw = Math.max(3, w * share * k), at = x;
+            x += pw;
+            return (
+              <g key={i}>
+                <rect x={at} y={196} width={pw} height={26} fill={color} />
+                <Label x={i === 0 ? at + 8 : i === 1 ? at + pw / 2 : x0 + w} y={i === 0 ? 214 : 244 + (i - 1) * 18} anchor={i === 0 ? "start" : i === 1 ? "middle" : "end"} size={11} bold color={i === 0 ? "#11100e" : color}>{text}</Label>
+              </g>
+            );
+          });
+        })()}
+      </g>
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water };
