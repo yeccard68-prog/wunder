@@ -609,4 +609,97 @@ function Portrait({ step, p, labels, portrait }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait };
+// ------------------------------------------------------------------ the Earth's history as one day (motion graphics, 30.10.2026)
+// 4.54 billion years squeezed into 24 hours: a dial whose hand sweeps through the ages, a running clock in the middle,
+// and at the end a zoom into the last minute. Times are computed from the years in EARTH_DAY (sources in the animation).
+// labels: 0 Earth forms, 1 first traces of life, 2 the animals arrive, 3 dinosaurs, 4 humans, 5 the last minute,
+// 6 "24 hours = 4.54 billion years", 7 "1 second ≈ 52,500 years", 8 "less than six seconds"
+export const EARTH_DAY = { age: 4.54e9, life: 3.5e9, animals: 541e6, dinosaurs: 235e6, dinosaursEnd: 66e6, humans: 3e5 };
+const onClock = (yearsAgo: number) => 24 * (1 - yearsAgo / EARTH_DAY.age); // hours after midnight
+const clockText = (h: number, seconds = false) => {
+  const s = Math.min(86399, Math.round(h * 3600));
+  const two = (n: number) => String(n).padStart(2, "0");
+  return `${two(Math.floor(s / 3600))}:${two(Math.floor(s / 60) % 60)}${seconds ? ":" + two(s % 60) : ""}`;
+};
+const TEAL = "#3f7f86", GREEN = "#4fc28b";
+
+function EarthDay({ step, p, t, labels }: SceneProps) {
+  const cx = 180, cy = 138, r = 98;
+  const H = { life: onClock(EARTH_DAY.life), animals: onClock(EARTH_DAY.animals), dino: onClock(EARTH_DAY.dinosaurs), dinoEnd: onClock(EARTH_DAY.dinosaursEnd), humans: onClock(EARTH_DAY.humans) };
+  const stops = [0, H.life, H.animals, H.dinoEnd, H.humans];
+  const s = Math.min(step, 4);
+  const hand = s === 0 ? 0 : lerp(stops[s - 1], stops[s], ease(clamp(p / 0.85)));
+  const pt = (h: number, rad = r): Pt => { const a = (h / 24) * 2 * Math.PI - Math.PI / 2; return [cx + rad * Math.cos(a), cy + rad * Math.sin(a)]; };
+  const arc = (h0: number, h1: number, rad = r) => {
+    if (h1 <= h0) return "";
+    const [x0, y0] = pt(h0, rad), [x1, y1] = pt(h1, rad);
+    return `M${x0.toFixed(1)} ${y0.toFixed(1)} A${rad} ${rad} 0 ${h1 - h0 > 12 ? 1 : 0} 1 ${x1.toFixed(1)} ${y1.toFixed(1)}`;
+  };
+  const draw = s === 0 ? ease(clamp(p * 1.4)) : 1; // the dial draws itself in the first step
+  const [hx, hy] = pt(hand, r - 12);
+  const zoom = s === 4 ? ease(clamp((p - 0.35) / 0.35)) : 0; // the last minute takes over below
+  const cursor = s === 4 ? ease(clamp((p - 0.5) / 0.4)) : 0;
+  const humanSec = (H.humans - 23 - 59 / 60) * 3600; // seconds into the last minute
+  const x0 = 30, x1 = 330, secX = (sec: number) => x0 + ((x1 - x0) * sec) / 60;
+  // the events build up as a list below the dial, each with its time on the clock
+  const events: [number, string, string][] = [[H.life, labels[1], TEAL], [H.animals, labels[2], GREEN], [H.dino, labels[3], YELLOW]];
+  return (
+    <>
+      <g opacity={1 - zoom * 0.55}>
+        {/* the dial: 24 hours, a tick every hour */}
+        <circle cx={cx} cy={cy} r={r} fill="none" stroke={LINE} strokeWidth={14} strokeDasharray={`${2 * Math.PI * r * draw} 9999`} transform={`rotate(-90 ${cx} ${cy})`} />
+        {Array.from({ length: 24 }, (_, i) => {
+          const [ax, ay] = pt(i, r - 20), [bx, by] = pt(i, r - (i % 6 ? 25 : 31));
+          return <line key={i} x1={ax} y1={ay} x2={bx} y2={by} stroke={DIM} strokeWidth={i % 6 ? 1.5 : 2.5} opacity={draw} />;
+        })}
+        {[0, 6, 12, 18].map((h) => { const [lx, ly] = pt(h, r - 42); return <Label key={h} x={lx} y={ly + 4} size={10} color={DIM}>{String(h)}</Label>; })}
+        {/* the ages fill in behind the hand: tiny life most of the day, animals at last, the dinosaurs' span */}
+        <path d={arc(0, Math.min(hand, H.animals))} fill="none" stroke={TEAL} strokeWidth={14} />
+        <path d={arc(H.animals, hand)} fill="none" stroke={GREEN} strokeWidth={14} />
+        {hand > H.dino && <path d={arc(H.dino, Math.min(hand, H.dinoEnd))} fill="none" stroke={YELLOW} strokeWidth={20} />}
+        {events.map(([h, , color], i) => { const [mx, my] = pt(h); return hand >= h ? <circle key={i} cx={mx} cy={my} r={5} fill={color} stroke="#11100e" strokeWidth={2} /> : null; })}
+        {/* the Earth at midnight */}
+        <circle cx={cx} cy={cy - r} r={8 + Math.sin(t * 3) * 0.8} fill={BLUE} stroke="#11100e" strokeWidth={2} opacity={draw} />
+        {/* hand and running clock */}
+        {s > 0 && <line x1={cx} y1={cy} x2={hx} y2={hy} stroke={INK} strokeWidth={3} strokeLinecap="round" />}
+        <circle cx={cx} cy={cy} r={4.5} fill={INK} />
+        <Label x={cx} y={cy + 40} size={26} bold>{clockText(hand, s === 4)}</Label>
+        <g opacity={s === 0 ? draw : ease(clamp((p - 0.7) / 0.25))}>
+          <Label x={cx} y={cy - 28} size={11} bold color={[BLUE, TEAL, GREEN, YELLOW, RED][s]}>{labels[s]}</Label>
+        </g>
+      </g>
+      {/* the list of what happened when */}
+      <g opacity={1 - zoom}>
+        {events.map(([h, text, color], i) => {
+          const on = clamp((hand - h) * 40 + 1); // appears the moment the hand gets there
+          const y = 266 + i * 22;
+          return (
+            <g key={i} opacity={hand >= h ? on : 0} transform={`translate(${(1 - on) * 12} 0)`}>
+              <circle cx={70} cy={y - 4} r={5} fill={color} />
+              <Label x={84} y={y} anchor="start" size={12} bold color={color}>{text}</Label>
+              <Label x={292} y={y} anchor="end" size={12} color={INK}>{clockText(i === 2 ? H.dino : h)}</Label>
+            </g>
+          );
+        })}
+        <Label x={cx} y={348} size={11} color={DIM}>{labels[6]}</Label>
+        <Label x={cx} y={366} size={11} color={DIM}>{labels[7]}</Label>
+      </g>
+      {/* the last minute, magnified: the human mark only at its very end */}
+      <g opacity={zoom}>
+        <Label x={cx} y={276} size={12} bold color={INK}>{labels[5]}</Label>
+        <rect x={x0} y={288} width={x1 - x0} height={26} rx={5} fill="#1d1b19" stroke={LINE} />
+        <rect x={x0} y={288} width={Math.max(0, secX(humanSec * cursor) - x0)} height={26} rx={5} fill={GREEN} opacity={0.35} />
+        {Array.from({ length: 7 }, (_, i) => <line key={i} x1={secX(i * 10)} y1={288} x2={secX(i * 10)} y2={i % 6 ? 296 : 314} stroke={DIM} strokeWidth={1.5} />)}
+        <Label x={x0} y={330} anchor="start" size={10} color={DIM}>23:59:00</Label>
+        <Label x={x1} y={330} anchor="end" size={10} color={DIM}>24:00:00</Label>
+        <g opacity={cursor > 0.98 ? 1 : 0}>
+          <rect x={secX(humanSec)} y={288} width={x1 - secX(humanSec)} height={26} fill={RED} />
+          <Label x={x1} y={352} anchor="end" size={13} bold color={RED}>{labels[4]}</Label>
+          <Label x={x1} y={370} anchor="end" size={12} color={INK}>{labels[8]}</Label>
+        </g>
+      </g>
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay };

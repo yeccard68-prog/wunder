@@ -1,5 +1,5 @@
 // Merges 3D animations written in the compact batch form into content/animations.json (idempotent).
-// One animation: { id, scene, category, timing: [pace, motion], sources, quiz, predict: [step, correct],
+// One animation: { id, scene, category, timing: [pace, motion], sources, quiz, predict: [step, correct], renderer? ("three" or "svg-scene"),
 //   de: { title, summary, goal, labels, steps: [text, seconds][], predict: [question, …options] },
 //   en: { title, summary, goal, labels, steps: text[], predict: [question, …options] } }
 import fs from "node:fs";
@@ -12,7 +12,7 @@ export function mergeAnimations(animations, { today, verification }) {
   animations.forEach((a, n) => {
     const [step, correct] = a.predict;
     const row = {
-      language: "de", renderer: "three", fallback_scene: a.fallback ?? null, min_age: a.minAge ?? 10, difficulty: a.difficulty ?? 2, verification_status: verification, status: "published",
+      language: "de", renderer: a.renderer ?? "three", fallback_scene: a.fallback ?? null, min_age: a.minAge ?? 10, difficulty: a.difficulty ?? 2, verification_status: verification, status: "published",
       created_at: new Date(Date.parse(today + "T12:00:00Z") - n * 3_600_000).toISOString().replace(".000Z", "Z"),
       id: a.id, category_id: a.category, scene: a.scene, title: a.de.title, summary: a.de.summary, goal: a.de.goal, labels: a.de.labels,
       steps: a.de.steps.map(([text, seconds]) => ({ text, seconds })), sources: a.sources, quiz_question_id: a.quiz,

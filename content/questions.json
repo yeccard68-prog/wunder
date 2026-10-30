@@ -41147,5 +41147,45 @@
         "explanation": "Allegro is Italian for \"quick, lively, cheerful, merry\". As a musical tempo marking it means \"fast\"."
       }
     }
+  },
+  {
+    "id": "et1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Seit wann ist unsere Art, Homo sapiens, in Afrika fossil belegt?",
+    "options": [
+      "Seit rund 30.000 Jahren",
+      "Seit rund 30 Millionen Jahren",
+      "Seit rund 3 Millionen Jahren",
+      "Seit rund 300.000 Jahren"
+    ],
+    "correct_index": 3,
+    "explanation": "Homo sapiens ist in Afrika seit rund 300.000 Jahren fossil belegt. Gemessen an der Erde, die vor etwa 4,54 Milliarden Jahren entstand, ist das winzig: Auf einen einzigen Tag umgerechnet wären es nicht einmal sechs Sekunden.",
+    "difficulty": 2,
+    "tags": [
+      "Erdgeschichte",
+      "Evolution"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Homo sapiens",
+    "source_url": "https://de.wikipedia.org/wiki/Homo_sapiens",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since when has our species, Homo sapiens, been documented by fossils in Africa?",
+        "options": [
+          "For about 30,000 years",
+          "For about 30 million years",
+          "For about 3 million years",
+          "For about 300,000 years"
+        ],
+        "explanation": "Homo sapiens has been documented by fossils in Africa for about 300,000 years. Compared with the Earth, which formed about 4.54 billion years ago, that is tiny: squeezed into a single day it would be less than six seconds."
+      }
+    }
   }
 ]

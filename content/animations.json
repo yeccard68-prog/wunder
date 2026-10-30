@@ -4014,5 +4014,120 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "id": "a-erdtag",
+    "category_id": "earth",
+    "scene": "earthday",
+    "title": "Die Erdgeschichte als ein Tag",
+    "summary": "4,54 Milliarden Jahre auf einer 24-Stunden-Uhr – und der Mensch kommt erst ganz am Schluss.",
+    "goal": "Du kannst einordnen, wie jung Tiere, Dinosaurier und Menschen im Vergleich zum Alter der Erde sind.",
+    "labels": [
+      "Erde entsteht",
+      "erste Spuren von Leben",
+      "die Tiere kommen",
+      "Dinosaurier",
+      "Mensch (Homo sapiens)",
+      "die letzte Minute vor Mitternacht",
+      "24 Stunden = 4,54 Milliarden Jahre",
+      "1 Sekunde ≈ 52.500 Jahre",
+      "nicht einmal sechs Sekunden"
+    ],
+    "steps": [
+      {
+        "text": "Stell dir vor, die ganze Geschichte der Erde passt in einen einzigen Tag. Um Mitternacht entsteht die Erde – vor etwa 4,54 Milliarden Jahren. Jede Sekunde dieses Tages steht dann für rund 52.500 Jahre.",
+        "seconds": 8
+      },
+      {
+        "text": "Die ältesten, noch umstrittenen Spuren von Leben stecken in 3,5 Milliarden Jahre alten Gesteinen. Auf unserer Uhr ist es da schon kurz vor halb sechs am Morgen.",
+        "seconds": 8
+      },
+      {
+        "text": "Danach vergeht fast der ganze Tag mit winzigem, einfachem Leben. Erst um 21:08 Uhr – vor etwa 541 Millionen Jahren – tauchen in kurzer Zeit fast alle heutigen Tierstämme auf.",
+        "seconds": 9
+      },
+      {
+        "text": "Ab etwa 22:45 Uhr, vor rund 235 Millionen Jahren, beherrschen die Dinosaurier das Land. Um 23:39 Uhr, vor etwa 66 Millionen Jahren, ist ihre Zeit vorbei.",
+        "seconds": 9
+      },
+      {
+        "text": "Und der Mensch? Homo sapiens ist seit rund 300.000 Jahren belegt. Auf dieser Uhr ist das nicht einmal sechs Sekunden her: Er erscheint um 23:59:54 Uhr.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Erde",
+        "url": "https://de.wikipedia.org/wiki/Erde"
+      },
+      {
+        "name": "Wikipedia: Kambrische Explosion",
+        "url": "https://de.wikipedia.org/wiki/Kambrische_Explosion"
+      },
+      {
+        "name": "Wikipedia: Dinosaurier",
+        "url": "https://de.wikipedia.org/wiki/Dinosaurier"
+      },
+      {
+        "name": "Wikipedia: Homo sapiens",
+        "url": "https://de.wikipedia.org/wiki/Homo_sapiens"
+      }
+    ],
+    "quiz_question_id": "et1",
+    "translations": {
+      "en": {
+        "title": "The Earth's history as one day",
+        "summary": "4.54 billion years on a 24-hour clock – and humans only come at the very end.",
+        "goal": "You can place how young animals, dinosaurs and humans are compared with the age of the Earth.",
+        "labels": [
+          "Earth forms",
+          "first traces of life",
+          "the animals arrive",
+          "dinosaurs",
+          "humans (Homo sapiens)",
+          "the last minute before midnight",
+          "24 hours = 4.54 billion years",
+          "1 second ≈ 52,500 years",
+          "less than six seconds"
+        ],
+        "steps": [
+          "Imagine the whole history of the Earth fits into a single day. At midnight the Earth forms – about 4.54 billion years ago. Each second of this day then stands for about 52,500 years.",
+          "The oldest, still disputed traces of life are found in rocks 3.5 billion years old. On our clock it is already nearly half past five in the morning.",
+          "After that almost the whole day passes with tiny, simple life. Only at 21:08 – about 541 million years ago – do almost all of today's animal groups appear within a short time.",
+          "From about 22:45, around 235 million years ago, the dinosaurs rule the land. At 23:39, about 66 million years ago, their time is over.",
+          "And humans? Homo sapiens has been documented for about 300,000 years. On this clock that is less than six seconds ago: we appear at 23:59:54."
+        ],
+        "predict": {
+          "question": "Humans are coming next. When does Homo sapiens appear on this clock?",
+          "options": [
+            "Around 6 pm",
+            "Around 11 pm",
+            "In the last seconds before midnight"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 4,
+      "question": "Gleich kommt der Mensch. Wann erscheint Homo sapiens auf dieser Uhr?",
+      "options": [
+        "Gegen 18 Uhr",
+        "Gegen 23 Uhr",
+        "In den letzten Sekunden vor Mitternacht"
+      ],
+      "correct": 2
+    }
   }
 ]
