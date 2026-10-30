@@ -936,5 +936,331 @@
     },
     "image_url": "/img/studies/s-besitztum.svg",
     "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-pawlow",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1897,
+    "name": "Pawlows Hunde (klassische Konditionierung)",
+    "question": "Kann ein Lebewesen lernen, auf einen ganz neutralen Reiz so zu reagieren wie auf Futter?",
+    "method": "Der Physiologe Iwan Pawlow untersuchte die Verdauung von Hunden. Er ließ einen bis dahin neutralen Reiz ertönen – etwa ein Metronom oder einen Glockenton – und gab den Hunden gleich danach Futter. Seine Versuchsergebnisse veröffentlichte er 1897.",
+    "result": "Nach einigen Wiederholungen floss den Hunden schon beim Ton allein der Speichel. Der neutrale Reiz war zum Signal für Futter geworden – das nennt man klassische Konditionierung.",
+    "caveat": "Aber ganz allein war Pawlow nicht: Edwin Twitmyer veröffentlichte schon ein Jahr früher verwandte Befunde. Und welcher Ton es war, wird unterschiedlich beschrieben: als Glockenton oder als Metronom.",
+    "sources": [
+      {
+        "name": "Wikipedia: Klassische Konditionierung",
+        "url": "https://de.wikipedia.org/wiki/Klassische_Konditionierung"
+      },
+      {
+        "name": "Wikipedia (englisch): Classical conditioning",
+        "url": "https://en.wikipedia.org/wiki/Classical_conditioning"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Pavlov's dogs (classical conditioning)",
+        "question": "Can a living being learn to react to a completely neutral stimulus as it does to food?",
+        "method": "The physiologist Ivan Pavlov studied digestion in dogs. He sounded a previously neutral stimulus – such as a metronome or a bell – and gave the dogs food right after it. He published his experimental results in 1897.",
+        "result": "After a few repetitions, the dogs salivated at the sound alone. The neutral stimulus had become a signal for food – this is called classical conditioning.",
+        "caveat": "But Pavlov was not quite alone: Edwin Twitmyer published related findings a year earlier. And which sound it was is described differently: as a bell or as a metronome."
+      }
+    },
+    "image_url": "/img/studies/s-pawlow.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-bobo",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1961,
+    "name": "Die Bobo-Puppe (Bandura)",
+    "question": "Lernen Kinder aggressives Verhalten, indem sie es bei Erwachsenen beobachten?",
+    "method": "Albert Bandura beobachtete 1961 Kinder aus dem Kindergarten der Stanford University, 72 insgesamt. Ein Drittel sah etwa zehn Minuten lang, wie ein Erwachsener eine Bobo-Puppe schlug, mit einem Spielzeughammer traf und anschrie; ein Drittel sah einen Erwachsenen friedlich spielen. Danach durften die Kinder selbst spielen.",
+    "result": "Kinder, die das aggressive Vorbild gesehen hatten, verhielten sich danach deutlich häufiger selbst körperlich und mit Worten aggressiv. Jungen ahmten aggressive Männer stärker nach als aggressive Frauen.",
+    "caveat": "Aber das Labor ist nicht das echte Leben: Kind und Vorbild kannten sich nicht. Und als der Versuch 1990 wiederholt wurde, ahmten Kinder, die so eine Puppe noch nie gesehen hatten, das aggressive Verhalten bis zu fünfmal häufiger nach – womöglich spielte schon die Neuheit der Puppe eine Rolle.",
+    "sources": [
+      {
+        "name": "Wikipedia: Albert Bandura",
+        "url": "https://de.wikipedia.org/wiki/Albert_Bandura"
+      },
+      {
+        "name": "Wikipedia (englisch): Bobo doll experiment",
+        "url": "https://en.wikipedia.org/wiki/Bobo_doll_experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Bobo doll (Bandura)",
+        "question": "Do children learn aggressive behaviour by watching adults?",
+        "method": "In 1961 Albert Bandura observed children from the Stanford University nursery school, 72 in all. A third watched an adult hit a Bobo doll, strike it with a toy mallet and shout at it for about ten minutes; a third saw an adult play peacefully. Afterwards the children were allowed to play themselves.",
+        "result": "Children who had seen the aggressive model afterwards behaved aggressively themselves, physically and verbally, much more often. Boys imitated aggressive men more strongly than aggressive women.",
+        "caveat": "But a lab is not real life: child and model did not know each other. And when the experiment was repeated in 1990, children who had never seen such a doll imitated the aggressive behaviour up to five times more often – the novelty of the doll alone may have played a part."
+      }
+    },
+    "image_url": "/img/studies/s-bobo.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-sherif-licht",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1935,
+    "name": "Sherif und der wandernde Lichtpunkt",
+    "question": "Gleichen wir unser Urteil an die Gruppe an, wenn wir uns selbst nicht sicher sind?",
+    "method": "Muzafer Sherif führte Versuchspersonen in einen dunklen Raum und zeigte ihnen einen Lichtpunkt, je Sitzung 100-mal. Sie sollten schätzen, wie weit er sich bewegt. Manche schätzten erst allein und dann in Gruppen von zwei bis drei, andere umgekehrt. Bekannt wurde die Studie mit der Arbeit von 1935.",
+    "result": "Allein entwickelte jede Person ihren eigenen Standard. In der Gruppe rückten die Schätzungen schnell zu einer gemeinsamen Gruppennorm zusammen – und die Leute blieben auch danach dabei, als sie wieder allein schätzten.",
+    "caveat": "Aber der Lichtpunkt hat sich nie bewegt: Die Bewegung ist eine Täuschung im Dunkeln. Die Gruppen einigten sich also auf eine Norm für etwas, das es gar nicht gab. Und entdeckt hat den Einfluss der Suggestion auf diese Täuschung schon Adams im Jahr 1912.",
+    "sources": [
+      {
+        "name": "Wikipedia: Muzafer Sherif",
+        "url": "https://de.wikipedia.org/wiki/Muzafer_Sherif"
+      },
+      {
+        "name": "Wikipedia (englisch): Autokinetic effect",
+        "url": "https://en.wikipedia.org/wiki/Autokinetic_effect"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T10:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Sherif and the wandering point of light",
+        "question": "Do we bring our judgement in line with the group when we are unsure ourselves?",
+        "method": "Muzafer Sherif led participants into a dark room and showed them a point of light, 100 times per session. They were to estimate how far it moved. Some estimated first alone and then in groups of two or three, others the other way round. The study became known through the paper of 1935.",
+        "result": "Alone, each person developed their own standard. In the group, the estimates quickly closed in on a shared group norm – and people kept to it even afterwards, when they estimated alone again.",
+        "caveat": "But the point of light never moved: the movement is an illusion in the dark. So the groups agreed on a norm for something that did not exist. And the influence of suggestion on this illusion had already been recorded by Adams in 1912."
+      }
+    },
+    "image_url": "/img/studies/s-sherif-licht.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-mendel",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1865,
+    "name": "Mendels Erbsen",
+    "question": "Folgt die Vererbung von Merkmalen festen Regeln?",
+    "method": "Der Augustinermönch Gregor Mendel kreuzte Erbsenpflanzen. Er beschränkte sich auf wenige, klar unterscheidbare Merkmale, nahm reinerbige Stämme, bestäubte künstlich und schützte die Pflanzen vor fremdem Blütenstaub. Seine Ergebnisse trug er 1865 vor, 1866 erschienen sie gedruckt.",
+    "result": "Mendel fand feste Zahlenverhältnisse: In der zweiten Generation trat ein Merkmal im Verhältnis 3 zu 1 auf – in allen sieben untersuchten Fällen, abgesichert durch eine große Zahl von Versuchen.",
+    "caveat": "Aber zunächst nahm kaum jemand Notiz davon: Erst 1900, lange nach Mendels Tod, wurden die Regeln „wiederentdeckt“. Und nicht alles vererbt sich so – gekoppelte Gene etwa folgen den Regeln nicht.",
+    "sources": [
+      {
+        "name": "Wikipedia: Mendelsche Regeln",
+        "url": "https://de.wikipedia.org/wiki/Mendelsche_Regeln"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T09:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Mendel's peas",
+        "question": "Does the inheritance of traits follow fixed rules?",
+        "method": "The Augustinian monk Gregor Mendel crossed pea plants. He kept to a few clearly distinct traits, used pure-breeding lines, pollinated by hand and protected the plants from foreign pollen. He presented his results in 1865; they appeared in print in 1866.",
+        "result": "Mendel found fixed ratios: in the second generation a trait appeared in the ratio 3 to 1 – in all seven cases studied, backed by a large number of trials.",
+        "caveat": "But at first hardly anyone took notice: only in 1900, long after Mendel's death, were the rules “rediscovered”. And not everything is inherited this way – linked genes, for example, do not follow the rules."
+      }
+    },
+    "image_url": "/img/studies/s-mendel.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-magdeburg",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1654,
+    "name": "Die Magdeburger Halbkugeln",
+    "question": "Wie stark drückt die Luft, die uns umgibt?",
+    "method": "Otto von Guericke legte zwei Halbkugeln aus Kupfer mit etwa 42 cm Durchmesser aneinander und pumpte die Luft aus der Kugel. Dann sollten Pferdegespanne die Hälften auseinanderziehen. 1654 zeigte er seine Vakuum-Versuche auf dem Reichstag in Regensburg, 1657 in Magdeburg.",
+    "result": "Der Luftdruck drückte die Hälften so fest zusammen, dass 30 Pferde in Regensburg und 16 in Magdeburg sie nicht trennen konnten. Erst als wieder Luft in die Kugel gelassen wurde, fielen sie auseinander – rechnerisch drückt die Luft mit etwa 14 Kilonewton.",
+    "caveat": "Aber wie gut Guerickes Luftpumpe die Kugel wirklich leer bekam, ist nicht bekannt. Und neu war die Erkenntnis nicht ganz: Torricelli und Pascal hatten den „Horror vacui“, die angebliche Scheu der Natur vor der Leere, schon vorher mit Barometer-Versuchen widerlegt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Magdeburger Halbkugeln",
+        "url": "https://de.wikipedia.org/wiki/Magdeburger_Halbkugeln"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T08:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Magdeburg hemispheres",
+        "question": "How strongly does the air around us press?",
+        "method": "Otto von Guericke put two copper hemispheres about 42 cm across together and pumped the air out of the sphere. Then teams of horses were to pull the halves apart. In 1654 he showed his vacuum experiments at the Imperial Diet in Regensburg, in 1657 in Magdeburg.",
+        "result": "The air pressure pressed the halves together so firmly that 30 horses in Regensburg and 16 in Magdeburg could not separate them. Only when air was let back into the sphere did they come apart – by calculation the air presses with about 14 kilonewtons.",
+        "caveat": "But how well Guericke's air pump really emptied the sphere is not known. And the insight was not entirely new: Torricelli and Pascal had already refuted the “horror vacui”, nature's supposed fear of emptiness, with barometer experiments."
+      }
+    },
+    "image_url": "/img/studies/s-magdeburg.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-cavendish",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1798,
+    "name": "Cavendish wiegt die Erde",
+    "question": "Lässt sich die winzige Anziehung zwischen zwei Gegenständen messen – und daraus etwas über die ganze Erde lernen?",
+    "method": "Henry Cavendish nutzte eine Drehwaage: An einem dünnen Draht hängt waagerecht ein Stab mit zwei kleinen Massen an den Enden. Große Massen in der Nähe ziehen sie ein wenig an, der Draht verdreht sich – und ein Spiegel am Stab macht die winzige Drehung sichtbar.",
+    "result": "1798 konnte Cavendish so zum ersten Mal die Dichte der Erde bestimmen. Die Anziehung zwischen den Kugeln war messbar geworden.",
+    "caveat": "Aber um die berühmte Gravitationskonstante ging es Cavendish noch gar nicht: Er wollte die Dichte der Erde bestimmen. Die Konstante wurde erst später aus solchen Messungen berechnet.",
+    "sources": [
+      {
+        "name": "Wikipedia: Cavendish-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Cavendish-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T07:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Cavendish weighs the Earth",
+        "question": "Can the tiny attraction between two objects be measured – and tell us something about the whole Earth?",
+        "method": "Henry Cavendish used a torsion balance: a rod with two small masses at its ends hangs level from a thin wire. Large masses nearby pull on them a little, the wire twists – and a mirror on the rod makes the tiny turn visible.",
+        "result": "In 1798 Cavendish was thus able to determine the density of the Earth for the first time. The attraction between the balls had become measurable.",
+        "caveat": "But Cavendish was not yet after the famous gravitational constant: he wanted to determine the density of the Earth. The constant was only calculated later from such measurements."
+      }
+    },
+    "image_url": "/img/studies/s-cavendish.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-oersted",
+    "category_id": "technology",
+    "min_age": 10,
+    "year": 1820,
+    "name": "Ørsted und die zuckende Kompassnadel",
+    "question": "Haben Elektrizität und Magnetismus etwas miteinander zu tun?",
+    "method": "Hans Christian Ørsted beobachtete 1820 während einer Vorlesung, was eine Kompassnadel tut, wenn neben ihr Strom durch einen Draht fließt. Danach ging er der Sache mit weiteren Experimenten nach.",
+    "result": "Die Nadel wurde abgelenkt: Ein elektrischer Strom erzeugt eine magnetische Wirkung. Ørsted verschickte seine nur vier Seiten lange Abhandlung an knapp 50 Naturforscher – sie regte unter anderem André-Marie Ampère und Michael Faraday zu ihren Arbeiten an.",
+    "caveat": "Aber Ørsted war nicht der Erste: Schon 18 Jahre zuvor, 1802, hatte der Italiener Gian Domenico Romagnosi dasselbe beobachtet. Damals beachtete es nur niemand, und es geriet in Vergessenheit.",
+    "sources": [
+      {
+        "name": "Wikipedia: Hans Christian Ørsted",
+        "url": "https://de.wikipedia.org/wiki/Hans_Christian_Ørsted"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T06:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Ørsted and the twitching compass needle",
+        "question": "Do electricity and magnetism have anything to do with each other?",
+        "method": "In 1820, during a lecture, Hans Christian Ørsted watched what a compass needle does when a current flows through a wire next to it. He then followed it up with further experiments.",
+        "result": "The needle was deflected: an electric current produces a magnetic effect. Ørsted sent his paper, only four pages long, to almost 50 scientists – among others it inspired André-Marie Ampère and Michael Faraday in their work.",
+        "caveat": "But Ørsted was not the first: 18 years earlier, in 1802, the Italian Gian Domenico Romagnosi had observed the same thing. At the time nobody paid attention, and it was forgotten."
+      }
+    },
+    "image_url": "/img/studies/s-oersted.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-spiegeltest",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1970,
+    "name": "Der Spiegeltest (Gallup)",
+    "question": "Erkennen Tiere sich selbst im Spiegel?",
+    "method": "Gordon Gallup untersuchte 1970 vier junge Schimpansen. Sie wurden betäubt und an einer Stelle markiert, die sie ohne Spiegel nicht sehen konnten. Wach geworden, zählte er, wie oft sie die markierte Stelle berührten – mit und ohne Spiegel.",
+    "result": "Mit Spiegel berührten die Schimpansen die Markierung vier- bis zehnmal, ohne Spiegel nur einmal. Sie drehten sich auch, um die Stelle im Spiegel besser zu sehen, und betrachteten danach ihre Finger. Menschenkinder bestehen den Test meist mit rund 24 Monaten.",
+    "caveat": "Aber was der Test genau beweist, ist umstritten. Und er passt nicht für jedes Tier: Hunde orientieren sich vor allem über den Geruch – vielleicht sagt ihr „Durchfallen“ mehr über den Test als über die Hunde.",
+    "sources": [
+      {
+        "name": "Wikipedia: Spiegeltest",
+        "url": "https://de.wikipedia.org/wiki/Spiegeltest"
+      },
+      {
+        "name": "Wikipedia (englisch): Mirror test",
+        "url": "https://en.wikipedia.org/wiki/Mirror_test"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T05:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The mirror test (Gallup)",
+        "question": "Do animals recognise themselves in a mirror?",
+        "method": "In 1970 Gordon Gallup studied four young chimpanzees. They were anaesthetised and marked in a spot they could not see without a mirror. Once awake, he counted how often they touched the marked spot – with and without a mirror.",
+        "result": "With a mirror, the chimpanzees touched the mark four to ten times, without one only once. They also turned to see the spot better in the mirror and then looked at their fingers. Human children usually pass the test at around 24 months.",
+        "caveat": "But what exactly the test proves is disputed. And it does not suit every animal: dogs find their way mainly by smell – perhaps their “failing” says more about the test than about the dogs."
+      }
+    },
+    "image_url": "/img/studies/s-spiegeltest.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-ringelmann",
+    "category_id": "business",
+    "min_age": 10,
+    "year": 1882,
+    "name": "Ringelmann und das Ziehen im Team",
+    "question": "Leistet eine Gruppe so viel wie alle ihre Mitglieder zusammen?",
+    "method": "Der französische Agraringenieur Maximilien Ringelmann untersuchte zwischen 1882 und 1887, wie effizient Pferde, Ochsen, Maschinen und Menschen arbeiten. Dafür ließ er unter anderem Männer an einer Last ziehen – einen allein, sieben oder vierzehn gleichzeitig.",
+    "result": "Je mehr Männer gleichzeitig zogen, desto weniger leistete jeder Einzelne. Die Gruppe brachte weniger, als die Summe der Einzelleistungen erwarten ließ.",
+    "caveat": "Aber warum, ist unklar: Es kann an der Abstimmung liegen – alle mussten gleichzeitig ziehen – oder an weniger Einsatz. Außerdem wird der Versuch selbst in Lehrbüchern oft falsch wiedergegeben, weil das Original lange nicht zu finden war.",
+    "sources": [
+      {
+        "name": "Wikipedia: Ringelmann-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Ringelmann-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T04:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Ringelmann and pulling as a team",
+        "question": "Does a group achieve as much as all its members together?",
+        "method": "Between 1882 and 1887 the French agricultural engineer Maximilien Ringelmann studied how efficiently horses, oxen, machines and people work. Among other things he had men pull on a load – one alone, seven or fourteen at once.",
+        "result": "The more men pulled at once, the less each one achieved. The group delivered less than the sum of the single efforts would suggest.",
+        "caveat": "But why is unclear: it may be down to coordination – everyone had to pull at the same time – or to less effort. And the experiment is often misreported even in textbooks, because the original could not be found for a long time."
+      }
+    },
+    "image_url": "/img/studies/s-ringelmann.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-zeigarnik",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1927,
+    "name": "Der Zeigarnik-Effekt (Unerledigtes bleibt hängen?)",
+    "question": "Erinnern wir uns an unterbrochene Aufgaben besser als an erledigte?",
+    "method": "Die Psychologin Bljuma Zeigarnik untersuchte 1927 an der Universität Berlin, wie gut sich Menschen an Aufgaben erinnern, die sie abgeschlossen hatten, und an solche, die unterbrochen worden waren.",
+    "result": "Die unterbrochenen, unerledigten Aufgaben blieben besser im Gedächtnis – sogar dann, wenn für sie weniger Zeit aufgewendet worden war. Erklärt wurde das mit einer Spannung, die eine angefangene Aufgabe aufbaut und die erst mit ihrem Abschluss nachlässt.",
+    "caveat": "Aber der Effekt ließ sich in vielen Untersuchungen nicht wiederholen und gilt als wenig zuverlässig – häufig kam sogar das Gegenteil heraus. Warum, ist nicht klar.",
+    "sources": [
+      {
+        "name": "Wikipedia: Zeigarnik-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Zeigarnik-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T03:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Zeigarnik effect (does unfinished business stick?)",
+        "question": "Do we remember interrupted tasks better than finished ones?",
+        "method": "In 1927 at the University of Berlin, the psychologist Bluma Zeigarnik studied how well people remember tasks they had finished and tasks that had been interrupted.",
+        "result": "The interrupted, unfinished tasks stuck better in memory – even when less time had been spent on them. This was explained by a tension that a started task builds up and that only eases once it is finished.",
+        "caveat": "But the effect could not be repeated in many studies and is considered unreliable – often the opposite came out. Why is not clear."
+      }
+    },
+    "image_url": "/img/studies/s-zeigarnik.svg",
+    "image_credit": "Zeichnung: Wunder"
   }
 ]

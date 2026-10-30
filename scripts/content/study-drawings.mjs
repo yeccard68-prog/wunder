@@ -108,6 +108,53 @@ const drawings = {
     ${person(70, 280, 0.8, "ink")}${person(330, 280, 0.8, "grey")}
     ${Array.from({ length: 7 }, (_, i) => `<ellipse cx="120" cy="${250 - i * 14}" rx="18" ry="6" fill="${ACCENT}" stroke="${INK}" stroke-width="2"/>`).join("")}
     ${Array.from({ length: 3 }, (_, i) => `<ellipse cx="280" cy="${250 - i * 14}" rx="18" ry="6" fill="${GOLD}" stroke="${INK}" stroke-width="2"/>`).join("")}`),
+  // Pavlov: a sound (a metronome), then food – and the dog's mouth waters at the sound alone
+  "s-pawlow": svg(`<g fill="${INK}"><path d="M70 220 C70 170 110 150 160 150 L230 150 C250 150 262 140 270 128 L292 120 C306 118 318 128 318 142 C318 158 304 166 290 166 L276 166 C268 180 260 196 252 206 L252 250 L236 250 L232 214 L170 214 L166 250 L150 250 L146 214 C120 214 100 230 92 250 L76 250 Z"/><path d="M284 122 C276 138 282 158 296 154 C302 142 300 128 292 120 Z"/></g>${line("M74 186 C56 170 50 150 56 130", INK, 8)}
+    <circle cx="300" cy="136" r="3" fill="${WHITE}"/>${[0, 1, 2].map((i) => `<path d="M${312 + i * 4} ${172 + i * 14} q4 8 0 12 q-4 -4 0 -12z" fill="#7cc4f0"/>`).join("")}
+    <path d="M330 36 L370 36 L384 104 L316 104 Z" fill="${AMBER}" stroke="${INK}" stroke-width="3"/>${line("M350 98 L362 48", INK, 4)}<circle cx="358" cy="62" r="5" fill="${INK}"/>
+    ${[0, 1, 2].map((i) => `<path d="M${298 - i * 12} ${60 - i * 8} q-10 10 0 20" stroke="${ACCENT}" stroke-width="3" fill="none"/>`).join("")}
+    <path d="M40 262 h80 l-10 18 h-60z" fill="${WHITE}" stroke="${INK}" stroke-width="3"/><ellipse cx="80" cy="262" rx="40" ry="6" fill="${AMBER}"/>`),
+  // Bandura: an adult hits the roly-poly doll with a toy mallet – a child watches
+  "s-bobo": svg(`<g transform="translate(250 250)"><path d="M-38 0 C-46 -40 -30 -110 0 -110 C30 -110 46 -40 38 0 C30 18 -30 18 -38 0 Z" fill="${WHITE}" stroke="${INK}" stroke-width="3"/><circle cx="0" cy="-92" r="16" fill="${ACCENT}"/><circle cx="-5" cy="-95" r="2.5" fill="${INK}"/><circle cx="5" cy="-95" r="2.5" fill="${INK}"/><path d="M-30 -30 h60" stroke="${ACCENT}" stroke-width="10"/></g>
+    ${person(150, 262, 1, "ink")}${line("M170 168 L205 128", INK, 6)}<rect x="196" y="112" width="34" height="20" rx="4" fill="${AMBER}" transform="rotate(-38 213 122)"/>
+    ${person(60, 272, 0.62, "grey")}<path d="M76 196 q40 -30 80 -20" stroke="${GREY}" stroke-width="3" fill="none" stroke-dasharray="4 6"/>
+    ${line("M300 150 l14 -10 M300 170 l18 0 M300 190 l14 10", ACCENT, 3)}`),
+  // Sherif: a dark room, a still point of light that seems to wander, and estimates drawing together
+  "s-sherif-licht": svg(`<rect x="30" y="30" width="340" height="170" rx="10" fill="${INK}"/><circle cx="200" cy="110" r="6" fill="#fff6c8"/><path d="M200 110 c20 -14 34 12 52 -2 s30 18 46 4" stroke="#fff6c8" stroke-width="2" fill="none" stroke-dasharray="3 6" opacity="0.7"/>
+    ${person(110, 290, 0.75, "grey")}${person(200, 290, 0.75, "grey")}${person(290, 290, 0.75, "grey")}
+    ${[[110, 210, 60], [200, 210, 46], [290, 210, 30]].map(([x, y, w]) => `<rect x="${x - w / 2}" y="${y}" width="${w}" height="8" rx="4" fill="${ACCENT}"/>`).join("")}`),
+  // Mendel: a pea pod in the second generation – three of one kind, one of the other
+  "s-mendel": svg(`<path d="M60 160 C120 90 290 90 350 150 C290 210 120 220 60 160 Z" fill="#7fb069" stroke="${INK}" stroke-width="4"/>
+    ${[[120, 155, GOLD], [175, 150, GOLD], [230, 150, GOLD], [285, 153, "#4f8a3a"]].map(([x, y, c]) => `<circle cx="${x}" cy="${y}" r="22" fill="${c}" stroke="${INK}" stroke-width="3"/>`).join("")}
+    ${line("M60 160 C40 150 30 130 36 112", "#4f8a3a", 5)}<path d="M150 250 h100" stroke="${INK}" stroke-width="4"/>${[0, 1, 2].map((i) => `<circle cx="${160 + i * 26}" cy="230" r="8" fill="${GOLD}"/>`).join("")}<circle cx="240" cy="230" r="8" fill="#4f8a3a"/>`),
+  // Guericke: two copper hemispheres, emptied of air – two teams of horses cannot pull them apart
+  "s-magdeburg": svg(`<circle cx="200" cy="150" r="46" fill="#c87533" stroke="${INK}" stroke-width="4"/>${line("M200 104 V196", INK, 4)}<circle cx="200" cy="150" r="6" fill="${INK}"/>
+    ${line("M154 150 H96 M246 150 H304", INK, 4)}
+    ${[[70, -1], [330, 1]].map(([x, d]) => `<g transform="translate(${x} 150) scale(${d} 1)" fill="${INK}"><path d="M-26 -18 L24 -18 L36 -50 L54 -48 L58 -40 L46 -34 L40 -10 L40 4 L34 4 L34 38 L27 38 L27 6 L-14 6 L-14 38 L-21 38 L-21 4 C-28 0 -30 -8 -28 -14 Z"/><path d="M-28 -14 C-40 -8 -42 6 -38 18" stroke="${INK}" stroke-width="5" fill="none"/></g>`).join("")}
+    ${arrow("M60 200 H20", ACCENT, 4)}${arrow("M340 200 H380", ACCENT, 4)}`),
+  // Cavendish: a rod on a thin wire, small balls drawn towards big ones, a mirror sending light to a scale
+  "s-cavendish": svg(`${line("M200 20 V140", INK, 2)}<rect x="90" y="138" width="220" height="6" fill="${INK}"/><circle cx="96" cy="141" r="10" fill="${GREY}"/><circle cx="304" cy="141" r="10" fill="${GREY}"/>
+    <circle cx="70" cy="188" r="30" fill="${INK}"/><circle cx="330" cy="94" r="30" fill="${INK}"/><rect x="194" y="150" width="12" height="18" fill="#9fc3d6"/>
+    ${line("M40 260 L200 162 L360 250", ACCENT, 2.5)}<rect x="330" y="240" width="60" height="30" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/>${[340, 352, 364, 376].map((x) => line(`M${x} 242 v8`, GREY, 2)).join("")}
+    ${arrow("M120 160 L96 168", ACCENT, 3)}${arrow("M280 124 L304 116", ACCENT, 3)}`),
+  // Ørsted: current through a wire above a compass – the needle swings aside
+  "s-oersted": svg(`<rect x="40" y="200" width="60" height="40" rx="4" fill="${INK}"/><rect x="100" y="212" width="8" height="16" fill="${INK}"/>${line("M70 200 V90 H330 V220 H108", AMBER, 5)}
+    <circle cx="200" cy="170" r="50" fill="${WHITE}" stroke="${INK}" stroke-width="4"/>${line("M200 136 V204", GREY, 2)}
+    <g transform="rotate(58 200 170)"><path d="M200 128 L210 170 L200 212 L190 170 Z" fill="${INK}"/><path d="M200 128 L210 170 L190 170 Z" fill="${ACCENT}"/></g><circle cx="200" cy="170" r="5" fill="${GOLD}"/>
+    ${arrow("M150 90 H250", ACCENT, 3)}`),
+  // Gallup: a chimpanzee at the mirror touches the mark on its forehead
+  "s-spiegeltest": svg(`<rect x="230" y="30" width="140" height="240" rx="10" fill="#dfe8ec" stroke="${INK}" stroke-width="4"/>
+    ${[[130, 1, INK], [300, -1, "#5a5754"]].map(([x, d, c]) => `<g transform="translate(${x} 270) scale(${d} 1)" fill="${c}"><path d="M-40 0 C-44 -60 -34 -96 0 -100 C34 -96 44 -60 40 0 Z"/><circle cx="0" cy="-126" r="32"/><ellipse cx="0" cy="-116" rx="20" ry="16" fill="#a08a78"/><circle cx="-34" cy="-130" r="10"/><circle cx="34" cy="-130" r="10"/><circle cx="-8" cy="-130" r="3" fill="${WHITE}"/><circle cx="8" cy="-130" r="3" fill="${WHITE}"/><circle cx="0" cy="-150" r="7" fill="${ACCENT}"/><path d="M30 -60 C52 -90 40 -130 12 -150" stroke="${c}" stroke-width="12" fill="none" stroke-linecap="round"/></g>`).join("")}`),
+  // Ringelmann: one man pulling alone, seven together – each one's share shrinks
+  "s-ringelmann": svg(`${line("M20 168 H380", AMBER, 5)}<rect x="350" y="146" width="40" height="44" fill="${GREY}"/>
+    ${[0, 1, 2, 3, 4, 5, 6].map((i) => person(60 + i * 40, 222, 0.62, i === 0 ? "ink" : "grey")).join("")}
+    ${[0, 1, 2, 3, 4, 5, 6].map((i) => `<rect x="${50 + i * 40}" y="${296 - (40 - i * 4.5)}" width="20" height="${40 - i * 4.5}" fill="${i === 0 ? ACCENT : GREY}"/>`).join("")}${line("M40 296 H330", INK, 3)}`),
+  // Zeigarnik: a list of tasks – the unfinished one stays on the mind
+  "s-zeigarnik": svg(`<rect x="60" y="40" width="200" height="220" rx="10" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/>
+    ${[0, 1, 2].map((i) => `<rect x="80" y="${70 + i * 60}" width="26" height="26" rx="5" fill="none" stroke="${INK}" stroke-width="3"/>${line(`M120 ${83 + i * 60} h${110 - i * 20}`, i === 2 ? INK : GREY, 6)}`).join("")}
+    ${line("M84 82 l8 9 l14 -18", GREY, 4)}${line("M84 142 l8 9 l14 -18", GREY, 4)}<rect x="84" y="194" width="10" height="18" fill="${ACCENT}"/>
+    ${person(320, 280, 0.8, "ink")}<ellipse cx="320" cy="96" rx="56" ry="40" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/><circle cx="300" cy="150" r="8" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/>
+    <rect x="296" y="84" width="16" height="24" fill="${ACCENT}"/><rect x="296" y="84" width="34" height="24" fill="none" stroke="${INK}" stroke-width="3"/>`),
 };
 
 const DATA = "content/studies.json";
