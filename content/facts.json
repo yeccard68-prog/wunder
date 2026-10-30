@@ -249,9 +249,12 @@
     "translations": {
       "en": {
         "text": "The well-known \"tongue map\" with separate zones for sweet, sour, salty and bitter is wrong.",
-        "detail": "Every taste can be sensed all over the tongue. Some areas are just a little more sensitive to certain tastes."
+        "detail": "Every taste can be sensed all over the tongue. Some areas are just a little more sensitive to certain tastes.",
+        "myth": "Each basic taste is sensed only in its own zone of the tongue."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "Jede Geschmacksrichtung wird nur in einer eigenen Zone der Zunge wahrgenommen."
   },
   {
     "id": "f-herzschlaege",
@@ -674,9 +677,12 @@
     "translations": {
       "en": {
         "text": "Vikings did not wear horned helmets.",
-        "detail": "This picture only emerged in the 19th century and has lived on in films, comics and costumes ever since."
+        "detail": "This picture only emerged in the 19th century and has lived on in films, comics and costumes ever since.",
+        "myth": "Vikings wore horned helmets in battle."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "Wikinger trugen im Kampf Helme mit Hörnern."
   },
   {
     "id": "f-olympia-kunst",
@@ -3142,6 +3148,183 @@
       "en": {
         "text": "The longest bone in your body is in your thigh.",
         "detail": "The thigh bone (femur) is also the strongest long bone. Its head forms the hip joint with the pelvis."
+      }
+    }
+  },
+  {
+    "id": "f-sputnik-92",
+    "category_id": "technology",
+    "area": "space",
+    "min_age": 10,
+    "text": "Der erste Satellit der Welt kreiste nur 92 Tage.",
+    "detail": "Sputnik 1 startete am 4. Oktober 1957 und war der erste künstliche Erdsatellit. Am 4. Januar 1958 verglühte er, als er wieder in tiefere Schichten der Atmosphäre eintrat.",
+    "sources": [
+      {
+        "name": "Wikipedia: Sputnik 1",
+        "url": "https://de.wikipedia.org/wiki/Sputnik_1"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The world's first satellite orbited for only 92 days.",
+        "detail": "Sputnik 1 was launched on 4 October 1957 and was the first artificial Earth satellite. It burned up on 4 January 1958 when it re-entered the lower layers of the atmosphere.",
+        "figureSuffix": " days"
+      }
+    },
+    "figure": {
+      "value": 92,
+      "suffix": " Tage"
+    }
+  },
+  {
+    "id": "f-golden-record",
+    "category_id": "technology",
+    "area": "space",
+    "min_age": 10,
+    "text": "Zwei Raumsonden tragen eine goldene Schallplatte mit Grüßen in 55 Sprachen ins All.",
+    "detail": "Die Platten wurden 1977 mit Voyager 1 und Voyager 2 gestartet. Sie enthalten 116 Bilder und gesprochene Grüße. Ihre Lebensdauer wird auf 500 Millionen Jahre geschätzt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Voyager Golden Record",
+        "url": "https://de.wikipedia.org/wiki/Voyager_Golden_Record"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Two space probes carry a golden record with greetings in 55 languages out into space.",
+        "detail": "The records were launched in 1977 aboard Voyager 1 and Voyager 2. They hold 116 images and spoken greetings. Their lifetime is estimated at 500 million years.",
+        "figureSuffix": " languages"
+      }
+    },
+    "figure": {
+      "value": 55,
+      "suffix": " Sprachen"
+    }
+  },
+  {
+    "id": "f-hubble-fehler",
+    "category_id": "technology",
+    "area": "space",
+    "min_age": 10,
+    "text": "Das Hubble-Teleskop lieferte zuerst unscharfe Bilder – ein Spiegelfehler.",
+    "detail": "Hubble startete am 24. April 1990. Ein Fehler des Hauptspiegels machte die Bilder praktisch unbrauchbar. 1993 wurde er mit dem Spiegelsystem COSTAR korrigiert.",
+    "sources": [
+      {
+        "name": "Wikipedia: Hubble-Weltraumteleskop",
+        "url": "https://de.wikipedia.org/wiki/Hubble-Weltraumteleskop"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The Hubble telescope first delivered blurry images – because of a mirror flaw.",
+        "detail": "Hubble was launched on 24 April 1990. A flaw in the main mirror made the images practically unusable. In 1993 it was corrected with the COSTAR mirror system."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-olympia-1896",
+    "category_id": "sport",
+    "area": "history",
+    "min_age": 10,
+    "text": "Bei den ersten modernen Olympischen Spielen 1896 durften Frauen nur zuschauen.",
+    "detail": "In Athen nahmen 241 Athleten teil. Frauen waren nicht zugelassen. Schon vier Jahre später in Paris durften auch Athletinnen starten.",
+    "sources": [
+      {
+        "name": "Wikipedia: Olympische Sommerspiele 1896",
+        "url": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1896"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "At the first modern Olympic Games in 1896, women were only allowed to watch.",
+        "detail": "In Athens 241 athletes took part. Women were not admitted. Just four years later in Paris, female athletes were allowed to compete as well."
+      }
+    }
+  },
+  {
+    "id": "f-terrakotta-arbeiter",
+    "category_id": "culture",
+    "area": "history",
+    "min_age": 10,
+    "text": "Am Grab des ersten Kaisers von China, bekannt für die Terrakotta-Armee, bauten wohl über 700.000 Arbeiter.",
+    "detail": "Der Bau begann 246 v. Chr. Die Zahl der Arbeiter beruht auf Vermutungen von Fachleuten. Seit 1987 steht die Anlage auf der Liste des UNESCO-Weltkulturerbes.",
+    "sources": [
+      {
+        "name": "Wikipedia: Mausoleum Qin Shihuangdis",
+        "url": "https://de.wikipedia.org/wiki/Mausoleum_Qin_Shihuangdis"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The tomb of China's first emperor, famous for its Terracotta Army, was probably built by more than 700,000 workers.",
+        "detail": "Construction began in 246 BC. The number of workers is based on estimates by researchers. Since 1987 the site has been on the UNESCO World Heritage list.",
+        "figureSuffix": " workers"
+      }
+    },
+    "figure": {
+      "value": 700000,
+      "suffix": " Arbeiter"
+    }
+  },
+  {
+    "id": "f-stonehenge-blausteine",
+    "category_id": "culture",
+    "area": "history",
+    "min_age": 10,
+    "text": "Für Stonehenge wurden Steine über 250 Kilometer weit herangeschafft.",
+    "detail": "Die sogenannten Blausteine stammen aus dem heutigen Wales. Gebaut wurde ab mindestens 3000 v. Chr. Die anspruchsvollste Bauphase fiel etwa in die Zeit der Cheops-Pyramide.",
+    "sources": [
+      {
+        "name": "Wikipedia: Stonehenge",
+        "url": "https://de.wikipedia.org/wiki/Stonehenge"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Stones for Stonehenge were brought from more than 250 kilometres away.",
+        "detail": "The so-called bluestones come from what is now Wales. Building began at least as early as 3000 BC. The most ambitious building phase took place around the time of the Great Pyramid of Cheops."
+      }
+    }
+  },
+  {
+    "id": "f-wasserlaeufer",
+    "category_id": "science",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Wasserläufer laufen über das Wasser, ohne einzusinken – dank Härchen und Oberflächenspannung.",
+    "detail": "Ihr Körper ist mit feinsten Härchen bedeckt, die Wasser abweisen. Die Tiere werden nur 10 bis 20 Millimeter lang.",
+    "sources": [
+      {
+        "name": "Wikipedia: Wasserläufer",
+        "url": "https://de.wikipedia.org/wiki/Wasserläufer"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Water striders walk on water without sinking – thanks to tiny hairs and surface tension.",
+        "detail": "Their body is covered in very fine hairs that repel water. The animals are only 10 to 20 millimetres long."
       }
     }
   }
