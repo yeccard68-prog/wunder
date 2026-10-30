@@ -348,11 +348,11 @@ test("new question formats: put in order, estimate with a slider, fill the gap",
   await expect(planets.locator('[data-testid="order-list"] li[data-mark="true"]')).toContainText("Erde");
   await expect(planets.getByTestId("order-solution").locator("li").first()).toContainText("Merkur");
 
-  const estimate = await find("Erdoberfläche", "Wie viel Prozent der Erdoberfläche");
-  await estimate.getByRole("slider").fill("69");
+  const estimate = await find("Vereinten Nationen", "Wie viele Mitgliedstaaten haben die Vereinten Nationen");
+  await estimate.getByRole("slider").fill("190");
   await estimate.getByRole("button", { name: "Schätzung abgeben" }).click();
-  await expect(estimate.getByText("Richtig!")).toBeVisible(); // 69 is within ± 5 of 71
-  await expect(estimate.getByText(/Richtig sind 71 %/)).toBeVisible();
+  await expect(estimate.getByText("Richtig!")).toBeVisible(); // 190 is within ± 10 of 193
+  await expect(estimate.getByText(/Richtig sind 193 Staaten/)).toBeVisible();
 
   const blank = await find("Hauptstadt von Frankreich", "Die Hauptstadt von Frankreich ist");
   await blank.getByRole("textbox", { name: "Deine Antwort" }).fill("Lyon");
@@ -485,7 +485,7 @@ test("an account set up for a children's age band is asked for the age again", a
 test("interactive: compound interest – guess first, then the sliders change curve and numbers", async ({ page }) => {
   await signIn(page);
   await page.goto("/lab/");
-  await expect(page.getByTestId("visual-row")).toHaveCount(10);
+  await expect(page.getByTestId("visual-row")).toHaveCount(12);
   await page.getByRole("button", { name: /Zinseszins/ }).click();
   const card = page.getByTestId("visual-card");
   await expect(card).toHaveAttribute("data-revealed", "false");
@@ -757,4 +757,33 @@ test("a maths exercise checks the answer at once and shows how it is worked out"
   await expect(ex.getByTestId("exercise-result")).toContainText(/Richtig!|Nicht ganz\./);
   await page.getByTestId("more-exercises").click();
   await expect(page.getByTestId("exercise")).toHaveCount(8);
+});
+
+test("a look inside: the picture opens after the guess, the line follows drag and arrow keys, labels show where the inside is", async ({ page }) => {
+  await signIn(page);
+  const card = page.getByTestId("visual-card");
+  await page.goto("/lab/?v=v-herz-innen");
+  const viz = card.getByTestId("viz-reveal");
+  await expect(viz.getByTestId("reveal-locked")).toBeVisible(); // closed until the guess is in
+  await expect(viz.locator('[data-testid="reveal-label"][data-shown="true"]')).toHaveCount(0);
+  await card.getByRole("button", { name: "Die linke Kammer" }).click();
+  const handle = viz.getByRole("slider", { name: "Linie zwischen außen und innen" });
+  await expect(handle).toHaveAttribute("aria-valuenow", "50"); // opens halfway by itself
+  await expect(viz.locator('[data-testid="reveal-label"][data-shown="true"]')).toContainText(["Linke Kammer"]);
+  await expect(viz.locator('[data-testid="reveal-label"][data-shown="true"]').filter({ hasText: "Rechter Vorhof" })).toHaveCount(0);
+  // drag the line to the left edge: everything inside shows
+  await viz.locator("svg").first().scrollIntoViewIfNeeded();
+  const box = (await viz.locator("svg").first().boundingBox())!;
+  await page.mouse.move(box.x + box.width * 0.5, box.y + box.height * 0.5);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width * 0.05, box.y + box.height * 0.5, { steps: 5 });
+  await page.mouse.up();
+  await expect(viz.locator('[data-testid="reveal-label"][data-shown="true"]').filter({ hasText: "Rechter Vorhof" })).toHaveCount(1);
+  // keyboard: End closes it, Home opens it all the way
+  await handle.focus();
+  await page.keyboard.press("End");
+  await expect(handle).toHaveAttribute("aria-valuenow", "0");
+  await expect(viz.locator('[data-testid="reveal-label"][data-shown="true"]')).toHaveCount(0);
+  await page.keyboard.press("Home");
+  await expect(handle).toHaveAttribute("aria-valuenow", "100");
 });

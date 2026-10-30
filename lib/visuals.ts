@@ -8,9 +8,10 @@ import { fitsAge } from "@/lib/content";
 import { reviewedStatus } from "@/lib/reviews";
 import type { AgeBand } from "@/lib/types";
 
-export type VisualType = "growth" | "scatter" | "market" | "bars" | "timeline" | "chance" | "sampling";
-/** real = measured values from the named source · model = computed from the stated formula with example numbers */
-export type DataKind = "real" | "model";
+export type VisualType = "growth" | "scatter" | "market" | "bars" | "timeline" | "chance" | "sampling" | "reveal";
+/** real = measured values from the named source · model = computed from the stated formula with example numbers ·
+ * drawing = an own drawing after the named sources (simplified; proportions as stated in `note`) */
+export type DataKind = "real" | "model" | "drawing";
 
 export interface Slider {
   min: number;
@@ -54,6 +55,12 @@ export interface SamplingConfig {
   words: { key: string; p: number }[]; // example values, they add up to 1
   temperature: Slider;
 }
+/** A look inside: a slider moves the line between the outside and the inside of the same drawing (components/viz/reveal) */
+export interface RevealConfig {
+  scene: "earth" | "heart";
+  /** labels on the inside, at x/y in % of the drawing; `side`: where the text sits next to its point; `late` ones after the prediction */
+  parts: { key: string; x: number; y: number; side: "left" | "right"; late?: boolean }[];
+}
 export interface MarketConfig {
   unit: string;
   demand: { intercept: number; slope: number }; // price = intercept − slope × quantity
@@ -80,7 +87,7 @@ export interface VisualRow extends Texts {
   min_age: number;
   difficulty: 1 | 2 | 3;
   data_kind: DataKind;
-  config: GrowthConfig | ScatterConfig | MarketConfig | BarsConfig | TimelineConfig | ChanceConfig | SamplingConfig;
+  config: GrowthConfig | ScatterConfig | MarketConfig | BarsConfig | TimelineConfig | ChanceConfig | SamplingConfig | RevealConfig;
   predict_correct: number | null;
   sources: { name: string; url: string }[];
   links: { kind: "question" | "animation" | "book"; id: string }[];
@@ -104,8 +111,8 @@ export interface Visual extends Texts {
 
 export const visualRows = visualsJson as unknown as VisualRow[];
 /** German names of the types; also the translation keys. */
-export const TYPE_NAME: Record<VisualType, string> = { growth: "Rechner mit Verlauf", scatter: "Daten erkunden", market: "Modell zum Ausprobieren", bars: "Vergleich", timeline: "Zeitleiste", chance: "Zufallsexperiment", sampling: "Modell zum Ausprobieren" };
-export const KIND_NAME: Record<DataKind, string> = { real: "Echte Daten", model: "Rechenmodell mit Beispielzahlen" };
+export const TYPE_NAME: Record<VisualType, string> = { growth: "Rechner mit Verlauf", scatter: "Daten erkunden", market: "Modell zum Ausprobieren", bars: "Vergleich", timeline: "Zeitleiste", chance: "Zufallsexperiment", sampling: "Modell zum Ausprobieren", reveal: "Blick ins Innere" };
+export const KIND_NAME: Record<DataKind, string> = { real: "Echte Daten", model: "Rechenmodell mit Beispielzahlen", drawing: "Eigene Zeichnung nach Quellen" };
 
 /** Published visualisations for one learner: right language (fallback: German), right age level. */
 export function visualsFor(locale: string, band: AgeBand | null): Visual[] {

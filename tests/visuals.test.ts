@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import test from "node:test";
 import { CATEGORIES } from "../lib/categories";
-import { birthdayChance, birthdayGroup, compound, doorsGame, drawIndex, equilibrium, formatNumber, logTicks, paidIn, runningShare, scale, seeded, ticks, visualRows, visualsFor, withTemperature, type ChanceConfig, type GrowthConfig, type MarketConfig, type SamplingConfig, type ScatterConfig } from "../lib/visuals";
+import { birthdayChance, birthdayGroup, compound, doorsGame, drawIndex, equilibrium, formatNumber, logTicks, paidIn, runningShare, scale, seeded, ticks, visualRows, visualsFor, withTemperature, type ChanceConfig, type GrowthConfig, type MarketConfig, type RevealConfig, type SamplingConfig, type ScatterConfig } from "../lib/visuals";
 
 const ids = (file: string) => new Set((JSON.parse(fs.readFileSync(file, "utf8")) as { id: string }[]).map((x) => x.id));
 const known = { question: ids("content/questions.json"), animation: ids("content/animations.json"), book: ids("content/books.json") };
@@ -12,7 +12,9 @@ test("visuals: every record is complete, sourced, translated and points to thing
   assert.equal(new Set(visualRows.map((v) => v.id)).size, visualRows.length);
   for (const v of visualRows) {
     assert.ok(CATEGORIES.some((c) => c.id === v.category_id), `${v.id}: category`);
-    assert.ok(["real", "model"].includes(v.data_kind), `${v.id}: data kind`);
+    assert.ok(["real", "model", "drawing"].includes(v.data_kind), `${v.id}: data kind`);
+    assert.equal(v.data_kind === "drawing", v.type === "reveal", `${v.id}: drawings are what the reveal type shows`);
+    if (v.type === "reveal") for (const p of (v.config as RevealConfig).parts) assert.ok(v.labels[p.key] && p.x > 0 && p.x < 100 && p.y > 0 && p.y < 100, `${v.id}: label ${p.key}`);
     assert.ok(v.sources.length > 0 && v.sources.every((s) => /^https:\/\//.test(s.url)), `${v.id}: sources`);
     for (const l of v.links) assert.ok(known[l.kind].has(l.id), `${v.id}: link ${l.id}`);
     if (v.status === "published") assert.notEqual(v.verification_status, "unverified");

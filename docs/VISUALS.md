@@ -33,6 +33,7 @@ Typen heute:
 | `timeline` | `TimelineViz` | Technik-Meilensteine (echte Daten) | Ereignis antippen, Abstände einblenden, maßstabsgetreu ↔ gleiche Abstände; Beschriftungen weichen sich aus (`spreadLabels`) |
 | `chance` | `ChanceViz` | Geburtstagsparadoxon, Ziegenproblem, Münzwurf (Rechenmodell, 29.10.2026) | einmal von Hand, dann tausendmal auf Knopfdruck; ausgezählt neben berechnet; Simulation mit `Math.random`, Formeln getestet mit `seeded` |
 | `sampling` | `SamplingViz` | Wie eine KI das nächste Wort wählt (Beispielzahlen) | Temperatur-Regler formt die Wahrscheinlichkeiten um (p^(1/T)), Wörter ziehen und zählen |
+| `reveal` | `RevealViz` | Blick ins Innere: Erde, Herz (eigene Zeichnungen, 30.10.2026) | eine Linie trennt Außen- und Innenansicht derselben Zeichnung; ziehen, tippen oder Pfeiltasten/Pos1/Ende; bis zur Schätzung geschlossen, dann öffnet sie sich halb; Beschriftungen erscheinen, wo das Innere zu sehen ist. Zeichnungen in `components/viz/reveal/scenes.tsx` (je Szene `outside` und `inside` im Rahmen 400 × 400), die Erde aus Natural-Earth-Daten (`node scripts/build-globe.mjs`) |
 
 Lernmuster aus dem Auftrag und wo sie stecken: **Predict** (Schätzfrage, sperrt das Ausprobieren bis zur Antwort), **Manipulate/Explore** (Regler, Umschalter), **Explain** (fester Erklärtext, beim Markt zusätzlich ein Text, der auf die Reglerstellung reagiert), **Compare** (gestrichelte Ausgangslage, „vorher“-Werte), **Apply** (Aufgabe), **Recall** (verknüpfte Quizfrage).
 
@@ -70,7 +71,8 @@ Hinweis: `scatter` zeichnet das Gesetz als `y = x^power` ohne Vorfaktor. Für `y
 
 ## Regeln für Daten und Darstellung
 
-- `real` nur für Werte aus der genannten Quelle; gerundete Werte als gerundet kennzeichnen. Alles Gerechnete ist `model`, und die Formel steht in `note` oder ist in `lib/visuals.ts` nachlesbar.
+- `real` nur für Werte aus der genannten Quelle; gerundete Werte als gerundet kennzeichnen. Alles Gerechnete ist `model`, und die Formel steht in `note` oder ist in `lib/visuals.ts` nachlesbar. Eigene Zeichnungen (`reveal`) sind `drawing`; was vereinfacht oder nicht maßstäblich ist, steht in `note`.
+- Bilder nur selbst gezeichnet (Wunsch des Betreibers, 30.10.2026) – keine fremden Fotos oder Grafiken, keine KI-Bilder.
 - Achsen beginnen bei null, außer bei logarithmischen Achsen (dort steht es dabei). Einheiten stehen an jeder Achse.
 - Farbe trägt nie allein die Bedeutung: Linien sind im Bild beschriftet, Punkte benannt, und jede Darstellung mit Zahlenreihen hat eine Tabelle.
 - Regler sind echte `<input type="range">` mit ausgeschriebenem Wert – Tastatur und Screenreader funktionieren ohne Zusatzcode.
