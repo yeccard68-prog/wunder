@@ -58,9 +58,8 @@
         "caveat": "But critics said the participants had no reason to answer correctly. In a repeat with Swiss students from 2024, conformity dropped when correct answers earned money, but it stayed considerable at 25%."
       }
     },
-    "image_url": "/img/studies/s-asch.webp",
-    "image_credit": "Fred the Oyster · CC BY-SA 4.0",
-    "image_source": "https://commons.wikimedia.org/wiki/File:Asch_experiment.svg"
+    "image_url": "/img/studies/s-asch.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-milgram",
@@ -152,9 +151,8 @@
         "caveat": "But newer research thinks the effect is weaker than assumed: it can even be produced with randomly generated data, and in one newer study almost 80% of the least competent participants judged their ability quite well."
       }
     },
-    "image_url": "/img/studies/s-dunning-kruger.webp",
-    "image_credit": "Phlsph7 · CC BY-SA 4.0",
-    "image_source": "https://commons.wikimedia.org/wiki/File:Dunning-kruger_effect_-_percentile.svg"
+    "image_url": "/img/studies/s-dunning-kruger.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-pygmalion",
@@ -308,9 +306,8 @@
         "caveat": "But critics pointed out that his self-experiments had no control of disturbing factors and that meaningless syllables say only a limited amount about things learned with meaning. Even so, the findings are still regarded as valid in their basic outline today."
       }
     },
-    "image_url": "/img/studies/s-ebbinghaus.webp",
-    "image_credit": "Der ursprünglich hochladende Benutzer war Icez in der Wikipedia auf Englisch · Public domain",
-    "image_source": "https://commons.wikimedia.org/wiki/File:ForgettingCurve.svg"
+    "image_url": "/img/studies/s-ebbinghaus.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-miller-urey",
@@ -340,9 +337,8 @@
         "caveat": "But there are serious doubts that the conditions of the early Earth were realistically recreated in the experiment. And the experiment cannot say how these molecules would have joined into large structures."
       }
     },
-    "image_url": "/img/studies/s-miller-urey.webp",
-    "image_credit": "Vollbracht · CC BY-SA 3.0",
-    "image_source": "https://commons.wikimedia.org/wiki/File:Miller-Urey_experiment-de.svg"
+    "image_url": "/img/studies/s-miller-urey.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-little-albert",
@@ -465,9 +461,8 @@
         "caveat": "But later experiments showed that Millikan's values were too low; the cause, as turned out in 1936, was a wrong value for the viscosity of air. The historian of science Gerald Holton also accused him in 1978 of leaving out measurements, but other historians saw good reasons for this in part."
       }
     },
-    "image_url": "/img/studies/s-millikan.webp",
-    "image_credit": "Stefan (Diskussion). Original uploader was StefanPohl in der Wikipedia auf Deuts · Public domain",
-    "image_source": "https://commons.wikimedia.org/wiki/File:Millikan_aufbau.jpg"
+    "image_url": "/img/studies/s-millikan.svg",
+    "image_credit": "Zeichnung: Wunder"
   },
   {
     "id": "s-kleine-welt",
@@ -560,6 +555,386 @@
       }
     },
     "image_url": "/img/studies/s-gorilla.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-anker",
+    "category_id": "economy",
+    "min_age": 10,
+    "year": 1974,
+    "name": "Ankereffekt: das Glücksrad (Tversky und Kahneman)",
+    "question": "Lassen wir uns beim Schätzen von einer Zahl beeinflussen, die offensichtlich reiner Zufall ist?",
+    "method": "Amos Tversky und Daniel Kahneman ließen Versuchspersonen ein Glücksrad drehen, das eine Zahl zwischen 0 und 100 ergab. Dann sollten sie sagen, ob der Anteil afrikanischer Staaten unter den Mitgliedern der Vereinten Nationen höher oder niedriger ist – und ihn anschließend genau schätzen. Ihre grundlegende Arbeit zum Ankereffekt erschien 1974.",
+    "result": "Die Zufallszahl färbte die Schätzungen deutlich ab: Wer die 10 gedreht hatte, schätzte im Mittel nur 25 %, wer die 65 gedreht hatte, 45 %. Dabei hat das Glücksrad mit der Frage nichts zu tun.",
+    "caveat": "Aber Fachwissen schützt kaum: In späteren Studien ließen sich Immobilienexperten genauso von einem vorgegebenen Listenpreis leiten wie Laien, und Richter mit mehr als 15 Jahren Berufserfahrung orientierten sich sogar an einer Zahl aus gezinkten Würfeln.",
+    "sources": [
+      {
+        "name": "Wikipedia: Ankereffekt",
+        "url": "https://de.wikipedia.org/wiki/Ankereffekt"
+      },
+      {
+        "name": "Wikipedia (englisch): Anchoring effect",
+        "url": "https://en.wikipedia.org/wiki/Anchoring_effect"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The anchoring effect: the wheel of fortune (Tversky and Kahneman)",
+        "question": "Are our estimates swayed by a number that is plainly pure chance?",
+        "method": "Amos Tversky and Daniel Kahneman had participants spin a wheel of fortune that gave a number between 0 and 100. Then they were to say whether the share of African countries among the members of the United Nations was higher or lower – and then estimate it exactly. Their groundbreaking work on the anchoring effect appeared in 1974.",
+        "result": "The random number clearly coloured the estimates: those who had spun 10 estimated only 25% on average, those who had spun 65 estimated 45%. Yet the wheel has nothing to do with the question.",
+        "caveat": "But expertise hardly protects you: in later studies property experts were swayed by a given list price just like laypeople, and judges with more than 15 years of experience were even guided by a number from loaded dice."
+      }
+    },
+    "image_url": "/img/studies/s-anker.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-marmelade",
+    "category_id": "business",
+    "min_age": 10,
+    "year": 2000,
+    "name": "Die Marmeladen-Studie (zu viel Auswahl)",
+    "question": "Kaufen Menschen mehr, wenn sie mehr Auswahl haben?",
+    "method": "Sheena Iyengar und Mark Lepper boten im Jahr 2000 in einer Feldstudie Marmelade zum Probieren an – mal 24 Sorten, mal nur sechs. Sie zählten, wie viele Kundinnen und Kunden probierten und wie viele anschließend ein Glas kauften.",
+    "result": "Bei 24 Sorten probierten mehr Leute (60 % gegenüber 40 %), aber nur 3 % kauften. Bei sechs Sorten kauften dagegen 30 %. Die große Auswahl lockte an – und hielt dann vom Kaufen ab.",
+    "caveat": "Aber zu viel Auswahl lähmt nicht immer: Die Forschung kennt vier Bedingungen, von denen es abhängt – zum Beispiel, ob es unter vielen ähnlichen Angeboten eines gibt, das sofort ins Auge fällt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Auswahlparadox",
+        "url": "https://de.wikipedia.org/wiki/Auswahlparadox"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The jam study (too much choice)",
+        "question": "Do people buy more when they have more choice?",
+        "method": "In a field study in 2000, Sheena Iyengar and Mark Lepper offered jam to taste – sometimes 24 kinds, sometimes only six. They counted how many customers tasted and how many then bought a jar.",
+        "result": "With 24 kinds more people tasted (60% against 40%), but only 3% bought. With six kinds, however, 30% bought. The large choice drew people in – and then kept them from buying.",
+        "caveat": "But too much choice does not always paralyse: research knows four conditions it depends on – for example, whether among many similar offers there is one that stands out at once."
+      }
+    },
+    "image_url": "/img/studies/s-marmelade.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-galton",
+    "category_id": "math",
+    "min_age": 10,
+    "year": 1906,
+    "name": "Galtons Schätzspiel: die Weisheit der Vielen",
+    "question": "Schätzt eine Menge gewöhnlicher Leute zusammen genauer als jeder Einzelne?",
+    "method": "Auf einer Nutztiermesse im Westen Englands schätzten Besucherinnen und Besucher 1906 bei einem Gewinnspiel das Schlachtgewicht eines Rindes. Francis Galton wertete alle 787 Schätzungen aus.",
+    "result": "Zusammen lagen sie erstaunlich genau: Schon der Median aller Schätzungen traf das Gewicht sehr gut, und der Mittelwert stimmte sogar exakt – besser als jeder einzelne Tipp, auch der von Fachleuten wie Metzgern.",
+    "caveat": "Aber das klappt nur, wenn jeder für sich schätzt. Sieht man vorher, was andere getippt haben, kopieren viele die ersten Schätzungen – und die ganze Gruppe kann in die Irre gehen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Die Weisheit der Vielen",
+        "url": "https://de.wikipedia.org/wiki/Die_Weisheit_der_Vielen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T10:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Galton's guessing contest: the wisdom of crowds",
+        "question": "Does a crowd of ordinary people estimate more accurately together than any one of them?",
+        "method": "At a livestock fair in the west of England in 1906, visitors guessed the slaughter weight of an ox in a competition. Francis Galton analysed all 787 guesses.",
+        "result": "Together they were astonishingly close: the median of all guesses already hit the weight very well, and the mean was even exactly right – better than any single guess, including those of experts such as butchers.",
+        "caveat": "But this only works if everyone guesses on their own. If people see beforehand what others guessed, many copy the first guesses – and the whole group can go astray."
+      }
+    },
+    "image_url": "/img/studies/s-galton.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-pechtropfen",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1927,
+    "name": "Das Pechtropfen-Experiment",
+    "question": "Ist Pech, das sich wie ein fester Stoff anfühlt, in Wahrheit eine extrem zähe Flüssigkeit?",
+    "method": "Thomas Parnell von der Universität Queensland in Brisbane begann 1927: Er goss erwärmtes Pech in einen unten verschlossenen Trichter und ließ es drei Jahre ruhen. 1930 öffnete er den Trichter. Seitdem wird beobachtet, wann ein Tropfen fällt.",
+    "result": "Das Pech fließt tatsächlich – nur unvorstellbar langsam. Der erste Tropfen fiel 1938, weitere 1947, 1954, 1962, 1970, 1979, 1988, 2000 und 2014. Der Versuch steht als am längsten laufendes Laborexperiment im Guinness-Buch der Rekorde.",
+    "caveat": "Aber den Moment des Fallens hat in Brisbane jahrzehntelang niemand gesehen: Mal schaute gerade keiner hin, beim achten Tropfen versagte die Webcam. Gefilmt wurde ein fallender Tropfen zuerst 2013 bei einem ähnlichen Versuch in Dublin. Außerdem beeinflussen Temperaturschwankungen das Tempo.",
+    "sources": [
+      {
+        "name": "Wikipedia: Pechtropfenexperiment",
+        "url": "https://de.wikipedia.org/wiki/Pechtropfenexperiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T09:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The pitch drop experiment",
+        "question": "Is pitch, which feels like a solid, really an extremely viscous liquid?",
+        "method": "Thomas Parnell of the University of Queensland in Brisbane began in 1927: he poured heated pitch into a funnel closed at the bottom and let it settle for three years. In 1930 he opened the funnel. Since then people have watched for a drop to fall.",
+        "result": "The pitch really does flow – only unimaginably slowly. The first drop fell in 1938, others in 1947, 1954, 1962, 1970, 1979, 1988, 2000 and 2014. The experiment is in the Guinness Book of Records as the longest-running laboratory experiment.",
+        "caveat": "But for decades nobody in Brisbane saw the moment of falling: sometimes no one happened to be looking, and at the eighth drop the webcam failed. A falling drop was first filmed in 2013 in a similar experiment in Dublin. Temperature changes also affect the pace."
+      }
+    },
+    "image_url": "/img/studies/s-pechtropfen.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-loftus",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1978,
+    "name": "Falsche Erinnerung: das Stoppschild (Loftus)",
+    "question": "Kann eine falsche Information, die wir nach einem Ereignis bekommen, unsere Erinnerung daran verändern?",
+    "method": "In einem Experiment von Elizabeth Loftus und ihrem Team von 1978 sahen Versuchspersonen Dias von einem Auto – je nach Gruppe vor einem Stoppschild oder vor einem Vorfahrtsschild. Nach einer Pause bekamen einige eine falsche Version zu sehen: ein Stoppschild dort, wo ein Vorfahrtsschild gewesen war. Später sollten alle sagen, was auf dem ursprünglichen Bild zu sehen war.",
+    "result": "57 % derjenigen mit der falschen Information erinnerten sich an ein Stoppschild, das sie gar nicht gesehen hatten. Viele Wiederholungen bestätigten den Effekt; Kontrollgruppen ohne falsche Information zeigten ihn nicht.",
+    "caveat": "Aber wie stark Erinnerungen verfälscht werden, hängt auch von der Befragung ab: Immun ist niemand, doch einige Gruppen sind besonders anfällig, und ohne Suggestivfragen fällt der Effekt geringer aus – deshalb wird bei Zeugenbefragungen geraten, sie zu vermeiden.",
+    "sources": [
+      {
+        "name": "Wikipedia: Fehlinformationseffekt",
+        "url": "https://de.wikipedia.org/wiki/Fehlinformationseffekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T08:00:00Z",
+    "translations": {
+      "en": {
+        "name": "False memory: the stop sign (Loftus)",
+        "question": "Can false information we receive after an event change our memory of it?",
+        "method": "In an experiment by Elizabeth Loftus and her team from 1978, participants saw slides of a car – depending on the group, in front of a stop sign or in front of a yield sign. After a break some were shown a false version: a stop sign where there had been a yield sign. Later everyone was asked what the original picture had shown.",
+        "result": "57% of those given the false information remembered a stop sign they had never seen. Many repetitions confirmed the effect; control groups without false information did not show it.",
+        "caveat": "But how strongly memories are distorted also depends on the questioning: no one is immune, yet some groups are especially susceptible, and without leading questions the effect is smaller – which is why interviewers of witnesses are advised to avoid them."
+      }
+    },
+    "image_url": "/img/studies/s-loftus.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-rutherford",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1909,
+    "name": "Rutherfords Goldfolien-Versuch",
+    "question": "Ist die positive Ladung eines Atoms gleichmäßig über das ganze Atom verteilt – oder sitzt sie in einem winzigen Zentrum?",
+    "method": "In Manchester schossen Forscher unter Ernest Rutherford ab 1909 Alphateilchen auf eine nur 0,5 Mikrometer dünne Goldfolie – das sind etwa 1000 Atome hintereinander – und beobachteten, wohin die Teilchen flogen. Nach dem damals angenommenen Modell von Thomson ist die positive Ladung gleichmäßig im ganzen Atom verteilt.",
+    "result": "Fast alle Teilchen flogen ungehindert hindurch – zwischen den Kernen muss also viel freier Raum sein. Überraschend prallten aber einige sogar nach hinten ab. Das ließ sich nur so erklären: In jedem Atom sitzt ein sehr kleines, positiv geladenes Massezentrum, der Atomkern.",
+    "caveat": "Aber Rutherford hat die Versuche nicht allein gemacht: Unter seiner Leitung waren vor allem Hans Geiger und Ernest Marsden beteiligt. Und den berühmten Vergleich mit einer Pistolenkugel, die von einem Wattebausch zurückprallt, soll er so gesagt haben – sicher überliefert ist das nicht.",
+    "sources": [
+      {
+        "name": "Wikipedia: Rutherford-Streuung",
+        "url": "https://de.wikipedia.org/wiki/Rutherford-Streuung"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T07:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Rutherford's gold foil experiment",
+        "question": "Is the positive charge of an atom spread evenly over the whole atom – or does it sit in a tiny centre?",
+        "method": "From 1909, researchers in Manchester under Ernest Rutherford fired alpha particles at gold foil only 0.5 micrometres thin – about 1,000 atoms in a row – and watched where the particles went. In the model by Thomson accepted at the time, the positive charge is spread evenly over the whole atom.",
+        "result": "Almost all particles flew straight through – so there must be a lot of empty space between the nuclei. Surprisingly, though, some even bounced back. The only explanation: every atom contains a very small, positively charged centre of mass, the nucleus.",
+        "caveat": "But Rutherford did not do the experiments alone: under his direction, Hans Geiger and Ernest Marsden in particular took part. And he is said to have made the famous comparison with a bullet bouncing off cotton wool – that is not reliably recorded."
+      }
+    },
+    "image_url": "/img/studies/s-rutherford.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-stroop",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1935,
+    "name": "Der Stroop-Effekt (Farbe oder Wort?)",
+    "question": "Können wir die Farbe eines Wortes nennen, ohne uns vom Wort selbst stören zu lassen?",
+    "method": "John Ridley Stroop veröffentlichte 1935 seine Doktorarbeit dazu. Versuchspersonen sollten die Druckfarbe von Wörtern nennen – auch dann, wenn das Wort selbst eine andere Farbe bezeichnete, etwa ROT in grüner Schrift.",
+    "result": "Passen Farbwort und Druckfarbe nicht zusammen, dauert das Benennen länger und es passieren mehr Fehler. Lesen läuft bei Geübten fast automatisch ab und lässt sich kaum unterdrücken – selbst wenn man das Wort gar nicht beachten soll.",
+    "caveat": "Aber ganz neu war die Idee nicht: Schon Cattell hatte gezeigt, dass Menschen Wörter schneller lesen als Farben benennen. Stroops Schritt war, Wort und Farbe in ein und derselben Aufgabe gegeneinander antreten zu lassen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Stroop-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Stroop-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T06:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The Stroop effect (colour or word?)",
+        "question": "Can we name the colour of a word without being put off by the word itself?",
+        "method": "John Ridley Stroop published his doctoral thesis on it in 1935. Participants were to name the ink colour of words – even when the word itself named a different colour, such as RED in green letters.",
+        "result": "When the colour word and the ink colour do not match, naming takes longer and more mistakes happen. For practised readers reading runs almost automatically and can hardly be suppressed – even when you are not supposed to pay attention to the word.",
+        "caveat": "But the idea was not entirely new: Cattell had already shown that people read words faster than they name colours. Stroop's step was to pit word and colour against each other in one and the same task."
+      }
+    },
+    "image_url": "/img/studies/s-stroop.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-pasteur",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1860,
+    "name": "Pasteurs Schwanenhalsflaschen",
+    "question": "Entstehen Schimmel und Gärung von selbst in einer Nährlösung – oder kommen die Keime aus der Luft?",
+    "method": "Louis Pasteur ließ Flaschen mit einem lang ausgezogenen Hals wie ein Schwanenhals anfertigen, füllte sie mit Zuckerwasser, Urin oder Milch und kochte den Inhalt auf. Die Flaschen blieben zur Luft hin offen. Ab 1860 veröffentlichte er seine Versuche dazu.",
+    "result": "Der aufgekochte Inhalt blieb keimfrei, obwohl Luft herankam; in nicht aufgekochten Kontrollflaschen bildete sich bald Schimmel. Brach Pasteur den Hals ab, begann auch der keimfreie Inhalt zu schimmeln oder zu gären: Die Keime waren von oben hineingeschwebt, was der lange Hals vorher verhindert hatte. Die Akademie der Wissenschaften zeichnete seinen Vortrag von 1861 mit einem Preisgeld aus.",
+    "caveat": "Aber die Idee stammte nicht allein von ihm: Pasteur folgte dem Vorbild von Eugène Chevreul, und Hermann Hoffmann hatte das Verfahren unabhängig von ihm ebenfalls 1860 beschrieben.",
+    "sources": [
+      {
+        "name": "Wikipedia: Louis Pasteur",
+        "url": "https://de.wikipedia.org/wiki/Louis_Pasteur"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T05:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Pasteur's swan-neck flasks",
+        "question": "Do mould and fermentation arise by themselves in a nutrient solution – or do the germs come from the air?",
+        "method": "Louis Pasteur had flasks made with a long drawn-out neck like a swan's neck, filled them with sugar water, urine or milk and boiled the contents. The flasks stayed open to the air. From 1860 he published his experiments on this.",
+        "result": "The boiled contents stayed free of germs although air could reach them; in unboiled control flasks mould soon formed. When Pasteur broke off the neck, the germ-free contents also began to go mouldy or ferment: the germs had floated in from above, which the long neck had prevented before. The Academy of Sciences awarded his lecture of 1861 a prize.",
+        "caveat": "But the idea was not his alone: Pasteur followed the example of Eugène Chevreul, and Hermann Hoffmann had also described the method independently of him in 1860."
+      }
+    },
+    "image_url": "/img/studies/s-pasteur.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-foucault",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1851,
+    "name": "Foucaults Pendel im Panthéon",
+    "question": "Lässt sich die Drehung der Erde sichtbar machen, ohne in den Himmel zu schauen?",
+    "method": "Léon Foucault ließ 1851 zuerst im Keller seines Hauses ein zwei Meter langes Pendel dicht über dem Boden schwingen, dann in der Pariser Sternwarte eines mit 12 Metern. Öffentlich vorgeführt hat er den Versuch im Panthéon: mit einem 67 Meter langen Pendel und einem 28 Kilogramm schweren Pendelkörper.",
+    "result": "Die Schwingungsebene des Pendels drehte sich langsam gegenüber dem Boden. Genauer gesagt bleibt die Ebene selbst gleich – die Erde dreht sich unter ihr weg.",
+    "caveat": "Aber wie schnell sich die Ebene dreht, hängt vom Ort ab: an den Polen am schnellsten, zum Äquator hin immer langsamer, und genau am Äquator gar nicht.",
+    "sources": [
+      {
+        "name": "Wikipedia: Foucaultsches Pendel",
+        "url": "https://de.wikipedia.org/wiki/Foucaultsches_Pendel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T04:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Foucault's pendulum in the Panthéon",
+        "question": "Can the Earth's rotation be made visible without looking at the sky?",
+        "method": "In 1851 Léon Foucault first let a two-metre pendulum swing just above the floor in the cellar of his house, then one of 12 metres at the Paris Observatory. He demonstrated the experiment publicly in the Panthéon: with a pendulum 67 metres long and a bob weighing 28 kilograms.",
+        "result": "The pendulum's plane of swing slowly turned relative to the floor. More precisely, the plane itself stays the same – the Earth turns away beneath it.",
+        "caveat": "But how fast the plane turns depends on the place: fastest at the poles, slower and slower towards the equator, and not at all exactly at the equator."
+      }
+    },
+    "image_url": "/img/studies/s-foucault.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-michelson-morley",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1887,
+    "name": "Michelson und Morley: die Suche nach dem Äther",
+    "question": "Bewegt sich die Erde durch einen unsichtbaren „Lichtäther“, in dem sich Licht ausbreitet – und lässt sich dieser „Ätherwind“ messen?",
+    "method": "Michelson und Morley teilten 1887 in Cleveland einen Lichtstrahl mit einem halbdurchlässigen Spiegel in zwei Wege, ließen beide zurückspiegeln und wieder zusammenlaufen. Bewegt sich die Erde durch den Äther, sollte das Licht in Bewegungsrichtung länger brauchen als quer dazu – das hätte das Muster der überlagerten Lichtwellen verändert.",
+    "result": "Der erwartete Ätherwind zeigte sich nicht: Als obere Grenze blieben 5 bis 8 km/s – viel zu wenig für den gesuchten Effekt. Spätere Wiederholungen fanden im Rahmen der Messgenauigkeit ebenfalls nichts.",
+    "caveat": "Aber allein hat der Versuch die Ätherphysik nicht gestürzt: Erst zusammen mit anderen Experimenten zeigten sich ihre Probleme, und gelöst wurden sie erst durch die Spezielle Relativitätstheorie, die ganz ohne Äther auskommt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Michelson-Morley-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Michelson-Morley-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T03:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Michelson and Morley: the search for the ether",
+        "question": "Does the Earth move through an invisible “luminiferous ether” in which light travels – and can this “ether wind” be measured?",
+        "method": "In 1887 in Cleveland, Michelson and Morley split a beam of light into two paths with a half-silvered mirror, reflected both back and brought them together again. If the Earth moves through the ether, light should take longer in the direction of motion than across it – which would have changed the pattern of the overlapping light waves.",
+        "result": "The expected ether wind did not show: an upper limit of 5 to 8 km/s remained – far too little for the effect being sought. Later repetitions also found nothing within the accuracy of measurement.",
+        "caveat": "But the experiment alone did not topple ether physics: only together with other experiments did its problems show, and they were solved only by the special theory of relativity, which needs no ether at all."
+      }
+    },
+    "image_url": "/img/studies/s-michelson-morley.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-doppelspalt",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1803,
+    "name": "Youngs Doppelspalt: Ist Licht eine Welle?",
+    "question": "Besteht Licht aus winzigen Teilchen – oder breitet es sich als Welle aus?",
+    "method": "Thomas Young ließ als Erster Licht durch zwei schmale, parallele Spalte fallen und fing es auf einem Schirm auf, der weit entfernt stand. Seine Ergebnisse veröffentlichte er 1803.",
+    "result": "Hinter den Spalten entstand ein Interferenzmuster: abwechselnd helle und dunkle Streifen, wie sie entstehen, wenn sich Wellen überlagern. Das verhalf der Wellentheorie des Lichts zur Anerkennung gegenüber der damals vorherrschenden Teilchentheorie.",
+    "caveat": "Aber das Bild der reinen Welle reicht nicht: In der Quantenphysik zeigt derselbe Versuch – auch mit Materie statt Licht –, dass Licht und Teilchen beides an sich haben, den Welle-Teilchen-Dualismus.",
+    "sources": [
+      {
+        "name": "Wikipedia: Doppelspaltexperiment",
+        "url": "https://de.wikipedia.org/wiki/Doppelspaltexperiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T02:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Young's double slit: is light a wave?",
+        "question": "Is light made of tiny particles – or does it spread out as a wave?",
+        "method": "Thomas Young was the first to shine light through two narrow, parallel slits and catch it on a screen far away. He published his results in 1803.",
+        "result": "Behind the slits an interference pattern appeared: alternating bright and dark stripes, as formed when waves overlap. This won the wave theory of light recognition over the particle theory that prevailed at the time.",
+        "caveat": "But the picture of a pure wave is not enough: in quantum physics the same experiment – also with matter instead of light – shows that light and particles have both natures, the wave–particle duality."
+      }
+    },
+    "image_url": "/img/studies/s-doppelspalt.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-besitztum",
+    "category_id": "economy",
+    "min_age": 10,
+    "year": 1990,
+    "name": "Besitztumseffekt: der Tassen-Versuch",
+    "question": "Ist uns eine Sache mehr wert, nur weil sie uns gehört?",
+    "method": "Daniel Kahneman teilte 1990 Versuchspersonen in zwei Gruppen. Die einen bekamen eine Tasse und sollten sagen, für welchen Preis sie sie verkaufen würden. Die anderen sollten sagen, wie viel sie zahlen würden, um dieselbe Tasse zu bekommen.",
+    "result": "Die Besitzer verlangten im Mittel 7,12 Dollar, die Käufer boten nur 2,87 Dollar – für die gleiche Tasse mehr als das Doppelte, nur weil sie einem gehört.",
+    "caveat": "Aber ob dahinter wirklich eine Vorliebe für das Eigene steckt, ist umstritten: Die Ökonomen Plott und Zeiler halten den Unterschied eher für eine Folge fehlerhafter Versuchsanordnungen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Besitztumseffekt",
+        "url": "https://de.wikipedia.org/wiki/Besitztumseffekt"
+      },
+      {
+        "name": "Wikipedia (englisch): Endowment effect",
+        "url": "https://en.wikipedia.org/wiki/Endowment_effect"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T01:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The endowment effect: the mug experiment",
+        "question": "Is a thing worth more to us just because it is ours?",
+        "method": "In 1990 Daniel Kahneman divided participants into two groups. One group got a mug and was asked at what price they would sell it. The others were asked how much they would pay to get the same mug.",
+        "result": "The owners asked for 7.12 dollars on average, the buyers offered only 2.87 dollars – more than double for the same mug, just because it belongs to you.",
+        "caveat": "But whether a preference for what is one's own really lies behind it is disputed: the economists Plott and Zeiler rather see the difference as a result of faulty experimental designs."
+      }
+    },
+    "image_url": "/img/studies/s-besitztum.svg",
     "image_credit": "Zeichnung: Wunder"
   }
 ]

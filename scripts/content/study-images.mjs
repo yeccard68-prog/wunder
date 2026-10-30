@@ -1,3 +1,4 @@
+// NICHT MEHR VERWENDEN (30.10.2026): Studien bekommen nur noch eigene Zeichnungen – scripts/content/study-drawings.mjs.
 // Pictures for "Studie kurz erklärt": the lead image of each study's Wikipedia article, only with a clearly free licence
 // (CC0, CC BY, CC BY-SA, public domain), copied as a small WebP to public/img/studies/ – served from our own site. The
 // credit (author · licence) and the file page go into content/studies.json (image_url, image_credit, image_source).
