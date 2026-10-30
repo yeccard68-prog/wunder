@@ -485,7 +485,7 @@ test("an account set up for a children's age band is asked for the age again", a
 test("interactive: compound interest – guess first, then the sliders change curve and numbers", async ({ page }) => {
   await signIn(page);
   await page.goto("/lab/");
-  await expect(page.getByTestId("visual-row")).toHaveCount(12);
+  await expect(page.getByTestId("visual-row")).toHaveCount(14);
   await page.getByRole("button", { name: /Zinseszins/ }).click();
   const card = page.getByTestId("visual-card");
   await expect(card).toHaveAttribute("data-revealed", "false");

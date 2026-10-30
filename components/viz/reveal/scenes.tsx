@@ -144,4 +144,99 @@ const heart: Scene = {
   ),
 };
 
-export const SCENES: Record<string, Scene> = { earth, heart };
+// ---------- a stratovolcano, cut open: layers of lava and ash, the conduit, the magma chamber (depth not to scale) ----------
+const CONE = "M30,250 L172,92 L186,92 L193,104 L207,104 L214,92 L228,92 L370,250 Z";
+const plume = (
+  <g fill="#8d8a86">
+    {[[200, 70, 18], [188, 52, 20], [214, 40, 22], [196, 24, 24], [226, 14, 20], [170, 30, 16]].map(([x, y, r], i) => <circle key={i} cx={x} cy={y} r={r} opacity={0.85 - i * 0.08} />)}
+  </g>
+);
+const volcano: Scene = {
+  outside: (id) => (
+    <>
+      <defs>
+        <linearGradient id={`${id}-sky`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#1c2a3f" /><stop offset="1" stopColor="#40566e" /></linearGradient>
+        <linearGradient id={`${id}-rock`} x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#7a6658" /><stop offset="1" stopColor="#4a3d35" /></linearGradient>
+      </defs>
+      <rect width="400" height="250" fill={`url(#${id}-sky)`} />
+      {plume}
+      <path d={CONE} fill={`url(#${id}-rock)`} />
+      <path d="M150,116 L172,92 L186,92 L193,104 L207,104 L214,92 L228,92 L252,118 L240,112 L230,122 L218,110 L206,120 L194,110 L182,122 L170,110 L160,120 Z" fill="#e9ecef" />
+      <rect y="250" width="400" height="150" fill="#3b2f28" />
+      <rect y="246" width="400" height="6" fill="#4f7a3a" />
+    </>
+  ),
+  inside: (id) => (
+    <>
+      <defs>
+        <linearGradient id={`${id}-sky`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#1c2a3f" /><stop offset="1" stopColor="#40566e" /></linearGradient>
+        <radialGradient id={`${id}-magma`} cx="50%" cy="45%" r="60%"><stop offset="0" stopColor="#ffd56b" /><stop offset="0.6" stopColor="#ff7a2a" /><stop offset="1" stopColor="#b8321a" /></radialGradient>
+        <clipPath id={`${id}-cone`}><path d={CONE} /></clipPath>
+      </defs>
+      <rect width="400" height="250" fill={`url(#${id}-sky)`} />
+      {plume}
+      {/* layers of lava (dark) and ash (light), one over the other like the cone grew */}
+      <g clipPath={`url(#${id}-cone)`}>
+        {Array.from({ length: 8 }, (_, i) => {
+          const d = i * 19;
+          return <path key={i} d={`M${30 + d * 0.9},250 L${172 + d * 0.15},${92 + d} L${228 - d * 0.15},${92 + d} L${370 - d * 0.9},250 Z`} fill={i % 2 ? "#8a7f74" : "#5a4038"} />;
+        })}
+      </g>
+      <rect y="250" width="400" height="150" fill="#2e2420" />
+      {[268, 292, 318].map((y, i) => <path key={i} d={`M0,${y} Q100,${y - 6} 200,${y} T400,${y}`} stroke="#3e322b" strokeWidth="3" fill="none" />)}
+      {/* the magma chamber and the conduit up to the crater */}
+      <ellipse cx="200" cy="352" rx="92" ry="34" fill={`url(#${id}-magma)`} />
+      <path d="M193,104 L207,104 L210,322 L190,322 Z" fill="#ff7a2a" />
+      <path d="M198,108 L202,108 L203,322 L197,322 Z" fill="#ffd56b" />
+      <path d="M205,250 C240,226 262,206 276,186" stroke="#ff7a2a" strokeWidth="6" fill="none" strokeLinecap="round" />
+    </>
+  ),
+};
+
+// ---------- the eye from the side, light coming in from the left: cornea, iris, lens, vitreous body, retina, optic nerve ----------
+const EYE = { cx: 215, cy: 200, r: 130 };
+const nerve = <path d="M326,236 C350,250 372,266 398,282 L398,312 C368,294 346,280 318,262 Z" fill="#e8d8b0" stroke="#b9a77c" strokeWidth="2" />;
+const eye: Scene = {
+  outside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-white`} cx="40%" cy="38%" r="70%"><stop offset="0" stopColor="#fbf8f2" /><stop offset="1" stopColor="#c9c0b2" /></radialGradient>
+      </defs>
+      {nerve}
+      <circle cx={EYE.cx} cy={EYE.cy} r={EYE.r} fill={`url(#${id}-white)`} />
+      {[["M300,130 C280,150 270,140 252,160", 2], ["M310,262 C288,250 276,266 258,252", 2], ["M240,86 C236,110 248,120 240,140", 1.5], ["M250,318 C246,296 258,288 250,268", 1.5]].map(([d, w], i) => <path key={i} d={d as string} stroke="#c96b6b" strokeWidth={w as number} fill="none" strokeLinecap="round" />)}
+      {/* the front: cornea over the iris and the pupil, seen from the side */}
+      <path d="M100,132 C64,160 64,240 100,268" fill="#dcecf3" fillOpacity="0.7" stroke="#9fc3d6" strokeWidth="3" />
+      <ellipse cx="96" cy="200" rx="11" ry="50" fill="#4f86b8" />
+      <ellipse cx="94" cy="200" rx="5" ry="20" fill="#14161c" />
+      <ellipse cx="80" cy="170" rx="5" ry="12" fill="#fff" opacity="0.7" />
+    </>
+  ),
+  inside: (id) => (
+    <>
+      {nerve}
+      {/* the wall: white sclera, dark choroid, the retina inside */}
+      <circle cx={EYE.cx} cy={EYE.cy} r={EYE.r} fill="#f4f1ea" />
+      <circle cx={EYE.cx} cy={EYE.cy} r={EYE.r - 8} fill="#6e3434" />
+      <circle cx={EYE.cx} cy={EYE.cy} r={EYE.r - 12} fill="#e98a5c" />
+      <circle cx={EYE.cx} cy={EYE.cy} r={EYE.r - 16} fill="#d6e7ee" />
+      {/* the front opens into the cornea; behind it the anterior chamber, the iris and the lens on its suspension */}
+      <path d="M100,132 L120,150 L120,250 L100,268 Z" fill="#d6e7ee" />
+      <path d="M100,132 C64,160 64,240 100,268" fill="#e3f2f8" stroke="#9fc3d6" strokeWidth="3" />
+      <rect x="106" y="146" width="9" height="38" rx="3" fill="#4f86b8" />
+      <rect x="106" y="216" width="9" height="38" rx="3" fill="#4f86b8" />
+      <path d="M118,150 L136,166 M118,250 L136,234" stroke="#6e3434" strokeWidth="7" strokeLinecap="round" />
+      <ellipse cx="138" cy="200" rx="17" ry="38" fill="#f6e7b0" stroke="#d9c27a" strokeWidth="2" />
+      {/* the optic nerve leaves where there are no light cells – the blind spot; the yellow spot is the sharpest place */}
+      <path d="M318,238 L332,232 L330,252 L314,256 Z" fill="#e8d8b0" />
+      <circle cx="345" cy="198" r="6" fill="#ffd24a" />
+      {/* light through cornea and lens, bent onto the retina */}
+      <g stroke="#ffd24a" strokeWidth="2" fill="none" strokeDasharray="6 5" opacity="0.9">
+        <path d="M0,176 L84,176 L138,184 L345,198" />
+        <path d="M0,224 L84,224 L138,216 L345,198" />
+      </g>
+    </>
+  ),
+};
+
+export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye };
