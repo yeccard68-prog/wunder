@@ -22,6 +22,8 @@ const TODAY = batch.TODAY ?? new Date().toISOString().slice(0, 10);
 const day = (i) => new Date(Date.parse(TODAY + "T12:00:00Z") - (i % 21) * 86_400_000).toISOString().replace(".000Z", "Z");
 const upsert = (list, row) => {
   const i = list.findIndex((r) => r.id === row.id);
+  // an id already taken by a different kind or category is a collision, not an update: stop before anything is written
+  if (i >= 0 && (list[i].kind !== row.kind || list[i].category_id !== row.category_id) && row.kind) throw new Error(`id ${row.id} is taken (${list[i].kind}, ${list[i].category_id}): ${String(list[i].question ?? list[i].title).slice(0, 60)}`);
   if (i >= 0) list[i] = { ...list[i], ...row, created_at: list[i].created_at ?? row.created_at, published_at: list[i].published_at ?? row.published_at };
   else list.push(row);
 };

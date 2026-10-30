@@ -40,7 +40,8 @@ test("combined feed: every interactive visualisation is in it; tried ones move t
   const visuals = visualsFor("de", "16+");
   const feed = mixFeed(ranked, clips, animations, state(), [], visuals);
   assert.equal(feed.filter((e) => e.kind === "visual").length, visuals.length);
-  const tried = mixFeed(ranked, clips, animations, { ...state(), visuals: [visuals[0].id] }, [], visuals);
+  const tried = mixFeed(ranked, clips, animations, { ...state(), visuals: [visuals[0].id] }, [], visuals, [], [], [], [], "feed-test");
   const order = tried.filter((e) => e.kind === "visual").map((e) => (e as { visual: { id: string } }).visual.id);
-  assert.equal(order.at(-1), visuals[0].id);
+  // at the back – the rule against three entries of one topic in a row may pull it one or two places forward
+  assert.ok(order.indexOf(visuals[0].id) >= order.length - 3, `${visuals[0].id} at ${order.indexOf(visuals[0].id)} of ${order.length}`);
 });

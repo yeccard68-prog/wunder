@@ -1122,4 +1122,64 @@ function Sizes({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes };
+// ------------------------------------------------------------------ how fast are we moving? (motion graphics, 30.10.2026)
+// An airliner, the Earth's surface at the equator, the Earth around the Sun, the Sun around the centre of the Milky Way:
+// a km/h counter rolls up, a small scene shows each motion, and a row of bars on a log scale keeps every speed in view.
+// Speeds in SPEEDS (km/h, computed from the quoted values). labels: 0–3 the four movers with their speeds, 4 "km/h",
+// 5 "log scale: each line ten times more"
+export const SPEEDS = [896, 1674, 107208, 792000]; // 896 km/h · 465.1 m/s · 29.78 km/s · about 220 km/s
+const SPEED_COLORS = ["#f4f1ea", "#7cc4f0", "#4fc28b", "#ffd24a"];
+
+function Speeds({ step, p, t, labels }: SceneProps) {
+  const s = Math.min(step, 3);
+  const k = ease(clamp(p / 0.7));
+  const value = s === 0 ? SPEEDS[0] * k : Math.exp(lerp(Math.log(SPEEDS[s - 1]), Math.log(SPEEDS[s]), k));
+  const cx = 180, cy = 150;
+  const grouped = (n: number) => Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  // log bars: 100 km/h at the left edge, 1 000 000 km/h at the right
+  const bar = (v: number) => (Math.log10(v) - 2) / 4 * 300;
+  return (
+    <>
+      <Label x={180} y={44} size={30} bold color={SPEED_COLORS[s]}>{grouped(value)}</Label>
+      <Label x={180} y={64} size={11} color={DIM}>{labels[4]}</Label>
+      {/* the moving thing of each step */}
+      <g opacity={ease(clamp(p * 4))}>
+        {s === 0 && (() => { const x = 40 + ((t * 70) % 300); return <g transform={`translate(${x} ${cy})`}><path d="M-26 0 L22 0 L30 -6 L22 3 L-20 6 Z M-6 0 L8 -14 L14 -14 L8 0 Z M-6 3 L6 15 L12 15 L8 3 Z" fill="#f4f1ea" /><line x1={-60} y1={0} x2={-34} y2={0} stroke={DIM} strokeWidth={2} strokeDasharray="4 4" /></g>; })()}
+        {s === 1 && <g>
+          <circle cx={cx} cy={cy} r={52} fill="#2d5fa8" />
+          <ellipse cx={cx} cy={cy} rx={52} ry={10} fill="none" stroke="#7cc4f0" strokeWidth={1.5} strokeDasharray="4 4" />
+          <circle cx={cx + Math.cos(t * 1.6) * 52} cy={cy + Math.sin(t * 1.6) * 10} r={5} fill={Math.sin(t * 1.6) > 0 ? "#ffd24a" : "#8c7a2a"} />
+        </g>}
+        {s === 2 && <g>
+          <circle cx={cx} cy={cy} r={20} fill="#ffd24a" />
+          <circle cx={cx} cy={cy} r={68} fill="none" stroke={LINE} strokeWidth={1.5} />
+          <circle cx={cx + Math.cos(t * 0.9) * 68} cy={cy + Math.sin(t * 0.9) * 68} r={8} fill="#5b9bf5" />
+        </g>}
+        {s === 3 && <g>
+          <ellipse cx={cx} cy={cy} rx={120} ry={44} fill="none" stroke={LINE} strokeWidth={1.5} />
+          {/* two spiral arms of stars, seen at a slant */}
+          {Array.from({ length: 72 }, (_, i) => { const j = i % 36, a = (i < 36 ? 0 : Math.PI) + j * 0.13 + t * 0.15, r = 8 + j * 3.1; return <circle key={i} cx={cx + Math.cos(a) * r} cy={cy + Math.sin(a) * r * 0.36} r={j < 8 ? 1.8 : 1.3} fill="#cfc8bd" opacity={0.95 - j * 0.018} />; })}
+          <circle cx={cx} cy={cy} r={6} fill="#fff6c8" />
+          <circle cx={cx + Math.cos(t * 0.5) * 92} cy={cy + Math.sin(t * 0.5) * 33} r={5} fill="#ffd24a" />
+        </g>}
+      </g>
+      {/* every speed so far on one log scale */}
+      <Label x={30} y={240} anchor="start" size={10} color={DIM}>{labels[5]}</Label>
+      {[2, 3, 4, 5, 6].map((e) => <line key={e} x1={30 + (e - 2) / 4 * 300} y1={248} x2={30 + (e - 2) / 4 * 300} y2={376} stroke={LINE} strokeWidth={1} strokeDasharray="2 4" />)}
+      {SPEEDS.map((v, i) => {
+        if (i > s) return null;
+        const w = i < s ? bar(v) : bar(Math.max(100, value));
+        const y = 260 + i * 32;
+        // the name sits above its bar, so long bars never push it off the edge
+        return (
+          <g key={i} opacity={i === s ? 1 : 0.6}>
+            <Label x={30} y={y} anchor="start" size={10} bold color={SPEED_COLORS[i]}>{labels[i]}</Label>
+            <rect x={30} y={y + 5} width={Math.max(2, w)} height={12} rx={3} fill={SPEED_COLORS[i]} />
+          </g>
+        );
+      })}
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds };

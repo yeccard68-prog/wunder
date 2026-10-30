@@ -155,6 +155,70 @@ const drawings = {
     ${line("M84 82 l8 9 l14 -18", GREY, 4)}${line("M84 142 l8 9 l14 -18", GREY, 4)}<rect x="84" y="194" width="10" height="18" fill="${ACCENT}"/>
     ${person(320, 280, 0.8, "ink")}<ellipse cx="320" cy="96" rx="56" ry="40" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/><circle cx="300" cy="150" r="8" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/>
     <rect x="296" y="84" width="16" height="24" fill="${ACCENT}"/><rect x="296" y="84" width="34" height="24" fill="none" stroke="${INK}" stroke-width="3"/>`),
+  // van Helmont: the willow shoot on the scale, five years of nothing but water, the big tree on the same scale
+  "s-van-helmont": svg(`${[100, 290].map((x) => `<rect x="${x - 55}" y="236" width="110" height="9" rx="3" fill="${INK}"/><rect x="${x - 7}" y="245" width="14" height="22" fill="${INK}"/><rect x="${x - 42}" y="267" width="84" height="9" rx="3" fill="${INK}"/>
+    <path d="M${x - 36} 188 H${x + 36} L${x + 27} 236 H${x - 27} Z" fill="${AMBER}"/><rect x="${x - 38}" y="181" width="76" height="9" rx="3" fill="#7a5c3c"/>`).join("")}
+    ${line("M100 182 V142", "#6b5a3a", 4)}${[[-11, 150, 30], [11, 146, -30], [-9, 162, 30], [11, 164, -30]].map(([dx, y, r]) => `<ellipse cx="${100 + dx}" cy="${y}" rx="9" ry="4" fill="#7d9a5b" transform="rotate(${r} ${100 + dx} ${y})"/>`).join("")}
+    <path d="M288 182 C288 150 284 120 290 92 M289 128 C306 112 326 104 340 100 M288 116 C272 104 256 100 242 98" stroke="#6b5a3a" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="290" cy="88" rx="70" ry="34" fill="#7d9a5b"/>
+    ${Array.from({ length: 13 }, (_, i) => { const x = 230 + i * 10, top = 90 + Math.abs(i - 6) * 3; return line(`M${x} ${top} q${i % 2 ? 5 : -5} 34 ${i % 2 ? 2 : -2} ${74 - Math.abs(i - 6) * 5}`, "#6e8a4e", 4); }).join("")}
+    ${arrow("M150 130 H218")}${[0, 1, 2].map((i) => `<path d="M${166 + i * 18} ${78 + (i % 2) * 14} q-7 11 0 15 q7 -4 0 -15 z" fill="#5b9bd5"/>`).join("")}`),
+  // Redi: three jars of meat – open (flies, maggots), sealed, covered with gauze (maggots only on the gauze)
+  "s-redi": svg(`${[80, 200, 320].map((x) => `<rect x="${x - 46}" y="118" width="92" height="140" rx="14" fill="${WHITE}" stroke="${INK}" stroke-width="4"/><path d="M${x - 32} 244 q8 -30 32 -26 q26 -4 32 26 z" fill="#b5543c"/>`).join("")}
+    <rect x="148" y="104" width="104" height="16" rx="4" fill="${INK}"/>
+    <rect x="270" y="108" width="100" height="12" fill="${WHITE}" stroke="${GREY}" stroke-width="2"/>${Array.from({ length: 12 }, (_, i) => line(`M${274 + i * 8} 108 v12`, GREY, 1.5)).join("")}${line("M270 114 H370", GREY, 1.5)}
+    ${[[56, 226], [74, 222], [92, 228], [304, 112], [330, 111]].map(([x, y]) => `<rect x="${x}" y="${y}" width="12" height="5" rx="2.5" fill="${ACCENT}"/>`).join("")}
+    ${[[62, 80], [98, 64], [118, 100], [344, 94]].map(([x, y]) => `<ellipse cx="${x - 4}" cy="${y - 5}" rx="6" ry="3.5" fill="${GREY}" opacity="0.85"/><ellipse cx="${x + 4}" cy="${y - 5}" rx="6" ry="3.5" fill="${GREY}" opacity="0.85"/><ellipse cx="${x}" cy="${y}" rx="7" ry="4.5" fill="${INK}"/>`).join("")}`),
+  // Torricelli: a glass tube closed at the top in a basin of mercury – the column stays at about 76 cm, the air presses on the basin
+  "s-torricelli": svg(`<path d="M80 226 h240 v44 a8 8 0 0 1 -8 8 h-224 a8 8 0 0 1 -8 -8 z" fill="${WHITE}" stroke="${INK}" stroke-width="4"/><rect x="84" y="240" width="232" height="34" fill="#9aa3ab"/>
+    <rect x="186" y="36" width="28" height="226" rx="14" fill="${WHITE}" stroke="${INK}" stroke-width="4"/><rect x="190" y="98" width="20" height="160" fill="#9aa3ab"/>
+    ${line("M244 98 V240", GREY, 3, 'stroke-dasharray="5 6"')}${line("M236 98 h16", GREY, 3)}${line("M236 240 h16", GREY, 3)}
+    ${[110, 145, 255, 290].map((x) => arrow(`M${x} 160 V226`)).join("")}`),
+  // Fizeau: a lamp, a half mirror, a toothed wheel – light out to a far mirror and back through the next gap or onto a tooth
+  "s-fizeau": svg(`<path d="M0 252 C70 226 130 236 190 252 S320 232 400 246 V300 H0 Z" fill="#e2d9cc"/>
+    <circle cx="60" cy="88" r="13" fill="${GOLD}"/><rect x="52" y="100" width="16" height="8" fill="${INK}"/>${line("M60 112 V140", ACCENT, 4)}${line("M46 162 L74 136", GREY, 4)}
+    ${Array.from({ length: 18 }, (_, i) => `<rect x="-4" y="-42" width="8" height="12" fill="${INK}" transform="translate(130 188) rotate(${i * 20})"/>`).join("")}<circle cx="130" cy="188" r="31" fill="${WHITE}" stroke="${INK}" stroke-width="4"/><circle cx="130" cy="188" r="6" fill="${INK}"/>
+    ${arrow("M100 214 A36 36 0 0 0 160 214", ACCENT, 3)}${arrow("M68 150 H352")}${line("M360 158 H44", ACCENT, 3, 'stroke-dasharray="8 7"')}
+    <rect x="360" y="104" width="10" height="100" fill="#9fb3c8" stroke="${INK}" stroke-width="3"/>
+    <ellipse cx="28" cy="158" rx="13" ry="8" fill="${WHITE}" stroke="${INK}" stroke-width="3"/><circle cx="30" cy="158" r="4" fill="${INK}"/>`),
+  // Joule: a falling weight turns a paddle wheel in an insulated barrel of water; a thermometer shows it warming up
+  "s-joule": svg(`<rect x="140" y="140" width="150" height="130" rx="16" fill="${WHITE}" stroke="${INK}" stroke-width="4"/><rect x="144" y="166" width="142" height="100" rx="12" fill="#a9cbe6"/>
+    ${line("M215 96 V252", INK, 5)}${[198, 222, 246].map((y) => line(`M182 ${y} H248`, INK, 7)).join("")}${arrow("M188 182 A30 9 0 1 0 244 182", ACCENT, 3)}
+    <rect x="200" y="84" width="30" height="16" rx="4" fill="${AMBER}" stroke="${INK}" stroke-width="3"/>${line("M228 86 L320 58", INK, 3)}
+    ${line("M330 70 V26 H372", INK, 5)}<circle cx="330" cy="70" r="13" fill="${WHITE}" stroke="${INK}" stroke-width="4"/>${line("M343 70 V170", INK, 3)}
+    <rect x="325" y="170" width="36" height="40" rx="3" fill="${INK}"/>${arrow("M378 168 V226")}
+    <rect x="262" y="104" width="12" height="96" rx="6" fill="${WHITE}" stroke="${INK}" stroke-width="3"/><rect x="265" y="150" width="6" height="52" fill="${ACCENT}"/><circle cx="268" cy="206" r="10" fill="${ACCENT}" stroke="${INK}" stroke-width="3"/>`),
+  // Eddington: the darkened Sun with its corona; starlight bends past it, so the star seems shifted outwards
+  "s-eddington": (() => {
+    const star = (x, y, r, paint) => `<path d="M${Array.from({ length: 10 }, (_, i) => { const a = -Math.PI / 2 + (i * Math.PI) / 5, rr = i % 2 ? r * 0.45 : r; return `${(x + Math.cos(a) * rr).toFixed(1)} ${(y + Math.sin(a) * rr).toFixed(1)}`; }).join(" L")} Z" ${paint}/>`;
+    return svg(`<rect width="400" height="300" fill="#2b2f3a"/>${[[90, 210], [140, 250], [270, 60], [320, 230], [250, 270], [120, 140], [350, 90]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="2" fill="${GREY}"/>`).join("")}
+      <circle cx="200" cy="160" r="54" fill="${GOLD}" opacity="0.25"/><circle cx="200" cy="160" r="46" fill="${GOLD}" opacity="0.5"/><circle cx="200" cy="160" r="40" fill="#141519"/>
+      ${line("M52 86 C130 98 180 112 202 116 C250 124 318 148 350 158", ACCENT, 4)}${line("M350 158 L56 58", GREY, 2, 'stroke-dasharray="6 6"')}
+      ${star(52, 86, 11, `fill="${GOLD}"`)}${star(54, 58, 11, `fill="none" stroke="${ACCENT}" stroke-width="2.5"`)}<circle cx="362" cy="162" r="12" fill="#5b9bd5"/>`);
+  })(),
+  // Festinger: a board of spools to turn, a person telling the next one it was fun – one coin or a stack of notes
+  "s-festinger": svg(`<rect x="28" y="54" width="150" height="124" rx="8" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/>
+    ${[0, 1, 2].map((r) => [0, 1, 2, 3].map((c) => `<circle cx="${52 + c * 34}" cy="${80 + r * 36}" r="11" fill="${AMBER}" stroke="${INK}" stroke-width="3"/>${line(`M${52 + c * 34} ${72 + r * 36} v16`, INK, 3)}`).join("")).join("")}${arrow("M70 66 A16 16 0 0 1 86 80", ACCENT, 3)}
+    ${person(220, 282, 0.9, "ink")}<ellipse cx="292" cy="78" rx="52" ry="38" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/><circle cx="252" cy="126" r="7" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/>
+    <circle cx="292" cy="78" r="22" fill="none" stroke="${INK}" stroke-width="3"/><circle cx="284" cy="72" r="3" fill="${INK}"/><circle cx="300" cy="72" r="3" fill="${INK}"/>${line("M282 84 q10 9 20 0", INK, 3)}
+    <circle cx="312" cy="246" r="14" fill="${GOLD}" stroke="${INK}" stroke-width="3"/><circle cx="312" cy="246" r="22" fill="none" stroke="${ACCENT}" stroke-width="3"/>
+    ${[0, 1, 2, 3, 4].map((i) => `<rect x="346" y="${258 - i * 8}" width="44" height="18" rx="3" fill="#8fb08a" stroke="${INK}" stroke-width="2"/>`).join("")}`),
+  // Tinbergen: a gull's head with the red spot on the bill, a chick pecking at it – and a red needle with white bands it pecks at even more
+  "s-moewenkueken": svg(`<circle cx="96" cy="104" r="44" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/><circle cx="110" cy="92" r="5" fill="${INK}"/><path d="M134 100 L230 120 L228 132 L136 128 Z" fill="${GOLD}" stroke="${INK}" stroke-width="2"/><circle cx="214" cy="127" r="6" fill="${ACCENT}"/>
+    ${[[214, 160, 16, 28], [356, 226, 15, 26]].map(([x, y, r, body]) => `<circle cx="${x - 8}" cy="${y + r + body - 6}" r="${body}" fill="${GREY}"/><circle cx="${x}" cy="${y}" r="${r}" fill="${GREY}"/><circle cx="${x + 6}" cy="${y - 3}" r="3" fill="${INK}"/><path d="M${x - 4} ${y - r + 3} L${x} ${y - r - 13} L${x + 4} ${y - r + 3} Z" fill="${INK}"/>`).join("")}
+    ${line("M300 40 L356 190", ACCENT, 8)}${[0, 1, 2].map((i) => `<rect x="-6" y="-3" width="12" height="6" fill="${WHITE}" transform="translate(${312 + i * 12} ${72 + i * 32}) rotate(-20)"/>`).join("")}
+    ${line("M334 194 l-12 -4", ACCENT, 3)}${line("M334 206 l-14 2", ACCENT, 3)}${line("M378 194 l12 -4", ACCENT, 3)}`),
+  // Stevin: two lead balls, one ten times heavier, fall from a tower in Delft – side by side, at the same height
+  "s-stevin-delft": svg(`<rect x="58" y="70" width="86" height="210" fill="#c9b49a" stroke="${INK}" stroke-width="3"/><path d="M52 72 L101 18 L150 72 Z" fill="${INK}"/>
+    ${[100, 160, 220].map((y) => `<path d="M88 ${y + 26} v-14 a13 13 0 0 1 26 0 v14 z" fill="${INK}"/>`).join("")}${line("M20 280 H380", INK, 4)}
+    ${[0.18, 0.4].map((o, k) => `<circle cx="220" cy="${90 + k * 46}" r="18" fill="${INK}" opacity="${o}"/><circle cx="290" cy="${90 + k * 46}" r="8" fill="${INK}" opacity="${o}"/>`).join("")}
+    <circle cx="220" cy="190" r="18" fill="${INK}"/><circle cx="290" cy="190" r="8" fill="${INK}"/>${line("M190 190 H320", ACCENT, 3, 'stroke-dasharray="7 6"')}
+    ${arrow("M350 120 V250")}`),
+  // Cherry: a room full of talking people – one listener hears just the one voice they attend to
+  "s-cocktailparty": svg(`${[40, 100, 310, 370].map((x) => person(x, 270, 0.62, "grey")).join("")}
+    ${[[40, 170], [100, 140], [310, 140], [370, 170]].map(([x, y]) => `<ellipse cx="${x}" cy="${y}" rx="26" ry="16" fill="${WHITE}" stroke="${GREY}" stroke-width="2"/>${line(`M${x - 14} ${y} q7 -7 14 0 t14 0`, GREY, 2)}`).join("")}
+    ${person(166, 262, 0.85, "ink")}${person(250, 262, 0.85, "accent")}
+    ${[10, 20, 30].map((r) => `<path d="M228 ${213 - r} A${r} ${r} 0 0 0 228 ${213 + r}" stroke="${ACCENT}" stroke-width="3" fill="none"/>`).join("")}`),
 };
 
 const DATA = "content/studies.json";

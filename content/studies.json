@@ -1262,5 +1262,363 @@
     },
     "image_url": "/img/studies/s-zeigarnik.svg",
     "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-van-helmont",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1648,
+    "name": "Van Helmonts Weidenbaum",
+    "question": "Woraus wächst ein Baum eigentlich – aus der Erde, in der er steht?",
+    "method": "Jan Baptist van Helmont wog einen jungen Weidenschössling von fünf Pfund und pflanzte ihn in einen Topf mit ebenfalls abgewogener Erde. Fünf Jahre lang goss er ihn nur mit Wasser, sonst kam nichts hinzu. Dann wog er Baum und Erde ein zweites Mal. Veröffentlicht wurde der Versuch erst nach seinem Tod, 1648.",
+    "result": "Die Weide wog jetzt über 169 Pfund, die Erde hatte nur 2 Unzen verloren – rund 57 Gramm. Van Helmont schloss daraus, Holz, Rinde und Wurzeln seien allein aus Wasser entstanden.",
+    "caveat": "Aber das war nur halb richtig: Pflanzen brauchen auch Luft – vor allem das Kohlenstoffdioxid darin –, Licht und in kleinen Mengen Stoffe aus dem Boden. Das fanden erst spätere Forscher heraus. Trotzdem gilt der Versuch als eine der frühesten Messstudien zum Wachstum von Pflanzen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Johan Baptista van Helmont",
+        "url": "https://de.wikipedia.org/wiki/Johan_Baptista_van_Helmont"
+      },
+      {
+        "name": "Wikipedia (englisch): Jan Baptist van Helmont",
+        "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Van Helmont's willow tree",
+        "question": "What does a tree actually grow from – the soil it stands in?",
+        "method": "Jan Baptist van Helmont weighed a young willow shoot of five pounds and planted it in a pot of soil that he had weighed as well. For five years he gave it nothing but water. Then he weighed the tree and the soil a second time. The experiment was only published after his death, in 1648.",
+        "result": "The willow now weighed over 169 pounds, while the soil had lost only 2 ounces – about 57 grams. Van Helmont concluded that wood, bark and roots had come from water alone.",
+        "caveat": "But that was only half right: plants also need air – above all the carbon dioxide in it –, light and small amounts of substances from the soil. Only later researchers found that out. Even so, the experiment counts as one of the earliest quantitative studies of plant growth."
+      }
+    },
+    "image_url": "/img/studies/s-van-helmont.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-redi",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1668,
+    "name": "Redis Fleischgläser",
+    "question": "Entstehen Maden von selbst im verderbenden Fleisch?",
+    "method": "Francesco Redi legte Fleisch in Gefäße. Eines verschloss er ganz, eines ließ er offen, eines deckte er mit feiner Gaze ab – so kam Luft hinein, aber keine Fliege. Seine Versuche veröffentlichte er 1668.",
+    "result": "Maden erschienen nur im offenen Gefäß, in das Fliegen gelangen konnten. Auf der Gaze tauchten zwar Maden auf, im Fleisch darunter nicht. Aus eingefangenen Maden wurden gewöhnliche Fliegen. Die Maden kamen also aus den Eiern von Fliegen – nicht aus dem Fleisch.",
+    "caveat": "Aber wie viel Redi damit bewiesen hat, wird unterschiedlich gesehen: Manche nennen die Urzeugung damit widerlegt, andere sprechen von einem der ersten Schritte dahin. Auch für Parasiten zeigte Redi, dass sie aus Eiern entstehen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Francesco Redi",
+        "url": "https://de.wikipedia.org/wiki/Francesco_Redi"
+      },
+      {
+        "name": "Wikipedia (englisch): Francesco Redi",
+        "url": "https://en.wikipedia.org/wiki/Francesco_Redi"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T11:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Redi's jars of meat",
+        "question": "Do maggots appear by themselves in rotting meat?",
+        "method": "Francesco Redi put meat into jars. He sealed one completely, left one open and covered one with fine gauze – so air could get in, but no fly. He published his experiments in 1668.",
+        "result": "Maggots appeared only in the open jar, which flies could reach. Maggots did turn up on the gauze, but not in the meat beneath it. Captured maggots turned into ordinary flies. So the maggots came from the eggs of flies – not from the meat.",
+        "caveat": "But how much Redi proved with this is seen differently: some say it disproved spontaneous generation, others call it one of the first steps towards that. Redi also showed for parasites that they develop from eggs."
+      }
+    },
+    "image_url": "/img/studies/s-redi.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-torricelli",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1643,
+    "name": "Torricellis Quecksilbersäule",
+    "question": "Warum läuft ein oben geschlossenes Rohr nicht einfach leer?",
+    "method": "Evangelista Torricelli arbeitete mit einem senkrechten, oben geschlossenen Glasrohr, das unten in einem offenen Becken mit Quecksilber stand. Er wollte zeigen, warum sich das Rohr nie ganz entleert, und tauchte es unterschiedlich tief ins Becken.",
+    "result": "Immer blieb eine Quecksilbersäule von ungefähr 76 Zentimetern stehen. Torricelli erklärte: Nicht die Leere saugt das Quecksilber hoch, sondern die Last der Luft drückt es hinauf – Luft hat ein Gewicht. Er bemerkte auch, dass die Säule mit der Zeit schwankte und vor schlechtem Wetter sank: das erste Barometer.",
+    "caveat": "Aber umstritten war das: René Descartes schrieb, ein Vakuum gebe es allenfalls in Torricellis Kopf. Gestützt wurde die Idee 1647 durch einen Versuch von Blaise Pascal. Und ob das Barometer 1643 oder 1644 entstand, geben die Quellen unterschiedlich an.",
+    "sources": [
+      {
+        "name": "Wikipedia: Barometer",
+        "url": "https://de.wikipedia.org/wiki/Barometer"
+      },
+      {
+        "name": "Wikipedia: Evangelista Torricelli",
+        "url": "https://de.wikipedia.org/wiki/Evangelista_Torricelli"
+      },
+      {
+        "name": "Wikipedia (englisch): Barometer",
+        "url": "https://en.wikipedia.org/wiki/Barometer"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T10:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Torricelli's column of mercury",
+        "question": "Why doesn't a tube that is closed at the top simply run empty?",
+        "method": "Evangelista Torricelli worked with a vertical glass tube, closed at the top, that stood in an open basin of mercury. He wanted to show why the tube never empties completely, and dipped it into the basin to different depths.",
+        "result": "A column of mercury about 76 centimetres high always remained. Torricelli explained: it is not the vacuum that sucks the mercury up, but the weight of the air that pushes it up – air has weight. He also noticed that the column changed over time and dropped before bad weather: the first barometer.",
+        "caveat": "But this was disputed: René Descartes wrote that a vacuum existed at most in Torricelli's head. The idea was supported in 1647 by an experiment of Blaise Pascal. And whether the barometer dates from 1643 or 1644 is given differently in the sources."
+      }
+    },
+    "image_url": "/img/studies/s-torricelli.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-fizeau",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1849,
+    "name": "Fizeaus Zahnrad",
+    "question": "Lässt sich die Geschwindigkeit des Lichts auf der Erde messen?",
+    "method": "Hippolyte Fizeau schickte 1849 Licht durch die Lücken eines sich drehenden Zahnrads zu einem Spiegel und von dort durch dasselbe Rad zurück zu einem Beobachter. Die Strecke bei Paris war etwa 8,6 Kilometer lang. Dann ließ er das Rad immer schneller drehen.",
+    "result": "Bei einer bestimmten Drehzahl traf das zurückkehrende Licht nicht mehr auf eine Lücke, sondern auf den nächsten Zahn – der Beobachter sah es nicht mehr. Aus Drehzahl, Zahl der Zähne und Strecke berechnete Fizeau rund 315.300 Kilometer pro Sekunde.",
+    "caveat": "Aber das war etwa 5 Prozent zu viel: Richtig sind rund 299.792 km/s. Die Strecke war kurz, und die Drehzahl ließ sich nur ungenau bestimmen. Schon 1850 gelang Léon Foucault mit einem Drehspiegel eine viel genauere Messung. Sogar die Zahl der Zähne ist unsicher: 720 in der französischen, 700 in der deutschen Veröffentlichung.",
+    "sources": [
+      {
+        "name": "Wikipedia: Zahnradmethode",
+        "url": "https://de.wikipedia.org/wiki/Zahnradmethode"
+      },
+      {
+        "name": "Wikipedia: Hippolyte Fizeau",
+        "url": "https://de.wikipedia.org/wiki/Hippolyte_Fizeau"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T09:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Fizeau's toothed wheel",
+        "question": "Can the speed of light be measured on Earth?",
+        "method": "In 1849 Hippolyte Fizeau sent light through the gaps of a rotating toothed wheel to a mirror, and from there back through the same wheel to an observer. The path near Paris was about 8.6 kilometres long. Then he made the wheel turn faster and faster.",
+        "result": "At a certain speed the returning light no longer hit a gap but the next tooth – the observer could no longer see it. From the speed of rotation, the number of teeth and the distance, Fizeau calculated about 315,300 kilometres per second.",
+        "caveat": "But that was about 5 per cent too high: the true value is about 299,792 km/s. The path was short, and the speed of the wheel could only be determined roughly. As early as 1850, Léon Foucault achieved a far more accurate measurement with a rotating mirror. Even the number of teeth is uncertain: 720 in the French, 700 in the German publication."
+      }
+    },
+    "image_url": "/img/studies/s-fizeau.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-joule",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1845,
+    "name": "Joules Schaufelrad",
+    "question": "Kann Bewegung zu Wärme werden – und gibt es dafür einen festen Umrechnungswert?",
+    "method": "James Prescott Joule ließ ein fallendes Gewicht ein Schaufelrad antreiben, das sich in einem isolierten Fass voll Wasser drehte. Die Schwerkraft verrichtete die Arbeit, und Joule maß, wie stark sich das Wasser erwärmte. Im Juni 1845 trug er seine Arbeit in Cambridge vor.",
+    "result": "Das Wasser wurde wärmer. Joule kam zu dem Schluss, dass Bewegung und Wärme ineinander umgewandelt werden können – und dass dieselbe Menge Arbeit immer dieselbe Menge Wärme erzeugt. Diese Idee wurde wichtig für den Satz von der Erhaltung der Energie.",
+    "caveat": "Aber Joule war nicht der Einzige: Julius Robert Mayer hatte die Idee schon 1842 veröffentlicht, und zwischen beiden entstand ein Streit darüber, wem sie gebührt. Zunächst stießen beide auf Ablehnung – erst ab 1847 wurden viele führende Forscher aufmerksam.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): James Prescott Joule",
+        "url": "https://en.wikipedia.org/wiki/James_Prescott_Joule"
+      },
+      {
+        "name": "Wikipedia (englisch): Mechanical equivalent of heat",
+        "url": "https://en.wikipedia.org/wiki/Mechanical_equivalent_of_heat"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T08:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Joule's paddle wheel",
+        "question": "Can motion turn into heat – and is there a fixed rate of exchange?",
+        "method": "James Prescott Joule let a falling weight drive a paddle wheel that turned in an insulated barrel of water. Gravity did the work, and Joule measured how much the water warmed up. In June 1845 he presented his paper in Cambridge.",
+        "result": "The water got warmer. Joule concluded that motion and heat can be turned into each other – and that the same amount of work always produces the same amount of heat. This idea became important for the law of conservation of energy.",
+        "caveat": "But Joule was not the only one: Julius Robert Mayer had published the idea as early as 1842, and a dispute arose between them over whose it was. At first both met with rejection – only from 1847 did many leading scientists take notice."
+      }
+    },
+    "image_url": "/img/studies/s-joule.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-eddington",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1919,
+    "name": "Eddington und die Sonnenfinsternis von 1919",
+    "question": "Lenkt die Schwerkraft der Sonne das Licht ferner Sterne ab – so stark, wie Einstein es vorhersagte?",
+    "method": "Während der totalen Sonnenfinsternis am 29. Mai 1919 fotografierten zwei Teams die Sterne rund um die verdunkelte Sonne: eines auf der Insel Príncipe vor Westafrika, geleitet von Arthur Eddington, eines im brasilianischen Sobral. Die Sonne stand gerade vor dem hellen Sternhaufen der Hyaden. Die Positionen verglichen sie mit Aufnahmen derselben Sterne bei Nacht.",
+    "result": "Die Sterne erschienen leicht verschoben – passend zu Einsteins Allgemeiner Relativitätstheorie. Sie sagte für einen Stern am Sonnenrand 1,75 Bogensekunden voraus, doppelt so viel wie die Rechnung nach Newton. Die Ergebnisse wurden in London vorgestellt und machten Einstein weltberühmt.",
+    "caveat": "Aber die Daten waren knapp: Auf Príncipe störten Wolken, und in Sobral wurden die unscharfen Bilder des Hauptteleskops verworfen – ausgerechnet die, die eher zu Newton passten. Später kam der Verdacht auf, die Auswertung sei voreingenommen gewesen. Eine Neuauswertung der Sobral-Platten von 1979 mit moderner Messtechnik stützte Eddingtons Ergebnis aber.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Eddington experiment",
+        "url": "https://en.wikipedia.org/wiki/Eddington_experiment"
+      },
+      {
+        "name": "Wikipedia: Sonnenfinsternis vom 29. Mai 1919",
+        "url": "https://de.wikipedia.org/wiki/Sonnenfinsternis_vom_29._Mai_1919"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T07:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Eddington and the solar eclipse of 1919",
+        "question": "Does the Sun's gravity bend the light of distant stars – as strongly as Einstein predicted?",
+        "method": "During the total solar eclipse of 29 May 1919, two teams photographed the stars around the darkened Sun: one on the island of Príncipe off West Africa, led by Arthur Eddington, one in the Brazilian town of Sobral. The Sun happened to stand in front of the bright star cluster of the Hyades. They compared the positions with pictures of the same stars at night.",
+        "result": "The stars appeared slightly shifted – in line with Einstein's general theory of relativity. It predicted 1.75 seconds of arc for a star at the edge of the Sun, twice the value from Newton's theory. The results were presented in London and made Einstein world famous.",
+        "caveat": "But the data were thin: on Príncipe clouds got in the way, and in Sobral the blurred images of the main telescope were discarded – the very ones that came closer to Newton. Later the suspicion arose that the analysis had been biased. A 1979 reanalysis of the Sobral plates with modern measuring equipment supported Eddington's result, though."
+      }
+    },
+    "image_url": "/img/studies/s-eddington.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-festinger",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1959,
+    "name": "Der Ein-Dollar-Versuch (Festinger)",
+    "question": "Ändern wir unsere Meinung, wenn wir für eine kleine Lüge nur wenig bekommen?",
+    "method": "Leon Festinger und sein Kollege Carlsmith ließen 1959 Studenten der Stanford University eine extrem langweilige Aufgabe erledigen, etwa mit einer Hand kleine Spulen immer eine Vierteldrehung weiterdrehen. Danach sollten sie der nächsten Versuchsperson erzählen, das sei spannend gewesen – die einen für einen Dollar, die anderen für 20 Dollar. Eine Kontrollgruppe musste niemanden überreden.",
+    "result": "Wer nur einen Dollar bekommen hatte, fand die Aufgabe hinterher viel attraktiver als die 20-Dollar-Gruppe und die Kontrollgruppe. Die Erklärung: Wer für wenig Geld lügt, spürt einen inneren Widerspruch – kognitive Dissonanz – und gleicht ihn aus, indem er die Aufgabe besser bewertet. Die 20 Dollar waren dagegen ein guter Grund für die Lüge.",
+    "caveat": "Aber es gibt eine andere Deutung: Daryl Bem meinte 1967, wir schließen einfach aus unserem eigenen Verhalten auf unsere Einstellung. Beide Theorien sagen dasselbe Ergebnis voraus. Außerdem nahmen nur Männer teil, und von 71 Studenten wurden 11 ausgeschlossen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kognitive Dissonanz",
+        "url": "https://de.wikipedia.org/wiki/Kognitive_Dissonanz"
+      },
+      {
+        "name": "Wikipedia (englisch): Forced compliance theory",
+        "url": "https://en.wikipedia.org/wiki/Forced_compliance_theory"
+      },
+      {
+        "name": "Wikipedia (englisch): Cognitive dissonance",
+        "url": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T06:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The one-dollar experiment (Festinger)",
+        "question": "Do we change our opinion when we get only a little for a small lie?",
+        "method": "In 1959 Leon Festinger and his colleague Carlsmith had students at Stanford University do an extremely boring task, such as turning small spools a quarter turn at a time with one hand. Afterwards they were to tell the next participant that it had been exciting – some for one dollar, others for 20 dollars. A control group did not have to persuade anyone.",
+        "result": "Those who had received only one dollar later found the task much more attractive than the 20-dollar group and the control group. The explanation: whoever lies for little money feels an inner contradiction – cognitive dissonance – and resolves it by rating the task more highly. The 20 dollars, on the other hand, were a good reason for the lie.",
+        "caveat": "But there is another reading: in 1967 Daryl Bem suggested that we simply infer our attitude from our own behaviour. Both theories predict the same result. Besides, only men took part, and 11 of the 71 students were disqualified."
+      }
+    },
+    "image_url": "/img/studies/s-festinger.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-moewenkueken",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1950,
+    "name": "Tinbergens Möwenküken",
+    "question": "Woran erkennt ein frisch geschlüpftes Möwenküken, wen es um Futter anbetteln soll?",
+    "method": "Nikolaas Tinbergen und Albert Perdeck holten frisch geschlüpfte Silbermöwen-Küken aus ihren Nestern und testeten sie in einem Versuchszelt. Sie zeigten ihnen verschiedene Modelle – einen echten Möwenkopf, ein Holzmodell, nur den Schnabel, einen bemalten Stab – und zählten, wie oft die Küken danach pickten. Die Studie erschien 1950.",
+    "result": "Entscheidend war ein Fleck nahe der Spitze des Unterschnabels – am besten ein roter, wie ihn die Eltern tragen. Eine rote Stricknadel mit drei weißen Ringen löste sogar stärkeres Betteln aus als ein naturgetreues Kopfmodell: ein „übernormaler“ Reiz.",
+    "caveat": "Aber Tinbergens Küken stammten aus dem Freiland. Damit sie sicher noch nie eine erwachsene Möwe gesehen hatten, brütete man in Bonn Ende der 1980er-Jahre Eier im Labor aus. Von 112 Küken bettelten viele eine blau-weiß bemalte Kugel sogar häufiger an als die naturgetreue Kopfattrappe mit rotem Punkt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Schlüsselreiz",
+        "url": "https://de.wikipedia.org/wiki/Schlüsselreiz"
+      },
+      {
+        "name": "Wikipedia (englisch): Supernormal stimulus",
+        "url": "https://en.wikipedia.org/wiki/Supernormal_stimulus"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T05:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Tinbergen's gull chicks",
+        "question": "How does a newly hatched gull chick know whom to beg for food?",
+        "method": "Nikolaas Tinbergen and Albert Perdeck took newly hatched herring gull chicks from their nests and tested them in a test tent. They showed them different models – a real gull's head, a wooden model, the bill alone, a painted stick – and counted how often the chicks pecked at them. The study appeared in 1950.",
+        "result": "What mattered was a spot near the tip of the lower bill – ideally a red one, like the parents have. A red knitting needle with three white bands even triggered stronger begging than a lifelike model of the head: a 'supernormal' stimulus.",
+        "caveat": "But Tinbergen's chicks came from the wild. To be sure they had never seen an adult gull, eggs were hatched in a lab in Bonn in the late 1980s. Of 112 chicks, many begged from a blue-and-white painted ball even more often than from the lifelike head model with a red spot."
+      }
+    },
+    "image_url": "/img/studies/s-moewenkueken.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-stevin-delft",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1586,
+    "name": "Zwei Bleikugeln in Delft (Stevin)",
+    "question": "Fällt ein schwerer Körper schneller als ein leichter – so wie Aristoteles lehrte?",
+    "method": "Simon Stevin und Jan Cornets de Groot ließen in Delft zwei Bleikugeln gleichzeitig fallen, die eine zehnmal größer und schwerer als die andere, aus 30 Fuß Höhe – etwa 10 Meter. Stevin beschrieb den Versuch 1586 in einem Buch über Statik.",
+    "result": "Beide Kugeln schlugen gleichzeitig unten auf – Stevin hörte es. Die leichte Kugel war also nicht zehnmal länger unterwegs. Damit lag Aristoteles falsch, nach dem schwere Körper im Verhältnis zu ihrem Gewicht schneller fallen.",
+    "caveat": "Aber berühmt wurde dafür ein anderer: Galileo Galilei soll Kugeln vom Schiefen Turm von Pisa fallen gelassen haben. Das erzählt nur sein Schüler Viviani; Galilei selbst berichtet nirgends davon, und viele Historiker halten es für ein Gedankenexperiment. Galilei vermutete aber, dass alle Körper ohne Luftwiderstand gleich schnell fallen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Freier Fall",
+        "url": "https://de.wikipedia.org/wiki/Freier_Fall"
+      },
+      {
+        "name": "Wikipedia (englisch): Galileo's Leaning Tower of Pisa experiment",
+        "url": "https://en.wikipedia.org/wiki/Galileo's_Leaning_Tower_of_Pisa_experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T04:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Two lead balls in Delft (Stevin)",
+        "question": "Does a heavy object fall faster than a light one – as Aristotle taught?",
+        "method": "In Delft, Simon Stevin and Jan Cornets de Groot dropped two lead balls at the same time, one ten times bigger and heavier than the other, from a height of 30 feet – about 10 metres. Stevin described the experiment in 1586 in a book on statics.",
+        "result": "Both balls hit the ground at the same time – Stevin heard it. So the light ball was not ten times longer under way. This showed Aristotle was wrong, who held that heavy objects fall faster in proportion to their weight.",
+        "caveat": "But someone else became famous for it: Galileo Galilei is said to have dropped balls from the Leaning Tower of Pisa. Only his pupil Viviani tells that story; Galileo himself never reports it, and many historians consider it a thought experiment. Galileo did suggest, though, that all bodies fall equally fast without air resistance."
+      }
+    },
+    "image_url": "/img/studies/s-stevin-delft.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-cocktailparty",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1953,
+    "name": "Der Cocktailparty-Effekt (Cherry)",
+    "question": "Wie schaffen wir es, in einem Stimmengewirr einer einzigen Person zuzuhören?",
+    "method": "Colin Cherry ließ Versuchspersonen zwei verschiedene Nachrichten gleichzeitig aus einem Lautsprecher hören und sie auseinanderhalten; 1953 gab er dem Problem seinen Namen. Später bekamen sie über Kopfhörer auf jedes Ohr eine andere Nachricht und sollten die eines Ohres laut nachsprechen. Anlass waren Fluglotsen, die viele Piloten durcheinander über einen Lautsprecher hörten.",
+    "result": "Wie gut das Trennen gelang, hing unter anderem vom Geschlecht der sprechenden Person ab, von der Richtung, aus der der Schall kam, von der Tonhöhe und vom Sprechtempo. Den eigenen Namen bemerkten die Leute sogar auf dem Ohr, dem sie gar nicht zuhörten.",
+    "caveat": "Aber genauer untersuchte das erst Neville Moray 1959: Von der nicht beachteten Nachricht dringt fast nichts durch – außer Dingen, die einem persönlich wichtig sind. Und wie das Gehör das schafft, ist bis heute nicht vollständig entschlüsselt; Technik mit nur zwei Mikrofonen schneidet deutlich schlechter ab.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Cocktail party effect",
+        "url": "https://en.wikipedia.org/wiki/Cocktail_party_effect"
+      },
+      {
+        "name": "Wikipedia: Cocktailparty-Effekt",
+        "url": "https://de.wikipedia.org/wiki/Cocktailparty-Effekt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T03:00:00Z",
+    "translations": {
+      "en": {
+        "name": "The cocktail party effect (Cherry)",
+        "question": "How do we manage to listen to one single person amid a babble of voices?",
+        "method": "Colin Cherry had participants listen to two different messages from one loudspeaker at the same time and tell them apart; in 1953 he gave the problem its name. Later they heard a different message in each ear through headphones and had to repeat one ear's message aloud. The starting point was air traffic controllers, who heard many pilots jumbled together over one loudspeaker.",
+        "result": "How well the separating worked depended, among other things, on the sex of the speaker, the direction the sound came from, the pitch and the rate of speech. People even noticed their own name in the ear they were not listening to.",
+        "caveat": "But only Neville Moray looked into this more closely, in 1959: almost nothing of the ignored message gets through – except things that matter to you personally. And how the ear does it is still not fully understood; technology with just two microphones does much worse."
+      }
+    },
+    "image_url": "/img/studies/s-cocktailparty.svg",
+    "image_credit": "Zeichnung: Wunder"
   }
 ]
