@@ -702,4 +702,147 @@ function EarthDay({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay };
+// ------------------------------------------------------------------ how big is a billion? (motion graphics, 30.10.2026)
+// A million, a billion and a trillion seconds as a running counter and as time: nearly two weeks, about 31.7 years,
+// about 31,700 years. Pure arithmetic (a year of 365.25 days). labels: 0 seconds, 1–3 one million / billion / trillion,
+// 4–6 the three durations, 7 days, 8 years, 9 "× 1000"
+const SECONDS = [1e6, 1e9, 1e12];
+const YEAR = 365.25 * 86400;
+const grouped = (n: number) => Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "); // thin spaces: 1 000 000 in every language
+
+function Seconds({ step, p, labels }: SceneProps) {
+  const s = Math.min(step, 3);
+  const k = ease(clamp(p / 0.75));
+  const count = s === 0 ? SECONDS[0] * k : s < 3 ? SECONDS[s - 1] * (SECONDS[s] / SECONDS[s - 1]) ** k : SECONDS[2];
+  const colors = [BLUE, YELLOW, RED];
+  const L = 24, R = 336; // the bar
+  // step 0: twelve day boxes; step 1: a bar of 32 years; step 2: the same bar for 32,000 years
+  const days = count / 86400;
+  const span = s <= 1 ? 32 : lerp(32, 32000, s === 2 ? ease(clamp(p / 0.4)) : 1); // years the bar shows
+  const yx = (years: number) => L + ((R - L) * years) / span;
+  const boxes = s === 0 ? 1 : s === 1 ? 1 - ease(clamp(p / 0.3)) : 0;
+  const bar = s === 0 ? 0 : s === 1 ? ease(clamp((p - 0.15) / 0.3)) : s === 2 ? 1 : 0;
+  const ticks = span <= 40 ? [0, 10, 20, 30] : [0, 10000, 20000, 30000];
+  return (
+    <>
+      {/* the counter */}
+      <Label x={180} y={72} size={s === 2 || s === 3 ? 27 : 32} bold color={colors[Math.min(s, 2)]}>{grouped(count)}</Label>
+      <Label x={180} y={98} size={13} color={DIM}>{labels[0]}</Label>
+      {s < 3 && <Label x={180} y={132} size={14} bold>{labels[1 + s]}</Label>}
+      {/* step 0: the days of nearly two weeks */}
+      <g opacity={boxes}>
+        {Array.from({ length: 12 }, (_, i) => {
+          const fill = clamp(days - i);
+          return (
+            <g key={i}>
+              <rect x={14 + i * 28} y={170} width={24} height={24} rx={4} fill="none" stroke={LINE} strokeWidth={2} />
+              <rect x={14 + i * 28} y={170} width={24 * fill} height={24} rx={4} fill={BLUE} />
+            </g>
+          );
+        })}
+        <Label x={180} y={222} size={11} color={DIM}>{labels[7]}</Label>
+        {s === 0 && <Label x={180} y={262} size={18} bold color={BLUE} >{p > 0.75 ? labels[4] : ""}</Label>}
+      </g>
+      {/* steps 1 and 2: years on a bar that rescales */}
+      <g opacity={bar}>
+        <rect x={L} y={180} width={R - L} height={22} rx={4} fill="#1d1b19" stroke={LINE} />
+        {s === 1 && <rect x={L} y={180} width={Math.max(0, yx(Math.min(count / YEAR, 32)) - L)} height={22} rx={4} fill={YELLOW} />}
+        {s === 1 && <rect x={L} y={176} width={2} height={30} fill={BLUE} />}
+        {s === 2 && <>
+          <rect x={L} y={180} width={Math.max(1.5, yx(Math.min(SECONDS[1] / YEAR, span)) - L)} height={22} fill={YELLOW} />
+          <rect x={yx(SECONDS[1] / YEAR)} y={180} width={Math.max(0, yx(Math.min(count / YEAR, span)) - yx(SECONDS[1] / YEAR))} height={22} fill={RED} opacity={0.9} />
+        </>}
+        {ticks.map((y) => (
+          <g key={y}>
+            <line x1={yx(y)} y1={204} x2={yx(y)} y2={212} stroke={DIM} strokeWidth={1.5} />
+            <Label x={yx(y)} y={226} size={10} color={DIM}>{grouped(y)}</Label>
+          </g>
+        ))}
+        <Label x={R} y={244} anchor="end" size={11} color={DIM}>{labels[8]}</Label>
+        <Label x={180} y={276} size={18} bold color={s === 1 ? YELLOW : RED}>{p > 0.75 ? labels[4 + s] : ""}</Label>
+      </g>
+      {/* step 3: the three side by side – every step a thousand times the last */}
+      {s === 3 && [0, 1, 2].map((i) => {
+        const on = ease(clamp(p * 3 - i * 0.6));
+        const y = 170 + i * 62;
+        return (
+          <g key={i} opacity={on} transform={`translate(${(1 - on) * 16} 0)`}>
+            <circle cx={36} cy={y - 5} r={7} fill={colors[i]} />
+            <Label x={52} y={y} anchor="start" size={14} bold color={colors[i]}>{labels[1 + i]}</Label>
+            <Label x={330} y={y} anchor="end" size={14} bold>{labels[4 + i]}</Label>
+            {i < 2 && <Label x={330} y={y + 31} anchor="end" size={11} color={DIM}>{labels[9]}</Label>}
+          </g>
+        );
+      })}
+    </>
+  );
+}
+
+// ------------------------------------------------------------------ the solar system as a football model (motion graphics, 30.10.2026)
+// The Sun shrunk to a football of 22 cm, everything else in the same ratio (1 : 6.4 billion): the Earth 2 mm at 23.5 m,
+// Jupiter 2.3 cm at 122 m, Neptune 8 mm at 707 m – and the nearest star about 6,300 km away. Distances from SOLAR_SCALE.
+// labels: 0 "Sun = football", 1 "22 cm", 2 Earth, 3 "2 mm", 4 "23.5 m", 5 Jupiter, 6 "2.3 cm", 7 "122 m", 8 Neptune, 9 "8 mm",
+// 10 "707 m", 11 nearest star, 12 "≈ 6,300 km", 13 "nearly half the Earth's diameter", 14 scale "1 : 6.4 billion"
+export const SOLAR_SCALE = { earth: 23.5, jupiter: 122, neptune: 707 }; // metres in the model
+const JUPITER = "#d9a066", NEPTUNE = "#5b7bd5";
+
+function SolarScale({ step, p, t, labels }: SceneProps) {
+  const s = Math.min(step, 3);
+  const k = ease(clamp(p / 0.8));
+  const y = 196, L = 34, R = 326;
+  // pixels per metre: step 1 the Earth at the far end, step 2 Neptune
+  const ppm = s === 1 ? (R - L) / SOLAR_SCALE.earth : s === 2 ? lerp((R - L) / SOLAR_SCALE.earth, (R - L) / SOLAR_SCALE.neptune, k) : (R - L) / SOLAR_SCALE.neptune;
+  const at = (m: number) => L + m * ppm;
+  const sunR = s === 0 ? lerp(120, 46, k) : s === 1 ? lerp(46, 14, k) : s === 2 ? lerp(14, 6, k) : 6;
+  const sunX = s === 0 ? 180 : s === 1 ? lerp(180, L, k) : L;
+  const system = s === 3 ? 1 - ease(clamp(p / 0.35)) : 1; // the whole model fades for the last comparison
+  const counter = s === 1 ? SOLAR_SCALE.earth * k : s === 2 ? lerp(SOLAR_SCALE.earth, SOLAR_SCALE.neptune, k) : 0;
+  const lens = (x: number, r: number, color: string, name: string, size: string, dist: string, show: number, above = true) => (
+    <g opacity={show}>
+      <circle cx={x} cy={y} r={2} fill={color} />
+      <line x1={x} y1={y - 4} x2={x} y2={above ? y - 38 : y + 38} stroke={DIM} strokeWidth={1} strokeDasharray="2 3" />
+      <circle cx={x} cy={above ? y - 62 : y + 62} r={24} fill="#1d1b19" stroke={LINE} strokeWidth={2} />
+      <circle cx={x} cy={above ? y - 62 : y + 62} r={r} fill={color} />
+      <Label x={x} y={above ? y - 96 : y + 100} size={11} bold color={color}>{name}</Label>
+      <Label x={x} y={above ? y - 110 : y + 114} size={10} color={DIM}>{size}</Label>
+      <Label x={x} y={above ? y + 20 : y - 12} size={11} color={INK}>{dist}</Label>
+    </g>
+  );
+  return (
+    <>
+      <Label x={180} y={30} size={11} color={DIM}>{labels[14]}</Label>
+      <g opacity={system}>
+        {/* the Sun becomes a football: seams fade in as it shrinks */}
+        <circle cx={sunX} cy={y} r={sunR + Math.sin(t * 2) * (s === 0 ? 1.5 : 0)} fill={YELLOW} />
+        <g opacity={s === 0 ? k : 1} transform={`translate(${sunX} ${y}) scale(${sunR / 46})`}>
+          <path d="M0 -16 L15 -5 L9 13 L-9 13 L-15 -5 Z" fill="#b8860b" opacity={0.6} />
+          {[[0, -16, 0, -46], [15, -5, 44, -14], [9, 13, 27, 37], [-9, 13, -27, 37], [-15, -5, -44, -14]].map(([a, b, c, d], i) => <line key={i} x1={a} y1={b} x2={c} y2={d} stroke="#b8860b" strokeWidth={3} opacity={0.6} />)}
+        </g>
+        {s === 0 && <g opacity={k}>
+          <line x1={180 - 46} y1={y + 62} x2={180 + 46} y2={y + 62} stroke={INK} strokeWidth={2} />
+          <line x1={180 - 46} y1={y + 56} x2={180 - 46} y2={y + 68} stroke={INK} strokeWidth={2} /><line x1={180 + 46} y1={y + 56} x2={180 + 46} y2={y + 68} stroke={INK} strokeWidth={2} />
+          <Label x={180} y={y + 84} size={12} bold>{labels[1]}</Label>
+          <Label x={180} y={y - 62} size={14} bold color={YELLOW}>{labels[0]}</Label>
+        </g>}
+        {/* the line out into space and what sits on it */}
+        {s >= 1 && <line x1={sunX + sunR} y1={y} x2={s === 1 ? lerp(sunX + sunR, R, k) : R} y2={y} stroke={LINE} strokeWidth={2} />}
+        {/* one magnification for all planets (1 mm = 1 unit): the Earth shown bigger at first, then to scale with the others */}
+        {s >= 1 && lens(at(SOLAR_SCALE.earth), s === 1 ? 8 : s === 2 ? lerp(8, 2, k) : 2, BLUE, labels[2], labels[3], s === 1 ? (k > 0.95 ? labels[4] : `${Math.round(counter)} m`) : labels[4], s === 1 ? ease(clamp((p - 0.55) / 0.3)) : 1 - (s === 2 ? ease(clamp((p - 0.1) / 0.3)) * 0.4 : 0.4), true)}
+        {s >= 2 && lens(at(SOLAR_SCALE.jupiter), 22.5, JUPITER, labels[5], labels[6], labels[7], ease(clamp((p - 0.3) / 0.3)), false)}
+        {s >= 2 && lens(at(SOLAR_SCALE.neptune), 8, NEPTUNE, labels[8], labels[9], k > 0.95 ? labels[10] : `${Math.round(counter)} m`, ease(clamp((p - 0.55) / 0.3)), true)}
+      </g>
+      {/* the nearest star: about as far as half the real Earth's diameter */}
+      {s === 3 && <g opacity={ease(clamp((p - 0.3) / 0.3))}>
+        <circle cx={180} cy={210} r={100} fill="#1f3550" stroke={BLUE} strokeWidth={2} />
+        <line x1={80} y1={210} x2={280} y2={210} stroke={DIM} strokeWidth={1.5} strokeDasharray="4 5" />
+        <line x1={80} y1={210} x2={lerp(80, 180, ease(clamp((p - 0.5) / 0.35)))} y2={210} stroke={RED} strokeWidth={4} strokeLinecap="round" />
+        <circle cx={80} cy={210} r={4} fill={YELLOW} />
+        <Label x={180} y={84} size={13} bold color={INK}>{labels[11]}</Label>
+        <Label x={130} y={200} size={13} bold color={RED}>{p > 0.85 ? labels[12] : ""}</Label>
+        <Label x={180} y={340} size={12} color={INK}>{p > 0.85 ? labels[13] : ""}</Label>
+      </g>}
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale };

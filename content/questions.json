@@ -41187,5 +41187,45 @@
         "explanation": "Homo sapiens has been documented by fossils in Africa for about 300,000 years. Compared with the Earth, which formed about 4.54 billion years ago, that is tiny: squeezed into a single day it would be less than six seconds."
       }
     }
+  },
+  {
+    "id": "es1",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie viel größer ist der Durchmesser der Sonne als der der Erde – ungefähr?",
+    "options": [
+      "Etwa 10-mal",
+      "Etwa 110-mal",
+      "Etwa 1.100-mal",
+      "Etwa 11.000-mal"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Sonne hat einen Durchmesser von rund 1,4 Millionen Kilometern – etwa 110-mal so viel wie die Erde. Wäre die Sonne ein Fußball, wäre die Erde nur so groß wie ein Krümel von 2 Millimetern.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sonnensystem"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonne",
+    "source_url": "https://de.wikipedia.org/wiki/Sonne",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how much larger is the Sun's diameter than the Earth's?",
+        "options": [
+          "About 10 times",
+          "About 110 times",
+          "About 1,100 times",
+          "About 11,000 times"
+        ],
+        "explanation": "The Sun is about 1.4 million kilometres across – about 110 times as much as the Earth. If the Sun were a football, the Earth would be a crumb of just 2 millimetres."
+      }
+    }
   }
 ]
