@@ -41307,5 +41307,45 @@
         "explanation": "Only a small part: depending on the estimate about 2.6 to 3.5% – the rest is salt water. And a large part of the fresh water is locked up as ice in glaciers and polar ice caps."
       }
     }
+  },
+  {
+    "id": "hz1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie tief liegt die tiefste Stelle des Weltmeers im Marianengraben ungefähr?",
+    "options": [
+      "Rund 11.000 Meter",
+      "Rund 8.000 Meter",
+      "Rund 4.000 Meter",
+      "Rund 20.000 Meter"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit einer Maximaltiefe von etwa 11.000 Metern unter dem Meeresspiegel liegt im Marianengraben die tiefste Stelle des Weltmeeres – tiefer, als der Mount Everest mit über 8848 Metern hoch ist.",
+    "difficulty": 2,
+    "tags": [
+      "Meer",
+      "Geografie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marianengraben",
+    "source_url": "https://de.wikipedia.org/wiki/Marianengraben",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how deep is the deepest point of the ocean, in the Mariana Trench?",
+        "options": [
+          "About 11,000 metres",
+          "About 8,000 metres",
+          "About 4,000 metres",
+          "About 20,000 metres"
+        ],
+        "explanation": "With a maximum depth of about 11,000 metres below sea level, the Mariana Trench holds the deepest point of the ocean – deeper than Mount Everest, at over 8,848 metres, is high."
+      }
+    }
   }
 ]

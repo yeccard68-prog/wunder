@@ -641,3 +641,7 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 
 - **Neu** (`content/_batches/2026-10-studies-5.mjs`, 40 insgesamt): Pawlows Hunde, die Bobo-Puppe (Bandura, ab 13), Sherifs wandernder Lichtpunkt, Mendels Erbsen, die Magdeburger Halbkugeln, Cavendish wiegt die Erde (ab 13), Ørsted und die Kompassnadel, der Spiegeltest (Gallup), Ringelmann und das Ziehen im Team, der Zeigarnik-Effekt. In eigenen Worten, jede Aussage und Jahreszahl wörtlich belegt (teils englische Wikipedia); jede Studie mit „Aber …“ (z. B. Zeigarnik kaum wiederholbar, Ørsted nicht der Erste, Sherifs Lichtpunkt hat sich nie bewegt).
 - Zehn neue eigene Zeichnungen in `scripts/content/study-drawings.mjs`.
+
+## 76. Motion Graphics: von der Tiefsee bis zur Raumstation (30.10.2026)
+
+- **`a-hoehen`** (Szene `heights`): eine senkrechte Skala, die immer weiter herauszoomt (logarithmisch weich) – Burj Khalifa (828 m), Mount Everest (über 8848 m), Marianengraben (rund 11.000 m tief), ein Verkehrsflugzeug (Boeing 777, 10.670 m), die Kármán-Linie (100 km) und die ISS (rund 400 km). Vor dem letzten Schritt die Schätzfrage zur Höhe der ISS. Höhen belegt im Kopf von `content/_batches/2026-10-hoehen.mjs`. Neue Prüffrage `hz1` (Tiefe des Marianengrabens).

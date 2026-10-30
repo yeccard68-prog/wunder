@@ -4582,5 +4582,124 @@
       ],
       "correct": 2
     }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "id": "a-hoehen",
+    "category_id": "earth",
+    "scene": "heights",
+    "title": "Von der Tiefsee bis zur Raumstation",
+    "summary": "Hochhaus, Everest, Tiefsee, Flugzeug, Weltraum – auf einer Skala, die immer weiter herauszoomt.",
+    "goal": "Du kannst die Höhen und Tiefen der Erde einordnen – vom höchsten Gebäude bis zur Raumstation.",
+    "labels": [
+      "Meeresspiegel",
+      "Burj Khalifa: 828 m",
+      "Mount Everest: über 8848 m",
+      "Marianengraben: −11.000 m",
+      "Verkehrsflugzeug: rund 10,7 km",
+      "Grenze zum Weltraum: 100 km",
+      "Raumstation ISS: rund 400 km"
+    ],
+    "steps": [
+      {
+        "text": "Das höchste Bauwerk der Welt, der Burj Khalifa in Dubai, ist 828 Meter hoch.",
+        "seconds": 7
+      },
+      {
+        "text": "Der Mount Everest ist mit über 8848 Metern der höchste Berg der Erde – mehr als zehnmal so hoch. Das Hochhaus wird daneben zum Strich.",
+        "seconds": 8
+      },
+      {
+        "text": "Doch der Meeresgrund reicht noch tiefer: Die tiefste Stelle im Marianengraben liegt rund 11.000 Meter unter dem Meeresspiegel. Der Everest würde darin komplett versinken.",
+        "seconds": 9
+      },
+      {
+        "text": "Ein Verkehrsflugzeug wie die Boeing 777 fliegt in rund 10,7 Kilometern Höhe – fast so hoch, wie der Marianengraben tief ist.",
+        "seconds": 8
+      },
+      {
+        "text": "Und die Raumstation ISS? Sie kreist in rund 400 Kilometern Höhe, weit über der Grenze zum Weltraum bei 100 Kilometern. Von dort aus schrumpfen Berg, Flugzeug und Tiefsee zu einem dünnen Strich.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Burj Khalifa",
+        "url": "https://de.wikipedia.org/wiki/Burj_Khalifa"
+      },
+      {
+        "name": "Wikipedia: Mount Everest",
+        "url": "https://de.wikipedia.org/wiki/Mount_Everest"
+      },
+      {
+        "name": "Wikipedia: Marianengraben",
+        "url": "https://de.wikipedia.org/wiki/Marianengraben"
+      },
+      {
+        "name": "Wikipedia: Verkehrsflugzeug",
+        "url": "https://de.wikipedia.org/wiki/Verkehrsflugzeug"
+      },
+      {
+        "name": "Wikipedia: Kármán-Linie",
+        "url": "https://de.wikipedia.org/wiki/Kármán-Linie"
+      },
+      {
+        "name": "Wikipedia: Internationale Raumstation",
+        "url": "https://de.wikipedia.org/wiki/Internationale_Raumstation"
+      }
+    ],
+    "quiz_question_id": "hz1",
+    "translations": {
+      "en": {
+        "title": "From the deep sea to the space station",
+        "summary": "Skyscraper, Everest, deep sea, aeroplane, space – on one scale that keeps zooming out.",
+        "goal": "You can place the heights and depths of the Earth – from the tallest building to the space station.",
+        "labels": [
+          "sea level",
+          "Burj Khalifa: 828 m",
+          "Mount Everest: over 8,848 m",
+          "Mariana Trench: −11,000 m",
+          "airliner: about 10.7 km",
+          "edge of space: 100 km",
+          "space station ISS: about 400 km"
+        ],
+        "steps": [
+          "The tallest structure in the world, the Burj Khalifa in Dubai, is 828 metres high.",
+          "Mount Everest, at over 8,848 metres the highest mountain on Earth, is more than ten times as high. Next to it the skyscraper becomes a line.",
+          "But the sea floor goes even deeper: the deepest point in the Mariana Trench lies about 11,000 metres below sea level. Everest would sink in it completely.",
+          "An airliner such as the Boeing 777 flies at about 10.7 kilometres – almost as high as the Mariana Trench is deep.",
+          "And the space station ISS? It orbits at about 400 kilometres, far above the edge of space at 100 kilometres. From up there, mountain, aeroplane and deep sea shrink to a thin line."
+        ],
+        "predict": {
+          "question": "An aeroplane flies at about 10.7 km. How high does the space station ISS orbit?",
+          "options": [
+            "About 40 km",
+            "About 400 km",
+            "About 4,000 km"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 4,
+      "question": "Ein Flugzeug fliegt in rund 10,7 km Höhe. Wie hoch kreist die Raumstation ISS?",
+      "options": [
+        "Rund 40 km",
+        "Rund 400 km",
+        "Rund 4.000 km"
+      ],
+      "correct": 1
+    }
   }
 ]

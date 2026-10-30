@@ -972,4 +972,68 @@ function Water({ step, p, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water };
+// ------------------------------------------------------------------ from the deep sea to the space station (motion graphics, 30.10.2026)
+// One vertical scale that keeps zooming out: the tallest building, Mount Everest, the deepest point of the ocean, an
+// airliner, the edge of space and the ISS. Heights in HEIGHTS (metres; sources in the animation).
+// labels: 0 sea level, 1 Burj Khalifa, 2 Mount Everest, 3 Mariana Trench, 4 airliner, 5 edge of space, 6 ISS
+export const HEIGHTS = { burj: 828, everest: 8848, trench: -11000, plane: 10670, karman: 100000, iss: 400000 };
+const SKY = "#1b2a40", DEEP = "#173a66";
+
+function Heights({ step, p, t, labels }: SceneProps) {
+  const s = Math.min(step, 4);
+  const k = ease(clamp(p / 0.8));
+  // the view of each step: where sea level sits and how many pixels one kilometre gets
+  const views = [{ base: 330, ppk: 190 }, { base: 330, ppk: 24 }, { base: 200, ppk: 12 }, { base: 200, ppk: 12 }, { base: 350, ppk: 0.68 }];
+  const from = views[Math.max(0, s - 1)], to = views[s];
+  // zoom on a log scale, so the change feels even
+  const ppk = s === 0 ? to.ppk : Math.exp(lerp(Math.log(from.ppk), Math.log(to.ppk), k));
+  const base = s === 0 ? to.base : lerp(from.base, to.base, k);
+  const Y = (m: number) => base - (m / 1000) * ppk;
+  const show = (from: number) => (s > from ? 1 : s === from ? ease(clamp((p - 0.4) / 0.35)) : 0);
+  const tag = (x: number, y: number, text: string, color: string, on: number, anchor: "start" | "end" = "start") => (
+    <g opacity={on}><Label x={x} y={y} anchor={anchor} size={11} bold color={color}>{text}</Label></g>
+  );
+  const burjH = Math.max(1.5, (HEIGHTS.burj / 1000) * ppk);
+  const evH = (HEIGHTS.everest / 1000) * ppk;
+  return (
+    <>
+      {/* sky, sea and the line between them */}
+      <rect x={0} y={0} width={360} height={Math.max(0, base)} fill={SKY} />
+      <rect x={0} y={base} width={360} height={Math.max(0, 400 - base)} fill={DEEP} />
+      <line x1={0} y1={base} x2={360} y2={base} stroke="#7cc4f0" strokeWidth={1.5} />
+      <Label x={352} y={base - 6} anchor="end" size={10} color="#7cc4f0">{labels[0]}</Label>
+      {/* the deepest point of the ocean, below the mountain's height */}
+      <g opacity={show(2)}>
+        <path d={`M200 ${base} L262 ${base} L234 ${Y(HEIGHTS.trench)} Z`} fill="#0d2442" stroke="#7cc4f0" strokeWidth={1} />
+        <g opacity={s === 4 ? 1 - k : 1}><Label x={231} y={Math.min(392, Y(HEIGHTS.trench) + 18)} size={11} bold color="#7cc4f0">{labels[3]}</Label></g>
+      </g>
+      {/* Mount Everest (from the second step) and the tallest building */}
+      <g opacity={s === 0 ? 0 : s === 1 ? ease(clamp(p / 0.3)) : 1}>
+        <path d={`M120 ${base} L190 ${base - evH} L262 ${base} Z`} fill="#6b6f78" />
+        <path d={`M176 ${base - evH * 0.8} L190 ${base - evH} L204 ${base - evH * 0.8} L196 ${base - evH * 0.76} L190 ${base - evH * 0.82} L183 ${base - evH * 0.76} Z`} fill="#e9ecef" />
+      </g>
+      <rect x={70} y={base - burjH} width={Math.max(2, Math.min(12, burjH / 12))} height={burjH} fill="#cfd6de" />
+      {tag(84, Math.max(14, base - burjH + 10), labels[1], "#cfd6de", s === 0 ? 1 : s === 1 ? 1 - k : 0)}
+      {tag(204, base - evH - 6, labels[2], "#e9ecef", s === 0 ? 0 : s === 4 ? 1 - k : s === 1 ? ease(clamp((p - 0.5) / 0.3)) : 1)}
+      {/* an airliner at cruising height */}
+      <g opacity={show(3)} transform={`translate(60 ${Y(HEIGHTS.plane)})`}>
+        <path d="M-18 0 L16 0 L22 -4 L16 2 L-14 4 Z M-4 0 L6 -10 L10 -10 L6 0 Z M-4 2 L4 10 L8 10 L6 2 Z" fill="#f4f1ea" />
+        {tag(28, 4, labels[4], "#f4f1ea", s === 4 ? 1 - k : 1)}
+      </g>
+      {/* the edge of space and the space station */}
+      <g opacity={show(4)}>
+        <line x1={0} y1={Y(HEIGHTS.karman)} x2={360} y2={Y(HEIGHTS.karman)} stroke={DIM} strokeWidth={1.2} strokeDasharray="5 5" />
+        {tag(10, Y(HEIGHTS.karman) - 6, labels[5], DIM, 1)}
+        <g transform={`translate(190 ${Y(HEIGHTS.iss)})`}>
+          <rect x={-22} y={-3} width={44} height={6} fill="#9fc3d6" />
+          <rect x={-30} y={-9} width={8} height={18} fill="#5b9bf5" /><rect x={22} y={-9} width={8} height={18} fill="#5b9bf5" />
+          <circle cx={0} cy={0} r={5} fill="#f4f1ea" />
+        </g>
+        <Label x={190} y={Y(HEIGHTS.iss) + 26} size={11} bold color={YELLOW}>{labels[6]}</Label>
+      </g>
+      <circle cx={340} cy={24} r={3 + Math.sin(t * 2) * 0.6} fill="#fff6c8" opacity={s === 4 ? 0.9 : 0.4} />
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights };
