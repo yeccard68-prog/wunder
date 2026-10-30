@@ -27,8 +27,8 @@ test("combined feed: watched clips and finished animations move to the back, hid
   const anim = first.find((e) => e.kind === "animation")!;
   if (clip.kind !== "clip" || anim.kind !== "animation") throw new Error("unexpected");
   const later = mixFeed(ranked, clips, animations, state({ clipStats: { [clip.clip.id]: { plays: 1, completed: 1 } }, answers: { [anim.animation.quizId!]: { correct: true } } } as unknown as Partial<UserState>), [], [], [], [], [], [], "watched");
-  // at the back – the last or, when the topic rule (never three of one topic in a row) let one more pass, the one before
-  const tail = (kind: string) => later.filter((e) => e.kind === kind).slice(-2).map(entryId);
+  // at the back – the last, or just before the few of one topic that the topic rule (never three of one topic in a row) held back
+  const tail = (kind: string) => later.filter((e) => e.kind === kind).slice(-3).map(entryId);
   assert.ok(tail("clip").includes(clip.clip.id), String(tail("clip")));
   assert.ok(tail("animation").includes(anim.animation.id), String(tail("animation")));
   const hidden = mixFeed(ranked, clips, animations, state({ hidden: [clip.clip.id] }));

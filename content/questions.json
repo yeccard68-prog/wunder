@@ -41347,5 +41347,45 @@
         "explanation": "With a maximum depth of about 11,000 metres below sea level, the Mariana Trench holds the deepest point of the ocean – deeper than Mount Everest, at over 8,848 metres, is high."
       }
     }
+  },
+  {
+    "id": "gr1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie lang kann ein Blauwal werden?",
+    "options": [
+      "Bis etwa 10 Meter",
+      "Bis etwa 20 Meter",
+      "Bis etwa 60 Meter",
+      "Bis etwa 33 Meter"
+    ],
+    "correct_index": 3,
+    "explanation": "Mit einer Körperlänge von bis zu 33 Metern und bis zu 200 Tonnen ist der Blauwal eines der größten und schwersten bekannten Tiere der Erdgeschichte.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blauwal",
+    "source_url": "https://de.wikipedia.org/wiki/Blauwal",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long can a blue whale grow?",
+        "options": [
+          "Up to about 10 metres",
+          "Up to about 20 metres",
+          "Up to about 60 metres",
+          "Up to about 33 metres"
+        ],
+        "explanation": "At up to 33 metres long and up to 200 tonnes, the blue whale is one of the largest and heaviest animals known in the history of the Earth."
+      }
+    }
   }
 ]

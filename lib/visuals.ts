@@ -57,7 +57,7 @@ export interface SamplingConfig {
 }
 /** A look inside: a slider moves the line between the outside and the inside of the same drawing (components/viz/reveal) */
 export interface RevealConfig {
-  scene: "earth" | "heart" | "volcano" | "eye" | "egg" | "bulb";
+  scene: "earth" | "heart" | "volcano" | "eye" | "egg" | "bulb" | "cell" | "ear";
   /** labels on the inside, at x/y in % of the drawing; `side`: where the text sits next to its point; `late` ones after the prediction */
   parts: { key: string; x: number; y: number; side: "left" | "right"; late?: boolean }[];
 }

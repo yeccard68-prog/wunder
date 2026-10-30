@@ -645,3 +645,8 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 ## 76. Motion Graphics: von der Tiefsee bis zur Raumstation (30.10.2026)
 
 - **`a-hoehen`** (Szene `heights`): eine senkrechte Skala, die immer weiter herauszoomt (logarithmisch weich) – Burj Khalifa (828 m), Mount Everest (über 8848 m), Marianengraben (rund 11.000 m tief), ein Verkehrsflugzeug (Boeing 777, 10.670 m), die Kármán-Linie (100 km) und die ISS (rund 400 km). Vor dem letzten Schritt die Schätzfrage zur Höhe der ISS. Höhen belegt im Kopf von `content/_batches/2026-10-hoehen.mjs`. Neue Prüffrage `hz1` (Tiefe des Marianengrabens).
+
+## 77. Vom Virus bis zum Blauwal; Zelle und Ohr im Regler (30.10.2026)
+
+- **`a-groessen`** (Szene `sizes`): ein logarithmischer Zoom durch die Größen der Natur – Grippevirus (80–120 nm), Bakterium E. coli (2–6 µm), rote Blutzelle (7,5 µm), Haar (69–89 µm dick), Sandkorn (bis 2 mm), Waldameise (4,5–9 mm), Blauwal (bis 33 m); ein Maßstabsbalken passt sich an. Schätzfrage: rund 800 Grippeviren nebeneinander auf der Dicke eines Haares. Größen belegt im Kopf von `content/_batches/2026-10-groessen.mjs`; neue Prüffrage `gr1` (Länge des Blauwals).
+- **Regler „Blick ins Innere“**: `v-zelle-innen` (Zellmembran, Zellkern, Mitochondrien mit eigener DNA, Ribosomen, Zellskelett, Zellplasma) und `v-ohr-innen` (Ohrmuschel, Gehörgang, Trommelfell, Gehörknöchelchen, Hörschnecke, Gleichgewichtsorgan, Hörnerv, Ohrtrompete). Eine Gitarre war geplant, wurde aber verworfen: Für ihren inneren Aufbau fand sich keine belastbare Quelle. Damit acht Motive.

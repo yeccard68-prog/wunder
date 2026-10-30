@@ -1036,4 +1036,90 @@ function Heights({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights };
+// ------------------------------------------------------------------ from a virus to the blue whale (motion graphics, 30.10.2026)
+// A zoom across sizes in nature: each step makes the view wider (log scale), the things seen before shrink to a point.
+// Sizes in SIZES (metres, sources in the animation). labels: 0 flu virus, 1 E. coli, 2 red blood cell, 3 hair,
+// 4 grain of sand, 5 wood ant, 6 blue whale
+export const SIZES = { virus: 100e-9, bacterium: 2e-6, cell: 7.5e-6, hair: 80e-6, sand: 2e-3, ant: 9e-3, whale: 33 };
+const unitText = (m: number) => (m >= 1 ? `${m} m` : m >= 1e-2 ? `${Math.round(m * 100)} cm` : m >= 1e-3 ? `${Math.round(m * 1000)} mm` : m >= 1e-6 ? `${Math.round(m * 1e6)} µm` : `${Math.round(m * 1e9)} nm`);
+
+function Sizes({ step, p, t, labels }: SceneProps) {
+  const s = Math.min(step, 4);
+  const k = ease(clamp(p / 0.8));
+  // how many metres the 300-pixel-wide view spans in each step
+  const spans = [0.6e-6, 12e-6, 200e-6, 22e-3, 44];
+  const span = s === 0 ? spans[0] : Math.exp(lerp(Math.log(spans[s - 1]), Math.log(spans[s]), k));
+  const ppm = 300 / span;
+  const cy = 190;
+  const px = (m: number) => m * ppm;
+  // everything starts at the same left edge, side by side, so smaller things gather there as the view widens
+  const L = 30;
+  const show = (from: number) => (s >= from ? (s === from ? ease(clamp((p - 0.35) / 0.35)) : 1) : 0);
+  const named = (x: number, y: number, size: number, text: string, color: string, on: number) =>
+    size > 9 && on > 0 ? <g opacity={on}><Label x={Math.max(8, x)} y={y} anchor="start" size={11} bold color={color}>{text}</Label></g> : null;
+  // the virus: a ball with spikes
+  const vr = px(SIZES.virus) / 2, vx = L + vr;
+  // the bacterium: a rod after the virus
+  const bl = px(SIZES.bacterium), bx = L + px(SIZES.virus) * 1.6, bh = px(1.2e-6);
+  // the red blood cell, then a hair running top to bottom
+  const cr = px(SIZES.cell) / 2, cx = L + px(12e-6) + cr;
+  const hw = px(SIZES.hair), hx = L + px(40e-6);
+  // a grain of sand and an ant
+  const sr = px(SIZES.sand) / 2, sx = L + px(0.5e-3) + sr;
+  const al = px(SIZES.ant), ax = L + px(6e-3);
+  // the whale
+  const wl = px(SIZES.whale), wx = L + px(4);
+  // a scale bar: a round length about a quarter of the view
+  const bar = Math.pow(10, Math.floor(Math.log10(span / 3)));
+  return (
+    <>
+      {/* hair: a dark band right through the picture */}
+      {show(2) > 0 && hw > 0.6 && <rect x={hx} y={20} width={hw} height={330} fill="#6b4a2f" opacity={show(2) * 0.85} />}
+      {/* virus */}
+      <g opacity={show(0)}>
+        {vr > 1 && Array.from({ length: 14 }, (_, i) => { const a = (i / 14) * Math.PI * 2; return <line key={i} x1={vx + Math.cos(a) * vr} y1={cy + Math.sin(a) * vr} x2={vx + Math.cos(a) * vr * 1.25} y2={cy + Math.sin(a) * vr * 1.25} stroke="#c58cf2" strokeWidth={Math.max(0.5, vr * 0.08)} />; })}
+        <circle cx={vx} cy={cy} r={Math.max(0.6, vr)} fill="#9b6fd6" />
+        {named(vx - vr, cy + vr * 1.25 + 18, vr * 2, labels[0], "#c58cf2", s <= 1 ? 1 : 0)}
+      </g>
+      {/* bacterium */}
+      <g opacity={show(1)}>
+        {bl > 1 && <path d={`M${bx + bl} ${cy} q${bl * 0.25} ${-bh} ${bl * 0.5} 0 t${bl * 0.5} 0`} stroke="#4fc28b" strokeWidth={Math.max(0.5, bh * 0.08)} fill="none" />}
+        <rect x={bx} y={cy - bh / 2} width={Math.max(0.8, bl)} height={Math.max(0.6, bh)} rx={bh / 2} fill="#3f9f6f" />
+        {named(bx, cy + bh / 2 + 20, bl, labels[1], "#4fc28b", s <= 2 ? 1 : 0)}
+      </g>
+      {/* red blood cell */}
+      <g opacity={show(2)}>
+        <circle cx={cx} cy={cy} r={Math.max(0.6, cr)} fill="#d9473f" />
+        {cr > 2 && <circle cx={cx} cy={cy} r={cr * 0.45} fill="#ef8f86" />}
+        {named(cx - cr, cy - cr - 10, cr * 2, labels[2], "#ef8f86", s === 2 ? 1 : 0)}
+        {named(hx, 366, hw, labels[3], "#c79a6b", s === 2 ? 1 : 0)}
+      </g>
+      {/* grain of sand and an ant */}
+      <g opacity={show(3)}>
+        <path d={`M${sx - sr} ${cy} L${sx - sr * 0.4} ${cy - sr * 0.9} L${sx + sr * 0.6} ${cy - sr * 0.8} L${sx + sr} ${cy + sr * 0.1} L${sx + sr * 0.3} ${cy + sr * 0.9} L${sx - sr * 0.7} ${cy + sr * 0.7} Z`} fill="#d9b77a" />
+        {named(sx - sr, cy + sr + 18, sr * 2, labels[4], "#d9b77a", s === 3 ? 1 : 0)}
+        <g transform={`translate(${ax} ${cy}) scale(${Math.max(0.001, al / 100)})`} fill="#7a2f1f">
+          <ellipse cx={14} cy={0} rx={14} ry={9} /><ellipse cx={40} cy={-2} rx={12} ry={6} /><circle cx={62} cy={-4} r={9} /><ellipse cx={86} cy={-6} rx={14} ry={8} />
+          {[30, 40, 50].map((x, i) => <path key={i} d={`M${x} 0 L${x - 12 + i * 6} 16 M${x} 0 L${x - 8 + i * 6} -14`} stroke="#7a2f1f" strokeWidth={2.5} fill="none" />)}
+          <path d="M98 -12 L108 -26 M96 -10 L112 -18" stroke="#7a2f1f" strokeWidth={2} fill="none" />
+        </g>
+        {named(ax, cy + al * 0.2 + 22, al, labels[5], "#c96b55", s === 3 ? 1 : 0)}
+      </g>
+      {/* the blue whale */}
+      <g opacity={show(4)}>
+        <path d={`M${wx} ${cy} C${wx + wl * 0.08} ${cy - wl * 0.07} ${wx + wl * 0.45} ${cy - wl * 0.08} ${wx + wl * 0.84} ${cy - wl * 0.012} L${wx + wl} ${cy - wl * 0.03} L${wx + wl * 0.97} ${cy} L${wx + wl} ${cy + wl * 0.018} L${wx + wl * 0.84} ${cy + wl * 0.012} C${wx + wl * 0.45} ${cy + wl * 0.07} ${wx + wl * 0.1} ${cy + wl * 0.06} ${wx} ${cy} Z`} fill="#5b7bd5" />
+        <path d={`M${wx + wl * 0.69} ${cy - wl * 0.034} L${wx + wl * 0.735} ${cy - wl * 0.055} L${wx + wl * 0.75} ${cy - wl * 0.028} Z`} fill="#5b7bd5" />
+        {[0.012, 0.024, 0.036].map((d) => <path key={d} d={`M${wx + wl * 0.05} ${cy + wl * d} Q${wx + wl * 0.2} ${cy + wl * (d + 0.02)} ${wx + wl * 0.36} ${cy + wl * (d + 0.012)}`} stroke="#3f5aa8" strokeWidth={Math.max(0.4, wl * 0.003)} fill="none" />)}
+        <circle cx={wx + wl * 0.07} cy={cy - wl * 0.02} r={Math.max(0.5, wl * 0.006)} fill="#11100e" />
+        {named(wx, cy + wl * 0.07 + 22, wl, labels[6], "#9fb3ec", 1)}
+      </g>
+      {/* scale bar */}
+      <line x1={30} y1={384} x2={30 + px(bar)} y2={384} stroke={INK} strokeWidth={2} />
+      <line x1={30} y1={379} x2={30} y2={389} stroke={INK} strokeWidth={2} /><line x1={30 + px(bar)} y1={379} x2={30 + px(bar)} y2={389} stroke={INK} strokeWidth={2} />
+      <Label x={36 + px(bar)} y={388} anchor="start" size={10} color={DIM}>{unitText(bar)}</Label>
+      <circle cx={340} cy={24} r={2 + Math.sin(t * 3) * 0.5} fill={DIM} />
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes };

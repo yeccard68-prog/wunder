@@ -4701,5 +4701,128 @@
       ],
       "correct": 1
     }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-10-30T12:00:00Z",
+    "id": "a-groessen",
+    "category_id": "earth",
+    "scene": "sizes",
+    "title": "Vom Virus bis zum Blauwal",
+    "summary": "Ein Zoom durch die Größen der Natur – vom Grippevirus bis zum größten Tier.",
+    "goal": "Du kannst einordnen, wie klein Viren, Bakterien und Zellen sind und wie riesig der Abstand bis zum Blauwal ist.",
+    "labels": [
+      "Grippevirus: 80–120 nm",
+      "Bakterium E. coli: 2–6 µm",
+      "rote Blutzelle: 7,5 µm",
+      "Haar: 69–89 µm dick",
+      "Sandkorn: bis 2 mm",
+      "Waldameise: 4,5–9 mm",
+      "Blauwal: bis 33 m"
+    ],
+    "steps": [
+      {
+        "text": "Ein Grippevirus ist winzig: 80 bis 120 Nanometer. Ein Nanometer ist ein Millionstel Millimeter.",
+        "seconds": 7
+      },
+      {
+        "text": "Das Darmbakterium E. coli ist schon 2 bis 6 Mikrometer lang – daneben wird das Virus zum Punkt.",
+        "seconds": 7
+      },
+      {
+        "text": "Eine rote Blutzelle misst im Mittel 7,5 Mikrometer. Und ein Haar ist zwischen 69 und 89 Mikrometer dick – nebeneinander hätten darauf rund 800 Grippeviren Platz.",
+        "seconds": 9
+      },
+      {
+        "text": "Ein Sandkorn ist bis zu 2 Millimeter groß, eine Arbeiterin der Roten Waldameise 4,5 bis 9 Millimeter lang. Alles Bisherige ist daneben unsichtbar klein.",
+        "seconds": 9
+      },
+      {
+        "text": "Und der Blauwal? Mit bis zu 33 Metern ist er eines der größten Tiere der Erdgeschichte – über 3.000-mal so lang wie die Ameise.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Influenzavirus",
+        "url": "https://de.wikipedia.org/wiki/Influenzavirus"
+      },
+      {
+        "name": "Wikipedia: Escherichia coli",
+        "url": "https://de.wikipedia.org/wiki/Escherichia_coli"
+      },
+      {
+        "name": "Wikipedia: Erythrozyt",
+        "url": "https://de.wikipedia.org/wiki/Erythrozyt"
+      },
+      {
+        "name": "Wikipedia: Kopfhaar",
+        "url": "https://de.wikipedia.org/wiki/Kopfhaar"
+      },
+      {
+        "name": "Wikipedia: Sand",
+        "url": "https://de.wikipedia.org/wiki/Sand"
+      },
+      {
+        "name": "Wikipedia: Rote Waldameise",
+        "url": "https://de.wikipedia.org/wiki/Rote_Waldameise"
+      },
+      {
+        "name": "Wikipedia: Blauwal",
+        "url": "https://de.wikipedia.org/wiki/Blauwal"
+      }
+    ],
+    "quiz_question_id": "gr1",
+    "translations": {
+      "en": {
+        "title": "From a virus to the blue whale",
+        "summary": "A zoom through the sizes of nature – from a flu virus to the largest animal.",
+        "goal": "You can place how small viruses, bacteria and cells are, and how huge the gap up to the blue whale is.",
+        "labels": [
+          "flu virus: 80–120 nm",
+          "E. coli bacterium: 2–6 µm",
+          "red blood cell: 7.5 µm",
+          "hair: 69–89 µm thick",
+          "grain of sand: up to 2 mm",
+          "wood ant: 4.5–9 mm",
+          "blue whale: up to 33 m"
+        ],
+        "steps": [
+          "A flu virus is tiny: 80 to 120 nanometres. A nanometre is a millionth of a millimetre.",
+          "The gut bacterium E. coli is already 2 to 6 micrometres long – next to it the virus becomes a dot.",
+          "A red blood cell measures 7.5 micrometres on average. And a hair is between 69 and 89 micrometres thick – about 800 flu viruses would fit side by side across it.",
+          "A grain of sand is up to 2 millimetres, a worker of the red wood ant 4.5 to 9 millimetres long. Everything before is invisibly small next to them.",
+          "And the blue whale? At up to 33 metres it is one of the largest animals in the history of the Earth – over 3,000 times as long as the ant."
+        ],
+        "predict": {
+          "question": "A hair is coming next. How many flu viruses would fit side by side across its thickness?",
+          "options": [
+            "About 8",
+            "About 80",
+            "About 800"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 2,
+      "question": "Gleich kommt ein Haar. Wie viele Grippeviren hätten nebeneinander auf seiner Dicke Platz?",
+      "options": [
+        "Rund 8",
+        "Rund 80",
+        "Rund 800"
+      ],
+      "correct": 2
+    }
   }
 ]

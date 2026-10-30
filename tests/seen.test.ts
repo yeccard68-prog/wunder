@@ -60,7 +60,8 @@ test("cards about the learner's own country come first; the country is read from
   assert.equal(regionFrom(["de-AT", "de"]), "AT");
   assert.equal(regionFrom(["de"]), "DE");
   assert.equal(regionFrom(["en"]), null);
-  const local = { ...questions[questions.length - 1], countries: ["AT"] };
+  // a card from the learner's own topic (cards from other topics come as discoveries, where the region does not count)
+  const local = { ...questions.filter((q) => q.categoryId === "science").at(-1)!, countries: ["AT"] };
   const list = [...items.filter((i) => i.id !== local.id), local];
   const pos = (region: string | null) => rankForYou(list, state(), { region, seed: "x" }).findIndex((r) => r.item.id === local.id);
   assert.ok(pos("AT") < pos("DE") || pos("AT") === 0, `AT ${pos("AT")} vs DE ${pos("DE")}`);

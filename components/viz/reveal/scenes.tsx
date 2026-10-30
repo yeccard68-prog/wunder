@@ -313,4 +313,79 @@ const bulb: Scene = {
   ),
 };
 
-export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye, egg, bulb };
+// ---------- an animal cell: the membrane outside; inside nucleus, mitochondria, ribosomes and the cytoskeleton ----------
+const CELL = "M200,52 C268,48 338,92 348,164 C358,232 330,312 262,340 C200,364 120,350 82,300 C44,250 46,170 82,118 C112,76 150,54 200,52 Z";
+const mito = (x: number, y: number, rot: number) => (
+  <g transform={`translate(${x} ${y}) rotate(${rot})`}>
+    <ellipse cx="0" cy="0" rx="26" ry="12" fill="#e98a5c" stroke="#b9562d" strokeWidth="2" />
+    <path d="M-18,-6 L-12,6 L-6,-6 L0,6 L6,-6 L12,6 L18,-6" stroke="#b9562d" strokeWidth="1.8" fill="none" />
+  </g>
+);
+const cell: Scene = {
+  outside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-skin`} cx="38%" cy="32%" r="75%"><stop offset="0" stopColor="#f7c9d6" /><stop offset="1" stopColor="#c76f8c" /></radialGradient>
+      </defs>
+      <path d={CELL} fill={`url(#${id}-skin)`} />
+      {[[140, 110], [250, 96], [310, 170], [290, 280], [180, 320], [100, 220], [210, 200], [160, 170], [240, 250]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={i % 2 ? 4 : 3} fill="#a85274" opacity="0.5" />)}
+      <ellipse cx="150" cy="110" rx="40" ry="18" fill="#fff" opacity="0.25" transform="rotate(-25 150 110)" />
+    </>
+  ),
+  inside: () => (
+    <>
+      {/* the membrane in section, the cell plasma inside */}
+      <path d={CELL} fill="#f3e1e7" stroke="#c76f8c" strokeWidth="6" />
+      {/* the cytoskeleton: a net of fine fibres */}
+      <g stroke="#d9b3c2" strokeWidth="1.5" fill="none">
+        <path d="M90,160 C150,150 230,120 330,140" /><path d="M100,270 C170,240 260,260 320,230" /><path d="M150,70 C160,150 140,250 170,340" /><path d="M280,80 C260,170 290,250 250,330" />
+      </g>
+      {/* the nucleus with its envelope; the DNA inside */}
+      <circle cx="190" cy="196" r="58" fill="#c9b7e8" stroke="#7d64b8" strokeWidth="4" />
+      <circle cx="205" cy="186" r="16" fill="#7d64b8" />
+      <path d="M160,180 c10,-10 20,10 30,0 M162,212 c10,-8 22,8 32,-2 M176,232 c8,-6 18,6 26,0" stroke="#9b85cf" strokeWidth="2.5" fill="none" />
+      {mito(290, 150, -20)}{mito(120, 270, 25)}{mito(270, 286, 10)}
+      {/* ribosomes: hundreds to thousands of tiny dots */}
+      {[[110, 140], [128, 160], [300, 210], [312, 228], [240, 120], [258, 110], [150, 300], [210, 310], [96, 210], [330, 190], [230, 260], [140, 240], [270, 230], [180, 110], [320, 260]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r="3" fill="#5a4f6e" />)}
+    </>
+  ),
+};
+
+// ---------- the ear, cut through from the side of the head: outer, middle and inner ear (not to scale) ----------
+const PINNA = "M108,128 C70,110 30,140 30,200 C30,262 66,300 104,296 C96,276 92,258 98,240 L110,214 L110,186 C100,170 98,148 108,128 Z";
+const ear: Scene = {
+  outside: () => (
+    <>
+      <rect x="100" y="40" width="300" height="320" rx="18" fill="#e8b996" />
+      <path d="M100,40 L400,40 L400,92 C320,104 210,96 100,108 Z" fill="#5a4636" />
+      <path d={PINNA} fill="#e3a982" stroke="#b97a56" strokeWidth="3" />
+      <path d="M90,150 C60,160 52,210 70,250 C78,268 90,276 96,262" stroke="#b97a56" strokeWidth="3" fill="none" />
+      <ellipse cx="106" cy="200" rx="5" ry="10" fill="#7a4a34" />
+    </>
+  ),
+  inside: () => (
+    <>
+      {/* skin and the bone of the skull around the hearing organs */}
+      <rect x="100" y="40" width="300" height="320" rx="18" fill="#efe3cc" />
+      <rect x="100" y="40" width="34" height="320" fill="#e8b996" />
+      <path d={PINNA} fill="#e3a982" stroke="#b97a56" strokeWidth="3" />
+      {/* outer ear canal up to the eardrum */}
+      <path d="M100,190 L196,182 L196,214 L100,210 Z" fill="#f6d9c8" stroke="#c99a7e" strokeWidth="2" />
+      <ellipse cx="200" cy="198" rx="4" ry="22" fill="#f2b8a0" stroke="#c46a4e" strokeWidth="2" />
+      {/* middle ear: the air-filled cavity with hammer, anvil and stirrup; the Eustachian tube down to the throat */}
+      <path d="M204,168 L268,168 L272,232 L206,232 Z" fill="#fbf3e6" stroke="#d9c7a6" strokeWidth="2" />
+      <path d="M206,190 L222,180 L230,186 L218,200 Z" fill="#c9a24a" />
+      <path d="M228,180 L248,176 L252,192 L236,200 Z" fill="#c9a24a" />
+      <path d="M250,190 L268,186 L270,206 L252,204 M254,196 L266,196" stroke="#c9a24a" strokeWidth="3" fill="none" />
+      <path d="M228,232 C220,268 206,300 186,340" stroke="#d9c7a6" strokeWidth="12" fill="none" strokeLinecap="round" />
+      {/* inner ear: the cochlea, the semicircular canals of the balance organ, the nerve to the brain */}
+      <path d="M310,214 m-30,0 a30,30 0 1,1 60,0 a24,24 0 1,1 -48,0 a18,18 0 1,1 36,0 a12,12 0 1,1 -24,0 a6,6 0 1,1 12,0" stroke="#e98a5c" strokeWidth="7" fill="none" />
+      <path d="M278,186 C266,150 290,124 312,138 C330,150 318,176 300,180" stroke="#7cc4f0" strokeWidth="6" fill="none" />
+      <path d="M290,180 C300,140 344,140 346,166 C348,186 324,190 306,182" stroke="#7cc4f0" strokeWidth="6" fill="none" />
+      <path d="M298,170 C300,150 326,150 326,168" stroke="#7cc4f0" strokeWidth="5" fill="none" />
+      <path d="M338,214 C360,212 380,206 400,206" stroke="#ffd24a" strokeWidth="7" fill="none" />
+    </>
+  ),
+};
+
+export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye, egg, bulb, cell, ear };
