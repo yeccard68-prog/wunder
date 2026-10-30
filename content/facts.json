@@ -274,7 +274,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-18T10:10:00Z",
     "translations": {
       "en": {
@@ -672,7 +672,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-18T07:20:00Z",
     "translations": {
       "en": {
@@ -767,7 +767,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-18T06:40:00Z",
     "translations": {
       "en": {
@@ -836,7 +836,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-18T06:10:00Z",
     "translations": {
       "en": {
@@ -859,7 +859,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-18T06:00:00Z",
     "translations": {
       "en": {
@@ -1256,7 +1256,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-19T09:40:00Z",
     "translations": {
       "en": {
@@ -1573,7 +1573,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-19T10:40:00Z",
     "translations": {
       "en": {
@@ -1630,7 +1630,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-19T12:00:00Z",
     "translations": {
       "en": {
@@ -1880,7 +1880,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-19T11:20:00Z",
     "translations": {
       "en": {
@@ -2027,7 +2027,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-19T11:20:00Z",
     "translations": {
       "en": {
@@ -2073,7 +2073,7 @@
       }
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "created_at": "2026-10-21T12:00:00Z",
     "translations": {
       "en": {

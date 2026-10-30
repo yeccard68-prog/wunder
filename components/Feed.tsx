@@ -23,6 +23,7 @@ import { useStore, useT } from "@/lib/store";
 import KnowledgeCard from "./KnowledgeCard";
 import ExerciseCard from "./ExerciseCard";
 import PuzzleCard from "./PuzzleCard";
+import RoundCard from "./RoundCard";
 
 const PAGE = 6;
 
@@ -206,6 +207,7 @@ function Entry({ entry, fill }: { entry: FeedEntry; fill?: boolean }) {
   if (entry.kind === "pause") return <PauseCard />;
   if (entry.kind === "puzzle") return <PuzzleCard puzzle={entry.puzzle} />;
   if (entry.kind === "exercise") return <ExerciseCard exercise={entry.exercise} />;
+  if (entry.kind === "round") return <RoundCard round={entry} />;
   if (entry.kind === "item") return <KnowledgeCard item={entry.item} reason={t(entry.reason, entry.vars)} />;
   if (entry.kind === "clip") return <ClipCard clip={entry.clip} fill={fill} />;
   if (entry.kind === "insight") return <InsightCard book={entry.book} idea={entry.idea} standalone />;

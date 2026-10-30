@@ -1,5 +1,5 @@
 // One feed for everything: question cards, "did you know" facts, clips, explainer animations, book ideas,
-// interactive visualisations, studies and grid puzzles. How it is put together (see docs/BACKEND.md, "Feed"):
+// interactive visualisations, studies, grid puzzles and rounds of template questions. How it is put together (see docs/BACKEND.md, "Feed"):
 //  - by chance, place by place: a format is drawn with odds that only this learner's behaviour moves (how long
 //    they stay, how often they swipe away) – no format has a fixed place;
 //  - within a format, new before seen before done; topics the learner lingers on are preferred, never three of
@@ -19,6 +19,7 @@ import { withSeries } from "./series";
 import type { Ranked } from "./ranking";
 import type { UserState } from "./types";
 import { freshFirst } from "./seen";
+import { makeRounds, type Round } from "./rounds";
 import type { Visual } from "./visuals";
 
 export type FeedEntry =
@@ -33,15 +34,16 @@ export type FeedEntry =
   | { kind: "study"; study: Study }
   | { kind: "puzzle"; puzzle: Puzzle }
   | { kind: "exercise"; exercise: Exercise }
+  | ({ kind: "round" } & Round)
   | { kind: "pause"; id: string };
 
 export const entryId = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "study" ? e.study.id : e.kind === "puzzle" ? e.puzzle.id : e.kind === "exercise" ? e.exercise.id : e.kind === "pause" ? e.id : e.idea.id;
-/** Every content id an entry shows (a series shows three facts) – all of them count as seen. */
-export const entryContentIds = (e: FeedEntry) => (e.kind === "series" ? e.facts.map((f) => f.id) : [entryId(e)]);
+  e.kind === "item" ? e.item.id : e.kind === "clip" ? e.clip.id : e.kind === "animation" ? e.animation.id : e.kind === "visual" ? e.visual.id : e.kind === "fact" ? e.fact.id : e.kind === "series" ? e.id : e.kind === "day" ? e.event.id : e.kind === "study" ? e.study.id : e.kind === "puzzle" ? e.puzzle.id : e.kind === "exercise" ? e.exercise.id : e.kind === "round" ? e.id : e.kind === "pause" ? e.id : e.idea.id;
+/** Every content id an entry shows (a series shows three facts, a round five questions) – all of them count as seen. */
+export const entryContentIds = (e: FeedEntry) => (e.kind === "series" ? e.facts.map((f) => f.id) : e.kind === "round" ? e.items.map((i) => i.id) : [entryId(e)]);
 /** Topic of an entry (for the signals and for spreading topics). */
 export const entryTopic = (e: FeedEntry) =>
-  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "study" ? e.study.categoryId : e.kind === "puzzle" || e.kind === "exercise" ? "math" : e.kind === "insight" ? e.book.topicId : "";
+  e.kind === "item" ? e.item.categoryId : e.kind === "clip" ? e.clip.categoryId : e.kind === "animation" ? e.animation.categoryId : e.kind === "visual" ? e.visual.categoryId : e.kind === "fact" ? e.fact.categoryId : e.kind === "series" ? e.facts[0].categoryId : e.kind === "round" ? e.items[0].categoryId : e.kind === "day" ? e.event.categoryId : e.kind === "study" ? e.study.categoryId : e.kind === "puzzle" || e.kind === "exercise" ? "math" : e.kind === "insight" ? e.book.topicId : "";
 export const asEntries = (ranked: Ranked[]): FeedEntry[] => ranked.map((r) => ({ kind: "item", ...r }));
 
 /**
@@ -49,7 +51,7 @@ export const asEntries = (ranked: Ranked[]): FeedEntry[] => ranked.map((r) => ({
  * every view moves them – a format someone lingers on comes up more often, one they keep swiping away less often
  * (lib/engagement.ts). No format has a fixed place in the feed.
  */
-export const START_ODDS: Record<Exclude<EntryKind, "series">, number> = { item: 50, fact: 13, clip: 10, animation: 7, insight: 4, visual: 3, study: 3, puzzle: 4, exercise: 5, day: 3 };
+export const START_ODDS: Record<Exclude<EntryKind, "series">, number> = { item: 45, round: 5, fact: 13, clip: 10, animation: 7, insight: 4, visual: 3, study: 3, puzzle: 4, exercise: 5, day: 3 };
 /** How strongly behaviour moves the odds: engagement −1 … +1 → odds × 1/MOVE … × MOVE. */
 const MOVE = 3;
 /** Topics someone keeps skipping come up this much less (they never disappear – interests change). */
@@ -68,8 +70,11 @@ export function mixFeed(ranked: Ranked[], clips: Clip[], animations: Animation[]
   const animQueue = freshFirst(animations, (a) => a.id, state, (a) => !!a.quizId && !!state.answers[a.quizId]);
   const withAnimation = new Set(animQueue.map((a) => a.quizId));
   const solved = new Set(state.puzzles?.done ?? []);
+  const { cards, rounds } = makeRounds(ranked.filter((x) => !withAnimation.has(x.item.id)), state);
   const queues: Record<keyof typeof START_ODDS, FeedEntry[]> = {
-    item: ranked.filter((x) => !withAnimation.has(x.item.id)).map((x): FeedEntry => ({ kind: "item", ...x })),
+    item: cards.map((x): FeedEntry => ({ kind: "item", ...x })),
+    // questions generated from templates: five of one kind per entry (lib/rounds.ts)
+    round: rounds.map((x): FeedEntry => ({ kind: "round", ...x })),
     // facts (already ranked) – now and then a theme series of three from one area
     fact: withSeries(facts).map((u): FeedEntry => (u.kind === "fact" ? u : { kind: "series", id: `series-${u.facts.map((f) => f.id).join("+")}`, area: u.area, facts: u.facts })),
     clip: freshFirst(clips.filter((c) => !hidden.has(c.id)), (c) => c.id, state, (c) => (state.clipStats[c.id]?.completed ?? 0) > 0).map((clip): FeedEntry => ({ kind: "clip", clip })),
