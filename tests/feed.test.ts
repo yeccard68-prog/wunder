@@ -40,8 +40,11 @@ test("combined feed: every interactive visualisation is in it; tried ones move t
   const visuals = visualsFor("de", "16+");
   const feed = mixFeed(ranked, clips, animations, state(), [], visuals);
   assert.equal(feed.filter((e) => e.kind === "visual").length, visuals.length);
-  const tried = mixFeed(ranked, clips, animations, { ...state(), visuals: [visuals[0].id] }, [], visuals, [], [], [], [], "feed-test");
+  // the rule against three entries of one topic in a row may pull a tried one forward among visuals of other topics,
+  // so the order is checked among visuals of one topic, where that rule never reorders
+  const same = visuals.filter((v) => v.categoryId === visuals[0].categoryId);
+  assert.ok(same.length >= 2);
+  const tried = mixFeed(ranked, clips, animations, { ...state(), visuals: [same[0].id] }, [], same, [], [], [], [], "feed-test");
   const order = tried.filter((e) => e.kind === "visual").map((e) => (e as { visual: { id: string } }).visual.id);
-  // at the back – the rule against three entries of one topic in a row may pull it one or two places forward
-  assert.ok(order.indexOf(visuals[0].id) >= order.length - 3, `${visuals[0].id} at ${order.indexOf(visuals[0].id)} of ${order.length}`);
+  assert.equal(order.at(-1), same[0].id);
 });

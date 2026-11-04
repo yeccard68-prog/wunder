@@ -388,4 +388,117 @@ const ear: Scene = {
   ),
 };
 
-export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye, egg, bulb, cell, ear };
+// ---------- a molar with two roots in the jaw, cut through the middle (not to scale) ----------
+const TOOTH = "M126,96 C122,74 140,62 158,70 C170,58 186,58 200,68 C214,58 230,58 242,70 C260,62 278,74 274,96 C272,130 270,170 262,200 C258,214 258,224 260,236 C264,280 252,330 238,352 C232,360 224,356 222,346 C218,310 214,270 204,250 C200,244 196,244 192,250 C184,270 180,310 176,346 C174,356 166,360 160,352 C146,330 136,280 140,236 C142,224 142,214 138,200 C130,170 128,130 126,96 Z";
+const CROWN = "M126,96 C122,74 140,62 158,70 C170,58 186,58 200,68 C214,58 230,58 242,70 C260,62 278,74 274,96 C272,130 270,170 262,200 L138,200 C130,170 128,130 126,96 Z";
+const GUM = "M0,192 C60,186 112,188 136,198 C141,212 143,226 140,242 L0,250 Z M400,192 C340,186 288,188 264,198 C259,212 257,226 260,242 L400,250 Z";
+const tooth: Scene = {
+  outside: (id) => (
+    <>
+      <defs>
+        <linearGradient id={`${id}-enamel`} x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#ffffff" /><stop offset="1" stopColor="#ddd8c8" /></linearGradient>
+        <linearGradient id={`${id}-gum`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#ec9eaa" /><stop offset="1" stopColor="#c86b7c" /></linearGradient>
+      </defs>
+      <path d="M0,192 C60,186 112,188 136,198 L264,198 C288,188 340,186 400,192 V400 H0 Z" fill={`url(#${id}-gum)`} />
+      <path d={CROWN} fill={`url(#${id}-enamel)`} stroke="#cfc9b6" strokeWidth="2" />
+      <path d="M150,92 C156,80 166,78 172,84" stroke="#fff" strokeWidth="5" fill="none" strokeLinecap="round" opacity="0.8" />
+      <path d="M126,200 C150,206 250,206 274,200" stroke="#b85d6e" strokeWidth="3" fill="none" />
+    </>
+  ),
+  inside: (id) => (
+    <>
+      <defs><clipPath id={`${id}-roots`}><rect x="0" y="212" width="400" height="188" /></clipPath></defs>
+      {/* the jawbone, spongy inside; the tooth hangs in its socket */}
+      <rect x="0" y="226" width="400" height="174" fill="#eadcc0" />
+      {[[40, 270], [80, 330], [60, 380], [110, 300], [300, 280], [340, 340], [370, 290], [320, 385], [120, 372], [280, 370], [30, 320], [360, 250]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={i % 3 ? 7 : 10} fill="#d8c49d" />)}
+      <path d={TOOTH} fill="#f1e1b0" stroke="#8a7350" strokeWidth="2" />
+      {/* cementum on the roots, enamel over the crown, dentin under it */}
+      <path d={TOOTH} fill="none" stroke="#c9a26b" strokeWidth="6" clipPath={`url(#${id}-roots)`} />
+      <path d={CROWN} fill="#fbfaf4" />
+      <path d="M142,104 C140,90 152,84 164,90 C174,80 188,80 200,88 C212,80 226,80 236,90 C248,84 260,90 258,104 C256,134 254,166 250,196 L150,196 C146,166 144,134 142,104 Z" fill="#f1e1b0" />
+      <rect x="140" y="194" width="120" height="10" fill="#f1e1b0" />
+      {/* the pulp with its vessels and nerve, reaching down both root canals */}
+      <path d="M176,122 C178,108 190,108 192,118 L200,112 L208,118 C210,108 222,108 224,122 C226,150 224,176 218,200 C216,230 230,290 226,338 C225,344 220,344 219,338 C214,300 208,262 204,240 L196,240 C192,262 186,300 181,338 C180,344 175,344 174,338 C170,290 184,230 182,200 C176,176 174,150 176,122 Z" fill="#ea8f8f" />
+      <path d="M190,130 C192,180 186,240 178,336 M212,130 C210,180 216,240 222,336" stroke="#c0392b" strokeWidth="2" fill="none" />
+      <path d="M196,128 C198,180 192,240 182,336 M206,128 C204,180 210,240 218,336" stroke="#ffd24a" strokeWidth="1.6" fill="none" />
+      <path d={GUM} fill="#e79aa5" />
+    </>
+  ),
+};
+
+// ---------- the Sun, cut through: core (to 25 % of the radius), radiation zone (to 71 %), convection zone – to scale ----------
+const SR = 160;
+const SPOTS = [[150, 150, 9], [236, 214, 13], [180, 262, 7]];
+const sun: Scene = {
+  outside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-glow`} cx="50%" cy="50%" r="50%"><stop offset="0.8" stopColor="#ffcf6a" stopOpacity="0.35" /><stop offset="1" stopColor="#ffcf6a" stopOpacity="0" /></radialGradient>
+        <radialGradient id={`${id}-disc`} cx="50%" cy="50%" r="50%"><stop offset="0" stopColor="#fff2b0" /><stop offset="0.75" stopColor="#ffb83d" /><stop offset="1" stopColor="#e2621b" /></radialGradient>
+      </defs>
+      <circle cx="200" cy="200" r="198" fill={`url(#${id}-glow)`} />
+      <circle cx="200" cy="200" r={SR} fill={`url(#${id}-disc)`} />
+      {Array.from({ length: 60 }, (_, i) => { const a = i * 2.4, r = 14 + ((i * 37) % 130); return <circle key={i} cx={200 + Math.cos(a) * r} cy={200 + Math.sin(a) * r} r={3 + (i % 3)} fill="#fff5c9" opacity="0.28" />; })}
+      {SPOTS.map(([x, y, r], i) => <g key={i}><circle cx={x} cy={y} r={r * 1.7} fill="#b4561c" opacity="0.7" /><circle cx={x} cy={y} r={r} fill="#4a2410" /></g>)}
+    </>
+  ),
+  inside: (id) => (
+    <>
+      <defs>
+        <radialGradient id={`${id}-glow`} cx="50%" cy="50%" r="50%"><stop offset="0.8" stopColor="#ffcf6a" stopOpacity="0.35" /><stop offset="1" stopColor="#ffcf6a" stopOpacity="0" /></radialGradient>
+        <radialGradient id={`${id}-core`} cx="50%" cy="50%" r="50%"><stop offset="0" stopColor="#ffffff" /><stop offset="1" stopColor="#ffe27a" /></radialGradient>
+      </defs>
+      <circle cx="200" cy="200" r="198" fill={`url(#${id}-glow)`} />
+      {/* chromosphere: a thin reddish layer above the surface */}
+      <circle cx="200" cy="200" r={SR + 4} fill="#ff6f61" />
+      {/* convection zone with rising and sinking cells */}
+      <circle cx="200" cy="200" r={SR} fill="#ef8a2e" />
+      {Array.from({ length: 14 }, (_, i) => { const a = (i * 2 * Math.PI) / 14, b = a + Math.PI / 14; const p = (r: number, t: number) => `${(200 + Math.cos(t) * r).toFixed(1)} ${(200 + Math.sin(t) * r).toFixed(1)}`; return <path key={i} d={`M${p(SR * 0.74, a)} Q${p(SR * 1.02, (a + b) / 2)} ${p(SR * 0.74, b)}`} stroke="#ffc46b" strokeWidth="3" fill="none" opacity="0.8" />; })}
+      {/* radiation zone: light finds its way out on a zigzag path */}
+      <circle cx="200" cy="200" r={SR * 0.71} fill="#ffb54d" />
+      <path d="M210,196 L226,182 L218,166 L238,158 L232,140 L252,136 L246,118 L266,112 L262,96" stroke="#fff3c2" strokeWidth="2" fill="none" opacity="0.9" />
+      {/* the core, where hydrogen fuses to helium */}
+      <circle cx="200" cy="200" r={SR * 0.25} fill={`url(#${id}-core)`} />
+    </>
+  ),
+};
+
+// ---------- a tree trunk, cut lengthwise; on top the cut surface with its annual rings ----------
+const TRUNK = "M110,110 V370 A90 26 0 0 0 290 370 V110 Z";
+const trunkTop = () => (
+  <>
+    <ellipse cx="200" cy="110" rx="90" ry="26" fill="#5a3d26" />
+    <ellipse cx="200" cy="110" rx="84" ry="24" fill="#b98a5a" />
+    <ellipse cx="200" cy="110" rx="80.5" ry="23" fill="#ecd39b" stroke="#c6d86a" strokeWidth="1.5" />
+    <ellipse cx="200" cy="110" rx="48" ry="13.7" fill="#b5793c" />
+    {[72, 63, 55, 41, 33, 25, 17, 10].map((r) => <ellipse key={r} cx="200" cy="110" rx={r} ry={r * 0.286} fill="none" stroke="#7a5428" strokeWidth="1" opacity="0.45" />)}
+    <ellipse cx="200" cy="110" rx="4" ry="1.6" fill="#5a3d26" />
+  </>
+);
+const trunk: Scene = {
+  outside: () => (
+    <>
+      <path d={TRUNK} fill="#6b4a2f" />
+      {[124, 146, 170, 196, 222, 248, 272].map((x, i) => <path key={x} d={`M${x} 136 C${x + 6} 190 ${x - 6} 250 ${x + 4} 300 S${x - 4} 360 ${x + 2} ${388 - Math.abs(x - 200) * 0.16}`} stroke="#4b321f" strokeWidth={i % 2 ? 4 : 6} fill="none" strokeLinecap="round" />)}
+      {trunkTop()}
+    </>
+  ),
+  inside: (id) => (
+    <>
+      <defs><clipPath id={`${id}-body`}><path d={TRUNK} /></clipPath></defs>
+      <g clipPath={`url(#${id}-body)`}>
+        <rect x="110" y="100" width="180" height="300" fill="#5a3d26" />
+        <rect x="122" y="100" width="156" height="300" fill="#b98a5a" />
+        <rect x="128" y="100" width="144" height="300" fill="#ecd39b" />
+        <rect x="158" y="100" width="84" height="300" fill="#b5793c" />
+        {[136, 146, 152, 166, 176, 186, 214, 224, 234, 248, 254, 264].map((x) => <line key={x} x1={x} y1="100" x2={x} y2="400" stroke="#7a5428" strokeWidth="1" opacity="0.45" />)}
+        <rect x="197" y="100" width="6" height="300" fill="#5a3d26" />
+        <line x1="128.5" y1="100" x2="128.5" y2="400" stroke="#c6d86a" strokeWidth="2.5" />
+        <line x1="271.5" y1="100" x2="271.5" y2="400" stroke="#c6d86a" strokeWidth="2.5" />
+      </g>
+      {trunkTop()}
+    </>
+  ),
+};
+
+export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye, egg, bulb, cell, ear, tooth, sun, trunk };

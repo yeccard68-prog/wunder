@@ -41427,5 +41427,45 @@
         "explanation": "The Earth's orbital speed averages 29.78 km/s – so it covers the length of its own diameter in just over seven minutes."
       }
     }
+  },
+  {
+    "id": "wk1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wo wurde die tiefste Lufttemperatur der Erde gemessen?",
+    "options": [
+      "Am Nordpol",
+      "In Oimjakon in Sibirien",
+      "An der Wostok-Station in der Antarktis",
+      "Auf dem Gipfel des Mount Everest"
+    ],
+    "correct_index": 2,
+    "explanation": "Am 21. Juli 1983, mitten in der Polarnacht, maß man an der russischen Forschungsstation Wostok −89,2 °C – die bisher tiefste meteorologisch bestimmte Lufttemperatur der Erde.",
+    "difficulty": 2,
+    "tags": [
+      "Antarktis",
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wostok-Station",
+    "source_url": "https://de.wikipedia.org/wiki/Wostok-Station",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where was the lowest air temperature on Earth measured?",
+        "options": [
+          "At the North Pole",
+          "In Oymyakon in Siberia",
+          "At Vostok Station in Antarctica",
+          "On the summit of Mount Everest"
+        ],
+        "explanation": "On 21 July 1983, in the middle of the polar night, −89.2 °C was measured at the Russian research station Vostok – the lowest air temperature on Earth determined by meteorologists so far."
+      }
+    }
   }
 ]

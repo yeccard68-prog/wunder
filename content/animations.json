@@ -4928,5 +4928,136 @@
       ],
       "correct": 2
     }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T12:00:00Z",
+    "id": "a-temperaturen",
+    "category_id": "science",
+    "scene": "temps",
+    "title": "Von eiskalt bis glühend heiß",
+    "summary": "Ein Thermometer, das immer weiter herauszoomt – vom absoluten Nullpunkt bis in den Kern der Sonne.",
+    "goal": "Du kannst Temperaturen vom absoluten Nullpunkt bis zum Sonnenkern einordnen und siehst, wie weit sie auseinanderliegen.",
+    "labels": [
+      "absoluter Nullpunkt: −273,15 °C",
+      "Kälterekord, Wostok: −89,2 °C",
+      "Wasser siedet: 100 °C",
+      "Lava: 800 bis 1200 °C",
+      "Sonnenoberfläche: rund 5500 °C",
+      "Blitz: bis 30.000 °C",
+      "Sonnenkern: rund 15,6 Mio. °C",
+      "°C"
+    ],
+    "steps": [
+      {
+        "text": "Kälter geht es nicht: Der absolute Nullpunkt liegt bei −273,15 Grad Celsius. Dort beginnt die Kelvin-Skala bei null – eine tiefere Temperatur gibt es nicht.",
+        "seconds": 6
+      },
+      {
+        "text": "Die tiefste je auf der Erde gemessene Lufttemperatur: −89,2 °C, am 21. Juli 1983 an der Wostok-Station in der Antarktis, mitten in der Polarnacht.",
+        "seconds": 7
+      },
+      {
+        "text": "Unter Normaldruck siedet Wasser bei 100 °C. Das ist schon ein weiter Weg vom Kälterekord – aber es geht noch viel heißer.",
+        "seconds": 6
+      },
+      {
+        "text": "Lava kommt mit 800 bis 1200 °C aus dem Vulkan. Damit sie auf das Thermometer passt, zoomt die Skala heraus.",
+        "seconds": 7
+      },
+      {
+        "text": "Die Oberfläche der Sonne strahlt mit 5778 Kelvin – das sind rund 5500 °C.",
+        "seconds": 7
+      },
+      {
+        "text": "Ein Blitz erhitzt die Luft in seinem Kanal schlagartig auf bis zu 30.000 °C – mehr als fünfmal so heiß wie die Oberfläche der Sonne.",
+        "seconds": 7
+      },
+      {
+        "text": "Und im Kern der Sonne herrschen rund 15,6 Millionen Kelvin, praktisch ebenso viele Grad Celsius. Alles bisher Gezeigte schrumpft auf der Skala zu einem Strich am Boden.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Absoluter Nullpunkt",
+        "url": "https://de.wikipedia.org/wiki/Absoluter_Nullpunkt"
+      },
+      {
+        "name": "Wikipedia: Wostok-Station",
+        "url": "https://de.wikipedia.org/wiki/Wostok-Station"
+      },
+      {
+        "name": "Wikipedia: Siedepunkt",
+        "url": "https://de.wikipedia.org/wiki/Siedepunkt"
+      },
+      {
+        "name": "Wikipedia: Lava",
+        "url": "https://de.wikipedia.org/wiki/Lava"
+      },
+      {
+        "name": "Wikipedia: Sonne",
+        "url": "https://de.wikipedia.org/wiki/Sonne"
+      },
+      {
+        "name": "Wikipedia: Blitz",
+        "url": "https://de.wikipedia.org/wiki/Blitz"
+      }
+    ],
+    "quiz_question_id": "wk1",
+    "translations": {
+      "en": {
+        "title": "From ice cold to white hot",
+        "summary": "A thermometer that keeps zooming out – from absolute zero to the core of the Sun.",
+        "goal": "You can place temperatures from absolute zero to the core of the Sun and see how far apart they are.",
+        "labels": [
+          "absolute zero: −273.15 °C",
+          "cold record, Vostok: −89.2 °C",
+          "water boils: 100 °C",
+          "lava: 800 to 1,200 °C",
+          "surface of the Sun: about 5,500 °C",
+          "lightning: up to 30,000 °C",
+          "core of the Sun: about 15.6 m °C",
+          "°C"
+        ],
+        "steps": [
+          "It cannot get colder: absolute zero lies at −273.15 degrees Celsius. That is where the kelvin scale starts at zero – there is no lower temperature.",
+          "The lowest air temperature ever measured on Earth: −89.2 °C, on 21 July 1983 at Vostok Station in Antarctica, in the middle of the polar night.",
+          "At normal pressure, water boils at 100 °C. That is already a long way from the cold record – but it gets much hotter.",
+          "Lava comes out of the volcano at 800 to 1,200 °C. To fit it on the thermometer, the scale zooms out.",
+          "The surface of the Sun shines at 5,778 kelvin – that is about 5,500 °C.",
+          "A lightning bolt suddenly heats the air in its channel to up to 30,000 °C – more than five times as hot as the surface of the Sun.",
+          "And in the core of the Sun it is about 15.6 million kelvin, practically as many degrees Celsius. Everything shown so far shrinks to a line at the bottom of the scale."
+        ],
+        "predict": {
+          "question": "The surface of the Sun is about 5,500 °C. How hot is it in its core?",
+          "options": [
+            "About 50,000 °C",
+            "About 1 million °C",
+            "About 15 million °C"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 6,
+      "question": "Die Oberfläche der Sonne hat rund 5500 °C. Wie heiß ist es in ihrem Kern?",
+      "options": [
+        "Rund 50.000 °C",
+        "Rund 1 Million °C",
+        "Rund 15 Millionen °C"
+      ],
+      "correct": 2
+    }
   }
 ]

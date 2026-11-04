@@ -1182,4 +1182,68 @@ function Speeds({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds };
+// ------------------------------------------------------------------ from ice cold to white hot (motion graphics, 04.11.2026)
+// A thermometer whose scale keeps zooming out: absolute zero, the coldest air ever measured, boiling water, lava, the
+// surface of the Sun, a lightning channel, the core of the Sun. Everything shown before shrinks towards the bottom.
+// Temperatures in TEMPS (°C; 5778 K and 15.6 million K converted with 0 K = −273.15 °C; sources in the animation).
+// labels: 0–6 the seven marks, 7 "°C"
+export const TEMPS = [-273.15, -89.2, 100, 1200, 5505, 30000, 15.6e6];
+const TEMP_TOP = [50, 50, 150, 1450, 6800, 36000, 18.5e6]; // the top of the scale in each step
+const TEMP_COLORS = ["#9fc3ff", "#7cc4f0", "#e9ecef", "#ff8a3d", "#ffd24a", "#c9b8ff", "#fff6c8"];
+
+function Temps({ step, p, t, labels }: SceneProps) {
+  const s = Math.min(step, 6);
+  const k = ease(clamp(p / 0.6));
+  const lo = -300, bottom = 350, top = 72;
+  // zoom on a log scale of the range, so each jump feels even
+  const range = s === 0 ? TEMP_TOP[0] - lo : Math.exp(lerp(Math.log(TEMP_TOP[s - 1] - lo), Math.log(TEMP_TOP[s] - lo), k));
+  const Y = (c: number) => bottom - ((c - lo) / range) * (bottom - top);
+  const now = s === 0 ? TEMPS[0] : lerp(TEMPS[s - 1], TEMPS[s], ease(clamp((p - 0.1) / 0.6)));
+  const grouped = (n: number) => (n < 0 ? "−" : "") + Math.abs(Math.round(n)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  // grid lines: 1, 2 or 5 times a power of ten, about four of them on the scale
+  const raw = range / 4, pow = 10 ** Math.floor(Math.log10(raw));
+  const tick = [1, 2, 5, 10].map((m) => m * pow).find((v) => v >= raw)!;
+  const ticks: number[] = [];
+  for (let c = Math.ceil(lo / tick) * tick; c <= lo + range; c += tick) ticks.push(c);
+  // labels: the newest wins, an older one fades out once a newer one comes too close
+  const shown = TEMPS.map((c, i) => ({ i, y: Y(c), on: i < s ? 1 : i === s ? ease(clamp((p - 0.45) / 0.3)) : 0 })).filter((m) => m.on > 0);
+  const kept: { i: number; y: number; on: number; vis: number }[] = [];
+  for (const m of [...shown].reverse()) {
+    const d = Math.min(99, ...kept.map((o) => Math.abs(o.y - m.y)));
+    kept.push({ ...m, vis: m.on * clamp((d - 9) / 8) });
+  }
+  const fill = Math.max(top - 8, Y(now));
+  return (
+    <>
+      <Label x={180} y={42} size={28} bold color={TEMP_COLORS[s]}>{`${grouped(now)} ${labels[7]}`}</Label>
+      {/* the grid rushing down as the scale zooms out */}
+      {ticks.map((c) => (
+        <g key={c}>
+          <line x1={74} y1={Y(c)} x2={352} y2={Y(c)} stroke={LINE} strokeWidth={1} strokeDasharray="2 5" />
+          <Label x={352} y={Y(c) - 4} anchor="end" size={9} color={DIM}>{grouped(c)}</Label>
+        </g>
+      ))}
+      {/* the thermometer */}
+      <rect x={38} y={top - 12} width={20} height={bottom - top + 24} rx={10} fill="#25282e" stroke={DIM} strokeWidth={1.5} />
+      <rect x={43} y={fill} width={10} height={bottom + 12 - fill} rx={5} fill={TEMP_COLORS[s]} />
+      <circle cx={48} cy={bottom + 22} r={16} fill={TEMP_COLORS[s]} stroke={DIM} strokeWidth={1.5} />
+      {/* the marks so far */}
+      {kept.map(({ i, y, vis, on }) => (
+        <g key={i}>
+          <line x1={62} y1={y} x2={84} y2={y} stroke={TEMP_COLORS[i]} strokeWidth={2.5} opacity={on} />
+          <g opacity={vis}><Label x={90} y={y + 4} anchor="start" size={11} bold color={TEMP_COLORS[i]}>{labels[i]}</Label></g>
+        </g>
+      ))}
+      {/* a small sign for each step, next to the counter */}
+      <g transform="translate(330 34) scale(0.85)" opacity={ease(clamp(p * 3))}>
+        {s <= 1 && [0, 60, 120].map((a) => <line key={a} x1={-14} y1={0} x2={14} y2={0} stroke={TEMP_COLORS[s]} strokeWidth={3} strokeLinecap="round" transform={`rotate(${a + t * 8})`} />)}
+        {s === 2 && [-8, 0, 8].map((x, j) => <path key={x} d={`M${x} 10 q-5 -8 0 -14 q5 -6 0 -14`} stroke={INK} strokeWidth={2.5} fill="none" strokeLinecap="round" opacity={0.5 + 0.5 * Math.sin(t * 3 + j)} />)}
+        {s === 3 && <path d="M0 -16 C8 -4 12 4 12 8 A12 12 0 0 1 -12 8 C-12 4 -8 -4 0 -16 Z" fill="#ff8a3d" />}
+        {(s === 4 || s === 6) && <><circle r={13} fill="#ffd24a" />{Array.from({ length: 8 }, (_, j) => <line key={j} x1={0} y1={-17} x2={0} y2={-22} stroke="#ffd24a" strokeWidth={2.5} strokeLinecap="round" transform={`rotate(${j * 45 + t * 10})`} />)}{s === 6 && <circle r={5} fill="#fff6c8" />}</>}
+        {s === 5 && <path d="M4 -18 L-8 2 L0 2 L-4 18 L10 -4 L2 -4 Z" fill="#c9b8ff" opacity={0.6 + 0.4 * Math.abs(Math.sin(t * 5))} />}
+      </g>
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps };
