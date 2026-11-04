@@ -1620,5 +1620,347 @@
     },
     "image_url": "/img/studies/s-cocktailparty.svg",
     "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-kluger-hans",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1907,
+    "name": "Der Kluge Hans",
+    "question": "Kann ein Pferd rechnen?",
+    "method": "Das Pferd Hans beantwortete Aufgaben des Mathematiklehrers Wilhelm von Osten, indem es mit dem Huf klopfte. Eine 13-köpfige Kommission fand im September 1904 keinen Trick: Hans antwortete auch richtig, wenn ein Fremder fragte. Der Psychologe Oskar Pfungst prüfte ihn dann genauer – unter anderem so, dass Hans die fragende Person nicht sehen konnte.",
+    "result": "Konnte Hans die fragende Person sehen, lag er bei 89 Prozent der Aufgaben richtig (50 von 56), sonst nur bei 6 Prozent (2 von 35). Hans konnte nicht rechnen: Vor dem richtigen Klopfen spannten sich die Fragenden unbewusst an und zeigten danach Erleichterung – darauf reagierte er. Pfungst zeigte das 1907.",
+    "caveat": "Aber welche Signale genau es waren, weiß niemand: Körpersprache und Mienenspiel der Fragenden wurden nie gefilmt. Und es klappte nur, wenn die fragende Person die Antwort selbst kannte. Seitdem spricht man in der Forschung vom Kluger-Hans-Effekt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kluger Hans",
+        "url": "https://de.wikipedia.org/wiki/Kluger_Hans"
+      },
+      {
+        "name": "Wikipedia (englisch): Clever Hans",
+        "url": "https://en.wikipedia.org/wiki/Clever_Hans"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T12:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Clever Hans",
+        "question": "Can a horse do sums?",
+        "method": "The horse Hans answered questions from the maths teacher Wilhelm von Osten by tapping its hoof. In September 1904 a commission of 13 people found no trick: Hans also answered correctly when a stranger asked. The psychologist Oskar Pfungst then tested him more closely – among other things in a way that Hans could not see the person asking.",
+        "result": "When Hans could see the person asking, he got 89 per cent of the answers right (50 out of 56), otherwise only 6 per cent (2 out of 35). Hans could not do sums: before the right tap the questioners unconsciously tensed up and afterwards showed relief – and he reacted to that. Pfungst showed this in 1907.",
+        "caveat": "But which signals exactly they were, nobody knows: the questioners' body language and facial expressions were never filmed. And it only worked if the person asking knew the answer. Since then researchers speak of the Clever Hans effect."
+      }
+    },
+    "image_url": "/img/studies/s-kluger-hans.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-pascal-puy",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1648,
+    "name": "Pascals Barometer auf dem Puy de Dôme",
+    "question": "Wird der Luftdruck schwächer, je höher man steigt?",
+    "method": "Blaise Pascal überlegte: Wenn Luft ein Gewicht hat, muss auf einem hohen Berg weniger Luftdruck herrschen. Selbst konnte er den 1465 Meter hohen Puy de Dôme nicht besteigen, er war gesundheitlich angeschlagen. Am 19. September 1648 übernahm das sein Schwager Florin Périer: Er stellte unten im Ort mit Quecksilber gefüllte Glasröhren auf, ließ eine davon von einem Mönch den Tag über beobachten und trug eine zweite auf den Gipfel.",
+    "result": "Unten stand das Quecksilber 26 Zoll und 3½ Linien hoch, auf dem Gipfel nur noch 23 Zoll und 2 Linien – bei fünf Messungen an verschiedenen Stellen. Pascal wiederholte den Versuch auf einem rund 50 Meter hohen Kirchturm in Paris: Das Quecksilber sank um zwei Linien. Der Luftdruck nimmt mit der Höhe ab.",
+    "caveat": "Aber Pascal stand gar nicht selbst auf dem Berg: Sein Schwager machte die Messung erst nach monatelangem, freundlichem, aber hartnäckigem Drängen. Und die Werte sind in alten französischen Maßen angegeben – in Zoll und Linien.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Blaise Pascal",
+        "url": "https://en.wikipedia.org/wiki/Blaise_Pascal"
+      },
+      {
+        "name": "Wikipedia: Blaise Pascal",
+        "url": "https://de.wikipedia.org/wiki/Blaise_Pascal"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T11:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Pascal's barometer on the Puy de Dôme",
+        "question": "Does air pressure get weaker the higher you climb?",
+        "method": "Blaise Pascal reasoned: if air has weight, the air pressure on a high mountain must be lower. He could not climb the 1,465-metre Puy de Dôme himself, as his health was poor. On 19 September 1648 his brother-in-law Florin Périer did it: down in the town he set up glass tubes filled with mercury, had a monk watch one of them through the day and carried a second to the summit.",
+        "result": "Down below the mercury stood 26 inches and 3½ lines high, on the summit only 23 inches and 2 lines – in five measurements at different spots. Pascal repeated the experiment on a church tower in Paris about 50 metres high: the mercury dropped two lines. Air pressure decreases with height.",
+        "caveat": "But Pascal was not on the mountain himself: his brother-in-law only made the measurement after months of friendly but insistent prodding. And the values are given in old French units – in inches and lines."
+      }
+    },
+    "image_url": "/img/studies/s-pascal-puy.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-newton-prisma",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1672,
+    "name": "Newtons Prisma",
+    "question": "Ist weißes Sonnenlicht eine einzige Farbe – oder steckt mehr darin?",
+    "method": "Isaac Newton untersuchte Licht mit Prismen und Linsen. In einem entscheidenden Versuch, einem „experimentum crucis“, wollte er zeigen, woraus Sonnenlicht besteht. Seine Versuche zur Zerlegung des Lichts in seine Farben berichtete er 1672 der Royal Society in London.",
+    "result": "Das Prisma zerlegt Sonnenlicht in ein Spektrum seiner Farben. Jede Farbe wird dabei in einem eigenen, festen Winkel gebrochen: Sonnenlicht besteht aus Strahlen, die sich in ihrer Brechbarkeit unterscheiden. Newton betonte aber, dass Farbe selbst eine Empfindung in unserem Kopf ist – keine Eigenschaft der Dinge oder des Lichts.",
+    "caveat": "Aber überzeugt waren längst nicht alle: Besonders in Frankreich lehnten viele Naturforscher Newtons Optik zunächst ab und behaupteten, seine Prismenversuche ließen sich schwer nachmachen. Ausführlich erschienen sie erst 1704 in seinem Buch „Opticks“.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Opticks",
+        "url": "https://en.wikipedia.org/wiki/Opticks"
+      },
+      {
+        "name": "Wikipedia (englisch): Experimentum crucis",
+        "url": "https://en.wikipedia.org/wiki/Experimentum_crucis"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T10:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Newton's prism",
+        "question": "Is white sunlight a single colour – or is there more to it?",
+        "method": "Isaac Newton studied light with prisms and lenses. In a crucial experiment, an 'experimentum crucis', he set out to show what sunlight consists of. He reported his experiments on splitting light into its colours to the Royal Society of London in 1672.",
+        "result": "The prism splits sunlight into a spectrum of its colours. Each colour is refracted at its own fixed angle: sunlight consists of rays that differ in how much they are refracted. Newton stressed, though, that colour itself is a sensation in our mind – not a property of things or of light.",
+        "caveat": "But not everyone was convinced: in France in particular, many natural philosophers at first rejected Newton's optics and claimed his prism experiments were hard to replicate. They only appeared in full in 1704, in his book 'Opticks'."
+      }
+    },
+    "image_url": "/img/studies/s-newton-prisma.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-faraday-ring",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1831,
+    "name": "Faradays Eisenring",
+    "question": "Wenn Strom einen Magneten erzeugt – kann ein Magnet dann auch Strom erzeugen?",
+    "method": "Michael Faraday wollte umkehren, was ein Elektromagnet tut. Am 29. August 1831 wickelte er zwei Drähte auf gegenüberliegende Seiten eines Eisenrings. An den einen schloss er ein Galvanometer an, ein Messgerät für Strom, den anderen verband er mit einer Batterie.",
+    "result": "Jedes Mal, wenn er den Draht an die Batterie anschloss, schlug der Zeiger des Galvanometers kurz aus. Ursache war die Änderung des magnetischen Flusses. Später sah Faraday auch Ströme wechselnder Richtung, wenn er einen Magneten rasch in eine Spule hinein- und wieder herausbewegte. Seine Anordnung ähnelte schon modernen Ringkerntransformatoren.",
+    "caveat": "Aber Faraday hatte etwas anderes erwartet: eine Welle, die durch den Ring läuft und auf der anderen Seite Strom fließen lässt. Und er war nicht allein – auch Joseph Henry fand das Induktionsgesetz 1831 unabhängig; Faraday veröffentlichte nur als Erster.",
+    "sources": [
+      {
+        "name": "Wikipedia: Elektromagnetische Induktion",
+        "url": "https://de.wikipedia.org/wiki/Elektromagnetische_Induktion"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T09:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Faraday's iron ring",
+        "question": "If electric current makes a magnet – can a magnet also make current?",
+        "method": "Michael Faraday wanted to reverse what an electromagnet does. On 29 August 1831 he wound two wires onto opposite sides of an iron ring. He connected one to a galvanometer, an instrument that measures current, and the other to a battery.",
+        "result": "Every time he connected the wire to the battery, the galvanometer's needle gave a brief kick. The cause was the change in magnetic flux. Later Faraday also saw currents changing direction when he moved a magnet quickly into a coil and out again. His set-up already resembled modern toroidal transformers.",
+        "caveat": "But Faraday had expected something else: a wave running through the ring that would make current flow on the other side. And he was not alone – Joseph Henry also found the law of induction independently in 1831; Faraday was just the first to publish."
+      }
+    },
+    "image_url": "/img/studies/s-faraday-ring.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-becquerel",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1896,
+    "name": "Becquerels geschwärzte Fotoplatte",
+    "question": "Senden leuchtende Stoffe im Sonnenlicht unsichtbare, durchdringende Strahlen aus?",
+    "method": "Kurz nach der Entdeckung der Röntgenstrahlen vermutete Henri Becquerel, dass phosphoreszierende Stoffe im hellen Sonnenlicht ähnliche Strahlen aussenden. Im Februar 1896 legte er Münzen und andere Gegenstände auf Fotoplatten, wickelte alles in dickes schwarzes Papier, stellte phosphoreszierende Stoffe darauf – darunter Uransalze – und legte es mehrere Stunden in die Sonne. Die entwickelten Platten zeigten Schatten der Gegenstände.",
+    "result": "Am 26. und 27. Februar war es trüb, und Becquerel legte die Platten in einen dunklen Schrank. Als er sie am 1. März trotzdem entwickelte, waren die Schatten genauso deutlich wie nach dem Sonnenbad. Bis Mai fand er die richtige Erklärung: Die Strahlung kam vom Uran selbst – ganz ohne Licht. Becquerel hatte die Radioaktivität entdeckt.",
+    "caveat": "Aber seine Ausgangsidee war falsch, und geholfen hat ihm das schlechte Wetter. Die richtige Erklärung fand er erst Monate später; weitere radioaktive Elemente, Polonium und Radium, entdeckten dann Marie und Pierre Curie.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Henri Becquerel",
+        "url": "https://en.wikipedia.org/wiki/Henri_Becquerel"
+      },
+      {
+        "name": "Wikipedia: Henri Becquerel",
+        "url": "https://de.wikipedia.org/wiki/Henri_Becquerel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T08:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Becquerel's darkened photographic plate",
+        "question": "Do glowing substances in sunlight give off invisible, penetrating rays?",
+        "method": "Shortly after the discovery of X-rays, Henri Becquerel suspected that phosphorescent substances give off similar rays in bright sunlight. In February 1896 he put coins and other objects on photographic plates, wrapped everything in thick black paper, placed phosphorescent substances on top – among them uranium salts – and left it in the sun for several hours. The developed plates showed shadows of the objects.",
+        "result": "26 and 27 February were overcast, and Becquerel put the plates in a dark cabinet. When he developed them anyway on 1 March, the shadows were just as distinct as after a day in the sun. By May he had found the right explanation: the radiation came from the uranium itself – without any light. Becquerel had discovered radioactivity.",
+        "caveat": "But his starting idea was wrong, and the bad weather helped him. He only found the right explanation months later; further radioactive elements, polonium and radium, were then discovered by Marie and Pierre Curie."
+      }
+    },
+    "image_url": "/img/studies/s-becquerel.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-hafele-keating",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1971,
+    "name": "Atomuhren auf Weltreise (Hafele und Keating)",
+    "question": "Gehen Uhren anders, wenn sie fliegen – so wie es Einsteins Relativitätstheorie vorhersagt?",
+    "method": "Der Physiker Joseph Hafele und der Astronom Richard Keating nahmen 1971 vier Cäsium-Atomuhren mit an Bord von Linienflugzeugen. Sie flogen zweimal um die Welt, erst nach Osten, dann nach Westen, und verglichen die Uhren danach mit Atomuhren, die am Boden im United States Naval Observatory geblieben waren.",
+    "result": "Die Uhren gingen danach nicht mehr gleich – passend zur speziellen und allgemeinen Relativitätstheorie. Vorhergesagt war: Die ostwärts fliegende Uhr verliert gegenüber der Bodenuhr Zeit, die westwärts fliegende gewinnt; in großer Höhe gehen beide zusätzlich etwas schneller. Die gemessenen Gewinne und Verluste stimmten mit den Vorhersagen überein.",
+    "caveat": "Aber die Messung war nur auf etwa 10 Prozent genau. Spätere Wiederholungen waren viel präziser: 1996 maß man auf einem Flug von London nach Washington und zurück einen Vorsprung der Borduhren von 39 ± 2 Nanosekunden – vorhergesagt waren 39,8.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Hafele–Keating experiment",
+        "url": "https://en.wikipedia.org/wiki/Hafele–Keating_experiment"
+      },
+      {
+        "name": "Wikipedia: Hafele-Keating-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Hafele-Keating-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T07:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Atomic clocks around the world (Hafele and Keating)",
+        "question": "Do clocks run differently when they fly – as Einstein's theory of relativity predicts?",
+        "method": "In 1971 the physicist Joseph Hafele and the astronomer Richard Keating took four caesium atomic clocks aboard airliners. They flew around the world twice, first eastward, then westward, and afterwards compared the clocks with atomic clocks that had stayed on the ground at the United States Naval Observatory.",
+        "result": "Afterwards the clocks no longer agreed – in line with special and general relativity. The prediction was: the eastbound clock loses time against the ground clock, the westbound one gains; at high altitude both also run slightly faster. The measured gains and losses matched the predictions.",
+        "caveat": "But the measurement was only accurate to about 10 per cent. Later repeats were far more precise: in 1996, on a flight from London to Washington and back, the clocks on board were found to be ahead by 39 ± 2 nanoseconds – 39.8 had been predicted."
+      }
+    },
+    "image_url": "/img/studies/s-hafele-keating.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-hershey-chase",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1952,
+    "name": "Hershey, Chase und der Mixer",
+    "question": "Steckt das Erbgut in der DNA oder in den Proteinen?",
+    "method": "Alfred Hershey und Martha Chase arbeiteten 1952 mit Bakteriophagen – Viren, die Bakterien befallen und aus einer Proteinhülle mit DNA darin bestehen. Bei den einen Phagen markierten sie die Proteine mit radioaktivem Schwefel, bei den anderen die DNA mit radioaktivem Phosphor. Nachdem die Phagen Bakterien befallen hatten, lösten sie die Hüllen in einem Mixer ab und trennten Hüllen und Bakterien in einer Zentrifuge.",
+    "result": "Der markierte Phosphor, also die DNA, steckte in den Bakterien; die markierten Proteine blieben zum größten Teil draußen in der Flüssigkeit. Die Nachkommen der Phagen trugen den markierten Phosphor weiter, den Schwefel nicht. Das Erbgut steckt also in der DNA, nicht in den Proteinen.",
+    "caveat": "Aber ganz neu war das nicht: Oswald Avery, Colin MacLeod und Maclyn McCarty hatten schon 1944 Hinweise darauf gefunden – viele Forscher zögerten nur noch, es anzunehmen. Hershey und Chase lieferten eine unabhängige Bestätigung; Hershey erhielt 1969 einen Nobelpreis.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Hershey–Chase experiment",
+        "url": "https://en.wikipedia.org/wiki/Hershey–Chase_experiment"
+      },
+      {
+        "name": "Wikipedia: Hershey-Chase-Experiment",
+        "url": "https://de.wikipedia.org/wiki/Hershey-Chase-Experiment"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T06:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Hershey, Chase and the blender",
+        "question": "Is genetic material in the DNA or in the proteins?",
+        "method": "In 1952 Alfred Hershey and Martha Chase worked with bacteriophages – viruses that infect bacteria and consist of a protein shell with DNA inside. In one batch of phages they labelled the proteins with radioactive sulphur, in the other the DNA with radioactive phosphorus. After the phages had infected bacteria, they knocked the shells off in a blender and separated shells and bacteria in a centrifuge.",
+        "result": "The labelled phosphorus, that is the DNA, was inside the bacteria; the labelled proteins mostly stayed outside in the liquid. The phages' offspring carried on the labelled phosphorus, but not the sulphur. So genetic material is in the DNA, not in the proteins.",
+        "caveat": "But it was not entirely new: Oswald Avery, Colin MacLeod and Maclyn McCarty had already found evidence for it in 1944 – many scientists were just still hesitant to accept it. Hershey and Chase provided independent confirmation; Hershey received a Nobel Prize in 1969."
+      }
+    },
+    "image_url": "/img/studies/s-hershey-chase.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-darwin-keimling",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1880,
+    "name": "Darwins Graskeimlinge",
+    "question": "Wie merkt eine Pflanze, wo das Licht herkommt?",
+    "method": "Charles Darwin und sein Sohn Francis beleuchteten junge Graskeimlinge von einer Seite. Die jungen Blätter stecken dort in einer schützenden Hülle, der Koleoptile. Dann deckten sie verschiedene Teile mit lichtdichten Kappen ab oder schnitten die Spitze ab. Darwins Buch über die Bewegungen der Pflanzen erschien 1880.",
+    "result": "Die Keimlinge bogen sich zum Licht. Mit abgedeckter oder abgeschnittener Spitze taten sie das nicht. Das Licht wird also an der Spitze wahrgenommen, gekrümmt wird weiter unten. Die Darwins schlossen, dass ein Botenstoff von der Spitze nach unten wandert.",
+    "caveat": "Aber den Botenstoff kannten sie nicht. Peter Boysen Jensen zeigte 1910, dass das Signal sogar durch einen Schnitt hindurch wirkt; später wurde der Stoff als Auxin entdeckt. Und die Jahresangaben schwanken: Das Buch erschien 1880, an anderer Stelle werden die Versuche auf 1881 datiert.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Auxin",
+        "url": "https://en.wikipedia.org/wiki/Auxin"
+      },
+      {
+        "name": "Wikipedia (englisch): The Power of Movement in Plants",
+        "url": "https://en.wikipedia.org/wiki/The_Power_of_Movement_in_Plants"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T05:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Darwin's grass seedlings",
+        "question": "How does a plant notice where the light comes from?",
+        "method": "Charles Darwin and his son Francis lit young grass seedlings from one side. The young leaves sit in a protective sheath, the coleoptile. Then they covered different parts with light-proof caps or cut off the tip. Darwin's book on the movements of plants appeared in 1880.",
+        "result": "The seedlings bent towards the light. With the tip covered or cut off they did not. So the light is detected at the tip, while the bending happens further down. The Darwins concluded that a messenger travels down from the tip.",
+        "caveat": "But they did not know the messenger. In 1910 Peter Boysen Jensen showed that the signal even passes through a cut; later the substance was discovered as auxin. And the dates vary: the book appeared in 1880, elsewhere the experiments are dated to 1881."
+      }
+    },
+    "image_url": "/img/studies/s-darwin-keimling.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-wason",
+    "category_id": "science",
+    "min_age": 13,
+    "year": 1966,
+    "name": "Wasons Kartenaufgabe",
+    "question": "Wie gut prüfen wir eine Wenn-dann-Regel?",
+    "method": "Peter Wason erfand 1966 eine Aufgabe mit vier Karten. Ein Beispiel: Jede Karte hat auf einer Seite eine Zahl, auf der anderen eine Farbe; zu sehen sind 3, 8, Blau und Rot. Die Regel: Wenn auf einer Seite eine gerade Zahl steht, ist die andere Seite blau. Welche Karten muss man umdrehen, um das zu prüfen? In der ursprünglichen Aufgabe ging es um Zahlen und Buchstaben.",
+    "result": "In Wasons Studie fand nicht einmal jede zehnte Person die richtige Lösung: die 8 und die rote Karte. Die blaue Karte umzudrehen hilft nicht – egal, was hinten steht, sie verstößt nie gegen die Regel. Und die 3 ist egal, denn über ungerade Zahlen sagt die Regel nichts.",
+    "caveat": "Aber in einer anderen Verpackung fällt dieselbe Logik leicht: Lautet die Regel „Wer Alkohol trinkt, muss über 18 sein“, wählen die meisten ohne Mühe richtig – die 16 und das Bier. Warum, ist umstritten: Cosmides und Tooby sehen darin ein Gespür für soziale Regeln, andere halten ihre Begründung für nicht schlüssig.",
+    "sources": [
+      {
+        "name": "Wikipedia (englisch): Wason selection task",
+        "url": "https://en.wikipedia.org/wiki/Wason_selection_task"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T04:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Wason's card task",
+        "question": "How well do we test an if-then rule?",
+        "method": "In 1966 Peter Wason devised a task with four cards. One example: each card has a number on one side and a colour on the other; showing are 3, 8, blue and red. The rule: if a card shows an even number on one side, the other side is blue. Which cards must you turn over to test this? The original task used numbers and letters.",
+        "result": "In Wason's study not even one person in ten found the right answer: the 8 and the red card. Turning over the blue card does not help – whatever is on the back, it never breaks the rule. And the 3 does not matter, because the rule says nothing about odd numbers.",
+        "caveat": "But in a different setting the same logic is easy: if the rule is 'If you are drinking alcohol, you must be over 18', most people pick the right cards without difficulty – the 16 and the beer. Why is disputed: Cosmides and Tooby see a sense for social rules in it, others consider their argument unjustified."
+      }
+    },
+    "image_url": "/img/studies/s-wason.svg",
+    "image_credit": "Zeichnung: Wunder"
+  },
+  {
+    "id": "s-morgan-fliegen",
+    "category_id": "science",
+    "min_age": 10,
+    "year": 1910,
+    "name": "Morgans weißäugige Fliege",
+    "question": "Wo im Körper sitzen die Erbanlagen?",
+    "method": "Thomas Hunt Morgan kreuzte ab 1908 Taufliegen, zwei Jahre lang ohne Ergebnis. 1910 entdeckte er unter den sonst rotäugigen Fliegen ein Männchen mit weißen Augen. Er kreuzte es mit einem rotäugigen Weibchen und danach die Nachkommen untereinander.",
+    "result": "Die erste Generation hatte nur rote Augen – die Anlage für Weiß wurde also rezessiv vererbt. In der nächsten Generation hatte die Hälfte der Männchen weiße Augen. Morgan schloss, dass die Anlage für die Augenfarbe auf dem X-Chromosom liegt: Gene sitzen auf Chromosomen.",
+    "caveat": "Aber Morgan baute auf anderen auf: Die Forschung mit Fruchtfliegen hatte Nettie Stevens in seinem Labor angestoßen, und sie hatte gleichzeitig mit Edmund B. Wilson beschrieben, wie das Geschlecht über Chromosomen vererbt wird. Morgan selbst war anfangs skeptisch gegenüber Mendels Regeln.",
+    "sources": [
+      {
+        "name": "Wikipedia: Thomas Hunt Morgan",
+        "url": "https://de.wikipedia.org/wiki/Thomas_Hunt_Morgan"
+      },
+      {
+        "name": "Wikipedia (englisch): Thomas Hunt Morgan",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T03:00:00Z",
+    "translations": {
+      "en": {
+        "name": "Morgan's white-eyed fly",
+        "question": "Where in the body are hereditary factors located?",
+        "method": "From 1908 Thomas Hunt Morgan cross-bred fruit flies, for two years without result. In 1910 he found a male with white eyes among the otherwise red-eyed flies. He crossed it with a red-eyed female and then crossed the offspring with each other.",
+        "result": "The first generation had only red eyes – so the factor for white was inherited recessively. In the next generation half of the males had white eyes. Morgan concluded that the factor for eye colour lies on the X chromosome: genes sit on chromosomes.",
+        "caveat": "But Morgan built on others: fruit fly research in his lab had been started by Nettie Stevens, and she had described, at the same time as Edmund B. Wilson, how sex is inherited through chromosomes. Morgan himself was at first sceptical of Mendel's laws."
+      }
+    },
+    "image_url": "/img/studies/s-morgan-fliegen.svg",
+    "image_credit": "Zeichnung: Wunder"
   }
 ]

@@ -219,6 +219,71 @@ const drawings = {
     ${[[40, 170], [100, 140], [310, 140], [370, 170]].map(([x, y]) => `<ellipse cx="${x}" cy="${y}" rx="26" ry="16" fill="${WHITE}" stroke="${GREY}" stroke-width="2"/>${line(`M${x - 14} ${y} q7 -7 14 0 t14 0`, GREY, 2)}`).join("")}
     ${person(166, 262, 0.85, "ink")}${person(250, 262, 0.85, "accent")}
     ${[10, 20, 30].map((r) => `<path d="M228 ${213 - r} A${r} ${r} 0 0 0 228 ${213 + r}" stroke="${ACCENT}" stroke-width="3" fill="none"/>`).join("")}`),
+  // Clever Hans: the horse watches the questioner – and gets far more right when it can see them (89 % against 6 %)
+  "s-kluger-hans": svg(`<path d="M50 300 C48 230 58 170 88 124 C100 104 108 88 116 78 L112 50 L128 66 L136 46 L142 70 C160 80 178 98 200 122 C210 134 208 150 194 154 C180 158 168 152 156 146 C146 166 136 190 132 220 C130 246 132 274 136 300 Z" fill="#8a5a36"/>
+    ${line("M88 124 C76 154 66 190 62 230", INK, 12)}<circle cx="148" cy="100" r="5" fill="${INK}"/><circle cx="192" cy="138" r="3.5" fill="${INK}"/>
+    ${line("M150 100 L246 222", ACCENT, 3, 'stroke-dasharray="6 6"')}${person(258, 282, 0.8, "ink")}${line("M236 200 l-8 -8", ACCENT, 3)}${line("M258 188 v-11", ACCENT, 3)}${line("M280 200 l8 -8", ACCENT, 3)}
+    <rect x="312" y="${280 - 89 * 1.6}" width="26" height="${89 * 1.6}" fill="${ACCENT}"/><rect x="350" y="${280 - 6 * 1.6}" width="26" height="${6 * 1.6}" fill="${GREY}"/>${line("M304 280 H384", INK, 3)}
+    <circle cx="363" cy="236" r="12" fill="${WHITE}" stroke="${GREY}" stroke-width="3"/>${line("M355 236 h16", GREY, 3)}`),
+  // Pascal: the same mercury tube at the foot and on the summit – the column is lower up there; Périer on his way up
+  "s-pascal-puy": svg(`<path d="M0 290 L200 112 L250 160 L292 134 L400 290 Z" fill="#cfc6b9"/><path d="M182 128 L200 112 L216 126 L206 132 L200 124 L192 134 Z" fill="${WHITE}"/>
+    ${[[70, 168, 196], [200, 6, 50]].map(([x, top, hg]) => `<rect x="${x - 6}" y="${top}" width="12" height="102" rx="6" fill="${WHITE}" stroke="${INK}" stroke-width="3"/><rect x="${x - 3}" y="${hg}" width="6" height="${top + 100 - hg}" fill="#8f98a1"/><rect x="${x - 18}" y="${top + 96}" width="36" height="12" rx="3" fill="#8f98a1" stroke="${INK}" stroke-width="3"/>`).join("")}
+    <circle cx="200" cy="50" r="12" fill="none" stroke="${ACCENT}" stroke-width="3"/>${line("M100 196 H88", ACCENT, 3)}
+    ${person(140, 172, 0.42, "ink")}${arrow("M152 150 L176 128", ACCENT, 3)}`),
+  // Newton: a beam of sunlight through a hole, a prism, the spectrum fanned out on a screen
+  "s-newton-prisma": svg(`<rect x="20" y="40" width="22" height="220" fill="${INK}"/><rect x="20" y="138" width="22" height="16" fill="${BG}"/>
+    ${line("M42 146 L176 150", "#f7e7a0", 10)}<path d="M150 214 L206 96 L262 214 Z" fill="${WHITE}" fill-opacity="0.85" stroke="${INK}" stroke-width="4"/>
+    ${["#e84a3a", "#f39a2b", "#f2d33a", "#4fae5a", "#3f7fd0", "#7a55c4"].map((c, i) => line(`M226 ${160 + i * 2} L356 ${116 + i * 22}`, c, 7, 'stroke-linecap="butt"')).join("")}
+    <rect x="356" y="96" width="12" height="160" fill="${GREY}"/>`),
+  // Faraday: two coils on an iron ring, a battery on one side, a galvanometer on the other – the needle kicks when the circuit closes
+  "s-faraday-ring": svg(`<circle cx="200" cy="150" r="78" fill="none" stroke="${GREY}" stroke-width="22"/>
+    ${[...Array(9)].map((_, i) => { const a = ((154 + i * 6.5) * Math.PI) / 180, b = ((-26 + i * 6.5) * Math.PI) / 180; const seg = (t) => line(`M${(200 + Math.cos(t) * 62).toFixed(1)} ${(150 + Math.sin(t) * 62).toFixed(1)} L${(200 + Math.cos(t) * 94).toFixed(1)} ${(150 + Math.sin(t) * 94).toFixed(1)}`, AMBER, 4); return seg(a) + seg(b); }).join("")}
+    ${line("M114 116 C80 100 70 120 68 130", AMBER, 4)}${line("M114 184 C80 200 70 180 68 170", AMBER, 4)}<rect x="30" y="126" width="40" height="48" rx="4" fill="${INK}"/><rect x="46" y="118" width="8" height="8" fill="${INK}"/>
+    ${line("M286 116 C312 104 318 116 320 124", AMBER, 4)}${line("M286 184 C312 196 318 184 320 176", AMBER, 4)}
+    <circle cx="346" cy="150" r="32" fill="${WHITE}" stroke="${INK}" stroke-width="4"/>${line("M326 140 A22 22 0 0 1 366 140", GREY, 2)}<g transform="rotate(38 346 160)">${line("M346 160 V128", ACCENT, 4)}</g><circle cx="346" cy="160" r="4" fill="${INK}"/>
+    ${line("M376 118 l10 -8", ACCENT, 3)}${line("M382 134 l12 -2", ACCENT, 3)}`),
+  // Becquerel: uranium salts on a plate wrapped in black paper, kept in the dark on cloudy days – the developed plate shows the shadows anyway
+  "s-becquerel": svg(`<circle cx="300" cy="62" r="22" fill="${GOLD}"/><path d="M262 92 a22 22 0 0 1 20 -30 a28 28 0 0 1 52 -6 a22 22 0 0 1 30 36 z" fill="${GREY}"/>
+    <rect x="34" y="168" width="140" height="62" rx="4" fill="${INK}"/>${[[64, 158], [86, 154], [108, 160], [130, 156], [150, 160]].map(([x, y], i) => `<path d="M${x - 9} ${y + 8} L${x - 4} ${y - 6} L${x + 7} ${y - 4} L${x + 10} ${y + 8} Z" fill="#c9d84a" stroke="${INK}" stroke-width="1.5" transform="rotate(${i * 17} ${x} ${y})"/>`).join("")}
+    ${[70, 104, 138].map((x) => arrow(`M${x} 176 V214`, ACCENT, 3)).join("")}
+    <rect x="206" y="140" width="160" height="110" rx="4" fill="#3d3a36"/><circle cx="252" cy="195" r="24" fill="#d8d2c6"/><path d="M316 170 l8 18 l18 -8 l-8 18 l8 18 l-18 -8 l-8 18 l-8 -18 l-18 8 l8 -18 l-8 -18 l18 8 z" fill="#d8d2c6"/>`),
+  // Hafele and Keating: clocks flown east and west around the Earth, a third one stays on the ground – afterwards they disagree
+  "s-hafele-keating": (() => {
+    const clock = (x, y, color, h) => `<circle cx="${x}" cy="${y}" r="20" fill="${WHITE}" stroke="${color}" stroke-width="4"/>${line(`M${x} ${y} L${x} ${y - 13}`, INK, 3)}${line(`M${x} ${y} L${(x + Math.cos(h) * 10).toFixed(1)} ${(y + Math.sin(h) * 10).toFixed(1)}`, INK, 3)}`;
+    const plane = (x, y, d, c) => `<path transform="translate(${x} ${y}) scale(${d} 1)" d="M-18 0 L16 0 L22 -4 L16 2 L-14 4 Z M-4 0 L6 -10 L10 -10 L6 0 Z M-4 2 L4 10 L8 10 L6 2 Z" fill="${c}"/>`;
+    return svg(`<circle cx="200" cy="160" r="78" fill="#86b5da"/><path d="M150 120 C170 104 198 112 196 130 C194 148 170 150 160 166 C150 182 128 170 132 150 Z M216 176 C236 164 262 172 258 192 C254 210 230 216 218 204 Z" fill="#8fbf6a"/>
+      <ellipse cx="200" cy="160" rx="132" ry="44" fill="none" stroke="${GREY}" stroke-width="2.5" stroke-dasharray="6 6"/>
+      ${plane(236, 117, 1, ACCENT)}${arrow("M260 118 L292 124", ACCENT, 3)}${plane(160, 203, -1, INK)}${arrow("M136 202 L104 196", INK, 3)}
+      ${clock(52, 50, ACCENT, -0.3)}${clock(348, 50, INK, 0.5)}${clock(200, 272, GREY, 0.1)}`);
+  })(),
+  // Hershey and Chase: phages and bacteria in a blender – the empty shells come off, the DNA stays inside the bacteria
+  "s-hershey-chase": (() => {
+    const phage = (x, y, r = 0) => `<g transform="translate(${x} ${y}) rotate(${r})"><path d="M0 -12 L10 -6 L10 6 L0 12 L-10 6 L-10 -6 Z" fill="${WHITE}" stroke="${INK}" stroke-width="2.5"/>${line("M0 12 V28", INK, 3)}${line("M0 28 l-8 8 M0 28 l8 8", INK, 2.5)}</g>`;
+    const bacterium = (x, y, r = 0) => `<g transform="translate(${x} ${y}) rotate(${r})"><rect x="-24" y="-11" width="48" height="22" rx="11" fill="#8fbf6a" stroke="${INK}" stroke-width="2"/>${line("M-12 0 q4 -6 8 0 t8 0 t8 0", ACCENT, 3)}</g>`;
+    return svg(`<path d="M110 50 H270 L250 232 H130 Z" fill="${WHITE}" fill-opacity="0.75" stroke="${INK}" stroke-width="4"/><rect x="118" y="232" width="144" height="40" rx="6" fill="${INK}"/>${line("M160 222 L220 210 M160 210 L220 222", GREY, 4)}
+      ${bacterium(160, 150, 15)}${bacterium(218, 182, -10)}${bacterium(200, 110, 5)}${phage(150, 88, -20)}${phage(236, 96, 25)}${phage(180, 196, 10)}${phage(232, 138, -15)}
+      ${arrow("M286 80 A40 40 0 0 1 292 170", ACCENT, 3)}
+      <path d="M324 60 h40 v170 a20 20 0 0 1 -40 0 z" fill="${WHITE}" stroke="${INK}" stroke-width="3"/><path d="M325 206 h38 v24 a19 19 0 0 1 -38 0 z" fill="#8fbf6a"/>${line("M334 222 q4 -5 8 0 t8 0 t6 0", ACCENT, 3)}${phage(344, 120)}${phage(346, 164, 20)}`);
+  })(),
+  // Darwin: seedlings lit from one side – bare tip: bends to the light; tip capped or cut off: stays straight
+  "s-darwin-keimling": svg(`<circle cx="356" cy="84" r="20" fill="${GOLD}"/>${[0, 45, 90, 135, 180, 225, 270, 315].map((a) => `<path d="M356 54 v-10" stroke="${GOLD}" stroke-width="4" stroke-linecap="round" transform="rotate(${a} 356 84)"/>`).join("")}
+    ${[110, 150, 190].map((y) => line(`M330 ${y} H260`, ACCENT, 2.5, 'stroke-dasharray="6 7"')).join("")}${line("M20 262 H380", "#8a6a45", 6)}
+    ${line("M70 262 C70 210 72 176 96 150", "#6e9a4e", 9)}${line("M150 262 V150", "#6e9a4e", 9)}<path d="M142 156 Q150 132 158 156 Z" fill="${INK}"/>${line("M230 262 V164", "#6e9a4e", 9)}${line("M220 160 L240 168", ACCENT, 3)}`),
+  // Wason: four cards – three, eight, blue, red; only the eight and the red one need turning over
+  "s-wason": (() => {
+    const pips = (cx, cy, n) => { const pos = n === 3 ? [[-16, -26], [0, 0], [16, 26]] : [-30, -10, 10, 30].flatMap((y) => [[-12, y], [12, y]]); return pos.map(([dx, dy]) => `<circle cx="${cx + dx}" cy="${cy + dy}" r="6" fill="${INK}"/>`).join(""); };
+    return svg(`${[[40, WHITE], [130, WHITE], [220, "#3f7fd0"], [310, "#e84a3a"]].map(([x, f]) => `<rect x="${x}" y="96" width="70" height="104" rx="8" fill="${f}" stroke="${INK}" stroke-width="3"/>`).join("")}
+      ${pips(75, 148, 3)}${pips(165, 148, 8)}
+      ${[165, 345].map((x) => `<rect x="${x - 43}" y="88" width="86" height="120" rx="12" fill="none" stroke="${ACCENT}" stroke-width="4"/>${line(`M${x - 12} 236 l9 10 l18 -22`, ACCENT, 5)}`).join("")}`);
+  })(),
+  // Morgan: a red-eyed female and a white-eyed male; their young all red-eyed; in the next generation some males white-eyed
+  "s-morgan-fliegen": (() => {
+    const fly = (x, y, s, eye) => `<g transform="translate(${x} ${y}) scale(${s})"><ellipse cx="-15" cy="-4" rx="17" ry="7" fill="${WHITE}" fill-opacity="0.9" stroke="${GREY}" stroke-width="2" transform="rotate(-25 -15 -4)"/><ellipse cx="15" cy="-4" rx="17" ry="7" fill="${WHITE}" fill-opacity="0.9" stroke="${GREY}" stroke-width="2" transform="rotate(25 15 -4)"/><ellipse cx="0" cy="8" rx="9" ry="16" fill="#8a6a45"/><circle cx="0" cy="-12" r="8" fill="#8a6a45"/><circle cx="-6" cy="-14" r="4.5" fill="${eye}" stroke="${INK}" stroke-width="1"/><circle cx="6" cy="-14" r="4.5" fill="${eye}" stroke="${INK}" stroke-width="1"/></g>`;
+    const RED = "#c0392b";
+    return svg(`${fly(140, 56, 1.3, RED)}${fly(260, 56, 1.3, WHITE)}${line("M190 46 l20 20 M210 46 l-20 20", ACCENT, 4)}
+      ${arrow("M200 92 V116", GREY, 3)}${[110, 170, 230, 290].map((x) => fly(x, 152, 0.9, RED)).join("")}
+      ${arrow("M200 184 V208", GREY, 3)}${[110, 170, 230, 290].map((x, i) => fly(x, 248, 0.9, i === 3 ? WHITE : RED)).join("")}<circle cx="290" cy="248" r="30" fill="none" stroke="${ACCENT}" stroke-width="3"/>`);
+  })(),
 };
 
 const DATA = "content/studies.json";
