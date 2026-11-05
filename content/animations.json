@@ -5059,5 +5059,124 @@
       ],
       "correct": 2
     }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T12:00:00Z",
+    "id": "a-bohrung",
+    "category_id": "earth",
+    "scene": "depths",
+    "title": "Wie tief haben wir gebohrt?",
+    "summary": "Von der tiefsten Mine bis zum Erdmittelpunkt – und wie winzig unser tiefstes Loch ist.",
+    "goal": "Du kannst einordnen, wie tief Menschen in die Erde vorgedrungen sind und wie weit es bis zum Erdmittelpunkt ist.",
+    "labels": [
+      "tiefste Mine: über 4 km",
+      "Kola-Bohrung: 12.262 m",
+      "Erdkruste",
+      "Erdmantel",
+      "äußerer Erdkern",
+      "innerer Erdkern",
+      "Erdmittelpunkt: 6371 km",
+      "m",
+      "Kola-Bohrung: nur 0,2 % des Weges"
+    ],
+    "steps": [
+      {
+        "text": "Die tiefste Mine der Welt, die Goldmine Mponeng in Südafrika, reicht über vier Kilometer in die Erde – nirgends sonst gelangen Menschen tiefer unter die Erdoberfläche.",
+        "seconds": 7
+      },
+      {
+        "text": "Noch tiefer kam ein Bohrer: Die Kola-Bohrung in Russland erreichte 1989 eine Tiefe von 12.262 Metern. In 12 Kilometern Tiefe war es dort schon 205 °C heiß – viel heißer als erwartet.",
+        "seconds": 8
+      },
+      {
+        "text": "Und doch durchstößt das nicht einmal die Erdkruste: Unter den Kontinenten ist sie 30 bis 60 Kilometer dick. Die Bohrung schrumpft zu einem Strich.",
+        "seconds": 7
+      },
+      {
+        "text": "Darunter folgt der Erdmantel. Er reicht bis in rund 2900 Kilometer Tiefe, wo der äußere Erdkern beginnt.",
+        "seconds": 7
+      },
+      {
+        "text": "Ab 5150 Kilometern folgt der innere Kern, und nach 6371 Kilometern ist der Erdmittelpunkt erreicht. Die tiefste Bohrung schafft gerade einmal 0,2 Prozent dieses Weges.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Mponeng",
+        "url": "https://de.wikipedia.org/wiki/Mponeng"
+      },
+      {
+        "name": "Wikipedia: Kola-Bohrung",
+        "url": "https://de.wikipedia.org/wiki/Kola-Bohrung"
+      },
+      {
+        "name": "Wikipedia: Erdkruste",
+        "url": "https://de.wikipedia.org/wiki/Erdkruste"
+      },
+      {
+        "name": "Wikipedia: Erdkern",
+        "url": "https://de.wikipedia.org/wiki/Erdkern"
+      },
+      {
+        "name": "Wikipedia: Erdradius",
+        "url": "https://de.wikipedia.org/wiki/Erdradius"
+      }
+    ],
+    "quiz_question_id": "kb1",
+    "translations": {
+      "en": {
+        "title": "How deep have we drilled?",
+        "summary": "From the deepest mine to the centre of the Earth – and how tiny our deepest hole is.",
+        "goal": "You can place how deep people have got into the Earth and how far it is to its centre.",
+        "labels": [
+          "deepest mine: over 4 km",
+          "Kola borehole: 12,262 m",
+          "Earth's crust",
+          "Earth's mantle",
+          "outer core",
+          "inner core",
+          "centre of the Earth: 6,371 km",
+          "m",
+          "Kola borehole: only 0.2 % of the way"
+        ],
+        "steps": [
+          "The deepest mine in the world, the Mponeng gold mine in South Africa, reaches over four kilometres into the Earth – nowhere else do people get deeper below the surface.",
+          "A drill got even deeper: in 1989 the Kola borehole in Russia reached a depth of 12,262 metres. At 12 kilometres down it was already 205 °C – far hotter than expected.",
+          "And yet that does not even get through the Earth's crust: under the continents it is 30 to 60 kilometres thick. The borehole shrinks to a line.",
+          "Below lies the Earth's mantle. It reaches down to about 2,900 kilometres, where the outer core begins.",
+          "From 5,150 kilometres comes the inner core, and after 6,371 kilometres the centre of the Earth is reached. The deepest borehole manages just 0.2 per cent of that way."
+        ],
+        "predict": {
+          "question": "The Kola borehole is 12.3 kilometres deep. What share of the way to the centre of the Earth is that?",
+          "options": [
+            "About 0.2 per cent",
+            "About 2 per cent",
+            "About 20 per cent"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 4,
+      "question": "Die Kola-Bohrung ist 12,3 Kilometer tief. Welcher Anteil des Weges zum Erdmittelpunkt ist das?",
+      "options": [
+        "Rund 0,2 Prozent",
+        "Rund 2 Prozent",
+        "Rund 20 Prozent"
+      ],
+      "correct": 0
+    }
   }
 ]

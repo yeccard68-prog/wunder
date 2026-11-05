@@ -501,4 +501,84 @@ const trunk: Scene = {
   ),
 };
 
-export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye, egg, bulb, cell, ear, tooth, sun, trunk };
+// ---------- a long bone (like a thighbone), cut lengthwise; not to scale ----------
+const BONE = "M150,60 C150,36 180,26 200,30 C222,26 252,34 252,58 C252,84 236,100 226,116 L224,286 C238,300 262,312 262,336 C262,360 244,372 226,368 C214,366 208,356 200,356 C192,356 186,366 174,368 C156,372 138,360 138,336 C138,312 162,300 176,286 L174,116 C164,100 150,84 150,60 Z";
+const SPONGY_TOP = "M164,62 C164,46 184,40 200,43 C216,40 238,46 238,60 C238,80 224,94 214,112 L186,112 C176,94 164,80 164,62 Z";
+const SPONGY_BOTTOM = "M186,290 L214,290 C226,302 248,314 248,334 C248,350 236,356 226,354 C214,352 208,344 200,344 C192,344 186,352 174,354 C164,356 152,350 152,334 C152,314 174,302 186,290 Z";
+const lattice = (id: string, path: string) => (
+  <>
+    <defs><clipPath id={id}><path d={path} /></clipPath></defs>
+    <path d={path} fill="#d9534f" opacity="0.55" />
+    <g clipPath={`url(#${id})`} stroke="#f3ead8" strokeWidth="4">
+      {Array.from({ length: 12 }, (_, i) => <line key={`a${i}`} x1={120 + i * 14} y1="20" x2={60 + i * 14} y2="380" />)}
+      {Array.from({ length: 12 }, (_, i) => <line key={`b${i}`} x1={120 + i * 14} y1="20" x2={180 + i * 14} y2="380" />)}
+    </g>
+  </>
+);
+const bone: Scene = {
+  outside: (id) => (
+    <>
+      <defs><linearGradient id={`${id}-bone`} x1="0" y1="0" x2="1" y2="0"><stop offset="0" stopColor="#d8cdb5" /><stop offset="0.45" stopColor="#f6efdf" /><stop offset="1" stopColor="#cbbfa5" /></linearGradient></defs>
+      <path d={BONE} fill={`url(#${id}-bone)`} stroke="#d99a8a" strokeWidth="4" />
+      <path d="M156,52 C162,34 186,28 200,32 C220,28 244,34 248,52" stroke="#a9d3e6" strokeWidth="8" fill="none" strokeLinecap="round" />
+      <path d="M144,346 C150,364 168,370 182,364 M218,364 C232,370 252,364 256,346" stroke="#a9d3e6" strokeWidth="8" fill="none" strokeLinecap="round" />
+      <circle cx="206" cy="200" r="3" fill="#b9826f" />
+    </>
+  ),
+  inside: (id) => (
+    <>
+      {/* the periosteum, a thin skin around the bone */}
+      <path d={BONE} fill="#f3ead8" stroke="#d99a8a" strokeWidth="4" />
+      {/* spongy bone with red marrow in its spaces, at both ends */}
+      {lattice(`${id}-t`, SPONGY_TOP)}
+      {lattice(`${id}-b`, SPONGY_BOTTOM)}
+      {/* the marrow cavity in the shaft, filled with yellow fatty marrow; compact bone forms its thick wall */}
+      <path d="M188,116 L212,116 L211,288 L189,288 Z" fill="#f2cf63" />
+      {[140, 175, 210, 245, 270].map((y) => <circle key={y} cx={200 + ((y * 7) % 9) - 4} cy={y} r="4" fill="#f7e19a" />)}
+      {/* cartilage on the joint surfaces */}
+      <path d="M156,52 C162,34 186,28 200,32 C220,28 244,34 248,52" stroke="#a9d3e6" strokeWidth="8" fill="none" strokeLinecap="round" />
+      <path d="M144,346 C150,364 168,370 182,364 M218,364 C232,370 252,364 256,346" stroke="#a9d3e6" strokeWidth="8" fill="none" strokeLinecap="round" />
+    </>
+  ),
+};
+
+// ---------- a leaf, cut through (greatly enlarged): from the waxy top to the pores underneath ----------
+const leaf: Scene = {
+  outside: () => (
+    <>
+      <rect x="30" y="96" width="340" height="212" rx="6" fill="#5f9b3e" />
+      {/* the surface: a sheen of wax, veins and a mosaic of epidermis cells */}
+      {Array.from({ length: 8 }, (_, r) => Array.from({ length: 11 }, (_, c) => <rect key={`${r}-${c}`} x={34 + c * 31 + (r % 2) * 15} y={100 + r * 26} width="28" height="23" rx="6" fill="none" stroke="#7fb85a" strokeWidth="1.5" />))}
+      <path d="M30,200 C120,196 260,206 370,198 M120,198 C130,160 150,120 170,96 M240,202 C250,240 270,280 290,308" stroke="#b5d98d" strokeWidth="6" fill="none" />
+      <path d="M60,120 C120,104 220,108 330,118" stroke="#ffffff" strokeWidth="10" fill="none" opacity="0.18" strokeLinecap="round" />
+    </>
+  ),
+  inside: () => (
+    <>
+      <rect x="30" y="96" width="340" height="212" fill="#eaf3dc" />
+      {/* wax layer and upper epidermis */}
+      <rect x="30" y="104" width="340" height="6" fill="#f7f1c8" />
+      {Array.from({ length: 11 }, (_, i) => <rect key={i} x={31 + i * 31} y="110" width="30" height="22" rx="4" fill="#dff0c8" stroke="#8fbf6a" strokeWidth="1.5" />)}
+      {/* palisade cells, packed with chloroplasts */}
+      {Array.from({ length: 17 }, (_, i) => (
+        <g key={i}>
+          <rect x={32 + i * 20} y="134" width="18" height="66" rx="8" fill="#9fd07a" stroke="#5f9b3e" strokeWidth="1.5" />
+          {[146, 160, 174, 188].map((y, j) => <circle key={y} cx={41 + i * 20 + (j % 2 ? 3 : -3)} cy={y} r="3.4" fill="#2f7d32" />)}
+        </g>
+      ))}
+      {/* spongy cells with air spaces between them; a vein (vascular bundle) */}
+      {[[50, 222], [96, 240], [140, 218], [180, 262], [246, 226], [292, 248], [336, 222], [72, 268], [122, 272], [224, 270], [270, 272], [330, 268]].map(([x, y], i) => (
+        <g key={i}><ellipse cx={x} cy={y} rx="20" ry="13" fill="#b8dc98" stroke="#6fa84a" strokeWidth="1.5" transform={`rotate(${(i * 37) % 60 - 30} ${x} ${y})`} /><circle cx={x - 5} cy={y} r="3" fill="#2f7d32" /></g>
+      ))}
+      <circle cx="200" cy="222" r="20" fill="#d9c58c" stroke="#8a7a4a" strokeWidth="2" />
+      {[[193, 216], [207, 216], [200, 228], [190, 228], [210, 228]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r="4.5" fill={i < 2 ? "#7a95c9" : "#c99a5a"} />)}
+      {/* lower epidermis with a pore (stoma) between two guard cells */}
+      {Array.from({ length: 11 }, (_, i) => (i === 1 ? null : <rect key={i} x={31 + i * 31} y="288" width="30" height="16" rx="4" fill="#dff0c8" stroke="#8fbf6a" strokeWidth="1.5" />))}
+      <ellipse cx="70" cy="296" rx="9" ry="8" fill="#7fbf4a" stroke="#4f8a2e" strokeWidth="1.5" />
+      <ellipse cx="94" cy="296" rx="9" ry="8" fill="#7fbf4a" stroke="#4f8a2e" strokeWidth="1.5" />
+      <rect x="30" y="304" width="340" height="4" fill="#f7f1c8" />
+    </>
+  ),
+};
+
+export const SCENES: Record<string, Scene> = { earth, heart, volcano, eye, egg, bulb, cell, ear, tooth, sun, trunk, bone, leaf };

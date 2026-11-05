@@ -2735,5 +2735,257 @@
         "apply": "Move the line from outside in and say for each layer whether it protects, carries or grows."
       }
     }
+  },
+  {
+    "id": "v-knochen-innen",
+    "type": "reveal",
+    "category_id": "science",
+    "min_age": 10,
+    "difficulty": 2,
+    "data_kind": "drawing",
+    "links": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "config": {
+      "scene": "bone",
+      "parts": [
+        {
+          "key": "cartilage",
+          "x": 50,
+          "y": 8,
+          "side": "right"
+        },
+        {
+          "key": "spongy",
+          "x": 56.5,
+          "y": 17,
+          "side": "right"
+        },
+        {
+          "key": "marrow",
+          "x": 46.5,
+          "y": 22.5,
+          "side": "left",
+          "late": true
+        },
+        {
+          "key": "periost",
+          "x": 56.5,
+          "y": 40,
+          "side": "right"
+        },
+        {
+          "key": "compact",
+          "x": 54.5,
+          "y": 55,
+          "side": "right"
+        },
+        {
+          "key": "cavity",
+          "x": 50,
+          "y": 62.5,
+          "side": "left"
+        }
+      ]
+    },
+    "title": "Blick ins Innere: ein Knochen",
+    "goal": "Du kannst die Teile eines langen Knochens benennen und sagen, wo Blut entsteht.",
+    "intro": "Von außen sieht man einen glatten, harten Knochen mit Knorpel an den Enden. Zieh die Linie nach links und schau hinein: eine feste Wand, ein schwammartiges Gerüst – und Mark in der Mitte.",
+    "note": "Eigene, vereinfachte Längsschnitt-Zeichnung eines Röhrenknochens wie des Oberschenkelknochens, nicht maßstäblich. Beim Erwachsenen sitzt das rote Knochenmark vor allem in platten und kurzen Knochen.",
+    "labels": {
+      "outside": "Außen",
+      "inside": "Innen",
+      "slider": "Linie zwischen außen und innen",
+      "cartilage": "Gelenkknorpel",
+      "spongy": "Spongiosa",
+      "marrow": "rotes Mark: bildet Blut",
+      "periost": "Knochenhaut",
+      "compact": "Kompakta",
+      "cavity": "Markhöhle (Fettmark)"
+    },
+    "explain": "Eine Haut aus Bindegewebe, die Knochenhaut, liegt dem Knochen eng an; an den Gelenkflächen ist er stattdessen mit Knorpel überzogen. Außen bildet das Knochengewebe eine feste Schicht, die im Schaft langer Knochen besonders dick ist; innen liegt ein schwammartiges Gerüst aus feinen Knochenbälkchen, die Spongiosa. Im Schaft gibt es eine Markhöhle. Dort und zwischen den Bälkchen sitzt das Knochenmark: Im roten Knochenmark entstehen rote und weiße Blutkörperchen und Blutplättchen. Im Lauf des Lebens wird es im Schaft langer Knochen durch gelbes Fettmark ersetzt.",
+    "predict": {
+      "question": "Wo entstehen unsere roten Blutkörperchen?",
+      "options": [
+        "Im roten Knochenmark",
+        "In der Knochenhaut",
+        "Im Gelenkknorpel"
+      ],
+      "feedback": "Im roten Knochenmark, zwischen den feinen Bälkchen der Spongiosa. Beim Säugling steckt es überall im Knochen, beim Erwachsenen vor allem in platten und kurzen Knochen."
+    },
+    "predict_correct": 0,
+    "apply": "Zieh die Linie von außen nach innen und sag zu jeder Schicht, ob sie schützt, trägt oder Blut bildet.",
+    "sources": [
+      {
+        "name": "Wikipedia: Knochen",
+        "url": "https://de.wikipedia.org/wiki/Knochen"
+      },
+      {
+        "name": "Wikipedia: Knochenmark",
+        "url": "https://de.wikipedia.org/wiki/Knochenmark"
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "A look inside: a bone",
+        "goal": "You can name the parts of a long bone and say where blood is made.",
+        "intro": "From the outside you see a smooth, hard bone with cartilage at its ends. Drag the line to the left and look inside: a solid wall, a sponge-like framework – and marrow in the middle.",
+        "note": "Own, simplified lengthwise section of a long bone such as the thighbone, not to scale. In adults the red bone marrow is found mainly in flat and short bones.",
+        "labels": {
+          "outside": "Outside",
+          "inside": "Inside",
+          "slider": "Line between outside and inside",
+          "cartilage": "Joint cartilage",
+          "spongy": "Spongy bone",
+          "marrow": "Red marrow (blood)",
+          "periost": "Periosteum",
+          "compact": "Compact bone",
+          "cavity": "Marrow cavity (fat)"
+        },
+        "explain": "A skin of connective tissue, the periosteum, fits closely around the bone; at the joint surfaces it is covered with cartilage instead. On the outside the bone tissue forms a solid layer that is especially thick in the shaft of long bones; inside lies a sponge-like framework of fine bony struts, the spongy bone. The shaft has a marrow cavity. There and between the struts sits the bone marrow: red bone marrow makes red and white blood cells and platelets. Over a lifetime it is replaced by yellow fatty marrow in the shaft of long bones.",
+        "predict": {
+          "question": "Where are our red blood cells made?",
+          "options": [
+            "In the red bone marrow",
+            "In the periosteum",
+            "In the joint cartilage"
+          ],
+          "feedback": "In the red bone marrow, between the fine struts of the spongy bone. In babies it fills the whole bone, in adults it is found mainly in flat and short bones."
+        },
+        "apply": "Move the line from outside in and say for each layer whether it protects, carries weight or makes blood."
+      }
+    }
+  },
+  {
+    "id": "v-blatt-innen",
+    "type": "reveal",
+    "category_id": "science",
+    "min_age": 10,
+    "difficulty": 2,
+    "data_kind": "drawing",
+    "links": [],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "config": {
+      "scene": "leaf",
+      "parts": [
+        {
+          "key": "cuticle",
+          "x": 82.5,
+          "y": 27,
+          "side": "left"
+        },
+        {
+          "key": "epidermis",
+          "x": 72.5,
+          "y": 31,
+          "side": "left"
+        },
+        {
+          "key": "chloro",
+          "x": 37.5,
+          "y": 47.5,
+          "side": "right",
+          "late": true
+        },
+        {
+          "key": "palisade",
+          "x": 62.5,
+          "y": 38,
+          "side": "left"
+        },
+        {
+          "key": "bundle",
+          "x": 50,
+          "y": 56,
+          "side": "right"
+        },
+        {
+          "key": "spongy",
+          "x": 75,
+          "y": 62.5,
+          "side": "left"
+        },
+        {
+          "key": "stoma",
+          "x": 20.5,
+          "y": 74,
+          "side": "right"
+        },
+        {
+          "key": "lower",
+          "x": 85,
+          "y": 73,
+          "side": "left"
+        }
+      ]
+    },
+    "title": "Blick ins Innere: ein Blatt",
+    "goal": "Du kannst die Schichten eines Laubblatts benennen und sagen, wo die Photosynthese vor allem stattfindet.",
+    "intro": "Von außen sieht man eine grüne, glänzende Fläche mit Adern. Zieh die Linie nach links und schau in den Schnitt: Wachs, eine dünne Haut, dicht gepackte grüne Säulen – und darunter viel Luft.",
+    "note": "Eigene, vereinfachte Schnittzeichnung eines Laubblatts, stark vergrößert; nicht jedes Blatt ist so gebaut.",
+    "labels": {
+      "outside": "Außen",
+      "inside": "Innen",
+      "slider": "Linie zwischen außen und innen",
+      "cuticle": "Wachsschicht (Cuticula)",
+      "epidermis": "obere Epidermis",
+      "palisade": "Palisadengewebe",
+      "chloro": "rund 80 % der Chloroplasten",
+      "bundle": "Leitbündel",
+      "spongy": "Schwammgewebe mit Luft",
+      "stoma": "Spaltöffnung",
+      "lower": "untere Epidermis"
+    },
+    "explain": "Außen schließt eine einzige Zellschicht das Blatt ab, die Epidermis; eine wasserundurchlässige Wachsschicht darauf verhindert ungeregelte Verdunstung. Darunter stehen die langgestreckten Zellen des Palisadengewebes – hier sitzen rund 80 Prozent aller Chloroplasten, und hier findet vor allem die Photosynthese statt. Das Schwammgewebe darunter hat große Zwischenräume und sorgt für die Durchlüftung. Die Leitbündel bringen Wasser und Mineralien herein und Photosyntheseprodukte hinaus; volkstümlich heißen sie Adern oder Nerven. Durch die Spaltöffnungen, meist an der Unterseite, wird der Gasaustausch geregelt, vor allem die Abgabe von Wasserdampf.",
+    "predict": {
+      "question": "Wo sitzen die meisten Chloroplasten eines Blattes?",
+      "options": [
+        "Im Palisadengewebe direkt unter der Oberseite",
+        "Im Schwammgewebe weiter unten",
+        "In der Epidermis ganz außen"
+      ],
+      "feedback": "Im Palisadengewebe: Dort sitzen rund 80 Prozent aller Chloroplasten. Die Zellen der Epidermis haben in der Regel gar keine."
+    },
+    "predict_correct": 0,
+    "apply": "Zieh die Linie von oben nach unten durch den Schnitt und sag zu jeder Schicht, ob sie schützt, Licht einfängt, lüftet oder leitet.",
+    "sources": [
+      {
+        "name": "Wikipedia: Blatt (Pflanze)",
+        "url": "https://de.wikipedia.org/wiki/Blatt_(Pflanze)"
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "A look inside: a leaf",
+        "goal": "You can name the layers of a leaf and say where photosynthesis mainly happens.",
+        "intro": "From the outside you see a green, shiny surface with veins. Drag the line to the left and look into the section: wax, a thin skin, tightly packed green columns – and plenty of air below.",
+        "note": "Own, simplified section drawing of a leaf, greatly enlarged; not every leaf is built like this.",
+        "labels": {
+          "outside": "Outside",
+          "inside": "Inside",
+          "slider": "Line between outside and inside",
+          "cuticle": "Wax layer (cuticle)",
+          "epidermis": "Upper epidermis",
+          "palisade": "Palisade tissue",
+          "chloro": "about 80 % of the chloroplasts",
+          "bundle": "Vascular bundle",
+          "spongy": "Spongy tissue with air",
+          "stoma": "Stoma (pore)",
+          "lower": "Lower epidermis"
+        },
+        "explain": "A single layer of cells, the epidermis, closes off the leaf; a waterproof wax layer on top prevents uncontrolled evaporation. Below stand the long cells of the palisade tissue – about 80 per cent of all chloroplasts sit here, and this is where most photosynthesis happens. The spongy tissue beneath has large gaps and keeps the leaf aired. The vascular bundles bring in water and minerals and carry products of photosynthesis out; in everyday language they are called veins or nerves. The pores, mostly on the underside, regulate gas exchange, above all the release of water vapour.",
+        "predict": {
+          "question": "Where are most of a leaf's chloroplasts?",
+          "options": [
+            "In the palisade tissue just under the top",
+            "In the spongy tissue further down",
+            "In the epidermis on the very outside"
+          ],
+          "feedback": "In the palisade tissue: about 80 per cent of all chloroplasts sit there. The cells of the epidermis usually have none at all."
+        },
+        "apply": "Move the line down through the section and say for each layer whether it protects, catches light, airs or carries."
+      }
+    }
   }
 ]

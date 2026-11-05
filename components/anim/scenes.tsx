@@ -1246,4 +1246,59 @@ function Temps({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps };
+// ------------------------------------------------------------------ how deep have we drilled? (motion graphics, 05.11.2026)
+// A cut down into the Earth that keeps zooming out: the deepest mine, the deepest borehole, the crust, the mantle, the
+// core down to the centre. The borehole shrinks to a hairline. Depths in DEPTHS (km; sources in the animation).
+// labels: 0 mine, 1 borehole, 2 crust, 3 mantle, 4 outer core, 5 inner core, 6 centre, 7 "m", 8 the 0.2 % line
+export const DEPTHS = { mine: 4, kola: 12.262, crust: 38, mantle: 2900, inner: 5150, centre: 6371 };
+const DEPTH_REACH = [DEPTHS.mine, DEPTHS.kola, DEPTHS.crust, DEPTHS.mantle, DEPTHS.centre];
+const DEPTH_VIEW = [5.5, 15, 48, 3300, 6700]; // km shown below the surface in each step
+
+function Depths({ step, p, labels }: SceneProps) {
+  const s = Math.min(step, 4);
+  const k = ease(clamp(p / 0.6));
+  const top = 78, bottom = 392;
+  const view = s === 0 ? DEPTH_VIEW[0] : Math.exp(lerp(Math.log(DEPTH_VIEW[s - 1]), Math.log(DEPTH_VIEW[s]), k));
+  const Y = (km: number) => top + (km / view) * (bottom - top);
+  const now = s === 0 ? DEPTH_REACH[0] * ease(clamp(p / 0.5)) : Math.exp(lerp(Math.log(DEPTH_REACH[s - 1]), Math.log(DEPTH_REACH[s]), ease(clamp((p - 0.1) / 0.6))));
+  const grouped = (n: number) => Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  const layers: [number, number, string][] = [[0, DEPTHS.crust, "#7a5a3c"], [DEPTHS.crust, DEPTHS.mantle, "#a8502e"], [DEPTHS.mantle, DEPTHS.inner, "#df7f2c"], [DEPTHS.inner, DEPTHS.centre, "#f4c542"]];
+  // a layer's name shows once it is tall enough to carry it
+  const band = (from: number, to: number, i: number, x: number, on: number, color = "#fff6e6") => {
+    const y0 = Math.max(top, Y(from)), y1 = Math.min(bottom, Y(to));
+    return y1 - y0 > 22 && on > 0 ? <g opacity={on}><Label x={x} y={(y0 + y1) / 2 + 4} anchor="start" size={11} bold color={color}>{labels[i]}</Label></g> : null;
+  };
+  const shaftOn = s === 0 ? 1 : s === 1 ? 1 : s === 2 ? 1 - k : 0;
+  return (
+    <>
+      <Label x={180} y={34} size={26} bold color={YELLOW}>{`${grouped(now * 1000)} ${labels[7]}`}</Label>
+      {/* sky and surface */}
+      <rect x={0} y={top - 24} width={360} height={24} fill="#1b2a40" />
+      {layers.map(([a, b, c]) => Y(a) < bottom && <rect key={a} x={0} y={Math.max(top, Y(a))} width={360} height={Math.max(0, Math.min(bottom, Y(b)) - Math.max(top, Y(a)))} fill={c} />)}
+      <line x1={0} y1={top} x2={360} y2={top} stroke="#6fae55" strokeWidth={4} />
+      {/* the mine and the borehole */}
+      <g opacity={shaftOn}>
+        <rect x={236} y={top} width={8} height={Math.max(1, Y(DEPTHS.mine) - top)} fill="#2b2a28" stroke="#ffd24a" strokeWidth={1} />
+        <g opacity={s === 0 ? 1 : s === 1 ? 1 - k : 0}><Label x={230} y={Math.min(bottom - 8, Y(DEPTHS.mine)) - 6} anchor="end" size={11} bold color="#ffd24a">{labels[0]}</Label></g>
+      </g>
+      <g opacity={s === 0 ? 0 : 1}>
+        <path d={`M70 ${top - 22} L78 ${top - 2} L62 ${top - 2} Z`} fill="none" stroke="#f4f1ea" strokeWidth={1.5} />
+        <line x1={70} y1={top} x2={70} y2={s === 1 ? lerp(top, Y(DEPTHS.kola), ease(clamp(p / 0.5))) : Y(DEPTHS.kola)} stroke="#ff8a5c" strokeWidth={s >= 3 ? 1.2 : 3} />
+        {s <= 2 && <g opacity={s === 2 ? 1 - k : ease(clamp((p - 0.4) / 0.3))}><Label x={80} y={Y(DEPTHS.kola) + 16} anchor="start" size={11} bold color="#ff8a5c">{labels[1]}</Label></g>}
+      </g>
+      {band(0, DEPTHS.crust, 2, 150, s >= 2 ? (s === 2 ? ease(clamp((p - 0.4) / 0.3)) : 1) : 0)}
+      {band(DEPTHS.crust, DEPTHS.mantle, 3, 150, s >= 3 ? (s === 3 ? ease(clamp((p - 0.4) / 0.3)) : 1) : 0)}
+      {band(DEPTHS.mantle, DEPTHS.inner, 4, 150, s >= 4 ? ease(clamp((p - 0.3) / 0.3)) : 0)}
+      {band(DEPTHS.inner, DEPTHS.centre, 5, 150, s >= 4 ? ease(clamp((p - 0.45) / 0.3)) : 0, "#5a3a10")}
+      {s === 4 && (
+        <g opacity={ease(clamp((p - 0.6) / 0.25))}>
+          <line x1={0} y1={Y(DEPTHS.centre)} x2={360} y2={Y(DEPTHS.centre)} stroke="#fff6e6" strokeWidth={1.5} strokeDasharray="5 4" />
+          <Label x={352} y={Y(DEPTHS.centre) - 6} anchor="end" size={11} bold color="#2b2a28">{labels[6]}</Label>
+          <Label x={86} y={top - 8} anchor="start" size={11} bold color="#fff6e6">{labels[8]}</Label>
+        </g>
+      )}
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps, depths: Depths };
