@@ -32,7 +32,7 @@ test("on this day: today's event, otherwise the nearest of this week, with how m
   assert.equal(today[0].id, "d-1879-10-21-gluehlampe");
   assert.equal(today[0].yearsAgo, 147);
   assert.equal(today[0].offset, 0);
-  const later = eventsFor("de", "16+", new Date(2026, 10, 23)); // 23 November: no event – 20 November is three days back
+  const later = eventsFor("de", "16+", new Date(2026, 1, 3)); // 3 February: no event – 31 January is three days back
   assert.equal(later[0]?.offset, -3);
   assert.equal(eventsFor("de", "16+", new Date(2026, 1, 10)).length, 0); // nothing near: no card
   assert.equal(formatEventDate(today[0], "de"), "21. Oktober 1879");

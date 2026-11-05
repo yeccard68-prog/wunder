@@ -4931,5 +4931,245 @@
         "poster": "/clips/v-person-polo.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-person-merian",
+    "category_id": "animals",
+    "title": "Maria Sibylla Merian: Forscherin und Künstlerin",
+    "hook": "Wegen ihrer genauen Beobachtungen und Bilder gilt sie als wichtige Wegbereiterin der modernen Insektenkunde.",
+    "description": "Maria Sibylla Merian wurde am 2. April 1647 in Frankfurt am Main geboren. Schon früh begann sie, Insekten zu beobachten und zu züchten. 1679 veröffentlichte sie in Nürnberg die ersten beiden Bände ihres Lebenswerks „Der Raupen wunderbare Verwandelung und sonderbare Blumennahrung“. Von 1699 bis 1701 bereiste sie mit ihrer jüngeren Tochter die niederländische Kolonie Surinam. 1705 erschien ihr Hauptwerk „Metamorphosis insectorum Surinamensium“. Später zeigte der 500-DM-Schein ihr Porträt.",
+    "video_url": "/clips/v-person-merian.mp4",
+    "thumbnail_url": "/clips/v-person-merian.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1647 in Frankfurt am Main.",
+      "1679: ihr erstes Raupenbuch.",
+      "1699 Reise nach Surinam, 1705 ihr Hauptwerk."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Maria Sibylla Merian",
+        "url": "https://de.wikipedia.org/wiki/Maria_Sibylla_Merian"
+      }
+    ],
+    "published_at": "2026-11-05T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Tiere"
+    ],
+    "quiz_question_id": "q-v-person-merian",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-merian",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Maria Sibylla Merian: naturalist and artist",
+        "hook": "Because of her precise observations and pictures, she is regarded as an important pioneer of modern entomology.",
+        "description": "Maria Sibylla Merian was born in Frankfurt am Main on 2 April 1647. Early on she began to observe and breed insects. In 1679, in Nuremberg, she published the first two volumes of her life's work on the wondrous transformation of caterpillars. From 1699 to 1701 she travelled the Dutch colony of Suriname with her younger daughter. In 1705 her main work, \"Metamorphosis insectorum Surinamensium\", appeared. Later the German 500-mark note showed her portrait.",
+        "captions": [
+          "Born in Frankfurt am Main in 1647.",
+          "1679: her first caterpillar book.",
+          "1699 journey to Suriname, 1705 her main work."
+        ],
+        "file": "/clips/v-person-merian.en.mp4",
+        "poster": "/clips/v-person-merian.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-herschel",
+    "category_id": "space",
+    "title": "Caroline Herschel: Astronomin und Kometenjägerin",
+    "hook": "Ihre wichtigsten Beiträge zur Astronomie waren die Entdeckung mehrerer Kometen und ein Katalog hunderter Sternhaufen und Nebel.",
+    "description": "Caroline Herschel wurde am 16. März 1750 in Hannover geboren. 1772 folgte sie ihrem zwölf Jahre älteren Bruder Wilhelm nach England in den Badeort Bath. Zuerst unterstützte sie ihn bei seinen Forschungen, dann suchte sie mit einem kleinen Newton-Teleskop selbst nach Kometen: Zwischen 1786 und 1797 entdeckte sie acht. 1828 erhielt sie die Goldmedaille der Royal Astronomical Society – sie war die erste Frau, der Anerkennungen dieser Art zuteilwurden.",
+    "video_url": "/clips/v-person-herschel.mp4",
+    "thumbnail_url": "/clips/v-person-herschel.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1750 in Hannover.",
+      "1772 zog sie zu ihrem Bruder nach England.",
+      "1786 ihr erster Komet, 1828 die Goldmedaille."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Caroline Herschel",
+        "url": "https://de.wikipedia.org/wiki/Caroline_Herschel"
+      }
+    ],
+    "published_at": "2026-11-04T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "quiz_question_id": "q-v-person-herschel",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-herschel",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Caroline Herschel: astronomer and comet hunter",
+        "hook": "Her most important contributions to astronomy were the discovery of several comets and a catalogue of hundreds of star clusters and nebulae.",
+        "description": "Caroline Herschel was born in Hanover on 16 March 1750. In 1772 she followed her brother William, twelve years older, to the spa town of Bath in England. At first she supported him in his research, then she searched for comets herself with a small Newtonian telescope: between 1786 and 1797 she discovered eight. In 1828 she received the Gold Medal of the Royal Astronomical Society – she was the first woman to receive honours of this kind.",
+        "captions": [
+          "Born in Hanover in 1750.",
+          "In 1772 she moved to her brother in England.",
+          "1786 her first comet, 1828 the gold medal."
+        ],
+        "file": "/clips/v-person-herschel.en.mp4",
+        "poster": "/clips/v-person-herschel.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-schumann",
+    "category_id": "music",
+    "title": "Clara Schumann: Pianistin und Komponistin",
+    "hook": "Sie begann als Wunderkind am Klavier und legte einen Grundstein für das Konzertrepertoire.",
+    "description": "Clara Wieck wurde am 13. September 1819 in Leipzig geboren. Am 20. Oktober 1828 trat sie zum ersten Mal öffentlich im Leipziger Gewandhaus auf. Von 1840 bis zu seinem Tod 1856 war sie die Ehefrau des Komponisten Robert Schumann. Später spielte sie vor allem Werke von Robert Schumann, Chopin, Mendelssohn Bartholdy, Beethoven, Bach, Schubert und Brahms – und legte damit einen Grundstein für das Konzertrepertoire des späten 19. und des 20. Jahrhunderts. Seit den 1960er Jahren wird sie auch als Komponistin wiederentdeckt.",
+    "video_url": "/clips/v-person-schumann.mp4",
+    "thumbnail_url": "/clips/v-person-schumann.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1819 in Leipzig.",
+      "1828: erster Auftritt im Gewandhaus.",
+      "1840 heiratete sie Robert Schumann."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Clara Schumann",
+        "url": "https://de.wikipedia.org/wiki/Clara_Schumann"
+      }
+    ],
+    "published_at": "2026-11-03T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "quiz_question_id": "q-v-person-schumann",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-schumann",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Clara Schumann: pianist and composer",
+        "hook": "She began as a child prodigy at the piano and laid a foundation for the concert repertoire.",
+        "description": "Clara Wieck was born in Leipzig on 13 September 1819. On 20 October 1828 she performed in public for the first time, at the Leipzig Gewandhaus. From 1840 until his death in 1856 she was the wife of the composer Robert Schumann. Later she mainly played works by Robert Schumann, Chopin, Mendelssohn Bartholdy, Beethoven, Bach, Schubert and Brahms – laying a foundation for the concert repertoire of the late 19th and the 20th century. Since the 1960s she has also been rediscovered as a composer.",
+        "captions": [
+          "Born in Leipzig in 1819.",
+          "1828: first concert at the Gewandhaus.",
+          "In 1840 she married Robert Schumann."
+        ],
+        "file": "/clips/v-person-schumann.en.mp4",
+        "poster": "/clips/v-person-schumann.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-duerer",
+    "category_id": "art",
+    "title": "Albrecht Dürer: Maler der Renaissance",
+    "hook": "Seine Landschaftsaquarelle und seine Selbstporträts gehören zu den frühesten ihrer Art.",
+    "description": "Albrecht Dürer wurde am 21. Mai 1471 in Nürnberg geboren. Von 1490 bis 1494 ging er auf Wanderschaft an den Oberrhein. 1500 malte er sein „Selbstbildnis im Pelzrock“, 1502 entstand das Aquarell „Feldhase“, die wohl bekannteste seiner Naturstudien. 1515 schuf er den Holzschnitt „Rhinocerus“ – ein Panzernashorn, das er selbst nie gesehen hatte. Mit seinen Gemälden, Zeichnungen, Kupferstichen und Holzschnitten zählt er zu den herausragenden Vertretern der Renaissance.",
+    "video_url": "/clips/v-person-duerer.mp4",
+    "thumbnail_url": "/clips/v-person-duerer.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1471 in Nürnberg.",
+      "1500 Selbstbildnis, 1502 der Feldhase.",
+      "1515: der Holzschnitt „Rhinocerus“."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Albrecht Dürer",
+        "url": "https://de.wikipedia.org/wiki/Albrecht_Dürer"
+      },
+      {
+        "name": "Wikipedia: Feldhase (Dürer)",
+        "url": "https://de.wikipedia.org/wiki/Feldhase_(Dürer)"
+      },
+      {
+        "name": "Wikipedia: Dürers Rhinocerus",
+        "url": "https://de.wikipedia.org/wiki/Dürers_Rhinocerus"
+      }
+    ],
+    "published_at": "2026-11-02T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "quiz_question_id": "q-v-person-duerer",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-duerer",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Albrecht Dürer: a painter of the Renaissance",
+        "hook": "His landscape watercolours and his self-portraits are among the earliest of their kind.",
+        "description": "Albrecht Dürer was born in Nuremberg on 21 May 1471. From 1490 to 1494 he travelled as a journeyman to the Upper Rhine. In 1500 he painted his \"Self-Portrait in a Fur Coat\", and in 1502 came the watercolour \"Young Hare\", probably the best known of his nature studies. In 1515 he made the woodcut \"Rhinoceros\" – an Indian rhinoceros he had never seen himself. With his paintings, drawings, engravings and woodcuts he is one of the outstanding artists of the Renaissance.",
+        "captions": [
+          "Born in Nuremberg in 1471.",
+          "1500 self-portrait, 1502 the Young Hare.",
+          "1515: the woodcut \"Rhinoceros\"."
+        ],
+        "file": "/clips/v-person-duerer.en.mp4",
+        "poster": "/clips/v-person-duerer.en.jpg"
+      }
+    }
   }
 ]

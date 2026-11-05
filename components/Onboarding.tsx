@@ -27,6 +27,10 @@ const BLURBS: Record<string, string> = {
   math: "Zahlen, Formen und knifflige Schlüsse",
   language: "Deutsch, Englisch und wie Sprache funktioniert",
   sport: "Regeln, Rekorde und wie der Körper Leistung bringt",
+  space: "Planeten, Sterne und Raumfahrt",
+  animals: "Vom Bärtierchen bis zum Blauwal",
+  music: "Instrumente, Klänge und große Werke",
+  art: "Bilder, Skulpturen und wie Künstler sehen",
 };
 const AGES: { band: AgeBand; title: string; text: string }[] = [
   { band: "6-9", title: "6 bis 9 Jahre", text: "Einfache Fragen für Grundschulkinder" },

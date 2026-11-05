@@ -29,7 +29,7 @@ export const C = {
 };
 
 /** Topic colours of the app (categories), used where a clip stands for a whole topic. */
-export const CATEGORY_COLORS: Record<string, string> = { science: "#41c7b4", technology: "#9794ff", history: "#e2ab4f", earth: "#7fc66a", economy: "#6db3f2", business: "#f08a6c", culture: "#e58bb8", math: "#d6c35a", language: "#6ccbdc", sport: "#f09a6e" };
+export const CATEGORY_COLORS: Record<string, string> = { science: "#41c7b4", technology: "#9794ff", history: "#e2ab4f", earth: "#7fc66a", economy: "#6db3f2", business: "#f08a6c", culture: "#e58bb8", math: "#d6c35a", language: "#6ccbdc", sport: "#f09a6e", space: "#b9a0f2", animals: "#a8cf5a", music: "#f08aa8", art: "#e39ad8" };
 
 export type Locale = "de" | "en";
 

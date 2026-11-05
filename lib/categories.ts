@@ -1,7 +1,7 @@
 import type { Category } from "./types";
 
 // Data-driven: add a row here (and in the Supabase `categories` table) to launch a new topic.
-// Ten broad topics keep onboarding and progress views readable.
+// Fourteen broad topics (space, animals, music and art since 05.11.2026) keep onboarding and progress views readable.
 // economy = how markets and money work; business = how companies work.
 export const CATEGORIES: Category[] = [
   { id: "science", name: "Wissenschaft", color: "var(--science)" },
@@ -14,6 +14,10 @@ export const CATEGORIES: Category[] = [
   { id: "math", name: "Mathe & Logik", color: "var(--math)" },
   { id: "language", name: "Sprache", color: "var(--language)" },
   { id: "sport", name: "Sport", color: "var(--sport)" },
+  { id: "space", name: "Weltraum", color: "var(--space)" },
+  { id: "animals", name: "Tiere", color: "var(--animals)" },
+  { id: "music", name: "Musik", color: "var(--music)" },
+  { id: "art", name: "Kunst", color: "var(--art)" },
 ];
 
 export const categoryById = (id: string): Category => CATEGORIES.find((c) => c.id === id) ?? { id, name: id, color: "var(--muted)" };

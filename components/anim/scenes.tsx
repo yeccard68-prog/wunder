@@ -1301,4 +1301,326 @@ function Depths({ step, p, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps, depths: Depths };
+/** Polyline from the start up to fraction u (0–1) of its length. */
+function part(pts: Pt[], u: number): Pt[] {
+  const len = pts.slice(1).map((q, i) => Math.hypot(q[0] - pts[i][0], q[1] - pts[i][1]));
+  let rest = clamp(u) * len.reduce((a, b) => a + b, 0);
+  const out: Pt[] = [pts[0]];
+  for (let i = 0; i < len.length; i++) {
+    if (rest >= len[i]) { out.push(pts[i + 1]); rest -= len[i]; continue; }
+    out.push([lerp(pts[i][0], pts[i + 1][0], len[i] ? rest / len[i] : 0), lerp(pts[i][1], pts[i + 1][1], len[i] ? rest / len[i] : 0)]);
+    break;
+  }
+  return out;
+}
+const thin = (n: number) => Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "); // 96 000 in every language
+
+// ------------------------------------------------------------------ an octave is a doubling (motion graphics, 05.11.2026)
+// A string at concert pitch a′ = 440 Hz; halved it vibrates twice as fast (880 Hz, one octave up), and every further
+// octave doubles again. Below, one scale on which each doubling is the same step: the a's from 27.5 to 3520 Hz, the
+// 88 keys of a piano (A₂ = 440/16 = 27.5 Hz to c⁵ = 440·2^(39/12) ≈ 4186 Hz, both computed) and human hearing (about
+// 16 to 20 000 Hz). Sources in the animation.
+// labels: 0 "hertz = vibrations per second", 1 string, 2 half the string, 3 "octave = twice the frequency",
+// 4 piano heading, 5 hearing heading, 6 piano range (counter text), 7 hearing range (counter text), 8 "× 2"
+export const OCTAVE = { a1: 440, low: 440 / 16, high: 440 * 2 ** (39 / 12), hearing: [16, 20000] };
+const A_TONES = Array.from({ length: 8 }, (_, i) => OCTAVE.low * 2 ** i); // 27.5 … 3520 Hz
+const A_ORDER = [5, 4, 3, 2, -1, -1, 0, 1]; // in which order the a's appear in step 3 (440 and 880 are there already)
+const PINK = "#f08aa8";
+const fx = (f: number) => 30 + ((Math.log2(f) - Math.log2(10)) / (Math.log2(40000) - Math.log2(10))) * 300; // 10 Hz … 40 kHz
+
+function Octave({ step, p, t, labels }: SceneProps) {
+  const s = Math.min(step, 4);
+  const k = ease(clamp(p / 0.7));
+  // the frequency of the string: 440 Hz, halved 880 Hz, then two more halvings up to 3520 Hz
+  const f = s === 0 ? 440 : s === 1 ? 440 * 2 ** k : s === 2 ? 880 * 4 ** k : 3520;
+  const plain = (v: number) => String(Math.round(v)); // four digits stay ungrouped (3520), as in both languages
+  const counter = s === 0 ? plain(440 * ease(clamp(p / 0.5))) : s <= 2 ? plain(f) : s === 3 ? labels[6] : labels[7];
+  // the string: nut at x0, the vibrating part shrinks with the frequency
+  const x0 = 40, full = 280, y0 = 112, len = (full * 440) / f;
+  const amp = 13;
+  const blur = f > 1300; // too fast to follow: drawn as a blurred band
+  const swing = Math.cos(2 * Math.PI * Math.min(1.3 * (f / 440), 5) * t);
+  const string = Array.from({ length: 41 }, (_, i) => `${i ? "L" : "M"}${(x0 + (len * i) / 40).toFixed(1)} ${(y0 + amp * Math.sin((Math.PI * i) / 40) * (blur ? 0 : swing)).toFixed(1)}`).join(" ");
+  const lens = Array.from({ length: 41 }, (_, i) => `${i ? "L" : "M"}${(x0 + (len * i) / 40).toFixed(1)} ${(y0 - amp * Math.sin((Math.PI * i) / 40)).toFixed(1)}`).join(" ") +
+    Array.from({ length: 41 }, (_, i) => `L${(x0 + len - (len * i) / 40).toFixed(1)} ${(y0 + amp * Math.sin((Math.PI * i) / 40)).toFixed(1)}`).join(" ") + " Z";
+  // the sound wave below: three waves across for 440 Hz, twice as many per octave
+  const n = (3 * f) / 440;
+  const wave = Array.from({ length: 241 }, (_, i) => `${i ? "L" : "M"}${(x0 + (full * i) / 240).toFixed(1)} ${(170 + 11 * Math.sin(2 * Math.PI * ((n * i) / 240) - t * 3)).toFixed(1)}`).join(" ");
+  const fade = s >= 3 ? 0.3 : 1;
+  const ay = 318; // the frequency scale
+  const shown = (i: number) => (i === 4 ? 1 : i === 5 ? (s >= 1 ? (s === 1 ? ease(clamp((p - 0.5) / 0.3)) : 1) : 0) : s >= 3 ? 1 : s === 2 ? clamp(k * 7 - A_ORDER[i]) : 0);
+  const keys = Array.from({ length: 88 }, (_, j) => j);
+  const kx = (j: number) => fx(OCTAVE.low * 2 ** (j / 12));
+  const black = (j: number) => [1, 4, 6, 9, 11].includes(j % 12); // counted from A
+  const whiteW = (kx(87) - kx(0) + (kx(1) - kx(0))) / 52;
+  const keyOn = s >= 3 ? (s === 3 ? ease(clamp(p / 0.4)) : 1) : 0;
+  const cursor = s === 3 ? lerp(kx(0), kx(87), ease(clamp((p - 0.3) / 0.6))) : s === 4 ? lerp(fx(OCTAVE.hearing[0]), fx(OCTAVE.hearing[1]), ease(clamp((p - 0.3) / 0.6))) : null;
+  return (
+    <>
+      <Label x={180} y={44} size={30} bold color={PINK}>{counter}</Label>
+      <Label x={180} y={64} size={11} color={DIM}>{labels[0]}</Label>
+      {/* the string and its sound wave */}
+      <g opacity={fade}>
+        <path d={`M${x0 - 8} ${y0 + 10} L${x0} ${y0} L${x0 + 8} ${y0 + 10} Z`} fill={DIM} />
+        <path d={`M${x0 + full - 8} ${y0 + 10} L${x0 + full} ${y0} L${x0 + full + 8} ${y0 + 10} Z`} fill={DIM} />
+        <line x1={x0 + len} y1={y0} x2={x0 + full} y2={y0} stroke={LINE} strokeWidth={2} />
+        {blur && <path d={lens} fill={PINK} opacity={0.28} />}
+        <path d={string} fill="none" stroke={PINK} strokeWidth={2.5} strokeLinecap="round" />
+        {s >= 1 && <circle cx={x0 + len} cy={y0 - 9} r={7} fill="#c9a27e" stroke="#2b2a28" strokeWidth={1.5} />}
+        <Label x={x0 + len / 2} y={y0 - 24} size={11} bold color={INK}>{s === 0 ? labels[1] : s === 1 ? labels[2] : ""}</Label>
+        <path d={wave} fill="none" stroke={BLUE} strokeWidth={1.5} opacity={0.8} />
+        {s >= 1 && s <= 2 && <g opacity={s === 1 ? ease(clamp((p - 0.45) / 0.3)) : 1}><Label x={180} y={212} size={12} bold color={YELLOW}>{labels[3]}</Label></g>}
+      </g>
+      {/* hearing (step 5) */}
+      {s === 4 && <g opacity={ease(clamp(p / 0.3))}>
+        <rect x={fx(OCTAVE.hearing[0])} y={240} width={fx(OCTAVE.hearing[1]) - fx(OCTAVE.hearing[0])} height={8} rx={4} fill={GREEN} opacity={0.75} />
+        <Label x={180} y={232} size={11} bold color={GREEN}>{labels[5]}</Label>
+      </g>}
+      {/* the piano (step 4) */}
+      {keyOn > 0 && <g opacity={keyOn}>
+        {s === 3 && <Label x={180} y={248} size={11} bold color={INK}>{labels[4]}</Label>}
+        {Array.from({ length: 52 }, (_, i) => <rect key={i} x={kx(0) - (kx(1) - kx(0)) / 2 + i * whiteW} y={258} width={whiteW - 0.6} height={32} fill="#f4f1ea" />)}
+        {keys.filter(black).map((j) => <rect key={j} x={kx(j) - 1.1} y={258} width={2.2} height={20} fill="#1d1b19" />)}
+      </g>}
+      {cursor !== null && <line x1={cursor} y1={s === 4 ? 236 : 254} x2={cursor} y2={ay + 4} stroke={YELLOW} strokeWidth={2.5} opacity={0.9} />}
+      {/* every a on one scale: each octave is the same step */}
+      <line x1={30} y1={ay} x2={330} y2={ay} stroke={LINE} strokeWidth={2} />
+      {A_TONES.map((v, i) => {
+        const on = shown(i);
+        if (on <= 0) return null;
+        const x = fx(v);
+        const next = i < 7 && shown(i + 1) > 0 && s >= 2 ? fx(A_TONES[i + 1]) : null;
+        return (
+          <g key={i} opacity={on}>
+            {next !== null && <path d={`M${x} ${ay - 6} Q${(x + next) / 2} ${ay - 20} ${next} ${ay - 6}`} fill="none" stroke={DIM} strokeWidth={1} />}
+            {next !== null && <Label x={(x + next) / 2} y={ay - 17} size={8} color={DIM}>{labels[8]}</Label>}
+            <circle cx={x} cy={ay} r={i === 4 ? 5 : 4} fill={i === 4 ? YELLOW : PINK} />
+            {Number.isInteger(v) && <Label x={x} y={ay + 18} size={9} color={i === 4 ? YELLOW : INK}>{plain(v)}</Label>}
+          </g>
+        );
+      })}
+    </>
+  );
+}
+
+// ------------------------------------------------------------------ the longest migration of any bird (motion graphics, 05.11.2026)
+// The Arctic tern breeds in the Arctic and winters at the edge of the Antarctic pack ice (Weddell Sea). Map:
+// public/map/world.json (equirectangular, 84° N to 58° S – Antarctica is drawn here as a band; the route is a sketch of
+// the direction, not a tracked path). Distances in TERN against the equator (40 075 km). Sources in the animation.
+// labels: 0 weight, 1 Arctic, 2 Antarctica, 3 "km in one year", 4 "Earth's circumference at the equator",
+// 5 "up to 30,000 km|almost once around the Earth", 6 "record: 96,000 km|in only ten months", 7 "8 months|without sunset",
+// 8 body size, 9 "Arctic ⇄ Antarctica"
+export const TERN = { old: 30000, record: 96000, equator: 40075 };
+const TERN_OUT: Pt[] = [[-22, 72], [-28, 62], [-32, 48], [-30, 32], [-27, 15], [-25, 0], [-27, -18], [-32, -36], [-38, -52], [-45, -68]];
+const TERN_BACK: Pt[] = [[-45, -68], [-28, -58], [-12, -42], [-6, -25], [-10, -8], [-19, 8], [-17, 25], [-13, 40], [-11, 55], [-12, 67], [-22, 72]];
+const geo = ([lon, lat]: Pt): Pt => [((lon + 180) / 360) * 1000, ((84 - lat) / 142) * 394]; // as in scripts/build-map.mjs
+const MOSS = "#a8cf5a";
+
+function Tern({ x, y, size, t }: { x: number; y: number; size: number; t: number }) {
+  const w = Math.sin(t * 6); // wing beat
+  return (
+    <g transform={`translate(${x} ${y}) scale(${size})`}>
+      <path d={`M-22 ${-10 * w} Q-10 ${-3 - 4 * w} 0 0 Q10 ${-3 - 4 * w} 22 ${-10 * w}`} fill="none" stroke={INK} strokeWidth={3.2} strokeLinecap="round" strokeLinejoin="round" />
+      <ellipse cx={0} cy={1} rx={9} ry={3} fill={INK} />
+      <path d="M-8 1 L-17 -2 M-8 1 L-17 5" stroke={INK} strokeWidth={1.8} strokeLinecap="round" />
+      <circle cx={8} cy={0} r={2.6} fill="#1d1b19" />
+      <path d="M10 0 L16 1.5 L10 2.4 Z" fill="#e8513f" />
+    </g>
+  );
+}
+
+function Migration({ step, p, t, labels }: SceneProps) {
+  const [world, setWorld] = useState<World | null>(null);
+  useEffect(() => {
+    let live = true;
+    loadWorld().then((w) => live && setWorld(w));
+    return () => {
+      live = false;
+    };
+  }, []);
+  const s = Math.min(step, 4);
+  const k = ease(clamp(p / 0.7));
+  const out = TERN_OUT.map(geo), back = TERN_BACK.map(geo);
+  // step 2: there and back once; later the whole route stays
+  const u = s === 1 ? clamp(p / 0.85) * 2 : s === 0 ? 0 : 2;
+  const bird = s === 0 ? out[0] : u <= 1 ? along(out, u) : along(back, u - 1);
+  const km = s === 2 ? TERN.old * k : s === 3 ? lerp(TERN.old, TERN.record, k) : s === 4 ? TERN.record : 0;
+  const laps = km / TERN.equator;
+  const lines = (text: string, x: number, y: number, color: string, size = 11) => text.split("|").map((line, i) => <Label key={i} x={x} y={y + i * (size + 4)} size={size} bold={i === 0} color={i === 0 ? color : INK}>{line}</Label>);
+  const cx = 272, cy = 204;
+  const arc = (r: number, f: number) => {
+    if (f >= 0.999) return <circle cx={cx} cy={cy} r={r} fill="none" stroke={MOSS} strokeWidth={5} />;
+    const a = f * 2 * Math.PI - Math.PI / 2;
+    return <path d={`M${cx} ${cy - r} A${r} ${r} 0 ${f > 0.5 ? 1 : 0} 1 ${(cx + r * Math.cos(a)).toFixed(1)} ${(cy + r * Math.sin(a)).toFixed(1)}`} fill="none" stroke={MOSS} strokeWidth={5} strokeLinecap="round" />;
+  };
+  const band = `M296 416 Q330 410 360 418 T430 414 T500 420 T570 414 L570 470 L296 470 Z`;
+  return (
+    <>
+      {/* the map: the Atlantic from the Arctic to Antarctica */}
+      <rect x={8} y={30} width={172} height={362} rx={10} fill="#1d1b19" />
+      <svg x={8} y={30} width={172} height={362} viewBox="296 -10 274 480" preserveAspectRatio="xMidYMid meet">
+        {world && [...Object.entries(world.paths), ...Object.entries(world.wrap ?? {})].map(([iso, path], i) => <path key={i} d={path} fill={LINE} stroke="#1d1b19" strokeWidth={0.5} vectorEffect="non-scaling-stroke" />)}
+        <path d={band} fill="#d6e2ea" opacity={0.55} />
+        {s === 4 && <g opacity={ease(clamp(p / 0.4))}>
+          <rect x={296} y={-10} width={274} height={44} fill={YELLOW} opacity={0.16} />
+          <rect x={296} y={400} width={274} height={70} fill={YELLOW} opacity={0.16} />
+        </g>}
+        <text x={433} y={8} textAnchor="middle" fill={INK} fontSize={17} fontWeight={700}>{labels[1]}</text>
+        <text x={433} y={452} textAnchor="middle" fill="#1d1b19" fontSize={17} fontWeight={700}>{labels[2]}</text>
+        {s >= 1 && <>
+          <path d={d(s === 1 ? part(out, Math.min(1, u)) : out)} fill="none" stroke={MOSS} strokeWidth={2} strokeDasharray="6 5" vectorEffect="non-scaling-stroke" />
+          {u > 1 && <path d={d(s === 1 ? part(back, u - 1) : back)} fill="none" stroke={MOSS} strokeOpacity={0.6} strokeWidth={2} strokeDasharray="2 5" vectorEffect="non-scaling-stroke" />}
+        </>}
+        <circle cx={out[0][0]} cy={out[0][1]} r={7} fill={MOSS} opacity={0.35} />
+        <circle cx={bird[0]} cy={bird[1]} r={6} fill={YELLOW} />
+      </svg>
+      {/* right: the bird, the distance, the laps around the Earth */}
+      {s === 0 && <g opacity={ease(clamp(p / 0.3))}>
+        <Tern x={cx} y={150} size={2.6} t={t} />
+        <Label x={cx} y={232} size={26} bold color={MOSS}>{labels[0]}</Label>
+        <Label x={cx} y={254} size={11} color={DIM}>{labels[8]}</Label>
+      </g>}
+      {s === 1 && <g>
+        <Tern x={cx} y={150} size={2} t={t} />
+        <Label x={cx} y={222} size={13} bold color={MOSS}>{labels[9]}</Label>
+      </g>}
+      {(s === 2 || s === 3) && <>
+        <Label x={cx} y={62} size={26} bold color={MOSS}>{thin(km)}</Label>
+        <Label x={cx} y={80} size={10} color={DIM}>{labels[3]}</Label>
+        <circle cx={cx} cy={cy} r={24} fill="#2d5fa8" />
+        <ellipse cx={cx} cy={cy} rx={24} ry={7} fill="none" stroke="#7cc4f0" strokeWidth={1} opacity={0.6} />
+        {[0, 1, 2].map((j) => laps > j && <g key={j}>{arc(34 + j * 9, Math.min(1, laps - j))}</g>)}
+        <Label x={cx} y={276} size={9.5} color={DIM}>{labels[4]}</Label>
+        <Label x={cx} y={290} size={9.5} color={DIM}>{`${thin(TERN.equator)} km`}</Label>
+        <g opacity={ease(clamp((p - 0.55) / 0.3))}>{lines(s === 2 ? labels[5] : labels[6], cx, 322, YELLOW)}</g>
+      </>}
+      {s === 4 && <g opacity={ease(clamp(p / 0.3))}>
+        <line x1={206} y1={236} x2={338} y2={236} stroke={DIM} strokeWidth={1.5} />
+        <ellipse cx={cx} cy={196} rx={52} ry={20} fill="none" stroke={LINE} strokeWidth={1.2} strokeDasharray="3 4" />
+        <circle cx={cx + 52 * Math.cos(t * 0.9)} cy={196 + 20 * Math.sin(t * 0.9)} r={10} fill={YELLOW} style={{ filter: "drop-shadow(0 0 6px #ffd24a)" }} />
+        <Tern x={cx - 6} y={150} size={1.2} t={t} />
+        {lines(labels[7], cx, 272, YELLOW, 12)}
+      </g>}
+    </>
+  );
+}
+
+// ------------------------------------------------------------------ how painters draw depth (motion graphics, 05.11.2026)
+// Central perspective, built up on one picture: the horizon, lines into the depth meeting in the vanishing point, equal
+// columns shrinking towards it, Masaccio's coffered vault (Florence, 1425–1428) and the room of Leonardo's Last Supper
+// (Milan, 1495–1497), whose lines were stretched from a nail at Christ's temple. All shapes are own sketches.
+// labels: 0 horizon, 1 vanishing point, 2 "the same size", 3 Masaccio line, 4 Alberti line, 5 Leonardo line, 6 nail hole
+const ORCHID = "#e39ad8";
+
+function Perspective({ step, p, t, labels }: SceneProps) {
+  const s = Math.min(step, 4);
+  const k = ease(clamp(p / 0.7));
+  const L = 20, R = 340, T = 36, B = 286, HY = 130, VX = 180; // the picture and its vanishing point
+  const depth = (j: number) => 1 / (1 + 0.55 * j); // scale of row j into the depth
+  const rowY = (sc: number) => HY + (B - HY) * sc; // floor line at that scale
+  const atX = (bx: number, y: number) => VX + ((bx - VX) * (y - HY)) / (B - HY); // where the line from bx meets height y
+  const bottoms = [20, 60, 100, 140, 180, 220, 260, 300, 340];
+  const floorOn = s === 0 ? 0 : s <= 2 ? 1 : 0.35;
+  const lineK = s === 1 ? k : 1;
+  const rows = Array.from({ length: 11 }, (_, j) => rowY(depth(j)));
+  const tiles = s >= 1 ? bottoms.slice(0, -1).flatMap((bx, i) => rows.slice(0, -1).map((y, j) => (i + j) % 2 ? null : (
+    <path key={`${i}-${j}`} d={`M${atX(bx, y)} ${y} L${atX(bottoms[i + 1], y)} ${y} L${atX(bottoms[i + 1], rows[j + 1])} ${rows[j + 1]} L${atX(bx, rows[j + 1])} ${rows[j + 1]} Z`} fill="#4a4540" />
+  ))) : null;
+  // columns: the same real height everywhere, smaller with distance
+  const columns = (on: number) => [0, 1, 2, 3, 4, 5].map((j) => {
+    const sc = depth(j * 1.3), y = rowY(sc), h = 120 * sc, w = 10 * sc;
+    const show = clamp(on * 6 - j);
+    if (show <= 0) return null;
+    return [60, 300].map((bx) => {
+      const x = atX(bx, y);
+      return (
+        <g key={`${bx}-${j}`} opacity={show}>
+          <rect x={x - w / 2} y={y - h} width={w} height={h} fill="#cfc6b8" />
+          <rect x={x - w * 0.8} y={y - h - 3 * sc} width={w * 1.6} height={4 * sc} fill="#e9e1d0" />
+        </g>
+      );
+    });
+  });
+  const vault = (on: number) => {
+    const arches = [0, 1, 2, 3, 4, 5, 6].map((j) => {
+      const sc = depth(j * 0.9), spring = rowY(sc) - 100 * sc, r = 150 * sc;
+      return <path key={j} d={`M${VX - r} ${rowY(sc)} L${VX - r} ${spring} A${r} ${r} 0 0 1 ${VX + r} ${spring} L${VX + r} ${rowY(sc)}`} fill="none" stroke="#e9e1d0" strokeWidth={j === 0 ? 2.5 : 1.4} opacity={0.85} />;
+    });
+    const last = depth(6 * 0.9);
+    const ribs = [0.08, 0.22, 0.36, 0.5, 0.64, 0.78, 0.92].map((q, m) => {
+      const a = Math.PI * q, fx0 = VX - 150 * Math.cos(a), fy0 = 186 - 150 * Math.sin(a);
+      const ex = VX + (fx0 - VX) * last, ey = HY + (fy0 - HY) * last;
+      return <line key={m} x1={fx0} y1={fy0} x2={ex} y2={ey} stroke="#e9e1d0" strokeWidth={1} opacity={0.6} />;
+    });
+    return <g opacity={on}>{arches}{ribs}</g>;
+  };
+  const room = (on: number) => {
+    const sb = 0.36, bl = VX - 150 * sb, br = VX + 150 * sb, bt = HY - 94 * sb, bb = HY + 156 * sb;
+    const heads = [64, 78, 92, 120, 134, 148, 212, 226, 240, 268, 282, 296];
+    return (
+      <g opacity={on}>
+        <rect x={bl} y={bt} width={br - bl} height={bb - bt} fill="#2f2b27" stroke="#cfc6b8" strokeWidth={1.2} />
+        {[-1, 0, 1].map((m) => <rect key={m} x={VX + m * 17 - 6} y={bt + 8} width={12} height={20} fill="#9fc3ff" opacity={0.75} />)}
+        {[[30, T, bl, bt], [330, T, br, bt], [30, B, bl, bb], [330, B, br, bb]].map(([x1, y1, x2, y2], i) => <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#cfc6b8" strokeWidth={1.2} />)}
+        {[0.25, 0.5, 0.75].map((q, i) => <line key={i} x1={lerp(30, 330, q)} y1={T} x2={lerp(bl, br, q)} y2={bt} stroke="#cfc6b8" strokeWidth={0.8} opacity={0.7} />)}
+        {[0.25, 0.5].map((q, i) => {
+          // a hanging on each side wall, between depth q and q + 0.18, from y 70 to 210 at the front
+          const wall = (side: number, y0: number, u: number): string => { const sc = lerp(1, sb, u); return `${VX + (side - VX) * sc} ${HY + (y0 - HY) * sc}`; };
+          const quad = (side: number) => `M${wall(side, 70, q)} L${wall(side, 70, q + 0.18)} L${wall(side, 210, q + 0.18)} L${wall(side, 210, q)} Z`;
+          return <g key={i}><path d={quad(30)} fill="#6b4f3a" opacity={0.8} /><path d={quad(330)} fill="#6b4f3a" opacity={0.8} /></g>;
+        })}
+        {heads.map((x, i) => <g key={i}><rect x={x - 6} y={146} width={12} height={12} rx={4} fill="#8a6f5a" /><circle cx={x} cy={140} r={5.5} fill="#d8b894" /></g>)}
+        <rect x={VX - 11} y={144} width={22} height={14} rx={5} fill="#b44a3c" />
+        <circle cx={VX - 4} cy={135} r={8} fill="#d8b894" />
+        <rect x={52} y={156} width={256} height={16} fill="#ede6d6" />
+        <rect x={60} y={172} width={240} height={30} fill="#3a2f26" opacity={0.8} />
+      </g>
+    );
+  };
+  const strings = s === 4 ? clamp((p - 0.35) / 0.45) : 0;
+  const targets: Pt[] = [[L, T], [100, T], [VX, T], [260, T], [R, T], [R, 90], [R, 200], [R, B], [260, B], [VX, B], [100, B], [L, B], [L, 200], [L, 90]];
+  return (
+    <>
+      <rect x={L} y={T} width={R - L} height={B - T} fill="#1d1b19" stroke={LINE} strokeWidth={1.5} />
+      <rect x={L} y={T} width={R - L} height={HY - T} fill="#1b2a40" opacity={s >= 3 ? 0.2 : 0.7} />
+      {/* the floor: lines into the depth meet in one point, the rows get closer and closer */}
+      <g opacity={floorOn}>
+        {tiles && <g opacity={s === 1 ? ease(clamp((p - 0.5) / 0.3)) : 1}>{tiles}</g>}
+        {bottoms.map((bx, i) => {
+          const q = clamp(lineK * 1.4 - i * 0.05);
+          return q > 0 && <line key={i} x1={bx} y1={B} x2={lerp(bx, VX, q)} y2={lerp(B, HY, q)} stroke={ORCHID} strokeWidth={1.4} opacity={0.9} />;
+        })}
+      </g>
+      {s === 2 && columns(clamp(p / 0.7))}
+      {s === 2 && <g opacity={ease(clamp((p - 0.7) / 0.2))}>
+        <line x1={atX(60, rowY(1)) - 0} y1={rowY(1) - 123} x2={VX} y2={HY} stroke={YELLOW} strokeWidth={1.2} strokeDasharray="4 4" />
+        <line x1={atX(300, rowY(1))} y1={rowY(1) - 123} x2={VX} y2={HY} stroke={YELLOW} strokeWidth={1.2} strokeDasharray="4 4" />
+        <rect x={atX(60, rowY(1)) + 9} y={rowY(1) - 73} width={labels[2].length * 6.4 + 12} height={18} rx={5} fill="#1d1b19" opacity={0.9} />
+        <Label x={atX(60, rowY(1)) + 15} y={rowY(1) - 60} anchor="start" size={11} bold color={YELLOW}>{labels[2]}</Label>
+      </g>}
+      {s === 3 && vault(ease(clamp(p / 0.6)))}
+      {s === 4 && room(ease(clamp(p / 0.4)))}
+      {strings > 0 && targets.map(([x, y], i) => <line key={i} x1={VX} y1={HY} x2={lerp(VX, x, strings)} y2={lerp(HY, y, strings)} stroke={YELLOW} strokeWidth={0.9} opacity={0.6} />)}
+      {/* the horizon and the vanishing point */}
+      <line x1={L} y1={HY} x2={s === 0 ? lerp(L, R, k) : R} y2={HY} stroke={INK} strokeWidth={1.6} opacity={s >= 3 ? 0.45 : 1} />
+      {s <= 2 && <g opacity={s === 0 ? ease(clamp((p - 0.5) / 0.3)) : 1}><Label x={R - 6} y={HY - 7} anchor="end" size={11} bold color={INK}>{labels[0]}</Label></g>}
+      {s >= 1 && <g opacity={s === 1 ? ease(clamp((p - 0.55) / 0.3)) : 1}>
+        <circle cx={VX} cy={HY} r={4} fill={YELLOW} />
+        <circle cx={VX} cy={HY} r={7 + 3 * Math.sin(t * 3)} fill="none" stroke={YELLOW} strokeWidth={1.2} opacity={0.7} />
+        {s <= 2 && <Label x={VX} y={HY - 12} size={11} bold color={YELLOW}>{labels[1]}</Label>}
+        {s === 4 && <g opacity={strings}>
+          <line x1={VX + 5} y1={HY - 4} x2={VX + 28} y2={HY - 16} stroke={YELLOW} strokeWidth={1.2} />
+          <rect x={VX + 28} y={HY - 27} width={labels[6].length * 6.4 + 12} height={18} rx={5} fill="#1d1b19" opacity={0.9} />
+          <Label x={VX + 34} y={HY - 14} anchor="start" size={11} bold color={YELLOW}>{labels[6]}</Label>
+        </g>}
+      </g>}
+      {s === 3 && <g opacity={ease(clamp((p - 0.3) / 0.3))}>
+        <Label x={180} y={310} size={12} bold color={ORCHID}>{labels[3]}</Label>
+        <g opacity={ease(clamp((p - 0.6) / 0.25))}><Label x={180} y={332} size={11} color={INK}>{labels[4]}</Label></g>
+      </g>}
+      {s === 4 && <g opacity={ease(clamp((p - 0.2) / 0.3))}><Label x={180} y={310} size={12} bold color={ORCHID}>{labels[5]}</Label></g>}
+    </>
+  );
+}
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps, depths: Depths, octave: Octave, migration: Migration, perspective: Perspective };

@@ -676,7 +676,7 @@
     "status": "published",
     "created_at": "2026-10-14T12:00:00Z",
     "id": "a-sternentstehung",
-    "category_id": "science",
+    "category_id": "space",
     "scene": "starbirth",
     "title": "Wie ein Stern entsteht",
     "summary": "Von der kalten Gaswolke zum leuchtenden Stern – die Schwerkraft macht den Anfang.",
@@ -870,7 +870,7 @@
     "status": "published",
     "created_at": "2026-10-15T12:00:00Z",
     "id": "a-planetenbahn",
-    "category_id": "science",
+    "category_id": "space",
     "scene": "orbit",
     "fallback_scene": null,
     "title": "Warum Planeten um die Sonne kreisen",
@@ -1269,7 +1269,7 @@
     "status": "published",
     "created_at": "2026-10-19T11:00:00Z",
     "id": "a-mondphasen",
-    "category_id": "science",
+    "category_id": "space",
     "scene": "moon",
     "title": "Wie die Mondphasen entstehen",
     "summary": "Der Mond ist immer zur Hälfte beleuchtet – wir sehen nur unterschiedlich viel davon.",
@@ -1463,7 +1463,7 @@
     "status": "published",
     "created_at": "2026-10-21T12:00:00Z",
     "id": "a-finsternis",
-    "category_id": "science",
+    "category_id": "space",
     "scene": "eclipse",
     "title": "Wie Finsternisse entstehen",
     "summary": "Mal verdeckt der Mond die Sonne, mal taucht er in den Schatten der Erde – aber nur, wenn alles auf einer Linie steht.",
@@ -3809,7 +3809,7 @@
     "status": "published",
     "created_at": "2026-10-25T12:00:00Z",
     "id": "a-geige",
-    "category_id": "culture",
+    "category_id": "music",
     "scene": "violin",
     "title": "Wie eine Geige klingt",
     "summary": "Ein Bogen, der haftet und gleitet, eine schwingende Saite – und ein hohler Holzkörper.",
@@ -4244,7 +4244,7 @@
     "status": "published",
     "created_at": "2026-10-30T12:00:00Z",
     "id": "a-sonnensystem",
-    "category_id": "science",
+    "category_id": "space",
     "scene": "solarscale",
     "title": "Das Sonnensystem im Fußball-Maßstab",
     "summary": "Wäre die Sonne ein Fußball: Wie klein wären die Planeten – und wie weit weg?",
@@ -4835,7 +4835,7 @@
     "status": "published",
     "created_at": "2026-10-30T12:00:00Z",
     "id": "a-tempo",
-    "category_id": "science",
+    "category_id": "space",
     "scene": "speeds",
     "title": "Wie schnell sind wir unterwegs?",
     "summary": "Flugzeug, Erddrehung, Erdbahn, Milchstraße – wir rasen, ohne es zu merken.",
@@ -5175,6 +5175,349 @@
         "Rund 0,2 Prozent",
         "Rund 2 Prozent",
         "Rund 20 Prozent"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T12:00:00Z",
+    "id": "a-oktave",
+    "category_id": "music",
+    "scene": "octave",
+    "title": "Eine Oktave ist eine Verdopplung",
+    "summary": "Von der schwingenden Saite bis zum Klavier und zu unserem Gehör – Töne, die sich verdoppeln.",
+    "goal": "Du weißt, was Hertz bedeutet und warum eine Oktave die doppelte Frequenz hat.",
+    "labels": [
+      "Hertz = Schwingungen pro Sekunde",
+      "Saite",
+      "halbe Saite",
+      "Oktave = doppelte Frequenz",
+      "Klavier: 88 Tasten, 7⅓ Oktaven",
+      "Hörbereich des Menschen: rund 10 Oktaven",
+      "27,5 – 4186",
+      "16 – 20 000",
+      "× 2"
+    ],
+    "steps": [
+      {
+        "text": "Ein Ton entsteht, wenn etwas schwingt. Der Kammerton a¹ ist seit 1939 in vielen Ländern auf 440 Hertz festgelegt: Die Saite schwingt 440-mal in der Sekunde.",
+        "seconds": 8
+      },
+      {
+        "text": "Verkürzt man die Saite auf die Hälfte, schwingt sie doppelt so schnell – 880 Hertz. Der Ton klingt gleich, nur eine Oktave höher: Die Frequenzen stehen im Verhältnis 2 zu 1.",
+        "seconds": 8
+      },
+      {
+        "text": "Jede weitere Oktave verdoppelt die Frequenz wieder: 1760, 3520 Hertz. Nach unten halbiert sie sich. Auf dieser Skala ist deshalb jede Oktave ein gleich großer Schritt.",
+        "seconds": 8
+      },
+      {
+        "text": "Die 88 Tasten eines Klaviers umfassen 7⅓ Oktaven: vom tiefsten A mit 27,5 Hertz bis zum höchsten c mit rund 4186 Hertz.",
+        "seconds": 7
+      },
+      {
+        "text": "Unser Gehör reicht noch weiter: von etwa 16 bis höchstens 20 000 Hertz. Das sind rund zehn Oktaven.",
+        "seconds": 7
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Kammerton",
+        "url": "https://de.wikipedia.org/wiki/Kammerton"
+      },
+      {
+        "name": "Wikipedia: Oktave",
+        "url": "https://de.wikipedia.org/wiki/Oktave"
+      },
+      {
+        "name": "Wikipedia: Monochord",
+        "url": "https://de.wikipedia.org/wiki/Monochord"
+      },
+      {
+        "name": "Wikipedia: Klaviatur",
+        "url": "https://de.wikipedia.org/wiki/Klaviatur"
+      },
+      {
+        "name": "Wikipedia: Hörfläche",
+        "url": "https://de.wikipedia.org/wiki/Hörfläche"
+      }
+    ],
+    "quiz_question_id": "ok1",
+    "translations": {
+      "en": {
+        "title": "An octave is a doubling",
+        "summary": "From a vibrating string to the piano and our hearing – notes that double.",
+        "goal": "You know what hertz means and why an octave has twice the frequency.",
+        "labels": [
+          "hertz = vibrations per second",
+          "string",
+          "half the string",
+          "octave = twice the frequency",
+          "piano: 88 keys, 7⅓ octaves",
+          "human hearing: about 10 octaves",
+          "27.5 – 4 186",
+          "16 – 20 000",
+          "× 2"
+        ],
+        "steps": [
+          "A note is made when something vibrates. Since 1939 the concert pitch A has been set at 440 hertz in many countries: the string vibrates 440 times a second.",
+          "If you shorten the string to half its length, it vibrates twice as fast – 880 hertz. The note sounds the same, just one octave higher: the frequencies have a ratio of 2 to 1.",
+          "Every further octave doubles the frequency again: 1,760, 3,520 hertz. Going down, it halves. That is why on this scale every octave is a step of the same size.",
+          "The 88 keys of a piano cover 7⅓ octaves: from the lowest A at 27.5 hertz to the highest C at about 4,186 hertz.",
+          "Our hearing reaches even further: from about 16 to at most 20,000 hertz. That is about ten octaves."
+        ],
+        "predict": {
+          "question": "The string vibrates 440 times a second. What happens if you shorten it to half its length?",
+          "options": [
+            "It vibrates 880 times a second",
+            "It vibrates 220 times a second",
+            "It vibrates 440 times, just louder"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 1,
+      "question": "Die Saite schwingt 440-mal pro Sekunde. Was passiert, wenn man sie auf die Hälfte verkürzt?",
+      "options": [
+        "Sie schwingt 880-mal pro Sekunde",
+        "Sie schwingt 220-mal pro Sekunde",
+        "Sie schwingt 440-mal, nur lauter"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 6,
+    "difficulty": 1,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:00:00Z",
+    "id": "a-zugvogel",
+    "category_id": "animals",
+    "scene": "migration",
+    "title": "Die längste Reise eines Vogels",
+    "summary": "Die Küstenseeschwalbe fliegt jedes Jahr von der Arktis bis vor die Antarktis – und zurück.",
+    "goal": "Du kannst einordnen, wie weit die Küstenseeschwalbe zieht und warum sich die Reise für sie lohnt.",
+    "labels": [
+      "86–127 g",
+      "Arktis",
+      "Antarktis",
+      "Kilometer im Jahr",
+      "Erdumfang am Äquator:",
+      "bis zu 30 000 km|fast einmal um die Erde",
+      "Rekord: 96 000 km|in nur 10 Monaten",
+      "8 Monate|ohne Sonnenuntergang",
+      "33–36 cm groß",
+      "Arktis ⇄ Antarktis"
+    ],
+    "steps": [
+      {
+        "text": "Die Küstenseeschwalbe ist der Zugvogel mit dem längsten Zugweg. Dabei wird sie nur 33 bis 36 Zentimeter groß und wiegt 86 bis 127 Gramm.",
+        "seconds": 7
+      },
+      {
+        "text": "Im Sommer brütet sie in der Arktis. Danach fliegt sie bis an den Rand des antarktischen Packeises, etwa in die Weddell-See – und dann wieder zurück zu den Brutplätzen.",
+        "seconds": 8
+      },
+      {
+        "text": "Hin und zurück sind das bis zu 30 000 Kilometer – fast einmal um die Erde, die am Äquator rund 40 075 Kilometer misst.",
+        "seconds": 7
+      },
+      {
+        "text": "Mit Sensoren zeigte sich: Einzelne Vögel fliegen sogar bis zu 90 000 Kilometer im Jahr. Ein Vogel von den Farne-Inseln schaffte 96 000 Kilometer in nur zehn Monaten.",
+        "seconds": 8
+      },
+      {
+        "text": "Der Lohn: Sie erlebt den Sommer an beiden Polen. In ihrem Lebensraum geht insgesamt acht Monate lang die Sonne nicht unter – theoretisch kann sie rund um die Uhr jagen.",
+        "seconds": 8
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Küstenseeschwalbe",
+        "url": "https://de.wikipedia.org/wiki/Küstenseeschwalbe"
+      },
+      {
+        "name": "Wikipedia: Erdumfang",
+        "url": "https://de.wikipedia.org/wiki/Erdumfang"
+      }
+    ],
+    "quiz_question_id": "zv1",
+    "translations": {
+      "en": {
+        "title": "The longest journey of any bird",
+        "summary": "Every year the Arctic tern flies from the Arctic to the edge of Antarctica – and back.",
+        "goal": "You can judge how far the Arctic tern migrates and why the journey is worth it.",
+        "labels": [
+          "86–127 g",
+          "Arctic",
+          "Antarctica",
+          "kilometres in one year",
+          "Around the equator:",
+          "up to 30 000 km|almost once around the Earth",
+          "record: 96 000 km|in only 10 months",
+          "8 months|without sunset",
+          "33–36 cm long",
+          "Arctic ⇄ Antarctica"
+        ],
+        "steps": [
+          "The Arctic tern is the migratory bird with the longest migration. Yet it is only 33 to 36 centimetres long and weighs 86 to 127 grams.",
+          "In summer it breeds in the Arctic. Then it flies to the edge of the Antarctic pack ice, for example the Weddell Sea – and then back to its breeding grounds.",
+          "There and back, that is up to 30,000 kilometres – almost once around the Earth, which measures about 40,075 kilometres at the equator.",
+          "Sensors showed that some birds even fly up to 90,000 kilometres a year. One bird from the Farne Islands covered 96,000 kilometres in only ten months.",
+          "The reward: it gets summer at both poles. Where it lives, the sun does not set for a total of eight months – in theory it can hunt around the clock."
+        ],
+        "predict": {
+          "question": "For a long time people said: up to 30,000 kilometres a year. How far do some birds fly according to sensor measurements?",
+          "options": [
+            "Up to 90,000 kilometres",
+            "Only about 10,000 kilometres",
+            "Exactly 30,000 kilometres"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 3,
+      "question": "Lange hieß es: bis zu 30 000 Kilometer im Jahr. Wie weit fliegen einzelne Vögel laut Messungen mit Sensoren?",
+      "options": [
+        "Bis zu 90 000 Kilometer",
+        "Nur etwa 10 000 Kilometer",
+        "Genau 30 000 Kilometer"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:00:00Z",
+    "id": "a-perspektive",
+    "category_id": "art",
+    "scene": "perspective",
+    "title": "Wie kommt die Tiefe ins Bild?",
+    "summary": "Horizont, Fluchtpunkt, kleiner werdende Säulen – und der Nagel in Leonardos „Abendmahl“.",
+    "goal": "Du kannst erklären, wie die Zentralperspektive auf einer flachen Fläche Raum vortäuscht.",
+    "labels": [
+      "Horizont",
+      "Fluchtpunkt",
+      "gleich groß",
+      "Masaccio · Florenz, 1425–1428",
+      "Alberti: „De pictura“, 1435/36",
+      "Leonardo · Mailand, 1495–1497",
+      "Nagelloch"
+    ],
+    "steps": [
+      {
+        "text": "Wie malt man Tiefe auf eine flache Wand? Bei der Zentralperspektive beginnt alles mit dem Horizont, einer waagerechten Linie im Bild.",
+        "seconds": 7
+      },
+      {
+        "text": "Linien, die in Wirklichkeit parallel in die Tiefe laufen – etwa Fugen im Fußboden –, treffen sich im Bild in einem Punkt: dem Fluchtpunkt. Er liegt auf dem Horizont.",
+        "seconds": 8
+      },
+      {
+        "text": "Gleich große Dinge werden mit der Entfernung kleiner und rücken näher an den Horizont. Auch die Linie über ihren Spitzen läuft zum Fluchtpunkt.",
+        "seconds": 8
+      },
+      {
+        "text": "In Florenz malte Masaccio zwischen 1425 und 1428 seine „Dreifaltigkeit“ – als einer der ersten Künstler mit Zentralperspektive. 1435/36 schrieb Leon Battista Alberti in „De pictura“ über Geometrie, Optik und perspektivische Malerei.",
+        "seconds": 9
+      },
+      {
+        "text": "Leonardo da Vinci malte sein „Abendmahl“ von 1495 bis 1497 in Mailand. Alle Linien des Raums laufen zur Schläfe von Jesus – dort fand man bei der Restaurierung das Loch eines Nagels, von dem aus die Linien gespannt wurden.",
+        "seconds": 9
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Fluchtpunkt",
+        "url": "https://de.wikipedia.org/wiki/Fluchtpunkt"
+      },
+      {
+        "name": "Wikipedia: Zentralperspektive",
+        "url": "https://de.wikipedia.org/wiki/Zentralperspektive"
+      },
+      {
+        "name": "Wikipedia: Dreifaltigkeit (Masaccio)",
+        "url": "https://de.wikipedia.org/wiki/Dreifaltigkeit_(Masaccio)"
+      },
+      {
+        "name": "Wikipedia: Leon Battista Alberti",
+        "url": "https://de.wikipedia.org/wiki/Leon_Battista_Alberti"
+      },
+      {
+        "name": "Wikipedia: Das Abendmahl (Leonardo da Vinci)",
+        "url": "https://de.wikipedia.org/wiki/Das_Abendmahl_(Leonardo_da_Vinci)"
+      }
+    ],
+    "quiz_question_id": "zp1",
+    "translations": {
+      "en": {
+        "title": "How does depth get into a picture?",
+        "summary": "Horizon, vanishing point, shrinking columns – and the nail in Leonardo's “Last Supper”.",
+        "goal": "You can explain how central perspective fakes space on a flat surface.",
+        "labels": [
+          "horizon",
+          "vanishing point",
+          "the same size",
+          "Masaccio · Florence, 1425–1428",
+          "Alberti: “De pictura”, 1435/36",
+          "Leonardo · Milan, 1495–1497",
+          "nail hole"
+        ],
+        "steps": [
+          "How do you paint depth on a flat wall? In central perspective, everything starts with the horizon, a horizontal line in the picture.",
+          "Lines that in reality run parallel into the depth – such as joints in a floor – meet in the picture at one point: the vanishing point. It lies on the horizon.",
+          "Things of the same size get smaller with distance and move closer to the horizon. The line over their tops also runs to the vanishing point.",
+          "In Florence, Masaccio painted his “Holy Trinity” between 1425 and 1428 – as one of the first artists to use central perspective. In 1435/36 Leon Battista Alberti wrote in “De pictura” about geometry, optics and painting in perspective.",
+          "Leonardo da Vinci painted his “Last Supper” in Milan from 1495 to 1497. All the lines of the room run to Jesus's temple – during the restoration, the hole of a nail was found there, from which the lines were stretched."
+        ],
+        "predict": {
+          "question": "Two columns of the same size stand one behind the other. How do you paint the one at the back?",
+          "options": [
+            "Smaller and closer to the horizon",
+            "Just as big, only higher up",
+            "Bigger, so that you can still see it"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 2,
+      "question": "Zwei gleich große Säulen stehen hintereinander. Wie malt man die hintere?",
+      "options": [
+        "Kleiner und näher am Horizont",
+        "Genauso groß, nur weiter oben",
+        "Größer, damit man sie noch sieht"
       ],
       "correct": 0
     }

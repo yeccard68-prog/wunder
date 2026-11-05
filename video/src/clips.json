@@ -158,5 +158,25 @@
     "id": "v-person-polo",
     "seconds": 10,
     "thumbFrame": 280
+  },
+  {
+    "id": "v-person-merian",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-herschel",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-schumann",
+    "seconds": 10,
+    "thumbFrame": 280
+  },
+  {
+    "id": "v-person-duerer",
+    "seconds": 10,
+    "thumbFrame": 280
   }
 ]

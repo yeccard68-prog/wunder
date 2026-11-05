@@ -161,7 +161,7 @@
   {
     "id": "v-kepler",
     "type": "scatter",
-    "category_id": "science",
+    "category_id": "space",
     "min_age": 13,
     "difficulty": 2,
     "data_kind": "real",
@@ -2491,7 +2491,7 @@
   {
     "id": "v-sonne-innen",
     "type": "reveal",
-    "category_id": "science",
+    "category_id": "space",
     "min_age": 10,
     "difficulty": 2,
     "data_kind": "drawing",

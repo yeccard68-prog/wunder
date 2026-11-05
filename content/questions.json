@@ -41507,5 +41507,3565 @@
         "explanation": "The Kola borehole reached a depth of 12,262 metres in 1989 – only about 0.2 per cent of the way to the centre of the Earth."
       }
     }
+  },
+  {
+    "id": "ws1",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Seit wann gilt Pluto nicht mehr als Planet, sondern als Zwergplanet?",
+    "options": [
+      "Seit 1986",
+      "Seit 1930",
+      "Seit 2006",
+      "Seit 2015"
+    ],
+    "correct_index": 2,
+    "explanation": "Von seiner Entdeckung am 18. Februar 1930 bis zur Neudefinition des Begriffs „Planet“ am 24. August 2006 galt Pluto als neunter Planet. Seitdem ist er ein Zwergplanet – der größte bekannte.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pluto",
+    "source_url": "https://de.wikipedia.org/wiki/Pluto",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since when has Pluto no longer counted as a planet but as a dwarf planet?",
+        "options": [
+          "Since 1986",
+          "Since 1930",
+          "Since 2006",
+          "Since 2015"
+        ],
+        "explanation": "From its discovery on 18 February 1930 until the term 'planet' was redefined on 24 August 2006, Pluto counted as the ninth planet. Since then it has been a dwarf planet – the largest known."
+      }
+    }
+  },
+  {
+    "id": "ws2",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Auf welchem Planeten herrscht am Boden eine mittlere Temperatur von 464 °C?",
+    "options": [
+      "Jupiter",
+      "Merkur",
+      "Mars",
+      "Venus"
+    ],
+    "correct_index": 3,
+    "explanation": "Auf der Venus sorgt ein starker Treibhauseffekt, vor allem durch die Masse an Kohlendioxid, am Boden für eine mittlere Temperatur von 464 °C.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Venus (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Venus_(Planet)",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which planet is the average temperature at the surface 464 °C?",
+        "options": [
+          "Jupiter",
+          "Mercury",
+          "Mars",
+          "Venus"
+        ],
+        "explanation": "On Venus a strong greenhouse effect, caused mainly by the mass of carbon dioxide, produces an average surface temperature of 464 °C."
+      }
+    }
+  },
+  {
+    "id": "ws3",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welcher Planet „rollt“ gewissermaßen auf seiner Bahn, weil seine Achse fast in der Bahnebene liegt?",
+    "options": [
+      "Uranus",
+      "Saturn",
+      "Mars",
+      "Neptun"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Rotationsachse des Uranus liegt annähernd in seiner Bahnebene. Er „rollt“ deshalb gewissermaßen voran, wenn die Achse in Richtung Sonne zeigt.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Uranus (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Uranus_(Planet)",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which planet more or less 'rolls' along its orbit because its axis lies almost in the plane of the orbit?",
+        "options": [
+          "Uranus",
+          "Saturn",
+          "Mars",
+          "Neptune"
+        ],
+        "explanation": "Uranus's axis of rotation lies almost in the plane of its orbit. So it more or less 'rolls' along when the axis points towards the Sun."
+      }
+    }
+  },
+  {
+    "id": "ws4",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welcher Mond ist der einzige im Sonnensystem mit einer dichten Gashülle?",
+    "options": [
+      "Ganymed",
+      "Titan",
+      "Europa",
+      "Der Erdmond"
+    ],
+    "correct_index": 1,
+    "explanation": "Titan ist der größte Mond des Saturn, nach Ganymed der zweitgrößte Mond im Sonnensystem – und der einzige mit einer dichten Gashülle.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Titan (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Titan_(Mond)",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which moon is the only one in the solar system with a thick atmosphere?",
+        "options": [
+          "Ganymede",
+          "Titan",
+          "Europa",
+          "Earth's Moon"
+        ],
+        "explanation": "Titan is Saturn's largest moon, the second-largest moon in the solar system after Ganymede – and the only one with a thick atmosphere."
+      }
+    }
+  },
+  {
+    "id": "ws5",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Unter dem Eis welches Mondes vermutet man einen etwa 100 Kilometer tiefen Ozean?",
+    "options": [
+      "Phobos",
+      "Io",
+      "Europa",
+      "Der Erdmond"
+    ],
+    "correct_index": 2,
+    "explanation": "Messungen der Galileo-Sonde deuten darauf hin, dass sich unter der kilometerdicken Eishülle des Jupitermondes Europa ein etwa 100 km tiefer Ozean aus flüssigem Wasser befindet.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europa (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Europa_(Mond)",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Under the ice of which moon do scientists suspect an ocean about 100 kilometres deep?",
+        "options": [
+          "Phobos",
+          "Io",
+          "Europa",
+          "Earth's Moon"
+        ],
+        "explanation": "Measurements by the Galileo probe suggest that beneath the ice shell, several kilometres thick, of Jupiter's moon Europa lies an ocean of liquid water about 100 km deep."
+      }
+    }
+  },
+  {
+    "id": "ws6",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist eine Astronomische Einheit?",
+    "options": [
+      "Der Durchmesser der Sonne",
+      "Die Strecke, die Licht in einem Jahr zurücklegt",
+      "Der Abstand zwischen Erde und Mond",
+      "Der mittlere Abstand zwischen Erde und Sonne"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Astronomische Einheit (AE) entspricht dem mittleren Abstand zwischen Erde und Sonne: ungefähr 149,6 Millionen Kilometer.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Maße"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Astronomische Einheit",
+    "source_url": "https://de.wikipedia.org/wiki/Astronomische_Einheit",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an astronomical unit?",
+        "options": [
+          "The diameter of the Sun",
+          "The distance light travels in a year",
+          "The distance between Earth and the Moon",
+          "The average distance between Earth and the Sun"
+        ],
+        "explanation": "An astronomical unit (AU) is the average distance between Earth and the Sun: about 149.6 million kilometres."
+      }
+    }
+  },
+  {
+    "id": "ws7",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welches von Menschen gebaute Objekt erreichte 2012 als erstes den interstellaren Raum?",
+    "options": [
+      "Voyager 1",
+      "Pioneer 10",
+      "New Horizons",
+      "Das Hubble-Teleskop"
+    ],
+    "correct_index": 0,
+    "explanation": "Die NASA-Sonde Voyager 1 flog zunächst an Jupiter und Saturn vorbei und trat am 25. August 2012 als erstes von Menschen geschaffenes Objekt in den interstellaren Raum ein.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Voyager 1",
+    "source_url": "https://de.wikipedia.org/wiki/Voyager_1",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which human-made object was the first to reach interstellar space, in 2012?",
+        "options": [
+          "Voyager 1",
+          "Pioneer 10",
+          "New Horizons",
+          "The Hubble telescope"
+        ],
+        "explanation": "NASA's Voyager 1 probe first flew past Jupiter and Saturn and on 25 August 2012 entered interstellar space as the first human-made object."
+      }
+    }
+  },
+  {
+    "id": "ws8",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welches große Weltraumteleskop startete am 25. Dezember 2021?",
+    "options": [
+      "Das Hubble-Weltraumteleskop",
+      "Das James-Webb-Weltraumteleskop",
+      "Das Kepler-Teleskop",
+      "Der Satellit Gaia"
+    ],
+    "correct_index": 1,
+    "explanation": "Das James-Webb-Weltraumteleskop (JWST) startete am 25. Dezember 2021 – an Weihnachten.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: James-Webb-Weltraumteleskop",
+    "source_url": "https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which large space telescope was launched on 25 December 2021?",
+        "options": [
+          "The Hubble Space Telescope",
+          "The James Webb Space Telescope",
+          "The Kepler telescope",
+          "The Gaia satellite"
+        ],
+        "explanation": "The James Webb Space Telescope (JWST) was launched on 25 December 2021 – on Christmas Day."
+      }
+    }
+  },
+  {
+    "id": "ws9",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wo liegt der Asteroidengürtel?",
+    "options": [
+      "Hinter Neptun",
+      "Zwischen Erde und Mars",
+      "Zwischen Mars und Jupiter",
+      "Zwischen Venus und Erde"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Asteroidengürtel befindet sich zwischen den Planetenbahnen von Mars und Jupiter.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Sonnensystem"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Asteroidengürtel",
+    "source_url": "https://de.wikipedia.org/wiki/Asteroidengürtel",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where is the asteroid belt?",
+        "options": [
+          "Beyond Neptune",
+          "Between Earth and Mars",
+          "Between Mars and Jupiter",
+          "Between Venus and Earth"
+        ],
+        "explanation": "The asteroid belt lies between the orbits of Mars and Jupiter."
+      }
+    }
+  },
+  {
+    "id": "ws10",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie heißt das Aufleuchten einer Sternschnuppe in der Fachsprache?",
+    "options": [
+      "Asteroid",
+      "Komet",
+      "Meteor",
+      "Nova"
+    ],
+    "correct_index": 2,
+    "explanation": "Als Meteor bezeichnet man das Aufleuchten von Sternschnuppen, wenn kleine Gesteins- oder Staubteilchen in der Hochatmosphäre verglühen.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Himmel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meteor",
+    "source_url": "https://de.wikipedia.org/wiki/Meteor",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the scientific name for the flash of a shooting star?",
+        "options": [
+          "Asteroid",
+          "Comet",
+          "Meteor",
+          "Nova"
+        ],
+        "explanation": "A meteor is the flash of a shooting star, when small particles of rock or dust burn up high in the atmosphere."
+      }
+    }
+  },
+  {
+    "id": "ws11",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist eine Supernova?",
+    "options": [
+      "Die Geburt eines Sterns",
+      "Ein neu entstehender Planet",
+      "Ein besonders heller Komet",
+      "Die Explosion eines massereichen Sterns am Ende seines Lebens"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Supernova ist das kurze, helle Aufleuchten eines massereichen Sterns am Ende seiner Lebenszeit durch eine Explosion, bei der der Stern selbst vernichtet wird. Im beobachtbaren Universum explodieren pro Sekunde etwa 20 bis 30 Supernovae.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Supernova",
+    "source_url": "https://de.wikipedia.org/wiki/Supernova",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a supernova?",
+        "options": [
+          "The birth of a star",
+          "A newly forming planet",
+          "A particularly bright comet",
+          "The explosion of a massive star at the end of its life"
+        ],
+        "explanation": "A supernova is the brief, bright flare of a massive star at the end of its life in an explosion that destroys the star itself. About 20 to 30 supernovae explode every second in the observable universe."
+      }
+    }
+  },
+  {
+    "id": "ws12",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie heißt die Grenze um ein Schwarzes Loch, hinter der Ereignisse für Beobachter draußen nicht mehr messbar sind?",
+    "options": [
+      "Ereignishorizont",
+      "Akkretionsscheibe",
+      "Heliopause",
+      "Umlaufbahn"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Ereignishorizont trennt die Raumzeit so, dass Ereignisse auf der einen Seite für Beobachter auf der anderen nicht mehr messbar sind. Form und Größe hängen nur von Masse, Drehimpuls und Ladung des Schwarzen Lochs ab.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Schwarze Löcher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ereignishorizont",
+    "source_url": "https://de.wikipedia.org/wiki/Ereignishorizont",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the boundary around a black hole called, beyond which events can no longer be measured by observers outside?",
+        "options": [
+          "Event horizon",
+          "Accretion disc",
+          "Heliopause",
+          "Orbit"
+        ],
+        "explanation": "An event horizon divides spacetime so that events on one side can no longer be measured by observers on the other. Its shape and size depend only on the black hole's mass, angular momentum and charge."
+      }
+    }
+  },
+  {
+    "id": "ws13",
+    "kind": "question",
+    "category_id": "space",
+    "question": "In welchem Jahr wurde erstmals sicher ein Planet um einen sonnenähnlichen Stern entdeckt?",
+    "options": [
+      "1930",
+      "1969",
+      "1995",
+      "2009"
+    ],
+    "correct_index": 2,
+    "explanation": "1995 gelang Michel Mayor und Didier Queloz von der Universität Genf die erste sichere Entdeckung eines Exoplaneten um einen sonnenähnlichen Stern: 51 Pegasi b. Er umkreist seinen Stern in nur 4,2 Tagen.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Exoplaneten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Exoplanet",
+    "source_url": "https://de.wikipedia.org/wiki/Exoplanet",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year was a planet orbiting a Sun-like star first discovered for certain?",
+        "options": [
+          "1930",
+          "1969",
+          "1995",
+          "2009"
+        ],
+        "explanation": "In 1995 Michel Mayor and Didier Queloz of the University of Geneva made the first definitive discovery of an exoplanet orbiting a Sun-like star: 51 Pegasi b. It circles its star in only 4.2 days."
+      }
+    }
+  },
+  {
+    "id": "ws14",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welcher Stern ist der hellste am Nachthimmel?",
+    "options": [
+      "Beteigeuze",
+      "Der Polarstern",
+      "Sirius",
+      "Wega"
+    ],
+    "correct_index": 2,
+    "explanation": "Sirius ist der hellste Stern am Nachthimmel – beinahe doppelt so hell wie der zweithellste, Canopus.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sirius",
+    "source_url": "https://de.wikipedia.org/wiki/Sirius",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which star is the brightest in the night sky?",
+        "options": [
+          "Betelgeuse",
+          "The Pole Star",
+          "Sirius",
+          "Vega"
+        ],
+        "explanation": "Sirius is the brightest star in the night sky – almost twice as bright as the second brightest, Canopus."
+      }
+    }
+  },
+  {
+    "id": "ws15",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Zu welchem Sternbild gehört der Große Wagen?",
+    "options": [
+      "Kassiopeia",
+      "Kleiner Bär",
+      "Orion",
+      "Großer Bär"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Große Wagen ist eine auffällige Gruppe aus sieben hellen Sternen im Sternbild Großer Bär. In Mitteleuropa ist er das ganze Jahr über zu sehen.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Sternbilder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Wagen",
+    "source_url": "https://de.wikipedia.org/wiki/Großer_Wagen",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which constellation does the Big Dipper belong to?",
+        "options": [
+          "Cassiopeia",
+          "Little Bear (Ursa Minor)",
+          "Orion",
+          "Great Bear (Ursa Major)"
+        ],
+        "explanation": "The Big Dipper is a striking group of seven bright stars in the constellation Ursa Major, the Great Bear. In central Europe it can be seen all year round."
+      }
+    }
+  },
+  {
+    "id": "ws16",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wobei hilft der Polarstern?",
+    "options": [
+      "Die Nordrichtung zu finden",
+      "Die Südrichtung zu finden",
+      "Kometen vorherzusagen",
+      "Die Uhrzeit abzulesen"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Polarstern steht nahe dem Nordpol des Himmels, weil die Rotationsachse der Erde derzeit in seine Richtung zeigt. Darum kann man mit ihm die Nordrichtung bestimmen.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Polarstern",
+    "source_url": "https://de.wikipedia.org/wiki/Polarstern",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Pole Star help you with?",
+        "options": [
+          "Finding north",
+          "Finding south",
+          "Predicting comets",
+          "Telling the time"
+        ],
+        "explanation": "The Pole Star is close to the north pole of the sky, because Earth's axis currently points towards it. So it can be used to find north."
+      }
+    }
+  },
+  {
+    "id": "ws17",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie lang dauert ein Tag auf dem Mars – von Mittag zu Mittag?",
+    "options": [
+      "Rund 10 Stunden",
+      "24 Stunden und 39 Minuten",
+      "Rund 7 Erdtage",
+      "Rund 1 Erdjahr"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Marstag, auch Sol genannt, dauert 24 Stunden, 39 Minuten und 35 Sekunden – nur wenig länger als ein Tag auf der Erde.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mars (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Mars_(Planet)",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is a day on Mars – from noon to noon?",
+        "options": [
+          "About 10 hours",
+          "24 hours and 39 minutes",
+          "About 7 Earth days",
+          "About 1 Earth year"
+        ],
+        "explanation": "A Martian day, also called a sol, lasts 24 hours, 39 minutes and 35 seconds – only a little longer than a day on Earth."
+      }
+    }
+  },
+  {
+    "id": "ws18",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welcher Planet wurde 1846 entdeckt, nachdem man seine Position aus Bahnstörungen des Uranus berechnet hatte?",
+    "options": [
+      "Saturn",
+      "Pluto",
+      "Neptun",
+      "Mars"
+    ],
+    "correct_index": 2,
+    "explanation": "Urbain Le Verrier berechnete die Position aus den Bahnstörungen des Uranus, Johann Gottfried Galle entdeckte Neptun dann 1846. Für eine Runde um die Sonne braucht Neptun etwa 165 Jahre.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neptun (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Neptun_(Planet)",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which planet was discovered in 1846 after its position had been calculated from disturbances in the orbit of Uranus?",
+        "options": [
+          "Saturn",
+          "Pluto",
+          "Neptune",
+          "Mars"
+        ],
+        "explanation": "Urbain Le Verrier calculated the position from the disturbances in Uranus's orbit, and Johann Gottfried Galle then discovered Neptune in 1846. Neptune takes about 165 years for one lap around the Sun."
+      }
+    }
+  },
+  {
+    "id": "ws19",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie hieß die erste Raumstation der Welt?",
+    "options": [
+      "Die ISS",
+      "Mir",
+      "Skylab",
+      "Saljut 1"
+    ],
+    "correct_index": 3,
+    "explanation": "Saljut 1 war die erste Raumstation der Welt. Sie startete im April 1971 an Bord einer Proton-Rakete.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saljut 1",
+    "source_url": "https://de.wikipedia.org/wiki/Saljut_1",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the name of the world's first space station?",
+        "options": [
+          "The ISS",
+          "Mir",
+          "Skylab",
+          "Salyut 1"
+        ],
+        "explanation": "Salyut 1 was the world's first space station. It was launched in April 1971 on a Proton rocket."
+      }
+    }
+  },
+  {
+    "id": "ti1",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches Säugetier legt Eier?",
+    "options": [
+      "Der Delfin",
+      "Das Schnabeltier",
+      "Die Fledermaus",
+      "Das Känguru"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Schnabeltier aus Australien ist ein eierlegendes Säugetier.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schnabeltier",
+    "source_url": "https://de.wikipedia.org/wiki/Schnabeltier",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which mammal lays eggs?",
+        "options": [
+          "The dolphin",
+          "The platypus",
+          "The bat",
+          "The kangaroo"
+        ],
+        "explanation": "The platypus from Australia is an egg-laying mammal."
+      }
+    }
+  },
+  {
+    "id": "ti2",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Womit atmen Fische?",
+    "options": [
+      "Mit dem Schwanz",
+      "Mit Lungen",
+      "Mit Kiemen",
+      "Mit den Flossen"
+    ],
+    "correct_index": 2,
+    "explanation": "Kiemen sind ein Organ, das bei vielen Wassertieren dem Blut den im Wasser gelösten Sauerstoff zuführt.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kieme",
+    "source_url": "https://de.wikipedia.org/wiki/Kieme",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do fish breathe with?",
+        "options": [
+          "With their tail",
+          "With lungs",
+          "With gills",
+          "With their fins"
+        ],
+        "explanation": "Gills are an organ that, in many water animals, passes the oxygen dissolved in the water into the blood."
+      }
+    }
+  },
+  {
+    "id": "ti3",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches ist der größte Fisch der Gegenwart?",
+    "options": [
+      "Der Thunfisch",
+      "Der Weiße Hai",
+      "Der Blauwal",
+      "Der Walhai"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Walhai ist der größte Hai und zugleich der größte Fisch der Gegenwart. Er frisst trotzdem vor allem Plankton und kleine Fische, die er aus dem Wasser filtert. Der Blauwal ist kein Fisch, sondern ein Säugetier.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Walhai",
+    "source_url": "https://de.wikipedia.org/wiki/Walhai",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest fish alive today?",
+        "options": [
+          "The tuna",
+          "The great white shark",
+          "The blue whale",
+          "The whale shark"
+        ],
+        "explanation": "The whale shark is the largest shark and also the largest fish alive today. Even so, it mainly eats plankton and small fish that it filters from the water. The blue whale is not a fish but a mammal."
+      }
+    }
+  },
+  {
+    "id": "ti4",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie viele Beine haben Insekten?",
+    "options": [
+      "Sechs",
+      "Acht",
+      "Vier",
+      "Zehn"
+    ],
+    "correct_index": 0,
+    "explanation": "Alle Insekten haben genau drei Beinpaare, also sechs Beine. Ihr Körper gliedert sich in Kopf, Brust und Hinterleib.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Insekten",
+    "source_url": "https://de.wikipedia.org/wiki/Insekten",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many legs do insects have?",
+        "options": [
+          "Six",
+          "Eight",
+          "Four",
+          "Ten"
+        ],
+        "explanation": "All insects have exactly three pairs of legs, so six legs. Their body is divided into head, thorax and abdomen."
+      }
+    }
+  },
+  {
+    "id": "ti5",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wovon ernähren sich Große Pandas fast nur?",
+    "options": [
+      "Von Fisch",
+      "Von Bambus",
+      "Von Honig",
+      "Von Insekten"
+    ],
+    "correct_index": 1,
+    "explanation": "Große Pandas ernähren sich zu 99 % von Bambus, vor allem von jungen Blättern und Sprossen. Ein verlängerter Handwurzelknochen dient ihnen als „Pseudodaumen“ zum Greifen.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Panda",
+    "source_url": "https://de.wikipedia.org/wiki/Großer_Panda",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do giant pandas eat almost exclusively?",
+        "options": [
+          "Fish",
+          "Bamboo",
+          "Honey",
+          "Insects"
+        ],
+        "explanation": "Giant pandas live 99 % on bamboo, mostly young leaves and shoots. An elongated wrist bone serves them as a 'pseudo-thumb' for grasping."
+      }
+    }
+  },
+  {
+    "id": "ti6",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie lange ist eine Afrikanische Elefantenkuh trächtig?",
+    "options": [
+      "Etwa drei Monate",
+      "Etwa neun Monate",
+      "Fast zwei Jahre",
+      "Etwa fünf Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Meist wird nach fast zweijähriger Tragzeit ein Jungtier geboren, das in der Herde der Mutter aufwächst.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Afrikanischer Elefant",
+    "source_url": "https://de.wikipedia.org/wiki/Afrikanischer_Elefant",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is an African elephant cow pregnant?",
+        "options": [
+          "About three months",
+          "About nine months",
+          "Almost two years",
+          "About five years"
+        ],
+        "explanation": "Usually a single calf is born after a pregnancy of almost two years and grows up in its mother's herd."
+      }
+    }
+  },
+  {
+    "id": "ti7",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie weit können Eulen ihren Kopf drehen?",
+    "options": [
+      "Einmal ganz herum",
+      "Bis zu 90 Grad",
+      "Bis zu 180 Grad",
+      "Bis zu 270 Grad"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Augen der Eulen sind unbeweglich. Dafür können sie ihren Kopf bis zu 270° drehen und so ihr Gesichtsfeld stark erweitern.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eulen",
+    "source_url": "https://de.wikipedia.org/wiki/Eulen",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How far can owls turn their head?",
+        "options": [
+          "All the way round",
+          "Up to 90 degrees",
+          "Up to 180 degrees",
+          "Up to 270 degrees"
+        ],
+        "explanation": "Owls' eyes cannot move. Instead they can turn their head up to 270° and so greatly widen their field of view."
+      }
+    }
+  },
+  {
+    "id": "ti8",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wozu wechseln Chamäleons vor allem ihre Farbe?",
+    "options": [
+      "Zur Verständigung mit Artgenossen",
+      "Vor allem zur Tarnung",
+      "Nur bei Angst",
+      "Wenn sie krank sind"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Farbwechsel dient bei Chamäleons nicht in erster Linie der Tarnung, sondern vor allem der Kommunikation mit Artgenossen. Auch die Temperatur spielt mit: Bei Hitze färben sie sich hell, bei Kälte dunkel.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chamäleons",
+    "source_url": "https://de.wikipedia.org/wiki/Chamäleons",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do chameleons mainly change colour for?",
+        "options": [
+          "To communicate with others of their kind",
+          "Mainly for camouflage",
+          "Only when afraid",
+          "When they are ill"
+        ],
+        "explanation": "A chameleon's colour change is not mainly for camouflage but above all for communicating with others of its kind. Temperature plays a part too: in heat they turn pale, in the cold dark."
+      }
+    }
+  },
+  {
+    "id": "ti9",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie heißen die Larven von Fröschen?",
+    "options": [
+      "Raupen",
+      "Kaulquappen",
+      "Maden",
+      "Puppen"
+    ],
+    "correct_index": 1,
+    "explanation": "Kaulquappen sind die Larven der Froschlurche, also ein Entwicklungsstadium nach dem Ei.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Amphibien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaulquappe",
+    "source_url": "https://de.wikipedia.org/wiki/Kaulquappe",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the larvae of frogs called?",
+        "options": [
+          "Caterpillars",
+          "Tadpoles",
+          "Maggots",
+          "Pupae"
+        ],
+        "explanation": "Tadpoles are the larvae of frogs and toads – a stage of development after the egg."
+      }
+    }
+  },
+  {
+    "id": "ti10",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist der lange Stoßzahn des Narwals eigentlich?",
+    "options": [
+      "Eine Flosse",
+      "Ein Horn",
+      "Ein Nasenknochen",
+      "Ein Zahn"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Stoßzahn der Narwal-Männchen ist ein – meist der linke – Eckzahn des Oberkiefers. Er wächst schraubenförmig durch die Oberlippe und kann bis zu drei Meter lang werden.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Wale"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Narwal",
+    "source_url": "https://de.wikipedia.org/wiki/Narwal",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the narwhal's long tusk really?",
+        "options": [
+          "A fin",
+          "A horn",
+          "A nose bone",
+          "A tooth"
+        ],
+        "explanation": "The tusk of narwhal males is a canine tooth of the upper jaw, usually the left one. It grows in a spiral through the upper lip and can be up to three metres long."
+      }
+    }
+  },
+  {
+    "id": "ti11",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Aus wie vielen Abschnitten besteht der Magen einer Kuh und anderer Wiederkäuer meist?",
+    "options": [
+      "Aus vier",
+      "Aus einem",
+      "Aus zwei",
+      "Aus sieben"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Magen von Wiederkäuern besteht meist aus vier Abschnitten: drei Vormägen – Pansen, Netzmagen und Blättermagen – und dem Labmagen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wiederkäuer",
+    "source_url": "https://de.wikipedia.org/wiki/Wiederkäuer",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many parts does the stomach of a cow and other ruminants usually have?",
+        "options": [
+          "Four",
+          "One",
+          "Two",
+          "Seven"
+        ],
+        "explanation": "The stomach of ruminants usually has four parts: three forestomachs – rumen, reticulum and omasum – and the abomasum."
+      }
+    }
+  },
+  {
+    "id": "ti12",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches Landtier hat die größten Augen?",
+    "options": [
+      "Der Elefant",
+      "Der Strauß",
+      "Die Giraffe",
+      "Die Eule"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Augen des Afrikanischen Straußes sind mit 5 Zentimetern Durchmesser die größten aller Landwirbeltiere. Er ist auch der größte lebende Vogel der Erde.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Afrikanischer Strauß",
+    "source_url": "https://de.wikipedia.org/wiki/Afrikanischer_Strauß",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which land animal has the largest eyes?",
+        "options": [
+          "The elephant",
+          "The ostrich",
+          "The giraffe",
+          "The owl"
+        ],
+        "explanation": "The eyes of the ostrich, 5 centimetres across, are the largest of any land vertebrate. It is also the largest living bird on Earth."
+      }
+    }
+  },
+  {
+    "id": "ti13",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches Tier hatte die größten Augen, die jemals untersucht wurden?",
+    "options": [
+      "Ein Strauß",
+      "Ein Blauwal",
+      "Ein Koloss-Kalmar",
+      "Ein Pottwal"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Koloss-Kalmar hatte mit 27 Zentimetern Durchmesser die größten Augen, die jemals untersucht wurden.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Koloss-Kalmar",
+    "source_url": "https://de.wikipedia.org/wiki/Koloss-Kalmar",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animal had the largest eyes ever examined?",
+        "options": [
+          "An ostrich",
+          "A blue whale",
+          "A colossal squid",
+          "A sperm whale"
+        ],
+        "explanation": "A colossal squid had the largest eyes ever examined, 27 centimetres across."
+      }
+    }
+  },
+  {
+    "id": "ti14",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Wale sind für ihren langen Gesang in sich wiederholenden Strophen bekannt?",
+    "options": [
+      "Schweinswale",
+      "Pottwale",
+      "Narwale",
+      "Buckelwale"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Gesang der Buckelwale gehört zu den facettenreichsten Tierlauten überhaupt. Vor allem die Männchen singen – in Strophen, die sich wiederholen und über die Jahre verändern.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Wale"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buckelwal",
+    "source_url": "https://de.wikipedia.org/wiki/Buckelwal",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which whales are known for their long songs made of repeating phrases?",
+        "options": [
+          "Porpoises",
+          "Sperm whales",
+          "Narwhals",
+          "Humpback whales"
+        ],
+        "explanation": "The song of humpback whales is among the most varied animal sounds of all. Mostly the males sing – in phrases that repeat and change over the years."
+      }
+    }
+  },
+  {
+    "id": "ti15",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Womit hebt ein Biber den Wasserstand an seinem Bau an?",
+    "options": [
+      "Mit Dämmen",
+      "Mit Tunneln",
+      "Mit Steinen",
+      "Mit Schlamm im Nest"
+    ],
+    "correct_index": 0,
+    "explanation": "Fällt der Eingang zu seinem Bau trocken, hebt der Biber den Wasserstand mit Dämmen wieder an. Alte Biberburgen können bis zu 12 Meter Durchmesser erreichen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäischer Biber",
+    "source_url": "https://de.wikipedia.org/wiki/Europäischer_Biber",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a beaver use to raise the water level at its home?",
+        "options": [
+          "Dams",
+          "Tunnels",
+          "Stones",
+          "Mud in the nest"
+        ],
+        "explanation": "If the entrance to its home falls dry, the beaver raises the water level again with dams. Old beaver lodges can reach up to 12 metres across."
+      }
+    }
+  },
+  {
+    "id": "ti16",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie viele Arme hat ein Seestern meistens?",
+    "options": [
+      "Acht",
+      "Fünf",
+      "Drei",
+      "Zehn"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Grundgestalt eines Seesterns ist meist ein fünfarmiger Stern.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seesterne",
+    "source_url": "https://de.wikipedia.org/wiki/Seesterne",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many arms does a starfish usually have?",
+        "options": [
+          "Eight",
+          "Five",
+          "Three",
+          "Ten"
+        ],
+        "explanation": "The basic shape of a starfish is usually a five-armed star."
+      }
+    }
+  },
+  {
+    "id": "ti17",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Tiere gelten – neben Kamtschatka- und Kodiakbären – als die größten Raubtiere an Land?",
+    "options": [
+      "Tiger",
+      "Löwen",
+      "Eisbären",
+      "Wölfe"
+    ],
+    "correct_index": 2,
+    "explanation": "Eisbären gelten neben Kamtschatkabären und Kodiakbären als die größten an Land lebenden Raubtiere der Erde. Die größten Eisbären leben in der Nähe der Beringstraße.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eisbär",
+    "source_url": "https://de.wikipedia.org/wiki/Eisbär",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animals – alongside Kamchatka and Kodiak bears – count as the largest predators on land?",
+        "options": [
+          "Tigers",
+          "Lions",
+          "Polar bears",
+          "Wolves"
+        ],
+        "explanation": "Polar bears, alongside Kamchatka bears and Kodiak bears, count as the largest land predators on Earth. The biggest polar bears live near the Bering Strait."
+      }
+    }
+  },
+  {
+    "id": "ti18",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist typisch für Beuteltiere?",
+    "options": [
+      "Sie können fliegen",
+      "Sie legen Eier",
+      "Sie leben nur im Wasser",
+      "Die Jungen wachsen nach der Geburt oft im Beutel der Mutter heran"
+    ],
+    "correct_index": 3,
+    "explanation": "Beuteltiere bringen ihre Jungen in einem sehr frühen Stadium zur Welt; die Jungen wachsen dann oft im Beutel der Mutter heran. Heute gibt es ungefähr 320 Arten, in Australien und Südostasien und in Amerika.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Beuteltiere",
+    "source_url": "https://de.wikipedia.org/wiki/Beuteltiere",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is typical of marsupials?",
+        "options": [
+          "They can fly",
+          "They lay eggs",
+          "They only live in water",
+          "After birth the young often grow up in their mother's pouch"
+        ],
+        "explanation": "Marsupials give birth to their young at a very early stage; the young then often grow up in their mother's pouch. Today there are about 320 species, in Australia and South-East Asia and in the Americas."
+      }
+    }
+  },
+  {
+    "id": "ti19",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was passiert mit dem Geweih eines Hirsches jedes Jahr?",
+    "options": [
+      "Es wird abgeworfen und wächst neu",
+      "Es wird jedes Jahr länger",
+      "Es fällt nur bei alten Tieren ab",
+      "Es färbt sich weiß"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Geweih besteht aus Knochensubstanz. Es wird jedes Jahr gegen Ende des Winters abgeworfen und gleich danach neu gebildet – anders als ein Horn, das ein Leben lang wächst.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geweih",
+    "source_url": "https://de.wikipedia.org/wiki/Geweih",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens to a deer's antlers every year?",
+        "options": [
+          "They are shed and grow back",
+          "They get longer every year",
+          "They only drop off in old animals",
+          "They turn white"
+        ],
+        "explanation": "Antlers are made of bone. They are shed every year towards the end of winter and grow back straight away – unlike a horn, which grows for a lifetime."
+      }
+    }
+  },
+  {
+    "id": "ti20",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie tief können Pottwal-Bullen tauchen?",
+    "options": [
+      "Etwa 10 Meter",
+      "Etwa 100 Meter",
+      "Höchstens 300 Meter",
+      "Mehr als 1000 Meter"
+    ],
+    "correct_index": 3,
+    "explanation": "Pottwale fressen vor allem Tintenfische; die Bullen tauchen dafür in Tiefen von mehr als 1000 Metern. Große Bullen werden über 20 Meter lang – die größten Tiere mit Zähnen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Wale"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pottwal",
+    "source_url": "https://de.wikipedia.org/wiki/Pottwal",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How deep can sperm whale bulls dive?",
+        "options": [
+          "About 10 metres",
+          "About 100 metres",
+          "At most 300 metres",
+          "More than 1,000 metres"
+        ],
+        "explanation": "Sperm whales feed mainly on squid; the bulls dive to depths of more than 1,000 metres to catch them. Large bulls grow over 20 metres long – the largest animals with teeth."
+      }
+    }
+  },
+  {
+    "id": "mk1",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie viele Saiten hat eine Geige?",
+    "options": [
+      "Vier",
+      "Sechs",
+      "Drei",
+      "Fünf"
+    ],
+    "correct_index": 0,
+    "explanation": "Die vier Saiten der Violine sind auf g, d1, a1 und e2 gestimmt. Gestrichen werden sie meist mit den Haaren eines Bogens.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Violine",
+    "source_url": "https://de.wikipedia.org/wiki/Violine",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many strings does a violin have?",
+        "options": [
+          "Four",
+          "Six",
+          "Three",
+          "Five"
+        ],
+        "explanation": "The violin's four strings are tuned to G, D, A and E. They are usually played with the hair of a bow."
+      }
+    }
+  },
+  {
+    "id": "mk2",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Aus wie vielen Linien besteht ein Notensystem meist?",
+    "options": [
+      "Aus vier",
+      "Aus fünf",
+      "Aus sechs",
+      "Aus drei"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Notensystem besteht meist aus fünf parallelen Linien, in denen die Noten angeordnet werden.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Noten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Notensystem",
+    "source_url": "https://de.wikipedia.org/wiki/Notensystem",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many lines does a musical staff usually have?",
+        "options": [
+          "Four",
+          "Five",
+          "Six",
+          "Three"
+        ],
+        "explanation": "A staff usually consists of five parallel lines on which the notes are placed."
+      }
+    }
+  },
+  {
+    "id": "mk3",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welcher Notenschlüssel legt das g auf der zweiten Notenlinie fest?",
+    "options": [
+      "Der Altschlüssel",
+      "Der Bassschlüssel",
+      "Der Violinschlüssel",
+      "Der Tenorschlüssel"
+    ],
+    "correct_index": 2,
+    "explanation": "Der heute allgemein gebräuchliche Violinschlüssel ist ein G-Schlüssel: Er legt das g1 auf der zweiten Notenlinie von unten fest.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Noten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Notenschlüssel",
+    "source_url": "https://de.wikipedia.org/wiki/Notenschlüssel",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which clef fixes the G on the second line of the staff?",
+        "options": [
+          "The alto clef",
+          "The bass clef",
+          "The treble clef",
+          "The tenor clef"
+        ],
+        "explanation": "The treble clef in common use today is a G clef: it fixes the G above middle C on the second line from the bottom."
+      }
+    }
+  },
+  {
+    "id": "mk4",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Zu welcher Instrumentenfamilie gehört das Saxophon, obwohl es aus Metall ist?",
+    "options": [
+      "Zu den Saiteninstrumenten",
+      "Zu den Blechblasinstrumenten",
+      "Zu den Schlaginstrumenten",
+      "Zu den Holzblasinstrumenten"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Saxophon zählt zu den Holzblasinstrumenten, weil sein Ton mit einem aufschlagenden Rohrblatt am Mundstück erzeugt wird – nicht wegen des Materials.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saxophon",
+    "source_url": "https://de.wikipedia.org/wiki/Saxophon",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which family of instruments does the saxophone belong to, even though it is made of metal?",
+        "options": [
+          "The string instruments",
+          "The brass instruments",
+          "The percussion instruments",
+          "The woodwinds"
+        ],
+        "explanation": "The saxophone counts as a woodwind instrument because its sound is made with a reed beating against the mouthpiece – not because of its material."
+      }
+    }
+  },
+  {
+    "id": "mk5",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer erfand 1840 das Saxophon?",
+    "options": [
+      "Adolphe Sax",
+      "Johann Sebastian Bach",
+      "Antonio Stradivari",
+      "Theobald Böhm"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Saxophon wurde von dem Belgier Adolphe Sax im Jahr 1840 erfunden. Er wollte ein Holzblasinstrument schaffen, das klanglich zwischen Klarinette und Oboe liegt.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saxophon",
+    "source_url": "https://de.wikipedia.org/wiki/Saxophon",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who invented the saxophone in 1840?",
+        "options": [
+          "Adolphe Sax",
+          "Johann Sebastian Bach",
+          "Antonio Stradivari",
+          "Theobald Böhm"
+        ],
+        "explanation": "The saxophone was invented in 1840 by the Belgian Adolphe Sax. He wanted to create a woodwind instrument whose sound lies between the clarinet and the oboe."
+      }
+    }
+  },
+  {
+    "id": "mk6",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welche Instrumente spielen in einem Streichquartett?",
+    "options": [
+      "Vier Violinen",
+      "Zwei Violinen, Bratsche und Cello",
+      "Violine, Klavier, Flöte und Cello",
+      "Zwei Gitarren und zwei Kontrabässe"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Streichquartett besteht aus zwei Violinen, Bratsche (Viola) und Violoncello. Seit der Wiener Klassik gilt es als bedeutendste Gattung der Kammermusik.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Streichquartett",
+    "source_url": "https://de.wikipedia.org/wiki/Streichquartett",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which instruments play in a string quartet?",
+        "options": [
+          "Four violins",
+          "Two violins, viola and cello",
+          "Violin, piano, flute and cello",
+          "Two guitars and two double basses"
+        ],
+        "explanation": "A string quartet consists of two violins, viola and cello. Since the Viennese Classical period it has counted as the most important genre of chamber music."
+      }
+    }
+  },
+  {
+    "id": "mk7",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welches ist das tiefste und größte gebräuchliche Streichinstrument?",
+    "options": [
+      "Die Bratsche",
+      "Das Cello",
+      "Der Kontrabass",
+      "Die Geige"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Kontrabass ist das tiefste und größte gebräuchliche Streichinstrument.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kontrabass",
+    "source_url": "https://de.wikipedia.org/wiki/Kontrabass",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the lowest and largest string instrument in common use?",
+        "options": [
+          "The viola",
+          "The cello",
+          "The double bass",
+          "The violin"
+        ],
+        "explanation": "The double bass is the lowest and largest string instrument in common use."
+      }
+    }
+  },
+  {
+    "id": "mk8",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie heißt die höchste menschliche Stimmlage?",
+    "options": [
+      "Bass",
+      "Alt",
+      "Tenor",
+      "Sopran"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Sopran ist die höchste menschliche Stimmlage und wird meist von Frauen gesungen. Das Wort kommt vom italienischen „sopra“, also „über“.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Stimme"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sopran",
+    "source_url": "https://de.wikipedia.org/wiki/Sopran",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the highest human singing voice called?",
+        "options": [
+          "Bass",
+          "Alto",
+          "Tenor",
+          "Soprano"
+        ],
+        "explanation": "The soprano is the highest human voice and is mostly sung by women. The word comes from the Italian 'sopra', meaning 'above'."
+      }
+    }
+  },
+  {
+    "id": "mk9",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welche Dur-Tonart wird ganz ohne Vorzeichen geschrieben?",
+    "options": [
+      "C-Dur",
+      "G-Dur",
+      "F-Dur",
+      "D-Dur"
+    ],
+    "correct_index": 0,
+    "explanation": "C-Dur baut auf dem Grundton c auf und wird ohne Vorzeichen geschrieben. Deshalb gibt es auf dem Klavier besonders viele leichte Stücke für Anfänger in C-Dur.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Tonarten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: C-Dur",
+    "source_url": "https://de.wikipedia.org/wiki/C-Dur",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which major key is written with no sharps or flats at all?",
+        "options": [
+          "C major",
+          "G major",
+          "F major",
+          "D major"
+        ],
+        "explanation": "C major is built on the root note C and is written without any sharps or flats. That is why so many easy piano pieces for beginners are in C major."
+      }
+    }
+  },
+  {
+    "id": "mk10",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was hat die UNESCO 2017 in die Liste des Immateriellen Kulturerbes aufgenommen?",
+    "options": [
+      "Orgelbau und Orgelmusik",
+      "Das Klavierstimmen",
+      "Den Bau von E-Gitarren",
+      "Die Mundharmonika"
+    ],
+    "correct_index": 0,
+    "explanation": "Die UNESCO hat Orgelbau und Orgelmusik 2017 in die Liste des Immateriellen Kulturerbes aufgenommen. Die drei Hauptteile einer Orgel sind Pfeifenwerk, Windwerk und Regierwerk.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Orgel",
+    "source_url": "https://de.wikipedia.org/wiki/Orgel",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did UNESCO add to its list of Intangible Cultural Heritage in 2017?",
+        "options": [
+          "Organ building and organ music",
+          "Piano tuning",
+          "Building electric guitars",
+          "The harmonica"
+        ],
+        "explanation": "UNESCO added organ building and organ music to its list of Intangible Cultural Heritage in 2017. The three main parts of an organ are the pipes, the wind system and the action."
+      }
+    }
+  },
+  {
+    "id": "mk11",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was gibt ein Metronom vor?",
+    "options": [
+      "Die Tonhöhe",
+      "Ein gleichmäßiges Tempo",
+      "Die Lautstärke",
+      "Die Tonart"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Metronom gibt durch akustische Impulse in gleichmäßigen Zeitabständen ein konstantes Tempo vor.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Rhythmus"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Metronom",
+    "source_url": "https://de.wikipedia.org/wiki/Metronom",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a metronome set?",
+        "options": [
+          "The pitch",
+          "A steady tempo",
+          "The volume",
+          "The key"
+        ],
+        "explanation": "A metronome sets a constant tempo with clicks at even intervals."
+      }
+    }
+  },
+  {
+    "id": "mk12",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welches ist das tiefste aller Blechblasinstrumente?",
+    "options": [
+      "Das Horn",
+      "Die Posaune",
+      "Die Tuba",
+      "Die Trompete"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Tuba ist das tiefste aller Blechblasinstrumente. Ihr Name ist lateinisch und bedeutet „Rohr“ oder „Röhre“.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tuba",
+    "source_url": "https://de.wikipedia.org/wiki/Tuba",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the lowest of all brass instruments?",
+        "options": [
+          "The horn",
+          "The trombone",
+          "The tuba",
+          "The trumpet"
+        ],
+        "explanation": "The tuba is the lowest of all brass instruments. Its name is Latin for 'tube' or 'pipe'."
+      }
+    }
+  },
+  {
+    "id": "mk13",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In wie viele Halbtöne ist eine Oktave im heute üblichen Tonsystem geteilt?",
+    "options": [
+      "In zehn",
+      "In acht",
+      "In sieben",
+      "In zwölf"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Halbton ist das kleinste Intervall des heute verbreiteten zwölfstufigen Tonsystems. Im gleichstufig temperierten System entspricht er einem Zwölftel der Oktave.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Töne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Halbtonschritt",
+    "source_url": "https://de.wikipedia.org/wiki/Halbtonschritt",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Into how many semitones is an octave divided in today's usual tuning system?",
+        "options": [
+          "Ten",
+          "Eight",
+          "Seven",
+          "Twelve"
+        ],
+        "explanation": "The semitone is the smallest interval of the twelve-tone system widely used today. In equal temperament it is one twelfth of an octave."
+      }
+    }
+  },
+  {
+    "id": "mk14",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Aus welchem Jahr stammt Beethovens Klavierstück „Für Elise“?",
+    "options": [
+      "1750",
+      "1810",
+      "1850",
+      "1910"
+    ],
+    "correct_index": 1,
+    "explanation": "„Für Elise“ ist ein Klavierstück in a-Moll von Ludwig van Beethoven aus dem Jahr 1810 – es gehört zu seinen berühmtesten Werken.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Für Elise",
+    "source_url": "https://de.wikipedia.org/wiki/Für_Elise",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did Beethoven write the piano piece 'Für Elise'?",
+        "options": [
+          "1750",
+          "1810",
+          "1850",
+          "1910"
+        ],
+        "explanation": "'Für Elise' is a piano piece in A minor by Ludwig van Beethoven from 1810 – one of his most famous works."
+      }
+    }
+  },
+  {
+    "id": "mk15",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was zeigt ein Dirigent mit dem Taktstock an?",
+    "options": [
+      "Die Pausen für das Publikum",
+      "Takt, Einsätze und Betonungen",
+      "Welches Instrument zu laut ist",
+      "Den Text der Lieder"
+    ],
+    "correct_index": 1,
+    "explanation": "Mit dem Taktstock, auch Dirigentenstab genannt, zeigt der Dirigent dem Ensemble den Takt an, gibt Einsätze und verdeutlicht Betonungen.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Orchester"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Taktstock",
+    "source_url": "https://de.wikipedia.org/wiki/Taktstock",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a conductor show with the baton?",
+        "options": [
+          "The breaks for the audience",
+          "The beat, entries and accents",
+          "Which instrument is too loud",
+          "The words of the songs"
+        ],
+        "explanation": "With the baton, also called a conductor's stick, the conductor shows the ensemble the beat, gives entries and makes accents clear."
+      }
+    }
+  },
+  {
+    "id": "mk16",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ist typisch für eine Fuge?",
+    "options": [
+      "Sie hat keinen Rhythmus",
+      "Alle singen dieselbe Melodie gleichzeitig",
+      "Ein Thema wird in mehreren Stimmen zeitversetzt wiederholt",
+      "Sie wird nur auf Trommeln gespielt"
+    ],
+    "correct_index": 2,
+    "explanation": "In einer Fuge trägt zuerst eine Stimme das meist kurze Thema vor; dann setzen weitere Stimmen zeitlich versetzt mit demselben Thema auf anderen Tonhöhen ein.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Formen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fuge (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Fuge_(Musik)",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is typical of a fugue?",
+        "options": [
+          "It has no rhythm",
+          "Everyone sings the same melody at the same time",
+          "A theme is repeated in several voices, one after another",
+          "It is played only on drums"
+        ],
+        "explanation": "In a fugue one voice first presents the theme, which is usually short; then further voices come in one after another with the same theme at different pitches."
+      }
+    }
+  },
+  {
+    "id": "mk17",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Aus welcher Region stammt der Flamenco?",
+    "options": [
+      "Aus Sizilien",
+      "Aus Bayern",
+      "Aus Schottland",
+      "Aus Andalusien"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Flamenco ist ein Kunstgenre aus Andalusien und angrenzenden Regionen, mit Liedern, Tänzen und typischer Gitarrenbegleitung. Seit 2010 gehört er zum Immateriellen Kulturerbe.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Tanz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flamenco",
+    "source_url": "https://de.wikipedia.org/wiki/Flamenco",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which region does flamenco come from?",
+        "options": [
+          "Sicily",
+          "Bavaria",
+          "Scotland",
+          "Andalusia"
+        ],
+        "explanation": "Flamenco is an art form from Andalusia and neighbouring regions, with songs, dances and typical guitar accompaniment. Since 2010 it has been part of the Intangible Cultural Heritage."
+      }
+    }
+  },
+  {
+    "id": "mk18",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Aus wie vielen verschiedenen Tönen bestehen pentatonische Tonleitern?",
+    "options": [
+      "Aus fünf",
+      "Aus sieben",
+      "Aus drei",
+      "Aus zwölf"
+    ],
+    "correct_index": 0,
+    "explanation": "Pentatonik heißt „Fünfton-Musik“: Ihre Tonleitern bestehen aus fünf verschiedenen Tönen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Töne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pentatonik",
+    "source_url": "https://de.wikipedia.org/wiki/Pentatonik",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many different notes do pentatonic scales have?",
+        "options": [
+          "Five",
+          "Seven",
+          "Three",
+          "Twelve"
+        ],
+        "explanation": "Pentatonic means 'five-tone music': its scales are made of five different notes."
+      }
+    }
+  },
+  {
+    "id": "mk19",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Von welchem Instrumentenbauer stammt das erste Klavier – ein Cembalo, das leise und laut spielen konnte?",
+    "options": [
+      "Antonio Stradivari",
+      "Bartolomeo Cristofori",
+      "Henry Steinway",
+      "Johann Sebastian Bach"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Inventar aus dem Jahr 1700 listet Cristoforis „arpicembalo che fà il piano e il forte“ auf – ein Cembalo, das in unterschiedlicher Lautstärke gespielt werden kann. Es wird meist auf 1698 datiert und gilt als erstes Klavier.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bartolomeo Cristofori",
+    "source_url": "https://de.wikipedia.org/wiki/Bartolomeo_Cristofori",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which instrument maker built the first piano – a harpsichord that could play soft and loud?",
+        "options": [
+          "Antonio Stradivari",
+          "Bartolomeo Cristofori",
+          "Henry Steinway",
+          "Johann Sebastian Bach"
+        ],
+        "explanation": "An inventory from 1700 lists Cristofori's 'arpicembalo che fà il piano e il forte' – a harpsichord that can be played at different volumes. It is usually dated to 1698 and counts as the first piano."
+      }
+    }
+  },
+  {
+    "id": "mk20",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Um wie viel verlängert ein Punkt hinter einer Note ihren Wert?",
+    "options": [
+      "Gar nicht",
+      "Um das Doppelte",
+      "Um ein Viertel",
+      "Um die Hälfte"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Punkt hinter einer Note oder Pause verlängert ihren Wert um die Hälfte – also um die Länge des nächstkleineren Notenwertes.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Noten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Notenwert",
+    "source_url": "https://de.wikipedia.org/wiki/Notenwert",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "By how much does a dot after a note lengthen it?",
+        "options": [
+          "Not at all",
+          "By double",
+          "By a quarter",
+          "By half"
+        ],
+        "explanation": "A dot after a note or rest lengthens it by half – that is, by the length of the next smaller note value."
+      }
+    }
+  },
+  {
+    "id": "kn1",
+    "kind": "question",
+    "category_id": "art",
+    "question": "In welchem Land wurde 1908 die rund 29.500 Jahre alte „Venus von Willendorf“ gefunden?",
+    "options": [
+      "In Ägypten",
+      "In Frankreich",
+      "In Griechenland",
+      "In Österreich"
+    ],
+    "correct_index": 3,
+    "explanation": "Die rund 11 cm große Figur aus der Altsteinzeit wurde 1908 bei Bauarbeiten in Willendorf in der Wachau gefunden. Sie ist Österreichs bekanntester archäologischer Fund und steht im Naturhistorischen Museum Wien.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Altsteinzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Venus von Willendorf",
+    "source_url": "https://de.wikipedia.org/wiki/Venus_von_Willendorf",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country was the roughly 29,500-year-old “Venus of Willendorf” found in 1908?",
+        "options": [
+          "In Egypt",
+          "In France",
+          "In Greece",
+          "In Austria"
+        ],
+        "explanation": "The Stone Age figure, about 11 cm tall, was found in 1908 during construction work in Willendorf in the Wachau valley. It is Austria's best-known archaeological find and is on display at the Natural History Museum in Vienna."
+      }
+    }
+  },
+  {
+    "id": "kn2",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wer entdeckte 1940 die Höhle von Lascaux mit ihren berühmten Höhlenmalereien?",
+    "options": [
+      "Vier junge Männer",
+      "Ein Bauer beim Pflügen",
+      "Eine Forschergruppe aus Paris",
+      "Ein Bergwerksarbeiter"
+    ],
+    "correct_index": 0,
+    "explanation": "Am 12. September 1940 entdeckten vier junge Männer die Höhle in Südfrankreich. Ihre Malereien zeigen vor allem Tiere wie Rinder, Pferde und Hirsche. Seit 1979 gehört sie zum UNESCO-Welterbe.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Altsteinzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Höhle von Lascaux",
+    "source_url": "https://de.wikipedia.org/wiki/Höhle_von_Lascaux",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who discovered the Lascaux cave with its famous cave paintings in 1940?",
+        "options": [
+          "Four young men",
+          "A farmer ploughing his field",
+          "A research team from Paris",
+          "A mine worker"
+        ],
+        "explanation": "On 12 September 1940 four young men discovered the cave in southern France. Its paintings mainly show animals such as cattle, horses and deer. It has been a UNESCO World Heritage Site since 1979."
+      }
+    }
+  },
+  {
+    "id": "kn3",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Aus wie vielen Tafeln besteht ein Triptychon, wie man es oft als Altarbild findet?",
+    "options": [
+      "Aus zwei",
+      "Aus drei",
+      "Aus vier",
+      "Aus sieben"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Triptychon besteht aus einer Mitteltafel und zwei meist schmaleren Flügeln, die oft mit Scharnieren verbunden sind. Der Name kommt vom griechischen Wort für „in drei Teile gefaltet“.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Triptychon",
+    "source_url": "https://de.wikipedia.org/wiki/Triptychon",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many panels does a triptych have, as often found in altarpieces?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Seven"
+        ],
+        "explanation": "A triptych consists of a central panel and two usually narrower wings, often joined with hinges. The name comes from the Greek word for “folded in three”."
+      }
+    }
+  },
+  {
+    "id": "kn4",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie heißt ein einzelnes Steinchen eines Mosaiks?",
+    "options": [
+      "Lasur",
+      "Pixel",
+      "Tessera",
+      "Fresko"
+    ],
+    "correct_index": 2,
+    "explanation": "Mosaike entstehen aus vielen kleinen, meist würfelförmigen Teilchen aus Stein oder Glas. Ein einzelnes Steinchen heißt Tessera. Das Wort Mosaik bedeutet ursprünglich „den Musen gewidmet(es Werk)“.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mosaik",
+    "source_url": "https://de.wikipedia.org/wiki/Mosaik",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a single small stone in a mosaic called?",
+        "options": [
+          "Glaze",
+          "Pixel",
+          "Tessera",
+          "Fresco"
+        ],
+        "explanation": "Mosaics are made of many small, mostly cube-shaped pieces of stone or glass. A single piece is called a tessera. The word mosaic originally means “(a work) dedicated to the Muses”."
+      }
+    }
+  },
+  {
+    "id": "kn5",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet das japanische Wort „Origami“?",
+    "options": [
+      "Holz schnitzen",
+      "Papier schneiden",
+      "Bilder malen",
+      "Papier falten"
+    ],
+    "correct_index": 3,
+    "explanation": "Origami kommt von „oru“ für falten und „kami“ für Papier. Aus einem meist quadratischen Blatt entstehen durch Falten Tiere, Papierflieger oder geometrische Körper.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Origami",
+    "source_url": "https://de.wikipedia.org/wiki/Origami",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Japanese word “origami” mean?",
+        "options": [
+          "Carving wood",
+          "Cutting paper",
+          "Painting pictures",
+          "Folding paper"
+        ],
+        "explanation": "Origami comes from “oru” for folding and “kami” for paper. Folding a usually square sheet creates animals, paper planes or geometric shapes."
+      }
+    }
+  },
+  {
+    "id": "kn6",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was passiert laut einer japanischen Legende, wenn man tausend Origami-Kraniche faltet?",
+    "options": [
+      "Ein Wunsch geht in Erfüllung",
+      "Man wird zum Meister ernannt",
+      "Es beginnt zu regnen",
+      "Die Kraniche fliegen davon"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach der Legende erfüllen die Götter demjenigen einen Wunsch, der tausend Origami-Kraniche faltet. Der Kranich gehört zu den ältesten traditionellen Faltmodellen Japans.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Origami",
+    "source_url": "https://de.wikipedia.org/wiki/Origami",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to a Japanese legend, what happens if you fold a thousand origami cranes?",
+        "options": [
+          "A wish comes true",
+          "You are named a master",
+          "It starts to rain",
+          "The cranes fly away"
+        ],
+        "explanation": "According to the legend, the gods grant a wish to anyone who folds a thousand origami cranes. The crane is one of Japan's oldest traditional folding models."
+      }
+    }
+  },
+  {
+    "id": "kn7",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was schimmert bei einem Aquarell durch die dünnen Wasserfarben hindurch?",
+    "options": [
+      "Eine Goldschicht",
+      "Der weiße Malgrund",
+      "Eine schwarze Grundierung",
+      "Ein Ölfirnis"
+    ],
+    "correct_index": 1,
+    "explanation": "Aquarellfarben decken nicht. Anders als bei Gouache und Tempera schimmert der weiße Malgrund durch und gibt den Farben Tiefe und Leuchtkraft. Der Name kommt von lateinisch aqua für Wasser.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aquarellmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Aquarellmalerei",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What shows through the thin water colours of a watercolour painting?",
+        "options": [
+          "A layer of gold",
+          "The white ground",
+          "A black primer",
+          "An oil varnish"
+        ],
+        "explanation": "Watercolours are not opaque. Unlike gouache and tempera, the white ground shines through and gives the colours depth and brilliance. The name comes from the Latin aqua for water."
+      }
+    }
+  },
+  {
+    "id": "kn8",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welches Tier malte Albrecht Dürer 1502 in seiner wohl bekanntesten Naturstudie?",
+    "options": [
+      "Einen Igel",
+      "Einen Fuchs",
+      "Einen Feldhasen",
+      "Einen Biber"
+    ],
+    "correct_index": 2,
+    "explanation": "Dürers „Feldhase“ von 1502 ist ein Aquarell und die bekannteste seiner Naturstudien. Das Original gehört der Albertina in Wien und wird nach Absprache mit dem Denkmalamt nur alle fünf Jahre zweimal ausgestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Feldhase (Dürer)",
+    "source_url": "https://de.wikipedia.org/wiki/Feldhase_(Dürer)",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animal did Albrecht Dürer paint in 1502 in probably his best-known nature study?",
+        "options": [
+          "A hedgehog",
+          "A fox",
+          "A hare",
+          "A beaver"
+        ],
+        "explanation": "Dürer's “Young Hare” from 1502 is a watercolour and the best known of his nature studies. The original belongs to the Albertina in Vienna and, by agreement with the heritage office, is shown only twice every five years."
+      }
+    }
+  },
+  {
+    "id": "kn9",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Worauf schwebt die Göttin auf Botticellis Gemälde „Die Geburt der Venus“ übers Meer?",
+    "options": [
+      "Auf einem Boot",
+      "Auf einem Delfin",
+      "Auf einer Wolke",
+      "Auf einer Muschel"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Kunsthistoriker Jacob Burckhardt beschrieb das Bild als „auf einer Muschel über die Flut schwebende Venus“. Das Gemälde hängt in den Uffizien in Florenz.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Geburt der Venus (Botticelli)",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Geburt_der_Venus_(Botticelli)",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the goddess float on across the sea in Botticelli's painting “The Birth of Venus”?",
+        "options": [
+          "On a boat",
+          "On a dolphin",
+          "On a cloud",
+          "On a shell"
+        ],
+        "explanation": "The art historian Jacob Burckhardt described the picture as Venus “floating over the waves on a shell”. The painting hangs in the Uffizi in Florence."
+      }
+    }
+  },
+  {
+    "id": "kn10",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Maler schuf um 1665 „Das Mädchen mit dem Perlenohrring“?",
+    "options": [
+      "Rembrandt van Rijn",
+      "Jan Vermeer",
+      "Peter Paul Rubens",
+      "Albrecht Dürer"
+    ],
+    "correct_index": 1,
+    "explanation": "Es ist das populärste Gemälde Jan Vermeers – nur 45 Zentimeter hoch und im Mauritshuis in Den Haag zu sehen. Wer das Mädchen war, ist nicht bekannt.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Das Mädchen mit dem Perlenohrring",
+    "source_url": "https://de.wikipedia.org/wiki/Das_Mädchen_mit_dem_Perlenohrring",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which painter created “Girl with a Pearl Earring” around 1665?",
+        "options": [
+          "Rembrandt van Rijn",
+          "Johannes Vermeer",
+          "Peter Paul Rubens",
+          "Albrecht Dürer"
+        ],
+        "explanation": "It is Johannes Vermeer's most popular painting – only 45 centimetres tall and on display at the Mauritshuis in The Hague. Who the girl was is not known."
+      }
+    }
+  },
+  {
+    "id": "kn11",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was stimmt am Titel von Rembrandts Gemälde „Die Nachtwache“ (1642) nicht?",
+    "options": [
+      "Es hängt gar nicht in Amsterdam",
+      "Es zeigt Musiker statt Schützen",
+      "Die Szene spielt sicher nicht in der Nacht",
+      "Es wurde erst nach Rembrandts Tod fertig"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name „Nachtwache“ ist erst seit 1781 belegt. Gealterter Firnis, Staub und Ruß hatten das Bild verdunkelt – die Szene spielt aber sicher nicht in der Nacht. Das Gemälde hängt im Rijksmuseum Amsterdam.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Nachtwache",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Nachtwache",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is wrong with the title of Rembrandt's painting “The Night Watch” (1642)?",
+        "options": [
+          "It doesn't hang in Amsterdam at all",
+          "It shows musicians, not militiamen",
+          "The scene certainly does not take place at night",
+          "It was only finished after Rembrandt's death"
+        ],
+        "explanation": "The name “Night Watch” is only recorded from 1781. Aged varnish, dust and soot had darkened the picture – but the scene certainly does not take place at night. The painting hangs in the Rijksmuseum in Amsterdam."
+      }
+    }
+  },
+  {
+    "id": "kn12",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Maler schuf das Gemälde „Der Kuss“ in seiner „goldenen Phase“?",
+    "options": [
+      "Edvard Munch",
+      "Egon Schiele",
+      "Claude Monet",
+      "Gustav Klimt"
+    ],
+    "correct_index": 3,
+    "explanation": "Gustav Klimt malte „Der Kuss“ 1908 und vollendete es 1909. Es gilt als sein bekanntestes Gemälde und hängt bis heute im Belvedere in Wien.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Kuss (Klimt)",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Kuss_(Klimt)",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which painter created “The Kiss” during his “golden phase”?",
+        "options": [
+          "Edvard Munch",
+          "Egon Schiele",
+          "Claude Monet",
+          "Gustav Klimt"
+        ],
+        "explanation": "Gustav Klimt painted “The Kiss” in 1908 and finished it in 1909. It is considered his best-known painting and still hangs in the Belvedere in Vienna."
+      }
+    }
+  },
+  {
+    "id": "kn13",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was zerfließt auf Salvador Dalís bekanntestem Gemälde „Die Beständigkeit der Erinnerung“?",
+    "options": [
+      "Taschenuhren",
+      "Kerzen",
+      "Eiswürfel",
+      "Schneemänner"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Bild von 1931 zeigt drei zerfließende Taschenuhren vor einer Felsküste. Es ist nur 24,1 mal 33 Zentimeter groß.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Beständigkeit der Erinnerung",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Beständigkeit_der_Erinnerung",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is melting in Salvador Dalí's best-known painting “The Persistence of Memory”?",
+        "options": [
+          "Pocket watches",
+          "Candles",
+          "Ice cubes",
+          "Snowmen"
+        ],
+        "explanation": "The 1931 picture shows three melting pocket watches in front of a rocky coast. It measures only 24.1 by 33 centimetres."
+      }
+    }
+  },
+  {
+    "id": "kn14",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche beiden Künstler gaben 1912 den Almanach „Der Blaue Reiter“ heraus?",
+    "options": [
+      "Pablo Picasso und Georges Braque",
+      "Wassily Kandinsky und Franz Marc",
+      "Claude Monet und Édouard Manet",
+      "Gustav Klimt und Egon Schiele"
+    ],
+    "correct_index": 1,
+    "explanation": "Kandinsky und Marc waren die alleinigen Herausgeber des Almanachs und zeigten 1911 und 1912 zwei Ausstellungen in München. Ihr Werk wird dem deutschen Expressionismus zugeordnet.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Blaue Reiter",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Blaue_Reiter",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two artists published the almanac “Der Blaue Reiter” (The Blue Rider) in 1912?",
+        "options": [
+          "Pablo Picasso and Georges Braque",
+          "Wassily Kandinsky and Franz Marc",
+          "Claude Monet and Édouard Manet",
+          "Gustav Klimt and Egon Schiele"
+        ],
+        "explanation": "Kandinsky and Marc were the sole editors of the almanac and organised two exhibitions in Munich in 1911 and 1912. Their work belongs to German Expressionism."
+      }
+    }
+  },
+  {
+    "id": "kn15",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woher hat der Blauton Ultramarin seinen Namen?",
+    "options": [
+      "Er hat die Farbe des tiefsten Ozeans",
+      "Er wurde zuerst im Ural gefunden",
+      "Das Gestein dafür kam „über das Meer“ nach Europa",
+      "Ein Maler namens Ultra erfand ihn"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Pigment wurde früher aus dem blauen Gestein Lapislazuli gewonnen und war sehr kostbar. Die besten Sorten kamen schon im Mittelalter aus Afghanistan über Venedig nach Europa – also „über das Meer“.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Farben"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ultramarin",
+    "source_url": "https://de.wikipedia.org/wiki/Ultramarin",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the blue colour ultramarine get its name from?",
+        "options": [
+          "It is the colour of the deepest ocean",
+          "It was first found in the Ural mountains",
+          "The stone for it came to Europe “from beyond the sea”",
+          "A painter called Ultra invented it"
+        ],
+        "explanation": "The pigment used to be made from the blue stone lapis lazuli and was very precious. Already in the Middle Ages the best kinds came from Afghanistan via Venice to Europe – “from beyond the sea”."
+      }
+    }
+  },
+  {
+    "id": "kn16",
+    "kind": "question",
+    "category_id": "art",
+    "question": "In welcher Stadt steht das Kunstmuseum Prado?",
+    "options": [
+      "Barcelona",
+      "Lissabon",
+      "Rom",
+      "Madrid"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Prado in Madrid ist eines der größten Kunstmuseen der Welt und hat die weltweit beste Sammlung spanischer Maler. 2025 kamen rund 3,5 Millionen Besucher.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Museen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Museo del Prado",
+    "source_url": "https://de.wikipedia.org/wiki/Museo_del_Prado",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is the Prado art museum?",
+        "options": [
+          "Barcelona",
+          "Lisbon",
+          "Rome",
+          "Madrid"
+        ],
+        "explanation": "The Prado in Madrid is one of the largest art museums in the world and has the world's best collection of Spanish painters. In 2025 it had about 3.5 million visitors."
+      }
+    }
+  },
+  {
+    "id": "kn17",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was zeigen die 32 Leinwände von Andy Warhols Pop-Art-Werk „Campbell’s Soup Cans“?",
+    "options": [
+      "Dosensuppen",
+      "Autos",
+      "Briefmarken",
+      "Spielkarten"
+    ],
+    "correct_index": 0,
+    "explanation": "Jede der 32 Leinwände zeigt eine Sorte Dosensuppe, die die Campbell Soup Company damals anbot. Warhol stellte das Werk zwischen 1961 und 1962 im Siebdruckverfahren her.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Pop Art"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Campbell’s Soup Cans",
+    "source_url": "https://de.wikipedia.org/wiki/Campbell’s_Soup_Cans",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the 32 canvases of Andy Warhol's pop art work “Campbell's Soup Cans” show?",
+        "options": [
+          "Canned soups",
+          "Cars",
+          "Stamps",
+          "Playing cards"
+        ],
+        "explanation": "Each of the 32 canvases shows one of the canned soups the Campbell Soup Company sold at the time. Warhol made the work between 1961 and 1962 using screen printing."
+      }
+    }
+  },
+  {
+    "id": "kn18",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Die „Venus von Milo“ im Louvre zeigt eigentlich eine griechische Göttin. Welche?",
+    "options": [
+      "Athene",
+      "Aphrodite",
+      "Hera",
+      "Artemis"
+    ],
+    "correct_index": 1,
+    "explanation": "Die 2,02 Meter hohe Marmorskulptur stellt Aphrodite dar und wurde 1820 auf der griechischen Insel Milos gefunden. Den Namen Venus bekam sie nach der römischen Entsprechung der Göttin.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Venus von Milo",
+    "source_url": "https://de.wikipedia.org/wiki/Venus_von_Milo",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The “Venus de Milo” in the Louvre actually shows a Greek goddess. Which one?",
+        "options": [
+          "Athena",
+          "Aphrodite",
+          "Hera",
+          "Artemis"
+        ],
+        "explanation": "The 2.02-metre marble sculpture depicts Aphrodite and was found in 1820 on the Greek island of Milos. It was named Venus after the goddess's Roman counterpart."
+      }
+    }
+  },
+  {
+    "id": "kn19",
+    "kind": "question",
+    "category_id": "art",
+    "question": "In welcher Stadt wurde 1916 die Kunstbewegung Dada gegründet?",
+    "options": [
+      "Berlin",
+      "Paris",
+      "Zürich",
+      "Wien"
+    ],
+    "correct_index": 2,
+    "explanation": "Hugo Ball, Emmy Hennings, Hans Arp und andere gründeten Dada 1916 in Zürich. Die Bewegung lehnte „konventionelle“ Kunst ab und parodierte sie oft.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dada",
+    "source_url": "https://de.wikipedia.org/wiki/Dada",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city was the art movement Dada founded in 1916?",
+        "options": [
+          "Berlin",
+          "Paris",
+          "Zurich",
+          "Vienna"
+        ],
+        "explanation": "Hugo Ball, Emmy Hennings, Hans Arp and others founded Dada in Zurich in 1916. The movement rejected “conventional” art and often parodied it."
+      }
+    }
+  },
+  {
+    "id": "kn20",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was macht man, wenn man eine Collage gestaltet?",
+    "options": [
+      "Man klebt verschiedene Teile auf eine Unterlage",
+      "Man malt auf feuchten Putz",
+      "Man formt eine Figur aus Ton",
+      "Man ritzt ein Bild in Holz"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei einer Collage entsteht ein neues Ganzes, indem verschiedene Elemente auf eine Unterlage geklebt werden. Das Wort kommt vom französischen „coller“ für „kleben“.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Collage",
+    "source_url": "https://de.wikipedia.org/wiki/Collage",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you do when you make a collage?",
+        "options": [
+          "You stick different pieces onto a base",
+          "You paint on wet plaster",
+          "You shape a figure from clay",
+          "You carve a picture into wood"
+        ],
+        "explanation": "In a collage, a new whole is created by sticking different elements onto a base. The word comes from the French “coller”, to glue."
+      }
+    }
+  },
+  {
+    "id": "kn21",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Womit wird zerbrochene Keramik bei der japanischen Kunst Kintsugi repariert?",
+    "options": [
+      "Mit Klebeband",
+      "Mit Lack und Goldpulver",
+      "Mit Draht und Nägeln",
+      "Mit Kerzenwachs"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Scherben werden mit Urushi-Lack geklebt, in den feines Gold-, Silber- oder Platinpulver kommt. So wird der Schaden nicht versteckt, sondern hervorgehoben. Kintsugi bedeutet „Goldverbindung“.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kintsugi",
+    "source_url": "https://de.wikipedia.org/wiki/Kintsugi",
+    "created_at": "2026-10-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is used to repair broken pottery in the Japanese art of kintsugi?",
+        "options": [
+          "Sticky tape",
+          "Lacquer and gold powder",
+          "Wire and nails",
+          "Candle wax"
+        ],
+        "explanation": "The pieces are glued with urushi lacquer mixed with fine gold, silver or platinum powder. The damage is not hidden but highlighted. Kintsugi means “golden joinery”."
+      }
+    }
+  },
+  {
+    "id": "kn22",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie heißt das Gestell, auf das Malerinnen und Maler ihre Leinwand beim Malen stellen?",
+    "options": [
+      "Spachtel",
+      "Palette",
+      "Staffelei",
+      "Rahmen"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Staffelei ist ein Gestell, meist aus Holz oder Metall, das die Leinwand in einer guten Arbeitshöhe hält. Der Name kommt von „Staffel“, einem alten Wort für Leitersprosse.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Staffelei",
+    "source_url": "https://de.wikipedia.org/wiki/Staffelei",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the stand called that painters put their canvas on while painting?",
+        "options": [
+          "Spatula",
+          "Palette",
+          "Easel",
+          "Frame"
+        ],
+        "explanation": "An easel is a stand, usually made of wood or metal, that holds the canvas at a good working height. The German name “Staffelei” comes from “Staffel”, an old word for the rung of a ladder."
+      }
+    }
+  },
+  {
+    "id": "kn23",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Aus wie vielen Marmorblöcken hieb Michelangelo seine 5,16 Meter hohe Statue des David?",
+    "options": [
+      "Aus über hundert",
+      "Aus zwei",
+      "Aus zwölf",
+      "Aus einem einzigen"
+    ],
+    "correct_index": 3,
+    "explanation": "Michelangelo schuf den David zwischen 1501 und 1504 aus einem einzigen Marmorblock. Die Figur wiegt 5660 kg und steht seit 1873 in der Galleria dell’Accademia in Florenz.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: David (Michelangelo)",
+    "source_url": "https://de.wikipedia.org/wiki/David_(Michelangelo)",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From how many marble blocks did Michelangelo carve his 5.16-metre statue of David?",
+        "options": [
+          "From more than a hundred",
+          "From two",
+          "From twelve",
+          "From a single one"
+        ],
+        "explanation": "Michelangelo created the David between 1501 and 1504 from a single block of marble. The figure weighs 5,660 kg and has stood in the Galleria dell'Accademia in Florence since 1873."
+      }
+    }
+  },
+  {
+    "id": "ok1",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie verändert sich die Frequenz eines Tons, wenn er eine Oktave höher klingt?",
+    "options": [
+      "Sie steigt um genau 100 Hertz",
+      "Sie halbiert sich",
+      "Sie verdoppelt sich",
+      "Sie verzehnfacht sich"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Rahmentöne einer Oktave stehen im Frequenzverhältnis 2:1 – der obere Ton hat die doppelte Schwingungszahl des unteren. Verkürzt man eine Saite auf die Hälfte, klingt sie eine Oktave höher.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oktave",
+    "source_url": "https://de.wikipedia.org/wiki/Oktave",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the frequency of a note change when it sounds an octave higher?",
+        "options": [
+          "It rises by exactly 100 hertz",
+          "It halves",
+          "It doubles",
+          "It becomes ten times as high"
+        ],
+        "explanation": "The two notes of an octave have a frequency ratio of 2:1 – the upper note vibrates twice as often as the lower one. If you shorten a string to half its length, it sounds an octave higher."
+      }
+    }
+  },
+  {
+    "id": "zv1",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wohin fliegt die Küstenseeschwalbe nach der Brutzeit in der Arktis?",
+    "options": [
+      "In die Sahara",
+      "Nach Mitteleuropa",
+      "Bis an den Rand des antarktischen Packeises",
+      "Nirgendwohin – sie bleibt in der Arktis"
+    ],
+    "correct_index": 2,
+    "explanation": "Sie ist der Zugvogel mit dem längsten Zugweg: Ihre Winterquartiere liegen am Rand der antarktischen Packeiszone, etwa in der Weddell-See. Hin und zurück sind das bis zu 30.000 Kilometer.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Küstenseeschwalbe",
+    "source_url": "https://de.wikipedia.org/wiki/Küstenseeschwalbe",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the Arctic tern fly after the breeding season in the Arctic?",
+        "options": [
+          "To the Sahara",
+          "To central Europe",
+          "To the edge of the Antarctic pack ice",
+          "Nowhere – it stays in the Arctic"
+        ],
+        "explanation": "It is the migratory bird with the longest migration: its winter quarters lie at the edge of the Antarctic pack ice, for example in the Weddell Sea. There and back, that is up to 30,000 kilometres."
+      }
+    }
+  },
+  {
+    "id": "zp1",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wo treffen sich in Leonardos „Abendmahl“ alle Perspektivlinien?",
+    "options": [
+      "An der Schläfe von Jesus",
+      "Im linken Fenster",
+      "In der Mitte des Tischtuchs",
+      "In der rechten oberen Ecke"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Augpunkt der Zentralperspektive liegt in der Schläfe der Christusfigur. Bei der Restaurierung fand man dort das Loch eines Nagels, von dem aus die Linien gespannt wurden. Leonardo malte das Bild von 1495 bis 1497 in Mailand.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Das Abendmahl (Leonardo da Vinci)",
+    "source_url": "https://de.wikipedia.org/wiki/Das_Abendmahl_(Leonardo_da_Vinci)",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do all the perspective lines meet in Leonardo's “Last Supper”?",
+        "options": [
+          "At Jesus's temple",
+          "In the left window",
+          "In the middle of the tablecloth",
+          "In the top right corner"
+        ],
+        "explanation": "The central point of the perspective lies at the temple of the figure of Christ. During the restoration, the hole of a nail was found there, from which the lines were stretched. Leonardo painted the picture from 1495 to 1497 in Milan."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-merian",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was beobachtete und malte Maria Sibylla Merian besonders genau?",
+    "options": [
+      "Wie Raupen zu Schmetterlingen werden",
+      "Die Bahnen der Planeten",
+      "Ausbrüche von Vulkanen",
+      "Die Züge der Vögel"
+    ],
+    "correct_index": 0,
+    "explanation": "Merian beobachtete und züchtete Insekten und hielt die Entwicklungsstadien von Schmetterlingen und Faltern genau fest. Dafür entwickelte sie einen neuen Bildtyp, das „Metamorphosenbild“.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maria Sibylla Merian",
+    "source_url": "https://de.wikipedia.org/wiki/Maria_Sibylla_Merian",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Maria Sibylla Merian observe and paint especially precisely?",
+        "options": [
+          "How caterpillars become butterflies",
+          "The orbits of the planets",
+          "Volcanic eruptions",
+          "The migrations of birds"
+        ],
+        "explanation": "Merian observed and bred insects and recorded the stages of development of butterflies and moths in detail. For this she developed a new type of picture, the \"metamorphosis picture\"."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-herschel",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viele Kometen entdeckte Caroline Herschel zwischen 1786 und 1797?",
+    "options": [
+      "Acht",
+      "Einen",
+      "Drei",
+      "Zwanzig"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit einem kleinen Newton-Teleskop suchte sie nach Kometen und entdeckte zwischen 1786 und 1797 acht – bei fünf davon war sie ohne jeden Zweifel die Erste.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Caroline Herschel",
+    "source_url": "https://de.wikipedia.org/wiki/Caroline_Herschel",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many comets did Caroline Herschel discover between 1786 and 1797?",
+        "options": [
+          "Eight",
+          "One",
+          "Three",
+          "Twenty"
+        ],
+        "explanation": "With a small Newtonian telescope she searched for comets and discovered eight between 1786 and 1797 – for five of them she was without any doubt the first."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-schumann",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Auf welchem Geldschein war Clara Schumann abgebildet?",
+    "options": [
+      "Auf dem 100-DM-Schein",
+      "Auf dem 10-Euro-Schein",
+      "Auf dem 5-DM-Schein",
+      "Auf dem 50-Franken-Schein"
+    ],
+    "correct_index": 0,
+    "explanation": "Ihr Porträt war auf dem 100-DM-Schein von 1990 zu sehen. Es beruht auf einer Lithografie aus dem Jahr 1838.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Clara Schumann",
+    "source_url": "https://de.wikipedia.org/wiki/Clara_Schumann",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which banknote showed Clara Schumann?",
+        "options": [
+          "The 100-mark note",
+          "The 10-euro note",
+          "The 5-mark note",
+          "The 50-franc note"
+        ],
+        "explanation": "Her portrait was on the German 100-mark note of 1990. It is based on a lithograph from 1838."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-duerer",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie entstand Dürers berühmtes Nashorn von 1515?",
+    "options": [
+      "Ohne dass er das Tier je gesehen hatte",
+      "Im Nürnberger Tiergarten",
+      "Auf einer Reise nach Indien",
+      "In einem Stall in Rom"
+    ],
+    "correct_index": 0,
+    "explanation": "Dürer hatte das Panzernashorn, das 1515 nach Lissabon gekommen war, selbst nie gesehen. Seine Vorlage war die Beschreibung eines Augenzeugen, vermutlich mit einer Skizze.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Albrecht Dürer",
+    "source_url": "https://de.wikipedia.org/wiki/Albrecht_Dürer",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did Dürer make his famous rhinoceros of 1515?",
+        "options": [
+          "Without ever having seen the animal",
+          "At the Nuremberg zoo",
+          "On a journey to India",
+          "In a stable in Rome"
+        ],
+        "explanation": "Dürer had never seen the Indian rhinoceros, which had arrived in Lisbon in 1515. His model was an eyewitness's description, probably with a sketch."
+      }
+    }
   }
 ]

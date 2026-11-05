@@ -138,5 +138,61 @@
         "description": "Rules, records and how the body performs"
       }
     }
+  },
+  {
+    "id": "space",
+    "slug": "space",
+    "name": "Weltraum",
+    "description": "Planeten, Sterne und Raumfahrt",
+    "display_order": 11,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Space",
+        "description": "Planets, stars and space travel"
+      }
+    }
+  },
+  {
+    "id": "animals",
+    "slug": "animals",
+    "name": "Tiere",
+    "description": "Vom Bärtierchen bis zum Blauwal",
+    "display_order": 12,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Animals",
+        "description": "From water bears to blue whales"
+      }
+    }
+  },
+  {
+    "id": "music",
+    "slug": "music",
+    "name": "Musik",
+    "description": "Instrumente, Klänge und große Werke",
+    "display_order": 13,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Music",
+        "description": "Instruments, sounds and great works"
+      }
+    }
+  },
+  {
+    "id": "art",
+    "slug": "art",
+    "name": "Kunst",
+    "description": "Bilder, Skulpturen und wie Künstler sehen",
+    "display_order": 14,
+    "is_active": true,
+    "translations": {
+      "en": {
+        "name": "Art",
+        "description": "Paintings, sculptures and how artists see"
+      }
+    }
   }
 ]

@@ -373,7 +373,7 @@
   },
   {
     "id": "s-mozart-effekt",
-    "category_id": "science",
+    "category_id": "music",
     "min_age": 10,
     "year": 1993,
     "name": "Mozart-Effekt (macht Mozart schlauer?)",
@@ -1168,7 +1168,7 @@
   },
   {
     "id": "s-spiegeltest",
-    "category_id": "science",
+    "category_id": "animals",
     "min_age": 10,
     "year": 1970,
     "name": "Der Spiegeltest (Gallup)",
@@ -1444,7 +1444,7 @@
   },
   {
     "id": "s-eddington",
-    "category_id": "science",
+    "category_id": "space",
     "min_age": 13,
     "year": 1919,
     "name": "Eddington und die Sonnenfinsternis von 1919",
@@ -1518,7 +1518,7 @@
   },
   {
     "id": "s-moewenkueken",
-    "category_id": "science",
+    "category_id": "animals",
     "min_age": 10,
     "year": 1950,
     "name": "Tinbergens Möwenküken",

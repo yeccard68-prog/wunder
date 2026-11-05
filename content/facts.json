@@ -1,7 +1,7 @@
 [
   {
     "id": "f-krake-herzen",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Ein Krake hat drei Herzen.",
@@ -24,7 +24,7 @@
   },
   {
     "id": "f-wombat",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Wombats hinterlassen würfelförmigen Kot – 80 bis 100 Stück am Tag.",
@@ -48,7 +48,7 @@
   },
   {
     "id": "f-flamingo",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Flamingos sind rosa, weil sie Farbstoffe aus ihrer Nahrung aufnehmen.",
@@ -71,7 +71,7 @@
   },
   {
     "id": "f-giraffe-hals",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Der lange Hals einer Giraffe hat nur sieben Halswirbel – so viele wie deiner.",
@@ -94,7 +94,7 @@
   },
   {
     "id": "f-blauwal",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Der Blauwal gehört zu den größten Tieren, die je auf der Erde gelebt haben.",
@@ -117,7 +117,7 @@
   },
   {
     "id": "f-kamel-hoecker",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Im Höcker eines Kamels ist kein Wasser, sondern Fett.",
@@ -140,7 +140,7 @@
   },
   {
     "id": "f-kolibri",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Kolibris können auf der Stelle schweben und sogar rückwärts fliegen.",
@@ -285,7 +285,7 @@
   },
   {
     "id": "f-venus-tag",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Die Venus braucht für eine Drehung um sich selbst länger als für eine Runde um die Sonne.",
@@ -308,7 +308,7 @@
   },
   {
     "id": "f-mond-entfernt",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Der Mond entfernt sich jedes Jahr um etwa 3,8 Zentimeter von der Erde.",
@@ -331,7 +331,7 @@
   },
   {
     "id": "f-saturn-dichte",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Saturn hat von allen Planeten die geringste Dichte – weniger als Wasser.",
@@ -354,7 +354,7 @@
   },
   {
     "id": "f-iss",
-    "category_id": "technology",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Die Besatzung der ISS erlebt etwa 15 Sonnenaufgänge am Tag.",
@@ -377,7 +377,7 @@
   },
   {
     "id": "f-olympus-mons",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Der höchste Berg im Sonnensystem steht auf dem Mars.",
@@ -686,7 +686,7 @@
   },
   {
     "id": "f-olympia-kunst",
-    "category_id": "culture",
+    "category_id": "art",
     "area": "history",
     "min_age": 10,
     "text": "Von 1912 bis 1948 gab es bei Olympischen Spielen auch Medaillen für Kunst.",
@@ -916,7 +916,7 @@
   },
   {
     "id": "f-bienentanz",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Honigbienen zeigen einander mit einem Tanz, wo es Futter gibt.",
@@ -939,7 +939,7 @@
   },
   {
     "id": "f-delfin-schlaf",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Delfine schlafen immer nur mit einer Gehirnhälfte.",
@@ -962,7 +962,7 @@
   },
   {
     "id": "f-koala-schlaf",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Koalas schlafen bis zu 20 Stunden am Tag.",
@@ -985,7 +985,7 @@
   },
   {
     "id": "f-sonne-masse",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Die Sonne enthält 99,86 % der Masse des ganzen Sonnensystems.",
@@ -1014,7 +1014,7 @@
   },
   {
     "id": "f-roter-fleck",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Auf dem Jupiter tobt ein Sturm, der breiter ist als die ganze Erde.",
@@ -1037,7 +1037,7 @@
   },
   {
     "id": "f-mars-rost",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Der Mars ist rot, weil er mit Rost bedeckt ist.",
@@ -1146,8 +1146,13 @@
     "translations": {
       "en": {
         "text": "The Dead Sea lies more than 440 metres below sea level.",
-        "detail": "No lake on Earth lies lower. It has no outflow and is known for its very high salt content."
+        "detail": "No lake on Earth lies lower. It has no outflow and is known for its very high salt content.",
+        "figureSuffix": " metres"
       }
+    },
+    "figure": {
+      "value": 440,
+      "suffix": " Meter"
     }
   },
   {
@@ -1244,7 +1249,7 @@
   },
   {
     "id": "f-mona-lisa",
-    "category_id": "culture",
+    "category_id": "art",
     "area": "culture",
     "min_age": 10,
     "text": "Die Mona Lisa wurde 1911 aus dem Louvre gestohlen.",
@@ -1285,11 +1290,11 @@
       "en": {
         "text": "Medieval scholars knew that the Earth is a sphere.",
         "detail": "The round shape had been known since antiquity and remained the prevailing view. The idea that people in the Middle Ages believed in a flat Earth is a 19th-century legend.",
-        "myth": "In the Middle Ages people believed the Earth was flat."
+        "myth": "In the Middle Ages, scholars believed that the Earth was a flat disc."
       }
     },
     "quiz": "myth",
-    "myth": "Im Mittelalter glaubte man, die Erde sei eine Scheibe."
+    "myth": "Im Mittelalter glaubten die Gelehrten, die Erde sei eine flache Scheibe."
   },
   {
     "id": "f-pi",
@@ -1362,7 +1367,7 @@
   },
   {
     "id": "f-faultier-algen",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Im Fell von Faultieren wachsen Algen – sie färben es grünlich.",
@@ -1385,7 +1390,7 @@
   },
   {
     "id": "f-seepferdchen",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Bei Seepferdchen bringen die Männchen die Jungen zur Welt.",
@@ -1409,7 +1414,7 @@
   },
   {
     "id": "f-eisbaer-haut",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Eisbären haben unter ihrem hellen Fell eine schwarze Haut.",
@@ -1432,7 +1437,7 @@
   },
   {
     "id": "f-zitteraal",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Ein Zitteraal kann Stromstöße mit bis zu 860 Volt abgeben.",
@@ -1460,7 +1465,7 @@
   },
   {
     "id": "f-schnecken-zaehne",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Die Raspelzunge von Schnecken und anderen Weichtieren kann bis zu 800.000 winzige Zähne tragen.",
@@ -1488,7 +1493,7 @@
   },
   {
     "id": "f-baertierchen",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Bärtierchen haben zehn Tage ungeschützt im Weltall überlebt.",
@@ -1511,7 +1516,7 @@
   },
   {
     "id": "f-venus-rueckwaerts",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Die Venus dreht sich andersherum als fast alle anderen Planeten.",
@@ -1534,7 +1539,7 @@
   },
   {
     "id": "f-neutronenstern",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Auf einem Neutronenstern wiegt ein Kubikzentimeter Materie schon an der Oberfläche etwa eine Tonne.",
@@ -1664,7 +1669,7 @@
   },
   {
     "id": "f-lichtjahr",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Ein Lichtjahr ist keine Zeit, sondern eine Strecke: rund 9,46 Billionen Kilometer.",
@@ -1693,7 +1698,7 @@
   },
   {
     "id": "f-erdrotation",
-    "category_id": "science",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Am Äquator rast du mit etwa 1670 km/h nach Osten – ohne es zu merken.",
@@ -1748,7 +1753,7 @@
   },
   {
     "id": "f-kupferblut",
-    "category_id": "earth",
+    "category_id": "animals",
     "area": "animals",
     "min_age": 10,
     "text": "Tintenfische, Schnecken und Krebse transportieren Sauerstoff mit Kupfer statt mit Eisen.",
@@ -1767,7 +1772,8 @@
         "text": "Squid, snails and crabs carry oxygen with copper instead of iron.",
         "detail": "Their blood pigment is called hemocyanin – from the Greek word for “dark blue”. Our red haemoglobin binds oxygen with iron instead."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-hawaii-alphabet",
@@ -2390,7 +2396,7 @@
   },
   {
     "id": "f-comic-toepffer",
-    "category_id": "culture",
+    "category_id": "art",
     "area": "culture",
     "min_age": 10,
     "text": "Comics mit Bildrahmen gab es schon um 1830.",
@@ -2413,7 +2419,7 @@
   },
   {
     "id": "f-piano-name",
-    "category_id": "culture",
+    "category_id": "music",
     "area": "culture",
     "min_age": 10,
     "text": "„Piano“ ist eine Kurzform – das ganze Wort heißt „Pianoforte“, leise-laut.",
@@ -2913,13 +2919,18 @@
     "translations": {
       "en": {
         "text": "The Cherokee script gets by with just 86 characters.",
-        "detail": "Its inventor Sequoyah first developed 200 characters and refined them to 86 with the help of his daughter Ayoka. The characters represent syllables, and the script is still used today."
+        "detail": "Its inventor Sequoyah first developed 200 characters and refined them to 86 with the help of his daughter Ayoka. The characters represent syllables, and the script is still used today.",
+        "figureSuffix": " characters"
       }
+    },
+    "figure": {
+      "value": 86,
+      "suffix": " Zeichen"
     }
   },
   {
     "id": "f-happy-birthday",
-    "category_id": "culture",
+    "category_id": "music",
     "area": "culture",
     "min_age": 10,
     "text": "„Happy Birthday to You“ war ursprünglich ein Begrüßungslied für einen Kindergarten – mit dem Text „Good Morning to All“.",
@@ -3055,8 +3066,13 @@
     "translations": {
       "en": {
         "text": "Your lungs contain about 300 million tiny air sacs.",
-        "detail": "Gas exchange takes place in these alveoli. Each one is only about 200 micrometres across."
+        "detail": "Gas exchange takes place in these alveoli. Each one is only about 200 micrometres across.",
+        "figureSuffix": " million alveoli"
       }
+    },
+    "figure": {
+      "value": 300,
+      "suffix": " Millionen Bläschen"
     }
   },
   {
@@ -3153,7 +3169,7 @@
   },
   {
     "id": "f-sputnik-92",
-    "category_id": "technology",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Der erste Satellit der Welt kreiste nur 92 Tage.",
@@ -3181,7 +3197,7 @@
   },
   {
     "id": "f-golden-record",
-    "category_id": "technology",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Zwei Raumsonden tragen eine goldene Schallplatte mit Grüßen in 55 Sprachen ins All.",
@@ -3209,7 +3225,7 @@
   },
   {
     "id": "f-hubble-fehler",
-    "category_id": "technology",
+    "category_id": "space",
     "area": "space",
     "min_age": 10,
     "text": "Das Hubble-Teleskop lieferte zuerst unscharfe Bilder – ein Spiegelfehler.",
@@ -3325,6 +3341,1183 @@
       "en": {
         "text": "Water striders walk on water without sinking – thanks to tiny hairs and surface tension.",
         "detail": "Their body is covered in very fine hairs that repel water. The animals are only 10 to 20 millimetres long."
+      }
+    }
+  },
+  {
+    "id": "f-gagarin-108",
+    "category_id": "space",
+    "area": "space",
+    "min_age": 10,
+    "text": "Der erste Mensch im Weltraum umrundete die Erde offiziell in nur 108 Minuten.",
+    "detail": "Juri Gagarin flog am 12. April 1961 mit Wostok 1 einmal um die Erde. Nach genauerer Rechnung waren es eigentlich 106 Minuten. Er landete im Wolga-Gebiet.",
+    "sources": [
+      {
+        "name": "Wikipedia: Juri Alexejewitsch Gagarin",
+        "url": "https://de.wikipedia.org/wiki/Juri_Alexejewitsch_Gagarin"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first human in space orbited the Earth in only 108 minutes, officially.",
+        "detail": "Yuri Gagarin flew once around the Earth aboard Vostok 1 on 12 April 1961. By a more precise count it was actually 106 minutes. He landed in the Volga region."
+      }
+    }
+  },
+  {
+    "id": "f-apollo-tv",
+    "category_id": "space",
+    "area": "space",
+    "min_age": 10,
+    "text": "Rund 600 Millionen Menschen sahen 1969 die erste Mondlandung im Fernsehen.",
+    "detail": "Apollo 11 startete am 16. Juli 1969 mit einer Saturn-V-Rakete. Armstrong und Aldrin blieben knapp 22 Stunden auf dem Mond. Erstmals brachten Menschen Gesteinsproben von einem anderen Himmelskörper zur Erde.",
+    "sources": [
+      {
+        "name": "Wikipedia: Apollo 11",
+        "url": "https://de.wikipedia.org/wiki/Apollo_11"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Around 600 million people watched the first Moon landing on television in 1969.",
+        "detail": "Apollo 11 was launched on 16 July 1969 on a Saturn V rocket. Armstrong and Aldrin stayed on the Moon for almost 22 hours. For the first time, rock samples from another celestial body were brought back to Earth."
+      }
+    }
+  },
+  {
+    "id": "f-olympia-1900",
+    "category_id": "sport",
+    "area": "history",
+    "min_age": 10,
+    "text": "Bei Olympia 1900 in Paris gab es Sportler, die nie erfuhren, dass sie bei Olympischen Spielen gestartet waren.",
+    "detail": "In Paris durften erstmals auch Frauen teilnehmen, zum Beispiel im Golf. Die Wettkämpfe waren über die ganze Stadt verteilt. Das IOC zählt mindestens 89 Wettbewerbe, davon 2 nur für Frauen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Olympische Sommerspiele 1900",
+        "url": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1900"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "At the 1900 Olympics in Paris, some athletes never learned that they had competed at the Olympic Games.",
+        "detail": "In Paris, women were allowed to take part for the first time, for example in golf. The competitions were spread all over the city. The IOC counts at least 89 events, 2 of them for women only."
+      }
+    }
+  },
+  {
+    "id": "f-tour-1903",
+    "category_id": "sport",
+    "area": "history",
+    "min_age": 10,
+    "text": "Die erste Tour de France 1903 war mit 2428 Kilometern die kürzeste aller Zeiten.",
+    "detail": "Die längste Tour fand 1926 statt und war 5745 Kilometer lang. Heute sind es rund 3500 Kilometer. Bei den ersten Austragungen von 1903 bis 1908 starteten noch Einzelfahrer statt Teams.",
+    "sources": [
+      {
+        "name": "Wikipedia: Tour de France",
+        "url": "https://de.wikipedia.org/wiki/Tour_de_France"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The first Tour de France in 1903 was the shortest ever, at 2,428 kilometres.",
+        "detail": "The longest Tour took place in 1926 and was 5,745 kilometres long. Today it is around 3,500 kilometres. In the first editions from 1903 to 1908, individual riders started instead of teams."
+      }
+    }
+  },
+  {
+    "id": "f-kolosseum-eintritt",
+    "category_id": "culture",
+    "area": "history",
+    "min_age": 10,
+    "text": "Ins Kolosseum kam man umsonst – und durch 80 Eingänge.",
+    "detail": "Das Kolosseum entstand zwischen 72 und 80 n. Chr. Nach heutigen Berechnungen fanden dort etwa 50.000 Zuschauer Platz. Die Veranstaltungen waren für die freien Bewohner Roms gratis.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kolosseum",
+        "url": "https://de.wikipedia.org/wiki/Kolosseum"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Entry to the Colosseum was free – and through 80 entrances.",
+        "detail": "The Colosseum was built between 72 and 80 AD. By modern calculations about 50,000 spectators fitted inside. The events were free of charge for the free inhabitants of Rome."
+      }
+    }
+  },
+  {
+    "id": "f-alexandria-papyrus",
+    "category_id": "culture",
+    "area": "history",
+    "min_age": 10,
+    "text": "Von der berühmten Bibliothek von Alexandria wurde bis heute kein einziges Papyrusfragment gefunden.",
+    "detail": "Wie viele Schriftrollen sie besaß, ist unklar: Die Schätzungen gehen stark auseinander. Sicher ist nur, dass der Bestand für die damalige Zeit enorm war.",
+    "sources": [
+      {
+        "name": "Wikipedia: Bibliothek von Alexandria",
+        "url": "https://de.wikipedia.org/wiki/Bibliothek_von_Alexandria"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Not a single papyrus fragment of the famous Library of Alexandria has been found to this day.",
+        "detail": "How many scrolls it held is unclear: estimates differ widely. All that is certain is that the collection was enormous for its time."
+      }
+    }
+  },
+  {
+    "id": "f-axolotl",
+    "category_id": "animals",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Der Axolotl kann Gliedmaßen, Organe und sogar Teile seines Gehirns nachwachsen lassen.",
+    "detail": "Sein Name stammt aus der Sprache der Azteken und bedeutet etwa „Wassermonster“. Alexander von Humboldt brachte 1804 als Erster Axolotl nach Europa.",
+    "sources": [
+      {
+        "name": "Wikipedia: Axolotl",
+        "url": "https://de.wikipedia.org/wiki/Axolotl"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-04T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The axolotl can regrow limbs, organs and even parts of its brain.",
+        "detail": "Its name comes from the language of the Aztecs and means roughly \"water monster\". Alexander von Humboldt was the first to bring axolotls to Europe, in 1804."
+      }
+    }
+  },
+  {
+    "id": "f-google-googol",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Der Name Google geht auf eine riesige Zahl zurück.",
+    "detail": "Gemeint ist „Googol“, eine 1 mit hundert Nullen. Sie sollte für die fast unendliche Menge an Informationen im Internet stehen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Google LLC",
+        "url": "https://de.wikipedia.org/wiki/Google_LLC"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The name Google goes back to a gigantic number.",
+        "detail": "It refers to the 'googol', a 1 followed by a hundred zeros – meant to stand for the almost endless amount of information on the internet."
+      }
+    }
+  },
+  {
+    "id": "f-strichcode-kaugummi",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Das erste Produkt, dessen Strichcode an einer Kasse gescannt wurde, war eine Packung Kaugummi.",
+    "detail": "Am 26. Juni 1974 lief in einem Supermarkt in Troy im US-Bundesstaat Ohio eine Zehnerpackung Juicy Fruit von Wrigley über den Scanner.",
+    "sources": [
+      {
+        "name": "Wikipedia: Strichcode",
+        "url": "https://de.wikipedia.org/wiki/Strichcode"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The first product whose barcode was scanned at a checkout was a packet of chewing gum.",
+        "detail": "On 26 June 1974, a ten-pack of Wrigley's Juicy Fruit went over the scanner in a supermarket in Troy, Ohio."
+      }
+    }
+  },
+  {
+    "id": "f-toyota-webstuhl",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Toyota hat mit Webstühlen angefangen, nicht mit Autos.",
+    "detail": "Sakichi Toyoda baute ab 1894 Webstühle. Mit dem Geld aus dem Verkauf der Patente für seine automatische Webmaschine baute sein Sohn Kiichirō eine Autoproduktion auf.",
+    "sources": [
+      {
+        "name": "Wikipedia: Toyota",
+        "url": "https://de.wikipedia.org/wiki/Toyota"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Toyota started out with weaving looms, not cars.",
+        "detail": "Sakichi Toyoda built looms from 1894. With the money from selling the patents for his automatic loom, his son Kiichirō set up car production."
+      }
+    }
+  },
+  {
+    "id": "f-michelin-fuehrer",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Der Guide Michelin begann als Gratis-Heft eines Reifenherstellers für Autofahrer.",
+    "detail": "Die erste Ausgabe erschien am 14. April 1900 zur Weltausstellung in Paris: 35.000 Exemplare, verschenkt. Darin standen zum Beispiel Werkstätten, Batterieladestationen und Benzindepots.",
+    "sources": [
+      {
+        "name": "Wikipedia: Guide Michelin",
+        "url": "https://de.wikipedia.org/wiki/Guide_Michelin"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The Michelin Guide began as a free booklet from a tyre maker for motorists.",
+        "detail": "The first edition appeared on 14 April 1900 for the World's Fair in Paris: 35,000 copies, given away. It listed things like workshops, battery charging stations and petrol depots."
+      }
+    }
+  },
+  {
+    "id": "f-samsung-lebensmittel",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Samsung begann 1938 als Lebensmittelhandel.",
+    "detail": "Lee Byung-chull gründete das Geschäft am 1. März 1938 in der südkoreanischen Stadt Daegu.",
+    "sources": [
+      {
+        "name": "Wikipedia: Samsung",
+        "url": "https://de.wikipedia.org/wiki/Samsung"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Samsung began in 1938 as a food trading business.",
+        "detail": "Lee Byung-chull founded the business on 1 March 1938 in the South Korean city of Daegu."
+      }
+    }
+  },
+  {
+    "id": "f-geldautomat-tuebingen",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Am ersten Geldautomaten Deutschlands bekam man für eine Lochkarte einen 100-DM-Schein.",
+    "detail": "Er ging am 27. Mai 1968 in der Kreissparkasse Tübingen in Betrieb. Anfangs durften ihn nur 1000 Kunden benutzen – mit zehn Lochkarten auf Vorrat und einem Schlüssel für die Schutztür.",
+    "sources": [
+      {
+        "name": "Wikipedia: Geldautomat",
+        "url": "https://de.wikipedia.org/wiki/Geldautomat"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "At Germany's first cash machine, one punched card got you a 100-mark note.",
+        "detail": "It went into service on 27 May 1968 at the Kreissparkasse in Tübingen. At first only 1,000 customers could use it – with ten punched cards in reserve and a key to the door that protected it."
+      }
+    }
+  },
+  {
+    "id": "f-simbabwe-schein",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "In Simbabwe gab es einen Geldschein über 100 Billionen Dollar.",
+    "detail": "Die Ausgabe wurde im Januar 2009 bekannt gegeben – mitten in einer der höchsten Inflationen, die je beobachtet wurden.",
+    "sources": [
+      {
+        "name": "Wikipedia: Simbabwe-Dollar",
+        "url": "https://de.wikipedia.org/wiki/Simbabwe-Dollar"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Zimbabwe had a banknote worth 100 trillion dollars.",
+        "detail": "It was announced in January 2009 – in the middle of one of the highest inflations ever observed."
+      }
+    }
+  },
+  {
+    "id": "f-big-mac-index",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Mit dem Preis eines Big Mac kann man vergleichen, wie viel Geld in verschiedenen Ländern wert ist.",
+    "detail": "Den Big-Mac-Index erfand 1986 die britische Zeitschrift The Economist. Er vergleicht die Kaufkraft von Währungen und zeigt, ob eine Währung über- oder unterbewertet ist.",
+    "sources": [
+      {
+        "name": "Wikipedia: Big-Mac-Index",
+        "url": "https://de.wikipedia.org/wiki/Big-Mac-Index"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The price of a Big Mac can be used to compare what money is worth in different countries.",
+        "detail": "The Big Mac Index was invented in 1986 by the British magazine The Economist. It compares the purchasing power of currencies and shows whether a currency is over- or undervalued."
+      }
+    }
+  },
+  {
+    "id": "f-emoji-japanisch",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "„Emoji“ klingt nach „Emotion“, kommt aber aus dem Japanischen.",
+    "detail": "Das Wort bedeutet „Bildschriftzeichen“ und setzt sich aus „e“ (Bild), „mon“ (Text) und „ji“ (Buchstabe) zusammen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Emoji",
+        "url": "https://de.wikipedia.org/wiki/Emoji"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:40:00Z",
+    "translations": {
+      "en": {
+        "text": "'Emoji' sounds like 'emotion', but comes from Japanese.",
+        "detail": "The word means 'picture character' and is made up of 'e' (picture), 'mon' (text) and 'ji' (letter)."
+      }
+    }
+  },
+  {
+    "id": "f-kindergarten-englisch",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das Wort „Kindergarten“ sagt man auch auf Englisch.",
+    "detail": "Es geht auf den Thüringer Pädagogen Friedrich Fröbel zurück und wanderte unübersetzt in andere Sprachen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kindergarten",
+        "url": "https://de.wikipedia.org/wiki/Kindergarten"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The German word 'Kindergarten' is used in English too.",
+        "detail": "It goes back to the Thuringian educator Friedrich Fröbel and passed into other languages untranslated."
+      }
+    }
+  },
+  {
+    "id": "f-alphabet-alpha-beta",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das Wort „Alphabet“ steckt in den ersten zwei griechischen Buchstaben.",
+    "detail": "Alpha (α) und Beta (β) – mit ihnen beginnt das griechische Alphabet.",
+    "sources": [
+      {
+        "name": "Wikipedia: Alphabet",
+        "url": "https://de.wikipedia.org/wiki/Alphabet"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The word 'alphabet' is made of the first two Greek letters.",
+        "detail": "Alpha (α) and beta (β) – the Greek alphabet begins with them."
+      }
+    }
+  },
+  {
+    "id": "f-papua-sprachen",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "In Papua-Neuguinea werden über 800 Sprachen gesprochen.",
+    "detail": "Es sind 839 Sprachen und Dialekte – je nach Angabe 11 bis 25 Prozent aller lebenden Sprachen der Welt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Papua-Neuguinea",
+        "url": "https://de.wikipedia.org/wiki/Papua-Neuguinea"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:10:00Z",
+    "translations": {
+      "en": {
+        "text": "More than 800 languages are spoken in Papua New Guinea.",
+        "detail": "There are 839 languages and dialects – depending on the source, 11 to 25 per cent of all living languages in the world."
+      }
+    }
+  },
+  {
+    "id": "f-gleichheitszeichen",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Das Gleichheitszeichen gibt es seit 1557.",
+    "detail": "Robert Recorde führte die zwei parallelen Striche ein – weil keine zwei Dinge gleicher sein können.",
+    "sources": [
+      {
+        "name": "Wikipedia: Gleichheitszeichen",
+        "url": "https://de.wikipedia.org/wiki/Gleichheitszeichen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The equals sign has existed since 1557.",
+        "detail": "Robert Recorde introduced the two parallel lines – because no two things can be more equal."
+      }
+    }
+  },
+  {
+    "id": "f-moebiusband",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Ein Möbiusband hat nur eine einzige Seite – und nur eine Kante.",
+    "detail": "Du kannst es leicht basteln: einen Papierstreifen zum Ring kleben, ein Ende aber vorher um 180 Grad verdrehen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Möbiusband",
+        "url": "https://de.wikipedia.org/wiki/Möbiusband"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:50:00Z",
+    "translations": {
+      "en": {
+        "text": "A Möbius strip has only one side – and only one edge.",
+        "detail": "You can easily make one: glue a strip of paper into a ring, but twist one end by 180 degrees first."
+      }
+    }
+  },
+  {
+    "id": "f-roemer-null",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Die Römer hatten kein Zahlzeichen für die Null.",
+    "detail": "Sie kannten Wörter für „nichts“, aber ihre Zahlschrift brauchte keine Null als Platzhalter.",
+    "sources": [
+      {
+        "name": "Wikipedia: Römische Zahlschrift",
+        "url": "https://de.wikipedia.org/wiki/Römische_Zahlschrift"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The Romans had no numeral for zero.",
+        "detail": "They had words for 'nothing', but their way of writing numbers did not need zero as a placeholder."
+      }
+    }
+  },
+  {
+    "id": "f-fibonacci-zapfen",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "In Fichtenzapfen und Ananas stecken Fibonacci-Zahlen.",
+    "detail": "Ihre Schuppen bilden Spiralen in beide Richtungen – deren Anzahl sind zwei aufeinanderfolgende Fibonacci-Zahlen. In dieser Folge ist jede Zahl die Summe der beiden davor.",
+    "sources": [
+      {
+        "name": "Wikipedia: Fibonacci-Folge",
+        "url": "https://de.wikipedia.org/wiki/Fibonacci-Folge"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Spruce cones and pineapples hide Fibonacci numbers.",
+        "detail": "Their scales form spirals in both directions – and the numbers of spirals are two consecutive Fibonacci numbers. In this sequence each number is the sum of the two before it."
+      }
+    }
+  },
+  {
+    "id": "f-roemer-fussbodenheizung",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Schon die Römer hatten eine Fußbodenheizung.",
+    "detail": "Beim Hypokaustum zog heiße Luft aus einem Ofen unter dem Fußboden hindurch. Zuerst gab es das nur in Thermen, später auch in Wohnhäusern.",
+    "sources": [
+      {
+        "name": "Wikipedia: Hypokaustum",
+        "url": "https://de.wikipedia.org/wiki/Hypokaustum"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The Romans already had underfloor heating.",
+        "detail": "In a hypocaust, hot air from a furnace flowed underneath the floor. At first it was only used in baths, later in homes as well."
+      }
+    }
+  },
+  {
+    "id": "f-wikinger-amerika",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Wikinger kamen fast 500 Jahre vor Kolumbus nach Amerika.",
+    "detail": "Ihre Siedlung an der Nordspitze der kanadischen Insel Neufundland entstand einige Jahre nach 1000. Sie ist die einzige bisher entdeckte ihrer Art in Nordamerika.",
+    "sources": [
+      {
+        "name": "Wikipedia: L’Anse aux Meadows",
+        "url": "https://de.wikipedia.org/wiki/L’Anse_aux_Meadows"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Vikings reached America almost 500 years before Columbus.",
+        "detail": "Their settlement at the northern tip of the Canadian island of Newfoundland was built a few years after 1000. It is the only one of its kind discovered in North America so far."
+      }
+    }
+  },
+  {
+    "id": "f-machu-picchu-karte",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Machu Picchu stand schon 1874 auf einer genauen Karte.",
+    "detail": "Als Jahr der „Wiederentdeckung“ wird oft 1911 genannt. Doch der deutsche Ingenieur Herman Göhring hatte die Stadt schon Jahrzehnte vorher am exakten Ort eingezeichnet.",
+    "sources": [
+      {
+        "name": "Wikipedia: Machu Picchu",
+        "url": "https://de.wikipedia.org/wiki/Machu_Picchu"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Machu Picchu was on an accurate map as early as 1874.",
+        "detail": "1911 is often named as the year of its 'rediscovery'. But the German engineer Herman Göhring had marked the city in exactly the right place decades earlier."
+      }
+    }
+  },
+  {
+    "id": "f-big-ben-glocke",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Big Ben ist eigentlich nicht der Turm, sondern die große Glocke darin.",
+    "detail": "Sie wiegt 13,5 Tonnen. Der Turm heißt seit 2012 offiziell Elizabeth Tower.",
+    "sources": [
+      {
+        "name": "Wikipedia: Big Ben",
+        "url": "https://de.wikipedia.org/wiki/Big_Ben"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T08:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Big Ben is actually not the tower but the great bell inside it.",
+        "detail": "It weighs 13.5 tonnes. Since 2012 the tower has officially been called the Elizabeth Tower."
+      }
+    }
+  },
+  {
+    "id": "f-pisa-bau",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Der Schiefe Turm von Pisa neigte sich schon, als er erst drei Stockwerke hoch war.",
+    "detail": "Das war 1185. Danach ruhte der Bau rund 100 Jahre. Heute steht der Turm etwa vier Grad schief.",
+    "sources": [
+      {
+        "name": "Wikipedia: Schiefer Turm von Pisa",
+        "url": "https://de.wikipedia.org/wiki/Schiefer_Turm_von_Pisa"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T08:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The Leaning Tower of Pisa was already tilting when it was only three storeys high.",
+        "detail": "That was in 1185. After that, building stopped for about 100 years. Today the tower leans by about four degrees."
+      }
+    }
+  },
+  {
+    "id": "f-computermaus-1968",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Die Computermaus wurde 1968 vorgestellt – und fand kaum Beachtung.",
+    "detail": "Den ersten Prototyp hatte das Team um Douglas Engelbart schon 1963 gebaut. Weil es noch keine grafischen Benutzeroberflächen gab, tippten die Leute lieber Kurzbefehle ein.",
+    "sources": [
+      {
+        "name": "Wikipedia: Maus (Computer)",
+        "url": "https://de.wikipedia.org/wiki/Maus_(Computer)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T08:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The computer mouse was presented in 1968 – and hardly anyone noticed.",
+        "detail": "Douglas Engelbart's team had built the first prototype as early as 1963. As there were no graphical user interfaces yet, people preferred typing in short commands."
+      }
+    }
+  },
+  {
+    "id": "f-email-at",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Das @-Zeichen kam 1971 in die E-Mail-Adresse.",
+    "detail": "Ray Tomlinson verschickte im Oktober 1971 den ersten elektronischen Brief. Ende 1971 schrieb er seinen Kollegen, dass man nun Nachrichten übers Netzwerk senden kann – mit Benutzername, „@“ und Rechnername.",
+    "sources": [
+      {
+        "name": "Wikipedia: E-Mail",
+        "url": "https://de.wikipedia.org/wiki/E-Mail"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T08:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The @ sign arrived in email addresses in 1971.",
+        "detail": "Ray Tomlinson sent the first electronic letter in October 1971. At the end of 1971 he told his colleagues that messages could now be sent over the network – using the user name, '@' and the computer's name."
+      }
+    }
+  },
+  {
+    "id": "f-erste-website",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Die erste Website der Welt ging 1991 online.",
+    "detail": "Sie hieß info.cern.ch und erschien am 6. August 1991. Das Web war als Projekt am Forschungszentrum CERN entstanden, wo Tim Berners-Lee ein Hypertext-System aufbaute; 1993 gab das CERN es kostenlos für alle frei.",
+    "sources": [
+      {
+        "name": "Wikipedia: World Wide Web",
+        "url": "https://de.wikipedia.org/wiki/World_Wide_Web"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T08:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The world's first website went online in 1991.",
+        "detail": "It was called info.cern.ch and appeared on 6 August 1991. The web had started as a project at the CERN research centre, where Tim Berners-Lee built a hypertext system; in 1993 CERN made it freely available to everyone."
+      }
+    }
+  },
+  {
+    "id": "f-knochenfloete",
+    "category_id": "music",
+    "area": "history",
+    "min_age": 10,
+    "text": "Flöten aus Knochen gehören zu den ältesten Musikinstrumenten der Menschheit.",
+    "detail": "2008 fand man in der Höhle Hohle Fels auf der Schwäbischen Alb eine fast vollständige Flöte aus dem Knochen eines Gänsegeiers. Sie ist auf 21,8 cm Länge erhalten, ihre Fundschicht wird auf mindestens 35.000 vor Christus datiert.",
+    "sources": [
+      {
+        "name": "Wikipedia: Knochenflöte",
+        "url": "https://de.wikipedia.org/wiki/Knochenflöte"
+      },
+      {
+        "name": "Wikipedia: Hohle Fels",
+        "url": "https://de.wikipedia.org/wiki/Hohle_Fels"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Flutes made of bone are among the oldest musical instruments of humankind.",
+        "detail": "In 2008 an almost complete flute made from the bone of a griffon vulture was found in the Hohle Fels cave in the Swabian Jura. 21.8 cm of it survive, and the layer it was found in dates to at least 35,000 BC."
+      }
+    }
+  },
+  {
+    "id": "f-cage-halberstadt",
+    "category_id": "music",
+    "area": "curious",
+    "min_age": 10,
+    "text": "In Halberstadt läuft seit 2001 ein Orgelstück, das 639 Jahre dauern soll.",
+    "detail": "John Cages „ORGAN²/ASLSP“ soll „so langsam wie möglich“ gespielt werden. In der Sankt-Burchardi-Kirche endet es erst im Jahr 2640 – bei der Uraufführung 1987 dauerte es noch etwas über 29 Minuten.",
+    "sources": [
+      {
+        "name": "Wikipedia: ORGAN²/ASLSP",
+        "url": "https://de.wikipedia.org/wiki/ORGAN²/ASLSP"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "In Halberstadt, an organ piece has been playing since 2001 that is meant to last 639 years.",
+        "detail": "John Cage's 'ORGAN²/ASLSP' is to be played 'as slow as possible'. In St. Burchardi church it will only end in the year 2640 – at its premiere in 1987 it lasted just over 29 minutes."
+      }
+    }
+  },
+  {
+    "id": "f-marcha-real",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Die spanische Nationalhymne hat keinen Text.",
+    "detail": "Die „Marcha Real“ (Königlicher Marsch) ist eine der wenigen Nationalhymnen ohne Text und eine der ältesten in Europa. Erstmals nachweisbar ist sie 1761.",
+    "sources": [
+      {
+        "name": "Wikipedia: Marcha Real",
+        "url": "https://de.wikipedia.org/wiki/Marcha_Real"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The Spanish national anthem has no lyrics.",
+        "detail": "The 'Marcha Real' (Royal March) is one of the few national anthems without words and one of the oldest in Europe. It can first be traced back to 1761."
+      }
+    }
+  },
+  {
+    "id": "f-stille-nacht-sprachen",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "„Stille Nacht, heilige Nacht“ soll in mehr als 300 Sprachen übersetzt worden sein.",
+    "detail": "Zum ersten Mal erklang das Lied an Heiligabend 1818 in Oberndorf bei Salzburg, mit einer Melodie von Franz Xaver Gruber und dem Text von Joseph Mohr. Seit 2011 ist es als immaterielles Kulturerbe in Österreich anerkannt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Stille Nacht, heilige Nacht",
+        "url": "https://de.wikipedia.org/wiki/Stille_Nacht,_heilige_Nacht"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "'Silent Night' is said to have been translated into more than 300 languages.",
+        "detail": "The song was first performed on Christmas Eve 1818 in Oberndorf near Salzburg, with a melody by Franz Xaver Gruber and words by Joseph Mohr. Since 2011 it has been recognised as intangible cultural heritage in Austria."
+      }
+    }
+  },
+  {
+    "id": "f-stimmgabel-trompeter",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Die Stimmgabel soll ein Trompeter erfunden haben.",
+    "detail": "Um 1711 soll John Shore, Trompeter und Lautenist, sie erfunden haben. Die zwei Zinken der Metallgabel erzeugen beim Anschlagen einen klaren Ton.",
+    "sources": [
+      {
+        "name": "Wikipedia: Stimmgabel",
+        "url": "https://de.wikipedia.org/wiki/Stimmgabel"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The tuning fork is said to have been invented by a trumpeter.",
+        "detail": "John Shore, a trumpeter and lute player, is said to have invented it around 1711. When struck, the two prongs of the metal fork produce a clear tone."
+      }
+    }
+  },
+  {
+    "id": "f-haydn-surprise",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Haydns „Sinfonie mit dem Paukenschlag“ heißt auf Englisch „The Surprise“ – die Überraschung.",
+    "detail": "Im zweiten Satz kommt ein unerwarteter, sehr lauter Schlag – und dabei spielen nicht nur die Pauken, sondern alle Instrumente mit. Die Sinfonie entstand auf Haydns erster Londoner Reise und wurde 1792 uraufgeführt.",
+    "sources": [
+      {
+        "name": "Wikipedia: 94. Sinfonie (Haydn)",
+        "url": "https://de.wikipedia.org/wiki/94._Sinfonie_(Haydn)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Haydn's symphony known in German as 'with the drumbeat' is called 'The Surprise' in English.",
+        "detail": "In the second movement comes an unexpected, very loud stroke – and not only the timpani but all the instruments join in. The symphony was written on Haydn's first trip to London and premiered in 1792."
+      }
+    }
+  },
+  {
+    "id": "f-satie-vexations",
+    "category_id": "music",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Ein Klavierstück von Erik Satie soll 840-mal hintereinander gespielt werden.",
+    "detail": "Die Anweisung steht in einem kurzen Text auf den Noten von „Vexations“. Ob Satie die Zahl ernst meinte, ist ungewiss. Gedruckt wurde das Stück erst 1949, lange nach seinem Tod.",
+    "sources": [
+      {
+        "name": "Wikipedia: Vexations",
+        "url": "https://de.wikipedia.org/wiki/Vexations"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "A piano piece by Erik Satie is meant to be played 840 times in a row.",
+        "detail": "The instruction is in a short text on the score of 'Vexations'. Whether Satie meant the number seriously is uncertain. The piece was only printed in 1949, long after his death."
+      }
+    }
+  },
+  {
+    "id": "f-oboe-stimmton",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Vor einem Orchesterkonzert gibt meist die Oboe den Ton zum Stimmen an.",
+    "detail": "Ihr Klang ist besonders deutlich hörbar. Deshalb ist es seit dem 19. Jahrhundert üblich, dass ein Oboist den anderen Musikern vor Proben und Aufführungen das a vorspielt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Oboe",
+        "url": "https://de.wikipedia.org/wiki/Oboe"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Before an orchestra concert, it is usually the oboe that gives the note for tuning.",
+        "detail": "Its sound is especially easy to hear. That is why, since the 19th century, an oboist has usually played the A for the other musicians before rehearsals and performances."
+      }
+    }
+  },
+  {
+    "id": "f-glasharmonika-franklin",
+    "category_id": "music",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Benjamin Franklin hat ein Musikinstrument aus Glas erfunden.",
+    "detail": "Seine Glasharmonika von 1761 besteht aus ineinandergeschobenen Glasglocken auf einer waagerechten Welle. Die Töne entstehen, wenn man mit den Fingern über das Glas reibt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Glasharmonika",
+        "url": "https://de.wikipedia.org/wiki/Glasharmonika"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Benjamin Franklin invented a musical instrument made of glass.",
+        "detail": "His glass harmonica from 1761 consists of nested glass bowls on a horizontal rod. The notes are made by rubbing the glass with your fingers."
+      }
+    }
+  },
+  {
+    "id": "f-theremin",
+    "category_id": "music",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Das Theremin spielt man, ohne es zu berühren.",
+    "detail": "Tonhöhe und Lautstärke hängen davon ab, wo die Hände gegenüber zwei Elektroden sind. Erfunden hat das elektronische Instrument 1920 der Russe Lew Termen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Theremin",
+        "url": "https://de.wikipedia.org/wiki/Theremin"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The theremin is played without touching it.",
+        "detail": "Pitch and volume depend on where your hands are in relation to two electrodes. The electronic instrument was invented in 1920 by the Russian Lev Termen."
+      }
+    }
+  },
+  {
+    "id": "f-picasso-name",
+    "category_id": "art",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Pablo Picassos vollständiger Name war ungewöhnlich lang.",
+    "detail": "Er lautete: Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz Picasso. Auch sein Werk ist riesig: Gemälde, Zeichnungen, Grafiken, Collagen, Plastiken und Keramiken – geschätzt 50.000 Stück.",
+    "sources": [
+      {
+        "name": "Wikipedia: Pablo Picasso",
+        "url": "https://de.wikipedia.org/wiki/Pablo_Picasso"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Pablo Picasso's full name was unusually long.",
+        "detail": "It was: Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz Picasso. His work is huge too: paintings, drawings, prints, collages, sculptures and ceramics – an estimated 50,000 pieces."
+      }
+    }
+  },
+  {
+    "id": "f-vangogh-werk",
+    "category_id": "art",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Vincent van Gogh hinterließ über 900 Gemälde – die meisten malte er in seinen letzten zehn Lebensjahren.",
+    "detail": "Er wurde nur 37 Jahre alt. Dazu kommen über 1000 Zeichnungen und ein großer Briefwechsel, vor allem mit seinem Bruder Theo, dem Händler seiner Bilder.",
+    "sources": [
+      {
+        "name": "Wikipedia: Vincent van Gogh",
+        "url": "https://de.wikipedia.org/wiki/Vincent_van_Gogh"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Vincent van Gogh left more than 900 paintings – he painted most of them in the last ten years of his life.",
+        "detail": "He lived to be only 37. On top of that there are more than 1,000 drawings and a large correspondence, above all with his brother Theo, who dealt in his pictures."
+      }
+    }
+  },
+  {
+    "id": "f-lascaux-atem",
+    "category_id": "art",
+    "area": "history",
+    "min_age": 10,
+    "text": "Die Höhle von Lascaux ist seit 1963 für Besucher geschlossen – ihr Atem schadete den Bildern.",
+    "detail": "Geöffnet worden war sie 1948. Rund 1.200 Besucher pro Tag brachten so viel Feuchtigkeit hinein, dass sich Schimmel bildete. Heute werden die Bilder täglich überwacht.",
+    "sources": [
+      {
+        "name": "Wikipedia: Höhle von Lascaux",
+        "url": "https://de.wikipedia.org/wiki/Höhle_von_Lascaux"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T10:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The Lascaux cave has been closed to visitors since 1963 – their breath was damaging the paintings.",
+        "detail": "It had been opened in 1948. Around 1,200 visitors a day brought in so much moisture that mould formed. Today the paintings are monitored every day."
+      }
+    }
+  },
+  {
+    "id": "f-ultramarin-gold",
+    "category_id": "art",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Albrecht Dürer wog das blaue Pigment Ultramarin mit Gold auf.",
+    "detail": "Für das Pigment aus dem Gestein Lapislazuli waren bis zu 49 Arbeitsschritte nötig. Maler setzten es deshalb sparsam ein – vor allem für Darstellungen von Jesus und Maria.",
+    "sources": [
+      {
+        "name": "Wikipedia: Ultramarin",
+        "url": "https://de.wikipedia.org/wiki/Ultramarin"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Albrecht Dürer paid for the blue pigment ultramarine with its weight in gold.",
+        "detail": "Making the pigment from the stone lapis lazuli took up to 49 steps. Painters therefore used it sparingly – above all for pictures of Jesus and Mary."
+      }
+    }
+  },
+  {
+    "id": "f-mumienbraun",
+    "category_id": "art",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Eine Malerfarbe wurde früher aus zermahlenen ägyptischen Mumien gemacht.",
+    "detail": "Das tiefbraune Pigment „Mumienbraun“ wurde seit der Mitte des 16. Jahrhunderts verwendet, vor allem in der Ölmalerei. Heute ist so etwas aus ethischen Gründen nicht mehr akzeptiert.",
+    "sources": [
+      {
+        "name": "Wikipedia: Mumia",
+        "url": "https://de.wikipedia.org/wiki/Mumia"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:40:00Z",
+    "translations": {
+      "en": {
+        "text": "A paint used to be made from ground-up Egyptian mummies.",
+        "detail": "The deep brown pigment 'mummy brown' was used from the middle of the 16th century, above all in oil painting. Today this is no longer accepted for ethical reasons."
+      }
+    }
+  },
+  {
+    "id": "f-indischgelb",
+    "category_id": "art",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Die Malerfarbe Indischgelb wurde aus dem Urin von Kühen gewonnen.",
+    "detail": "Die Kühe in Indien bekamen dafür Mangobaumblätter zu fressen, was ihnen schadete. Aus Tierschutzgründen verschwand der Farbstoff Anfang des 20. Jahrhunderts vom Markt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Euxanthinsäure",
+        "url": "https://de.wikipedia.org/wiki/Euxanthinsäure"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The paint Indian yellow was made from cows' urine.",
+        "detail": "The cows in India were fed mango leaves for it, which harmed them. For animal welfare reasons the dye disappeared from the market at the start of the 20th century."
+      }
+    }
+  },
+  {
+    "id": "f-nachtwache-verkleinert",
+    "category_id": "art",
+    "area": "history",
+    "min_age": 10,
+    "text": "Rembrandts „Nachtwache“ wurde 1715 verkleinert – dabei verschwanden drei Figuren.",
+    "detail": "Am linken Rand fielen zwei Soldaten und ein Kind weg. Wie das Bild vorher aussah, zeigt eine alte Kopie, die heute ebenfalls im Rijksmuseum in Amsterdam hängt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Die Nachtwache",
+        "url": "https://de.wikipedia.org/wiki/Die_Nachtwache"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Rembrandt's 'Night Watch' was cut down in 1715 – three figures disappeared.",
+        "detail": "Two soldiers and a child were lost on the left edge. An old copy, which now also hangs in the Rijksmuseum in Amsterdam, shows what the picture looked like before."
+      }
+    }
+  },
+  {
+    "id": "f-hokusai-siebzig",
+    "category_id": "art",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Hokusai war schon rund siebzig Jahre alt, als er „Die große Welle vor Kanagawa“ schuf.",
+    "detail": "Er wurde knapp neunzig. Die Welle ist das erste Blatt seiner Serie „36 Ansichten des Berges Fuji“ – die am Ende sogar 46 Bilder umfasste.",
+    "sources": [
+      {
+        "name": "Wikipedia: Die große Welle vor Kanagawa",
+        "url": "https://de.wikipedia.org/wiki/Die_große_Welle_vor_Kanagawa"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:10:00Z",
+    "translations": {
+      "en": {
+        "text": "Hokusai was already around seventy when he made 'The Great Wave off Kanagawa'.",
+        "detail": "He lived to almost ninety. The wave is the first print in his series 'Thirty-six Views of Mount Fuji' – which in the end even had 46 pictures."
+      }
+    }
+  },
+  {
+    "id": "f-dada-name",
+    "category_id": "art",
+    "area": "language",
+    "min_age": 10,
+    "text": "Der Name „Dada“ soll durch Zufall in einem Wörterbuch gefunden worden sein.",
+    "detail": "Einer Erzählung nach stach Hugo Ball mit einem Federmesser in ein deutsch-französisches Wörterbuch und traf das Wort „dada“ – französische Kindersprache für „Steckenpferd“.",
+    "sources": [
+      {
+        "name": "Wikipedia: Dada",
+        "url": "https://de.wikipedia.org/wiki/Dada"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T09:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The name 'Dada' is said to have been found in a dictionary by chance.",
+        "detail": "According to one story, Hugo Ball stabbed a German-French dictionary with a penknife and hit the word 'dada' – French baby talk for 'hobby horse'."
+      }
+    }
+  },
+  {
+    "id": "f-willendorf-roetel",
+    "category_id": "art",
+    "area": "history",
+    "min_age": 10,
+    "text": "Die Venus von Willendorf war ursprünglich ganz rot bemalt.",
+    "detail": "Sie war vollständig mit Rötel, also rotem Ocker, überzogen. Reste davon sieht man besonders an der Kopfverzierung noch mit bloßem Auge.",
+    "sources": [
+      {
+        "name": "Wikipedia: Venus von Willendorf",
+        "url": "https://de.wikipedia.org/wiki/Venus_von_Willendorf"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-05T08:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The Venus of Willendorf was originally painted red all over.",
+        "detail": "It was completely covered in red ochre. Traces of it, especially on the head decoration, can still be seen with the naked eye."
       }
     }
   }
