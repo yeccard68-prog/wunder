@@ -720,3 +720,4 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 
 - **Fragen**: `2026-11-weltraum-3` (`ws38`–`ws55`: Morgen- und Abendstern, Mondmeere aus Lava, Meteorit, Schwerelosigkeit als freier Fall, Sonne als künftiger Roter Riese, galaktisches Jahr, Sagittarius A*, erstes Bild eines Schwarzen Lochs 2019, Philae, Laika, 382 kg Mondgestein, Sonnenflecken, Vulkane auf Io, blauer Neptun, 88 Sternbilder, 135 Shuttle-Flüge, Valles Marineris, „Haarstern“). Alle Zitate von `verify-evidence.mjs` bestätigt (18 von 18).
 - Im Feed jetzt: Weltraum 84 Fragen (insgesamt 1189).
+- **Datenbank (06.11.2026, nach dem Deploy)**: 18 Fragen eingefügt (nur neue Zeilen). Prüfsummen über den Inhalt der neuen Zeilen und über die Kategorie aller 1271 veröffentlichten Fragen mit den lokalen Daten identisch. Anonym sichtbar: 1271 Fragen, 99 Kategorien+Clips, Lösungen nicht lesbar (voller Sicherheitstest kurz zuvor bei 1253: alle 66 ok; Test 02 jetzt 1271).
