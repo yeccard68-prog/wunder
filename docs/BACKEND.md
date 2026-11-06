@@ -703,3 +703,8 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - **Clips** (`2026-11-people-6.mjs`): `v-person-linne` (Tiere), `v-person-hubble` (Weltraum), `v-person-chopin` (Musik), `v-person-monet` (Kunst; Quiz zu den Seerosen, weil `c33` schon nach dem Impressionismus fragt). Jetzt 91 Clips (85 veröffentlicht).
 - Im Feed jetzt: Tiere 58, Weltraum 66 Fragen.
 - **Datenbank (06.11.2026, nach dem Deploy)**: 36 Fragen, 4 Clips samt Quiz eingefügt, `s20` umgezogen; Prüfsummen über Inhalt der neuen Zeilen und über Kategorie aller 1175 veröffentlichten Fragen mit den lokalen Daten identisch. Sicherheitstest 02 jetzt 1175, 03 jetzt 99; alle 66 Prüfungen ok.
+
+## 86. Mehr Musik und Kunst (06.11.2026)
+
+- **Fragen**: `2026-11-musik-2` (`mk21`–`mk38`: Harfenpedale, Xylophon, Akkordeon-Patent 1829, Didgeridoo, Ukulele, Melodie der Nationalhymne, Dauer des „Rings“, Bayreuther Festspiele, Schwanensee, Woodstock, Grammophon, Compact Disc, a cappella, Donauwalzer, Gregorianischer Choral, Neujahrskonzert, Pedalpauke, Beethovens Taufe in Bonn) und `2026-11-kunst-2` (`kn24`–`kn41`: Las Meninas, Wanderer über dem Nebelmeer, Klee am Bauhaus, Mondrian, Pollock, Garten der Lüste, Turmbau zu Babel, Arnolfini-Hochzeit, Hundertwasser, Nofretete, Bartholdi und die Freiheitsstatue, erste Fotografie 1826, Fabergé-Eier, Escher, Louvre-Pyramide, Erschaffung Adams, Arcimboldo, Floß der Medusa). Alle Zitate von `verify-evidence.mjs` bestätigt (je 18 von 18).
+- Im Feed jetzt: Musik 67, Kunst 72 Fragen (insgesamt 1129).

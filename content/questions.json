@@ -46667,5 +46667,1445 @@
         "explanation": "In Giverny Monet created his famous garden, which became the subject of many of his pictures. There he worked above all on his water lily paintings."
       }
     }
+  },
+  {
+    "id": "mk21",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie viele Pedale hat eine Konzertharfe in der Regel?",
+    "options": [
+      "Sieben",
+      "Zwei",
+      "Zwölf",
+      "Keines"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Konzertharfe besitzt in der Regel sieben Pedale, eines für jeden Stammton. Mit 175–190 cm Höhe und meist 33–42 kg ist sie die größte Harfe.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Harfe",
+    "source_url": "https://de.wikipedia.org/wiki/Harfe",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many pedals does a concert harp usually have?",
+        "options": [
+          "Seven",
+          "Two",
+          "Twelve",
+          "None"
+        ],
+        "explanation": "The concert harp usually has seven pedals, one for each natural note. At 175–190 cm tall and usually 33–42 kg, it is the largest harp."
+      }
+    }
+  },
+  {
+    "id": "mk22",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet der Name „Xylophon“ wörtlich?",
+    "options": [
+      "Metall und Ton",
+      "Holz und Klang",
+      "Glas und Stimme",
+      "Stein und Schlag"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Name kommt aus dem Altgriechischen: xýlon heißt „Holz“, phōnē „Stimme, Ton, Klang“. Die Klangstäbe sind aus Holz, oft Palisander, oder aus Bambus.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Xylophon",
+    "source_url": "https://de.wikipedia.org/wiki/Xylophon",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the name 'xylophone' literally mean?",
+        "options": [
+          "Metal and tone",
+          "Wood and sound",
+          "Glass and voice",
+          "Stone and strike"
+        ],
+        "explanation": "The name comes from Ancient Greek: xýlon means 'wood', phōnē 'voice, tone, sound'. The bars are made of wood, often rosewood, or bamboo."
+      }
+    }
+  },
+  {
+    "id": "mk23",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer ließ 1829 das Akkordeon unter dem Namen „Accordion“ patentieren?",
+    "options": [
+      "Bartolomeo Cristofori aus Florenz",
+      "Adolphe Sax aus Belgien",
+      "Cyrill Demian aus Wien",
+      "Theobald Böhm aus München"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Wiener Instrumentenbauer Cyrill Demian fügte seinem Handbalginstrument Akkordtöne hinzu und ließ es 1829 als Accordion patentieren. Die Töne entstehen durch freischwingende Zungen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Akkordeon",
+    "source_url": "https://de.wikipedia.org/wiki/Akkordeon",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who patented the accordion under the name 'Accordion' in 1829?",
+        "options": [
+          "Bartolomeo Cristofori of Florence",
+          "Adolphe Sax of Belgium",
+          "Cyrill Demian of Vienna",
+          "Theobald Böhm of Munich"
+        ],
+        "explanation": "The Viennese instrument maker Cyrill Demian added chords to his bellows instrument and patented it as the Accordion in 1829. The notes are made by freely vibrating reeds."
+      }
+    }
+  },
+  {
+    "id": "mk24",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woraus wird ein traditionelles Didgeridoo meist gefertigt?",
+    "options": [
+      "Aus einem Tierhorn",
+      "Aus Bambus",
+      "Aus Messing",
+      "Aus einem von Termiten ausgehöhlten Eukalyptusstamm"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Didgeridoo ist ein traditionelles Instrument der nordaustralischen Aborigines. Meist wird es aus einem von Termiten ausgehöhlten Stamm lokaler Eukalyptusarten gefertigt.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Didgeridoo",
+    "source_url": "https://de.wikipedia.org/wiki/Didgeridoo",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a traditional didgeridoo usually made from?",
+        "options": [
+          "An animal horn",
+          "Bamboo",
+          "Brass",
+          "A eucalyptus trunk hollowed out by termites"
+        ],
+        "explanation": "The didgeridoo is a traditional instrument of the Aboriginal people of northern Australia. It is usually made from the trunk of a local eucalyptus tree hollowed out by termites."
+      }
+    }
+  },
+  {
+    "id": "mk25",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet der hawaiische Name „Ukulele“?",
+    "options": [
+      "Hüpfender Floh",
+      "Kleine Gitarre",
+      "Singender Wind",
+      "Tanzende Welle"
+    ],
+    "correct_index": 0,
+    "explanation": "Der portugiesische Einwanderer João Fernandes brachte 1879 ein Vorläuferinstrument von Madeira und den Azoren nach Hawaii. Dort bekam es den Namen Ukulele, „hüpfender Floh“ – wegen der Finger, die sich schnell über das Griffbrett bewegen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ukulele",
+    "source_url": "https://de.wikipedia.org/wiki/Ukulele",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Hawaiian name 'ukulele' mean?",
+        "options": [
+          "Jumping flea",
+          "Little guitar",
+          "Singing wind",
+          "Dancing wave"
+        ],
+        "explanation": "In 1879 the Portuguese immigrant João Fernandes brought a forerunner of the instrument from Madeira and the Azores to Hawaii. There it got the name ukulele, 'jumping flea' – after the fingers moving quickly over the fretboard."
+      }
+    }
+  },
+  {
+    "id": "mk26",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Von wem stammt die Melodie der deutschen Nationalhymne?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Joseph Haydn",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach"
+    ],
+    "correct_index": 1,
+    "explanation": "Hoffmann von Fallersleben dichtete das „Lied der Deutschen“ am 26. August 1841 auf Helgoland – ausdrücklich zur Melodie der Kaiserhymne „Gott erhalte Franz, den Kaiser“ von Joseph Haydn aus dem Jahr 1797. Die dritte Strophe ist die Nationalhymne.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Das Lied der Deutschen",
+    "source_url": "https://de.wikipedia.org/wiki/Das_Lied_der_Deutschen",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote the melody of the German national anthem?",
+        "options": [
+          "Ludwig van Beethoven",
+          "Joseph Haydn",
+          "Wolfgang Amadeus Mozart",
+          "Johann Sebastian Bach"
+        ],
+        "explanation": "Hoffmann von Fallersleben wrote the 'Song of the Germans' on Heligoland on 26 August 1841 – expressly to the melody of Joseph Haydn's imperial anthem 'God Save Emperor Francis' from 1797. Its third verse is the national anthem."
+      }
+    }
+  },
+  {
+    "id": "mk27",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie lange dauert eine Aufführung von Richard Wagners „Ring des Nibelungen“ ungefähr?",
+    "options": [
+      "Etwa 2 Stunden",
+      "Etwa 5 Stunden an einem Abend",
+      "Etwa 15 Stunden an vier Abenden",
+      "Etwa 40 Stunden an zehn Abenden"
+    ],
+    "correct_index": 2,
+    "explanation": "Der „Ring“ besteht aus vier Teilen – einem Vorabend und drei Tagen – und dauert etwa 15 Stunden. Wagner schrieb Text und Musik und arbeitete daran mit Unterbrechungen von 1848 bis 1874.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Oper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Ring des Nibelungen",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Ring_des_Nibelungen",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About how long does a performance of Richard Wagner's 'Ring of the Nibelung' take?",
+        "options": [
+          "About 2 hours",
+          "About 5 hours in one evening",
+          "About 15 hours over four evenings",
+          "About 40 hours over ten evenings"
+        ],
+        "explanation": "The 'Ring' has four parts – a preliminary evening and three days – and lasts about 15 hours. Wagner wrote both words and music and worked on it, with breaks, from 1848 to 1874."
+      }
+    }
+  },
+  {
+    "id": "mk28",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wessen Opern sind die Bayreuther Festspiele gewidmet?",
+    "options": [
+      "Ludwig van Beethovens",
+      "Wolfgang Amadeus Mozarts",
+      "Giuseppe Verdis",
+      "Richard Wagners"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Bayreuther Festspiele sind den zehn letzten Opern Richard Wagners gewidmet. Sie finden seit 1876 im Festspielhaus auf dem Grünen Hügel statt, das Wagner gemeinsam mit dem Architekten Otto Brückwald schuf.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Oper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bayreuther Festspiele",
+    "source_url": "https://de.wikipedia.org/wiki/Bayreuther_Festspiele",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Whose operas is the Bayreuth Festival devoted to?",
+        "options": [
+          "Ludwig van Beethoven's",
+          "Wolfgang Amadeus Mozart's",
+          "Giuseppe Verdi's",
+          "Richard Wagner's"
+        ],
+        "explanation": "The Bayreuth Festival is devoted to Richard Wagner's last ten operas. Since 1876 it has been held in the Festspielhaus on the Green Hill, which Wagner created together with the architect Otto Brückwald."
+      }
+    }
+  },
+  {
+    "id": "mk29",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer komponierte die Musik zum Ballett „Schwanensee“?",
+    "options": [
+      "Pjotr Iljitsch Tschaikowski",
+      "Igor Strawinsky",
+      "Frédéric Chopin",
+      "Johann Strauss"
+    ],
+    "correct_index": 0,
+    "explanation": "„Schwanensee“ ist ein weltberühmtes Ballett zur Musik von Pjotr Iljitsch Tschaikowski. Uraufgeführt wurde es 1877 am Bolschoi-Theater in Moskau.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Ballett"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwanensee",
+    "source_url": "https://de.wikipedia.org/wiki/Schwanensee",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who composed the music for the ballet 'Swan Lake'?",
+        "options": [
+          "Pyotr Ilyich Tchaikovsky",
+          "Igor Stravinsky",
+          "Frédéric Chopin",
+          "Johann Strauss"
+        ],
+        "explanation": "'Swan Lake' is a world-famous ballet to music by Pyotr Ilyich Tchaikovsky. It was first performed in 1877 at the Bolshoi Theatre in Moscow."
+      }
+    }
+  },
+  {
+    "id": "mk30",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In welchem Jahr fand das legendäre Woodstock-Festival statt?",
+    "options": [
+      "1959",
+      "1969",
+      "1979",
+      "1989"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Festival fand vom 15. bis 18. August 1969 statt – unter dem Motto „3 Tage Frieden & Musik“ auf den Weiden des Milchbauern Max Yasgur bei Bethel im Bundesstaat New York. Es wurde zu einem Symbol der Hippiebewegung.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Woodstock-Festival",
+    "source_url": "https://de.wikipedia.org/wiki/Woodstock-Festival",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the legendary Woodstock festival take place?",
+        "options": [
+          "1959",
+          "1969",
+          "1979",
+          "1989"
+        ],
+        "explanation": "The festival took place from 15 to 18 August 1969 – with the motto '3 Days of Peace & Music', on the pastures of dairy farmer Max Yasgur near Bethel in New York State. It became a symbol of the hippie movement."
+      }
+    }
+  },
+  {
+    "id": "mk31",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer erfand 1887 das Grammophon?",
+    "options": [
+      "Werner von Siemens",
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Emil Berliner"
+    ],
+    "correct_index": 3,
+    "explanation": "Emil Berliner erfand 1887 das Grammophon, den mechanischen Vorläufer des Plattenspielers. Auch den Begriff „Schallplatte“ prägte er.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grammophon",
+    "source_url": "https://de.wikipedia.org/wiki/Grammophon",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who invented the gramophone in 1887?",
+        "options": [
+          "Werner von Siemens",
+          "Thomas Edison",
+          "Alexander Graham Bell",
+          "Emil Berliner"
+        ],
+        "explanation": "Emil Berliner invented the gramophone in 1887, the mechanical forerunner of the record player. He also coined the German word for a record, 'Schallplatte'."
+      }
+    }
+  },
+  {
+    "id": "mk32",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In welchem Jahr kam die Compact Disc als erster digitaler Tonträger auf den Markt?",
+    "options": [
+      "1962",
+      "1972",
+      "1982",
+      "1992"
+    ],
+    "correct_index": 2,
+    "explanation": "Philips/Polygram und Sony führten die CD 1982 ein, in Zusammenarbeit mit dem Chemiekonzern Bayer. Sie sollte die Schallplatte ablösen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Compact Disc",
+    "source_url": "https://de.wikipedia.org/wiki/Compact_Disc",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the compact disc come onto the market as the first digital sound carrier?",
+        "options": [
+          "1962",
+          "1972",
+          "1982",
+          "1992"
+        ],
+        "explanation": "Philips/Polygram and Sony introduced the CD in 1982, together with the chemical company Bayer. It was meant to replace the vinyl record."
+      }
+    }
+  },
+  {
+    "id": "mk33",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet „a cappella“ heute meist?",
+    "options": [
+      "Musik nur für die Orgel",
+      "Gesang ohne Instrumentalbegleitung",
+      "Sehr schnelles Spiel",
+      "Musik unter freiem Himmel"
+    ],
+    "correct_index": 1,
+    "explanation": "Seit dem 19. Jahrhundert bedeutet a cappella Chormusik ohne Instrumentalbegleitung. Der Ausdruck kommt aus dem Italienischen und heißt „nach Art der Kapelle“.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Gesang"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: A cappella",
+    "source_url": "https://de.wikipedia.org/wiki/A_cappella",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does 'a cappella' usually mean today?",
+        "options": [
+          "Music for the organ only",
+          "Singing without instrumental accompaniment",
+          "Very fast playing",
+          "Music in the open air"
+        ],
+        "explanation": "Since the 19th century, a cappella has meant choral music without instrumental accompaniment. The expression comes from Italian and means 'in the manner of the chapel'."
+      }
+    }
+  },
+  {
+    "id": "mk34",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer komponierte den Walzer „An der schönen blauen Donau“?",
+    "options": [
+      "Franz Schubert",
+      "Ludwig van Beethoven",
+      "Johann Strauss (Sohn)",
+      "Richard Wagner"
+    ],
+    "correct_index": 2,
+    "explanation": "Johann Strauss (Sohn) komponierte den Donauwalzer im Spätherbst 1866 und Winter 1866/67. Uraufgeführt wurde er am 15. Februar 1867 mit dem Wiener Männergesang-Verein.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: An der schönen blauen Donau",
+    "source_url": "https://de.wikipedia.org/wiki/An_der_schönen_blauen_Donau",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who composed the waltz 'The Blue Danube'?",
+        "options": [
+          "Franz Schubert",
+          "Ludwig van Beethoven",
+          "Johann Strauss II",
+          "Richard Wagner"
+        ],
+        "explanation": "Johann Strauss II composed the Blue Danube waltz in late autumn 1866 and winter 1866/67. It was first performed on 15 February 1867 with the Vienna Men's Choral Society."
+      }
+    }
+  },
+  {
+    "id": "mk35",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was kennzeichnet den Gregorianischen Choral?",
+    "options": [
+      "Ein Volkstanz aus Spanien",
+      "Mehrstimmiger Chor mit Orchester",
+      "Ein Orgelstück ohne Gesang",
+      "Einstimmiger lateinischer Kirchengesang, ursprünglich ohne Begleitung"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Gregorianische Choral ist ein einstimmiger, ursprünglich unbegleiteter liturgischer Gesang der westlichen Kirche in lateinischer Sprache. Der Begriff wurde im 9. Jahrhundert erstmals verwendet.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Gesang"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gregorianischer Choral",
+    "source_url": "https://de.wikipedia.org/wiki/Gregorianischer_Choral",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What characterises Gregorian chant?",
+        "options": [
+          "A folk dance from Spain",
+          "A choir in several parts with orchestra",
+          "An organ piece without singing",
+          "Single-line Latin church singing, originally unaccompanied"
+        ],
+        "explanation": "Gregorian chant is a single-line, originally unaccompanied liturgical song of the Western Church in Latin. The term was first used in the 9th century."
+      }
+    }
+  },
+  {
+    "id": "mk36",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wessen Musik steht beim Neujahrskonzert der Wiener Philharmoniker vor allem auf dem Programm?",
+    "options": [
+      "Die der Strauss-Familie",
+      "Die von Johann Sebastian Bach",
+      "Die der Beatles",
+      "Die von Richard Wagner"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Neujahrskonzert ist vor allem den Werken der Strauss-Dynastie gewidmet, besonders Johann Strauss (Sohn). Es findet seit 1941 im Goldenen Saal des Wiener Musikvereins statt und wird nach Angaben der Philharmoniker in mehr als 150 Länder übertragen.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Orchester"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neujahrskonzert der Wiener Philharmoniker",
+    "source_url": "https://de.wikipedia.org/wiki/Neujahrskonzert_der_Wiener_Philharmoniker",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Whose music is mainly on the programme of the Vienna Philharmonic's New Year's Concert?",
+        "options": [
+          "The Strauss family's",
+          "Johann Sebastian Bach's",
+          "The Beatles'",
+          "Richard Wagner's"
+        ],
+        "explanation": "The New Year's Concert is devoted mainly to the works of the Strauss dynasty, especially Johann Strauss II. It has been held in the Golden Hall of the Vienna Musikverein since 1941 and, according to the orchestra, is broadcast to more than 150 countries."
+      }
+    }
+  },
+  {
+    "id": "mk37",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Womit lässt sich bei einer Pedalpauke die Tonhöhe verändern?",
+    "options": [
+      "Mit einem Hebel am Schlägel",
+      "Mit einem Pedal",
+      "Gar nicht",
+      "Mit Wasser im Kessel"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Pauke ist eine Kesseltrommel: Ein fast halbkugeliger Kupferblechkessel ist mit einem Fell bespannt. Bei Pedalpauken lässt sich die Tonhöhe mit einem Pedal regeln.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pauke",
+    "source_url": "https://de.wikipedia.org/wiki/Pauke",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How can you change the pitch on a pedal timpani?",
+        "options": [
+          "With a lever on the stick",
+          "With a pedal",
+          "Not at all",
+          "With water in the kettle"
+        ],
+        "explanation": "The timpani is a kettle drum: an almost hemispherical copper kettle covered with a skin. On pedal timpani the pitch can be adjusted with a pedal."
+      }
+    }
+  },
+  {
+    "id": "mk38",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In welcher Stadt wurde Ludwig van Beethoven 1770 getauft?",
+    "options": [
+      "Salzburg",
+      "Wien",
+      "Bonn",
+      "Leipzig"
+    ],
+    "correct_index": 2,
+    "explanation": "Beethoven wurde am 17. Dezember 1770 in Bonn getauft und starb 1827 in Wien. Er führte die Wiener Klassik zu ihrer höchsten Entwicklung.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ludwig van Beethoven",
+    "source_url": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city was Ludwig van Beethoven baptised in 1770?",
+        "options": [
+          "Salzburg",
+          "Vienna",
+          "Bonn",
+          "Leipzig"
+        ],
+        "explanation": "Beethoven was baptised in Bonn on 17 December 1770 and died in Vienna in 1827. He brought Viennese Classicism to its highest development."
+      }
+    }
+  },
+  {
+    "id": "kn24",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wer steht im Mittelpunkt von Diego Velázquez’ Gemälde „Las Meninas“ (1656)?",
+    "options": [
+      "Die fünfjährige Königstochter Margarita",
+      "Der König auf seinem Thron",
+      "Ein Hofnarr mit Krone",
+      "Der Maler ganz allein"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Mittelpunkt steht die fünfjährige Königstochter Margarita, umgeben von Personen des spanischen Hofes. Das Königspaar sieht man nur in einem Spiegel. Das 3,18 × 2,76 Meter große Bild von 1656 hängt im Prado in Madrid.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Las Meninas",
+    "source_url": "https://de.wikipedia.org/wiki/Las_Meninas",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is at the centre of Diego Velázquez's painting 'Las Meninas' (1656)?",
+        "options": [
+          "The five-year-old princess Margarita",
+          "The king on his throne",
+          "A jester wearing a crown",
+          "The painter all alone"
+        ],
+        "explanation": "At the centre is the five-year-old princess Margarita, surrounded by members of the Spanish court. The royal couple can only be seen in a mirror. The 3.18 × 2.76 metre picture from 1656 hangs in the Prado in Madrid."
+      }
+    }
+  },
+  {
+    "id": "kn25",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wer malte um 1818 den „Wanderer über dem Nebelmeer“?",
+    "options": [
+      "William Turner",
+      "Caspar David Friedrich",
+      "Albrecht Dürer",
+      "Claude Monet"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Bild von Caspar David Friedrich zeigt die bekannteste Rückenfigur des Malers und wurde zu einem Symbol der Romantik. Es hängt in der Hamburger Kunsthalle.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Wanderer über dem Nebelmeer",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Wanderer_über_dem_Nebelmeer",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who painted 'Wanderer above the Sea of Fog' around 1818?",
+        "options": [
+          "William Turner",
+          "Caspar David Friedrich",
+          "Albrecht Dürer",
+          "Claude Monet"
+        ],
+        "explanation": "The picture by Caspar David Friedrich shows the painter's best-known figure seen from behind and became a symbol of Romanticism. It hangs in the Hamburger Kunsthalle."
+      }
+    }
+  },
+  {
+    "id": "kn26",
+    "kind": "question",
+    "category_id": "art",
+    "question": "An welcher berühmten Schule lehrte Paul Klee ab 1921 – wie sein Freund Wassily Kandinsky?",
+    "options": [
+      "An der Kunstakademie in Florenz",
+      "An der Sorbonne",
+      "Am Bauhaus",
+      "In Oxford"
+    ],
+    "correct_index": 2,
+    "explanation": "Wie sein Freund Wassily Kandinsky lehrte Klee ab 1921 am Bauhaus, zuerst in Weimar, später in Dessau. Ab 1931 war er Professor an der Kunstakademie Düsseldorf.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paul Klee",
+    "source_url": "https://de.wikipedia.org/wiki/Paul_Klee",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At which famous school did Paul Klee teach from 1921 – like his friend Wassily Kandinsky?",
+        "options": [
+          "The Academy of Fine Arts in Florence",
+          "The Sorbonne",
+          "The Bauhaus",
+          "Oxford"
+        ],
+        "explanation": "Like his friend Wassily Kandinsky, Klee taught at the Bauhaus from 1921, first in Weimar and later in Dessau. From 1931 he was a professor at the Düsseldorf Art Academy."
+      }
+    }
+  },
+  {
+    "id": "kn27",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was kennzeichnet die bekannten Bilder von Piet Mondrian ab den 1920er Jahren?",
+    "options": [
+      "Sonnenblumen in einer Vase",
+      "Weiche, zerfließende Uhren",
+      "Tausende winzige Farbpunkte",
+      "Ein schwarzes Raster mit Rechtecken in den Grundfarben"
+    ],
+    "correct_index": 3,
+    "explanation": "Ab den 1920er Jahren schuf Mondrian streng geometrische Bilder: ein schwarzes Raster, verbunden mit rechteckigen Flächen in den Grundfarben. Er gehört zu den Begründern der abstrakten Malerei.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Piet Mondrian",
+    "source_url": "https://de.wikipedia.org/wiki/Piet_Mondrian",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What characterises Piet Mondrian's well-known pictures from the 1920s onwards?",
+        "options": [
+          "Sunflowers in a vase",
+          "Soft, melting clocks",
+          "Thousands of tiny dots of colour",
+          "A black grid with rectangles in the primary colours"
+        ],
+        "explanation": "From the 1920s Mondrian created strictly geometric pictures: a black grid combined with rectangular areas in the primary colours. He is one of the founders of abstract painting."
+      }
+    }
+  },
+  {
+    "id": "kn28",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welchen Spitznamen brachte Jackson Pollock seine Malweise mit herabtropfender Farbe ein?",
+    "options": [
+      "Jack the Dripper",
+      "Mister Splash",
+      "Der Farbregen",
+      "Pinsel-Jack"
+    ],
+    "correct_index": 0,
+    "explanation": "Pollock begründete das Action Painting. Seine großformatigen Bilder im Drip-Painting-Verfahren brachten ihm schon zu Lebzeiten den Spitznamen „Jack the Dripper“ ein.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jackson Pollock",
+    "source_url": "https://de.wikipedia.org/wiki/Jackson_Pollock",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What nickname did Jackson Pollock earn with his dripping-paint technique?",
+        "options": [
+          "Jack the Dripper",
+          "Mister Splash",
+          "The Paint Rain",
+          "Brush Jack"
+        ],
+        "explanation": "Pollock founded Action Painting. His large drip paintings earned him the nickname 'Jack the Dripper' during his lifetime."
+      }
+    }
+  },
+  {
+    "id": "kn29",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was zeigt der rechte Flügel von Hieronymus Boschs Triptychon „Der Garten der Lüste“?",
+    "options": [
+      "Den Garten Eden",
+      "Die Hölle",
+      "Eine Hafenstadt",
+      "Ein Bauernfest"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Triptychon entstand etwa zwischen 1490 und 1500 und hängt im Prado. Der linke Flügel zeigt den Garten Eden mit Adam und Eva, die Mitteltafel den namengebenden Garten der Lüste, der rechte Flügel die Hölle.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Garten der Lüste (Bosch)",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Garten_der_Lüste_(Bosch)",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the right wing of Hieronymus Bosch's triptych 'The Garden of Earthly Delights' show?",
+        "options": [
+          "The Garden of Eden",
+          "Hell",
+          "A harbour town",
+          "A peasant festival"
+        ],
+        "explanation": "The triptych was painted roughly between 1490 and 1500 and hangs in the Prado. The left wing shows the Garden of Eden with Adam and Eve, the central panel the garden of delights that gives the work its name, and the right wing hell."
+      }
+    }
+  },
+  {
+    "id": "kn30",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welches biblische Bauwerk malte Pieter Bruegel der Ältere 1563 im „Großen Turmbau“?",
+    "options": [
+      "Die Mauern von Jericho",
+      "Die Arche Noah",
+      "Den Tempel Salomos",
+      "Den Turm zu Babel"
+    ],
+    "correct_index": 3,
+    "explanation": "Bruegel malte mindestens zwei Versionen des Turmbaus zu Babel, von dem das Erste Buch Mose erzählt. Der „Große Turmbau“ von 1563 hängt im Kunsthistorischen Museum.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Turmbau zu Babel (Bruegel)",
+    "source_url": "https://de.wikipedia.org/wiki/Turmbau_zu_Babel_(Bruegel)",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which biblical building did Pieter Bruegel the Elder paint in 1563 in his 'Great Tower'?",
+        "options": [
+          "The walls of Jericho",
+          "Noah's Ark",
+          "Solomon's Temple",
+          "The Tower of Babel"
+        ],
+        "explanation": "Bruegel painted at least two versions of the Tower of Babel, which the Book of Genesis tells about. The 'Great Tower' of 1563 hangs in the Kunsthistorisches Museum."
+      }
+    }
+  },
+  {
+    "id": "kn31",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was entdeckt man im Spiegel in Jan van Eycks „Arnolfini-Hochzeit“ (1434)?",
+    "options": [
+      "Zwei weitere Personen in einer Türöffnung",
+      "Den König von Burgund",
+      "Eine Landschaft mit Burg",
+      "Einen Engel"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Spiegel an der Wand erkennt man zwei weitere Personen in einer Türöffnung. Das Doppelporträt von 1434 hängt heute in der National Gallery in London.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arnolfini-Hochzeit",
+    "source_url": "https://de.wikipedia.org/wiki/Arnolfini-Hochzeit",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can you discover in the mirror in Jan van Eyck's 'Arnolfini Portrait' (1434)?",
+        "options": [
+          "Two more people in a doorway",
+          "The Duke of Burgundy",
+          "A landscape with a castle",
+          "An angel"
+        ],
+        "explanation": "In the mirror on the wall you can make out two more people in a doorway. The double portrait from 1434 now hangs in the National Gallery in London."
+      }
+    }
+  },
+  {
+    "id": "kn32",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wogegen trat der Künstler Friedensreich Hundertwasser zeitlebens auf?",
+    "options": [
+      "Gegen bunte Farben",
+      "Gegen die „gerade Linie“",
+      "Gegen runde Formen",
+      "Gegen Pflanzen an Häusern"
+    ],
+    "correct_index": 1,
+    "explanation": "Hundertwasser war Maler, aber auch in Architektur und Umweltschutz tätig. Künstlerisch trat er zeitlebens als Gegner der „geraden Linie“ und jeder Standardisierung auf. Seinen Namen bildete er aus seinem bürgerlichen Namen Stowasser – „sto“ heißt in slawischen Sprachen „hundert“.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Friedensreich Hundertwasser",
+    "source_url": "https://de.wikipedia.org/wiki/Friedensreich_Hundertwasser",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the artist Friedensreich Hundertwasser oppose all his life?",
+        "options": [
+          "Bright colours",
+          "The 'straight line'",
+          "Round shapes",
+          "Plants on buildings"
+        ],
+        "explanation": "Hundertwasser was a painter but also worked in architecture and environmental protection. As an artist he opposed the 'straight line' and any standardisation all his life. He formed his name from his real name, Stowasser – 'sto' means 'hundred' in Slavic languages."
+      }
+    }
+  },
+  {
+    "id": "kn33",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wo ist die berühmte Büste der Nofretete heute zu sehen?",
+    "options": [
+      "Im Ägyptischen Museum in Kairo",
+      "Im Louvre in Paris",
+      "Im Neuen Museum in Berlin",
+      "Im British Museum in London"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Büste ist die Hauptattraktion des Ägyptischen Museums Berlin, das seit dem 16. Oktober 2009 wieder im Neuen Museum auf der Museumsinsel untergebracht ist.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Museen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Büste der Nofretete",
+    "source_url": "https://de.wikipedia.org/wiki/Büste_der_Nofretete",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where can the famous bust of Nefertiti be seen today?",
+        "options": [
+          "In the Egyptian Museum in Cairo",
+          "In the Louvre in Paris",
+          "In the Neues Museum in Berlin",
+          "In the British Museum in London"
+        ],
+        "explanation": "The bust is the main attraction of the Egyptian Museum of Berlin, which since 16 October 2009 has again been housed in the Neues Museum on Museum Island."
+      }
+    }
+  },
+  {
+    "id": "kn34",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher französische Bildhauer schuf die Freiheitsstatue in New York?",
+    "options": [
+      "Michelangelo",
+      "Auguste Rodin",
+      "Camille Claudel",
+      "Frédéric-Auguste Bartholdi"
+    ],
+    "correct_index": 3,
+    "explanation": "Bartholdis bekanntestes Werk ist die Freiheitsstatue auf Liberty Island, die ursprünglich Bartholdi-Statue hieß. Von ihm stammt auch der Löwe von Belfort, eine 11 Meter hohe Steinskulptur.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Frédéric-Auguste Bartholdi",
+    "source_url": "https://de.wikipedia.org/wiki/Frédéric-Auguste_Bartholdi",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which French sculptor created the Statue of Liberty in New York?",
+        "options": [
+          "Michelangelo",
+          "Auguste Rodin",
+          "Camille Claudel",
+          "Frédéric-Auguste Bartholdi"
+        ],
+        "explanation": "Bartholdi's best-known work is the Statue of Liberty on Liberty Island, which was originally called the Bartholdi Statue. He also made the Lion of Belfort, a stone sculpture 11 metres high."
+      }
+    }
+  },
+  {
+    "id": "kn35",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wann entstand die erste erhaltene Fotografie der Welt?",
+    "options": [
+      "1626",
+      "1726",
+      "1826",
+      "1926"
+    ],
+    "correct_index": 2,
+    "explanation": "Joseph Nicéphore Niépce nahm 1826 in Saint-Loup-de-Varennes den „Blick aus dem Arbeitszimmer von Le Gras“ auf – die erste erfolgreich aufgenommene und erhaltene Fotografie der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Fotografie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blick aus dem Arbeitszimmer von Le Gras",
+    "source_url": "https://de.wikipedia.org/wiki/Blick_aus_dem_Arbeitszimmer_von_Le_Gras",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When was the world's first surviving photograph taken?",
+        "options": [
+          "1626",
+          "1726",
+          "1826",
+          "1926"
+        ],
+        "explanation": "In 1826 Joseph Nicéphore Niépce took the 'View from the Window at Le Gras' in Saint-Loup-de-Varennes – the world's first successfully taken photograph that survives."
+      }
+    }
+  },
+  {
+    "id": "kn36",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wo wurden die berühmten Fabergé-Eier zwischen 1885 und 1917 gefertigt?",
+    "options": [
+      "In Paris",
+      "In Sankt Petersburg",
+      "In Wien",
+      "In London"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Schmuck-Ostereier entstanden in der Werkstatt von Peter Carl Fabergé in Sankt Petersburg, viele davon als Prunkeier im Auftrag des Zaren. In Russland schenkt man sich seit dem 17. Jahrhundert zu Ostern geschmückte Eier.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fabergé-Ei",
+    "source_url": "https://de.wikipedia.org/wiki/Fabergé-Ei",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where were the famous Fabergé eggs made between 1885 and 1917?",
+        "options": [
+          "In Paris",
+          "In Saint Petersburg",
+          "In Vienna",
+          "In London"
+        ],
+        "explanation": "The jewelled Easter eggs were made in Peter Carl Fabergé's workshop in Saint Petersburg, many of them as splendid eggs commissioned by the Tsar. In Russia people have given each other decorated eggs at Easter since the 17th century."
+      }
+    }
+  },
+  {
+    "id": "kn37",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wofür ist der Grafiker M. C. Escher besonders bekannt?",
+    "options": [
+      "Für Landschaften im Nebel",
+      "Für Porträts von Königen",
+      "Für Darstellungen unmöglicher Figuren",
+      "Für riesige Skulpturen aus Stahl"
+    ],
+    "correct_index": 2,
+    "explanation": "Maurits Cornelis Escher (1898–1972), ein niederländischer Künstler und Grafiker, wurde vor allem durch seine Darstellung unmöglicher Figuren bekannt.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Grafik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: M. C. Escher",
+    "source_url": "https://de.wikipedia.org/wiki/M._C._Escher",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the graphic artist M. C. Escher especially known for?",
+        "options": [
+          "Landscapes in the fog",
+          "Portraits of kings",
+          "Drawings of impossible figures",
+          "Huge steel sculptures"
+        ],
+        "explanation": "Maurits Cornelis Escher (1898–1972), a Dutch artist and printmaker, became famous above all for his depictions of impossible figures."
+      }
+    }
+  },
+  {
+    "id": "kn38",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wozu dient die Glaspyramide im Innenhof des Louvre?",
+    "options": [
+      "Als Aussichtsturm",
+      "Als Grabmal",
+      "Als Gewächshaus",
+      "Als Haupteingang des Museums"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Glaspyramide wurde von 1985 bis 1989 gebaut und dient als Haupteingang des Louvre. Entworfen hat sie der chinesisch-amerikanische Architekt Ieoh Ming Pei; anfangs war sie heftig umstritten.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Museen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Louvre-Pyramide",
+    "source_url": "https://de.wikipedia.org/wiki/Louvre-Pyramide",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the glass pyramid in the courtyard of the Louvre used for?",
+        "options": [
+          "As a viewing tower",
+          "As a tomb",
+          "As a greenhouse",
+          "As the museum's main entrance"
+        ],
+        "explanation": "The glass pyramid was built from 1985 to 1989 and serves as the Louvre's main entrance. It was designed by the Chinese-American architect Ieoh Ming Pei; at first it was fiercely disputed."
+      }
+    }
+  },
+  {
+    "id": "kn39",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was zeigt Michelangelos Fresko „Die Erschaffung Adams“ in der Sixtinischen Kapelle?",
+    "options": [
+      "Wie Gott Adam mit ausgestrecktem Finger zum Leben erweckt",
+      "Wie Adam und Eva das Paradies verlassen",
+      "Die Sintflut",
+      "Das Jüngste Gericht"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Deckenfresko entstand zwischen 1508 und 1512 und zeigt, wie Gottvater Adam mit ausgestrecktem Zeigefinger zum Leben erweckt. Es ist eines von neun Einzelfresken zur Genesis an der Decke der Kapelle.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Erschaffung Adams",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Erschaffung_Adams",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Michelangelo's fresco 'The Creation of Adam' in the Sistine Chapel show?",
+        "options": [
+          "God bringing Adam to life with an outstretched finger",
+          "Adam and Eve leaving paradise",
+          "The Flood",
+          "The Last Judgement"
+        ],
+        "explanation": "The ceiling fresco was painted between 1508 and 1512 and shows God the Father bringing Adam to life with his outstretched index finger. It is one of nine frescoes from Genesis on the chapel's ceiling."
+      }
+    }
+  },
+  {
+    "id": "kn40",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woraus setzte der Maler Giuseppe Arcimboldo seine berühmten Porträts zusammen?",
+    "options": [
+      "Aus Zeitungsschnipseln",
+      "Aus kleinen Glassteinchen",
+      "Aus Blumen, Früchten oder Gemüse",
+      "Aus lauter Punkten"
+    ],
+    "correct_index": 2,
+    "explanation": "Arcimboldo, ein Maler des 16. Jahrhunderts aus Mailand, arrangierte auf seinen Bildern Blumen, Früchte, Gemüse oder sogar Bücher zu Porträts. Am Prager Hof arbeitete er auch als Ingenieur und Kostümzeichner.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Giuseppe Arcimboldo",
+    "source_url": "https://de.wikipedia.org/wiki/Giuseppe_Arcimboldo",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the painter Giuseppe Arcimboldo build his famous portraits out of?",
+        "options": [
+          "Scraps of newspaper",
+          "Small pieces of glass",
+          "Flowers, fruit or vegetables",
+          "Nothing but dots"
+        ],
+        "explanation": "Arcimboldo, a 16th-century painter from Milan, arranged flowers, fruit, vegetables or even books into portraits in his pictures. At the court in Prague he also worked as an engineer and costume designer."
+      }
+    }
+  },
+  {
+    "id": "kn41",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie groß ist Théodore Géricaults Gemälde „Das Floß der Medusa“ von 1819?",
+    "options": [
+      "Etwa 49 × 72 Zentimeter",
+      "Etwa 4,91 × 7,16 Meter",
+      "Etwa 49 × 72 Meter",
+      "Etwa 491 × 716 Meter"
+    ],
+    "correct_index": 1,
+    "explanation": "Das großformatige Bild misst 4,91 × 7,16 Meter und hängt im Louvre in Paris. Géricault reichte es 1819 beim Pariser Salon zur Ausstellung ein.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Das Floß der Medusa",
+    "source_url": "https://de.wikipedia.org/wiki/Das_Floß_der_Medusa",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How big is Théodore Géricault's 1819 painting 'The Raft of the Medusa'?",
+        "options": [
+          "About 49 × 72 centimetres",
+          "About 4.91 × 7.16 metres",
+          "About 49 × 72 metres",
+          "About 491 × 716 metres"
+        ],
+        "explanation": "The huge picture measures 4.91 × 7.16 metres and hangs in the Louvre in Paris. Géricault submitted it to the Paris Salon in 1819."
+      }
+    }
   }
 ]
