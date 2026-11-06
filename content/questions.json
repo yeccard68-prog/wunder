@@ -48107,5 +48107,1685 @@
         "explanation": "The huge picture measures 4.91 × 7.16 metres and hangs in the Louvre in Paris. Géricault submitted it to the Paris Salon in 1819."
       }
     }
+  },
+  {
+    "id": "cu1",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In Carlo Collodis Originalbuch „Pinocchio“: Wie oft lügt Pinocchio so, dass seine Nase wächst?",
+    "options": [
+      "Nur an zwei Stellen",
+      "In fast jedem Kapitel",
+      "Kein einziges Mal",
+      "Über hundertmal"
+    ],
+    "correct_index": 0,
+    "explanation": "Pinocchio erschien ab 1881 als Fortsetzungsgeschichte, 1883 als Buch. Dass er lügt und seine Nase wächst, kommt darin nur an zwei Stellen vor – zusammen keine drei Seiten. Bei Collodi ist Pinocchio vor allem ein leichtsinniger Faulpelz; die Nase machten erst spätere Bearbeitungen so berühmt.",
+    "difficulty": 3,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pinocchio",
+    "source_url": "https://de.wikipedia.org/wiki/Pinocchio",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Carlo Collodi's original book 'Pinocchio': how often does Pinocchio lie so that his nose grows?",
+        "options": [
+          "In only two places",
+          "In almost every chapter",
+          "Not a single time",
+          "More than a hundred times"
+        ],
+        "explanation": "Pinocchio appeared as a serial from 1881 and as a book in 1883. Him lying and his nose growing happens in only two places – together less than three pages. In Collodi's book Pinocchio is above all a careless idler; later adaptations made the nose so famous."
+      }
+    }
+  },
+  {
+    "id": "cu2",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer schrieb das Kinderbuch „Alice im Wunderland“?",
+    "options": [
+      "Charles Dickens",
+      "Lewis Carroll",
+      "Mark Twain",
+      "Oscar Wilde"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Kinderbuch des britischen Schriftstellers Lewis Carroll erschien erstmals 1865, die Fortsetzung „Alice hinter den Spiegeln“ 1871. Beide zählen zu den Klassikern der Weltliteratur.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alice im Wunderland",
+    "source_url": "https://de.wikipedia.org/wiki/Alice_im_Wunderland",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote the children's book 'Alice in Wonderland'?",
+        "options": [
+          "Charles Dickens",
+          "Lewis Carroll",
+          "Mark Twain",
+          "Oscar Wilde"
+        ],
+        "explanation": "The children's book by the British writer Lewis Carroll first appeared in 1865, its sequel 'Through the Looking-Glass' in 1871. Both count among the classics of world literature."
+      }
+    }
+  },
+  {
+    "id": "cu3",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie lange lebt Robinson Crusoe in Daniel Defoes Roman auf seiner Insel?",
+    "options": [
+      "Etwa 2 Wochen",
+      "Etwa 1 Jahr",
+      "Etwa 28 Jahre",
+      "Etwa 80 Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Roman von 1719 erzählt von einem Seemann, der als Schiffbrüchiger rund 28 Jahre auf einer Insel verbringt. Nach ihm heißen Geschichten über Menschen, die auf einer Insel festsitzen, auch Robinsonaden.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Robinson Crusoe",
+    "source_url": "https://de.wikipedia.org/wiki/Robinson_Crusoe",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does Robinson Crusoe live on his island in Daniel Defoe's novel?",
+        "options": [
+          "About 2 weeks",
+          "About 1 year",
+          "About 28 years",
+          "About 80 years"
+        ],
+        "explanation": "The 1719 novel tells of a sailor who spends around 28 years on an island after a shipwreck. Stories about people stranded on an island are named 'Robinsonades' after him."
+      }
+    }
+  },
+  {
+    "id": "cu4",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wen jagt Kapitän Ahab in Herman Melvilles Roman „Moby-Dick“?",
+    "options": [
+      "Einen Eisbären",
+      "Einen Riesenkraken",
+      "Einen Weißen Hai",
+      "Einen weißen Pottwal"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Roman von 1851 erzählt von der Fahrt des Walfangschiffes Pequod. Dessen Kapitän Ahab jagt mit blindem Hass den weißen Pottwal Moby Dick, der ihm einen Unterschenkel abgerissen hatte.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moby-Dick",
+    "source_url": "https://de.wikipedia.org/wiki/Moby-Dick",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Captain Ahab hunt in Herman Melville's novel 'Moby-Dick'?",
+        "options": [
+          "A polar bear",
+          "A giant squid",
+          "A great white shark",
+          "A white sperm whale"
+        ],
+        "explanation": "The 1851 novel tells of the voyage of the whaling ship Pequod. Its captain, Ahab, hunts with blind hatred the white sperm whale Moby Dick, which had torn off his lower leg."
+      }
+    }
+  },
+  {
+    "id": "cu5",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie heißt das Haus, in dem Pippi Langstrumpf wohnt?",
+    "options": [
+      "Villa Kunterbunt",
+      "Haus Sonnenschein",
+      "Villa Wolkenkuckuck",
+      "Schloss Rabenstein"
+    ],
+    "correct_index": 0,
+    "explanation": "Pippi lebt mit ihrem Affen Herrn Nilsson und ihrem Pferd in der Villa Kunterbunt – ganz ohne Erwachsene. Sie ist neun Jahre alt und hat rote Haare mit abstehenden Zöpfen. Erfunden hat sie die schwedische Schriftstellerin Astrid Lindgren.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pippi Langstrumpf",
+    "source_url": "https://de.wikipedia.org/wiki/Pippi_Langstrumpf",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the name of the house Pippi Longstocking lives in?",
+        "options": [
+          "Villa Villekulla",
+          "Sunshine House",
+          "Cloud Cuckoo Villa",
+          "Raven Rock Castle"
+        ],
+        "explanation": "Pippi lives with her monkey Mr Nilsson and her horse in Villa Villekulla – with no grown-ups at all. She is nine years old and has red hair in plaits that stick out. She was invented by the Swedish writer Astrid Lindgren."
+      }
+    }
+  },
+  {
+    "id": "cu6",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In wie vielen Streichen erzählt Wilhelm Busch die Geschichte von „Max und Moritz“?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correct_index": 2,
+    "explanation": "Der volle Titel lautet „Max und Moritz – Eine Bubengeschichte in sieben Streichen“. Die Bildergeschichte erschien Ende Oktober 1865. Reime wie „Dieses war der erste Streich, doch der zweite folgt sogleich“ kennt man bis heute.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Max und Moritz",
+    "source_url": "https://de.wikipedia.org/wiki/Max_und_Moritz",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In how many pranks does Wilhelm Busch tell the story of 'Max and Moritz'?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "10"
+        ],
+        "explanation": "The full title is 'Max and Moritz – A Story of Two Boys in Seven Pranks'. The picture story appeared at the end of October 1865. Rhymes from it are still widely known in Germany today."
+      }
+    }
+  },
+  {
+    "id": "cu7",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welchem Jahr gaben die Brüder Grimm ihre „Kinder- und Hausmärchen“ zum ersten Mal heraus?",
+    "options": [
+      "1612",
+      "1712",
+      "1812",
+      "1912"
+    ],
+    "correct_index": 2,
+    "explanation": "Jacob und Wilhelm Grimm gaben die Sammlung von 1812 bis 1858 heraus. Gedacht waren die Märchen ursprünglich nicht nur für Kinder – die Brüder sammelten sie vor allem aus volkskundlichem Interesse.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grimms Märchen",
+    "source_url": "https://de.wikipedia.org/wiki/Grimms_Märchen",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the Brothers Grimm first publish their 'Children's and Household Tales'?",
+        "options": [
+          "1612",
+          "1712",
+          "1812",
+          "1912"
+        ],
+        "explanation": "Jacob and Wilhelm Grimm published the collection from 1812 to 1858. The tales were originally not meant just for children – the brothers collected them mainly out of interest in folklore."
+      }
+    }
+  },
+  {
+    "id": "cu8",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Unter welcher Adresse in London wohnt der Detektiv Sherlock Holmes?",
+    "options": [
+      "Oxford Street 7",
+      "Downing Street 10",
+      "Abbey Road 3",
+      "Baker Street 221b"
+    ],
+    "correct_index": 3,
+    "explanation": "Arthur Conan Doyle schuf Sherlock Holmes 1886. Holmes wohnt in der Baker Street 221b – damals eine erfundene Adresse, denn die Straße war nur bis zur Nummer 85 durchnummeriert. Meist erzählt sein Freund Dr. Watson die Fälle.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sherlock Holmes",
+    "source_url": "https://de.wikipedia.org/wiki/Sherlock_Holmes",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At which London address does the detective Sherlock Holmes live?",
+        "options": [
+          "7 Oxford Street",
+          "10 Downing Street",
+          "3 Abbey Road",
+          "221B Baker Street"
+        ],
+        "explanation": "Arthur Conan Doyle created Sherlock Holmes in 1886. Holmes lives at 221B Baker Street – an invented address at the time, because the street was only numbered up to 85. His friend Dr Watson usually tells the cases."
+      }
+    }
+  },
+  {
+    "id": "cu9",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie heißt der Glücksdrache in Michael Endes Roman „Die unendliche Geschichte“?",
+    "options": [
+      "Fuchur",
+      "Smaug",
+      "Grisu",
+      "Fafnir"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Roman erschien 1979. Der Junge Bastian liest darin von Phantásien, das vom „Nichts“ zerstört wird. Der junge Jäger Atréju sucht nach Rettung und begegnet dem Glücksdrachen Fuchur, der sein Begleiter wird.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die unendliche Geschichte (Roman)",
+    "source_url": "https://de.wikipedia.org/wiki/Die_unendliche_Geschichte_(Roman)",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the name of the luckdragon in Michael Ende's novel 'The Neverending Story'?",
+        "options": [
+          "Falkor",
+          "Smaug",
+          "Grisu",
+          "Fafnir"
+        ],
+        "explanation": "The novel appeared in 1979. In it the boy Bastian reads about Fantastica, which is being destroyed by 'the Nothing'. The young hunter Atreyu searches for a rescue and meets the luckdragon Falkor, who becomes his companion."
+      }
+    }
+  },
+  {
+    "id": "cu10",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was brachte Prometheus in der griechischen Sage den Menschen?",
+    "options": [
+      "Das Feuer",
+      "Das Rad",
+      "Die Schrift",
+      "Den Wein"
+    ],
+    "correct_index": 0,
+    "explanation": "Prometheus gehört zum Göttergeschlecht der Titanen. Er stahl den Göttern das Feuer und brachte es den Menschen. Zur Strafe ließ Zeus ihn im Kaukasusgebirge festschmieden. Sein Name bedeutet „der Vorausdenkende“.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Mythologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prometheus",
+    "source_url": "https://de.wikipedia.org/wiki/Prometheus",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Prometheus bring to humans in the Greek myth?",
+        "options": [
+          "Fire",
+          "The wheel",
+          "Writing",
+          "Wine"
+        ],
+        "explanation": "Prometheus belongs to the race of gods called the Titans. He stole fire from the gods and brought it to humans. As punishment Zeus had him chained in the Caucasus mountains. His name means 'the one who thinks ahead'."
+      }
+    }
+  },
+  {
+    "id": "cu11",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was meint man heute, wenn jemand „die Büchse der Pandora öffnet“?",
+    "options": [
+      "Er findet einen versteckten Schatz",
+      "Er richtet ein Unheil an, das sich nicht wiedergutmachen lässt",
+      "Er packt ein Geburtstagsgeschenk aus",
+      "Er bricht zu einer langen Reise auf"
+    ],
+    "correct_index": 1,
+    "explanation": "In der griechischen Sage ist Pandora eine von Hephaistos aus Lehm geschaffene Frau, die eine unheilvolle Büchse mitbringt. Heute ist das Öffnen der Büchse der Pandora Inbegriff für ein Unheil, das sich nicht wiedergutmachen lässt.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Mythologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pandora",
+    "source_url": "https://de.wikipedia.org/wiki/Pandora",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do people mean today when someone 'opens Pandora's box'?",
+        "options": [
+          "They find a hidden treasure",
+          "They cause a harm that cannot be undone",
+          "They unwrap a birthday present",
+          "They set off on a long journey"
+        ],
+        "explanation": "In the Greek myth Pandora is a woman made of clay by Hephaestus, who brings a box full of misfortune. Today opening Pandora's box stands for causing a harm that cannot be undone."
+      }
+    }
+  },
+  {
+    "id": "cu12",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was passiert laut nordischer Sage, wenn der Gott Thor seinen Hammer Mjölnir wirft?",
+    "options": [
+      "Er zerspringt in tausend Stücke",
+      "Er verwandelt sich in einen Raben",
+      "Er trifft immer und kehrt in die Hand zurück",
+      "Er fällt ins Meer und wird zur Insel"
+    ],
+    "correct_index": 2,
+    "explanation": "Mjölnir wurde laut der Sage von den Zwergen Sindri und Brokkr geschmiedet. Wenn er geworfen wird, verfehlt er nie sein Ziel und kehrt wieder in die Hand des Werfers zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Mythologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mjölnir",
+    "source_url": "https://de.wikipedia.org/wiki/Mjölnir",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to Norse myth, what happens when the god Thor throws his hammer Mjölnir?",
+        "options": [
+          "It shatters into a thousand pieces",
+          "It turns into a raven",
+          "It always hits and returns to his hand",
+          "It falls into the sea and becomes an island"
+        ],
+        "explanation": "According to the myth, Mjölnir was forged by the dwarves Sindri and Brokkr. When it is thrown, it never misses its target and returns to the thrower's hand."
+      }
+    }
+  },
+  {
+    "id": "cu13",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welches hinduistische Fest wird als „Lichterfest“ in Indien, Nepal und Sri Lanka gefeiert?",
+    "options": [
+      "Thanksgiving",
+      "Holi",
+      "Pessach",
+      "Diwali"
+    ],
+    "correct_index": 3,
+    "explanation": "Diwali ist ein bedeutendes, mehrere Tage dauerndes hinduistisches Fest. Der Name Dipavali bedeutet auf Sanskrit so viel wie „Lichterkette“. In seiner Bedeutung lässt es sich mit Weihnachten vergleichen.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diwali",
+    "source_url": "https://de.wikipedia.org/wiki/Diwali",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which Hindu festival is celebrated as the 'festival of lights' in India, Nepal and Sri Lanka?",
+        "options": [
+          "Thanksgiving",
+          "Holi",
+          "Passover",
+          "Diwali"
+        ],
+        "explanation": "Diwali is an important Hindu festival lasting several days. The name Dipavali means roughly 'row of lights' in Sanskrit. In its importance it can be compared to Christmas."
+      }
+    }
+  },
+  {
+    "id": "cu14",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Tage dauert das jüdische Lichterfest Chanukka?",
+    "options": [
+      "3",
+      "7",
+      "8",
+      "40"
+    ],
+    "correct_index": 2,
+    "explanation": "Chanukka erinnert an die Wiedereinweihung des zweiten Tempels in Jerusalem. Nach der Überlieferung reichte das geweihte Öl nur für einen Tag, brannte aber acht Tage. Daran erinnern die acht Lichter des Leuchters: Jeden Tag wird eines mehr angezündet.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chanukka",
+    "source_url": "https://de.wikipedia.org/wiki/Chanukka",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many days does the Jewish festival of lights, Hanukkah, last?",
+        "options": [
+          "3",
+          "7",
+          "8",
+          "40"
+        ],
+        "explanation": "Hanukkah recalls the rededication of the Second Temple in Jerusalem. According to tradition, the consecrated oil was enough for only one day but burned for eight. The eight lights of the candlestick recall this: each day one more is lit."
+      }
+    }
+  },
+  {
+    "id": "cu15",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Nach welchem Tier ist das chinesische Jahr benannt, das am 17. Februar 2026 begann?",
+    "options": [
+      "Nach dem Drachen",
+      "Nach dem Pferd",
+      "Nach der Ratte",
+      "Nach dem Tiger"
+    ],
+    "correct_index": 1,
+    "explanation": "Das chinesische Neujahrsfest, auch Frühlingsfest genannt, ist der wichtigste traditionelle chinesische Feiertag. Es fällt auf einen Neumond zwischen dem 21. Januar und dem 21. Februar. Am 17. Februar 2026 begann das Jahr des Feuer-Pferds; es dauert bis zum 5. Februar 2027.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chinesisches Neujahrsfest",
+    "source_url": "https://de.wikipedia.org/wiki/Chinesisches_Neujahrsfest",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animal is the Chinese year that began on 17 February 2026 named after?",
+        "options": [
+          "The dragon",
+          "The horse",
+          "The rat",
+          "The tiger"
+        ],
+        "explanation": "The Chinese New Year, also called the Spring Festival, is the most important traditional Chinese holiday. It falls on a new moon between 21 January and 21 February. The Year of the Fire Horse began on 17 February 2026 and lasts until 5 February 2027."
+      }
+    }
+  },
+  {
+    "id": "cu16",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welchem Land ist der „Día de los Muertos“, der Tag der Toten, einer der wichtigsten Feiertage?",
+    "options": [
+      "In Brasilien",
+      "In Spanien",
+      "In Mexiko",
+      "In Italien"
+    ],
+    "correct_index": 2,
+    "explanation": "Am Tag der Toten gedenkt man in Mexiko der Verstorbenen. Gefeiert wird vom 31. Oktober bis zum 2. November. Die UNESCO nahm den Brauch 2008 in die Liste des immateriellen Kulturerbes der Menschheit auf.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tag der Toten",
+    "source_url": "https://de.wikipedia.org/wiki/Tag_der_Toten",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country is the 'Día de los Muertos', the Day of the Dead, one of the most important holidays?",
+        "options": [
+          "In Brazil",
+          "In Spain",
+          "In Mexico",
+          "In Italy"
+        ],
+        "explanation": "On the Day of the Dead people in Mexico remember those who have died. It is celebrated from 31 October to 2 November. In 2008 UNESCO added the custom to the list of the Intangible Cultural Heritage of Humanity."
+      }
+    }
+  },
+  {
+    "id": "cu17",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist das Besondere an den Grabtempeln der antiken Stadt Petra in Jordanien?",
+    "options": [
+      "Sie sind aus Eisblöcken gebaut",
+      "Sie bestehen ganz aus Glas",
+      "Sie liegen unter Wasser",
+      "Ihre Fassaden sind direkt aus dem Fels gemeißelt"
+    ],
+    "correct_index": 3,
+    "explanation": "Petra war in der Antike die Hauptstadt des Reiches der Nabatäer. Die Fassaden ihrer gewaltigen Grabtempel wurden direkt aus dem Fels gemeißelt. Seit 1985 gehört Petra zum UNESCO-Welterbe.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Petra (Jordanien)",
+    "source_url": "https://de.wikipedia.org/wiki/Petra_(Jordanien)",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the tomb temples of the ancient city of Petra in Jordan?",
+        "options": [
+          "They are built of ice blocks",
+          "They are made entirely of glass",
+          "They lie under water",
+          "Their façades are carved straight out of the rock"
+        ],
+        "explanation": "In ancient times Petra was the capital of the Nabataean kingdom. The façades of its huge tomb temples were carved straight out of the rock. Petra has been a UNESCO World Heritage Site since 1985."
+      }
+    }
+  },
+  {
+    "id": "cu18",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welches Bauwerk ist auf der Nationalflagge von Kambodscha abgebildet?",
+    "options": [
+      "Der Tempel Angkor Wat",
+      "Das Taj Mahal",
+      "Die Chinesische Mauer",
+      "Die Cheops-Pyramide"
+    ],
+    "correct_index": 0,
+    "explanation": "Angkor Wat ist die bekannteste Tempelanlage in Kambodscha. In der Mitte stehen fünf Türme in Form von Lotusblüten, der größte ist 65 Meter hoch. Seit etwa 1863 ist der Tempel auf der Flagge des Landes abgebildet.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Angkor Wat",
+    "source_url": "https://de.wikipedia.org/wiki/Angkor_Wat",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which building is shown on the national flag of Cambodia?",
+        "options": [
+          "The temple of Angkor Wat",
+          "The Taj Mahal",
+          "The Great Wall of China",
+          "The Pyramid of Khufu"
+        ],
+        "explanation": "Angkor Wat is the best-known temple complex in Cambodia. In the middle stand five towers shaped like lotus flowers; the tallest is 65 metres high. The temple has been shown on the country's flag since about 1863."
+      }
+    }
+  },
+  {
+    "id": "cu19",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welcher Göttin war der Parthenon auf der Akropolis von Athen geweiht?",
+    "options": [
+      "Aphrodite",
+      "Athena",
+      "Hera",
+      "Artemis"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Parthenon ist der Tempel der Stadtgöttin Athena und beherrscht seit fast 2500 Jahren den Burghügel von Athen. Im Lauf der Geschichte diente er auch als christliche Kirche und als Moschee.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Parthenon",
+    "source_url": "https://de.wikipedia.org/wiki/Parthenon",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "To which goddess was the Parthenon on the Acropolis of Athens dedicated?",
+        "options": [
+          "Aphrodite",
+          "Athena",
+          "Hera",
+          "Artemis"
+        ],
+        "explanation": "The Parthenon is the temple of the city's goddess Athena and has towered over the citadel hill of Athens for almost 2,500 years. Over its history it also served as a Christian church and as a mosque."
+      }
+    }
+  },
+  {
+    "id": "cu20",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Land stammte Jørn Utzon, der Architekt des Opernhauses von Sydney?",
+    "options": [
+      "Aus Japan",
+      "Aus Australien",
+      "Aus Italien",
+      "Aus Dänemark"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Sydney Opera House geht auf den Entwurf des dänischen Architekten Jørn Utzon zurück. Nach 14 Jahren Bauzeit wurde es 1973 eröffnet. Seit 2007 gehört es zum UNESCO-Welterbe.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sydney Opera House",
+    "source_url": "https://de.wikipedia.org/wiki/Sydney_Opera_House",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country did Jørn Utzon, the architect of the Sydney Opera House, come from?",
+        "options": [
+          "Japan",
+          "Australia",
+          "Italy",
+          "Denmark"
+        ],
+        "explanation": "The Sydney Opera House goes back to a design by the Danish architect Jørn Utzon. After 14 years of construction it opened in 1973. It has been a UNESCO World Heritage Site since 2007."
+      }
+    }
+  },
+  {
+    "id": "cu21",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt entstehen die Hindi-Filme, für die man oft „Bollywood“ sagt?",
+    "options": [
+      "In Mumbai",
+      "In Delhi",
+      "In Kalkutta",
+      "In Bangalore"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Hindi-Film wird in Mumbai, dem früheren Bombay, produziert. Das Wort Bollywood setzt sich aus Bombay und Hollywood zusammen. Bollywood gilt als eine der größten Filmindustrien der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Film"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hindi-Film",
+    "source_url": "https://de.wikipedia.org/wiki/Hindi-Film",
+    "created_at": "2026-10-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city are the Hindi films made that people often call 'Bollywood'?",
+        "options": [
+          "In Mumbai",
+          "In Delhi",
+          "In Kolkata",
+          "In Bangalore"
+        ],
+        "explanation": "Hindi films are produced in Mumbai, formerly Bombay. The word Bollywood is made up of Bombay and Hollywood. Bollywood is considered one of the largest film industries in the world."
+      }
+    }
+  },
+  {
+    "id": "cu22",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie oft finden die Oberammergauer Passionsspiele regulär statt?",
+    "options": [
+      "Jedes Jahr",
+      "Alle zehn Jahre",
+      "Alle vier Jahre",
+      "Alle hundert Jahre"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Dorfbewohner von Oberammergau spielen die letzten fünf Tage im Leben Jesu nach. Zum ersten Mal wurde das Spiel 1634 aufgeführt, um ein Gelübde nach der überstandenen Pest einzulösen. Seit 1680 gilt ein zehnjährlicher Rhythmus.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Theater"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oberammergauer Passionsspiele",
+    "source_url": "https://de.wikipedia.org/wiki/Oberammergauer_Passionsspiele",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How often are the Oberammergau Passion Plays regularly held?",
+        "options": [
+          "Every year",
+          "Every ten years",
+          "Every four years",
+          "Every hundred years"
+        ],
+        "explanation": "The villagers of Oberammergau act out the last five days in the life of Jesus. The play was first performed in 1634 to fulfil a vow made after the village survived the plague. Since 1680 it has followed a ten-year rhythm."
+      }
+    }
+  },
+  {
+    "id": "cu23",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt wird der Nobelpreis für Literatur vergeben?",
+    "options": [
+      "In Kopenhagen",
+      "In Oslo",
+      "In Stockholm",
+      "In Helsinki"
+    ],
+    "correct_index": 2,
+    "explanation": "Den Literaturnobelpreis vergibt jedes Jahr die Schwedische Akademie in Stockholm. Zum ersten Mal ging er 1901 an den französischen Lyriker Sully Prudhomme.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nobelpreis für Literatur",
+    "source_url": "https://de.wikipedia.org/wiki/Nobelpreis_für_Literatur",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is the Nobel Prize in Literature awarded?",
+        "options": [
+          "In Copenhagen",
+          "In Oslo",
+          "In Stockholm",
+          "In Helsinki"
+        ],
+        "explanation": "The Nobel Prize in Literature is awarded every year by the Swedish Academy in Stockholm. It was first given in 1901, to the French poet Sully Prudhomme."
+      }
+    }
+  },
+  {
+    "id": "cu24",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welchen Jahren wurde der Kölner Dom gebaut – vom Baubeginn bis zur Vollendung?",
+    "options": [
+      "Von 1848 bis 1880",
+      "Von 1248 bis 1288",
+      "Von 1648 bis 1680",
+      "Von 1248 bis 1880"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Bau begann 1248 und wurde erst 1880 vollendet – mehr als sechs Jahrhunderte später. Mit 157,22 Metern ist der Kölner Dom die vierthöchste Kirche der Welt und eine der größten Kathedralen im gotischen Baustil.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kölner Dom",
+    "source_url": "https://de.wikipedia.org/wiki/Kölner_Dom",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which years was Cologne Cathedral built – from the start of construction to completion?",
+        "options": [
+          "From 1848 to 1880",
+          "From 1248 to 1288",
+          "From 1648 to 1680",
+          "From 1248 to 1880"
+        ],
+        "explanation": "Construction began in 1248 and was only completed in 1880 – more than six centuries later. At 157.22 metres, Cologne Cathedral is the fourth-tallest church in the world and one of the largest Gothic cathedrals."
+      }
+    }
+  },
+  {
+    "id": "ti39",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Womit können manche Geckos sogar kopfüber an Glasscheiben laufen?",
+    "options": [
+      "Mit klebrigem Schleim",
+      "Mit Saugnäpfen an den Zehen",
+      "Mit Milliarden feinster Härchen an den Füßen",
+      "Mit winzigen Krallen"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Füße der Lamellengeckos sind mit Milliarden feinster Härchen besetzt, jedes etwa 200 Nanometer breit. Sie nutzen winzige Anziehungskräfte zwischen Molekülen, die Van-der-Waals-Kräfte, und laufen so sogar kopfüber an Glasscheiben.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geckos",
+    "source_url": "https://de.wikipedia.org/wiki/Geckos",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How can some geckos even walk upside down on panes of glass?",
+        "options": [
+          "With sticky slime",
+          "With suction cups on their toes",
+          "With billions of tiny hairs on their feet",
+          "With tiny claws"
+        ],
+        "explanation": "The feet of these geckos are covered with billions of tiny hairs, each about 200 nanometres wide. They use tiny attractive forces between molecules, the van der Waals forces, and so even walk upside down on glass."
+      }
+    }
+  },
+  {
+    "id": "ti40",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woher haben Pfeilgiftfrösche ihr Gift?",
+    "options": [
+      "Aus giftigen Beutetieren, die sie fressen",
+      "Sie bilden es aus Sonnenlicht",
+      "Aus dem Wasser, in dem sie leben",
+      "Von den Blättern, auf denen sie schlafen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Frösche nehmen ihr Gift auf, indem sie giftige Beutetiere fressen, und speichern es in ihrem Körper. Darum ist das Hautgift bei Tieren, die in Gefangenschaft geboren wurden, unproblematisch. Manche Arten gehören zu den giftigsten Tieren der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Amphibien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Baumsteigerfrösche",
+    "source_url": "https://de.wikipedia.org/wiki/Baumsteigerfrösche",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do poison dart frogs get their poison from?",
+        "options": [
+          "From poisonous prey that they eat",
+          "They make it from sunlight",
+          "From the water they live in",
+          "From the leaves they sleep on"
+        ],
+        "explanation": "The frogs take up their poison by eating poisonous prey and store it in their bodies. That is why the skin poison of animals born in captivity is harmless. Some species are among the most poisonous animals in the world."
+      }
+    }
+  },
+  {
+    "id": "ti41",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was haben männliche Schnabeltiere an den Hinterbeinen?",
+    "options": [
+      "Saugnäpfe",
+      "Giftsporne",
+      "Leuchtende Flecken",
+      "Schuppen wie ein Fisch"
+    ],
+    "correct_index": 1,
+    "explanation": "Männliche Schnabeltiere gehören zu den wenigen giftigen Säugetieren. Sie haben rund 15 Millimeter lange Giftsporne in Knöchelhöhe an den Hinterbeinen. Das Gift wird nur in der Paarungszeit gebildet.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schnabeltier",
+    "source_url": "https://de.wikipedia.org/wiki/Schnabeltier",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do male platypuses have on their hind legs?",
+        "options": [
+          "Suction cups",
+          "Venomous spurs",
+          "Glowing spots",
+          "Scales like a fish"
+        ],
+        "explanation": "Male platypuses are among the few venomous mammals. They have venomous spurs around 15 millimetres long at ankle height on their hind legs. The venom is only produced in the mating season."
+      }
+    }
+  },
+  {
+    "id": "ti42",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woraus besteht die lange, prächtige Schleppe des Pfauenhahns?",
+    "options": [
+      "Aus seinen Flügelfedern",
+      "Aus seinen Schwanzfedern",
+      "Aus stark verlängerten Oberschwanzdeckfedern",
+      "Aus Haaren"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Schleppe besteht nicht aus Schwanzfedern, sondern aus sehr stark verlängerten, ein bis eineinhalb Meter langen Oberschwanzdeckfedern. Der Hahn kann sie zu einem Rad aufstellen. Die blau schillernden „Augen“ darauf sollen Fressfeinde abschrecken.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blauer Pfau",
+    "source_url": "https://de.wikipedia.org/wiki/Blauer_Pfau",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the peacock's long, splendid train made of?",
+        "options": [
+          "Its wing feathers",
+          "Its tail feathers",
+          "Greatly lengthened upper tail coverts",
+          "Hair"
+        ],
+        "explanation": "The train is not made of tail feathers but of greatly lengthened upper tail coverts, one to one and a half metres long. The male can raise them into a fan. The shimmering blue 'eyes' on it are meant to scare off predators."
+      }
+    }
+  },
+  {
+    "id": "ti43",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Womit öffnet der Seeotter die harten Schalen seiner Beute?",
+    "options": [
+      "Er lässt sie von Möwen öffnen",
+      "Mit einem Stachel am Schwanz",
+      "Mit Säure aus dem Maul",
+      "Mit einem Stein als Werkzeug"
+    ],
+    "correct_index": 3,
+    "explanation": "Seeotter öffnen harte Schalen mit Steinen als Werkzeug. Dazu schwimmt der Otter auf dem Rücken, legt sich einen Stein als Amboss auf die Brust und schlägt die Beute darauf.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seeotter",
+    "source_url": "https://de.wikipedia.org/wiki/Seeotter",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the sea otter use to open the hard shells of its prey?",
+        "options": [
+          "It lets seagulls open them",
+          "A spine on its tail",
+          "Acid from its mouth",
+          "A stone as a tool"
+        ],
+        "explanation": "Sea otters open hard shells using stones as tools. The otter floats on its back, places a stone on its chest as an anvil and bangs the prey on it."
+      }
+    }
+  },
+  {
+    "id": "ti44",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie lang kann die Zunge des Großen Ameisenbären werden?",
+    "options": [
+      "Etwa 6 cm",
+      "Bis zu 60 cm",
+      "Etwa 2 m",
+      "Etwa 6 m"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Zunge wird bis zu 60 Zentimeter lang und ist mit klebrigem Speichel bedeckt. Zähne hat der Große Ameisenbär keine.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Ameisenbär",
+    "source_url": "https://de.wikipedia.org/wiki/Großer_Ameisenbär",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long can the giant anteater's tongue be?",
+        "options": [
+          "About 6 cm",
+          "Up to 60 cm",
+          "About 2 m",
+          "About 6 m"
+        ],
+        "explanation": "The tongue can be up to 60 centimetres long and is covered with sticky saliva. The giant anteater has no teeth."
+      }
+    }
+  },
+  {
+    "id": "ti45",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was unterscheidet Löwen von allen anderen Katzen?",
+    "options": [
+      "Sie jagen nur nachts",
+      "Sie leben in Rudeln",
+      "Sie können schnurren",
+      "Sie fressen vor allem Gras"
+    ],
+    "correct_index": 1,
+    "explanation": "Löwen leben im Unterschied zu anderen Katzen in Rudeln. Erwachsene Männchen erkennt man an ihrer Mähne. In Afrika ist der Löwe das größte Landraubtier.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Löwe",
+    "source_url": "https://de.wikipedia.org/wiki/Löwe",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What sets lions apart from all other cats?",
+        "options": [
+          "They only hunt at night",
+          "They live in prides",
+          "They can purr",
+          "They mainly eat grass"
+        ],
+        "explanation": "Unlike other cats, lions live in prides. Adult males can be recognised by their mane. In Africa the lion is the largest land predator."
+      }
+    }
+  },
+  {
+    "id": "ti46",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woran erkennen sich Große Tümmler, eine Delfinart, gegenseitig?",
+    "options": [
+      "Am Geruch",
+      "An ihrer Hautfarbe",
+      "An einem eigenen Pfeifton jedes Tieres",
+      "An leuchtenden Flecken"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Tiere einer Gruppe verständigen sich über Pfeiftöne; jedes hat dabei einen charakteristischen Erkennungston. Mit hochfrequenten Klicklauten orten sie außerdem ihre Umgebung per Echo.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Tümmler",
+    "source_url": "https://de.wikipedia.org/wiki/Großer_Tümmler",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do bottlenose dolphins recognise each other?",
+        "options": [
+          "By smell",
+          "By their skin colour",
+          "By each animal's own whistle",
+          "By glowing spots"
+        ],
+        "explanation": "The animals in a group communicate with whistles; each one has its own characteristic signature sound. They also use high-frequency clicks to find their way by echolocation."
+      }
+    }
+  },
+  {
+    "id": "ti47",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie laufen Wasserläufer über das Wasser, ohne einzusinken?",
+    "options": [
+      "Sie rennen so schnell, dass sie nicht sinken",
+      "Sie sind leichter als Luft",
+      "Sie haben eine Luftblase unter dem Bauch",
+      "Wasserabweisende Härchen nutzen die Oberflächenspannung"
+    ],
+    "correct_index": 3,
+    "explanation": "Ihr Körper ist mit feinsten Härchen bedeckt, die Wasser abweisen. Mit den Härchen an ihren Füßen nutzen sie die Oberflächenspannung und bewegen sich schnell über das Wasser, ohne einzusinken.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserläufer",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserläufer",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do water striders walk on water without sinking?",
+        "options": [
+          "They run so fast that they don't sink",
+          "They are lighter than air",
+          "They have an air bubble under their belly",
+          "Water-repellent hairs use the surface tension"
+        ],
+        "explanation": "Their body is covered with fine hairs that repel water. With the hairs on their feet they use the surface tension and move quickly over the water without sinking."
+      }
+    }
+  },
+  {
+    "id": "ti48",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie bekommt der Bartgeier große Knochen klein?",
+    "options": [
+      "Er lässt sie aus großer Höhe auf Felsen fallen",
+      "Er weicht sie in Wasser ein",
+      "Er vergräbt sie, bis sie zerfallen",
+      "Er zerbeißt sie mit seinen Zähnen"
+    ],
+    "correct_index": 0,
+    "explanation": "Bartgeier steigen mit Knochen in die Luft und lassen sie aus 60 bis 80 Metern Höhe auf Felsplatten fallen, damit sie zerbrechen – manchmal bis zu 40 Mal. Dieses Verhalten ist ihnen angeboren. Im Spanischen heißt der Vogel „Der die Knochen bricht“.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bartgeier",
+    "source_url": "https://de.wikipedia.org/wiki/Bartgeier",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the bearded vulture break large bones into pieces?",
+        "options": [
+          "It drops them onto rocks from a great height",
+          "It soaks them in water",
+          "It buries them until they fall apart",
+          "It cracks them with its teeth"
+        ],
+        "explanation": "Bearded vultures fly up with bones and drop them onto rock slabs from 60 to 80 metres so that they break – sometimes up to 40 times. This behaviour is inborn. Its Spanish name means 'the one who breaks bones'."
+      }
+    }
+  },
+  {
+    "id": "ti49",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie viele Höcker hat ein Dromedar?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_index": 0,
+    "explanation": "Dromedare erkennt man sofort an ihrem einzelnen Höcker – das Trampeltier hat zwei. Im Höcker steckt Fett, das das Tier bei Futtermangel verbrennen kann.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dromedar",
+    "source_url": "https://de.wikipedia.org/wiki/Dromedar",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many humps does a dromedary have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "explanation": "You can tell dromedaries at once by their single hump – the Bactrian camel has two. The hump holds fat that the animal can burn when food is scarce."
+      }
+    }
+  },
+  {
+    "id": "ti50",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Mit welchem Tier ist das Okapi am nächsten verwandt?",
+    "options": [
+      "Mit dem Esel",
+      "Mit dem Zebra",
+      "Mit dem Pferd",
+      "Mit der Giraffe"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Okapi, auch Waldgiraffe genannt, gehört zur Familie der Giraffenartigen und ist näher mit den Giraffen verwandt als mit anderen Paarhufern. Von seinen Körperformen her ähnelt es aber eher typischen Huftieren.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Okapi",
+    "source_url": "https://de.wikipedia.org/wiki/Okapi",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animal is the okapi most closely related to?",
+        "options": [
+          "The donkey",
+          "The zebra",
+          "The horse",
+          "The giraffe"
+        ],
+        "explanation": "The okapi, also called the forest giraffe, belongs to the giraffe family and is more closely related to giraffes than to other even-toed hoofed animals. In its body shape, though, it looks more like a typical hoofed animal."
+      }
+    }
+  },
+  {
+    "id": "ti51",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was hängt an der „Angel“ auf dem Kopf weiblicher Tiefsee-Anglerfische?",
+    "options": [
+      "Ein Köder, meist mit einem Leuchtorgan",
+      "Ein Ohr zum Hören",
+      "Eine Schaufel zum Graben",
+      "Ein Giftstachel"
+    ],
+    "correct_index": 0,
+    "explanation": "Weibchen besitzen eine „Angel“ mit einem „Köder“, der meistens mit einem Leuchtorgan ausgestattet ist. Bei Weibchen kann es Leuchtorgane auch an anderen Körperstellen geben.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tiefsee-Anglerfische",
+    "source_url": "https://de.wikipedia.org/wiki/Tiefsee-Anglerfische",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What hangs from the 'fishing rod' on the head of female deep-sea anglerfish?",
+        "options": [
+          "A lure, usually with a light organ",
+          "An ear for hearing",
+          "A shovel for digging",
+          "A venomous spine"
+        ],
+        "explanation": "Females have a 'fishing rod' with a 'lure' that is usually fitted with a light organ. Females can also have light organs in other places on the body."
+      }
+    }
+  },
+  {
+    "id": "ti52",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wofür ist die Geradschnabelkrähe aus dem Südpazifik besonders bekannt?",
+    "options": [
+      "Sie kann rückwärts fliegen",
+      "Sie baut sich Werkzeuge, um an Futter zu kommen",
+      "Sie spricht ganze Sätze nach",
+      "Sie taucht nach Fischen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Krähe lebt frei nur auf Neukaledonien und den Loyalitätsinseln im Südpazifik. Aus Blättern und Zweigen formt sie feine Stocherwerkzeuge, mit denen sie Käferlarven aus ihren Gängen im Holz angelt. Sie gilt als besonders intelligenter Vogel.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geradschnabelkrähe",
+    "source_url": "https://de.wikipedia.org/wiki/Geradschnabelkrähe",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the New Caledonian crow from the South Pacific especially known for?",
+        "options": [
+          "It can fly backwards",
+          "It makes tools to get at food",
+          "It repeats whole sentences",
+          "It dives for fish"
+        ],
+        "explanation": "In the wild the crow lives only on New Caledonia and the Loyalty Islands in the South Pacific. From leaves and twigs it makes fine probing tools to fish beetle larvae out of their tunnels in wood. It is considered an especially intelligent bird."
+      }
+    }
+  },
+  {
+    "id": "ti53",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo verstecken Eichhörnchen ihre Wintervorräte?",
+    "options": [
+      "In einem Bienenstock",
+      "Nur in ihrem Nest, dem Kobel",
+      "Im Boden, in Rindenspalten und Astgabeln",
+      "Sie legen keine Vorräte an"
+    ],
+    "correct_index": 2,
+    "explanation": "Eichhörnchen legen im Herbst Vorräte für den Winter an. Sie vergraben die Nahrung im Boden, oft nahe an Baumwurzeln, oder verstauen sie in Rindenspalten und Astgabeln. In ihrem Kobel lagern sie keine Vorräte.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eurasisches Eichhörnchen",
+    "source_url": "https://de.wikipedia.org/wiki/Eurasisches_Eichhörnchen",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do squirrels hide their winter supplies?",
+        "options": [
+          "In a beehive",
+          "Only in their nest, the drey",
+          "In the ground, in bark cracks and tree forks",
+          "They don't store any supplies"
+        ],
+        "explanation": "Squirrels lay in supplies for the winter in autumn. They bury the food in the ground, often near tree roots, or tuck it into cracks in the bark and forks of branches. They don't store supplies in their drey."
+      }
+    }
+  },
+  {
+    "id": "ti54",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo verbringen Weißstörche aus Europa meistens den Winter?",
+    "options": [
+      "In Australien",
+      "In Skandinavien",
+      "In Südamerika",
+      "In Afrika südlich der Sahara"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Weißstorch ist ein Zugvogel und fliegt meist jedes Jahr in seine Winterquartiere in Afrika südlich der Sahara. Weil über dem Wasser keine aufsteigende Warmluft entsteht, umfliegt er dabei in der Regel das Mittelmeer.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weißstorch",
+    "source_url": "https://de.wikipedia.org/wiki/Weißstorch",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do white storks from Europe usually spend the winter?",
+        "options": [
+          "In Australia",
+          "In Scandinavia",
+          "In South America",
+          "In Africa south of the Sahara"
+        ],
+        "explanation": "The white stork is a migratory bird and usually flies every year to its winter quarters in Africa south of the Sahara. Because no rising warm air forms over water, it generally flies around the Mediterranean."
+      }
+    }
+  },
+  {
+    "id": "ti55",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie alt wurde „Lonesome George“, die letzte Pinta-Riesenschildkröte?",
+    "options": [
+      "Etwa 10 Jahre",
+      "Etwa 30 Jahre",
+      "Etwa 100 Jahre",
+      "Etwa 500 Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Lonesome George war der letzte Vertreter der Pinta-Riesenschildkröten auf den Galapagosinseln. Er starb mit etwa 100 Jahren im Galapagos-Nationalpark; seit dem 24. Juni 2012 gilt diese Unterart als ausgestorben.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Galapagos-Riesenschildkröten",
+    "source_url": "https://de.wikipedia.org/wiki/Galapagos-Riesenschildkröten",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How old was 'Lonesome George', the last Pinta Island giant tortoise?",
+        "options": [
+          "About 10 years",
+          "About 30 years",
+          "About 100 years",
+          "About 500 years"
+        ],
+        "explanation": "Lonesome George was the last of the Pinta Island giant tortoises in the Galápagos Islands. He died at about 100 years of age in the Galápagos National Park; since 24 June 2012 this subspecies has been considered extinct."
+      }
+    }
+  },
+  {
+    "id": "ti56",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wovon ernährt sich der Maulwurf vor allem?",
+    "options": [
+      "Von Pflanzenwurzeln",
+      "Von Regenwürmern",
+      "Von Möhren und Kartoffeln",
+      "Von Pilzen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Hauptnahrung des Europäischen Maulwurfs sind Regenwürmer, dazu andere wirbellose Tiere bis hin zu kleinen Wirbeltieren. Wo er unter der Erde gräbt, verraten ihn die Maulwurfshügel.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäischer Maulwurf",
+    "source_url": "https://de.wikipedia.org/wiki/Europäischer_Maulwurf",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the mole mainly eat?",
+        "options": [
+          "Plant roots",
+          "Earthworms",
+          "Carrots and potatoes",
+          "Mushrooms"
+        ],
+        "explanation": "The European mole's main food is earthworms, along with other invertebrates and even small vertebrates. Molehills show where it is digging underground."
+      }
+    }
   }
 ]
