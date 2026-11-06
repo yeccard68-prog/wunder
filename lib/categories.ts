@@ -21,3 +21,8 @@ export const CATEGORIES: Category[] = [
 ];
 
 export const categoryById = (id: string): Category => CATEGORIES.find((c) => c.id === id) ?? { id, name: id, color: "var(--muted)" };
+
+// Space, animals, music and art became topics of their own on 05.11.2026; until then their cards belonged to science,
+// earth and culture. Whoever likes one of those keeps getting the cards that moved out of it – nothing stored changes.
+export const SUBTOPICS: Record<string, string[]> = { science: ["space"], earth: ["animals"], culture: ["music", "art"] };
+export const withSubtopics = (interests: string[]): string[] => [...new Set(interests.flatMap((c) => [c, ...(SUBTOPICS[c] ?? [])]))];

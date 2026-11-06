@@ -21,7 +21,7 @@ export const verification = "ai_checked";
 
 // [id, category, difficulty, minAge, maxAge, question, options, correct, explanation, wiki, enQuestion, enOptions, enExplanation, tags]
 export const questions = balance([
-  ["es1", "science", 2, 10, null, "Wie viel größer ist der Durchmesser der Sonne als der der Erde – ungefähr?", ["Etwa 10-mal", "Etwa 110-mal", "Etwa 1.100-mal", "Etwa 11.000-mal"], 1,
+  ["es1", "space", 2, 10, null, "Wie viel größer ist der Durchmesser der Sonne als der der Erde – ungefähr?", ["Etwa 10-mal", "Etwa 110-mal", "Etwa 1.100-mal", "Etwa 11.000-mal"], 1,
     "Die Sonne hat einen Durchmesser von rund 1,4 Millionen Kilometern – etwa 110-mal so viel wie die Erde. Wäre die Sonne ein Fußball, wäre die Erde nur so groß wie ein Krümel von 2 Millimetern.", "Sonne",
     "Roughly how much larger is the Sun's diameter than the Earth's?", ["About 10 times", "About 110 times", "About 1,100 times", "About 11,000 times"],
     "The Sun is about 1.4 million kilometres across – about 110 times as much as the Earth. If the Sun were a football, the Earth would be a crumb of just 2 millimetres.", ["Weltraum", "Sonnensystem"]],

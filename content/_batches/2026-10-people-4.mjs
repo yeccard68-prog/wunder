@@ -18,7 +18,7 @@ const own = (id, category_id, min_age, tags, sources, de, en, quiz) => ({
 });
 
 export const videos = [
-  own("v-person-kopernikus", "science", 10, ["Persönlichkeiten", "Astronomie"], [wiki("Nikolaus_Kopernikus")],
+  own("v-person-kopernikus", "space", 10, ["Persönlichkeiten", "Astronomie"], [wiki("Nikolaus_Kopernikus")],
     ["Nikolaus Kopernikus: Astronom, Domherr und Arzt", "Sein Hauptwerk von 1543 führte zu einem Umbruch, der als „kopernikanische Wende“ bezeichnet wird.",
       "Nikolaus Kopernikus wurde am 19. Februar 1473 in Thorn geboren. Von 1491 bis 1494 besuchte er die Universität Krakau, wo er die Sieben Freien Künste studierte. Zum Wintersemester 1496/1497 begann er in Bologna ein Studium beider Rechte; dort studierte er auch Astronomie. In seinem Hauptwerk De revolutionibus orbium coelestium von 1543 beschreibt er ein heliozentrisches Weltbild: Die Erde sei ein Planet, drehe sich um ihre eigene Achse und bewege sich wie die anderen Planeten um die Sonne. Kopernikus starb am 24. Mai 1543 in Frauenburg.",
       ["Geboren 1473 in Thorn.", "Studium in Krakau und später in Bologna.", "1543: sein Hauptwerk De revolutionibus."]],
@@ -30,7 +30,7 @@ export const videos = [
       "What does Copernicus describe about the Earth in his main work?", ["It is a planet that orbits the Sun", "It rests at the centre of the universe", "It is a flat disc", "It is a star"],
       "Copernicus describes a heliocentric view of the world: the Earth is a planet that rotates on its own axis and, like the other planets, moves around the Sun."]),
 
-  own("v-person-bach", "culture", 10, ["Persönlichkeiten", "Musik"], [wiki("Johann_Sebastian_Bach")],
+  own("v-person-bach", "music", 10, ["Persönlichkeiten", "Musik"], [wiki("Johann_Sebastian_Bach")],
     ["Johann Sebastian Bach: Komponist des Barock", "Vielen Berufsmusikern gilt Bach als der Inbegriff eines tiefgründigen und genialen Komponisten.",
       "Johann Sebastian Bach wurde nach dem Gregorianischen Kalender am 31. März 1685 in Eisenach geboren. Im Juli 1708 zog er mit seiner Frau nach Weimar. 1717 unterschrieb er den Vertrag als Hofkapellmeister in Köthen. 1723 trat er in Leipzig seinen Dienst als Thomaskantor an und behielt diese Stelle bis zu seinem Tod. Zu seinen bekanntesten Werken gehören die Brandenburgischen Konzerte, die Matthäus-Passion und das Weihnachtsoratorium. Bach hatte insgesamt 20 Kinder, von denen die meisten schon im Kindesalter starben. Er starb am 28. Juli 1750 in Leipzig.",
       ["Geboren 1685 in Eisenach.", "1708 Weimar, 1717 Köthen.", "Ab 1723 Thomaskantor in Leipzig."]],

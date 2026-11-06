@@ -1,5 +1,5 @@
 import type { Item, UserState } from "./types";
-import { categoryById } from "./categories";
+import { categoryById, withSubtopics } from "./categories";
 import { ACTIVITIES, personById } from "./people";
 import { hash, rng, today } from "./gamification";
 import { recentAccuracy, topicEngagement, unexplored } from "./engagement";
@@ -61,6 +61,7 @@ export function rankForYou(items: Item[], state: UserState, opts: { region?: str
   const hidden = new Set(state.hidden);
   const day = today();
   const now = Date.now();
+  const chosen = new Set(withSubtopics(state.interests));
 
   const scored = items
     .filter((i) => !hidden.has(i.id))
@@ -68,7 +69,7 @@ export function rankForYou(items: Item[], state: UserState, opts: { region?: str
       const cat = categoryById(item.categoryId);
       const ageDays = (Date.now() - Date.parse(item.createdAt)) / 86_400_000;
       const parts: [number, string, Record<string, string>?][] = [
-        [state.interests.includes(item.categoryId) ? W.interest : W.noInterest, "Passt zu deinen Themen"],
+        [chosen.has(item.categoryId) ? W.interest : W.noInterest, "Passt zu deinen Themen"],
         [(W.affinity * (liked[item.categoryId] ?? 0)) / maxLiked, "Weil dir Ähnliches gefallen hat"],
         [(W.gap * (gaps[item.categoryId] ?? 0)) / maxGap, "Zum Üben: {topic}", { topic: cat.name }],
         [W.freshness * Math.exp(-ageDays / 10), "Neu"],
@@ -110,7 +111,8 @@ function mixAtRandom(main: Ranked[], extra: Ranked[], share: number, r: () => nu
 /** On average one card in DISCOVER_EVERY comes from a topic the learner neither chose nor has seen much – so new interests can show. */
 export const DISCOVER_EVERY = 7;
 function withDiscoveries(ranked: Ranked[], state: UserState, r: () => number): Ranked[] {
-  const isNew = (x: Ranked) => !state.interests.includes(x.item.categoryId) && unexplored(state, x.item.categoryId) && !state.answers[x.item.id];
+  const chosen = new Set(withSubtopics(state.interests));
+  const isNew = (x: Ranked) => !chosen.has(x.item.categoryId) && unexplored(state, x.item.categoryId) && !state.answers[x.item.id];
   const rest = ranked.filter((x) => !isNew(x));
   // one topic at a time: the next discovery comes from a topic not yet offered
   const pool = ranked.filter(isNew);

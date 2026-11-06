@@ -12,6 +12,7 @@ import { mergeBookState } from "./books";
 import { setApprovals } from "./reviews";
 import { recordView, type EntryKind } from "./engagement";
 import { recordSeen, SEEN_MIN_SECONDS } from "./seen";
+import { withSubtopics } from "./categories";
 
 // Two separate worlds: "demo" (no backend, local sample data) and "live" (Supabase).
 // They never share storage, and live mode never falls back to bundled content.
@@ -558,7 +559,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const s = ref.current;
       const have = new Set(content.items.map((i) => i.id));
       const exclude = [...new Set([...generated.map((i) => i.id), ...Object.keys(s.answers).filter((id) => !have.has(id))])].slice(-1500);
-      const more = await api.fetchGenerated({ categories: s.interests, region: deviceRegion(), age: AGE_OF[s.ageBand ?? "16+"], exclude });
+      const more = await api.fetchGenerated({ categories: withSubtopics(s.interests), region: deviceRegion(), age: AGE_OF[s.ageBand ?? "16+"], exclude });
       if (more.length) setGenerated((g) => [...g, ...more.filter((m) => !g.some((x) => x.id === m.id))].slice(-GENERATED_MAX));
     } catch (e) {
       console.warn("Weitere Karten konnten nicht geladen werden:", message(e));

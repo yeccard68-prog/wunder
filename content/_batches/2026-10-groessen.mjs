@@ -18,7 +18,7 @@ export const verification = "ai_checked";
 
 // [id, category, difficulty, minAge, maxAge, question, options, correct, explanation, wiki, enQuestion, enOptions, enExplanation, tags]
 export const questions = balance([
-  ["gr1", "earth", 1, 10, null, "Wie lang kann ein Blauwal werden?", ["Bis etwa 10 Meter", "Bis etwa 20 Meter", "Bis etwa 33 Meter", "Bis etwa 60 Meter"], 2,
+  ["gr1", "animals", 1, 10, null, "Wie lang kann ein Blauwal werden?", ["Bis etwa 10 Meter", "Bis etwa 20 Meter", "Bis etwa 33 Meter", "Bis etwa 60 Meter"], 2,
     "Mit einer Körperlänge von bis zu 33 Metern und bis zu 200 Tonnen ist der Blauwal eines der größten und schwersten bekannten Tiere der Erdgeschichte.", "Blauwal",
     "How long can a blue whale grow?", ["Up to about 10 metres", "Up to about 20 metres", "Up to about 33 metres", "Up to about 60 metres"],
     "At up to 33 metres long and up to 200 tonnes, the blue whale is one of the largest and heaviest animals known in the history of the Earth.", ["Tiere", "Meer"]],

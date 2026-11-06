@@ -29,7 +29,7 @@ export const videos = [
       "How many times would you have to fold a 0.1 mm sheet for the stack to reach the Moon?", ["About 42 times", "About 420 times", "About 4,200 times", "About 42,000 times"],
       "0.1 mm · 2⁴² ≈ 440,000 km – more than the average distance to the Moon (384,400 km). Doubling grows extremely fast."]),
 
-  own("v-sonne-masse", "science", 10, ["Weltraum", "Sonne"], [wiki("Sonne")],
+  own("v-sonne-masse", "space", 10, ["Weltraum", "Sonne"], [wiki("Sonne")],
     ["Die Sonne wiegt fast alles", "Von 1.000 Teilen der Masse im Sonnensystem gehören fast 999 der Sonne.",
       "Die Sonne enthält 99,86 % der Masse des Sonnensystems. Teilt man diese Masse in 1.000 gleiche Teile, gehören 998,6 davon der Sonne. Für alle acht Planeten, ihre Monde, die Asteroiden und Kometen zusammen bleiben nur 1,4 Teile. Ihr Durchmesser ist etwa 110-mal so groß wie der der Erde.",
       ["Die Masse des Sonnensystems in 1.000 Teilen.", "998,6 davon gehören der Sonne.", "Für alle Planeten, Monde und Kometen bleiben 1,4 Teile."]],

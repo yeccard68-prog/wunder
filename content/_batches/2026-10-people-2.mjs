@@ -30,7 +30,7 @@ export const videos = [
       "What did Albert Einstein win the Nobel Prize for?", ["The photoelectric effect", "The theory of relativity", "A new model of the atom", "Discovering the neutron"],
       "He was honoured especially for discovering the law of the photoelectric effect – not for the theory of relativity."]),
 
-  own("v-person-galilei", "science", 10, ["Persönlichkeiten", "Astronomie"], [wiki("Galileo_Galilei")],
+  own("v-person-galilei", "space", 10, ["Persönlichkeiten", "Astronomie"], [wiki("Galileo_Galilei")],
     ["Galileo Galilei: verurteilt – und 1992 rehabilitiert", "Galilei entdeckte die großen Jupitermonde und wurde von der Kirche verurteilt. Rehabilitiert wurde er erst 1992.",
       "Galileo Galilei wurde am 15. Februar 1564 in Pisa geboren. Er entwickelte die Methode, die Natur mit Experimenten, Messungen und Mathematik zu erforschen, und wurde damit einer der wichtigsten Begründer der neuzeitlichen Naturwissenschaften. Mit dem Fernrohr entdeckte er die vier größten Monde des Jupiter, die er im März 1610 in seiner Schrift „Sidereus Nuncius“ als Mediceische Sterne bezeichnete. 1633 wurde ihm der Prozess gemacht: Die katholische Kirche verurteilte ihn, weil einige seiner Theorien ihrer damaligen Auslegung der Bibel widersprachen. 1992 rehabilitierte sie ihn. Galilei starb am 8. Januar 1642.",
       ["Geboren 1564 in Pisa.", "Mit dem Fernrohr fand er die vier größten Jupitermonde.", "1633 verurteilt – 1992 rehabilitiert."]],
@@ -78,7 +78,7 @@ export const videos = [
       "Which mountain did Alexander von Humboldt climb almost to the top in 1802?", ["Chimborazo", "Mount Everest", "Kilimanjaro", "Mont Blanc"],
       "In June 1802 he got almost to the summit of Chimborazo (6,263 metres); an impassable crevice forced him to turn back."]),
 
-  own("v-person-mozart", "culture", 10, ["Persönlichkeiten", "Musik"], [wiki("Wolfgang_Amadeus_Mozart")],
+  own("v-person-mozart", "music", 10, ["Persönlichkeiten", "Musik"], [wiki("Wolfgang_Amadeus_Mozart")],
     ["Mozart: vom Wunderkind zur „Zauberflöte“", "Schon als Kind tourte Mozart durch Europa – seine „Zauberflöte“ wurde wenige Wochen vor seinem Tod uraufgeführt.",
       "Wolfgang Amadeus Mozart wurde am 27. Januar 1756 in Salzburg geboren. Ab 1762 reiste sein Vater Leopold mit der Familie durch Westeuropa und Italien, um die „Wunderkinder“ Wolfgang und seine Schwester Maria Anna an Fürstenhöfen bekannt zu machen. Im Sommer 1781 brach Mozart mit dem Salzburger Erzbischof und lebte fortan als freischaffender Musiker und Komponist in Wien. Am 30. September 1791 wurde seine Oper „Die Zauberflöte“ in Wien uraufgeführt und hatte überaus großen Erfolg. Mozart starb am 5. Dezember 1791 in Wien.",
       ["Geboren 1756 in Salzburg.", "Ab 1762 reiste er als „Wunderkind“ durch Europa.", "1791 wurde „Die Zauberflöte“ uraufgeführt."]],
@@ -90,7 +90,7 @@ export const videos = [
       "In which city was Wolfgang Amadeus Mozart born?", ["Salzburg", "Vienna", "Prague", "Munich"],
       "Mozart was born in Salzburg on 27 January 1756; later he lived in Vienna."]),
 
-  own("v-person-beethoven", "culture", 10, ["Persönlichkeiten", "Musik"], [wiki("Ludwig_van_Beethoven")],
+  own("v-person-beethoven", "music", 10, ["Persönlichkeiten", "Musik"], [wiki("Ludwig_van_Beethoven")],
     ["Beethoven: komponieren, obwohl er kaum noch hörte", "Ein Gehörleiden beendete Beethovens Karriere als Pianist – komponiert hat er weiter, bis zur 9. Sinfonie.",
       "Ludwig van Beethoven wurde am 17. Dezember 1770 in Bonn getauft. Anfang November 1792 brach er nach Wien auf, wo er Kompositionsunterricht bei Joseph Haydn nahm. Ein Gehörleiden, das sich mit der Zeit zur fast völligen Taubheit verschlimmerte, setzte seiner Karriere als Pianist ein vorzeitiges Ende. Die Krankheit löste eine Krise aus, über die Beethoven 1802 in seinem „Heiligenstädter Testament“ Zeugnis ablegte. Er konzentrierte sich mehr und mehr aufs Komponieren. Die Uraufführung seiner 9. Sinfonie am 7. Mai 1824 wurde vom Publikum begeistert aufgenommen. Beethoven starb am 26. März 1827 in Wien.",
       ["1770 in Bonn getauft, ab 1792 in Wien.", "Ein Gehörleiden beendete seine Karriere als Pianist.", "1824 wurde seine 9. Sinfonie uraufgeführt."]],
@@ -102,7 +102,7 @@ export const videos = [
       "What ended Beethoven's career as a pianist?", ["A hearing disorder", "An eye disease", "Gout in his hands", "A quarrel with Haydn"],
       "A hearing disorder, which worsened into almost complete deafness, cut short his career as a pianist."]),
 
-  own("v-person-kahlo", "culture", 13, ["Persönlichkeiten", "Kunst"], [wiki("Frida_Kahlo")],
+  own("v-person-kahlo", "art", 13, ["Persönlichkeiten", "Kunst"], [wiki("Frida_Kahlo")],
     ["Frida Kahlo: Rekord für ein Selbstbildnis", "2025 wurde Frida Kahlos Selbstbildnis „El sueño“ für rund 48 Millionen Euro versteigert – Rekord für das Werk einer Frau.",
       "Frida Kahlo wurde am 6. Juli 1907 in Coyoacán in Mexiko-Stadt geboren. Im September 1925 wurde sie Opfer eines Busunglücks, bei dem sich eine Stahlstange durch ihr Becken bohrte; danach musste sie ihren Alltag immer wieder liegend, im Ganzkörpergips oder Stahlkorsett verbringen. 1929 heiratete sie den mexikanischen Maler Diego Rivera, der mit seinen Wandbildern bereits weltberühmt war. Kahlo gilt als die bekannteste Künstlerin Mexikos. Ihr Selbstbildnis „El sueño (La cama)“ wurde 2025 für rund 48 Millionen Euro versteigert und ist damit das teuerste je bei einer Auktion verkaufte Werk einer Frau. Sie starb am 13. Juli 1954.",
       ["Geboren 1907 in Mexiko-Stadt.", "1925 wurde sie bei einem Busunglück schwer verletzt.", "2025: Auktionsrekord für ein Werk einer Frau."]],
@@ -114,7 +114,7 @@ export const videos = [
       "What record did Frida Kahlo's painting El sueño set in 2025?", ["Most expensive work by a woman at auction", "Largest painting in Mexico", "Most visited painting in a museum", "Oldest surviving self-portrait"],
       "It sold for about 48 million euros – the most expensive work by a woman ever sold at auction."]),
 
-  own("v-person-leonardo", "culture", 10, ["Persönlichkeiten", "Kunst"], [wiki("Leonardo_da_Vinci")],
+  own("v-person-leonardo", "art", 10, ["Persönlichkeiten", "Kunst"], [wiki("Leonardo_da_Vinci")],
     ["Leonardo da Vinci: vom Abendmahl zur Mona Lisa", "Maler, Ingenieur, Anatom: Leonardo da Vinci gilt als einer der berühmtesten Universalgelehrten aller Zeiten.",
       "Leonardo da Vinci wurde am 15. April 1452 geboren, vermutlich in Vinci in der Toskana. Er war Maler, Bildhauer, Architekt, Anatom, Mechaniker, Ingenieur und Naturphilosoph und gilt als einer der berühmtesten Universalgelehrten aller Zeiten. Sein Wandgemälde „Das Abendmahl“, 8,8 mal 4,6 Meter groß, entstand in den Jahren 1494 bis 1498. Von 1503 bis 1506 arbeitete er intensiv am Porträt der Mona Lisa. „Da Vinci“ ist übrigens kein Familienname, sondern verweist auf seinen Geburtsort. Leonardo starb am 2. Mai 1519 auf Schloss Clos Lucé in Amboise.",
       ["Geboren 1452, vermutlich in Vinci in der Toskana.", "1494 bis 1498 entstand „Das Abendmahl“.", "Ab 1503 arbeitete er an der Mona Lisa."]],

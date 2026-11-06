@@ -23,10 +23,7 @@ export const verification = "ai_checked";
 
 // [id, category, difficulty, minAge, maxAge, question, options, correct, explanation, wiki, enQuestion, enOptions, enExplanation, tags]
 export const questions = balance([
-  ["ok1", "music", 2, 10, null, "Wie verändert sich die Frequenz eines Tons, wenn er eine Oktave höher klingt?", ["Sie verdoppelt sich", "Sie halbiert sich", "Sie steigt um genau 100 Hertz", "Sie verzehnfacht sich"], 0,
-    "Die Rahmentöne einer Oktave stehen im Frequenzverhältnis 2:1 – der obere Ton hat die doppelte Schwingungszahl des unteren. Verkürzt man eine Saite auf die Hälfte, klingt sie eine Oktave höher.", "Oktave",
-    "How does the frequency of a note change when it sounds an octave higher?", ["It doubles", "It halves", "It rises by exactly 100 hertz", "It becomes ten times as high"],
-    "The two notes of an octave have a frequency ratio of 2:1 – the upper note vibrates twice as often as the lower one. If you shorten a string to half its length, it sounds an octave higher.", ["Musik", "Physik"]],
+  // ok1 (Oktave) archived on 06.11.2026 – the same question as the older mu1, which a-oktave now uses as its check.
   ["zv1", "animals", 1, 10, null, "Wohin fliegt die Küstenseeschwalbe nach der Brutzeit in der Arktis?", ["Bis an den Rand des antarktischen Packeises", "Nach Mitteleuropa", "In die Sahara", "Nirgendwohin – sie bleibt in der Arktis"], 0,
     "Sie ist der Zugvogel mit dem längsten Zugweg: Ihre Winterquartiere liegen am Rand der antarktischen Packeiszone, etwa in der Weddell-See. Hin und zurück sind das bis zu 30.000 Kilometer.", "Küstenseeschwalbe",
     "Where does the Arctic tern fly after the breeding season in the Arctic?", ["To the edge of the Antarctic pack ice", "To central Europe", "To the Sahara", "Nowhere – it stays in the Arctic"],
@@ -38,11 +35,6 @@ export const questions = balance([
 ]);
 
 export const evidence = {
-  ok1: [
-    "de|Oktave|dessen Rahmentöne im Frequenzverhältnis 2:1 stehen",
-    "de|Oktave|und der obere Ton somit die doppelte Schwingungszahl des unteren hat",
-    "de|Monochord|klingt sie eine Oktave höher (grün) als die ungekürzte Saite",
-  ],
   zv1: [
     "de|Küstenseeschwalbe|Die Küstenseeschwalbe ist der Zugvogel mit dem längsten Zugweg.",
     "de|Küstenseeschwalbe|Ihre Winterquartiere liegen am Rand der antarktischen Packeiszone",
@@ -59,7 +51,7 @@ export const evidence = {
 
 const animations = [
   {
-    id: "a-oktave", scene: "octave", renderer: "svg-scene", category: "music", minAge: 10, difficulty: 2, timing: [0.7, 1.0], quiz: "ok1", predict: [1, 0],
+    id: "a-oktave", scene: "octave", renderer: "svg-scene", category: "music", minAge: 10, difficulty: 2, timing: [0.7, 1.0], quiz: "mu1", predict: [1, 0],
     sources: [wiki("Kammerton"), wiki("Oktave"), wiki("Monochord"), wiki("Klaviatur"), wiki("Hörfläche")],
     de: {
       title: "Eine Oktave ist eine Verdopplung", summary: "Von der schwingenden Saite bis zum Klavier und zu unserem Gehör – Töne, die sich verdoppeln.",

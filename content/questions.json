@@ -39,7 +39,7 @@
   {
     "id": "s2",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wie lange braucht Sonnenlicht ungefähr bis zur Erde?",
     "options": [
       "8 Sekunden",
@@ -261,7 +261,7 @@
   {
     "id": "s8",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Welcher Planet hat die meisten bekannten Monde?",
     "options": [
       "Jupiter",
@@ -927,7 +927,7 @@
   {
     "id": "h9",
     "kind": "question",
-    "category_id": "history",
+    "category_id": "space",
     "question": "In welchem Jahr betraten erstmals Menschen den Mond?",
     "options": [
       "1961",
@@ -1075,7 +1075,7 @@
   {
     "id": "g4",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Welches ist das größte heute lebende Tier?",
     "options": [
       "Afrikanischer Elefant",
@@ -1112,7 +1112,7 @@
   {
     "id": "g5",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Wie viele Herzen hat ein Oktopus?",
     "options": [
       "1",
@@ -1371,7 +1371,7 @@
   {
     "id": "c1",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Wer malte die „Mona Lisa“?",
     "options": [
       "Michelangelo",
@@ -1445,7 +1445,7 @@
   {
     "id": "c3",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wie viele Sinfonien hat Beethoven vollendet?",
     "options": [
       "5",
@@ -1890,7 +1890,7 @@
   {
     "id": "cf1",
     "kind": "fact",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Die Europahymne stammt aus Beethovens neunter Sinfonie.",
     "options": [
       "Stimmt",
@@ -1956,7 +1956,7 @@
   {
     "id": "sf2",
     "kind": "fact",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Auf der Venus dauert ein Tag länger als ein Jahr.",
     "options": [
       "Stimmt",
@@ -2460,7 +2460,7 @@
   {
     "id": "s9",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wie viele Planeten hat unser Sonnensystem?",
     "options": [
       "7",
@@ -2682,7 +2682,7 @@
   {
     "id": "s15",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Welcher Planet ist der Sonne am nächsten?",
     "options": [
       "Venus",
@@ -2830,7 +2830,7 @@
   {
     "id": "s19",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Welche Kraft hält die Planeten auf ihrer Bahn um die Sonne?",
     "options": [
       "Magnetismus",
@@ -2904,7 +2904,7 @@
   {
     "id": "ks1",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "animals",
     "question": "Wie viele Beine hat eine Spinne?",
     "options": [
       "6",
@@ -2978,7 +2978,7 @@
   {
     "id": "ks3",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "art",
     "question": "Welche Farbe entsteht, wenn man Blau und Gelb mischt?",
     "options": [
       "Grün",
@@ -3015,7 +3015,7 @@
   {
     "id": "ks4",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was umkreist die Erde und leuchtet nachts am Himmel?",
     "options": [
       "Die Sonne",
@@ -4014,7 +4014,7 @@
   {
     "id": "kh2",
     "kind": "question",
-    "category_id": "history",
+    "category_id": "animals",
     "question": "Welche Tiere lebten vor vielen Millionen Jahren und sind ausgestorben?",
     "options": [
       "Dinosaurier",
@@ -4310,7 +4310,7 @@
   {
     "id": "g12",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Welches ist das schnellste Landtier?",
     "options": [
       "Gepard",
@@ -4495,7 +4495,7 @@
   {
     "id": "kg1",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Welches ist das größte Landtier?",
     "options": [
       "Elefant",
@@ -4532,7 +4532,7 @@
   {
     "id": "kg2",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Was wird aus einer Raupe?",
     "options": [
       "Ein Schmetterling",
@@ -4569,7 +4569,7 @@
   {
     "id": "kg3",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Wo leben Pinguine in freier Natur?",
     "options": [
       "Auf der Südhalbkugel, zum Beispiel in der Antarktis",
@@ -5124,7 +5124,7 @@
   {
     "id": "c7",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wie viele Saiten hat eine klassische Gitarre?",
     "options": [
       "4",
@@ -5235,7 +5235,7 @@
   {
     "id": "c10",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wer komponierte die Oper „Die Zauberflöte“?",
     "options": [
       "Wolfgang Amadeus Mozart",
@@ -5383,7 +5383,7 @@
   {
     "id": "c14",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Welcher Maler schuf das Gemälde „Sternennacht“?",
     "options": [
       "Vincent van Gogh",
@@ -5531,7 +5531,7 @@
   {
     "id": "kc1",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Welches Instrument hat schwarze und weiße Tasten?",
     "options": [
       "Klavier",
@@ -5708,7 +5708,7 @@
   {
     "id": "sf5",
     "kind": "fact",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Im Weltraum kann sich Schall nicht ausbreiten.",
     "options": [
       "Stimmt",
@@ -5972,7 +5972,7 @@
   {
     "id": "gm2",
     "kind": "fact",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Strauße stecken bei Gefahr den Kopf in den Sand.",
     "options": [
       "Stimmt",
@@ -6236,7 +6236,7 @@
   {
     "id": "cm3",
     "kind": "fact",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Das Weihnachtslied „Stille Nacht“ wurde von Mozart komponiert.",
     "options": [
       "Stimmt",
@@ -6269,7 +6269,7 @@
   {
     "id": "q-v-iss-nacht",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "space",
     "question": "Wie lange braucht die ISS für eine Erdumrundung?",
     "options": [
       "Rund 90 Minuten",
@@ -6310,7 +6310,7 @@
   {
     "id": "q-v-saturn-v",
     "kind": "question",
-    "category_id": "history",
+    "category_id": "space",
     "question": "Wie hieß die Rakete, die Apollo 11 zum Mond brachte?",
     "options": [
       "Saturn V",
@@ -6351,7 +6351,7 @@
   {
     "id": "q-v-aldrin",
     "kind": "question",
-    "category_id": "history",
+    "category_id": "space",
     "question": "Wer betrat als zweiter Mensch den Mond?",
     "options": [
       "Buzz Aldrin",
@@ -6391,7 +6391,7 @@
   {
     "id": "q-v-ingenuity",
     "kind": "question",
-    "category_id": "technology",
+    "category_id": "space",
     "question": "Auf welchem Planeten flog der Hubschrauber Ingenuity?",
     "options": [
       "Mars",
@@ -6432,7 +6432,7 @@
   {
     "id": "q-v-sonne",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Woraus besteht die Sonne hauptsächlich?",
     "options": [
       "Wasserstoff und Helium",
@@ -7314,7 +7314,7 @@
   {
     "id": "q-v-polarlicht",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wodurch entstehen Polarlichter?",
     "options": [
       "Mondlicht bricht sich im Eis",
@@ -7474,7 +7474,7 @@
   {
     "id": "q-v-mars-landung",
     "kind": "question",
-    "category_id": "technology",
+    "category_id": "space",
     "question": "In welchem Marskrater landete der Rover Perseverance?",
     "options": [
       "Gale",
@@ -7514,7 +7514,7 @@
   {
     "id": "q-v-erdaufgang",
     "kind": "question",
-    "category_id": "history",
+    "category_id": "space",
     "question": "Welche Mission umkreiste 1968 als erste mit Menschen an Bord den Mond?",
     "options": [
       "Apollo 11",
@@ -7793,7 +7793,7 @@
   {
     "id": "q-v-orchester",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Welche Instrumentengruppe ist in einem Sinfonieorchester am größten?",
     "options": [
       "Blechbläser",
@@ -7873,7 +7873,7 @@
   {
     "id": "q-v-gepard",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Wofür nutzt der Gepard beim Sprint seinen langen Schwanz?",
     "options": [
       "Zum Steuern und Ausbalancieren",
@@ -7913,7 +7913,7 @@
   {
     "id": "q-v-oktopus",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Welche Farbe hat das Blut eines Oktopus?",
     "options": [
       "Rot",
@@ -7953,7 +7953,7 @@
   {
     "id": "q-v-bienen",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Was teilen Honigbienen mit dem Schwänzeltanz mit?",
     "options": [
       "Dass Gefahr droht",
@@ -7993,7 +7993,7 @@
   {
     "id": "q-v-stare",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Welchen Vorteil hat der dichte Schwarm für die Stare?",
     "options": [
       "Er erzeugt Wind",
@@ -11931,7 +11931,7 @@
   {
     "id": "h31",
     "kind": "question",
-    "category_id": "history",
+    "category_id": "space",
     "question": "Wer flog 1961 als erster Mensch ins Weltall?",
     "options": [
       "Neil Armstrong",
@@ -12477,7 +12477,7 @@
   {
     "id": "g26",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Wie nennt man Tiere, die sowohl Pflanzen als auch Fleisch fressen?",
     "options": [
       "Allesfresser",
@@ -12516,7 +12516,7 @@
   {
     "id": "g27",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Welche Säugetiere können aktiv fliegen?",
     "options": [
       "Flughörnchen",
@@ -13610,7 +13610,7 @@
   {
     "id": "c25",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Wer malte 1937 das Antikriegsbild „Guernica“?",
     "options": [
       "Salvador Dalí",
@@ -13688,7 +13688,7 @@
   {
     "id": "c27",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Welches Instrument spielte der Jazzmusiker Louis Armstrong?",
     "options": [
       "Klavier",
@@ -13727,7 +13727,7 @@
   {
     "id": "c28",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "In welchem Museum hängt die „Mona Lisa“?",
     "options": [
       "Im Prado in Madrid",
@@ -13806,7 +13806,7 @@
   {
     "id": "c30",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wer komponierte „Die vier Jahreszeiten“?",
     "options": [
       "Johann Sebastian Bach",
@@ -13924,7 +13924,7 @@
   {
     "id": "c33",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Welche Kunstrichtung ist nach einem Gemälde von Claude Monet benannt?",
     "options": [
       "Impressionismus",
@@ -14387,7 +14387,7 @@
   {
     "id": "gm4",
     "kind": "fact",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Kamele speichern Wasser in ihren Höckern.",
     "options": [
       "Stimmt",
@@ -14457,7 +14457,7 @@
   {
     "id": "cf3",
     "kind": "fact",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Die „Mona Lisa“ wurde 1911 aus dem Louvre gestohlen.",
     "options": [
       "Stimmt",
@@ -14605,7 +14605,7 @@
   {
     "id": "qa-stern",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was muss im Inneren eines Protosterns einsetzen, damit er zum Stern wird?",
     "options": [
       "Die Spaltung von Uran",
@@ -16595,7 +16595,7 @@
   {
     "id": "s51",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was gibt ein Lichtjahr an?",
     "options": [
       "Eine Entfernung",
@@ -16634,7 +16634,7 @@
   {
     "id": "s52",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wie heißt die Galaxie, in der sich unser Sonnensystem befindet?",
     "options": [
       "Andromeda",
@@ -16673,7 +16673,7 @@
   {
     "id": "s53",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was ist ein Schwarzes Loch?",
     "options": [
       "Ein leerer Bereich im All ohne Sterne",
@@ -18275,7 +18275,7 @@
   {
     "id": "g40",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Welches dieser Meerestiere ist ein Säugetier?",
     "options": [
       "Der Delfin",
@@ -18314,7 +18314,7 @@
   {
     "id": "g41",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Warum sind Bienen für viele Pflanzen so wichtig?",
     "options": [
       "Sie lockern den Boden",
@@ -18551,7 +18551,7 @@
   {
     "id": "g47",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Warum ziehen viele Vögel im Herbst nach Süden?",
     "options": [
       "Weil die Tage im Süden kürzer sind",
@@ -19683,7 +19683,7 @@
   {
     "id": "c41",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Aus welcher Stadt kamen die Beatles?",
     "options": [
       "London",
@@ -19839,7 +19839,7 @@
   {
     "id": "c45",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was war das Bauhaus?",
     "options": [
       "Ein Baumarkt",
@@ -19879,7 +19879,7 @@
   {
     "id": "c46",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Aus welchem Land stammte die Malerin Frida Kahlo?",
     "options": [
       "Spanien",
@@ -19918,7 +19918,7 @@
   {
     "id": "c47",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Wer malte die Decke der Sixtinischen Kapelle im Vatikan?",
     "options": [
       "Leonardo da Vinci",
@@ -20214,7 +20214,7 @@
   {
     "id": "sf7",
     "kind": "fact",
-    "category_id": "science",
+    "category_id": "animals",
     "question": "Große Dinosaurier wie der Tyrannosaurus waren schon ausgestorben, lange bevor es Menschen gab.",
     "options": [
       "Stimmt",
@@ -20530,7 +20530,7 @@
   {
     "id": "cf4",
     "kind": "fact",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Beethoven war in seinen letzten Lebensjahren fast völlig taub.",
     "options": [
       "Stimmt",
@@ -20565,7 +20565,7 @@
   {
     "id": "cm5",
     "kind": "fact",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Vincent van Gogh war schon zu Lebzeiten ein gefeierter und reicher Maler.",
     "options": [
       "Stimmt",
@@ -20639,7 +20639,7 @@
   {
     "id": "qa-bahn",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "An welcher Stelle seiner Umlaufbahn ist ein Planet am schnellsten?",
     "options": [
       "Am sonnenfernsten Punkt",
@@ -21318,7 +21318,7 @@
   {
     "id": "bq-hawking",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was sagte Stephen Hawking 1974 über Schwarze Löcher voraus?",
     "options": [
       "Dass sie aus Antimaterie bestehen",
@@ -21525,7 +21525,7 @@
   {
     "id": "o2",
     "kind": "order",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Ordne die Planeten nach ihrem Abstand zur Sonne – der nächste zuerst.",
     "options": [
       "Mars",
@@ -21807,7 +21807,7 @@
   {
     "id": "o8",
     "kind": "order",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Ordne die Komponisten nach ihrem Geburtsjahr – der älteste zuerst.",
     "options": [
       "Mozart",
@@ -21897,7 +21897,7 @@
   {
     "id": "s-e2",
     "kind": "estimate",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Schätze: Wie heiß ist die Oberfläche der Sonne?",
     "options": [
       "1000",
@@ -21940,7 +21940,7 @@
   {
     "id": "s-e3",
     "kind": "estimate",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Schätze: Wie weit ist der Mond im Mittel von der Erde entfernt?",
     "options": [
       "50000",
@@ -22326,7 +22326,7 @@
   {
     "id": "l-b4",
     "kind": "blank",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Der größte Planet unseres Sonnensystems heißt ___.",
     "options": [
       "ein Planet",
@@ -22410,7 +22410,7 @@
   {
     "id": "l-b6",
     "kind": "blank",
-    "category_id": "history",
+    "category_id": "space",
     "question": "Der erste Mensch auf dem Mond hieß Neil ___.",
     "options": [
       "ein Nachname",
@@ -22733,7 +22733,7 @@
   {
     "id": "q-v-sonnenfinsternis",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was verdeckt bei einer Sonnenfinsternis die Sonne?",
     "options": [
       "Die Erde",
@@ -22773,7 +22773,7 @@
   {
     "id": "q-v-rippenqualle",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Womit bewegt sich eine Rippenqualle vorwärts?",
     "options": [
       "Mit Flossen",
@@ -22813,7 +22813,7 @@
   {
     "id": "q-v-jupiter",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was ist der Große Rote Fleck auf dem Jupiter?",
     "options": [
       "Ein Vulkan",
@@ -22933,7 +22933,7 @@
   {
     "id": "qa-mondphasen",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Warum sehen wir den Mond bei Neumond nicht?",
     "options": [
       "Die Erde wirft ihren Schatten auf ihn",
@@ -23013,7 +23013,7 @@
   {
     "id": "qa-finsternis",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Warum gibt es nicht bei jedem Neumond eine Sonnenfinsternis?",
     "options": [
       "Weil der Mond dafür meist zu weit entfernt ist",
@@ -27854,7 +27854,7 @@
   {
     "id": "q-v-muybridge",
     "kind": "question",
-    "category_id": "sport",
+    "category_id": "animals",
     "question": "Was zeigten Muybridges Serienfotos eines galoppierenden Pferdes?",
     "options": [
       "Für einen Moment sind alle vier Hufe in der Luft",
@@ -29697,7 +29697,7 @@
   {
     "id": "qa-schall",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Warum gibt es im Weltall keinen Schall?",
     "options": [
       "Weil dort keine Teilchen sind, die schwingen und sich anstoßen können",
@@ -30447,7 +30447,7 @@
   {
     "id": "c55",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Welcher Bildhauer schuf die Figur „Der Denker“?",
     "options": [
       "Michelangelo",
@@ -30525,7 +30525,7 @@
   {
     "id": "c57",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wo entstand der Tango?",
     "options": [
       "In Spanien",
@@ -30643,7 +30643,7 @@
   {
     "id": "c60",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Was ist ein Leitmotiv in der Musik, etwa in den Opern Richard Wagners?",
     "options": [
       "Eine wiederkehrende Tonfolge, die für eine Person oder Idee steht",
@@ -31105,7 +31105,7 @@
   {
     "id": "o15",
     "kind": "order",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Ordne die Kunstepochen zeitlich – die früheste zuerst.",
     "options": [
       "Barock",
@@ -31282,7 +31282,7 @@
   {
     "id": "l-b16",
     "kind": "blank",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Das bekannteste Gemälde von Edvard Munch heißt „Der ___“.",
     "options": [
       "ein Wort",
@@ -31711,7 +31711,7 @@
   {
     "id": "rt48",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Viele Notizen von Leonardo da Vinci kann man nur mit einem Spiegel bequem lesen. Wie hat er sie geschrieben?",
     "options": [
       "Spiegelverkehrt von rechts nach links",
@@ -31945,7 +31945,7 @@
   {
     "id": "q-v-taiko",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Woran erinnert das japanische Bon-Fest, bei dem oft Taiko gespielt wird?",
     "options": [
       "An die verstorbenen Vorfahren",
@@ -32223,7 +32223,7 @@
   {
     "id": "q-v-sonne-masse",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Welcher Anteil der Masse des Sonnensystems steckt in der Sonne?",
     "options": [
       "Rund 99,9 %",
@@ -32263,7 +32263,7 @@
   {
     "id": "q-v-licht-reise",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wie lange ist Licht vom nächsten Stern, Proxima Centauri, zu uns unterwegs?",
     "options": [
       "Etwa 4 Jahre",
@@ -32503,7 +32503,7 @@
   {
     "id": "q-v-person-galilei",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was entdeckte Galileo Galilei?",
     "options": [
       "Die vier größten Monde des Jupiter",
@@ -32663,7 +32663,7 @@
   {
     "id": "q-v-person-mozart",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "In welcher Stadt wurde Wolfgang Amadeus Mozart geboren?",
     "options": [
       "In Salzburg",
@@ -32703,7 +32703,7 @@
   {
     "id": "q-v-person-beethoven",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Was beendete Beethovens Karriere als Pianist?",
     "options": [
       "Ein Gehörleiden",
@@ -32743,7 +32743,7 @@
   {
     "id": "q-v-person-kahlo",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Welchen Rekord stellte Frida Kahlos Bild „El sueño“ 2025 auf?",
     "options": [
       "Teuerstes Werk einer Frau bei einer Auktion",
@@ -32783,7 +32783,7 @@
   {
     "id": "q-v-person-leonardo",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was bedeutet „da Vinci“ im Namen von Leonardo?",
     "options": [
       "Es verweist auf seinen Geburtsort",
@@ -32903,7 +32903,7 @@
   {
     "id": "q-v-person-kepler",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was beschreiben die Keplerschen Gesetze?",
     "options": [
       "Wie sich Planeten um die Sonne bewegen",
@@ -32983,7 +32983,7 @@
   {
     "id": "q-v-person-vangogh",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Wie viele seiner Bilder konnte Vincent van Gogh zu Lebzeiten verkaufen?",
     "options": [
       "Nur eines",
@@ -33103,7 +33103,7 @@
   {
     "id": "q-v-person-kopernikus",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Was beschreibt Kopernikus in seinem Hauptwerk über die Erde?",
     "options": [
       "Sie ist ein Planet, der um die Sonne kreist",
@@ -33143,7 +33143,7 @@
   {
     "id": "q-v-person-bach",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wie viele Kinder hatte Johann Sebastian Bach insgesamt?",
     "options": [
       "20",
@@ -33783,7 +33783,7 @@
   {
     "id": "qa-geige",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Womit werden die Haare eines Geigenbogens vor dem Spielen eingerieben?",
     "options": [
       "Mit Kolophonium",
@@ -34770,7 +34770,7 @@
   {
     "id": "g48",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Wozu leuchten Glühwürmchen (Leuchtkäfer) meistens?",
     "options": [
       "Damit Männchen und Weibchen zur Paarung zueinanderfinden",
@@ -35050,7 +35050,7 @@
   {
     "id": "s59",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Warum sehen wir den Mond mal als Sichel und mal als volle Scheibe?",
     "options": [
       "Wir sehen jeweils einen anderen Anteil seiner von der Sonne beleuchteten Seite",
@@ -35488,7 +35488,7 @@
   {
     "id": "c61",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Welches Instrument gibt im Orchester meist den Ton zum Einstimmen an?",
     "options": [
       "Die Pauke",
@@ -36048,7 +36048,7 @@
   {
     "id": "s60",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Warum ist der Mars rot?",
     "options": [
       "Weil er Licht von der Sonne rot färbt",
@@ -36168,7 +36168,7 @@
   {
     "id": "g52",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Warum fliegen große Zugvögel oft in V-Formation?",
     "options": [
       "Damit sie sich nicht verfliegen",
@@ -39956,7 +39956,7 @@
   {
     "id": "ku1",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Auf einem Bild mit Zentralperspektive laufen Schienen oder Straßenränder in der Ferne zusammen. Wie heißt der Punkt, in dem sie sich treffen?",
     "options": [
       "Fluchtpunkt",
@@ -39996,7 +39996,7 @@
   {
     "id": "ku2",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was beschreibt der Goldene Schnitt, der in der Kunst häufig verwendet wird?",
     "options": [
       "Die genaue Mitte eines Bildes",
@@ -40036,7 +40036,7 @@
   {
     "id": "ku3",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Wie nennt man die Malweise mit starken Kontrasten von Hell und Dunkel, berühmt durch Caravaggio und Rembrandt?",
     "options": [
       "Fresko",
@@ -40076,7 +40076,7 @@
   {
     "id": "ku4",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was ist das Besondere an einem Fresko?",
     "options": [
       "Es wird mit Öl auf Leinwand gemalt",
@@ -40116,7 +40116,7 @@
   {
     "id": "ku5",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Womit wird bei der Ölmalerei die Farbe gebunden?",
     "options": [
       "Mit trocknendem Öl, etwa Lein-, Walnuss- oder Mohnöl",
@@ -40156,7 +40156,7 @@
   {
     "id": "ku6",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Wie entsteht ein Bild im Pointillismus, etwa bei Georges Seurat?",
     "options": [
       "Aus wenigen großen Farbflächen",
@@ -40196,7 +40196,7 @@
   {
     "id": "ku7",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Wer gelten als die maßgebenden Gründer des Kubismus, der ab 1906 in Frankreich entstand?",
     "options": [
       "Salvador Dalí und René Magritte",
@@ -40236,7 +40236,7 @@
   {
     "id": "ku8",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was kennzeichnet den Surrealismus, der seit den 1920er Jahren entstand?",
     "options": [
       "Ausschließlich religiöse Motive",
@@ -40276,7 +40276,7 @@
   {
     "id": "ku9",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was bedeutet „Trompe-l’œil“ bei einer Wandmalerei?",
     "options": [
       "„Täusche das Auge“ – die Malerei gaukelt räumliche Tiefe vor",
@@ -40316,7 +40316,7 @@
   {
     "id": "ku10",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was ergeben zwei Komplementärfarben, wenn man sie miteinander mischt?",
     "options": [
       "Eine unbunte Farbe – je nach Mischung Weiß, Grau oder Schwarz",
@@ -40355,7 +40355,7 @@
   {
     "id": "ku11",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was zeigt ein Stillleben?",
     "options": [
       "Menschen beim Sport",
@@ -40395,7 +40395,7 @@
   {
     "id": "ku12",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "„Die große Welle vor Kanagawa“ von Katsushika Hokusai ist der bekannteste japanische Druck. Wie wurde er hergestellt?",
     "options": [
       "Als Fotografie",
@@ -40435,7 +40435,7 @@
   {
     "id": "ku13",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Welche Künstlergruppe des Expressionismus gründeten vier Architekturstudenten 1905 in Dresden?",
     "options": [
       "Die Wiener Secession",
@@ -40475,7 +40475,7 @@
   {
     "id": "ku14",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Was ist ein „Ready-made“ in der Kunst?",
     "options": [
       "Ein Alltagsgegenstand, den ein Künstler zum Kunstwerk erklärt",
@@ -40514,7 +40514,7 @@
   {
     "id": "ku15",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "art",
     "question": "Woher nimmt die Pop Art, die Mitte der 1950er Jahre entstand, ihre Motive?",
     "options": [
       "Aus der griechischen Mythologie",
@@ -40553,7 +40553,7 @@
   {
     "id": "mu1",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Ein Ton und der Ton eine Oktave höher: In welchem Verhältnis stehen ihre Frequenzen?",
     "options": [
       "3 : 2",
@@ -40593,7 +40593,7 @@
   {
     "id": "mu2",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Welche Neuerung der Notenschrift geht auf den Mönch Guido von Arezzo (um 992 bis 1050) zurück?",
     "options": [
       "Die Zwölftonmusik",
@@ -40633,7 +40633,7 @@
   {
     "id": "mu3",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "In welchem Takt wird ein Walzer getanzt?",
     "options": [
       "Im 3/4-Takt",
@@ -40673,7 +40673,7 @@
   {
     "id": "mu4",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Was ist ein Kanon in der Musik?",
     "options": [
       "Ein besonders lautes Orchesterstück",
@@ -40713,7 +40713,7 @@
   {
     "id": "mu5",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Woher hat die Fuge ihren Namen, und was kennzeichnet sie?",
     "options": [
       "Vom Ort Fugen in Tirol – dort wurde sie erfunden",
@@ -40753,7 +40753,7 @@
   {
     "id": "mu6",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Aus wie vielen Sätzen besteht eine klassische Sinfonie meist?",
     "options": [
       "Aus einem",
@@ -40793,7 +40793,7 @@
   {
     "id": "mu7",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Welches Werk gilt als erste Oper überhaupt?",
     "options": [
       "„La Dafne“ von Jacopo Peri, uraufgeführt 1598",
@@ -40833,7 +40833,7 @@
   {
     "id": "mu8",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Auf welche Frequenz ist der international übliche Kammerton a′ festgelegt?",
     "options": [
       "220 Hertz",
@@ -40873,7 +40873,7 @@
   {
     "id": "mu9",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Was unterscheidet das Cembalo vom Klavier?",
     "options": [
       "Das Cembalo hat keine Saiten, sondern Pfeifen",
@@ -40912,7 +40912,7 @@
   {
     "id": "mu10",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Warum heißt das Klavier auch „Pianoforte“?",
     "options": [
       "Weil es aus dem Holz der Pinie gebaut wird",
@@ -40951,7 +40951,7 @@
   {
     "id": "mu11",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Was gibt die Zahl an, die man auf einem Metronom einstellt?",
     "options": [
       "Wie viele Musiker mitspielen",
@@ -40991,7 +40991,7 @@
   {
     "id": "mu12",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wann und wo entstand der Jazz?",
     "options": [
       "Um 1900 in den Südstaaten der USA",
@@ -41031,7 +41031,7 @@
   {
     "id": "mu13",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Was ist ein Gamelan?",
     "options": [
       "Ein japanisches Saiteninstrument",
@@ -41071,7 +41071,7 @@
   {
     "id": "mu14",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Wofür ist Antonio Stradivari (gestorben 1737 in Cremona) berühmt?",
     "options": [
       "Als Erfinder des Klaviers",
@@ -41111,7 +41111,7 @@
   {
     "id": "mu15",
     "kind": "question",
-    "category_id": "culture",
+    "category_id": "music",
     "question": "Was bedeutet die Tempoangabe „Allegro“ über einem Musikstück?",
     "options": [
       "Wiederholen",
@@ -41191,7 +41191,7 @@
   {
     "id": "es1",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wie viel größer ist der Durchmesser der Sonne als der der Erde – ungefähr?",
     "options": [
       "Etwa 10-mal",
@@ -41351,7 +41351,7 @@
   {
     "id": "gr1",
     "kind": "question",
-    "category_id": "earth",
+    "category_id": "animals",
     "question": "Wie lang kann ein Blauwal werden?",
     "options": [
       "Bis etwa 10 Meter",
@@ -41391,7 +41391,7 @@
   {
     "id": "tp1",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wie schnell bewegt sich die Erde im Mittel auf ihrer Bahn um die Sonne?",
     "options": [
       "Rund 30 Meter pro Sekunde",
@@ -43687,7 +43687,7 @@
       "Formen"
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "show_in_feed": true,
     "demo_popularity": 0,
     "source_name": "Wikipedia: Fuge (Musik)",
@@ -44807,7 +44807,7 @@
       "Physik"
     ],
     "verification_status": "ai_checked",
-    "status": "published",
+    "status": "archived",
     "show_in_feed": true,
     "demo_popularity": 0,
     "source_name": "Wikipedia: Oktave",

@@ -17,7 +17,7 @@ export const verification = "ai_checked";
 
 // [id, category, difficulty, minAge, maxAge, question, options, correct, explanation, wiki, enQuestion, enOptions, enExplanation, tags]
 export const questions = balance([
-  ["tp1", "science", 2, 10, null, "Wie schnell bewegt sich die Erde im Mittel auf ihrer Bahn um die Sonne?", ["Rund 30 Meter pro Sekunde", "Rund 30 Kilometer pro Sekunde", "Rund 300 Kilometer pro Sekunde", "Rund 3.000 Kilometer pro Sekunde"], 1,
+  ["tp1", "space", 2, 10, null, "Wie schnell bewegt sich die Erde im Mittel auf ihrer Bahn um die Sonne?", ["Rund 30 Meter pro Sekunde", "Rund 30 Kilometer pro Sekunde", "Rund 300 Kilometer pro Sekunde", "Rund 3.000 Kilometer pro Sekunde"], 1,
     "Die Bahngeschwindigkeit der Erde beträgt im Mittel 29,78 km/s – so legt sie die Länge ihres eigenen Durchmessers in gut sieben Minuten zurück.", "Erde",
     "On average, how fast does the Earth move along its orbit around the Sun?", ["About 30 metres per second", "About 30 kilometres per second", "About 300 kilometres per second", "About 3,000 kilometres per second"],
     "The Earth's orbital speed averages 29.78 km/s – so it covers the length of its own diameter in just over seven minutes.", ["Weltraum", "Erde"]],

@@ -2,6 +2,7 @@ import type { Clip } from "./content";
 import type { UserState } from "./types";
 import { hash, today } from "./gamification";
 import { freshFirst } from "./seen";
+import { withSubtopics } from "./categories";
 
 export type { Clip };
 
@@ -23,10 +24,11 @@ export function rankClips(clips: Clip[], s: UserState): Clip[] {
     if (s.hidden.includes(c.id)) add(c.categoryId, -3);
   }
   const day = today();
+  const chosen = new Set(withSubtopics(s.interests));
   const score = (c: Clip) => {
     const ageDays = c.publishedAt ? (Date.now() - Date.parse(c.publishedAt)) / 86_400_000 : 30;
     return (
-      (s.interests.includes(c.categoryId) ? 4 : -2) +
+      (chosen.has(c.categoryId) ? 4 : -2) +
       Math.max(-3, Math.min(3, byCat[c.categoryId] ?? 0)) +
       3 * Math.exp(-ageDays / 10) +
       Math.min(1, c.popularity / 100) +

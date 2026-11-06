@@ -377,7 +377,7 @@
   },
   {
     "id": "v-iss-nacht",
-    "category_id": "earth",
+    "category_id": "space",
     "title": "Die Erde bei Nacht – gesehen von der Raumstation",
     "hook": "Die ISS umrundet die Erde etwa alle 90 Minuten – rund 16 Mal am Tag.",
     "description": "Die Internationale Raumstation fliegt in rund 400 Kilometern Höhe mit etwa 28.000 km/h. Der farbige Schimmer über dem Horizont ist das Nachthimmelsleuchten der oberen Atmosphäre.",
@@ -437,7 +437,7 @@
   },
   {
     "id": "v-saturn-v",
-    "category_id": "history",
+    "category_id": "space",
     "title": "Der Start von Apollo 11",
     "hook": "Am 16. Juli 1969 hob die Saturn V ab – vier Tage später landeten Menschen auf dem Mond.",
     "description": "Die Saturn V war rund 110 Meter hoch und ist bis heute eine der stärksten Raketen, die je geflogen sind. An Bord von Apollo 11: Neil Armstrong, Buzz Aldrin und Michael Collins.",
@@ -497,7 +497,7 @@
   },
   {
     "id": "v-aldrin",
-    "category_id": "history",
+    "category_id": "space",
     "title": "Der zweite Mensch auf dem Mond",
     "hook": "Buzz Aldrin stieg rund 19 Minuten nach Neil Armstrong die Leiter der Mondfähre hinab.",
     "description": "Originalaufnahme der Fernsehübertragung vom 20. Juli 1969 in restaurierter Fassung. Rund 600 Millionen Menschen verfolgten die Mondlandung live.",
@@ -556,7 +556,7 @@
   },
   {
     "id": "v-ingenuity",
-    "category_id": "technology",
+    "category_id": "space",
     "title": "Ein Hubschrauber auf dem Mars",
     "hook": "Ingenuity gelang 2021 der erste motorisierte Flug auf einem anderen Planeten.",
     "description": "Animation der NASA. Die Marsluft ist rund hundertmal dünner als die der Erde, deshalb drehen sich die Rotoren von Ingenuity mit etwa 2.400 Umdrehungen pro Minute. Geplant waren fünf Flüge – es wurden 72.",
@@ -616,7 +616,7 @@
   },
   {
     "id": "v-sonne",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Unsere Sonne in Bewegung",
     "hook": "Die Sonne enthält mehr als 99,8 Prozent der gesamten Masse unseres Sonnensystems.",
     "description": "Zeitrafferaufnahmen des Sonnenobservatoriums SDO im ultravioletten Licht. Die Sonne ist eine Kugel aus heißem Plasma und besteht vor allem aus Wasserstoff und Helium.",
@@ -794,7 +794,7 @@
   },
   {
     "id": "v-polarlicht",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Polarlichter über Alaska",
     "hook": "Polarlichter entstehen, wenn geladene Teilchen von der Sonne auf die obere Atmosphäre treffen.",
     "description": "Zeitraffer aus Alaska. Das grüne Leuchten stammt von Sauerstoffatomen in rund 100 Kilometern Höhe, die durch die Teilchen des Sonnenwinds angeregt werden.",
@@ -1030,7 +1030,7 @@
   },
   {
     "id": "v-mars-landung",
-    "category_id": "technology",
+    "category_id": "space",
     "title": "Landung auf dem Mars – mit Bordkamera",
     "hook": "So sah der Rover Perseverance 2021 seine eigene Landung auf dem Mars.",
     "description": "Blick der Bordkamera nach unten auf den Krater Jezero, 18. Februar 2021. Auf den letzten Metern ließ eine schwebende Plattform den Rover an Seilen herab.",
@@ -1090,7 +1090,7 @@
   },
   {
     "id": "v-erdaufgang",
-    "category_id": "history",
+    "category_id": "space",
     "title": "Der erste Erdaufgang",
     "hook": "An Heiligabend 1968 sahen Menschen zum ersten Mal die Erde über dem Mond aufgehen.",
     "description": "Die Besatzung von Apollo 8 umkreiste als erste den Mond. Die Visualisierung der NASA rekonstruiert den Moment, in dem William Anders das berühmte Foto „Earthrise“ aufnahm.",
@@ -1503,7 +1503,7 @@
   },
   {
     "id": "v-orchester",
-    "category_id": "culture",
+    "category_id": "music",
     "title": "Wie ein Orchester aufgebaut ist",
     "hook": "Ein Sinfonieorchester hat vier Gruppen: Streicher, Holzbläser, Blechbläser und Schlagwerk.",
     "description": "Das Sinfonieorchester der University of Colorado Boulder spielt Beethovens 5. Sinfonie. Vorn sitzen die Streicher, dahinter die Bläser, ganz hinten das Schlagwerk.",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "v-gepard",
-    "category_id": "earth",
+    "category_id": "animals",
     "title": "Das schnellste Landtier",
     "hook": "Ein Gepard beschleunigt in etwa drei Sekunden auf fast 100 km/h.",
     "description": "Zeitlupenaufnahme eines sprintenden Gepards. Die biegsame Wirbelsäule wirkt wie eine Feder, der lange Schwanz hält das Tier in der Kurve im Gleichgewicht.",
@@ -1680,7 +1680,7 @@
   },
   {
     "id": "v-oktopus",
-    "category_id": "earth",
+    "category_id": "animals",
     "title": "Drei Herzen, blaues Blut",
     "hook": "Ein Oktopus hat drei Herzen, blaues Blut und acht Arme, die teilweise selbstständig handeln.",
     "description": "Zwei Drittel der Nervenzellen eines Oktopus sitzen in den Armen. Sein Blut ist blau, weil es Sauerstoff mit Kupfer statt mit Eisen transportiert.",
@@ -1739,7 +1739,7 @@
   },
   {
     "id": "v-bienen",
-    "category_id": "earth",
+    "category_id": "animals",
     "title": "Bienen sprechen im Tanz",
     "hook": "Mit dem Schwänzeltanz zeigen Honigbienen ihren Schwestern, in welcher Richtung und wie weit entfernt Futter liegt.",
     "description": "Honigbienen auf der Wabe. Die Richtung des Tanzes zeigt den Winkel zur Sonne, die Dauer des Schwänzelns die Entfernung. Für diese Entdeckung erhielt Karl von Frisch 1973 den Nobelpreis.",
@@ -1798,7 +1798,7 @@
   },
   {
     "id": "v-stare",
-    "category_id": "earth",
+    "category_id": "animals",
     "title": "Tausend Vögel, eine Bewegung",
     "hook": "In einem Starenschwarm achtet jeder Vogel nur auf seine nächsten Nachbarn – daraus entsteht die gemeinsame Bewegung.",
     "description": "Stare sammeln sich abends zu riesigen Schwärmen. Niemand führt den Schwarm an. Die dichten, wogenden Formen machen es Greifvögeln schwer, ein einzelnes Tier zu fassen.",
@@ -2389,7 +2389,7 @@
   },
   {
     "id": "v-sonnenfinsternis",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Wenn der Tag zur Nacht wird",
     "hook": "Bei einer totalen Sonnenfinsternis schiebt sich der Mond genau vor die Sonne – für wenige Minuten wird es dunkel.",
     "description": "Zeitraffer einer totalen Sonnenfinsternis. Dass der Mond die Sonne so genau verdecken kann, ist ein Zufall: Die Sonne ist rund 400-mal größer als der Mond, aber auch rund 400-mal weiter entfernt. Von der Erde aus erscheinen beide deshalb fast gleich groß.",
@@ -2448,7 +2448,7 @@
   },
   {
     "id": "v-rippenqualle",
-    "category_id": "earth",
+    "category_id": "animals",
     "title": "Kein Fisch, keine Qualle",
     "hook": "Rippenquallen sehen aus wie Quallen, gehören aber zu einer eigenen Tiergruppe – und schwimmen mit winzigen Härchen.",
     "description": "Eine Rippenqualle im Aquarium von Monterey Bay. Über ihren Körper laufen acht Reihen kleiner Plättchen aus verschmolzenen Wimpern. Sie schlagen nacheinander wie Ruder und treiben das Tier voran. Das Schimmern entsteht, weil die Plättchen das Licht brechen.",
@@ -2507,7 +2507,7 @@
   },
   {
     "id": "v-jupiter",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Jupiter dreht sich",
     "hook": "Ein Tag auf dem Jupiter dauert keine zehn Stunden – kein Planet im Sonnensystem dreht sich schneller.",
     "description": "Aufnahmen des Weltraumteleskops Hubble von 2019, zu einer Drehung zusammengesetzt. Der Große Rote Fleck ist ein Wirbelsturm, der größer ist als die Erde und seit mindestens 150 Jahren beobachtet wird. Die Streifen sind Wolkenbänder, in denen der Wind in entgegengesetzte Richtungen weht.",
@@ -2743,7 +2743,7 @@
   },
   {
     "id": "v-muybridge",
-    "category_id": "sport",
+    "category_id": "animals",
     "title": "Schwebt ein galoppierendes Pferd?",
     "hook": "Mit dem bloßen Auge war es nicht zu erkennen – erst Serienfotos gaben die Antwort.",
     "description": "Der Unternehmer Leland Stanford wollte wissen, ob ein galoppierendes Pferd zeitweise alle vier Hufe in der Luft hat. Der Fotograf Eadweard Muybridge zeigte es 1878 mit einer Reihe von Kameras, die nacheinander auslösten. Diese Bildfolge stammt aus seinem Werk „Animal Locomotion“ (1887). Der Schwebemoment kommt, wenn die Beine unter dem Körper zusammengezogen sind – nicht gestreckt, wie Maler es lange gezeigt hatten.",
@@ -2920,7 +2920,7 @@
   },
   {
     "id": "v-taiko",
-    "category_id": "culture",
+    "category_id": "music",
     "title": "Trommeln mit dem ganzen Körper",
     "hook": "Taiko-Trommeln sind in Japan bei vielen Festen zu hören – gespielt mit Kraft, Takt und großen Bewegungen.",
     "description": "Eine Taiko-Gruppe beim Bon-Tanzfest am Tempel Tsukiji Hongan-ji in Tokio, 2013. „Taiko“ heißt auf Japanisch „dicke Trommel“; in Japan meint man damit große Röhrentrommeln, die mit Schlägeln gespielt werden. Das Bon-Fest (Obon) ist ein buddhistisches Fest, an dem man der verstorbenen Vorfahren gedenkt – und für viele ein Anlass, die Familie zu besuchen.",
@@ -3294,7 +3294,7 @@
   },
   {
     "id": "v-sonne-masse",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Die Sonne wiegt fast alles",
     "hook": "Von 1.000 Teilen der Masse im Sonnensystem gehören fast 999 der Sonne.",
     "description": "Die Sonne enthält 99,86 % der Masse des Sonnensystems. Teilt man diese Masse in 1.000 gleiche Teile, gehören 998,6 davon der Sonne. Für alle acht Planeten, ihre Monde, die Asteroiden und Kometen zusammen bleiben nur 1,4 Teile. Ihr Durchmesser ist etwa 110-mal so groß wie der der Erde.",
@@ -3352,7 +3352,7 @@
   },
   {
     "id": "v-licht-reise",
-    "category_id": "science",
+    "category_id": "space",
     "title": "So lange ist Licht unterwegs",
     "hook": "Vom Mond eine gute Sekunde, von der Sonne acht Minuten – und vom nächsten Stern über vier Jahre.",
     "description": "Licht legt im Vakuum 299.792,458 Kilometer pro Sekunde zurück. Bis zum Mond (im Mittel 384.400 Kilometer) braucht es etwa 1,3 Sekunden. Von der Sonne zur Erde (eine Astronomische Einheit, rund 149,6 Millionen Kilometer) sind es etwa 8 Minuten und 19 Sekunden. Vom nächsten Stern, Proxima Centauri, rund 4,2 Lichtjahre entfernt, ist sein Licht gut vier Jahre unterwegs – wir sehen ihn also so, wie er vor über vier Jahren war.",
@@ -3716,7 +3716,7 @@
   },
   {
     "id": "v-person-galilei",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Galileo Galilei: verurteilt – und 1992 rehabilitiert",
     "hook": "Galilei entdeckte die großen Jupitermonde und wurde von der Kirche verurteilt. Rehabilitiert wurde er erst 1992.",
     "description": "Galileo Galilei wurde am 15. Februar 1564 in Pisa geboren. Er entwickelte die Methode, die Natur mit Experimenten, Messungen und Mathematik zu erforschen, und wurde damit einer der wichtigsten Begründer der neuzeitlichen Naturwissenschaften. Mit dem Fernrohr entdeckte er die vier größten Monde des Jupiter, die er im März 1610 in seiner Schrift „Sidereus Nuncius“ als Mediceische Sterne bezeichnete. 1633 wurde ihm der Prozess gemacht: Die katholische Kirche verurteilte ihn, weil einige seiner Theorien ihrer damaligen Auslegung der Bibel widersprachen. 1992 rehabilitierte sie ihn. Galilei starb am 8. Januar 1642.",
@@ -3948,7 +3948,7 @@
   },
   {
     "id": "v-person-mozart",
-    "category_id": "culture",
+    "category_id": "music",
     "title": "Mozart: vom Wunderkind zur „Zauberflöte“",
     "hook": "Schon als Kind tourte Mozart durch Europa – seine „Zauberflöte“ wurde wenige Wochen vor seinem Tod uraufgeführt.",
     "description": "Wolfgang Amadeus Mozart wurde am 27. Januar 1756 in Salzburg geboren. Ab 1762 reiste sein Vater Leopold mit der Familie durch Westeuropa und Italien, um die „Wunderkinder“ Wolfgang und seine Schwester Maria Anna an Fürstenhöfen bekannt zu machen. Im Sommer 1781 brach Mozart mit dem Salzburger Erzbischof und lebte fortan als freischaffender Musiker und Komponist in Wien. Am 30. September 1791 wurde seine Oper „Die Zauberflöte“ in Wien uraufgeführt und hatte überaus großen Erfolg. Mozart starb am 5. Dezember 1791 in Wien.",
@@ -4006,7 +4006,7 @@
   },
   {
     "id": "v-person-beethoven",
-    "category_id": "culture",
+    "category_id": "music",
     "title": "Beethoven: komponieren, obwohl er kaum noch hörte",
     "hook": "Ein Gehörleiden beendete Beethovens Karriere als Pianist – komponiert hat er weiter, bis zur 9. Sinfonie.",
     "description": "Ludwig van Beethoven wurde am 17. Dezember 1770 in Bonn getauft. Anfang November 1792 brach er nach Wien auf, wo er Kompositionsunterricht bei Joseph Haydn nahm. Ein Gehörleiden, das sich mit der Zeit zur fast völligen Taubheit verschlimmerte, setzte seiner Karriere als Pianist ein vorzeitiges Ende. Die Krankheit löste eine Krise aus, über die Beethoven 1802 in seinem „Heiligenstädter Testament“ Zeugnis ablegte. Er konzentrierte sich mehr und mehr aufs Komponieren. Die Uraufführung seiner 9. Sinfonie am 7. Mai 1824 wurde vom Publikum begeistert aufgenommen. Beethoven starb am 26. März 1827 in Wien.",
@@ -4064,7 +4064,7 @@
   },
   {
     "id": "v-person-kahlo",
-    "category_id": "culture",
+    "category_id": "art",
     "title": "Frida Kahlo: Rekord für ein Selbstbildnis",
     "hook": "2025 wurde Frida Kahlos Selbstbildnis „El sueño“ für rund 48 Millionen Euro versteigert – Rekord für das Werk einer Frau.",
     "description": "Frida Kahlo wurde am 6. Juli 1907 in Coyoacán in Mexiko-Stadt geboren. Im September 1925 wurde sie Opfer eines Busunglücks, bei dem sich eine Stahlstange durch ihr Becken bohrte; danach musste sie ihren Alltag immer wieder liegend, im Ganzkörpergips oder Stahlkorsett verbringen. 1929 heiratete sie den mexikanischen Maler Diego Rivera, der mit seinen Wandbildern bereits weltberühmt war. Kahlo gilt als die bekannteste Künstlerin Mexikos. Ihr Selbstbildnis „El sueño (La cama)“ wurde 2025 für rund 48 Millionen Euro versteigert und ist damit das teuerste je bei einer Auktion verkaufte Werk einer Frau. Sie starb am 13. Juli 1954.",
@@ -4122,7 +4122,7 @@
   },
   {
     "id": "v-person-leonardo",
-    "category_id": "culture",
+    "category_id": "art",
     "title": "Leonardo da Vinci: vom Abendmahl zur Mona Lisa",
     "hook": "Maler, Ingenieur, Anatom: Leonardo da Vinci gilt als einer der berühmtesten Universalgelehrten aller Zeiten.",
     "description": "Leonardo da Vinci wurde am 15. April 1452 geboren, vermutlich in Vinci in der Toskana. Er war Maler, Bildhauer, Architekt, Anatom, Mechaniker, Ingenieur und Naturphilosoph und gilt als einer der berühmtesten Universalgelehrten aller Zeiten. Sein Wandgemälde „Das Abendmahl“, 8,8 mal 4,6 Meter groß, entstand in den Jahren 1494 bis 1498. Von 1503 bis 1506 arbeitete er intensiv am Porträt der Mona Lisa. „Da Vinci“ ist übrigens kein Familienname, sondern verweist auf seinen Geburtsort. Leonardo starb am 2. Mai 1519 auf Schloss Clos Lucé in Amboise.",
@@ -4296,7 +4296,7 @@
   },
   {
     "id": "v-person-kepler",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Johannes Kepler: die Gesetze der Planetenbahnen",
     "hook": "Kepler entdeckte, nach welchen Gesetzen sich die Planeten um die Sonne bewegen – sie tragen bis heute seinen Namen.",
     "description": "Johannes Kepler wurde am 27. Dezember 1571 in Weil der Stadt geboren. Nach dem Tod des Astronomen Tycho Brahe im Oktober 1601 wurde er dessen Nachfolger als kaiserlicher Mathematiker und Hofastronom. 1609 veröffentlichte er die „Astronomia nova“; das Buch enthielt das erste und zweite Keplersche Gesetz. Am 15. Mai 1618 entdeckte er das dritte Gesetz, das er in seinem 1619 veröffentlichten Werk „Harmonices mundi“ erläuterte. Von 1615 bis 1621 organisierte er die erfolgreiche Verteidigung seiner Mutter, die der Hexerei angeklagt war. Kepler starb am 15. November 1630 in Regensburg.",
@@ -4412,7 +4412,7 @@
   },
   {
     "id": "v-person-vangogh",
-    "category_id": "culture",
+    "category_id": "art",
     "title": "Vincent van Gogh: ein einziges Bild verkauft",
     "hook": "Zu Lebzeiten verkaufte van Gogh nur ein Bild – heute erzielen seine Werke Rekordpreise.",
     "description": "Vincent van Gogh wurde am 30. März 1853 in Groot-Zundert geboren. Er gilt als einer der Begründer der modernen Malerei. Am 19. Februar 1888 reiste er ins südfranzösische Arles; dort malte er in kurzer Zeit zahlreiche Bilder, darunter die bekannten Sonnenblumenbilder. Seine Gemälde entstanden überwiegend in den letzten zehn seiner 37 Lebensjahre. Nach dem Wissensstand von 2021 hinterließ er über 900 Gemälde und über 1000 Zeichnungen. Zu Lebzeiten konnte er nur ein Bild verkaufen, an die Künstlerin Anna Boch; seit den 1980er Jahren erzielen seine Werke bei Auktionen Rekordpreise. Er starb am 29. Juli 1890 in Auvers-sur-Oise.",
@@ -4586,7 +4586,7 @@
   },
   {
     "id": "v-person-kopernikus",
-    "category_id": "science",
+    "category_id": "space",
     "title": "Nikolaus Kopernikus: Astronom, Domherr und Arzt",
     "hook": "Sein Hauptwerk von 1543 führte zu einem Umbruch, der als „kopernikanische Wende“ bezeichnet wird.",
     "description": "Nikolaus Kopernikus wurde am 19. Februar 1473 in Thorn geboren. Von 1491 bis 1494 besuchte er die Universität Krakau, wo er die Sieben Freien Künste studierte. Zum Wintersemester 1496/1497 begann er in Bologna ein Studium beider Rechte; dort studierte er auch Astronomie. In seinem Hauptwerk De revolutionibus orbium coelestium von 1543 beschreibt er ein heliozentrisches Weltbild: Die Erde sei ein Planet, drehe sich um ihre eigene Achse und bewege sich wie die anderen Planeten um die Sonne. Kopernikus starb am 24. Mai 1543 in Frauenburg.",
@@ -4644,7 +4644,7 @@
   },
   {
     "id": "v-person-bach",
-    "category_id": "culture",
+    "category_id": "music",
     "title": "Johann Sebastian Bach: Komponist des Barock",
     "hook": "Vielen Berufsmusikern gilt Bach als der Inbegriff eines tiefgründigen und genialen Komponisten.",
     "description": "Johann Sebastian Bach wurde nach dem Gregorianischen Kalender am 31. März 1685 in Eisenach geboren. Im Juli 1708 zog er mit seiner Frau nach Weimar. 1717 unterschrieb er den Vertrag als Hofkapellmeister in Köthen. 1723 trat er in Leipzig seinen Dienst als Thomaskantor an und behielt diese Stelle bis zu seinem Tod. Zu seinen bekanntesten Werken gehören die Brandenburgischen Konzerte, die Matthäus-Passion und das Weihnachtsoratorium. Bach hatte insgesamt 20 Kinder, von denen die meisten schon im Kindesalter starben. Er starb am 28. Juli 1750 in Leipzig.",

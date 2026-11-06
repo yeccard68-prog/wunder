@@ -111,7 +111,7 @@ export const riddles = [
     },
   },
   {
-    id: "rt48", category: "culture", difficulty: 2, minAge: 13, tags: ["Kunst", "Geschichte"], wiki: "Spiegelschrift",
+    id: "rt48", category: "art", difficulty: 2, minAge: 13, tags: ["Kunst", "Geschichte"], wiki: "Spiegelschrift",
     question: "Viele Notizen von Leonardo da Vinci kann man nur mit einem Spiegel bequem lesen. Wie hat er sie geschrieben?",
     options: ["Spiegelverkehrt von rechts nach links", "In einer Geheimsprache", "Auf Arabisch", "Mit unsichtbarer Tinte"], correct: 0,
     hints: ["Ein Spiegel dreht links und rechts um.", "Leonardo war Linkshänder – wer mit links nach links schreibt, verwischt die frische Tinte nicht."],

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { RotateCcw } from "lucide-react";
 import Session, { type SessionMode } from "@/components/Session";
 import { Bar, Button, Chip, Segmented } from "@/components/ui";
-import { CATEGORIES } from "@/lib/categories";
+import { CATEGORIES, withSubtopics } from "@/lib/categories";
 import { dailyItems, dueReviews, mastery, scheduledReviews, today } from "@/lib/gamification";
 import { personById, type Person } from "@/lib/people";
 import { useStore, useT } from "@/lib/store";
@@ -22,7 +22,7 @@ export default function QuizPage() {
   const { items, state, launch, setLaunch, toast } = useStore();
   const t = useT();
   const [active, setActive] = useState<Active | null>(null);
-  const [cats, setCats] = useState<string[]>(state.interests);
+  const [cats, setCats] = useState<string[]>(withSubtopics(state.interests));
   const [level, setLevel] = useState<"0" | "1" | "2" | "3">("0");
 
   const due = dueReviews(items, state);

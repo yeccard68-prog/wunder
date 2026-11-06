@@ -100,14 +100,14 @@ test("following feed only shows cards liked by followed people", () => {
 
 test("clip ranking: interests first, hidden clips removed, watched clips later", () => {
   const first = rankClips(clips, user({ interests: ["earth"] }))[0];
-  assert.equal(first.categoryId, "earth");
+  assert.ok(["earth", "animals"].includes(first.categoryId), first.categoryId); // animals is a subtopic of earth (lib/categories.ts)
   const ranked = rankClips(clips, user({ interests: ["earth"], hidden: ["v-venus"], clipStats: { [first.id]: { plays: 1, completed: 1 } } }));
   assert.ok(!ranked.some((c) => c.id === "v-venus"));
   assert.notEqual(ranked[0].id, first.id);
 });
 
 test("content mapping: video quizzes stay out of the feed and are attached to their clip", () => {
-  assert.equal(items.length, 1050);
+  assert.equal(items.length, 1048);
   assert.equal(clips.length, 81);
   assert.ok(clips.every((c) => c.quiz && !items.some((i) => i.id === c.quiz!.id)));
 });
@@ -131,4 +131,15 @@ test("badges: every badge has a progress that matches its check, and the next ba
   }
   const next = nextAchievement({ ...s, achievements: ["first"] });
   assert.equal(next?.achievement.id, "streak3"); // 2 of 3 days is the largest share done
+});
+
+test("subtopics: whoever chose science, earth or culture still gets space, animal, music and art cards", async () => {
+  const { withSubtopics } = await import("../lib/categories");
+  assert.deepEqual(withSubtopics(["science"]).sort(), ["science", "space"]);
+  assert.deepEqual(withSubtopics(["earth", "culture", "music"]).sort(), ["animals", "art", "culture", "earth", "music"]);
+  assert.deepEqual(withSubtopics(["history"]), ["history"]);
+  // the daily five of a culture fan may now come from music and art too – and from nothing else
+  const five = dailyItems(items, ["culture"], "2026-11-06");
+  assert.equal(five.length, 5);
+  assert.ok(five.every((i) => ["culture", "music", "art"].includes(i.categoryId)));
 });

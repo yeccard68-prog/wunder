@@ -30,7 +30,7 @@ export const videos = [
       "What was the machine Konrad Zuse built in 1941 called?", ["Z3", "ENIAC", "Mark I", "UNIVAC"],
       "With the Z3 in 1941 Zuse built the first working, freely programmable calculator – the world's first functioning computer."]),
 
-  own("v-person-kepler", "science", 10, ["Persönlichkeiten", "Astronomie"], [wiki("Johannes_Kepler")],
+  own("v-person-kepler", "space", 10, ["Persönlichkeiten", "Astronomie"], [wiki("Johannes_Kepler")],
     ["Johannes Kepler: die Gesetze der Planetenbahnen", "Kepler entdeckte, nach welchen Gesetzen sich die Planeten um die Sonne bewegen – sie tragen bis heute seinen Namen.",
       "Johannes Kepler wurde am 27. Dezember 1571 in Weil der Stadt geboren. Nach dem Tod des Astronomen Tycho Brahe im Oktober 1601 wurde er dessen Nachfolger als kaiserlicher Mathematiker und Hofastronom. 1609 veröffentlichte er die „Astronomia nova“; das Buch enthielt das erste und zweite Keplersche Gesetz. Am 15. Mai 1618 entdeckte er das dritte Gesetz, das er in seinem 1619 veröffentlichten Werk „Harmonices mundi“ erläuterte. Von 1615 bis 1621 organisierte er die erfolgreiche Verteidigung seiner Mutter, die der Hexerei angeklagt war. Kepler starb am 15. November 1630 in Regensburg.",
       ["Geboren 1571 in Weil der Stadt.", "Ab 1601 war er Hofastronom des Kaisers.", "1609 und 1619 veröffentlichte er die Gesetze der Planetenbahnen."]],
@@ -54,7 +54,7 @@ export const videos = [
       "Whom did Roald Amundsen beat in the race to the South Pole in 1911?", ["Robert Falcon Scott", "Fridtjof Nansen", "Umberto Nobile", "Ernest Shackleton"],
       "Amundsen reached the South Pole on 14 December 1911 – ahead of his British rival Robert Falcon Scott."]),
 
-  own("v-person-vangogh", "culture", 10, ["Persönlichkeiten", "Kunst"], [wiki("Vincent_van_Gogh")],
+  own("v-person-vangogh", "art", 10, ["Persönlichkeiten", "Kunst"], [wiki("Vincent_van_Gogh")],
     ["Vincent van Gogh: ein einziges Bild verkauft", "Zu Lebzeiten verkaufte van Gogh nur ein Bild – heute erzielen seine Werke Rekordpreise.",
       "Vincent van Gogh wurde am 30. März 1853 in Groot-Zundert geboren. Er gilt als einer der Begründer der modernen Malerei. Am 19. Februar 1888 reiste er ins südfranzösische Arles; dort malte er in kurzer Zeit zahlreiche Bilder, darunter die bekannten Sonnenblumenbilder. Seine Gemälde entstanden überwiegend in den letzten zehn seiner 37 Lebensjahre. Nach dem Wissensstand von 2021 hinterließ er über 900 Gemälde und über 1000 Zeichnungen. Zu Lebzeiten konnte er nur ein Bild verkaufen, an die Künstlerin Anna Boch; seit den 1980er Jahren erzielen seine Werke bei Auktionen Rekordpreise. Er starb am 29. Juli 1890 in Auvers-sur-Oise.",
       ["Geboren 1853 in den Niederlanden.", "1888 in Arles entstanden die Sonnenblumenbilder.", "Über 900 Gemälde – verkauft hat er zu Lebzeiten nur eines."]],

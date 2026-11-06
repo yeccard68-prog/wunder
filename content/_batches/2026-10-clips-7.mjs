@@ -19,7 +19,7 @@ const own = (id, category_id, min_age, tags, sources, de, en, quiz) => ({
 });
 
 export const videos = [
-  own("v-licht-reise", "science", 10, ["Weltraum", "Licht"], [wiki("Lichtgeschwindigkeit"), wiki("Mond"), wiki("Astronomische_Einheit"), wiki("Proxima_Centauri")],
+  own("v-licht-reise", "space", 10, ["Weltraum", "Licht"], [wiki("Lichtgeschwindigkeit"), wiki("Mond"), wiki("Astronomische_Einheit"), wiki("Proxima_Centauri")],
     ["So lange ist Licht unterwegs", "Vom Mond eine gute Sekunde, von der Sonne acht Minuten – und vom nächsten Stern über vier Jahre.",
       "Licht legt im Vakuum 299.792,458 Kilometer pro Sekunde zurück. Bis zum Mond (im Mittel 384.400 Kilometer) braucht es etwa 1,3 Sekunden. Von der Sonne zur Erde (eine Astronomische Einheit, rund 149,6 Millionen Kilometer) sind es etwa 8 Minuten und 19 Sekunden. Vom nächsten Stern, Proxima Centauri, rund 4,2 Lichtjahre entfernt, ist sein Licht gut vier Jahre unterwegs – wir sehen ihn also so, wie er vor über vier Jahren war.",
       ["Bis zum Mond braucht Licht 1,3 Sekunden.", "Von der Sonne zur Erde: 8 Minuten 19 Sekunden.", "Vom nächsten Stern ist es über vier Jahre unterwegs."]],

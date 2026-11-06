@@ -6,6 +6,7 @@ import { hash, today } from "@/lib/gamification";
 import { reviewedStatus } from "@/lib/reviews";
 import { topicEngagement } from "@/lib/engagement";
 import { freshFirst } from "@/lib/seen";
+import { withSubtopics } from "@/lib/categories";
 import type { AgeBand, UserState } from "@/lib/types";
 
 /** Areas of life a fact can come from – finer than the ten topics. German names are the translation keys. */
@@ -86,9 +87,10 @@ export function rankFacts(facts: Fact[], state: UserState): Fact[] {
   const wowAreas = new Map<string, number>();
   for (const f of facts) if (wow.has(f.id)) wowAreas.set(f.area, (wowAreas.get(f.area) ?? 0) + 1);
   const day = today();
+  const chosen = new Set(withSubtopics(state.interests));
   const score = (f: Fact) =>
     (wow.has(f.id) || known.has(f.id) ? -100 : 0) +
-    (state.interests.includes(f.categoryId) ? 2 : 0) +
+    (chosen.has(f.categoryId) ? 2 : 0) +
     2 * topicEngagement(state, f.categoryId) +
     Math.min(2, (wowAreas.get(f.area) ?? 0) * 0.5) +
     (f.quiz ? 1 : 0) + // something to do: a "myth or truth?" card comes up a little more often

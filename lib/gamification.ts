@@ -1,5 +1,5 @@
 ﻿import type { Difficulty, Item, UserState } from "./types";
-import { CATEGORIES } from "./categories";
+import { CATEGORIES, withSubtopics } from "./categories";
 
 // ---------- XP & levels ----------
 // XP rewards accuracy, difficulty and retention – never plain volume:
@@ -110,7 +110,8 @@ export function rng(seed: string) {
 }
 /** Same five questions for everyone with the same interests on a given day (used for challenges against friends). */
 export function dailyItems(items: Item[], interests: string[], date = today()): Item[] {
-  const pool = items.filter((i) => i.kind === "question" && (!interests.length || interests.includes(i.categoryId)));
+  const chosen = withSubtopics(interests);
+  const pool = items.filter((i) => i.kind === "question" && (!chosen.length || chosen.includes(i.categoryId)));
   return [...pool].sort((a, b) => hash(a.id + date) - hash(b.id + date)).slice(0, 5);
 }
 
