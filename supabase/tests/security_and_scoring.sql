@@ -20,9 +20,9 @@ begin
   begin
     perform set_config('request.jwt.claims', '{"role":"anon"}', true); set local role anon;
     select count(*) into n from public.questions where origin = 'editorial'; -- generated cards (origin 'generated') grow with every import
-    out := out || (case when n = 1048 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published hand-made questions, no drafts');
+    out := out || (case when n = 1137 then 'ok' else 'FAIL (' || n || ')' end || ' 02 anon reads exactly the published hand-made questions, no drafts');
     select (select count(*) from public.categories) + (select count(*) from public.videos) into n;
-    out := out || (case when n = 62 then 'ok' else 'FAIL (' || n || ')' end || ' 03 anon reads categories and published videos');
+    out := out || (case when n = 95 then 'ok' else 'FAIL (' || n || ')' end || ' 03 anon reads categories and published videos');
   end;
   reset role;
   begin
@@ -286,7 +286,7 @@ begin
     out := out || (case when (r->>'correct')::boolean and r->'answer'->'order' = '[2,0,3,1]'::jsonb then 'ok' else 'FAIL ' || r::text end || ' 60 order: the right sequence is correct and the solution is returned');
     r := public.submit_response('o1', '{"order":[0,1,2,3]}');
     out := out || (case when not (r->>'correct')::boolean and (r->>'review_box')::int = 0 then 'ok' else 'FAIL ' || r::text end || ' 61 order: a wrong sequence is wrong and scheduled for review');
-    r := public.submit_response('s-e1', '{"value":75}');
+    r := public.submit_response('s-e5', '{"value":195}'); -- 193 ± 10 (s-e1 was archived as a duplicate on 30.10.2026)
     out := out || (case when (r->>'correct')::boolean then 'ok' else 'FAIL ' || r::text end || ' 62 estimate: inside the tolerance counts');
     r := public.submit_response('s-e7', '{"value":50000}');
     out := out || (case when not (r->>'correct')::boolean then 'ok' else 'FAIL ' || r::text end || ' 63 estimate: outside the tolerance does not');
