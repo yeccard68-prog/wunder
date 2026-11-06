@@ -50507,5 +50507,1525 @@
         "explanation": "Comet comes from the Greek komētēs, 'hairy star', from kómē, 'hair of the head, mane'. Near the Sun a comet gives off gas and forms a cloud called the coma, and usually a glowing tail – which is why it is also called a tailed star."
       }
     }
+  },
+  {
+    "id": "mk39",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie viele Ventile hat eine Trompete meistens?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Trompete ist ein hohes Blechblasinstrument mit drei, seltener vier Ventilen. Das Rohr der häufigsten Form, der B-Trompete, ist etwa 130 Zentimeter lang und meist aus Messing.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trompete",
+    "source_url": "https://de.wikipedia.org/wiki/Trompete",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many valves does a trumpet usually have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "explanation": "The trumpet is a high brass instrument with three, more rarely four, valves. The tubing of the most common type, the B♭ trumpet, is about 130 centimetres long and usually made of brass."
+      }
+    }
+  },
+  {
+    "id": "mk40",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wozu dient der „Zug“ an einer Posaune?",
+    "options": [
+      "Er dämpft den Klang",
+      "Er macht alle Halbtöne spielbar, nicht nur die Naturtöne",
+      "Er hält das Instrument fest",
+      "Er pumpt Luft ins Rohr"
+    ],
+    "correct_index": 1,
+    "explanation": "Auf einem Blechblasrohr allein lassen sich nur die Naturtöne spielen. Der Zug verändert diese Töne, sodass die Posaune chromatisch, also mit allen Halbtönen, spielbar wird.",
+    "difficulty": 3,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Posaune",
+    "source_url": "https://de.wikipedia.org/wiki/Posaune",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the 'slide' on a trombone for?",
+        "options": [
+          "It muffles the sound",
+          "It makes all semitones playable, not just the natural notes",
+          "It holds the instrument in place",
+          "It pumps air into the tube"
+        ],
+        "explanation": "On a brass tube alone only the natural notes can be played. The slide changes these notes so that the trombone can be played chromatically, with all the semitones."
+      }
+    }
+  },
+  {
+    "id": "mk41",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was erzeugen die Bordunpfeifen eines Dudelsacks?",
+    "options": [
+      "Trommelschläge",
+      "Die Melodie",
+      "Einen gleichbleibenden Dauerton",
+      "Nur Luft für den Sack"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Dudelsack wird Luft aus einem Sack in Spiel- und Bordunpfeifen gedrückt. Auf der Spielpfeife greift man die Melodie, die Bordunpfeifen liefern dazu einen gleichbleibenden Dauerton. Der Dudelsack zählt zu den Holzblasinstrumenten.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sackpfeife",
+    "source_url": "https://de.wikipedia.org/wiki/Sackpfeife",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the drone pipes of a bagpipe produce?",
+        "options": [
+          "Drum beats",
+          "The melody",
+          "A constant continuous note",
+          "Just air for the bag"
+        ],
+        "explanation": "In a bagpipe, air from a bag is pressed into the chanter and the drone pipes. The melody is fingered on the chanter, while the drones add a constant continuous note. The bagpipe counts as a woodwind instrument."
+      }
+    }
+  },
+  {
+    "id": "mk42",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Zu welcher Instrumentengruppe zählt das Alphorn, obwohl es meist aus Holz ist?",
+    "options": [
+      "Zu den Saiteninstrumenten",
+      "Zu den Holzblasinstrumenten",
+      "Zu den Schlaginstrumenten",
+      "Zu den Blechblasinstrumenten"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Alphorn zählt zu den Blechblasinstrumenten. Entscheidend ist nicht das Material, sondern wie der Ton erzeugt wird und welches Mundstück man benutzt. Verbreitet ist das lange, am Ende gebogene Rohr vor allem im Alpenraum.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alphorn",
+    "source_url": "https://de.wikipedia.org/wiki/Alphorn",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which family of instruments does the alphorn belong to, even though it is usually made of wood?",
+        "options": [
+          "String instruments",
+          "Woodwind instruments",
+          "Percussion instruments",
+          "Brass instruments"
+        ],
+        "explanation": "The alphorn counts as a brass instrument. What matters is not the material but how the sound is produced and which mouthpiece is used. The long tube, curved at the end, is found mainly in the Alps."
+      }
+    }
+  },
+  {
+    "id": "mk43",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woraus wurden die ersten Steelpans auf Trinidad gebaut?",
+    "options": [
+      "Aus ausrangierten Ölfässern",
+      "Aus alten Autoreifen",
+      "Aus Kokosnussschalen",
+      "Aus Glasflaschen"
+    ],
+    "correct_index": 0,
+    "explanation": "Auf Trinidad spielt die Erdölförderung eine wichtige Rolle. Die ersten Steelpans entstanden aus ausrangierten Ölfässern, die es dort im Überfluss gab. In das Blech werden Tonfelder getrieben, die man mit Schlägeln anschlägt.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Steelpan",
+    "source_url": "https://de.wikipedia.org/wiki/Steelpan",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What were the first steelpans in Trinidad made from?",
+        "options": [
+          "Discarded oil drums",
+          "Old car tyres",
+          "Coconut shells",
+          "Glass bottles"
+        ],
+        "explanation": "Oil production plays an important role in Trinidad. The first steelpans were made from discarded oil drums, which were plentiful there. Note areas are hammered into the metal and struck with mallets."
+      }
+    }
+  },
+  {
+    "id": "mk44",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie heißt die Mundharmonika im Blues?",
+    "options": [
+      "Blue Note",
+      "Blues Harp",
+      "Soul Pipe",
+      "Delta Horn"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Mundharmonika hat Metallzungen in parallelen Luftkanälen, die man direkt mit dem Mund anbläst. Eine besondere Rolle spielt sie in der Volksmusik, in der Old-Time Music und im Blues – dort als Blues Harp.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mundharmonika",
+    "source_url": "https://de.wikipedia.org/wiki/Mundharmonika",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the harmonica called in the blues?",
+        "options": [
+          "Blue note",
+          "Blues harp",
+          "Soul pipe",
+          "Delta horn"
+        ],
+        "explanation": "The harmonica has metal reeds in parallel air channels that are blown directly with the mouth. It plays a special role in folk music, old-time music and the blues – where it is called the blues harp."
+      }
+    }
+  },
+  {
+    "id": "mk45",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie entsteht der Klang einer Pfeifenorgel?",
+    "options": [
+      "Saiten werden gezupft",
+      "Hämmerchen schlagen auf Saiten",
+      "Ein Luftstrom bläst Pfeifen an",
+      "Metallstäbe werden angeschlagen"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Orgel spielt man über Tasten, sie gehört aber zu den Blasinstrumenten. Ihr Klang entsteht in Pfeifen, die von einem Luftstrom, dem sogenannten Orgelwind, angeblasen werden.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Orgel",
+    "source_url": "https://de.wikipedia.org/wiki/Orgel",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is the sound of a pipe organ produced?",
+        "options": [
+          "Strings are plucked",
+          "Little hammers strike strings",
+          "A stream of air blows through pipes",
+          "Metal bars are struck"
+        ],
+        "explanation": "The organ is played with keys, but it belongs to the wind instruments. Its sound is produced in pipes that are blown by a stream of air called the organ wind."
+      }
+    }
+  },
+  {
+    "id": "mk46",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer schrieb die Ballade „Erlkönig“, die Franz Schubert vertonte?",
+    "options": [
+      "Die Brüder Grimm",
+      "Friedrich Schiller",
+      "Heinrich Heine",
+      "Johann Wolfgang von Goethe"
+    ],
+    "correct_index": 3,
+    "explanation": "Goethe verfasste die Ballade 1782. Vertont haben sie unter anderem Franz Schubert und Carl Loewe. Der Stoff stammt aus dem Dänischen – dort heißt der Erlkönig „Elfenkönig“.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erlkönig (Ballade)",
+    "source_url": "https://de.wikipedia.org/wiki/Erlkönig_(Ballade)",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wrote the ballad 'The Erl-King' that Franz Schubert set to music?",
+        "options": [
+          "The Brothers Grimm",
+          "Friedrich Schiller",
+          "Heinrich Heine",
+          "Johann Wolfgang von Goethe"
+        ],
+        "explanation": "Goethe wrote the ballad in 1782. Among others, Franz Schubert and Carl Loewe set it to music. The story comes from Danish – there the Erl-King is the 'elf king'."
+      }
+    }
+  },
+  {
+    "id": "mk47",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In welcher Stadt wurde Giuseppe Verdis Oper „Aida“ 1871 uraufgeführt?",
+    "options": [
+      "In Kairo",
+      "In Mailand",
+      "In Rom",
+      "In Paris"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Uraufführung fand am 24. Dezember 1871 im Opernhaus von Kairo statt. Die Oper spielt im Ägypten der Pharaonen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Oper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aida (Oper)",
+    "source_url": "https://de.wikipedia.org/wiki/Aida_(Oper)",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city was Giuseppe Verdi's opera 'Aida' first performed in 1871?",
+        "options": [
+          "In Cairo",
+          "In Milan",
+          "In Rome",
+          "In Paris"
+        ],
+        "explanation": "The premiere took place on 24 December 1871 in the Cairo opera house. The opera is set in the Egypt of the pharaohs."
+      }
+    }
+  },
+  {
+    "id": "mk48",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In welcher Stadt spielt Georges Bizets Oper „Carmen“?",
+    "options": [
+      "In Madrid",
+      "In Sevilla",
+      "In Barcelona",
+      "In Lissabon"
+    ],
+    "correct_index": 1,
+    "explanation": "Der erste Akt spielt auf einem Platz in Sevilla. Uraufgeführt wurde die Oper am 3. März 1875; heute gehört sie zu den beliebtesten und meistaufgeführten Opern überhaupt.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Oper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Carmen (Oper)",
+    "source_url": "https://de.wikipedia.org/wiki/Carmen_(Oper)",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city is Georges Bizet's opera 'Carmen' set?",
+        "options": [
+          "In Madrid",
+          "In Seville",
+          "In Barcelona",
+          "In Lisbon"
+        ],
+        "explanation": "The first act takes place in a square in Seville. The opera was first performed on 3 March 1875; today it is one of the most popular and most often performed operas of all."
+      }
+    }
+  },
+  {
+    "id": "mk49",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was beschreibt Bedřich Smetanas Orchesterwerk „Die Moldau“?",
+    "options": [
+      "Einen Sonnenaufgang",
+      "Einen Sturm auf dem Meer",
+      "Den Lauf eines Flusses",
+      "Ein Gewitter in den Bergen"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Moldau zeichnet den Lauf des gleichnamigen Flusses nach und ist Teil des Zyklus „Mein Vaterland“. Smetana komponierte sie 1874, als er bereits vollständig ertaubt war.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Moldau",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Moldau",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Bedřich Smetana's orchestral work 'Vltava' (The Moldau) describe?",
+        "options": [
+          "A sunrise",
+          "A storm at sea",
+          "The course of a river",
+          "A thunderstorm in the mountains"
+        ],
+        "explanation": "Vltava traces the course of the river of the same name and is part of the cycle 'My Country'. Smetana composed it in 1874, when he was already completely deaf."
+      }
+    }
+  },
+  {
+    "id": "mk50",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Für welches Theaterstück schrieb Edvard Grieg „In der Halle des Bergkönigs“?",
+    "options": [
+      "Peer Gynt",
+      "Hamlet",
+      "Faust",
+      "Romeo und Julia"
+    ],
+    "correct_index": 0,
+    "explanation": "Grieg schrieb das Stück für seine Schauspielmusik zu Henrik Ibsens „Peer Gynt“. Uraufgeführt wurde es am 24. Februar 1876 in Christiania, dem heutigen Oslo.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: In der Halle des Bergkönigs",
+    "source_url": "https://de.wikipedia.org/wiki/In_der_Halle_des_Bergkönigs",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "For which play did Edvard Grieg write 'In the Hall of the Mountain King'?",
+        "options": [
+          "Peer Gynt",
+          "Hamlet",
+          "Faust",
+          "Romeo and Juliet"
+        ],
+        "explanation": "Grieg wrote the piece as part of his incidental music for Henrik Ibsen's 'Peer Gynt'. It was first performed on 24 February 1876 in Christiania, today's Oslo."
+      }
+    }
+  },
+  {
+    "id": "mk51",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ist das Besondere an Maurice Ravels „Boléro“?",
+    "options": [
+      "Er wird ganz ohne Instrumente gesungen",
+      "Melodie und Rhythmus bleiben gleich, nur das Orchester wird immer lauter",
+      "Er dauert über vier Stunden",
+      "Jeder Takt hat ein anderes Tempo"
+    ],
+    "correct_index": 1,
+    "explanation": "Ravel beschrieb sein Stück von 1928 als einsätzigen Tanz, der in Melodie, Harmonik und dem durchgehenden Rhythmus der Rührtrommel gleich bleibt. Die einzige Abwechslung ist das Crescendo – das Orchester wird immer lauter.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Boléro",
+    "source_url": "https://de.wikipedia.org/wiki/Boléro",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about Maurice Ravel's 'Boléro'?",
+        "options": [
+          "It is sung without any instruments",
+          "Melody and rhythm stay the same; only the orchestra keeps getting louder",
+          "It lasts more than four hours",
+          "Every bar has a different tempo"
+        ],
+        "explanation": "Ravel described his 1928 piece as a one-movement dance that stays the same in melody, harmony and the continuous rhythm of the snare drum. The only variation is the crescendo – the orchestra keeps getting louder."
+      }
+    }
+  },
+  {
+    "id": "mk52",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welchen Beinamen trägt Elvis Presley?",
+    "options": [
+      "The Boss",
+      "King of Pop",
+      "King of Rock ’n’ Roll",
+      "Mister Blues"
+    ],
+    "correct_index": 2,
+    "explanation": "Elvis Presley gilt als einer der wichtigsten Vertreter der Rock- und Popkultur des 20. Jahrhunderts. Er wird oft „King of Rock ’n’ Roll“ oder einfach „The King“ genannt.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Pop"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elvis Presley",
+    "source_url": "https://de.wikipedia.org/wiki/Elvis_Presley",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What nickname does Elvis Presley have?",
+        "options": [
+          "The Boss",
+          "King of Pop",
+          "King of Rock 'n' Roll",
+          "Mister Blues"
+        ],
+        "explanation": "Elvis Presley is considered one of the most important figures of 20th-century rock and pop culture. He is often called the 'King of Rock 'n' Roll' or simply 'The King'."
+      }
+    }
+  },
+  {
+    "id": "mk53",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Aus welchem Land stammt der Reggae?",
+    "options": [
+      "Aus Nigeria",
+      "Aus Brasilien",
+      "Aus Kuba",
+      "Aus Jamaika"
+    ],
+    "correct_index": 3,
+    "explanation": "Reggae entstand Ende der 1960er Jahre auf Jamaika und verbreitete sich, beginnend in Großbritannien, weltweit. Seit 2018 ist die jamaikanische Reggae-Musik Immaterielles Kulturerbe.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Pop"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Reggae",
+    "source_url": "https://de.wikipedia.org/wiki/Reggae",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country does reggae come from?",
+        "options": [
+          "From Nigeria",
+          "From Brazil",
+          "From Cuba",
+          "From Jamaica"
+        ],
+        "explanation": "Reggae arose in Jamaica at the end of the 1960s and spread around the world, starting in Britain. Since 2018 Jamaican reggae music has been Intangible Cultural Heritage."
+      }
+    }
+  },
+  {
+    "id": "mk54",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet die Vortragsbezeichnung „crescendo“ in Noten?",
+    "options": [
+      "Lauter werdend",
+      "Leiser werdend",
+      "Schneller werdend",
+      "Langsamer werdend"
+    ],
+    "correct_index": 0,
+    "explanation": "Crescendo ist eine musikalische Vortragsbezeichnung und bedeutet „lauter werdend“. Ein berühmtes Beispiel ist Ravels „Boléro“, der fast nur aus einem einzigen langen Crescendo besteht.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Notenlehre"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Crescendo",
+    "source_url": "https://de.wikipedia.org/wiki/Crescendo",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the performance marking 'crescendo' mean in music?",
+        "options": [
+          "Getting louder",
+          "Getting softer",
+          "Getting faster",
+          "Getting slower"
+        ],
+        "explanation": "Crescendo is a musical performance marking meaning 'getting louder'. A famous example is Ravel's 'Boléro', which consists almost entirely of one long crescendo."
+      }
+    }
+  },
+  {
+    "id": "mk55",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wo fand der erste Eurovision Song Contest 1956 statt?",
+    "options": [
+      "In London",
+      "In Lugano",
+      "In Paris",
+      "In Wien"
+    ],
+    "correct_index": 1,
+    "explanation": "Die erste Ausgabe fand 1956 in Lugano in der Schweiz statt. Seitdem veranstaltet die Europäische Rundfunkunion den Wettbewerb jedes Jahr; die Anregung dazu kam vom Sanremo-Festival.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Pop"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eurovision Song Contest",
+    "source_url": "https://de.wikipedia.org/wiki/Eurovision_Song_Contest",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the first Eurovision Song Contest take place in 1956?",
+        "options": [
+          "In London",
+          "In Lugano",
+          "In Paris",
+          "In Vienna"
+        ],
+        "explanation": "The first contest was held in 1956 in Lugano, Switzerland. Since then the European Broadcasting Union has organised it every year; the idea came from the Sanremo Festival."
+      }
+    }
+  },
+  {
+    "id": "mk56",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer komponierte die Märchenoper „Hänsel und Gretel“?",
+    "options": [
+      "Carl Orff",
+      "Richard Wagner",
+      "Engelbert Humperdinck",
+      "Richard Strauss"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Musik stammt von Engelbert Humperdinck, das Libretto schrieb seine Schwester Adelheid Wette nach dem Märchen der Brüder Grimm. Uraufgeführt wurde die Oper am 23. Dezember 1893 in Weimar – am Dirigentenpult stand Richard Strauss.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Oper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hänsel und Gretel (Oper)",
+    "source_url": "https://de.wikipedia.org/wiki/Hänsel_und_Gretel_(Oper)",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who composed the fairy-tale opera 'Hansel and Gretel'?",
+        "options": [
+          "Carl Orff",
+          "Richard Wagner",
+          "Engelbert Humperdinck",
+          "Richard Strauss"
+        ],
+        "explanation": "The music is by Engelbert Humperdinck; his sister Adelheid Wette wrote the libretto after the Brothers Grimm's fairy tale. The opera was first performed on 23 December 1893 in Weimar – conducted by Richard Strauss."
+      }
+    }
+  },
+  {
+    "id": "eg1",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches ist der flächenmäßig größte See der Erde?",
+    "options": [
+      "Das Kaspische Meer",
+      "Der Obere See",
+      "Der Victoriasee",
+      "Der Baikalsee"
+    ],
+    "correct_index": 0,
+    "explanation": "Trotz seines Namens ist das Kaspische Meer ein See – mit etwa 371.000 Quadratkilometern der größte der Erde.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Gewässer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaspisches Meer",
+    "source_url": "https://de.wikipedia.org/wiki/Kaspisches_Meer",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest lake on Earth by area?",
+        "options": [
+          "The Caspian Sea",
+          "Lake Superior",
+          "Lake Victoria",
+          "Lake Baikal"
+        ],
+        "explanation": "Despite its name, the Caspian Sea is a lake – at about 371,000 square kilometres the largest on Earth."
+      }
+    }
+  },
+  {
+    "id": "eg2",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "In welchem Land liegt der Salto Ángel, einer der höchsten Wasserfälle der Erde?",
+    "options": [
+      "In Brasilien",
+      "In Venezuela",
+      "In Kanada",
+      "In Norwegen"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Salto Ángel liegt im Südosten Venezuelas. Mit 807 Metern freier Fallhöhe gehört er zu den höchsten Wasserfällen der Erde. Die indigenen Pemón nennen ihn Kerepakupai Vena, etwa „Ort des tiefsten Sprunges“.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Gewässer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Salto Ángel",
+    "source_url": "https://de.wikipedia.org/wiki/Salto_Ángel",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country is Angel Falls, one of the highest waterfalls on Earth?",
+        "options": [
+          "In Brazil",
+          "In Venezuela",
+          "In Canada",
+          "In Norway"
+        ],
+        "explanation": "Angel Falls lies in south-eastern Venezuela. With a free fall of 807 metres it is one of the highest waterfalls on Earth. The indigenous Pemón call it Kerepakupai Vena, roughly 'place of the deepest leap'."
+      }
+    }
+  },
+  {
+    "id": "eg3",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche ist die trockenste Wüste der Erde außerhalb der Polargebiete?",
+    "options": [
+      "Die Gobi",
+      "Die Sahara",
+      "Die Atacama",
+      "Die Kalahari"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Atacama erstreckt sich über rund 1200 Kilometer entlang der Pazifikküste Südamerikas. Sie ist die trockenste Wüste außerhalb der Polargebiete; in ihrem Zentrum herrscht seit mindestens 15 Millionen Jahren extrem trockenes Klima.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wüsten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Atacama-Wüste",
+    "source_url": "https://de.wikipedia.org/wiki/Atacama-Wüste",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the driest desert on Earth outside the polar regions?",
+        "options": [
+          "The Gobi",
+          "The Sahara",
+          "The Atacama",
+          "The Kalahari"
+        ],
+        "explanation": "The Atacama stretches for around 1,200 kilometres along the Pacific coast of South America. It is the driest desert outside the polar regions; its centre has had an extremely dry climate for at least 15 million years."
+      }
+    }
+  },
+  {
+    "id": "eg4",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher Fluss hat den Grand Canyon über Jahrmillionen ins Gestein gegraben?",
+    "options": [
+      "Der Missouri",
+      "Der Mississippi",
+      "Der Rio Grande",
+      "Der Colorado River"
+    ],
+    "correct_index": 3,
+    "explanation": "Die etwa 450 Kilometer lange Schlucht im US-Bundesstaat Arizona hat der Colorado River über Jahrmillionen ins Gestein gegraben. Seit 1979 gehört der Nationalpark zum Weltnaturerbe.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Landschaften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grand Canyon",
+    "source_url": "https://de.wikipedia.org/wiki/Grand_Canyon",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which river carved the Grand Canyon into the rock over millions of years?",
+        "options": [
+          "The Missouri",
+          "The Mississippi",
+          "The Rio Grande",
+          "The Colorado River"
+        ],
+        "explanation": "The Colorado River carved the roughly 450-kilometre-long gorge in the US state of Arizona into the rock over millions of years. The national park has been a World Natural Heritage Site since 1979."
+      }
+    }
+  },
+  {
+    "id": "eg5",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist der „Pazifische Feuerring“?",
+    "options": [
+      "Ein Vulkangürtel rund um den Pazifik",
+      "Ein riesiges Korallenriff",
+      "Eine warme Meeresströmung",
+      "Ein ringförmiger Wirbelsturm"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Pazifische Feuerring ist ein Vulkangürtel, der den Pazifik von drei Seiten umgibt. Auf ihn gehen etwa zwei Drittel aller Vulkanausbrüche der jüngsten Erdepoche, des Holozäns, und rund 90 Prozent aller Erdbeben zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Vulkane"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pazifischer Feuerring",
+    "source_url": "https://de.wikipedia.org/wiki/Pazifischer_Feuerring",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the 'Pacific Ring of Fire'?",
+        "options": [
+          "A belt of volcanoes around the Pacific",
+          "A huge coral reef",
+          "A warm ocean current",
+          "A ring-shaped storm"
+        ],
+        "explanation": "The Pacific Ring of Fire is a belt of volcanoes that surrounds the Pacific on three sides. About two thirds of all volcanic eruptions of the most recent geological epoch, the Holocene, and around 90 per cent of all earthquakes occur there."
+      }
+    }
+  },
+  {
+    "id": "eg6",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie heißt ein Tropfstein, der von der Decke einer Höhle herabhängt?",
+    "options": [
+      "Stalagmit",
+      "Stalaktit",
+      "Geysir",
+      "Geode"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Stalaktit hängt von der Höhlendecke; sein Gegenstück, der Stalagmit, wächst vom Boden empor. Beide Namen kommen vom altgriechischen Wort für „Tropfen“.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Landschaften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stalaktit",
+    "source_url": "https://de.wikipedia.org/wiki/Stalaktit",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you call a dripstone that hangs down from the ceiling of a cave?",
+        "options": [
+          "Stalagmite",
+          "Stalactite",
+          "Geyser",
+          "Geode"
+        ],
+        "explanation": "A stalactite hangs from the cave ceiling; its counterpart, the stalagmite, grows up from the floor. Both names come from the Ancient Greek word for 'drop'."
+      }
+    }
+  },
+  {
+    "id": "eg7",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wodurch ist ein Fjord entstanden?",
+    "options": [
+      "Durch einen Vulkanausbruch",
+      "Durch einen Meteoriteneinschlag",
+      "Durch einen Talgletscher, der zum Meer hin wanderte",
+      "Durch Menschen, die einen Kanal gruben"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Fjord ist ein weit ins Festland reichender Meeresarm, der durch einen seewärts wandernden Talgletscher entstanden ist. Das deutsche Wort Förde hat denselben Ursprung.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Landschaften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fjord",
+    "source_url": "https://de.wikipedia.org/wiki/Fjord",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How was a fjord formed?",
+        "options": [
+          "By a volcanic eruption",
+          "By a meteorite impact",
+          "By a valley glacier moving towards the sea",
+          "By people digging a canal"
+        ],
+        "explanation": "A fjord is an arm of the sea reaching far inland, formed by a valley glacier moving seawards. The German word 'Förde' has the same origin."
+      }
+    }
+  },
+  {
+    "id": "eg8",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was bedeutet das arabische Wort, von dem „Monsun“ abstammt?",
+    "options": [
+      "Wolke",
+      "Regen",
+      "Sturm",
+      "Jahreszeit"
+    ],
+    "correct_index": 3,
+    "explanation": "Monsun kommt vom arabischen mausim, „Jahreszeit“. Typisch für den Monsun der Tropen und Subtropen sind Winde, deren häufigste Richtung sich im Lauf eines Jahres zweimal umkehrt.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Monsun",
+    "source_url": "https://de.wikipedia.org/wiki/Monsun",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Arabic word that 'monsoon' comes from mean?",
+        "options": [
+          "Cloud",
+          "Rain",
+          "Storm",
+          "Season"
+        ],
+        "explanation": "Monsoon comes from the Arabic mausim, 'season'. Typical of the monsoon in the tropics and subtropics are winds whose prevailing direction reverses twice in the course of a year."
+      }
+    }
+  },
+  {
+    "id": "eg9",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Zahl steht auf der Beaufortskala für die stärkste Windstufe, den Orkan?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Beaufortskala teilt die Windstärke in 13 Stufen ein: von 0 für Windstille bis 12 für Orkan. Benannt ist sie nach Sir Francis Beaufort.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Beaufortskala",
+    "source_url": "https://de.wikipedia.org/wiki/Beaufortskala",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which number on the Beaufort scale stands for the strongest wind level, a hurricane-force wind?",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "20"
+        ],
+        "explanation": "The Beaufort scale divides wind strength into 13 levels: from 0 for calm to 12 for hurricane force. It is named after Sir Francis Beaufort."
+      }
+    }
+  },
+  {
+    "id": "eg10",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie heißt die typische Gewitterwolke?",
+    "options": [
+      "Cumulonimbus",
+      "Cirrus",
+      "Stratus",
+      "Altocumulus"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Cumulonimbus, auf Deutsch Gewitterwolke, zählt zu den hoch aufragenden Wolken. Aus ihm fallen Regen, Hagel oder Schnee, oft begleitet von Gewittern. Der Name kommt von lateinisch cumulus, „Anhäufung“, und nimbus, „Regenwolke“.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cumulonimbus",
+    "source_url": "https://de.wikipedia.org/wiki/Cumulonimbus",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the typical thunderstorm cloud called?",
+        "options": [
+          "Cumulonimbus",
+          "Cirrus",
+          "Stratus",
+          "Altocumulus"
+        ],
+        "explanation": "The cumulonimbus, the thunderstorm cloud, is one of the towering clouds. Rain, hail or snow falls from it, often with thunderstorms. The name comes from Latin cumulus, 'heap', and nimbus, 'rain cloud'."
+      }
+    }
+  },
+  {
+    "id": "eg11",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Meeresströmung im Atlantik beeinflusst das Klima in Nordeuropa?",
+    "options": [
+      "Der Humboldtstrom",
+      "Der Golfstrom",
+      "Der Kuroshio",
+      "Der Benguelastrom"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Golfstrom ist eine schnell fließende Meeresströmung im Atlantik. In Richtung Europa wird er zum Nordatlantikstrom und beeinflusst das Klima in Nordeuropa.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Meere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Golfstrom",
+    "source_url": "https://de.wikipedia.org/wiki/Golfstrom",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which ocean current in the Atlantic influences the climate in northern Europe?",
+        "options": [
+          "The Humboldt Current",
+          "The Gulf Stream",
+          "The Kuroshio",
+          "The Benguela Current"
+        ],
+        "explanation": "The Gulf Stream is a fast-flowing ocean current in the Atlantic. Towards Europe it becomes the North Atlantic Current and influences the climate in northern Europe."
+      }
+    }
+  },
+  {
+    "id": "eg12",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist der „General Sherman Tree“ in Kalifornien?",
+    "options": [
+      "Ein versteinerter Wald",
+      "Der älteste Baum der Erde",
+      "Der lebende Baum mit dem größten Volumen",
+      "Ein riesiger Kaktus"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Riesenmammutbaum im Sequoia-Nationalpark ist der voluminöseste lebende Baum der Erde. Sein Alter wird auf etwa 1900 bis 2500 Jahre geschätzt.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: General Sherman Tree",
+    "source_url": "https://de.wikipedia.org/wiki/General_Sherman_Tree",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the 'General Sherman Tree' in California?",
+        "options": [
+          "A petrified forest",
+          "The oldest tree on Earth",
+          "The living tree with the largest volume",
+          "A giant cactus"
+        ],
+        "explanation": "The giant sequoia in Sequoia National Park is the most voluminous living tree on Earth. Its age is estimated at about 1,900 to 2,500 years."
+      }
+    }
+  },
+  {
+    "id": "eg13",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie alt ist die Langlebige Kiefer „Methuselah“ in Kalifornien ungefähr?",
+    "options": [
+      "Etwa 485 Jahre",
+      "Etwa 1850 Jahre",
+      "Etwa 4850 Jahre",
+      "Etwa 48.500 Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Ihr Alter wurde durch Auszählen der Jahresringe in einem kleinen Bohrkern bestimmt: rund 4850 Jahre. In den White Mountains in Kalifornien stehen 17 Langlebige Kiefern, die über 4000 Jahre alt sind.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Langlebige Kiefer",
+    "source_url": "https://de.wikipedia.org/wiki/Langlebige_Kiefer",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how old is the Great Basin bristlecone pine 'Methuselah' in California?",
+        "options": [
+          "About 485 years",
+          "About 1,850 years",
+          "About 4,850 years",
+          "About 48,500 years"
+        ],
+        "explanation": "Its age was determined by counting the growth rings in a small core sample: around 4,850 years. In the White Mountains of California there are 17 bristlecone pines that are more than 4,000 years old."
+      }
+    }
+  },
+  {
+    "id": "eg14",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Pflanze bildet die größten Einzelblüten im Pflanzenreich?",
+    "options": [
+      "Die Riesenrafflesie",
+      "Die Sonnenblume",
+      "Die Seerose",
+      "Die Magnolie"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Blüten der Riesenrafflesie messen bis zu einem Meter im Durchmesser und wiegen bis zu elf Kilogramm. Sie gelten als die größten Einzelblüten im Pflanzenreich.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Riesenrafflesie",
+    "source_url": "https://de.wikipedia.org/wiki/Riesenrafflesie",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which plant produces the largest single flowers in the plant kingdom?",
+        "options": [
+          "Rafflesia arnoldii",
+          "The sunflower",
+          "The water lily",
+          "The magnolia"
+        ],
+        "explanation": "The flowers of Rafflesia arnoldii measure up to one metre across and weigh up to eleven kilograms. They are considered the largest single flowers in the plant kingdom."
+      }
+    }
+  },
+  {
+    "id": "eg15",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Durch wie viele Länder fließt die Donau oder berührt sie?",
+    "options": [
+      "Vier",
+      "Zehn",
+      "Sieben",
+      "Vierzehn"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Donau ist mit 2857 Kilometern nach der Wolga der zweitlängste Fluss Europas. Sie durchfließt oder berührt zehn Länder, von Deutschland bis zur Ukraine.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Gewässer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Donau",
+    "source_url": "https://de.wikipedia.org/wiki/Donau",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many countries does the Danube flow through or border?",
+        "options": [
+          "Four",
+          "Ten",
+          "Seven",
+          "Fourteen"
+        ],
+        "explanation": "At 2,857 kilometres, the Danube is the second-longest river in Europe after the Volga. It flows through or borders ten countries, from Germany to Ukraine."
+      }
+    }
+  },
+  {
+    "id": "eg16",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches Gebirge bildet einen Teil der Grenze zwischen Europa und Asien?",
+    "options": [
+      "Die Pyrenäen",
+      "Die Alpen",
+      "Der Ural",
+      "Die Karpaten"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Ural ist bis zu 1895 Meter hoch und rund 2200 Kilometer lang. Er zieht sich von Norden nach Süden durch Russland und bildet einen Teil der Grenze zwischen Europa und Asien.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Gebirge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ural",
+    "source_url": "https://de.wikipedia.org/wiki/Ural",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which mountain range forms part of the border between Europe and Asia?",
+        "options": [
+          "The Pyrenees",
+          "The Alps",
+          "The Urals",
+          "The Carpathians"
+        ],
+        "explanation": "The Urals are up to 1,895 metres high and around 2,200 kilometres long. They run from north to south through Russia and form part of the border between Europe and Asia."
+      }
+    }
+  },
+  {
+    "id": "eg17",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist das Besondere am Wattenmeer der Nordsee?",
+    "options": [
+      "Es ist ein Süßwassersee",
+      "Es ist das tiefste Meer Europas",
+      "Es friert jeden Winter komplett zu",
+      "Es ist das größte Wattenmeer der Welt"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Wattenmeer zwischen Dänemark und den Niederlanden ist etwa 11.500 Quadratkilometer groß – das größte der Welt. Bei Niedrigwasser liegt der Meeresgrund frei: das Watt. Seit 2009 gehört es zum UNESCO-Welterbe.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Meere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wattenmeer (Nordsee)",
+    "source_url": "https://de.wikipedia.org/wiki/Wattenmeer_(Nordsee)",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the Wadden Sea of the North Sea?",
+        "options": [
+          "It is a freshwater lake",
+          "It is the deepest sea in Europe",
+          "It freezes over completely every winter",
+          "It is the largest tidal flat area in the world"
+        ],
+        "explanation": "The Wadden Sea between Denmark and the Netherlands covers about 11,500 square kilometres – the largest in the world. At low tide the sea floor is exposed: the mudflats. It has been a UNESCO World Heritage Site since 2009."
+      }
+    }
+  },
+  {
+    "id": "eg18",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher Berg gilt als höchster der Erde, wenn man vom Fuß am Meeresboden aus misst?",
+    "options": [
+      "Der Mauna Kea auf Hawaii",
+      "Der Mount Everest",
+      "Der Kilimandscharo",
+      "Der Aconcagua"
+    ],
+    "correct_index": 0,
+    "explanation": "Über dem Meeresspiegel ist der Vulkan Mauna Kea auf Hawaii etwa 4205 Meter hoch. Rechnet man den Teil unter der Meeresoberfläche mit, kommt er auf 10.203 Meter und gilt als höchster Berg der Erde.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Gebirge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mauna Kea",
+    "source_url": "https://de.wikipedia.org/wiki/Mauna_Kea",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which mountain is considered the highest on Earth if you measure from its base on the sea floor?",
+        "options": [
+          "Mauna Kea in Hawaii",
+          "Mount Everest",
+          "Kilimanjaro",
+          "Aconcagua"
+        ],
+        "explanation": "Above sea level the volcano Mauna Kea in Hawaii is about 4,205 metres high. Including the part below the sea surface, it reaches 10,203 metres and is considered the highest mountain on Earth."
+      }
+    }
+  },
+  {
+    "id": "eg19",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist am Bodensee bei den Ländergrenzen besonders?",
+    "options": [
+      "Er gehört ganz zu Deutschland",
+      "Nur im Untersee gibt es eine anerkannte Grenze",
+      "An ihn grenzen fünf Staaten",
+      "Die Grenze wird jedes Jahr neu gezogen"
+    ],
+    "correct_index": 1,
+    "explanation": "An den Bodensee grenzen Deutschland, Österreich und die Schweiz. Eine anerkannte Grenze gibt es aber nur im Untersee zwischen Deutschland und der Schweiz.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Gewässer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bodensee",
+    "source_url": "https://de.wikipedia.org/wiki/Bodensee",
+    "created_at": "2026-10-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the national borders on Lake Constance?",
+        "options": [
+          "It belongs entirely to Germany",
+          "There is an agreed border only in the Untersee",
+          "Five countries border it",
+          "The border is redrawn every year"
+        ],
+        "explanation": "Germany, Austria and Switzerland border Lake Constance. But there is an agreed border only in the Untersee, between Germany and Switzerland."
+      }
+    }
+  },
+  {
+    "id": "eg20",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie viele Zeitzonen gibt es in Russland?",
+    "options": [
+      "Drei",
+      "Sieben",
+      "Vierundzwanzig",
+      "Elf"
+    ],
+    "correct_index": 3,
+    "explanation": "In Russland gelten elf amtliche Zonenzeiten, von UTC+2 bis UTC+12. Auf Sommerzeit wird nicht mehr umgestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Länder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zonenzeiten in Russland",
+    "source_url": "https://de.wikipedia.org/wiki/Zonenzeiten_in_Russland",
+    "created_at": "2026-10-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many time zones are there in Russia?",
+        "options": [
+          "Three",
+          "Seven",
+          "Twenty-four",
+          "Eleven"
+        ],
+        "explanation": "Russia uses eleven official time zones, from UTC+2 to UTC+12. The clocks are no longer changed for summer time."
+      }
+    }
   }
 ]
