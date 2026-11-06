@@ -52027,5 +52027,1445 @@
         "explanation": "Russia uses eleven official time zones, from UTC+2 to UTC+12. The clocks are no longer changed for summer time."
       }
     }
+  },
+  {
+    "id": "kn42",
+    "kind": "question",
+    "category_id": "art",
+    "question": "In welcher Stadt hängt Leonardo da Vincis Gemälde „Die Dame mit dem Hermelin“?",
+    "options": [
+      "In Krakau",
+      "In Florenz",
+      "In Paris",
+      "In Wien"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Bild ist eines von nur vier Frauenporträts, die Leonardo gemalt hat. Er schuf es 1489/1490 in Mailand; seit 1880 gehört es zur Sammlung des Czartoryski-Museums in Krakau.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dame mit dem Hermelin",
+    "source_url": "https://de.wikipedia.org/wiki/Dame_mit_dem_Hermelin",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city does Leonardo da Vinci's painting 'Lady with an Ermine' hang?",
+        "options": [
+          "In Kraków",
+          "In Florence",
+          "In Paris",
+          "In Vienna"
+        ],
+        "explanation": "The picture is one of only four portraits of women that Leonardo painted. He made it in Milan in 1489/1490; since 1880 it has belonged to the collection of the Czartoryski Museum in Kraków."
+      }
+    }
+  },
+  {
+    "id": "kn43",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche beiden Philosophen stehen im Zentrum von Raffaels Fresko „Die Schule von Athen“?",
+    "options": [
+      "Sokrates und Homer",
+      "Platon und Aristoteles",
+      "Kant und Hegel",
+      "Pythagoras und Euklid"
+    ],
+    "correct_index": 1,
+    "explanation": "Raffael malte das Fresko 1510 bis 1511 im Vatikan. Es feiert die Denkschulen des antiken Griechenlands; im Zentrum stehen die Philosophen Platon und Aristoteles.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Schule von Athen",
+    "source_url": "https://de.wikipedia.org/wiki/Die_Schule_von_Athen",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two philosophers stand at the centre of Raphael's fresco 'The School of Athens'?",
+        "options": [
+          "Socrates and Homer",
+          "Plato and Aristotle",
+          "Kant and Hegel",
+          "Pythagoras and Euclid"
+        ],
+        "explanation": "Raphael painted the fresco from 1510 to 1511 in the Vatican. It celebrates the schools of thought of ancient Greece; at the centre stand the philosophers Plato and Aristotle."
+      }
+    }
+  },
+  {
+    "id": "kn44",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was geschah 1863 mit Édouard Manets Gemälde „Das Frühstück im Grünen“ beim Pariser Salon?",
+    "options": [
+      "Es wurde gestohlen",
+      "Es gewann den ersten Preis",
+      "Die Jury lehnte es ab",
+      "Es wurde übermalt"
+    ],
+    "correct_index": 2,
+    "explanation": "Die 40 Juroren des Salons lehnten das Bild prompt ab – eine nackte Frau zwischen zwei bekleideten Männern galt als unverschämt. Zu sehen war es dann im „Salon des Refusés“, dem Salon der Zurückgewiesenen. Heute hängt es im Musée d’Orsay in Paris.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Das Frühstück im Grünen (Manet)",
+    "source_url": "https://de.wikipedia.org/wiki/Das_Frühstück_im_Grünen_(Manet)",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happened to Édouard Manet's painting 'Luncheon on the Grass' at the Paris Salon of 1863?",
+        "options": [
+          "It was stolen",
+          "It won first prize",
+          "The jury rejected it",
+          "It was painted over"
+        ],
+        "explanation": "The Salon's 40 jurors promptly rejected the picture – a naked woman sitting with two clothed men was considered outrageous. It was then shown in the 'Salon des Refusés', the salon of the rejected. Today it hangs in the Musée d'Orsay in Paris."
+      }
+    }
+  },
+  {
+    "id": "kn45",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welches Thema malte Edgar Degas besonders oft?",
+    "options": [
+      "Bergdörfer im Schnee",
+      "Schiffe auf hoher See",
+      "Wüstenlandschaften",
+      "Balletttänzerinnen"
+    ],
+    "correct_index": 3,
+    "explanation": "Eines seiner großen Themen war die Tänzerin: Degas schuf weit über 200 Werke zum Ballett. Nur gut ein Fünftel davon zeigt die eigentliche Aufführung – die übrigen zeigen die Tänzerinnen hinter den Kulissen, bei der Probe oder beim Ausruhen.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Edgar Degas",
+    "source_url": "https://de.wikipedia.org/wiki/Edgar_Degas",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which subject did Edgar Degas paint especially often?",
+        "options": [
+          "Mountain villages in the snow",
+          "Ships on the high seas",
+          "Desert landscapes",
+          "Ballet dancers"
+        ],
+        "explanation": "One of his great subjects was the dancer: Degas made well over 200 works about ballet. Only a little more than a fifth of them show the actual performance – the rest show the dancers behind the scenes, at rehearsal or resting."
+      }
+    }
+  },
+  {
+    "id": "kn46",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welches Gebirge malte Paul Cézanne immer wieder?",
+    "options": [
+      "Die Montagne Sainte-Victoire",
+      "Das Matterhorn",
+      "Den Mont Blanc",
+      "Die Zugspitze"
+    ],
+    "correct_index": 0,
+    "explanation": "Zu Cézannes häufigsten Bildthemen gehörten Badende, Stillleben und die Landschaft um das Gebirge Montagne Sainte-Victoire. Er gilt als einer der Wegbereiter der Klassischen Moderne.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paul Cézanne",
+    "source_url": "https://de.wikipedia.org/wiki/Paul_Cézanne",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which mountain did Paul Cézanne paint again and again?",
+        "options": [
+          "Mont Sainte-Victoire",
+          "The Matterhorn",
+          "Mont Blanc",
+          "The Zugspitze"
+        ],
+        "explanation": "Among Cézanne's most frequent subjects were bathers, still lifes and the landscape around the Mont Sainte-Victoire. He is considered one of the pioneers of classical modernism."
+      }
+    }
+  },
+  {
+    "id": "kn47",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Auf welche Insel reiste Paul Gauguin 1891, um dort zu leben und zu malen?",
+    "options": [
+      "Nach Sizilien",
+      "Nach Tahiti",
+      "Nach Island",
+      "Nach Madagaskar"
+    ],
+    "correct_index": 1,
+    "explanation": "Gauguin schwankte zwischen Madagaskar und Tahiti und entschied sich für Tahiti, das er sich als exotisches Paradies vorstellte. Im April 1891 schiffte er sich ein – vor Ort merkte er, dass die Wirklichkeit seinen Erwartungen ganz und gar nicht entsprach.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paul Gauguin",
+    "source_url": "https://de.wikipedia.org/wiki/Paul_Gauguin",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which island did Paul Gauguin travel to in 1891 to live and paint?",
+        "options": [
+          "Sicily",
+          "Tahiti",
+          "Iceland",
+          "Madagascar"
+        ],
+        "explanation": "Gauguin wavered between Madagascar and Tahiti and chose Tahiti, which he imagined as an exotic paradise. In April 1891 he set sail – once there he found that reality did not match his expectations at all."
+      }
+    }
+  },
+  {
+    "id": "kn48",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wofür wurde Henri de Toulouse-Lautrec besonders berühmt?",
+    "options": [
+      "Für Marmorstatuen",
+      "Für Kirchenfenster",
+      "Für Plakate, etwa für das Varieté Moulin Rouge",
+      "Für Landkarten"
+    ],
+    "correct_index": 2,
+    "explanation": "Toulouse-Lautrec war ein französischer Maler und Grafiker des Post-Impressionismus. Berühmt wurde er vor allem für seine Plakate, die er unter anderem für das Pariser Varieté Moulin Rouge am Montmartre entwarf.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Grafik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Henri de Toulouse-Lautrec",
+    "source_url": "https://de.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Henri de Toulouse-Lautrec become especially famous for?",
+        "options": [
+          "Marble statues",
+          "Church windows",
+          "Posters, for example for the Moulin Rouge cabaret",
+          "Maps"
+        ],
+        "explanation": "Toulouse-Lautrec was a French painter and printmaker of Post-Impressionism. He became famous above all for his posters, which he designed for the Paris cabaret Moulin Rouge in Montmartre, among others."
+      }
+    }
+  },
+  {
+    "id": "kn49",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Satz steht unter der gemalten Pfeife auf René Magrittes berühmtem Bild von 1929?",
+    "options": [
+      "„Kunst ist ein Spiel.“",
+      "„Dies ist eine Pfeife.“",
+      "„Rauchen verboten.“",
+      "„Dies ist keine Pfeife.“"
+    ],
+    "correct_index": 3,
+    "explanation": "Unter der Pfeife steht „Ceci n’est pas une pipe.“ – „Dies ist keine Pfeife.“ Magritte wollte wohl zeigen, dass man es mit einem Bild zu tun hat und nicht mit einer echten Pfeife, die man stopfen und rauchen könnte.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: La Trahison des images",
+    "source_url": "https://de.wikipedia.org/wiki/La_Trahison_des_images",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which sentence is written under the painted pipe in René Magritte's famous 1929 picture?",
+        "options": [
+          "'Art is a game.'",
+          "'This is a pipe.'",
+          "'No smoking.'",
+          "'This is not a pipe.'"
+        ],
+        "explanation": "Under the pipe it says 'Ceci n'est pas une pipe.' – 'This is not a pipe.' Magritte probably wanted to show that we are looking at a picture and not at a real pipe that could be filled and smoked."
+      }
+    }
+  },
+  {
+    "id": "kn50",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Ort ist eines der Hauptthemen in den Bildern von Marc Chagall?",
+    "options": [
+      "Venedig",
+      "Seine Heimatstadt Witebsk",
+      "New York",
+      "Die Wüste Sahara"
+    ],
+    "correct_index": 1,
+    "explanation": "Chagall wurde in Witebsk im heutigen Belarus geboren. Seine Familie, sein Heimatort Witebsk sowie Motive aus der Bibel und aus dem Zirkus gehören zu den Hauptthemen seiner Bilder.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marc Chagall",
+    "source_url": "https://de.wikipedia.org/wiki/Marc_Chagall",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which place is one of the main subjects in Marc Chagall's pictures?",
+        "options": [
+          "Venice",
+          "His home town of Vitebsk",
+          "New York",
+          "The Sahara desert"
+        ],
+        "explanation": "Chagall was born in Vitebsk in today's Belarus. His family, his home town of Vitebsk and motifs from the Bible and the circus are among the main subjects of his pictures."
+      }
+    }
+  },
+  {
+    "id": "kn51",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Womit schuf der schwer kranke Henri Matisse in den 1940er Jahren sein Spätwerk?",
+    "options": [
+      "Mit Kohlestiften",
+      "Mit Fingerfarben",
+      "Mit Scherenschnitten",
+      "Mit Fotografien"
+    ],
+    "correct_index": 2,
+    "explanation": "In den 1940er Jahren schuf Matisse, der schwer erkrankt war, Scherenschnitte – auf Französisch „gouaches découpées“. Ein Beispiel ist das Künstlerbuch „Jazz“.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Henri Matisse",
+    "source_url": "https://de.wikipedia.org/wiki/Henri_Matisse",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the seriously ill Henri Matisse use to create his late work in the 1940s?",
+        "options": [
+          "Charcoal pencils",
+          "Finger paints",
+          "Paper cut-outs",
+          "Photographs"
+        ],
+        "explanation": "In the 1940s Matisse, who was seriously ill, created paper cut-outs – in French 'gouaches découpées'. One example is the artist's book 'Jazz'."
+      }
+    }
+  },
+  {
+    "id": "kn52",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Maler schuf 1942 das Gemälde „Nighthawks“?",
+    "options": [
+      "Grant Wood",
+      "Andy Warhol",
+      "Jackson Pollock",
+      "Edward Hopper"
+    ],
+    "correct_index": 3,
+    "explanation": "„Nighthawks“, sinngemäß „Nachtschwärmer“, gilt als Edward Hoppers bekanntestes Werk und als eines der herausragendsten Werke der US-amerikanischen Malerei. Es hängt im Art Institute of Chicago.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nighthawks",
+    "source_url": "https://de.wikipedia.org/wiki/Nighthawks",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which painter created the painting 'Nighthawks' in 1942?",
+        "options": [
+          "Grant Wood",
+          "Andy Warhol",
+          "Jackson Pollock",
+          "Edward Hopper"
+        ],
+        "explanation": "'Nighthawks' is considered Edward Hopper's best-known work and one of the outstanding works of American painting. It hangs in the Art Institute of Chicago."
+      }
+    }
+  },
+  {
+    "id": "kn53",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wen zeigt Grant Woods Gemälde „American Gothic“ neben dem Mann mit der Heugabel?",
+    "options": [
+      "Seine Tochter",
+      "Seine Ehefrau",
+      "Seine Mutter",
+      "Eine Nachbarin"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Bild von 1930 zeigt einen Mann mit Heugabel und seine unverheiratete Tochter vor einem neugotischen Holzhaus. Die Frau wird häufig fälschlich für seine Ehefrau gehalten. Das Gemälde hängt im Art Institute of Chicago.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: American Gothic",
+    "source_url": "https://de.wikipedia.org/wiki/American_Gothic",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who stands next to the man with the pitchfork in Grant Wood's painting 'American Gothic'?",
+        "options": [
+          "His daughter",
+          "His wife",
+          "His mother",
+          "A neighbour"
+        ],
+        "explanation": "The 1930 picture shows a man with a pitchfork and his unmarried daughter in front of a Gothic Revival wooden house. The woman is often wrongly taken to be his wife. The painting hangs in the Art Institute of Chicago."
+      }
+    }
+  },
+  {
+    "id": "kn54",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wo stehen die riesigen Steinfiguren, die Moai heißen?",
+    "options": [
+      "Auf Hawaii",
+      "Auf der Osterinsel",
+      "In Peru",
+      "Auf Island"
+    ],
+    "correct_index": 1,
+    "explanation": "Moai heißen die kolossalen Steinstatuen der Osterinsel. Sie sind nach heutigem Wissen nicht älter als 1500 Jahre. Der Forscher Sebastian Englert nummerierte und katalogisierte 638 Statuen.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moai",
+    "source_url": "https://de.wikipedia.org/wiki/Moai",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do the huge stone figures called moai stand?",
+        "options": [
+          "On Hawaii",
+          "On Easter Island",
+          "In Peru",
+          "On Iceland"
+        ],
+        "explanation": "Moai is the name of the colossal stone statues of Easter Island. According to current knowledge they are no more than 1,500 years old. The researcher Sebastian Englert numbered and catalogued 638 statues."
+      }
+    }
+  },
+  {
+    "id": "kn55",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woher hat der Jugendstil seinen Namen?",
+    "options": [
+      "Von jungen Bäumen auf den Bildern",
+      "Von einer Jugendherberge",
+      "Von der Münchner Zeitschrift „Jugend“",
+      "Von einer Malschule für Kinder"
+    ],
+    "correct_index": 2,
+    "explanation": "Namensgeber war die künstlerische Wochenzeitschrift „Jugend“, die erstmals im Mai 1896 in München erschien. Der Jugendstil verstand sich als Gegenbewegung junger Künstler zum rückwärtsgewandten Historismus.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Epochen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jugendstil",
+    "source_url": "https://de.wikipedia.org/wiki/Jugendstil",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German name for Art Nouveau, 'Jugendstil', come from?",
+        "options": [
+          "From young trees in the pictures",
+          "From a youth hostel",
+          "From the Munich magazine 'Jugend'",
+          "From an art school for children"
+        ],
+        "explanation": "It was named after the weekly art magazine 'Jugend' ('Youth'), first published in Munich in May 1896. The style saw itself as a movement of young artists against backward-looking historicism."
+      }
+    }
+  },
+  {
+    "id": "kn56",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wo zeichnete Keith Haring ab 1980 seine berühmten „Subway Drawings“?",
+    "options": [
+      "In den Sand am Strand",
+      "An Kirchendecken",
+      "Auf Briefmarken",
+      "Auf leeren Werbetafeln der New Yorker U-Bahn"
+    ],
+    "correct_index": 3,
+    "explanation": "Haring zeichnete mit Kreide auf das schwarze Papier, mit dem leere Werbetafeln in den Gängen der New Yorker U-Bahn abgedeckt waren. Das erste Subway Drawing entstand im Dezember 1980, die Serie lief bis etwa 1985.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Keith Haring",
+    "source_url": "https://de.wikipedia.org/wiki/Keith_Haring",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did Keith Haring draw his famous 'Subway Drawings' from 1980?",
+        "options": [
+          "In the sand on the beach",
+          "On church ceilings",
+          "On postage stamps",
+          "On empty advertising panels in the New York subway"
+        ],
+        "explanation": "Haring drew in chalk on the black paper covering empty advertising panels in the corridors of the New York subway. The first Subway Drawing was made in December 1980, and the series ran until about 1985."
+      }
+    }
+  },
+  {
+    "id": "kn57",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Architekt gestaltete den Park Güell in Barcelona?",
+    "options": [
+      "Antoni Gaudí",
+      "Le Corbusier",
+      "Ieoh Ming Pei",
+      "Friedensreich Hundertwasser"
+    ],
+    "correct_index": 0,
+    "explanation": "Antoni Gaudí schuf die Parkanlage von 1900 bis 1914 im Auftrag des Industriellen Eusebi Güell. Der war von englischen Gärten so beeindruckt, dass er auch in Barcelona eine solche Anlage haben wollte.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Park Güell",
+    "source_url": "https://de.wikipedia.org/wiki/Park_Güell",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which architect designed Park Güell in Barcelona?",
+        "options": [
+          "Antoni Gaudí",
+          "Le Corbusier",
+          "I. M. Pei",
+          "Friedensreich Hundertwasser"
+        ],
+        "explanation": "Antoni Gaudí created the park from 1900 to 1914, commissioned by the industrialist Eusebi Güell, who was so impressed by English gardens that he wanted one in Barcelona too."
+      }
+    }
+  },
+  {
+    "id": "kn58",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Göttin stellt die berühmte Skulptur im Louvre dar, die auf der Insel Samothrake gefunden wurde?",
+    "options": [
+      "Die Liebesgöttin Aphrodite",
+      "Die Siegesgöttin Nike",
+      "Die Jagdgöttin Artemis",
+      "Die Göttin Hera"
+    ],
+    "correct_index": 1,
+    "explanation": "Die griechische Skulptur zeigt die Siegesgöttin Nike und wurde im Heiligtum der Kabiren auf Samothrake gefunden. Vermutlich schufen sie Bildhauer aus Rhodos. Heute steht sie im Louvre in Paris.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nike von Samothrake",
+    "source_url": "https://de.wikipedia.org/wiki/Nike_von_Samothrake",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which goddess does the famous sculpture in the Louvre that was found on the island of Samothrace depict?",
+        "options": [
+          "Aphrodite, goddess of love",
+          "Nike, goddess of victory",
+          "Artemis, goddess of the hunt",
+          "The goddess Hera"
+        ],
+        "explanation": "The Greek sculpture shows Nike, the goddess of victory, and was found in the sanctuary of the Cabeiri on Samothrace. It was probably made by sculptors from Rhodes. Today it stands in the Louvre in Paris."
+      }
+    }
+  },
+  {
+    "id": "kn59",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wann wurde die antike Laokoon-Gruppe wiederentdeckt?",
+    "options": [
+      "1306",
+      "1406",
+      "1506",
+      "1606"
+    ],
+    "correct_index": 2,
+    "explanation": "Die 1,84 Meter hohe Marmorskulptur in den Vatikanischen Museen hatte schon der antike Schriftsteller Plinius der Ältere besonders gelobt. Nach ihrer Wiederentdeckung 1506 erlangte sie große Bedeutung für die europäische Kunst und Geisteswelt.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Laokoon-Gruppe",
+    "source_url": "https://de.wikipedia.org/wiki/Laokoon-Gruppe",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When was the ancient Laocoön Group rediscovered?",
+        "options": [
+          "1306",
+          "1406",
+          "1506",
+          "1606"
+        ],
+        "explanation": "The 1.84-metre marble sculpture in the Vatican Museums had already been praised by the ancient writer Pliny the Elder. After its rediscovery in 1506 it became very important for European art and thought."
+      }
+    }
+  },
+  {
+    "id": "sp58",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welchem Jahr wurde die erste Formel-1-Weltmeisterschaft ausgetragen?",
+    "options": [
+      "1930",
+      "1950",
+      "1970",
+      "1990"
+    ],
+    "correct_index": 1,
+    "explanation": "Die erste Saison der Automobil-Weltmeisterschaft, die man heute Formel-1-Weltmeisterschaft nennt, lief vom 13. Mai bis zum 3. September 1950 mit sieben Rennen.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Motorsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Automobil-Weltmeisterschaft 1950",
+    "source_url": "https://de.wikipedia.org/wiki/Automobil-Weltmeisterschaft_1950",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year was the first Formula One World Championship held?",
+        "options": [
+          "1930",
+          "1950",
+          "1970",
+          "1990"
+        ],
+        "explanation": "The first season of the World Championship of Drivers, today called the Formula One World Championship, ran from 13 May to 3 September 1950 with seven races."
+      }
+    }
+  },
+  {
+    "id": "sp59",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wann hat ein Sumōringer seinen Kampf verloren?",
+    "options": [
+      "Wenn er aus dem Ring gedrängt wird oder den Boden mit mehr als den Fußsohlen berührt",
+      "Nach Punkten der Kampfrichter am Ende von drei Runden",
+      "Wenn er als Erster zu schwitzen beginnt",
+      "Wenn er zweimal blinzelt"
+    ],
+    "correct_index": 0,
+    "explanation": "Ziel ist es, den Gegner aus einem mit einem Strohseil abgesteckten Kreis aus gestampftem Lehm zu drängen – oder ihn so aus dem Gleichgewicht zu bringen, dass er den Boden mit einem anderen Körperteil als den Fußsohlen berührt. Sumō stammt aus Japan.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Kampfsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sumō",
+    "source_url": "https://de.wikipedia.org/wiki/Sumō",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When has a sumo wrestler lost his bout?",
+        "options": [
+          "When he is pushed out of the ring or touches the ground with anything but the soles of his feet",
+          "On the judges' points after three rounds",
+          "When he is the first to start sweating",
+          "When he blinks twice"
+        ],
+        "explanation": "The aim is to push the opponent out of a circle of stamped clay marked out by a straw rope – or to throw him off balance so that he touches the ground with a part of the body other than the soles of his feet. Sumo comes from Japan."
+      }
+    }
+  },
+  {
+    "id": "sp60",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wofür steht die Silbe „tae“ im Namen der Kampfkunst Taekwondo?",
+    "options": [
+      "Weg",
+      "Fausttechnik",
+      "Fußtechnik",
+      "Kraft"
+    ],
+    "correct_index": 2,
+    "explanation": "Taekwondo ist eine koreanische Kampfkunst mit besonders schnellen und vielfältigen Fußtechniken. Die drei Silben des Namens stehen für Fußtechnik (tae), Fausttechnik (kwon) und Weg (do).",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Kampfsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Taekwondo",
+    "source_url": "https://de.wikipedia.org/wiki/Taekwondo",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the syllable 'tae' in the name of the martial art taekwondo stand for?",
+        "options": [
+          "Way",
+          "Fist technique",
+          "Foot technique",
+          "Strength"
+        ],
+        "explanation": "Taekwondo is a Korean martial art with especially fast and varied kicking techniques. The three syllables of the name stand for foot technique (tae), fist technique (kwon) and way (do)."
+      }
+    }
+  },
+  {
+    "id": "sp61",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche beiden Disziplinen verbindet der Biathlon?",
+    "options": [
+      "Abfahrt und Slalom",
+      "Skispringen und Skilanglauf",
+      "Eisschnelllauf und Schießen",
+      "Skilanglauf und Schießen"
+    ],
+    "correct_index": 3,
+    "explanation": "Biathlon heißt so viel wie „Zweikampf“. Die Wintersportart kombiniert Skilanglauf, eine Ausdauersportart, mit Schießen, einer Präzisionssportart. Geschossen wird liegend und stehend.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Biathlon",
+    "source_url": "https://de.wikipedia.org/wiki/Biathlon",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two disciplines does biathlon combine?",
+        "options": [
+          "Downhill and slalom",
+          "Ski jumping and cross-country skiing",
+          "Speed skating and shooting",
+          "Cross-country skiing and shooting"
+        ],
+        "explanation": "Biathlon means roughly 'double contest'. The winter sport combines cross-country skiing, an endurance sport, with shooting, a precision sport. Athletes shoot lying down and standing."
+      }
+    }
+  },
+  {
+    "id": "sp62",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welchen beiden Ländern findet die Vierschanzentournee der Skispringer statt?",
+    "options": [
+      "In Deutschland und Österreich",
+      "In Norwegen und Finnland",
+      "In der Schweiz und Italien",
+      "In Polen und Slowenien"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Vierschanzentournee fasst vier Skisprung-Weltcups zusammen, die seit 1953 jedes Jahr um den Jahreswechsel in Deutschland und Österreich stattfinden. Sie gehört zu den angesehensten Wettbewerben im Skispringen.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vierschanzentournee",
+    "source_url": "https://de.wikipedia.org/wiki/Vierschanzentournee",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which two countries does the Four Hills Tournament for ski jumpers take place?",
+        "options": [
+          "Germany and Austria",
+          "Norway and Finland",
+          "Switzerland and Italy",
+          "Poland and Slovenia"
+        ],
+        "explanation": "The Four Hills Tournament combines four ski-jumping World Cup events held every year around New Year in Germany and Austria since 1953. It is one of the most prestigious competitions in ski jumping."
+      }
+    }
+  },
+  {
+    "id": "sp63",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welcher Sportart wird der Stanley Cup vergeben?",
+    "options": [
+      "Basketball",
+      "Eishockey",
+      "Baseball",
+      "Golf"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Stanley Cup gilt als wichtigste Eishockeytrophäe der Welt. Er geht jedes Jahr an den Play-off-Sieger der nordamerikanischen National Hockey League und wurde am 18. März 1892 gestiftet.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stanley Cup",
+    "source_url": "https://de.wikipedia.org/wiki/Stanley_Cup",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which sport is the Stanley Cup awarded?",
+        "options": [
+          "Basketball",
+          "Ice hockey",
+          "Baseball",
+          "Golf"
+        ],
+        "explanation": "The Stanley Cup is considered the most important ice hockey trophy in the world. It goes every year to the play-off winner of the North American National Hockey League and was donated on 18 March 1892."
+      }
+    }
+  },
+  {
+    "id": "sp64",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist der Super Bowl?",
+    "options": [
+      "Das Endspiel im Basketball",
+      "Ein großes Bowlingturnier",
+      "Das Finale der American-Football-Profiliga NFL",
+      "Ein Eishockeystadion"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Super Bowl ist das Finale der US-amerikanischen Profiliga National Football League. Er findet meist am zweiten Sonntag im Februar statt und gehört zu den größten Einzelsportereignissen der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Super Bowl",
+    "source_url": "https://de.wikipedia.org/wiki/Super_Bowl",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Super Bowl?",
+        "options": [
+          "The basketball final",
+          "A big bowling tournament",
+          "The final of the NFL, the American football league",
+          "An ice hockey stadium"
+        ],
+        "explanation": "The Super Bowl is the final of the US professional National Football League. It usually takes place on the second Sunday in February and is one of the biggest single sporting events in the world."
+      }
+    }
+  },
+  {
+    "id": "sp65",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Seit welchem Jahr wird die Tour de France ausgetragen?",
+    "options": [
+      "1873",
+      "1903",
+      "1933",
+      "1963"
+    ],
+    "correct_index": 1,
+    "explanation": "Seit 1903 wird die Tour de France jedes Jahr im Juli ausgetragen und führt quer durch Frankreich und das nahe Ausland. Mit dem Giro d’Italia und der Vuelta a España zählt sie zu den großen Landesrundfahrten.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Radsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tour de France",
+    "source_url": "https://de.wikipedia.org/wiki/Tour_de_France",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since which year has the Tour de France been held?",
+        "options": [
+          "1873",
+          "1903",
+          "1933",
+          "1963"
+        ],
+        "explanation": "Since 1903 the Tour de France has been held every year in July, crossing France and nearby countries. Together with the Giro d'Italia and the Vuelta a España it is one of the Grand Tours."
+      }
+    }
+  },
+  {
+    "id": "sp66",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wo fanden 1960 die ersten Paralympischen Sommerspiele statt?",
+    "options": [
+      "In Rom",
+      "In London",
+      "In Tokio",
+      "In Paris"
+    ],
+    "correct_index": 0,
+    "explanation": "Die ersten Paralympischen Sommerspiele – damals noch „International Stoke Mandeville Games“ genannt – fanden vom 18. bis 25. September 1960 in Rom statt. Sie begannen sieben Tage nach den Olympischen Spielen, an denselben Wettkampfstätten.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sommer-Paralympics 1960",
+    "source_url": "https://de.wikipedia.org/wiki/Sommer-Paralympics_1960",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the first Summer Paralympics take place in 1960?",
+        "options": [
+          "In Rome",
+          "In London",
+          "In Tokyo",
+          "In Paris"
+        ],
+        "explanation": "The first Summer Paralympics – then still called the 'International Stoke Mandeville Games' – took place in Rome from 18 to 25 September 1960. They began seven days after the Olympic Games, at the same venues."
+      }
+    }
+  },
+  {
+    "id": "sp67",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie wird das olympische Feuer in Olympia entzündet?",
+    "options": [
+      "Mit einem Feuerzeug",
+      "Mit einem Parabolspiegel, der Sonnenlicht bündelt",
+      "Durch einen Blitz",
+      "Mit einer Fackel aus dem letzten Austragungsort"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Feuer wird mit einem Parabolspiegel entfacht, der das Sonnenlicht bündelt, und dann in einem Tongefäß ins alte Stadion getragen. Schon in der griechischen Antike brannte ein Feuer zu Ehren der Göttin Hestia.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympische Flamme",
+    "source_url": "https://de.wikipedia.org/wiki/Olympische_Flamme",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is the Olympic flame lit in Olympia?",
+        "options": [
+          "With a lighter",
+          "With a parabolic mirror that focuses sunlight",
+          "By lightning",
+          "With a torch from the previous host city"
+        ],
+        "explanation": "The fire is lit with a parabolic mirror that focuses sunlight and is then carried in a clay vessel into the ancient stadium. Already in ancient Greece a fire burned in honour of the goddess Hestia."
+      }
+    }
+  },
+  {
+    "id": "sp68",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woher hat der Elfmeter im Fußball seinen Namen?",
+    "options": [
+      "Von der 11. Spielminute",
+      "Von den 11 Spielern einer Mannschaft",
+      "Von der Entfernung zum Tor: fast genau 11 Meter",
+      "Von der 11. Fußballregel"
+    ],
+    "correct_index": 2,
+    "explanation": "Früher gab es statt des Elfmeterpunkts eine Linie, die 12 Yards vom Tor entfernt quer über das Spielfeld lief – das sind fast genau 11 Meter. Daher stammt die übliche Bezeichnung Elfmeter.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strafstoß",
+    "source_url": "https://de.wikipedia.org/wiki/Strafstoß",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German name for a penalty kick, 'Elfmeter' (eleven metres), come from?",
+        "options": [
+          "From the 11th minute of play",
+          "From the 11 players in a team",
+          "From the distance to the goal: almost exactly 11 metres",
+          "From the 11th law of football"
+        ],
+        "explanation": "Originally there was no penalty spot but a line 12 yards from the goal across the whole pitch – almost exactly 11 metres. That is where the usual German name 'Elfmeter' comes from."
+      }
+    }
+  },
+  {
+    "id": "sp69",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woran unterscheidet man im Kanusport ein Kajak am deutlichsten von einem Kanadier?",
+    "options": [
+      "Das Kajak ist immer aus Holz",
+      "Das Kajak hat einen Motor",
+      "Der Kanadier hat ein Segel",
+      "Am Paddel: Doppelpaddel beim Kajak, Stechpaddel beim Kanadier"
+    ],
+    "correct_index": 3,
+    "explanation": "Neben der Sitzposition ist das Paddel das wichtigste Unterscheidungsmerkmal: Kajaks fährt man mit einem Doppelpaddel, Kanadier mit einem Stechpaddel. Anders als beim Rudern ist das Paddel nicht fest mit dem Boot verbunden.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kanusport",
+    "source_url": "https://de.wikipedia.org/wiki/Kanusport",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the clearest way to tell a kayak from a canoe in canoe sport?",
+        "options": [
+          "The kayak is always made of wood",
+          "The kayak has a motor",
+          "The canoe has a sail",
+          "The paddle: double-bladed for the kayak, single-bladed for the canoe"
+        ],
+        "explanation": "Apart from the seating position, the paddle is the most important difference: kayaks use a double paddle, canoes a single-bladed paddle. Unlike in rowing, the paddle is not fixed to the boat."
+      }
+    }
+  },
+  {
+    "id": "sp70",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welcher Stadt entstand in den frühen 1970er Jahren der Breakdance, heute „Breaking“ genannt?",
+    "options": [
+      "In Los Angeles",
+      "In New York",
+      "In London",
+      "In Berlin"
+    ],
+    "correct_index": 1,
+    "explanation": "Breaking entstand als Teil der Hip-Hop-Bewegung unter afroamerikanischen Jugendlichen in Manhattan und der südlichen Bronx in New York. Bei den Olympischen Sommerspielen 2024 hieß der Tanz offiziell Breaking.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Tanz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Breakdance",
+    "source_url": "https://de.wikipedia.org/wiki/Breakdance",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city did breakdance, today called 'breaking', arise in the early 1970s?",
+        "options": [
+          "In Los Angeles",
+          "In New York",
+          "In London",
+          "In Berlin"
+        ],
+        "explanation": "Breaking arose as part of the hip-hop movement among African American young people in Manhattan and the South Bronx in New York. At the 2024 Summer Olympics the dance was officially called breaking."
+      }
+    }
+  },
+  {
+    "id": "sp71",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Auf welchem Belag werden die French Open in Paris gespielt?",
+    "options": [
+      "Auf Hartplatz",
+      "Auf Rasen",
+      "Auf Sand",
+      "Auf Teppich"
+    ],
+    "correct_index": 2,
+    "explanation": "Die French Open, auch Roland Garros genannt, sind das einzige Sandplatzturnier der Grand-Slam-Serie. Weil die Bälle auf Sand langsamer abspringen, dauern die Matches im Durchschnitt länger. Benannt ist das Turnier nach dem Luftfahrtpionier Roland Garros.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Tennis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: French Open",
+    "source_url": "https://de.wikipedia.org/wiki/French_Open",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which surface are the French Open in Paris played?",
+        "options": [
+          "On hard court",
+          "On grass",
+          "On clay",
+          "On carpet"
+        ],
+        "explanation": "The French Open, also called Roland Garros, is the only clay-court tournament of the Grand Slam series. Because the balls bounce more slowly on clay, matches last longer on average. The tournament is named after the aviation pioneer Roland Garros."
+      }
+    }
+  },
+  {
+    "id": "sp72",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wonach ist der America’s Cup, die älteste noch ausgetragene Segelregatta, benannt?",
+    "options": [
+      "Nach einer Stadt in Florida",
+      "Nach dem Kontinent Amerika",
+      "Nach einem US-Präsidenten",
+      "Nach der Yacht, die ihn 1851 als Erste gewann"
+    ],
+    "correct_index": 3,
+    "explanation": "Der America’s Cup geht auf eine Regatta rund um die britische Insel Isle of Wight im Jahr 1851 zurück. Benannt ist der Wanderpokal nach seiner ersten Gewinnerin, der Yacht America des New York Yacht Club.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: America’s Cup",
+    "source_url": "https://de.wikipedia.org/wiki/America’s_Cup",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the America's Cup, the oldest sailing regatta still held, named after?",
+        "options": [
+          "A city in Florida",
+          "The continent of America",
+          "A US president",
+          "The yacht that first won it in 1851"
+        ],
+        "explanation": "The America's Cup goes back to a regatta around the British Isle of Wight in 1851. The challenge trophy is named after its first winner, the yacht America of the New York Yacht Club."
+      }
+    }
+  },
+  {
+    "id": "sp73",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Nach wie vielen Innings endet ein reguläres Baseballspiel?",
+    "options": [
+      "Neun",
+      "Fünf",
+      "Drei",
+      "Zwölf"
+    ],
+    "correct_index": 0,
+    "explanation": "In einem Inning spielt jede Mannschaft einmal in der Offense und einmal in der Defense; sind drei Spieler der Offense „out“, wird gewechselt. Nach neun Innings endet das Spiel.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Baseball",
+    "source_url": "https://de.wikipedia.org/wiki/Baseball",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "After how many innings does a regular baseball game end?",
+        "options": [
+          "Nine",
+          "Five",
+          "Three",
+          "Twelve"
+        ],
+        "explanation": "In one inning each team plays once on offense and once on defense; when three offensive players are 'out', the teams switch. The game ends after nine innings."
+      }
+    }
+  },
+  {
+    "id": "sp74",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Womit spielt man den Ball beim Sepak Takraw aus Südostasien über das Netz?",
+    "options": [
+      "Mit einem Schläger",
+      "Mit den Füßen",
+      "Nur mit den Händen",
+      "Mit einem Stock"
+    ],
+    "correct_index": 1,
+    "explanation": "Sepak Takraw ist ein Rückschlagspiel aus Südostasien. Zwei Mannschaften mit je drei Spielern spielen einen Ball mit den Füßen über ein Netz in die gegnerische Spielfeldhälfte.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sepak Takraw",
+    "source_url": "https://de.wikipedia.org/wiki/Sepak_Takraw",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do players use to play the ball over the net in sepak takraw from Southeast Asia?",
+        "options": [
+          "A racket",
+          "Their feet",
+          "Only their hands",
+          "A stick"
+        ],
+        "explanation": "Sepak takraw is a net game from Southeast Asia. Two teams of three players each play a ball with their feet over a net into the opponents' half of the court."
+      }
+    }
+  },
+  {
+    "id": "sp75",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wann beschloss das IOC, Surfen in das olympische Programm aufzunehmen?",
+    "options": [
+      "1996",
+      "2004",
+      "2016",
+      "2024"
+    ],
+    "correct_index": 2,
+    "explanation": "Am 3. August 2016 entschied das Internationale Olympische Komitee in Rio de Janeiro, Surfen in das Wettkampfprogramm der Olympischen Spiele aufzunehmen.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wellenreiten",
+    "source_url": "https://de.wikipedia.org/wiki/Wellenreiten",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When did the IOC decide to add surfing to the Olympic programme?",
+        "options": [
+          "1996",
+          "2004",
+          "2016",
+          "2024"
+        ],
+        "explanation": "On 3 August 2016 the International Olympic Committee decided in Rio de Janeiro to add surfing to the Olympic competition programme."
+      }
+    }
   }
 ]
