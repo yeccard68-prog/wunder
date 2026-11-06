@@ -2867,7 +2867,7 @@
   {
     "id": "s20",
     "kind": "question",
-    "category_id": "science",
+    "category_id": "space",
     "question": "Wie alt ist das Universum nach heutigem Wissen ungefähr?",
     "options": [
       "4,5 Milliarden Jahre",
@@ -45065,6 +45065,1606 @@
           "In a stable in Rome"
         ],
         "explanation": "Dürer had never seen the Indian rhinoceros, which had arrived in Lisbon in 1515. His model was an eyewitness's description, probably with a sketch."
+      }
+    }
+  },
+  {
+    "id": "ti21",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches Tier gilt als das schnellste bekannte Tier – mit über 320 km/h beim Sturzflug auf Beute?",
+    "options": [
+      "Der Mauersegler",
+      "Der Gepard",
+      "Der Steinadler",
+      "Der Wanderfalke"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Wanderfalke erreicht beim Jagdstoß mehr als 320 km/h und ist damit das schnellste bekannte Tier. Er brütet auf allen Kontinenten außer der Antarktis.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wanderfalke",
+    "source_url": "https://de.wikipedia.org/wiki/Wanderfalke",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animal is the fastest known animal – reaching over 320 km/h when diving on prey?",
+        "options": [
+          "The common swift",
+          "The cheetah",
+          "The golden eagle",
+          "The peregrine falcon"
+        ],
+        "explanation": "The peregrine falcon reaches more than 320 km/h when stooping on prey, making it the fastest known animal. It breeds on every continent except Antarctica."
+      }
+    }
+  },
+  {
+    "id": "ti22",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welcher Vogel hat die größte Flügelspannweite der Welt?",
+    "options": [
+      "Der Wanderalbatros",
+      "Der Andenkondor",
+      "Der Weißkopfseeadler",
+      "Der Rosapelikan"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Wanderalbatros erreicht eine Flügelspanne von über 350 Zentimetern. Er lebt in der Subantarktis und ist gefährdet.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wanderalbatros",
+    "source_url": "https://de.wikipedia.org/wiki/Wanderalbatros",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which bird has the largest wingspan in the world?",
+        "options": [
+          "The wandering albatross",
+          "The Andean condor",
+          "The bald eagle",
+          "The great white pelican"
+        ],
+        "explanation": "The wandering albatross reaches a wingspan of over 350 centimetres. It lives in the sub-Antarctic and is endangered."
+      }
+    }
+  },
+  {
+    "id": "ti23",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woraus besteht das Skelett von Haien?",
+    "options": [
+      "Aus Knochen",
+      "Aus Knorpel",
+      "Aus Chitin wie bei Insekten",
+      "Haie haben gar kein Skelett"
+    ],
+    "correct_index": 1,
+    "explanation": "Haie gehören zu den Knorpelfischen. Anders als bei den Knochenfischen besteht ihr Skelett aus Knorpel, der durch eingelagerten Kalk aber sehr fest werden kann.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Knorpelfische",
+    "source_url": "https://de.wikipedia.org/wiki/Knorpelfische",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a shark's skeleton made of?",
+        "options": [
+          "Bone",
+          "Cartilage",
+          "Chitin, as in insects",
+          "Sharks have no skeleton at all"
+        ],
+        "explanation": "Sharks are cartilaginous fish. Unlike bony fish, their skeleton is made of cartilage, which can become very hard through stored calcium."
+      }
+    }
+  },
+  {
+    "id": "ti24",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches Wirbeltier erreicht von allen bekannten Arten das höchste Alter?",
+    "options": [
+      "Der Asiatische Elefant",
+      "Die Riesenschildkröte",
+      "Der Grönlandhai",
+      "Der Blauwal"
+    ],
+    "correct_index": 2,
+    "explanation": "Untersuchungen von 2016 ergaben, dass Grönlandhaie einige hundert Jahre alt werden können. Beim größten untersuchten Tier, 5,02 Meter lang, schätzte man ein Alter von 392 ± 120 Jahren.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grönlandhai",
+    "source_url": "https://de.wikipedia.org/wiki/Grönlandhai",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which vertebrate reaches the greatest age of all known species?",
+        "options": [
+          "The Asian elephant",
+          "The giant tortoise",
+          "The Greenland shark",
+          "The blue whale"
+        ],
+        "explanation": "Studies from 2016 found that Greenland sharks can live for several hundred years. The largest animal examined, 5.02 metres long, was estimated to be 392 ± 120 years old."
+      }
+    }
+  },
+  {
+    "id": "ti25",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wohin wandern erwachsene Atlantische Lachse zum Laichen?",
+    "options": [
+      "Ins Mittelmeer",
+      "In die Tiefsee",
+      "In einen beliebigen See",
+      "Zurück an den Ort, an dem sie geschlüpft sind"
+    ],
+    "correct_index": 3,
+    "explanation": "Junge Lachse wandern mit etwa einem Jahr ins Meer. Nach einigen Jahren kehren sie zu ihrem Schlupfort zurück, um dort selbst zu laichen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Atlantischer Lachs",
+    "source_url": "https://de.wikipedia.org/wiki/Atlantischer_Lachs",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do adult Atlantic salmon migrate to spawn?",
+        "options": [
+          "To the Mediterranean",
+          "To the deep sea",
+          "To any lake",
+          "Back to the place where they hatched"
+        ],
+        "explanation": "Young salmon move out to sea at about one year old. After a few years they return to the place where they hatched to spawn there themselves."
+      }
+    }
+  },
+  {
+    "id": "ti26",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was macht der Kuckuck mit seinen Eiern?",
+    "options": [
+      "Er legt sie in die Nester anderer Vögel",
+      "Er vergräbt sie im Sand",
+      "Er brütet sie allein in einer Baumhöhle aus",
+      "Er trägt sie im Gefieder"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Kuckuck legt seine Eier einzeln in Nester kleinerer Singvögel und brütet nicht selbst. Die Weibchen legen Eier, die denen ihrer bevorzugten Wirtsvögel ähneln.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kuckuck",
+    "source_url": "https://de.wikipedia.org/wiki/Kuckuck",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the cuckoo do with its eggs?",
+        "options": [
+          "It lays them in other birds' nests",
+          "It buries them in sand",
+          "It hatches them alone in a tree hole",
+          "It carries them in its feathers"
+        ],
+        "explanation": "The cuckoo lays its eggs one by one in the nests of smaller songbirds and does not brood them itself. The females lay eggs that resemble those of their preferred host birds."
+      }
+    }
+  },
+  {
+    "id": "ti27",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie oft setzen Faultiere ungefähr Kot und Urin ab?",
+    "options": [
+      "Mehrmals am Tag",
+      "Etwa alle acht Tage",
+      "Einmal im Monat",
+      "Nur einmal im Jahr"
+    ],
+    "correct_index": 1,
+    "explanation": "Faultiere sind bis zu 20 Stunden am Tag inaktiv. Kot und Urin setzen sie nur etwa alle acht Tage ab – Dreifinger-Faultiere steigen dafür sogar regelmäßig auf den Boden herab.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Faultiere",
+    "source_url": "https://de.wikipedia.org/wiki/Faultiere",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About how often do sloths pass droppings and urine?",
+        "options": [
+          "Several times a day",
+          "About every eight days",
+          "Once a month",
+          "Only once a year"
+        ],
+        "explanation": "Sloths are inactive for up to 20 hours a day. They only pass droppings and urine about every eight days – three-toed sloths even climb down to the ground regularly to do so."
+      }
+    }
+  },
+  {
+    "id": "ti28",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist am Zusammenleben der Nacktmulle für Säugetiere sehr ungewöhnlich?",
+    "options": [
+      "Sie wandern jedes Jahr übers Meer",
+      "Sie leben immer völlig allein",
+      "Sie leben in Staaten mit einer Königin",
+      "Sie leben nur auf Bäumen"
+    ],
+    "correct_index": 2,
+    "explanation": "Nacktmulle leben in großen Kolonien mit Arbeitsteilung – eine Staatenbildung, die bei Säugetieren sehr selten ist. Die Königin prägt sogar den „Dialekt“ ihrer Kolonie.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nacktmull",
+    "source_url": "https://de.wikipedia.org/wiki/Nacktmull",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is very unusual for mammals about how naked mole-rats live?",
+        "options": [
+          "They cross the sea every year",
+          "They always live completely alone",
+          "They live in colonies with a queen",
+          "They only live in trees"
+        ],
+        "explanation": "Naked mole-rats live in large colonies with a division of labour – a kind of social state that is very rare among mammals. The queen even shapes the 'dialect' of her colony."
+      }
+    }
+  },
+  {
+    "id": "ti29",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum sitzen einige Erdmännchen aufrecht auf den Hinterbeinen vor ihrem Bau?",
+    "options": [
+      "Sie rufen ihre Jungen zum Fressen",
+      "Sie fangen Vögel aus der Luft",
+      "Sie warten auf Regen",
+      "Sie halten Wache und warnen vor Feinden"
+    ],
+    "correct_index": 3,
+    "explanation": "Mehrere Tiere sitzen auf den Hinterbeinen vor den Eingängen und halten Ausschau nach Feinden. Die Wache wechselt mehrmals am Tag; bei Gefahr bellen sie zur Warnung.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erdmännchen",
+    "source_url": "https://de.wikipedia.org/wiki/Erdmännchen",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do some meerkats sit upright on their hind legs in front of their burrow?",
+        "options": [
+          "They call their young to eat",
+          "They catch birds out of the air",
+          "They are waiting for rain",
+          "They keep watch and warn of enemies"
+        ],
+        "explanation": "Several animals sit on their hind legs in front of the entrances and look out for enemies. The guard changes several times a day; in danger they bark a warning."
+      }
+    }
+  },
+  {
+    "id": "ti30",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was entscheidet bei Krokodilen, ob aus einem Ei ein Weibchen oder ein Männchen schlüpft?",
+    "options": [
+      "Die Größe des Eis",
+      "Die Temperatur im Nest",
+      "Das Alter der Mutter",
+      "Die Mondphase"
+    ],
+    "correct_index": 1,
+    "explanation": "Krokodile haben keine Geschlechtschromosomen. Bei unter etwa 30 °C schlüpfen Weibchen, bei etwa 34 °C nur Männchen.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Krokodile",
+    "source_url": "https://de.wikipedia.org/wiki/Krokodile",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What decides whether a female or a male hatches from a crocodile egg?",
+        "options": [
+          "The size of the egg",
+          "The temperature in the nest",
+          "The mother's age",
+          "The phase of the moon"
+        ],
+        "explanation": "Crocodiles have no sex chromosomes. Below about 30 °C females hatch, at about 34 °C only males."
+      }
+    }
+  },
+  {
+    "id": "ti31",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wozu schneiden Blattschneiderameisen Blätter ab?",
+    "options": [
+      "Um ihr Nest damit zu decken",
+      "Um die Blätter zu fressen",
+      "Um darauf einen Pilz zu züchten, von dem sie leben",
+      "Um sich damit zu tarnen"
+    ],
+    "correct_index": 2,
+    "explanation": "Sie fressen die Blätter nicht selbst, sondern zerkauen sie und lassen darauf einen Pilz wachsen, von dem sie sich ernähren – in regelrechten Pilzfarmen. Das erkannte der Naturforscher Thomas Belt 1874.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blattschneiderameisen",
+    "source_url": "https://de.wikipedia.org/wiki/Blattschneiderameisen",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do leafcutter ants cut leaves?",
+        "options": [
+          "To roof their nest with them",
+          "To eat the leaves",
+          "To grow a fungus on them that they live on",
+          "To camouflage themselves"
+        ],
+        "explanation": "They do not eat the leaves themselves; they chew them up and grow a fungus on them that they feed on – in real fungus farms. The naturalist Thomas Belt discovered this in 1874."
+      }
+    }
+  },
+  {
+    "id": "ti32",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie finden Fledermäuse im Dunkeln Insekten?",
+    "options": [
+      "Mit leuchtenden Augen",
+      "Mit einem Wärmesinn wie Schlangen",
+      "Allein am Geruch",
+      "Mit Echoortung: Sie werten das Echo ihrer Rufe aus"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei der Echoortung senden Tiere Schallwellen aus und werten das Echo aus. Besonders ausgeprägt ist das bei Fledermäusen, die so Insekten orten, und bei Zahnwalen.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Echoortung (Tiere)",
+    "source_url": "https://de.wikipedia.org/wiki/Echoortung_(Tiere)",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do bats find insects in the dark?",
+        "options": [
+          "With glowing eyes",
+          "With a heat sense like snakes",
+          "By smell alone",
+          "By echolocation: they analyse the echo of their calls"
+        ],
+        "explanation": "In echolocation, animals send out sound waves and analyse the echo. It is especially well developed in bats, which locate insects this way, and in toothed whales."
+      }
+    }
+  },
+  {
+    "id": "ti33",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wer wärmt beim Kaiserpinguin das Ei, bis das Küken schlüpft?",
+    "options": [
+      "Das Männchen – auf seinen Füßen",
+      "Das Weibchen in einem Nest",
+      "Beide abwechselnd in einer Höhle",
+      "Niemand – das Ei liegt im Schnee"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Weibchen legt zwischen Mai und Juni ein einziges, rund 450 Gramm schweres Ei, übergibt es sofort dem Männchen und kehrt ins Meer zurück. Das Männchen trägt das Ei auf den Füßen unter seiner Bauchfalte – mitten im antarktischen Winter.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaiserpinguin",
+    "source_url": "https://de.wikipedia.org/wiki/Kaiserpinguin",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who keeps the emperor penguin's egg warm until the chick hatches?",
+        "options": [
+          "The male – on his feet",
+          "The female in a nest",
+          "Both in turn in a cave",
+          "Nobody – the egg lies in the snow"
+        ],
+        "explanation": "Between May and June the female lays a single egg of about 450 grams, hands it straight to the male and returns to the sea. The male carries the egg on his feet under a fold of belly skin – in the middle of the Antarctic winter."
+      }
+    }
+  },
+  {
+    "id": "ti34",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woraus ist der Rüssel des Elefanten entstanden?",
+    "options": [
+      "Aus einem verlängerten Zahn",
+      "Aus Nase und Oberlippe",
+      "Aus der Zunge",
+      "Aus dem Unterkiefer"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Rüssel ist ein muskulöses Organ, das aus der Verwachsung der Nase mit der Oberlippe hervorgegangen ist. Die Stoßzähne sind dagegen umgebildete obere Schneidezähne.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elefanten",
+    "source_url": "https://de.wikipedia.org/wiki/Elefanten",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the elephant's trunk develop from?",
+        "options": [
+          "An elongated tooth",
+          "The nose and upper lip",
+          "The tongue",
+          "The lower jaw"
+        ],
+        "explanation": "The trunk is a muscular organ that developed from the nose fused with the upper lip. The tusks, by contrast, are modified upper incisors."
+      }
+    }
+  },
+  {
+    "id": "ti35",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo leben Zebras in freier Natur?",
+    "options": [
+      "In Asien",
+      "In Afrika und Südamerika",
+      "Nur in Afrika",
+      "In Australien"
+    ],
+    "correct_index": 2,
+    "explanation": "Alle drei Zebraarten – Grevyzebra, Bergzebra und Steppenzebra – kommen ausschließlich in Afrika vor, meist in offenen Landschaften.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zebras",
+    "source_url": "https://de.wikipedia.org/wiki/Zebras",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do zebras live in the wild?",
+        "options": [
+          "In Asia",
+          "In Africa and South America",
+          "Only in Africa",
+          "In Australia"
+        ],
+        "explanation": "All three zebra species – Grévy's zebra, the mountain zebra and the plains zebra – live only in Africa, mostly in open country."
+      }
+    }
+  },
+  {
+    "id": "ti36",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie viele Stacheln hat ein ausgewachsener Igel ungefähr?",
+    "options": [
+      "Etwa 50",
+      "Etwa 500",
+      "Etwa 5000",
+      "Etwa 50.000"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein ausgewachsener, 600 Gramm schwerer Igel hat etwa 5000 Stacheln, ein sehr großer bis zu 7500. Die Stacheln sind umgewandelte Haare.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Braunbrustigel",
+    "source_url": "https://de.wikipedia.org/wiki/Braunbrustigel",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About how many spines does an adult hedgehog have?",
+        "options": [
+          "About 50",
+          "About 500",
+          "About 5,000",
+          "About 50,000"
+        ],
+        "explanation": "An adult hedgehog weighing 600 grams has about 5,000 spines, a very large one up to 7,500. The spines are modified hairs."
+      }
+    }
+  },
+  {
+    "id": "ti37",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Zu welcher Tiergruppe gehört der Schwertwal, auch Orca genannt?",
+    "options": [
+      "Zu den Delfinen",
+      "Zu den Haien",
+      "Zu den Bartenwalen",
+      "Zu den Robben"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Schwertwal ist die größte heute lebende Delfinart. Er kommt in allen Ozeanen vor, vor allem in den Polargebieten.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Wale"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwertwal",
+    "source_url": "https://de.wikipedia.org/wiki/Schwertwal",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which group of animals does the killer whale, or orca, belong to?",
+        "options": [
+          "The dolphins",
+          "The sharks",
+          "The baleen whales",
+          "The seals"
+        ],
+        "explanation": "The killer whale is the largest living species of dolphin. It is found in all oceans, especially in the polar regions."
+      }
+    }
+  },
+  {
+    "id": "ti38",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie weit fliegen einzelne Monarchfalter auf ihrer Wanderung im Herbst?",
+    "options": [
+      "Bis zu 36 Kilometer",
+      "Bis zu 3600 Kilometer",
+      "Bis zu 360 Kilometer",
+      "Bis zu 36.000 Kilometer"
+    ],
+    "correct_index": 1,
+    "explanation": "Einzelne Monarchfalter legen in Nordamerika bis zu 3600 Kilometer zurück. Die östliche Population überwintert mit mehreren 100 Millionen Tieren auf wenigen Hektar in Mexiko.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Monarchfalter",
+    "source_url": "https://de.wikipedia.org/wiki/Monarchfalter",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How far do some monarch butterflies fly on their autumn migration?",
+        "options": [
+          "Up to 36 kilometres",
+          "Up to 3,600 kilometres",
+          "Up to 360 kilometres",
+          "Up to 36,000 kilometres"
+        ],
+        "explanation": "Some monarch butterflies cover up to 3,600 kilometres in North America. The eastern population spends the winter in Mexico – several hundred million butterflies on just a few hectares."
+      }
+    }
+  },
+  {
+    "id": "ws20",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum sehen wir vom Mond immer dieselbe Seite?",
+    "options": [
+      "Er dreht sich gar nicht um sich selbst",
+      "Er dreht sich in genau der Zeit einmal um sich selbst, in der er die Erde umkreist",
+      "Die Erde verdeckt seine andere Seite",
+      "Seine Rückseite ist immer dunkel"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Mond ist in gebundener Rotation zur Erde: Seine Eigendrehung ist mit seinem Umlauf gekoppelt, deshalb wendet er uns stets dieselbe Seite zu. Ursache war die Gezeitenreibung.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gebundene Rotation",
+    "source_url": "https://de.wikipedia.org/wiki/Gebundene_Rotation",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do we always see the same side of the Moon?",
+        "options": [
+          "It does not turn at all",
+          "It turns once on its axis in exactly the time it takes to orbit the Earth",
+          "The Earth hides its other side",
+          "Its far side is always dark"
+        ],
+        "explanation": "The Moon is tidally locked to the Earth: its rotation is coupled to its orbit, so it always turns the same side towards us. Tidal friction caused this."
+      }
+    }
+  },
+  {
+    "id": "ws21",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wann kommt der Halleysche Komet das nächste Mal in Erdnähe?",
+    "options": [
+      "2030",
+      "2061",
+      "2099",
+      "2136"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Komet Halley kehrt im Mittel alle 75,3 Jahre wieder. Zuletzt kam er 1986 in Erdnähe; seine nächste Wiederkehr wurde für 2061 berechnet.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Kometen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 1P/Halley",
+    "source_url": "https://de.wikipedia.org/wiki/1P/Halley",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When will Halley's Comet next come close to Earth?",
+        "options": [
+          "2030",
+          "2061",
+          "2099",
+          "2136"
+        ],
+        "explanation": "Halley's Comet returns on average every 75.3 years. It last came close to Earth in 1986; its next return has been calculated for 2061."
+      }
+    }
+  },
+  {
+    "id": "ws22",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welche Spiralgalaxie liegt der Milchstraße am nächsten?",
+    "options": [
+      "Die Feuerradgalaxie",
+      "Die Sombrerogalaxie",
+      "Die Whirlpool-Galaxie",
+      "Die Andromedagalaxie"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Andromedagalaxie ist rund 2,5 Millionen Lichtjahre entfernt – die nächste Spiralgalaxie. Unter guten Bedingungen ist sie das entfernteste Objekt, das man mit bloßem Auge sehen kann.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Galaxien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Andromedagalaxie",
+    "source_url": "https://de.wikipedia.org/wiki/Andromedagalaxie",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which spiral galaxy is closest to the Milky Way?",
+        "options": [
+          "The Pinwheel Galaxy",
+          "The Sombrero Galaxy",
+          "The Whirlpool Galaxy",
+          "The Andromeda Galaxy"
+        ],
+        "explanation": "The Andromeda Galaxy is about 2.5 million light years away – the nearest spiral galaxy. In good conditions it is the most distant object you can see with the naked eye."
+      }
+    }
+  },
+  {
+    "id": "ws23",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was wird nach Computersimulationen in 4 bis 10 Milliarden Jahren mit der Andromedagalaxie und der Milchstraße geschehen?",
+    "options": [
+      "Sie stoßen zusammen und verschmelzen",
+      "Sie entfernen sich für immer voneinander",
+      "Die Andromedagalaxie erlischt",
+      "Beide werden zu Schwarzen Löchern"
+    ],
+    "correct_index": 0,
+    "explanation": "Simulationen lassen erwarten, dass die Andromedagalaxie in 4 bis 10 Milliarden Jahren mit der Milchstraße kollidiert. Beide verschmelzen dann zu einer neuen Galaxie.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Galaxien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Andromedagalaxie",
+    "source_url": "https://de.wikipedia.org/wiki/Andromedagalaxie",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to computer simulations, what will happen to the Andromeda Galaxy and the Milky Way in 4 to 10 billion years?",
+        "options": [
+          "They will collide and merge",
+          "They will drift apart for ever",
+          "The Andromeda Galaxy will go dark",
+          "Both will become black holes"
+        ],
+        "explanation": "Simulations suggest that the Andromeda Galaxy will collide with the Milky Way in 4 to 10 billion years. The two will then merge into a new galaxy."
+      }
+    }
+  },
+  {
+    "id": "ws24",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie hieß der erste künstliche Erdsatellit, gestartet am 4. Oktober 1957?",
+    "options": [
+      "Explorer 1",
+      "Sputnik 1",
+      "Wostok 1",
+      "Apollo 1"
+    ],
+    "correct_index": 1,
+    "explanation": "Sputnik 1 – russisch für „Weggefährte“ – war der erste künstliche Erdsatellit. Er verglühte am 4. Januar 1958, 92 Tage nach dem Start.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sputnik 1",
+    "source_url": "https://de.wikipedia.org/wiki/Sputnik_1",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the name of the first artificial Earth satellite, launched on 4 October 1957?",
+        "options": [
+          "Explorer 1",
+          "Sputnik 1",
+          "Vostok 1",
+          "Apollo 1"
+        ],
+        "explanation": "Sputnik 1 – Russian for 'fellow traveller' – was the first artificial Earth satellite. It burned up on 4 January 1958, 92 days after launch."
+      }
+    }
+  },
+  {
+    "id": "ws25",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welches ist das größte Objekt im Asteroidengürtel?",
+    "options": [
+      "Der Komet Halley",
+      "Der Mond Phobos",
+      "Der Zwergplanet Ceres",
+      "Der Planet Merkur"
+    ],
+    "correct_index": 2,
+    "explanation": "Ceres ist mit rund 964 Kilometern Durchmesser das größte Objekt im Asteroidengürtel. Giuseppe Piazzi entdeckte sie am 1. Januar 1801; seit 2006 zählt sie zu den Zwergplaneten.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sonnensystem"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ceres (Zwergplanet)",
+    "source_url": "https://de.wikipedia.org/wiki/Ceres_(Zwergplanet)",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the largest object in the asteroid belt?",
+        "options": [
+          "Halley's Comet",
+          "The moon Phobos",
+          "The dwarf planet Ceres",
+          "The planet Mercury"
+        ],
+        "explanation": "With a diameter of about 964 kilometres, Ceres is the largest object in the asteroid belt. Giuseppe Piazzi discovered it on 1 January 1801; since 2006 it has counted as a dwarf planet."
+      }
+    }
+  },
+  {
+    "id": "ws26",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wo liegt der Kuipergürtel?",
+    "options": [
+      "Im Inneren der Sonne",
+      "Zwischen Mars und Jupiter",
+      "Zwischen Erde und Venus",
+      "Außerhalb der Neptunbahn"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Kuipergürtel ist eine flache, ringförmige Region außerhalb der Neptunbahn, rund 30 bis 50 Astronomische Einheiten von der Sonne entfernt. Er enthält schätzungsweise mehr als 70.000 Objekte mit über 100 km Durchmesser.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sonnensystem"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kuipergürtel",
+    "source_url": "https://de.wikipedia.org/wiki/Kuipergürtel",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where is the Kuiper belt?",
+        "options": [
+          "Inside the Sun",
+          "Between Mars and Jupiter",
+          "Between Earth and Venus",
+          "Beyond the orbit of Neptune"
+        ],
+        "explanation": "The Kuiper belt is a flat, ring-shaped region beyond the orbit of Neptune, about 30 to 50 astronomical units from the Sun. It is estimated to contain more than 70,000 objects over 100 km across."
+      }
+    }
+  },
+  {
+    "id": "ws27",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie ist der Mond nach der Kollisionstheorie entstanden?",
+    "options": [
+      "Ein etwa marsgroßer Himmelskörper prallte auf die Erde, aus den Trümmern bildete sich der Mond",
+      "Die Erde fing einen vorbeifliegenden Asteroiden ein",
+      "Er löste sich von der schnell rotierenden Erde ab",
+      "Er entstand gemeinsam mit der Sonne"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach der Kollisionstheorie stieß vor etwa 4,5 Milliarden Jahren der Protoplanet Theia, etwa so groß wie der Mars, mit der Erde zusammen. Aus den Bruchstücken in der Umlaufbahn bildete sich der Mond. Theia ist eine Hypothese.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Theia (Protoplanet)",
+    "source_url": "https://de.wikipedia.org/wiki/Theia_(Protoplanet)",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the giant-impact theory, how did the Moon form?",
+        "options": [
+          "A body about the size of Mars crashed into the Earth, and the Moon formed from the debris",
+          "The Earth captured a passing asteroid",
+          "It split off from the fast-spinning Earth",
+          "It formed together with the Sun"
+        ],
+        "explanation": "According to the giant-impact theory, the protoplanet Theia, about the size of Mars, collided with the Earth about 4.5 billion years ago. The Moon formed from the debris in orbit. Theia is a hypothesis."
+      }
+    }
+  },
+  {
+    "id": "ws28",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum konnte Apollo 13 im April 1970 nicht auf dem Mond landen?",
+    "options": [
+      "Die Rakete startete zu spät",
+      "Ein Sauerstofftank im Servicemodul explodierte",
+      "Ein Sonnensturm störte den Funk",
+      "Der Landeplatz war zu steinig"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach der Explosion eines Sauerstofftanks im Servicemodul war die Landung nicht mehr möglich. Jim Lovell, Jack Swigert und Fred Haise kehrten in einer weltweit beachteten Rettungsaktion zur Erde zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Apollo 13",
+    "source_url": "https://de.wikipedia.org/wiki/Apollo_13",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why could Apollo 13 not land on the Moon in April 1970?",
+        "options": [
+          "The rocket launched too late",
+          "An oxygen tank in the service module exploded",
+          "A solar storm disrupted the radio",
+          "The landing site was too rocky"
+        ],
+        "explanation": "After an oxygen tank in the service module exploded, a landing was no longer possible. Jim Lovell, Jack Swigert and Fred Haise returned to Earth in a rescue operation followed around the world."
+      }
+    }
+  },
+  {
+    "id": "ws29",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viele Monde hat der Mars?",
+    "options": [
+      "Einen",
+      "Keinen",
+      "Zwei",
+      "Zwölf"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Mars hat zwei kleine Monde, Phobos und Deimos. Beide entdeckte der Astronom Asaph Hall im Jahr 1877. Phobos heißt auf Deutsch „Furcht“.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Phobos (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Phobos_(Mond)",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many moons does Mars have?",
+        "options": [
+          "One",
+          "None",
+          "Two",
+          "Twelve"
+        ],
+        "explanation": "Mars has two small moons, Phobos and Deimos. The astronomer Asaph Hall discovered both in 1877. Phobos means 'fear'."
+      }
+    }
+  },
+  {
+    "id": "ws30",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum ist die Lichtgeschwindigkeit seit 1983 ein exakter Wert ohne Messfehler?",
+    "options": [
+      "Weil der Meter seit 1983 so festgelegt ist, dass sie genau diesen Wert hat",
+      "Weil man sie 1983 auf den Meter genau gemessen hat",
+      "Weil Licht immer gleich schnell ist und man das auswendig weiß",
+      "Weil sie seit 1983 nicht mehr gemessen werden darf"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Lichtgeschwindigkeit hat keine Messunsicherheit, weil der Meter seit 1983 so definiert ist, dass sie genau ihren festgelegten Wert erhält. Sie ist eine der Konstanten, über die die SI-Einheiten bestimmt sind.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lichtgeschwindigkeit",
+    "source_url": "https://de.wikipedia.org/wiki/Lichtgeschwindigkeit",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why has the speed of light been an exact value without any measurement error since 1983?",
+        "options": [
+          "Because since 1983 the metre has been defined so that light has exactly this speed",
+          "Because it was measured to the metre in 1983",
+          "Because light is always equally fast and everyone knows it by heart",
+          "Because it may no longer be measured since 1983"
+        ],
+        "explanation": "The speed of light has no measurement uncertainty, because since 1983 the metre has been defined so that the speed of light has exactly its fixed value. It is one of the constants on which the SI units are based."
+      }
+    }
+  },
+  {
+    "id": "ws31",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was für ein Stern ist Beteigeuze, der „Schulterstern“ des Orion?",
+    "options": [
+      "Ein Weißer Zwerg",
+      "Ein Roter Überriese",
+      "Ein Neutronenstern",
+      "Ein Planet"
+    ],
+    "correct_index": 1,
+    "explanation": "Beteigeuze zählt zu den Roten Überriesen. Er hat etwa den achthundertfachen Durchmesser der Sonne – das Volumen der Sonne passt rund eine halbe Milliarde Mal hinein.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Beteigeuze",
+    "source_url": "https://de.wikipedia.org/wiki/Beteigeuze",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What kind of star is Betelgeuse, Orion's 'shoulder star'?",
+        "options": [
+          "A white dwarf",
+          "A red supergiant",
+          "A neutron star",
+          "A planet"
+        ],
+        "explanation": "Betelgeuse is a red supergiant. It is about 800 times the diameter of the Sun – the Sun's volume would fit into it about half a billion times."
+      }
+    }
+  },
+  {
+    "id": "ws32",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viele Menschen haben bis heute den Mond betreten?",
+    "options": [
+      "2",
+      "12",
+      "24",
+      "120"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei den Mondlandungen des Apollo-Programms betraten insgesamt 12 Menschen den Mond – alle waren US-Amerikaner.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Apollo-Programm",
+    "source_url": "https://de.wikipedia.org/wiki/Apollo-Programm",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many people have walked on the Moon so far?",
+        "options": [
+          "2",
+          "12",
+          "24",
+          "120"
+        ],
+        "explanation": "During the Apollo programme's Moon landings, a total of 12 people walked on the Moon – all of them Americans."
+      }
+    }
+  },
+  {
+    "id": "ws33",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viele Monde hat der Merkur?",
+    "options": [
+      "Vier",
+      "Einen",
+      "Zwei",
+      "Keinen"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Merkur hat keinen Mond – und ernsthaft vermutet wurde einer auch nie.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Merkur (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Merkur_(Planet)",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many moons does Mercury have?",
+        "options": [
+          "Four",
+          "One",
+          "Two",
+          "None"
+        ],
+        "explanation": "Mercury has no moon – and nobody ever seriously suspected one."
+      }
+    }
+  },
+  {
+    "id": "ws34",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Woraus bestehen die Ringe des Saturn?",
+    "options": [
+      "Aus unzähligen Brocken aus Eis und Gestein",
+      "Aus leuchtendem Gas",
+      "Aus einer festen Scheibe aus Metall",
+      "Aus Wolken wie auf der Erde"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Ringe bestehen aus einer ungeheuren Anzahl kleiner Brocken aus Eis und Gestein, von Staubkörnern bis zu einigen Metern Größe. Aus der Ferne wirken sie wie eine geschlossene Scheibe.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ringe des Saturn",
+    "source_url": "https://de.wikipedia.org/wiki/Ringe_des_Saturn",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are Saturn's rings made of?",
+        "options": [
+          "Countless chunks of ice and rock",
+          "Glowing gas",
+          "A solid metal disc",
+          "Clouds like those on Earth"
+        ],
+        "explanation": "The rings consist of an enormous number of small chunks of ice and rock, from dust grains up to a few metres across. From a distance they look like a closed disc."
+      }
+    }
+  },
+  {
+    "id": "ws35",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum leuchtet der Mond bei einer totalen Mondfinsternis oft rötlich?",
+    "options": [
+      "Der Mond glüht vor Hitze",
+      "Die Erdatmosphäre lenkt rotes Sonnenlicht in den Erdschatten",
+      "Der Mars spiegelt sein Licht auf den Mond",
+      "Die Sonne wird zu dieser Zeit rot"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Sonnenlicht, das durch die Erdatmosphäre fällt, wird etwas nach innen gebrochen; die blauen Anteile werden dabei geschwächt. So erreicht der rote Anteil den Mond auch im Kernschatten – man spricht vom Kupfermond oder Blutmond.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mondfinsternis",
+    "source_url": "https://de.wikipedia.org/wiki/Mondfinsternis",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does the Moon often glow reddish during a total lunar eclipse?",
+        "options": [
+          "The Moon glows with heat",
+          "The Earth's atmosphere bends red sunlight into the Earth's shadow",
+          "Mars reflects its light onto the Moon",
+          "The Sun turns red at that time"
+        ],
+        "explanation": "Sunlight passing through the Earth's atmosphere is bent slightly inwards, and its blue parts are weakened on the way. So the red part still reaches the Moon in the umbra – this is called a copper moon or blood moon."
+      }
+    }
+  },
+  {
+    "id": "ws36",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wann gibt es jedes Jahr besonders viele Sternschnuppen der Perseiden?",
+    "options": [
+      "Im März",
+      "Um Weihnachten",
+      "Um den 13. August",
+      "Ende Oktober"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Perseiden sind ein Meteorstrom, der jedes Jahr in der ersten Augusthälfte wiederkehrt und um den 13. August sein Maximum hat. Volkstümlich heißen sie „Laurentiustränen“.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Himmel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Perseiden",
+    "source_url": "https://de.wikipedia.org/wiki/Perseiden",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When are there especially many Perseid shooting stars every year?",
+        "options": [
+          "In March",
+          "Around Christmas",
+          "Around 13 August",
+          "At the end of October"
+        ],
+        "explanation": "The Perseids are a meteor shower that returns every year in the first half of August and peaks around 13 August. In German folklore they are called 'Tears of St Lawrence'."
+      }
+    }
+  },
+  {
+    "id": "ws37",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie alt ist die Sonne ungefähr?",
+    "options": [
+      "Etwa 4500 Jahre",
+      "Etwa 4,57 Millionen Jahre",
+      "Etwa 4,57 Milliarden Jahre",
+      "Etwa 457 Milliarden Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Sonne ist – wie das ganze Sonnensystem – etwa 4,57 Milliarden Jahre alt. In ihrem Kern hat sie seitdem rund 14.000 Erdmassen Wasserstoff in Helium verwandelt.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sonne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonne",
+    "source_url": "https://de.wikipedia.org/wiki/Sonne",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About how old is the Sun?",
+        "options": [
+          "About 4,500 years",
+          "About 4.57 million years",
+          "About 4.57 billion years",
+          "About 457 billion years"
+        ],
+        "explanation": "Like the whole solar system, the Sun is about 4.57 billion years old. Since then its core has turned about 14,000 Earth masses of hydrogen into helium."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-linne",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was führte Carl von Linné ein, nach dem Tiere und Pflanzen bis heute benannt werden?",
+    "options": [
+      "Die zweiteilige wissenschaftliche Benennung (binäre Nomenklatur)",
+      "Das Mikroskop",
+      "Die Evolutionstheorie",
+      "Den ersten Zoo"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit der binären Nomenklatur schuf Linné die Grundlagen der modernen botanischen und zoologischen Taxonomie – darum tragen Arten zweiteilige Namen wie Homo sapiens.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Carl von Linné",
+    "source_url": "https://de.wikipedia.org/wiki/Carl_von_Linné",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Carl Linnaeus introduce that animals and plants are still named by today?",
+        "options": [
+          "Two-part scientific names (binomial nomenclature)",
+          "The microscope",
+          "The theory of evolution",
+          "The first zoo"
+        ],
+        "explanation": "With binomial nomenclature Linnaeus laid the foundations of modern botanical and zoological taxonomy – that is why species have two-part names such as Homo sapiens."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-hubble",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was wies Edwin Hubble 1923 über den Andromedanebel M31 nach?",
+    "options": [
+      "Dass er weit außerhalb unserer Galaxis liegt",
+      "Dass er ein Komet ist",
+      "Dass er zum Sonnensystem gehört",
+      "Dass er bald erlischt"
+    ],
+    "correct_index": 0,
+    "explanation": "Am Mount-Wilson-Observatorium konnte Hubble 1923 nachweisen, dass M31 weit außerhalb unserer Galaxis liegt. Heute weiß man: Die Andromedagalaxie ist die nächste Spiralgalaxie, rund 2,5 Millionen Lichtjahre entfernt.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Edwin Hubble",
+    "source_url": "https://de.wikipedia.org/wiki/Edwin_Hubble",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Edwin Hubble prove about the Andromeda Nebula M31 in 1923?",
+        "options": [
+          "That it lies far outside our galaxy",
+          "That it is a comet",
+          "That it belongs to the solar system",
+          "That it will soon go out"
+        ],
+        "explanation": "At Mount Wilson Observatory in 1923, Hubble proved that M31 lies far outside our galaxy. Today we know the Andromeda Galaxy is the nearest spiral galaxy, about 2.5 million light years away."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-chopin",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In welchem Land lebte Chopin ab Oktober 1831 bis zu seinem Tod überwiegend?",
+    "options": [
+      "Frankreich",
+      "Polen",
+      "Österreich",
+      "Italien"
+    ],
+    "correct_index": 0,
+    "explanation": "Am 2. November 1830 verließ Chopin Polen. Ab Oktober 1831 bis zu seinem Tod 1849 lebte er überwiegend in Frankreich.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Frédéric Chopin",
+    "source_url": "https://de.wikipedia.org/wiki/Frédéric_Chopin",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country did Chopin mostly live from October 1831 until his death?",
+        "options": [
+          "France",
+          "Poland",
+          "Austria",
+          "Italy"
+        ],
+        "explanation": "On 2 November 1830 Chopin left Poland. From October 1831 until his death in 1849 he lived mostly in France."
+      }
+    }
+  },
+  {
+    "id": "q-v-person-monet",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was malte Claude Monet in Giverny besonders oft?",
+    "options": [
+      "Seerosen",
+      "Schiffe im Sturm",
+      "Porträts von Königen",
+      "Berglandschaften der Alpen"
+    ],
+    "correct_index": 0,
+    "explanation": "In Giverny legte Monet seinen berühmten Garten an, der zum Motiv vieler seiner Bilder wurde. Dort arbeitete er vor allem an den Seerosenbildern.",
+    "difficulty": 1,
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": false,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Claude Monet",
+    "source_url": "https://de.wikipedia.org/wiki/Claude_Monet",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Claude Monet paint especially often in Giverny?",
+        "options": [
+          "Water lilies",
+          "Ships in a storm",
+          "Portraits of kings",
+          "Alpine mountain landscapes"
+        ],
+        "explanation": "In Giverny Monet created his famous garden, which became the subject of many of his pictures. There he worked above all on his water lily paintings."
       }
     }
   }

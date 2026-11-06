@@ -107,8 +107,8 @@ test("clip ranking: interests first, hidden clips removed, watched clips later",
 });
 
 test("content mapping: video quizzes stay out of the feed and are attached to their clip", () => {
-  assert.equal(items.length, 1048);
-  assert.equal(clips.length, 81);
+  assert.equal(items.length, 1084);
+  assert.equal(clips.length, 85);
   assert.ok(clips.every((c) => c.quiz && !items.some((i) => i.id === c.quiz!.id)));
 });
 

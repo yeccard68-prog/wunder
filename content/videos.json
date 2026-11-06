@@ -5171,5 +5171,241 @@
         "poster": "/clips/v-person-duerer.en.jpg"
       }
     }
+  },
+  {
+    "id": "v-person-linne",
+    "category_id": "animals",
+    "title": "Carl von Linné: Ordnung für Tiere und Pflanzen",
+    "hook": "Er schuf die Grundlagen, nach denen Pflanzen und Tiere bis heute wissenschaftlich benannt werden.",
+    "description": "Carl von Linné wurde am 23. Mai 1707 in Råshult in Schweden geboren. Mit der binären Nomenklatur schuf er die Grundlagen der modernen botanischen und zoologischen Taxonomie. Ende 1741 wurde er Professor an der Universität Uppsala. Seine Werke Species Plantarum (1753) und Systema Naturæ in der zehnten Auflage von 1758 begründeten die bis heute verwendete wissenschaftliche Benennung in Botanik und Zoologie. Er starb 1778 in Uppsala.",
+    "video_url": "/clips/v-person-linne.mp4",
+    "thumbnail_url": "/clips/v-person-linne.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1707 in Schweden.",
+      "1741 wurde er Professor in Uppsala.",
+      "1758 begründete er die Namen der Zoologie."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Carl von Linné",
+        "url": "https://de.wikipedia.org/wiki/Carl_von_Linné"
+      }
+    ],
+    "published_at": "2026-11-06T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Tiere"
+    ],
+    "quiz_question_id": "q-v-person-linne",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-linne",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Carl Linnaeus: order for animals and plants",
+        "hook": "He laid the foundations on which plants and animals are still given their scientific names today.",
+        "description": "Carl Linnaeus was born in Råshult, Sweden, on 23 May 1707. With binomial nomenclature he laid the foundations of modern botanical and zoological taxonomy. At the end of 1741 he became a professor at Uppsala University. His works Species Plantarum (1753) and the tenth edition of Systema Naturae from 1758 established the scientific names still used in botany and zoology today. He died in Uppsala in 1778.",
+        "captions": [
+          "Born in Sweden in 1707.",
+          "In 1741 he became a professor in Uppsala.",
+          "In 1758 he founded the names of zoology."
+        ],
+        "file": "/clips/v-person-linne.en.mp4",
+        "poster": "/clips/v-person-linne.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-hubble",
+    "category_id": "space",
+    "title": "Edwin Hubble: Astronom und Namensgeber eines Teleskops",
+    "hook": "Er klassifizierte die Spiralgalaxien und befasste sich mit der Expansion des Weltalls.",
+    "description": "Edwin Hubble wurde am 20. November 1889 in Marshfield, Missouri, geboren. 1910 schloss er sein Studium der Physik und Astronomie in Chicago ab. Am Mount-Wilson-Observatorium wies er 1923 nach, dass der Andromedanebel M31 weit außerhalb unserer Galaxis liegt. Er klassifizierte die Spiralgalaxien und befasste sich mit der Expansion des Weltalls. 1940 erhielt er die Goldmedaille der Royal Astronomical Society; das Hubble-Weltraumteleskop trägt seinen Namen.",
+    "video_url": "/clips/v-person-hubble.mp4",
+    "thumbnail_url": "/clips/v-person-hubble.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1889 in Missouri.",
+      "1923: Andromeda liegt weit außerhalb unserer Galaxis.",
+      "Heute trägt ein Weltraumteleskop seinen Namen."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Edwin Hubble",
+        "url": "https://de.wikipedia.org/wiki/Edwin_Hubble"
+      },
+      {
+        "name": "Wikipedia: Andromedagalaxie",
+        "url": "https://de.wikipedia.org/wiki/Andromedagalaxie"
+      }
+    ],
+    "published_at": "2026-11-05T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Astronomie"
+    ],
+    "quiz_question_id": "q-v-person-hubble",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-hubble",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Edwin Hubble: astronomer and namesake of a telescope",
+        "hook": "He classified the spiral galaxies and studied the expansion of the universe.",
+        "description": "Edwin Hubble was born in Marshfield, Missouri, on 20 November 1889. In 1910 he finished his studies of physics and astronomy in Chicago. At Mount Wilson Observatory in 1923 he showed that the Andromeda Nebula M31 lies far outside our galaxy. He classified the spiral galaxies and studied the expansion of the universe. In 1940 he received the Gold Medal of the Royal Astronomical Society; the Hubble Space Telescope bears his name.",
+        "captions": [
+          "Born in Missouri in 1889.",
+          "1923: Andromeda lies far outside our galaxy.",
+          "Today a space telescope bears his name."
+        ],
+        "file": "/clips/v-person-hubble.en.mp4",
+        "poster": "/clips/v-person-hubble.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-chopin",
+    "category_id": "music",
+    "title": "Frédéric Chopin: Komponist und Pianist",
+    "hook": "Der polnische Komponist und Pianist galt schon als Kind als Wunderkind.",
+    "description": "Frédéric Chopin wurde am 22. Februar oder 1. März 1810 in Żelazowa Wola geboren. Seine musikalische Ausbildung erhielt er in Warschau, wo er auch seine ersten Stücke komponierte. Am 2. November 1830 verließ er Polen; ab Oktober 1831 bis zu seinem Tod 1849 lebte er überwiegend in Frankreich. Sein Klavierkonzert e-Moll erschien 1833 als 1. Klavierkonzert op. 11. Er starb im Alter von 39 Jahren in Paris.",
+    "video_url": "/clips/v-person-chopin.mp4",
+    "thumbnail_url": "/clips/v-person-chopin.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1810 in Polen.",
+      "1830 verließ er Polen.",
+      "Ab 1831 lebte er in Frankreich."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Frédéric Chopin",
+        "url": "https://de.wikipedia.org/wiki/Frédéric_Chopin"
+      }
+    ],
+    "published_at": "2026-11-04T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Musik"
+    ],
+    "quiz_question_id": "q-v-person-chopin",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-chopin",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Frédéric Chopin: composer and pianist",
+        "hook": "The Polish composer and pianist was regarded as a child prodigy.",
+        "description": "Frédéric Chopin was born in Żelazowa Wola on 22 February or 1 March 1810. He received his musical training in Warsaw, where he also composed his first pieces. On 2 November 1830 he left Poland; from October 1831 until his death in 1849 he lived mostly in France. His Piano Concerto in E minor appeared in 1833 as Piano Concerto No. 1, Op. 11. He died in Paris at the age of 39.",
+        "captions": [
+          "Born in Poland in 1810.",
+          "In 1830 he left Poland.",
+          "From 1831 he lived in France."
+        ],
+        "file": "/clips/v-person-chopin.en.mp4",
+        "poster": "/clips/v-person-chopin.en.jpg"
+      }
+    }
+  },
+  {
+    "id": "v-person-monet",
+    "category_id": "art",
+    "title": "Claude Monet: Maler des Impressionismus",
+    "hook": "Ein Bild von ihm gab einer ganzen Kunstrichtung ihren Namen.",
+    "description": "Claude Monet wurde am 14. November 1840 in Paris geboren. 1872 malte er in Le Havre das Bild „Impression – Sonnenaufgang“. Es war 1874 in der ersten Gruppenausstellung im Atelier des Fotografen Nadar zu sehen und gab der gesamten Bewegung ihren Namen. In Giverny legte er seinen berühmten Garten an, der zum Motiv vieler seiner Bilder wurde; 1890 kaufte er dort sein Haus. Er starb 1926 in Giverny.",
+    "video_url": "/clips/v-person-monet.mp4",
+    "thumbnail_url": "/clips/v-person-monet.jpg",
+    "duration_seconds": 10,
+    "has_audio": false,
+    "captions": [
+      "Geboren 1840 in Paris.",
+      "1872 malte er „Impression – Sonnenaufgang“.",
+      "In Giverny malte er seinen Garten."
+    ],
+    "creator_name": "Wunder Redaktion",
+    "format": "animated_fact",
+    "sources": [
+      {
+        "name": "Wikipedia: Claude Monet",
+        "url": "https://de.wikipedia.org/wiki/Claude_Monet"
+      }
+    ],
+    "published_at": "2026-11-03T12:00:00Z",
+    "tags": [
+      "Persönlichkeiten",
+      "Kunst"
+    ],
+    "quiz_question_id": "q-v-person-monet",
+    "verification_status": "ai_checked",
+    "status": "published",
+    "demo_popularity": 0,
+    "demo_comments": [],
+    "production": {
+      "provider": "remotion",
+      "composition": "v-person-monet",
+      "start": 0,
+      "end": 10
+    },
+    "min_age": 10,
+    "start_seconds": null,
+    "end_seconds": null,
+    "license": "Eigene Produktion",
+    "translations": {
+      "en": {
+        "title": "Claude Monet: painter of Impressionism",
+        "hook": "One of his pictures gave a whole art movement its name.",
+        "description": "Claude Monet was born in Paris on 14 November 1840. In 1872 he painted \"Impression, Sunrise\" in Le Havre. It was shown in 1874 at the first group exhibition in the studio of the photographer Nadar and gave the whole movement its name. In Giverny he created his famous garden, which became the subject of many of his pictures; in 1890 he bought his house there. He died in Giverny in 1926.",
+        "captions": [
+          "Born in Paris in 1840.",
+          "In 1872 he painted \"Impression, Sunrise\".",
+          "In Giverny he painted his garden."
+        ],
+        "file": "/clips/v-person-monet.en.mp4",
+        "poster": "/clips/v-person-monet.en.jpg"
+      }
+    }
   }
 ]
