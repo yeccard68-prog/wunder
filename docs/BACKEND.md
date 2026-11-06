@@ -714,3 +714,9 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 
 - **Fragen**: `2026-11-kultur-2` (`cu1`–`cu24`: Pinocchios Nase im Originalbuch, Alice im Wunderland, Robinson Crusoe, Moby-Dick, Villa Kunterbunt, Max und Moritz, Grimms Märchen, Baker Street 221b, Fuchur, Prometheus, Büchse der Pandora, Mjölnir, Diwali, Chanukka, Jahr des Pferds, Día de los Muertos, Petra, Angkor Wat, Parthenon, Sydney Opera House, Bollywood, Oberammergau, Literaturnobelpreis, Bauzeit des Kölner Doms) und `2026-11-tiere-3` (`ti39`–`ti56`: Geckofüße, Pfeilgiftfrösche, Schnabeltier-Sporne, Pfauenschleppe, Seeotter mit Stein, Ameisenbärzunge, Löwenrudel, Pfeiftöne der Tümmler, Wasserläufer, Bartgeier, Dromedar, Okapi, Anglerfisch, Geradschnabelkrähe, Eichhörnchenvorräte, Weißstorch, Lonesome George, Maulwurf). Alle Zitate von `verify-evidence.mjs` bestätigt (24 von 24, 18 von 18).
 - Im Feed jetzt: Kultur 84, Tiere 76 Fragen (insgesamt 1171).
+- **Datenbank (06.11.2026, nach dem Deploy)**: 42 Fragen eingefügt (nur neue Zeilen). Prüfsummen über den Inhalt der neuen Zeilen und über die Kategorie aller 1253 veröffentlichten Fragen mit den lokalen Daten identisch. Sicherheitstest 02 damals 1253 (03 bleibt 99); alle 66 Prüfungen ok.
+
+## 88. Mehr Weltraum (06.11.2026)
+
+- **Fragen**: `2026-11-weltraum-3` (`ws38`–`ws55`: Morgen- und Abendstern, Mondmeere aus Lava, Meteorit, Schwerelosigkeit als freier Fall, Sonne als künftiger Roter Riese, galaktisches Jahr, Sagittarius A*, erstes Bild eines Schwarzen Lochs 2019, Philae, Laika, 382 kg Mondgestein, Sonnenflecken, Vulkane auf Io, blauer Neptun, 88 Sternbilder, 135 Shuttle-Flüge, Valles Marineris, „Haarstern“). Alle Zitate von `verify-evidence.mjs` bestätigt (18 von 18).
+- Im Feed jetzt: Weltraum 84 Fragen (insgesamt 1189).

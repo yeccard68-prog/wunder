@@ -49787,5 +49787,725 @@
         "explanation": "The European mole's main food is earthworms, along with other invertebrates and even small vertebrates. Molehills show where it is digging underground."
       }
     }
+  },
+  {
+    "id": "ws38",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum nennt man die Venus auch Morgenstern und Abendstern?",
+    "options": [
+      "Weil sie nur morgens oder abends am Himmel zu sehen ist",
+      "Weil sie zweimal am Tag aufgeht",
+      "Weil sie in Wahrheit ein Stern ist",
+      "Weil sie nur bei Vollmond leuchtet"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach Sonne und Mond ist die Venus das hellste Objekt am Himmel. Weil sie nur am Morgen- oder Abendhimmel zu sehen ist und nie gegen Mitternacht, heißt sie auch Morgenstern und Abendstern – obwohl sie ein Planet ist.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Venus (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Venus_(Planet)",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is Venus also called the morning star and the evening star?",
+        "options": [
+          "Because it can only be seen in the morning or evening sky",
+          "Because it rises twice a day",
+          "Because it is really a star",
+          "Because it only shines at full moon"
+        ],
+        "explanation": "After the Sun and the Moon, Venus is the brightest object in the sky. Because it can only be seen in the morning or evening sky and never around midnight, it is also called the morning star and the evening star – even though it is a planet."
+      }
+    }
+  },
+  {
+    "id": "ws39",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was sind die dunklen „Meere“ (Maria), die man mit bloßem Auge auf dem Mond sieht?",
+    "options": [
+      "Ausgetrocknete Ozeane",
+      "Erstarrte Lavaflächen",
+      "Riesige Eisflächen",
+      "Schatten von Bergen"
+    ],
+    "correct_index": 1,
+    "explanation": "Früher hielt man die dunklen Flächen tatsächlich für Meere – daher der Name Mare, lateinisch für „Meer“. In Wirklichkeit sind die Maria erstarrte Lavadecken. Die dunklen Basalte sind 3,1 bis 3,8 Milliarden Jahre alt.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mare (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Mare_(Mond)",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the dark 'seas' (maria) that you can see on the Moon with the naked eye?",
+        "options": [
+          "Dried-up oceans",
+          "Solidified lava plains",
+          "Huge sheets of ice",
+          "Shadows of mountains"
+        ],
+        "explanation": "People once really thought the dark areas were seas – hence the name mare, Latin for 'sea'. In fact the maria are solidified sheets of lava. The dark basalts are 3.1 to 3.8 billion years old."
+      }
+    }
+  },
+  {
+    "id": "ws40",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie nennt man einen Brocken aus dem All, der durch die Atmosphäre fliegt und den Erdboden erreicht?",
+    "options": [
+      "Satellit",
+      "Komet",
+      "Planetoid",
+      "Meteorit"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Meteorit ist ein relativ kleiner Festkörper aus dem All, der die Erdatmosphäre durchquert und den Erdboden erreicht hat. Meist besteht er aus Silikatmineralen oder aus einer Eisen-Nickel-Legierung; ein Teil verglüht beim Eintritt in die Atmosphäre.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Kleinkörper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meteorit",
+    "source_url": "https://de.wikipedia.org/wiki/Meteorit",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you call a chunk from space that flies through the atmosphere and reaches the ground?",
+        "options": [
+          "A satellite",
+          "A comet",
+          "A planetoid",
+          "A meteorite"
+        ],
+        "explanation": "A meteorite is a relatively small solid body from space that has passed through Earth's atmosphere and reached the ground. It usually consists of silicate minerals or an iron-nickel alloy; part of it burns up on entering the atmosphere."
+      }
+    }
+  },
+  {
+    "id": "ws41",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum schweben Astronautinnen und Astronauten in einer Raumstation?",
+    "options": [
+      "Station, Menschen und Dinge befinden sich gemeinsam im freien Fall",
+      "Im Weltraum gibt es keine Schwerkraft",
+      "Die Station ist mit Helium gefüllt",
+      "Magnete in den Wänden halten sie in der Luft"
+    ],
+    "correct_index": 0,
+    "explanation": "Schwerelosigkeit heißt: Die Gewichtskraft ist nicht spürbar, weil sich ein Körper im freien Fall befindet. In einer Raumstation erfahren Station, Raumfahrer und lose Gegenstände im Schwerefeld der Erde praktisch dieselbe Beschleunigung – darum schwebt alles nebeneinander.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwerelosigkeit",
+    "source_url": "https://de.wikipedia.org/wiki/Schwerelosigkeit",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do astronauts float inside a space station?",
+        "options": [
+          "The station, the people and things are all in free fall together",
+          "There is no gravity in space",
+          "The station is filled with helium",
+          "Magnets in the walls hold them in the air"
+        ],
+        "explanation": "Weightlessness means that the force of weight cannot be felt because a body is in free fall. In a space station, the station, the astronauts and loose objects all have practically the same acceleration in Earth's gravitational field – so everything floats side by side."
+      }
+    }
+  },
+  {
+    "id": "ws42",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was wird aus der Sonne in etwa 7 Milliarden Jahren?",
+    "options": [
+      "Ein Schwarzes Loch",
+      "Ein Roter Riese",
+      "Ein Komet",
+      "Ein Planet"
+    ],
+    "correct_index": 1,
+    "explanation": "Leuchtkraft und Durchmesser der Sonne nehmen langsam zu. In etwa 7 Milliarden Jahren wird die Sonne dann relativ schnell zu einem Roten Riesen.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonne",
+    "source_url": "https://de.wikipedia.org/wiki/Sonne",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What will the Sun become in about 7 billion years?",
+        "options": [
+          "A black hole",
+          "A red giant",
+          "A comet",
+          "A planet"
+        ],
+        "explanation": "The Sun's brightness and diameter are slowly increasing. In about 7 billion years the Sun will then fairly quickly become a red giant."
+      }
+    }
+  },
+  {
+    "id": "ws43",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie lange braucht die Sonne für einen Umlauf um das Zentrum der Milchstraße?",
+    "options": [
+      "Etwa 1 Jahr",
+      "Etwa 230.000 Jahre",
+      "220 bis 240 Millionen Jahre",
+      "Etwa 13 Milliarden Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Einen solchen Umlauf nennt man ein galaktisches Jahr. Die Sonne braucht dafür 220 bis 240 Millionen Jahre – bei einer Geschwindigkeit von etwa 220 Kilometern pro Sekunde.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Galaxien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Milchstraße",
+    "source_url": "https://de.wikipedia.org/wiki/Milchstraße",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does the Sun take to orbit the centre of the Milky Way once?",
+        "options": [
+          "About 1 year",
+          "About 230,000 years",
+          "220 to 240 million years",
+          "About 13 billion years"
+        ],
+        "explanation": "Such an orbit is called a galactic year. The Sun needs 220 to 240 million years for it – at a speed of about 220 kilometres per second."
+      }
+    }
+  },
+  {
+    "id": "ws44",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was befindet sich im Zentrum unserer Milchstraße?",
+    "options": [
+      "Ein besonders heller Komet",
+      "Ein riesiger Planet",
+      "Ein leerer Raum ohne alles",
+      "Ein supermassereiches Schwarzes Loch"
+    ],
+    "correct_index": 3,
+    "explanation": "Im Zentrum der Milchstraße liegt Sagittarius A*, ein supermassereiches Schwarzes Loch mit gut 4 Millionen Sonnenmassen. Es ist etwa 26.673 Lichtjahre von der Sonne entfernt.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Galaxien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sagittarius A*",
+    "source_url": "https://de.wikipedia.org/wiki/Sagittarius_A*",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is at the centre of our Milky Way?",
+        "options": [
+          "A particularly bright comet",
+          "A giant planet",
+          "An empty space with nothing",
+          "A supermassive black hole"
+        ],
+        "explanation": "At the centre of the Milky Way lies Sagittarius A*, a supermassive black hole of a good 4 million solar masses. It is about 26,673 light years from the Sun."
+      }
+    }
+  },
+  {
+    "id": "ws45",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wann wurde das erste Bild eines Schwarzen Lochs veröffentlicht?",
+    "options": [
+      "1969",
+      "1990",
+      "2019",
+      "2025"
+    ],
+    "correct_index": 2,
+    "explanation": "Am 10. April 2019 stellte das Event Horizon Telescope, ein weltweiter Verbund von Radioteleskopen, die ersten hochauflösenden Aufnahmen des Kerns der Galaxie M87 vor. 2022 gelang auch ein Bild von Sagittarius A* im Zentrum der Milchstraße.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Galaxien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Event Horizon Telescope",
+    "source_url": "https://de.wikipedia.org/wiki/Event_Horizon_Telescope",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When was the first image of a black hole published?",
+        "options": [
+          "1969",
+          "1990",
+          "2019",
+          "2025"
+        ],
+        "explanation": "On 10 April 2019 the Event Horizon Telescope, a worldwide network of radio telescopes, presented the first high-resolution images of the core of the galaxy M87. In 2022 it also succeeded in imaging Sagittarius A* at the centre of the Milky Way."
+      }
+    }
+  },
+  {
+    "id": "ws46",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie hieß der Lander, der am 12. November 2014 als erster auf einem Kometen landete?",
+    "options": [
+      "Curiosity",
+      "Philae",
+      "Sputnik",
+      "Pathfinder"
+    ],
+    "correct_index": 1,
+    "explanation": "Philae war mit der Raumsonde Rosetta seit 2004 zum Kometen 67P/Tschurjumow-Gerassimenko unterwegs und landete auf ihm am 12. November 2014. Benannt sind Rosetta und Philae nach Orten in Ägypten, die bei der Entzifferung der Hieroglyphen wichtig waren.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Philae (Sonde)",
+    "source_url": "https://de.wikipedia.org/wiki/Philae_(Sonde)",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the name of the lander that on 12 November 2014 became the first to land on a comet?",
+        "options": [
+          "Curiosity",
+          "Philae",
+          "Sputnik",
+          "Pathfinder"
+        ],
+        "explanation": "Philae travelled with the Rosetta probe from 2004 to the comet 67P/Churyumov–Gerasimenko and landed on it on 12 November 2014. Rosetta and Philae are named after places in Egypt that were important in deciphering hieroglyphs."
+      }
+    }
+  },
+  {
+    "id": "ws47",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welches Lebewesen wurde 1957 als erstes gezielt in eine Umlaufbahn um die Erde geschickt?",
+    "options": [
+      "Eine Katze",
+      "Ein Schimpanse namens Ham",
+      "Die Hündin Laika",
+      "Juri Gagarin"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Hündin Laika flog am 3. November 1957 mit Sputnik 2 in den Weltraum. Sie war das erste Lebewesen, das gezielt in eine Erdumlaufbahn gebracht wurde. Eine Rückkehr zur Erde war nicht vorgesehen.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Laika",
+    "source_url": "https://de.wikipedia.org/wiki/Laika",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which living creature was the first to be deliberately sent into orbit around the Earth, in 1957?",
+        "options": [
+          "A cat",
+          "A chimpanzee called Ham",
+          "The dog Laika",
+          "Yuri Gagarin"
+        ],
+        "explanation": "The dog Laika flew into space with Sputnik 2 on 3 November 1957. She was the first living creature deliberately put into orbit around the Earth. A return to Earth was not planned."
+      }
+    }
+  },
+  {
+    "id": "ws48",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viel Mondgestein brachten die sechs Apollo-Landungen zur Erde?",
+    "options": [
+      "Etwa 38 Gramm",
+      "Etwa 3,8 Kilogramm",
+      "Etwa 382 Kilogramm",
+      "Etwa 38 Tonnen"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei den sechs Apollo-Landungen wurden 2415 Proben mit zusammen 382 Kilogramm gesammelt, das meiste davon bei Apollo 15, 16 und 17. Die drei sowjetischen Luna-Sonden brachten weitere 326 Gramm.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mondgestein",
+    "source_url": "https://de.wikipedia.org/wiki/Mondgestein",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How much Moon rock did the six Apollo landings bring back to Earth?",
+        "options": [
+          "About 38 grams",
+          "About 3.8 kilograms",
+          "About 382 kilograms",
+          "About 38 tonnes"
+        ],
+        "explanation": "During the six Apollo landings 2,415 samples weighing a total of 382 kilograms were collected, most of them on Apollo 15, 16 and 17. The three Soviet Luna probes brought back another 326 grams."
+      }
+    }
+  },
+  {
+    "id": "ws49",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum erscheinen Sonnenflecken dunkel?",
+    "options": [
+      "Sie sind kühler als die Umgebung",
+      "Sie sind Löcher in der Sonne",
+      "Der Mond wirft dort Schatten",
+      "Dort ist die Sonne mit Staub bedeckt"
+    ],
+    "correct_index": 0,
+    "explanation": "Sonnenflecken sind Stellen auf der sichtbaren Sonnenoberfläche, die kühler sind und deshalb weniger Licht abstrahlen als der Rest. Ihre Zahl und Größe sind das einfachste Maß für die Sonnenaktivität.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sonne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonnenfleck",
+    "source_url": "https://de.wikipedia.org/wiki/Sonnenfleck",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do sunspots look dark?",
+        "options": [
+          "They are cooler than their surroundings",
+          "They are holes in the Sun",
+          "The Moon casts shadows there",
+          "The Sun is covered in dust there"
+        ],
+        "explanation": "Sunspots are places on the visible surface of the Sun that are cooler and therefore give off less light than the rest. Their number and size are the simplest measure of solar activity."
+      }
+    }
+  },
+  {
+    "id": "ws50",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welcher Himmelskörper hat den stärksten Vulkanismus im ganzen Sonnensystem?",
+    "options": [
+      "Der Mars",
+      "Die Erde",
+      "Der Jupitermond Io",
+      "Der Erdmond"
+    ],
+    "correct_index": 2,
+    "explanation": "Io ist der innerste der vier großen Jupitermonde. Sein ausgeprägter Vulkanismus übertrifft alle anderen Körper des Sonnensystems. Entdeckt hat ihn Galileo Galilei im Jahr 1610.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Io (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Io_(Mond)",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which body has the strongest volcanic activity in the whole Solar System?",
+        "options": [
+          "Mars",
+          "Earth",
+          "Jupiter's moon Io",
+          "Earth's Moon"
+        ],
+        "explanation": "Io is the innermost of Jupiter's four large moons. Its intense volcanic activity exceeds that of every other body in the Solar System. Galileo Galilei discovered it in 1610."
+      }
+    }
+  },
+  {
+    "id": "ws51",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum sieht der Planet Neptun blau aus?",
+    "options": [
+      "Er besteht aus blauem Gestein",
+      "Er ist von Wasser bedeckt",
+      "Er spiegelt die Erde",
+      "Methan in seiner Atmosphäre schluckt rotes Licht"
+    ],
+    "correct_index": 3,
+    "explanation": "Die obere Atmosphäre des Neptun besteht vor allem aus Wasserstoff und Helium, dazu etwas Methan. Das Methan absorbiert rotes Licht – deshalb erscheinen Neptun und Uranus blau.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neptun (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Neptun_(Planet)",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does the planet Neptune look blue?",
+        "options": [
+          "It is made of blue rock",
+          "It is covered in water",
+          "It reflects the Earth",
+          "Methane in its atmosphere absorbs red light"
+        ],
+        "explanation": "Neptune's upper atmosphere consists mainly of hydrogen and helium, plus some methane. The methane absorbs red light – that is why Neptune and Uranus look blue."
+      }
+    }
+  },
+  {
+    "id": "ws52",
+    "kind": "question",
+    "category_id": "space",
+    "question": "In wie viele offizielle Sternbilder ist der Himmel aufgeteilt?",
+    "options": [
+      "12",
+      "48",
+      "88",
+      "365"
+    ],
+    "correct_index": 2,
+    "explanation": "Anfang des 20. Jahrhunderts wurden durch internationale Übereinkunft die Grenzen von 88 Sternbildern festgelegt. Sie teilen die ganze Himmelskugel lückenlos auf und erleichtern es, Himmelskörper zu benennen.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sternbilder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sternbild",
+    "source_url": "https://de.wikipedia.org/wiki/Sternbild",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many official constellations is the sky divided into?",
+        "options": [
+          "12",
+          "48",
+          "88",
+          "365"
+        ],
+        "explanation": "In the early 20th century the boundaries of 88 constellations were fixed by international agreement. They divide the whole celestial sphere without gaps and make it easier to name objects in the sky."
+      }
+    }
+  },
+  {
+    "id": "ws53",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viele Flüge absolvierten die Space Shuttles der NASA von 1981 bis 2011?",
+    "options": [
+      "35",
+      "135",
+      "535",
+      "1350"
+    ],
+    "correct_index": 1,
+    "explanation": "Ab 1981 war das Space Shuttle das Arbeitspferd der NASA, insgesamt gab es 135 Flüge. Der letzte, STS-135, startete am 8. Juli 2011; mit der Landung der Atlantis am 21. Juli 2011 endete die Shuttle-Ära.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Space Shuttle",
+    "source_url": "https://de.wikipedia.org/wiki/Space_Shuttle",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many flights did NASA's space shuttles make from 1981 to 2011?",
+        "options": [
+          "35",
+          "135",
+          "535",
+          "1350"
+        ],
+        "explanation": "From 1981 the space shuttle was NASA's workhorse, with 135 flights in total. The last one, STS-135, launched on 8 July 2011; with Atlantis landing on 21 July 2011 the shuttle era ended."
+      }
+    }
+  },
+  {
+    "id": "ws54",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie lang ist das riesige Grabensystem Valles Marineris auf dem Mars?",
+    "options": [
+      "Etwa 40 km",
+      "Etwa 400 km",
+      "Etwa 4000 km",
+      "Etwa 40.000 km"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Valles Marineris sind rund 4000 Kilometer lang, bis zu 700 Kilometer breit und bis zu 7000 Meter tief – eines der größten Grabenbruchsysteme im Sonnensystem. Benannt sind sie nach der Sonde Mariner 9, auf deren Fotos man sie entdeckte.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Valles Marineris",
+    "source_url": "https://de.wikipedia.org/wiki/Valles_Marineris",
+    "created_at": "2026-10-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is the huge Valles Marineris canyon system on Mars?",
+        "options": [
+          "About 40 km",
+          "About 400 km",
+          "About 4,000 km",
+          "About 40,000 km"
+        ],
+        "explanation": "The Valles Marineris are around 4,000 kilometres long, up to 700 kilometres wide and up to 7,000 metres deep – one of the largest rift systems in the Solar System. They are named after the Mariner 9 probe, on whose photos they were discovered."
+      }
+    }
+  },
+  {
+    "id": "ws55",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was bedeutet das griechische Wort, von dem „Komet“ abstammt?",
+    "options": [
+      "Eisberg",
+      "Feuerball",
+      "Wanderer",
+      "Haarstern"
+    ],
+    "correct_index": 3,
+    "explanation": "Komet kommt vom griechischen komētēs, „Haarstern“, abgeleitet von kómē, „Haupthaar, Mähne“. In Sonnennähe entwickelt ein Komet durch Ausgasen eine Hülle, die Koma, und meist einen leuchtenden Schweif – darum heißt er auch Schweifstern.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Kleinkörper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Komet",
+    "source_url": "https://de.wikipedia.org/wiki/Komet",
+    "created_at": "2026-10-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Greek word that 'comet' comes from mean?",
+        "options": [
+          "Iceberg",
+          "Fireball",
+          "Wanderer",
+          "Hairy star"
+        ],
+        "explanation": "Comet comes from the Greek komētēs, 'hairy star', from kómē, 'hair of the head, mane'. Near the Sun a comet gives off gas and forms a cloud called the coma, and usually a glowing tail – which is why it is also called a tailed star."
+      }
+    }
   }
 ]
