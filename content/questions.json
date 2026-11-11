@@ -59467,5 +59467,1165 @@
         "explanation": "Haydn wrote the symphony in 1772 as music director at the Esterházy court. At the end the musicians stop playing one after another, put out their candles and leave the stage. The title 'Farewell Symphony' was not given by Haydn himself."
       }
     }
+  },
+  {
+    "id": "eg21",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was bedeutet „Mosi-oa-Tunya“, der einheimische Name der Victoriafälle?",
+    "options": [
+      "„Donnernder Rauch“",
+      "„Weißes Wasser“",
+      "„Großer Fluss“",
+      "„Singender Stein“"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Victoriafälle sind ein breiter Wasserfall des Sambesi zwischen Simbabwe und Sambia. Die einheimischen Kololo nennen ihn Mosi-oa-Tunya, „donnernder Rauch“ – wegen des Sprühnebels, der bis zu 300 m hoch aufsteigt und noch in bis zu 30 km Entfernung zu sehen ist.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Gewässer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Victoriafälle",
+    "source_url": "https://de.wikipedia.org/wiki/Victoriafälle",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does 'Mosi-oa-Tunya', the local name of Victoria Falls, mean?",
+        "options": [
+          "'The smoke that thunders'",
+          "'White water'",
+          "'Great river'",
+          "'Singing stone'"
+        ],
+        "explanation": "Victoria Falls is a wide waterfall of the Zambezi between Zimbabwe and Zambia. The local Kololo people call it Mosi-oa-Tunya, 'the smoke that thunders' – because of the spray, which rises up to 300 m and can be seen from up to 30 km away."
+      }
+    }
+  },
+  {
+    "id": "eg22",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Auf wen geht der Name „Pangaea“ für den Urkontinent zurück, der einst alle Landmassen vereinte?",
+    "options": [
+      "Alexander von Humboldt",
+      "Alfred Wegener",
+      "Charles Darwin",
+      "Isaac Newton"
+    ],
+    "correct_index": 1,
+    "explanation": "Pangaea war ein Urkontinent, der alle Landmassen der Erde umfasste; heute nennt man ihn den bisher letzten Superkontinent. Die Idee, dass alle Kontinente einmal vereint waren, veröffentlichte Alfred Wegener 1912 – auf ihn geht auch der Name zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pangaea",
+    "source_url": "https://de.wikipedia.org/wiki/Pangaea",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who gave the name 'Pangaea' to the ancient continent that once united all land masses?",
+        "options": [
+          "Alexander von Humboldt",
+          "Alfred Wegener",
+          "Charles Darwin",
+          "Isaac Newton"
+        ],
+        "explanation": "Pangaea was an ancient continent that included all of Earth's land masses; today it is called the most recent supercontinent. Alfred Wegener published the idea that all continents were once joined in 1912 – and he also gave it its name."
+      }
+    }
+  },
+  {
+    "id": "eg23",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie entstehen Vulkanketten wie die Hawaii-Inseln weit weg von Plattengrenzen?",
+    "options": [
+      "Durch Meteoriteneinschläge",
+      "Durch Korallen, die Lava ausscheiden",
+      "Eine Platte wandert über einen ortsfesten heißen Fleck im Erdmantel",
+      "Durch Ebbe und Flut"
+    ],
+    "correct_index": 2,
+    "explanation": "Hotspots – „heiße Flecken“ – sind besonders heiße, relativ ortsfeste Bereiche im Erdmantel. Wandert eine Platte darüber hinweg, entstehen nach und nach mehrere Vulkane, jeweils solange sie über dem Hotspot liegen. So bilden sich Vulkanketten wie die Hawaii-Inseln.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hotspot (Geologie)",
+    "source_url": "https://de.wikipedia.org/wiki/Hotspot_(Geologie)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do volcanic chains such as the Hawaiian Islands form far away from plate boundaries?",
+        "options": [
+          "Through meteorite impacts",
+          "Through corals that secrete lava",
+          "A plate moves over a stationary hot spot in the mantle",
+          "Through the tides"
+        ],
+        "explanation": "Hotspots are particularly hot, relatively stationary areas in the Earth's mantle. When a plate moves over one, several volcanoes form one after another, each fed for as long as it lies above the hotspot. This is how volcanic chains such as the Hawaiian Islands form."
+      }
+    }
+  },
+  {
+    "id": "eg24",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist besonders an der Lage Islands?",
+    "options": [
+      "Es liegt genau am Nordpol",
+      "Es schwimmt frei auf dem Ozean",
+      "Es liegt unter dem Meeresspiegel",
+      "Es liegt auf dem Mittelatlantischen Rücken – auf zwei Erdplatten zugleich"
+    ],
+    "correct_index": 3,
+    "explanation": "Island liegt auf dem Mittelatlantischen Rücken und damit sowohl auf der Nordamerikanischen als auch auf der Eurasischen Platte. Die Plattengrenze zieht sich etwa diagonal von Südwesten nach Nordosten über die Insel.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Island",
+    "source_url": "https://de.wikipedia.org/wiki/Island",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about Iceland's location?",
+        "options": [
+          "It lies exactly at the North Pole",
+          "It floats freely on the ocean",
+          "It lies below sea level",
+          "It lies on the Mid-Atlantic Ridge – on two tectonic plates at once"
+        ],
+        "explanation": "Iceland lies on the Mid-Atlantic Ridge and therefore on both the North American and the Eurasian plate. The plate boundary runs roughly diagonally across the island from south-west to north-east."
+      }
+    }
+  },
+  {
+    "id": "eg25",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was für ein Wind ist der Föhn?",
+    "options": [
+      "Ein warmer, trockener Fallwind auf der windabgewandten Seite von Gebirgen",
+      "Ein kalter, feuchter Seewind",
+      "Ein Wirbelsturm über dem Meer",
+      "Ein Wind, der nur nachts weht"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Föhn ist ein warmer, trockener Fallwind, der häufig auf der windabgewandten Seite – der Leeseite – größerer Gebirge auftritt. Die Bezeichnung stammt aus dem deutschsprachigen Alpenraum und hat sich als Fachbegriff in der Meteorologie durchgesetzt.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Föhn",
+    "source_url": "https://de.wikipedia.org/wiki/Föhn",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What kind of wind is the foehn?",
+        "options": [
+          "A warm, dry downslope wind on the sheltered side of mountains",
+          "A cold, damp sea breeze",
+          "A storm over the sea",
+          "A wind that only blows at night"
+        ],
+        "explanation": "The foehn is a warm, dry downslope wind that often occurs on the side of large mountain ranges facing away from the wind – the lee side. The name comes from the German-speaking Alps and has become a meteorological term."
+      }
+    }
+  },
+  {
+    "id": "eg26",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wofür wird die Fujita-Skala von 1971 verwendet?",
+    "options": [
+      "Für die Stärke von Erdbeben",
+      "Für die Schäden durch Tornados und andere Starkwinde",
+      "Für die Höhe von Wellen",
+      "Für die Härte von Gestein"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Fujita-Skala wurde 1971 von Tetsuya Theodore Fujita entwickelt. Mit ihr ordnet man die Schäden durch Starkwinde wie Tornados ein. Seit 2007 gibt es in den USA eine erweiterte Fassung, die EF-Skala.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fujita-Skala",
+    "source_url": "https://de.wikipedia.org/wiki/Fujita-Skala",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Fujita scale from 1971 used for?",
+        "options": [
+          "The strength of earthquakes",
+          "The damage caused by tornadoes and other strong winds",
+          "The height of waves",
+          "The hardness of rock"
+        ],
+        "explanation": "The Fujita scale was developed in 1971 by Tetsuya Theodore Fujita. It classifies the damage caused by strong winds such as tornadoes. Since 2007 the USA has used an enhanced version, the EF scale."
+      }
+    }
+  },
+  {
+    "id": "eg27",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wann spricht man von Permafrost?",
+    "options": [
+      "Wenn es einen Winter lang schneit",
+      "Wenn ein See zufriert",
+      "Wenn der Untergrund mindestens zwei Jahre ohne Unterbrechung gefroren ist",
+      "Wenn es nachts unter null Grad hat"
+    ],
+    "correct_index": 2,
+    "explanation": "Permafrost ist Untergrund, dessen Temperatur mindestens zwei Jahre ununterbrochen unter 0 °C liegt – Boden, Lockergestein oder Fels. Er kann mehrere hundert Meter tief reichen und ist dann meist viele tausend Jahre alt.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Permafrostboden",
+    "source_url": "https://de.wikipedia.org/wiki/Permafrostboden",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When do we speak of permafrost?",
+        "options": [
+          "When it snows for a whole winter",
+          "When a lake freezes over",
+          "When the ground stays frozen for at least two years without a break",
+          "When it falls below zero at night"
+        ],
+        "explanation": "Permafrost is ground whose temperature stays below 0 °C for at least two years without interruption – soil, loose rock or bedrock. It can reach several hundred metres deep and is then usually many thousands of years old."
+      }
+    }
+  },
+  {
+    "id": "eg28",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wo liegt der Große Aletschgletscher, der größte und längste Gletscher der Alpen?",
+    "options": [
+      "In Österreich",
+      "In Frankreich",
+      "In Italien",
+      "In der Schweiz"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Große Aletschgletscher ist der flächenmäßig größte und längste Gletscher der Alpen. Er liegt in den Berner Alpen im Schweizer Kanton Wallis und ist 22,6 km lang.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Gebirge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Aletschgletscher",
+    "source_url": "https://de.wikipedia.org/wiki/Großer_Aletschgletscher",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where is the Great Aletsch Glacier, the largest and longest glacier in the Alps?",
+        "options": [
+          "Austria",
+          "France",
+          "Italy",
+          "Switzerland"
+        ],
+        "explanation": "The Great Aletsch Glacier is the largest and longest glacier in the Alps. It lies in the Bernese Alps in the Swiss canton of Valais and is 22.6 km long."
+      }
+    }
+  },
+  {
+    "id": "eg29",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "In welchem Land liegt der Salar de Uyuni, die größte Salzpfanne der Erde?",
+    "options": [
+      "In Bolivien",
+      "In Chile",
+      "In Mexiko",
+      "In Ägypten"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Salar de Uyuni in Bolivien ist mit mehr als 10.000 Quadratkilometern die größte Salzpfanne der Erde. Er liegt auf 3653 m Höhe im Altiplano; die Salzkruste entstand, als ein urzeitlicher See austrocknete.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Landschaften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Salar de Uyuni",
+    "source_url": "https://de.wikipedia.org/wiki/Salar_de_Uyuni",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country is the Salar de Uyuni, the largest salt flat on Earth?",
+        "options": [
+          "Bolivia",
+          "Chile",
+          "Mexico",
+          "Egypt"
+        ],
+        "explanation": "The Salar de Uyuni in Bolivia, at more than 10,000 square kilometres, is the largest salt flat on Earth. It lies at 3653 m on the Altiplano; the salt crust formed when a prehistoric lake dried up."
+      }
+    }
+  },
+  {
+    "id": "eg30",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welchen Rekord hält der Titicacasee in den Anden?",
+    "options": [
+      "Er ist der tiefste See der Welt",
+      "Er ist der salzigste See der Welt",
+      "Er ist das höchstgelegene kommerziell schiffbare Gewässer der Erde",
+      "Er friert nie zu"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Titicacasee ist der größte Süßwassersee Südamerikas; sein westlicher Teil gehört zu Peru, der östliche zu Bolivien. Er ist das höchstgelegene kommerziell schiffbare Gewässer der Erde.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Gewässer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Titicacasee",
+    "source_url": "https://de.wikipedia.org/wiki/Titicacasee",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What record does Lake Titicaca in the Andes hold?",
+        "options": [
+          "It is the deepest lake in the world",
+          "It is the saltiest lake in the world",
+          "It is the highest commercially navigable body of water on Earth",
+          "It never freezes"
+        ],
+        "explanation": "Lake Titicaca is the largest freshwater lake in South America; its western part belongs to Peru, its eastern part to Bolivia. It is the highest commercially navigable body of water on Earth."
+      }
+    }
+  },
+  {
+    "id": "eg31",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher Nationalpark, gegründet 1872, ist der älteste der Welt?",
+    "options": [
+      "Grand Canyon",
+      "Kruger",
+      "Serengeti",
+      "Yellowstone"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Yellowstone-Nationalpark in den USA wurde am 1. März 1872 gegründet und ist damit der älteste Nationalpark der Welt. Bekannt ist er für Geysire und Schlammtöpfe sowie für Bisons, Grizzlybären und Wölfe.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Naturschutz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Yellowstone-Nationalpark",
+    "source_url": "https://de.wikipedia.org/wiki/Yellowstone-Nationalpark",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which national park, founded in 1872, is the oldest in the world?",
+        "options": [
+          "Grand Canyon",
+          "Kruger",
+          "Serengeti",
+          "Yellowstone"
+        ],
+        "explanation": "Yellowstone National Park in the USA was founded on 1 March 1872, making it the oldest national park in the world. It is known for geysers and mud pots as well as bison, grizzly bears and wolves."
+      }
+    }
+  },
+  {
+    "id": "eg32",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wo wurde im Juli 1913 mit 56,7 °C die höchste Lufttemperatur gemessen, die je auf der Erde festgehalten wurde?",
+    "options": [
+      "Im Death Valley in Kalifornien",
+      "In der Sahara",
+      "In der Wüste Gobi",
+      "Im Outback Australiens"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Death Valley, dem „Tal des Todes“ in Kalifornien, wurde im Juli 1913 eine Temperatur von 56,7 °C gemessen – die bisher höchste auf der Erde gemessene Temperatur. Der tiefste Punkt des Tals liegt sogar unter dem Meeresspiegel.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Death Valley",
+    "source_url": "https://de.wikipedia.org/wiki/Death_Valley",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where was the highest air temperature ever recorded on Earth, 56.7 °C, measured in July 1913?",
+        "options": [
+          "In Death Valley in California",
+          "In the Sahara",
+          "In the Gobi Desert",
+          "In the Australian outback"
+        ],
+        "explanation": "In Death Valley in California a temperature of 56.7 °C was measured in July 1913 – the highest temperature recorded on Earth so far. The lowest point of the valley even lies below sea level."
+      }
+    }
+  },
+  {
+    "id": "eg33",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Woraus bestehen die steilen Felsriffe der Dolomiten?",
+    "options": [
+      "Aus Granit",
+      "Aus Kalkstein und Dolomit",
+      "Aus Basalt",
+      "Aus Sandstein"
+    ],
+    "correct_index": 1,
+    "explanation": "Typisch für die Dolomiten ist der abrupte Wechsel zwischen Almwiesen und den steilen Riffen aus Kalkstein und Dolomit darüber. Die Gebirgsgruppe liegt in Norditalien; seit 2009 gehören Teile davon zum UNESCO-Weltnaturerbe.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Gebirge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dolomiten",
+    "source_url": "https://de.wikipedia.org/wiki/Dolomiten",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the steep rock reefs of the Dolomites made of?",
+        "options": [
+          "Granite",
+          "Limestone and dolomite",
+          "Basalt",
+          "Sandstone"
+        ],
+        "explanation": "Typical of the Dolomites is the abrupt change between alpine meadows and the steep reefs of limestone and dolomite above them. The mountain group lies in northern Italy; since 2009 parts of it have been a UNESCO World Natural Heritage Site."
+      }
+    }
+  },
+  {
+    "id": "eg34",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist der Uluru in Australien für die einheimischen Anangu?",
+    "options": [
+      "Ein Vulkan",
+      "Eine Goldmine",
+      "Ein Heiliger Berg",
+      "Ein Leuchtturm"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Uluru ist ein Inselberg in der zentralaustralischen Wüste, der sich rund 350 m über sein Umland erhebt. Wegen seiner Bedeutung für die Traumzeit-Erzählungen gilt er den Anangu als Heiliger Berg. Seit dem 26. Oktober 2019 ist es verboten, ihn zu besteigen.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Landschaften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Uluru",
+    "source_url": "https://de.wikipedia.org/wiki/Uluru",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is Uluru in Australia to the local Anangu people?",
+        "options": [
+          "A volcano",
+          "A gold mine",
+          "A sacred mountain",
+          "A lighthouse"
+        ],
+        "explanation": "Uluru is an inselberg in the central Australian desert rising about 350 m above its surroundings. Because of its importance for Dreamtime stories the Anangu regard it as a sacred mountain. Since 26 October 2019 climbing it has been banned."
+      }
+    }
+  },
+  {
+    "id": "eg35",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wofür ist die Bay of Fundy in Kanada berühmt?",
+    "options": [
+      "Für ihr Packeis im Sommer",
+      "Für ihr warmes Badewasser",
+      "Für ihre Vulkane",
+      "Für ihren außergewöhnlich hohen Tidenhub von bis zu 21 Metern"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Bay of Fundy liegt zwischen den kanadischen Provinzen Nova Scotia und New Brunswick. Sie zeichnet sich durch einen außergewöhnlich hohen Tidenhub von bis zu 21 Metern aus – so groß ist dort der Unterschied zwischen Ebbe und Flut.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Gewässer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bay of Fundy",
+    "source_url": "https://de.wikipedia.org/wiki/Bay_of_Fundy",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Bay of Fundy in Canada famous for?",
+        "options": [
+          "Its pack ice in summer",
+          "Its warm bathing water",
+          "Its volcanoes",
+          "Its exceptionally high tidal range of up to 21 metres"
+        ],
+        "explanation": "The Bay of Fundy lies between the Canadian provinces of Nova Scotia and New Brunswick. It is known for an exceptionally high tidal range of up to 21 metres – that's how big the difference between low and high tide is there."
+      }
+    }
+  },
+  {
+    "id": "ti72",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was kann der Axolotl, ein Schwanzlurch aus Mexiko, besonders gut?",
+    "options": [
+      "Fliegen",
+      "Jahrelang ohne Wasser leben",
+      "Seine Farbe in Sekunden wechseln",
+      "Verlorene Gliedmaßen und sogar Teile von Herz und Gehirn wiederherstellen"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Axolotl lebt in Mexiko nur im Wasser und bleibt sein Leben lang eine Larve – er wird geschlechtsreif, ohne sich zu verwandeln. Er kann Gliedmaßen, Organe und sogar Teile des Gehirns und Herzens wiederherstellen. Sein Name aus der Sprache der Azteken bedeutet etwa „Wassermonster“.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Amphibien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Axolotl",
+    "source_url": "https://de.wikipedia.org/wiki/Axolotl",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the axolotl, a salamander from Mexico, particularly good at?",
+        "options": [
+          "Flying",
+          "Living for years without water",
+          "Changing colour in seconds",
+          "Regrowing lost limbs and even parts of its heart and brain"
+        ],
+        "explanation": "The axolotl lives only in water in Mexico and stays a larva all its life – it becomes sexually mature without transforming. It can regrow limbs, organs and even parts of its brain and heart. Its name in the Aztec language means roughly 'water monster'."
+      }
+    }
+  },
+  {
+    "id": "ti73",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum heißen die winzigen Bärtierchen so?",
+    "options": [
+      "Ihr tapsiger Gang erinnert an Bären",
+      "Sie haben ein dichtes Fell",
+      "Sie halten Winterschlaf",
+      "Sie fressen Honig"
+    ],
+    "correct_index": 0,
+    "explanation": "Bärtierchen, auch Wasserbären genannt, sind meist kleiner als ein Millimeter und haben acht Beine. Ihr Aussehen und ihre tapsig wirkende Fortbewegung erinnern etwas an Bären. Auch ihr wissenschaftlicher Name Tardigrada bedeutet „langsam schreitend“.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Kleintiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bärtierchen",
+    "source_url": "https://de.wikipedia.org/wiki/Bärtierchen",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why are the tiny tardigrades called 'little bears' in German?",
+        "options": [
+          "Their clumsy gait is reminiscent of bears",
+          "They have thick fur",
+          "They hibernate",
+          "They eat honey"
+        ],
+        "explanation": "Tardigrades, also called water bears, are usually smaller than a millimetre and have eight legs. Their appearance and their clumsy-looking way of moving are somewhat reminiscent of bears. Their scientific name Tardigrada also means 'slow-stepping'."
+      }
+    }
+  },
+  {
+    "id": "ti74",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wer bringt beim Seepferdchen die Jungen zur Welt?",
+    "options": [
+      "Das Weibchen",
+      "Das Männchen",
+      "Beide abwechselnd",
+      "Niemand – die Eier schwimmen frei"
+    ],
+    "correct_index": 1,
+    "explanation": "Seepferdchen sind Knochenfische, deren Kopf an einen Pferdekopf erinnert. Sie schwimmen meist aufrecht, und eine Besonderheit ist, dass die Männchen die Jungfische gebären. Dafür haben sie unter dem vorderen Teil des Schwanzes einen Brutbeutel.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seepferdchen",
+    "source_url": "https://de.wikipedia.org/wiki/Seepferdchen",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who gives birth to the young in seahorses?",
+        "options": [
+          "The female",
+          "The male",
+          "Both in turn",
+          "No one – the eggs float freely"
+        ],
+        "explanation": "Seahorses are bony fish whose head is reminiscent of a horse's head. They usually swim upright, and a special feature is that the males give birth to the young. For this they have a brood pouch under the front part of the tail."
+      }
+    }
+  },
+  {
+    "id": "ti75",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Von den Blättern welcher Bäume ernähren sich Koalas vor allem?",
+    "options": [
+      "Von Eichen",
+      "Von Palmen",
+      "Von Eukalyptusbäumen",
+      "Von Bambus"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Koala ist ein baumbewohnender Beutelsäuger in Australien und neben dem Känguru das bekannteste Symbol des Landes. Er lebt vor allem auf Eukalyptusbäumen und frisst ihre Blätter – dabei wählt er Blätter, die nicht zu viele Giftstoffe enthalten.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Koala",
+    "source_url": "https://de.wikipedia.org/wiki/Koala",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which trees' leaves do koalas mainly eat?",
+        "options": [
+          "Oaks",
+          "Palms",
+          "Eucalyptus trees",
+          "Bamboo"
+        ],
+        "explanation": "The koala is a tree-dwelling marsupial in Australia and, alongside the kangaroo, the country's best-known symbol. It lives mainly in eucalyptus trees and eats their leaves – choosing leaves that do not contain too many toxins."
+      }
+    }
+  },
+  {
+    "id": "ti76",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Farbe hat die Haut eines erwachsenen Eisbären unter dem weißen Fell?",
+    "options": [
+      "Weiß",
+      "Rosa",
+      "Gelb",
+      "Schwarz"
+    ],
+    "correct_index": 3,
+    "explanation": "Unter dem Fell hat ein erwachsener Eisbär schwarze Haut; bei Babys ist sie noch rosa. Darunter liegt eine 5 bis 10 Zentimeter dicke Fettschicht, die zusätzlich vor Kälte schützt.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eisbär",
+    "source_url": "https://de.wikipedia.org/wiki/Eisbär",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour is an adult polar bear's skin under its white fur?",
+        "options": [
+          "White",
+          "Pink",
+          "Yellow",
+          "Black"
+        ],
+        "explanation": "Under its fur an adult polar bear has black skin; in babies it is still pink. Beneath it lies a layer of fat 5 to 10 centimetres thick that gives extra protection against the cold."
+      }
+    }
+  },
+  {
+    "id": "ti77",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was können Kolibris, was fast kein anderer Vogel kann?",
+    "options": [
+      "Seitwärts und sogar rückwärts fliegen",
+      "Unter Wasser fliegen",
+      "Im Dunkeln leuchten",
+      "Auf einem Bein schlafen"
+    ],
+    "correct_index": 0,
+    "explanation": "Kolibris sind kleine, Nektar fressende Vögel aus Amerika; es gibt 371 Arten. Sie können auch seitwärts und sogar rückwärts fliegen.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kolibris",
+    "source_url": "https://de.wikipedia.org/wiki/Kolibris",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can hummingbirds do that almost no other bird can?",
+        "options": [
+          "Fly sideways and even backwards",
+          "Fly under water",
+          "Glow in the dark",
+          "Sleep on one leg"
+        ],
+        "explanation": "Hummingbirds are small, nectar-eating birds from the Americas; there are 371 species. They can also fly sideways and even backwards."
+      }
+    }
+  },
+  {
+    "id": "ti78",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie erzeugt ein Knallkrebs (Pistolenkrebs) seinen lauten Knall?",
+    "options": [
+      "Er schlägt mit dem Schwanz auf Steine",
+      "Seine Schere schießt einen Wasserstrahl, dessen Blase laut zerplatzt",
+      "Er reibt die Beine aneinander",
+      "Er stößt Luft aus dem Maul"
+    ],
+    "correct_index": 1,
+    "explanation": "Knallkrebse leben vor allem in tropischen Meeren, besonders in Korallenriffen. Beim blitzschnellen Schließen ihrer besonderen Knallschere stoßen sie einen Wasserstrahl aus. Dabei bildet sich eine Blase, die mit einem sehr lauten Knall in sich zusammenfällt.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Meerestiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Knallkrebse",
+    "source_url": "https://de.wikipedia.org/wiki/Knallkrebse",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a snapping shrimp (pistol shrimp) make its loud bang?",
+        "options": [
+          "It hits stones with its tail",
+          "Its claw shoots a jet of water whose bubble collapses loudly",
+          "It rubs its legs together",
+          "It blows air out of its mouth"
+        ],
+        "explanation": "Snapping shrimp live mainly in tropical seas, especially on coral reefs. When they snap their special claw shut at lightning speed, they shoot out a jet of water. This forms a bubble that collapses with a very loud bang."
+      }
+    }
+  },
+  {
+    "id": "ti79",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie lange halten sich Mauersegler außerhalb der Brutzeit fast ohne Pause in der Luft auf?",
+    "options": [
+      "Etwa zehn Tage",
+      "Etwa zehn Wochen",
+      "Etwa zehn Monate",
+      "Etwa zehn Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Mauersegler sind extrem an ein Leben in der Luft angepasst. Außerhalb der Brutzeit halten sie sich etwa zehn Monate lang nahezu ohne Unterbrechung in der Luft auf – sie übernachten sogar fliegend.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mauersegler",
+    "source_url": "https://de.wikipedia.org/wiki/Mauersegler",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "For how long do common swifts stay in the air almost without a break outside the breeding season?",
+        "options": [
+          "About ten days",
+          "About ten weeks",
+          "About ten months",
+          "About ten years"
+        ],
+        "explanation": "Common swifts are extremely well adapted to life in the air. Outside the breeding season they stay in the air almost without interruption for about ten months – they even spend the night flying."
+      }
+    }
+  },
+  {
+    "id": "ti80",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist so erstaunlich an der kleinen Qualle Turritopsis dohrnii?",
+    "options": [
+      "Sie ist möglicherweise biologisch unsterblich",
+      "Sie kann sprechen",
+      "Sie ist die giftigste Qualle",
+      "Sie lebt nur einen Tag"
+    ],
+    "correct_index": 0,
+    "explanation": "Wegen Besonderheiten in ihrem Lebenszyklus sind die Tiere dieser winzigen Art – die Medusen sind nur gut 3 Millimeter groß – möglicherweise biologisch unsterblich. Man nennt sie deshalb auch „unsterbliche Qualle“.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meerestiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Turritopsis dohrnii",
+    "source_url": "https://de.wikipedia.org/wiki/Turritopsis_dohrnii",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is so astonishing about the small jellyfish Turritopsis dohrnii?",
+        "options": [
+          "It may be biologically immortal",
+          "It can speak",
+          "It is the most venomous jellyfish",
+          "It lives only one day"
+        ],
+        "explanation": "Because of special features of its life cycle, individuals of this tiny species – the medusae are only just over 3 millimetres high – are potentially biologically immortal. That is why it is also called the 'immortal jellyfish'."
+      }
+    }
+  },
+  {
+    "id": "ti81",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Form hat der Kot der australischen Wombats?",
+    "options": [
+      "Kugelförmig",
+      "Würfelförmig",
+      "Spiralförmig",
+      "Sternförmig"
+    ],
+    "correct_index": 1,
+    "explanation": "Wombats sind Beutelsäuger aus Australien, die Höhlen graben und Pflanzen fressen. Ihr Kot ist würfelförmig – davon geben sie täglich 80 bis 100 Stück ab.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wombats",
+    "source_url": "https://de.wikipedia.org/wiki/Wombats",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What shape are the droppings of Australian wombats?",
+        "options": [
+          "Round",
+          "Cube-shaped",
+          "Spiral",
+          "Star-shaped"
+        ],
+        "explanation": "Wombats are Australian marsupials that dig burrows and eat plants. Their droppings are cube-shaped – they produce 80 to 100 of them every day."
+      }
+    }
+  },
+  {
+    "id": "ti82",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo schlüpfen die Larven des Europäischen Aals?",
+    "options": [
+      "In deutschen Flüssen",
+      "Im Mittelmeer",
+      "In der Sargassosee im Atlantik",
+      "In den Alpenseen"
+    ],
+    "correct_index": 2,
+    "explanation": "Europäische Aale schlüpfen im Atlantik, in der Sargassosee. Ihre Larven brauchen etwa drei Jahre, um bis an die europäischen Küsten zu gelangen. Der Europäische Aal ist heute vom Aussterben bedroht.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäischer Aal",
+    "source_url": "https://de.wikipedia.org/wiki/Europäischer_Aal",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do the larvae of the European eel hatch?",
+        "options": [
+          "In German rivers",
+          "In the Mediterranean",
+          "In the Sargasso Sea in the Atlantic",
+          "In alpine lakes"
+        ],
+        "explanation": "European eels hatch in the Atlantic, in the Sargasso Sea. Their larvae take about three years to reach the coasts of Europe. The European eel is now critically endangered."
+      }
+    }
+  },
+  {
+    "id": "ti83",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was können Kugelgürteltiere als einzige Gürteltiere bei Gefahr?",
+    "options": [
+      "Auf Bäume klettern",
+      "Sich eingraben in Sekunden",
+      "Gift versprühen",
+      "Sich zu einer Kugel zusammenrollen"
+    ],
+    "correct_index": 3,
+    "explanation": "Kugelgürteltiere leben in trockenen, offenen Landschaften Südamerikas und fressen vor allem Insekten. Als einzige Gürteltiere können sie sich im Bedrohungsfall zu einer Kugel zusammenrollen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kugelgürteltiere",
+    "source_url": "https://de.wikipedia.org/wiki/Kugelgürteltiere",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can three-banded armadillos do as the only armadillos when in danger?",
+        "options": [
+          "Climb trees",
+          "Dig themselves in within seconds",
+          "Spray venom",
+          "Roll up into a ball"
+        ],
+        "explanation": "Three-banded armadillos live in dry, open landscapes of South America and mainly eat insects. They are the only armadillos that can roll up into a ball when threatened."
+      }
+    }
+  },
+  {
+    "id": "ti84",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo leben Lemuren in freier Natur?",
+    "options": [
+      "Nur auf Madagaskar und kleinen Inseln in der Nähe",
+      "In ganz Afrika",
+      "In Südamerika",
+      "In Indien"
+    ],
+    "correct_index": 0,
+    "explanation": "Lemuren sind Primaten mit etwa 100 Arten. Sie kommen ausschließlich auf Madagaskar und kleineren Inseln in der Nähe vor. Die meisten leben auf Bäumen; viele sind durch die Zerstörung ihres Lebensraums bedroht.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lemuren",
+    "source_url": "https://de.wikipedia.org/wiki/Lemuren",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do lemurs live in the wild?",
+        "options": [
+          "Only on Madagascar and small nearby islands",
+          "All over Africa",
+          "In South America",
+          "In India"
+        ],
+        "explanation": "Lemurs are primates with about 100 species. They live exclusively on Madagascar and smaller islands nearby. Most live in trees; many are threatened by the destruction of their habitat."
+      }
+    }
+  },
+  {
+    "id": "ti85",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was züchten manche Termiten in ihren Bauten als Nahrung?",
+    "options": [
+      "Blattläuse",
+      "Pilze",
+      "Algen",
+      "Samen"
+    ],
+    "correct_index": 1,
+    "explanation": "Manche Termiten züchten in ihren Bauten Pilze der Gattung Termitomyces auf vorverdauter Nahrung und ernähren sich dann von diesen Pilzen.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Termiten",
+    "source_url": "https://de.wikipedia.org/wiki/Termiten",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do some termites grow in their mounds as food?",
+        "options": [
+          "Aphids",
+          "Fungi",
+          "Algae",
+          "Seeds"
+        ],
+        "explanation": "Some termites grow fungi of the genus Termitomyces on pre-digested food in their mounds and then feed on these fungi."
+      }
+    }
   }
 ]
