@@ -775,3 +775,9 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Vier entworfene Fragen (`b85` Opportunitätskosten, `b86` Monopol, `b88` Inflation, `b99` Zinseszins) wieder entfernt: Der Import meldete „Was ist ein Monopol?“ als Doppel, und dieselben Begriffe gibt es schon im Bereich `economy` (e3, e5, e15, e20). Lehre: neue Fragen nicht nur mit dem eigenen Bereich, sondern mit allen vergleichen; ein Abgleich seltener Begriffe über alle heutigen Runden fand sonst keine inhaltlichen Doppel.
 - Im Feed jetzt: Business 112 Fragen (insgesamt 1454). Unit 144/144, e2e 90/90.
 - **Datenbank (11.11.2026, nach dem Deploy)**: 12 Fragen eingefügt (nur neue Zeilen). Prüfsummen über den Inhalt der neuen Zeilen und über die Kategorie aller 1536 veröffentlichten Fragen mit den lokalen Daten identisch. Anonym sichtbar: 1536 Fragen, 99 Kategorien+Clips, Lösungen nicht lesbar.
+
+## 97. Mathe und Wirtschaft (11.11.2026)
+
+- **Fragen**: `2026-11-mathe-1` – Mathe `m49`–`m64` (Königsberger Brückenproblem, platonische Körper, Adam Ries, gaußsche Summenformel, Vier-Farben-Satz, Fermats Randbemerkung, Pascaline, Sieb des Eratosthenes, indische Ziffern, Hypatia, Emmy Noether, vollkommene Zahlen, Tangram, Unendlichzeichen, Abakus, Rechenschieber) und Wirtschaft `e57`–`e64` (Pacioli und die doppelte Buchführung, Fuggerei, Kaurigeld, Palmstruch-Bank, Monte dei Paschi, Keynes, Quesnays Wirtschaftskreislauf, „Das Kapital“). Alle Zitate von `verify-evidence.mjs` bestätigt (24 von 24). Keine Anlageberatung, nur Geschichte und Begriffe.
+- Vorher gegen alle Bereiche und Fakten abgeglichen; bereits vorhandene Themen (Möbiusband, Googol, Gleichheitszeichen, Sudoku, Pi, Euklids Primzahlen, Tulpenmanie, Big-Mac-Index, Steingeld von Yap, Pareto, Genossenschaft, Kerbholz) weggelassen. `duplicates.mjs` meldet für die neuen Fragen nichts.
+- Im Feed jetzt 1478 Fragen. Unit 144/144, e2e 90/90.
