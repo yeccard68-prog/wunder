@@ -58107,5 +58107,1365 @@
         "explanation": "Synchronised swimming is performed to music – solo, in pairs or in a group. 'Synchronised' refers both to the music and to the swimmers moving together. In 2017 the world federation changed the name from 'synchronised swimming' to 'artistic swimming'."
       }
     }
+  },
+  {
+    "id": "ws56",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Auf welchem Himmelskörper steht der höchste Berg des Sonnensystems, der Vulkan Olympus Mons?",
+    "options": [
+      "Auf dem Mars",
+      "Auf der Venus",
+      "Auf dem Mond",
+      "Auf dem Merkur"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Olympus Mons ist ein Vulkan auf dem Mars. Er ragt über 22 km über das mittlere Planetenniveau und ist ungefähr zweieinhalb Mal so hoch wie der Mount Everest. Damit ist er der höchste Berg und der größte Vulkan im Sonnensystem.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Olympus Mons",
+    "source_url": "https://de.wikipedia.org/wiki/Olympus_Mons",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which body stands the highest mountain in the Solar System, the volcano Olympus Mons?",
+        "options": [
+          "Mars",
+          "Venus",
+          "The Moon",
+          "Mercury"
+        ],
+        "explanation": "Olympus Mons is a volcano on Mars. It rises more than 22 km above the planet's mean level and is about two and a half times as high as Mount Everest. That makes it the highest mountain and the largest volcano in the Solar System."
+      }
+    }
+  },
+  {
+    "id": "ws57",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welcher Mond ist der größte im ganzen Sonnensystem – sogar etwas größer als der Planet Merkur?",
+    "options": [
+      "Titan",
+      "Ganymed",
+      "Europa",
+      "Unser Mond"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Jupitermond Ganymed ist mit einem Durchmesser von 5262 km der größte Mond des Sonnensystems. Wie der Saturnmond Titan ist er etwas größer als der Planet Merkur, aber leichter. Als einziger Mond hat er ein ausgeprägtes Magnetfeld.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ganymed (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Ganymed_(Mond)",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which moon is the largest in the whole Solar System – even slightly larger than the planet Mercury?",
+        "options": [
+          "Titan",
+          "Ganymede",
+          "Europa",
+          "Our Moon"
+        ],
+        "explanation": "Jupiter's moon Ganymede, 5262 km across, is the largest moon in the Solar System. Like Saturn's moon Titan, it is slightly larger than the planet Mercury, but lighter. It is the only moon with a strong magnetic field."
+      }
+    }
+  },
+  {
+    "id": "ws58",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist am Planeten Saturn im Durchschnitt leichter als bei jedem anderen Planeten?",
+    "options": [
+      "Seine Ringe",
+      "Seine Monde",
+      "Sein Material – im Mittel leichter als Wasser",
+      "Seine Luft am Boden"
+    ],
+    "correct_index": 2,
+    "explanation": "Saturn besteht in den oberen Schichten zu etwa 96 % aus Wasserstoff. Im Durchschnitt ist sein Material leichter als Wasser – das trifft auf keinen anderen Planeten des Sonnensystems zu. Bekannt ist er vor allem für seine hellen Ringe aus Eis- und Gesteinsbrocken.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saturn (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Saturn_(Planet)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What about the planet Saturn is, on average, lighter than for any other planet?",
+        "options": [
+          "Its rings",
+          "Its moons",
+          "Its material – on average lighter than water",
+          "Its air at the surface"
+        ],
+        "explanation": "Saturn's upper layers are about 96 % hydrogen. On average its material is lighter than water – which is true of no other planet in the Solar System. It is best known for its bright rings of ice and rock."
+      }
+    }
+  },
+  {
+    "id": "ws59",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Womit entdeckte Wilhelm Herschel 1781 den Planeten Uranus?",
+    "options": [
+      "Mit dem Teleskop einer Sternwarte in Paris",
+      "Durch Berechnungen ohne Teleskop",
+      "Mit bloßem Auge",
+      "Mit einem selbst gebauten Spiegelteleskop in seinem Garten"
+    ],
+    "correct_index": 3,
+    "explanation": "Wilhelm Herschel entdeckte den Uranus im März 1781 mit einem selbst gebauten Spiegelteleskop – von seinem Garten in der englischen Stadt Bath aus. Benannt ist der Planet nach dem griechischen Himmelsgott Uranos.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Entdeckungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Uranus (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Uranus_(Planet)",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did William Herschel use to discover the planet Uranus in 1781?",
+        "options": [
+          "The telescope of an observatory in Paris",
+          "Calculations without a telescope",
+          "The naked eye",
+          "A reflecting telescope he built himself, in his garden"
+        ],
+        "explanation": "William Herschel discovered Uranus in March 1781 with a reflecting telescope he had built himself – from his garden in the English city of Bath. The planet is named after the Greek sky god Uranus."
+      }
+    }
+  },
+  {
+    "id": "ws60",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Nach wem sind die Uranusmonde Titania und Oberon benannt?",
+    "options": [
+      "Nach griechischen Göttern",
+      "Nach Figuren aus Shakespeares „Sommernachtstraum“",
+      "Nach Herschels Kindern",
+      "Nach zwei Sternbildern"
+    ],
+    "correct_index": 1,
+    "explanation": "Wilhelm Herschel entdeckte die beiden ersten Uranusmonde 1787. Sein Sohn John Herschel benannte sie nach Figuren aus Shakespeares „Sommernachtstraum“: Titania und Oberon.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Uranus (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Uranus_(Planet)",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who are Uranus's moons Titania and Oberon named after?",
+        "options": [
+          "Greek gods",
+          "Characters from Shakespeare's 'A Midsummer Night's Dream'",
+          "Herschel's children",
+          "Two constellations"
+        ],
+        "explanation": "William Herschel discovered the first two moons of Uranus in 1787. His son John Herschel named them after characters from Shakespeare's 'A Midsummer Night's Dream': Titania and Oberon."
+      }
+    }
+  },
+  {
+    "id": "ws61",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welchen alten deutschen Namen hat der Sternhaufen der Plejaden?",
+    "options": [
+      "Sternenkranz",
+      "Himmelsleiter",
+      "Siebengestirn",
+      "Nordlicht"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Plejaden heißen auch Siebengestirn oder Sieben Schwestern. Der offene Sternhaufen im Sternbild Stier ist mit bloßem Auge zu sehen und umfasst mindestens 400 Sterne. Schon in Sumer wurde er als Sternbild schriftlich erwähnt.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Plejaden",
+    "source_url": "https://de.wikipedia.org/wiki/Plejaden",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What old name do people in German-speaking countries use for the Pleiades star cluster?",
+        "options": [
+          "Star Wreath",
+          "Sky Ladder",
+          "Seven Stars",
+          "Northern Light"
+        ],
+        "explanation": "The Pleiades are also called the Seven Stars or Seven Sisters. The open star cluster in the constellation Taurus is visible to the naked eye and contains at least 400 stars. It was already mentioned in writing as a constellation in Sumer."
+      }
+    }
+  },
+  {
+    "id": "ws62",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wodurch entstanden die ersten Gravitationswellen, die im September 2015 direkt gemessen wurden?",
+    "options": [
+      "Durch eine Sonneneruption",
+      "Durch den Urknall",
+      "Durch einen Meteoriteneinschlag",
+      "Durch die Kollision zweier Schwarzer Löcher"
+    ],
+    "correct_index": 3,
+    "explanation": "Im Februar 2016 berichteten Forscher der LIGO-Kollaboration über die erste direkte Messung von Gravitationswellen im September 2015. Die Wellen waren bei der Kollision zweier Schwarzer Löcher entstanden und wurden in beiden LIGO-Observatorien in den USA fast gleichzeitig beobachtet.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gravitationswelle",
+    "source_url": "https://de.wikipedia.org/wiki/Gravitationswelle",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What produced the first gravitational waves, measured directly in September 2015?",
+        "options": [
+          "A solar flare",
+          "The Big Bang",
+          "A meteorite impact",
+          "The collision of two black holes"
+        ],
+        "explanation": "In February 2016 researchers of the LIGO collaboration reported the first direct measurement of gravitational waves in September 2015. The waves had been produced by the collision of two black holes and were observed almost simultaneously at both LIGO observatories in the USA."
+      }
+    }
+  },
+  {
+    "id": "ws63",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welcher dieser Monde gehört NICHT zu den vier Galileischen Monden des Jupiters?",
+    "options": [
+      "Titan",
+      "Europa",
+      "Kallisto",
+      "Io"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Galileischen Monde sind die vier größten Monde des Jupiters: Io, Europa, Ganymed und Kallisto. Sie ehren Galileo Galilei, der sie 1610 als Erster beschrieb. Titan dagegen ist ein Mond des Saturns.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Galileische Monde",
+    "source_url": "https://de.wikipedia.org/wiki/Galileische_Monde",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these moons is NOT one of Jupiter's four Galilean moons?",
+        "options": [
+          "Titan",
+          "Europa",
+          "Callisto",
+          "Io"
+        ],
+        "explanation": "The Galilean moons are Jupiter's four largest moons: Io, Europa, Ganymede and Callisto. They honour Galileo Galilei, who first described them in 1610. Titan, on the other hand, is a moon of Saturn."
+      }
+    }
+  },
+  {
+    "id": "ws64",
+    "kind": "question",
+    "category_id": "space",
+    "question": "In welcher Höhe liegt die Kármán-Linie, die man als Grenze zwischen Luftfahrt und Raumfahrt nutzt?",
+    "options": [
+      "10 km",
+      "100 km",
+      "400 km",
+      "1000 km"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Kármán-Linie ist eine gedachte Grenze in 100 km Höhe über dem Meeresspiegel. Mit ihr unterscheidet man die Luftfahrt von der Raumfahrt. Benannt ist sie nach dem Luftfahrttechniker Theodore von Kármán.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kármán-Linie",
+    "source_url": "https://de.wikipedia.org/wiki/Kármán-Linie",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At what altitude is the Kármán line, used as the boundary between aviation and spaceflight?",
+        "options": [
+          "10 km",
+          "100 km",
+          "400 km",
+          "1000 km"
+        ],
+        "explanation": "The Kármán line is an imaginary boundary 100 km above sea level. It is used to distinguish aviation from spaceflight. It is named after the aeronautical engineer Theodore von Kármán."
+      }
+    }
+  },
+  {
+    "id": "ws65",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Nach wem ist der Zwergplanet Eris benannt, dessen Entdeckung 2005 bekannt gegeben wurde?",
+    "options": [
+      "Nach einer Meeresgöttin",
+      "Nach der Entdeckerin",
+      "Nach der griechischen Göttin der Zwietracht",
+      "Nach einem Sternbild"
+    ],
+    "correct_index": 2,
+    "explanation": "Eris ist der massereichste und nach Pluto zweitgrößte bekannte Zwergplanet. Er umkreist die Sonne jenseits der Neptunbahn. Benannt ist er nach Eris, der griechischen Göttin der Zwietracht und des Streits.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Zwergplaneten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eris (Zwergplanet)",
+    "source_url": "https://de.wikipedia.org/wiki/Eris_(Zwergplanet)",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is the dwarf planet Eris, whose discovery was announced in 2005, named after?",
+        "options": [
+          "A sea goddess",
+          "Its discoverer",
+          "The Greek goddess of discord",
+          "A constellation"
+        ],
+        "explanation": "Eris is the most massive and, after Pluto, the second-largest known dwarf planet. It orbits the Sun beyond Neptune. It is named after Eris, the Greek goddess of discord and strife."
+      }
+    }
+  },
+  {
+    "id": "ws66",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie gelangte das Weltraumteleskop Hubble im April 1990 ins All?",
+    "options": [
+      "Mit einer Mondrakete",
+      "Mit einer russischen Sojus",
+      "Mit einem Ballon",
+      "An Bord des Space Shuttles Discovery"
+    ],
+    "correct_index": 3,
+    "explanation": "Hubble wurde im April 1990 mit der Space-Shuttle-Mission STS-31 gestartet. Am Tag danach setzte die Besatzung das Teleskop aus dem Frachtraum der Raumfähre Discovery aus.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hubble-Weltraumteleskop",
+    "source_url": "https://de.wikipedia.org/wiki/Hubble-Weltraumteleskop",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the Hubble Space Telescope get into space in April 1990?",
+        "options": [
+          "On a Moon rocket",
+          "On a Russian Soyuz",
+          "By balloon",
+          "Aboard the Space Shuttle Discovery"
+        ],
+        "explanation": "Hubble was launched in April 1990 on the Space Shuttle mission STS-31. The next day the crew released the telescope from the cargo bay of the shuttle Discovery."
+      }
+    }
+  },
+  {
+    "id": "ws67",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welche Raumsonde erreichte am 14. Juli 2015 als erste den Zwergplaneten Pluto?",
+    "options": [
+      "New Horizons",
+      "Voyager 1",
+      "Cassini",
+      "Rosetta"
+    ],
+    "correct_index": 0,
+    "explanation": "Am 14. Juli 2015 erreichte New Horizons als erste Raumsonde Pluto. Sie flog mit einer Geschwindigkeit von 14,5 km/s an dem Zwergplaneten vorbei und erfüllte damit ihre Hauptmission.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: New Horizons",
+    "source_url": "https://de.wikipedia.org/wiki/New_Horizons",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which space probe was the first to reach the dwarf planet Pluto, on 14 July 2015?",
+        "options": [
+          "New Horizons",
+          "Voyager 1",
+          "Cassini",
+          "Rosetta"
+        ],
+        "explanation": "On 14 July 2015 New Horizons became the first space probe to reach Pluto. It flew past the dwarf planet at 14.5 km/s, completing its main mission."
+      }
+    }
+  },
+  {
+    "id": "ws68",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie endete am 15. September 2017 die Mission der Raumsonde Cassini?",
+    "options": [
+      "Sie landete auf dem Mond Titan",
+      "Mit einem geplanten Absturz in den Saturn",
+      "Sie flog aus dem Sonnensystem hinaus",
+      "Sie kehrte zur Erde zurück"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Mission Cassini-Huygens zum Saturn wurde mehrfach verlängert. Sie endete am 15. September 2017 mit dem geplanten Absturz der Sonde in den Saturn, wobei sie verglühte.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cassini-Huygens",
+    "source_url": "https://de.wikipedia.org/wiki/Cassini-Huygens",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the Cassini probe's mission end on 15 September 2017?",
+        "options": [
+          "It landed on the moon Titan",
+          "With a planned plunge into Saturn",
+          "It flew out of the Solar System",
+          "It returned to Earth"
+        ],
+        "explanation": "The Cassini-Huygens mission to Saturn was extended several times. It ended on 15 September 2017 with the planned plunge of the probe into Saturn, where it burned up."
+      }
+    }
+  },
+  {
+    "id": "ws69",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie lange braucht der Riesenplanet Jupiter für eine Drehung um sich selbst?",
+    "options": [
+      "Etwa drei Wochen",
+      "Genau einen Erdtag",
+      "Knapp zehn Stunden",
+      "Fast zwölf Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Rotationsperiode des Jupiters beträgt knapp zehn Stunden – er dreht sich so schnell, dass er an den Polen abgeflacht ist. Für einen Umlauf um die Sonne braucht er dagegen fast zwölf Jahre.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Planeten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jupiter (Planet)",
+    "source_url": "https://de.wikipedia.org/wiki/Jupiter_(Planet)",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does the giant planet Jupiter take to spin once on its axis?",
+        "options": [
+          "About three weeks",
+          "Exactly one Earth day",
+          "Just under ten hours",
+          "Almost twelve years"
+        ],
+        "explanation": "Jupiter's rotation period is just under ten hours – it spins so fast that it is flattened at the poles. To orbit the Sun, on the other hand, it needs almost twelve years."
+      }
+    }
+  },
+  {
+    "id": "ws70",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie groß ist der Radius eines typischen Neutronensterns?",
+    "options": [
+      "Etwa 1 Meter",
+      "Etwa 10 bis 12 Kilometer",
+      "Etwa so groß wie die Erde",
+      "Etwa so groß wie die Sonne"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Neutronenstern ist ein Endstadium massereicher Sterne. Mit typischen Radien von etwa 10 bis 12 km ist er sehr klein, hat aber mehr Masse als unsere Sonne. Schon an der Kruste wiegt ein Kubikzentimeter seines Materials rund eine Tonne.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neutronenstern",
+    "source_url": "https://de.wikipedia.org/wiki/Neutronenstern",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the radius of a typical neutron star?",
+        "options": [
+          "About 1 metre",
+          "About 10 to 12 kilometres",
+          "About the size of Earth",
+          "About the size of the Sun"
+        ],
+        "explanation": "A neutron star is a final stage of massive stars. With typical radii of about 10 to 12 km it is very small, yet has more mass than our Sun. Even at its crust, one cubic centimetre of its material weighs about a tonne."
+      }
+    }
+  },
+  {
+    "id": "ws71",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was tragen die beiden 1977 gestarteten Voyager-Sonden als Botschaft an mögliche Außerirdische mit sich?",
+    "options": [
+      "Eine Flagge der Erde",
+      "Datenplatten mit Bildern und Tönen",
+      "Einen Brief der NASA",
+      "Samen von Pflanzen"
+    ],
+    "correct_index": 1,
+    "explanation": "An Bord von Voyager 1 und Voyager 2 sind die Voyager Golden Records angebracht: Datenplatten mit Bild- und Audio-Informationen als Botschaft an Außerirdische. Mit einer geschätzten Lebensdauer von 500 Millionen Jahren sollen sie zumindest bezeugen, dass es Menschen gegeben hat.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Voyager Golden Record",
+    "source_url": "https://de.wikipedia.org/wiki/Voyager_Golden_Record",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the two Voyager probes launched in 1977 carry as a message to possible aliens?",
+        "options": [
+          "A flag of Earth",
+          "Records with pictures and sounds",
+          "A letter from NASA",
+          "Plant seeds"
+        ],
+        "explanation": "The Voyager Golden Records are attached to Voyager 1 and Voyager 2: discs with picture and sound information as a message to aliens. With an estimated lifetime of 500 million years they should at least bear witness that humans existed."
+      }
+    }
+  },
+  {
+    "id": "ws72",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was zeigt das berühmte Foto „Earthrise“, aufgenommen am 24. Dezember 1968 beim Flug von Apollo 8?",
+    "options": [
+      "Einen Raketenstart",
+      "Die Sonne hinter dem Mars",
+      "Die Erde, die über dem Mond aufgeht",
+      "Einen Astronauten auf dem Mond"
+    ],
+    "correct_index": 2,
+    "explanation": "Earthrise heißt auf Deutsch „Erdaufgang“. Das NASA-Foto entstand am 24. Dezember 1968 während einer Mondumkreisung von Apollo 8 und war im Flugplan gar nicht vorgesehen. Es gilt als erster farbiger Blick auf die Erde von außen und trug zur Entstehung der Umweltbewegung bei.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Earthrise",
+    "source_url": "https://de.wikipedia.org/wiki/Earthrise",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the famous photo 'Earthrise', taken on 24 December 1968 during the Apollo 8 flight, show?",
+        "options": [
+          "A rocket launch",
+          "The Sun behind Mars",
+          "The Earth rising above the Moon",
+          "An astronaut on the Moon"
+        ],
+        "explanation": "Earthrise shows the Earth rising. The NASA photo was taken on 24 December 1968 during a lunar orbit of Apollo 8 and was not even in the flight plan. It is considered the first colour view of the Earth from outside and helped give rise to the environmental movement."
+      }
+    }
+  },
+  {
+    "id": "mk57",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ist das Besondere am Theremin, einem elektronischen Instrument von 1920?",
+    "options": [
+      "Es hat nur eine einzige Taste",
+      "Es wird mit den Füßen gespielt",
+      "Es klingt nur unter Wasser",
+      "Man spielt es, ohne es zu berühren"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Theremin steuern die Hände Tonhöhe und Lautstärke über ihren Abstand zu zwei Elektroden – das Instrument muss dabei nicht berührt werden. Erfunden hat es 1920 der Russe Lew Termen, der sich in den USA Leon Theremin nannte. Zu hören war es in Neuer Musik und in Science-Fiction-Filmen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Theremin",
+    "source_url": "https://de.wikipedia.org/wiki/Theremin",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the theremin, an electronic instrument from 1920?",
+        "options": [
+          "It has only one key",
+          "It is played with the feet",
+          "It only sounds under water",
+          "It is played without being touched"
+        ],
+        "explanation": "On the theremin the hands control pitch and volume by their distance from two electrodes – the instrument doesn't have to be touched. It was invented in 1920 by the Russian Lev Termen, who called himself Leon Theremin in the USA. It was heard in new music and in science-fiction films."
+      }
+    }
+  },
+  {
+    "id": "mk58",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welche mittelalterliche Ordensfrau hinterließ eine Sammlung von 77 geistlichen Gesängen?",
+    "options": [
+      "Hildegard von Bingen",
+      "Clara Schumann",
+      "Fanny Hensel",
+      "Jeanne d’Arc"
+    ],
+    "correct_index": 0,
+    "explanation": "Hildegard von Bingen war eine deutsche Benediktinerin, die von 1098 bis 1179 lebte. Sie schrieb über Religion, Natur und Medizin – und komponierte auch. Ihre Sammlung geistlicher Lieder enthält 77 liturgische Gesänge.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hildegard von Bingen",
+    "source_url": "https://de.wikipedia.org/wiki/Hildegard_von_Bingen",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which medieval nun left a collection of 77 sacred songs?",
+        "options": [
+          "Hildegard of Bingen",
+          "Clara Schumann",
+          "Fanny Hensel",
+          "Joan of Arc"
+        ],
+        "explanation": "Hildegard of Bingen was a German Benedictine nun who lived from 1098 to 1179. She wrote about religion, nature and medicine – and also composed. Her collection of sacred songs contains 77 liturgical chants."
+      }
+    }
+  },
+  {
+    "id": "mk59",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Warum stammt Mozarts Requiem nur zu etwa zwei Dritteln von ihm selbst?",
+    "options": [
+      "Er hatte keine Lust mehr",
+      "Er starb während der Komposition",
+      "Ein Teil der Noten verbrannte",
+      "Er schrieb es zusammen mit Beethoven"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Requiem in d-Moll aus dem Jahr 1791 ist Mozarts letzte Komposition – er starb, während er daran arbeitete. Weil es ein Auftragswerk war, ließ seine Witwe Constanze es vollenden, unter anderem von seinem Schüler Franz Xaver Süßmayr. Heute gehört es zu seinen beliebtesten Werken.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Requiem (Mozart)",
+    "source_url": "https://de.wikipedia.org/wiki/Requiem_(Mozart)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is only about two thirds of Mozart's Requiem by Mozart himself?",
+        "options": [
+          "He lost interest",
+          "He died while composing it",
+          "Part of the score burned",
+          "He wrote it together with Beethoven"
+        ],
+        "explanation": "The Requiem in D minor from 1791 is Mozart's last composition – he died while working on it. Because it was a commission, his widow Constanze had it completed, among others by his pupil Franz Xaver Süssmayr. Today it is one of his most popular works."
+      }
+    }
+  },
+  {
+    "id": "mk60",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie viele „Brandenburgische Konzerte“ schrieb Johann Sebastian Bach?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "12"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Brandenburgischen Konzerte sind eine Gruppe von sechs Instrumentalkonzerten von Johann Sebastian Bach. Die erhaltene Partitur von 1721 widmete er einem Markgrafen von Brandenburg – daher der Name, den aber erst ein Bach-Biograf zwischen 1873 und 1879 prägte.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brandenburgische Konzerte",
+    "source_url": "https://de.wikipedia.org/wiki/Brandenburgische_Konzerte",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many 'Brandenburg Concertos' did Johann Sebastian Bach write?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "12"
+        ],
+        "explanation": "The Brandenburg Concertos are a group of six instrumental concertos by Johann Sebastian Bach. He dedicated the surviving score of 1721 to a margrave of Brandenburg – hence the name, which a Bach biographer only coined between 1873 and 1879."
+      }
+    }
+  },
+  {
+    "id": "mk61",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet der Titel „Carmina Burana“ von Carl Orffs berühmter Kantate?",
+    "options": [
+      "„Lieder aus Benediktbeuern“",
+      "„Gesänge der Nacht“",
+      "„Lob der Burgen“",
+      "„Fröhliche Tänze“"
+    ],
+    "correct_index": 0,
+    "explanation": "Carmina Burana ist Lateinisch für „Beurer Lieder“ oder „Lieder aus Benediktbeuern“. Carl Orff schrieb die szenische Kantate 1935/1936; die Texte stammen aus einer Sammlung von Liedern aus dem 11. und 12. Jahrhundert. Uraufgeführt wurde sie 1937 in Frankfurt am Main.",
+    "difficulty": 3,
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Carmina Burana (Orff)",
+    "source_url": "https://de.wikipedia.org/wiki/Carmina_Burana_(Orff)",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the title 'Carmina Burana' of Carl Orff's famous cantata mean?",
+        "options": [
+          "'Songs from Benediktbeuern'",
+          "'Songs of the Night'",
+          "'Praise of Castles'",
+          "'Merry Dances'"
+        ],
+        "explanation": "Carmina Burana is Latin for 'Songs from Beuern' or 'Songs from Benediktbeuern'. Carl Orff wrote the scenic cantata in 1935/1936; the texts come from a collection of songs from the 11th and 12th centuries. It premiered in 1937 in Frankfurt am Main."
+      }
+    }
+  },
+  {
+    "id": "mk62",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was verbindet George Gershwins „Rhapsody in Blue“ von 1924?",
+    "options": [
+      "Volksmusik und Marschmusik",
+      "Jazz und Blues mit Konzertmusik für Orchester",
+      "Oper und Ballett",
+      "Rock und Elektro"
+    ],
+    "correct_index": 1,
+    "explanation": "Die „Rhapsody in Blue“ ist George Gershwins bekannteste Komposition und wurde am 12. Februar 1924 in New York uraufgeführt – Gershwin selbst saß am Klavier. Das Stück verbindet Jazz, Blues und konzertante Sinfonik; das Konzert hieß „An Experiment in Modern Music“.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Jazz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rhapsody in Blue",
+    "source_url": "https://de.wikipedia.org/wiki/Rhapsody_in_Blue",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does George Gershwin's 'Rhapsody in Blue' from 1924 combine?",
+        "options": [
+          "Folk music and marches",
+          "Jazz and blues with concert music for orchestra",
+          "Opera and ballet",
+          "Rock and electronic music"
+        ],
+        "explanation": "'Rhapsody in Blue' is George Gershwin's best-known composition and premiered on 12 February 1924 in New York – Gershwin himself was at the piano. The piece combines jazz, blues and symphonic concert music; the concert was called 'An Experiment in Modern Music'."
+      }
+    }
+  },
+  {
+    "id": "mk63",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer entwickelte 1761 die Glasharmonika, bei der man Glasglocken mit nassen Fingern zum Klingen bringt?",
+    "options": [
+      "Adolphe Sax",
+      "Thomas Edison",
+      "Benjamin Franklin",
+      "Joseph Haydn"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Glasharmonika wurde 1761 von Benjamin Franklin entwickelt. Sie besteht aus ineinandergeschobenen Glasglocken auf einer drehenden Welle; der Musiker berührt die Ränder mit angefeuchteten Fingern. Heute ist das Instrument weitgehend vergessen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glasharmonika",
+    "source_url": "https://de.wikipedia.org/wiki/Glasharmonika",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who developed the glass harmonica in 1761, on which glass bowls are made to sound with wet fingers?",
+        "options": [
+          "Adolphe Sax",
+          "Thomas Edison",
+          "Benjamin Franklin",
+          "Joseph Haydn"
+        ],
+        "explanation": "The glass harmonica was developed in 1761 by Benjamin Franklin. It consists of nested glass bowls on a rotating shaft; the player touches the rims with moistened fingers. Today the instrument is largely forgotten."
+      }
+    }
+  },
+  {
+    "id": "mk64",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was für einen Ton erzeugt eine Stimmgabel beim Anschlagen?",
+    "options": [
+      "Gar keinen hörbaren Ton",
+      "Einen schnarrenden Ton",
+      "Mehrere Töne gleichzeitig wie ein Akkord",
+      "Einen klaren Ton mit wenigen Obertönen"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Stimmgabel ist eine U-förmige Metallgabel aus einem Stück. Ihre Zinken erzeugen beim Anschlagen einen klaren, obertonarmen Ton – ideal zum Stimmen. Erfunden haben soll sie um 1711 der Trompeter John Shore.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Akustik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stimmgabel",
+    "source_url": "https://de.wikipedia.org/wiki/Stimmgabel",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What kind of sound does a tuning fork make when struck?",
+        "options": [
+          "No audible sound at all",
+          "A buzzing sound",
+          "Several notes at once like a chord",
+          "A clear tone with few overtones"
+        ],
+        "explanation": "A tuning fork is a U-shaped metal fork made in one piece. When struck, its prongs produce a clear tone with few overtones – ideal for tuning. It is said to have been invented around 1711 by the trumpeter John Shore."
+      }
+    }
+  },
+  {
+    "id": "mk65",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welches Bauteil machte es Robert Moog in den 1960er Jahren möglich, handliche Synthesizer zu bauen?",
+    "options": [
+      "Der Transistor, der die Elektronenröhre ersetzte",
+      "Der Mikrochip",
+      "Die Glühbirne",
+      "Der Lautsprecher"
+    ],
+    "correct_index": 0,
+    "explanation": "Moog experimentierte schon in den 1950er Jahren mit elektronischen Klängen. Erst als in den 1960er Jahren der Transistor die Elektronenröhre ersetzte, konnte er ein Gerät bauen, das von Stromverbrauch und Größe her taugte. 1964 kam er mit einem modularen Synthesizer auf den Markt.",
+    "difficulty": 3,
+    "tags": [
+      "Musik",
+      "Elektronik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moog-Synthesizer",
+    "source_url": "https://de.wikipedia.org/wiki/Moog-Synthesizer",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which component made it possible for Robert Moog to build manageable synthesizers in the 1960s?",
+        "options": [
+          "The transistor, which replaced the vacuum tube",
+          "The microchip",
+          "The light bulb",
+          "The loudspeaker"
+        ],
+        "explanation": "Moog was already experimenting with electronic sounds in the 1950s. Only when the transistor replaced the vacuum tube in the 1960s could he build a device acceptable in power consumption and size. In 1964 he brought a modular synthesizer to market."
+      }
+    }
+  },
+  {
+    "id": "mk66",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welche Instrumente verraten in Prokofjews „Peter und der Wolf“, dass der Wolf kommt?",
+    "options": [
+      "Die Querflöte",
+      "Drei Hörner",
+      "Die Geigen",
+      "Die Pauken"
+    ],
+    "correct_index": 1,
+    "explanation": "„Peter und der Wolf“ ist ein Musikmärchen von Sergei Prokofjew aus dem Jahr 1936. Es soll Kinder mit den Instrumenten eines Sinfonieorchesters vertraut machen: Jede Figur hat ihr Instrument – die drei Hörner verraten, dass der Wolf kommt.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Peter und der Wolf",
+    "source_url": "https://de.wikipedia.org/wiki/Peter_und_der_Wolf",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which instruments announce in Prokofiev's 'Peter and the Wolf' that the wolf is coming?",
+        "options": [
+          "The flute",
+          "Three horns",
+          "The violins",
+          "The timpani"
+        ],
+        "explanation": "'Peter and the Wolf' is a musical fairy tale by Sergei Prokofiev from 1936. It is meant to introduce children to the instruments of a symphony orchestra: each character has its instrument – the three horns announce that the wolf is coming."
+      }
+    }
+  },
+  {
+    "id": "mk67",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was wollte Camille Saint-Saëns zu Lebzeiten mit seinem „Karneval der Tiere“ nicht?",
+    "options": [
+      "Dass es ohne Erzähler gespielt wird",
+      "Dass Kinder es hören",
+      "Dass es veröffentlicht wird",
+      "Dass es im Zirkus aufgeführt wird"
+    ],
+    "correct_index": 2,
+    "explanation": "„Der Karneval der Tiere“ ist eine Suite von Camille Saint-Saëns aus dem Jahr 1886 mit 14 kleinen Sätzen. Zu Lebzeiten gab der Komponist sie nicht zur Veröffentlichung frei – heute ist sie eines seiner bekanntesten Werke.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Karneval der Tiere",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Karneval_der_Tiere",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Camille Saint-Saëns not want to happen to his 'Carnival of the Animals' during his lifetime?",
+        "options": [
+          "Being played without a narrator",
+          "Children hearing it",
+          "Being published",
+          "Being performed in a circus"
+        ],
+        "explanation": "'The Carnival of the Animals' is a suite by Camille Saint-Saëns from 1886 with 14 short movements. During his lifetime the composer did not allow it to be published – today it is one of his best-known works."
+      }
+    }
+  },
+  {
+    "id": "mk68",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Warum konnte die Komponistin Fanny Hensel zu Lebzeiten kaum Werke veröffentlichen?",
+    "options": [
+      "Sie schrieb nur für sich im Geheimen",
+      "Es gab damals noch keinen Notendruck",
+      "Ihre Noten waren unleserlich",
+      "Ihre Familie untersagte ihr eine musikalische Karriere weitgehend"
+    ],
+    "correct_index": 3,
+    "explanation": "Fanny Hensel, Schwester von Felix Mendelssohn Bartholdy, war Komponistin der Romantik, Pianistin und Dirigentin. Eine musikalische Karriere und Veröffentlichungen wurden ihr von der Familie weitgehend untersagt. Trotzdem umfasst ihr Werk über 460 Kompositionen.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Komponisten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fanny Hensel",
+    "source_url": "https://de.wikipedia.org/wiki/Fanny_Hensel",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why could the composer Fanny Hensel hardly publish any works during her lifetime?",
+        "options": [
+          "She only wrote secretly for herself",
+          "Music printing did not exist yet",
+          "Her scores were illegible",
+          "Her family largely forbade her a musical career"
+        ],
+        "explanation": "Fanny Hensel, sister of Felix Mendelssohn Bartholdy, was a Romantic composer, pianist and conductor. Her family largely forbade her a musical career and publications. Even so, her work comprises over 460 compositions."
+      }
+    }
+  },
+  {
+    "id": "mk69",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet der Name der indischen Sitar ursprünglich?",
+    "options": [
+      "„Die Dreisaitige“",
+      "„Die Singende“",
+      "„Die Lange“",
+      "„Die Goldene“"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Name Sitar kommt vom persischen setār, „die Dreisaitige“. Die gezupfte Langhalslaute ist das bekannteste Melodieinstrument der klassischen nordindischen Musik. Ende der 1960er Jahre gelangte sie durch Musiker wie Ravi Shankar auch in den Jazz.",
+    "difficulty": 3,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sitar",
+    "source_url": "https://de.wikipedia.org/wiki/Sitar",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the name of the Indian sitar originally mean?",
+        "options": [
+          "'The three-stringed one'",
+          "'The singing one'",
+          "'The long one'",
+          "'The golden one'"
+        ],
+        "explanation": "The name sitar comes from the Persian setār, 'three-stringed'. The plucked long-necked lute is the best-known melody instrument of classical North Indian music. In the late 1960s it also found its way into jazz through musicians such as Ravi Shankar."
+      }
+    }
+  },
+  {
+    "id": "mk70",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Mit welcher Musik ist das Bandoneon am engsten verbunden?",
+    "options": [
+      "Mit dem Reggae",
+      "Mit dem Jodeln",
+      "Mit dem Tango",
+      "Mit dem Blues"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Bandoneon ist ein Handzuginstrument aus der Familie der Harmonikainstrumente, gebaut von Heinrich Band. Seine größte Beliebtheit hängt unmittelbar mit dem Tango zusammen – bis hin zum Tango Nuevo und Electrotango.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bandoneon",
+    "source_url": "https://de.wikipedia.org/wiki/Bandoneon",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which music is the bandoneon most closely associated with?",
+        "options": [
+          "Reggae",
+          "Yodelling",
+          "Tango",
+          "Blues"
+        ],
+        "explanation": "The bandoneon is a bellows-driven instrument from the harmonica family, built by Heinrich Band. Its greatest popularity is directly linked to the tango – right up to tango nuevo and electrotango."
+      }
+    }
+  },
+  {
+    "id": "mk71",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie nennt man die Blockflöte wegen der Form ihres Mundstücks auch?",
+    "options": [
+      "Lippenflöte",
+      "Pfeifenflöte",
+      "Vogelflöte",
+      "Schnabelflöte"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Blockflöte ist ein Holzblasinstrument. In ihrem Kopf steckt ein Kern, der „Block“, der nur einen engen Spalt frei lässt. Wegen der Form ihres Mundstücks heißt sie auch „Schnabelflöte“; die meisten Blockflöten sind in C oder F gestimmt.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blockflöte",
+    "source_url": "https://de.wikipedia.org/wiki/Blockflöte",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What else is the recorder called in German because of the shape of its mouthpiece?",
+        "options": [
+          "Lip flute",
+          "Pipe flute",
+          "Bird flute",
+          "Beak flute"
+        ],
+        "explanation": "The recorder is a woodwind instrument. In its head is a plug, the 'block', which leaves only a narrow slit open. Because of the shape of its mouthpiece it is also called a 'beak flute' in German; most recorders are pitched in C or F."
+      }
+    }
+  },
+  {
+    "id": "mk72",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Mit welcher Musik werden Kastagnetten vor allem verbunden?",
+    "options": [
+      "Mit spanischer Musik",
+      "Mit japanischer Musik",
+      "Mit irischer Musik",
+      "Mit Blasmusik"
+    ],
+    "correct_index": 0,
+    "explanation": "Kastagnetten sind muschelförmige, meist hölzerne Klappern von etwa fünf Zentimetern Durchmesser. Sie begleiten den Rhythmus und werden hauptsächlich mit der spanischen Musik verbunden.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kastagnetten",
+    "source_url": "https://de.wikipedia.org/wiki/Kastagnetten",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which music are castanets mainly associated with?",
+        "options": [
+          "Spanish music",
+          "Japanese music",
+          "Irish music",
+          "Brass band music"
+        ],
+        "explanation": "Castanets are shell-shaped, usually wooden clappers about five centimetres across. They accompany the rhythm and are mainly associated with Spanish music."
+      }
+    }
+  },
+  {
+    "id": "mk73",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was tun die Musiker am Ende von Joseph Haydns „Abschiedssinfonie“ von 1772?",
+    "options": [
+      "Sie verbeugen sich gemeinsam",
+      "Sie löschen ihre Kerzen und verlassen nacheinander die Bühne",
+      "Sie singen ein Lied",
+      "Sie werfen ihre Noten in die Luft"
+    ],
+    "correct_index": 1,
+    "explanation": "Haydn schrieb die Sinfonie 1772 als Kapellmeister am Hof der Esterházy. Am Ende hören die Musiker einer nach dem anderen auf zu spielen, löschen ihre Kerzen und verlassen die Bühne. Den Titel „Abschiedssinfonie“ gab ihr nicht Haydn selbst.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Klassik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Abschiedssinfonie",
+    "source_url": "https://de.wikipedia.org/wiki/Abschiedssinfonie",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the musicians do at the end of Joseph Haydn's 'Farewell Symphony' from 1772?",
+        "options": [
+          "They bow together",
+          "They put out their candles and leave the stage one after another",
+          "They sing a song",
+          "They throw their sheet music in the air"
+        ],
+        "explanation": "Haydn wrote the symphony in 1772 as music director at the Esterházy court. At the end the musicians stop playing one after another, put out their candles and leave the stage. The title 'Farewell Symphony' was not given by Haydn himself."
+      }
+    }
   }
 ]
