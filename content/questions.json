@@ -56067,5 +56067,2045 @@
         "explanation": "Litmus is a dye obtained from lichens and is used as an acid–base indicator. At pH values below 4.5 it turns red, above 8.3 blue, and violet in between."
       }
     }
+  },
+  {
+    "id": "kn60",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welches Gebäude verhüllten Christo und Jeanne-Claude im Sommer 1995 vollständig mit Stoff?",
+    "options": [
+      "Das Reichstagsgebäude in Berlin",
+      "Das Brandenburger Tor",
+      "Den Kölner Dom",
+      "Den Berliner Fernsehturm"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Künstlerehepaar Christo und Jeanne-Claude verhüllte das Reichstagsgebäude in Berlin vom 24. Juni bis zum 7. Juli 1995 mit silbrig glänzendem Kunststoffgewebe. Bis das Projekt umgesetzt werden durfte, dauerte es von 1971 bis 1995. Es ist eines der bekanntesten Werke für Kunst im öffentlichen Raum.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Verhüllter Reichstag",
+    "source_url": "https://de.wikipedia.org/wiki/Verhüllter_Reichstag",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which building did Christo and Jeanne-Claude completely wrap in fabric in summer 1995?",
+        "options": [
+          "The Reichstag building in Berlin",
+          "The Brandenburg Gate",
+          "Cologne Cathedral",
+          "The Berlin TV Tower"
+        ],
+        "explanation": "The artist couple Christo and Jeanne-Claude wrapped the Reichstag building in Berlin from 24 June to 7 July 1995 in a silvery synthetic fabric. Getting the project realised took from 1971 to 1995. It is one of the best-known works of art in public space."
+      }
+    }
+  },
+  {
+    "id": "kn61",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Womit wurde Käthe Kollwitz vor allem bekannt?",
+    "options": [
+      "Mit Ölbildern von Blumen",
+      "Mit Druckgrafiken, Zeichnungen und Plastiken",
+      "Mit Fotografien",
+      "Mit Kirchenfenstern"
+    ],
+    "correct_index": 1,
+    "explanation": "Käthe Kollwitz war Zeichnerin, Druckgrafikerin und Bildhauerin und zählt zu den bekanntesten deutschen Künstlerinnen des 20. Jahrhunderts. Ihre oft ernsten Lithografien, Radierungen, Holzschnitte und Plastiken beruhen auf persönlichen Erfahrungen.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Grafik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Käthe Kollwitz",
+    "source_url": "https://de.wikipedia.org/wiki/Käthe_Kollwitz",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was Käthe Kollwitz mainly known for?",
+        "options": [
+          "Oil paintings of flowers",
+          "Prints, drawings and sculptures",
+          "Photographs",
+          "Church windows"
+        ],
+        "explanation": "Käthe Kollwitz was a draughtswoman, printmaker and sculptor and is one of the best-known German women artists of the 20th century. Her often serious lithographs, etchings, woodcuts and sculptures are based on personal experience."
+      }
+    }
+  },
+  {
+    "id": "kn62",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Art von Kunstwerk hat der Bildhauer Alexander Calder erfunden?",
+    "options": [
+      "Das Graffiti",
+      "Die Collage",
+      "Das Mobile",
+      "Das Mosaik"
+    ],
+    "correct_index": 2,
+    "explanation": "Alexander Calder war ein US-amerikanischer Bildhauer, dessen Werk großteils zur kinetischen Kunst – also Kunst mit Bewegung – gehört. Er gilt als Erfinder des Mobiles. Nach einer Begegnung mit Piet Mondrian entstanden seine ersten Mobiles, die scheinbar nicht der Schwerkraft unterliegen.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alexander Calder",
+    "source_url": "https://de.wikipedia.org/wiki/Alexander_Calder",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What kind of artwork did the sculptor Alexander Calder invent?",
+        "options": [
+          "Graffiti",
+          "The collage",
+          "The mobile",
+          "The mosaic"
+        ],
+        "explanation": "Alexander Calder was an American sculptor whose work largely belongs to kinetic art – art that moves. He is considered the inventor of the mobile. After meeting Piet Mondrian he made his first mobiles, which seem to defy gravity."
+      }
+    }
+  },
+  {
+    "id": "kn63",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie viele Gemälde schuf Paula Modersohn-Becker in ihren knapp 14 Jahren als Künstlerin?",
+    "options": [
+      "75",
+      "750",
+      "3000",
+      "7500"
+    ],
+    "correct_index": 1,
+    "explanation": "In den knapp 14 Jahren, in denen sie künstlerisch tätig war, schuf Paula Modersohn-Becker 750 Gemälde, etwa 1000 Zeichnungen und 13 Radierungen. Ihre Werke zählen zu den bedeutendsten Arbeiten des frühen Expressionismus.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paula Modersohn-Becker",
+    "source_url": "https://de.wikipedia.org/wiki/Paula_Modersohn-Becker",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many paintings did Paula Modersohn-Becker create in her almost 14 years as an artist?",
+        "options": [
+          "75",
+          "750",
+          "3000",
+          "7500"
+        ],
+        "explanation": "In the almost 14 years she was active as an artist, Paula Modersohn-Becker created 750 paintings, about 1000 drawings and 13 etchings. Her works are among the most important of early Expressionism."
+      }
+    }
+  },
+  {
+    "id": "kn64",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Motive der Malerin Georgia O’Keeffe aus den 1920er Jahren sind besonders bekannt?",
+    "options": [
+      "Riesige Blumenbilder",
+      "Pferderennen",
+      "Segelschiffe auf See",
+      "Porträts von Musikern"
+    ],
+    "correct_index": 0,
+    "explanation": "Georgia O’Keeffe zählt zu den bekanntesten US-amerikanischen Malerinnen des 20. Jahrhunderts. Ihre monumentalen Blumenbilder der 1920er Jahre gehören zu ihren bekanntesten Werken; später malte sie auch Stadtansichten, Wüstenlandschaften und Knochen.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Georgia O’Keeffe",
+    "source_url": "https://de.wikipedia.org/wiki/Georgia_O’Keeffe",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which subjects by the painter Georgia O'Keeffe from the 1920s are particularly famous?",
+        "options": [
+          "Huge paintings of flowers",
+          "Horse races",
+          "Sailing ships at sea",
+          "Portraits of musicians"
+        ],
+        "explanation": "Georgia O'Keeffe is one of the best-known American women painters of the 20th century. Her monumental flower paintings of the 1920s are among her best-known works; later she also painted cityscapes, desert landscapes and bones."
+      }
+    }
+  },
+  {
+    "id": "kn65",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wofür interessierte sich der englische Maler William Turner in seinen Landschaften besonders?",
+    "options": [
+      "Für genaue Pflanzenbestimmung",
+      "Für Licht und Atmosphäre",
+      "Für Porträts von Bauern",
+      "Für geometrische Formen"
+    ],
+    "correct_index": 1,
+    "explanation": "William Turner gilt als der bedeutendste bildende Künstler Englands in der Romantik. Landschaften und Seestücke waren seine bevorzugten Themen; dem Licht und der Atmosphäre galt dabei sein besonderes Interesse. Damit beeinflusste er stark die Impressionisten.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: William Turner",
+    "source_url": "https://de.wikipedia.org/wiki/William_Turner",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the English painter William Turner particularly interested in in his landscapes?",
+        "options": [
+          "Exact identification of plants",
+          "Light and atmosphere",
+          "Portraits of farmers",
+          "Geometric shapes"
+        ],
+        "explanation": "William Turner is considered England's most important visual artist of the Romantic era. Landscapes and seascapes were his favourite subjects, with a special interest in light and atmosphere. In this he strongly influenced the Impressionists."
+      }
+    }
+  },
+  {
+    "id": "kn66",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie wird der Maler Marc Chagall oft genannt?",
+    "options": [
+      "„König der Farben“",
+      "„Meister des Schattens“",
+      "„Maler-Poet“",
+      "„Der wilde Pinsel“"
+    ],
+    "correct_index": 2,
+    "explanation": "Marc Chagall gilt als einer der bedeutendsten Maler des 20. Jahrhunderts. Er wird oft dem Expressionismus zugeordnet und als „Maler-Poet“ bezeichnet. Seine Heimatstadt, die Bibel und der Zirkus sind Hauptthemen seiner Bilder – auch in seinen Mosaiken und Kirchenfenstern.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marc Chagall",
+    "source_url": "https://de.wikipedia.org/wiki/Marc_Chagall",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the painter Marc Chagall often called?",
+        "options": [
+          "'King of colours'",
+          "'Master of shadows'",
+          "'Painter-poet'",
+          "'The wild brush'"
+        ],
+        "explanation": "Marc Chagall is considered one of the most important painters of the 20th century. He is often classed as an Expressionist and called a 'painter-poet'. His home town, the Bible and the circus are main subjects of his pictures – also in his mosaics and church windows."
+      }
+    }
+  },
+  {
+    "id": "kn67",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Warum wurde der Maler Henri Rousseau „der Zöllner“ genannt?",
+    "options": [
+      "Er malte vor allem Grenzposten",
+      "Er verkaufte seine Bilder an einer Brücke",
+      "Er sammelte alte Münzen",
+      "Er arbeitete beim Zoll"
+    ],
+    "correct_index": 3,
+    "explanation": "Henri Rousseau brachte sich das Malen selbst bei. Nach dem Militärdienst wurde er beim Zoll angestellt – daher sein Name „Le Douanier“, der Zöllner. Sein Stil wird der Naiven Kunst zugeordnet; er gilt als einer der Wegbereiter des Surrealismus.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Henri Rousseau",
+    "source_url": "https://de.wikipedia.org/wiki/Henri_Rousseau",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why was the painter Henri Rousseau called 'the customs officer'?",
+        "options": [
+          "He mainly painted border posts",
+          "He sold his pictures on a bridge",
+          "He collected old coins",
+          "He worked at the customs office"
+        ],
+        "explanation": "Henri Rousseau taught himself to paint. After military service he took a job at the customs office – hence his name 'Le Douanier', the customs officer. His style is classed as naïve art; he is considered one of the forerunners of Surrealism."
+      }
+    }
+  },
+  {
+    "id": "kn68",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Bei welchem berühmten Bildhauer war Camille Claudel Schülerin?",
+    "options": [
+      "Bei Auguste Rodin",
+      "Bei Michelangelo",
+      "Bei Alexander Calder",
+      "Bei Henry Moore"
+    ],
+    "correct_index": 0,
+    "explanation": "Camille Claudel war eine französische Bildhauerin, bekannt für ihre Figuren aus Bronze und Marmor. Sie war Schülerin und Geliebte von Auguste Rodin und stand zeitlebens in dessen Schatten. Erst spät wurde sie als eine der wichtigsten Bildhauerinnen des 19. Jahrhunderts gewürdigt.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Camille Claudel",
+    "source_url": "https://de.wikipedia.org/wiki/Camille_Claudel",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which famous sculptor was Camille Claudel a pupil of?",
+        "options": [
+          "Auguste Rodin",
+          "Michelangelo",
+          "Alexander Calder",
+          "Henry Moore"
+        ],
+        "explanation": "Camille Claudel was a French sculptor known for her figures in bronze and marble. She was the pupil and lover of Auguste Rodin and lived in his shadow all her life. Only late was she recognised as one of the most important women sculptors of the 19th century."
+      }
+    }
+  },
+  {
+    "id": "kn69",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet „Secession“ im Namen der Wiener Künstlervereinigung, die Gustav Klimt 1897 mitgründete?",
+    "options": [
+      "Akademie",
+      "Abspaltung",
+      "Ausstellung",
+      "Erneuerung"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Wiener Secession wurde am 3. April 1897 von Gustav Klimt, Koloman Moser, Josef Hoffmann und anderen gegründet – als Abspaltung vom Wiener Künstlerhaus. Nach ihr heißt der Wiener Jugendstil auch Secessionsstil.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Jugendstil"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wiener Secession",
+    "source_url": "https://de.wikipedia.org/wiki/Wiener_Secession",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does 'Secession' mean in the name of the Vienna artists' association that Gustav Klimt co-founded in 1897?",
+        "options": [
+          "Academy",
+          "Split-off",
+          "Exhibition",
+          "Renewal"
+        ],
+        "explanation": "The Vienna Secession was founded on 3 April 1897 by Gustav Klimt, Koloman Moser, Josef Hoffmann and others – as a split-off from the Vienna Künstlerhaus. Viennese Art Nouveau is also called the Secession style after it."
+      }
+    }
+  },
+  {
+    "id": "kn70",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet der Name „Hagia Sophia“ des berühmten Kuppelbaus in Istanbul?",
+    "options": [
+      "„Goldenes Tor“",
+      "„Haus des Lichts“",
+      "„Große Kuppel“",
+      "„Heilige Weisheit“"
+    ],
+    "correct_index": 3,
+    "explanation": "Hagia Sophia kommt aus dem Griechischen und bedeutet „heilige Weisheit“. Der Bau wurde von 532 bis 537 n. Chr. als Kirche errichtet und gilt in seiner Architektur oft als Kirche ohne Vorbilder und ohne Nachahmung.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hagia Sophia",
+    "source_url": "https://de.wikipedia.org/wiki/Hagia_Sophia",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the name 'Hagia Sophia' of the famous domed building in Istanbul mean?",
+        "options": [
+          "'Golden Gate'",
+          "'House of Light'",
+          "'Great Dome'",
+          "'Holy Wisdom'"
+        ],
+        "explanation": "Hagia Sophia comes from Greek and means 'holy wisdom'. It was built as a church from 532 to 537 AD and is often described architecturally as a church without models and without imitations."
+      }
+    }
+  },
+  {
+    "id": "kn71",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wodurch entfalten bunte Kirchenfenster aus Glasmalerei ihre Wirkung?",
+    "options": [
+      "Durch das durchscheinende Licht",
+      "Durch eingebaute Lampen",
+      "Durch spiegelnde Goldfarbe",
+      "Durch Bewegung im Wind"
+    ],
+    "correct_index": 0,
+    "explanation": "Glasmalerei meint vor allem farbige Fenster mit Bildern. Ihre Wirkung entsteht durch das durchscheinende Licht. Keine andere Malart kann eine so hohe Farbleuchtkraft und so große Helligkeitsunterschiede zeigen wie ein durchsichtiges Glasbild.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glasmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Glasmalerei",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes colourful stained-glass church windows so effective?",
+        "options": [
+          "The light shining through them",
+          "Built-in lamps",
+          "Reflective gold paint",
+          "Movement in the wind"
+        ],
+        "explanation": "Stained glass mainly means coloured windows with pictures. Their effect comes from the light shining through. No other kind of painting can show such luminous colours and such great differences in brightness as a transparent glass picture."
+      }
+    }
+  },
+  {
+    "id": "kn72",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Teile eines Holzschnitt-Druckstocks drucken auf dem Papier?",
+    "options": [
+      "Die herausgeschnittenen Vertiefungen",
+      "Die stehen gebliebenen, erhabenen Teile",
+      "Nur die Ränder des Bretts",
+      "Die Rückseite des Holzes"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Holzschnitt ist ein Hochdruckverfahren. Aus einem glatt gehobelten Holzbrett werden die nicht druckenden Teile herausgeschnitten; die erhabenen Teile werden danach eingefärbt und abgedruckt.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Holzschnitt",
+    "source_url": "https://de.wikipedia.org/wiki/Holzschnitt",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which parts of a woodcut printing block print onto the paper?",
+        "options": [
+          "The cut-out hollows",
+          "The raised parts left standing",
+          "Only the edges of the board",
+          "The back of the wood"
+        ],
+        "explanation": "Woodcut is a relief printing technique. The non-printing parts are cut out of a smoothly planed wooden board; the raised parts are then inked and printed."
+      }
+    }
+  },
+  {
+    "id": "kn73",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Aus welcher Sprache stammt das Wort „Graffiti“?",
+    "options": [
+      "Aus dem Englischen",
+      "Aus dem Spanischen",
+      "Aus dem Italienischen",
+      "Aus dem Griechischen"
+    ],
+    "correct_index": 2,
+    "explanation": "Graffiti ist ein italienisches Wort, die Einzahl heißt Graffito. Es steht heute für Bilder, Schriftzüge oder Zeichen auf Oberflächen im öffentlichen und privaten Raum. Wer mit Sprühdosen arbeitet, wird oft Sprayer genannt.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Graffiti",
+    "source_url": "https://de.wikipedia.org/wiki/Graffiti",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word 'graffiti' come from?",
+        "options": [
+          "English",
+          "Spanish",
+          "Italian",
+          "Greek"
+        ],
+        "explanation": "Graffiti is an Italian word; the singular is graffito. Today it stands for pictures, lettering or signs on surfaces in public and private spaces. People who work with spray cans are often called sprayers."
+      }
+    }
+  },
+  {
+    "id": "kn74",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Symbole gehören zu den bekanntesten Elementen in der Kunst von Joan Miró?",
+    "options": [
+      "Zahnräder und Uhren",
+      "Autos und Flugzeuge",
+      "Kronen und Wappen",
+      "Mond, Sterne, Vogel und Auge"
+    ],
+    "correct_index": 3,
+    "explanation": "Der katalanische Künstler Joan Miró aus Barcelona gehört mit seinen fantasievollen Bildmotiven zu den populärsten Künstlern des 20. Jahrhunderts. Seine magischen Symbole für Mond, Sterne, Vogel, Auge und Frau zählen zu den bekanntesten Elementen seiner Kunst.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Joan Miró",
+    "source_url": "https://de.wikipedia.org/wiki/Joan_Miró",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which symbols are among the best-known elements in Joan Miró's art?",
+        "options": [
+          "Gears and clocks",
+          "Cars and aeroplanes",
+          "Crowns and coats of arms",
+          "Moon, stars, bird and eye"
+        ],
+        "explanation": "The Catalan artist Joan Miró from Barcelona is, with his imaginative motifs, one of the most popular artists of the 20th century. His magical symbols for moon, stars, bird, eye and woman are among the best-known elements of his art."
+      }
+    }
+  },
+  {
+    "id": "kn75",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Malerin malte nach neuerer Forschung schon im November 1906 abstrakte Bilder – also noch vor Wassily Kandinsky?",
+    "options": [
+      "Hilma af Klint",
+      "Frida Kahlo",
+      "Paula Modersohn-Becker",
+      "Georgia O’Keeffe"
+    ],
+    "correct_index": 0,
+    "explanation": "Wassily Kandinsky gilt als einer der Wegbereiter der abstrakten Kunst und bezeichnete sich selbst als Schöpfer des ersten abstrakten Bildes. Die neuere Forschung verweist aber darauf, dass die Malerin Hilma af Klint schon im November 1906 eine erste Serie kleiner abstrakter Bilder gemalt hat.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wassily Kandinsky",
+    "source_url": "https://de.wikipedia.org/wiki/Wassily_Kandinsky",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which woman painter, according to recent research, was already painting abstract pictures in November 1906 – before Wassily Kandinsky?",
+        "options": [
+          "Hilma af Klint",
+          "Frida Kahlo",
+          "Paula Modersohn-Becker",
+          "Georgia O'Keeffe"
+        ],
+        "explanation": "Wassily Kandinsky is considered one of the pioneers of abstract art and called himself the creator of the first abstract picture. Recent research, however, points out that the painter Hilma af Klint painted a first series of small abstract pictures as early as November 1906."
+      }
+    }
+  },
+  {
+    "id": "kn76",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie alt war Albrecht Dürer, als er sein ältestes erhaltenes Selbstporträt zeichnete?",
+    "options": [
+      "13",
+      "21",
+      "30",
+      "45"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Zeichnung, die Dürer im Alter von 13 Jahren mit dem Silberstift anfertigte, ist sein ältestes erhaltenes Selbstporträt. Im selben Jahr begann er in der Werkstatt seines Vaters eine Lehre zum Goldschmied – zog aber schon damals den Malerberuf vor.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Zeichnung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Selbstbildnis im Pelzrock",
+    "source_url": "https://de.wikipedia.org/wiki/Selbstbildnis_im_Pelzrock",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How old was Albrecht Dürer when he drew his oldest surviving self-portrait?",
+        "options": [
+          "13",
+          "21",
+          "30",
+          "45"
+        ],
+        "explanation": "The drawing Dürer made with a silverpoint at the age of 13 is his oldest surviving self-portrait. In the same year he began an apprenticeship as a goldsmith in his father's workshop – but already preferred to become a painter."
+      }
+    }
+  },
+  {
+    "id": "kn77",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Aus welchem Material baute der Ingenieur Gustave Eiffel seine Bauwerke wie den Eiffelturm?",
+    "options": [
+      "Aus Stahlbeton",
+      "Aus Holz",
+      "Aus Schmiedeeisen",
+      "Aus Aluminium"
+    ],
+    "correct_index": 2,
+    "explanation": "Gustave Eiffel war ein französischer Ingenieur und Konstrukteur von Bauwerken aus Schmiedeeisen. Er ist der Erbauer des Eiffelturms in Paris.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gustave Eiffel",
+    "source_url": "https://de.wikipedia.org/wiki/Gustave_Eiffel",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which material did the engineer Gustave Eiffel use for his structures such as the Eiffel Tower?",
+        "options": [
+          "Reinforced concrete",
+          "Wood",
+          "Wrought iron",
+          "Aluminium"
+        ],
+        "explanation": "Gustave Eiffel was a French engineer and builder of structures made of wrought iron. He built the Eiffel Tower in Paris."
+      }
+    }
+  },
+  {
+    "id": "cu25",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Für wen dachte sich der Arzt Heinrich Hoffmann den „Struwwelpeter“ ursprünglich aus?",
+    "options": [
+      "Als Weihnachtsgeschenk für seinen kleinen Sohn",
+      "Für seine Patienten im Krankenhaus",
+      "Für eine Schulklasse",
+      "Für einen Wettbewerb"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Dezember 1844 suchte Heinrich Hoffmann ein Bilderbuch als Weihnachtsgeschenk für seinen damals dreijährigen Sohn Carl – und fand nichts Passendes. Also schuf er selbst eines. Der Struwwelpeter gehört zu den erfolgreichsten deutschen Kinderbüchern und wurde in zahlreiche Sprachen übersetzt.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Struwwelpeter",
+    "source_url": "https://de.wikipedia.org/wiki/Struwwelpeter",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who did the doctor Heinrich Hoffmann originally create 'Struwwelpeter' for?",
+        "options": [
+          "As a Christmas present for his young son",
+          "His patients in hospital",
+          "For a school class",
+          "For a competition"
+        ],
+        "explanation": "In December 1844 Heinrich Hoffmann was looking for a picture book as a Christmas present for his then three-year-old son Carl – and found nothing suitable. So he made one himself. Struwwelpeter is one of the most successful German children's books and has been translated into many languages."
+      }
+    }
+  },
+  {
+    "id": "cu26",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Zu wem wird das Waisenmädchen Heidi in Johanna Spyris Buch gebracht?",
+    "options": [
+      "Zu einer Familie in Paris",
+      "Zu ihrem Großvater auf eine Alp",
+      "In ein Kloster am See",
+      "Zu einem Kapitän auf ein Schiff"
+    ],
+    "correct_index": 1,
+    "explanation": "Im ersten Heidi-Roman von 1880 wird das Waisenmädchen Heidi zu seinem einsiedlerischen Großvater, dem Alpöhi oder Almöhi, auf eine Alp oberhalb von Maienfeld in Graubünden gebracht. Die Heidi-Bücher der Schweizer Autorin Johanna Spyri gehören zu den bekanntesten Kinderbüchern der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Heidi (Roman)",
+    "source_url": "https://de.wikipedia.org/wiki/Heidi_(Roman)",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is the orphan girl Heidi taken to in Johanna Spyri's book?",
+        "options": [
+          "A family in Paris",
+          "Her grandfather on a mountain pasture",
+          "A convent by a lake",
+          "A captain on a ship"
+        ],
+        "explanation": "In the first Heidi novel from 1880 the orphan girl Heidi is taken to her reclusive grandfather, the Alm-Uncle, on a mountain pasture above Maienfeld in Graubünden. The Heidi books by the Swiss author Johanna Spyri are among the best-known children's books in the world."
+      }
+    }
+  },
+  {
+    "id": "cu27",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie nennen die winzigen Liliputaner den gestrandeten Gulliver in Jonathan Swifts Roman?",
+    "options": [
+      "„Riesenfuß“",
+      "„Wolkenkopf“",
+      "„Menschenberg“",
+      "„Turmmann“"
+    ],
+    "correct_index": 2,
+    "explanation": "„Gullivers Reisen“ ist ein satirischer Roman des irischen Schriftstellers Jonathan Swift, erschienen 1726. Auf seiner ersten Reise landet Gulliver bei den Liliputanern. Sie nennen ihn „Man Mountain“ – Menschenberg – und nehmen ihm erst einmal seine Waffen ab.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gullivers Reisen",
+    "source_url": "https://de.wikipedia.org/wiki/Gullivers_Reisen",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the tiny Lilliputians call the stranded Gulliver in Jonathan Swift's novel?",
+        "options": [
+          "'Giant Foot'",
+          "'Cloud Head'",
+          "'Man Mountain'",
+          "'Tower Man'"
+        ],
+        "explanation": "'Gulliver's Travels' is a satirical novel by the Irish writer Jonathan Swift, published in 1726. On his first voyage Gulliver lands among the Lilliputians. They call him 'Man Mountain' – and first of all take away his weapons."
+      }
+    }
+  },
+  {
+    "id": "cu28",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Auf welche Insel will Odysseus in Homers „Odyssee“ heimkehren?",
+    "options": [
+      "Kreta",
+      "Rhodos",
+      "Sizilien",
+      "Ithaka"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Odyssee wird traditionell dem griechischen Dichter Homer zugeschrieben und gehört zu den ältesten schriftlich festgehaltenen Dichtungen Europas. Sie schildert die Abenteuer von Odysseus, König von Ithaka, der nach langer Irrfahrt schließlich als Bettler verkleidet unerkannt heimkehrt.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Odyssee",
+    "source_url": "https://de.wikipedia.org/wiki/Odyssee",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which island does Odysseus want to return home to in Homer's 'Odyssey'?",
+        "options": [
+          "Crete",
+          "Rhodes",
+          "Sicily",
+          "Ithaca"
+        ],
+        "explanation": "The Odyssey is traditionally attributed to the Greek poet Homer and is among the oldest written poems of Europe. It tells of the adventures of Odysseus, king of Ithaca, who after long wanderings finally returns home unrecognised, disguised as a beggar."
+      }
+    }
+  },
+  {
+    "id": "cu29",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welche Erzählung im uralten Gilgamesch-Epos ähnelt stark einem Bericht aus der Bibel?",
+    "options": [
+      "Die Erzählung von der Sintflut",
+      "Die Geschichte vom Turmbau",
+      "Die Geschichte von David und Goliath",
+      "Die Erzählung vom Auszug aus Ägypten"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Gilgamesch-Epos enthält eine der ältesten schriftlich überlieferten Dichtungen und stammt vor allem aus dem babylonischen Raum. Ein Teil erzählt von einer Überflutung der Erde – mit sehr großen Ähnlichkeiten zum Bericht der Sintflut im Buch Genesis der Bibel.",
+    "difficulty": 3,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gilgamesch-Epos",
+    "source_url": "https://de.wikipedia.org/wiki/Gilgamesch-Epos",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which story in the ancient Epic of Gilgamesh closely resembles an account in the Bible?",
+        "options": [
+          "The story of the great flood",
+          "The building of the tower",
+          "David and Goliath",
+          "The exodus from Egypt"
+        ],
+        "explanation": "The Epic of Gilgamesh contains one of the oldest poems handed down in writing and comes mainly from the Babylonian region. One part tells of a flooding of the earth – very similar to the account of the great flood in the Book of Genesis."
+      }
+    }
+  },
+  {
+    "id": "cu30",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer erzählt in „Tausendundeine Nacht“ die vielen Geschichten?",
+    "options": [
+      "Aladin",
+      "Sindbad",
+      "Scheherazade",
+      "Ali Baba"
+    ],
+    "correct_index": 2,
+    "explanation": "Tausendundeine Nacht ist eine Sammlung von mehr als 550 Geschichten aus dem arabischen, persischen und indischen Kulturraum – eine Rahmenerzählung mit Schachtelgeschichten. In der Rahmenhandlung erzählt Scheherazade immer wieder neue Geschichten, um einen Kreislauf der Gewalt mit einer List zu durchbrechen.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tausendundeine Nacht",
+    "source_url": "https://de.wikipedia.org/wiki/Tausendundeine_Nacht",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who tells the many stories in 'One Thousand and One Nights'?",
+        "options": [
+          "Aladdin",
+          "Sinbad",
+          "Scheherazade",
+          "Ali Baba"
+        ],
+        "explanation": "One Thousand and One Nights is a collection of more than 550 stories from the Arabic, Persian and Indian world – a frame story with stories nested inside. In the frame story Scheherazade keeps telling new stories to break a cycle of violence with a clever trick."
+      }
+    }
+  },
+  {
+    "id": "cu31",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Warum blieb der Held Siegfried im Nibelungenlied an einer Stelle seines Rückens verwundbar?",
+    "options": [
+      "Dort hatte ihn ein Pfeil getroffen",
+      "Dort hatte ihn der Drache gebissen",
+      "Dort trug er keine Rüstung",
+      "Beim Bad im Drachenblut lag dort ein Lindenblatt"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Nibelungenlied ist ein mittelalterliches Heldenepos, Anfang des 13. Jahrhunderts auf Mittelhochdeutsch niedergeschrieben. Siegfried badete im Drachenblut – doch eine Stelle seines Rückens war dabei von einem Lindenblatt bedeckt und blieb verwundbar.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nibelungenlied",
+    "source_url": "https://de.wikipedia.org/wiki/Nibelungenlied",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why did the hero Siegfried in the Nibelungenlied remain vulnerable in one spot on his back?",
+        "options": [
+          "An arrow had hit him there",
+          "The dragon had bitten him there",
+          "He wore no armour there",
+          "A linden leaf lay there when he bathed in dragon's blood"
+        ],
+        "explanation": "The Nibelungenlied is a medieval heroic epic, written down in Middle High German at the beginning of the 13th century. Siegfried bathed in dragon's blood – but one spot on his back was covered by a linden leaf and remained vulnerable."
+      }
+    }
+  },
+  {
+    "id": "cu32",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie wird das indische Frühlingsfest Holi auch genannt?",
+    "options": [
+      "„Fest der Farben“",
+      "„Fest der Lichter“",
+      "„Fest der Drachen“",
+      "„Fest der Glocken“"
+    ],
+    "correct_index": 0,
+    "explanation": "Holi ist ein indisches Frühlingsfest aus der hinduistischen Überlieferung, gefeiert am ersten Vollmondtag des Monats Phalgun im Februar oder März. Dieses „Fest der Farben“ dauert mindestens zwei Tage. Ursprünglich wurden die Farbpulver aus Blüten, Wurzeln und Kräutern gemacht.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Holi",
+    "source_url": "https://de.wikipedia.org/wiki/Holi",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What else is the Indian spring festival Holi called?",
+        "options": [
+          "'Festival of Colours'",
+          "'Festival of Lights'",
+          "'Festival of Dragons'",
+          "'Festival of Bells'"
+        ],
+        "explanation": "Holi is an Indian spring festival from the Hindu tradition, held on the first full-moon day of the month of Phalguna in February or March. This 'festival of colours' lasts at least two days. Originally the coloured powders were made from flowers, roots and herbs."
+      }
+    }
+  },
+  {
+    "id": "cu33",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was wird beim Songkran-Fest in Thailand gefeiert?",
+    "options": [
+      "Die Ernte des Reises",
+      "Das traditionelle Neujahr",
+      "Der Geburtstag des Königs",
+      "Das Ende der Regenzeit"
+    ],
+    "correct_index": 1,
+    "explanation": "Songkran ist das traditionelle Neujahrsfest nach dem thailändischen Mondkalender und wird heute vom 13. bis 15. April gefeiert – in Thailand, Laos und Kambodscha. Typisch ist Wasser: Buddha-Figuren werden damit begossen, und junge Leute gießen älteren Verwandten zum Zeichen des Respekts etwas Wasser über die Hände.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Songkran",
+    "source_url": "https://de.wikipedia.org/wiki/Songkran",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is celebrated at the Songkran festival in Thailand?",
+        "options": [
+          "The rice harvest",
+          "The traditional New Year",
+          "The king's birthday",
+          "The end of the rainy season"
+        ],
+        "explanation": "Songkran is the traditional New Year festival according to the Thai lunar calendar and is now held from 13 to 15 April – in Thailand, Laos and Cambodia. Water is typical: Buddha figures are bathed with it, and young people pour a little water over older relatives' hands as a sign of respect."
+      }
+    }
+  },
+  {
+    "id": "cu34",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet der traditionelle arabische Name der Alhambra in Granada?",
+    "options": [
+      "„Der Garten des Mondes“",
+      "„Der weiße Palast“",
+      "„Die rote Festung“",
+      "„Das Haus der Löwen“"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Alhambra ist eine Stadtburg im andalusischen Granada und eines der bedeutendsten Beispiele des maurischen Stils der islamischen Kunst. Traditionell heißt sie auf Arabisch „die rote Festung“. Seit 1984 ist sie Weltkulturerbe.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alhambra",
+    "source_url": "https://de.wikipedia.org/wiki/Alhambra",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the traditional Arabic name of the Alhambra in Granada mean?",
+        "options": [
+          "'The garden of the moon'",
+          "'The white palace'",
+          "'The red fortress'",
+          "'The house of lions'"
+        ],
+        "explanation": "The Alhambra is a citadel in Granada in Andalusia and one of the most important examples of the Moorish style of Islamic art. Its traditional Arabic name means 'the red fortress'. It has been a World Heritage Site since 1984."
+      }
+    }
+  },
+  {
+    "id": "cu35",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus wie vielen Punkten besteht das Grundraster eines Zeichens in der Brailleschrift?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "9"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Blindenschrift wurde 1825 von dem Franzosen Louis Braille entwickelt. Jedes Zeichen beruht auf einem Raster aus sechs Punkten, die von hinten ins Papier gedrückt werden – so kann man sie vorne mit den Fingerspitzen ertasten.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brailleschrift",
+    "source_url": "https://de.wikipedia.org/wiki/Brailleschrift",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many dots make up the basic grid of a character in Braille?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "9"
+        ],
+        "explanation": "The writing system for blind people was developed in 1825 by the Frenchman Louis Braille. Each character is based on a grid of six dots pressed into the paper from behind – so they can be felt on the front with the fingertips."
+      }
+    }
+  },
+  {
+    "id": "cu36",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist das Besondere an Peter Pan?",
+    "options": [
+      "Er wird niemals erwachsen",
+      "Er kann unter Wasser atmen",
+      "Er ist unsichtbar",
+      "Er kann mit Tieren sprechen"
+    ],
+    "correct_index": 0,
+    "explanation": "Peter Pan ist die Hauptfigur von Geschichten des schottischen Schriftstellers J. M. Barrie. Als einziges aller Kinder wird er niemals erwachsen. Er lebt auf der Insel Nimmerland, führt die „Verlorenen Jungs“ an, und sein Gegenspieler ist der Piratenkapitän Hook.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Peter Pan",
+    "source_url": "https://de.wikipedia.org/wiki/Peter_Pan",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about Peter Pan?",
+        "options": [
+          "He never grows up",
+          "He can breathe underwater",
+          "He is invisible",
+          "He can talk to animals"
+        ],
+        "explanation": "Peter Pan is the main character of stories by the Scottish writer J. M. Barrie. He is the only child who never grows up. He lives on the island of Neverland, leads the 'Lost Boys', and his opponent is the pirate captain Hook."
+      }
+    }
+  },
+  {
+    "id": "cu37",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welchem Tier ähneln die Mumins von Tove Jansson im Aussehen?",
+    "options": [
+      "Einem Hasen",
+      "Einem Nilpferd",
+      "Einem Bären",
+      "Einem Pinguin"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Mumins sind Trollwesen von nilpferdartigem Aussehen, erfunden von der finnlandschwedischen Schriftstellerin Tove Jansson. Sie leben im Mumintal, haben einen kurzen Pelz und einen buschigen Schwanz und sind gute Schwimmer. Die Bücher wurden in über 30 Sprachen übersetzt.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mumins",
+    "source_url": "https://de.wikipedia.org/wiki/Mumins",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animal do Tove Jansson's Moomins look like?",
+        "options": [
+          "A hare",
+          "A hippopotamus",
+          "A bear",
+          "A penguin"
+        ],
+        "explanation": "The Moomins are troll creatures that look like hippos, invented by the Finland-Swedish writer Tove Jansson. They live in Moominvalley, have short fur and a bushy tail and are good swimmers. The books have been translated into over 30 languages."
+      }
+    }
+  },
+  {
+    "id": "cu38",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Auf welchem Weg soll Dorothy in „Der Zauberer von Oz“ zur Smaragdstadt gehen?",
+    "options": [
+      "Auf der Regenbogenbrücke",
+      "Auf dem silbernen Fluss",
+      "Auf dem gelben Ziegelsteinweg",
+      "Auf dem Pfad der Sterne"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Wirbelsturm reißt Dorothy samt Farmhaus und Hund ins Land Oz. Um wieder nach Hause zu finden, rät ihr die Gute Hexe, auf dem gelben Ziegelsteinweg in die Smaragdstadt zu gehen. Das Kinderbuch von Lyman Frank Baum erschien 1900.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der Zauberer von Oz",
+    "source_url": "https://de.wikipedia.org/wiki/Der_Zauberer_von_Oz",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which way is Dorothy told to take to the Emerald City in 'The Wizard of Oz'?",
+        "options": [
+          "The rainbow bridge",
+          "The silver river",
+          "The yellow brick road",
+          "The path of stars"
+        ],
+        "explanation": "A cyclone carries Dorothy, the farmhouse and her dog to the Land of Oz. To find her way home, the Good Witch advises her to follow the yellow brick road to the Emerald City. Lyman Frank Baum's children's book appeared in 1900."
+      }
+    }
+  },
+  {
+    "id": "cu39",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet der Name der Inka-Stadt Machu Picchu auf Deutsch?",
+    "options": [
+      "„Wolkentor“",
+      "„Goldene Stadt“",
+      "„Haus der Sonne“",
+      "„Alter Berg“"
+    ],
+    "correct_index": 3,
+    "explanation": "Machu Picchu bedeutet „alter Berg“ – der Gipfel daneben heißt Huayna Picchu, „junger Berg“. Die Inka erbauten die gut erhaltene Ruinenstadt in Peru im 15. Jahrhundert in 2430 Metern Höhe auf einem Bergrücken in den Anden.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Machu Picchu",
+    "source_url": "https://de.wikipedia.org/wiki/Machu_Picchu",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the name of the Inca city Machu Picchu mean?",
+        "options": [
+          "'Cloud gate'",
+          "'Golden city'",
+          "'House of the sun'",
+          "'Old mountain'"
+        ],
+        "explanation": "Machu Picchu means 'old mountain' – the peak next to it is called Huayna Picchu, 'young mountain'. The Inca built the well-preserved city, now in ruins, in Peru in the 15th century at 2430 metres on a ridge in the Andes."
+      }
+    }
+  },
+  {
+    "id": "cu40",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt sitzt die berühmte Bronzefigur der Kleinen Meerjungfrau?",
+    "options": [
+      "In Oslo",
+      "In Kopenhagen",
+      "In Stockholm",
+      "In Hamburg"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Bronzefigur der Kleinen Meerjungfrau sitzt an der Uferpromenade Langelinie in Kopenhagen in Dänemark. Sie erinnert an das Kunstmärchen „Die kleine Meerjungfrau“ von Hans Christian Andersen aus dem Jahr 1837.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die kleine Meerjungfrau",
+    "source_url": "https://de.wikipedia.org/wiki/Die_kleine_Meerjungfrau",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city does the famous bronze statue of the Little Mermaid sit?",
+        "options": [
+          "Oslo",
+          "Copenhagen",
+          "Stockholm",
+          "Hamburg"
+        ],
+        "explanation": "The bronze statue of the Little Mermaid sits on the Langelinie promenade in Copenhagen, Denmark. It recalls Hans Christian Andersen's fairy tale 'The Little Mermaid' from 1837."
+      }
+    }
+  },
+  {
+    "id": "sp76",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wer gründete 1894 das Internationale Olympische Komitee?",
+    "options": [
+      "James Naismith",
+      "Carl Diem",
+      "Jesse Owens",
+      "Pierre de Coubertin"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Franzose Pierre de Coubertin trat maßgeblich für eine Wiederbelebung der Olympischen Spiele ein. Er gründete 1894 das Internationale Olympische Komitee und war von 1896 bis 1925 dessen zweiter Präsident.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pierre de Coubertin",
+    "source_url": "https://de.wikipedia.org/wiki/Pierre_de_Coubertin",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who founded the International Olympic Committee in 1894?",
+        "options": [
+          "James Naismith",
+          "Carl Diem",
+          "Jesse Owens",
+          "Pierre de Coubertin"
+        ],
+        "explanation": "The Frenchman Pierre de Coubertin was a leading advocate of reviving the Olympic Games. He founded the International Olympic Committee in 1894 and was its second president from 1896 to 1925."
+      }
+    }
+  },
+  {
+    "id": "sp77",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Spieler einer Wasserballmannschaft sind gleichzeitig im Wasser?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "11"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Wasserballmannschaft hat bis zu 13 Spieler. Im Wasser sind jeweils der Torhüter und sechs Feldspieler, also sieben; die übrigen warten auf ihre Einwechslung. Feldspieler dürfen den Ball immer nur mit einer Hand berühren.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserball",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserball",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many players of a water polo team are in the water at the same time?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "11"
+        ],
+        "explanation": "A water polo team has up to 13 players. In the water are the goalkeeper and six field players, so seven; the others wait to be substituted. Field players may only touch the ball with one hand at a time."
+      }
+    }
+  },
+  {
+    "id": "sp78",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welchem Land gilt Lacrosse neben Eishockey als Nationalsport?",
+    "options": [
+      "In den USA",
+      "In Kanada",
+      "In Schweden",
+      "In Australien"
+    ],
+    "correct_index": 1,
+    "explanation": "Lacrosse ist ein Mannschaftssport mit Schläger und Hartgummiball. Er gilt neben Eishockey als kanadischer Nationalsport. Bei den Olympischen Spielen 2028 in Los Angeles soll es erstmals nach 120 Jahren wieder olympische Wettkämpfe im Lacrosse geben.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lacrosse",
+    "source_url": "https://de.wikipedia.org/wiki/Lacrosse",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country is lacrosse, alongside ice hockey, considered a national sport?",
+        "options": [
+          "The USA",
+          "Canada",
+          "Sweden",
+          "Australia"
+        ],
+        "explanation": "Lacrosse is a team sport played with a stick and a hard rubber ball. Alongside ice hockey it is considered Canada's national sport. At the 2028 Olympic Games in Los Angeles there are to be Olympic lacrosse competitions for the first time in 120 years."
+      }
+    }
+  },
+  {
+    "id": "sp79",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "In welchem Land wird die schnelle Schlägersportart Hurling hauptsächlich gespielt?",
+    "options": [
+      "In Neuseeland",
+      "In Schottland",
+      "In Irland",
+      "In Indien"
+    ],
+    "correct_index": 2,
+    "explanation": "Hurling ist eine Mannschaftssportart keltischen Ursprungs mit Schlägern und Ball. Sie wird hauptsächlich in Irland gespielt und ist eine der schnellsten Mannschaftssportarten der Welt. Eine Mannschaft hat 15 Spieler; seit 2018 ist Hurling immaterielles Weltkulturerbe der UNESCO.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hurling",
+    "source_url": "https://de.wikipedia.org/wiki/Hurling",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country is the fast stick sport of hurling mainly played?",
+        "options": [
+          "New Zealand",
+          "Scotland",
+          "Ireland",
+          "India"
+        ],
+        "explanation": "Hurling is a team sport of Celtic origin played with sticks and a ball. It is mainly played in Ireland and is one of the fastest team sports in the world. A team has 15 players; since 2018 hurling has been on UNESCO's list of intangible cultural heritage."
+      }
+    }
+  },
+  {
+    "id": "sp80",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woher hat das Kugelspiel Pétanque seinen Namen?",
+    "options": [
+      "Von „geschlossenen Füßen“ beim Werfen",
+      "Von einem Dorf namens Pétanque",
+      "Vom Geräusch der Kugeln",
+      "Von einem Erfinder namens Petan"
+    ],
+    "correct_index": 0,
+    "explanation": "Pétanque ist ein Boule-Spiel, das Anfang des 20. Jahrhunderts in Südfrankreich erfunden wurde. Der Name kommt von „pieds tanqués“, geschlossene Füße – geworfen wird aus dem Stand.",
+    "difficulty": 3,
+    "tags": [
+      "Sport",
+      "Präzision"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pétanque",
+    "source_url": "https://de.wikipedia.org/wiki/Pétanque",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the ball game pétanque get its name from?",
+        "options": [
+          "From 'feet together' when throwing",
+          "From a village called Pétanque",
+          "From the sound of the balls",
+          "From an inventor named Petan"
+        ],
+        "explanation": "Pétanque is a boules game invented in southern France at the beginning of the 20th century. The name comes from 'pieds tanqués', feet together – players throw standing still."
+      }
+    }
+  },
+  {
+    "id": "sp81",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welchen Spitznamen hat die kleine Zielkugel beim Pétanque unter anderem?",
+    "options": [
+      "„Mäuschen“",
+      "„Schweinchen“",
+      "„Kätzchen“",
+      "„Vögelchen“"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Pétanque versuchen zwei Mannschaften, ihre Kugeln so nahe wie möglich an eine vorher ausgeworfene Zielkugel zu werfen. Diese heißt auch Cochonnet – Schweinchen – oder Bouchon, Korken. Sie muss aus Holz oder einem zugelassenen Kunststoff sein.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Präzision"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pétanque",
+    "source_url": "https://de.wikipedia.org/wiki/Pétanque",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is one of the nicknames of the small target ball in pétanque?",
+        "options": [
+          "'Little mouse'",
+          "'Piglet'",
+          "'Kitten'",
+          "'Little bird'"
+        ],
+        "explanation": "In pétanque two teams try to throw their balls as close as possible to a target ball thrown out beforehand. It is also called the cochonnet – piglet – or bouchon, cork. It must be made of wood or an approved synthetic material."
+      }
+    }
+  },
+  {
+    "id": "sp82",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was muss der Angreifer („Raider“) beim indischen Mannschaftssport Kabaddi schaffen?",
+    "options": [
+      "Den Ball ins Tor tragen",
+      "Eine Fahne erobern",
+      "Gegner abschlagen und zurückkehren – in einem einzigen Atemzug",
+      "Über eine Mauer klettern"
+    ],
+    "correct_index": 2,
+    "explanation": "Kabaddi gilt als eine der beliebtesten traditionellen Sportarten Indiens; es spielen zwei Mannschaften mit je sieben Spielern. Ein „Raider“ läuft in die gegnerische Hälfte, schaltet möglichst viele Verteidiger aus und kehrt zurück – und das alles in einem einzigen Atemzug.",
+    "difficulty": 3,
+    "tags": [
+      "Sport",
+      "Mannschaftssport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kabaddi",
+    "source_url": "https://de.wikipedia.org/wiki/Kabaddi",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What must the attacker ('raider') manage in the Indian team sport of kabaddi?",
+        "options": [
+          "Carry the ball into the goal",
+          "Capture a flag",
+          "Tag opponents and return – in a single breath",
+          "Climb over a wall"
+        ],
+        "explanation": "Kabaddi is considered one of the most popular traditional sports in India; two teams of seven players each take part. A 'raider' runs into the opposing half, tags as many defenders as possible and returns – all in a single breath."
+      }
+    }
+  },
+  {
+    "id": "sp83",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was bedeutet das japanische Wort „Karate“?",
+    "options": [
+      "„Weg der Sanftheit“",
+      "„Stiller Kämpfer“",
+      "„Starker Fuß“",
+      "„Leere Hand“"
+    ],
+    "correct_index": 3,
+    "explanation": "Karate heißt auf Deutsch „leere Hand“ – gekämpft wird ohne Waffen. Die Kampfkunst lässt sich bis ins Okinawa des 19. Jahrhunderts zurückverfolgen und verbreitete sich später von Japan aus über die ganze Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Kampfsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karate",
+    "source_url": "https://de.wikipedia.org/wiki/Karate",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Japanese word 'karate' mean?",
+        "options": [
+          "'Way of gentleness'",
+          "'Silent fighter'",
+          "'Strong foot'",
+          "'Empty hand'"
+        ],
+        "explanation": "Karate means 'empty hand' – fighters use no weapons. The martial art can be traced back to 19th-century Okinawa and later spread from Japan all over the world."
+      }
+    }
+  },
+  {
+    "id": "sp84",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche beiden Disziplinen des Modernen Fünfkampfs sind seit 2009 als „Laser-Run“ zusammengefasst?",
+    "options": [
+      "Schießen und Laufen",
+      "Schwimmen und Reiten",
+      "Fechten und Schwimmen",
+      "Laufen und Reiten"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Moderne Fünfkampf kombiniert fünf Disziplinen; ins Leben gerufen hat ihn Pierre de Coubertin, der Initiator der Olympischen Spiele der Neuzeit. Seit 2009 sind Schießen und Laufen als Laser-Run zusammengefasst – geschossen wird mit einer Laserpistole.",
+    "difficulty": 3,
+    "tags": [
+      "Sport",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moderner Fünfkampf",
+    "source_url": "https://de.wikipedia.org/wiki/Moderner_Fünfkampf",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two disciplines of the modern pentathlon have been combined as the 'laser run' since 2009?",
+        "options": [
+          "Shooting and running",
+          "Swimming and riding",
+          "Fencing and swimming",
+          "Running and riding"
+        ],
+        "explanation": "The modern pentathlon combines five disciplines; it was created by Pierre de Coubertin, initiator of the modern Olympic Games. Since 2009 shooting and running have been combined as the laser run – shooting is done with a laser pistol."
+      }
+    }
+  },
+  {
+    "id": "sp85",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bei welchen Olympischen Spielen gehörte Breaking zum Programm?",
+    "options": [
+      "London 2012",
+      "Paris 2024",
+      "Rio 2016",
+      "Bei keinen"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Dezember 2020 wurde entschieden, Breakdance ins Programm der Olympischen Sommerspiele 2024 in Paris aufzunehmen. Schon bei den Olympischen Jugendspielen 2018 in Buenos Aires war es dabei. Offiziell heißt der Tanzsport heute Breaking.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Breaking",
+    "source_url": "https://de.wikipedia.org/wiki/Breaking",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At which Olympic Games was breaking part of the programme?",
+        "options": [
+          "London 2012",
+          "Paris 2024",
+          "Rio 2016",
+          "None"
+        ],
+        "explanation": "In December 2020 it was decided to add breakdance to the programme of the 2024 Summer Olympics in Paris. It had already featured at the 2018 Youth Olympic Games in Buenos Aires. Officially the dance sport is now called breaking."
+      }
+    }
+  },
+  {
+    "id": "sp86",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie groß ist der vorgeschriebene Durchmesser eines Tischtennisballs?",
+    "options": [
+      "30 mm",
+      "38 mm",
+      "40 mm",
+      "50 mm"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Tischtennisball ist mattweiß oder seltener mattorange, besteht heute aus Kunststoff und hat einen vorgeschriebenen Durchmesser von 40 mm. Im Jahr 2000 beschloss der Weltverband, den Ball von 38 mm auf 40 mm zu vergrößern.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tischtennis",
+    "source_url": "https://de.wikipedia.org/wiki/Tischtennis",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the prescribed diameter of a table tennis ball?",
+        "options": [
+          "30 mm",
+          "38 mm",
+          "40 mm",
+          "50 mm"
+        ],
+        "explanation": "A table tennis ball is matt white or, more rarely, matt orange, is now made of plastic and has a prescribed diameter of 40 mm. In 2000 the world federation decided to enlarge the ball from 38 mm to 40 mm."
+      }
+    }
+  },
+  {
+    "id": "sp87",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Womit darf der Ball beim Faustball gespielt werden?",
+    "options": [
+      "Nur mit dem Fuß",
+      "Mit der offenen Hand",
+      "Mit einem Schläger",
+      "Mit dem Arm oder der Faust"
+    ],
+    "correct_index": 3,
+    "explanation": "Faustball ist ein Rückschlagspiel ähnlich wie Volleyball, mit je fünf Spielern pro Mannschaft. Sie versuchen, den Ball mit dem Arm oder mit der Faust für den Gegner unerreichbar ins andere Halbfeld zu spielen. Berührt der Ball die offene Handfläche, ist das ein Fehler.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Faustball",
+    "source_url": "https://de.wikipedia.org/wiki/Faustball",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What may the ball be played with in fistball?",
+        "options": [
+          "Only the foot",
+          "The open hand",
+          "A racket",
+          "The arm or the fist"
+        ],
+        "explanation": "Fistball is a net game similar to volleyball, with five players per team. They try to play the ball with the arm or the fist into the other half so the opponents can't reach it. If the ball touches the open palm, it is a fault."
+      }
+    }
+  },
+  {
+    "id": "sp88",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Kegel stehen beim Kegeln am Ende der Bahn?",
+    "options": [
+      "6",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Kegeln rollt man eine Kugel über eine glatte Bahn, um die neun Kegel am anderen Ende umzuwerfen. Sie stehen in Form einer auf der Spitze stehenden Raute. Beim daraus entstandenen Bowling sind es dagegen zehn Pins im Dreieck.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Präzision"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kegeln",
+    "source_url": "https://de.wikipedia.org/wiki/Kegeln",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many pins stand at the end of the lane in ninepin bowling?",
+        "options": [
+          "6",
+          "9",
+          "10",
+          "12"
+        ],
+        "explanation": "In ninepin bowling you roll a ball down a smooth lane to knock over the nine pins at the other end. They stand in a diamond shape. In tenpin bowling, which developed from it, there are ten pins in a triangle."
+      }
+    }
+  },
+  {
+    "id": "sp89",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was brachte Otto Feick auf die Idee für das Rhönrad, das er 1925 zum Patent anmeldete?",
+    "options": [
+      "Ein Wasserrad in einer Mühle",
+      "Als Kind rollte er in zwei verbundenen Wagenreifen einen Berg hinunter",
+      "Ein Hamsterrad",
+      "Ein Zirkusakrobat"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Rhönrad besteht aus zwei Reifen, die durch sechs Sprossen verbunden sind; der Turner steht darin fast gestreckt. Otto Feick, Sohn eines Schmieds, war als Kind in zwei verbundenen Wagenreifen den Berg vor der Schmiede hinuntergerollt. Im Jahr 1925 meldete er das Sportgerät zum Patent an.",
+    "difficulty": 3,
+    "tags": [
+      "Sport",
+      "Turnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rhönrad",
+    "source_url": "https://de.wikipedia.org/wiki/Rhönrad",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What gave Otto Feick the idea for the gymnastics wheel he patented in 1925?",
+        "options": [
+          "A water wheel in a mill",
+          "As a child he rolled down a hill inside two joined cart wheels",
+          "A hamster wheel",
+          "A circus acrobat"
+        ],
+        "explanation": "The gymnastics wheel consists of two rings joined by six rungs; the gymnast stands inside it almost stretched out. Otto Feick, a blacksmith's son, had as a child rolled down the hill in front of the smithy inside two joined cart wheels. In 1925 he applied for a patent for the apparatus."
+      }
+    }
+  },
+  {
+    "id": "sp90",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Womit ist der Ball beim Unterwasser-Rugby gefüllt?",
+    "options": [
+      "Mit Luft",
+      "Mit Schaumstoff",
+      "Mit Sand",
+      "Mit Salzwasser"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Unterwasser-Rugby soll der mit Salzwasser gefüllte Ball in den gegnerischen Korb unter Wasser gebracht werden. Gespielt wird mit Flossen, Tauchmaske und Schnorchel. Ihren Ursprung hat die Sportart in deutschen Tauchvereinen.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Unterwasserrugby",
+    "source_url": "https://de.wikipedia.org/wiki/Unterwasserrugby",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the ball filled with in underwater rugby?",
+        "options": [
+          "Air",
+          "Foam",
+          "Sand",
+          "Salt water"
+        ],
+        "explanation": "In underwater rugby the ball, filled with salt water, has to be brought into the opponents' basket under water. Players use fins, a diving mask and a snorkel. The sport originated in German diving clubs."
+      }
+    }
+  },
+  {
+    "id": "sp91",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bei welchem Turnier wurde im Fußball zum ersten Mal die Gelbe Karte gezeigt?",
+    "options": [
+      "WM 1970 in Mexiko",
+      "WM 1954 in der Schweiz",
+      "EM 1996 in England",
+      "WM 2006 in Deutschland"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit der Gelben Karte zeigt der Schiedsrichter eine Verwarnung an. Bei der Fußball-Weltmeisterschaft 1970 wurde diese Regelung zum ersten Mal verwendet und setzte sich schnell durch. Der deutsche Schiedsrichter Kurt Tschenscher zog im Eröffnungsspiel der WM 1970 in Mexiko als Erster überhaupt eine Gelbe Karte.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gelbe Karte",
+    "source_url": "https://de.wikipedia.org/wiki/Gelbe_Karte",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At which tournament was the yellow card shown in football for the first time?",
+        "options": [
+          "1970 World Cup in Mexico",
+          "1954 World Cup in Switzerland",
+          "Euro 1996 in England",
+          "2006 World Cup in Germany"
+        ],
+        "explanation": "With the yellow card the referee shows a caution. The rule was used for the first time at the 1970 World Cup and quickly caught on. The German referee Kurt Tschenscher was the first ever to show a yellow card, in the opening match of the 1970 World Cup in Mexico."
+      }
+    }
+  },
+  {
+    "id": "sp92",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie heißt Synchronschwimmen international seit 2017?",
+    "options": [
+      "Water Dance",
+      "Artistic Swimming",
+      "Aqua Ballet",
+      "Team Swimming"
+    ],
+    "correct_index": 1,
+    "explanation": "Synchronschwimmen wird zu Musik geschwommen – allein, zu zweit oder in der Gruppe. Synchron meint dabei den Takt der Musik und die Schwimmerinnen und Schwimmer untereinander. Der Weltverband änderte die Bezeichnung 2017 von „Synchronised swimming“ zu „artistic swimming“.",
+    "difficulty": 3,
+    "tags": [
+      "Sport",
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Synchronschwimmen",
+    "source_url": "https://de.wikipedia.org/wiki/Synchronschwimmen",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What has synchronised swimming been called internationally since 2017?",
+        "options": [
+          "Water Dance",
+          "Artistic Swimming",
+          "Aqua Ballet",
+          "Team Swimming"
+        ],
+        "explanation": "Synchronised swimming is performed to music – solo, in pairs or in a group. 'Synchronised' refers both to the music and to the swimmers moving together. In 2017 the world federation changed the name from 'synchronised swimming' to 'artistic swimming'."
+      }
+    }
   }
 ]
