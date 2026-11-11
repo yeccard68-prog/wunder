@@ -766,3 +766,5 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 
 - **Fragen**: `2026-11-erde-3` (`eg21`–`eg35`: Victoriafälle „donnernder Rauch“, Pangaea und Wegener, Hotspots/Hawaii, Island auf zwei Platten, Föhn, Fujita-Skala, Permafrost, Aletschgletscher, Salar de Uyuni, Titicacasee, Yellowstone 1872, Death Valley 56,7 °C, Dolomiten, Uluru, Bay of Fundy) und `2026-11-tiere-5` (`ti72`–`ti85`: Axolotl, Bärtierchen, Seepferdchen, Koala, Eisbärhaut, Kolibri, Knallkrebs, Mauersegler, „unsterbliche Qualle“, Wombat-Kot, Aal und Sargassosee, Kugelgürteltier, Lemuren, pilzzüchtende Termiten). Alle Zitate von `verify-evidence.mjs` bestätigt (15 von 15, 14 von 14).
 - Im Feed jetzt: Erde 106, Tiere 105 Fragen (insgesamt 1442).
+- **Datenbank (11.11.2026, nach dem Deploy)**: 29 Fragen eingefügt (nur neue Zeilen, je Bereich eine Transaktion). Prüfsummen über den Inhalt der neuen Zeilen und über die Kategorie aller 1524 veröffentlichten Fragen mit den lokalen Daten identisch. Anonym sichtbar: 1524 Fragen, 99 Kategorien+Clips, Lösungen nicht lesbar.
+- e2e: 90 von 90 im ersten Lauf.
