@@ -2,6 +2,8 @@
 
 Neueste zuerst. Jede Zeile: Datum · Batch · Anzahl · Themen · verworfen (Grund). Ablauf: `docs/CONTENT-ROUTINE.md`.
 
+- 2026-11-11 · 2026-11-facts-4 + 2026-11-facts-formats-2 · 8 Fakten (199 gesamt) · Erde (Baikalsee, Baikalrobbe, Everest wächst, Vatikanstadt), Technik (Wi-Fi-Name, Taschenrechner 1967), Kultur (Origami-Wort, tausend Kraniche) · Formate: Mythos f-napoleon, Wahr-Quiz f-baikalrobbe, f-everest-waechst, f-taschenrechner-1967, Zahlen f-baikalsee, f-vatikan-klein · keine Tage nötig (82 Tage abgedeckt) · verworfen: Wi-Fi-Mythos (Artikel widerlegt „Wireless Fidelity“ nicht ausdrücklich), Mars-Rost (kein Irrtum), Sadako-Kraniche (zu belastend); Wi-Fi-Fakt umformuliert (Artikel belegt nur Nutzung seit 1999, nicht das Erfindungsjahr) · Recherche: Sub-Agent
+
 - 2026-10-30 · 2026-10-facts-13 + 2026-10-facts-formats-2 · 7 Fakten (140 gesamt) · Raumfahrt (Sputnik 1, Voyager Golden Record, Hubble-Spiegelfehler), Sportgeschichte (Olympia 1896), Kulturgeschichte (Mausoleum Qin Shihuangdi, Stonehenge-Blausteine), Natur (Wasserläufer) · Formate: Mythos f-wikinger und f-zungenkarte, Wahr-Quiz f-hubble-fehler, Zahlen f-sputnik-92, f-golden-record, f-terrakotta-arbeiter · keine Tage nötig (22 Tage abgedeckt) · verworfen: Bambus (keine Wachstumszahl im Artikel), Kamel-Höcker-Mythos (kein Zitat im Artikel) · Lauf in sauberem Worktree auf origin/umbau, weil lokales `umbau` einen ungepushten WIP-Commit enthält · Recherche: Sub-Agent
 
 - 2026-10-26 · 2026-10-warum-5 · 7 Fragen · V-Formation der Zugvögel, Laser, Radar, USB, Kitsch, Pyjama, Safari · Belege wörtlich aus den verlinkten Artikeln · verworfen: Ketchup (nur umstrittene Theorien), Kamel-Höcker (gibt es schon).

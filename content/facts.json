@@ -726,9 +726,12 @@
     "translations": {
       "en": {
         "text": "The idea that Napoleon was especially short comes mainly from English caricatures.",
-        "detail": "English propaganda kept drawing him as a tiny man – in 1803, for example, as a figure from \"Gulliver's Travels\". The picture has stuck to this day."
+        "detail": "English propaganda kept drawing him as a tiny man – in 1803, for example, as a figure from \"Gulliver's Travels\". The picture has stuck to this day.",
+        "myth": "Napoleon was unusually short."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "Napoleon war ungewöhnlich klein."
   },
   {
     "id": "f-papiergeld",
@@ -4518,6 +4521,204 @@
       "en": {
         "text": "The Venus of Willendorf was originally painted red all over.",
         "detail": "It was completely covered in red ochre. Traces of it, especially on the head decoration, can still be seen with the naked eye."
+      }
+    }
+  },
+  {
+    "id": "f-baikalsee",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Der Baikalsee in Sibirien ist der tiefste, älteste und wasserreichste Süßwassersee der Erde.",
+    "detail": "An seiner tiefsten Stelle misst er 1642 Meter. Er ist mehr als 25 Millionen Jahre alt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Baikalsee",
+        "url": "https://de.wikipedia.org/wiki/Baikalsee"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Lake Baikal in Siberia is the deepest, oldest and most water-rich freshwater lake on Earth.",
+        "detail": "At its deepest point it measures 1,642 metres. It is more than 25 million years old.",
+        "figureSuffix": " metres"
+      }
+    },
+    "figure": {
+      "value": 1642,
+      "suffix": " Meter"
+    }
+  },
+  {
+    "id": "f-baikalrobbe",
+    "category_id": "earth",
+    "area": "animals",
+    "min_age": 10,
+    "text": "Im Baikalsee lebt die einzige Robbenart der Welt, die nur im Süßwasser vorkommt.",
+    "detail": "Sie heißt Nerpa oder Baikalrobbe. Wie sie den See einst besiedelt hat, ist bis heute rätselhaft.",
+    "sources": [
+      {
+        "name": "Wikipedia: Baikalsee",
+        "url": "https://de.wikipedia.org/wiki/Baikalsee"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Lake Baikal is home to the only seal species in the world that lives solely in fresh water.",
+        "detail": "It is called the nerpa or Baikal seal. How it came to colonise the lake is still a mystery."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-everest-waechst",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Der Mount Everest wächst noch immer – um wenige Millimeter im Jahr.",
+    "detail": "Die indische Platte schiebt sich mit etwa drei Zentimetern pro Jahr unter Eurasien. Dabei verdickt sich die Erdkruste, und das hebt den Berg weiter an.",
+    "sources": [
+      {
+        "name": "Wikipedia: Mount Everest",
+        "url": "https://de.wikipedia.org/wiki/Mount_Everest"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Mount Everest is still growing – by a few millimetres a year.",
+        "detail": "The Indian plate pushes under Eurasia at about three centimetres a year. The crust thickens as a result, which keeps lifting the mountain."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-vatikan-klein",
+    "category_id": "earth",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Die Vatikanstadt ist der kleinste allgemein anerkannte Staat der Erde – mit nur 0,44 Quadratkilometern.",
+    "detail": "Etwa 1000 Menschen leben dort. Der Staat liegt mitten in Rom und ist als einziger Staat der Erde vollständig von einer Stadt umgeben.",
+    "sources": [
+      {
+        "name": "Wikipedia: Vatikanstadt",
+        "url": "https://de.wikipedia.org/wiki/Vatikanstadt"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "Vatican City is the smallest generally recognised state on Earth – just 0.44 square kilometres.",
+        "detail": "About 1,000 people live there. The state lies in the middle of Rome and is the only state on Earth completely surrounded by a city.",
+        "figureSuffix": " km²"
+      }
+    },
+    "figure": {
+      "value": 0.44,
+      "digits": 2,
+      "suffix": " km²"
+    }
+  },
+  {
+    "id": "f-wifi-name",
+    "category_id": "technology",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das Wort „Wi-Fi“ hat eine Markenberatungsfirma erfunden – als Wortspiel auf „Hi-Fi“.",
+    "detail": "Die Firma Interbrand sollte einen Namen finden, der eingängiger ist als „IEEE 802.11b“. Seit 1999 wird er genutzt; der Werbeslogan „The Standard for Wireless Fidelity“ wurde bald wieder aufgegeben.",
+    "sources": [
+      {
+        "name": "Wikipedia: Wi-Fi",
+        "url": "https://de.wikipedia.org/wiki/Wi-Fi"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The word “Wi-Fi” was invented by a brand consultancy – as a pun on “Hi-Fi”.",
+        "detail": "The firm Interbrand was asked to find a name catchier than “IEEE 802.11b”. It has been in use since 1999; the advertising slogan “The Standard for Wireless Fidelity” was soon dropped."
+      }
+    }
+  },
+  {
+    "id": "f-taschenrechner-1967",
+    "category_id": "technology",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Der erste elektronische Taschenrechner, der wirklich in eine Hand passte, wurde 1967 entwickelt.",
+    "detail": "Texas Instruments baute ihn, und er lief schon mit Batterien. Ein Prototyp steht heute in der Smithsonian Institution.",
+    "sources": [
+      {
+        "name": "Wikipedia: Taschenrechner",
+        "url": "https://de.wikipedia.org/wiki/Taschenrechner"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The first electronic calculator that truly fitted in one hand was developed in 1967.",
+        "detail": "Texas Instruments built it, and it already ran on batteries. A prototype is now on display at the Smithsonian Institution."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-origami-wort",
+    "category_id": "culture",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das Wort „Origami“ heißt wörtlich „falten“ und „Papier“.",
+    "detail": "Es kommt aus dem Japanischen: oru bedeutet „falten“, kami „Papier“. Meist beginnt man mit einem quadratischen Blatt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Origami",
+        "url": "https://de.wikipedia.org/wiki/Origami"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The word “origami” literally means “fold” and “paper”.",
+        "detail": "It comes from Japanese: oru means “to fold”, kami means “paper”. Usually you start with a square sheet."
+      }
+    }
+  },
+  {
+    "id": "f-origami-kraniche",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Einer japanischen Legende nach erfüllen die Götter einen Wunsch, wenn man tausend Papierkraniche faltet.",
+    "detail": "Der Kranich ist eines der wenigen traditionellen Origami-Modelle. Auch in Spanien gab es eines: die Pajarita.",
+    "sources": [
+      {
+        "name": "Wikipedia: Origami",
+        "url": "https://de.wikipedia.org/wiki/Origami"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-11T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "According to a Japanese legend, the gods grant a wish to anyone who folds a thousand paper cranes.",
+        "detail": "The crane is one of the few traditional origami models. Spain had one too: the pajarita."
       }
     }
   }
