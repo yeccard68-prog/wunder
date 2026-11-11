@@ -768,3 +768,9 @@ Zwei Spieler beantworten dieselben Fragen in drei Runden à drei Fragen, abwechs
 - Im Feed jetzt: Erde 106, Tiere 105 Fragen (insgesamt 1442).
 - **Datenbank (11.11.2026, nach dem Deploy)**: 29 Fragen eingefügt (nur neue Zeilen, je Bereich eine Transaktion). Prüfsummen über den Inhalt der neuen Zeilen und über die Kategorie aller 1524 veröffentlichten Fragen mit den lokalen Daten identisch. Anonym sichtbar: 1524 Fragen, 99 Kategorien+Clips, Lösungen nicht lesbar.
 - e2e: 90 von 90 im ersten Lauf.
+
+## 96. Mehr Business (11.11.2026)
+
+- **Fragen**: `2026-11-business-3` (`b87`, `b89`–`b98`, `b100`: Oligopol, erster Strichcode-Scan 1974, Hanse, erster Geldautomat 1967, Diners Club 1950, Einkaufswagen 1937, Container 1956, IKEA-Name, Tetra-Pak-Tetraeder, Adam Smiths „unsichtbare Hand“, brutto/netto, Papiergeld in China). Alle Zitate von `verify-evidence.mjs` bestätigt (12 von 12). Keine Anlageberatung, nur Begriffe und Geschichte.
+- Vier entworfene Fragen (`b85` Opportunitätskosten, `b86` Monopol, `b88` Inflation, `b99` Zinseszins) wieder entfernt: Der Import meldete „Was ist ein Monopol?“ als Doppel, und dieselben Begriffe gibt es schon im Bereich `economy` (e3, e5, e15, e20). Lehre: neue Fragen nicht nur mit dem eigenen Bereich, sondern mit allen vergleichen; ein Abgleich seltener Begriffe über alle heutigen Runden fand sonst keine inhaltlichen Doppel.
+- Im Feed jetzt: Business 112 Fragen (insgesamt 1454). Unit 144/144, e2e 90/90.

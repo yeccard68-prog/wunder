@@ -60627,5 +60627,485 @@
         "explanation": "Some termites grow fungi of the genus Termitomyces on pre-digested food in their mounds and then feed on these fungi."
       }
     }
+  },
+  {
+    "id": "b87",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wie nennt man einen Markt mit nur wenigen Anbietern, aber vielen Käufern?",
+    "options": [
+      "Monopol",
+      "Polypol",
+      "Oligopol",
+      "Monarchie"
+    ],
+    "correct_index": 2,
+    "explanation": "Gibt es auf der Anbieterseite nur wenige Marktteilnehmer und auf der Nachfrageseite viele, spricht man von einem Oligopol. Bei nur einem Anbieter heißt es Monopol.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Grundbegriffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Monopol",
+    "source_url": "https://de.wikipedia.org/wiki/Monopol",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you call a market with only a few sellers but many buyers?",
+        "options": [
+          "Monopoly",
+          "Polypoly",
+          "Oligopoly",
+          "Monarchy"
+        ],
+        "explanation": "If there are only a few participants on the supply side and many on the demand side, it is called an oligopoly. With only one seller it is called a monopoly."
+      }
+    }
+  },
+  {
+    "id": "b89",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welches Produkt wurde 1974 als erstes mit seinem Strichcode an einer Scannerkasse verkauft?",
+    "options": [
+      "Eine Packung Kaugummi",
+      "Eine Flasche Milch",
+      "Eine Dose Suppe",
+      "Ein Brot"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Juni 1974 wurde in einem Supermarkt in Troy (Ohio) das erste Produkt mit Strichcode an einer Scannerkasse erfasst und verkauft: eine Zehnerpackung Kaugummi.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strichcode",
+    "source_url": "https://de.wikipedia.org/wiki/Strichcode",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which product was the first to be sold with its barcode at a scanner checkout in 1974?",
+        "options": [
+          "A pack of chewing gum",
+          "A bottle of milk",
+          "A can of soup",
+          "A loaf of bread"
+        ],
+        "explanation": "In June 1974 the first product with a barcode was scanned and sold at a checkout in a supermarket in Troy, Ohio: a ten-pack of chewing gum."
+      }
+    }
+  },
+  {
+    "id": "b90",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was war die Hanse im Mittelalter?",
+    "options": [
+      "Ein Ritterorden",
+      "Eine Universität",
+      "Ein Bund vor allem norddeutscher Kaufleute",
+      "Eine Münze"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Hanse war vom 12. bis zum 17. Jahrhundert eine Vereinigung vor allem norddeutscher Kaufleute. Ihr Ziel waren sichere Überfahrten und gemeinsame wirtschaftliche Interessen im Ausland. Als entscheidend für ihre Entwicklung gilt die Gründung Lübecks im Jahr 1143.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hanse",
+    "source_url": "https://de.wikipedia.org/wiki/Hanse",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the Hanseatic League in the Middle Ages?",
+        "options": [
+          "An order of knights",
+          "A university",
+          "An association mainly of north German merchants",
+          "A coin"
+        ],
+        "explanation": "The Hanseatic League was an association mainly of north German merchants from the 12th to the 17th century. Its aims were safe sea passages and shared economic interests abroad. The founding of Lübeck in 1143 is considered decisive for its development."
+      }
+    }
+  },
+  {
+    "id": "b91",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wo wurde im Juni 1967 der erste Geldautomat aufgestellt?",
+    "options": [
+      "In New York",
+      "In Tokio",
+      "In Frankfurt",
+      "In London"
+    ],
+    "correct_index": 3,
+    "explanation": "Der erste Geldautomat wurde im Juni 1967 von der Barclays Bank in Enfield im Norden von London aufgestellt. Anfangs konnte man nur so viel Geld abheben, wie man vorher in speziellen Schecks besaß.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geldautomat",
+    "source_url": "https://de.wikipedia.org/wiki/Geldautomat",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where was the first cash machine installed in June 1967?",
+        "options": [
+          "New York",
+          "Tokyo",
+          "Frankfurt",
+          "London"
+        ],
+        "explanation": "The first cash machine was installed by Barclays Bank in June 1967 in Enfield in north London. At first customers could only withdraw as much money as they held in special cheques."
+      }
+    }
+  },
+  {
+    "id": "b92",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Von welchem Club stammte 1950 die erste Kreditkarte, die man in vielen Geschäften nutzen konnte?",
+    "options": [
+      "Diners Club",
+      "Rotary Club",
+      "Golfclub",
+      "Automobilclub"
+    ],
+    "correct_index": 0,
+    "explanation": "Die erste Universalkreditkarte gab der Diners Club heraus, der im Februar 1950 gegründet wurde. Mit ihr konnte man in vielen verschiedenen Geschäften bezahlen.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreditkarte",
+    "source_url": "https://de.wikipedia.org/wiki/Kreditkarte",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which club issued the first credit card in 1950 that could be used in many shops?",
+        "options": [
+          "Diners Club",
+          "Rotary Club",
+          "A golf club",
+          "An automobile club"
+        ],
+        "explanation": "The first general-purpose credit card was issued by the Diners Club, founded in February 1950. It could be used to pay in many different shops."
+      }
+    }
+  },
+  {
+    "id": "b93",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Warum stellte Sylvan Goldman 1937 in seinem Supermarkt die ersten Einkaufswagen auf?",
+    "options": [
+      "Damit Kinder spielen können",
+      "Damit die Kunden mehr einkaufen",
+      "Wegen eines Gesetzes",
+      "Um Diebstahl zu verhindern"
+    ],
+    "correct_index": 1,
+    "explanation": "Erstmals wurden Einkaufswagen 1937 in den USA eingesetzt. Sylvan Goldman stellte sie in seinem Supermarkt in Oklahoma City zur Verfügung – nicht zuletzt, um die Kunden zu größeren Einkäufen anzuregen.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Einkaufswagen",
+    "source_url": "https://de.wikipedia.org/wiki/Einkaufswagen",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why did Sylvan Goldman put the first shopping trolleys in his supermarket in 1937?",
+        "options": [
+          "So children could play",
+          "So customers would buy more",
+          "Because of a law",
+          "To prevent theft"
+        ],
+        "explanation": "Shopping trolleys were first used in 1937 in the USA. Sylvan Goldman provided them in his supermarket in Oklahoma City – not least to encourage customers to buy more."
+      }
+    }
+  },
+  {
+    "id": "b94",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wer verschiffte 1956 als Erster Waren in genormten Frachtcontainern?",
+    "options": [
+      "Henry Ford",
+      "Thomas Edison",
+      "Malcolm McLean",
+      "Carl Benz"
+    ],
+    "correct_index": 2,
+    "explanation": "1956 verschiffte der Amerikaner Malcolm McLean als Erster 58 Container mit dem Schiff Ideal X von Newark nach Houston. 1961 wurden erstmals international gültige Maße für die ISO-Container festgelegt.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Container",
+    "source_url": "https://de.wikipedia.org/wiki/Container",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who was the first to ship goods in standardised freight containers in 1956?",
+        "options": [
+          "Henry Ford",
+          "Thomas Edison",
+          "Malcolm McLean",
+          "Carl Benz"
+        ],
+        "explanation": "In 1956 the American Malcolm McLean was the first to ship 58 containers, aboard the ship Ideal X from Newark to Houston. In 1961 internationally valid dimensions for ISO containers were set for the first time."
+      }
+    }
+  },
+  {
+    "id": "b95",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür stehen die vier Buchstaben im Namen IKEA?",
+    "options": [
+      "Für vier schwedische Städte",
+      "Für vier Gründer",
+      "Für „Ideen, Komfort, Einrichtung, Alltag“",
+      "Für den Gründer, den Bauernhof seiner Eltern und sein Dorf"
+    ],
+    "correct_index": 3,
+    "explanation": "IKEA steht für Ingvar Kamprad, den Gründer, für Elmtaryd, den Bauernhof seiner Eltern, und für das Dorf Agunnaryd. Kamprad gründete das Unternehmen 1943 in Schweden – mit 17 Jahren.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Marken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: IKEA",
+    "source_url": "https://de.wikipedia.org/wiki/IKEA",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the four letters in the name IKEA stand for?",
+        "options": [
+          "Four Swedish cities",
+          "Four founders",
+          "'Ideas, comfort, furnishing, everyday life'",
+          "The founder, his parents' farm and his village"
+        ],
+        "explanation": "IKEA stands for Ingvar Kamprad, the founder, Elmtaryd, his parents' farm, and the village of Agunnaryd. Kamprad founded the company in Sweden in 1943 – at the age of 17."
+      }
+    }
+  },
+  {
+    "id": "b96",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welche Form hatte die erste Milchverpackung von Tetra Pak, die 1943 entwickelt wurde?",
+    "options": [
+      "Einen Tetraeder – eine dreiseitige Pyramide",
+      "Einen Würfel",
+      "Eine Kugel",
+      "Einen Zylinder"
+    ],
+    "correct_index": 0,
+    "explanation": "1943 entwickelten der Chemiker Erik Wallenberg und zwei Kollegen eine völlig neue Verpackung für Milch: einen Karton in der Form eines Tetraeders. Daher kommt auch der Name Tetra Pak, der heute oft für Getränkekartons allgemein steht.",
+    "difficulty": 3,
+    "tags": [
+      "Business",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tetra Pak",
+    "source_url": "https://de.wikipedia.org/wiki/Tetra_Pak",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What shape was Tetra Pak's first milk package, developed in 1943?",
+        "options": [
+          "A tetrahedron – a three-sided pyramid",
+          "A cube",
+          "A sphere",
+          "A cylinder"
+        ],
+        "explanation": "In 1943 the chemist Erik Wallenberg and two colleagues developed a completely new package for milk: a carton in the shape of a tetrahedron. That is where the name Tetra Pak comes from, which today often stands for drinks cartons in general."
+      }
+    }
+  },
+  {
+    "id": "b97",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Mit welchem Bild wird der schottische Ökonom Adam Smith oft verbunden?",
+    "options": [
+      "Dem „eisernen Vorhang“",
+      "Der „unsichtbaren Hand“ des Marktes",
+      "Dem „Schneeballeffekt“",
+      "Der „goldenen Mitte“"
+    ],
+    "correct_index": 1,
+    "explanation": "Adam Smith gilt als Begründer der klassischen Volkswirtschaftslehre. Mit ihm verbindet man das Bild der „unsichtbaren Hand“: Obwohl jeder seine eigenen Interessen verfolgt, entsteht dadurch – eher zufällig – Wohlstand für viele.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Grundbegriffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Adam Smith",
+    "source_url": "https://de.wikipedia.org/wiki/Adam_Smith",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which image is the Scottish economist Adam Smith often associated with?",
+        "options": [
+          "The 'iron curtain'",
+          "The 'invisible hand' of the market",
+          "The 'snowball effect'",
+          "The 'golden mean'"
+        ],
+        "explanation": "Adam Smith is considered the founder of classical economics. He is associated with the image of the 'invisible hand': although everyone pursues their own interests, this creates prosperity for many – more or less by chance."
+      }
+    }
+  },
+  {
+    "id": "b98",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist der Unterschied zwischen Brutto- und Nettoeinkommen?",
+    "options": [
+      "Es gibt keinen",
+      "Netto ist immer höher als Brutto",
+      "Netto ist, was nach Abzug von Steuern und Pflichtbeiträgen übrig bleibt",
+      "Brutto gilt nur für Kinder"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Nettoeinkommen ist das, was nach Abzug von Abgaben, Steuern und Beiträgen für Pflichtversicherungen vom Bruttoeinkommen übrig bleibt. Es ist deshalb immer niedriger als oder gleich dem Bruttoeinkommen.",
+    "difficulty": 1,
+    "tags": [
+      "Business",
+      "Grundbegriffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bruttoeinkommen",
+    "source_url": "https://de.wikipedia.org/wiki/Bruttoeinkommen",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the difference between gross and net income?",
+        "options": [
+          "There is none",
+          "Net is always higher than gross",
+          "Net is what remains after taxes and compulsory contributions are deducted",
+          "Gross only applies to children"
+        ],
+        "explanation": "Net income is what remains of gross income after deducting levies, taxes and compulsory insurance contributions. It is therefore always lower than or equal to gross income."
+      }
+    }
+  },
+  {
+    "id": "b100",
+    "kind": "question",
+    "category_id": "business",
+    "question": "In welchem Land wurde als Erstes Papiergeld benutzt?",
+    "options": [
+      "In Italien",
+      "In England",
+      "In China",
+      "In Ägypten"
+    ],
+    "correct_index": 2,
+    "explanation": "China war das erste Land der Welt, in dem Papiergeld genutzt wurde. Im Jahr 1402 schaffte man es dort jedoch wieder ab, weil oft große Mengen Banknoten ohne Deckung gedruckt worden waren.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Papiergeld",
+    "source_url": "https://de.wikipedia.org/wiki/Papiergeld",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country was paper money first used?",
+        "options": [
+          "Italy",
+          "England",
+          "China",
+          "Egypt"
+        ],
+        "explanation": "China was the first country in the world to use paper money. In 1402, however, it was abolished there again because large quantities of banknotes had often been printed without backing."
+      }
+    }
   }
 ]
