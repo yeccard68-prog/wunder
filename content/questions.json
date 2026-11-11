@@ -54747,5 +54747,1325 @@
         "explanation": "The first book was commissioned by the Guinness brewery in 1955 and published in Ireland. It was written by the twins Ross and Norris McWhirter; it has appeared every year since."
       }
     }
+  },
+  {
+    "id": "hg1",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie hoch war der antike Leuchtturm von Alexandria ungefähr?",
+    "options": [
+      "Etwa 15 bis 20 Meter",
+      "Etwa 115 bis 160 Meter",
+      "Etwa 500 Meter",
+      "Etwa 1 Kilometer"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Leuchtturm von Alexandria war der erste historisch überlieferte Leuchtturm. Mit etwa 115 bis 160 Metern blieb er bis ins 20. Jahrhundert der höchste, der je gebaut wurde. Nach der kleinen Insel, auf der er stand, heißt er auch Pharos; er war das jüngste der sieben Weltwunder der Antike.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pharos von Alexandria",
+    "source_url": "https://de.wikipedia.org/wiki/Pharos_von_Alexandria",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how tall was the ancient lighthouse of Alexandria?",
+        "options": [
+          "About 15 to 20 metres",
+          "About 115 to 160 metres",
+          "About 500 metres",
+          "About 1 kilometre"
+        ],
+        "explanation": "The lighthouse of Alexandria was the first lighthouse recorded in history. At about 115 to 160 metres it remained the tallest ever built until the 20th century. After the small island it stood on it is also called the Pharos; it was the youngest of the Seven Wonders of the Ancient World."
+      }
+    }
+  },
+  {
+    "id": "hg2",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wann ist Ötzi, die Gletschermumie aus den Ötztaler Alpen, gestorben?",
+    "options": [
+      "Zwischen 3368 und 3108 v. Chr.",
+      "Um 500 v. Chr.",
+      "Um das Jahr 1000",
+      "Um 1800"
+    ],
+    "correct_index": 0,
+    "explanation": "Ötzi wurde 1991 im Südtiroler Teil der Ötztaler Alpen gefunden. Untersuchungen ergaben, dass er zwischen 3368 und 3108 v. Chr. starb. Damit ist er die älteste bekannte natürliche menschliche Mumie Europas.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Vorgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ötzi",
+    "source_url": "https://de.wikipedia.org/wiki/Ötzi",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When did Ötzi, the glacier mummy from the Ötztal Alps, die?",
+        "options": [
+          "Between 3368 and 3108 BC",
+          "Around 500 BC",
+          "Around the year 1000",
+          "Around 1800"
+        ],
+        "explanation": "Ötzi was found in 1991 in the South Tyrolean part of the Ötztal Alps. Studies showed that he died between 3368 and 3108 BC. That makes him the oldest known natural human mummy in Europe."
+      }
+    }
+  },
+  {
+    "id": "hg3",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welcher Bau steht im Zentrum der antiken Stadt Mohenjo-Daro am Indus?",
+    "options": [
+      "Ein Königspalast",
+      "Ein großes Bad",
+      "Eine Pyramide",
+      "Eine Arena"
+    ],
+    "correct_index": 1,
+    "explanation": "Mohenjo-Daro im heutigen Pakistan gehörte etwa von 2600 bis 1800 v. Chr. zur Indus-Kultur. Die Stadt zeigt keine der üblichen Herrschaftsstrukturen; ihr zentraler Bau ist ein Bad. Die 60 × 30 Meter große Anlage nennt man „Großes Bad“.",
+    "difficulty": 3,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mohenjo-Daro",
+    "source_url": "https://de.wikipedia.org/wiki/Mohenjo-Daro",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which building is at the centre of the ancient city of Mohenjo-daro on the Indus?",
+        "options": [
+          "A royal palace",
+          "A great bath",
+          "A pyramid",
+          "An arena"
+        ],
+        "explanation": "Mohenjo-daro in today's Pakistan was part of the Indus civilisation from about 2600 to 1800 BC. The city shows none of the usual structures of rule; its central building is a bath. The 60 × 30 metre complex is called the 'Great Bath'."
+      }
+    }
+  },
+  {
+    "id": "hg4",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was ist der Pont du Gard in Südfrankreich?",
+    "options": [
+      "Ein Leuchtturm",
+      "Eine mittelalterliche Burg",
+      "Eine römische Wasserleitung über ein Tal",
+      "Ein Königsschloss"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Pont du Gard ist ein römischer Aquädukt, eine Brücke für eine Wasserleitung. Er ist einer der am besten erhaltenen Wasserkanäle aus der Römerzeit in Frankreich.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pont du Gard",
+    "source_url": "https://de.wikipedia.org/wiki/Pont_du_Gard",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Pont du Gard in southern France?",
+        "options": [
+          "A lighthouse",
+          "A medieval castle",
+          "A Roman aqueduct bridge across a valley",
+          "A royal palace"
+        ],
+        "explanation": "The Pont du Gard is a Roman aqueduct, a bridge carrying a water channel. It is one of the best-preserved water channels from Roman times in France."
+      }
+    }
+  },
+  {
+    "id": "hg5",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche beiden Städte verbindet die römische Via Appia, deren Bau 312 v. Chr. begann?",
+    "options": [
+      "Mailand und Neapel",
+      "Rom und Paris",
+      "Athen und Rom",
+      "Rom und Brindisi"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Via Appia führt über rund 540 Kilometer von Rom nach Brindisi. Ihr Bau begann 312 v. Chr.; heute verläuft eine italienische Staatsstraße großenteils auf derselben Strecke.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Via Appia",
+    "source_url": "https://de.wikipedia.org/wiki/Via_Appia",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two cities does the Roman Via Appia, begun in 312 BC, connect?",
+        "options": [
+          "Milan and Naples",
+          "Rome and Paris",
+          "Athens and Rome",
+          "Rome and Brindisi"
+        ],
+        "explanation": "The Via Appia runs for around 540 kilometres from Rome to Brindisi. Its construction began in 312 BC; today an Italian state road largely follows the same route."
+      }
+    }
+  },
+  {
+    "id": "hg6",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Womit stellten die Maya in ihrem Zahlensystem den Wert Null dar?",
+    "options": [
+      "Mit einer Muschel oder einem Schneckenhaus",
+      "Mit einem leeren Kreis",
+      "Mit einem Kreuz",
+      "Gar nicht – sie kannten keine Null"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Maya entwickelten ein Stellenwertsystem zur Basis 20. Stellen mit dem Wert Null wurden darin durch eine Muschel oder ein Schneckenhaus symbolisiert.",
+    "difficulty": 3,
+    "tags": [
+      "Geschichte",
+      "Mathematik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Null",
+    "source_url": "https://de.wikipedia.org/wiki/Null",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the Maya use to show the value zero in their number system?",
+        "options": [
+          "A shell",
+          "An empty circle",
+          "A cross",
+          "Nothing – they had no zero"
+        ],
+        "explanation": "The Maya developed a place-value system based on 20. Places with the value zero were shown by a shell."
+      }
+    }
+  },
+  {
+    "id": "hg7",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war das Quipu der Inka?",
+    "options": [
+      "Ein Musikinstrument",
+      "Eine Knotenschrift aus Schnüren",
+      "Ein Tempel",
+      "Eine Kopfbedeckung"
+    ],
+    "correct_index": 1,
+    "explanation": "Quipu oder Khipu, in Quechua „Knoten“, ist eine Knotenschrift aus dem Inkareich. Mit ihr ließen sich auch mehrstellige Zahlen im Dezimalsystem darstellen. Khipus sind ab dem 7. Jahrhundert n. Chr. bekannt.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quipu",
+    "source_url": "https://de.wikipedia.org/wiki/Quipu",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the Inca quipu?",
+        "options": [
+          "A musical instrument",
+          "A knot record made of cords",
+          "A temple",
+          "A headdress"
+        ],
+        "explanation": "Quipu or khipu, Quechua for 'knot', is a knot record from the Inca Empire. It could also represent multi-digit numbers in the decimal system. Khipus are known from the 7th century AD."
+      }
+    }
+  },
+  {
+    "id": "hg8",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Auf welches Jahr datierte eine Kommission von Historikern die Entstehung der Universität Bologna?",
+    "options": [
+      "988",
+      "1088",
+      "1288",
+      "1488"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Kommission von Historikern legte die Entstehung der Universität auf 1088 fest. Bologna gilt als zweitälteste Universität Europas.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Bildung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Universität Bologna",
+    "source_url": "https://de.wikipedia.org/wiki/Universität_Bologna",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "To which year did a commission of historians date the founding of the University of Bologna?",
+        "options": [
+          "988",
+          "1088",
+          "1288",
+          "1488"
+        ],
+        "explanation": "A commission of historians dated the founding of the university to 1088. Bologna is considered the second-oldest university in Europe."
+      }
+    }
+  },
+  {
+    "id": "hg9",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welcher Zoo gilt als ältester noch bestehender Zoo der Welt?",
+    "options": [
+      "Der Bronx Zoo in New York",
+      "Der Zoo Berlin",
+      "Der Londoner Zoo",
+      "Der Tiergarten Schönbrunn in Wien"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Tiergarten Schönbrunn in Wien wurde 1752 gegründet und ist der älteste noch bestehende Zoo der Welt. Auf 17 Hektar leben dort rund 7.800 Tiere aus 700 Arten.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tiergarten Schönbrunn",
+    "source_url": "https://de.wikipedia.org/wiki/Tiergarten_Schönbrunn",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which zoo is considered the oldest zoo in the world that still exists?",
+        "options": [
+          "The Bronx Zoo in New York",
+          "Berlin Zoo",
+          "London Zoo",
+          "Schönbrunn Zoo in Vienna"
+        ],
+        "explanation": "Schönbrunn Zoo in Vienna was founded in 1752 and is the oldest zoo in the world that still exists. Around 7,800 animals of 700 species live there on 17 hectares."
+      }
+    }
+  },
+  {
+    "id": "hg10",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was gelang Bertha Benz im August 1888?",
+    "options": [
+      "Der erste Flug mit einem Ballon",
+      "Die erste Fernfahrt mit einem Automobil",
+      "Die Erfindung des Fahrrads",
+      "Die erste Fahrt mit einer Eisenbahn"
+    ],
+    "correct_index": 1,
+    "explanation": "Bertha Benz fuhr im August 1888 mit dem Benz Patent-Motorwagen Nummer 3 rund 106 Kilometer von Mannheim nach Pforzheim – begleitet von ihren Söhnen. Es war die erste erfolgreiche Fernfahrt mit einem Automobil und bewies, dass das neue Verkehrsmittel taugte.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bertha Benz",
+    "source_url": "https://de.wikipedia.org/wiki/Bertha_Benz",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Bertha Benz achieve in August 1888?",
+        "options": [
+          "The first balloon flight",
+          "The first long-distance journey by car",
+          "The invention of the bicycle",
+          "The first train journey"
+        ],
+        "explanation": "In August 1888 Bertha Benz drove the Benz Patent Motor Car No. 3 about 106 kilometres from Mannheim to Pforzheim – accompanied by her sons. It was the first successful long-distance journey by car and proved that the new means of transport worked."
+      }
+    }
+  },
+  {
+    "id": "hg11",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woraus wurde der antike Beschreibstoff Papyrus hergestellt?",
+    "options": [
+      "Aus Baumrinde",
+      "Aus Tierhaut",
+      "Aus dem Mark der Papyruspflanze",
+      "Aus Lehm"
+    ],
+    "correct_index": 2,
+    "explanation": "Papyrus ist der Beschreibstoff der Schriftkultur des Altertums. Hergestellt wurde er aus dem Mark der Papyruspflanze, Cyperus papyrus.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Papyrus",
+    "source_url": "https://de.wikipedia.org/wiki/Papyrus",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the ancient writing material papyrus made from?",
+        "options": [
+          "Tree bark",
+          "Animal skin",
+          "The pith of the papyrus plant",
+          "Clay"
+        ],
+        "explanation": "Papyrus was the writing material of ancient written culture. It was made from the pith of the papyrus plant, Cyperus papyrus."
+      }
+    }
+  },
+  {
+    "id": "hg12",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wann wurde mit der „Penny Black“ die erste Briefmarke der Welt eingeführt?",
+    "options": [
+      "1640",
+      "1740",
+      "1840",
+      "1940"
+    ],
+    "correct_index": 2,
+    "explanation": "Die One Penny Black wurde am 1. Mai 1840 im Vereinigten Königreich als erste Briefmarke der Welt eingeführt und konnte ab dem 6. Mai verwendet werden. Eine Länderbezeichnung trug sie nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: One Penny Black",
+    "source_url": "https://de.wikipedia.org/wiki/One_Penny_Black",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When was the 'Penny Black', the world's first postage stamp, introduced?",
+        "options": [
+          "1640",
+          "1740",
+          "1840",
+          "1940"
+        ],
+        "explanation": "The Penny Black was introduced in the United Kingdom on 1 May 1840 as the world's first postage stamp and could be used from 6 May. It did not show a country name."
+      }
+    }
+  },
+  {
+    "id": "hg13",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wo lagen die Hängenden Gärten, eines der sieben Weltwunder der Antike?",
+    "options": [
+      "In Babylon am Euphrat",
+      "In Athen",
+      "In Rom",
+      "In Alexandria"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach Berichten griechischer Autoren waren die Hängenden Gärten eine aufwendige Gartenanlage in Babylon am Euphrat, im heutigen Irak. Sie zählten zu den sieben Weltwundern der Antike.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hängende Gärten der Semiramis",
+    "source_url": "https://de.wikipedia.org/wiki/Hängende_Gärten_der_Semiramis",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where were the Hanging Gardens, one of the Seven Wonders of the Ancient World?",
+        "options": [
+          "In Babylon on the Euphrates",
+          "In Athens",
+          "In Rome",
+          "In Alexandria"
+        ],
+        "explanation": "According to Greek authors, the Hanging Gardens were an elaborate garden in Babylon on the Euphrates, in today's Iraq. They counted among the Seven Wonders of the Ancient World."
+      }
+    }
+  },
+  {
+    "id": "hg14",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welchen Gott stellte der Koloss von Rhodos dar?",
+    "options": [
+      "Den Meeresgott Poseidon",
+      "Den Sonnengott Helios",
+      "Den Göttervater Zeus",
+      "Den Kriegsgott Ares"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Koloss von Rhodos war eine über 30 Meter hohe Bronzestatue des Sonnen- und Stadtgottes Helios. Sie wurde etwa 292 v. Chr. nach zwölf Jahren Bauzeit vollendet und stürzte um 226/225 v. Chr. bei einem Erdbeben um.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Koloss von Rhodos",
+    "source_url": "https://de.wikipedia.org/wiki/Koloss_von_Rhodos",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which god did the Colossus of Rhodes depict?",
+        "options": [
+          "The sea god Poseidon",
+          "The sun god Helios",
+          "Zeus, father of the gods",
+          "Ares, god of war"
+        ],
+        "explanation": "The Colossus of Rhodes was a bronze statue more than 30 metres high of Helios, god of the sun and of the city. It was completed around 292 BC after twelve years of work and fell in an earthquake around 226/225 BC."
+      }
+    }
+  },
+  {
+    "id": "hg15",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woraus bestand die Zeus-Statue des Phidias in Olympia, eines der sieben Weltwunder?",
+    "options": [
+      "Aus Bronze",
+      "Aus reinem Marmor",
+      "Aus Gold und Elfenbein über einem Holzgerüst",
+      "Aus Ton"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Bildhauer Phidias schuf die etwa 13 Meter hohe Sitzstatue zwischen 438 und 430 v. Chr. für den Zeustempel von Olympia. Sie war aus Gold und Elfenbein über einem hölzernen Gerüst gefertigt.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zeus-Statue des Phidias",
+    "source_url": "https://de.wikipedia.org/wiki/Zeus-Statue_des_Phidias",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the statue of Zeus by Phidias at Olympia, one of the Seven Wonders, made of?",
+        "options": [
+          "Bronze",
+          "Pure marble",
+          "Gold and ivory over a wooden frame",
+          "Clay"
+        ],
+        "explanation": "The sculptor Phidias created the seated statue, about 13 metres high, between 438 and 430 BC for the Temple of Zeus at Olympia. It was made of gold and ivory over a wooden frame."
+      }
+    }
+  },
+  {
+    "id": "hg16",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was zeigt die Himmelsscheibe von Nebra?",
+    "options": [
+      "Eine Uhr mit Zeigern",
+      "Eine Landkarte Europas",
+      "Ein Porträt",
+      "Sie gilt als älteste bekannte konkrete Darstellung des Himmels"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Bronzeplatte von etwa 32 Zentimetern Durchmesser trägt Applikationen aus Gold. Mit einem Alter von 3700 bis 4100 Jahren gilt sie als älteste bisher bekannte konkrete Himmelsdarstellung und zeigt astronomische Erscheinungen und religiöse Symbole.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Vorgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Himmelsscheibe von Nebra",
+    "source_url": "https://de.wikipedia.org/wiki/Himmelsscheibe_von_Nebra",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Nebra sky disc show?",
+        "options": [
+          "A clock with hands",
+          "A map of Europe",
+          "A portrait",
+          "It is considered the oldest known concrete depiction of the sky"
+        ],
+        "explanation": "The bronze plate, about 32 centimetres across, bears gold appliqués. At 3,700 to 4,100 years old it is considered the oldest known concrete depiction of the sky and shows astronomical phenomena and religious symbols."
+      }
+    }
+  },
+  {
+    "id": "hg17",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was wird auf dem Göbekli Tepe in der Türkei ausgegraben?",
+    "options": [
+      "Die ältesten bekannten Großbauten der Menschheit",
+      "Eine römische Stadt",
+      "Ein Wikingerschiff",
+      "Ein Dinosaurierskelett"
+    ],
+    "correct_index": 0,
+    "explanation": "Auf dem Göbekli Tepe, türkisch für „bauchiger Hügel“, werden die derzeit ältesten bekannten Großbauten der Menschheit untersucht. Die Anlagen wurden 1994 entdeckt; Fachleute deuten sie als Beleg, dass schon Jäger und Sammler vor zwölftausend Jahren gemeinsam so etwas bauen konnten.",
+    "difficulty": 3,
+    "tags": [
+      "Geschichte",
+      "Vorgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Göbekli Tepe",
+    "source_url": "https://de.wikipedia.org/wiki/Göbekli_Tepe",
+    "created_at": "2026-10-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is being excavated at Göbekli Tepe in Turkey?",
+        "options": [
+          "The oldest known large buildings of humankind",
+          "A Roman city",
+          "A Viking ship",
+          "A dinosaur skeleton"
+        ],
+        "explanation": "At Göbekli Tepe, Turkish for 'potbelly hill', researchers are studying the oldest known large buildings of humankind. The sites were discovered in 1994; experts see them as evidence that hunter-gatherers could already build such things together twelve thousand years ago."
+      }
+    }
+  },
+  {
+    "id": "ns1",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Metall ist bei Raumtemperatur flüssig?",
+    "options": [
+      "Blei",
+      "Quecksilber",
+      "Zinn",
+      "Aluminium"
+    ],
+    "correct_index": 1,
+    "explanation": "Quecksilber ist das einzige Metall und neben Brom das einzige Element, das unter Standardbedingungen flüssig ist. Sein Name auf Altgriechisch, hydrargyros, bedeutet „flüssiges Silber“; daher kommt das Symbol Hg.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quecksilber",
+    "source_url": "https://de.wikipedia.org/wiki/Quecksilber",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which metal is liquid at room temperature?",
+        "options": [
+          "Lead",
+          "Mercury",
+          "Tin",
+          "Aluminium"
+        ],
+        "explanation": "Mercury is the only metal and, besides bromine, the only element that is liquid under standard conditions. Its Ancient Greek name, hydrargyros, means 'liquid silver' – hence the symbol Hg."
+      }
+    }
+  },
+  {
+    "id": "ns2",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie ordnete Friedrich Mohs Minerale nach ihrer Härte?",
+    "options": [
+      "Er erhitzte sie",
+      "Er wog sie",
+      "Er ritzte sie gegeneinander",
+      "Er ließ sie fallen"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Geologe Friedrich Mohs ritzte verschiedene Minerale gegeneinander und ordnete sie so nach ihrer Härte. Daraus entstand die Mohs-Skala, die in Mineralogie und Geologie bis heute weit verbreitet ist.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Härte",
+    "source_url": "https://de.wikipedia.org/wiki/Härte",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did Friedrich Mohs rank minerals by hardness?",
+        "options": [
+          "He heated them",
+          "He weighed them",
+          "He scratched them against each other",
+          "He dropped them"
+        ],
+        "explanation": "The geologist Friedrich Mohs scratched different minerals against each other and ranked them by hardness that way. This became the Mohs scale, still widely used in mineralogy and geology today."
+      }
+    }
+  },
+  {
+    "id": "ns3",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was braucht Eisen, damit es rostet?",
+    "options": [
+      "Salz und Zucker",
+      "Nur Licht",
+      "Nur Wärme",
+      "Sauerstoff und Wasser"
+    ],
+    "correct_index": 3,
+    "explanation": "Rost entsteht, wenn Eisen oder Stahl mit Sauerstoff in Gegenwart von Wasser reagiert. Anders als die Oxidschicht etwa von Aluminium ist Rost porös und schützt das Metall nicht vor weiterer Zersetzung.",
+    "difficulty": 1,
+    "tags": [
+      "Wissenschaft",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rost",
+    "source_url": "https://de.wikipedia.org/wiki/Rost",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does iron need in order to rust?",
+        "options": [
+          "Salt and sugar",
+          "Only light",
+          "Only heat",
+          "Oxygen and water"
+        ],
+        "explanation": "Rust forms when iron or steel reacts with oxygen in the presence of water. Unlike the oxide layer on aluminium, for example, rust is porous and does not protect the metal from further corrosion."
+      }
+    }
+  },
+  {
+    "id": "ns4",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wo wurde das Element Helium zuerst entdeckt?",
+    "options": [
+      "Im Licht der Sonne",
+      "In einem Vulkan",
+      "Im Meerwasser",
+      "In einem Bergwerk"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei einer totalen Sonnenfinsternis beobachtete der Astronom Jules Janssen eine gelbe Linie im Sonnenlicht. Norman Lockyer bestätigte, dass sie im Sonnenspektrum vorkommt, und schloss auf ein unbekanntes Element. Daher der Name: Helium kommt vom altgriechischen hélios, „Sonne“.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Helium",
+    "source_url": "https://de.wikipedia.org/wiki/Helium",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where was the element helium first discovered?",
+        "options": [
+          "In the light of the Sun",
+          "In a volcano",
+          "In seawater",
+          "In a mine"
+        ],
+        "explanation": "During a total solar eclipse the astronomer Jules Janssen observed a yellow line in sunlight. Norman Lockyer confirmed that it appears in the solar spectrum and concluded that an unknown element caused it. Hence the name: helium comes from the Ancient Greek hélios, 'sun'."
+      }
+    }
+  },
+  {
+    "id": "ns5",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was besagt das ohmsche Gesetz?",
+    "options": [
+      "Strom fließt nur bei Kälte",
+      "Die Stromstärke ist proportional zur Spannung",
+      "Spannung und Strom sind immer gleich groß",
+      "Je höher die Spannung, desto schwächer der Strom"
+    ],
+    "correct_index": 1,
+    "explanation": "Das ohmsche Gesetz besagt, dass die Stromstärke des durch ein Objekt fließenden elektrischen Stroms proportional zur elektrischen Spannung ist – solange der Widerstand konstant bleibt.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ohmsches Gesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Ohmsches_Gesetz",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Ohm's law state?",
+        "options": [
+          "Current only flows when it is cold",
+          "The current is proportional to the voltage",
+          "Voltage and current are always equal",
+          "The higher the voltage, the weaker the current"
+        ],
+        "explanation": "Ohm's law states that the current flowing through an object is proportional to the voltage – as long as the resistance stays constant."
+      }
+    }
+  },
+  {
+    "id": "ns6",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wer entdeckte 1895 in Würzburg die Strahlen, die nach ihm benannt sind?",
+    "options": [
+      "Max Planck",
+      "Albert Einstein",
+      "Wilhelm Conrad Röntgen",
+      "Heinrich Hertz"
+    ],
+    "correct_index": 2,
+    "explanation": "Wilhelm Conrad Röntgen entdeckte die Strahlung im November 1895 in Würzburg. Im deutschsprachigen Raum und fast überall in Mittel- und Osteuropa ist sie nach ihm benannt.",
+    "difficulty": 1,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Röntgenstrahlung",
+    "source_url": "https://de.wikipedia.org/wiki/Röntgenstrahlung",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who discovered the rays named after him in Würzburg in 1895?",
+        "options": [
+          "Max Planck",
+          "Albert Einstein",
+          "Wilhelm Conrad Röntgen",
+          "Heinrich Hertz"
+        ],
+        "explanation": "Wilhelm Conrad Röntgen discovered the radiation in November 1895 in Würzburg. In German-speaking countries and almost everywhere in central and eastern Europe it is named after him (X-rays elsewhere)."
+      }
+    }
+  },
+  {
+    "id": "ns7",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wer entdeckte das Phänomen, das Marie und Pierre Curie 1898 „Radioaktivität“ nannten?",
+    "options": [
+      "Niels Bohr",
+      "Wilhelm Conrad Röntgen",
+      "Ernest Rutherford",
+      "Antoine Henri Becquerel"
+    ],
+    "correct_index": 3,
+    "explanation": "Antoine Henri Becquerel entdeckte die Erscheinung. Den Namen Radioaktivität prägte das Ehepaar Marie und Pierre Curie 1898, zwei Jahre später. Gemeint ist die Eigenschaft instabiler Atomkerne, von selbst Strahlung auszusenden.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radioaktivität",
+    "source_url": "https://de.wikipedia.org/wiki/Radioaktivität",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who discovered the phenomenon that Marie and Pierre Curie named 'radioactivity' in 1898?",
+        "options": [
+          "Niels Bohr",
+          "Wilhelm Conrad Röntgen",
+          "Ernest Rutherford",
+          "Antoine Henri Becquerel"
+        ],
+        "explanation": "Antoine Henri Becquerel discovered the phenomenon. The name radioactivity was coined in 1898, two years later, by Marie and Pierre Curie. It means the property of unstable atomic nuclei to emit radiation spontaneously."
+      }
+    }
+  },
+  {
+    "id": "ns8",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was wollte Erwin Schrödinger 1935 mit seinem Gedankenexperiment von der Katze im Kasten zeigen?",
+    "options": [
+      "Wie seltsam die Quantenmechanik auf Alltagsdinge übertragen wirkt",
+      "Wie lange Katzen ohne Futter leben",
+      "Dass Kästen Strahlung abschirmen",
+      "Wie schnell Licht ist"
+    ],
+    "correct_index": 0,
+    "explanation": "In dem Gedankenexperiment hängt das Leben einer Katze in einem geschlossenen Kasten von einem quantenmechanischen Vorgang ab. Schrödinger verdeutlichte damit 1935, welche merkwürdigen Folgen die neuen Vorstellungen vom Zustand eines Teilchens hätten, übertrüge man sie auf Alltagsgegenstände. Es blieb ein reines Gedankenexperiment.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schrödingers Katze",
+    "source_url": "https://de.wikipedia.org/wiki/Schrödingers_Katze",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Erwin Schrödinger want to show in 1935 with his thought experiment of the cat in the box?",
+        "options": [
+          "How strange quantum mechanics seems when applied to everyday things",
+          "How long cats live without food",
+          "That boxes block radiation",
+          "How fast light is"
+        ],
+        "explanation": "In the thought experiment, the life of a cat in a closed box depends on a quantum-mechanical process. In 1935 Schrödinger used it to show the strange consequences the new ideas about the state of a particle would have if they were applied to everyday objects. It remained purely a thought experiment."
+      }
+    }
+  },
+  {
+    "id": "ns9",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wann veröffentlichte das CERN den Nachweis eines Teilchens, bei dem es sich um das Higgs-Boson handeln könnte?",
+    "options": [
+      "1964",
+      "1989",
+      "2012",
+      "2024"
+    ],
+    "correct_index": 2,
+    "explanation": "Im Juli 2012 publizierte das Forschungszentrum CERN den Nachweis eines am Large Hadron Collider erzeugten Teilchens, bei dem es sich um das Higgs-Boson handeln könnte. Benannt ist es nach dem britischen Physiker Peter W. Higgs; die zugehörige Theorie stammt schon aus den 1960er Jahren.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Higgs-Boson",
+    "source_url": "https://de.wikipedia.org/wiki/Higgs-Boson",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When did CERN publish the detection of a particle that could be the Higgs boson?",
+        "options": [
+          "1964",
+          "1989",
+          "2012",
+          "2024"
+        ],
+        "explanation": "In July 2012 the research centre CERN published the detection of a particle produced at the Large Hadron Collider that could be the Higgs boson. It is named after the British physicist Peter W. Higgs; the theory behind it dates back to the 1960s."
+      }
+    }
+  },
+  {
+    "id": "ns10",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Mit welchen Pflanzen machte Gregor Mendel seine berühmten Vererbungsversuche?",
+    "options": [
+      "Mit Kakteen",
+      "Mit Rosen",
+      "Mit Weizen",
+      "Mit Erbsen"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Augustinermönch Gregor Mendel erkannte die nach ihm benannten Regeln Anfang der 1860er Jahre und bestätigte sie durch Kreuzungsversuche an Erbsenpflanzen. Er veröffentlichte sie 1865/1866, doch erst 1900 wurden sie „wiederentdeckt“.",
+    "difficulty": 1,
+    "tags": [
+      "Wissenschaft",
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mendelsche Regeln",
+    "source_url": "https://de.wikipedia.org/wiki/Mendelsche_Regeln",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "With which plants did Gregor Mendel carry out his famous heredity experiments?",
+        "options": [
+          "Cacti",
+          "Roses",
+          "Wheat",
+          "Peas"
+        ],
+        "explanation": "The Augustinian friar Gregor Mendel worked out the rules named after him in the early 1860s and confirmed them through crossing experiments with pea plants. He published them in 1865/1866, but they were only 'rediscovered' in 1900."
+      }
+    }
+  },
+  {
+    "id": "ns11",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was entdeckte Antoni van Leeuwenhoek mit seinen selbst gebauten Mikroskopen?",
+    "options": [
+      "Die Mikroorganismen",
+      "Die Atome",
+      "Die Planeten Uranus und Neptun",
+      "Die Elektrizität"
+    ],
+    "correct_index": 0,
+    "explanation": "Leeuwenhoek entdeckte die Mikroorganismen – Bakterien, Protozoen und andere Einzeller. Deshalb nennt man ihn auch „Vater der Protozoologie und Bakteriologie“.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Biologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Antoni van Leeuwenhoek",
+    "source_url": "https://de.wikipedia.org/wiki/Antoni_van_Leeuwenhoek",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Antonie van Leeuwenhoek discover with the microscopes he built himself?",
+        "options": [
+          "Microorganisms",
+          "Atoms",
+          "The planets Uranus and Neptune",
+          "Electricity"
+        ],
+        "explanation": "Leeuwenhoek discovered microorganisms – bacteria, protozoa and other single-celled organisms. That is why he is also called the 'father of protozoology and bacteriology'."
+      }
+    }
+  },
+  {
+    "id": "ns12",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was war die Voltasche Säule, die Alessandro Volta im Jahr 1800 vorstellte?",
+    "options": [
+      "Ein Blitzableiter",
+      "Die erste praktisch nutzbare elektrische Batterie",
+      "Eine Dampfmaschine",
+      "Ein Thermometer"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Voltasche Säule war die erste elektrische Batterie mit praktischer Bedeutung als Stromquelle. Volta entwickelte sie um 1799 und stellte sie 1800 in London vor. Sie besteht aus vielen geschichteten Kupfer- und Zinkplättchen mit getränkten Pappen dazwischen.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Voltasche Säule",
+    "source_url": "https://de.wikipedia.org/wiki/Voltasche_Säule",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the voltaic pile that Alessandro Volta presented in 1800?",
+        "options": [
+          "A lightning rod",
+          "The first practically useful electric battery",
+          "A steam engine",
+          "A thermometer"
+        ],
+        "explanation": "The voltaic pile was the first electric battery of practical importance as a source of current. Volta developed it around 1799 and presented it in London in 1800. It consists of many stacked copper and zinc discs with soaked card in between."
+      }
+    }
+  },
+  {
+    "id": "ns13",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie lang ist die Halbwertszeit von Kohlenstoff-14, die man zur Altersbestimmung nutzt?",
+    "options": [
+      "Etwa 57 Jahre",
+      "Etwa 573 Jahre",
+      "Etwa 5730 Jahre",
+      "Etwa 5,7 Millionen Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "14C zerfällt mit einer Halbwertszeit von 5730 ± 40 Jahren. Damit lassen sich organische Stoffe etwa zwischen 300 und 60.000 Jahren datieren – das Verfahren heißt Radiokarbonmethode.",
+    "difficulty": 3,
+    "tags": [
+      "Wissenschaft",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radiokarbonmethode",
+    "source_url": "https://de.wikipedia.org/wiki/Radiokarbonmethode",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the half-life of carbon-14, which is used for dating?",
+        "options": [
+          "About 57 years",
+          "About 573 years",
+          "About 5,730 years",
+          "About 5.7 million years"
+        ],
+        "explanation": "Carbon-14 decays with a half-life of 5,730 ± 40 years. This allows organic materials between about 300 and 60,000 years old to be dated – the method is called radiocarbon dating."
+      }
+    }
+  },
+  {
+    "id": "ns14",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was passiert mit dem elektrischen Widerstand eines Supraleiters unter seiner Sprungtemperatur?",
+    "options": [
+      "Nichts",
+      "Er verdoppelt sich",
+      "Er schwankt zufällig",
+      "Er wird praktisch null"
+    ],
+    "correct_index": 3,
+    "explanation": "Unterhalb der sogenannten Sprungtemperatur wird der elektrische Widerstand eines Supraleiters praktisch null. Entdeckt hat die Supraleitung 1911 Heike Kamerlingh Onnes, ein Pionier der Tieftemperaturphysik.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Supraleiter",
+    "source_url": "https://de.wikipedia.org/wiki/Supraleiter",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens to the electrical resistance of a superconductor below its critical temperature?",
+        "options": [
+          "Nothing",
+          "It doubles",
+          "It fluctuates randomly",
+          "It becomes practically zero"
+        ],
+        "explanation": "Below the so-called critical temperature the electrical resistance of a superconductor becomes practically zero. Superconductivity was discovered in 1911 by Heike Kamerlingh Onnes, a pioneer of low-temperature physics."
+      }
+    }
+  },
+  {
+    "id": "ns15",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was beobachtete der Botaniker Robert Brown 1827 unter dem Mikroskop?",
+    "options": [
+      "Eine unregelmäßige, ruckartige Bewegung kleiner Teilchen in Flüssigkeit",
+      "Die ersten Zellen",
+      "Die Teilung eines Atoms",
+      "Leuchtende Bakterien"
+    ],
+    "correct_index": 0,
+    "explanation": "Robert Brown entdeckte 1827 die unregelmäßige und ruckartige Wärmebewegung kleiner Teilchen in Flüssigkeiten und Gasen. Nach ihm heißt sie brownsche Bewegung.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brownsche Bewegung",
+    "source_url": "https://de.wikipedia.org/wiki/Brownsche_Bewegung",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the botanist Robert Brown observe under the microscope in 1827?",
+        "options": [
+          "An irregular, jerky movement of small particles in liquid",
+          "The first cells",
+          "The splitting of an atom",
+          "Glowing bacteria"
+        ],
+        "explanation": "In 1827 Robert Brown discovered the irregular, jerky thermal motion of small particles in liquids and gases. It is called Brownian motion after him."
+      }
+    }
+  },
+  {
+    "id": "ns16",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Farbe zeigt der Farbstoff Lackmus in einer sauren Lösung?",
+    "options": [
+      "Blau",
+      "Rot",
+      "Grün",
+      "Gelb"
+    ],
+    "correct_index": 1,
+    "explanation": "Lackmus ist ein aus Flechten gewonnener Farbstoff und dient als Säure-Base-Anzeiger. Bei pH-Werten unter 4,5 erscheint er rot, über 8,3 blau und dazwischen violett.",
+    "difficulty": 1,
+    "tags": [
+      "Wissenschaft",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lackmus",
+    "source_url": "https://de.wikipedia.org/wiki/Lackmus",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour does the dye litmus turn in an acidic solution?",
+        "options": [
+          "Blue",
+          "Red",
+          "Green",
+          "Yellow"
+        ],
+        "explanation": "Litmus is a dye obtained from lichens and is used as an acid–base indicator. At pH values below 4.5 it turns red, above 8.3 blue, and violet in between."
+      }
+    }
   }
 ]
