@@ -855,6 +855,26 @@ test("exercises come in many kinds, none twice running – and a pattern puzzle 
   await expect(code.getByTestId("exercise-result")).toContainText("Der Code ist");
 });
 
+test("exercises can be narrowed to a family: only logic, and back to the mix", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/riddles/");
+  const chips = page.getByTestId("exercise-groups");
+  await expect(chips.getByRole("button")).toHaveText(["Gemischt", "Logik", "Knobeleien", "Rechnen", "Landkarte"]);
+  await expect(chips.getByRole("button", { name: "Gemischt" })).toHaveAttribute("aria-pressed", "true");
+  const logic = ["knights", "syllogism", "order", "code", "zebra", "conditional", "family", "sufficiency"];
+  await chips.getByRole("button", { name: "Logik" }).click();
+  await expect(chips.getByRole("button", { name: "Logik" })).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByTestId("exercise")).toHaveCount(4);
+  await page.getByTestId("more-exercises").click();
+  await expect(page.getByTestId("exercise")).toHaveCount(8);
+  const kinds = await page.getByTestId("exercise").evaluateAll((list) => list.map((e) => e.getAttribute("data-kind")!));
+  expect(kinds.every((k) => logic.includes(k))).toBe(true);
+  expect(new Set(kinds).size).toBe(8); // eight kinds of logic question, each once
+  await chips.getByRole("button", { name: "Landkarte" }).click();
+  await expect(page.getByTestId("exercise")).toHaveCount(4);
+  await expect(page.locator('[data-testid="exercise"][data-kind="map"]')).toHaveCount(4);
+});
+
 test("a maths exercise checks the answer at once and shows how it is worked out", async ({ page }) => {
   await signIn(page);
   await page.goto("/riddles/");

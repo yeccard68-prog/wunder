@@ -44,6 +44,15 @@ export const KINDS: Record<Level, ExerciseKind[]> = {
   2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "sufficiency", "word", "numbers", "knights", "syllogism", "order",
     "code", "zebra", "conditional", "scales", "family", "jugs", "cube", "nim", "directions", "letters", "oddone", "crypt", "matrix"],
 };
+/** Families of kinds, for choosing what to practise on the "Rätsel" page. Every kind belongs to exactly one. */
+export const GROUPS: { name: string; kinds: ExerciseKind[] }[] = [
+  { name: "Logik", kinds: ["knights", "syllogism", "order", "code", "zebra", "conditional", "family", "sufficiency"] },
+  { name: "Knobeleien", kinds: ["matrix", "scales", "jugs", "cube", "nim", "directions", "letters", "oddone", "crypt", "sequence"] },
+  { name: "Rechnen", kinds: ["arithmetic", "percent", "fraction", "units", "weekday", "clock", "word", "numbers"] },
+  { name: "Landkarte", kinds: ["map"] },
+];
+/** The families someone of this age has exercises in (children have no "Logik" yet). */
+export const groupsFor = (age: AgeBand | null) => GROUPS.filter((g) => g.kinds.some((k) => KINDS[levelOf(age)].includes(k)));
 /** How many options a kind shows (most: four). */
 export const optionCount = (kind: ExerciseKind) => (kind === "sufficiency" || kind === "oddone" ? 5 : 4);
 
@@ -303,11 +312,13 @@ export function makeExercise(seed: string, kind: ExerciseKind, age: AgeBand | nu
 }
 /**
  * A set of exercises for one visit, each at the learner's step for its kind. The kinds are dealt like a pack of cards:
- * every kind once in a random order before any comes again, and never the same kind twice running.
+ * every kind once in a random order before any comes again, and never the same kind twice running. `only` narrows
+ * the set to some kinds (a family from GROUPS) – as far as this age has them.
  */
-export function exercisesFor(age: AgeBand | null, locale: string, count: number, seed: string, stepFor: (kind: ExerciseKind) => Step = () => START as Step): Exercise[] {
+export function exercisesFor(age: AgeBand | null, locale: string, count: number, seed: string, stepFor: (kind: ExerciseKind) => Step = () => START as Step, only?: ExerciseKind[]): Exercise[] {
   const r = rng(`ex-${seed}`);
-  const kinds = KINDS[levelOf(age)];
+  const wanted = only ? KINDS[levelOf(age)].filter((k) => only.includes(k)) : [];
+  const kinds = wanted.length ? wanted : KINDS[levelOf(age)];
   let pack: ExerciseKind[] = [], last: ExerciseKind | null = null;
   return Array.from({ length: count }, (_, i) => {
     if (!pack.length) {

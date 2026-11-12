@@ -1,7 +1,7 @@
 // Maths and logic exercises: four different options, the right one among them and matching the explanation.  Run: npm test
 import test from "node:test";
 import assert from "node:assert/strict";
-import { exercisesFor, KINDS, levelOf, makeExercise, optionCount } from "../lib/exercises";
+import { exercisesFor, GROUPS, groupsFor, KINDS, levelOf, makeExercise, optionCount } from "../lib/exercises";
 
 const SLOW = ["code", "scales", "zebra"]; // these take a few milliseconds each and have their own tests (tests/brain.test.ts)
 
@@ -81,6 +81,21 @@ test("a set deals the kinds like a pack of cards: every kind before any comes ag
     for (let k = 0; k < 3; k++) assert.equal(new Set(set.slice(k * kinds.size, (k + 1) * kinds.size).map((e) => e.kind)).size, kinds.size, `${age}: round ${k + 1}`);
     set.forEach((e, i) => i && assert.notEqual(e.kind, set[i - 1].kind, `${age}: ${e.kind} twice running at ${i}`));
   }
+});
+
+test("families of exercises: every kind belongs to exactly one, and a set can be narrowed to a family", () => {
+  const all = GROUPS.flatMap((g) => g.kinds);
+  assert.equal(new Set(all).size, all.length, "no kind in two families");
+  assert.deepEqual([...all].sort(), [...new Set(KINDS[2])].sort(), "every kind is in a family");
+  for (const g of GROUPS) {
+    const set = exercisesFor("16+", "de", 12, `g-${g.name}`, undefined, g.kinds);
+    assert.ok(set.every((e) => g.kinds.includes(e.kind)), g.name);
+    if (g.kinds.length > 1) set.forEach((e, i) => i && assert.notEqual(e.kind, set[i - 1].kind));
+  }
+  // children: no logic family yet – and asking for it anyway gives the usual mix
+  assert.deepEqual(groupsFor("6-9").map((g) => g.name), ["Knobeleien", "Rechnen", "Landkarte"]);
+  assert.equal(groupsFor("16+").length, 4);
+  assert.ok(exercisesFor("6-9", "de", 9, "kid", undefined, GROUPS[0].kinds).every((e) => KINDS[0].includes(e.kind)));
 });
 
 test("children stay on their steps whatever their value", () => {

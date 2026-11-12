@@ -8,7 +8,7 @@ import ExerciseCard from "@/components/ExerciseCard";
 import PuzzleCard from "@/components/PuzzleCard";
 import { Empty } from "@/components/ui";
 import type { FeedEntry } from "@/lib/feed";
-import { exercisesFor } from "@/lib/exercises";
+import { exercisesFor, groupsFor } from "@/lib/exercises";
 import { stepOf } from "@/lib/skill";
 import { feedPuzzles } from "@/lib/puzzles";
 import { useStore, useT } from "@/lib/store";
@@ -19,7 +19,12 @@ export default function RiddlesPage() {
   const [more, setMore] = useState(3);
   const [exCount, setExCount] = useState(4);
   const [exSeed] = useState(() => String(Date.now()));
-  const exercises = useMemo(() => exercisesFor(state.ageBand, state.settings.locale, exCount, exSeed, (k) => stepOf(getState(), k)), [state.ageBand, state.settings.locale, exCount, exSeed]);
+  // which family of exercises: all mixed, or only logic, brain teasers, arithmetic or maps
+  const groups = groupsFor(state.ageBand);
+  const [group, setGroup] = useState<string | null>(null);
+  const only = groups.find((g) => g.name === group)?.kinds;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const exercises = useMemo(() => exercisesFor(state.ageBand, state.settings.locale, exCount, `${exSeed}-${group ?? "all"}`, (k) => stepOf(getState(), k), only), [state.ageBand, state.settings.locale, exCount, exSeed, group]);
   // fixed while the page is open: a solved puzzle stays where it is
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const done = useMemo(() => new Set(getState().puzzles?.done ?? []), []);
@@ -51,6 +56,14 @@ export default function RiddlesPage() {
       </section>
       <section className="space-y-4" aria-label={t("Übungen")}>
         <h2 className="font-display text-xl font-semibold">{t("Übungen")}</h2>
+        <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4" role="group" aria-label={t("Art der Übungen")} data-testid="exercise-groups">
+          {[null, ...groups.map((g) => g.name)].map((name) => (
+            <button key={name ?? "all"} onClick={() => { setGroup(name); setExCount(4); }} aria-pressed={group === name}
+              className={`press shrink-0 rounded-full px-4 py-2 text-sm font-semibold ${group === name ? "bg-ink text-bg" : "bg-raised"}`}>
+              {t(name ?? "Gemischt")}
+            </button>
+          ))}
+        </div>
         {exercises.map((e) => <ExerciseCard key={e.id} exercise={e} />)}
         <button onClick={() => setExCount((n) => n + 4)} className="press w-full rounded-full bg-raised py-3 text-sm font-semibold" data-testid="more-exercises">{t("Mehr Übungen")}</button>
       </section>

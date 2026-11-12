@@ -1043,5 +1043,10 @@
   "Muster aus neun Feldern": "Pattern of nine fields",
   "leeres Feld": "empty field",
   "Drei Rätsel, bevor dein Feed startet – jeden Tag eine andere Mischung aus Logik, Knobelei und Gitterrätsel.": "Three puzzles before your feed starts – a different mix of logic, brain teaser and grid puzzle every day.",
-  "Gitterrätsel, Logik-Aufgaben, Rechenübungen und {n} Knobelaufgaben": "Grid puzzles, logic questions, maths exercises and {n} brain teasers"
+  "Gitterrätsel, Logik-Aufgaben, Rechenübungen und {n} Knobelaufgaben": "Grid puzzles, logic questions, maths exercises and {n} brain teasers",
+  "Gemischt": "Mixed",
+  "Logik": "Logic",
+  "Knobeleien": "Brain teasers",
+  "Rechnen": "Arithmetic",
+  "Art der Übungen": "Kind of exercises"
 }
