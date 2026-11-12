@@ -4,7 +4,7 @@
 
 | Inhalt | Anzahl | Status |
 |---|---|---|
-| Fragekarten im Feed | 1.491 (davon 84 „Stimmt das?“, 49 neue Formate, 64 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
+| Fragekarten im Feed | 1.482 (davon 82 „Stimmt das?“, 48 neue Formate, 63 Rätsel mit Tipps) | alle „von KI geprüft“, keine „redaktionell geprüft“ |
 | Video-Quizfragen | 91 | zweiter Versuch mit Hinweis, halbe Punkte |
 | Clips | 85 veröffentlicht, 6 archiviert | fremde frei lizenziert mit Quelle und Urheber je Clip (`/legal/`); eigene mit Remotion gerendert (`video/`), je Sprache eine Datei |
 | Animationen | 52 | je eine Vorhersagefrage, Tempo 0,75×/1×/1,5×, Zoom |
@@ -12,11 +12,11 @@
 | Bücher | 20 mit 60 Lektionen | Abruf, Wiederholung, Beleg-Stufe je Idee; Copyright am 15.10.2026 erneut geprüft; Affiliate-Link vorbereitet (aus, bis ein Partner-Tag eingetragen ist) |
 | Fakten („Wusstest du?“) | 199 | im Feed und unter Entdecken → Fakten, je mit Quelle |
 | Themen | 14 | |
-| Rätsel und Übungen | „Rätsel des Tages“: täglich drei Aufgaben in wechselnder Mischung (Logikfrage, Knobelei, Gitterrätsel); 27 Übungsarten, 7 Gitterrätsel-Arten, 64 Knobelaufgaben mit Tipps | werden auf dem Gerät erzeugt und vor dem Zeigen gelöst; Stufe 1–5 je Art passt sich an (`docs/BACKEND.md` Abschnitt 98) |
+| Rätsel und Übungen | „Rätsel des Tages“: täglich drei Aufgaben in wechselnder Mischung (Logikfrage, Knobelei, Gitterrätsel); 27 Übungsarten, 7 Gitterrätsel-Arten, 63 Knobelaufgaben mit Tipps | werden auf dem Gerät erzeugt und vor dem Zeigen gelöst; Stufe 1–5 je Art passt sich an (`docs/BACKEND.md` Abschnitt 98) |
 | Duelle | drei Runden à drei Fragen, gegen Freunde (Link/Code), Zufallsgegner oder den Computer (drei Stufen); im Demo-Modus gegen einen Übungsgegner | Regeln, Zeitlimit und Antworten auf dem Server; Melden und Sperren eingebaut |
 | Gruppen und Chat | Gruppen per Code, Gruppenrunden (6 Fragen, 3 Tage, Rangliste); Chat in Duellen und Gruppen nur ab 16 | Filter, Melden, Blockieren, Prüfbildschirm, Löschung nach 90 Tagen; Nutzungsbedingungen und Meldestelle fehlen noch (`docs/LEGAL.md` Punkt 4) |
 
-Karten je Thema (Feed): Mathe & Logik 120, Technologie & KI 115, Business 112, Sport 110, Kunst 108, Erde & Natur 106, Tiere 105, Wissenschaft 104, Musik 104, Sprache 103, Geschichte 102, Weltraum 101, Wirtschaft & Geld 101, Kultur & Gesellschaft 100.
+Karten je Thema (Feed): Mathe & Logik 119, Technologie & KI 114, Business 111, Sport 110, Kunst 108, Tiere 105, Erde & Natur 104, Wissenschaft 103, Sprache 103, Musik 102, Weltraum 101, Geschichte 101, Wirtschaft & Geld 101, Kultur & Gesellschaft 100.
 
 ## Ziele aus den Aufträgen
 
