@@ -62708,5 +62708,1057 @@
         ]
       }
     }
+  },
+  {
+    "id": "hg18",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Der „Adler“ war die erste Lokomotive, die in Deutschland erfolgreich Fahrgäste beförderte – ab 1835 zwischen Nürnberg und Fürth. Wo wurde sie gebaut?",
+    "options": [
+      "In Nürnberg",
+      "In England",
+      "In Belgien",
+      "In Preußen"
+    ],
+    "correct_index": 1,
+    "explanation": "Den Adler baute die Firma Robert Stephenson and Company im englischen Newcastle. Im Dezember 1835 fuhr damit zwischen Nürnberg und Fürth die erste mit Lokomotiven betriebene Eisenbahn in Deutschland.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: LEG – Adler und Pfeil",
+    "source_url": "https://de.wikipedia.org/wiki/LEG_–_Adler_und_Pfeil",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'Adler' (Eagle) was the first locomotive to carry passengers successfully in Germany – from 1835 between Nuremberg and Fürth. Where was it built?",
+        "options": [
+          "In Nuremberg",
+          "In England",
+          "In Belgium",
+          "In Prussia"
+        ],
+        "explanation": "The Adler was built by Robert Stephenson and Company in Newcastle, England. In December 1835 it ran between Nuremberg and Fürth – the first railway in Germany worked by locomotives."
+      }
+    }
+  },
+  {
+    "id": "hg19",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welcher Stadt erschien ab 1605 die „Relation“ von Johann Carolus, die als erste gedruckte Zeitung gilt?",
+    "options": [
+      "London",
+      "Venedig",
+      "Straßburg",
+      "Augsburg"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Buchbinder und Drucker Johann Carolus gab ab September 1605 in Straßburg die Wochenzeitung „Relation aller Fürnemmen und gedenckwürdigen Historien“ heraus. Vorher hatte er Nachrichten von Hand abgeschrieben und verkauft. Gedruckt hoffte er auf eine höhere Auflage – und damit auf mehr Leser zu einem niedrigeren Preis.",
+    "difficulty": 3,
+    "tags": [
+      "Geschichte",
+      "Medien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Johann Carolus",
+    "source_url": "https://de.wikipedia.org/wiki/Johann_Carolus",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city did Johann Carolus's 'Relation', considered the first printed newspaper, appear from 1605?",
+        "options": [
+          "London",
+          "Venice",
+          "Strasbourg",
+          "Augsburg"
+        ],
+        "explanation": "The bookbinder and printer Johann Carolus published the weekly 'Relation aller Fürnemmen und gedenckwürdigen Historien' in Strasbourg from September 1605. Before that he had copied news by hand and sold it. In print he hoped for a larger run – and so for more readers at a lower price."
+      }
+    }
+  },
+  {
+    "id": "hg20",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Im September 1783 stieg in Versailles ein Heißluftballon der Brüder Montgolfier mit seinen ersten Passagieren auf. Wer flog mit?",
+    "options": [
+      "Ein Hammel, ein Hahn und eine Ente",
+      "Die Brüder Montgolfier selbst",
+      "Ein Hund und eine Katze",
+      "Niemand – der Korb war leer"
+    ],
+    "correct_index": 0,
+    "explanation": "Bevor sich Menschen hinaufwagten, schickten die Brüder Montgolfier Tiere in die Luft: Im September 1783 startete vom Schloss Versailles aus eine Montgolfière mit einem Hammel, einem Hahn und einer Ente. Erst im Oktober 1783 folgte ein Aufstieg mit Menschen – noch an einem Seil gesichert.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Montgolfière",
+    "source_url": "https://de.wikipedia.org/wiki/Montgolfière",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In September 1783 a hot-air balloon made by the Montgolfier brothers rose at Versailles with its first passengers. Who flew?",
+        "options": [
+          "A sheep, a rooster and a duck",
+          "The Montgolfier brothers themselves",
+          "A dog and a cat",
+          "Nobody – the basket was empty"
+        ],
+        "explanation": "Before people dared to go up, the Montgolfier brothers sent animals into the air: in September 1783 a Montgolfière took off from the Palace of Versailles with a sheep, a rooster and a duck. Only in October 1783 did people go up – still held by a rope."
+      }
+    }
+  },
+  {
+    "id": "hg21",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woraus bestand der „Kristallpalast“, das riesige Ausstellungsgebäude der ersten Weltausstellung 1851 in London?",
+    "options": [
+      "Aus Marmor",
+      "Aus Glas und Gusseisen",
+      "Aus Holz und Stroh",
+      "Aus Ziegeln und Beton"
+    ],
+    "correct_index": 1,
+    "explanation": "Joseph Paxton hatte als Gartenarchitekt Erfahrung mit Gewächshäusern und entwarf das Gebäude aus Glas und Gusseisen. Weil es aus vorgefertigten Teilen zusammengesetzt wurde, stand es nach nur 17 Wochen Bauzeit. Das gewächshausartige Gebäude wurde bald „Crystal Palace“ getauft.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Crystal Palace (Gebäude)",
+    "source_url": "https://de.wikipedia.org/wiki/Crystal_Palace_(Gebäude)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the 'Crystal Palace', the huge exhibition building of the first world's fair in London in 1851, made of?",
+        "options": [
+          "Marble",
+          "Glass and cast iron",
+          "Wood and straw",
+          "Bricks and concrete"
+        ],
+        "explanation": "As a garden architect, Joseph Paxton knew about greenhouses and designed the building of glass and cast iron. Because it was assembled from prefabricated parts, it stood after only 17 weeks of building. The greenhouse-like building was soon nicknamed the 'Crystal Palace'."
+      }
+    }
+  },
+  {
+    "id": "hg22",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wofür ist der Gelehrte Ibn Battuta berühmt, der 1304 in Tanger in Marokko geboren wurde?",
+    "options": [
+      "Für die erste Weltkarte",
+      "Für die Erfindung des Kompasses",
+      "Für Reisen von mehr als 120.000 Kilometern",
+      "Für den Bau der ersten Sternwarte"
+    ],
+    "correct_index": 2,
+    "explanation": "Mit 21 Jahren brach Ibn Battuta zur Pilgerfahrt nach Mekka auf. Sein Reisebericht beschreibt danach eine Reise von mehr als 120.000 Kilometern durch die gesamte islamische Welt und darüber hinaus. Manche Orte darin hat er wohl erfunden – trotzdem gilt der Bericht als eine der genauesten Beschreibungen vieler Teile der damaligen Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Entdecker"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ibn Battūta",
+    "source_url": "https://de.wikipedia.org/wiki/Ibn_Battūta",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the scholar Ibn Battuta, born in Tangier in Morocco in 1304, famous for?",
+        "options": [
+          "The first map of the world",
+          "Inventing the compass",
+          "Journeys of more than 120,000 kilometres",
+          "Building the first observatory"
+        ],
+        "explanation": "At 21, Ibn Battuta set out on the pilgrimage to Mecca. His travel book then describes a journey of more than 120,000 kilometres through the whole Islamic world and beyond. Some places in it he probably made up – even so, the book counts as one of the most accurate descriptions of many parts of the world of his time."
+      }
+    }
+  },
+  {
+    "id": "hg23",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was gelang Dorothea Erxleben 1754 als erster Frau in Deutschland?",
+    "options": [
+      "Sie bestieg die Zugspitze",
+      "Sie wurde Bürgermeisterin",
+      "Sie gründete eine Zeitung",
+      "Sie erhielt den Doktortitel als Ärztin"
+    ],
+    "correct_index": 3,
+    "explanation": "Dorothea Christiane Erxleben legte 1754 an der Universität Halle ihre Promotion ab und wurde so die erste promovierte deutsche Ärztin – mit einer besonderen Genehmigung. Behandelt hatte sie schon vorher; andere Ärzte verschrien sie deshalb als „Dilettantin“, weil ihr die Ausbildung an der Universität fehlte.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Medizin",
+      "Personen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dorothea Christiane Erxleben",
+    "source_url": "https://de.wikipedia.org/wiki/Dorothea_Christiane_Erxleben",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Dorothea Erxleben achieve in 1754 as the first woman in Germany?",
+        "options": [
+          "She climbed the Zugspitze",
+          "She became a mayor",
+          "She founded a newspaper",
+          "She earned a doctorate as a physician"
+        ],
+        "explanation": "In 1754 Dorothea Christiane Erxleben gained her doctorate at the University of Halle and so became the first German woman physician with a doctorate – with special permission. She had already treated patients before; other doctors denounced her as a 'dabbler' because she lacked university training."
+      }
+    }
+  },
+  {
+    "id": "hg24",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche beiden Meere verbindet der Suezkanal, der 1869 eröffnet wurde?",
+    "options": [
+      "Das Mittelmeer und das Rote Meer",
+      "Das Schwarze Meer und das Mittelmeer",
+      "Die Nordsee und die Ostsee",
+      "Den Atlantik und den Pazifik"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Suezkanal in Ägypten verbindet das Mittelmeer mit dem Roten Meer. Seit er 1869 eröffnet wurde – damals 164 Kilometer lang –, sparen sich Schiffe zwischen Nordatlantik und Indischem Ozean den weiten Weg um Afrika herum.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Verkehr"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Suezkanal",
+    "source_url": "https://de.wikipedia.org/wiki/Suezkanal",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two seas does the Suez Canal, opened in 1869, connect?",
+        "options": [
+          "The Mediterranean and the Red Sea",
+          "The Black Sea and the Mediterranean",
+          "The North Sea and the Baltic",
+          "The Atlantic and the Pacific"
+        ],
+        "explanation": "The Suez Canal in Egypt connects the Mediterranean with the Red Sea. Since it opened in 1869 – 164 kilometres long at the time – ships between the North Atlantic and the Indian Ocean have been spared the long way round Africa."
+      }
+    }
+  },
+  {
+    "id": "hg25",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Womit wurde die Familie Thurn und Taxis über Jahrhunderte reich und berühmt?",
+    "options": [
+      "Mit dem Gewürzhandel",
+      "Mit der Post",
+      "Mit dem Salzhandel",
+      "Mit dem Buchdruck"
+    ],
+    "correct_index": 1,
+    "explanation": "Die aus der Lombardei stammende Familie richtete Reiter- und später Fuhrdienste zwischen vielen europäischen Hauptstädten ein. Daraus entwickelte sich ab 1490 ein privates Postunternehmen – Thurn und Taxis gilt als Begründer des europäischen Postwesens. Die Erträge steckte die Familie in Land; bis heute ist sie der größte private Waldbesitzer Deutschlands.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Wirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Thurn und Taxis",
+    "source_url": "https://de.wikipedia.org/wiki/Thurn_und_Taxis",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What made the Thurn und Taxis family rich and famous for centuries?",
+        "options": [
+          "The spice trade",
+          "The post",
+          "The salt trade",
+          "Printing"
+        ],
+        "explanation": "The family, which came from Lombardy, set up courier and later coach services between many European capitals. From 1490 this grew into a private postal company – Thurn und Taxis is considered the founder of the European postal system. The family put its earnings into land; to this day it is the largest private owner of forest in Germany."
+      }
+    }
+  },
+  {
+    "id": "hg26",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die erste Ampel der Welt stand ab 1868 in London vor dem Parlament. Womit leuchtete sie?",
+    "options": [
+      "Mit Kerzen",
+      "Mit Glühbirnen",
+      "Mit Gaslicht",
+      "Mit Leuchtfarbe"
+    ],
+    "correct_index": 2,
+    "explanation": "Die erste Lichtsignalanlage der Welt wurde im Dezember 1868 in London auf dem Parliament Square aufgestellt. Sie wurde mit Gaslicht betrieben – und explodierte nach kurzer Zeit.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Verkehr"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ampel",
+    "source_url": "https://de.wikipedia.org/wiki/Ampel",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The world's first traffic light stood in front of Parliament in London from 1868. What made it light up?",
+        "options": [
+          "Candles",
+          "Light bulbs",
+          "Gas light",
+          "Luminous paint"
+        ],
+        "explanation": "The world's first traffic light was put up in December 1868 on Parliament Square in London. It was lit by gas – and exploded after a short time."
+      }
+    }
+  },
+  {
+    "id": "hg27",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Universität ist die älteste im heutigen Deutschland, an der seit ihrer Gründung ohne Unterbrechung gelehrt wird?",
+    "options": [
+      "Tübingen",
+      "Leipzig",
+      "Köln",
+      "Heidelberg"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Universität Heidelberg wurde 1386 gegründet und ist die älteste Universität mit durchgehendem Lehrbetrieb in Deutschland. Im damaligen Heiligen Römischen Reich nördlich der Alpen waren nur die Universitäten in Prag und Wien älter.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Bildung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ruprecht-Karls-Universität Heidelberg",
+    "source_url": "https://de.wikipedia.org/wiki/Ruprecht-Karls-Universität_Heidelberg",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which university is the oldest in present-day Germany to have taught without interruption since it was founded?",
+        "options": [
+          "Tübingen",
+          "Leipzig",
+          "Cologne",
+          "Heidelberg"
+        ],
+        "explanation": "Heidelberg University was founded in 1386 and is the oldest university in Germany with continuous teaching. In the Holy Roman Empire of the time, north of the Alps, only the universities in Prague and Vienna were older."
+      }
+    }
+  },
+  {
+    "id": "hg28",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die UNESCO zählt 111 Fundstellen prähistorischer Pfahlbauten rund um die Alpen zum Welterbe. In welchem Land liegen die meisten?",
+    "options": [
+      "In der Schweiz",
+      "In Deutschland",
+      "In Italien",
+      "In Österreich"
+    ],
+    "correct_index": 0,
+    "explanation": "56 der 111 Fundstellen liegen in der Schweiz, 19 in Italien, 18 in Deutschland, 11 in Frankreich, 5 in Österreich und 2 in Slowenien. Die Siedlungen stammen aus der Zeit von etwa 5000 bis 500 vor Christus; manche Reste liegen heute unter Wasser, andere an See- und Flussufern oder in Feuchtgebieten.",
+    "difficulty": 3,
+    "tags": [
+      "Geschichte",
+      "Archäologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prähistorische Pfahlbauten um die Alpen",
+    "source_url": "https://de.wikipedia.org/wiki/Prähistorische_Pfahlbauten_um_die_Alpen",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "UNESCO lists 111 sites of prehistoric pile dwellings around the Alps as World Heritage. In which country are most of them?",
+        "options": [
+          "In Switzerland",
+          "In Germany",
+          "In Italy",
+          "In Austria"
+        ],
+        "explanation": "56 of the 111 sites are in Switzerland, 19 in Italy, 18 in Germany, 11 in France, 5 in Austria and 2 in Slovenia. The settlements date from about 5000 to 500 BC; some remains now lie under water, others on lake and river banks or in wetlands."
+      }
+    }
+  },
+  {
+    "id": "cu41",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was soll der Überlieferung nach das Vorbild für die erste russische Matrjoschka von 1890 gewesen sein?",
+    "options": [
+      "Ein deutscher Nussknacker",
+      "Ein chinesisches Teeservice",
+      "Eine Puppe aus Japan",
+      "Eine Spieluhr aus der Schweiz"
+    ],
+    "correct_index": 2,
+    "explanation": "Die ersten Matrjoschkas entwarf 1890 der Maler Sergei Maljutin, geschnitzt hat sie der Kunsthandwerker Wassili Swjosdotschkin. Als Anregung soll eine Fukurokuju-Puppe gedient haben, die von der japanischen Insel Honshū stammte. Gedrechselt werden die Puppen aus Linden- oder Birkenholz.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Spielzeug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Matrjoschka",
+    "source_url": "https://de.wikipedia.org/wiki/Matrjoschka",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to tradition, what is said to have inspired the first Russian matryoshka of 1890?",
+        "options": [
+          "A German nutcracker",
+          "A Chinese tea set",
+          "A doll from Japan",
+          "A Swiss music box"
+        ],
+        "explanation": "The first matryoshkas were designed in 1890 by the painter Sergei Malyutin and carved by the craftsman Vasily Zvyozdochkin. They are said to have been inspired by a Fukurokuju doll from the Japanese island of Honshū. The dolls are turned from lime or birch wood."
+      }
+    }
+  },
+  {
+    "id": "cu42",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Viele kennen den Haka der Māori vom Rugby. Was bedeutet das Wort „Haka“ eigentlich?",
+    "options": [
+      "Gruß an die Ahnen",
+      "Krieg",
+      "Sieg",
+      "Tanz – oder Lied mit Tanz"
+    ],
+    "correct_index": 3,
+    "explanation": "Haka bedeutet nichts anderes als „Tanz“ oder „Lied mit Tanz“ und ist der Oberbegriff für alle Arten von Māori-Tänzen. Viele halten ihn für einen reinen Kriegstanz – das trifft auf viele Haka gar nicht zu. Die neuseeländische Rugby-Nationalmannschaft, die All Blacks, führt vor jedem Länderspiel einen Haka auf.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Neuseeland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haka",
+    "source_url": "https://de.wikipedia.org/wiki/Haka",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many people know the Māori haka from rugby. What does the word 'haka' actually mean?",
+        "options": [
+          "Greeting to the ancestors",
+          "War",
+          "Victory",
+          "Dance – or song with dance"
+        ],
+        "explanation": "Haka means nothing more than 'dance' or 'song with dance' and is the general word for all kinds of Māori dances. Many people think of it as a war dance only – which does not fit many kinds of haka at all. New Zealand's rugby team, the All Blacks, performs a haka before every international match."
+      }
+    }
+  },
+  {
+    "id": "cu43",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was betrachtet und feiert man in Japan beim „Hanami“?",
+    "options": [
+      "Die Kirschblüte",
+      "Den ersten Schnee",
+      "Den Vollmond im Herbst",
+      "Die Laubfärbung der Ahornbäume"
+    ],
+    "correct_index": 0,
+    "explanation": "Hanami heißt wörtlich „Blüten betrachten“. In jedem Frühjahr feiert man in Japan bei Kirschblütenfesten die Schönheit der blühenden Kirschbäume. Je nach Gegend blühen sie von Ende März bis Anfang Mai – und weil die Blüte vor Ort nur etwa zehn Tage dauert, berichten die Medien darüber, wo sie gerade ist.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Japan",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hanami",
+    "source_url": "https://de.wikipedia.org/wiki/Hanami",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do people look at and celebrate at 'hanami' in Japan?",
+        "options": [
+          "The cherry blossom",
+          "The first snow",
+          "The full moon in autumn",
+          "The autumn colours of the maples"
+        ],
+        "explanation": "Hanami literally means 'looking at blossoms'. Every spring Japan celebrates the beauty of the flowering cherry trees at cherry blossom festivals. Depending on the region they bloom from late March to early May – and because the blossom lasts only about ten days in any one place, the media report where it has got to."
+      }
+    }
+  },
+  {
+    "id": "cu44",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wann wird Nouruz gefeiert, das Neujahrsfest vor allem im persischen Kulturraum?",
+    "options": [
+      "Am 1. Januar",
+      "Zum Frühlingsanfang, wenn Tag und Nacht gleich lang sind",
+      "Zur Wintersonnenwende",
+      "Am ersten Vollmond des Jahres"
+    ],
+    "correct_index": 1,
+    "explanation": "Nouruz heißt übersetzt „Neuer Tag“. Das Neujahrs- und Frühlingsfest wird mit dem Frühlingsbeginn zur Tag-und-Nacht-Gleiche gefeiert, vor allem im persischen Kulturraum. Die Tradition hat sich bis heute erhalten und bis nach Ostafrika ausgebreitet.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nouruz",
+    "source_url": "https://de.wikipedia.org/wiki/Nouruz",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When is Nowruz celebrated, the New Year festival above all of the Persian cultural world?",
+        "options": [
+          "On 1 January",
+          "At the start of spring, when day and night are equally long",
+          "At the winter solstice",
+          "At the first full moon of the year"
+        ],
+        "explanation": "Nowruz means 'new day'. The New Year and spring festival is celebrated at the beginning of spring, at the equinox, above all in the Persian cultural world. The tradition has survived to this day and spread as far as East Africa."
+      }
+    }
+  },
+  {
+    "id": "cu45",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was verschenkt man in China zum Mondfest im Herbst an Verwandte, Freunde und Nachbarn?",
+    "options": [
+      "Glückskekse",
+      "Rote Eier",
+      "Mondkuchen",
+      "Papierdrachen"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Mondfest, auch Mittherbstfest genannt, fällt in eine Vollmondnacht im achten Monat des traditionellen chinesischen Kalenders. Dazu gehören die runden, handtellergroßen Mondkuchen. Sie waren ursprünglich eine Opfergabe und werden nie für sich selbst gekauft, sondern verschenkt.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "China",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mondfest",
+    "source_url": "https://de.wikipedia.org/wiki/Mondfest",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do people in China give to relatives, friends and neighbours for the Moon Festival in autumn?",
+        "options": [
+          "Fortune cookies",
+          "Red eggs",
+          "Mooncakes",
+          "Paper kites"
+        ],
+        "explanation": "The Moon Festival, also called the Mid-Autumn Festival, falls on a full-moon night in the eighth month of the traditional Chinese calendar. It goes with the round, palm-sized mooncakes. They were originally an offering and are never bought for oneself, but given as presents."
+      }
+    }
+  },
+  {
+    "id": "cu46",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Warum wird in Schweden das Lichterfest der heiligen Lucia gerade am 13. Dezember gefeiert?",
+    "options": [
+      "Es ist der letzte Schultag vor Weihnachten",
+      "An diesem Tag wurde Lucia in Stockholm geboren",
+      "An diesem Tag beginnt in ganz Schweden die Polarnacht",
+      "Der Tag war dort nach dem alten Kalender lange der kürzeste des Jahres"
+    ],
+    "correct_index": 3,
+    "explanation": "Der 13. Dezember ist der Gedenktag der heiligen Lucia. In Schweden war er vor der Einführung des gregorianischen Kalenders 1752 gut ein Jahrhundert lang der kürzeste Tag des Jahres – die Wintersonnenwende. Deshalb steht das Lichterfest in der Tradition älterer Sonnenwendfeiern.",
+    "difficulty": 3,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Luciafest",
+    "source_url": "https://de.wikipedia.org/wiki/Luciafest",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the Swedish festival of light of Saint Lucy celebrated on 13 December of all days?",
+        "options": [
+          "It is the last school day before Christmas",
+          "Lucy was born in Stockholm on that day",
+          "The polar night begins all over Sweden on that day",
+          "Under the old calendar it was long the shortest day of the year there"
+        ],
+        "explanation": "13 December is the feast day of Saint Lucy. In Sweden, before the Gregorian calendar was introduced in 1752, it was for a good century the shortest day of the year – the winter solstice. That is why the festival of light follows older solstice celebrations."
+      }
+    }
+  },
+  {
+    "id": "cu47",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Land brachten Einwanderer die Halloween-Bräuche in die USA?",
+    "options": [
+      "Aus Irland",
+      "Aus Mexiko",
+      "Aus Deutschland",
+      "Aus Italien"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Brauchtum war ursprünglich vor allem in Irland verbreitet. Irische Einwanderer pflegten ihre Bräuche in den USA in Erinnerung an die Heimat und bauten sie aus – heute gehören Verkleidungen, geschnitzte Kürbisse und das Sammeln von Süßigkeiten dazu. Im deutschsprachigen Raum vermischte sich Halloween später mit heimischen Bräuchen wie dem Rübengeistern.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Halloween",
+    "source_url": "https://de.wikipedia.org/wiki/Halloween",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From which country did immigrants bring the Halloween customs to the USA?",
+        "options": [
+          "From Ireland",
+          "From Mexico",
+          "From Germany",
+          "From Italy"
+        ],
+        "explanation": "The custom was originally widespread above all in Ireland. Irish immigrants kept up their customs in the USA in memory of home and expanded them – today they include costumes, carved pumpkins and collecting sweets. In German-speaking countries Halloween later mixed with local customs such as carving turnip lanterns."
+      }
+    }
+  },
+  {
+    "id": "cu48",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Ein Weihnachtsbaum im Straßburger Münster ist urkundlich belegt – aus welchem Jahr stammt dieser Beleg?",
+    "options": [
+      "1439",
+      "1539",
+      "1739",
+      "1839"
+    ],
+    "correct_index": 1,
+    "explanation": "Von 1539 gibt es einen urkundlichen Beleg, dass im Straßburger Münster ein Weihnachtsbaum aufgestellt wurde. Schon 1492 kaufte man in Straßburg Tannen für die Kirchengemeinden der Stadt.",
+    "difficulty": 3,
+    "tags": [
+      "Kultur",
+      "Weihnachten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weihnachtsbaum",
+    "source_url": "https://de.wikipedia.org/wiki/Weihnachtsbaum",
+    "created_at": "2026-10-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A Christmas tree in Strasbourg Cathedral is recorded in a document – from which year does this record date?",
+        "options": [
+          "1439",
+          "1539",
+          "1739",
+          "1839"
+        ],
+        "explanation": "There is a documentary record from 1539 that a Christmas tree was put up in Strasbourg Cathedral. As early as 1492 fir trees were bought in Strasbourg for the town's parishes."
+      }
+    }
+  },
+  {
+    "id": "cu49",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie heißt der französische Diener, mit dem Phileas Fogg in Jules Vernes Roman in 80 Tagen um die Erde reist?",
+    "options": [
+      "Planchet",
+      "Sancho Panza",
+      "Passepartout",
+      "Freitag"
+    ],
+    "correct_index": 2,
+    "explanation": "Der überpünktliche englische Gentleman Phileas Fogg wettet mit anderen Mitgliedern des Reform Club in London, dass er die Erde in 80 Tagen umrunden kann. Noch am selben Abend bricht er mit seinem gerade erst eingestellten französischen Diener Jean Passepartout auf. Sancho Panza begleitet dagegen Don Quijote, Freitag ist der Gefährte von Robinson Crusoe.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Reise um die Erde in 80 Tagen",
+    "source_url": "https://de.wikipedia.org/wiki/Reise_um_die_Erde_in_80_Tagen",
+    "created_at": "2026-10-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the name of the French servant with whom Phileas Fogg travels around the world in 80 days in Jules Verne's novel?",
+        "options": [
+          "Planchet",
+          "Sancho Panza",
+          "Passepartout",
+          "Friday"
+        ],
+        "explanation": "The extremely punctual English gentleman Phileas Fogg bets with other members of the Reform Club in London that he can go round the world in 80 days. That very evening he sets off with Jean Passepartout, the French servant he has only just hired. Sancho Panza, by contrast, travels with Don Quixote, and Friday is Robinson Crusoe's companion."
+      }
+    }
+  },
+  {
+    "id": "cu50",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was wird Emil Tischbein in Erich Kästners „Emil und die Detektive“ auf der Zugfahrt nach Berlin gestohlen?",
+    "options": [
+      "Sein Koffer mit Geschenken",
+      "Seine Fahrkarte",
+      "140 Mark für seine Großmutter",
+      "Ein Brief seiner Mutter"
+    ],
+    "correct_index": 2,
+    "explanation": "Der zwölfjährige Emil fährt aus seiner Kleinstadt Neustadt zum ersten Mal nach Berlin. Seine Mutter hat ihm 140 Mark für die Großmutter mitgegeben – im Zugabteil stiehlt sie ihm ein Mitreisender, der sich Grundeis nennt. Weil Emil sich nicht zur Polizei traut, verfolgt er den Dieb vom Bahnhof Zoo an auf eigene Faust.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Kinderbücher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Emil und die Detektive",
+    "source_url": "https://de.wikipedia.org/wiki/Emil_und_die_Detektive",
+    "created_at": "2026-10-23T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is stolen from Emil Tischbein on the train to Berlin in Erich Kästner's 'Emil and the Detectives'?",
+        "options": [
+          "His suitcase of presents",
+          "His ticket",
+          "140 marks for his grandmother",
+          "A letter from his mother"
+        ],
+        "explanation": "Twelve-year-old Emil travels from his small home town of Neustadt to Berlin for the first time. His mother has given him 140 marks for his grandmother – in the compartment a fellow passenger who calls himself Grundeis steals it. Because Emil does not dare to go to the police, he follows the thief from Zoo station on his own."
+      }
+    }
+  },
+  {
+    "id": "cu51",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was muss Wilhelm Tell in Friedrich Schillers Drama mit seiner Armbrust treffen?",
+    "options": [
+      "Eine Glocke im Kirchturm",
+      "Einen Apfel auf dem Kopf seines Sohnes",
+      "Einen Hut auf einer Stange",
+      "Eine Zielscheibe auf dem Marktplatz"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Mittelpunkt von Schillers „Wilhelm Tell“ steht die Sage vom Apfelschuss: Tell wird gezwungen, vom Kopf seines eigenen Sohnes einen Apfel zu schießen. Schiller schloss das Schauspiel 1804 ab, im selben Jahr wurde es am Hoftheater in Weimar uraufgeführt.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Literatur",
+      "Theater"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wilhelm Tell (Schiller)",
+    "source_url": "https://de.wikipedia.org/wiki/Wilhelm_Tell_(Schiller)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does William Tell have to hit with his crossbow in Friedrich Schiller's play?",
+        "options": [
+          "A bell in the church tower",
+          "An apple on his son's head",
+          "A hat on a pole",
+          "A target in the market square"
+        ],
+        "explanation": "At the heart of Schiller's 'William Tell' is the legend of the apple shot: Tell is forced to shoot an apple off his own son's head. Schiller finished the play in 1804, and it was first performed at the court theatre in Weimar the same year."
+      }
+    }
+  },
+  {
+    "id": "cu52",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist typisch für die italienische Commedia dell’arte?",
+    "options": [
+      "Es treten nur Puppen auf",
+      "Alle Texte werden gesungen",
+      "Schauspieler improvisieren mit festen Masken-Typen",
+      "Gespielt wird ohne Worte, nur mit Tanz"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Commedia dell’arte heißt auf Deutsch auch Stegreiftheater: Die Darsteller improvisierten und stellten feste Typen mit Masken dar – keine einzelnen Menschen mit eigener Entwicklung. Wandertruppen verbreiteten sie über ganz Europa. Eine ihrer Figuren ist Arlecchino, auf Deutsch Harlekin.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Theater"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Commedia dell’arte",
+    "source_url": "https://de.wikipedia.org/wiki/Commedia_dell’arte",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is typical of the Italian commedia dell'arte?",
+        "options": [
+          "Only puppets perform",
+          "All the lines are sung",
+          "Actors improvise as fixed masked characters",
+          "It is played without words, only with dance"
+        ],
+        "explanation": "The commedia dell'arte is also called improvised comedy: the actors improvised and played fixed types with masks – not individual people who develop. Travelling troupes spread it all over Europe. One of its characters is Arlecchino, known in English as Harlequin."
+      }
+    }
+  },
+  {
+    "id": "cu53",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welcher Sprache stammt das Wort „Sauna“?",
+    "options": [
+      "Aus dem Türkischen",
+      "Aus dem Russischen",
+      "Aus dem Schwedischen",
+      "Aus dem Finnischen"
+    ],
+    "correct_index": 3,
+    "explanation": "Sauna kommt aus dem Finnischen; auf Deutsch sagte man auch Schwitzstube oder finnisches Bad. Der Raum wird mit einem Saunaofen auf 80 bis 105 Grad Celsius erhitzt. Duftöle im Aufguss sind im deutschsprachigen Raum weit verbreitet – in Finnland dagegen selten und teils sogar verpönt.",
+    "difficulty": 1,
+    "tags": [
+      "Kultur",
+      "Sprache"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sauna",
+    "source_url": "https://de.wikipedia.org/wiki/Sauna",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word 'sauna' come from?",
+        "options": [
+          "Turkish",
+          "Russian",
+          "Swedish",
+          "Finnish"
+        ],
+        "explanation": "Sauna comes from Finnish; in German it was also called a sweating room or Finnish bath. The room is heated by a sauna stove to 80 to 105 degrees Celsius. Scented oils in the water poured on the stones are common in German-speaking countries – in Finland, by contrast, they are rare and sometimes frowned upon."
+      }
+    }
+  },
+  {
+    "id": "cu54",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Land stammt das Brettspiel Go ursprünglich?",
+    "options": [
+      "Aus China",
+      "Aus Japan",
+      "Aus Korea",
+      "Aus Indien"
+    ],
+    "correct_index": 0,
+    "explanation": "Go stammt aus dem antiken China und hat sich später auch in Japan und Korea entfaltet. Auf dem Brett kreuzen sich 19 waagerechte und 19 senkrechte Linien zu 361 Schnittpunkten; die Spieler setzen abwechselnd je einen Stein auf diese Punkte.",
+    "difficulty": 2,
+    "tags": [
+      "Kultur",
+      "Spiele"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Go (Spiel)",
+    "source_url": "https://de.wikipedia.org/wiki/Go_(Spiel)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country does the board game Go originally come from?",
+        "options": [
+          "China",
+          "Japan",
+          "Korea",
+          "India"
+        ],
+        "explanation": "Go comes from ancient China and later developed in Japan and Korea too. On the board 19 horizontal and 19 vertical lines cross at 361 points; the players take turns placing one stone each on these points."
+      }
+    }
+  },
+  {
+    "id": "o16",
+    "kind": "order",
+    "category_id": "history",
+    "question": "Ordne die Bauwerke danach, wann mit ihrem Bau begonnen wurde – das älteste zuerst.",
+    "options": [
+      "Kolosseum",
+      "Parthenon",
+      "Stonehenge",
+      "Cheops-Pyramide"
+    ],
+    "correct_index": 0,
+    "answer": {
+      "order": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    "explanation": "Stonehenge (ab etwa 3000 v. Chr., in mehreren Bauphasen), Cheops-Pyramide (Grabmal eines Pharaos, der etwa 2620 bis 2580 v. Chr. regierte), Parthenon (5. Jahrhundert v. Chr.), Kolosseum (zwischen 72 und 80 n. Chr.). Mit Stonehenge wurde also schon begonnen, bevor die große Pyramide stand.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stonehenge",
+    "source_url": "https://de.wikipedia.org/wiki/Stonehenge",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Put the buildings in order of when building began – the oldest first.",
+        "options": [
+          "Colosseum",
+          "Parthenon",
+          "Stonehenge",
+          "Great Pyramid of Giza"
+        ],
+        "explanation": "Stonehenge (from about 3000 BC, in several phases), Great Pyramid of Giza (tomb of a pharaoh who reigned about 2620 to 2580 BC), Parthenon (5th century BC), Colosseum (between AD 72 and 80). So work on Stonehenge began before the Great Pyramid stood."
+      }
+    }
   }
 ]
