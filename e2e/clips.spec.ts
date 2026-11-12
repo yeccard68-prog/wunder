@@ -793,7 +793,18 @@ test("a nearly finished sudoku can be solved by typing the missing numbers", asy
   await expect(sudoku.getByTestId("puzzle-result")).toContainText("Gelöst");
 });
 
+/**
+ * Finishes a grid puzzle with hints alone. The hint button goes away the moment the puzzle is solved, so a click that
+ * comes a moment too late must not wait for it (on a slow machine the result shows up only after the next check).
+ */
+async function finishWithHints(puzzle: Locator) {
+  const result = puzzle.getByTestId("puzzle-result");
+  for (let k = 0; k < 150 && !(await result.count()); k++) await puzzle.getByTestId("puzzle-hint").click({ timeout: 2_000 }).catch(() => {});
+  await expect(result).toContainText("Gelöst");
+}
+
 test("binary puzzle, nonogram and skyscrapers: tapping fills squares, hints finish the puzzle", async ({ page }) => {
+  test.slow(); // three puzzles, many taps
   await signIn(page);
   await page.goto("/riddles/");
   await expect(page.getByTestId("puzzle").first()).toBeVisible();
@@ -824,10 +835,7 @@ test("binary puzzle, nonogram and skyscrapers: tapping fills squares, hints fini
   await sky.getByTestId("puzzle-digit").first().click();
   await expect(sky.locator('[data-testid="puzzle-cell"][data-open]').first()).toHaveText("1");
   // every one of them can be finished with hints alone
-  for (const puzzle of [binary, nonogram, sky]) {
-    for (let k = 0; k < 120 && !(await puzzle.getByTestId("puzzle-result").count()); k++) await puzzle.getByTestId("puzzle-hint").click();
-    await expect(puzzle.getByTestId("puzzle-result")).toContainText("Gelöst");
-  }
+  for (const puzzle of [binary, nonogram, sky]) await finishWithHints(puzzle);
 });
 
 test("exercises come in many kinds, none twice running – and a pattern puzzle shows its drawings", async ({ page }) => {
