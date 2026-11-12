@@ -3,23 +3,30 @@
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { Check, Delete, Eye, Grid3x3, Lightbulb } from "lucide-react";
 import { today } from "@/lib/gamification";
+import { binaryConflicts, runs, skyscraperConflicts, type Binary, type Nonogram, type Skyscrapers } from "@/lib/grids";
 import { futoshikiConflicts, puzzleState, sudokuConflicts, wordCells, type Crossword, type Futoshiki, type Puzzle, type Pyramid, type Sudoku } from "@/lib/puzzles";
 import { practised } from "@/lib/skill";
 import { useStore, useT } from "@/lib/store";
 
-const NAMES = { sudoku: "Sudoku", crossword: "Kreuzworträtsel", pyramid: "Zahlenpyramide", futoshiki: "Futoshiki" } as const;
-const HOW = {
+export const PUZZLE_NAMES: Record<Puzzle["kind"], string> = { sudoku: "Sudoku", crossword: "Kreuzworträtsel", pyramid: "Zahlenpyramide", futoshiki: "Futoshiki", binary: "Binärrätsel", nonogram: "Nonogramm", skyscrapers: "Hochhäuser" };
+const NAMES = PUZZLE_NAMES;
+const HOW: Record<Puzzle["kind"], string> = {
   sudoku: "Jede Zahl darf in jeder Zeile, jeder Spalte und jedem Kasten nur einmal vorkommen.",
   crossword: "Tippe auf ein Feld und schreib das Lösungswort. Die Fragen kennst du schon aus deinem Feed.",
   pyramid: "Jeder Stein ist die Summe der beiden Steine darunter.",
   futoshiki: "Jede Zahl steht in jeder Zeile und Spalte genau einmal. Die Zeichen < und > zwischen zwei Feldern müssen stimmen.",
-} as const;
+  binary: "In jeder Zeile und jeder Spalte stehen gleich viele Nullen und Einsen – und nie drei gleiche direkt neben- oder untereinander. Tippe ein Feld an: 0, 1, leer.",
+  nonogram: "Die Zahlen sagen, wie lang die Blöcke aus gefüllten Feldern in jeder Zeile und Spalte sind – in dieser Reihenfolge, mit mindestens einem leeren Feld dazwischen.",
+  skyscrapers: "In jeder Zeile und Spalte steht jede Höhe genau einmal. Die Zahlen am Rand sagen, wie viele Häuser man von dort aus sieht – höhere verdecken die niedrigeren dahinter.",
+};
 
 /** Every puzzle as flat cells: the solution per cell (null = no cell) and which cells are written in from the start. */
-function cellsOf(p: Puzzle) {
+function cellsOf(p: Puzzle): { solution: (string | null)[]; given: boolean[] } {
   if (p.kind === "sudoku") return { solution: p.solution.map(String), given: p.givens.map((v) => v > 0) };
   if (p.kind === "crossword") return { solution: p.solution, given: p.givens };
-  if (p.kind === "futoshiki") return { solution: p.solution.map(String), given: p.givens.map((v) => v > 0) };
+  if (p.kind === "futoshiki" || p.kind === "skyscrapers") return { solution: p.solution.map(String), given: p.givens.map((v) => v > 0) };
+  if (p.kind === "binary") return { solution: p.solution.map(String), given: p.givens.map((v) => v >= 0) };
+  if (p.kind === "nonogram") return { solution: p.solution.map((v) => (v ? "1" : "")), given: p.givens }; // an empty square is solved by leaving it empty
   return { solution: p.rows.flat().map(String), given: p.shown.flat() };
 }
 
@@ -39,7 +46,8 @@ function useFinish() {
 }
 
 /**
- * A grid puzzle as a card: sudoku, mini crossword or number pyramid. A hint fills in one cell; "Lösung zeigen"
+ * A grid puzzle as a card: sudoku, mini crossword, number pyramid, futoshiki, binary puzzle, nonogram or skyscrapers.
+ * A hint fills in one cell; "Lösung zeigen"
  * gives up and shows everything. `onDone` runs once the puzzle is solved or given up.
  */
 export default function PuzzleCard({ puzzle, daily = false, onDone }: { puzzle: Puzzle; daily?: boolean; onDone?: (solved: boolean) => void }) {
@@ -84,7 +92,8 @@ export default function PuzzleCard({ puzzle, daily = false, onDone }: { puzzle: 
         </p>
         <p className="mt-1 text-sm text-muted">{t(HOW[puzzle.kind])}</p>
       </div>
-      {puzzle.kind === "sudoku" ? <SudokuBoard p={puzzle} {...props} /> : puzzle.kind === "crossword" ? <CrosswordBoard p={puzzle} {...props} /> : puzzle.kind === "futoshiki" ? <FutoshikiBoard p={puzzle} {...props} /> : <PyramidBoard p={puzzle} {...props} />}
+      {puzzle.kind === "sudoku" ? <SudokuBoard p={puzzle} {...props} /> : puzzle.kind === "crossword" ? <CrosswordBoard p={puzzle} {...props} /> : puzzle.kind === "futoshiki" ? <FutoshikiBoard p={puzzle} {...props} />
+        : puzzle.kind === "binary" ? <BinaryBoard p={puzzle} {...props} /> : puzzle.kind === "nonogram" ? <NonogramBoard p={puzzle} {...props} hinted={hinted} /> : puzzle.kind === "skyscrapers" ? <SkyscraperBoard p={puzzle} {...props} /> : <PyramidBoard p={puzzle} {...props} />}
       {result ? (
         <p className={`flex items-center gap-2 rounded-2xl p-3.5 text-sm font-semibold ${result === "solved" ? "bg-good/10" : "bg-raised"}`} role="status" data-testid="puzzle-result">
           {result === "solved" ? <><Check size={16} className="shrink-0 text-good" /> {hinted.length ? t("Gelöst! Genutzte Tipps: {n}", { n: hinted.length }) : t("Gelöst – ganz ohne Tipp!")}</> : t("Hier ist die Lösung.")}
@@ -181,6 +190,144 @@ function FutoshikiBoard({ p, values, set, open, done }: BoardProps & { p: Futosh
   return (
     <div className="space-y-3">
       <div role="grid" aria-label={t("Futoshiki")} tabIndex={0} onKeyDown={key} className="mx-auto grid w-full max-w-[340px] outline-none" style={{ gridTemplateColumns: `repeat(${n - 1}, 1fr ${gap}) 1fr`, gridTemplateRows: `repeat(${n - 1}, auto ${gap}) auto` }}>
+        {cells}
+      </div>
+      {!done && (
+        <div className="mx-auto flex max-w-[360px] flex-wrap justify-center gap-1.5">
+          {Array.from({ length: n }, (_, k) => String(k + 1)).map((d) => (
+            <button key={d} onClick={() => set(sel, d)} className={`press ${cellText} h-11 w-11 rounded-xl bg-raised text-lg`} data-testid="puzzle-digit">{d}</button>
+          ))}
+          <button onClick={() => set(sel, "")} aria-label={t("Löschen")} className="press flex h-11 w-11 items-center justify-center rounded-xl bg-raised"><Delete size={18} /></button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** Binary puzzle: a tap on an open square goes through 0, 1 and empty; the keys 0 and 1 work too. */
+function BinaryBoard({ p, values, set, open, done }: BoardProps & { p: Binary }) {
+  const t = useT();
+  const n = p.size;
+  const [sel, setSel] = useState(() => open.findIndex(Boolean));
+  const bad = binaryConflicts(p, values.map((v) => (v === "" ? -1 : Number(v))));
+  const tap = (i: number) => {
+    setSel(i);
+    set(i, values[i] === "" ? "0" : values[i] === "0" ? "1" : "");
+  };
+  const key = (e: KeyboardEvent) => {
+    const d = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -n, ArrowDown: n }[e.key];
+    if (d !== undefined) {
+      e.preventDefault();
+      setSel((s) => Math.min(n * n - 1, Math.max(0, s + d)));
+    } else if (e.key === "0" || e.key === "1") set(sel, e.key);
+    else if (e.key === "Backspace" || e.key === "Delete") set(sel, "");
+  };
+  return (
+    <div role="grid" aria-label={t("Binärrätsel")} tabIndex={0} onKeyDown={key} className="mx-auto grid w-full max-w-[340px] gap-1 outline-none" style={{ gridTemplateColumns: `repeat(${n}, 1fr)` }}>
+      {values.map((v, i) => (
+        <button key={i} role="gridcell" aria-label={t("Zeile {r}, Spalte {c}", { r: Math.floor(i / n) + 1, c: (i % n) + 1 }) + (v ? `: ${v}` : "")} onClick={() => tap(i)} data-testid="puzzle-cell" data-open={open[i] || undefined}
+          className={`${cellText} flex aspect-square items-center justify-center rounded-lg border-2 text-lg ${sel === i && !done && open[i] ? "border-accent" : "border-line"} ${v === "1" ? "bg-raised" : "bg-surface"} ${open[i] ? (bad.has(i) ? "text-bad" : "text-accent") : ""}`}>
+          {v}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/**
+ * Nonogram: the numbers above and to the left, the squares to fill in between. A tap fills or empties a square; with
+ * "×" switched on a tap marks a square as surely empty (a note for oneself – it does not count). A line whose blocks
+ * match its numbers greys out its numbers.
+ */
+function NonogramBoard({ p, values, set, open, done, hinted }: BoardProps & { p: Nonogram; hinted: number[] }) {
+  const t = useT();
+  const n = p.size;
+  const [marking, setMarking] = useState(false);
+  const [marks, setMarks] = useState<number[]>([]);
+  const tap = (i: number) => {
+    if (!open[i] || done) return;
+    if (marking) { if (!values[i]) setMarks((m) => (m.includes(i) ? m.filter((x) => x !== i) : [...m, i])); return; }
+    setMarks((m) => m.filter((x) => x !== i));
+    set(i, values[i] ? "" : "1");
+  };
+  const line = (cells: number[]) => runs(cells.map((i) => (values[i] ? 1 : 0)));
+  const same = (a: number[], b: number[]) => a.length === b.length && a.every((v, k) => v === b[k]);
+  const rowDone = (y: number) => same(line(Array.from({ length: n }, (_, x) => y * n + x)), p.rows[y]);
+  const colDone = (x: number) => same(line(Array.from({ length: n }, (_, y) => y * n + x)), p.cols[x]);
+  const small = n > 8 ? "text-[11px]" : "text-[13px]";
+  return (
+    <div className="space-y-3">
+      <div role="grid" aria-label={t("Nonogramm")} className="mx-auto grid w-full max-w-[360px] gap-[2px]" style={{ gridTemplateColumns: `auto repeat(${n}, 1fr)` }}>
+        <span />
+        {p.cols.map((c, x) => (
+          <span key={`c${x}`} className={`flex flex-col items-center justify-end pb-0.5 font-semibold leading-tight tabular-nums ${small} ${colDone(x) ? "text-muted/50" : "text-ink"}`} data-testid="nonogram-col">
+            {c.map((v, k) => <span key={k}>{v}</span>)}
+          </span>
+        ))}
+        {Array.from({ length: n }, (_, y) => [
+          <span key={`r${y}`} className={`flex items-center justify-end gap-1 pr-1.5 font-semibold tabular-nums ${small} ${rowDone(y) ? "text-muted/50" : "text-ink"}`} data-testid="nonogram-row">
+            {p.rows[y].map((v, k) => <span key={k}>{v}</span>)}
+          </span>,
+          ...Array.from({ length: n }, (_, x) => {
+            const i = y * n + x, filled = !!values[i];
+            // squares that are known to stay empty (written in from the start, shown by a hint or at the end) carry a small cross
+            const cross = !filled && (!open[i] ? !p.solution[i] && (p.givens[i] || hinted.includes(i) || done) : marks.includes(i));
+            return (
+              <button key={i} role="gridcell" aria-label={t("Zeile {r}, Spalte {c}", { r: y + 1, c: x + 1 }) + `: ${filled ? t("gefüllt") : t("leer")}`} onClick={() => tap(i)} data-testid="puzzle-cell" data-open={open[i] || undefined} data-filled={filled || undefined}
+                className={`flex aspect-square items-center justify-center rounded-[4px] border text-xs font-bold ${filled ? (open[i] ? "border-accent bg-accent" : "border-ink bg-ink") : "border-line bg-surface text-muted"} ${n === 10 && x === 4 ? "mr-[3px]" : ""} ${n === 10 && y === 4 ? "mb-[3px]" : ""}`}>
+                {cross ? "×" : ""}
+              </button>
+            );
+          }),
+        ])}
+      </div>
+      {!done && (
+        <div className="flex justify-center gap-2">
+          <button onClick={() => setMarking(false)} aria-pressed={!marking} className={`press rounded-full px-4 py-2 text-sm font-semibold ${!marking ? "bg-ink text-bg" : "bg-raised"}`} data-testid="nonogram-fill">■ {t("Füllen")}</button>
+          <button onClick={() => setMarking(true)} aria-pressed={marking} className={`press rounded-full px-4 py-2 text-sm font-semibold ${marking ? "bg-ink text-bg" : "bg-raised"}`} data-testid="nonogram-mark">× {t("Leer merken")}</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** Skyscrapers: the heights in a grid, the numbers one sees from each side round the edge; numbers as in the sudoku. */
+function SkyscraperBoard({ p, values, set, open, done }: BoardProps & { p: Skyscrapers }) {
+  const t = useT();
+  const n = p.size;
+  const [sel, setSel] = useState(() => open.findIndex(Boolean));
+  const { bad, clues } = skyscraperConflicts(p, values.map(Number));
+  const key = (e: KeyboardEvent) => {
+    const d = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -n, ArrowDown: n }[e.key];
+    if (d !== undefined) {
+      e.preventDefault();
+      setSel((s) => Math.min(n * n - 1, Math.max(0, s + d)));
+    } else if (/^[1-9]$/.test(e.key) && +e.key <= n) set(sel, e.key);
+    else if (e.key === "Backspace" || e.key === "Delete") set(sel, "");
+  };
+  const edge = (side: "top" | "bottom" | "left" | "right", k: number) => (
+    <span key={`${side}${k}`} aria-label={p[side][k] ? t("Von hier sieht man {n}", { n: p[side][k] }) : undefined} className={`flex items-center justify-center text-sm font-bold tabular-nums ${clues.has(`${side}-${k}`) ? "text-bad" : "text-muted"}`} data-testid="skyscraper-clue">
+      {p[side][k] || ""}
+    </span>
+  );
+  const cells: ReactNode[] = [<span key="tl" />, ...Array.from({ length: n }, (_, x) => edge("top", x)), <span key="tr" />];
+  for (let y = 0; y < n; y++) {
+    cells.push(edge("left", y));
+    for (let x = 0; x < n; x++) {
+      const i = y * n + x, v = values[i];
+      cells.push(
+        <button key={`c${i}`} role="gridcell" aria-label={t("Zeile {r}, Spalte {c}", { r: y + 1, c: x + 1 }) + (v ? `: ${v}` : "")} onClick={() => setSel(i)} data-testid="puzzle-cell" data-open={open[i] || undefined}
+          className={`${cellText} flex aspect-square items-center justify-center rounded-lg border-2 text-lg ${sel === i && !done ? "border-accent bg-accent/15" : "border-line bg-surface"} ${open[i] ? (bad.has(i) ? "text-bad" : "text-accent") : ""}`}>
+          {v}
+        </button>,
+      );
+    }
+    cells.push(edge("right", y));
+  }
+  cells.push(<span key="bl" />, ...Array.from({ length: n }, (_, x) => edge("bottom", x)), <span key="br" />);
+  return (
+    <div className="space-y-3">
+      <div role="grid" aria-label={t("Hochhäuser")} tabIndex={0} onKeyDown={key} className="mx-auto grid w-full max-w-[340px] gap-1 outline-none" style={{ gridTemplateColumns: `1.6rem repeat(${n}, 1fr) 1.6rem`, gridTemplateRows: `1.6rem repeat(${n}, auto) 1.6rem` }}>
         {cells}
       </div>
       {!done && (

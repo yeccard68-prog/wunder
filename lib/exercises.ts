@@ -10,8 +10,16 @@ import { START, type Step } from "./skill";
 import MAP_COUNTRIES from "./map-countries.json";
 import { LOGIC } from "./logic";
 import { REASONING } from "./reasoning";
+import { BRAIN } from "./brain";
+import { TEASERS } from "./teasers";
+import { MATRIX, type Figure } from "./matrix";
 
-export type ExerciseKind = "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock" | "map" | "sufficiency" | "word" | "numbers" | "knights" | "syllogism" | "order";
+export type ExerciseKind =
+  | "arithmetic" | "percent" | "fraction" | "units" | "sequence" | "weekday" | "clock" | "map"
+  | "sufficiency" | "word" | "numbers" | "knights" | "syllogism" | "order"
+  | "code" | "zebra" | "conditional" | "scales" | "family" // lib/brain.ts
+  | "jugs" | "cube" | "nim" | "directions" | "letters" | "oddone" | "crypt" // lib/teasers.ts
+  | "matrix"; // lib/matrix.ts
 export interface Exercise {
   id: string;
   kind: ExerciseKind;
@@ -21,6 +29,7 @@ export interface Exercise {
   correct: number;
   explanation: string;
   countries?: string[]; // map quiz: the country shown on the map (ISO code)
+  figure?: Figure; // pattern puzzle: the grid of drawings and one drawing per option (lib/matrix.ts)
 }
 
 type Level = 0 | 1 | 2; // 0 = 6–9 years, 1 = 10–12, 2 = 13+ (steps 1, 2, 3)
@@ -29,10 +38,14 @@ export const levelOf = (age: AgeBand | null): Level => (age === "6-9" ? 0 : age 
 export const capOf = (age: AgeBand | null): Step => (age === "6-9" ? 1 : age === "10-12" ? 2 : 5);
 const lv = (d: Step): Level => (d <= 1 ? 0 : d === 2 ? 1 : 2);
 export const KINDS: Record<Level, ExerciseKind[]> = {
-  0: ["arithmetic", "units", "sequence", "weekday", "clock", "map"],
-  1: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map"],
-  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "map", "sufficiency", "word", "word", "numbers", "knights", "syllogism", "order"], // tricky ones (lib/reasoning.ts, lib/logic.ts) for adults only
+  0: ["arithmetic", "units", "sequence", "weekday", "clock", "map", "letters", "oddone", "matrix"],
+  1: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "letters", "oddone", "matrix", "scales", "directions", "cube"],
+  // the tricky ones (lib/reasoning.ts, lib/logic.ts, lib/brain.ts, lib/teasers.ts) for adults only
+  2: ["arithmetic", "percent", "fraction", "units", "sequence", "weekday", "clock", "map", "sufficiency", "word", "numbers", "knights", "syllogism", "order",
+    "code", "zebra", "conditional", "scales", "family", "jugs", "cube", "nim", "directions", "letters", "oddone", "crypt", "matrix"],
 };
+/** How many options a kind shows (most: four). */
+export const optionCount = (kind: ExerciseKind) => (kind === "sufficiency" || kind === "oddone" ? 5 : 4);
 
 export const fmt = (n: number, locale: string) => n.toLocaleString(locale === "de" ? "de-DE" : "en-GB", { maximumFractionDigits: 3 });
 /** Four different options: the answer and three near misses, at a position drawn from the seed. */
@@ -278,20 +291,31 @@ const map: Make = (r, _d, de, locale) => {
   return { question: de ? "Welches Land ist auf der Karte markiert?" : "Which country is marked on the map?", options: list, correct: at, explanation: de ? `Markiert ist ${name(iso)}.` : `The marked country is ${name(iso)}.`, countries: [iso] };
 };
 
-const MAKERS: Record<ExerciseKind, Make> = { arithmetic, percent, fraction, units, sequence, weekday, clock, map, ...REASONING, ...LOGIC };
+// put together on first use: the other files import helpers from this one, so their makers may not exist yet when this file loads
+let makers: Record<ExerciseKind, Make> | null = null;
+const makerOf = (kind: ExerciseKind) => (makers ??= { arithmetic, percent, fraction, units, sequence, weekday, clock, map, ...REASONING, ...LOGIC, ...BRAIN, ...TEASERS, ...MATRIX })[kind];
 
 /** One exercise. `step` is the learner's level for this kind (lib/skill.ts); the age band caps it. */
 export function makeExercise(seed: string, kind: ExerciseKind, age: AgeBand | null, locale: string, step: Step = START as Step): Exercise {
   const r = rng(seed);
   const d = Math.min(step, capOf(age)) as Step;
-  return { id: `ex-${kind}-${seed}`, kind, step: d, ...MAKERS[kind](r, d, locale === "de", locale) };
+  return { id: `ex-${kind}-${seed}`, kind, step: d, ...makerOf(kind)(r, d, locale === "de", locale) };
 }
-/** A set of exercises for one visit: the kinds take turns at random, each at the learner's step for that kind. */
+/**
+ * A set of exercises for one visit, each at the learner's step for its kind. The kinds are dealt like a pack of cards:
+ * every kind once in a random order before any comes again, and never the same kind twice running.
+ */
 export function exercisesFor(age: AgeBand | null, locale: string, count: number, seed: string, stepFor: (kind: ExerciseKind) => Step = () => START as Step): Exercise[] {
   const r = rng(`ex-${seed}`);
   const kinds = KINDS[levelOf(age)];
+  let pack: ExerciseKind[] = [], last: ExerciseKind | null = null;
   return Array.from({ length: count }, (_, i) => {
-    const kind = kinds[Math.floor(r() * kinds.length)];
+    if (!pack.length) {
+      pack = [...kinds];
+      for (let k = pack.length - 1; k > 0; k--) { const j = Math.floor(r() * (k + 1)); [pack[k], pack[j]] = [pack[j], pack[k]]; }
+      if (pack[pack.length - 1] === last && pack.length > 1) [pack[0], pack[pack.length - 1]] = [pack[pack.length - 1], pack[0]];
+    }
+    const kind = (last = pack.pop()!);
     return makeExercise(`${seed}-${i}`, kind, age, locale, stepFor(kind));
   });
 }

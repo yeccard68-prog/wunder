@@ -3,7 +3,8 @@
 //    them are enough to answer it is decided by trying every possible value (so the solution is exact), and the
 //    explanation names a counterexample where one statement is not enough;
 //  - word: word problems (handshakes, averages, overlapping groups, pumps, mixtures, average speed, ages, dice, drawing
-//    without putting back, teams, seating);
+//    without putting back, teams, seating) and classic traps where the first idea is one off (fence posts, sawing a
+//    beam, socks in the dark, heads and legs, the snail in the well, a striking clock, two trains);
 //  - numbers: number properties (common timetables, sums, remainders, divisors, last digits, zeros at the end of n!).
 // Five steps each (lib/skill.ts); adults only (KINDS in exercises.ts).
 import type { Step } from "./skill";
@@ -256,11 +257,76 @@ const seating: Word = (r, de, locale) => {
     explanation: de ? `Das Paar zählt als ein Platz: ${n - 1} „Plätze“ lassen sich auf ${fmt(fact(n - 1), locale)} Arten ordnen, und das Paar kann noch untereinander tauschen: 2 × ${fmt(fact(n - 1), locale)} = ${fmt(answer, locale)}.` : `Treat the pair as one seat: ${n - 1} "seats" can be ordered in ${fmt(fact(n - 1), locale)} ways, and the pair can swap: 2 × ${fmt(fact(n - 1), locale)} = ${fmt(answer, locale)}.`,
   };
 };
+// ---- traps: the quick answer is one off
+const posts: Word = (r, de, locale) => {
+  const gap = pick(r, [2, 3, 4, 5]), n = int(r, 6, 30), len = gap * n, answer = n + 1;
+  return {
+    question: de ? `Ein gerader Zaun ist ${len} m lang. Alle ${gap} m steht ein Pfosten – auch an beiden Enden. Wie viele Pfosten sind es?` : `A straight fence is ${len} m long. There is a post every ${gap} m – and one at each end. How many posts are there?`,
+    ...choices(answer, [n, n - 1, n + 2, len], r, (v) => fmt(v, locale)),
+    explanation: de ? `${len} : ${gap} = ${n} Abstände – und ein Pfosten mehr als Abstände, weil an beiden Enden einer steht: ${fmt(answer, locale)}.` : `${len} ÷ ${gap} = ${n} gaps – and one post more than gaps, because there is one at each end: ${fmt(answer, locale)}.`,
+  };
+};
+const saw: Word = (r, de, locale) => {
+  const n = int(r, 4, 12), t = int(r, 2, 9), answer = (n - 1) * t;
+  return {
+    question: de ? `Ein Balken soll in ${n} gleich lange Stücke gesägt werden. Jeder Schnitt dauert ${t} Minuten. Wie viele Minuten dauert das Sägen insgesamt?` : `A beam is to be sawn into ${n} pieces of equal length. Each cut takes ${t} minutes. How many minutes does the sawing take in all?`,
+    ...choices(answer, [n * t, (n + 1) * t, (n - 2) * t, answer + 1], r, (v) => fmt(v, locale)),
+    explanation: de ? `Für ${n} Stücke braucht man nur ${n - 1} Schnitte: ${n - 1} × ${t} = ${fmt(answer, locale)} Minuten.` : `${n} pieces need only ${n - 1} cuts: ${n - 1} × ${t} = ${fmt(answer, locale)} minutes.`,
+  };
+};
+const socks: Word = (r, de, locale) => {
+  const k = int(r, 2, 6), m = int(r, 2, 4), answer = k * (m - 1) + 1;
+  const same = de ? ["", "ein Paar derselben Farbe", "drei Socken derselben Farbe", "vier Socken derselben Farbe"][m - 1] : ["", "a pair of the same colour", "three socks of the same colour", "four socks of the same colour"][m - 1];
+  return {
+    question: de ? `In einer Schublade liegen sehr viele Socken in ${k} Farben durcheinander. Es ist dunkel. Wie viele Socken musst du mindestens herausnehmen, um sicher ${same} zu haben?` : `A drawer holds a great many socks in ${k} colours, all mixed up. It is dark. How many socks must you take out, at the least, to be sure of having ${same}?`,
+    ...choices(answer, [k * m, k + m, answer - 1, answer + 1, m], r, (v) => fmt(v, locale)),
+    explanation: de ? `Im ungünstigsten Fall ziehst du erst von jeder Farbe ${m - 1}: ${k} × ${m - 1} = ${k * (m - 1)} Socken. Die nächste macht eine Farbe voll – also ${fmt(answer, locale)}.` : `In the worst case you first draw ${m - 1} of every colour: ${k} × ${m - 1} = ${k * (m - 1)} socks. The next one completes a colour – so ${fmt(answer, locale)}.`,
+  };
+};
+const legs: Word = (r, de, locale) => {
+  const hens = int(r, 3, 20), rabbits = int(r, 2, 15), heads = hens + rabbits, feet = 2 * hens + 4 * rabbits;
+  return {
+    question: de ? `Auf einem Hof leben Hühner und Kaninchen. Zusammen haben sie ${heads} Köpfe und ${feet} Beine. Wie viele Kaninchen sind es?` : `Hens and rabbits live on a farm. Together they have ${heads} heads and ${feet} legs. How many rabbits are there?`,
+    ...choices(rabbits, [hens, rabbits + 1, rabbits - 1, Math.round(heads / 2), rabbits + 2], r, (v) => fmt(v, locale)),
+    explanation: de ? `Hätten alle Tiere zwei Beine, wären es 2 × ${heads} = ${2 * heads} Beine. Die übrigen ${feet} − ${2 * heads} = ${feet - 2 * heads} gehören zu den Kaninchen, je zwei mehr: ${feet - 2 * heads} : 2 = ${fmt(rabbits, locale)}.` : `If every animal had two legs, there would be 2 × ${heads} = ${2 * heads} legs. The other ${feet} − ${2 * heads} = ${feet - 2 * heads} belong to the rabbits, two extra each: ${feet - 2 * heads} ÷ 2 = ${fmt(rabbits, locale)}.`,
+  };
+};
+const snail: Word = (r, de, locale) => {
+  for (;;) {
+    const up = int(r, 3, 6), down = int(r, 1, up - 1), deep = int(r, 8, 30);
+    if (deep <= up) continue;
+    let day = 1, at = 0;
+    while (at + up < deep) { at += up - down; day++; } // on the last day it reaches the rim and does not slide back
+    const naive = Math.ceil(deep / (up - down));
+    if (naive === day) continue; // only when the quick answer is wrong
+    return {
+      question: de ? `Eine Schnecke sitzt am Grund eines ${deep} m tiefen Brunnens. Jeden Tag kriecht sie ${up} m hoch, jede Nacht rutscht sie ${down} m zurück. Am wievielten Tag erreicht sie den Rand?` : `A snail sits at the bottom of a well ${deep} m deep. Every day it climbs ${up} m, every night it slides back ${down} m. On which day does it reach the rim?`,
+      ...choices(day, [naive, day + 1, day - 1, naive + 1], r, (v) => fmt(v, locale)),
+      explanation: de ? `Pro Tag und Nacht gewinnt sie ${up - down} m. Am Morgen von Tag ${day} ist sie auf ${at} m – und kriecht an diesem Tag ${up} m, also über den Rand, ohne noch einmal zurückzurutschen. Antwort: Tag ${fmt(day, locale)}.` : `Each day and night it gains ${up - down} m. On the morning of day ${day} it is at ${at} m – and climbs ${up} m that day, over the rim, without sliding back again. Answer: day ${fmt(day, locale)}.`,
+    };
+  }
+};
+const strikes: Word = (r, de, locale) => {
+  const n = int(r, 3, 6), per = int(r, 1, 3), m = pick(r, [8, 9, 10, 11, 12].filter((x) => x !== n)), t = (n - 1) * per, answer = (m - 1) * per;
+  return {
+    question: de ? `Eine Turmuhr schlägt um ${n} Uhr ${n}-mal und braucht dafür ${t} Sekunden – vom ersten bis zum letzten Schlag, in gleichem Abstand. Wie viele Sekunden braucht sie um ${m} Uhr für ihre ${m} Schläge?` : `At ${n} o'clock a tower clock strikes ${n} times and takes ${t} seconds – from the first stroke to the last, evenly spaced. How many seconds does it take for its ${m} strokes at ${m} o'clock?`,
+    ...choices(answer, [m * per, Math.round((m * t) / n), answer + per, answer - per, m + t], r, (v) => fmt(v, locale)),
+    explanation: de ? `Zwischen ${n} Schlägen liegen nur ${n - 1} Pausen: ${t} : ${n - 1} = ${per} Sekunden je Pause. ${m} Schläge haben ${m - 1} Pausen: ${m - 1} × ${per} = ${fmt(answer, locale)} Sekunden.` : `Between ${n} strokes there are only ${n - 1} gaps: ${t} ÷ ${n - 1} = ${per} seconds a gap. ${m} strokes have ${m - 1} gaps: ${m - 1} × ${per} = ${fmt(answer, locale)} seconds.`,
+  };
+};
+const trains: Word = (r, de, locale) => {
+  const a = 10 * int(r, 4, 12), b = 10 * int(r, 4, 12), hours = pick(r, [1.5, 2, 2.5, 3, 4]), dist = (a + b) * hours;
+  return {
+    question: de ? `Zwei Städte liegen ${fmt(dist, locale)} km auseinander. Aus jeder fährt zur selben Zeit ein Zug los, beide fahren aufeinander zu – der eine mit ${a} km/h, der andere mit ${b} km/h. Nach wie vielen Stunden treffen sie sich?` : `Two towns are ${fmt(dist, locale)} km apart. A train leaves each of them at the same time, heading towards the other – one at ${a} km/h, the other at ${b} km/h. After how many hours do they meet?`,
+    ...choices(hours, [hours + 0.5, hours * 2, hours + 1, Math.max(0.5, hours - 0.5), hours + 1.5], r, (v) => fmt(v, locale)),
+    explanation: de ? `Die Züge kommen sich jede Stunde ${a} + ${b} = ${a + b} km näher. ${fmt(dist, locale)} : ${a + b} = ${fmt(hours, locale)} Stunden.` : `Every hour the trains get ${a} + ${b} = ${a + b} km closer. ${fmt(dist, locale)} ÷ ${a + b} = ${fmt(hours, locale)} hours.`,
+  };
+};
 const WORDS: Record<Step, Word[]> = {
-  1: [handshakes, average],
-  2: [handshakes, average, groups],
-  3: [average, groups, pumps, mixture],
-  4: [pumps, mixture, speed, ages, dice],
+  1: [handshakes, average, posts, saw],
+  2: [handshakes, average, groups, posts, saw, socks, legs],
+  3: [average, groups, pumps, mixture, socks, legs, snail, strikes, trains],
+  4: [pumps, mixture, speed, ages, dice, snail, strikes],
   5: [speed, ages, draws, teams, seating, dice],
 };
 const word: Make = (r, d, de, locale) => pick(r, WORDS[d])(r, de, locale);

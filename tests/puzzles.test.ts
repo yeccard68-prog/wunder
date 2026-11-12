@@ -1,7 +1,7 @@
 // Grid puzzles: one solution each, the same puzzle for the same seed, crosswords only from answered questions.  Run: npm test
 import test from "node:test";
 import assert from "node:assert/strict";
-import { countSolutions, dailyOpen, dailyPuzzles, feedPuzzles, makeCrossword, makePyramid, makeSudoku, sudokuConflicts, wordCells } from "../lib/puzzles";
+import { countSolutions, FEED_KINDS, feedPuzzles, makeCrossword, makePyramid, makeSudoku, sudokuConflicts, wordCells } from "../lib/puzzles";
 import type { Item, UserState } from "../lib/types";
 
 const item = (id: string, question: string, answer: string): Item => ({
@@ -44,15 +44,18 @@ test("a crossword uses only answered questions and its words cross correctly", (
   assert.equal(p.givens.filter((g, i) => !g && p.solution[i]).length > 0, true);
 });
 
-test("three daily puzzles, a pyramid in place of the crossword while too few questions are answered", () => {
-  const full = dailyPuzzles(items, state(), "2026-10-25");
-  assert.deepEqual(full.map((p) => p.kind), ["sudoku", "crossword", "pyramid"]);
-  const fresh = dailyPuzzles(items, state({ answers: {} }), "2026-10-25");
-  assert.deepEqual(fresh.map((p) => p.kind), ["sudoku", "pyramid", "pyramid"]);
-  const s = state({ puzzles: { daily: { date: "2026-10-25", done: [full[0].id] }, done: [] } });
-  assert.equal(dailyOpen(s, full, "2026-10-25").length, 2);
-  assert.equal(dailyOpen(s, full, "2026-10-26").length, 3);
-  assert.equal(feedPuzzles(items, state(), 6, "2026-10-25").length, 6);
+test("feed puzzles: six a day of seven kinds taking turns, starting with another kind every day; no crossword while too few questions are answered", () => {
+  const days = ["2026-10-25", "2026-10-26", "2026-10-27", "2026-10-28", "2026-10-29", "2026-10-30", "2026-10-31"].map((d) => feedPuzzles(items, state(), 6, d));
+  for (const list of days) {
+    assert.equal(list.length, 6);
+    assert.equal(new Set(list.map((p) => p.kind)).size, 6, "six different kinds");
+    assert.equal(new Set(list.map((p) => p.id)).size, 6);
+  }
+  assert.equal(new Set(days.map((list) => list[0].kind)).size, 7, "each kind starts once a week");
+  assert.equal(new Set(days.flat().map((p) => p.kind)).size, FEED_KINDS.length);
+  const fresh = feedPuzzles(items, state({ answers: {} }), 7, "2026-10-25");
+  assert.deepEqual(fresh.map((p) => p.kind).sort(), FEED_KINDS.filter((k) => k !== "crossword").sort());
+  assert.deepEqual(feedPuzzles(items, state(), 6, "2026-10-25"), days[0], "the same day, the same puzzles");
 });
 
 test("puzzles grow with the step: more empty cells, bigger pyramids, still exactly one solution", async () => {

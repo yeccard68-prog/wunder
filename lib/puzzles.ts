@@ -1,13 +1,15 @@
-// Grid puzzles – sudoku, mini crossword, number pyramid. Nothing here is stored as content: every puzzle is generated
+// Grid puzzles – sudoku, mini crossword, number pyramid, futoshiki (binary puzzle, nonogram and skyscrapers live in
+// lib/grids.ts). Nothing here is stored as content: every puzzle is generated
 // from a seed (the same seed gives the same puzzle on every device), so there are always new ones and none needs a
 // source. The crossword is the exception: its words and clues are questions this learner has already answered (with
 // the backend the solution of a card only reaches the device after answering) – a repetition in disguise, and every
 // clue is already source-checked.
 //  - in the feed: a nearly finished puzzle – only a few steps are left;
-//  - "Rätsel des Tages": three trickier ones before the feed starts (one of each kind, the same for everyone that day).
+//  - "Rätsel des Tages": a trickier one before the feed starts, a different kind every day (lib/daily.ts).
 import type { AgeBand, Item, UserState } from "./types";
 import { rng, today } from "./gamification";
 import { START, stepOf, type Step } from "./skill";
+import { makeBinary, makeNonogram, makeSkyscrapers, type Binary, type Nonogram, type Skyscrapers } from "./grids";
 
 export { rng };
 
@@ -21,7 +23,7 @@ export interface Pyramid { kind: "pyramid"; id: string; rows: number[][]; shown:
 /** Futoshiki: a Latin square (each number once per row and column) with < and > between some neighbours. right[i]:
  *  sign between cell i and the cell to its right; down[i]: between cell i and the cell below ("<" = this one is smaller). */
 export interface Futoshiki { kind: "futoshiki"; id: string; size: number; givens: number[]; solution: number[]; right: string[]; down: string[] }
-export type Puzzle = Sudoku | Crossword | Pyramid | Futoshiki;
+export type Puzzle = Sudoku | Crossword | Pyramid | Futoshiki | Binary | Nonogram | Skyscrapers;
 
 const shuffle = <T,>(list: T[], r: () => number) => {
   const a = [...list];
@@ -314,29 +316,27 @@ export function makePyramid(seed: string, age: AgeBand | null, level: Level, ste
 export interface PuzzleState { daily: { date: string; done: string[] }; done: string[] }
 export const puzzleState = (s: UserState): PuzzleState => s.puzzles ?? { daily: { date: "", done: [] }, done: [] };
 
-/** The three puzzles of the day: a sudoku, a crossword from answered questions (a second pyramid while there are too few) and a pyramid. */
-export function dailyPuzzles(items: Item[], state: UserState, date = today()): Puzzle[] {
-  const age = state.ageBand;
-  const seed = `daily-${date}-${age ?? ""}`;
-  const at = (kind: string) => stepOf(state, kind);
-  const cw = makeCrossword(`${seed}-c-${state.settings.locale}`, items, state, "tricky", at("crossword"));
-  return [makeSudoku(`${seed}-s`, sudokuSizeAt(age, at("sudoku")), "tricky", at("sudoku")), cw ?? makePyramid(`${seed}-p2`, age, "few", at("pyramid")), makePyramid(`${seed}-p`, age, "tricky", at("pyramid"))];
-}
-export const dailyOpen = (s: UserState, puzzles: Puzzle[], date = today()) => {
-  const st = puzzleState(s);
-  const done = st.daily.date === date ? st.daily.done : [];
-  return puzzles.filter((p) => !done.includes(p.id));
-};
-
-/** Puzzles for the feed: new ones each day, nearly finished, the kinds taking turns (sudoku, crossword, pyramid, futoshiki). */
+/** The kinds of grid puzzle in the feed, in the order they take turns. */
+export const FEED_KINDS: Puzzle["kind"][] = ["sudoku", "binary", "crossword", "nonogram", "pyramid", "skyscrapers", "futoshiki"];
+/**
+ * Puzzles for the feed: new ones each day, nearly finished, the kinds taking turns – and starting with a different
+ * kind every day, so the first puzzle someone meets is not always a sudoku.
+ */
 export function feedPuzzles(items: Item[], state: UserState, count = 6, date = today()): Puzzle[] {
   const age = state.ageBand;
   const out: Puzzle[] = [];
+  const first = Math.round(Date.parse(`${date}T00:00:00Z`) / 86_400_000) % FEED_KINDS.length;
   for (let k = 0; k < count; k++) {
     const seed = `feed-${date}-${k}-${age ?? ""}`;
-    const kind = k % 4;
+    const kind = FEED_KINDS[(k + first) % FEED_KINDS.length];
     const at = (k: string) => stepOf(state, k);
-    const p = kind === 0 ? makeSudoku(seed, sudokuSizeAt(age, at("sudoku")), "few", at("sudoku")) : kind === 1 ? makeCrossword(`${seed}-${state.settings.locale}`, items, state, "few", at("crossword")) : kind === 2 ? makePyramid(seed, age, "few", at("pyramid")) : makeFutoshiki(seed, "few", at("futoshiki"));
+    const p = kind === "sudoku" ? makeSudoku(seed, sudokuSizeAt(age, at("sudoku")), "few", at("sudoku"))
+      : kind === "crossword" ? makeCrossword(`${seed}-${state.settings.locale}`, items, state, "few", at("crossword"))
+      : kind === "pyramid" ? makePyramid(seed, age, "few", at("pyramid"))
+      : kind === "futoshiki" ? makeFutoshiki(seed, "few", at("futoshiki"))
+      : kind === "binary" ? makeBinary(seed, age, "few", at("binary"))
+      : kind === "nonogram" ? makeNonogram(seed, age, "few", at("nonogram"))
+      : makeSkyscrapers(seed, age, "few", at("skyscrapers"));
     if (p) out.push(p);
   }
   return out;

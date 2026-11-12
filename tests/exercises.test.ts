@@ -1,15 +1,17 @@
 // Maths and logic exercises: four different options, the right one among them and matching the explanation.  Run: npm test
 import test from "node:test";
 import assert from "node:assert/strict";
-import { exercisesFor, KINDS, levelOf, makeExercise } from "../lib/exercises";
+import { exercisesFor, KINDS, levelOf, makeExercise, optionCount } from "../lib/exercises";
+
+const SLOW = ["code", "scales", "zebra"]; // these take a few milliseconds each and have their own tests (tests/brain.test.ts)
 
 test("every kind, every age band: four different options, the answer is the one the explanation ends with", () => {
   for (const age of ["6-9", "10-12", "16+"] as const)
     for (const kind of KINDS[levelOf(age)])
-      for (let i = 0; i < 200; i++)
+      for (let i = 0; i < (SLOW.includes(kind) ? 40 : 200); i++)
         for (const locale of ["de", "en"]) {
           const e = makeExercise(`t${i}`, kind, age, locale);
-          const n = kind === "sufficiency" ? 5 : 4;
+          const n = optionCount(kind);
           assert.equal(e.options.length, n, `${kind} ${i}`);
           assert.equal(new Set(e.options).size, n, `${kind} ${i}: ${e.options}`);
           assert.ok(e.correct >= 0 && e.correct < n);
@@ -36,11 +38,11 @@ test("arithmetic is right and children get no percentages or fractions", () => {
 test("every kind on every step: four different options, the right one checked against the computation", () => {
   for (const step of [1, 2, 3, 4, 5] as const)
     for (const kind of KINDS[2])
-      for (let i = 0; i < 150; i++)
+      for (let i = 0; i < (SLOW.includes(kind) ? 30 : 150); i++)
         for (const locale of ["de", "en"]) {
           const e = makeExercise(`s${step}-${i}`, kind, "16+", locale, step);
           assert.equal(e.step, step);
-          assert.equal(e.options.length, kind === "sufficiency" ? 5 : 4, `${kind} ${step} ${i}: ${e.options}`);
+          assert.equal(e.options.length, optionCount(kind), `${kind} ${step} ${i}: ${e.options}`);
           assert.equal(new Set(e.options).size, e.options.length, `${kind} ${step} ${i}: ${e.options}`);
           const answer = e.options[e.correct];
           if (kind === "weekday") assert.ok(e.explanation.endsWith(`${answer}.`), e.explanation);
@@ -69,6 +71,15 @@ test("the hard steps compute right: percent backwards and chained, time zones, d
     const n = Number(e.explanation.match(/is (\d+) days/)![1]);
     assert.ok(n > 0 && n < 365);
     assert.ok(days.length === 12);
+  }
+});
+
+test("a set deals the kinds like a pack of cards: every kind before any comes again, none twice running", () => {
+  for (const age of ["6-9", "10-12", "16+"] as const) {
+    const kinds = new Set(KINDS[levelOf(age)]);
+    const set = exercisesFor(age, "de", kinds.size * 3, `pack-${age}`);
+    for (let k = 0; k < 3; k++) assert.equal(new Set(set.slice(k * kinds.size, (k + 1) * kinds.size).map((e) => e.kind)).size, kinds.size, `${age}: round ${k + 1}`);
+    set.forEach((e, i) => i && assert.notEqual(e.kind, set[i - 1].kind, `${age}: ${e.kind} twice running at ${i}`));
   }
 });
 

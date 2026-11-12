@@ -15,7 +15,8 @@ import { factsFor, rankFacts } from "@/lib/facts";
 import { today } from "@/lib/gamification";
 import { exercisesFor } from "@/lib/exercises";
 import { stepOf } from "@/lib/skill";
-import { dailyOpen, dailyPuzzles, feedPuzzles } from "@/lib/puzzles";
+import { dailyOpen, dailyTasks } from "@/lib/daily";
+import { feedPuzzles } from "@/lib/puzzles";
 import { studiesFor } from "@/lib/studies";
 import { visualsFor } from "@/lib/visuals";
 import { rankForYou } from "@/lib/ranking";
@@ -24,7 +25,8 @@ import { useStore, useT } from "@/lib/store";
 
 /**
  * "Für dich": one snapping feed – cards, facts, clips, animations, puzzles; due repetitions are mixed in. Once a day
- * the three "Rätsel des Tages" come first.
+ * the three "Rätsel des Tages" come first – a different mix of logic question, brain teaser and grid puzzle every day
+ * (lib/daily.ts).
  */
 export default function HomePage() {
   const { items, clips, state, getState, loadMore } = useStore();
@@ -51,12 +53,12 @@ export default function HomePage() {
   const feed = useMemo(() => mixFeed(forYou, rankClips(clips, getState()), animations, getState(), insightQueue(books, getState()), visuals, rankFacts(facts, getState()), eventsFor(state.settings.locale, state.ageBand), studiesFor(state.settings.locale, state.ageBand), puzzles, seed, exercisesFor(state.ageBand, state.settings.locale, 40, seed, (k) => stepOf(getState(), k))), [forYou, clips, animations, books, visuals, facts, puzzles]);
   // today’s three puzzles, fixed for this visit (answering a card must not swap the crossword under the finger)
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const daily = useMemo(() => (items.length ? dailyPuzzles(items, getState(), date) : []), [items.length > 0, date, state.settings.locale, state.ageBand]);
+  const daily = useMemo(() => (items.length ? dailyTasks(items, getState(), date) : []), [items.length > 0, date, state.settings.locale, state.ageBand]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const dailyLeft = useMemo(() => dailyOpen(getState(), daily, date), [daily]);
   const [gateDone, setGateDone] = useState(false);
 
-  if (dailyLeft.length && !gateDone && state.settings.dailyPuzzles !== false) return <DailyPuzzles puzzles={daily} open={dailyLeft} onFinished={() => setGateDone(true)} />;
+  if (dailyLeft.length && !gateDone && state.settings.dailyPuzzles !== false) return <DailyPuzzles tasks={daily} open={dailyLeft} onFinished={() => setGateDone(true)} />;
 
   if (!feed.length)
     return (

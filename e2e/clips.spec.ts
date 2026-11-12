@@ -712,28 +712,74 @@ test("facts: a page with every fact, filter by area, the explanation on request,
   await expect(page.getByText("1× „Wow!“")).toBeVisible();
 });
 
-test("the three puzzles of the day come before the feed, and giving up counts as done", async ({ page }) => {
-  await page.addInitScript((s) => localStorage.getItem("wunder.demo.state.v3") || localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { ...seed.state, settings: { ...seed.state.settings, dailyPuzzles: true } } });
+const withDaily = (page: Page) => page.addInitScript((s) => localStorage.getItem("wunder.demo.state.v3") || localStorage.setItem("wunder.demo.state.v3", JSON.stringify(s)), { state: { ...seed.state, settings: { ...seed.state.settings, dailyPuzzles: true } } });
+/** One of the puzzles of the day: a question is answered with its first option, a grid puzzle is given up. Returns its kind. */
+async function passDaily(gate: Locator) {
+  const question = gate.getByTestId("exercise");
+  await expect(question.or(gate.getByTestId("puzzle"))).toBeVisible();
+  if (await question.count()) {
+    await question.getByTestId("exercise-option").first().click();
+    await expect(question.getByTestId("exercise-result")).toContainText(/Richtig!|Nicht ganz\./);
+    return `question:${await question.getAttribute("data-kind")}`;
+  }
+  const kind = await gate.getByTestId("puzzle").getAttribute("data-kind");
+  await gate.getByTestId("puzzle-reveal").click();
+  await expect(gate.getByTestId("puzzle-result")).toContainText("Lösung");
+  return `grid:${kind}`;
+}
+
+test("the three puzzles of the day come before the feed: two questions and a grid puzzle; answering or giving up counts as done", async ({ page }) => {
+  await withDaily(page);
   await page.goto("/");
   const gate = page.getByTestId("daily-puzzles");
   await expect(gate).toBeVisible();
+  await expect(gate.getByTestId("daily-kinds")).toContainText(/^Heute: .+ · .+ · .+$/);
+  const kinds: string[] = [];
   for (let k = 1; k <= 3; k++) {
     await expect(gate.getByRole("status").first()).toContainText(`Rätsel ${k} von 3`);
-    await gate.getByTestId("puzzle-reveal").click();
-    await expect(gate.getByTestId("puzzle-result")).toContainText("Lösung");
+    kinds.push(await passDaily(gate));
     await gate.getByTestId("daily-next").click();
   }
+  expect(kinds.map((k) => k.split(":")[0])).toEqual(["question", "question", "grid"]);
   await expect(page.getByTestId("snap-feed")).toBeVisible();
   await page.reload();
   await expect(page.getByTestId("snap-feed")).toBeVisible(); // done for today
   await expect(page.getByTestId("daily-puzzles")).toHaveCount(0);
 });
 
+test("the puzzles of the day change from day to day, and a day begun is picked up where it was left", async ({ page }) => {
+  await withDaily(page);
+  const names: string[] = [];
+  for (const day of [10, 11, 12, 13]) {
+    await page.clock.setFixedTime(new Date(2026, 1, day, 10));
+    await page.goto("/");
+    const line = page.getByTestId("daily-kinds");
+    await expect(line).toContainText("Heute:");
+    names.push((await line.textContent())!);
+  }
+  // four days: no kind in the same place on two days running
+  const parts = names.map((n) => n.replace("Heute: ", "").split(" · "));
+  for (let d = 1; d < parts.length; d++) for (const slot of [0, 1, 2]) expect(parts[d][slot], `day ${d}, place ${slot + 1}`).not.toBe(parts[d - 1][slot]);
+  // answer the first one, come back: the second is next
+  const gate = page.getByTestId("daily-puzzles");
+  await passDaily(gate);
+  await page.reload();
+  await expect(gate.getByRole("status").first()).toContainText("Rätsel 2 von 3");
+});
+
+/** The first grid puzzle of a kind on the riddles page – more are loaded until one shows up. */
+async function findPuzzle(page: Page, kind: string) {
+  const puzzle = page.locator(`[data-testid="puzzle"][data-kind="${kind}"]`).first();
+  for (let k = 0; k < 4 && !(await puzzle.count()); k++) await page.getByTestId("more-puzzles").click();
+  await expect(puzzle).toBeVisible();
+  return puzzle;
+}
+
 test("a nearly finished sudoku can be solved by typing the missing numbers", async ({ page }) => {
   await signIn(page);
   await page.goto("/riddles/");
-  const sudoku = page.locator('[data-testid="puzzle"][data-kind="sudoku"]').first();
-  await expect(sudoku).toBeVisible();
+  await expect(page.getByTestId("puzzle").first()).toBeVisible();
+  const sudoku = await findPuzzle(page, "sudoku");
   // hints fill one square each – all but the last; the last one is typed with the number pad
   const open = await sudoku.locator('[data-testid="puzzle-cell"][data-open]').count();
   for (let k = 0; k < open - 1; k++) await sudoku.getByTestId("puzzle-hint").click();
@@ -745,6 +791,68 @@ test("a nearly finished sudoku can be solved by typing the missing numbers", asy
     if (await sudoku.getByTestId("puzzle-result").waitFor({ timeout: 700 }).then(() => true, () => false)) break;
   }
   await expect(sudoku.getByTestId("puzzle-result")).toContainText("Gelöst");
+});
+
+test("binary puzzle, nonogram and skyscrapers: tapping fills squares, hints finish the puzzle", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/riddles/");
+  await expect(page.getByTestId("puzzle").first()).toBeVisible();
+  // binary: a tap goes through 0, 1 and empty
+  const binary = await findPuzzle(page, "binary");
+  const square = binary.locator('[data-testid="puzzle-cell"][data-open]').first();
+  await square.click();
+  await expect(square).toHaveText("0");
+  await square.click();
+  await expect(square).toHaveText("1");
+  await square.click();
+  await expect(square).toHaveText("");
+  // nonogram: a tap fills a square, "×" notes an empty one without filling it
+  const nonogram = await findPuzzle(page, "nonogram");
+  const field = nonogram.locator('[data-testid="puzzle-cell"][data-open]').first();
+  await field.click();
+  await expect(field).toHaveAttribute("data-filled", "true");
+  await field.click();
+  await expect(field).not.toHaveAttribute("data-filled", "true");
+  await nonogram.getByTestId("nonogram-mark").click();
+  await field.click();
+  await expect(field).toHaveText("×");
+  await expect(field).not.toHaveAttribute("data-filled", "true");
+  // skyscrapers: numbers round the edge, heights from the number pad
+  const sky = await findPuzzle(page, "skyscrapers");
+  expect(await sky.getByTestId("skyscraper-clue").filter({ hasText: /\d/ }).count()).toBeGreaterThan(8);
+  await sky.locator('[data-testid="puzzle-cell"][data-open]').first().click();
+  await sky.getByTestId("puzzle-digit").first().click();
+  await expect(sky.locator('[data-testid="puzzle-cell"][data-open]').first()).toHaveText("1");
+  // every one of them can be finished with hints alone
+  for (const puzzle of [binary, nonogram, sky]) {
+    for (let k = 0; k < 120 && !(await puzzle.getByTestId("puzzle-result").count()); k++) await puzzle.getByTestId("puzzle-hint").click();
+    await expect(puzzle.getByTestId("puzzle-result")).toContainText("Gelöst");
+  }
+});
+
+test("exercises come in many kinds, none twice running – and a pattern puzzle shows its drawings", async ({ page }) => {
+  await signIn(page);
+  await page.goto("/riddles/");
+  await expect(page.getByTestId("exercise").first()).toBeVisible();
+  for (let k = 0; k < 6; k++) await page.getByTestId("more-exercises").click();
+  await expect(page.getByTestId("exercise")).toHaveCount(28);
+  const kinds = await page.getByTestId("exercise").evaluateAll((list) => list.map((e) => e.getAttribute("data-kind")));
+  expect(new Set(kinds).size).toBeGreaterThanOrEqual(26); // 27 kinds are dealt before any comes again
+  kinds.forEach((kind, i) => i && expect(kind, `exercise ${i + 1}`).not.toBe(kinds[i - 1]));
+  // the pattern puzzle: a grid of nine fields with one gap, four drawings to choose from
+  const pattern = page.locator('[data-testid="exercise"][data-kind="matrix"]').first();
+  await pattern.scrollIntoViewIfNeeded();
+  await expect(pattern.getByTestId("matrix-grid").locator("svg")).toHaveCount(8);
+  await expect(pattern.getByTestId("matrix-gap")).toHaveText("?");
+  await expect(pattern.getByTestId("exercise-option").locator("svg")).toHaveCount(4);
+  await pattern.getByTestId("exercise-option").first().click();
+  await expect(pattern.getByTestId("exercise-result")).toContainText(/Richtig!|Nicht ganz\./);
+  await expect(pattern.getByTestId("exercise-result")).toContainText("Es fehlt also:");
+  // a logic puzzle with several lines keeps its line breaks
+  const code = page.locator('[data-testid="exercise"][data-kind="code"]').first();
+  await expect(code.getByRole("heading")).toContainText("Wie lautet der Code?");
+  await code.getByTestId("exercise-option").first().click();
+  await expect(code.getByTestId("exercise-result")).toContainText("Der Code ist");
 });
 
 test("a maths exercise checks the answer at once and shows how it is worked out", async ({ page }) => {
