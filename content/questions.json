@@ -63760,5 +63760,886 @@
         "explanation": "Stonehenge (from about 3000 BC, in several phases), Great Pyramid of Giza (tomb of a pharaoh who reigned about 2620 to 2580 BC), Parthenon (5th century BC), Colosseum (between AD 72 and 80). So work on Stonehenge began before the Great Pyramid stood."
       }
     }
+  },
+  {
+    "id": "ws73",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wo arbeitet das James-Webb-Weltraumteleskop?",
+    "options": [
+      "Auf der Rückseite des Mondes",
+      "In einer Umlaufbahn um den Mond",
+      "In etwa 400 Kilometern Höhe, wie die Raumstation ISS",
+      "Um den Lagrange-Punkt L2, etwa 1,5 Millionen Kilometer von der Erde entfernt"
+    ],
+    "correct_index": 3,
+    "explanation": "Seit Januar 2022 umkreist das Teleskop den Lagrange-Punkt L2 von Erde und Sonne, etwa 1,5 Millionen Kilometer von der Erde entfernt. Dorthin brachten es beide Stufen seiner Rakete auf Kurs.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Teleskope"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: James-Webb-Weltraumteleskop",
+    "source_url": "https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the James Webb Space Telescope work?",
+        "options": [
+          "On the far side of the Moon",
+          "In an orbit around the Moon",
+          "About 400 kilometres up, like the ISS space station",
+          "Around the Lagrange point L2, about 1.5 million kilometres from Earth"
+        ],
+        "explanation": "Since January 2022 the telescope has orbited the Lagrange point L2 of the Earth and the Sun, about 1.5 million kilometres from Earth. Both stages of its rocket set it on course there."
+      }
+    }
+  },
+  {
+    "id": "ws74",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Der Astronom Ludwig Biermann untersuchte die Schweife von Kometen. Was schloss er 1951 daraus?",
+    "options": [
+      "Von der Sonne geht ein ständiger Teilchenstrom aus – der Sonnenwind",
+      "Kometen bestehen aus glühendem Metall",
+      "Die Schweife sind Spiegelungen in der Erdatmosphäre",
+      "Kometen ziehen ihre Schweife hinter sich her wie ein Flugzeug"
+    ],
+    "correct_index": 0,
+    "explanation": "Kommt ein Komet der Sonne nahe, werden Bestandteile seiner Hülle durch Strahlungsdruck und Sonnenwind weggeblasen – so entsteht der Schweif. Für manche Teilchen reichte der Strahlungsdruck als Erklärung aber nicht aus. Deshalb nahm Ludwig Biermann 1951 eine von der Sonne ausgehende Teilchenstrahlung an, die man heute Sonnenwind nennt.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Kometen",
+      "Personen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Komet",
+    "source_url": "https://de.wikipedia.org/wiki/Komet",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The astronomer Ludwig Biermann studied the tails of comets. What did he conclude from them in 1951?",
+        "options": [
+          "A constant stream of particles flows out from the Sun – the solar wind",
+          "Comets are made of glowing metal",
+          "The tails are reflections in Earth's atmosphere",
+          "Comets drag their tails behind them like an aircraft"
+        ],
+        "explanation": "When a comet comes close to the Sun, parts of its envelope are blown away by radiation pressure and the solar wind – that is how the tail forms. For some particles, however, radiation pressure was not enough of an explanation. So in 1951 Ludwig Biermann proposed a stream of particles flowing out from the Sun, which we now call the solar wind."
+      }
+    }
+  },
+  {
+    "id": "ws75",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Durch welches Sternbild wandert die Sonne jedes Jahr, obwohl es nicht zu den Tierkreiszeichen gehört?",
+    "options": [
+      "Den Großen Bären",
+      "Den Schlangenträger",
+      "Den Orion",
+      "Die Kassiopeia"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Ekliptik, die scheinbare Bahn der Sonne am Himmel, führt teilweise durch den Schlangenträger: Etwa vom 26. November bis 18. Dezember steht die Sonne darin – länger als im benachbarten Skorpion. Trotzdem zählt er nicht zu den zwölf Tierkreiszeichen, denn die wurden schon von Babyloniern und Ägyptern festgelegt und mit den zwölf Monaten verknüpft.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sternbilder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schlangenträger",
+    "source_url": "https://de.wikipedia.org/wiki/Schlangenträger",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which constellation does the Sun pass through every year, even though it is not one of the signs of the zodiac?",
+        "options": [
+          "The Great Bear",
+          "Ophiuchus, the Serpent Bearer",
+          "Orion",
+          "Cassiopeia"
+        ],
+        "explanation": "The ecliptic, the Sun's apparent path across the sky, runs partly through Ophiuchus: from about 26 November to 18 December the Sun is in it – longer than in neighbouring Scorpius. Even so, it is not one of the twelve signs of the zodiac, because these were already fixed by the Babylonians and Egyptians and linked to the twelve months."
+      }
+    }
+  },
+  {
+    "id": "ws76",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum kann eine Satellitenschüssel fest auf einen Fernsehsatelliten ausgerichtet bleiben?",
+    "options": [
+      "Die Schüssel dreht sich unbemerkt mit dem Satelliten mit",
+      "Der Satellit hängt an einem Ballon",
+      "Der Satellit kreist so, dass er vom Boden aus stillzustehen scheint",
+      "Der Satellit steht genau über dem Nordpol still"
+    ],
+    "correct_index": 2,
+    "explanation": "Fernsehsatelliten kreisen auf der geostationären Bahn, etwa 35.786 Kilometer über der Erdoberfläche. Dort bewegen sie sich mit derselben Winkelgeschwindigkeit, mit der sich die Erde dreht – von der Erde aus scheinen sie deshalb am Himmel stillzustehen. So können Antennen am Boden fest auf einen Punkt ausgerichtet werden.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Satelliten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geostationäre Umlaufbahn",
+    "source_url": "https://de.wikipedia.org/wiki/Geostationäre_Umlaufbahn",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can a satellite dish stay pointed at a TV satellite without moving?",
+        "options": [
+          "The dish secretly turns along with the satellite",
+          "The satellite hangs from a balloon",
+          "The satellite circles in such a way that it seems to stand still when seen from the ground",
+          "The satellite stands still exactly above the North Pole"
+        ],
+        "explanation": "TV satellites circle on the geostationary orbit, about 35,786 kilometres above the Earth's surface. There they move at the same angular speed as the Earth turns – so seen from Earth they appear to stand still in the sky. That is why antennas on the ground can point at one fixed spot."
+      }
+    }
+  },
+  {
+    "id": "ws77",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie werden Raumfahrerinnen und Raumfahrer aus China oft genannt?",
+    "options": [
+      "Vyomanauten",
+      "Kosmonauten",
+      "Spationauten",
+      "Taikonauten"
+    ],
+    "correct_index": 3,
+    "explanation": "Je nach Land gibt es eigene Wörter: Taikonaut in China, Spationaut in Frankreich, Vyomanaut in Indien und Angkasawan in Malaysia. Die ersten beiden Länder mit bemannter Raumfahrt prägten die bekanntesten Begriffe: die Sowjetunion „Kosmonaut“, die USA „Astronaut“.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Raumfahrer",
+    "source_url": "https://de.wikipedia.org/wiki/Raumfahrer",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are space travellers from China often called?",
+        "options": [
+          "Vyomanauts",
+          "Cosmonauts",
+          "Spationauts",
+          "Taikonauts"
+        ],
+        "explanation": "Each country has its own word: taikonaut in China, spationaut in France, vyomanaut in India and angkasawan in Malaysia. The first two countries with crewed space flight coined the best-known terms: the Soviet Union 'cosmonaut', the USA 'astronaut'."
+      }
+    }
+  },
+  {
+    "id": "ws78",
+    "kind": "question",
+    "category_id": "space",
+    "question": "In welchem Rhythmus nimmt die Zahl der Sonnenflecken zu und wieder ab?",
+    "options": [
+      "Etwa alle elf Jahre",
+      "Jeden Monat",
+      "Etwa alle hundert Jahre",
+      "Mit den Jahreszeiten auf der Erde"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Häufigkeit der Sonnenflecken folgt einem Rhythmus von durchschnittlich elf Jahren, dem Sonnenfleckenzyklus. Im Verlauf eines Zyklus werden die Flecken immer häufiger und größer. Selbst dann bedecken sie höchstens etwa 0,4 Prozent der Sonnenoberfläche.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sonne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonnenfleck",
+    "source_url": "https://de.wikipedia.org/wiki/Sonnenfleck",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In what rhythm does the number of sunspots rise and fall?",
+        "options": [
+          "About every eleven years",
+          "Every month",
+          "About every hundred years",
+          "With the seasons on Earth"
+        ],
+        "explanation": "The number of sunspots follows a rhythm of eleven years on average, the sunspot cycle. In the course of a cycle the spots become more and more frequent and larger. Even then they cover at most about 0.4 percent of the Sun's surface."
+      }
+    }
+  },
+  {
+    "id": "ws79",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie ist das Nördlinger Ries entstanden, das fast kreisrunde Becken in Bayern?",
+    "options": [
+      "Durch einen erloschenen Vulkan",
+      "Durch den Einschlag eines Asteroiden vor etwa 14,6 Millionen Jahren",
+      "Durch einen Gletscher der Eiszeit",
+      "Durch eine eingestürzte Höhle"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Ries ist ein fast kreisförmiges Becken mit etwa 20 bis 24 Kilometern Durchmesser. Es entstand vor etwa 14,6 Millionen Jahren durch den Einschlag eines Asteroiden. Schon 1904 hielt Ernst Werner einen Meteoriteneinschlag für wahrscheinlich – andere Forscher hatten zuvor an einen Ries-Vulkan geglaubt.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Einschläge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nördlinger Ries",
+    "source_url": "https://de.wikipedia.org/wiki/Nördlinger_Ries",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the Nördlinger Ries, the almost circular basin in Bavaria, come about?",
+        "options": [
+          "Through an extinct volcano",
+          "Through the impact of an asteroid about 14.6 million years ago",
+          "Through an Ice Age glacier",
+          "Through a collapsed cave"
+        ],
+        "explanation": "The Ries is an almost circular basin about 20 to 24 kilometres across. It formed about 14.6 million years ago through the impact of an asteroid. As early as 1904 Ernst Werner thought a meteorite impact likely – other researchers had believed in a Ries volcano before."
+      }
+    }
+  },
+  {
+    "id": "ws80",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viele Lichtjahre entspricht die astronomische Längeneinheit Parsec ungefähr?",
+    "options": [
+      "Etwa 1",
+      "Etwa 3,26",
+      "Etwa 100",
+      "Etwa 1.000"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Parsec sind etwa 3,26 Lichtjahre oder rund 30,9 Billionen Kilometer. Der Name ist ein Kurzwort aus dem englischen „parallax second“, auf Deutsch Parallaxensekunde: Die Einheit stammt aus der Entfernungsmessung über Sternparallaxen – also über die scheinbare Verschiebung eines Sterns, während die Erde die Sonne umrundet.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Maßeinheiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Parsec",
+    "source_url": "https://de.wikipedia.org/wiki/Parsec",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Roughly how many light years is the astronomical unit of length called a parsec?",
+        "options": [
+          "About 1",
+          "About 3.26",
+          "About 100",
+          "About 1,000"
+        ],
+        "explanation": "A parsec is about 3.26 light years, or some 30.9 trillion kilometres. The name is short for 'parallax second': the unit comes from measuring distances by stellar parallax – the apparent shift of a star while the Earth goes round the Sun."
+      }
+    }
+  },
+  {
+    "id": "ws81",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was schießt auf der Südhalbkugel des Saturnmonds Enceladus in hohen Fontänen ins All?",
+    "options": [
+      "Winzige Teilchen aus Wassereis",
+      "Glühende Lava",
+      "Sand und Staub",
+      "Flüssiges Methan"
+    ],
+    "correct_index": 0,
+    "explanation": "Enceladus ist ein Eismond mit Kryovulkanen: Auf seiner Südhalbkugel schießen sehr hohe Fontänen aus Wassereisteilchen empor und erzeugen eine dünne Atmosphäre. Sie speisen wahrscheinlich sogar einen Ring des Saturn, den E-Ring. Weil dort auch Hinweise auf flüssiges Wasser gefunden wurden, gilt Enceladus als möglicher Ort mit günstigen Bedingungen für die Entstehung von Leben.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Enceladus (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Enceladus_(Mond)",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What shoots out into space in tall fountains in the southern hemisphere of Saturn's moon Enceladus?",
+        "options": [
+          "Tiny particles of water ice",
+          "Glowing lava",
+          "Sand and dust",
+          "Liquid methane"
+        ],
+        "explanation": "Enceladus is an icy moon with cryovolcanoes: in its southern hemisphere very tall fountains of water-ice particles shoot up and create a thin atmosphere. They probably even feed one of Saturn's rings, the E ring. Because signs of liquid water were also found there, Enceladus counts as a possible place with favourable conditions for life to arise."
+      }
+    }
+  },
+  {
+    "id": "ws82",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was geschah am 10. Februar 2009 in 789 Kilometern Höhe über Nordsibirien?",
+    "options": [
+      "Ein Meteorit explodierte in der Luft",
+      "Zwei Satelliten stießen zusammen und wurden zerstört",
+      "Eine alte Raumstation stürzte ab",
+      "Ein Weltraumtourist sprang mit dem Fallschirm ab"
+    ],
+    "correct_index": 1,
+    "explanation": "Am 10. Februar 2009 kollidierten ein abgeschalteter russischer Kommunikationssatellit und ein Iridium-Satellit in 789 Kilometern Höhe. Beide wurden zerstört – es war die bislang größte zufällige Kollision im All. Dabei entstand eine erhebliche Menge weiterer Weltraummüll.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Satelliten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weltraummüll",
+    "source_url": "https://de.wikipedia.org/wiki/Weltraummüll",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happened on 10 February 2009 at a height of 789 kilometres over northern Siberia?",
+        "options": [
+          "A meteorite exploded in the air",
+          "Two satellites collided and were destroyed",
+          "An old space station crashed",
+          "A space tourist jumped out with a parachute"
+        ],
+        "explanation": "On 10 February 2009 a switched-off Russian communications satellite and an Iridium satellite collided at a height of 789 kilometres. Both were destroyed – the largest accidental collision in space so far. It released a considerable amount of further space debris."
+      }
+    }
+  },
+  {
+    "id": "ws83",
+    "kind": "question",
+    "category_id": "space",
+    "question": "In welchem Jahr endete das Apollo-Programm mit der letzten Mondlandung?",
+    "options": [
+      "1969",
+      "1972",
+      "1986",
+      "1994"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach sechs erfolgreichen Landungen wurde das Apollo-Programm 1972 wegen der hohen Kosten eingestellt. Als bisher letzter Mensch verließ Eugene Cernan am 14. Dezember 1972 den Mond.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mond",
+    "source_url": "https://de.wikipedia.org/wiki/Mond",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the Apollo programme end with the last Moon landing?",
+        "options": [
+          "1969",
+          "1972",
+          "1986",
+          "1994"
+        ],
+        "explanation": "After six successful landings the Apollo programme was ended in 1972 because of its high cost. Eugene Cernan, the last person so far, left the Moon on 14 December 1972."
+      }
+    }
+  },
+  {
+    "id": "e65",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Deutsche Euromünzen tragen neben der Jahreszahl einen kleinen Buchstaben. Was verrät er?",
+    "options": [
+      "In welchem Bundesland die Münze ausgegeben wurde",
+      "In welcher der fünf deutschen Prägestätten die Münze hergestellt wurde",
+      "Wer die Münze entworfen hat",
+      "Ob die Münze eine Sammlermünze ist"
+    ],
+    "correct_index": 1,
+    "explanation": "Anders als die übrigen Euroländer lässt Deutschland seine Münzen in fünf verschiedenen Prägestätten herstellen. Welche es war, zeigt ein Buchstabe in der Nähe der Jahreszahl.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Deutsche Euromünzen",
+    "source_url": "https://de.wikipedia.org/wiki/Deutsche_Euromünzen",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "German euro coins carry a small letter next to the year. What does it tell you?",
+        "options": [
+          "In which federal state the coin was issued",
+          "Which of the five German mints made the coin",
+          "Who designed the coin",
+          "Whether the coin is a collector's coin"
+        ],
+        "explanation": "Unlike the other euro countries, Germany has its coins made in five different mints. Which one it was is shown by a letter near the year."
+      }
+    }
+  },
+  {
+    "id": "e66",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welche Bauwerke zeigen die Euro-Banknoten?",
+    "options": [
+      "Berühmte Kirchen und Schlösser Europas",
+      "Die Parlamente der Euroländer",
+      "Erfundene Tore, Fenster und Brücken aus verschiedenen Epochen",
+      "Die Gebäude der Zentralbanken"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Scheine zeigen bewusst keine echten Bauwerke, sondern erfundene Motive der europäischen Architektur aus verschiedenen kunstgeschichtlichen Epochen. Die Tore und Fenster auf der Vorderseite stehen für Offenheit und Zusammenarbeit, die Brücken auf der Rückseite für die Verbundenheit der Völker Europas untereinander und mit der übrigen Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eurobanknoten",
+    "source_url": "https://de.wikipedia.org/wiki/Eurobanknoten",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which buildings are shown on the euro banknotes?",
+        "options": [
+          "Famous churches and castles of Europe",
+          "The parliaments of the euro countries",
+          "Invented gateways, windows and bridges from different periods",
+          "The buildings of the central banks"
+        ],
+        "explanation": "The notes deliberately show no real buildings, but invented examples of European architecture from different periods of art history. The gateways and windows on the front stand for openness and cooperation, the bridges on the back for the ties between the peoples of Europe and with the rest of the world."
+      }
+    }
+  },
+  {
+    "id": "e67",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wofür steht die Abkürzung IBAN, die man für Überweisungen braucht?",
+    "options": [
+      "Internationales Bankenabkommen",
+      "Interne Bank-Anweisungsnummer",
+      "Individuelle Bankkunden-Nummer",
+      "International Bank Account Number – internationale Kontonummer"
+    ],
+    "correct_index": 3,
+    "explanation": "IBAN heißt Internationale Bankkontonummer (englisch International Bank Account Number): eine international einheitliche Schreibweise für Kontonummern. In Deutschland gab man vorher Bankleitzahl und Kontonummer getrennt an – das war nicht einmal in Europa überall üblich.",
+    "difficulty": 1,
+    "tags": [
+      "Wirtschaft",
+      "Bank"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: IBAN",
+    "source_url": "https://de.wikipedia.org/wiki/IBAN",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the abbreviation IBAN, which you need for bank transfers, stand for?",
+        "options": [
+          "International Banking Agreement",
+          "Internal Bank Assignment Number",
+          "Individual Bank Account Name",
+          "International Bank Account Number"
+        ],
+        "explanation": "IBAN stands for International Bank Account Number: an internationally standardised way of writing account numbers. In Germany the bank code and the account number used to be given separately – which was not even common throughout Europe."
+      }
+    }
+  },
+  {
+    "id": "e68",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bezeichnet man als „Shrinkflation“?",
+    "options": [
+      "Weniger Inhalt in der Packung bei gleichem Preis",
+      "Wenn Preise schneller sinken als Löhne",
+      "Wenn eine Währung durch vernichtete Scheine schrumpft",
+      "Rabatte auf besonders große Packungen"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Kofferwort setzt sich aus dem englischen „shrink“ (schrumpfen) und „Inflation“ zusammen. Gemeint ist, dass Hersteller Portionen verkleinern oder weniger abfüllen, um eine Preiserhöhung zu verbergen. Für die Inflationsmessung ist das ein Problem, weil sich das Produkt unsichtbar verändert.",
+    "difficulty": 1,
+    "tags": [
+      "Wirtschaft",
+      "Preise"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Shrinkflation",
+    "source_url": "https://de.wikipedia.org/wiki/Shrinkflation",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 'shrinkflation'?",
+        "options": [
+          "Less in the pack for the same price",
+          "When prices fall faster than wages",
+          "When a currency shrinks because notes are destroyed",
+          "Discounts on extra-large packs"
+        ],
+        "explanation": "The blend word combines 'shrink' and 'inflation'. It means that manufacturers make portions smaller or fill less into the pack to hide a price rise. For measuring inflation this is a problem, because the product changes without anyone seeing it."
+      }
+    }
+  },
+  {
+    "id": "e69",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Woher kommt das Wort „Boykott“?",
+    "options": [
+      "Von einem englischen Hafen, der gesperrt wurde",
+      "Von einem Gutsverwalter namens Boycott, den 1880 in Irland alle mieden",
+      "Vom französischen Wort für „Kiste“",
+      "Von einem Kartenspiel, bei dem man aussetzen muss"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Wort geht auf Charles Cunningham Boycott zurück, einen in Irland lebenden englischen Grundstücksverwalter. Nach einer Aktion der Irischen Landliga 1880 fand er keine Pächter mehr, seine Diener mussten ihn verlassen – er wurde „boykottiert“. Heute ist ein Boykott ein organisiertes Druckmittel, mit dem man jemanden vom üblichen Geschäftsverkehr ausschließt.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Boykott",
+    "source_url": "https://de.wikipedia.org/wiki/Boykott",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the word 'boycott' come from?",
+        "options": [
+          "From an English port that was closed",
+          "From a land agent called Boycott whom everyone shunned in Ireland in 1880",
+          "From the French word for 'box'",
+          "From a card game in which you miss a turn"
+        ],
+        "explanation": "The word goes back to Charles Cunningham Boycott, an English land agent living in Ireland. After a campaign by the Irish Land League in 1880 he could find no more tenants, and his servants had to leave him – he was 'boycotted'. Today a boycott is an organised means of pressure that cuts someone off from normal business."
+      }
+    }
+  },
+  {
+    "id": "e70",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Für welche Berufsgruppe wurde 1873 in Deutschland der erste Tarifvertrag abgeschlossen?",
+    "options": [
+      "Für Lehrer",
+      "Für Bergleute",
+      "Für Eisenbahner",
+      "Für Buchdrucker"
+    ],
+    "correct_index": 3,
+    "explanation": "Der erste Tarifvertrag wurde am 1. Mai 1873 für Buchdrucker abgeschlossen. Einen Tarifvertrag schließen Gewerkschaften für die Beschäftigten auf der einen und Arbeitgeber oder Arbeitgeberverbände auf der anderen Seite – im Rahmen der Tarifautonomie, die das Grundgesetz garantiert.",
+    "difficulty": 3,
+    "tags": [
+      "Wirtschaft",
+      "Arbeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tarifvertrag",
+    "source_url": "https://de.wikipedia.org/wiki/Tarifvertrag",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "For which trade was the first collective agreement in Germany signed in 1873?",
+        "options": [
+          "Teachers",
+          "Miners",
+          "Railway workers",
+          "Printers"
+        ],
+        "explanation": "The first collective agreement was signed on 1 May 1873 for printers. Such agreements are made between trade unions for the employees on one side and employers or employers' associations on the other – within the freedom of collective bargaining guaranteed by the Basic Law."
+      }
+    }
+  },
+  {
+    "id": "e71",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bedeutet „Kurzarbeit“ in einem Betrieb?",
+    "options": [
+      "Die Arbeitszeit wird vorübergehend verringert, weil viel Arbeit wegfällt",
+      "Alle arbeiten kürzer, dafür an mehr Tagen",
+      "Neue Beschäftigte arbeiten zunächst zur Probe",
+      "Die Mittagspause wird gestrichen"
+    ],
+    "correct_index": 0,
+    "explanation": "Kurzarbeit heißt, dass die regelmäßige Arbeitszeit in einem Betrieb vorübergehend verringert wird, weil erheblich Arbeit ausfällt – für alle oder nur einen Teil der Beschäftigten. Ziel ist, Kündigungen zu vermeiden. Für einen Teil des Lohnausfalls gibt es unter bestimmten Voraussetzungen Kurzarbeitergeld aus der Arbeitslosenversicherung; zuständig ist in Deutschland die Bundesagentur für Arbeit.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Arbeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kurzarbeit",
+    "source_url": "https://de.wikipedia.org/wiki/Kurzarbeit",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does 'short-time work' (Kurzarbeit) mean in a company?",
+        "options": [
+          "Working hours are cut for a while because a lot of work has fallen away",
+          "Everyone works shorter days but on more days",
+          "New staff first work on trial",
+          "The lunch break is cancelled"
+        ],
+        "explanation": "Short-time work means that the regular working hours in a company are cut for a while because a substantial amount of work has fallen away – for all or only some of the staff. The aim is to avoid redundancies. Under certain conditions, part of the lost pay is made up by short-time allowance from unemployment insurance; in Germany the Federal Employment Agency is responsible."
+      }
+    }
+  },
+  {
+    "id": "e72",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bekommen Erzeuger im fairen Handel für ihre Produkte?",
+    "options": [
+      "Immer den doppelten Marktpreis",
+      "Einen festgelegten Mindestpreis – auch wenn die Marktpreise fallen",
+      "Maschinen statt Geld",
+      "Nichts – sie spenden die Ernte"
+    ],
+    "correct_index": 1,
+    "explanation": "Im fairen Handel erhalten die Erzeuger einen Mindestpreis, den eine Fair-Trade-Organisation festlegt. So sollen sie auch bei niedrigen Marktpreisen ein höheres und verlässlicheres Einkommen haben. Oft kommt eine Prämie dazu, mit der Bauern oder Arbeiter gemeinsame Projekte umsetzen können.",
+    "difficulty": 1,
+    "tags": [
+      "Wirtschaft",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fairer Handel",
+    "source_url": "https://de.wikipedia.org/wiki/Fairer_Handel",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do producers get for their goods under fair trade?",
+        "options": [
+          "Always twice the market price",
+          "A fixed minimum price – even when market prices fall",
+          "Machines instead of money",
+          "Nothing – they donate the harvest"
+        ],
+        "explanation": "Under fair trade, producers receive a minimum price set by a fair trade organisation. This is meant to give them a higher and more reliable income even when market prices are low. Often there is also a premium that farmers or workers can use for joint projects."
+      }
+    }
+  },
+  {
+    "id": "e73",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wofür stehen die beiden waagerechten Striche im Euro-Zeichen €?",
+    "options": [
+      "Für Gewinn und Verlust",
+      "Für die beiden Hälften Europas",
+      "Für die Stabilität des Euros",
+      "Für Münzen und Scheine"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Euro-Zeichen erinnert an den griechischen Buchstaben Epsilon und damit an den antiken Ursprung Europas. Die zwei geraden Striche sollen die Stabilität des Euros symbolisieren. Vorgestellt wurde das Zeichen am 12. Dezember 1996.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eurozeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Eurozeichen",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the two horizontal lines in the euro sign € stand for?",
+        "options": [
+          "Profit and loss",
+          "The two halves of Europe",
+          "The stability of the euro",
+          "Coins and notes"
+        ],
+        "explanation": "The euro sign is reminiscent of the Greek letter epsilon and so of Europe's ancient origins. The two straight lines are meant to symbolise the stability of the euro. The sign was presented on 12 December 1996."
+      }
+    }
+  },
+  {
+    "id": "e74",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was gibt der Score-Wert der Schufa an?",
+    "options": [
+      "Wie viel Steuern jemand zahlt",
+      "Wie viel Geld jemand auf dem Konto hat",
+      "Wie hoch das Einkommen ist",
+      "Eine Schätzung, wie wahrscheinlich jemand einen Kredit zurückzahlt"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Schufa – früher „Schutzgemeinschaft für allgemeine Kreditsicherung“ – ist eine private Wirtschaftsauskunftei mit Sitz in Wiesbaden. Ihren Vertragspartnern bietet sie einen Score-Wert an: einen Schätzwert dafür, wie wahrscheinlich ein Kredit bedient, also zurückgezahlt wird.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Bank"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schufa",
+    "source_url": "https://de.wikipedia.org/wiki/Schufa",
+    "created_at": "2026-10-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Schufa score tell you?",
+        "options": [
+          "How much tax someone pays",
+          "How much money someone has in the bank",
+          "How high someone's income is",
+          "An estimate of how likely someone is to repay a loan"
+        ],
+        "explanation": "Schufa – formerly the 'Protective Association for General Credit Security' – is a private German credit agency based in Wiesbaden. It offers its contract partners a score: an estimate of how likely a loan is to be serviced, that is, repaid."
+      }
+    }
+  },
+  {
+    "id": "e75",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist die Hauptaufgabe des Internationalen Währungsfonds (IWF)?",
+    "options": [
+      "Kredite an Länder, denen in Zahlungsschwierigkeiten Währungsreserven fehlen",
+      "Er druckt das Geld für alle Länder der Welt",
+      "Er legt den Leitzins im Euroraum fest",
+      "Er verwaltet das Gold der Vereinten Nationen"
+    ],
+    "correct_index": 0,
+    "explanation": "Hauptaufgabe des IWF ist es, Ländern Kredite zu geben, die nicht genug Währungsreserven haben und in Zahlungsbilanzschwierigkeiten geraten sind. Er ist eine Sonderorganisation der Vereinten Nationen mit Sitz in Washington. Wie seine Schwesterorganisation, die Weltbank, entstand er aus dem 1944 geschaffenen Bretton-Woods-System; an der Konferenz nahmen 44 Nationen teil.",
+    "difficulty": 3,
+    "tags": [
+      "Wirtschaft",
+      "Institutionen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Internationaler Währungsfonds",
+    "source_url": "https://de.wikipedia.org/wiki/Internationaler_Währungsfonds",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the main task of the International Monetary Fund (IMF)?",
+        "options": [
+          "Lending to countries that lack currency reserves in payment difficulties",
+          "Printing the money for every country in the world",
+          "Setting the key interest rate in the euro area",
+          "Managing the gold of the United Nations"
+        ],
+        "explanation": "The IMF's main task is to lend to countries that do not have enough currency reserves and have run into balance-of-payments difficulties. It is a specialised agency of the United Nations based in Washington. Like its sister organisation, the World Bank, it grew out of the Bretton Woods system created in 1944; 44 nations took part in the conference."
+      }
+    }
   }
 ]
