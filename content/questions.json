@@ -67521,5 +67521,1969 @@
         "explanation": "Artemisia Gentileschi was an Italian painter of the Baroque. In 1616 she was given the honour of being the first woman admitted to the Florentine art academy – at a time when women painters had hardly any access to training. Today she is counted among the important painters of her era."
       }
     }
+  },
+  {
+    "id": "sp93",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Im Tennis und im Fußball hilft manchmal ein System namens „Hawk-Eye“ (Falkenauge). Was macht es?",
+    "options": [
+      "Es zählt die Zuschauer im Stadion",
+      "Es misst die Laufstrecke der Schiedsrichter",
+      "Es verfolgt mit Kameras die Flugbahn des Balls",
+      "Es prüft den Luftdruck im Ball"
+    ],
+    "correct_index": 2,
+    "explanation": "Hawk-Eye ist ein computergestütztes System zur Ballverfolgung. Mehrere Hochgeschwindigkeitskameras filmen den Ball, und ein Rechner bestimmt daraus seine Bahn. So lässt sich im Nachhinein klären, ob ein Ball im Aus war oder die Torlinie überquert hat.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Tennis",
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hawk-Eye",
+    "source_url": "https://de.wikipedia.org/wiki/Hawk-Eye",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In tennis and football a system called 'Hawk-Eye' sometimes helps out. What does it do?",
+        "options": [
+          "It counts the spectators in the stadium",
+          "It measures how far the referees run",
+          "It tracks the ball's flight path with cameras",
+          "It checks the air pressure in the ball"
+        ],
+        "explanation": "Hawk-Eye is a computer-based ball-tracking system. Several high-speed cameras film the ball, and a computer works out its path. That makes it possible to check afterwards whether a ball was out or crossed the goal line."
+      }
+    }
+  },
+  {
+    "id": "sp94",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Boßeln ist vor allem in Ostfriesland beliebt. Was ist das Ziel des Spiels?",
+    "options": [
+      "Eine Kugel in einen Korb zu werfen",
+      "Eine Kugel möglichst lange in der Luft zu halten",
+      "Möglichst viele Kegel mit einem Wurf umzuwerfen",
+      "Eine Kugel mit möglichst wenigen Würfen über eine Strecke zu bringen"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Boßeln wirft man eine Kugel über eine festgelegte Strecke – oft eine Landstraße – und versucht, dafür möglichst wenige Würfe zu brauchen. Ursprünglich ist es ein Mannschaftssport. Hochburgen sind unter anderem Ostfriesland und das Emsland.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Deutschland",
+      "Präzision"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Boßeln",
+    "source_url": "https://de.wikipedia.org/wiki/Boßeln",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "'Boßeln' is especially popular in East Frisia in northern Germany. What is the aim of the game?",
+        "options": [
+          "To throw a ball into a basket",
+          "To keep a ball in the air for as long as possible",
+          "To knock over as many pins as possible with one throw",
+          "To get a ball along a course with as few throws as possible"
+        ],
+        "explanation": "In Boßeln you throw a ball along a fixed course – often a country road – and try to need as few throws as possible. It is originally a team sport. Its strongholds include East Frisia and the Emsland region."
+      }
+    }
+  },
+  {
+    "id": "sp95",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Schachboxen wechseln sich Schach und Boxen ab. Wie viele Runden sehen die klassischen Regeln insgesamt vor?",
+    "options": [
+      "Elf",
+      "Drei",
+      "Sechzehn",
+      "Vierundzwanzig"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein klassischer Schachboxkampf geht über elf Runden: sechs im Schach und fünf im Boxen, immer im Wechsel. Er beginnt und endet mit einer Schachrunde. Gewinnen kann man am Brett oder im Ring – man muss also beides können.",
+    "difficulty": 2,
+    "tags": [
+      "Kampfsport",
+      "Schach",
+      "Sport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schachboxen",
+    "source_url": "https://de.wikipedia.org/wiki/Schachboxen",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In chess boxing, chess and boxing alternate. How many rounds do the classic rules provide for in total?",
+        "options": [
+          "Eleven",
+          "Three",
+          "Sixteen",
+          "Twenty-four"
+        ],
+        "explanation": "A classic chess boxing bout lasts eleven rounds: six of chess and five of boxing, always alternating. It begins and ends with a chess round. You can win at the board or in the ring – so you need to be good at both."
+      }
+    }
+  },
+  {
+    "id": "sp96",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist beim Mannschaftssport Ultimate (Ultimate Frisbee) selbst bei großen Turnieren ungewöhnlich?",
+    "options": [
+      "Es gibt keine Punkte",
+      "Es wird ohne Schiedsrichter gespielt",
+      "Jede Mannschaft hat nur einen Spieler",
+      "Die Scheibe darf den Boden berühren, so oft man will"
+    ],
+    "correct_index": 1,
+    "explanation": "Ultimate wird bei allen Wettbewerben ohne Schiedsrichter gespielt. Die Spieler regeln strittige Situationen selbst – nach dem „Spirit of the Game“, der Fair Play und Spaß am Spiel in den Vordergrund stellt. Einen Punkt gibt es, wenn die Scheibe in der gegnerischen Endzone gefangen wird.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Fairness",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ultimate",
+    "source_url": "https://de.wikipedia.org/wiki/Ultimate",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is unusual about the team sport Ultimate (Ultimate Frisbee), even at big tournaments?",
+        "options": [
+          "There are no points",
+          "It is played without referees",
+          "Each team has only one player",
+          "The disc may touch the ground as often as you like"
+        ],
+        "explanation": "Ultimate is played without referees at all competitions. The players settle disputed situations themselves – following the 'Spirit of the Game', which puts fair play and fun first. A point is scored when the disc is caught in the opponents' end zone."
+      }
+    }
+  },
+  {
+    "id": "sp97",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Korfball ähnelt dem Basketball. Aus welchem Land stammt die Sportart?",
+    "options": [
+      "Aus Japan",
+      "Aus Brasilien",
+      "Aus den Niederlanden",
+      "Aus Kanada"
+    ],
+    "correct_index": 2,
+    "explanation": "Korfball wurde von dem Niederländer Nico Broekhuysen entwickelt und 1902 bekannt gemacht. Der Name kommt vom niederländischen Wort „korf“ für Korb. Wie beim Basketball muss der Ball von oben durch einen Korb fallen.",
+    "difficulty": 2,
+    "tags": [
+      "Ballsport",
+      "Sport",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Korfball",
+    "source_url": "https://de.wikipedia.org/wiki/Korfball",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Korfball resembles basketball. Which country does the sport come from?",
+        "options": [
+          "From Japan",
+          "From Brazil",
+          "From the Netherlands",
+          "From Canada"
+        ],
+        "explanation": "Korfball was developed by the Dutchman Nico Broekhuysen and made public in 1902. The name comes from the Dutch word 'korf' for basket. As in basketball, the ball has to drop through a basket from above."
+      }
+    }
+  },
+  {
+    "id": "sp98",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was schleudern Sportlerinnen und Sportler beim Hammerwurf eigentlich durch die Luft?",
+    "options": [
+      "Einen Speer mit schwerem Kopf",
+      "Einen Zimmermannshammer aus Holz",
+      "Eine flache Scheibe aus Metall",
+      "Eine Metallkugel an einem Stahldraht"
+    ],
+    "correct_index": 3,
+    "explanation": "Der „Hammer“ ist heute eine Metallkugel an einem Stahldraht mit Griff. Bei den Männern wiegt er genauso viel wie die Kugel beim Kugelstoßen. Vor dem Abwurf dreht man sich im Wurfkreis, um den Hammer möglichst stark zu beschleunigen.",
+    "difficulty": 1,
+    "tags": [
+      "Leichtathletik",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hammerwurf",
+    "source_url": "https://de.wikipedia.org/wiki/Hammerwurf",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do athletes actually hurl through the air in the hammer throw?",
+        "options": [
+          "A spear with a heavy head",
+          "A wooden carpenter's hammer",
+          "A flat metal disc",
+          "A metal ball on a steel wire"
+        ],
+        "explanation": "Today the 'hammer' is a metal ball on a steel wire with a handle. For men it weighs the same as the shot in the shot put. Before releasing it, the athlete spins in the throwing circle to speed the hammer up as much as possible."
+      }
+    }
+  },
+  {
+    "id": "sp99",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Staffellauf: Einer Läuferin fällt der Stab auf die Bahn. Was gilt?",
+    "options": [
+      "Sie darf ihn selbst wieder aufheben und weiterlaufen",
+      "Die Staffel ist sofort disqualifiziert",
+      "Der nächste Läufer darf ohne Stab starten",
+      "Das Rennen wird für alle neu gestartet"
+    ],
+    "correct_index": 0,
+    "explanation": "Den Stab zu verlieren führt nicht zur Disqualifikation – solange die Athletin ihn selbst wieder aufhebt. Zeit kostet das natürlich trotzdem. Übergeben werden muss der Stab innerhalb eines markierten Wechselraums.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik",
+      "Olympia",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Staffellauf",
+    "source_url": "https://de.wikipedia.org/wiki/Staffellauf",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Relay race: a runner drops the baton on the track. What applies?",
+        "options": [
+          "She may pick it up herself and carry on",
+          "The team is disqualified immediately",
+          "The next runner may start without the baton",
+          "The race is restarted for everyone"
+        ],
+        "explanation": "Losing the baton does not lead to disqualification – as long as the athlete picks it up again herself. It still costs time, of course. The baton has to be handed over inside a marked changeover zone."
+      }
+    }
+  },
+  {
+    "id": "sp100",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Womit wird der Ball beim Radball in der Regel gespielt?",
+    "options": [
+      "Mit einem Holzschläger",
+      "Mit dem Fahrrad",
+      "Mit dem Kopf",
+      "Mit einem Netz"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Radball sitzen die Spieler auf speziellen Fahrrädern und spielen den Ball mit dem Rad auf Tore. Am weitesten verbreitet ist der 2er-Radball in der Halle: zwei Mannschaften mit je zwei Spielern. Der Ball wiegt etwa 600 Gramm.",
+    "difficulty": 1,
+    "tags": [
+      "Radsport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radball",
+    "source_url": "https://de.wikipedia.org/wiki/Radball",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In cycle ball, what is the ball normally played with?",
+        "options": [
+          "With a wooden bat",
+          "With the bicycle",
+          "With the head",
+          "With a net"
+        ],
+        "explanation": "In cycle ball the players sit on special bicycles and use the bike to play the ball at goals. The most common form is two-a-side cycle ball indoors: two teams of two players each. The ball weighs about 600 grams."
+      }
+    }
+  },
+  {
+    "id": "sp101",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche dieser Sportarten war von 1900 bis 1920 olympisch?",
+    "options": [
+      "Seilspringen",
+      "Sackhüpfen",
+      "Tauziehen",
+      "Armdrücken"
+    ],
+    "correct_index": 2,
+    "explanation": "Tauziehen gehörte von 1900 bis 1920 zum Programm der Olympischen Spiele. Zwei Mannschaften ziehen dabei an den beiden Hälften eines langen Seils in entgegengesetzte Richtungen. Heute ist Tauziehen eine eigenständige Sportart mit eigenem Weltverband.",
+    "difficulty": 2,
+    "tags": [
+      "Olympia",
+      "Sport",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tauziehen",
+    "source_url": "https://de.wikipedia.org/wiki/Tauziehen",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these sports was an Olympic event from 1900 to 1920?",
+        "options": [
+          "Rope skipping",
+          "Sack racing",
+          "Tug of war",
+          "Arm wrestling"
+        ],
+        "explanation": "Tug of war was part of the Olympic Games programme from 1900 to 1920. Two teams pull on the two halves of a long rope in opposite directions. Today tug of war is a sport in its own right with its own world federation."
+      }
+    }
+  },
+  {
+    "id": "sp102",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was brauchen Läufer beim Orientierungslauf, um die Kontrollpunkte im Gelände zu finden?",
+    "options": [
+      "Eine Stoppuhr und Kreide",
+      "Ein Fernglas und eine Pfeife",
+      "Einen Spürhund",
+      "Karte und Kompass"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Orientierungslauf sind im Gelände Kontrollpunkte festgelegt, die man mit Landkarte und Kompass finden muss. Die Route dorthin wählt jeder selbst. Deshalb zählt neben schnellen Beinen auch ein kluger Kopf.",
+    "difficulty": 1,
+    "tags": [
+      "Ausdauer",
+      "Sport",
+      "Karten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Orientierungslauf",
+    "source_url": "https://de.wikipedia.org/wiki/Orientierungslauf",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do runners need in orienteering to find the control points in the terrain?",
+        "options": [
+          "A stopwatch and chalk",
+          "Binoculars and a whistle",
+          "A tracking dog",
+          "A map and a compass"
+        ],
+        "explanation": "In orienteering, control points are set out in the terrain and have to be found with a map and a compass. Everyone chooses their own route. So a clever head counts as much as fast legs."
+      }
+    }
+  },
+  {
+    "id": "sp103",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Padel ist vom Tennis abgeleitet. Was ist die wichtigste Besonderheit?",
+    "options": [
+      "Die Wände rund ums Feld gehören zum Spiel",
+      "Es wird ohne Netz gespielt",
+      "Der Ball darf nie aufspringen",
+      "Man spielt mit zwei Bällen gleichzeitig"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Padel werden die Wände und Zäune rund um das Spielfeld ins Spiel einbezogen – der Ball darf also von ihnen abprallen. Die Schläger haben keine Bespannung und sind kürzer als Tennisschläger. Im Wettbewerb wird ausschließlich im Doppel gespielt. Die Sportart stammt aus Mexiko.",
+    "difficulty": 2,
+    "tags": [
+      "Tennis",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Padel",
+    "source_url": "https://de.wikipedia.org/wiki/Padel",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Padel is derived from tennis. What is its most important special feature?",
+        "options": [
+          "The walls around the court are part of the game",
+          "It is played without a net",
+          "The ball must never bounce",
+          "You play with two balls at once"
+        ],
+        "explanation": "In padel the walls and fences around the court are part of play – so the ball may bounce off them. The rackets have no strings and are shorter than tennis rackets. In competition it is played only as doubles. The sport comes from Mexico."
+      }
+    }
+  },
+  {
+    "id": "sp104",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welches besondere Hindernis müssen Läufer beim 3000-Meter-Hindernislauf in jeder Runde überwinden?",
+    "options": [
+      "Eine Sandgrube",
+      "Einen Wassergraben",
+      "Eine Kletterwand",
+      "Einen Reifenstapel"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim 3000-Meter-Hindernislauf sind pro Runde vier Hindernisse und zusätzlich ein Hindernis mit Wassergraben zu überwinden. Der englische Name „steeplechase“ erinnert an den Ursprung der Disziplin. Olympisch ist die Strecke seit 1900.",
+    "difficulty": 1,
+    "tags": [
+      "Leichtathletik",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hindernislauf",
+    "source_url": "https://de.wikipedia.org/wiki/Hindernislauf",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which special obstacle do runners have to clear on every lap of the 3000-metre steeplechase?",
+        "options": [
+          "A sand pit",
+          "A water jump",
+          "A climbing wall",
+          "A pile of tyres"
+        ],
+        "explanation": "In the 3000-metre steeplechase there are four barriers per lap plus one barrier with a water jump. The English name 'steeplechase' recalls the origin of the event. It has been an Olympic distance since 1900."
+      }
+    }
+  },
+  {
+    "id": "sp105",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Dreisprung: Mit welchem Fuß muss man nach dem ersten Sprung („Hop“) landen?",
+    "options": [
+      "Mit beiden Füßen gleichzeitig",
+      "Mit dem anderen Fuß",
+      "Mit demselben Fuß, mit dem man abgesprungen ist",
+      "Das ist frei wählbar"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Dreisprung besteht aus drei Sprüngen direkt nacheinander: Hop, Step und Jump. Nach dem Hop landet man auf demselben Fuß, mit dem man abgesprungen ist, nach dem Step auf dem anderen – und der Jump endet in der Sandgrube. Die Folge ist also zum Beispiel rechts, rechts, links.",
+    "difficulty": 3,
+    "tags": [
+      "Leichtathletik",
+      "Olympia",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dreisprung",
+    "source_url": "https://de.wikipedia.org/wiki/Dreisprung",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Triple jump: which foot must you land on after the first jump (the 'hop')?",
+        "options": [
+          "Both feet at once",
+          "The other foot",
+          "The same foot you took off from",
+          "You are free to choose"
+        ],
+        "explanation": "The triple jump consists of three jumps in a row: hop, step and jump. After the hop you land on the same foot you took off from, after the step on the other one – and the jump ends in the sand pit. So the sequence is, for example, right, right, left."
+      }
+    }
+  },
+  {
+    "id": "e76",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Normalerweise kaufen Menschen weniger von etwas, wenn es teurer wird. Das Giffen-Paradoxon beschreibt eine Ausnahme. An welchem Gut wurde sie zuerst beschrieben?",
+    "options": [
+      "Schmuck",
+      "Brot",
+      "Kutschen",
+      "Tulpen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Beobachtung, die dem schottischen Statistiker Robert Giffen zugeschrieben wird: Haushalte am Existenzminimum kauften mehr Brot, als der Brotpreis stieg. Der Grund: Wird das Grundnahrungsmittel teurer, bleibt kein Geld mehr für Teureres wie Fleisch – also isst man noch mehr Brot. Solche Fälle sind sehr selten.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft",
+      "Preise",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Giffen-Paradoxon",
+    "source_url": "https://de.wikipedia.org/wiki/Giffen-Paradoxon",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Normally people buy less of something when it gets more expensive. The Giffen paradox describes an exception. Which good was it first described for?",
+        "options": [
+          "Jewellery",
+          "Bread",
+          "Carriages",
+          "Tulips"
+        ],
+        "explanation": "The observation attributed to the Scottish statistician Robert Giffen: households living at subsistence level bought more bread when the price of bread rose. The reason: if the staple food gets dearer, there is no money left for pricier things like meat – so people eat even more bread. Such cases are very rare."
+      }
+    }
+  },
+  {
+    "id": "e77",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bezeichnet man als „Seigniorage“ oder „Schlagschatz“?",
+    "options": [
+      "Den Lohn eines Münzprägers",
+      "Die Gebühr für ein Bankschließfach",
+      "Den Gewinn, der beim Ausgeben von Geld entsteht",
+      "Eine Steuer auf Goldschmuck"
+    ],
+    "correct_index": 2,
+    "explanation": "Seigniorage ist der Gewinn, den die Zentralbank durch die Ausgabe von Geld erzielt. Früher war das der Unterschied zwischen dem Nennwert einer Münze und dem Wert ihres Metalls. Bei sehr kleinen Münzen kann er sogar negativ sein – dann kostet die Herstellung mehr, als die Münze wert ist.",
+    "difficulty": 3,
+    "tags": [
+      "Geld",
+      "Geldpolitik",
+      "Münzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seigniorage",
+    "source_url": "https://de.wikipedia.org/wiki/Seigniorage",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is meant by 'seigniorage'?",
+        "options": [
+          "The wage of a coin minter",
+          "The fee for a safe deposit box",
+          "The profit made by issuing money",
+          "A tax on gold jewellery"
+        ],
+        "explanation": "Seigniorage is the profit a central bank makes by issuing money. In the past it was the difference between a coin's face value and the value of its metal. For very small coins it can even be negative – then making the coin costs more than the coin is worth."
+      }
+    }
+  },
+  {
+    "id": "e78",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wann herrscht zwischen zwei Ländern „Kaufkraftparität“?",
+    "options": [
+      "Wenn beide Länder gleich viel Gold besitzen",
+      "Wenn beide Länder dieselbe Währung haben",
+      "Wenn in beiden Ländern gleich viele Menschen arbeiten",
+      "Wenn man für umgerechnet gleich viel Geld denselben Warenkorb bekommt"
+    ],
+    "correct_index": 3,
+    "explanation": "Kaufkraftparität bedeutet: Über den Wechselkurs umgerechnet haben zwei Währungen dieselbe Kaufkraft – man kann sich also denselben Warenkorb leisten. „Parität“ kommt vom lateinischen „par“ für gleich. Mit diesem Maß lassen sich Einkommen und Preise in verschiedenen Ländern fairer vergleichen.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft",
+      "Währungen",
+      "Preise"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaufkraftparität",
+    "source_url": "https://de.wikipedia.org/wiki/Kaufkraftparität",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When does 'purchasing power parity' exist between two countries?",
+        "options": [
+          "When both countries own the same amount of gold",
+          "When both countries have the same currency",
+          "When the same number of people work in both countries",
+          "When the same basket of goods costs the same after conversion"
+        ],
+        "explanation": "Purchasing power parity means that, converted at the exchange rate, two currencies have the same purchasing power – you can afford the same basket of goods. 'Parity' comes from the Latin 'par', meaning equal. The measure allows a fairer comparison of incomes and prices in different countries."
+      }
+    }
+  },
+  {
+    "id": "e79",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was war das Besondere an Banknoten in einem Goldstandard?",
+    "options": [
+      "Man konnte sie in Gold umtauschen",
+      "Sie waren aus dünnem Goldblech",
+      "Sie galten nur für den Kauf von Gold",
+      "Sie verloren jedes Jahr an Wert"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Goldstandard besteht die Währung aus Goldmünzen oder aus Banknoten, die einen Anspruch auf Gold darstellen und in Gold eingetauscht werden können. Die Notenbank garantiert dafür einen festen Umtauschkurs. Zwischen Ländern mit Goldstandard ergeben sich dadurch feste Wechselkurse.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Geschichte",
+      "Währungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Goldstandard",
+    "source_url": "https://de.wikipedia.org/wiki/Goldstandard",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was special about banknotes under a gold standard?",
+        "options": [
+          "They could be exchanged for gold",
+          "They were made of thin gold foil",
+          "They could only be used to buy gold",
+          "They lost value every year"
+        ],
+        "explanation": "Under a gold standard the currency consists of gold coins or of banknotes that represent a claim to gold and can be exchanged for gold. The central bank guarantees a fixed rate for this. Between countries on the gold standard this results in fixed exchange rates."
+      }
+    }
+  },
+  {
+    "id": "e80",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "In der Wirtschaft spricht man vom „Trittbrettfahrer“, wenn jemand etwas nutzt, ohne dafür zu bezahlen. Woher kommt der Name?",
+    "options": [
+      "Von Kindern auf Tretrollern",
+      "Von Akrobaten, die auf Pferden standen",
+      "Vom Schwarzfahren auf den Trittbrettern von Straßenbahnen",
+      "Von Matrosen auf der Schiffsleiter"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name leitet sich vom Schwarzfahren auf den Trittbrettern von Straßenbahnen ab. Das Problem dahinter: Bei Dingen wie Straßenbeleuchtung oder Deichen kann man niemanden von der Nutzung ausschließen. Also profitieren auch die, die nichts beitragen – und am Ende will vielleicht niemand mehr zahlen.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft",
+      "Wortherkunft",
+      "Entscheidungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trittbrettfahrerproblem",
+    "source_url": "https://de.wikipedia.org/wiki/Trittbrettfahrerproblem",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In economics a 'free rider' (German: 'Trittbrettfahrer', literally 'running-board rider') is someone who uses something without paying. Where does the German name come from?",
+        "options": [
+          "From children on kick scooters",
+          "From acrobats who stood on horses",
+          "From riding on tram running boards without a ticket",
+          "From sailors on the ship's ladder"
+        ],
+        "explanation": "The German name comes from riding without a ticket on the running boards of trams. The problem behind it: with things like street lighting or dykes, nobody can be excluded from using them. So even those who contribute nothing benefit – and in the end perhaps nobody wants to pay."
+      }
+    }
+  },
+  {
+    "id": "e81",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was beschreibt der „Schweinezyklus“?",
+    "options": [
+      "Die Fütterungszeiten im Stall",
+      "Den Lebenslauf eines Hausschweins",
+      "Den Weg des Geldes vom Sparschwein zur Bank",
+      "Ein regelmäßiges Auf und Ab von Angebot und Preis"
+    ],
+    "correct_index": 3,
+    "explanation": "Sind die Preise hoch, züchten viele Bauern mehr Schweine. Weil die Aufzucht Zeit braucht, kommt das größere Angebot erst später auf den Markt – dann gibt es zu viel, und die Preise fallen. Daraufhin wird weniger gezüchtet, das Angebot wird knapp, die Preise steigen wieder. Dieses verzögerte Auf und Ab gibt es auch in anderen Branchen.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft",
+      "Preise",
+      "Landwirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schweinezyklus",
+    "source_url": "https://de.wikipedia.org/wiki/Schweinezyklus",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the 'pork cycle' describe?",
+        "options": [
+          "Feeding times in the pigsty",
+          "The life of a domestic pig",
+          "The path of money from the piggy bank to the bank",
+          "A regular up and down of supply and price"
+        ],
+        "explanation": "When prices are high, many farmers raise more pigs. Because raising them takes time, the larger supply only reaches the market later – then there is too much and prices fall. So fewer pigs are raised, supply gets short and prices rise again. This delayed up and down exists in other industries too."
+      }
+    }
+  },
+  {
+    "id": "e82",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Aus welchen beiden Wörtern ist „Stagflation“ zusammengesetzt?",
+    "options": [
+      "Stagnation und Inflation",
+      "Staat und Deflation",
+      "Stahl und Inflation",
+      "Stagnation und Fluktuation"
+    ],
+    "correct_index": 0,
+    "explanation": "Stagflation beschreibt eine Lage, in der die Wirtschaft nicht mehr wächst (Stagnation) und gleichzeitig die Preise steigen (Inflation). Beobachtet wurde das in den 1970er Jahren in fast allen westlichen Volkswirtschaften, als der Ölpreis stark stieg.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft",
+      "Wortherkunft",
+      "Preise"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stagflation",
+    "source_url": "https://de.wikipedia.org/wiki/Stagflation",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two words is 'stagflation' made up of?",
+        "options": [
+          "Stagnation and inflation",
+          "State and deflation",
+          "Steel and inflation",
+          "Stagnation and fluctuation"
+        ],
+        "explanation": "Stagflation describes a situation in which the economy stops growing (stagnation) while prices rise at the same time (inflation). It was observed in the 1970s in almost all Western economies, when the price of oil rose sharply."
+      }
+    }
+  },
+  {
+    "id": "e83",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Beim Veblen-Effekt steigt die Nachfrage nach einem Gut, obwohl es teurer wird. Warum?",
+    "options": [
+      "Weil das Gut bald verboten wird",
+      "Weil der hohe Preis den eigenen Status zeigen soll",
+      "Weil teure Dinge immer länger halten",
+      "Weil der Staat den Kauf vorschreibt"
+    ],
+    "correct_index": 1,
+    "explanation": "Manche Käufer wollen mit teuren Dingen zeigen, was sie sich leisten können. Gerade der hohe Preis macht das Gut für sie attraktiv – deshalb heißt der Effekt auch Prestigeeffekt. Benannt ist er nach dem US-amerikanischen Ökonomen Thorstein Veblen, der das Phänomen 1899 beschrieb.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft",
+      "Preise",
+      "Personen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Veblen-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Veblen-Effekt",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "With the Veblen effect, demand for a good rises although it gets more expensive. Why?",
+        "options": [
+          "Because the good will soon be banned",
+          "Because the high price is meant to show status",
+          "Because expensive things always last longer",
+          "Because the state orders people to buy it"
+        ],
+        "explanation": "Some buyers want to use expensive things to show what they can afford. The high price itself makes the good attractive to them – which is why it is also called the prestige effect. It is named after the American economist Thorstein Veblen, who described the phenomenon in 1899."
+      }
+    }
+  },
+  {
+    "id": "e84",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Der „Kobra-Effekt“ geht auf eine Geschichte aus Britisch-Indien zurück: Für jede tote Kobra gab es eine Prämie. Was soll dann passiert sein?",
+    "options": [
+      "Die Leute weigerten sich, das Geld anzunehmen",
+      "Die Kobras zogen in ein anderes Land",
+      "Die Leute züchteten Kobras, um die Prämie zu kassieren",
+      "Die Kobras wurden zu Haustieren"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Geschichte nach begannen die Menschen, Kobras zu züchten und zu töten, um weiter die Prämie zu bekommen. Als das Kopfgeld abgeschafft wurde, ließen die Züchter die Tiere frei – am Ende gab es mehr Kobras als vorher. Ob es sich wirklich so zugetragen hat, ist nicht gesichert. Der Begriff steht für Maßnahmen, die ein Problem durch falsche Anreize verschlimmern.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft",
+      "Entscheidungen",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kobra-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Kobra-Effekt",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'cobra effect' goes back to a story from British India: a bounty was paid for every dead cobra. What is said to have happened next?",
+        "options": [
+          "People refused to accept the money",
+          "The cobras moved to another country",
+          "People bred cobras to collect the bounty",
+          "The cobras became pets"
+        ],
+        "explanation": "According to the story, people began to breed and kill cobras in order to keep getting the bounty. When the bounty was abolished, the breeders set the animals free – in the end there were more cobras than before. Whether it really happened that way is not certain. The term stands for measures that make a problem worse through the wrong incentives."
+      }
+    }
+  },
+  {
+    "id": "e85",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "„Bankrott“ kommt vom italienischen „banca rotta“. Was bedeutet das wörtlich?",
+    "options": [
+      "Geschlossene Tür",
+      "Leere Kasse",
+      "Rotes Buch",
+      "Zerbrochene Bank (Tisch)"
+    ],
+    "correct_index": 3,
+    "explanation": "Italienische Geldwechsler der Renaissance boten ihre Dienste auf Tischen an – „banco“ heißt Ladentisch oder Bank. Konnte ein Geldwechsler seine Verpflichtungen nicht erfüllen, wurde sein Tisch zerstört. Daher „banca rotta“, die zerbrochene Bank. Heute meint Bankrott die Zahlungsunfähigkeit.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Geld",
+      "Bank"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bankrott",
+    "source_url": "https://de.wikipedia.org/wiki/Bankrott",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "'Bankrupt' comes from the Italian 'banca rotta'. What does that mean literally?",
+        "options": [
+          "Closed door",
+          "Empty till",
+          "Red book",
+          "Broken bench (table)"
+        ],
+        "explanation": "Italian money changers of the Renaissance offered their services at tables – 'banco' means counter or bench. If a money changer could not meet his obligations, his table was destroyed. Hence 'banca rotta', the broken bench. Today bankruptcy means being unable to pay."
+      }
+    }
+  },
+  {
+    "id": "e86",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was besagt das Engelsche Gesetz?",
+    "options": [
+      "Je höher das Einkommen, desto kleiner der Anteil, der für Essen ausgegeben wird",
+      "Je höher das Einkommen, desto mehr Kinder hat eine Familie",
+      "Je mehr Geld im Umlauf ist, desto weniger wird gearbeitet",
+      "Je größer eine Stadt, desto billiger sind Lebensmittel"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Statistiker Ernst Engel stellte fest: Mit steigendem Einkommen sinkt der Anteil, den ein Haushalt für die Ernährung ausgibt. Wer mehr verdient, gibt zwar oft mehr Geld für Essen aus – aber eben einen kleineren Teil seines Einkommens. Es gilt als eines der am besten belegten empirischen Gesetze der Volkswirtschaftslehre.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft",
+      "Statistik",
+      "Personen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Engelsches Gesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Engelsches Gesetz",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Engel's law say?",
+        "options": [
+          "The higher the income, the smaller the share spent on food",
+          "The higher the income, the more children a family has",
+          "The more money in circulation, the less people work",
+          "The bigger a city, the cheaper food is"
+        ],
+        "explanation": "The statistician Ernst Engel found that as income rises, the share a household spends on food falls. People who earn more often spend more money on food – but a smaller part of their income. It is considered one of the best-documented empirical laws in economics."
+      }
+    }
+  },
+  {
+    "id": "e87",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welche beiden Dinge vergleicht das klassische Wertparadoxon?",
+    "options": [
+      "Äpfel und Birnen",
+      "Wasser und Diamanten",
+      "Gold und Silber",
+      "Brot und Spiele"
+    ],
+    "correct_index": 1,
+    "explanation": "Wasser ist lebenswichtig, kostet aber wenig – Diamanten braucht niemand zum Leben, sie sind aber sehr teuer. Schon 1705 wurde dieser Gegensatz von hohem Gebrauchswert und geringem Tauschwert beschrieben. Die Auflösung: Der Preis hängt auch davon ab, wie knapp etwas ist.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft",
+      "Preise",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klassisches Wertparadoxon",
+    "source_url": "https://de.wikipedia.org/wiki/Klassisches Wertparadoxon",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two things does the classic paradox of value compare?",
+        "options": [
+          "Apples and pears",
+          "Water and diamonds",
+          "Gold and silver",
+          "Bread and circuses"
+        ],
+        "explanation": "Water is vital but costs little – nobody needs diamonds to live, yet they are very expensive. This contrast between high use value and low exchange value was described as early as 1705. The solution: price also depends on how scarce something is."
+      }
+    }
+  },
+  {
+    "id": "b101",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Die Methode „Kanban“ steuert die Produktion nach dem tatsächlichen Verbrauch. In welchem Land wurde sie entwickelt?",
+    "options": [
+      "In Deutschland",
+      "In Schweden",
+      "In den USA",
+      "In Japan"
+    ],
+    "correct_index": 3,
+    "explanation": "Das ursprüngliche Kanban-System wurde 1947 von Taiichi Ōno beim japanischen Autobauer Toyota entwickelt. Die Idee: Nachgeliefert wird nur, was tatsächlich verbraucht wurde – so bleiben die Lager klein. Das Wort bedeutet so viel wie Karte oder Schild, denn Kärtchen melden den Bedarf.",
+    "difficulty": 2,
+    "tags": [
+      "Produktion",
+      "Management",
+      "Business"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kanban",
+    "source_url": "https://de.wikipedia.org/wiki/Kanban",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'kanban' method controls production according to actual consumption. In which country was it developed?",
+        "options": [
+          "In Germany",
+          "In Sweden",
+          "In the USA",
+          "In Japan"
+        ],
+        "explanation": "The original kanban system was developed in 1947 by Taiichi Ōno at the Japanese car maker Toyota. The idea: only what has actually been used is replenished – so stocks stay small. The word means something like card or sign, because little cards signal what is needed."
+      }
+    }
+  },
+  {
+    "id": "b102",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist das Ziel eines Brainstormings?",
+    "options": [
+      "In der Gruppe viele neue Ideen zu sammeln",
+      "Die beste Idee geheim zu halten",
+      "Fehler von Kollegen aufzulisten",
+      "Einen Vertrag Wort für Wort zu prüfen"
+    ],
+    "correct_index": 0,
+    "explanation": "Brainstorming ist eine Methode zur Ideenfindung in der Gruppe. Entwickelt hat sie Alex F. Osborn im Jahr 1939. Der Name kommt von der Vorstellung, mit dem Gehirn ein Problem zu „stürmen“ – „using the brain to storm a problem“.",
+    "difficulty": 1,
+    "tags": [
+      "Business",
+      "Kreativität",
+      "Grundbegriffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brainstorming",
+    "source_url": "https://de.wikipedia.org/wiki/Brainstorming",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the aim of a brainstorming session?",
+        "options": [
+          "To collect many new ideas as a group",
+          "To keep the best idea secret",
+          "To list colleagues' mistakes",
+          "To check a contract word by word"
+        ],
+        "explanation": "Brainstorming is a method for finding ideas in a group. It was developed by Alex F. Osborn in 1939. The name comes from the notion of 'using the brain to storm a problem'."
+      }
+    }
+  },
+  {
+    "id": "b103",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist eine „Prokura“?",
+    "options": [
+      "Eine Strafe für verspätete Lieferungen",
+      "Eine umfangreiche Vollmacht, für ein Unternehmen zu handeln",
+      "Die Kündigung eines Mitarbeiters",
+      "Ein Rabatt für Stammkunden"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Prokura ist eine umfangreiche geschäftliche Vertretungsmacht, die ein Kaufmann einem Mitarbeiter erteilt. Der Prokurist darf dann im Namen des Unternehmens viele Geschäfte abschließen. Das Wort kommt vom italienischen „procura“ für Vollmacht.",
+    "difficulty": 3,
+    "tags": [
+      "Recht",
+      "Unternehmen",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prokura",
+    "source_url": "https://de.wikipedia.org/wiki/Prokura",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In German commercial law, what is a 'Prokura'?",
+        "options": [
+          "A penalty for late deliveries",
+          "A broad authority to act for a company",
+          "The dismissal of an employee",
+          "A discount for regular customers"
+        ],
+        "explanation": "A 'Prokura' is a broad power of commercial representation that a merchant grants to an employee. The holder may then conclude many kinds of business in the company's name. The word comes from the Italian 'procura', meaning power of attorney."
+      }
+    }
+  },
+  {
+    "id": "b104",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Nach wem ist die Litfaßsäule benannt?",
+    "options": [
+      "Nach einer Stadt in Bayern",
+      "Nach einem römischen Baumeister",
+      "Nach einem Berliner Drucker",
+      "Nach einer Papiersorte"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Litfaßsäule wurde vom Berliner Drucker Ernst Litfaß erfunden und 1854 erstmals verwirklicht. Die Idee: Plakate sollten an festen Säulen hängen, statt überall wild geklebt zu werden. Bis heute dient die runde Säule der Außenwerbung.",
+    "difficulty": 1,
+    "tags": [
+      "Marketing",
+      "Erfindungen",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Litfaßsäule",
+    "source_url": "https://de.wikipedia.org/wiki/Litfaßsäule",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Germany, round advertising pillars are called 'Litfaßsäule'. Who are they named after?",
+        "options": [
+          "After a town in Bavaria",
+          "After a Roman master builder",
+          "After a Berlin printer",
+          "After a type of paper"
+        ],
+        "explanation": "The advertising pillar was invented by the Berlin printer Ernst Litfaß and first put into practice in 1854. The idea: posters should hang on fixed pillars instead of being pasted up everywhere. The round pillar is still used for outdoor advertising today."
+      }
+    }
+  },
+  {
+    "id": "b105",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Manchmal hängt an einem Laden das Schild „Wegen Inventur geschlossen“. Was wird bei einer Inventur gemacht?",
+    "options": [
+      "Neue Mitarbeiter werden eingestellt",
+      "Der Laden wird neu gestrichen",
+      "Alle Preise werden erhöht",
+      "Alles, was das Unternehmen besitzt, wird gezählt und erfasst"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Inventur ist die Bestandsaufnahme der Vermögensgegenstände und Schulden eines Unternehmens zu einem bestimmten Stichtag. Im Laden heißt das: Waren zählen, messen oder wiegen. Das Wort kommt vom lateinischen „invenire“ – etwas finden.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Grundbegriffe",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Inventur",
+    "source_url": "https://de.wikipedia.org/wiki/Inventur",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Sometimes a shop has a sign saying 'Closed for stocktaking'. What happens during stocktaking?",
+        "options": [
+          "New staff are hired",
+          "The shop is repainted",
+          "All prices are raised",
+          "Everything the business owns is counted and recorded"
+        ],
+        "explanation": "Stocktaking is the recording of a company's assets and debts on a particular reference date. In a shop that means counting, measuring or weighing the goods. The German word 'Inventur' comes from the Latin 'invenire' – to find something."
+      }
+    }
+  },
+  {
+    "id": "b106",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Eine Europalette ist genau genormt. Wie viele Nägel halten sie zusammen?",
+    "options": [
+      "78",
+      "12",
+      "40",
+      "150"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Europalette besteht aus elf Brettern und neun Klötzen und wird von genau 78 Nägeln zusammengehalten. Weil alle Paletten gleich sind, können Firmen sie einfach untereinander tauschen.",
+    "difficulty": 3,
+    "tags": [
+      "Logistik",
+      "Normen",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europoolpalette",
+    "source_url": "https://de.wikipedia.org/wiki/Europoolpalette",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A Euro pallet is precisely standardised. How many nails hold it together?",
+        "options": [
+          "78",
+          "12",
+          "40",
+          "150"
+        ],
+        "explanation": "A Euro pallet consists of eleven boards and nine blocks and is held together by exactly 78 nails. Because all pallets are identical, companies can simply swap them with one another."
+      }
+    }
+  },
+  {
+    "id": "b107",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was zeigt ein Gantt-Diagramm?",
+    "options": [
+      "Den Aufbau einer Firma als Baum",
+      "Den zeitlichen Ablauf eines Projekts als Balken",
+      "Die Umsätze als Tortenstücke",
+      "Den Lieferweg auf einer Landkarte"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Gantt-Diagramm ist ein Balkendiagramm für die Terminplanung: Jede Aufgabe ist ein Balken, dessen Länge die Dauer zeigt. Benannt ist es nach dem amerikanischen Ingenieur Henry Gantt. Unabhängig von ihm entwarf der polnische Ingenieur Karol Adamiecki eine ähnliche Methode.",
+    "difficulty": 2,
+    "tags": [
+      "Management",
+      "Diagramme",
+      "Business"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gantt-Diagramm",
+    "source_url": "https://de.wikipedia.org/wiki/Gantt-Diagramm",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a Gantt chart show?",
+        "options": [
+          "A company's structure as a tree",
+          "A project's schedule as bars",
+          "Sales as slices of a pie",
+          "The delivery route on a map"
+        ],
+        "explanation": "A Gantt chart is a bar chart for scheduling: each task is a bar whose length shows its duration. It is named after the American engineer Henry Gantt. Independently of him, the Polish engineer Karol Adamiecki devised a similar method."
+      }
+    }
+  },
+  {
+    "id": "b108",
+    "kind": "question",
+    "category_id": "business",
+    "question": "„Scrum“ ist eine verbreitete Arbeitsweise in Projekten. Aus welcher Sportart stammt der Begriff?",
+    "options": [
+      "Aus dem Rudern",
+      "Aus dem Schach",
+      "Aus dem Rugby",
+      "Aus dem Golf"
+    ],
+    "correct_index": 2,
+    "explanation": "Scrum heißt auf Deutsch „Gedränge“. Im Rugby bezeichnet es eine Aufstellung, bei der die Mannschaften sich dicht zusammenschließen. Als Arbeitsweise wurde Scrum in der Softwareentwicklung bekannt und wird inzwischen in vielen anderen Bereichen eingesetzt.",
+    "difficulty": 2,
+    "tags": [
+      "Management",
+      "Wortherkunft",
+      "Rugby"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Scrum",
+    "source_url": "https://de.wikipedia.org/wiki/Scrum",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "'Scrum' is a widely used way of working in projects. Which sport does the term come from?",
+        "options": [
+          "From rowing",
+          "From chess",
+          "From rugby",
+          "From golf"
+        ],
+        "explanation": "In rugby, a scrum is a formation in which the teams pack closely together. As a way of working, Scrum became known in software development and is now used in many other fields."
+      }
+    }
+  },
+  {
+    "id": "b109",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Eine Firma „least“ ihre Lieferwagen. Was bedeutet das?",
+    "options": [
+      "Sie verkauft sie ins Ausland",
+      "Sie baut sie selbst zusammen",
+      "Sie verschenkt sie an Mitarbeiter",
+      "Sie mietet sie für eine bestimmte Zeit, statt sie zu kaufen"
+    ],
+    "correct_index": 3,
+    "explanation": "Leasing kommt vom englischen „to lease“ – mieten oder pachten. Der Leasinggeber bleibt Eigentümer und überlässt den Gegenstand für eine bestimmte Nutzungsdauer. Der Leasingnehmer muss ihn also nicht selbst kaufen, zahlt aber regelmäßig für die Nutzung.",
+    "difficulty": 2,
+    "tags": [
+      "Finanzierung",
+      "Grundbegriffe",
+      "Unternehmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leasing",
+    "source_url": "https://de.wikipedia.org/wiki/Leasing",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A company 'leases' its delivery vans. What does that mean?",
+        "options": [
+          "It sells them abroad",
+          "It builds them itself",
+          "It gives them away to employees",
+          "It rents them for a set period instead of buying them"
+        ],
+        "explanation": "The lessor remains the owner and hands over the item for a set period of use. So the lessee does not have to buy it, but pays regularly for using it."
+      }
+    }
+  },
+  {
+    "id": "b110",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was behauptet das – halb ernst gemeinte – „Peter-Prinzip“?",
+    "options": [
+      "Der Erste, der eine Idee hat, gewinnt immer",
+      "Jeder wird so lange befördert, bis er mit der Stelle überfordert ist",
+      "Jede Firma braucht genau einen Chef namens Peter",
+      "Wer am lautesten spricht, hat recht"
+    ],
+    "correct_index": 1,
+    "explanation": "Laurence J. Peter stellte 1969 die These auf: In einer Hierarchie wird jeder so lange befördert, wie er auf seiner bisherigen Stelle erfolgreich ist. Übersteigt die neue Stelle seine Fähigkeiten, bleibt er dort hängen. Das Buch gilt als Klassiker der Managementliteratur.",
+    "difficulty": 3,
+    "tags": [
+      "Management",
+      "Bücher",
+      "Arbeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Peter-Prinzip",
+    "source_url": "https://de.wikipedia.org/wiki/Peter-Prinzip",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the – half-serious – 'Peter principle' claim?",
+        "options": [
+          "The first person to have an idea always wins",
+          "Everyone is promoted until the job is too much for them",
+          "Every company needs exactly one boss called Peter",
+          "Whoever speaks loudest is right"
+        ],
+        "explanation": "In 1969 Laurence J. Peter put forward the thesis that in a hierarchy everyone is promoted as long as they succeed in their current position. If the new job exceeds their abilities, they stay stuck there. The book is regarded as a classic of management literature."
+      }
+    }
+  },
+  {
+    "id": "b111",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Das bekannteste „Parkinsonsche Gesetz“ ist ironisch gemeint. Was besagt es?",
+    "options": [
+      "Kunden kaufen immer das Teuerste",
+      "Jede Maschine geht am Freitag kaputt",
+      "Arbeit dehnt sich so weit aus, wie Zeit für sie da ist",
+      "Geld vermehrt sich von allein"
+    ],
+    "correct_index": 2,
+    "explanation": "Der britische Historiker C. Northcote Parkinson veröffentlichte das Gesetz 1955: Arbeit dehnt sich in dem Maß aus, wie Zeit für sie zur Verfügung steht – und nicht danach, wie schwierig sie wirklich ist. Sein Beispiel: eine ältere Dame, die einen halben Tag braucht, um ihrer Nichte eine Postkarte zu schicken.",
+    "difficulty": 3,
+    "tags": [
+      "Management",
+      "Arbeit",
+      "Zeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Parkinsonsche Gesetze",
+    "source_url": "https://de.wikipedia.org/wiki/Parkinsonsche Gesetze",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The best-known 'Parkinson's law' is meant ironically. What does it say?",
+        "options": [
+          "Customers always buy the most expensive item",
+          "Every machine breaks down on a Friday",
+          "Work expands to fill the time available for it",
+          "Money multiplies by itself"
+        ],
+        "explanation": "The British historian C. Northcote Parkinson published the law in 1955: work expands to fill the time available for it – not according to how difficult it really is. His example: an elderly lady who needs half a day to send her niece a postcard."
+      }
+    }
+  },
+  {
+    "id": "b112",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was nennt man im Handel „Quengelware“?",
+    "options": [
+      "Obst, das bald verdirbt",
+      "Ware, die kaputt zurückgegeben wurde",
+      "Spielzeug, das Geräusche macht",
+      "Süßigkeiten und Kleinkram direkt an der Kasse"
+    ],
+    "correct_index": 3,
+    "explanation": "Quengelware sind Artikel, die im Kassenbereich ausliegen – oft auf Augenhöhe von Kindern. Beim Warten in der Schlange quengeln Kinder dann, bis die Eltern etwas kaufen. Auch Erwachsene greifen dort gern spontan zu.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Marketing",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quengelware",
+    "source_url": "https://de.wikipedia.org/wiki/Quengelware",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In German retail, what is 'Quengelware' (literally 'whining goods')?",
+        "options": [
+          "Fruit that will soon go off",
+          "Goods that were returned broken",
+          "Toys that make noises",
+          "Sweets and small items right at the checkout"
+        ],
+        "explanation": "'Quengelware' means items displayed in the checkout area – often at children's eye level. While waiting in the queue, children whine until their parents buy something. Adults also like to grab something there on impulse."
+      }
+    }
+  },
+  {
+    "id": "h54",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Der „Mechanismus von Antikythera“ ist ein antikes Gerät mit Zahnrädern, das Himmels- und Kalenderdaten anzeigte. Wo wurde er im Jahr 1900 gefunden?",
+    "options": [
+      "In einem Schiffswrack vor einer griechischen Insel",
+      "In einer Pyramide in Ägypten",
+      "In einem Brunnen in Rom",
+      "In einer Höhle in Spanien"
+    ],
+    "correct_index": 0,
+    "explanation": "Schwammtaucher entdeckten das Gerät im Jahr 1900 in einem Schiffswrack vor der griechischen Insel Antikythera. Mit Zahnrädern und Zifferblättern zeigte es astronomische und kalendarische Zusammenhänge – ähnlich wie eine astronomische Uhr. Seine Fragmente liegen heute im Archäologischen Nationalmuseum in Athen.",
+    "difficulty": 2,
+    "tags": [
+      "Antike",
+      "Erfindungen",
+      "Entdeckungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mechanismus von Antikythera",
+    "source_url": "https://de.wikipedia.org/wiki/Mechanismus von Antikythera",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'Antikythera mechanism' is an ancient geared device that displayed astronomical and calendar data. Where was it found in 1900?",
+        "options": [
+          "In a shipwreck off a Greek island",
+          "In a pyramid in Egypt",
+          "In a well in Rome",
+          "In a cave in Spain"
+        ],
+        "explanation": "Sponge divers discovered the device in 1900 in a shipwreck off the Greek island of Antikythera. With gears and dials it showed astronomical and calendar relationships – much like an astronomical clock. Its fragments are now in the National Archaeological Museum in Athens."
+      }
+    }
+  },
+  {
+    "id": "h55",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welchem Land liegen die Nazca-Linien – riesige Bilder im Wüstenboden?",
+    "options": [
+      "In Ägypten",
+      "In Peru",
+      "In Australien",
+      "In Indien"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Nazca-Linien sind riesige Scharrbilder in der Wüste bei Nazca und Palpa in Peru. Sie zeigen gerade Linien, Dreiecke und Figuren wie Menschen, Affen, Vögel und Wale. Wegen ihrer Größe erkennt man sie nur aus der Luft oder von umliegenden Hügeln.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Südamerika",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nazca-Linien",
+    "source_url": "https://de.wikipedia.org/wiki/Nazca-Linien",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country are the Nazca Lines – huge pictures in the desert floor?",
+        "options": [
+          "In Egypt",
+          "In Peru",
+          "In Australia",
+          "In India"
+        ],
+        "explanation": "The Nazca Lines are huge geoglyphs in the desert near Nazca and Palpa in Peru. They show straight lines, triangles and figures such as people, monkeys, birds and whales. Because of their size they can only be made out from the air or from surrounding hills."
+      }
+    }
+  },
+  {
+    "id": "h56",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Der Pony-Express brachte ab 1860 Post quer durch die USA. Wodurch wurde er nach nur etwa anderthalb Jahren überflüssig?",
+    "options": [
+      "Durch ein Verbot von Pferden",
+      "Durch die ersten Postflugzeuge",
+      "Durch eine Telegrafenleitung quer über den Kontinent",
+      "Durch das Telefon"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Pony-Express war eine Reiterstafette: Reiter wechselten an Zwischenstationen die Pferde und gaben die Post weiter. So war er für kurze Zeit die schnellste Postverbindung Nordamerikas. Im Oktober 1861 übernahm die transkontinentale Telegrafenleitung seinen Dienst – Nachrichten kamen nun in Minuten statt in Tagen an.",
+    "difficulty": 2,
+    "tags": [
+      "USA",
+      "Post",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pony-Express",
+    "source_url": "https://de.wikipedia.org/wiki/Pony-Express",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From 1860 the Pony Express carried mail across the USA. What made it unnecessary after only about a year and a half?",
+        "options": [
+          "A ban on horses",
+          "The first mail planes",
+          "A telegraph line across the continent",
+          "The telephone"
+        ],
+        "explanation": "The Pony Express was a relay of riders: riders changed horses at stations and passed the mail on. For a short time that made it the fastest mail link in North America. In October 1861 the transcontinental telegraph line took over its job – messages now arrived in minutes instead of days."
+      }
+    }
+  },
+  {
+    "id": "h57",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie werden bei einer Rohrpost Briefe und kleine Gegenstände befördert?",
+    "options": [
+      "Mit Seilzügen über Dächer",
+      "Mit Wasser durch Kanäle",
+      "Mit Magneten über Schienen",
+      "Mit Druckluft durch Röhren"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei der Rohrpost stecken die Sendungen in kleinen, zylindrischen Behältern, die mit Druckluft durch Röhren sausen. Die erste Rohrpost wurde 1853 in London eingerichtet. Später entstanden in einigen Großstädten Netze von mehreren hundert Kilometern Länge. In manchen Gebäuden gibt es kleinere Anlagen bis heute.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Post",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rohrpost",
+    "source_url": "https://de.wikipedia.org/wiki/Rohrpost",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a pneumatic tube system carry letters and small objects?",
+        "options": [
+          "With cables over rooftops",
+          "With water through canals",
+          "With magnets on rails",
+          "With compressed air through tubes"
+        ],
+        "explanation": "In a pneumatic tube system, items travel in small cylindrical containers that shoot through tubes on compressed air. The first one was set up in London in 1853. Later some big cities had networks several hundred kilometres long. Smaller systems are still used in some buildings today."
+      }
+    }
+  },
+  {
+    "id": "h58",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Çatalhöyük gilt als die erste Großsiedlung der Weltgeschichte. In welchem heutigen Land wurde sie ausgegraben?",
+    "options": [
+      "In der Türkei",
+      "In China",
+      "In Mexiko",
+      "In Schweden"
+    ],
+    "correct_index": 0,
+    "explanation": "Çatalhöyük liegt auf der Hochebene Anatoliens in der heutigen Türkei. Die Siedlung aus der Jungsteinzeit hatte mehrere tausend Einwohner. Ein großer Teil des Alltags spielte sich auf den Dächern der dicht an dicht gebauten Häuser ab.",
+    "difficulty": 3,
+    "tags": [
+      "Vorgeschichte",
+      "Steinzeit",
+      "Menschheitsgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Çatalhöyük",
+    "source_url": "https://de.wikipedia.org/wiki/Çatalhöyük",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Çatalhöyük is considered the first large settlement in world history. In which present-day country was it excavated?",
+        "options": [
+          "In Turkey",
+          "In China",
+          "In Mexico",
+          "In Sweden"
+        ],
+        "explanation": "Çatalhöyük lies on the Anatolian plateau in present-day Turkey. The Neolithic settlement had several thousand inhabitants. Much of daily life took place on the roofs of the houses, which were built close together."
+      }
+    }
+  },
+  {
+    "id": "h59",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Skara Brae auf den schottischen Orkney-Inseln ist ein Dorf aus der Jungsteinzeit. Wie kam es 1850 ans Licht?",
+    "options": [
+      "Ein Bauer stieß beim Brunnenbau darauf",
+      "Ein Sturm legte es unter einer Düne frei",
+      "Taucher fanden es im Hafen",
+      "Ein Erdbeben hob es aus dem Meer"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach einem gewaltigen Sturm im Jahr 1850 wurden unter einer Düne Gebäude entdeckt. Die Siedlung wird auf die Zeit zwischen 3100 und 2500 v. Chr. datiert – sie ist also älter als die großen Pyramiden von Gizeh.",
+    "difficulty": 2,
+    "tags": [
+      "Vorgeschichte",
+      "Steinzeit",
+      "Entdeckungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Skara Brae",
+    "source_url": "https://de.wikipedia.org/wiki/Skara Brae",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Skara Brae on Scotland's Orkney Islands is a Neolithic village. How did it come to light in 1850?",
+        "options": [
+          "A farmer hit on it while digging a well",
+          "A storm uncovered it beneath a dune",
+          "Divers found it in the harbour",
+          "An earthquake lifted it out of the sea"
+        ],
+        "explanation": "After a violent storm in 1850, buildings were discovered beneath a dune. The settlement is dated to between 3100 and 2500 BC – so it is older than the great pyramids of Giza."
+      }
+    }
+  },
+  {
+    "id": "h60",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In der Antike schrieb man oft auf Wachstafeln. Womit?",
+    "options": [
+      "Mit einem heißen Eisen",
+      "Mit einem Pinsel und Tinte",
+      "Mit einem Stück Kohle",
+      "Mit einem Griffel, der die Schrift ins Wachs ritzte"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Wachstafel ist eine Schreibtafel aus Holz, die mit Wachs beschichtet ist. Die Schrift wurde mit einem Griffel, dem Stilus, in die Wachsfläche eingekratzt. Wachstafeln waren von der Antike bis ins Mittelalter verbreitet. Mehrere Tafeln ließen sich zu einem kleinen Buch verbinden.",
+    "difficulty": 1,
+    "tags": [
+      "Antike",
+      "Schrift",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wachstafel",
+    "source_url": "https://de.wikipedia.org/wiki/Wachstafel",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In antiquity people often wrote on wax tablets. What with?",
+        "options": [
+          "With a hot iron",
+          "With a brush and ink",
+          "With a piece of charcoal",
+          "With a stylus that scratched the writing into the wax"
+        ],
+        "explanation": "A wax tablet is a wooden writing board coated with wax. The writing was scratched into the wax surface with a stylus. Wax tablets were common from antiquity into the Middle Ages. Several tablets could be joined into a small book."
+      }
+    }
+  },
+  {
+    "id": "h61",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Der älteste erhaltene Erdglobus der Welt, Martin Behaims „Erdapfel“, entstand um 1492 in Nürnberg. Welcher Erdteil fehlt darauf?",
+    "options": [
+      "Amerika",
+      "Afrika",
+      "Asien",
+      "Europa"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Behaim-Globus wurde etwa 1492 bis 1493 gefertigt und zeigt die damals in Europa bekannte Welt – noch ohne Amerika, das Kolumbus gerade erst erreicht hatte. Der Globus hat einen Durchmesser von 51 Zentimetern und ist heute im Germanischen Nationalmuseum in Nürnberg ausgestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Entdeckungen",
+      "Deutschland",
+      "Karten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Martin Behaims Erdapfel",
+    "source_url": "https://de.wikipedia.org/wiki/Martin Behaims Erdapfel",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The world's oldest surviving terrestrial globe, Martin Behaim's 'Erdapfel' ('earth apple'), was made in Nuremberg around 1492. Which continent is missing from it?",
+        "options": [
+          "America",
+          "Africa",
+          "Asia",
+          "Europe"
+        ],
+        "explanation": "The Behaim globe was made in about 1492 to 1493 and shows the world then known in Europe – still without America, which Columbus had only just reached. The globe is 51 centimetres in diameter and is now on display in the Germanisches Nationalmuseum in Nuremberg."
+      }
+    }
+  },
+  {
+    "id": "h62",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war „Doggerland“?",
+    "options": [
+      "Ein Königreich in den Alpen",
+      "Ein Land, das heute unter der Nordsee liegt",
+      "Eine Insel im Mittelmeer",
+      "Ein Handelsweg durch die Sahara"
+    ],
+    "correct_index": 1,
+    "explanation": "Doggerland lag im südlichen Teil des Nordseebeckens. Während der letzten Kaltzeit war es trocken und bildete eine Landbrücke zwischen Großbritannien und Jütland. In der Mittelsteinzeit lebten dort Jäger und Sammler. Heute bedeckt das Meer die Region; ihr Name kommt von der Doggerbank, einer Untiefe in der Nordsee.",
+    "difficulty": 2,
+    "tags": [
+      "Vorgeschichte",
+      "Steinzeit",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Doggerland",
+    "source_url": "https://de.wikipedia.org/wiki/Doggerland",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was 'Doggerland'?",
+        "options": [
+          "A kingdom in the Alps",
+          "A land that now lies beneath the North Sea",
+          "An island in the Mediterranean",
+          "A trade route through the Sahara"
+        ],
+        "explanation": "Doggerland lay in the southern part of the North Sea basin. During the last glacial period it was dry and formed a land bridge between Great Britain and Jutland. In the Mesolithic, hunter-gatherers lived there. Today the sea covers the region; its name comes from the Dogger Bank, a shoal in the North Sea."
+      }
+    }
+  },
+  {
+    "id": "h63",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In Schöningen in Niedersachsen wurden hölzerne Speere aus der Altsteinzeit gefunden. Wie alt sind sie ungefähr?",
+    "options": [
+      "Rund 30.000 Jahre",
+      "Rund 3.000 Jahre",
+      "Rund 300.000 Jahre",
+      "Rund 3 Millionen Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Schöninger Speere – neun hölzerne Wurfspeere und eine Stoßlanze – wurden zwischen 1994 und 1998 in einem Tagebau entdeckt. Datierungen ergaben ein Alter von 290.000 bis 337.000 Jahren. Dass Holz so lange erhalten bleibt, ist außergewöhnlich selten.",
+    "difficulty": 3,
+    "tags": [
+      "Vorgeschichte",
+      "Steinzeit",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schöninger Speere",
+    "source_url": "https://de.wikipedia.org/wiki/Schöninger Speere",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Wooden spears from the Old Stone Age were found at Schöningen in Lower Saxony, Germany. Roughly how old are they?",
+        "options": [
+          "About 30,000 years",
+          "About 3,000 years",
+          "About 300,000 years",
+          "About 3 million years"
+        ],
+        "explanation": "The Schöningen spears – nine wooden throwing spears and a thrusting lance – were discovered between 1994 and 1998 in an open-cast mine. Dating gave an age of 290,000 to 337,000 years. It is extraordinarily rare for wood to survive that long."
+      }
+    }
+  },
+  {
+    "id": "h64",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Auf den Marshallinseln im Pazifik nutzten Seefahrer „Stabkarten“ aus Kokosblattrippen. Was zeigten diese Karten vor allem?",
+    "options": [
+      "Die Grenzen zwischen Königreichen",
+      "Die Sterne am Nachthimmel",
+      "Die Tiefe des Meeres in Metern",
+      "Wellen und Strömungen zwischen den Atollen"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Stabkarte ist ein Gitterwerk aus Kokosblattrippen, das mit Kokosschnüren verbunden ist. Sie diente als Gedächtnisstütze für Wellenformationen, Wind- und Wasserströmungen zwischen den Atollen. Kleine Schneckenhäuser standen für die Atolle. Mit aufs Meer genommen wurden die Karten nicht – man prägte sie sich vor der Fahrt ein.",
+    "difficulty": 3,
+    "tags": [
+      "Seefahrt",
+      "Karten",
+      "Entdeckungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stabkarte",
+    "source_url": "https://de.wikipedia.org/wiki/Stabkarte",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On the Marshall Islands in the Pacific, seafarers used 'stick charts' made of coconut leaf ribs. What did these charts mainly show?",
+        "options": [
+          "The borders between kingdoms",
+          "The stars in the night sky",
+          "The depth of the sea in metres",
+          "Waves and currents between the atolls"
+        ],
+        "explanation": "A stick chart is a lattice of coconut leaf ribs tied together with coconut cord. It served as a memory aid for wave patterns, wind and water currents between the atolls. Small shells stood for the atolls. The charts were not taken to sea – sailors memorised them before the voyage."
+      }
+    }
   }
 ]
