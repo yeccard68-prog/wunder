@@ -65601,5 +65601,1925 @@
         "explanation": "In 1799 the metre was fixed as the length of the original metre bar, a prototype made of platinum. According to the measurements of the time, its length was one ten-millionth of the distance from the North Pole to the equator. Since 1983 the metre has been defined by light: as the distance it travels in a vacuum in a tiny, precisely fixed fraction of a second."
       }
     }
+  },
+  {
+    "id": "l71",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache stammt das Wort „Tohuwabohu“?",
+    "options": [
+      "Aus der Sprache der Maori",
+      "Aus dem Japanischen",
+      "Aus dem Finnischen",
+      "Aus dem Hebräischen"
+    ],
+    "correct_index": 3,
+    "explanation": "„Tohuwabohu“ ist ein Lehnwort aus dem Hebräischen. In der Bibel beschreibt es den Zustand der Erde ganz am Anfang: das urzeitliche Chaos vor der Schöpfung. Heute meint man damit ein heilloses Durcheinander – zum Beispiel in einem unaufgeräumten Zimmer.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tohuwabohu",
+    "source_url": "https://de.wikipedia.org/wiki/Tohuwabohu",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the German word 'Tohuwabohu' (a complete mess) come from?",
+        "options": [
+          "From the language of the Maori",
+          "From Japanese",
+          "From Finnish",
+          "From Hebrew"
+        ],
+        "explanation": "'Tohuwabohu' is a loanword from Hebrew. In the Bible it describes the state of the earth at the very beginning: the primeval chaos before creation. Today German speakers use it for a hopeless mess – an untidy room, for example."
+      }
+    }
+  },
+  {
+    "id": "l72",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Kauderwelsch“ nennt man unverständliches Gerede. Auf welche Stadt geht das Wort nach der gängigen Erklärung zurück?",
+    "options": [
+      "Auf Chur in Graubünden",
+      "Auf Köln am Rhein",
+      "Auf Krakau in Polen",
+      "Auf Cádiz in Spanien"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach der gängigen Erklärung meinte „Kauderwelsch“ ursprünglich die welsche, also romanische Sprache der Einwohner von Chur in Graubünden – das Rätoromanische, das für Deutschsprachige unverständlich klang. Schon Martin Luther bezog das Wort auf die Rätoromanen. Später wurde daraus ein Ausdruck für jedes wirre Sprachgemisch.",
+    "difficulty": 3,
+    "tags": [
+      "Wortherkunft",
+      "Redewendungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kauderwelsch",
+    "source_url": "https://de.wikipedia.org/wiki/Kauderwelsch",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Germans call unintelligible talk 'Kauderwelsch' (gibberish). According to the usual explanation, which town does the word go back to?",
+        "options": [
+          "Chur in Graubünden",
+          "Cologne on the Rhine",
+          "Kraków in Poland",
+          "Cádiz in Spain"
+        ],
+        "explanation": "According to the usual explanation, 'Kauderwelsch' originally meant the 'welsch', that is Romance, language of the people of Chur in Graubünden – Romansh, which sounded unintelligible to German speakers. Martin Luther already applied the word to the Romansh. Later it became a term for any confused mixture of languages."
+      }
+    }
+  },
+  {
+    "id": "l73",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Auf der Kanareninsel La Gomera gibt es eine besondere Art, sich über Täler hinweg zu verständigen. Welche?",
+    "options": [
+      "Eine Trommelsprache",
+      "Eine gepfiffene Sprache",
+      "Zeichen mit bunten Fahnen",
+      "Rauchzeichen"
+    ],
+    "correct_index": 1,
+    "explanation": "„El Silbo“ ist eine Pfeifsprache, die vor allem auf der spanischen Kanareninsel La Gomera verwendet wird. Sie basiert heute auf der spanischen Sprache: Die Wörter werden in Pfiffe übertragen. So ist eine Verständigung über mehrere Kilometer möglich – praktisch auf einer Insel voller tiefer Schluchten.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: El Silbo",
+    "source_url": "https://de.wikipedia.org/wiki/El_Silbo",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On the Canary Island of La Gomera there is a special way of communicating across valleys. Which one?",
+        "options": [
+          "A drum language",
+          "A whistled language",
+          "Signals with coloured flags",
+          "Smoke signals"
+        ],
+        "explanation": "'El Silbo' is a whistled language used mainly on the Spanish Canary Island of La Gomera. Today it is based on Spanish: the words are turned into whistles. That makes it possible to communicate over several kilometres – handy on an island full of deep ravines."
+      }
+    }
+  },
+  {
+    "id": "l74",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wozu dient der Text, der mit „Lorem ipsum“ beginnt?",
+    "options": [
+      "Als Eid, den Ärzte ablegen",
+      "Als Zauberspruch in alten Märchen",
+      "Als Platzhalter, um ein Layout zu testen",
+      "Als Anfang aller römischen Gesetze"
+    ],
+    "correct_index": 2,
+    "explanation": "„Lorem ipsum“ ist ein Blindtext: Er soll nichts bedeuten, sondern dient als Platzhalter im Layout – so sieht man, wie eine Seite mit Text wirkt, bevor der echte Text fertig ist. Die Wörter sind verstümmeltes Latein; sie stammen aus einer Schrift des römischen Redners Cicero.",
+    "difficulty": 2,
+    "tags": [
+      "Schrift",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lorem ipsum",
+    "source_url": "https://de.wikipedia.org/wiki/Lorem_ipsum",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the text that begins with 'Lorem ipsum' used for?",
+        "options": [
+          "As an oath taken by doctors",
+          "As a magic spell in old fairy tales",
+          "As a placeholder to test a layout",
+          "As the opening of all Roman laws"
+        ],
+        "explanation": "'Lorem ipsum' is dummy text: it is not meant to say anything but serves as a placeholder in a layout – you can see how a page looks with text before the real text is ready. The words are garbled Latin; they come from a work by the Roman orator Cicero."
+      }
+    }
+  },
+  {
+    "id": "l75",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welchen zwei Buchstaben ist das Und-Zeichen „&“ entstanden?",
+    "options": [
+      "Aus o und S",
+      "Aus u und d",
+      "Aus a und n",
+      "Aus e und t"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Und-Zeichen ist eine Ligatur, also eine Verschmelzung zweier Buchstaben: e und t. Zusammen ergeben sie das lateinische Wort „et“, und das heißt „und“. Entstanden ist das Zeichen schon in der Spätantike. In manchen Schriftarten kann man die beiden Buchstaben noch gut erkennen.",
+    "difficulty": 1,
+    "tags": [
+      "Schrift",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Et-Zeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Et-Zeichen",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two letters did the ampersand '&' develop from?",
+        "options": [
+          "From o and S",
+          "From u and d",
+          "From a and n",
+          "From e and t"
+        ],
+        "explanation": "The ampersand is a ligature, a fusion of two letters: e and t. Together they form the Latin word 'et', which means 'and'. The sign already emerged in late antiquity. In some typefaces you can still make out the two letters quite well."
+      }
+    }
+  },
+  {
+    "id": "l76",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welcher Gegend Deutschlands wird Sorbisch gesprochen?",
+    "options": [
+      "In der Lausitz",
+      "Im Schwarzwald",
+      "In Ostfriesland",
+      "Im Allgäu"
+    ],
+    "correct_index": 0,
+    "explanation": "Sorbisch gehört zu den westslawischen Sprachen und ist damit mit dem Polnischen und Tschechischen verwandt. Gesprochen wird es heute vor allem in der Lausitz, einer Gegend in Sachsen und Brandenburg. Es gibt zwei Schriftsprachen: Obersorbisch und Niedersorbisch. Viele Ortsschilder dort sind zweisprachig.",
+    "difficulty": 2,
+    "tags": [
+      "Sprachen der Welt",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sorbische Sprache",
+    "source_url": "https://de.wikipedia.org/wiki/Sorbische_Sprache",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which region of Germany is Sorbian spoken?",
+        "options": [
+          "In Lusatia",
+          "In the Black Forest",
+          "In East Frisia",
+          "In the Allgäu"
+        ],
+        "explanation": "Sorbian is one of the West Slavic languages and thus related to Polish and Czech. Today it is spoken mainly in Lusatia, a region in Saxony and Brandenburg. There are two written languages: Upper Sorbian and Lower Sorbian. Many place-name signs there are bilingual."
+      }
+    }
+  },
+  {
+    "id": "l77",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Die Brüder Grimm begannen 1838 ihr großes „Deutsches Wörterbuch“. In welchem Jahr wurde es fertig?",
+    "options": [
+      "1848",
+      "1863",
+      "1901",
+      "1961"
+    ],
+    "correct_index": 3,
+    "explanation": "Jacob und Wilhelm Grimm begannen 1838 mit dem „Deutschen Wörterbuch“ – und erlebten selbst nur die ersten Bände. Generationen von Sprachforschern arbeiteten weiter. Erst 1961, nach 123 Jahren, wurde es beendet. Es ist das größte Wörterbuch der deutschen Sprache.",
+    "difficulty": 3,
+    "tags": [
+      "Deutsch",
+      "Sprachgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Deutsches Wörterbuch",
+    "source_url": "https://de.wikipedia.org/wiki/Deutsches_Wörterbuch",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Brothers Grimm began their great 'German Dictionary' in 1838. In which year was it finished?",
+        "options": [
+          "1848",
+          "1863",
+          "1901",
+          "1961"
+        ],
+        "explanation": "Jacob and Wilhelm Grimm began the 'Deutsches Wörterbuch' in 1838 – and lived to see only the first volumes. Generations of linguists carried on. Only in 1961, after 123 years, was it completed. It is the largest dictionary of the German language."
+      }
+    }
+  },
+  {
+    "id": "l78",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Heute kauft man am Kiosk Zeitungen und Süßes. Was war ein „Kiosk“ ursprünglich?",
+    "options": [
+      "Ein Marktschiff auf dem Fluss",
+      "Ein Wachturm an der Stadtmauer",
+      "Ein offener Gartenpavillon",
+      "Eine Vorratskammer im Keller"
+    ],
+    "correct_index": 2,
+    "explanation": "Ursprünglich war ein Kiosk ein nach mehreren Seiten geöffneter, freistehender Pavillon in Park- und Palastanlagen im islamischen Kulturraum. Das Wort kommt aus dem Persischen und gelangte über das Türkische und Französische ins Deutsche. Erst später wurde daraus die Bezeichnung für eine kleine Verkaufsstelle in Form eines Häuschens oder einer Bude.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kiosk",
+    "source_url": "https://de.wikipedia.org/wiki/Kiosk",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Today a kiosk sells newspapers and sweets. What was a 'kiosk' originally?",
+        "options": [
+          "A market boat on the river",
+          "A watchtower on the town wall",
+          "An open garden pavilion",
+          "A storeroom in the cellar"
+        ],
+        "explanation": "Originally a kiosk was a free-standing pavilion, open on several sides, in parks and palace grounds in the Islamic world. The word comes from Persian and reached German via Turkish and French. Only later did it become the name for a small sales point in the form of a little house or booth."
+      }
+    }
+  },
+  {
+    "id": "l79",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Schrift stammen die japanischen Schriftzeichen namens „Kanji“?",
+    "options": [
+      "Aus der arabischen Schrift",
+      "Aus der indischen Schrift",
+      "Aus der koreanischen Schrift",
+      "Aus der chinesischen Schrift"
+    ],
+    "correct_index": 3,
+    "explanation": "Die japanische Schrift besteht aus mehreren Schriften, die gemischt verwendet werden. Die Kanji entstammen der chinesischen Schrift: Jedes Zeichen steht für eine Bedeutung. Dazu kommen Hiragana und Katakana – das sind Silbenschriften, bei denen jedes Zeichen für eine Silbe steht.",
+    "difficulty": 2,
+    "tags": [
+      "Schrift",
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Japanische Schrift",
+    "source_url": "https://de.wikipedia.org/wiki/Japanische_Schrift",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which script do the Japanese characters called 'kanji' come from?",
+        "options": [
+          "From the Arabic script",
+          "From the Indian script",
+          "From the Korean script",
+          "From the Chinese script"
+        ],
+        "explanation": "Japanese writing consists of several scripts that are used side by side. The kanji come from the Chinese script: each character stands for a meaning. In addition there are hiragana and katakana – syllabaries in which each character stands for a syllable."
+      }
+    }
+  },
+  {
+    "id": "l80",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist „Sütterlin“?",
+    "options": [
+      "Ein Dialekt aus dem Süden Deutschlands",
+      "Eine Schreibschrift, die früher an deutschen Schulen gelehrt wurde",
+      "Eine Geheimsprache fahrender Händler",
+      "Ein berühmtes Wörterbuch"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Sütterlinschrift ist eine Schreibschrift, die Ludwig Sütterlin im Jahr 1911 im Auftrag des preußischen Kultur- und Schulministeriums entwickelte. Kinder lernten sie als erste Schrift in der Schule. Wer heute alte Briefe oder Tagebücher der Urgroßeltern findet, kann sie oft kaum lesen – viele Buchstaben sehen ganz anders aus als die heutigen.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sütterlinschrift",
+    "source_url": "https://de.wikipedia.org/wiki/Sütterlinschrift",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 'Sütterlin'?",
+        "options": [
+          "A dialect from southern Germany",
+          "A style of handwriting once taught in German schools",
+          "A secret language of travelling traders",
+          "A famous dictionary"
+        ],
+        "explanation": "Sütterlin script is a style of handwriting that Ludwig Sütterlin developed in 1911 on behalf of the Prussian Ministry of Culture and Education. Children learned it as their first script at school. Anyone who finds old letters or diaries of their great-grandparents today can often hardly read them – many letters look completely different from today's."
+      }
+    }
+  },
+  {
+    "id": "l81",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woraus ist das Paragrafzeichen „§“ nach der geläufigen Erklärung entstanden?",
+    "options": [
+      "Aus der Ziffer 8 mit einem Haken",
+      "Aus einer Schlange um einen Stab",
+      "Aus zwei ineinandergeschlungenen S",
+      "Aus einem verzierten G für „Gesetz“"
+    ],
+    "correct_index": 2,
+    "explanation": "Nach einer geläufigen Ansicht ist das Zeichen ein Doppel-S – die Abkürzung für das lateinische „signum sectionis“, „Zeichen des Abschnitts“. Geschrieben wurde es als ineinandergeschlungenes „SS“. Heute kennt man es vor allem aus Gesetzen, wo es die einzelnen Abschnitte nummeriert.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paragrafzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Paragrafzeichen",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the common explanation, what did the section sign '§' develop from?",
+        "options": [
+          "From the digit 8 with a hook",
+          "From a snake around a staff",
+          "From two intertwined letters S",
+          "From a decorated G for 'Gesetz' (law)"
+        ],
+        "explanation": "According to a common view the sign is a double S – the abbreviation of the Latin 'signum sectionis', 'sign of the section'. It was written as two intertwined letters S. Today it is known above all from laws, where it numbers the individual sections."
+      }
+    }
+  },
+  {
+    "id": "l82",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wer wählt in Deutschland das „Wort des Jahres“?",
+    "options": [
+      "Die Leser der größten Zeitungen",
+      "Der Deutsche Bundestag",
+      "Die Redaktion des Dudens",
+      "Die Gesellschaft für deutsche Sprache"
+    ],
+    "correct_index": 3,
+    "explanation": "Das „Wort des Jahres“ wurde erstmals 1971 gekürt und wird seit 1977 regelmäßig von der Gesellschaft für deutsche Sprache in Wiesbaden veröffentlicht – als sprachlicher Jahresrückblick. Dabei geht es nicht darum, welches Wort am häufigsten vorkam, sondern welche Wörter ein Jahr besonders geprägt haben.",
+    "difficulty": 2,
+    "tags": [
+      "Deutsch",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wort des Jahres (Deutschland)",
+    "source_url": "https://de.wikipedia.org/wiki/Wort_des_Jahres_(Deutschland)",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who chooses the 'Word of the Year' in Germany?",
+        "options": [
+          "The readers of the biggest newspapers",
+          "The German parliament",
+          "The editors of the Duden dictionary",
+          "The Society for the German Language"
+        ],
+        "explanation": "The 'Word of the Year' was first chosen in 1971 and has been published regularly since 1977 by the Gesellschaft für deutsche Sprache (Society for the German Language) in Wiesbaden – as a look back at the year in language. It is not about which word occurred most often, but about which words shaped a year in particular."
+      }
+    }
+  },
+  {
+    "id": "l83",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welcher Sprache sieht das Fragezeichen aus wie unser Strichpunkt „;“?",
+    "options": [
+      "Im Griechischen",
+      "Im Russischen",
+      "Im Türkischen",
+      "Im Schwedischen"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Griechischen dient der Strichpunkt als Fragezeichen: Eine griechische Frage endet also mit „;“. Für das, was bei uns der Strichpunkt leistet, benutzt das Griechische ein anderes Zeichen – den hochgesetzten Punkt.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Semikolon",
+    "source_url": "https://de.wikipedia.org/wiki/Semikolon",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which language does the question mark look like our semicolon ';'?",
+        "options": [
+          "In Greek",
+          "In Russian",
+          "In Turkish",
+          "In Swedish"
+        ],
+        "explanation": "In Greek the semicolon serves as the question mark: a Greek question ends with ';'. For what the semicolon does in our writing, Greek uses a different sign – the raised dot."
+      }
+    }
+  },
+  {
+    "id": "eg36",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie entsteht eine Fata Morgana?",
+    "options": [
+      "Licht wird an unterschiedlich warmen Luftschichten abgelenkt",
+      "Sandkörner in der Luft spiegeln das Sonnenlicht",
+      "Das Auge ermüdet in der Hitze und sieht doppelt",
+      "Wasserdampf bildet eine Art Leinwand"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Fata Morgana ist eine Luftspiegelung: Das Licht wird an unterschiedlich warmen Luftschichten abgelenkt. So scheint über heißem Wüstensand oder einer heißen Straße plötzlich Wasser zu glänzen – in Wahrheit sieht man ein Spiegelbild des Himmels. Der Name kommt aus dem Italienischen und bedeutet „Fee Morgana“.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fata Morgana",
+    "source_url": "https://de.wikipedia.org/wiki/Fata_Morgana",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a mirage (Fata Morgana) come about?",
+        "options": [
+          "Light is bent at layers of air of different temperatures",
+          "Grains of sand in the air reflect the sunlight",
+          "The eye tires in the heat and sees double",
+          "Water vapour forms a kind of screen"
+        ],
+        "explanation": "A mirage is a reflection in the air: light is bent at layers of air of different temperatures. That is why water suddenly seems to glisten above hot desert sand or a hot road – in truth you are seeing a mirror image of the sky. The name 'Fata Morgana' comes from Italian and means 'the fairy Morgana'."
+      }
+    }
+  },
+  {
+    "id": "eg37",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist das Besondere an Mangrovenbäumen?",
+    "options": [
+      "Sie wachsen im ewigen Eis",
+      "Sie wachsen im Salzwasser an tropischen Küsten",
+      "Sie wachsen kopfüber von Felswänden herab",
+      "Sie brauchen überhaupt kein Wasser"
+    ],
+    "correct_index": 1,
+    "explanation": "Mangroven sind Wälder aus salztoleranten Bäumen im Gezeitenbereich vorwiegend tropischer Küsten. Bei Flut stehen die Bäume im Meerwasser, bei Ebbe ragen ihre Wurzeln wie Stelzen aus dem Schlamm. Die meisten anderen Bäume würden im Salzwasser eingehen.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mangrove (Ökosystem)",
+    "source_url": "https://de.wikipedia.org/wiki/Mangrove_(Ökosystem)",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about mangrove trees?",
+        "options": [
+          "They grow in permanent ice",
+          "They grow in salt water on tropical coasts",
+          "They grow upside down from rock faces",
+          "They need no water at all"
+        ],
+        "explanation": "Mangroves are forests of salt-tolerant trees in the tidal zone of mainly tropical coasts. At high tide the trees stand in sea water, at low tide their roots stick out of the mud like stilts. Most other trees would die in salt water."
+      }
+    }
+  },
+  {
+    "id": "eg38",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Das Klimaphänomen „El Niño“ verändert alle paar Jahre das Wetter am Pazifik. Was bedeutet der Name?",
+    "options": [
+      "Der warme Wind",
+      "Der große Regen",
+      "Das Kind – gemeint ist das Christkind",
+      "Das leere Netz"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name ist von „El Niño de Navidad“ abgeleitet und bezieht sich auf das neugeborene Jesuskind – denn das Phänomen macht sich um die Weihnachtszeit bemerkbar. Er stammt von peruanischen Fischern: Sie spürten die Folgen zuerst, weil die Fischschwärme vor ihrer Küste ausblieben.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: El Niño",
+    "source_url": "https://de.wikipedia.org/wiki/El_Niño",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The climate phenomenon 'El Niño' changes the weather around the Pacific every few years. What does the name mean?",
+        "options": [
+          "The warm wind",
+          "The great rain",
+          "The child – meaning the Christ child",
+          "The empty net"
+        ],
+        "explanation": "The name is derived from 'El Niño de Navidad' and refers to the newborn infant Jesus – because the phenomenon makes itself felt around Christmas time. It comes from Peruvian fishermen: they felt the effects first, because the shoals of fish off their coast stayed away."
+      }
+    }
+  },
+  {
+    "id": "eg39",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum nennt man den Ginkgo-Baum ein „lebendes Fossil“?",
+    "options": [
+      "Seine Blätter zerfallen nie",
+      "Sein Holz ist so hart wie Stein",
+      "Er wächst nur auf versteinertem Boden",
+      "Er ist der einzige überlebende Vertreter einer sonst ausgestorbenen Pflanzengruppe"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Ginkgo ist der einzige lebende Vertreter der Ginkgoales, einer ansonsten ausgestorbenen Gruppe von Samenpflanzen. Alle seine Verwandten kennt man nur noch als Versteinerungen. Heimisch ist er in China, heute wird er weltweit angepflanzt – oft an Straßen und in Parks. Man erkennt ihn an seinen fächerförmigen Blättern.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ginkgo",
+    "source_url": "https://de.wikipedia.org/wiki/Ginkgo",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the ginkgo tree called a 'living fossil'?",
+        "options": [
+          "Its leaves never decay",
+          "Its wood is as hard as stone",
+          "It grows only on petrified ground",
+          "It is the only surviving member of an otherwise extinct group of plants"
+        ],
+        "explanation": "The ginkgo is the only living member of the Ginkgoales, an otherwise extinct group of seed plants. All its relatives are known only as fossils. It is native to China and is planted all over the world today – often along streets and in parks. You can recognise it by its fan-shaped leaves."
+      }
+    }
+  },
+  {
+    "id": "eg40",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Pflanze fängt Insekten mit blitzschnell zuklappenden Blättern?",
+    "options": [
+      "Die Sonnenblume",
+      "Die Venusfliegenfalle",
+      "Der Löwenzahn",
+      "Die Brennnessel"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Venusfliegenfalle ist eine fleischfressende Pflanze. Auf ihren Fangblättern sitzen haarfeine Fühlborsten. Berührt ein Insekt sie, klappt die Falle zu – mit einer Dauer von bis zu 100 Millisekunden ist das eine der schnellsten bekannten Bewegungen im Pflanzenreich. Danach wird die Beute langsam verdaut.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Venusfliegenfalle",
+    "source_url": "https://de.wikipedia.org/wiki/Venusfliegenfalle",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which plant catches insects with leaves that snap shut in a flash?",
+        "options": [
+          "The sunflower",
+          "The Venus flytrap",
+          "The dandelion",
+          "The stinging nettle"
+        ],
+        "explanation": "The Venus flytrap is a carnivorous plant. Its trap leaves carry hair-thin trigger bristles. When an insect touches them, the trap snaps shut – lasting up to 100 milliseconds, this is one of the fastest known movements in the plant kingdom. After that the prey is slowly digested."
+      }
+    }
+  },
+  {
+    "id": "eg41",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie übersteht der Affenbrotbaum (Baobab) die lange Trockenzeit in Afrika?",
+    "options": [
+      "Er versiegelt seine Rinde mit Harz",
+      "Er trinkt jeden Morgen den Nebel",
+      "Er speichert riesige Mengen Wasser in seinem Stamm",
+      "Er wirft seine Wurzeln ab"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Stamm des Affenbrotbaums saugt sich in der Regenzeit mit seinen schwammigen Fasern voll: bis zu 140.000 Liter Wasser kann er aufnehmen und für die Trockenzeit speichern. Dabei kann der Stamm sogar um mehrere Zentimeter dicker werden.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Afrikanischer Affenbrotbaum",
+    "source_url": "https://de.wikipedia.org/wiki/Afrikanischer_Affenbrotbaum",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the baobab tree survive the long dry season in Africa?",
+        "options": [
+          "It seals its bark with resin",
+          "It drinks the mist every morning",
+          "It stores huge amounts of water in its trunk",
+          "It sheds its roots"
+        ],
+        "explanation": "During the rainy season the trunk of the baobab soaks itself full with its spongy fibres: it can take up as much as 140,000 litres of water and store it for the dry season. In the process the trunk can even grow several centimetres thicker."
+      }
+    }
+  },
+  {
+    "id": "eg42",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Im Polarsommer geht die Sonne nicht unter. Wie lange dauert dieser „Polartag“ direkt am Nordpol?",
+    "options": [
+      "Genau einen Tag",
+      "Eine Woche",
+      "Einen Monat",
+      "Ein halbes Jahr"
+    ],
+    "correct_index": 3,
+    "explanation": "Am geografischen Nordpol und Südpol dauert der Polartag ein halbes Jahr: Die Sonne geht nur einmal im Jahr auf und einmal unter. Je weiter man sich vom Pol entfernt, desto kürzer wird diese Zeit – an den Polarkreisen ist es genau ein Tag, an dem die Sonne nicht untergeht. Das Gegenteil ist die Polarnacht.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Geographie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Polartag",
+    "source_url": "https://de.wikipedia.org/wiki/Polartag",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the polar summer the sun does not set. How long does this 'polar day' last right at the North Pole?",
+        "options": [
+          "Exactly one day",
+          "One week",
+          "One month",
+          "Half a year"
+        ],
+        "explanation": "At the geographic North and South Poles the polar day lasts half a year: the sun rises only once a year and sets once. The further you move away from the pole, the shorter this time becomes – at the polar circles there is exactly one day on which the sun does not set. The opposite is the polar night."
+      }
+    }
+  },
+  {
+    "id": "eg43",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches Naturereignis von 1883 gilt als das lauteste Geräusch, das Menschen je gehört haben?",
+    "options": [
+      "Der Ausbruch des Vulkans Krakatau",
+      "Ein Meteoriteneinschlag in Sibirien",
+      "Ein abbrechender Gletscher in Grönland",
+      "Ein Bergsturz in den Alpen"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Krakatau liegt in Indonesien, zwischen den Inseln Sumatra und Java. Sein bekanntester Ausbruch ereignete sich am 27. August 1883. Der Knall der letzten Explosion war noch in über 4.800 km Entfernung zu hören und gilt als das lauteste Geräusch, das der Mensch je gehört hat. Die Druckwelle umrundete die Erdkugel siebenmal.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Vulkane"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Krakatau",
+    "source_url": "https://de.wikipedia.org/wiki/Krakatau",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which natural event of 1883 is considered the loudest sound humans have ever heard?",
+        "options": [
+          "The eruption of the volcano Krakatoa",
+          "A meteorite impact in Siberia",
+          "A glacier breaking off in Greenland",
+          "A rockslide in the Alps"
+        ],
+        "explanation": "Krakatoa lies in Indonesia, between the islands of Sumatra and Java. Its best-known eruption took place on 27 August 1883. The bang of the final explosion could still be heard more than 4,800 km away and is considered the loudest sound humans have ever heard. The pressure wave travelled around the globe seven times."
+      }
+    }
+  },
+  {
+    "id": "eg44",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "1816 ging als „Jahr ohne Sommer“ in die Geschichte ein. Was gilt als Hauptursache?",
+    "options": [
+      "Eine ungewöhnlich schwache Sonne",
+      "Ein gewaltiger Vulkanausbruch in Indonesien",
+      "Der Einschlag eines Kometen",
+      "Das plötzliche Schmelzen der Gletscher"
+    ],
+    "correct_index": 1,
+    "explanation": "Als Hauptursache gilt heute der Ausbruch des indonesischen Vulkans Tambora im April 1815. Er schleuderte so viel Asche und Gase in die Atmosphäre, dass weniger Sonnenlicht den Boden erreichte. Das Jahr 1816 wurde ungewöhnlich kalt, Ernten fielen aus. In Deutschland nannte man das Elendsjahr „Achtzehnhundertunderfroren“.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Klima"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jahr ohne Sommer",
+    "source_url": "https://de.wikipedia.org/wiki/Jahr_ohne_Sommer",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "1816 went down in history as the 'Year Without a Summer'. What is considered the main cause?",
+        "options": [
+          "An unusually weak sun",
+          "A huge volcanic eruption in Indonesia",
+          "The impact of a comet",
+          "The sudden melting of the glaciers"
+        ],
+        "explanation": "Today the main cause is thought to be the eruption of the Indonesian volcano Tambora in April 1815. It hurled so much ash and gas into the atmosphere that less sunlight reached the ground. The year 1816 became unusually cold, and harvests failed. In Germany the year of misery was nicknamed 'Achtzehnhundertunderfroren' – 'eighteen hundred and frozen to death'."
+      }
+    }
+  },
+  {
+    "id": "eg45",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist ein Atoll?",
+    "options": [
+      "Ein erloschener Vulkan mit einem Kratersee",
+      "Eine lange Sandbank vor einer Flussmündung",
+      "Ein ringförmiges Korallenriff, das eine Lagune umschließt",
+      "Eine schwimmende Insel aus Pflanzen"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Atoll ist ein ringförmiges Riff, in der Regel ein Korallenriff, das eine Lagune umschließt. Nach der Theorie von Charles Darwin entsteht es, wenn eine Vulkaninsel langsam im Meer versinkt, während die Korallen an ihrem Rand weiter nach oben wachsen. Das Wort stammt aus dem Dhivehi, der Sprache der Malediven.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Atoll",
+    "source_url": "https://de.wikipedia.org/wiki/Atoll",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an atoll?",
+        "options": [
+          "An extinct volcano with a crater lake",
+          "A long sandbank off a river mouth",
+          "A ring-shaped coral reef enclosing a lagoon",
+          "A floating island made of plants"
+        ],
+        "explanation": "An atoll is a ring-shaped reef, usually a coral reef, that encloses a lagoon. According to Charles Darwin's theory it forms when a volcanic island slowly sinks into the sea while the corals at its edge keep growing upwards. The word comes from Dhivehi, the language of the Maldives."
+      }
+    }
+  },
+  {
+    "id": "eg46",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Woraus werden echte Korken für Flaschen gemacht?",
+    "options": [
+      "Aus den Wurzeln der Kokospalme",
+      "Aus dem Mark von Bambus",
+      "Aus gepresstem Sägemehl",
+      "Aus der Rinde der Korkeiche"
+    ],
+    "correct_index": 3,
+    "explanation": "Kork ist die Rinde der Korkeiche, die vor allem rund um das westliche Mittelmeer wächst. Für die Ernte muss der Baum nicht gefällt werden: Die Rinde wird abgeschält und wächst nach. Korkernten erfolgen alle neun bis zwölf Jahre, und eine Korkeiche kann fünf- bis zehnmal abgeerntet werden.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Korkeiche",
+    "source_url": "https://de.wikipedia.org/wiki/Korkeiche",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are real corks for bottles made from?",
+        "options": [
+          "From the roots of the coconut palm",
+          "From the pith of bamboo",
+          "From pressed sawdust",
+          "From the bark of the cork oak"
+        ],
+        "explanation": "Cork is the bark of the cork oak, which grows mainly around the western Mediterranean. The tree does not have to be felled for the harvest: the bark is peeled off and grows back. Cork is harvested every nine to twelve years, and a cork oak can be harvested five to ten times."
+      }
+    }
+  },
+  {
+    "id": "eg47",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist der weiße „Stern“ des Edelweiß in Wirklichkeit?",
+    "options": [
+      "Ein Kranz aus filzig behaarten Blättern rund um die eigentlichen Blüten",
+      "Eine einzige große Blüte",
+      "Raureif, der an der Pflanze haftet",
+      "Ein Pilz, der auf der Pflanze wächst"
+    ],
+    "correct_index": 0,
+    "explanation": "Was wie eine Blüte aussieht, sind Blätter: Fünf bis fünfzehn weiß glänzende Hochblätter formen einen mehrzackigen Stern und umgeben den eigentlichen Blütenstand – viele winzige Blüten in der Mitte. Die Pflanze ist wollig-weißfilzig behaart; das schützt sie im Hochgebirge.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alpen-Edelweiß",
+    "source_url": "https://de.wikipedia.org/wiki/Alpen-Edelweiß",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the white 'star' of the edelweiss in reality?",
+        "options": [
+          "A ring of felt-haired leaves around the actual flowers",
+          "One single large flower",
+          "Hoar frost clinging to the plant",
+          "A fungus growing on the plant"
+        ],
+        "explanation": "What looks like a flower is in fact leaves: five to fifteen shiny white bracts form a star with several points and surround the actual flower head – many tiny flowers in the middle. The plant is covered in woolly white felt-like hair, which protects it in the high mountains."
+      }
+    }
+  },
+  {
+    "id": "eg48",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "„Pando“ in Utah sieht aus wie ein Wald aus Zitterpappeln. Was ist er wirklich?",
+    "options": [
+      "Ein versteinerter Wald aus der Urzeit",
+      "Ein einziges Lebewesen: Alle Stämme sind über die Wurzeln verbunden",
+      "Eine riesige Baumschule",
+      "Ein Wald aus lauter verschiedenen Baumarten"
+    ],
+    "correct_index": 1,
+    "explanation": "Pando ist eine Klonkolonie der Amerikanischen Zitterpappel: Alle Baumstämme sind unter der Erde über Wurzelausläufer miteinander verbunden und bilden so einen einzelnen Organismus. Jeder Stamm hat dasselbe Erbgut. Pando gilt als eines der ältesten und schwersten bekannten Lebewesen der Erde.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pando (Baum)",
+    "source_url": "https://de.wikipedia.org/wiki/Pando_(Baum)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "'Pando' in Utah looks like a forest of quaking aspens. What is it really?",
+        "options": [
+          "A petrified forest from prehistoric times",
+          "One single living thing: all trunks are connected through the roots",
+          "A huge tree nursery",
+          "A forest of many different tree species"
+        ],
+        "explanation": "Pando is a clonal colony of the American quaking aspen: all the trunks are connected underground through root runners and thus form a single organism. Every trunk has the same genetic make-up. Pando is considered one of the oldest and heaviest known living things on Earth."
+      }
+    }
+  },
+  {
+    "id": "ti86",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Anemonenfische („Clownfische“) leben in kleinen Gruppen. Was passiert, wenn das Weibchen stirbt?",
+    "options": [
+      "Alle Fische verlieren ihre Streifen",
+      "Die Gruppe sucht sich eine neue Anemone",
+      "Das stärkste Männchen wird zum Weibchen",
+      "Die Anemone stößt die Gruppe ab"
+    ],
+    "correct_index": 2,
+    "explanation": "Anemonenfische sind nach Erreichen der Geschlechtsreife zunächst männlich. In jeder Gruppe gibt es nur ein Weibchen – das größte Tier. Stirbt es, wandelt sich das stärkste Männchen in ein Weibchen um und nimmt seinen Platz ein.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Anemonenfische",
+    "source_url": "https://de.wikipedia.org/wiki/Anemonenfische",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Anemonefish ('clownfish') live in small groups. What happens when the female dies?",
+        "options": [
+          "All the fish lose their stripes",
+          "The group looks for a new anemone",
+          "The strongest male becomes a female",
+          "The anemone drives the group away"
+        ],
+        "explanation": "Anemonefish are male at first once they reach sexual maturity. In each group there is only one female – the largest animal. If she dies, the strongest male changes into a female and takes her place."
+      }
+    }
+  },
+  {
+    "id": "ti87",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches ist das größte Nagetier der Welt?",
+    "options": [
+      "Das Murmeltier",
+      "Der Biber",
+      "Das Stachelschwein",
+      "Das Capybara (Wasserschwein)"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Capybara, auch Wasserschwein genannt, ist das größte heute lebende Nagetier. Es bewohnt feuchte Regionen in Südamerika und kann sehr gut schwimmen. Mit Schweinen hat es trotz des Namens nichts zu tun – es ist mit den Meerschweinchen verwandt.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Capybara",
+    "source_url": "https://de.wikipedia.org/wiki/Capybara",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest rodent in the world?",
+        "options": [
+          "The marmot",
+          "The beaver",
+          "The porcupine",
+          "The capybara"
+        ],
+        "explanation": "The capybara is the largest rodent alive today. It lives in wet regions of South America and is a very good swimmer. In German it is also called 'Wasserschwein' (water pig), but it has nothing to do with pigs – it is related to guinea pigs."
+      }
+    }
+  },
+  {
+    "id": "ti88",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was tun Opossums, wenn Gefahr droht?",
+    "options": [
+      "Sie stellen sich tot",
+      "Sie graben sich blitzschnell ein",
+      "Sie blasen sich zu einer Kugel auf",
+      "Sie werfen ihren Schwanz ab"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei Gefahr stellen sich Opossums tot: Sie liegen reglos da, bis der Angreifer das Interesse verliert. Dieses Totstellen ist so auffällig, dass es in Amerika als „playing possum“ zur Redewendung wurde – für jemanden, der sich nur schlafend oder ahnungslos stellt.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Opossums",
+    "source_url": "https://de.wikipedia.org/wiki/Opossums",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do opossums do when danger threatens?",
+        "options": [
+          "They play dead",
+          "They dig themselves in at lightning speed",
+          "They puff themselves up into a ball",
+          "They shed their tail"
+        ],
+        "explanation": "When in danger, opossums play dead: they lie motionless until the attacker loses interest. This behaviour is so striking that 'playing possum' became a saying in America – for someone who only pretends to be asleep or clueless."
+      }
+    }
+  },
+  {
+    "id": "ti89",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was unterscheidet Rentiere von allen anderen Hirscharten?",
+    "options": [
+      "Sie werfen ihr Geweih nie ab",
+      "Auch die Weibchen tragen regelmäßig ein Geweih",
+      "Sie halten Winterschlaf",
+      "Sie leben immer allein"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Ren ist die einzige Hirschart, bei der auch das Weibchen regelmäßig ein Geweih trägt. Rentiere leben im hohen Norden rund um die Arktis; ihre dichte Unterwolle schützt sie dort vor der Kälte.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ren",
+    "source_url": "https://de.wikipedia.org/wiki/Ren",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What sets reindeer apart from all other species of deer?",
+        "options": [
+          "They never shed their antlers",
+          "The females regularly grow antlers too",
+          "They hibernate",
+          "They always live alone"
+        ],
+        "explanation": "The reindeer is the only species of deer in which the female regularly grows antlers too. Reindeer live in the far north around the Arctic; their dense underwool protects them from the cold there."
+      }
+    }
+  },
+  {
+    "id": "ti90",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Die Blindschleiche sieht aus wie eine Schlange. Was ist sie wirklich?",
+    "options": [
+      "Ein junger Aal",
+      "Ein besonders langer Wurm",
+      "Ein Fisch, der an Land lebt",
+      "Eine Echse ohne Beine"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Blindschleiche ist eine Echsenart aus der Familie der Schleichen. Mit ihrem beinlosen, langgestreckten Körper gleicht sie einer Schlange und wird oft für eine gehalten. Ein Unterschied: Wie viele Echsen kann sie bei Gefahr ihren Schwanz abbrechen lassen. Blind ist sie übrigens nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blindschleiche",
+    "source_url": "https://de.wikipedia.org/wiki/Blindschleiche",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The slow worm looks like a snake. What is it really?",
+        "options": [
+          "A young eel",
+          "An especially long worm",
+          "A fish that lives on land",
+          "A lizard without legs"
+        ],
+        "explanation": "The slow worm is a species of lizard. With its legless, elongated body it resembles a snake and is often mistaken for one. One difference: like many lizards it can let its tail break off when in danger. And despite its German name 'Blindschleiche', it is not blind."
+      }
+    }
+  },
+  {
+    "id": "ti91",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie erbeutet der Schützenfisch Insekten, die über dem Wasser auf Blättern sitzen?",
+    "options": [
+      "Er schießt sie mit einem Wasserstrahl herunter",
+      "Er springt und schnappt sie aus der Luft",
+      "Er schüttelt die Pflanze mit dem Schwanz",
+      "Er lockt sie mit einem leuchtenden Köder an"
+    ],
+    "correct_index": 0,
+    "explanation": "Schützenfische haben ihren Namen von der Fähigkeit, auf Pflanzen sitzende Insekten mit einem gezielten Wasserstrahl „abzuschießen“. Das Insekt fällt ins Wasser und wird gefressen. Die Fische leben meist in Mangrovenbeständen, wo viele Äste über das Wasser hängen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schützenfische",
+    "source_url": "https://de.wikipedia.org/wiki/Schützenfische",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the archerfish catch insects sitting on leaves above the water?",
+        "options": [
+          "It shoots them down with a jet of water",
+          "It jumps and snaps them out of the air",
+          "It shakes the plant with its tail",
+          "It lures them with a glowing bait"
+        ],
+        "explanation": "Archerfish get their name from their ability to 'shoot down' insects sitting on plants with a well-aimed jet of water. The insect falls into the water and is eaten. The fish mostly live among mangroves, where many branches hang over the water."
+      }
+    }
+  },
+  {
+    "id": "ti92",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wofür ist der australische Leierschwanz berühmt?",
+    "options": [
+      "Er fliegt höher als jeder andere Vogel",
+      "Er kann fast jedes Geräusch nachahmen",
+      "Er baut das größte Nest der Welt",
+      "Er taucht tiefer als jeder andere Vogel"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Leierschwanz ist ein Meister der Nachahmung. Mit Leichtigkeit ahmt er den Gesang anderer Vögel nach – und nahezu jedes andere Geräusch, das er einmal gehört hat. Seinen Namen hat er von den langen Schwanzfedern des Männchens, die an das Musikinstrument Leier erinnern.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leierschwänze",
+    "source_url": "https://de.wikipedia.org/wiki/Leierschwänze",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Australian lyrebird famous for?",
+        "options": [
+          "It flies higher than any other bird",
+          "It can imitate almost any sound",
+          "It builds the largest nest in the world",
+          "It dives deeper than any other bird"
+        ],
+        "explanation": "The lyrebird is a master of imitation. It copies the song of other birds with ease – and almost any other sound it has ever heard. It gets its name from the male's long tail feathers, which resemble the musical instrument called a lyre."
+      }
+    }
+  },
+  {
+    "id": "ti93",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welchen Rekord hält das Weibchen des Mondfischs?",
+    "options": [
+      "Es wird älter als alle anderen Fische",
+      "Es schwimmt schneller als alle anderen Fische",
+      "Es legt die meisten Eier aller Fischarten",
+      "Es taucht tiefer als alle anderen Fische"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Mondfisch-Weibchen kann pro Laichvorgang bis zu 300 Millionen Eier ablaichen – die höchste Zahl aller Fischarten. Der Mondfisch gilt außerdem als einer der schwersten Knochenfische der Welt. Mit seinem runden, scheibenförmigen Körper sieht er aus, als fehle ihm die hintere Hälfte.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mondfisch",
+    "source_url": "https://de.wikipedia.org/wiki/Mondfisch",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which record does the female ocean sunfish hold?",
+        "options": [
+          "It lives longer than all other fish",
+          "It swims faster than all other fish",
+          "It lays the most eggs of all fish species",
+          "It dives deeper than all other fish"
+        ],
+        "explanation": "A female ocean sunfish can release up to 300 million eggs in a single spawning – the highest number of all fish species. The sunfish is also considered one of the heaviest bony fish in the world. With its round, disc-shaped body it looks as if its rear half were missing."
+      }
+    }
+  },
+  {
+    "id": "ti94",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo wohnt ein Einsiedlerkrebs?",
+    "options": [
+      "In einem selbst gegrabenen Loch im Sand",
+      "In einem Nest aus Algen",
+      "Im Maul eines großen Fisches",
+      "In einem leeren Schneckenhaus"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Hinterleib des Einsiedlerkrebses ist weich und ungeschützt. Deshalb verbergen ihn die meisten Einsiedlerkrebse in leeren Schneckenhäusern, die sie überallhin mitnehmen. Wird der Krebs größer, braucht er ein neues Haus – und zieht um.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Meerestiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Einsiedlerkrebse",
+    "source_url": "https://de.wikipedia.org/wiki/Einsiedlerkrebse",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does a hermit crab live?",
+        "options": [
+          "In a hole it has dug in the sand",
+          "In a nest of seaweed",
+          "In the mouth of a big fish",
+          "In an empty snail shell"
+        ],
+        "explanation": "The hermit crab's abdomen is soft and unprotected. That is why most hermit crabs hide it in empty snail shells, which they carry around everywhere. When the crab grows, it needs a new home – and moves house."
+      }
+    }
+  },
+  {
+    "id": "ti95",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Landtiere sind die nächsten lebenden Verwandten der Seekühe?",
+    "options": [
+      "Die Elefanten",
+      "Die Kühe",
+      "Die Flusspferde",
+      "Die Schweine"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit Kühen haben Seekühe trotz ihres Namens wenig zu tun: Unter den heute noch lebenden Tieren sind die Elefanten ihre nächsten Verwandten. Seekühe sind Pflanzenfresser und leben ganz im Wasser. Neben den Walen und den Robben sind sie die dritte größere Gruppe meeresbewohnender Säugetiere.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seekühe",
+    "source_url": "https://de.wikipedia.org/wiki/Seekühe",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which land animals are the closest living relatives of sea cows (manatees and dugongs)?",
+        "options": [
+          "Elephants",
+          "Cows",
+          "Hippos",
+          "Pigs"
+        ],
+        "explanation": "Despite their name, sea cows have little to do with cows: among the animals alive today, elephants are their closest relatives. Sea cows are plant-eaters and live entirely in the water. Alongside whales and seals they are the third larger group of sea-dwelling mammals."
+      }
+    }
+  },
+  {
+    "id": "ti96",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Das Schnabeltier ist ein Säugetier, das Eier legt. Welches Tier tut das ebenfalls?",
+    "options": [
+      "Das Gürteltier",
+      "Der Ameisenigel",
+      "Der Maulwurf",
+      "Die Fledermaus"
+    ],
+    "correct_index": 1,
+    "explanation": "Ameisenigel sind eine Familie eierlegender Säugetiere aus Australien und Neuguinea. Zusammen mit dem Schnabeltier bilden sie die Ordnung der Kloakentiere – die einzigen verbliebenen Säugetiere, die ihre Jungen nicht lebend zur Welt bringen. Nach dem Schlüpfen werden die Jungen trotzdem mit Milch gesäugt.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ameisenigel",
+    "source_url": "https://de.wikipedia.org/wiki/Ameisenigel",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The platypus is a mammal that lays eggs. Which animal does so too?",
+        "options": [
+          "The armadillo",
+          "The echidna",
+          "The mole",
+          "The bat"
+        ],
+        "explanation": "Echidnas are a family of egg-laying mammals from Australia and New Guinea. Together with the platypus they form the order of monotremes – the only remaining mammals that do not give birth to live young. After hatching, the young are nevertheless fed with milk."
+      }
+    }
+  },
+  {
+    "id": "ti97",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wozu dienen dem Wüstenfuchs Fennek seine riesigen Ohren – außer zum Hören?",
+    "options": [
+      "Zum Graben im Sand",
+      "Zum Speichern von Wasser",
+      "Zum Abgeben von Körperwärme",
+      "Zum Verscheuchen von Fliegen"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Fennek ist die kleinste aller Hundearten und verfügt über sehr große Ohren. Sie dienen der Wärmeregulation: Über die große Fläche gibt der Körper überschüssige Wärme ab. Auch sonst ist der Fennek an die Wüste angepasst – etwa mit behaarten Sohlen, die ihn auf dem heißen Sand schützen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fennek",
+    "source_url": "https://de.wikipedia.org/wiki/Fennek",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the fennec fox use its huge ears for – apart from hearing?",
+        "options": [
+          "For digging in the sand",
+          "For storing water",
+          "For giving off body heat",
+          "For shooing away flies"
+        ],
+        "explanation": "The fennec is the smallest of all species of dog and has very large ears. They help regulate its temperature: the body gives off excess heat through their large surface. The fennec is adapted to the desert in other ways too – with hairy soles, for example, that protect it on the hot sand."
+      }
+    }
+  },
+  {
+    "id": "kn78",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Der „Löwenmensch“ ist eine der ältesten Skulpturen der Welt. Woraus wurde er geschnitzt?",
+    "options": [
+      "Aus Marmor",
+      "Aus Eichenholz",
+      "Aus Bernstein",
+      "Aus Mammut-Elfenbein"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Löwenmensch ist eine 31,1 cm große und 35.000 bis 41.000 Jahre alte Skulptur aus Mammut-Elfenbein. Sie zeigt einen Menschen mit dem Kopf und den Gliedmaßen eines Höhlenlöwen – ein Wesen, das es nur in der Vorstellung gibt. Gefunden wurde sie in einer Höhle auf der Schwäbischen Alb.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Altsteinzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Löwenmensch",
+    "source_url": "https://de.wikipedia.org/wiki/Löwenmensch",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'Lion-man' is one of the oldest sculptures in the world. What was it carved from?",
+        "options": [
+          "From marble",
+          "From oak wood",
+          "From amber",
+          "From mammoth ivory"
+        ],
+        "explanation": "The Lion-man is a sculpture of mammoth ivory, 31.1 cm tall and 35,000 to 41,000 years old. It shows a human with the head and limbs of a cave lion – a being that exists only in the imagination. It was found in a cave in the Swabian Jura in southern Germany."
+      }
+    }
+  },
+  {
+    "id": "kn79",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Farbe stellte der Farbenhersteller Johann Jacob Diesbach um 1706 in Berlin erstmals her?",
+    "options": [
+      "Ein tiefes Blau – das „Berliner Blau“",
+      "Ein leuchtendes Gelb – das „Berliner Gelb“",
+      "Ein kräftiges Rot – das „Berliner Rot“",
+      "Ein dunkles Grün – das „Berliner Grün“"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Berliner Farbenhersteller Johann Jacob Diesbach stellte um 1706 erstmals Berliner Blau her. Das tiefblaue Pigment erlangte sofort Bedeutung für die Ölmalerei und das Färben von Stoffen – denn blaue Farbe war bis dahin oft sehr teuer. In anderen Ländern heißt es auch „Preußisch Blau“.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Berliner Blau",
+    "source_url": "https://de.wikipedia.org/wiki/Berliner_Blau",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which colour did the paint maker Johann Jacob Diesbach produce for the first time in Berlin around 1706?",
+        "options": [
+          "A deep blue – 'Prussian blue'",
+          "A bright yellow – 'Berlin yellow'",
+          "A strong red – 'Berlin red'",
+          "A dark green – 'Berlin green'"
+        ],
+        "explanation": "The Berlin paint maker Johann Jacob Diesbach first produced the pigment around 1706. The deep blue immediately became important for oil painting and for dyeing fabrics – because blue paint had often been very expensive until then. In German it is called 'Berliner Blau', in English 'Prussian blue'."
+      }
+    }
+  },
+  {
+    "id": "kn80",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bezeichnet man in der Malerei als „Sfumato“?",
+    "options": [
+      "Ein Bild aus lauter kleinen Punkten",
+      "Sehr dick aufgetragene Farbe",
+      "Weiche, wie im Dunst verschwimmende Übergänge ohne scharfe Umrisse",
+      "Das Malen auf feuchtem Putz"
+    ],
+    "correct_index": 2,
+    "explanation": "„Sfumato“ ist Italienisch und bedeutet „verraucht, verschwommen“. Es bezeichnet eine Technik der Ölmalerei, bei der Konturen nicht mit scharfen Umrissen gezeichnet werden: Die Übergänge verschwimmen weich, wie in feinem Dunst. Als Erfinder dieser Maltechnik gilt Leonardo da Vinci.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sfumato",
+    "source_url": "https://de.wikipedia.org/wiki/Sfumato",
+    "created_at": "2026-10-28T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is called 'sfumato' in painting?",
+        "options": [
+          "A picture made of nothing but small dots",
+          "Paint applied very thickly",
+          "Soft transitions that blur as if in haze, without sharp outlines",
+          "Painting on damp plaster"
+        ],
+        "explanation": "'Sfumato' is Italian and means 'smoky, blurred'. It refers to a technique in oil painting in which contours are not drawn with sharp outlines: the transitions blur softly, as if in a fine haze. Leonardo da Vinci is considered the inventor of this technique."
+      }
+    }
+  },
+  {
+    "id": "kn81",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was zeigt das berühmte Gemälde, das Kasimir Malewitsch 1915 erstmals ausstellte?",
+    "options": [
+      "Ein buntes Schachbrett",
+      "Einen roten Kreis auf blauem Grund",
+      "Eine völlig weiße Leinwand",
+      "Nichts als ein schwarzes Quadrat"
+    ],
+    "correct_index": 3,
+    "explanation": "„Das Schwarze Quadrat“ zeigt genau das: ein schwarzes Quadrat auf weißem Grund. Malewitsch malte das Motiv mehrmals; die erste Version war 1915 erstmals zu sehen. Er wollte eine Kunst ganz ohne Abbild von Dingen schaffen. Das Bild gilt als eine der Ikonen der Malerei des 20. Jahrhunderts.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Moderne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Das Schwarze Quadrat",
+    "source_url": "https://de.wikipedia.org/wiki/Das_Schwarze_Quadrat",
+    "created_at": "2026-10-27T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the famous painting show that Kazimir Malevich first exhibited in 1915?",
+        "options": [
+          "A colourful chessboard",
+          "A red circle on a blue ground",
+          "A completely white canvas",
+          "Nothing but a black square"
+        ],
+        "explanation": "'Black Square' shows exactly that: a black square on a white ground. Malevich painted the motif several times; the first version was first shown in 1915. He wanted to create an art entirely without depicting things. The picture is considered one of the icons of 20th-century painting."
+      }
+    }
+  },
+  {
+    "id": "kn82",
+    "kind": "question",
+    "category_id": "art",
+    "question": "In welcher Stadt findet seit 1895 die älteste Biennale der Welt statt?",
+    "options": [
+      "In Venedig",
+      "In Paris",
+      "In Wien",
+      "In Florenz"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Biennale von Venedig findet seit 1895 zweijährlich statt – daher der Name: „Biennale“ heißt „alle zwei Jahre“. Sie ist die älteste Biennale und die älteste internationale Ausstellung zeitgenössischer Kunst. Hauptschauplatz sind die Giardini, ein Park, in dem viele Länder eigene Ausstellungshäuser haben.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Museen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Biennale di Venezia",
+    "source_url": "https://de.wikipedia.org/wiki/Biennale_di_Venezia",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city has the world's oldest biennale taken place since 1895?",
+        "options": [
+          "In Venice",
+          "In Paris",
+          "In Vienna",
+          "In Florence"
+        ],
+        "explanation": "The Venice Biennale has been held every two years since 1895 – hence the name: 'biennale' means 'every two years'. It is the oldest biennale and the oldest international exhibition of contemporary art. Its main venue is the Giardini, a park in which many countries have their own exhibition pavilions."
+      }
+    }
+  },
+  {
+    "id": "kn83",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist eine „Camera obscura“?",
+    "options": [
+      "Eine Kamera, die nur nachts funktioniert",
+      "Ein dunkler Raum mit einem kleinen Loch, durch das ein Bild der Außenwelt fällt",
+      "Ein Geheimfach in einem Bilderrahmen",
+      "Eine Lampe für das Maleratelier"
+    ],
+    "correct_index": 1,
+    "explanation": "„Camera obscura“ ist Lateinisch für „dunkle Kammer“: ein dunkler Raum mit einem Loch in der Wand. Durch das Loch fällt Licht von draußen und erzeugt auf der gegenüberliegenden Wand ein Bild der Außenwelt – es steht auf dem Kopf. Maler nutzten das früher als Zeichenhilfe. Die Camera obscura gilt als Vorläufer des Fotoapparats.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Camera obscura",
+    "source_url": "https://de.wikipedia.org/wiki/Camera_obscura",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a 'camera obscura'?",
+        "options": [
+          "A camera that only works at night",
+          "A dark room with a small hole through which an image of the outside world falls",
+          "A secret compartment in a picture frame",
+          "A lamp for the painter's studio"
+        ],
+        "explanation": "'Camera obscura' is Latin for 'dark chamber': a dark room with a hole in the wall. Light from outside falls through the hole and creates an image of the outside world on the opposite wall – upside down. Painters used to use it as a drawing aid. The camera obscura is considered the forerunner of the photographic camera."
+      }
+    }
+  },
+  {
+    "id": "kn84",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Beim Linolschnitt schneidet man ein Bild in eine Platte und druckt es. Welche Stellen kommen aufs Papier?",
+    "options": [
+      "Nur die Ränder der Platte",
+      "Die Stellen, die herausgeschnitten wurden",
+      "Die Stellen, die stehen geblieben sind",
+      "Die Rückseite der Platte"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Linolschnitt ist eine Hochdrucktechnik: Die Druckplatte besteht aus Linoleum. Was weiß bleiben soll, schneidet man heraus. Die hochstehenden Teile werden mit Farbe eingewalzt und drucken – wie bei einem Stempel. Linoleum ist billiger, weicher und leichter zu bearbeiten als Holz; deshalb wird die Technik oft im Kunstunterricht benutzt.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Grafik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Linolschnitt",
+    "source_url": "https://de.wikipedia.org/wiki/Linolschnitt",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a linocut you cut a picture into a block and print it. Which parts end up on the paper?",
+        "options": [
+          "Only the edges of the block",
+          "The parts that were cut away",
+          "The parts that were left standing",
+          "The back of the block"
+        ],
+        "explanation": "Linocut is a relief printing technique: the printing block is made of linoleum. Whatever is to stay white is cut away. The raised parts are rolled with ink and print – like a rubber stamp. Linoleum is cheaper, softer and easier to work than wood, which is why the technique is often used in art lessons."
+      }
+    }
+  },
+  {
+    "id": "kn85",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Erfindung machte es Malern wie den Impressionisten viel leichter, draußen in der Natur zu malen?",
+    "options": [
+      "Die Sprühdose",
+      "Die Staffelei aus Aluminium",
+      "Wasserfestes Papier",
+      "Fertige Farben in Tuben"
+    ],
+    "correct_index": 3,
+    "explanation": "Bis dahin mussten Künstler ihre Farben aufwändig selbst zurechtmischen – draußen kaum möglich. Dann erfand der amerikanische Maler John Goffe Rand die Künstlerfarben in Tuben: Sie ließen sich einfach einpacken und trockneten nicht ein. So konnten Maler ihre Bilder direkt im Freien malen, im wechselnden Licht des Tages.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Freilichtmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Freilichtmalerei",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which invention made it much easier for painters such as the Impressionists to paint outdoors in nature?",
+        "options": [
+          "The spray can",
+          "The aluminium easel",
+          "Waterproof paper",
+          "Ready-made paints in tubes"
+        ],
+        "explanation": "Until then artists had to laboriously mix their own paints – hardly possible outdoors. Then the American painter John Goffe Rand invented artists' paints in tubes: they were easy to pack and did not dry out. That allowed painters to paint their pictures directly in the open air, in the changing light of the day."
+      }
+    }
+  },
+  {
+    "id": "kn86",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Auf Carl Spitzwegs Bild „Der arme Poet“ hängt ein aufgespannter Regenschirm unter der Decke. Warum?",
+    "options": [
+      "Weil es durch das undichte Dach tropft",
+      "Weil er dort trocknen soll",
+      "Weil er als Lampenschirm dient",
+      "Weil der Dichter Schirme sammelt"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Bild zeigt einen Schriftsteller in seiner ärmlichen Dachstube. Er liegt mit Schlafmütze im Bett und dichtet; über ihm hängt ein Regenschirm, der die Schlafstelle vor dem Wasser schützt, das durch das Dach tropft. Spitzweg malte drei fertige Fassungen, alle 1839. Es ist eines der bekanntesten deutschen Gemälde.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Der arme Poet",
+    "source_url": "https://de.wikipedia.org/wiki/Der_arme_Poet",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Carl Spitzweg's painting 'The Poor Poet' an open umbrella hangs under the ceiling. Why?",
+        "options": [
+          "Because water drips through the leaky roof",
+          "Because it is meant to dry there",
+          "Because it serves as a lampshade",
+          "Because the poet collects umbrellas"
+        ],
+        "explanation": "The picture shows a writer in his shabby attic room. He lies in bed wearing a nightcap and writes poetry; above him hangs an umbrella that protects his sleeping place from the water dripping through the roof. Spitzweg painted three finished versions, all in 1839. It is one of the best-known German paintings."
+      }
+    }
+  },
+  {
+    "id": "kn87",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was gelang der Malerin Artemisia Gentileschi 1616 als erster Frau?",
+    "options": [
+      "Sie durfte in der Sixtinischen Kapelle malen",
+      "Sie wurde in die Kunstakademie von Florenz aufgenommen",
+      "Sie gründete das erste Museum Italiens",
+      "Sie gewann einen Malwettbewerb gegen Rubens"
+    ],
+    "correct_index": 1,
+    "explanation": "Artemisia Gentileschi war eine italienische Malerin des Barock. 1616 wurde ihr die Ehre zuteil, als erste Frau in die florentinische Kunstakademie aufgenommen zu werden – zu einer Zeit, in der Malerinnen kaum Zugang zu einer Ausbildung hatten. Heute zählt sie zu den bedeutenden Malerinnen ihrer Epoche.",
+    "difficulty": 3,
+    "tags": [
+      "Kunst",
+      "Persönlichkeiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Artemisia Gentileschi",
+    "source_url": "https://de.wikipedia.org/wiki/Artemisia_Gentileschi",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the painter Artemisia Gentileschi achieve in 1616 as the first woman?",
+        "options": [
+          "She was allowed to paint in the Sistine Chapel",
+          "She was admitted to the art academy of Florence",
+          "She founded Italy's first museum",
+          "She won a painting contest against Rubens"
+        ],
+        "explanation": "Artemisia Gentileschi was an Italian painter of the Baroque. In 1616 she was given the honour of being the first woman admitted to the Florentine art academy – at a time when women painters had hardly any access to training. Today she is counted among the important painters of her era."
+      }
+    }
   }
 ]

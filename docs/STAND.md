@@ -16,13 +16,13 @@
 | Duelle | drei Runden à drei Fragen, gegen Freunde (Link/Code), Zufallsgegner oder den Computer (drei Stufen); im Demo-Modus gegen einen Übungsgegner | Regeln, Zeitlimit und Antworten auf dem Server; Melden und Sperren eingebaut |
 | Gruppen und Chat | Gruppen per Code, Gruppenrunden (6 Fragen, 3 Tage, Rangliste); Chat in Duellen und Gruppen nur ab 16 | Filter, Melden, Blockieren, Prüfbildschirm, Löschung nach 90 Tagen; Nutzungsbedingungen und Meldestelle fehlen noch (`docs/LEGAL.md` Punkt 4) |
 
-Karten je Thema (Feed): Mathe & Logik 119, Wissenschaft 115, Technologie & KI 114, Kultur & Gesellschaft 114, Musik 114, Geschichte 113, Weltraum 112, Wirtschaft & Geld 112, Business 111, Sport 110, Kunst 108, Tiere 105, Erde & Natur 104, Sprache 103.
+Karten je Thema (Feed): Mathe & Logik 119, Kunst 118, Erde & Natur 117, Tiere 117, Sprache 116, Wissenschaft 115, Technologie & KI 114, Kultur & Gesellschaft 114, Musik 114, Geschichte 113, Weltraum 112, Wirtschaft & Geld 112, Business 111, Sport 110.
 
 ## Ziele aus den Aufträgen
 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
-| 1.000 Quizfragen | 1.645 veröffentlicht | Ziel erreicht; neue Wissensfragen nur mit wörtlichem Beleg aus der Quelle (`scripts/content/verify-evidence.mjs`), Rätsel werden nachgerechnet |
+| 1.000 Quizfragen | 1.693 veröffentlicht | Ziel erreicht; neue Wissensfragen nur mit wörtlichem Beleg aus der Quelle (`scripts/content/verify-evidence.mjs`), Rätsel werden nachgerechnet |
 | 100 Kurzvideos | 85 | seit 15.10.2026 auch eigene Clips mit Remotion – unabhängig von freien Quellen, je Clip etwa so viel Handarbeit wie eine kleine Animation |
 | 50 Animationen | 52 | Ziel erreicht |
 | rund 20 Bücher | 20 | je drei Ideen; fünf je Buch wären der nächste Ausbau |
