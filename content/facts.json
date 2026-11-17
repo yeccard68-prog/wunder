@@ -134,9 +134,12 @@
     "translations": {
       "en": {
         "text": "A camel's hump holds fat, not water.",
-        "detail": "The hump is a fat store. If it has shrunk, the animal is poorly fed."
+        "detail": "The hump is a fat store. If it has shrunk, the animal is poorly fed.",
+        "myth": "A camel stores water in its hump."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "Im Höcker eines Kamels speichert das Tier Wasser."
   },
   {
     "id": "f-kolibri",
@@ -4720,6 +4723,185 @@
         "text": "According to a Japanese legend, the gods grant a wish to anyone who folds a thousand paper cranes.",
         "detail": "The crane is one of the few traditional origami models. Spain had one too: the pajarita."
       }
+    }
+  },
+  {
+    "id": "f-atacama",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Die Atacama in Südamerika ist die trockenste Wüste der Erde außerhalb der Polargebiete.",
+    "detail": "An manchen Orten fallen im Jahresdurchschnitt nur 0,5 Millimeter Niederschlag. Das Klima ist dort seit mindestens 15 Millionen Jahren extrem trocken.",
+    "sources": [
+      {
+        "name": "Wikipedia: Atacama-Wüste",
+        "url": "https://de.wikipedia.org/wiki/Atacama-Wüste"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-17T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The Atacama in South America is the driest desert on Earth outside the polar regions.",
+        "detail": "In some places the average yearly precipitation is only 0.5 millimetres. The climate there has been extremely dry for at least 15 million years.",
+        "figureSuffix": " mm of precipitation"
+      }
+    },
+    "figure": {
+      "value": 0.5,
+      "digits": 1,
+      "suffix": " mm Niederschlag"
+    }
+  },
+  {
+    "id": "f-great-barrier-reef",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Das Great Barrier Reef besteht aus über 2900 einzelnen Riffen – und ist mit bloßem Auge vom Weltraum aus zu sehen.",
+    "detail": "Es liegt vor der Nordostküste Australiens, ist gut 2300 Kilometer lang und wurde 1981 von der UNESCO zum Weltnaturerbe erklärt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Great Barrier Reef",
+        "url": "https://de.wikipedia.org/wiki/Great_Barrier_Reef"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-17T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The Great Barrier Reef consists of more than 2,900 individual reefs – and can be seen from space with the naked eye.",
+        "detail": "It lies off the north-east coast of Australia, is a good 2,300 kilometres long and was declared a World Heritage Site by UNESCO in 1981.",
+        "figureSuffix": " reefs"
+      }
+    },
+    "figure": {
+      "value": 2900,
+      "suffix": " Riffe"
+    }
+  },
+  {
+    "id": "f-cage-433",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "John Cages Stück „4′33″“ heißt „Vier Minuten dreiunddreißig“ – und in dieser Zeit wird kein einziger Ton gespielt.",
+    "detail": "Das Stück entstand 1952 und hat drei Sätze. Die Uraufführung mit David Tudor fand am 29. August 1952 in Woodstock (New York) statt. Es gilt als Schlüsselwerk der Neuen Musik.",
+    "sources": [
+      {
+        "name": "Wikipedia: 4′33″",
+        "url": "https://de.wikipedia.org/wiki/4′33″"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-17T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "John Cage's piece “4′33″” is titled “Four minutes thirty-three” – and during that time not a single note is played.",
+        "detail": "The piece was written in 1952 and has three movements. The premiere with David Tudor took place on 29 August 1952 in Woodstock (New York). It is regarded as a key work of New Music."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-beethoven-9-taub",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Bei der Uraufführung seiner 9. Sinfonie war Beethoven bereits völlig taub.",
+    "detail": "Die Uraufführung fand am 7. Mai 1824 im Theater am Kärntnertor statt. Beim Schlusssatz stand Beethoven mit dem Rücken zum Publikum und las die Worte der Sänger von deren Lippen ab.",
+    "sources": [
+      {
+        "name": "Wikipedia: 9. Sinfonie (Beethoven)",
+        "url": "https://de.wikipedia.org/wiki/9._Sinfonie_(Beethoven)"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-17T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "When his 9th Symphony premiered, Beethoven was already completely deaf.",
+        "detail": "The premiere took place on 7 May 1824 at the Theater am Kärntnertor. During the finale Beethoven stood with his back to the audience and read the words from the singers' lips."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-teddybaer",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Der Teddybär hat zwei Entstehungsgeschichten – eine deutsche und eine amerikanische.",
+    "detail": "Nach der deutschen Version entwickelte Richard Steiff 1902 in Giengen an der Brenz den ersten Plüschbären mit beweglichen Armen und Beinen. Nach der US-Version erhielt der Bär seinen Namen nach Theodore Roosevelt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Teddybär",
+        "url": "https://de.wikipedia.org/wiki/Teddybär"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-17T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The teddy bear has two origin stories – a German one and an American one.",
+        "detail": "According to the German version, Richard Steiff developed the first plush bear with movable arms and legs in 1902 in Giengen an der Brenz. According to the US version, the bear was named after Theodore Roosevelt."
+      }
+    }
+  },
+  {
+    "id": "f-kaurigeld",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "In China galten Kaurischnecken von 1500 bis 200 v. Chr. als Zahlungsmittel.",
+    "detail": "Auch in Afrika, Ost- und Südasien und der Südsee dienten sie als Geld. Beliebt waren sie wegen ihres Glanzes, ihrer Handlichkeit, Festigkeit und ihres geringen Gewichts.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kaurischnecken",
+        "url": "https://de.wikipedia.org/wiki/Kaurischnecken"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-17T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "In China, cowrie shells served as a means of payment from 1500 to 200 BC.",
+        "detail": "They were also used as money in Africa, East and South Asia and the South Seas. They were popular for their shine, handiness, sturdiness and low weight."
+      }
+    }
+  },
+  {
+    "id": "f-bitcoin-pizza",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Der erste Warenkauf mit Bitcoin waren zwei Pizzen – am 22. Mai 2010 für 10.000 Bitcoin.",
+    "detail": "Bis Ende 2011 bewegte sich der Wechselkurs meistens im einstelligen Bereich: Für unter 10 US-Dollar bekam man einen Bitcoin.",
+    "sources": [
+      {
+        "name": "Wikipedia: Bitcoin",
+        "url": "https://de.wikipedia.org/wiki/Bitcoin"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-17T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The first purchase of goods with Bitcoin was two pizzas – on 22 May 2010, for 10,000 bitcoins.",
+        "detail": "Until the end of 2011 the exchange rate was mostly in single digits: you got one bitcoin for under 10 US dollars.",
+        "figureSuffix": " bitcoins"
+      }
+    },
+    "figure": {
+      "value": 10000,
+      "suffix": " Bitcoin"
     }
   }
 ]
