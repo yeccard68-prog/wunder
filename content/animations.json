@@ -5521,5 +5521,115 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "language": "de",
+    "renderer": "svg-scene",
+    "fallback_scene": null,
+    "min_age": 10,
+    "difficulty": 2,
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-18T12:00:00Z",
+    "id": "a-drehorgel",
+    "category_id": "music",
+    "scene": "drehorgel",
+    "title": "Wie eine Drehorgel spielt",
+    "summary": "Eine Kurbel, ein Blasebalg und eine Walze voller Stifte – und die Orgel spielt ganz von selbst.",
+    "goal": "Du kannst erklären, wie Kurbel, Bälge, Stiftwalze, Ventile und Pfeifen einer Drehorgel zusammenspielen.",
+    "labels": [
+      "Kurbel",
+      "Stiftwalze",
+      "Schöpfbalg",
+      "Magazinbalg mit Federn",
+      "Windlade mit Ventilen",
+      "Pfeifen",
+      "Ode an die Freude",
+      "Ton an",
+      "Ton aus"
+    ],
+    "steps": [
+      {
+        "text": "Eine Drehorgel wird mit einer Kurbel angetrieben. Dreht man sie, bewegt sich auch die Walze – darauf ist das Musikstück gespeichert. Du kannst auch selbst an der Kurbel drehen.",
+        "seconds": 9
+      },
+      {
+        "text": "Über eine Pleuelstange pumpt die Kurbel den mit Leder bezogenen Schöpfbalg: Er erzeugt den Wind. Im Magazinbalg wird der Wind gespeichert und mit Federkraft auf einen gleichbleibenden Druck gebracht.",
+        "seconds": 10
+      },
+      {
+        "text": "Die Stifte auf der Walze legen fest, wann welcher Ton erklingt. Über der Windlade mit ihren Ventilen stehen die Pfeifen, jedem Ventil ist ein Ton zugeordnet. Je länger eine Pfeife, desto tiefer ihr Ton.",
+        "seconds": 10
+      },
+      {
+        "text": "Diese Walze spielt den Anfang der „Ode an die Freude“ – vereinfacht auf fünf Pfeifen. Wie lang ein Stück sein kann, begrenzt der Umfang der Walze; eine Walze kann bis zu zwölf Musikstücke enthalten.",
+        "seconds": 10
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wikipedia: Drehorgel",
+        "url": "https://de.wikipedia.org/wiki/Drehorgel"
+      },
+      {
+        "name": "Wikipedia: Stiftwalze",
+        "url": "https://de.wikipedia.org/wiki/Stiftwalze"
+      },
+      {
+        "name": "Wikipedia: Orgelpfeife",
+        "url": "https://de.wikipedia.org/wiki/Orgelpfeife"
+      },
+      {
+        "name": "Wikipedia: Orgel",
+        "url": "https://de.wikipedia.org/wiki/Orgel"
+      }
+    ],
+    "quiz_question_id": "qa-drehorgel",
+    "translations": {
+      "en": {
+        "title": "How a barrel organ plays",
+        "summary": "A crank, a bellows and a barrel full of pins – and the organ plays by itself.",
+        "goal": "You can explain how the crank, bellows, pinned barrel, valves and pipes of a barrel organ work together.",
+        "labels": [
+          "Crank",
+          "Pinned barrel",
+          "Feeder bellows",
+          "Reservoir with springs",
+          "Wind chest with valves",
+          "Pipes",
+          "Ode to Joy",
+          "Sound on",
+          "Sound off"
+        ],
+        "steps": [
+          "A barrel organ is driven by a crank. Turning it also moves the barrel – the piece of music is stored on it. You can turn the crank yourself, too.",
+          "Through a connecting rod the crank works the leather-covered feeder bellows: it makes the wind. The reservoir bellows stores the wind and uses springs to keep its pressure steady.",
+          "The pins on the barrel decide when each note sounds. The pipes stand on the wind chest with its valves, and each valve belongs to one note. The longer a pipe, the lower its note.",
+          "This barrel plays the opening of the “Ode to Joy” – simplified to five pipes. How long a piece can be is limited by the barrel's circumference; one barrel can hold up to twelve pieces."
+        ],
+        "predict": {
+          "question": "The barrel turns and a pin reaches its key. What happens?",
+          "options": [
+            "A valve opens and a pipe sounds",
+            "The crank stops",
+            "The feeder bellows runs empty"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "pace": 0.7,
+      "motion": 1
+    },
+    "predict": {
+      "step": 2,
+      "question": "Die Walze dreht sich, ein Stift erreicht seine Taste. Was passiert?",
+      "options": [
+        "Ein Ventil öffnet sich und eine Pfeife klingt",
+        "Die Kurbel bleibt stehen",
+        "Der Schöpfbalg wird leer"
+      ],
+      "correct": 0
+    }
   }
 ]

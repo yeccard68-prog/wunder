@@ -2,7 +2,7 @@
 // step number `step`, progress `p` (0–1) within that step and running time `t` (seconds, for motion
 // that simply keeps going). All visible words come from `labels`, so scenes are language-independent.
 // New scenes are registered in SCENES at the bottom; their texts live in content/animations.json.
-import { useEffect, useState, type ReactNode } from "react";
+import { lazy, Suspense, useEffect, useState, type ReactNode } from "react";
 import { around, loadWorld, type World } from "@/components/CountryMap";
 
 export interface SceneProps {
@@ -1623,4 +1623,12 @@ function Perspective({ step, p, t, labels }: SceneProps) {
   );
 }
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps, depths: Depths, octave: Octave, migration: Migration, perspective: Perspective };
+// The barrel organ is a larger isometric figure (components/anim/Drehorgel.tsx): loaded only when it is shown.
+const DrehorgelFigure = lazy(() => import("@/components/anim/Drehorgel"));
+const Drehorgel = (props: SceneProps) => (
+  <Suspense fallback={null}>
+    <DrehorgelFigure {...props} />
+  </Suspense>
+);
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps, depths: Depths, octave: Octave, migration: Migration, perspective: Perspective, drehorgel: Drehorgel };

@@ -115,6 +115,7 @@ const SOFTWARE = [
   ["Lucide Icons", "ISC"],
   ["Tailwind CSS", "MIT"],
   ["Supabase JS", "MIT"],
+  ["anatomy (isometrische Zeichenwerkzeuge, © 2026 Ryan, github.com/wheresryan22/anatomy) – für die Drehorgel-Animation", "MIT"],
   ["Fraunces, Geist (Schriften)", "SIL Open Font License 1.1"],
 ];
 

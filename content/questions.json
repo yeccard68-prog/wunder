@@ -71767,5 +71767,45 @@
         "explanation": "Johannes Brahms composed his lullaby in July 1868 in Bonn – as a gift to a friend on the birth of her second son. The words already existed as a folk poem. It became one of the best-known German lullabies."
       }
     }
+  },
+  {
+    "id": "qa-drehorgel",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wofür sind die Stifte auf der Walze einer Drehorgel da?",
+    "options": [
+      "Sie legen fest, wann welcher Ton erklingt",
+      "Sie pumpen den Wind in die Pfeifen",
+      "Sie halten die Kurbel fest",
+      "Sie stimmen die Pfeifen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Stifte auf der Walze legen die Töne im zeitlichen Ablauf fest: Sie steuern, welches Ventil sich wann öffnet – und damit, welche Pfeife klingt.",
+    "difficulty": 1,
+    "tags": [
+      "Musik",
+      "Instrument"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stiftwalze",
+    "source_url": "https://de.wikipedia.org/wiki/Stiftwalze",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the pins on the barrel of a barrel organ for?",
+        "options": [
+          "They decide when each note sounds",
+          "They pump the wind into the pipes",
+          "They hold the crank in place",
+          "They tune the pipes"
+        ],
+        "explanation": "The pins on the barrel fix the notes in time: they control which valve opens when – and so which pipe sounds."
+      }
+    }
   }
 ]
