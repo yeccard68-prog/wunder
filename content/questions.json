@@ -71439,5 +71439,333 @@
         "explanation": "The airbag is a fabric bag that inflates with a loud bang within 20 to 50 milliseconds of a crash – faster than a blink. It stops you from hitting the steering wheel or dashboard."
       }
     }
+  },
+  {
+    "id": "mk98",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe an: Diese Melodie ist heute die Hymne der Europäischen Union. Aus welchem Werk stammt sie?",
+    "options": [
+      "Aus Beethovens 9. Sinfonie",
+      "Aus Mozarts Zauberflöte",
+      "Aus Vivaldis Vier Jahreszeiten",
+      "Aus Händels Messias"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Europahymne ist eine Instrumentalfassung des Hauptthemas „Ode an die Freude“ aus dem letzten Satz von Beethovens neunter Sinfonie. Der Text, der in der Sinfonie gesungen wird, stammt aus einem Gedicht von Friedrich Schiller.",
+    "difficulty": 1,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europahymne",
+    "source_url": "https://de.wikipedia.org/wiki/Europahymne",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt: this melody is now the anthem of the European Union. Which work does it come from?",
+        "options": [
+          "Beethoven's Symphony No. 9",
+          "Mozart's The Magic Flute",
+          "Vivaldi's The Four Seasons",
+          "Handel's Messiah"
+        ],
+        "explanation": "The European anthem is an instrumental version of the main theme 'Ode to Joy' from the last movement of Beethoven's Ninth Symphony. The words sung in the symphony come from a poem by Friedrich Schiller."
+      }
+    }
+  },
+  {
+    "id": "mk99",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe an: Wie heißt dieses Stück von Wolfgang Amadeus Mozart?",
+    "options": [
+      "Die Moldau",
+      "Eine kleine Nachtmusik",
+      "Für Elise",
+      "Der Hummelflug"
+    ],
+    "correct_index": 1,
+    "explanation": "Es ist die Serenade Nr. 13 für Streicher in G-Dur KV 525 – eine der beliebtesten Kompositionen Mozarts. Den Beinamen „Eine kleine Nachtmusik“ hat sie aus Mozarts eigenem Werkverzeichnis. Mit „Nachtmusik“ übersetzte er das Wort Serenade ins Deutsche.",
+    "difficulty": 1,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eine kleine Nachtmusik",
+    "source_url": "https://de.wikipedia.org/wiki/Eine kleine Nachtmusik",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt: what is this piece by Wolfgang Amadeus Mozart called?",
+        "options": [
+          "Vltava (The Moldau)",
+          "Eine kleine Nachtmusik",
+          "Für Elise",
+          "Flight of the Bumblebee"
+        ],
+        "explanation": "It is the Serenade No. 13 for strings in G major, K. 525 – one of Mozart's most popular compositions. Its nickname 'Eine kleine Nachtmusik' ('a little night music') comes from Mozart's own catalogue of his works. With 'Nachtmusik' he translated the word serenade into German."
+      }
+    }
+  },
+  {
+    "id": "mk100",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe an: Edvard Grieg schrieb dieses Stück für das Theaterstück „Peer Gynt“. Wo spielt die Szene?",
+    "options": [
+      "In der Halle des Bergkönigs",
+      "Auf dem Meeresgrund",
+      "In einem Ballsaal in Wien",
+      "Auf einem Jahrmarkt"
+    ],
+    "correct_index": 0,
+    "explanation": "„In der Halle des Bergkönigs“ ist das achte Stück aus Griegs Musik zu Henrik Ibsens „Peer Gynt“. Es beginnt leise und langsam wie ein Marsch – und mit der zunehmenden Dramatik der Handlung schreibt Grieg ein immer schnelleres Tempo vor. Komponiert hat er es 1874 und 1875.",
+    "difficulty": 2,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: In der Halle des Bergkönigs",
+    "source_url": "https://de.wikipedia.org/wiki/In der Halle des Bergkönigs",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt: Edvard Grieg wrote this piece for the play 'Peer Gynt'. Where does the scene take place?",
+        "options": [
+          "In the Hall of the Mountain King",
+          "On the seabed",
+          "In a Viennese ballroom",
+          "At a funfair"
+        ],
+        "explanation": "'In the Hall of the Mountain King' is the eighth piece of Grieg's music for Henrik Ibsen's 'Peer Gynt'. It starts quietly and slowly like a march – and as the drama builds, Grieg calls for an ever faster tempo. He composed it in 1874 and 1875."
+      }
+    }
+  },
+  {
+    "id": "mk101",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe an: Mit diesem Marsch endet traditionell ein berühmtes Konzert, und das Publikum klatscht im Takt mit. Welches Konzert ist das?",
+    "options": [
+      "Die Last Night of the Proms in London",
+      "Das Neujahrskonzert der Wiener Philharmoniker",
+      "Die Eröffnung der Bayreuther Festspiele",
+      "Das Weihnachtskonzert im Vatikan"
+    ],
+    "correct_index": 1,
+    "explanation": "Es ist der Radetzky-Marsch von Johann Strauss (Vater), uraufgeführt 1848 in Wien. Mit ihm endet traditionell das Neujahrskonzert der Wiener Philharmoniker – und das Publikum klatscht regelmäßig im Takt mit, so wie der Dirigent es vorgibt.",
+    "difficulty": 2,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radetzky-Marsch",
+    "source_url": "https://de.wikipedia.org/wiki/Radetzky-Marsch",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt: a famous concert traditionally ends with this march, and the audience claps along in time. Which concert is it?",
+        "options": [
+          "The Last Night of the Proms in London",
+          "The Vienna Philharmonic's New Year's Concert",
+          "The opening of the Bayreuth Festival",
+          "The Christmas concert at the Vatican"
+        ],
+        "explanation": "It is the Radetzky March by Johann Strauss I, first performed in 1848 in Vienna. It traditionally closes the Vienna Philharmonic's New Year's Concert – and the audience regularly claps along in time, as the conductor directs."
+      }
+    }
+  },
+  {
+    "id": "mk102",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe an: Mit diesem Motiv beginnt Beethovens 5. Sinfonie. Unter welchem Beinamen ist sie bekannt?",
+    "options": [
+      "Pastorale",
+      "Eroica",
+      "Schicksalssinfonie",
+      "Die Unvollendete"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein früher Beethoven-Biograf behauptete, Beethoven habe über den Anfang gesagt: „So pocht das Schicksal an die Pforte.“ Daher der Beiname Schicksalssinfonie. Die heutige Forschung sieht diese Deutung kritisch – der Name ist umstritten. Berühmt ist die „Fünfte“ trotzdem wie kaum ein anderes Werk.",
+    "difficulty": 2,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 5. Sinfonie (Beethoven)",
+    "source_url": "https://de.wikipedia.org/wiki/5. Sinfonie (Beethoven)",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt: Beethoven's Fifth Symphony begins with this motif. What nickname is it known by?",
+        "options": [
+          "Pastoral",
+          "Eroica",
+          "Symphony of Fate",
+          "The Unfinished"
+        ],
+        "explanation": "An early Beethoven biographer claimed that Beethoven said of the opening: 'Thus fate knocks at the door.' Hence the German nickname 'Schicksalssinfonie' (symphony of fate). Today's research views this interpretation critically – the name is disputed. Still, the 'Fifth' is famous like few other works."
+      }
+    }
+  },
+  {
+    "id": "mk103",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe an: So beginnt Mozarts berühmte Sinfonie in g-Moll aus dem Jahr 1788. Welche Nummer trägt sie?",
+    "options": [
+      "Nr. 94",
+      "Nr. 5",
+      "Nr. 9",
+      "Nr. 40"
+    ],
+    "correct_index": 3,
+    "explanation": "Mozart schrieb seine Sinfonie Nr. 40 in g-Moll, KV 550, im Jahr 1788. Man nennt sie auch die „große g-Moll-Sinfonie“ – denn schon mit siebzehn Jahren hatte er eine Sinfonie in g-Moll geschrieben, seine Nr. 25. Es sind die einzigen beiden Mozart-Sinfonien in Moll.",
+    "difficulty": 3,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia (englisch): Symphony No. 40 (Mozart)",
+    "source_url": "https://en.wikipedia.org/wiki/Symphony_No._40_(Mozart)",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt: this is how Mozart's famous symphony in G minor from 1788 begins. What number is it?",
+        "options": [
+          "No. 94",
+          "No. 5",
+          "No. 9",
+          "No. 40"
+        ],
+        "explanation": "Mozart wrote his Symphony No. 40 in G minor, K. 550, in 1788. It is also called the 'Great G minor symphony' – because at seventeen he had already written a symphony in G minor, his No. 25. They are the only two of Mozart's symphonies in a minor key."
+      }
+    }
+  },
+  {
+    "id": "mk104",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe bis zum Schluss an: Nach dem leisen Thema kommt plötzlich ein lauter Schlag. Welchen Beinamen hat diese Sinfonie von Joseph Haydn deshalb?",
+    "options": [
+      "Mit dem Paukenschlag",
+      "Die Uhr",
+      "Abschiedssinfonie",
+      "Der Bär"
+    ],
+    "correct_index": 0,
+    "explanation": "Haydn komponierte seine Sinfonie Nr. 94 im Jahr 1791 für London. Der deutsche Beiname bezieht sich auf einen unerwarteten, sehr lauten Schlag im zweiten Satz nach einem leisen Thema. Auf Englisch heißt sie „Surprise“ – Überraschung.",
+    "difficulty": 2,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 94. Sinfonie (Haydn)",
+    "source_url": "https://de.wikipedia.org/wiki/94. Sinfonie (Haydn)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt to the end: after the quiet theme there is a sudden loud crash. What nickname does this symphony by Joseph Haydn have because of it?",
+        "options": [
+          "The Surprise",
+          "The Clock",
+          "Farewell",
+          "The Bear"
+        ],
+        "explanation": "Haydn composed his Symphony No. 94 in 1791 for London. The nickname refers to an unexpected, very loud stroke in the second movement after a quiet theme. In German it is called the symphony 'with the drumbeat'."
+      }
+    }
+  },
+  {
+    "id": "mk105",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Hör dir die Hörprobe an: Welches Schlaflied ist das?",
+    "options": [
+      "Weißt du, wie viel Sternlein stehen",
+      "Guten Abend, gut’ Nacht",
+      "Der Mond ist aufgegangen",
+      "Schlaf, Kindlein, schlaf"
+    ],
+    "correct_index": 1,
+    "explanation": "Johannes Brahms komponierte sein Wiegenlied im Juli 1868 in Bonn – als Geschenk für eine Freundin zur Geburt ihres zweiten Sohnes. Den Text gab es schon vorher als Volksgedicht. Das Lied wurde zu einem der bekanntesten deutschen Schlaflieder.",
+    "difficulty": 1,
+    "tags": [
+      "Klassik",
+      "Komponisten",
+      "Hörprobe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Guten Abend, gut’ Nacht",
+    "source_url": "https://de.wikipedia.org/wiki/Guten Abend, gut’ Nacht",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Listen to the excerpt: which lullaby is this?",
+        "options": [
+          "'Weißt du, wie viel Sternlein stehen'",
+          "Brahms' Lullaby ('Guten Abend, gut' Nacht')",
+          "'Der Mond ist aufgegangen'",
+          "'Schlaf, Kindlein, schlaf'"
+        ],
+        "explanation": "Johannes Brahms composed his lullaby in July 1868 in Bonn – as a gift to a friend on the birth of her second son. The words already existed as a folk poem. It became one of the best-known German lullabies."
+      }
+    }
   }
 ]

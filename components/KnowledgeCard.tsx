@@ -7,6 +7,8 @@ import { categoryById } from "@/lib/categories";
 import { isChild } from "@/lib/content";
 import { isFormat, type AnswerKey, type FormatResponse } from "@/lib/formats";
 import CountryMap from "./CountryMap";
+import ListenButton from "./ListenButton";
+import { listenFor } from "@/lib/listen";
 import FormatInput, { FORMAT_LABEL } from "./Formats";
 import { reviewDue } from "@/lib/seen";
 import { useStore, useT } from "@/lib/store";
@@ -60,6 +62,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
   const [menu, setMenu] = useState(false);
   const [hint, setHint] = useState(false);
   const isFact = item.kind === "fact";
+  const listen = listenFor(item.id); // a listening card: the theme is played before the question
   // The answer is only known after submitting (or from an earlier attempt).
   const reveal = result ?? (prev ? { correct: prev.correct, correctIndex: prev.correctIndex, explanation: prev.explanation } : null);
   const done = !!reveal;
@@ -128,6 +131,7 @@ export default function KnowledgeCard({ item, reason, onAnswered, context = "fee
         {isFact && <p className="mb-1.5 font-display text-sm italic text-muted">{t("Stimmt das?")}</p>}
         {special && <p className="mb-1.5 font-display text-sm italic text-muted">{t(FORMAT_LABEL[item.kind])}</p>}
         {item.kind !== "blank" && <h2 className="font-display text-[1.45rem] font-semibold leading-[1.2] tracking-tight text-balance">{item.question}</h2>}
+        {listen && <ListenButton snippet={listen} />}
 
         {item.hints && item.hints.length > 0 && !reveal && (
           <div className="mt-3 space-y-2" data-testid="hints">

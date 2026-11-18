@@ -1048,5 +1048,9 @@
   "Logik": "Logic",
   "Knobeleien": "Brain teasers",
   "Rechnen": "Arithmetic",
-  "Art der Übungen": "Kind of exercises"
+  "Art der Übungen": "Kind of exercises",
+  "Hörprobe": "Listening",
+  "Hörprobe abspielen": "Play the excerpt",
+  "Hörprobe stoppen": "Stop the excerpt",
+  "Dein Browser kann leider keine Töne abspielen.": "Sorry, your browser can't play sounds."
 }

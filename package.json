@@ -13,6 +13,7 @@
     "content:import": "node scripts/content/import.mjs",
     "test": "tsx --test tests/*.test.ts",
     "content:verify": "node scripts/content/fingerprint.mjs",
+    "content:listen": "tsx scripts/content/listen.ts",
     "clips:build": "node scripts/clips/build.mjs",
     "test:e2e": "playwright test",
     "smoke": "node scripts/smoke.mjs",
