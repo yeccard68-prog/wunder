@@ -889,3 +889,5 @@ Anlass: Die „Rätsel des Tages“ waren jeden Tag dieselben drei Arten (Sudoku
 - **Prüfung**: Jede Frage hat wörtliche Belege aus der deutschen Wikipedia, alle 42 von `verify-evidence.mjs` bestätigt. Vorher Abgleich mit allen Fragen und Fakten; der Pistolenkrebs war schon da (`ti78`) und wurde durch den Komodowaran ersetzt. Vanitas und Pfeilschwanzkrebse erst ab 13.
 - **Stand**: 1.880 veröffentlichte Fragen. Am dünnsten sind jetzt Business (123 Karten im Feed) sowie Wissenschaft, Geschichte, Weltraum und Wirtschaft & Geld (je 124).
 - **Datenbank**: neue Zeilen in `supabase/seed/rows/2026-11-18-erde-tiere-kunst.json`, die Datenbank holt sie nach dem Deploy selbst ab.
+- **Tests**: Unit 179/179, Browser-Tests 102/102 (15,5 min).
+- **Datenbank**: Production-Deploy 7888540472 erfolgreich; danach 42 Fragen und 42 Lösungen von der Datenbank selbst geholt (HTTP 200). Prüfsumme der 42 Zeilen `101789361739d35c88e38474914dbd80` = lokal; 1.880 veröffentlichte Fragen, Kategorien-Prüfsumme `72096953ae1dd159706cc9ddcd5003e7` = lokal. Als anonymer Nutzer: 1.880 Fragen sichtbar, keine unveröffentlichten.
