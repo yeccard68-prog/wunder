@@ -73407,5 +73407,1690 @@
         "explanation": "A Faraday cage is an enclosure of conducting material, such as sheet metal or wire mesh, that acts as an electrical shield: inside, it stays free of outside electric fields. Aeroplanes and cars with metal bodies work this way too."
       }
     }
+  },
+  {
+    "id": "eg49",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wonach ist der „Karst“ benannt – Landschaften mit Höhlen und versickernden Flüssen im Kalkgestein?",
+    "options": [
+      "Nach einem Berg in den Alpen",
+      "Nach einem Geologen namens Karst",
+      "Nach einer Region in Slowenien",
+      "Nach einem griechischen Gott"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name kommt von einer Landschaft: dem Karst-Plateau in Slowenien, ursprünglich „Kras“ genannt. Heute bezeichnet Karst ober- und unterirdische Formen wie Höhlen in Kalk- und anderen löslichen Gesteinen.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Landschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karst",
+    "source_url": "https://de.wikipedia.org/wiki/Karst",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 'karst' – landscapes with caves and vanishing rivers in limestone – named after?",
+        "options": [
+          "A mountain in the Alps",
+          "A geologist called Karst",
+          "A region in Slovenia",
+          "A Greek god"
+        ],
+        "explanation": "The name comes from a landscape: the Karst Plateau in Slovenia, originally called 'Kras'. Today karst means surface and underground forms such as caves in limestone and other soluble rocks."
+      }
+    }
+  },
+  {
+    "id": "eg50",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist eine Moräne?",
+    "options": [
+      "Schutt und Geröll, das ein Gletscher mitgeschoben und abgelagert hat",
+      "Ein See, der aus geschmolzenem Eis entsteht",
+      "Eine Spalte im Gletschereis",
+      "Ein warmer Wind in den Bergen"
+    ],
+    "correct_index": 0,
+    "explanation": "Moränen bestehen aus dem Material, das ein Gletscher transportiert – vor allem Schutt, den er bei seiner Bewegung mitschiebt und aufhäuft. Das Wort kommt vom französischen „moraine“, was „Geröll“ bedeutet.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Gletscher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moräne",
+    "source_url": "https://de.wikipedia.org/wiki/Moräne",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a moraine?",
+        "options": [
+          "Rock debris that a glacier pushed along and left behind",
+          "A lake made of melted ice",
+          "A crack in glacier ice",
+          "A warm mountain wind"
+        ],
+        "explanation": "Moraines are made of the material a glacier carries – above all debris that it pushes along and piles up as it moves. The word comes from French 'moraine', meaning 'rubble'."
+      }
+    }
+  },
+  {
+    "id": "eg51",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Woher hat der „Mäander“ – eine Flussschlinge – seinen Namen?",
+    "options": [
+      "Von einem römischen Landvermesser",
+      "Von einem Fluss in der heutigen Türkei",
+      "Von einem Wort für „Schlange“",
+      "Von einem See in Schottland"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Mäander ist eine Flussschlinge in einer Folge weiterer Schlingen. Das Wort geht auf den griechischen Namen Maíandros zurück – so hieß ein stark gewundener Fluss in der heutigen westlichen Türkei, der heute Menderes heißt.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Flüsse",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mäander",
+    "source_url": "https://de.wikipedia.org/wiki/Mäander",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the 'meander' – a loop in a river – get its name?",
+        "options": [
+          "From a Roman land surveyor",
+          "From a river in today's Turkey",
+          "From a word for 'snake'",
+          "From a lake in Scotland"
+        ],
+        "explanation": "A meander is a loop in a river within a series of further loops. The word goes back to the Greek name Maíandros – a strongly winding river in today's western Turkey, now called the Menderes."
+      }
+    }
+  },
+  {
+    "id": "eg52",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist ein Wadi?",
+    "options": [
+      "Ein Salzsee",
+      "Eine Oase mit Palmen",
+      "Ein Trockental in der Wüste, das nur nach Regen Wasser führt",
+      "Eine Sanddüne in Sichelform"
+    ],
+    "correct_index": 2,
+    "explanation": "Wadis sind Trockentäler in Wüstengebieten, etwa in Nordafrika und Vorderasien. Sie führen nur nach starken Regenfällen vorübergehend Wasser. Das Wort stammt aus dem Arabischen.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Wüste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wadi",
+    "source_url": "https://de.wikipedia.org/wiki/Wadi",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a wadi?",
+        "options": [
+          "A salt lake",
+          "An oasis with palm trees",
+          "A dry valley in the desert that only carries water after rain",
+          "A crescent-shaped sand dune"
+        ],
+        "explanation": "Wadis are dry valleys in deserts, for example in North Africa and the Middle East. They only carry water for a while after heavy rain. The word comes from Arabic."
+      }
+    }
+  },
+  {
+    "id": "eg53",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist Obsidian?",
+    "options": [
+      "Ein Metall aus Meteoriten",
+      "Ein versteinertes Harz",
+      "Ein Edelstein aus Diamant",
+      "Natürliches Glas aus einem Vulkan"
+    ],
+    "correct_index": 3,
+    "explanation": "Obsidian ist natürlich vorkommendes vulkanisches Glas. Es entsteht, wenn Lava sehr schnell abkühlt – so schnell, dass sich keine Kristalle bilden können.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Vulkane",
+      "Gestein"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Obsidian",
+    "source_url": "https://de.wikipedia.org/wiki/Obsidian",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is obsidian?",
+        "options": [
+          "A metal from meteorites",
+          "Fossilised resin",
+          "A gemstone made of diamond",
+          "Natural glass from a volcano"
+        ],
+        "explanation": "Obsidian is naturally occurring volcanic glass. It forms when lava cools very quickly – so quickly that no crystals can form."
+      }
+    }
+  },
+  {
+    "id": "eg54",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welcher Stein kann auf dem Wasser schwimmen?",
+    "options": [
+      "Bims",
+      "Granit",
+      "Marmor",
+      "Basalt"
+    ],
+    "correct_index": 0,
+    "explanation": "Bims ist ein Vulkangestein voller Poren, die vulkanische Gase hinterlassen haben. Dadurch ist seine Dichte kleiner als die von Wasser – und er schwimmt.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Vulkane",
+      "Gestein"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bims",
+    "source_url": "https://de.wikipedia.org/wiki/Bims",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which stone can float on water?",
+        "options": [
+          "Pumice",
+          "Granite",
+          "Marble",
+          "Basalt"
+        ],
+        "explanation": "Pumice is a volcanic rock full of pores left behind by volcanic gases. This makes it less dense than water – so it floats."
+      }
+    }
+  },
+  {
+    "id": "eg55",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Nach wem ist das „Elmsfeuer“ benannt – ein Leuchten an Schiffsmasten bei Gewitter?",
+    "options": [
+      "Nach dem Erfinder des Blitzableiters",
+      "Nach einem Heiligen, den Seeleute in Not anriefen",
+      "Nach einer Stadt in England",
+      "Nach einem Leuchtturmwärter"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Elmsfeuer ist eine elektrische Entladung, die bei Gewitterstimmung an spitzen Gegenständen wie Schiffsmasten oder Kirchtürmen leuchtet. Benannt ist es nach dem heiligen Erasmus (italienisch Elmo), den Seeleute früher in Sturmnot anriefen.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elmsfeuer",
+    "source_url": "https://de.wikipedia.org/wiki/Elmsfeuer",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is 'St. Elmo's fire' – a glow on ships' masts in thundery weather – named after?",
+        "options": [
+          "The inventor of the lightning rod",
+          "A saint whom sailors called on in distress",
+          "A town in England",
+          "A lighthouse keeper"
+        ],
+        "explanation": "St. Elmo's fire is an electrical discharge that glows on pointed objects such as ships' masts or church towers in thundery weather. It is named after Saint Erasmus (Elmo in Italian), whom sailors once called on when caught in a storm."
+      }
+    }
+  },
+  {
+    "id": "eg56",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist ein Pingo?",
+    "options": [
+      "Ein Eisberg, der im Meer treibt",
+      "Ein kleiner Vulkan aus Schlamm",
+      "Ein Hügel mit einem Kern aus Eis im Permafrost",
+      "Ein Tal, das ein Gletscher geformt hat"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Pingo ist ein Erdhügel, der im Permafrost entsteht. In seinem Inneren steckt ein Kern aus Eis. Das Wort stammt aus der Sprache der Inuit und bedeutet „Hügel“.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Eis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pingo",
+    "source_url": "https://de.wikipedia.org/wiki/Pingo",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a pingo?",
+        "options": [
+          "An iceberg drifting in the sea",
+          "A small volcano made of mud",
+          "A mound with a core of ice in permafrost",
+          "A valley shaped by a glacier"
+        ],
+        "explanation": "A pingo is an earth mound that forms in permafrost. Inside it is a core of ice. The word comes from the Inuit language Inuktitut and means 'hill'."
+      }
+    }
+  },
+  {
+    "id": "eg57",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie kamen riesige „Findlinge“ – große, einzeln liegende Steine – nach Norddeutschland?",
+    "options": [
+      "Flüsse haben sie im Sommer angeschwemmt",
+      "Vulkane haben sie ausgeworfen",
+      "Riesen haben sie geworfen",
+      "Gletscher haben sie in den Eiszeiten dorthin getragen"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Findling ist ein meist einzeln liegender, sehr großer Stein. Gletscher haben ihn während der Eiszeiten transportiert und an seinem heutigen Platz liegen gelassen – oft weit weg von dem Gebirge, aus dem er stammt.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Eiszeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Findling",
+    "source_url": "https://de.wikipedia.org/wiki/Findling",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did huge 'erratic boulders' – big stones lying on their own – get to northern Germany?",
+        "options": [
+          "Rivers washed them there in summer",
+          "Volcanoes threw them out",
+          "Giants threw them",
+          "Glaciers carried them there during the ice ages"
+        ],
+        "explanation": "An erratic is a very large stone that usually lies on its own. Glaciers carried it during the ice ages and left it where it lies today – often far from the mountains it came from."
+      }
+    }
+  },
+  {
+    "id": "eg58",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was bedeutet das finnische Wort, von dem „Tundra“ abstammt?",
+    "options": [
+      "Baumlose Hochfläche",
+      "Ewiges Eis",
+      "Land der Rentiere",
+      "Kalter Wind"
+    ],
+    "correct_index": 0,
+    "explanation": "„Tundra“ kam über das Russische ins Deutsche und stammt vermutlich vom finnischen „tunturi“ – einer baumlosen Hochfläche. Genau das ist die Tundra: eine kalte Landschaft, in der keine Bäume wachsen.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tundra",
+    "source_url": "https://de.wikipedia.org/wiki/Tundra",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Finnish word that 'tundra' comes from mean?",
+        "options": [
+          "Treeless upland",
+          "Eternal ice",
+          "Land of reindeer",
+          "Cold wind"
+        ],
+        "explanation": "'Tundra' came into German via Russian and probably comes from the Finnish 'tunturi' – a treeless upland. That is exactly what tundra is: a cold landscape where no trees grow."
+      }
+    }
+  },
+  {
+    "id": "eg59",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was trennt die Kurische Nehrung voneinander?",
+    "options": [
+      "Die Nordsee und die Ostsee",
+      "Das Kurische Haff und die Ostsee",
+      "Zwei Gebirge in Litauen",
+      "Zwei Flüsse in Polen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Kurische Nehrung ist ein schmaler Landstreifen, der das Kurische Haff von der Ostsee trennt. Sie ist berühmt für ihre riesigen Wanderdünen, die früher immer wieder ganze Dörfer unter Sand begruben.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Küste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kurische Nehrung",
+    "source_url": "https://de.wikipedia.org/wiki/Kurische Nehrung",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Curonian Spit separate?",
+        "options": [
+          "The North Sea and the Baltic Sea",
+          "The Curonian Lagoon and the Baltic Sea",
+          "Two mountain ranges in Lithuania",
+          "Two rivers in Poland"
+        ],
+        "explanation": "The Curonian Spit is a narrow strip of land separating the Curonian Lagoon from the Baltic Sea. It is famous for its huge moving dunes, which used to bury whole villages in sand again and again."
+      }
+    }
+  },
+  {
+    "id": "eg60",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Form hat etwa die Hälfte der 40.000 Steinsäulen des Giant’s Causeway in Nordirland?",
+    "options": [
+      "Quadratisch",
+      "Rund",
+      "Dreieckig",
+      "Sechseckig"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Giant’s Causeway besteht aus etwa 40.000 Basaltsäulen, die rund 60 Millionen Jahre alt sind. Etwa die Hälfte davon hat einen sechseckigen Querschnitt; es gibt aber auch Säulen mit vier, fünf, sieben oder acht Ecken.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Gestein"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Giant’s Causeway",
+    "source_url": "https://de.wikipedia.org/wiki/Giant’s Causeway",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What shape is about half of the 40,000 stone columns of the Giant's Causeway in Northern Ireland?",
+        "options": [
+          "Square",
+          "Round",
+          "Triangular",
+          "Hexagonal"
+        ],
+        "explanation": "The Giant's Causeway consists of about 40,000 basalt columns, around 60 million years old. About half of them are hexagonal in cross-section, but there are also columns with four, five, seven or eight corners."
+      }
+    }
+  },
+  {
+    "id": "eg61",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie viel Wasser können Torfmoose in ihren Speicherzellen festhalten?",
+    "options": [
+      "Mehr als das 30-fache ihres Trockengewichts",
+      "Etwa so viel, wie sie selbst wiegen",
+      "Gar keins – sie wachsen nur an trockenen Orten",
+      "Genau einen Tropfen pro Blatt"
+    ],
+    "correct_index": 0,
+    "explanation": "Torfmoose wachsen in Mooren. In großen Speicherzellen können sie mehr als das 30-fache ihrer Trockenmasse an Wasser speichern – deshalb sind Hochmoore so nass.",
+    "difficulty": 3,
+    "tags": [
+      "Natur",
+      "Pflanzen",
+      "Moor"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Torfmoose",
+    "source_url": "https://de.wikipedia.org/wiki/Torfmoose",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How much water can peat mosses hold in their storage cells?",
+        "options": [
+          "More than 30 times their dry weight",
+          "About as much as they weigh themselves",
+          "None – they only grow in dry places",
+          "Exactly one drop per leaf"
+        ],
+        "explanation": "Peat mosses grow in bogs. In large storage cells they can hold more than 30 times their dry mass in water – which is why raised bogs are so wet."
+      }
+    }
+  },
+  {
+    "id": "eg62",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist der größte zusammenhängende Wald der Erde?",
+    "options": [
+      "Der Amazonas-Regenwald",
+      "Der nördliche Nadelwald (Taiga)",
+      "Der Schwarzwald",
+      "Der Kongo-Regenwald"
+    ],
+    "correct_index": 1,
+    "explanation": "Die borealen Nadelwälder im Norden – auch Taiga genannt – ziehen sich über Russland, Skandinavien, Kanada und Alaska. Sie sind der größte zusammenhängende Waldkomplex der Erde.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wald"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Borealer Nadelwald",
+    "source_url": "https://de.wikipedia.org/wiki/Borealer Nadelwald",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the largest continuous forest on Earth?",
+        "options": [
+          "The Amazon rainforest",
+          "The northern coniferous forest (taiga)",
+          "The Black Forest",
+          "The Congo rainforest"
+        ],
+        "explanation": "The boreal coniferous forests of the north – also called taiga – stretch across Russia, Scandinavia, Canada and Alaska. They are the largest continuous forest complex on Earth."
+      }
+    }
+  },
+  {
+    "id": "ti98",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist besonders an den Augen des Grottenolms, der in dunklen Höhlen lebt?",
+    "options": [
+      "Sie sehen Wärme",
+      "Sie leuchten im Dunkeln",
+      "Er hat vier davon",
+      "Sie sind verkümmert und unter der Haut verborgen"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Grottenolm lebt in Höhlengewässern, in die kein Licht dringt. Seine Augen sind verkümmert, funktionslos und unter der Haut verborgen. Zeitlebens trägt er rote Kiemenbüschel am Kopf.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Höhlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grottenolm",
+    "source_url": "https://de.wikipedia.org/wiki/Grottenolm",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the eyes of the olm, which lives in dark caves?",
+        "options": [
+          "They see heat",
+          "They glow in the dark",
+          "It has four of them",
+          "They are shrunken and hidden under the skin"
+        ],
+        "explanation": "The olm lives in cave waters where no light reaches. Its eyes are shrunken, useless and hidden under the skin. All its life it has red tufts of gills on its head."
+      }
+    }
+  },
+  {
+    "id": "ti99",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo bildet der Komodowaran sein Gift, mit dem er große Beutetiere jagt?",
+    "options": [
+      "In Drüsen im Unterkiefer",
+      "In seinen Krallen",
+      "In Hautdrüsen am Schwanz",
+      "In seinem Magen"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Komodowaran aus Indonesien ist mit bis zu drei Metern Länge eine der größten Echsen der Welt. Bei der Jagd auf große Säugetiere hilft ihm ein Gift aus Drüsen im Unterkiefer: Es hemmt die Blutgerinnung und löst einen Schock aus.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Komodowaran",
+    "source_url": "https://de.wikipedia.org/wiki/Komodowaran",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the Komodo dragon make the venom it uses to hunt large prey?",
+        "options": [
+          "In glands in its lower jaw",
+          "In its claws",
+          "In skin glands on its tail",
+          "In its stomach"
+        ],
+        "explanation": "The Komodo dragon from Indonesia, up to three metres long, is one of the largest lizards in the world. When it hunts large mammals it is helped by venom from glands in its lower jaw: it stops blood from clotting and causes shock."
+      }
+    }
+  },
+  {
+    "id": "ti100",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum fressen erwachsene Eintagsfliegen nichts?",
+    "options": [
+      "Sie haben keinen Hunger, weil sie nur Wasser trinken",
+      "Ihre Mundwerkzeuge sind verkümmert",
+      "Sie fressen nur nachts",
+      "Sie fressen – aber nur Blütenstaub"
+    ],
+    "correct_index": 1,
+    "explanation": "Erwachsene Eintagsfliegen haben verkümmerte Mundwerkzeuge und einen Darm, der keine Nahrung verwerten kann. Sie leben meist nur ein bis vier Tage – manche Arten sogar nur Minuten oder Stunden.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eintagsfliegen",
+    "source_url": "https://de.wikipedia.org/wiki/Eintagsfliegen",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why don't adult mayflies eat anything?",
+        "options": [
+          "They're not hungry because they only drink water",
+          "Their mouthparts are stunted",
+          "They only eat at night",
+          "They do eat – but only pollen"
+        ],
+        "explanation": "Adult mayflies have stunted mouthparts and a gut that cannot process food. Most live only one to four days – some species only minutes or hours."
+      }
+    }
+  },
+  {
+    "id": "ti101",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woraus bestehen die Schuppen des Schuppentiers?",
+    "options": [
+      "Aus Kalk wie ein Schneckenhaus",
+      "Aus Knochen",
+      "Aus Keratin – wie unsere Fingernägel",
+      "Aus verklebtem Fell"
+    ],
+    "correct_index": 2,
+    "explanation": "Schuppentiere tragen einen Panzer aus Schuppen, die aus Keratin bestehen – demselben Stoff wie Haare und Fingernägel. Bei Gefahr rollen sie sich zu einer Kugel ein. Sie fressen vor allem Ameisen und Termiten.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schuppentiere",
+    "source_url": "https://de.wikipedia.org/wiki/Schuppentiere",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are a pangolin's scales made of?",
+        "options": [
+          "Lime, like a snail shell",
+          "Bone",
+          "Keratin – like our fingernails",
+          "Matted fur"
+        ],
+        "explanation": "Pangolins wear armour made of scales of keratin – the same material as hair and fingernails. When threatened they roll up into a ball. They mainly eat ants and termites."
+      }
+    }
+  },
+  {
+    "id": "ti102",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woher hat der Siebenschläfer angeblich seinen Namen?",
+    "options": [
+      "Weil er sieben Nester baut",
+      "Weil er sieben Junge bekommt",
+      "Weil er sieben Stunden am Tag schläft",
+      "Von seinem sieben Monate langen Winterschlaf"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Siebenschläfer ist ein kleines, nachtaktives Nagetier. Seinen Namen soll er wegen seines Winterschlafs bekommen haben, der etwa sieben Monate dauert – oft von September bis Mai.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Winterschlaf"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Siebenschläfer",
+    "source_url": "https://de.wikipedia.org/wiki/Siebenschläfer",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German name of the edible dormouse, 'Siebenschläfer' ('seven-sleeper'), supposedly come from?",
+        "options": [
+          "It builds seven nests",
+          "It has seven babies",
+          "It sleeps seven hours a day",
+          "Its seven-month winter sleep"
+        ],
+        "explanation": "The edible dormouse is a small, nocturnal rodent. It is said to have got its German name from its hibernation, which lasts about seven months – often from September to May."
+      }
+    }
+  },
+  {
+    "id": "ti103",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum ist das Blut von Pfeilschwanzkrebsen für die Medizin so wertvoll?",
+    "options": [
+      "Es gerinnt bei Bakteriengiften – so prüft man Arzneien",
+      "Es heilt Wunden sofort",
+      "Es enthält Gold",
+      "Es leuchtet im Dunkeln"
+    ],
+    "correct_index": 0,
+    "explanation": "Pfeilschwanzkrebse haben blaues Blut, weil ihr Sauerstofftransporter Hämocyanin Kupfer enthält. Ihr Blut gerinnt zu einem Gel, sobald es auf bestimmte Bakteriengifte trifft. Damit wird geprüft, ob Medikamente und Spritzen sauber sind.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Meer",
+      "Medizin"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pfeilschwanzkrebse",
+    "source_url": "https://de.wikipedia.org/wiki/Pfeilschwanzkrebse",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the blood of horseshoe crabs so valuable for medicine?",
+        "options": [
+          "It clots on contact with bacterial toxins – used to test medicines",
+          "It heals wounds instantly",
+          "It contains gold",
+          "It glows in the dark"
+        ],
+        "explanation": "Horseshoe crabs have blue blood because their oxygen carrier, haemocyanin, contains copper. Their blood clots into a gel as soon as it meets certain bacterial toxins. This is used to check that medicines and syringes are clean."
+      }
+    }
+  },
+  {
+    "id": "ti104",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wofür benutzen Walrosse ihre langen Stoßzähne unter anderem?",
+    "options": [
+      "Um Fische aufzuspießen",
+      "Um sich an Land und aufs Eis zu ziehen",
+      "Um Löcher in Bäume zu bohren",
+      "Zum Graben von Höhlen im Schnee"
+    ],
+    "correct_index": 1,
+    "explanation": "Der wissenschaftliche Name des Walrosses, Odobenus, bedeutet ungefähr „der mit den Zähnen geht“: Walrosse ziehen sich an Land mit ihren Stoßzähnen vorwärts.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Walross",
+    "source_url": "https://de.wikipedia.org/wiki/Walross",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do walruses use their long tusks for, among other things?",
+        "options": [
+          "To spear fish",
+          "To pull themselves onto land and ice",
+          "To drill holes in trees",
+          "To dig caves in snow"
+        ],
+        "explanation": "The walrus's scientific name, Odobenus, means roughly 'the one who walks with its teeth': on land, walruses pull themselves forward with their tusks."
+      }
+    }
+  },
+  {
+    "id": "ti105",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist besonders am Kakapo aus Neuseeland?",
+    "options": [
+      "Er kann rückwärts schwimmen",
+      "Er ist ein Vogel ohne Federn",
+      "Er ist ein Papagei, der nicht fliegen kann",
+      "Er legt blaue Eier ins Wasser"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Kakapo ist der einzige heute lebende Papagei, der nicht fliegen kann. Er ist nachtaktiv und frisst vor allem Pflanzen.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kakapo",
+    "source_url": "https://de.wikipedia.org/wiki/Kakapo",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the kakapo from New Zealand?",
+        "options": [
+          "It can swim backwards",
+          "It is a bird without feathers",
+          "It is a parrot that cannot fly",
+          "It lays blue eggs in water"
+        ],
+        "explanation": "The kakapo is the only living parrot that cannot fly. It is nocturnal and mainly eats plants."
+      }
+    }
+  },
+  {
+    "id": "ti106",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wozu baut ein Laubenvogel-Männchen seine geschmückte „Laube“?",
+    "options": [
+      "Um seine Jungen zu verstecken",
+      "Um darin zu schlafen",
+      "Um Futter zu lagern",
+      "Um ein Weibchen anzulocken"
+    ],
+    "correct_index": 3,
+    "explanation": "Laubenvögel leben in Australien und Neuguinea. Die Männchen bauen eine Laube als Balzplatz und schmücken sie, etwa mit bunten Früchten – damit wollen sie ein Weibchen anlocken.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Laubenvögel",
+    "source_url": "https://de.wikipedia.org/wiki/Laubenvögel",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a male bowerbird build its decorated 'bower'?",
+        "options": [
+          "To hide its young",
+          "To sleep in it",
+          "To store food",
+          "To attract a female"
+        ],
+        "explanation": "Bowerbirds live in Australia and New Guinea. The males build a bower as a courtship display and decorate it, for example with colourful fruit – to attract a female."
+      }
+    }
+  },
+  {
+    "id": "ti107",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was frisst die Meerechse auf den Galápagos-Inseln?",
+    "options": [
+      "Fast nur Algen und Tang aus dem Meer",
+      "Fische",
+      "Kleine Vögel",
+      "Kakteen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Meerechse ist ein Leguan, der nur auf den Galápagos-Inseln vorkommt. Sie frisst fast ausschließlich Algen und Tang aus dem Meer.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meerechse",
+    "source_url": "https://de.wikipedia.org/wiki/Meerechse",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the marine iguana on the Galápagos Islands eat?",
+        "options": [
+          "Almost only algae and seaweed from the sea",
+          "Fish",
+          "Small birds",
+          "Cacti"
+        ],
+        "explanation": "The marine iguana is an iguana found only on the Galápagos Islands. It eats almost nothing but algae and seaweed from the sea."
+      }
+    }
+  },
+  {
+    "id": "ti108",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welches Kunststück verschaffte dem Stirnlappenbasilisken den Spitznamen „Jesus-Echse“?",
+    "options": [
+      "Er kann auf zwei Beinen beten",
+      "Er kann kurz über Wasser laufen",
+      "Er leuchtet im Dunkeln",
+      "Er kann Jahre ohne Wasser leben"
+    ],
+    "correct_index": 1,
+    "explanation": "Mit seinen verbreiterten Zehen kann der Stirnlappenbasilisk für kurze Zeit über das Wasser laufen. Das brachte ihm den Namen „Jesus-Echse“ ein.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Reptilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stirnlappenbasilisk",
+    "source_url": "https://de.wikipedia.org/wiki/Stirnlappenbasilisk",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which trick earned the plumed basilisk the nickname 'Jesus lizard'?",
+        "options": [
+          "It can pray on two legs",
+          "It can run across water for a short time",
+          "It glows in the dark",
+          "It can live for years without water"
+        ],
+        "explanation": "With its widened toes, the plumed basilisk can run across water for a short time. That earned it the name 'Jesus lizard'."
+      }
+    }
+  },
+  {
+    "id": "ti109",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was kann man durch die Bauchhaut eines Glasfrosches sehen?",
+    "options": [
+      "Seine Flügel",
+      "Gar nichts – sie ist schwarz",
+      "Sein Herz und seine Verdauungsorgane",
+      "Sein Gehirn"
+    ],
+    "correct_index": 2,
+    "explanation": "Glasfrösche sind oben meist grün, ihre Unterseite ist aber durchsichtig. Darum kann man von außen das Herz, die Verdauungsorgane und reifende Eier erkennen.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Amphibien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glasfrösche",
+    "source_url": "https://de.wikipedia.org/wiki/Glasfrösche",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can you see through the belly skin of a glass frog?",
+        "options": [
+          "Its wings",
+          "Nothing – it's black",
+          "Its heart and digestive organs",
+          "Its brain"
+        ],
+        "explanation": "Glass frogs are usually green on top, but their underside is transparent. That's why you can see the heart, the digestive organs and ripening eggs from outside."
+      }
+    }
+  },
+  {
+    "id": "ti110",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo wachsen die Jungen der Wabenkröte heran?",
+    "options": [
+      "In Waben auf dem Rücken der Mutter",
+      "In einem Nest aus Schaum",
+      "Im Maul des Vaters",
+      "Im Bauch der Mutter"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei der Paarung landen die Eier auf dem Rücken des Weibchens und bleiben dort haften. Nach 12 bis 20 Wochen schlüpfen fertige kleine Kröten aus den Rückenwaben – ein freies Kaulquappen-Stadium gibt es nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Amphibien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wabenkröte",
+    "source_url": "https://de.wikipedia.org/wiki/Wabenkröte",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do the young of the Surinam toad grow up?",
+        "options": [
+          "In honeycomb-like pockets on the mother's back",
+          "In a nest of foam",
+          "In the father's mouth",
+          "Inside the mother's belly"
+        ],
+        "explanation": "During mating the eggs land on the female's back and stick there. After 12 to 20 weeks fully formed little toads hatch from the pockets in her back – there is no free tadpole stage."
+      }
+    }
+  },
+  {
+    "id": "ti111",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist beim Feuersalamander anders als bei den meisten Lurchen?",
+    "options": [
+      "Er hat Federn",
+      "Er legt keinen Laich, sondern bringt Larven lebend zur Welt",
+      "Er kann Feuer spucken",
+      "Er lebt nur im Meer"
+    ],
+    "correct_index": 1,
+    "explanation": "Die meisten Lurche legen Laich ins Wasser. Der Feuersalamander laicht nicht: Er bringt seine Larven lebend zur Welt. Seine gelb-schwarze Färbung warnt vor seinem Gift.",
+    "difficulty": 3,
+    "tags": [
+      "Tiere",
+      "Amphibien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Feuersalamander",
+    "source_url": "https://de.wikipedia.org/wiki/Feuersalamander",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is different about the fire salamander compared with most amphibians?",
+        "options": [
+          "It has feathers",
+          "It lays no spawn but gives birth to live larvae",
+          "It can breathe fire",
+          "It only lives in the sea"
+        ],
+        "explanation": "Most amphibians lay spawn in water. The fire salamander does not: it gives birth to live larvae. Its yellow-and-black colouring warns of its poison."
+      }
+    }
+  },
+  {
+    "id": "kn88",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist Ikebana?",
+    "options": [
+      "Eine japanische Schrift",
+      "Japanische Papierfaltkunst",
+      "Die japanische Kunst, Blumen zu arrangieren",
+      "Ein japanisches Theater"
+    ],
+    "correct_index": 2,
+    "explanation": "Ikebana bedeutet wörtlich „lebende Blumen“. Es ist die japanische Kunst des Blumenarrangierens – eine eigenständige Kunstform, die sich in Japan entwickelt hat.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ikebana",
+    "source_url": "https://de.wikipedia.org/wiki/Ikebana",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is ikebana?",
+        "options": [
+          "A Japanese script",
+          "The Japanese art of paper folding",
+          "The Japanese art of arranging flowers",
+          "A Japanese theatre"
+        ],
+        "explanation": "Ikebana literally means 'living flowers'. It is the Japanese art of arranging flowers – an art form of its own that developed in Japan."
+      }
+    }
+  },
+  {
+    "id": "kn89",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wozu dienen die oft fratzenhaften Wasserspeier an gotischen Kirchen?",
+    "options": [
+      "Sie halten das Dach fest",
+      "Sie läuten bei Sturm",
+      "Sie sind Lautsprecher für den Chor",
+      "Sie leiten Regenwasser vom Gebäude weg"
+    ],
+    "correct_index": 3,
+    "explanation": "Durch Wasserspeier schießt das Regenwasser vom Dach in einem Bogen vom Gebäude weg. So dringt es nicht ins Mauerwerk ein. Auf Französisch heißen sie „Gargouille“ – verwandt mit „gurgeln“.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserspeier",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserspeier",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the often grotesque gargoyles on Gothic churches for?",
+        "options": [
+          "They hold the roof in place",
+          "They ring in storms",
+          "They are loudspeakers for the choir",
+          "They carry rainwater away from the building"
+        ],
+        "explanation": "Rainwater from the roof shoots through gargoyles in an arc away from the building, so it does not soak into the walls. The French name 'gargouille' is related to the word for 'gurgle'."
+      }
+    }
+  },
+  {
+    "id": "kn90",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Womit werden beim Batik Muster auf den Stoff gezeichnet, bevor er gefärbt wird?",
+    "options": [
+      "Mit Kreide",
+      "Mit flüssigem Wachs",
+      "Mit Klebstoff",
+      "Mit Nadel und Faden"
+    ],
+    "correct_index": 1,
+    "explanation": "Batik stammt ursprünglich aus Java. Muster werden mit flüssigem Wachs auf den Stoff gezeichnet; an diesen Stellen nimmt der Stoff beim Färben keine Farbe an. Indonesische Batik ist seit 2009 immaterielles Kulturerbe der UNESCO.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Textil"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Batik",
+    "source_url": "https://de.wikipedia.org/wiki/Batik",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In batik, what are patterns drawn onto the fabric with before it is dyed?",
+        "options": [
+          "Chalk",
+          "Liquid wax",
+          "Glue",
+          "Needle and thread"
+        ],
+        "explanation": "Batik originally comes from Java. Patterns are drawn onto the fabric with liquid wax; in those places the fabric takes no dye. Indonesian batik has been UNESCO Intangible Cultural Heritage since 2009."
+      }
+    }
+  },
+  {
+    "id": "kn91",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Aus welchem Material schuf Michelangelo 1498–1499 seine Pietà im Petersdom?",
+    "options": [
+      "Holz",
+      "Bronze",
+      "Marmor",
+      "Ton"
+    ],
+    "correct_index": 2,
+    "explanation": "Michelangelos römische Pietà zeigt Maria mit ihrem toten Sohn auf dem Schoß. Die Marmorstatue entstand 1498 bis 1499 in Rom und gehört zu den bekanntesten Darstellungen dieses Motivs.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Römische Pietà",
+    "source_url": "https://de.wikipedia.org/wiki/Römische Pietà",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What material did Michelangelo use for his Pietà in St Peter's, made in 1498–1499?",
+        "options": [
+          "Wood",
+          "Bronze",
+          "Marble",
+          "Clay"
+        ],
+        "explanation": "Michelangelo's Roman Pietà shows Mary with her dead son on her lap. The marble statue was made in Rome from 1498 to 1499 and is one of the best-known depictions of this subject."
+      }
+    }
+  },
+  {
+    "id": "kn92",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woran erinnern Totenschädel, erlöschende Kerzen und welke Blumen auf einem Vanitas-Stillleben?",
+    "options": [
+      "An einen Sieg",
+      "An einen Geburtstag",
+      "An eine Ernte",
+      "An die Vergänglichkeit aller Dinge"
+    ],
+    "correct_index": 3,
+    "explanation": "„Vanitas“ steht für die Vorstellung, dass alles Irdische vergänglich ist. Typische Zeichen dafür in der Kunst sind Totenschädel, erlöschende Kerze, Sanduhr und verwelkte Blume.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vanitas",
+    "source_url": "https://de.wikipedia.org/wiki/Vanitas",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do skulls, guttering candles and wilted flowers in a vanitas still life remind us of?",
+        "options": [
+          "A victory",
+          "A birthday",
+          "A harvest",
+          "That all things pass away"
+        ],
+        "explanation": "'Vanitas' stands for the idea that everything earthly is transient. Typical signs of this in art are the skull, the guttering candle, the hourglass and the wilted flower."
+      }
+    }
+  },
+  {
+    "id": "kn93",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet „Impasto“ in der Malerei?",
+    "options": [
+      "Farbe wird dick aufgetragen",
+      "Farbe wird mit Wasser verdünnt",
+      "Man malt nur mit Grautönen",
+      "Man malt auf nassen Putz"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Impasto, auch pastoser Farbauftrag genannt, wird die Farbe deckend und mehr oder weniger dick aufgetragen – oft so dick, dass man die Pinselspuren als Relief sieht.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Impasto",
+    "source_url": "https://de.wikipedia.org/wiki/Impasto",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does 'impasto' mean in painting?",
+        "options": [
+          "Paint is applied thickly",
+          "Paint is thinned with water",
+          "You paint only in greys",
+          "You paint on wet plaster"
+        ],
+        "explanation": "In impasto, paint is applied opaquely and more or less thickly – often so thickly that the brushstrokes stand out like a relief."
+      }
+    }
+  },
+  {
+    "id": "kn94",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist eine Karyatide in der Architektur?",
+    "options": [
+      "Ein rundes Fenster in einer Kirche",
+      "Eine Frauenfigur, die wie eine Säule das Dach trägt",
+      "Ein Turm mit Glocken",
+      "Ein Bogen über einem Tor"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Karyatide ist eine weibliche Figur, die anstelle einer Säule oder eines Pfeilers verwendet wird – sie hat also eine tragende Aufgabe, etwa an Portalen.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karyatide",
+    "source_url": "https://de.wikipedia.org/wiki/Karyatide",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a caryatid in architecture?",
+        "options": [
+          "A round window in a church",
+          "A female figure that holds up a roof like a column",
+          "A tower with bells",
+          "An arch over a gate"
+        ],
+        "explanation": "A caryatid is a female figure used in place of a column or pillar – so it does a load-bearing job, for example at entrances."
+      }
+    }
+  },
+  {
+    "id": "kn95",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ahmte die blau-weiße Keramik aus Delft ursprünglich nach?",
+    "options": [
+      "Venezianisches Glas",
+      "Römische Mosaike",
+      "Chinesisches Porzellan",
+      "Ägyptische Wandmalerei"
+    ],
+    "correct_index": 2,
+    "explanation": "Delfter Blau ist eine Fayence – eine Keramik mit blauem Dekor aus der niederländischen Stadt Delft. Sie entstand als preiswertere Alternative zum blau-weißen Porzellan aus China.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Keramik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Delfter Blau",
+    "source_url": "https://de.wikipedia.org/wiki/Delfter Blau",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the blue-and-white pottery from Delft originally imitate?",
+        "options": [
+          "Venetian glass",
+          "Roman mosaics",
+          "Chinese porcelain",
+          "Egyptian wall paintings"
+        ],
+        "explanation": "Delftware is a faience – pottery with blue decoration from the Dutch city of Delft. It began as a cheaper alternative to blue-and-white porcelain from China."
+      }
+    }
+  },
+  {
+    "id": "kn96",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wofür ist die Inselgruppe Murano bei Venedig berühmt?",
+    "options": [
+      "Für Teppiche",
+      "Für Geigenbau",
+      "Für Marmorstatuen",
+      "Für Glaskunst"
+    ],
+    "correct_index": 3,
+    "explanation": "Murano besteht aus sieben Inseln in der Lagune von Venedig. Die Inselgruppe ist bekannt für ihre Glaskunst – Muranoglas.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Glas"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Murano",
+    "source_url": "https://de.wikipedia.org/wiki/Murano",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Murano island group near Venice famous for?",
+        "options": [
+          "Carpets",
+          "Violin making",
+          "Marble statues",
+          "Glass art"
+        ],
+        "explanation": "Murano consists of seven islands in the Venetian Lagoon. The islands are known for their glass art – Murano glass."
+      }
+    }
+  },
+  {
+    "id": "kn97",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Bogen gilt als typisches Merkmal der Gotik?",
+    "options": [
+      "Der Spitzbogen",
+      "Der Rundbogen",
+      "Der Hufeisenbogen",
+      "Der flache Sturz"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Spitzbogen läuft oben in einer Spitze zusammen. Er gilt in der Architektur als zentrales Element der Gotik – man sieht ihn an Fenstern und Gewölben vieler Kathedralen.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Architektur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spitzbogen",
+    "source_url": "https://de.wikipedia.org/wiki/Spitzbogen",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which arch is a typical feature of Gothic architecture?",
+        "options": [
+          "The pointed arch",
+          "The round arch",
+          "The horseshoe arch",
+          "The flat lintel"
+        ],
+        "explanation": "The pointed arch meets in a point at the top. In architecture it is regarded as a central element of Gothic style – you can see it in the windows and vaults of many cathedrals."
+      }
+    }
+  },
+  {
+    "id": "kn98",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welcher Bildhauer machte den Marmor aus Carrara berühmt?",
+    "options": [
+      "Auguste Rodin",
+      "Michelangelo",
+      "Donatello",
+      "Gian Lorenzo Bernini"
+    ],
+    "correct_index": 1,
+    "explanation": "Marmor aus den Steinbrüchen von Carrara in Italien wurde vor allem durch Michelangelo berühmt. Aus ihm schuf er Werke wie den David, die Pietà und den Moses.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Carrara-Marmor",
+    "source_url": "https://de.wikipedia.org/wiki/Carrara-Marmor",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which sculptor made marble from Carrara famous?",
+        "options": [
+          "Auguste Rodin",
+          "Michelangelo",
+          "Donatello",
+          "Gian Lorenzo Bernini"
+        ],
+        "explanation": "Marble from the quarries of Carrara in Italy became famous above all through Michelangelo. He used it for works such as David, the Pietà and Moses."
+      }
+    }
+  },
+  {
+    "id": "kn99",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woher hat der Stil „Art déco“ seinen Namen?",
+    "options": [
+      "Von einem Kaufhaus in New York",
+      "Von einem Maler namens Deco",
+      "Von einer Kunstgewerbe-Ausstellung 1925 in Paris",
+      "Von einer Kunstschule in Wien"
+    ],
+    "correct_index": 2,
+    "explanation": "„Art déco“ ist die Abkürzung für eine Ausstellung für dekorative und industrielle Kunst, die 1925 in Paris stattfand. Paris war auch das Zentrum dieses Stils.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Design"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Art déco",
+    "source_url": "https://de.wikipedia.org/wiki/Art déco",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the style 'Art Deco' get its name?",
+        "options": [
+          "From a department store in New York",
+          "From a painter called Deco",
+          "From a decorative arts exhibition in Paris in 1925",
+          "From an art school in Vienna"
+        ],
+        "explanation": "'Art Deco' is short for an exhibition of decorative and industrial arts held in Paris in 1925. Paris was also the centre of the style."
+      }
+    }
+  },
+  {
+    "id": "kn100",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was wurde ursprünglich bei einer „Vernissage“ gemacht – heute die Eröffnung einer Ausstellung?",
+    "options": [
+      "Die Bilder wurden verkauft",
+      "Die Rahmen wurden vergoldet",
+      "Die Künstler signierten ihre Bilder",
+      "Die Bilder wurden mit Firnis lackiert"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Wort kommt vom französischen „vernis“ – Firnis, ein Klarlack. Ursprünglich wurde dieser Lack auf die fertigen Bilder aufgetragen, um sie zu schützen und die Farben leuchten zu lassen. Heute ist eine Vernissage die feierliche Eröffnung einer Kunstausstellung.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vernissage",
+    "source_url": "https://de.wikipedia.org/wiki/Vernissage",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was originally done at a 'vernissage' – today the opening of an exhibition?",
+        "options": [
+          "The paintings were sold",
+          "The frames were gilded",
+          "The artists signed their paintings",
+          "The paintings were varnished"
+        ],
+        "explanation": "The word comes from French 'vernis' – varnish, a clear coat. Originally this varnish was put on finished paintings to protect them and make the colours glow. Today a vernissage is the formal opening of an art exhibition."
+      }
+    }
+  },
+  {
+    "id": "kn101",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Worauf zeichnet man bei der Lithografie, die Alois Senefelder 1798 erfand?",
+    "options": [
+      "Auf einen Stein",
+      "Auf eine Holzplatte",
+      "Auf eine Glasscheibe",
+      "Auf ein Stück Leder"
+    ],
+    "correct_index": 0,
+    "explanation": "Lithografie heißt Steindruck – vom griechischen „líthos“ für Stein. Das Verfahren geht auf eine Erfindung von Alois Senefelder aus dem Jahr 1798 zurück und ist das älteste Flachdruckverfahren.",
+    "difficulty": 2,
+    "tags": [
+      "Kunst",
+      "Druck"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lithografie",
+    "source_url": "https://de.wikipedia.org/wiki/Lithografie",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you draw on in lithography, invented by Alois Senefelder in 1798?",
+        "options": [
+          "A stone",
+          "A wooden board",
+          "A pane of glass",
+          "A piece of leather"
+        ],
+        "explanation": "Lithography means stone printing – from the Greek 'líthos' for stone. The process goes back to an invention by Alois Senefelder in 1798 and is the oldest planographic printing method."
+      }
+    }
   }
 ]
