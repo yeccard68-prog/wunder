@@ -71807,5 +71807,1605 @@
         "explanation": "The pins on the barrel fix the notes in time: they control which valve opens when – and so which pipe sounds."
       }
     }
+  },
+  {
+    "id": "l84",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie nennt man es, wenn Wörter wie „Kuckuck“ oder „tschilpen“ ein Geräusch nachahmen?",
+    "options": [
+      "Anagramm",
+      "Lautmalerei",
+      "Palindrom",
+      "Abkürzung"
+    ],
+    "correct_index": 1,
+    "explanation": "Lautmalerei – Fachwort: Onomatopoesie – ist die sprachliche Nachahmung von Geräuschen. Sie steckt in Substantiven wie „Kuckuck“ oder „Zilpzalp“, in Verben wie „tschilpen“ und sogar in Adjektiven wie „klatschnass“.",
+    "difficulty": 1,
+    "tags": [
+      "Sprache",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Onomatopoesie",
+    "source_url": "https://de.wikipedia.org/wiki/Onomatopoesie",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is it called when words like 'cuckoo' imitate a sound?",
+        "options": [
+          "Anagram",
+          "Onomatopoeia",
+          "Palindrome",
+          "Abbreviation"
+        ],
+        "explanation": "Onomatopoeia is the imitation of sounds in language. In German it shows up in nouns like 'Kuckuck' (cuckoo) or 'Zilpzalp' (chiffchaff), in verbs like 'tschilpen' (to chirp) and even in adjectives like 'klatschnass' (soaking wet)."
+      }
+    }
+  },
+  {
+    "id": "l85",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie klingt das Notsignal SOS im Morsecode?",
+    "options": [
+      "Ein langer Ton",
+      "Drei lang, drei kurz, drei lang",
+      "Drei kurz, drei lang, drei kurz",
+      "Zwei kurz, zwei lang"
+    ],
+    "correct_index": 2,
+    "explanation": "SOS ist seit 1906 das internationale Notsignal im Morsecode: drei kurze, drei lange und wieder drei kurze Töne.",
+    "difficulty": 1,
+    "tags": [
+      "Sprache",
+      "Zeichen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: SOS (Notsignal)",
+    "source_url": "https://de.wikipedia.org/wiki/SOS (Notsignal)",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the distress signal SOS sound like in Morse code?",
+        "options": [
+          "One long tone",
+          "Three long, three short, three long",
+          "Three short, three long, three short",
+          "Two short, two long"
+        ],
+        "explanation": "Since 1906, SOS has been the international distress signal in Morse code: three short, three long and again three short tones."
+      }
+    }
+  },
+  {
+    "id": "l86",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welchem lateinischen Wort ist das Zeichen „&“ entstanden?",
+    "options": [
+      "ex – „aus“",
+      "est – „ist“",
+      "ad – „zu“",
+      "et – „und“"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Et-Zeichen „&“ ist eine Ligatur, also eine Verschmelzung der Buchstaben des lateinischen Wortes „et“, das „und“ bedeutet. Weil es oft in Firmennamen steht, heißt es auch „kaufmännisches Und“.",
+    "difficulty": 2,
+    "tags": [
+      "Sprache",
+      "Zeichen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Et-Zeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Et-Zeichen",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which Latin word did the sign '&' come from?",
+        "options": [
+          "ex – 'out of'",
+          "est – 'is'",
+          "ad – 'to'",
+          "et – 'and'"
+        ],
+        "explanation": "The ampersand '&' is a ligature – the letters of the Latin word 'et', meaning 'and', run together. Because it appears in so many company names, German also calls it the 'merchant's and'."
+      }
+    }
+  },
+  {
+    "id": "l87",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache stammt das Wort „Alkohol“?",
+    "options": [
+      "Aus dem Arabischen",
+      "Aus dem Lateinischen",
+      "Aus dem Griechischen",
+      "Aus dem Französischen"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Wort „Alkohol“ geht auf ein arabisches Wort zurück, al-kuḥūl. Als Bezeichnung für den „Geist des Weines“ ist es im Deutschen seit dem 18. Jahrhundert belegt.",
+    "difficulty": 2,
+    "tags": [
+      "Sprache",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ethanol",
+    "source_url": "https://de.wikipedia.org/wiki/Ethanol",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word 'alcohol' come from?",
+        "options": [
+          "Arabic",
+          "Latin",
+          "Greek",
+          "French"
+        ],
+        "explanation": "The word 'alcohol' goes back to an Arabic word, al-kuḥūl. As a name for the 'spirit of wine', it has been recorded in German since the 18th century."
+      }
+    }
+  },
+  {
+    "id": "l88",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache hat das Deutsche das Wort „Joghurt“ übernommen?",
+    "options": [
+      "Aus dem Griechischen",
+      "Aus dem Türkischen",
+      "Aus dem Russischen",
+      "Aus dem Ungarischen"
+    ],
+    "correct_index": 1,
+    "explanation": "„Joghurt“ kommt vom türkischen Wort „yoğurt“, das „Dickmilch“ bedeutet. Hergestellt wird Joghurt aus Milch, die Milchsäurebakterien dick werden lassen.",
+    "difficulty": 1,
+    "tags": [
+      "Sprache",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Joghurt",
+    "source_url": "https://de.wikipedia.org/wiki/Joghurt",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language did German borrow the word 'Joghurt' (yoghurt) from?",
+        "options": [
+          "Greek",
+          "Turkish",
+          "Russian",
+          "Hungarian"
+        ],
+        "explanation": "'Joghurt' comes from the Turkish word 'yoğurt', meaning 'thick milk'. Yoghurt is made from milk that lactic acid bacteria have thickened."
+      }
+    }
+  },
+  {
+    "id": "l89",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache stammt das Wort „Anorak“?",
+    "options": [
+      "Aus dem Finnischen",
+      "Aus dem Norwegischen",
+      "Aus dem Grönländischen",
+      "Aus dem Isländischen"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Wort „Anorak“ ist aus dem Grönländischen entlehnt. Die Jacke selbst stammt von den indigenen Völkern der Arktis – etwa aus Grönland und von den Inuit in Alaska.",
+    "difficulty": 2,
+    "tags": [
+      "Sprache",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Anorak",
+    "source_url": "https://de.wikipedia.org/wiki/Anorak",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language does the word 'anorak' come from?",
+        "options": [
+          "Finnish",
+          "Norwegian",
+          "Greenlandic",
+          "Icelandic"
+        ],
+        "explanation": "The word 'anorak' was borrowed from Greenlandic. The jacket itself comes from the Indigenous peoples of the Arctic – for example from Greenland and from the Inuit in Alaska."
+      }
+    }
+  },
+  {
+    "id": "l90",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher stammt das Wort „Hängematte“ ursprünglich?",
+    "options": [
+      "Von den Taíno auf Haiti",
+      "Von Seeleuten, die Matten aufhängten",
+      "Aus dem Lateinischen",
+      "Aus dem Japanischen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Taíno auf Haiti nannten ihre Schlafnetze „hamáka“. Kolumbus übernahm das Wort 1492 als „hamaca“. Im Deutschen wurde daraus „Hängematte“ – ein typisches Beispiel für Volksetymologie: Ein fremdes Wort wird so umgedeutet, dass es vertraut klingt.",
+    "difficulty": 3,
+    "tags": [
+      "Sprache",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hängematte",
+    "source_url": "https://de.wikipedia.org/wiki/Hängematte",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German word 'Hängematte' (hammock, literally 'hanging mat') originally come from?",
+        "options": [
+          "From the Taíno on Haiti",
+          "From sailors hanging up mats",
+          "From Latin",
+          "From Japanese"
+        ],
+        "explanation": "The Taíno on Haiti called their sleeping nets 'hamáka'. Columbus took the word over in 1492 as 'hamaca'. In German it became 'Hängematte' – 'hanging mat' – a typical folk etymology: a foreign word is reshaped so that it sounds familiar."
+      }
+    }
+  },
+  {
+    "id": "l91",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Satzzeichen nennt man umgangssprachlich „Gänsefüßchen“?",
+    "options": [
+      "Kommas",
+      "Anführungszeichen",
+      "Klammern",
+      "Doppelpunkte"
+    ],
+    "correct_index": 1,
+    "explanation": "In allen deutschsprachigen Ländern heißen Anführungszeichen umgangssprachlich auch „Gänsefüßchen“. Die öffnenden stehen im Deutschen unten, die schließenden oben.",
+    "difficulty": 1,
+    "tags": [
+      "Sprache",
+      "Zeichen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Anführungszeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Anführungszeichen",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which punctuation marks are casually called 'Gänsefüßchen' ('little goose feet') in German?",
+        "options": [
+          "Commas",
+          "Quotation marks",
+          "Brackets",
+          "Colons"
+        ],
+        "explanation": "In all German-speaking countries, quotation marks are casually called 'Gänsefüßchen' – little goose feet. In German the opening marks sit at the bottom, the closing ones at the top."
+      }
+    }
+  },
+  {
+    "id": "l92",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist „Fischers Fritz fischt frische Fische“?",
+    "options": [
+      "Ein Sprichwort",
+      "Ein Palindrom",
+      "Ein Zungenbrecher",
+      "Ein Abzählreim"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Zungenbrecher ist eine Wortfolge, die selbst Muttersprachlern schwerfällt, wenn man sie schnell und mehrmals hintereinander spricht. Oft folgen ähnliche Wörter aufeinander – wie bei „Fischers Fritz fischt frische Fische“.",
+    "difficulty": 1,
+    "tags": [
+      "Sprache",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zungenbrecher",
+    "source_url": "https://de.wikipedia.org/wiki/Zungenbrecher",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 'Fischers Fritz fischt frische Fische' ('Fisher's Fritz fishes fresh fish')?",
+        "options": [
+          "A proverb",
+          "A palindrome",
+          "A tongue twister",
+          "A counting rhyme"
+        ],
+        "explanation": "A tongue twister is a string of words that even native speakers find hard to say quickly and repeatedly. Often similar words follow each other – as in 'Fischers Fritz fischt frische Fische'."
+      }
+    }
+  },
+  {
+    "id": "l93",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Warum sagt man „das Mädchen“ – und nicht „die Mädchen“ für ein einzelnes Mädchen?",
+    "options": [
+      "Das ist eine Ausnahme ohne Regel",
+      "Kinder sind im Deutschen immer sächlich",
+      "Das Wort kommt aus dem Englischen",
+      "Wörter auf -chen sind immer sächlich"
+    ],
+    "correct_index": 3,
+    "explanation": "„Mädchen“ ist eine Verkleinerungsform (Diminutiv) – ursprünglich „Mägdchen“, von „Magd“. Verkleinerungen auf -chen und -lein sind im Deutschen stets sächlich. Darum heißt es auch „das Männchen“ und „das Weibchen“.",
+    "difficulty": 2,
+    "tags": [
+      "Sprache",
+      "Grammatik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diminutiv",
+    "source_url": "https://de.wikipedia.org/wiki/Diminutiv",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is 'Mädchen' (girl) neuter in German – 'das Mädchen'?",
+        "options": [
+          "It is an exception without a rule",
+          "Children are always neuter in German",
+          "The word comes from English",
+          "Words ending in -chen are always neuter"
+        ],
+        "explanation": "'Mädchen' is a diminutive – originally 'Mägdchen', from 'Magd' (maid). In German, diminutives ending in -chen and -lein are always neuter. That is why it is also 'das Männchen' and 'das Weibchen' (the male, the female)."
+      }
+    }
+  },
+  {
+    "id": "l94",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woraus sind die zwei Punkte auf ä, ö und ü entstanden?",
+    "options": [
+      "Aus einem kleinen e, das darübergeschrieben wurde",
+      "Aus einem Doppelpunkt",
+      "Aus zwei Akzenten",
+      "Aus einem griechischen Buchstaben"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Umlautpunkte entstanden aus einem kleinen e, das man über a, o oder u schrieb. Darum kann man statt ä, ö, ü auch ae, oe, ue schreiben – bei Großbuchstaben war das früher sogar üblich.",
+    "difficulty": 2,
+    "tags": [
+      "Sprache",
+      "Zeichen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diakritisches Zeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Diakritisches Zeichen",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the two dots on ä, ö and ü develop from?",
+        "options": [
+          "A small e written above the letter",
+          "A colon",
+          "Two accents",
+          "A Greek letter"
+        ],
+        "explanation": "The umlaut dots developed from a small e written above a, o or u. That is why ä, ö, ü can also be written ae, oe, ue – with capital letters this used to be the normal way."
+      }
+    }
+  },
+  {
+    "id": "l95",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher hat der Schmetterling seinen Namen?",
+    "options": [
+      "Vom Schmettern der Flügel",
+      "Vom alten Wort „Schmetten“ für Rahm",
+      "Von „schmettern“ – laut singen",
+      "Von seiner Farbe"
+    ],
+    "correct_index": 1,
+    "explanation": "„Schmetterling“ kommt vom ostmitteldeutschen Wort „Schmetten“, das Schmand oder Rahm bedeutet – einige Arten werden davon angezogen. Alte Namen wie „Milchdieb“ oder „Molkenstehler“ deuten in dieselbe Richtung.",
+    "difficulty": 2,
+    "tags": [
+      "Sprache",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schmetterlinge",
+    "source_url": "https://de.wikipedia.org/wiki/Schmetterlinge",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German word 'Schmetterling' (butterfly) come from?",
+        "options": [
+          "From the flapping of the wings",
+          "From the old word 'Schmetten', meaning cream",
+          "From 'schmettern' – to sing loudly",
+          "From its colour"
+        ],
+        "explanation": "'Schmetterling' comes from the East Central German word 'Schmetten', meaning sour cream or cream – some species are drawn to it. Old names like 'milk thief' or 'whey stealer' point the same way."
+      }
+    }
+  },
+  {
+    "id": "sp106",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie gewinnt man einen Kampf im Sumō?",
+    "options": [
+      "Am längsten im Ring stehen",
+      "Den Gegner drei Sekunden hochheben",
+      "Die meisten Punkte für Würfe sammeln",
+      "Den Gegner aus dem Ring drängen"
+    ],
+    "correct_index": 3,
+    "explanation": "Sumō ist eine Form des Ringkampfs aus Japan. Gewonnen hat, wer den Gegner aus dem Kreis aus gestampftem Lehm drängt oder ihn so aus dem Gleichgewicht bringt, dass er den Boden mit etwas anderem als den Fußsohlen berührt.",
+    "difficulty": 1,
+    "tags": [
+      "Sport",
+      "Kampfsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sumō",
+    "source_url": "https://de.wikipedia.org/wiki/Sumō",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you win a sumo bout?",
+        "options": [
+          "Stay in the ring the longest",
+          "Lift the opponent for three seconds",
+          "Score the most points for throws",
+          "Push the opponent out of the ring"
+        ],
+        "explanation": "Sumo is a form of wrestling from Japan. The winner is whoever pushes the opponent out of the circle of packed clay – or throws them off balance so that they touch the ground with anything other than the soles of their feet."
+      }
+    }
+  },
+  {
+    "id": "sp107",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wonach ist der Eiskunstlaufsprung „Salchow“ benannt?",
+    "options": [
+      "Nach einem schwedischen Eiskunstläufer",
+      "Nach einer Stadt in Schweden",
+      "Nach einem Volkstanz",
+      "Nach einem Vogel"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Salchow ist nach dem Schweden Ulrich Salchow benannt und gehört zu den Grundsprüngen des Eiskunstlaufs. Auch andere Sprünge tragen Namen von Läufern – etwa der Rittberger.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Salchow (Sprung)",
+    "source_url": "https://de.wikipedia.org/wiki/Salchow (Sprung)",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the figure skating jump 'Salchow' named after?",
+        "options": [
+          "A Swedish figure skater",
+          "A town in Sweden",
+          "A folk dance",
+          "A bird"
+        ],
+        "explanation": "The Salchow is named after the Swede Ulrich Salchow and is one of the basic jumps in figure skating. Other jumps carry skaters' names too – the Rittberger, for example."
+      }
+    }
+  },
+  {
+    "id": "sp108",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie heißt der Eiskunstlaufsprung „Rittberger“ im Englischen?",
+    "options": [
+      "Spin",
+      "Loop",
+      "Twist",
+      "Flip-Flop"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Sprung ist nach Werner Rittberger benannt. Im Englischen hat sich dieser Name nicht durchgesetzt: Dort heißt er „loop“ – Schleifensprung.",
+    "difficulty": 3,
+    "tags": [
+      "Sport",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rittberger",
+    "source_url": "https://de.wikipedia.org/wiki/Rittberger",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the figure skating jump called 'Rittberger' in German called in English?",
+        "options": [
+          "Spin",
+          "Loop",
+          "Twist",
+          "Flip-flop"
+        ],
+        "explanation": "The jump is named after Werner Rittberger. In English the name never caught on: there it is called the 'loop' (loop jump)."
+      }
+    }
+  },
+  {
+    "id": "sp109",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Mit welcher Laufstrecke endet der Siebenkampf der Frauen?",
+    "options": [
+      "100 Meter Hürden",
+      "200 Meter",
+      "800 Meter",
+      "1500 Meter"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Siebenkampf ist eine olympische Disziplin der Frauen und dauert zwei Tage. Am ersten Tag: 100 Meter Hürden, Hochsprung, Kugelstoßen und 200 Meter. Am zweiten: Weitsprung, Speerwurf – und zum Schluss die 800 Meter.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Siebenkampf",
+    "source_url": "https://de.wikipedia.org/wiki/Siebenkampf",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which race ends the women's heptathlon?",
+        "options": [
+          "100 metres hurdles",
+          "200 metres",
+          "800 metres",
+          "1500 metres"
+        ],
+        "explanation": "The heptathlon is an Olympic women's event held over two days. Day one: 100 m hurdles, high jump, shot put and 200 m. Day two: long jump, javelin – and finally the 800 metres."
+      }
+    }
+  },
+  {
+    "id": "sp110",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie schnell taucht man nach einem Sprung vom 10-Meter-Turm ins Wasser ein?",
+    "options": [
+      "Mit knapp 50 km/h",
+      "Mit etwa 10 km/h",
+      "Mit etwa 120 km/h",
+      "Mit etwa 300 km/h"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Turmspringer trifft nach einem Sprung aus 10 Metern Höhe mit knapp 50 km/h auf das Wasser. Turmspringen gibt es vom 5-, 7,5- und 10-Meter-Turm, Kunstspringen vom 1- und 3-Meter-Brett.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserspringen",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserspringen",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How fast does a diver hit the water after jumping from the 10-metre platform?",
+        "options": [
+          "At almost 50 km/h",
+          "At about 10 km/h",
+          "At about 120 km/h",
+          "At about 300 km/h"
+        ],
+        "explanation": "A platform diver hits the water at almost 50 km/h after a jump from 10 metres. Platform diving is done from 5, 7.5 and 10 metre towers, springboard diving from 1 and 3 metre boards."
+      }
+    }
+  },
+  {
+    "id": "sp111",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Seit welchen Olympischen Spielen gehört Trampolinturnen zum Programm?",
+    "options": [
+      "Seit 1972 in München",
+      "Seit 2000 in Sydney",
+      "Seit 2012 in London",
+      "Seit 2021 in Tokio"
+    ],
+    "correct_index": 1,
+    "explanation": "1997 beschloss das Internationale Olympische Komitee, Trampolin-Einzelwettbewerbe ins Programm der Olympischen Spiele 2000 in Sydney aufzunehmen. Seitdem wird bei Olympia auf dem Trampolin geturnt.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trampolinturnen",
+    "source_url": "https://de.wikipedia.org/wiki/Trampolinturnen",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since which Olympic Games has trampoline gymnastics been on the programme?",
+        "options": [
+          "Since 1972 in Munich",
+          "Since 2000 in Sydney",
+          "Since 2012 in London",
+          "Since 2021 in Tokyo"
+        ],
+        "explanation": "In 1997 the International Olympic Committee decided to add individual trampoline events to the programme of the 2000 Olympic Games in Sydney. Trampoline has been part of the Olympics ever since."
+      }
+    }
+  },
+  {
+    "id": "sp112",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche drei Kletterdisziplinen wurden bei Olympia in Tokio 2021 zu einer Kombination zusammengefasst?",
+    "options": [
+      "Speed, Slackline und Parkour",
+      "Bouldern, Abseilen und Eisklettern",
+      "Speed, Bouldern und Lead",
+      "Lead, Bergsteigen und Abseilen"
+    ],
+    "correct_index": 2,
+    "explanation": "Sportklettern ist seit den Spielen von Tokio olympisch. Dort wurden Speedklettern, Bouldern und Leadklettern (Vorstieg) zu einer olympischen Kombination zusammengefasst; pro Geschlecht traten 20 Athletinnen bzw. Athleten an.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sportklettern",
+    "source_url": "https://de.wikipedia.org/wiki/Sportklettern",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which three climbing disciplines were combined into one event at the Tokyo 2021 Olympics?",
+        "options": [
+          "Speed, slackline and parkour",
+          "Bouldering, abseiling and ice climbing",
+          "Speed, bouldering and lead",
+          "Lead, mountaineering and abseiling"
+        ],
+        "explanation": "Sport climbing has been Olympic since the Tokyo Games. There, speed climbing, bouldering and lead climbing were combined into one Olympic event, with 20 athletes per gender."
+      }
+    }
+  },
+  {
+    "id": "sp113",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist beim Eisstockschießen die „Daube“?",
+    "options": [
+      "Die Eisbahn",
+      "Der Griff des Eisstocks",
+      "Die Mannschaftskapitänin",
+      "Ein kleiner Holzwürfel im Zielfeld"
+    ],
+    "correct_index": 3,
+    "explanation": "Eisstockschießen ist vor allem im Alpenraum verbreitet und ähnelt dem Curling. Die Daube ist ein Holzwürfel mit etwa 10 cm Kantenlänge und abgeschrägten Ecken. Wo sie im Zielfeld liegt, ist für die Wertung entscheidend.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eisstockschießen",
+    "source_url": "https://de.wikipedia.org/wiki/Eisstockschießen",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Alpine sport of ice stock sport, what is the 'Daube'?",
+        "options": [
+          "The ice lane",
+          "The handle of the ice stock",
+          "The team captain",
+          "A small wooden cube in the target area"
+        ],
+        "explanation": "Ice stock sport is popular mainly in the Alps and resembles curling. The 'Daube' is a wooden cube of about 10 cm with bevelled corners. Where it lies in the target area decides the scoring."
+      }
+    }
+  },
+  {
+    "id": "sp114",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Auf welche zwei Arten wird die Hantel beim Gewichtheben nach oben gebracht?",
+    "options": [
+      "Reißen und Stoßen",
+      "Drücken und Ziehen",
+      "Heben und Werfen",
+      "Schwingen und Rollen"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Gewichtheben wird eine Langhantel durch Reißen oder Stoßen zur Hochstrecke gebracht – also mit ausgestreckten Armen über den Kopf gestemmt. Dafür braucht man neben Kraft auch Technik, Koordination und Beweglichkeit.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Kraftsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gewichtheben",
+    "source_url": "https://de.wikipedia.org/wiki/Gewichtheben",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which two ways is the barbell lifted overhead in weightlifting?",
+        "options": [
+          "Snatch and clean & jerk",
+          "Press and pull",
+          "Lift and throw",
+          "Swing and roll"
+        ],
+        "explanation": "In weightlifting a barbell is brought overhead by the snatch or the clean and jerk – held up with straight arms above the head. Besides strength, it takes technique, coordination and mobility."
+      }
+    }
+  },
+  {
+    "id": "sp115",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was bedeutet das englische Wort „squash“, nach dem die Sportart benannt ist?",
+    "options": [
+      "Schnell laufen",
+      "Zusammendrücken, zerquetschen",
+      "Gegen die Wand",
+      "Kleiner Schläger"
+    ],
+    "correct_index": 1,
+    "explanation": "Squash kommt vom englischen „to squash“ – zusammendrücken, zerquetschen. Um 1830 spielten Schüler der englischen Schule Harrow mit einem weichen Ball, der langsamer flog als der harte Ball des älteren Spiels Rackets.",
+    "difficulty": 2,
+    "tags": [
+      "Sport",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Squash",
+    "source_url": "https://de.wikipedia.org/wiki/Squash",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the English word 'squash', which gave the sport its name, mean?",
+        "options": [
+          "To run fast",
+          "To press together, to crush",
+          "Against the wall",
+          "Small racket"
+        ],
+        "explanation": "Squash comes from the English 'to squash' – to press together, to crush. Around 1830, pupils at the English school Harrow played with a soft ball that flew more slowly than the hard ball of the older game of rackets."
+      }
+    }
+  },
+  {
+    "id": "m65",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welcher Mathematiker verwendete als Erster bekannter die geschriebene Zahl Null und stellte Rechenregeln für sie auf?",
+    "options": [
+      "Pythagoras",
+      "Brahmagupta",
+      "Euklid",
+      "Adam Ries"
+    ],
+    "correct_index": 1,
+    "explanation": "Der indische Mathematiker Brahmagupta ist der erste bekannte Mathematiker, der die geschriebene Zahl Null verwendete. In seinem Werk stellte er Regeln für das Rechnen mit der Null und mit negativen Zahlen auf – die schon weitgehend unserem heutigen Verständnis entsprechen.",
+    "difficulty": 2,
+    "tags": [
+      "Mathe",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brahmagupta",
+    "source_url": "https://de.wikipedia.org/wiki/Brahmagupta",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which mathematician is the first known to have used the written number zero and set out rules for calculating with it?",
+        "options": [
+          "Pythagoras",
+          "Brahmagupta",
+          "Euclid",
+          "Adam Ries"
+        ],
+        "explanation": "The Indian mathematician Brahmagupta is the first known mathematician to use the written number zero. In his work he set out rules for calculating with zero and with negative numbers – rules that already largely match our understanding today."
+      }
+    }
+  },
+  {
+    "id": "m66",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Auf welches alte Zahlensystem geht zurück, dass eine Stunde 60 Minuten hat?",
+    "options": [
+      "Das Zwölfersystem der Ägypter",
+      "Das Zehnersystem der Römer",
+      "Das Sechzigersystem der Babylonier",
+      "Das Zweiersystem der Griechen"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Sexagesimalsystem rechnet mit der Grundzahl 60. Seine größte Bedeutung hatte es in der babylonischen Hochkultur, vor allem für die Astronomie. Die Sechziger-Teilung lebt bis heute fort: Eine Stunde hat 60 Minuten, eine Minute 60 Sekunden – und ein Grad hat 60 Winkelminuten.",
+    "difficulty": 2,
+    "tags": [
+      "Mathe",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sexagesimalsystem",
+    "source_url": "https://de.wikipedia.org/wiki/Sexagesimalsystem",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which ancient number system is the reason an hour has 60 minutes?",
+        "options": [
+          "The base-12 system of the Egyptians",
+          "The base-10 system of the Romans",
+          "The base-60 system of the Babylonians",
+          "The base-2 system of the Greeks"
+        ],
+        "explanation": "The sexagesimal system counts in sixties. It mattered most in Babylonian civilisation, especially for astronomy. The division by 60 lives on: an hour has 60 minutes, a minute 60 seconds – and a degree has 60 minutes of arc."
+      }
+    }
+  },
+  {
+    "id": "m67",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Nach wem ist das „kartesische“ Koordinatensystem benannt?",
+    "options": [
+      "Blaise Pascal",
+      "Carl Friedrich Gauß",
+      "Leonhard Euler",
+      "René Descartes"
+    ],
+    "correct_index": 3,
+    "explanation": "Das kartesische Koordinatensystem trägt den latinisierten Namen „Cartesius“ des französischen Mathematikers René Descartes. Er hat das Konzept der kartesischen Koordinaten bekannt gemacht.",
+    "difficulty": 2,
+    "tags": [
+      "Mathe",
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kartesisches Koordinatensystem",
+    "source_url": "https://de.wikipedia.org/wiki/Kartesisches Koordinatensystem",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is the 'Cartesian' coordinate system named after?",
+        "options": [
+          "Blaise Pascal",
+          "Carl Friedrich Gauss",
+          "Leonhard Euler",
+          "René Descartes"
+        ],
+        "explanation": "The Cartesian coordinate system carries 'Cartesius', the Latin form of the name of the French mathematician René Descartes. He made the idea of Cartesian coordinates widely known."
+      }
+    }
+  },
+  {
+    "id": "m68",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viel ist ein Promille (1 ‰)?",
+    "options": [
+      "Ein Tausendstel",
+      "Ein Hundertstel",
+      "Ein Zehntel",
+      "Ein Millionstel"
+    ],
+    "correct_index": 0,
+    "explanation": "„Promille“ setzt sich aus dem lateinischen „pro“ (im Verhältnis zu) und „mille“ (tausend) zusammen. Ein Promille ist ein Tausendstel, also 0,001 – und damit ein Zehntel von einem Prozent.",
+    "difficulty": 1,
+    "tags": [
+      "Mathe",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Promille",
+    "source_url": "https://de.wikipedia.org/wiki/Promille",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How much is one per mille (1 ‰)?",
+        "options": [
+          "One thousandth",
+          "One hundredth",
+          "One tenth",
+          "One millionth"
+        ],
+        "explanation": "'Per mille' comes from the Latin 'pro' (in relation to) and 'mille' (thousand). One per mille is one thousandth, 0.001 – a tenth of one per cent."
+      }
+    }
+  },
+  {
+    "id": "m69",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Dutzend sind zwölf Stück. Wie viele Stück sind ein „Gros“ – zwölf Dutzend?",
+    "options": [
+      "60",
+      "100",
+      "120",
+      "144"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Gros sind zwölf Dutzend, also zwölf mal zwölf = 144 Stück. Früher gab es noch mehr Mengen mit der Grundzahl 12: das Schock (fünf Dutzend, also 60) und das Maß (zwölf Gros, also 1728).",
+    "difficulty": 2,
+    "tags": [
+      "Mathe",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dutzend",
+    "source_url": "https://de.wikipedia.org/wiki/Dutzend",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A dozen is twelve. How many is a 'gross' – twelve dozen?",
+        "options": [
+          "60",
+          "100",
+          "120",
+          "144"
+        ],
+        "explanation": "A gross is twelve dozen: twelve times twelve = 144. There used to be more quantities based on 12: the 'Schock' (five dozen, 60) and the 'Maß' (twelve gross, 1,728)."
+      }
+    }
+  },
+  {
+    "id": "m70",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welcher Gelehrte beschrieb schon Ende des 17. Jahrhunderts das Dualsystem – Zahlen nur aus zwei Ziffern?",
+    "options": [
+      "Johannes Kepler",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Gottfried Wilhelm Leibniz"
+    ],
+    "correct_index": 3,
+    "explanation": "Gottfried Wilhelm Leibniz erfand schon Ende des 17. Jahrhunderts die „Dyadik“ – die Darstellung von Zahlen im Dualsystem. Es kommt mit zwei Ziffern aus, meist 0 und 1. Für seine Rechenmaschinen nutzte Leibniz trotzdem das Dezimalsystem.",
+    "difficulty": 2,
+    "tags": [
+      "Mathe",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dualsystem",
+    "source_url": "https://de.wikipedia.org/wiki/Dualsystem",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which scholar described the binary system – numbers written with only two digits – as early as the late 17th century?",
+        "options": [
+          "Johannes Kepler",
+          "Isaac Newton",
+          "Galileo Galilei",
+          "Gottfried Wilhelm Leibniz"
+        ],
+        "explanation": "Gottfried Wilhelm Leibniz invented 'dyadics' – writing numbers in the binary system – at the end of the 17th century. It needs only two digits, usually 0 and 1. For his calculating machines, though, Leibniz still used the decimal system."
+      }
+    }
+  },
+  {
+    "id": "m71",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Albrecht Dürers Kupferstich „Melencolia I“ zeigt ein magisches Quadrat. Welche Summe ergibt jede Zeile, Spalte und Diagonale?",
+    "options": [
+      "15",
+      "30",
+      "34",
+      "65"
+    ],
+    "correct_index": 2,
+    "explanation": "In einem magischen Quadrat ergeben alle Zeilen, Spalten und Diagonalen dieselbe Summe. Dürers 4 × 4-Quadrat in „Melencolia I“ ist eines der berühmtesten – seine magische Zahl ist 34, und sie steckt darin in 86 verschiedenen Kombinationen.",
+    "difficulty": 3,
+    "tags": [
+      "Mathe",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Magisches Quadrat",
+    "source_url": "https://de.wikipedia.org/wiki/Magisches Quadrat",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Albrecht Dürer's engraving 'Melencolia I' shows a magic square. What does every row, column and diagonal add up to?",
+        "options": [
+          "15",
+          "30",
+          "34",
+          "65"
+        ],
+        "explanation": "In a magic square every row, column and diagonal has the same sum. Dürer's 4 × 4 square in 'Melencolia I' is one of the most famous – its magic number is 34, and it appears in 86 different combinations."
+      }
+    }
+  },
+  {
+    "id": "m72",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie groß ist die Summe der drei Innenwinkel eines Dreiecks?",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correct_index": 1,
+    "explanation": "In jedem ebenen Dreieck ergeben die drei Innenwinkel zusammen 180°. Allgemein gilt für ein Vieleck mit n Ecken: Winkelsumme = (n − 2) · 180°.",
+    "difficulty": 1,
+    "tags": [
+      "Mathe",
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Winkelsumme",
+    "source_url": "https://de.wikipedia.org/wiki/Winkelsumme",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the three interior angles of a triangle add up to?",
+        "options": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "explanation": "In every flat triangle the three interior angles add up to 180°. In general, a polygon with n corners has an angle sum of (n − 2) × 180°."
+      }
+    }
+  },
+  {
+    "id": "m73",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie heißt das Rechenbuch, mit dem Leonardo von Pisa – genannt Fibonacci – 1202 das Rechnen mit indisch-arabischen Ziffern beschrieb?",
+    "options": [
+      "Principia",
+      "Elemente",
+      "Liber abbaci",
+      "Almagest"
+    ],
+    "correct_index": 2,
+    "explanation": "Leonardo von Pisa, auch Fibonacci genannt, lernte auf Reisen nach Nordafrika das Rechnen mit den „neun Ziffern der Inder“ – unseren heutigen indisch-arabischen Ziffern. 1202 schrieb er darüber das Rechenbuch „Liber abbaci“.",
+    "difficulty": 3,
+    "tags": [
+      "Mathe",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Liber abbaci",
+    "source_url": "https://de.wikipedia.org/wiki/Liber abbaci",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the name of the arithmetic book in which Leonardo of Pisa – known as Fibonacci – described calculating with Hindu-Arabic numerals in 1202?",
+        "options": [
+          "Principia",
+          "Elements",
+          "Liber abbaci",
+          "Almagest"
+        ],
+        "explanation": "Leonardo of Pisa, also called Fibonacci, learned to calculate with the 'nine figures of the Indians' – our Hindu-Arabic numerals – on journeys to North Africa. In 1202 he wrote the arithmetic book 'Liber abbaci' about them."
+      }
+    }
+  },
+  {
+    "id": "ns29",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was bemerkte der Arzt Luigi Galvani 1780 an einem Froschschenkel?",
+    "options": [
+      "Er wurde plötzlich eiskalt",
+      "Er leuchtete im Dunkeln",
+      "Er wurde magnetisch",
+      "Er zuckte, wenn in der Nähe ein Funke übersprang"
+    ],
+    "correct_index": 3,
+    "explanation": "Durch einen Zufall bemerkte Luigi Galvani 1780, dass ein Froschschenkel, der eine Messerklinge berührte, immer dann zusammenzuckte, wenn an einer Hochspannungsmaschine in der Nähe ein Funke übersprang. Mit seinen Froschschenkel-Experimenten erforschte der Arzt und Naturforscher die damals kaum bekannte Elektrizität in Lebewesen.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Luigi Galvani",
+    "source_url": "https://de.wikipedia.org/wiki/Luigi Galvani",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the physician Luigi Galvani notice about a frog's leg in 1780?",
+        "options": [
+          "It suddenly turned ice-cold",
+          "It glowed in the dark",
+          "It became magnetic",
+          "It twitched whenever a spark jumped nearby"
+        ],
+        "explanation": "By chance, Luigi Galvani noticed in 1780 that a frog's leg touching a knife blade twitched whenever a spark jumped at a high-voltage machine nearby. With his frog-leg experiments, the physician and naturalist explored the then little-known electricity in living things."
+      }
+    }
+  },
+  {
+    "id": "ns30",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welcher Zustand wird oft „vierter Aggregatzustand“ genannt – man findet ihn in der Sonne und in Blitzen?",
+    "options": [
+      "Gel",
+      "Plasma",
+      "Schaum",
+      "Kristall"
+    ],
+    "correct_index": 1,
+    "explanation": "Führt man einem Gas weiter Energie zu, entsteht Plasma – deshalb nennt man es oft den vierten Aggregatzustand. Die Sonne und alle leuchtenden Sterne bestehen daraus; auf der Erde gibt es natürliches Plasma in Blitzen und in der Ionosphäre.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Plasma (Physik)",
+    "source_url": "https://de.wikipedia.org/wiki/Plasma (Physik)",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which state of matter is often called the 'fourth state' – found in the Sun and in lightning?",
+        "options": [
+          "Gel",
+          "Plasma",
+          "Foam",
+          "Crystal"
+        ],
+        "explanation": "If you keep adding energy to a gas, it becomes plasma – which is why it is often called the fourth state of matter. The Sun and all shining stars are made of it; on Earth natural plasma occurs in lightning and in the ionosphere."
+      }
+    }
+  },
+  {
+    "id": "ns31",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum tanzt ein Wassertropfen auf einer sehr heißen Herdplatte, statt sofort zu verdampfen?",
+    "options": [
+      "Das Wasser gefriert kurz",
+      "Die Platte stößt ihn magnetisch ab",
+      "Er schwebt auf einem Polster aus Dampf",
+      "Die Platte vibriert"
+    ],
+    "correct_index": 2,
+    "explanation": "Das ist der Leidenfrost-Effekt, benannt nach Johann Gottlob Leidenfrost. Ist die Platte heiß genug, verdampft die Unterseite des Tropfens sofort. Dann schwebt oder gleitet er auf einem Dampfpolster, das ihn von der direkten Hitze trennt.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leidenfrost-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Leidenfrost-Effekt",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a drop of water dance on a very hot hotplate instead of evaporating at once?",
+        "options": [
+          "The water briefly freezes",
+          "The plate repels it magnetically",
+          "It floats on a cushion of steam",
+          "The plate vibrates"
+        ],
+        "explanation": "This is the Leidenfrost effect, named after Johann Gottlob Leidenfrost. If the plate is hot enough, the underside of the drop evaporates at once. The drop then floats or glides on a cushion of steam that keeps it away from the direct heat."
+      }
+    }
+  },
+  {
+    "id": "ns32",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wobei hilft der Kapillareffekt zum Beispiel Bäumen?",
+    "options": [
+      "Ihre Blätter grün zu färben",
+      "Ihr Holz härter zu machen",
+      "Sich vor Frost zu schützen",
+      "Wasser von den Wurzeln nach oben steigen zu lassen"
+    ],
+    "correct_index": 3,
+    "explanation": "In sehr engen Hohlräumen ist das Gewicht einer Flüssigkeit gering, sodass die Kapillarkraft die Schwerkraft überwiegt. Das hilft etwa Bäumen dabei, Wasser von den Wurzeln bis zu 100 Meter hoch steigen zu lassen. Derselbe Effekt lässt Wachs im Kerzendocht nach oben steigen und Papier sich mit Wasser vollsaugen.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kapillareffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Kapillareffekt",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the capillary effect help trees to do, for example?",
+        "options": [
+          "Turn their leaves green",
+          "Make their wood harder",
+          "Protect themselves from frost",
+          "Let water rise up from the roots"
+        ],
+        "explanation": "In very narrow spaces a liquid's weight is small, so the capillary force beats gravity. This helps trees, for example, to let water rise up to 100 metres from their roots. The same effect draws wax up a candle wick and makes paper soak up water."
+      }
+    }
+  },
+  {
+    "id": "ns33",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wovor schützt die Ozonschicht Pflanzen, Tiere und Menschen?",
+    "options": [
+      "Vor UV-Strahlung der Sonne",
+      "Vor Meteoriten",
+      "Vor der Kälte des Weltalls",
+      "Vor Lärm"
+    ],
+    "correct_index": 0,
+    "explanation": "Ozon entsteht hoch in der Atmosphäre, wenn energiereiches UV-Licht der Sonne Sauerstoffmoleküle spaltet. Die Ozonschicht nimmt auch UV-B-Strahlung auf und schützt so Pflanzen, Tiere und Menschen vor Strahlenschäden.",
+    "difficulty": 1,
+    "tags": [
+      "Wissenschaft",
+      "Erde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ozonschicht",
+    "source_url": "https://de.wikipedia.org/wiki/Ozonschicht",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the ozone layer protect plants, animals and people from?",
+        "options": [
+          "UV radiation from the Sun",
+          "Meteorites",
+          "The cold of space",
+          "Noise"
+        ],
+        "explanation": "Ozone forms high in the atmosphere when energetic UV light from the Sun splits oxygen molecules. The ozone layer also absorbs UV-B radiation and so protects plants, animals and people from radiation damage."
+      }
+    }
+  },
+  {
+    "id": "ns34",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welchen flüssigen Stoff nutzte Daniel Gabriel Fahrenheit ab etwa 1714 in seinen Thermometern – zusätzlich zu Weingeist?",
+    "options": [
+      "Wasser",
+      "Quecksilber",
+      "Olivenöl",
+      "Milch"
+    ],
+    "correct_index": 1,
+    "explanation": "Fahrenheit verwendete in seinen Thermometern zunächst Weingeist, ab etwa 1714 auch Quecksilber. Ab 1717 stellte er in Amsterdam als Glasbläser Barometer und Thermometer her. Mit seinen genauen Thermometern und der Fahrenheit-Skala begründete er die Thermometrie, die Lehre vom Temperaturmessen.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Daniel Gabriel Fahrenheit",
+    "source_url": "https://de.wikipedia.org/wiki/Daniel Gabriel Fahrenheit",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which liquid did Daniel Gabriel Fahrenheit use in his thermometers from around 1714 – in addition to spirit of wine?",
+        "options": [
+          "Water",
+          "Mercury",
+          "Olive oil",
+          "Milk"
+        ],
+        "explanation": "Fahrenheit first used spirit of wine (alcohol) in his thermometers and, from around 1714, mercury as well. From 1717 he made barometers and thermometers as a glassblower in Amsterdam. With his precise thermometers and the Fahrenheit scale he founded thermometry, the science of measuring temperature."
+      }
+    }
+  },
+  {
+    "id": "ns35",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Messgerät entwickelte Evangelista Torricelli 1644?",
+    "options": [
+      "Den Kompass",
+      "Das Fieberthermometer",
+      "Das Quecksilberbarometer",
+      "Das Mikroskop"
+    ],
+    "correct_index": 2,
+    "explanation": "Torricelli entwickelte 1644 das Quecksilberbarometer. Seine wichtige Erkenntnis: Das Quecksilber im Rohr wird nicht vom leeren Raum darüber hochgesogen, sondern vom Gewicht der Luftsäule hochgedrückt – so misst das Gerät den Luftdruck.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Evangelista Torricelli",
+    "source_url": "https://de.wikipedia.org/wiki/Evangelista Torricelli",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which measuring instrument did Evangelista Torricelli develop in 1644?",
+        "options": [
+          "The compass",
+          "The clinical thermometer",
+          "The mercury barometer",
+          "The microscope"
+        ],
+        "explanation": "Torricelli developed the mercury barometer in 1644. His key insight: the mercury in the tube is not sucked up by the empty space above it but pushed up by the weight of the column of air – so the device measures air pressure."
+      }
+    }
+  },
+  {
+    "id": "ns36",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wonach suchte der Chemiker Roy Plunkett, als er 1938 zufällig den Kunststoff PTFE entdeckte?",
+    "options": [
+      "Nach einem Farbstoff",
+      "Nach einem neuen Klebstoff",
+      "Nach einem Treibstoff für Raketen",
+      "Nach Kältemitteln für Kühlschränke"
+    ],
+    "correct_index": 3,
+    "explanation": "Roy Plunkett experimentierte 1938 auf der Suche nach Kältemitteln für Kühlschränke – und fand in seinem Gefäß plötzlich „farblose Krümel“: PTFE. Später kam Colette Grégoire auf die Idee, Töpfe und Pfannen damit zu beschichten.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Polytetrafluorethylen",
+    "source_url": "https://de.wikipedia.org/wiki/Polytetrafluorethylen",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the chemist Roy Plunkett looking for when he discovered the plastic PTFE by chance in 1938?",
+        "options": [
+          "A dye",
+          "A new glue",
+          "A rocket fuel",
+          "Refrigerants for fridges"
+        ],
+        "explanation": "In 1938 Roy Plunkett was experimenting in search of refrigerants for fridges – and suddenly found 'colourless crumbs' in his vessel: PTFE. Later Colette Grégoire had the idea of coating pots and pans with it."
+      }
+    }
+  },
+  {
+    "id": "ns37",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was haben ein Flugzeug und ein Auto mit Metallkarosserie gemeinsam?",
+    "options": [
+      "Sie wirken als faradayscher Käfig",
+      "Sie sind magnetisch",
+      "Sie leiten keinen Strom",
+      "Sie bestehen aus Kupfer"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein faradayscher Käfig ist eine Hülle aus elektrisch leitendem Material, etwa Blech oder Drahtgeflecht, die als elektrische Abschirmung wirkt: Innen bleibt es frei von äußeren elektrischen Feldern. Auch Flugzeuge und Autos mit Metallkarosserie wirken so.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Faradayscher Käfig",
+    "source_url": "https://de.wikipedia.org/wiki/Faradayscher Käfig",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do an aeroplane and a car with a metal body have in common?",
+        "options": [
+          "They act as a Faraday cage",
+          "They are magnetic",
+          "They do not conduct electricity",
+          "They are made of copper"
+        ],
+        "explanation": "A Faraday cage is an enclosure of conducting material, such as sheet metal or wire mesh, that acts as an electrical shield: inside, it stays free of outside electric fields. Aeroplanes and cars with metal bodies work this way too."
+      }
+    }
   }
 ]
