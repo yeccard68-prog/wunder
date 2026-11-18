@@ -76707,5 +76707,1601 @@
         "explanation": "A hypothec – Ancient Greek for 'pledge' – secures a loan with a piece of land. It was probably invented by moneylenders in ancient Athens."
       }
     }
+  },
+  {
+    "id": "t67",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welcher Kunststoff, den man von beschichteten Bratpfannen kennt, wurde 1938 vom Chemiker Roy Plunkett entdeckt?",
+    "options": [
+      "Acrylglas",
+      "Nylon",
+      "PTFE (Polytetrafluorethylen)",
+      "Polystyrol"
+    ],
+    "correct_index": 2,
+    "explanation": "PTFE wurde 1938 vom Chemiker Roy Plunkett entdeckt. Umgangssprachlich wird der Kunststoff oft nach einem bekannten Handelsnamen bezeichnet.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Polytetrafluorethylen",
+    "source_url": "https://de.wikipedia.org/wiki/Polytetrafluorethylen",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which plastic, known from non-stick frying pans, was discovered in 1938 by the chemist Roy Plunkett?",
+        "options": [
+          "Acrylic glass",
+          "Nylon",
+          "PTFE (polytetrafluoroethylene)",
+          "Polystyrene"
+        ],
+        "explanation": "PTFE was discovered in 1938 by the chemist Roy Plunkett. In everyday language the plastic is often called by a well-known brand name."
+      }
+    }
+  },
+  {
+    "id": "t68",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bringt Sekundenkleber (Cyanacrylat) so schnell zum Aushärten?",
+    "options": [
+      "Große Hitze",
+      "Das Licht einer UV-Lampe",
+      "Ein zweiter Härter aus einer anderen Tube",
+      "Schon die normale Feuchtigkeit in der Luft"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Aushärtung von Cyanacrylat wird schon durch winzige Mengen Hydroxid-Ionen gestartet – dafür genügt bereits die übliche Luftfeuchtigkeit. Deshalb klebt er auch so schnell an den Fingern.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cyanacrylat",
+    "source_url": "https://de.wikipedia.org/wiki/Cyanacrylat",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes superglue (cyanoacrylate) harden so quickly?",
+        "options": [
+          "Strong heat",
+          "The light of a UV lamp",
+          "A second hardener from another tube",
+          "Just the normal moisture in the air"
+        ],
+        "explanation": "Cyanoacrylate starts to harden with even tiny amounts of hydroxide ions – ordinary humidity in the air is enough. That is why it sticks to your fingers so quickly."
+      }
+    }
+  },
+  {
+    "id": "t69",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum biegt sich ein Bimetallstreifen, etwa in einem Thermostat, wenn er warm wird?",
+    "options": [
+      "Zwei verschiedene Metalle dehnen sich unterschiedlich stark aus",
+      "Er wird durch die Wärme magnetisch",
+      "Er schmilzt an einer Seite ein wenig",
+      "Ein kleiner Motor zieht ihn zur Seite"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Bimetall besteht aus zwei übereinanderliegenden Schichten unterschiedlicher Metalle. Beim Erwärmen dehnt sich eine Schicht stärker aus als die andere – so biegt sich der Streifen und kann zum Beispiel einen Stromkreis öffnen.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bimetall",
+    "source_url": "https://de.wikipedia.org/wiki/Bimetall",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a bimetallic strip, for example in a thermostat, bend when it gets warm?",
+        "options": [
+          "Two different metals expand by different amounts",
+          "The heat makes it magnetic",
+          "It melts a little on one side",
+          "A small motor pulls it sideways"
+        ],
+        "explanation": "A bimetal consists of two layers of different metals on top of each other. When heated, one layer expands more than the other – so the strip bends and can, for example, open an electric circuit."
+      }
+    }
+  },
+  {
+    "id": "t70",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches Metall eignet sich wegen seines sehr hohen Schmelzpunkts besonders für den Glühfaden einer Glühbirne?",
+    "options": [
+      "Aluminium",
+      "Kupfer",
+      "Wolfram",
+      "Zinn"
+    ],
+    "correct_index": 2,
+    "explanation": "Für Glühfäden kamen Osmium, Tantal oder Wolfram infrage, weil diese Metalle einen sehr hohen Schmelzpunkt haben. Durchgesetzt hat sich Wolfram – der Faden glüht hell, ohne zu schmelzen.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glühlampe",
+    "source_url": "https://de.wikipedia.org/wiki/Glühlampe",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which metal is especially suited for the filament of a light bulb because of its very high melting point?",
+        "options": [
+          "Aluminium",
+          "Copper",
+          "Tungsten",
+          "Tin"
+        ],
+        "explanation": "Osmium, tantalum or tungsten were candidates for filaments because these metals have very high melting points. Tungsten won out – the filament glows brightly without melting."
+      }
+    }
+  },
+  {
+    "id": "t71",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches alte Speichermedium ist bis heute in vielen Programmen das Symbol für „Speichern“?",
+    "options": [
+      "Die Musikkassette",
+      "Die CD",
+      "Die Lochkarte",
+      "Die Diskette"
+    ],
+    "correct_index": 3,
+    "explanation": "Diskettenlaufwerke sind aus modernen PCs längst verschwunden. Die Diskette – meist im 3,5-Zoll-Format – dient aber fast überall weiter als Symbol für das Speichern von Dateien. Viele jüngere Menschen kennen sie nur noch daher.",
+    "difficulty": 1,
+    "tags": [
+      "Computer",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diskette",
+    "source_url": "https://de.wikipedia.org/wiki/Diskette",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which old storage medium is still the symbol for 'Save' in many programs today?",
+        "options": [
+          "The audio cassette",
+          "The CD",
+          "The punched card",
+          "The floppy disk"
+        ],
+        "explanation": "Floppy drives disappeared from modern PCs long ago. But the floppy disk – usually the 3.5-inch format – still serves almost everywhere as the symbol for saving files. Many younger people only know it from that."
+      }
+    }
+  },
+  {
+    "id": "t72",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches Verfahren erfand Chester F. Carlson – mit einem ersten erfolgreichen Versuch im Oktober 1938?",
+    "options": [
+      "Das Fotokopieren (Xerografie)",
+      "Den Tintenstrahldruck",
+      "Den Farbfilm",
+      "Das Faxgerät"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Elektrofotografie ist ein von Chester F. Carlson und seinem Assistenten Otto Kornei erfundenes Kopierverfahren. Der erste erfolgreiche Versuch gelang im Oktober 1938 – mit einer elektrisch aufgeladenen Metallplatte und feinem Pulver.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Xerografie",
+    "source_url": "https://de.wikipedia.org/wiki/Xerografie",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which process did Chester F. Carlson invent – with a first successful attempt in October 1938?",
+        "options": [
+          "Photocopying (xerography)",
+          "Inkjet printing",
+          "Colour film",
+          "The fax machine"
+        ],
+        "explanation": "Electrophotography is a copying process invented by Chester F. Carlson and his assistant Otto Kornei. The first successful attempt came in October 1938 – with an electrically charged metal plate and fine powder."
+      }
+    }
+  },
+  {
+    "id": "t73",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Woher hat die deutsche Tastaturbelegung „QWERTZ“ ihren Namen?",
+    "options": [
+      "Von den Anfangsbuchstaben ihrer Erfinder",
+      "Von den ersten sechs Tasten der obersten Buchstabenreihe",
+      "Von den häufigsten Buchstaben im Deutschen",
+      "Von einem Kürzel der Post"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Namen QWERTY, QWERTZ und AZERTY ergeben sich aus den ersten sechs Tasten der obersten Buchstabenreihe. Die Anordnung stammt ursprünglich von der Schreibmaschine.",
+    "difficulty": 1,
+    "tags": [
+      "Computer",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tastaturbelegung",
+    "source_url": "https://de.wikipedia.org/wiki/Tastaturbelegung",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German keyboard layout 'QWERTZ' get its name?",
+        "options": [
+          "From the initials of its inventors",
+          "From the first six keys of the top letter row",
+          "From the most common letters in German",
+          "From a postal abbreviation"
+        ],
+        "explanation": "The names QWERTY, QWERTZ and AZERTY come from the first six keys of the top row of letters. The layout originally comes from the typewriter."
+      }
+    }
+  },
+  {
+    "id": "t74",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welcher uralte Vorläufer der Sicherheitsnadel hielt schon in der Bronzezeit Kleidung zusammen?",
+    "options": [
+      "Der Reißverschluss",
+      "Der Druckknopf",
+      "Die Fibel",
+      "Der Klettverschluss"
+    ],
+    "correct_index": 2,
+    "explanation": "Schon in der späten Bronzezeit hielt die Fibel Kleidung zusammen. Die moderne Sicherheitsnadel entwickelte der amerikanische Mechaniker Walter Hunt; im April 1849 wurde sie zum Patent angemeldet.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sicherheitsnadel",
+    "source_url": "https://de.wikipedia.org/wiki/Sicherheitsnadel",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which ancient forerunner of the safety pin already held clothing together in the Bronze Age?",
+        "options": [
+          "The zip",
+          "The press stud",
+          "The fibula",
+          "The hook-and-loop fastener"
+        ],
+        "explanation": "As early as the late Bronze Age, the fibula held clothing together. The modern safety pin was developed by the American mechanic Walter Hunt; it was filed for a patent in April 1849."
+      }
+    }
+  },
+  {
+    "id": "t75",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was entdeckte der Brite Edward Nairne im Jahr 1770?",
+    "options": [
+      "Wie man Tinte unsichtbar macht",
+      "Dass Graphit Strom leitet",
+      "Wie man Papier bleicht",
+      "Dass Kautschuk Bleistiftstriche wegradieren kann"
+    ],
+    "correct_index": 3,
+    "explanation": "Im Jahr 1770 entdeckte Edward Nairne, dass sich Kautschuk zum Entfernen von Bleistiftstrichen eignet. Joseph Priestley machte das bekannt und galt deshalb lange als Erfinder des Radiergummis.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radiergummi",
+    "source_url": "https://de.wikipedia.org/wiki/Radiergummi",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the Briton Edward Nairne discover in 1770?",
+        "options": [
+          "How to make ink invisible",
+          "That graphite conducts electricity",
+          "How to bleach paper",
+          "That rubber can erase pencil marks"
+        ],
+        "explanation": "In 1770 Edward Nairne discovered that rubber is good for removing pencil marks. Joseph Priestley made this known and was therefore long considered the inventor of the eraser."
+      }
+    }
+  },
+  {
+    "id": "t76",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Um 1901 sah Hubert Cecil Booth, wie in Zügen Staub von den Sitzen geblasen wurde. Was überlegte er?",
+    "options": [
+      "Dass es sinnvoller wäre, den Staub einzusaugen",
+      "Dass man die Sitze waschen sollte",
+      "Dass man Staub mit Wasser binden sollte",
+      "Dass Züge mehr Fenster brauchen"
+    ],
+    "correct_index": 0,
+    "explanation": "Um 1901 wunderte sich Hubert Cecil Booth über Geräte, die Schmutz und Staub von Zugsitzen bliesen. Er überlegte, dass es sinnvoller wäre, den Staub einzusaugen, und baute ein Gerät dazu. Ein Staubsauger erzeugt mit einem Gebläse Unterdruck.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Staubsauger",
+    "source_url": "https://de.wikipedia.org/wiki/Staubsauger",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around 1901 Hubert Cecil Booth saw dust being blown off the seats in trains. What did he think?",
+        "options": [
+          "That it would make more sense to suck the dust up",
+          "That the seats should be washed",
+          "That dust should be bound with water",
+          "That trains needed more windows"
+        ],
+        "explanation": "Around 1901 Hubert Cecil Booth wondered about machines that blew dirt and dust off train seats. He thought it would make more sense to suck the dust in, and built a device for it. A vacuum cleaner uses a fan to create low pressure."
+      }
+    }
+  },
+  {
+    "id": "c65",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was beginnt in der Westkirche mit dem Aschermittwoch?",
+    "options": [
+      "Das Kirchenjahr",
+      "Die Adventszeit",
+      "Das Erntedankfest",
+      "Die vierzigtägige Fastenzeit vor Ostern"
+    ],
+    "correct_index": 3,
+    "explanation": "Mit dem Aschermittwoch beginnt die vierzigtägige Fastenzeit. Sie soll an die 40 Tage erinnern, die Jesus fastend und betend in der Wüste verbrachte, und auf Ostern vorbereiten. Damit endet auch die Fastnacht.",
+    "difficulty": 1,
+    "tags": [
+      "Religion",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aschermittwoch",
+    "source_url": "https://de.wikipedia.org/wiki/Aschermittwoch",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What begins in the Western Church on Ash Wednesday?",
+        "options": [
+          "The church year",
+          "Advent",
+          "The harvest festival",
+          "The forty-day Lent before Easter"
+        ],
+        "explanation": "Ash Wednesday begins the forty days of Lent. It recalls the 40 days Jesus spent fasting and praying in the desert, and prepares for Easter. It also marks the end of carnival."
+      }
+    }
+  },
+  {
+    "id": "c66",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was teilte der heilige Martin der Legende nach mit einem Bettler?",
+    "options": [
+      "Seinen Mantel",
+      "Sein Pferd",
+      "Seine Laterne",
+      "Seinen Schuh"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Mantelteilung ist die bekannteste Geschichte über Martin von Tours. Weil sein Leichnam einst in einer Lichterprozession nach Tours gebracht wurde, feiern vor allem Kindergärten heute ein Laternenfest mit Laternelaufen.",
+    "difficulty": 1,
+    "tags": [
+      "Feste",
+      "Religion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Martin von Tours",
+    "source_url": "https://de.wikipedia.org/wiki/Martin von Tours",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to legend, what did Saint Martin share with a beggar?",
+        "options": [
+          "His cloak",
+          "His horse",
+          "His lantern",
+          "His shoe"
+        ],
+        "explanation": "Sharing his cloak is the best-known story about Martin of Tours. Because his body was once carried to Tours in a procession of lights, kindergartens in particular celebrate a lantern festival with lantern walks today."
+      }
+    }
+  },
+  {
+    "id": "c67",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet das japanische Wort „Kimono“ wörtlich?",
+    "options": [
+      "„Kleid aus Seide“",
+      "„Ding zum Anziehen“",
+      "„Gewand der Sonne“",
+      "„Langer Ärmel“"
+    ],
+    "correct_index": 1,
+    "explanation": "Kimono setzt sich zusammen aus kiru (anziehen) und mono (Ding) – also „Anziehsache“. Ursprünglich meinte das Wort alle Arten von Kleidung. Zusammengehalten wird der Kimono von einem breiten Gürtel, dem Obi.",
+    "difficulty": 2,
+    "tags": [
+      "Japan",
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kimono",
+    "source_url": "https://de.wikipedia.org/wiki/Kimono",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Japanese word 'kimono' literally mean?",
+        "options": [
+          "'Silk dress'",
+          "'Thing to wear'",
+          "'Robe of the sun'",
+          "'Long sleeve'"
+        ],
+        "explanation": "Kimono is made up of kiru (to wear) and mono (thing) – literally a 'thing to wear'. Originally the word meant all kinds of clothing. The kimono is held together by a wide sash, the obi."
+      }
+    }
+  },
+  {
+    "id": "c68",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wo waren geschnitzte Wappen- oder Totempfähle vor allem verbreitet?",
+    "options": [
+      "Bei Beduinen in Arabien",
+      "Bei den Sámi in Lappland",
+      "Bei indigenen Völkern an der Nordwestküste Nordamerikas",
+      "Bei den Völkern Patagoniens"
+    ],
+    "correct_index": 2,
+    "explanation": "Wappenpfähle waren vor allem bei den indigenen Völkern der amerikanischen Nordwestküste verbreitet. Sie erzählen oft Geschichten eines Clans und wurden meist aus dem Holz von Riesenlebensbäumen geschnitzt.",
+    "difficulty": 2,
+    "tags": [
+      "Gesellschaft",
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Totempfahl",
+    "source_url": "https://de.wikipedia.org/wiki/Totempfahl",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where were carved crest or totem poles mainly found?",
+        "options": [
+          "Among Bedouins in Arabia",
+          "Among the Sámi in Lapland",
+          "Among Indigenous peoples of the North American northwest coast",
+          "Among the peoples of Patagonia"
+        ],
+        "explanation": "Crest poles were found mainly among the Indigenous peoples of the American northwest coast. They often tell stories of a clan and were usually carved from the wood of western red cedars."
+      }
+    }
+  },
+  {
+    "id": "c69",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In ihrem neuen Rathaus ist es stockfinster. Was versuchen die Schildbürger?",
+    "options": [
+      "Nur noch nachts zu arbeiten",
+      "Das Rathaus abzureißen",
+      "Kerzen aus Butter zu gießen",
+      "Das Sonnenlicht in Eimern und Säcken hineinzutragen"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Schildbürger sind die Helden eines alten Schwankbuchs voller närrischer Streiche. Weil es in ihrem dreieckigen Rathaus stockfinster ist, wollen sie das Sonnenlicht mit Eimern, Säcken, Kästen und Körben einfangen und hineintragen.",
+    "difficulty": 1,
+    "tags": [
+      "Literatur",
+      "Märchen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schildbürger",
+    "source_url": "https://de.wikipedia.org/wiki/Schildbürger",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "It is pitch-dark in their new town hall. What do the people of Schilda try to do?",
+        "options": [
+          "Only work at night",
+          "Tear the town hall down",
+          "Make candles out of butter",
+          "Carry the sunlight in using buckets and sacks"
+        ],
+        "explanation": "The people of Schilda are the heroes of an old book of comic tales full of foolish pranks. Because their triangular town hall is pitch-dark, they try to catch the sunlight with buckets, sacks, boxes and baskets and carry it inside."
+      }
+    }
+  },
+  {
+    "id": "c70",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer ist Till Eulenspiegel?",
+    "options": [
+      "Ein Ritter aus der Artussage",
+      "Ein umherziehender Schelm aus alten lustigen Geschichten",
+      "Ein Zauberer aus Grimms Märchen",
+      "Ein Kapitän aus Lübeck"
+    ],
+    "correct_index": 1,
+    "explanation": "Till Eulenspiegel ist die Hauptfigur einer Sammlung von Schwänken – lustigen Geschichten. Sie beschreibt ihn als umherstreifenden Schalk des 14. Jahrhunderts. Viele Narren im Karneval berufen sich bis heute auf ihn.",
+    "difficulty": 1,
+    "tags": [
+      "Literatur",
+      "Märchen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Till Eulenspiegel",
+    "source_url": "https://de.wikipedia.org/wiki/Till Eulenspiegel",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is Till Eulenspiegel?",
+        "options": [
+          "A knight from the Arthurian legend",
+          "A wandering trickster from old funny stories",
+          "A wizard from Grimms' fairy tales",
+          "A captain from Lübeck"
+        ],
+        "explanation": "Till Eulenspiegel is the main character of a collection of comic tales. It describes him as a wandering joker of the 14th century. Many carnival fools still refer to him today."
+      }
+    }
+  },
+  {
+    "id": "c71",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Kinder verschwanden laut der Sage vom Rattenfänger von Hameln?",
+    "options": [
+      "130",
+      "12",
+      "30",
+      "1.000"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Sage nach befreite ein Pfeifer Hameln im Jahr 1284 von einer Rattenplage. Als die Bürger ihm den versprochenen Lohn verweigerten, lockte er aus Rache die Kinder aus der Stadt – ganze 130 sollen verschwunden sein.",
+    "difficulty": 2,
+    "tags": [
+      "Märchen",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rattenfänger von Hameln",
+    "source_url": "https://de.wikipedia.org/wiki/Rattenfänger von Hameln",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the legend of the Pied Piper of Hamelin, how many children disappeared?",
+        "options": [
+          "130",
+          "12",
+          "30",
+          "1,000"
+        ],
+        "explanation": "According to the legend, a piper freed Hamelin from a plague of rats in 1284. When the townspeople refused to pay him the promised reward, he lured the children out of the town in revenge – 130 are said to have disappeared."
+      }
+    }
+  },
+  {
+    "id": "c72",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist die Loreley am Mittelrhein eigentlich?",
+    "options": [
+      "Ein Wasserfall",
+      "Eine Burgruine",
+      "Eine Insel im Fluss",
+      "Eine hohe Schieferfelswand"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Loreley ist eine 132 Meter hohe Schieferfelswand bei Sankt Goarshausen, an der engsten Stelle des Mittelrheins. Berühmt wurde sie durch die Geschichte von der Lore Lay – Heinrich Heine dichtete darüber „Die Lore-Ley“.",
+    "difficulty": 2,
+    "tags": [
+      "Literatur",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Loreley",
+    "source_url": "https://de.wikipedia.org/wiki/Loreley",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What actually is the Loreley on the Middle Rhine?",
+        "options": [
+          "A waterfall",
+          "A castle ruin",
+          "An island in the river",
+          "A tall slate cliff"
+        ],
+        "explanation": "The Loreley is a 132-metre slate cliff near Sankt Goarshausen, at the narrowest point of the Middle Rhine. It became famous through the story of Lore Lay – Heinrich Heine wrote the poem 'Die Lore-Ley' about it."
+      }
+    }
+  },
+  {
+    "id": "c73",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was wird beim Polterabend vor einer Hochzeit traditionell zerbrochen?",
+    "options": [
+      "Steingut und Porzellan",
+      "Gläser und Spiegel",
+      "Holzbretter",
+      "Ziegelsteine"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Polterabend zerbricht man Steingut und Porzellan, um dem Brautpaar eine gelingende Ehe zu wünschen. Gläser und Spiegel sind tabu: Glas steht für Glück, ein zerbrochener Spiegel für Pech. Die Scherben räumt das Paar gemeinsam weg.",
+    "difficulty": 1,
+    "tags": [
+      "Feste",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Polterabend",
+    "source_url": "https://de.wikipedia.org/wiki/Polterabend",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is traditionally smashed at a 'Polterabend' before a wedding?",
+        "options": [
+          "Stoneware and china",
+          "Glasses and mirrors",
+          "Wooden boards",
+          "Bricks"
+        ],
+        "explanation": "At a Polterabend people smash stoneware and china to wish the couple a successful marriage. Glasses and mirrors are taboo: glass stands for happiness, a broken mirror for bad luck. The couple clears up the shards together."
+      }
+    }
+  },
+  {
+    "id": "c74",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie rettet sich der „Lügenbaron“ Münchhausen in seiner berühmten Geschichte aus dem Sumpf?",
+    "options": [
+      "Er ruft laut nach seinem Pferd",
+      "Er zieht sich am eigenen Schopf heraus",
+      "Er baut sich ein Floß",
+      "Er fliegt mit Enten davon"
+    ],
+    "correct_index": 1,
+    "explanation": "Münchhausen zieht sich samt Pferd am eigenen Schopf aus dem Sumpf. Daher kommt der Begriff „Münchhausen-Methode“: der Versuch, sich ohne Hilfe von außen aus einer Notlage zu befreien.",
+    "difficulty": 1,
+    "tags": [
+      "Literatur",
+      "Märchen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hieronymus Carl Friedrich von Münchhausen",
+    "source_url": "https://de.wikipedia.org/wiki/Hieronymus Carl Friedrich von Münchhausen",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the 'Baron of Lies' Münchhausen escape from the swamp in his famous story?",
+        "options": [
+          "He calls loudly for his horse",
+          "He pulls himself out by his own hair",
+          "He builds a raft",
+          "He flies away with ducks"
+        ],
+        "explanation": "Münchhausen pulls himself and his horse out of the swamp by his own hair. That is where the 'Münchhausen method' gets its name: trying to get out of trouble without any help from outside."
+      }
+    }
+  },
+  {
+    "id": "m74",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ordne die Ziffern einer vierstelligen Zahl der Größe nach und ziehe die kleinere von der größeren Zahl ab. Bei welcher Zahl landest du, wenn du das wiederholst?",
+    "options": [
+      "6174",
+      "1000",
+      "9999",
+      "4321"
+    ],
+    "correct_index": 0,
+    "explanation": "Das ist die Kaprekar-Konstante. Im Dezimalsystem gibt es solche Konstanten nur für dreistellige (495) und vierstellige Zahlen (6174). Ausnahme: Zahlen, deren Ziffern alle gleich sind.",
+    "difficulty": 3,
+    "tags": [
+      "Zahlen",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaprekar-Konstante",
+    "source_url": "https://de.wikipedia.org/wiki/Kaprekar-Konstante",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Sort the digits of a four-digit number by size and subtract the smaller number from the larger one. Which number do you end up at if you keep repeating this?",
+        "options": [
+          "6174",
+          "1000",
+          "9999",
+          "4321"
+        ],
+        "explanation": "This is Kaprekar's constant. In the decimal system such constants only exist for three-digit (495) and four-digit numbers (6174). Exception: numbers whose digits are all the same."
+      }
+    }
+  },
+  {
+    "id": "m75",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ist eine Zahl gerade, halbiere sie – ist sie ungerade, nimm sie mal 3 und zähle 1 dazu. Was ist das Besondere am Collatz-Problem?",
+    "options": [
+      "Niemand hat bewiesen, dass man immer bei 1 ankommt",
+      "Es wurde schon in der Antike gelöst",
+      "Es klappt nur mit Primzahlen",
+      "Man landet immer bei einer Zehnerzahl"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Collatz-Problem, auch (3n+1)-Vermutung genannt, stellte Lothar Collatz 1937. Die Vermutung, dass jede Startzahl irgendwann bei 1 ankommt, wurde bislang weder bewiesen noch widerlegt.",
+    "difficulty": 3,
+    "tags": [
+      "Zahlen",
+      "Folgen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Collatz-Problem",
+    "source_url": "https://de.wikipedia.org/wiki/Collatz-Problem",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "If a number is even, halve it – if it is odd, multiply by 3 and add 1. What is special about the Collatz problem?",
+        "options": [
+          "Nobody has proved that you always reach 1",
+          "It was already solved in antiquity",
+          "It only works with prime numbers",
+          "You always end up at a multiple of ten"
+        ],
+        "explanation": "The Collatz problem, also called the (3n+1) conjecture, was posed by Lothar Collatz in 1937. The conjecture that every starting number eventually reaches 1 has so far been neither proved nor disproved."
+      }
+    }
+  },
+  {
+    "id": "m76",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie prüft man schnell, ob eine große Zahl durch 3 teilbar ist?",
+    "options": [
+      "Man schaut, ob die letzte Ziffer eine 3 ist",
+      "Man prüft, ob ihre Quersumme durch 3 teilbar ist",
+      "Man prüft, ob die Zahl gerade ist",
+      "Man zählt, wie viele Ziffern sie hat"
+    ],
+    "correct_index": 1,
+    "explanation": "Mit der Quersummenregel lässt sich die Teilbarkeit durch 3 und durch 9 überprüfen: Man addiert alle Ziffern. Ist diese Quersumme durch 3 teilbar, dann auch die Zahl selbst.",
+    "difficulty": 2,
+    "tags": [
+      "Rechnen",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quersumme",
+    "source_url": "https://de.wikipedia.org/wiki/Quersumme",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How can you quickly check whether a large number is divisible by 3?",
+        "options": [
+          "See whether the last digit is a 3",
+          "Check whether its digit sum is divisible by 3",
+          "Check whether the number is even",
+          "Count how many digits it has"
+        ],
+        "explanation": "The digit-sum rule lets you check divisibility by 3 and by 9: add up all the digits. If this digit sum is divisible by 3, so is the number itself."
+      }
+    }
+  },
+  {
+    "id": "m77",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Warum war das Jahr 2000 ein Schaltjahr, obwohl 1900 keines war?",
+    "options": [
+      "Weil 1900 ein Fehler im Kalender war",
+      "Weil 2000 eine besonders runde Zahl ist",
+      "Weil 2000 durch 400 teilbar ist",
+      "Weil es eine Ausnahme zum Jahrtausend war"
+    ],
+    "correct_index": 2,
+    "explanation": "Volle Jahrhundertjahre wie 1800, 1900 oder 2100 sind keine Schaltjahre – außer sie sind durch 400 teilbar, wie das Jahr 2000. So entfallen in 400 Jahren drei Schaltjahre, und der Kalender bleibt genauer.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schaltjahr",
+    "source_url": "https://de.wikipedia.org/wiki/Schaltjahr",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why was the year 2000 a leap year, even though 1900 was not?",
+        "options": [
+          "Because 1900 was a calendar mistake",
+          "Because 2000 is a particularly round number",
+          "Because 2000 is divisible by 400",
+          "Because it was a special millennium exception"
+        ],
+        "explanation": "Full century years such as 1800, 1900 or 2100 are not leap years – unless they are divisible by 400, like the year 2000. This drops three leap years every 400 years and keeps the calendar more accurate."
+      }
+    }
+  },
+  {
+    "id": "m78",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Der Logarithmus ist eine Umkehrung welcher Rechenart?",
+    "options": [
+      "Des Prozentrechnens",
+      "Des Addierens",
+      "Des Dividierens",
+      "Des Potenzierens"
+    ],
+    "correct_index": 3,
+    "explanation": "Logarithmieren ist eine Umkehroperation des Potenzierens: Es fragt, mit welchem Exponenten man die Basis potenzieren muss. 1614 veröffentlichte John Napier ein Buch über Logarithmen, das ihn als „Erfinder der Logarithmen“ berühmt machte.",
+    "difficulty": 3,
+    "tags": [
+      "Algebra",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Logarithmus",
+    "source_url": "https://de.wikipedia.org/wiki/Logarithmus",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The logarithm is an inverse of which arithmetic operation?",
+        "options": [
+          "Percentage calculation",
+          "Addition",
+          "Division",
+          "Raising to a power"
+        ],
+        "explanation": "Taking a logarithm is an inverse of raising to a power: it asks which exponent you need to raise the base to. In 1614 John Napier published a book on logarithms that made him famous as their 'inventor'."
+      }
+    }
+  },
+  {
+    "id": "m79",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Das Hexadezimalsystem rechnet zur Basis 16. Womit schreibt man die Ziffern nach der 9?",
+    "options": [
+      "Mit den Buchstaben A bis F",
+      "Mit römischen Zahlzeichen",
+      "Mit griechischen Buchstaben",
+      "Mit Sternchen und Punkten"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Hexadezimalsystem werden Zahlen zur Basis 16 dargestellt. Für die sechs zusätzlichen Ziffern nimmt man seit Mitte der 1950er Jahre die Buchstaben A bis F. Weil 16 eine Zweierpotenz ist, lassen sich Binärzahlen damit kurz schreiben.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen",
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hexadezimalsystem",
+    "source_url": "https://de.wikipedia.org/wiki/Hexadezimalsystem",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The hexadecimal system works in base 16. What do you use to write the digits after 9?",
+        "options": [
+          "The letters A to F",
+          "Roman numerals",
+          "Greek letters",
+          "Asterisks and dots"
+        ],
+        "explanation": "In the hexadecimal system numbers are written in base 16. Since the mid-1950s the six extra digits have been written with the letters A to F. Because 16 is a power of two, binary numbers can be written compactly with it."
+      }
+    }
+  },
+  {
+    "id": "m80",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welche Form nennt man in der Mathematik einen „Torus“?",
+    "options": [
+      "Eine Kugel mit einer Spitze",
+      "Eine Pyramide mit runder Grundfläche",
+      "Die Form eines Rettungsrings oder Donuts",
+      "Einen Würfel mit abgerundeten Ecken"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Torus ist eine wulstartig geformte Fläche mit einem Loch – wie ein Rettungsring, ein Fahrradschlauch oder ein Donut. Auch ein O-Ring hat diese Form.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Torus",
+    "source_url": "https://de.wikipedia.org/wiki/Torus",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which shape is called a 'torus' in mathematics?",
+        "options": [
+          "A sphere with a point",
+          "A pyramid with a round base",
+          "The shape of a lifebuoy or doughnut",
+          "A cube with rounded corners"
+        ],
+        "explanation": "A torus is a bulging surface with a hole – like a lifebuoy, a bicycle inner tube or a doughnut. An O-ring has this shape too."
+      }
+    }
+  },
+  {
+    "id": "m81",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was zeichnet ein Trapez in der Geometrie aus?",
+    "options": [
+      "Alle Winkel sind rechte Winkel",
+      "Alle vier Seiten sind gleich lang",
+      "Es hat genau drei Ecken",
+      "Es ist ein Viereck mit (mindestens) zwei parallelen Seiten"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Trapez ist ein ebenes Viereck mit mindestens zwei parallel zueinander liegenden Seiten. Der Name kommt vom griechischen trapeza – „Tisch“.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trapez (Geometrie)",
+    "source_url": "https://de.wikipedia.org/wiki/Trapez (Geometrie)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What defines a trapezium in geometry?",
+        "options": [
+          "All angles are right angles",
+          "All four sides are the same length",
+          "It has exactly three corners",
+          "It is a quadrilateral with (at least) two parallel sides"
+        ],
+        "explanation": "A trapezium is a flat quadrilateral with at least two sides parallel to each other. The name comes from the Greek trapeza – 'table'."
+      }
+    }
+  },
+  {
+    "id": "m82",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Aus welchen Flächen besteht ein regelmäßiges Dodekaeder?",
+    "options": [
+      "Aus 12 gleichen Fünfecken",
+      "Aus 12 gleichen Dreiecken",
+      "Aus 20 gleichen Sechsecken",
+      "Aus 8 gleichen Quadraten"
+    ],
+    "correct_index": 0,
+    "explanation": "Das regelmäßige Pentagondodekaeder ist ein platonischer Körper mit 12 regelmäßigen Fünfecken, 30 gleich langen Kanten und 20 Ecken. An jeder Ecke treffen drei Fünfecke zusammen.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dodekaeder",
+    "source_url": "https://de.wikipedia.org/wiki/Dodekaeder",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which faces make up a regular dodecahedron?",
+        "options": [
+          "12 identical pentagons",
+          "12 identical triangles",
+          "20 identical hexagons",
+          "8 identical squares"
+        ],
+        "explanation": "The regular dodecahedron is a Platonic solid with 12 regular pentagons, 30 equal edges and 20 vertices. Three pentagons meet at each vertex."
+      }
+    }
+  },
+  {
+    "id": "m83",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Helge von Koch stellte 1904 eine berühmte Kurve vor. In welcher Form ist sie besonders bekannt?",
+    "options": [
+      "Als Spirale",
+      "Als Schneeflocke",
+      "Als fünfzackiger Stern",
+      "Als Farnblatt"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Koch-Kurve stellte Helge von Koch 1904 vor. Kombiniert man drei Koch-Kurven, entsteht die kochsche Schneeflocke. Die Kurve ist unendlich fein strukturiert und lässt sich nur näherungsweise zeichnen – ein typisches Fraktal.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie",
+      "Folgen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Koch-Kurve",
+    "source_url": "https://de.wikipedia.org/wiki/Koch-Kurve",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1904 Helge von Koch presented a famous curve. In which form is it especially well known?",
+        "options": [
+          "As a spiral",
+          "As a snowflake",
+          "As a five-pointed star",
+          "As a fern leaf"
+        ],
+        "explanation": "Helge von Koch presented the Koch curve in 1904. Combining three Koch curves gives the Koch snowflake. The curve is infinitely finely structured and can only be drawn approximately – a typical fractal."
+      }
+    }
+  },
+  {
+    "id": "l96",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist „Rotwelsch“?",
+    "options": [
+      "Eine Geheimschrift von Mönchen",
+      "Ein Dialekt aus Wales",
+      "Eine alte Sondersprache von Bettlern, Fahrenden und Gaunern",
+      "Die Sprache der Rätoromanen"
+    ],
+    "correct_index": 2,
+    "explanation": "Rotwelsch ist eine Sondersprache gesellschaftlicher Randgruppen. Schon 1494 wird sie im „Narrenschiff“ als Sprache von Bettlern erwähnt. Einige Wörter rotwelscher oder gaunersprachlicher Herkunft stehen bis heute im Wörterbuch.",
+    "difficulty": 2,
+    "tags": [
+      "Deutsch",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rotwelsch",
+    "source_url": "https://de.wikipedia.org/wiki/Rotwelsch",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is 'Rotwelsch'?",
+        "options": [
+          "A secret script used by monks",
+          "A dialect from Wales",
+          "An old secret language of beggars, travellers and crooks",
+          "The language of the Romansh"
+        ],
+        "explanation": "Rotwelsch is a special language of social outsiders. As early as 1494 it is mentioned in the 'Ship of Fools' as the language of beggars. Some words of Rotwelsch or thieves' cant origin are still in the dictionary today."
+      }
+    }
+  },
+  {
+    "id": "l97",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Worum geht es beim Ratespiel „Teekesselchen“?",
+    "options": [
+      "Reime auf ein Wort zu finden",
+      "Möglichst schnell Tee zu kochen",
+      "Wörter rückwärts zu buchstabieren",
+      "Ein Wort mit mehreren Bedeutungen zu erraten"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Teekesselchen muss ein Wort mit mehreren Bedeutungen erraten werden – zum Beispiel „Bank“ (zum Sitzen und für Geld). Meist übernimmt jeder Mitspieler eine der Bedeutungen und beschreibt sie.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch",
+      "Wortschatz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Teekesselchen",
+    "source_url": "https://de.wikipedia.org/wiki/Teekesselchen",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the guessing game 'Teekesselchen' ('little teapot') about?",
+        "options": [
+          "Finding rhymes for a word",
+          "Making tea as fast as possible",
+          "Spelling words backwards",
+          "Guessing a word with several meanings"
+        ],
+        "explanation": "In Teekesselchen you have to guess a word with several meanings – for example 'Bank' (a bench to sit on and a bank for money). Usually each player takes one of the meanings and describes it."
+      }
+    }
+  },
+  {
+    "id": "l98",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher hat die Runenreihe „Futhark“ ihren Namen?",
+    "options": [
+      "Von ihren ersten sechs Runen: F, U, Th, A, R, K",
+      "Von einem germanischen Gott",
+      "Von einem Ort in Dänemark",
+      "Vom altnordischen Wort für „Stein“"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Reihenfolge der Runen unterscheidet sich vom ABC. Deshalb benennt man die Runenreihe nach ihren ersten sechs Zeichen: F–U–Þ–A–R–K – ganz ähnlich, wie das Alphabet nach Alpha und Beta heißt.",
+    "difficulty": 2,
+    "tags": [
+      "Schrift",
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Futhark",
+    "source_url": "https://de.wikipedia.org/wiki/Futhark",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the runic row 'Futhark' get its name?",
+        "options": [
+          "From its first six runes: F, U, Th, A, R, K",
+          "From a Germanic god",
+          "From a place in Denmark",
+          "From the Old Norse word for 'stone'"
+        ],
+        "explanation": "The order of the runes differs from the ABC. That is why the runic row is named after its first six characters: F–U–Þ–A–R–K – just as the alphabet is named after alpha and beta."
+      }
+    }
+  },
+  {
+    "id": "l99",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welcher Schrift schreibt man Hindi und Sanskrit?",
+    "options": [
+      "Kyrillisch",
+      "Devanagari",
+      "Hangul",
+      "Kanji"
+    ],
+    "correct_index": 1,
+    "explanation": "Devanagari ist eine indische Schrift für Sanskrit und moderne Sprachen wie Hindi, Nepali und Marathi. Typisch: Die Buchstaben eines Wortes hängen an einem durchgehenden Kopfstrich.",
+    "difficulty": 2,
+    "tags": [
+      "Schrift",
+      "Sprachen der Welt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Devanagari",
+    "source_url": "https://de.wikipedia.org/wiki/Devanagari",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which script is used to write Hindi and Sanskrit?",
+        "options": [
+          "Cyrillic",
+          "Devanagari",
+          "Hangul",
+          "Kanji"
+        ],
+        "explanation": "Devanagari is an Indian script used for Sanskrit and modern languages such as Hindi, Nepali and Marathi. Typical feature: the letters of a word hang from a continuous headline."
+      }
+    }
+  },
+  {
+    "id": "l100",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wozu dient das „NATO-Alphabet“ mit Wörtern wie Alfa, Bravo und Charlie?",
+    "options": [
+      "Zum deutlichen Buchstabieren, etwa im Funk",
+      "Zum Verschlüsseln geheimer Nachrichten",
+      "Als Ersatz für das lateinische Alphabet",
+      "Zum Sortieren von Namen"
+    ],
+    "correct_index": 0,
+    "explanation": "Das NATO-Alphabet ist eine der gebräuchlichsten Buchstabiertafeln. Auch die Internationale Zivilluftfahrtorganisation ICAO verwendet es – damit Buchstaben auch bei schlechter Verbindung nicht verwechselt werden.",
+    "difficulty": 1,
+    "tags": [
+      "Englisch",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buchstabiertafel",
+    "source_url": "https://de.wikipedia.org/wiki/Buchstabiertafel",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the 'NATO alphabet' with words such as Alfa, Bravo and Charlie for?",
+        "options": [
+          "Spelling clearly, e.g. over the radio",
+          "Encrypting secret messages",
+          "Replacing the Latin alphabet",
+          "Sorting names"
+        ],
+        "explanation": "The NATO alphabet is one of the most widely used spelling alphabets. The International Civil Aviation Organization ICAO uses it too – so that letters are not confused even over a bad connection."
+      }
+    }
+  },
+  {
+    "id": "l101",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist Stenografie?",
+    "options": [
+      "Eine Geheimschrift aus Zahlen",
+      "Eine Kurzschrift, mit der man schneller schreiben kann",
+      "Die Lehre von der Schönschrift",
+      "Das Schreiben auf Steintafeln"
+    ],
+    "correct_index": 1,
+    "explanation": "Stenografie – kurz Steno oder Kurzschrift – besteht aus einfachen Zeichen und lässt sich schneller schreiben als die herkömmliche „Langschrift“. In Deutschland ist dafür besonders Franz Xaver Gabelsberger bekannt.",
+    "difficulty": 1,
+    "tags": [
+      "Schrift",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stenografie",
+    "source_url": "https://de.wikipedia.org/wiki/Stenografie",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is stenography?",
+        "options": [
+          "A secret script made of numbers",
+          "A shorthand that lets you write faster",
+          "The art of beautiful handwriting",
+          "Writing on stone tablets"
+        ],
+        "explanation": "Stenography – shorthand for short – consists of simple signs and can be written faster than ordinary 'longhand'. In Germany, Franz Xaver Gabelsberger is especially well known for it."
+      }
+    }
+  },
+  {
+    "id": "l102",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher hat die alte Schriftart „Fraktur“ ihren Namen?",
+    "options": [
+      "Vom französischen Wort für „Feder“",
+      "Von einem Drucker namens Frak",
+      "Vom lateinischen fractura, „Bruch“ – sie ist eine gebrochene Schrift",
+      "Von einer Stadt am Rhein"
+    ],
+    "correct_index": 2,
+    "explanation": "Fraktur kommt von lateinisch fractura („Bruch“) und gehört zu den gebrochenen Schriften. Lange war sie die meistbenutzte Satzschrift im deutschsprachigen Raum.",
+    "difficulty": 2,
+    "tags": [
+      "Schrift",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fraktur (Schrift)",
+    "source_url": "https://de.wikipedia.org/wiki/Fraktur (Schrift)",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the old typeface 'Fraktur' get its name?",
+        "options": [
+          "From the French word for 'feather'",
+          "From a printer called Frak",
+          "From the Latin fractura, 'break' – it is a broken script",
+          "From a town on the Rhine"
+        ],
+        "explanation": "Fraktur comes from the Latin fractura ('break') and belongs to the broken scripts. For a long time it was the most widely used typeface in the German-speaking world."
+      }
+    }
+  },
+  {
+    "id": "l103",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist eine Serife bei einer Schrift?",
+    "options": [
+      "Der Abstand zwischen zwei Zeilen",
+      "Der Punkt über dem i",
+      "Ein Zeichen für die Betonung",
+      "Ein kleiner Querstrich am Ende eines Buchstabenstrichs – ein „Füßchen“"
+    ],
+    "correct_index": 3,
+    "explanation": "Serifen sind kurze dünne Linien, die einen Buchstabenstrich am Ende quer abschließen – wie kleine Füßchen. Schriften mit Serifen nutzt man oft für Bücher und Zeitschriften, weil sie gedruckt angenehm zu lesen sind.",
+    "difficulty": 2,
+    "tags": [
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Serife",
+    "source_url": "https://de.wikipedia.org/wiki/Serife",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a serif in a typeface?",
+        "options": [
+          "The space between two lines",
+          "The dot above the i",
+          "A sign marking stress",
+          "A small cross-stroke at the end of a letter's stroke – a 'little foot'"
+        ],
+        "explanation": "Serifs are short thin lines that finish a letter's stroke crosswise at its end – like little feet. Serif typefaces are often used for books and magazines because they are pleasant to read in print."
+      }
+    }
+  },
+  {
+    "id": "l104",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welchem Land stammt die Handschrift, nach deren Vorbild um 1501 die erste kursive Drucktype entstand?",
+    "options": [
+      "Italien",
+      "Deutschland",
+      "Frankreich",
+      "England"
+    ],
+    "correct_index": 0,
+    "explanation": "Um 1501 schnitt Francesco Griffo für den Buchdrucker Aldus Manutius die erste kursive Drucktype aus Blei – nach dem Vorbild der humanistischen Kursive, einer Handschrift aus Italien. Deshalb heißt Kursivschrift auf Englisch „italics“.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kursivschrift",
+    "source_url": "https://de.wikipedia.org/wiki/Kursivschrift",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country did the handwriting originate that served as the model for the first italic typeface around 1501?",
+        "options": [
+          "Italy",
+          "Germany",
+          "France",
+          "England"
+        ],
+        "explanation": "Around 1501 Francesco Griffo cut the first italic typeface in lead for the printer Aldus Manutius – modelled on the humanist cursive, a handwriting from Italy. That is why it is called 'italics' in English."
+      }
+    }
+  },
+  {
+    "id": "l105",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie heißt das „s“ in Wörtern wie „Arbeitszimmer“ oder „Geburtstag“, das zwei Wortteile verbindet?",
+    "options": [
+      "Plural-s",
+      "Fugen-s",
+      "Stamm-s",
+      "Schluss-s"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Fugen-s, auch Binde-s genannt, ist der häufigste Fugenlaut. Solche Laute werden bei Wortzusammensetzungen an den Nahtstellen – den Fugen – eingefügt.",
+    "difficulty": 2,
+    "tags": [
+      "Deutsch",
+      "Grammatik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fugenelement",
+    "source_url": "https://de.wikipedia.org/wiki/Fugenelement",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the 's' called in German words like 'Arbeitszimmer' (study) or 'Geburtstag' (birthday) that links two parts of the word?",
+        "options": [
+          "Plural s",
+          "Linking s (Fugen-s)",
+          "Stem s",
+          "Final s"
+        ],
+        "explanation": "The linking s, also called the binding s, is the most common linking sound. Such sounds are inserted at the joints – the 'Fugen' – of compound words."
+      }
+    }
   }
 ]
