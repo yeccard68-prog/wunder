@@ -1,0 +1,1617 @@
+[
+  {
+    "id": "b113",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was wollte Frederick Winslow Taylor mit seinem „Scientific Management“ (1911) herausfinden?",
+    "options": [
+      "Die beste Art, jeden Arbeitsschritt auszuführen",
+      "Wie man Firmen an der Börse bewertet",
+      "Wie man Werbung im Radio macht",
+      "Wie man Mitarbeitende per Los auswählt"
+    ],
+    "correct_index": 0,
+    "explanation": "Frederick Winslow Taylor stellte sein Konzept 1911 in seinem Hauptwerk vor. Die Idee: Mit wissenschaftlichen Methoden – etwa mit der Stoppuhr – lässt sich die beste Art ermitteln, einen Arbeitsschritt auszuführen.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Arbeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Scientific Management",
+    "source_url": "https://de.wikipedia.org/wiki/Scientific Management",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Frederick Winslow Taylor want to find out with his 'Scientific Management' (1911)?",
+        "options": [
+          "The best way to carry out each work step",
+          "How to value companies on the stock exchange",
+          "How to make radio adverts",
+          "How to pick staff by lottery"
+        ],
+        "explanation": "Frederick Winslow Taylor presented his concept in his main work in 1911. The idea: with scientific methods – such as the stopwatch – you can find the best way to carry out a work step."
+      }
+    }
+  },
+  {
+    "id": "b114",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Warum ließ sich der Gastwirt James Ritty 1879 die Registrierkasse patentieren?",
+    "options": [
+      "Damit er Steuern sparen konnte",
+      "Damit sein Personal weniger Geld stehlen konnte",
+      "Weil er Rechnen hasste",
+      "Damit Gäste mit Karte zahlen konnten"
+    ],
+    "correct_index": 1,
+    "explanation": "James Ritty, ein Lokalbesitzer aus Dayton in den USA, meldete die Registrierkasse 1879 zum Patent an – um Diebstahl durch sein Personal zu verringern. Typisch wurde das Klingeln, wenn sich die Geldschublade öffnet.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Registrierkasse",
+    "source_url": "https://de.wikipedia.org/wiki/Registrierkasse",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why did the saloon owner James Ritty patent the cash register in 1879?",
+        "options": [
+          "So that he could save taxes",
+          "So that his staff could steal less money",
+          "Because he hated arithmetic",
+          "So that guests could pay by card"
+        ],
+        "explanation": "James Ritty, a saloon owner from Dayton in the USA, applied for a patent on the cash register in 1879 – to cut down theft by his staff. Its typical feature became the bell ringing when the cash drawer opens."
+      }
+    }
+  },
+  {
+    "id": "b115",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wie nennt man die Zeit, in der Handwerksgesellen nach der Lehre von Ort zu Ort ziehen und arbeiten?",
+    "options": [
+      "Meisterjahr",
+      "Probezeit",
+      "Walz",
+      "Lehrgeld"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Wanderjahre – auch Walz genannt – sind die Zeit der Wanderschaft von Gesellen nach dem Abschluss ihrer Lehre. Früher war sie oft Pflicht, bevor man Meister werden durfte.",
+    "difficulty": 1,
+    "tags": [
+      "Business",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wanderjahre",
+    "source_url": "https://de.wikipedia.org/wiki/Wanderjahre",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the German name for the time when craft journeymen travel from place to place after their apprenticeship, working as they go?",
+        "options": [
+          "Master's year",
+          "Probation period",
+          "Walz",
+          "Apprentice fee"
+        ],
+        "explanation": "The journeyman years – known in German as the 'Walz' – are the time when journeymen travel after finishing their apprenticeship. It used to be compulsory before you were allowed to become a master craftsman."
+      }
+    }
+  },
+  {
+    "id": "b116",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Das japanische Bauunternehmen Kongō Gumi wurde im Jahr 578 gegründet. Wofür holte man die Familie Kongō damals nach Japan?",
+    "options": [
+      "Um eine Brücke zu bauen",
+      "Um eine Burg zu bauen",
+      "Um Schiffe zu bauen",
+      "Um einen buddhistischen Tempel zu bauen"
+    ],
+    "correct_index": 3,
+    "explanation": "Kongō Gumi entstand im Jahr 578: Die Familie Kongō kam aus Korea nach Japan, um den buddhistischen Tempel Shitennō-ji in Ōsaka zu bauen. Erst 2006 wurde das Unternehmen wegen Schulden aufgelöst und von einem anderen Baukonzern übernommen.",
+    "difficulty": 3,
+    "tags": [
+      "Business",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kongō Gumi",
+    "source_url": "https://de.wikipedia.org/wiki/Kongō Gumi",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Japanese construction company Kongō Gumi was founded in 578. What was the Kongō family brought to Japan to do?",
+        "options": [
+          "Build a bridge",
+          "Build a castle",
+          "Build ships",
+          "Build a Buddhist temple"
+        ],
+        "explanation": "Kongō Gumi began in 578: the Kongō family came from Korea to Japan to build the Buddhist temple Shitennō-ji in Osaka. Only in 2006 was the company dissolved because of debts and taken over by another construction group."
+      }
+    }
+  },
+  {
+    "id": "b117",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Womit stellte der Versandhandel seine Waren vor, lange bevor es das Internet gab?",
+    "options": [
+      "Mit einem gedruckten Katalog",
+      "Mit Brieftauben",
+      "Mit Rauchzeichen",
+      "Mit Schaufenstern in jedem Dorf"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Versandhandel bot seine Waren früher per Produktkatalog an. Der amerikanische Händler Aaron Montgomery Ward stellte 1872 in Chicago den ersten Versandkatalog für sein Geschäft vor.",
+    "difficulty": 1,
+    "tags": [
+      "Business",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Versandhandel",
+    "source_url": "https://de.wikipedia.org/wiki/Versandhandel",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did mail-order businesses show their goods long before the internet?",
+        "options": [
+          "With a printed catalogue",
+          "With carrier pigeons",
+          "With smoke signals",
+          "With shop windows in every village"
+        ],
+        "explanation": "Mail-order firms used to offer their goods through product catalogues. The American merchant Aaron Montgomery Ward presented the first mail-order catalogue for his business in Chicago in 1872."
+      }
+    }
+  },
+  {
+    "id": "b118",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was meint man mit der „Corporate Identity“ eines Unternehmens?",
+    "options": [
+      "Seine Steuernummer",
+      "Alle Merkmale, die es kennzeichnen und von anderen unterscheiden",
+      "Den Ausweis des Chefs",
+      "Die Adresse der Firma"
+    ],
+    "correct_index": 1,
+    "explanation": "Corporate Identity, kurz CI, ist die Gesamtheit der Merkmale, die ein Unternehmen kennzeichnet und von anderen unterscheidet. Dazu gehört ein einheitliches Erscheinungsbild – etwa gleiche Farben, Schriften und Logos.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Marketing"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Corporate Identity",
+    "source_url": "https://de.wikipedia.org/wiki/Corporate Identity",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is meant by a company's 'corporate identity'?",
+        "options": [
+          "Its tax number",
+          "All the features that mark it out and set it apart from others",
+          "The boss's ID card",
+          "The company's address"
+        ],
+        "explanation": "Corporate identity, CI for short, is the sum of the features that characterise a company and set it apart from others. It includes a consistent look – such as the same colours, fonts and logos."
+      }
+    }
+  },
+  {
+    "id": "b119",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Ab wie vielen ständigen Beschäftigten dürfen Arbeitnehmer in Deutschland einen Betriebsrat wählen?",
+    "options": [
+      "Hundert",
+      "Zwanzig",
+      "Fünf",
+      "Tausend"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Betriebsrat vertritt die Interessen der Beschäftigten. Nach dem Betriebsverfassungsgesetz dürfen die Arbeitnehmer eines Betriebs mit mindestens fünf ständigen, wahlberechtigten Beschäftigten einen Betriebsrat wählen.",
+    "difficulty": 2,
+    "tags": [
+      "Business",
+      "Arbeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Betriebsrat",
+    "source_url": "https://de.wikipedia.org/wiki/Betriebsrat",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From how many permanent employees may workers in Germany elect a works council?",
+        "options": [
+          "One hundred",
+          "Twenty",
+          "Five",
+          "One thousand"
+        ],
+        "explanation": "A works council represents the interests of the staff. Under Germany's Works Constitution Act, the employees of a business with at least five permanent employees who are entitled to vote may elect a works council."
+      }
+    }
+  },
+  {
+    "id": "b120",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was war eine Zunft im Mittelalter?",
+    "options": [
+      "Ein Zusammenschluss von Handwerkern",
+      "Ein Turnier für Ritter",
+      "Ein Markt für Tiere",
+      "Ein Gericht für Diebe"
+    ],
+    "correct_index": 0,
+    "explanation": "Zünfte waren Zusammenschlüsse von Handwerkern, die gemeinsam ihre Interessen wahrten. Sie schrieben ihren Mitgliedern zum Beispiel Produktionsmethoden vor, um die Qualität zu sichern.",
+    "difficulty": 1,
+    "tags": [
+      "Business",
+      "Handwerk",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zunft",
+    "source_url": "https://de.wikipedia.org/wiki/Zunft",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a guild in the Middle Ages?",
+        "options": [
+          "An association of craftsmen",
+          "A tournament for knights",
+          "A market for animals",
+          "A court for thieves"
+        ],
+        "explanation": "Guilds were associations of craftsmen who looked after their shared interests. For example, they prescribed production methods for their members to make sure of quality."
+      }
+    }
+  },
+  {
+    "id": "ns38",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Worin unterscheiden sich Isotope desselben Elements?",
+    "options": [
+      "In der Zahl ihrer Protonen",
+      "In der Zahl ihrer Neutronen",
+      "In ihrer Farbe",
+      "In der Zahl ihrer Elektronenschalen"
+    ],
+    "correct_index": 1,
+    "explanation": "Isotope eines Elements haben im Atomkern gleich viele Protonen, aber unterschiedlich viele Neutronen. Der Name bedeutet „gleicher Ort“: Alle Isotope eines Elements stehen am selben Platz im Periodensystem.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Chemie",
+      "Atome"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Isotop",
+    "source_url": "https://de.wikipedia.org/wiki/Isotop",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do isotopes of the same element differ?",
+        "options": [
+          "In the number of their protons",
+          "In the number of their neutrons",
+          "In their colour",
+          "In the number of their electron shells"
+        ],
+        "explanation": "Isotopes of an element have the same number of protons in the nucleus, but different numbers of neutrons. The name means 'same place': all isotopes of an element sit in the same spot in the periodic table."
+      }
+    }
+  },
+  {
+    "id": "ns39",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was macht ein Katalysator in der Chemie?",
+    "options": [
+      "Er färbt Stoffe ein",
+      "Er stoppt jede Reaktion",
+      "Er beschleunigt eine Reaktion, ohne dabei verbraucht zu werden",
+      "Er macht Stoffe radioaktiv"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Katalysator erhöht die Geschwindigkeit einer chemischen Reaktion, indem er die nötige Startenergie senkt – und wird dabei selbst nicht verbraucht.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Katalysator",
+    "source_url": "https://de.wikipedia.org/wiki/Katalysator",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a catalyst do in chemistry?",
+        "options": [
+          "It dyes substances",
+          "It stops every reaction",
+          "It speeds up a reaction without being used up",
+          "It makes substances radioactive"
+        ],
+        "explanation": "A catalyst increases the speed of a chemical reaction by lowering the energy needed to get it started – and is not used up itself."
+      }
+    }
+  },
+  {
+    "id": "ns40",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wer wies 1880 den Piezoeffekt nach – dass manche Kristalle unter Druck elektrische Spannung erzeugen?",
+    "options": [
+      "Die Brüder Jacques und Pierre Curie",
+      "Thomas Edison",
+      "Isaac Newton",
+      "Die Brüder Wright"
+    ],
+    "correct_index": 0,
+    "explanation": "Den direkten Piezoeffekt bewiesen 1880 die Brüder Jacques und Pierre Curie. Es geht auch umgekehrt: Legt man eine elektrische Spannung an, verformen sich solche Materialien.",
+    "difficulty": 3,
+    "tags": [
+      "Wissenschaft",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Piezoelektrizität",
+    "source_url": "https://de.wikipedia.org/wiki/Piezoelektrizität",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who demonstrated the piezoelectric effect in 1880 – that some crystals produce an electric voltage under pressure?",
+        "options": [
+          "The brothers Jacques and Pierre Curie",
+          "Thomas Edison",
+          "Isaac Newton",
+          "The Wright brothers"
+        ],
+        "explanation": "The brothers Jacques and Pierre Curie proved the direct piezoelectric effect in 1880. It also works the other way round: apply a voltage and such materials change shape."
+      }
+    }
+  },
+  {
+    "id": "ns41",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum wird manche Stempeltinte erst unter Schwarzlicht sichtbar?",
+    "options": [
+      "Sie wird durch Wärme dunkel",
+      "Sie fluoresziert – sie gibt nach der Anregung selbst Licht ab",
+      "Sie ist magnetisch",
+      "Sie reagiert mit Sauerstoff"
+    ],
+    "correct_index": 1,
+    "explanation": "Fluoreszenz ist das spontane Aussenden von Licht kurz nachdem ein Stoff durch Licht angeregt wurde. Fluoreszierende Tinte ist bei normalem Licht unsichtbar und leuchtet nur unter Schwarzlicht.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fluoreszenz",
+    "source_url": "https://de.wikipedia.org/wiki/Fluoreszenz",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does some stamp ink only become visible under black light?",
+        "options": [
+          "Heat makes it dark",
+          "It fluoresces – it gives off light itself after being excited",
+          "It is magnetic",
+          "It reacts with oxygen"
+        ],
+        "explanation": "Fluorescence is the spontaneous emission of light shortly after a substance has been excited by light. Fluorescent ink is invisible in normal light and only glows under black light."
+      }
+    }
+  },
+  {
+    "id": "ns42",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was bewies Léon Foucault 1851 mit einem 67 Meter langen Pendel im Pariser Panthéon?",
+    "options": [
+      "Wie schnell Licht ist",
+      "Dass die Erde eine Kugel ist",
+      "Dass sich die Erde dreht",
+      "Dass Luft etwas wiegt"
+    ],
+    "correct_index": 2,
+    "explanation": "Mit einem Foucaultschen Pendel lässt sich die Erdrotation nachweisen, ohne in den Himmel zu schauen: Die Schwingungsebene dreht sich langsam. Im März 1851 führte Foucault den Versuch im Panthéon mit einem 67 Meter langen Pendel öffentlich vor.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik",
+      "Erde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Foucaultsches Pendel",
+    "source_url": "https://de.wikipedia.org/wiki/Foucaultsches Pendel",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Léon Foucault prove in 1851 with a 67-metre pendulum in the Panthéon in Paris?",
+        "options": [
+          "How fast light is",
+          "That the Earth is a sphere",
+          "That the Earth rotates",
+          "That air has weight"
+        ],
+        "explanation": "A Foucault pendulum shows the Earth's rotation without looking at the sky: its plane of swing slowly turns. In March 1851 Foucault demonstrated the experiment publicly in the Panthéon with a 67-metre pendulum."
+      }
+    }
+  },
+  {
+    "id": "ns43",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches chemische Element entdeckte Henry Cavendish?",
+    "options": [
+      "Helium",
+      "Sauerstoff",
+      "Gold",
+      "Wasserstoff"
+    ],
+    "correct_index": 3,
+    "explanation": "Henry Cavendish ist vor allem für zwei Leistungen bekannt: die Entdeckung des Elements Wasserstoff und die erste Messung der mittleren Dichte der Erde.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Chemie",
+      "Entdeckungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Henry Cavendish",
+    "source_url": "https://de.wikipedia.org/wiki/Henry Cavendish",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which chemical element did Henry Cavendish discover?",
+        "options": [
+          "Helium",
+          "Oxygen",
+          "Gold",
+          "Hydrogen"
+        ],
+        "explanation": "Henry Cavendish is known above all for two achievements: discovering the element hydrogen and the first measurement of the Earth's average density."
+      }
+    }
+  },
+  {
+    "id": "ns44",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was entdeckte Hans Christian Ørsted 1820?",
+    "options": [
+      "Dass elektrischer Strom eine magnetische Wirkung hat",
+      "Die Radioaktivität",
+      "Das Penicillin",
+      "Die Röntgenstrahlen"
+    ],
+    "correct_index": 0,
+    "explanation": "Der dänische Physiker Hans Christian Ørsted entdeckte 1820 die magnetische Wirkung des elektrischen Stroms: Ein Strom lenkt eine Magnetnadel ab. Er gilt als Mitbegründer der Elektrotechnik.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Physik",
+      "Elektrizität"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hans Christian Ørsted",
+    "source_url": "https://de.wikipedia.org/wiki/Hans Christian Ørsted",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Hans Christian Ørsted discover in 1820?",
+        "options": [
+          "That electric current has a magnetic effect",
+          "Radioactivity",
+          "Penicillin",
+          "X-rays"
+        ],
+        "explanation": "In 1820 the Danish physicist Hans Christian Ørsted discovered the magnetic effect of electric current: a current deflects a magnetic needle. He is regarded as a co-founder of electrical engineering."
+      }
+    }
+  },
+  {
+    "id": "ns45",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Womit schützte der Landarzt Edward Jenner 1796 Menschen vor den gefährlichen Pocken?",
+    "options": [
+      "Mit einem Kräutertee",
+      "Mit einer Impfung mit Kuhpocken",
+      "Mit kaltem Wasser",
+      "Mit Sonnenlicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Edward Jenner, ein englischer Landarzt, entwickelte 1796 die Kuhpockenimpfung als moderne Schutzimpfung gegen Pocken. Auf ihr bauen spätere Impfungen auf.",
+    "difficulty": 2,
+    "tags": [
+      "Wissenschaft",
+      "Medizin",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Edward Jenner",
+    "source_url": "https://de.wikipedia.org/wiki/Edward Jenner",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the country doctor Edward Jenner protect people from dangerous smallpox in 1796?",
+        "options": [
+          "With herbal tea",
+          "With a cowpox vaccination",
+          "With cold water",
+          "With sunlight"
+        ],
+        "explanation": "Edward Jenner, an English country doctor, developed cowpox vaccination in 1796 as a modern protective vaccination against smallpox. Later vaccinations build on it."
+      }
+    }
+  },
+  {
+    "id": "h65",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was gilt als das wichtigste und nachhaltigste „Exportgut“ der Phönizier?",
+    "options": [
+      "Die Alphabetschrift",
+      "Das Schießpulver",
+      "Das Papiergeld",
+      "Der Kompass"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Phönizier waren ein Handelsvolk am östlichen Mittelmeer. Sie handelten mit Holz, Purpur und Elfenbein – doch ihr nachhaltigstes Exportgut war die Alphabetschrift.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Antike",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Phönizier",
+    "source_url": "https://de.wikipedia.org/wiki/Phönizier",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is regarded as the Phoenicians' most important and lasting 'export'?",
+        "options": [
+          "The alphabet",
+          "Gunpowder",
+          "Paper money",
+          "The compass"
+        ],
+        "explanation": "The Phoenicians were a trading people on the eastern Mediterranean. They traded in wood, purple dye and ivory – but their most lasting export was alphabetic writing."
+      }
+    }
+  },
+  {
+    "id": "h66",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer entdeckte die berühmten steinzeitlichen Malereien in der Höhle von Altamira in Spanien?",
+    "options": [
+      "Ein Bergmann auf der Suche nach Gold",
+      "Ein fünfjähriges Mädchen namens Maria",
+      "Ein Schäfer mit seinem Hund",
+      "Ein Bischof"
+    ],
+    "correct_index": 1,
+    "explanation": "Marcelino Sanz de Sautuola grub ab 1879 in der Höhle. Die Malereien entdeckte aber seine fünfjährige Tochter Maria: Sie konnte in der Höhle aufrecht gehen und sah an der Decke Bilder von „Rindern“.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Steinzeit",
+      "Kunst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Höhle von Altamira",
+    "source_url": "https://de.wikipedia.org/wiki/Höhle von Altamira",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who discovered the famous Stone Age paintings in the Altamira cave in Spain?",
+        "options": [
+          "A miner looking for gold",
+          "A five-year-old girl called Maria",
+          "A shepherd with his dog",
+          "A bishop"
+        ],
+        "explanation": "Marcelino Sanz de Sautuola dug in the cave from 1879. But it was his five-year-old daughter Maria who found the paintings: she could walk upright in the cave and spotted pictures of 'cattle' on the ceiling."
+      }
+    }
+  },
+  {
+    "id": "h67",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woher haben „Hünengräber“ ihren Namen?",
+    "options": [
+      "Ein Forscher namens Hüne fand sie",
+      "Sie wurden für Hühner gebaut",
+      "Man hielt sie früher für Gräber von Riesen",
+      "Sie liegen alle auf Hügeln namens Hün"
+    ],
+    "correct_index": 2,
+    "explanation": "Hünengräber – auch Großstein- oder Megalithgräber – sind Grabanlagen aus riesigen Steinen. Lange glaubte man, nur Riesen („Hünen“) hätten solche Steine bewegen können, und hielt sie für „Gräber für Riesen“.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Steinzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großsteingrab",
+    "source_url": "https://de.wikipedia.org/wiki/Großsteingrab",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do 'Hünengräber' (megalithic tombs) get their German name?",
+        "options": [
+          "A researcher called Hüne found them",
+          "They were built for chickens",
+          "People once thought they were the graves of giants",
+          "They all lie on hills called Hün"
+        ],
+        "explanation": "Megalithic tombs are graves built from huge stones. For a long time people believed only giants ('Hünen' in German) could have moved such stones, and thought they were 'graves for giants'."
+      }
+    }
+  },
+  {
+    "id": "h68",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was ist ein Faustkeil?",
+    "options": [
+      "Ein Spiel der Römer",
+      "Ein Werkzeug der Schmiede im Mittelalter",
+      "Eine Waffe der Ritter",
+      "Eines der ältesten Steinwerkzeuge der Menschen"
+    ],
+    "correct_index": 3,
+    "explanation": "Faustkeile sind – nach noch einfacheren Geröllgeräten – die ältesten bekannten Werkzeuge der Gattung Homo. Sie tauchen vor etwa 1,75 Millionen Jahren in Afrika auf.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Steinzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Faustkeil",
+    "source_url": "https://de.wikipedia.org/wiki/Faustkeil",
+    "created_at": "2026-10-30T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a hand axe?",
+        "options": [
+          "A Roman game",
+          "A blacksmith's tool in the Middle Ages",
+          "A knight's weapon",
+          "One of humanity's oldest stone tools"
+        ],
+        "explanation": "After even simpler pebble tools, hand axes are the oldest known tools of the genus Homo. They appear in Africa around 1.75 million years ago."
+      }
+    }
+  },
+  {
+    "id": "h69",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war eine Karawanserei?",
+    "options": [
+      "Eine ummauerte Herberge an Handelsstraßen",
+      "Ein Wüstenschiff",
+      "Ein Tempel für Kamele",
+      "Ein Gefängnis für Händler"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Karawanserei – persisch „Karawanenhof“ – war eine ummauerte Herberge an Karawanenstraßen. Um einen großen Innenhof standen Gebäude, in denen Reisende und ihre Tiere Schutz fanden.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karawanserei",
+    "source_url": "https://de.wikipedia.org/wiki/Karawanserei",
+    "created_at": "2026-10-29T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a caravanserai?",
+        "options": [
+          "A walled inn along trade routes",
+          "A desert ship",
+          "A temple for camels",
+          "A prison for merchants"
+        ],
+        "explanation": "A caravanserai – Persian for 'caravan court' – was a walled inn on caravan routes. Buildings stood around a large courtyard where travellers and their animals found shelter."
+      }
+    }
+  },
+  {
+    "id": "h70",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was geschah im Skriptorium eines mittelalterlichen Klosters?",
+    "options": [
+      "Kranke wurden gepflegt",
+      "Mönche brauten Bier",
+      "Bücher wurden von Hand abgeschrieben",
+      "Glocken wurden gegossen"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Skriptorium war eine Schreibstube, meist in einem Kloster. Dort wurden Texte von Hand vervielfältigt – Buchdruck gab es noch nicht. Dabei konnten sich durch Lese- oder Schreibfehler auch Abweichungen einschleichen.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte",
+      "Mittelalter",
+      "Bücher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Skriptorium",
+    "source_url": "https://de.wikipedia.org/wiki/Skriptorium",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happened in the scriptorium of a medieval monastery?",
+        "options": [
+          "The sick were cared for",
+          "Monks brewed beer",
+          "Books were copied by hand",
+          "Bells were cast"
+        ],
+        "explanation": "A scriptorium was a writing room, usually in a monastery. Texts were copied there by hand – printing did not yet exist. Reading or writing mistakes could creep in along the way."
+      }
+    }
+  },
+  {
+    "id": "h71",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was geschah 1937 mit dem Luftschiff „Hindenburg“ bei der Landung in Lakehurst (USA)?",
+    "options": [
+      "Es wurde an ein Museum verkauft",
+      "Es landete auf dem Dach eines Hochhauses",
+      "Es flog weiter bis Japan",
+      "Es geriet in Brand"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Luftschiff LZ 129 „Hindenburg“ geriet im Mai 1937 bei der Landung in Lakehurst in Brand; 36 Menschen kamen ums Leben. Das Unglück machte das Luftschiff weltberühmt.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Luftfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: LZ 129 Hindenburg",
+    "source_url": "https://de.wikipedia.org/wiki/LZ 129 Hindenburg",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happened to the airship 'Hindenburg' when landing at Lakehurst (USA) in 1937?",
+        "options": [
+          "It was sold to a museum",
+          "It landed on the roof of a skyscraper",
+          "It flew on to Japan",
+          "It caught fire"
+        ],
+        "explanation": "The airship LZ 129 'Hindenburg' caught fire while landing at Lakehurst in May 1937; 36 people died. The disaster made the airship world-famous."
+      }
+    }
+  },
+  {
+    "id": "h72",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wo lebten die Etrusker, ein Volk der Antike?",
+    "options": [
+      "In Mittelitalien, etwa in der heutigen Toskana",
+      "In Nordafrika",
+      "Auf der Iberischen Halbinsel",
+      "Am Schwarzen Meer"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Etrusker waren ein antikes Volk in Etrurien. Sie lebten im nördlichen Mittelitalien, im Raum der heutigen Regionen Toskana, Umbrien und Latium.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Etrusker",
+    "source_url": "https://de.wikipedia.org/wiki/Etrusker",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the Etruscans, an ancient people, live?",
+        "options": [
+          "In central Italy, roughly today's Tuscany",
+          "In North Africa",
+          "On the Iberian Peninsula",
+          "On the Black Sea"
+        ],
+        "explanation": "The Etruscans were an ancient people in Etruria. They lived in northern central Italy, in the area of today's regions of Tuscany, Umbria and Lazio."
+      }
+    }
+  },
+  {
+    "id": "ws96",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist ein Magnetar?",
+    "options": [
+      "Ein Neutronenstern mit einem extrem starken Magnetfeld",
+      "Ein Planet aus Eisen",
+      "Ein Komet mit zwei Schweifen",
+      "Ein Mond, der Kompasse stört"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Magnetar ist ein Neutronenstern, dessen Magnetfeld etwa tausendmal stärker ist als bei gewöhnlichen Neutronensternen. Entdeckt wurden sie 1979 durch starke Gammastrahlenausbrüche.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Magnetar",
+    "source_url": "https://de.wikipedia.org/wiki/Magnetar",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a magnetar?",
+        "options": [
+          "A neutron star with an extremely strong magnetic field",
+          "A planet made of iron",
+          "A comet with two tails",
+          "A moon that confuses compasses"
+        ],
+        "explanation": "A magnetar is a neutron star whose magnetic field is about a thousand times stronger than that of ordinary neutron stars. They were discovered in 1979 through powerful bursts of gamma rays."
+      }
+    }
+  },
+  {
+    "id": "ws97",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum leuchtet ein Brauner Zwerg nicht wie ein richtiger Stern?",
+    "options": [
+      "Er ist zu weit weg von der Sonne",
+      "Er hat zu wenig Masse, um Wasserstoff zu verschmelzen",
+      "Er ist aus Eis",
+      "Er dreht sich zu schnell"
+    ],
+    "correct_index": 1,
+    "explanation": "Braune Zwerge liegen zwischen Planeten und Sternen. Mit weniger als 75 Jupitermassen reicht ihre Masse nicht aus, um wie leichte Sterne in ihrem Inneren Wasserstoff zu verschmelzen.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brauner Zwerg",
+    "source_url": "https://de.wikipedia.org/wiki/Brauner Zwerg",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why doesn't a brown dwarf shine like a proper star?",
+        "options": [
+          "It is too far from the Sun",
+          "It has too little mass to fuse hydrogen",
+          "It is made of ice",
+          "It spins too fast"
+        ],
+        "explanation": "Brown dwarfs lie between planets and stars. With less than 75 Jupiter masses, they are not massive enough to fuse hydrogen in their cores like light stars do."
+      }
+    }
+  },
+  {
+    "id": "ws98",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was haben „Planetarische Nebel“ mit Planeten zu tun?",
+    "options": [
+      "Sie bestehen aus zerbrochenen Planeten",
+      "Aus ihnen entstehen gerade neue Planeten",
+      "Nichts – sie sahen im Fernrohr nur ähnlich aus wie der Planet Uranus",
+      "Sie umkreisen große Planeten"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name ist irreführend: Diese Nebel haben nichts mit Planeten zu tun. Weil sie im Fernrohr ähnlich aussahen wie der 1781 entdeckte Uranus, gab ihnen Wilhelm Herschel 1785 diesen Namen.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sterne",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Planetarischer Nebel",
+    "source_url": "https://de.wikipedia.org/wiki/Planetarischer Nebel",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do 'planetary nebulae' have to do with planets?",
+        "options": [
+          "They are made of broken planets",
+          "New planets are forming in them right now",
+          "Nothing – in a telescope they just looked like the planet Uranus",
+          "They orbit large planets"
+        ],
+        "explanation": "The name is misleading: these nebulae have nothing to do with planets. Because they looked similar in a telescope to Uranus, discovered in 1781, William Herschel gave them this name in 1785."
+      }
+    }
+  },
+  {
+    "id": "ws99",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie groß ist Charon, der größte Mond des Zwergplaneten Pluto, im Vergleich zu Pluto?",
+    "options": [
+      "So klein wie ein Felsbrocken",
+      "Etwa ein Zehntel so groß",
+      "Größer als Pluto",
+      "Etwas mehr als halb so groß im Durchmesser"
+    ],
+    "correct_index": 3,
+    "explanation": "Charon hat einen Durchmesser von 1212 Kilometern – etwas mehr als die Hälfte des Durchmessers von Pluto. Wie unser Mond zeigt er seinem Hauptkörper immer dieselbe Seite.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Monde",
+      "Pluto"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Charon (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Charon (Mond)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How big is Charon, the largest moon of the dwarf planet Pluto, compared with Pluto?",
+        "options": [
+          "As small as a boulder",
+          "About a tenth of its size",
+          "Bigger than Pluto",
+          "A little more than half its diameter"
+        ],
+        "explanation": "Charon is 1212 kilometres across – a little more than half of Pluto's diameter. Like our Moon, it always shows the same side to the body it orbits."
+      }
+    }
+  },
+  {
+    "id": "ws100",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist ungewöhnlich an der Bahn von Triton, dem größten Mond des Neptun?",
+    "options": [
+      "Er steht immer still",
+      "Er wechselt jedes Jahr den Planeten",
+      "Er umkreist Neptun entgegen dessen Drehrichtung",
+      "Er umkreist Neptun und Uranus zugleich"
+    ],
+    "correct_index": 2,
+    "explanation": "Triton läuft rückläufig um Neptun – also entgegen dessen Drehrichtung. Für einen so großen Mond so nah an seinem Planeten ist das im Sonnensystem einmalig.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Monde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Triton (Mond)",
+    "source_url": "https://de.wikipedia.org/wiki/Triton (Mond)",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is unusual about the orbit of Triton, Neptune's largest moon?",
+        "options": [
+          "It always stands still",
+          "It switches planets every year",
+          "It orbits Neptune against the planet's direction of rotation",
+          "It orbits Neptune and Uranus at the same time"
+        ],
+        "explanation": "Triton orbits Neptune in retrograde – that is, against the planet's direction of rotation. For such a large moon so close to its planet, this is unique in the Solar System."
+      }
+    }
+  },
+  {
+    "id": "ws101",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum kann man bei einer schmalen Mondsichel manchmal auch den dunklen Teil des Mondes schwach sehen?",
+    "options": [
+      "Vulkane auf dem Mond glühen",
+      "Der Mond leuchtet selbst ein bisschen",
+      "Sterne hinter dem Mond scheinen durch",
+      "Licht von der Erde beleuchtet ihn – der Erdschein"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Erde wirft Sonnenlicht zum Mond zurück. Dieses Erdlicht wird vom Mond noch einmal reflektiert, sodass man seine Nachtseite aschgrau schimmern sieht. Die richtige Erklärung wird oft Leonardo da Vinci zugeschrieben.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erdschein",
+    "source_url": "https://de.wikipedia.org/wiki/Erdschein",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can you sometimes faintly see the dark part of the Moon when it is a thin crescent?",
+        "options": [
+          "Volcanoes on the Moon are glowing",
+          "The Moon glows a little by itself",
+          "Stars behind the Moon shine through",
+          "Light from the Earth lights it up – earthshine"
+        ],
+        "explanation": "The Earth reflects sunlight towards the Moon. The Moon reflects this earthlight back again, so you can see its night side glowing ash-grey. The correct explanation is often credited to Leonardo da Vinci."
+      }
+    }
+  },
+  {
+    "id": "ws102",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was sind die „Trojaner“ in der Astronomie?",
+    "options": [
+      "Asteroiden, die auf Jupiters Bahn vor und hinter ihm herlaufen",
+      "Monde des Saturn",
+      "Satelliten, die Daten stehlen",
+      "Sternbilder am Südhimmel"
+    ],
+    "correct_index": 0,
+    "explanation": "Trojaner hießen ursprünglich zwei Gruppen von Asteroiden, die auf derselben Bahn wie Jupiter um die Sonne laufen – im Abstand von etwa 60° vor ihm und hinter ihm, an den sogenannten Lagrange-Punkten.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Asteroiden"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trojaner (Astronomie)",
+    "source_url": "https://de.wikipedia.org/wiki/Trojaner (Astronomie)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the 'Trojans' in astronomy?",
+        "options": [
+          "Asteroids that travel ahead of and behind Jupiter on its orbit",
+          "Moons of Saturn",
+          "Satellites that steal data",
+          "Constellations in the southern sky"
+        ],
+        "explanation": "Trojans originally meant two groups of asteroids that orbit the Sun on the same path as Jupiter – about 60° ahead of it and behind it, at the so-called Lagrange points."
+      }
+    }
+  },
+  {
+    "id": "ws103",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wohin schickte das Radioteleskop Arecibo 1974 eine Botschaft der Menschheit?",
+    "options": [
+      "Zum Mond",
+      "Zum Kugelsternhaufen M13, rund 25.000 Lichtjahre entfernt",
+      "Zum Mars",
+      "Zur Sonne"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Arecibo-Botschaft wurde im November 1974 vom damals größten Radioteleskop der Welt gesendet. Ihr Ziel ist der Kugelsternhaufen M13 im Sternbild Herkules, etwa 25.000 Lichtjahre von der Erde entfernt.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arecibo-Botschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Arecibo-Botschaft",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the Arecibo radio telescope send a message from humanity in 1974?",
+        "options": [
+          "To the Moon",
+          "To the globular cluster M13, about 25,000 light years away",
+          "To Mars",
+          "To the Sun"
+        ],
+        "explanation": "The Arecibo message was sent in November 1974 from what was then the world's largest radio telescope. Its target is the globular cluster M13 in the constellation Hercules, about 25,000 light years from Earth."
+      }
+    }
+  },
+  {
+    "id": "e88",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welche Übergangswährung wurde 1923 in Deutschland eingeführt, nachdem die Mark durch eine Hyperinflation fast wertlos geworden war?",
+    "options": [
+      "Der Taler",
+      "Die D-Mark",
+      "Die Rentenmark",
+      "Der Euro"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Inflation von 1914 bis 1923 ging in eine Hyperinflation über – es gab Banknoten über Milliarden und Billionen Mark. 1923 kam die Rentenmark als Übergangswährung; sie galt bis 1948.",
+    "difficulty": 3,
+    "tags": [
+      "Wirtschaft",
+      "Geld",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rentenmark",
+    "source_url": "https://de.wikipedia.org/wiki/Rentenmark",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which transitional currency was introduced in Germany in 1923, after hyperinflation had made the mark almost worthless?",
+        "options": [
+          "The thaler",
+          "The Deutsche Mark",
+          "The Rentenmark",
+          "The euro"
+        ],
+        "explanation": "The inflation of 1914 to 1923 turned into hyperinflation – there were banknotes worth billions and trillions of marks. In 1923 the Rentenmark arrived as a transitional currency; it remained valid until 1948."
+      }
+    }
+  },
+  {
+    "id": "e89",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Auf welches lateinische Wort geht „Salär“ – ein anderes Wort für Gehalt – zurück?",
+    "options": [
+      "saltus – Sprung",
+      "solidus – eine Goldmünze",
+      "salus – Gesundheit",
+      "salarium – eine Salzration"
+    ],
+    "correct_index": 3,
+    "explanation": "„Salär“ kommt über das französische „salaire“ vom lateinischen „salarium“, einer Salzration. Römische Legionäre erhielten einen Teil ihres Solds als Salzration.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Geld",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Salär",
+    "source_url": "https://de.wikipedia.org/wiki/Salär",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which Latin word does 'salary' go back to?",
+        "options": [
+          "saltus – jump",
+          "solidus – a gold coin",
+          "salus – health",
+          "salarium – a salt ration"
+        ],
+        "explanation": "'Salary' comes, via French 'salaire', from the Latin 'salarium', a salt ration. Roman legionaries received part of their pay as a salt ration."
+      }
+    }
+  },
+  {
+    "id": "e90",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Woraus bestand Wampum, das Völker im Osten Nordamerikas auch als Zahlungsmittel nutzten?",
+    "options": [
+      "Aus Goldnuggets",
+      "Aus Perlen von Meeresschnecken und Muscheln",
+      "Aus getrockneten Fischen",
+      "Aus Federn"
+    ],
+    "correct_index": 1,
+    "explanation": "Wampum ist das Wort der östlichen Algonkin-Sprachen für Perlen aus Meeresschnecken und Muscheln. Sie dienten unter anderem als Zahlungsmittel, etwa im Tausch gegen Felle.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wampum",
+    "source_url": "https://de.wikipedia.org/wiki/Wampum",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was wampum, used by peoples of eastern North America as a means of payment, made of?",
+        "options": [
+          "Gold nuggets",
+          "Beads made from sea snails and shells",
+          "Dried fish",
+          "Feathers"
+        ],
+        "explanation": "Wampum is the word in the eastern Algonquian languages for beads made from sea snails and shells. Among other things they served as a means of payment, for example in exchange for furs."
+      }
+    }
+  },
+  {
+    "id": "e91",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie groß kann das Steingeld (Rai) auf den Yap-Inseln im Pazifik sein?",
+    "options": [
+      "So groß wie ein Fußball, nie größer",
+      "Höchstens so groß wie eine Münze",
+      "Bis zu 4 Meter im Durchmesser",
+      "So groß wie ein Haus"
+    ],
+    "correct_index": 2,
+    "explanation": "Rai-Steine sind das Steingeld der Yap-Inseln in Mikronesien. Sie reichen von Handtellergröße bis zu 4 Meter Durchmesser und können über 5 Tonnen wiegen. Wem welcher Stein gehört, merkt man sich einfach.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Steingeld",
+    "source_url": "https://de.wikipedia.org/wiki/Steingeld",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How big can the stone money (rai) of the Yap Islands in the Pacific be?",
+        "options": [
+          "The size of a football, never bigger",
+          "At most the size of a coin",
+          "Up to 4 metres across",
+          "The size of a house"
+        ],
+        "explanation": "Rai stones are the stone money of the Yap Islands in Micronesia. They range from palm-sized to 4 metres across and can weigh over 5 tonnes. People simply remember who owns which stone."
+      }
+    }
+  },
+  {
+    "id": "e92",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wo begann die Geschichte des Versicherungsmarkts Lloyd’s of London?",
+    "options": [
+      "In einem Königspalast",
+      "In einer Kirche",
+      "Auf einem Schiff",
+      "In einem Kaffeehaus"
+    ],
+    "correct_index": 3,
+    "explanation": "Lloyd’s begann in einem Kaffeehaus, das Edward Lloyd in London führte. Dort trafen sich Kaufleute und Schiffseigner. Das Kaffeehaus bestand unter dem Namen Lloyd’s weiter, als Edward Lloyd 1713 starb.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Versicherung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lloyd’s of London",
+    "source_url": "https://de.wikipedia.org/wiki/Lloyd’s of London",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the story of the insurance market Lloyd's of London begin?",
+        "options": [
+          "In a royal palace",
+          "In a church",
+          "On a ship",
+          "In a coffee house"
+        ],
+        "explanation": "Lloyd's began in a coffee house run by Edward Lloyd in London. Merchants and shipowners met there. The coffee house carried on under the name Lloyd's when Edward Lloyd died in 1713."
+      }
+    }
+  },
+  {
+    "id": "e93",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was verrät der Buchstabe „A“ auf einer deutschen Euromünze?",
+    "options": [
+      "Dass sie in Berlin geprägt wurde",
+      "Dass sie aus dem Jahr 2000 stammt",
+      "Dass sie besonders wertvoll ist",
+      "Dass sie eine Fälschung ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Münzzeichen zeigen, wo eine Münze herkommt. In Deutschland steht A für die Staatliche Münze Berlin, D für München, F für Stuttgart, G für Karlsruhe und J für Hamburg.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Geld",
+      "Münzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Münzzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Münzzeichen",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the letter 'A' on a German euro coin tell you?",
+        "options": [
+          "That it was minted in Berlin",
+          "That it dates from 2000",
+          "That it is especially valuable",
+          "That it is a fake"
+        ],
+        "explanation": "Mint marks show where a coin comes from. In Germany, A stands for the state mint in Berlin, D for Munich, F for Stuttgart, G for Karlsruhe and J for Hamburg."
+      }
+    }
+  },
+  {
+    "id": "e94",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein Embargo?",
+    "options": [
+      "Ein besonders niedriger Zins",
+      "Ein staatliches Verbot, mit einem bestimmten Land Handel zu treiben",
+      "Eine neue Münze",
+      "Ein Sonderangebot im Supermarkt"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Embargo ist ein behördliches Verbot, Güter in einen bestimmten Staat auszuführen oder von dort einzuführen. Das Wort kommt aus dem Spanischen und bedeutet „Beschlagnahme“.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaft",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Embargo",
+    "source_url": "https://de.wikipedia.org/wiki/Embargo",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an embargo?",
+        "options": [
+          "A particularly low interest rate",
+          "A government ban on trading with a particular country",
+          "A new coin",
+          "A special offer in the supermarket"
+        ],
+        "explanation": "An embargo is an official ban on exporting goods to a particular state or importing them from it. The word comes from Spanish and means 'seizure'."
+      }
+    }
+  },
+  {
+    "id": "e95",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was bedeutet das altgriechische Wort, von dem „Hypothek“ abstammt?",
+    "options": [
+      "Hausbau",
+      "Schuldenberg",
+      "Unterpfand",
+      "Zinssatz"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Hypothek – altgriechisch „Unterpfand“ – sichert einen Kredit mit einem Grundstück ab. Wahrscheinlich ist sie eine Erfindung von Geldverleihern im antiken Athen.",
+    "difficulty": 3,
+    "tags": [
+      "Wirtschaft",
+      "Geld",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hypothek",
+    "source_url": "https://de.wikipedia.org/wiki/Hypothek",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Ancient Greek word that 'hypothec' (mortgage) comes from mean?",
+        "options": [
+          "House building",
+          "Mountain of debt",
+          "Pledge",
+          "Interest rate"
+        ],
+        "explanation": "A hypothec – Ancient Greek for 'pledge' – secures a loan with a piece of land. It was probably invented by moneylenders in ancient Athens."
+      }
+    }
+  }
+]
