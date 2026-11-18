@@ -880,3 +880,5 @@ Anlass: Die „Rätsel des Tages“ waren jeden Tag dieselben drei Arten (Sudoku
 - **Prüfung**: Jede Frage hat wörtliche Belege aus der deutschen Wikipedia, alle 40 von `verify-evidence.mjs` bestätigt (Zahlen in Frage und Erklärung stehen im Zitat). Vorher Abgleich mit allen Fragen und Fakten; zwei Kandidaten gab es schon (Brownsche Bewegung = `ns15`, Schallgeschwindigkeit = `s48`) und wurden ersetzt. „Alkohol“ (Wortherkunft) und „Liber abbaci“ erst ab 13.
 - **Stand**: 1.838 veröffentlichte Fragen. Am dünnsten sind jetzt Erde & Natur und Tiere (je 117 Karten im Feed) und Kunst (118).
 - **Datenbank**: neue Zeilen in `supabase/seed/rows/2026-11-18-sprache-sport-mathe-wissenschaft.json`, die Datenbank holt sie nach dem Deploy selbst ab.
+- **Tests**: Unit 179/179, e2e 102/102.
+- **Datenbank (18.11.2026, nach dem Deploy)**: Die Datenbank hat die Datei selbst abgeholt (HTTP 200, 40 Zeilen) und 40 Fragen samt Lösungen eingefügt. Prüfsummen über die 40 neuen Zeilen und über die Kategorie aller 1.838 veröffentlichten Fragen mit den lokalen Daten identisch. Anonym: 1.838 redaktionelle Fragen, keine unveröffentlichten.
