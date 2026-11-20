@@ -185,7 +185,8 @@
         "text": "Babies have more than 300 bones – adults only just over 200.",
         "detail": "Many of a baby's bones fuse over time. An adult usually has 206 bones."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-gehirn-energie",
@@ -206,8 +207,13 @@
     "translations": {
       "en": {
         "text": "The brain makes up about 2% of our body weight but uses around 20% of its energy.",
-        "detail": "At about 20 watts it is a very busy organ. In newborns it even takes about half of the basic energy use."
+        "detail": "At about 20 watts it is a very busy organ. In newborns it even takes about half of the basic energy use.",
+        "figureSuffix": "%"
       }
+    },
+    "figure": {
+      "value": 20,
+      "suffix": " %"
     }
   },
   {
@@ -307,7 +313,8 @@
         "text": "Venus takes longer to spin once than to go once round the Sun.",
         "detail": "One rotation takes about 243 Earth days, one orbit only about 225. It also spins the opposite way to most planets."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-mond-entfernt",
@@ -328,8 +335,14 @@
     "translations": {
       "en": {
         "text": "The Moon moves about 3.8 centimetres further away from Earth every year.",
-        "detail": "This is due to the tides: they slow Earth's rotation, and that momentum passes to the Moon. The distance is measured with laser beams."
+        "detail": "This is due to the tides: they slow Earth's rotation, and that momentum passes to the Moon. The distance is measured with laser beams.",
+        "figureSuffix": " cm per year"
       }
+    },
+    "figure": {
+      "value": 3.8,
+      "digits": 1,
+      "suffix": " cm pro Jahr"
     }
   },
   {
@@ -353,7 +366,8 @@
         "text": "Saturn has the lowest density of all planets – less than water.",
         "detail": "On average about 0.69 grams per cubic centimetre; water has 1. It consists mostly of hydrogen."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-iss",
@@ -374,8 +388,13 @@
     "translations": {
       "en": {
         "text": "The ISS crew sees about 15 sunrises a day.",
-        "detail": "The station circles Earth at about 400 kilometres up roughly every 93 minutes – and the sun rises once on every lap."
+        "detail": "The station circles Earth at about 400 kilometres up roughly every 93 minutes – and the sun rises once on every lap.",
+        "figureSuffix": " sunrises"
       }
+    },
+    "figure": {
+      "value": 15,
+      "suffix": " Sonnenaufgänge"
     }
   },
   {
@@ -5083,6 +5102,190 @@
       "en": {
         "text": "Flowers in Tutankhamun's tomb reveal the season in which he was buried.",
         "detail": "Howard Carter discovered his almost unplundered tomb in the Valley of the Kings in 1922. Because flowers were found as grave goods that bloom only in a particular season, the burial can be narrowed down to between mid-March and early May."
+      }
+    }
+  },
+  {
+    "id": "f-rugby-webb-ellis",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Dass Rugby entstand, weil ein Schüler den Ball einfach in die Hand nahm, ist wohl nur eine Legende.",
+    "detail": "Der Sage nach packte William Webb Ellis 1823 den Ball und trug ihn ins gegnerische Tor. Doch in den meisten Spielvarianten wurde der Ball schon vorher mit der Hand getragen. Trotzdem heißt der Pokal der Rugby-Weltmeisterschaft Webb Ellis Cup.",
+    "sources": [
+      {
+        "name": "Wikipedia: Rugby",
+        "url": "https://de.wikipedia.org/wiki/Rugby"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "The tale that rugby began when a schoolboy simply picked up the ball is probably just a legend.",
+        "detail": "The story says William Webb Ellis grabbed the ball in 1823 and carried it into the opponents' goal. But in most versions of the game the ball had already been carried by hand before. Even so, the Rugby World Cup trophy is called the Webb Ellis Cup."
+      }
+    }
+  },
+  {
+    "id": "f-fussball-rugby",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Viele Fußballklubs in Europa spielten ursprünglich gar nicht Fußball, sondern Rugby.",
+    "detail": "Im 19. Jahrhundert fingen die meisten Klubs auf dem europäischen Festland mit Rugby an. Der englische Verband legte 1863 einheitliche Regeln fest und gab dem Spiel den Namen „association football“.",
+    "sources": [
+      {
+        "name": "Wikipedia: Fußball",
+        "url": "https://de.wikipedia.org/wiki/Fußball"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Many football clubs in Europe did not originally play football at all, but rugby.",
+        "detail": "In the 19th century most clubs on the European mainland started out with rugby. In 1863 the English association set common rules and gave the game the name “association football”."
+      }
+    }
+  },
+  {
+    "id": "f-soccer-wort",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das englische Wort „soccer“ ist eine Abkürzung von „Association“.",
+    "detail": "Es entstand an englischen Universitäten als Kurzform von „Association“ und wurde slangmäßig umgeformt: 1889 socca, 1891 socker, 1895 soccer. Wer es erfunden hat, ist unsicher – die Zuschreibung an einen Oxford-Spielführer wird angezweifelt.",
+    "sources": [
+      {
+        "name": "Wikipedia: Fußball",
+        "url": "https://de.wikipedia.org/wiki/Fußball"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The English word “soccer” is a short form of “association”.",
+        "detail": "It arose at English universities as an abbreviation of “association” and was reshaped in slang: socca in 1889, socker in 1891, soccer in 1895. Who coined it is uncertain – the credit given to an Oxford team captain is doubted."
+      }
+    }
+  },
+  {
+    "id": "f-duden-1880",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "Der erste Duden erschien am 7. Juli 1880.",
+    "detail": "Konrad Duden veröffentlichte ihn als „Vollständiges Orthographisches Wörterbuch der deutschen Sprache“. In den folgenden Jahrzehnten wurde er zur Grundlage einer einheitlichen deutschen Rechtschreibung.",
+    "sources": [
+      {
+        "name": "Wikipedia: Duden",
+        "url": "https://de.wikipedia.org/wiki/Duden"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The first Duden was published on 7 July 1880.",
+        "detail": "Konrad Duden published it as the “Complete Orthographic Dictionary of the German Language”. In the following decades it became the basis of a uniform German spelling."
+      }
+    }
+  },
+  {
+    "id": "f-bleistift-blei",
+    "category_id": "language",
+    "area": "language",
+    "min_age": 10,
+    "text": "In einem Bleistift steckt gar kein Blei.",
+    "detail": "Früher schrieb man mit Griffeln, die eine Spitze aus echtem Blei hatten. Seit dem 19. Jahrhundert wird die Mine aus einer gebrannten Mischung von Graphit und Ton gemacht. Der Name blieb trotzdem.",
+    "sources": [
+      {
+        "name": "Wikipedia: Bleistift",
+        "url": "https://de.wikipedia.org/wiki/Bleistift"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "There is no lead in a “lead pencil”.",
+        "detail": "In the past people wrote with styluses tipped with real lead. Since the 19th century the core has been made from a fired mixture of graphite and clay. The name stayed anyway."
+      }
+    }
+  },
+  {
+    "id": "f-starbucks-moby",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Der Name Starbucks stammt aus einem Roman: aus „Moby Dick“.",
+    "detail": "Drei Studienfreunde eröffneten im April 1971 in Seattle ein Geschäft für Kaffee, Tee und Gewürze. Den Namen wählten sie nach dem Steuermann Starbuck in Herman Melvilles Roman.",
+    "sources": [
+      {
+        "name": "Wikipedia: Starbucks",
+        "url": "https://de.wikipedia.org/wiki/Starbucks"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The name Starbucks comes from a novel: “Moby Dick”.",
+        "detail": "Three college friends opened a shop for coffee, tea and spices in Seattle in April 1971. They took the name from the first mate Starbuck in Herman Melville's novel."
+      }
+    }
+  },
+  {
+    "id": "f-haribo-name",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Haribo ist ein Kunstwort aus den Anfangsbuchstaben von „Hans Riegel Bonn“.",
+    "detail": "Der Gründer Hans Riegel nahm die ersten zwei Buchstaben von Vor- und Nachname sowie die ersten zwei des Standorts Bonn. Zwei Jahre nach der Gründung erfand er den Vorläufer der Goldbären, den „Tanzbär“.",
+    "sources": [
+      {
+        "name": "Wikipedia: Haribo",
+        "url": "https://de.wikipedia.org/wiki/Haribo"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Haribo is an acronym of the first letters of “Hans Riegel Bonn”.",
+        "detail": "Founder Hans Riegel took the first two letters of his first and last name and the first two of the location, Bonn. Two years after founding the company he invented the forerunner of the gold bears, the “dancing bear”."
+      }
+    }
+  },
+  {
+    "id": "f-oper-dafne",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Das Werk, das als erste Oper überhaupt gilt, ist fast verschwunden: Von „La Dafne“ sind nur Bruchstücke erhalten.",
+    "detail": "Jacopo Peri komponierte das Werk nach einem Text von Ottavio Rinuccini; die Uraufführung war 1598. Die Oper im heutigen Sinn entstand Ende des 16. Jahrhunderts in Florenz.",
+    "sources": [
+      {
+        "name": "Wikipedia: Oper",
+        "url": "https://de.wikipedia.org/wiki/Oper"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-20T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The work regarded as the very first opera has almost vanished: only fragments of “La Dafne” survive.",
+        "detail": "Jacopo Peri composed the work to a text by Ottavio Rinuccini; it premiered in 1598. Opera as we know it arose in Florence at the end of the 16th century."
       }
     }
   }
