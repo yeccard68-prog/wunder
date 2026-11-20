@@ -1,0 +1,1589 @@
+[
+  {
+    "id": "eg63",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist eine Doline?",
+    "options": [
+      "Eine Sanddüne an der Küste",
+      "Ein Wasserfall im Hochgebirge",
+      "Eine trichterförmige Senke in Karstgebieten",
+      "Ein erloschener Vulkankrater"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Doline – auch Karsttrichter genannt – ist eine trichter- oder schüsselförmige Senke in Karstgebieten. Sie entsteht, wenn Wasser das Gestein löst; manchmal bricht dabei eine Höhlendecke nach. Das Wort kommt vom slawischen dolina, „Tal“.",
+    "difficulty": 2,
+    "tags": [
+      "Geologie",
+      "Landschaften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Doline",
+    "source_url": "https://de.wikipedia.org/wiki/Doline",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a doline (sinkhole)?",
+        "options": [
+          "A sand dune on the coast",
+          "A waterfall in high mountains",
+          "A funnel-shaped hollow in karst areas",
+          "An extinct volcanic crater"
+        ],
+        "explanation": "A doline – also called a karst funnel – is a funnel- or bowl-shaped hollow in karst areas. It forms when water dissolves the rock; sometimes a cave roof collapses as well. The word comes from the Slavic dolina, 'valley'."
+      }
+    }
+  },
+  {
+    "id": "eg64",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Woraus besteht Treibsand?",
+    "options": [
+      "Aus besonders trockenem, feinem Sand",
+      "Aus feinem Vulkanstaub",
+      "Aus Sand und Salzkristallen",
+      "Aus Sand, der mit Wasser vermischt ist"
+    ],
+    "correct_index": 3,
+    "explanation": "Treibsand ist eine Suspension aus Sand in Wasser. Trockener Sand dagegen verdichtet und verfestigt sich unter Belastung.",
+    "difficulty": 2,
+    "tags": [
+      "Geologie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Treibsand",
+    "source_url": "https://de.wikipedia.org/wiki/Treibsand",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is quicksand made of?",
+        "options": [
+          "Especially dry, fine sand",
+          "Fine volcanic dust",
+          "Sand and salt crystals",
+          "Sand mixed with water"
+        ],
+        "explanation": "Quicksand is a suspension of sand in water. Dry sand, by contrast, becomes denser and firmer under load."
+      }
+    }
+  },
+  {
+    "id": "eg65",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was kann entstehen, wenn ein Blitz in Sand einschlägt?",
+    "options": [
+      "Ein Fulgurit – eine Blitzröhre",
+      "Ein Bernstein",
+      "Ein Salzkristall",
+      "Ein Meteorit"
+    ],
+    "correct_index": 0,
+    "explanation": "Fulgurite (von lateinisch fulgur, „Blitz“) entstehen durch Blitzeinschläge in Gestein oder Sand. In lockerem Sand bilden sich typischerweise röhrenförmige Gebilde – daher auch die Namen Blitzröhre oder Blitzverglasung.",
+    "difficulty": 2,
+    "tags": [
+      "Geologie",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fulgurit",
+    "source_url": "https://de.wikipedia.org/wiki/Fulgurit",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can form when lightning strikes sand?",
+        "options": [
+          "A fulgurite – a lightning tube",
+          "Amber",
+          "A salt crystal",
+          "A meteorite"
+        ],
+        "explanation": "Fulgurites (from the Latin fulgur, 'lightning') form when lightning strikes rock or sand. In loose sand they are typically tube-shaped – hence the names lightning tube or lightning glass."
+      }
+    }
+  },
+  {
+    "id": "eg66",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Worauf stehen die Häuser auf den Halligen im Wattenmeer?",
+    "options": [
+      "Auf Stelzen aus Stahl",
+      "Auf aufgeschütteten Hügeln, den Warften",
+      "Auf schwimmenden Pontons",
+      "Hinter hohen Deichen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Halligen hatten bis in die jüngere Vergangenheit keine Deiche. Stattdessen stehen die Häuser einzeln oder in kleinen Gruppen auf Warften – aufgeschütteten Hügeln, die bei Sturmflut aus dem Wasser ragen.",
+    "difficulty": 2,
+    "tags": [
+      "Meer",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hallig",
+    "source_url": "https://de.wikipedia.org/wiki/Hallig",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the houses on the Halligen islands in the Wadden Sea stand on?",
+        "options": [
+          "Steel stilts",
+          "Artificial mounds called Warften",
+          "Floating pontoons",
+          "Behind high dykes"
+        ],
+        "explanation": "Until recently the Halligen had no dykes. Instead the houses stand alone or in small groups on Warften – artificial mounds that stay above the water during storm floods."
+      }
+    }
+  },
+  {
+    "id": "eg67",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist ein Priel?",
+    "options": [
+      "Eine Muschelbank",
+      "Ein Leuchtturm an der Küste",
+      "Ein natürlicher Wasserlauf im Watt",
+      "Eine kleine Sandinsel"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Priel ist ein natürlicher, oft gewundener Wasserlauf im Watt oder in der Marsch. Den flachen Oberlauf, der zeitweise trockenfällt, nennt man Wattrinne.",
+    "difficulty": 1,
+    "tags": [
+      "Meer",
+      "Landschaften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Priel",
+    "source_url": "https://de.wikipedia.org/wiki/Priel",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a 'Priel' (tidal creek)?",
+        "options": [
+          "A mussel bed",
+          "A lighthouse on the coast",
+          "A natural watercourse in the mudflats",
+          "A small sand island"
+        ],
+        "explanation": "A Priel is a natural, often winding watercourse in the mudflats or marshland. Its shallow upper part, which sometimes dries out, is called a Wattrinne."
+      }
+    }
+  },
+  {
+    "id": "eg68",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wo treten Staubteufel – kleine Luftwirbel, die Staub hochwirbeln – am häufigsten auf?",
+    "options": [
+      "Über dem offenen Meer im Winter",
+      "Über Gletschern in der Nacht",
+      "Im Regenwald bei Gewitter",
+      "In Wüsten bei starker Sonneneinstrahlung"
+    ],
+    "correct_index": 3,
+    "explanation": "Staubteufel (Kleintromben) sind kleinräumige Luftwirbel mit senkrechter Achse. Sie entstehen vor allem in Wüstengebieten, wo starke Sonneneinstrahlung den Boden aufheizt. Anders als Tornados haben sie keinen direkten Zusammenhang mit Gewitterwolken.",
+    "difficulty": 2,
+    "tags": [
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleintrombe",
+    "source_url": "https://de.wikipedia.org/wiki/Kleintrombe",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do dust devils – small whirlwinds that lift dust – occur most often?",
+        "options": [
+          "Over the open sea in winter",
+          "Over glaciers at night",
+          "In the rainforest during thunderstorms",
+          "In deserts with strong sunshine"
+        ],
+        "explanation": "Dust devils are small-scale whirlwinds with a vertical axis. They form mainly in desert areas, where strong sunshine heats the ground. Unlike tornadoes, they are not directly linked to thunderclouds."
+      }
+    }
+  },
+  {
+    "id": "eg69",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist eine Seiche?",
+    "options": [
+      "Eine stehende Welle, bei der das Wasser in einem See hin- und herschwappt",
+      "Ein unterirdischer See",
+      "Ein plötzlicher Gletscherabbruch",
+      "Eine besonders salzige Bucht"
+    ],
+    "correct_index": 0,
+    "explanation": "Als Seiches bezeichnet man stehende Wellen des Wassers in Seen, Buchten oder Hafenbecken – das Wasser schwingt wie in einer Badewanne hin und her. Am Bodensee wurden solche Wellensysteme ausführlich erforscht.",
+    "difficulty": 3,
+    "tags": [
+      "Wasser",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seiche",
+    "source_url": "https://de.wikipedia.org/wiki/Seiche",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a seiche?",
+        "options": [
+          "A standing wave in which the water sloshes back and forth in a lake",
+          "An underground lake",
+          "A sudden glacier collapse",
+          "An especially salty bay"
+        ],
+        "explanation": "Seiches are standing waves of water in lakes, bays or harbours – the water swings back and forth like in a bathtub. Such wave systems have been studied in detail on Lake Constance."
+      }
+    }
+  },
+  {
+    "id": "eg70",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was für ein Wind ist der Mistral in Südfrankreich?",
+    "options": [
+      "Ein feuchter Westwind vom Atlantik",
+      "Ein heißer Wüstenwind aus Afrika",
+      "Ein kalter, trockener Fallwind durch das Rhonetal",
+      "Ein warmer Wind aus den Pyrenäen"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Mistral ist ein kalter, trockener und oft starker Fallwind im unteren Rhônetal. Im Rhonetal weht er aus Nord und zieht über Frankreich bis in den Mittelmeerraum.",
+    "difficulty": 2,
+    "tags": [
+      "Wetter",
+      "Europa"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mistral (Wind)",
+    "source_url": "https://de.wikipedia.org/wiki/Mistral (Wind)",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What kind of wind is the mistral in southern France?",
+        "options": [
+          "A damp westerly from the Atlantic",
+          "A hot desert wind from Africa",
+          "A cold, dry downslope wind through the Rhône valley",
+          "A warm wind from the Pyrenees"
+        ],
+        "explanation": "The mistral is a cold, dry and often strong downslope wind in the lower Rhône valley. In the Rhône valley it blows from the north and carries on across France into the Mediterranean."
+      }
+    }
+  },
+  {
+    "id": "ti112",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Tapire sehen ein bisschen aus wie Schweine. Wer sind aber ihre nächsten lebenden Verwandten?",
+    "options": [
+      "Die Flusspferde",
+      "Die Elefanten",
+      "Die Nashörner",
+      "Die Wildschweine"
+    ],
+    "correct_index": 2,
+    "explanation": "Tapire sind entfernt schweineähnliche Tiere mit einem kurzen Rüssel. Sie gehören zu den Unpaarhufern – ihre nächsten lebenden Verwandten sind die Nashörner.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tapire",
+    "source_url": "https://de.wikipedia.org/wiki/Tapire",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Tapirs look a bit like pigs. But who are their closest living relatives?",
+        "options": [
+          "Hippos",
+          "Elephants",
+          "Rhinoceroses",
+          "Wild boars"
+        ],
+        "explanation": "Tapirs are vaguely pig-like animals with a short trunk. They belong to the odd-toed ungulates – their closest living relatives are the rhinoceroses."
+      }
+    }
+  },
+  {
+    "id": "ti113",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wozu nutzt das Fingertier (Aye-Aye) auf Madagaskar seinen verlängerten dritten Finger?",
+    "options": [
+      "Es hält sich damit an Lianen fest",
+      "Es gräbt damit Erdlöcher",
+      "Es kämmt damit sein Fell",
+      "Es klopft damit Holz ab, um Beute in Hohlräumen zu finden"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Fingertier ist ein nachtaktiver Lemur aus Madagaskar. Mit dem verlängerten dritten Finger klopft es rhythmisch Holz ab – dank seines ausgezeichneten Gehörs findet es so Beutetiere in Hohlräumen.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Afrika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fingertier",
+    "source_url": "https://de.wikipedia.org/wiki/Fingertier",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the aye-aye of Madagascar use its long third finger for?",
+        "options": [
+          "Holding on to vines",
+          "Digging holes in the ground",
+          "Combing its fur",
+          "Tapping wood to find prey in hollows"
+        ],
+        "explanation": "The aye-aye is a nocturnal lemur from Madagascar. It taps wood rhythmically with its long third finger – thanks to its excellent hearing it finds prey in the hollows this way."
+      }
+    }
+  },
+  {
+    "id": "ti114",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was bedeutet der Name „Beluga“ für den Weißwal?",
+    "options": [
+      "„Weiß“ – vom russischen Wort bely",
+      "„Sänger“",
+      "„Großer Fisch“",
+      "„Eisbewohner“"
+    ],
+    "correct_index": 0,
+    "explanation": "Beluga kommt vom russischen belucha, abgeleitet von bely – „weiß“. Der Weißwal lebt in arktischen und subarktischen Gewässern; seine vorgewölbte Stirn enthält ein Organ namens Melone.",
+    "difficulty": 2,
+    "tags": [
+      "Meer",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weißwal",
+    "source_url": "https://de.wikipedia.org/wiki/Weißwal",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the name 'beluga' mean for the white whale?",
+        "options": [
+          "'White' – from the Russian word bely",
+          "'Singer'",
+          "'Big fish'",
+          "'Ice dweller'"
+        ],
+        "explanation": "Beluga comes from the Russian belukha, derived from bely – 'white'. The white whale lives in Arctic and subarctic waters; its bulging forehead contains an organ called the melon."
+      }
+    }
+  },
+  {
+    "id": "ti115",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Nach welchen Tieren ist das starke Nervengift Tetrodotoxin benannt?",
+    "options": [
+      "Nach Giftschlangen",
+      "Nach den Kugelfischen",
+      "Nach Pfeilgiftfröschen",
+      "Nach Skorpionen"
+    ],
+    "correct_index": 1,
+    "explanation": "Tetrodotoxin verdankt seinen Namen der Familie der Kugelfische (Tetraodontidae) und wurde 1950 erstmals aus einem Kugelfisch isoliert. Trotzdem gilt zubereiteter Kugelfisch – Fugu – in Japan, Korea und China als Delikatesse.",
+    "difficulty": 3,
+    "tags": [
+      "Meer",
+      "Fische"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kugelfisch",
+    "source_url": "https://de.wikipedia.org/wiki/Kugelfisch",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animals is the powerful nerve poison tetrodotoxin named after?",
+        "options": [
+          "Venomous snakes",
+          "Pufferfish",
+          "Poison dart frogs",
+          "Scorpions"
+        ],
+        "explanation": "Tetrodotoxin owes its name to the pufferfish family (Tetraodontidae) and was first isolated from a pufferfish in 1950. Even so, prepared pufferfish – fugu – is considered a delicacy in Japan, Korea and China."
+      }
+    }
+  },
+  {
+    "id": "ti116",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist ein Ameisenlöwe?",
+    "options": [
+      "Eine große Ameise mit Mähne",
+      "Eine kleine Raubkatze in Afrika",
+      "Die Larve eines Insekts, die im Sand Fangtrichter gräbt",
+      "Eine Spinne, die nur Ameisen frisst"
+    ],
+    "correct_index": 2,
+    "explanation": "Ameisenlöwen sind die Larven einiger Ameisenjungfern, Insekten aus der Ordnung der Netzflügler. Sie fangen ihre Beute mit selbst gegrabenen Trichtern im lockeren Sand.",
+    "difficulty": 2,
+    "tags": [
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ameisenlöwe",
+    "source_url": "https://de.wikipedia.org/wiki/Ameisenlöwe",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an antlion?",
+        "options": [
+          "A large ant with a mane",
+          "A small wild cat in Africa",
+          "The larva of an insect that digs trap funnels in sand",
+          "A spider that only eats ants"
+        ],
+        "explanation": "Antlions are the larvae of certain lacewing-like insects. They catch their prey with self-dug funnels in loose sand."
+      }
+    }
+  },
+  {
+    "id": "ti117",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wozu dienen die Vorderbeine der Gottesanbeterin?",
+    "options": [
+      "Zum Zirpen",
+      "Zum Graben",
+      "Zum Schwimmen",
+      "Sie sind Fangbeine zum Packen von Beute"
+    ],
+    "correct_index": 3,
+    "explanation": "Die beiden hinteren Beinpaare der Gottesanbeterin dienen zum Laufen, die Vorderbeine sind zu Fangbeinen umgebildet. Die Europäische Gottesanbeterin wurde zum Insekt des Jahres 2017 erklärt.",
+    "difficulty": 1,
+    "tags": [
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäische Gottesanbeterin",
+    "source_url": "https://de.wikipedia.org/wiki/Europäische Gottesanbeterin",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the front legs of the praying mantis for?",
+        "options": [
+          "Chirping",
+          "Digging",
+          "Swimming",
+          "They are grasping legs for seizing prey"
+        ],
+        "explanation": "The two rear pairs of legs of the praying mantis are for walking; the front legs have become grasping legs. The European mantis was named Insect of the Year 2017 in Germany."
+      }
+    }
+  },
+  {
+    "id": "ti118",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woran orientieren sich manche Mistkäfer nachts auf ihrem Weg?",
+    "options": [
+      "Am Sternenlicht",
+      "Am Duft von Blumen",
+      "An Geräuschen anderer Käfer",
+      "An der Wärme des Bodens"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei Mistkäfern wurde nachgewiesen, dass sie sich unter anderem nach dem Sternenlicht orientieren. Dafür merken sie sich eine Art Schnappschuss des Nachthimmels mit seinen Lichtquellen.",
+    "difficulty": 2,
+    "tags": [
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mistkäfer",
+    "source_url": "https://de.wikipedia.org/wiki/Mistkäfer",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do some dung beetles use to find their way at night?",
+        "options": [
+          "Starlight",
+          "The scent of flowers",
+          "The sounds of other beetles",
+          "The warmth of the ground"
+        ],
+        "explanation": "Dung beetles have been shown to orient themselves by starlight, among other things. To do this they memorise a kind of snapshot of the night sky and its light sources."
+      }
+    }
+  },
+  {
+    "id": "ti119",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum klopfen Spechte mit dem Schnabel gegen Baumstämme?",
+    "options": [
+      "Um ihren Schnabel zu schärfen",
+      "Um Futter zu finden, Höhlen zu bauen und ihr Revier zu markieren",
+      "Um Regen vorherzusagen",
+      "Um Baumharz zu trinken"
+    ],
+    "correct_index": 1,
+    "explanation": "Spechte klopfen mit viel Kraft und Ausdauer gegen Baumstämme: um Futter zu finden, Nisthöhlen zu „zimmern“, ihr Revier zu markieren oder Partner anzulocken. Ihr Schädel ist so gebaut, dass er die Erschütterungen dämpft.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spechte",
+    "source_url": "https://de.wikipedia.org/wiki/Spechte",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do woodpeckers hammer on tree trunks with their beaks?",
+        "options": [
+          "To sharpen their beak",
+          "To find food, build nest holes and mark their territory",
+          "To forecast rain",
+          "To drink tree resin"
+        ],
+        "explanation": "Woodpeckers hammer on tree trunks with great force and stamina: to find food, carve out nest holes, mark their territory or attract a mate. Their skull is built to absorb the shocks."
+      }
+    }
+  },
+  {
+    "id": "b121",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was gründete Friedrich Wilhelm Raiffeisen 1864 mit dem „Heddesdorfer Darlehenskassenverein“?",
+    "options": [
+      "Eine Versicherung für Schiffe",
+      "Eine frühe Genossenschaftsbank",
+      "Eine Börse",
+      "Eine staatliche Sparkasse"
+    ],
+    "correct_index": 1,
+    "explanation": "Aus einem Wohltätigkeitsverein wurde 1864 der „Heddesdorfer Darlehenskassenverein“ – er gilt als erste Genossenschaftsbank nach heutigem Verständnis. Raiffeisen gehört zu den Gründern der genossenschaftlichen Bewegung in Deutschland.",
+    "difficulty": 2,
+    "tags": [
+      "Banken",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Friedrich Wilhelm Raiffeisen",
+    "source_url": "https://de.wikipedia.org/wiki/Friedrich Wilhelm Raiffeisen",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Friedrich Wilhelm Raiffeisen found in 1864 with the 'Heddesdorf Loan Fund Association'?",
+        "options": [
+          "An insurance company for ships",
+          "An early cooperative bank",
+          "A stock exchange",
+          "A state savings bank"
+        ],
+        "explanation": "In 1864 a charity became the 'Heddesdorfer Darlehenskassenverein' – it counts as the first cooperative bank in today's sense. Raiffeisen is one of the founders of the cooperative movement in Germany."
+      }
+    }
+  },
+  {
+    "id": "b122",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welches Pariser Geschäft, 1852 gegründet, wurde zum Vorbild der großen Warenhäuser?",
+    "options": [
+      "Café de Flore",
+      "Les Halles",
+      "Le Bon Marché",
+      "Moulin Rouge"
+    ],
+    "correct_index": 2,
+    "explanation": "Le Bon Marché, 1852 von Aristide Boucicaut gegründet, lieferte das Vorbild für die Warenhäuser. Ein Warenhaus hat mehr Verkaufsfläche und ein breiteres Sortiment als ein Kaufhaus – samt Lebensmittelabteilung.",
+    "difficulty": 3,
+    "tags": [
+      "Handel",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Warenhaus",
+    "source_url": "https://de.wikipedia.org/wiki/Warenhaus",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which Paris shop, founded in 1852, became the model for the big department stores?",
+        "options": [
+          "Café de Flore",
+          "Les Halles",
+          "Le Bon Marché",
+          "Moulin Rouge"
+        ],
+        "explanation": "Le Bon Marché, founded in 1852 by Aristide Boucicaut, provided the model for department stores. A Warenhaus has more sales space and a wider range than a Kaufhaus – including a food hall."
+      }
+    }
+  },
+  {
+    "id": "b123",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was machte man früher mit Rabattmarken vom Einkaufen?",
+    "options": [
+      "Man kam damit ins Kino",
+      "Man klebte sie auf Briefe",
+      "Man bezahlte damit Steuern",
+      "Man sammelte sie in einem Heft und tauschte sie gegen Geld oder Ware"
+    ],
+    "correct_index": 3,
+    "explanation": "Rabattmarken sind meist selbstklebende, briefmarkenähnliche Papiermarken. Man sammelte sie bis zu einem bestimmten Betrag in einem Heft und tauschte sie dann gegen Bargeld ein oder verrechnete sie beim nächsten Einkauf.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rabattmarke",
+    "source_url": "https://de.wikipedia.org/wiki/Rabattmarke",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did people use to do with trading stamps from shopping?",
+        "options": [
+          "Use them to get into the cinema",
+          "Stick them on letters",
+          "Pay taxes with them",
+          "Collect them in a booklet and swap them for cash or goods"
+        ],
+        "explanation": "Trading stamps are usually self-adhesive paper stamps that look like postage stamps. People collected them in a booklet up to a certain amount and then exchanged them for cash or offset them against their next purchase."
+      }
+    }
+  },
+  {
+    "id": "b124",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein „Tante-Emma-Laden“?",
+    "options": [
+      "Ein kleiner Laden um die Ecke mit Lebensmitteln und persönlicher Bedienung",
+      "Ein Geschäft für Damenmode",
+      "Eine große Discounter-Kette",
+      "Ein Laden nur für Großeltern"
+    ],
+    "correct_index": 0,
+    "explanation": "Tante-Emma-Laden ist ein umgangssprachlicher Name für ein kleines Einzelhandelsgeschäft mit Lebensmitteln und anderen Artikeln. Heute steht der nostalgische Begriff für eine persönliche Beziehung zwischen Händler und Kunden – im Gegensatz zu anonymen Supermärkten.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tante-Emma-Laden",
+    "source_url": "https://de.wikipedia.org/wiki/Tante-Emma-Laden",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a 'Tante-Emma-Laden' ('Aunt Emma shop')?",
+        "options": [
+          "A small corner shop with groceries and personal service",
+          "A shop for women's fashion",
+          "A large discount chain",
+          "A shop only for grandparents"
+        ],
+        "explanation": "Tante-Emma-Laden is a colloquial name for a small shop selling groceries and other goods. Today the nostalgic term stands for a personal relationship between shopkeeper and customers – in contrast to anonymous supermarkets."
+      }
+    }
+  },
+  {
+    "id": "b125",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was war ein „Kontor“ der Hanse, etwa in Brügge, Bergen oder London?",
+    "options": [
+      "Ein Leuchtturm",
+      "Eine Niederlassung hansischer Kaufleute im Ausland",
+      "Eine Münzprägestätte",
+      "Ein Zollschiff"
+    ],
+    "correct_index": 1,
+    "explanation": "Kontor kommt vom französischen comptoir, „Zahltisch“. Die Hanse besaß vier Kontore: in Brügge, Bergen, Nowgorod und London. Heute ist Kontor ein veraltetes Wort für Büro.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kontor",
+    "source_url": "https://de.wikipedia.org/wiki/Kontor",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a Hanseatic 'Kontor', for example in Bruges, Bergen or London?",
+        "options": [
+          "A lighthouse",
+          "A branch of Hanseatic merchants abroad",
+          "A mint",
+          "A customs ship"
+        ],
+        "explanation": "Kontor comes from the French comptoir, 'counting table'. The Hanseatic League had four Kontore: in Bruges, Bergen, Novgorod and London. Today Kontor is an old-fashioned word for office."
+      }
+    }
+  },
+  {
+    "id": "b126",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Seit wann dürfen Geschäfte in Deutschland Schlussverkäufe ganz nach Belieben veranstalten?",
+    "options": [
+      "Seit 1990",
+      "Seit 1950",
+      "Seit Juli 2004",
+      "Seit 2020"
+    ],
+    "correct_index": 2,
+    "explanation": "1950 regelte eine Verordnung die Sommer- und Winterschlussverkäufe. Seit Juli 2004 dürfen Saisonschlussverkäufe nach Belieben stattfinden – und nicht nur mit Saisonware.",
+    "difficulty": 3,
+    "tags": [
+      "Handel",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schlussverkauf",
+    "source_url": "https://de.wikipedia.org/wiki/Schlussverkauf",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since when have shops in Germany been allowed to hold clearance sales whenever they like?",
+        "options": [
+          "Since 1990",
+          "Since 1950",
+          "Since July 2004",
+          "Since 2020"
+        ],
+        "explanation": "In 1950 a regulation set the summer and winter sales. Since July 2004 seasonal sales can be held whenever shops like – and not only for seasonal goods."
+      }
+    }
+  },
+  {
+    "id": "b127",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist eine Handels- oder Eigenmarke?",
+    "options": [
+      "Eine Marke ganz ohne Logo",
+      "Eine Marke, die nur im Ausland verkauft wird",
+      "Ein staatliches Gütesiegel",
+      "Eine Marke, die einem Handelsunternehmen gehört"
+    ],
+    "correct_index": 3,
+    "explanation": "Handelsmarken (englisch private label) gehören einem Handelsunternehmen. Der Händler kann sie bei verschiedenen Herstellern einkaufen, die miteinander im Wettbewerb stehen – und mit dem günstigsten einen Vertrag schließen.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Marketing"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Handelsmarke",
+    "source_url": "https://de.wikipedia.org/wiki/Handelsmarke",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a retailer's own brand (private label)?",
+        "options": [
+          "A brand with no logo at all",
+          "A brand only sold abroad",
+          "A government quality seal",
+          "A brand owned by a retail company"
+        ],
+        "explanation": "Private labels belong to a retail company. The retailer can buy them from different manufacturers that compete with each other – and sign a contract with the cheapest one."
+      }
+    }
+  },
+  {
+    "id": "b128",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bestätigt eine Quittung?",
+    "options": [
+      "Dass jemand eine Leistung, etwa eine Zahlung, erhalten hat",
+      "Dass eine Ware Garantie hat",
+      "Dass jemand Schulden hat",
+      "Dass ein Vertrag gekündigt ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Quittung ist eine Empfangsbestätigung für den Erhalt einer Leistung. Das Wort geht auf „quitt“ zurück – wer bezahlt hat, ist quitt.",
+    "difficulty": 1,
+    "tags": [
+      "Geld",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quittung",
+    "source_url": "https://de.wikipedia.org/wiki/Quittung",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a receipt confirm?",
+        "options": [
+          "That someone has received something, such as a payment",
+          "That a product has a guarantee",
+          "That someone owes money",
+          "That a contract has been cancelled"
+        ],
+        "explanation": "A receipt confirms that something – a payment, for example – has been received. The German word Quittung goes back to 'quitt' (even, square) – once you've paid, you're square."
+      }
+    }
+  },
+  {
+    "id": "ns46",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist die Leidener Flasche aus den Jahren 1745/1746?",
+    "options": [
+      "Ein Behälter für Laborsäuren",
+      "Eine frühe Glühlampe",
+      "Ein früher elektrischer Kondensator",
+      "Ein früher Feuerlöscher"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Leidener Flasche ist eine frühe Bauform eines elektrischen Kondensators. Ewald Georg von Kleist erfand sie 1745, Pieter van Musschenbroek 1746 in Leiden – beide bekamen bei ihren Versuchen elektrische Schläge.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Elektrizität"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leidener Flasche",
+    "source_url": "https://de.wikipedia.org/wiki/Leidener Flasche",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Leyden jar from 1745/1746?",
+        "options": [
+          "A container for laboratory acids",
+          "An early light bulb",
+          "An early electrical capacitor",
+          "An early fire extinguisher"
+        ],
+        "explanation": "The Leyden jar is an early type of electrical capacitor. Ewald Georg von Kleist invented it in 1745, Pieter van Musschenbroek in 1746 in Leiden – both got electric shocks during their experiments."
+      }
+    }
+  },
+  {
+    "id": "ns47",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum kann es kein Perpetuum mobile geben – eine Maschine, die ohne Energiezufuhr ewig läuft?",
+    "options": [
+      "Weil es noch niemand richtig versucht hat",
+      "Weil sich die Erde dreht",
+      "Weil Metall zu schwer ist",
+      "Es gibt immer Verluste, etwa durch Reibung"
+    ],
+    "correct_index": 3,
+    "explanation": "Perpetuum mobile heißt „sich ständig Bewegendes“. Eine solche Maschine würde dem Energieerhaltungssatz widersprechen – und schon ein geschlossener Kreislauf ist wegen unvermeidlicher Verluste, etwa durch Reibung oder Wärmeabgabe, nicht möglich.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Energie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Perpetuum mobile",
+    "source_url": "https://de.wikipedia.org/wiki/Perpetuum mobile",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can there be no perpetual motion machine – a machine that runs forever without an energy supply?",
+        "options": [
+          "Because nobody has tried properly yet",
+          "Because the Earth rotates",
+          "Because metal is too heavy",
+          "There are always losses, for example through friction"
+        ],
+        "explanation": "Perpetuum mobile means 'something that moves constantly'. Such a machine would break the law of conservation of energy – and even a closed cycle is impossible because of unavoidable losses, for example through friction or heat."
+      }
+    }
+  },
+  {
+    "id": "ns48",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum sieht man nachts den Lichtkegel eines Scheinwerfers im Nebel?",
+    "options": [
+      "Winzige Schwebeteilchen streuen das Licht",
+      "Der Nebel leuchtet selbst",
+      "Das Licht wird im Nebel heißer",
+      "Scheinwerfer sind bei Nebel heller"
+    ],
+    "correct_index": 0,
+    "explanation": "Das ist der Tyndall-Effekt: Licht wird an winzigen Schwebeteilchen gestreut. So sieht man im Dunst Strahlenbüschel der Sonne oder nachts die Lichtkegel von Scheinwerfern in Nebel oder Wolken.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tyndall-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Tyndall-Effekt",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can you see the beam of a headlight in fog at night?",
+        "options": [
+          "Tiny floating particles scatter the light",
+          "The fog glows by itself",
+          "The light gets hotter in fog",
+          "Headlights are brighter in fog"
+        ],
+        "explanation": "This is the Tyndall effect: light is scattered by tiny floating particles. That is why you see sunbeams in haze, or headlight beams in fog or clouds at night."
+      }
+    }
+  },
+  {
+    "id": "ns49",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was beschreibt der Mpemba-Effekt?",
+    "options": [
+      "Wasser kocht in den Bergen früher",
+      "Heißes Wasser kann unter Umständen schneller gefrieren als kaltes",
+      "Eis schwimmt auf Wasser",
+      "Salzwasser gefriert später als Süßwasser"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Mpemba-Effekt ist eine paradoxe Beobachtung: Eine heiße Flüssigkeit kann unter sonst ähnlichen Bedingungen schneller gefrieren als dieselbe kühlere Flüssigkeit. Eine Erklärung: Das wärmere Wasser verliert mehr Menge durch Verdunstung.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mpemba-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Mpemba-Effekt",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Mpemba effect describe?",
+        "options": [
+          "Water boils sooner in the mountains",
+          "Hot water can sometimes freeze faster than cold water",
+          "Ice floats on water",
+          "Salt water freezes later than fresh water"
+        ],
+        "explanation": "The Mpemba effect is a paradoxical observation: under otherwise similar conditions, a hot liquid can freeze faster than the same liquid when cooler. One explanation: the warmer water loses more of its amount through evaporation."
+      }
+    }
+  },
+  {
+    "id": "ns50",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist das Besondere an einem Brei aus Speisestärke und Wasser?",
+    "options": [
+      "Er ist leichter als Luft",
+      "Er leitet Strom",
+      "Er gefriert nie",
+      "Wie zäh er ist, hängt davon ab, wie stark man ihn belastet"
+    ],
+    "correct_index": 3,
+    "explanation": "Stärkesuspensionen sind ein bekanntes Beispiel für nichtnewtonsche Flüssigkeiten. Bei Wasser oder Luft hängt die Viskosität (Zähigkeit) nicht von der Belastung ab – hier schon. Auch Blut, Treibsand und Ketchup gehören dazu.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Experimente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nichtnewtonsches Fluid",
+    "source_url": "https://de.wikipedia.org/wiki/Nichtnewtonsches Fluid",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about a paste of cornflour and water?",
+        "options": [
+          "It is lighter than air",
+          "It conducts electricity",
+          "It never freezes",
+          "How thick it is depends on how hard you push on it"
+        ],
+        "explanation": "Starch suspensions are a well-known example of non-Newtonian fluids. For water or air the viscosity (thickness) does not depend on the load – here it does. Blood, quicksand and ketchup belong to this group too."
+      }
+    }
+  },
+  {
+    "id": "ns51",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wofür ist Aerogel bekannt?",
+    "options": [
+      "Es gehört zu den leichtesten Feststoffen und dämmt sehr gut",
+      "Es ist das härteste Metall",
+      "Es leuchtet im Dunkeln",
+      "Es ist bei Raumtemperatur flüssig"
+    ],
+    "correct_index": 0,
+    "explanation": "Aerogele halten Rekorde als „bester Isolator“ und „leichtester Feststoff“. Deshalb dienen sie unter anderem als Wärmedämm- oder Filtermaterial.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Materialien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aerogel",
+    "source_url": "https://de.wikipedia.org/wiki/Aerogel",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is aerogel known for?",
+        "options": [
+          "It is one of the lightest solids and insulates very well",
+          "It is the hardest metal",
+          "It glows in the dark",
+          "It is liquid at room temperature"
+        ],
+        "explanation": "Aerogels hold records as 'best insulator' and 'lightest solid'. That is why they are used, among other things, as thermal insulation or filter material."
+      }
+    }
+  },
+  {
+    "id": "ns52",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was passiert mit dem Flügelrad in einer Lichtmühle, wenn Licht darauf fällt?",
+    "options": [
+      "Es leuchtet auf",
+      "Es beginnt sich zu drehen",
+      "Es schmilzt",
+      "Es wird magnetisch"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Lichtmühle ist eine Glaskugel mit einem Flügelrad aus einseitig geschwärzten Plättchen. Bei Lichteinfall beginnt das Rad sich zu drehen. Erfunden hat sie William Crookes 1873.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lichtmühle",
+    "source_url": "https://de.wikipedia.org/wiki/Lichtmühle",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens to the vane wheel in a light mill (radiometer) when light falls on it?",
+        "options": [
+          "It lights up",
+          "It starts to spin",
+          "It melts",
+          "It becomes magnetic"
+        ],
+        "explanation": "A light mill is a glass bulb containing a vane wheel with plates blackened on one side. When light falls on it, the wheel starts to turn. William Crookes invented it in 1873."
+      }
+    }
+  },
+  {
+    "id": "ns53",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was muss ein Flugzeug überschreiten, damit hinter ihm der „Machsche Kegel“ entsteht, den man als Überschallknall hört?",
+    "options": [
+      "Die Fluchtgeschwindigkeit",
+      "Die Lichtgeschwindigkeit",
+      "Die Schallgeschwindigkeit",
+      "Die Wolkengrenze"
+    ],
+    "correct_index": 2,
+    "explanation": "Ist die Schallgeschwindigkeit überschritten, breitet sich von Nase und Tragflächen der sogenannte Machsche Kegel kegelförmig nach hinten aus. Am Boden hört man ihn als lauten Überschallknall.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Schall"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Überschallknall",
+    "source_url": "https://de.wikipedia.org/wiki/Überschallknall",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What must an aircraft exceed for the 'Mach cone' to form behind it, which you hear as a sonic boom?",
+        "options": [
+          "Escape velocity",
+          "The speed of light",
+          "The speed of sound",
+          "The cloud ceiling"
+        ],
+        "explanation": "Once the speed of sound is exceeded, the so-called Mach cone spreads backwards from the nose and wings. On the ground you hear it as a loud sonic boom."
+      }
+    }
+  },
+  {
+    "id": "ws104",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Warum vergleicht man die Signale eines Pulsars mit einem Leuchtturm?",
+    "options": [
+      "Er leuchtet nur in der Nacht",
+      "Er blinkt, um Raumschiffe zu warnen",
+      "Der Neutronenstern dreht sich, und sein Strahl streift die Erde regelmäßig",
+      "Er steht immer an derselben Stelle"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Pulsar ist ein schnell rotierender, stark magnetisierter Neutronenstern, der Strahlung in Kegeln aussendet. Liegt die Erde in diesem Kegel, sieht man regelmäßig wiederkehrende Signale – wie das Licht eines Leuchtturms. Der erste wurde im November 1967 entdeckt.",
+    "difficulty": 2,
+    "tags": [
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pulsar",
+    "source_url": "https://de.wikipedia.org/wiki/Pulsar",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why are a pulsar's signals compared to a lighthouse?",
+        "options": [
+          "It only shines at night",
+          "It flashes to warn spaceships",
+          "The neutron star rotates and its beam sweeps past Earth regularly",
+          "It always stays in the same place"
+        ],
+        "explanation": "A pulsar is a rapidly rotating, strongly magnetised neutron star that sends out cones of radiation. If Earth lies in this cone, regular repeating signals are seen – like the light of a lighthouse. The first one was discovered in November 1967."
+      }
+    }
+  },
+  {
+    "id": "ws105",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist ein Quasar?",
+    "options": [
+      "Ein Gasnebel um einen jungen Stern",
+      "Ein Komet mit zwei Schweifen",
+      "Ein kleiner Mond des Jupiter",
+      "Der extrem helle, aktive Kern einer fernen Galaxie"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Quasar ist der aktive Kern einer Galaxie, der fast punktförmig wie ein Stern erscheint. Der Name kommt vom englischen quasi-stellar radio source – „sternähnliche Radioquelle“. Die Strahlung stammt von Materie, die ein supermassereiches Schwarzes Loch umkreist.",
+    "difficulty": 3,
+    "tags": [
+      "Galaxien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quasar",
+    "source_url": "https://de.wikipedia.org/wiki/Quasar",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a quasar?",
+        "options": [
+          "A gas cloud around a young star",
+          "A comet with two tails",
+          "A small moon of Jupiter",
+          "The extremely bright, active core of a distant galaxy"
+        ],
+        "explanation": "A quasar is the active core of a galaxy that looks almost point-like, like a star. The name comes from 'quasi-stellar radio source'. The radiation comes from matter swirling around a supermassive black hole."
+      }
+    }
+  },
+  {
+    "id": "ws106",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welchen Zusammenhang entdeckte Edwin Hubble 1929?",
+    "options": [
+      "Je weiter eine Galaxie entfernt ist, desto stärker ist ihre Rotverschiebung",
+      "Dass Sterne im Winter heller sind",
+      "Dass der Saturn Ringe hat",
+      "Dass der Mond sich von der Erde entfernt"
+    ],
+    "correct_index": 0,
+    "explanation": "1929 entdeckte Edwin Hubble den Zusammenhang zwischen der Rotverschiebung und der Entfernung von Galaxien. Gemessen wird die Rotverschiebung an Spektrallinien im Sternenlicht, etwa von Wasserstoff.",
+    "difficulty": 3,
+    "tags": [
+      "Galaxien",
+      "Universum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rotverschiebung",
+    "source_url": "https://de.wikipedia.org/wiki/Rotverschiebung",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What relationship did Edwin Hubble discover in 1929?",
+        "options": [
+          "The farther away a galaxy is, the greater its redshift",
+          "That stars are brighter in winter",
+          "That Saturn has rings",
+          "That the Moon is moving away from Earth"
+        ],
+        "explanation": "In 1929 Edwin Hubble discovered the relationship between redshift and the distance of galaxies. Redshift is measured from spectral lines in starlight, for example those of hydrogen."
+      }
+    }
+  },
+  {
+    "id": "ws107",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was passiert bei einer Gravitationslinse im Weltall?",
+    "options": [
+      "Ein riesiges Teleskop sammelt Licht",
+      "Eine große Masse lenkt das Licht dahinterliegender Objekte ab",
+      "Ein Nebel wirkt wie eine Lupe aus Gas",
+      "Ein Eispanzer auf einem Mond spiegelt Licht"
+    ],
+    "correct_index": 1,
+    "explanation": "Als Gravitationslinseneffekt bezeichnet man die Ablenkung von Licht durch große Massen. Korrekt beschrieben hat ihn erstmals Albert Einstein 1915/16 mit seiner Allgemeinen Relativitätstheorie.",
+    "difficulty": 3,
+    "tags": [
+      "Universum",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gravitationslinse",
+    "source_url": "https://de.wikipedia.org/wiki/Gravitationslinse",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens with a gravitational lens in space?",
+        "options": [
+          "A huge telescope collects light",
+          "A large mass bends the light of objects behind it",
+          "A nebula acts like a magnifying glass made of gas",
+          "An ice shell on a moon reflects light"
+        ],
+        "explanation": "The gravitational lensing effect is the bending of light by large masses. Albert Einstein was the first to describe it correctly in 1915/16 with his general theory of relativity."
+      }
+    }
+  },
+  {
+    "id": "ws108",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Woran bemerkt man Dunkle Materie, obwohl man sie nicht sehen kann?",
+    "options": [
+      "An ihrem Schall",
+      "An ihrer Farbe",
+      "An ihrer Schwerkraft",
+      "An ihrer Hitze"
+    ],
+    "correct_index": 2,
+    "explanation": "Dunkle Materie ist eine angenommene Form von Materie, die nicht direkt sichtbar ist, aber über die Gravitation wirkt. Schon 1933 fand Fritz Zwicky beim Coma-Galaxienhaufen erste Hinweise darauf.",
+    "difficulty": 2,
+    "tags": [
+      "Universum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dunkle Materie",
+    "source_url": "https://de.wikipedia.org/wiki/Dunkle Materie",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How can dark matter be detected even though it cannot be seen?",
+        "options": [
+          "By its sound",
+          "By its colour",
+          "By its gravity",
+          "By its heat"
+        ],
+        "explanation": "Dark matter is a proposed form of matter that cannot be seen directly but acts through gravity. As early as 1933 Fritz Zwicky found first hints of it in the Coma galaxy cluster."
+      }
+    }
+  },
+  {
+    "id": "ws109",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie wurde die kosmische Hintergrundstrahlung 1964 entdeckt?",
+    "options": [
+      "Mit bloßem Auge",
+      "Bei einer Mondlandung",
+      "Mit einem Weltraumteleskop",
+      "Zufällig, beim Test einer neuen empfindlichen Antenne"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Entdeckung erfolgte 1964 zufällig beim Test einer neuen empfindlichen Antenne. Die Strahlung erfüllt das ganze Universum und entstand kurz nach dem Urknall; man nennt sie auch Drei-Kelvin-Strahlung.",
+    "difficulty": 2,
+    "tags": [
+      "Universum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kosmische Hintergrundstrahlung",
+    "source_url": "https://de.wikipedia.org/wiki/Kosmische Hintergrundstrahlung",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How was the cosmic microwave background discovered in 1964?",
+        "options": [
+          "With the naked eye",
+          "During a Moon landing",
+          "With a space telescope",
+          "By chance, while testing a new sensitive antenna"
+        ],
+        "explanation": "It was discovered by chance in 1964 while testing a new sensitive antenna. The radiation fills the whole universe and was created shortly after the Big Bang; it is also called the three-kelvin radiation."
+      }
+    }
+  },
+  {
+    "id": "ws110",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Der Mond zeigt uns fast immer dieselbe Seite. Wie viel seiner Oberfläche sieht man dank seines „Taumelns“ (Libration) im Lauf der Zeit von der Erde aus?",
+    "options": [
+      "Etwa 59 Prozent",
+      "Genau 50 Prozent",
+      "Etwa 75 Prozent",
+      "Die ganze Oberfläche"
+    ],
+    "correct_index": 0,
+    "explanation": "Durch die Libration – eine scheinbare Taumelbewegung des Mondes – sind von der Erde aus im Lauf der Zeit insgesamt 59 Prozent der Mondoberfläche zu sehen, also etwas mehr als die Hälfte.",
+    "difficulty": 3,
+    "tags": [
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Libration",
+    "source_url": "https://de.wikipedia.org/wiki/Libration",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Moon almost always shows us the same side. How much of its surface can be seen from Earth over time thanks to its 'wobble' (libration)?",
+        "options": [
+          "About 59 percent",
+          "Exactly 50 percent",
+          "About 75 percent",
+          "The whole surface"
+        ],
+        "explanation": "Thanks to libration – an apparent wobbling of the Moon – a total of 59 percent of the lunar surface can be seen from Earth over time, a little more than half."
+      }
+    }
+  },
+  {
+    "id": "ws111",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Die Erdachse zeigt heute fast genau auf den Polarstern. Welcher helle Stern wird wegen der Präzession in etwa 13.000 Jahren nahe dem Himmelsnordpol stehen?",
+    "options": [
+      "Beteigeuze",
+      "Sirius",
+      "Wega",
+      "Arktur"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Erdachse beschreibt wie ein Kreisel langsam einen Kreis – das nennt man Präzession. Ein Umlauf dauert etwa 25.700 bis 25.850 Jahre. In etwa 13.000 Jahren liegt der nördliche Himmelspol deshalb nahe der Wega, dem hellsten Stern im Sternbild Leier.",
+    "difficulty": 3,
+    "tags": [
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Präzession",
+    "source_url": "https://de.wikipedia.org/wiki/Präzession",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Today Earth's axis points almost exactly at the Pole Star. Which bright star will be near the north celestial pole in about 13,000 years because of precession?",
+        "options": [
+          "Betelgeuse",
+          "Sirius",
+          "Vega",
+          "Arcturus"
+        ],
+        "explanation": "Like a spinning top, Earth's axis slowly traces a circle – this is called precession. One cycle takes about 25,700 to 25,850 years. In about 13,000 years the north celestial pole will therefore lie near Vega, the brightest star in the constellation Lyra."
+      }
+    }
+  }
+]
