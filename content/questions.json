@@ -79890,5 +79890,1587 @@
         "explanation": "Like a spinning top, Earth's axis slowly traces a circle – this is called precession. One cycle takes about 25,700 to 25,850 years. In about 13,000 years the north celestial pole will therefore lie near Vega, the brightest star in the constellation Lyra."
       }
     }
+  },
+  {
+    "id": "h73",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welcher Kanal erspart Schiffen seit 1914 die lange und gefährliche Fahrt um die Südspitze Südamerikas?",
+    "options": [
+      "Suezkanal",
+      "Panamakanal",
+      "Nord-Ostsee-Kanal",
+      "Kanal von Korinth"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Panamakanal wurde im August 1914 eröffnet. Er ist etwa 82 km lang und verbindet den Atlantik mit dem Pazifik. Vorher mussten Schiffe um das Kap Hoorn oder durch die Magellanstraße fahren. Heute ist er eine der wichtigsten Wasserstraßen der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Seefahrt",
+      "Neuzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Panamakanal",
+    "source_url": "https://de.wikipedia.org/wiki/Panamakanal",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since 1914, which canal has spared ships the long and dangerous voyage around the southern tip of South America?",
+        "options": [
+          "Suez Canal",
+          "Panama Canal",
+          "Kiel Canal",
+          "Corinth Canal"
+        ],
+        "explanation": "The Panama Canal opened in August 1914. It is about 82 km long and links the Atlantic with the Pacific. Before that, ships had to sail around Cape Horn or through the Strait of Magellan. Today it is one of the most important waterways in the world."
+      }
+    }
+  },
+  {
+    "id": "h74",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die älteste bekannte Tageszeitung der Welt, die „Einkommenden Zeitungen“, erschien ab 1650 sechsmal pro Woche. In welcher Stadt wurde sie höchstwahrscheinlich gedruckt?",
+    "options": [
+      "Paris",
+      "London",
+      "Leipzig",
+      "Venedig"
+    ],
+    "correct_index": 2,
+    "explanation": "Die „Einkommenden Zeitungen“ erschienen ab Juli 1650 regelmäßig sechsmal in der Woche. Damit gelten sie als älteste bekannte Tageszeitung der Welt. Mit größter Wahrscheinlichkeit wurden sie in Leipzig vom Drucker und Buchhändler Timotheus Ritzsch gedruckt und herausgegeben.",
+    "difficulty": 2,
+    "tags": [
+      "Medien",
+      "Neuzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Einkommende Zeitungen",
+    "source_url": "https://de.wikipedia.org/wiki/Einkommende Zeitungen",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The world's oldest known daily newspaper, the 'Einkommende Zeitungen' (Incoming News), appeared six times a week from 1650. In which city was it most likely printed?",
+        "options": [
+          "Paris",
+          "London",
+          "Leipzig",
+          "Venice"
+        ],
+        "explanation": "From July 1650 the 'Einkommende Zeitungen' appeared regularly six times a week, which makes them the oldest known daily newspaper in the world. They were most likely printed and published in Leipzig by the printer and bookseller Timotheus Ritzsch."
+      }
+    }
+  },
+  {
+    "id": "h75",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die alten Griechen nannten ihre Wasseruhr „Klepsydra“. Was bedeutet dieses Wort?",
+    "options": [
+      "Stundenkrug",
+      "Zeitfluss",
+      "Tropfenzähler",
+      "Wasserdieb"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Wasseruhr ist ein Gerät, das die Zeit mit Hilfe von Wasser misst. In Griechenland nannte man sie „Wasserdieb“ – griechisch Klepsydra. Schon im Alten Ägypten gab es eine technisch ausgereifte Wasseruhr.",
+    "difficulty": 2,
+    "tags": [
+      "Zeit",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasseruhr",
+    "source_url": "https://de.wikipedia.org/wiki/Wasseruhr",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The ancient Greeks called their water clock 'klepsydra'. What does this word mean?",
+        "options": [
+          "Hour jug",
+          "Time flow",
+          "Drop counter",
+          "Water thief"
+        ],
+        "explanation": "A water clock is a device that measures time with the help of water. In Greece it was called the 'water thief' – klepsydra in Greek. A technically sophisticated water clock already existed in ancient Egypt."
+      }
+    }
+  },
+  {
+    "id": "h76",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woran liest man bei einer Sonnenuhr die Uhrzeit ab?",
+    "options": [
+      "Am Schatten eines Stabes",
+      "An der Farbe des Himmels",
+      "An der Wärme eines Steins",
+      "An einem Zeiger mit Uhrwerk"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei einer Sonnenuhr wirft ein Stab einen Schatten. Weil die Sonne über den Himmel wandert, wandert auch der Schatten. Als Zeiger dient meistens der Schatten eines Stabes, der parallel zur Erdachse ausgerichtet ist.",
+    "difficulty": 1,
+    "tags": [
+      "Zeit",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonnenuhr",
+    "source_url": "https://de.wikipedia.org/wiki/Sonnenuhr",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you read the time on a sundial?",
+        "options": [
+          "From the shadow of a rod",
+          "From the colour of the sky",
+          "From the warmth of a stone",
+          "From a hand driven by clockwork"
+        ],
+        "explanation": "On a sundial a rod casts a shadow. As the Sun moves across the sky, the shadow moves too. The pointer is usually the shadow of a rod aligned parallel to the Earth's axis."
+      }
+    }
+  },
+  {
+    "id": "h77",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die „Spinning Jenny“ gilt als Meilenstein der industriellen Revolution. Was war sie?",
+    "options": [
+      "Die erste Dampflok",
+      "Die erste Spinnmaschine",
+      "Ein mechanischer Webstuhl für Teppiche",
+      "Eine Nähmaschine"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Spinning Jenny wurde um 1765 erfunden und gilt als erste Spinnmaschine. Sie ähnelte einem Spinnrad, hatte aber viele Spindeln statt einer einzigen. Gegenüber dem Spinnrad steigerte sie die Produktivität enorm.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Neuzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spinning Jenny",
+    "source_url": "https://de.wikipedia.org/wiki/Spinning Jenny",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'Spinning Jenny' is regarded as a milestone of the Industrial Revolution. What was it?",
+        "options": [
+          "The first steam locomotive",
+          "The first spinning machine",
+          "A mechanical loom for carpets",
+          "A sewing machine"
+        ],
+        "explanation": "The Spinning Jenny was invented around 1765 and is regarded as the first spinning machine. It looked like a spinning wheel but had many spindles instead of just one. Compared with the spinning wheel, it raised productivity enormously."
+      }
+    }
+  },
+  {
+    "id": "h78",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Über welche kleine Insel vor New York kamen zwischen 1892 und 1954 rund 12 Millionen Einwanderer in die USA?",
+    "options": [
+      "Coney Island",
+      "Liberty Island",
+      "Ellis Island",
+      "Long Island"
+    ],
+    "correct_index": 2,
+    "explanation": "Zwischen 1892 und 1954 durchliefen etwa 12 Millionen Einwanderer die Insel Ellis Island. Heute wird sie zusammen mit der Freiheitsstatue als Gedenkstätte verwaltet. Seit 1990 gibt es dort ein Museum zur Geschichte der Einwanderung in die USA.",
+    "difficulty": 2,
+    "tags": [
+      "USA",
+      "Neuzeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ellis Island",
+    "source_url": "https://de.wikipedia.org/wiki/Ellis Island",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Through which small island off New York did around 12 million immigrants enter the USA between 1892 and 1954?",
+        "options": [
+          "Coney Island",
+          "Liberty Island",
+          "Ellis Island",
+          "Long Island"
+        ],
+        "explanation": "Between 1892 and 1954 about 12 million immigrants passed through Ellis Island. Today it is managed as a memorial together with the Statue of Liberty. Since 1990 it has housed a museum on the history of immigration to the USA."
+      }
+    }
+  },
+  {
+    "id": "h79",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wofür nutzte man früher ein Astrolabium?",
+    "options": [
+      "Um Entfernungen auf Landkarten abzumessen",
+      "Um die Tiefe des Meeres zu messen",
+      "Um die Windstärke zu messen",
+      "Um die Höhe von Sternen über dem Horizont zu messen"
+    ],
+    "correct_index": 3,
+    "explanation": "Mit einem Astrolabium konnte man den Höhenwinkel eines Sterns oder der Sonne über dem Horizont messen. Es diente auch dazu, Sterne zu finden, die Bewegungen der Gestirne darzustellen und die Zeit zu bestimmen.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Zeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Astrolabium",
+    "source_url": "https://de.wikipedia.org/wiki/Astrolabium",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was an astrolabe used for in the past?",
+        "options": [
+          "Measuring distances on maps",
+          "Measuring the depth of the sea",
+          "Measuring wind strength",
+          "Measuring the height of stars above the horizon"
+        ],
+        "explanation": "With an astrolabe you could measure the angle of a star or the Sun above the horizon. It was also used to locate stars, to show the movements of the heavenly bodies and to tell the time."
+      }
+    }
+  },
+  {
+    "id": "h80",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was gehörte früher in vielen Städten zu den Aufgaben des Nachtwächters?",
+    "options": [
+      "Nachts die Briefe austragen",
+      "Vor Feuer und Dieben warnen und die Stunden ansagen",
+      "Die Straßenlaternen mit Strom einschalten",
+      "Nachts das Brot für den Morgen backen"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Nachtwächter warnte die schlafenden Bürger vor Feuern, Feinden und Dieben. Oft sagte er auch die Stunden an – vor allem, um zu zeigen, dass er seinen Dienst ordentlich machte. Zu seiner Ausrüstung gehörten meist eine Laterne, ein Horn und eine Hellebarde.",
+    "difficulty": 1,
+    "tags": [
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nachtwächter",
+    "source_url": "https://de.wikipedia.org/wiki/Nachtwächter",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the past, what was part of a night watchman's job in many towns?",
+        "options": [
+          "Delivering letters at night",
+          "Warning of fire and thieves and calling out the hours",
+          "Switching on the electric street lamps",
+          "Baking bread for the morning at night"
+        ],
+        "explanation": "The night watchman warned the sleeping townspeople of fires, enemies and thieves. He often called out the hours too – mainly to show that he was doing his duty properly. His equipment usually included a lantern, a horn and a halberd."
+      }
+    }
+  },
+  {
+    "id": "e96",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "In England gab es von 1696 bis 1851 eine ungewöhnliche Steuer. Wofür mussten Hausbesitzer zahlen?",
+    "options": [
+      "Für ihre Treppenstufen",
+      "Für ihre Haustüren",
+      "Für ihre Gartenzäune",
+      "Für ihre Fenster"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Fenstersteuer musste ein Eigentümer für die Fenster seines Wohnraums zahlen. In England gab es sie von 1696 bis 1851. Blindfenster und zugemauerte Fenster waren von der Steuer ausgenommen.",
+    "difficulty": 2,
+    "tags": [
+      "Steuern",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fenstersteuer",
+    "source_url": "https://de.wikipedia.org/wiki/Fenstersteuer",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From 1696 to 1851 England had an unusual tax. What did homeowners have to pay for?",
+        "options": [
+          "Their stairs",
+          "Their front doors",
+          "Their garden fences",
+          "Their windows"
+        ],
+        "explanation": "The window tax was paid by owners for the windows of their living space. England had it from 1696 to 1851. Blind windows and bricked-up windows were exempt from the tax."
+      }
+    }
+  },
+  {
+    "id": "e97",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wer erhebt in Deutschland die Hundesteuer?",
+    "options": [
+      "Die Gemeinde",
+      "Der Bund",
+      "Der Tierarzt",
+      "Der Tierschutzverein"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Hundesteuer ist eine Gemeindesteuer: Wer einen Hund hält, zahlt sie an seine Gemeinde. Wie jede Steuer ist sie nicht an eine bestimmte Gegenleistung gebunden – das Geld ist also zum Beispiel nicht fest für das Reinigen der Straßen von Hundekot vorgesehen.",
+    "difficulty": 1,
+    "tags": [
+      "Steuern"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hundesteuer",
+    "source_url": "https://de.wikipedia.org/wiki/Hundesteuer",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Germany, who levies the dog tax?",
+        "options": [
+          "The municipality",
+          "The federal government",
+          "The vet",
+          "The animal welfare society"
+        ],
+        "explanation": "The dog tax is a municipal tax: whoever keeps a dog pays it to their municipality. Like any tax, it is not tied to a specific service in return – so the money is not, for example, earmarked for cleaning dog mess off the streets."
+      }
+    }
+  },
+  {
+    "id": "e98",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Warum kostet ein neues Buch in Deutschland in jeder Buchhandlung gleich viel?",
+    "options": [
+      "Weil alle Buchhandlungen einer einzigen Firma gehören",
+      "Wegen der Buchpreisbindung",
+      "Weil der Staat alle Bücher druckt",
+      "Weil auf Bücher keine Steuern anfallen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Buchpreisbindung ist eine gesetzliche Preisbindung für Bücher. Der Verlag legt für jedes Buch einen festen Preis fest. Dieser gilt für alle Händler, etwa Buchhandlungen – sie dürfen ihn weder unter- noch überschreiten. In Deutschland gab es eine Buchpreisbindung schon 1888, damals noch nicht als Gesetz, sondern als Regel des Börsenvereins der Deutschen Buchhändler.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Wirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buchpreisbindung",
+    "source_url": "https://de.wikipedia.org/wiki/Buchpreisbindung",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a new book cost the same in every bookshop in Germany?",
+        "options": [
+          "Because one company owns all bookshops",
+          "Because of fixed book prices",
+          "Because the state prints all books",
+          "Because books are tax-free"
+        ],
+        "explanation": "Fixed book pricing is a legal price commitment for books. The publisher sets a fixed price for each book, which applies to all retailers, such as bookshops – they may neither go below nor above it. Germany already had fixed book prices in 1888, back then not as a law but as a rule of the German booksellers' association."
+      }
+    }
+  },
+  {
+    "id": "e99",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wer kam früher in einen „Schuldturm“?",
+    "options": [
+      "Wächter, die im Dienst eingeschlafen waren",
+      "Kinder, die die Schule geschwänzt hatten",
+      "Menschen, die ihre Schulden nicht bezahlen konnten",
+      "Händler, die mit falschen Gewichten gewogen hatten"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Schuldgefängnis – auch Schuldturm genannt – war bis ins 19. Jahrhundert ein besonderes Gefängnis für Menschen, die ihre Zahlungen nicht leisten konnten. Später wurde die Schuldhaft in Europa überwiegend abgeschafft.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schuldgefängnis",
+    "source_url": "https://de.wikipedia.org/wiki/Schuldgefängnis",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who used to be sent to a 'debtors' tower' (Schuldturm)?",
+        "options": [
+          "Guards who had fallen asleep on duty",
+          "Children who had skipped school",
+          "People who could not pay their debts",
+          "Traders who had used false weights"
+        ],
+        "explanation": "A debtors' prison – also called a debtors' tower – was, until the 19th century, a special prison for people who could not meet their payment obligations. Later, imprisonment for debt was largely abolished in Europe."
+      }
+    }
+  },
+  {
+    "id": "e100",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was verkaufen Privatleute auf einem Flohmarkt vor allem?",
+    "options": [
+      "Neue Autos",
+      "Frisches Obst vom Bauernhof",
+      "Lebende Tiere",
+      "Gebrauchte Sachen"
+    ],
+    "correct_index": 3,
+    "explanation": "Auf einem Flohmarkt bieten Privatleute anderen Privatleuten gebrauchte Gegenstände an. Der Begriff stammt vermutlich aus Frankreich („Marché aux Puces“). Als größter und sehr alter Flohmarkt gilt der von Saint-Ouen im Norden von Paris.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flohmarkt",
+    "source_url": "https://de.wikipedia.org/wiki/Flohmarkt",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do private individuals mainly sell at a flea market?",
+        "options": [
+          "New cars",
+          "Fresh fruit from the farm",
+          "Live animals",
+          "Second-hand things"
+        ],
+        "explanation": "At a flea market, private individuals offer used items to other private individuals. The term probably comes from France ('marché aux puces'). The flea market of Saint-Ouen in the north of Paris is considered the largest, and it is also a very old one."
+      }
+    }
+  },
+  {
+    "id": "e101",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Der Börsenkrach vom Oktober 1929 heißt in Amerika „Schwarzer Donnerstag“. Warum spricht man in Europa vom „Schwarzen Freitag“?",
+    "options": [
+      "Die Nachricht kam wegen der Zeitverschiebung erst nach Börsenschluss in Europa an",
+      "In Europa wurde donnerstags nie gehandelt",
+      "Die europäischen Börsen stürzten erst eine Woche später ab",
+      "Der Name wurde Jahrzehnte später falsch übersetzt"
+    ],
+    "correct_index": 0,
+    "explanation": "Am 24. Oktober 1929 begann der folgenreichste Börsenkrach der Geschichte. Eine verbreitete Erklärung für den anderen Namen: Wegen der Zeitverschiebung kam die Nachricht vom Crash in Amerika erst nach der abendlichen Schließung der Börsen in Europa an. Die Panik an den europäischen Aktienmärkten brach deshalb erst am nächsten Tag aus.",
+    "difficulty": 3,
+    "tags": [
+      "Börse",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwarzer Donnerstag",
+    "source_url": "https://de.wikipedia.org/wiki/Schwarzer Donnerstag",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In America, the stock market crash of October 1929 is called 'Black Thursday'. Why do people in Europe speak of 'Black Friday'?",
+        "options": [
+          "Because of the time difference, the news reached Europe only after its stock exchanges had closed",
+          "Europe never traded on Thursdays",
+          "European stock exchanges only crashed a week later",
+          "The name was mistranslated decades later"
+        ],
+        "explanation": "On 24 October 1929 the most consequential stock market crash in history began. A common explanation for the other name: because of the time difference, the news of the crash in America only reached Europe after the stock exchanges there had closed for the evening. So the panic on European stock markets broke out only the next day."
+      }
+    }
+  },
+  {
+    "id": "e102",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Ein Konjunkturzyklus hat vier Phasen. Welche folgt auf die Hochkonjunktur (den Boom)?",
+    "options": [
+      "Der Aufschwung (Expansion)",
+      "Der Abschwung (Rezession)",
+      "Die Tiefphase (Depression)",
+      "Die Währungsreform"
+    ],
+    "correct_index": 1,
+    "explanation": "Häufig unterscheidet man vier Phasen: Aufschwung (Expansion), Hochkonjunktur (Boom), Abschwung (Rezession) und Tiefphase (Depression). Danach beginnt der Zyklus mit einem neuen Aufschwung von vorn.",
+    "difficulty": 3,
+    "tags": [
+      "Volkswirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Konjunktur",
+    "source_url": "https://de.wikipedia.org/wiki/Konjunktur",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An economic cycle has four phases. Which one follows the peak (the boom)?",
+        "options": [
+          "The upswing (expansion)",
+          "The downturn (recession)",
+          "The trough (depression)",
+          "The currency reform"
+        ],
+        "explanation": "Four phases are often distinguished: upswing (expansion), peak (boom), downturn (recession) and trough (depression). After that, the cycle starts again with a new upswing."
+      }
+    }
+  },
+  {
+    "id": "e103",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was meint man mit dem „Generationenvertrag“ bei der Rente?",
+    "options": [
+      "Kinder müssen ihren Eltern direkt eine Rente zahlen",
+      "Jeder spart sein ganzes Leben nur für sich selbst",
+      "Die heute Arbeitenden zahlen mit ihren Beiträgen die Renten der Älteren",
+      "Einen Vertrag, den jeder bei Volljährigkeit unterschreibt"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Generationenvertrag ist kein echter, unterschriebener Vertrag. Gemeint ist eine unausgesprochene Abmachung zwischen der Generation, die heute Beiträge zahlt, und der Generation, die heute Rente bezieht. Er ist die Grundlage einer Rente im Umlageverfahren.",
+    "difficulty": 2,
+    "tags": [
+      "Volkswirtschaft",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Generationenvertrag",
+    "source_url": "https://de.wikipedia.org/wiki/Generationenvertrag",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is meant by the 'generational contract' for pensions?",
+        "options": [
+          "Children must pay their parents a pension directly",
+          "Everyone saves only for themselves their whole life",
+          "Today's workers pay the pensions of older people through their contributions",
+          "A contract everyone signs when they come of age"
+        ],
+        "explanation": "The generational contract is not a real, signed contract. It means an unspoken agreement between the generation paying contributions today and the generation receiving pensions today. It is the basis of a pay-as-you-go pension system."
+      }
+    }
+  },
+  {
+    "id": "kn102",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Viele griechische Statuen stehen locker auf einem Bein, das andere ist entlastet. Wie nennt man diese Haltung?",
+    "options": [
+      "Perspektive",
+      "Kontrapost",
+      "Relief",
+      "Silhouette"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Kontrapost ist das Nebeneinander von Stand- und Spielbein: Eine Figur trägt ihr Gewicht auf einem Bein, das andere ist entlastet. So werden die Gewichtsverhältnisse ausgeglichen und die Figur wirkt lebendig. Eingeführt haben dieses Motiv klassische griechische Bildhauer, vor allem Polyklet.",
+    "difficulty": 2,
+    "tags": [
+      "Skulptur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kontrapost",
+    "source_url": "https://de.wikipedia.org/wiki/Kontrapost",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many Greek statues stand casually on one leg while the other is relaxed. What is this pose called?",
+        "options": [
+          "Perspective",
+          "Contrapposto",
+          "Relief",
+          "Silhouette"
+        ],
+        "explanation": "Contrapposto is the combination of a standing leg and a free leg: a figure rests its weight on one leg while the other is relaxed. This balances the weight and makes the figure look lively. The motif was introduced by classical Greek sculptors, above all Polykleitos."
+      }
+    }
+  },
+  {
+    "id": "kn103",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Eine Anamorphose ist ein Bild, das man nicht einfach so erkennt. Wie sieht man, was darauf dargestellt ist?",
+    "options": [
+      "Man hält es gegen eine Kerze",
+      "Man legt es ins Wasser",
+      "Man betrachtet es aus einem bestimmten Blickwinkel oder mit einem Spiegel",
+      "Man schaut es durch eine rote Brille an"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Anamorphose kann man nur unter einem bestimmten Blickwinkel oder mit einem speziellen Spiegel oder Prisma richtig erkennen. Ein berühmtes Beispiel ist das Gemälde „Die Gesandten“ von Hans Holbein dem Jüngeren aus dem Jahr 1533.",
+    "difficulty": 3,
+    "tags": [
+      "Malerei",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Anamorphose",
+    "source_url": "https://de.wikipedia.org/wiki/Anamorphose",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An anamorphosis is a picture you cannot simply recognise. How can you see what it shows?",
+        "options": [
+          "You hold it up to a candle",
+          "You put it in water",
+          "You look at it from a particular angle or with a mirror",
+          "You look at it through red glasses"
+        ],
+        "explanation": "An anamorphosis can only be recognised properly from a particular angle or with a special mirror or prism. A famous example is the painting 'The Ambassadors' by Hans Holbein the Younger from 1533."
+      }
+    }
+  },
+  {
+    "id": "kn104",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Eine „Grisaille“ ist ein Gemälde in nur wenigen Farben. In welchen?",
+    "options": [
+      "Grün und Braun",
+      "Rot, Gelb und Blau",
+      "Nur Gold",
+      "Grau, Weiß und Schwarz"
+    ],
+    "correct_index": 3,
+    "explanation": "Grisaille kommt vom französischen Wort „gris“ für grau. So nennt man eine Malerei, die ausschließlich in Grau, Weiß und Schwarz ausgeführt ist. Eine Form der Grisaille gibt es auch in der Glasmalerei.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grisaille",
+    "source_url": "https://de.wikipedia.org/wiki/Grisaille",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A 'grisaille' is a painting in only a few colours. Which ones?",
+        "options": [
+          "Green and brown",
+          "Red, yellow and blue",
+          "Only gold",
+          "Grey, white and black"
+        ],
+        "explanation": "Grisaille comes from the French word 'gris' for grey. It is a painting done only in grey, white and black. A form of grisaille is also used in stained glass."
+      }
+    }
+  },
+  {
+    "id": "kn105",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Bei einer Intarsie entsteht ein Bild aus verschiedenen Hölzern. Was bedeutet das italienische Wort „intarsiare“, von dem sie ihren Namen hat?",
+    "options": [
+      "Einlegen",
+      "Schnitzen",
+      "Malen",
+      "Kleben"
+    ],
+    "correct_index": 0,
+    "explanation": "Intarsie kommt über das Italienische „intarsiare“ für „einlegen“. Bei dieser Dekorationstechnik werden auf einer glatten Fläche verschiedene Hölzer und andere Materialien so in- oder aneinandergelegt, dass ein Muster oder Bild entsteht.",
+    "difficulty": 2,
+    "tags": [
+      "Handwerk",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Intarsie",
+    "source_url": "https://de.wikipedia.org/wiki/Intarsie",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In marquetry (intarsia), a picture is made from different woods. What does the Italian word 'intarsiare', from which it gets its name, mean?",
+        "options": [
+          "To inlay",
+          "To carve",
+          "To paint",
+          "To glue"
+        ],
+        "explanation": "Intarsia comes via the Italian 'intarsiare', meaning 'to inlay'. In this decorative technique, different woods and other materials are laid into or next to each other on a flat surface so that a pattern or picture appears."
+      }
+    }
+  },
+  {
+    "id": "kn106",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Bei welcher Technik kratzt man Muster in eine helle Putzschicht, sodass darunter eine farbige Schicht zum Vorschein kommt?",
+    "options": [
+      "Aquarell",
+      "Sgraffito",
+      "Collage",
+      "Mosaik"
+    ],
+    "correct_index": 1,
+    "explanation": "Sgraffito heißen Techniken, bei denen Ornamente eingekratzt werden – etwa in Putz, Glas oder Keramik. Der Name kommt vom italienischen „sgraffiare“ für kratzen. An Hauswänden kratzt man Formen, Schriften oder Ornamente in die oft weiß gekalkte Oberfläche eines eingefärbten Putzes.",
+    "difficulty": 3,
+    "tags": [
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sgraffito",
+    "source_url": "https://de.wikipedia.org/wiki/Sgraffito",
+    "created_at": "2026-10-31T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which technique are patterns scratched into a light layer of plaster so that a coloured layer appears underneath?",
+        "options": [
+          "Watercolour",
+          "Sgraffito",
+          "Collage",
+          "Mosaic"
+        ],
+        "explanation": "Sgraffito is the name for techniques in which ornaments are scratched in – for example into plaster, glass or ceramics. The name comes from the Italian 'sgraffiare', meaning to scratch. On house walls, shapes, lettering or ornaments are scratched into the often whitewashed surface of coloured plaster."
+      }
+    }
+  },
+  {
+    "id": "kn107",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Womit werden die einzelnen Glasstücke eines bunten Bleiglasfensters zusammengehalten?",
+    "options": [
+      "Mit Klebeband",
+      "Mit Holzleisten",
+      "Mit Bleiruten",
+      "Mit Gummiringen"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei Bleiglasfenstern werden die einzelnen Glasstücke von U- und H-förmigen Bleiruten eingefasst und an den Kanten miteinander verlötet. Auch der Maler Marc Chagall gestaltete zahlreiche Bleiglasfenster für Kirchen, Synagogen und Moscheen.",
+    "difficulty": 2,
+    "tags": [
+      "Glas",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bleiglasfenster",
+    "source_url": "https://de.wikipedia.org/wiki/Bleiglasfenster",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What holds the individual pieces of glass in a coloured leaded glass window together?",
+        "options": [
+          "Sticky tape",
+          "Wooden strips",
+          "Lead cames",
+          "Rubber bands"
+        ],
+        "explanation": "In leaded glass windows, the individual pieces of glass are framed by U- and H-shaped lead strips (cames) and soldered together along the edges. The painter Marc Chagall also designed many leaded glass windows for churches, synagogues and mosques."
+      }
+    }
+  },
+  {
+    "id": "kn108",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Beim Wachsausschmelzverfahren für Bronzefiguren geht das Wachsmodell verloren. Warum?",
+    "options": [
+      "Das Wachs wird verbrannt, um den Ofen zu heizen",
+      "Wachs ist zu teuer, um es aufzubewahren",
+      "Das Wachs wird als Farbe auf die Bronze gestrichen",
+      "Das Wachs schmilzt aus der Form, damit flüssiges Metall in den Hohlraum fließen kann"
+    ],
+    "correct_index": 3,
+    "explanation": "Zuerst formt man ein Modell aus Wachs. Es wird in flüssigen Formstoff getaucht oder damit übergossen, sodass eine Form entsteht. Dann schmilzt das Wachs heraus, und in den Hohlraum wird flüssiges Metall gegossen – meist Bronze. Weil das Modell dabei verloren geht, spricht man auch vom Verfahren mit verlorenem Modell.",
+    "difficulty": 3,
+    "tags": [
+      "Skulptur",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wachsausschmelzverfahren",
+    "source_url": "https://de.wikipedia.org/wiki/Wachsausschmelzverfahren",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the lost-wax process for bronze figures, the wax model is lost. Why?",
+        "options": [
+          "The wax is burned to heat the furnace",
+          "Wax is too expensive to keep",
+          "The wax is painted onto the bronze as colour",
+          "The wax melts out of the mould so liquid metal can flow into the cavity"
+        ],
+        "explanation": "First a model is made of wax. It is dipped into liquid moulding material or covered with it, so that a mould forms. Then the wax is melted out and liquid metal – usually bronze – is poured into the cavity. Because the model is lost in the process, it is also called the lost-model method."
+      }
+    }
+  },
+  {
+    "id": "kn109",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet das Wort „Kalligrafie“?",
+    "options": [
+      "Kunst des schönen Schreibens",
+      "Kunst des schnellen Rechnens",
+      "Lehre von den Farben",
+      "Kunst des Zeichnens mit Kohle"
+    ],
+    "correct_index": 0,
+    "explanation": "Kalligrafie kommt vom griechischen „kállos“ für „Schönheit“ und bedeutet „Kunst des schönen Schreibens“ von Hand. Übrigens: Im Schulfach Schönschreiben lernt man nicht Kalligrafie, sondern leserliches Schreiben.",
+    "difficulty": 1,
+    "tags": [
+      "Kunst",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kalligrafie",
+    "source_url": "https://de.wikipedia.org/wiki/Kalligrafie",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the word 'calligraphy' mean?",
+        "options": [
+          "The art of beautiful writing",
+          "The art of fast calculation",
+          "The study of colours",
+          "The art of drawing with charcoal"
+        ],
+        "explanation": "Calligraphy comes from the Greek 'kállos' for 'beauty' and means the 'art of beautiful writing' by hand. By the way, the German school subject 'Schönschreiben' (neat handwriting) does not teach calligraphy but legible writing."
+      }
+    }
+  },
+  {
+    "id": "sp116",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Worum geht es beim Kugelspiel Boccia?",
+    "options": [
+      "Die Kugel in ein Loch zu schlagen",
+      "Möglichst viele Kegel umzuwerfen",
+      "Die eigenen Kugeln möglichst nah an eine kleine Zielkugel zu bringen",
+      "Die Kugel möglichst weit zu werfen"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Boccia versucht man, die eigenen Kugeln möglichst nah an eine kleinere Zielkugel zu setzen – den Pallino. Seit 1984 ist eine Form des Boccia auch eine paralympische Sportart.",
+    "difficulty": 1,
+    "tags": [
+      "Präzision",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Boccia",
+    "source_url": "https://de.wikipedia.org/wiki/Boccia",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the aim of the ball game boccia?",
+        "options": [
+          "To hit the ball into a hole",
+          "To knock down as many pins as possible",
+          "To get your own balls as close as possible to a small target ball",
+          "To throw the ball as far as possible"
+        ],
+        "explanation": "In boccia you try to place your own balls as close as possible to a smaller target ball – the pallino. Since 1984 a form of boccia has also been a Paralympic sport."
+      }
+    }
+  },
+  {
+    "id": "sp117",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist das Besondere an der japanischen Kampfkunst Aikido?",
+    "options": [
+      "Geübt wird nur im Wasser",
+      "Man darf nur die Füße benutzen",
+      "Es wird immer zu dritt gekämpft",
+      "Wettkämpfe sind nicht vorgesehen"
+    ],
+    "correct_index": 3,
+    "explanation": "Im Aikido sind keine Wettkämpfe vorgesehen. Der Name setzt sich aus drei Teilen zusammen: Ai für „Harmonie“, Ki für „Lebensenergie“ und Dō für „Lebensweg“.",
+    "difficulty": 2,
+    "tags": [
+      "Kampfsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aikidō",
+    "source_url": "https://de.wikipedia.org/wiki/Aikidō",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the Japanese martial art aikido?",
+        "options": [
+          "It is only practised in water",
+          "You may only use your feet",
+          "Bouts are always fought in threes",
+          "Competitions are not part of it"
+        ],
+        "explanation": "Aikido does not include competitions. The name is made up of three parts: Ai for 'harmony', Ki for 'life energy' and Dō for 'way of life'."
+      }
+    }
+  },
+  {
+    "id": "sp118",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welche zwei Sportarten verbindet die Nordische Kombination?",
+    "options": [
+      "Skispringen und Skilanglauf",
+      "Skilanglauf und Schießen",
+      "Abfahrt und Slalom",
+      "Eisschnelllauf und Skilanglauf"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Nordische Kombination verbindet Skispringen – hier auch Sprunglauf genannt – mit Skilanglauf. Skilanglauf und Schießen ergeben dagegen den Biathlon.",
+    "difficulty": 2,
+    "tags": [
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nordische Kombination",
+    "source_url": "https://de.wikipedia.org/wiki/Nordische Kombination",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two sports does the Nordic combined bring together?",
+        "options": [
+          "Ski jumping and cross-country skiing",
+          "Cross-country skiing and shooting",
+          "Downhill and slalom",
+          "Speed skating and cross-country skiing"
+        ],
+        "explanation": "Nordic combined brings together ski jumping and cross-country skiing. Cross-country skiing plus shooting, on the other hand, is biathlon."
+      }
+    }
+  },
+  {
+    "id": "sp119",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Segeln spricht man von „Luv“ und „Lee“. Was ist Luv?",
+    "options": [
+      "Die vom Wind abgewandte Seite",
+      "Die dem Wind zugewandte Seite",
+      "Die Vorderseite des Bootes",
+      "Die Seite mit dem Steuer"
+    ],
+    "correct_index": 1,
+    "explanation": "Luv und Lee benennen die Seiten eines Objekts in Bezug zum Wind. Luv ist die Seite, die dem Wind zugewandt ist. Lee ist die Seite, die vom Wind abgewandt ist.",
+    "difficulty": 2,
+    "tags": [
+      "Wassersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Luv und Lee",
+    "source_url": "https://de.wikipedia.org/wiki/Luv und Lee",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In sailing, Germans talk about 'Luv' and 'Lee' (windward and leeward). What is windward?",
+        "options": [
+          "The side facing away from the wind",
+          "The side facing the wind",
+          "The front of the boat",
+          "The side with the rudder"
+        ],
+        "explanation": "Windward and leeward name the sides of an object in relation to the wind. Windward is the side facing the wind. Leeward is the side facing away from it."
+      }
+    }
+  },
+  {
+    "id": "sp120",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Prellball ist das Spielfeld durch eine Leine geteilt. Wie kommt der Ball auf die andere Seite?",
+    "options": [
+      "Man schlägt ihn mit einem Schläger direkt hinüber",
+      "Man wirft ihn mit beiden Händen über die Leine",
+      "Man kickt ihn mit dem Fuß unter der Leine durch",
+      "Man schlägt ihn auf den Boden der eigenen Hälfte, sodass er über die Leine springt"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Prellball schlägt man den Ball mit der Faust oder dem Unterarm auf den Boden der eigenen Spielfeldhälfte. Er soll so über die Leine springen, dass ihn der Gegner nicht regelgerecht annehmen kann. Dieses Hinunterschlagen heißt „Prellen“ – davon hat das Spiel seinen Namen.",
+    "difficulty": 2,
+    "tags": [
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prellball",
+    "source_url": "https://de.wikipedia.org/wiki/Prellball",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In prellball, a German bounce-ball game, the court is divided by a cord. How does the ball get to the other side?",
+        "options": [
+          "You hit it straight over with a racket",
+          "You throw it over the cord with both hands",
+          "You kick it under the cord",
+          "You hit it onto the floor of your own half so that it bounces over the cord"
+        ],
+        "explanation": "In prellball you hit the ball with your fist or forearm onto the floor of your own half. It should bounce over the cord so that the opponents cannot take it correctly. This hitting down is called 'prellen' (bouncing) – which gives the game its name."
+      }
+    }
+  },
+  {
+    "id": "sp121",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was passiert beim Völkerball, wenn du im Innenfeld getroffen wirst und den Ball nicht fängst?",
+    "options": [
+      "Du musst ins Außenfeld",
+      "Deine Mannschaft bekommt einen Punkt",
+      "Du darfst als Nächstes werfen",
+      "Das Spiel ist sofort vorbei"
+    ],
+    "correct_index": 0,
+    "explanation": "Wer im Innenfeld von einem Ball der Gegner getroffen wird und ihn nicht fangen kann, ist „ab“ oder „raus“ und muss ins eigene Außenfeld. In Teilen der DDR hieß das Spiel auch Zweifelderball.",
+    "difficulty": 1,
+    "tags": [
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Völkerball",
+    "source_url": "https://de.wikipedia.org/wiki/Völkerball",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In dodgeball (Völkerball), what happens if you are hit in the inner field and do not catch the ball?",
+        "options": [
+          "You have to go to the outer field",
+          "Your team gets a point",
+          "You may throw next",
+          "The game is over immediately"
+        ],
+        "explanation": "Anyone in the inner field who is hit by a ball from the other team and cannot catch it is 'out' and must go to their own outer field. In parts of East Germany the game was also called 'two-field ball'."
+      }
+    }
+  },
+  {
+    "id": "sp122",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woran erkennt man den Ball beim Unihockey (Floorball)?",
+    "options": [
+      "Er ist aus Leder und mit Federn gefüllt",
+      "Er ist aus Kunststoff und hat 26 Löcher",
+      "Er ist flach wie ein Puck",
+      "Er ist aus Holz und sehr schwer"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Unihockeyball besteht aus dem Kunststoff Polyethylen und hat 26 Löcher. Das Spiel wurde in den 1970er-Jahren in Schweden, Finnland und der Schweiz gemeinsam entwickelt.",
+    "difficulty": 2,
+    "tags": [
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Unihockey",
+    "source_url": "https://de.wikipedia.org/wiki/Unihockey",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How can you recognise the ball used in floorball?",
+        "options": [
+          "It is made of leather and filled with feathers",
+          "It is made of plastic and has 26 holes",
+          "It is flat like a puck",
+          "It is made of wood and very heavy"
+        ],
+        "explanation": "The floorball ball is made of the plastic polyethylene and has 26 holes. The game was developed jointly in Sweden, Finland and Switzerland in the 1970s."
+      }
+    }
+  },
+  {
+    "id": "sp123",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist beim Klappschlittschuh im Eisschnelllauf anders als beim herkömmlichen Schlittschuh?",
+    "options": [
+      "Die Kufe ist beheizt",
+      "Er hat zwei Kufen nebeneinander",
+      "Die Kufe sitzt an einem Gelenk und ist nicht starr am Schuh befestigt",
+      "Man kann ihn für den Transport zusammenfalten"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Klappschlittschuh ist die Kufe nicht mehr starr am Schuh befestigt, sondern an einem Klappgelenk gelagert. So lässt sich die letzte Phase des Abstoßens verlängern. 1996 nutzte das niederländische Damen-Team ihn erstmals bei internationalen Wettkämpfen.",
+    "difficulty": 3,
+    "tags": [
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klappschlittschuh",
+    "source_url": "https://de.wikipedia.org/wiki/Klappschlittschuh",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is different about the clap skate in speed skating compared with a traditional skate?",
+        "options": [
+          "The blade is heated",
+          "It has two blades side by side",
+          "The blade is attached by a hinge rather than fixed rigidly to the boot",
+          "It can be folded up for transport"
+        ],
+        "explanation": "On the clap skate, the blade is no longer rigidly attached to the boot but mounted on a hinge. This lets skaters extend the last phase of their push-off. In 1996 the Dutch women's team was the first to use it in international competition."
+      }
+    }
+  },
+  {
+    "id": "mk106",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In Noten für Geige steht „pizz.“. Was soll man jetzt tun?",
+    "options": [
+      "Mit dem Bogen ganz schnell streichen",
+      "Besonders leise spielen",
+      "Die Saiten mit den Fingern zupfen",
+      "Eine Pause machen"
+    ],
+    "correct_index": 2,
+    "explanation": "„pizz.“ steht für Pizzicato. Dabei werden die Saiten nicht mit dem Bogen gestrichen, sondern mit den Fingern der rechten Hand gezupft – also mit der Hand, die sonst den Bogen führt.",
+    "difficulty": 2,
+    "tags": [
+      "Musiktheorie",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pizzicato",
+    "source_url": "https://de.wikipedia.org/wiki/Pizzicato",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Violin music says 'pizz.'. What should you do now?",
+        "options": [
+          "Bow very fast",
+          "Play especially quietly",
+          "Pluck the strings with your fingers",
+          "Take a rest"
+        ],
+        "explanation": "'pizz.' stands for pizzicato. The strings are not bowed but plucked with the fingers of the right hand – the hand that normally holds the bow."
+      }
+    }
+  },
+  {
+    "id": "mk107",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Ein Carillon ist ein großes Glockenspiel in einem Turm. Womit spielt man normalerweise seine Tasten?",
+    "options": [
+      "Mit den Fingerspitzen wie am Klavier",
+      "Mit einem Geigenbogen",
+      "Mit zwei kleinen Hämmerchen in den Händen",
+      "Mit der Faust"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Carillon, auch Turmglockenspiel genannt, ist ein spielbares, großes Glockenspiel, das sich meist in einem Turm befindet. Sein Manual – die Tastatur – wird normalerweise mit der Faust gespielt.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Carillon",
+    "source_url": "https://de.wikipedia.org/wiki/Carillon",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A carillon is a large set of bells in a tower. What do you normally play its keys with?",
+        "options": [
+          "Your fingertips, like on a piano",
+          "A violin bow",
+          "Two small hammers held in your hands",
+          "Your fists"
+        ],
+        "explanation": "A carillon, also called a tower bell instrument, is a large playable set of bells, usually housed in a tower. Its manual – the keyboard – is normally played with the fists."
+      }
+    }
+  },
+  {
+    "id": "mk108",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Das italienische Wort „fagotto“ bedeutet auch „Reisig“. Warum heißt das Holzblasinstrument Fagott vermutlich so?",
+    "options": [
+      "Es lässt sich in mehrere Teile zerlegen und wie ein Reisigbündel zusammenpacken",
+      "Es wurde früher aus Reisig gebaut",
+      "Es klingt wie knisterndes Holz",
+      "Es wurde zuerst von Holzsammlern gespielt"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Fagott ist ein Holzblasinstrument in der Tenor- und Basslage mit Doppelrohrblatt. Im Italienischen bedeutet „fagotto“ auch „Reisig“. Vermutlich ist es nach seiner mehrteiligen Bauart benannt: Man kann es in mehrere Teile zerlegen und wie ein Reisigbündel zusammenpacken.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fagott",
+    "source_url": "https://de.wikipedia.org/wiki/Fagott",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Italian, the bassoon is called 'fagotto', which also means 'brushwood'. Why was it probably given this name?",
+        "options": [
+          "It can be taken apart into several pieces and packed together like a bundle of sticks",
+          "It used to be built from brushwood",
+          "It sounds like crackling wood",
+          "It was first played by wood gatherers"
+        ],
+        "explanation": "The bassoon is a tenor and bass woodwind instrument with a double reed. In Italian, 'fagotto' also means 'brushwood'. It was probably named after its multi-part design: it can be taken apart into several pieces and packed together like a bundle of sticks."
+      }
+    }
+  },
+  {
+    "id": "mk109",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Eine Maultrommel hält man an die Lippen. Was dient dabei als Resonanzraum, der den Klang formt?",
+    "options": [
+      "Ein Holzkasten",
+      "Die Mundhöhle",
+      "Ein Trichter aus Blech",
+      "Ein mit Luft gefüllter Beutel"
+    ],
+    "correct_index": 1,
+    "explanation": "Klang und Tonhöhe der Maultrommel werden durch die Mundhöhle beeinflusst. Sie dient als Resonanzraum, dessen Größe man verändern kann. Auch die Atmung verändert den Klang.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maultrommel",
+    "source_url": "https://de.wikipedia.org/wiki/Maultrommel",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A jaw harp is held against the lips. What serves as the resonating chamber that shapes the sound?",
+        "options": [
+          "A wooden box",
+          "The mouth cavity",
+          "A tin funnel",
+          "A bag filled with air"
+        ],
+        "explanation": "The sound and pitch of the jaw harp are shaped by the mouth cavity. It acts as a resonating chamber whose size you can change. Breathing also alters the sound."
+      }
+    }
+  },
+  {
+    "id": "mk110",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie bringt man beim Hackbrett die Saiten zum Klingen?",
+    "options": [
+      "Man bläst Luft über sie",
+      "Man streicht sie mit einem Bogen",
+      "Man zupft sie mit einem Plektrum",
+      "Man schlägt sie mit Klöppeln an"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Hackbrett ist eine Kastenzither, deren Saiten mit Klöppeln angeschlagen werden. Es ist also ein Saiteninstrument, wird wegen der Art der Tonerzeugung aber auch zu den Schlaginstrumenten gezählt.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hackbrett",
+    "source_url": "https://de.wikipedia.org/wiki/Hackbrett",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you make the strings of a hammered dulcimer (Hackbrett) sound?",
+        "options": [
+          "You blow air over them",
+          "You bow them",
+          "You pluck them with a plectrum",
+          "You strike them with small beaters"
+        ],
+        "explanation": "The hammered dulcimer is a box zither whose strings are struck with beaters. So it is a string instrument, but because of the way it produces sound it is also counted among the percussion instruments."
+      }
+    }
+  },
+  {
+    "id": "mk111",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Eine Panflöte besteht aus mehreren Röhren ohne Grifflöcher. Was bestimmt, wie hoch eine Röhre klingt?",
+    "options": [
+      "Ihre Länge",
+      "Ihre Farbe",
+      "Das Band, das die Röhren zusammenhält",
+      "Wie fest man die Flöte hält"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Panflöte besteht aus mehreren verbundenen Flöten ohne Grifflöcher, die unterschiedlich lang sind. Jede Röhre erzeugt einen Ton. Die Tonhöhe hängt von der Länge der schwingenden Luftsäule ab: Kurze Röhren klingen hoch, lange tief.",
+    "difficulty": 1,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Panflöte",
+    "source_url": "https://de.wikipedia.org/wiki/Panflöte",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A pan flute consists of several pipes without finger holes. What determines how high a pipe sounds?",
+        "options": [
+          "Its length",
+          "Its colour",
+          "The band that holds the pipes together",
+          "How firmly you hold the flute"
+        ],
+        "explanation": "The pan flute consists of several joined flutes of different lengths without finger holes. Each pipe produces one note. The pitch depends on the length of the vibrating column of air: short pipes sound high, long ones low."
+      }
+    }
+  },
+  {
+    "id": "mk112",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Die Marimba ist ein Schlaginstrument mit Klangplatten aus Holz. In welchem Land ist sie das Nationalinstrument?",
+    "options": [
+      "Spanien",
+      "Guatemala",
+      "Indonesien",
+      "Kuba"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Marimba ist das Nationalinstrument von Guatemala. Ihre hölzernen Klangplatten werden mit Schlägeln angeschlagen. Das Instrument geht auf afrikanische Vorläufer wie das Balafon zurück und wurde in Guatemala entwickelt.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marimba",
+    "source_url": "https://de.wikipedia.org/wiki/Marimba",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The marimba is a percussion instrument with wooden bars. In which country is it the national instrument?",
+        "options": [
+          "Spain",
+          "Guatemala",
+          "Indonesia",
+          "Cuba"
+        ],
+        "explanation": "The marimba is the national instrument of Guatemala. Its wooden bars are struck with mallets. The instrument goes back to African forerunners such as the balafon and was developed in Guatemala."
+      }
+    }
+  },
+  {
+    "id": "mk113",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Der Triangel ist ein Schlaginstrument in Form eines Dreiecks. Was ist an dieser Form besonders?",
+    "options": [
+      "Die Seiten sind unterschiedlich lang",
+      "An allen drei Ecken hängen Glöckchen",
+      "Eine Ecke ist offen",
+      "Er ist innen hohl und mit Sand gefüllt"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name kommt vom lateinischen „triangulum“ für „Dreieck“. Der Triangel besteht aus einem runden Stahlstab, der zu einem gleichseitigen Dreieck gebogen ist – an einer Ecke bleibt er offen.",
+    "difficulty": 1,
+    "tags": [
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Triangel",
+    "source_url": "https://de.wikipedia.org/wiki/Triangel",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The triangle is a percussion instrument shaped like a triangle. What is special about its shape?",
+        "options": [
+          "The sides are of different lengths",
+          "Little bells hang from all three corners",
+          "One corner is open",
+          "It is hollow inside and filled with sand"
+        ],
+        "explanation": "The name comes from the Latin 'triangulum' for 'triangle'. The instrument consists of a round steel rod bent into an equilateral triangle – with one corner left open."
+      }
+    }
   }
 ]
