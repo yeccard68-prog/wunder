@@ -1,0 +1,1601 @@
+[
+  {
+    "id": "b129",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Den ersten überlieferten Verkaufsautomaten baute Heron von Alexandria im 1. Jahrhundert. Was gab er nach dem Einwurf einer Münze aus?",
+    "options": [
+      "Wein",
+      "Weihwasser",
+      "Olivenöl",
+      "Getreide"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach dem Einwurf einer Tetradrachme gab der Automat jedes Mal die gleiche Menge Weihwasser ab. Heron nutzte dafür das Prinzip der kommunizierenden Gefäße.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Verkaufsautomat",
+    "source_url": "https://de.wikipedia.org/wiki/Verkaufsautomat",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Hero of Alexandria built the first recorded vending machine in the 1st century. What did it dispense after a coin was inserted?",
+        "options": [
+          "Wine",
+          "Holy water",
+          "Olive oil",
+          "Grain"
+        ],
+        "explanation": "After a tetradrachm was inserted, the machine dispensed the same amount of holy water each time. Hero used the principle of communicating vessels."
+      }
+    }
+  },
+  {
+    "id": "b130",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Von 1895 bis 1991 stand „Leipziger Messe“ für die Mustermesse. Was war daran neu?",
+    "options": [
+      "Bestellt wurde nur noch per Post, ganz ohne Messe",
+      "Alles wurde an den Meistbietenden versteigert",
+      "Es durften nur Waren aus Sachsen gezeigt werden",
+      "Händler zeigten nur noch Muster und schlossen darauf Verträge – geliefert wurde später"
+    ],
+    "correct_index": 3,
+    "explanation": "Händler reisten nun mit Produktmustern an. Die Waren wurden nicht mehr direkt vor Ort verkauft: Anhand der Muster schloss man Verträge, danach wurde die Ware in der vereinbarten Menge und Qualität geliefert. Die Mustermesse machte Leipzig zum Welthandelsplatz.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Leipzig"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leipziger Messe",
+    "source_url": "https://de.wikipedia.org/wiki/Leipziger Messe",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From 1895 to 1991, 'Leipzig Fair' meant the sample fair. What was new about it?",
+        "options": [
+          "Goods were only ordered by post, with no fair at all",
+          "Everything was auctioned off to the highest bidder",
+          "Only goods from Saxony could be shown",
+          "Traders only showed samples and signed contracts on them – the goods came later"
+        ],
+        "explanation": "Traders now arrived with product samples. Goods were no longer sold on the spot: contracts were made on the basis of the samples, and the goods were then delivered in the agreed quantity and quality. The sample fair made Leipzig a centre of world trade."
+      }
+    }
+  },
+  {
+    "id": "b131",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Der Unternehmer und Sozialreformer Robert Owen forderte schon in den 1810er Jahren den Achtstundentag. Wie lautete sein Slogan?",
+    "options": [
+      "Acht Stunden arbeiten, acht Stunden schlafen, acht Stunden Freizeit",
+      "Acht Stunden arbeiten, acht Stunden lernen, acht Stunden schlafen",
+      "Acht Stunden am Tag, sechs Tage die Woche",
+      "Wer acht Stunden arbeitet, bekommt acht Tage Urlaub"
+    ],
+    "correct_index": 0,
+    "explanation": "Owen prägte den Slogan „Acht Stunden arbeiten, acht Stunden schlafen und acht Stunden Freizeit und Erholung“. Der walisische Unternehmer formulierte die Forderung als Erster, damals in Großbritannien.",
+    "difficulty": 2,
+    "tags": [
+      "Arbeit",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Achtstundentag",
+    "source_url": "https://de.wikipedia.org/wiki/Achtstundentag",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Entrepreneur and social reformer Robert Owen called for an eight-hour day as early as the 1810s. What was his slogan?",
+        "options": [
+          "Eight hours' labour, eight hours' rest, eight hours' recreation",
+          "Eight hours' labour, eight hours' study, eight hours' sleep",
+          "Eight hours a day, six days a week",
+          "Work eight hours, get eight days' holiday"
+        ],
+        "explanation": "Owen coined the slogan 'Eight hours' labour, eight hours' recreation, eight hours' rest'. The Welsh entrepreneur was the first to make this demand, in Britain."
+      }
+    }
+  },
+  {
+    "id": "b132",
+    "kind": "question",
+    "category_id": "business",
+    "question": "1899 beantragte der Norweger Johan Vaaler ein Patent auf einen Vorläufer der Büroklammer. Was war an seiner Klammer anders als heute?",
+    "options": [
+      "Sie war aus Holz",
+      "Ihr fehlte die innere Windung, und sie war deutlich runder",
+      "Sie hatte eine Feder wie eine Wäscheklammer",
+      "Sie war dreieckig"
+    ],
+    "correct_index": 1,
+    "explanation": "Vaalers Klammer hatte noch nicht die heute übliche innere Windung und war deutlich runder. Vermarktet hat er sie nie. Industriell gefertigt wurden Büroklammern in England schon seit etwa 1890.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Büro"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Büroklammer",
+    "source_url": "https://de.wikipedia.org/wiki/Büroklammer",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1899 the Norwegian Johan Vaaler applied for a patent on a forerunner of the paper clip. How was his clip different from today's?",
+        "options": [
+          "It was made of wood",
+          "It lacked the inner loop and was much rounder",
+          "It had a spring like a clothes peg",
+          "It was triangular"
+        ],
+        "explanation": "Vaaler's clip did not yet have the inner loop that is usual today and was much rounder. He never marketed it. Paper clips had already been made industrially in England since about 1890."
+      }
+    }
+  },
+  {
+    "id": "b133",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Für welches Büro-Werkzeug erhielt Friedrich Soennecken 1886 ein Patent?",
+    "options": [
+      "Den Anspitzer",
+      "Den Tacker",
+      "Den Locher",
+      "Den Radiergummi"
+    ],
+    "correct_index": 2,
+    "explanation": "Friedrich Soennecken entwickelte in Bonn den ersten mechanischen und tragbaren Locher für Papier. Im November 1886 bekam er dafür das Patent – für einen Locher für Sammelmappen und Briefordner.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Büro"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Locher",
+    "source_url": "https://de.wikipedia.org/wiki/Locher",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "For which office tool did Friedrich Soennecken receive a patent in 1886?",
+        "options": [
+          "The pencil sharpener",
+          "The stapler",
+          "The hole punch",
+          "The eraser"
+        ],
+        "explanation": "In Bonn, Friedrich Soennecken developed the first mechanical, portable hole punch for paper. In November 1886 he was granted the patent – for a punch for files and binders."
+      }
+    }
+  },
+  {
+    "id": "b134",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein Bauchladen?",
+    "options": [
+      "Eine Theke, hinter der man sitzt",
+      "Ein kleines Geschäft im Erdgeschoss eines Hauses",
+      "Ein Imbiss, der nur Suppen verkauft",
+      "Ein Brett oder Kasten an einem Gurt vor dem Körper, aus dem man Waren verkauft"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Bauchladen ist ein Brett, ein Kasten oder Ähnliches, das an einem Gurt vor dem Körper getragen wird, um Waren anzubieten. Der Gurt läuft traditionell über den Nacken, und die Hinterkante stützt sich gegen den Bauch.",
+    "difficulty": 1,
+    "tags": [
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bauchladen",
+    "source_url": "https://de.wikipedia.org/wiki/Bauchladen",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a 'Bauchladen' (vendor's tray)?",
+        "options": [
+          "A counter you sit behind",
+          "A small shop on the ground floor of a house",
+          "A snack bar that only sells soup",
+          "A board or box worn on a strap in front of the body, used to sell goods"
+        ],
+        "explanation": "A vendor's tray is a board, box or similar carried in front of the body on a strap to offer goods. The strap traditionally goes round the neck, and the back edge rests against the belly (German 'Bauch')."
+      }
+    }
+  },
+  {
+    "id": "b135",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Das Wort „Maskottchen“ kommt vom französischen mascotte. Was bedeutet es?",
+    "options": [
+      "Glücksbringer",
+      "Verkleidung",
+      "Kuscheltier",
+      "Fahnenträger"
+    ],
+    "correct_index": 0,
+    "explanation": "Französisch mascotte bezeichnet eine Person, ein Tier oder einen Gegenstand als Glücksbringer. Das verwandte oberitalienische Wort masca bedeutet sogar ‚Hexe‘.",
+    "difficulty": 1,
+    "tags": [
+      "Wortherkunft",
+      "Marketing"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maskottchen",
+    "source_url": "https://de.wikipedia.org/wiki/Maskottchen",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German word 'Maskottchen' (mascot) comes from French 'mascotte'. What does it mean?",
+        "options": [
+          "Lucky charm",
+          "Disguise",
+          "Cuddly toy",
+          "Flag bearer"
+        ],
+        "explanation": "French 'mascotte' means a person, animal or object that brings luck. The related northern Italian word 'masca' even means 'witch'."
+      }
+    }
+  },
+  {
+    "id": "b136",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Warum heißt die Stempeluhr auch „Stechuhr“?",
+    "options": [
+      "Ihr Wecker klingelt stechend laut",
+      "Man sticht mit einem Dorn in ein Loch, das löst den Zeitstempel aus",
+      "Sie wurde zuerst in Kupferstecher-Werkstätten benutzt",
+      "Ihr Zeiger ist spitz wie ein Stachel"
+    ],
+    "correct_index": 1,
+    "explanation": "Mit einem „Stich“ des Dorns unter dem Zeigerende in das Loch der eigenen Personalnummer wird über einen Hebel der Zeitstempel auf einem Papierstreifen ausgelöst. So zeichnet die Uhr Arbeitsbeginn und Arbeitsende auf.",
+    "difficulty": 2,
+    "tags": [
+      "Arbeit",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stechuhr",
+    "source_url": "https://de.wikipedia.org/wiki/Stechuhr",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the German time clock ('Stempeluhr') also called 'Stechuhr' (stabbing clock)?",
+        "options": [
+          "Its alarm rings piercingly loud",
+          "You push a pin into a hole, which triggers the time stamp",
+          "It was first used in copper engravers' workshops",
+          "Its hand is pointed like a sting"
+        ],
+        "explanation": "A 'stab' of the pin under the end of the pointer into the hole for your staff number triggers, via a lever, the time stamp on a paper strip. That is how the clock records when work starts and ends."
+      }
+    }
+  },
+  {
+    "id": "e104",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Der Kreuzer war eine Münze im Süden des deutschen Sprachraums. Woher hat er seinen Namen?",
+    "options": [
+      "Man ritzte ihn zum Teilen kreuzweise ein",
+      "Von einem Münzmeister namens Kreuzer",
+      "Er wurde an Wegkreuzungen als Zoll bezahlt",
+      "Von einem Doppelkreuz auf der Vorderseite"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Kreuzer geht auf eine Groschenmünze zurück, die ab 1271 in Meran in Südtirol geprägt wurde. Wegen des Doppelkreuzes auf der Vorderseite bekam sie bald den Namen Kreuzer. Verbreitet war er im süddeutschen Raum, in Österreich und in der Schweiz.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Münzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreuzer (Münze)",
+    "source_url": "https://de.wikipedia.org/wiki/Kreuzer (Münze)",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The kreuzer was a coin in the south of the German-speaking world. Where does its name come from?",
+        "options": [
+          "It was scored crosswise to split it",
+          "From a mint master called Kreuzer",
+          "It was paid as a toll at crossroads",
+          "From a double cross on the front"
+        ],
+        "explanation": "The kreuzer goes back to a groschen coin minted from 1271 in Merano in South Tyrol. Because of the double cross ('Kreuz') on the front it soon got the name kreuzer. It was used in southern Germany, Austria and Switzerland."
+      }
+    }
+  },
+  {
+    "id": "e105",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Der Batzen wurde ab 1492 in Bern geprägt. Wie erklärte ein Berner Chronist seinen Namen?",
+    "options": [
+      "Mit dem Bären (Bëtz), dem Berner Wappentier auf der Münze",
+      "Mit dem Namen einer Brücke in Bern",
+      "Mit dem Namen des ersten Münzmeisters",
+      "Mit dem Geräusch, das die Münze beim Fallen macht"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Chronist Valerius Anshelm erklärte das Wort mit Bëtz «Bär»: Der Bär, das Wappentier des Kantons, war auf der Rückseite der Münze aufgeprägt. Das ist allerdings eine volkstümliche Erklärung. Ein Berner Batzen war zunächst vier Kreuzer wert.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Schweiz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Batzen",
+    "source_url": "https://de.wikipedia.org/wiki/Batzen",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The batzen was minted in Bern from 1492. How did a Bernese chronicler explain its name?",
+        "options": [
+          "With the bear ('Bëtz'), Bern's heraldic animal on the coin",
+          "With the name of a bridge in Bern",
+          "With the name of the first mint master",
+          "With the sound the coin makes when it falls"
+        ],
+        "explanation": "The chronicler Valerius Anshelm explained the word with 'Bëtz' (bear): the bear, the canton's heraldic animal, was stamped on the back of the coin. This is, however, a folk explanation. A Bernese batzen was at first worth four kreuzer."
+      }
+    }
+  },
+  {
+    "id": "e106",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Der Heller war eine frühere deutsche Münze im Wert eines halben Pfennigs. Woher hat er seinen Namen?",
+    "options": [
+      "Er glänzte heller als andere Münzen",
+      "Von der Stadt Schwäbisch Hall, wo er geprägt wurde",
+      "Von einem Münzmeister namens Heller",
+      "Von der Hölle, weil er so wenig wert war"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Heller ist nach seinem Prägeort benannt, der Stadt (Schwäbisch) Hall – lateinisch denarius hallensis. Viele Heller zeigten eine Hand und hießen deshalb auch „Händelheller“.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Münzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Heller (Münze)",
+    "source_url": "https://de.wikipedia.org/wiki/Heller (Münze)",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The heller was a former German coin worth half a pfennig. Where does its name come from?",
+        "options": [
+          "It shone brighter ('heller') than other coins",
+          "From the town of Schwäbisch Hall, where it was minted",
+          "From a mint master called Heller",
+          "From hell ('Hölle'), because it was worth so little"
+        ],
+        "explanation": "The heller is named after the place it was minted, the town of (Schwäbisch) Hall – in Latin 'denarius hallensis'. Many hellers showed a hand and were therefore also called 'Händelheller'."
+      }
+    }
+  },
+  {
+    "id": "e107",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Der Weltspartag geht auf einen internationalen Sparkassenkongress im Oktober 1924 zurück. Wo fand er statt?",
+    "options": [
+      "In Genf",
+      "In Wien",
+      "In Mailand",
+      "In London"
+    ],
+    "correct_index": 2,
+    "explanation": "Vom 26. bis 31. Oktober 1924 kamen in Mailand auf Einladung der dortigen Sparkasse 354 Delegierte aus 27 Ländern zusammen. Auf diesen Kongress geht die Idee des Weltspartags zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Sparen",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weltspartag",
+    "source_url": "https://de.wikipedia.org/wiki/Weltspartag",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "World Savings Day goes back to an international congress of savings banks in October 1924. Where was it held?",
+        "options": [
+          "In Geneva",
+          "In Vienna",
+          "In Milan",
+          "In London"
+        ],
+        "explanation": "From 26 to 31 October 1924, 354 delegates from 27 countries met in Milan at the invitation of the city's savings bank. The idea of World Savings Day goes back to this congress."
+      }
+    }
+  },
+  {
+    "id": "e108",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Nach dem „Taschengeldparagraphen“ dürfen Kinder ab 7 Jahren manches auch ohne ausdrückliche Zustimmung der Eltern kaufen. Unter welcher Bedingung?",
+    "options": [
+      "Sie kaufen nur Lebensmittel",
+      "Der Kauf kostet höchstens einen Euro",
+      "Ein Erwachsener steht daneben",
+      "Sie bezahlen mit Geld, das sie dafür oder zur freien Verfügung bekommen haben"
+    ],
+    "correct_index": 3,
+    "explanation": "Gemeint ist § 110 des Bürgerlichen Gesetzbuchs. Danach ist ein Vertrag, den ein Kind ab 7 Jahren schließt, von Anfang an wirksam, wenn es mit Mitteln bezahlt, die ihm zu diesem Zweck oder zur freien Verfügung überlassen wurden – etwa mit seinem Taschengeld.",
+    "difficulty": 2,
+    "tags": [
+      "Recht",
+      "Kinder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Taschengeldparagraf",
+    "source_url": "https://de.wikipedia.org/wiki/Taschengeldparagraf",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Under Germany's 'pocket money paragraph', children aged 7 and over may buy some things without their parents' express consent. On what condition?",
+        "options": [
+          "They only buy food",
+          "The purchase costs no more than one euro",
+          "An adult is standing next to them",
+          "They pay with money given to them for that purpose or to spend freely"
+        ],
+        "explanation": "This is section 110 of the German Civil Code. Under it, a contract made by a child aged 7 or older is valid from the start if the child pays with money given to them for that purpose or to use freely – such as their pocket money."
+      }
+    }
+  },
+  {
+    "id": "e109",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was war das Besondere an Brakteaten, Münzen aus dem Mittelalter?",
+    "options": [
+      "Sie waren aus dünnem Metallblech und nur auf einer Seite geprägt",
+      "Sie hatten ein Loch in der Mitte zum Auffädeln",
+      "Sie waren viereckig",
+      "Sie waren aus gebranntem Ton"
+    ],
+    "correct_index": 0,
+    "explanation": "Brakteaten wurden aus dünnem Metallblech, meist Silber, einseitig auf einer weichen Unterlage geprägt – anders als die beidseitig geprägten Denare. Der Name kommt von lateinisch bractea, ‚dünnes Metallblech‘. Im Deutschen hießen sie früher auch Hohlmünzen.",
+    "difficulty": 3,
+    "tags": [
+      "Geld",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brakteat",
+    "source_url": "https://de.wikipedia.org/wiki/Brakteat",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was special about bracteates, coins from the Middle Ages?",
+        "options": [
+          "They were made of thin sheet metal and struck on one side only",
+          "They had a hole in the middle for threading",
+          "They were square",
+          "They were made of fired clay"
+        ],
+        "explanation": "Bracteates were struck on one side only, from thin sheet metal – usually silver – on a soft base, unlike the denarii struck on both sides. The name comes from Latin 'bractea', 'thin sheet of metal'. In German they used to be called 'hollow coins' too."
+      }
+    }
+  },
+  {
+    "id": "e110",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie nennt man Falschgeld umgangssprachlich?",
+    "options": [
+      "Blätter",
+      "Knospen",
+      "Blüten",
+      "Zweige"
+    ],
+    "correct_index": 2,
+    "explanation": "Umgangssprachlich heißen falsche Geldscheine „Blüten“ – im Amtsdeutsch der Polizei allerdings nicht.",
+    "difficulty": 1,
+    "tags": [
+      "Geld",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Falschgeld",
+    "source_url": "https://de.wikipedia.org/wiki/Falschgeld",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is counterfeit money colloquially called in German?",
+        "options": [
+          "'Blätter' (leaves)",
+          "'Knospen' (buds)",
+          "'Blüten' (blossoms)",
+          "'Zweige' (twigs)"
+        ],
+        "explanation": "In everyday German, fake banknotes are called 'Blüten' (blossoms) – though not in official police language."
+      }
+    }
+  },
+  {
+    "id": "e111",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Warum erinnert das Zeichen £ für das britische Pfund an ein L?",
+    "options": [
+      "Es ist ein verschnörkeltes E für England",
+      "L steht für London",
+      "L steht für Lord",
+      "Es geht auf das L von lateinisch libra (Pfund) zurück"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Zeichen £ geht auf den Anfangsbuchstaben L des lateinischen Wortes libra zurück, das „Pfund“ bedeutet – mit einem einfachen oder doppelten Querstrich. Deshalb steht es auch für andere Währungen, deren Name von libra kommt.",
+    "difficulty": 1,
+    "tags": [
+      "Geld",
+      "Zeichen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pfundzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Pfundzeichen",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does the pound sign £ look like an L?",
+        "options": [
+          "It is a curly E for England",
+          "L stands for London",
+          "L stands for Lord",
+          "It goes back to the L of Latin 'libra' (pound)"
+        ],
+        "explanation": "The sign £ goes back to the initial L of the Latin word 'libra', meaning 'pound', with one or two crossbars. That is why it is also used for other currencies whose names come from 'libra'."
+      }
+    }
+  },
+  {
+    "id": "eg71",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Am 24. Februar 1943 entstand in Mexiko ein ganz neuer Vulkan, der Paricutín. Wo begann er zu wachsen?",
+    "options": [
+      "Auf einem Gletscher",
+      "Am Grund eines Sees",
+      "Mitten in einer Stadt",
+      "Auf einem Maisfeld"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Bauer und seine Frau erlebten auf ihrem Maisfeld die Geburt des Vulkans mit. Einen Tag später war er schon zehn Meter hoch, ein Jahr nach seiner Entstehung 336 Meter.",
+    "difficulty": 1,
+    "tags": [
+      "Vulkane",
+      "Mexiko"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paricutín",
+    "source_url": "https://de.wikipedia.org/wiki/Paricutín",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On 24 February 1943 a brand-new volcano, Parícutin, was born in Mexico. Where did it start to grow?",
+        "options": [
+          "On a glacier",
+          "At the bottom of a lake",
+          "In the middle of a town",
+          "In a cornfield"
+        ],
+        "explanation": "A farmer and his wife watched the volcano being born in their cornfield. One day later it was already ten metres high; a year after it formed it was 336 metres high."
+      }
+    }
+  },
+  {
+    "id": "eg72",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Die Insel Surtsey vor Island entstand ab November 1963 durch Vulkanausbrüche. Wer darf sie betreten?",
+    "options": [
+      "Nur Menschen, die dort forschen",
+      "Jeder, aber nur im Sommer",
+      "Nur Fischer aus Island",
+      "Niemand, weil sie noch zu heiß ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Surtsey darf ausschließlich zu wissenschaftlichen Zwecken betreten werden. Die Vulkaninsel liegt etwa 30 Kilometer vor der Südküste Islands und ist der südlichste Punkt des Landes.",
+    "difficulty": 2,
+    "tags": [
+      "Vulkane",
+      "Island"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Surtsey",
+    "source_url": "https://de.wikipedia.org/wiki/Surtsey",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The island of Surtsey off Iceland was formed by volcanic eruptions from November 1963. Who may set foot on it?",
+        "options": [
+          "Only people doing research there",
+          "Anyone, but only in summer",
+          "Only Icelandic fishermen",
+          "No one, because it is still too hot"
+        ],
+        "explanation": "Surtsey may only be visited for scientific purposes. The volcanic island lies about 30 kilometres off Iceland's south coast and is the country's southernmost point."
+      }
+    }
+  },
+  {
+    "id": "eg73",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Das „Brockengespenst“ ist ein optischer Effekt. Warum sieht man es gerade auf dem Brocken so oft?",
+    "options": [
+      "Dort gibt es besonders viele Gewitter",
+      "Der Brocken hat über 300 Nebeltage im Jahr",
+      "Der Berg besteht aus spiegelndem Gestein",
+      "Dort leuchten oft Polarlichter"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Brockengespenst wurde 1780 zuerst auf dem Brocken beschrieben. Man sieht es auch auf anderen Bergen oder bei Nebel im Licht von Autoscheinwerfern – der Brocken bietet mit über 300 Nebeltagen im Jahr aber eine besonders gute Chance. Oft umgibt dabei ein farbiger Lichtkranz, die Glorie, den Schatten. Auch Goethe wurde dort von seinem eigenen Brockengespenst erschreckt.",
+    "difficulty": 2,
+    "tags": [
+      "Wetter",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brockengespenst",
+    "source_url": "https://de.wikipedia.org/wiki/Brockengespenst",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'Brocken spectre' is an optical effect. Why is it seen so often on the Brocken in particular?",
+        "options": [
+          "There are especially many thunderstorms there",
+          "The Brocken has more than 300 foggy days a year",
+          "The mountain is made of reflective rock",
+          "Northern lights often shine there"
+        ],
+        "explanation": "The Brocken spectre was first described on the Brocken in 1780. It can also be seen on other mountains or in fog in the light of car headlights – but with more than 300 foggy days a year, the Brocken offers an especially good chance. A coloured ring of light, the glory, often surrounds the shadow. Even Goethe was startled there by his own Brocken spectre."
+      }
+    }
+  },
+  {
+    "id": "eg74",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Ein Maar ist eine schüssel- oder trichterförmige Mulde vulkanischen Ursprungs. Wie entsteht es?",
+    "options": [
+      "Durch eine eingestürzte Salzhöhle",
+      "Durch den Einschlag eines Meteoriten",
+      "Durch Wasserdampfexplosionen, wenn Grundwasser auf heißes Magma trifft",
+      "Durch einen Gletscher, der ein Loch ausschürft"
+    ],
+    "correct_index": 2,
+    "explanation": "Maare entstehen durch Wasserdampfexplosionen beim Zusammentreffen von Grundwasser und heißem Magma – meist in einer einzigen Explosionsperiode. In der Regel umgibt ein Ringwall aus ausgeworfenem Material die Mulde.",
+    "difficulty": 2,
+    "tags": [
+      "Vulkane",
+      "Landschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maar",
+    "source_url": "https://de.wikipedia.org/wiki/Maar",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A maar is a bowl- or funnel-shaped hollow of volcanic origin. How does it form?",
+        "options": [
+          "Through a collapsed salt cave",
+          "Through a meteorite impact",
+          "Through steam explosions when groundwater meets hot magma",
+          "Through a glacier scouring out a hole"
+        ],
+        "explanation": "Maars form through steam explosions when groundwater meets hot magma – usually in a single explosive phase. As a rule, a ring wall of ejected material surrounds the hollow."
+      }
+    }
+  },
+  {
+    "id": "eg75",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Erdpyramiden sind hohe Säulen aus weichem Material, oft mit einem Stein obendrauf. Warum bleiben sie stehen?",
+    "options": [
+      "Menschen haben sie als Denkmäler aufgeschüttet",
+      "Sie sind innen aus festem Fels",
+      "Pflanzenwurzeln halten die Säulen zusammen",
+      "Der Stein schützt das Material darunter, sodass es langsamer abgetragen wird"
+    ],
+    "correct_index": 3,
+    "explanation": "Regenwasser schneidet tiefe Furchen in den Hang. Blöcke aus festem Gestein schützen das feinkörnige Material darunter, das deshalb deutlich langsamer erodiert. So bleiben unter solchen Steinen mehr oder weniger hohe Säulen stehen.",
+    "difficulty": 2,
+    "tags": [
+      "Erosion",
+      "Gestein"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erdpyramide",
+    "source_url": "https://de.wikipedia.org/wiki/Erdpyramide",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Earth pyramids are tall columns of soft material, often with a stone on top. Why do they stay standing?",
+        "options": [
+          "People piled them up as monuments",
+          "They are made of solid rock inside",
+          "Plant roots hold the columns together",
+          "The stone protects the material beneath, so it wears away more slowly"
+        ],
+        "explanation": "Rainwater cuts deep furrows into the slope. Blocks of hard rock protect the fine-grained material beneath them, which therefore erodes much more slowly. So columns of varying height are left standing under such stones."
+      }
+    }
+  },
+  {
+    "id": "eg76",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Manchmal sieht man über einem Regenbogen einen zweiten, schwächeren Nebenregenbogen. Was ist bei ihm anders?",
+    "options": [
+      "Die Farben sind umgekehrt angeordnet",
+      "Er hat nur drei Farben",
+      "Er ist immer weiß",
+      "Er bewegt sich mit dem Wind"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Nebenregenbogen wird das Licht in den Tropfen zweimal reflektiert. Deshalb ist er lichtschwächer als der Hauptregenbogen und hat die umgekehrte Farbfolge.",
+    "difficulty": 1,
+    "tags": [
+      "Wetter",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Regenbogen",
+    "source_url": "https://de.wikipedia.org/wiki/Regenbogen",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Sometimes a second, fainter rainbow appears above a rainbow. What is different about it?",
+        "options": [
+          "Its colours are in reverse order",
+          "It has only three colours",
+          "It is always white",
+          "It moves with the wind"
+        ],
+        "explanation": "In the secondary rainbow, light is reflected twice inside the drops. That is why it is fainter than the primary rainbow and its colours run in reverse order."
+      }
+    }
+  },
+  {
+    "id": "eg77",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Der Lake Hillier in Australien ist ein rosafarbener Salzsee. Was passiert, wenn man sein Wasser in ein Gefäß füllt?",
+    "options": [
+      "Es wird sofort durchsichtig",
+      "Es bleibt rosa",
+      "Es wird blau",
+      "Es beginnt zu leuchten"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Farbe des Wassers ändert sich auch dann nicht, wenn man es entnimmt und in ein Gefäß gibt. Als Ursache gelten Nährstoffe sowie Bakterien und Algen im See. Der See ist 600 Meter lang.",
+    "difficulty": 1,
+    "tags": [
+      "Seen",
+      "Australien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lake Hillier",
+    "source_url": "https://de.wikipedia.org/wiki/Lake Hillier",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Lake Hillier in Australia is a pink salt lake. What happens if you put its water in a container?",
+        "options": [
+          "It turns clear at once",
+          "It stays pink",
+          "It turns blue",
+          "It starts to glow"
+        ],
+        "explanation": "The colour of the water does not change even when it is taken out and put into a container. Nutrients and certain bacteria and algae in the lake are thought to cause it. The lake is 600 metres long."
+      }
+    }
+  },
+  {
+    "id": "eg78",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "In der „Höhle der Kristalle“ in einem Bergwerk in Mexiko stehen riesige Kristalle aus Marienglas, einer Form von Gips. Wie lang sind die größten?",
+    "options": [
+      "Bis zu 50 Zentimeter",
+      "Bis zu 1,5 Meter",
+      "Bis zu 11,4 Meter",
+      "Bis zu 100 Meter"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Kristalle erreichen eine Länge von bis zu 11,4 Metern – nach anderen Quellen sogar 14 Metern – bei einem Durchmesser von zwei Metern. Die Höhle liegt 290 Meter tief und wurde erst im April 2000 entdeckt.",
+    "difficulty": 2,
+    "tags": [
+      "Kristalle",
+      "Höhlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cueva de los Cristales",
+    "source_url": "https://de.wikipedia.org/wiki/Cueva de los Cristales",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'Cave of the Crystals' in a mine in Mexico holds giant crystals of selenite, a form of gypsum. How long are the biggest ones?",
+        "options": [
+          "Up to 50 centimetres",
+          "Up to 1.5 metres",
+          "Up to 11.4 metres",
+          "Up to 100 metres"
+        ],
+        "explanation": "The crystals reach lengths of up to 11.4 metres – other sources even say 14 metres – with a diameter of two metres. The cave lies 290 metres deep and was only discovered in April 2000."
+      }
+    }
+  },
+  {
+    "id": "sp124",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Einer-Kunstradfahren zeigt man auf einem speziellen Hallenrad 30 Übungen in fünf Minuten. Was gehört dabei zu den einfachen Grundelementen?",
+    "options": [
+      "Freihändig bergab fahren",
+      "Über eine Schanze springen",
+      "Ein Sprint auf der Radrennbahn",
+      "Rückwärts fahren"
+    ],
+    "correct_index": 3,
+    "explanation": "Zu den einfachen Grundelementen gehören zum Beispiel Rückwärtsfahren und Stillstand. Dazu kommen Stände auf Sattel und Lenker und turnerische Elemente wie Handstände. Gefahren wird auf einem eigens dafür gebauten Hallenrad.",
+    "difficulty": 2,
+    "tags": [
+      "Radsport",
+      "Halle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kunstradfahren",
+    "source_url": "https://de.wikipedia.org/wiki/Kunstradfahren",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In single artistic cycling, riders perform 30 moves in five minutes on a special indoor bike. Which of these counts as a simple basic element?",
+        "options": [
+          "Riding downhill without hands",
+          "Jumping off a ramp",
+          "A sprint on the velodrome",
+          "Riding backwards"
+        ],
+        "explanation": "Simple basic elements include riding backwards and standing still. There are also stands on the saddle and handlebars and gymnastic moves such as handstands. The sport is done on an indoor bike built specially for it."
+      }
+    }
+  },
+  {
+    "id": "sp125",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wozu dient eigentlich das Netz am Fußballtor?",
+    "options": [
+      "Damit alle besser sehen, ob ein Schuss im Tor oder daneben war",
+      "Damit das Tor bei Wind nicht umkippt",
+      "Damit sich der Torwart daran festhalten kann",
+      "Damit der Ball langsamer wird und nicht platzt"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Netz soll dem Schiedsrichter und allen anderen die Wahrnehmung erleichtern, ob ein Schuss in oder neben das Tor ging. Es hängt hinter dem Tor und ist an den Pfosten, an der Querlatte und am Boden befestigt.",
+    "difficulty": 1,
+    "tags": [
+      "Fußball",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußballtor",
+    "source_url": "https://de.wikipedia.org/wiki/Fußballtor",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the net on a football goal actually for?",
+        "options": [
+          "So everyone can see more easily whether a shot went in or wide",
+          "So the goal doesn't blow over in the wind",
+          "So the goalkeeper can hold on to it",
+          "So the ball slows down and doesn't burst"
+        ],
+        "explanation": "The net makes it easier for the referee and everyone else to see whether a shot went into the goal or past it. It hangs behind the goal and is fixed to the posts, the crossbar and the ground."
+      }
+    }
+  },
+  {
+    "id": "sp126",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Die Queensberry-Regeln wurden 1867 veröffentlicht und sind die Grundlage des modernen Boxens. Was legen sie unter anderem fest?",
+    "options": [
+      "Kämpfe ohne Handschuhe, aber mit Kopfschutz",
+      "Boxhandschuhe, Auszählen bis zehn und Runden von drei Minuten",
+      "Zwölf Runden zu je fünf Minuten ohne Pause",
+      "Geschlagen werden darf nur mit der linken Hand"
+    ],
+    "correct_index": 1,
+    "explanation": "Zu den Regeln gehören das Tragen von Boxhandschuhen, das Auszählen bis zehn bei einem Niederschlag und Runden von drei Minuten mit einer Minute Pause. Entworfen wurden sie 1865, seit 1892 wird nur noch nach ihnen geboxt.",
+    "difficulty": 2,
+    "tags": [
+      "Boxen",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Queensberry-Regeln",
+    "source_url": "https://de.wikipedia.org/wiki/Queensberry-Regeln",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Queensberry Rules were published in 1867 and are the basis of modern boxing. What do they lay down, among other things?",
+        "options": [
+          "Bare-knuckle fights, but with headguards",
+          "Boxing gloves, a count of ten and three-minute rounds",
+          "Twelve five-minute rounds without a break",
+          "Punches may only be thrown with the left hand"
+        ],
+        "explanation": "The rules include wearing boxing gloves, counting to ten after a knockdown, and three-minute rounds with a one-minute break. They were drawn up in 1865; since 1892 boxing has followed only these rules."
+      }
+    }
+  },
+  {
+    "id": "sp127",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wessen Unterschrift trägt die Ehrenurkunde der Bundesjugendspiele?",
+    "options": [
+      "Die einer berühmten Olympiasiegerin",
+      "Die der Bundeskanzlerin oder des Bundeskanzlers",
+      "Die des Bundespräsidenten",
+      "Die des Präsidenten des Fußballbundes"
+    ],
+    "correct_index": 2,
+    "explanation": "Wer eine bestimmte Mindestpunktzahl schafft, bekommt eine Siegerurkunde, ab einer höheren Punktzahl eine Ehrenurkunde. Die Ehrenurkunden tragen eine gedruckte Unterschrift des Bundespräsidenten.",
+    "difficulty": 1,
+    "tags": [
+      "Schule",
+      "Leichtathletik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bundesjugendspiele",
+    "source_url": "https://de.wikipedia.org/wiki/Bundesjugendspiele",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Whose signature is on the certificate of honour of Germany's Federal Youth Games?",
+        "options": [
+          "A famous Olympic champion's",
+          "The Federal Chancellor's",
+          "The Federal President's",
+          "The president of the football association's"
+        ],
+        "explanation": "Anyone who reaches a certain minimum score gets a winner's certificate; above a higher score, a certificate of honour. The certificates of honour bear a printed signature of the Federal President."
+      }
+    }
+  },
+  {
+    "id": "sp128",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Früher gehörte im Eiskunstlauf die „Pflicht“ zu den Wettbewerben. Was mussten die Läuferinnen und Läufer dabei tun?",
+    "options": [
+      "Mit verbundenen Augen eine Runde fahren",
+      "Eine bestimmte Strecke so schnell wie möglich laufen",
+      "Mindestens drei Dreifachsprünge zeigen",
+      "Vorgegebene Figuren möglichst exakt ins Eis zeichnen"
+    ],
+    "correct_index": 3,
+    "explanation": "In der Pflicht mussten vorgegebene Figuren möglichst exakt gelaufen werden – die Läufer zeichneten sie ins Eis, Grundlage aller Figuren war ein Kreis. Von der kunstvollen Ausführung dieser Figuren hat die Sportart ihren Namen. 1990 beschloss die Internationale Eislaufunion, die Pflicht abzuschaffen.",
+    "difficulty": 2,
+    "tags": [
+      "Eiskunstlauf",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pflicht (Eiskunstlauf)",
+    "source_url": "https://de.wikipedia.org/wiki/Pflicht (Eiskunstlauf)",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Figure skating once included the 'compulsory figures'. What did skaters have to do?",
+        "options": [
+          "Skate a lap blindfolded",
+          "Skate a set distance as fast as possible",
+          "Show at least three triple jumps",
+          "Trace set figures on the ice as precisely as possible"
+        ],
+        "explanation": "In the compulsory figures, set figures had to be skated as precisely as possible – skaters traced them into the ice, and every figure was based on a circle. The sport takes its name from the artful execution of these figures. In 1990 the International Skating Union decided to drop them."
+      }
+    }
+  },
+  {
+    "id": "sp129",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Für Minigolf gibt es genormte Anlagen nach dem System eines Schweizer Gartenarchitekten. Wo wurde 1954 die älteste noch bestehende Anlage dieser Art eröffnet?",
+    "options": [
+      "In Ascona",
+      "In Hamburg",
+      "In Wien",
+      "In Rimini"
+    ],
+    "correct_index": 0,
+    "explanation": "Die älteste Minigolfanlage nach diesem System wurde am 19. März 1954 in Ascona eröffnet und besteht bis heute. Eine solche Anlage hat 18 genormte Bahnen, die meisten 12 m lang und 1,25 m breit.",
+    "difficulty": 2,
+    "tags": [
+      "Minigolf",
+      "Schweiz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Minigolf",
+    "source_url": "https://de.wikipedia.org/wiki/Minigolf",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Minigolf has standardised courses built to a system devised by a Swiss garden architect. Where did the oldest surviving course of this kind open in 1954?",
+        "options": [
+          "In Ascona",
+          "In Hamburg",
+          "In Vienna",
+          "In Rimini"
+        ],
+        "explanation": "The oldest minigolf course built to this system opened on 19 March 1954 in Ascona and still exists today. Such a course has 18 standardised lanes, most of them 12 m long and 1.25 m wide."
+      }
+    }
+  },
+  {
+    "id": "sp130",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Fingerhakeln versuchen zwei Gegner, sich am Finger über einen Tisch zu ziehen. Mit welchem Finger wird bevorzugt gehakelt?",
+    "options": [
+      "Mit dem kleinen Finger",
+      "Mit dem Daumen",
+      "Mit dem Mittelfinger",
+      "Mit dem Ringfinger"
+    ],
+    "correct_index": 2,
+    "explanation": "Gehakelt wird nach den Turnierregeln mit einem etwa 10 cm langen Lederriemen. Erlaubt ist jeder Finger außer dem Daumen, bevorzugt wird der Mittelfinger.",
+    "difficulty": 1,
+    "tags": [
+      "Brauchtum",
+      "Kraftsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fingerhakeln",
+    "source_url": "https://de.wikipedia.org/wiki/Fingerhakeln",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In finger wrestling ('Fingerhakeln'), two opponents try to pull each other across a table by a finger. Which finger is preferred?",
+        "options": [
+          "The little finger",
+          "The thumb",
+          "The middle finger",
+          "The ring finger"
+        ],
+        "explanation": "Under tournament rules, the pull is done with a leather strap about 10 cm long. Any finger except the thumb is allowed; the middle finger is preferred."
+      }
+    }
+  },
+  {
+    "id": "sp131",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bei den Highland Games in Schottland gibt es den „Caber Toss“. Was wird dabei geworfen?",
+    "options": [
+      "Ein Heuballen",
+      "Ein Hammer",
+      "Ein Stein",
+      "Ein Baumstamm"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Caber Toss wird ein Baumstamm mit dem dickeren Ende nach oben aufrecht gehalten. Der Werfer versucht, ihn so hochzuschleudern, dass er mit dem dicken Ende zuerst aufkommt und dann in gerader Linie von ihm weg fällt – in die „Zwölf-Uhr-Position“.",
+    "difficulty": 1,
+    "tags": [
+      "Schottland",
+      "Kraftsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Highland Games",
+    "source_url": "https://de.wikipedia.org/wiki/Highland Games",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At the Highland Games in Scotland there is the 'caber toss'. What is thrown?",
+        "options": [
+          "A bale of hay",
+          "A hammer",
+          "A stone",
+          "A tree trunk"
+        ],
+        "explanation": "In the caber toss, a tree trunk is held upright with the thicker end at the top. The thrower tries to toss it so that it lands thick end first and then falls straight away from them – into the 'twelve o'clock' position."
+      }
+    }
+  },
+  {
+    "id": "kn110",
+    "kind": "question",
+    "category_id": "art",
+    "question": "1868 ließ sich ein Drucker aus Birmingham das Daumenkino patentieren. Unter welchem Namen?",
+    "options": [
+      "Thaumatrop",
+      "Zoetrop",
+      "Kineograph",
+      "Praxinoskop"
+    ],
+    "correct_index": 2,
+    "explanation": "John Barnes Linnett erhielt am 18. März 1868 das erste Patent für ein „flip book“ – unter dem Namen „The Kineograph – a new optical Illusion“.",
+    "difficulty": 3,
+    "tags": [
+      "Animation",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Daumenkino",
+    "source_url": "https://de.wikipedia.org/wiki/Daumenkino",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1868 a printer from Birmingham patented the flip book. Under what name?",
+        "options": [
+          "Thaumatrope",
+          "Zoetrope",
+          "Kineograph",
+          "Praxinoscope"
+        ],
+        "explanation": "John Barnes Linnett received the first patent for a flip book on 18 March 1868, under the name 'The Kineograph – a new optical illusion'."
+      }
+    }
+  },
+  {
+    "id": "kn111",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie entsteht beim Zoetrop, der „Wundertrommel“, ein bewegtes Bild?",
+    "options": [
+      "Ein Spiegel dreht sich vor einem einzelnen Bild",
+      "Eine Kerze wirft Schatten von Figuren an die Wand",
+      "Man blättert ein Heft mit dem Daumen schnell durch",
+      "Man blickt durch Schlitze einer sich drehenden Trommel auf Bilder an der Innenwand"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Zoetrop ist eine dunkle, oben offene Trommel mit engen Schlitzen am Rand. Innen liegt ein Papierstreifen mit gezeichneten Bewegungsphasen. Dreht sich die Trommel, blickt man durch die vorbeiziehenden Schlitze auf die Bilder – wie beim Daumenkino entsteht so die Illusion einer fließenden Bewegung.",
+    "difficulty": 2,
+    "tags": [
+      "Animation",
+      "Optik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zoetrop",
+    "source_url": "https://de.wikipedia.org/wiki/Zoetrop",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a zoetrope ('wonder drum') create a moving picture?",
+        "options": [
+          "A mirror turns in front of a single picture",
+          "A candle casts shadows of figures on the wall",
+          "You flick quickly through a booklet with your thumb",
+          "You look through slits in a spinning drum at pictures on the inside wall"
+        ],
+        "explanation": "A zoetrope is a dark drum, open at the top, with narrow slits round its edge. Inside lies a paper strip with drawn stages of a movement. As the drum turns, you look through the passing slits at the pictures – as with a flip book, this creates the illusion of smooth movement."
+      }
+    }
+  },
+  {
+    "id": "kn112",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Auf Raffaels Gemälde „Sixtinische Madonna“ sind zwei Figuren berühmter als das ganze Bild. Welche?",
+    "options": [
+      "Die zwei kleinen Engel am unteren Bildrand",
+      "Zwei Wächter an einem Tor",
+      "Zwei Tauben über der Madonna",
+      "Zwei Hirten im Hintergrund"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Gemälde als Ganzes kennen viele weniger gut als die beiden Puttenfiguren am unteren Bildrand – Raffaels Engel. Sie tauchen als eigenes Motiv millionenfach in der Werbung, auf Postern und Postkarten auf. Das Bild hängt in Dresden.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Renaissance"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sixtinische Madonna",
+    "source_url": "https://de.wikipedia.org/wiki/Sixtinische Madonna",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On Raphael's 'Sistine Madonna', two figures are more famous than the whole painting. Which?",
+        "options": [
+          "The two little angels at the bottom edge",
+          "Two guards at a gate",
+          "Two doves above the Madonna",
+          "Two shepherds in the background"
+        ],
+        "explanation": "Many people know the painting as a whole less well than the two putti at the bottom edge – Raphael's angels. As a motif of their own they appear millions of times in advertising and on posters and postcards. The painting hangs in Dresden."
+      }
+    }
+  },
+  {
+    "id": "kn113",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Im März 2019 kam beim Brüsseler Manneken Pis etwas Überraschendes heraus. Was?",
+    "options": [
+      "Die Figur war innen voller alter Münzen",
+      "Sein Wasser lief nicht im Kreislauf – Trinkwasser floss in den Kanal",
+      "Die Statue war jahrhundertelang aus Holz",
+      "Das Wasser kam aus einer Heilquelle"
+    ],
+    "correct_index": 1,
+    "explanation": "Anders als angenommen hatte der Brunnen keinen geschlossenen Wasserkreislauf. Demnach leitete die Statue täglich 1500 bis 2500 Liter Trinkwasser in den Kanal. Brüssel baute daraufhin ein geschlossenes System. Die 61 Zentimeter hohe Bronzefigur stammt von 1619.",
+    "difficulty": 2,
+    "tags": [
+      "Skulptur",
+      "Belgien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Manneken Pis",
+    "source_url": "https://de.wikipedia.org/wiki/Manneken Pis",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In March 2019 something surprising came to light about the Manneken Pis in Brussels. What?",
+        "options": [
+          "The figure was full of old coins inside",
+          "Its water did not circulate – drinking water ran into the sewer",
+          "The statue had been made of wood for centuries",
+          "The water came from a healing spring"
+        ],
+        "explanation": "Contrary to what had been assumed, the fountain had no closed water circuit. Accordingly, the statue sent 1,500 to 2,500 litres of drinking water a day into the sewer. Brussels then built a closed system. The 61-centimetre bronze figure dates from 1619."
+      }
+    }
+  },
+  {
+    "id": "kn114",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Bonsai gilt als japanische Kunst. Wo ist sie ursprünglich entstanden?",
+    "options": [
+      "In Indien",
+      "In Korea",
+      "In China",
+      "In Vietnam"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Bonsai werden Sträucher und Bäume in kleinen Gefäßen gezogen, im Wuchs begrenzt und kunstvoll geformt. Diese Kunstform entstand ursprünglich im Kaiserreich China, wo sie Penjing heißt.",
+    "difficulty": 2,
+    "tags": [
+      "Gartenkunst",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bonsai",
+    "source_url": "https://de.wikipedia.org/wiki/Bonsai",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Bonsai is seen as a Japanese art. Where did it originate?",
+        "options": [
+          "In India",
+          "In Korea",
+          "In China",
+          "In Vietnam"
+        ],
+        "explanation": "In bonsai, shrubs and trees are grown in small containers, kept small and artfully shaped. This art form originated in imperial China, where it is called penjing."
+      }
+    }
+  },
+  {
+    "id": "kn115",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Sandmandalas entstehen in stunden-, manchmal wochenlanger Arbeit. Was geschieht danach mit ihnen?",
+    "options": [
+      "Sie werden an Pilger verkauft",
+      "Sie werden mit Harz haltbar gemacht",
+      "Sie kommen in ein Museum",
+      "Sie werden wieder weggewischt"
+    ],
+    "correct_index": 3,
+    "explanation": "Entscheidend bei Sandmandalas ist das Wegwischen der fertigen Werke. Damit sollen die Vergänglichkeit des Lebens und das Lösen von der materiellen Welt symbolisch vollzogen werden.",
+    "difficulty": 2,
+    "tags": [
+      "Buddhismus",
+      "Vergänglichkeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mandala",
+    "source_url": "https://de.wikipedia.org/wiki/Mandala",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Sand mandalas take hours, sometimes weeks of work. What happens to them afterwards?",
+        "options": [
+          "They are sold to pilgrims",
+          "They are fixed with resin to last",
+          "They go into a museum",
+          "They are swept away again"
+        ],
+        "explanation": "What matters with sand mandalas is sweeping away the finished work. It symbolically enacts the impermanence of life and letting go of the material world."
+      }
+    }
+  },
+  {
+    "id": "kn116",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Die Cueva de las Manos in Argentinien heißt übersetzt „Höhle der Hände“. Woher hat sie diesen Namen?",
+    "options": [
+      "Ein Großteil ihrer Malereien zeigt Hände",
+      "Ihr Eingang sieht aus wie eine Hand",
+      "Man muss auf Händen hineinkriechen",
+      "Fünf Gänge gehen von ihr ab wie Finger"
+    ],
+    "correct_index": 0,
+    "explanation": "Ihren Namen erhielt die Höhle, weil ein Großteil ihrer Höhlenmalereien aus Handnegativen besteht – Umrissen von Händen. Die Malereien sind etwa 9.000 bis 3.000 Jahre alt; seit 1999 gehört die Höhle zum UNESCO-Weltkulturerbe.",
+    "difficulty": 1,
+    "tags": [
+      "Höhlenmalerei",
+      "Argentinien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cueva de las Manos",
+    "source_url": "https://de.wikipedia.org/wiki/Cueva de las Manos",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Argentina's Cueva de las Manos means 'Cave of the Hands'. Where does the name come from?",
+        "options": [
+          "Most of its paintings show hands",
+          "Its entrance looks like a hand",
+          "You have to crawl in on your hands",
+          "Five passages branch off it like fingers"
+        ],
+        "explanation": "The cave got its name because most of its paintings are hand stencils – outlines of hands. The paintings are roughly 9,000 to 3,000 years old; since 1999 the cave has been a UNESCO World Heritage Site."
+      }
+    }
+  },
+  {
+    "id": "kn117",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Mehndi ist eine kunstvolle Bemalung der Haut, etwa zur Hochzeit. Womit wird gemalt?",
+    "options": [
+      "Mit Kohle",
+      "Mit Henna",
+      "Mit Tinte",
+      "Mit Kreide"
+    ],
+    "correct_index": 1,
+    "explanation": "Mehndi ist die ornamentale Körperbemalung mit Henna und schon seit dem Altertum bekannt. In vielen Ländern bekommt die Braut zur Hochzeit in der „Henna-Nacht“ eine kunstvolle Bemalung auf Händen und Füßen.",
+    "difficulty": 1,
+    "tags": [
+      "Körperkunst",
+      "Indien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mehndi",
+    "source_url": "https://de.wikipedia.org/wiki/Mehndi",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Mehndi is an artful way of painting the skin, for example for a wedding. What is used to paint?",
+        "options": [
+          "Charcoal",
+          "Henna",
+          "Ink",
+          "Chalk"
+        ],
+        "explanation": "Mehndi is ornamental body painting with henna and has been known since ancient times. In many countries the bride is given elaborate henna designs on her hands and feet for her wedding, on the 'henna night'."
+      }
+    }
+  }
+]
