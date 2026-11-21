@@ -84670,5 +84670,1605 @@
         "explanation": "Mehndi is ornamental body painting with henna and has been known since ancient times. In many countries the bride is given elaborate henna designs on her hands and feet for her wedding, on the 'henna night'."
       }
     }
+  },
+  {
+    "id": "hg29",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Im September 1666 zerstörte ein Großbrand fast die ganze mittelalterliche City of London. Wo brach das Feuer aus?",
+    "options": [
+      "In einer Kerzenzieherei an der Themse",
+      "In einer Bäckerei in der Pudding Lane",
+      "In einer Schmiede am Stadttor",
+      "In einer Brauerei bei der London Bridge"
+    ],
+    "correct_index": 1,
+    "explanation": "Kurz nach Mitternacht am 2. September 1666 brach in einer Bäckerei in der Pudding Lane ein Feuer aus. Die Bewohner flohen durch ein Fenster im Obergeschoss ins Nachbarhaus. Das Feuer zerstörte die mittelalterliche City of London fast vollständig.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "England"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Brand von London",
+    "source_url": "https://de.wikipedia.org/wiki/Großer Brand von London",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In September 1666, a great fire destroyed almost all of the medieval City of London. Where did the fire start?",
+        "options": [
+          "In a candle maker's workshop on the Thames",
+          "In a bakery on Pudding Lane",
+          "In a forge by the city gate",
+          "In a brewery near London Bridge"
+        ],
+        "explanation": "Shortly after midnight on 2 September 1666, a fire broke out in a bakery on Pudding Lane. The people living there escaped through an upstairs window into the house next door. The fire destroyed the medieval City of London almost completely."
+      }
+    }
+  },
+  {
+    "id": "hg30",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Laut einem Bericht in der Londoner Times von 1949 wurden die ersten Schriftrollen vom Toten Meer 1947 zufällig gefunden. Wie?",
+    "options": [
+      "Ein Sturm legte am Ufer eine verschüttete Holzkiste frei",
+      "Ein Fischer zog einen Krug mit Schriftrollen aus dem Toten Meer",
+      "Bauarbeiter stießen beim Straßenbau auf ein altes Grab",
+      "Ein junger Beduine suchte eine Ziege und warf einen Stein in eine Höhle"
+    ],
+    "correct_index": 3,
+    "explanation": "Auf der Suche nach einer Ziege fand ein junger Beduine im Frühsommer 1947 den Eingang einer Höhle. Er warf einen Stein hinein und hörte Keramik zerbrechen. In Krügen fanden er und ein zweiter Beduine acht Schriftrollen.",
+    "difficulty": 2,
+    "tags": [
+      "Archäologie",
+      "Schriften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schriftrollen vom Toten Meer",
+    "source_url": "https://de.wikipedia.org/wiki/Schriftrollen vom Toten Meer",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to a report in the London Times in 1949, the first Dead Sea Scrolls were found by chance in 1947. How?",
+        "options": [
+          "A storm uncovered a buried wooden chest on the shore",
+          "A fisherman pulled a jar of scrolls out of the Dead Sea",
+          "Road builders came across an ancient tomb",
+          "A young Bedouin looking for a goat threw a stone into a cave"
+        ],
+        "explanation": "In early summer 1947, a young Bedouin looking for a goat found the entrance to a cave. He threw a stone inside and heard pottery break. In jars, he and a second Bedouin found eight scrolls."
+      }
+    }
+  },
+  {
+    "id": "hg31",
+    "kind": "question",
+    "category_id": "history",
+    "question": "1950 fanden Torfstecher in Dänemark eine Moorleiche, die so gut erhalten war, dass man an ein Verbrechen aus der Gegenwart dachte. Aus welcher Zeit stammt der „Tollund-Mann“ wirklich?",
+    "options": [
+      "Aus der vorrömischen Eisenzeit",
+      "Aus der Wikingerzeit",
+      "Aus dem späten Mittelalter",
+      "Aus der Altsteinzeit"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Moorleiche wurde im Mai 1950 in einem Hochmoor entdeckt. Sie war so gut erhalten, dass man sie zuerst für ein Mordopfer aus der Gegenwart hielt. Radiokarbondatierungen ergaben aber einen wahrscheinlichen Todeszeitraum von 405–380 v. Chr. – also in der vorrömischen Eisenzeit.",
+    "difficulty": 2,
+    "tags": [
+      "Archäologie",
+      "Dänemark"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tollund-Mann",
+    "source_url": "https://de.wikipedia.org/wiki/Tollund-Mann",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1950, peat cutters in Denmark found a bog body so well preserved that it was thought to be a recent crime. From which period does the 'Tollund Man' really come?",
+        "options": [
+          "The pre-Roman Iron Age",
+          "The Viking Age",
+          "The late Middle Ages",
+          "The Old Stone Age"
+        ],
+        "explanation": "The bog body was discovered in May 1950 in a raised bog. It was so well preserved that it was first taken for a present-day murder victim. Radiocarbon dating, however, gave a probable time of death of 405–380 BC – which lies in the pre-Roman Iron Age."
+      }
+    }
+  },
+  {
+    "id": "hg32",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Der Codex Gigas ist mit 92 cm Höhe das größte bekannte mittelalterliche Manuskript. Unter welchem Spitznamen ist er auch bekannt?",
+    "options": [
+      "Engelsbuch",
+      "Teufelsbibel",
+      "Sternenbibel",
+      "Mönchsbrevier"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Name Teufelsbibel kommt von einer berühmten ganzseitigen Abbildung des Teufels im Buch. Geschrieben wurde es vermutlich im frühen 13. Jahrhundert in einem Benediktinerkloster in Böhmen. Der Kodex ist fast 75 kg schwer.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter",
+      "Bücher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Codex Gigas",
+    "source_url": "https://de.wikipedia.org/wiki/Codex Gigas",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At 92 cm tall, the Codex Gigas is the largest known medieval manuscript. What nickname is it also known by?",
+        "options": [
+          "The Book of Angels",
+          "The Devil's Bible",
+          "The Star Bible",
+          "The Monk's Breviary"
+        ],
+        "explanation": "The name Devil's Bible comes from a famous full-page picture of the devil in the book. It was probably written in the early 13th century in a Benedictine monastery in Bohemia. The codex weighs almost 75 kg."
+      }
+    }
+  },
+  {
+    "id": "hg33",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Der Stecknitzkanal wurde von 1392 bis 1398 zwischen Lübeck und Lauenburg gebaut. Welche Ware wurde 1398 erstmals darauf nach Lübeck gebracht?",
+    "options": [
+      "Wein vom Rhein",
+      "Bernstein von der Ostsee",
+      "Salz aus Lüneburg",
+      "Eisenerz aus dem Harz"
+    ],
+    "correct_index": 2,
+    "explanation": "1398 wurde in einer fünfwöchigen Fahrt erstmals Salz aus Lüneburg nach Lübeck transportiert. Damit löste der Kanal die Alte Salzstraße als wichtigsten Transportweg für das Lüneburger Salz ab.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stecknitzkanal",
+    "source_url": "https://de.wikipedia.org/wiki/Stecknitzkanal",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Stecknitz Canal was built between 1392 and 1398 between Lübeck and Lauenburg. Which goods were first shipped along it to Lübeck in 1398?",
+        "options": [
+          "Wine from the Rhine",
+          "Amber from the Baltic",
+          "Salt from Lüneburg",
+          "Iron ore from the Harz"
+        ],
+        "explanation": "In 1398, salt from Lüneburg was shipped to Lübeck for the first time, on a journey that took five weeks. The canal thus replaced the Old Salt Road as the main route for Lüneburg salt."
+      }
+    }
+  },
+  {
+    "id": "hg34",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Bergen in Norwegen wurde im Mittelalter ein wichtiger Umschlagplatz für eine Ware aus dem Norden des Landes. Welche?",
+    "options": [
+      "Baumwolle",
+      "Olivenöl",
+      "Seide",
+      "Getrockneter Fisch"
+    ],
+    "correct_index": 3,
+    "explanation": "Bergen, gegründet 1070, wurde ein wichtiger Umschlagplatz für getrockneten Fisch aus dem Norden Norwegens und Getreide aus dem Ostseeraum. 1343 errichtete die Hanse dort eine erste Handelsniederlassung. Ihre ehemaligen Kontore heißen Bryggen.",
+    "difficulty": 1,
+    "tags": [
+      "Hanse",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bryggen",
+    "source_url": "https://de.wikipedia.org/wiki/Bryggen",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Middle Ages, Bergen in Norway became an important trading hub for a product from the north of the country. Which one?",
+        "options": [
+          "Cotton",
+          "Olive oil",
+          "Silk",
+          "Dried fish"
+        ],
+        "explanation": "Bergen, founded in 1070, became an important trading hub for dried fish from northern Norway and grain from the Baltic region. In 1343, the Hanseatic League set up its first trading post there. Its former trading offices are called Bryggen."
+      }
+    }
+  },
+  {
+    "id": "hg35",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die Cloaca Maxima ist ein antiker Kanal in Rom. Was bedeutet ihr Name wörtlich?",
+    "options": [
+      "Größter Abwasserkanal",
+      "Längste Wasserleitung",
+      "Heiliger Fluss",
+      "Großes Badehaus"
+    ],
+    "correct_index": 0,
+    "explanation": "Cloaca Maxima heißt wörtlich „größter Abwasserkanal“ – davon ist auch das deutsche Wort Kloake abgeleitet. Der Kanal ist bis zu 3 m breit, mehr als 4 m hoch und mündet in den Tiber.",
+    "difficulty": 2,
+    "tags": [
+      "Antike",
+      "Rom"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cloaca Maxima",
+    "source_url": "https://de.wikipedia.org/wiki/Cloaca Maxima",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Cloaca Maxima is an ancient channel in Rome. What does its name literally mean?",
+        "options": [
+          "Greatest sewer",
+          "Longest aqueduct",
+          "Sacred river",
+          "Great bathhouse"
+        ],
+        "explanation": "Cloaca Maxima literally means 'greatest sewer' – the German word Kloake (sewer) comes from it. The channel is up to 3 m wide and more than 4 m high, and it flows into the Tiber."
+      }
+    }
+  },
+  {
+    "id": "hg36",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die Linearschrift B war die Silbenschrift der mykenischen Kultur. 1952 wurde sie entziffert. In welcher Sprache sind die Texte geschrieben?",
+    "options": [
+      "In Altägyptisch",
+      "In einer frühen Form des Griechischen",
+      "In Phönizisch",
+      "In einer sonst unbekannten Sprache"
+    ],
+    "correct_index": 1,
+    "explanation": "1952 gelang dem britischen Architekten und Sprachforscher Michael Ventris zusammen mit John Chadwick die Entzifferung. Die Grundlagen hatte die Altphilologin Alice Kober gelegt. Es zeigte sich: Die Texte sind in einer frühen Form des Griechischen geschrieben, dem mykenischen Griechisch.",
+    "difficulty": 3,
+    "tags": [
+      "Antike",
+      "Schriften"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Linearschrift B",
+    "source_url": "https://de.wikipedia.org/wiki/Linearschrift B",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Linear B was the syllabic script of the Mycenaean culture. It was deciphered in 1952. What language are the texts written in?",
+        "options": [
+          "Ancient Egyptian",
+          "An early form of Greek",
+          "Phoenician",
+          "A language known nowhere else"
+        ],
+        "explanation": "In 1952, the British architect and linguist Michael Ventris, together with John Chadwick, deciphered the script. The classicist Alice Kober had laid the groundwork. It turned out that the texts were written in an early form of Greek, Mycenaean Greek."
+      }
+    }
+  },
+  {
+    "id": "mk114",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Das Sousaphon ist eine Tuba, die man um den Körper trägt. Woher hat es seinen Namen?",
+    "options": [
+      "Vom französischen Wort sous („unter“)",
+      "Von der Stadt Sousse in Tunesien",
+      "Vom Instrumentenbauer Adolphe Sax",
+      "Vom Komponisten John Philip Sousa"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Sousaphon wurde in den 1890er Jahren auf Initiative des amerikanischen Komponisten John Philip Sousa entwickelt und zum Dank nach ihm benannt. Das älteste bekannte Sousaphon stammt von 1893. Anders als die Tuba wird es nicht vor, sondern um den Körper getragen.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Blasinstrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sousaphon",
+    "source_url": "https://de.wikipedia.org/wiki/Sousaphon",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The sousaphone is a tuba that is worn around the body. Where does its name come from?",
+        "options": [
+          "From the French word 'sous' (under)",
+          "From the town of Sousse in Tunisia",
+          "From the instrument maker Adolphe Sax",
+          "From the composer John Philip Sousa"
+        ],
+        "explanation": "The sousaphone was developed in the 1890s at the suggestion of the American composer John Philip Sousa and named after him in thanks. The oldest known sousaphone dates from 1893. Unlike the tuba, it is not held in front of the body but worn around it."
+      }
+    }
+  },
+  {
+    "id": "mk115",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Die Nyckelharpa ist ein schwedisches Streichinstrument. Was bedeutet ihr Name wörtlich?",
+    "options": [
+      "Schlüssel-Harfe",
+      "Nacht-Geige",
+      "Wald-Laute",
+      "Glocken-Leier"
+    ],
+    "correct_index": 0,
+    "explanation": "Nyckelharpa heißt wörtlich „Schlüssel-Harfe“. Die Saiten werden mechanisch über Tasten verkürzt, die „Schlüssel“ genannt werden. Gestrichen wird mit einem kurzen Bogen.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Schweden"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nyckelharpa",
+    "source_url": "https://de.wikipedia.org/wiki/Nyckelharpa",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The nyckelharpa is a Swedish bowed string instrument. What does its name literally mean?",
+        "options": [
+          "Key harp",
+          "Night fiddle",
+          "Forest lute",
+          "Bell lyre"
+        ],
+        "explanation": "Nyckelharpa literally means 'key harp'. The strings are shortened mechanically by keys, and they are played with a short bow."
+      }
+    }
+  },
+  {
+    "id": "mk116",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Die Oud ist eine Laute aus Vorderasien. Was bedeutet ihr Name?",
+    "options": [
+      "Mond",
+      "Holz",
+      "Gesang",
+      "Wind"
+    ],
+    "correct_index": 1,
+    "explanation": "Oud bedeutet „Holz“. In jüngster Zeit wurde auch eine Herkunft vom persischen rud („Saiteninstrument“) vorgeschlagen. Die Kurzhalslaute stammt ursprünglich wohl aus Persien und gilt als Vorläufer der europäischen Laute.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oud",
+    "source_url": "https://de.wikipedia.org/wiki/Oud",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The oud is a lute from Western Asia. What does its name mean?",
+        "options": [
+          "Moon",
+          "Wood",
+          "Song",
+          "Wind"
+        ],
+        "explanation": "Oud means 'wood'. Recently, a derivation from the Persian word rud ('string instrument') has also been suggested. The short-necked lute probably originated in Persia and is considered a forerunner of the European lute."
+      }
+    }
+  },
+  {
+    "id": "mk117",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Die Koto ist eine japanische Zither aus Paulownienholz. Mit wie vielen Saiten ist sie bespannt?",
+    "options": [
+      "13",
+      "3",
+      "6",
+      "8"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Koto ist mit 13 Saiten bespannt, die auf 13 beweglichen Stegen liegen, den sogenannten Ji. Eine durchschnittliche Koto ist 1,80 m lang und 25 cm breit.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Koto",
+    "source_url": "https://de.wikipedia.org/wiki/Koto",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The koto is a Japanese zither made of paulownia wood. How many strings is it strung with?",
+        "options": [
+          "13",
+          "3",
+          "6",
+          "8"
+        ],
+        "explanation": "The koto is strung with 13 strings, which rest on 13 movable bridges called ji. An average koto is 1.80 m long and 25 cm wide."
+      }
+    }
+  },
+  {
+    "id": "mk118",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Das Tabla-Set besteht aus zwei Trommeln, Dayan und Bayan. Was bedeuten diese Namen?",
+    "options": [
+      "Mann und Frau",
+      "Klein und groß",
+      "Hell und dunkel",
+      "Rechts und links"
+    ],
+    "correct_index": 3,
+    "explanation": "Dayan heißt wörtlich „rechts“, Bayan „links“. Die kleinere Dayan ist die eigentliche Tabla und klingt hoch und glockenartig. Die größere Bayan wird mit der nichtdominanten Hand gespielt.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Trommeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tabla",
+    "source_url": "https://de.wikipedia.org/wiki/Tabla",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A tabla set consists of two drums, the dayan and the bayan. What do these names mean?",
+        "options": [
+          "Man and woman",
+          "Small and large",
+          "Bright and dark",
+          "Right and left"
+        ],
+        "explanation": "Dayan literally means 'right', bayan means 'left'. The smaller dayan is the tabla proper and sounds high and bell-like. The larger bayan is played with the non-dominant hand."
+      }
+    }
+  },
+  {
+    "id": "mk119",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Im Bayreuther Festspielhaus ist das Orchester für das Publikum unsichtbar. Wie wird der Orchestergraben dort genannt?",
+    "options": [
+      "Mystischer Abgrund",
+      "Goldene Grube",
+      "Stille Schlucht",
+      "Klingender Keller"
+    ],
+    "correct_index": 0,
+    "explanation": "Unsichtbare Orchestergräben gibt es nur im Bayreuther Festspielhaus – dort „mystischer Abgrund“ genannt – und in Oberammergau.",
+    "difficulty": 2,
+    "tags": [
+      "Oper",
+      "Bühne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Orchestergraben",
+    "source_url": "https://de.wikipedia.org/wiki/Orchestergraben",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Bayreuth Festival Theatre, the orchestra is invisible to the audience. What is the orchestra pit called there?",
+        "options": [
+          "Mystic abyss",
+          "Golden pit",
+          "Silent gorge",
+          "Sounding cellar"
+        ],
+        "explanation": "Invisible orchestra pits exist only in the Bayreuth Festival Theatre – where it is called the 'mystic abyss' – and in Oberammergau."
+      }
+    }
+  },
+  {
+    "id": "mk120",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Röhrenglocken sind Metallröhren, die als Musik- oder Signalinstrumente dienen. Wo wurden die ersten metallenen Röhrenglocken verwendet?",
+    "options": [
+      "In Prag",
+      "In Wien",
+      "In Paris",
+      "In Rom"
+    ],
+    "correct_index": 2,
+    "explanation": "Die ersten metallenen Röhrenglocken wurden zwischen 1860 und 1870 in Paris verwendet. Sie bestehen aus Bronze, Stahl oder Messing. Von echten Glocken unterscheiden sie sich durch ihre Form und eine andere Akustik.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Schlaginstrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Röhrenglocken",
+    "source_url": "https://de.wikipedia.org/wiki/Röhrenglocken",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Tubular bells are metal tubes used as musical or signalling instruments. Where were the first metal tubular bells used?",
+        "options": [
+          "In Prague",
+          "In Vienna",
+          "In Paris",
+          "In Rome"
+        ],
+        "explanation": "The first metal tubular bells were used in Paris between 1860 and 1870. They are made of bronze, steel or brass. They differ from real bells in their shape and their acoustics."
+      }
+    }
+  },
+  {
+    "id": "mk121",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Viele Opern beginnen mit einer Ouvertüre. Was bedeutet das französische Wort „ouverture“?",
+    "options": [
+      "Wiederholung",
+      "Ende",
+      "Pause",
+      "Eröffnung"
+    ],
+    "correct_index": 3,
+    "explanation": "Ouvertüre kommt vom französischen ouverture, „Eröffnung“. Gemeint ist ein Instrumentalstück, das ein Bühnenwerk wie eine Oper, ein Ballett oder ein Schauspiel eröffnet – oder ein Konzertprogramm.",
+    "difficulty": 1,
+    "tags": [
+      "Oper",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ouvertüre",
+    "source_url": "https://de.wikipedia.org/wiki/Ouvertüre",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many operas begin with an overture. What does the French word 'ouverture' mean?",
+        "options": [
+          "Repetition",
+          "Ending",
+          "Interval",
+          "Opening"
+        ],
+        "explanation": "Overture comes from the French 'ouverture', meaning 'opening'. It is an instrumental piece that opens a stage work such as an opera, a ballet or a play – or a concert programme."
+      }
+    }
+  },
+  {
+    "id": "ns54",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Eine „Bologneser Träne“ ist ein kleiner Glastropfen, dessen Kopf sogar Hammerschläge aushält. Was passiert, wenn man seinen dünnen Schwanz abbricht?",
+    "options": [
+      "Der Tropfen wird weich wie Gummi",
+      "Der Tropfen beginnt zu leuchten",
+      "Nur die Spitze bricht ab, sonst passiert nichts",
+      "Der ganze Tropfen zerspringt zu Glasstaub"
+    ],
+    "correct_index": 3,
+    "explanation": "Zur Herstellung wird heißes, flüssiges Glas in Wasser oder Öl getropft. Weil der Tropfen schnell von außen nach innen erhärtet, steht er unter starker Spannung. Der Kopf hält Hammerschläge aus – bricht aber der Schwanz ab, zerspringt der ganze Tropfen zu Glasstaub.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Glas"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bologneser Träne",
+    "source_url": "https://de.wikipedia.org/wiki/Bologneser Träne",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A 'Bologna tear' is a small glass drop whose head can even withstand hammer blows. What happens if you snap off its thin tail?",
+        "options": [
+          "The drop becomes soft like rubber",
+          "The drop starts to glow",
+          "Only the tip breaks off, nothing else happens",
+          "The whole drop shatters into glass powder"
+        ],
+        "explanation": "To make one, hot molten glass is dripped into water or oil. Because the drop hardens quickly from the outside in, it is under strong tension. The head can withstand hammer blows – but if the tail breaks off, the whole drop shatters into glass powder."
+      }
+    }
+  },
+  {
+    "id": "ns55",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Ferrofluide sind Flüssigkeiten, die auf Magnetfelder reagieren, ohne fest zu werden. Wie groß sind die winzigen magnetischen Teilchen darin typischerweise?",
+    "options": [
+      "5–10 Nanometer",
+      "5–10 Mikrometer",
+      "5–10 Millimeter",
+      "5–10 Zentimeter"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Teilchen bestehen meist aus Eisen, Magnetit oder Cobalt und haben typischerweise einen Durchmesser von nur 5–10 Nanometern – sie sind kleiner als eine magnetische Domäne.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Magnetismus"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ferrofluid",
+    "source_url": "https://de.wikipedia.org/wiki/Ferrofluid",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Ferrofluids are liquids that react to magnetic fields without solidifying. How big are the tiny magnetic particles in them, typically?",
+        "options": [
+          "5–10 nanometres",
+          "5–10 micrometres",
+          "5–10 millimetres",
+          "5–10 centimetres"
+        ],
+        "explanation": "The particles usually consist of iron, magnetite or cobalt and are typically just 5–10 nanometres across – smaller than a magnetic domain."
+      }
+    }
+  },
+  {
+    "id": "ns56",
+    "kind": "question",
+    "category_id": "science",
+    "question": "In einem Galileo-Thermometer schweben Glaskugeln in einer Flüssigkeit. Welches Prinzip nutzt es?",
+    "options": [
+      "Metall dehnt sich bei Wärme aus und verbiegt sich",
+      "Die Dichte einer Flüssigkeit ändert sich mit der Temperatur",
+      "Warme Luft steigt nach oben",
+      "Glas leuchtet bei Kälte schwach"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Thermometer ist nach Galileo Galilei benannt, der entdeckte, dass sich die Dichte von Flüssigkeiten mit der Temperatur ändert. Steigt die Temperatur, dehnt sich die Flüssigkeit im Zylinder aus und wird weniger dicht. Dadurch ändert sich der Auftrieb der einzelnen Kugeln.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Temperatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Galileo-Thermometer",
+    "source_url": "https://de.wikipedia.org/wiki/Galileo-Thermometer",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a Galileo thermometer, glass balls float in a liquid. What principle does it use?",
+        "options": [
+          "Metal expands and bends when warm",
+          "The density of a liquid changes with temperature",
+          "Warm air rises",
+          "Glass glows faintly in the cold"
+        ],
+        "explanation": "The thermometer is named after Galileo Galilei, who discovered that the density of liquids changes with temperature. When the temperature rises, the liquid in the cylinder expands and becomes less dense. This changes the buoyancy of the individual balls."
+      }
+    }
+  },
+  {
+    "id": "ns57",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Ein Haarhygrometer misst die Luftfeuchtigkeit. Was dient darin als Messelement?",
+    "options": [
+      "Ein Tropfen Quecksilber",
+      "Ein Streifen Gummi",
+      "Ein Bündel meist menschlicher Haare",
+      "Eine Feder aus Stahl"
+    ],
+    "correct_index": 2,
+    "explanation": "Haare dehnen sich aus, wenn sie Feuchtigkeit aufnehmen, und ziehen sich zusammen, wenn sie sie verlieren. Ein Hebelwerk überträgt das auf eine Skala. Der Physiker Horace-Bénédict de Saussure nutzte diese Eigenschaft als Erster für ein Messgerät.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haarhygrometer",
+    "source_url": "https://de.wikipedia.org/wiki/Haarhygrometer",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A hair hygrometer measures humidity. What serves as its measuring element?",
+        "options": [
+          "A drop of mercury",
+          "A strip of rubber",
+          "A bundle of hair, usually human",
+          "A steel spring"
+        ],
+        "explanation": "Hair expands when it absorbs moisture and contracts when it loses it. A lever mechanism transfers this to a scale. The physicist Horace-Bénédict de Saussure was the first to use this property for a measuring instrument."
+      }
+    }
+  },
+  {
+    "id": "ns58",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Das Wort „Gyroskop“ stammt aus dem Griechischen. Was bedeutet es?",
+    "options": [
+      "Wind zeigen",
+      "Himmel messen",
+      "Kraft wiegen",
+      "Drehung sehen"
+    ],
+    "correct_index": 3,
+    "explanation": "Gyros heißt „Drehung“, skopein „sehen“. Ein Gyroskop ist ein schnell rotierender Kreisel in einem beweglichen Lager. Es wurde 1810 von Johann Gottlieb Friedrich von Bohnenberger erfunden und wird heute etwa in der Luft- und Raumfahrt zur Navigation eingesetzt.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreiselinstrument",
+    "source_url": "https://de.wikipedia.org/wiki/Kreiselinstrument",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The word 'gyroscope' comes from Greek. What does it mean?",
+        "options": [
+          "Showing the wind",
+          "Measuring the sky",
+          "Weighing force",
+          "Seeing rotation"
+        ],
+        "explanation": "Gyros means 'rotation' and skopein means 'to see'. A gyroscope is a rapidly spinning top in a movable mounting. It was invented in 1810 by Johann Gottlieb Friedrich von Bohnenberger and is used today for navigation, for example in aviation and space travel."
+      }
+    }
+  },
+  {
+    "id": "ns59",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welches Metall hat einen ungewöhnlich niedrigen Schmelzpunkt von nur 29,76 °C?",
+    "options": [
+      "Gallium",
+      "Zinn",
+      "Blei",
+      "Aluminium"
+    ],
+    "correct_index": 0,
+    "explanation": "Gallium schmilzt schon bei 29,76 °C – für ein Metall ungewöhnlich niedrig. Sein Entdecker Lecoq de Boisbaudran benannte es nach Gallien, der lateinischen Bezeichnung seines Heimatlandes Frankreich.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Elemente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gallium",
+    "source_url": "https://de.wikipedia.org/wiki/Gallium",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which metal has an unusually low melting point of just 29.76 °C?",
+        "options": [
+          "Gallium",
+          "Tin",
+          "Lead",
+          "Aluminium"
+        ],
+        "explanation": "Gallium melts at just 29.76 °C – unusually low for a metal. Its discoverer, Lecoq de Boisbaudran, named it after Gallia, the Latin name for his home country, France."
+      }
+    }
+  },
+  {
+    "id": "ns60",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was kann man sehen, wenn man in einem völlig dunklen Raum zwei Stücke Würfelzucker aneinanderreibt?",
+    "options": [
+      "Einen grünen Rauch",
+      "Kleine rote Funken",
+      "Ein schwaches bläuliches Licht",
+      "Gar nichts – Zucker leuchtet nie"
+    ],
+    "correct_index": 2,
+    "explanation": "Mit gut an die Dunkelheit gewöhnten Augen erkennt man ein schwaches bläuliches Licht. Das ist die ursprüngliche Form der Tribolumineszenz: Licht, das beim Zerbrechen von Kristallen entsteht. Heute zählt man auch das Leuchten beim schnellen Abrollen von Klebeband dazu.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tribolumineszenz",
+    "source_url": "https://de.wikipedia.org/wiki/Tribolumineszenz",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can you see if you rub two sugar cubes together in a completely dark room?",
+        "options": [
+          "Green smoke",
+          "Small red sparks",
+          "A faint bluish light",
+          "Nothing at all – sugar never glows"
+        ],
+        "explanation": "With eyes well adjusted to the dark, you can see a faint bluish light. This is the original form of triboluminescence: light produced when crystals break. Today, the glow when sticky tape is unrolled quickly also counts."
+      }
+    }
+  },
+  {
+    "id": "ns61",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Beim Drummondschen Licht von 1826, auch Kalklicht genannt, brachte eine Knallgasflamme ein Stück Branntkalk zum hellen Leuchten. Welches englische Wort erinnert noch heute daran?",
+    "options": [
+      "Floodlight",
+      "Spotlight",
+      "Highlight",
+      "Limelight"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Drummondsche Licht war eine Beleuchtungsquelle, bei der eine Knallgasflamme ein Stück Branntkalk zum Leuchten brachte. Das englische Wort limelight (von limestone, „Kalkstein“) für Rampenlicht geht auf diese Lichtquelle zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Drummondsches Licht",
+    "source_url": "https://de.wikipedia.org/wiki/Drummondsches Licht",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Drummond light of 1826, also called calcium light, used an oxyhydrogen flame to make a piece of quicklime glow brightly. Which English word still recalls it today?",
+        "options": [
+          "Floodlight",
+          "Spotlight",
+          "Highlight",
+          "Limelight"
+        ],
+        "explanation": "The Drummond light was a light source in which an oxyhydrogen flame made a piece of quicklime glow intensely. The English word 'limelight' (from limestone) for the glare of the stage goes back to this light source."
+      }
+    }
+  },
+  {
+    "id": "l114",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Im Deutschen meint „Public Viewing“ die öffentliche Übertragung etwa von Sportereignissen auf Videowänden. Was kann der Ausdruck im Englischen unter anderem bedeuten?",
+    "options": [
+      "Eine Fernsehwerbung",
+      "Eine geheime Abstimmung",
+      "Ein Picknick im Park",
+      "Die Aufbahrung von Verstorbenen"
+    ],
+    "correct_index": 3,
+    "explanation": "„Public Viewing“ ist ein Scheinanglizismus. Im Englischen meint man damit allgemeiner die öffentliche Präsentation einer Sache, etwa einen Tag der offenen Tür oder eine Aufbahrung – also den letzten Blick auf Verstorbene.",
+    "difficulty": 2,
+    "tags": [
+      "Anglizismen",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Public Viewing",
+    "source_url": "https://de.wikipedia.org/wiki/Public Viewing",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In German, 'Public Viewing' means showing sports events and the like live on big video screens in public. What can the term also mean in English?",
+        "options": [
+          "A TV advertisement",
+          "A secret ballot",
+          "A picnic in the park",
+          "Paying last respects to a deceased person"
+        ],
+        "explanation": "'Public Viewing' is a pseudo-anglicism. In English it refers more generally to presenting something to the public, such as an open day or a last look at a deceased person who has been laid out."
+      }
+    }
+  },
+  {
+    "id": "l115",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein „Treppenwitz“?",
+    "options": [
+      "Ein geistreicher Gedanke, der einem zu spät einfällt",
+      "Ein Witz, den man im Treppenhaus erzählt",
+      "Ein Witz, der sich immer weiter steigert",
+      "Ein Witz über Handwerker"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Treppenwitz ist ein geistreicher Gedanke, der einem einen Moment zu spät einfällt – sozusagen „beim Hinausgehen auf der Treppe“. Der Ausdruck geht auf das französische l’esprit de l’escalier zurück, eine Prägung von Denis Diderot aus dem 18. Jahrhundert.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen",
+      "Französisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Treppenwitz",
+    "source_url": "https://de.wikipedia.org/wiki/Treppenwitz",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a 'Treppenwitz' (literally 'staircase joke') in German?",
+        "options": [
+          "A witty thought that comes to you too late",
+          "A joke told in a stairwell",
+          "A joke that keeps building up step by step",
+          "A joke about builders"
+        ],
+        "explanation": "A Treppenwitz is a witty thought that occurs to you a moment too late – 'on the way out, on the stairs', so to speak. The term goes back to the French 'l'esprit de l'escalier', coined by Denis Diderot in the 18th century."
+      }
+    }
+  },
+  {
+    "id": "l116",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Eulen nach Athen tragen“ heißt, etwas Überflüssiges zu tun. Warum ausgerechnet Eulen?",
+    "options": [
+      "Eulen galten in Athen als Unglücksboten",
+      "Auf den Silbermünzen Athens war eine Eule abgebildet",
+      "Eulen durften Athen nicht betreten",
+      "Die Athener hielten Eulen für dumm"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Ausspruch stammt von Aristophanes und bezieht sich auf die Münzen Athens: Auf den damaligen Drachmen war eine Eule abgebildet. Silbermünzen ins reiche Athen zu schicken, war also überflüssig.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eulen nach Athen tragen",
+    "source_url": "https://de.wikipedia.org/wiki/Eulen nach Athen tragen",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German saying 'carrying owls to Athens' means doing something pointless. Why owls?",
+        "options": [
+          "Owls were considered bad omens in Athens",
+          "An owl was shown on Athens' silver coins",
+          "Owls were not allowed into Athens",
+          "The Athenians thought owls were stupid"
+        ],
+        "explanation": "The saying comes from Aristophanes and refers to the coins of Athens: the drachmas of that time showed an owl. Sending silver coins to rich Athens was therefore pointless."
+      }
+    }
+  },
+  {
+    "id": "l117",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wer ist gemeint, wenn es heißt: „Das weiß doch Hinz und Kunz“?",
+    "options": [
+      "Zwei Ratsherren einer Stadt",
+      "Zwei berühmte Gelehrte",
+      "Jedermann – ganz gewöhnliche Leute",
+      "Nur die Nachbarn"
+    ],
+    "correct_index": 2,
+    "explanation": "Hinz und Kunz sind Kurzformen der Namen Heinrich und Konrad. Die Redewendung steht für jedermann, denn früher gaben auch viele einfache Leute ihren Kindern diese Namen. Sie kommt sogar im Märchen Rumpelstilzchen vor.",
+    "difficulty": 1,
+    "tags": [
+      "Redewendungen",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hinz und Kunz",
+    "source_url": "https://de.wikipedia.org/wiki/Hinz und Kunz",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is meant by the German phrase 'Hinz und Kunz', as in 'even Hinz and Kunz know that'?",
+        "options": [
+          "Two town councillors",
+          "Two famous scholars",
+          "Anyone at all – ordinary people",
+          "Only the neighbours"
+        ],
+        "explanation": "Hinz and Kunz are short forms of the names Heinrich and Konrad. The phrase stands for 'everyone', because in the past many ordinary people also gave their children these names. It even appears in the fairy tale Rumpelstiltskin."
+      }
+    }
+  },
+  {
+    "id": "l118",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Torschlusspanik“ ist die Angst, zu spät zu kommen. Woher stammt der Ausdruck?",
+    "options": [
+      "Schleusentore auf Kanälen schlossen pünktlich am Abend",
+      "Beim Fußball fallen kurz vor Schluss oft noch Tore",
+      "Scheunentore mussten vor Gewittern geschlossen werden",
+      "Früher wurden die Stadttore bei Einbruch der Dunkelheit geschlossen"
+    ],
+    "correct_index": 3,
+    "explanation": "In früheren Zeiten wurden die Stadttore bei Anbruch der Dunkelheit verschlossen. Wer zu spät kam, musste außerhalb der Stadtmauern übernachten – schutzlos vor Räubern und wilden Tieren. Heute bezeichnet Torschlusspanik die Angst, zu spät zu kommen oder einen günstigen Zeitpunkt zu verpassen.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Torschlusspanik",
+    "source_url": "https://de.wikipedia.org/wiki/Torschlusspanik",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German word 'Torschlusspanik' ('gate-closing panic') means the fear of being too late. Where does it come from?",
+        "options": [
+          "Canal lock gates closed punctually every evening",
+          "In football, goals ('Tore') are often scored just before the end",
+          "Barn doors had to be shut before thunderstorms",
+          "In the past, city gates were closed at nightfall"
+        ],
+        "explanation": "In earlier times, city gates were locked at nightfall. Anyone who arrived too late had to spend the night outside the city walls – unprotected from robbers and wild animals. Today, Torschlusspanik means the fear of being too late or of missing the right moment."
+      }
+    }
+  },
+  {
+    "id": "l119",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wer einen „Kotau“ macht, unterwirft sich. Was bedeutet das chinesische Wort wörtlich?",
+    "options": [
+      "Mit dem Kopf auf den Boden schlagen",
+      "Den Hut ziehen",
+      "Die Hand küssen",
+      "Rückwärts gehen"
+    ],
+    "correct_index": 0,
+    "explanation": "Kotau kommt vom chinesischen kētóu: „mit dem Kopf auf den Boden schlagen“. Bei diesem ehrerbietigen Gruß aus dem Kaiserreich China kniet man nieder und berührt mit der Stirn den Boden. Im Deutschen steht das Wort heute für Unterwerfung.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "China"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kotau",
+    "source_url": "https://de.wikipedia.org/wiki/Kotau",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In German, 'doing a Kotau' (kowtow) means submitting to someone. What does the Chinese word literally mean?",
+        "options": [
+          "Knocking the head on the ground",
+          "Raising your hat",
+          "Kissing someone's hand",
+          "Walking backwards"
+        ],
+        "explanation": "Kotau comes from the Chinese kētóu: 'knocking the head on the ground'. In this respectful greeting from imperial China, a person kneels and touches the ground with their forehead. In German, the word now stands for submission."
+      }
+    }
+  },
+  {
+    "id": "l120",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Wort „Mischpoke“ kam über das Jiddische ins Deutsche. Was bedeutet das hebräische Wort, auf das es zurückgeht?",
+    "options": [
+      "Streit",
+      "Markt",
+      "Familie",
+      "Nachbarschaft"
+    ],
+    "correct_index": 2,
+    "explanation": "Mischpoke geht auf ein hebräisches Wort für „Familie“ zurück und bedeutet im Jiddischen „Familie, Gesellschaft, Sippschaft“. Dort wird es wertneutral verwendet – im Deutschen klingt es dagegen häufig abwertend.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Jiddisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mischpoke",
+    "source_url": "https://de.wikipedia.org/wiki/Mischpoke",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German word 'Mischpoke' came into German via Yiddish. What does the Hebrew word it comes from mean?",
+        "options": [
+          "Quarrel",
+          "Market",
+          "Family",
+          "Neighbourhood"
+        ],
+        "explanation": "Mischpoke goes back to a Hebrew word for 'family' and means 'family, company, clan' in Yiddish. There it is used neutrally – in German, however, it often sounds derogatory."
+      }
+    }
+  },
+  {
+    "id": "l121",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Bei welcher Reimform werden die Anfangslaute der letzten beiden betonten Silben miteinander vertauscht?",
+    "options": [
+      "Binnenreim",
+      "Kreuzreim",
+      "Stabreim",
+      "Schüttelreim"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Schüttelreim ist ein Doppelreim, bei dem die Anfangslaute der letzten beiden betonten Silben vertauscht werden. Im Englischen heißt diese Art der Vertauschung Spoonerismus.",
+    "difficulty": 3,
+    "tags": [
+      "Reime",
+      "Dichtung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schüttelreim",
+    "source_url": "https://de.wikipedia.org/wiki/Schüttelreim",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which German rhyme form are the initial sounds of the last two stressed syllables swapped?",
+        "options": [
+          "Internal rhyme",
+          "Cross rhyme",
+          "Alliterative verse",
+          "Schüttelreim ('shaken rhyme')"
+        ],
+        "explanation": "The Schüttelreim is a double rhyme in which the initial sounds of the last two stressed syllables are swapped. In English, this kind of swap is called a spoonerism."
+      }
+    }
+  },
+  {
+    "id": "cu67",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Warum dreht sich eine Weihnachtspyramide, wenn ihre Kerzen brennen?",
+    "options": [
+      "Die Kerzen sind magnetisch",
+      "Die Wärme zieht ein Uhrwerk auf",
+      "Die warme Luft steigt auf und dreht das Flügelrad",
+      "Tropfendes Wachs treibt ein kleines Rad an"
+    ],
+    "correct_index": 2,
+    "explanation": "Die von den Kerzen erwärmte Luft steigt auf und versetzt das Flügelrad in Drehung – und mit ihm die Teller mit den oft erzgebirgischen Figuren.",
+    "difficulty": 1,
+    "tags": [
+      "Weihnachten",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weihnachtspyramide",
+    "source_url": "https://de.wikipedia.org/wiki/Weihnachtspyramide",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a Christmas pyramid turn when its candles are burning?",
+        "options": [
+          "The candles are magnetic",
+          "The heat winds up a clockwork",
+          "Warm air rises and turns the propeller",
+          "Dripping wax drives a little wheel"
+        ],
+        "explanation": "The air warmed by the candles rises and sets the propeller turning – and with it the tiers with their figures, often from the Ore Mountains."
+      }
+    }
+  },
+  {
+    "id": "cu68",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist ein Osterbrunnen?",
+    "options": [
+      "Ein Brunnen, der nur an Ostern Wasser führt",
+      "Ein Brunnen, in dem Ostereier gefärbt werden",
+      "Ein Brunnen, in dem Kinder Ostereier suchen",
+      "Ein Dorfbrunnen, der vor Ostern mit bemalten Eiern geschmückt wird"
+    ],
+    "correct_index": 3,
+    "explanation": "Vor Ostern werden öffentliche Dorfbrunnen mit bemalten Ostereiern und anderen Verzierungen geschmückt, oft in Form einer Krone. Der Brauch stammt aus der Fränkischen Schweiz und hat sich seit den 1980er Jahren in weiten Teilen Süd-, Mittel- und Ostdeutschlands verbreitet.",
+    "difficulty": 1,
+    "tags": [
+      "Ostern",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Osterbrunnen",
+    "source_url": "https://de.wikipedia.org/wiki/Osterbrunnen",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an 'Osterbrunnen' (Easter fountain)?",
+        "options": [
+          "A fountain that only has water at Easter",
+          "A fountain in which Easter eggs are dyed",
+          "A fountain where children hunt for Easter eggs",
+          "A village fountain decorated with painted eggs before Easter"
+        ],
+        "explanation": "Before Easter, public village fountains are decorated with painted Easter eggs and other ornaments, often in the shape of a crown. The custom comes from Franconian Switzerland and since the 1980s has spread to large parts of southern, central and eastern Germany."
+      }
+    }
+  },
+  {
+    "id": "cu69",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Der Bollenhut aus dem Schwarzwald trägt 14 Wollkugeln, die „Bollen“. Was zeigen rote Bollen an?",
+    "options": [
+      "Die Trägerin ist unverheiratet",
+      "Die Trägerin ist verheiratet",
+      "Die Trägerin hat Geburtstag",
+      "Die Trägerin kommt aus der Stadt"
+    ],
+    "correct_index": 0,
+    "explanation": "Unverheiratete Frauen tragen rote Bollen, verheiratete schwarze. Der breitkrempige, weiß gekalkte Strohhut gehört seit etwa 1800 zur Tracht der evangelischen Frauen in den Schwarzwalddörfern Gutach, Kirnbach und Hornberg-Reichenbach.",
+    "difficulty": 2,
+    "tags": [
+      "Trachten",
+      "Schwarzwald"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bollenhut",
+    "source_url": "https://de.wikipedia.org/wiki/Bollenhut",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Bollenhut, a hat from the Black Forest, has 14 wool pompoms called 'Bollen'. What do red pompoms indicate?",
+        "options": [
+          "The wearer is unmarried",
+          "The wearer is married",
+          "It is the wearer's birthday",
+          "The wearer comes from a town"
+        ],
+        "explanation": "Unmarried women wear red pompoms, married women black ones. Since around 1800, the wide-brimmed, white-washed straw hat has been part of the traditional dress of Protestant women in the Black Forest villages of Gutach, Kirnbach and Hornberg-Reichenbach."
+      }
+    }
+  },
+  {
+    "id": "cu70",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In Schweden gehört „Fika“ zum Alltag. Was ist das?",
+    "options": [
+      "Ein Spiel auf dem zugefrorenen See",
+      "Ein Tanz zum Mittsommerfest",
+      "Eine Pause mit Kaffee und oft etwas Süßem",
+      "Ein traditionelles Brettspiel"
+    ],
+    "correct_index": 2,
+    "explanation": "Fika bedeutet, eine Tätigkeit zu unterbrechen, um mit Familie, Freunden oder Kollegen Kaffee zu trinken. Dazu gibt es oft etwas Süßes, fikabröd genannt – meistens Gebäck oder Kuchen. Die Schweden gehören zu den größten Kaffeetrinkern der Welt.",
+    "difficulty": 1,
+    "tags": [
+      "Bräuche",
+      "Schweden"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fika",
+    "source_url": "https://de.wikipedia.org/wiki/Fika",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Sweden, 'fika' is part of everyday life. What is it?",
+        "options": [
+          "A game on a frozen lake",
+          "A dance at the midsummer festival",
+          "A break with coffee and often something sweet",
+          "A traditional board game"
+        ],
+        "explanation": "Fika means interrupting what you are doing to have coffee with family, friends or colleagues. It often comes with something sweet called fikabröd – usually pastries or cake. Swedes are among the biggest coffee drinkers in the world."
+      }
+    }
+  },
+  {
+    "id": "cu71",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Zum japanischen Kindertag hängen viele Familien bunte Windsäcke auf, die Koinobori. Welche Tiere stellen sie dar?",
+    "options": [
+      "Tiger",
+      "Kraniche",
+      "Schildkröten",
+      "Karpfen"
+    ],
+    "correct_index": 3,
+    "explanation": "Koinobori heißt so viel wie „Karpfenfahne“. Nach einer chinesischen Legende überwindet ein Karpfen einen Wasserfall und verwandelt sich in einen Drachen. Deshalb stehen die Karpfen-Windsäcke für Mut, Ausdauer und die Fähigkeit, Hindernisse zu überwinden.",
+    "difficulty": 1,
+    "tags": [
+      "Feste",
+      "Japan"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Koinobori",
+    "source_url": "https://de.wikipedia.org/wiki/Koinobori",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On Japan's Children's Day, many families hang up colourful windsocks called koinobori. Which animals do they depict?",
+        "options": [
+          "Tigers",
+          "Cranes",
+          "Turtles",
+          "Carp"
+        ],
+        "explanation": "Koinobori means something like 'carp banner'. According to a Chinese legend, a carp overcomes a waterfall and turns into a dragon. That is why the carp windsocks stand for courage, perseverance and the ability to overcome obstacles."
+      }
+    }
+  },
+  {
+    "id": "cu72",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In Italien bringt in der Nacht vom 5. auf den 6. Januar eine besondere Figur den Kindern Geschenke. Wer?",
+    "options": [
+      "Die Befana, eine Hexe auf einem Besen",
+      "Ein Engel mit goldenen Flügeln",
+      "Ein Zwerg aus den Bergen",
+      "Ein sprechender Esel"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Befana fliegt in dieser Nacht auf der Suche nach dem Jesuskind auf einem Besen von Haus zu Haus und bringt Geschenke – oder straft. Heute gilt sie vor allem als gute Hexe. Ihr Name ist eine Verballhornung von Epifania (Epiphanie).",
+    "difficulty": 1,
+    "tags": [
+      "Feste",
+      "Italien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Befana",
+    "source_url": "https://de.wikipedia.org/wiki/Befana",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Italy, a special figure brings children presents on the night of 5 to 6 January. Who?",
+        "options": [
+          "The Befana, a witch on a broomstick",
+          "An angel with golden wings",
+          "A dwarf from the mountains",
+          "A talking donkey"
+        ],
+        "explanation": "That night, the Befana flies from house to house on a broomstick looking for the baby Jesus, bringing presents – or punishments. Today she is seen mainly as a good witch. Her name is a corruption of Epifania (Epiphany)."
+      }
+    }
+  },
+  {
+    "id": "cu73",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Die Sternsinger schreiben mit geweihter Kreide „C+M+B“ und die Jahreszahl an Haustüren. Welche lateinische Segensbitte wird darin gelesen?",
+    "options": [
+      "Christus schütze diese Familie",
+      "Christus segne dieses Haus",
+      "Friede sei mit euch",
+      "Gott behüte die Kinder"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Buchstaben werden als Abkürzung von „Christus mansionem benedicat“ gedeutet – auf Deutsch „Christus segne dieses Haus“. Die Sternsinger schreiben die Segensbitte an Haustüren oder Türbalken.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sternsinger",
+    "source_url": "https://de.wikipedia.org/wiki/Sternsinger",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The 'star singers' (Sternsinger) write 'C+M+B' and the year on front doors with blessed chalk. Which Latin blessing is read into the letters?",
+        "options": [
+          "Christ protect this family",
+          "Christ bless this house",
+          "Peace be with you",
+          "God keep the children"
+        ],
+        "explanation": "The letters are interpreted as an abbreviation of 'Christus mansionem benedicat' – 'Christ bless this house'. The star singers write the blessing on front doors or door beams."
+      }
+    }
+  },
+  {
+    "id": "cu74",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Bei der Tomatina in Buñol (Spanien) bewerfen sich Tausende mit überreifen Tomaten. Wann findet das Fest statt?",
+    "options": [
+      "In der Silvesternacht",
+      "Am ersten Sonntag im Mai",
+      "Am Mittwoch der letzten Augustwoche",
+      "Am Ostermontag"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Tomatina findet am Mittwoch der letzten Augustwoche statt. Die überreifen Tomaten werden tonnenweise von Lastwagen in die Straßen gekippt. Zum ersten Mal fand das Fest vermutlich am 29. August 1945 statt.",
+    "difficulty": 2,
+    "tags": [
+      "Feste",
+      "Spanien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tomatina",
+    "source_url": "https://de.wikipedia.org/wiki/Tomatina",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At the Tomatina in Buñol, Spain, thousands of people pelt each other with overripe tomatoes. When does the festival take place?",
+        "options": [
+          "On New Year's Eve",
+          "On the first Sunday in May",
+          "On the Wednesday of the last week of August",
+          "On Easter Monday"
+        ],
+        "explanation": "The Tomatina takes place on the Wednesday of the last week of August. The overripe tomatoes are dumped into the streets by the ton from lorries. The festival was probably first held on 29 August 1945."
+      }
+    }
   }
 ]
