@@ -96022,5 +96022,1645 @@
         "explanation": "The kingfisher hunts by plunge-diving: from a perch above the water it dives forwards and down, head first, into the water. It mainly eats fish, water insects and tadpoles."
       }
     }
+  },
+  {
+    "id": "l130",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Wendung ist eine Tautologie – sie sagt also dasselbe zweimal?",
+    "options": [
+      "hin und zurück",
+      "voll und ganz",
+      "Tag und Nacht",
+      "auf und ab"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Tautologie ist eine inhaltliche Wiederholung: Dasselbe wird mit sinngleichen Wörtern noch einmal gesagt, etwa „voll und ganz“ oder „nie und nimmer“. „Hin und zurück“ oder „Tag und Nacht“ verbinden dagegen Gegensätze.",
+    "difficulty": 2,
+    "tags": [
+      "Stilmittel",
+      "Wörter",
+      "Rhetorik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tautologie (Sprache)",
+    "source_url": "https://de.wikipedia.org/wiki/Tautologie (Sprache)",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which phrase is a tautology – that is, it says the same thing twice?",
+        "options": [
+          "hin und zurück (there and back)",
+          "voll und ganz (fully and wholly)",
+          "Tag und Nacht (day and night)",
+          "auf und ab (up and down)"
+        ],
+        "explanation": "A tautology is a repetition of content: the same thing is said again with words of the same meaning, such as German “voll und ganz” (fully and wholly) or “nie und nimmer” (never ever). “There and back” or “day and night”, by contrast, join opposites."
+      }
+    }
+  },
+  {
+    "id": "l131",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was meint jemand, der über ein Essen sagt: „Das ist nicht übel“?",
+    "options": [
+      "Es ist zu scharf",
+      "Es ist schlecht",
+      "Es ist gut",
+      "Es ist ihm egal"
+    ],
+    "correct_index": 2,
+    "explanation": "Das ist eine Litotes: Man verneint das Gegenteil und meint damit etwas Positives – „nicht übel“ heißt „gut“, „nicht wenig“ heißt „viel“. So kann man etwas vorsichtig oder untertreibend ausdrücken.",
+    "difficulty": 1,
+    "tags": [
+      "Stilmittel",
+      "Wörter",
+      "Verneinung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Litotes",
+    "source_url": "https://de.wikipedia.org/wiki/Litotes",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does someone mean who says about a meal: “That's not bad”?",
+        "options": [
+          "It is too spicy",
+          "It is bad",
+          "It is good",
+          "They don't care"
+        ],
+        "explanation": "That is a litotes: you negate the opposite and mean something positive – “not bad” means “good”, “not a little” means “a lot”. It is a way of saying something cautiously or with understatement."
+      }
+    }
+  },
+  {
+    "id": "l132",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Beim Chiasmus werden Satzteile über Kreuz angeordnet. Wonach ist er benannt?",
+    "options": [
+      "Nach einem römischen Redner namens Chiasmus",
+      "Nach dem lateinischen Buchstaben K",
+      "Nach dem griechischen Buchstaben Omega",
+      "Nach dem griechischen Buchstaben Chi (Χ)"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Name kommt vom griechischen chíasma, der „Gestalt des Chi“ – der Buchstabe sieht aus wie ein X. Beim Chiasmus stehen Satzglieder in zwei parallelen Teilsätzen kreuzweise vertauscht, etwa nach dem Schema Subjekt-Prädikat-Objekt / Objekt-Prädikat-Subjekt.",
+    "difficulty": 3,
+    "tags": [
+      "Stilmittel",
+      "Griechisch",
+      "Rhetorik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chiasmus",
+    "source_url": "https://de.wikipedia.org/wiki/Chiasmus",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a chiasmus parts of a sentence are arranged crosswise. What is it named after?",
+        "options": [
+          "A Roman speaker called Chiasmus",
+          "The Latin letter K",
+          "The Greek letter omega",
+          "The Greek letter chi (Χ)"
+        ],
+        "explanation": "The name comes from Greek chíasma, the “shape of the chi” – the letter looks like an X. In a chiasmus the parts of two parallel clauses are swapped crosswise, for example following the pattern subject-verb-object / object-verb-subject."
+      }
+    }
+  },
+  {
+    "id": "l133",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ergibt sich bei einem Akrostichon, wenn man die Anfangsbuchstaben der Zeilen von oben nach unten liest?",
+    "options": [
+      "Ein eigenes Wort, zum Beispiel ein Name",
+      "Das letzte Wort des Gedichts rückwärts",
+      "Eine Rechenaufgabe",
+      "Nur zufällige Buchstaben"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Akrostichon (deutsch auch Leistenvers) ergeben die Anfänge der Verse hintereinander gelesen einen eigenen Sinn, etwa einen Namen oder einen Satz. Sehr alt ist die Form: In einigen Psalmen folgen die ersten Buchstaben von 22 Versen dem hebräischen Alphabet mit seinen 22 Buchstaben.",
+    "difficulty": 2,
+    "tags": [
+      "Gedichte",
+      "Buchstaben",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Akrostichon",
+    "source_url": "https://de.wikipedia.org/wiki/Akrostichon",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In an acrostic, what do you get when you read the first letters of the lines from top to bottom?",
+        "options": [
+          "A word of its own, for example a name",
+          "The poem's last word backwards",
+          "A maths problem",
+          "Just random letters"
+        ],
+        "explanation": "In an acrostic the beginnings of the lines, read one after another, have a meaning of their own, such as a name or a sentence. The form is very old: in some psalms the first letters of 22 verses follow the Hebrew alphabet with its 22 letters."
+      }
+    }
+  },
+  {
+    "id": "l134",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Rebus?",
+    "options": [
+      "Ein Lied ohne Worte",
+      "Ein Bilderrätsel, bei dem Bilder und Zeichen zusammen ein Wort ergeben",
+      "Ein Rätsel nur aus Zahlen",
+      "Ein Gedicht mit genau drei Zeilen"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Rebus (lateinisch „durch Dinge“) ist ein Bilderrätsel: Bilder und Zeichen werden aneinandergefügt, bis ein Wort herauskommt, das mit den Bildern sachlich nichts zu tun hat. Der Gelehrte Valerius Cordus unterschrieb mit einem gezeichneten Herzen – lateinisch „cor“ – und dem Zusatz „dus“.",
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Bilder",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bilderrätsel",
+    "source_url": "https://de.wikipedia.org/wiki/Bilderrätsel",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a rebus?",
+        "options": [
+          "A song without words",
+          "A picture puzzle in which pictures and signs together make a word",
+          "A puzzle made only of numbers",
+          "A poem with exactly three lines"
+        ],
+        "explanation": "A rebus (Latin for “by things”) is a picture puzzle: pictures and signs are put together until a word comes out that has nothing to do with the pictures themselves. The scholar Valerius Cordus signed with a drawn heart – Latin “cor” – followed by “dus”."
+      }
+    }
+  },
+  {
+    "id": "l135",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welchem Jahr erschien das erste Kreuzworträtsel der Welt in einer Zeitung?",
+    "options": [
+      "1813",
+      "1913",
+      "1953",
+      "1983"
+    ],
+    "correct_index": 1,
+    "explanation": "Das erste Kreuzworträtsel erschien am 21. Dezember 1913 in der Weihnachtsbeilage der New Yorker Zeitung „New York World“ und enthielt 31 Suchbegriffe. Es war rautenförmig und hatte noch keine schwarzen Felder.",
+    "difficulty": 2,
+    "tags": [
+      "Rätsel",
+      "Zeitung",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreuzworträtsel",
+    "source_url": "https://de.wikipedia.org/wiki/Kreuzworträtsel",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year did the world's first crossword puzzle appear in a newspaper?",
+        "options": [
+          "1813",
+          "1913",
+          "1953",
+          "1983"
+        ],
+        "explanation": "The first crossword appeared on 21 December 1913 in the Christmas supplement of the New York newspaper “New York World” and had 31 clues. It was diamond-shaped and did not yet have black squares."
+      }
+    }
+  },
+  {
+    "id": "l136",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie viele Zeilen hat ein Limerick?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Limerick ist ein kurzes, meist scherzhaftes Gedicht in fünf Zeilen mit dem Reimschema aabba. Die Form entstand um 1820 in England; ihr bekanntester Dichter ist Edward Lear.",
+    "difficulty": 1,
+    "tags": [
+      "Gedichte",
+      "Reime",
+      "Humor"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Limerick (Gedicht)",
+    "source_url": "https://de.wikipedia.org/wiki/Limerick (Gedicht)",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many lines does a limerick have?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "explanation": "A limerick is a short, usually funny poem of five lines with the rhyme scheme aabba. The form arose in England around 1820; its best-known poet is Edward Lear."
+      }
+    }
+  },
+  {
+    "id": "l137",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Georges Perec schrieb 1969 einen ganzen Roman, ohne einen bestimmten Buchstaben ein einziges Mal zu benutzen. Welchen?",
+    "options": [
+      "E",
+      "A",
+      "S",
+      "N"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Text, der bewusst auf einen Buchstaben verzichtet, heißt Leipogramm (auch Lipogramm). Perecs E-loser Roman „La Disparition“ hat rund 300 Seiten – eine große Leistung, denn das E ist im Französischen, Deutschen und Englischen der häufigste Buchstabe.",
+    "difficulty": 3,
+    "tags": [
+      "Buchstaben",
+      "Bücher",
+      "Sprachspiel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leipogramm",
+    "source_url": "https://de.wikipedia.org/wiki/Leipogramm",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1969 Georges Perec wrote an entire novel without using a certain letter even once. Which one?",
+        "options": [
+          "E",
+          "A",
+          "S",
+          "N"
+        ],
+        "explanation": "A text that deliberately leaves out a letter is called a lipogram. Perec's E-less novel “La Disparition” has about 300 pages – a big achievement, because E is the most common letter in French, German and English."
+      }
+    }
+  },
+  {
+    "id": "l138",
+    "kind": "question",
+    "category_id": "language",
+    "question": "In welcher Sprache dient das Zeichen „;“ als Fragezeichen?",
+    "options": [
+      "Italienisch",
+      "Griechisch",
+      "Spanisch",
+      "Niederländisch"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Deutschen ist „;“ das Semikolon oder der Strichpunkt: Es trennt stärker als ein Komma, aber schwächer als ein Punkt. Im Griechischen dagegen steht dieses Zeichen am Ende einer Frage.",
+    "difficulty": 2,
+    "tags": [
+      "Satzzeichen",
+      "Griechisch",
+      "Schrift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Semikolon",
+    "source_url": "https://de.wikipedia.org/wiki/Semikolon",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which language does the sign “;” serve as a question mark?",
+        "options": [
+          "Italian",
+          "Greek",
+          "Spanish",
+          "Dutch"
+        ],
+        "explanation": "In German (and English) “;” is the semicolon: it separates more strongly than a comma but less strongly than a full stop. In Greek, however, this sign is placed at the end of a question."
+      }
+    }
+  },
+  {
+    "id": "l139",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was sind in der Jägersprache die „Löffel“ eines Hasen?",
+    "options": [
+      "Die Augen",
+      "Die Hinterbeine",
+      "Die Ohren",
+      "Der Schwanz"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Jägersprache (Weidmannssprache) ist die Fachsprache der Jäger. „Löffel“ sind dort die Ohren von Hase oder Kaninchen – daher kommt auch die Redewendung „jemandem eins hinter die Löffel geben“.",
+    "difficulty": 1,
+    "tags": [
+      "Wörter",
+      "Tiere",
+      "Redewendungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jägersprache",
+    "source_url": "https://de.wikipedia.org/wiki/Jägersprache",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In hunters' language, what are a hare's “Löffel” (spoons)?",
+        "options": [
+          "Its eyes",
+          "Its hind legs",
+          "Its ears",
+          "Its tail"
+        ],
+        "explanation": "Hunters' language is the specialist vocabulary of hunters. There, “Löffel” (spoons) are the ears of a hare or rabbit – which is where the German saying “to give someone one behind the spoons” comes from."
+      }
+    }
+  },
+  {
+    "id": "l140",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie heißt das Stilmittel, bei dem mehrere Sätze oder Verse mit demselben Wort beginnen?",
+    "options": [
+      "Anapher",
+      "Epipher",
+      "Ellipse",
+      "Metapher"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Anapher wiederholt ein Wort oder eine Wortgruppe am Anfang aufeinanderfolgender Verse oder Sätze und hebt es so hervor. Ihr spiegelbildliches Gegenstück ist die Epipher, bei der sich das Ende wiederholt.",
+    "difficulty": 2,
+    "tags": [
+      "Stilmittel",
+      "Gedichte",
+      "Rhetorik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Anapher",
+    "source_url": "https://de.wikipedia.org/wiki/Anapher",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the name of the stylistic device in which several sentences or lines begin with the same word?",
+        "options": [
+          "Anaphora",
+          "Epiphora",
+          "Ellipsis",
+          "Metaphor"
+        ],
+        "explanation": "Anaphora repeats a word or group of words at the beginning of successive lines or sentences and so emphasises it. Its mirror image is epiphora, in which the ending is repeated."
+      }
+    }
+  },
+  {
+    "id": "l141",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Nach der gängigsten Erklärung ist der „Kalauer“ nach einer Stadt benannt. Nach welcher?",
+    "options": [
+      "Kahla in Thüringen",
+      "Calau in Brandenburg",
+      "Kalkar am Niederrhein",
+      "Calw im Schwarzwald"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Kalauer ist ein einfaches, oft unsinniges Wortspiel mit gleich klingenden Wörtern – ein „Flachwitz“. Die Satirezeitschrift „Kladderadatsch“ machte Rubriken wie „Aus Kalau wird berichtet …“ berühmt. Calau eröffnete 2011 einen Witzerundweg mit 25 Tafeln.",
+    "difficulty": 2,
+    "tags": [
+      "Humor",
+      "Wörter",
+      "Städte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kalauer",
+    "source_url": "https://de.wikipedia.org/wiki/Kalauer",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the most common explanation, the German “Kalauer” (corny pun) is named after a town. Which one?",
+        "options": [
+          "Kahla in Thuringia",
+          "Calau in Brandenburg",
+          "Kalkar on the Lower Rhine",
+          "Calw in the Black Forest"
+        ],
+        "explanation": "A “Kalauer” is a simple, often silly pun with words that sound alike – a groaner. The satirical magazine “Kladderadatsch” made columns like “News from Kalau …” famous. In 2011 Calau opened a joke trail with 25 boards."
+      }
+    }
+  },
+  {
+    "id": "sp148",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Womit schlägt man beim Indiaca den gefiederten Spielball über das Netz?",
+    "options": [
+      "Mit einem Schläger",
+      "Mit der flachen Hand",
+      "Mit dem Fuß",
+      "Mit dem Kopf"
+    ],
+    "correct_index": 1,
+    "explanation": "Indiaca wird ähnlich wie Volleyball auf einem Feld mit Netz gespielt; der Ball mit Federn wird mit der flachen Hand geschlagen. Das Spiel geht auf Südamerika zurück, wo es seit einigen hundert Jahren unter dem Namen Peteca gespielt wird.",
+    "difficulty": 2,
+    "tags": [
+      "Ballspiele",
+      "Netz",
+      "Federn"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Indiaca",
+    "source_url": "https://de.wikipedia.org/wiki/Indiaca",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In indiaca, what do you use to hit the feathered ball over the net?",
+        "options": [
+          "A racket",
+          "Your flat hand",
+          "Your foot",
+          "Your head"
+        ],
+        "explanation": "Indiaca is played like volleyball on a court with a net; the feathered ball is struck with the flat hand. The game goes back to South America, where it has been played for a few hundred years under the name peteca."
+      }
+    }
+  },
+  {
+    "id": "sp149",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was werfen sich die Spieler beim Ringtennis über das Netz zu?",
+    "options": [
+      "Einen Tennisball",
+      "Einen Federball",
+      "Einen Gummiring",
+      "Eine Holzscheibe"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Ringtennis gibt es keine Schläger: Man wirft einen etwa 210 bis 230 Gramm schweren Ring aus Moosgummi so, dass der Gegner ihn nicht fangen kann. Der Ring darf sich drehen, aber nicht wackeln.",
+    "difficulty": 1,
+    "tags": [
+      "Netz",
+      "Werfen",
+      "Fangen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ringtennis",
+    "source_url": "https://de.wikipedia.org/wiki/Ringtennis",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the players throw to each other over the net in ring tennis?",
+        "options": [
+          "A tennis ball",
+          "A shuttlecock",
+          "A rubber ring",
+          "A wooden disc"
+        ],
+        "explanation": "Ring tennis has no rackets: you throw a ring of foam rubber weighing about 210 to 230 grams so that your opponent cannot catch it. The ring may spin but must not wobble."
+      }
+    }
+  },
+  {
+    "id": "sp150",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wohin muss die Wurfscheibe beim Discgolf am Ende einer Bahn?",
+    "options": [
+      "In einen Korb",
+      "In ein Loch im Boden",
+      "Durch einen Reifen",
+      "Gegen eine Holzwand"
+    ],
+    "correct_index": 0,
+    "explanation": "Discgolf wird ähnlich wie Golf gespielt: Vom Abwurfpunkt aus braucht man möglichst wenige Würfe. Die Bahn ist erst beendet, wenn die Scheibe im Korb oder in den Ketten darüber liegen bleibt.",
+    "difficulty": 1,
+    "tags": [
+      "Werfen",
+      "Scheiben",
+      "Park"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Discgolf",
+    "source_url": "https://de.wikipedia.org/wiki/Discgolf",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the flying disc have to end up at the end of a hole in disc golf?",
+        "options": [
+          "In a basket",
+          "In a hole in the ground",
+          "Through a hoop",
+          "Against a wooden wall"
+        ],
+        "explanation": "Disc golf is played much like golf: starting from the tee you want as few throws as possible. A hole is only finished when the disc comes to rest in the basket or in the chains above it."
+      }
+    }
+  },
+  {
+    "id": "sp151",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Kinder braucht man für Gummitwist mindestens, wenn man das Gummiband nirgends festmachen kann?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_index": 2,
+    "explanation": "Zwei halten das etwa drei Meter lange Gummiband, ein drittes Kind springt dazwischen. Wer allein oder zu zweit spielen möchte, spannt das Gummi zum Beispiel um Pfosten. Der Name kommt vom Gummiband und dem englischen „twist“ für eine Drehbewegung.",
+    "difficulty": 1,
+    "tags": [
+      "Kinderspiele",
+      "Springen",
+      "Schulhof"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gummitwist",
+    "source_url": "https://de.wikipedia.org/wiki/Gummitwist",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many children do you need at least for elastic jumping if you cannot tie the elastic to anything?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "explanation": "Two hold the roughly three-metre elastic, a third child jumps between them. If you want to play alone or in pairs, you stretch the elastic around posts, for example. The German name comes from the elastic band (Gummi) and English “twist”."
+      }
+    }
+  },
+  {
+    "id": "sp152",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Das Hüpfspiel „Himmel und Hölle“ hat viele Namen. Wie heißt es in Berlin?",
+    "options": [
+      "Häuslhupfen",
+      "Tempelhüpfen",
+      "Hopse",
+      "Hinkepott"
+    ],
+    "correct_index": 2,
+    "explanation": "In Berlin sagt man Hopse, in Österreich Tempelhüpfen, in Oberbayern Häuslhupfen und in Schleswig-Holstein Hinkepott. Gespielt wird es fast überall auf der Welt – allein in Deutschland und den Niederlanden fand man an die 20 verschiedene Muster für die Felder.",
+    "difficulty": 2,
+    "tags": [
+      "Kinderspiele",
+      "Hüpfen",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Himmel und Hölle (Hüpfspiel)",
+    "source_url": "https://de.wikipedia.org/wiki/Himmel und Hölle (Hüpfspiel)",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The hopscotch game “Himmel und Hölle” (heaven and hell) has many names. What is it called in Berlin?",
+        "options": [
+          "Häuslhupfen",
+          "Tempelhüpfen",
+          "Hopse",
+          "Hinkepott"
+        ],
+        "explanation": "In Berlin people say Hopse, in Austria Tempelhüpfen, in Upper Bavaria Häuslhupfen and in Schleswig-Holstein Hinkepott. It is played almost everywhere in the world – in Germany and the Netherlands alone about 20 different patterns for the squares were found."
+      }
+    }
+  },
+  {
+    "id": "sp153",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Worauf balanciert man beim Eierlaufen das Ei bis zur Ziellinie?",
+    "options": [
+      "Auf der Nase",
+      "Auf dem Kopf",
+      "Auf einem Teller",
+      "Auf einem Löffel"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Eierlaufen tragen die Kinder ein rohes oder gekochtes Ei auf einem Koch- oder Suppenlöffel ins Ziel. Fällt es herunter, darf man es wieder auflegen. Statt Eiern gehen auch Tischtennisbälle oder kleine Kartoffeln.",
+    "difficulty": 1,
+    "tags": [
+      "Kinderspiele",
+      "Geschicklichkeit",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eierlaufen",
+    "source_url": "https://de.wikipedia.org/wiki/Eierlaufen",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you balance the egg on in an egg-and-spoon race?",
+        "options": [
+          "On your nose",
+          "On your head",
+          "On a plate",
+          "On a spoon"
+        ],
+        "explanation": "In an egg-and-spoon race children carry a raw or boiled egg on a wooden spoon or soup spoon to the finish. If it falls off, you may put it back. Instead of eggs you can also use table tennis balls or small potatoes."
+      }
+    }
+  },
+  {
+    "id": "sp154",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie bremst man auf einem Einrad?",
+    "options": [
+      "Mit den Beinen: Man drückt gegen die Drehrichtung der Pedale",
+      "Mit einer Handbremse am Lenker",
+      "Mit einer Bremse, die am Boden schleift",
+      "Gar nicht – man muss abspringen"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Einrad sind die Kurbeln fest mit der Radnabe verbunden, es gibt keinen Freilauf wie beim Fahrrad. Gebremst wird deshalb mit Muskelkraft: Man drückt gegen die Drehrichtung auf die Pedale.",
+    "difficulty": 2,
+    "tags": [
+      "Fahrrad",
+      "Gleichgewicht",
+      "Zirkus"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Einrad",
+    "source_url": "https://de.wikipedia.org/wiki/Einrad",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you brake on a unicycle?",
+        "options": [
+          "With your legs: you push against the direction the pedals turn",
+          "With a hand brake on the handlebar",
+          "With a brake that drags on the ground",
+          "Not at all – you have to jump off"
+        ],
+        "explanation": "On a unicycle the cranks are fixed to the wheel hub; there is no freewheel as on a bicycle. So you brake with muscle power: you push on the pedals against the direction they turn."
+      }
+    }
+  },
+  {
+    "id": "sp155",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was findet man beim Geocaching meistens im versteckten Behälter?",
+    "options": [
+      "Einen Geldpreis",
+      "Ein Logbuch, in das man sich einträgt",
+      "Eine Urkunde vom Sportverein",
+      "Einen GPS-Empfänger"
+    ],
+    "correct_index": 1,
+    "explanation": "Geocaching ist eine Art Schatzsuche, die sich seit dem Jahr 2000 verbreitet: Die Verstecke werden mit Koordinaten im Internet veröffentlicht. Im wasserdichten Behälter liegen ein Logbuch und oft kleine Tauschgegenstände – danach wird er an derselben Stelle wieder versteckt.",
+    "difficulty": 1,
+    "tags": [
+      "Schatzsuche",
+      "Natur",
+      "Karten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geocaching",
+    "source_url": "https://de.wikipedia.org/wiki/Geocaching",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you usually find in the hidden container when geocaching?",
+        "options": [
+          "Prize money",
+          "A logbook to sign",
+          "A certificate from a sports club",
+          "A GPS receiver"
+        ],
+        "explanation": "Geocaching is a kind of treasure hunt that has spread since 2000: the hiding places are published online with coordinates. The waterproof container holds a logbook and often small items to swap – afterwards it is hidden again in the same spot."
+      }
+    }
+  },
+  {
+    "id": "eg95",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist am Bimsstein besonders?",
+    "options": [
+      "Er leuchtet im Dunkeln",
+      "Er schwimmt auf dem Wasser",
+      "Er ist magnetisch",
+      "Er löst sich in Wasser auf"
+    ],
+    "correct_index": 1,
+    "explanation": "Bims ist ein glasiges Vulkangestein voller Poren. Weil die Poren einen großen Teil des Volumens ausmachen, ist er leichter als Wasser und schwimmt. Früher nannte man ihn auch Reibstein.",
+    "difficulty": 1,
+    "tags": [
+      "Steine",
+      "Vulkane",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bims",
+    "source_url": "https://de.wikipedia.org/wiki/Bims",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about pumice?",
+        "options": [
+          "It glows in the dark",
+          "It floats on water",
+          "It is magnetic",
+          "It dissolves in water"
+        ],
+        "explanation": "Pumice is a glassy volcanic rock full of pores. Because the pores make up a large part of its volume, it is lighter than water and floats. It used to be called rubbing stone."
+      }
+    }
+  },
+  {
+    "id": "eg96",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Travertin ist ein Kalkstein aus Quellwasser. Was bedeutet sein lateinischer Name „lapis tiburtinus“?",
+    "options": [
+      "Stein aus Trier",
+      "Stein aus Toledo",
+      "Stein aus Tivoli",
+      "Stein aus Triest"
+    ],
+    "correct_index": 2,
+    "explanation": "Travertin bildet sich, wenn sich in kalten, warmen oder heißen Süßwasserquellen Kalk abscheidet – man nennt ihn deshalb auch Quellkalk. Er besteht fast nur aus Calciumcarbonat. Sein Name kommt von der Stadt Tivoli bei Rom.",
+    "difficulty": 2,
+    "tags": [
+      "Steine",
+      "Quellen",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Travertin",
+    "source_url": "https://de.wikipedia.org/wiki/Travertin",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Travertine is a limestone formed from spring water. What does its Latin name “lapis tiburtinus” mean?",
+        "options": [
+          "Stone from Trier",
+          "Stone from Toledo",
+          "Stone from Tivoli",
+          "Stone from Trieste"
+        ],
+        "explanation": "Travertine forms when lime is deposited in cold, warm or hot freshwater springs – so it is also called spring limestone. It consists almost entirely of calcium carbonate. Its name comes from the town of Tivoli near Rome."
+      }
+    }
+  },
+  {
+    "id": "eg97",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welchen Spitznamen hat das goldglänzende Mineral Pyrit?",
+    "options": [
+      "Drachengold",
+      "Mondsilber",
+      "Hasenkupfer",
+      "Katzengold"
+    ],
+    "correct_index": 3,
+    "explanation": "Pyrit glänzt wie Metall und sieht golden aus, besteht aber aus Eisen und Schwefel – deshalb heißt er auch Katzengold oder Narrengold. Er bildet oft Kristalle in Würfelform. Der Name kommt vom griechischen „pyr“ für Feuer.",
+    "difficulty": 1,
+    "tags": [
+      "Minerale",
+      "Gold",
+      "Kristalle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pyrit",
+    "source_url": "https://de.wikipedia.org/wiki/Pyrit",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the nickname of the gold-coloured mineral pyrite?",
+        "options": [
+          "Dragon gold",
+          "Moon silver",
+          "Hare copper",
+          "Cat's gold"
+        ],
+        "explanation": "Pyrite has a metallic shine and looks golden but is made of iron and sulphur – which is why it is called cat's gold or fool's gold. It often forms cube-shaped crystals. The name comes from Greek “pyr”, fire."
+      }
+    }
+  },
+  {
+    "id": "eg98",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welche Minerale gelten als die wichtigsten gesteinsbildenden Minerale der Erdkruste – mit einem Anteil von fast 60 Prozent?",
+    "options": [
+      "Feldspate",
+      "Granate",
+      "Glimmer",
+      "Turmaline"
+    ],
+    "correct_index": 0,
+    "explanation": "Feldspate sind eine große Gruppe sehr häufiger Silikate. Mit fast 60 % Anteil an der Erdkruste gelten sie als die wichtigsten gesteinsbildenden Minerale. Ihre Mohshärte liegt zwischen 6 und 6½.",
+    "difficulty": 3,
+    "tags": [
+      "Minerale",
+      "Gestein",
+      "Erdkruste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Feldspat",
+    "source_url": "https://de.wikipedia.org/wiki/Feldspat",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which minerals are considered the most important rock-forming minerals of the Earth's crust – making up almost 60 per cent?",
+        "options": [
+          "Feldspars",
+          "Garnets",
+          "Micas",
+          "Tourmalines"
+        ],
+        "explanation": "Feldspars are a large group of very common silicates. Making up almost 60% of the Earth's crust, they count as the most important rock-forming minerals. Their Mohs hardness is between 6 and 6½."
+      }
+    }
+  },
+  {
+    "id": "eg99",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Warum kann sich in einer Klamm Eis manchmal bis in den Sommer halten?",
+    "options": [
+      "Das Gestein erzeugt selbst Kälte",
+      "Zwischen die engen, hohen Felswände fällt kaum Sonne",
+      "Klammen liegen immer in Gletschern",
+      "Das Wasser dort ist besonders salzig"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Klamm ist ein schmales Tal im Festgestein, oft mit überhängenden Felswänden – in Amerika spricht man von einem Slot Canyon. Weil kaum Sonne hineinfällt, können eingeklemmte Eisklumpen weit unterhalb der Frostgrenze den Sommer überdauern.",
+    "difficulty": 2,
+    "tags": [
+      "Berge",
+      "Schluchten",
+      "Eis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klamm",
+    "source_url": "https://de.wikipedia.org/wiki/Klamm",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can ice sometimes last into summer in a gorge (Klamm)?",
+        "options": [
+          "The rock produces cold itself",
+          "Hardly any sun reaches between the narrow, high rock walls",
+          "Gorges are always inside glaciers",
+          "The water there is especially salty"
+        ],
+        "explanation": "A Klamm is a narrow valley cut into solid rock, often with overhanging walls – in America it is called a slot canyon. Because hardly any sunlight gets in, trapped lumps of ice can survive the summer far below the usual frost line."
+      }
+    }
+  },
+  {
+    "id": "eg100",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Welches alte Wort für Stromschnellen steckt in Ortsnamen wie Lauffen am Neckar?",
+    "options": [
+      "Lauffen",
+      "Furt",
+      "Klinge",
+      "Wehr"
+    ],
+    "correct_index": 0,
+    "explanation": "Stromschnellen sind Flussabschnitte, in denen das Wasser durch starkes Gefälle, Untiefen oder Engstellen reißend schnell fließt. Früher sagte man dazu Laufen oder Lauffen – daher Ortsnamen wie Laufen an der Salzach. Stromschnellen aus Felsblöcken heißen Katarakt.",
+    "difficulty": 2,
+    "tags": [
+      "Flüsse",
+      "Wasser",
+      "Ortsnamen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stromschnelle",
+    "source_url": "https://de.wikipedia.org/wiki/Stromschnelle",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which old word for rapids is found in place names like Lauffen am Neckar?",
+        "options": [
+          "Lauffen",
+          "Furt (ford)",
+          "Klinge (ravine)",
+          "Wehr (weir)"
+        ],
+        "explanation": "Rapids are stretches of a river where the water flows fast and wild because of a steep gradient, shallows or narrows. They used to be called Laufen or Lauffen – hence place names like Laufen an der Salzach. Rapids formed by rock blocks are called a cataract."
+      }
+    }
+  },
+  {
+    "id": "eg101",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist eine Mure (ein Murgang)?",
+    "options": [
+      "Ein kleiner Bergsee",
+      "Ein schneller Strom aus Schlamm und Gestein im Gebirge",
+      "Ein warmer Fallwind",
+      "Eine Höhle im Kalkstein"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei einem Murgang fließt ein Strom aus Schlamm und Geröll schnell talwärts; in den Medien heißt er oft Schlammlawine. Ausgelöst wird er meist durch starken Regen oder die Schneeschmelze. Die Front kann bis zu 60 km/h schnell werden.",
+    "difficulty": 1,
+    "tags": [
+      "Berge",
+      "Naturgewalten",
+      "Schlamm"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Murgang",
+    "source_url": "https://de.wikipedia.org/wiki/Murgang",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a mudflow (Mure)?",
+        "options": [
+          "A small mountain lake",
+          "A fast stream of mud and rock in the mountains",
+          "A warm downslope wind",
+          "A cave in limestone"
+        ],
+        "explanation": "In a mudflow a stream of mud and rubble rushes downhill; the media often call it a mud avalanche. It is usually triggered by heavy rain or snowmelt. Its front can reach up to 60 km/h."
+      }
+    }
+  },
+  {
+    "id": "eg102",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was sind die meisten „Sandstürme“ im eigentlichen Sinn?",
+    "options": [
+      "Gewitter",
+      "Schneestürme",
+      "Staubstürme",
+      "Wirbelstürme vom Meer"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Sandsturm ist ein starker Wind, der Sand oder Staub mitführt, besonders in Wüsten. Meist handelt es sich eigentlich um Staubstürme. Manche transportieren bis zu 100 Millionen Tonnen Sand über weite Strecken.",
+    "difficulty": 2,
+    "tags": [
+      "Wüsten",
+      "Wind",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sandsturm",
+    "source_url": "https://de.wikipedia.org/wiki/Sandsturm",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are most “sandstorms”, strictly speaking?",
+        "options": [
+          "Thunderstorms",
+          "Snowstorms",
+          "Dust storms",
+          "Hurricanes from the sea"
+        ],
+        "explanation": "A sandstorm is a strong wind carrying sand or dust, especially in deserts. Most of them are actually dust storms. Some carry up to 100 million tonnes of sand over long distances."
+      }
+    }
+  },
+  {
+    "id": "hg53",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wo arbeitete früher ein Bader?",
+    "options": [
+      "In einer Badestube",
+      "In einem Bergwerk",
+      "Auf einem Schiff",
+      "In einer Druckerei"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Bader betrieb eine Badestube oder arbeitete darin – ein Beruf, der seit dem Mittelalter bekannt ist. Bader kümmerten sich um Körperpflege und Haare und versorgten kleinere Wunden. Für Menschen, die sich keinen studierten Arzt leisten konnten, waren sie die „Ärzte der kleinen Leute“.",
+    "difficulty": 1,
+    "tags": [
+      "Berufe",
+      "Mittelalter",
+      "Baden"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bader",
+    "source_url": "https://de.wikipedia.org/wiki/Bader",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did a “Bader” (bath keeper) work in the past?",
+        "options": [
+          "In a bathhouse",
+          "In a mine",
+          "On a ship",
+          "In a printing shop"
+        ],
+        "explanation": "The Bader ran a bathhouse or worked in one – a trade known since the Middle Ages. Bath keepers looked after body care and hair and treated minor wounds. For people who could not afford a university-trained doctor, they were the “doctors of the common people”."
+      }
+    }
+  },
+  {
+    "id": "hg54",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Warum konnten viele antike Amphoren nicht von allein stehen?",
+    "options": [
+      "Sie hatten keine Henkel",
+      "Ihr Boden lief meist spitz zu",
+      "Sie waren aus Stoff",
+      "Sie waren zu leicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Amphore ist ein bauchiges Gefäß mit engem Hals und zwei Henkeln, meist aus Ton. Ihre Basis endet meist in einer Spitze oder einem Knopf. Funde aus Schiffswracks zeigen, dass sie in mehreren Schichten ineinander verpackt wurden. Der Name bedeutet etwa „auf beiden Seiten tragen“.",
+    "difficulty": 2,
+    "tags": [
+      "Antike",
+      "Gefäße",
+      "Schiffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Amphore",
+    "source_url": "https://de.wikipedia.org/wiki/Amphore",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why could many ancient amphorae not stand up on their own?",
+        "options": [
+          "They had no handles",
+          "Their base usually ended in a point",
+          "They were made of cloth",
+          "They were too light"
+        ],
+        "explanation": "An amphora is a big-bellied vessel with a narrow neck and two handles, usually made of clay. Its base usually ends in a point or a knob. Finds from shipwrecks show that they were packed in several interlocking layers. The name means roughly “carry on both sides”."
+      }
+    }
+  },
+  {
+    "id": "hg55",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wovon wurde das alte Längenmaß Elle ursprünglich abgeleitet?",
+    "options": [
+      "Von der Breite eines Daumens",
+      "Von der Länge eines Fußes",
+      "Von der Länge des Unterarms",
+      "Von einem großen Schritt"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Elle ist eines der ältesten Maße: Gemessen wurde vom Ellenbogen bis zur Mittelfingerspitze. Besonders Schneider nutzten sie – noch heute heißen 50 oder 100 Zentimeter lange Maßstäbe im Schneiderhandwerk Schneiderelle. Daher kommt auch das Wort „ellenlang“.",
+    "difficulty": 1,
+    "tags": [
+      "Maße",
+      "Körper",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elle (Einheit)",
+    "source_url": "https://de.wikipedia.org/wiki/Elle (Einheit)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the old unit of length called the ell originally based on?",
+        "options": [
+          "The width of a thumb",
+          "The length of a foot",
+          "The length of the forearm",
+          "A long stride"
+        ],
+        "explanation": "The ell is one of the oldest measures: it was measured from the elbow to the tip of the middle finger. Tailors used it most – tailors' rulers 50 or 100 centimetres long are still called a tailor's ell today. That is also where the German word “ellenlang” (very long) comes from."
+      }
+    }
+  },
+  {
+    "id": "hg56",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woher haben die Bänkelsänger ihren Namen?",
+    "options": [
+      "Sie sangen vor den Türen von Banken",
+      "Sie sangen nur auf Kirchenbänken",
+      "Sie spielten auf einer kleinen Geige namens Bänkel",
+      "Sie stellten sich beim Vortragen auf eine Holzbank"
+    ],
+    "correct_index": 3,
+    "explanation": "Bänkelsänger trugen vom Mittelalter bis ins 19. Jahrhundert dramatische Lieder auf Marktplätzen vor. Damit man sie besser sah, stellten sie sich auf eine Holzbank und zeigten mit einem Stock auf bemalte Bildtafeln. Sie waren damals wichtige Überbringer von Nachrichten.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Märkte",
+      "Nachrichten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bänkelsang",
+    "source_url": "https://de.wikipedia.org/wiki/Bänkelsang",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German name “Bänkelsänger” (bench singer) come from?",
+        "options": [
+          "They sang outside banks",
+          "They only sang on church pews",
+          "They played a small fiddle called a Bänkel",
+          "They stood on a wooden bench while performing"
+        ],
+        "explanation": "From the Middle Ages to the 19th century, bench singers performed dramatic songs in market squares. To be seen better, they stood on a wooden bench and pointed with a stick at painted picture boards. They were important bringers of news at the time."
+      }
+    }
+  },
+  {
+    "id": "m112",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Bei den Türmen von Hanoi soll ein Stapel aus 3 Scheiben umgesetzt werden. Wie viele Züge braucht man mindestens?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Es darf immer nur eine Scheibe bewegt werden, und nie eine größere auf eine kleinere. Für n Scheiben braucht man mindestens 2 hoch n minus 1 Züge – bei drei Scheiben also 2·2·2 − 1 = 7. Das Spiel erfand der französische Mathematiker Édouard Lucas im Jahr 1883.",
+    "difficulty": 3,
+    "tags": [
+      "Knobeln",
+      "Zahlen",
+      "Spiele"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Türme von Hanoi",
+    "source_url": "https://de.wikipedia.org/wiki/Türme von Hanoi",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Tower of Hanoi a stack of 3 discs is to be moved. What is the smallest number of moves needed?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "explanation": "Only one disc may be moved at a time, and never a larger one onto a smaller one. For n discs you need at least 2 to the power of n minus 1 moves – so for three discs 2·2·2 − 1 = 7. The puzzle was invented by the French mathematician Édouard Lucas in 1883."
+      }
+    }
+  },
+  {
+    "id": "m113",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele gleich große Würfelsteine braucht man für einen großen Würfel mit der Kantenlänge 3?",
+    "options": [
+      "9",
+      "18",
+      "27",
+      "36"
+    ],
+    "correct_index": 2,
+    "explanation": "3 · 3 · 3 = 27. Zahlen, die entstehen, wenn man eine Zahl zweimal mit sich selbst malnimmt, heißen Kubikzahlen – vom lateinischen „cubus“ für Würfel. Die ersten sind 1, 8, 27, 64 und 125.",
+    "difficulty": 2,
+    "tags": [
+      "Würfel",
+      "Zahlen",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kubikzahl",
+    "source_url": "https://de.wikipedia.org/wiki/Kubikzahl",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many equal cubes do you need to build a big cube with an edge length of 3?",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "36"
+        ],
+        "explanation": "3 × 3 × 3 = 27. Numbers you get by multiplying a number by itself twice are called cube numbers – from Latin “cubus”, cube. The first ones are 1, 8, 27, 64 and 125."
+      }
+    }
+  },
+  {
+    "id": "m114",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welche drei Zahlen bilden ein pythagoreisches Tripel?",
+    "options": [
+      "1, 2, 3",
+      "2, 3, 4",
+      "3, 4, 5",
+      "4, 5, 6"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei einem pythagoreischen Tripel ist die Summe der Quadrate der beiden kleineren Zahlen gleich dem Quadrat der größten: 3·3 + 4·4 = 5·5. Solche Zahlen sind die Seiten eines rechtwinkligen Dreiecks. Schon die babylonische Keilschrifttafel Plimpton 322 enthält 15 verschiedene Tripel.",
+    "difficulty": 3,
+    "tags": [
+      "Dreiecke",
+      "Zahlen",
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pythagoreisches Tripel",
+    "source_url": "https://de.wikipedia.org/wiki/Pythagoreisches Tripel",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which three numbers form a Pythagorean triple?",
+        "options": [
+          "1, 2, 3",
+          "2, 3, 4",
+          "3, 4, 5",
+          "4, 5, 6"
+        ],
+        "explanation": "In a Pythagorean triple the squares of the two smaller numbers add up to the square of the largest: 3·3 + 4·4 = 5·5. Such numbers are the sides of a right-angled triangle. The Babylonian clay tablet Plimpton 322 already lists 15 different triples."
+      }
+    }
+  },
+  {
+    "id": "m115",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Im Französischen heißt 80 „quatre-vingts“. Was bedeutet das wörtlich?",
+    "options": [
+      "Zwei mal vierzig",
+      "Acht mal zehn",
+      "Hundert weniger zwanzig",
+      "Vier mal zwanzig"
+    ],
+    "correct_index": 3,
+    "explanation": "„Quatre-vingts“ ist eine Spur eines Zwanzigersystems (Vigesimalsystems). Eine mögliche Erklärung: Beim Zählen nahm man neben den Fingern auch die Zehen dazu. In Belgien und der Schweiz gibt es für 70 und 90 eigene Wörter (septante, nonante), in der Westschweiz teils auch huitante für 80.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen",
+      "Französisch",
+      "Zählen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vigesimalsystem",
+    "source_url": "https://de.wikipedia.org/wiki/Vigesimalsystem",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In French, 80 is “quatre-vingts”. What does that mean literally?",
+        "options": [
+          "Two times forty",
+          "Eight times ten",
+          "A hundred minus twenty",
+          "Four times twenty"
+        ],
+        "explanation": "“Quatre-vingts” is a trace of a base-twenty (vigesimal) number system. One possible explanation: when counting, people used their toes as well as their fingers. In Belgium and Switzerland there are separate words for 70 and 90 (septante, nonante), and in parts of western Switzerland also huitante for 80."
+      }
+    }
+  },
+  {
+    "id": "ti148",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woran erkennt man eine Schleiereule besonders gut?",
+    "options": [
+      "An langen Federohren",
+      "Am herzförmigen hellen Gesicht",
+      "An großen roten Augen",
+      "An einem bunten Federkamm"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Schleiereule ist eine sehr helle Eule ohne Federohren. Ihre auffälligsten Merkmale sind das herzförmige Gesicht und die recht kleinen schwarzen Augen. Sie ist nachts aktiv.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Eulen",
+      "Nacht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schleiereule",
+    "source_url": "https://de.wikipedia.org/wiki/Schleiereule",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How can you recognise a barn owl most easily?",
+        "options": [
+          "By long ear tufts",
+          "By its pale heart-shaped face",
+          "By big red eyes",
+          "By a colourful crest"
+        ],
+        "explanation": "The barn owl is a very pale owl without ear tufts. Its most striking features are its heart-shaped face and its rather small black eyes. It is active at night."
+      }
+    }
+  },
+  {
+    "id": "ti149",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was hält den Fischotter im kalten Wasser warm, obwohl er keine dicke Fettschicht hat?",
+    "options": [
+      "Er bleibt nur Sekunden im Wasser",
+      "Ein Panzer aus Hornplatten",
+      "Ein extrem dichtes Fell",
+      "Er schwimmt nur in warmen Quellen"
+    ],
+    "correct_index": 2,
+    "explanation": "Anders als Robben oder Wale hat der Fischotter keine dicke Fettschicht. Dafür ist sein Fell extrem dicht: 60.000 bis 80.000 Haare pro Quadratzentimeter halten die Haut trocken und den Körper warm. Er gehört zu den Mardern und zu den besten Schwimmern unter den Landraubtieren.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Fell",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fischotter",
+    "source_url": "https://de.wikipedia.org/wiki/Fischotter",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What keeps the otter warm in cold water even though it has no thick layer of fat?",
+        "options": [
+          "It only stays in the water for seconds",
+          "Armour made of horny plates",
+          "Extremely dense fur",
+          "It only swims in warm springs"
+        ],
+        "explanation": "Unlike seals or whales, the otter has no thick layer of fat. Instead its fur is extremely dense: 60,000 to 80,000 hairs per square centimetre keep its skin dry and its body warm. It belongs to the mustelids and is one of the best swimmers among land predators."
+      }
+    }
+  },
+  {
+    "id": "ti150",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie heißt der Kauapparat der Seeigel mit seinen fünf Zähnen?",
+    "options": [
+      "Laterne des Aristoteles",
+      "Harfe des Pythagoras",
+      "Spiegel des Archimedes",
+      "Krone des Neptun"
+    ],
+    "correct_index": 0,
+    "explanation": "Reguläre Seeigel zerkleinern ihre Nahrung wie Seetang oder Aas mit einem komplizierten Kieferapparat aus Kalk mit fünf Zähnen, der „Laterne des Aristoteles“. Auch ihr Gehäuse ist fünfzählig gebaut – Seeigel gehören zu den Stachelhäutern.",
+    "difficulty": 3,
+    "tags": [
+      "Meerestiere",
+      "Zähne",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seeigel",
+    "source_url": "https://de.wikipedia.org/wiki/Seeigel",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the name of the sea urchin's chewing apparatus with its five teeth?",
+        "options": [
+          "Aristotle's lantern",
+          "Pythagoras' harp",
+          "Archimedes' mirror",
+          "Neptune's crown"
+        ],
+        "explanation": "Regular sea urchins grind food such as seaweed or carrion with a complex jaw apparatus made of lime with five teeth, called “Aristotle's lantern”. Their shell also has a five-fold structure – sea urchins are echinoderms."
+      }
+    }
+  },
+  {
+    "id": "ti151",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woraus bauen viele Larven der Köcherfliegen ihre Wohnröhre, den Köcher?",
+    "options": [
+      "Aus Wachs wie Bienen",
+      "Aus Steinchen oder Pflanzenstückchen, verklebt mit Spinnseide",
+      "Aus der abgestreiften Haut von Fischen",
+      "Aus Lehm, den sie im Maul tragen"
+    ],
+    "correct_index": 1,
+    "explanation": "Köcherfliegen sind nach den Wohnröhren ihrer Larven benannt, die im Wasser leben. Die meisten Köcher bestehen aus Steinchen oder Schilfstückchen, die mit einem Spinnsekret zu einer Röhre verklebt werden. Manche sehen sogar aus wie ein gewundenes Schneckenhaus.",
+    "difficulty": 2,
+    "tags": [
+      "Insekten",
+      "Wasser",
+      "Bauen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Köcherfliegen",
+    "source_url": "https://de.wikipedia.org/wiki/Köcherfliegen",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do many caddisfly larvae build their tube home, the case, from?",
+        "options": [
+          "Wax, like bees",
+          "Small stones or bits of plants, glued with silk",
+          "Shed fish skin",
+          "Clay they carry in their mouths"
+        ],
+        "explanation": "Caddisflies are named in German after the tube homes (Köcher, quiver) of their larvae, which live in water. Most cases are made of small stones or bits of reed glued into a tube with spun silk. Some even look like a coiled snail shell."
+      }
+    }
   }
 ]
