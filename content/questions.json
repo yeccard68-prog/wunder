@@ -91102,5 +91102,1645 @@
         "explanation": "Blaudruck is a resist printing method: a protective paste is printed onto the cloth with wooden blocks, then the cloth is dyed with indigo. Where the paste was, the cloth stays light."
       }
     }
+  },
+  {
+    "id": "m100",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ist das Besondere an der Kleinschen Flasche?",
+    "options": [
+      "Sie ist ein Würfel mit runden Kanten",
+      "Sie hat genau vier Ecken",
+      "Sie fasst unendlich viel Wasser",
+      "Sie hat nur eine einzige Seite – innen und außen lassen sich nicht unterscheiden"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei der Kleinschen Flasche kann man innen und außen nicht unterscheiden: Sie hat nur eine einzige Seite, die gleichzeitig innen und außen ist. Anders als das Möbiusband hat sie keinen Rand.",
+    "difficulty": 3,
+    "tags": [
+      "Geometrie",
+      "Formen",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleinsche Flasche",
+    "source_url": "https://de.wikipedia.org/wiki/Kleinsche Flasche",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the Klein bottle?",
+        "options": [
+          "It is a cube with rounded edges",
+          "It has exactly four corners",
+          "It holds an endless amount of water",
+          "It has only one side – inside and outside cannot be told apart"
+        ],
+        "explanation": "On a Klein bottle you cannot tell inside from outside: it has just one side, which is inside and outside at the same time. Unlike the Möbius strip, it has no edge."
+      }
+    }
+  },
+  {
+    "id": "m101",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Stanisław Ulam schrieb 1963 Zahlen spiralförmig auf und markierte die Primzahlen. Was fiel dabei auf?",
+    "options": [
+      "Viele Primzahlen liegen auf schrägen Linien",
+      "Alle Primzahlen bilden einen Kreis",
+      "In der Mitte gibt es keine Primzahlen",
+      "Nur gerade Zahlen sind markiert"
+    ],
+    "correct_index": 0,
+    "explanation": "Ulam entdeckte die Spirale 1963, als er während eines Vortrags aus Langeweile Zahlenreihen auf ein Papier kritzelte. Auf der Ulam-Spirale sind die Diagonallinien aus Primzahlen deutlich sichtbar.",
+    "difficulty": 3,
+    "tags": [
+      "Primzahlen",
+      "Muster",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ulam-Spirale",
+    "source_url": "https://de.wikipedia.org/wiki/Ulam-Spirale",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1963 Stanisław Ulam wrote numbers in a spiral and marked the primes. What stood out?",
+        "options": [
+          "Many primes lie on diagonal lines",
+          "All primes form a circle",
+          "There are no primes in the middle",
+          "Only even numbers are marked"
+        ],
+        "explanation": "Ulam discovered the spiral in 1963 when, bored during a talk, he doodled rows of numbers on paper. On the Ulam spiral the diagonal lines of primes are clearly visible."
+      }
+    }
+  },
+  {
+    "id": "m102",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Kann man mit Zirkel und Lineal aus einem Kreis ein Quadrat mit genau gleicher Fläche konstruieren?",
+    "options": [
+      "Nein – das ist unmöglich, weil π transzendent ist",
+      "Ja, mit genau sieben Schritten",
+      "Ja, aber nur bei kleinen Kreisen",
+      "Ja, wenn π genau 3 ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Ferdinand von Lindemann bewies 1882, dass π nicht algebraisch, sondern transzendent ist. Deshalb lässt sich π nicht mit Zirkel und Lineal konstruieren, und die Quadratur des Kreises ist unmöglich.",
+    "difficulty": 3,
+    "tags": [
+      "Kreis",
+      "Pi",
+      "Beweis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quadratur des Kreises",
+    "source_url": "https://de.wikipedia.org/wiki/Quadratur des Kreises",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Can you use compass and straightedge to turn a circle into a square with exactly the same area?",
+        "options": [
+          "No – it is impossible because π is transcendental",
+          "Yes, in exactly seven steps",
+          "Yes, but only for small circles",
+          "Yes, if π is exactly 3"
+        ],
+        "explanation": "In 1882 Ferdinand von Lindemann proved that π is not algebraic but transcendental. So π cannot be constructed with compass and straightedge, and squaring the circle is impossible."
+      }
+    }
+  },
+  {
+    "id": "m103",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Eine Mersenne-Zahl hat die Form 2ⁿ − 1. Welche dieser Zahlen ist eine Mersenne-Zahl?",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct_index": 0,
+    "explanation": "Für n = 3 ergibt sich 2 · 2 · 2 − 1 = 8 − 1 = 7. Die 7 ist außerdem eine Primzahl – Mersenne-Zahlen, die Primzahlen sind, heißen Mersenne-Primzahlen.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen",
+      "Primzahlen",
+      "Potenzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mersenne-Zahl",
+    "source_url": "https://de.wikipedia.org/wiki/Mersenne-Zahl",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A Mersenne number has the form 2ⁿ − 1. Which of these numbers is a Mersenne number?",
+        "options": [
+          "7",
+          "9",
+          "10",
+          "12"
+        ],
+        "explanation": "For n = 3 you get 2 · 2 · 2 − 1 = 8 − 1 = 7. And 7 is also prime – Mersenne numbers that are prime are called Mersenne primes."
+      }
+    }
+  },
+  {
+    "id": "m104",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Georges-Louis Leclerc de Buffon stellte 1733 eine berühmte Wahrscheinlichkeitsfrage vor. Worum ging es?",
+    "options": [
+      "Ob ein Ball in einen Korb fällt",
+      "Wie oft eine Münze auf der Kante landet",
+      "Wie oft man würfeln muss, bis eine Sechs kommt",
+      "Ob eine geworfene Nadel eine von vielen parallelen Linien schneidet"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim buffonschen Nadelproblem wird eine Nadel willkürlich auf ein Gitter paralleler Linien geworfen. Gefragt ist, wie wahrscheinlich sie eine Linie schneidet. Buffon behandelte die Frage 1733 vor der Pariser Akademie der Wissenschaften.",
+    "difficulty": 3,
+    "tags": [
+      "Wahrscheinlichkeit",
+      "Zufall",
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buffonsches Nadelproblem",
+    "source_url": "https://de.wikipedia.org/wiki/Buffonsches Nadelproblem",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1733 Georges-Louis Leclerc de Buffon presented a famous probability question. What was it about?",
+        "options": [
+          "Whether a ball drops into a basket",
+          "How often a coin lands on its edge",
+          "How many rolls it takes to get a six",
+          "Whether a dropped needle crosses one of many parallel lines"
+        ],
+        "explanation": "In Buffon's needle problem a needle is dropped at random onto a grid of parallel lines. The question is how likely it is to cross a line. Buffon presented it in 1733 to the Paris Academy of Sciences."
+      }
+    }
+  },
+  {
+    "id": "m105",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wacław Sierpiński beschrieb 1915 ein Dreieck, das aus immer kleineren Kopien seiner selbst besteht. Wie nennt man solche Formen?",
+    "options": [
+      "Fraktal",
+      "Polygon",
+      "Spirale",
+      "Parallelogramm"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Sierpinski-Dreieck ist ein 1915 von Wacław Sierpiński beschriebenes Fraktal. Es ist selbstähnlich: Seine Teile sehen aus wie verkleinerte Kopien des Ganzen.",
+    "difficulty": 2,
+    "tags": [
+      "Fraktale",
+      "Dreieck",
+      "Muster"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sierpinski-Dreieck",
+    "source_url": "https://de.wikipedia.org/wiki/Sierpinski-Dreieck",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1915 Wacław Sierpiński described a triangle made of ever smaller copies of itself. What are such shapes called?",
+        "options": [
+          "Fractal",
+          "Polygon",
+          "Spiral",
+          "Parallelogram"
+        ],
+        "explanation": "The Sierpiński triangle is a fractal described by Wacław Sierpiński in 1915. It is self-similar: its parts look like smaller copies of the whole."
+      }
+    }
+  },
+  {
+    "id": "m106",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Der Ishango-Knochen aus Afrika ist etwa 20.000 Jahre alt. Was ist auf ihm zu sehen?",
+    "options": [
+      "Eine Landkarte",
+      "Gruppen von Kerben in drei Spalten",
+      "Buchstaben eines Alphabets",
+      "Eine gemalte Sonne"
+    ],
+    "correct_index": 1,
+    "explanation": "Der etwa 10 cm lange Knochen wurde 1950 im heutigen Kongo entdeckt. Auf ihm sind in drei Spalten mehrere Gruppen von Kerben angeordnet. Sein Alter wird auf etwa 20.000 Jahre bestimmt.",
+    "difficulty": 2,
+    "tags": [
+      "Zählen",
+      "Frühgeschichte",
+      "Afrika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ishango-Knochen",
+    "source_url": "https://de.wikipedia.org/wiki/Ishango-Knochen",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Ishango bone from Africa is about 20,000 years old. What can be seen on it?",
+        "options": [
+          "A map",
+          "Groups of notches in three columns",
+          "Letters of an alphabet",
+          "A painted sun"
+        ],
+        "explanation": "The bone, about 10 cm long, was found in 1950 in what is now Congo. Several groups of notches are arranged on it in three columns. Its age is put at about 20,000 years."
+      }
+    }
+  },
+  {
+    "id": "m107",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Bei der klassischen Konstruktion mit Zirkel und Lineal: Was am Lineal darf man nicht benutzen?",
+    "options": [
+      "Beide Enden des Lineals",
+      "Die gerade Kante",
+      "Die Skala mit den Markierungen",
+      "Die Rückseite des Lineals"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Beschränkung auf Zirkel und Lineal geht auf Euklids Lehrbuch „Die Elemente“ zurück. Das Lineal dient nur zum Ziehen gerader Linien – eine Skala oder sonstige Markierungen werden nicht benutzt.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie",
+      "Konstruktion",
+      "Euklid"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Konstruktion mit Zirkel und Lineal",
+    "source_url": "https://de.wikipedia.org/wiki/Konstruktion mit Zirkel und Lineal",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a classic compass-and-straightedge construction, what part of the ruler may you not use?",
+        "options": [
+          "Both ends of the ruler",
+          "The straight edge",
+          "The scale with its markings",
+          "The back of the ruler"
+        ],
+        "explanation": "The restriction to compass and straightedge goes back to Euclid's textbook, the Elements. The ruler is only for drawing straight lines – a scale or any other markings are not used."
+      }
+    }
+  },
+  {
+    "id": "l122",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das deutsche Wort „Doppelgänger“ wird auch in vielen anderen Sprachen benutzt. Worauf führt man das zurück?",
+    "options": [
+      "Auf die weltweite Wirkung der deutschen Romantik",
+      "Auf einen Kinofilm",
+      "Auf ein Computerspiel",
+      "Auf einen Werbespruch"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Wort Doppelgänger wird in vielen Sprachen verwendet, meist als „doppelgänger“ oder „doppelganger“. Das wird auf die weltweite Wirkung der deutschen Romantik zurückgeführt.",
+    "difficulty": 3,
+    "tags": [
+      "Wörter",
+      "Lehnwörter",
+      "Romantik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Doppelgänger",
+    "source_url": "https://de.wikipedia.org/wiki/Doppelgänger",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German word “Doppelgänger” is used in many other languages too. What is that put down to?",
+        "options": [
+          "The worldwide influence of German Romanticism",
+          "A film",
+          "A video game",
+          "An advertising slogan"
+        ],
+        "explanation": "The word Doppelgänger is used in many languages, usually as “doppelgänger” or “doppelganger”. This is attributed to the worldwide influence of German Romanticism."
+      }
+    }
+  },
+  {
+    "id": "l123",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Im Norden Deutschlands heißt die Orange oft „Apfelsine“. Was bedeutet das Wort ursprünglich?",
+    "options": [
+      "Goldener Apfel",
+      "Apfel aus China",
+      "Sonnenfrucht",
+      "Süßer Apfel"
+    ],
+    "correct_index": 1,
+    "explanation": "Apfelsine kommt von niederdeutsch „appelsina“, wörtlich „Apfel aus China“. Der Name ist vor allem nördlich der Speyerer Linie verbreitet.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Früchte",
+      "Herkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Orange (Frucht)",
+    "source_url": "https://de.wikipedia.org/wiki/Orange (Frucht)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In northern Germany the orange is often called “Apfelsine”. What did the word originally mean?",
+        "options": [
+          "Golden apple",
+          "Apple from China",
+          "Sun fruit",
+          "Sweet apple"
+        ],
+        "explanation": "Apfelsine comes from Low German “appelsina”, literally “apple from China”. The name is used mainly north of the Speyer line."
+      }
+    }
+  },
+  {
+    "id": "l124",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Die Pampelmuse heißt lateinisch „Citrus maxima“. Was bedeutet das?",
+    "options": [
+      "Gelbe Sonne",
+      "Saure Kugel",
+      "Größte Zitrone",
+      "Königliche Frucht"
+    ],
+    "correct_index": 2,
+    "explanation": "Citrus maxima bedeutet „größte Zitrone“. Der Name passt: Die Pampelmuse bringt die größten Zitrusfrüchte hervor.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Latein",
+      "Früchte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pampelmuse",
+    "source_url": "https://de.wikipedia.org/wiki/Pampelmuse",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The pomelo's Latin name is “Citrus maxima”. What does that mean?",
+        "options": [
+          "Yellow sun",
+          "Sour ball",
+          "Biggest lemon",
+          "Royal fruit"
+        ],
+        "explanation": "Citrus maxima means “biggest lemon”. The name fits: the pomelo produces the largest citrus fruits."
+      }
+    }
+  },
+  {
+    "id": "l125",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Wort „Matratze“ kam über das Italienische zu uns und soll auf ein arabisches Wort zurückgehen. Was bedeutet es?",
+    "options": [
+      "Federdecke",
+      "Himmelbett",
+      "Schlafmütze",
+      "Bodenkissen"
+    ],
+    "correct_index": 3,
+    "explanation": "Matratze kommt vom frühitalienischen Wort „materazzo“. Das geht wohl auf das arabische Wort „maṭraḥ“ zurück, das „Bodenkissen“ bedeutet.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Lehnwörter",
+      "Arabisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Matratze",
+    "source_url": "https://de.wikipedia.org/wiki/Matratze",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The word “Matratze” (mattress) reached German via Italian and is said to come from an Arabic word. What does it mean?",
+        "options": [
+          "Feather quilt",
+          "Four-poster bed",
+          "Nightcap",
+          "Floor cushion"
+        ],
+        "explanation": "Matratze comes from the early Italian word “materazzo”, which probably goes back to the Arabic word “maṭraḥ”, meaning “floor cushion”."
+      }
+    }
+  },
+  {
+    "id": "l126",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Wort „Sofa“ stammt aus dem Arabischen. Was bezeichnete es dort?",
+    "options": [
+      "Eine gepolsterte Ruhebank",
+      "Einen Teppich zum Beten",
+      "Ein Zelt",
+      "Einen niedrigen Tisch"
+    ],
+    "correct_index": 0,
+    "explanation": "Sofa geht auf das arabische Wort „ṣuffa“ zurück: eine gepolsterte Ruhebank. Das englische Wort „Couch“ kommt dagegen vom französischen „coucher“, also „liegen“.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Lehnwörter",
+      "Arabisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sofa",
+    "source_url": "https://de.wikipedia.org/wiki/Sofa",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The word “sofa” comes from Arabic. What did it refer to there?",
+        "options": [
+          "A padded bench for resting",
+          "A prayer rug",
+          "A tent",
+          "A low table"
+        ],
+        "explanation": "Sofa goes back to the Arabic word “ṣuffa”: a padded bench for resting. The English word “couch”, by contrast, comes from French “coucher”, meaning “to lie down”."
+      }
+    }
+  },
+  {
+    "id": "l127",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welchen Sprachen stammt das Wort „Mokassin“?",
+    "options": [
+      "Aus dem Japanischen",
+      "Aus den Algonkin-Sprachen Nordamerikas",
+      "Aus dem Lateinischen",
+      "Aus dem Arabischen"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Wort ist einer der östlichen Algonkin-Sprachen entlehnt. Im rekonstruierten Ur-Algonkin hieß „maxkeseni“ einfach „Schuh“.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Lehnwörter",
+      "Schuhe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mokassin",
+    "source_url": "https://de.wikipedia.org/wiki/Mokassin",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which languages does the word “moccasin” come from?",
+        "options": [
+          "Japanese",
+          "The Algonquian languages of North America",
+          "Latin",
+          "Arabic"
+        ],
+        "explanation": "The word was borrowed from one of the eastern Algonquian languages. In reconstructed Proto-Algonquian, “maxkeseni” simply meant “shoe”."
+      }
+    }
+  },
+  {
+    "id": "l128",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Die Tilde steht im Spanischen über dem n: ñ. Was bedeutete ñ früher im Mittellatein?",
+    "options": [
+      "Ein langes a",
+      "Ein stummes n",
+      "Ein doppeltes n („nn“)",
+      "Ein Fragezeichen"
+    ],
+    "correct_index": 2,
+    "explanation": "Im Mittellatein und im Mittelhochdeutschen stand ñ für den Doppelbuchstaben „nn“. Heute kommt die Tilde unter anderem im Spanischen, Portugiesischen, Baskischen und Estnischen vor.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Zeichen",
+      "Spanisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tilde",
+    "source_url": "https://de.wikipedia.org/wiki/Tilde",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Spanish the tilde sits above the n: ñ. What did ñ once mean in Medieval Latin?",
+        "options": [
+          "A long a",
+          "A silent n",
+          "A double n (“nn”)",
+          "A question mark"
+        ],
+        "explanation": "In Medieval Latin and Middle High German, ñ stood for the double letter “nn”. Today the tilde is used in Spanish, Portuguese, Basque and Estonian, among others."
+      }
+    }
+  },
+  {
+    "id": "l129",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Häkchen unter dem ç heißt Cedille. Was bedeutet der Name eigentlich?",
+    "options": [
+      "Kleines C",
+      "Kleiner Haken",
+      "Schwänzchen",
+      "Kleines Z"
+    ],
+    "correct_index": 3,
+    "explanation": "Cedille heißt eigentlich „kleines Z“. Sie ist ein diakritisches Zeichen und zeigt eine besondere Aussprache eines Buchstabens an.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Zeichen",
+      "Französisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cedille",
+    "source_url": "https://de.wikipedia.org/wiki/Cedille",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The little hook under ç is called a cedilla. What does the name actually mean?",
+        "options": [
+          "Little C",
+          "Little hook",
+          "Little tail",
+          "Little Z"
+        ],
+        "explanation": "Cedilla actually means “little Z”. It is a diacritical mark that shows a letter is pronounced in a special way."
+      }
+    }
+  },
+  {
+    "id": "eg87",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie entstehen Gletschertöpfe, tiefe runde Löcher im Fels?",
+    "options": [
+      "Durch fließendes Wasser im Bereich von Gletschereis",
+      "Durch Meteoriteneinschläge",
+      "Durch Menschen, die dort Steine abbauten",
+      "Durch Erdbeben"
+    ],
+    "correct_index": 0,
+    "explanation": "Gletschertöpfe sind topf- oder schachtartige Vertiefungen im Fels, die durch fließendes Wasser im Bereich von Gletschereis entstehen. Die Vorstellung, ein drehender Findling fräse das Loch wie ein Mühlstein, gilt als veraltet.",
+    "difficulty": 2,
+    "tags": [
+      "Gletscher",
+      "Wasser",
+      "Fels"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gletschertopf",
+    "source_url": "https://de.wikipedia.org/wiki/Gletschertopf",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do glacial potholes – deep round holes in rock – form?",
+        "options": [
+          "Through flowing water around glacier ice",
+          "Through meteorite impacts",
+          "Through people quarrying stone there",
+          "Through earthquakes"
+        ],
+        "explanation": "Glacial potholes are pot- or shaft-shaped hollows in rock carved by flowing water around glacier ice. The idea that a spinning boulder drills the hole like a millstone is considered outdated."
+      }
+    }
+  },
+  {
+    "id": "eg88",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Drumlins sind längliche Hügel, die Gletscher geformt haben. Aus welcher Sprache kommt das Wort?",
+    "options": [
+      "Aus dem Lateinischen – „Trommel“",
+      "Aus dem Irischen – „kleiner Rücken“",
+      "Aus dem Norwegischen – „Riese“",
+      "Aus dem Arabischen – „Sandberg“"
+    ],
+    "correct_index": 1,
+    "explanation": "Drumlin kommt von irisch „droimnín“, „kleiner Rücken“. Die Hügel haben einen tropfenförmigen Grundriss, und ihre Längsachse zeigt in die Richtung, in die sich das Eis bewegt hat.",
+    "difficulty": 3,
+    "tags": [
+      "Gletscher",
+      "Eiszeit",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Drumlin",
+    "source_url": "https://de.wikipedia.org/wiki/Drumlin",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Drumlins are elongated hills shaped by glaciers. Which language does the word come from?",
+        "options": [
+          "Latin – “drum”",
+          "Irish – “little ridge”",
+          "Norwegian – “giant”",
+          "Arabic – “sand hill”"
+        ],
+        "explanation": "Drumlin comes from Irish “droimnín”, “little ridge”. The hills are teardrop-shaped in outline, and their long axis points in the direction the ice moved."
+      }
+    }
+  },
+  {
+    "id": "eg89",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist ein Zeugenberg?",
+    "options": [
+      "Ein Vulkan, der nur einmal ausgebrochen ist",
+      "Ein Berg, auf dem früher Gerichte tagten",
+      "Ein einzelner Berg, den die Abtragung von einer Hochfläche getrennt hat",
+      "Ein künstlich aufgeschütteter Hügel"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Zeugenberg ist ein Einzelberg in einer Schichtstufenlandschaft. Durch Erosion wurde er vom Plateau isoliert, zu dem er ursprünglich gehörte – er „bezeugt“, wie weit die Hochfläche einmal reichte.",
+    "difficulty": 3,
+    "tags": [
+      "Berge",
+      "Erosion",
+      "Landschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zeugenberg",
+    "source_url": "https://de.wikipedia.org/wiki/Zeugenberg",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “Zeugenberg” (witness hill, or outlier)?",
+        "options": [
+          "A volcano that erupted only once",
+          "A hill where courts used to meet",
+          "A lone hill cut off from a plateau by erosion",
+          "An artificially piled-up mound"
+        ],
+        "explanation": "A witness hill is a lone hill in a landscape of rock terraces. Erosion has cut it off from the plateau it once belonged to – it “bears witness” to how far the plateau used to reach."
+      }
+    }
+  },
+  {
+    "id": "eg90",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Aus einem Schlammvulkan tritt immer wieder Schlamm aus. Welches Gas kommt oft mit heraus?",
+    "options": [
+      "Methan",
+      "Sauerstoff",
+      "Helium",
+      "Chlor"
+    ],
+    "correct_index": 0,
+    "explanation": "Aus Schlammvulkanen tritt in mehr oder minder regelmäßigen Abständen wassergesättigter Schlamm aus, oft zusammen mit Methan.",
+    "difficulty": 2,
+    "tags": [
+      "Vulkane",
+      "Gase",
+      "Erde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schlammvulkan",
+    "source_url": "https://de.wikipedia.org/wiki/Schlammvulkan",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A mud volcano keeps pushing out mud. Which gas often comes out with it?",
+        "options": [
+          "Methane",
+          "Oxygen",
+          "Helium",
+          "Chlorine"
+        ],
+        "explanation": "Mud volcanoes release water-saturated mud at more or less regular intervals, often together with methane."
+      }
+    }
+  },
+  {
+    "id": "eg91",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist eine Fumarole?",
+    "options": [
+      "Ein Gestein aus erkalteter Lava",
+      "Eine Stelle in Vulkangebieten, an der Dampf und Gase austreten",
+      "Eine Höhle in einem Gletscher",
+      "Ein Fluss aus glühender Lava"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Fumarole ist eine vulkanische Dampfaustrittsstelle in vulkanisch aktiven Gebieten. Meist kommen Wasserdampf und zum Teil vulkanische Gase heraus.",
+    "difficulty": 2,
+    "tags": [
+      "Vulkane",
+      "Dampf",
+      "Erde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fumarole",
+    "source_url": "https://de.wikipedia.org/wiki/Fumarole",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a fumarole?",
+        "options": [
+          "A rock made of cooled lava",
+          "A spot in volcanic areas where steam and gases escape",
+          "A cave inside a glacier",
+          "A river of glowing lava"
+        ],
+        "explanation": "A fumarole is a volcanic steam vent in volcanically active areas. It mostly releases water vapour and sometimes volcanic gases."
+      }
+    }
+  },
+  {
+    "id": "eg92",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Bodden sind flache, buchtartige Küstengewässer. An welchem Meer sind sie typisch?",
+    "options": [
+      "Am Roten Meer",
+      "Am Mittelmeer",
+      "An der südlichen Ostsee",
+      "Am Atlantik vor Portugal"
+    ],
+    "correct_index": 2,
+    "explanation": "Bodden sind charakteristisch für die südliche Ostsee. Dort trennen langgestreckte Inseln und Halbinseln sie vom offenen Meer, und sie bilden Lagunen.",
+    "difficulty": 2,
+    "tags": [
+      "Küste",
+      "Ostsee",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bodden",
+    "source_url": "https://de.wikipedia.org/wiki/Bodden",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Bodden are shallow, bay-like coastal waters. Which sea are they typical of?",
+        "options": [
+          "The Red Sea",
+          "The Mediterranean",
+          "The southern Baltic Sea",
+          "The Atlantic off Portugal"
+        ],
+        "explanation": "Bodden are characteristic of the southern Baltic Sea. There, long islands and peninsulas separate them from the open sea, forming lagoons."
+      }
+    }
+  },
+  {
+    "id": "eg93",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist eine Schäre?",
+    "options": [
+      "Eine Bucht mit steilen Felswänden",
+      "Eine Sandbank im Watt",
+      "Ein Korallenriff",
+      "Eine kleine felsige Insel, die durch Eiszeiten entstand"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Schäre ist eine kleine felsige Insel, die durch Eiszeiten entstand. Oft bilden Schären Gruppen aus vielen Hunderten einzelnen Inseln.",
+    "difficulty": 2,
+    "tags": [
+      "Inseln",
+      "Eiszeit",
+      "Küste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schäre",
+    "source_url": "https://de.wikipedia.org/wiki/Schäre",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a skerry (“Schäre”)?",
+        "options": [
+          "A bay with steep rock walls",
+          "A sandbank in the mudflats",
+          "A coral reef",
+          "A small rocky island formed by ice ages"
+        ],
+        "explanation": "A skerry is a small rocky island formed by ice ages. Skerries often come in groups of many hundreds of single islands."
+      }
+    }
+  },
+  {
+    "id": "eg94",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "In den Niederlanden gibt es viele Polder. Was ist ein Polder?",
+    "options": [
+      "Ein eingedeichtes, niedrig gelegenes Gelände",
+      "Ein künstlicher Berg",
+      "Eine Mühle zum Mahlen von Getreide",
+      "Ein Kanal für große Schiffe"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Polder ist ein eingedeichtes, niedrig gelegenes Gelände in der Nähe von Gewässern. Die Windmühlen auf den Deichen im Rheindelta, ein Wahrzeichen der Niederlande, sind alte Windpumpen.",
+    "difficulty": 2,
+    "tags": [
+      "Niederlande",
+      "Deiche",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Polder",
+    "source_url": "https://de.wikipedia.org/wiki/Polder",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Netherlands has many polders. What is a polder?",
+        "options": [
+          "A low-lying area of land enclosed by dikes",
+          "An artificial mountain",
+          "A mill for grinding grain",
+          "A canal for large ships"
+        ],
+        "explanation": "A polder is low-lying land near water, enclosed by dikes. The windmills on the dikes of the Rhine delta, a symbol of the Netherlands, are old wind pumps."
+      }
+    }
+  },
+  {
+    "id": "ti136",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Das Quokka ist ein kleines Känguru aus Australien. Auf welcher Insel lebt es zum Beispiel?",
+    "options": [
+      "Rottnest Island",
+      "Madagaskar",
+      "Sizilien",
+      "Hawaii"
+    ],
+    "correct_index": 0,
+    "explanation": "Quokkas leben im Südwesten von Western Australia und auf einigen vorgelagerten Inseln wie Rottnest Island. Dort haben manche ihren Tagesrhythmus umgestellt, weil sie tagsüber leichter Nahrung erbetteln können.",
+    "difficulty": 2,
+    "tags": [
+      "Beuteltiere",
+      "Australien",
+      "Inseln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quokka",
+    "source_url": "https://de.wikipedia.org/wiki/Quokka",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The quokka is a small kangaroo from Australia. On which island does it live, for example?",
+        "options": [
+          "Rottnest Island",
+          "Madagascar",
+          "Sicily",
+          "Hawaii"
+        ],
+        "explanation": "Quokkas live in the south-west of Western Australia and on some offshore islands such as Rottnest Island. There, some have shifted their daily rhythm because it is easier to beg for food during the day."
+      }
+    }
+  },
+  {
+    "id": "ti137",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Lungenfische heißen wissenschaftlich „Dipneusti“, also „Doppelatmer“. Warum?",
+    "options": [
+      "Sie haben zwei Nasen",
+      "Sie atmen mit Kiemen und mit Lungen",
+      "Sie atmen nur nachts",
+      "Sie haben zwei Herzen"
+    ],
+    "correct_index": 1,
+    "explanation": "Lungenfische haben Kiemen zur Atmung im Wasser und Lungen, um Luft an der Wasseroberfläche zu atmen. Afrikanische Lungenfische können bei Trockenheit sogar bis zu vier Jahre in einer Hülle aus Schleim und Schlamm überdauern.",
+    "difficulty": 2,
+    "tags": [
+      "Fische",
+      "Atmung",
+      "Afrika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lungenfische",
+    "source_url": "https://de.wikipedia.org/wiki/Lungenfische",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Lungfish are scientifically called “Dipneusti”, meaning “double breathers”. Why?",
+        "options": [
+          "They have two noses",
+          "They breathe with gills and with lungs",
+          "They only breathe at night",
+          "They have two hearts"
+        ],
+        "explanation": "Lungfish have gills for breathing in water and lungs for breathing air at the surface. In droughts, African lungfish can even survive up to four years in a casing of mucus and mud."
+      }
+    }
+  },
+  {
+    "id": "ti138",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wofür halten Menschen in den Anden das Alpaka?",
+    "options": [
+      "Als Reittier",
+      "Als Lasttier",
+      "Für seine Wolle",
+      "Für seine Eier"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Alpaka ist eine domestizierte Kamelart aus den Anden, die ausschließlich der Wollgewinnung dient. Das Lama dagegen diente vor allem als Lasttier.",
+    "difficulty": 1,
+    "tags": [
+      "Haustiere",
+      "Wolle",
+      "Südamerika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Alpaka",
+    "source_url": "https://de.wikipedia.org/wiki/Alpaka",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do people in the Andes keep alpacas for?",
+        "options": [
+          "For riding",
+          "As pack animals",
+          "Their wool",
+          "For their eggs"
+        ],
+        "explanation": "The alpaca is a domesticated member of the camel family from the Andes, kept purely for its wool. The llama, by contrast, was used mainly as a pack animal."
+      }
+    }
+  },
+  {
+    "id": "ti139",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Die Wasserspinne lebt unter Wasser. Wie bekommt sie dort Luft?",
+    "options": [
+      "Sie atmet durch ein langes Röhrchen",
+      "Sie hat Kiemen wie ein Fisch",
+      "Sie hält tagelang die Luft an",
+      "Eine Luftschicht umgibt ihren Körper – wie eine Taucherglocke"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Wasserspinne atmet mit einer Luftschicht, die Teile ihres Körpers wie eine Taucherglocke umschließt. Unter Wasser glänzt sie deshalb silbrig.",
+    "difficulty": 1,
+    "tags": [
+      "Spinnen",
+      "Wasser",
+      "Atmung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserspinne",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserspinne",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The water spider lives underwater. How does it get air down there?",
+        "options": [
+          "It breathes through a long tube",
+          "It has gills like a fish",
+          "It holds its breath for days",
+          "A layer of air surrounds its body – like a diving bell"
+        ],
+        "explanation": "The water spider breathes using a layer of air that surrounds parts of its body like a diving bell. That is why it looks silvery underwater."
+      }
+    }
+  },
+  {
+    "id": "ti140",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Grönlandwale können sehr alt werden. Auf welches Alter wurde ein Tier mit molekularbiologischen Untersuchungen bestimmt?",
+    "options": [
+      "Etwa 21 Jahre",
+      "Etwa 80 Jahre",
+      "211 Jahre",
+      "Über 1.000 Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Mit molekularbiologischen Untersuchungen wurde das Alter eines Grönlandwals auf 211 Jahre bestimmt. Schon alte Harpunenspitzen in erlegten Walen hatten gezeigt, dass sie weit älter als 100 Jahre werden können.",
+    "difficulty": 2,
+    "tags": [
+      "Wale",
+      "Alter",
+      "Arktis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grönlandwal",
+    "source_url": "https://de.wikipedia.org/wiki/Grönlandwal",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Bowhead whales can live very long. What age was one animal found to be through molecular biology tests?",
+        "options": [
+          "About 21 years",
+          "About 80 years",
+          "211 years",
+          "Over 1,000 years"
+        ],
+        "explanation": "Molecular biology tests put the age of one bowhead whale at 211 years. Old harpoon tips found in whales had already shown that they can live far beyond 100 years."
+      }
+    }
+  },
+  {
+    "id": "ti141",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist beim Schneehasen besonders?",
+    "options": [
+      "Er kann unter dem Eis schwimmen",
+      "Er hält Winterschlaf in einer Schneehöhle",
+      "In vielen Gegenden bekommt er im Winter ein weißes Fell",
+      "Er legt Eier in den Schnee"
+    ],
+    "correct_index": 2,
+    "explanation": "Bekannt ist der Fellwechsel des Schneehasen vom graubraunen Sommerkleid zum weißen Winterkleid. Das hängt aber von der Gegend ab: In Irland wird er nie weiß.",
+    "difficulty": 1,
+    "tags": [
+      "Hasen",
+      "Winter",
+      "Fell"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schneehase",
+    "source_url": "https://de.wikipedia.org/wiki/Schneehase",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the mountain hare?",
+        "options": [
+          "It can swim under the ice",
+          "It hibernates in a snow cave",
+          "In many regions it grows a white coat in winter",
+          "It lays eggs in the snow"
+        ],
+        "explanation": "The mountain hare is known for changing from a grey-brown summer coat to a white winter coat. But it depends on the region: in Ireland it never turns white."
+      }
+    }
+  },
+  {
+    "id": "ti142",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie vertreiben junge Wiedehopfe Feinde vom Nest?",
+    "options": [
+      "Mit spitzen Stacheln",
+      "Mit giftigen Federn",
+      "Mit lautem Bellen",
+      "Mit einem stark riechenden Sekret"
+    ],
+    "correct_index": 3,
+    "explanation": "Besonders wirkungsvoll ist ein sehr übel riechendes Sekret aus der Bürzeldrüse – junge Wiedehopfe vertreiben damit ihre Feinde. In Deutschland war der Wiedehopf 1976 und 2022 Vogel des Jahres.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Verteidigung",
+      "Gerüche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wiedehopf",
+    "source_url": "https://de.wikipedia.org/wiki/Wiedehopf",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do young hoopoes drive enemies away from the nest?",
+        "options": [
+          "With sharp spines",
+          "With poisonous feathers",
+          "With loud barking",
+          "With a strong-smelling secretion"
+        ],
+        "explanation": "A very foul-smelling secretion from the preen gland works especially well – young hoopoes use it to drive off enemies. In Germany the hoopoe was Bird of the Year in 1976 and 2022."
+      }
+    }
+  },
+  {
+    "id": "ti143",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Der Schuhschnabel ist nach der Form seines Schnabels benannt. Was frisst er vor allem?",
+    "options": [
+      "Fische, besonders Afrikanische Lungenfische",
+      "Früchte und Beeren",
+      "Ameisen und Termiten",
+      "Gras und Blätter"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Hauptnahrung des Schuhschnabels sind Fische, vor allem Afrikanische Lungenfische, Flösselhechte und Tilapien. Er lebt in Sümpfen, und sein Schnabel ist außerordentlich lang, tief und breit.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Sumpf",
+      "Afrika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schuhschnabel",
+    "source_url": "https://de.wikipedia.org/wiki/Schuhschnabel",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The shoebill is named after the shape of its bill. What does it mainly eat?",
+        "options": [
+          "Fish, especially African lungfish",
+          "Fruit and berries",
+          "Ants and termites",
+          "Grass and leaves"
+        ],
+        "explanation": "The shoebill feeds mainly on fish, above all African lungfish, bichirs and tilapia. It lives in swamps, and its bill is extremely long, deep and wide."
+      }
+    }
+  },
+  {
+    "id": "hg45",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Im 18. Jahrhundert waren Fahrten mit der Postkutsche oft sehr unbequem. Welchen Spottnamen bekamen die Kutschen deshalb?",
+    "options": [
+      "Schlafwagen",
+      "Federwolke",
+      "Schaukelstuhl",
+      "Knochenknacker"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Menschen des 18. Jahrhunderts erfanden wegen der unbequemen Fahrt viele abfällige Namen für Kutschen, etwa Walkmühle, Marterkasten oder Knochenknacker. Die Postwagen waren früher oft ungefedert.",
+    "difficulty": 1,
+    "tags": [
+      "Reisen",
+      "Post",
+      "Kutschen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Postkutsche",
+    "source_url": "https://de.wikipedia.org/wiki/Postkutsche",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the 18th century, journeys by stagecoach were often very uncomfortable. What nickname did the coaches get?",
+        "options": [
+          "Sleeping car",
+          "Feather cloud",
+          "Rocking chair",
+          "Bone-cracker"
+        ],
+        "explanation": "Because the ride was so uncomfortable, people in the 18th century made up many mocking names for coaches, such as “fulling mill”, “torture box” or “bone-cracker”. Early post wagons often had no springs."
+      }
+    }
+  },
+  {
+    "id": "hg46",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Womit wurde eine Zugbrücke hochgezogen?",
+    "options": [
+      "Mit Seilen oder Ketten",
+      "Mit einem Elektromotor",
+      "Mit Druckluft",
+      "Mit einem Kran aus Stahl"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Zugbrücke wird mit Seilen oder Ketten hochgezogen, die am äußeren Ende der Brückenklappe ansetzen. Meist führte sie über einen Graben, der manchmal mit Wasser gefüllt war.",
+    "difficulty": 1,
+    "tags": [
+      "Burgen",
+      "Brücken",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zugbrücke",
+    "source_url": "https://de.wikipedia.org/wiki/Zugbrücke",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was used to raise a drawbridge?",
+        "options": [
+          "Ropes or chains",
+          "An electric motor",
+          "Compressed air",
+          "A steel crane"
+        ],
+        "explanation": "A drawbridge is raised with ropes or chains attached to the outer end of the bridge flap. It usually led across a ditch, which was sometimes filled with water."
+      }
+    }
+  },
+  {
+    "id": "hg47",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Pestärzte werden oft mit einer Maske gezeigt. Wie nannte man sie deshalb umgangssprachlich?",
+    "options": [
+      "Vogelmann",
+      "Schnabeldoktor",
+      "Maskenmeister",
+      "Federarzt"
+    ],
+    "correct_index": 1,
+    "explanation": "Pestärzte hießen umgangssprachlich auch Schnabeldoktor oder Dr. Schnabel. Die Schnabelmaske trugen Ärzte nur südlich der Alpen; in der Literatur wurde sie zum Merkmal des Pestdoktors. Später gehörte sie auch zum Karneval in Venedig.",
+    "difficulty": 2,
+    "tags": [
+      "Geschichte",
+      "Masken",
+      "Karneval"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pestarzt",
+    "source_url": "https://de.wikipedia.org/wiki/Pestarzt",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Plague doctors are often shown wearing a mask. What were they nicknamed because of it?",
+        "options": [
+          "Bird man",
+          "Beak doctor",
+          "Mask master",
+          "Feather doctor"
+        ],
+        "explanation": "Plague doctors were also known colloquially as “Schnabeldoktor” (beak doctor) or “Dr. Schnabel”. Only doctors south of the Alps wore the beak mask; in literature it became the plague doctor's trademark. Later it also became part of the Carnival of Venice."
+      }
+    }
+  },
+  {
+    "id": "hg48",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Bei einem Fachwerkhaus trägt ein Gerüst aus Holz das Gebäude. Wie heißen die Zwischenräume zwischen den Hölzern?",
+    "options": [
+      "Giebel",
+      "Erker",
+      "Gefache",
+      "Gauben"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Fachwerkhaus besteht die tragende Konstruktion aus einem Holzfachwerk. Die Zwischenräume zwischen den Hölzern heißen Gefache und können mit unterschiedlichen Materialien gefüllt werden. In der Schweiz sagt man Riegelhaus.",
+    "difficulty": 2,
+    "tags": [
+      "Häuser",
+      "Holz",
+      "Bauen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fachwerkhaus",
+    "source_url": "https://de.wikipedia.org/wiki/Fachwerkhaus",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a half-timbered house a wooden frame carries the building. What are the spaces between the timbers called in German?",
+        "options": [
+          "Giebel (gables)",
+          "Erker (bay windows)",
+          "Gefache (infill panels)",
+          "Gauben (dormers)"
+        ],
+        "explanation": "In a half-timbered house the load-bearing structure is a timber frame. The spaces between the timbers are called “Gefache” and can be filled with various materials. In Switzerland such a house is called a “Riegelhaus”."
+      }
+    }
+  },
+  {
+    "id": "hg49",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie heißt der Hauptturm einer Burg, der oft in der Mitte steht und der höchste aller Türme ist?",
+    "options": [
+      "Pechnase",
+      "Zwinger",
+      "Palas",
+      "Bergfried"
+    ],
+    "correct_index": 3,
+    "explanation": "Oft steht der Bergfried in der Mitte der Burg und ist der höchste aller Türme. In mittelalterlichen Schriften bezeichnete das Wort aber auch andere Türme, etwa Glockentürme.",
+    "difficulty": 2,
+    "tags": [
+      "Burgen",
+      "Türme",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bergfried",
+    "source_url": "https://de.wikipedia.org/wiki/Bergfried",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the main tower of a castle called in German – often standing in the middle and the tallest of all the towers?",
+        "options": [
+          "Pechnase (machicolation)",
+          "Zwinger (outer bailey)",
+          "Palas (great hall)",
+          "Bergfried (keep)"
+        ],
+        "explanation": "The Bergfried often stands in the middle of the castle and is the tallest of all its towers. In medieval writings, though, the word also meant other towers, such as bell towers."
+      }
+    }
+  },
+  {
+    "id": "hg50",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war die eigentliche Strafe, wenn jemand an den Pranger gestellt wurde?",
+    "options": [
+      "Eine hohe Geldbuße",
+      "Die öffentliche Schande",
+      "Ein Jahr Gefängnis",
+      "Der Verlust des Hauses"
+    ],
+    "correct_index": 1,
+    "explanation": "Am Pranger, auch Schandpfahl genannt, wurde ein Verurteilter gefesselt und öffentlich vorgeführt. Die Strafe bestand vor allem in der öffentlichen Schande – oft war ein normales Leben in der Gemeinschaft danach kaum noch möglich.",
+    "difficulty": 2,
+    "tags": [
+      "Recht",
+      "Mittelalter",
+      "Strafen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pranger",
+    "source_url": "https://de.wikipedia.org/wiki/Pranger",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the real punishment when someone was put in the pillory?",
+        "options": [
+          "A heavy fine",
+          "Public shame",
+          "A year in prison",
+          "Losing their house"
+        ],
+        "explanation": "At the pillory, also called the “post of shame”, a convicted person was tied up and put on public display. The punishment was above all the public shame – afterwards a normal life in the community was often hardly possible."
+      }
+    }
+  },
+  {
+    "id": "hg51",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war die Aufgabe eines Türmers?",
+    "options": [
+      "Neue Türme zu bauen",
+      "Kirchenglocken zu gießen",
+      "Vom höchsten Turm aus die Stadt vor Gefahren zu warnen",
+      "Briefe in der Stadt zu verteilen"
+    ],
+    "correct_index": 2,
+    "explanation": "Türmer, auch Turmwächter oder Turmbläser genannt, warnten vom höchsten Turm aus die Stadt oder Burg vor Gefahren. Oft wohnten sie sogar im Turm.",
+    "difficulty": 1,
+    "tags": [
+      "Stadt",
+      "Berufe",
+      "Türme"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Türmer",
+    "source_url": "https://de.wikipedia.org/wiki/Türmer",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a tower warden's job?",
+        "options": [
+          "To build new towers",
+          "To cast church bells",
+          "To warn the town of danger from the highest tower",
+          "To deliver letters in town"
+        ],
+        "explanation": "Tower wardens, also called tower watchmen or tower trumpeters, watched from the highest tower to warn the town or castle of danger. They often even lived in the tower."
+      }
+    }
+  },
+  {
+    "id": "hg52",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wofür benutzte man Siegellack vor allem?",
+    "options": [
+      "Zum Abdichten von Booten",
+      "Zum Lackieren von Kutschen",
+      "Zum Malen von Bildern",
+      "Zum Versiegeln von Briefen und Paketen"
+    ],
+    "correct_index": 3,
+    "explanation": "Siegellack ist eine harzige Masse, die man erhitzt und auf Briefe oder Pakete tropfen lässt. In den noch weichen Lack drückt man meist einen Stempel, ein Petschaft oder einen Siegelring.",
+    "difficulty": 1,
+    "tags": [
+      "Post",
+      "Briefe",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Siegellack",
+    "source_url": "https://de.wikipedia.org/wiki/Siegellack",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was sealing wax mainly used for?",
+        "options": [
+          "Sealing boats",
+          "Varnishing coaches",
+          "Painting pictures",
+          "Sealing letters and parcels"
+        ],
+        "explanation": "Sealing wax is a resinous mass that is heated and dripped onto letters or parcels. A stamp, a seal or a signet ring is usually pressed into the still-soft wax."
+      }
+    }
   }
 ]
