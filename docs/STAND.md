@@ -65,6 +65,7 @@ Aktuelle Nachrichten als Lernformat, Bezahlmodell, Marketing-Automatisierung, Fr
 
 Ideen aus Hinweisen der App:
 - Animation „Photosynthese“ (a-photosynthese): Das Blatt wirkt „komisch“ (Hinweis #26, 26.10.2026) – die Mittelrippe läuft als gerade Linie über das ganze Blatt hinaus; ein Blattstiel nur auf einer Seite und eine leicht gewölbte Blattform wären natürlicher.
+- Animation „Drehorgel“ (a-drehorgel): Melodie schneller abspielen und die ganze Melodie statt nur des Anfangs (Hinweis #36, 20.11.2026). Die „Ode an die Freude“ ist gemeinfrei; eine längere Walze (mehr als 16 Schläge je Umdrehung) und ein höheres Tempo wären eine Änderung in components/anim/Drehorgel.tsx und drehorgel.json, der Text in Schritt 4 („den Anfang“) müsste dann mit angepasst werden.
 
 ## Vorschlag: Zeitplan bis zur Veröffentlichung (Stand 19.10.2026)
 
