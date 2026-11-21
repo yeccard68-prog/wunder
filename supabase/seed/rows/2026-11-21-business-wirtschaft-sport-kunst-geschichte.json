@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "b137",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Warum heißt das Hamburger Kontorhaus „Chilehaus“?",
+    "options": [
+      "Es gehörte lange dem Staat Chile",
+      "Es wurde von einem Architekten aus Chile entworfen",
+      "Der Bauherr war mit dem Handel von Salpeter aus Chile reich geworden",
+      "Darin lagerte früher Wein aus Chile"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Bauherr verdankte sein Vermögen dem Abbau und Handel von Chilesalpeter. In Erinnerung an seine 32 Jahre in Südamerika nannte er das von 1922 bis 1924 erbaute Bürohaus „Chilehaus“. Berühmt ist seine spitze Ostecke, die an einen Schiffsbug erinnert.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Architektur",
+      "Hamburg"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chilehaus",
+    "source_url": "https://de.wikipedia.org/wiki/Chilehaus",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the Hamburg office building called “Chilehaus” (Chile House)?",
+        "options": [
+          "It belonged to the state of Chile for a long time",
+          "It was designed by an architect from Chile",
+          "Its builder had grown rich trading saltpetre from Chile",
+          "Wine from Chile used to be stored in it"
+        ],
+        "explanation": "The builder owed his fortune to mining and trading Chilean saltpetre. In memory of his 32 years in South America he named the office building, built from 1922 to 1924, “Chilehaus”. Its pointed east corner, which looks like a ship's bow, is famous."
+      }
+    }
+  },
+  {
+    "id": "b138",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wer bestimmt in Deutschland seit 2006, wie lange Geschäfte öffnen dürfen?",
+    "options": [
+      "Die Europäische Union",
+      "Der Bund für ganz Deutschland gleich",
+      "Jede Stadt selbst",
+      "Die einzelnen Bundesländer"
+    ],
+    "correct_index": 3,
+    "explanation": "Seit der Föderalismusreform 2006 sind die Bundesländer für die Ladenöffnungszeiten zuständig. Die meisten erlauben an gewöhnlichen Werktagen viel längere Öffnungszeiten als das alte Bundesgesetz über den Ladenschluss.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Gesetze"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gesetz über den Ladenschluss",
+    "source_url": "https://de.wikipedia.org/wiki/Gesetz über den Ladenschluss",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since 2006, who decides in Germany how long shops may stay open?",
+        "options": [
+          "The European Union",
+          "The federal government, the same for all of Germany",
+          "Each town for itself",
+          "The individual federal states"
+        ],
+        "explanation": "Since the 2006 federalism reform, the federal states have been in charge of shop opening hours. Most of them allow much longer opening hours on ordinary working days than the old federal Shop Closing Act did."
+      }
+    }
+  },
+  {
+    "id": "b139",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Bis 2001 galt in Deutschland das Rabattgesetz. Wie viel Rabatt durfte ein Geschäft bei Barzahlung höchstens geben?",
+    "options": [
+      "1 Prozent",
+      "3 Prozent",
+      "10 Prozent",
+      "25 Prozent"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach dem Rabattgesetz durfte der Rabatt bei Barzahlung höchstens 3 Prozent des Warenpreises betragen. Nur wer eine größere Menge kaufte, konnte zusätzlich einen handelsüblichen Mengenrabatt bekommen. Am 25. Juli 2001 wurde das Gesetz aufgehoben.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Gesetze",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rabattgesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Rabattgesetz",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Germany had a Discount Act until 2001. What was the largest discount a shop could give for paying cash?",
+        "options": [
+          "1 percent",
+          "3 percent",
+          "10 percent",
+          "25 percent"
+        ],
+        "explanation": "Under the Discount Act, a cash discount could be at most 3 percent of the price. Only buyers of larger quantities could also get a customary volume discount. The act was repealed on 25 July 2001."
+      }
+    }
+  },
+  {
+    "id": "b140",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Bei einer „Kaffeefahrt“ gibt es oft Kaffee und Kuchen. Worum geht es dem Veranstalter aber eigentlich?",
+    "options": [
+      "Neue Kaffeesorten testen zu lassen",
+      "Den Teilnehmern Kaffeeplantagen zu zeigen",
+      "Den Teilnehmern bei einer Verkaufsveranstaltung Waren zu verkaufen",
+      "Möglichst viele Sehenswürdigkeiten zu zeigen"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name kommt von Kaffee und Kuchen, die es bei der Fahrt gibt. Eigentlicher Zweck ist für den Veranstalter aber eine Verkaufsveranstaltung, auf der häufig überteuerte oder unbrauchbare Produkte verkauft werden.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Verbraucher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaffeefahrt",
+    "source_url": "https://de.wikipedia.org/wiki/Kaffeefahrt",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On a “coffee trip” (Kaffeefahrt) there is often coffee and cake. But what is the organiser really after?",
+        "options": [
+          "Having new kinds of coffee tested",
+          "Showing the participants coffee plantations",
+          "Selling the participants goods at a sales event",
+          "Showing as many sights as possible"
+        ],
+        "explanation": "The name comes from the coffee and cake served on the trip. For the organiser, though, the real purpose is a sales event where overpriced or useless products are often sold."
+      }
+    }
+  },
+  {
+    "id": "b141",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Handwerksbetriebe nutzen ihr Zunftzeichen oft wie ein Logo. Welches Zeichen gehört zum Bäcker?",
+    "options": [
+      "Ein Schlüssel",
+      "Ein Hammer",
+      "Eine Schere",
+      "Eine Brezel"
+    ],
+    "correct_index": 3,
+    "explanation": "Zunftzeichen hingen oft als Schild über der Tür und dienten als Logo des Handwerksbetriebs – zum Beispiel eine Brezel für den Bäcker oder ein Hammer für den Schmied.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Zeichen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zunftzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Zunftzeichen",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Craft workshops often use their guild sign like a logo. Which sign belongs to the baker?",
+        "options": [
+          "A key",
+          "A hammer",
+          "A pair of scissors",
+          "A pretzel"
+        ],
+        "explanation": "Guild signs often hung over the door as a projecting sign and served as the workshop's logo – for example a pretzel for the baker or a hammer for the blacksmith."
+      }
+    }
+  },
+  {
+    "id": "b142",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet es, wenn ein Schiff die Größe „Panamax“ hat?",
+    "options": [
+      "Es passt gerade noch durch die alten Schleusen des Panamakanals",
+      "Es ist das größte Schiff, das je gebaut wurde",
+      "Es darf nur zwischen Panama und Mexiko fahren",
+      "Es wurde in Panama gebaut"
+    ],
+    "correct_index": 0,
+    "explanation": "Panamax-Schiffe sind höchstens 294,3 Meter lang und 32,3 Meter breit. So passen sie gerade noch durch die beiden kleineren Schleusen, die der Panamakanal vor seiner Erweiterung 2016 hatte. Noch größere Neopanamax-Schiffe können nur die neue Schleusenroute nutzen.",
+    "difficulty": 2,
+    "tags": [
+      "Schifffahrt",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Panamax",
+    "source_url": "https://de.wikipedia.org/wiki/Panamax",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does it mean when a ship is “Panamax” size?",
+        "options": [
+          "It just fits through the old locks of the Panama Canal",
+          "It is the largest ship ever built",
+          "It may only sail between Panama and Mexico",
+          "It was built in Panama"
+        ],
+        "explanation": "Panamax ships are at most 294.3 metres long and 32.3 metres wide. That way they just fit through the two smaller locks the Panama Canal had before its expansion in 2016. Even larger Neopanamax ships can only use the new lock route."
+      }
+    }
+  },
+  {
+    "id": "b143",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was macht ein Unternehmen beim „Factoring“?",
+    "options": [
+      "Es stellt neue Mitarbeiter auf Probe ein",
+      "Es verkauft offene Rechnungen vor der Fälligkeit an einen Finanzdienstleister",
+      "Es lässt seine Produkte im Ausland fertigen",
+      "Es zählt einmal im Jahr seinen Lagerbestand"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Factoring verkauft ein Unternehmen seine Forderungen – also noch nicht bezahlte Rechnungen – vor der Fälligkeit an ein Kreditinstitut oder einen Finanzdienstleister, den „Factor“. So verbessert es seine Liquidität. Das Wort kommt vom lateinischen „factura“ (Rechnung).",
+    "difficulty": 3,
+    "tags": [
+      "Finanzen",
+      "Unternehmen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Factoring",
+    "source_url": "https://de.wikipedia.org/wiki/Factoring",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a company do in “factoring”?",
+        "options": [
+          "It hires new staff on probation",
+          "It sells unpaid invoices to a financial services provider before they are due",
+          "It has its products made abroad",
+          "It counts its stock once a year"
+        ],
+        "explanation": "In factoring, a company sells its receivables – invoices not yet paid – before they are due to a bank or financial services provider, the “factor”. This improves its liquidity. The word comes from the Latin “factura” (invoice)."
+      }
+    }
+  },
+  {
+    "id": "b144",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was beschreibt der Begriff „Ehrbarer Kaufmann“?",
+    "options": [
+      "Eine Auszeichnung für den größten Umsatz",
+      "Einen Adelstitel für reiche Händler",
+      "Ein Leitbild für verantwortungsvolles Handeln in der Wirtschaft",
+      "Einen Ausbildungsberuf im Einzelhandel"
+    ],
+    "correct_index": 2,
+    "explanation": "Der „Ehrbare Kaufmann“ ist ein in Europa gewachsenes Leitbild für verantwortliche Teilnehmer am Wirtschaftsleben. Nachweislich seit dem 12. Jahrhundert wird es in Kaufmannshandbüchern gelehrt.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Werte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ehrbarer Kaufmann",
+    "source_url": "https://de.wikipedia.org/wiki/Ehrbarer Kaufmann",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the term “Ehrbarer Kaufmann” (honourable merchant) describe?",
+        "options": [
+          "An award for the highest turnover",
+          "A noble title for rich traders",
+          "A guiding ideal for responsible conduct in business",
+          "A retail apprenticeship"
+        ],
+        "explanation": "The “honourable merchant” is a guiding ideal for responsible participants in economic life that grew up in Europe. It has demonstrably been taught in merchants' handbooks since the 12th century."
+      }
+    }
+  },
+  {
+    "id": "e112",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Die Hamburger Speicherstadt wurde ab 1883 als Teil des Freihafens gebaut. Welches Vorrecht hatten Kaufleute dort?",
+    "options": [
+      "Sie durften eingeführte Waren zollfrei lagern und verarbeiten",
+      "Sie mussten keine Löhne zahlen",
+      "Sie durften eigenes Geld drucken",
+      "Sie mussten für ihre Lagerräume keine Miete zahlen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Speicherstadt entstand zwischen 1883 und 1927 als Teil des Hamburger Freihafens. Dort durften Hamburger Kaufleute Importwaren weiterhin zollfrei lagern, veredeln und verarbeiten – etwa Kaffee, Kakaobohnen oder Kautschuk. Sie gilt als weltgrößter historischer Lagerhauskomplex.",
+    "difficulty": 2,
+    "tags": [
+      "Hamburg",
+      "Handel",
+      "Zoll"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Speicherstadt",
+    "source_url": "https://de.wikipedia.org/wiki/Speicherstadt",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Hamburg's Speicherstadt warehouse district was built from 1883 as part of the free port. What privilege did merchants have there?",
+        "options": [
+          "They could store and process imported goods free of customs duty",
+          "They did not have to pay wages",
+          "They could print their own money",
+          "They did not have to pay rent for their storerooms"
+        ],
+        "explanation": "The Speicherstadt was built between 1883 and 1927 as part of Hamburg's free port. There, Hamburg merchants kept the right to store, refine and process imported goods free of duty – coffee, cocoa beans or rubber, for example. It is considered the world's largest historic warehouse complex."
+      }
+    }
+  },
+  {
+    "id": "e113",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "1932 startete die Tiroler Gemeinde Wörgl ein Geldexperiment mit eigenen Scheinen. Warum musste man jeden Monat eine Marke auf jeden Schein kleben?",
+    "options": [
+      "Damit man den Schein als Brief verschicken konnte",
+      "Damit der Schein gültig blieb – die Marke kostete 1 Prozent seines Werts",
+      "Als Nachweis, dass man Steuern bezahlt hatte",
+      "Damit man den Schein gegen Gold tauschen konnte"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Juli 1932 beschloss der Gemeinderat das Experiment: Arbeitslose bekamen für Arbeiten für die Gemeinde eigene „Arbeitswertscheine“ als Lohn. Jeden Monat musste eine Marke für 1 Prozent des Nennwerts aufgeklebt werden, sonst verlor der Schein seine Gültigkeit. Nach einem Gerichtsprozess musste das Experiment im September 1933 enden.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Österreich"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wörgler Schwundgeld",
+    "source_url": "https://de.wikipedia.org/wiki/Wörgler Schwundgeld",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1932 the Tyrolean town of Wörgl started a money experiment with its own notes. Why did you have to stick a stamp on every note each month?",
+        "options": [
+          "So the note could be posted as a letter",
+          "To keep the note valid – the stamp cost 1 percent of its value",
+          "As proof that you had paid your taxes",
+          "So the note could be exchanged for gold"
+        ],
+        "explanation": "In July 1932 the town council approved the experiment: unemployed people were paid in the town's own “labour value notes” for public works. Every month a stamp worth 1 percent of the face value had to be stuck on, or the note lost its validity. After a court case, the experiment had to end in September 1933."
+      }
+    }
+  },
+  {
+    "id": "e114",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "In welchem Land kamen 1988 die ersten Geldscheine aus Polypropylen-Kunststoff in Umlauf?",
+    "options": [
+      "Schweiz",
+      "Kanada",
+      "Australien",
+      "Japan"
+    ],
+    "correct_index": 2,
+    "explanation": "Die ersten Kunststoffscheine aus Polypropylen entwickelte die australische Notenbank zusammen mit der Forschungsorganisation CSIRO. Am 27. Januar 1988 kamen sie in Umlauf. Wo später ein durchsichtiges Fenster sein soll, lässt man die deckende Beschichtung weg.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Australien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kunststoffgeldschein",
+    "source_url": "https://de.wikipedia.org/wiki/Kunststoffgeldschein",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country did the first banknotes made of polypropylene plastic go into circulation in 1988?",
+        "options": [
+          "Switzerland",
+          "Canada",
+          "Australia",
+          "Japan"
+        ],
+        "explanation": "The first polypropylene banknotes were developed by Australia's central bank together with the research organisation CSIRO. They went into circulation on 27 January 1988. Where a see-through window is planned, the opaque coating is left out."
+      }
+    }
+  },
+  {
+    "id": "e115",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie viele Zollgrenzen gab es um 1790 in Deutschland?",
+    "options": [
+      "18",
+      "180",
+      "1.800",
+      "18.000"
+    ],
+    "correct_index": 2,
+    "explanation": "Um 1790 gab es in Deutschland 1800 Zollgrenzen. Der Deutsche Zollverein, der am 1. Januar 1834 in Kraft trat, sollte einen gemeinsamen Binnenmarkt schaffen.",
+    "difficulty": 2,
+    "tags": [
+      "Zoll",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Deutscher Zollverein",
+    "source_url": "https://de.wikipedia.org/wiki/Deutscher Zollverein",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around 1790, how many customs borders were there in Germany?",
+        "options": [
+          "18",
+          "180",
+          "1,800",
+          "18,000"
+        ],
+        "explanation": "Around 1790 there were 1,800 customs borders in Germany. The German Customs Union, which came into force on 1 January 1834, was meant to create a common internal market."
+      }
+    }
+  },
+  {
+    "id": "e116",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Mit dem „Bruttonationalglück“ wird versucht, den Lebensstandard nicht nur in Geld zu messen. In welchem Land?",
+    "options": [
+      "Bhutan",
+      "Island",
+      "Neuseeland",
+      "Costa Rica"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Bruttonationalglück ist der Versuch, den Lebensstandard in Bhutan menschlich und psychologisch zu bestimmen – anders als das Bruttonationaleinkommen, das nur Geldflüsse misst. 2011 befassten sich auch die Vereinten Nationen bei einem hochrangigen Treffen damit.",
+    "difficulty": 1,
+    "tags": [
+      "Bhutan",
+      "Wohlstand"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bruttonationalglück",
+    "source_url": "https://de.wikipedia.org/wiki/Bruttonationalglück",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "“Gross National Happiness” is an attempt to measure living standards not just in money. In which country?",
+        "options": [
+          "Bhutan",
+          "Iceland",
+          "New Zealand",
+          "Costa Rica"
+        ],
+        "explanation": "Gross National Happiness is the attempt to define the standard of living in Bhutan in human and psychological terms – unlike gross national income, which only measures flows of money. In 2011 the United Nations also discussed it at a high-level meeting."
+      }
+    }
+  },
+  {
+    "id": "e117",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "In einer „Zeitbörse“ tauschen Menschen Dienstleistungen ohne Geld. Womit wird dort abgerechnet?",
+    "options": [
+      "Mit Euro",
+      "Mit der Zeit, die eine Tätigkeit dauert",
+      "Mit Gold",
+      "Mit Punkten je nach Schwierigkeit"
+    ],
+    "correct_index": 1,
+    "explanation": "In Tauschkreisen werden vor allem Dienstleistungen ohne gesetzliches Zahlungsmittel getauscht. In einer Zeitbörse gilt jede Tätigkeit als gleich viel wert – verrechnet wird deshalb die Zeit statt Geld.",
+    "difficulty": 2,
+    "tags": [
+      "Tauschen",
+      "Zeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tauschkreis",
+    "source_url": "https://de.wikipedia.org/wiki/Tauschkreis",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a “time bank”, people exchange services without money. What is used to settle accounts there?",
+        "options": [
+          "Euros",
+          "The time an activity takes",
+          "Gold",
+          "Points depending on difficulty"
+        ],
+        "explanation": "In exchange circles, mostly services are swapped without legal tender. In a time bank every activity counts as equally valuable – so time is credited instead of money."
+      }
+    }
+  },
+  {
+    "id": "e118",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was war der „Gründerkrach“ von 1873?",
+    "options": [
+      "Ein Streit unter den Gründern einer Universität",
+      "Der Einsturz einer neu gebauten Brücke",
+      "Ein Börsenkrach, der eine Zeit vieler Firmengründungen beendete",
+      "Eine Explosion in einer Fabrik"
+    ],
+    "correct_index": 2,
+    "explanation": "Als Gründerkrach bezeichnet man den Börsenkrach von 1873. Er beendete die Gründerzeit, in der oft auf Spekulation hin Firmen gegründet worden waren. Österreich-Ungarn traf er stärker als Deutschland.",
+    "difficulty": 3,
+    "tags": [
+      "Börse",
+      "Krise"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gründerkrach",
+    "source_url": "https://de.wikipedia.org/wiki/Gründerkrach",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the “Gründerkrach” (founders' crash) of 1873?",
+        "options": [
+          "A quarrel among the founders of a university",
+          "The collapse of a newly built bridge",
+          "A stock market crash that ended a period of many new companies",
+          "An explosion in a factory"
+        ],
+        "explanation": "The Gründerkrach is the name for the stock market crash of 1873. It ended the Gründerzeit, a period in which companies were often founded on speculation. It hit Austria-Hungary harder than Germany."
+      }
+    }
+  },
+  {
+    "id": "e119",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "In welcher Stadt liegt der größte Binnenhafen Europas?",
+    "options": [
+      "Frankfurt am Main",
+      "Köln",
+      "Mannheim",
+      "Duisburg"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Duisburg-Ruhrorter Häfen liegen dort, wo die Ruhr in den Rhein mündet. Sie gelten als größter Binnenhafen Europas – zählt man alle öffentlichen und privaten Hafenanlagen zusammen, sogar als größter der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Häfen",
+      "Flüsse"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Duisburg-Ruhrorter Häfen",
+    "source_url": "https://de.wikipedia.org/wiki/Duisburg-Ruhrorter Häfen",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which city has the largest inland port in Europe?",
+        "options": [
+          "Frankfurt am Main",
+          "Cologne",
+          "Mannheim",
+          "Duisburg"
+        ],
+        "explanation": "The Duisburg-Ruhrort ports lie where the Ruhr flows into the Rhine. They are considered the largest inland port in Europe – and, counting all public and private port facilities together, even the largest in the world."
+      }
+    }
+  },
+  {
+    "id": "sp132",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Kanupolo spielen zwei Teams in Kajaks gegeneinander. Wo hängen die Tore?",
+    "options": [
+      "Zwei Meter über dem Wasser",
+      "Direkt auf dem Wasser schwimmend",
+      "Unter Wasser am Beckenboden",
+      "Am Ufer auf dem Rasen"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Kanupolo treten zwei Teams mit je fünf Spielern in wendigen Einerkajaks gegeneinander an. Sie versuchen, den Ball mit der Hand oder dem Paddel ins gegnerische Tor zu bringen – und das hängt zwei Meter über der Wasseroberfläche.",
+    "difficulty": 2,
+    "tags": [
+      "Wassersport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kanupolo",
+    "source_url": "https://de.wikipedia.org/wiki/Kanupolo",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In canoe polo, two teams play against each other in kayaks. Where do the goals hang?",
+        "options": [
+          "Two metres above the water",
+          "Floating right on the water",
+          "Underwater on the pool floor",
+          "On the lawn by the shore"
+        ],
+        "explanation": "In canoe polo, two teams of five players compete in nimble single kayaks. They try to get the ball into the opposing goal by hand or with the paddle – and the goal hangs two metres above the water surface."
+      }
+    }
+  },
+  {
+    "id": "sp133",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim olympischen Rennrodeln rasen die Fahrer durch einen Eiskanal. Wie liegen sie dabei auf dem Schlitten?",
+    "options": [
+      "Auf dem Bauch",
+      "Auf dem Rücken",
+      "Kniend",
+      "Auf der Seite"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Rennrodeln auf der Kunstbahn liegt der Fahrer auf dem Rücken und lenkt mit Beindruck, Gewichtsverlagerung und den Griffen. Beim verwandten Skeleton liegt man dagegen auf dem Bauch. Einen Weltcup im Rennrodeln gibt es seit 1992.",
+    "difficulty": 2,
+    "tags": [
+      "Wintersport",
+      "Schlitten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rennrodeln",
+    "source_url": "https://de.wikipedia.org/wiki/Rennrodeln",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Olympic luge, athletes race down an ice channel. How do they lie on the sled?",
+        "options": [
+          "On their stomach",
+          "On their back",
+          "Kneeling",
+          "On their side"
+        ],
+        "explanation": "In luge on an artificial track, the rider lies on their back and steers with leg pressure, shifts of body weight and the handles. In the related sport of skeleton, by contrast, you lie on your stomach. Luge has had a World Cup since 1992."
+      }
+    }
+  },
+  {
+    "id": "sp134",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was machen Sportler beim „Fierljeppen“ in den Niederlanden?",
+    "options": [
+      "Sie springen über Holzpulte in einer Halle",
+      "Sie springen mit Skiern von einer Schanze",
+      "Sie springen mit einem langen Stock über Wassergräben",
+      "Sie springen vom Boot ins Wasser"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Pultstockspringen – in den Niederlanden Fierljeppen genannt – springt man mit einem drei bis sechs Meter langen Stock wie beim Stabhochsprung über Gräben. Die können bis zu acht Meter breit sein.",
+    "difficulty": 2,
+    "tags": [
+      "Niederlande",
+      "Springen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pultstockspringen",
+    "source_url": "https://de.wikipedia.org/wiki/Pultstockspringen",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do athletes do in “fierljeppen” in the Netherlands?",
+        "options": [
+          "They jump over wooden desks in a hall",
+          "They ski-jump off a ramp",
+          "They jump over water ditches with a long pole",
+          "They jump from a boat into the water"
+        ],
+        "explanation": "In fierljeppen (pole vaulting over canals), you use a pole three to six metres long to jump across ditches, much like in pole vault. The ditches can be up to eight metres wide."
+      }
+    }
+  },
+  {
+    "id": "sp135",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Fußball: In welchem Fall wird ein Spieler nie wegen Abseits bestraft?",
+    "options": [
+      "Wenn er schneller läuft als sein Gegenspieler",
+      "Wenn er den Ball nach einem Freistoß bekommt",
+      "Wenn er den Ball mit dem Kopf annimmt",
+      "Wenn er den Ball direkt aus einem Einwurf erhält"
+    ],
+    "correct_index": 3,
+    "explanation": "Wer den Ball direkt aus einem Abstoß, einem Einwurf oder einem Eckstoß erhält, wird nicht wegen Abseits bestraft. Für den Einwurf wurde die Abseitsregel 1920 aufgehoben. Nach der ersten offiziellen Regel von 1863 waren sogar nur Pässe nach hinten erlaubt.",
+    "difficulty": 2,
+    "tags": [
+      "Fußball",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Abseitsregel",
+    "source_url": "https://de.wikipedia.org/wiki/Abseitsregel",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In football: in which case is a player never penalised for offside?",
+        "options": [
+          "When the player runs faster than their opponent",
+          "When the player gets the ball after a free kick",
+          "When the player takes the ball with their head",
+          "When the player receives the ball directly from a throw-in"
+        ],
+        "explanation": "A player who receives the ball directly from a goal kick, a throw-in or a corner kick is not penalised for offside. The offside rule was lifted for throw-ins in 1920. Under the first official rule of 1863, only backward passes were allowed at all."
+      }
+    }
+  },
+  {
+    "id": "sp136",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Im Drachenboot fährt ein Trommler mit. Was ist seine Aufgabe?",
+    "options": [
+      "Er sorgt für einen gleichmäßigen Takt aller Paddler",
+      "Er steuert das Boot",
+      "Er schöpft Wasser aus dem Boot",
+      "Er gibt das Startsignal für alle Boote"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Trommler nimmt den Rhythmus des vordersten Paddlerpaars auf und sorgt mit seinen Schlägen für einen gleichmäßigen Takt aller Paddler. Gesteuert wird das Boot vom Steuermann, der hinten im Heck steht. Ein genormtes Boot hat 10 Sitzbänke für höchstens 20 Paddler.",
+    "difficulty": 1,
+    "tags": [
+      "Wassersport",
+      "Teamsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Drachenboot",
+    "source_url": "https://de.wikipedia.org/wiki/Drachenboot",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A drummer rides along in a dragon boat. What is the drummer's job?",
+        "options": [
+          "Keeping all paddlers in an even rhythm",
+          "Steering the boat",
+          "Bailing water out of the boat",
+          "Giving the start signal for all boats"
+        ],
+        "explanation": "The drummer picks up the rhythm of the front pair of paddlers and, with the drumbeats, keeps all paddlers in an even rhythm. The boat is steered by the helm, who stands at the stern. A standard boat has 10 benches for up to 20 paddlers."
+      }
+    }
+  },
+  {
+    "id": "sp137",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Spielfiguren hat beim Tischfußball jede Seite?",
+    "options": [
+      "Fünf",
+      "Elf",
+      "Fünfzehn",
+      "Zweiundzwanzig"
+    ],
+    "correct_index": 1,
+    "explanation": "Jede Seite hat elf Figuren: eine im Tor, zwei in der Verteidigung, fünf im Mittelfeld und drei im Sturm.",
+    "difficulty": 1,
+    "tags": [
+      "Spiele",
+      "Fußball"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tischfußball",
+    "source_url": "https://de.wikipedia.org/wiki/Tischfußball",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In table football, how many figures does each side have?",
+        "options": [
+          "Five",
+          "Eleven",
+          "Fifteen",
+          "Twenty-two"
+        ],
+        "explanation": "Each side has eleven figures: one in goal, two in defence, five in midfield and three in attack."
+      }
+    }
+  },
+  {
+    "id": "sp138",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Die Sportart Pickleball wurde 1965 erfunden. Von wem – und wozu?",
+    "options": [
+      "Von Raumfahrtingenieuren, als Sport für Astronauten",
+      "Von einem Tennistrainer, als Training für Profis",
+      "Von drei Vätern, um ihre Kinder zu beschäftigen",
+      "Von einer Reederei, als Spiel für Schiffsreisen"
+    ],
+    "correct_index": 2,
+    "explanation": "Pickleball wurde 1965 auf Bainbridge Island in den USA von drei Vätern erfunden, um ihre Kinder zu beschäftigen. Man schlägt einen weichen, gelochten Kunststoffball mit einem Schläger über ein 86 Zentimeter hohes Netz.",
+    "difficulty": 2,
+    "tags": [
+      "Ballsport",
+      "USA"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pickleball",
+    "source_url": "https://de.wikipedia.org/wiki/Pickleball",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The sport of pickleball was invented in 1965. By whom – and why?",
+        "options": [
+          "By space engineers, as a sport for astronauts",
+          "By a tennis coach, as training for professionals",
+          "By three fathers, to keep their children busy",
+          "By a shipping company, as a game for cruises"
+        ],
+        "explanation": "Pickleball was invented in 1965 on Bainbridge Island in the USA by three fathers to keep their children busy. You hit a soft plastic ball with holes over an 86-centimetre-high net using a paddle."
+      }
+    }
+  },
+  {
+    "id": "sp139",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was fehlt auf einem Karambolage-Billardtisch?",
+    "options": [
+      "Die weiße Spielkugel",
+      "Die Banden am Rand",
+      "Das Tuch auf der Spielfläche",
+      "Die Taschen, in die Kugeln fallen können"
+    ],
+    "correct_index": 3,
+    "explanation": "Spätestens ab den 1780er-Jahren verschwanden in Frankreich alle Hindernisse und damit auch die Taschen vom Tisch – so entstand das heutige Karambolage. In England wurde dagegen das Lochbillard weiterentwickelt.",
+    "difficulty": 2,
+    "tags": [
+      "Billard",
+      "Frankreich"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Billard",
+    "source_url": "https://de.wikipedia.org/wiki/Billard",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is missing from a carom billiards table?",
+        "options": [
+          "The white cue ball",
+          "The cushions along the edge",
+          "The cloth on the playing surface",
+          "The pockets that balls can fall into"
+        ],
+        "explanation": "By the 1780s at the latest, all obstacles – and with them the pockets – disappeared from the table in France, and modern carom billiards was born. In England, by contrast, pocket billiards was developed further."
+      }
+    }
+  },
+  {
+    "id": "kn118",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Womit malt man bei der „Enkaustik“?",
+    "options": [
+      "Mit Ruß und Wasser",
+      "Mit Eigelb und Farbpulver",
+      "Mit heißem Wachs, in dem die Farbpigmente gebunden sind",
+      "Mit farbigem Sand"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei der Enkaustik werden in Wachs gebundene Farbpigmente heiß aufgetragen – meist geschmolzenes Bienenwachs. Der Name kommt vom griechischen „enkauston“: eingebrannt. Ihre Blütezeit hatte die Technik in der griechisch-römischen Antike.",
+    "difficulty": 2,
+    "tags": [
+      "Maltechnik",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Enkaustik",
+    "source_url": "https://de.wikipedia.org/wiki/Enkaustik",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you paint with in “encaustic” painting?",
+        "options": [
+          "Soot and water",
+          "Egg yolk and colour powder",
+          "Hot wax in which the colour pigments are bound",
+          "Coloured sand"
+        ],
+        "explanation": "In encaustic painting, colour pigments bound in wax are applied hot – usually melted beeswax. The name comes from the Greek “enkauston”: burned in. The technique had its heyday in Greek and Roman antiquity."
+      }
+    }
+  },
+  {
+    "id": "kn119",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Blattgold ist hauchdünn geschlagenes Gold. Welche Fläche ergibt ein einziges Gramm Gold ungefähr?",
+    "options": [
+      "Etwa eine Briefmarke",
+      "Etwa eine Postkarte",
+      "Etwa ein Blatt Schreibpapier",
+      "Etwa einen halben Quadratmeter"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei der üblichen Dicke von 0,1 Mikrometern (100 Nanometer) ergibt ein Gramm Gold etwa einen halben Quadratmeter Blattgold. Dafür wird das Gold mit immer schwereren Hämmern in mühsamer Handarbeit immer weiter geschlagen.",
+    "difficulty": 2,
+    "tags": [
+      "Gold",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blattgold",
+    "source_url": "https://de.wikipedia.org/wiki/Blattgold",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Gold leaf is gold beaten wafer-thin. Roughly what area does a single gram of gold make?",
+        "options": [
+          "About a postage stamp",
+          "About a postcard",
+          "About a sheet of writing paper",
+          "About half a square metre"
+        ],
+        "explanation": "At the usual thickness of 0.1 micrometres (100 nanometres), one gram of gold makes about half a square metre of gold leaf. To get there, the gold is beaten thinner and thinner by hand with ever heavier hammers."
+      }
+    }
+  },
+  {
+    "id": "kn120",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Bei der Emaille-Technik „Cloisonné“ liegen die Farben in kleinen Zellen. Was trennt die Farbfelder voneinander?",
+    "options": [
+      "Fugen aus Mörtel",
+      "Aufgelötete dünne Drähte oder Metallstreifen",
+      "Schmale Holzleisten",
+      "Linien aus schwarzer Tinte"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Cloisonné, auch Zellenschmelz genannt, werden auf eine meist kupferne Platte dünne Drähte oder Metallstreifen gelötet und dazwischen verschiedenfarbige Glasflüsse eingelassen. Die Metallstege trennen die Farbfelder, damit die Farben nicht ineinanderlaufen.",
+    "difficulty": 3,
+    "tags": [
+      "Kunsthandwerk",
+      "Emaille"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cloisonné",
+    "source_url": "https://de.wikipedia.org/wiki/Cloisonné",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the enamel technique “cloisonné”, the colours sit in small cells. What separates the colour fields?",
+        "options": [
+          "Joints of mortar",
+          "Thin wires or metal strips soldered on",
+          "Narrow wooden strips",
+          "Lines of black ink"
+        ],
+        "explanation": "In cloisonné, thin wires or metal strips are soldered onto a plate, usually of copper, and enamel of different colours is filled in between them. The metal walls separate the colour fields so the colours do not run into each other."
+      }
+    }
+  },
+  {
+    "id": "kn121",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie heißt das kreisrunde, verglaste Fenster mit Maßwerk, das man vor allem an gotischen Kirchen findet?",
+    "options": [
+      "Lünette",
+      "Bullauge",
+      "Fensterrose",
+      "Erker"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Fensterrose ist ein kreisrundes, verglastes Fenster mit Maßwerkfüllung. Man findet sie vor allem an gotischen Kirchen. Ihre Vorform aus der Romanik und Frühgotik heißt Radfenster.",
+    "difficulty": 2,
+    "tags": [
+      "Architektur",
+      "Gotik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fensterrose",
+    "source_url": "https://de.wikipedia.org/wiki/Fensterrose",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the round glazed window with tracery, found above all in Gothic churches, called?",
+        "options": [
+          "Lunette",
+          "Porthole",
+          "Rose window",
+          "Oriel"
+        ],
+        "explanation": "A rose window is a circular glazed window filled with tracery. It is found above all in Gothic churches. Its early form from the Romanesque and Early Gothic periods is called a wheel window."
+      }
+    }
+  },
+  {
+    "id": "kn122",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Das Rokoko ist nach seinem typischen Zierelement benannt, der „Rocaille“. Woran erinnert diese Form?",
+    "options": [
+      "An Schneeflocken",
+      "An Blitze",
+      "An Sterne",
+      "An Muscheln"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Name kommt vom französischen „Rocaille“ (Muschelwerk), gebildet aus „roc“ (Fels) und „coquilles“ (Muscheln). Anders als barocke Formen ist das Ornament asymmetrisch. Es tauchte etwa um 1730 zum ersten Mal auf.",
+    "difficulty": 2,
+    "tags": [
+      "Kunststile",
+      "Ornamente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rokoko",
+    "source_url": "https://de.wikipedia.org/wiki/Rokoko",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Rococo is named after its typical ornament, the “rocaille”. What does this shape resemble?",
+        "options": [
+          "Snowflakes",
+          "Lightning bolts",
+          "Stars",
+          "Shells"
+        ],
+        "explanation": "The name comes from the French “rocaille” (shellwork), formed from “roc” (rock) and “coquilles” (shells). Unlike Baroque forms, the ornament is asymmetrical. It first appeared around 1730."
+      }
+    }
+  },
+  {
+    "id": "kn123",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Im Comic führen manchmal kleine Kreise statt eines Strichs von der Figur zur Blase. Was steht dann in der Blase?",
+    "options": [
+      "Was die Figur denkt",
+      "Was die Figur laut ruft",
+      "Was ein Radio sagt",
+      "Was die Figur singt"
+    ],
+    "correct_index": 0,
+    "explanation": "Sprechblasen haben einen durchgezogenen Strich zur sprechenden Figur. Denkblasen erkennt man an unterbrochenen Linien oder kleinen Kreisen. Blasen von Geräten wie Radio oder Roboter haben oft einen gezackten Strich.",
+    "difficulty": 1,
+    "tags": [
+      "Comics",
+      "Zeichnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sprechblase",
+    "source_url": "https://de.wikipedia.org/wiki/Sprechblase",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In comics, small circles instead of a line sometimes lead from the character to the bubble. What is in that bubble?",
+        "options": [
+          "What the character is thinking",
+          "What the character is shouting",
+          "What a radio is saying",
+          "What the character is singing"
+        ],
+        "explanation": "Speech bubbles have a solid line pointing to the speaking character. Thought bubbles can be recognised by broken lines or small circles. Bubbles from devices such as a radio or a robot often have a jagged pointer."
+      }
+    }
+  },
+  {
+    "id": "kn124",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist die „Spiral Jetty“ von 1970 im US-Bundesstaat Utah?",
+    "options": [
+      "Eine Wendeltreppe in einem Museum",
+      "Eine riesige Spirale aus Steinen am Ufer eines Salzsees",
+      "Eine spiralförmige Achterbahn",
+      "Ein Hochhaus in Spiralform"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Spiral Jetty ist ein Land-Art-Kunstwerk von Robert Smithson aus dem Jahr 1970 am Ufer des Great Salt Lake. Die Spirale aus Steinen windet sich gegen den Uhrzeigersinn und wäre ausgebreitet 460 Meter lang. Gebaut wurde sie in drei Wochen mit schweren Maschinen.",
+    "difficulty": 2,
+    "tags": [
+      "Land Art",
+      "USA"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spiral Jetty",
+    "source_url": "https://de.wikipedia.org/wiki/Spiral Jetty",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the “Spiral Jetty” of 1970 in the US state of Utah?",
+        "options": [
+          "A spiral staircase in a museum",
+          "A huge spiral of stones on the shore of a salt lake",
+          "A spiral roller coaster",
+          "A spiral-shaped skyscraper"
+        ],
+        "explanation": "The Spiral Jetty is a land art work by Robert Smithson from 1970 on the shore of the Great Salt Lake. The stone spiral winds anticlockwise and would be 460 metres long if laid out straight. It was built in three weeks with heavy machinery."
+      }
+    }
+  },
+  {
+    "id": "kn125",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woher hat die Biedermeierzeit ihren Namen?",
+    "options": [
+      "Von einer Stadt in Bayern",
+      "Von einem berühmten Möbeltischler",
+      "Von einer erfundenen, spießbürgerlichen Gedichtfigur",
+      "Von einem Bürgermeister in Wien"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name geht auf den erfundenen, treuherzigen, aber spießbürgerlichen Gottlieb Biedermaier zurück: Ab 1855 erschienen unter seinem Namen Gedichte in den Münchner „Fliegenden Blättern“. Als Biedermeier bezeichnet man die Zeit von 1815 bis 1848 in den Ländern des Deutschen Bundes.",
+    "difficulty": 2,
+    "tags": [
+      "Kunststile",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Biedermeier",
+    "source_url": "https://de.wikipedia.org/wiki/Biedermeier",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the Biedermeier period get its name?",
+        "options": [
+          "From a town in Bavaria",
+          "From a famous cabinetmaker",
+          "From an invented, narrow-minded poetry character",
+          "From a mayor of Vienna"
+        ],
+        "explanation": "The name goes back to the invented, good-hearted but narrow-minded Gottlieb Biedermaier: from 1855, poems appeared under his name in the Munich magazine “Fliegende Blätter”. Biedermeier is the name for the period from 1815 to 1848 in the states of the German Confederation."
+      }
+    }
+  },
+  {
+    "id": "hg37",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die Daguerreotypie war das erste kommerziell nutzbare Fotoverfahren. Worauf entstand das Bild?",
+    "options": [
+      "Auf einer Glasplatte",
+      "Auf Papier",
+      "Auf einer spiegelglatt polierten, versilberten Metallplatte",
+      "Auf Leinwand"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Daguerreotypie ist ein Foto auf einer spiegelglatt polierten Metalloberfläche, meist einer versilberten Kupferplatte. Benannt ist sie nach dem französischen Maler Louis Daguerre, der das Verfahren mitentwickelt und 1839 veröffentlicht hat.",
+    "difficulty": 2,
+    "tags": [
+      "Fotografie",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Daguerreotypie",
+    "source_url": "https://de.wikipedia.org/wiki/Daguerreotypie",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The daguerreotype was the first commercially usable photographic process. What was the picture made on?",
+        "options": [
+          "A glass plate",
+          "Paper",
+          "A mirror-polished, silver-plated metal plate",
+          "Canvas"
+        ],
+        "explanation": "A daguerreotype is a photograph on a mirror-polished metal surface, usually a silver-plated copper plate. It is named after the French painter Louis Daguerre, who helped develop the process and published it in 1839."
+      }
+    }
+  },
+  {
+    "id": "hg38",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Das Neandertal gab dem Neandertaler seinen Namen. Nach wem ist das Tal selbst benannt?",
+    "options": [
+      "Nach dem Fluss Neander",
+      "Nach dem Arbeiter, der die Knochen fand",
+      "Nach einem griechischen Gott",
+      "Nach dem Kirchenliedkomponisten Joachim Neander"
+    ],
+    "correct_index": 3,
+    "explanation": "Ursprünglich hieß das Tal „das Gesteins“, „das Hundsklipp“ oder einfach „das Klipp“. Umbenannt wurde es in Erinnerung an den Kirchenliedkomponisten und Pastor Joachim Neander. Durch den Fund fossiler Überreste eines Urzeitmenschen wurde das Tal dann Namensgeber des Neandertalers.",
+    "difficulty": 2,
+    "tags": [
+      "Urmenschen",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neandertal",
+    "source_url": "https://de.wikipedia.org/wiki/Neandertal",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Neander Valley gave the Neanderthal its name. Who is the valley itself named after?",
+        "options": [
+          "The river Neander",
+          "The worker who found the bones",
+          "A Greek god",
+          "The hymn composer Joachim Neander"
+        ],
+        "explanation": "Originally the valley was called “das Gesteins”, “das Hundsklipp” or simply “das Klipp”. It was renamed in memory of the hymn composer and pastor Joachim Neander. The find of fossil remains of a prehistoric human then made the valley the namesake of the Neanderthal."
+      }
+    }
+  },
+  {
+    "id": "hg39",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Die Kreisgrabenanlage von Goseck in Sachsen-Anhalt ist etwa 6900 Jahre alt. Was ließ sich mit ihren Visierlinien genau beobachten?",
+    "options": [
+      "Die Sonnenwenden",
+      "Mondfinsternisse",
+      "Die Gezeiten der Nordsee",
+      "Der Flug der Zugvögel"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Anlage entstand vor etwa 6900 Jahren in der Jungsteinzeit. Ihre sehr genauen Visierlinien erlauben es, die Sonnenwenden über mehrere Tage zu beobachten. Manche Archäologen nennen sie das älteste Sonnenobservatorium der Welt – sie ist rund 2000 Jahre älter als Stonehenge.",
+    "difficulty": 2,
+    "tags": [
+      "Steinzeit",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreisgrabenanlage von Goseck",
+    "source_url": "https://de.wikipedia.org/wiki/Kreisgrabenanlage von Goseck",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Goseck circle in Saxony-Anhalt is about 6,900 years old. What could be observed precisely with its sight lines?",
+        "options": [
+          "The solstices",
+          "Lunar eclipses",
+          "The tides of the North Sea",
+          "The flight of migrating birds"
+        ],
+        "explanation": "The enclosure was built about 6,900 years ago in the Neolithic. Its very precise sight lines make it possible to observe the solstices over several days. Some archaeologists call it the world's oldest solar observatory – it is about 2,000 years older than Stonehenge."
+      }
+    }
+  },
+  {
+    "id": "hg40",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was zeigt der rund 1200 Jahre alte St. Galler Klosterplan?",
+    "options": [
+      "Den Grundriss einer Burg",
+      "Eine Landkarte der Alpen",
+      "Den Idealplan einer Klosteranlage",
+      "Eine Sternkarte"
+    ],
+    "correct_index": 2,
+    "explanation": "Der St. Galler Klosterplan ist die früheste gezeichnete Darstellung eines Klosterbezirks aus dem Mittelalter und zeigt die ideale Gestaltung einer Klosteranlage. Er entstand um 825/26 im Kloster Reichenau und besteht aus fünf zusammengenähten Stücken Schafspergament.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter",
+      "Klöster"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: St. Galler Klosterplan",
+    "source_url": "https://de.wikipedia.org/wiki/St. Galler Klosterplan",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Plan of Saint Gall, about 1,200 years old, show?",
+        "options": [
+          "The floor plan of a castle",
+          "A map of the Alps",
+          "The ideal layout of a monastery",
+          "A star chart"
+        ],
+        "explanation": "The Plan of Saint Gall is the earliest surviving drawing of a monastery complex from the Middle Ages and shows the ideal layout of a monastery. It was made around 825/26 at Reichenau Abbey and consists of five pieces of sheepskin parchment sewn together."
+      }
+    }
+  },
+  {
+    "id": "hg41",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was ist der „Sachsenspiegel“, der zwischen 1220 und 1235 entstand?",
+    "options": [
+      "Eine Landkarte Sachsens",
+      "Ein Spiegel aus geschliffenem Silber",
+      "Ein Kochbuch",
+      "Ein Rechtsbuch"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Sachsenspiegel ist ein Rechtsbuch. Mit rund 400 Handschriften ist er der mit Abstand am häufigsten handschriftlich überlieferte Rechtstext in niederdeutscher Sprache aus dieser Zeit. Teile davon galten bis ins 19. Jahrhundert.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter",
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sachsenspiegel",
+    "source_url": "https://de.wikipedia.org/wiki/Sachsenspiegel",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the “Sachsenspiegel” (Mirror of the Saxons), written between 1220 and 1235?",
+        "options": [
+          "A map of Saxony",
+          "A mirror of polished silver",
+          "A cookbook",
+          "A law book"
+        ],
+        "explanation": "The Sachsenspiegel is a law book. With around 400 manuscripts, it is by far the most frequently handwritten legal text in Low German from that time. Parts of it remained valid law into the 19th century."
+      }
+    }
+  },
+  {
+    "id": "hg42",
+    "kind": "question",
+    "category_id": "history",
+    "question": "In welcher Stadt wurden 1807/1808 die ersten Gaslaternen zur Straßenbeleuchtung in Betrieb genommen?",
+    "options": [
+      "London",
+      "Paris",
+      "Berlin",
+      "Wien"
+    ],
+    "correct_index": 0,
+    "explanation": "1807/1808 nahm Friedrich Albrecht Winzer an der Pall Mall in London die ersten Gaslaternen zur Straßenbeleuchtung in Betrieb. In Kontinentaleuropa brachte Wilhelm August Lampadius 1811 in Freiberg die erste Gaslaterne an – an seinem eigenen Wohnhaus.",
+    "difficulty": 2,
+    "tags": [
+      "Licht",
+      "Städte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gasbeleuchtung",
+    "source_url": "https://de.wikipedia.org/wiki/Gasbeleuchtung",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city were the first gas lamps for street lighting put into operation in 1807/1808?",
+        "options": [
+          "London",
+          "Paris",
+          "Berlin",
+          "Vienna"
+        ],
+        "explanation": "In 1807/1808 Frederick Albert Winsor put the first gas lamps for street lighting into operation along Pall Mall in London. In continental Europe, Wilhelm August Lampadius installed the first gas lamp in Freiberg in 1811 – on his own house."
+      }
+    }
+  },
+  {
+    "id": "hg43",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Beim Ulmer Münster wurde 1377 der Grundstein gelegt. Wer bezahlte den Bau?",
+    "options": [
+      "Ein Bischof, der dort seinen Sitz hatte",
+      "Die Bürger der Stadt",
+      "Ein reicher Kaufmann ganz allein",
+      "Eine Bank aus Florenz"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei der Grundsteinlegung 1377 plante man das Münster als Kirche der Bürger – finanziert wurde es von den weniger als 10.000 Bürgern der Stadt. Ein Bischofssitz war es nie. Sein 161,53 Meter hoher Hauptturm, 1890 vollendet, war rund 135 Jahre lang der höchste Kirchturm der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Kirchen",
+      "Ulm"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ulmer Münster",
+    "source_url": "https://de.wikipedia.org/wiki/Ulmer Münster",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The foundation stone of Ulm Minster was laid in 1377. Who paid for the building?",
+        "options": [
+          "A bishop who had his seat there",
+          "The citizens of the town",
+          "A single rich merchant",
+          "A bank from Florence"
+        ],
+        "explanation": "When the foundation stone was laid in 1377, the minster was planned as a church of the citizens – and it was financed by the town's fewer than 10,000 citizens. It was never a bishop's seat. Its 161.53-metre main tower, completed in 1890, was the tallest church tower in the world for about 135 years."
+      }
+    }
+  },
+  {
+    "id": "hg44",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wozu diente die „Laterna magica“, die vom 17. bis ins 20. Jahrhundert in ganz Europa verbreitet war?",
+    "options": [
+      "Briefe verschlüsseln",
+      "Töne aufnehmen und abspielen",
+      "Bilder auf eine Leinwand projizieren",
+      "Nachts die Uhrzeit ablesen"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Laterna magica („Zauberlaterne“) ist ein Projektionsgerät: Sie warf Bilder auf eine Fläche, meist eine Leinwand. Als Licht diente im 17. Jahrhundert zunächst eine Kerze, Öllampe oder Pechfackel. Im 19. Jahrhundert wurde sie zum Massenmedium – sie ist ein Vorläufer von Dia- und Filmprojektor.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Bilder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Laterna magica",
+    "source_url": "https://de.wikipedia.org/wiki/Laterna magica",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the “laterna magica” (magic lantern), widespread across Europe from the 17th to the 20th century, used for?",
+        "options": [
+          "Encrypting letters",
+          "Recording and playing sounds",
+          "Projecting pictures onto a screen",
+          "Reading the time at night"
+        ],
+        "explanation": "The magic lantern is a projector: it threw pictures onto a surface, usually a screen. In the 17th century the light came at first from a candle, an oil lamp or a pitch torch. In the 19th century it became a mass medium – it is a forerunner of the slide and film projector."
+      }
+    }
+  }
+]
