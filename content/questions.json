@@ -89473,5 +89473,1634 @@
         "explanation": "The magic lantern is a projector: it threw pictures onto a surface, usually a screen. In the 17th century the light came at first from a candle, an oil lamp or a pitch torch. In the 19th century it became a mass medium – it is a forerunner of the slide and film projector."
       }
     }
+  },
+  {
+    "id": "ns62",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Der Bunsenbrenner ist nach Robert Wilhelm Bunsen benannt. Von wem stammt aber die ursprüngliche Erfindung?",
+    "options": [
+      "Michael Faraday",
+      "Isaac Newton",
+      "Alessandro Volta",
+      "Blaise Pascal"
+    ],
+    "correct_index": 0,
+    "explanation": "Die ursprüngliche Erfindung stammt von Michael Faraday. Peter Desaga, der Instrumentenbauer der Universität, verbesserte den Brenner 1855 in Heidelberg entscheidend – benannt wurde er dann nach dem Chemiker Bunsen.",
+    "difficulty": 3,
+    "tags": [
+      "Chemie",
+      "Labor",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bunsenbrenner",
+    "source_url": "https://de.wikipedia.org/wiki/Bunsenbrenner",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Bunsen burner is named after Robert Wilhelm Bunsen. But who made the original invention?",
+        "options": [
+          "Michael Faraday",
+          "Isaac Newton",
+          "Alessandro Volta",
+          "Blaise Pascal"
+        ],
+        "explanation": "The original invention came from Michael Faraday. Peter Desaga, the university's instrument maker, decisively improved the burner in Heidelberg in 1855 – and it was then named after the chemist Bunsen."
+      }
+    }
+  },
+  {
+    "id": "ns63",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum wird ein Erlenmeyerkolben nach oben hin immer enger?",
+    "options": [
+      "Damit er leichter zerbricht",
+      "Damit beim Schwenken oder Rühren weniger Flüssigkeit herausschwappt",
+      "Damit man ihn nicht beschriften kann",
+      "Damit die Flüssigkeit schneller verdunstet"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Erlenmeyerkolben hat einen flachen Boden und wird nach oben kegelförmig enger. Durch den schmalen Hals ist die Gefahr viel kleiner als bei einem Becherglas, dass beim Schwenken, Rühren oder Kochen Flüssigkeit herausspritzt. Entwickelt hat ihn 1860 der Chemiker Emil Erlenmeyer.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Labor"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erlenmeyerkolben",
+    "source_url": "https://de.wikipedia.org/wiki/Erlenmeyerkolben",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does an Erlenmeyer flask get narrower towards the top?",
+        "options": [
+          "So that it breaks more easily",
+          "So that less liquid sloshes out when it is swirled or stirred",
+          "So that it cannot be labelled",
+          "So that the liquid evaporates faster"
+        ],
+        "explanation": "The Erlenmeyer flask has a flat bottom and narrows like a cone towards the top. Thanks to the narrow neck, liquid is much less likely to splash out than from a beaker when it is swirled, stirred or boiled. The chemist Emil Erlenmeyer developed it in 1860."
+      }
+    }
+  },
+  {
+    "id": "ns64",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Die Petrischale ist nach ihrem Erfinder Julius Richard Petri benannt. Was war er von Beruf?",
+    "options": [
+      "Apotheker",
+      "Glasbläser",
+      "Bakteriologe",
+      "Sternforscher"
+    ],
+    "correct_index": 2,
+    "explanation": "Der deutsche Bakteriologe Julius Richard Petri erfand die Petrischale 1887. Es ist eine flache, runde, durchsichtige Schale mit übergreifendem Deckel, die in Biologie, Medizin und Chemie verwendet wird.",
+    "difficulty": 2,
+    "tags": [
+      "Biologie",
+      "Labor",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Petrischale",
+    "source_url": "https://de.wikipedia.org/wiki/Petrischale",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Petri dish is named after its inventor, Julius Richard Petri. What was his profession?",
+        "options": [
+          "Pharmacist",
+          "Glassblower",
+          "Bacteriologist",
+          "Astronomer"
+        ],
+        "explanation": "The German bacteriologist Julius Richard Petri invented the Petri dish in 1887. It is a flat, round, transparent dish with an overlapping lid, used in biology, medicine and chemistry."
+      }
+    }
+  },
+  {
+    "id": "ns65",
+    "kind": "question",
+    "category_id": "science",
+    "question": "René Laënnec entwickelte 1816 das Stethoskop. Womit hörte er zuerst eine Patientin ab?",
+    "options": [
+      "Mit einem Gartenschlauch",
+      "Mit einem Trinkglas",
+      "Mit einer Trompete",
+      "Mit einer Papierrolle als Hörrohr"
+    ],
+    "correct_index": 3,
+    "explanation": "Laënnec wollte sein Ohr nicht, wie damals üblich, direkt auf die Brust einer jungen Patientin legen. Deshalb nahm er eine Papierrolle als „Hörrohr“. Daraus entwickelte er 1816 in Frankreich das Stethoskop.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Geschichte",
+      "Schall"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stethoskop",
+    "source_url": "https://de.wikipedia.org/wiki/Stethoskop",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "René Laënnec developed the stethoscope in 1816. What did he first use to listen to a patient?",
+        "options": [
+          "A garden hose",
+          "A drinking glass",
+          "A trumpet",
+          "A rolled-up sheet of paper as a listening tube"
+        ],
+        "explanation": "Laënnec did not want to put his ear directly on a young patient's chest, as was usual at the time. So he used a roll of paper as a “listening tube”. From this he developed the stethoscope in France in 1816."
+      }
+    }
+  },
+  {
+    "id": "ns66",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Hinter Flugzeugen entstehen oft weiße Kondensstreifen. Woraus bestehen sie bei großer Kälte?",
+    "options": [
+      "Aus Eiskristallen",
+      "Aus Rauch",
+      "Aus Ruß",
+      "Aus Farbstoff"
+    ],
+    "correct_index": 0,
+    "explanation": "Kondensstreifen sind künstliche Wolken. Sie entstehen vor allem aus dem Wasserdampf, den die Triebwerke ausstoßen. Bei tiefen Temperaturen bilden sich daraus direkt Eiskristalle.",
+    "difficulty": 2,
+    "tags": [
+      "Wetter",
+      "Flugzeuge",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kondensstreifen",
+    "source_url": "https://de.wikipedia.org/wiki/Kondensstreifen",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "White contrails often form behind aircraft. What are they made of when it is very cold?",
+        "options": [
+          "Ice crystals",
+          "Smoke",
+          "Soot",
+          "Dye"
+        ],
+        "explanation": "Contrails are artificial clouds. They form mainly from the water vapour that the engines emit. At low temperatures, ice crystals form from it directly."
+      }
+    }
+  },
+  {
+    "id": "ns67",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Rotkohl heißt in Süddeutschland und Österreich auch Blaukraut. Welche Farbstoffe entscheiden, ob er eher rot oder eher blau aussieht?",
+    "options": [
+      "Chlorophyll",
+      "Anthocyane",
+      "Carotine",
+      "Hämoglobin"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Farbe der Blätter kommt von den Anthocyanen. Je nach pH-Wert erzeugen sie eine rote bis blaue Farbe. Saure Zutaten wie Essig machen den Kohl deshalb eher rot.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Pflanzen",
+      "Farben"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rotkohl",
+    "source_url": "https://de.wikipedia.org/wiki/Rotkohl",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In southern Germany and Austria, red cabbage is also called “blue cabbage”. Which pigments decide whether it looks more red or more blue?",
+        "options": [
+          "Chlorophyll",
+          "Anthocyanins",
+          "Carotenes",
+          "Haemoglobin"
+        ],
+        "explanation": "The colour of the leaves comes from anthocyanins. Depending on the pH value, they produce a red to blue colour. Acidic ingredients such as vinegar therefore make the cabbage look redder."
+      }
+    }
+  },
+  {
+    "id": "ns68",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Im Sonnenofen von Odeillo in den französischen Pyrenäen bündeln Spiegel das Sonnenlicht. Wie heiß kann der Brennpunkt werden?",
+    "options": [
+      "Etwa 100 °C",
+      "Etwa 500 °C",
+      "Über 3.000 °C",
+      "Über 30.000 °C"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Punkt, an dem das Licht gebündelt wird, kann über 3.000 °C heiß werden. Der Sonnenofen von Odeillo ist seit 1968 in Betrieb: 63 bewegliche Spiegel lenken das Sonnenlicht auf einen großen Parabolspiegel.",
+    "difficulty": 2,
+    "tags": [
+      "Sonne",
+      "Energie",
+      "Frankreich"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Solarschmelzofen",
+    "source_url": "https://de.wikipedia.org/wiki/Solarschmelzofen",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the solar furnace at Odeillo in the French Pyrenees, mirrors concentrate sunlight. How hot can the focal point get?",
+        "options": [
+          "About 100 °C",
+          "About 500 °C",
+          "Over 3,000 °C",
+          "Over 30,000 °C"
+        ],
+        "explanation": "The point where the light is concentrated can reach over 3,000 °C. The Odeillo solar furnace has been running since 1968: 63 movable mirrors direct the sunlight onto a large parabolic mirror."
+      }
+    }
+  },
+  {
+    "id": "ns69",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum beginnt ein Knicklicht zu leuchten, wenn man es knickt?",
+    "options": [
+      "Durch das Knicken wird es heiß",
+      "Eine kleine Batterie wird eingeschaltet",
+      "Es saugt Licht aus der Umgebung auf",
+      "Innen zerbricht ein Glasröhrchen, und zwei Stoffe reagieren miteinander"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Leuchtstab oder Knicklicht leuchtet rein chemisch, durch Chemolumineszenz. Einer der Stoffe ist in einem Glasröhrchen eingeschlossen. Knickt man den Stab, bricht das Röhrchen, die Stoffe mischen sich und erzeugen Licht.",
+    "difficulty": 1,
+    "tags": [
+      "Chemie",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leuchtstab",
+    "source_url": "https://de.wikipedia.org/wiki/Leuchtstab",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a glow stick start to glow when you bend it?",
+        "options": [
+          "Bending it makes it hot",
+          "A small battery is switched on",
+          "It soaks up light from its surroundings",
+          "A small glass tube inside breaks and two substances react with each other"
+        ],
+        "explanation": "A glow stick shines purely chemically, through chemiluminescence. One of the substances is sealed in a small glass tube. When you bend the stick, the tube breaks, the substances mix and produce light."
+      }
+    }
+  },
+  {
+    "id": "ws120",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Der Mond wirkt kurz über dem Horizont viel größer als hoch am Himmel. Warum?",
+    "options": [
+      "Es ist eine optische Täuschung – auf Fotos ist er nicht größer",
+      "Die Luft wirkt am Horizont wie eine Lupe",
+      "Er ist abends näher an der Erde",
+      "Er dehnt sich in der Kälte aus"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Mondtäuschung ist eine optische Täuschung: Mond und Sonne erscheinen in Horizontnähe größer als hoch am Himmel. Läge es an der Luft, müsste man die Vergrößerung auch auf einem Foto sehen – das ist aber nicht der Fall.",
+    "difficulty": 1,
+    "tags": [
+      "Mond",
+      "Wahrnehmung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mondtäuschung",
+    "source_url": "https://de.wikipedia.org/wiki/Mondtäuschung",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Just above the horizon the Moon looks much larger than high in the sky. Why?",
+        "options": [
+          "It is an optical illusion – in photos it is no bigger",
+          "Near the horizon the air acts like a magnifying glass",
+          "It is closer to Earth in the evening",
+          "It expands in the cold"
+        ],
+        "explanation": "The Moon illusion is an optical illusion: the Moon and the Sun look larger near the horizon than high in the sky. If the air caused it, the enlargement would also show up in a photo – but it does not."
+      }
+    }
+  },
+  {
+    "id": "ws121",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Im Februar 2013 explodierte über der russischen Stadt Tscheljabinsk ein Meteor. Rund 1500 Menschen wurden verletzt. Wodurch die meisten?",
+    "options": [
+      "Durch herabfallende Felsbrocken",
+      "Durch splitterndes Fensterglas",
+      "Durch einen Brand in der Stadt",
+      "Durch ein Erdbeben"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Druckwelle des Meteors verursachte zahlreiche Schäden, vor allem zerbrochene Fenster. Die Zahl von rund 1500 Verletzten ist für einen Meteoritenfall bisher einmalig – die meisten wurden durch splitterndes Fensterglas verletzt.",
+    "difficulty": 2,
+    "tags": [
+      "Meteore",
+      "Russland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meteor von Tscheljabinsk",
+    "source_url": "https://de.wikipedia.org/wiki/Meteor von Tscheljabinsk",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In February 2013 a meteor exploded over the Russian city of Chelyabinsk. Around 1,500 people were injured. What injured most of them?",
+        "options": [
+          "Falling boulders",
+          "Shattering window glass",
+          "A fire in the city",
+          "An earthquake"
+        ],
+        "explanation": "The meteor's shock wave caused a lot of damage, above all broken windows. The number of around 1,500 injured people is so far unique for a meteorite fall – most were hurt by shattering window glass."
+      }
+    }
+  },
+  {
+    "id": "ws122",
+    "kind": "question",
+    "category_id": "space",
+    "question": "1492 fiel bei Ensisheim im Elsass ein Meteorit, der „Donnerstein von Ensisheim“. Was macht ihn besonders?",
+    "options": [
+      "Er besteht aus reinem Gold",
+      "Er ist der größte Meteorit der Welt",
+      "Er ist der älteste bezeugte Meteoritenfall Europas, von dem noch Material erhalten ist",
+      "Er stammt nachweislich vom Mars"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Meteorit ging 1492 bei Ensisheim im Elsass nieder. Er ist der älteste bezeugte Meteoritenfall Europas, von dem heute noch Material vorhanden ist.",
+    "difficulty": 3,
+    "tags": [
+      "Meteore",
+      "Geschichte",
+      "Frankreich"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ensisheim (Meteorit)",
+    "source_url": "https://de.wikipedia.org/wiki/Ensisheim (Meteorit)",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1492 a meteorite, the “thunderstone of Ensisheim”, fell near Ensisheim in Alsace. What makes it special?",
+        "options": [
+          "It is made of pure gold",
+          "It is the largest meteorite in the world",
+          "It is the oldest witnessed meteorite fall in Europe from which material still survives",
+          "It is proven to come from Mars"
+        ],
+        "explanation": "The meteorite came down near Ensisheim in Alsace in 1492. It is the oldest witnessed meteorite fall in Europe from which material still exists today."
+      }
+    }
+  },
+  {
+    "id": "ws123",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Um die Erde liegt der Van-Allen-Gürtel mit vielen geladenen Teilchen. Was hält sie dort gefangen?",
+    "options": [
+      "Die Wolken",
+      "Die Schwerkraft des Mondes",
+      "Die Ozonschicht",
+      "Das Magnetfeld der Erde"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Magnetfeld der Erde lenkt die geladenen Teilchen ab und schließt sie wie in einer magnetischen Flasche ein. Nachgewiesen wurde der Strahlungsgürtel ab Januar 1958 mit dem Satelliten Explorer 1. Der Jupiter hat wegen seines viel stärkeren Magnetfelds einen noch gefährlicheren Strahlungsgürtel.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Magnetismus",
+      "Satelliten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Van-Allen-Gürtel",
+    "source_url": "https://de.wikipedia.org/wiki/Van-Allen-Gürtel",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around Earth lies the Van Allen belt with many charged particles. What keeps them trapped there?",
+        "options": [
+          "The clouds",
+          "The Moon's gravity",
+          "The ozone layer",
+          "Earth's magnetic field"
+        ],
+        "explanation": "Earth's magnetic field deflects the charged particles and traps them as if in a magnetic bottle. The radiation belt was detected from January 1958 with the satellite Explorer 1. Jupiter, with its much stronger magnetic field, has an even more dangerous radiation belt."
+      }
+    }
+  },
+  {
+    "id": "ws124",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Bei einem Parabelflug schweben die Menschen im Flugzeug. Wie lange dauert die Schwerelosigkeit bei einer Parabel ungefähr?",
+    "options": [
+      "Etwa 2 Sekunden",
+      "Etwa 22 Sekunden",
+      "Etwa 5 Minuten",
+      "Etwa eine Stunde"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Schwerelosigkeit dauert im Durchschnitt rund 22 Sekunden. Mit flacheren Parabeln lässt sich auch die Schwerkraft auf dem Mars (0,38 g) oder dem Mond (0,16 g) nachahmen.",
+    "difficulty": 2,
+    "tags": [
+      "Raumfahrt",
+      "Schwerkraft",
+      "Flugzeuge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Parabelflug",
+    "source_url": "https://de.wikipedia.org/wiki/Parabelflug",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On a parabolic flight, people float inside the aircraft. Roughly how long does weightlessness last in one parabola?",
+        "options": [
+          "About 2 seconds",
+          "About 22 seconds",
+          "About 5 minutes",
+          "About an hour"
+        ],
+        "explanation": "Weightlessness lasts around 22 seconds on average. Flatter parabolas can also imitate the gravity on Mars (0.38 g) or on the Moon (0.16 g)."
+      }
+    }
+  },
+  {
+    "id": "ws125",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Raumanzüge für Arbeiten außerhalb der Raumstation sind außen mit Aluminium oder ähnlichen Stoffen beschichtet. Wozu?",
+    "options": [
+      "Damit sie im Dunkeln leuchten",
+      "Um Sonnenstrahlung zurückzuwerfen",
+      "Damit sie leichter sind",
+      "Um Funksignale zu empfangen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Beschichtung reflektiert die Sonnenstrahlung. Der Helm hat außerdem ein klappbares Visier gegen die starke UV-Strahlung der Sonne – im All schützt keine Ozonschicht.",
+    "difficulty": 2,
+    "tags": [
+      "Raumfahrt",
+      "Sonne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Raumanzug",
+    "source_url": "https://de.wikipedia.org/wiki/Raumanzug",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Spacesuits for work outside the space station are coated with aluminium or similar materials. What for?",
+        "options": [
+          "So that they glow in the dark",
+          "To reflect sunlight",
+          "To make them lighter",
+          "To receive radio signals"
+        ],
+        "explanation": "The coating reflects the Sun's radiation. The helmet also has a hinged visor against the Sun's strong UV radiation – in space there is no ozone layer to protect you."
+      }
+    }
+  },
+  {
+    "id": "ws126",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist die Heliosphäre?",
+    "options": [
+      "Ein Ring aus Eisbrocken hinter Neptun",
+      "Die heißeste Schicht im Inneren der Sonne",
+      "Eine riesige Blase, die der Sonnenwind um die Sonne bildet",
+      "Eine Raumstation, die die Sonne beobachtet"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Sonnenwind mit seinen geladenen Teilchen verdrängt das Gas zwischen den Sternen und bildet eine „Blase“ um die Sonne – die Heliosphäre. An ihrem Rand, der Heliopause, treffen Sonnenwind und interstellares Medium aufeinander und werden gestoppt.",
+    "difficulty": 2,
+    "tags": [
+      "Sonne",
+      "Sonnensystem"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Heliosphäre",
+    "source_url": "https://de.wikipedia.org/wiki/Heliosphäre",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the heliosphere?",
+        "options": [
+          "A ring of icy chunks beyond Neptune",
+          "The hottest layer inside the Sun",
+          "A huge bubble that the solar wind forms around the Sun",
+          "A space station that observes the Sun"
+        ],
+        "explanation": "The solar wind with its charged particles pushes away the gas between the stars and forms a “bubble” around the Sun – the heliosphere. At its edge, the heliopause, the solar wind and the interstellar medium meet and are stopped."
+      }
+    }
+  },
+  {
+    "id": "ws127",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Europäische Raketen starten bei Kourou in Französisch-Guayana. In der Nähe welcher Linie liegt dieser Weltraumbahnhof?",
+    "options": [
+      "Am südlichen Polarkreis",
+      "Am nördlichen Polarkreis",
+      "Am Nullmeridian",
+      "Am Äquator"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Raumfahrtzentrum Guayana liegt nur 580,2 km vom Äquator entfernt. Seit 1979 starten dort die Ariane-Raketen. Nahe am Äquator gibt die Drehung der Erde einer Rakete, die nach Osten startet, besonders viel Schwung mit.",
+    "difficulty": 2,
+    "tags": [
+      "Raumfahrt",
+      "Europa",
+      "Südamerika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Raumfahrtzentrum Guayana",
+    "source_url": "https://de.wikipedia.org/wiki/Raumfahrtzentrum Guayana",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "European rockets launch near Kourou in French Guiana. Which line is this spaceport close to?",
+        "options": [
+          "The Antarctic Circle",
+          "The Arctic Circle",
+          "The prime meridian",
+          "The equator"
+        ],
+        "explanation": "The Guiana Space Centre is only 580.2 km from the equator. Ariane rockets have been launched there since 1979. Close to the equator, Earth's rotation gives a rocket launching eastwards a particularly big boost."
+      }
+    }
+  },
+  {
+    "id": "mk122",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Die Theorbe ist eine große Verwandte der Laute. Woran erkennt man sie?",
+    "options": [
+      "An einem zweiten Wirbelkasten am verlängerten Hals",
+      "An einem Schalltrichter aus Messing",
+      "An einer Tastatur wie beim Klavier",
+      "An einer Kurbel am Korpus"
+    ],
+    "correct_index": 0,
+    "explanation": "Bautechnisches Kennzeichen der Theorbe, die aus der Renaissancelaute entwickelt wurde, ist der zweite Wirbelkasten am verlängerten Hals. Dort sind zusätzliche lange Bass-Saiten befestigt.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Alte Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Theorbe",
+    "source_url": "https://de.wikipedia.org/wiki/Theorbe",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The theorbo is a large relative of the lute. How can you recognise it?",
+        "options": [
+          "By a second pegbox on its extended neck",
+          "By a brass bell",
+          "By a keyboard like a piano's",
+          "By a crank on its body"
+        ],
+        "explanation": "The structural hallmark of the theorbo, which was developed from the Renaissance lute, is the second pegbox on its extended neck. Extra long bass strings are attached there."
+      }
+    }
+  },
+  {
+    "id": "mk123",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Das Clavichord ist ein altes Tasteninstrument. Wodurch erklingen seine Saiten?",
+    "options": [
+      "Filzhämmer schlagen sie an",
+      "Kleine Metallstifte, die Tangenten, schlagen sie an",
+      "Federkiele zupfen sie",
+      "Ein Bogen streicht sie"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Clavichord hat eine Tangentenmechanik: Kleine Tangenten aus Metall sitzen auf den hinteren Enden der Tasten. Sie schlagen die Saiten an und teilen sie zugleich ab.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Tasteninstrumente",
+      "Alte Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Clavichord",
+    "source_url": "https://de.wikipedia.org/wiki/Clavichord",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The clavichord is an old keyboard instrument. What makes its strings sound?",
+        "options": [
+          "Felt hammers strike them",
+          "Small metal blades, the tangents, strike them",
+          "Quills pluck them",
+          "A bow is drawn across them"
+        ],
+        "explanation": "The clavichord has a tangent action: small metal tangents sit at the back ends of the keys. They strike the strings and divide them at the same time."
+      }
+    }
+  },
+  {
+    "id": "mk124",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Die Shakuhachi ist eine japanische Längsflöte aus Bambus. Wer machte sie zu einem Instrument der Meditation?",
+    "options": [
+      "Hofdamen des Kaisers",
+      "Samurai-Trommler",
+      "Zen-buddhistische Mönche",
+      "Fischer an der Küste"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Shakuhachi ist eine japanische Bambuslängsflöte. Sie entwickelte sich zu einem Meditationsinstrument zen-buddhistischer Mönche. Deren Stücke heißen honkyoku und sind bis heute die am meisten verehrte Shakuhachi-Tradition.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Japan",
+      "Flöten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Shakuhachi",
+    "source_url": "https://de.wikipedia.org/wiki/Shakuhachi",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The shakuhachi is a Japanese end-blown bamboo flute. Who turned it into an instrument for meditation?",
+        "options": [
+          "The emperor's ladies-in-waiting",
+          "Samurai drummers",
+          "Zen Buddhist monks",
+          "Fishermen on the coast"
+        ],
+        "explanation": "The shakuhachi is a Japanese end-blown bamboo flute. It developed into a meditation instrument of Zen Buddhist monks. Their pieces are called honkyoku and are still the most revered shakuhachi tradition."
+      }
+    }
+  },
+  {
+    "id": "mk125",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wodurch bekommt das Vibraphon seinen schwebenden, zitternden Klang?",
+    "options": [
+      "Ein Ventilator bläst auf die Schlägel",
+      "Der Spieler schüttelt das Instrument",
+      "Die Platten sind aus Gummi",
+      "Ein Motor öffnet und schließt ständig die Resonanzröhren unter den Platten"
+    ],
+    "correct_index": 3,
+    "explanation": "Unter den Metallplatten hängen Resonanzröhren. Eine elektrisch angetriebene Vorrichtung öffnet und schließt sie immer wieder. Je nach Drehgeschwindigkeit entsteht so das typische Vibrato. Ein Vorläufer mit beweglichen Röhren wurde 1916 in den USA entwickelt.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Schlaginstrumente",
+      "Jazz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vibraphon",
+    "source_url": "https://de.wikipedia.org/wiki/Vibraphon",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What gives the vibraphone its shimmering, trembling sound?",
+        "options": [
+          "A fan blows on the mallets",
+          "The player shakes the instrument",
+          "The bars are made of rubber",
+          "A motor keeps opening and closing the resonator tubes under the bars"
+        ],
+        "explanation": "Resonator tubes hang under the metal bars. An electrically driven device opens and closes them again and again. Depending on its speed, this creates the typical vibrato. A forerunner with moving tubes was developed in the USA in 1916."
+      }
+    }
+  },
+  {
+    "id": "mk126",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wo hat eine Hornistin oder ein Hornist beim Spielen üblicherweise die rechte Hand?",
+    "options": [
+      "Im Schallbecher des Horns",
+      "An den Ventilen",
+      "Auf dem Notenständer",
+      "Am Mundstück"
+    ],
+    "correct_index": 0,
+    "explanation": "Die rechte Hand steckt üblicherweise im Schallbecher, die Finger der linken Hand liegen an den Ventilen. Mit der Hand im Trichter kann man den Klang verändern – beim „Stopfen“ wird der Trichter verschieden weit verschlossen.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Blechblasinstrumente",
+      "Orchester"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Horn (Blechblasinstrument)",
+    "source_url": "https://de.wikipedia.org/wiki/Horn (Blechblasinstrument)",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does a horn player usually put their right hand while playing?",
+        "options": [
+          "In the horn's bell",
+          "On the valves",
+          "On the music stand",
+          "On the mouthpiece"
+        ],
+        "explanation": "The right hand usually sits in the bell, while the fingers of the left hand rest on the valves. With the hand in the bell the sound can be changed – in “stopping”, the bell is closed off to different degrees."
+      }
+    }
+  },
+  {
+    "id": "mk127",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Ein Pianola spielt Klavier wie von Geisterhand. Was legt fest, welche Töne erklingen?",
+    "options": [
+      "Eine Schallplatte",
+      "Eine gelochte Papierrolle, die Notenrolle",
+      "Ein Computerchip",
+      "Ein Uhrwerk mit Glöckchen"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Pianola steuert ein Lochstreifen aus Papier, die Notenrolle, wann welcher Ton erklingt. Den nötigen Saugwind erzeugt eine Person mit zwei Blasebälgen, die sie mit den Füßen tritt.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Klavier",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pianola",
+    "source_url": "https://de.wikipedia.org/wiki/Pianola",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A pianola plays the piano as if by magic. What decides which notes sound?",
+        "options": [
+          "A gramophone record",
+          "A perforated paper roll, the piano roll",
+          "A computer chip",
+          "A clockwork with little bells"
+        ],
+        "explanation": "In a pianola, a perforated paper strip, the piano roll, controls when each note sounds. A person creates the necessary suction by pumping two bellows with their feet."
+      }
+    }
+  },
+  {
+    "id": "mk128",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Mit Neumen schrieb man im Mittelalter Melodien auf. Was bedeutet das griechische Wort „neuma“?",
+    "options": [
+      "Stimme",
+      "Lied",
+      "Wink",
+      "Linie"
+    ],
+    "correct_index": 2,
+    "explanation": "Neumen (griechisch „neuma“, deutsch „Wink“) heißen die Zeichen, mit denen man seit dem 9. Jahrhundert Melodien aufschrieb – zum Beispiel für Gesänge in Klöstern.",
+    "difficulty": 3,
+    "tags": [
+      "Noten",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neume",
+    "source_url": "https://de.wikipedia.org/wiki/Neume",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Middle Ages, melodies were written down with neumes. What does the Greek word “neuma” mean?",
+        "options": [
+          "Voice",
+          "Song",
+          "Nod or sign",
+          "Line"
+        ],
+        "explanation": "Neumes (from the Greek “neuma”, a nod or sign) are the symbols used to write down melodies from the 9th century onwards – for chants in monasteries, for example."
+      }
+    }
+  },
+  {
+    "id": "mk129",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Mit der „sprechenden Trommel“ aus Westafrika kann man Sprache nachahmen. Wie verändert man ihre Tonhöhe?",
+    "options": [
+      "Man schlägt mit zwei Schlägeln gleichzeitig",
+      "Man gießt Wasser hinein",
+      "Man dreht an einer Stimmschraube",
+      "Man drückt mit dem Oberarm auf die Lederschnüre"
+    ],
+    "correct_index": 3,
+    "explanation": "Durch Anspannen und Loslassen des Oberarms verändert man die Tonhöhe über die Lederschnüre. Mit den verschiedenen Tonhöhen lassen sich alle tonalen Sprachen Ghanas auf der Trommel spielen.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Trommeln",
+      "Afrika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Talking Drum",
+    "source_url": "https://de.wikipedia.org/wiki/Talking Drum",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The West African “talking drum” can imitate speech. How do you change its pitch?",
+        "options": [
+          "You hit it with two sticks at once",
+          "You pour water into it",
+          "You turn a tuning screw",
+          "You press on the leather cords with your upper arm"
+        ],
+        "explanation": "By squeezing and relaxing the upper arm, the player changes the pitch via the leather cords. With the different pitches, all the tonal languages of Ghana can be played on the drum."
+      }
+    }
+  },
+  {
+    "id": "t93",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was braucht ein Dieselmotor im Gegensatz zum Benzinmotor nicht?",
+    "options": [
+      "Luft",
+      "Kraftstoff",
+      "Kolben",
+      "Zündkerzen"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Dieselmotor zündet durch Verdichtung: Der Kraftstoff entzündet sich in der stark zusammengepressten, heißen Luft von selbst – ohne Zündkerze. Der Ingenieur Rudolf Diesel veröffentlichte seine Überlegungen dazu erstmals 1893.",
+    "difficulty": 2,
+    "tags": [
+      "Motoren",
+      "Erfindungen",
+      "Fahrzeuge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dieselmotor",
+    "source_url": "https://de.wikipedia.org/wiki/Dieselmotor",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a diesel engine not need, unlike a petrol engine?",
+        "options": [
+          "Air",
+          "Fuel",
+          "Pistons",
+          "Spark plugs"
+        ],
+        "explanation": "A diesel engine ignites by compression: the fuel ignites by itself in the highly compressed, hot air – without a spark plug. The engineer Rudolf Diesel first published his ideas on it in 1893."
+      }
+    }
+  },
+  {
+    "id": "t94",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist beim Wankelmotor anders als bei den meisten Automotoren?",
+    "options": [
+      "Sein Kolben dreht sich, statt auf und ab zu gehen",
+      "Er läuft mit Wasser statt mit Benzin",
+      "Er hat keine bewegten Teile",
+      "Er wird mit einer Kurbel von Hand angetrieben"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Wankelmotor ist ein Rotationskolbenmotor, benannt nach seinem Erfinder Felix Wankel. Durchgesetzt hat sich die Form mit einem Kreiskolben, der sich in einem Gehäuse dreht.",
+    "difficulty": 2,
+    "tags": [
+      "Motoren",
+      "Erfindungen",
+      "Fahrzeuge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wankelmotor",
+    "source_url": "https://de.wikipedia.org/wiki/Wankelmotor",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is different about the Wankel engine compared with most car engines?",
+        "options": [
+          "Its piston rotates instead of moving up and down",
+          "It runs on water instead of petrol",
+          "It has no moving parts",
+          "It is driven by hand with a crank"
+        ],
+        "explanation": "The Wankel engine is a rotary piston engine, named after its inventor Felix Wankel. The version that caught on has a rotor that turns inside a housing."
+      }
+    }
+  },
+  {
+    "id": "t95",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Viele alte Baukräne wurden mit einem großen Tretrad angetrieben. Woher kam die Kraft?",
+    "options": [
+      "Von einer Dampfmaschine",
+      "Von Menschen oder Tieren, die im Rad liefen",
+      "Von einem Elektromotor",
+      "Von Windflügeln"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Tretmühle oder das Tretrad wurde seit der Römerzeit bis in die Moderne für Mühlen und vor allem für Kräne genutzt. Sie nutzt die Körperkraft von Menschen oder Tieren, die im Rad laufen.",
+    "difficulty": 1,
+    "tags": [
+      "Bauwerke",
+      "Maschinen",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tretmühle",
+    "source_url": "https://de.wikipedia.org/wiki/Tretmühle",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many old construction cranes were driven by a big treadwheel. Where did the power come from?",
+        "options": [
+          "From a steam engine",
+          "From people or animals walking inside the wheel",
+          "From an electric motor",
+          "From windmill sails"
+        ],
+        "explanation": "The treadmill or treadwheel was used from Roman times into the modern era for mills and above all for cranes. It uses the muscle power of people or animals walking inside the wheel."
+      }
+    }
+  },
+  {
+    "id": "t96",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Die Göltzschtalbrücke im Vogtland in Sachsen hält einen Weltrekord. Welchen?",
+    "options": [
+      "Sie ist die älteste Brücke der Welt",
+      "Sie ist die längste Hängebrücke der Welt",
+      "Sie ist die größte Ziegelsteinbrücke der Welt",
+      "Sie ist die einzige Brücke aus Glas"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Eisenbahnbrücke ist die größte Ziegelsteinbrücke der Welt. Der Planer wählte Ziegel als Hauptbaustoff, weil es in der Region viel Lehm gab und Ziegel so günstig und schnell zu bekommen waren.",
+    "difficulty": 2,
+    "tags": [
+      "Brücken",
+      "Eisenbahn",
+      "Sachsen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Göltzschtalbrücke",
+    "source_url": "https://de.wikipedia.org/wiki/Göltzschtalbrücke",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Göltzsch Viaduct in Saxony holds a world record. Which one?",
+        "options": [
+          "It is the oldest bridge in the world",
+          "It is the longest suspension bridge in the world",
+          "It is the largest brick bridge in the world",
+          "It is the only bridge made of glass"
+        ],
+        "explanation": "The railway bridge is the largest brick bridge in the world. The planner chose brick as the main material because the region had plenty of clay, so bricks could be obtained cheaply and quickly."
+      }
+    }
+  },
+  {
+    "id": "t97",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie weit liegen bei der Normalspur der Eisenbahn die Schienen auseinander (zwischen den Innenkanten)?",
+    "options": [
+      "1000 Millimeter",
+      "1435 Millimeter",
+      "1520 Millimeter",
+      "1676 Millimeter"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Normalspur misst 1435 Millimeter, das sind 4 Fuß 8½ Zoll. Schon die erste öffentliche Eisenbahn der Welt von Stockton nach Darlington, deren Bau 1822 begann, bekam diese Spurweite.",
+    "difficulty": 3,
+    "tags": [
+      "Eisenbahn",
+      "Maße"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Normalspur",
+    "source_url": "https://de.wikipedia.org/wiki/Normalspur",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On standard-gauge railways, how far apart are the rails (between their inner edges)?",
+        "options": [
+          "1,000 millimetres",
+          "1,435 millimetres",
+          "1,520 millimetres",
+          "1,676 millimetres"
+        ],
+        "explanation": "Standard gauge measures 1,435 millimetres, which is 4 feet 8½ inches. The world's first public railway, from Stockton to Darlington, whose construction began in 1822, already had this gauge."
+      }
+    }
+  },
+  {
+    "id": "t98",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wo wurde 1935 die erste Parkuhr aufgestellt?",
+    "options": [
+      "In Oklahoma City in den USA",
+      "In Berlin",
+      "In London",
+      "In Paris"
+    ],
+    "correct_index": 0,
+    "explanation": "Die erste Parkuhr wurde im Juli 1935 in Oklahoma City aufgestellt. Sie bekam den Spitznamen „Schwarze Maria“.",
+    "difficulty": 2,
+    "tags": [
+      "Verkehr",
+      "Erfindungen",
+      "USA"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Parkuhr",
+    "source_url": "https://de.wikipedia.org/wiki/Parkuhr",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where was the first parking meter put up in 1935?",
+        "options": [
+          "In Oklahoma City, USA",
+          "In Berlin",
+          "In London",
+          "In Paris"
+        ],
+        "explanation": "The first parking meter was put up in Oklahoma City in July 1935. It got the nickname “Black Maria”."
+      }
+    }
+  },
+  {
+    "id": "t99",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Rückstrahler werfen Licht genau dorthin zurück, woher es kommt. Welche bekannte Bauform ist nach einem Tier benannt?",
+    "options": [
+      "Der Eulenblick",
+      "Das Katzenauge",
+      "Das Glühwürmchen",
+      "Der Fuchsschwanz"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine besondere Bauform von Rückstrahlern ist das „Katzenauge“. Auch auf Schulranzen, Fahrradreifen und Warnwesten steckt Reflektorfolie mit winzigen durchsichtigen Kunststoffkügelchen, die ähnlich wie Katzenaugen funktionieren.",
+    "difficulty": 1,
+    "tags": [
+      "Verkehr",
+      "Licht",
+      "Sicherheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Retroreflektor",
+    "source_url": "https://de.wikipedia.org/wiki/Retroreflektor",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Reflectors send light back exactly where it came from. Which well-known type is named after an animal?",
+        "options": [
+          "The owl's gaze",
+          "The cat's eye",
+          "The glow-worm",
+          "The fox tail"
+        ],
+        "explanation": "A special type of reflector is the “cat's eye”. School bags, bicycle tyres and safety vests also carry reflective film with tiny transparent plastic beads that work much like cat's eyes."
+      }
+    }
+  },
+  {
+    "id": "t100",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Die Nipkow-Scheibe war ein früher Schritt zum Fernsehen. Wie zerlegte sie ein Bild in Zeilen?",
+    "options": [
+      "Mit Löchern, die spiralförmig in einer sich drehenden Scheibe angeordnet sind",
+      "Mit vielen kleinen Spiegeln",
+      "Mit einem Laserstrahl",
+      "Mit einem Zeichenstift, der hin und her fährt"
+    ],
+    "correct_index": 0,
+    "explanation": "Paul Nipkow schlug eine Scheibe mit spiralförmig angeordneten Löchern vor. Sie hatte 24 Löcher und sollte ein Bild mit 24 Zeilen abtasten – jedes Loch fährt beim Drehen eine Zeile ab.",
+    "difficulty": 3,
+    "tags": [
+      "Fernsehen",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nipkow-Scheibe",
+    "source_url": "https://de.wikipedia.org/wiki/Nipkow-Scheibe",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Nipkow disc was an early step towards television. How did it break a picture down into lines?",
+        "options": [
+          "With holes arranged in a spiral in a spinning disc",
+          "With many small mirrors",
+          "With a laser beam",
+          "With a pen moving back and forth"
+        ],
+        "explanation": "Paul Nipkow proposed a disc with holes arranged in a spiral. It had 24 holes and was meant to scan a picture in 24 lines – each hole traces one line as the disc turns."
+      }
+    }
+  },
+  {
+    "id": "cu75",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aachener Printen und Pulsnitzer Pfefferkuchen sind regionale Spezialitäten. Zu welchem Gebäck gehören sie beide?",
+    "options": [
+      "Zu den Waffeln",
+      "Zum Stollen",
+      "Zu den Brezeln",
+      "Zum Lebkuchen"
+    ],
+    "correct_index": 3,
+    "explanation": "Lebkuchen ist ein süßes, kräftig gewürztes und haltbares Gebäck. Es gibt ihn in vielen Formen, und mehrere regionale Sorten haben geschützte Herkunftsbezeichnungen, etwa Aachener Printen, Nürnberger Lebkuchen oder Pulsnitzer Pfefferkuchen.",
+    "difficulty": 1,
+    "tags": [
+      "Essen",
+      "Weihnachten",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lebkuchen",
+    "source_url": "https://de.wikipedia.org/wiki/Lebkuchen",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Aachen Printen and Pulsnitz Pfefferkuchen are regional specialities. Which kind of baked good do they both belong to?",
+        "options": [
+          "Waffles",
+          "Stollen",
+          "Pretzels",
+          "Gingerbread (Lebkuchen)"
+        ],
+        "explanation": "Lebkuchen is a sweet, strongly spiced gingerbread that keeps well. It comes in many shapes, and several regional kinds have protected names of origin, such as Aachen Printen, Nuremberg Lebkuchen or Pulsnitz Pfefferkuchen."
+      }
+    }
+  },
+  {
+    "id": "cu76",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was trägt der Kasper im Kaspertheater üblicherweise auf dem Kopf?",
+    "options": [
+      "Eine lange, oft rote Zipfelmütze",
+      "Eine goldene Krone",
+      "Einen schwarzen Zylinder",
+      "Einen Ritterhelm"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Kasper ist der komische Held des Kaspertheaters, das meist mit Handpuppen gespielt wird. Er trägt üblicherweise eine lange, oft rote Zipfelmütze und ein buntes Kleid, das an den Harlekin erinnert.",
+    "difficulty": 1,
+    "tags": [
+      "Theater",
+      "Puppen",
+      "Kinder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kasper",
+    "source_url": "https://de.wikipedia.org/wiki/Kasper",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Kasper, the hero of the German Punch-and-Judy-style puppet show, usually wear on his head?",
+        "options": [
+          "A long, often red pointed cap",
+          "A golden crown",
+          "A black top hat",
+          "A knight's helmet"
+        ],
+        "explanation": "Kasper is the comic hero of the Kasper puppet theatre, which is usually played with hand puppets. He usually wears a long, often red pointed cap and a colourful costume reminiscent of Harlequin."
+      }
+    }
+  },
+  {
+    "id": "cu77",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Zum chinesischen Neujahrsfest verschenkt man rote Umschläge, die „Hongbao“. Was steckt darin?",
+    "options": [
+      "Teeblätter",
+      "Geld",
+      "Reiskörner",
+      "Glückskekse"
+    ],
+    "correct_index": 1,
+    "explanation": "Hongbao heißt „roter Umschlag“. Darin werden zu chinesischen Festen wie dem Neujahrsfest oder einer Hochzeit Geldgeschenke überreicht. Den Betrag wählt man oft so, dass sich glückbringende Zahlen ergeben.",
+    "difficulty": 1,
+    "tags": [
+      "China",
+      "Feste",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hong Bao",
+    "source_url": "https://de.wikipedia.org/wiki/Hong Bao",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At Chinese New Year people give red envelopes called “hongbao”. What is inside?",
+        "options": [
+          "Tea leaves",
+          "Money",
+          "Grains of rice",
+          "Fortune cookies"
+        ],
+        "explanation": "Hongbao means “red envelope”. Gifts of money are handed over in them at Chinese festivals such as New Year or a wedding. The amount is often chosen to make a lucky number."
+      }
+    }
+  },
+  {
+    "id": "cu78",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Die Inuit bauen Steinfiguren, die sie „Inuksuk“ nennen. Was bedeutet das Wort wörtlich?",
+    "options": [
+      "Weg nach Hause",
+      "Großer Stein",
+      "Gleich einem Menschen",
+      "Wächter des Eises"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Inuktitut-Wort Inuksuk bedeutet wörtlich „gleich einem Menschen“. Die Inuit verstehen darunter einen Gegenstand, der anstelle eines Menschen Aufgaben übernehmen kann – etwa als Wegzeichen in der weiten Landschaft.",
+    "difficulty": 2,
+    "tags": [
+      "Arktis",
+      "Sprache",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Inuksuk",
+    "source_url": "https://de.wikipedia.org/wiki/Inuksuk",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Inuit build stone figures that they call “inuksuk”. What does the word literally mean?",
+        "options": [
+          "Way home",
+          "Big stone",
+          "Like a human",
+          "Guardian of the ice"
+        ],
+        "explanation": "The Inuktitut word inuksuk literally means “like a human”. The Inuit understand it as an object that can do tasks in place of a person – for example as a waymark in the vast landscape."
+      }
+    }
+  },
+  {
+    "id": "cu79",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie bringt man einen Hampelmann dazu, Arme und Beine zu bewegen?",
+    "options": [
+      "Man legt ihn in die Sonne",
+      "Man zieht ihn mit einem Schlüssel auf",
+      "Man pustet ihn an",
+      "Man zieht an einer Schnur"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Hampelmann ist eine Gliederpuppe meist aus Holz oder Pappe. Seine beweglichen Arme und Beine bewegen sich, wenn man an den Schnüren zieht. Nach ihm ist auch die Turnübung benannt, bei der man die Beine im Sprung öffnet und schließt.",
+    "difficulty": 1,
+    "tags": [
+      "Spielzeug",
+      "Kinder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hampelmann",
+    "source_url": "https://de.wikipedia.org/wiki/Hampelmann",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you make a jumping jack puppet move its arms and legs?",
+        "options": [
+          "You put it in the sun",
+          "You wind it up with a key",
+          "You blow on it",
+          "You pull a string"
+        ],
+        "explanation": "The jumping jack is a jointed puppet, usually made of wood or cardboard. Its movable arms and legs move when you pull the strings. The exercise in which you jump while opening and closing your legs is named after it."
+      }
+    }
+  },
+  {
+    "id": "cu80",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Kente ist ein bunt gewebter Stoff aus Ghana. Wer durfte ihn früher als Einziger tragen?",
+    "options": [
+      "Kinder",
+      "Könige",
+      "Fischer",
+      "Soldaten"
+    ],
+    "correct_index": 1,
+    "explanation": "Kente wird vor allem von den Aschanti und den Ewe in Ghana gewebt. Früher durften den Stoff nur Könige tragen. Die Farben und Muster haben jeweils eine Bedeutung.",
+    "difficulty": 2,
+    "tags": [
+      "Afrika",
+      "Stoffe",
+      "Kunsthandwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kente",
+    "source_url": "https://de.wikipedia.org/wiki/Kente",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Kente is a brightly woven cloth from Ghana. Who alone was allowed to wear it in the past?",
+        "options": [
+          "Children",
+          "Kings",
+          "Fishermen",
+          "Soldiers"
+        ],
+        "explanation": "Kente is woven mainly by the Ashanti and the Ewe in Ghana. In the past only kings were allowed to wear the cloth. Its colours and patterns each have a meaning."
+      }
+    }
+  },
+  {
+    "id": "cu81",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Nach einer alten bayerischen Regel dürfen Weißwürste „das Mittagsläuten nicht hören“. Woher kommt die Regel?",
+    "options": [
+      "Mittags war das Essen auf Märkten verboten",
+      "Die Glocken machen die Würste angeblich hart",
+      "Aus der Zeit, als es noch keine Kühlung gab",
+      "Die Wurstmacher hatten nachmittags frei"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Empfehlung, Weißwürste dürften das Mittagsläuten um 12 Uhr nicht hören, stammt aus der Zeit vor der Kühltechnik. Weißwürste werden traditionell frühmorgens hergestellt und vormittags gegessen, oft mit süßem Senf und Brezn.",
+    "difficulty": 2,
+    "tags": [
+      "Essen",
+      "Bayern",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weißwurst",
+    "source_url": "https://de.wikipedia.org/wiki/Weißwurst",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to an old Bavarian rule, white sausages must not “hear the noon bells”. Where does the rule come from?",
+        "options": [
+          "Eating at markets was banned at noon",
+          "The bells supposedly make the sausages tough",
+          "From the time before refrigeration",
+          "The sausage makers had the afternoon off"
+        ],
+        "explanation": "The advice that white sausages must not hear the noon bells at 12 o'clock dates from before refrigeration. White sausages are traditionally made early in the morning and eaten before noon, often with sweet mustard and pretzels."
+      }
+    }
+  },
+  {
+    "id": "cu82",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Beim Blaudruck entstehen weiße Muster auf blauem Stoff. Womit wird der Stoff blau gefärbt?",
+    "options": [
+      "Mit Kupferpulver",
+      "Mit Heidelbeersaft",
+      "Mit Tinte",
+      "Mit Indigo"
+    ],
+    "correct_index": 3,
+    "explanation": "Blaudruck ist ein Reservedruck: Mit Druckstöcken, den Modeln, wird eine Schutzmasse auf den Stoff gedruckt, dann wird er mit Indigo gefärbt. Wo die Schutzmasse war, bleibt der Stoff hell.",
+    "difficulty": 2,
+    "tags": [
+      "Kunsthandwerk",
+      "Stoffe",
+      "Farben"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blaudruck",
+    "source_url": "https://de.wikipedia.org/wiki/Blaudruck",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In blueprinting (Blaudruck), white patterns appear on blue cloth. What is the cloth dyed blue with?",
+        "options": [
+          "Copper powder",
+          "Blueberry juice",
+          "Ink",
+          "Indigo"
+        ],
+        "explanation": "Blaudruck is a resist printing method: a protective paste is printed onto the cloth with wooden blocks, then the cloth is dyed with indigo. Where the paste was, the cloth stays light."
+      }
+    }
   }
 ]
