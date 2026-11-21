@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "sp140",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was gehört beim Jonglieren dazu?",
+    "options": [
+      "Man darf nur einen Ball benutzen",
+      "Mindestens ein Gegenstand ist immer in der Luft",
+      "Man muss dabei auf einem Bein stehen",
+      "Die Bälle dürfen nie gefangen werden"
+    ],
+    "correct_index": 1,
+    "explanation": "Jonglieren heißt, mehrere Gegenstände immer wieder in die Luft zu werfen und aufzufangen – so, dass zu jedem Zeitpunkt mindestens einer in der Luft ist. Am häufigsten nimmt man Bälle, Keulen und Ringe.",
+    "difficulty": 1,
+    "tags": [
+      "Geschicklichkeit",
+      "Zirkus",
+      "Bälle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jonglieren",
+    "source_url": "https://de.wikipedia.org/wiki/Jonglieren",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is part of juggling?",
+        "options": [
+          "You may only use one ball",
+          "At least one object is always in the air",
+          "You have to stand on one leg",
+          "The balls must never be caught"
+        ],
+        "explanation": "Juggling means repeatedly throwing several objects into the air and catching them – so that at least one is in the air at any moment. The most common props are balls, clubs and rings."
+      }
+    }
+  },
+  {
+    "id": "sp141",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Unter welchem Namen wird das Rasenspiel Kubb im deutschsprachigen Raum oft verkauft?",
+    "options": [
+      "Holzkegeln",
+      "Rasenschach",
+      "Wikingerschach",
+      "Burgenwurf"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Kubb versuchen zwei Mannschaften, die Holzklötze der Gegner umzuwerfen – „Kubb“ heißt Klotz. Im deutschsprachigen Raum wird das Spiel teilweise als „Wikingerschach“ vermarktet.",
+    "difficulty": 2,
+    "tags": [
+      "Spiele",
+      "Rasen",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kubb",
+    "source_url": "https://de.wikipedia.org/wiki/Kubb",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Under which name is the lawn game Kubb often sold in German-speaking countries?",
+        "options": [
+          "Wooden skittles",
+          "Lawn chess",
+          "Wikingerschach (Viking chess)",
+          "Castle toss"
+        ],
+        "explanation": "In Kubb two teams try to knock over the other side's wooden blocks – “kubb” means block. In German-speaking countries the game is sometimes marketed as “Wikingerschach” (Viking chess)."
+      }
+    }
+  },
+  {
+    "id": "sp142",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woraus wird der Hula-Hoop-Reifen seit den 1950er Jahren meist gemacht?",
+    "options": [
+      "Aus Papier",
+      "Aus Eisen",
+      "Aus Glas",
+      "Aus einem Kunststoffrohr"
+    ],
+    "correct_index": 3,
+    "explanation": "Früher wurden Reifen fast nur aus Holz von Hand gemacht. Seit den 1950er Jahren kennt man sie vor allem als Hula-Hoop-Reifen aus Kunststoffrohr.",
+    "difficulty": 1,
+    "tags": [
+      "Spielzeug",
+      "Bewegung",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Reifen (Spielzeug)",
+    "source_url": "https://de.wikipedia.org/wiki/Reifen (Spielzeug)",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What has the hula hoop mostly been made of since the 1950s?",
+        "options": [
+          "Paper",
+          "Iron",
+          "Glass",
+          "Plastic tubing"
+        ],
+        "explanation": "Hoops used to be made almost only of wood by hand. Since the 1950s they have been known mainly as hula hoops made of plastic tubing."
+      }
+    }
+  },
+  {
+    "id": "sp143",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Musste der traditionelle Jagdbumerang der australischen Aborigines zum Werfer zurückkehren?",
+    "options": [
+      "Nein – er sollte weit und gerade fliegen",
+      "Ja, immer",
+      "Ja, aber nur bei Wind",
+      "Er wurde gar nicht geworfen"
+    ],
+    "correct_index": 0,
+    "explanation": "Sportbumerangs kehren bei richtigem Wurf zurück. Beim traditionellen australischen Bumerang war das nicht zwingend so: Der Jagdbumerang fliegt weiter, geradliniger und zielsicherer als ein zurückkehrender.",
+    "difficulty": 2,
+    "tags": [
+      "Wurfgeräte",
+      "Australien",
+      "Fliegen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bumerang",
+    "source_url": "https://de.wikipedia.org/wiki/Bumerang",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Did the traditional hunting boomerang of the Australian Aborigines have to return to the thrower?",
+        "options": [
+          "No – it was meant to fly far and straight",
+          "Yes, always",
+          "Yes, but only in wind",
+          "It was not thrown at all"
+        ],
+        "explanation": "Sport boomerangs return when thrown correctly. With the traditional Australian boomerang this was not necessarily so: the hunting boomerang flies farther, straighter and more accurately than a returning one."
+      }
+    }
+  },
+  {
+    "id": "sp144",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woher könnte das Wort „Jo-Jo“ laut einer Erklärung stammen?",
+    "options": [
+      "Aus dem Japanischen – es hieße „rund-rund“",
+      "Aus der philippinischen Sprache Tagalog – es hieße „komm-komm“",
+      "Aus dem Englischen – es hieße „hoch-runter“",
+      "Aus dem Russischen – es hieße „Schnur-Schnur“"
+    ],
+    "correct_index": 1,
+    "explanation": "Für das Wort gibt es zwei Erklärungen: Es stammt aus dem Tagalog der Philippinen und heißt „komm-komm“ – oder es kommt vom französischen jouer, „spielen“. Ein Jo-Jo besteht aus zwei Scheiben mit einem Mittelsteg, um den eine Schnur gewickelt ist.",
+    "difficulty": 2,
+    "tags": [
+      "Spielzeug",
+      "Wörter",
+      "Sprachen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jo-Jo",
+    "source_url": "https://de.wikipedia.org/wiki/Jo-Jo",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to one explanation, where could the word “yo-yo” come from?",
+        "options": [
+          "From Japanese – meaning “round-round”",
+          "From the Philippine language Tagalog – meaning “come-come”",
+          "From English – meaning “up-down”",
+          "From Russian – meaning “string-string”"
+        ],
+        "explanation": "There are two explanations for the word: it comes from Tagalog in the Philippines and means “come-come” – or from French jouer, “to play”. A yo-yo is made of two discs joined by an axle with a string wound around it."
+      }
+    }
+  },
+  {
+    "id": "sp145",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Schweizer Mannschaftssport Hornussen wird eine Scheibe weggeschlagen, der „Hornuss“. Was bedeutet das Wort eigentlich?",
+    "options": [
+      "Haselnuss",
+      "Hörnchen",
+      "Hornisse",
+      "Hirtenhorn"
+    ],
+    "correct_index": 2,
+    "explanation": "Hornuss ist eigentlich eine schweizerische Bezeichnung für die Hornisse. Die schlagende Mannschaft schlägt die Kunststoffscheibe möglichst weit, die Gegner versuchen sie mit einer flachen Schaufel, der „Schindel“, zu stoppen.",
+    "difficulty": 2,
+    "tags": [
+      "Schweiz",
+      "Mannschaftssport",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hornussen (Sport)",
+    "source_url": "https://de.wikipedia.org/wiki/Hornussen (Sport)",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Swiss team sport Hornussen a disc called the “Hornuss” is struck away. What does the word actually mean?",
+        "options": [
+          "Hazelnut",
+          "Little horn",
+          "Hornet",
+          "Shepherd's horn"
+        ],
+        "explanation": "Hornuss is actually a Swiss word for the hornet. The batting team hits the plastic disc as far as possible; the other team tries to stop it with a flat board, the “Schindel”."
+      }
+    }
+  },
+  {
+    "id": "sp146",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist beim Unterwasser-Rugby im Spielball?",
+    "options": [
+      "Gummi",
+      "Luft",
+      "Sand",
+      "Salzwasser"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Unterwasser-Rugby wird ein mit Salzwasser gefüllter Ball in den gegnerischen Korb unter Wasser gebracht. Gespielt wird mit Flossen, Tauchmaske und Schnorchel; die Sportart stammt aus deutschen Tauchvereinen.",
+    "difficulty": 2,
+    "tags": [
+      "Wassersport",
+      "Mannschaftssport",
+      "Tauchen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Unterwasser-Rugby",
+    "source_url": "https://de.wikipedia.org/wiki/Unterwasser-Rugby",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is inside the ball in underwater rugby?",
+        "options": [
+          "Rubber",
+          "Air",
+          "Sand",
+          "Salt water"
+        ],
+        "explanation": "In underwater rugby a ball filled with salt water is brought into the opposing team's basket under water. Players use fins, a mask and a snorkel; the sport began in German diving clubs."
+      }
+    }
+  },
+  {
+    "id": "sp147",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie bringt man ein Diabolo zum Drehen?",
+    "options": [
+      "Es liegt auf einem Seil zwischen zwei Handstöcken, das man bewegt",
+      "Man zieht an einer aufgewickelten Schnur",
+      "Man pustet hinein",
+      "Man rollt es auf dem Boden"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Diabolo ist ein Doppelkegel mit einer Achse in der Mitte. Es wird auf ein Seil gesetzt, das an zwei Handstöcken befestigt ist; durch Bewegen des Seils dreht es sich um seine Längsachse.",
+    "difficulty": 1,
+    "tags": [
+      "Geschicklichkeit",
+      "Jonglieren",
+      "Spielzeug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diabolo (Spielgerät)",
+    "source_url": "https://de.wikipedia.org/wiki/Diabolo (Spielgerät)",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you make a diabolo spin?",
+        "options": [
+          "It sits on a string between two hand sticks that you move",
+          "You pull a wound-up string",
+          "You blow into it",
+          "You roll it on the floor"
+        ],
+        "explanation": "A diabolo is a double cone with an axle in the middle. It is placed on a string attached to two hand sticks; moving the string makes it spin around its long axis."
+      }
+    }
+  },
+  {
+    "id": "cu83",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie kam es Ende des 19. Jahrhunderts zum Strohstern als Weihnachtsschmuck?",
+    "options": [
+      "Die Strohindustrie suchte im Winter eine Alternative zum Strohhut",
+      "Ein Gesetz verbot Glasschmuck",
+      "Stroh war billiger als Papier",
+      "Bauern verschenkten ihn statt Brot"
+    ],
+    "correct_index": 0,
+    "explanation": "Ende des 19. Jahrhunderts entwickelte die Strohindustrie eine winterliche Alternative zum im Sommer beliebten Strohhut. Aus Strohresten bastelte man Schmuck – am gefragtesten war der Strohstern.",
+    "difficulty": 2,
+    "tags": [
+      "Weihnachten",
+      "Basteln",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strohstern",
+    "source_url": "https://de.wikipedia.org/wiki/Strohstern",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the straw star become a Christmas decoration at the end of the 19th century?",
+        "options": [
+          "The straw industry wanted a winter alternative to the straw hat",
+          "A law banned glass decorations",
+          "Straw was cheaper than paper",
+          "Farmers gave it away instead of bread"
+        ],
+        "explanation": "At the end of the 19th century the straw industry developed a winter alternative to the straw hat, which was popular in summer. Decorations were made from leftover straw – the straw star was the most popular."
+      }
+    }
+  },
+  {
+    "id": "cu84",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie entstehen beim Schattentheater die Bilder?",
+    "options": [
+      "Die Figuren leuchten selbst",
+      "Figuren werfen Schatten auf eine beleuchtete Fläche",
+      "Man malt sie live auf eine Wand",
+      "Ein Film wird abgespielt"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Schattenspiel wird eine Geschichte erzählt, indem Schatten auf eine beleuchtete Fläche geworfen werden. Oft nimmt man flache Figuren, die dicht hinter der Leinwand geführt werden.",
+    "difficulty": 1,
+    "tags": [
+      "Theater",
+      "Licht",
+      "Figuren"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schattenspiel",
+    "source_url": "https://de.wikipedia.org/wiki/Schattenspiel",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How are the pictures made in shadow theatre?",
+        "options": [
+          "The figures glow by themselves",
+          "Figures cast shadows onto a lit surface",
+          "They are painted live on a wall",
+          "A film is played"
+        ],
+        "explanation": "In shadow theatre a story is told by casting shadows onto a lit surface. Often flat figures are used, moved close behind the screen."
+      }
+    }
+  },
+  {
+    "id": "cu85",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Womit wird eine Marionette bewegt?",
+    "options": [
+      "Mit einem Motor",
+      "Mit der Hand im Inneren",
+      "Mit Fäden an den Gliedern",
+      "Mit Magneten"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Marionette ist eine Gliederpuppe, die mit Fäden an den einzelnen Gliedern bewegt wird. Geführt wird sie mit einem Spielkreuz; traditionell ist sie aus Holz.",
+    "difficulty": 1,
+    "tags": [
+      "Puppen",
+      "Theater",
+      "Holz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marionette",
+    "source_url": "https://de.wikipedia.org/wiki/Marionette",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a marionette moved with?",
+        "options": [
+          "A motor",
+          "A hand inside it",
+          "Strings attached to its limbs",
+          "Magnets"
+        ],
+        "explanation": "A marionette is a jointed puppet moved by strings attached to its limbs. It is controlled with a wooden cross; traditionally it is made of wood."
+      }
+    }
+  },
+  {
+    "id": "cu86",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Bauchredner heißen auch Ventriloquisten. Was bedeutet das lateinische Wort?",
+    "options": [
+      "Mund-Schließer",
+      "Stimmen-Dieb",
+      "Puppen-Spieler",
+      "Bauch-Redner"
+    ],
+    "correct_index": 3,
+    "explanation": "Ventriloquist kommt von lateinisch venter, „Bauch“, und loqui, „reden“. Ein Bauchredner erweckt den Eindruck, seine Stimme käme nicht aus seinem Mund, sondern meist aus einer Puppe.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Bühne",
+      "Stimme"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bauchredner",
+    "source_url": "https://de.wikipedia.org/wiki/Bauchredner",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Ventriloquists are called “Bauchredner” in German. What does the Latin word ventriloquist mean?",
+        "options": [
+          "Mouth closer",
+          "Voice thief",
+          "Puppet player",
+          "Belly speaker"
+        ],
+        "explanation": "Ventriloquist comes from Latin venter, “belly”, and loqui, “to speak”. A ventriloquist makes it seem as if the voice came not from their mouth but usually from a puppet."
+      }
+    }
+  },
+  {
+    "id": "cu87",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was zeichnet die Pantomime aus?",
+    "options": [
+      "Sie erzählt nur mit Mimik und Gestik, ohne Worte",
+      "Sie wird immer gesungen",
+      "Sie spielt nur unter Wasser",
+      "Sie braucht viele Kulissen"
+    ],
+    "correct_index": 0,
+    "explanation": "Pantomime kommt von altgriechisch pantómīmos, „alles nachahmend“. Nach heutigem Verständnis ist sie körperlicher Ausdruck – Mimik und Gestik – ohne Worte.",
+    "difficulty": 2,
+    "tags": [
+      "Theater",
+      "Körper",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pantomime",
+    "source_url": "https://de.wikipedia.org/wiki/Pantomime",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about mime?",
+        "options": [
+          "It tells stories only with facial expressions and gestures, without words",
+          "It is always sung",
+          "It is only performed under water",
+          "It needs a lot of scenery"
+        ],
+        "explanation": "The German word Pantomime comes from Ancient Greek pantómīmos, “imitating everything”. Today it means expression through the body – facial expressions and gestures – without words."
+      }
+    }
+  },
+  {
+    "id": "cu88",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wo kommt beim Räuchermännchen aus dem Erzgebirge der Rauch heraus?",
+    "options": [
+      "Aus den Ohren",
+      "Aus dem Mund",
+      "Aus den Füßen",
+      "Aus dem Hut"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Inneren des Räuchermanns brennt eine Räucherkerze. Der Rauch steigt nach oben und tritt aus dem Mundloch aus – frühe Figuren trugen dazu oft eine Tabakpfeife.",
+    "difficulty": 1,
+    "tags": [
+      "Weihnachten",
+      "Erzgebirge",
+      "Holz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Räuchermann",
+    "source_url": "https://de.wikipedia.org/wiki/Räuchermann",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the smoke come out of an incense smoker figure from the Ore Mountains?",
+        "options": [
+          "Its ears",
+          "Its mouth",
+          "Its feet",
+          "Its hat"
+        ],
+        "explanation": "An incense cone burns inside the figure. The smoke rises and comes out of the mouth hole – early figures often held a tobacco pipe."
+      }
+    }
+  },
+  {
+    "id": "cu89",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wofür stehen nach heutiger Deutung die Lichter auf dem erzgebirgischen Schwibbogen?",
+    "options": [
+      "Für die Sterne des Großen Wagens",
+      "Für die Zahl der Kinder in der Familie",
+      "Für die Sehnsucht der Bergleute nach Tageslicht",
+      "Für die Häuser eines Dorfes"
+    ],
+    "correct_index": 2,
+    "explanation": "In moderner Deutung stehen die Lichter für die Sehnsucht der Bergleute nach Tageslicht: Im Winter sahen sie es oft wochenlang nicht, weil es vor und nach der Schicht dunkel war. Die Motive im Bogen zeigen den Alltag der Bergleute.",
+    "difficulty": 2,
+    "tags": [
+      "Weihnachten",
+      "Bergbau",
+      "Erzgebirge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erzgebirgischer Schwibbogen",
+    "source_url": "https://de.wikipedia.org/wiki/Erzgebirgischer Schwibbogen",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to today's interpretation, what do the lights on the Ore Mountains candle arch stand for?",
+        "options": [
+          "The stars of the Big Dipper",
+          "The number of children in the family",
+          "The miners' longing for daylight",
+          "The houses of a village"
+        ],
+        "explanation": "In modern interpretation the lights stand for the miners' longing for daylight: in winter they often did not see it for weeks because it was dark before and after their shift. The scenes in the arch show the miners' everyday life."
+      }
+    }
+  },
+  {
+    "id": "cu90",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist die Schwäbische Kehrwoche?",
+    "options": [
+      "Die geregelte, reihum wechselnde Reinigung gemeinsam genutzter Flächen",
+      "Eine Woche ohne Schule",
+      "Ein Fest zum Frühlingsanfang",
+      "Ein Markt für Besen"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei der Kehrwoche reinigen die Hausbewohner gemeinsam genutzte Bereiche wie Treppen, Hauszugänge und Gehwege im wöchentlichen Wechsel. Manchmal zeigt ein Schild mit der Aufschrift „Kehrwoche“ an der Wohnungstür, wer gerade dran ist.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Wohnen",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwäbische Kehrwoche",
+    "source_url": "https://de.wikipedia.org/wiki/Schwäbische Kehrwoche",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Swabian “Kehrwoche” (sweeping week)?",
+        "options": [
+          "The regular cleaning of shared areas, taken in turns",
+          "A week without school",
+          "A festival at the start of spring",
+          "A market for brooms"
+        ],
+        "explanation": "During Kehrwoche the residents clean shared areas such as stairs, entrances and pavements in weekly rotation. Sometimes a sign saying “Kehrwoche” on the flat door shows whose turn it is."
+      }
+    }
+  },
+  {
+    "id": "mk130",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ändert sich beim Tremolo schnell und regelmäßig?",
+    "options": [
+      "Die Tonart",
+      "Die Lautstärke eines Tons",
+      "Das Tempo des ganzen Stücks",
+      "Die Zahl der Spieler"
+    ],
+    "correct_index": 1,
+    "explanation": "Tremolo kommt vom italienischen tremolare, „beben, zittern“, und bezeichnet die rasche periodische Änderung der Lautstärke eines Tons oder Akkords. Beim Vibrato ändert sich dagegen die Tonhöhe.",
+    "difficulty": 3,
+    "tags": [
+      "Spieltechnik",
+      "Wörter",
+      "Klang"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tremolo",
+    "source_url": "https://de.wikipedia.org/wiki/Tremolo",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What changes quickly and regularly in a tremolo?",
+        "options": [
+          "The key",
+          "The volume of a note",
+          "The tempo of the whole piece",
+          "The number of players"
+        ],
+        "explanation": "Tremolo comes from Italian tremolare, “to tremble, to quiver”, and means a rapid periodic change in the volume of a note or chord. In vibrato, by contrast, the pitch changes."
+      }
+    }
+  },
+  {
+    "id": "mk131",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was passiert bei einem Glissando?",
+    "options": [
+      "Ein Ton wird sehr lange gehalten",
+      "Alle Instrumente setzen gleichzeitig aus",
+      "Die Tonhöhe gleitet stufenlos von einem Ton zum anderen",
+      "Das Stück wird rückwärts gespielt"
+    ],
+    "correct_index": 2,
+    "explanation": "Glissando kommt vom französischen glisser, „gleiten“. Es bezeichnet die gleitende Veränderung der Tonhöhe beim Verbinden zweier Töne – echte Glissandi gehen etwa auf Streichinstrumenten ohne Bünde.",
+    "difficulty": 2,
+    "tags": [
+      "Spieltechnik",
+      "Tonhöhe",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glissando",
+    "source_url": "https://de.wikipedia.org/wiki/Glissando",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens in a glissando?",
+        "options": [
+          "A note is held for a very long time",
+          "All instruments stop at once",
+          "The pitch glides smoothly from one note to another",
+          "The piece is played backwards"
+        ],
+        "explanation": "Glissando comes from French glisser, “to glide”. It means a gliding change of pitch between two notes – true glissandi are possible, for example, on string instruments without frets."
+      }
+    }
+  },
+  {
+    "id": "mk132",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Das Wort „Arpeggio“ ist von einem italienischen Instrumentennamen abgeleitet. Von welchem?",
+    "options": [
+      "Orgel",
+      "Geige",
+      "Trommel",
+      "Harfe"
+    ],
+    "correct_index": 3,
+    "explanation": "Arpeggio kommt von arpa, italienisch für Harfe. Die Töne eines Akkords erklingen nicht gleichzeitig, sondern kurz nacheinander – wie auf einer Harfe. Man spricht von einem gebrochenen Akkord.",
+    "difficulty": 2,
+    "tags": [
+      "Akkorde",
+      "Wörter",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arpeggio",
+    "source_url": "https://de.wikipedia.org/wiki/Arpeggio",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The word “arpeggio” comes from the Italian name of an instrument. Which one?",
+        "options": [
+          "Organ",
+          "Violin",
+          "Drum",
+          "Harp"
+        ],
+        "explanation": "Arpeggio comes from arpa, Italian for harp. The notes of a chord do not sound together but one shortly after another – as on a harp. This is called a broken chord."
+      }
+    }
+  },
+  {
+    "id": "mk133",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ist typisch für ein Rondo?",
+    "options": [
+      "Ein Abschnitt kehrt immer wieder und wechselt sich mit anderen ab",
+      "Es hat nur einen einzigen Ton",
+      "Es wird nur im Kreis tanzend gesungen",
+      "Jeder Abschnitt kommt genau einmal vor"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Rondo kehrt ein Abschnitt (A) immer wieder und wechselt sich mit anderen musikalischen Teilen (B, C, D …) ab. Das französische Wort dafür ist Rondeau.",
+    "difficulty": 3,
+    "tags": [
+      "Musikformen",
+      "Komposition",
+      "Wiederholung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rondo (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Rondo (Musik)",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is typical of a rondo?",
+        "options": [
+          "One section keeps coming back, alternating with others",
+          "It has only one single note",
+          "It is only sung while dancing in a circle",
+          "Every section occurs exactly once"
+        ],
+        "explanation": "In a rondo one section (A) keeps returning and alternates with other musical parts (B, C, D …). The French word for it is rondeau."
+      }
+    }
+  },
+  {
+    "id": "mk134",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie entsteht beim Spinett der Ton?",
+    "options": [
+      "Die Saiten werden mit Hämmerchen angeschlagen",
+      "Die Saiten werden über die Tasten gezupft",
+      "Luft strömt durch Pfeifen",
+      "Ein Bogen streicht über die Saiten"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Spinett ist eine kleine, drei- bis fünfeckige Bauform des Cembalos. Es gehört zu den Kielinstrumenten: Eine von der Klaviatur bediente Mechanik zupft die Saiten mit einem Kiel.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Tasten",
+      "Saiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spinett",
+    "source_url": "https://de.wikipedia.org/wiki/Spinett",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is the sound made on a spinet?",
+        "options": [
+          "The strings are struck by little hammers",
+          "The strings are plucked via the keys",
+          "Air flows through pipes",
+          "A bow is drawn across the strings"
+        ],
+        "explanation": "The spinet is a small, three- to five-sided form of the harpsichord. It belongs to the quilled instruments: a mechanism worked by the keyboard plucks the strings with a quill."
+      }
+    }
+  },
+  {
+    "id": "mk135",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Ein Ostinato ist eine Figur, die sich in der Musik ständig wiederholt. Was bedeutet das lateinische Ursprungswort?",
+    "options": [
+      "Langsam",
+      "Fröhlich",
+      "Hartnäckig",
+      "Leise"
+    ],
+    "correct_index": 2,
+    "explanation": "Ostinato kommt von lateinisch obstinatus, „hartnäckig, eigensinnig“. Gemeint ist eine sich stetig wiederholende Melodie, ein Rhythmus oder ein anderes Element – berühmt ist der Rhythmus im Boléro von Maurice Ravel.",
+    "difficulty": 3,
+    "tags": [
+      "Wiederholung",
+      "Wörter",
+      "Rhythmus"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ostinato",
+    "source_url": "https://de.wikipedia.org/wiki/Ostinato",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An ostinato is a figure that repeats constantly in music. What does the Latin root word mean?",
+        "options": [
+          "Slow",
+          "Cheerful",
+          "Stubborn",
+          "Quiet"
+        ],
+        "explanation": "Ostinato comes from Latin obstinatus, “stubborn, obstinate”. It means a constantly repeated melody, rhythm or other element – a famous example is the rhythm in Maurice Ravel's Boléro."
+      }
+    }
+  },
+  {
+    "id": "mk136",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie werden Töne gespielt, wenn in den Noten „staccato“ steht?",
+    "options": [
+      "Gleitend von Ton zu Ton",
+      "Ohne Pause ineinander übergehend",
+      "Besonders laut",
+      "Kurz und deutlich voneinander getrennt"
+    ],
+    "correct_index": 3,
+    "explanation": "Staccato heißt „getrennt“, von italienisch staccare, „abtrennen“. Die Töne werden kürzer gespielt, als ihr Notenwert vorgibt, und klar voneinander getrennt.",
+    "difficulty": 2,
+    "tags": [
+      "Spieltechnik",
+      "Noten",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Staccato",
+    "source_url": "https://de.wikipedia.org/wiki/Staccato",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How are notes played when the music says “staccato”?",
+        "options": [
+          "Gliding from note to note",
+          "Flowing into each other without a break",
+          "Especially loud",
+          "Short and clearly separated"
+        ],
+        "explanation": "Staccato means “detached”, from Italian staccare, “to separate”. The notes are played shorter than their written value and clearly separated."
+      }
+    }
+  },
+  {
+    "id": "mk137",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet die Vortragsanweisung „legato“?",
+    "options": [
+      "Gebunden – die Töne klingen ohne Unterbrechung",
+      "Getrennt – jeder Ton kurz",
+      "Sehr schnell",
+      "Ganz leise"
+    ],
+    "correct_index": 0,
+    "explanation": "Legato heißt „gebunden“: Aufeinanderfolgende Töne einer Stimme sollen ohne Unterbrechung erklingen. In den Noten zeigt das ein Bindebogen. Das Gegenteil ist staccato.",
+    "difficulty": 2,
+    "tags": [
+      "Spieltechnik",
+      "Noten",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Legato",
+    "source_url": "https://de.wikipedia.org/wiki/Legato",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the performance marking “legato” mean?",
+        "options": [
+          "Bound – the notes sound without a break",
+          "Detached – every note short",
+          "Very fast",
+          "Very quiet"
+        ],
+        "explanation": "Legato means “bound”: successive notes of a part should sound without interruption. In the score a slur shows this. The opposite is staccato."
+      }
+    }
+  },
+  {
+    "id": "t101",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wozu wurde die archimedische Schraube seit der Antike vor allem verwendet?",
+    "options": [
+      "Um Holz zu sägen",
+      "Um Wasser auf eine höhere Ebene zu heben",
+      "Um Getreide zu mahlen",
+      "Um Schiffe anzutreiben"
+    ],
+    "correct_index": 1,
+    "explanation": "Die archimedische Schraube besteht aus einer Wendel in einem schräg ansteigenden Rohr. Ihre Hauptanwendung war, Wasser zur Bewässerung oder Entwässerung auf ein höheres Niveau zu bringen. Oft heißt sie Schneckenpumpe, obwohl sie weder Schnecke noch Pumpe ist.",
+    "difficulty": 2,
+    "tags": [
+      "Wasser",
+      "Antike",
+      "Maschinen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Archimedische Schraube",
+    "source_url": "https://de.wikipedia.org/wiki/Archimedische Schraube",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the Archimedes' screw mainly used for since ancient times?",
+        "options": [
+          "Sawing wood",
+          "Lifting water to a higher level",
+          "Grinding grain",
+          "Driving ships"
+        ],
+        "explanation": "The Archimedes' screw is a helix inside a sloping tube. Its main use was to raise water to a higher level for irrigation or drainage. It is often called a screw pump, though it is neither a screw conveyor nor a pump in the strict sense."
+      }
+    }
+  },
+  {
+    "id": "t102",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie heißt das kleine Röhrchen mit der Luftblase in einer Wasserwaage?",
+    "options": [
+      "Kapsel",
+      "Pipette",
+      "Libelle",
+      "Ampulle"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Wasserwaage prüft, ob etwas waagerecht oder senkrecht ist. Sie besteht aus einer gefassten Libelle – einem leicht gebogenen, mit Flüssigkeit gefüllten Röhrchen, dessen Luftblase die Lage anzeigt.",
+    "difficulty": 1,
+    "tags": [
+      "Werkzeug",
+      "Messen",
+      "Bauen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserwaage",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserwaage",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the small tube with the air bubble in a spirit level called in German?",
+        "options": [
+          "Capsule",
+          "Pipette",
+          "Libelle",
+          "Ampoule"
+        ],
+        "explanation": "A spirit level checks whether something is horizontal or vertical. It contains a mounted vial, called a “Libelle” in German – a slightly curved, liquid-filled tube whose air bubble shows the position."
+      }
+    }
+  },
+  {
+    "id": "t103",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür nutzte James Watt 1788 den Fliehkraftregler?",
+    "options": [
+      "Um die Zeit zu messen",
+      "Um Wasser zu filtern",
+      "Um Licht zu erzeugen",
+      "Um die Geschwindigkeit seiner Dampfmaschine konstant zu halten"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Fliehkraftregler nutzt die Fliehkraft, um die Drehzahl einer Maschine zu regeln. James Watt führte ihn 1788 in den Maschinenbau ein, um die Arbeitsgeschwindigkeit seiner Dampfmaschine konstant zu halten – ein Anfang der Regelungstechnik.",
+    "difficulty": 3,
+    "tags": [
+      "Dampfmaschine",
+      "Erfindungen",
+      "Regelung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fliehkraftregler",
+    "source_url": "https://de.wikipedia.org/wiki/Fliehkraftregler",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did James Watt use the centrifugal governor for in 1788?",
+        "options": [
+          "To measure time",
+          "To filter water",
+          "To produce light",
+          "To keep the speed of his steam engine constant"
+        ],
+        "explanation": "The centrifugal governor uses centrifugal force to control the speed of a machine. James Watt introduced it into engineering in 1788 to keep the working speed of his steam engine constant – a beginning of control engineering."
+      }
+    }
+  },
+  {
+    "id": "t104",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ermöglicht ein Kreuzgelenk, auch Kardangelenk genannt?",
+    "options": [
+      "Zwei Wellen zu verbinden, deren Winkel sich beim Drehen ändern darf",
+      "Strom ohne Kabel zu übertragen",
+      "Einen Motor zu kühlen",
+      "Wasser zu pumpen"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Kreuzgelenk (auch Kardangelenk oder Universalgelenk) ist eine winkelbewegliche Kupplung zwischen zwei Wellen. Der Winkel zwischen den Wellen darf sich während der Übertragung der Drehung verändern.",
+    "difficulty": 3,
+    "tags": [
+      "Maschinen",
+      "Fahrzeuge",
+      "Bewegung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreuzgelenk",
+    "source_url": "https://de.wikipedia.org/wiki/Kreuzgelenk",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a universal joint, also called a cardan joint, make possible?",
+        "options": [
+          "Connecting two shafts whose angle may change while turning",
+          "Transmitting electricity without cables",
+          "Cooling an engine",
+          "Pumping water"
+        ],
+        "explanation": "A universal joint (also called cardan joint) is an angle-flexible coupling between two shafts. The angle between the shafts may change while the rotation is being transmitted."
+      }
+    }
+  },
+  {
+    "id": "t105",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum laufen Kugellager und andere Wälzlager so leicht?",
+    "options": [
+      "Sie schweben auf Magneten",
+      "Rollende Körper zwischen zwei Ringen verringern die Reibung",
+      "Sie sind mit Wasser gefüllt",
+      "Sie drehen sich gar nicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei Wälzlagern verringern rollende Körper zwischen einem Innen- und einem Außenring den Reibungswiderstand. Statt Gleitreibung tritt hauptsächlich Rollreibung auf – deshalb sind sie leichtgängig.",
+    "difficulty": 2,
+    "tags": [
+      "Maschinen",
+      "Reibung",
+      "Räder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wälzlager",
+    "source_url": "https://de.wikipedia.org/wiki/Wälzlager",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do ball bearings and other rolling bearings run so easily?",
+        "options": [
+          "They float on magnets",
+          "Rolling bodies between two rings reduce friction",
+          "They are filled with water",
+          "They do not turn at all"
+        ],
+        "explanation": "In rolling bearings, rolling bodies between an inner and an outer ring reduce friction. Instead of sliding friction there is mainly rolling friction – that is why they run so easily."
+      }
+    }
+  },
+  {
+    "id": "t106",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wo wurden Göpel in Mitteleuropa seit dem 14. Jahrhundert vor allem eingesetzt?",
+    "options": [
+      "Auf Segelschiffen",
+      "In Leuchttürmen",
+      "Im Bergbau als Förderanlagen",
+      "In Glockentürmen"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Göpel ist eine Kraftmaschine, die durch Muskel-, Wasser-, Wind- oder Dampfkraft angetrieben wird. Seit dem ausgehenden 14. Jahrhundert diente er vor allem im Bergbau als Förderanlage, später auch in der Landwirtschaft – oft zogen Pferde ihn an.",
+    "difficulty": 3,
+    "tags": [
+      "Bergbau",
+      "Maschinen",
+      "Pferde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Göpel",
+    "source_url": "https://de.wikipedia.org/wiki/Göpel",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where were horse gins (“Göpel”) mainly used in Central Europe from the 14th century?",
+        "options": [
+          "On sailing ships",
+          "In lighthouses",
+          "In mining, for hoisting",
+          "In bell towers"
+        ],
+        "explanation": "A Göpel is a machine driven by muscle, water, wind or steam power. From the late 14th century it was used mainly in mining for hoisting, later also in farming – often horses pulled it."
+      }
+    }
+  },
+  {
+    "id": "t107",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie öffnet sich eine Klappbrücke, damit Schiffe durchfahren können?",
+    "options": [
+      "Die Brücke wird abgebaut",
+      "Die Brücke wird ins Wasser abgesenkt",
+      "Die Brücke wird zur Seite geschoben",
+      "Ein Brückenteil klappt um eine waagerechte Achse nach oben"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Klappbrücke ist eine bewegliche Brücke, oft über Schifffahrtswegen. Die Klappe dreht sich um eine waagerechte Achse und ist mit einem Gegengewicht ausbalanciert – deshalb ist sie leichter zu bewegen als eine Zugbrücke.",
+    "difficulty": 2,
+    "tags": [
+      "Brücken",
+      "Schiffe",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klappbrücke",
+    "source_url": "https://de.wikipedia.org/wiki/Klappbrücke",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a bascule bridge open so that ships can pass?",
+        "options": [
+          "The bridge is taken apart",
+          "The bridge is lowered into the water",
+          "The bridge is pushed to the side",
+          "A part of the bridge tilts up around a horizontal axis"
+        ],
+        "explanation": "A bascule bridge is a movable bridge, often across shipping routes. The leaf turns around a horizontal axis and is balanced by a counterweight – so it is easier to move than a drawbridge."
+      }
+    }
+  },
+  {
+    "id": "t108",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was misst ein Anemometer?",
+    "options": [
+      "Die Windgeschwindigkeit",
+      "Die Temperatur",
+      "Die Luftfeuchtigkeit",
+      "Die Höhe über dem Meer"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Anemometer oder Windmesser misst die Windgeschwindigkeit. Das Wort kommt von altgriechisch anemos, „Wind“, und métron, „Maß“. Anemometer gehören zu Wetterstationen und stehen an Flugplätzen.",
+    "difficulty": 1,
+    "tags": [
+      "Wetter",
+      "Messen",
+      "Wind"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Anemometer",
+    "source_url": "https://de.wikipedia.org/wiki/Anemometer",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does an anemometer measure?",
+        "options": [
+          "Wind speed",
+          "Temperature",
+          "Humidity",
+          "Height above sea level"
+        ],
+        "explanation": "An anemometer measures wind speed. The word comes from Ancient Greek anemos, “wind”, and métron, “measure”. Anemometers are part of weather stations and are found at airports."
+      }
+    }
+  },
+  {
+    "id": "m108",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Beim japanischen Rechenbrett Soroban liegt oberhalb der Trennschiene eine Kugel pro Stange. Welchen Wert hat sie?",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Soroban ist der japanische Abakus. Eine Schiene teilt ihn in einen oberen und einen unteren Teil: Oben liegt jeweils eine Kugel mit dem Wert 5, unten liegen vier oder fünf Kugeln mit dem Wert 1.",
+    "difficulty": 2,
+    "tags": [
+      "Rechnen",
+      "Japan",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Soroban",
+    "source_url": "https://de.wikipedia.org/wiki/Soroban",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On the Japanese abacus, the soroban, there is one bead per rod above the dividing bar. What is its value?",
+        "options": [
+          "1",
+          "2",
+          "5",
+          "10"
+        ],
+        "explanation": "The soroban is the Japanese abacus. A bar divides it into an upper and a lower part: above is one bead worth 5, below are four or five beads worth 1 each."
+      }
+    }
+  },
+  {
+    "id": "m109",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie entsteht im pascalschen Dreieck jede Zahl im Inneren?",
+    "options": [
+      "Sie ist die Summe der zwei Zahlen direkt darüber",
+      "Sie ist das Doppelte der Zahl links daneben",
+      "Sie ist immer eine Primzahl",
+      "Sie ist das Produkt der Zahlen darüber"
+    ],
+    "correct_index": 0,
+    "explanation": "Im pascalschen Dreieck ist jeder Eintrag die Summe der zwei darüberstehenden Einträge. An den Rändern steht jeweils 1. So entstehen die Binomialkoeffizienten. Der Name geht auf Blaise Pascal zurück.",
+    "difficulty": 3,
+    "tags": [
+      "Zahlen",
+      "Muster",
+      "Addition"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pascalsches Dreieck",
+    "source_url": "https://de.wikipedia.org/wiki/Pascalsches Dreieck",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is each inner number formed in Pascal's triangle?",
+        "options": [
+          "It is the sum of the two numbers directly above it",
+          "It is double the number to its left",
+          "It is always a prime number",
+          "It is the product of the numbers above it"
+        ],
+        "explanation": "In Pascal's triangle each entry is the sum of the two entries above it. The edges are all 1. This produces the binomial coefficients. The name goes back to Blaise Pascal."
+      }
+    }
+  },
+  {
+    "id": "m110",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welche Kurve besteht aus zwei symmetrischen Ästen, die sich bis ins Unendliche erstrecken?",
+    "options": [
+      "Ellipse",
+      "Parabel",
+      "Hyperbel",
+      "Kreis"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Hyperbel besteht aus zwei zueinander symmetrischen Ästen, die sich ins Unendliche erstrecken. Wie Parabel und Ellipse gehört sie zu den Kegelschnitten.",
+    "difficulty": 3,
+    "tags": [
+      "Geometrie",
+      "Kurven",
+      "Unendlichkeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hyperbel (Mathematik)",
+    "source_url": "https://de.wikipedia.org/wiki/Hyperbel (Mathematik)",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which curve consists of two symmetrical branches stretching to infinity?",
+        "options": [
+          "Ellipse",
+          "Parabola",
+          "Hyperbola",
+          "Circle"
+        ],
+        "explanation": "A hyperbola consists of two mutually symmetrical branches stretching to infinity. Like the parabola and the ellipse, it is a conic section."
+      }
+    }
+  },
+  {
+    "id": "m111",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Pentomino besteht aus 5 gleich großen Quadraten, die Kante an Kante liegen. Wie viele verschiedene Pentominos gibt es, wenn Drehungen und Spiegelungen nicht zählen?",
+    "options": [
+      "5",
+      "8",
+      "12",
+      "20"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Pentomino entsteht aus 5 gleich großen Quadraten, die Kante an Kante liegen. Bis auf Symmetrie gibt es genau 12 verschiedene Pentominos – mit ihnen kann man viele Legespiele lösen.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie",
+      "Puzzle",
+      "Formen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pentomino",
+    "source_url": "https://de.wikipedia.org/wiki/Pentomino",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A pentomino is made of 5 equal squares joined edge to edge. How many different pentominoes are there if rotations and reflections don't count?",
+        "options": [
+          "5",
+          "8",
+          "12",
+          "20"
+        ],
+        "explanation": "A pentomino is formed from 5 equal squares joined edge to edge. Up to symmetry there are exactly 12 different pentominoes – they are used in many tiling puzzles."
+      }
+    }
+  },
+  {
+    "id": "ti144",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Baumsteigerfrösche heißen auch Pfeilgiftfrösche. Warum ist dieser Name für die ganze Familie irreführend?",
+    "options": [
+      "Sie leben gar nicht auf Bäumen",
+      "Nur sehr wenige Arten wurden wirklich für Pfeilgift genutzt",
+      "Sie sind gar keine Frösche",
+      "Sie fressen Pfeile"
+    ],
+    "correct_index": 1,
+    "explanation": "Baumsteigerfrösche sind oft sehr klein und farbenfroh. Der Name „Pfeilgiftfrösche“ ist für die Familie irreführend, weil im Wesentlichen nur drei Arten von indigenen Völkern für Pfeilgift verwendet werden.",
+    "difficulty": 2,
+    "tags": [
+      "Frösche",
+      "Regenwald",
+      "Gift"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Baumsteigerfrösche",
+    "source_url": "https://de.wikipedia.org/wiki/Baumsteigerfrösche",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Poison dart frogs are also called “Baumsteigerfrösche” (tree-climbing frogs) in German. Why is the name “poison dart frogs” misleading for the whole family?",
+        "options": [
+          "They don't live in trees at all",
+          "Only very few species were really used for dart poison",
+          "They aren't frogs at all",
+          "They eat darts"
+        ],
+        "explanation": "Poison dart frogs are often very small and colourful. The name is misleading for the family because essentially only three species are used by Indigenous peoples for dart poison."
+      }
+    }
+  },
+  {
+    "id": "ti145",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was tun Putzerfische für größere Fische, etwa im Korallenriff?",
+    "options": [
+      "Sie warnen sie vor Haien",
+      "Sie bauen ihnen Nester",
+      "Sie befreien sie von Parasiten und abgestorbener Haut",
+      "Sie bringen ihnen Futter"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei einer Putzsymbiose befreit ein meist kleineres Tier ein größeres von Außenparasiten, Hautverunreinigungen und abgestorbenen Hautteilen. Solche Partnerschaften gibt es vor allem in Korallenriffen.",
+    "difficulty": 2,
+    "tags": [
+      "Fische",
+      "Meer",
+      "Zusammenarbeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Putzsymbiose",
+    "source_url": "https://de.wikipedia.org/wiki/Putzsymbiose",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do cleaner fish do for larger fish, for example on coral reefs?",
+        "options": [
+          "They warn them of sharks",
+          "They build nests for them",
+          "They rid them of parasites and dead skin",
+          "They bring them food"
+        ],
+        "explanation": "In a cleaning symbiosis a usually smaller animal rids a larger one of external parasites, dirt and dead skin. Such partnerships occur mainly on coral reefs."
+      }
+    }
+  },
+  {
+    "id": "ti146",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was macht das Weibchen der Nashornvögel beim Brüten?",
+    "options": [
+      "Es baut jeden Tag ein neues Nest",
+      "Es brütet auf dem Rücken des Männchens",
+      "Es legt die Eier ins Wasser",
+      "Es mauert sich bis auf einen schmalen Spalt in die Bruthöhle ein"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei allen Nashornvögeln mauert sich das Weibchen in der Bruthöhle bis auf einen schmalen Spalt ein. Je nach Art bleibt es bis zu vier Monate darin.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Nester",
+      "Tropen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nashornvögel",
+    "source_url": "https://de.wikipedia.org/wiki/Nashornvögel",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the female hornbill do when breeding?",
+        "options": [
+          "It builds a new nest every day",
+          "It broods on the male's back",
+          "It lays its eggs in water",
+          "It walls itself into the nest hole, leaving only a narrow slit"
+        ],
+        "explanation": "In all hornbills the female walls herself into the nest hole, leaving just a narrow slit. Depending on the species, she stays inside for up to four months."
+      }
+    }
+  },
+  {
+    "id": "ti147",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie jagt der Eisvogel?",
+    "options": [
+      "Er stürzt sich von einer Sitzwarte kopfüber ins Wasser",
+      "Er läuft am Ufer entlang",
+      "Er fängt Insekten im Flug in großer Höhe",
+      "Er gräbt nach Würmern"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Jagdmethode des Eisvogels ist das Stoßtauchen: Von einer Sitzwarte über dem Wasser stürzt er sich schräg nach vorn-unten kopfüber ins Wasser. Er frisst vor allem Fische, Wasserinsekten und Kaulquappen.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Wasser",
+      "Jagd"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eisvogel",
+    "source_url": "https://de.wikipedia.org/wiki/Eisvogel",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the kingfisher hunt?",
+        "options": [
+          "It plunges head first into the water from a perch",
+          "It walks along the bank",
+          "It catches insects in flight high up",
+          "It digs for worms"
+        ],
+        "explanation": "The kingfisher hunts by plunge-diving: from a perch above the water it dives forwards and down, head first, into the water. It mainly eats fish, water insects and tadpoles."
+      }
+    }
+  }
+]
