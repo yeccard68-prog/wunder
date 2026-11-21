@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "m92",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Beim Damenproblem stellt man 8 Damen so auf ein normales Schachbrett, dass keine eine andere schlagen kann. Wie viele verschiedene Lösungen gibt es?",
+    "options": [
+      "8",
+      "12",
+      "92",
+      "1.024"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf dem klassischen 8×8-Schachbrett gibt es 92 verschiedene Möglichkeiten, die Damen so aufzustellen. Als Erster nannte 1850 ein Zahnarzt in einer Leipziger Zeitung die richtige Zahl 92.",
+    "difficulty": 2,
+    "tags": [
+      "Mathematik",
+      "Schach"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Damenproblem",
+    "source_url": "https://de.wikipedia.org/wiki/Damenproblem",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the eight queens puzzle, you place 8 queens on a normal chessboard so that none of them can capture another. How many different solutions are there?",
+        "options": [
+          "8",
+          "12",
+          "92",
+          "1,024"
+        ],
+        "explanation": "On the classic 8×8 chessboard there are 92 different ways to place the queens like this. The first to name the correct number 92 was a dentist, in a Leipzig newspaper in 1850."
+      }
+    }
+  },
+  {
+    "id": "m93",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele Arten gibt es, eine Ebene lückenlos mit nur einer Sorte regelmäßiger Vielecke auszulegen, wenn die Kacheln Kante an Kante liegen?",
+    "options": [
+      "Genau drei",
+      "Genau eine",
+      "Genau fünf",
+      "Unendlich viele"
+    ],
+    "correct_index": 0,
+    "explanation": "Ist nur ein regelmäßiges Vieleck als Kachel erlaubt und liegen die Kacheln Kante an Kante, gibt es genau drei solche Parkettierungen der Ebene. Man nennt sie platonische oder reguläre Parkettierungen. Johannes Kepler hat sie als Erster untersucht.",
+    "difficulty": 3,
+    "tags": [
+      "Mathematik",
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Parkettierung",
+    "source_url": "https://de.wikipedia.org/wiki/Parkettierung",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many ways are there to cover a flat surface without gaps using only one kind of regular polygon, with the tiles meeting edge to edge?",
+        "options": [
+          "Exactly three",
+          "Exactly one",
+          "Exactly five",
+          "Infinitely many"
+        ],
+        "explanation": "If only one regular polygon is allowed as a tile and the tiles meet edge to edge, there are exactly three such tilings of the plane. They are called Platonic or regular tilings. Johannes Kepler was the first to study them."
+      }
+    }
+  },
+  {
+    "id": "m94",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Hängt man eine Kette an beiden Enden auf, hängt sie in einem Bogen durch. Ist dieser Bogen eine Parabel?",
+    "options": [
+      "Ja, genau eine Parabel",
+      "Nein – es ist eine eigene Kurve, die Kettenlinie",
+      "Nein, ein Halbkreis",
+      "Nein, zwei gerade Linien in V-Form"
+    ],
+    "correct_index": 1,
+    "explanation": "Schon 1639 wurde nachgewiesen, dass die Kettenlinie keine Parabel ist. Wie man die Kurve genau bildet, fanden Leibniz, Huygens und Johann I Bernoulli 1690/91 heraus. Nahe dem tiefsten Punkt ähnelt sie einer Parabel allerdings sehr.",
+    "difficulty": 3,
+    "tags": [
+      "Mathematik",
+      "Kurven"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kettenlinie (Mathematik)",
+    "source_url": "https://de.wikipedia.org/wiki/Kettenlinie (Mathematik)",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Hang a chain by both ends and it sags into an arch. Is that curve a parabola?",
+        "options": [
+          "Yes, exactly a parabola",
+          "No – it is a curve of its own, the catenary",
+          "No, a semicircle",
+          "No, two straight lines in a V"
+        ],
+        "explanation": "As early as 1639 it was shown that the catenary is not a parabola. Leibniz, Huygens and Johann I Bernoulli worked out in 1690/91 how the curve is formed. Near its lowest point, though, it looks very much like a parabola."
+      }
+    }
+  },
+  {
+    "id": "m95",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ist das Besondere an einem Reuleaux-Dreieck, einem Dreieck mit nach außen gewölbten Seiten?",
+    "options": [
+      "Sein Umfang ist unendlich lang",
+      "Es hat vier Ecken",
+      "Es ist in jeder Richtung gleich breit",
+      "Es lässt sich nicht zeichnen"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Reuleaux-Dreieck ist nach dem Kreis das einfachste Beispiel eines Gleichdicks – einer Kurve konstanter Breite. Die Breite bleibt auch beim Drehen um den Mittelpunkt gleich.",
+    "difficulty": 2,
+    "tags": [
+      "Mathematik",
+      "Geometrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Reuleaux-Dreieck",
+    "source_url": "https://de.wikipedia.org/wiki/Reuleaux-Dreieck",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about a Reuleaux triangle, a triangle with outward-curved sides?",
+        "options": [
+          "Its perimeter is infinitely long",
+          "It has four corners",
+          "It is equally wide in every direction",
+          "It cannot be drawn"
+        ],
+        "explanation": "After the circle, the Reuleaux triangle is the simplest example of a curve of constant width. Its width stays the same even as it turns about its centre."
+      }
+    }
+  },
+  {
+    "id": "m96",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Zwei Zahlen heißen „befreundet“, wenn die echten Teiler der einen zusammen die andere ergeben – und umgekehrt. Mit welcher Zahl ist 220 befreundet?",
+    "options": [
+      "110",
+      "222",
+      "284",
+      "440"
+    ],
+    "correct_index": 2,
+    "explanation": "Die echten Teiler von 220 ergeben zusammen 284, die von 284 zusammen 220: 1+2+4+71+142 = 220. Es ist das kleinste befreundete Zahlenpaar.",
+    "difficulty": 3,
+    "tags": [
+      "Mathematik",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Befreundete Zahlen",
+    "source_url": "https://de.wikipedia.org/wiki/Befreundete Zahlen",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Two numbers are called 'amicable' if the proper divisors of one add up to the other – and the other way round. Which number is amicable with 220?",
+        "options": [
+          "110",
+          "222",
+          "284",
+          "440"
+        ],
+        "explanation": "The proper divisors of 220 add up to 284, and those of 284 add up to 220: 1+2+4+71+142 = 220. It is the smallest amicable pair."
+      }
+    }
+  },
+  {
+    "id": "m97",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Gegenstand gleitet ohne Reibung von einem höheren zu einem tieferen Punkt. Auf welcher Bahn ist er am schnellsten unten?",
+    "options": [
+      "Auf einer Brachistochrone, einem Teil einer Zykloide",
+      "Auf der geraden Verbindungslinie",
+      "Auf einem Viertelkreis",
+      "Auf einer Treppe mit gleich hohen Stufen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die schnellste Bahn heißt Brachistochrone – griechisch für „kürzeste Zeit“. Sie ist ein Teil einer Zykloide und damit gerade nicht die gerade Linie.",
+    "difficulty": 3,
+    "tags": [
+      "Mathematik",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brachistochrone",
+    "source_url": "https://de.wikipedia.org/wiki/Brachistochrone",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An object slides without friction from a higher point to a lower one. On which path does it get down fastest?",
+        "options": [
+          "On a brachistochrone, part of a cycloid",
+          "On the straight line between the points",
+          "On a quarter circle",
+          "Down a staircase with equal steps"
+        ],
+        "explanation": "The fastest path is called the brachistochrone – Greek for 'shortest time'. It is part of a cycloid, so precisely not the straight line."
+      }
+    }
+  },
+  {
+    "id": "m98",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Auf den meisten Spielwürfeln ergeben zwei gegenüberliegende Seiten zusammen immer dieselbe Zahl. Welche Zahl liegt beim normalen Sechser-Würfel der 6 gegenüber?",
+    "options": [
+      "Die 3",
+      "Die 1",
+      "Die 5",
+      "Die 2"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei den meisten Würfeln sind die Zahlen so angeordnet, dass zwei entgegengesetzte Seiten zusammen n+1 ergeben – beim Sechser-Würfel also 7. Darum liegt die 1 gegenüber der 6, die 2 gegenüber der 5 und die 3 gegenüber der 4.",
+    "difficulty": 1,
+    "tags": [
+      "Mathematik",
+      "Spiele"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spielwürfel",
+    "source_url": "https://de.wikipedia.org/wiki/Spielwürfel",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On most dice, two opposite faces always add up to the same number. Which number is opposite the 6 on a normal six-sided die?",
+        "options": [
+          "The 3",
+          "The 1",
+          "The 5",
+          "The 2"
+        ],
+        "explanation": "On most dice the numbers are arranged so that two opposite faces add up to n+1 – on a six-sided die that is 7. So the 1 is opposite the 6, the 2 opposite the 5 and the 3 opposite the 4."
+      }
+    }
+  },
+  {
+    "id": "m99",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Auf einer Strichliste wird meist jeder fünfte Strich quer über die vier vorigen gezogen. Wozu?",
+    "options": [
+      "Weil der fünfte Strich doppelt zählt",
+      "Damit niemand Striche wegradieren kann",
+      "Damit man in Fünfergruppen schneller zählen kann",
+      "Damit die Liste weniger Platz braucht"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Fünfergruppen machen die Strichliste übersichtlicher: Beim Auswerten zählt man einfach die Bündel. Eine Strichliste nutzt das Unärsystem – jeder Strich steht für eins.",
+    "difficulty": 1,
+    "tags": [
+      "Mathematik",
+      "Zählen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strichliste",
+    "source_url": "https://de.wikipedia.org/wiki/Strichliste",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On a tally sheet, every fifth stroke is usually drawn across the four before it. Why?",
+        "options": [
+          "Because the fifth stroke counts twice",
+          "So that nobody can rub out strokes",
+          "So that groups of five can be counted faster",
+          "So that the list takes up less space"
+        ],
+        "explanation": "The groups of five make the tally easier to read: when counting up, you simply count the bundles. A tally uses the unary system – each stroke stands for one."
+      }
+    }
+  },
+  {
+    "id": "t85",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Womit wurden große Rasenflächen gemäht, bevor ein Textilingenieur in England um 1830 den Rasenmäher erfand?",
+    "options": [
+      "Mit Dampfmaschinen",
+      "Mit großen Scheren auf Rädern",
+      "Mit der Sense",
+      "Mit einer Walze aus Stein"
+    ],
+    "correct_index": 2,
+    "explanation": "In großen Parks war das Mähen mit der Sense ein riesiger Aufwand. Um 1830 erkannte der Textilingenieur Edwin Beard Budding, dass sich die Handsensen nicht mehr verbessern ließen. Am 31. August 1830 meldete er den Rasenmäher zum Patent an, den er 1827 erfunden hatte.",
+    "difficulty": 1,
+    "tags": [
+      "Technik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rasenmäher",
+    "source_url": "https://de.wikipedia.org/wiki/Rasenmäher",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What were large lawns mown with before a textile engineer in England invented the lawn mower around 1830?",
+        "options": [
+          "With steam engines",
+          "With big scissors on wheels",
+          "With a scythe",
+          "With a stone roller"
+        ],
+        "explanation": "In large parks, mowing with a scythe was a huge effort. Around 1830, the textile engineer Edwin Beard Budding realised that hand scythes could not be improved any further. On 31 August 1830 he applied for a patent for the lawn mower he had invented in 1827."
+      }
+    }
+  },
+  {
+    "id": "t86",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Der Erfinder des Kaleidoskops gab ihm einen Namen aus dem Altgriechischen. Was bedeutet „Kaleidoskop“?",
+    "options": [
+      "Drehendes Licht",
+      "Spiegel der Sterne",
+      "Bunte Röhre",
+      "Betrachter schöner Formen"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Wort ist eine Schöpfung des schottischen Physikers David Brewster, der als Erfinder des Kaleidoskops gilt. Er meldete es 1817 zum Patent an. Übersetzt heißt es „Betrachter schöner Formen“.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Optik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaleidoskop",
+    "source_url": "https://de.wikipedia.org/wiki/Kaleidoskop",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The inventor of the kaleidoscope gave it a name from Ancient Greek. What does 'kaleidoscope' mean?",
+        "options": [
+          "Turning light",
+          "Mirror of the stars",
+          "Colourful tube",
+          "Viewer of beautiful forms"
+        ],
+        "explanation": "The word was coined by the Scottish physicist David Brewster, who is regarded as the inventor of the kaleidoscope. He patented it in 1817. Translated, it means 'viewer of beautiful forms'."
+      }
+    }
+  },
+  {
+    "id": "t87",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wo ging 1925 das weltweit erste dauerhaft betriebene moderne Projektionsplanetarium in Betrieb?",
+    "options": [
+      "Im Deutschen Museum in München",
+      "In einer Sternwarte in Paris",
+      "Im Science Museum in London",
+      "In einem Museum in New York"
+    ],
+    "correct_index": 0,
+    "explanation": "Am 7. Mai 1925 nahm man im neuen Sammlungsbau des Deutschen Museums auf der Münchner Museumsinsel den ersten solchen Projektor in Betrieb. Ein Planetarium wirft den Sternenhimmel an die Innenseite einer halbkugelförmigen Kuppel. Das Gerät ist bis heute im Museum ausgestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Astronomie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Planetarium",
+    "source_url": "https://de.wikipedia.org/wiki/Planetarium",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the world's first permanently operated modern projection planetarium open in 1925?",
+        "options": [
+          "At the Deutsches Museum in Munich",
+          "At an observatory in Paris",
+          "At the Science Museum in London",
+          "At a museum in New York"
+        ],
+        "explanation": "On 7 May 1925, the first such projector went into operation in the new collection building of the Deutsches Museum on Munich's Museum Island. A planetarium casts the starry sky onto the inside of a hemispherical dome. The device is still on display in the museum today."
+      }
+    }
+  },
+  {
+    "id": "t88",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Warum haben viele große Gebäude eine Drehtür?",
+    "options": [
+      "Sie zählt automatisch alle Besucher",
+      "Sie hält den Luftzug ab und spart so Heiz- oder Kühlkosten",
+      "Sie ist billiger als jede andere Tür",
+      "Sie hält den Lärm der Straße fern"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Karusselltür hemmt den Luftzug und hilft so, Heiz- oder Kühlkosten zu sparen – besonders in Hochhäusern, die viele Menschen betreten und verlassen. Ein Erfinder nannte seine patentierte Tür sogar „Thür ohne Luftzug“. Das US-Patent für eine „Sturmtür“ erhielt Theophilus Van Kannel 1888.",
+    "difficulty": 1,
+    "tags": [
+      "Technik",
+      "Gebäude"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Drehtür",
+    "source_url": "https://de.wikipedia.org/wiki/Drehtür",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do many large buildings have a revolving door?",
+        "options": [
+          "It automatically counts all visitors",
+          "It keeps out draughts and so saves heating or cooling costs",
+          "It is cheaper than any other door",
+          "It keeps out the noise of the street"
+        ],
+        "explanation": "A revolving door blocks draughts and so helps to save heating or cooling costs – especially in high-rise buildings that many people enter and leave. One inventor even called his patented door a 'door without draught'. Theophilus Van Kannel received the US patent for a 'storm door' in 1888."
+      }
+    }
+  },
+  {
+    "id": "t89",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Ein einfaches Periskop ist ein Rohr mit einem Spiegel an jedem Ende. In welchem Winkel stehen die Spiegel schräg?",
+    "options": [
+      "30 Grad",
+      "45 Grad",
+      "60 Grad",
+      "90 Grad"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Spiegel stehen 45° schräg zum einfallenden und austretenden Licht. So wird das Licht zweimal rechtwinklig umgelenkt, und man kann über ein Hindernis hinwegschauen. Statt Spiegeln können auch Prismen eingesetzt werden.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Optik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Periskop",
+    "source_url": "https://de.wikipedia.org/wiki/Periskop",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A simple periscope is a tube with a mirror at each end. At what angle are the mirrors tilted?",
+        "options": [
+          "30 degrees",
+          "45 degrees",
+          "60 degrees",
+          "90 degrees"
+        ],
+        "explanation": "The mirrors are tilted at 45° to the incoming and outgoing light. This turns the light through a right angle twice, so you can look over an obstacle. Prisms can be used instead of mirrors."
+      }
+    }
+  },
+  {
+    "id": "t90",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Der erste bekannte Paternosteraufzug der Welt wurde 1876 in London eingebaut. Was beförderte er?",
+    "options": [
+      "Pakete in einem Postamt",
+      "Kohle in einem Bergwerk",
+      "Gäste in einem Hotel",
+      "Bücher in einer Bibliothek"
+    ],
+    "correct_index": 0,
+    "explanation": "Er wurde 1876 in das General Post Office in London eingebaut und diente dort dem Transport von Paketen. Beim Paternoster fahren mehrere Einzelkabinen ständig im Kreis: Sie hängen an zwei Ketten und wechseln oben und unten in den jeweils anderen Schacht.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Aufzüge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paternosteraufzug",
+    "source_url": "https://de.wikipedia.org/wiki/Paternosteraufzug",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The world's first known paternoster lift was installed in London in 1876. What did it carry?",
+        "options": [
+          "Parcels in a post office",
+          "Coal in a mine",
+          "Guests in a hotel",
+          "Books in a library"
+        ],
+        "explanation": "It was installed in the General Post Office in London in 1876 and was used there to move parcels. In a paternoster, several single cabins keep going round: they hang from two chains and switch to the other shaft at the top and the bottom."
+      }
+    }
+  },
+  {
+    "id": "t91",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Aus welchem Land stammt das Sicherheitsstreichholz, das sich nur an einer besonderen Reibfläche entzündet?",
+    "options": [
+      "Italien",
+      "Schweden",
+      "Japan",
+      "Kanada"
+    ],
+    "correct_index": 1,
+    "explanation": "Um 1844 erfand der schwedische Chemiker Gustaf Erik Pasch das Sicherheitsstreichholz: Die Zündung ist auf den Zündkopf und eine spezielle Reibfläche verteilt. Ab 1855 verhalf ein schwedischer Kaufmann ihm zum Erfolg.",
+    "difficulty": 2,
+    "tags": [
+      "Technik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Streichholz",
+    "source_url": "https://de.wikipedia.org/wiki/Streichholz",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country does the safety match come from – the match that only lights on a special striking surface?",
+        "options": [
+          "Italy",
+          "Sweden",
+          "Japan",
+          "Canada"
+        ],
+        "explanation": "Around 1844, the Swedish chemist Gustaf Erik Pasch invented the safety match: the ignition is split between the match head and a special striking surface. From 1855, a Swedish merchant helped it become a success."
+      }
+    }
+  },
+  {
+    "id": "t92",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Welches Tier sprang 1950 aus einem fahrenden Wagen der Wuppertaler Schwebebahn?",
+    "options": [
+      "Ein Pferd",
+      "Ein Zirkuslöwe",
+      "Eine Zirkuselefantenkuh",
+      "Ein Bär"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Sprung der Zirkuselefantenkuh Tuffi im Jahr 1950 gehört zu den bekanntesten Ereignissen in der Geschichte der Schwebebahn. Die Hochbahn in Wuppertal wurde 1901 eröffnet.",
+    "difficulty": 1,
+    "tags": [
+      "Technik",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wuppertaler Schwebebahn",
+    "source_url": "https://de.wikipedia.org/wiki/Wuppertaler Schwebebahn",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which animal jumped out of a moving car of the Wuppertal Suspension Railway in 1950?",
+        "options": [
+          "A horse",
+          "A circus lion",
+          "A female circus elephant",
+          "A bear"
+        ],
+        "explanation": "The jump of the circus elephant Tuffi in 1950 is one of the best-known events in the history of the suspension railway. The elevated railway in Wuppertal opened in 1901."
+      }
+    }
+  },
+  {
+    "id": "ws112",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Die heißen „Hundstage“ im Hochsommer haben ihren Namen von einem Stern. Von welchem?",
+    "options": [
+      "Beteigeuze im Orion",
+      "Polaris, dem Polarstern",
+      "Wega im Sternbild Leier",
+      "Sirius, dem Hundsstern"
+    ],
+    "correct_index": 3,
+    "explanation": "Als Hundstage bezeichnet man die heißen Tage vom 23. Juli bis zum 23. August. Der Name hing ursprünglich mit dem Aufgang des Sirius zusammen, den man auch Hundsstern nennt – heute passt dieser Zusammenhang nicht mehr.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hundstage",
+    "source_url": "https://de.wikipedia.org/wiki/Hundstage",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The hot 'dog days' of high summer are named after a star. Which one?",
+        "options": [
+          "Betelgeuse in Orion",
+          "Polaris, the Pole Star",
+          "Vega in the constellation Lyra",
+          "Sirius, the Dog Star"
+        ],
+        "explanation": "The dog days are the hot days from 23 July to 23 August. The name was originally linked to the rising of Sirius, also called the Dog Star – today that link no longer holds."
+      }
+    }
+  },
+  {
+    "id": "ws113",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welches ist das kleinste der 88 heutigen Sternbilder?",
+    "options": [
+      "Das Kreuz des Südens",
+      "Der Große Bär",
+      "Der Orion",
+      "Die Kassiopeia"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Kreuz des Südens ist das kleinste der 88 Sternbilder, durch seine vier hellen Sterne aber sehr auffällig. Es steht am Südhimmel und hilft, ungefähr die Richtung nach Süden zu finden.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Sternbilder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreuz des Südens",
+    "source_url": "https://de.wikipedia.org/wiki/Kreuz des Südens",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the smallest of today's 88 constellations?",
+        "options": [
+          "The Southern Cross",
+          "The Great Bear",
+          "Orion",
+          "Cassiopeia"
+        ],
+        "explanation": "The Southern Cross is the smallest of the 88 constellations, but its four bright stars make it very noticeable. It lies in the southern sky and helps to find the rough direction of south."
+      }
+    }
+  },
+  {
+    "id": "ws114",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie viele Trümmerteile über 10 cm Größe kreisten laut Modellen der ESA im Dezember 2023 ungefähr um die Erde?",
+    "options": [
+      "Rund 365",
+      "Rund 36.500",
+      "Rund 3.650",
+      "Rund 3,6 Millionen"
+    ],
+    "correct_index": 1,
+    "explanation": "Nach den ESA-Modellen waren es im Dezember 2023 rund 36.500 Objekte über 10 cm – dazu etwa eine Million Teile von 1 bis 10 cm und 130 Millionen von 1 mm bis 1 cm. Objekte ab 5 cm werden laufend beobachtet.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weltraummüll",
+    "source_url": "https://de.wikipedia.org/wiki/Weltraummüll",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to ESA models, roughly how many pieces of debris larger than 10 cm were orbiting Earth in December 2023?",
+        "options": [
+          "About 365",
+          "About 36,500",
+          "About 3,650",
+          "About 3.6 million"
+        ],
+        "explanation": "According to ESA models, there were about 36,500 objects larger than 10 cm in December 2023 – plus about a million pieces of 1 to 10 cm and 130 million of 1 mm to 1 cm. Objects from 5 cm upwards are tracked continuously."
+      }
+    }
+  },
+  {
+    "id": "ws115",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Das Radioteleskop Effelsberg war 29 Jahre lang das größte frei bewegliche Radioteleskop der Welt. Wie groß ist die Öffnung seiner Schüssel?",
+    "options": [
+      "10 Meter",
+      "35 Meter",
+      "100 Meter",
+      "500 Meter"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Öffnungsweite beträgt 100 m. Das Teleskop wurde von 1967 bis 1971 gebaut und 1972 in Betrieb genommen. Erst im Jahr 2000 wurde in den USA ein noch größeres bewegliches Radioteleskop fertig.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Teleskope"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Radioteleskop Effelsberg",
+    "source_url": "https://de.wikipedia.org/wiki/Radioteleskop Effelsberg",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Effelsberg radio telescope was the world's largest fully steerable radio telescope for 29 years. How wide is the opening of its dish?",
+        "options": [
+          "10 metres",
+          "35 metres",
+          "100 metres",
+          "500 metres"
+        ],
+        "explanation": "Its aperture is 100 m. The telescope was built from 1967 to 1971 and started operating in 1972. Only in 2000 was an even larger steerable radio telescope completed in the USA."
+      }
+    }
+  },
+  {
+    "id": "ws116",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Der Hoba-Meteorit in Namibia ist der größte auf der Erde entdeckte Meteorit. Was ist außerdem besonders an ihm?",
+    "options": [
+      "Er schlug erst vor 100 Jahren ein",
+      "Er wurde in einem Museum in Europa wieder zusammengesetzt",
+      "Er besteht fast nur aus Gold",
+      "Er liegt noch dort, wo er vor etwa 80.000 Jahren einschlug"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Eisenmeteorit schlug vor etwa 80.000 Jahren ein und liegt immer noch in seiner ursprünglichen Position – auf einer Farm etwa 20 Kilometer westlich von Grootfontein. Die Angaben zu seinem Gewicht schwanken zwischen 50 und 60 Tonnen.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Meteoriten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hoba (Meteorit)",
+    "source_url": "https://de.wikipedia.org/wiki/Hoba (Meteorit)",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Hoba meteorite in Namibia is the largest meteorite found on Earth. What else is special about it?",
+        "options": [
+          "It only struck 100 years ago",
+          "It was reassembled in a museum in Europe",
+          "It is made almost entirely of gold",
+          "It still lies where it struck about 80,000 years ago"
+        ],
+        "explanation": "The iron meteorite struck about 80,000 years ago and still lies in its original position – on a farm about 20 kilometres west of Grootfontein. Estimates of its weight range from 50 to 60 tonnes."
+      }
+    }
+  },
+  {
+    "id": "ws117",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Bei drei Apollo-Missionen fuhren Astronauten mit einem faltbaren Elektro-Mondauto über den Mond. Was geschah danach mit den drei Mondautos?",
+    "options": [
+      "Alle drei blieben auf dem Mond zurück",
+      "Sie kamen zurück zur Erde ins Museum",
+      "Sie wurden auf dem Mond gesprengt",
+      "Sie kreisen bis heute um den Mond"
+    ],
+    "correct_index": 0,
+    "explanation": "Drei Exemplare des Lunar Roving Vehicle fuhren 1971 und 1972 bei Apollo 15, 16 und 17 auf dem Mond. Das vierrädrige, zweisitzige Fahrzeug machte die Astronauten beweglicher. Alle drei wurden auf dem Mond zurückgelassen.",
+    "difficulty": 1,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lunar Roving Vehicle",
+    "source_url": "https://de.wikipedia.org/wiki/Lunar Roving Vehicle",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On three Apollo missions, astronauts drove a foldable electric car across the Moon. What happened to the three moon cars afterwards?",
+        "options": [
+          "All three were left behind on the Moon",
+          "They came back to Earth for a museum",
+          "They were blown up on the Moon",
+          "They are still orbiting the Moon"
+        ],
+        "explanation": "Three Lunar Roving Vehicles drove on the Moon in 1971 and 1972 on Apollo 15, 16 and 17. The four-wheeled two-seater made the astronauts more mobile. All three were left behind on the Moon."
+      }
+    }
+  },
+  {
+    "id": "ws118",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Lunochod 1 war 1970 der erste Rover, der einen fremden Himmelskörper erkundete. Wie viele Räder hatte er?",
+    "options": [
+      "Vier",
+      "Acht",
+      "Sechs",
+      "Drei"
+    ],
+    "correct_index": 1,
+    "explanation": "Der unbemannte sowjetische Mondrover landete am 17. November 1970 im Mare Imbrium, verließ die Landeeinheit über eine Rampe und erkundete die Umgebung – auf acht Rädern. Sein Name bedeutet „Mondgänger“.",
+    "difficulty": 2,
+    "tags": [
+      "Weltraum",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lunochod 1",
+    "source_url": "https://de.wikipedia.org/wiki/Lunochod 1",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1970, Lunokhod 1 became the first rover to explore another celestial body. How many wheels did it have?",
+        "options": [
+          "Four",
+          "Eight",
+          "Six",
+          "Three"
+        ],
+        "explanation": "The uncrewed Soviet moon rover landed in the Mare Imbrium on 17 November 1970, left its landing stage down a ramp and explored its surroundings – on eight wheels. Its name means 'moon walker'."
+      }
+    }
+  },
+  {
+    "id": "ws119",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Zwischen 1972 und 2016 wurde mehrmals eine Schaltsekunde in die Weltzeit eingefügt. Warum?",
+    "options": [
+      "Weil der Mond die Uhren stört",
+      "Weil die Erde sich immer schneller dreht",
+      "Weil die Erde für eine Drehung im Mittel etwas länger als 24 Stunden braucht",
+      "Weil Atomuhren mit der Zeit nachgehen"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Erde braucht für eine Drehung um sich selbst im Mittel etwas länger als genau 24 Stunden – das sind 86.400 Sekunden. Damit die Weltzeit UTC mit der Erddrehung im Takt bleibt, wurde zwischen 1972 und 2016 mehrfach eine Schaltsekunde eingefügt.",
+    "difficulty": 3,
+    "tags": [
+      "Weltraum",
+      "Zeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schaltsekunde",
+    "source_url": "https://de.wikipedia.org/wiki/Schaltsekunde",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Between 1972 and 2016, a leap second was added to world time several times. Why?",
+        "options": [
+          "Because the Moon disturbs clocks",
+          "Because Earth keeps spinning faster and faster",
+          "Because Earth takes, on average, slightly longer than 24 hours to turn once",
+          "Because atomic clocks fall behind over time"
+        ],
+        "explanation": "On average, Earth takes slightly longer than exactly 24 hours – that is 86,400 seconds – to turn once about itself. To keep world time UTC in step with Earth's rotation, a leap second was added several times between 1972 and 2016."
+      }
+    }
+  },
+  {
+    "id": "ti128",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Manche Fangschreckenkrebse zertrümmern mit keulenartigen Schlagbeinen die Schalen von Schnecken und Krebsen. Wovon berichten Aquarien-Experten sogar?",
+    "options": [
+      "Von geschmolzenem Plastik",
+      "Von verbogenen Eisenstangen",
+      "Von zersägten Holzbrettern",
+      "Von zerbrochenem Aquarienglas"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Schlagbein erreicht eine Geschwindigkeit von 23 m/s, das sind 82,8 km/h. Der Aufprall ist so heftig, dass er Schalen und Panzer von Meerestieren zertrümmert – Aquarien-Experten berichten auch von Glasbruch.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fangschreckenkrebse",
+    "source_url": "https://de.wikipedia.org/wiki/Fangschreckenkrebse",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Some mantis shrimps smash the shells of snails and crabs with club-like striking legs. What do aquarium experts even report?",
+        "options": [
+          "Melted plastic",
+          "Bent iron bars",
+          "Sawn-through wooden boards",
+          "Broken aquarium glass"
+        ],
+        "explanation": "The striking leg reaches a speed of 23 m/s, which is 82.8 km/h. The impact is strong enough to smash the shells and armour of sea creatures – aquarium experts also report broken glass."
+      }
+    }
+  },
+  {
+    "id": "ti129",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "In Neuseeland leuchten in feuchten Höhlen unzählige „Glowworms“ an der Decke. Was sind das für Tiere?",
+    "options": [
+      "Larven einer Mückenart",
+      "Leuchtkäfer",
+      "Tiefseequallen",
+      "Winzige Schnecken"
+    ],
+    "correct_index": 0,
+    "explanation": "Arachnocampa luminosa ist eine Langhornmücke, die nur in Neuseeland vorkommt. Sowohl die Larven als auch die erwachsenen Tiere leuchten. Die meiste Zeit ihres Lebens verbringt die Art als Larve – je nach Nahrung 6 bis 12 Monate.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Neuseeland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arachnocampa luminosa",
+    "source_url": "https://de.wikipedia.org/wiki/Arachnocampa luminosa",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In New Zealand, countless 'glowworms' shine on the ceilings of damp caves. What are these animals?",
+        "options": [
+          "The larvae of a kind of gnat",
+          "Glowing beetles",
+          "Deep-sea jellyfish",
+          "Tiny snails"
+        ],
+        "explanation": "Arachnocampa luminosa is a fungus gnat found only in New Zealand. Both the larvae and the adults glow. The species spends most of its life as a larva – 6 to 12 months, depending on food."
+      }
+    }
+  },
+  {
+    "id": "ti130",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "In den USA leben Singzikaden, die sich nur in sehr großen Abständen paaren. Alle wie viele Jahre?",
+    "options": [
+      "Alle 2 oder 3 Jahre",
+      "Zweimal im Jahr",
+      "Alle 13 oder 17 Jahre",
+      "Alle 50 Jahre"
+    ],
+    "correct_index": 2,
+    "explanation": "Singzikaden der Gattung Magicicada paaren sich nur alle 13 oder 17 Jahre. Den Gesang machen die Männchen – vor allem, um Weibchen anzulocken. Übrigens: 13 und 17 sind beides Primzahlen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zikaden",
+    "source_url": "https://de.wikipedia.org/wiki/Zikaden",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the USA there are cicadas that only mate at very long intervals. Every how many years?",
+        "options": [
+          "Every 2 or 3 years",
+          "Twice a year",
+          "Every 13 or 17 years",
+          "Every 50 years"
+        ],
+        "explanation": "Periodical cicadas of the genus Magicicada only mate every 13 or 17 years. The males make the song – mainly to attract females. By the way: 13 and 17 are both prime numbers."
+      }
+    }
+  },
+  {
+    "id": "ti131",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie tarnen sich die Insekten, die man „Wandelnde Blätter“ nennt?",
+    "options": [
+      "Sie verstecken sich in hohlen Ästen",
+      "Sie wechseln die Farbe wie ein Chamäleon",
+      "Sie kleben sich Blätter auf den Rücken",
+      "Ihr flacher Körper sieht aus wie ein Laubblatt"
+    ],
+    "correct_index": 3,
+    "explanation": "Wandelnde Blätter haben einen blattartig verbreiterten Körper, der sie als Laubblatt tarnt. Auch ihre Beine haben blattartige Verbreiterungen, und die Vorderflügel der Weibchen sehen meist aus wie Laubblätter.",
+    "difficulty": 1,
+    "tags": [
+      "Tiere",
+      "Insekten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wandelnde Blätter",
+    "source_url": "https://de.wikipedia.org/wiki/Wandelnde Blätter",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do the insects called 'leaf insects' camouflage themselves?",
+        "options": [
+          "They hide in hollow branches",
+          "They change colour like a chameleon",
+          "They glue leaves onto their backs",
+          "Their flat body looks like a leaf"
+        ],
+        "explanation": "Leaf insects have a body widened like a leaf, which disguises them as a leaf. Their legs have leaf-like flaps too, and the forewings of the females usually look like leaves."
+      }
+    }
+  },
+  {
+    "id": "ti132",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Der Hoatzin, ein Vogel aus dem nördlichen Südamerika, hat als Küken etwas, das kein anderer Vogel hat. Was?",
+    "options": [
+      "Krallen an den Flügeln",
+      "Zähne im Schnabel",
+      "Ein Fell statt Federn",
+      "Vier Beine"
+    ],
+    "correct_index": 0,
+    "explanation": "Von allen anderen Vögeln unterscheidet sich der Hoatzin durch die mit Krallen bewehrten Flügel der Jungvögel. Außerdem erinnert sein Verdauungssystem an das von Wiederkäuern. Er wird auch Stinkvogel genannt.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hoatzin",
+    "source_url": "https://de.wikipedia.org/wiki/Hoatzin",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The hoatzin, a bird from northern South America, has something as a chick that no other bird has. What?",
+        "options": [
+          "Claws on its wings",
+          "Teeth in its beak",
+          "Fur instead of feathers",
+          "Four legs"
+        ],
+        "explanation": "What sets the hoatzin apart from all other birds are the clawed wings of its chicks. Its digestive system is also reminiscent of that of ruminants. It is also called the 'stinkbird'."
+      }
+    }
+  },
+  {
+    "id": "ti133",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Flughunde sind die größten Fledertiere. Welche Flügelspannweite kann der Kalong erreichen?",
+    "options": [
+      "Bis zu 17 Zentimeter",
+      "Bis zu 170 Zentimeter",
+      "Bis zu 70 Zentimeter",
+      "Bis zu 4 Meter"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Kalong, ein Flughund, erreicht eine Flügelspannweite von bis zu 170 Zentimetern; manche Arten werden mit Kopf und Rumpf bis zu 40 Zentimeter lang. Viele Flughunde sind aber kleiner – die größten Fledermäuse sind deutlich größer als die kleinsten Flughunde.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Säugetiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flughunde",
+    "source_url": "https://de.wikipedia.org/wiki/Flughunde",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Flying foxes are the largest bats. What wingspan can the kalong reach?",
+        "options": [
+          "Up to 17 centimetres",
+          "Up to 170 centimetres",
+          "Up to 70 centimetres",
+          "Up to 4 metres"
+        ],
+        "explanation": "The kalong, a flying fox, reaches a wingspan of up to 170 centimetres; some species grow up to 40 centimetres long from head to rump. Many flying foxes are smaller, though – the largest bats are clearly bigger than the smallest flying foxes."
+      }
+    }
+  },
+  {
+    "id": "ti134",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Der Echte Steinfisch ist gut getarnt und hat giftige Stacheln auf dem Rücken. Wie hart sind diese Stacheln?",
+    "options": [
+      "Sie zerbrechen bei der kleinsten Berührung",
+      "Sie sind weich wie Gummi",
+      "Sie können Stiefelsohlen durchbrechen",
+      "Sie sind nur so hart wie Fingernägel"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Steinfisch ist ein gut getarnter Lauerjäger. An der Basis jedes Rückenstachels sitzt eine große Giftdrüse. Die Stacheln sind scharf und steif und können sogar Stiefelsohlen durchbrechen.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Echter Steinfisch",
+    "source_url": "https://de.wikipedia.org/wiki/Echter Steinfisch",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The reef stonefish is well camouflaged and has venomous spines on its back. How tough are these spines?",
+        "options": [
+          "They break at the slightest touch",
+          "They are as soft as rubber",
+          "They can pierce boot soles",
+          "They are only as hard as fingernails"
+        ],
+        "explanation": "The stonefish is a well-camouflaged ambush hunter. At the base of each spine on its back sits a large venom gland. The spines are sharp and stiff and can even pierce boot soles."
+      }
+    }
+  },
+  {
+    "id": "ti135",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wer kümmert sich beim Großen Fetzenfisch um die Eier?",
+    "options": [
+      "Niemand – die Eier treiben frei im Meer",
+      "Das Weibchen trägt sie im Maul",
+      "Beide vergraben sie im Sand",
+      "Das Männchen trägt sie unter dem Schwanz"
+    ],
+    "correct_index": 3,
+    "explanation": "In der Fortpflanzungszeit wird die Haut an der Unterseite des Schwanzes beim Männchen faltig, weich und schwammig. Dort nimmt es die 250 bis 300 Eier auf, die das Weibchen ablegt.",
+    "difficulty": 2,
+    "tags": [
+      "Tiere",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Fetzenfisch",
+    "source_url": "https://de.wikipedia.org/wiki/Großer Fetzenfisch",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who looks after the eggs in the leafy seadragon?",
+        "options": [
+          "Nobody – the eggs drift freely in the sea",
+          "The female carries them in her mouth",
+          "Both bury them in the sand",
+          "The male carries them under its tail"
+        ],
+        "explanation": "In the breeding season, the skin on the underside of the male's tail becomes wrinkled, soft and spongy. There it takes up the 250 to 300 eggs laid by the female."
+      }
+    }
+  },
+  {
+    "id": "eg79",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Über dem Maracaibo-See in Venezuela blitzt es auffallend oft. In wie vielen Nächten im Jahr gibt es das Catatumbo-Gewitter?",
+    "options": [
+      "In jeder Nacht des Jahres",
+      "In 5 bis 10 Nächten",
+      "In 30 bis 40 Nächten",
+      "In 160 bis 240 Nächten"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Wetterphänomen ereignet sich in 160 bis 240 Nächten im Jahr nahe der Mündung des Río Catatumbo in den Maracaibo-See. Aus der Ferne wirken die Blitze fast lautlos und oft gelb bis orange – das liegt an der Entfernung der Beobachter.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Catatumbo-Gewitter",
+    "source_url": "https://de.wikipedia.org/wiki/Catatumbo-Gewitter",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Lightning flashes remarkably often over Lake Maracaibo in Venezuela. On how many nights a year does the Catatumbo lightning occur?",
+        "options": [
+          "On every night of the year",
+          "On 5 to 10 nights",
+          "On 30 to 40 nights",
+          "On 160 to 240 nights"
+        ],
+        "explanation": "The weather phenomenon occurs on 160 to 240 nights a year near the mouth of the Catatumbo River in Lake Maracaibo. From afar, the lightning seems almost silent and often yellow to orange – because of the observers' distance."
+      }
+    }
+  },
+  {
+    "id": "eg80",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "In welchem Land liegt die Eisriesenwelt, die als größte Eishöhle der Welt gilt?",
+    "options": [
+      "Island",
+      "Österreich",
+      "Norwegen",
+      "Kanada"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Eisriesenwelt ist ein Höhlensystem im Tennengebirge im Land Salzburg in Österreich. Mit einer Gesamtlänge von 42 km gilt sie als die größte Eishöhle der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Höhlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eisriesenwelt",
+    "source_url": "https://de.wikipedia.org/wiki/Eisriesenwelt",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which country is the Eisriesenwelt, regarded as the largest ice cave in the world?",
+        "options": [
+          "Iceland",
+          "Austria",
+          "Norway",
+          "Canada"
+        ],
+        "explanation": "The Eisriesenwelt ('world of the ice giants') is a cave system in the Tennengebirge mountains in the state of Salzburg, Austria. With a total length of 42 km, it is regarded as the largest ice cave in the world."
+      }
+    }
+  },
+  {
+    "id": "eg81",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Die Kalkterrassen von Pamukkale in der Türkei haben einen passenden Namen. Was bedeutet „Pamukkale“?",
+    "options": [
+      "Weißes Wasser",
+      "Schneeberg",
+      "Baumwollburg",
+      "Salzschloss"
+    ],
+    "correct_index": 2,
+    "explanation": "Pamukkale ist türkisch für Baumwollburg oder Watteburg. Den Namen hat die Stätte von ihren Kalksinterterrassen, die über Jahrtausende durch kalkhaltige Thermalquellen entstanden sind. Sie stehen auf der Welterbeliste der UNESCO.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Türkei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pamukkale",
+    "source_url": "https://de.wikipedia.org/wiki/Pamukkale",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The limestone terraces of Pamukkale in Turkey have a fitting name. What does 'Pamukkale' mean?",
+        "options": [
+          "White water",
+          "Snow mountain",
+          "Cotton castle",
+          "Salt palace"
+        ],
+        "explanation": "Pamukkale is Turkish for 'cotton castle'. The site got its name from its limestone terraces, which formed over thousands of years from mineral-rich hot springs. They are on UNESCO's World Heritage List."
+      }
+    }
+  },
+  {
+    "id": "eg82",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie hoch ist der Rheinfall, einer der mächtigsten Wasserfälle Europas?",
+    "options": [
+      "8 Meter",
+      "23 Meter",
+      "79 Meter",
+      "230 Meter"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Rheinfall ist 23 Meter hoch und 150 Meter breit. Bei mittlerer Wasserführung stürzen 373 Kubikmeter Wasser pro Sekunde über die Felsen, im Sommer im Mittel etwa 600.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Schweiz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rheinfall",
+    "source_url": "https://de.wikipedia.org/wiki/Rheinfall",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How high is the Rhine Falls, one of the mightiest waterfalls in Europe?",
+        "options": [
+          "8 metres",
+          "23 metres",
+          "79 metres",
+          "230 metres"
+        ],
+        "explanation": "The Rhine Falls are 23 metres high and 150 metres wide. At average flow, 373 cubic metres of water per second plunge over the rocks – in summer about 600 on average."
+      }
+    }
+  },
+  {
+    "id": "eg83",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Bei Immendingen versinkt Wasser der Donau im Boden. Wohin fließt dieses Wasser?",
+    "options": [
+      "Über Aach, Bodensee und Rhein in die Nordsee",
+      "Unterirdisch weiter ins Schwarze Meer",
+      "In einen Höhlensee, aus dem es verdunstet",
+      "Ins Mittelmeer"
+    ],
+    "correct_index": 0,
+    "explanation": "Zwischen Immendingen und Möhringen und bei Fridingen versinkt Donauwasser im verkarsteten Kalkgestein. Es unterquert die Europäische Hauptwasserscheide, tritt im Aachtopf wieder zutage und fließt über die Radolfzeller Aach, den Bodensee und den Rhein in die Nordsee.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Flüsse"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Donauversinkung",
+    "source_url": "https://de.wikipedia.org/wiki/Donauversinkung",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Near Immendingen, water from the Danube sinks into the ground. Where does this water flow?",
+        "options": [
+          "Via the Aach, Lake Constance and the Rhine into the North Sea",
+          "On underground into the Black Sea",
+          "Into a cave lake where it evaporates",
+          "Into the Mediterranean"
+        ],
+        "explanation": "Between Immendingen and Möhringen and near Fridingen, Danube water sinks into karst limestone. It passes beneath the main European watershed, comes up again in the Aachtopf spring and flows via the Radolfzeller Aach, Lake Constance and the Rhine into the North Sea."
+      }
+    }
+  },
+  {
+    "id": "eg84",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wofür ist der Blautopf bei Blaubeuren bekannt?",
+    "options": [
+      "Für sein kochend heißes Wasser",
+      "Für die auffallend blaue Farbe seines Wassers",
+      "Für seine Ebbe und Flut",
+      "Für sein salziges Wasser"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Blautopf ist die Quelle der Blau, eines Nebenflusses der Donau. Sein Wasser ist je nach Lichteinfall mehr oder weniger intensiv, aber immer auffallend blau. Er liegt am Rand der Schwäbischen Alb, 16 Kilometer westlich von Ulm.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blautopf",
+    "source_url": "https://de.wikipedia.org/wiki/Blautopf",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Blautopf near Blaubeuren known for?",
+        "options": [
+          "Its boiling hot water",
+          "The striking blue colour of its water",
+          "Its tides",
+          "Its salty water"
+        ],
+        "explanation": "The Blautopf is the spring of the river Blau, a tributary of the Danube. Depending on the light, its water is more or less intense, but always strikingly blue. It lies on the edge of the Swabian Jura, 16 kilometres west of Ulm."
+      }
+    }
+  },
+  {
+    "id": "eg85",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist die „Lange Anna“ auf Helgoland?",
+    "options": [
+      "Die längste Sandbank der Nordsee",
+      "Ein alter Leuchtturm",
+      "Ein 47 Meter hoher Felsturm in der Brandung",
+      "Ein Schiffswrack vor der Küste"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Lange Anna ist ein 47 Meter hoher Brandungspfeiler im äußersten Nordwesten der Nordseeinsel Helgoland. Sie ist ein beliebtes Ausflugsziel und ein Wahrzeichen der Insel.",
+    "difficulty": 1,
+    "tags": [
+      "Erde",
+      "Nordsee"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lange Anna",
+    "source_url": "https://de.wikipedia.org/wiki/Lange Anna",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the 'Lange Anna' (Tall Anna) on Heligoland?",
+        "options": [
+          "The longest sandbank in the North Sea",
+          "An old lighthouse",
+          "A 47-metre rock tower standing in the surf",
+          "A shipwreck off the coast"
+        ],
+        "explanation": "The Lange Anna is a 47-metre-high sea stack at the far north-western tip of the North Sea island of Heligoland. It is a popular destination for day trips and a landmark of the island."
+      }
+    }
+  },
+  {
+    "id": "eg86",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Leuchtende Nachtwolken sieht man im Sommer manchmal lange nach Sonnenuntergang. In welcher Höhe schweben sie?",
+    "options": [
+      "In 400 Kilometern",
+      "In 1 bis 2 Kilometern",
+      "In 8 bis 13 Kilometern",
+      "In 81 bis 85 Kilometern"
+    ],
+    "correct_index": 3,
+    "explanation": "Leuchtende Nachtwolken bestehen aus Eiskristallen in 81 bis 85 km Höhe – gewöhnliche Wolken reichen höchstens bis 13 km. Weil sie so hoch sind, strahlt die Sonne sie noch an, wenn sie schon unter dem Horizont steht. In Mitteleuropa sieht man sie meist von Anfang Juni bis Ende Juli.",
+    "difficulty": 2,
+    "tags": [
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leuchtende Nachtwolke",
+    "source_url": "https://de.wikipedia.org/wiki/Leuchtende Nachtwolke",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Noctilucent clouds can sometimes be seen in summer long after sunset. At what height do they float?",
+        "options": [
+          "At 400 kilometres",
+          "At 1 to 2 kilometres",
+          "At 8 to 13 kilometres",
+          "At 81 to 85 kilometres"
+        ],
+        "explanation": "Noctilucent clouds are made of ice crystals at a height of 81 to 85 km – ordinary clouds reach at most 13 km. Because they are so high, the Sun still lights them up when it is already below the horizon. In Central Europe they are mostly seen from early June to late July."
+      }
+    }
+  }
+]
