@@ -92742,5 +92742,1645 @@
         "explanation": "Sealing wax is a resinous mass that is heated and dripped onto letters or parcels. A stamp, a seal or a signet ring is usually pressed into the still-soft wax."
       }
     }
+  },
+  {
+    "id": "ns70",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Manche Stoffe leuchten im Dunkeln noch lange nach, nachdem Licht auf sie gefallen ist. Wie heißt diese Eigenschaft?",
+    "options": [
+      "Reflexion",
+      "Phosphoreszenz",
+      "Elektrolyse",
+      "Destillation"
+    ],
+    "correct_index": 1,
+    "explanation": "Phosphoreszenz ist die Eigenschaft eines Stoffes, nach Bestrahlung mit Licht im Dunkeln nachzuleuchten – oft noch viele Stunden lang.",
+    "difficulty": 2,
+    "tags": [
+      "Licht",
+      "Chemie",
+      "Leuchten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Phosphoreszenz",
+    "source_url": "https://de.wikipedia.org/wiki/Phosphoreszenz",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Some materials keep glowing in the dark long after light has fallen on them. What is this property called?",
+        "options": [
+          "Reflection",
+          "Phosphorescence",
+          "Electrolysis",
+          "Distillation"
+        ],
+        "explanation": "Phosphorescence is the property of a material to keep glowing in the dark after being exposed to light – often for many hours."
+      }
+    }
+  },
+  {
+    "id": "ns71",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Mischt man Kochsalz mit Eis, entsteht eine Kältemischung. Wie kalt kann sie werden?",
+    "options": [
+      "Bis zu −5 °C",
+      "Genau 0 °C",
+      "Bis zu −21 °C",
+      "Bis zu −80 °C"
+    ],
+    "correct_index": 2,
+    "explanation": "Mit Kältemischungen aus Kochsalz und Eis können Temperaturen bis zu −21 °C erreicht werden. Das Salz senkt den Schmelzpunkt des Eises; beim Schmelzen und Lösen wird der Umgebung Wärme entzogen.",
+    "difficulty": 2,
+    "tags": [
+      "Kälte",
+      "Salz",
+      "Experimente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kältemischung",
+    "source_url": "https://de.wikipedia.org/wiki/Kältemischung",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Mixing table salt with ice makes a freezing mixture. How cold can it get?",
+        "options": [
+          "Down to −5 °C",
+          "Exactly 0 °C",
+          "Down to −21 °C",
+          "Down to −80 °C"
+        ],
+        "explanation": "Freezing mixtures of table salt and ice can reach temperatures down to −21 °C. The salt lowers the melting point of the ice; as it melts and dissolves, heat is drawn from the surroundings."
+      }
+    }
+  },
+  {
+    "id": "ns72",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum sind die Freiheitsstatue und viele Kirchtürme mit Kupferdach grün?",
+    "options": [
+      "Durch Algen aus dem Regenwasser",
+      "Sie wurden grün angestrichen",
+      "Durch Moos, das darauf wächst",
+      "Durch Patina – eine Schutzschicht, die sich auf dem Kupfer bildet"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Freiheitsstatue und viele kupfergedeckte Kirchtürme sind grün dank Patina. Diese Schicht ist witterungsbeständig und schützt das Kupfer. Oft wird sie fälschlich Grünspan genannt.",
+    "difficulty": 2,
+    "tags": [
+      "Metalle",
+      "Kupfer",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Patina",
+    "source_url": "https://de.wikipedia.org/wiki/Patina",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why are the Statue of Liberty and many church towers with copper roofs green?",
+        "options": [
+          "Because of algae from rainwater",
+          "They were painted green",
+          "Because of moss growing on them",
+          "Because of patina – a protective layer that forms on the copper"
+        ],
+        "explanation": "The Statue of Liberty and many copper-roofed church towers are green thanks to patina. This layer withstands the weather and protects the copper. It is often wrongly called verdigris."
+      }
+    }
+  },
+  {
+    "id": "ns73",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Das Wort „Destillation“ kommt vom lateinischen „stilla“. Was bedeutet das?",
+    "options": [
+      "Tropfen",
+      "Dampf",
+      "Feuer",
+      "Glas"
+    ],
+    "correct_index": 0,
+    "explanation": "Destillation kommt von lateinisch stilla, „Tropfen“. Dabei wird eine Flüssigkeit verdampft, der Dampf in einem Kondensator abgekühlt und wieder verflüssigt – das Destillat tropft heraus.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Wörter",
+      "Labor"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Destillation",
+    "source_url": "https://de.wikipedia.org/wiki/Destillation",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The word “distillation” comes from the Latin “stilla”. What does it mean?",
+        "options": [
+          "Drop",
+          "Steam",
+          "Fire",
+          "Glass"
+        ],
+        "explanation": "Distillation comes from Latin stilla, “drop”. A liquid is evaporated, the vapour is cooled in a condenser and turns liquid again – the distillate drips out."
+      }
+    }
+  },
+  {
+    "id": "ns74",
+    "kind": "question",
+    "category_id": "science",
+    "question": "In Wissenschaftsmuseen führt man mit einem Van-de-Graaff-Generator gern etwas vor. Was?",
+    "options": [
+      "Wasser fließt bergauf",
+      "Menschen stehen die Haare zu Berge",
+      "Eis schmilzt sofort",
+      "Man wird kurz unsichtbar"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Van-de-Graaff-Generator, auch Bandgenerator genannt, erzeugt hohe elektrische Spannungen – große Geräte mehrere Millionen Volt. Museen nutzen die Aufladung, um Blitze zu erzeugen oder Menschen die Haare zu Berge stehen zu lassen.",
+    "difficulty": 1,
+    "tags": [
+      "Elektrizität",
+      "Experimente",
+      "Museum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Van-de-Graaff-Generator",
+    "source_url": "https://de.wikipedia.org/wiki/Van-de-Graaff-Generator",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Science museums like to show something with a Van de Graaff generator. What?",
+        "options": [
+          "Water flows uphill",
+          "People's hair stands on end",
+          "Ice melts instantly",
+          "You become invisible for a moment"
+        ],
+        "explanation": "A Van de Graaff generator, also called a belt generator, produces high electric voltages – large ones several million volts. Museums use the charge to make sparks or to make people's hair stand on end."
+      }
+    }
+  },
+  {
+    "id": "ns75",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist am Tripelpunkt des Wassers besonders?",
+    "options": [
+      "Wasser leitet dort keinen Strom",
+      "Wasser hat dort seine größte Dichte",
+      "Eis, flüssiges Wasser und Wasserdampf sind gleichzeitig im Gleichgewicht",
+      "Wasser wird dort zu Glas"
+    ],
+    "correct_index": 2,
+    "explanation": "Am Tripelpunkt des Wassers stehen die drei Phasen flüssiges Wasser, Wassereis und Wasserdampf im Gleichgewicht.",
+    "difficulty": 3,
+    "tags": [
+      "Wasser",
+      "Physik",
+      "Aggregatzustände"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tripelpunkt",
+    "source_url": "https://de.wikipedia.org/wiki/Tripelpunkt",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the triple point of water?",
+        "options": [
+          "Water conducts no electricity there",
+          "Water is at its densest there",
+          "Ice, liquid water and water vapour are all in equilibrium at once",
+          "Water turns into glass there"
+        ],
+        "explanation": "At the triple point of water, the three phases – liquid water, ice and water vapour – are in equilibrium."
+      }
+    }
+  },
+  {
+    "id": "ns76",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Woher kommen vor allem die sprühenden Funken einer Wunderkerze?",
+    "options": [
+      "Von Kochsalz",
+      "Von Zucker",
+      "Von Wachs",
+      "Von verbrennendem Metallpulver, etwa Eisen"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Masse einer Wunderkerze besteht zu ca. 30 % aus Eisenpulver und zu ca. 10 % aus Aluminiumpulver. Die Korngröße des Metallpulvers ist für das typische Funkensprühen entscheidend.",
+    "difficulty": 1,
+    "tags": [
+      "Feuer",
+      "Metalle",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wunderkerze",
+    "source_url": "https://de.wikipedia.org/wiki/Wunderkerze",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do the spraying sparks of a sparkler mainly come from?",
+        "options": [
+          "Table salt",
+          "Sugar",
+          "Wax",
+          "Burning metal powder, such as iron"
+        ],
+        "explanation": "The coating of a sparkler is about 30 % iron powder and about 10 % aluminium powder. The grain size of the metal powder decides the typical spray of sparks."
+      }
+    }
+  },
+  {
+    "id": "ns77",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Eine Salatschleuder ist eine kleine Zentrifuge. Welche Kraft nutzt sie?",
+    "options": [
+      "Die Zentrifugalkraft (Fliehkraft)",
+      "Die Magnetkraft",
+      "Die Kraft des Windes",
+      "Die Auftriebskraft"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Zentrifuge beruht auf der Zentrifugalkraft, die bei einer Kreisbewegung entsteht. Bei der Wäsche- und Salatschleuder hält ein Sieb die Feststoffe zurück, und das Wasser fliegt nach außen.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Küche",
+      "Kräfte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zentrifuge",
+    "source_url": "https://de.wikipedia.org/wiki/Zentrifuge",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A salad spinner is a small centrifuge. Which force does it use?",
+        "options": [
+          "Centrifugal force",
+          "Magnetic force",
+          "Wind power",
+          "Buoyancy"
+        ],
+        "explanation": "A centrifuge relies on the centrifugal force that arises in circular motion. In a laundry or salad spinner a sieve holds back the solids while the water flies outwards."
+      }
+    }
+  },
+  {
+    "id": "ws128",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Raumsonden fliegen oft dicht an Planeten vorbei, um ihre Richtung und Geschwindigkeit zu ändern. Wie heißt dieses Manöver?",
+    "options": [
+      "Swing-by",
+      "Countdown",
+      "Andocken",
+      "Wiedereintritt"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Swing-by fliegt eine leichte Raumsonde dicht an einem viel größeren Körper wie einem Planeten vorbei. Dabei ändert sich ihre Flugrichtung, und ihre Geschwindigkeit kann steigen oder sinken. Andere Namen sind Slingshot oder Gravity-Assist.",
+    "difficulty": 2,
+    "tags": [
+      "Raumfahrt",
+      "Planeten",
+      "Schwerkraft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Swing-by",
+    "source_url": "https://de.wikipedia.org/wiki/Swing-by",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Space probes often fly close past planets to change their direction and speed. What is this manoeuvre called?",
+        "options": [
+          "Swing-by",
+          "Countdown",
+          "Docking",
+          "Re-entry"
+        ],
+        "explanation": "In a swing-by, a light space probe flies close past a much larger body such as a planet. This changes its direction of flight, and its speed can go up or down. Other names are slingshot or gravity assist."
+      }
+    }
+  },
+  {
+    "id": "ws129",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Der Hohmann-Transfer ist ein energiesparender Wechsel zwischen zwei Umlaufbahnen. Welche Form hat die Bahn dazwischen?",
+    "options": [
+      "Eine gerade Linie",
+      "Eine Ellipse, die beide Bahnen berührt",
+      "Eine Spirale",
+      "Ein Zickzack"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Transfer-Ellipse (Hohmann-Bahn) berührt die Ausgangs- und die Zielbahn. An beiden Stellen ist ein Kraftstoß nötig, um die Geschwindigkeit anzupassen. 1925 hielt Walter Hohmann diesen Übergang für optimal.",
+    "difficulty": 3,
+    "tags": [
+      "Raumfahrt",
+      "Umlaufbahn",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hohmann-Transfer",
+    "source_url": "https://de.wikipedia.org/wiki/Hohmann-Transfer",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Hohmann transfer is an energy-saving switch between two orbits. What shape is the path in between?",
+        "options": [
+          "A straight line",
+          "An ellipse that touches both orbits",
+          "A spiral",
+          "A zigzag"
+        ],
+        "explanation": "The transfer ellipse (Hohmann orbit) touches both the starting orbit and the target orbit. At each point a burn is needed to adjust the speed. In 1925 Walter Hohmann considered this transfer optimal."
+      }
+    }
+  },
+  {
+    "id": "ws130",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie heißt die Decke aus lockerem Gesteinsmaterial, die zum Beispiel auf dem Mond liegt?",
+    "options": [
+      "Ozon",
+      "Magma",
+      "Moräne",
+      "Regolith"
+    ],
+    "correct_index": 3,
+    "explanation": "Regolith ist eine Decke aus Lockermaterial auf Gesteinsplaneten im Sonnensystem – und auch auf dem Mond. Der Name kommt aus dem Altgriechischen: „Decke“ und „Stein“.",
+    "difficulty": 3,
+    "tags": [
+      "Mond",
+      "Gestein",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Regolith",
+    "source_url": "https://de.wikipedia.org/wiki/Regolith",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the blanket of loose rock material called that lies on the Moon, for example?",
+        "options": [
+          "Ozone",
+          "Magma",
+          "Moraine",
+          "Regolith"
+        ],
+        "explanation": "Regolith is a blanket of loose material on rocky planets in the solar system – and on the Moon too. The name comes from Ancient Greek: “blanket” and “stone”."
+      }
+    }
+  },
+  {
+    "id": "ws131",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Die Korona umgibt die Sonne wie ein Strahlenkranz. Was ist an ihr überraschend?",
+    "options": [
+      "Sie ist viel heißer als die Sonnenoberfläche darunter",
+      "Sie besteht aus Eis",
+      "Sie ist kälter als der Weltraum",
+      "Sie ist fest wie Gestein"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Korona besteht aus einem fast vollständig ionisierten Plasma. Mit einigen Millionen Kelvin ist sie deutlich heißer als die Schichten darunter, auch als die Photosphäre, die als Sonnenoberfläche gilt.",
+    "difficulty": 2,
+    "tags": [
+      "Sonne",
+      "Plasma",
+      "Hitze"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Korona (Sonne)",
+    "source_url": "https://de.wikipedia.org/wiki/Korona (Sonne)",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The corona surrounds the Sun like a halo of rays. What is surprising about it?",
+        "options": [
+          "It is much hotter than the Sun's surface below",
+          "It is made of ice",
+          "It is colder than outer space",
+          "It is solid like rock"
+        ],
+        "explanation": "The corona is made of almost fully ionised plasma. At a few million kelvin it is much hotter than the layers below, including the photosphere, which counts as the Sun's surface."
+      }
+    }
+  },
+  {
+    "id": "ws132",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Am Sonnenrand sieht man manchmal riesige leuchtende Bögen aus Materie. Wie heißen sie?",
+    "options": [
+      "Polarlichter",
+      "Protuberanzen",
+      "Meteore",
+      "Kometen"
+    ],
+    "correct_index": 1,
+    "explanation": "Protuberanzen sind heftige Materieströme auf der Sonne, die am Sonnenrand als leuchtende Bögen zu sehen sind. Sie werden bis 40.000 km hoch – die Erde hat nur gut 12.700 km Durchmesser.",
+    "difficulty": 2,
+    "tags": [
+      "Sonne",
+      "Sterne",
+      "Beobachtung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Protuberanz",
+    "source_url": "https://de.wikipedia.org/wiki/Protuberanz",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At the edge of the Sun you can sometimes see huge glowing arcs of matter. What are they called?",
+        "options": [
+          "Auroras",
+          "Prominences",
+          "Meteors",
+          "Comets"
+        ],
+        "explanation": "Prominences are violent streams of matter on the Sun, visible at its edge as glowing arcs. They reach heights of up to 40,000 km – the Earth is only about 12,700 km across."
+      }
+    }
+  },
+  {
+    "id": "ws133",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Planetarische Nebel heißen so, obwohl sie nichts mit Planeten zu tun haben. Was sind sie wirklich?",
+    "options": [
+      "Staub, den Planeten hinter sich herziehen",
+      "Wolken, aus denen gerade neue Planeten entstehen",
+      "Hüllen aus Gas, die ein alter Stern am Ende seines Lebens abgestoßen hat",
+      "Nebel in der Lufthülle von Planeten"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein planetarischer Nebel ist eine Hülle aus Gas und Plasma, die ein alter Stern am Ende seiner Entwicklung abgestoßen hat. Der Name ist irreführend: Im Teleskop erscheinen diese Nebel meist rund und sehen aus wie ferne Gasplaneten. In der Milchstraße sind rund 1500 bekannt.",
+    "difficulty": 2,
+    "tags": [
+      "Sterne",
+      "Nebel",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Planetarischer Nebel",
+    "source_url": "https://de.wikipedia.org/wiki/Planetarischer Nebel",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Planetary nebulae have that name although they have nothing to do with planets. What are they really?",
+        "options": [
+          "Dust that planets drag behind them",
+          "Clouds in which new planets are forming",
+          "Shells of gas that an old star threw off at the end of its life",
+          "Fog in the atmosphere of planets"
+        ],
+        "explanation": "A planetary nebula is a shell of gas and plasma that an old star has thrown off at the end of its development. The name is misleading: in a telescope these nebulae usually look round, like distant gas planets. About 1,500 are known in the Milky Way."
+      }
+    }
+  },
+  {
+    "id": "ws134",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Tektite sind kleine schwarze oder grünliche Glasstücke. Wie entstehen sie?",
+    "options": [
+      "Sie entstehen in Vulkanen unter dem Meer",
+      "Sie fallen als Glas aus dem Weltall",
+      "Sie wachsen in Höhlen",
+      "Beim Einschlag großer Meteoriten wird Gestein der Erde geschmolzen und fortgeschleudert"
+    ],
+    "correct_index": 3,
+    "explanation": "Tektite sind Glasobjekte irdischen Ursprungs. Beim Einschlag großer Meteoriten wird Gestein geschmolzen und bis zu einige hundert Kilometer fortgeschleudert, wobei es zu Glas erstarrt. Der Name kommt von griechisch tektos, „geschmolzen“.",
+    "difficulty": 2,
+    "tags": [
+      "Meteoriten",
+      "Gestein",
+      "Glas"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tektit",
+    "source_url": "https://de.wikipedia.org/wiki/Tektit",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Tektites are small black or greenish pieces of glass. How do they form?",
+        "options": [
+          "They form in volcanoes under the sea",
+          "They fall from space as glass",
+          "They grow in caves",
+          "When large meteorites hit, Earth rock is melted and flung away"
+        ],
+        "explanation": "Tektites are glass objects of earthly origin. When large meteorites strike, rock is melted and flung up to a few hundred kilometres, solidifying into glass. The name comes from Greek tektos, “molten”."
+      }
+    }
+  },
+  {
+    "id": "ws135",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Manchmal sieht man links oder rechts neben der Sonne helle Lichtflecke, sogenannte Nebensonnen. Wodurch entstehen sie?",
+    "options": [
+      "Durch Licht, das in Eiskristallen gebrochen wird",
+      "Durch Spiegelungen auf dem Meer",
+      "Durch eine zweite Sonne",
+      "Durch Lichter von Flugzeugen"
+    ],
+    "correct_index": 0,
+    "explanation": "Nebensonnen entstehen durch die Brechung von Licht in Eiskristallen. Sie erscheinen etwa 22° links oder rechts neben der Sonne, manchmal auf beiden Seiten.",
+    "difficulty": 2,
+    "tags": [
+      "Sonne",
+      "Licht",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nebensonne",
+    "source_url": "https://de.wikipedia.org/wiki/Nebensonne",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Sometimes bright spots of light appear to the left or right of the Sun – so-called sun dogs. What causes them?",
+        "options": [
+          "Light refracted in ice crystals",
+          "Reflections on the sea",
+          "A second sun",
+          "Aircraft lights"
+        ],
+        "explanation": "Sun dogs are caused by light being refracted in ice crystals. They appear about 22° to the left or right of the Sun, sometimes on both sides."
+      }
+    }
+  },
+  {
+    "id": "e120",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Um 1620 gab es die „Kipper- und Wipperzeit“. Woher hat sie ihren Namen?",
+    "options": [
+      "Von schaukelnden Handelsschiffen",
+      "Vom Wippen der Münzwaage und dem Aussortieren schwerer Münzen, die man mit billigem Metall neu prägte",
+      "Von einem Kinderspiel mit Münzen",
+      "Von umgekippten Marktständen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Kipper- und Wipperzeit war eine Münzentwertung mit Höhepunkt zwischen 1620 und 1622. Man wippte Münzen auf der Waage und „kippte“ (niederdeutsch: sortierte aus) die schwereren Stücke. Aus ihnen prägte man unter Zugabe von Kupfer, Zinn oder Blei geringerwertige Münzen.",
+    "difficulty": 3,
+    "tags": [
+      "Geld",
+      "Münzen",
+      "Betrug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kipper- und Wipperzeit",
+    "source_url": "https://de.wikipedia.org/wiki/Kipper- und Wipperzeit",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around 1620 there was the “Kipper and Wipper” period. Where does the name come from?",
+        "options": [
+          "From rocking merchant ships",
+          "From the tipping of coin scales and sorting out heavier coins, which were re-minted with cheap metal",
+          "From a children's game with coins",
+          "From toppled market stalls"
+        ],
+        "explanation": "The Kipper and Wipper period was a debasement of coins that peaked between 1620 and 1622. Coins were weighed on rocking scales and the heavier ones were “kipped” (Low German: sorted out). With added copper, tin or lead, they were turned into coins of lower value."
+      }
+    }
+  },
+  {
+    "id": "e121",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie nennt man einen illegalen Markt, auf dem gegen gesetzliche Beschränkungen gehandelt wird?",
+    "options": [
+      "Binnenmarkt",
+      "Flohmarkt",
+      "Schwarzmarkt",
+      "Wochenmarkt"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Schwarzmarkt ist ein illegaler Markt, dessen Handel gegen gesetzliche Beschränkungen verstößt. Er gehört zur Schattenwirtschaft und heißt auch Schleichhandel, englisch black market.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Recht",
+      "Märkte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwarzmarkt",
+    "source_url": "https://de.wikipedia.org/wiki/Schwarzmarkt",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you call an illegal market where trading breaks legal restrictions?",
+        "options": [
+          "Internal market",
+          "Flea market",
+          "Black market",
+          "Weekly market"
+        ],
+        "explanation": "The black market is an illegal market whose trade breaks legal restrictions. It is part of the shadow economy."
+      }
+    }
+  },
+  {
+    "id": "e122",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was wollten Staaten im Merkantilismus beim Handel erreichen?",
+    "options": [
+      "Alle Fabriken schließen",
+      "Jeden Handel mit dem Ausland verbieten",
+      "Das Geld abschaffen",
+      "Viele Fertigwaren ausführen und wenig einführen"
+    ],
+    "correct_index": 3,
+    "explanation": "Im Merkantilismus wurden Exporte von Fertigwaren aktiv gefördert und Importe von Fertigwaren gehemmt. Dazu förderte man Handwerk und Manufakturen und schaffte Zölle im Inland ab.",
+    "difficulty": 3,
+    "tags": [
+      "Handel",
+      "Export",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Merkantilismus",
+    "source_url": "https://de.wikipedia.org/wiki/Merkantilismus",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did states want to achieve in trade under mercantilism?",
+        "options": [
+          "Close all factories",
+          "Ban all trade with other countries",
+          "Abolish money",
+          "Export many finished goods and import few"
+        ],
+        "explanation": "Under mercantilism, exports of finished goods were actively promoted and imports of finished goods were restricted. To that end crafts and manufactories were supported and internal customs duties were abolished."
+      }
+    }
+  },
+  {
+    "id": "e123",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Die Physiokraten um François Quesnay hatten eine besondere Idee: Woher kommt der Reichtum eines Landes?",
+    "options": [
+      "Allein aus Grund und Boden – also aus der Natur",
+      "Aus Gold und Silber",
+      "Aus dem Handel mit dem Ausland",
+      "Aus Fabriken"
+    ],
+    "correct_index": 0,
+    "explanation": "Physiokratie heißt „Herrschaft der Natur“. Die Schule nahm an, dass allein die Natur Werte hervorbringe und Grund und Boden der einzige Ursprung des Reichtums sei. Nur Landwirtschaft, Forstwirtschaft, Fischerei und Bergbau könnten einen Überschuss erzielen.",
+    "difficulty": 3,
+    "tags": [
+      "Wirtschaftsgeschichte",
+      "Landwirtschaft",
+      "Ideen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Physiokratie",
+    "source_url": "https://de.wikipedia.org/wiki/Physiokratie",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The physiocrats around François Quesnay had a special idea: where does a country's wealth come from?",
+        "options": [
+          "From land alone – that is, from nature",
+          "From gold and silver",
+          "From foreign trade",
+          "From factories"
+        ],
+        "explanation": "Physiocracy means “rule of nature”. The school held that only nature creates value and that land is the sole source of wealth. Only farming, forestry, fishing and mining could produce a surplus."
+      }
+    }
+  },
+  {
+    "id": "e124",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Das Wort „Wucher“ bedeutete im Althochdeutschen ursprünglich etwas ganz Harmloses. Was?",
+    "options": [
+      "Freundschaft",
+      "Frucht, Ernte, Ertrag",
+      "Brot",
+      "Wasser"
+    ],
+    "correct_index": 1,
+    "explanation": "Wucher geht auf althochdeutsch wuohhar zurück: „Frucht, Ernte, Ertrag, Gewinn“. Erst später kamen „übermäßige Zinsen“ hinzu. Heute meint Wucher eine deutlich überhöhte Gegenleistung, bei der die Schwäche eines anderen ausgenutzt wird.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Geld",
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wucher",
+    "source_url": "https://de.wikipedia.org/wiki/Wucher",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German word “Wucher” (usury) originally meant something quite harmless in Old High German. What?",
+        "options": [
+          "Friendship",
+          "Fruit, harvest, yield",
+          "Bread",
+          "Water"
+        ],
+        "explanation": "Wucher goes back to Old High German wuohhar: “fruit, harvest, yield, profit”. Only later did “excessive interest” come in. Today Wucher means a grossly excessive price that exploits someone else's weakness."
+      }
+    }
+  },
+  {
+    "id": "e125",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Zehn Menschen wollen ein Haus kaufen und zahlen ihr Erspartes in einen gemeinsamen „Spartopf“. Was ist der Vorteil dieser Grundidee des Bausparens?",
+    "options": [
+      "Der Staat baut allen ein Haus",
+      "Niemand muss je etwas zurückzahlen",
+      "Der Erste kann sein Geld schon viel früher bekommen",
+      "Das Geld vermehrt sich im Topf von selbst"
+    ],
+    "correct_index": 2,
+    "explanation": "Würde jeder allein ein Zehntel pro Jahr sparen, hätte jeder erst nach zehn Jahren genug. Im gemeinsamen Spartopf kann der Erste das Geld schon nach einem Jahr ausgezahlt bekommen – und zahlt den Rest als Darlehen zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Sparen",
+      "Wohnen",
+      "Gemeinschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bausparkasse",
+    "source_url": "https://de.wikipedia.org/wiki/Bausparkasse",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Ten people want to buy a house and pay their savings into a shared “savings pot”. What is the advantage of this basic idea of building savings?",
+        "options": [
+          "The state builds everyone a house",
+          "Nobody ever has to pay anything back",
+          "The first person can get their money much earlier",
+          "The money multiplies in the pot by itself"
+        ],
+        "explanation": "If each saved a tenth per year alone, everyone would have enough only after ten years. With the shared pot, the first one can be paid out after just one year – and repays the rest as a loan."
+      }
+    }
+  },
+  {
+    "id": "e126",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wozu dienten Wasserzeichen im Papier ursprünglich?",
+    "options": [
+      "Als Preisangabe",
+      "Um zu zeigen, dass das Papier nass geworden war",
+      "Als Schutz vor Regen",
+      "Zur Kennzeichnung der Papiermühle, die das Papier hergestellt hatte"
+    ],
+    "correct_index": 3,
+    "explanation": "Wasserzeichen entstehen durch unterschiedliche Papierstärken und sind im Gegenlicht zu erkennen. Ursprünglich kennzeichneten sie die Papiermühle. Heute sind sie ein Sicherheitsmerkmal, etwa bei Banknoten.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Papier",
+      "Sicherheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserzeichen",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What were watermarks in paper originally for?",
+        "options": [
+          "To show the price",
+          "To show that the paper had got wet",
+          "As protection against rain",
+          "To identify the paper mill that made the paper"
+        ],
+        "explanation": "Watermarks are made by varying the thickness of the paper and can be seen against the light. Originally they identified the paper mill. Today they are a security feature, for example on banknotes."
+      }
+    }
+  },
+  {
+    "id": "e127",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was macht ein Bürge?",
+    "options": [
+      "Er steht dafür ein, dass die Schulden eines anderen bezahlt werden",
+      "Er verwaltet eine Burg",
+      "Er prüft Münzen auf Echtheit",
+      "Er verleiht Geld gegen Zinsen"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei einer Bürgschaft verspricht der Bürge dem Gläubiger, für die Schuld eines anderen einzustehen. Kann der Schuldner nicht zahlen, muss der Bürge zahlen. Schon in der Antike bekräftigte der Bürge das mit einem Handschlag.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Recht",
+      "Verträge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bürgschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Bürgschaft",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a guarantor do?",
+        "options": [
+          "They vouch that someone else's debts will be paid",
+          "They run a castle",
+          "They check coins for authenticity",
+          "They lend money at interest"
+        ],
+        "explanation": "With a guarantee, the guarantor promises the creditor to stand in for someone else's debt. If the debtor cannot pay, the guarantor has to. Even in ancient times the guarantor sealed this with a handshake."
+      }
+    }
+  },
+  {
+    "id": "kn126",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Bei der Frottage legt man Papier auf eine raue Oberfläche, etwa ein Stück Holz. Was macht man dann?",
+    "options": [
+      "Mit der Schere hineinschneiden",
+      "Wasser darübergießen",
+      "Das Papier zerknüllen",
+      "Mit Kreide oder Bleistift darüberreiben"
+    ],
+    "correct_index": 3,
+    "explanation": "Frottage kommt von französisch frotter, „reiben“. Die Struktur eines Gegenstands wird durch Abreiben mit Kreide oder Bleistift auf ein aufgelegtes Papier übertragen. Max Ernst entdeckte das Verfahren ab 1925 für die Kunst neu.",
+    "difficulty": 1,
+    "tags": [
+      "Techniken",
+      "Zeichnen",
+      "Basteln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Frottage",
+    "source_url": "https://de.wikipedia.org/wiki/Frottage",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In frottage you place paper on a rough surface, such as a piece of wood. What do you do next?",
+        "options": [
+          "Cut into it with scissors",
+          "Pour water over it",
+          "Crumple the paper",
+          "Rub over it with chalk or pencil"
+        ],
+        "explanation": "Frottage comes from French frotter, “to rub”. The texture of an object is transferred by rubbing chalk or pencil over a sheet of paper laid on top. Max Ernst rediscovered the technique for art from 1925."
+      }
+    }
+  },
+  {
+    "id": "kn127",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Viele mittelalterliche Heiligenbilder haben einen goldenen Hintergrund. Woraus besteht dieser Goldgrund?",
+    "options": [
+      "Aus Blattgold",
+      "Aus gelber Wasserfarbe",
+      "Aus Messingblech",
+      "Aus goldfarbenem Sand"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Goldgrund besteht aus Blattgold. Er geht auf byzantinische Mosaiken zurück und war in Buch- und Tafelmalerei üblich. In Italien malte man Heiligenbilder bis gegen Ende des 15. Jahrhunderts fast nur vor Goldgrund.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Mittelalter",
+      "Gold"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Goldgrund",
+    "source_url": "https://de.wikipedia.org/wiki/Goldgrund",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many medieval paintings of saints have a golden background. What is this gold ground made of?",
+        "options": [
+          "Gold leaf",
+          "Yellow watercolour",
+          "Brass sheet",
+          "Gold-coloured sand"
+        ],
+        "explanation": "The gold ground is made of gold leaf. It goes back to Byzantine mosaics and was common in book and panel painting. In Italy, saints were painted almost only on gold grounds until towards the end of the 15th century."
+      }
+    }
+  },
+  {
+    "id": "kn128",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Netsuke sind kleine geschnitzte Figuren aus Japan. Wozu dienten sie ursprünglich?",
+    "options": [
+      "Als Spielfiguren für ein Brettspiel",
+      "Als Gegengewicht, um kleine Behälter am Gürtel des Kimonos zu befestigen",
+      "Als Briefbeschwerer",
+      "Als Griffe für Schubladen"
+    ],
+    "correct_index": 1,
+    "explanation": "Netsuke dienten als Gegengewicht, um ein hängendes Behältnis wie eine kleine Lackdose am Obi, dem Gürtel des taschenlosen Kimonos, zu befestigen. Dargestellt wurden zum Beispiel Glücksgötter, Tiere und Blumen.",
+    "difficulty": 2,
+    "tags": [
+      "Japan",
+      "Schnitzen",
+      "Kleidung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Netsuke",
+    "source_url": "https://de.wikipedia.org/wiki/Netsuke",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Netsuke are small carved figures from Japan. What were they originally used for?",
+        "options": [
+          "As pieces for a board game",
+          "As a counterweight to fasten small containers to the kimono's sash",
+          "As paperweights",
+          "As drawer handles"
+        ],
+        "explanation": "Netsuke were counterweights used to hang a container, such as a small lacquer box, from the obi – the sash of the pocketless kimono. They showed, for example, gods of luck, animals and flowers."
+      }
+    }
+  },
+  {
+    "id": "kn129",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie heißt die pyramidenförmige Spitze eines Obelisken?",
+    "options": [
+      "Kuppel",
+      "Kapitell",
+      "Pyramidion",
+      "Sockel"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Obelisk ist ein hoher, nach oben schmaler werdender Steinpfeiler mit pyramidenförmiger Spitze, dem Pyramidion. Im Alten Reich Ägyptens waren Obelisken glatt – nur die Spitze war vergoldet und spiegelte den Glanz der Sonne.",
+    "difficulty": 3,
+    "tags": [
+      "Ägypten",
+      "Bauwerke",
+      "Stein"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Obelisk",
+    "source_url": "https://de.wikipedia.org/wiki/Obelisk",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the pyramid-shaped tip of an obelisk called?",
+        "options": [
+          "Dome",
+          "Capital",
+          "Pyramidion",
+          "Plinth"
+        ],
+        "explanation": "An obelisk is a tall stone pillar that narrows towards the top and ends in a pyramid-shaped tip, the pyramidion. In Egypt's Old Kingdom, obelisks were plain – only the tip was gilded and reflected the shine of the sun."
+      }
+    }
+  },
+  {
+    "id": "kn130",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wo liegen Komplementärfarben in einem Farbkreis meistens?",
+    "options": [
+      "Einander gegenüber",
+      "Direkt nebeneinander",
+      "Alle in der Mitte",
+      "Außerhalb des Kreises"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Farbkreis liegen ähnliche Farbtöne nebeneinander, Komplementärfarben (Gegenfarben) dagegen oft gegenüber.",
+    "difficulty": 2,
+    "tags": [
+      "Farben",
+      "Malerei",
+      "Ordnung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Farbkreis",
+    "source_url": "https://de.wikipedia.org/wiki/Farbkreis",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where are complementary colours usually placed on a colour wheel?",
+        "options": [
+          "Opposite each other",
+          "Right next to each other",
+          "All in the middle",
+          "Outside the circle"
+        ],
+        "explanation": "On a colour wheel similar hues sit next to each other, while complementary colours are usually placed opposite each other."
+      }
+    }
+  },
+  {
+    "id": "kn131",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Der rote Farbstoff Karmin wird aus Tieren gewonnen. Aus welchen?",
+    "options": [
+      "Aus Meeresschnecken",
+      "Aus Schildläusen",
+      "Aus Fischschuppen",
+      "Aus Marienkäfern"
+    ],
+    "correct_index": 1,
+    "explanation": "Karmin, auch Cochenille genannt, ist ein roter Farbstoff aus Cochenilleschildläusen. Sein Hauptbestandteil ist die Karminsäure.",
+    "difficulty": 2,
+    "tags": [
+      "Farben",
+      "Insekten",
+      "Rot"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Karmin",
+    "source_url": "https://de.wikipedia.org/wiki/Karmin",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The red dye carmine is obtained from animals. Which ones?",
+        "options": [
+          "Sea snails",
+          "Scale insects",
+          "Fish scales",
+          "Ladybirds"
+        ],
+        "explanation": "Carmine, also called cochineal, is a red dye obtained from cochineal scale insects. Its main component is carminic acid."
+      }
+    }
+  },
+  {
+    "id": "kn132",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Die leuchtend rote Malfarbe Zinnober stammt von einem Mineral. Woraus besteht es chemisch?",
+    "options": [
+      "Aus Kupfercarbonat",
+      "Aus Eisenoxid",
+      "Aus Quecksilbersulfid",
+      "Aus Kalk"
+    ],
+    "correct_index": 2,
+    "explanation": "Cinnabarit, im deutschen Sprachraum auch Zinnober genannt, ist chemisch ein Quecksilbersulfid (HgS). Seine Farbe ist ein leuchtendes, leicht ins Gelbe gehendes Zinnoberrot.",
+    "difficulty": 3,
+    "tags": [
+      "Farben",
+      "Minerale",
+      "Rot"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cinnabarit",
+    "source_url": "https://de.wikipedia.org/wiki/Cinnabarit",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The bright red paint vermilion comes from a mineral. What is it made of chemically?",
+        "options": [
+          "Copper carbonate",
+          "Iron oxide",
+          "Mercury sulfide",
+          "Lime"
+        ],
+        "explanation": "Cinnabar, called Zinnober in German, is chemically mercury sulfide (HgS). Its colour is a bright vermilion red with a slight yellow tinge."
+      }
+    }
+  },
+  {
+    "id": "kn133",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Mittelalterliche Prachthandschriften wurden auf Pergament aus Tierhaut gemalt. Wie viele Kälber brauchte man für eine große Handschrift mit 300 Blättern?",
+    "options": [
+      "5",
+      "20",
+      "75",
+      "500"
+    ],
+    "correct_index": 2,
+    "explanation": "Pro Tierhaut gewann man zwei Doppelblätter. Für eine große Handschrift mit 300 Blättern waren deshalb 75 Kälber nötig – ein Pergamentcodex war sehr kostbar.",
+    "difficulty": 3,
+    "tags": [
+      "Bücher",
+      "Mittelalter",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buchmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Buchmalerei",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Splendid medieval manuscripts were painted on parchment made from animal skin. How many calves were needed for a large manuscript of 300 leaves?",
+        "options": [
+          "5",
+          "20",
+          "75",
+          "500"
+        ],
+        "explanation": "Each hide gave two double sheets. A large manuscript of 300 leaves therefore needed 75 calves – a parchment codex was very precious."
+      }
+    }
+  },
+  {
+    "id": "b145",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wodurch wurden die Wörter „Sommerschlussverkauf“ und „Winterschlussverkauf“ in vielen Geschäften inzwischen meist ersetzt?",
+    "options": [
+      "Durch „Billigtag“",
+      "Durch „Rabattwoche“",
+      "Durch „Preisfest“",
+      "Durch das englische Wort „Sale“"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Bezeichnungen „Sommerschlussverkauf“ (SSV) und „Winterschlussverkauf“ (WSV) wurden in Prospekten und Schaufenstern meist durch den Anglizismus „Sale“ ersetzt. Geregelt wurden Saisonschlussverkäufe in Deutschland erstmals im Juni 1909.",
+    "difficulty": 1,
+    "tags": [
+      "Einkaufen",
+      "Wörter",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saisonschlussverkauf",
+    "source_url": "https://de.wikipedia.org/wiki/Saisonschlussverkauf",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In German shops, what has mostly replaced the words “Sommerschlussverkauf” and “Winterschlussverkauf” (end-of-season sales)?",
+        "options": [
+          "“Billigtag” (cheap day)",
+          "“Rabattwoche” (discount week)",
+          "“Preisfest” (price party)",
+          "The English word “Sale”"
+        ],
+        "explanation": "The terms “Sommerschlussverkauf” (SSV) and “Winterschlussverkauf” (WSV) have mostly been replaced in leaflets and shop windows by the English word “Sale”. End-of-season sales were first regulated in Germany in June 1909."
+      }
+    }
+  },
+  {
+    "id": "b146",
+    "kind": "question",
+    "category_id": "business",
+    "question": "An wen verkauft ein Großhändler seine Waren vor allem?",
+    "options": [
+      "An Wiederverkäufer wie Geschäfte des Einzelhandels",
+      "Nur an Schulkinder",
+      "An Museen",
+      "Direkt an Touristen"
+    ],
+    "correct_index": 0,
+    "explanation": "Großhändler beschaffen Waren verschiedener Hersteller und verkaufen sie an gewerbliche Kunden weiter – an Wiederverkäufer wie den Einzelhandel und an Großabnehmer.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Waren",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großhandel",
+    "source_url": "https://de.wikipedia.org/wiki/Großhandel",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who does a wholesaler mainly sell goods to?",
+        "options": [
+          "Resellers such as retail shops",
+          "Only schoolchildren",
+          "Museums",
+          "Tourists directly"
+        ],
+        "explanation": "Wholesalers buy goods from various manufacturers and sell them on to business customers – to resellers such as retailers and to bulk buyers."
+      }
+    }
+  },
+  {
+    "id": "b147",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wie nannte man einen Hausierer, der Schriften mit unterhaltsamem oder sensationellem Inhalt anbot?",
+    "options": [
+      "Kurier",
+      "Kolporteur",
+      "Notar",
+      "Schaffner"
+    ],
+    "correct_index": 1,
+    "explanation": "Bot ein Hausierer Schriften unterhaltsamen oder sensationellen Inhalts an, war er ein Kolporteur. Hausierer verkauften ein eigenes Sortiment auf eigene Rechnung – anders als Handelsvertreter, die für ein Unternehmen unterwegs sind.",
+    "difficulty": 3,
+    "tags": [
+      "Handel",
+      "Berufe",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hausierer",
+    "source_url": "https://de.wikipedia.org/wiki/Hausierer",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a peddler called who sold writings with entertaining or sensational content?",
+        "options": [
+          "Courier",
+          "Colporteur",
+          "Notary",
+          "Conductor"
+        ],
+        "explanation": "A peddler who sold writings with entertaining or sensational content was a colporteur. Peddlers sold their own range of goods on their own account – unlike sales agents travelling for a company."
+      }
+    }
+  },
+  {
+    "id": "b148",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist Laufkundschaft?",
+    "options": [
+      "Kunden, die beim Joggen einkaufen",
+      "Kunden, die immer im selben Laden kaufen",
+      "Kunden, die zufällig im Vorübergehen etwas kaufen",
+      "Kunden, die nur im Internet bestellen"
+    ],
+    "correct_index": 2,
+    "explanation": "Laufkundschaft sind Kunden, die als Passanten zufällig „im Vorübergehen“ kaufen oder bei ständig wechselnden Anbietern. Das Gegenteil sind die Stammkunden.",
+    "difficulty": 1,
+    "tags": [
+      "Einkaufen",
+      "Wörter",
+      "Kunden"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Laufkundschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Laufkundschaft",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is “Laufkundschaft” (walk-in trade)?",
+        "options": [
+          "Customers who shop while jogging",
+          "Customers who always shop in the same store",
+          "Customers who buy by chance while passing by",
+          "Customers who only order online"
+        ],
+        "explanation": "Walk-in customers are passers-by who buy by chance “in passing”, or who keep switching between sellers. The opposite are regular customers."
+      }
+    }
+  },
+  {
+    "id": "b149",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Das Gebrauchsmuster wird der „kleine Bruder“ eines anderen Schutzrechts genannt. Welches?",
+    "options": [
+      "Des Handelsregisters",
+      "Der Marke",
+      "Des Urheberrechts",
+      "Des Patents"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Gebrauchsmuster ist der „kleine Bruder“ des Patents und schützt technische Erfindungen. In den meisten Ländern lässt es sich höchstens auf zehn Jahre verlängern. Geschützte Produkte tragen oft die Abkürzung „DBGM“.",
+    "difficulty": 3,
+    "tags": [
+      "Erfindungen",
+      "Recht",
+      "Schutz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gebrauchsmuster",
+    "source_url": "https://de.wikipedia.org/wiki/Gebrauchsmuster",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The utility model is called the “little brother” of another kind of protection. Which one?",
+        "options": [
+          "The commercial register",
+          "The trademark",
+          "Copyright",
+          "The patent"
+        ],
+        "explanation": "The utility model is the “little brother” of the patent and protects technical inventions. In most countries it can be extended to ten years at most. Protected products in Germany often carry the abbreviation “DBGM”."
+      }
+    }
+  },
+  {
+    "id": "b150",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Auf welchem Papier werden Kassenbons heute meist gedruckt?",
+    "options": [
+      "Auf Pergament",
+      "Auf Thermopapier",
+      "Auf Seidenpapier",
+      "Auf Pappe"
+    ],
+    "correct_index": 1,
+    "explanation": "Kassenbons werden meist im Thermodirektdruck gedruckt, und dafür braucht man Rollen aus Thermopapier. Dieses Papier altert teilweise recht schnell.",
+    "difficulty": 1,
+    "tags": [
+      "Einkaufen",
+      "Papier",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kassenbon",
+    "source_url": "https://de.wikipedia.org/wiki/Kassenbon",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What kind of paper are receipts mostly printed on today?",
+        "options": [
+          "Parchment",
+          "Thermal paper",
+          "Tissue paper",
+          "Cardboard"
+        ],
+        "explanation": "Receipts are mostly printed by direct thermal printing, which needs rolls of thermal paper. This paper can age quite quickly."
+      }
+    }
+  },
+  {
+    "id": "b151",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Welche Rolle hatte der Wochenmarkt früher, vor der Erfindung des Telefons, besonders?",
+    "options": [
+      "Er war die einzige Poststelle",
+      "Er ersetzte die Schule",
+      "Er war ein wichtiger Treffpunkt, um Neuigkeiten zu erfahren",
+      "Er war ein Sportfest"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf dem Wochenmarkt gibt es vor allem frische Lebensmittel wie Obst, Gemüse, Eier und Fisch. Er ist auch ein Treffpunkt – vor der Erfindung des Telefons war das als Informationsquelle noch wichtiger als heute.",
+    "difficulty": 2,
+    "tags": [
+      "Märkte",
+      "Alltag",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wochenmarkt",
+    "source_url": "https://de.wikipedia.org/wiki/Wochenmarkt",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What role did the weekly market play in the past, before the telephone was invented?",
+        "options": [
+          "It was the only post office",
+          "It replaced school",
+          "It was an important meeting place for hearing the news",
+          "It was a sports festival"
+        ],
+        "explanation": "The weekly market mainly sells fresh food such as fruit, vegetables, eggs and fish. It is also a meeting place – before the telephone was invented, this mattered even more as a source of news."
+      }
+    }
+  },
+  {
+    "id": "b152",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein Lieferschein?",
+    "options": [
+      "Eine Mahnung bei zu später Zahlung",
+      "Ein Führerschein für Lieferwagen",
+      "Ein Gutschein für kostenlosen Versand",
+      "Ein Begleitpapier, das mit der Ware mitgeschickt wird"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Lieferschein ist ein Warenbegleitpapier: Der Lieferant gibt darin Auskunft über die Lieferung. Er wird meist mit der Ware transportiert und hilft dem Käufer, sie zu kontrollieren.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Post",
+      "Papiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lieferschein",
+    "source_url": "https://de.wikipedia.org/wiki/Lieferschein",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a delivery note?",
+        "options": [
+          "A reminder for late payment",
+          "A driving licence for delivery vans",
+          "A voucher for free shipping",
+          "A document sent along with the goods"
+        ],
+        "explanation": "A delivery note is a document accompanying the goods: in it the supplier gives details of the delivery. It usually travels with the goods and helps the buyer check them."
+      }
+    }
   }
 ]
