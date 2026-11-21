@@ -1,0 +1,1601 @@
+[
+  {
+    "id": "t77",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was erfand Elisha Graves Otis 1853, damit Aufzüge sicherer wurden?",
+    "options": [
+      "Einen elektrischen Antrieb",
+      "Eine Fangvorrichtung, die den Absturz der Kabine verhindert",
+      "Eine automatische Schiebetür",
+      "Knöpfe, mit denen man das Stockwerk wählt"
+    ],
+    "correct_index": 1,
+    "explanation": "Otis überlegte, wie man einen Aufzug gegen einen Seilriss absichern kann. 1853 erfand er eine Fangvorrichtung, die den Absturz der Kabine verhindert. Die Lösung war eine harte Stahlfeder, an der das Tragseil befestigt wurde.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elisha Graves Otis",
+    "source_url": "https://de.wikipedia.org/wiki/Elisha Graves Otis",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did Elisha Graves Otis invent in 1853 to make lifts safer?",
+        "options": [
+          "An electric drive",
+          "A safety catch that stops the car from falling",
+          "An automatic sliding door",
+          "Buttons for choosing the floor"
+        ],
+        "explanation": "Otis wondered how to protect a lift against a broken rope. In 1853 he invented a safety catch that prevents the car from falling. The answer was a stiff steel spring to which the hoisting rope was attached."
+      }
+    }
+  },
+  {
+    "id": "t78",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Joseph Monier gilt als Erfinder des Eisenbetons – Beton mit einer Einlage aus Eisen. Welchen Beruf hatte er?",
+    "options": [
+      "Architekt",
+      "Brückenbauer",
+      "Gärtner",
+      "Schmied"
+    ],
+    "correct_index": 2,
+    "explanation": "Monier war ein französischer Gärtner. Seine Erfindungen begannen mit Pflanzkästen für kleine Orangenbäume, die er mit einer Einlage aus Drahtgewebe verstärkte. Er gilt als Erfinder des Eisenbetons. Nach ihm heißt Bewehrungsstahl auf Deutsch auch „Moniereisen“.",
+    "difficulty": 2,
+    "tags": [
+      "Erfindungen",
+      "Baustoffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Joseph Monier",
+    "source_url": "https://de.wikipedia.org/wiki/Joseph Monier",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Joseph Monier is regarded as the inventor of reinforced concrete – concrete with an iron insert. What was his job?",
+        "options": [
+          "Architect",
+          "Bridge builder",
+          "Gardener",
+          "Blacksmith"
+        ],
+        "explanation": "Monier was a French gardener. His inventions began with planters for small orange trees, which he strengthened with an insert of wire mesh. He is regarded as the inventor of reinforced concrete. In German, reinforcing steel is still sometimes called 'Moniereisen' after him."
+      }
+    }
+  },
+  {
+    "id": "t79",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wo ging 1967 das erste kommerziell genutzte Gezeitenkraftwerk der Welt ans Netz?",
+    "options": [
+      "In Japan",
+      "In Schottland",
+      "In Kanada",
+      "In Frankreich, in der Bretagne"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Gezeitenkraftwerk liegt an der Mündung des Flusses Rance bei Saint-Malo in der Bretagne. 1967 speiste es zum ersten Mal Strom ins Netz ein. Mit 240 Megawatt war es mehr als 40 Jahre lang mit großem Abstand das größte Kraftwerk dieser Art.",
+    "difficulty": 2,
+    "tags": [
+      "Energie",
+      "Kraftwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gezeitenkraftwerk Rance",
+    "source_url": "https://de.wikipedia.org/wiki/Gezeitenkraftwerk Rance",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the world's first commercially used tidal power station start supplying the grid in 1967?",
+        "options": [
+          "In Japan",
+          "In Scotland",
+          "In Canada",
+          "In France, in Brittany"
+        ],
+        "explanation": "The tidal power station lies at the mouth of the river Rance near Saint-Malo in Brittany. In 1967 it fed electricity into the grid for the first time. With 240 megawatts it was by far the largest power station of its kind for more than 40 years."
+      }
+    }
+  },
+  {
+    "id": "t80",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Die Pilatusbahn in der Schweiz ist die steilste Zahnradbahn der Welt. Wie steil wird sie höchstens?",
+    "options": [
+      "12 %",
+      "25 %",
+      "48 %",
+      "75 %"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Pilatusbahn fährt von Alpnachstad auf den Pilatus. Mit einer Steigung von bis zu 48 % – auf hundert Meter waagerechter Strecke geht es 48 Meter hinauf – ist sie die steilste Zahnradbahn der Welt. Eduard Locher entwickelte für sie eigens eine Zahnstange, in die die Zahnräder von der Seite greifen.",
+    "difficulty": 2,
+    "tags": [
+      "Bahn",
+      "Berge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pilatusbahn",
+    "source_url": "https://de.wikipedia.org/wiki/Pilatusbahn",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Pilatus Railway in Switzerland is the steepest rack railway in the world. What is its maximum gradient?",
+        "options": [
+          "12 %",
+          "25 %",
+          "48 %",
+          "75 %"
+        ],
+        "explanation": "The Pilatus Railway runs from Alpnachstad up Mount Pilatus. With a gradient of up to 48 % – it climbs 48 metres for every 100 metres measured horizontally – it is the steepest rack railway in the world. Eduard Locher developed a special rack for it in which the cogwheels engage from the side."
+      }
+    }
+  },
+  {
+    "id": "t81",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist das Falkirk Wheel in Schottland?",
+    "options": [
+      "Eine drehbare Brücke für Züge",
+      "Ein Wasserrad, das Strom für eine Stadt erzeugt",
+      "Ein Schiffshebewerk, das sich wie ein Riesenrad dreht",
+      "Ein Riesenrad auf einem Leuchtturm"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Falkirk Wheel hebt Boote zwischen zwei Kanälen 24 Meter hoch oder senkt sie ab. Weil es wie ein Riesenrad gebaut ist, ist es weltweit einmalig. Früher überwand man den Höhenunterschied mit einer Treppe aus 11 Schleusen auf 1,5 Kilometer Strecke.",
+    "difficulty": 1,
+    "tags": [
+      "Bauwerke",
+      "Schifffahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Falkirk Wheel",
+    "source_url": "https://de.wikipedia.org/wiki/Falkirk Wheel",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Falkirk Wheel in Scotland?",
+        "options": [
+          "A swing bridge for trains",
+          "A water wheel that makes electricity for a town",
+          "A boat lift that turns like a Ferris wheel",
+          "A Ferris wheel on top of a lighthouse"
+        ],
+        "explanation": "The Falkirk Wheel lifts boats 24 metres up or down between two canals. Because it is built like a Ferris wheel, it is unique in the world. In the past, this difference in height was overcome by a flight of 11 locks over 1.5 kilometres."
+      }
+    }
+  },
+  {
+    "id": "t82",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Das Home Insurance Building in Chicago gilt als erstes modernes Hochhaus der Welt. Wie hoch war es, als es 1885 fertig wurde?",
+    "options": [
+      "12 Meter",
+      "25 Meter",
+      "42 Meter",
+      "100 Meter"
+    ],
+    "correct_index": 2,
+    "explanation": "Mit damals einmaligen 42 Metern und zehn Etagen gilt das Home Insurance Building aus dem Jahr 1885 als erstes modernes Hochhaus der Welt. 1890 wurde es auf zwölf Etagen und 55 Meter erweitert, 1931 wurde es abgerissen.",
+    "difficulty": 2,
+    "tags": [
+      "Bauwerke",
+      "Hochhäuser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Home Insurance Building",
+    "source_url": "https://de.wikipedia.org/wiki/Home Insurance Building",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Home Insurance Building in Chicago is regarded as the world's first modern skyscraper. How tall was it when it was completed in 1885?",
+        "options": [
+          "12 metres",
+          "25 metres",
+          "42 metres",
+          "100 metres"
+        ],
+        "explanation": "At 42 metres and ten storeys – a height unique at the time – the Home Insurance Building of 1885 is regarded as the world's first modern skyscraper. In 1890 it was extended to twelve storeys and 55 metres; it was demolished in 1931."
+      }
+    }
+  },
+  {
+    "id": "t83",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür wurde die Fresnel-Linse mit ihren ringförmigen Stufen ursprünglich entwickelt?",
+    "options": [
+      "Für Leuchttürme",
+      "Für Brillen",
+      "Für Fernrohre",
+      "Für Fotokameras"
+    ],
+    "correct_index": 0,
+    "explanation": "Der französische Physiker Augustin Jean Fresnel entwickelte die Linse um 1822 für Leuchttürme; ab 1823 leuchtete sie im Leuchtturm von Cordouan. Ihre gekrümmte Oberfläche ist in eine Reihe ringförmiger Stufen aufgeteilt. Solche Linsen nutzt man bis heute, wenn Gewicht oder Dicke wichtiger sind als ein besonders scharfes Bild.",
+    "difficulty": 2,
+    "tags": [
+      "Optik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fresnel-Linse",
+    "source_url": "https://de.wikipedia.org/wiki/Fresnel-Linse",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the Fresnel lens, with its ring-shaped steps, originally developed for?",
+        "options": [
+          "For lighthouses",
+          "For glasses",
+          "For telescopes",
+          "For cameras"
+        ],
+        "explanation": "The French physicist Augustin Jean Fresnel developed the lens around 1822 for lighthouses; from 1823 it shone in the Cordouan lighthouse. Its curved surface is split into a series of ring-shaped steps. Such lenses are still used today when weight or thickness matters more than a perfectly sharp image."
+      }
+    }
+  },
+  {
+    "id": "t84",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Die Konservendose wurde 1810 zum Patent angemeldet. Womit öffnete man sie in den ersten Jahrzehnten?",
+    "options": [
+      "Mit einem Dosenöffner, der jeder Dose beilag",
+      "Mit starken Messern, manchmal auch mit Hammer und Meißel",
+      "Mit einer Lasche zum Aufziehen",
+      "Mit einem Schlüssel, der den Deckel aufrollt"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein eigenes Gerät zum Öffnen von Konservendosen entstand erst mehrere Jahrzehnte nach der Dose selbst. Bis dahin nahm man vor allem starke Messer, manchmal auch Hammer und Meißel oder ein Beil. Als erster patentierter Dosenöffner gilt ein Hebelmesser, das Robert Yeates 1855 in Großbritannien entwickelte.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindungen",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dosenöffner",
+    "source_url": "https://de.wikipedia.org/wiki/Dosenöffner",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The tin can was patented in 1810. How did people open it for the first few decades?",
+        "options": [
+          "With a can opener that came with every can",
+          "With strong knives, sometimes with a hammer and chisel",
+          "With a ring pull",
+          "With a key that rolled back the lid"
+        ],
+        "explanation": "A special tool for opening tin cans only appeared several decades after the can itself. Until then people mostly used strong knives, sometimes a hammer and chisel or an axe. The first patented can opener is considered to be a lever knife that Robert Yeates developed in Britain in 1855."
+      }
+    }
+  },
+  {
+    "id": "c75",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Womit fing die Geschichte des Sushi an?",
+    "options": [
+      "Mit Reisbällchen als Proviant für Reisende",
+      "Mit einem Rezept für rohen Thunfisch",
+      "Mit einer Methode, Fisch in Reis haltbar zu machen",
+      "Mit einem Gericht aus Algen und Muscheln"
+    ],
+    "correct_index": 2,
+    "explanation": "Sushi stammt ursprünglich nicht aus Japan. Am Fluss Mekong in Südostasien legte man gesäuberten Süßwasserfisch in gekochten Reis ein. Dort fermentierte er und blieb so haltbar. Den sauer gewordenen Reis warf man vor dem Essen weg.",
+    "difficulty": 2,
+    "tags": [
+      "Essen",
+      "Asien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sushi",
+    "source_url": "https://de.wikipedia.org/wiki/Sushi",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the story of sushi begin?",
+        "options": [
+          "With rice balls as food for travellers",
+          "With a recipe for raw tuna",
+          "With a way of preserving fish in rice",
+          "With a dish of seaweed and mussels"
+        ],
+        "explanation": "Sushi did not originally come from Japan. Along the Mekong river in Southeast Asia, people packed cleaned freshwater fish in cooked rice, where it fermented and so kept for a long time. The rice, which had turned sour, was thrown away before the fish was eaten."
+      }
+    }
+  },
+  {
+    "id": "c76",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Woher kommt wohl der Name „Brezel“?",
+    "options": [
+      "Vom französischen Wort für „Knoten“",
+      "Vom lateinischen Wort für „Brot“",
+      "Vom Namen eines Bäckers",
+      "Vom lateinischen Wort für „Arm“"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Sprachforschung leitet „Brezel“ vom lateinischen brachium ab, „der Arm“. Die umeinander geschlungenen Enden des Teigstrangs erinnerten an verschränkte Arme.",
+    "difficulty": 2,
+    "tags": [
+      "Essen",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brezel",
+    "source_url": "https://de.wikipedia.org/wiki/Brezel",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German word 'Brezel' (pretzel) probably come from?",
+        "options": [
+          "From the French word for 'knot'",
+          "From the Latin word for 'bread'",
+          "From the name of a baker",
+          "From the Latin word for 'arm'"
+        ],
+        "explanation": "Linguists trace 'Brezel' back to the Latin brachium, 'the arm'. The ends of the dough strand, looped around each other, were compared with crossed arms."
+      }
+    }
+  },
+  {
+    "id": "c77",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wann wird der Osterhase – soweit bekannt – zum ersten Mal schriftlich erwähnt?",
+    "options": [
+      "1682",
+      "1756",
+      "1815",
+      "1871"
+    ],
+    "correct_index": 0,
+    "explanation": "Soweit bekannt, erwähnt ihn zuerst der Frankfurter Arzt Johannes Richier in seiner Doktorarbeit „Von Oster-Eyern“ aus dem Jahr 1682. Im Brauchtum bemalt der Osterhase zu Ostern Eier und versteckt sie im Garten.",
+    "difficulty": 2,
+    "tags": [
+      "Feste",
+      "Brauchtum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Osterhase",
+    "source_url": "https://de.wikipedia.org/wiki/Osterhase",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When was the Easter Bunny first mentioned in writing, as far as we know?",
+        "options": [
+          "1682",
+          "1756",
+          "1815",
+          "1871"
+        ],
+        "explanation": "As far as we know, the first mention comes from the Frankfurt doctor Johannes Richier in his doctoral thesis 'On Easter Eggs' from 1682. In the custom, the Easter Bunny paints eggs at Easter and hides them in the garden."
+      }
+    }
+  },
+  {
+    "id": "c78",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Welcher Weihnachtsmarkt ist der älteste in Deutschland, der durch eine Urkunde belegt ist?",
+    "options": [
+      "Der Nürnberger Christkindlesmarkt",
+      "Der Dresdner Striezelmarkt",
+      "Der Weihnachtsmarkt am Kölner Dom",
+      "Der Weihnachtsmarkt am Frankfurter Römer"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Dresdner Striezelmarkt findet seit 1434 im Advent statt, meist auf dem Altmarkt. Er ist der älteste mit einer Urkunde bestätigte Weihnachtsmarkt Deutschlands. Sein Name kommt vom Dresdner Stollen, der im Mittelhochdeutschen „Striezel“ genannt wurde.",
+    "difficulty": 1,
+    "tags": [
+      "Feste",
+      "Weihnachten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Striezelmarkt",
+    "source_url": "https://de.wikipedia.org/wiki/Striezelmarkt",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which Christmas market is the oldest in Germany to be documented by a charter?",
+        "options": [
+          "The Nuremberg Christkindlesmarkt",
+          "The Dresden Striezelmarkt",
+          "The Christmas market at Cologne Cathedral",
+          "The Christmas market at Frankfurt's Römer"
+        ],
+        "explanation": "The Dresden Striezelmarkt has been held in Advent since 1434, mostly on the Altmarkt square. It is the oldest Christmas market in Germany confirmed by a charter. Its name comes from the Dresden stollen, a long yeast cake called 'Striezel' in Middle High German."
+      }
+    }
+  },
+  {
+    "id": "c79",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer entwickelte die Kampfkunst Capoeira?",
+    "options": [
+      "Studenten in Lissabon",
+      "Seeleute in portugiesischen Häfen",
+      "Versklavte Menschen aus Afrika im kolonialen Brasilien",
+      "Fischer in der Karibik"
+    ],
+    "correct_index": 2,
+    "explanation": "Capoeira ist eine afro-brasilianische Kampfkunst. Sie wurde während der Kolonialzeit in Brasilien von versklavten Menschen aus Afrika entwickelt. Ihr zentrales Ritual, die Capoeira-Roda – ein Kreis, in dem Capoeira zu Musik praktiziert wird –, gehört seit 2014 zum immateriellen Kulturerbe der Menschheit der UNESCO.",
+    "difficulty": 2,
+    "tags": [
+      "Tanz",
+      "Brasilien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Capoeira",
+    "source_url": "https://de.wikipedia.org/wiki/Capoeira",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who developed the martial art capoeira?",
+        "options": [
+          "Students in Lisbon",
+          "Sailors in Portuguese ports",
+          "Enslaved people from Africa in colonial Brazil",
+          "Fishermen in the Caribbean"
+        ],
+        "explanation": "Capoeira is an Afro-Brazilian martial art. It was developed during the colonial era in Brazil by enslaved people from Africa. Its central ritual, the capoeira roda – a circle in which capoeira is practised to music – has been on UNESCO's list of the Intangible Cultural Heritage of Humanity since 2014."
+      }
+    }
+  },
+  {
+    "id": "c80",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie viele Gartenzwerge stehen nach Schätzungen allein in deutschen Gärten?",
+    "options": [
+      "Etwa 250.000",
+      "Etwa 2,5 Millionen",
+      "Etwa 25 Millionen",
+      "Etwa 250 Millionen"
+    ],
+    "correct_index": 2,
+    "explanation": "Nach Schätzungen stehen allein in deutschen Gärten etwa 25 Millionen Gartenzwerge. Ursprünglich waren sie aus Marmor, Sandstein oder gebranntem Ton und von Hand bemalt, heute gibt es sie auch aus Kunststoff. In großer Zahl hergestellt wurden sie unter anderem in Gräfenroda in Thüringen – dort gibt es heute ein Gartenzwergmuseum.",
+    "difficulty": 2,
+    "tags": [
+      "Garten",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gartenzwerg",
+    "source_url": "https://de.wikipedia.org/wiki/Gartenzwerg",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to estimates, how many garden gnomes stand in German gardens alone?",
+        "options": [
+          "About 250,000",
+          "About 2.5 million",
+          "About 25 million",
+          "About 250 million"
+        ],
+        "explanation": "Estimates put the number of garden gnomes in German gardens alone at about 25 million. They were originally made of marble, sandstone or fired clay and painted by hand; today there are plastic ones too. Among other places, they were mass-produced in Gräfenroda in Thuringia, which now has a garden gnome museum."
+      }
+    }
+  },
+  {
+    "id": "c81",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Über die Herkunft des Schuhplattlers gibt es mehrere Legenden. Welchem Tier soll der Tanz nach einer davon nachempfunden sein?",
+    "options": [
+      "Dem springenden Steinbock",
+      "Dem balzenden Auerhahn",
+      "Dem trommelnden Specht",
+      "Dem röhrenden Hirsch"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Schuhplattler schlagen die Tänzer mit den Händen auf Oberschenkel und Schuhe. Entstanden ist der Tanz aus dem Ländler. Über seine Herkunft gibt es mehrere Legenden – nach einer ist er dem Balztanz des Auerhahns nachempfunden.",
+    "difficulty": 1,
+    "tags": [
+      "Tanz",
+      "Brauchtum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schuhplattler",
+    "source_url": "https://de.wikipedia.org/wiki/Schuhplattler",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "There are several legends about the origin of the Schuhplattler, a folk dance from Bavaria and Tyrol. According to one of them, which animal is the dance modelled on?",
+        "options": [
+          "The leaping ibex",
+          "The courting capercaillie",
+          "The drumming woodpecker",
+          "The roaring stag"
+        ],
+        "explanation": "In the Schuhplattler, dancers slap their thighs and shoes with their hands. The dance developed from the Ländler. There are several legends about its origin – according to one, it imitates the courtship dance of the capercaillie."
+      }
+    }
+  },
+  {
+    "id": "c82",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie entsteht der Ruf einer Kuckucksuhr?",
+    "options": [
+      "Ein Hämmerchen schlägt auf zwei Glocken",
+      "Eine Metallzunge wird angerissen",
+      "Blasebälge pumpen Luft in zwei unterschiedlich hohe Pfeifen",
+      "Eine kleine Spieldose spielt ihn ab"
+    ],
+    "correct_index": 2,
+    "explanation": "Kuckucksuhren werden traditionell vor allem im Schwarzwald gefertigt. Den „Kuckucksruf“ erzeugen zwei unterschiedlich hohe Pfeifen im Inneren der Uhr: Jeder Blasebalg pumpt Luft in eine kleine Pfeife – zuerst erklingt der hohe, dann der tiefere Ton.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Uhren"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kuckucksuhr",
+    "source_url": "https://de.wikipedia.org/wiki/Kuckucksuhr",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a cuckoo clock make its call?",
+        "options": [
+          "A little hammer strikes two bells",
+          "A metal tine is plucked",
+          "Bellows pump air into two pipes of different pitch",
+          "A small music box plays it"
+        ],
+        "explanation": "Cuckoo clocks are traditionally made mainly in the Black Forest. The 'cuckoo' call comes from two pipes of different pitch inside the clock: each bellows pumps air into a small pipe – first the higher note sounds, then the lower one."
+      }
+    }
+  },
+  {
+    "id": "m84",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Schneidet man einen Würfel an einigen Kanten auf und klappt ihn flach aus, entsteht ein Netz aus sechs Quadraten. Wie viele verschiedene Würfelnetze gibt es?",
+    "options": [
+      "Sechs",
+      "Acht",
+      "Elf",
+      "Vierundzwanzig"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Würfel hat 6 gleich große Quadrate als Seitenflächen. Klappt man ihn auf, gibt es genau elf verschiedene Netze. Der Würfel ist übrigens einer der fünf platonischen Körper.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie",
+      "Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Würfel (Geometrie)",
+    "source_url": "https://de.wikipedia.org/wiki/Würfel (Geometrie)",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "If you cut a cube along some of its edges and fold it out flat, you get a net of six squares. How many different nets does a cube have?",
+        "options": [
+          "Six",
+          "Eight",
+          "Eleven",
+          "Twenty-four"
+        ],
+        "explanation": "A cube has 6 identical squares as its faces. Unfolded, it has exactly eleven different nets. The cube is also one of the five Platonic solids."
+      }
+    }
+  },
+  {
+    "id": "m85",
+    "kind": "question",
+    "category_id": "math",
+    "question": "An welchem Tag feiern Fans der Kreiszahl π den Pi-Tag?",
+    "options": [
+      "Am 31. Oktober",
+      "Am 3. Januar",
+      "Am 1. April",
+      "Am 14. März"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Pi-Tag geht auf die US-amerikanische Schreibweise des Datums zurück: 3/14 steht für den 14. März – das sind die ersten Ziffern von π. Besonders genaue Fans feiern um 1:59:26 Uhr nachmittags (13:59:26 Uhr): Zusammen mit 3/14 ergibt das π bis zur siebten Nachkommastelle. Traditionell isst man dabei gemeinsam runde Kuchen.",
+    "difficulty": 1,
+    "tags": [
+      "Kreiszahl",
+      "Feste"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pi-Tag",
+    "source_url": "https://de.wikipedia.org/wiki/Pi-Tag",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which day do fans of the number π celebrate Pi Day?",
+        "options": [
+          "On 31 October",
+          "On 3 January",
+          "On 1 April",
+          "On 14 March"
+        ],
+        "explanation": "Pi Day comes from the US way of writing dates: 3/14 means 14 March – the first digits of π. Particularly precise fans celebrate at 1:59:26 in the afternoon: together with 3/14 that gives π to seven decimal places. Traditionally, people eat round pies together."
+      }
+    }
+  },
+  {
+    "id": "m86",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Aus welchem Buchstaben ist das Wurzelzeichen √ wohl entstanden?",
+    "options": [
+      "Aus einem kleinen r",
+      "Aus einem kleinen v",
+      "Aus einem großen W",
+      "Aus einem großen L"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Wurzelzeichen √ stammt wohl vom kleinen Buchstaben r und steht für „radizieren“, also die Wurzel ziehen. Eine andere Erklärung ist ein Punkt mit einem verzierten Aufstrich. Verwendet hat das Zeichen zuerst der deutsche Mathematiker Christoph Rudolff im Jahr 1525.",
+    "difficulty": 2,
+    "tags": [
+      "Zeichen",
+      "Wurzeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wurzelzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Wurzelzeichen",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which letter did the root sign √ probably develop from?",
+        "options": [
+          "From a small r",
+          "From a small v",
+          "From a capital W",
+          "From a capital L"
+        ],
+        "explanation": "The root sign √ probably comes from the small letter r and stands for 'radizieren', German for taking a root. Another explanation is a dot with a decorative upstroke. The German mathematician Christoph Rudolff was the first to use the sign, in 1525."
+      }
+    }
+  },
+  {
+    "id": "m87",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ließ der Mathematiker Ludolph van Ceulen (1540–1610) in seinen Grabstein eingravieren?",
+    "options": [
+      "Den Satz des Pythagoras",
+      "Die Kreiszahl π mit 35 Nachkommastellen",
+      "Die ersten hundert Primzahlen",
+      "Ein Bild des Goldenen Schnitts"
+    ],
+    "correct_index": 1,
+    "explanation": "Ludolph van Ceulen war Fechtmeister und Mathematiker. Er berechnete die Kreiszahl π auf 35 Nachkommastellen genau – damit verbrachte er einen großen Teil seines Lebens. Diese 35 Stellen ließ er in seinen Grabstein eingravieren. Deshalb nannte man π auch die „Ludolphsche Zahl“.",
+    "difficulty": 2,
+    "tags": [
+      "Kreiszahl",
+      "Mathematiker"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ludolph van Ceulen",
+    "source_url": "https://de.wikipedia.org/wiki/Ludolph van Ceulen",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the mathematician Ludolph van Ceulen (1540–1610) have engraved on his tombstone?",
+        "options": [
+          "Pythagoras' theorem",
+          "The number π to 35 decimal places",
+          "The first hundred prime numbers",
+          "A picture of the golden ratio"
+        ],
+        "explanation": "Ludolph van Ceulen was a fencing master and mathematician. He calculated π to 35 decimal places – a task that took up a large part of his life. He had these 35 digits engraved on his tombstone. That is why π was also called the 'Ludolphine number'."
+      }
+    }
+  },
+  {
+    "id": "m88",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Aus 10 Steinen kann man ein gefülltes Dreieck legen: 4 + 3 + 2 + 1. Solche Zahlen heißen Dreieckszahlen. Welche dieser Zahlen ist auch eine?",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "28"
+    ],
+    "correct_index": 3,
+    "explanation": "Dreieckszahlen geben an, wie viele Steine man für ein gefülltes gleichseitiges Dreieck braucht: 1, 3, 6, 10, 15, 21, 28 … Aus 10 Steinen wird ein Dreieck mit vier Steinen pro Seite. Für 28 Steine legt man 7 + 6 + 5 + 4 + 3 + 2 + 1 – sieben Steine pro Seite.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen",
+      "Muster"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dreieckszahl",
+    "source_url": "https://de.wikipedia.org/wiki/Dreieckszahl",
+    "created_at": "2026-11-01T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "With 10 stones you can lay out a filled triangle: 4 + 3 + 2 + 1. Such numbers are called triangular numbers. Which of these numbers is one too?",
+        "options": [
+          "18",
+          "20",
+          "24",
+          "28"
+        ],
+        "explanation": "Triangular numbers tell you how many stones you need for a filled equilateral triangle: 1, 3, 6, 10, 15, 21, 28 … 10 stones make a triangle with four stones on each side. For 28 stones you lay 7 + 6 + 5 + 4 + 3 + 2 + 1 – seven stones on each side."
+      }
+    }
+  },
+  {
+    "id": "m89",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Woraus ist das Prozentzeichen % entstanden?",
+    "options": [
+      "Aus dem griechischen Buchstaben Omega",
+      "Aus einem Bruch mit zwei Nullen",
+      "Aus zwei Münzen und einem Strich",
+      "Aus dem italienischen „per cento“ (von hundert)"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Zeichen % entstand mit der Zeit, indem man das italienische „per cento“ („von hundert“) immer weiter zusammenzog und vereinfachte. Prozent heißt also „von hundert“: 5 % sind 5 von hundert.",
+    "difficulty": 1,
+    "tags": [
+      "Zeichen",
+      "Prozent"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Prozentzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Prozentzeichen",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the percent sign % come from?",
+        "options": [
+          "From the Greek letter omega",
+          "From a fraction with two zeros",
+          "From two coins and a stroke",
+          "From the Italian 'per cento' (of a hundred)"
+        ],
+        "explanation": "Over time the sign % developed as people shortened and stylised the Italian 'per cento' ('of a hundred') more and more. So percent means 'of a hundred': 5 % is 5 out of 100."
+      }
+    }
+  },
+  {
+    "id": "m90",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welches Malzeichen benutzen Tabellenkalkulationen und Programmiersprachen?",
+    "options": [
+      "Den Malpunkt ⋅",
+      "Das Sternchen *",
+      "Das Malkreuz ×",
+      "Den Buchstaben x"
+    ],
+    "correct_index": 1,
+    "explanation": "In der Mathematik schreibt man meist den Malpunkt ⋅, seltener das Malkreuz ×. Tabellenkalkulationen und Programmiersprachen nehmen dagegen das Sternchen *: 3*4 heißt 3 mal 4.",
+    "difficulty": 1,
+    "tags": [
+      "Zeichen",
+      "Computer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Malzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Malzeichen",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which multiplication sign do spreadsheets and programming languages use?",
+        "options": [
+          "The dot ⋅",
+          "The asterisk *",
+          "The cross ×",
+          "The letter x"
+        ],
+        "explanation": "In mathematics a raised dot ⋅ or a cross × is used for multiplication. Spreadsheets and programming languages use the asterisk * instead: 3*4 means 3 times 4."
+      }
+    }
+  },
+  {
+    "id": "m91",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Würfel hat 8 Ecken, 12 Kanten und 6 Flächen. Was ergibt Ecken − Kanten + Flächen?",
+    "options": [
+      "0",
+      "2",
+      "6",
+      "26"
+    ],
+    "correct_index": 1,
+    "explanation": "8 − 12 + 6 = 2. Das ist kein Zufall: Nach dem eulerschen Polyedersatz, benannt nach Leonhard Euler, gilt für alle konvexen Polyeder – Körper mit ebenen Flächen und ohne Dellen –: Ecken minus Kanten plus Flächen ist gleich zwei. Eine Pyramide mit quadratischer Grundfläche: 5 − 8 + 5 = 2.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie",
+      "Körper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eulerscher Polyedersatz",
+    "source_url": "https://de.wikipedia.org/wiki/Eulerscher Polyedersatz",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A cube has 8 vertices, 12 edges and 6 faces. What is vertices − edges + faces?",
+        "options": [
+          "0",
+          "2",
+          "6",
+          "26"
+        ],
+        "explanation": "8 − 12 + 6 = 2. That is no coincidence: Euler's polyhedron formula, named after Leonhard Euler, says that for every convex polyhedron – a solid with flat faces and no dents – vertices minus edges plus faces equals two. A pyramid with a square base: 5 − 8 + 5 = 2."
+      }
+    }
+  },
+  {
+    "id": "l106",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie wird das @ umgangssprachlich auf Deutsch oft genannt?",
+    "options": [
+      "Kringelmaus",
+      "Rollmops",
+      "Klammeraffe",
+      "Ohrwurm"
+    ],
+    "correct_index": 2,
+    "explanation": "Das @ heißt At-Zeichen, in Deutschland nach der Norm DIN 5008 auch Adresszeichen. Umgangssprachlich sagt man Klammeraffe, Affenschwanz, Affenohr oder Affenschaukel. In E-Mail-Adressen steht es zwischen Benutzername und Domain.",
+    "difficulty": 1,
+    "tags": [
+      "Zeichen",
+      "Internet"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: At-Zeichen",
+    "source_url": "https://de.wikipedia.org/wiki/At-Zeichen",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the @ sign often called in colloquial German?",
+        "options": [
+          "Kringelmaus ('curly mouse')",
+          "Rollmops ('rolled herring')",
+          "Klammeraffe ('clinging monkey')",
+          "Ohrwurm ('earworm')"
+        ],
+        "explanation": "The @ is called the at sign; in Germany the DIN 5008 standard also calls it the address sign. In everyday German it is called Klammeraffe ('clinging monkey'), Affenschwanz ('monkey's tail'), Affenohr ('monkey's ear') or Affenschaukel ('monkey swing'). In email addresses it sits between the user name and the domain."
+      }
+    }
+  },
+  {
+    "id": "l107",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Warum ist die Sprache Rotokas von der Insel Bougainville unter Sprachforschern bekannt?",
+    "options": [
+      "Sie hat kein Wort für „nein“",
+      "Sie wird nur gepfiffen",
+      "Sie kennt nur Wörter mit einer Silbe",
+      "Sie hat die kleinste bekannte Zahl an Sprachlauten"
+    ],
+    "correct_index": 3,
+    "explanation": "Rotokas ist eine von acht Papuasprachen auf der Insel Bougainville und hat etwa 4320 Sprecherinnen und Sprecher. Sie verfügt über die kleinste bekannte Anzahl von Sprachlauten. Und anders als fast alle Sprachen der Welt hat sie keine Nasale – also keine Laute wie m oder n.",
+    "difficulty": 3,
+    "tags": [
+      "Sprachen der Welt",
+      "Laute"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rotokas",
+    "source_url": "https://de.wikipedia.org/wiki/Rotokas",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the Rotokas language from the island of Bougainville well known among linguists?",
+        "options": [
+          "It has no word for 'no'",
+          "It is only whistled",
+          "It only has one-syllable words",
+          "It has the smallest known number of speech sounds"
+        ],
+        "explanation": "Rotokas is one of eight Papuan languages spoken on the island of Bougainville and has about 4,320 speakers. It has the smallest known number of speech sounds. And unlike almost every other language in the world, it has no nasals – no sounds like m or n."
+      }
+    }
+  },
+  {
+    "id": "l108",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wann kann man in Norddeutschland mit „Moin“ grüßen?",
+    "options": [
+      "Zu jeder Tages- und Nachtzeit",
+      "Nur am Morgen",
+      "Nur bis zum Mittag",
+      "Nur am Abend"
+    ],
+    "correct_index": 0,
+    "explanation": "„Moin“ ist ein Gruß, der vor allem im westlichen Norddeutschland verbreitet ist – und er passt zu jeder Tages- und Nachtzeit. Viele nehmen an, dass er vom plattdeutschen „moi“ kommt, das „angenehm, gut, schön“ bedeutet.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch",
+      "Grüße"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moin",
+    "source_url": "https://de.wikipedia.org/wiki/Moin",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When can you greet someone with 'Moin' in northern Germany?",
+        "options": [
+          "At any time of day or night",
+          "Only in the morning",
+          "Only until noon",
+          "Only in the evening"
+        ],
+        "explanation": "'Moin' is a greeting used mainly in the western part of northern Germany – and it works at any time of day or night. Many people assume it comes from the Low German word 'moi', meaning 'pleasant, good, nice'."
+      }
+    }
+  },
+  {
+    "id": "l109",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Wort „Rind­fleisch­etikettierungs­überwachungs­aufgaben­übertragungs­gesetz“ gilt als eines der längsten wirklich verwendeten deutschen Wörter. Wie viele Buchstaben hat es?",
+    "options": [
+      "33",
+      "48",
+      "63",
+      "81"
+    ],
+    "correct_index": 2,
+    "explanation": "Es hat 63 Buchstaben – und ist damit eines der längsten real verwendeten zusammengesetzten Hauptwörter der deutschen Sprache. So hieß ein Gesetz, das 1999 in Mecklenburg-Vorpommern eingeführt und 2013 wieder aufgehoben wurde.",
+    "difficulty": 2,
+    "tags": [
+      "Deutsch",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German word 'Rind­fleisch­etikettierungs­überwachungs­aufgaben­übertragungs­gesetz' (roughly: law on delegating the supervision of beef labelling) is one of the longest German words ever really used. How many letters does it have?",
+        "options": [
+          "33",
+          "48",
+          "63",
+          "81"
+        ],
+        "explanation": "It has 63 letters – making it one of the longest compound nouns ever actually used in German. It was the name of a law introduced in the state of Mecklenburg-Western Pomerania in 1999 and repealed in 2013."
+      }
+    }
+  },
+  {
+    "id": "l110",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Interrobang ‽ ist ein Satzzeichen. Welche beiden Zeichen vereint es?",
+    "options": [
+      "Anführungszeichen und Klammer",
+      "Komma und Punkt",
+      "Doppelpunkt und Gedankenstrich",
+      "Fragezeichen und Ausrufezeichen"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Interrobang ‽ vereint die Aufgaben von Fragezeichen und Ausrufezeichen – zum Beispiel für eine erstaunte Frage wie „Du hast was gemacht‽“. Erfunden hat es 1962 der Chef einer US-amerikanischen Werbeagentur.",
+    "difficulty": 2,
+    "tags": [
+      "Zeichen",
+      "Satzzeichen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Interrobang",
+    "source_url": "https://de.wikipedia.org/wiki/Interrobang",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The interrobang ‽ is a punctuation mark. Which two marks does it combine?",
+        "options": [
+          "Quotation mark and bracket",
+          "Comma and full stop",
+          "Colon and dash",
+          "Question mark and exclamation mark"
+        ],
+        "explanation": "The interrobang ‽ combines the jobs of a question mark and an exclamation mark – for example in an astonished question like 'You did what‽'. It was invented in 1962 by the head of an American advertising agency."
+      }
+    }
+  },
+  {
+    "id": "l111",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was beschreibt das japanische Wort „Tsundoku“?",
+    "options": [
+      "Bücher kaufen, die sich dann ungelesen stapeln",
+      "Ein Buch in einem Rutsch durchlesen",
+      "Bücher nach Farben ins Regal sortieren",
+      "Beim Lesen einschlafen"
+    ],
+    "correct_index": 0,
+    "explanation": "Tsundoku bedeutet, dass man Lesestoff kauft, der sich dann zu Hause stapelt, ohne gelesen zu werden. Das Wort entstand in der Meiji-Zeit (1868–1912) als japanischer Slang.",
+    "difficulty": 2,
+    "tags": [
+      "Wörter",
+      "Japanisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tsundoku",
+    "source_url": "https://de.wikipedia.org/wiki/Tsundoku",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Japanese word 'tsundoku' describe?",
+        "options": [
+          "Buying books that then pile up unread",
+          "Reading a book in one go",
+          "Sorting books on the shelf by colour",
+          "Falling asleep while reading"
+        ],
+        "explanation": "Tsundoku means buying reading material that then piles up at home without being read. The word arose as Japanese slang in the Meiji era (1868–1912)."
+      }
+    }
+  },
+  {
+    "id": "l112",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet der Gruß „Servus“ ursprünglich?",
+    "options": [
+      "Gute Reise",
+      "Ich bin dein Diener",
+      "Sei gegrüßt, Freund",
+      "Bis bald"
+    ],
+    "correct_index": 1,
+    "explanation": "„Servus“ kommt aus dem Lateinischen: servus heißt „der Sklave“ oder „der Knecht“. Als Gruß bedeutet es kurz „Ich bin dein Diener“ oder „zu Diensten“. Ähnlich ist „ciao“ entstanden – vom italienischen Wort schiavo für Sklave.",
+    "difficulty": 1,
+    "tags": [
+      "Deutsch",
+      "Grüße"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Servus",
+    "source_url": "https://de.wikipedia.org/wiki/Servus",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the greeting 'Servus', common in Bavaria and Austria, originally mean?",
+        "options": [
+          "Have a good journey",
+          "I am your servant",
+          "Greetings, friend",
+          "See you soon"
+        ],
+        "explanation": "'Servus' comes from Latin: servus means 'slave' or 'servant'. As a greeting it is short for 'I am your servant' or 'at your service'. 'Ciao' came about in a similar way – from the Italian word schiavo, slave."
+      }
+    }
+  },
+  {
+    "id": "l113",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Die Plansprache Volapük wurde 1879/80 von einem Pfarrer geschaffen. Was bedeutet ihr Name?",
+    "options": [
+      "Friedenssprache",
+      "Volkssprache",
+      "Weltsprache",
+      "Hoffnung"
+    ],
+    "correct_index": 2,
+    "explanation": "„Volapük“ heißt auf Volapük „Weltsprache“. Geschaffen hat sie der Pfarrer Johann Martin Schleyer. Zunächst versuchte er, aus sechs europäischen Sprachen eine gemischte Sprache zu bauen. Nach Solresol war Volapük die zweite Plansprache überhaupt, die nennenswert verbreitet war.",
+    "difficulty": 2,
+    "tags": [
+      "Plansprachen",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Volapük",
+    "source_url": "https://de.wikipedia.org/wiki/Volapük",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The constructed language Volapük was created by a priest in 1879/80. What does its name mean?",
+        "options": [
+          "Language of peace",
+          "People's language",
+          "World language",
+          "Hope"
+        ],
+        "explanation": "In Volapük, 'Volapük' means 'world language'. It was created by the priest Johann Martin Schleyer, who first tried to build a mixed language out of six European languages. After Solresol, Volapük was only the second constructed language ever to spread noticeably."
+      }
+    }
+  },
+  {
+    "id": "ti120",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Waschbären stammen aus Nordamerika. Was war ein wichtiges Ereignis für ihre Ausbreitung in Europa?",
+    "options": [
+      "1934 wurden am Edersee in Hessen zwei Waschbärpaare ausgesetzt",
+      "Ein Frachtschiff mit Waschbären sank vor der Küste",
+      "Waschbären wanderten über das Eis aus Sibirien ein",
+      "Ein Zoo in Paris ließ alle seine Waschbären frei"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Waschbär ist in Nordamerika zu Hause. Für seine Ausbreitung in Europa war ein Tag besonders wichtig: Am 12. April 1934 wurden am Edersee in Hessen zwei Waschbärpaare ausgesetzt.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Einwanderer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Waschbär",
+    "source_url": "https://de.wikipedia.org/wiki/Waschbär",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Raccoons come from North America. What was an important event for their spread in Europe?",
+        "options": [
+          "In 1934 two pairs of raccoons were released at Lake Eder in Hesse",
+          "A cargo ship carrying raccoons sank off the coast",
+          "Raccoons crossed the ice from Siberia",
+          "A zoo in Paris released all its raccoons"
+        ],
+        "explanation": "The raccoon is native to North America. One day was especially important for its spread in Europe: on 12 April 1934, two pairs of raccoons were released at Lake Eder (Edersee) in Hesse, Germany."
+      }
+    }
+  },
+  {
+    "id": "ti121",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Alle heute lebenden Wisente stammen von wenigen Tieren ab, die in Zoos und Gehegen gehalten wurden. Von wie vielen?",
+    "options": [
+      "Nur zwei",
+      "Zwölf",
+      "Etwa 120",
+      "Über 1000"
+    ],
+    "correct_index": 1,
+    "explanation": "In den 1920er-Jahren war der Wisent akut vom Aussterben bedroht: Der letzte frei lebende Wisent wurde 1927 im Kaukasus geschossen. Alle heute lebenden Wisente stammen von zwölf Tieren ab, die in Zoos und Tiergehegen gehalten wurden.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Artenschutz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wisent",
+    "source_url": "https://de.wikipedia.org/wiki/Wisent",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "All wisents (European bison) alive today descend from a few animals kept in zoos and enclosures. How many?",
+        "options": [
+          "Only two",
+          "Twelve",
+          "About 120",
+          "Over 1,000"
+        ],
+        "explanation": "In the 1920s the wisent was on the brink of extinction: the last wild wisent was shot in the Caucasus in 1927. All wisents alive today descend from twelve animals kept in zoos and wildlife parks."
+      }
+    }
+  },
+  {
+    "id": "ti122",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Katze ist nach dem Persischen Leoparden die größte Europas?",
+    "options": [
+      "Die Europäische Wildkatze",
+      "Der Eurasische Luchs",
+      "Der Gepard",
+      "Der Puma"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Eurasische Luchs ist nach dem Persischen Leoparden, der im Kaukasus vorkommt, die größte Katze Europas – und die größte der vier Luchsarten. In West- und Mitteleuropa war er weitgehend verschwunden; ab etwa 1950 wanderte er wieder ein und wurde auch gezielt wieder angesiedelt.",
+    "difficulty": 1,
+    "tags": [
+      "Säugetiere",
+      "Katzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eurasischer Luchs",
+    "source_url": "https://de.wikipedia.org/wiki/Eurasischer Luchs",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "After the Persian leopard, which is the largest cat in Europe?",
+        "options": [
+          "The European wildcat",
+          "The Eurasian lynx",
+          "The cheetah",
+          "The puma"
+        ],
+        "explanation": "After the Persian leopard, which lives in the Caucasus, the Eurasian lynx is the largest cat in Europe – and the largest of the four lynx species. It had largely disappeared from western and central Europe; from about 1950 it moved back in and was also deliberately reintroduced."
+      }
+    }
+  },
+  {
+    "id": "ti123",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist das „Geweih“ des männlichen Hirschkäfers in Wirklichkeit?",
+    "options": [
+      "Umgebaute Vorderbeine",
+      "Verlängerte Fühler",
+      "Stark vergrößerte Oberkiefer",
+      "Hörner aus dem Panzer"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Männchen sind die Mandibeln, also die Oberkiefer, geweihartig vergrößert – daher hat der Hirschkäfer seinen Namen. Er gehört zu den größten und auffälligsten Käfern Europas und war 2012 das Insekt des Jahres.",
+    "difficulty": 1,
+    "tags": [
+      "Insekten",
+      "Käfer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hirschkäfer",
+    "source_url": "https://de.wikipedia.org/wiki/Hirschkäfer",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the 'antlers' of a male stag beetle really?",
+        "options": [
+          "Modified front legs",
+          "Extra-long antennae",
+          "Greatly enlarged mandibles (upper jaws)",
+          "Horns growing from its shell"
+        ],
+        "explanation": "In males, the mandibles – the upper jaws – are enlarged like antlers, which is how the stag beetle got its name. It is one of the largest and most striking beetles in Europe and was Insect of the Year 2012."
+      }
+    }
+  },
+  {
+    "id": "ti124",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Der Siebenpunkt-Marienkäfer hat auf jedem roten Flügel drei schwarze Punkte. Wo sitzt der siebte?",
+    "options": [
+      "Er wächst erst mit dem Alter dazu",
+      "Auf dem Kopf",
+      "Auf dem Bauch",
+      "Vorn in der Mitte, auf dem Schildchen zwischen den Flügeln"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Deckflügel sind rot und tragen jeweils drei schwarze Punkte. Der siebte Punkt sitzt auf dem Schildchen, vorn in der Mitte zwischen den beiden Deckflügeln. Vorne links und rechts davon liegen zwei kleine weiße, dreieckige Flecken.",
+    "difficulty": 1,
+    "tags": [
+      "Insekten",
+      "Käfer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Siebenpunkt-Marienkäfer",
+    "source_url": "https://de.wikipedia.org/wiki/Siebenpunkt-Marienkäfer",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The seven-spot ladybird has three black spots on each red wing case. Where is the seventh?",
+        "options": [
+          "It only grows as the beetle gets older",
+          "On its head",
+          "On its belly",
+          "At the front in the middle, on the small shield between the wing cases"
+        ],
+        "explanation": "The wing cases are red and each has three black spots. The seventh spot sits on the scutellum, the small shield at the front in the middle between the two wing cases. In front of it, on either side, are two small white triangular patches."
+      }
+    }
+  },
+  {
+    "id": "ti125",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Von welchem wild lebenden Vogel stammen alle Haushühner ab?",
+    "options": [
+      "Vom Bankivahuhn aus Südostasien",
+      "Vom Fasan",
+      "Vom Auerhuhn",
+      "Vom Rebhuhn"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Bankivahuhn ist die wild lebende Stammform des Haushuhns. Alle heutigen Hühnerrassen stammen von diesem südostasiatischen Vogel ab.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Haustiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bankivahuhn",
+    "source_url": "https://de.wikipedia.org/wiki/Bankivahuhn",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which wild bird are all domestic chickens descended from?",
+        "options": [
+          "The red junglefowl from Southeast Asia",
+          "The pheasant",
+          "The capercaillie",
+          "The grey partridge"
+        ],
+        "explanation": "The red junglefowl is the wild ancestor of the domestic chicken. All of today's chicken breeds are descended from this Southeast Asian bird."
+      }
+    }
+  },
+  {
+    "id": "ti126",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wobei hilft Tukanen ihr riesiger Schnabel unter anderem?",
+    "options": [
+      "Er speichert Wasser für Trockenzeiten",
+      "Er gibt bei Hitze überschüssige Körperwärme ab",
+      "Er macht sie beim Fliegen schneller",
+      "Mit ihm graben sie Nester in die Erde"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Schnabel der Tukane ist riesig, aber leicht. Er hilft unter anderem, den Wärmehaushalt zu regeln: Seine nicht isolierte Oberfläche wirkt bei hohen Außentemperaturen wie ein Kühler, der überschüssige Körperwärme abführt.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tukane",
+    "source_url": "https://de.wikipedia.org/wiki/Tukane",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What, among other things, does a toucan's huge beak help with?",
+        "options": [
+          "It stores water for dry seasons",
+          "It gets rid of excess body heat when it is hot",
+          "It makes them fly faster",
+          "They use it to dig nests in the ground"
+        ],
+        "explanation": "A toucan's beak is huge but light. Among other things it helps to control body heat: its uninsulated surface acts like a radiator in hot weather, carrying away excess body heat."
+      }
+    }
+  },
+  {
+    "id": "ti127",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Hummelköniginnen fliegen im Frühjahr schon ab 2 °C, Honigbienen erst ab mindestens 10 °C. Wie schaffen die Hummeln das?",
+    "options": [
+      "Sie haben ein Frostschutzmittel im Blut",
+      "Sie trinken vorher warmen Nektar",
+      "Sie lassen ihre Brustmuskeln vibrieren und heizen sich so auf",
+      "Sie fliegen nur, wenn die Sonne direkt auf sie scheint"
+    ],
+    "correct_index": 2,
+    "explanation": "Zum Fliegen brauchen Hummeln eine bestimmte Körpertemperatur. Die erzeugen sie selbst, indem sie ihre Brustmuskulatur vibrieren lassen. So sind Hummelköniginnen im zeitigen Frühjahr schon ab 2 °C unterwegs und Arbeiterinnen ab 6 °C. Honigbienen fliegen erst ab mindestens 10 °C.",
+    "difficulty": 2,
+    "tags": [
+      "Insekten",
+      "Bienen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hummeln",
+    "source_url": "https://de.wikipedia.org/wiki/Hummeln",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Bumblebee queens fly in spring at temperatures as low as 2 °C, honeybees only from at least 10 °C. How do bumblebees manage that?",
+        "options": [
+          "They have antifreeze in their blood",
+          "They drink warm nectar first",
+          "They vibrate their flight muscles to warm themselves up",
+          "They only fly when the sun shines directly on them"
+        ],
+        "explanation": "To fly, bumblebees need a certain body temperature. They produce it themselves by vibrating the muscles in their thorax. That is why bumblebee queens are out and about in early spring from 2 °C and workers from 6 °C, while honeybees only fly from at least 10 °C."
+      }
+    }
+  }
+]
