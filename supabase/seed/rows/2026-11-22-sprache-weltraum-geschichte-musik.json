@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "l150",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was tut jemand, der „Fersengeld gibt“?",
+    "options": [
+      "Er spart Geld",
+      "Er bezahlt beim Schuster",
+      "Er gibt Trinkgeld",
+      "Er flieht"
+    ],
+    "correct_index": 3,
+    "explanation": "Wer Fersengeld gibt, flieht – ohne zu kämpfen oder ohne zu zahlen. Die Redewendung ist seit dem 13. Jahrhundert bezeugt; ihre Herkunft ist unklar. Eine Deutung vergleicht die abwechselnd sichtbaren Fersen eines Fliehenden mit springenden Geldstücken.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen",
+      "Wortherkunft",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fersengeld",
+    "source_url": "https://de.wikipedia.org/wiki/Fersengeld",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does someone do who “gives heel money” (Fersengeld geben) in German?",
+        "options": [
+          "They save money",
+          "They pay the shoemaker",
+          "They give a tip",
+          "They run away"
+        ],
+        "explanation": "Whoever “gives heel money” runs away – without fighting or without paying. The idiom has been recorded since the 13th century; its origin is unclear. One explanation compares the alternately visible heels of someone fleeing with jumping coins."
+      }
+    }
+  },
+  {
+    "id": "l151",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was war mit „Mumpitz“ ursprünglich gemeint?",
+    "options": [
+      "Eine Schreckgestalt oder Vogelscheuche",
+      "Ein Kuchen",
+      "Ein Spielzeug",
+      "Ein Zaubertrank"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit Mumpitz war ab dem 17. Jahrhundert eine Schreckgestalt oder auch Vogelscheuche gemeint. An der Berliner Börse stand das Wort später für „erschreckende Gerüchte“. Heute bedeutet Mumpitz umgangssprachlich „Unsinn“.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Umgangssprache",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mumpitz",
+    "source_url": "https://de.wikipedia.org/wiki/Mumpitz",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did “Mumpitz” originally mean?",
+        "options": [
+          "A bogeyman or scarecrow",
+          "A cake",
+          "A toy",
+          "A magic potion"
+        ],
+        "explanation": "From the 17th century, Mumpitz meant a frightening figure or a scarecrow. At the Berlin stock exchange the word later stood for “frightening rumours”. Today Mumpitz colloquially means “nonsense”."
+      }
+    }
+  },
+  {
+    "id": "l152",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woraus ist das Wort „Larifari“ möglicherweise entstanden?",
+    "options": [
+      "Aus einem Vogelruf",
+      "Aus Silben für Notennamen beim Singen",
+      "Aus einem Zauberspruch",
+      "Aus dem Namen eines Clowns"
+    ],
+    "correct_index": 1,
+    "explanation": "Larifari steht für „sinnloses Geschwätz“. Vermutlich stammt es von den Silben, die man beim Üben einer Melodie den Noten unterlegte: La, re, fa bezeichnen die Töne a, d und f – zusammen der d-Moll-Dreiklang.",
+    "difficulty": 3,
+    "tags": [
+      "Wortherkunft",
+      "Musik",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Larifari",
+    "source_url": "https://de.wikipedia.org/wiki/Larifari",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where may the word “Larifari” (meaning drivel) come from?",
+        "options": [
+          "A bird call",
+          "Syllables for note names used in singing",
+          "A magic spell",
+          "The name of a clown"
+        ],
+        "explanation": "Larifari means “senseless chatter”. It probably comes from the syllables sung to the notes when practising a melody: la, re, fa stand for the notes A, D and F – together the D minor triad."
+      }
+    }
+  },
+  {
+    "id": "l153",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet „Kuddelmuddel“?",
+    "options": [
+      "Ein Kuscheltier",
+      "Ein dicker Pudding",
+      "Durcheinander",
+      "Schlechtes Wetter"
+    ],
+    "correct_index": 2,
+    "explanation": "Kuddelmuddel steht umgangssprachlich für allgemeines Durcheinander oder Wirrwarr. Das Wort stammt vermutlich aus dem Niederdeutschen; „muddeln“ hängt mit „Modder“ (Moder) zusammen.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Umgangssprache",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kuddelmuddel",
+    "source_url": "https://de.wikipedia.org/wiki/Kuddelmuddel",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the German word “Kuddelmuddel” mean?",
+        "options": [
+          "A cuddly toy",
+          "A thick pudding",
+          "A muddle",
+          "Bad weather"
+        ],
+        "explanation": "Kuddelmuddel colloquially means a general mess or jumble. The word probably comes from Low German; “muddeln” is related to “Modder” (mould, mud)."
+      }
+    }
+  },
+  {
+    "id": "l154",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das umgangssprachliche Wort „Maloche“?",
+    "options": [
+      "Ein langer Schlaf",
+      "Ein leckeres Essen",
+      "Ein großes Fest",
+      "Schwere Arbeit"
+    ],
+    "correct_index": 3,
+    "explanation": "Maloche bedeutet umgangssprachlich „schwere Arbeit“. Das Wort geht auf hebräisch „melacha“ (Arbeit) zurück und kam über das Westjiddische und das Rotwelsche in die deutsche Umgangssprache.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Lehnwörter",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maloche",
+    "source_url": "https://de.wikipedia.org/wiki/Maloche",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the colloquial German word “Maloche” mean?",
+        "options": [
+          "A long sleep",
+          "A tasty meal",
+          "A big party",
+          "Hard work"
+        ],
+        "explanation": "Maloche colloquially means “hard work”. The word goes back to Hebrew “melacha” (work) and came into colloquial German via Western Yiddish and Rotwelsch."
+      }
+    }
+  },
+  {
+    "id": "l155",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein „Kassiber“?",
+    "options": [
+      "Eine heimliche Nachricht eines Gefangenen",
+      "Ein Kassenzettel",
+      "Ein Tresor",
+      "Ein Kartenspiel"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Kassiber ist eine geheim gehaltene schriftliche Mitteilung eines Gefangenen an andere Gefangene oder aus dem Gefängnis heraus. Das Wort kommt aus dem Rotwelschen und geht auf eine hebräische Wurzel für „schreiben“ zurück.",
+    "difficulty": 3,
+    "tags": [
+      "Wortherkunft",
+      "Lehnwörter",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kassiber",
+    "source_url": "https://de.wikipedia.org/wiki/Kassiber",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “Kassiber”?",
+        "options": [
+          "A secret message from a prisoner",
+          "A till receipt",
+          "A safe",
+          "A card game"
+        ],
+        "explanation": "A Kassiber is a secret written message from a prisoner to other prisoners or out of the prison. The word comes from Rotwelsch and goes back to a Hebrew root meaning “to write”."
+      }
+    }
+  },
+  {
+    "id": "l156",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutete „Firlefanz“ ursprünglich?",
+    "options": [
+      "Eine Feuerwerksrakete",
+      "Einen lustigen, schnellen Springtanz",
+      "Einen bunten Vogel",
+      "Ein Kinderlied"
+    ],
+    "correct_index": 1,
+    "explanation": "Firlefanz kommt vom altfranzösischen „virelai“ (Reigenlied). Ursprünglich war es ein lustiger, schneller Springtanz oder eine alberne Person. Heute meint man damit Tand, wertlosen Kram oder Albernheiten.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Tanz",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Firlefanz",
+    "source_url": "https://de.wikipedia.org/wiki/Firlefanz",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did “Firlefanz” (frippery) originally mean?",
+        "options": [
+          "A firework rocket",
+          "A merry, fast leaping dance",
+          "A colourful bird",
+          "A children's song"
+        ],
+        "explanation": "Firlefanz comes from Old French “virelai” (round song). Originally it was a merry, fast leaping dance or a silly person. Today it means trinkets, worthless stuff or silliness."
+      }
+    }
+  },
+  {
+    "id": "l157",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bezeichnete man im 16. Jahrhundert als „Brimborium“?",
+    "options": [
+      "Eine Kanone",
+      "Ein Festessen",
+      "Ein schnell gemurmeltes Gebet",
+      "Einen Hut"
+    ],
+    "correct_index": 2,
+    "explanation": "Im 16. Jahrhundert war ein Brimborium ein Gebet, das schnell und undeutlich gemurmelt wurde – oft ein langes lateinisches Gebet. Vermutet wird ein Zusammenhang mit dem Brevier, einem Gebetbuch. Heute meint Brimborium unnötigen Aufwand und Getue.",
+    "difficulty": 3,
+    "tags": [
+      "Wortherkunft",
+      "Lehnwörter",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brimborium",
+    "source_url": "https://de.wikipedia.org/wiki/Brimborium",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a “Brimborium” in the 16th century?",
+        "options": [
+          "A cannon",
+          "A feast",
+          "A quickly mumbled prayer",
+          "A hat"
+        ],
+        "explanation": "In the 16th century, a Brimborium was a prayer mumbled quickly and indistinctly – often a long Latin prayer. A link to the breviary, a prayer book, is suspected. Today Brimborium means needless fuss."
+      }
+    }
+  },
+  {
+    "id": "l158",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist „Hokuspokus“ ursprünglich?",
+    "options": [
+      "Eine Krankheit",
+      "Ein lateinisches Gebet",
+      "Der Name eines Kochs",
+      "Ein Zauberspruch ohne echte Bedeutung"
+    ],
+    "correct_index": 3,
+    "explanation": "Hokuspokus ist ein Zauberspruch, dessen lateinisch klingende Worte keine konkrete Bedeutung haben. Belegt ist der Ausdruck seit dem 17. Jahrhundert, zuerst in England; er bezeichnete zunächst den Taschenspieler und seine Tricks.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Zauberei",
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hokuspokus",
+    "source_url": "https://de.wikipedia.org/wiki/Hokuspokus",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is “hocus-pocus” originally?",
+        "options": [
+          "An illness",
+          "A Latin prayer",
+          "The name of a cook",
+          "A magic formula with no real meaning"
+        ],
+        "explanation": "Hocus-pocus is a magic formula whose Latin-sounding words have no actual meaning. The expression has been recorded since the 17th century, first in England; at first it referred to the conjurer and his tricks."
+      }
+    }
+  },
+  {
+    "id": "l159",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Nach welchem Gegenstand ist der „Schnorrer“ benannt?",
+    "options": [
+      "Nach der Schnarre, einem Lärminstrument",
+      "Nach einer Schnur",
+      "Nach einem Schnorchel",
+      "Nach einem Schnurrbart"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Schnorrer bittet ständig um Gefälligkeiten oder Geld. Das Wort stammt aus dem Jiddischen: Jüdische Almosensammler nutzten bis ins 19. Jahrhundert eine Schnarre, um auf sich aufmerksam zu machen; der Name des Instruments ging auf sie über.",
+    "difficulty": 3,
+    "tags": [
+      "Wortherkunft",
+      "Lehnwörter",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schnorrer",
+    "source_url": "https://de.wikipedia.org/wiki/Schnorrer",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which object is the German word “Schnorrer” (scrounger) named after?",
+        "options": [
+          "The Schnarre, a rattle instrument",
+          "A string",
+          "A snorkel",
+          "A moustache"
+        ],
+        "explanation": "A Schnorrer constantly asks for favours or money. The word comes from Yiddish: Jewish alms collectors used a rattle (Schnarre) until the 19th century to draw attention to themselves; the instrument's name passed to them."
+      }
+    }
+  },
+  {
+    "id": "l160",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wer gewinnt beim Kartenspiel „Ramsch“?",
+    "options": [
+      "Wer zuerst alle Karten ablegt",
+      "Wer die meisten Augen sammelt",
+      "Wer die wenigsten Augen sammelt",
+      "Wer die Herz-Dame hat"
+    ],
+    "correct_index": 2,
+    "explanation": "Ramsch bedeutet minderwertige Ware. Das Wort ist vermutlich vom französischen „ramas“ (Haufen wertloser Dinge) entlehnt. So heißt auch ein Kartenspiel, bei dem nicht der mit den höchsten, sondern der mit den wenigsten Augen gewinnt.",
+    "difficulty": 3,
+    "tags": [
+      "Wortherkunft",
+      "Spiele",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ramsch",
+    "source_url": "https://de.wikipedia.org/wiki/Ramsch",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who wins the card game “Ramsch”?",
+        "options": [
+          "Whoever gets rid of all cards first",
+          "Whoever collects the most points",
+          "Whoever collects the fewest points",
+          "Whoever holds the queen of hearts"
+        ],
+        "explanation": "Ramsch means inferior goods. The word was probably borrowed from French “ramas” (heap of worthless things). It is also the name of a card game in which not the player with the most but the one with the fewest points wins."
+      }
+    }
+  },
+  {
+    "id": "l161",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was fließt im Schlaraffenland in den Flüssen?",
+    "options": [
+      "Tinte",
+      "Kakao und Limonade",
+      "Lava",
+      "Milch, Honig oder Wein"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Schlaraffenland ist ein erfundener Ort aus Märchen, an dem alles im Überfluss da ist. In den Flussbetten fließen Milch, Honig oder Wein statt Wasser. Der Name kommt vom mittelhochdeutschen „sluraff“ (Faulenzer).",
+    "difficulty": 1,
+    "tags": [
+      "Märchen",
+      "Wortherkunft",
+      "Deutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schlaraffenland",
+    "source_url": "https://de.wikipedia.org/wiki/Schlaraffenland",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What flows in the rivers of the Land of Cockaigne (Schlaraffenland)?",
+        "options": [
+          "Ink",
+          "Cocoa and lemonade",
+          "Lava",
+          "Milk, honey or wine"
+        ],
+        "explanation": "The Land of Cockaigne is a fictional place from fairy tales where everything is in abundance. Milk, honey or wine flow in the riverbeds instead of water. The German name comes from Middle High German “sluraff” (idler)."
+      }
+    }
+  },
+  {
+    "id": "ws138",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wann kann man den „Grünen Blitz“ sehen?",
+    "options": [
+      "Bei Gewitter am Mittag",
+      "Nur bei Vollmond",
+      "Mitten in der Nacht",
+      "Bei Sonnenauf- oder -untergang"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Grüne Blitz ist ein seltenes optisches Phänomen beim Sonnenauf- oder -untergang: Am oberen Rand der Sonne erscheint ein grüner Schein. Man sieht ihn meist nur dort, wo die Fernsicht klar ist, etwa über dem offenen Meer.",
+    "difficulty": 2,
+    "tags": [
+      "Sonne",
+      "Licht",
+      "Himmel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grüner Blitz",
+    "source_url": "https://de.wikipedia.org/wiki/Grüner Blitz",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When can you see the “green flash”?",
+        "options": [
+          "During a thunderstorm at noon",
+          "Only at full moon",
+          "In the middle of the night",
+          "At sunrise or sunset"
+        ],
+        "explanation": "The green flash is a rare optical phenomenon at sunrise or sunset: a green glow appears at the upper edge of the sun. It is usually only seen where visibility is clear, for example over the open sea."
+      }
+    }
+  },
+  {
+    "id": "ws139",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist der Pferdekopfnebel?",
+    "options": [
+      "Ein Teil einer Dunkelwolke im Sternbild Orion",
+      "Ein Mond des Saturn",
+      "Ein Komet",
+      "Ein Krater auf dem Mars"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Pferdekopfnebel ist Teil einer Dunkelwolke im Sternbild Orion. Er hebt sich als Silhouette wie ein Pferdekopf vor einem rot leuchtenden Emissionsnebel ab und ist ungefähr 1500 Lichtjahre von der Erde entfernt.",
+    "difficulty": 2,
+    "tags": [
+      "Nebel",
+      "Sternbilder",
+      "Orion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pferdekopfnebel",
+    "source_url": "https://de.wikipedia.org/wiki/Pferdekopfnebel",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the Horsehead Nebula?",
+        "options": [
+          "Part of a dark cloud in the constellation Orion",
+          "A moon of Saturn",
+          "A comet",
+          "A crater on Mars"
+        ],
+        "explanation": "The Horsehead Nebula is part of a dark cloud in the constellation Orion. It stands out as a silhouette like a horse's head against a red glowing emission nebula and is about 1500 light years from Earth."
+      }
+    }
+  },
+  {
+    "id": "ws140",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welche drei Sterne bilden das Sommerdreieck?",
+    "options": [
+      "Polarstern, Capella und Pollux",
+      "Sirius, Rigel und Beteigeuze",
+      "Deneb, Wega und Altair",
+      "Aldebaran, Prokyon und Spica"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Sommerdreieck ist eine markante Konstellation heller Sterne, gut zu sehen in Sommer- und Herbstnächten. Es ist kein offizielles Sternbild, sondern ein Asterismus aus Deneb im Schwan, Wega in der Leier und Altair im Adler.",
+    "difficulty": 2,
+    "tags": [
+      "Sterne",
+      "Sternbilder",
+      "Sommer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sommerdreieck",
+    "source_url": "https://de.wikipedia.org/wiki/Sommerdreieck",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which three stars form the Summer Triangle?",
+        "options": [
+          "Polaris, Capella and Pollux",
+          "Sirius, Rigel and Betelgeuse",
+          "Deneb, Vega and Altair",
+          "Aldebaran, Procyon and Spica"
+        ],
+        "explanation": "The Summer Triangle is a striking pattern of bright stars, easy to see on summer and autumn nights. It is not an official constellation but an asterism of Deneb in Cygnus, Vega in Lyra and Altair in Aquila."
+      }
+    }
+  },
+  {
+    "id": "ws141",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Aus wie vielen hellen Sternen besteht das Wintersechseck?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Wintersechseck ist kein offizielles Sternbild, sondern ein Asterismus aus sechs hellen Sternen: Capella, Aldebaran, Rigel, Sirius, Prokyon und Pollux. Beteigeuze steht im Inneren.",
+    "difficulty": 2,
+    "tags": [
+      "Sterne",
+      "Sternbilder",
+      "Winter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wintersechseck",
+    "source_url": "https://de.wikipedia.org/wiki/Wintersechseck",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many bright stars make up the Winter Hexagon?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "explanation": "The Winter Hexagon is not an official constellation but an asterism of six bright stars: Capella, Aldebaran, Rigel, Sirius, Procyon and Pollux. Betelgeuse lies inside it."
+      }
+    }
+  },
+  {
+    "id": "ws142",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie lange dauert ein siderischer Tag der Erde – eine Drehung gegenüber den Sternen?",
+    "options": [
+      "Etwa 23 Stunden 56 Minuten",
+      "Genau 24 Stunden",
+      "Etwa 25 Stunden",
+      "Etwa 12 Stunden"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein siderischer Tag ist eine volle Umdrehung gegenüber dem Fixsternhintergrund. Er dauert etwa 23 Stunden 56 Minuten 4 Sekunden – knapp 4 Minuten kürzer als der Sonnentag, weil die Erde gleichzeitig um die Sonne läuft.",
+    "difficulty": 3,
+    "tags": [
+      "Erde",
+      "Zeit",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Siderischer Tag",
+    "source_url": "https://de.wikipedia.org/wiki/Siderischer Tag",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is a sidereal day on Earth – one turn relative to the stars?",
+        "options": [
+          "About 23 hours 56 minutes",
+          "Exactly 24 hours",
+          "About 25 hours",
+          "About 12 hours"
+        ],
+        "explanation": "A sidereal day is one full rotation relative to the background of fixed stars. It lasts about 23 hours 56 minutes 4 seconds – almost 4 minutes shorter than the solar day, because Earth is also moving around the sun."
+      }
+    }
+  },
+  {
+    "id": "ws143",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was bedeutet der Name „Chromosphäre“ für eine Schicht der Sonne?",
+    "options": [
+      "Feuerkugel",
+      "Farbhülle",
+      "Lichtkern",
+      "Staubring"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Chromosphäre (griechisch „Farbhülle“) ist die Gasschicht über der Photosphäre der Sonne. Ohne Filter sieht man sie nur bei einer totalen Sonnenfinsternis für Sekunden – als tief rötliches, gezacktes Gebilde am Sonnenrand.",
+    "difficulty": 3,
+    "tags": [
+      "Sonne",
+      "Wörter",
+      "Finsternis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chromosphäre",
+    "source_url": "https://de.wikipedia.org/wiki/Chromosphäre",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the name “chromosphere” for a layer of the sun mean?",
+        "options": [
+          "Fireball",
+          "Colour sphere",
+          "Light core",
+          "Dust ring"
+        ],
+        "explanation": "The chromosphere (Greek for “colour sphere”) is the gas layer above the sun's photosphere. Without filters it can only be seen for seconds during a total solar eclipse – as a deep reddish, jagged band at the sun's edge."
+      }
+    }
+  },
+  {
+    "id": "ws144",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wodurch entsteht die körnige „Granulation“ auf der Sonnenoberfläche?",
+    "options": [
+      "Durch Eiskristalle",
+      "Durch Meteoriteneinschläge",
+      "Durch Konvektion: heißes Gas steigt auf, abgekühltes sinkt ab",
+      "Durch Schatten von Planeten"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Granulation ist die körnige Struktur der Sonnenoberfläche. Sie entsteht durch Konvektion: Heißes, hell leuchtendes Material steigt auf, kühlt ab und sinkt am Rand als dunkleres Material zurück. Die einzelnen Granulen bestehen nur wenige Minuten.",
+    "difficulty": 3,
+    "tags": [
+      "Sonne",
+      "Wärme",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Granulation (Astronomie)",
+    "source_url": "https://de.wikipedia.org/wiki/Granulation (Astronomie)",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What causes the grainy “granulation” on the sun's surface?",
+        "options": [
+          "Ice crystals",
+          "Meteorite impacts",
+          "Convection: hot gas rises, cooled gas sinks",
+          "Shadows of planets"
+        ],
+        "explanation": "Granulation is the grainy structure of the sun's surface. It is caused by convection: hot, brightly glowing material rises, cools and sinks back at the edge as darker material. The individual granules last only a few minutes."
+      }
+    }
+  },
+  {
+    "id": "ws145",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Welche Mondphase haben wir, wenn der Mond in „Opposition“ zur Sonne steht?",
+    "options": [
+      "Sichelmond",
+      "Neumond",
+      "Halbmond",
+      "Vollmond"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei der Opposition stehen zwei Himmelskörper von der Erde aus gesehen 180 Grad auseinander. Steht der Mond in Opposition zur Sonne, haben wir Vollmond. Merkur und Venus können nie in Opposition zur Sonne kommen.",
+    "difficulty": 2,
+    "tags": [
+      "Mond",
+      "Planeten",
+      "Himmel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Opposition (Astronomie)",
+    "source_url": "https://de.wikipedia.org/wiki/Opposition (Astronomie)",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which phase of the moon is it when the moon is in “opposition” to the sun?",
+        "options": [
+          "Crescent moon",
+          "New moon",
+          "Half moon",
+          "Full moon"
+        ],
+        "explanation": "At opposition, two celestial bodies are 180 degrees apart as seen from Earth. When the moon is in opposition to the sun, it is full moon. Mercury and Venus can never be in opposition to the sun."
+      }
+    }
+  },
+  {
+    "id": "ws146",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wie sehen die „Strahlen“ um manche Mondkrater aus?",
+    "options": [
+      "Wie helle Spritzspuren",
+      "Wie dunkle Flüsse",
+      "Wie grüne Wälder",
+      "Wie Eisberge"
+    ],
+    "correct_index": 0,
+    "explanation": "Um manche Einschlagkrater auf dem Mond liegen strahlenförmige Streifen, ein Strahlensystem. Sie sehen aus wie Spritzspuren, sind meist heller als die Umgebung und am auffälligsten bei Vollmond.",
+    "difficulty": 2,
+    "tags": [
+      "Mond",
+      "Krater",
+      "Formen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strahlensystem",
+    "source_url": "https://de.wikipedia.org/wiki/Strahlensystem",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do the “rays” around some lunar craters look like?",
+        "options": [
+          "Like bright splash marks",
+          "Like dark rivers",
+          "Like green forests",
+          "Like icebergs"
+        ],
+        "explanation": "Around some impact craters on the moon lie radial streaks, a ray system. They look like splash marks, are usually brighter than their surroundings and most striking at full moon."
+      }
+    }
+  },
+  {
+    "id": "ws147",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was ist das Perihel einer Umlaufbahn um die Sonne?",
+    "options": [
+      "Der sonnenfernste Punkt",
+      "Der sonnennächste Punkt",
+      "Der schnellste Mond",
+      "Die Mitte der Sonne"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Perihel ist der sonnennächste, das Aphel der sonnenfernste Punkt einer Umlaufbahn um die Sonne. Das Wort kommt aus dem Altgriechischen: „perí“ heißt „herum“, „hḗlios“ heißt „Sonne“.",
+    "difficulty": 2,
+    "tags": [
+      "Planeten",
+      "Umlaufbahn",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Apsis (Astronomie)",
+    "source_url": "https://de.wikipedia.org/wiki/Apsis (Astronomie)",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the perihelion of an orbit around the sun?",
+        "options": [
+          "The point farthest from the sun",
+          "The point closest to the sun",
+          "The fastest moon",
+          "The centre of the sun"
+        ],
+        "explanation": "The perihelion is the point of an orbit closest to the sun, the aphelion the farthest. The word comes from Ancient Greek: “perí” means “around”, “hḗlios” means “sun”."
+      }
+    }
+  },
+  {
+    "id": "ws148",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Nach welcher Zeit wiederholen sich sehr ähnliche Finsternisse im Saroszyklus?",
+    "options": [
+      "Nach 100 Jahren",
+      "Nach genau einem Jahr",
+      "Nach etwa 18 Jahren und 11 Tagen",
+      "Nach einem Monat"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Saroszyklus ist eine Reihe von Sonnen- oder Mondfinsternissen, in der sich aufeinanderfolgende Finsternisse sehr ähneln. Die Periode beträgt etwa 18 Jahre, 11 Tage und 8 Stunden. Er ist der bedeutendste und am längsten bekannte Finsterniszyklus.",
+    "difficulty": 3,
+    "tags": [
+      "Finsternis",
+      "Zeit",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saroszyklus",
+    "source_url": "https://de.wikipedia.org/wiki/Saroszyklus",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "After what time do very similar eclipses repeat in the Saros cycle?",
+        "options": [
+          "After 100 years",
+          "After exactly one year",
+          "After about 18 years and 11 days",
+          "After one month"
+        ],
+        "explanation": "A Saros cycle is a series of solar or lunar eclipses in which consecutive eclipses are very similar. The period is about 18 years, 11 days and 8 hours. It is the most important and longest-known eclipse cycle."
+      }
+    }
+  },
+  {
+    "id": "ws149",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was erzeugt bei einer Sonnenfinsternis den „Diamantring“?",
+    "options": [
+      "Ein Komet hinter der Sonne",
+      "Eis auf dem Mond",
+      "Ein Flugzeug",
+      "Sonnenstrahlen, die durch Täler am Mondrand scheinen"
+    ],
+    "correct_index": 3,
+    "explanation": "Kurz vor und nach der totalen Phase einer Sonnenfinsternis scheinen die letzten oder ersten Sonnenstrahlen durch die Täler der gebirgigen Mond-Silhouette. Das sieht aus wie ein Diamantring oder eine Perlschnur.",
+    "difficulty": 2,
+    "tags": [
+      "Finsternis",
+      "Sonne",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sonnenfinsternis",
+    "source_url": "https://de.wikipedia.org/wiki/Sonnenfinsternis",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What creates the “diamond ring” during a solar eclipse?",
+        "options": [
+          "A comet behind the sun",
+          "Ice on the moon",
+          "An aeroplane",
+          "Sunlight shining through valleys at the moon's edge"
+        ],
+        "explanation": "Just before and after the total phase of a solar eclipse, the last or first rays of sunlight shine through the valleys of the moon's mountainous silhouette. This looks like a diamond ring or a string of beads."
+      }
+    }
+  },
+  {
+    "id": "hg65",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie oft lag bei der Dreifelderwirtschaft ein Feld brach?",
+    "options": [
+      "Nie",
+      "Ein Jahr von drei Jahren",
+      "Jedes zweite Jahr",
+      "Zehn Jahre lang"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei der Dreifelderwirtschaft, seit dem Mittelalter um etwa 1100 weit verbreitet, teilte man die Anbaufläche in drei Teile. Jeder Teil lag in einem dreijährigen Zyklus ein Jahr lang brach und diente als Weide.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter",
+      "Landwirtschaft",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dreifelderwirtschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Dreifelderwirtschaft",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the three-field system, how often did a field lie fallow?",
+        "options": [
+          "Never",
+          "One year in three",
+          "Every other year",
+          "For ten years"
+        ],
+        "explanation": "In the three-field system, widespread since around 1100 in the Middle Ages, the farmland was divided into three parts. Each part lay fallow for one year in a three-year cycle and was used as pasture."
+      }
+    }
+  },
+  {
+    "id": "hg66",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wofür war ein Abdecker früher zuständig?",
+    "options": [
+      "Für das Abräumen von Tischen",
+      "Für das Decken von Dächern",
+      "Für die Beseitigung und Verwertung toter Tiere",
+      "Für das Zudecken von Brunnen"
+    ],
+    "correct_index": 2,
+    "explanation": "Abdecker, im Süden auch Wasenmeister genannt, beseitigten jahrhundertelang Tierkadaver und verwerteten sie. Daraus entstanden etwa Fette für Lampentalg, Leim, Knochenmehl, Seife und Häute für Leder.",
+    "difficulty": 2,
+    "tags": [
+      "Berufe",
+      "Alltag",
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Abdecker",
+    "source_url": "https://de.wikipedia.org/wiki/Abdecker",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a knacker (Abdecker) responsible for in the past?",
+        "options": [
+          "Clearing tables",
+          "Roofing houses",
+          "Removing and processing dead animals",
+          "Covering wells"
+        ],
+        "explanation": "For centuries knackers, also called Wasenmeister in the south, removed animal carcasses and processed them. This produced fats for lamp tallow, glue, bone meal, soap and hides for leather."
+      }
+    }
+  },
+  {
+    "id": "hg67",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was ist bei der Holzbeförderung auf Flüssen der Unterschied zwischen Flößen und Triften?",
+    "options": [
+      "Es gibt keinen Unterschied",
+      "Flößen geschieht nur nachts",
+      "Beim Triften fährt ein Dampfschiff mit",
+      "Beim Flößen ist das Holz zusammengebunden, beim Triften nicht"
+    ],
+    "correct_index": 3,
+    "explanation": "Flößerei und Trift bedeuten Transport von Baumstämmen und Holz auf Wasserstraßen, in Deutschland bis etwa zum Beginn des 20. Jahrhunderts üblich. Ist das Holz zusammengebunden, heißt es Flößen, sonst Triften.",
+    "difficulty": 2,
+    "tags": [
+      "Berufe",
+      "Flüsse",
+      "Holz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flößerei",
+    "source_url": "https://de.wikipedia.org/wiki/Flößerei",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In transporting timber on rivers, what is the difference between rafting and drifting?",
+        "options": [
+          "There is no difference",
+          "Rafting only happens at night",
+          "In drifting a steamboat goes along",
+          "In rafting the wood is tied together, in drifting it is not"
+        ],
+        "explanation": "Rafting and drifting mean transporting tree trunks and wood on waterways, common in Germany until about the beginning of the 20th century. If the wood is tied together it is called rafting, otherwise drifting."
+      }
+    }
+  },
+  {
+    "id": "hg68",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was verlangte eine mittelalterliche Stadt mit „Stapelrecht“ von durchziehenden Kaufleuten?",
+    "options": [
+      "Ihre Waren eine Zeit lang abzuladen und anzubieten",
+      "Ihre Pferde zu verkaufen",
+      "In der Stadt zu heiraten",
+      "Ein Lied zu singen"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit dem Stapelrecht konnte eine Stadt verlangen, dass durchziehende Kaufleute ihre Waren für eine bestimmte Zeit abluden, „stapelten“ und anboten. Manchmal konnten sie sich mit einem Stapelgeld davon freikaufen. Das verteuerte die Waren und nutzte den Städten.",
+    "difficulty": 3,
+    "tags": [
+      "Mittelalter",
+      "Handel",
+      "Städte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stapelrecht",
+    "source_url": "https://de.wikipedia.org/wiki/Stapelrecht",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did a medieval town with “staple right” demand of passing merchants?",
+        "options": [
+          "To unload their goods and offer them for a while",
+          "To sell their horses",
+          "To marry in the town",
+          "To sing a song"
+        ],
+        "explanation": "With the staple right, a town could demand that passing merchants unload their goods for a certain time, “stack” them and offer them for sale. Sometimes they could buy their way out with staple money. This made the goods more expensive and benefited the towns."
+      }
+    }
+  },
+  {
+    "id": "hg69",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie heißen die zahnartigen Aufsätze oben auf alten Burg- und Stadtmauern?",
+    "options": [
+      "Gauben",
+      "Zinnen",
+      "Erker",
+      "Giebel"
+    ],
+    "correct_index": 1,
+    "explanation": "Zinnen sind zahn- oder schildartige Aufsätze auf einer Mauer. In Antike und Mittelalter gaben die etwa mannshohen Zinnen den Verteidigern auf dem Wehrgang Deckung. Mehrere Zinnen mit Lücken dazwischen bilden einen Zinnenkranz.",
+    "difficulty": 1,
+    "tags": [
+      "Burgen",
+      "Mittelalter",
+      "Bauwerke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zinne",
+    "source_url": "https://de.wikipedia.org/wiki/Zinne",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the tooth-like blocks on top of old castle and town walls called?",
+        "options": [
+          "Dormers",
+          "Merlons (battlements)",
+          "Oriels",
+          "Gables"
+        ],
+        "explanation": "Merlons are tooth- or shield-like blocks on a wall. In antiquity and the Middle Ages these roughly man-high merlons gave cover to the defenders on the wall walk. Several merlons with gaps between them form a battlement."
+      }
+    }
+  },
+  {
+    "id": "hg70",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was ist eine Kemenate wörtlich genommen?",
+    "options": [
+      "Ein Wachturm ohne Dach",
+      "Ein Burggraben",
+      "Ein Pferdestall",
+      "Ein Raum mit Kamin oder Kachelofen"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Kemenate (von lateinisch „caminata“, beheizbarer Wohnraum) ist wörtlich ein Raum mit Kamin oder Kachelofen. Später meinte man damit steinerne Wohnbauten mit solchen Stuben – auf Burgen meist die Wohngebäude.",
+    "difficulty": 2,
+    "tags": [
+      "Burgen",
+      "Mittelalter",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kemenate",
+    "source_url": "https://de.wikipedia.org/wiki/Kemenate",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “Kemenate” literally?",
+        "options": [
+          "A watchtower without a roof",
+          "A castle moat",
+          "A horse stable",
+          "A room with a fireplace or tiled stove"
+        ],
+        "explanation": "A Kemenate (from Latin “caminata”, heatable living room) is literally a room with a fireplace or tiled stove. Later the word meant stone living buildings with such rooms – in castles usually the residential buildings."
+      }
+    }
+  },
+  {
+    "id": "hg71",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was ist ein Palimpsest?",
+    "options": [
+      "Ein abgeschabtes und neu beschriebenes Schriftstück",
+      "Ein Palast aus Holz",
+      "Ein Pilgerstab",
+      "Eine Siegelform"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Palimpsest (griechisch „wieder abgekratzt“) ist eine Manuskriptseite oder -rolle, von der man die Schrift durch Abschaben oder Waschen entfernt hat, um sie erneut zu verwenden. Beschreibstoff war kostbar.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Bücher",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Palimpsest",
+    "source_url": "https://de.wikipedia.org/wiki/Palimpsest",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a palimpsest?",
+        "options": [
+          "A scraped and rewritten manuscript",
+          "A wooden palace",
+          "A pilgrim's staff",
+          "A type of seal"
+        ],
+        "explanation": "A palimpsest (Greek for “scraped again”) is a manuscript page or scroll from which the writing was removed by scraping or washing so it could be reused. Writing material was precious."
+      }
+    }
+  },
+  {
+    "id": "hg72",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was bedeutet das Wort „Inkunabel“ für frühe gedruckte Bücher?",
+    "options": [
+      "Tinte, Feder",
+      "Windeln, Wiege",
+      "Gold, Silber",
+      "Stein, Papier"
+    ],
+    "correct_index": 1,
+    "explanation": "Inkunabeln (lateinisch „incunabula“: Windeln, Wiege) oder Wiegendrucke sind die Werke aus der Frühzeit des Buchdrucks – von der Fertigstellung der Gutenberg-Bibel 1454 bis zum 31. Dezember 1500.",
+    "difficulty": 3,
+    "tags": [
+      "Buchdruck",
+      "Bücher",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Inkunabel",
+    "source_url": "https://de.wikipedia.org/wiki/Inkunabel",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the word “incunabulum” for early printed books mean?",
+        "options": [
+          "Ink, quill",
+          "Swaddling clothes, cradle",
+          "Gold, silver",
+          "Stone, paper"
+        ],
+        "explanation": "Incunabula (Latin “incunabula”: swaddling clothes, cradle) are the works from the early days of printing – from the completion of the Gutenberg Bible in 1454 to 31 December 1500."
+      }
+    }
+  },
+  {
+    "id": "hg73",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was musste ein Geselle früher anfertigen, um Meister zu werden?",
+    "options": [
+      "Eine Landkarte",
+      "Ein Gedicht",
+      "Ein Meisterstück unter Aufsicht",
+      "Nichts, er wurde einfach ernannt"
+    ],
+    "correct_index": 2,
+    "explanation": "Seit dem Mittelalter musste ein Handwerker nach der Gesellenzeit, wenn die Zunft zustimmte, unter Aufsicht ein anspruchsvolles Stück als Beweis seines Könnens anfertigen – das Meisterstück. Dazu kam meist eine mündliche Prüfung.",
+    "difficulty": 2,
+    "tags": [
+      "Handwerk",
+      "Mittelalter",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meisterstück",
+    "source_url": "https://de.wikipedia.org/wiki/Meisterstück",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did a journeyman once have to make to become a master?",
+        "options": [
+          "A map",
+          "A poem",
+          "A masterpiece under supervision",
+          "Nothing, he was simply appointed"
+        ],
+        "explanation": "Since the Middle Ages, after his time as a journeyman and if the guild agreed, a craftsman had to make a demanding piece under supervision as proof of his skill – the masterpiece. There was usually an oral exam as well."
+      }
+    }
+  },
+  {
+    "id": "hg74",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Steht der Spruch „Ora et labora“ („bete und arbeite“) in der Regel des heiligen Benedikt?",
+    "options": [
+      "Nein, er stammt aus dem Spätmittelalter",
+      "Ja, als erster Satz",
+      "Ja, als letzter Satz",
+      "Nein, er ist von 1990"
+    ],
+    "correct_index": 0,
+    "explanation": "„Ora et labora“ gilt verbreitet als Grundsatz der Benediktiner, steht aber nicht in der Regel des heiligen Benedikt. Der Spruch stammt aus dem Spätmittelalter und lautet vollständig etwa: „Bete, arbeite (und lies), Gott ist da ohne Verzug.“",
+    "difficulty": 2,
+    "tags": [
+      "Klöster",
+      "Mittelalter",
+      "Sprüche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ora et labora",
+    "source_url": "https://de.wikipedia.org/wiki/Ora et labora",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Is the motto “Ora et labora” (“pray and work”) in the Rule of Saint Benedict?",
+        "options": [
+          "No, it comes from the late Middle Ages",
+          "Yes, as the first sentence",
+          "Yes, as the last sentence",
+          "No, it dates from 1990"
+        ],
+        "explanation": "“Ora et labora” is widely seen as the principle of the Benedictines, but it does not appear in the Rule of Saint Benedict. The motto comes from the late Middle Ages and in full reads roughly: “Pray, work (and read), God is there without delay.”"
+      }
+    }
+  },
+  {
+    "id": "mk150",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Warum heißt das alte Blasinstrument „Serpent“?",
+    "options": [
+      "Es lockt Schlangen an",
+      "Es zischt beim Spielen",
+      "Es wurde aus Schlangenhaut gemacht",
+      "Seine Röhre ist wie eine Schlange gewunden"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Serpent (lateinisch „serpens“, Schlange) ist ein historisches Blechblasinstrument. Seine rund zwei Meter lange Röhre aus Hartholz, meist Nussbaum, ist schlangenförmig gewunden und mit Leder überzogen.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Blasinstrumente",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Serpent (Musikinstrument)",
+    "source_url": "https://de.wikipedia.org/wiki/Serpent (Musikinstrument)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the old wind instrument called the “serpent”?",
+        "options": [
+          "It attracts snakes",
+          "It hisses when played",
+          "It was made of snakeskin",
+          "Its tube is coiled like a snake"
+        ],
+        "explanation": "The serpent (Latin “serpens”, snake) is a historical brass instrument. Its tube of hardwood, usually walnut, about two metres long, is coiled like a snake and covered with leather."
+      }
+    }
+  },
+  {
+    "id": "mk151",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet der Name „Ophikleide“?",
+    "options": [
+      "Schlange mit Klappen",
+      "Großes Horn",
+      "Tiefer Bär",
+      "Silberne Röhre"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Ophikleide (griechisch „ophis“, Schlange, und „kleis“, Klappen) ist ein historisches Blechblasinstrument mit Klappen und nach oben gerichtetem Schalltrichter. Sie wurde um 1817 in Paris erfunden und später von der Tuba verdrängt.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Blasinstrumente",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ophikleide",
+    "source_url": "https://de.wikipedia.org/wiki/Ophikleide",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the name “ophicleide” mean?",
+        "options": [
+          "Snake with keys",
+          "Big horn",
+          "Deep bear",
+          "Silver tube"
+        ],
+        "explanation": "The ophicleide (Greek “ophis”, snake, and “kleis”, keys) is a historical brass instrument with keys and an upward-pointing bell. It was invented around 1817 in Paris and later replaced by the tuba."
+      }
+    }
+  },
+  {
+    "id": "mk152",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welches ist das tiefste Holzblasinstrument im Orchester?",
+    "options": [
+      "Die Piccoloflöte",
+      "Das Kontrafagott",
+      "Die Klarinette",
+      "Die Oboe"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Kontrafagott ist der tiefste Vertreter der Holzblasinstrumente im Orchester. Baulich ist es ein auf das Doppelte verlängertes Fagott und klingt eine Oktave tiefer. Gespielt wird es von Fagottisten.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Orchester",
+      "Holzblasinstrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kontrafagott",
+    "source_url": "https://de.wikipedia.org/wiki/Kontrafagott",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the lowest woodwind instrument in the orchestra?",
+        "options": [
+          "The piccolo",
+          "The contrabassoon",
+          "The clarinet",
+          "The oboe"
+        ],
+        "explanation": "The contrabassoon is the lowest woodwind instrument in the orchestra. It is essentially a bassoon of double length and sounds an octave lower. It is played by bassoonists."
+      }
+    }
+  },
+  {
+    "id": "mk153",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was hat das Krummhorn, das man nicht direkt mit den Lippen berührt?",
+    "options": [
+      "Ein Fell",
+      "Eine Saite",
+      "Ein Doppelrohrblatt in einer Windkapsel",
+      "Eine Glocke"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Krummhorn ist ein altes Holzblasinstrument mit Doppelrohrblatt, zylindrisch gebohrter Röhre und Windkapsel. Es hat sieben Grifflöcher vorn und ein Daumenloch für den linken Daumen.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Holzblasinstrumente",
+      "Alte Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Krummhorn",
+    "source_url": "https://de.wikipedia.org/wiki/Krummhorn",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the crumhorn have that the player's lips do not touch directly?",
+        "options": [
+          "A drum skin",
+          "A string",
+          "A double reed inside a wind cap",
+          "A bell"
+        ],
+        "explanation": "The crumhorn is an old woodwind instrument with a double reed, a cylindrical bore and a wind cap. It has seven finger holes on the front and a thumb hole for the left thumb."
+      }
+    }
+  },
+  {
+    "id": "mk154",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woraus hat sich das Flügelhorn entwickelt?",
+    "options": [
+      "Aus der Orgel",
+      "Aus der Geige",
+      "Aus der Trommel",
+      "Aus dem Signalhorn"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Flügelhorn ist das Sopraninstrument der Bügelhörner und ähnelt der Trompete, hat aber ein überwiegend konisches Rohr. Seinen Ursprung hat es im Signalhorn.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Blechblasinstrumente",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flügelhorn",
+    "source_url": "https://de.wikipedia.org/wiki/Flügelhorn",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the flugelhorn develop from?",
+        "options": [
+          "The organ",
+          "The violin",
+          "The drum",
+          "The signal horn (bugle)"
+        ],
+        "explanation": "The flugelhorn is the soprano instrument of the bugle family and resembles the trumpet, but has a mainly conical tube. It originated from the signal horn."
+      }
+    }
+  },
+  {
+    "id": "mk155",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie nannte man im 15. Jahrhundert Schalmeien mit tieferem Tonumfang?",
+    "options": [
+      "Pommer",
+      "Posaune",
+      "Pikkolo",
+      "Panflöte"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Schalmei ist ein Holzblasinstrument mit Doppelrohrblatt und konischer Röhre, meist mit sieben Grifflöchern vorn. Im 15. Jahrhundert entwickelte Schalmeien mit in tiefere Lagen erweitertem Tonumfang hießen Pommer. Ihr Klang ist sehr laut und scharf.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Holzblasinstrumente",
+      "Alte Musik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schalmei",
+    "source_url": "https://de.wikipedia.org/wiki/Schalmei",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What were shawms with a lower range called in the 15th century?",
+        "options": [
+          "Bombard (Pommer)",
+          "Trombone",
+          "Piccolo",
+          "Pan flute"
+        ],
+        "explanation": "The shawm is a woodwind instrument with a double reed and a conical tube, usually with seven finger holes on the front. Shawms developed in the 15th century with a range extended downwards were called Pommer (bombard). Their sound is very loud and sharp."
+      }
+    }
+  }
+]
