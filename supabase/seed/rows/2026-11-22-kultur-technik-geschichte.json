@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "cu105",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie heißt beim Schützenfest der beste Schütze?",
+    "options": [
+      "Schützenkapitän",
+      "Schützenkönig",
+      "Schützenprofessor",
+      "Schützenbürgermeister"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Schützenfest wird meist in einem Schießwettbewerb der beste Schütze bestimmt: der Schützenkönig oder die Schützenkönigin. Viele Feste beginnen mit einem Umzug, bei dem der amtierende Schützenkönig mit seinem Hofstaat abgeholt wird.",
+    "difficulty": 1,
+    "tags": [
+      "Bräuche",
+      "Feste",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schützenfest",
+    "source_url": "https://de.wikipedia.org/wiki/Schützenfest",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At a German marksmen's festival (Schützenfest), what is the best shot called?",
+        "options": [
+          "Marksmen's captain",
+          "Marksmen's king",
+          "Marksmen's professor",
+          "Marksmen's mayor"
+        ],
+        "explanation": "At a Schützenfest, a shooting contest usually decides the best shot: the marksmen's king or queen. Many festivals begin with a parade in which the reigning king and his “court” are collected."
+      }
+    }
+  },
+  {
+    "id": "cu106",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "An welchem Tag ist der Martinstag?",
+    "options": [
+      "1. November",
+      "11. November",
+      "6. Dezember",
+      "24. Dezember"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Martinstag am 11. November ist das Fest des heiligen Martin von Tours. Typische Bräuche sind das Martinsgansessen, der Martinszug mit Musik und Laternen und das Martinssingen.",
+    "difficulty": 1,
+    "tags": [
+      "Bräuche",
+      "Feste",
+      "Kalender"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Martinstag",
+    "source_url": "https://de.wikipedia.org/wiki/Martinstag",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which day is St Martin's Day?",
+        "options": [
+          "1 November",
+          "11 November",
+          "6 December",
+          "24 December"
+        ],
+        "explanation": "St Martin's Day on 11 November is the feast of Saint Martin of Tours. Typical customs are eating a Martinmas goose, the lantern procession with music and the singing of Martin songs."
+      }
+    }
+  },
+  {
+    "id": "cu107",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Jahr stammt das älteste schriftliche Zeugnis vom Osterfeuer?",
+    "options": [
+      "751",
+      "1150",
+      "1517",
+      "1800"
+    ],
+    "correct_index": 0,
+    "explanation": "Das älteste schriftliche Zeugnis vom Osterfeuer ist ein Briefwechsel zwischen einem Missionar und dem Papst aus dem Jahr 751.",
+    "difficulty": 3,
+    "tags": [
+      "Bräuche",
+      "Ostern",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Osterfeuer",
+    "source_url": "https://de.wikipedia.org/wiki/Osterfeuer",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From which year does the oldest written record of the Easter bonfire date?",
+        "options": [
+          "751",
+          "1150",
+          "1517",
+          "1800"
+        ],
+        "explanation": "The oldest written record of the Easter bonfire is an exchange of letters between a missionary and the pope from the year 751."
+      }
+    }
+  },
+  {
+    "id": "cu108",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wann wird Bleigießen heute vor allem gemacht?",
+    "options": [
+      "Am Silvesterabend",
+      "An Ostern",
+      "Am Geburtstag",
+      "Zur Einschulung"
+    ],
+    "correct_index": 0,
+    "explanation": "Bleigießen ist ein alter Orakelbrauch, auch Molybdomantie genannt – vom griechischen Wort für Blei und „Wahrsagung“. Heute wird es meist nicht ganz ernst am Silvesterabend gemacht.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Silvester",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bleigießen",
+    "source_url": "https://de.wikipedia.org/wiki/Bleigießen",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When is “lead pouring” (Bleigießen) mostly done today?",
+        "options": [
+          "On New Year's Eve",
+          "At Easter",
+          "On birthdays",
+          "On the first day of school"
+        ],
+        "explanation": "Lead pouring is an old fortune-telling custom, also called molybdomancy – from the Greek words for lead and “divination”. Today it is mostly done, not too seriously, on New Year's Eve."
+      }
+    }
+  },
+  {
+    "id": "cu109",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wann wird beim Hausbau ein Richtfest gefeiert?",
+    "options": [
+      "Bei der Grundsteinlegung",
+      "Wenn Rohbau und Dachstuhl stehen",
+      "Beim Einzug",
+      "Wenn der Garten fertig ist"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Richtfest feiert man, wenn der Rohbau fertig und die Dachkonstruktion errichtet ist. Das Dach wird mit einem Richtkranz oder Richtbaum geschmückt. Der Brauch lässt sich bis ins 14. Jahrhundert zurückverfolgen.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Bauen",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Richtfest",
+    "source_url": "https://de.wikipedia.org/wiki/Richtfest",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When is a topping-out ceremony (Richtfest) held during house building?",
+        "options": [
+          "When the foundation stone is laid",
+          "When the shell and roof frame are up",
+          "When people move in",
+          "When the garden is finished"
+        ],
+        "explanation": "The topping-out ceremony is held when the shell is finished and the roof structure is up. The roof is decorated with a wreath or a small tree. The custom can be traced back to the 14th century."
+      }
+    }
+  },
+  {
+    "id": "cu110",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist ein Stammtisch?",
+    "options": [
+      "Ein Tisch nur für Kinder",
+      "Ein Familienstammbaum",
+      "Ein Tisch aus einem Baumstamm",
+      "Eine Gruppe, die sich regelmäßig im Lokal trifft"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Stammtisch ist eine Gruppe, die sich regelmäßig in einem Lokal trifft – und auch der meist größere, runde Tisch, an dem sie sitzt. Oft ist er mit einem Schild gekennzeichnet und für die Runde reserviert.",
+    "difficulty": 1,
+    "tags": [
+      "Bräuche",
+      "Gesellschaft",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stammtisch",
+    "source_url": "https://de.wikipedia.org/wiki/Stammtisch",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a German “Stammtisch”?",
+        "options": [
+          "A table only for children",
+          "A family tree",
+          "A table made from a tree trunk",
+          "A group that meets regularly at a pub"
+        ],
+        "explanation": "A Stammtisch is a group that meets regularly at a pub or restaurant – and also the usually larger, round table where it sits. It is often marked with a sign and reserved for the group."
+      }
+    }
+  },
+  {
+    "id": "cu111",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wer wird scherzhaft „Laubenpieper“ genannt?",
+    "options": [
+      "Jemand mit einem Kleingarten",
+      "Ein Vogel im Herbstlaub",
+      "Ein Förster",
+      "Ein Straßenkehrer"
+    ],
+    "correct_index": 0,
+    "explanation": "Laubenpieper ist eine scherzhafte Bezeichnung für den Besitzer eines Kleingartens mit Gartenlaube. Der Kleingarten heißt auch Schrebergarten.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Garten",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleingarten",
+    "source_url": "https://de.wikipedia.org/wiki/Kleingarten",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is jokingly called a “Laubenpieper” in German?",
+        "options": [
+          "Someone with an allotment garden",
+          "A bird in autumn leaves",
+          "A forester",
+          "A street sweeper"
+        ],
+        "explanation": "Laubenpieper is a joking name for the owner of an allotment garden with a garden shed. Allotment gardens are also called Schrebergärten."
+      }
+    }
+  },
+  {
+    "id": "cu112",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "An welchem Tag schneidet man nach altem Brauch Barbarazweige?",
+    "options": [
+      "Am 11. November",
+      "Am 4. Dezember",
+      "Am 24. Dezember",
+      "Am 6. Januar"
+    ],
+    "correct_index": 1,
+    "explanation": "Barbarazweige sind Zweige von Obstbäumen, die nach altem Brauch am 4. Dezember, dem Gedenktag der heiligen Barbara, geschnitten werden. Sie sollen bis zum Heiligen Abend blühen und zu Weihnachten die Wohnung schmücken.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Weihnachten",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Barbarazweig",
+    "source_url": "https://de.wikipedia.org/wiki/Barbarazweig",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which day are “Barbara branches” cut according to old custom?",
+        "options": [
+          "On 11 November",
+          "On 4 December",
+          "On 24 December",
+          "On 6 January"
+        ],
+        "explanation": "Barbara branches are twigs of fruit trees that, by old custom, are cut on 4 December, the feast of Saint Barbara. They are supposed to blossom by Christmas Eve and decorate the home for Christmas."
+      }
+    }
+  },
+  {
+    "id": "cu113",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was dürfen Gäste in einem traditionellen bayerischen Biergarten?",
+    "options": [
+      "Umsonst übernachten",
+      "Ihr eigenes Bier brauen",
+      "Ihr Essen selbst mitbringen",
+      "Ohne Bezahlung trinken"
+    ],
+    "correct_index": 2,
+    "explanation": "Im traditionellen bayerischen Biergarten sitzt man unter Schatten spendenden Bäumen und darf seine Speisen selbst mitbringen. Die Kastanien wurden einst über den Bierkellern gepflanzt, damit sie im Sommer Schatten werfen. Der Ausschank aus den Kellern wurde 1812 offiziell zugelassen.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Bayern",
+      "Essen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Biergarten",
+    "source_url": "https://de.wikipedia.org/wiki/Biergarten",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are guests allowed to do in a traditional Bavarian beer garden?",
+        "options": [
+          "Stay overnight for free",
+          "Brew their own beer",
+          "Bring their own food",
+          "Drink without paying"
+        ],
+        "explanation": "In a traditional Bavarian beer garden you sit under shady trees and may bring your own food. The chestnut trees were once planted over the beer cellars so that they would cast shade in summer. Serving from the cellars was officially allowed in 1812."
+      }
+    }
+  },
+  {
+    "id": "cu114",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was unterscheidet Spätzleteig von Nudelteig?",
+    "options": [
+      "Er ist immer süß",
+      "Er enthält kein Mehl",
+      "Er wird im Ofen gebacken",
+      "Er wird gerührt statt geknetet"
+    ],
+    "correct_index": 3,
+    "explanation": "Spätzleteig wird im Gegensatz zu Nudelteig gerührt und nicht geknetet. Klassisch schabt man den feuchten Teig vom Spätzlesbrett direkt ins Kochwasser – handgeschabte „Brettspätzle“ gelten als besonderes Gütesiegel.",
+    "difficulty": 2,
+    "tags": [
+      "Essen",
+      "Schwaben",
+      "Kochen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spätzle",
+    "source_url": "https://de.wikipedia.org/wiki/Spätzle",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes Spätzle dough different from pasta dough?",
+        "options": [
+          "It is always sweet",
+          "It contains no flour",
+          "It is baked in the oven",
+          "It is stirred instead of kneaded"
+        ],
+        "explanation": "Unlike pasta dough, Spätzle dough is stirred, not kneaded. Traditionally the wet dough is scraped from a Spätzle board straight into boiling water – hand-scraped “board Spätzle” are seen as a mark of quality."
+      }
+    }
+  },
+  {
+    "id": "cu115",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wodurch wird Sauerkraut haltbar gemacht?",
+    "options": [
+      "Durch Milchsäuregärung",
+      "Durch Räuchern",
+      "Durch Einfrieren",
+      "Durch viel Zucker"
+    ],
+    "correct_index": 0,
+    "explanation": "Sauerkraut ist Weiß- oder Spitzkohl, der durch Milchsäuregärung haltbar gemacht wurde. Gemüse so zu konservieren, ist eine sehr alte Technik; gesäuerten Weißkohl kannte man schon im antiken Griechenland, im Römischen Reich und in China.",
+    "difficulty": 1,
+    "tags": [
+      "Essen",
+      "Gärung",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sauerkraut",
+    "source_url": "https://de.wikipedia.org/wiki/Sauerkraut",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is sauerkraut preserved?",
+        "options": [
+          "By lactic acid fermentation",
+          "By smoking",
+          "By freezing",
+          "With lots of sugar"
+        ],
+        "explanation": "Sauerkraut is white or pointed cabbage preserved by lactic acid fermentation. Preserving vegetables this way is a very old technique; soured cabbage was already known in ancient Greece, the Roman Empire and China."
+      }
+    }
+  },
+  {
+    "id": "cu116",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie wird Baumkuchen gebacken?",
+    "options": [
+      "Im Wasserbad",
+      "Schicht für Schicht über offener Flamme",
+      "In der Pfanne",
+      "Gar nicht – er wird nur gekühlt"
+    ],
+    "correct_index": 1,
+    "explanation": "Baumkuchen wird schichtweise über offener Flamme gebacken, daher sehen seine Ringe aus wie Jahresringe. Der „König der Kuchen“ ist ein Symbol des Konditorberufs. Erste Rezepte stehen in einem italienischen Kochbuch von 1426.",
+    "difficulty": 2,
+    "tags": [
+      "Essen",
+      "Backen",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Baumkuchen",
+    "source_url": "https://de.wikipedia.org/wiki/Baumkuchen",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is Baumkuchen (“tree cake”) baked?",
+        "options": [
+          "In a water bath",
+          "Layer by layer over an open flame",
+          "In a frying pan",
+          "Not at all – it is only chilled"
+        ],
+        "explanation": "Baumkuchen is baked in layers over an open flame, so its rings look like the growth rings of a tree. The “king of cakes” is a symbol of the confectioner's trade. The first recipes appear in an Italian cookbook from 1426."
+      }
+    }
+  },
+  {
+    "id": "cu117",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "An welchem Wochentag wird Fronleichnam gefeiert?",
+    "options": [
+      "Am Freitag",
+      "Am Montag",
+      "Am Donnerstag",
+      "Am Sonntag"
+    ],
+    "correct_index": 2,
+    "explanation": "Fronleichnam wird 60 Tage nach Ostern gefeiert, also am zweiten Donnerstag nach Pfingsten, im Mai oder Juni. Kennzeichnend ist die Fronleichnamsprozession, oft mit Blumenteppichen auf dem Weg.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Feste",
+      "Kalender"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fronleichnam",
+    "source_url": "https://de.wikipedia.org/wiki/Fronleichnam",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On which day of the week is the feast of Corpus Christi celebrated?",
+        "options": [
+          "On Friday",
+          "On Monday",
+          "On Thursday",
+          "On Sunday"
+        ],
+        "explanation": "Corpus Christi is celebrated 60 days after Easter, on the second Thursday after Pentecost, in May or June. Its hallmark is the Corpus Christi procession, often with carpets of flowers along the route."
+      }
+    }
+  },
+  {
+    "id": "cu118",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie heißt das Fest der Darstellung des Herrn volkstümlich auch?",
+    "options": [
+      "Dreikönigstag",
+      "Mariä Himmelfahrt",
+      "Allerheiligen",
+      "Mariä Lichtmess"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Fest der Darstellung des Herrn heißt volkstümlich auch Mariä Lichtmess. In der katholischen Kirche gehört Lichtmess zum Weihnachtsfestkreis; in der altkatholischen Kirche endet die Weihnachtszeit immer erst an Lichtmess.",
+    "difficulty": 3,
+    "tags": [
+      "Bräuche",
+      "Feste",
+      "Kalender"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Darstellung des Herrn",
+    "source_url": "https://de.wikipedia.org/wiki/Darstellung des Herrn",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the feast of the Presentation of the Lord popularly called in German?",
+        "options": [
+          "Dreikönigstag (Epiphany)",
+          "Mariä Himmelfahrt (Assumption)",
+          "Allerheiligen (All Saints)",
+          "Mariä Lichtmess (Candlemas)"
+        ],
+        "explanation": "The feast of the Presentation of the Lord is popularly called Mariä Lichtmess, Candlemas. In the Catholic Church, Candlemas belongs to the Christmas cycle; in the Old Catholic Church the Christmas season always ends only at Candlemas."
+      }
+    }
+  },
+  {
+    "id": "cu119",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Als was gilt der Schornsteinfeger im Volksglauben?",
+    "options": [
+      "Als Glücksbringer",
+      "Als Unglücksbote",
+      "Als Wetterprophet",
+      "Als Schutzpatron der Bäcker"
+    ],
+    "correct_index": 0,
+    "explanation": "Der schwarze Mann gilt in weiten Teilen der Welt als Glücksbringer: Wer ihn berührt, soll Glück haben, vor allem im neuen Jahr. Im Vereinigten Königreich und in Norwegen bringt er besonders dem Brautpaar Glück.",
+    "difficulty": 1,
+    "tags": [
+      "Bräuche",
+      "Glück",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schornsteinfeger",
+    "source_url": "https://de.wikipedia.org/wiki/Schornsteinfeger",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the chimney sweep seen as in folk belief?",
+        "options": [
+          "A bringer of good luck",
+          "A messenger of bad luck",
+          "A weather prophet",
+          "The patron of bakers"
+        ],
+        "explanation": "In many parts of the world the chimney sweep is seen as a bringer of good luck: touching one is said to bring luck, especially for the new year. In the United Kingdom and Norway he is thought to bring luck to a bride and groom."
+      }
+    }
+  },
+  {
+    "id": "cu120",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was macht ein Hochzeitsbitter oder Hochzeitslader?",
+    "options": [
+      "Er backt die Hochzeitstorte",
+      "Er traut das Brautpaar",
+      "Er lädt ein und unterhält die Gäste",
+      "Er näht das Brautkleid"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Hochzeitsbitter – der Name kommt von „bitten“ und „einladen“ – lädt vor der Hochzeit die Gäste ein. Während der Feier organisiert er und unterhält die Gäste, oft auf lustige Weise.",
+    "difficulty": 2,
+    "tags": [
+      "Bräuche",
+      "Hochzeit",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hochzeitsbitter",
+    "source_url": "https://de.wikipedia.org/wiki/Hochzeitsbitter",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a “Hochzeitsbitter” or “Hochzeitslader” do at a traditional German wedding?",
+        "options": [
+          "He bakes the wedding cake",
+          "He marries the couple",
+          "He invites and entertains the guests",
+          "He sews the wedding dress"
+        ],
+        "explanation": "The Hochzeitsbitter – the name comes from “bitten” (to ask) and “einladen” (to invite) – invites the guests before the wedding. During the celebration he organises things and entertains the guests, often in a funny way."
+      }
+    }
+  },
+  {
+    "id": "cu121",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was sollen Weißwürste nach alter Regel nicht hören?",
+    "options": [
+      "Die Blasmusik",
+      "Den Hahnenschrei",
+      "Die Abendglocke",
+      "Das Mittagsläuten"
+    ],
+    "correct_index": 3,
+    "explanation": "Aus der Zeit vor der Erfindung der Kühltechnik stammt die Regel, Weißwürste dürften das Mittagsläuten um 12 Uhr nicht hören. Weiß ist die Wurst, weil das Brät mit Kochsalz statt mit Nitritpökelsalz gesalzen wird.",
+    "difficulty": 2,
+    "tags": [
+      "Essen",
+      "Bayern",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weißwurst",
+    "source_url": "https://de.wikipedia.org/wiki/Weißwurst",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to an old rule, what should white sausages (Weißwürste) never hear?",
+        "options": [
+          "The brass band",
+          "The cock's crow",
+          "The evening bell",
+          "The midday bells"
+        ],
+        "explanation": "From the time before refrigeration comes the rule that white sausages should never hear the midday bells at 12 o'clock. The sausage is white because the meat is salted with ordinary salt instead of curing salt."
+      }
+    }
+  },
+  {
+    "id": "cu122",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet das Wort „Dirndl“ ursprünglich in der Mundart?",
+    "options": [
+      "Ein junges Mädchen",
+      "Eine Schürze",
+      "Ein Festtag",
+      "Eine Bergwiese"
+    ],
+    "correct_index": 0,
+    "explanation": "Dirndl ist eine Verkleinerungsform von „Dirn“ und bezeichnet in der Mundart ein junges Mädchen. Das Dirndlkleid kam gegen Ende des 19. Jahrhunderts auf und besteht meist aus Mieder mit Rock, weißer Bluse und Schürze.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Kleidung",
+      "Bayern"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dirndl",
+    "source_url": "https://de.wikipedia.org/wiki/Dirndl",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the word “Dirndl” originally mean in dialect?",
+        "options": [
+          "A young girl",
+          "An apron",
+          "A feast day",
+          "A mountain meadow"
+        ],
+        "explanation": "Dirndl is a diminutive of “Dirn” and means a young girl in dialect. The dirndl dress appeared towards the end of the 19th century and usually consists of a bodice with skirt, a white blouse and an apron."
+      }
+    }
+  },
+  {
+    "id": "t123",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie heißt das schwere Fallgewicht eines Maschinenhammers?",
+    "options": [
+      "Bock",
+      "Bär",
+      "Hund",
+      "Wolf"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Maschinenhammer schlägt der sogenannte Bär auf das Werkstück. Fallhämmer mit Wasserrad gab es schon im Spätmittelalter; die ersten Dampfhämmer entstanden 1842 und 1843 in England und Frankreich.",
+    "difficulty": 3,
+    "tags": [
+      "Maschinen",
+      "Schmieden",
+      "Industrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maschinenhammer",
+    "source_url": "https://de.wikipedia.org/wiki/Maschinenhammer",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the heavy falling weight of a power hammer called in German?",
+        "options": [
+          "Bock (buck)",
+          "Bär (bear)",
+          "Hund (dog)",
+          "Wolf (wolf)"
+        ],
+        "explanation": "In a power hammer, the so-called “bear” strikes the workpiece. Drop hammers driven by water wheels already existed in the late Middle Ages; the first steam hammers were built in 1842 and 1843 in England and France."
+      }
+    }
+  },
+  {
+    "id": "t124",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie wurde der Fernschreiber umgangssprachlich auch genannt?",
+    "options": [
+      "Pager",
+      "Fax",
+      "Telex",
+      "Modem"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Fernschreiber, nach dem Telex-Netz auch Telex genannt, übermittelte Nachrichten in Schriftform mit elektrischen Signalen. Bei 50 Baud schaffte er 6,67 Zeichen pro Sekunde.",
+    "difficulty": 2,
+    "tags": [
+      "Kommunikation",
+      "Geräte",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fernschreiber",
+    "source_url": "https://de.wikipedia.org/wiki/Fernschreiber",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the teleprinter (Fernschreiber) also commonly called?",
+        "options": [
+          "Pager",
+          "Fax",
+          "Telex",
+          "Modem"
+        ],
+        "explanation": "The teleprinter, also called telex after the telex network, sent written messages using electrical signals. At 50 baud it managed 6.67 characters per second."
+      }
+    }
+  },
+  {
+    "id": "t125",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "In welchem Jahr wurde in Berlin das weltweit erste Tonbandgerät öffentlich vorgestellt?",
+    "options": [
+      "1895",
+      "1935",
+      "1965",
+      "1985"
+    ],
+    "correct_index": 1,
+    "explanation": "1935 wurde auf einer Funkausstellung in Berlin das weltweit erste Tonbandgerät der Öffentlichkeit vorgestellt. Schon 1928 war ein mit magnetisierbarem Stahlpulver beschichtetes Band als Tonspeicher vorgeschlagen worden.",
+    "difficulty": 2,
+    "tags": [
+      "Geräte",
+      "Musik",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tonbandgerät",
+    "source_url": "https://de.wikipedia.org/wiki/Tonbandgerät",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which year was the world's first tape recorder presented to the public in Berlin?",
+        "options": [
+          "1895",
+          "1935",
+          "1965",
+          "1985"
+        ],
+        "explanation": "In 1935 the world's first tape recorder was presented to the public at a radio exhibition in Berlin. As early as 1928, a tape coated with magnetisable steel powder had been proposed for storing sound."
+      }
+    }
+  },
+  {
+    "id": "t126",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Worauf beruht der räumliche Eindruck bei der Stereoskopie (3D-Bildern)?",
+    "options": [
+      "Zwei Augen sehen aus zwei Blickwinkeln",
+      "Besonders helle Farben",
+      "Ein gewölbter Bildschirm",
+      "Sehr große Bilder"
+    ],
+    "correct_index": 0,
+    "explanation": "Stereoskopie erzeugt einen Eindruck von Tiefe, der physikalisch nicht vorhanden ist. Sie nutzt, dass wir mit zwei Augen die Umgebung gleichzeitig aus zwei Blickwinkeln sehen. Die Bilder selbst sind nur zweidimensional.",
+    "difficulty": 2,
+    "tags": [
+      "Optik",
+      "Sehen",
+      "Bilder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stereoskopie",
+    "source_url": "https://de.wikipedia.org/wiki/Stereoskopie",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the sense of depth in stereoscopy (3D pictures) based on?",
+        "options": [
+          "Two eyes see from two angles",
+          "Especially bright colours",
+          "A curved screen",
+          "Very large pictures"
+        ],
+        "explanation": "Stereoscopy creates an impression of depth that is not physically there. It uses the fact that our two eyes see the surroundings from two angles at the same time. The pictures themselves are only two-dimensional."
+      }
+    }
+  },
+  {
+    "id": "t127",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie heißt die Planierraupe auch?",
+    "options": [
+      "Gabelstapler",
+      "Bulldozer",
+      "Mähdrescher",
+      "Kipplaster"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Planierraupe, auch Bulldozer genannt, löst, schiebt und verteilt Erde. Sie fährt auf Ketten – Maschinen mit Rädern heißen dagegen Radplanierer.",
+    "difficulty": 1,
+    "tags": [
+      "Maschinen",
+      "Baustelle",
+      "Fahrzeuge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Planierraupe",
+    "source_url": "https://de.wikipedia.org/wiki/Planierraupe",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is another name for the German “Planierraupe”?",
+        "options": [
+          "Forklift",
+          "Bulldozer",
+          "Combine harvester",
+          "Dump truck"
+        ],
+        "explanation": "The Planierraupe, also called a bulldozer, loosens, pushes and spreads soil. It runs on tracks – machines with wheels are called wheel dozers."
+      }
+    }
+  },
+  {
+    "id": "t128",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie heißt das vordere Ende eines Tunnels, an dem gerade gegraben wird?",
+    "options": [
+      "Firstbalken",
+      "Stollenmund",
+      "Ortsbrust",
+      "Kopfwand"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Tunnelvortrieb wird der Tunnel an seinem vorderen Ende, der Ortsbrust, erweitert. Tunnelbohrmaschinen haben dort einen Bohrkopf, oft mit einem rotierenden Schneidrad.",
+    "difficulty": 3,
+    "tags": [
+      "Bauen",
+      "Tunnel",
+      "Maschinen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tunnelvortriebsmaschine",
+    "source_url": "https://de.wikipedia.org/wiki/Tunnelvortriebsmaschine",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the front end of a tunnel, where digging is going on, called in German?",
+        "options": [
+          "Firstbalken (ridge beam)",
+          "Stollenmund (tunnel mouth)",
+          "Ortsbrust (tunnel face)",
+          "Kopfwand (head wall)"
+        ],
+        "explanation": "In tunnelling, the tunnel is extended at its front end, the face (Ortsbrust). Tunnel boring machines have a cutting head there, often with a rotating cutting wheel."
+      }
+    }
+  },
+  {
+    "id": "t129",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was hält eine Magnetschwebebahn in der Schwebe?",
+    "options": [
+      "Propeller",
+      "Luftdruck",
+      "Ein Wasserkissen",
+      "Magnetische Kräfte"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Magnetschwebebahn wird von magnetischen Kräften in der Schwebe gehalten und in der Spur geführt, statt auf Rädern zu fahren. Angetrieben wird sie meist von Linearmotoren.",
+    "difficulty": 1,
+    "tags": [
+      "Verkehr",
+      "Magnetismus",
+      "Züge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Magnetschwebebahn",
+    "source_url": "https://de.wikipedia.org/wiki/Magnetschwebebahn",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What keeps a maglev train hovering?",
+        "options": [
+          "Propellers",
+          "Air pressure",
+          "A cushion of water",
+          "Magnetic forces"
+        ],
+        "explanation": "A maglev train is held in the air and guided along its track by magnetic forces instead of running on wheels. It is usually driven by linear motors."
+      }
+    }
+  },
+  {
+    "id": "t130",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was wirft ein Diaprojektor vergrößert auf eine Bildwand?",
+    "options": [
+      "Filmrollen",
+      "Gerahmte Dias",
+      "Fotos auf Papier",
+      "Zeichnungen auf Glas"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Diaprojektor projiziert gerahmte Dias mit Licht vergrößert auf eine Bildwand. Er besteht im Wesentlichen aus Lichtquelle, Objektiv und Diahalterung mit Wechselsystem; die Dias stecken in einem Lang- oder Rundmagazin.",
+    "difficulty": 1,
+    "tags": [
+      "Geräte",
+      "Bilder",
+      "Optik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diaprojektor",
+    "source_url": "https://de.wikipedia.org/wiki/Diaprojektor",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a slide projector project, enlarged, onto a screen?",
+        "options": [
+          "Film reels",
+          "Framed slides",
+          "Paper photos",
+          "Drawings on glass"
+        ],
+        "explanation": "A slide projector uses light to project framed slides, enlarged, onto a screen. It consists mainly of a light source, a lens and a slide holder with a changing system; the slides sit in a straight or round magazine."
+      }
+    }
+  },
+  {
+    "id": "t131",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wozu wurde eine Dampfwalze eingesetzt?",
+    "options": [
+      "Zum Waschen von Wäsche",
+      "Zum Mahlen von Getreide",
+      "Zum Verdichten von Straßen",
+      "Zum Pressen von Papier"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Dampfwalze verdichtet mit ihrem Gewicht die frisch eingebaute Straßendecke. Sie wurde in den frühen 1860er Jahren entwickelt und ersetzte die meist von Pferden gezogenen Walzen. Daher kommt die Redensart „wie eine Dampfwalze“.",
+    "difficulty": 2,
+    "tags": [
+      "Maschinen",
+      "Straßenbau",
+      "Dampfmaschine"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dampfwalze",
+    "source_url": "https://de.wikipedia.org/wiki/Dampfwalze",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a steam roller used for?",
+        "options": [
+          "Washing laundry",
+          "Grinding grain",
+          "Compacting roads",
+          "Pressing paper"
+        ],
+        "explanation": "The steam roller uses its weight to compact a freshly laid road surface. It was developed in the early 1860s and replaced rollers that were mostly pulled by horses. That is where the German saying “like a steam roller” comes from."
+      }
+    }
+  },
+  {
+    "id": "t132",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie heißt die Wählscheibe alter Telefone amtlich?",
+    "options": [
+      "Tastenfeld",
+      "Ziffernrad",
+      "Rufrad",
+      "Fingerlochscheibe"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Wählscheibe – amtlich Fingerlochscheibe – gehört zum Nummernschalter, mit dem man nach dem Impulswahlverfahren wählt. Tastentelefone nutzen dagegen meist das Mehrfrequenzwahlverfahren.",
+    "difficulty": 3,
+    "tags": [
+      "Telefon",
+      "Geräte",
+      "Kommunikation"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nummernschalter",
+    "source_url": "https://de.wikipedia.org/wiki/Nummernschalter",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the official German name for the dial of old telephones?",
+        "options": [
+          "Tastenfeld (keypad)",
+          "Ziffernrad (digit wheel)",
+          "Rufrad (call wheel)",
+          "Fingerlochscheibe (finger-hole disc)"
+        ],
+        "explanation": "The dial – officially the “finger-hole disc” – is part of the rotary switch used to dial by pulse dialling. Push-button phones, by contrast, mostly use tone dialling."
+      }
+    }
+  },
+  {
+    "id": "t133",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie verkündeten die ersten Turmuhren die volle Stunde?",
+    "options": [
+      "Mit Glockenschlägen",
+      "Mit Fanfaren",
+      "Mit Kanonenschüssen",
+      "Mit Lichtsignalen"
+    ],
+    "correct_index": 0,
+    "explanation": "Turmuhren waren die ersten mechanischen Uhren überhaupt und verbreiteten sich gegen Ende des Mittelalters. Sie verkündeten die volle Stunde zunächst durch automatische Glockenschläge. Uhren waren damals sehr teuer.",
+    "difficulty": 2,
+    "tags": [
+      "Uhren",
+      "Mittelalter",
+      "Erfindungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Turmuhr",
+    "source_url": "https://de.wikipedia.org/wiki/Turmuhr",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the first tower clocks announce the full hour?",
+        "options": [
+          "With bell strokes",
+          "With fanfares",
+          "With cannon shots",
+          "With light signals"
+        ],
+        "explanation": "Tower clocks were the very first mechanical clocks and spread towards the end of the Middle Ages. At first they announced the full hour with automatic bell strokes. Clocks were very expensive at the time."
+      }
+    }
+  },
+  {
+    "id": "hg75",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Woher hat der Tagelöhner seinen Namen?",
+    "options": [
+      "Er wurde nur tageweise beschäftigt",
+      "Er arbeitete nur bei Tageslicht",
+      "Er bekam einen Wochenlohn",
+      "Er arbeitete nur sonntags"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Tagelöhner hat kein festes Arbeitsverhältnis, sondern bietet seine Arbeitskraft immer wieder neuen Arbeitgebern an. Der Name kommt daher, dass er nur tageweise beschäftigt wird. Oft reichte das nur für ein Leben „von der Hand in den Mund“.",
+    "difficulty": 1,
+    "tags": [
+      "Berufe",
+      "Alltag früher",
+      "Arbeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tagelöhner",
+    "source_url": "https://de.wikipedia.org/wiki/Tagelöhner",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German word “Tagelöhner” (day labourer) come from?",
+        "options": [
+          "He was only hired by the day",
+          "He only worked in daylight",
+          "He received a weekly wage",
+          "He only worked on Sundays"
+        ],
+        "explanation": "A day labourer has no permanent job but offers his labour to new employers again and again. The name comes from being hired only by the day. Often this was only enough for a “hand-to-mouth” existence."
+      }
+    }
+  },
+  {
+    "id": "hg76",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was bedeutete das althochdeutsche Wort „gisind“, von dem „Gesinde“ kommt?",
+    "options": [
+      "Hausdach",
+      "Gefolgsmann",
+      "Ernte",
+      "Gesang"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Gesinde waren die Dienstboten eines Grund- oder Gutsherrn. Das Wort kommt über althochdeutsch „gisind“ ins Deutsche, was „Gefolgsmann“ bedeutete. Das unverheiratete Hausgesinde bekam Lohn und Verpflegung.",
+    "difficulty": 3,
+    "tags": [
+      "Wortherkunft",
+      "Alltag früher",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gesinde",
+    "source_url": "https://de.wikipedia.org/wiki/Gesinde",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the Old High German word “gisind”, the root of “Gesinde” (servants), mean?",
+        "options": [
+          "House roof",
+          "Follower",
+          "Harvest",
+          "Singing"
+        ],
+        "explanation": "The Gesinde were the servants of a landlord or estate owner. The word entered German via Old High German “gisind”, meaning “follower”. The unmarried house servants received wages and board."
+      }
+    }
+  },
+  {
+    "id": "hg77",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wozu trafen sich junge Frauen früher an Winterabenden in der Spinnstube?",
+    "options": [
+      "Zum Wäschewaschen",
+      "Zum Kochen für das Dorf",
+      "Zum gemeinsamen Spinnen und Handarbeiten",
+      "Zum Schulunterricht"
+    ],
+    "correct_index": 2,
+    "explanation": "In der Spinnstube verbrachten vor allem unverheiratete Frauen die langen Winterabende mit geselligen Handarbeiten, etwa dem Spinnen für die Aussteuer. Gemeinsam sparte man Kienspäne, Kerzen, Öllampen und Heizmaterial.",
+    "difficulty": 2,
+    "tags": [
+      "Alltag früher",
+      "Handarbeit",
+      "Bräuche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spinnstube",
+    "source_url": "https://de.wikipedia.org/wiki/Spinnstube",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why did young women meet in the “spinning room” on winter evenings in the past?",
+        "options": [
+          "To do the laundry",
+          "To cook for the village",
+          "To spin and do needlework together",
+          "For school lessons"
+        ],
+        "explanation": "In the spinning room, mainly unmarried women spent the long winter evenings doing needlework together, for example spinning for their trousseau. Sharing the room saved pine torches, candles, oil lamps and fuel."
+      }
+    }
+  },
+  {
+    "id": "hg78",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war ein Postillon?",
+    "options": [
+      "Eine Briefmarke",
+      "Ein Briefkasten",
+      "Ein Postamt",
+      "Der Fahrer einer Postkutsche"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Postillon fuhr die Postkutsche, die Briefe und Fahrgäste beförderte. Er trug eine Uniform und führte ein Posthorn. Scherzhaft wurde er auch „Schwager“ genannt.",
+    "difficulty": 1,
+    "tags": [
+      "Berufe",
+      "Post",
+      "Alltag früher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Postillon",
+    "source_url": "https://de.wikipedia.org/wiki/Postillon",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was a postilion?",
+        "options": [
+          "A postage stamp",
+          "A letter box",
+          "A post office",
+          "The driver of a mail coach"
+        ],
+        "explanation": "The postilion drove the mail coach that carried letters and passengers. He wore a uniform and carried a post horn. He was also jokingly called “brother-in-law” in German."
+      }
+    }
+  },
+  {
+    "id": "hg79",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was reparierten Kesselflicker?",
+    "options": [
+      "Kochkessel",
+      "Schuhe",
+      "Dachziegel",
+      "Uhren"
+    ],
+    "correct_index": 0,
+    "explanation": "Kesselflicker flickten Risse und Löcher in Kochkesseln. Sie zogen mit altem Kupfer und Werkzeug über das Land. Die zünftigen Kupferschmiede hielten sie für „Störer und Pfuscher“.",
+    "difficulty": 1,
+    "tags": [
+      "Berufe",
+      "Handwerk",
+      "Alltag früher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kesselflicker",
+    "source_url": "https://de.wikipedia.org/wiki/Kesselflicker",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did tinkers (Kesselflicker) repair?",
+        "options": [
+          "Cooking kettles",
+          "Shoes",
+          "Roof tiles",
+          "Clocks"
+        ],
+        "explanation": "Tinkers mended cracks and holes in cooking kettles. They travelled the countryside with old copper and tools. The guild coppersmiths considered them “troublemakers and bunglers”."
+      }
+    }
+  },
+  {
+    "id": "hg80",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie wurden fahrende Messer- und Scherenschleifer veraltet auch genannt?",
+    "options": [
+      "Klingenreiter",
+      "Radschmiede",
+      "Karrenschleifer",
+      "Wagenwetzer"
+    ],
+    "correct_index": 2,
+    "explanation": "Fahrende Messer- und Scherenschleifer, veraltet Karrenschleifer, gibt es in Europa seit dem Mittelalter. Mit einem Schleifrad zogen sie über Land und durch die Städte. Heute zählt der Beruf zu den vom Aussterben bedrohten Handwerken.",
+    "difficulty": 3,
+    "tags": [
+      "Berufe",
+      "Handwerk",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Scherenschleifer",
+    "source_url": "https://de.wikipedia.org/wiki/Scherenschleifer",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What were travelling knife and scissor grinders called in old German?",
+        "options": [
+          "Klingenreiter (blade riders)",
+          "Radschmiede (wheel smiths)",
+          "Karrenschleifer (cart grinders)",
+          "Wagenwetzer (wagon whetters)"
+        ],
+        "explanation": "Travelling knife and scissor grinders, in old German “cart grinders”, have existed in Europe since the Middle Ages. With a grinding wheel they travelled the countryside and through the towns. Today the trade is one of the crafts threatened with extinction."
+      }
+    }
+  },
+  {
+    "id": "hg81",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was bedeutet das lateinische Wort „joculator“, von dem die ältesten Namen der Spielleute stammen?",
+    "options": [
+      "Bettler",
+      "Sänger",
+      "Wanderer",
+      "Spaßmacher"
+    ],
+    "correct_index": 3,
+    "explanation": "Die ältesten Bezeichnungen der Spielleute, joglar und jogleor, kommen von lateinisch joculator, „Spaßmacher“. Spielleute unterhielten mit Kunststücken, Erzählungen und Musik. Die Spielmannskultur des Hochmittelalters entstand gegen Ende des 11. Jahrhunderts.",
+    "difficulty": 3,
+    "tags": [
+      "Mittelalter",
+      "Musik",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spielmann",
+    "source_url": "https://de.wikipedia.org/wiki/Spielmann",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Latin word “joculator”, from which the oldest names for minstrels come, mean?",
+        "options": [
+          "Beggar",
+          "Singer",
+          "Wanderer",
+          "Jester"
+        ],
+        "explanation": "The oldest names for minstrels, joglar and jogleor, come from Latin joculator, “jester”. Minstrels entertained with tricks, stories and music. The minstrel culture of the High Middle Ages arose towards the end of the 11th century."
+      }
+    }
+  },
+  {
+    "id": "hg82",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wozu diente das Pech der Pechsieder unter anderem?",
+    "options": [
+      "Zum Abdichten von Bierfässern und Schiffen",
+      "Zum Süßen von Speisen",
+      "Zum Färben von Wolle",
+      "Zum Backen von Brot"
+    ],
+    "correct_index": 0,
+    "explanation": "Pechsieder gewannen Pech, indem sie Harz oder Holzteer von Kiefern und Fichten erhitzten. Damit dichtete man Bierfässer ab und kalfaterte Schiffsrümpfe; es diente auch als Wagenschmiere.",
+    "difficulty": 2,
+    "tags": [
+      "Berufe",
+      "Handwerk",
+      "Alltag früher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pechsieder",
+    "source_url": "https://de.wikipedia.org/wiki/Pechsieder",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the pitch made by pitch boilers used for, among other things?",
+        "options": [
+          "Sealing beer barrels and ships",
+          "Sweetening food",
+          "Dyeing wool",
+          "Baking bread"
+        ],
+        "explanation": "Pitch boilers made pitch by heating resin or wood tar from pines and spruces. It was used to seal beer barrels and caulk ship hulls; it also served as axle grease."
+      }
+    }
+  },
+  {
+    "id": "hg83",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was wird in einer Saline gewonnen?",
+    "options": [
+      "Zucker",
+      "Speisesalz",
+      "Eisen",
+      "Kohle"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Saline ist eine Anlage zur Gewinnung von Speisesalz. In Siedesalinen verdampft man salzhaltiges Wasser, die Sole; in Meerwassersalinen verdunstet Meerwasser. In Gradierwerken wurde der Salzgehalt der Sole vorher erhöht, um Brennmaterial zu sparen.",
+    "difficulty": 1,
+    "tags": [
+      "Salz",
+      "Alltag früher",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saline",
+    "source_url": "https://de.wikipedia.org/wiki/Saline",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is produced in a saltworks (Saline)?",
+        "options": [
+          "Sugar",
+          "Table salt",
+          "Iron",
+          "Coal"
+        ],
+        "explanation": "A saltworks is a facility for producing table salt. In boiling saltworks, salty water (brine) is evaporated; in sea saltworks, seawater evaporates. In graduation towers the salt content of the brine was raised beforehand to save fuel."
+      }
+    }
+  },
+  {
+    "id": "hg84",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was stellte ein Stellmacher – im Süden „Wagner“ genannt – her?",
+    "options": [
+      "Dachziegel",
+      "Fensterglas",
+      "Räder und Wagen aus Holz",
+      "Kerzen"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Stellmacher fertigte Räder, Wagen und andere landwirtschaftliche Geräte aus Holz. Der Name ist eine Kürzung aus „Gestellmacher“ und wird eher im Norden verwendet; im Süden und in der Schweiz sagt man Wagner.",
+    "difficulty": 2,
+    "tags": [
+      "Berufe",
+      "Handwerk",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stellmacherei",
+    "source_url": "https://de.wikipedia.org/wiki/Stellmacherei",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did a Stellmacher – called “Wagner” in the south – make?",
+        "options": [
+          "Roof tiles",
+          "Window glass",
+          "Wooden wheels and carts",
+          "Candles"
+        ],
+        "explanation": "The Stellmacher (wheelwright) made wheels, carts and other farm equipment from wood. The name is short for “Gestellmacher” (frame maker) and is used more in the north; in the south and in Switzerland people say Wagner."
+      }
+    }
+  },
+  {
+    "id": "hg85",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie heißt der Beruf des Hufschmieds in Deutschland offiziell?",
+    "options": [
+      "Stallmeister",
+      "Pferdeschuster",
+      "Eisenreiter",
+      "Hufbeschlagschmied"
+    ],
+    "correct_index": 3,
+    "explanation": "In Deutschland heißt der Hufschmied offiziell Hufbeschlagschmied, in Österreich und der Schweiz Hufschmied. Er pflegt und beschlägt Tierhufe; Hufeisen und Hufnägel stellt er traditionell selbst her.",
+    "difficulty": 2,
+    "tags": [
+      "Berufe",
+      "Handwerk",
+      "Pferde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hufschmied",
+    "source_url": "https://de.wikipedia.org/wiki/Hufschmied",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the official German job title of a farrier?",
+        "options": [
+          "Stallmeister (stable master)",
+          "Pferdeschuster (horse cobbler)",
+          "Eisenreiter (iron rider)",
+          "Hufbeschlagschmied (hoof-shoeing smith)"
+        ],
+        "explanation": "In Germany the farrier is officially called a “hoof-shoeing smith”; in Austria and Switzerland simply “hoof smith”. He trims and shoes animals' hooves and traditionally makes the horseshoes and nails himself."
+      }
+    }
+  }
+]
