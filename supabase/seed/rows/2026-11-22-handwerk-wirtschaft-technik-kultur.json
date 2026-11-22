@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "b153",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was weist ein Meisterbrief nach?",
+    "options": [
+      "Die bestandene Meisterprüfung",
+      "Den Kauf einer Werkstatt",
+      "Die Mitgliedschaft in einem Sportverein",
+      "Einen gewonnenen Wettbewerb"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Meisterbrief ist eine Urkunde, die nach bestandener Meisterprüfung ausgehändigt wird – etwa an Handwerks-, Industrie- oder Landwirtschaftsmeister. Er dient als Nachweis über die Prüfung und gilt europaweit.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Ausbildung",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Meisterbrief",
+    "source_url": "https://de.wikipedia.org/wiki/Meisterbrief",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a “Meisterbrief” (master craftsman's certificate) prove?",
+        "options": [
+          "That the master craftsman's exam was passed",
+          "The purchase of a workshop",
+          "Membership in a sports club",
+          "A competition win"
+        ],
+        "explanation": "The Meisterbrief is a certificate handed out after passing the master craftsman's exam – for example to master craftsmen, industrial or agricultural masters. It serves as proof of the exam and is valid throughout Europe."
+      }
+    }
+  },
+  {
+    "id": "b154",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wann fertigt man ein Gesellenstück an?",
+    "options": [
+      "Am ersten Tag der Lehre",
+      "Im praktischen Teil der Gesellenprüfung",
+      "Nach der Rente",
+      "Bei der Eröffnung eines Ladens"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Gesellenstück ist das Werkstück, das im praktischen Teil der Gesellenprüfung hergestellt wird. Damit zeigt der angehende Geselle innerhalb einer vorgegebenen Zeit, was er in der Ausbildung gelernt hat.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Ausbildung",
+      "Prüfung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gesellenstück",
+    "source_url": "https://de.wikipedia.org/wiki/Gesellenstück",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When is a “Gesellenstück” (journeyman's piece) made?",
+        "options": [
+          "On the first day of the apprenticeship",
+          "In the practical part of the journeyman's exam",
+          "After retirement",
+          "When opening a shop"
+        ],
+        "explanation": "The journeyman's piece is the workpiece made in the practical part of the journeyman's exam. With it, the future journeyman shows within a set time what they learned during training."
+      }
+    }
+  },
+  {
+    "id": "b155",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wie haftet ein Kommanditist in einer Kommanditgesellschaft (KG)?",
+    "options": [
+      "Gar nicht",
+      "Unbeschränkt mit seinem ganzen Vermögen",
+      "Nur bis zur Höhe seiner Einlage",
+      "Nur für Steuern"
+    ],
+    "correct_index": 2,
+    "explanation": "In einer KG haftet mindestens ein Gesellschafter unbeschränkt (der Komplementär) und mindestens einer nur beschränkt (der Kommanditist). Kommanditisten haften nur bis zur Höhe ihrer Einlage, nicht mit dem Privatvermögen.",
+    "difficulty": 3,
+    "tags": [
+      "Unternehmen",
+      "Recht",
+      "Gründung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kommanditgesellschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Kommanditgesellschaft",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is a limited partner (“Kommanditist”) liable in a limited partnership (KG)?",
+        "options": [
+          "Not at all",
+          "Without limit with all their assets",
+          "Only up to the amount of their contribution",
+          "Only for taxes"
+        ],
+        "explanation": "In a KG, at least one partner has unlimited liability (the general partner) and at least one has limited liability (the limited partner). Limited partners are liable only up to the amount of their contribution, not with their private assets."
+      }
+    }
+  },
+  {
+    "id": "b156",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was bedeutet „Inkasso“?",
+    "options": [
+      "Das Gründen einer Firma",
+      "Das Verpacken von Waren",
+      "Das Zählen von Kassenbons",
+      "Das Einziehen fälliger Geldforderungen"
+    ],
+    "correct_index": 3,
+    "explanation": "Inkasso (von italienisch „incasso“, „Eingang“, „Einziehung“) ist die Einziehung von fälligen Geldforderungen im eigenen oder fremden Namen. Der Begriff stammt aus dem Bankwesen.",
+    "difficulty": 2,
+    "tags": [
+      "Geld",
+      "Wörter",
+      "Banken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Inkasso",
+    "source_url": "https://de.wikipedia.org/wiki/Inkasso",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “Inkasso” (debt collection) mean?",
+        "options": [
+          "Founding a company",
+          "Packing goods",
+          "Counting receipts",
+          "Collecting money that is owed and due"
+        ],
+        "explanation": "Inkasso (from Italian “incasso”, “receipt”, “collection”) is collecting money claims that are due, in one's own or someone else's name. The term comes from banking."
+      }
+    }
+  },
+  {
+    "id": "b157",
+    "kind": "question",
+    "category_id": "business",
+    "question": "An wen verkauft der Großhandel seine Waren vor allem?",
+    "options": [
+      "An gewerbliche Kunden wie den Einzelhandel",
+      "Nur an Kinder",
+      "Nur an Touristen",
+      "An niemanden – er sammelt sie nur"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Großhandel kauft Waren verschiedener Hersteller und verkauft sie an gewerbliche Kunden weiter, etwa an Einzelhändler, die sie wiederverkaufen, und an Großabnehmer. In der Kaufmannssprache heißt das „en gros“, im Gegensatz zu „en détail“.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Einkauf",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großhandel",
+    "source_url": "https://de.wikipedia.org/wiki/Großhandel",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who does wholesale trade mainly sell its goods to?",
+        "options": [
+          "Business customers such as retailers",
+          "Only children",
+          "Only tourists",
+          "Nobody – it just collects them"
+        ],
+        "explanation": "Wholesalers buy goods from various manufacturers and sell them on to business customers, such as retailers who resell them, and to bulk buyers. In merchant language this is “en gros”, as opposed to “en détail”."
+      }
+    }
+  },
+  {
+    "id": "b158",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Wofür steht die Abkürzung „Azubi“?",
+    "options": [
+      "Außendienstbüro",
+      "Auszubildender",
+      "Aufzugbauer",
+      "Ausgabebeleg"
+    ],
+    "correct_index": 1,
+    "explanation": "„Azubi“ ist die Kurzform von „Auszubildender“. In der Handwerksordnung ist auch noch der ältere Begriff „Lehrling“ gebräuchlich. Die Ausbildung schließt mit einer Prüfung ab, etwa zum Gesellen.",
+    "difficulty": 1,
+    "tags": [
+      "Ausbildung",
+      "Abkürzungen",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Auszubildender",
+    "source_url": "https://de.wikipedia.org/wiki/Auszubildender",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the German abbreviation “Azubi” stand for?",
+        "options": [
+          "Außendienstbüro (field office)",
+          "Auszubildender (trainee/apprentice)",
+          "Aufzugbauer (lift builder)",
+          "Ausgabebeleg (expense receipt)"
+        ],
+        "explanation": "“Azubi” is short for “Auszubildender” (trainee). In the German Crafts Code the older word “Lehrling” (apprentice) is still used. The training ends with an exam, for example to become a journeyman."
+      }
+    }
+  },
+  {
+    "id": "b159",
+    "kind": "question",
+    "category_id": "business",
+    "question": "In wie viele Raten muss bei einem Teilzahlungsgeschäft (Ratenkauf) mindestens gezahlt werden?",
+    "options": [
+      "Vier",
+      "Drei",
+      "Zwei",
+      "Zwölf"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Teilzahlungsgeschäft wird der Kaufpreis nicht sofort in einer Summe bezahlt, sondern durch Teilzahlung in mindestens zwei Zahlungsraten. Das Gesetz spricht dabei nicht von Raten, sondern von Teilzahlungen.",
+    "difficulty": 2,
+    "tags": [
+      "Kaufen",
+      "Geld",
+      "Recht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Teilzahlungsgeschäft",
+    "source_url": "https://de.wikipedia.org/wiki/Teilzahlungsgeschäft",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a hire-purchase (instalment) deal, what is the minimum number of instalments?",
+        "options": [
+          "Four",
+          "Three",
+          "Two",
+          "Twelve"
+        ],
+        "explanation": "In an instalment deal, the price is not paid at once in one sum but in at least two instalments. German law speaks not of instalments but of part payments."
+      }
+    }
+  },
+  {
+    "id": "b160",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist die Aufgabe eines Maklers?",
+    "options": [
+      "Verträge zwischen anderen zu vermitteln",
+      "Häuser zu bauen",
+      "Waren selbst herzustellen",
+      "Steuern einzutreiben"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Makler (englisch broker) vermittelt für andere Verträge, etwa über Waren, Wertpapiere, Versicherungen oder Güterbeförderung. Seine Aufgabe ist die Vermittlung – er ist dabei nicht dauerhaft für einen Auftraggeber angestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Berufe",
+      "Handel",
+      "Verträge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Makler",
+    "source_url": "https://de.wikipedia.org/wiki/Makler",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a broker's job?",
+        "options": [
+          "To arrange contracts between other people",
+          "To build houses",
+          "To make goods himself",
+          "To collect taxes"
+        ],
+        "explanation": "A broker arranges contracts for others, for example about goods, securities, insurance or freight transport. His job is brokering – he is not permanently employed by one client."
+      }
+    }
+  },
+  {
+    "id": "e130",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was versteht man im Außenhandel unter „Dumping“?",
+    "options": [
+      "Waren unter den Herstellungskosten zu verkaufen",
+      "Waren nur im Inland zu verkaufen",
+      "Waren zu verschenken, um Lager zu leeren",
+      "Waren mit Gold zu bezahlen"
+    ],
+    "correct_index": 0,
+    "explanation": "Dumping (englisch „to dump“, „abladen“) bezeichnet den Vertrieb von Gütern zu einem Preis unterhalb der Herstellungs- oder Selbstkosten. Im Außenhandel heißt es so, wenn eine Ware im Ausland billiger verkauft wird als im Inland.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Preise",
+      "Außenhandel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dumping",
+    "source_url": "https://de.wikipedia.org/wiki/Dumping",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In foreign trade, what is meant by “dumping”?",
+        "options": [
+          "Selling goods below their production cost",
+          "Selling goods only at home",
+          "Giving away goods to empty warehouses",
+          "Paying for goods with gold"
+        ],
+        "explanation": "Dumping (from English “to dump”) means selling goods at a price below their production or cost price. In foreign trade, the term is used when a good is sold more cheaply abroad than at home."
+      }
+    }
+  },
+  {
+    "id": "e131",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist im Finanzwesen eine „Tilgung“?",
+    "options": [
+      "Eine neue Banknote",
+      "Die Rückzahlung von Schulden",
+      "Ein Zinsgeschenk der Bank",
+      "Das Eröffnen eines Kontos"
+    ],
+    "correct_index": 1,
+    "explanation": "Tilgung nennt man die planmäßige oder außerplanmäßige Rückzahlung von Schulden, etwa bei Krediten, Darlehen oder Anleihen.",
+    "difficulty": 1,
+    "tags": [
+      "Geld",
+      "Schulden",
+      "Banken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tilgung (Geldverkehr)",
+    "source_url": "https://de.wikipedia.org/wiki/Tilgung (Geldverkehr)",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In finance, what is “Tilgung” (repayment)?",
+        "options": [
+          "A new banknote",
+          "Paying back debts",
+          "An interest gift from the bank",
+          "Opening an account"
+        ],
+        "explanation": "“Tilgung” is the scheduled or unscheduled repayment of debts, for example for credits, loans or bonds."
+      }
+    }
+  },
+  {
+    "id": "e132",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie nannte man die Maut für Straßen früher auch?",
+    "options": [
+      "Trinkgeld",
+      "Taschengeld",
+      "Wegegeld",
+      "Kopfgeld"
+    ],
+    "correct_index": 2,
+    "explanation": "Maut ist eine Gebühr für die Nutzung von Verkehrsbauwerken wie Straßen, Brücken oder Tunneln. Früher sagte man auch Wegegeld, Chausseegeld oder Brückengeld; das Wort kommt aus dem Althochdeutschen „mūta“.",
+    "difficulty": 1,
+    "tags": [
+      "Verkehr",
+      "Geld",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maut",
+    "source_url": "https://de.wikipedia.org/wiki/Maut",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the road toll (“Maut”) also called in the past?",
+        "options": [
+          "Trinkgeld (tip)",
+          "Taschengeld (pocket money)",
+          "Wegegeld (way money)",
+          "Kopfgeld (bounty)"
+        ],
+        "explanation": "A toll is a fee for using transport structures such as roads, bridges or tunnels. In the past, Germans also said “Wegegeld”, “Chausseegeld” or “Brückengeld”; the word comes from Old High German “mūta”."
+      }
+    }
+  },
+  {
+    "id": "e133",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie heißt eine Spardose in der Schweiz?",
+    "options": [
+      "Rappli",
+      "Batzeli",
+      "Münzli",
+      "Kässeli"
+    ],
+    "correct_index": 3,
+    "explanation": "Spardose oder Sparbüchse heißt in der Schweiz „Kässeli“ oder „Sparkässeli“. Man wirft Münzen durch einen Schlitz ein; das Herausholen ist erschwert – bei vielen Keramik-Spardosen muss man sie sogar zerschlagen.",
+    "difficulty": 2,
+    "tags": [
+      "Sparen",
+      "Geld",
+      "Schweiz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spardose",
+    "source_url": "https://de.wikipedia.org/wiki/Spardose",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a money box called in Switzerland?",
+        "options": [
+          "Rappli",
+          "Batzeli",
+          "Münzli",
+          "Kässeli"
+        ],
+        "explanation": "In Switzerland a money box is called “Kässeli” or “Sparkässeli”. You drop coins through a slot; taking them out is made hard – many ceramic money boxes even have to be smashed."
+      }
+    }
+  },
+  {
+    "id": "e134",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was prüft ein Rechnungshof?",
+    "options": [
+      "Die Haushalts- und Wirtschaftsführung des Staates",
+      "Die Rechenhefte der Schulen",
+      "Die Preise in Supermärkten",
+      "Die Zeugnisnoten"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Rechnungshof ist ein von der Regierung unabhängiges Organ der Finanzkontrolle. Er prüft, ob die öffentliche Verwaltung ihre Haushalts- und Wirtschaftsführung ordnungsgemäß und wirtschaftlich betreibt, und berichtet meist dem Parlament.",
+    "difficulty": 3,
+    "tags": [
+      "Staat",
+      "Geld",
+      "Kontrolle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rechnungshof",
+    "source_url": "https://de.wikipedia.org/wiki/Rechnungshof",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a court of audit (“Rechnungshof”) check?",
+        "options": [
+          "How the state manages its budget and finances",
+          "Schools' maths exercise books",
+          "Prices in supermarkets",
+          "School report grades"
+        ],
+        "explanation": "A court of audit is a financial control body independent of the government. It checks whether public administration manages its budget and finances properly and economically, and usually reports to parliament."
+      }
+    }
+  },
+  {
+    "id": "e135",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wer schloss sich im Mittelalter im engeren Sinn in einer Gilde zusammen?",
+    "options": [
+      "Ritter",
+      "Kaufleute",
+      "Mönche",
+      "Bauern"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Gilde war im engeren Sinn ein durch einen Schwur besiegelter Zusammenschluss von Kaufleuten einer Stadt oder fahrender Händler. Vereinigungen von Handwerkern nennt man zur Unterscheidung meist Zünfte.",
+    "difficulty": 2,
+    "tags": [
+      "Mittelalter",
+      "Handel",
+      "Städte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gilde (Berufsverband)",
+    "source_url": "https://de.wikipedia.org/wiki/Gilde (Berufsverband)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Middle Ages, who joined together in a guild (“Gilde”) in the narrower sense?",
+        "options": [
+          "Knights",
+          "Merchants",
+          "Monks",
+          "Farmers"
+        ],
+        "explanation": "In the narrower sense, a “Gilde” was a sworn association of a town's merchants or of travelling traders. Associations of craftsmen are usually called “Zünfte” to tell them apart."
+      }
+    }
+  },
+  {
+    "id": "e136",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wer gibt einen Pfandbrief aus?",
+    "options": [
+      "Ein Pfandhaus",
+      "Die Post",
+      "Eine Pfandbrief- oder Hypothekenbank",
+      "Die Polizei"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Pfandbrief ist eine Anleihe, die eine Pfandbriefbank oder Hypothekenbank ausgibt. Sie ist auf eine gesetzlich vorgeschriebene Art besichert. Das Wort setzt sich aus „Pfand“ und „Brief“ zusammen.",
+    "difficulty": 3,
+    "tags": [
+      "Banken",
+      "Geld",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pfandbrief",
+    "source_url": "https://de.wikipedia.org/wiki/Pfandbrief",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who issues a “Pfandbrief” (covered bond)?",
+        "options": [
+          "A pawnshop",
+          "The post office",
+          "A covered-bond or mortgage bank",
+          "The police"
+        ],
+        "explanation": "A Pfandbrief is a bond issued by a covered-bond bank or mortgage bank. It is secured in a way prescribed by law. The word is made up of “Pfand” (pledge) and “Brief” (letter)."
+      }
+    }
+  },
+  {
+    "id": "kn135",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was zeigt eine Vedute?",
+    "options": [
+      "Ein Fantasietier",
+      "Eine wirklichkeitsgetreue Stadt- oder Landschaftsansicht",
+      "Einen Menschen von hinten",
+      "Nur Farbflächen ohne Motiv"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Vedute (italienisch „veduta“, „Ansicht“) ist in Malerei und Grafik die wirklichkeitsgetreue Darstellung einer Landschaft oder eines Stadtbilds. Ziel ist, dass man den Ort wiedererkennt.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Städte",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vedute",
+    "source_url": "https://de.wikipedia.org/wiki/Vedute",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a veduta show?",
+        "options": [
+          "A fantasy creature",
+          "A true-to-life view of a city or landscape",
+          "A person seen from behind",
+          "Only colour fields without a subject"
+        ],
+        "explanation": "A veduta (Italian “veduta”, “view”) is, in painting and graphic art, a true-to-life depiction of a landscape or cityscape. The aim is that the place can be recognised."
+      }
+    }
+  },
+  {
+    "id": "kn136",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie heißt ein Bild, bei dem die Motive mit farbigen Fäden in ein Gewebe eingewirkt werden?",
+    "options": [
+      "Fresko",
+      "Aquarell",
+      "Tapisserie",
+      "Radierung"
+    ],
+    "correct_index": 2,
+    "explanation": "Bildwirkerei bezeichnet die Technik, Bilder und Motive in ein textiles Flächengebilde einzuwirken, und auch ihr Erzeugnis: die Tapisserie. Die Technik ist mit der Weberei verwandt, aber nicht gleich.",
+    "difficulty": 2,
+    "tags": [
+      "Textilkunst",
+      "Handwerk",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bildwirkerei",
+    "source_url": "https://de.wikipedia.org/wiki/Bildwirkerei",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a picture called whose motifs are woven into a fabric with coloured threads?",
+        "options": [
+          "Fresco",
+          "Watercolour",
+          "Tapestry",
+          "Etching"
+        ],
+        "explanation": "Tapestry weaving is the technique of working pictures and motifs into a textile surface, and also its product: the tapestry. The technique is related to weaving, but not the same."
+      }
+    }
+  },
+  {
+    "id": "hg57",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was stellten Köhler in ihren Meilern her?",
+    "options": [
+      "Holzkohle",
+      "Ziegelsteine",
+      "Glas",
+      "Käse"
+    ],
+    "correct_index": 0,
+    "explanation": "Köhler stellten Holzkohle her, indem sie Holz in einem Kohlenmeiler verschwelten. Seit dem Mittelalter brauchte man Holzkohle etwa zur Eisenverhüttung und zur Glasherstellung. In der Saison lebten die Köhler im Wald bei ihren Meilern.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Wald",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Köhler",
+    "source_url": "https://de.wikipedia.org/wiki/Köhler",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did charcoal burners make in their kilns?",
+        "options": [
+          "Charcoal",
+          "Bricks",
+          "Glass",
+          "Cheese"
+        ],
+        "explanation": "Charcoal burners made charcoal by smouldering wood in a kiln. Since the Middle Ages charcoal was needed for smelting iron and making glass, for example. During the season the charcoal burners lived in the forest next to their kilns."
+      }
+    }
+  },
+  {
+    "id": "hg58",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie nannte man es, wenn Baumstämme lose, also nicht zusammengebunden, auf dem Wasser transportiert wurden?",
+    "options": [
+      "Flößen",
+      "Triften",
+      "Treideln",
+      "Rudern"
+    ],
+    "correct_index": 1,
+    "explanation": "Holz wurde früher auf Wasserstraßen transportiert. War es zu einem Floß zusammengebunden, hieß das Flößen, sonst Triften (von „treiben lassen“). In Deutschland war das bis etwa zum Beginn des 20. Jahrhunderts üblich.",
+    "difficulty": 2,
+    "tags": [
+      "Handwerk",
+      "Flüsse",
+      "Holz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flößerei",
+    "source_url": "https://de.wikipedia.org/wiki/Flößerei",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was it called when tree trunks were floated loose, i.e. not tied together, on the water?",
+        "options": [
+          "Rafting (“Flößen”)",
+          "Drifting (“Triften”)",
+          "Towing (“Treideln”)",
+          "Rowing"
+        ],
+        "explanation": "In the past, timber was transported on waterways. If it was tied together into a raft, this was called “Flößen”, otherwise “Triften” (from “letting drift”). In Germany this was common until about the beginning of the 20th century."
+      }
+    }
+  },
+  {
+    "id": "hg59",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was stellt ein Küfer, auch Böttcher oder Fassbinder genannt, her?",
+    "options": [
+      "Glocken aus Bronze",
+      "Schuhe aus Leder",
+      "Fässer und andere Gefäße aus Holzbrettern",
+      "Seile aus Hanf"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Küfer – je nach Gegend auch Böttcher, Büttner, Fassbinder oder Schäffler genannt – stellt Behälter und Gefäße aus Brettern her, meist aus Holz. Die Namen kommen von Gefäßen wie Fass, Bottich oder Bütte.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Berufe",
+      "Holz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Küfer",
+    "source_url": "https://de.wikipedia.org/wiki/Küfer",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a cooper (“Küfer”, also “Böttcher” or “Fassbinder”) make?",
+        "options": [
+          "Bronze bells",
+          "Leather shoes",
+          "Barrels and other vessels from wooden boards",
+          "Hemp ropes"
+        ],
+        "explanation": "The cooper – depending on the region also called Böttcher, Büttner, Fassbinder or Schäffler – makes containers and vessels from boards, usually of wood. The names come from vessels such as barrel (Fass), tub (Bottich) or vat (Bütte)."
+      }
+    }
+  },
+  {
+    "id": "hg60",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie heißt der Arbeitsplatz eines Reepschlägers (Seilers) auf Niederdeutsch?",
+    "options": [
+      "Reeperbahn",
+      "Seilallee",
+      "Taugasse",
+      "Knotenweg"
+    ],
+    "correct_index": 0,
+    "explanation": "Reepschläger stellten Seile her: Sie spannten einzelne Reepe über die ganze Länge ihres Arbeitsplatzes und verdrehten sie zu dickeren Tauen. Dieser lange Arbeitsplatz heißt niederdeutsch Reeperbahn. Im Süden sagt man zum Beruf Seiler.",
+    "difficulty": 2,
+    "tags": [
+      "Handwerk",
+      "Seefahrt",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Reepschläger",
+    "source_url": "https://de.wikipedia.org/wiki/Reepschläger",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the workplace of a ropemaker called in Low German?",
+        "options": [
+          "Reeperbahn (ropewalk)",
+          "Seilallee",
+          "Taugasse",
+          "Knotenweg"
+        ],
+        "explanation": "Ropemakers made ropes: they stretched single strands along the whole length of their workplace and twisted them into thicker ropes. This long workplace is called “Reeperbahn” in Low German. In the south the trade is called Seiler."
+      }
+    }
+  },
+  {
+    "id": "hg61",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Warum nannte man Lohgerber auch Rotgerber?",
+    "options": [
+      "Sie trugen rote Schürzen",
+      "Das mit Eichenlohe gegerbte Leder war rot bis braun",
+      "Sie arbeiteten nur bei Sonnenuntergang",
+      "Sie gerbten nur Fuchsfelle"
+    ],
+    "correct_index": 1,
+    "explanation": "Lohgerber verarbeiteten Rinderhäute mit pflanzlichen Gerbstoffen zu kräftigem Leder, etwa für Schuhsohlen, Stiefel und Sättel. Weil das mit Eichenlohe gegerbte Leder rot bis braun ist, nannte man sie oft Rotgerber.",
+    "difficulty": 2,
+    "tags": [
+      "Handwerk",
+      "Berufe",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lohgerber",
+    "source_url": "https://de.wikipedia.org/wiki/Lohgerber",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why were tanners who used bark (“Lohgerber”) also called “red tanners”?",
+        "options": [
+          "They wore red aprons",
+          "Leather tanned with oak bark was red to brown",
+          "They only worked at sunset",
+          "They only tanned fox furs"
+        ],
+        "explanation": "Bark tanners turned cattle hides into strong leather using plant tannins, for example for shoe soles, boots and saddles. Because leather tanned with oak bark is red to brown, they were often called red tanners."
+      }
+    }
+  },
+  {
+    "id": "hg62",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Welche Maschine ist für einen Drechsler die wichtigste?",
+    "options": [
+      "Die Druckerpresse",
+      "Der Webstuhl",
+      "Die Drehbank",
+      "Der Brennofen"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Drechsler verarbeitet vor allem Holz, aber auch Horn oder Bernstein. Seine Tätigkeit heißt Drehen: Die wichtigste Maschine ist die Drehbank, die wichtigsten Handwerkzeuge sind die Dreheisen. So entstehen etwa Treppenstäbe, Schalen und Dosen.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Holz",
+      "Werkzeug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Drechsler",
+    "source_url": "https://de.wikipedia.org/wiki/Drechsler",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the most important machine for a wood turner?",
+        "options": [
+          "The printing press",
+          "The loom",
+          "The lathe",
+          "The kiln"
+        ],
+        "explanation": "A wood turner mainly works wood, but also horn or amber. The work is called turning: the most important machine is the lathe, the most important hand tools are turning chisels. This is how stair spindles, bowls and boxes are made."
+      }
+    }
+  },
+  {
+    "id": "hg63",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie formt ein Zinngießer seine Werkstücke?",
+    "options": [
+      "Er bläst sie aus Glas",
+      "Er schnitzt sie aus Holz",
+      "Er webt sie aus Fäden",
+      "Er gießt Zinn in Formen"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Zinngießer fertigt Zier- und Gebrauchsgegenstände im Gussverfahren: Zinn wird in Formen aus Gusseisen oder Stahl gegossen. Danach werden die Stücke zum Beispiel auf Drehbänken weiterbearbeitet, bis sie silbrig glänzen.",
+    "difficulty": 1,
+    "tags": [
+      "Handwerk",
+      "Metall",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zinngießer",
+    "source_url": "https://de.wikipedia.org/wiki/Zinngießer",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a pewterer shape his pieces?",
+        "options": [
+          "He blows them from glass",
+          "He carves them from wood",
+          "He weaves them from threads",
+          "He pours tin into moulds"
+        ],
+        "explanation": "A pewterer makes decorative and everyday objects by casting: tin is poured into moulds of cast iron or steel. Then the pieces are worked further, for example on lathes, until they shine silvery."
+      }
+    }
+  },
+  {
+    "id": "hg64",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wovon haben die Kiepenkerle, umherziehende Händler in Norddeutschland, ihren Namen?",
+    "options": [
+      "Von der Kiepe, einer Rückentrage aus Korbgeflecht",
+      "Von einem Vogel namens Kiep",
+      "Von ihrem Pfiff „kiep, kiep“",
+      "Von einer Stadt namens Kiepen"
+    ],
+    "correct_index": 0,
+    "explanation": "Kiepenkerle zogen zwischen Sauerland und Hamburg zu Fuß übers Land. Sie trugen ihre Waren in der Kiepe, einer Rückentrage aus Holz und Korbgeflecht, brachten Eier und Geflügel in die Städte und versorgten die Dörfer mit Salz und Nachrichten.",
+    "difficulty": 2,
+    "tags": [
+      "Handel",
+      "Berufe",
+      "Norddeutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kiepenkerl",
+    "source_url": "https://de.wikipedia.org/wiki/Kiepenkerl",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the name of the “Kiepenkerle”, travelling traders in northern Germany, come from?",
+        "options": [
+          "From the “Kiepe”, a wicker back-basket",
+          "From a bird called Kiep",
+          "From their whistle “kiep, kiep”",
+          "From a town called Kiepen"
+        ],
+        "explanation": "Kiepenkerle walked across the countryside between the Sauerland and Hamburg. They carried their goods in the Kiepe, a back-basket of wood and wicker, brought eggs and poultry to the towns and supplied the villages with salt and news."
+      }
+    }
+  },
+  {
+    "id": "t117",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist eine Zisterne?",
+    "options": [
+      "Eine Brücke über einen Fluss",
+      "Ein Turm für Glocken",
+      "Ein unterirdischer Sammelbehälter für Wasser",
+      "Ein Ofen zum Brotbacken"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Zisterne (lateinisch „cisterna“, „unterirdischer Wasserbehälter“) ist ein unterirdischer oder abgedeckter Sammelbehälter für Trink- oder Nutzwasser. Zisternen gibt es schon seit der Jungsteinzeit.",
+    "difficulty": 1,
+    "tags": [
+      "Wasser",
+      "Bauwerke",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zisterne",
+    "source_url": "https://de.wikipedia.org/wiki/Zisterne",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a cistern?",
+        "options": [
+          "A bridge over a river",
+          "A bell tower",
+          "An underground tank for collecting water",
+          "An oven for baking bread"
+        ],
+        "explanation": "A cistern (Latin “cisterna”, “underground water tank”) is an underground or covered tank for collecting drinking or service water. Cisterns have existed since the Neolithic."
+      }
+    }
+  },
+  {
+    "id": "t118",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist ein Viadukt?",
+    "options": [
+      "Eine Ampel an Kreuzungen",
+      "Ein Tunnel unter einem Fluss",
+      "Eine Wasserleitung im Haus",
+      "Eine lange Brücke mit vielen Bögen, oft über ein Tal"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Viadukt ist eine hohe, lange Brücke für Eisenbahnen oder Straßen, die wie ein Aquädukt aus mehreren Brückenfeldern besteht – oft mit Bögen auf Pfeilern über ein Tal. Das Wort kommt von lateinisch „via“ (Weg) und „ductus“ (Führung).",
+    "difficulty": 2,
+    "tags": [
+      "Brücken",
+      "Bauwerke",
+      "Eisenbahn"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Viadukt",
+    "source_url": "https://de.wikipedia.org/wiki/Viadukt",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a viaduct?",
+        "options": [
+          "Traffic lights at junctions",
+          "A tunnel under a river",
+          "A water pipe in a house",
+          "A long bridge with many arches, often across a valley"
+        ],
+        "explanation": "A viaduct is a high, long bridge for railways or roads which, like an aqueduct, consists of several spans – often with arches on piers across a valley. The word comes from Latin “via” (way) and “ductus” (leading)."
+      }
+    }
+  },
+  {
+    "id": "t119",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was treibt in einer Wassermühle das Mahlwerk an?",
+    "options": [
+      "Ein Wasserrad, das vom Wasser gedreht wird",
+      "Ein Elektromotor",
+      "Ein Pferd im Kreis",
+      "Der Wind"
+    ],
+    "correct_index": 0,
+    "explanation": "In einer Wassermühle wird ein Wasserrad durch Wasserkraft in Drehung versetzt und treibt ein Mahlwerk an. Ein Wasserrad kann auch andere Maschinen antreiben, etwa ein Sägewerk oder ein Hammerwerk.",
+    "difficulty": 1,
+    "tags": [
+      "Mühlen",
+      "Energie",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wassermühle",
+    "source_url": "https://de.wikipedia.org/wiki/Wassermühle",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What drives the grinding mechanism in a watermill?",
+        "options": [
+          "A waterwheel turned by the water",
+          "An electric motor",
+          "A horse walking in circles",
+          "The wind"
+        ],
+        "explanation": "In a watermill, a waterwheel is turned by water power and drives a grinding mechanism. A waterwheel can also drive other machines, such as a sawmill or a hammer mill."
+      }
+    }
+  },
+  {
+    "id": "t120",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was macht ein Sägewerk aus angeliefertem Rundholz?",
+    "options": [
+      "Holzkohle",
+      "Papier",
+      "Bretter, Kanthölzer und Balken",
+      "Möbel mit Polstern"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Sägewerk verarbeitet Rundholz aus der Forstwirtschaft zu Brettern, Kanthölzern und Balken. Gesägt wird vor allem mit Gattersägen, aber auch mit Band- und Kreissägen. Früher trieb sie meist ein Wasserrad an.",
+    "difficulty": 1,
+    "tags": [
+      "Holz",
+      "Maschinen",
+      "Wald"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sägewerk",
+    "source_url": "https://de.wikipedia.org/wiki/Sägewerk",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a sawmill make from the logs delivered to it?",
+        "options": [
+          "Charcoal",
+          "Paper",
+          "Boards, squared timbers and beams",
+          "Upholstered furniture"
+        ],
+        "explanation": "A sawmill turns logs from forestry into boards, squared timbers and beams. Sawing is mainly done with gang saws, but also with band and circular saws. In the past, they were mostly driven by a waterwheel."
+      }
+    }
+  },
+  {
+    "id": "t121",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was bewahrte man früher in einem Setzkasten auf?",
+    "options": [
+      "Saatgut",
+      "Briefmarken",
+      "Spielkarten",
+      "Die Lettern für den Bleisatz"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Setzkasten ist ein Sortierkasten für Lettern im Bleisatz. Er enthält immer nur Typen derselben Schriftart und Schriftgröße. Heute nutzen viele ähnliche Miniregale, um kleine Figuren auszustellen.",
+    "difficulty": 2,
+    "tags": [
+      "Drucken",
+      "Schrift",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Setzkasten",
+    "source_url": "https://de.wikipedia.org/wiki/Setzkasten",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What used to be kept in a type case (“Setzkasten”)?",
+        "options": [
+          "Seeds",
+          "Stamps",
+          "Playing cards",
+          "The letters for hot-metal typesetting"
+        ],
+        "explanation": "The type case is a sorting box for metal letters used in typesetting. It always holds type of the same typeface and size only. Today many people use similar mini shelves to display small figures."
+      }
+    }
+  },
+  {
+    "id": "t122",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was zeigt eine Wetterfahne an?",
+    "options": [
+      "Die Windrichtung",
+      "Die Temperatur",
+      "Die Uhrzeit",
+      "Den Luftdruck"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Wetterfahne oder Windfahne ist ein Anzeigeinstrument für die Windrichtung: Das bewegliche Teil richtet sich nach dem Druck des Windes aus. Eine bekannte Form ist der Wetterhahn.",
+    "difficulty": 1,
+    "tags": [
+      "Wetter",
+      "Messen",
+      "Wind"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Windrichtungsgeber",
+    "source_url": "https://de.wikipedia.org/wiki/Windrichtungsgeber",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a weather vane show?",
+        "options": [
+          "The wind direction",
+          "The temperature",
+          "The time",
+          "The air pressure"
+        ],
+        "explanation": "A weather vane is an instrument showing the wind direction: its moving part lines up with the pressure of the wind. A well-known form is the weathercock."
+      }
+    }
+  },
+  {
+    "id": "cu100",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie vertreibt der Klapotetz, eine Vogelscheuche aus der Steiermark, die Vögel?",
+    "options": [
+      "Durch Klappern",
+      "Durch Licht",
+      "Durch Wasserspritzer",
+      "Durch Duft"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Vogelscheuche ist meist eine menschenähnliche Figur aus Holzstangen und alten Kleidern, die Vögel wie Stare und Krähen von Feldern fernhalten soll. Der Klapotetz ist eine steirische Variante, die die Vögel durch ihr Klappern abschreckt.",
+    "difficulty": 2,
+    "tags": [
+      "Brauchtum",
+      "Landwirtschaft",
+      "Österreich"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vogelscheuche",
+    "source_url": "https://de.wikipedia.org/wiki/Vogelscheuche",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the Klapotetz, a scarecrow from Styria, keep birds away?",
+        "options": [
+          "By clattering",
+          "With light",
+          "With splashes of water",
+          "With a smell"
+        ],
+        "explanation": "A scarecrow is usually a human-like figure made of wooden poles and old clothes meant to keep birds such as starlings and crows away from fields. The Klapotetz is a Styrian variant that scares birds off by clattering."
+      }
+    }
+  },
+  {
+    "id": "cu101",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wann werden die Kühe beim Almabtrieb in vielen Gegenden festlich geschmückt?",
+    "options": [
+      "Nur wenn es regnet",
+      "Wenn der Almsommer ohne tödliche Unfälle verlief",
+      "Nur bei Vollmond",
+      "Immer an Ostern"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Almabtrieb kommt das Vieh von den Bergweiden zurück ins Tal, meist zwischen Mitte September und Mitte Oktober. Ist der Almsommer ohne tödliche Unfälle verlaufen, werden die Herden in vielen Gegenden kunstvoll geschmückt. Im Allgäu heißt das Fest Viehscheid.",
+    "difficulty": 2,
+    "tags": [
+      "Brauchtum",
+      "Alpen",
+      "Herbst"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Almabtrieb",
+    "source_url": "https://de.wikipedia.org/wiki/Almabtrieb",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When are the cows festively decorated at the Alpine cattle drive in many regions?",
+        "options": [
+          "Only when it rains",
+          "When the summer on the alp passed without fatal accidents",
+          "Only at full moon",
+          "Always at Easter"
+        ],
+        "explanation": "At the Almabtrieb, the cattle come back from the mountain pastures to the valley, usually between mid-September and mid-October. If the summer on the alp passed without fatal accidents, the herds are elaborately decorated in many regions. In the Allgäu the festival is called Viehscheid."
+      }
+    }
+  },
+  {
+    "id": "cu102",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bedeutet das althochdeutsche Wort „stollo“, von dem der Weihnachtsstollen seinen Namen hat?",
+    "options": [
+      "Süßigkeit",
+      "Schnee",
+      "Pfosten oder Stütze",
+      "Geschenk"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name Stollen kommt vom althochdeutschen „stollo“ für „Pfosten“ oder „Stütze“. Der brotförmige Kuchen wird ganzjährig gebacken; in der Advents- und Weihnachtszeit heißt er Christstollen oder Weihnachtsstollen.",
+    "difficulty": 2,
+    "tags": [
+      "Weihnachten",
+      "Wörter",
+      "Backen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stollen (Gebäck)",
+    "source_url": "https://de.wikipedia.org/wiki/Stollen (Gebäck)",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Old High German word “stollo”, from which the Christmas stollen takes its name, mean?",
+        "options": [
+          "Sweet",
+          "Snow",
+          "Post or support",
+          "Present"
+        ],
+        "explanation": "The name stollen comes from Old High German “stollo” for “post” or “support”. The loaf-shaped cake is baked all year round; in Advent and at Christmas it is called Christstollen or Weihnachtsstollen."
+      }
+    }
+  },
+  {
+    "id": "cu103",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wie wurde der Johannistag am 24. Juni früher auch genannt?",
+    "options": [
+      "Mittsommerfasching",
+      "Sommerostern",
+      "Kleiner Advent",
+      "Sommerweihnacht"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Johannistag am 24. Juni ist das Fest der Geburt Johannes’ des Täufers und hieß früher auch Sommerweihnacht. Er liegt nahe der Sommersonnenwende – so wie Weihnachten nahe der Wintersonnenwende.",
+    "difficulty": 2,
+    "tags": [
+      "Feste",
+      "Sommer",
+      "Brauchtum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Johannistag",
+    "source_url": "https://de.wikipedia.org/wiki/Johannistag",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was St. John's Day on 24 June also called in the past?",
+        "options": [
+          "Midsummer carnival",
+          "Summer Easter",
+          "Little Advent",
+          "Summer Christmas"
+        ],
+        "explanation": "St. John's Day on 24 June is the feast of the birth of John the Baptist and was formerly also called “Sommerweihnacht” (summer Christmas). It lies near the summer solstice – just as Christmas lies near the winter solstice."
+      }
+    }
+  },
+  {
+    "id": "cu104",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Wodurch erklingt ein Windspiel?",
+    "options": [
+      "Der Wind lässt die Röhren aneinanderschlagen",
+      "Man muss es aufziehen",
+      "Es hat eine Batterie",
+      "Jemand bläst hinein"
+    ],
+    "correct_index": 0,
+    "explanation": "Klingende Windspiele bestehen meist aus Metall- oder Holzröhren, die draußen aufgehängt werden. Der Wind lässt sie aneinanderschlagen, so entstehen Töne. In Teilen Asiens gelten Windspiele als Glücksbringer.",
+    "difficulty": 1,
+    "tags": [
+      "Klang",
+      "Wind",
+      "Garten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Windspiel (Instrument)",
+    "source_url": "https://de.wikipedia.org/wiki/Windspiel (Instrument)",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes wind chimes sound?",
+        "options": [
+          "The wind makes the tubes knock together",
+          "You have to wind them up",
+          "They have a battery",
+          "Someone blows into them"
+        ],
+        "explanation": "Wind chimes usually consist of metal or wooden tubes hung up outdoors. The wind makes them knock against each other, which creates sounds. In parts of Asia wind chimes are considered good-luck charms."
+      }
+    }
+  },
+  {
+    "id": "mk146",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie entsteht der Ton bei einem Harmonium?",
+    "options": [
+      "Man zupft Saiten mit den Fingern",
+      "Hämmer schlagen auf Saiten",
+      "Luft versetzt Durchschlagzungen in Schwingung",
+      "Man schlägt auf ein Fell"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Harmonium ist ein Tasteninstrument, bei dem Luft verschieden lange Durchschlagzungen in Schwingung versetzt. Es gehört zu den Harmonikainstrumenten. Um 1900 wurden in der westlichen Welt zeitweise doppelt so viele Harmonien wie Klaviere verkauft – als eine Art Heimorgel und als Ersatz für Pfeifenorgeln in kleinen Kirchen.",
+    "difficulty": 3,
+    "tags": [
+      "Instrumente",
+      "Tasteninstrumente",
+      "Klang"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Harmonium",
+    "source_url": "https://de.wikipedia.org/wiki/Harmonium",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is the sound produced in a harmonium?",
+        "options": [
+          "Strings are plucked with the fingers",
+          "Hammers strike strings",
+          "Air makes free reeds vibrate",
+          "A drumhead is struck"
+        ],
+        "explanation": "The harmonium is a keyboard instrument in which air makes free reeds of different lengths vibrate. It belongs to the harmonica family. Around 1900, at times twice as many harmoniums as pianos were sold in the Western world – as a kind of home organ and as a substitute for pipe organs in small churches."
+      }
+    }
+  },
+  {
+    "id": "mk147",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer entwickelte das Banjo?",
+    "options": [
+      "Seeleute in Japan",
+      "Mönche in Irland",
+      "Hirten in den Alpen",
+      "Westafrikanische Sklaven in Amerika"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Banjo wurde von westafrikanischen Sklaven entwickelt, die in die Neue Welt verschleppt worden waren; sie brachten hölzerne Lauten mit. Sein runder Resonanzkörper ist mit einer Membran aus Fell oder Kunststoff bespannt.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Geschichte",
+      "Saiteninstrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Banjo",
+    "source_url": "https://de.wikipedia.org/wiki/Banjo",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who developed the banjo?",
+        "options": [
+          "Sailors in Japan",
+          "Monks in Ireland",
+          "Shepherds in the Alps",
+          "West African slaves in America"
+        ],
+        "explanation": "The banjo was developed by West African slaves who had been carried off to the New World; they brought wooden lutes with them. Its round sound body is covered with a membrane of skin or plastic."
+      }
+    }
+  },
+  {
+    "id": "mk148",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woran erinnert der Umriss einer klassischen Mandoline?",
+    "options": [
+      "An eine Mandel",
+      "An eine Birne mit Stiel",
+      "An einen Stern",
+      "An ein Herz"
+    ],
+    "correct_index": 0,
+    "explanation": "Die klassische oder neapolitanische Mandoline erkennt man an ihrem tropfenförmigen Korpus, dessen Umriss einer Mandel ähnelt. Die Mandoline ist ein Zupfinstrument italienischer Herkunft und seit dem frühen 17. Jahrhundert bekannt.",
+    "difficulty": 1,
+    "tags": [
+      "Instrumente",
+      "Saiteninstrumente",
+      "Italien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mandoline",
+    "source_url": "https://de.wikipedia.org/wiki/Mandoline",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the outline of a classical mandolin resemble?",
+        "options": [
+          "An almond",
+          "A pear with a stalk",
+          "A star",
+          "A heart"
+        ],
+        "explanation": "The classical or Neapolitan mandolin can be recognised by its teardrop-shaped body, whose outline resembles an almond. The mandolin is a plucked instrument of Italian origin, known since the early 17th century."
+      }
+    }
+  },
+  {
+    "id": "mk149",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer stellt in der Regel die Bögen für Geigen her?",
+    "options": [
+      "Der Geigenbauer",
+      "Der Bogenmacher",
+      "Der Drechsler",
+      "Der Schmied"
+    ],
+    "correct_index": 1,
+    "explanation": "Geigenbauer stellen Streichinstrumente wie Violine, Bratsche, Cello und Kontrabass her, pflegen und reparieren sie. Die Bögen werden aber in der Regel nicht vom Geigenbauer, sondern vom Bogenmacher hergestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Instrumente",
+      "Handwerk",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geigenbauer",
+    "source_url": "https://de.wikipedia.org/wiki/Geigenbauer",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who usually makes the bows for violins?",
+        "options": [
+          "The violin maker",
+          "The bow maker",
+          "The wood turner",
+          "The blacksmith"
+        ],
+        "explanation": "Violin makers make, maintain and repair string instruments such as the violin, viola, cello and double bass. Bows, however, are usually made not by the violin maker but by the bow maker."
+      }
+    }
+  }
+]

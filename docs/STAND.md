@@ -22,7 +22,7 @@ Karten je Thema (Feed): Erde & Natur 131, Tiere 131, Business 131, Wissenschaft 
 
 | Ziel | Stand | Bemerkung |
 |---|---|---|
-| 1.000 Quizfragen | 2.480 veröffentlicht | Ziel erreicht; neue Wissensfragen nur mit wörtlichem Beleg aus der Quelle (`scripts/content/verify-evidence.mjs`), Rätsel werden nachgerechnet |
+| 1.000 Quizfragen | 2.520 veröffentlicht | Ziel erreicht; neue Wissensfragen nur mit wörtlichem Beleg aus der Quelle (`scripts/content/verify-evidence.mjs`), Rätsel werden nachgerechnet |
 | 100 Kurzvideos | 85 | seit 15.10.2026 auch eigene Clips mit Remotion – unabhängig von freien Quellen, je Clip etwa so viel Handarbeit wie eine kleine Animation |
 | 50 Animationen | 53 | Ziel erreicht |
 | rund 20 Bücher | 20 | je drei Ideen; fünf je Buch wären der nächste Ausbau |
