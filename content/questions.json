@@ -97662,5 +97662,1645 @@
         "explanation": "Caddisflies are named in German after the tube homes (Köcher, quiver) of their larvae, which live in water. Most cases are made of small stones or bits of reed glued into a tube with spun silk. Some even look like a coiled snail shell."
       }
     }
+  },
+  {
+    "id": "cu91",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Von welchem Wort ist „Wichtel“ eine Verkleinerungsform?",
+    "options": [
+      "Wicke",
+      "Wicht",
+      "Wechsel",
+      "Wichse"
+    ],
+    "correct_index": 1,
+    "explanation": "„Wichtel“ oder „Wichtelmännchen“ ist ein Diminutiv, also eine Verkleinerungsform, von „Wicht“. Das Wort stand im Altdeutschen allgemein für ein lebendes Wesen oder Geschöpf.",
+    "difficulty": 1,
+    "tags": [
+      "Sagen",
+      "Wörter",
+      "Brauchtum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wichtel",
+    "source_url": "https://de.wikipedia.org/wiki/Wichtel",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which word is “Wichtel” (a gnome-like little being) a diminutive of?",
+        "options": [
+          "Wicke (vetch)",
+          "Wicht (creature)",
+          "Wechsel (change)",
+          "Wichse (polish)"
+        ],
+        "explanation": "“Wichtel” or “Wichtelmännchen” is a diminutive of “Wicht”. In Old German the word generally meant a living being or creature."
+      }
+    }
+  },
+  {
+    "id": "cu92",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt bauten Jesuiten 1562 die erste Weihnachtskrippe im heutigen Sinn nördlich der Alpen auf?",
+    "options": [
+      "München",
+      "Wien",
+      "Prag",
+      "Salzburg"
+    ],
+    "correct_index": 2,
+    "explanation": "Nach Vorformen im Mittelalter gilt die Weihnachtsszene mit Figuren, die Jesuiten 1562 in Prag aufbauten, als erste Krippe im heutigen Sinn nördlich der Alpen.",
+    "difficulty": 2,
+    "tags": [
+      "Weihnachten",
+      "Brauchtum",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weihnachtskrippe",
+    "source_url": "https://de.wikipedia.org/wiki/Weihnachtskrippe",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which city did Jesuits set up the first Christmas crib in today's sense north of the Alps in 1562?",
+        "options": [
+          "Munich",
+          "Vienna",
+          "Prague",
+          "Salzburg"
+        ],
+        "explanation": "After earlier forms in the Middle Ages, the Christmas scene with figures that Jesuits set up in Prague in 1562 is considered the first crib in today's sense north of the Alps."
+      }
+    }
+  },
+  {
+    "id": "cu93",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was bekommen Kinder beim Martinssingen für ihre Lieder?",
+    "options": [
+      "Nichts – man singt nur für sich",
+      "Eine Urkunde",
+      "Ein Abzeichen für die Laterne",
+      "Süßigkeiten, Obst oder kleine Geschenke"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Martinssingen ziehen Kinder mit Laternen von Tür zu Tür und erhalten für ihre Martinslieder Süßigkeiten, Obst oder kleine Geschenke. Man nennt so etwas einen Heischebrauch.",
+    "difficulty": 1,
+    "tags": [
+      "Brauchtum",
+      "Herbst",
+      "Kinder"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Martinssingen",
+    "source_url": "https://de.wikipedia.org/wiki/Martinssingen",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do children get for their songs when they go “Martinssingen” (St. Martin's singing)?",
+        "options": [
+          "Nothing – they only sing for themselves",
+          "A certificate",
+          "A badge for their lantern",
+          "Sweets, fruit or small presents"
+        ],
+        "explanation": "For St. Martin's singing, children go from door to door with lanterns and receive sweets, fruit or small presents for their Martin songs. This kind of custom is called a “Heischebrauch” (a begging custom)."
+      }
+    }
+  },
+  {
+    "id": "cu94",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was wird bei der Kirmes, auch Kirchweih oder Kerwe genannt, ursprünglich gefeiert?",
+    "options": [
+      "Der Jahrestag der Weihe einer Kirche",
+      "Das Ende der Ernte",
+      "Der Geburtstag eines Heiligen",
+      "Die Gründung der Stadt"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Kirchweih wird seit dem Mittelalter als Fest zur jährlichen Wiederkehr des Tages gefeiert, an dem eine Kirche geweiht wurde. Regional heißt sie Kirmes, Kerwe, Kirta oder Kilbi.",
+    "difficulty": 2,
+    "tags": [
+      "Feste",
+      "Brauchtum",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kirchweih",
+    "source_url": "https://de.wikipedia.org/wiki/Kirchweih",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is originally celebrated at a “Kirmes”, also called “Kirchweih” or “Kerwe”?",
+        "options": [
+          "The anniversary of a church's consecration",
+          "The end of the harvest",
+          "A saint's birthday",
+          "The founding of the town"
+        ],
+        "explanation": "Since the Middle Ages, the Kirchweih has been celebrated as a festival marking the yearly return of the day on which a church was consecrated. Regionally it is called Kirmes, Kerwe, Kirta or Kilbi."
+      }
+    }
+  },
+  {
+    "id": "cu95",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was sollen die Perchten mit ihren umgehängten Glocken nach einer Sage austreiben?",
+    "options": [
+      "Den Sommer",
+      "Den Winter",
+      "Die Wölfe",
+      "Den Nebel"
+    ],
+    "correct_index": 1,
+    "explanation": "Perchten sind Gestalten des alpenländischen Brauchtums, vor allem von Ende November bis Januar. Es gibt „gute“ Schönperchten und „böse“ Schiechperchten; mit ihren Glocken sollen sie nach einer Sage den Winter austreiben.",
+    "difficulty": 2,
+    "tags": [
+      "Brauchtum",
+      "Alpen",
+      "Winter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Percht",
+    "source_url": "https://de.wikipedia.org/wiki/Percht",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to a legend, what are the Perchten with their hanging bells supposed to drive out?",
+        "options": [
+          "Summer",
+          "Winter",
+          "The wolves",
+          "The fog"
+        ],
+        "explanation": "Perchten are figures of Alpine folk custom, mainly from late November to January. There are “good” Schönperchten and “bad” Schiechperchten; according to a legend, their bells are meant to drive out winter."
+      }
+    }
+  },
+  {
+    "id": "cu96",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Warum hält ein Kachelofen den Raum noch lange warm, nachdem das Feuer aus ist?",
+    "options": [
+      "Die Kacheln erzeugen selbst Wärme",
+      "In ihm brennt heimlich weiter Glut",
+      "Seine große Masse speichert die Wärme",
+      "Er wird zusätzlich elektrisch beheizt"
+    ],
+    "correct_index": 2,
+    "explanation": "Durch seine große Masse kann ein Kachelofen die Wärme schnell abbrennenden Brennholzes aufnehmen und sie danach über einen längeren Zeitraum an den Raum abgeben. Früher trocknete man an ihm auch Wäsche.",
+    "difficulty": 2,
+    "tags": [
+      "Wohnen",
+      "Wärme",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kachelofen",
+    "source_url": "https://de.wikipedia.org/wiki/Kachelofen",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a tiled stove keep the room warm for a long time after the fire is out?",
+        "options": [
+          "The tiles produce heat themselves",
+          "Embers secretly keep burning inside",
+          "Its large mass stores the heat",
+          "It is also heated electrically"
+        ],
+        "explanation": "Thanks to its large mass, a tiled stove can take up the heat of quickly burning firewood and then give it off to the room over a longer time. In the past, people also dried laundry on it."
+      }
+    }
+  },
+  {
+    "id": "cu97",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was füllte man früher in ein Butterfass, um Butter zu machen?",
+    "options": [
+      "Gemahlenes Mehl",
+      "Frisches Wasser",
+      "Geriebenen Käse",
+      "Abgeschöpften Rahm"
+    ],
+    "correct_index": 3,
+    "explanation": "In das Butterfass wurde der abgeschöpfte Rahm gegeben und dann zu Butter gestampft oder geschlagen. Es war früher das am weitesten verbreitete Gerät zum Buttern.",
+    "difficulty": 1,
+    "tags": [
+      "Alltag",
+      "Bauernhof",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Butterfass",
+    "source_url": "https://de.wikipedia.org/wiki/Butterfass",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did people put into a butter churn to make butter?",
+        "options": [
+          "Ground flour",
+          "Fresh water",
+          "Grated cheese",
+          "Skimmed-off cream"
+        ],
+        "explanation": "The skimmed-off cream was put into the churn and then pounded or beaten into butter. It used to be the most widespread tool for making butter."
+      }
+    }
+  },
+  {
+    "id": "cu98",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was diente zu den ersten, ganz einfachen Tintenfässern?",
+    "options": [
+      "Rinderhörner",
+      "Muschelschalen",
+      "Eierschalen",
+      "Walnussschalen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die ersten schmucklosen Tintenfässer waren zum Beispiel Rinderhörner – daher auch der Name Tintenhorn. Bis zur Erfindung des Füllfederhalters war das Tintenfass jahrhundertelang unentbehrlich.",
+    "difficulty": 2,
+    "tags": [
+      "Schreiben",
+      "Geschichte",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tintenfass",
+    "source_url": "https://de.wikipedia.org/wiki/Tintenfass",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What served as some of the very first, simple inkwells?",
+        "options": [
+          "Cattle horns",
+          "Seashells",
+          "Eggshells",
+          "Walnut shells"
+        ],
+        "explanation": "Some of the first plain inkwells were cattle horns – hence the German name “Tintenhorn” (ink horn). Until the fountain pen was invented, the inkwell was indispensable for centuries."
+      }
+    }
+  },
+  {
+    "id": "cu99",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Was ist eine Kartause?",
+    "options": [
+      "Eine Pferdekutsche",
+      "Ein Kloster des Kartäuserordens",
+      "Ein Kartenspiel",
+      "Eine Burgmauer"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Kartause ist ein Kloster des Kartäuserordens. Der Name kommt vom lateinischen Cartusia für den Gründungsort, das Stammkloster La Grande Chartreuse in Frankreich.",
+    "difficulty": 2,
+    "tags": [
+      "Gebäude",
+      "Geschichte",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kartause",
+    "source_url": "https://de.wikipedia.org/wiki/Kartause",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “Kartause” (charterhouse)?",
+        "options": [
+          "A horse-drawn coach",
+          "A monastery of the Carthusian order",
+          "A card game",
+          "A castle wall"
+        ],
+        "explanation": "A charterhouse is a monastery of the Carthusian order. The name comes from the Latin Cartusia for its place of founding, the mother house La Grande Chartreuse in France."
+      }
+    }
+  },
+  {
+    "id": "mk138",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ist ein Tamburin?",
+    "options": [
+      "Eine kleine Flöte",
+      "Eine Rahmentrommel mit Schellen",
+      "Ein Saiteninstrument",
+      "Eine Mundharmonika"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Tamburin ist eine einfellige Rahmentrommel mit Schellen: Am Rahmen sitzen paarweise gewölbte Metallplättchen, die klirren, wenn man es schüttelt oder schlägt.",
+    "difficulty": 1,
+    "tags": [
+      "Instrumente",
+      "Rhythmus",
+      "Schlagwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tamburin",
+    "source_url": "https://de.wikipedia.org/wiki/Tamburin",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a tambourine?",
+        "options": [
+          "A small flute",
+          "A frame drum with jingles",
+          "A string instrument",
+          "A harmonica"
+        ],
+        "explanation": "The tambourine is a single-headed frame drum with jingles: pairs of curved metal discs sit in the frame and rattle when you shake or strike it."
+      }
+    }
+  },
+  {
+    "id": "mk139",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wozu dient eine Etüde in der Musik?",
+    "options": [
+      "Sie wird nur bei Hochzeiten gespielt",
+      "Sie eröffnet eine Oper",
+      "Sie hilft, auf dem Instrument geschickter zu werden",
+      "Sie ist ein Lied ohne Melodie"
+    ],
+    "correct_index": 2,
+    "explanation": "„Etüde“ kommt vom französischen „Étude“, „Studie“. Sie ist ein Stück für ein Soloinstrument, das zu größeren Fertigkeiten verhelfen soll; im Mittelpunkt steht ein kurzes spieltechnisches Problem.",
+    "difficulty": 1,
+    "tags": [
+      "Fachbegriffe",
+      "Üben",
+      "Klavier"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Etüde",
+    "source_url": "https://de.wikipedia.org/wiki/Etüde",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an étude for in music?",
+        "options": [
+          "It is only played at weddings",
+          "It opens an opera",
+          "It helps you become more skilful on your instrument",
+          "It is a song without a melody"
+        ],
+        "explanation": "“Étude” is French for “study”. It is a piece for a solo instrument meant to help the player gain greater skill; at its centre is a short technical problem."
+      }
+    }
+  },
+  {
+    "id": "mk140",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet „Nocturne“ bzw. „Notturno“, der Name einer Musikform?",
+    "options": [
+      "Nächtlich",
+      "Fröhlich",
+      "Langsam",
+      "Feierlich"
+    ],
+    "correct_index": 0,
+    "explanation": "Nocturne (italienisch notturno) heißt „nächtlich“. In der Romantik bezeichnete das Wort bald ein Charakterstück, meist für Klavier.",
+    "difficulty": 2,
+    "tags": [
+      "Fachbegriffe",
+      "Klavier",
+      "Romantik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nocturne (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Nocturne (Musik)",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “nocturne” or “notturno”, the name of a musical form, mean?",
+        "options": [
+          "Of the night",
+          "Cheerful",
+          "Slow",
+          "Solemn"
+        ],
+        "explanation": "Nocturne (Italian notturno) means “of the night”. In the Romantic era the word soon came to mean a character piece, mostly for piano."
+      }
+    }
+  },
+  {
+    "id": "mk141",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Das Madrigal ist ein meist weltliches, mehrstimmiges Vokalstück. Wie heißt sein geistliches Gegenstück?",
+    "options": [
+      "Sonate",
+      "Motette",
+      "Ouvertüre",
+      "Polka"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Madrigal war eine wichtige Gesangsform der Renaissance und des Frühbarocks, meist mit weltlichen Texten. Das geistliche Pendant dazu bildet die Motette.",
+    "difficulty": 3,
+    "tags": [
+      "Gesang",
+      "Renaissance",
+      "Fachbegriffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Madrigal (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Madrigal (Musik)",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The madrigal is a mostly secular vocal piece for several voices. What is its sacred counterpart called?",
+        "options": [
+          "Sonata",
+          "Motet",
+          "Overture",
+          "Polka"
+        ],
+        "explanation": "The madrigal was an important vocal form of the Renaissance and early Baroque, mostly with secular texts. Its sacred counterpart is the motet."
+      }
+    }
+  },
+  {
+    "id": "mk142",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie klingt ein Rezitativ in der Oper?",
+    "options": [
+      "Nur gepfiffen",
+      "Ganz ohne Worte",
+      "Fast wie gesprochen",
+      "Immer im Flüsterton"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Rezitativ (von italienisch recitare, „vortragen“) ist ein dem Sprechen angenäherter Gesang in Oper, Kantate oder Oratorium. Der Sänger darf den Text dabei rhythmisch frei vortragen.",
+    "difficulty": 2,
+    "tags": [
+      "Oper",
+      "Gesang",
+      "Fachbegriffe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rezitativ",
+    "source_url": "https://de.wikipedia.org/wiki/Rezitativ",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a recitative in an opera sound like?",
+        "options": [
+          "Only whistled",
+          "Completely without words",
+          "Almost like speech",
+          "Always whispered"
+        ],
+        "explanation": "The recitative (from Italian recitare, “to recite”) is singing close to speech in opera, cantata or oratorio. The singer may deliver the text with rhythmic freedom."
+      }
+    }
+  },
+  {
+    "id": "mk143",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welches Tier steckt nach einer Vermutung im Wort „Capriccio“?",
+    "options": [
+      "Die Katze",
+      "Die Ziege",
+      "Der Esel",
+      "Der Igel"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Herkunft ist ungeklärt; das Kluge-Wörterbuch vermutet eine Verbindung aus italienisch „capo“ (Kopf) und „riccio“ (Igel). Ein Capriccio ist ein launiges, verspieltes Stück.",
+    "difficulty": 2,
+    "tags": [
+      "Fachbegriffe",
+      "Wörter",
+      "Italienisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Capriccio",
+    "source_url": "https://de.wikipedia.org/wiki/Capriccio",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to one theory, which animal is hidden in the word “capriccio”?",
+        "options": [
+          "The cat",
+          "The goat",
+          "The donkey",
+          "The hedgehog"
+        ],
+        "explanation": "The origin is unclear; the Kluge etymological dictionary suggests a combination of Italian “capo” (head) and “riccio” (hedgehog). A capriccio is a whimsical, playful piece."
+      }
+    }
+  },
+  {
+    "id": "mk144",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet das italienische Wort „toccare“, von dem die Toccata ihren Namen hat?",
+    "options": [
+      "Berühren",
+      "Singen",
+      "Tanzen",
+      "Schweigen"
+    ],
+    "correct_index": 0,
+    "explanation": "Toccata kommt von italienisch „toccare“, „berühren“. Es ist eine der ältesten Bezeichnungen für Instrumentalstücke, vor allem für Tasteninstrumente und die Laute, oft im Charakter einer Improvisation.",
+    "difficulty": 2,
+    "tags": [
+      "Fachbegriffe",
+      "Orgel",
+      "Italienisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Toccata",
+    "source_url": "https://de.wikipedia.org/wiki/Toccata",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Italian word “toccare”, from which the toccata takes its name, mean?",
+        "options": [
+          "To touch",
+          "To sing",
+          "To dance",
+          "To be silent"
+        ],
+        "explanation": "Toccata comes from Italian “toccare”, “to touch”. It is one of the oldest names for instrumental pieces, especially for keyboard instruments and the lute, often in the style of an improvisation."
+      }
+    }
+  },
+  {
+    "id": "mk145",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was entsteht bei einer Synkope in der Musik?",
+    "options": [
+      "Ein Wechsel der Tonart",
+      "Ein Konflikt zwischen Taktbetonung und Rhythmus",
+      "Eine Pause für alle Instrumente",
+      "Ein besonders hoher Ton"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Synkope erzeugt einen Konflikt zwischen dem Betonungsschema der Taktart und den davon abweichenden Betonungen des Rhythmus – betont wird also, wo man es nicht erwartet.",
+    "difficulty": 3,
+    "tags": [
+      "Rhythmus",
+      "Fachbegriffe",
+      "Takt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Synkope (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Synkope (Musik)",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens in a syncopation in music?",
+        "options": [
+          "A change of key",
+          "A conflict between the beat's accents and the rhythm",
+          "A rest for all instruments",
+          "A particularly high note"
+        ],
+        "explanation": "A syncopation creates a conflict between the accent pattern of the time signature and the rhythm's differing accents – the stress falls where you don't expect it."
+      }
+    }
+  },
+  {
+    "id": "t109",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was ist das Besondere an einem Schneckengetriebe, wenn man vom Schneckenrad aus zurückdrehen will?",
+    "options": [
+      "Es dreht sich doppelt so schnell",
+      "Es ist meist selbsthemmend und dreht sich nicht",
+      "Es wechselt die Drehrichtung",
+      "Es springt aus der Verzahnung"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Schneckengetriebe besteht aus einer schraubenförmigen Schnecke und einem Schneckenrad. Im Umkehrbetrieb ist es in der Regel selbsthemmend: Vom Schneckenrad wird keine Drehung zur Schnecke übertragen. Außerdem gilt es als besonders geräuscharm.",
+    "difficulty": 3,
+    "tags": [
+      "Maschinen",
+      "Getriebe",
+      "Mechanik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schneckengetriebe",
+    "source_url": "https://de.wikipedia.org/wiki/Schneckengetriebe",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about a worm drive if you try to turn it back from the worm wheel?",
+        "options": [
+          "It turns twice as fast",
+          "It is usually self-locking and does not turn",
+          "It reverses direction",
+          "It jumps out of mesh"
+        ],
+        "explanation": "A worm drive consists of a screw-shaped worm and a worm wheel. Driven in reverse it is usually self-locking: no rotation is passed from the wheel to the worm. It is also considered especially quiet."
+      }
+    }
+  },
+  {
+    "id": "t110",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Was macht eine Nockenwelle aus ihrer Drehbewegung?",
+    "options": [
+      "Ein Licht",
+      "Elektrischen Strom",
+      "Wärme",
+      "Eine kurze Längsbewegung"
+    ],
+    "correct_index": 3,
+    "explanation": "Auf der Nockenwelle sitzen gerundete Vorsprünge, die Nocken. Sie wandeln die Drehung in eine kurze Längsbewegung um – in Verbrennungsmotoren öffnen und schließen sie so die Ventile.",
+    "difficulty": 2,
+    "tags": [
+      "Motor",
+      "Maschinen",
+      "Mechanik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nockenwelle",
+    "source_url": "https://de.wikipedia.org/wiki/Nockenwelle",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a camshaft turn its rotation into?",
+        "options": [
+          "Light",
+          "Electric current",
+          "Heat",
+          "A short back-and-forth movement"
+        ],
+        "explanation": "The camshaft carries rounded projections, the cams. They convert rotation into a short linear movement – in combustion engines this is how they open and close the valves."
+      }
+    }
+  },
+  {
+    "id": "t111",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Womit misst eine Federwaage eine Kraft?",
+    "options": [
+      "Mit der Dehnung einer Schraubenfeder",
+      "Mit einem Magneten",
+      "Mit einer Wassersäule",
+      "Mit einem Pendel"
+    ],
+    "correct_index": 0,
+    "explanation": "Federwaage und Federkraftmesser nutzen die Dehnung einer Schraubenfeder: Nach dem Hookeschen Gesetz ist sie proportional zur Zugkraft. Ein Zeiger zeigt den Wert auf einer Skala an.",
+    "difficulty": 2,
+    "tags": [
+      "Messen",
+      "Physik",
+      "Kraft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Federwaage",
+    "source_url": "https://de.wikipedia.org/wiki/Federwaage",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does a spring balance measure a force?",
+        "options": [
+          "By how far a coil spring stretches",
+          "With a magnet",
+          "With a column of water",
+          "With a pendulum"
+        ],
+        "explanation": "Spring balances and spring force gauges use the stretch of a coil spring: by Hooke's law it is proportional to the pulling force. A pointer shows the value on a scale."
+      }
+    }
+  },
+  {
+    "id": "t112",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wo findet man eine Unruh?",
+    "options": [
+      "In Fahrradbremsen",
+      "In mechanischen Uhren wie Armbanduhren",
+      "In Kühlschränken",
+      "In Wasserhähnen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Unruh ist ein drehbar gelagertes Rad mit einer Spiralfeder. Dieses Schwingsystem dient als Gangregler in tragbaren mechanischen Uhren wie Taschen- und Armbanduhren.",
+    "difficulty": 2,
+    "tags": [
+      "Uhren",
+      "Mechanik",
+      "Feinmechanik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Unruh (Uhr)",
+    "source_url": "https://de.wikipedia.org/wiki/Unruh (Uhr)",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where would you find a balance wheel?",
+        "options": [
+          "In bicycle brakes",
+          "In mechanical watches such as wristwatches",
+          "In fridges",
+          "In water taps"
+        ],
+        "explanation": "The balance wheel is a pivoted wheel with a hairspring. This oscillating system regulates the rate of portable mechanical timepieces such as pocket watches and wristwatches."
+      }
+    }
+  },
+  {
+    "id": "t113",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Um wie viel Grad dreht sich eine Drehbrücke, damit Schiffe durchfahren können?",
+    "options": [
+      "45 Grad",
+      "90 Grad",
+      "180 Grad",
+      "360 Grad"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei einer Drehbrücke kann der Brückenpfeiler in der Mitte des Gewässers den Fahrweg um 90 Grad drehen. Erst dann ist die Durchfahrt für Schiffe in beiden Richtungen frei.",
+    "difficulty": 1,
+    "tags": [
+      "Brücken",
+      "Bauwerke",
+      "Schifffahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Drehbrücke",
+    "source_url": "https://de.wikipedia.org/wiki/Drehbrücke",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "By how many degrees does a swing bridge turn so that ships can pass?",
+        "options": [
+          "45 degrees",
+          "90 degrees",
+          "180 degrees",
+          "360 degrees"
+        ],
+        "explanation": "On a swing bridge, the pier in the middle of the waterway can turn the roadway by 90 degrees. Only then is the passage open to ships in both directions."
+      }
+    }
+  },
+  {
+    "id": "t114",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wofür braucht man einen Wagenheber am häufigsten?",
+    "options": [
+      "Zum Abschleppen",
+      "Zum Tanken",
+      "Zum Waschen des Autos",
+      "Zum Wechseln der Räder"
+    ],
+    "correct_index": 3,
+    "explanation": "Mit einem Wagenheber hebt man ein Auto an. Am häufigsten braucht man ihn zum Radwechsel, zum Beispiel von Sommer- auf Winterreifen oder bei einer Reifenpanne.",
+    "difficulty": 1,
+    "tags": [
+      "Auto",
+      "Werkzeug",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wagenheber",
+    "source_url": "https://de.wikipedia.org/wiki/Wagenheber",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a car jack most often used for?",
+        "options": [
+          "Towing",
+          "Refuelling",
+          "Washing the car",
+          "Changing the wheels"
+        ],
+        "explanation": "A jack lifts a car. It is most often used to change wheels, for example from summer to winter tyres or after a puncture."
+      }
+    }
+  },
+  {
+    "id": "t115",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Womit fahren viele Bagger, damit sie auf unebenem Boden nicht stecken bleiben?",
+    "options": [
+      "Mit Gleisketten",
+      "Mit Kufen",
+      "Auf Schienen",
+      "Auf Luftkissen"
+    ],
+    "correct_index": 0,
+    "explanation": "Bagger arbeiten oft auf unebenem, unbefestigtem Gelände. Deshalb haben sie meist einen Allradantrieb oder Gleisketten. Ausleger und Baggerlöffel bewegt meist eine Hydraulik.",
+    "difficulty": 1,
+    "tags": [
+      "Baumaschinen",
+      "Fahrzeuge",
+      "Baustelle"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bagger",
+    "source_url": "https://de.wikipedia.org/wiki/Bagger",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do many excavators run on so that they don't get stuck on rough ground?",
+        "options": [
+          "Crawler tracks",
+          "Skids",
+          "Rails",
+          "Air cushions"
+        ],
+        "explanation": "Excavators often work on uneven, unpaved terrain. That's why they usually have all-wheel drive or crawler tracks. The boom and bucket are mostly moved by hydraulics."
+      }
+    }
+  },
+  {
+    "id": "t116",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie werden die Kabinen einer Luftseilbahn bewegt?",
+    "options": [
+      "Auf Schienen am Boden",
+      "An Seilen hängend durch die Luft",
+      "Mit Propellern",
+      "Auf Rädern über eine Straße"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei einer Luftseilbahn hängen Kabinen, Gondeln oder Sessel ohne feste Führung an einem oder mehreren Seilen, meist Drahtseilen, und werden so durch die Luft transportiert.",
+    "difficulty": 1,
+    "tags": [
+      "Verkehr",
+      "Berge",
+      "Seilbahn"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Luftseilbahn",
+    "source_url": "https://de.wikipedia.org/wiki/Luftseilbahn",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How are the cabins of an aerial ropeway moved?",
+        "options": [
+          "On rails on the ground",
+          "Hanging from cables through the air",
+          "With propellers",
+          "On wheels along a road"
+        ],
+        "explanation": "On an aerial ropeway, cabins, gondolas or chairs hang without fixed guides from one or more cables, usually wire ropes, and are carried through the air."
+      }
+    }
+  },
+  {
+    "id": "l142",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Stilfigur steckt in dem Satz „Ich lese gerade Schiller“?",
+    "options": [
+      "Anapher",
+      "Litotes",
+      "Metonymie",
+      "Alliteration"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei der Metonymie wird ein Wort durch ein anderes ersetzt, das sachlich damit zusammenhängt – hier steht der Name des Autors für sein Werk. Ähnlich ist „ein Glas trinken“: Gemeint ist das Getränk.",
+    "difficulty": 3,
+    "tags": [
+      "Stilmittel",
+      "Rhetorik",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Metonymie",
+    "source_url": "https://de.wikipedia.org/wiki/Metonymie",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which figure of speech is in the sentence “I'm reading Schiller at the moment”?",
+        "options": [
+          "Anaphora",
+          "Litotes",
+          "Metonymy",
+          "Alliteration"
+        ],
+        "explanation": "In metonymy a word is replaced by another that is actually connected with it – here the author's name stands for his work. “Drinking a glass” is similar: what is meant is the drink."
+      }
+    }
+  },
+  {
+    "id": "l143",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das griechische Wort „Hendiadyoin“, zum Beispiel bei „Hab und Gut“?",
+    "options": [
+      "Ohne Ende",
+      "Zwei gegen eins",
+      "Alles doppelt",
+      "Eins durch zwei"
+    ],
+    "correct_index": 3,
+    "explanation": "Hendiadyoin heißt „eins durch zwei“: Zwei Wörter, mit „und“ verbunden, bilden erst zusammen die eigentliche Bedeutung – „Hab und Gut“ meint „Besitz“.",
+    "difficulty": 3,
+    "tags": [
+      "Stilmittel",
+      "Rhetorik",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hendiadyoin",
+    "source_url": "https://de.wikipedia.org/wiki/Hendiadyoin",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Greek word “hendiadys”, as in German “Hab und Gut” (goods and chattels), mean?",
+        "options": [
+          "Without end",
+          "Two against one",
+          "Everything twice",
+          "One through two"
+        ],
+        "explanation": "Hendiadys means “one through two”: two words joined by “and” together form the actual meaning – “Hab und Gut” means “possessions”."
+      }
+    }
+  },
+  {
+    "id": "l144",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Die Sonne lacht“ – welches Stilmittel ist das?",
+    "options": [
+      "Personifikation",
+      "Vergleich",
+      "Reim",
+      "Abkürzung"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei der Personifikation bekommen Dinge, Tiere, Pflanzen oder Naturerscheinungen menschliche Züge: Die Sonne lacht, der Garten trauert. Auch „Mutter Natur“ ist eine Personifikation.",
+    "difficulty": 1,
+    "tags": [
+      "Stilmittel",
+      "Rhetorik",
+      "Literatur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Personifikation",
+    "source_url": "https://de.wikipedia.org/wiki/Personifikation",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "“The sun is laughing” – which stylistic device is that?",
+        "options": [
+          "Personification",
+          "Simile",
+          "Rhyme",
+          "Abbreviation"
+        ],
+        "explanation": "In personification, things, animals, plants or natural phenomena are given human traits: the sun laughs, the garden mourns. “Mother Nature” is also a personification."
+      }
+    }
+  },
+  {
+    "id": "l145",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Warum nennt man eine längst bekannte Wahrheit „Binsenweisheit“?",
+    "options": [
+      "Binsen wachsen nur in Bibliotheken",
+      "Binsen sind weit verbreitet und haben eine einfache, knotenlose Form",
+      "Früher schrieb man Weisheiten auf Binsen",
+      "Binsen blühen nur alle hundert Jahre"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Begriff spielt auf die weite Verbreitung der Binsen (Gräser) und ihre einfache, knotenlose Form an. Schon im Lateinischen hieß es, jemand suche „den Knoten an der Binse“, wenn er an etwas Einfachem herumdeutelte.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendungen",
+      "Wörter",
+      "Pflanzen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Binsenweisheit",
+    "source_url": "https://de.wikipedia.org/wiki/Binsenweisheit",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is a well-known truth called a “Binsenweisheit” (rush wisdom) in German?",
+        "options": [
+          "Rushes only grow in libraries",
+          "Rushes are widespread and have a simple, knotless shape",
+          "People used to write wise sayings on rushes",
+          "Rushes only bloom every hundred years"
+        ],
+        "explanation": "The term alludes to how widespread rushes (grasses) are and to their simple, knotless shape. Even in Latin, someone quibbling over something simple was said to be looking for “the knot on the rush”."
+      }
+    }
+  },
+  {
+    "id": "l146",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welches dieser Wörter nennt der Duden als typisches Füllwort?",
+    "options": [
+      "laufen",
+      "Haus",
+      "halt",
+      "grün"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Füllwort hat laut Duden geringen Aussagewert und ist zum Verständnis nicht nötig. Typische Beispiele sind „gar“, „ja“, „also“ und „halt“. Übermäßig benutzt gelten sie als schlechter Stil.",
+    "difficulty": 1,
+    "tags": [
+      "Wörter",
+      "Grammatik",
+      "Stil"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Füllwort",
+    "source_url": "https://de.wikipedia.org/wiki/Füllwort",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these words does the Duden dictionary name as a typical filler word?",
+        "options": [
+          "laufen (to run)",
+          "Haus (house)",
+          "halt (well, just)",
+          "grün (green)"
+        ],
+        "explanation": "According to the Duden, a filler word carries little meaning and isn't needed for understanding. Typical examples are “gar”, “ja”, “also” and “halt”. Used too much, they count as poor style."
+      }
+    }
+  },
+  {
+    "id": "l147",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was gibt ein Logogramm in einer Schrift wieder?",
+    "options": [
+      "Eine Betonung",
+      "Einen einzelnen Laut",
+      "Eine Zahl",
+      "Einen Begriff, also ein Wort"
+    ],
+    "correct_index": 3,
+    "explanation": "Logografie bedeutet etwa „Schrift aus Wortzeichen“: Die Zeichen geben die Bedeutung von Sprachausdrücken wieder, nicht einzelne Laute. Ein Logogramm stellt einen Begriff dar.",
+    "difficulty": 3,
+    "tags": [
+      "Schrift",
+      "Wörter",
+      "Sprachen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Logografie",
+    "source_url": "https://de.wikipedia.org/wiki/Logografie",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a logogram represent in a writing system?",
+        "options": [
+          "A stress mark",
+          "A single sound",
+          "A number",
+          "A concept, i.e. a word"
+        ],
+        "explanation": "Logography means roughly “writing made of word signs”: the signs represent the meaning of linguistic expressions, not individual sounds. A logogram stands for a concept."
+      }
+    }
+  },
+  {
+    "id": "l148",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Welche Kanzleisprache verwendete Martin Luther für seine Bibelübersetzung?",
+    "options": [
+      "Die sächsische",
+      "Die bayerische",
+      "Die schwäbische",
+      "Die Wiener"
+    ],
+    "correct_index": 0,
+    "explanation": "Kanzleisprache nennt man die Sprache amtlicher Schriftstücke der Kanzleien. Martin Luther verwendete für seine Bibelübersetzung die sächsische Kanzleisprache.",
+    "difficulty": 3,
+    "tags": [
+      "Sprachgeschichte",
+      "Schrift",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kanzleisprache",
+    "source_url": "https://de.wikipedia.org/wiki/Kanzleisprache",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which chancery language did Martin Luther use for his Bible translation?",
+        "options": [
+          "The Saxon one",
+          "The Bavarian one",
+          "The Swabian one",
+          "The Viennese one"
+        ],
+        "explanation": "Chancery language is the language of official documents written in chanceries. Martin Luther used the Saxon chancery language for his Bible translation."
+      }
+    }
+  },
+  {
+    "id": "l149",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wie nennt man die Worttrennung am Zeilenende in Österreich?",
+    "options": [
+      "Das Abschneiden",
+      "Das Abteilen",
+      "Das Zerlegen",
+      "Das Brechen"
+    ],
+    "correct_index": 1,
+    "explanation": "In Österreich heißt die Worttrennung „das Abteilen“. Im Deutschen richtet sie sich vor allem nach den Sprechsilben, deshalb sagt man auch Silbentrennung.",
+    "difficulty": 2,
+    "tags": [
+      "Rechtschreibung",
+      "Schrift",
+      "Österreich"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Worttrennung",
+    "source_url": "https://de.wikipedia.org/wiki/Worttrennung",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is hyphenating a word at the end of a line called in Austria?",
+        "options": [
+          "Das Abschneiden (cutting off)",
+          "Das Abteilen (dividing off)",
+          "Das Zerlegen (taking apart)",
+          "Das Brechen (breaking)"
+        ],
+        "explanation": "In Austria, word division is called “das Abteilen”. In German it mainly follows the spoken syllables, which is why it is also called syllable division."
+      }
+    }
+  },
+  {
+    "id": "ti152",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was zeigte ein berühmtes Bild der Naturforscherin Maria Sibylla Merian, dem die Vogelspinnen vermutlich ihren Namen verdanken?",
+    "options": [
+      "Eine Spinne mit Federn",
+      "Eine Spinne, die wie ein Vogel fliegt",
+      "Eine große Spinne, die einen Kolibri frisst",
+      "Einen Vogel, der Spinnen sammelt"
+    ],
+    "correct_index": 2,
+    "explanation": "Merian zeigte in ihrem Werk über Surinam eine große Spinne, die auf einem Ast sitzend einen Kolibri verspeist. Darauf geht vermutlich der deutsche Name „Vogelspinne“ zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Spinnen",
+      "Namen",
+      "Forschung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vogelspinnen",
+    "source_url": "https://de.wikipedia.org/wiki/Vogelspinnen",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did a famous picture by naturalist Maria Sibylla Merian show, to which tarantulas probably owe their German name “bird spider”?",
+        "options": [
+          "A spider with feathers",
+          "A spider flying like a bird",
+          "A large spider eating a hummingbird",
+          "A bird collecting spiders"
+        ],
+        "explanation": "In her work on Suriname, Merian showed a large spider sitting on a branch eating a hummingbird. The German name “Vogelspinne” (bird spider) probably goes back to this."
+      }
+    }
+  },
+  {
+    "id": "ti153",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wodurch fällt die Saiga-Antilope vor allem auf?",
+    "options": [
+      "Durch ihre Flügel",
+      "Durch ihren langen Hals",
+      "Durch ihre gestreiften Beine",
+      "Durch ihre rüsselartige Nase"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Saiga lebt in den Steppen Eurasiens. Ihr auffälligstes Merkmal ist die rüsselartig vergrößerte Nase.",
+    "difficulty": 1,
+    "tags": [
+      "Säugetiere",
+      "Steppe",
+      "Aussehen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Saiga",
+    "source_url": "https://de.wikipedia.org/wiki/Saiga",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes the saiga antelope stand out most?",
+        "options": [
+          "Its wings",
+          "Its long neck",
+          "Its striped legs",
+          "Its trunk-like nose"
+        ],
+        "explanation": "The saiga lives in the steppes of Eurasia. Its most striking feature is its enlarged, trunk-like nose."
+      }
+    }
+  },
+  {
+    "id": "ti154",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wohin wandern viele Störe zum Laichen?",
+    "options": [
+      "Aus dem Meer ins Süßwasser",
+      "Aus Flüssen ins Meer",
+      "In heiße Quellen",
+      "In unterirdische Höhlen"
+    ],
+    "correct_index": 0,
+    "explanation": "Störe sind urtümliche Knochenfische. Die meisten leben im Meer und steigen als Wanderfische zum Laichen in Süßgewässer auf. Heute sind alle Störarten vom Aussterben bedroht.",
+    "difficulty": 2,
+    "tags": [
+      "Fische",
+      "Wanderung",
+      "Artenschutz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Störe",
+    "source_url": "https://de.wikipedia.org/wiki/Störe",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do many sturgeons migrate to spawn?",
+        "options": [
+          "From the sea into fresh water",
+          "From rivers into the sea",
+          "Into hot springs",
+          "Into underground caves"
+        ],
+        "explanation": "Sturgeons are ancient bony fish. Most live in the sea and migrate up into fresh water to spawn. Today all sturgeon species are threatened with extinction."
+      }
+    }
+  },
+  {
+    "id": "ti155",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist am Erdferkel in der Ordnung der Säugetiere einzigartig?",
+    "options": [
+      "Es ist das einzige Säugetier, das Eier legt",
+      "Seine Ordnung, die Röhrenzähner, hat nur eine einzige Art",
+      "Es ist das kleinste Säugetier",
+      "Es ist mit dem Hausschwein eng verwandt"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Erdferkel ist der einzige heute lebende Vertreter der Röhrenzähner – die einzige Säugetierordnung mit nur einer Art. Es lebt in Afrika und frisst vor allem Ameisen und Termiten.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Afrika",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erdferkel",
+    "source_url": "https://de.wikipedia.org/wiki/Erdferkel",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is unique about the aardvark among the orders of mammals?",
+        "options": [
+          "It is the only mammal that lays eggs",
+          "Its order, the Tubulidentata, has only one species",
+          "It is the smallest mammal",
+          "It is closely related to the domestic pig"
+        ],
+        "explanation": "The aardvark is the only living member of the Tubulidentata – the only mammal order with just one species. It lives in Africa and eats mainly ants and termites."
+      }
+    }
+  },
+  {
+    "id": "kn134",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Von welchem italienischen Wort leitet sich „Pastell“ ab?",
+    "options": [
+      "Pasta – Teig",
+      "Pastore – Hirte",
+      "Passo – Schritt",
+      "Pace – Frieden"
+    ],
+    "correct_index": 0,
+    "explanation": "„Pastell“ kommt vom italienischen „pasta“, „Teig“. Beim Pastell werden Pigmente meist als Kreiden aufgetragen und mit den Fingern verwischt; weil sie schwach haften, sind Pastelle sehr empfindlich.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Wörter",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pastellmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Pastellmalerei",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which Italian word does “pastel” come from?",
+        "options": [
+          "Pasta – dough",
+          "Pastore – shepherd",
+          "Passo – step",
+          "Pace – peace"
+        ],
+        "explanation": "“Pastel” comes from Italian “pasta”, “dough”. In pastel, pigments are mostly applied as chalks and smudged with the fingers; because they adhere weakly, pastels are very delicate."
+      }
+    }
+  },
+  {
+    "id": "e128",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie bieten Marktschreier ihre Ware an?",
+    "options": [
+      "Sie verschicken Briefe",
+      "Sie rufen sie laut aus",
+      "Sie verstecken sie",
+      "Sie verkaufen nur im Flüsterton"
+    ],
+    "correct_index": 1,
+    "explanation": "Marktschreier sind Händler auf Märkten, die ihre Ware mit der eigenen Stimme hörbar anpreisen – also verbal für sie werben.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Markt",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marktschreier",
+    "source_url": "https://de.wikipedia.org/wiki/Marktschreier",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do market criers offer their goods?",
+        "options": [
+          "They send letters",
+          "They call them out loudly",
+          "They hide them",
+          "They only sell in a whisper"
+        ],
+        "explanation": "Market criers are traders at markets who praise their goods aloud with their own voice – they advertise them verbally."
+      }
+    }
+  },
+  {
+    "id": "e129",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie nennt man ausländisches Bargeld, das man zum Beispiel in einer Wechselstube tauscht?",
+    "options": [
+      "Tranchen",
+      "Spesen",
+      "Sorten",
+      "Kurse"
+    ],
+    "correct_index": 2,
+    "explanation": "Bargeld in Fremdwährung heißt Sorten. In einer Wechselstube tauscht man es zu einem festgelegten Kurs; typisch ist, dass Kunden dort keine Bankkonten haben können.",
+    "difficulty": 3,
+    "tags": [
+      "Geld",
+      "Reisen",
+      "Banken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wechselstube",
+    "source_url": "https://de.wikipedia.org/wiki/Wechselstube",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is foreign cash called in German banking, for example when you exchange it at a bureau de change?",
+        "options": [
+          "Tranchen (tranches)",
+          "Spesen (expenses)",
+          "Sorten",
+          "Kurse (rates)"
+        ],
+        "explanation": "Cash in a foreign currency is called “Sorten” in German. At a bureau de change it is exchanged at a set rate; typically, customers cannot hold bank accounts there."
+      }
+    }
   }
 ]
