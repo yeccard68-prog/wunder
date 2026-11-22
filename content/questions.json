@@ -100942,5 +100942,1645 @@
         "explanation": "Violin makers make, maintain and repair string instruments such as the violin, viola, cello and double bass. Bows, however, are usually made not by the violin maker but by the bow maker."
       }
     }
+  },
+  {
+    "id": "kn137",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Womit entstehen bei der Aquatinta die Flächen und Halbtöne auf der Druckplatte?",
+    "options": [
+      "Mit Wasserfarbe auf Glas",
+      "Mit einem Schnitzmesser in Holz",
+      "Mit aufgeklebtem Papier",
+      "Mit Säure, die die Platte ätzt"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Aquatinta ist ein Tiefdruckverfahren, bei dem über Flächenätzung Halbtöne erzeugt werden. Der Name sagt es: Der dunkle Plattenton („tinta“) wird durch die Säure („aqua fortis“) hergestellt. Sie gilt als eine der malerischsten Tiefdrucktechniken.",
+    "difficulty": 3,
+    "tags": [
+      "Druckgrafik",
+      "Techniken",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aquatinta",
+    "source_url": "https://de.wikipedia.org/wiki/Aquatinta",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In aquatint, what creates the tones and half-tones on the printing plate?",
+        "options": [
+          "Watercolour on glass",
+          "A carving knife in wood",
+          "Glued-on paper",
+          "Acid that etches the plate"
+        ],
+        "explanation": "Aquatint is an intaglio printing process in which half-tones are created by etching areas. The name says it: the dark plate tone (“tinta”) is produced by the acid (“aqua fortis”). It is considered one of the most painterly intaglio techniques."
+      }
+    }
+  },
+  {
+    "id": "kn138",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woraus besteht Zeichenkohle?",
+    "options": [
+      "Aus verkohlten Holzstäbchen",
+      "Aus gepresstem Kreidestaub",
+      "Aus getrocknetem Ton",
+      "Aus Bleistiftminen"
+    ],
+    "correct_index": 0,
+    "explanation": "Zeichenkohle besteht aus verkohlten Holzstäbchen oder gepresstem Holzkohlepulver, etwa aus Reb-, Weiden- oder Lindenholz. Sie ist billig und lässt sich gut korrigieren, staubt aber stark ab und verwischt leicht – deshalb muss man Kohlezeichnungen fixieren.",
+    "difficulty": 1,
+    "tags": [
+      "Zeichnen",
+      "Material",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zeichenkohle",
+    "source_url": "https://de.wikipedia.org/wiki/Zeichenkohle",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is drawing charcoal made of?",
+        "options": [
+          "Charred wooden sticks",
+          "Pressed chalk dust",
+          "Dried clay",
+          "Pencil leads"
+        ],
+        "explanation": "Drawing charcoal consists of charred wooden sticks or pressed charcoal powder, made for example from vine, willow or lime wood. It is cheap and easy to correct, but it gives off a lot of dust and smudges easily – that is why charcoal drawings have to be fixed."
+      }
+    }
+  },
+  {
+    "id": "kn139",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist ein Bozzetto?",
+    "options": [
+      "Ein großes Wandgemälde",
+      "Ein erstes, skizzenhaftes Modell für eine Plastik",
+      "Ein Rahmen aus Gold",
+      "Ein Pinsel aus Dachshaar"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Bozzetto (italienisch für Skizze, Entwurf) ist ein erstes, skizzenhaftes Modell für eine Figur oder Plastik – meist aus Ton, Gips oder Wachs. Damit ließen sich Änderungen erproben, und der Auftraggeber konnte Wünsche äußern, bevor das endgültige Werk entstand.",
+    "difficulty": 2,
+    "tags": [
+      "Bildhauerei",
+      "Wörter",
+      "Entwurf"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bozzetto",
+    "source_url": "https://de.wikipedia.org/wiki/Bozzetto",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a bozzetto?",
+        "options": [
+          "A large mural",
+          "A first, sketchy model for a sculpture",
+          "A gold frame",
+          "A badger-hair brush"
+        ],
+        "explanation": "A bozzetto (Italian for sketch, draft) is a first, sketchy model for a figure or sculpture – usually made of clay, plaster or wax. It allowed changes to be tried out, and the client could voice wishes before the final work was made."
+      }
+    }
+  },
+  {
+    "id": "kn140",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet das Wort „Filigran“ wörtlich?",
+    "options": [
+      "Kleiner Stein",
+      "Feines Glas",
+      "Goldener Faden",
+      "Gekörnter Draht"
+    ],
+    "correct_index": 3,
+    "explanation": "Filigran kommt von lateinisch „filum“ (Faden, Draht) und „granum“ (Korn) und bedeutet wörtlich „gekörnter Draht“. Es bezeichnet feine Goldschmiedearbeiten aus Metallfäden mit aufgesetzten Metallperlen.",
+    "difficulty": 2,
+    "tags": [
+      "Schmuck",
+      "Handwerk",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Filigranarbeit",
+    "source_url": "https://de.wikipedia.org/wiki/Filigranarbeit",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the word “filigree” literally mean?",
+        "options": [
+          "Small stone",
+          "Fine glass",
+          "Golden thread",
+          "Grained wire"
+        ],
+        "explanation": "Filigree comes from Latin “filum” (thread, wire) and “granum” (grain) and literally means “grained wire”. It describes fine goldsmith work made of metal threads with metal beads set on them."
+      }
+    }
+  },
+  {
+    "id": "kn141",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie ist das Motiv bei einer Kamee in den Stein gearbeitet?",
+    "options": [
+      "Erhaben, als Relief",
+      "Vertieft eingeschnitten",
+      "Nur aufgemalt",
+      "Als Loch durch den Stein"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Kamee ist eine Gravur, die als erhabenes Relief aus einem Schmuckstein wie Onyx oder aus einer Muschelschale gearbeitet wird. Bei einer Gemme dagegen wird das Motiv vertieft in den Stein eingeschnitten.",
+    "difficulty": 3,
+    "tags": [
+      "Schmuck",
+      "Relief",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kamee",
+    "source_url": "https://de.wikipedia.org/wiki/Kamee",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is the motif worked into the stone on a cameo?",
+        "options": [
+          "Raised, as a relief",
+          "Cut in deep",
+          "Only painted on",
+          "As a hole through the stone"
+        ],
+        "explanation": "A cameo is an engraving worked as a raised relief from a gemstone such as onyx or from a shell. With an intaglio (gem), on the other hand, the motif is cut into the stone."
+      }
+    }
+  },
+  {
+    "id": "kn142",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie wird die Schabkunst (Mezzotinto) auch genannt?",
+    "options": [
+      "Weißkunst",
+      "Schwarzkunst",
+      "Rotdruck",
+      "Goldätzung"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Schabtechnik, auch Mezzotinto oder Schwarzkunst genannt, ist ein Tiefdruckverfahren. Ihren Höhepunkt erlebte sie im 17. und 18. Jahrhundert in der englischen Porträtmalerei; man nutzte sie vor allem für Einzelblätter.",
+    "difficulty": 3,
+    "tags": [
+      "Druckgrafik",
+      "Wörter",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schabkunst",
+    "source_url": "https://de.wikipedia.org/wiki/Schabkunst",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is mezzotint also called in German?",
+        "options": [
+          "Weißkunst (white art)",
+          "Schwarzkunst (black art)",
+          "Rotdruck (red print)",
+          "Goldätzung (gold etching)"
+        ],
+        "explanation": "Mezzotint, also called “Schwarzkunst” (black art) in German, is an intaglio printing process. It reached its peak in English portrait art in the 17th and 18th centuries and was used mainly for single sheets."
+      }
+    }
+  },
+  {
+    "id": "kn143",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie kommt bei der Kaltnadelradierung die Zeichnung auf die Druckplatte?",
+    "options": [
+      "Sie wird aufgeklebt",
+      "Sie wird mit Säure eingeätzt",
+      "Sie wird mit einer Stahlnadel direkt eingeritzt",
+      "Sie wird mit Wachs aufgemalt"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei der Kaltnadelradierung wird die Zeichnung mit einer Stahlnadel direkt und mit Kraft in die Druckplatte geritzt – ohne Säure. Ein stärkerer Druck der Nadel ergibt eine stärkere Linie.",
+    "difficulty": 3,
+    "tags": [
+      "Druckgrafik",
+      "Techniken",
+      "Werkzeug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kaltnadelradierung",
+    "source_url": "https://de.wikipedia.org/wiki/Kaltnadelradierung",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In drypoint, how does the drawing get onto the printing plate?",
+        "options": [
+          "It is glued on",
+          "It is etched in with acid",
+          "It is scratched in directly with a steel needle",
+          "It is painted on with wax"
+        ],
+        "explanation": "In drypoint, the drawing is scratched directly and with force into the printing plate with a steel needle – without acid. Stronger pressure on the needle gives a stronger line."
+      }
+    }
+  },
+  {
+    "id": "kn144",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Warum heißt die Monotypie so?",
+    "options": [
+      "Nur ein Künstler darf sie herstellen",
+      "Sie hat nur eine Farbe",
+      "Sie zeigt nur ein Motiv",
+      "Von jedem Bild gibt es nur einen einzigen Druck"
+    ],
+    "correct_index": 3,
+    "explanation": "„Monotypie“ bedeutet „ein einziger Druck“: Man malt auf eine Glas- oder Metallplatte und druckt das Bild, solange die Farbe noch feucht ist, auf Papier. So entsteht jedes Mal ein Unikat.",
+    "difficulty": 2,
+    "tags": [
+      "Druckgrafik",
+      "Wörter",
+      "Techniken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Monotypie",
+    "source_url": "https://de.wikipedia.org/wiki/Monotypie",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the monotype called that?",
+        "options": [
+          "Only one artist may make it",
+          "It has only one colour",
+          "It shows only one motif",
+          "There is only one single print of each picture"
+        ],
+        "explanation": "“Monotype” means “a single print”: you paint on a glass or metal plate and print the picture onto paper while the paint is still wet. Each time, a unique piece is created."
+      }
+    }
+  },
+  {
+    "id": "kn145",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Mit welcher Insel brachte man die Majolika-Keramik fälschlicherweise in Verbindung?",
+    "options": [
+      "Mallorca",
+      "Sizilien",
+      "Kreta",
+      "Malta"
+    ],
+    "correct_index": 0,
+    "explanation": "Majolika ist vor allem farbig bemalte, zinnglasierte italienische Keramik des 15. und 16. Jahrhunderts. Fälschlicherweise glaubte man, sie sei auf Mallorca hergestellt worden; der Name kommt aber von der spanischen Bezeichnung „obra de malica“ (Malaga-Ware).",
+    "difficulty": 3,
+    "tags": [
+      "Keramik",
+      "Italien",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Majolika",
+    "source_url": "https://de.wikipedia.org/wiki/Majolika",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which island was majolica pottery wrongly associated with?",
+        "options": [
+          "Majorca",
+          "Sicily",
+          "Crete",
+          "Malta"
+        ],
+        "explanation": "Majolica is above all colourfully painted, tin-glazed Italian pottery of the 15th and 16th centuries. People wrongly believed it was made on Majorca; but the name comes from the Spanish term “obra de malica” (Malaga ware)."
+      }
+    }
+  },
+  {
+    "id": "kn146",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist die Aufgabe eines Restaurators?",
+    "options": [
+      "Kunstwerke zu versteigern",
+      "Kunst- und Kulturgut zu erhalten und wiederherzustellen",
+      "Museen zu bewachen",
+      "Neue Bilder zu malen"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Restaurator beschäftigt sich mit der Konservierung und Restaurierung von Kunst- und Kulturgut. Viele sind auf ein Material wie Papier, Wandmalerei oder Textilien spezialisiert und arbeiten etwa an einem Museum oder einer Denkmalbehörde.",
+    "difficulty": 1,
+    "tags": [
+      "Berufe",
+      "Museum",
+      "Erhalten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Restaurator",
+    "source_url": "https://de.wikipedia.org/wiki/Restaurator",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a conservator-restorer's job?",
+        "options": [
+          "To auction artworks",
+          "To preserve and restore art and cultural heritage",
+          "To guard museums",
+          "To paint new pictures"
+        ],
+        "explanation": "A conservator-restorer works on conserving and restoring art and cultural heritage. Many specialise in one material such as paper, wall painting or textiles and work, for example, at a museum or a heritage authority."
+      }
+    }
+  },
+  {
+    "id": "kn147",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet das lateinische „curare“, von dem das Wort „Kurator“ kommt?",
+    "options": [
+      "Sammeln",
+      "Malen",
+      "Sorge tragen",
+      "Zählen"
+    ],
+    "correct_index": 2,
+    "explanation": "Kurator stammt vom lateinischen „curator“ (Pfleger, Vertreter) und „curare“ („Sorge tragen“). Kuratieren bedeutet im übertragenen Sinn, Inhalte auszuwählen, zu bewerten und für ein Publikum zu präsentieren – etwa in einer Ausstellung.",
+    "difficulty": 2,
+    "tags": [
+      "Museum",
+      "Wörter",
+      "Berufe"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kurator",
+    "source_url": "https://de.wikipedia.org/wiki/Kurator",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Latin “curare”, from which the word “curator” comes, mean?",
+        "options": [
+          "To collect",
+          "To paint",
+          "To take care",
+          "To count"
+        ],
+        "explanation": "Curator comes from Latin “curator” (keeper, representative) and “curare” (“to take care”). In a wider sense, curating means selecting, evaluating and presenting content for an audience – for example in an exhibition."
+      }
+    }
+  },
+  {
+    "id": "kn148",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welches Material verwenden Bildschnitzer am häufigsten?",
+    "options": [
+      "Eisen",
+      "Stein",
+      "Glas",
+      "Holz"
+    ],
+    "correct_index": 3,
+    "explanation": "Bildschnitzer schaffen dreidimensionale Bildwerke aus Holz, Elfenbein und anderen Naturmaterialien. Weil Holz ihr weitaus meistverwendetes Material ist, sagt man fast immer auch Holzbildhauer.",
+    "difficulty": 1,
+    "tags": [
+      "Bildhauerei",
+      "Holz",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bildschnitzer",
+    "source_url": "https://de.wikipedia.org/wiki/Bildschnitzer",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which material do wood carvers use most often?",
+        "options": [
+          "Iron",
+          "Stone",
+          "Glass",
+          "Wood"
+        ],
+        "explanation": "Wood carvers create three-dimensional works from wood, ivory and other natural materials. Because wood is by far their most used material, they are almost always also called wood sculptors."
+      }
+    }
+  },
+  {
+    "id": "m116",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welches Zahlenpaar ist ein Primzahlzwilling?",
+    "options": [
+      "(11, 13)",
+      "(9, 11)",
+      "(13, 15)",
+      "(21, 23)"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Primzahlzwilling besteht aus zwei Primzahlen, deren Abstand 2 ist. Die kleinsten Paare sind (3,5), (5,7) und (11,13). Bei den anderen Paaren ist jeweils eine Zahl keine Primzahl.",
+    "difficulty": 2,
+    "tags": [
+      "Primzahlen",
+      "Zahlen",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Primzahlzwilling",
+    "source_url": "https://de.wikipedia.org/wiki/Primzahlzwilling",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which pair of numbers is a twin prime pair?",
+        "options": [
+          "(11, 13)",
+          "(9, 11)",
+          "(13, 15)",
+          "(21, 23)"
+        ],
+        "explanation": "Twin primes are two prime numbers whose difference is 2. The smallest pairs are (3,5), (5,7) and (11,13). In each of the other pairs, one number is not prime."
+      }
+    }
+  },
+  {
+    "id": "m117",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welche zwei Hilfsmittel vereint das Geodreieck?",
+    "options": [
+      "Zirkel und Lineal",
+      "Lineal und Winkelmesser",
+      "Taschenrechner und Lineal",
+      "Zirkel und Winkelmesser"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Geodreieck (Geometrie-Dreieck) ist eine Kombination aus Lineal und Winkelmesser in Form eines rechtwinkligen, gleichschenkligen Dreiecks. Man misst und zeichnet damit Winkel und zieht parallele Geraden.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie",
+      "Schule",
+      "Werkzeug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geodreieck",
+    "source_url": "https://de.wikipedia.org/wiki/Geodreieck",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which two tools does the set square (“Geodreieck”) combine?",
+        "options": [
+          "Compass and ruler",
+          "Ruler and protractor",
+          "Calculator and ruler",
+          "Compass and protractor"
+        ],
+        "explanation": "The Geodreieck (geometry triangle) combines a ruler and a protractor in the shape of a right-angled isosceles triangle. It is used to measure and draw angles and to draw parallel lines."
+      }
+    }
+  },
+  {
+    "id": "m118",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ergibt eine Zahl, mit ihrem Kehrwert multipliziert?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "10"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Kehrwert einer Zahl x ist die Zahl, die mit x multipliziert 1 ergibt – zum Beispiel ist ein Halb der Kehrwert von 2. Die Zahl 0 hat keinen Kehrwert.",
+    "difficulty": 1,
+    "tags": [
+      "Brüche",
+      "Rechnen",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kehrwert",
+    "source_url": "https://de.wikipedia.org/wiki/Kehrwert",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you get when you multiply a number by its reciprocal?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "10"
+        ],
+        "explanation": "The reciprocal of a number x is the number that gives 1 when multiplied by x – for example, one half is the reciprocal of 2. The number 0 has no reciprocal."
+      }
+    }
+  },
+  {
+    "id": "m119",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Als Produkt welcher Zahlen schreibt man eine Zahl bei der Primfaktorzerlegung?",
+    "options": [
+      "Brüche",
+      "Quadratzahlen",
+      "Zehnerzahlen",
+      "Primzahlen"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei der Primfaktorzerlegung wird eine positive natürliche Zahl als Produkt aus Primzahlen dargestellt. Diese Darstellung ist bis auf die Reihenfolge der Faktoren eindeutig – das besagt der Fundamentalsatz der Arithmetik.",
+    "difficulty": 2,
+    "tags": [
+      "Primzahlen",
+      "Zahlen",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Primfaktorzerlegung",
+    "source_url": "https://de.wikipedia.org/wiki/Primfaktorzerlegung",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In prime factorisation, a number is written as a product of which numbers?",
+        "options": [
+          "Fractions",
+          "Square numbers",
+          "Multiples of ten",
+          "Prime numbers"
+        ],
+        "explanation": "In prime factorisation, a positive whole number is written as a product of prime numbers. Apart from the order of the factors, this representation is unique – that is what the fundamental theorem of arithmetic says."
+      }
+    }
+  },
+  {
+    "id": "m120",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welcher Begriff ist das Gegenstück zum kleinsten gemeinsamen Vielfachen (kgV)?",
+    "options": [
+      "Kleinster gemeinsamer Nenner",
+      "Größter gemeinsamer Teiler (ggT)",
+      "Größte Quadratzahl",
+      "Mittelwert"
+    ],
+    "correct_index": 1,
+    "explanation": "Das kgV zweier Zahlen ist die kleinste positive Zahl, die Vielfaches von beiden ist. Sein Gegenstück ist der größte gemeinsame Teiler (ggT). Auf Englisch heißt das kgV „least common multiple“, kurz lcm.",
+    "difficulty": 2,
+    "tags": [
+      "Teiler",
+      "Rechnen",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleinstes gemeinsames Vielfaches",
+    "source_url": "https://de.wikipedia.org/wiki/Kleinstes gemeinsames Vielfaches",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which term is the counterpart of the least common multiple (LCM)?",
+        "options": [
+          "Lowest common denominator",
+          "Greatest common divisor (GCD)",
+          "Largest square number",
+          "Average"
+        ],
+        "explanation": "The LCM of two numbers is the smallest positive number that is a multiple of both. Its counterpart is the greatest common divisor (GCD)."
+      }
+    }
+  },
+  {
+    "id": "m121",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Woher hat das Drachenviereck seinen Namen?",
+    "options": [
+      "Von einem Sternbild",
+      "Von einem Märchendrachen",
+      "Von der Form vieler Flugdrachen",
+      "Von einem Mathematiker namens Drache"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Drachenviereck ist ein Viereck, bei dem eine Diagonale Symmetrieachse ist. Der Name verweist auf die Form vieler Flugdrachen. In Österreich sagt man ausschließlich Deltoid; ein besonderes Drachenviereck ist die Raute.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie",
+      "Vierecke",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Drachenviereck",
+    "source_url": "https://de.wikipedia.org/wiki/Drachenviereck",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the kite (“Drachenviereck”) get its name from?",
+        "options": [
+          "From a constellation",
+          "From a fairy-tale dragon",
+          "From the shape of many flying kites",
+          "From a mathematician called Drache"
+        ],
+        "explanation": "A kite is a quadrilateral in which one diagonal is an axis of symmetry. The name refers to the shape of many flying kites. In Austria it is only called a deltoid; a special kite is the rhombus."
+      }
+    }
+  },
+  {
+    "id": "m122",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie viele Kanten hat ein Quader?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Quader wird von 6 Rechtecken begrenzt. Er hat 8 rechtwinklige Ecken und 12 Kanten, von denen jeweils vier gleich lang und parallel sind. Sind alle Kanten gleich lang, ist der Quader ein Würfel.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie",
+      "Körper",
+      "Zählen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quader",
+    "source_url": "https://de.wikipedia.org/wiki/Quader",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many edges does a cuboid have?",
+        "options": [
+          "6",
+          "8",
+          "12",
+          "24"
+        ],
+        "explanation": "A cuboid is bounded by 6 rectangles. It has 8 right-angled corners and 12 edges, four of which are always of equal length and parallel. If all edges are the same length, the cuboid is a cube."
+      }
+    }
+  },
+  {
+    "id": "m123",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wann ist eine Figur achsensymmetrisch?",
+    "options": [
+      "Wenn ihre beiden Hälften an einer Linie spiegelbildlich sind",
+      "Wenn sie rund ist",
+      "Wenn sie vier Ecken hat",
+      "Wenn sie bunt ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Achsensymmetrie ist die spiegelbildliche Anordnung zu beiden Seiten einer gedachten Linie, der Symmetrieachse. Spiegelt man die Figur an dieser Achse, sieht sie genauso aus wie vorher.",
+    "difficulty": 1,
+    "tags": [
+      "Geometrie",
+      "Spiegeln",
+      "Formen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Achsensymmetrie",
+    "source_url": "https://de.wikipedia.org/wiki/Achsensymmetrie",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When is a figure line-symmetric?",
+        "options": [
+          "When its two halves mirror each other along a line",
+          "When it is round",
+          "When it has four corners",
+          "When it is colourful"
+        ],
+        "explanation": "Line symmetry is a mirror-image arrangement on both sides of an imaginary line, the axis of symmetry. If you mirror the figure along this axis, it looks exactly as before."
+      }
+    }
+  },
+  {
+    "id": "ns78",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie nennt man den Übergang eines Stoffes vom gasförmigen in den flüssigen Zustand?",
+    "options": [
+      "Verdunstung",
+      "Kondensation",
+      "Schmelzen",
+      "Sublimation"
+    ],
+    "correct_index": 1,
+    "explanation": "Kondensation (von lateinisch „condensare“, „dicht zusammendrängen“) ist der Übergang vom gasförmigen in den flüssigen Zustand. Dabei wird Energie an die Umgebung abgegeben. Auch Wolken und Nebel entstehen durch Kondensation.",
+    "difficulty": 1,
+    "tags": [
+      "Wasser",
+      "Aggregatzustände",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kondensation",
+    "source_url": "https://de.wikipedia.org/wiki/Kondensation",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is it called when a substance changes from a gas to a liquid?",
+        "options": [
+          "Evaporation",
+          "Condensation",
+          "Melting",
+          "Sublimation"
+        ],
+        "explanation": "Condensation (from Latin “condensare”, “to press closely together”) is the change from a gas to a liquid. Energy is released to the surroundings. Clouds and fog also form through condensation."
+      }
+    }
+  },
+  {
+    "id": "ns79",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie zeigt ein Indikator in der Chemie meist einen Zustand an?",
+    "options": [
+      "Durch Wärme",
+      "Durch einen Ton",
+      "Durch eine Farbe oder Farbänderung",
+      "Durch einen Geruch"
+    ],
+    "correct_index": 2,
+    "explanation": "Indikatoren (lateinisch „indicare“, „anzeigen“) dienen zur Überwachung einer chemischen Reaktion oder eines Zustands. Häufig wird ein Zustand durch eine bestimmte Farbe angezeigt, eine Änderung durch eine Farbveränderung. Am häufigsten nutzt man sie bei Titrationen.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Farben",
+      "Experimente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Indikator (Chemie)",
+    "source_url": "https://de.wikipedia.org/wiki/Indikator (Chemie)",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does an indicator in chemistry usually show a state?",
+        "options": [
+          "With heat",
+          "With a sound",
+          "With a colour or colour change",
+          "With a smell"
+        ],
+        "explanation": "Indicators (Latin “indicare”, “to show”) are used to monitor a chemical reaction or a state. A state is often shown by a certain colour, a change by a change of colour. They are most often used in titrations."
+      }
+    }
+  },
+  {
+    "id": "ns80",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Worauf beruht Diffusion?",
+    "options": [
+      "Auf der ungerichteten Zufallsbewegung von Teilchen",
+      "Auf der Schwerkraft",
+      "Auf Magnetismus",
+      "Auf Licht"
+    ],
+    "correct_index": 0,
+    "explanation": "Diffusion (lateinisch „diffundere“, „ausgießen, verstreuen“) ist Stofftransport, der auf der ungerichteten Zufallsbewegung der Teilchen beruht. Wie stark sich die Teilchen bewegen, hängt von ihrer Wärmeenergie ab. Diffusion gibt es in Gasen, Flüssigkeiten und Feststoffen.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Teilchen",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diffusion",
+    "source_url": "https://de.wikipedia.org/wiki/Diffusion",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is diffusion based on?",
+        "options": [
+          "The undirected random motion of particles",
+          "Gravity",
+          "Magnetism",
+          "Light"
+        ],
+        "explanation": "Diffusion (Latin “diffundere”, “to pour out, to scatter”) is the transport of matter based on the undirected random motion of particles. How strongly the particles move depends on their thermal energy. Diffusion happens in gases, liquids and solids."
+      }
+    }
+  },
+  {
+    "id": "ns81",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist in der Chemie ein Amalgam?",
+    "options": [
+      "Eine Säure aus Zitronen",
+      "Eine Legierung des Quecksilbers",
+      "Ein Edelgas",
+      "Ein Kristall aus Salz"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Amalgam ist in der Chemie eine Legierung des Quecksilbers. Weil sich viele Metalle in Quecksilber lösen, gibt es sehr viele Amalgame. Der Name geht über das Mittellatein auf ein griechisches Wort für „weich“ zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Metalle",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Amalgam",
+    "source_url": "https://de.wikipedia.org/wiki/Amalgam",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In chemistry, what is an amalgam?",
+        "options": [
+          "An acid from lemons",
+          "An alloy of mercury",
+          "A noble gas",
+          "A salt crystal"
+        ],
+        "explanation": "In chemistry, an amalgam is an alloy of mercury. Because many metals dissolve in mercury, there are very many amalgams. The name goes back via Medieval Latin to a Greek word for “soft”."
+      }
+    }
+  },
+  {
+    "id": "ns82",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was spart man, wenn man eine Last über eine schiefe Ebene nach oben bringt statt sie senkrecht zu heben?",
+    "options": [
+      "Zeit und Kraft",
+      "Arbeit und Weg",
+      "Kraft – aber der Weg wird länger",
+      "Gar nichts"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine schiefe Ebene verringert den Kraftaufwand, um eine Masse anzuheben. Die Arbeit bleibt aber gleich, weil sich der Weg verlängert – ähnlich wie beim Hebel oder Flaschenzug. Auf ihr beruhen auch Keil und Schraube.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Maschinen",
+      "Kraft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schiefe Ebene",
+    "source_url": "https://de.wikipedia.org/wiki/Schiefe Ebene",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you save when you move a load up an inclined plane instead of lifting it straight up?",
+        "options": [
+          "Time and force",
+          "Work and distance",
+          "Force – but the path gets longer",
+          "Nothing at all"
+        ],
+        "explanation": "An inclined plane reduces the force needed to raise a mass. But the work stays the same because the path gets longer – similar to a lever or a pulley. Wedges and screws are also based on it."
+      }
+    }
+  },
+  {
+    "id": "ns83",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Zu welcher Tageszeit bildet sich Tau besonders häufig?",
+    "options": [
+      "Am frühen Abend",
+      "Am Mittag",
+      "Am Nachmittag",
+      "Am frühen Morgen"
+    ],
+    "correct_index": 3,
+    "explanation": "Tau entsteht, wenn sich die Luft unter den Taupunkt abkühlt und Wasserdampf an kühlen Oberflächen wie Pflanzen kondensiert. Das geschieht besonders am frühen Morgen, weil die Temperaturen dann nach der nächtlichen Abkühlung am tiefsten sind.",
+    "difficulty": 1,
+    "tags": [
+      "Wetter",
+      "Wasser",
+      "Natur"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tau (Niederschlag)",
+    "source_url": "https://de.wikipedia.org/wiki/Tau (Niederschlag)",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At what time of day does dew form most often?",
+        "options": [
+          "Early in the evening",
+          "At noon",
+          "In the afternoon",
+          "Early in the morning"
+        ],
+        "explanation": "Dew forms when the air cools below the dew point and water vapour condenses on cool surfaces such as plants. This happens especially early in the morning, because temperatures are lowest then after cooling down during the night."
+      }
+    }
+  },
+  {
+    "id": "ns84",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was weist man mit einem Elektroskop nach?",
+    "options": [
+      "Elektrische Ladungen",
+      "Radiowellen",
+      "Luftfeuchtigkeit",
+      "Erdbeben"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Elektroskop ist ein Gerät zum Nachweis elektrischer Ladungen und Spannungen. Es beruht auf der Anziehung und Abstoßung von Ladungen. Ein sehr frühes Elektroskop, das Versorium, entwickelte William Gilbert um das Jahr 1600.",
+    "difficulty": 2,
+    "tags": [
+      "Elektrizität",
+      "Geräte",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Elektroskop",
+    "source_url": "https://de.wikipedia.org/wiki/Elektroskop",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does an electroscope detect?",
+        "options": [
+          "Electric charges",
+          "Radio waves",
+          "Humidity",
+          "Earthquakes"
+        ],
+        "explanation": "An electroscope is a device for detecting electric charges and voltages. It is based on the attraction and repulsion of charges. A very early electroscope, the versorium, was developed by William Gilbert around the year 1600."
+      }
+    }
+  },
+  {
+    "id": "ns85",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was entsteht, wenn eine starke Säure und eine starke Base in Wasser miteinander reagieren?",
+    "options": [
+      "Gold",
+      "Wasser",
+      "Sauerstoff",
+      "Zucker"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei einer Neutralisation reagieren gleiche Mengen Säure und Base, meist in wässriger Lösung. Dabei reagieren Oxonium- und Hydroxidionen zu Wasser. Vollständig neutralisiert ist die Lösung beim pH-Wert 7.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Säuren",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neutralisation (Chemie)",
+    "source_url": "https://de.wikipedia.org/wiki/Neutralisation (Chemie)",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What forms when a strong acid and a strong base react with each other in water?",
+        "options": [
+          "Gold",
+          "Water",
+          "Oxygen",
+          "Sugar"
+        ],
+        "explanation": "In a neutralisation, equal amounts of acid and base react, usually in a watery solution. Oxonium and hydroxide ions react to form water. The solution is fully neutralised at pH 7."
+      }
+    }
+  },
+  {
+    "id": "ns86",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie nennt man das Bestreben eines Körpers, in seinem Bewegungszustand zu bleiben?",
+    "options": [
+      "Auftrieb",
+      "Reibung",
+      "Trägheit",
+      "Spannung"
+    ],
+    "correct_index": 2,
+    "explanation": "Trägheit, auch Beharrungsvermögen, ist das Bestreben von Körpern, in ihrem Bewegungszustand zu verharren, solange keine äußeren Kräfte wirken. Ein Beispiel ist die Drehung der Erde, die über sehr lange Zeit fast unverändert bleibt.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Bewegung",
+      "Kraft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trägheit",
+    "source_url": "https://de.wikipedia.org/wiki/Trägheit",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the tendency of a body to stay in its state of motion called?",
+        "options": [
+          "Buoyancy",
+          "Friction",
+          "Inertia",
+          "Tension"
+        ],
+        "explanation": "Inertia is the tendency of bodies to remain in their state of motion as long as no external forces act on them. One example is the rotation of the Earth, which stays almost unchanged over very long periods."
+      }
+    }
+  },
+  {
+    "id": "sp156",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie heißen die hammerförmigen Schläger beim Krocket?",
+    "options": [
+      "Queues",
+      "Putter",
+      "Mallets",
+      "Sticks"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Krocket (englisch und französisch Croquet) stößt man farbige Bälle mit hammerförmigen Schlägern, den Mallets, in vorgegebener Reihenfolge durch Tore – meist U-förmig gebogene Drahtbügel. Männer und Frauen treten zusammen an.",
+    "difficulty": 2,
+    "tags": [
+      "Ballspiele",
+      "Rasen",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Krocket",
+    "source_url": "https://de.wikipedia.org/wiki/Krocket",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the hammer-shaped clubs in croquet called?",
+        "options": [
+          "Cues",
+          "Putters",
+          "Mallets",
+          "Sticks"
+        ],
+        "explanation": "In croquet, coloured balls are hit with hammer-shaped clubs, the mallets, through hoops in a set order – usually U-shaped bent wires. Men and women compete together."
+      }
+    }
+  },
+  {
+    "id": "sp157",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Woher kommt der Name „Bob“ beim Bobsport?",
+    "options": [
+      "Vom Geräusch des Schlittens",
+      "Von einem Erfinder namens Bob",
+      "Von einem Schweizer Berg",
+      "Vom englischen „to bob“, ruckartig bewegen"
+    ],
+    "correct_index": 3,
+    "explanation": "„Bob“ kommt vom englischen Verb „to bob“, „ruckartig bewegen“ oder „wippen“. Anfangs versuchten die Mannschaften, dem Schlitten durch ruckartiges Vorschnellen des Oberkörpers mehr Schwung zu geben. Der Bobsport wurde Ende des 19. Jahrhunderts in der Schweiz von Engländern entwickelt.",
+    "difficulty": 2,
+    "tags": [
+      "Wintersport",
+      "Wörter",
+      "Schlitten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bobsport",
+    "source_url": "https://de.wikipedia.org/wiki/Bobsport",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the name “bob” in bobsleigh come from?",
+        "options": [
+          "From the noise of the sled",
+          "From an inventor called Bob",
+          "From a Swiss mountain",
+          "From English “to bob”, to move jerkily"
+        ],
+        "explanation": "“Bob” comes from the English verb “to bob”, to move jerkily or to bounce. At first, teams tried to give the sled more speed by jerking their upper bodies forward. Bobsleigh was developed at the end of the 19th century in Switzerland by Englishmen."
+      }
+    }
+  },
+  {
+    "id": "sp158",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wo turnt man beim Voltigieren?",
+    "options": [
+      "Auf einem Pferd, das im Kreis läuft",
+      "Auf einem Trampolin",
+      "Auf einem Schwebebalken",
+      "Im Wasser"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Voltigieren werden turnerische und akrobatische Übungen auf einem Pferd ausgeführt, das an einer Longe im Kreis läuft. Oft ist das Voltigieren ein Einstieg in den Pferdesport.",
+    "difficulty": 1,
+    "tags": [
+      "Pferde",
+      "Turnen",
+      "Akrobatik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Voltigieren",
+    "source_url": "https://de.wikipedia.org/wiki/Voltigieren",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do you do gymnastics in vaulting (“Voltigieren”)?",
+        "options": [
+          "On a horse running in a circle",
+          "On a trampoline",
+          "On a balance beam",
+          "In the water"
+        ],
+        "explanation": "In vaulting, gymnastic and acrobatic exercises are performed on a horse that runs in a circle on a lunge line. Vaulting is often a way into equestrian sport."
+      }
+    }
+  },
+  {
+    "id": "sp159",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wann verliert ein Ringer beim Sumō?",
+    "options": [
+      "Wenn er lacht",
+      "Wenn er aus dem Kreis gedrängt wird oder den Boden mit mehr als den Fußsohlen berührt",
+      "Wenn er nach drei Minuten noch steht",
+      "Wenn er den Gegner hochhebt"
+    ],
+    "correct_index": 1,
+    "explanation": "Sumō ist eine japanische Form des Ringkampfs. Ziel ist, den Gegner aus einem mit einem Strohseil abgesteckten Kreis aus gestampftem Lehm zu drängen oder ihn so aus dem Gleichgewicht zu bringen, dass er den Boden mit einem anderen Körperteil als den Fußsohlen berührt. Ein Kampf dauert oft nur einige Sekunden.",
+    "difficulty": 2,
+    "tags": [
+      "Kampfsport",
+      "Japan",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sumō",
+    "source_url": "https://de.wikipedia.org/wiki/Sumō",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When does a wrestler lose in sumo?",
+        "options": [
+          "When he laughs",
+          "When pushed out of the ring or touching the ground with anything but the soles of the feet",
+          "When he is still standing after three minutes",
+          "When he lifts his opponent"
+        ],
+        "explanation": "Sumo is a Japanese form of wrestling. The aim is to push the opponent out of a ring of stamped clay marked with a straw rope, or to unbalance him so that he touches the ground with a body part other than the soles of his feet. A bout often lasts only a few seconds."
+      }
+    }
+  },
+  {
+    "id": "sp160",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie breit ist der Schwebebalken im Gerätturnen?",
+    "options": [
+      "5 cm",
+      "10 cm",
+      "20 cm",
+      "30 cm"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Schwebebalken ist ein 5 m langer und 10 cm breiter Holzbalken auf Stützen. Turnen auf dem Schwebebalken ist seit 1936 olympisch; typisch sind Sprünge, Drehungen und Überschläge.",
+    "difficulty": 2,
+    "tags": [
+      "Turnen",
+      "Geräte",
+      "Olympia"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwebebalken",
+    "source_url": "https://de.wikipedia.org/wiki/Schwebebalken",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How wide is the balance beam in artistic gymnastics?",
+        "options": [
+          "5 cm",
+          "10 cm",
+          "20 cm",
+          "30 cm"
+        ],
+        "explanation": "The balance beam is a wooden beam 5 m long and 10 cm wide on supports. The beam has been an Olympic event since 1936; typical elements are jumps, turns and flips."
+      }
+    }
+  },
+  {
+    "id": "sp161",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist das Besondere am Stufenbarren?",
+    "options": [
+      "Seine zwei Holme sind verschieden hoch",
+      "Er hat nur einen Holm",
+      "Er steht im Wasser",
+      "Er dreht sich"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Stufenbarren ist ein Barren mit verschieden hohen Holmen. Er ist eine Gerätedisziplin im Turnen der Frauen; die Übungen ähneln dem Reckturnen der Männer.",
+    "difficulty": 1,
+    "tags": [
+      "Turnen",
+      "Geräte",
+      "Frauen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stufenbarren",
+    "source_url": "https://de.wikipedia.org/wiki/Stufenbarren",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the uneven bars?",
+        "options": [
+          "Its two bars are at different heights",
+          "It has only one bar",
+          "It stands in water",
+          "It rotates"
+        ],
+        "explanation": "The uneven bars are parallel bars at different heights. They are an apparatus event in women's gymnastics; the routines resemble men's high bar."
+      }
+    }
+  },
+  {
+    "id": "sp162",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wozu nutzte man Nachbildungen von Pferden, aus denen das Pauschenpferd hervorging, schon im Altertum?",
+    "options": [
+      "Als Spielzeug für Kinder",
+      "Zum Üben des Reitens, vor allem des Auf- und Absitzens",
+      "Als Wegweiser",
+      "Als Futterstelle"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Pauschenpferd (auch Seitpferd) ist ein Turngerät in Pferdeform. Schon im Altertum nutzte man Nachbildungen des Pferdes für Vorübungen des Reitens, besonders des Auf- und Absitzens – etwa bei der römischen Reiterei.",
+    "difficulty": 2,
+    "tags": [
+      "Turnen",
+      "Geschichte",
+      "Geräte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pauschenpferd",
+    "source_url": "https://de.wikipedia.org/wiki/Pauschenpferd",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Even in antiquity, what were replicas of horses – the forerunners of the pommel horse – used for?",
+        "options": [
+          "As toys for children",
+          "For practising riding, especially mounting and dismounting",
+          "As signposts",
+          "As feeding places"
+        ],
+        "explanation": "The pommel horse is a piece of gymnastics apparatus shaped like a horse. Already in antiquity, replicas of horses were used to practise riding, especially mounting and dismounting – for example by the Roman cavalry."
+      }
+    }
+  },
+  {
+    "id": "sp163",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie viele Hürden müssen bei einem Hürdenlauf-Meisterschaftsrennen überlaufen werden?",
+    "options": [
+      "Acht",
+      "Zwölf",
+      "Zehn",
+      "Fünfzehn"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei Meisterschaften gibt es den kurzen und den langen Hürdensprint. Unabhängig von der Laufdistanz müssen jeweils zehn Hürden überlaufen werden. Weil Abstände und Höhen vorgegeben sind, gilt der Hürdenlauf als Zwangslauf.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik",
+      "Laufen",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hürdenlauf",
+    "source_url": "https://de.wikipedia.org/wiki/Hürdenlauf",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many hurdles must be cleared in a championship hurdles race?",
+        "options": [
+          "Eight",
+          "Twelve",
+          "Ten",
+          "Fifteen"
+        ],
+        "explanation": "At championships there is a short and a long hurdles sprint. Regardless of the distance, ten hurdles must be cleared each time. Because spacing and heights are fixed, the runners cannot choose their own rhythm."
+      }
+    }
+  },
+  {
+    "id": "sp164",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie müssen Kanuslalom-Fahrer die rot-weißen Tore durchfahren?",
+    "options": [
+      "Unter Wasser",
+      "Stromabwärts",
+      "Rückwärts im Kreis",
+      "Stromaufwärts"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Kanuslalom fährt man eine Strecke mit Toren auf schnell fließendem Wasser. Die meisten Tore sind grün-weiße Abwärtstore. Einige Tore sind rot-weiß gekennzeichnete Aufwärtstore, die stromaufwärts zu durchqueren sind.",
+    "difficulty": 3,
+    "tags": [
+      "Wassersport",
+      "Kanu",
+      "Regeln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kanuslalom",
+    "source_url": "https://de.wikipedia.org/wiki/Kanuslalom",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How must canoe slalom paddlers pass through the red-and-white gates?",
+        "options": [
+          "Under water",
+          "Downstream",
+          "Backwards in a circle",
+          "Upstream"
+        ],
+        "explanation": "In canoe slalom, paddlers race down a course with gates on fast-flowing water. Most gates are green-and-white downstream gates. Some gates are red-and-white upstream gates, which must be passed going upstream."
+      }
+    }
+  },
+  {
+    "id": "sp165",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie lang ist eine Runde beim Shorttrack?",
+    "options": [
+      "111,12 Meter",
+      "200 Meter",
+      "400 Meter",
+      "500 Meter"
+    ],
+    "correct_index": 0,
+    "explanation": "Shorttrack (englisch für „Kurzbahn“) ist eine Disziplin des Eisschnelllaufs. Die Runde ist mit 111,12 Metern kürzer als beim klassischen Eisschnelllauf mit 400 Metern und passt so auf Eishockeyflächen.",
+    "difficulty": 2,
+    "tags": [
+      "Wintersport",
+      "Eislaufen",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Shorttrack",
+    "source_url": "https://de.wikipedia.org/wiki/Shorttrack",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long is one lap in short track speed skating?",
+        "options": [
+          "111.12 metres",
+          "200 metres",
+          "400 metres",
+          "500 metres"
+        ],
+        "explanation": "Short track is a discipline of speed skating. The lap is 111.12 metres, shorter than the 400 metres of classic speed skating, so it fits on ice hockey rinks."
+      }
+    }
+  },
+  {
+    "id": "sp166",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wodurch unterscheidet sich Bodenturnen von Disziplinen wie Pferd oder Barren?",
+    "options": [
+      "Man turnt nur im Wasser",
+      "Man turnt ohne solches Gerät, auf dem Boden",
+      "Man turnt nur zu zweit",
+      "Man turnt auf Rollschuhen"
+    ],
+    "correct_index": 1,
+    "explanation": "Bodenturnen besteht aus Turnübungen aus dem Stand oder aus dem Anlauf und grenzt sich so von Disziplinen an Geräten wie Pferd oder Barren ab. In der Schule turnt man meist auf einer Bahn aus aneinandergereihten Bodenmatten.",
+    "difficulty": 1,
+    "tags": [
+      "Turnen",
+      "Schule",
+      "Bewegung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bodenturnen",
+    "source_url": "https://de.wikipedia.org/wiki/Bodenturnen",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does floor gymnastics differ from events like the pommel horse or bars?",
+        "options": [
+          "You do it only in water",
+          "You do it without such apparatus, on the floor",
+          "You do it only in pairs",
+          "You do it on roller skates"
+        ],
+        "explanation": "Floor gymnastics consists of exercises from standing or from a run-up, which sets it apart from events on apparatus such as the horse or bars. At school it is usually done on a strip of mats laid end to end."
+      }
+    }
   }
 ]
