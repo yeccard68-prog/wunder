@@ -102582,5 +102582,1645 @@
         "explanation": "Floor gymnastics consists of exercises from standing or from a run-up, which sets it apart from events on apparatus such as the horse or bars. At school it is usually done on a strip of mats laid end to end."
       }
     }
+  },
+  {
+    "id": "ti156",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "In welchen Monaten hält die Haselmaus ihren Winterschlaf?",
+    "options": [
+      "Von Juni bis August",
+      "Nur im Januar",
+      "Etwa von Oktober bis Ende April",
+      "Sie hält keinen Winterschlaf"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Haselmaus ist ein nachtaktives Nagetier aus der Familie der Bilche. Ihr Winterschlaf beginnt frühestens ab Oktober und dauert bis Ende April. Vorher frisst sie sich an: Im Sommer wiegt sie 17 bis 19 Gramm, vor dem Winterschlaf mehr als 30 Gramm.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Winter",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haselmaus",
+    "source_url": "https://de.wikipedia.org/wiki/Haselmaus",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which months does the hazel dormouse hibernate?",
+        "options": [
+          "From June to August",
+          "Only in January",
+          "Roughly from October to the end of April",
+          "It does not hibernate"
+        ],
+        "explanation": "The hazel dormouse is a nocturnal rodent of the dormouse family. Its hibernation starts in October at the earliest and lasts until the end of April. Before that it fattens up: in summer it weighs 17 to 19 grams, before hibernating more than 30 grams."
+      }
+    }
+  },
+  {
+    "id": "ti157",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie viel Körnervorrat können Hamster mit ihren Backentaschen manchmal in ihren Bau tragen?",
+    "options": [
+      "Eine ganze Tonne",
+      "Höchstens zehn Gramm",
+      "Genau ein Korn",
+      "Bis zu fünf Kilogramm"
+    ],
+    "correct_index": 3,
+    "explanation": "Alle Hamsterarten, auch der heimische Feldhamster, haben dehnbare Backentaschen. Damit tragen sie manchmal bis zu fünf Kilogramm Körnervorrat in ihren Bau – auch wenn sie für den Winter nur einen Teil davon brauchen.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Vorräte",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Feldhamster",
+    "source_url": "https://de.wikipedia.org/wiki/Feldhamster",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How much grain can hamsters sometimes carry into their burrow with their cheek pouches?",
+        "options": [
+          "A whole tonne",
+          "Ten grams at most",
+          "Exactly one grain",
+          "Up to five kilograms"
+        ],
+        "explanation": "All hamster species, including the European hamster, have stretchy cheek pouches. With them they sometimes carry up to five kilograms of grain into their burrow – even though they only need part of it for the winter."
+      }
+    }
+  },
+  {
+    "id": "ti158",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was passiert mit dem Körper der Waldspitzmaus zum Winter hin?",
+    "options": [
+      "Er schrumpft um 15 bis 20 Prozent",
+      "Er wird doppelt so groß",
+      "Er wird weiß",
+      "Er verliert den Schwanz"
+    ],
+    "correct_index": 0,
+    "explanation": "Seit 1949 ist der sogenannte Dehnel-Effekt bekannt: Der Körper der Waldspitzmaus schrumpft zum Winter hin um 15 bis zu 20 Prozent und wächst danach wieder. So kommen die Tiere besser durch die Zeit mit wenig Nahrung.",
+    "difficulty": 3,
+    "tags": [
+      "Säugetiere",
+      "Winter",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Waldspitzmaus",
+    "source_url": "https://de.wikipedia.org/wiki/Waldspitzmaus",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens to the common shrew's body as winter approaches?",
+        "options": [
+          "It shrinks by 15 to 20 percent",
+          "It doubles in size",
+          "It turns white",
+          "It loses its tail"
+        ],
+        "explanation": "Since 1949 the so-called Dehnel effect has been known: the common shrew's body shrinks by 15 to 20 percent towards winter and then grows again. This helps the animals get through the time when food is scarce."
+      }
+    }
+  },
+  {
+    "id": "ti159",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Farbe hat der Bauch des Bergmolchs?",
+    "options": [
+      "Weiß mit schwarzen Punkten",
+      "Leuchtend orange bis zinnoberrot",
+      "Grasgrün",
+      "Himmelblau"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Bergmolch ist die Bauchseite beider Geschlechter leuchtend orange bis zinnoberrot gefärbt – und anders als bei anderen Molcharten normalerweise ungefleckt. Der Bergmolch gehört zu den Schwanzlurchen.",
+    "difficulty": 2,
+    "tags": [
+      "Amphibien",
+      "Farben",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bergmolch",
+    "source_url": "https://de.wikipedia.org/wiki/Bergmolch",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour is the belly of the alpine newt?",
+        "options": [
+          "White with black dots",
+          "Bright orange to vermilion",
+          "Grass green",
+          "Sky blue"
+        ],
+        "explanation": "In the alpine newt, the belly of both sexes is bright orange to vermilion – and, unlike other newt species, usually without spots. The alpine newt belongs to the tailed amphibians."
+      }
+    }
+  },
+  {
+    "id": "ti160",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist an der Kreuzotter unter allen Schlangen besonders?",
+    "options": [
+      "Sie hat Beine",
+      "Sie kann fliegen",
+      "Sie lebt nur in Wüsten",
+      "Sie lebt auch nördlich des Polarkreises"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Kreuzotter ist eine kleine bis mittelgroße Giftschlange aus der Familie der Vipern. Sie hat von allen Vipern das größte und nördlichste Verbreitungsgebiet und ist die einzige Schlangenart, die man auch nördlich des Polarkreises findet. Typisch ist ein dunkles Zickzackband auf dem Rücken.",
+    "difficulty": 2,
+    "tags": [
+      "Reptilien",
+      "Schlangen",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreuzotter",
+    "source_url": "https://de.wikipedia.org/wiki/Kreuzotter",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the adder among all snakes?",
+        "options": [
+          "It has legs",
+          "It can fly",
+          "It lives only in deserts",
+          "It also lives north of the Arctic Circle"
+        ],
+        "explanation": "The adder is a small to medium-sized venomous snake of the viper family. Of all vipers it has the largest and most northerly range and is the only snake species also found north of the Arctic Circle. A dark zigzag band on its back is typical."
+      }
+    }
+  },
+  {
+    "id": "ti161",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was macht eine Ringelnatter manchmal, wenn sie bedroht wird?",
+    "options": [
+      "Sie stellt sich tot",
+      "Sie springt auf einen Baum",
+      "Sie bellt",
+      "Sie wechselt die Farbe"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei Gefahr kann man bei der Ringelnatter das Totstellen beobachten: Sie liegt völlig schlaff mit geöffnetem Maul auf dem Rücken. Die Ringelnatter ist für Menschen völlig ungefährlich und frisst vor allem Amphibien.",
+    "difficulty": 2,
+    "tags": [
+      "Reptilien",
+      "Schlangen",
+      "Verteidigung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ringelnatter",
+    "source_url": "https://de.wikipedia.org/wiki/Ringelnatter",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a grass snake sometimes do when threatened?",
+        "options": [
+          "It plays dead",
+          "It jumps onto a tree",
+          "It barks",
+          "It changes colour"
+        ],
+        "explanation": "When in danger, the grass snake can be seen playing dead: it lies completely limp on its back with its mouth open. The grass snake is completely harmless to humans and mainly eats amphibians."
+      }
+    }
+  },
+  {
+    "id": "ti162",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wofür hielt man in alten Sagen die gelben Flecken im Nacken der Ringelnatter?",
+    "options": [
+      "Für Sonnenstrahlen",
+      "Für eine goldene Schlangenkrone",
+      "Für Honig",
+      "Für Goldmünzen"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Ringelnatter hat im Nacken meist zwei gelbe Flecken, die hinten von halbmondförmigen schwarzen Flecken begrenzt werden. In Sagen deutete man diese Mondflecken als goldene Schlangenkrone, deren Besitz lebenslanges Glück bringen sollte.",
+    "difficulty": 2,
+    "tags": [
+      "Reptilien",
+      "Sagen",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ringelnatter",
+    "source_url": "https://de.wikipedia.org/wiki/Ringelnatter",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In old legends, what were the yellow patches on the grass snake's neck thought to be?",
+        "options": [
+          "Sunbeams",
+          "A golden snake crown",
+          "Honey",
+          "Gold coins"
+        ],
+        "explanation": "The grass snake usually has two yellow patches on its neck, bordered behind by crescent-shaped black patches. In legends these patches were interpreted as a golden snake crown, whose owner was supposed to have lifelong luck."
+      }
+    }
+  },
+  {
+    "id": "ti163",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Farbe zeigen männliche Zauneidechsen zur Paarungszeit an den Seiten?",
+    "options": [
+      "Rot",
+      "Blau",
+      "Grün",
+      "Schwarz"
+    ],
+    "correct_index": 2,
+    "explanation": "Männliche Zauneidechsen haben zur Paarungszeit bis etwa Juni oder Juli grün gefärbte Kopf-, Rumpf- und Bauchseiten. In Südwestdeutschland gibt es sogar Tiere, die fast ganz grün aussehen.",
+    "difficulty": 1,
+    "tags": [
+      "Reptilien",
+      "Farben",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zauneidechse",
+    "source_url": "https://de.wikipedia.org/wiki/Zauneidechse",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour do male sand lizards show on their sides in the mating season?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Black"
+        ],
+        "explanation": "In the mating season, until about June or July, male sand lizards have green sides of the head, body and belly. In south-western Germany there are even animals that look almost entirely green."
+      }
+    }
+  },
+  {
+    "id": "ti164",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wohin wandern Erdkröten im Frühjahr oft in großen Mengen?",
+    "options": [
+      "In Höhlen zum Schlafen",
+      "Ans Meer",
+      "In die Berge",
+      "Vom Winterquartier zum Laichgewässer"
+    ],
+    "correct_index": 3,
+    "explanation": "Erdkröten wandern im Frühjahr, meist im März, oft massenhaft vom Winterquartier zu ihrem Laichgewässer, etwa zu Weihern, Teichen und Seen. Bei spätem Frost graben sie sich ein und warten.",
+    "difficulty": 1,
+    "tags": [
+      "Amphibien",
+      "Frühling",
+      "Wanderung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erdkröte",
+    "source_url": "https://de.wikipedia.org/wiki/Erdkröte",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do common toads often migrate in large numbers in spring?",
+        "options": [
+          "Into caves to sleep",
+          "To the sea",
+          "Into the mountains",
+          "From their winter quarters to the spawning pond"
+        ],
+        "explanation": "In spring, usually in March, common toads often migrate in large numbers from their winter quarters to their spawning waters, such as ponds and lakes. If there is a late frost, they dig in and wait."
+      }
+    }
+  },
+  {
+    "id": "ti165",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was zeigt die Gelbbauchunke bei Gefahr mit der „Kahnstellung“?",
+    "options": [
+      "Ihren leuchtend gelben Bauch als Warnung",
+      "Ihre scharfen Zähne",
+      "Ihre langen Krallen",
+      "Ihre Flügel"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei Gefahr macht die Gelbbauchunke manchmal ein Hohlkreuz, sodass die Ränder ihres gelben Bauchs von oben sichtbar werden (Unkenreflex). Die Warnfarbe soll Fressfeinde vor ihrem Hautgift warnen.",
+    "difficulty": 2,
+    "tags": [
+      "Amphibien",
+      "Warnfarbe",
+      "Verteidigung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gelbbauchunke",
+    "source_url": "https://de.wikipedia.org/wiki/Gelbbauchunke",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the yellow-bellied toad show with its “boat posture” when in danger?",
+        "options": [
+          "Its bright yellow belly as a warning",
+          "Its sharp teeth",
+          "Its long claws",
+          "Its wings"
+        ],
+        "explanation": "When in danger, the yellow-bellied toad sometimes arches its back so that the edges of its yellow belly become visible from above (unken reflex). The warning colour is meant to warn predators of its skin poison."
+      }
+    }
+  },
+  {
+    "id": "ti166",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum nannte man den Pirol früher auch „Pfingstvogel“?",
+    "options": [
+      "Weil er nur an Pfingsten singt",
+      "Weil er meist erst im Mai in Mitteleuropa eintrifft",
+      "Weil er Pfingstrosen frisst",
+      "Weil er weiß ist"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Pirol ist ein Singvogel; die Männchen sind leuchtend gelb. Er überwintert im südlichen Afrika und kommt meist erst im Mai nach Mitteleuropa – daher hieß er im Volksmund auch Pfingstvogel, außerdem Vogel Bülow und Goldamsel.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Zugvögel",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pirol",
+    "source_url": "https://de.wikipedia.org/wiki/Pirol",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why was the golden oriole once also called the “Pentecost bird”?",
+        "options": [
+          "Because it only sings at Pentecost",
+          "Because it usually only arrives in central Europe in May",
+          "Because it eats peonies",
+          "Because it is white"
+        ],
+        "explanation": "The golden oriole is a songbird; the males are bright yellow. It winters in southern Africa and usually only arrives in central Europe in May – which is why it was popularly called the Pentecost bird, and also “Vogel Bülow” and golden blackbird."
+      }
+    }
+  },
+  {
+    "id": "ti167",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woher hat der Kleiber seinen Namen?",
+    "options": [
+      "Er frisst Klebstoff",
+      "Er klebt an Fenstern",
+      "Er verklebt Eingänge von Bruthöhlen mit Lehm",
+      "Er klebt Federn zusammen"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Kleiber verklebt den Eingang von Bruthöhlen anderer Vögel, etwa von Spechten, mit Lehm, um sie selbst zu nutzen. Sein Name kommt vom mittelhochdeutschen „kleiben“ (fest heften, schmieren, kleben).",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Nester",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleiber (Art)",
+    "source_url": "https://de.wikipedia.org/wiki/Kleiber (Art)",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the nuthatch's German name “Kleiber” come from?",
+        "options": [
+          "It eats glue",
+          "It sticks to windows",
+          "It seals nest-hole entrances with mud",
+          "It glues feathers together"
+        ],
+        "explanation": "The nuthatch seals the entrance of other birds' nest holes, for example woodpeckers', with mud in order to use them itself. Its German name comes from Middle High German “kleiben” (to fasten, smear, glue)."
+      }
+    }
+  },
+  {
+    "id": "ti168",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was kann der Kleiber im Gegensatz zu Spechten am Baumstamm?",
+    "options": [
+      "Rückwärts fliegen",
+      "Löcher ins Holz hämmern",
+      "Sich mit dem Schwanz abstützen",
+      "Kopfüber nach unten klettern"
+    ],
+    "correct_index": 3,
+    "explanation": "Im Gegensatz zu Baumläufern und Spechten kann der Kleiber kopfüber klettern. Er setzt einen Fuß vor und krallt sich mit dem anderen fest – er „läuft“ also am Stamm, während Spechte sich mit dem Schwanz abstützen.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Klettern",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kleiber (Art)",
+    "source_url": "https://de.wikipedia.org/wiki/Kleiber (Art)",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What can the nuthatch do on a tree trunk, unlike woodpeckers?",
+        "options": [
+          "Fly backwards",
+          "Hammer holes into wood",
+          "Prop itself up with its tail",
+          "Climb down head first"
+        ],
+        "explanation": "Unlike treecreepers and woodpeckers, the nuthatch can climb head first. It puts one foot forward and clings on with the other – so it “walks” on the trunk, while woodpeckers prop themselves up with their tails."
+      }
+    }
+  },
+  {
+    "id": "ti169",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie wurde der Zaunkönig lange Zeit auch genannt, weil er sogar im Winter singt?",
+    "options": [
+      "Schneekönig",
+      "Eiskönig",
+      "Winterprinz",
+      "Frostfink"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Zaunkönig ist nach Winter- und Sommergoldhähnchen der drittkleinste Vogel Europas. Lange Zeit nannte man ihn Schneekönig, weil er auch im Winter lebhaft singt.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Winter",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zaunkönig",
+    "source_url": "https://de.wikipedia.org/wiki/Zaunkönig",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the wren long called because it sings even in winter?",
+        "options": [
+          "Snow king",
+          "Ice king",
+          "Winter prince",
+          "Frost finch"
+        ],
+        "explanation": "After the goldcrest and firecrest, the wren is the third smallest bird in Europe. For a long time it was called the snow king because it sings lively even in winter."
+      }
+    }
+  },
+  {
+    "id": "ti170",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wann beginnt das Rotkehlchen morgens zu singen?",
+    "options": [
+      "Nur um Mitternacht",
+      "Erst zur Mittagszeit",
+      "Etwa eine Stunde vor Sonnenaufgang",
+      "Es singt nie"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Gesang des Rotkehlchens beginnt etwa eine Stunde vor Sonnenaufgang und ist bis in die Dämmerung fast das ganze Jahr über zu hören. Es frisst vor allem Insekten, kleine Spinnen, Würmer und Schnecken.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Gesang",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rotkehlchen",
+    "source_url": "https://de.wikipedia.org/wiki/Rotkehlchen",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When does the robin start singing in the morning?",
+        "options": [
+          "Only at midnight",
+          "Only at noon",
+          "About an hour before sunrise",
+          "It never sings"
+        ],
+        "explanation": "The robin's song begins about an hour before sunrise and can be heard until dusk almost all year round. It mainly eats insects, small spiders, worms and snails."
+      }
+    }
+  },
+  {
+    "id": "ti171",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum heißt der Gimpel auch „Dompfaff“?",
+    "options": [
+      "Er wurde von Mönchen gezüchtet",
+      "Er brütet nur in Domen",
+      "Er pfeift Kirchenlieder",
+      "Seine Gestalt mit rotem Gewand und schwarzer Kappe erinnerte an einen Domherrn"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Gimpel ist ein Fink. Den Namen Dompfaff bekam er, weil manche Leute seine behäbige Gestalt mit dem roten Gewand und der schwarzen Kappe mit einem Domherrn verbanden. Andere Namen sind Blutfink und Rotgimpel.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Wörter",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gimpel (Art)",
+    "source_url": "https://de.wikipedia.org/wiki/Gimpel (Art)",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the bullfinch also called “Dompfaff” in German?",
+        "options": [
+          "It was bred by monks",
+          "It only nests in cathedrals",
+          "It whistles hymns",
+          "Its shape with red robe and black cap reminded people of a cathedral canon"
+        ],
+        "explanation": "The bullfinch is a finch. It got the name Dompfaff because some people associated its stocky shape with the red robe and black cap with a cathedral canon (Domherr). Other names are blood finch and red bullfinch."
+      }
+    }
+  },
+  {
+    "id": "ti172",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie wird der Stieglitz auch genannt?",
+    "options": [
+      "Distelfink",
+      "Rosenfink",
+      "Nesselspatz",
+      "Kleemeise"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Stieglitz, auch Distelfink genannt, gehört zur Familie der Finken. Er frisst halbreife und reife Samen von Stauden, Wiesenpflanzen und Bäumen.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Wörter",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stieglitz",
+    "source_url": "https://de.wikipedia.org/wiki/Stieglitz",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the goldfinch also called in German?",
+        "options": [
+          "Distelfink (thistle finch)",
+          "Rosenfink (rose finch)",
+          "Nesselspatz (nettle sparrow)",
+          "Kleemeise (clover tit)"
+        ],
+        "explanation": "The goldfinch, also called “Distelfink” (thistle finch) in German, belongs to the finch family. It eats half-ripe and ripe seeds of perennials, meadow plants and trees."
+      }
+    }
+  },
+  {
+    "id": "ti173",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was legt der Eichelhäher vor dem Winter an?",
+    "options": [
+      "Ein Nest aus Schnee",
+      "Vorräte aus Eicheln und anderen Nüssen",
+      "Eine Höhle im Boden",
+      "Einen Teich"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Eichelhäher frisst im Sommer vor allem tierische, im Winter vor allem pflanzliche Nahrung. Vor dem Winter legt er umfangreiche Vorräte aus Eicheln und anderen Nussfrüchten an.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Vorräte",
+      "Wald"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eichelhäher",
+    "source_url": "https://de.wikipedia.org/wiki/Eichelhäher",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the jay put aside before winter?",
+        "options": [
+          "A nest of snow",
+          "Stores of acorns and other nuts",
+          "A hole in the ground",
+          "A pond"
+        ],
+        "explanation": "In summer the jay mainly eats animal food, in winter mainly plant food. Before winter it lays in large stores of acorns and other nuts."
+      }
+    }
+  },
+  {
+    "id": "ti174",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welcher ist der mit Abstand größte europäische Rabenvogel?",
+    "options": [
+      "Die Dohle",
+      "Die Elster",
+      "Der Kolkrabe",
+      "Der Eichelhäher"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Kolkrabe ist ein Singvogel – und mit einer Körperlänge von 54 bis 67 cm größer als ein Mäusebussard und der mit Abstand größte europäische Rabenvogel.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Rekorde",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kolkrabe",
+    "source_url": "https://de.wikipedia.org/wiki/Kolkrabe",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is by far the largest European crow?",
+        "options": [
+          "The jackdaw",
+          "The magpie",
+          "The common raven",
+          "The jay"
+        ],
+        "explanation": "The common raven is a songbird – and with a body length of 54 to 67 cm it is larger than a buzzard and by far the largest European member of the crow family."
+      }
+    }
+  },
+  {
+    "id": "ti175",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welcher Göttin war der Steinkauz im antiken Griechenland als Sinnbild zugeordnet?",
+    "options": [
+      "Artemis",
+      "Aphrodite",
+      "Hera",
+      "Athene"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Steinkauz, wissenschaftlich Athene noctua, galt schon im antiken Griechenland als Vogel der Weisheit und als Sinnbild der Göttin Athene.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Eulen",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Steinkauz",
+    "source_url": "https://de.wikipedia.org/wiki/Steinkauz",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which goddess was the little owl a symbol of in ancient Greece?",
+        "options": [
+          "Artemis",
+          "Aphrodite",
+          "Hera",
+          "Athena"
+        ],
+        "explanation": "The little owl, scientifically Athene noctua, was already considered the bird of wisdom in ancient Greece and a symbol of the goddess Athena."
+      }
+    }
+  },
+  {
+    "id": "ti176",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wonach ist der Höckerschwan benannt?",
+    "options": [
+      "Nach dem schwarzen Höcker am Schnabel",
+      "Nach einem Buckel auf dem Rücken",
+      "Nach seinem Lieblingsplatz auf Hügeln",
+      "Nach seinem Ruf"
+    ],
+    "correct_index": 0,
+    "explanation": "Namensgebend für den Höckerschwan ist der schwarze Höcker am Schnabelansatz. Er lebt auf Seen, Park- und Fischteichen und im Winter auch auf offenen Flüssen.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Wasser",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Höckerschwan",
+    "source_url": "https://de.wikipedia.org/wiki/Höckerschwan",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the mute swan's German name (“Höckerschwan”, knob swan) based on?",
+        "options": [
+          "The black knob on its beak",
+          "A hump on its back",
+          "Its favourite spot on hills",
+          "Its call"
+        ],
+        "explanation": "The mute swan's German name comes from the black knob at the base of its beak. It lives on lakes, park and fish ponds and in winter also on open rivers."
+      }
+    }
+  },
+  {
+    "id": "ti177",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie wird der Graureiher auch genannt?",
+    "options": [
+      "Froschstorch",
+      "Fischreiher",
+      "Teichkranich",
+      "Wasserpfau"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Graureiher, auch Fischreiher genannt, brütet in Eurasien sowie in Ost- und im südlichen Afrika.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Wasser",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Graureiher",
+    "source_url": "https://de.wikipedia.org/wiki/Graureiher",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the grey heron also called in German?",
+        "options": [
+          "Froschstorch (frog stork)",
+          "Fischreiher (fish heron)",
+          "Teichkranich (pond crane)",
+          "Wasserpfau (water peacock)"
+        ],
+        "explanation": "The grey heron, also called “Fischreiher” (fish heron) in German, breeds in Eurasia as well as in eastern and southern Africa."
+      }
+    }
+  },
+  {
+    "id": "ti178",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie wird der Europäische Iltis auch genannt?",
+    "options": [
+      "Kleiner Dachs",
+      "Waldkatze",
+      "Wildes Frettchen",
+      "Baumfuchs"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Europäische Iltis ist ein Raubtier aus der Familie der Marder. Man nennt ihn auch Europäisches oder wildes Frettchen, außerdem Ratz oder Stänker.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Wörter",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäischer Iltis",
+    "source_url": "https://de.wikipedia.org/wiki/Europäischer Iltis",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the European polecat also called?",
+        "options": [
+          "Little badger",
+          "Forest cat",
+          "Wild ferret",
+          "Tree fox"
+        ],
+        "explanation": "The European polecat is a predator of the marten family. It is also called the European or wild ferret, and in German also “Ratz” or “Stänker”."
+      }
+    }
+  },
+  {
+    "id": "eg103",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was nennt man „Toteis“?",
+    "options": [
+      "Gefrorenes Meerwasser",
+      "Eis in der Tiefkühltruhe",
+      "Eis, das nie schmilzt",
+      "Gletschereis, das nicht mehr mit dem Gletscher verbunden ist"
+    ],
+    "correct_index": 3,
+    "explanation": "Toteis ist Gletschereis, das nicht mehr mit dem aktiven Gletscher verbunden ist. Es bewegt sich daher nicht mehr und ist meist mit Sedimenten bedeckt.",
+    "difficulty": 2,
+    "tags": [
+      "Gletscher",
+      "Eis",
+      "Landschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Toteis",
+    "source_url": "https://de.wikipedia.org/wiki/Toteis",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is called “dead ice”?",
+        "options": [
+          "Frozen sea water",
+          "Ice in a freezer",
+          "Ice that never melts",
+          "Glacier ice no longer connected to the glacier"
+        ],
+        "explanation": "Dead ice is glacier ice that is no longer connected to the active glacier. It therefore no longer moves and is usually covered with sediment."
+      }
+    }
+  },
+  {
+    "id": "eg104",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wann sind Gletscherspalten für Bergsteiger besonders gefährlich?",
+    "options": [
+      "Wenn Schnee sie bedeckt und man sie nicht sieht",
+      "Wenn die Sonne scheint",
+      "Wenn sie sehr schmal sind",
+      "Nur nachts im Sommer"
+    ],
+    "correct_index": 0,
+    "explanation": "Gletscherspalten entstehen, wenn der stetige Fluss des Eises gestört wird, etwa durch Felserhebungen unter dem Eis. Besonders gefährlich sind sie bei Schneebedeckung, wenn man sie nicht sieht; sichtbar sind sie meist nur auf Gletschern ohne Schneeauflage.",
+    "difficulty": 1,
+    "tags": [
+      "Gletscher",
+      "Berge",
+      "Gefahr"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gletscherspalte",
+    "source_url": "https://de.wikipedia.org/wiki/Gletscherspalte",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When are crevasses particularly dangerous for mountaineers?",
+        "options": [
+          "When snow covers them and they cannot be seen",
+          "When the sun shines",
+          "When they are very narrow",
+          "Only at night in summer"
+        ],
+        "explanation": "Crevasses form when the steady flow of ice is disturbed, for example by rock bumps under the ice. They are particularly dangerous when covered with snow and cannot be seen; they are usually only visible on glaciers without a snow cover."
+      }
+    }
+  },
+  {
+    "id": "eg105",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wie nennt man Gletschertöpfe auch?",
+    "options": [
+      "Zwergtöpfe",
+      "Riesentöpfe",
+      "Eiskessel",
+      "Felsschüsseln"
+    ],
+    "correct_index": 1,
+    "explanation": "Gletschertöpfe oder Riesentöpfe sind topf- oder schachtartige Vertiefungen im Fels. Sie entstehen durch Schmelzwasser, das durch Gletscherspalten und Gletschermühlen zum Gletscherbett fließt und dort Wirbel bildet.",
+    "difficulty": 2,
+    "tags": [
+      "Gletscher",
+      "Wasser",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gletschertopf",
+    "source_url": "https://de.wikipedia.org/wiki/Gletschertopf",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are glacial potholes also called in German?",
+        "options": [
+          "Zwergtöpfe (dwarfs' pots)",
+          "Riesentöpfe (giants' pots)",
+          "Eiskessel (ice kettles)",
+          "Felsschüsseln (rock bowls)"
+        ],
+        "explanation": "Glacial potholes, also called giants' pots, are pot- or shaft-like hollows in rock. They form from meltwater that flows through crevasses and glacier mills to the glacier bed and forms whirlpools there."
+      }
+    }
+  },
+  {
+    "id": "eg106",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was schafft eine Gletschermühle im Eis?",
+    "options": [
+      "Tiere",
+      "Wind",
+      "Abfließendes Schmelzwasser",
+      "Menschen mit Bohrern"
+    ],
+    "correct_index": 2,
+    "explanation": "Gletschermühlen sind spiralwandige Hohlformen im Eis. Sie entstehen durch Schmelzwasser, das an der Gletscheroberfläche oder in Spalten abfließt. Es versetzt Gesteinstrümmer in kreisende Bewegung, die die Mühle erweitern und dabei selbst rundgeschliffen werden.",
+    "difficulty": 3,
+    "tags": [
+      "Gletscher",
+      "Wasser",
+      "Eis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gletschermühle",
+    "source_url": "https://de.wikipedia.org/wiki/Gletschermühle",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What creates a glacier mill (moulin) in the ice?",
+        "options": [
+          "Animals",
+          "Wind",
+          "Draining meltwater",
+          "People with drills"
+        ],
+        "explanation": "Glacier mills are spiral-walled hollows in the ice. They form from meltwater that drains on the glacier surface or in crevasses. It sets rock fragments spinning, which widen the mill and are themselves ground round."
+      }
+    }
+  },
+  {
+    "id": "eg107",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was fließt aus dem Gletschertor?",
+    "options": [
+      "Erdöl",
+      "Lava",
+      "Salzwasser",
+      "Schmelzwasser, die sogenannte Gletschermilch"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Gletschertor ist der meist halbrunde Ausgang am Ende der Gletscherzunge. Aus ihm fließt der Schmelzwasserstrom, die sogenannte Gletschermilch.",
+    "difficulty": 2,
+    "tags": [
+      "Gletscher",
+      "Wasser",
+      "Flüsse"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gletschertor",
+    "source_url": "https://de.wikipedia.org/wiki/Gletschertor",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What flows out of a glacier portal?",
+        "options": [
+          "Crude oil",
+          "Lava",
+          "Salt water",
+          "Meltwater, known as glacier milk"
+        ],
+        "explanation": "The glacier portal is the usually semicircular exit at the end of the glacier tongue. The meltwater stream flows out of it – known as glacier milk."
+      }
+    }
+  },
+  {
+    "id": "eg108",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist ein Nunatak?",
+    "options": [
+      "Ein Fels oder Berg, der aus dem Gletschereis ragt",
+      "Ein Iglu der Inuit",
+      "Ein gefrorener See",
+      "Ein Schlitten"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Nunatak ist ein isolierter Felsen oder Berg, der über die Oberfläche von Gletschern oder Inlandeis hinausragt. Das Wort stammt aus Sprachen der Inuit und Grönlands und bedeutet wörtlich „das aus Land gemachte“.",
+    "difficulty": 3,
+    "tags": [
+      "Gletscher",
+      "Berge",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nunatak",
+    "source_url": "https://de.wikipedia.org/wiki/Nunatak",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a nunatak?",
+        "options": [
+          "A rock or mountain sticking out of glacier ice",
+          "An Inuit igloo",
+          "A frozen lake",
+          "A sled"
+        ],
+        "explanation": "A nunatak is an isolated rock or mountain that rises above the surface of glaciers or ice sheets. The word comes from Inuit and Greenlandic languages and literally means “that which is made of land”."
+      }
+    }
+  },
+  {
+    "id": "eg109",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wodurch entstanden Urstromtäler in Mitteleuropa?",
+    "options": [
+      "Durch Meteoriteneinschläge",
+      "Durch Schmelzwasser am Rand des Eises in den Eiszeiten",
+      "Durch Erdbeben",
+      "Durch Kanalbau"
+    ],
+    "correct_index": 1,
+    "explanation": "Urstromtäler sind breite Talniederungen in Mitteleuropa. Sie entstanden in den Eiszeiten am Rand des skandinavischen Inlandeises oder der Alpengletscher, weil das Schmelzwasser parallel zum Eisrand abfloss.",
+    "difficulty": 3,
+    "tags": [
+      "Eiszeit",
+      "Täler",
+      "Landschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Urstromtal",
+    "source_url": "https://de.wikipedia.org/wiki/Urstromtal",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did glacial valleys (“Urstromtäler”) form in central Europe?",
+        "options": [
+          "From meteorite impacts",
+          "From meltwater at the edge of the ice during the ice ages",
+          "From earthquakes",
+          "From canal building"
+        ],
+        "explanation": "Urstromtäler are wide valley lowlands in central Europe. They formed during the ice ages at the edge of the Scandinavian ice sheet or the Alpine glaciers because meltwater drained parallel to the ice margin."
+      }
+    }
+  },
+  {
+    "id": "eg110",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist Solifluktion?",
+    "options": [
+      "Das Austrocknen eines Sees",
+      "Ein Sonnensturm",
+      "Ein schneller Bergsturz",
+      "Langsames Fließen von Boden an Hängen bei Frost und Tauen"
+    ],
+    "correct_index": 3,
+    "explanation": "Solifluktion oder Bodenfließen ist eine langsame, großflächige Fließbewegung von lockerem Gesteinsmaterial im Oberboden an Hängen. Sie hängt mit dem Wechsel von Frost und Auftauen zusammen.",
+    "difficulty": 3,
+    "tags": [
+      "Boden",
+      "Frost",
+      "Hänge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Solifluktion",
+    "source_url": "https://de.wikipedia.org/wiki/Solifluktion",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is solifluction?",
+        "options": [
+          "A lake drying out",
+          "A solar storm",
+          "A fast rockfall",
+          "Slow flowing of soil on slopes with freezing and thawing"
+        ],
+        "explanation": "Solifluction or soil flow is a slow, large-scale flowing movement of loose rock material in the topsoil on slopes. It is linked to the alternation of freezing and thawing."
+      }
+    }
+  },
+  {
+    "id": "eg111",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist ein Erg?",
+    "options": [
+      "Ein großes Sandmeer in der Wüste",
+      "Ein Salzsee",
+      "Ein Gebirge aus Fels",
+      "Eine Oase"
+    ],
+    "correct_index": 0,
+    "explanation": "Als Erg (arabisch für „Dünenmeer“) bezeichnet man große Sandmeere und Dünenfelder in Wüsten. Ergs machen etwa 20 Prozent der Wüstengebiete aus; manche Dünen sind über 300 m hoch.",
+    "difficulty": 2,
+    "tags": [
+      "Wüste",
+      "Sand",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Erg (Wüste)",
+    "source_url": "https://de.wikipedia.org/wiki/Erg (Wüste)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an erg?",
+        "options": [
+          "A large sand sea in the desert",
+          "A salt lake",
+          "A rocky mountain range",
+          "An oasis"
+        ],
+        "explanation": "An erg (Arabic for “sea of dunes”) is a large sand sea or dune field in a desert. Ergs make up about 20 percent of desert areas; some dunes are over 300 m high."
+      }
+    }
+  },
+  {
+    "id": "eg112",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wodurch entstehen Pilzfelsen in Wüsten?",
+    "options": [
+      "Durch Regen von oben",
+      "Durch Sand, den der Wind in Bodennähe gegen den Fels schleift",
+      "Durch Pilze, die auf dem Fels wachsen",
+      "Durch Menschen, die sie behauen"
+    ],
+    "correct_index": 1,
+    "explanation": "Pilzfelsen sind einzeln stehende Felsen mit schmalem Fuß und breitem Oberteil. In trockenem Klima entstehen sie durch bodennahen Windschliff: Sandstürme schleifen den Fels unten stärker ab als oben.",
+    "difficulty": 2,
+    "tags": [
+      "Wüste",
+      "Wind",
+      "Gestein"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pilzfelsen",
+    "source_url": "https://de.wikipedia.org/wiki/Pilzfelsen",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do mushroom rocks form in deserts?",
+        "options": [
+          "Rain from above",
+          "Wind-blown sand grinds the rock near the ground",
+          "Mushrooms growing on the rock",
+          "People carving them"
+        ],
+        "explanation": "Mushroom rocks are free-standing rocks with a narrow foot and a wide top. In dry climates they form through wind abrasion near the ground: sandstorms grind away the rock more at the bottom than at the top."
+      }
+    }
+  },
+  {
+    "id": "eg113",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was ist Wüstenlack?",
+    "options": [
+      "Ein Öl aus der Wüste",
+      "Ein Farbstoff aus Kakteen",
+      "Ein dunkler, glänzender Überzug auf Gestein in Wüsten",
+      "Ein Lack für Kamelsättel"
+    ],
+    "correct_index": 2,
+    "explanation": "Wüstenlack ist ein dunkler, manchmal glänzender Überzug vor allem aus Tonmineralen, den Eisen- und Manganoxide zusammenhalten. Er kommt vor allem auf Sandstein in Wüsten vor – nur dort, wo das Gestein nicht vom Wind abgetragen wird.",
+    "difficulty": 3,
+    "tags": [
+      "Wüste",
+      "Gestein",
+      "Farben"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wüstenlack",
+    "source_url": "https://de.wikipedia.org/wiki/Wüstenlack",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is desert varnish?",
+        "options": [
+          "An oil from the desert",
+          "A dye from cacti",
+          "A dark, shiny coating on rock in deserts",
+          "A varnish for camel saddles"
+        ],
+        "explanation": "Desert varnish is a dark, sometimes shiny coating mainly of clay minerals held together by iron and manganese oxides. It occurs mainly on sandstone in deserts – only where the rock is not worn away by wind."
+      }
+    }
+  },
+  {
+    "id": "eg114",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Woran erkennt man einen Schichtvulkan?",
+    "options": [
+      "An seinem eisbedeckten Krater",
+      "An seiner ganz flachen Form",
+      "Daran, dass er unter Wasser liegt",
+      "An seiner relativ steilen, spitzkegeligen Form"
+    ],
+    "correct_index": 3,
+    "explanation": "Schichtvulkane (Stratovulkane, von lateinisch „stratum“, „Schicht“) bestehen aus einzelnen Schichten von Lava und Lockermassen. Man erkennt sie an ihrer relativ steilen, spitzkegeligen Form.",
+    "difficulty": 2,
+    "tags": [
+      "Vulkane",
+      "Berge",
+      "Formen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schichtvulkan",
+    "source_url": "https://de.wikipedia.org/wiki/Schichtvulkan",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you recognise a stratovolcano?",
+        "options": [
+          "By its ice-covered crater",
+          "By its very flat shape",
+          "By being under water",
+          "By its fairly steep, pointed cone shape"
+        ],
+        "explanation": "Stratovolcanoes (from Latin “stratum”, “layer”) are built up of individual layers of lava and loose material. They can be recognised by their fairly steep, pointed cone shape."
+      }
+    }
+  },
+  {
+    "id": "eg115",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was bedeutet das spanische Wort „caldera“?",
+    "options": [
+      "Kessel",
+      "Feuer",
+      "Berg",
+      "Asche"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Caldera (spanisch „caldera“, „Kessel“) ist eine kesselförmige Vertiefung vulkanischen Ursprungs. Mit 1 bis 100 km Durchmesser ist sie deutlich größer als ein gewöhnlicher Vulkankrater.",
+    "difficulty": 2,
+    "tags": [
+      "Vulkane",
+      "Wörter",
+      "Krater"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Caldera (Krater)",
+    "source_url": "https://de.wikipedia.org/wiki/Caldera (Krater)",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Spanish word “caldera” mean?",
+        "options": [
+          "Cauldron",
+          "Fire",
+          "Mountain",
+          "Ash"
+        ],
+        "explanation": "A caldera (Spanish “caldera”, “cauldron”) is a cauldron-shaped hollow of volcanic origin. With a diameter of 1 to 100 km, it is much larger than an ordinary volcanic crater."
+      }
+    }
+  },
+  {
+    "id": "eg116",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Wonach riecht es an einer Solfatare?",
+    "options": [
+      "Nach Rosen",
+      "Nach faulen Eiern",
+      "Nach frischem Brot",
+      "Nach gar nichts"
+    ],
+    "correct_index": 1,
+    "explanation": "Solfataren sind heiße vulkanische Gasaustritte, die vor allem Schwefelwasserstoff, Kohlenstoffdioxid und Wasserdampf enthalten. Der Schwefelwasserstoff ruft den unverwechselbaren Geruch nach faulen Eiern hervor.",
+    "difficulty": 2,
+    "tags": [
+      "Vulkane",
+      "Gase",
+      "Gerüche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Solfatare",
+    "source_url": "https://de.wikipedia.org/wiki/Solfatare",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does it smell like at a solfatara?",
+        "options": [
+          "Roses",
+          "Rotten eggs",
+          "Fresh bread",
+          "Nothing at all"
+        ],
+        "explanation": "Solfataras are hot volcanic gas vents containing mainly hydrogen sulphide, carbon dioxide and water vapour. The hydrogen sulphide causes the unmistakable smell of rotten eggs."
+      }
+    }
+  },
+  {
+    "id": "eg117",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Was formte ein Kar an einem Berghang?",
+    "options": [
+      "Ein Vulkan",
+      "Ein Fluss",
+      "Ein sehr kurzer Gletscher",
+      "Ein Erdrutsch"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Kar ist eine kesselförmige Eintiefung an Berghängen unterhalb von Gipfeln und Kämmen. Ausgeschürft wurde es von sehr kurzen Gletschern, den Kargletschern. Der Name kommt vom althochdeutschen „char“ (Trog, Krug).",
+    "difficulty": 3,
+    "tags": [
+      "Gletscher",
+      "Berge",
+      "Formen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kar (Talform)",
+    "source_url": "https://de.wikipedia.org/wiki/Kar (Talform)",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What shaped a cirque on a mountainside?",
+        "options": [
+          "A volcano",
+          "A river",
+          "A very short glacier",
+          "A landslide"
+        ],
+        "explanation": "A cirque is a bowl-shaped hollow on mountainsides below peaks and ridges. It was scooped out by very short glaciers, the cirque glaciers. The German name “Kar” comes from Old High German “char” (trough, jug)."
+      }
+    }
+  },
+  {
+    "id": "ws136",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was bezeichnet man heute als „Blue Moon“?",
+    "options": [
+      "Einen blau gefärbten Mond",
+      "Den zweiten Vollmond innerhalb eines Kalendermonats",
+      "Die Mondfinsternis",
+      "Den kleinsten Mond des Jupiters"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Blue Moon („Blauer Mond“) ist heute der zweite Vollmond innerhalb eines Monats im gregorianischen Kalender. Astronomisch hat das keinerlei Bedeutung – es ist eine zufällige Nebenerscheinung der Einteilung in Kalendermonate.",
+    "difficulty": 2,
+    "tags": [
+      "Mond",
+      "Kalender",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blue Moon (Kalender)",
+    "source_url": "https://de.wikipedia.org/wiki/Blue Moon (Kalender)",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is called a “blue moon” today?",
+        "options": [
+          "A blue-coloured moon",
+          "The second full moon within one calendar month",
+          "A lunar eclipse",
+          "Jupiter's smallest moon"
+        ],
+        "explanation": "A blue moon is today the second full moon within one month of the Gregorian calendar. It has no astronomical meaning at all – it is a random side effect of dividing the year into calendar months."
+      }
+    }
+  },
+  {
+    "id": "ws137",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wodurch unterscheiden sich Emissionsnebel von Reflexionsnebeln?",
+    "options": [
+      "Sie bestehen aus Eis",
+      "Sie sind kälter als null Grad",
+      "Sie senden selbst Licht aus",
+      "Sie sind unsichtbar"
+    ],
+    "correct_index": 2,
+    "explanation": "Emissionsnebel (lateinisch „emittere“, „aussenden“) sind Wolken aus interstellarem Gas, die Licht in verschiedenen Farben aussenden. Reflexionsnebel dagegen werfen nur eingestrahltes Licht zurück. Angeregt werden Emissionsnebel meist von energiereichem Licht benachbarter heißer Sterne.",
+    "difficulty": 3,
+    "tags": [
+      "Sterne",
+      "Nebel",
+      "Licht"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Emissionsnebel",
+    "source_url": "https://de.wikipedia.org/wiki/Emissionsnebel",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do emission nebulae differ from reflection nebulae?",
+        "options": [
+          "They are made of ice",
+          "They are colder than zero degrees",
+          "They give off light themselves",
+          "They are invisible"
+        ],
+        "explanation": "Emission nebulae (Latin “emittere”, “to send out”) are clouds of interstellar gas that emit light in various colours. Reflection nebulae, by contrast, only reflect light shining on them. Emission nebulae are usually excited by energetic light from nearby hot stars."
+      }
+    }
   }
 ]
