@@ -107502,5 +107502,1645 @@
         "explanation": "In Germany the farrier is officially called a “hoof-shoeing smith”; in Austria and Switzerland simply “hoof smith”. He trims and shoes animals' hooves and traditionally makes the horseshoes and nails himself."
       }
     }
+  },
+  {
+    "id": "kn149",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was bedeutet „Pietra dura“, der Name des Florentiner Mosaiks?",
+    "options": [
+      "Harter Stein",
+      "Bunter Würfel",
+      "Weißer Marmor",
+      "Feines Glas"
+    ],
+    "correct_index": 0,
+    "explanation": "Pietra dura heißt auf Italienisch „harter Stein“. Bei diesem „Florentiner Mosaik“ werden Bilder aus genau zugeschnittenen Plättchen harter Steine wie Achat, Jaspis oder Lapislazuli gelegt und spiegelglatt geschliffen – anders als beim klassischen Mosaik aus bunten Würfeln.",
+    "difficulty": 2,
+    "tags": [
+      "Kunsthandwerk",
+      "Mosaik",
+      "Italien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pietra dura",
+    "source_url": "https://de.wikipedia.org/wiki/Pietra dura",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “pietra dura”, the name of the Florentine mosaic, mean?",
+        "options": [
+          "Hard stone",
+          "Coloured cube",
+          "White marble",
+          "Fine glass"
+        ],
+        "explanation": "Pietra dura is Italian for “hard stone”. In this “Florentine mosaic”, pictures are made of precisely cut pieces of hard stones such as agate, jasper or lapis lazuli and polished mirror-smooth – unlike a classic mosaic of coloured cubes."
+      }
+    }
+  },
+  {
+    "id": "kn150",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist eine Tauschierung?",
+    "options": [
+      "Eine Malerei auf nassem Putz",
+      "Ein Muster aus Federn",
+      "Eine Einlage aus anderem Metall in Metall",
+      "Ein geknüpfter Teppich"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei einer Tauschierung werden Bunt- oder Edelmetalle als Einlagen in eine Metalloberfläche eingesetzt. Das Wort geht auf ein arabisches Wort für Färben oder Verzieren zurück. Erste Versuche gab es schon in der Bronzezeit, etwa auf der Himmelsscheibe von Nebra.",
+    "difficulty": 3,
+    "tags": [
+      "Kunsthandwerk",
+      "Metall",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tauschierung",
+    "source_url": "https://de.wikipedia.org/wiki/Tauschierung",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is damascening (Tauschierung)?",
+        "options": [
+          "Painting on wet plaster",
+          "A pattern made of feathers",
+          "An inlay of one metal in another",
+          "A knotted carpet"
+        ],
+        "explanation": "In damascening, non-ferrous or precious metals are set as inlays into a metal surface. The German word goes back to an Arabic word for dyeing or decorating. Early attempts date back to the Bronze Age, for example on the Nebra sky disc."
+      }
+    }
+  },
+  {
+    "id": "kn151",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Welche Farbe hat Niello, die Füllung eingravierter Zeichnungen auf Silber?",
+    "options": [
+      "Weiß",
+      "Rot",
+      "Blau",
+      "Schwarz"
+    ],
+    "correct_index": 3,
+    "explanation": "Niello ist eine Verzierung, meist auf Silber: Eingravierte oder geätzte Zeichnungen werden mit einer schwarzen Masse gefüllt. Das Wort kommt vom lateinischen „nigellus“, „schwärzlich“; althochdeutsch hieß es Blachmal, „Schwarzfleck“.",
+    "difficulty": 3,
+    "tags": [
+      "Kunsthandwerk",
+      "Metall",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Niello",
+    "source_url": "https://de.wikipedia.org/wiki/Niello",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour is niello, the filling of engraved designs on silver?",
+        "options": [
+          "White",
+          "Red",
+          "Blue",
+          "Black"
+        ],
+        "explanation": "Niello is a decoration, mostly on silver: engraved or etched designs are filled with a black compound. The word comes from Latin “nigellus”, “blackish”; in Old High German it was called “black spot”."
+      }
+    }
+  },
+  {
+    "id": "kn152",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was geschieht beim Ziselieren mit dem Metall?",
+    "options": [
+      "Es wird getrieben, nicht geschnitten",
+      "Es wird geschmolzen und gegossen",
+      "Es wird mit Farbe bemalt",
+      "Es wird zu Draht gezogen"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Ziselieren wird das Metall nicht geschnitten, sondern über einer weichen Unterlage getrieben oder gedrückt. Mit Hammer und Punzen entstehen so feine Muster in der Oberfläche.",
+    "difficulty": 3,
+    "tags": [
+      "Kunsthandwerk",
+      "Metall",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ziselieren",
+    "source_url": "https://de.wikipedia.org/wiki/Ziselieren",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What happens to the metal in chasing (Ziselieren)?",
+        "options": [
+          "It is hammered, not cut",
+          "It is melted and cast",
+          "It is painted",
+          "It is drawn into wire"
+        ],
+        "explanation": "In chasing, the metal is not cut but hammered or pressed over a soft base. With a hammer and punches, fine patterns are created in the surface."
+      }
+    }
+  },
+  {
+    "id": "kn153",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist eine Arabeske?",
+    "options": [
+      "Ein Kuppeldach",
+      "Ein Rankenornament",
+      "Ein Musikinstrument",
+      "Eine Gedichtform"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Arabeske – von italienisch „arabesco“, „maurisch, orientalisch“ – ist ein Rankenornament. So heißen sowohl die Akanthusranken der Renaissance als auch die stilisierten Blattranken der islamischen Kunst.",
+    "difficulty": 2,
+    "tags": [
+      "Ornament",
+      "Kunstgeschichte",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arabeske",
+    "source_url": "https://de.wikipedia.org/wiki/Arabeske",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an arabesque in art?",
+        "options": [
+          "A domed roof",
+          "A scrolling plant ornament",
+          "A musical instrument",
+          "A poetic form"
+        ],
+        "explanation": "The arabesque – from Italian “arabesco”, “Moorish, oriental” – is a scrolling plant ornament. The term covers both the acanthus scrolls of the Renaissance and the stylised leaf scrolls of Islamic art."
+      }
+    }
+  },
+  {
+    "id": "kn154",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was hat eine Kassettendecke an ihrer Unterseite?",
+    "options": [
+      "Ein großes Loch",
+      "Hängende Kristalle",
+      "Kastenförmige Vertiefungen",
+      "Eingebaute Lampen"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Kassettendecke hat an ihrer Unterseite regelmäßig angeordnete, kastenförmige Vertiefungen, die Kassetten. Sie entstehen durch sich kreuzende Rippen oder Balken. Im Pantheon in Rom machte diese Bauweise die Decke auch leichter.",
+    "difficulty": 2,
+    "tags": [
+      "Architektur",
+      "Rom",
+      "Bauen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kassettendecke",
+    "source_url": "https://de.wikipedia.org/wiki/Kassettendecke",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a coffered ceiling have on its underside?",
+        "options": [
+          "A large hole",
+          "Hanging crystals",
+          "Box-shaped recesses",
+          "Built-in lamps"
+        ],
+        "explanation": "A coffered ceiling has box-shaped recesses, the coffers, arranged regularly on its underside. They are formed by crossing ribs or beams. In the Pantheon in Rome, this construction also made the ceiling lighter."
+      }
+    }
+  },
+  {
+    "id": "kn155",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist in alten Büchern eine Initiale?",
+    "options": [
+      "Ein Lesezeichen",
+      "Das letzte Wort",
+      "Eine Seitenzahl",
+      "Ein großer, verzierter Anfangsbuchstabe"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Initiale ist ein vergrößerter und meist verzierter Anfangsbuchstabe, in der Regel ein Großbuchstabe. In handgeschriebenen Büchern wurden Initialen oft reich verziert. Auch die Anfangsbuchstaben eines Namens heißen Initialen.",
+    "difficulty": 1,
+    "tags": [
+      "Buchkunst",
+      "Schrift",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Initiale",
+    "source_url": "https://de.wikipedia.org/wiki/Initiale",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an initial in old books?",
+        "options": [
+          "A bookmark",
+          "The last word",
+          "A page number",
+          "A large, decorated first letter"
+        ],
+        "explanation": "An initial is an enlarged and usually decorated first letter, normally a capital. In handwritten books, initials were often richly decorated. The first letters of a name are also called initials."
+      }
+    }
+  },
+  {
+    "id": "kn156",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist Stuckmarmor?",
+    "options": [
+      "Eine Nachahmung von echtem Marmor",
+      "Besonders harter Marmor",
+      "Marmor aus dem Meer",
+      "Ein Werkzeug für Steinmetze"
+    ],
+    "correct_index": 0,
+    "explanation": "Stuckmarmor ist ein Imitat echten Marmors, das ein Stuckateur herstellt. Seine Verwendung reicht bis in die Römerzeit zurück. Werden dabei bunte Einlagen eingesetzt, heißt die Technik Scagliola.",
+    "difficulty": 2,
+    "tags": [
+      "Kunsthandwerk",
+      "Architektur",
+      "Material"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stuckmarmor",
+    "source_url": "https://de.wikipedia.org/wiki/Stuckmarmor",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is stucco marble (Stuckmarmor)?",
+        "options": [
+          "An imitation of real marble",
+          "Especially hard marble",
+          "Marble from the sea",
+          "A stonemason's tool"
+        ],
+        "explanation": "Stucco marble is an imitation of real marble made by a plasterer. Its use goes back to Roman times. When coloured inlays are added, the technique is called scagliola."
+      }
+    }
+  },
+  {
+    "id": "kn157",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist ein Exlibris?",
+    "options": [
+      "Ein verbotenes Buch",
+      "Ein Zeichen für den Besitzer eines Buches",
+      "Das Inhaltsverzeichnis",
+      "Ein Buchumschlag aus Leder"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Exlibris – lateinisch „aus den Büchern“ – ist ein eingeklebter Zettel, Stempel oder eine Inschrift, die den Eigentümer eines Buches zeigt. Die ersten Exlibris stammen vom Ende des 15. Jahrhunderts.",
+    "difficulty": 2,
+    "tags": [
+      "Buchkunst",
+      "Grafik",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Exlibris",
+    "source_url": "https://de.wikipedia.org/wiki/Exlibris",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an ex libris?",
+        "options": [
+          "A banned book",
+          "A mark showing a book's owner",
+          "The table of contents",
+          "A leather book cover"
+        ],
+        "explanation": "An ex libris – Latin for “from the books” – is a pasted-in label, stamp or inscription showing who owns a book. The first ex libris date from the end of the 15th century."
+      }
+    }
+  },
+  {
+    "id": "kn158",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wo müssen echte Gobelins hergestellt sein?",
+    "options": [
+      "In Florenz",
+      "In jeder Weberei",
+      "In der Gobelinmanufaktur in Paris",
+      "In einem Kloster"
+    ],
+    "correct_index": 2,
+    "explanation": "Gobelins im eigentlichen Sinn sind nur Bildteppiche aus der Gobelinmanufaktur, die heute in Paris liegt. Gobelinmalerei und Gobelinstickerei sind dagegen Nachahmungen: Die Motive werden aufgemalt oder gestickt statt gewirkt.",
+    "difficulty": 3,
+    "tags": [
+      "Textilkunst",
+      "Paris",
+      "Kunsthandwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bildwirkerei",
+    "source_url": "https://de.wikipedia.org/wiki/Bildwirkerei",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where must genuine Gobelins be made?",
+        "options": [
+          "In Florence",
+          "In any weaving mill",
+          "At the Gobelins manufactory in Paris",
+          "In a monastery"
+        ],
+        "explanation": "Strictly speaking, Gobelins are only tapestries from the Gobelins manufactory, which is in Paris today. Gobelin painting and Gobelin embroidery are imitations: the motifs are painted or embroidered instead of woven."
+      }
+    }
+  },
+  {
+    "id": "kn159",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woraus wird der braune Farbstoff Sepia gewonnen?",
+    "options": [
+      "Aus verbranntem Holz",
+      "Aus Walnussschalen",
+      "Aus Rost",
+      "Aus dem Tintenbeutel von Tintenfischen"
+    ],
+    "correct_index": 3,
+    "explanation": "Sepia ist ein braun- bis grauschwarzer Farbstoff aus dem Tintenbeutel von Tintenfischen, den Sepien. Die Tiere setzen die Tinte zur Abwehr ein.",
+    "difficulty": 2,
+    "tags": [
+      "Farben",
+      "Malerei",
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sepia (Farbstoff)",
+    "source_url": "https://de.wikipedia.org/wiki/Sepia (Farbstoff)",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the brown pigment sepia made from?",
+        "options": [
+          "Burnt wood",
+          "Walnut shells",
+          "Rust",
+          "The ink sac of cuttlefish"
+        ],
+        "explanation": "Sepia is a brown to grey-black pigment from the ink sac of cuttlefish. The animals use the ink for defence."
+      }
+    }
+  },
+  {
+    "id": "ns87",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was bedeutet das Wort „Chromatographie“ sinngemäß?",
+    "options": [
+      "Wärmesehen",
+      "Lichtmessen",
+      "Zeitzählen",
+      "Farbenschreiben"
+    ],
+    "correct_index": 3,
+    "explanation": "Chromatographie kommt vom altgriechischen „chroma“, „Farbe“, und heißt sinngemäß „Farbenschreiben“. Das Verfahren trennt ein Stoffgemisch in seine Bestandteile. Bei der Papierchromatographie dient Papier als feste Phase – so kann man zum Beispiel die Farben eines Filzstifts auftrennen.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Experimente",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chromatographie",
+    "source_url": "https://de.wikipedia.org/wiki/Chromatographie",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the word “chromatography” roughly mean?",
+        "options": [
+          "Heat seeing",
+          "Light measuring",
+          "Time counting",
+          "Colour writing"
+        ],
+        "explanation": "Chromatography comes from Ancient Greek “chroma”, “colour”, and roughly means “colour writing”. The method separates a mixture into its components. In paper chromatography, paper serves as the solid phase – for example, to separate the colours of a felt-tip pen."
+      }
+    }
+  },
+  {
+    "id": "ns88",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wodurch entsteht das Meeresleuchten?",
+    "options": [
+      "Durch leuchtendes Plankton",
+      "Durch Mondlicht auf Salzkristallen",
+      "Durch Blitze unter Wasser",
+      "Durch Öl auf dem Wasser"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Meeresleuchten wird von Plankton erzeugt, zum Beispiel von Einzellern, die auf Strömungsänderungen mit Licht reagieren. Diese Fähigkeit von Lebewesen, selbst Licht zu erzeugen, heißt Biolumineszenz.",
+    "difficulty": 2,
+    "tags": [
+      "Biologie",
+      "Licht",
+      "Meer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Biolumineszenz",
+    "source_url": "https://de.wikipedia.org/wiki/Biolumineszenz",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What causes the glowing of the sea at night?",
+        "options": [
+          "Glowing plankton",
+          "Moonlight on salt crystals",
+          "Lightning under water",
+          "Oil on the water"
+        ],
+        "explanation": "The glow of the sea is produced by plankton, for example single-celled organisms that respond to changes in the current by giving off light. This ability of living things to produce light themselves is called bioluminescence."
+      }
+    }
+  },
+  {
+    "id": "ns89",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Welche Technik nutzt die Totalreflexion, um Licht weiterzuleiten?",
+    "options": [
+      "Glühlampen",
+      "Lichtwellenleiter (Glasfasern)",
+      "Solarzellen",
+      "Spiegelreflexkameras"
+    ],
+    "correct_index": 1,
+    "explanation": "Trifft Licht sehr flach auf die Grenze zu einem Stoff mit geringerem Brechungsindex – etwa von Glas zu Luft –, wird es ganz zurückgeworfen. Diese Totalreflexion nutzen Umlenkprismen und Lichtwellenleiter.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Licht",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Totalreflexion",
+    "source_url": "https://de.wikipedia.org/wiki/Totalreflexion",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which technology uses total internal reflection to guide light?",
+        "options": [
+          "Light bulbs",
+          "Optical fibres",
+          "Solar cells",
+          "Reflex cameras"
+        ],
+        "explanation": "When light hits the boundary to a material with a lower refractive index – for example from glass to air – at a very shallow angle, it is reflected completely. Deflecting prisms and optical fibres use this total internal reflection."
+      }
+    }
+  },
+  {
+    "id": "ns90",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist ein Kugelblitz?",
+    "options": [
+      "Ein Meteorit",
+      "Ein besonders langer Blitz",
+      "Ein Feuerwerkskörper",
+      "Eine seltene leuchtende Kugel bei Gewittern"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Kugelblitz ist eine kugelförmige Leuchterscheinung, meist in der Nähe eines Gewitters. Das seltene Phänomen ist vor allem aus Augenzeugenberichten bekannt; Experimente erklären bisher nur Teilaspekte.",
+    "difficulty": 2,
+    "tags": [
+      "Wetter",
+      "Physik",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kugelblitz",
+    "source_url": "https://de.wikipedia.org/wiki/Kugelblitz",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is ball lightning?",
+        "options": [
+          "A meteorite",
+          "A particularly long lightning bolt",
+          "A firework",
+          "A rare glowing ball during thunderstorms"
+        ],
+        "explanation": "Ball lightning is a glowing, ball-shaped phenomenon, usually near a thunderstorm. The rare phenomenon is known mainly from eyewitness reports; experiments so far explain only parts of it."
+      }
+    }
+  },
+  {
+    "id": "ns91",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum muss man Ketchup oft schütteln, bevor er aus der Flasche läuft?",
+    "options": [
+      "Er wird durch Bewegung dünnflüssiger",
+      "Er ist magnetisch",
+      "Er gefriert in der Flasche",
+      "Er enthält Luftblasen, die platzen müssen"
+    ],
+    "correct_index": 0,
+    "explanation": "Ketchup ist thixotrop: Durch andauernde Bewegung wird er dünnflüssiger und verfestigt sich nach kurzer Ruhezeit wieder. Ähnlich verhalten sich nasser Sand am Strand und Treibsand.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Alltag",
+      "Flüssigkeiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Thixotropie",
+    "source_url": "https://de.wikipedia.org/wiki/Thixotropie",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do you often have to shake ketchup before it flows out of the bottle?",
+        "options": [
+          "Movement makes it runnier",
+          "It is magnetic",
+          "It freezes in the bottle",
+          "It contains bubbles that must burst"
+        ],
+        "explanation": "Ketchup is thixotropic: continued movement makes it runnier, and after a short rest it thickens again. Wet sand on the beach and quicksand behave in a similar way."
+      }
+    }
+  },
+  {
+    "id": "ns92",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was bedeutet es, wenn ein Stoff „hygroskopisch“ ist?",
+    "options": [
+      "Er leuchtet im Dunkeln",
+      "Er bindet Feuchtigkeit aus der Umgebung",
+      "Er ist besonders schwer",
+      "Er brennt leicht"
+    ],
+    "correct_index": 1,
+    "explanation": "Hygroskopische Stoffe binden Feuchtigkeit aus der Umgebung, meist Wasserdampf aus der Luft. Das Wort kommt von griechisch „hygrós“, „feucht“. Sinkt die Luftfeuchte, geben viele Stoffe das Wasser wieder ab.",
+    "difficulty": 2,
+    "tags": [
+      "Chemie",
+      "Wasser",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hygroskopie",
+    "source_url": "https://de.wikipedia.org/wiki/Hygroskopie",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does it mean when a substance is “hygroscopic”?",
+        "options": [
+          "It glows in the dark",
+          "It absorbs moisture from its surroundings",
+          "It is particularly heavy",
+          "It burns easily"
+        ],
+        "explanation": "Hygroscopic substances absorb moisture from their surroundings, usually water vapour from the air. The word comes from Greek “hygrós”, “wet”. When the humidity drops, many substances release the water again."
+      }
+    }
+  },
+  {
+    "id": "ns93",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Auf wie viel Grad kann Wasser beim Siedeverzug erhitzt werden, ohne zu sieden?",
+    "options": [
+      "90 °C",
+      "100 °C",
+      "110 °C",
+      "150 °C"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Siedeverzug wird eine Flüssigkeit über ihren Siedepunkt erhitzt, ohne zu sieden: Wasser kann so auf 110 °C kommen, obwohl es sonst bei rund 100 °C siedet. Der Zustand ist instabil – vor allem in der Mikrowelle kann die Flüssigkeit dann schlagartig aufkochen.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Wasser",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Siedeverzug",
+    "source_url": "https://de.wikipedia.org/wiki/Siedeverzug",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In superheating, to how many degrees can water be heated without boiling?",
+        "options": [
+          "90 °C",
+          "100 °C",
+          "110 °C",
+          "150 °C"
+        ],
+        "explanation": "In superheating, a liquid is heated above its boiling point without boiling: water can reach 110 °C even though it normally boils at around 100 °C. The state is unstable – especially in a microwave the liquid can then suddenly boil over."
+      }
+    }
+  },
+  {
+    "id": "ns94",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was macht eine Nebelkammer sichtbar?",
+    "options": [
+      "Schallwellen",
+      "Wolken im Weltall",
+      "Den Wind",
+      "Die Spuren ionisierender Strahlung"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Nebelkammer ist ein Teilchendetektor: In einem übersättigten Luft-Alkohol-Gemisch hinterlassen Teilchen ionisierender Strahlung sichtbare Spuren wie Kondensstreifen. Ihr Erfinder bekam 1927 den Nobelpreis für Physik.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Strahlung",
+      "Messgeräte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nebelkammer",
+    "source_url": "https://de.wikipedia.org/wiki/Nebelkammer",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a cloud chamber make visible?",
+        "options": [
+          "Sound waves",
+          "Clouds in space",
+          "The wind",
+          "The tracks of ionising radiation"
+        ],
+        "explanation": "A cloud chamber is a particle detector: in a supersaturated mixture of air and alcohol, particles of ionising radiation leave visible tracks like vapour trails. Its inventor received the Nobel Prize in Physics in 1927."
+      }
+    }
+  },
+  {
+    "id": "ns95",
+    "kind": "question",
+    "category_id": "science",
+    "question": "In welche Richtung lenkt die Corioliskraft Bewegungen auf der Nordhalbkugel ab?",
+    "options": [
+      "Nach rechts",
+      "Nach links",
+      "Nach oben",
+      "Gar nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Corioliskraft ist eine Trägheitskraft, die in rotierenden Bezugssystemen wie der Erde auftritt. Sie lenkt Bewegungen auf der Nordhalbkugel nach rechts ab, auf der Südhalbkugel nach links – das beeinflusst zum Beispiel Winde und Meeresströmungen.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Erde",
+      "Wetter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Corioliskraft",
+    "source_url": "https://de.wikipedia.org/wiki/Corioliskraft",
+    "created_at": "2026-11-03T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In which direction does the Coriolis force deflect movements in the Northern Hemisphere?",
+        "options": [
+          "To the right",
+          "To the left",
+          "Upwards",
+          "Not at all"
+        ],
+        "explanation": "The Coriolis force is an inertial force that appears in rotating frames of reference such as the Earth. It deflects movements to the right in the Northern Hemisphere and to the left in the Southern Hemisphere – which affects winds and ocean currents, for example."
+      }
+    }
+  },
+  {
+    "id": "ns96",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum schillern Seifenblasen und Ölfilme farbig?",
+    "options": [
+      "Durch Farbstoffe in der Seife",
+      "Durch Interferenz von Lichtwellen",
+      "Durch Spiegelung des Himmels",
+      "Durch elektrische Ladung"
+    ],
+    "correct_index": 1,
+    "explanation": "Licht, das an dünnen Schichten wie einem Ölfilm auf Wasser oder einer Seifenblase zurückgeworfen wird, erscheint oft farbig. Ursache ist Interferenz: Die Lichtwellen überlagern sich und verstärken oder schwächen sich je nach Farbe.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Licht",
+      "Farben"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Interferenz (Physik)",
+    "source_url": "https://de.wikipedia.org/wiki/Interferenz (Physik)",
+    "created_at": "2026-11-02T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why do soap bubbles and oil films shimmer in colours?",
+        "options": [
+          "Because of dyes in the soap",
+          "Because of interference of light waves",
+          "Because they reflect the sky",
+          "Because of electric charge"
+        ],
+        "explanation": "Light reflected by thin layers such as an oil film on water or a soap bubble often appears coloured. The cause is interference: the light waves overlap and reinforce or weaken each other depending on the colour."
+      }
+    }
+  },
+  {
+    "id": "ns97",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Wie nennt man Licht, das nur in einer festen Richtung schwingt?",
+    "options": [
+      "Gebrochen",
+      "Gebeugt",
+      "Linear polarisiert",
+      "Gestreut"
+    ],
+    "correct_index": 2,
+    "explanation": "Linear polarisierte Wellen haben eine feste Schwingungsrichtung; ändert sie sich schnell und ungeordnet, ist die Welle unpolarisiert. Polarisiertes Licht entsteht etwa durch Reflexion an Oberflächen oder durch Polarisationsfilter.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Licht",
+      "Wellen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Polarisation",
+    "source_url": "https://de.wikipedia.org/wiki/Polarisation",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is light that vibrates only in one fixed direction called?",
+        "options": [
+          "Refracted",
+          "Diffracted",
+          "Linearly polarised",
+          "Scattered"
+        ],
+        "explanation": "Linearly polarised waves have a fixed direction of vibration; if it changes quickly and randomly, the wave is unpolarised. Polarised light is produced, for example, by reflection from surfaces or by polarising filters."
+      }
+    }
+  },
+  {
+    "id": "ns98",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Was ist ein „Flaschenteufel“ oder cartesischer Taucher?",
+    "options": [
+      "Ein Flaschenschiff",
+      "Ein Korkenzieher",
+      "Ein Unterwasserfahrzeug",
+      "Ein Hohlkörper, der im Wasser auf- und absinkt"
+    ],
+    "correct_index": 3,
+    "explanation": "Der cartesische Taucher ist ein mit Wasser und Luft gefüllter Hohlkörper – Spielzeug oder Messgerät für den Druck in Flüssigkeiten. Drückt man auf die Flasche, wird die Luft in ihm zusammengepresst und er sinkt. Erstmals beschrieben wurde er 1648.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Druck",
+      "Experimente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Cartesischer Taucher",
+    "source_url": "https://de.wikipedia.org/wiki/Cartesischer Taucher",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “bottle imp” or Cartesian diver?",
+        "options": [
+          "A ship in a bottle",
+          "A corkscrew",
+          "An underwater vehicle",
+          "A hollow body that rises and sinks in water"
+        ],
+        "explanation": "The Cartesian diver is a hollow body filled with water and air – a toy or a device for measuring pressure in liquids. Squeezing the bottle compresses the air inside it and it sinks. It was first described in 1648."
+      }
+    }
+  },
+  {
+    "id": "mk156",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie viele Töne umfasst der Quintenzirkel, bevor er zum Anfang zurückkehrt?",
+    "options": [
+      "Sieben",
+      "Zwölf",
+      "Acht",
+      "Vierundzwanzig"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Quintenzirkel ordnet zwölf Töne im Abstand von Quinten an; der letzte Ton entspricht wieder dem ersten. So ergibt sich ein „Rundgang“, der als Kreis gezeichnet wird. Je näher zwei Tonarten darin beieinanderliegen, desto enger sind sie verwandt.",
+    "difficulty": 2,
+    "tags": [
+      "Musiklehre",
+      "Tonarten",
+      "Noten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quintenzirkel",
+    "source_url": "https://de.wikipedia.org/wiki/Quintenzirkel",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How many notes does the circle of fifths contain before it returns to the start?",
+        "options": [
+          "Seven",
+          "Twelve",
+          "Eight",
+          "Twenty-four"
+        ],
+        "explanation": "The circle of fifths arranges twelve notes a fifth apart; the last note matches the first again. This creates a “round trip” drawn as a circle. The closer two keys are on it, the more closely they are related."
+      }
+    }
+  },
+  {
+    "id": "mk157",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet die Spielanweisung „da capo“?",
+    "options": [
+      "Sehr leise",
+      "Langsamer werden",
+      "Von Anfang an",
+      "Mit Gefühl"
+    ],
+    "correct_index": 2,
+    "explanation": "„Da capo“ heißt italienisch „vom Kopf“, also „vom Beginn“: Das Stück wird von Anfang an gespielt. Oft steht dabei „al fine“, „bis zum Ende“ – gemeint ist die Stelle, an der „Fine“ steht.",
+    "difficulty": 2,
+    "tags": [
+      "Musiklehre",
+      "Noten",
+      "Italienisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Da capo",
+    "source_url": "https://de.wikipedia.org/wiki/Da capo",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the instruction “da capo” mean?",
+        "options": [
+          "Very quietly",
+          "Slow down",
+          "From the beginning",
+          "With feeling"
+        ],
+        "explanation": "“Da capo” is Italian for “from the head”, i.e. “from the beginning”: the piece is played again from the start. It is often combined with “al fine”, “to the end” – meaning the place marked “Fine”."
+      }
+    }
+  },
+  {
+    "id": "mk158",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bedeutet das italienische Wort „Coda“, der Name für den Schlussteil eines Musikstücks?",
+    "options": [
+      "Tür",
+      "Krone",
+      "Fuß",
+      "Schwanz"
+    ],
+    "correct_index": 3,
+    "explanation": "Coda oder Koda ist italienisch für „Schwanz“. So heißt der angehängte, ausklingende Teil eines Musikstücks oder Abschnitts.",
+    "difficulty": 2,
+    "tags": [
+      "Musiklehre",
+      "Italienisch",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Coda (Musik)",
+    "source_url": "https://de.wikipedia.org/wiki/Coda (Musik)",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the Italian word “coda”, the name for the closing part of a piece of music, mean?",
+        "options": [
+          "Door",
+          "Crown",
+          "Foot",
+          "Tail"
+        ],
+        "explanation": "Coda is Italian for “tail”. It is the name for the appended, closing part of a piece or section of music."
+      }
+    }
+  },
+  {
+    "id": "mk159",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie werden beim Generalbass die Akkorde angegeben?",
+    "options": [
+      "Durch Ziffern über oder unter den Bassnoten",
+      "Durch Farben",
+      "Durch Buchstaben über der Melodie",
+      "Gar nicht – sie werden ausgeschrieben"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Generalbass oder Basso continuo werden die Harmonien nicht ausgeschrieben, sondern durch Ziffern über oder unter den Noten der Bassstimme angegeben. Er bildete das Fundament der Musik von etwa 1600 bis etwa 1800, besonders im Barock.",
+    "difficulty": 3,
+    "tags": [
+      "Musiklehre",
+      "Barock",
+      "Noten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Generalbass",
+    "source_url": "https://de.wikipedia.org/wiki/Generalbass",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How are the chords indicated in figured bass (basso continuo)?",
+        "options": [
+          "With figures above or below the bass notes",
+          "With colours",
+          "With letters above the melody",
+          "Not at all – they are written out"
+        ],
+        "explanation": "In figured bass or basso continuo, the harmonies are not written out but indicated by figures above or below the notes of the bass part. It was the foundation of music from about 1600 to about 1800, especially in the Baroque."
+      }
+    }
+  },
+  {
+    "id": "mk160",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wer ist der Konzertmeister in einem Orchester?",
+    "options": [
+      "Der Notenwart",
+      "Der Chef der Pauken",
+      "Der Stimmführer der ersten Violinen",
+      "Der Leiter der Kasse"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Konzertmeister sitzt am ersten Pult der ersten Violinen und führt diese Gruppe an; in der Rangfolge kommt er gleich nach dem Dirigenten. Früher leitete er das Orchester beim Spielen – daher die Redensart „die erste Geige spielen“.",
+    "difficulty": 2,
+    "tags": [
+      "Orchester",
+      "Geige",
+      "Redewendungen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Konzertmeister",
+    "source_url": "https://de.wikipedia.org/wiki/Konzertmeister",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who is the concertmaster (leader) in an orchestra?",
+        "options": [
+          "The music librarian",
+          "The head of the timpani",
+          "The leader of the first violins",
+          "The head of the box office"
+        ],
+        "explanation": "The concertmaster sits at the first desk of the first violins and leads that section; in rank he comes right after the conductor. In the past he led the orchestra while playing – hence the German saying “to play first violin”."
+      }
+    }
+  },
+  {
+    "id": "mk161",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ist eine „Wolfsquinte“?",
+    "options": [
+      "Eine Quinte für Blechbläser",
+      "Ein Jagdhorn-Signal",
+      "Ein besonders tiefer Ton",
+      "Eine stark verstimmte Quinte"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Wolfsquinte ist eine Quinte, die gegenüber der reinen Quinte stark verstimmt ist. Sie tritt vor allem bei nicht temperierten Stimmungen auf: Bei Tasteninstrumenten mit 12 Tönen pro Oktave sind dann nur 11 Quinten rein, die zwölfte ist die Wolfsquinte.",
+    "difficulty": 3,
+    "tags": [
+      "Musiklehre",
+      "Stimmung",
+      "Tasteninstrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wolfsquinte",
+    "source_url": "https://de.wikipedia.org/wiki/Wolfsquinte",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “wolf fifth”?",
+        "options": [
+          "A fifth for brass players",
+          "A hunting horn signal",
+          "A particularly low note",
+          "A badly out-of-tune fifth"
+        ],
+        "explanation": "A wolf fifth is a fifth that is badly out of tune compared with a pure fifth. It occurs mainly in tunings that are not tempered: on keyboard instruments with 12 notes per octave only 11 fifths are pure, and the twelfth is the wolf fifth."
+      }
+    }
+  },
+  {
+    "id": "mk162",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Welches Bauteil einer Orgel steuert die Luft zu den Pfeifen?",
+    "options": [
+      "Die Windlade",
+      "Der Prospekt",
+      "Die Pedalklaviatur",
+      "Der Notenpult"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Windlade ist eines der zentralen Bauteile der Orgel: Je nach Spiel des Organisten und gewählten Registern steuert sie die Luftzufuhr aus dem Windwerk zu den Orgelpfeifen.",
+    "difficulty": 3,
+    "tags": [
+      "Orgel",
+      "Instrumente",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Windlade",
+    "source_url": "https://de.wikipedia.org/wiki/Windlade",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which part of an organ controls the air flowing to the pipes?",
+        "options": [
+          "The wind chest",
+          "The case front",
+          "The pedalboard",
+          "The music stand"
+        ],
+        "explanation": "The wind chest is one of the central parts of the organ: depending on what the organist plays and which stops are chosen, it controls the air supply from the wind system to the organ pipes."
+      }
+    }
+  },
+  {
+    "id": "mk163",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woher kommt die Redewendung „alle Register ziehen“?",
+    "options": [
+      "Vom Kassenbuch",
+      "Von der Orgel",
+      "Von der Schublade",
+      "Vom Feuerwehrschlauch"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei Orgeln mit mechanischer Traktur zieht der Organist zum Einschalten eines Registers einen Knauf am Spieltisch heraus und schiebt ihn zum Abschalten wieder hinein. Wer alle Register zieht, lässt die Orgel mit voller Kraft klingen – daher die Redewendung.",
+    "difficulty": 2,
+    "tags": [
+      "Orgel",
+      "Redewendungen",
+      "Instrumente"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Register (Orgel)",
+    "source_url": "https://de.wikipedia.org/wiki/Register (Orgel)",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German saying “to pull out all the stops” (alle Register ziehen) come from?",
+        "options": [
+          "The cash book",
+          "The organ",
+          "The drawer",
+          "The fire hose"
+        ],
+        "explanation": "On organs with mechanical action, the organist pulls out a knob at the console to switch a stop on and pushes it back in to switch it off. Pulling out all the stops makes the organ sound at full power – hence the saying."
+      }
+    }
+  },
+  {
+    "id": "mk164",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woran hört man beim Stimmen nach Gehör, dass zwei Töne gleich sind?",
+    "options": [
+      "Der Ton wird höher",
+      "Der Ton wird lauter",
+      "Es ist keine Schwebung mehr zu hören",
+      "Es entsteht ein Echo"
+    ],
+    "correct_index": 2,
+    "explanation": "Liegen zwei Töne in der Frequenz nur wenig auseinander, schwillt der Klang regelmäßig an und ab – eine Schwebung. Beim Stimmen nach Gehör wird so lange nachgestimmt, bis keine Schwebung mehr zu hören ist; dann stimmt der Ton.",
+    "difficulty": 3,
+    "tags": [
+      "Musik",
+      "Stimmen",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwebung",
+    "source_url": "https://de.wikipedia.org/wiki/Schwebung",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When tuning by ear, how can you tell that two notes are the same?",
+        "options": [
+          "The note gets higher",
+          "The note gets louder",
+          "No more beating can be heard",
+          "An echo appears"
+        ],
+        "explanation": "If two notes differ only slightly in frequency, the sound swells and fades regularly – a beat. When tuning by ear, you adjust until no more beating can be heard; then the note is in tune."
+      }
+    }
+  },
+  {
+    "id": "mk165",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was bewirkt in der Harmonielehre meist eine Kadenz?",
+    "options": [
+      "Eine Pause aller Stimmen",
+      "Einen Tempowechsel",
+      "Einen Wechsel des Instruments",
+      "Den Abschluss eines Abschnitts oder Stücks"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Kadenz ist meist eine Akkordfolge, die den Abschluss eines Abschnitts oder eines ganzen Stückes bewirkt. Das Wort kommt über italienisch „cadenza“ vom lateinischen „cadere“, „fallen, enden“.",
+    "difficulty": 3,
+    "tags": [
+      "Musiklehre",
+      "Akkorde",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kadenz (Harmonielehre)",
+    "source_url": "https://de.wikipedia.org/wiki/Kadenz (Harmonielehre)",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In harmony, what does a cadence usually do?",
+        "options": [
+          "It makes all parts rest",
+          "It changes the tempo",
+          "It switches instruments",
+          "It ends a section or piece"
+        ],
+        "explanation": "A cadence is usually a sequence of chords that brings a section or a whole piece to a close. The word comes via Italian “cadenza” from Latin “cadere”, “to fall, to end”."
+      }
+    }
+  },
+  {
+    "id": "sp167",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was ist eine Pirouette?",
+    "options": [
+      "Ein Rückwärtssalto",
+      "Ein Sprung über ein Hindernis",
+      "Eine Drehung um die eigene Achse",
+      "Ein Spagat"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Pirouette ist eine einfache oder mehrfache Drehung um die eigene Körperachse, meist auf einem Bein. Man kennt sie aus dem Ballett, dem Eiskunstlauf und dem Rollschuhlauf.",
+    "difficulty": 1,
+    "tags": [
+      "Tanz",
+      "Eiskunstlauf",
+      "Bewegung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pirouette",
+    "source_url": "https://de.wikipedia.org/wiki/Pirouette",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a pirouette?",
+        "options": [
+          "A backward somersault",
+          "A jump over an obstacle",
+          "A spin around one's own axis",
+          "The splits"
+        ],
+        "explanation": "A pirouette is a single or multiple turn around one's own body axis, usually on one leg. It is known from ballet, figure skating and roller skating."
+      }
+    }
+  },
+  {
+    "id": "sp168",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie heißt beim Dressurreiten eine einzelne geforderte Übung?",
+    "options": [
+      "Satz",
+      "Runde",
+      "Etappe",
+      "Lektion"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Dressurreiten soll das Pferd auf feine Signale hin genau eine geforderte Aufgabe ausführen – eine „Lektion“. Eine Dressuraufgabe besteht aus mehreren Lektionen in fester Reihenfolge; in der Kür werden sie frei mit Musik gezeigt.",
+    "difficulty": 2,
+    "tags": [
+      "Reiten",
+      "Pferde",
+      "Wettkampf"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dressurreiten",
+    "source_url": "https://de.wikipedia.org/wiki/Dressurreiten",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In dressage, what is a single required exercise called in German?",
+        "options": [
+          "Satz (set)",
+          "Runde (lap)",
+          "Etappe (stage)",
+          "Lektion (lesson)"
+        ],
+        "explanation": "In dressage the horse should carry out a required task precisely on subtle signals – a “lesson”. A dressage test consists of several lessons in a fixed order; in the freestyle they are shown in free order with music."
+      }
+    }
+  },
+  {
+    "id": "sp169",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Seit wann gibt es in Deutschland Rennen mit selbstgebauten Seifenkisten für Kinder?",
+    "options": [
+      "1904",
+      "1936",
+      "1955",
+      "1972"
+    ],
+    "correct_index": 0,
+    "explanation": "Seit 1904 werden in Deutschland mit selbstgebauten „Kinderautomobilen“ Wettfahrten für Kinder veranstaltet. Als Geburtsort dieser Rennen gilt Oberursel bei Frankfurt am Main.",
+    "difficulty": 2,
+    "tags": [
+      "Rennen",
+      "Kinder",
+      "Basteln"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Seifenkiste",
+    "source_url": "https://de.wikipedia.org/wiki/Seifenkiste",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since when have there been races for children with home-made soapbox cars in Germany?",
+        "options": [
+          "1904",
+          "1936",
+          "1955",
+          "1972"
+        ],
+        "explanation": "Since 1904, races for children with home-made “children's automobiles” have been held in Germany. Oberursel near Frankfurt am Main is considered the birthplace of these races."
+      }
+    }
+  },
+  {
+    "id": "kn160",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie nennt man den gesamten gemalten Buchschmuck, besonders wenn er mit Vergoldungen ergänzt ist?",
+    "options": [
+      "Kalligrafie",
+      "Illumination",
+      "Typografie",
+      "Lithografie"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Buchmalerei gestaltet Bücher und andere Schriftwerke mit Malereien. Die Gesamtheit des gemalten Buchschmucks, besonders wenn Vergoldungen die Malereien ergänzen, heißt auch Illumination.",
+    "difficulty": 3,
+    "tags": [
+      "Buchkunst",
+      "Malerei",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buchmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Buchmalerei",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the entire painted decoration of a book called, especially when complemented by gilding?",
+        "options": [
+          "Calligraphy",
+          "Illumination",
+          "Typography",
+          "Lithography"
+        ],
+        "explanation": "Book painting decorates books and other written works with paintings. The entirety of painted book decoration, especially when gilding complements the paintings, is also called illumination."
+      }
+    }
+  },
+  {
+    "id": "sp170",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Womit kommt ein Apnoetaucher für einen Tauchgang aus?",
+    "options": [
+      "Mit einem Schnorchel",
+      "Mit einer kleinen Sauerstoffflasche",
+      "Mit einem einzigen Atemzug",
+      "Mit einem Luftschlauch zum Boot"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Apnoetauchen oder Freitauchen atmet man vor dem Abtauchen ein und nutzt für den ganzen Tauchgang nur diesen einen Atemzug. „Apnoe“ kommt aus dem Altgriechischen und heißt „Nicht-Atmung“.",
+    "difficulty": 2,
+    "tags": [
+      "Tauchen",
+      "Wassersport",
+      "Wortherkunft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Apnoetauchen",
+    "source_url": "https://de.wikipedia.org/wiki/Apnoetauchen",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a freediver rely on for a dive?",
+        "options": [
+          "A snorkel",
+          "A small oxygen tank",
+          "A single breath",
+          "An air hose to the boat"
+        ],
+        "explanation": "In freediving, the diver breathes in before going down and uses only this one breath for the whole dive. “Apnoea” comes from Ancient Greek and means “not breathing”."
+      }
+    }
+  },
+  {
+    "id": "kn161",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Mit welcher Erfindung kam in der Antike die Buchillustration auf?",
+    "options": [
+      "Dem Papier",
+      "Dem Buchdruck",
+      "Dem gebundenen Codex",
+      "Der Brille"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Buchillustration der Antike kam zwischen dem 2. und dem 4. Jahrhundert nach Christus mit der Erfindung des gebundenen Codex auf. Sie konnte aber auf eine viel ältere Tradition bemalter Schriftrollen zurückgreifen.",
+    "difficulty": 3,
+    "tags": [
+      "Buchkunst",
+      "Antike",
+      "Bücher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buchmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Buchmalerei",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "With which invention did book illustration emerge in antiquity?",
+        "options": [
+          "Paper",
+          "Printing",
+          "The bound codex",
+          "Spectacles"
+        ],
+        "explanation": "Book illustration in antiquity emerged between the 2nd and 4th centuries AD with the invention of the bound codex. It could, however, draw on a much older tradition of painted scrolls."
+      }
+    }
+  },
+  {
+    "id": "sp171",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was nutzt ein Segelflugzeug, um ohne Motor an Höhe zu gewinnen?",
+    "options": [
+      "Wolkenschatten",
+      "Den Rückenwind allein",
+      "Die Erdanziehung",
+      "Aufwinde wie Thermik"
+    ],
+    "correct_index": 3,
+    "explanation": "Segelflugzeuge gewinnen Höhe, indem sie Aufwinde nutzen: Thermik, Hangwind oder Leewellen. In engen Aufwinden kreisen sie dafür – das nennt man „Kurbeln“.",
+    "difficulty": 2,
+    "tags": [
+      "Fliegen",
+      "Wetter",
+      "Luftsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Segelflug",
+    "source_url": "https://de.wikipedia.org/wiki/Segelflug",
+    "created_at": "2026-11-04T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a glider use to gain height without an engine?",
+        "options": [
+          "Cloud shadows",
+          "Tailwind alone",
+          "Gravity",
+          "Updrafts such as thermals"
+        ],
+        "explanation": "Gliders gain height by using updrafts: thermals, ridge lift or lee waves. In narrow updrafts they circle – which pilots call “cranking”."
+      }
+    }
   }
 ]
