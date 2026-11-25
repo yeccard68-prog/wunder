@@ -1,8 +1,8 @@
 // Builds questions from Wikidata (CC0) – thousands of cards from a few templates, every card linked to its Wikidata
-// entry as the source. Output: public/gen/<template>.json, loaded into the database with
-//   select public.import_generated('https://wunder-one.vercel.app/gen/<template>.json');
-// after the file is live (see docs/CONTENT-ROUTINE.md). Generated cards are origin 'generated' and come into the feed
-// in portions (sample_generated).
+// entry as the source. Output: content/gen/<template>.json – never under public/: the files hold the answers
+// (correct_index, explanation), and everything in public/ can be downloaded from the site. Once the commit is on GitHub:
+//   select public.import_generated('https://raw.githubusercontent.com/yeccard68-prog/wunder/<commit>/content/gen/<template>.json');
+// (docs/BACKEND.md section 134). Generated cards are origin 'generated' and come into the feed in portions (sample_generated).
 //   node scripts/content/wikidata.mjs [template …]      (default: all templates)
 //
 // Quality rules: only current values (statements with an end date are skipped), only entries with exactly one current
@@ -839,12 +839,12 @@ const asked = (card) => {
 };
 
 const names = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(TEMPLATES);
-fs.mkdirSync("public/gen", { recursive: true });
+fs.mkdirSync("content/gen", { recursive: true });
 for (const name of names) {
   const cards = (await TEMPLATES[name](rng(`wikidata-${name}`))).filter((c) => !asked(c));
   const bad = cards.filter((c) => c.options.length !== 4 || new Set(c.options).size !== 4 || new Set(c.translations.en.options).size !== 4);
   if (bad.length) console.warn(`${name}: ${bad.length} cards without four distinct options left out`);
   const good = cards.filter((c) => !bad.includes(c));
-  fs.writeFileSync(`public/gen/${name}.json`, JSON.stringify(good));
-  console.log(`${name}: ${good.length} cards → public/gen/${name}.json`);
+  fs.writeFileSync(`content/gen/${name}.json`, JSON.stringify(good));
+  console.log(`${name}: ${good.length} cards → content/gen/${name}.json`);
 }

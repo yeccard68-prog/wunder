@@ -33,7 +33,7 @@ const strip = (html) => (html ?? "").replace(/<[^>]+>/g, "").replace(/\s+/g, " "
 const CC = /^(CC0|CC BY(-SA)? \d\.\d)/i;
 
 for (const name of process.argv.slice(2)) {
-  const file = `public/gen/${name}.json`;
+  const file = `content/gen/${name}.json`;
   const cards = JSON.parse(fs.readFileSync(file, "utf8"));
   const allowPD = name !== "paintings";
   // 1. the image file of each entry (Wikidata P18)

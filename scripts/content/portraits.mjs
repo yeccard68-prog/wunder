@@ -1,13 +1,13 @@
 // Country portraits for the explainer player (scene "portrait"): the map flies to the country, then flag, capital (asked
 // first), area, highest point, web ending. No new queries – everything comes from the generated Wikidata files
-// (public/gen/capitals, continents, flags, summits, domains) and the areas and peak heights in content/compare.json.
+// (content/gen/capitals, continents, flags, summits, domains) and the areas and peak heights in content/compare.json.
 // Output: content/portraits.json (compact rows; texts are built in lib/portraits.ts).
 //   node scripts/content/compare.mjs && node scripts/content/portraits.mjs
 //
 // A portrait needs at least capital, continent and flag; the other facts are shown where they exist.
 import fs from "node:fs";
 
-const read = (name) => JSON.parse(fs.readFileSync(`public/gen/${name}.json`, "utf8"));
+const read = (name) => JSON.parse(fs.readFileSync(`content/gen/${name}.json`, "utf8"));
 const byIso = (name) => new Map(read(name).filter((c) => c.countries?.length === 1).map((c) => [c.countries[0], c]));
 const answer = (c) => ({ de: c.options[c.correct_index], en: c.translations.en.options[c.correct_index] });
 const capitals = byIso("capitals"), continents = byIso("continents"), flags = byIso("flags"), summits = byIso("summits"), domains = byIso("domains");

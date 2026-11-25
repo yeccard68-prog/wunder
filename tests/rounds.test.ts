@@ -17,10 +17,10 @@ const state = (patch: Partial<UserState> = {}): UserState => ({
   settings: { theme: "system", privateProfile: false, muted: true, captions: true, locale: "de" }, ...patch,
 }) as UserState;
 
-// the live mix: the hand-written questions plus every generated set (public/gen, loaded into the database)
+// the live mix: the hand-written questions plus every generated set (content/gen, loaded into the database)
 const { items: handmade, clips } = forAudience(demoContent(), "de", "16+");
-const generated = fs.readdirSync("public/gen").filter((f) => f.endsWith(".json")).flatMap((f) =>
-  (JSON.parse(fs.readFileSync(`public/gen/${f}`, "utf8")) as Partial<QuestionRow>[]).map((r) =>
+const generated = fs.readdirSync("content/gen").filter((f) => f.endsWith(".json")).flatMap((f) =>
+  (JSON.parse(fs.readFileSync(`content/gen/${f}`, "utf8")) as Partial<QuestionRow>[]).map((r) =>
     toItem({ kind: "question", difficulty: 2, source_name: "Wikidata", source_url: null, verification_status: "ai_checked", show_in_feed: true, created_at: "2026-10-25T12:00:00Z", ...r } as QuestionRow)));
 const all = [...handmade, ...generated];
 

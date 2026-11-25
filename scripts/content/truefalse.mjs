@@ -1,7 +1,7 @@
 // "Stimmt das?" cards from the generated cards that already exist – no new queries, same sources. Each card becomes one
 // statement, true or false (decided by its id, about half each): the true one is the card's explanation, the false one
 // the same sentence with a wrong option in place of the answer. After answering, the card shows the true sentence.
-// Output: public/gen/<template>-tf.json (kind "fact", options Stimmt / Stimmt nicht), imported with import_generated.
+// Output: content/gen/<template>-tf.json (kind "fact", options Stimmt / Stimmt nicht), imported with import_generated.
 //   node scripts/content/truefalse.mjs
 //
 // Left out where a "false" statement might still be true in reality: official languages (many countries have several),
@@ -31,7 +31,7 @@ const once = (text, part) => text.split(part).length === 2;
 
 let total = 0;
 for (const name of TEMPLATES) {
-  const file = `public/gen/${name}.json`;
+  const file = `content/gen/${name}.json`;
   if (!fs.existsSync(file)) continue;
   const out = [];
   for (const c of JSON.parse(fs.readFileSync(file, "utf8"))) {
@@ -58,7 +58,7 @@ for (const name of TEMPLATES) {
       translations: { en: { question: enText, options: ["True", "False"], explanation: truth ? tidy(trueEn) : `False: ${tidy(trueEn)}` } },
     });
   }
-  fs.writeFileSync(`public/gen/${name}-tf.json`, JSON.stringify(out));
+  fs.writeFileSync(`content/gen/${name}-tf.json`, JSON.stringify(out));
   total += out.length;
   console.log(`${name}-tf: ${out.length} (${out.filter((x) => x.correct_index === 0).length} wahr)`);
 }

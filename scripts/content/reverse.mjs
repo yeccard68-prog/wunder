@@ -1,5 +1,5 @@
 // Reverse questions from the generated cards that already exist – no new Wikidata queries, same sources:
-// "Frankreich: Wie heißt die Hauptstadt?" → "Paris ist die Hauptstadt welches Landes?". Output: public/gen/<name>-rev.json,
+// "Frankreich: Wie heißt die Hauptstadt?" → "Paris ist die Hauptstadt welches Landes?". Output: content/gen/<name>-rev.json,
 // imported like any generated file (import_generated).
 //   node scripts/content/reverse.mjs
 //
@@ -9,7 +9,7 @@
 import fs from "node:fs";
 import { rng } from "./lib-rng.mjs";
 
-const read = (name) => JSON.parse(fs.readFileSync(`public/gen/${name}.json`, "utf8"));
+const read = (name) => JSON.parse(fs.readFileSync(`content/gen/${name}.json`, "utf8"));
 const answer = (c) => ({ de: c.options[c.correct_index], en: c.translations.en.options[c.correct_index] });
 const quoted = (s) => s.match(/[„"]([^“"]+)[“"]/)?.[1];
 const before = (s) => s.split(":")[0];
@@ -157,9 +157,9 @@ const REVERSE = {
 
 let total = 0;
 for (const [name, make] of Object.entries(REVERSE)) {
-  if (!fs.existsSync(`public/gen/${name}.json`)) continue;
+  if (!fs.existsSync(`content/gen/${name}.json`)) continue;
   const out = make(read(name), rng(`reverse-${name}`)).filter(Boolean).filter((c) => !c.question.includes("undefined") && new Set(c.options).size === 4);
-  fs.writeFileSync(`public/gen/${name}-rev.json`, JSON.stringify(out));
+  fs.writeFileSync(`content/gen/${name}-rev.json`, JSON.stringify(out));
   total += out.length;
   console.log(`${name}-rev: ${out.length}`);
 }
