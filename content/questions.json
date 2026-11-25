@@ -81474,6 +81474,46 @@
     }
   },
   {
+    "id": "qa-spieldose",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Warum hat der Tonkamm einer Spieluhr oft mehrere Zungen für denselben Ton?",
+    "options": [
+      "Damit kein Stift eine Zunge trifft, die noch schwingt",
+      "Damit der Ton lauter klingt",
+      "Damit sich die Walze leichter dreht",
+      "Damit die Feder länger hält"
+    ],
+    "correct_index": 0,
+    "explanation": "Kommt derselbe Ton schnell zweimal hintereinander, würde der nächste Stahlstift die noch schwingende Zunge berühren – das klingt unschön. Deshalb stehen oft mehrere Zungen derselben Note nebeneinander.",
+    "difficulty": 2,
+    "tags": [
+      "Musik",
+      "Instrument"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spieldose",
+    "source_url": "https://de.wikipedia.org/wiki/Spieldose",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does the comb of a music box often have several tines for the same note?",
+        "options": [
+          "So that no pin hits a tine that is still vibrating",
+          "To make the note louder",
+          "So that the cylinder turns more easily",
+          "So that the spring lasts longer"
+        ],
+        "explanation": "When the same note comes twice in quick succession, the next steel pin would touch the tine while it is still vibrating – which sounds unpleasant. That is why several tines of the same note often sit side by side."
+      }
+    }
+  },
+  {
     "id": "t77",
     "kind": "question",
     "category_id": "technology",

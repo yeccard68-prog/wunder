@@ -4,12 +4,13 @@
 // pins, the keys they lift, the crank, the connecting rod and the feeder bellows. The pins hold the opening of
 // "Ode an die Freude" (the same notes as the listening card mk98), one barrel turn = 16 beats.
 // The barrel turns with the animation's clock; the learner can also drag the crank. Sound only after a tap on
-// the sound button (no audio before a user gesture), made by the app itself with Web Audio.
+// the sound button (no audio before a user gesture): recorded organ pipes (lib/organ.ts), fetched on that tap.
 // Labels: 0 crank, 1 pinned barrel, 2 feeder bellows, 3 reservoir bellows, 4 wind chest, 5 pipes, 6 the tune,
 // 7 "sound on", 8 "sound off".
 import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import fig from "@/components/anim/iso/drehorgel.json";
 import type { SceneProps } from "@/components/anim/scenes";
+import { createOrgan, type LoadingOrgan } from "@/lib/organ";
 
 type V3 = [number, number, number];
 const P = fig.P as { origin: [number, number]; scale: number; azimuth: number; elevation: number };
@@ -40,48 +41,26 @@ function pinsPath(beat: number) {
   return path;
 }
 
-// ---- sound: one soft flue-pipe voice per open valve
-type Voice = { g: GainNode; oscs: OscillatorNode[] };
+// ---- sound: one pipe per open valve (lib/organ.ts: recorded pipes; until they have loaded, the button shows "…")
 function useOrgan() {
   const ctx = useRef<AudioContext | null>(null);
-  const voices = useRef<(Voice | null)[]>(keyX.map(() => null));
-  const set = (i: number, on: boolean) => {
-    const ac = ctx.current;
-    if (!ac) return;
-    const v = voices.current[i];
-    if (on && !v) {
-      const f = 440 * Math.pow(2, (pitches[i] - 69) / 12), g = ac.createGain(), t = ac.currentTime;
-      g.gain.setValueAtTime(0, t);
-      g.gain.linearRampToValueAtTime(0.12, t + 0.03);
-      const oscs = ([[1, 1, "triangle"], [2, 0.18, "sine"], [3, 0.05, "sine"]] as const).map(([m, amp, type]) => {
-        const o = ac.createOscillator(), og = ac.createGain();
-        o.type = type; o.frequency.value = f * m; og.gain.value = amp;
-        o.connect(og).connect(g); o.start();
-        return o;
-      });
-      g.connect(ac.destination);
-      voices.current[i] = { g, oscs };
-    } else if (!on && v) {
-      const t = ac.currentTime;
-      voices.current[i] = null;
-      v.g.gain.cancelScheduledValues(t);
-      v.g.gain.setValueAtTime(v.g.gain.value, t);
-      v.g.gain.linearRampToValueAtTime(0, t + 0.06);
-      v.oscs.forEach((o) => o.stop(t + 0.08));
-    }
-  };
-  const silence = () => voices.current.forEach((_, i) => set(i, false));
+  const organ = useRef<LoadingOrgan | null>(null);
+  const [ready, setReady] = useState(false);
+  const set = (i: number, on: boolean) => organ.current?.set(i, on);
+  const silence = () => organ.current?.silence();
   const start = () => {
     if (!ctx.current) {
       const AC = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
       if (!AC) return false;
       ctx.current = new AC();
+      organ.current = createOrgan(ctx.current, pitches);
+      void organ.current.ready.then(() => setReady(true));
     }
     void ctx.current.resume();
     return true;
   };
-  useEffect(() => () => { silence(); void ctx.current?.close(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
-  return { set, silence, start };
+  useEffect(() => () => { organ.current?.close(); void ctx.current?.close(); }, []);
+  return { set, silence, start, ready };
 }
 
 const Html = ({ html, className }: { html: string; className?: string }) => <g className={className} dangerouslySetInnerHTML={{ __html: html }} />;
@@ -112,22 +91,32 @@ export default function Drehorgel({ step, t, labels }: SceneProps) {
     e.stopPropagation();
     if (sound) { organ.silence(); setSound(false); } else if (organ.start()) setSound(true);
   };
-  // drag around the crank hub: the angle travelled turns the barrel (either direction turns it forward)
-  const angleOf = (e: ReactPointerEvent<SVGElement>) => {
-    const svg = (e.currentTarget as SVGElement).ownerSVGElement!, m = svg.getScreenCTM();
+  // drag around the crank hub: the angle travelled turns the barrel (either direction turns it forward). A busy
+  // browser merges several moves into one event; its coalesced points keep the whole path of a quick turn.
+  const angleAt = (svg: SVGSVGElement, x: number, y: number) => {
+    const m = svg.getScreenCTM();
     if (!m) return 0;
-    const p = new DOMPoint(e.clientX, e.clientY).matrixTransform(m.inverse());
+    const p = new DOMPoint(x, y).matrixTransform(m.inverse());
     return Math.atan2(p.y - hub[1], p.x - hub[0]);
   };
-  const onDown = (e: ReactPointerEvent<SVGElement>) => { e.stopPropagation(); (e.currentTarget as Element).setPointerCapture(e.pointerId); drag.current = { a: angleOf(e) }; };
+  const onDown = (e: ReactPointerEvent<SVGElement>) => {
+    e.stopPropagation(); (e.currentTarget as Element).setPointerCapture(e.pointerId);
+    drag.current = { a: angleAt((e.currentTarget as SVGElement).ownerSVGElement!, e.clientX, e.clientY) };
+  };
   const onMove = (e: ReactPointerEvent<SVGElement>) => {
     if (!drag.current) return;
-    const a = angleOf(e);
-    let d = a - drag.current.a;
-    if (d > Math.PI) d -= 2 * Math.PI;
-    if (d < -Math.PI) d += 2 * Math.PI;
-    drag.current = { a };
-    setExtra((x) => x + (Math.abs(d) / (2 * Math.PI)) * TURN);
+    const svg = (e.currentTarget as SVGElement).ownerSVGElement!, ne = e.nativeEvent;
+    const pts = typeof ne.getCoalescedEvents === "function" ? ne.getCoalescedEvents() : [];
+    let total = 0;
+    for (const q of pts.length ? pts : [ne]) {
+      const a = angleAt(svg, q.clientX, q.clientY);
+      let d = a - drag.current.a;
+      if (d > Math.PI) d -= 2 * Math.PI;
+      if (d < -Math.PI) d += 2 * Math.PI;
+      drag.current = { a };
+      total += Math.abs(d);
+    }
+    setExtra((x) => x + (total / (2 * Math.PI)) * TURN);
   };
   const onUp = () => { drag.current = null; };
 
@@ -188,10 +177,11 @@ export default function Drehorgel({ step, t, labels }: SceneProps) {
       {step === 2 && <><Tag at={anchors.barrel} x={84} y={292} text={labels[1]} side="left" /><Tag at={anchors.chest} x={132} y={140} text={labels[4]} side="left" /><Tag at={anchors.pipes} x={124} y={58} text={labels[5]} side="left" /></>}
       {step >= 3 && <text x={180} y={26} textAnchor="middle" fill="#ffd24a" fontSize={14} fontWeight={700}>{labels[6]}</text>}
 
-      <g role="button" aria-label={sound ? labels[8] : labels[7]} aria-pressed={sound} tabIndex={0} data-testid="organ-sound" onClick={toggleSound}
+      <g role="button" aria-label={sound ? labels[8] : labels[7]} aria-pressed={sound} aria-busy={sound && !organ.ready} tabIndex={0} data-testid="organ-sound"
+        data-state={sound ? (organ.ready ? "on" : "loading") : "off"} onClick={toggleSound}
         onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleSound(e); } }} style={{ cursor: "pointer" }}>
         <rect x={250} y={364} width={98} height={28} rx={14} fill={sound ? "#ffd24a" : "transparent"} stroke="#ffd24a" strokeWidth={1.2} />
-        <text x={299} y={382} textAnchor="middle" fill={sound ? "#11100e" : "#ffd24a"} fontSize={12} fontWeight={700}>{sound ? labels[8] : labels[7]}</text>
+        <text x={299} y={382} textAnchor="middle" fill={sound ? "#11100e" : "#ffd24a"} fontSize={12} fontWeight={700}>{sound ? (organ.ready ? labels[8] : "…") : labels[7]}</text>
       </g>
     </g>
   );

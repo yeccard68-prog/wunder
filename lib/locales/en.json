@@ -1052,5 +1052,6 @@
   "Hörprobe": "Listening",
   "Hörprobe abspielen": "Play the excerpt",
   "Hörprobe stoppen": "Stop the excerpt",
-  "Dein Browser kann leider keine Töne abspielen.": "Sorry, your browser can't play sounds."
+  "Dein Browser kann leider keine Töne abspielen.": "Sorry, your browser can't play sounds.",
+  "Die Klavier- und Orgeltöne der Hörproben und der Drehorgel sind Aufnahmen aus der Versilian Community Sample Library (gemeinfrei, CC0): ein Flügel und eine Renaissance-Orgel. Sie wurden gekürzt und liegen auf unserem eigenen Server.": "The piano and organ notes of the listening cards and the barrel organ are recordings from the Versilian Community Sample Library (public domain, CC0): a grand piano and a Renaissance organ. They were shortened and are stored on our own server."
 }

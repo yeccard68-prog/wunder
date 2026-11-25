@@ -1,0 +1,137 @@
+{
+ "source": "Versilian Community Sample Library (VCSL), CC0 1.0, https://github.com/sgossner/VCSL – piano: Grand Piano, Steinway B (NoSus, Close, vl3); organ: Renaissance Organ (Room, Full)",
+ "piano": [
+  {
+   "midi": 52,
+   "cents": -2.5,
+   "file": "piano/52.mp3"
+  },
+  {
+   "midi": 54,
+   "cents": -2.8,
+   "file": "piano/54.mp3"
+  },
+  {
+   "midi": 56,
+   "cents": -2.8,
+   "file": "piano/56.mp3"
+  },
+  {
+   "midi": 58,
+   "cents": -5.5,
+   "file": "piano/58.mp3"
+  },
+  {
+   "midi": 60,
+   "cents": 0,
+   "file": "piano/60.mp3"
+  },
+  {
+   "midi": 62,
+   "cents": -3.7,
+   "file": "piano/62.mp3"
+  },
+  {
+   "midi": 64,
+   "cents": -1.8,
+   "file": "piano/64.mp3"
+  },
+  {
+   "midi": 66,
+   "cents": -2.4,
+   "file": "piano/66.mp3"
+  },
+  {
+   "midi": 68,
+   "cents": -2.3,
+   "file": "piano/68.mp3"
+  },
+  {
+   "midi": 70,
+   "cents": -1.6,
+   "file": "piano/70.mp3"
+  },
+  {
+   "midi": 72,
+   "cents": -5.5,
+   "file": "piano/72.mp3"
+  },
+  {
+   "midi": 74,
+   "cents": -2.5,
+   "file": "piano/74.mp3"
+  },
+  {
+   "midi": 76,
+   "cents": -4.1,
+   "file": "piano/76.mp3"
+  },
+  {
+   "midi": 78,
+   "cents": -3.7,
+   "file": "piano/78.mp3"
+  },
+  {
+   "midi": 80,
+   "cents": 0.9,
+   "file": "piano/80.mp3"
+  },
+  {
+   "midi": 82,
+   "cents": 2.4,
+   "file": "piano/82.mp3"
+  },
+  {
+   "midi": 84,
+   "cents": 2.9,
+   "file": "piano/84.mp3"
+  },
+  {
+   "midi": 86,
+   "cents": 4,
+   "file": "piano/86.mp3"
+  },
+  {
+   "midi": 88,
+   "cents": 1.8,
+   "file": "piano/88.mp3"
+  }
+ ],
+ "organ": [
+  {
+   "midi": 66,
+   "cents": -3.4,
+   "file": "organ/66.wav",
+   "loopStart": 0.7,
+   "loopEnd": 1.82934
+  },
+  {
+   "midi": 68,
+   "cents": 0.7,
+   "file": "organ/68.wav",
+   "loopStart": 0.7,
+   "loopEnd": 1.72319
+  },
+  {
+   "midi": 70,
+   "cents": 0.4,
+   "file": "organ/70.wav",
+   "loopStart": 0.7,
+   "loopEnd": 2.09863
+  },
+  {
+   "midi": 72,
+   "cents": 1.5,
+   "file": "organ/72.wav",
+   "loopStart": 0.7,
+   "loopEnd": 1.98684
+  },
+  {
+   "midi": 74,
+   "cents": -1.3,
+   "file": "organ/74.wav",
+   "loopStart": 0.7,
+   "loopEnd": 1.85178
+  }
+ ]
+}

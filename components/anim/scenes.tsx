@@ -1631,4 +1631,12 @@ const Drehorgel = (props: SceneProps) => (
   </Suspense>
 );
 
-export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps, depths: Depths, octave: Octave, migration: Migration, perspective: Perspective, drehorgel: Drehorgel };
+// The music box, the same kind of figure (components/anim/Spieluhr.tsx).
+const SpieluhrFigure = lazy(() => import("@/components/anim/Spieluhr"));
+const Spieluhr = (props: SceneProps) => (
+  <Suspense fallback={null}>
+    <SpieluhrFigure {...props} />
+  </Suspense>
+);
+
+export const SCENES: Record<string, (props: SceneProps) => ReactNode> = { heart: Heart, engine: Engine, storm: Storm, battery: Battery, plates: Plates, motor: Motor, neural: Neural, star: Star, compare: Compare, portrait: Portrait, earthday: EarthDay, seconds: Seconds, solarscale: SolarScale, population: Population, water: Water, heights: Heights, sizes: Sizes, speeds: Speeds, temps: Temps, depths: Depths, octave: Octave, migration: Migration, perspective: Perspective, drehorgel: Drehorgel, spieluhr: Spieluhr };
