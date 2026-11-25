@@ -109182,5 +109182,1645 @@
         "explanation": "Gliders gain height by using updrafts: thermals, ridge lift or lee waves. In narrow updrafts they circle – which pilots call “cranking”."
       }
     }
+  },
+  {
+    "id": "ti179",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woran unterscheidet man den Baummarder vom Steinmarder?",
+    "options": [
+      "An den gestreiften Ohren",
+      "Am weißen, gegabelten Kehlfleck",
+      "Am schwarz geringelten Schwanz",
+      "Am gelblichen, unten abgerundeten Kehlfleck"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Baummarder hat einen deutlichen gelblichbraunen oder cremefarbenen Kehlfleck, der nach unten abgerundet ist. Beim Steinmarder ist der Kehlfleck dagegen weiß und gegabelt.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Heimische Tiere",
+      "Fell"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Baummarder",
+    "source_url": "https://de.wikipedia.org/wiki/Baummarder",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How can you tell a pine marten from a stone marten?",
+        "options": [
+          "By its striped ears",
+          "By its white, forked throat patch",
+          "By its black-ringed tail",
+          "By its yellowish throat patch, rounded at the bottom"
+        ],
+        "explanation": "The pine marten has a distinct yellowish-brown or cream-coloured throat patch that is rounded at the bottom. The stone marten's throat patch, by contrast, is white and forked."
+      }
+    }
+  },
+  {
+    "id": "ti180",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Zu welcher Tiergruppe gehört die Bisamratte?",
+    "options": [
+      "Zu den Ratten",
+      "Zu den Wühlmäusen",
+      "Zu den Bibern",
+      "Zu den Mardern"
+    ],
+    "correct_index": 1,
+    "explanation": "Trotz ihres Namens ist die Bisamratte zoologisch keine Rattenart. Sie gehört zu den Wühlmäusen und ist sogar deren größter lebender Vertreter.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Wasser",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bisamratte",
+    "source_url": "https://de.wikipedia.org/wiki/Bisamratte",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which group of animals does the muskrat belong to?",
+        "options": [
+          "Rats",
+          "Voles",
+          "Beavers",
+          "Martens"
+        ],
+        "explanation": "Despite its German name “Bisamratte” (musk rat), the muskrat is zoologically not a rat. It belongs to the voles and is even their largest living member."
+      }
+    }
+  },
+  {
+    "id": "ti181",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was bedeutet „Bisam“ im Namen der Bisamratte?",
+    "options": [
+      "Schwimmer",
+      "Sumpf",
+      "Moschus, ein Duftstoff",
+      "Nagezahn"
+    ],
+    "correct_index": 2,
+    "explanation": "Bisam ist eine andere Bezeichnung für Moschus. Die Bisamratte verdankt ihren Namen einem stark nach Moschus duftenden Sekret, das die Männchen absondern.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Wörter",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bisamratte",
+    "source_url": "https://de.wikipedia.org/wiki/Bisamratte",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “Bisam” in the muskrat's German name (Bisamratte) mean?",
+        "options": [
+          "Swimmer",
+          "Swamp",
+          "Musk, a scent",
+          "Gnawing tooth"
+        ],
+        "explanation": "“Bisam” is another word for musk. The muskrat owes its name to a strongly musk-scented secretion produced by the males."
+      }
+    }
+  },
+  {
+    "id": "ti184",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist typisch für das Geweih männlicher Damhirsche?",
+    "options": [
+      "Es ist spiralförmig gedreht",
+      "Es ist oben zu einer Schaufel verbreitert",
+      "Es wächst nur auf einer Seite",
+      "Es ist ganz glatt und ohne Sprossen"
+    ],
+    "correct_index": 1,
+    "explanation": "Charakteristisch für den Damhirsch ist das Schaufelgeweih der Männchen: Über der Augsprosse und der Mittelsprosse verbreitert sich jede Stange zur sogenannten Schaufel. Typisch ist auch das häufig gefleckte Sommerfell.",
+    "difficulty": 1,
+    "tags": [
+      "Säugetiere",
+      "Heimische Tiere",
+      "Wald"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Damhirsch",
+    "source_url": "https://de.wikipedia.org/wiki/Damhirsch",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is typical of the antlers of male fallow deer?",
+        "options": [
+          "They are twisted like a spiral",
+          "They widen at the top into a flat “shovel”",
+          "They grow on one side only",
+          "They are completely smooth, without tines"
+        ],
+        "explanation": "Characteristic of the fallow deer are the palmate antlers of the males: above the brow tine and the middle tine, each beam widens into a so-called palm (“Schaufel”, shovel). Also typical is the often spotted summer coat."
+      }
+    }
+  },
+  {
+    "id": "ti187",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie lange hält der Europäische Ziesel Winterschlaf?",
+    "options": [
+      "Etwa von Ende August bis März oder April",
+      "Nur im Januar",
+      "Von Dezember bis Februar",
+      "Gar nicht"
+    ],
+    "correct_index": 0,
+    "explanation": "Wenn Ziesel genügend Fettreserven gebildet haben, halten sie von Ende August oder Anfang September bis März oder April des nächsten Jahres einen mehrmonatigen Winterschlaf.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Winterschlaf",
+      "Winter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäischer Ziesel",
+    "source_url": "https://de.wikipedia.org/wiki/Europäischer Ziesel",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does the European ground squirrel hibernate?",
+        "options": [
+          "From about late August to March or April",
+          "Only in January",
+          "From December to February",
+          "Not at all"
+        ],
+        "explanation": "Once European ground squirrels have built up enough fat reserves, they hibernate for several months, from late August or early September until March or April of the following year."
+      }
+    }
+  },
+  {
+    "id": "ti189",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo lebt der Gartenschläfer trotz seines Namens überwiegend?",
+    "options": [
+      "In Höhlen am Meer",
+      "In Gärten",
+      "Im Wald",
+      "In der Wüste"
+    ],
+    "correct_index": 2,
+    "explanation": "Gartenschläfer sind Allesfresser und leben trotz ihres Namens überwiegend im Wald. Auffällig ist ihre schwarze Kopfzeichnung, die von den Schnurrhaaren über die Augen bis hinter die Ohren reicht.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Wald",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gartenschläfer",
+    "source_url": "https://de.wikipedia.org/wiki/Gartenschläfer",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Despite its name, where does the garden dormouse mostly live?",
+        "options": [
+          "In sea caves",
+          "In gardens",
+          "In forests",
+          "In the desert"
+        ],
+        "explanation": "Garden dormice are omnivores and, despite their name, live mostly in forests. A striking feature is their black facial marking, which runs from the whiskers over the eyes to behind the ears."
+      }
+    }
+  },
+  {
+    "id": "ti192",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woher hat die Große Hufeisennase ihren Namen?",
+    "options": [
+      "Von einem Muster auf ihren Flügeln",
+      "Von der Form ihrer Ohren",
+      "Von einem hufeisenförmigen Aufsatz auf der Nase",
+      "Von ihrem Ruf"
+    ],
+    "correct_index": 2,
+    "explanation": "Kennzeichnend ist ein häutiges Gebilde auf dem Kopf, der Nasenaufsatz. Sein vorderer Teil erinnert an ein Hufeisen – daher der Name dieser und verwandter Fledermausarten. Die Große Hufeisennase ist die größte europäische Hufeisennasenart.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Namen",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Große Hufeisennase",
+    "source_url": "https://de.wikipedia.org/wiki/Große Hufeisennase",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the greater horseshoe bat get its name from?",
+        "options": [
+          "From a pattern on its wings",
+          "From the shape of its ears",
+          "From a horseshoe-shaped structure on its nose",
+          "From its call"
+        ],
+        "explanation": "Its hallmark is a skin structure on the head called the nose leaf. Its front part resembles a horseshoe – hence the name of this and related bat species. The greater horseshoe bat is the largest horseshoe bat species in Europe."
+      }
+    }
+  },
+  {
+    "id": "ti193",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wann geht der Große Abendsegler auf Jagd?",
+    "options": [
+      "Nur bei Vollmond",
+      "Nur um Mitternacht",
+      "Nur in der Mittagshitze",
+      "Kurz vor der Dämmerung, im Spätherbst auch tagsüber"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Fledermaus geht kurz vor Dämmerungsanbruch auf Jagd, im Spätherbst auch am Tag. Sie jagt meist hoch über den Baumwipfeln und fängt ihre Beute bei Geschwindigkeiten bis zu 60 km/h.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Heimische Tiere",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Großer Abendsegler",
+    "source_url": "https://de.wikipedia.org/wiki/Großer Abendsegler",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When does the common noctule go hunting?",
+        "options": [
+          "Only at full moon",
+          "Only at midnight",
+          "Only in the midday heat",
+          "Shortly before dusk, in late autumn also by day"
+        ],
+        "explanation": "This bat goes hunting shortly before dusk, in late autumn also during the day. It usually hunts high above the treetops and catches its prey at speeds of up to 60 km/h."
+      }
+    }
+  },
+  {
+    "id": "ti194",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was hilft der Gämse, sich im steilen, felsigen Gelände sicher zu bewegen?",
+    "options": [
+      "Spreizbare Hufe",
+      "Saugnäpfe an den Füßen",
+      "Ein langer Greifschwanz",
+      "Krallen wie bei einer Katze"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Gämse braucht steiles, möglichst teils felsiges Gelände. Ein vergleichsweise großes Herz, viele rote Blutkörperchen und der spezielle Bau der spreizbaren Hufe geben ihr dort Bewegungssicherheit und Leistungsvermögen.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Heimische Tiere",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gämse",
+    "source_url": "https://de.wikipedia.org/wiki/Gämse",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What helps the chamois move safely on steep, rocky ground?",
+        "options": [
+          "Hooves that can spread apart",
+          "Suction cups on its feet",
+          "A long prehensile tail",
+          "Cat-like claws"
+        ],
+        "explanation": "The chamois needs steep, preferably partly rocky terrain. A comparatively large heart, many red blood cells and the special build of its spreading hooves give it sure footing and stamina there."
+      }
+    }
+  },
+  {
+    "id": "ti199",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was macht den Marderhund unter den Hunden einzigartig?",
+    "options": [
+      "Er jagt nur unter Wasser",
+      "Er hält in harten Wintern Winterschlaf",
+      "Er lebt nur in Wüsten",
+      "Er hat keinen Schwanz"
+    ],
+    "correct_index": 1,
+    "explanation": "Als einzige Vertreter der Hunde halten Marderhunde in Gegenden mit harten Wintern einen Winterschlaf – in Finnland etwa von November bis März. Für die Jungen übernimmt der Marderhund oft alte Dachs- oder Fuchsbaue.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Winterschlaf",
+      "Einwanderer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marderhund",
+    "source_url": "https://de.wikipedia.org/wiki/Marderhund",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes the raccoon dog unique among dogs?",
+        "options": [
+          "It hunts only under water",
+          "It hibernates in harsh winters",
+          "It lives only in deserts",
+          "It has no tail"
+        ],
+        "explanation": "Raccoon dogs are the only members of the dog family that hibernate in regions with harsh winters – in Finland, for example, from about November to March. For its young, the raccoon dog often takes over old badger or fox dens."
+      }
+    }
+  },
+  {
+    "id": "ti200",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist das Mauswiesel?",
+    "options": [
+      "Ein Nagetier aus der Familie der Hörnchen",
+      "Eine besonders große Maus",
+      "Eines der kleinsten Raubtiere",
+      "Ein Beuteltier"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Mauswiesel ist eine Raubtierart aus der Familie der Marder und einer der kleinsten Vertreter der Raubtiere. Wegen ihres hohen Grundumsatzes müssen diese kleinen Raubtiere ihren Energiebedarf ständig decken.",
+    "difficulty": 2,
+    "tags": [
+      "Säugetiere",
+      "Rekorde",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mauswiesel",
+    "source_url": "https://de.wikipedia.org/wiki/Mauswiesel",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the least weasel?",
+        "options": [
+          "A rodent of the squirrel family",
+          "A particularly large mouse",
+          "One of the smallest predators (carnivores)",
+          "A marsupial"
+        ],
+        "explanation": "The least weasel is a carnivore of the marten family and one of the smallest members of the order of carnivores. Because of their high metabolic rate, these small predators constantly have to cover their energy needs."
+      }
+    }
+  },
+  {
+    "id": "ti202",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was für ein Tier ist der Mufflon?",
+    "options": [
+      "Ein Wildschaf",
+      "Eine Wildziege",
+      "Ein Hirsch",
+      "Ein Wildrind"
+    ],
+    "correct_index": 0,
+    "explanation": "Als Mufflon werden mehrere Arten des Wildschafs zusammengefasst. Mufflons leben unter anderem auf Korsika und Sardinien; ob es dort echte Wildschafe oder Nachkommen sehr ursprünglicher Hausschafe sind, ist umstritten.",
+    "difficulty": 1,
+    "tags": [
+      "Säugetiere",
+      "Haustiere",
+      "Wörter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mufflon",
+    "source_url": "https://de.wikipedia.org/wiki/Mufflon",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What kind of animal is the mouflon?",
+        "options": [
+          "A wild sheep",
+          "A wild goat",
+          "A deer",
+          "A wild cattle"
+        ],
+        "explanation": "“Mouflon” is the name for several species of wild sheep. Mouflons live on Corsica and Sardinia, among other places; whether those are true wild sheep or descendants of very primitive domestic sheep is disputed."
+      }
+    }
+  },
+  {
+    "id": "ti205",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Woher stammt die Nutria, die heute auch in Mitteleuropa lebt?",
+    "options": [
+      "Aus Nordasien",
+      "Aus Australien",
+      "Aus Afrika",
+      "Aus Südamerika"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Nutria, auch Biberratte genannt, ist ein Nagetier aus Südamerika, das in Mitteleuropa angesiedelt wurde. In ihrer Heimat lebt sie an Flüssen, Seen, Teichen und in Sümpfen.",
+    "difficulty": 1,
+    "tags": [
+      "Säugetiere",
+      "Einwanderer",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nutria",
+    "source_url": "https://de.wikipedia.org/wiki/Nutria",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the nutria (coypu), which now also lives in Central Europe, originally come from?",
+        "options": [
+          "Northern Asia",
+          "Australia",
+          "Africa",
+          "South America"
+        ],
+        "explanation": "The nutria, also called coypu or “beaver rat” in German, is a rodent from South America that was introduced to Central Europe. In its homeland it lives by rivers, lakes, ponds and in swamps."
+      }
+    }
+  },
+  {
+    "id": "ti218",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Von welchem Wildtier stammen unsere Hauskaninchen ab?",
+    "options": [
+      "Vom Feldhasen",
+      "Vom Wildkaninchen",
+      "Vom Meerschweinchen",
+      "Vom Murmeltier"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Wildkaninchen ist die Stammform des Hauskaninchens. Die Zucht von Hauskaninchen begann wahrscheinlich in französischen Klöstern in der zweiten Hälfte des ersten Jahrtausends.",
+    "difficulty": 1,
+    "tags": [
+      "Säugetiere",
+      "Haustiere",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wildkaninchen",
+    "source_url": "https://de.wikipedia.org/wiki/Wildkaninchen",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which wild animal are our pet rabbits descended from?",
+        "options": [
+          "The brown hare",
+          "The wild European rabbit",
+          "The guinea pig",
+          "The marmot"
+        ],
+        "explanation": "The wild European rabbit is the ancestor of the domestic rabbit. Rabbit breeding probably began in French monasteries in the second half of the first millennium."
+      }
+    }
+  },
+  {
+    "id": "ti182",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist die „Blesse“, nach der das Blässhuhn benannt ist?",
+    "options": [
+      "Eine lange Feder am Hinterkopf",
+      "Ein roter Kamm auf dem Kopf",
+      "Ein weißer Fleck am Schwanz",
+      "Ein weißer Hornschild über dem Schnabel"
+    ],
+    "correct_index": 3,
+    "explanation": "Die namensgebende Blesse ist ein leuchtend weißer Hornschild über dem Schnabel. Er bedeckt die Stirn und ist von Vogel zu Vogel verschieden groß.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Wasser",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blässhuhn",
+    "source_url": "https://de.wikipedia.org/wiki/Blässhuhn",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the “Blesse” (blaze) that gives the coot its German name, Blässhuhn?",
+        "options": [
+          "A long feather on the back of the head",
+          "A red comb on the head",
+          "A white spot on the tail",
+          "A white horny shield above the beak"
+        ],
+        "explanation": "The blaze that gives the bird its name is a bright white horny shield above the beak. It covers the forehead and varies in size from bird to bird."
+      }
+    }
+  },
+  {
+    "id": "ti183",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wozu dient dem Buntspecht seine „Schmiede“?",
+    "options": [
+      "Er klemmt dort Zapfen fest, um an die Samen zu kommen",
+      "Er schärft dort seinen Schnabel",
+      "Er versteckt dort Wintervorräte",
+      "Er trommelt dort, um Weibchen anzulocken"
+    ],
+    "correct_index": 0,
+    "explanation": "Für Samen von Nadelbäumen hackt der Buntspecht oft ein Loch in einen Ast und klemmt den Zapfen darin fest. In diesem Spalt, der als „Amboss“ dient, hackt er den Zapfen schrittweise auf und nimmt die Samen mit der Zunge auf.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Wald",
+      "Vorräte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Buntspecht",
+    "source_url": "https://de.wikipedia.org/wiki/Buntspecht",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the great spotted woodpecker use its “smithy” for?",
+        "options": [
+          "To wedge cones in place to get at the seeds",
+          "To sharpen its beak",
+          "To hide its winter supplies",
+          "To drum and attract females"
+        ],
+        "explanation": "To get at conifer seeds, the great spotted woodpecker often pecks a hole in a branch and wedges the cone in it. In this crevice, which serves as an “anvil”, it hacks the cone open bit by bit and picks up the seeds with its tongue."
+      }
+    }
+  },
+  {
+    "id": "ti188",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie singt das Feldlerchen-Männchen meistens?",
+    "options": [
+      "Nachts von Baumspitzen aus",
+      "Im Flug, während es trillernd aufsteigt",
+      "Nur vom Boden aus",
+      "Nur im Nest"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Männchen singen meist im Singflug: Sie steigen unentwegt trillernd in Spiralen auf 50 bis 100 Meter Höhe, verharren lange in der Luft und fliegen dann plötzlich wieder herab.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Heimische Tiere",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Feldlerche",
+    "source_url": "https://de.wikipedia.org/wiki/Feldlerche",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How does the male skylark usually sing?",
+        "options": [
+          "At night from treetops",
+          "In flight, while rising and trilling",
+          "Only from the ground",
+          "Only in its nest"
+        ],
+        "explanation": "The males mostly sing in a song flight: trilling non-stop, they spiral upwards to a height of 50 to 100 metres, hover in the air for a long time and then suddenly drop down again."
+      }
+    }
+  },
+  {
+    "id": "ti195",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo verbringen junge Haubentaucher in den ersten Wochen viel Zeit?",
+    "options": [
+      "In einer Erdhöhle am Ufer",
+      "Auf dem Rücken der Eltern, sogar beim Tauchen",
+      "Allein im Schilf",
+      "In einem Nest hoch im Baum"
+    ],
+    "correct_index": 1,
+    "explanation": "In den ersten zwei bis zehn Wochen tragen die Altvögel ihre Jungen meist versteckt im Rückengefieder und nehmen sie sogar beim Tauchen mit unter Wasser.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Wasser",
+      "Nester"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haubentaucher",
+    "source_url": "https://de.wikipedia.org/wiki/Haubentaucher",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where do young great crested grebes spend much of their first weeks?",
+        "options": [
+          "In a burrow on the bank",
+          "On their parents' backs, even when diving",
+          "Alone in the reeds",
+          "In a nest high up in a tree"
+        ],
+        "explanation": "In the first two to ten weeks, the adults mostly carry their young hidden in the feathers on their backs and even take them along under water when diving."
+      }
+    }
+  },
+  {
+    "id": "ti203",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wofür ist der Neuntöter vor allem bekannt?",
+    "options": [
+      "Er baut Nester aus Schlamm",
+      "Er spießt Beutetiere auf Dornen auf",
+      "Er singt nur nachts",
+      "Er brütet im Winter"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Neuntöter ist vor allem dafür bekannt, Beutetiere auf Dornen aufzuspießen. Auch seine Nester baut er bevorzugt in Dornsträuchern; ein anderer Name für ihn ist Dorndreher.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Heimische Tiere",
+      "Vorräte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neuntöter",
+    "source_url": "https://de.wikipedia.org/wiki/Neuntöter",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the red-backed shrike best known for?",
+        "options": [
+          "Building nests out of mud",
+          "Impaling prey on thorns",
+          "Singing only at night",
+          "Breeding in winter"
+        ],
+        "explanation": "The red-backed shrike is best known for impaling its prey on thorns. It also prefers to build its nests in thorny shrubs; another German name for it is “Dorndreher” (thorn turner)."
+      }
+    }
+  },
+  {
+    "id": "ti204",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Worauf geht der Name „Neuntöter“ zurück?",
+    "options": [
+      "Auf neun Eier in jedem Gelege",
+      "Auf seine neun Schwanzfedern",
+      "Auf den Irrglauben, er spieße erst neun Beutetiere auf, bevor er frisst",
+      "Auf seine Brutzeit im neunten Monat"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name bezieht sich auf einen irrigen Volksglauben: Der Vogel würde erst neun Beutetiere aufspießen, bevor er sie verspeist. Daher stammen auch ähnliche Namen wie Neunmörder oder Neunwürger.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Wörter",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Neuntöter",
+    "source_url": "https://de.wikipedia.org/wiki/Neuntöter",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the origin of the red-backed shrike's German name “Neuntöter” (nine-killer)?",
+        "options": [
+          "Nine eggs in every clutch",
+          "Its nine tail feathers",
+          "The false belief that it impales nine prey animals before eating",
+          "Its breeding season in the ninth month"
+        ],
+        "explanation": "The name refers to a mistaken folk belief: the bird supposedly impales nine prey animals before eating them. Similar German names such as “Neunmörder” (nine-murderer) come from the same idea."
+      }
+    }
+  },
+  {
+    "id": "ti206",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo baut die Rauchschwalbe ihr Nest – anders als die Mehlschwalbe?",
+    "options": [
+      "Innerhalb von Gebäuden",
+      "Außen an der Hauswand",
+      "In Erdhöhlen an Steilufern",
+      "Auf dem Boden im Gras"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Mehlschwalbe nistet außen am Haus, die Rauchschwalbe baut ihr Nest dagegen innerhalb der Gebäude. Ein Vogelkundler nannte sie deshalb „innere Hausschwalbe“.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Nester",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rauchschwalbe",
+    "source_url": "https://de.wikipedia.org/wiki/Rauchschwalbe",
+    "created_at": "2026-11-05T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the barn swallow build its nest – unlike the house martin?",
+        "options": [
+          "Inside buildings",
+          "On the outside of house walls",
+          "In burrows in steep banks",
+          "On the ground in the grass"
+        ],
+        "explanation": "The house martin nests on the outside of houses, whereas the barn swallow builds its nest inside buildings. An ornithologist therefore called it the “inner house swallow”."
+      }
+    }
+  },
+  {
+    "id": "ti207",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wo liegt der Verbreitungsschwerpunkt des Rotmilans?",
+    "options": [
+      "In Island",
+      "In Deutschland",
+      "In Ägypten",
+      "In Kanada"
+    ],
+    "correct_index": 1,
+    "explanation": "Der etwa mäusebussardgroße Greifvogel mit langen, schmalen Flügeln hat seinen Verbreitungsschwerpunkt in Deutschland. Er ernährt sich vor allem von kleineren Säugetieren und Vögeln.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Heimische Tiere",
+      "Artenschutz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rotmilan",
+    "source_url": "https://de.wikipedia.org/wiki/Rotmilan",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where is the core of the red kite's range?",
+        "options": [
+          "In Iceland",
+          "In Germany",
+          "In Egypt",
+          "In Canada"
+        ],
+        "explanation": "This bird of prey, about the size of a common buzzard with long, narrow wings, has the core of its range in Germany. It feeds mainly on small mammals and birds."
+      }
+    }
+  },
+  {
+    "id": "ti210",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welcher ist der größte Specht Europas?",
+    "options": [
+      "Der Buntspecht",
+      "Der Schwarzspecht",
+      "Der Grünspecht",
+      "Der Kleinspecht"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Schwarzspecht ist etwa krähengroß und mit Abstand der größte europäische Specht. Man erkennt ihn an seinem fast ganz schwarzen Gefieder und dem roten Scheitel.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Wald",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwarzspecht",
+    "source_url": "https://de.wikipedia.org/wiki/Schwarzspecht",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which is the largest woodpecker in Europe?",
+        "options": [
+          "The great spotted woodpecker",
+          "The black woodpecker",
+          "The green woodpecker",
+          "The lesser spotted woodpecker"
+        ],
+        "explanation": "The black woodpecker is about the size of a crow and by far the largest European woodpecker. You can recognise it by its almost entirely black plumage and its red crown."
+      }
+    }
+  },
+  {
+    "id": "ti211",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum ist der Schwarzspecht für viele andere Tiere wichtig?",
+    "options": [
+      "Er frisst Zecken aus ihrem Fell",
+      "Er verteilt Samen von Obstbäumen",
+      "Seine großen Baumhöhlen nutzen später viele andere",
+      "Er hält Schlangen von ihren Nestern fern"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Schwarzspecht ist ein wichtiger Höhlenlieferant für Tiere, die auf größere Baumhöhlen angewiesen sind. In Europa wurden 58 Tierarten festgestellt, die seine Höhlen nutzen – unter den Vögeln vor allem Hohltaube, Dohle, Star und verschiedene Eulen.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Wald",
+      "Höhlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schwarzspecht",
+    "source_url": "https://de.wikipedia.org/wiki/Schwarzspecht",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the black woodpecker important for many other animals?",
+        "options": [
+          "It eats ticks from their fur",
+          "It spreads the seeds of fruit trees",
+          "Many others later use its large tree holes",
+          "It keeps snakes away from their nests"
+        ],
+        "explanation": "The black woodpecker is an important provider of holes for animals that depend on larger tree cavities. In Europe, 58 animal species have been recorded using its holes – among birds mainly the stock dove, jackdaw, starling and various owls."
+      }
+    }
+  },
+  {
+    "id": "ti213",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was macht der Turmfalke beim „Rüttelflug“?",
+    "options": [
+      "Er steht mit schnellen Flügelschlägen an einer Stelle in der Luft",
+      "Er schüttelt Beute aus Baumkronen",
+      "Er fliegt im Zickzack dicht über das Wasser",
+      "Er lässt sich ohne Flügelschlag von Aufwinden tragen"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Rüttelflug bleibt der Turmfalke in 10 bis 20 Metern Höhe an einer Stelle in der Luft stehen und späht nach Beute; der Flügelschlag ist schnell. Der Turmfalke ist der häufigste Falke Mitteleuropas.",
+    "difficulty": 2,
+    "tags": [
+      "Vögel",
+      "Heimische Tiere",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Turmfalke",
+    "source_url": "https://de.wikipedia.org/wiki/Turmfalke",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the kestrel do in its “hovering flight” (Rüttelflug)?",
+        "options": [
+          "It stays in one spot in the air with rapid wingbeats",
+          "It shakes prey out of treetops",
+          "It zigzags low over the water",
+          "It glides on updrafts without beating its wings"
+        ],
+        "explanation": "When hovering, the kestrel stays in one spot in the air at a height of 10 to 20 metres and looks out for prey; its wingbeats are rapid. The kestrel is the most common falcon in Central Europe."
+      }
+    }
+  },
+  {
+    "id": "ti214",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was bedeutet „tinnunculus“, der wissenschaftliche Artname des Turmfalken?",
+    "options": [
+      "Kleiner Turm",
+      "Klingend oder schellend",
+      "Schneller Jäger",
+      "Rötlicher Rücken"
+    ],
+    "correct_index": 1,
+    "explanation": "Der lateinische Artname tinnunculus heißt „klingend“ oder „schellend“. Er weist auf den Ruf des Turmfalken hin, der an ein „ti, ti, ti, ti“ erinnert.",
+    "difficulty": 3,
+    "tags": [
+      "Vögel",
+      "Wörter",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Turmfalke",
+    "source_url": "https://de.wikipedia.org/wiki/Turmfalke",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “tinnunculus”, the kestrel's scientific species name, mean?",
+        "options": [
+          "Little tower",
+          "Ringing or jingling",
+          "Swift hunter",
+          "Reddish back"
+        ],
+        "explanation": "The Latin species name tinnunculus means “ringing” or “jingling”. It refers to the kestrel's call, which sounds like “ti, ti, ti, ti”."
+      }
+    }
+  },
+  {
+    "id": "ti215",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie klingt der typische Ruf des Waldkauz-Männchens?",
+    "options": [
+      "Tschilp-tschilp",
+      "Kuckuck",
+      "Huh-Huhuhu-Huuuh",
+      "Kikeriki"
+    ],
+    "correct_index": 2,
+    "explanation": "Typisch ist das langgezogene, heulende „Huh-Huhuhu-Huuuh“ des Männchens, vor allem in der Balzzeit. Die Rufe der einzelnen Männchen sind so verschieden, dass man sie daran unterscheiden kann.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Eulen",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Waldkauz",
+    "source_url": "https://de.wikipedia.org/wiki/Waldkauz",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the typical call of the male tawny owl sound like?",
+        "options": [
+          "Cheep-cheep",
+          "Cuckoo",
+          "Hoo-hoohoohoo-hoooo",
+          "Cock-a-doodle-doo"
+        ],
+        "explanation": "Typical is the male's long, howling “hoo-hoohoohoo-hoooo”, heard mainly in the courtship season. The calls of individual males are so distinctive that they can be told apart by them."
+      }
+    }
+  },
+  {
+    "id": "ti185",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Womit hält sich der Laubfrosch an glatten Blättern fest?",
+    "options": [
+      "Mit seiner klebrigen Zunge",
+      "Mit spitzen Krallen",
+      "Mit Haftballen an Fingern und Zehen",
+      "Mit Stacheln an den Beinen"
+    ],
+    "correct_index": 2,
+    "explanation": "Laubfrösche haben als Anpassung ans Klettern an den Finger- und Zehenspitzen rundliche Haftballen, die man mit bloßem Auge gut sieht. Damit klettern sie selbst an spiegelglatten Flächen mühelos hoch.",
+    "difficulty": 1,
+    "tags": [
+      "Amphibien",
+      "Heimische Tiere",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäischer Laubfrosch",
+    "source_url": "https://de.wikipedia.org/wiki/Europäischer Laubfrosch",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the tree frog use to hold on to smooth leaves?",
+        "options": [
+          "Its sticky tongue",
+          "Sharp claws",
+          "Adhesive pads on its fingers and toes",
+          "Spines on its legs"
+        ],
+        "explanation": "As an adaptation to climbing, tree frogs have round adhesive pads on their finger and toe tips, easily visible to the naked eye. With them they climb effortlessly even up mirror-smooth surfaces."
+      }
+    }
+  },
+  {
+    "id": "ti186",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist besonders am Europäischen Laubfrosch?",
+    "options": [
+      "Er ist der einzige Frosch mit Schwanz",
+      "Er ist der größte Frosch Europas",
+      "Er lebt als einziger Frosch nur im Wasser",
+      "Er ist der einzige Vertreter seiner Familie in Mitteleuropa"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Europäische Laubfrosch ist der einzige mitteleuropäische Vertreter seiner Familie, der Laubfrösche, zu der weltweit über 1000 Arten gehören. Im deutschsprachigen Raum hieß er früher auch „Wetterfrosch“.",
+    "difficulty": 2,
+    "tags": [
+      "Amphibien",
+      "Heimische Tiere",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Europäischer Laubfrosch",
+    "source_url": "https://de.wikipedia.org/wiki/Europäischer Laubfrosch",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the European tree frog?",
+        "options": [
+          "It is the only frog with a tail",
+          "It is the largest frog in Europe",
+          "It is the only frog that lives only in water",
+          "It is the only member of its family in Central Europe"
+        ],
+        "explanation": "The European tree frog is the only Central European member of its family, the tree frogs, which has over 1000 species worldwide. In German it used to be called “Wetterfrosch” (weather frog)."
+      }
+    }
+  },
+  {
+    "id": "ti190",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was tun die Männchen der Geburtshelferkröte mit den Eiern?",
+    "options": [
+      "Sie tragen die Eischnüre an den Hinterbeinen mit sich",
+      "Sie vergraben sie im Sand",
+      "Sie kleben sie an Wasserpflanzen",
+      "Sie bewachen sie im Maul"
+    ],
+    "correct_index": 0,
+    "explanation": "Gegen Ende der Paarung übernehmen die Männchen die frisch abgelegten Eischnüre, befestigen sie an ihren Hinterbeinen und tragen sie mit sich, bis die Kaulquappen schlüpfen können. Manche führen auch den Namen der Kröte auf dieses Verhalten zurück.",
+    "difficulty": 2,
+    "tags": [
+      "Amphibien",
+      "Heimische Tiere",
+      "Nester"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gemeine Geburtshelferkröte",
+    "source_url": "https://de.wikipedia.org/wiki/Gemeine Geburtshelferkröte",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do male midwife toads do with the eggs?",
+        "options": [
+          "They carry the egg strings around on their hind legs",
+          "They bury them in sand",
+          "They stick them to water plants",
+          "They guard them in their mouths"
+        ],
+        "explanation": "Towards the end of mating, the males take over the freshly laid egg strings, attach them to their hind legs and carry them around until the tadpoles are ready to hatch. Some also trace the toad's name (“midwife toad”) back to this behaviour."
+      }
+    }
+  },
+  {
+    "id": "ti191",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wann wandern Grasfrösche in Mitteleuropa meist zu ihren Laichgewässern?",
+    "options": [
+      "Im Juli",
+      "Mitte bis Ende März",
+      "Im Oktober",
+      "Im Dezember"
+    ],
+    "correct_index": 1,
+    "explanation": "Im zeitigen Frühjahr, in Mitteleuropa meist Mitte bis Ende März, wandern die aus der Winterstarre erwachten Grasfrösche nachts bei frostfreiem Regenwetter zu ihren Laichgewässern. Ein alter, kaum noch gebräuchlicher Name ist „Märzfrosch“.",
+    "difficulty": 2,
+    "tags": [
+      "Amphibien",
+      "Wanderung",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grasfrosch",
+    "source_url": "https://de.wikipedia.org/wiki/Grasfrosch",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "When do common frogs in Central Europe usually migrate to their spawning waters?",
+        "options": [
+          "In July",
+          "Mid to late March",
+          "In October",
+          "In December"
+        ],
+        "explanation": "In early spring, in Central Europe usually mid to late March, common frogs wake from their winter rigidity and migrate at night in frost-free, rainy weather to their spawning waters. An old, hardly used German name is “Märzfrosch” (March frog)."
+      }
+    }
+  },
+  {
+    "id": "ti197",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was zieht sich bei der Kreuzkröte meist über den Rücken?",
+    "options": [
+      "Eine Reihe weißer Stacheln",
+      "Ein rotes Kreuz",
+      "Zwei schwarze Ringe",
+      "Eine dünne gelbe Längslinie"
+    ],
+    "correct_index": 3,
+    "explanation": "Über ihr „Kreuz“, also den Rücken, zieht sich in der Regel eine dünne gelbe Längslinie. Ihre Iris ist zitronengelb bis grünlich.",
+    "difficulty": 2,
+    "tags": [
+      "Amphibien",
+      "Farben",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kreuzkröte",
+    "source_url": "https://de.wikipedia.org/wiki/Kreuzkröte",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What usually runs along the natterjack toad's back?",
+        "options": [
+          "A row of white spines",
+          "A red cross",
+          "Two black rings",
+          "A thin yellow line"
+        ],
+        "explanation": "Along its “Kreuz” – an old German word for the back, which gives the toad its German name Kreuzkröte – there usually runs a thin yellow line. Its iris is lemon-yellow to greenish."
+      }
+    }
+  },
+  {
+    "id": "ti201",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welche Farbe können Moorfrosch-Männchen zur Paarungszeit annehmen?",
+    "options": [
+      "Schneeweiß",
+      "Leuchtend rot",
+      "Goldgelb",
+      "Himmelblau"
+    ],
+    "correct_index": 3,
+    "explanation": "Zum Höhepunkt der Paarungszeit kann die Haut der Männchen durch Lichtreflexe bläulich-violett bis intensiv himmelblau erscheinen – an einzelnen Stellen oder sogar auf der ganzen Oberseite.",
+    "difficulty": 2,
+    "tags": [
+      "Amphibien",
+      "Farben",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Moorfrosch",
+    "source_url": "https://de.wikipedia.org/wiki/Moorfrosch",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What colour can male moor frogs turn in the mating season?",
+        "options": [
+          "Snow white",
+          "Bright red",
+          "Golden yellow",
+          "Sky blue"
+        ],
+        "explanation": "At the peak of the mating season, the males' skin can look bluish-violet to intense sky blue because of light reflections – on some parts of the body or even on the whole upper side."
+      }
+    }
+  },
+  {
+    "id": "ti196",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was ist die Hornisse?",
+    "options": [
+      "Eine Fliege, die wie eine Wespe aussieht",
+      "Eine große Bienenart",
+      "Die größte Faltenwespe Mitteleuropas",
+      "Ein Käfer mit Stachel"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Hornisse ist die größte in Mitteleuropa lebende Faltenwespe. Anders als bei den meisten anderen sozialen Faltenwespen ist ihr Kopfschild von vorn gesehen rein gelb.",
+    "difficulty": 1,
+    "tags": [
+      "Insekten",
+      "Heimische Tiere",
+      "Rekorde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hornisse",
+    "source_url": "https://de.wikipedia.org/wiki/Hornisse",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the hornet?",
+        "options": [
+          "A fly that looks like a wasp",
+          "A large kind of bee",
+          "The largest vespid wasp in Central Europe",
+          "A beetle with a sting"
+        ],
+        "explanation": "The hornet is the largest vespid wasp living in Central Europe. Unlike most other social vespids, its face shield, seen from the front, is pure yellow."
+      }
+    }
+  },
+  {
+    "id": "ti198",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie lange brauchen Maikäfer meist vom Engerling bis zum fertigen Käfer?",
+    "options": [
+      "Vier Jahre",
+      "Zwei Jahre",
+      "Ein Jahr",
+      "Zehn Jahre"
+    ],
+    "correct_index": 0,
+    "explanation": "Maikäfer haben eine Zykluszeit von drei bis fünf, meist vier Jahren: So lange brauchen die frisch geschlüpften Engerlinge, bis sie sich zum fertigen Käfer verwandelt haben. Darum gibt es immer wieder ein „Maikäferjahr“ mit deutlich mehr Käfern.",
+    "difficulty": 2,
+    "tags": [
+      "Insekten",
+      "Käfer",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Maikäfer",
+    "source_url": "https://de.wikipedia.org/wiki/Maikäfer",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How long does it usually take a cockchafer to develop from a grub into an adult beetle?",
+        "options": [
+          "Four years",
+          "Two years",
+          "One year",
+          "Ten years"
+        ],
+        "explanation": "Cockchafers have a cycle of three to five, usually four years: that is how long the newly hatched grubs need to turn into adult beetles. That is why there are recurring “cockchafer years” with markedly more beetles."
+      }
+    }
+  },
+  {
+    "id": "ti208",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wie schwimmen Rückenschwimmer?",
+    "options": [
+      "Rückwärts mit dem Hinterleib voran",
+      "Auf dem Bauch an der Oberfläche",
+      "Mit dem Bauch nach oben",
+      "Gar nicht, sie laufen am Grund"
+    ],
+    "correct_index": 2,
+    "explanation": "Rückenschwimmer sind Wasserwanzen. Ihr besonderes Kennzeichen: Sie schwimmen stets mit der Bauchseite nach oben, und zwar unterhalb der Wasseroberfläche.",
+    "difficulty": 1,
+    "tags": [
+      "Insekten",
+      "Wasser",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rückenschwimmer",
+    "source_url": "https://de.wikipedia.org/wiki/Rückenschwimmer",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do backswimmers swim?",
+        "options": [
+          "Backwards, rear end first",
+          "Belly down on the surface",
+          "Belly up",
+          "Not at all, they walk on the bottom"
+        ],
+        "explanation": "Backswimmers are water bugs. Their special feature: they always swim with their belly side up – just below the water surface."
+      }
+    }
+  },
+  {
+    "id": "ti209",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Warum nennt man Rückenschwimmer im Volksmund auch „Wasserbienen“?",
+    "options": [
+      "Weil sie gelb-schwarz gestreift sind",
+      "Weil sie Honig sammeln",
+      "Weil sie Waben bauen",
+      "Weil sie empfindlich stechen können"
+    ],
+    "correct_index": 3,
+    "explanation": "Rückenschwimmer können empfindlich stechen, deshalb heißen sie im Volksmund auch „Wasserbienen“. Ihren Luftvorrat tragen sie vor allem auf der Bauchseite.",
+    "difficulty": 2,
+    "tags": [
+      "Insekten",
+      "Wasser",
+      "Namen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rückenschwimmer",
+    "source_url": "https://de.wikipedia.org/wiki/Rückenschwimmer",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why are backswimmers also called “water bees” in German folk speech?",
+        "options": [
+          "Because they have yellow and black stripes",
+          "Because they collect honey",
+          "Because they build honeycombs",
+          "Because they can give a painful sting"
+        ],
+        "explanation": "Backswimmers can give a painful sting, which is why they are popularly called “Wasserbienen” (water bees) in German. They carry their air supply mainly on their belly side."
+      }
+    }
+  },
+  {
+    "id": "ti212",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Wofür nutzen Totengräber-Käfer das Aas kleiner Tiere vor allem?",
+    "options": [
+      "Als Winterquartier",
+      "Zum Bau von Nestern",
+      "Zur Abwehr von Feinden",
+      "Zur Versorgung ihrer Brut"
+    ],
+    "correct_index": 3,
+    "explanation": "Totengräber gehören zu den Aaskäfern. Sie werden vom Geruch kleiner Tierleichen angelockt und nutzen das Aas vor allem für die Versorgung ihrer Brut; eine Art vergräbt das Tier dafür bis zu sieben Zentimeter tief.",
+    "difficulty": 2,
+    "tags": [
+      "Insekten",
+      "Käfer",
+      "Heimische Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Totengräber (Käfer)",
+    "source_url": "https://de.wikipedia.org/wiki/Totengräber (Käfer)",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do burying beetles mainly use the carcasses of small animals for?",
+        "options": [
+          "As winter quarters",
+          "To build nests",
+          "To fend off enemies",
+          "To feed their young"
+        ],
+        "explanation": "Burying beetles belong to the carrion beetles. They are attracted by the smell of small dead animals and use the carcass mainly to feed their young; one species buries it up to seven centimetres deep for this."
+      }
+    }
+  },
+  {
+    "id": "ti216",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Was haben Weberknechte im Gegensatz zu Spinnen nicht?",
+    "options": [
+      "Einen Mund",
+      "Beine",
+      "Augen",
+      "Spinndrüsen"
+    ],
+    "correct_index": 3,
+    "explanation": "Weberknechte gehören zwar zu den Spinnentieren, haben aber weder Spinndrüsen noch Giftdrüsen im engeren Sinne – Netze bauen sie also nicht. Dafür besitzen sie Stinkdrüsen.",
+    "difficulty": 2,
+    "tags": [
+      "Spinnen",
+      "Heimische Tiere",
+      "Verteidigung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weberknechte",
+    "source_url": "https://de.wikipedia.org/wiki/Weberknechte",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do harvestmen lack, unlike spiders?",
+        "options": [
+          "A mouth",
+          "Legs",
+          "Eyes",
+          "Silk glands"
+        ],
+        "explanation": "Harvestmen belong to the arachnids, but they have neither silk glands nor true venom glands – so they do not build webs. Instead they have stink glands."
+      }
+    }
+  },
+  {
+    "id": "ti217",
+    "kind": "question",
+    "category_id": "animals",
+    "question": "Welchen Spitznamen hat die Goldammer im Volksmund?",
+    "options": [
+      "Bauernkanari",
+      "Waldpapagei",
+      "Feldrabe",
+      "Wiesenspecht"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Goldammer ist volkstümlich unter vielen Namen bekannt, darunter „Bauernkanari“, „Gelbling“ und „Gelbgans“. Die Männchen tragen in der Brutzeit ein gelbes Prachtkleid mit leuchtend gelbem Kopf.",
+    "difficulty": 1,
+    "tags": [
+      "Vögel",
+      "Namen",
+      "Farben"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Goldammer",
+    "source_url": "https://de.wikipedia.org/wiki/Goldammer",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 6,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What nickname is the yellowhammer known by in German folk speech?",
+        "options": [
+          "“Bauernkanari” (farmer's canary)",
+          "“Waldpapagei” (forest parrot)",
+          "“Feldrabe” (field raven)",
+          "“Wiesenspecht” (meadow woodpecker)"
+        ],
+        "explanation": "In German folk speech the yellowhammer has many names, among them “Bauernkanari” (farmer's canary), “Gelbling” (yellow one) and “Gelbgans” (yellow goose). In the breeding season the males wear a yellow breeding plumage with a bright yellow head."
+      }
+    }
   }
 ]
