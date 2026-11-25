@@ -5382,5 +5382,129 @@
         "detail": "Between 300 BC and 600 AD the decimal place-value system with 0 and the digits 1 to 9 developed there. A gap symbol for zero became indispensable in it."
       }
     }
+  },
+  {
+    "id": "f-spardose-tempel",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Eine der ältesten bekannten Spardosen sieht aus wie ein griechischer Schatztempel.",
+    "detail": "Sie stammt aus dem 2. Jahrhundert v. Chr. und wurde in Priene gefunden. Das Geld wurde durch einen Schlitz im Giebel des Tempels eingeworfen. Das griechische Wort für ein solches Schatzhaus, „Thesauros“, wurde später zum deutschen „Tresor“.",
+    "sources": [
+      {
+        "name": "Wikipedia: Sparschwein",
+        "url": "https://de.wikipedia.org/wiki/Sparschwein"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-25T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "One of the oldest known money boxes looks like a Greek treasure temple.",
+        "detail": "It dates from the 2nd century BC and was found in Priene. Coins went in through a slot in the temple's gable. The Greek word for such a treasure house, “thesauros”, later became the German word “Tresor” (safe)."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-kreditkarte-roman",
+    "category_id": "economy",
+    "area": "money",
+    "min_age": 10,
+    "text": "Das Wort „Kreditkarte“ stand zuerst in einem Science-Fiction-Roman – 1888.",
+    "detail": "Es taucht in Edward Bellamys Roman „Ein Rückblick aus dem Jahre 2000 auf 1887“ auf – lange bevor es echte Kreditkarten gab.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kreditkarte",
+        "url": "https://de.wikipedia.org/wiki/Kreditkarte"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-25T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The word “credit card” first appeared in a science-fiction novel – in 1888.",
+        "detail": "It shows up in Edward Bellamy's novel “Looking Backward: 2000–1887” – long before real credit cards existed."
+      }
+    }
+  },
+  {
+    "id": "f-metronom-beethoven",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Beethoven liebte das Metronom – und gab trotzdem nur bei 25 von über 400 Werken Tempozahlen an.",
+    "detail": "Johann Nepomuk Mälzel ergänzte das Gerät um eine Skala und machte es so praktisch nutzbar. Der Name „Metronom“ gilt bis heute als Mälzels Erfindung. Die technische Erfindung sprach ein Gericht jedoch Dietrich Nikolaus Winkel zu.",
+    "sources": [
+      {
+        "name": "Wikipedia: Metronom",
+        "url": "https://de.wikipedia.org/wiki/Metronom"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-25T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "Beethoven loved the metronome – yet gave tempo numbers for only 25 of his more than 400 works.",
+        "detail": "Johann Nepomuk Mälzel added a scale to the device, which made metronomes practical. The name “metronome” is still credited to Mälzel. A court, however, awarded the technical invention to Dietrich Nikolaus Winkel.",
+        "figureSuffix": " works"
+      }
+    },
+    "figure": {
+      "value": 25,
+      "suffix": " Werke"
+    }
+  },
+  {
+    "id": "f-venedig-karneval",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Dass nach Napoleon bis 1979 in Venedig kein Karneval mehr gefeiert wurde, stimmt so nicht.",
+    "detail": "Napoleon beendete 1797 zwar die Selbstständigkeit der Markusrepublik. Doch auch im 19. Jahrhundert wurde in Venedig Karneval gefeiert.",
+    "sources": [
+      {
+        "name": "Wikipedia: Karneval in Venedig",
+        "url": "https://de.wikipedia.org/wiki/Karneval_in_Venedig"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-25T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The idea that Venice held no carnival after Napoleon until 1979 is not true.",
+        "detail": "Napoleon did end the independence of the Republic of Venice in 1797. But carnival was still celebrated in Venice in the 19th century as well.",
+        "myth": "Napoleon banned the Venice Carnival, so nothing was celebrated there until 1979."
+      }
+    },
+    "quiz": "myth",
+    "myth": "Napoleon hat den Karneval von Venedig verboten, sodass bis 1979 nicht mehr gefeiert wurde."
+  },
+  {
+    "id": "f-zwiebelturm-venedig",
+    "category_id": "art",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Die Zwiebelhauben der Münchner Frauenkirche stammen vielleicht von einer Kirche in Venedig ab.",
+    "detail": "Die relativ flache Haube entstand um 1525 nach einem Entwurf von Jörg von Halspach. Er soll sich von der Kirche Madonna dell’Orto in Venedig haben inspirieren lassen. Zwiebelformen gibt es auch am Taj Mahal.",
+    "sources": [
+      {
+        "name": "Wikipedia: Zwiebelturm",
+        "url": "https://de.wikipedia.org/wiki/Zwiebelturm"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-25T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The onion domes of Munich's Frauenkirche may trace back to a church in Venice.",
+        "detail": "The relatively flat dome was built around 1525 to a design by Jörg von Halspach. He is said to have been inspired by the church Madonna dell’Orto in Venice. Onion shapes also appear on the Taj Mahal."
+      }
+    }
   }
 ]
