@@ -1,0 +1,26 @@
+// Content batch (26.11.2026): 5 facts for thin topics (earth, music, culture, history), routine format:
+// every claim has a word-for-word quote from the linked article, checked by scripts/content/verify-evidence.mjs.
+//   node scripts/content/verify-evidence.mjs content/_batches/2026-11-facts-10.mjs && node content/_batches/2026-11-facts-10.mjs
+import { pathToFileURL } from "node:url";
+import { mergeFacts, wiki } from "../../scripts/content/merge-facts.mjs";
+
+export const TODAY = "2026-11-26";
+export const verification = "ai_checked";
+
+export const facts = [
+  ["f-kilimandscharo-eis", "nature", "earth", [wiki("Kilimandscharo")], "Auf dem Kilimandscharo in den Tropen schrumpfte die Eiskappe zwischen 1912 und 2009 von 12 auf 1,85 Quadratkilometer.", "Das entspricht einem Verlust von 85 Prozent der Fläche. Der Berg liegt in den tropisch-heißen Regionen der Erde und trägt nur auf seinem Gipfel Kibo Gletscher. Hauptgrund für den Rückgang ist ein regional trockeneres Klima seit Ende des 19. Jahrhunderts.", "On Kilimanjaro in the tropics the ice cap shrank from 12 to 1.85 square kilometres between 1912 and 2009.", "That is a loss of 85 percent of the area. The mountain lies in the hot tropical regions of the Earth and carries glaciers only on its Kibo summit. The main reason for the decline is a regionally drier climate since the end of the 19th century."],
+  ["f-gitarre-kithara", "language", "music", [wiki("Gitarre")], "Das Wort „Gitarre“ geht auf die altgriechische „kithara“ zurück – die war aber gar keine Gitarre.", "Über Spanisch und Arabisch kam der Name ins Deutsche. Die kithara gehörte aber wie die lyra zu den Leiern der griechischen Antike und war keine Halslaute.", "The word “guitar” goes back to the ancient Greek “kithara” – which was not a guitar at all.", "The name came into German via Spanish and Arabic. But the kithara belonged, like the lyre, to the lyres of ancient Greece and was not a necked lute."],
+  ["f-beatles-tontraeger", "culture", "music", [wiki("The_Beatles")], "Die Beatles haben mehr als 600 Millionen Tonträger verkauft.", "Damit gelten sie als die erfolgreichste Band der Musikgeschichte. Ihre Plattenfirma EMI schätzt die Zahl sogar auf mehr als eine Milliarde.", "The Beatles have sold more than 600 million records.", "That makes them the most successful band in music history. Their record company EMI even estimates the figure at more than a billion."],
+  ["f-oktoberfest-hochzeit", "culture", "culture", [wiki("Oktoberfest")], "Das Oktoberfest geht auf eine Hochzeit zurück – 1810 in München.", "Anlass waren die Feiern zur Hochzeit von Kronprinz Ludwig von Bayern und Prinzessin Therese am 12. Oktober 1810, darunter ein Pferderennen am 17. Oktober. Heute ist das Fest das weltweit größte Volksfest.", "The Oktoberfest goes back to a wedding – in Munich in 1810.", "The occasion was the celebrations for the wedding of Crown Prince Ludwig of Bavaria and Princess Therese on 12 October 1810, including a horse race on 17 October. Today it is the largest folk festival in the world."],
+  ["f-pompeji-einwohner", "history", "history", [wiki("Pompeji")], "Pompeji war größer, als man lange dachte: mindestens 20.000 Einwohner.", "Ältere Literatur schätzte 8.000 bis 10.000 Einwohner. Die neuere Forschung geht von mindestens 20.000 bis zu 45.000 Menschen aus.", "Pompeii was bigger than long believed: at least 20,000 inhabitants.", "Older literature estimated 8,000 to 10,000 inhabitants. Recent research assumes at least 20,000 and up to 45,000 people."],
+];
+
+export const evidence = {
+  "f-kilimandscharo-eis": ["de|Kilimandscharo|Zwischen 1912 und 2009 schrumpfte die Eiskappe von 12 km² auf 1,85 km²", "de|Kilimandscharo|in den tropisch-heißen Regionen der Erde befindet", "de|Kilimandscharo|Die jüngere Vergletscherung am Kilimandscharo beschränkt sich auf den Kibo", "de|Kilimandscharo|was einem Verlust von 85 Prozent der Fläche entspricht", "de|Kilimandscharo|Hauptgrund für diesen Rückgang ist ein regional trockeneres Klima seit Ende des 19. Jahrhunderts"],
+  "f-gitarre-kithara": ["de|Gitarre|spanisch guitarra über maghrebinisch-arabisch", "de|Gitarre|auf das altgriechische Wort κιθάρα (kithara) zurückgeht", "de|Gitarre|Die kithara war jedoch keine Halslaute, sondern gehörte wie die lyra zu den Leiern der griechischen Antike"],
+  "f-beatles-tontraeger": ["de|The_Beatles|Mit mehr als 600 Millionen", "de|The_Beatles|ist sie die erfolgreichste Band der Musikgeschichte", "de|The_Beatles|nach Schätzungen ihrer Plattenfirma EMI sogar mehr als einer Milliarde"],
+  "f-oktoberfest-hochzeit": ["de|Oktoberfest|Das Oktoberfest in München", "de|Oktoberfest|Es wird seit 1810 jährlich auf der Theresienwiese in der bayerischen Landeshauptstadt ausgerichtet", "de|Oktoberfest|Anlässlich der Hochzeit von Kronprinz Ludwig von Bayern und Prinzessin Therese am 12. Oktober 1810", "de|Oktoberfest|darunter ein Pferderennen am 17. Oktober", "de|Oktoberfest|das weltweit größte Volksfest"],
+  "f-pompeji-einwohner": ["de|Pompeji|in der älteren Literatur auf 8.000 bis 10.000 Einwohner zur Zeit des Untergangs geschätzt", "de|Pompeji|von mindestens 20.000 bis zu 45.000 Menschen aus"],
+};
+
+if (import.meta.url === pathToFileURL(process.argv[1]).href) mergeFacts(facts, { today: TODAY, verification });

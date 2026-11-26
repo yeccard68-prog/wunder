@@ -5506,5 +5506,132 @@
         "detail": "The relatively flat dome was built around 1525 to a design by Jörg von Halspach. He is said to have been inspired by the church Madonna dell’Orto in Venice. Onion shapes also appear on the Taj Mahal."
       }
     }
+  },
+  {
+    "id": "f-kilimandscharo-eis",
+    "category_id": "earth",
+    "area": "nature",
+    "min_age": 10,
+    "text": "Auf dem Kilimandscharo in den Tropen schrumpfte die Eiskappe zwischen 1912 und 2009 von 12 auf 1,85 Quadratkilometer.",
+    "detail": "Das entspricht einem Verlust von 85 Prozent der Fläche. Der Berg liegt in den tropisch-heißen Regionen der Erde und trägt nur auf seinem Gipfel Kibo Gletscher. Hauptgrund für den Rückgang ist ein regional trockeneres Klima seit Ende des 19. Jahrhunderts.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kilimandscharo",
+        "url": "https://de.wikipedia.org/wiki/Kilimandscharo"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-26T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "On Kilimanjaro in the tropics the ice cap shrank from 12 to 1.85 square kilometres between 1912 and 2009.",
+        "detail": "That is a loss of 85 percent of the area. The mountain lies in the hot tropical regions of the Earth and carries glaciers only on its Kibo summit. The main reason for the decline is a regionally drier climate since the end of the 19th century.",
+        "figureSuffix": " km²"
+      }
+    },
+    "figure": {
+      "value": 1.85,
+      "digits": 2,
+      "suffix": " km²"
+    }
+  },
+  {
+    "id": "f-gitarre-kithara",
+    "category_id": "music",
+    "area": "language",
+    "min_age": 10,
+    "text": "Das Wort „Gitarre“ geht auf die altgriechische „kithara“ zurück – die war aber gar keine Gitarre.",
+    "detail": "Über Spanisch und Arabisch kam der Name ins Deutsche. Die kithara gehörte aber wie die lyra zu den Leiern der griechischen Antike und war keine Halslaute.",
+    "sources": [
+      {
+        "name": "Wikipedia: Gitarre",
+        "url": "https://de.wikipedia.org/wiki/Gitarre"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-26T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "The word “guitar” goes back to the ancient Greek “kithara” – which was not a guitar at all.",
+        "detail": "The name came into German via Spanish and Arabic. But the kithara belonged, like the lyre, to the lyres of ancient Greece and was not a necked lute."
+      }
+    },
+    "quiz": "truth"
+  },
+  {
+    "id": "f-beatles-tontraeger",
+    "category_id": "music",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Die Beatles haben mehr als 600 Millionen Tonträger verkauft.",
+    "detail": "Damit gelten sie als die erfolgreichste Band der Musikgeschichte. Ihre Plattenfirma EMI schätzt die Zahl sogar auf mehr als eine Milliarde.",
+    "sources": [
+      {
+        "name": "Wikipedia: The Beatles",
+        "url": "https://de.wikipedia.org/wiki/The_Beatles"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-26T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The Beatles have sold more than 600 million records.",
+        "detail": "That makes them the most successful band in music history. Their record company EMI even estimates the figure at more than a billion.",
+        "figureSuffix": " million records"
+      }
+    },
+    "figure": {
+      "value": 600,
+      "suffix": " Millionen Tonträger"
+    }
+  },
+  {
+    "id": "f-oktoberfest-hochzeit",
+    "category_id": "culture",
+    "area": "culture",
+    "min_age": 10,
+    "text": "Das Oktoberfest geht auf eine Hochzeit zurück – 1810 in München.",
+    "detail": "Anlass waren die Feiern zur Hochzeit von Kronprinz Ludwig von Bayern und Prinzessin Therese am 12. Oktober 1810, darunter ein Pferderennen am 17. Oktober. Heute ist das Fest das weltweit größte Volksfest.",
+    "sources": [
+      {
+        "name": "Wikipedia: Oktoberfest",
+        "url": "https://de.wikipedia.org/wiki/Oktoberfest"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-26T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "The Oktoberfest goes back to a wedding – in Munich in 1810.",
+        "detail": "The occasion was the celebrations for the wedding of Crown Prince Ludwig of Bavaria and Princess Therese on 12 October 1810, including a horse race on 17 October. Today it is the largest folk festival in the world."
+      }
+    }
+  },
+  {
+    "id": "f-pompeji-einwohner",
+    "category_id": "history",
+    "area": "history",
+    "min_age": 10,
+    "text": "Pompeji war größer, als man lange dachte: mindestens 20.000 Einwohner.",
+    "detail": "Ältere Literatur schätzte 8.000 bis 10.000 Einwohner. Die neuere Forschung geht von mindestens 20.000 bis zu 45.000 Menschen aus.",
+    "sources": [
+      {
+        "name": "Wikipedia: Pompeji",
+        "url": "https://de.wikipedia.org/wiki/Pompeji"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-26T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "Pompeii was bigger than long believed: at least 20,000 inhabitants.",
+        "detail": "Older literature estimated 8,000 to 10,000 inhabitants. Recent research assumes at least 20,000 and up to 45,000 people."
+      }
+    }
   }
 ]
