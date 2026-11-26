@@ -114102,5 +114102,1645 @@
         "explanation": "Feierabend comes from the late Middle High German “vîrâbent” and meant “the eve of a holiday”. Today the word means both the end of the working day and the free time afterwards until bedtime. It goes back to the Latin “fēria”, a weekday or church holiday."
       }
     }
+  },
+  {
+    "id": "e145",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was besagt das Sparparadoxon?",
+    "options": [
+      "Sparen alle zugleich mehr, sinken am Ende alle Einkommen",
+      "Wer früh mit dem Sparen anfängt, braucht später weniger Geld",
+      "Je höher die Zinsen steigen, desto weniger sparen die Menschen",
+      "Banken verdienen umso mehr, je weniger ihre Kunden sparen"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine einzelne Person kann jederzeit weniger ausgeben und mehr sparen – für alle zugleich geht das nicht. Denn wer seine Ausgaben kürzt, senkt die Einnahmen anderer. Sobald alle weniger konsumieren, sinken Produktion und Einkommen in der Volkswirtschaft.",
+    "difficulty": 2,
+    "tags": [
+      "Sparen",
+      "Volkswirtschaft",
+      "Paradox"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sparparadoxon",
+    "source_url": "https://de.wikipedia.org/wiki/Sparparadoxon",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does the paradox of thrift say?",
+        "options": [
+          "If everyone saves more at once, all incomes fall",
+          "Whoever starts saving early needs less money later on",
+          "The higher interest rates climb, the less people save",
+          "Banks earn more the less their customers save"
+        ],
+        "explanation": "A single person can always spend less and save more – but not everyone at once. Anyone who cuts their spending lowers other people's income. As soon as everyone consumes less, output and incomes in the economy fall."
+      }
+    }
+  },
+  {
+    "id": "e146",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Die „Holländische Krankheit“ der Volkswirtschaftslehre geht auf die Niederlande der 1960er Jahre zurück. Was war dort passiert?",
+    "options": [
+      "Eine Tulpenblase brachte viele Banken zu Fall",
+      "Nach Erdgasfunden schrumpfte die Industrie",
+      "Eine Sturmflut zerstörte viele Fabriken",
+      "Zu viele Arbeiter wanderten ins Ausland ab"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Modell beschreibt, wie ein Rohstoffboom dem produzierenden Gewerbe schadet. In den Niederlanden brachte das Erdgasgeschäft in den 1960er Jahren Außenhandelsüberschüsse; die Währung wertete auf, die internationale Wettbewerbsfähigkeit sank, und der Industriesektor schrumpfte.",
+    "difficulty": 3,
+    "tags": [
+      "Rohstoffe",
+      "Erdgas",
+      "Wechselkurs"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Holländische Krankheit",
+    "source_url": "https://de.wikipedia.org/wiki/Holländische Krankheit",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The “Dutch disease” in economics goes back to the Netherlands in the 1960s. What had happened there?",
+        "options": [
+          "A tulip bubble brought down many banks",
+          "After gas discoveries, industry shrank",
+          "A storm flood destroyed many factories",
+          "Too many workers moved abroad"
+        ],
+        "explanation": "The model describes how a commodity boom harms manufacturing. In the 1960s, the gas business gave the Netherlands trade surpluses; the currency rose, international competitiveness fell, and the industrial sector shrank."
+      }
+    }
+  },
+  {
+    "id": "e147",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welchen Zusammenhang beschreibt die Phillips-Kurve, die 1958 erstmals veröffentlicht wurde?",
+    "options": [
+      "Zwischen Steuersätzen und der Höhe der Staatsschulden",
+      "Zwischen Zinssätzen und den Kursen von Aktien an Börsen",
+      "Zwischen Preis- oder Lohnanstieg und Arbeitslosigkeit",
+      "Zwischen Exporten und dem Wechselkurs der Währung"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Phillips-Kurve ist eine Grafik, die einen vermuteten Zusammenhang zwischen Lohn- oder Preisänderungen und der Arbeitslosenquote beschreibt. Die erste Variante veröffentlichte der Ökonom Alban William Housego Phillips 1958. Weil sie stark vereinfacht, werden Empfehlungen auf ihrer Grundlage heute kritisch gesehen.",
+    "difficulty": 3,
+    "tags": [
+      "Inflation",
+      "Arbeitslosigkeit",
+      "Grafik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Phillips-Kurve",
+    "source_url": "https://de.wikipedia.org/wiki/Phillips-Kurve",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What relationship does the Phillips curve, first published in 1958, describe?",
+        "options": [
+          "Between tax rates and government debt",
+          "Between interest rates and share prices",
+          "Between rising prices or wages and unemployment",
+          "Between exports and the currency's exchange rate"
+        ],
+        "explanation": "The Phillips curve is a graph describing a supposed link between changes in wages or prices and the unemployment rate. The economist Alban William Housego Phillips published the first version in 1958. Because it simplifies so much, advice based on it is viewed critically today."
+      }
+    }
+  },
+  {
+    "id": "e148",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welche Währung war im Europäischen Währungssystem bis zur Einführung des Euro 1999 die tatsächliche Ankerwährung?",
+    "options": [
+      "Der Schweizer Franken",
+      "Der französische Franc",
+      "Das britische Pfund",
+      "Die Deutsche Mark"
+    ],
+    "correct_index": 3,
+    "explanation": "Eine Leit- oder Ankerwährung wird über ihr eigenes Land hinaus im internationalen Zahlungsverkehr und als Reservewährung genutzt. Im Europäischen Währungssystem hatte die Deutsche Mark diese Rolle de facto – nicht offiziell – bis zur Einführung des Euro im Januar 1999. Weltweit gilt der US-Dollar als wichtigste Leitwährung.",
+    "difficulty": 2,
+    "tags": [
+      "Währung",
+      "Euro",
+      "Mark"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Leitwährung",
+    "source_url": "https://de.wikipedia.org/wiki/Leitwährung",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which currency was the de facto anchor currency of the European Monetary System until the euro was introduced in 1999?",
+        "options": [
+          "The Swiss franc",
+          "The French franc",
+          "The British pound",
+          "The Deutsche Mark"
+        ],
+        "explanation": "A key or anchor currency is used beyond its own country in international payments and as a reserve currency. In the European Monetary System, the Deutsche Mark played this role in practice – not officially – until the euro arrived in January 1999. Worldwide, the US dollar is considered the most important key currency."
+      }
+    }
+  },
+  {
+    "id": "e149",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was sind Mikrokredite?",
+    "options": [
+      "Kleinkredite für Kleinunternehmer, meist in Entwicklungsländern",
+      "Kredite, die nur wenige Tage laufen und dann zurückgezahlt werden",
+      "Kredite, die sich Banken untereinander nur über Nacht leihen",
+      "Kredite, mit denen Firmen Computer und Mikrochips kaufen"
+    ],
+    "correct_index": 0,
+    "explanation": "Mikrokredite sind Kleinkredite an Kleingewerbetreibende, überwiegend in Entwicklungsländern. Viele Mikrokredit-Institutionen vergeben sie nur an Frauen. Eine Vorform gab es schon im späten Mittelalter: Pfandleihhäuser namens Monte di Pietà („Berg der Barmherzigkeit“) gewährten Armen Kleinkredite gegen Pfand und geringe Zinsen.",
+    "difficulty": 2,
+    "tags": [
+      "Kredit",
+      "Entwicklungsländer",
+      "Banken"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mikrokredit",
+    "source_url": "https://de.wikipedia.org/wiki/Mikrokredit",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are microloans?",
+        "options": [
+          "Small loans for small firms, mostly in developing countries",
+          "Loans that run for only a few days and are then repaid",
+          "Loans that banks lend each other just overnight",
+          "Loans that companies take out to buy computers and microchips"
+        ],
+        "explanation": "Microloans are small loans to small traders, mostly in developing countries. Many microcredit institutions lend only to women. An early form existed in the late Middle Ages: pawnshops called Monte di Pietà (“mountain of mercy”) gave the poor small loans against a pledge at low interest."
+      }
+    }
+  },
+  {
+    "id": "e150",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Mit 50 Litern Benzin eine möglichst weite Strecke fahren – welche Form des ökonomischen Prinzips ist das?",
+    "options": [
+      "Das Verursacherprinzip",
+      "Das Minimalprinzip",
+      "Das Maximalprinzip",
+      "Das Solidaritätsprinzip"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Maximalprinzip soll mit einem vorgegebenen Aufwand – hier 50 Liter Benzin – das Ergebnis möglichst groß werden; man nennt es auch Ergiebigkeitsprinzip. Beim Minimalprinzip ist umgekehrt das Ergebnis vorgegeben, etwa nach Berlin zu kommen, und der Aufwand soll möglichst klein sein.",
+    "difficulty": 2,
+    "tags": [
+      "Wirtschaften",
+      "Aufwand",
+      "Ergebnis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ökonomisches Prinzip",
+    "source_url": "https://de.wikipedia.org/wiki/Ökonomisches Prinzip",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Driving as far as possible on 50 litres of petrol – which form of the economic principle is that?",
+        "options": [
+          "The polluter-pays principle",
+          "The minimum principle",
+          "The maximum principle",
+          "The solidarity principle"
+        ],
+        "explanation": "Under the maximum principle, a fixed input – here 50 litres of petrol – should yield the greatest possible result. Under the minimum principle, it is the other way round: the result is fixed, such as getting to Berlin, and the input should be as small as possible."
+      }
+    }
+  },
+  {
+    "id": "e151",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was ist ein „Erziehungszoll“?",
+    "options": [
+      "Ein Zoll auf Spielzeug, damit Kinder weniger davon geschenkt bekommen",
+      "Eine Abgabe, die Eltern für Schulbücher aus dem Ausland bezahlen",
+      "Eine Strafe für Firmen, die ihre Waren falsch beim Zoll anmelden",
+      "Ein Zoll, der neue heimische Industrien schützt, bis sie mithalten"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Erziehungszoll soll neue Industrien eines Landes schützen. Er wird in dem Maße abgebaut, wie diese Industrien wettbewerbsfähig werden. Allgemein dient ein Zoll heute vor allem dem Schutz ausgewählter heimischer Wirtschaftszweige (Schutzzoll).",
+    "difficulty": 2,
+    "tags": [
+      "Zoll",
+      "Außenhandel",
+      "Industrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zoll (Abgabe)",
+    "source_url": "https://de.wikipedia.org/wiki/Zoll (Abgabe)",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an infant-industry tariff (in German “Erziehungszoll”, literally “education tariff”)?",
+        "options": [
+          "A duty on toys so that children are given fewer of them",
+          "A charge parents pay on schoolbooks from abroad",
+          "A penalty for firms that declare their goods wrongly at customs",
+          "A tariff that shields new home industries until they can compete"
+        ],
+        "explanation": "An infant-industry tariff is meant to protect a country's new industries. It is reduced as those industries become competitive. In general, tariffs today mainly serve to protect selected home industries (protective tariffs)."
+      }
+    }
+  },
+  {
+    "id": "e152",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Welches Ziel hat eine Pigou-Steuer, etwa eine CO2-Steuer?",
+    "options": [
+      "Sie soll Verhalten lenken und Schäden für andere einpreisen",
+      "Sie soll vor allem möglichst viel Geld in die Staatskasse bringen",
+      "Sie soll Menschen mit wenig Einkommen steuerlich entlasten",
+      "Sie soll Waren aus dem Ausland gezielt teurer machen"
+    ],
+    "correct_index": 0,
+    "explanation": "Eine Pigou-Steuer ist eine Lenkungsabgabe: Sie soll weniger Geld einbringen als vielmehr das Verhalten gezielt lenken. Sie korrigiert ein Marktversagen, indem sie externe Effekte – etwa Schäden durch Abgase – dem Verursacher anrechnet. Benannt ist sie nach dem Ökonomen Arthur Cecil Pigou; Beispiele sind CO2-, Tabak- und Zuckersteuer.",
+    "difficulty": 2,
+    "tags": [
+      "Steuer",
+      "Umwelt",
+      "Lenkung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pigou-Steuer",
+    "source_url": "https://de.wikipedia.org/wiki/Pigou-Steuer",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the aim of a Pigouvian tax, such as a CO2 tax?",
+        "options": [
+          "To steer behaviour and price in harm done to others",
+          "Above all to bring as much money as possible into the treasury",
+          "To give people on low incomes tax relief",
+          "To make goods from abroad deliberately more expensive"
+        ],
+        "explanation": "A Pigouvian tax is a steering levy: its main aim is not revenue but to steer behaviour. It corrects a market failure by charging external effects – such as harm from exhaust fumes – to whoever causes them. It is named after the economist Arthur Cecil Pigou; examples include CO2, tobacco and sugar taxes."
+      }
+    }
+  },
+  {
+    "id": "e153",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was sagt das „Wagnersche Gesetz“ von 1892 voraus?",
+    "options": [
+      "Die Löhne steigen immer genauso schnell wie die Preise",
+      "Die Staatsausgaben wachsen schneller als die Wirtschaft",
+      "Die Zinsen sinken, je älter eine Gesellschaft wird",
+      "Die Steuereinnahmen bleiben auf Dauer immer gleich hoch"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Ökonom Adolph Wagner formulierte 1892 das „Gesetz der wachsenden Staatsausgaben“: Die Staatsausgaben wachsen nicht bloß im gleichen Maß, sondern überproportional zum Bruttosozialprodukt.",
+    "difficulty": 3,
+    "tags": [
+      "Staat",
+      "Ausgaben",
+      "Wachstum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wagnersches Gesetz",
+    "source_url": "https://de.wikipedia.org/wiki/Wagnersches Gesetz",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 16,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does “Wagner's law” of 1892 predict?",
+        "options": [
+          "Wages always rise exactly as fast as prices",
+          "Public spending grows faster than the economy",
+          "Interest rates fall as a society gets older",
+          "Tax revenue stays at the same level for ever"
+        ],
+        "explanation": "In 1892 the economist Adolph Wagner formulated the “law of increasing state spending”: public spending grows not merely in step with, but faster than, gross national product."
+      }
+    }
+  },
+  {
+    "id": "e154",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Was sollte die „Soziale Marktwirtschaft“ nach Alfred Müller-Armack, der den Begriff prägte, miteinander verbinden?",
+    "options": [
+      "Staatliche Planung mit festen Preisen für alle Waren",
+      "Den Handel in Europa mit einer gemeinsamen Währung",
+      "Die Freiheit auf dem Markt mit sozialem Ausgleich",
+      "Die Landwirtschaft mit der Industrie in den Städten"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Bezeichnung geht auf den Ökonomen Alfred Müller-Armack zurück, der sie 1946 erstmals wählte. Ihr Sinn sei, „das Prinzip der Freiheit auf dem Markt mit dem des sozialen Ausgleichs zu verbinden“. Er sah sie als „dritte Form“ neben rein liberaler Marktwirtschaft und staatlicher Wirtschaftslenkung.",
+    "difficulty": 2,
+    "tags": [
+      "Marktwirtschaft",
+      "Deutschland",
+      "Sozialstaat"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Soziale Marktwirtschaft",
+    "source_url": "https://de.wikipedia.org/wiki/Soziale Marktwirtschaft",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to Alfred Müller-Armack, who coined the term, what was the “social market economy” meant to combine?",
+        "options": [
+          "State planning with fixed prices for all goods",
+          "Trade in Europe with a single currency",
+          "Freedom in the market with social balance",
+          "Farming with industry in the cities"
+        ],
+        "explanation": "The term goes back to the economist Alfred Müller-Armack, who first chose it in 1946. Its purpose, he said, was to combine “the principle of freedom in the market with that of social balance”. He saw it as a “third form” alongside a purely liberal market economy and state economic control."
+      }
+    }
+  },
+  {
+    "id": "m131",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was besagt die Goldbachsche Vermutung, die bis heute niemand beweisen konnte?",
+    "options": [
+      "Jede ungerade Zahl ist das Produkt von zwei Primzahlen",
+      "Jede gerade Zahl größer als 2 ist die Summe zweier Primzahlen",
+      "Zwischen zwei Quadratzahlen liegt immer genau eine Primzahl",
+      "Jede Primzahl ist um eins größer als eine Quadratzahl"
+    ],
+    "correct_index": 1,
+    "explanation": "Die starke Goldbachsche Vermutung lautet: Jede gerade Zahl, die größer als 2 ist, ist Summe zweier Primzahlen – zum Beispiel 8 = 3 + 5. Christian Goldbach formulierte sie 1742 in einem Brief an Leonhard Euler. Computer haben sie für riesige Zahlen geprüft, bewiesen ist sie aber bis heute nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Primzahlen",
+      "Vermutung",
+      "Zahlentheorie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Goldbachsche Vermutung",
+    "source_url": "https://de.wikipedia.org/wiki/Goldbachsche Vermutung",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does Goldbach's conjecture say – a claim nobody has managed to prove to this day?",
+        "options": [
+          "Every odd number is the product of two primes",
+          "Every even number greater than 2 is the sum of two primes",
+          "There is always exactly one prime between two square numbers",
+          "Every prime is one more than a square number"
+        ],
+        "explanation": "The strong Goldbach conjecture states: every even number greater than 2 is the sum of two primes – for example 8 = 3 + 5. Christian Goldbach put it forward in 1742 in a letter to Leonhard Euler. Computers have checked it for huge numbers, but it has still not been proved."
+      }
+    }
+  },
+  {
+    "id": "m132",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Die Würfelverdoppelung heißt auch „Delisches Problem“. Worauf geht dieser Name zurück?",
+    "options": [
+      "Auf ein lateinisches Wort, das „verdoppeln“ bedeutet",
+      "Auf ein Würfelspiel, das man in Delphi spielte",
+      "Auf eine Sage über einen Altar auf der Insel Delos",
+      "Auf die Form der Würfel, die man in Delft herstellte"
+    ],
+    "correct_index": 2,
+    "explanation": "Nach einer antiken Erzählung fragten die Bewohner der Insel Delos ein Orakel um Rat. Es wies sie an, den würfelförmigen Altar im Apollontempel in seinem Volumen zu verdoppeln. Allein mit Zirkel und unmarkiertem Lineal ist diese Aufgabe aber nicht lösbar – das bewies Pierre Wantzel 1837.",
+    "difficulty": 3,
+    "tags": [
+      "Geometrie",
+      "Würfel",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Würfelverdoppelung",
+    "source_url": "https://de.wikipedia.org/wiki/Würfelverdoppelung",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Doubling the cube is also called the “Delian problem”. Where does this name come from?",
+        "options": [
+          "From a Latin word that means “to double”",
+          "From a dice game that was played at Delphi",
+          "From a legend about an altar on Delos island",
+          "From the shape of the dice once made in Delft"
+        ],
+        "explanation": "According to an ancient story, the people of the island of Delos asked an oracle for advice. It told them to double the volume of the cube-shaped altar in the temple of Apollo. With compass and unmarked straightedge alone, however, the task cannot be done – as Pierre Wantzel proved in 1837."
+      }
+    }
+  },
+  {
+    "id": "m133",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Die Zahl 1729 heißt auch „Taxicab-Zahl“. Was ist an ihr besonders?",
+    "options": [
+      "Sie ist die Summe aller ganzen Zahlen von eins bis hundert",
+      "Sie ist die größte Primzahl, die man mit vier Ziffern schreiben kann",
+      "Sie ist eine Quadratzahl, also eine Zahl mal sich selbst genommen",
+      "Als kleinste Zahl ist sie auf zwei Arten Summe zweier Kubikzahlen"
+    ],
+    "correct_index": 3,
+    "explanation": "1729 ist die kleinste natürliche Zahl, die sich auf genau zwei Arten als Summe zweier positiver Kubikzahlen schreiben lässt. Der Name geht auf eine Anekdote zurück: Der Mathematiker Srinivasa Ramanujan soll seinen Mentor Godfrey H. Hardy darauf hingewiesen haben, dass die Nummer von Hardys Taxi eine besondere Zahl sei.",
+    "difficulty": 3,
+    "tags": [
+      "Zahlen",
+      "Kubikzahlen",
+      "Anekdote"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: 1729 (Zahl)",
+    "source_url": "https://de.wikipedia.org/wiki/1729 (Zahl)",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The number 1729 is also called a “taxicab number”. What is special about it?",
+        "options": [
+          "It is the sum of all whole numbers from one to a hundred",
+          "It is the largest prime number that can be written with four digits",
+          "It is a square number, that is, a number multiplied by itself",
+          "It is the smallest number that is a sum of two cubes in two ways"
+        ],
+        "explanation": "1729 is the smallest natural number that can be written as the sum of two positive cubes in exactly two ways. The name comes from an anecdote: the mathematician Srinivasa Ramanujan is said to have pointed out to his mentor Godfrey H. Hardy that the number of Hardy's taxi was a special number."
+      }
+    }
+  },
+  {
+    "id": "m134",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was ist ein Stammbruch?",
+    "options": [
+      "Ein Bruch mit einer 1 im Zähler, etwa ein Drittel",
+      "Ein Bruch, dessen Nenner immer eine Primzahl ist",
+      "Ein Bruch, dessen Wert größer als ein Ganzes ist",
+      "Ein Bruch, der sich gar nicht mehr kürzen lässt"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Stammbruch hat eine 1 im Zähler und eine natürliche Zahl im Nenner – er ist also der Kehrwert einer natürlichen Zahl. Die alten Ägypter hatten außer für zwei Drittel und drei Viertel nur Zeichen für Stammbrüche und mussten alle anderen Brüche in Summen von Stammbrüchen zerlegen.",
+    "difficulty": 2,
+    "tags": [
+      "Brüche",
+      "Ägypten",
+      "Rechnen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stammbruch",
+    "source_url": "https://de.wikipedia.org/wiki/Stammbruch",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a unit fraction?",
+        "options": [
+          "A fraction with 1 on top, such as one third",
+          "A fraction whose denominator is always a prime",
+          "A fraction whose value is more than one whole",
+          "A fraction that cannot be reduced any further"
+        ],
+        "explanation": "A unit fraction has 1 as its numerator and a natural number as its denominator – it is the reciprocal of a natural number. Apart from two thirds and three quarters, the ancient Egyptians had signs only for unit fractions and had to split all other fractions into sums of unit fractions."
+      }
+    }
+  },
+  {
+    "id": "m135",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wilhelm Schickards „Rechenuhr“ von 1623 gilt als erste Rechenmaschine. Wie meldete sie vermutlich, dass eine Zahl zu groß wurde?",
+    "options": [
+      "Eine Klappe sprang auf",
+      "Eine Glocke läutete",
+      "Ein Zeiger zeigte auf Rot",
+      "Eine Kugel fiel heraus"
+    ],
+    "correct_index": 1,
+    "explanation": "1623 baute Wilhelm Schickard die erste Rechenmaschine, um astronomische Rechnungen zu erleichtern; er nannte sie Rechenuhr. Sie konnte Zahlen mit bis zu sechs Stellen addieren und subtrahieren. Einen „Speicherüberlauf“ signalisierte sie vermutlich durch das Läuten einer Glocke.",
+    "difficulty": 2,
+    "tags": [
+      "Rechenmaschine",
+      "Erfindung",
+      "Glocke"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wilhelm Schickard",
+    "source_url": "https://de.wikipedia.org/wiki/Wilhelm Schickard",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Wilhelm Schickard's “calculating clock” of 1623 is considered the first calculating machine. How did it probably signal that a number had become too large?",
+        "options": [
+          "A flap sprang open",
+          "A bell rang",
+          "A pointer turned to red",
+          "A ball dropped out"
+        ],
+        "explanation": "In 1623 Wilhelm Schickard built the first calculating machine to make astronomical calculations easier; he called it a calculating clock. It could add and subtract numbers of up to six digits. It probably signalled an “overflow” by ringing a bell."
+      }
+    }
+  },
+  {
+    "id": "m136",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Bei der Berechnung der Pfeiler für die Hochrheinbrücke zwischen Deutschland und der Schweiz passierte ein bekannter Fehler. Welcher?",
+    "options": [
+      "Die Baupläne wurden versehentlich spiegelverkehrt gedruckt",
+      "Man verwechselte Meter und Zentimeter auf den Plänen",
+      "Ein Korrekturwert von 27 cm bekam das falsche Vorzeichen",
+      "Man rechnete mit einer falschen Breite des Flusses"
+    ],
+    "correct_index": 2,
+    "explanation": "Deutschland und die Schweiz haben an ihrer gemeinsamen Grenze Höhensysteme, die sich um 27 cm unterscheiden. Bei der Berechnung der Brückenpfeiler wurde dieser Korrekturwert mit dem falschen Vorzeichen eingesetzt – ein bekanntes Beispiel dafür, wie viele Rechenfehler auf einem vertauschten Vorzeichen beruhen.",
+    "difficulty": 2,
+    "tags": [
+      "Vorzeichen",
+      "Brücke",
+      "Rechenfehler"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Positive und negative Zahlen",
+    "source_url": "https://de.wikipedia.org/wiki/Positive und negative Zahlen",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A well-known mistake was made when calculating the piers for the Hochrhein bridge between Germany and Switzerland. What was it?",
+        "options": [
+          "The plans were accidentally printed mirror-inverted",
+          "Metres and centimetres were mixed up on the plans",
+          "A 27 cm correction was given the wrong sign",
+          "The width of the river was calculated wrongly"
+        ],
+        "explanation": "At their shared border, Germany and Switzerland use height systems that differ by 27 cm. When the bridge piers were calculated, this correction was applied with the wrong sign – a well-known example of how many calculation errors come from a mixed-up sign."
+      }
+    }
+  },
+  {
+    "id": "m137",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie nennt man die Kurve der Normalverteilung wegen ihrer Form oft?",
+    "options": [
+      "Zackenkurve",
+      "Wellenkurve",
+      "Treppenkurve",
+      "Glockenkurve"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Normal- oder Gauß-Verteilung ist nach Carl Friedrich Gauß benannt und ein wichtiger Typ von Wahrscheinlichkeitsverteilungen. Der Graph ihrer Dichtefunktion heißt Gauß-Kurve, Gauß-Glocke oder schlicht Glockenkurve; er ist symmetrisch um den Erwartungswert.",
+    "difficulty": 2,
+    "tags": [
+      "Statistik",
+      "Wahrscheinlichkeit",
+      "Kurve"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Normalverteilung",
+    "source_url": "https://de.wikipedia.org/wiki/Normalverteilung",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the curve of the normal distribution often called because of its shape?",
+        "options": [
+          "Zigzag curve",
+          "Wave curve",
+          "Staircase curve",
+          "Bell curve"
+        ],
+        "explanation": "The normal or Gaussian distribution is named after Carl Friedrich Gauss and is an important type of probability distribution. The graph of its density function is called the Gaussian curve, Gaussian bell or simply the bell curve; it is symmetrical about the expected value."
+      }
+    }
+  },
+  {
+    "id": "m138",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein Sudoku ist eine besondere Form des „lateinischen Quadrats“. Woher hat das lateinische Quadrat seinen Namen?",
+    "options": [
+      "Leonhard Euler füllte es mit lateinischen Buchstaben",
+      "Es wurde im alten Rom als Spielbrett benutzt",
+      "Es stammt aus einem alten lateinischen Rechenbuch",
+      "Es hat genauso viele Felder, wie Latein Buchstaben hat"
+    ],
+    "correct_index": 0,
+    "explanation": "In einem lateinischen Quadrat steht jedes Symbol in jeder Zeile und jeder Spalte genau einmal. Leonhard Euler befasste sich intensiv mit solchen Quadraten und benutzte als Symbole das lateinische Alphabet – daher der Name. Ein Sudoku ist ein lateinisches Quadrat der Ordnung 9, bei dem zusätzlich jedes der neun 3×3-Quadrate alle Symbole enthält.",
+    "difficulty": 2,
+    "tags": [
+      "Sudoku",
+      "Kombinatorik",
+      "Euler"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lateinisches Quadrat",
+    "source_url": "https://de.wikipedia.org/wiki/Lateinisches Quadrat",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A sudoku is a special kind of “Latin square”. Where does the Latin square get its name?",
+        "options": [
+          "Leonhard Euler filled it with Latin letters",
+          "It was used as a game board in ancient Rome",
+          "It comes from an old Latin arithmetic book",
+          "It has as many squares as Latin has letters"
+        ],
+        "explanation": "In a Latin square, each symbol appears exactly once in every row and every column. Leonhard Euler studied such squares closely and used the Latin alphabet as his symbols – hence the name. A sudoku is a Latin square of order 9 in which each of the nine 3×3 boxes also contains every symbol."
+      }
+    }
+  },
+  {
+    "id": "m139",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Das Geteiltzeichen ÷ ist heute vor allem im englischen Sprachraum und auf Taschenrechnern verbreitet. Wo liegt sein Ursprung?",
+    "options": [
+      "In England",
+      "In Deutschland",
+      "In Frankreich",
+      "In Italien"
+    ],
+    "correct_index": 1,
+    "explanation": "Johann Rahn führte den Strichdoppelpunkt ÷ für die Division ein; er erscheint erstmals in seinem Buch „Teutsche Algebra“ von 1659. Weil das Zeichen im englischen Sprachraum weiter verbreitet ist, heißt es manchmal „englisches Geteiltzeichen“ – sein Ursprung liegt aber in Deutschland. In deutschen Schulen nimmt man meist den Doppelpunkt.",
+    "difficulty": 2,
+    "tags": [
+      "Rechenzeichen",
+      "Division",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Geteiltzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Geteiltzeichen",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The division sign ÷ is mainly used today in English-speaking countries and on calculators. Where does it come from?",
+        "options": [
+          "From England",
+          "From Germany",
+          "From France",
+          "From Italy"
+        ],
+        "explanation": "Johann Rahn introduced the obelus ÷ for division; it first appears in his book “Teutsche Algebra” of 1659. Because the sign is more common in English-speaking countries, it is sometimes called the “English division sign” – but it originated in Germany. German schools mostly use the colon."
+      }
+    }
+  },
+  {
+    "id": "m140",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wofür nutzten die alten Ägypter die Zwölfknotenschnur?",
+    "options": [
+      "Zum Messen der Wassertiefe im Nil",
+      "Zum Zählen der Tage eines Jahres",
+      "Zum Wiegen von Getreide und Gold",
+      "Zum Messen von Winkeln im Gelände"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Zwölfknotenschnur war ein Messinstrument für die Feldmessung von Winkeln. Die geschlossene Schnur war in 12 Königsellen eingeteilt und wurde als Dreieck mit den Seiten 3, 4 und 5 aufgespannt – sie beruht auf der Umkehrung des Satzes des Pythagoras.",
+    "difficulty": 2,
+    "tags": [
+      "Ägypten",
+      "Vermessung",
+      "Pythagoras"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zwölfknotenschnur",
+    "source_url": "https://de.wikipedia.org/wiki/Zwölfknotenschnur",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the ancient Egyptians use the twelve-knot rope for?",
+        "options": [
+          "Measuring the depth of the Nile",
+          "Counting the days of a year",
+          "Weighing grain and gold",
+          "Measuring angles out in the field"
+        ],
+        "explanation": "The twelve-knot rope was an instrument for measuring angles in land surveying. The closed rope was divided into 12 royal cubits and stretched into a triangle with sides of 3, 4 and 5 – it relies on the converse of Pythagoras' theorem."
+      }
+    }
+  },
+  {
+    "id": "l162",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Diphthong wie das „au“ in „Baum“?",
+    "options": [
+      "Ein Doppellaut aus zwei Vokalen in einer Silbe",
+      "Ein doppelt geschriebener Mitlaut wie das „ll“",
+      "Ein Wort, das vorwärts und rückwärts gleich ist",
+      "Ein Vokal, der besonders lang gesprochen wird"
+    ],
+    "correct_index": 0,
+    "explanation": "Ein Diphthong – auch Doppellaut oder Zwielaut – besteht aus zwei verschiedenen Vokalen innerhalb einer einzigen Silbe. Im Deutschen schreibt man Diphthonge meist als ei, au, äu und eu. Am Zeilenende werden sie nicht getrennt.",
+    "difficulty": 1,
+    "tags": [
+      "Laute",
+      "Vokale",
+      "Aussprache"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Diphthong",
+    "source_url": "https://de.wikipedia.org/wiki/Diphthong",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a diphthong, like the “au” in the German word “Baum” (tree)?",
+        "options": [
+          "A double sound of two vowels in one syllable",
+          "A doubled consonant such as “ll”",
+          "A word that reads the same forwards and backwards",
+          "A vowel that is spoken especially long"
+        ],
+        "explanation": "A diphthong is made of two different vowels within a single syllable. In German, diphthongs are mostly written ei, au, äu and eu. They are not split at the end of a line."
+      }
+    }
+  },
+  {
+    "id": "l163",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutet das Wort „Bungalow“ ursprünglich?",
+    "options": [
+      "Haus direkt am Meeresstrand",
+      "Haus nach bengalischer Art",
+      "Haus aus Bambus und Palmblättern",
+      "Haus ohne Keller und Dachboden"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Wort kommt aus nordindischen Sprachen und bedeutet wörtlich „Bengalisches“, also ein Haus in bengalischer Art. Britische Kolonisten nahmen sich im 18. Jahrhundert die eingeschossigen Dorfhäuser Bengalens mit ihrer breiten Veranda zum Vorbild. In Deutschland hatten Bungalows in den 1960er Jahren ihre Blütezeit.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Indien",
+      "Haus"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bungalow",
+    "source_url": "https://de.wikipedia.org/wiki/Bungalow",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the word “bungalow” originally mean?",
+        "options": [
+          "A house right on the beach",
+          "A house in the Bengali style",
+          "A house of bamboo and palm leaves",
+          "A house without a cellar or loft"
+        ],
+        "explanation": "The word comes from northern Indian languages and literally means “Bengali”, i.e. a house in the Bengali style. In the 18th century British colonists took the single-storey village houses of Bengal, with their wide verandas, as a model. In Germany, bungalows had their heyday in the 1960s."
+      }
+    }
+  },
+  {
+    "id": "l164",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist der „Weißwurstäquator“?",
+    "options": [
+      "Eine Grenze, hinter der keine Wurst verkauft wird",
+      "Ein Breitengrad, auf dem es keine Jahreszeiten gibt",
+      "Eine scherzhaft gedachte Grenze rund um Altbayern",
+      "Die Linie, an der man eine Weißwurst aufschneidet"
+    ],
+    "correct_index": 2,
+    "explanation": "„Weißwurstäquator“ ist die scherzhafte Bezeichnung für eine gedachte Kultur- und Sprachgrenze zwischen Altbayern und dem übrigen Deutschland. Meist zieht man ihn entlang der Donau, manche auch entlang des Mains. Namensgebend ist die Weißwurst, eines der bekanntesten Wahrzeichen der altbayerischen Esskultur.",
+    "difficulty": 1,
+    "tags": [
+      "Bayern",
+      "Dialekt",
+      "Grenze"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weißwurstäquator",
+    "source_url": "https://de.wikipedia.org/wiki/Weißwurstäquator",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the “Weißwurstäquator” (“white sausage equator”)?",
+        "options": [
+          "A border beyond which no sausage is sold",
+          "A line of latitude where there are no seasons",
+          "A jokey imaginary border around Old Bavaria",
+          "The line along which a white sausage is cut"
+        ],
+        "explanation": "“Weißwurstäquator” is a jokey name for an imaginary cultural and language border between Old Bavaria and the rest of Germany. It is usually drawn along the Danube, though some draw it along the Main. It is named after the white sausage, one of the best-known symbols of Old Bavarian food culture."
+      }
+    }
+  },
+  {
+    "id": "l165",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was bedeutete der Gruß „Grüß Gott“ ursprünglich?",
+    "options": [
+      "Gott ist größer als alle Menschen",
+      "Bitte grüße Gott ganz herzlich von mir",
+      "Ich bin gerade auf dem Weg zur Kirche",
+      "Möge dir Gott freundlich begegnen"
+    ],
+    "correct_index": 3,
+    "explanation": "„Grüß Gott“ ist eine Verkürzung von „grüß dich Gott“, also eine Wunschform. Die ursprüngliche Bedeutung ist „möge dir Gott freundlich begegnen“ oder „Gott segne dich“. In Teilen Süddeutschlands, Österreichs und Südtirols ist er die häufigste Grußform.",
+    "difficulty": 1,
+    "tags": [
+      "Gruß",
+      "Süddeutschland",
+      "Österreich"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grüß Gott",
+    "source_url": "https://de.wikipedia.org/wiki/Grüß Gott",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the greeting “Grüß Gott” originally mean?",
+        "options": [
+          "God is greater than all people",
+          "Please give God my warmest regards",
+          "I am on my way to church right now",
+          "May God be kind to you"
+        ],
+        "explanation": "“Grüß Gott” is short for “grüß dich Gott”, a wish. Its original meaning is “may God be kind to you” or “God bless you”. In parts of southern Germany, Austria and South Tyrol it is the most common greeting."
+      }
+    }
+  },
+  {
+    "id": "l166",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Im Schweizerdeutschen sagt man „ich bin gegangen“, aber nie „ich ging“. Wie nennt man das?",
+    "options": [
+      "Oberdeutscher Präteritumschwund",
+      "Alemannische Lautverschiebung",
+      "Schweizerischer Konjunktivtausch",
+      "Bairisch-alemannische Futurlücke"
+    ],
+    "correct_index": 0,
+    "explanation": "Als Oberdeutschen Präteritumschwund bezeichnet man das Verschwinden der einfachen Vergangenheit („ich ging“) in den alemannischen und bairischen Dialekten. Im Schweizerdeutschen ist das Präteritum vollständig vom Perfekt („ich bin gegangen“) abgelöst worden; anderswo haben nur noch „sein“ und einige Hilfs- und Modalverben einfache Vergangenheitsformen.",
+    "difficulty": 2,
+    "tags": [
+      "Grammatik",
+      "Dialekt",
+      "Vergangenheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oberdeutscher Präteritumschwund",
+    "source_url": "https://de.wikipedia.org/wiki/Oberdeutscher Präteritumschwund",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Swiss German people say “ich bin gegangen” (I have gone) but never “ich ging” (I went). What is this called?",
+        "options": [
+          "Upper German preterite loss",
+          "Alemannic sound shift",
+          "Swiss subjunctive swap",
+          "Bavarian-Alemannic future gap"
+        ],
+        "explanation": "Upper German preterite loss is the disappearance of the simple past (“ich ging”) in the Alemannic and Bavarian dialects. In Swiss German the simple past has been completely replaced by the perfect (“ich bin gegangen”); elsewhere only “to be” and a few auxiliary and modal verbs still have simple past forms."
+      }
+    }
+  },
+  {
+    "id": "l167",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Woher kommt das Wort „Friedhof“ ursprünglich?",
+    "options": [
+      "Von „Frieden“, weil die Toten dort in Ruhe liegen",
+      "Von „frithof“, dem umzäunten Platz um eine Kirche",
+      "Vom Namen Friedrich, den viele Totengräber trugen",
+      "Von „frieren“, weil es dort im Schatten kalt ist"
+    ],
+    "correct_index": 1,
+    "explanation": "„Friedhof“ geht auf das althochdeutsche „frithof“ zurück, die Bezeichnung für den eingefriedeten, also umzäunten Bereich um eine Kirche. Erst als diese Wurzel verblasste, verstand man das Wort als „Hof des Friedens“.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Kirche",
+      "Althochdeutsch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Friedhof",
+    "source_url": "https://de.wikipedia.org/wiki/Friedhof",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the German word “Friedhof” (cemetery) originally come from?",
+        "options": [
+          "From “Frieden” (peace), because the dead rest there",
+          "From “frithof”, the fenced-in ground around a church",
+          "From the name Friedrich, which many gravediggers had",
+          "From “frieren” (to freeze), because it is cold in the shade"
+        ],
+        "explanation": "“Friedhof” goes back to Old High German “frithof”, the word for the enclosed, i.e. fenced-in, area around a church. Only when this root faded did people understand the word as “yard of peace”."
+      }
+    }
+  },
+  {
+    "id": "l168",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wo wird Friesisch heute von den meisten Menschen gesprochen?",
+    "options": [
+      "In Dänemark",
+      "In Norddeutschland",
+      "In den Niederlanden",
+      "In Großbritannien"
+    ],
+    "correct_index": 2,
+    "explanation": "Friesisch ist eine Gruppe von drei Sprachen aus dem nordseegermanischen Zweig der westgermanischen Sprachen. Ursprünglich war es an der Nordseeküste zwischen Rhein- und Elbmündung verbreitet. Heute sprechen es noch etwa 400.000 Menschen, vor allem in den Niederlanden.",
+    "difficulty": 2,
+    "tags": [
+      "Friesisch",
+      "Nordsee",
+      "Minderheitensprache"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Friesische Sprachen",
+    "source_url": "https://de.wikipedia.org/wiki/Friesische Sprachen",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where is Frisian spoken by the most people today?",
+        "options": [
+          "In Denmark",
+          "In northern Germany",
+          "In the Netherlands",
+          "In Great Britain"
+        ],
+        "explanation": "Frisian is a group of three languages in the North Sea Germanic branch of the West Germanic languages. It was originally spoken along the North Sea coast between the mouths of the Rhine and the Elbe. Today about 400,000 people still speak it, mostly in the Netherlands."
+      }
+    }
+  },
+  {
+    "id": "l169",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Aus welcher Sprache ist Afrikaans, eine Amtssprache Südafrikas, entstanden?",
+    "options": [
+      "Aus dem Französischen",
+      "Aus dem Englischen",
+      "Aus dem Portugiesischen",
+      "Aus dem Niederländischen"
+    ],
+    "correct_index": 3,
+    "explanation": "Afrikaans, früher auch Kapholländisch genannt, ist aus dem Neuniederländischen des 17. Jahrhunderts entstanden und hat sich seither stark vereinfacht. Es ist Amtssprache in Südafrika und in Namibia eine anerkannte Minderheitensprache.",
+    "difficulty": 2,
+    "tags": [
+      "Afrika",
+      "Niederländisch",
+      "Sprachgeschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Afrikaans",
+    "source_url": "https://de.wikipedia.org/wiki/Afrikaans",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which language did Afrikaans, an official language of South Africa, develop from?",
+        "options": [
+          "From French",
+          "From English",
+          "From Portuguese",
+          "From Dutch"
+        ],
+        "explanation": "Afrikaans, once also called Cape Dutch, developed from the Dutch of the 17th century and has since been greatly simplified. It is an official language in South Africa and a recognised minority language in Namibia."
+      }
+    }
+  },
+  {
+    "id": "l170",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Wort „Sonnabend“ für Samstag kam aus einer anderen Sprache ins Deutsche. Aus welcher?",
+    "options": [
+      "Aus dem Lateinischen",
+      "Aus dem Altenglischen",
+      "Aus dem Altnordischen",
+      "Aus dem Griechischen"
+    ],
+    "correct_index": 1,
+    "explanation": "„Sonnabend“ (althochdeutsch „sunnunaband“, altenglisch „sunnanæfen“) kam wohl mit der angelsächsischen Mission im 7. und 8. Jahrhundert aus dem Altenglischen in den deutschen Sprachraum. Der zweite Teil bedeutete ursprünglich „(Vor-)Abend“; später stand das Wort für den ganzen Tag. Heute sagt man es vor allem in Nord- und Ostdeutschland.",
+    "difficulty": 3,
+    "tags": [
+      "Wochentage",
+      "Wortherkunft",
+      "Englisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Samstag",
+    "source_url": "https://de.wikipedia.org/wiki/Samstag",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The German word “Sonnabend” for Saturday came into German from another language. Which one?",
+        "options": [
+          "From Latin",
+          "From Old English",
+          "From Old Norse",
+          "From Greek"
+        ],
+        "explanation": "“Sonnabend” (Old High German “sunnunaband”, Old English “sunnanæfen”) probably came into German from Old English with the Anglo-Saxon mission in the 7th and 8th centuries. The second part originally meant “eve”; later the word came to mean the whole day. Today it is used mainly in northern and eastern Germany."
+      }
+    }
+  },
+  {
+    "id": "l171",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Was ist ein Ambigramm?",
+    "options": [
+      "Ein Wort, das in zwei Sprachen dasselbe bedeutet",
+      "Ein Satz, der alle Buchstaben des Alphabets enthält",
+      "Ein Schriftzug, der auch kopfstehend lesbar ist",
+      "Ein Text, der nur aus Bildern statt Buchstaben besteht"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Ambigramm (lateinisch „ambo“ = beide, griechisch „gramma“ = Schrift) ist ein Schriftzug, der um einen bestimmten Winkel gedreht – meist um 180 Grad – wieder einen Schriftzug ergibt. Man kann ihn also aus zwei Blickwinkeln lesen.",
+    "difficulty": 1,
+    "tags": [
+      "Schrift",
+      "Rätsel",
+      "Symmetrie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ambigramm",
+    "source_url": "https://de.wikipedia.org/wiki/Ambigramm",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is an ambigram?",
+        "options": [
+          "A word that means the same in two languages",
+          "A sentence that contains every letter of the alphabet",
+          "Lettering that can also be read upside down",
+          "A text made only of pictures instead of letters"
+        ],
+        "explanation": "An ambigram (Latin “ambo” = both, Greek “gramma” = writing) is lettering that, turned through a certain angle – usually 180 degrees – again forms lettering. So it can be read from two points of view."
+      }
+    }
+  },
+  {
+    "id": "kn162",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie entsteht das Muster auf handgemachtem Marmorpapier?",
+    "options": [
+      "Man reibt Farbpulver mit einem nassen Schwamm ins Papier",
+      "Das Papier wird fest auf eine echte Marmorplatte gepresst",
+      "Man druckt Fotos von Marmorsteinen auf das Papier auf",
+      "Farbe schwimmt auf einem Bad und wird mit Papier abgehoben"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein flaches Becken wird mit einer dickflüssigen Grundlage gefüllt. Darauf bringt man Aquarellfarben, die mit Ochsengalle versetzt sind, damit sie sich auf der Oberfläche ausbreiten. Dann legt man einen Papierbogen vorsichtig auf das Bad und hebt ihn wieder ab – die Farbe bleibt am Papier haften.",
+    "difficulty": 2,
+    "tags": [
+      "Papier",
+      "Handwerk",
+      "Muster"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Marmorpapier",
+    "source_url": "https://de.wikipedia.org/wiki/Marmorpapier",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is the pattern on handmade marbled paper created?",
+        "options": [
+          "Colour powder is rubbed into the paper with a wet sponge",
+          "The paper is pressed firmly onto a real marble slab",
+          "Photos of marble stones are printed onto the paper",
+          "Paint floats on a bath and is lifted off with paper"
+        ],
+        "explanation": "A shallow tray is filled with a thick base. Watercolours mixed with ox gall are put on top so that they spread across the surface. Then a sheet of paper is carefully laid on the bath and lifted off again – the paint sticks to the paper."
+      }
+    }
+  },
+  {
+    "id": "kn163",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Warum können mit Bleiweiß gemalte Stellen auf alten Bildern dunkel werden?",
+    "options": [
+      "Es bildet mit Schwefel in der Luft schwarzes Bleisulfid",
+      "Es saugt mit der Zeit Ruß von Kerzen und Öfen auf",
+      "Die weiße Farbe verdunstet langsam und gibt den Grund frei",
+      "Es rostet wie Eisen, sobald es einmal feucht geworden ist"
+    ],
+    "correct_index": 0,
+    "explanation": "Bleiweiß ist seit dem Altertum ein wichtiges Weißpigment mit hoher Deckkraft. Es dunkelt aber nach: Mit Schwefelwasserstoff, der in Spuren überall in der Luft vorkommt, bildet sich tiefschwarzes Bleisulfid. Außerdem ist Bleiweiß giftig; seit den 1960er Jahren wird weltweit viel Titanweiß hergestellt.",
+    "difficulty": 3,
+    "tags": [
+      "Farbe",
+      "Pigment",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bleiweiß",
+    "source_url": "https://de.wikipedia.org/wiki/Bleiweiß",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why can areas painted with lead white turn dark on old pictures?",
+        "options": [
+          "It forms black lead sulphide with sulphur from the air",
+          "Over time it soaks up soot from candles and stoves",
+          "The white paint slowly evaporates and exposes the ground",
+          "It rusts like iron as soon as it has become damp"
+        ],
+        "explanation": "Lead white has been an important white pigment with great hiding power since antiquity. But it darkens: with hydrogen sulphide, present in traces everywhere in the air, it forms deep black lead sulphide. Lead white is also poisonous; since the 1960s titanium white has been produced in large quantities worldwide."
+      }
+    }
+  },
+  {
+    "id": "kn164",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Warum konnten Tapeten mit „Schweinfurter Grün“ im 19. Jahrhundert gefährlich sein?",
+    "options": [
+      "Die grüne Farbe konnte bei großer Hitze leicht Feuer fangen",
+      "Ein Pilz setzte aus der Farbe giftige Arsenverbindungen frei",
+      "Das leuchtende Grün lockte giftige Insekten in die Zimmer",
+      "Die schweren Tapeten lösten sich und fielen von den Wänden"
+    ],
+    "correct_index": 1,
+    "explanation": "Schweinfurter Grün enthält Kupfer und Arsen. Es war als leuchtende, lichtechte Malerfarbe geschätzt, obwohl seine Giftigkeit früh bekannt war. 1844 wurde gezeigt, dass ein Pilz aus leimgebundenem Schweinfurter Grün organische Arsenverbindungen freisetzt, die über die Atemluft zu Vergiftungen führen. Benannt ist die Farbe nach Schweinfurt, wo sie zuerst industriell hergestellt wurde.",
+    "difficulty": 3,
+    "tags": [
+      "Farbe",
+      "Arsen",
+      "Tapete"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schweinfurter Grün",
+    "source_url": "https://de.wikipedia.org/wiki/Schweinfurter Grün",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why could wallpaper coloured with “Schweinfurt green” be dangerous in the 19th century?",
+        "options": [
+          "The green paint could easily catch fire in great heat",
+          "A fungus released toxic arsenic compounds from the paint",
+          "The bright green lured poisonous insects into the rooms",
+          "The heavy wallpaper came loose and fell off the walls"
+        ],
+        "explanation": "Schweinfurt green contains copper and arsenic. It was prized as a bright, lightfast paint, although its toxicity was known early on. In 1844 it was shown that a fungus releases organic arsenic compounds from glue-bound Schweinfurt green, which cause poisoning through the air people breathe. The paint is named after Schweinfurt, where it was first made industrially."
+      }
+    }
+  },
+  {
+    "id": "kn165",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie bereitete sich Vincent van Gogh auf sein Gemälde „Die Kartoffelesser“ von 1885 vor?",
+    "options": [
+      "Er malte es nach einer Fotografie aus einer Zeitung",
+      "Er ließ sich die Szene von Schauspielern vorspielen",
+      "Mit fast 40 gemalten Studien von Köpfen und Händen",
+      "Er kopierte ein älteres Bild eines anderen Malers"
+    ],
+    "correct_index": 2,
+    "explanation": "„Die Kartoffelesser“ malte van Gogh im April 1885 in Nuenen; es gilt als sein erstes großes Werk und zeigt Bauern beim Nachtmahl. Fast 40 gemalte Studien von Köpfen, Händen und anderen Bildteilen zeigen, wie sorgfältig er sich darauf vorbereitete.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Studien",
+      "Bauern"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Kartoffelesser",
+    "source_url": "https://de.wikipedia.org/wiki/Die Kartoffelesser",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did Vincent van Gogh prepare for his 1885 painting “The Potato Eaters”?",
+        "options": [
+          "He painted it from a photograph in a daily newspaper",
+          "He had actors act out the scene for him",
+          "With almost 40 painted studies of heads and hands",
+          "He copied an older picture by another painter"
+        ],
+        "explanation": "Van Gogh painted “The Potato Eaters” in April 1885 in Nuenen; it is considered his first major work and shows peasants at their evening meal. Almost 40 painted studies of heads, hands and other parts of the picture show how carefully he prepared for it."
+      }
+    }
+  },
+  {
+    "id": "kn166",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Von wem stammt der Titel „Die Toteninsel“ für Arnold Böcklins berühmtes Bildmotiv?",
+    "options": [
+      "Von einem Kritiker in Berlin",
+      "Von einem Museum in Basel",
+      "Von einem Dichter aus Basel",
+      "Von seinem Kunsthändler"
+    ],
+    "correct_index": 3,
+    "explanation": "„Die Toteninsel“ ist der Name von fünf Gemälden Arnold Böcklins, entstanden zwischen 1880 und 1886, mit einer zypressenbestandenen Felseninsel. Der Titel stammt nicht von Böcklin, sondern von seinem Kunsthändler Fritz Gurlitt – auch wenn Böcklin den Namen in einem Brief schon selbst benutzte. Vier der fünf Fassungen sind erhalten.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Symbolismus",
+      "Schweiz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Die Toteninsel",
+    "source_url": "https://de.wikipedia.org/wiki/Die Toteninsel",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who came up with the title “Isle of the Dead” for Arnold Böcklin's famous motif?",
+        "options": [
+          "A critic in Berlin",
+          "A museum in Basel",
+          "A poet from Basel",
+          "His art dealer"
+        ],
+        "explanation": "“Isle of the Dead” is the name of five paintings by Arnold Böcklin, made between 1880 and 1886, showing a rocky island with cypress trees. The title did not come from Böcklin but from his art dealer Fritz Gurlitt – even though Böcklin had already used the name himself in a letter. Four of the five versions survive."
+      }
+    }
+  },
+  {
+    "id": "kn167",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Albrecht Dürers „Betende Hände“ von 1508 waren eine Vorstudie für einen Altar. Was wurde aus diesem Altar?",
+    "options": [
+      "Er verbrannte 1729",
+      "Er steht heute in Rom",
+      "Er wurde nie fertiggestellt",
+      "Er wurde in Teile zersägt"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Frankfurter Tuchhändler Jakob Heller bestellte bei Dürer einen Flügelaltar, den Heller-Altar. Für dessen Mitteltafel zeichnete Dürer 1508 die Hände eines Apostels. Der Altar verbrannte 1729; erhalten sind nur Vorstudien wie die „Betenden Hände“ – heute das wohl am häufigsten nachgedruckte Bild Dürers.",
+    "difficulty": 2,
+    "tags": [
+      "Zeichnung",
+      "Altar",
+      "Dürer"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Betende Hände",
+    "source_url": "https://de.wikipedia.org/wiki/Betende Hände",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Albrecht Dürer's “Praying Hands” of 1508 was a study for an altarpiece. What became of that altarpiece?",
+        "options": [
+          "It burned in 1729",
+          "It stands in Rome today",
+          "It was never finished",
+          "It was sawn into pieces"
+        ],
+        "explanation": "The Frankfurt cloth merchant Jakob Heller commissioned a winged altarpiece from Dürer, the Heller Altarpiece. For its central panel Dürer drew the hands of an apostle in 1508. The altarpiece burned in 1729; only preparatory studies such as the “Praying Hands” survive – today probably Dürer's most reproduced image."
+      }
+    }
+  },
+  {
+    "id": "kn168",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was entdeckten Forscher mit Röntgenstrahlen unter der kahlen Wand in Vermeers „Dienstmagd mit Milchkrug“?",
+    "options": [
+      "Ein übermaltes Fenster",
+      "Eine übermalte Landkarte",
+      "Eine zweite, übermalte Magd",
+      "Ein verstecktes Selbstbildnis"
+    ],
+    "correct_index": 1,
+    "explanation": "Das Ölgemälde aus den Jahren 1658 bis 1660 zeigt eine Magd, die Milch umfüllt. Röntgenuntersuchungen ergaben, dass Vermeer ursprünglich eine Landkarte an der Wand vorgesehen hatte. Indem er diesen damals luxuriösen Gegenstand übermalte, betonte er die einfache Einrichtung des Raumes.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Röntgen",
+      "Niederlande"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dienstmagd mit Milchkrug",
+    "source_url": "https://de.wikipedia.org/wiki/Dienstmagd mit Milchkrug",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did researchers find with X-rays beneath the bare wall in Vermeer's “The Milkmaid”?",
+        "options": [
+          "A painted-over window",
+          "A painted-over map",
+          "A second, painted-over maid",
+          "A hidden self-portrait"
+        ],
+        "explanation": "The oil painting from 1658 to 1660 shows a maid pouring milk. X-ray examinations revealed that Vermeer originally planned a map on the wall. By painting over this object, a luxury at the time, he emphasised how plainly the room is furnished."
+      }
+    }
+  },
+  {
+    "id": "kn169",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie wird Matthias Grünewalds Isenheimer Altar heute im Museum in Colmar gezeigt?",
+    "options": [
+      "Meist geschlossen, geöffnet wird er nur am Ostersonntag",
+      "Nur als Kopie, weil das Original dafür viel zu empfindlich ist",
+      "In seine Schauseiten zerlegt, damit man alle zugleich sieht",
+      "Auf einer Drehscheibe, die sich jede Stunde einmal dreht"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Isenheimer Altar ist ein Wandelaltar mit beweglichen Flügeln; seine Gemälde schuf Matthias Grünewald 1512 bis 1516. Im Musée Unterlinden in Colmar wurde der ursprüngliche Zustand mit den beweglichen Flügeln aufgegeben: Die Tafeln stehen getrennt in drei Gruppen, damit alle Schauseiten gleichzeitig in einem Raum zu sehen sind.",
+    "difficulty": 3,
+    "tags": [
+      "Altar",
+      "Museum",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Isenheimer Altar",
+    "source_url": "https://de.wikipedia.org/wiki/Isenheimer Altar",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is Matthias Grünewald's Isenheim Altarpiece shown in the museum in Colmar today?",
+        "options": [
+          "Mostly closed; it is only opened on Easter Sunday",
+          "Only as a copy, because the original is far too fragile",
+          "Split into its views so that all can be seen at once",
+          "On a turntable that turns round once every hour"
+        ],
+        "explanation": "The Isenheim Altarpiece is a transforming altarpiece with movable wings; Matthias Grünewald painted its panels from 1512 to 1516. In the Musée Unterlinden in Colmar the original arrangement with movable wings was given up: the panels stand separately in three groups so that all the views can be seen at the same time in one room."
+      }
+    }
+  },
+  {
+    "id": "kn170",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist das Besondere an der Bernwardstür im Hildesheimer Dom, die um 1015 entstand?",
+    "options": [
+      "Jeder Bronzeflügel wurde aus einem Stück gegossen",
+      "Sie ist aus einem einzigen Eichenstamm geschnitzt",
+      "Sie ist vollständig mit echtem Blattgold überzogen",
+      "Sie lässt sich nur von innen mit einem Seil öffnen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die zweiflügelige Bronzetür entstand um 1015. Jeder Türflügel ist etwa 4,72 Meter hoch, wiegt rund 1,85 Tonnen und wurde aus einem Stück gegossen – für die damalige Zeit eine große handwerkliche Leistung. Ihre Bilder stellen Szenen aus dem 1. Buch Mose und aus dem Leben Jesu einander gegenüber.",
+    "difficulty": 2,
+    "tags": [
+      "Bronze",
+      "Dom",
+      "Mittelalter"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bernwardstür",
+    "source_url": "https://de.wikipedia.org/wiki/Bernwardstür",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about the Bernward Doors in Hildesheim Cathedral, made around 1015?",
+        "options": [
+          "Each bronze leaf was cast in a single piece",
+          "They are carved from a single oak trunk",
+          "They are completely covered in real gold leaf",
+          "They can only be opened from inside with a rope"
+        ],
+        "explanation": "The two-leaved bronze door was made around 1015. Each leaf is about 4.72 metres high, weighs around 1.85 tonnes and was cast in a single piece – a great feat of craftsmanship for the time. Its pictures set scenes from the Book of Genesis against scenes from the life of Jesus."
+      }
+    }
+  },
+  {
+    "id": "kn171",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist das Hauptthema des Genter Altars von Jan van Eyck und wohl seinem Bruder Hubert?",
+    "options": [
+      "Der Bau der Arche Noah",
+      "Die Anbetung des Lammes",
+      "Das letzte Abendmahl Jesu",
+      "Die Heiligen Drei Könige"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Flügelaltar in der St.-Bavo-Kathedrale in Gent wurde 1432 oder 1435 aufgestellt. Hauptthema ist die Anbetung des Lammes aus der Offenbarung des Johannes, mit Engeln und Heiligen, die sich um das Lamm versammeln. Wie weit Hubert van Eyck mitgearbeitet hat, ist unter Forschern umstritten.",
+    "difficulty": 2,
+    "tags": [
+      "Altar",
+      "Flandern",
+      "Malerei"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Genter Altar",
+    "source_url": "https://de.wikipedia.org/wiki/Genter Altar",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the main subject of the Ghent Altarpiece by Jan van Eyck and probably his brother Hubert?",
+        "options": [
+          "The building of Noah's Ark",
+          "The Adoration of the Lamb",
+          "The Last Supper of Jesus",
+          "The Three Wise Men"
+        ],
+        "explanation": "The winged altarpiece in St Bavo's Cathedral in Ghent was installed in 1432 or 1435. Its main subject is the Adoration of the Lamb from the Book of Revelation, with angels and saints gathering around the Lamb. How much Hubert van Eyck contributed is disputed among researchers."
+      }
+    }
   }
 ]
