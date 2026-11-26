@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "t134",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Fensterglas wird heute meist als Floatglas hergestellt. Worauf schwimmt die flüssige Glasschmelze dabei?",
+    "options": [
+      "Auf einem Becken mit kaltem Wasser",
+      "Auf einem Bad aus flüssigem Zinn",
+      "Auf einer Schicht aus heißem Sand",
+      "Auf einem Kissen aus Druckluft"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Floatverfahren fließt die Glasschmelze fortlaufend auf ein Bad aus flüssigem Zinn und schwimmt darauf – „to float“ heißt auf Englisch schwimmen. So entsteht gleichmäßig ebenes Glas ohne aufwendigen Schliff und Politur. Seit den 1960er Jahren hat das Verfahren andere Methoden weitgehend verdrängt.",
+    "difficulty": 2,
+    "tags": [
+      "Glas",
+      "Herstellung",
+      "Fenster"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Floatglas",
+    "source_url": "https://de.wikipedia.org/wiki/Floatglas",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Window glass today is mostly made as float glass. What does the molten glass float on?",
+        "options": [
+          "On a pool of cold water",
+          "On a bath of molten tin",
+          "On a layer of hot sand",
+          "On a cushion of compressed air"
+        ],
+        "explanation": "In the float process the molten glass flows continuously onto a bath of liquid tin and floats on it – hence the name. This produces evenly flat glass without laborious grinding and polishing. Since the 1960s the process has largely replaced other methods."
+      }
+    }
+  },
+  {
+    "id": "t135",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "1908 bekam Édouard Bénédictus ein Patent auf ein Sicherheitsglas aus verklebten Scheiben. Welchen Beruf hatte er?",
+    "options": [
+      "Uhrmacher und Juwelier",
+      "Glasermeister und Händler",
+      "Buchbinder und Künstler",
+      "Autobauer und Rennfahrer"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Buchbinder und Künstler überzog Glasscheiben mit einer Schicht aus Gelatine und Cellulose und presste sie mit einer Celluloidschicht unter Wärme zusammen. Heute verbindet bei Verbundglas eine Kunststoffschicht die Scheiben; bricht das Glas, verhindert sie, dass Scherben umherfliegen. Deshalb bestehen Frontscheiben von Fahrzeugen aus Verbundglas.",
+    "difficulty": 2,
+    "tags": [
+      "Glas",
+      "Erfindung",
+      "Sicherheit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Verbundglas",
+    "source_url": "https://de.wikipedia.org/wiki/Verbundglas",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1908 Édouard Bénédictus received a patent for safety glass made of bonded panes. What was his profession?",
+        "options": [
+          "Watchmaker and jeweller",
+          "Glazier and merchant",
+          "Bookbinder and artist",
+          "Car maker and racing driver"
+        ],
+        "explanation": "The bookbinder and artist coated glass panes with a layer of gelatine and cellulose and pressed them together with a layer of celluloid under heat. Today a plastic layer bonds the panes of laminated glass; if the glass breaks, it stops shards from flying about. That is why vehicle windscreens are made of laminated glass."
+      }
+    }
+  },
+  {
+    "id": "t136",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Woher hat der Kronkorken, der Getränkeflaschen verschließt, das „Kron“ in seinem Namen?",
+    "options": [
+      "Er trug anfangs das Bild einer Krone",
+      "Er wurde zuerst für Königshöfe gemacht",
+      "Sein Erfinder hieß mit Nachnamen Krone",
+      "Sein Rand ist kronenförmig gebogen"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Kronkorken ist ein rundes Blechstück, dessen Rand kronenförmig gebogen ist; innen dichtet eine Einlage aus Kunststoff. Der Erfinder William Painter aus Baltimore meldete ihn 1892 zum Patent an und nannte ihn „Crown Cork“. Er löste den Bügelverschluss größtenteils ab.",
+    "difficulty": 1,
+    "tags": [
+      "Erfindung",
+      "Flasche",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kronkorken",
+    "source_url": "https://de.wikipedia.org/wiki/Kronkorken",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the crown cap, which seals drinks bottles, named after a crown?",
+        "options": [
+          "It first bore the picture of a crown",
+          "It was first made for royal courts",
+          "Its inventor's surname was Crown",
+          "Its rim is bent into a crown shape"
+        ],
+        "explanation": "A crown cap is a round piece of sheet metal whose rim is bent like a crown; a plastic insert inside seals it. The inventor William Painter from Baltimore applied for a patent in 1892 and called it the “Crown Cork”. It largely replaced the swing-top stopper."
+      }
+    }
+  },
+  {
+    "id": "t137",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Carl Auer von Welsbach tränkte ein Netz aus Baumwolle mit Salzen Seltener Erden. Was tat er danach, um seinen Glühstrumpf zu erhalten?",
+    "options": [
+      "Er verbrannte die Baumwolle vorsichtig",
+      "Er kochte das Netz in Salzwasser aus",
+      "Er überzog das Netz mit flüssigem Glas",
+      "Er ließ es monatelang in der Sonne"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim vorsichtigen Verbrennen blieb von der Baumwolle ein filigranes Gerüst aus den Oxiden übrig. In der Gasflamme leuchtet dieses Gerüst hell und weiß – viel heller als die Flamme allein. Auer von Welsbach meldete das Verfahren 1885 zum Patent an.",
+    "difficulty": 2,
+    "tags": [
+      "Licht",
+      "Erfindung",
+      "Chemie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Glühstrumpf",
+    "source_url": "https://de.wikipedia.org/wiki/Glühstrumpf",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Carl Auer von Welsbach soaked a cotton net in salts of rare earths. What did he do next to obtain his gas mantle?",
+        "options": [
+          "He carefully burned away the cotton",
+          "He boiled the net in salt water",
+          "He coated the net with liquid glass",
+          "He left it in the sun for months"
+        ],
+        "explanation": "Burning away the cotton left a delicate framework of the oxides. In a gas flame this framework glows bright white – far brighter than the flame on its own. Auer von Welsbach applied for a patent on the process in 1885."
+      }
+    }
+  },
+  {
+    "id": "t138",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Der Intervallscheibenwischer wurde 1964 erfunden. Welches Vorbild aus dem menschlichen Körper hatte sein Erfinder?",
+    "options": [
+      "Den Herzschlag",
+      "Das Augenlid",
+      "Die Atmung",
+      "Den Schluckauf"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Erfinder ahmte das Augenlid nach, das sich von selbst alle paar Sekunden kurz schließt und wieder öffnet. So wischt auch der Intervallwischer nur in Abständen über die Scheibe. Den ersten funktionierenden Scheibenwischer hatte im November 1903 Mary Anderson patentiert – er wurde noch von Hand bedient.",
+    "difficulty": 1,
+    "tags": [
+      "Auto",
+      "Erfindung",
+      "Natur als Vorbild"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Scheibenwischer",
+    "source_url": "https://de.wikipedia.org/wiki/Scheibenwischer",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The intermittent windscreen wiper was invented in 1964. What in the human body served its inventor as a model?",
+        "options": [
+          "The heartbeat",
+          "The eyelid",
+          "Breathing",
+          "The hiccup"
+        ],
+        "explanation": "The inventor copied the eyelid, which closes briefly by itself every few seconds and opens again. In the same way the intermittent wiper only sweeps the glass at intervals. The first working windscreen wiper had been patented by Mary Anderson in November 1903 – it was still operated by hand."
+      }
+    }
+  },
+  {
+    "id": "t139",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Mit dem Bessemer-Verfahren, 1856 patentiert, wurde aus Roheisen Stahl. Was blies man dazu durch das flüssige Eisen?",
+    "options": [
+      "Kohlenstaub",
+      "Wasserdampf",
+      "Luft",
+      "Erdgas"
+    ],
+    "correct_index": 2,
+    "explanation": "In der sogenannten Bessemerbirne wird Luft durch das geschmolzene, sehr kohlenstoffreiche Roheisen geblasen. Der Kohlenstoff verbrennt, die Schmelze wird dabei noch heißer, und aus dem Roheisen entsteht Stahl. Benannt ist das Verfahren nach seinem Entwickler Henry Bessemer; heute wird es nicht mehr angewendet.",
+    "difficulty": 2,
+    "tags": [
+      "Stahl",
+      "Industrie",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bessemer-Verfahren",
+    "source_url": "https://de.wikipedia.org/wiki/Bessemer-Verfahren",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Bessemer process, patented in 1856, turned pig iron into steel. What was blown through the molten iron?",
+        "options": [
+          "Coal dust",
+          "Steam",
+          "Air",
+          "Natural gas"
+        ],
+        "explanation": "In the so-called Bessemer converter, air is blown through the molten, carbon-rich pig iron. The carbon burns, the melt becomes even hotter, and the pig iron turns into steel. The process is named after its developer Henry Bessemer; it is no longer used today."
+      }
+    }
+  },
+  {
+    "id": "t140",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Heron von Alexandria beschrieb den Heronsball, eine Kugel, die sich durch ausströmenden Wasserdampf dreht. Wofür nutzte man ihn in der Antike?",
+    "options": [
+      "Für nichts Nützliches, er war ein Kuriosum",
+      "Zum Antrieb von Lastkähnen auf dem Nil",
+      "Zum Pumpen von Wasser auf die Äcker",
+      "Zum Mahlen von Getreide in großen Mühlen"
+    ],
+    "correct_index": 0,
+    "explanation": "Kocht das Wasser im Kessel, strömt Dampf in die Kugel und verlässt sie durch zwei Düsen; der Rückstoß versetzt die Kugel in Drehung. Technisch ist das eine Reaktionsturbine. Einen praktischen Nutzen hatte der Heronsball in der Antike nicht, er galt als Kuriosum.",
+    "difficulty": 2,
+    "tags": [
+      "Antike",
+      "Dampf",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Heronsball",
+    "source_url": "https://de.wikipedia.org/wiki/Heronsball",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Hero of Alexandria described the aeolipile, a ball that is spun round by escaping steam. What was it used for in antiquity?",
+        "options": [
+          "For nothing useful, just a curiosity",
+          "To drive cargo barges along the Nile",
+          "To pump water up onto the fields",
+          "To grind grain in big water mills"
+        ],
+        "explanation": "When the water in the boiler boils, steam flows into the ball and leaves it through two nozzles; the recoil makes the ball spin. Technically it is a reaction turbine. In antiquity the aeolipile had no practical use; it was regarded as a curiosity."
+      }
+    }
+  },
+  {
+    "id": "t141",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Das britische Parlament lobte 1714 einen hohen Preis aus, den John Harrison mit sehr genauen Uhren zu gewinnen versuchte. Welches Problem sollten sie lösen?",
+    "options": [
+      "Den Breitengrad auf See zu bestimmen",
+      "Den Längengrad auf See zu bestimmen",
+      "Die Meerestiefe genau zu messen",
+      "Stürme früh genug vorherzusagen"
+    ],
+    "correct_index": 1,
+    "explanation": "Wer auf See die genaue Uhrzeit eines bekannten Längengrades mitführt, kann aus dem Unterschied zur Ortszeit den eigenen Längengrad berechnen. Dafür brauchte man schiffstaugliche Uhren mit hoher Ganggenauigkeit. Harrisons Uhren ermöglichten erstmals die genaue Bestimmung des Längengrades auf See.",
+    "difficulty": 2,
+    "tags": [
+      "Uhr",
+      "Seefahrt",
+      "Navigation"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: John Harrison (Uhrmacher)",
+    "source_url": "https://de.wikipedia.org/wiki/John Harrison (Uhrmacher)",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1714 the British Parliament offered a large prize, which John Harrison tried to win with very accurate clocks. What problem were they meant to solve?",
+        "options": [
+          "Finding latitude at sea",
+          "Finding longitude at sea",
+          "Measuring the depth of the sea",
+          "Forecasting storms in good time"
+        ],
+        "explanation": "Anyone who carries the exact time of a known meridian at sea can work out their own longitude from the difference to local time. That required seaworthy clocks of great accuracy. Harrison's clocks made it possible for the first time to determine longitude precisely at sea."
+      }
+    }
+  },
+  {
+    "id": "t142",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Otto Lilienthals Berliner Fabrik baute ab 1894 den „Normalsegelapparat“ in Serie. Was war das?",
+    "options": [
+      "Ein Ballon mit Segeln aus Seide",
+      "Ein Segelboot mit Hilfsmotor",
+      "Ein Gleitflugzeug ohne Motor",
+      "Ein Drachen zur Wettermessung"
+    ],
+    "correct_index": 2,
+    "explanation": "Lilienthal gilt als erster Mensch, der erfolgreich und wiederholbar mit einem Gleitflugzeug flog. Die Produktion des Normalsegelapparates in seiner Maschinenfabrik war die erste Serienfertigung eines Flugzeugs – damit wurde sie zur ersten Flugzeugfabrik der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Fliegen",
+      "Erfindung",
+      "Pionier"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Otto Lilienthal",
+    "source_url": "https://de.wikipedia.org/wiki/Otto Lilienthal",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From 1894 Otto Lilienthal's Berlin factory built the “Normalsegelapparat” in series. What was it?",
+        "options": [
+          "A balloon with silk sails",
+          "A sailing boat with a motor",
+          "A glider without an engine",
+          "A kite for measuring weather"
+        ],
+        "explanation": "Lilienthal is considered the first person to fly successfully and repeatedly with a glider. Producing the Normalsegelapparat in his engineering works was the first series production of an aircraft – which made it the world's first aircraft factory."
+      }
+    }
+  },
+  {
+    "id": "t143",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Der „Schachtürke“ von 1769 schien als Automat Schach zu spielen. Wer machte in Wahrheit die Züge?",
+    "options": [
+      "Der Vorführer mit unsichtbaren Fäden",
+      "Ein Uhrwerk aus Hunderten Zahnrädern",
+      "Ein dressierter Affe unter dem Tisch",
+      "Ein im Kasten versteckter Mensch"
+    ],
+    "correct_index": 3,
+    "explanation": "Wolfgang von Kempelen baute den scheinbaren Automaten 1769. Vor jeder Partie öffnete der Vorführer Türen des Kastens und zeigte Zahnräder und Hebel. Tatsächlich saß darin ein menschlicher Schachspieler, der sich mit einem verschiebbaren Sitz vor den Blicken des Publikums verbarg.",
+    "difficulty": 1,
+    "tags": [
+      "Schach",
+      "Täuschung",
+      "Automat"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schachtürke",
+    "source_url": "https://de.wikipedia.org/wiki/Schachtürke",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The “Mechanical Turk” of 1769 appeared to be a chess-playing automaton. Who really made the moves?",
+        "options": [
+          "The showman using invisible threads",
+          "Clockwork with hundreds of cogs",
+          "A trained monkey under the table",
+          "A person hidden in the cabinet"
+        ],
+        "explanation": "Wolfgang von Kempelen built the apparent automaton in 1769. Before every game the showman opened doors of the cabinet to display cogs and levers. In fact a human chess player sat inside, hiding from the audience on a sliding seat."
+      }
+    }
+  },
+  {
+    "id": "t144",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Jacques de Vaucanson baute 1738 und 1739 berühmte Automaten, darunter eine mechanische Ente. Was konnte sie scheinbar?",
+    "options": [
+      "Körner fressen und „verdaut“ ausscheiden",
+      "Auf einem Teich schwimmen und tauchen",
+      "Aufgezogen davonfliegen und zurückkehren",
+      "Eier legen, aus denen Küken schlüpften"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Ente aus vergoldetem Kupfer hatte mehr als 400 bewegliche Einzelteile. Sie flatterte mit den Flügeln, schnatterte, trank Wasser und nahm Körner aus einer Hand auf. Diese „verdaute“ sie scheinbar in einem künstlichen Darm und schied sie danach wieder aus.",
+    "difficulty": 2,
+    "tags": [
+      "Automat",
+      "Erfindung",
+      "Tier"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jacques de Vaucanson",
+    "source_url": "https://de.wikipedia.org/wiki/Jacques de Vaucanson",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1738 and 1739 Jacques de Vaucanson built famous automata, among them a mechanical duck. What could it apparently do?",
+        "options": [
+          "Eat grain and excrete it “digested”",
+          "Swim on a pond and dive under",
+          "Fly off when wound up and return",
+          "Lay eggs from which chicks hatched"
+        ],
+        "explanation": "The duck of gilded copper had more than 400 moving parts. It flapped its wings, quacked, drank water and picked up grain from a hand. It then apparently “digested” the grain in an artificial gut and excreted it again."
+      }
+    }
+  },
+  {
+    "id": "t145",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Am 16. August 1858 ging das erste transatlantische Telegrafenkabel feierlich in Betrieb. Wie lange funktionierte es?",
+    "options": [
+      "Etwa zehn Jahre lang",
+      "Nur gut drei Wochen",
+      "Fast ein halbes Jahrhundert",
+      "Genau ein Jahr und einen Tag"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Signale waren von Anfang an schwächer als erhofft und nahmen stetig weiter ab. Am 1. September, nach gut drei Wochen und insgesamt 732 übermittelten Telegrammen, waren sie völlig verschwunden.",
+    "difficulty": 2,
+    "tags": [
+      "Telegrafie",
+      "Atlantik",
+      "Kommunikation"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Transatlantisches Telegrafenkabel",
+    "source_url": "https://de.wikipedia.org/wiki/Transatlantisches Telegrafenkabel",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On 16 August 1858 the first transatlantic telegraph cable was ceremonially opened. How long did it work?",
+        "options": [
+          "About ten years",
+          "Just over three weeks",
+          "Almost half a century",
+          "Exactly a year and a day"
+        ],
+        "explanation": "From the start the signals were weaker than hoped, and they kept fading. On 1 September, after just over three weeks and a total of 732 telegrams, they had disappeared completely."
+      }
+    }
+  },
+  {
+    "id": "t146",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Woher hat der Portlandzement, für den Joseph Aspdin 1824 ein Patent erhielt, seinen Namen?",
+    "options": [
+      "Von seinem Erfinder John Portland",
+      "Von der Hafenstadt Portland in den USA",
+      "Von einem ähnlich gefärbten Kalkstein",
+      "Von einem Hafen, über den er verschifft wurde"
+    ],
+    "correct_index": 2,
+    "explanation": "Joseph Aspdin benutzte den Ausdruck „Portland cement“ in seiner Patentschrift von 1824. Der Name lehnte sich an den Portland-Stein an – einen Kalkstein von der Halbinsel Portland an der englischen Kanalküste, dem die aus dem Zement gefertigten Kunststeine farblich ähnelten.",
+    "difficulty": 2,
+    "tags": [
+      "Baustoff",
+      "Name",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zement",
+    "source_url": "https://de.wikipedia.org/wiki/Zement",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does Portland cement, patented by Joseph Aspdin in 1824, get its name?",
+        "options": [
+          "From its inventor, John Portland",
+          "From the port city of Portland, USA",
+          "From a limestone of similar colour",
+          "From a port it was shipped through"
+        ],
+        "explanation": "Joseph Aspdin used the term “Portland cement” in his 1824 patent. The name referred to Portland stone – a limestone from the Isle of Portland on the English Channel coast, whose colour resembled that of the artificial stone made from the cement."
+      }
+    }
+  },
+  {
+    "id": "t147",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Das Feuerzeug von Johann Wolfgang Döbereiner aus dem Jahr 1823 brauchte keinen Funken. Wie entzündete sich das Gas?",
+    "options": [
+      "Ein heißer Eisenstab wurde eingetaucht",
+      "Ein Brennglas bündelte das Sonnenlicht",
+      "Eine Zündschnur glühte ständig darin",
+      "Wasserstoff strömte über feines Platin"
+    ],
+    "correct_index": 3,
+    "explanation": "Im Gerät entsteht aus Zink und verdünnter Schwefelsäure Wasserstoff. Er strömt über einen „Platinschwamm“ aus fein verteiltem Platin. Das Platin beschleunigt die Reaktion des Wasserstoffs mit Sauerstoff; die frei werdende Wärme entzündet das Gas, und es verbrennt zu Wasser.",
+    "difficulty": 3,
+    "tags": [
+      "Chemie",
+      "Feuer",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Platinfeuerzeug",
+    "source_url": "https://de.wikipedia.org/wiki/Platinfeuerzeug",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Johann Wolfgang Döbereiner's lighter of 1823 needed no spark. How did the gas catch fire?",
+        "options": [
+          "A hot iron rod was dipped into it",
+          "A burning glass focused sunlight",
+          "A fuse inside glowed all the time",
+          "Hydrogen flowed over fine platinum"
+        ],
+        "explanation": "Inside the device, zinc and dilute sulphuric acid produce hydrogen. It flows over a “platinum sponge” of finely divided platinum. The platinum speeds up the reaction of hydrogen with oxygen; the heat released ignites the gas, which burns to water."
+      }
+    }
+  },
+  {
+    "id": "t148",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Bis 1964 gab es in einigen deutschen Städten Zebrastreifen mit einer Besonderheit. Was hatten sie zusätzlich?",
+    "options": [
+      "Blinklichter an rot-weißen Masten",
+      "Eine Klingel, die Autos warnte",
+      "Streifen, die nachts leuchteten",
+      "Eine Schranke für die Autofahrer"
+    ],
+    "correct_index": 0,
+    "explanation": "An beiden Straßenseiten stand ein rot-weißer Mast mit Blinkleuchte. Sobald die Lichter blinkten, mussten Autofahrer anhalten und Fußgängern Vorrang geben. Das System wurde nur in einigen Städten genutzt und zum 1. Juni 1964 abgeschafft. Die ersten historisch gesicherten Zebrastreifen wurden 1952 in München aufgebracht.",
+    "difficulty": 2,
+    "tags": [
+      "Verkehr",
+      "Straße",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fußgängerüberweg",
+    "source_url": "https://de.wikipedia.org/wiki/Fußgängerüberweg",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Until 1964 some German towns had zebra crossings with a special feature. What did they also have?",
+        "options": [
+          "Flashing lamps on red-white posts",
+          "A bell that warned approaching cars",
+          "Stripes that glowed in the dark",
+          "A barrier for the drivers"
+        ],
+        "explanation": "On each side of the road stood a red-and-white post with a flashing lamp. As soon as the lights flashed, drivers had to stop and give way to pedestrians. The system was only used in some towns and was abolished on 1 June 1964. The first zebra crossings on record were painted in Munich in 1952."
+      }
+    }
+  },
+  {
+    "id": "sp181",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bei knappen Zieleinläufen entscheidet das Zielfoto. Was ist auf dem Bild einer digitalen Fotofinish-Kamera eigentlich zu sehen?",
+    "options": [
+      "Ein Standbild genau im Moment des Siegs",
+      "Die ganze Laufbahn aus der Vogelperspektive",
+      "Nur die Ziellinie, Zeile für Zeile",
+      "Die letzten zehn Meter vor dem Ziel"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Kamera filmt senkrecht die volle Bildhöhe, nimmt waagerecht aber jeweils nur ein Pixel auf – genau auf der Ziellinie. Einige tausend solcher Zeilen pro Sekunde werden zum Zielfoto zusammengesetzt. So lässt sich die Einlaufreihenfolge zweifelsfrei ablesen.",
+    "difficulty": 2,
+    "tags": [
+      "Leichtathletik",
+      "Kamera",
+      "Zeitmessung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zielfoto",
+    "source_url": "https://de.wikipedia.org/wiki/Zielfoto",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In close finishes the photo finish decides. What does the image from a digital photo-finish camera actually show?",
+        "options": [
+          "A still frame at the moment of victory",
+          "The whole track from a bird's-eye view",
+          "Only the finish line, line by line",
+          "The last ten metres before the finish"
+        ],
+        "explanation": "The camera films the full height vertically but records only one pixel horizontally – exactly on the finish line. Several thousand of these lines per second are put together into the finish photo. That way the order of finish can be documented beyond doubt."
+      }
+    }
+  },
+  {
+    "id": "sp182",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Goalball ist seit 1976 paralympisch und wird von Menschen mit Sehbeeinträchtigung gespielt. Warum tragen alle Spieler auf dem Feld lichtundurchlässige Brillen?",
+    "options": [
+      "Damit Zuschauer sie besser erkennen",
+      "Damit grelles Hallenlicht nicht blendet",
+      "Zum Schutz vor dem harten Ball",
+      "Damit alle gleiche Chancen haben"
+    ],
+    "correct_index": 3,
+    "explanation": "Die Brillen sorgen für Chancengleichheit: Niemand auf dem Feld sieht etwas. Gespielt wird mit einem 1250 g schweren Klingelball, in dessen Innerem Glöckchen sind, damit man ihn hören kann. Er muss flach über den Boden ins gegnerische Tor geworfen werden.",
+    "difficulty": 1,
+    "tags": [
+      "Paralympics",
+      "Ballsport",
+      "Inklusion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Goalball",
+    "source_url": "https://de.wikipedia.org/wiki/Goalball",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Goalball has been a Paralympic sport since 1976 and is played by people with visual impairments. Why do all players on court wear opaque goggles?",
+        "options": [
+          "So spectators can recognise them",
+          "So that bright hall lights don't dazzle",
+          "To protect them from the hard ball",
+          "So that everyone has an equal chance"
+        ],
+        "explanation": "The goggles ensure equal chances: nobody on court can see anything. The game uses a 1250 g ball with little bells inside so that it can be heard. It must be thrown flat along the floor into the opposing goal."
+      }
+    }
+  },
+  {
+    "id": "sp183",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Die Coupe Jules Rimet war von 1930 bis 1970 die Trophäe der Fußball-Weltmeisterschaften. Was stellte die Figur dar?",
+    "options": [
+      "Die griechische Siegesgöttin",
+      "Einen Fußballspieler beim Schuss",
+      "Die Weltkugel auf zwei Händen",
+      "Einen goldenen Adler im Flug"
+    ],
+    "correct_index": 0,
+    "explanation": "Die 35 cm hohe Statue aus vergoldetem Sterlingsilber zeigte die griechische Siegesgöttin mit ausgebreiteten Flügeln. Mit nach oben gestreckten Armen hielt sie eine achteckige Schale über dem Kopf. Benannt war der Pokal nach Jules Rimet, dem damaligen Präsidenten des Weltfußballverbands.",
+    "difficulty": 2,
+    "tags": [
+      "Fußball",
+      "Pokal",
+      "Weltmeisterschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Coupe Jules Rimet",
+    "source_url": "https://de.wikipedia.org/wiki/Coupe Jules Rimet",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From 1930 to 1970 the Coupe Jules Rimet was the trophy of the football world championships. What did the figure depict?",
+        "options": [
+          "The Greek goddess of victory",
+          "A footballer taking a shot",
+          "The globe held up by two hands",
+          "A golden eagle in flight"
+        ],
+        "explanation": "The 35 cm statue of gilded sterling silver showed the Greek goddess of victory with outspread wings. With her arms raised, she held an octagonal cup above her head. The trophy was named after Jules Rimet, then president of the world football federation."
+      }
+    }
+  },
+  {
+    "id": "sp184",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Der Schiedsrichter markiert mit Freistoßspray den Abstand der Mauer. Warum verschwindet der weiße Strich nach kurzer Zeit wieder?",
+    "options": [
+      "Der Rasen saugt die Farbe in den Boden",
+      "Wasser verdunstet, die Bläschen platzen",
+      "Die Farbe wird vom Sonnenlicht gebleicht",
+      "Die Spieler treten den Schaum weg"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Schaum besteht vor allem aus Wasser, dazu kommen Butangas und Tenside. Sobald der Wasseranteil verdunstet, platzen die Schaumbläschen und der Schaum löst sich auf – sichtbare Rückstände bleiben nicht zurück. So markiert der Schiedsrichter die vorgeschriebenen 9,15 Meter zwischen Ball und Mauer.",
+    "difficulty": 1,
+    "tags": [
+      "Fußball",
+      "Schiedsrichter",
+      "Schaum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Freistoßspray",
+    "source_url": "https://de.wikipedia.org/wiki/Freistoßspray",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The referee uses vanishing spray to mark the distance of the wall. Why does the white line disappear again after a short while?",
+        "options": [
+          "The grass soaks the paint into the soil",
+          "The water evaporates and bubbles burst",
+          "Sunlight bleaches the colour out",
+          "The players kick the foam away"
+        ],
+        "explanation": "The foam is mostly water, plus butane gas and surfactants. As soon as the water evaporates, the foam bubbles burst and the foam dissolves – leaving no visible residue. This lets the referee mark the required 9.15 metres between ball and wall."
+      }
+    }
+  },
+  {
+    "id": "sp185",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "1954 führte die nordamerikanische Basketball-Profiliga die Wurfuhr ein. Wozu?",
+    "options": [
+      "Damit die Zuschauer die Spielzeit besser sehen",
+      "Damit die Spieler öfter Pausen einlegen",
+      "Damit das Spiel schneller und spannender wird",
+      "Damit Fouls schneller geahndet werden"
+    ],
+    "correct_index": 2,
+    "explanation": "Viele Mannschaften gingen damals in Führung und hielten dann den Ball möglichst lange – die Spiele wurden langsam und aktionsarm. Die Wurfuhr zeigt die verbleibenden Sekunden der Angriffszeit an; in der nordamerikanischen Profiliga sind es 24 Sekunden.",
+    "difficulty": 1,
+    "tags": [
+      "Basketball",
+      "Regeln",
+      "Zeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wurfuhr",
+    "source_url": "https://de.wikipedia.org/wiki/Wurfuhr",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1954 the North American professional basketball league introduced the shot clock. Why?",
+        "options": [
+          "So fans can see the playing time better",
+          "So that players take more frequent breaks",
+          "To make the game faster and more exciting",
+          "So that fouls are punished more quickly"
+        ],
+        "explanation": "Back then many teams took the lead and then held on to the ball for as long as possible – games became slow and uneventful. The shot clock shows the seconds left for an attack; in the North American professional league it is 24 seconds."
+      }
+    }
+  },
+  {
+    "id": "sp186",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Mit dem Unspunnenstein wird in der Schweiz seit 1808 Steinstossen ausgetragen. Wie schwer war er ursprünglich?",
+    "options": [
+      "12,5 Kilogramm",
+      "36,5 Kilogramm",
+      "83,5 Kilogramm",
+      "150,5 Kilogramm"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Stein wog ursprünglich 83,5 kg. Die Wettkämpfer nehmen Anlauf und versuchen, ihn möglichst weit zu stossen. Weil eingemeisselte Motive das Original leichter gemacht haben, wird heute mit einem Nachbau gestossen.",
+    "difficulty": 2,
+    "tags": [
+      "Schweiz",
+      "Kraftsport",
+      "Tradition"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Unspunnenstein",
+    "source_url": "https://de.wikipedia.org/wiki/Unspunnenstein",
+    "created_at": "2026-11-06T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Since 1808 the Unspunnen stone has been used for stone-putting contests in Switzerland. How heavy was it originally?",
+        "options": [
+          "12.5 kilograms",
+          "36.5 kilograms",
+          "83.5 kilograms",
+          "150.5 kilograms"
+        ],
+        "explanation": "The stone originally weighed 83.5 kg. Competitors take a run-up and try to push it as far as possible. Because carved motifs have made the original lighter, a replica is used today."
+      }
+    }
+  },
+  {
+    "id": "sp187",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Pesäpallo gilt manchmal als Nationalsport Finnlands und ähnelt dem Baseball. Was bedeutet der Name etwa?",
+    "options": [
+      "Nestball",
+      "Schlagball",
+      "Laufball",
+      "Schneeball"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Finne Lauri Pihkala entwickelte das Spiel 1922 nach einem Aufenthalt in den USA. Er verwendete das finnische Wort „pesä“ für Nest im Sinne der „Base“ beim Baseball. Ein Unterschied: Der Ball wird mit einem senkrechten Wurf über der Anwurfplatte angeworfen.",
+    "difficulty": 2,
+    "tags": [
+      "Finnland",
+      "Ballsport",
+      "Name"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pesäpallo",
+    "source_url": "https://de.wikipedia.org/wiki/Pesäpallo",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Pesäpallo is sometimes considered Finland's national sport and resembles baseball. What does its name roughly mean?",
+        "options": [
+          "Nest ball",
+          "Hit ball",
+          "Run ball",
+          "Snow ball"
+        ],
+        "explanation": "The Finn Lauri Pihkala developed the game in 1922 after a stay in the USA. He used the Finnish word “pesä”, nest, in the sense of a “base” in baseball. One difference: the ball is pitched with a vertical throw above the home plate."
+      }
+    }
+  },
+  {
+    "id": "sp188",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Tchoukball wirft man einen Ball gegen eine Prallwand, das „Frame“. Woher hat das Spiel seinen Namen?",
+    "options": [
+      "Vom Spitznamen seines Erfinders",
+      "Vom Geräusch des Balls am Frame",
+      "Von einem Ort in der Schweiz",
+      "Von einem Wort für „schnell“"
+    ],
+    "correct_index": 1,
+    "explanation": "„Tchouk“ ahmt das Geräusch nach, das der Ball beim Aufprall auf das Frame macht. Erfunden hat das Spiel in den späten 1960er Jahren der Schweizer Sportmediziner Hermann Brandt – mit geringerem Verletzungsrisiko: Jeder Angriff auf den Gegner ist verboten.",
+    "difficulty": 1,
+    "tags": [
+      "Ballsport",
+      "Schweiz",
+      "Name"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tchoukball",
+    "source_url": "https://de.wikipedia.org/wiki/Tchoukball",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In tchoukball you throw a ball against a rebound net called the “frame”. Where does the game get its name?",
+        "options": [
+          "From its inventor's nickname",
+          "From the sound the ball makes",
+          "From a village in Switzerland",
+          "From a word meaning “fast”"
+        ],
+        "explanation": "“Tchouk” imitates the sound the ball makes when it hits the frame. The game was invented in the late 1960s by the Swiss sports physician Hermann Brandt – with less risk of injury: any attack on an opponent is forbidden."
+      }
+    }
+  },
+  {
+    "id": "sp189",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Ein Caddie trägt beim Golf die Tasche mit den Schlägern. Wer wird bestraft, wenn der Caddie gegen eine Regel verstößt?",
+    "options": [
+      "Niemand, Caddies sind ausgenommen",
+      "Der Caddie selbst mit einer Sperre",
+      "Der Spieler, für den er trägt",
+      "Der Golfclub, der ihn angestellt hat"
+    ],
+    "correct_index": 2,
+    "explanation": "Für alle Fehler, die der Caddie macht, wird der Spieler bestraft. Der Caddie trägt die schwere Golftasche über rund 7 km. Der Name kommt von „caddie“, einer englischen Koseform für „cadet“, also Kadett.",
+    "difficulty": 1,
+    "tags": [
+      "Golf",
+      "Regeln",
+      "Name"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Caddie",
+    "source_url": "https://de.wikipedia.org/wiki/Caddie",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A caddie carries the golf bag with the clubs. Who is penalised if the caddie breaks a rule?",
+        "options": [
+          "No one, caddies are exempt",
+          "The caddie himself, with a ban",
+          "The player he carries for",
+          "The golf club that employs him"
+        ],
+        "explanation": "The player is penalised for every mistake the caddie makes. A caddie carries the heavy golf bag for around 7 km. The name comes from “caddie”, an English pet form of “cadet”."
+      }
+    }
+  },
+  {
+    "id": "sp190",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bandy ist ein Vorläufer des Eishockeys und wird auf Eis mit einem Ball gespielt. Wie groß ist das Spielfeld?",
+    "options": [
+      "So groß wie ein Fußballplatz",
+      "So groß wie ein Tennisplatz",
+      "So groß wie ein Volleyballfeld",
+      "So groß wie eine Turnhalle"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Regeln des Bandy ähneln eher denen von Fußball und Hockey als denen des Eishockeys. Das Spielfeld hat die Größe eines Fußballplatzes; die kleinere Variante Rinkbandy spielt man in Eishallen. Das moderne Bandy entstand Anfang des 19. Jahrhunderts im Osten Englands.",
+    "difficulty": 2,
+    "tags": [
+      "Eis",
+      "Wintersport",
+      "Ballsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bandy (Sport)",
+    "source_url": "https://de.wikipedia.org/wiki/Bandy (Sport)",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Bandy is a forerunner of ice hockey and is played on ice with a ball. How big is the playing area?",
+        "options": [
+          "As big as a football pitch",
+          "As big as a tennis court",
+          "As big as a volleyball court",
+          "As big as a school gym"
+        ],
+        "explanation": "The rules of bandy are closer to football and hockey than to ice hockey. The rink is the size of a football pitch; the smaller variant, rink bandy, is played in ice halls. Modern bandy emerged in eastern England at the beginning of the 19th century."
+      }
+    }
+  },
+  {
+    "id": "cu123",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Die Silberne Hochzeit feiert man nach 25, die Goldene nach 50 Ehejahren. Und die Eiserne Hochzeit?",
+    "options": [
+      "Überall nach genau 40 Jahren",
+      "Das ist regional verschieden",
+      "Überall nach genau 100 Jahren",
+      "Überall nach genau 10 Jahren"
+    ],
+    "correct_index": 1,
+    "explanation": "Im deutschen Sprachraum gibt es regional verschiedene Bezeichnungen für Hochzeitsjubiläen. Die Eiserne Hochzeit kann für 6, 41, 60, 65, 70 oder 75 Ehejahre stehen. Besonders bekannt sind die Silberne (25), die Goldene (50) und die Diamantene Hochzeit (60 Jahre).",
+    "difficulty": 2,
+    "tags": [
+      "Ehe",
+      "Brauch",
+      "Jubiläum"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hochzeitstag",
+    "source_url": "https://de.wikipedia.org/wiki/Hochzeitstag",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A silver wedding is celebrated after 25 years of marriage, a golden one after 50. And an iron wedding?",
+        "options": [
+          "Everywhere after exactly 40 years",
+          "It varies from region to region",
+          "Everywhere after exactly 100 years",
+          "Everywhere after exactly 10 years"
+        ],
+        "explanation": "In German-speaking countries the names of wedding anniversaries differ from region to region. An “iron wedding” can stand for 6, 41, 60, 65, 70 or 75 years of marriage. Best known are the silver (25), golden (50) and diamond wedding (60 years)."
+      }
+    }
+  },
+  {
+    "id": "cu124",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Aus welchem Land stammt der Panamahut ursprünglich?",
+    "options": [
+      "Aus Mexiko",
+      "Aus Panama",
+      "Aus Ecuador",
+      "Aus Kuba"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Fertigung des handgeflochtenen Strohhuts begann im 17. Jahrhundert in Ecuador. Zur ersten Verwechslung kam es 1855, als ein solcher Hut für Frankreich in Panama eingeschifft wurde – für die Franzosen galt dadurch Panama als Ursprung.",
+    "difficulty": 1,
+    "tags": [
+      "Mode",
+      "Name",
+      "Südamerika"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Panama-Hut",
+    "source_url": "https://de.wikipedia.org/wiki/Panama-Hut",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which country does the Panama hat originally come from?",
+        "options": [
+          "Mexico",
+          "Panama",
+          "Ecuador",
+          "Cuba"
+        ],
+        "explanation": "Making the hand-woven straw hat began in Ecuador in the 17th century. The first mix-up came in 1855, when such a hat bound for France was shipped from Panama – so the French took Panama to be its origin."
+      }
+    }
+  },
+  {
+    "id": "cu125",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "In welcher Stadt ist die Currywurst nach weit verbreiteter Auffassung um 1949 entstanden?",
+    "options": [
+      "In Dresden",
+      "In München",
+      "In Stuttgart",
+      "In Berlin"
+    ],
+    "correct_index": 3,
+    "explanation": "Herta Heuwer betrieb ab dem Sommer 1949 einen Imbissstand in Berlin-Charlottenburg. Sie gab an, am 4. September 1949 die typische Currywurstsauce erstmals gemischt zu haben. Ganz allein kann sie die Erfindung allerdings nicht beanspruchen – manche Details ihrer Darstellung gelten als nicht plausibel.",
+    "difficulty": 1,
+    "tags": [
+      "Essen",
+      "Berlin",
+      "Imbiss"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Currywurst",
+    "source_url": "https://de.wikipedia.org/wiki/Currywurst",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to a widely held view, in which city did the currywurst originate around 1949?",
+        "options": [
+          "Dresden",
+          "Munich",
+          "Stuttgart",
+          "Berlin"
+        ],
+        "explanation": "Herta Heuwer ran a snack stall in Berlin-Charlottenburg from the summer of 1949. She claimed to have first mixed the typical currywurst sauce on 4 September 1949. She cannot claim the invention entirely for herself, though – some details of her account are considered implausible."
+      }
+    }
+  },
+  {
+    "id": "cu126",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Eine Zirkusmanege hat meist knapp 13 Meter Durchmesser. Für welche Vorführungen sollte sie ursprünglich passen?",
+    "options": [
+      "Für Pferdenummern",
+      "Für Trapezkunst",
+      "Für Clownsnummern",
+      "Für Raubtiernummern"
+    ],
+    "correct_index": 0,
+    "explanation": "Pferdenummern machten ursprünglich den Hauptteil der Zirkusattraktionen aus. Die Manege sollte sich deshalb als Longierzirkel eignen, in dem Pferde im Kreis laufen – dafür braucht es mindestens etwa 12 m. Knapp 13 m gelten seit Philip Astley international als die „richtige“ Größe.",
+    "difficulty": 2,
+    "tags": [
+      "Zirkus",
+      "Pferde",
+      "Maß"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Manege (Zirkus)",
+    "source_url": "https://de.wikipedia.org/wiki/Manege (Zirkus)",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A circus ring is usually just under 13 metres across. Which acts was this size originally meant for?",
+        "options": [
+          "Horse acts",
+          "Trapeze acts",
+          "Clown acts",
+          "Big-cat acts"
+        ],
+        "explanation": "Horse acts originally made up most of a circus programme. The ring therefore had to work as a lunging circle in which horses run round – which needs at least about 12 m. Since Philip Astley, just under 13 m has been considered the “right” size internationally."
+      }
+    }
+  },
+  {
+    "id": "cu127",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "1903 brachte der Münchner Verleger Gerhard Lang einen gedruckten Adventskalender heraus. Wie funktionierte er?",
+    "options": [
+      "Man öffnete täglich ein Türchen mit Süßem",
+      "Man schnitt Bilder aus und klebte sie auf",
+      "Man zündete jeden Tag eine Kerze mehr an",
+      "Man riss jeden Tag ein Kalenderblatt ab"
+    ],
+    "correct_index": 1,
+    "explanation": "Langs Kalender „Im Lande des Christkinds“ bestand aus einem Bogen mit 24 Bildern zum Ausschneiden und einem Bogen mit 24 Feldern zum Aufkleben. Noch einfacher war eine ältere Form: 24 Kreidestriche an Wand oder Tür, von denen Kinder täglich einen wegwischen durften.",
+    "difficulty": 1,
+    "tags": [
+      "Advent",
+      "Weihnachten",
+      "Brauch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Adventskalender",
+    "source_url": "https://de.wikipedia.org/wiki/Adventskalender",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1903 the Munich publisher Gerhard Lang brought out a printed Advent calendar. How did it work?",
+        "options": [
+          "You opened a little door with a sweet daily",
+          "You cut out pictures and stuck them on",
+          "You lit one more candle every day",
+          "You tore off one calendar page a day"
+        ],
+        "explanation": "Lang's calendar “In the Land of the Christ Child” consisted of one sheet with 24 pictures to cut out and one sheet with 24 boxes to stick them on. An even simpler older form: 24 chalk lines on a wall or door, of which children were allowed to wipe away one each day."
+      }
+    }
+  },
+  {
+    "id": "cu128",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Der Weihnachtsbaum hieß früher regional auch „Zuckerbaum“. Warum?",
+    "options": [
+      "Er wurde aus Zuckerrohr nachgebaut",
+      "Man bestreute ihn mit Puderzucker",
+      "Süßes und Äpfel hingen daran",
+      "Er wurde nach Zuckerrüben benannt"
+    ],
+    "correct_index": 2,
+    "explanation": "Vor dem 19. Jahrhundert hängte man vor allem Äpfel, Nüsse, Gebäck und Zuckerzeug an den Baum. Gewerblich hergestellten Schmuck gab es zunächst nicht, die Familien machten ihn selbst. Erst Glasschmuck und industriell gefertigtes Lametta verdrängten diesen Brauch nach und nach.",
+    "difficulty": 1,
+    "tags": [
+      "Weihnachten",
+      "Brauch",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Christbaumschmuck",
+    "source_url": "https://de.wikipedia.org/wiki/Christbaumschmuck",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In some regions the Christmas tree used to be called a “sugar tree”. Why?",
+        "options": [
+          "It was copied from sugar cane",
+          "It was dusted with icing sugar",
+          "Sweets and apples hung on it",
+          "It was named after sugar beet"
+        ],
+        "explanation": "Before the 19th century, mainly apples, nuts, baked goods and sweets were hung on the tree. At first there were no shop-made decorations; families made them themselves. Only glass ornaments and factory-made tinsel gradually replaced this custom."
+      }
+    }
+  },
+  {
+    "id": "cu129",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Anna Marie Jarvis gilt als Begründerin des heutigen Muttertags. An welchen Tag knüpfte ihre erste Feier am 12. Mai 1907 an?",
+    "options": [
+      "An den Namenstag der Maria",
+      "An den Geburtstag ihrer Mutter",
+      "An den Hochzeitstag ihrer Eltern",
+      "An den Todestag ihrer Mutter"
+    ],
+    "correct_index": 3,
+    "explanation": "Sie veranstaltete die Feier in Grafton in West Virginia am Sonntag nach dem zweiten Todestag ihrer Mutter. Am 8. Mai 1914 erklärte der US-Kongress den zweiten Sonntag im Mai zum Muttertag. An diesem Tag feiert man ihn auch im deutschsprachigen Raum.",
+    "difficulty": 2,
+    "tags": [
+      "Feiertag",
+      "Familie",
+      "USA"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Muttertag",
+    "source_url": "https://de.wikipedia.org/wiki/Muttertag",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Anna Marie Jarvis is regarded as the founder of today's Mother's Day. Which day was her first celebration on 12 May 1907 linked to?",
+        "options": [
+          "The feast day of Saint Mary",
+          "Her mother's birthday party",
+          "Her parents' wedding anniversary",
+          "Her mother's death anniversary"
+        ],
+        "explanation": "She held the celebration in Grafton, West Virginia, on the Sunday after the second anniversary of her mother's death. On 8 May 1914 the US Congress declared the second Sunday in May Mother's Day. It is celebrated on that day in German-speaking countries too."
+      }
+    }
+  },
+  {
+    "id": "cu130",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Adolph Knigges Buch „Über den Umgang mit Menschen“ erschien 1788. Wer machte daraus später ein Benimmbuch?",
+    "options": [
+      "Knigge selbst im hohen Alter",
+      "Sein Verlag nach Knigges Tod",
+      "Eine Tanzschule in Hannover",
+      "Ein Lehrer für eine Schulausgabe"
+    ],
+    "correct_index": 1,
+    "explanation": "Knigge wollte eine Aufklärungsschrift über Taktgefühl und Höflichkeit im Umgang mit Menschen verschiedener Generationen, Berufe und Charaktere schreiben. Erst sein Verlag erweiterte das Werk nach seinem Tod um Benimmregeln. Darum steht „Knigge“ heute – eigentlich irrtümlich – für Benimmratgeber.",
+    "difficulty": 2,
+    "tags": [
+      "Benehmen",
+      "Buch",
+      "Aufklärung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Adolph Knigge",
+    "source_url": "https://de.wikipedia.org/wiki/Adolph Knigge",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Adolph Knigge's book “On Human Relations” appeared in 1788. Who later turned it into an etiquette manual?",
+        "options": [
+          "Knigge himself in his old age",
+          "His publisher, after his death",
+          "A dancing school in Hanover",
+          "A teacher for a school edition"
+        ],
+        "explanation": "Knigge meant the book as an Enlightenment work about tact and courtesy in dealing with people of different generations, professions and characters. Only his publisher added rules of etiquette after his death. That is why “Knigge” – wrongly, in fact – stands for etiquette guides today."
+      }
+    }
+  },
+  {
+    "id": "cu131",
+    "kind": "question",
+    "category_id": "culture",
+    "question": "Das Kartenspiel Skat entstand 1813 in Altenburg. Was bedeutet sein Name ursprünglich?",
+    "options": [
+      "Das Glücksspiel",
+      "Der Gewinner",
+      "Das Weggelegte",
+      "Die Dreierrunde"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Name geht nach allgemeiner Ansicht auf das italienische Verb „scartare“ zurück und bedeutet sinngemäß „das Weggelegte“. Gemeint sind die beiden Karten, die beim Geben verdeckt beiseitegelegt werden. In Altenburg, der „Skatstadt“, werden seit 500 Jahren Spielkarten hergestellt.",
+    "difficulty": 2,
+    "tags": [
+      "Kartenspiel",
+      "Name",
+      "Thüringen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Skat",
+    "source_url": "https://de.wikipedia.org/wiki/Skat",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The card game skat originated in Altenburg in 1813. What does its name originally mean?",
+        "options": [
+          "Pure luck",
+          "The winner",
+          "The discarded",
+          "Three players"
+        ],
+        "explanation": "The name is generally traced back to the Italian verb “scartare” and roughly means “the discarded”. This refers to the two cards laid aside face down during the deal. Altenburg, the “skat town”, has been making playing cards for 500 years."
+      }
+    }
+  },
+  {
+    "id": "l172",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Das Wort „Fan“ kam aus dem Englischen ins Deutsche. Von welchem englischen Wort ist es eine Kurzform?",
+    "options": [
+      "family",
+      "fantasy",
+      "fanfare",
+      "fanatic"
+    ],
+    "correct_index": 3,
+    "explanation": "„Fan“ ist die Kurzform von englisch „fanatic“, also Fanatiker. Dahinter steht das lateinische „fanaticus“: von der Gottheit ergriffen, in rasende Begeisterung versetzt. Mit Fanatismus im politischen Sinn hat ein Fan trotz der Herkunft des Wortes nichts zu tun.",
+    "difficulty": 1,
+    "tags": [
+      "Wortherkunft",
+      "Englisch",
+      "Latein"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fan",
+    "source_url": "https://de.wikipedia.org/wiki/Fan",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The word “Fan” came into German from English. Which English word is it short for?",
+        "options": [
+          "family",
+          "fantasy",
+          "fanfare",
+          "fanatic"
+        ],
+        "explanation": "“Fan” is short for the English “fanatic”. Behind it lies the Latin “fanaticus”: seized by a deity, sent into raving enthusiasm. Despite the word's origin, a fan has nothing to do with fanaticism in the political sense."
+      }
+    }
+  },
+  {
+    "id": "l173",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Klootschießen ist ein alter Wurfsport an der norddeutschen Küste. Was bedeutet das niederdeutsche Wort „Kluten“, von dem „Kloot“ kommt?",
+    "options": [
+      "Erdklumpen",
+      "Holzschuh",
+      "Wurfarm",
+      "Deichkrone"
+    ],
+    "correct_index": 0,
+    "explanation": "Mit „Kluten“ ist ein Erdklumpen gemeint. Später warf man schwere Kugeln aus Feuerstein oder Eisen, dann faustgroße Kugeln aus Apfelbaumholz, die mit Blei ausgegossen wurden. Der Sport ist schon viele Jahrhunderte alt, weitaus älter als das Boßeln.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Norddeutschland",
+      "Wurfsport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Klootschießen",
+    "source_url": "https://de.wikipedia.org/wiki/Klootschießen",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Klootschießen is an old throwing sport on the North German coast. What does the Low German word “Kluten”, from which “Kloot” comes, mean?",
+        "options": [
+          "Clod of earth",
+          "Wooden clog",
+          "Throwing arm",
+          "Top of a dyke"
+        ],
+        "explanation": "“Kluten” means a clod of earth. Later people threw heavy balls of flint or iron, then fist-sized balls of apple wood filled with lead. The sport is many centuries old, much older than Boßeln."
+      }
+    }
+  },
+  {
+    "id": "ns109",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Warum richtet sich ein Stehaufmännchen immer wieder von selbst auf?",
+    "options": [
+      "Ein Magnet zieht es nach oben",
+      "In seinem Inneren steckt eine Feder",
+      "Sein Schwerpunkt liegt sehr tief",
+      "Luft in seinem Kopf trägt es"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Stehaufmännchen hat eine abgerundete Unterseite und einen sehr tief liegenden Schwerpunkt. Jede Neigung hebt den Schwerpunkt an – deshalb zieht die Schwerkraft die Figur wieder in die aufrechte Lage. Segelyachten werden aus demselben Grund mit einem sehr niedrig liegenden Schwerpunkt gebaut.",
+    "difficulty": 1,
+    "tags": [
+      "Physik",
+      "Schwerpunkt",
+      "Spielzeug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stehaufmännchen",
+    "source_url": "https://de.wikipedia.org/wiki/Stehaufmännchen",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why does a roly-poly toy always stand itself back up?",
+        "options": [
+          "A magnet pulls it upwards",
+          "A spring inside pushes it upright",
+          "Its centre of gravity is very low",
+          "Air in its head holds it up"
+        ],
+        "explanation": "A roly-poly toy has a rounded base and a very low centre of gravity. Any tilt raises the centre of gravity – so gravity pulls the figure back upright. Sailing yachts are built with a very low centre of gravity for the same reason."
+      }
+    }
+  },
+  {
+    "id": "ns110",
+    "kind": "question",
+    "category_id": "science",
+    "question": "1888 beschrieb Friedrich Reinitzer, was beim Schmelzen einer bestimmten Substanz geschah. Was war daran so seltsam?",
+    "options": [
+      "Erst flüssig, aber noch trüb, später klar",
+      "Sie schmolz, ohne dabei wärmer zu werden",
+      "Sie wurde beim Erhitzen immer fester und härter",
+      "Sie leuchtete beim Schmelzen hell im Dunkeln"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Verbindung Cholesterylbenzoat wurde schon bei 145,5 °C flüssig, sah aber bis 179 °C milchig-trüb aus. Erst darüber entstand eine glasklare, „normale“ Flüssigkeit. Otto Lehmann sprach danach erstmals von fließenden Kristallen – heute heißen sie Flüssigkristalle.",
+    "difficulty": 3,
+    "tags": [
+      "Chemie",
+      "Kristall",
+      "Entdeckung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Flüssigkristall",
+    "source_url": "https://de.wikipedia.org/wiki/Flüssigkristall",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1888 Friedrich Reinitzer described what happened when a certain substance melted. What was so strange about it?",
+        "options": [
+          "Liquid at first but cloudy, clear only later",
+          "It melted without getting any warmer",
+          "It grew harder and harder when heated",
+          "It glowed brightly in the dark as it melted"
+        ],
+        "explanation": "The compound cholesteryl benzoate was already liquid at 145.5 °C but looked milky and cloudy up to 179 °C. Only above that did it become a clear, “normal” liquid. Otto Lehmann then spoke for the first time of flowing crystals – today they are called liquid crystals."
+      }
+    }
+  },
+  {
+    "id": "mk166",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woher hat die Viola da gamba, ein historisches Streichinstrument, ihren Namen?",
+    "options": [
+      "Man hält sie zwischen den Beinen",
+      "Man spielt sie im Gehen",
+      "Sie klingt wie eine Menschenstimme",
+      "Ihr Erfinder hieß Gamba"
+    ],
+    "correct_index": 0,
+    "explanation": "„Gamba“ heißt auf Italienisch Bein. Gamben aller Stimmlagen werden zwischen den Beinen gehalten – im Gegensatz zu den „Armgeigen“ wie der Violine. Gamben haben fünf bis sieben Saiten und Bünde auf dem Griffbrett; den Bogen hält man im Untergriff.",
+    "difficulty": 1,
+    "tags": [
+      "Instrument",
+      "Streicher",
+      "Italienisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Viola da gamba",
+    "source_url": "https://de.wikipedia.org/wiki/Viola da gamba",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the viola da gamba, a historical string instrument, get its name?",
+        "options": [
+          "It is held between the legs",
+          "It is played while walking",
+          "It sounds like a human voice",
+          "Its inventor was called Gamba"
+        ],
+        "explanation": "“Gamba” is Italian for leg. Viols of all sizes are held between the legs – unlike the “arm viols” such as the violin. Viols have five to seven strings and frets on the fingerboard; the bow is held underhand."
+      }
+    }
+  },
+  {
+    "id": "mk167",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Richard Wagner ließ sich um 1870 für seinen „Ring des Nibelungen“ ein eigenes Blechblasinstrument bauen, die Wagnertuba. Wer spielt sie im Orchester?",
+    "options": [
+      "Die Tubisten",
+      "Die Hornisten",
+      "Die Posaunisten",
+      "Die Trompeter"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Wagnertuba gehört trotz ihres Namens zur Familie der Waldhörner und wird mit einem Waldhorn-Mundstück geblasen. Deshalb spielen sie Hornisten; sie greifen mit der linken Hand. Im „Ring des Nibelungen“ wechseln einige Hornisten sogar zwischen Waldhorn und Wagnertuba.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Blechbläser",
+      "Oper"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wagnertuba",
+    "source_url": "https://de.wikipedia.org/wiki/Wagnertuba",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around 1870 Richard Wagner had his own brass instrument built for his “Ring of the Nibelung”: the Wagner tuba. Who plays it in the orchestra?",
+        "options": [
+          "The tuba players",
+          "The horn players",
+          "The trombonists",
+          "The trumpeters"
+        ],
+        "explanation": "Despite its name, the Wagner tuba belongs to the horn family and is played with a horn mouthpiece. That is why horn players play it, fingering with the left hand. In the “Ring of the Nibelung” some horn players even switch between horn and Wagner tuba."
+      }
+    }
+  }
+]
