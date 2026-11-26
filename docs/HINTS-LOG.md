@@ -2,6 +2,7 @@
 
 Neueste zuerst. Jede Zeile: Datum · Hinweis-ID · Inhalt · Grund · Ergebnis · was geändert wurde. Ablauf: `docs/HINTS-ROUTINE.md`.
 
+- 2026-11-26 · #35 · Grafik „Blick ins Innere: das Ohr“ (v-ohr-innen) · unklar: Bild sehr unrealistisch · weiter offen, braucht Betreiber – Mail erneut NICHT gesendet (Gmail-Connector: „requires additional permissions“, Betreiber muss ihn in den Connector-Einstellungen neu verbinden), nächster Lauf soll mailen · Grafik seit 11.11. unverändert; Bewertung wie am 11.11.
 - 2026-11-25 · #35 · Grafik „Blick ins Innere: das Ohr“ (v-ohr-innen) · unklar: Bild sehr unrealistisch · weiter offen, braucht Betreiber – Mail erneut NICHT gesendet (Gmail-Connector: „requires additional permissions“, Betreiber muss ihn in den Connector-Einstellungen neu verbinden), nächster Lauf soll mailen · Grafik seit 11.11. unverändert; Bewertung wie am 11.11.
 - 2026-11-21 · #36 · Animation „Wie eine Drehorgel spielt“ (a-drehorgel) · Idee: Lied schneller und ganze Melodie · bleibt · als Idee in docs/STAND.md notiert (Code-Änderung an Walze/Tempo, Melodie gemeinfrei).
 - 2026-11-21 · #35 · Grafik „Blick ins Innere: das Ohr“ (v-ohr-innen) · unklar: Bild sehr unrealistisch · weiter offen, braucht Betreiber – Mail erneut NICHT gesendet (Gmail-Connector: „requires additional permissions“, Betreiber muss ihn in den Connector-Einstellungen neu verbinden), nächster Lauf soll mailen · Bewertung wie am 11.11.
