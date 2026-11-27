@@ -2036,7 +2036,8 @@
         "text": "Nokia started out as a paper maker.",
         "detail": "Fredrik Idestam founded the company in Tampere, Finland, in 1865; at first it made paper products. It takes its name from the town of Nokia, where a second mill opened in 1868."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-roboter-wort",
@@ -2526,7 +2527,8 @@
         "text": "Nintendo started in 1889 with playing cards – not video games.",
         "detail": "The company was founded on 23 September 1889 in Kyoto by Fusajirō Yamauchi and first made Japanese Hanafuda cards. It only entered the video game market in the 1970s."
       }
-    }
+    },
+    "quiz": "truth"
   },
   {
     "id": "f-gutenberg-bibel",
@@ -2547,8 +2549,13 @@
     "translations": {
       "en": {
         "text": "Only about 180 copies of Gutenberg's famous Bible were printed.",
-        "detail": "About 150 of them were made on paper and around 30 on parchment. It was printed between 1452 and 1454 in Mainz, with the help of about 20 co-workers."
+        "detail": "About 150 of them were made on paper and around 30 on parchment. It was printed between 1452 and 1454 in Mainz, with the help of about 20 co-workers.",
+        "figureSuffix": " copies"
       }
+    },
+    "figure": {
+      "value": 180,
+      "suffix": " Stück"
     }
   },
   {
@@ -3012,9 +3019,12 @@
     "translations": {
       "en": {
         "text": "That each Olympic ring stands for a continent used to be in the official handbook – but it is not documented.",
-        "detail": "The rings were designed by Pierre de Coubertin in 1913 and first used on the flag at the 1920 Games in Antwerp. The note about the continents was removed because there is no evidence that Coubertin intended it that way."
+        "detail": "The rings were designed by Pierre de Coubertin in 1913 and first used on the flag at the 1920 Games in Antwerp. The note about the continents was removed because there is no evidence that Coubertin intended it that way.",
+        "myth": "Each Olympic ring stands for a particular continent."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "Jeder olympische Ring steht für einen bestimmten Kontinent."
   },
   {
     "id": "f-muskeln-ziehen",
@@ -4146,8 +4156,13 @@
     "translations": {
       "en": {
         "text": "In Halberstadt, an organ piece has been playing since 2001 that is meant to last 639 years.",
-        "detail": "John Cage's 'ORGAN²/ASLSP' is to be played 'as slow as possible'. In St. Burchardi church it will only end in the year 2640 – at its premiere in 1987 it lasted just over 29 minutes."
+        "detail": "John Cage's 'ORGAN²/ASLSP' is to be played 'as slow as possible'. In St. Burchardi church it will only end in the year 2640 – at its premiere in 1987 it lasted just over 29 minutes.",
+        "figureSuffix": " years"
       }
+    },
+    "figure": {
+      "value": 639,
+      "suffix": " Jahre"
     }
   },
   {
@@ -5216,9 +5231,12 @@
     "translations": {
       "en": {
         "text": "There is no lead in a “lead pencil”.",
-        "detail": "In the past people wrote with styluses tipped with real lead. Since the 19th century the core has been made from a fired mixture of graphite and clay. The name stayed anyway."
+        "detail": "In the past people wrote with styluses tipped with real lead. Since the 19th century the core has been made from a fired mixture of graphite and clay. The name stayed anyway.",
+        "myth": "A pencil contains lead."
       }
-    }
+    },
+    "quiz": "myth",
+    "myth": "In einem Bleistift steckt Blei."
   },
   {
     "id": "f-starbucks-moby",
@@ -5631,6 +5649,190 @@
       "en": {
         "text": "Pompeii was bigger than long believed: at least 20,000 inhabitants.",
         "detail": "Older literature estimated 8,000 to 10,000 inhabitants. Recent research assumes at least 20,000 and up to 45,000 people."
+      }
+    }
+  },
+  {
+    "id": "f-pascal-dreieck",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Das pascalsche Dreieck war schon lange vor Blaise Pascal bekannt.",
+    "detail": "Die früheste detaillierte Darstellung erschien im 10. Jahrhundert in Kommentaren zu einem indischen Buch über die Verskunst des Sanskrit. Deshalb spricht man in China vom Yang-Hui-Dreieck, in Italien vom Tartaglia-Dreieck und im Iran vom Chayyām-Dreieck. Pascal schrieb seine Abhandlung 1654.",
+    "sources": [
+      {
+        "name": "Wikipedia: Pascalsches Dreieck",
+        "url": "https://de.wikipedia.org/wiki/Pascalsches_Dreieck"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T12:00:00Z",
+    "translations": {
+      "en": {
+        "text": "Pascal's triangle was known long before Blaise Pascal.",
+        "detail": "The earliest detailed presentation appeared in the 10th century in commentaries on an Indian book about Sanskrit prosody. That is why it is called the Yang Hui triangle in China, the Tartaglia triangle in Italy and the Chayyām triangle in Iran. Pascal wrote his treatise in 1654."
+      }
+    }
+  },
+  {
+    "id": "f-affen-theorem",
+    "category_id": "math",
+    "area": "numbers",
+    "min_age": 10,
+    "text": "Ein Affe, der ewig auf einer Schreibmaschine tippt, schriebe fast sicher irgendwann alle Bücher der französischen Nationalbibliothek.",
+    "detail": "So besagt es das Theorem der endlos tippenden Affen. Es verdeutlicht eine Aussage der Wahrscheinlichkeitstheorie, das Lemma von Borel und Cantelli, und kann helfen, sich Unendlichkeit und Wahrscheinlichkeiten vorzustellen.",
+    "sources": [
+      {
+        "name": "Wikipedia: Infinite-Monkey-Theorem",
+        "url": "https://de.wikipedia.org/wiki/Infinite-Monkey-Theorem"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T11:50:00Z",
+    "translations": {
+      "en": {
+        "text": "A monkey typing at random on a typewriter forever would almost surely write all the books in the French national library at some point.",
+        "detail": "That is what the infinite monkey theorem says. It illustrates a statement from probability theory, the Borel–Cantelli lemma, and can help to picture infinity and probabilities."
+      }
+    }
+  },
+  {
+    "id": "f-v-stil",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Der V-Stil im Skispringen kostete anfangs Punkte – und setzte sich trotzdem durch.",
+    "detail": "Anfang der 1990er-Jahre verdrängte der Flug mit V-förmig gespreizten Skiern den Parallelstil. Ein Schwede brachte ihn maßgeblich auf. Er musste zunächst hohe Punktabzüge für die Flugtechnik hinnehmen, erreichte aber dank der größeren Weite trotzdem Spitzenplätze. Bis 1992 übernahmen nahezu alle Springer die Technik.",
+    "sources": [
+      {
+        "name": "Wikipedia: Skispringen",
+        "url": "https://de.wikipedia.org/wiki/Skispringen"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T11:40:00Z",
+    "translations": {
+      "en": {
+        "text": "The V-style in ski jumping cost points at first – and still caught on.",
+        "detail": "In the early 1990s flying with the skis spread in a V replaced the parallel style. A Swede was largely responsible for introducing it. At first he had to accept high point deductions for his flight technique, but the much greater distance still earned him top placings. By 1992 almost all jumpers had adopted the technique."
+      }
+    }
+  },
+  {
+    "id": "f-cricket-test",
+    "category_id": "sport",
+    "area": "sport",
+    "min_age": 10,
+    "text": "Ein Cricket-Testspiel kann bis zu fünf Tage dauern.",
+    "detail": "An jedem Tag gibt es drei Spielabschnitte von rund zwei Stunden. Diese Spielform gilt traditionell als höchste Form des Sports. Tests sind meist in eine Serie von zwei bis sechs Tests eingebettet, die sich über mehrere Wochen ziehen kann.",
+    "sources": [
+      {
+        "name": "Wikipedia: Cricket",
+        "url": "https://de.wikipedia.org/wiki/Cricket"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T11:30:00Z",
+    "translations": {
+      "en": {
+        "text": "A cricket Test match can last up to five days.",
+        "detail": "Each day has three playing sessions of around two hours. This format is traditionally regarded as the highest form of the sport. Tests are usually part of a series of two to six Tests, which can stretch over several weeks."
+      }
+    }
+  },
+  {
+    "id": "f-kodak-digital",
+    "category_id": "business",
+    "area": "tech",
+    "min_age": 10,
+    "text": "Die erste Digitalkamera erfand 1975 ein Kodak-Ingenieur.",
+    "detail": "Als die DCS 100 1991 als erste Digitalkamera der Welt in den Handel kam, kostete sie 25.000 DM und war nicht massentauglich. 2012 stellte Kodak die Produktion von Digitalkameras ein.",
+    "sources": [
+      {
+        "name": "Wikipedia: Kodak",
+        "url": "https://de.wikipedia.org/wiki/Kodak"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T11:20:00Z",
+    "translations": {
+      "en": {
+        "text": "The first digital camera was invented in 1975 by a Kodak engineer.",
+        "detail": "When the DCS 100 went on sale in 1991 as the world's first digital camera, it cost 25,000 DM and was not suited to the mass market. In 2012 Kodak stopped producing digital cameras."
+      }
+    }
+  },
+  {
+    "id": "f-kaefer",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Der VW Käfer war lange das meistverkaufte Auto der Welt – über 21,5 Millionen Stück.",
+    "detail": "Gebaut wurde er von Ende 1938 bis Sommer 2003. Im Juni 2002 übertraf ihn der VW Golf.",
+    "sources": [
+      {
+        "name": "Wikipedia: VW Käfer",
+        "url": "https://de.wikipedia.org/wiki/VW_Käfer"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T11:10:00Z",
+    "translations": {
+      "en": {
+        "text": "The VW Beetle was long the best-selling car in the world – more than 21.5 million units.",
+        "detail": "It was built from late 1938 until summer 2003. In June 2002 the VW Golf overtook it."
+      }
+    }
+  },
+  {
+    "id": "f-sony-reiskocher",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Dass Sonys erstes Produkt ein Reiskocher war, ist ein Gründungsmythos.",
+    "detail": "Eine Vorgängerfirma arbeitete zwar an einem Reiskocher, schaffte aber keinen funktionierenden Prototyp, und die Arbeiten wurden eingestellt. 1979 entwickelte Sony den ersten Walkman, einen kleinen tragbaren Kassettenspieler.",
+    "sources": [
+      {
+        "name": "Wikipedia: Sony",
+        "url": "https://de.wikipedia.org/wiki/Sony"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T11:00:00Z",
+    "translations": {
+      "en": {
+        "text": "That Sony's first product was a rice cooker is a founding myth.",
+        "detail": "A predecessor company did work on a rice cooker, but never managed a working prototype, and the work was stopped. In 1979 Sony developed the first Walkman, a small portable cassette player."
+      }
+    }
+  },
+  {
+    "id": "f-netflix-dvd",
+    "category_id": "business",
+    "area": "curious",
+    "min_age": 10,
+    "text": "Netflix war zuerst eine Online-Videothek, die Filme auf DVD verschickte.",
+    "detail": "Das Unternehmen wurde 1997 im kalifornischen Los Gatos gegründet. 2007 stieg es ins Video-on-Demand-Geschäft ein und machte Inhalte per Streaming zugänglich.",
+    "sources": [
+      {
+        "name": "Wikipedia: Netflix",
+        "url": "https://de.wikipedia.org/wiki/Netflix"
+      }
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "created_at": "2026-11-27T10:50:00Z",
+    "translations": {
+      "en": {
+        "text": "Netflix began as an online video store that sent films out on DVD.",
+        "detail": "The company was founded in 1997 in Los Gatos, California. In 2007 it entered the video-on-demand business and made content available by streaming."
       }
     }
   }
