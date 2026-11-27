@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "b178",
+    "kind": "question",
+    "category_id": "business",
+    "question": "An manchen Blumenfeldern zum Selberschneiden steht eine „Kasse des Vertrauens“. Warum lohnt sie sich für den Anbieter?",
+    "options": [
+      "Kunden zahlen dort immer zu viel",
+      "Er zahlt auf das Geld keine Steuern",
+      "Die Gemeinde bezahlt ihm die Kasse",
+      "Er braucht kein Verkaufspersonal"
+    ],
+    "correct_index": 3,
+    "explanation": "In eine Kasse des Vertrauens legen die Kunden das Geld selbst hinein – der Anbieter vertraut darauf, dass sie ehrlich den richtigen Betrag zahlen. Sein Vorteil: Er kann seine Ware jederzeit anbieten, ohne Verkaufspersonal beschäftigen zu müssen. Das lohnt sich vor allem, wenn nur kleine Beträge zusammenkommen.",
+    "difficulty": 1,
+    "tags": [
+      "Handel",
+      "Vertrauen",
+      "Landwirtschaft"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kasse des Vertrauens",
+    "source_url": "https://de.wikipedia.org/wiki/Kasse des Vertrauens",
+    "created_at": "2026-11-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Some flower fields where you cut your own flowers have an “honesty box”. Why does it pay off for the seller?",
+        "options": [
+          "Customers always pay too much",
+          "They pay no tax on the money",
+          "The town pays for the box",
+          "They need no sales staff"
+        ],
+        "explanation": "Customers put the money into an honesty box themselves – the seller trusts them to pay the correct amount. The advantage: the goods can be offered at any time without having to employ sales staff. It is worth it above all when only small amounts are involved."
+      }
+    }
+  },
+  {
+    "id": "b179",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was war das Besondere an einem „Einheitspreisgeschäft“, wie es sie in Deutschland in den 1920er-Jahren gab?",
+    "options": [
+      "Alle Waren kosteten wenige, runde Preise",
+      "Jeder Kunde zahlte denselben Eintritt",
+      "Alle Läden hatten gleiche Öffnungszeiten",
+      "Die Preise wurden täglich ausgelost"
+    ],
+    "correct_index": 0,
+    "explanation": "Im Einheitspreisgeschäft waren die Preise des ganzen Sortiments auf wenige, runde Beträge beschränkt. Verbreitet war diese Form vor allem in den USA; in Deutschland gab es sie in den 1920er und Anfang der 1930er Jahre. Sie gilt als Wegbereiter der Selbstbedienung und ähnelt den heutigen „1-Euro-Shops“.",
+    "difficulty": 2,
+    "tags": [
+      "Einzelhandel",
+      "Preis",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Einheitspreisgeschäft",
+    "source_url": "https://de.wikipedia.org/wiki/Einheitspreisgeschäft",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was special about a “single-price store” like those found in Germany in the 1920s?",
+        "options": [
+          "All goods cost a few round prices",
+          "Every customer paid the same entry fee",
+          "All shops had the same opening hours",
+          "Prices were drawn by lot every day"
+        ],
+        "explanation": "In a single-price store the prices of the whole range were limited to a few round amounts. The format was most common in the USA; in Germany such stores existed in the 1920s and early 1930s. They are seen as pioneers of self-service and resemble today’s “one-euro shops”."
+      }
+    }
+  },
+  {
+    "id": "b180",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was war früher in Deutschland der „Kupferne Sonntag“?",
+    "options": [
+      "Der erste Sonntag nach der Ernte",
+      "Ein Sonntag, an dem man Kupfermünzen spendete",
+      "Ein verkaufsoffener Sonntag vor Weihnachten",
+      "Ein Feiertag der Kupferschmiede"
+    ],
+    "correct_index": 2,
+    "explanation": "So hieß der drittletzte verkaufsoffene Sonntag vor Weihnachten – nach dem Goldenen und dem Silbernen Sonntag. Weil damals meist sechs Tage pro Woche gearbeitet wurde, kauften viele an diesen Sonntagen ihre Weihnachtsgeschenke. Das Ladenschlussgesetz von 1957 schaffte den Kupfernen Sonntag ab.",
+    "difficulty": 2,
+    "tags": [
+      "Einzelhandel",
+      "Weihnachten",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kupferner Sonntag",
+    "source_url": "https://de.wikipedia.org/wiki/Kupferner Sonntag",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the “Copper Sunday” in Germany in the past?",
+        "options": [
+          "The first Sunday after the harvest",
+          "A Sunday when people donated copper coins",
+          "A Sunday shopping day before Christmas",
+          "A holiday of the coppersmiths"
+        ],
+        "explanation": "That was the name of the third-to-last Sunday before Christmas on which shops were open – after the Golden and the Silver Sunday. Because most people then worked six days a week, many bought their Christmas presents on these Sundays. The shop closing law of 1957 abolished the Copper Sunday."
+      }
+    }
+  },
+  {
+    "id": "b181",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Ein Laden möchte einen Kundenstopper – einen Klappaufsteller mit Werbung – auf den Gehweg stellen. Was braucht er dafür in Deutschland meist?",
+    "options": [
+      "Einen Eintrag im Handelsregister",
+      "Gar nichts, der Gehweg gehört dem Laden",
+      "Die Unterschrift aller Nachbarn",
+      "Eine Erlaubnis der Stadt"
+    ],
+    "correct_index": 3,
+    "explanation": "Kundenstopper auf Gehwegen oder in Fußgängerzonen müssen grundsätzlich genehmigt werden: Man beantragt bei der Gemeinde, meist beim Ordnungsamt, eine Sondernutzungserlaubnis, die oft Gebühren kostet. Manche Gemeinden schränken die Aufsteller ein oder verbieten sie. Außerdem können sie für Menschen mit eingeschränkter Mobilität ein Hindernis sein.",
+    "difficulty": 2,
+    "tags": [
+      "Werbung",
+      "Stadt",
+      "Genehmigung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kundenstopper",
+    "source_url": "https://de.wikipedia.org/wiki/Kundenstopper",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A shop wants to put an A-frame sign with advertising on the pavement. What does it usually need for that in Germany?",
+        "options": [
+          "An entry in the trade register",
+          "Nothing, the pavement belongs to the shop",
+          "The signatures of all neighbours",
+          "A permit from the town"
+        ],
+        "explanation": "A-frame signs on pavements or in pedestrian zones generally need approval: you apply to the municipality, usually the public order office, for a special-use permit, which often costs a fee. Some towns restrict or ban such signs. They can also be an obstacle for people with limited mobility."
+      }
+    }
+  },
+  {
+    "id": "b182",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Warum liegen Sonderangebote auf dem Wühltisch oft ungeordnet durcheinander?",
+    "options": [
+      "Stöbern soll zum Spontankauf verleiten",
+      "Ein Gesetz verbietet ordentliches Stapeln",
+      "So bleibt die Ware vor Licht geschützt",
+      "So erkennt die Kasse die Ware schneller"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Wühl- oder Grabbeltisch setzt auf das „Schnäppchenfieber“: Wer herumstöbert und die Ware anfassen und ausprobieren kann, soll zum Spontankauf animiert werden. Meist liegen dort preisgünstige Sonderangebote, Restposten oder Artikel mit kleinen Fehlern.",
+    "difficulty": 1,
+    "tags": [
+      "Einzelhandel",
+      "Kaufverhalten",
+      "Sonderangebot"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grabbeltisch",
+    "source_url": "https://de.wikipedia.org/wiki/Grabbeltisch",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why are special offers on a bargain table often piled up in a jumble?",
+        "options": [
+          "Rummaging is meant to trigger impulse buys",
+          "A law forbids neat stacking",
+          "It protects the goods from light",
+          "It lets the till recognise the goods faster"
+        ],
+        "explanation": "The bargain table plays on “bargain fever”: shoppers who rummage around and can touch and try the goods are meant to be tempted into impulse buys. Usually it holds cheap special offers, leftover stock or items with small flaws."
+      }
+    }
+  },
+  {
+    "id": "b183",
+    "kind": "question",
+    "category_id": "business",
+    "question": "In einem Arbeitszeugnis steht, jemand habe „zur vollsten Zufriedenheit“ gearbeitet. Welcher Note entspricht das?",
+    "options": [
+      "Gut",
+      "Sehr gut",
+      "Befriedigend",
+      "Ausreichend"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Arbeitszeugnis muss wohlwollend sein, aber auch wahr. Daraus hat sich eine eigene Zeugnissprache entwickelt: „Zur vollsten Zufriedenheit“ steht für eine sehr gute Leistung, „zur vollen Zufriedenheit“ allein nur für ein Befriedigend. Sprachlich ist „vollste“ eigentlich falsch, denn „voll“ lässt sich streng genommen nicht steigern.",
+    "difficulty": 2,
+    "tags": [
+      "Arbeit",
+      "Sprache",
+      "Bewerbung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Arbeitszeugnis",
+    "source_url": "https://de.wikipedia.org/wiki/Arbeitszeugnis",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A German job reference says someone worked “to our fullest satisfaction”. Which grade does that correspond to?",
+        "options": [
+          "Good",
+          "Very good",
+          "Satisfactory",
+          "Sufficient"
+        ],
+        "explanation": "A German job reference must be benevolent but also truthful. This has produced a coded language of its own: “zur vollsten Zufriedenheit” (to our fullest satisfaction) stands for very good performance, while “zur vollen Zufriedenheit” (to our full satisfaction) on its own only means satisfactory. Strictly speaking “vollste” is wrong, since “full” cannot really be made stronger."
+      }
+    }
+  },
+  {
+    "id": "b184",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Eine Firma wirbt mit einem großen Sportereignis, ohne dafür Sponsor zu sein. Wie nennt man das?",
+    "options": [
+      "Crowdfunding",
+      "Sponsoring",
+      "Ambush Marketing",
+      "Influencer-Marketing"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Ambush Marketing nutzt eine Firma die Aufmerksamkeit für ein Großereignis, ohne selbst Sponsor zu sein. „Ambush“ ist englisch und bedeutet Hinterhalt; man sagt auch Schmarotzermarketing. Trotz des schlechten Rufs sind solche Werbeaktionen nur in Ausnahmefällen verboten.",
+    "difficulty": 2,
+    "tags": [
+      "Werbung",
+      "Sport",
+      "Marketing"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Ambush Marketing",
+    "source_url": "https://de.wikipedia.org/wiki/Ambush Marketing",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A company advertises using a major sporting event without being one of its sponsors. What is this called?",
+        "options": [
+          "Crowdfunding",
+          "Sponsorship",
+          "Ambush marketing",
+          "Influencer marketing"
+        ],
+        "explanation": "In ambush marketing a company exploits the attention around a major event without being a sponsor itself. “Ambush” means a surprise attack from hiding; in German it is also called “parasite marketing”. Despite its bad reputation, such advertising is illegal only in exceptional cases."
+      }
+    }
+  },
+  {
+    "id": "b185",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Was ist ein „Sandwich-Man“ in der Werbung?",
+    "options": [
+      "Eine Werbefigur aus Pappe im Schaufenster",
+      "Ein Bote, der belegte Brote ausliefert",
+      "Ein Werbespot zwischen zwei Sendungen",
+      "Ein Mensch mit Plakat vorn und hinten"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Sandwich-Man läuft mit je einem Plakat auf der Brust und auf dem Rücken durch belebte Straßen – eingeklemmt wie in einem Sandwich. Schon 1820 gab es sie in London, als für Plakatwerbung Steuern gezahlt werden sollten. Im August 2008 wurde diese Werbung in Londons zentralen Straßen untersagt, weil die Träger als Verkehrshindernis galten.",
+    "difficulty": 1,
+    "tags": [
+      "Werbung",
+      "London",
+      "Plakat"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sandwich-Man",
+    "source_url": "https://de.wikipedia.org/wiki/Sandwich-Man",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is a “sandwich man” in advertising?",
+        "options": [
+          "A cardboard figure in a shop window",
+          "A courier delivering sandwiches",
+          "An ad between two TV programmes",
+          "A person with a poster front and back"
+        ],
+        "explanation": "A sandwich man walks through busy streets with one poster on his chest and one on his back – squeezed in between like the filling of a sandwich. They already existed in London in 1820, when tax was to be paid on poster advertising. In August 2008 this kind of advertising was banned in central London streets because the carriers were considered an obstacle to traffic."
+      }
+    }
+  },
+  {
+    "id": "b186",
+    "kind": "question",
+    "category_id": "business",
+    "question": "Vor vielen Restaurants in Japan sieht man „Shokuhin Sanpuru“. Was ist das?",
+    "options": [
+      "Gerichte aus Plastik oder Wachs",
+      "Kostenlose Häppchen zum Probieren",
+      "Speisekarten aus bemaltem Holz",
+      "Glocken, die Gäste begrüßen"
+    ],
+    "correct_index": 0,
+    "explanation": "Shokuhin Sanpuru heißt etwa „Lebensmittelbeispiel“: nachgemachte Gerichte aus Plastik oder Wachs in der Auslage. So können Gäste das Essen schon vor dem Eintreten ansehen. Der Brauch geht auf das Jahr 1917 zurück – damals vor allem, um das fremde, neue Essen aus Europa und Amerika zu erklären.",
+    "difficulty": 1,
+    "tags": [
+      "Japan",
+      "Restaurant",
+      "Werbung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Shokuhin-Sanpuru",
+    "source_url": "https://de.wikipedia.org/wiki/Shokuhin-Sanpuru",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Outside many restaurants in Japan you see “shokuhin sanpuru”. What are they?",
+        "options": [
+          "Dishes made of plastic or wax",
+          "Free snacks for guests to taste",
+          "Menus made of painted wood",
+          "Bells that greet guests"
+        ],
+        "explanation": "Shokuhin sanpuru means roughly “food sample”: imitation dishes made of plastic or wax on display. They let guests see the food before going in. The custom dates back to 1917 – back then mainly to explain the unfamiliar new food from Europe and America."
+      }
+    }
+  },
+  {
+    "id": "b187",
+    "kind": "question",
+    "category_id": "business",
+    "question": "In Japan kaufen viele zum Neujahr ein „Fukubukuro“. Was ist das?",
+    "options": [
+      "Ein Glücksbringer aus Reisstroh",
+      "Eine Wundertüte mit Rabatt",
+      "Ein Sack Reis für die Nachbarn",
+      "Ein Kalender mit Glückstagen"
+    ],
+    "correct_index": 1,
+    "explanation": "Fukubukuro heißt „Wundertüte“ – aus fuku für Glück und fukuro für Tüte. Zum Neujahr verkaufen Händler Tüten mit unbekanntem, zufälligem Inhalt, meist 50 % oder mehr unter dem Listenpreis der Waren darin. Vor beliebten Geschäften bilden sich am Neujahrstag schon Stunden vor der Öffnung lange Schlangen.",
+    "difficulty": 1,
+    "tags": [
+      "Japan",
+      "Neujahr",
+      "Einkaufen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fukubukuro",
+    "source_url": "https://de.wikipedia.org/wiki/Fukubukuro",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Japan many people buy a “fukubukuro” at New Year. What is it?",
+        "options": [
+          "A lucky charm made of rice straw",
+          "A discounted mystery bag",
+          "A sack of rice for the neighbours",
+          "A calendar of lucky days"
+        ],
+        "explanation": "Fukubukuro means “lucky bag” – from fuku for luck and fukuro for bag. At New Year, shops sell bags with unknown, random contents, usually at 50 % or more below the list price of the goods inside. Outside popular shops, long queues form on New Year’s Day hours before opening."
+      }
+    }
+  },
+  {
+    "id": "e155",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Eine undurchsichtige Packung darf in Deutschland nicht zu viel Luft enthalten. Um wie viel Prozent darf die Füllmenge höchstens vom Fassungsvermögen abweichen?",
+    "options": [
+      "10 Prozent",
+      "30 Prozent",
+      "50 Prozent",
+      "70 Prozent"
+    ],
+    "correct_index": 1,
+    "explanation": "Aus Gründen des Verbraucherschutzes ist eine undurchsichtige Fertigpackung unzulässig, wenn ihre Füllmenge um mehr als 30 % vom Fassungsvermögen abweicht – wenn sie also zu rund einem Drittel Luft enthält. Ausgenommen sind Fälle, in denen die Abweichung produktbedingt oder technisch unumgänglich ist.",
+    "difficulty": 2,
+    "tags": [
+      "Verbraucherschutz",
+      "Verpackung",
+      "Deutschland"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mogelpackung",
+    "source_url": "https://de.wikipedia.org/wiki/Mogelpackung",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In Germany an opaque package must not contain too much air. By how many percent may the fill quantity differ from the container’s capacity at most?",
+        "options": [
+          "10 percent",
+          "30 percent",
+          "50 percent",
+          "70 percent"
+        ],
+        "explanation": "For consumer protection, an opaque prepackage is not allowed if its contents differ from the container’s capacity by more than 30 % – in other words, if it is about one third air. Exceptions apply where the difference is due to the product or technically unavoidable."
+      }
+    }
+  },
+  {
+    "id": "e156",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Aristoteles unterschied die „Ökonomik“, die Kunst der Hausverwaltung, von der „Chrematistik“. Was bezeichnet Chrematistik?",
+    "options": [
+      "Die Kunst des Gelderwerbs",
+      "Die Kunst des Ackerbaus",
+      "Die Lehre von den Steuern",
+      "Die Kunst des Schiffbaus"
+    ],
+    "correct_index": 0,
+    "explanation": "Den Begriff prägte Aristoteles, um die Kunst des Gelderwerbs von der Ökonomik, der Kunst der Hausverwaltung, abzugrenzen. Er nannte die Chrematistik abwertend eine „widernatürliche Erwerbskunst“ – im Gegensatz zur Ökonomik als natürlicher Erwerbskunst, die die grundlegenden Bedürfnisse des Menschen befriedigen soll.",
+    "difficulty": 3,
+    "tags": [
+      "Philosophie",
+      "Antike",
+      "Geld"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chrematistik",
+    "source_url": "https://de.wikipedia.org/wiki/Chrematistik",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Aristotle distinguished “oeconomics”, the art of running a household, from “chrematistics”. What does chrematistics mean?",
+        "options": [
+          "The art of making money",
+          "The art of farming",
+          "The study of taxes",
+          "The art of shipbuilding"
+        ],
+        "explanation": "Aristotle coined the term to set the art of making money apart from oeconomics, the art of household management. He judged chrematistics disparagingly as an “unnatural art of acquisition” – in contrast to oeconomics as a natural one that serves people’s basic needs."
+      }
+    }
+  },
+  {
+    "id": "e157",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Der erste bekannte Streik der Geschichte fand im Alten Ägypten statt. Warum legten die Arbeiter an den Königsgräbern die Arbeit nieder?",
+    "options": [
+      "Sie wollten jede Woche einen freien Tag",
+      "Ihr Lohn in Getreide war ausgeblieben",
+      "Sie weigerten sich, nachts zu arbeiten",
+      "Sie verlangten Werkzeuge aus Eisen"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Jahr 1159 v. Chr. legten die Arbeiter, die bei Theben die Königsgräber bauten, die Arbeit nieder: Sie hatten seit achtzehn Tagen ihr Deputat an Getreide nicht bekommen. Ein Papyrus überliefert ihren Ruf „Wir sind hungrig!“. Es ist der erste bekannte Streik der Geschichte.",
+    "difficulty": 2,
+    "tags": [
+      "Arbeit",
+      "Ägypten",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Streik",
+    "source_url": "https://de.wikipedia.org/wiki/Streik",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The first known strike in history took place in ancient Egypt. Why did the workers on the royal tombs stop working?",
+        "options": [
+          "They wanted a day off every week",
+          "Their grain wages had not arrived",
+          "They refused to work at night",
+          "They demanded iron tools"
+        ],
+        "explanation": "In 1159 BC the workers building the royal tombs near Thebes laid down their tools: for eighteen days they had not received their allowance of grain. A papyrus records their cry “We are hungry!”. It is the first known strike in history."
+      }
+    }
+  },
+  {
+    "id": "e158",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Wie sorgte die Stadt Amsterdam ab 1894 für einen Mindestlohn?",
+    "options": [
+      "Die Löhne aller Firmen wurden jedes Jahr ausgelost",
+      "Die Stadt zahlte allen Arbeitern einen Zuschuss dazu",
+      "Stadtaufträge gab es nur für Firmen, die ihn zahlten",
+      "Firmen ohne Mindestlohn mussten sofort schließen"
+    ],
+    "correct_index": 2,
+    "explanation": "Erste lokale Mindestlohnregeln gab es gegen Ende des 19. Jahrhunderts. Ab 1894 vergab Amsterdam öffentliche Aufträge nur noch an Unternehmen, die ihre Beschäftigten nicht unter einem Mindestlohn bezahlten. 1896 führte Neuseeland Lohnschlichtungsstellen ein; später folgten weitere Länder.",
+    "difficulty": 2,
+    "tags": [
+      "Arbeit",
+      "Lohn",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mindestlohn",
+    "source_url": "https://de.wikipedia.org/wiki/Mindestlohn",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the city of Amsterdam ensure a minimum wage from 1894 on?",
+        "options": [
+          "Wages at all firms were drawn by lot each year",
+          "The city paid all workers an extra allowance",
+          "City contracts went only to firms paying it",
+          "Firms without a minimum wage had to close at once"
+        ],
+        "explanation": "The first local minimum wage rules appeared towards the end of the 19th century. From 1894 Amsterdam awarded public contracts only to companies that did not pay their employees below a minimum wage. In 1896 New Zealand introduced wage arbitration boards; other countries followed later."
+      }
+    }
+  },
+  {
+    "id": "e159",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "James Watts Dampfmaschine brauchte viel weniger Kohle als frühere Maschinen. Was geschah danach mit Englands Kohleverbrauch?",
+    "options": [
+      "Er sank fast auf null",
+      "Er sank um die Hälfte",
+      "Er blieb genau gleich",
+      "Er stieg insgesamt an"
+    ],
+    "correct_index": 3,
+    "explanation": "Das beobachtete William Stanley Jevons in seinem 1865 erschienenen Buch „The Coal Question“: Watts sparsamere Dampfmaschine machte Kohle zu einer günstigeren Energiequelle, die Maschinen verbreiteten sich, und der Kohleverbrauch stieg insgesamt – obwohl jede einzelne Anwendung weniger brauchte. Heute spricht man allgemeiner vom Rebound-Effekt.",
+    "difficulty": 2,
+    "tags": [
+      "Energie",
+      "Dampfmaschine",
+      "Paradoxon"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jevons-Paradoxon",
+    "source_url": "https://de.wikipedia.org/wiki/Jevons-Paradoxon",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "James Watt’s steam engine needed far less coal than earlier engines. What then happened to England’s coal consumption?",
+        "options": [
+          "It fell almost to zero",
+          "It fell by half",
+          "It stayed exactly the same",
+          "It rose overall"
+        ],
+        "explanation": "William Stanley Jevons observed this in his 1865 book “The Coal Question”: Watt’s more economical steam engine made coal a cheaper source of energy, the engines spread, and coal consumption rose overall – even though each single application used less. Today this is more generally called the rebound effect."
+      }
+    }
+  },
+  {
+    "id": "e160",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Nach dem „Lindy-Effekt“: Eine Fernsehsendung läuft schon seit zwei Jahren. Wie lange wird sie voraussichtlich noch laufen?",
+    "options": [
+      "Noch etwa zwei Wochen",
+      "Noch etwa zwei Jahre",
+      "Noch etwa zwanzig Jahre",
+      "Nur noch wenige Tage"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Lindy-Effekt besagt: Je länger etwas Nicht-Verderbliches wie eine Idee oder Technik schon existiert, desto länger dürfte es noch bestehen. Comedians in einem New Yorker Feinkostladen beschrieben es so: Eine Sendung, die seit zwei Wochen läuft, läuft wohl noch zwei Wochen – eine, die seit zwei Jahren läuft, noch zwei Jahre. Für einzelne Menschen gilt das nicht, denn sie sind „verderblich“.",
+    "difficulty": 2,
+    "tags": [
+      "Statistik",
+      "Zeit",
+      "Fernsehen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lindy-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Lindy-Effekt",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "According to the “Lindy effect”, a TV show has been running for two years. How much longer is it expected to run?",
+        "options": [
+          "About two more weeks",
+          "About two more years",
+          "About twenty more years",
+          "Only a few more days"
+        ],
+        "explanation": "The Lindy effect says: the longer something non-perishable, such as an idea or a technology, has already existed, the longer it is likely to last. Comedians at a New York deli put it like this: a show that has run for two weeks will probably run two more weeks – one that has run for two years, two more years. It does not apply to individual people, because they are “perishable”."
+      }
+    }
+  },
+  {
+    "id": "e161",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Viele Menschen schätzen eine Sache plötzlich wertvoller ein, sobald sie ihnen gehört. Wie nennt die Verhaltensökonomik das?",
+    "options": [
+      "Mitläufereffekt",
+      "Ankereffekt",
+      "Besitztumseffekt",
+      "Dominoeffekt"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Besitztumseffekt, englisch endowment effect, besagt, dass Menschen ein Gut wertvoller einschätzen, wenn sie es besitzen. Deshalb kann der Preis, den jemand für ein Ding zahlen würde, unter dem Preis liegen, zu dem er dasselbe Ding verkaufen würde. Das widerspricht der Annahme, dass Menschen rein rational entscheiden.",
+    "difficulty": 2,
+    "tags": [
+      "Psychologie",
+      "Verhaltensökonomik",
+      "Besitz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Besitztumseffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Besitztumseffekt",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many people suddenly value a thing more highly as soon as they own it. What do behavioural economists call this?",
+        "options": [
+          "Bandwagon effect",
+          "Anchoring effect",
+          "Endowment effect",
+          "Domino effect"
+        ],
+        "explanation": "The endowment effect says that people value a good more highly when they own it. So the price someone would pay for a thing can be lower than the price at which they would sell the very same thing. This contradicts the assumption that people decide purely rationally."
+      }
+    }
+  },
+  {
+    "id": "e162",
+    "kind": "question",
+    "category_id": "economy",
+    "question": "Erfolg zieht weiteren Erfolg an, kleine Vorsprünge werden so zu großen. Worauf spielt der Name „Matthäus-Effekt“ an?",
+    "options": [
+      "Auf ein Kartenspiel namens Matthäus",
+      "Auf einen Kaufmann, der im Mittelalter reich wurde",
+      "Auf einen Lehrer, der den Effekt entdeckte",
+      "Auf einen Satz aus dem Matthäusevangelium"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Name spielt auf einen Satz aus dem Matthäusevangelium an, aus dem Gleichnis von den anvertrauten Talenten. Ein Sprichwort fasst den Effekt zusammen: „Wer hat, dem wird gegeben.“ Erfolge erzeugen Aufmerksamkeit, und die eröffnet Mittel, mit denen weitere Erfolge wahrscheinlicher werden.",
+    "difficulty": 2,
+    "tags": [
+      "Soziologie",
+      "Erfolg",
+      "Bibel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Matthäus-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Matthäus-Effekt",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Success attracts further success, so small leads grow into big ones. What does the name “Matthew effect” refer to?",
+        "options": [
+          "A card game called Matthew",
+          "A merchant who grew rich in the Middle Ages",
+          "A teacher who discovered the effect",
+          "A verse from the Gospel of Matthew"
+        ],
+        "explanation": "The name refers to a verse from the Gospel of Matthew, from the parable of the talents. A proverb sums the effect up: “To those who have, more will be given.” Success creates attention, and attention opens up resources that make further success more likely."
+      }
+    }
+  },
+  {
+    "id": "m141",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Eine Mirpzahl ist eine Primzahl, die rückwärts gelesen eine andere Primzahl ergibt. Welche dieser Zahlen ist eine Mirpzahl?",
+    "options": [
+      "11",
+      "13",
+      "19",
+      "23"
+    ],
+    "correct_index": 1,
+    "explanation": "13 ist eine Primzahl, und rückwärts gelesen ergibt sie 31 – ebenfalls eine Primzahl. Der Name „mirp“ ist „prim“ rückwärts geschrieben. Ein Primzahlpalindrom wie 131 zählt nicht, denn rückwärts entsteht keine andere, sondern dieselbe Zahl.",
+    "difficulty": 2,
+    "tags": [
+      "Primzahlen",
+      "Zahlen",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mirpzahl",
+    "source_url": "https://de.wikipedia.org/wiki/Mirpzahl",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "An emirp is a prime that gives a different prime when read backwards. Which of these numbers is an emirp?",
+        "options": [
+          "11",
+          "13",
+          "19",
+          "23"
+        ],
+        "explanation": "13 is a prime, and read backwards it gives 31 – also a prime. The name “emirp” is “prime” spelled backwards. A palindromic prime such as 131 does not count, because reading it backwards gives the same number, not a different one."
+      }
+    }
+  },
+  {
+    "id": "m142",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ab der 762. Nachkommastelle der Kreiszahl π zeigt sich eine Besonderheit, der „Feynman-Punkt“. Welche?",
+    "options": [
+      "Zehnmal hintereinander die Ziffer 0",
+      "Sechsmal hintereinander die Ziffer 9",
+      "Die Ziffern 1 bis 8 der Reihe nach",
+      "Siebenmal hintereinander die Ziffer 7"
+    ],
+    "correct_index": 1,
+    "explanation": "Ab der 762. Nachkommastelle folgen in π sechs Neunen aufeinander. Der Name geht auf eine Anekdote zurück: Der Physiker Richard Feynman soll gesagt haben, er wolle π bis zu dieser Stelle auswendig lernen und dann mit „neun neun neun neun neun neun und so weiter“ enden – als kämen danach nur noch Neunen. Belegt ist diese Äußerung allerdings nicht.",
+    "difficulty": 3,
+    "tags": [
+      "Kreiszahl",
+      "Ziffern",
+      "Kurioses"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Feynman-Punkt",
+    "source_url": "https://de.wikipedia.org/wiki/Feynman-Punkt",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "From the 762nd decimal place of pi, something special appears – the “Feynman point”. What is it?",
+        "options": [
+          "The digit 0 ten times in a row",
+          "The digit 9 six times in a row",
+          "The digits 1 to 8 in order",
+          "The digit 7 seven times in a row"
+        ],
+        "explanation": "From the 762nd decimal place, six nines follow one another in pi. The name comes from an anecdote: the physicist Richard Feynman is said to have wanted to memorise pi up to this point and then end with “nine nine nine nine nine nine and so on” – as if only nines followed. However, there is no proof he ever said this."
+      }
+    }
+  },
+  {
+    "id": "m143",
+    "kind": "question",
+    "category_id": "math",
+    "question": "100 Kilogramm Kartoffeln bestehen zu 99 % aus Wasser. Nach dem Trocknen sind es nur noch 98 % Wasser. Wie schwer sind die Kartoffeln jetzt?",
+    "options": [
+      "50 Kilogramm",
+      "75 Kilogramm",
+      "98 Kilogramm",
+      "99 Kilogramm"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Trockenmasse bleibt gleich: 1 % von 100 kg, also 1 kg. Nach dem Trocknen soll dieses 1 kg 2 % ausmachen – das ist bei 50 kg der Fall: 49 kg Wasser und 1 kg Trockenmasse. Weil die Aufgabe so harmlos klingt, erwartet man intuitiv ein ganz anderes Ergebnis.",
+    "difficulty": 3,
+    "tags": [
+      "Prozentrechnung",
+      "Paradoxon",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kartoffelparadoxon",
+    "source_url": "https://de.wikipedia.org/wiki/Kartoffelparadoxon",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "100 kilograms of potatoes are 99 % water. After drying they are only 98 % water. How much do the potatoes weigh now?",
+        "options": [
+          "50 kilograms",
+          "75 kilograms",
+          "98 kilograms",
+          "99 kilograms"
+        ],
+        "explanation": "The dry matter stays the same: 1 % of 100 kg, so 1 kg. After drying, this 1 kg has to make up 2 % – which is the case at 50 kg: 49 kg of water and 1 kg of dry matter. Because the puzzle sounds so harmless, intuition expects a completely different result."
+      }
+    }
+  },
+  {
+    "id": "m144",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Eine strobogrammatische Zahl sieht gleich aus, wenn man sie um 180 Grad dreht – so wie die Jahreszahl 1961. Welches ist das nächste strobogrammatische Jahr?",
+    "options": [
+      "1991",
+      "2020",
+      "4004",
+      "6009"
+    ],
+    "correct_index": 3,
+    "explanation": "Beim Drehen um 180° bleiben nur die Ziffern 0, 1 und 8 gleich, 6 und 9 werden zueinander. Die letzten strobogrammatischen Jahre waren 1691, 1881 und 1961 – das nächste ist erst 6009. Auf Englisch heißt so ein Jahr „upside down year“.",
+    "difficulty": 2,
+    "tags": [
+      "Ziffern",
+      "Symmetrie",
+      "Jahreszahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Strobogrammatische Zahl",
+    "source_url": "https://de.wikipedia.org/wiki/Strobogrammatische Zahl",
+    "created_at": "2026-11-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A strobogrammatic number looks the same when turned 180 degrees – like the year 1961. Which is the next strobogrammatic year?",
+        "options": [
+          "1991",
+          "2020",
+          "4004",
+          "6009"
+        ],
+        "explanation": "When turned by 180°, only the digits 0, 1 and 8 stay the same, while 6 and 9 turn into each other. The last strobogrammatic years were 1691, 1881 and 1961 – the next one is not until 6009. In English such a year is called an “upside down year”."
+      }
+    }
+  },
+  {
+    "id": "m145",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Was sind Sangaku, die man in Japan in Tempeln und Schreinen findet?",
+    "options": [
+      "Holztafeln mit Geometrie-Aufgaben",
+      "Steinfiguren, die Zahlen darstellen",
+      "Papierlaternen mit Gedichten",
+      "Rechenbretter aus Bambusrohr"
+    ],
+    "correct_index": 0,
+    "explanation": "Sangaku – wörtlich „mathematische Tafeln“ – sind kunstvoll bemalte Holztafeln mit geometrischen Aufgaben. In der Edo-Zeit (1603–1867) hängten Menschen aller sozialen Schichten sie in Shintō-Schreinen und buddhistischen Tempeln auf, als Opfergabe und als Denksport für spätere Pilger. Die älteste erhaltene Tafel stammt von 1683; heute gibt es noch mehr als 880.",
+    "difficulty": 2,
+    "tags": [
+      "Geometrie",
+      "Japan",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sangaku",
+    "source_url": "https://de.wikipedia.org/wiki/Sangaku",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are sangaku, found in temples and shrines in Japan?",
+        "options": [
+          "Wooden tablets with geometry problems",
+          "Stone figures representing numbers",
+          "Paper lanterns covered with short poems",
+          "Counting boards made of bamboo"
+        ],
+        "explanation": "Sangaku – literally “mathematical tablets” – are artfully painted wooden tablets showing geometry problems. During the Edo period (1603–1867), people from all social classes hung them in Shinto shrines and Buddhist temples, as offerings and as a mental challenge for later pilgrims. The oldest surviving tablet dates from 1683; more than 880 still exist today."
+      }
+    }
+  },
+  {
+    "id": "m146",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Welche dieser Zahlen ist eine „Schnapszahl“?",
+    "options": [
+      "818",
+      "880",
+      "888",
+      "898"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Schnapszahl ist eine mehrstellige Zahl, die nur aus gleichen Ziffern besteht – zum Beispiel 11, 888 oder 3333. In der Mathematik heißen solche Zahlen auch Repdigit, englisch für „wiederholte Ziffern“. Jede Schnapszahl ist außerdem ein Zahlenpalindrom: Sie lautet vorwärts und rückwärts gleich.",
+    "difficulty": 1,
+    "tags": [
+      "Zahlen",
+      "Ziffern",
+      "Palindrom"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schnapszahl",
+    "source_url": "https://de.wikipedia.org/wiki/Schnapszahl",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which of these numbers is a “repdigit”?",
+        "options": [
+          "818",
+          "880",
+          "888",
+          "898"
+        ],
+        "explanation": "A repdigit is a number with several digits that are all the same – for example 11, 888 or 3333. The name is short for “repeated digits”; in German such numbers are called “Schnapszahlen”. Every repdigit is also a palindrome: it reads the same forwards and backwards."
+      }
+    }
+  },
+  {
+    "id": "m147",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Bei der Zahl 3435 gilt: 3³ + 4⁴ + 3³ + 5⁵ = 3435. Jede Ziffer wird also mit sich selbst potenziert. Wonach sind solche „Münchhausen-Zahlen“ benannt?",
+    "options": [
+      "Nach einem Rechenkünstler aus Hannover",
+      "Nach der Stadt, in der man sie fand",
+      "Nach einer Lügengeschichte des Barons",
+      "Nach einem alten Würfelspiel"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei einer Münchhausen-Zahl bestimmt jede Ziffer selbst, mit welcher Zahl sie potenziert wird: 3³ + 4⁴ + 3³ + 5⁵ ergibt wieder 3435. Im übertragenen Sinn „zieht“ sich also jede Ziffer selbst „hoch“ – eine Anspielung auf eine bekannte Lügengeschichte des Barons von Münchhausen.",
+    "difficulty": 3,
+    "tags": [
+      "Zahlen",
+      "Potenzen",
+      "Kurioses"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Münchhausen-Zahl",
+    "source_url": "https://de.wikipedia.org/wiki/Münchhausen-Zahl",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "For the number 3435: 3³ + 4⁴ + 3³ + 5⁵ = 3435. So each digit is raised to its own power. What are such “Münchhausen numbers” named after?",
+        "options": [
+          "A mental arithmetic artist from Hanover",
+          "The town where they were found",
+          "A tall tale told by Baron Münchhausen",
+          "An old dice game"
+        ],
+        "explanation": "In a Münchhausen number each digit itself determines the power it is raised to: 3³ + 4⁴ + 3³ + 5⁵ gives 3435 again. In a figurative sense each digit “pulls itself up” – an allusion to a famous tall tale of Baron Münchhausen."
+      }
+    }
+  },
+  {
+    "id": "m148",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Eine Harshad-Zahl ist durch ihre Quersumme teilbar. Welche dieser Zahlen ist eine Harshad-Zahl?",
+    "options": [
+      "776",
+      "777",
+      "778",
+      "779"
+    ],
+    "correct_index": 1,
+    "explanation": "777 hat die Quersumme 7 + 7 + 7 = 21, und 777 = 21 · 37 – also ist 777 durch seine Quersumme teilbar. Der Name Harshad kommt vom Sanskrit-Wort harsha, das „Freude“ bedeutet.",
+    "difficulty": 2,
+    "tags": [
+      "Teilbarkeit",
+      "Quersumme",
+      "Zahlen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Harshad-Zahl",
+    "source_url": "https://de.wikipedia.org/wiki/Harshad-Zahl",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A Harshad number is divisible by the sum of its digits. Which of these numbers is a Harshad number?",
+        "options": [
+          "776",
+          "777",
+          "778",
+          "779"
+        ],
+        "explanation": "777 has the digit sum 7 + 7 + 7 = 21, and 777 = 21 · 37 – so 777 is divisible by its digit sum. The name Harshad comes from the Sanskrit word harsha, meaning “joy”."
+      }
+    }
+  },
+  {
+    "id": "m149",
+    "kind": "question",
+    "category_id": "math",
+    "question": "1260 ist die kleinste „Vampirzahl“: 1260 = 21 · 60. Was macht sie zur Vampirzahl?",
+    "options": [
+      "Die Faktoren nutzen genau ihre Ziffern",
+      "Ihre Quersumme ergibt genau die Zahl 13",
+      "Sie ist rückwärts gelesen dieselbe Zahl",
+      "Sie lässt sich nur durch 1 und sich teilen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die beiden Faktoren 21 und 60 – die „Reißzähne“ – haben je halb so viele Stellen wie 1260 und enthalten zusammen genau dieselben Ziffern: 2, 1, 6 und 0. Eine Regel gibt es noch: Die Reißzähne dürfen nicht beide mit einer Null enden.",
+    "difficulty": 3,
+    "tags": [
+      "Zahlen",
+      "Faktoren",
+      "Kurioses"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Vampirzahl",
+    "source_url": "https://de.wikipedia.org/wiki/Vampirzahl",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "1260 is the smallest “vampire number”: 1260 = 21 · 60. What makes it a vampire number?",
+        "options": [
+          "Its factors use exactly its digits",
+          "Its digit sum is exactly 13",
+          "It reads the same backwards",
+          "It is divisible only by 1 and itself"
+        ],
+        "explanation": "The two factors 21 and 60 – its “fangs” – each have half as many digits as 1260 and together contain exactly the same digits: 2, 1, 6 and 0. There is one more rule: the fangs may not both end in zero."
+      }
+    }
+  },
+  {
+    "id": "m150",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Ein würfelförmiger Kuchen wird mit 4 geraden Schnitten zerteilt, ohne die Stücke zwischendurch zu verschieben. Wie viele Stücke kann man höchstens bekommen?",
+    "options": [
+      "8",
+      "12",
+      "15",
+      "16"
+    ],
+    "correct_index": 2,
+    "explanation": "Die größtmögliche Zahl der Stücke heißt Kuchenzahl: Gemeint ist, in wie viele Teile n Ebenen einen Würfel höchstens zerlegen. Für 0 bis 5 Schnitte lauten die Kuchenzahlen 1, 2, 4, 8, 15 und 26 – bis drei Schnitte verdoppelt sich die Zahl, danach nicht mehr.",
+    "difficulty": 3,
+    "tags": [
+      "Geometrie",
+      "Würfel",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kuchenzahl",
+    "source_url": "https://de.wikipedia.org/wiki/Kuchenzahl",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A cube-shaped cake is cut with 4 straight cuts without moving the pieces in between. What is the largest number of pieces you can get?",
+        "options": [
+          "8",
+          "12",
+          "15",
+          "16"
+        ],
+        "explanation": "The largest possible number of pieces is called the cake number: the most parts into which n planes can divide a cube. For 0 to 5 cuts the cake numbers are 1, 2, 4, 8, 15 and 26 – up to three cuts the number doubles, after that it no longer does."
+      }
+    }
+  },
+  {
+    "id": "m151",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Gleiche Bauklötze werden einzeln übereinander über eine Tischkante hinausgeschoben, ohne dass der Turm kippt. Wie viele Klötze braucht man mindestens, damit der oberste eine ganze Klotzlänge über die Kante ragt?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_index": 2,
+    "explanation": "Liegt auf jeder Ebene nur ein Klotz, wächst der größtmögliche Überhang nur langsam: Für eine Klotzlänge braucht man 4 Klötze, für zwei schon 31 und für drei 227. Weil der Überhang trotzdem immer weiter wächst, wäre mit genügend Klötzen sogar ein beliebig großer Überhang möglich.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Gleichgewicht",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blockstapelproblem",
+    "source_url": "https://de.wikipedia.org/wiki/Blockstapelproblem",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Identical building blocks are stacked one on top of another, sticking out over a table edge without the tower toppling. How many blocks do you need at least so that the top one sticks out a whole block length beyond the edge?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "explanation": "With only one block on each level, the greatest possible overhang grows only slowly: one block length needs 4 blocks, two need 31 and three need 227. Because the overhang still keeps growing, with enough blocks any overhang at all would be possible."
+      }
+    }
+  },
+  {
+    "id": "m152",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Man quadriert die Ziffern einer Zahl, addiert sie und wiederholt das. Landet man bei 1, heißt die Zahl „fröhlich“. Was passiert bei allen anderen Zahlen?",
+    "options": [
+      "Sie geraten in eine Schleife aus acht Zahlen",
+      "Sie wachsen immer weiter bis ins Unendliche",
+      "Sie landen am Ende alle genau bei der 0",
+      "Sie springen ohne jedes Muster hin und her"
+    ],
+    "correct_index": 0,
+    "explanation": "Beispiel 19: 1² + 9² = 82, 8² + 2² = 68, 6² + 8² = 100 und 1² + 0² + 0² = 1 – also ist 19 fröhlich. Jede andere Zahl gerät in den einzigen Zyklus 4, 16, 37, 58, 89, 145, 42, 20 und wieder 4. Weitere Zyklen gibt es nicht.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen",
+      "Quadratzahlen",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fröhliche Zahl",
+    "source_url": "https://de.wikipedia.org/wiki/Fröhliche Zahl",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "You square the digits of a number, add them up and repeat. If you reach 1, the number is called “happy”. What happens to all other numbers?",
+        "options": [
+          "They fall into a loop of eight numbers",
+          "They grow and grow towards infinity",
+          "In the end they all land on 0",
+          "They jump around without any pattern"
+        ],
+        "explanation": "Example 19: 1² + 9² = 82, 8² + 2² = 68, 6² + 8² = 100 and 1² + 0² + 0² = 1 – so 19 is happy. Every other number ends up in the only cycle 4, 16, 37, 58, 89, 145, 42, 20 and back to 4. There are no other cycles."
+      }
+    }
+  },
+  {
+    "id": "m153",
+    "kind": "question",
+    "category_id": "math",
+    "question": "Wie trennte der Gelehrte al-Kaschi um 1400 bei Dezimalzahlen das Ganze vom Bruchteil – ganz ohne Komma?",
+    "options": [
+      "Mit einer Klammer um den Bruchteil",
+      "Mit zwei verschiedenen Tintenfarben",
+      "Indem er den Bruchteil rückwärts schrieb",
+      "Mit einem kleinen Stern dazwischen"
+    ],
+    "correct_index": 1,
+    "explanation": "Um 1400 schrieb Dschamschid Masʿud al-Kaschi den ganzzahligen Teil mit schwarzer und den gebrochenen Teil mit roter Tinte. In der altchinesischen Mathematik setzte man die Nachkommaziffern dagegen tiefer. Heute trennt man mit Komma oder Punkt – im englischen Sprachraum ist der Punkt das vorwiegende Dezimaltrennzeichen.",
+    "difficulty": 2,
+    "tags": [
+      "Zahlen",
+      "Schrift",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Dezimaltrennzeichen",
+    "source_url": "https://de.wikipedia.org/wiki/Dezimaltrennzeichen",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around 1400, how did the scholar al-Kashi separate the whole part of a decimal number from the fractional part – without any comma?",
+        "options": [
+          "With brackets around the fraction",
+          "With two different ink colours",
+          "By writing the fraction backwards",
+          "With a small star in between"
+        ],
+        "explanation": "Around 1400 Jamshid al-Kashi wrote the whole-number part in black ink and the fractional part in red ink. In ancient Chinese mathematics, by contrast, the digits after the point were written lower. Today a comma or a point is used – in English-speaking countries the point is the usual decimal separator."
+      }
+    }
+  },
+  {
+    "id": "ws162",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Das „Sweden Solar System“ ist ein Modell des Sonnensystems quer durch Schweden; die Sonne ist ein großes kugelförmiges Gebäude in Stockholm. Woraus besteht das Modell des Jupiters?",
+    "options": [
+      "Aus einer Kugel auf einem Kirchturm",
+      "Aus einem bemalten Heißluftballon",
+      "Aus einem runden Blumenbeet",
+      "Aus einem gestreiften Wasserturm"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Sweden Solar System ist ein maßstabsgetreues Modell im Maßstab 1:20 Millionen. Die Planeten sind Skulpturen oder Blumenbeete, verteilt über ganz Schweden – von Kiruna im Norden bis Karlshamn im Süden. Jupiter ist eine Blumenrabatte mit einem Durchmesser von sieben Metern.",
+    "difficulty": 2,
+    "tags": [
+      "Sonnensystem",
+      "Modell",
+      "Schweden"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sweden Solar System",
+    "source_url": "https://de.wikipedia.org/wiki/Sweden Solar System",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The “Sweden Solar System” is a model of the solar system spread across Sweden; the Sun is a large spherical building in Stockholm. What is the model of Jupiter made of?",
+        "options": [
+          "A ball on a church tower",
+          "A painted hot-air balloon",
+          "A round flower bed",
+          "A striped water tower"
+        ],
+        "explanation": "The Sweden Solar System is a true-to-scale model at a scale of 1:20 million. The planets are sculptures or flower beds spread across Sweden – from Kiruna in the north to Karlshamn in the south. Jupiter is a flower bed seven metres across."
+      }
+    }
+  },
+  {
+    "id": "ws163",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Bei einem Tellurium drehen sich Modelle von Erde und Mond um eine Lampe, die die Sonne darstellt. Was lässt sich damit besonders gut zeigen?",
+    "options": [
+      "Die Entfernungen der nächsten Sterne",
+      "Die Geschwindigkeit von Raketen",
+      "Die Entstehung von Kometenschweifen",
+      "Jahreszeiten und Mondphasen"
+    ],
+    "correct_index": 3,
+    "explanation": "Ein Tellurium – von lateinisch tellus, „die Erde“ – ist eine besondere Planetenmaschine für die Bewegungen von Erde und Mond. Die Modelle drehen sich an einem Hebelarm um eine Lichtquelle als Sonne. So lässt sich anschaulich zeigen, wie Jahreszeiten, Mondphasen und Finsternisse entstehen.",
+    "difficulty": 2,
+    "tags": [
+      "Modell",
+      "Jahreszeiten",
+      "Mond"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Orrery",
+    "source_url": "https://de.wikipedia.org/wiki/Orrery",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a tellurion, models of the Earth and the Moon turn around a lamp that represents the Sun. What can it show particularly well?",
+        "options": [
+          "The distances to the nearest stars",
+          "The speed of rockets",
+          "How comet tails form",
+          "Seasons and phases of the Moon"
+        ],
+        "explanation": "A tellurion – from Latin tellus, “the Earth” – is a special planetary machine for the motions of the Earth and the Moon. The models turn on a lever arm around a light source standing for the Sun. This makes it easy to show how the seasons, the phases of the Moon and eclipses come about."
+      }
+    }
+  },
+  {
+    "id": "ws164",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Bei einer drehbaren Sternkarte sieht man den Himmel durch ein Fenster. Was stellt der Rand dieses Fensters dar?",
+    "options": [
+      "Den Horizont",
+      "Die Milchstraße",
+      "Den Himmelsäquator",
+      "Die Mondbahn"
+    ],
+    "correct_index": 0,
+    "explanation": "Durch das Fenster sieht man den Teil des Sternenhimmels, der von einer bestimmten geografischen Breite aus im Lauf des Jahres zu sehen ist – der Fensterrand ist das Bild des Horizonts. Die meisten Karten für Deutschland sind für 50 Grad Nord ausgelegt, wo ungefähr Frankfurt am Main liegt.",
+    "difficulty": 2,
+    "tags": [
+      "Sterne",
+      "Karte",
+      "Himmel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Planisphäre",
+    "source_url": "https://de.wikipedia.org/wiki/Planisphäre",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On a rotating star chart (planisphere) you see the sky through a window. What does the edge of that window represent?",
+        "options": [
+          "The horizon",
+          "The Milky Way",
+          "The celestial equator",
+          "The Moon’s orbit"
+        ],
+        "explanation": "The window shows the part of the starry sky visible over the year from a particular latitude – the edge of the window is the horizon. Most charts for Germany are designed for 50 degrees north, roughly the latitude of Frankfurt am Main."
+      }
+    }
+  },
+  {
+    "id": "ws165",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Was macht ein Heliostat?",
+    "options": [
+      "Er misst die Temperatur an der Sonnenoberfläche",
+      "Er lenkt Sonnenlicht stets auf denselben Punkt",
+      "Er zählt mit einer Kamera die Sonnenflecken",
+      "Er sagt die nächsten Sonnenfinsternisse voraus"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Heliostat – von griechisch helios, „Sonne“, und statós, „stehend“ – ist ein Apparat mit einem Spiegel, der das Sonnenlicht trotz des wandernden Sonnenstands immer auf den gleichen festen Punkt wirft. Dazu muss der Spiegel ständig nachgeführt werden. In Solarturmkraftwerken lenken Hunderte computergesteuerte Heliostaten ihr Licht auf die Spitze eines Turms.",
+    "difficulty": 2,
+    "tags": [
+      "Sonne",
+      "Spiegel",
+      "Energie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Heliostat",
+    "source_url": "https://de.wikipedia.org/wiki/Heliostat",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What does a heliostat do?",
+        "options": [
+          "It measures the Sun’s surface temperature",
+          "It sends sunlight to the same point",
+          "It counts sunspots with a camera",
+          "It predicts the next solar eclipses"
+        ],
+        "explanation": "A heliostat – from Greek helios, “sun”, and statos, “standing” – is a device with a mirror that always reflects sunlight onto the same fixed point, even as the Sun moves across the sky. To do this the mirror must be constantly adjusted. In solar tower power plants, hundreds of computer-controlled heliostats direct their light onto the top of a tower."
+      }
+    }
+  },
+  {
+    "id": "ws166",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Ein Herschelkeil hilft dabei, die Sonne mit einem Fernrohr zu beobachten. Wie viel des Sonnenlichts lenkt er ungefähr zum Okular?",
+    "options": [
+      "Etwa 4 Prozent",
+      "Etwa 25 Prozent",
+      "Etwa 50 Prozent",
+      "Etwa 75 Prozent"
+    ],
+    "correct_index": 0,
+    "explanation": "Der Herschelkeil ist ein Glaskeil, dessen erste Fläche nur etwa 4 % des Sonnenlichts zum Okular spiegelt; die übrigen rund 96 Prozent gehen ins Prisma. Selbst diese 4 % sind aber noch zu stark, um Schäden am Auge auszuschließen – deshalb muss das Licht zusätzlich mit einem starken Graufilter abgeschwächt werden.",
+    "difficulty": 3,
+    "tags": [
+      "Sonne",
+      "Fernrohr",
+      "Optik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Herschelkeil",
+    "source_url": "https://de.wikipedia.org/wiki/Herschelkeil",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A Herschel wedge helps to observe the Sun with a telescope. Roughly how much of the sunlight does it send to the eyepiece?",
+        "options": [
+          "About 4 percent",
+          "About 25 percent",
+          "About 50 percent",
+          "About 75 percent"
+        ],
+        "explanation": "The Herschel wedge is a glass wedge whose first surface reflects only about 4 % of the sunlight to the eyepiece; the remaining roughly 96 percent passes into the prism. Even these 4 % are still too strong to rule out damage to the eye – so the light must additionally be dimmed with a strong neutral density filter."
+      }
+    }
+  },
+  {
+    "id": "ws167",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Seismographen, die bei den Apollo-Missionen auf dem Mond zurückblieben, zeichneten bis 1977 Mondbeben auf. Wie viele etwa?",
+    "options": [
+      "Etwa 12",
+      "Etwa 1.200",
+      "Etwa 12.000",
+      "Etwa 1,2 Millionen"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Seismographen der Apollo-Missionen registrierten bis zum Ende der Messungen 1977 etwa 12.000 Mondbeben. Die stärksten erreichten knapp Magnitude 5 und waren damit viel schwächer als die stärksten Erdbeben. Erstaunlich: Die Bebenwellen ließen sich ein bis vier Stunden lang verfolgen, weil das Mondinnere sie nur sehr schwach dämpft.",
+    "difficulty": 2,
+    "tags": [
+      "Mond",
+      "Beben",
+      "Raumfahrt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mond",
+    "source_url": "https://de.wikipedia.org/wiki/Mond",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Seismographs left on the Moon by the Apollo missions recorded moonquakes until 1977. About how many?",
+        "options": [
+          "About 12",
+          "About 1,200",
+          "About 12,000",
+          "About 1.2 million"
+        ],
+        "explanation": "The seismographs of the Apollo missions recorded about 12,000 moonquakes until the measurements ended in 1977. The strongest reached a magnitude of almost 5, far weaker than the strongest earthquakes. Remarkably, the quake waves could be followed for one to four hours because the Moon’s interior damps them only very weakly."
+      }
+    }
+  },
+  {
+    "id": "ws168",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Beim Kepler-Fernrohr sind beide Linsen Sammellinsen. Wie erscheint das Bild, wenn man hindurchschaut?",
+    "options": [
+      "Auf dem Kopf und seitenverkehrt",
+      "Aufrecht und seitenrichtig",
+      "Aufrecht, aber nur in Schwarz-Weiß",
+      "Stark verkleinert und unscharf"
+    ],
+    "correct_index": 0,
+    "explanation": "Das Kepler-Fernrohr folgt einer Bauweise, die Johannes Kepler 1611 beschrieb: Objektiv und Okular sind Sammellinsen. Das Bild ist um 180° gedreht, also auf dem Kopf stehend und seitenverkehrt – bei Himmelsbeobachtungen spielt das meist keine Rolle. Das Galilei-Fernrohr mit einer Zerstreuungslinse als Okular zeigt dagegen ein aufrechtes Bild und steckt heute zum Beispiel im Opernglas.",
+    "difficulty": 2,
+    "tags": [
+      "Fernrohr",
+      "Optik",
+      "Linsen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fernrohr",
+    "source_url": "https://de.wikipedia.org/wiki/Fernrohr",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In a Keplerian telescope both lenses are converging lenses. How does the image look when you look through it?",
+        "options": [
+          "Upside down and reversed",
+          "Upright and the right way round",
+          "Upright, but only in black and white",
+          "Much smaller and blurred"
+        ],
+        "explanation": "The Keplerian telescope follows a design that Johannes Kepler described in 1611: objective and eyepiece are converging lenses. The image is rotated by 180°, so it is upside down and reversed left to right – which usually does not matter when observing the sky. The Galilean telescope, with a diverging lens as eyepiece, shows an upright image instead and is used today, for example, in opera glasses."
+      }
+    }
+  },
+  {
+    "id": "ws169",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Auf dem Foto „Pale Blue Dot“ ist die Erde nur ein winziger Punkt. Aus welcher Entfernung nahm die Raumsonde Voyager 1 es 1990 auf?",
+    "options": [
+      "Etwa 6 Millionen Kilometer",
+      "Etwa 600 Millionen Kilometer",
+      "Etwa 6 Milliarden Kilometer",
+      "Etwa 60 Milliarden Kilometer"
+    ],
+    "correct_index": 2,
+    "explanation": "Am 14. Februar 1990 wurde Voyager 1 auf Anregung des Astronomen Carl Sagan um 180 Grad gedreht und fotografierte die Erde aus etwa 6 Milliarden Kilometern Entfernung. Bis heute ist es das Foto der Erde aus dem größten Abstand. „Pale Blue Dot“ ist englisch für „blassblauer Punkt“.",
+    "difficulty": 2,
+    "tags": [
+      "Raumsonde",
+      "Erde",
+      "Foto"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pale Blue Dot",
+    "source_url": "https://de.wikipedia.org/wiki/Pale Blue Dot",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the photo “Pale Blue Dot”, the Earth is just a tiny speck. From what distance did the space probe Voyager 1 take it in 1990?",
+        "options": [
+          "About 6 million kilometres",
+          "About 600 million kilometres",
+          "About 6 billion kilometres",
+          "About 60 billion kilometres"
+        ],
+        "explanation": "On 14 February 1990, at the suggestion of astronomer Carl Sagan, Voyager 1 was turned around by 180 degrees and photographed the Earth from a distance of about 6 billion kilometres. To this day it is the photo of Earth taken from the greatest distance. The name describes how small and pale the Earth looks in it."
+      }
+    }
+  },
+  {
+    "id": "ws170",
+    "kind": "question",
+    "category_id": "space",
+    "question": "Wozu diente der Jakobsstab vor allem in der Seefahrt?",
+    "options": [
+      "Zum Messen der Geschwindigkeit des Schiffs",
+      "Zum Messen der Wassertiefe unter dem Schiff",
+      "Zum Anzeigen der Windrichtung",
+      "Zum Messen der Höhe von Sonne oder Sternen"
+    ],
+    "correct_index": 3,
+    "explanation": "Mit dem Jakobsstab maß man den Höhenwinkel der Sonne oder eines Fixsterns, meist des Polarsterns, über dem Horizont und bestimmte so die geographische Breite. Er war der Vorläufer des Sextanten. Seine Querhölzer ließen ihn wie eine Armbrust aussehen – deshalb sagt man bis heute, man „schießt einen Stern“, wenn man seine Höhe misst.",
+    "difficulty": 2,
+    "tags": [
+      "Seefahrt",
+      "Navigation",
+      "Sterne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jakobsstab",
+    "source_url": "https://de.wikipedia.org/wiki/Jakobsstab",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the Jacob’s staff mainly used for at sea?",
+        "options": [
+          "Measuring the ship’s speed",
+          "Measuring the water depth below the ship",
+          "Showing the wind direction",
+          "Measuring the height of the Sun or stars"
+        ],
+        "explanation": "With a Jacob’s staff sailors measured the angle of the Sun or a fixed star, usually the Pole Star, above the horizon and thus determined their latitude. It was the forerunner of the sextant. Its crosspieces made it look like a crossbow – which is why, to this day, people speak of “shooting a star” when measuring its height."
+      }
+    }
+  }
+]
