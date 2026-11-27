@@ -119022,5 +119022,1645 @@
         "explanation": "With a Jacob’s staff sailors measured the angle of the Sun or a fixed star, usually the Pole Star, above the horizon and thus determined their latitude. It was the forerunner of the sextant. Its crosspieces made it look like a crossbow – which is why, to this day, people speak of “shooting a star” when measuring its height."
       }
     }
+  },
+  {
+    "id": "hg86",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war die Aufgabe eines „Schmuckeremiten“ in englischen Landschaftsparks des 18. und 19. Jahrhunderts?",
+    "options": [
+      "Als Einsiedler gesehen werden",
+      "Hecken zu Figuren schneiden",
+      "Gäste durch die Grotten führen",
+      "Nachts die Parktore bewachen"
+    ],
+    "correct_index": 0,
+    "explanation": "Schmuckeremiten waren bezahlte Einsiedler: Sie wohnten in einer eigens eingerichteten Eremitage im Park und mussten sich zu bestimmten Tageszeiten zeigen, um die Besitzer und deren Gäste mit ihrem Anblick zu unterhalten. Eine angebliche Anzeige versprach 700 Pfund für sieben Jahre – Haare, Bart und Nägel durften in dieser Zeit nicht geschnitten werden.",
+    "difficulty": 2,
+    "tags": [
+      "Beruf",
+      "Garten",
+      "England"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schmuckeremit",
+    "source_url": "https://de.wikipedia.org/wiki/Schmuckeremit",
+    "created_at": "2026-11-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the job of an “ornamental hermit” in English landscape parks of the 18th and 19th centuries?",
+        "options": [
+          "Being seen as a hermit",
+          "Trimming hedges into shapes",
+          "Guiding guests through grottoes",
+          "Guarding the park gates at night"
+        ],
+        "explanation": "Ornamental hermits were paid hermits: they lived in a hermitage set up for them in the park and had to show themselves at certain times of day to entertain the owners and their guests. One alleged advertisement offered 700 pounds for seven years – during that time hair, beard and nails were not to be cut."
+      }
+    }
+  },
+  {
+    "id": "hg87",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wie weckte ein „Aufwecker“ in Großbritannien seine Kunden, als Wecker noch teuer und selten waren?",
+    "options": [
+      "Er läutete vor dem Haus eine große Glocke",
+      "Er klopfte mit Stöcken an Türen und Fenster",
+      "Er rief laut die Uhrzeit durch die Straßen",
+      "Er ließ vor jeder Tür einen Hahn krähen"
+    ],
+    "correct_index": 1,
+    "explanation": "Aufwecker (englisch knocker-up) gab es seit der Industriellen Revolution: Sie weckten Schlafende, damit diese pünktlich zur Arbeit kamen. Meist klopften sie mit einem kurzen, schweren Stock an die Tür oder mit einem langen, leichten Stock, oft aus Bambus, an Fenster höherer Stockwerke; manche schossen mit einem Pusterohr Erbsen gegen die Scheiben. Vereinzelt gab es den Beruf noch bis in die 1970er-Jahre.",
+    "difficulty": 1,
+    "tags": [
+      "Beruf",
+      "Industrialisierung",
+      "Großbritannien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aufwecker",
+    "source_url": "https://de.wikipedia.org/wiki/Aufwecker",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did a “knocker-up” in Britain wake customers when alarm clocks were still expensive and rare?",
+        "options": [
+          "Ringing a big bell outside the house",
+          "Tapping doors and windows with sticks",
+          "Calling out the time in the streets",
+          "Letting a rooster crow at every door"
+        ],
+        "explanation": "Knocker-ups existed from the Industrial Revolution onwards: they woke sleepers so that they got to work on time. Mostly they knocked on the door with a short, heavy stick, or on upper-floor windows with a long, light one, often made of bamboo; some shot peas at the panes with a pea-shooter. In a few places the job survived into the 1970s."
+      }
+    }
+  },
+  {
+    "id": "hg88",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was bot ein „Abtrittanbieter“ Ende des 18. Jahrhunderts in manchen westeuropäischen Großstädten an?",
+    "options": [
+      "Ein warmes Fußbad am Wegrand",
+      "Einen Stuhl zum kurzen Ausruhen",
+      "Eine Toilette auf der Straße",
+      "Eine schnelle Rasur am Straßenrand"
+    ],
+    "correct_index": 2,
+    "explanation": "Abtrittanbieter betrieben eine mobile Bedürfnisanstalt: Meist maskiert zogen sie mit großen Holzeimern durch die Straßen und schützten ihre Kunden mit einem Mantel oder Umhang vor neugierigen Blicken. Für den gesammelten Urin bekamen sie zusätzlich Geld – er wurde etwa in der Gerberei verwendet. Öffentliche Toiletten gab es erst wieder mit der Kanalisation, etwa 1842 in London und 1856 in Hamburg.",
+    "difficulty": 2,
+    "tags": [
+      "Beruf",
+      "Stadt",
+      "Hygiene"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Abtrittanbieter",
+    "source_url": "https://de.wikipedia.org/wiki/Abtrittanbieter",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did an “Abtrittanbieter” (a portable-toilet man) offer in some Western European cities at the end of the 18th century?",
+        "options": [
+          "A warm footbath by the road",
+          "A chair for a short rest",
+          "A toilet out on the street",
+          "A quick shave at the roadside"
+        ],
+        "explanation": "These men ran a mobile public convenience: usually masked, they walked the streets with large wooden buckets and shielded their customers from curious eyes with a coat or cloak. They were paid extra for the collected urine, which was used in tanning, for example. Public toilets only returned with sewer systems – around 1842 in London and 1856 in Hamburg."
+      }
+    }
+  },
+  {
+    "id": "hg89",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was taten „Kegeljungen“ auf Kegelbahnen bis in die 1980er-Jahre?",
+    "options": [
+      "Als Schiedsrichter Fehlwürfe abpfeifen",
+      "Die Bahn nach jedem Wurf frisch ölen",
+      "Die Kegel nachts aus Holz drechseln",
+      "Kegel aufstellen, Kugel zurückrollen"
+    ],
+    "correct_index": 3,
+    "explanation": "Bis in die 1980er-Jahre stellten Kegeljungen, auch Kegelbuben genannt, die umgeworfenen Kegel wieder auf und rollten die Kugel zu den Spielern zurück. Beim Kegeln wird auf neun Kegel gespielt.",
+    "difficulty": 1,
+    "tags": [
+      "Beruf",
+      "Freizeit",
+      "Sport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kegeln",
+    "source_url": "https://de.wikipedia.org/wiki/Kegeln",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did “pin boys” do at German bowling alleys up to the 1980s?",
+        "options": [
+          "Whistle foul throws as referees",
+          "Oil the lane after every throw",
+          "Turn new wooden pins at night",
+          "Set up pins, roll the ball back"
+        ],
+        "explanation": "Until the 1980s, pin boys set the knocked-down pins up again and rolled the ball back to the players. German nine-pin bowling is played on nine pins."
+      }
+    }
+  },
+  {
+    "id": "hg90",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Bis in die 1960er-Jahre lieferten Eishändler Stangeneis an Haushalte. Warum starb dieser Beruf aus?",
+    "options": [
+      "Stangeneis wurde als ungesund verboten",
+      "Kühlschränke wurden in Massen gebaut",
+      "Eisstangen wurden zu schwer zum Tragen",
+      "Pferdewagen durften nicht mehr fahren"
+    ],
+    "correct_index": 1,
+    "explanation": "Eishändler lieferten ein- bis mehrmals pro Woche Stangeneis an Haushalte, kleine Läden und Gaststätten; damit wurden Lebensmittel im Eisschrank gekühlt. Eine Stange war etwa einen Meter lang und 20 bis 30 Kilogramm schwer. Mit der Massenproduktion von Kühlschränken wurde die Eiskühlung unwirtschaftlich – der Beruf starb aus.",
+    "difficulty": 2,
+    "tags": [
+      "Beruf",
+      "Kühlung",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eishändler",
+    "source_url": "https://de.wikipedia.org/wiki/Eishändler",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Until the 1960s, ice men delivered block ice to households. Why did the job die out?",
+        "options": [
+          "Block ice was banned as unhealthy",
+          "Fridges were mass-produced",
+          "Ice blocks became too heavy to carry",
+          "Horse carts were no longer allowed"
+        ],
+        "explanation": "Ice men delivered block ice once or several times a week to households, small shops and restaurants; it kept food cool in iceboxes. A block was about one metre long and weighed 20 to 30 kilograms. Once fridges were mass-produced, cooling with ice no longer paid off – and the job died out."
+      }
+    }
+  },
+  {
+    "id": "hg91",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Wer waren ab dem 18. Jahrhundert die „Fleetenkieker“ in Hamburg?",
+    "options": [
+      "Wächter auf den Kirchtürmen",
+      "Lotsen für Schiffe im Hafen",
+      "Abfallsammler in den Kanälen",
+      "Fährleute über die Elbe"
+    ],
+    "correct_index": 2,
+    "explanation": "Zuerst – ab dem 16. Jahrhundert – hießen so die Mitarbeiter einer Behörde, die die Hamburger Fleete schiffbar und sauber halten sollte. Ab dem 18. Jahrhundert ging der Name auf Abfallsammler über: Sie stapften bei Ebbe mit hohen Watstiefeln durch die trockengefallenen Kanäle und suchten nach Verwertbarem.",
+    "difficulty": 2,
+    "tags": [
+      "Beruf",
+      "Hamburg",
+      "Stadt"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fleetenkieker",
+    "source_url": "https://de.wikipedia.org/wiki/Fleetenkieker",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Who were the “Fleetenkieker” in Hamburg from the 18th century on?",
+        "options": [
+          "Watchmen on church towers",
+          "Pilots for ships in the port",
+          "Scavengers in the canals",
+          "Ferrymen across the Elbe"
+        ],
+        "explanation": "At first – from the 16th century – the name was used for the staff of an authority that kept Hamburg’s canals (Fleete) navigable and clean. From the 18th century it passed to scavengers who waded through the canals in tall boots at low tide, looking for anything they could use."
+      }
+    }
+  },
+  {
+    "id": "hg92",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was war die Hauptarbeit eines „Lichtputzers“ im 17. und 18. Jahrhundert?",
+    "options": [
+      "Kronleuchter vergolden",
+      "Kerzen aus Talg gießen",
+      "Gaslaternen anzünden",
+      "Die Kerzendochte kürzen"
+    ],
+    "correct_index": 3,
+    "explanation": "Talgkerzen rußten und flackerten, wenn der Docht zu lang wurde – sie mussten mindestens jede halbe Stunde „geschneuzt“ werden: Der Docht wurde mit einer Dochtschere gekürzt. In großen Räumen mit Hunderten Kerzen taten das Lichtputzer unentwegt; im Theater mussten sie dafür sogar kostümiert auf die Bühne.",
+    "difficulty": 2,
+    "tags": [
+      "Beruf",
+      "Licht",
+      "Theater"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lichtputzer",
+    "source_url": "https://de.wikipedia.org/wiki/Lichtputzer",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What was the main task of a “candle snuffer” (Lichtputzer) in the 17th and 18th centuries?",
+        "options": [
+          "Gilding chandeliers",
+          "Casting candles from tallow",
+          "Lighting gas lamps",
+          "Trimming candle wicks"
+        ],
+        "explanation": "Tallow candles smoked and flickered when the wick grew too long – they had to be “snuffed” at least every half hour: the wick was cut with wick scissors. In large rooms with hundreds of candles, candle snuffers did this non-stop; in the theatre they even had to walk on stage in costume to do it."
+      }
+    }
+  },
+  {
+    "id": "hg93",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was taten die „Bomätscher“ an der Elbe vor dem Aufkommen der Dampfschifffahrt?",
+    "options": [
+      "Sie zogen Schiffe stromaufwärts",
+      "Sie bauten Deiche gegen Hochwasser",
+      "Sie fischten Lachse mit Netzen",
+      "Sie bauten Kähne aus Eichenholz"
+    ],
+    "correct_index": 0,
+    "explanation": "Bomätscher ist die sächsische Bezeichnung für Schiffszieher, auch Treidler genannt: Sie zogen die Elbkähne an Leinen gegen die Strömung flussaufwärts – die schwersten Kähne zogen etwa vierzig Männer. Das Wort kommt wohl vom tschechischen „pomáhač“, Gehilfe. Ab Mitte des 19. Jahrhunderts verdrängten Ketten- und Dampfschiffe den Beruf.",
+    "difficulty": 2,
+    "tags": [
+      "Beruf",
+      "Schifffahrt",
+      "Sachsen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bomätscher",
+    "source_url": "https://de.wikipedia.org/wiki/Bomätscher",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did the “Bomätscher” on the river Elbe do before steamships came along?",
+        "options": [
+          "They hauled ships upstream",
+          "They built dykes against floods",
+          "They caught salmon with nets",
+          "They built barges from oak"
+        ],
+        "explanation": "“Bomätscher” is the Saxon word for boat haulers: they pulled the Elbe barges upstream against the current on towlines – the heaviest barges took about forty men. The word probably comes from Czech “pomáhač”, helper. From the middle of the 19th century, chain boats and steamships pushed the job aside."
+      }
+    }
+  },
+  {
+    "id": "hg94",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Was machte ein „Kinoerklärer“ in der Zeit der Stummfilme?",
+    "options": [
+      "Er spielte Klavier zum Film",
+      "Er erzählte den Film live dazu",
+      "Er kontrollierte die Kinokarten",
+      "Er drehte die Filmrolle per Hand"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Kinoerklärer präsentierte die Stummfilme den Zuschauern als zusammenhängende, möglichst dramatische Erzählung. Mit der Umstellung auf den Tonfilm verloren die Kinoerklärer ihre Arbeit.",
+    "difficulty": 1,
+    "tags": [
+      "Beruf",
+      "Film",
+      "Kino"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kinoerklärer",
+    "source_url": "https://de.wikipedia.org/wiki/Kinoerklärer",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What did a “film explainer” (Kinoerklärer) do in the days of silent films?",
+        "options": [
+          "Played the piano to the film",
+          "Narrated the film live",
+          "Checked the cinema tickets",
+          "Turned the film reel by hand"
+        ],
+        "explanation": "A film explainer presented silent films to the audience as a connected story, as dramatically as possible. When cinemas switched to sound films, the explainers lost their jobs."
+      }
+    }
+  },
+  {
+    "id": "hg95",
+    "kind": "question",
+    "category_id": "history",
+    "question": "Säumer brachten jahrhundertelang Salz und Wein mit Lasttieren über die Alpenpässe. Was bedeutet das alte Wort „Saum“ in ihrem Namen?",
+    "options": [
+      "Pfad",
+      "Rand",
+      "Last",
+      "Maultier"
+    ],
+    "correct_index": 2,
+    "explanation": "Säumer transportierten Lasten auf dem Rücken von Saumtieren – Pferden, Mauleseln, Maultieren oder Ochsen – über das Gebirge. Das nicht mehr gebräuchliche Wort „Saum“ bedeutet so viel wie „Last“. Nach Süden brachten sie vor allem Salz, nach Norden Wein.",
+    "difficulty": 2,
+    "tags": [
+      "Beruf",
+      "Alpen",
+      "Handel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Säumer",
+    "source_url": "https://de.wikipedia.org/wiki/Säumer",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "For centuries, pack-train drivers called “Säumer” carried salt and wine over Alpine passes with pack animals. What does the old German word “Saum” in their name mean?",
+        "options": [
+          "Path",
+          "Hem",
+          "Load",
+          "Mule"
+        ],
+        "explanation": "Säumer carried loads on the backs of pack animals – horses, mules, hinnies or oxen – across the mountains. The old word “Saum”, no longer in use, means roughly “load”. Southwards they mainly carried salt, northwards wine."
+      }
+    }
+  },
+  {
+    "id": "kn172",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Woher hat die „Lüftlmalerei“ an Hausfassaden in Oberbayern und Tirol wahrscheinlich ihren Namen?",
+    "options": [
+      "Von gemalten Wolken am Himmel",
+      "Von der frischen Luft beim Malen",
+      "Vom Haus „Zum Lüftl“ eines Malers",
+      "Vom Lüften der Zimmer im Frühling"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Herkunft ist umstritten; wahrscheinlich geht der Name auf das Heimathaus „Zum Lüftl“ des Fassadenmalers Franz Seraph Zwinck in Oberammergau zurück. Lüftlmalerei ist eine volkstümliche Form der Scheinmalerei aus dem Barock: Sie ahmt Architekturelemente nach und zeigt etwa Hauspatrone, biblische Szenen, Jagd und ländlichen Alltag.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Architektur",
+      "Bayern"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lüftlmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Lüftlmalerei",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does “Lüftlmalerei”, the painting on house fronts in Upper Bavaria and Tyrol, probably get its name?",
+        "options": [
+          "From painted clouds in the sky",
+          "From the fresh air while painting",
+          "From a painter’s house “Zum Lüftl”",
+          "From airing the rooms in spring"
+        ],
+        "explanation": "Its origin is disputed; the name probably goes back to the home of the facade painter Franz Seraph Zwinck in Oberammergau, a house called “Zum Lüftl”. Lüftlmalerei is a folk form of the illusionistic painting of the Baroque: it imitates architectural features and shows patron saints, Bible scenes, hunting and country life."
+      }
+    }
+  },
+  {
+    "id": "kn173",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Bei der Hinterglasmalerei wird auf die Rückseite einer Glasscheibe gemalt. Was malt man deshalb ganz zum Schluss?",
+    "options": [
+      "Die Beschriftung",
+      "Die Umrisslinien",
+      "Die Schatten",
+      "Den Hintergrund"
+    ],
+    "correct_index": 3,
+    "explanation": "Weil man das Bild später von vorne durch das Glas betrachtet, wird alles seitenverkehrt und in umgekehrter Reihenfolge gemalt: zuerst die Konturen, dann Schatten, Beschriftungen und Details, danach die Motive – und ganz zum Schluss der Hintergrund. Hinter dem Glas wirken die Farben besonders kräftig und behalten dauerhaft ihren Glanz.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Glas",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hinterglasmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Hinterglasmalerei",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In reverse glass painting, the picture is painted on the back of a pane of glass. What is therefore painted last?",
+        "options": [
+          "The lettering",
+          "The outlines",
+          "The shadows",
+          "The background"
+        ],
+        "explanation": "Because the picture is later viewed from the front through the glass, everything is painted mirror-inverted and in reverse order: first the outlines, then shadows, lettering and details, then the motifs – and last of all the background. Behind the glass the colours look especially strong and keep their shine."
+      }
+    }
+  },
+  {
+    "id": "kn174",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Worauf wurden die „Spinnwebenbilder“, die vor allem in Südtirol entstanden, meist gemalt?",
+    "options": [
+      "Auf Gespinste von Mottenraupen",
+      "Auf echte Netze von Spinnen",
+      "Auf sehr dünnes Seidenpapier",
+      "Auf getrocknete Fischhaut"
+    ],
+    "correct_index": 0,
+    "explanation": "Anders als der Name sagt, malten die Künstler meist auf das filzartige Gespinst der Raupen einer Gespinstmotte, die Traubenkirschen befällt. Bei einer Untersuchung von 40 Bildern unter dem Mikroskop in den 1940er-Jahren bestanden 39 aus Raupengespinst – nur eines aus Spinnenseide. Die Bilder entstanden vor allem im Südtirol des 18. und frühen 19. Jahrhunderts.",
+    "difficulty": 3,
+    "tags": [
+      "Malerei",
+      "Natur",
+      "Tirol"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Spinnwebenbild",
+    "source_url": "https://de.wikipedia.org/wiki/Spinnwebenbild",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What were the “cobweb paintings” made mainly in South Tyrol usually painted on?",
+        "options": [
+          "Webs spun by moth caterpillars",
+          "Real webs made by spiders",
+          "Very thin sheets of tissue paper",
+          "Dried and stretched fish skin"
+        ],
+        "explanation": "Despite the name, the artists mostly painted on the felt-like webs spun by the caterpillars of an ermine moth that infests bird cherry trees. When 40 pictures were examined under the microscope in the 1940s, 39 turned out to be caterpillar silk – only one was spider silk. The pictures were made mainly in South Tyrol in the 18th and early 19th centuries."
+      }
+    }
+  },
+  {
+    "id": "kn175",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wozu dient das Bier bei der „Biermalerei“, mit der Maler Marmor und Holzmaserung nachahmen?",
+    "options": [
+      "Zum Reinigen der Pinsel danach",
+      "Als Bindemittel für die Pigmente",
+      "Als glänzender Lack zum Schluss",
+      "Zum Aufweichen des alten Putzes"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei dieser Imitationstechnik werden Farbpigmente in Bier eingerührt – das Bier dient als Bindemittel. Aufgetragen wird mit einem Schwamm. Verbreitet war die Technik besonders im 19. Jahrhundert; heute nutzt man sie noch, um Armaturenbretter in Oldtimern zu restaurieren.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Technik",
+      "Handwerk"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Biermalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Biermalerei",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is the beer used for in “beer painting”, a technique for imitating marble and wood grain?",
+        "options": [
+          "To clean the brushes afterwards",
+          "As a binder for the pigments",
+          "As a glossy varnish at the end",
+          "To soften the old plaster"
+        ],
+        "explanation": "In this imitation technique, pigments are stirred into beer – the beer acts as the binder. It is applied with a sponge. The technique was especially common in the 19th century; today it is still used to restore the dashboards of vintage cars."
+      }
+    }
+  },
+  {
+    "id": "kn176",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Ein „Riefelbild“ besteht aus vielen schmalen Leisten mit dreieckigem Querschnitt. Was sieht man, wenn man es erst von links und dann von rechts betrachtet?",
+    "options": [
+      "Ein Bild, das sich bewegt",
+      "Dasselbe Bild in zwei Farben",
+      "Zwei ganz verschiedene Bilder",
+      "Dasselbe Bild, nur gespiegelt"
+    ],
+    "correct_index": 2,
+    "explanation": "Auf die zwei sichtbaren Seitenflächen der nebeneinander gesetzten Leisten ist jeweils ein anderes Motiv gemalt. So entstehen voneinander unabhängige Rechts- und Linksansichten. Die meisten bekannten Riefelbilder stammen aus dem 18. Jahrhundert und hängen in Kirchen; beliebt waren auch Porträts von Ehepaaren.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Optik",
+      "Kirche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Riefelbild",
+    "source_url": "https://de.wikipedia.org/wiki/Riefelbild",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A “Riefelbild” (turning picture) is made of many narrow strips with a triangular cross-section. What do you see when you look at it first from the left and then from the right?",
+        "options": [
+          "A picture that moves",
+          "The same picture in two colours",
+          "Two completely different pictures",
+          "The same picture, mirrored"
+        ],
+        "explanation": "A different motif is painted on each of the two visible sides of the strips set side by side. This creates independent views from the right and from the left. Most known examples date from the 18th century and hang in churches; portraits of married couples were popular too."
+      }
+    }
+  },
+  {
+    "id": "kn177",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wozu zeichneten Maler ein Quadratnetz auf ihren Entwurf und auf die große Wand?",
+    "options": [
+      "Um später die Bildfläche zu verkaufen",
+      "Um die Farben gleichmäßig zu verteilen",
+      "Um die Wand vor Rissen zu schützen",
+      "Um das Bild vergrößert zu übertragen"
+    ],
+    "correct_index": 3,
+    "explanation": "Entwurf und Wand bekommen ein Gitter aus Quadraten, auf der Wand entsprechend größer. Dann überträgt der Maler die Zeichnung Quadrat für Quadrat – meist wird sie dabei vergrößert. Beschrieben wurde die Technik erstmals 1435 von Leon Battista Alberti.",
+    "difficulty": 2,
+    "tags": [
+      "Malerei",
+      "Zeichnen",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Quadratnetz",
+    "source_url": "https://de.wikipedia.org/wiki/Quadratnetz",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why did painters draw a grid of squares on their design and on the large wall?",
+        "options": [
+          "To sell the picture area later",
+          "To spread the colours evenly",
+          "To protect the wall from cracks",
+          "To transfer the picture enlarged"
+        ],
+        "explanation": "The design and the wall both get a grid of squares, larger on the wall. The painter then copies the drawing square by square – usually enlarging it. The technique was first described in 1435 by Leon Battista Alberti."
+      }
+    }
+  },
+  {
+    "id": "kn178",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Die Kölner Domplatte war lange ein beliebter Platz für Straßenmaler, die mit Kreide auf den Boden malen. Was gilt dort seit Dezember 2024?",
+    "options": [
+      "Straßenmalerei ist verboten",
+      "Nur Kinder dürfen dort malen",
+      "Bilder bleiben ein Jahr lang",
+      "Malen kostet nun Eintritt"
+    ],
+    "correct_index": 0,
+    "explanation": "Nach wiederholten Konflikten erklärte die Stadt Köln die Domplatte zum 17. Dezember 2024 zur Schutzzone, in der Straßenmalerei verboten ist. Straßenmaler malen mit Pastellkreide oder Farbpigmenten auf Asphalt oder Pflaster; ihre Bilder halten nur kurz, und sie finanzieren sich meist mit Spenden von Passanten.",
+    "difficulty": 2,
+    "tags": [
+      "Straßenkunst",
+      "Köln",
+      "Kreide"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Straßenmalerei",
+    "source_url": "https://de.wikipedia.org/wiki/Straßenmalerei",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Cologne’s cathedral square was long a popular spot for pavement artists who draw on the ground with chalk. What has applied there since December 2024?",
+        "options": [
+          "Pavement art is banned",
+          "Only children may draw there",
+          "Pictures must stay a year",
+          "Drawing now costs a fee"
+        ],
+        "explanation": "After repeated conflicts, the city of Cologne declared the cathedral square a protected zone from 17 December 2024, in which pavement art is banned. Pavement artists paint with pastel chalk or pigments on asphalt or paving; their pictures last only a short time, and they usually live on donations from passers-by."
+      }
+    }
+  },
+  {
+    "id": "kn179",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Unter vielen alten Gemälden steckt eine „Unterzeichnung“, die von Farbe verdeckt ist. Womit kann man sie seit den 1930er-Jahren sichtbar machen?",
+    "options": [
+      "Mit Ultraschall-Messungen",
+      "Mit Infrarot-Untersuchungen",
+      "Mit einem Lösungsmittel",
+      "Mit starken Magneten"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Unterzeichnung ist die erste Vorzeichnung des Künstlers auf dem grundierten Bildträger; sie legt die Komposition fest und wird von Farbschichten bedeckt. Erst seit Infrarotuntersuchungen in den 1930er-Jahren kann man in gewissem Umfang durch die Farbschichten hindurch „sehen“. Das hilft auch zu klären, welcher Künstler ein Bild gemalt hat.",
+    "difficulty": 3,
+    "tags": [
+      "Malerei",
+      "Forschung",
+      "Restaurierung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Unterzeichnung",
+    "source_url": "https://de.wikipedia.org/wiki/Unterzeichnung",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Many old paintings hide an “underdrawing” covered by paint. What has made it visible since the 1930s?",
+        "options": [
+          "Ultrasound measurement",
+          "Infrared examination",
+          "A paint solvent",
+          "Strong magnets"
+        ],
+        "explanation": "The underdrawing is the artist’s first sketch on the primed support; it fixes the composition and is covered by layers of paint. Only since infrared examination in the 1930s has it been possible to “see” through the paint to some extent. This also helps to establish which artist painted a picture."
+      }
+    }
+  },
+  {
+    "id": "kn180",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Was ist beim Film ein „Matte Painting“?",
+    "options": [
+      "Eine Skizze für die Kostüme",
+      "Ein matter Anstrich gegen Spiegelungen",
+      "Ein Plakat, das für den Film wirbt",
+      "Eine gemalte Kulisse, etwa auf Glas"
+    ],
+    "correct_index": 3,
+    "explanation": "Matte Paintings sind gemalte Teile von Kulissen, aufgebracht auf Leinwand oder Glas – so spart man aufwendige Außenaufnahmen. Schon 1907 entstand eines für einen Film. Heute werden fast alle Matte Paintings digital erstellt, etwa als Hintergrund, der beim Bluescreen-Verfahren die blaue Fläche im Studio ersetzt.",
+    "difficulty": 2,
+    "tags": [
+      "Film",
+      "Malerei",
+      "Trick"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Matte Painting",
+    "source_url": "https://de.wikipedia.org/wiki/Matte Painting",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In film-making, what is a “matte painting”?",
+        "options": [
+          "A sketch for the costumes",
+          "A matt coat against reflections",
+          "A poster advertising the film",
+          "A painted backdrop, e.g. on glass"
+        ],
+        "explanation": "Matte paintings are painted parts of a set, applied to canvas or glass – they save expensive location shooting. One was made for a film as early as 1907. Today almost all matte paintings are digital, for example as a background that replaces the blue area of the studio in the bluescreen process."
+      }
+    }
+  },
+  {
+    "id": "kn181",
+    "kind": "question",
+    "category_id": "art",
+    "question": "Wie entsteht im Kunstunterricht ein „Kratzbild“ mit Wachsmalstiften?",
+    "options": [
+      "Erst bunt, dann schwarz, dann kratzen",
+      "Wachs schmelzen und auf Papier tropfen",
+      "Mit der Nadel Linien in Holz ritzen",
+      "Kreide auf nassem Papier verreiben"
+    ],
+    "correct_index": 0,
+    "explanation": "Zuerst wird das Blatt ganz bunt bemalt, dann komplett schwarz übermalt. Kratzt man die schwarze Schicht stellenweise weg, kommt die bunte Farbe darunter zum Vorschein. Wachsmalstifte enthalten Wachse als Bindemittel, dazu Farbpigmente und Füllstoffe wie Talkum, Kreide oder Kaolin.",
+    "difficulty": 1,
+    "tags": [
+      "Malen",
+      "Schule",
+      "Technik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wachsmalstift",
+    "source_url": "https://de.wikipedia.org/wiki/Wachsmalstift",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How is a “scratch picture” made with wax crayons in art class?",
+        "options": [
+          "Colour, then black, then scratch",
+          "Melt wax and drip it onto paper",
+          "Carve lines into wood with a needle",
+          "Rub chalk onto wet paper"
+        ],
+        "explanation": "First the sheet is coloured in brightly all over, then painted over completely in black. Scratching the black layer away in places reveals the colours underneath. Wax crayons contain waxes as a binder, plus pigments and fillers such as talc, chalk or kaolin."
+      }
+    }
+  },
+  {
+    "id": "mk168",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was ist das Besondere an einem Krebskanon?",
+    "options": [
+      "Die Melodie wird immer langsamer",
+      "Alle Stimmen singen genau gleichzeitig",
+      "Eine Stimme singt die Melodie rückwärts",
+      "Er besteht nur aus tiefen Tönen"
+    ],
+    "correct_index": 2,
+    "explanation": "Ein Krebskanon ist ein musikalisches Palindrom: Eine Stimme trägt die Melodie vorwärts vor, die andere rückwärts – „im Krebs“. Ein bekanntes Beispiel steht im „Musikalischen Opfer“ von Johann Sebastian Bach. Beim Tischkanon sitzen sich die Spieler gegenüber und beginnen an entgegengesetzten Ecken desselben Notenblatts.",
+    "difficulty": 2,
+    "tags": [
+      "Kanon",
+      "Komposition",
+      "Bach"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Krebskanon",
+    "source_url": "https://de.wikipedia.org/wiki/Krebskanon",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is special about a crab canon?",
+        "options": [
+          "The melody keeps getting slower",
+          "All voices sing at exactly the same time",
+          "One voice sings the melody backwards",
+          "It consists only of low notes"
+        ],
+        "explanation": "A crab canon is a musical palindrome: one voice performs the melody forwards, the other backwards – “like a crab”. A well-known example is in Johann Sebastian Bach’s “Musical Offering”. In a table canon the players sit facing each other and start at opposite corners of the same sheet of music."
+      }
+    }
+  },
+  {
+    "id": "mk169",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Der Oktobass ist das größte Streichinstrument, insgesamt 3,45 Meter hoch. Wie werden seine Saiten gegriffen?",
+    "options": [
+      "Mit beiden Ellbogen",
+      "Mit Fingerhüten aus Metall",
+      "Mit einem Holzkamm",
+      "Über Hebel und Pedale"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Griffbrett ist zu lang, um die Saiten mit den Fingern niederzudrücken. Deshalb geschieht das über sieben Bügel, die mit Hebeln am Hals und Pedalen am Podest bewegt werden; der Spieler steht auf diesem Podest. Das Instrument wiegt über 100 Kilogramm, und es gibt nur wenige Exemplare. Der Oktobass entstand 1850 beim Geigenbauer Jean-Baptiste Vuillaume.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Streicher",
+      "Rekord"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oktobass",
+    "source_url": "https://de.wikipedia.org/wiki/Oktobass",
+    "created_at": "2026-11-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The octobass is the largest string instrument, 3.45 metres tall in all. How are its strings stopped?",
+        "options": [
+          "With both elbows",
+          "With thimbles made of metal",
+          "With a wooden comb",
+          "With levers and pedals"
+        ],
+        "explanation": "The fingerboard is too long to press the strings down with the fingers. Instead, seven clamps do it, moved by levers on the neck and pedals on the platform the player stands on. The instrument weighs more than 100 kilograms, and only a few exist. The octobass was created in 1850 by the violin maker Jean-Baptiste Vuillaume."
+      }
+    }
+  },
+  {
+    "id": "mk170",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wie verändert man bei der Singenden Säge die Tonhöhe?",
+    "options": [
+      "Durch Sägen in ein Brett",
+      "Durch Biegen des Sägeblatts",
+      "Durch Klopfen auf den Griff",
+      "Durch Anhauchen des Blatts"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Säge wird mit einem Geigenbogen gestrichen; die Tonhöhe ändert sich, wenn man das Blatt in eine S-Form biegt. Der Klang erinnert an eine Sopranstimme oder an ein hohes Pfeifen. Das Vibrato erzeugt man traditionell mit einem zitternden Bein.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Klang",
+      "Werkzeug"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Singende Säge",
+    "source_url": "https://de.wikipedia.org/wiki/Singende Säge",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How do you change the pitch on a musical saw?",
+        "options": [
+          "By sawing into a board",
+          "By bending the blade",
+          "By tapping the handle",
+          "By breathing on the blade"
+        ],
+        "explanation": "The saw is played with a violin bow; the pitch changes when the blade is bent into an S-shape. The sound is reminiscent of a soprano voice or a high whistle. Traditionally the vibrato comes from a trembling leg."
+      }
+    }
+  },
+  {
+    "id": "mk171",
+    "kind": "question",
+    "category_id": "music",
+    "question": "In welcher Musik spielt der oft selbst gebaute Teekistenbass – eine Kiste mit Stock und Seil – vor allem die Basslinie?",
+    "options": [
+      "In Kirchenchören",
+      "In Sinfonieorchestern",
+      "In Skiffle-Bands",
+      "In Opernhäusern"
+    ],
+    "correct_index": 2,
+    "explanation": "Der Teekistenbass besteht aus einer Teekiste als Resonanzkörper, einem gut einen Meter langen Stock oder Besenstiel und einem oder mehreren Seilen. Die Tonhöhe ändert man, indem man den Stock bewegt und so das Seil spannt oder lockert. Gespielt wird er in Skiffle-Bands, vor allem in Großbritannien und Deutschland, und in australischen Bush-Bands.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Skiffle",
+      "Selbstbau"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Teekistenbass",
+    "source_url": "https://de.wikipedia.org/wiki/Teekistenbass",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In what kind of music does the often home-made tea-chest bass – a box with a stick and a rope – mainly play the bass line?",
+        "options": [
+          "In church choirs",
+          "In symphony orchestras",
+          "In skiffle bands",
+          "In opera houses"
+        ],
+        "explanation": "The tea-chest bass consists of a tea chest as the sound box, a stick or broom handle a good metre long and one or more ropes. The pitch is changed by moving the stick, which tightens or slackens the rope. It is played in skiffle bands, mainly in Britain and Germany, and in Australian bush bands."
+      }
+    }
+  },
+  {
+    "id": "mk172",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woraus bestehen traditionell die beiden Saiten der mongolischen Pferdekopfgeige?",
+    "options": [
+      "Aus gedrehten Fasern von Bambus",
+      "Aus gedrehtem Darm von Schafen",
+      "Aus dünn gezogenem Kupferdraht",
+      "Aus Schweifhaaren von Pferden"
+    ],
+    "correct_index": 3,
+    "explanation": "Traditionell sind die Saiten und die Bespannung des Bogens aus Schweifhaaren mongolischer Pferde – die tiefere Saite hat etwa 130 Haare, die höhere etwa 100. Am oberen Halsende sitzt ein geschnitzter Pferdekopf. Die Pferdekopfgeige ist das wichtigste Instrument der Mongolen und ein nationales Symbol der Mongolei.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Mongolei",
+      "Streicher"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Mongolische Pferdekopfgeige",
+    "source_url": "https://de.wikipedia.org/wiki/Mongolische Pferdekopfgeige",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What are the two strings of the Mongolian horsehead fiddle traditionally made of?",
+        "options": [
+          "Twisted bamboo fibres",
+          "Twisted sheep gut",
+          "Thin drawn copper wire",
+          "Hair from horses’ tails"
+        ],
+        "explanation": "Traditionally the strings and the bow hair are made from the tail hair of Mongolian horses – the lower string has about 130 hairs, the higher one about 100. A carved horse’s head sits at the top of the neck. The horsehead fiddle is the most important instrument of the Mongols and a national symbol of Mongolia."
+      }
+    }
+  },
+  {
+    "id": "mk173",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Was hat die norwegische Hardangerfiedel zusätzlich zu den vier Saiten, die mit dem Bogen gestrichen werden?",
+    "options": [
+      "Resonanzsaiten unter dem Griffbrett",
+      "Eine Kurbel wie bei einer Drehleier",
+      "Kleine Schellen am geschnitzten Kopf",
+      "Ein Mundstück zum Hineinblasen"
+    ],
+    "correct_index": 0,
+    "explanation": "Unter dem Griffbrett verlaufen weitere Resonanzsaiten aus Stahl oder Messing, die mitschwingen – ähnlich wie bei der Viola d’amore. Der flache Steg erlaubt es, bis zu drei Saiten gleichzeitig zu streichen. Die älteste erhaltene Hardangerfiedel stammt von 1651. Benannt ist das Instrument nach der Region Hardanger, gespielt wird es vor allem in der Volksmusik im Süden Norwegens.",
+    "difficulty": 3,
+    "tags": [
+      "Instrument",
+      "Norwegen",
+      "Volksmusik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hardangerfiedel",
+    "source_url": "https://de.wikipedia.org/wiki/Hardangerfiedel",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Besides the four strings played with the bow, what does the Norwegian Hardanger fiddle have?",
+        "options": [
+          "Extra strings under the fingerboard",
+          "A crank like that of a hurdy-gurdy",
+          "Little bells on its carved wooden head",
+          "A mouthpiece to blow air into"
+        ],
+        "explanation": "Further resonating strings of steel or brass run under the fingerboard and vibrate along – similar to the viola d’amore. The flat bridge allows up to three strings to be bowed at once. The oldest surviving Hardanger fiddle dates from 1651. The instrument is named after the Hardanger region and is played mainly in the folk music of southern Norway."
+      }
+    }
+  },
+  {
+    "id": "mk174",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Wodurch werden beim Pyrophon, einem orgelähnlichen Instrument von 1875, die gläsernen Pfeifen zum Klingen gebracht?",
+    "options": [
+      "Durch heißen Wasserdampf",
+      "Durch kleine Flammen",
+      "Durch rotierende Magnete",
+      "Durch kleine Hämmerchen"
+    ],
+    "correct_index": 1,
+    "explanation": "Im Pyrophon brachten Wasserstoffflammen Glasröhren verschiedener Größe zum Schwingen – man spricht von „singenden Flammen“. Drückte man eine Taste, teilte sich die große Flamme in der Röhre in einzelne Flämmchen, und der Ton erklang. Der Klang ähnelte einer menschlichen Stimme. Erfunden hat das Instrument 1875 Georges Frédéric Eugène Kastner.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Feuer",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pyrophon",
+    "source_url": "https://de.wikipedia.org/wiki/Pyrophon",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What makes the glass pipes of the pyrophone, an organ-like instrument from 1875, sound?",
+        "options": [
+          "Hot steam",
+          "Small flames",
+          "Rotating magnets",
+          "Little hammers"
+        ],
+        "explanation": "In the pyrophone, hydrogen flames made glass tubes of different sizes vibrate – so-called “singing flames”. Pressing a key split the large flame in a tube into several small ones, and the note sounded. The sound resembled a human voice. The instrument was invented in 1875 by Georges Frédéric Eugène Kastner."
+      }
+    }
+  },
+  {
+    "id": "mk175",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Warum heißt das „Giraffenklavier“ aus dem frühen 19. Jahrhundert so?",
+    "options": [
+      "Es klingt besonders hoch und hell",
+      "Es hat Beine mit Flecken wie eine Giraffe",
+      "Sein Saitenkasten ragt hoch nach oben",
+      "Es wurde für einen Zoo gebaut"
+    ],
+    "correct_index": 2,
+    "explanation": "Das Giraffenklavier sieht aus wie ein hochkant gestellter Flügel: Seine Saiten verlaufen in einem senkrecht stehenden, einseitig gewölbten Gehäuse. Es gehört zu den Hammerflügeln und war am Anfang des 19. Jahrhunderts in Gebrauch; Wiener Klavierbauer bauten die ersten um 1805.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Klavier",
+      "Wien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Giraffenklavier",
+    "source_url": "https://de.wikipedia.org/wiki/Giraffenklavier",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Why is the early-19th-century “giraffe piano” called that?",
+        "options": [
+          "It sounds especially high and bright",
+          "Its legs are spotted like a giraffe",
+          "Its string case towers upwards",
+          "It was built for a zoo"
+        ],
+        "explanation": "The giraffe piano looks like a grand piano stood on end: its strings run in an upright case curved on one side. It belongs to the fortepianos and was in use at the beginning of the 19th century; Viennese piano makers built the first ones around 1805."
+      }
+    }
+  },
+  {
+    "id": "mk176",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Ein Liebeslied aus dem frühen 15. Jahrhundert ist in Herzform notiert. Wie nennt man solche Zeichen im Notenbild, die man nur sehen, nicht hören kann?",
+    "options": [
+      "Notenrätsel",
+      "Wortmalerei",
+      "Tonmalerei",
+      "Augenmusik"
+    ],
+    "correct_index": 3,
+    "explanation": "Augenmusik sind rein optische Erscheinungen im Notenbild, die eine symbolische Bedeutung tragen – etwa schwarze Notenköpfe bei Wörtern wie „Nacht“ oder „Tod“. Die herzförmige Notierung eines Rondeaus von Baude Cordier zu Beginn des 15. Jahrhunderts gilt als eines der ersten erhaltenen Beispiele. Wortmalerei dagegen kann man auch hören, zum Beispiel eine absteigende Melodie beim Wort „fallen“.",
+    "difficulty": 3,
+    "tags": [
+      "Notenschrift",
+      "Symbol",
+      "Komposition"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Augenmusik",
+    "source_url": "https://de.wikipedia.org/wiki/Augenmusik",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A love song from the early 15th century is notated in the shape of a heart. What are such features of a score called that can only be seen, not heard?",
+        "options": [
+          "Note riddles",
+          "Word painting",
+          "Tone painting",
+          "Eye music"
+        ],
+        "explanation": "Eye music means purely visual features of a score that carry a symbolic meaning – such as black note heads on words like “night” or “death”. The heart-shaped notation of a rondeau by Baude Cordier from the beginning of the 15th century is one of the earliest surviving examples. Word painting, by contrast, can also be heard, for example a falling melody on the word “fall”."
+      }
+    }
+  },
+  {
+    "id": "mk177",
+    "kind": "question",
+    "category_id": "music",
+    "question": "Woher hat das Tafelklavier, eine frühe Bauform des Klaviers, seinen Namen?",
+    "options": [
+      "Sein Gehäuse ist rechteckig wie ein Tisch",
+      "Es diente auch als Esstisch",
+      "Die Noten standen auf einer Schiefertafel",
+      "Es stand nur an Festtafeln von Schlössern"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Tafelklavier verlaufen die Saiten waagerecht quer oder schräg zu den Tasten. Dadurch hat das Gehäuse die rechteckige Form eines Tisches („Tafel“) – als Tisch benutzt wurde es aber nicht. Es braucht weniger Platz als ein Flügel und war im 19. Jahrhundert sehr beliebt.",
+    "difficulty": 2,
+    "tags": [
+      "Instrument",
+      "Klavier",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tafelklavier",
+    "source_url": "https://de.wikipedia.org/wiki/Tafelklavier",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the square piano – in German “Tafelklavier”, table piano – get its name?",
+        "options": [
+          "Its case is rectangular like a table",
+          "It also served as a dining table",
+          "The music stood on a slate",
+          "It was only used at palace banquets"
+        ],
+        "explanation": "In a square piano the strings run horizontally, across or at an angle to the keys. This gives the case the rectangular shape of a table – but it was not used as one. It takes up less space than a grand piano and was very popular in the 19th century."
+      }
+    }
+  },
+  {
+    "id": "l174",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Eher geht ein Kamel durch ein Nadelöhr …“ – wie heißt eine Redefigur, die betont, dass etwas nie geschieht, indem sie es mit etwas Unmöglichem vergleicht?",
+    "options": [
+      "Oxymoron",
+      "Adynaton",
+      "Euphemismus",
+      "Anapher"
+    ],
+    "correct_index": 1,
+    "explanation": "Mit einem Adynaton (griechisch „unmöglich“) sagt man indirekt, dass etwas auf keinen Fall geschieht – nach dem Schema „Eher geht die Welt unter, als dass …“. Im Gleichnis vom Nadelöhr heißt es: „Eher geht ein Kamel durch ein Nadelöhr, als dass ein Reicher in das Reich Gottes gelangt.“ Die Figur stammt aus der altgriechischen Dichtung.",
+    "difficulty": 3,
+    "tags": [
+      "Rhetorik",
+      "Stilmittel",
+      "Griechisch"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Adynaton",
+    "source_url": "https://de.wikipedia.org/wiki/Adynaton",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "“It is easier for a camel to go through the eye of a needle …” – what is a figure of speech called that stresses that something will never happen by comparing it with something impossible?",
+        "options": [
+          "Oxymoron",
+          "Adynaton",
+          "Euphemism",
+          "Anaphora"
+        ],
+        "explanation": "An adynaton (Greek for “impossible”) says indirectly that something will never happen – on the pattern “The world will end before …”. The parable of the needle’s eye says: “It is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God.” The figure comes from ancient Greek poetry."
+      }
+    }
+  },
+  {
+    "id": "l175",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Wenn ich dich erwische, dann …!“ – wie heißt die Redefigur, bei der ein Satz mittendrin abgebrochen wird?",
+    "options": [
+      "Personifikation",
+      "Alliteration",
+      "Aposiopese",
+      "Metapher"
+    ],
+    "correct_index": 2,
+    "explanation": "Bei der Aposiopese (griechisch „das Verstummen“) bricht ein Satz ab, und eine Pause ersetzt den Rest – im Deutschen spricht man auch vom „Abbruch im Satz“. Der Abbruch kann zum Beispiel Gefühle oder eine unausgesprochene Drohung ausdrücken; der Zuhörer soll den Satz in Gedanken ergänzen.",
+    "difficulty": 2,
+    "tags": [
+      "Rhetorik",
+      "Stilmittel",
+      "Satz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Aposiopese",
+    "source_url": "https://de.wikipedia.org/wiki/Aposiopese",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "“If I catch you, then …!” – what is the figure of speech called in which a sentence is broken off in the middle?",
+        "options": [
+          "Personification",
+          "Alliteration",
+          "Aposiopesis",
+          "Metaphor"
+        ],
+        "explanation": "In an aposiopesis (Greek for “falling silent”) a sentence breaks off and a pause replaces the rest. The break can express strong feelings or an unspoken threat, for example; the listener is meant to complete the sentence in their head."
+      }
+    }
+  },
+  {
+    "id": "l176",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Ein Redner beginnt mit Schmeicheleien an sein Publikum, damit es ihm wohlgesinnt zuhört. Wie heißt diese seit der Antike bekannte Redefigur?",
+    "options": [
+      "Advocatus Diaboli",
+      "Argumentum ad Hominem",
+      "Reductio ad Absurdum",
+      "Captatio Benevolentiae"
+    ],
+    "correct_index": 3,
+    "explanation": "Captatio Benevolentiae heißt auf Lateinisch „Haschen nach Wohlwollen“: Zu Beginn wendet sich der Redner oder Autor mit schmeichelhaften Worten an sein Publikum und bittet, das Folgende freundlich aufzunehmen. In schlichter Form gehören solche Floskeln bis heute zu fast jeder Rede.",
+    "difficulty": 3,
+    "tags": [
+      "Rhetorik",
+      "Latein",
+      "Rede"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Captatio Benevolentiae",
+    "source_url": "https://de.wikipedia.org/wiki/Captatio Benevolentiae",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A speaker opens by flattering the audience so that they listen favourably. What is this figure of speech, known since antiquity, called?",
+        "options": [
+          "Advocatus diaboli",
+          "Argumentum ad hominem",
+          "Reductio ad absurdum",
+          "Captatio benevolentiae"
+        ],
+        "explanation": "Captatio benevolentiae is Latin for “catching goodwill”: at the start, the speaker or author addresses the audience with flattering words and asks them to receive what follows kindly. In simpler form, such phrases are still part of almost every speech today."
+      }
+    }
+  },
+  {
+    "id": "l177",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Er hat sich geschickt aus der Atmosphäre gezogen“ – statt „aus der Affäre“. Wie heißt so eine Verwechslung ähnlich klingender Wörter?",
+    "options": [
+      "Malapropismus",
+      "Pleonasmus",
+      "Euphemismus",
+      "Anachronismus"
+    ],
+    "correct_index": 0,
+    "explanation": "Beim Malapropismus wird ein ähnlich klingendes Wort mit ganz anderer Bedeutung benutzt – oft ein Fremdwort, mit komischer Wirkung. Der Name geht auf Mrs. Malaprop zurück, eine Figur aus Richard Brinsley Sheridans Theaterstück „Die Rivalen“ von 1775, die lange Wörter falsch gebraucht, um gelehrt zu wirken.",
+    "difficulty": 3,
+    "tags": [
+      "Wortspiel",
+      "Theater",
+      "Fremdwort"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Malapropismus",
+    "source_url": "https://de.wikipedia.org/wiki/Malapropismus",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "German “aus der Atmosphäre gezogen” (pulled out of the atmosphere) instead of “aus der Affäre gezogen” (got out of the affair). What is such a mix-up of similar-sounding words called?",
+        "options": [
+          "Malapropism",
+          "Pleonasm",
+          "Euphemism",
+          "Anachronism"
+        ],
+        "explanation": "A malapropism uses a similar-sounding word with a completely different meaning – often a foreign word, with a comic effect. The name comes from Mrs Malaprop, a character in Richard Brinsley Sheridan’s play “The Rivals” (1775), who misuses long words to sound learned."
+      }
+    }
+  },
+  {
+    "id": "l178",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Vage Wörter, die einem Begriff seinen Inhalt nehmen, heißen „Wieselwörter“. Woher kommt der Name?",
+    "options": [
+      "Ein Erfinder des Begriffs hieß Wiesel",
+      "Wiesel sollen Eier unbemerkt aussaugen",
+      "Wiesel-Fell galt als wertlos",
+      "Wiesel kommen in vielen Fabeln vor"
+    ],
+    "correct_index": 1,
+    "explanation": "Dem Wiesel wird nachgesagt, dass es ein Ei aussaugen kann, ohne dass man es der leeren Schale anmerkt. Genauso rauben Wieselwörter einem Begriff, dem sie hinzugefügt werden, jeden Inhalt – die Hülle bleibt, die Bedeutung ist weg. Der Ausdruck „weasel word“ stammt aus dem amerikanischen Englisch.",
+    "difficulty": 3,
+    "tags": [
+      "Wortbedeutung",
+      "Rhetorik",
+      "Tiere"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wieselwort",
+    "source_url": "https://de.wikipedia.org/wiki/Wieselwort",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Vague words that empty a term of its content are called “weasel words”. Where does the name come from?",
+        "options": [
+          "A man who coined the term was called Weasel",
+          "Weasels supposedly suck eggs unnoticed",
+          "Weasel fur was considered worthless",
+          "Weasels appear in many fables"
+        ],
+        "explanation": "Weasels are said to be able to suck out an egg without anyone noticing from the empty shell. In the same way, weasel words rob a term they are added to of all content – the shell remains, the meaning is gone. The expression comes from American English."
+      }
+    }
+  },
+  {
+    "id": "l179",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Zehn zahme Ziegen zogen zwei Zentner Zucker zum Zoo.“ Wie heißt ein Text, in dem alle Wörter mit demselben Buchstaben beginnen?",
+    "options": [
+      "Anagramm",
+      "Palindrom",
+      "Tautogramm",
+      "Akrostichon"
+    ],
+    "correct_index": 2,
+    "explanation": "Im Tautogramm (griechisch tautó, „dasselbe“) beginnen alle Wörter mit demselben Buchstaben – eine Sonderform der Alliteration. Auf Deutsch ist das eher schwer; im Lateinischen, wo sich bestimmte Anfangsbuchstaben häufen, geht es leichter. Das erste lateinische Beispiel ist schon aus dem 3. Jahrhundert v. Chr. überliefert.",
+    "difficulty": 2,
+    "tags": [
+      "Wortspiel",
+      "Buchstaben",
+      "Alliteration"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tautogramm",
+    "source_url": "https://de.wikipedia.org/wiki/Tautogramm",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "German “Zehn zahme Ziegen zogen zwei Zentner Zucker zum Zoo” (ten tame goats pulled two hundredweight of sugar to the zoo). What is a text called in which every word begins with the same letter?",
+        "options": [
+          "Anagram",
+          "Palindrome",
+          "Tautogram",
+          "Acrostic"
+        ],
+        "explanation": "In a tautogram (from Greek tautó, “the same”) every word begins with the same letter – a special form of alliteration. In German this is rather hard; in Latin, where certain initial letters are common, it is easier. The first Latin example has come down to us from as early as the 3rd century BC."
+      }
+    }
+  },
+  {
+    "id": "l180",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wer „lapidar“ antwortet, sagt etwas knapp und ohne Ausschmückung. Von welchem lateinischen Wort kommt „lapidar“?",
+    "options": [
+      "Von „lapis“ – Stein",
+      "Von „labium“ – Lippe",
+      "Von „lapsus“ – Fehler",
+      "Von „lappa“ – Klette"
+    ],
+    "correct_index": 0,
+    "explanation": "„Lapidar“ kommt von lateinisch lapis, „Stein“ – also „wie in Stein gehauen“. Das Wort geht vermutlich auf die geradlinigen, schnörkellosen Steininschriften der Antike zurück. Im Deutschen ist es relativ jung: Verbreitung fand es erst im 19. Jahrhundert.",
+    "difficulty": 2,
+    "tags": [
+      "Wortherkunft",
+      "Latein",
+      "Stil"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lapidar",
+    "source_url": "https://de.wikipedia.org/wiki/Lapidar",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Someone who answers “lapidarily” says something briefly and without frills. Which Latin word does “lapidary” come from?",
+        "options": [
+          "“lapis” – stone",
+          "“labium” – lip",
+          "“lapsus” – slip",
+          "“lappa” – burdock"
+        ],
+        "explanation": "“Lapidary” comes from Latin lapis, “stone” – as if carved in stone. The word probably goes back to the straight, unadorned stone inscriptions of antiquity. In German it is relatively young: it only spread in the 19th century."
+      }
+    }
+  },
+  {
+    "id": "l181",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Wo willst du hin?“ statt „Wohin willst du?“ – wie heißt es, wenn ein Wort getrennt und etwas dazwischengeschoben wird?",
+    "options": [
+      "Ellipse",
+      "Tmesis",
+      "Inversion",
+      "Synkope"
+    ],
+    "correct_index": 1,
+    "explanation": "Tmesis (griechisch „Abtrennung“) ist die Aufspaltung eines Wortes, zwischen dessen Teile etwas eingeschoben wird. In der gesprochenen Sprache ist sie verbreitet: „Wo willst du hin?“ statt „Wohin willst du?“ oder „Da hat er kein Recht zu!“ statt „Dazu hat er kein Recht!“. Im weiteren Sinn zählt auch die regelgerechte Trennung von Verben dazu: „Jemand lügt jemanden an.“",
+    "difficulty": 3,
+    "tags": [
+      "Grammatik",
+      "Stilmittel",
+      "Wort"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Tmesis",
+    "source_url": "https://de.wikipedia.org/wiki/Tmesis",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "German “Wo willst du hin?” instead of “Wohin willst du?” (both: where are you going?). What is it called when a word is split and something is put in between?",
+        "options": [
+          "Ellipsis",
+          "Tmesis",
+          "Inversion",
+          "Syncope"
+        ],
+        "explanation": "Tmesis (Greek for “cutting”) is the splitting of a word, with something inserted between its parts. It is common in spoken German, as in “Wo willst du hin?” for “Wohin willst du?”. In a wider sense it also covers the regular separation of verbs, as in English “to look something up”."
+      }
+    }
+  },
+  {
+    "id": "l182",
+    "kind": "question",
+    "category_id": "language",
+    "question": "„Es tut mir leid, wenn Sie sich verletzt fühlen.“ Warum gilt dieser Satz als „Nicht-Entschuldigung“?",
+    "options": [
+      "Er wurde nicht schriftlich gesagt",
+      "Er ist zu höflich formuliert",
+      "Er gibt keinen eigenen Fehler zu",
+      "Er enthält kein Wort „Danke“"
+    ],
+    "correct_index": 2,
+    "explanation": "Eine Nicht-Entschuldigung sieht aus wie eine Entschuldigung, drückt aber keine Reue für das Gesagte oder Getane aus – oder schiebt die Schuld sogar dem anderen zu. Wer so spricht, gibt nicht zu, dass an seinen Worten etwas falsch war; es kann so wirken, als sei der andere grundlos beleidigt.",
+    "difficulty": 2,
+    "tags": [
+      "Sprache",
+      "Kommunikation",
+      "Höflichkeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nicht-Entschuldigung",
+    "source_url": "https://de.wikipedia.org/wiki/Nicht-Entschuldigung",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "“I’m sorry if you feel hurt.” Why is this sentence considered a “non-apology”?",
+        "options": [
+          "It was not said in writing",
+          "It is phrased too politely",
+          "It admits no mistake of one’s own",
+          "It doesn’t contain the word “thanks”"
+        ],
+        "explanation": "A non-apology looks like an apology but expresses no regret for what was said or done – or even puts the blame on the other person. Speaking like this does not admit that anything about one’s words was wrong; it can make the other person seem offended for no reason."
+      }
+    }
+  },
+  {
+    "id": "l183",
+    "kind": "question",
+    "category_id": "language",
+    "question": "Wer bewusst die Gegenposition vertritt, spielt den „Advocatus Diaboli“ (Anwalt des Teufels). Wo hatte diese Rolle ursprünglich ihren Platz?",
+    "options": [
+      "Bei Wahlen zum Bürgermeister",
+      "Bei Gerichten im alten Rom",
+      "Im Theater als lustige Figur",
+      "Bei Heiligsprechungen"
+    ],
+    "correct_index": 3,
+    "explanation": "Ursprünglich war der Advocatus Diaboli ein Kirchenanwalt: Im Heiligsprechungsprozess sollte er die gesammelten Belege und Argumente für die Heiligsprechung anfechten oder Gegenargumente vorbringen. Die Gegenrolle als Fürsprecher hatte ein „Advocatus Dei“, ein Anwalt Gottes. Heute meint der Ausdruck jemanden, der in einem Streit bewusst die Position der Gegenseite einnimmt.",
+    "difficulty": 2,
+    "tags": [
+      "Redewendung",
+      "Latein",
+      "Kirche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Advocatus Diaboli",
+    "source_url": "https://de.wikipedia.org/wiki/Advocatus Diaboli",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Someone who deliberately argues the other side is playing “devil’s advocate” (advocatus diaboli). Where did this role originally belong?",
+        "options": [
+          "In elections for mayor",
+          "In the courts of ancient Rome",
+          "In the theatre as a comic figure",
+          "In canonisation proceedings"
+        ],
+        "explanation": "Originally the devil’s advocate was a church lawyer: in a canonisation process he had to challenge the evidence and arguments collected for declaring someone a saint, or bring counter-arguments. The opposite role of supporter was taken by an “advocatus Dei”, God’s advocate. Today the expression means someone who deliberately takes the other side in an argument."
+      }
+    }
   }
 ]
