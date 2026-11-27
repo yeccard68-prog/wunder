@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "ns111",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Schüttelt man eine Packung Müsli oder gemischte Nüsse, liegen danach die größten Stücke meist oben. Warum?",
+    "options": [
+      "Große Teile sind viel leichter als kleine",
+      "Kleinere Teile rutschen in die Lücken",
+      "Große Teile werden elektrisch abgestoßen",
+      "Kleine Teile kleben am Boden der Packung"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Rütteln entstehen kurz Hohlräume, in die vor allem die kleineren Teile rutschen. Die großen passen nicht hinein und „wandern“ so nach oben – je länger man schüttelt, desto mehr. Weil die dicksten Stücke im Müsli in den USA oft Paranüsse sind, heißt das Paranuss-Effekt.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Schütteln",
+      "Alltag"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Paranuss-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Paranuss-Effekt",
+    "created_at": "2026-11-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "If you shake a pack of muesli or mixed nuts, the biggest pieces usually end up on top. Why?",
+        "options": [
+          "Big pieces are lighter than small ones",
+          "Small bits slip into the gaps below",
+          "Big pieces get pushed up by static",
+          "Small bits stick to the bottom of the bag"
+        ],
+        "explanation": "Shaking briefly opens up gaps, and it is mostly the smaller pieces that slip into them. The big ones don't fit, so they work their way up – the longer you shake, the more so. Because the chunkiest bits in American muesli are often Brazil nuts, it's called the Brazil nut effect."
+      }
+    }
+  },
+  {
+    "id": "ns112",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Rührt man Spätzleteig oder Ketchup mit einem Stab, passiert etwas Überraschendes. Was?",
+    "options": [
+      "Die Masse fängt an zu schäumen",
+      "Die Masse bildet einen Strudel",
+      "Die Masse klettert am Stab hoch",
+      "Die Masse wird hart wie Stein"
+    ],
+    "correct_index": 2,
+    "explanation": "Das ist der Weissenberg-Effekt, benannt nach dem Physiker Karl Weissenberg: Manche nichtnewtonschen Flüssigkeiten steigen an einem rotierenden Stab hoch, statt eine glatte Oberfläche zu behalten. Bei Spätzleteig ist er besonders ausgeprägt. In Rührwerken ist er gefürchtet, weil die gerührte Masse Lager oder Motor verstopfen kann.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Flüssigkeit",
+      "Küche"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Weissenberg-Effekt",
+    "source_url": "https://de.wikipedia.org/wiki/Weissenberg-Effekt",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Stir spaetzle dough or ketchup with a rod and something surprising happens. What?",
+        "options": [
+          "It starts to foam up",
+          "It forms a whirlpool",
+          "It climbs up the rod",
+          "It sets hard as stone"
+        ],
+        "explanation": "This is the Weissenberg effect, named after physicist Karl Weissenberg: some non-Newtonian liquids climb up a spinning rod instead of keeping a flat surface. Spaetzle dough shows it especially strongly. In industrial mixers it is dreaded, because the stirred mass can clog bearings or motors."
+      }
+    }
+  },
+  {
+    "id": "ns113",
+    "kind": "question",
+    "category_id": "science",
+    "question": "1927 begann an einer Universität in Australien ein Versuch mit Pech, das bei Zimmertemperatur fest wirkt. Was wird dort beobachtet?",
+    "options": [
+      "Wie Pech langsam zu Kristall wird",
+      "Wie Pech im Lauf der Zeit verdunstet",
+      "Wie Pech im Dunkeln schwach leuchtet",
+      "Wie Pech aus einem Trichter tropft"
+    ],
+    "correct_index": 3,
+    "explanation": "Den Versuch begann Thomas Parnell an der Universität von Queensland in Brisbane. 1930 wurde der Trichter geöffnet, und das Pech begann zu fließen: Der erste Tropfen fiel 1938, der neunte 2014 – erst er wurde gefilmt. Das Pechtropfenexperiment gilt als das am längsten andauernde Laborexperiment der Welt.",
+    "difficulty": 2,
+    "tags": [
+      "Experiment",
+      "Physik",
+      "Australien"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pechtropfenexperiment",
+    "source_url": "https://de.wikipedia.org/wiki/Pechtropfenexperiment",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In 1927 an experiment began at a university in Australia using pitch, which seems solid at room temperature. What is being watched?",
+        "options": [
+          "Pitch slowly turning to crystal",
+          "Pitch slowly evaporating away",
+          "Pitch glowing faintly in the dark",
+          "Pitch dripping out of a funnel"
+        ],
+        "explanation": "Thomas Parnell started the experiment at the University of Queensland in Brisbane. In 1930 the funnel was opened and the pitch began to flow: the first drop fell in 1938 and the ninth in 2014 – the first one ever caught on film. The pitch drop experiment is considered the world's longest-running laboratory experiment."
+      }
+    }
+  },
+  {
+    "id": "ns114",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Im Clarendon Laboratory der Universität Oxford klingelt seit 1840 fast ununterbrochen eine elektrische Glocke. Warum hört man sie nicht?",
+    "options": [
+      "Sie steht hinter zwei Glasschichten",
+      "Ihre Glocken sind aus weichem Gummi",
+      "Ihr Klöppel ist mit Watte umwickelt",
+      "Sie läutet nur bei starkem Regen"
+    ],
+    "correct_index": 0,
+    "explanation": "Die Oxford Electric Bell läutet unhörbar, weil sie hinter zwei Glasschichten steht. Zwei Glocken aus Messing hängen unter frühen Batterien, dazwischen pendelt eine kleine Metallkugel hin und her – bis heute über 11 Milliarden Schläge. Öffnen will sie niemand: Das würde die Batterie zerstören.",
+    "difficulty": 2,
+    "tags": [
+      "Elektrizität",
+      "Experiment",
+      "England"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Oxford Electric Bell",
+    "source_url": "https://de.wikipedia.org/wiki/Oxford Electric Bell",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "At Oxford University's Clarendon Laboratory an electric bell has been ringing almost nonstop since 1840. Why can't you hear it?",
+        "options": [
+          "It sits behind two layers of glass",
+          "Its bells are made of soft rubber",
+          "Its clapper is wrapped in cotton",
+          "It only rings when it is raining"
+        ],
+        "explanation": "The Oxford Electric Bell rings inaudibly because it sits behind two layers of glass. Two brass bells hang beneath early batteries, with a small metal ball swinging back and forth between them – more than 11 billion strikes so far. Nobody wants to open it: that would ruin the battery."
+      }
+    }
+  },
+  {
+    "id": "ns115",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Woraus gewinnt der Kelvin-Generator, eine Influenzmaschine von 1867, seine elektrische Spannung?",
+    "options": [
+      "Aus einer Batterie im Sockel",
+      "Aus fallenden Wassertropfen",
+      "Aus Reibung an einem Glasrad",
+      "Aus Sonnenlicht auf dem Gerät"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Kelvin-Generator, auch Kelvinscher Wassertropfengenerator, nutzt die Bewegungsenergie geladener Wassertropfen, die beim Fallen im elektrischen Feld abgebremst werden. Kleinere Geräte erreichen ungefähr 3000 Volt – genug für einen Funken von etwa 3 mm. Beschrieben hat ihn 1867 William Thomson, der später Lord Kelvin wurde.",
+    "difficulty": 3,
+    "tags": [
+      "Elektrizität",
+      "Wasser",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Kelvin-Generator",
+    "source_url": "https://de.wikipedia.org/wiki/Kelvin-Generator",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where does the Kelvin generator, an influence machine from 1867, get its voltage from?",
+        "options": [
+          "From a battery in its base",
+          "From falling drops of water",
+          "From rubbing a glass wheel",
+          "From sunlight on the device"
+        ],
+        "explanation": "The Kelvin generator, also called Kelvin's water dropper, uses the energy of charged falling water drops that are slowed down in an electric field. Small versions reach about 3000 volts – enough for a spark of around 3 mm. It was described in 1867 by William Thomson, who later became Lord Kelvin."
+      }
+    }
+  },
+  {
+    "id": "ns116",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Der Trinkvogel nickt immer wieder ins Wasserglas, ganz ohne Batterie. Woher kommt die Energie für die Bewegung?",
+    "options": [
+      "Von einer Feder, die man vorher aufzieht",
+      "Vom Wasser, das in seinen Bauch fließt",
+      "Vom Wasser, das am Schnabel verdunstet",
+      "Von kleinen Magneten unten im Sockel"
+    ],
+    "correct_index": 2,
+    "explanation": "Am feuchten Schnabel verdunstet Wasser und kühlt ihn ein wenig ab. Dadurch kondensiert Dampf im Kopf, der Druck sinkt und die Flüssigkeit steigt im Glasrohr ca. 10 cm nach oben. Der Schwerpunkt hebt sich, der Vogel kippt nach vorn und taucht den Schnabel ins Glas. Der Trinkvogel ist eine Wärmekraftmaschine.",
+    "difficulty": 2,
+    "tags": [
+      "Physik",
+      "Spielzeug",
+      "Wärme"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Trinkvogel",
+    "source_url": "https://de.wikipedia.org/wiki/Trinkvogel",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The drinking bird dips into a glass of water again and again, with no battery at all. Where does the energy for the movement come from?",
+        "options": [
+          "A spring that you wind up first",
+          "Water it swallows from the glass",
+          "Water evaporating from its beak",
+          "Small magnets hidden in the base"
+        ],
+        "explanation": "Water evaporates from the wet beak and cools it slightly. This makes vapour condense in the head, the pressure drops and the liquid rises about 10 cm up the glass tube. The centre of gravity moves up, the bird tips forward and dips its beak into the glass. The drinking bird is a heat engine."
+      }
+    }
+  },
+  {
+    "id": "ns117",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Kühlt man flüssiges Helium-4 auf unter 2,17 Kelvin, wird es suprafluid. Was kann es dann?",
+    "options": [
+      "Sich in ein festes Metall verwandeln",
+      "Ohne Kühlung tagelang flüssig bleiben",
+      "Im Dunkeln deutlich grünlich leuchten",
+      "Als dünner Film an Wänden hochkriechen"
+    ],
+    "correct_index": 3,
+    "explanation": "Unterhalb dieser Temperatur verliert Helium jede innere Reibung und dringt reibungsfrei durch engste Kapillaren. Ein sehr dünner Flüssigkeitsfilm, der Rollin-Film, kriecht langsam an Gefäßwänden hoch – so fließt das Helium sogar über höher gelegene Hindernisse. Entdeckt wurde die Suprafluidität 1938.",
+    "difficulty": 3,
+    "tags": [
+      "Physik",
+      "Kälte",
+      "Helium"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Suprafluidität",
+    "source_url": "https://de.wikipedia.org/wiki/Suprafluidität",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Cool liquid helium-4 below 2.17 kelvin and it becomes superfluid. What can it do then?",
+        "options": [
+          "Turn into a hard, solid metal",
+          "Stay liquid for days unchilled",
+          "Glow a bright green in the dark",
+          "Creep up walls as a thin film"
+        ],
+        "explanation": "Below this temperature helium loses all internal friction and flows through the narrowest capillaries without resistance. A very thin film, the Rollin film, slowly creeps up container walls – so the helium even flows over higher obstacles. Superfluidity was first discovered in 1938."
+      }
+    }
+  },
+  {
+    "id": "ns118",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Bei der Belousov-Zhabotinsky-Reaktion passiert etwas, das man anfangs für einen Messfehler hielt. Was?",
+    "options": [
+      "Die Farbe der Lösung wechselt immer wieder",
+      "Das Glas mit der Lösung wird immer schwerer",
+      "Die Lösung gefriert bei Zimmertemperatur",
+      "Die Lösung wird mit der Zeit magnetisch"
+    ],
+    "correct_index": 0,
+    "explanation": "Bei dieser Reaktion wechselt die Farbe der Lösung periodisch, etwa zwischen gelb und farblos oder – mit dem Indikator Ferroin – zwischen Blau und Rot. In einer Petrischale breitet sich das Muster wie kreisförmige Wellen aus. Anfangs hielt man das für einen Messfehler, weil der zweite Hauptsatz der Thermodynamik so etwas zu verbieten schien.",
+    "difficulty": 3,
+    "tags": [
+      "Chemie",
+      "Farbe",
+      "Reaktion"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Belousov-Zhabotinsky-Reaktion",
+    "source_url": "https://de.wikipedia.org/wiki/Belousov-Zhabotinsky-Reaktion",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the Belousov–Zhabotinsky reaction, something happens that was first dismissed as a measuring error. What?",
+        "options": [
+          "The solution keeps changing colour",
+          "The glass keeps getting heavier",
+          "It freezes at room temperature",
+          "The solution slowly turns magnetic"
+        ],
+        "explanation": "In this reaction the colour of the solution changes back and forth periodically, for example between yellow and colourless or – with the indicator ferroin – between blue and red. In a Petri dish the pattern spreads out like circular waves. At first it was dismissed as a measuring error, because the second law of thermodynamics seemed to forbid such a thing."
+      }
+    }
+  },
+  {
+    "id": "ns119",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Im Film scheinen sich die Räder einer Kutsche manchmal rückwärts zu drehen. Woran liegt das?",
+    "options": [
+      "Die Räder drehen beim Bremsen kurz zurück",
+      "Der Film zeigt Einzelbilder in festem Takt",
+      "Das Auge kann schnelle Farben nicht trennen",
+      "Der Film läuft in solchen Szenen rückwärts"
+    ],
+    "correct_index": 1,
+    "explanation": "Das ist der Stroboskopeffekt, im Film auch Wagenradeffekt genannt. Im Kino laufen 24 Bilder pro Sekunde. Dreht sich ein Rad mit 24 Speichen genau einmal pro Sekunde, steht auf jedem Bild eine Speiche dort, wo vorher die nächste war – das Rad scheint stillzustehen. Dreht es sich etwas langsamer, scheint es rückwärts zu laufen.",
+    "difficulty": 2,
+    "tags": [
+      "Film",
+      "Wahrnehmung",
+      "Physik"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Stroboskopeffekt",
+    "source_url": "https://de.wikipedia.org/wiki/Stroboskopeffekt",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In films, the wheels of a carriage sometimes seem to turn backwards. Why?",
+        "options": [
+          "The wheels briefly spin back when braking",
+          "Film shows single frames at a fixed rate",
+          "The eye cannot tell fast colours apart",
+          "The film runs backwards in such scenes"
+        ],
+        "explanation": "This is the stroboscopic effect, in film also called the wagon-wheel effect. Cinema runs at 24 frames per second. If a wheel with 24 spokes turns exactly once a second, in every frame a spoke sits where the next one was before – the wheel seems to stand still. If it turns a little slower, it seems to run backwards."
+      }
+    }
+  },
+  {
+    "id": "ns120",
+    "kind": "question",
+    "category_id": "science",
+    "question": "Das Rubenssche Flammenrohr hat oben eine Reihe kleiner Gasflammen. Was macht es sichtbar, wenn man einen Ton hineinschickt?",
+    "options": [
+      "Unsichtbare Radiowellen",
+      "Elektrische Feldlinien",
+      "Magnetische Feldlinien",
+      "Stehende Schallwellen"
+    ],
+    "correct_index": 3,
+    "explanation": "Das Rubenssche Flammenrohr, benannt nach Heinrich Rubens, macht stehende Schallwellen sichtbar. Ohne Ton brennt über den Löchern eine gleichmäßige Reihe kleiner Flammen. Mit Ton folgt die Höhe der Flämmchen der Form der Welle – aus dem Abstand der Druckbäuche lässt sich sogar die Wellenlänge bestimmen.",
+    "difficulty": 3,
+    "tags": [
+      "Schall",
+      "Physik",
+      "Experiment"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Rubenssches Flammenrohr",
+    "source_url": "https://de.wikipedia.org/wiki/Rubenssches Flammenrohr",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 13,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Rubens tube has a row of small gas flames along its top. What does it make visible when a sound is sent into it?",
+        "options": [
+          "Invisible radio waves",
+          "Electric field lines",
+          "Magnetic field lines",
+          "Standing sound waves"
+        ],
+        "explanation": "The Rubens tube, named after Heinrich Rubens, makes standing sound waves visible. Without sound, an even row of small flames burns above the holes. With sound, the heights of the flames follow the shape of the wave – and the distance between the pressure peaks even gives you the wavelength."
+      }
+    }
+  },
+  {
+    "id": "eg135",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Pfannkucheneis besteht aus runden Eisscheiben auf dem Meer. Was ist für seine Entstehung wichtig?",
+    "options": [
+      "Starker Schneefall",
+      "Völlig ruhiges Wasser",
+      "Wellen auf dem Wasser",
+      "Süßwasser aus Flüssen"
+    ],
+    "correct_index": 2,
+    "explanation": "Pfannkucheneis, auch Tellereis, besteht aus meist kreisförmigen Eisstücken mit 30 cm bis 3 m Durchmesser. Für seine Bildung ist Seegang wichtig – sonst entsteht eine geschlossene Eisdecke. Weil die „Pfannkuchen“ ständig zusammenstoßen, bekommen sie typischerweise einen wulstigen Rand.",
+    "difficulty": 2,
+    "tags": [
+      "Eis",
+      "Meer",
+      "Wellen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pfannkucheneis",
+    "source_url": "https://de.wikipedia.org/wiki/Pfannkucheneis",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Pancake ice consists of round discs of ice floating on the sea. What is important for it to form?",
+        "options": [
+          "A lot of heavy snowfall",
+          "Completely calm water",
+          "Waves moving the water",
+          "Fresh water from rivers"
+        ],
+        "explanation": "Pancake ice consists of mostly round pieces of ice from 30 cm to 3 m across. Waves are important for it to form – otherwise a closed sheet of ice develops. Because the ‘pancakes’ keep bumping into each other, they typically get a raised, bulging rim."
+      }
+    }
+  },
+  {
+    "id": "eg136",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Büßereis nennt man bis zu 6 m hohe Schnee- und Eispyramiden in Hochgebirgen der Tropen und Subtropen. Wie entsteht es?",
+    "options": [
+      "Regen gefriert an spitzen Felsnadeln",
+      "Starker Wind türmt Schnee zu Spitzen auf",
+      "Lawinen schieben den Schnee zu Haufen",
+      "Sonne schmilzt den Schnee ungleichmäßig"
+    ],
+    "correct_index": 3,
+    "explanation": "Büßereis entsteht durch ungleichmäßiges Abschmelzen bei starker direkter Sonnenstrahlung und geringer Luftfeuchtigkeit. Die Spitzen zeigen Richtung Mittagssonne. Am Khumbu-Gletscher am Mount Everest wurde sogar bis zu 30 Meter hohes Büßereis beobachtet – für Bergsteiger meist ein unüberwindbares Hindernis.",
+    "difficulty": 2,
+    "tags": [
+      "Eis",
+      "Gebirge",
+      "Sonne"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Büßereis",
+    "source_url": "https://de.wikipedia.org/wiki/Büßereis",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Penitentes are snow and ice spikes up to 6 m tall in the high mountains of the tropics and subtropics. How do they form?",
+        "options": [
+          "Rain freezes onto pointed rocks",
+          "Strong wind piles snow into spikes",
+          "Avalanches push the snow into heaps",
+          "The sun melts the snow unevenly"
+        ],
+        "explanation": "Penitentes form when snow melts unevenly under strong direct sunlight and low humidity. Their tips point towards the midday sun. On the Khumbu Glacier on Mount Everest, penitentes up to 30 metres tall have even been seen – usually an impassable obstacle for climbers."
+      }
+    }
+  },
+  {
+    "id": "eg137",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Haareis bildet sich bei Temperaturen um den Gefrierpunkt auf morschem, feuchtem Totholz. Was löst es aus?",
+    "options": [
+      "Ein Pilz, der im Holz lebt",
+      "Raureif aus feuchter Luft",
+      "Harz, das aus dem Holz tritt",
+      "Feine Spinnfäden am Holz"
+    ],
+    "correct_index": 0,
+    "explanation": "Anders als Raureif entsteht Haareis aus dem Wasser im Holz, nicht aus der Luftfeuchtigkeit. Schon 1918 vermutete der Meteorologe Alfred Wegener einen „schimmelartigen Pilz“ als Auslöser. Eine Untersuchung bestätigte das 2008 weitgehend: Das Myzel winteraktiver Pilze löst das Haareis aus.",
+    "difficulty": 2,
+    "tags": [
+      "Eis",
+      "Pilze",
+      "Wald"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Haareis",
+    "source_url": "https://de.wikipedia.org/wiki/Haareis",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Hair ice forms on rotting, damp dead wood at temperatures around freezing. What triggers it?",
+        "options": [
+          "A fungus living in the wood",
+          "Hoarfrost from the damp air",
+          "Resin seeping out of the wood",
+          "Fine spider silk on the wood"
+        ],
+        "explanation": "Unlike hoarfrost, hair ice forms from the water inside the wood, not from moisture in the air. As early as 1918 the meteorologist Alfred Wegener suspected a ‘mould-like fungus’. A study largely confirmed this in 2008: the mycelium of fungi that are active in winter triggers hair ice."
+      }
+    }
+  },
+  {
+    "id": "eg138",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Feenkreise sind kahle, runde Stellen in trockenem Grasland, etwa in Namibia, umgeben von einem Ring kräftigeren Grases. Was beobachtet man an ihnen?",
+    "options": [
+      "Sie wandern jedes Jahr weiter",
+      "Sie überschneiden sich niemals",
+      "Sie leuchten nachts ganz schwach",
+      "Sie entstehen nur nach Gewittern"
+    ],
+    "correct_index": 1,
+    "explanation": "Feenkreise sind grob kreisförmige Kahlstellen in Grasflächen, umgeben von einem Ring kräftiger gewachsenen Grases. Über Jahrzehnte ändern sie Größe und Lage nicht, halten ähnliche Abstände zueinander und überschneiden sich nie. Wie sie entstehen, ist bis heute umstritten. 2014 wurden Feenkreise auch in Australien entdeckt.",
+    "difficulty": 2,
+    "tags": [
+      "Grasland",
+      "Afrika",
+      "Rätsel"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Feenkreis",
+    "source_url": "https://de.wikipedia.org/wiki/Feenkreis",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Fairy circles are bare, round patches in dry grassland, for example in Namibia, ringed by stronger grass. What has been observed about them?",
+        "options": [
+          "They move a little every year",
+          "They never overlap each other",
+          "They glow very faintly at night",
+          "They only appear after storms"
+        ],
+        "explanation": "Fairy circles are roughly round bare patches in grassland, ringed by grass that grows more strongly. For decades they keep their size and position, stay at similar distances from each other and never overlap. How they form is still disputed. In 2014 fairy circles were also found in Australia."
+      }
+    }
+  },
+  {
+    "id": "eg139",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Auf einem ausgetrockneten See im Death Valley ziehen große Steine lange Spuren über den Boden. Was bewegt sie?",
+    "options": [
+      "Magnetische Kräfte im Gestein",
+      "Kleine Erdbeben im Untergrund",
+      "Eisplatten, die der Wind schiebt",
+      "Tiere, die sie nachts anschieben"
+    ],
+    "correct_index": 2,
+    "explanation": "Die wandernden Steine der Racetrack Playa im Death-Valley-Nationalpark galten lange als großes Rätsel. 2014 wurde eine überzeugende Erklärung vorgelegt: Große, dünne Eisplatten schwimmen auf einer seichten Wasserfläche, der Wind treibt sie an – und sie schieben die Steine vor sich her.",
+    "difficulty": 2,
+    "tags": [
+      "Wüste",
+      "Eis",
+      "Wind"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wandernde Steine",
+    "source_url": "https://de.wikipedia.org/wiki/Wandernde Steine",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "On a dried-up lake in Death Valley, large stones leave long tracks across the ground. What moves them?",
+        "options": [
+          "Magnetic forces in the rock",
+          "Small earthquakes underground",
+          "Ice sheets pushed by the wind",
+          "Animals pushing them at night"
+        ],
+        "explanation": "The sailing stones of Racetrack Playa in Death Valley National Park were long a great mystery. In 2014 a convincing explanation was presented: large, thin sheets of ice float on a shallow layer of water, the wind drives them along – and they push the stones ahead of them."
+      }
+    }
+  },
+  {
+    "id": "eg140",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Aus einem Gletscher in der Antarktis fließt blutrotes Wasser. Woher kommt die rote Farbe?",
+    "options": [
+      "Von Eisen, das an Luft oxidiert",
+      "Von Rotalgen im Schmelzwasser",
+      "Von rotem Gestein eines Vulkans",
+      "Von feinem Staub aus dem Weltall"
+    ],
+    "correct_index": 0,
+    "explanation": "Die ersten Pioniere der Antarktis hielten Rotalgen für die Ursache, später zeigte sich: Es sind Eisenoxide. Altes Meerwasser, in einer Tasche unter dem Gletscher gefangen, löst Eisen aus dem Gestein. Tritt das salzige Wasser aus, oxidiert das Eisen mit dem Sauerstoff der Luft.",
+    "difficulty": 2,
+    "tags": [
+      "Antarktis",
+      "Gletscher",
+      "Eisen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Blood Falls",
+    "source_url": "https://de.wikipedia.org/wiki/Blood Falls",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Blood-red water flows out of a glacier in Antarctica. Where does the red colour come from?",
+        "options": [
+          "Iron that rusts in the air",
+          "Red algae in the meltwater",
+          "Red volcanic rock below it",
+          "Dust fallen from outer space"
+        ],
+        "explanation": "The first Antarctic pioneers blamed red algae, but it later turned out to be iron oxides. Ancient seawater trapped in a pocket beneath the glacier dissolves iron from the rock. When the salty water comes out, the iron reacts with oxygen in the air."
+      }
+    }
+  },
+  {
+    "id": "eg141",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Vom Orinoco zweigt rund ein Fünftel seines Wassers ab und fließt über den Brazo Casiquiare in ein anderes Flusssystem. In welches?",
+    "options": [
+      "In das des Paraná",
+      "In das des Amazonas",
+      "In das des Magdalena",
+      "In das des Mississippi"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Brazo Casiquiare verbindet die Flusssysteme von Orinoco und Amazonas, den wasserreichsten Flüssen Südamerikas. Er ist ein Quellfluss des Río Negro, der in den Amazonas mündet. Diese größte Flussbifurkation der Erde hielt man bis etwa 1800 für unmöglich.",
+    "difficulty": 3,
+    "tags": [
+      "Fluss",
+      "Südamerika",
+      "Wasser"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Brazo Casiquiare",
+    "source_url": "https://de.wikipedia.org/wiki/Brazo Casiquiare",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "About a fifth of the Orinoco's water branches off and flows through the Casiquiare canal into another river system. Which one?",
+        "options": [
+          "That of the Paraná",
+          "That of the Amazon",
+          "That of the Magdalena",
+          "That of the Mississippi"
+        ],
+        "explanation": "The Casiquiare connects the river systems of the Orinoco and the Amazon, South America's most water-rich rivers. It is a headwater of the Río Negro, which flows into the Amazon. Until about 1800 this largest river bifurcation on Earth was thought to be impossible."
+      }
+    }
+  },
+  {
+    "id": "eg142",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Zweimal am Tag kann eine riesige Welle den Amazonas hinauflaufen. Wodurch entsteht diese Pororoca?",
+    "options": [
+      "Durch Regenfälle in den Anden",
+      "Durch Erdbeben unter dem Fluss",
+      "Durch die Flut des Atlantiks",
+      "Durch einstürzende Uferwände"
+    ],
+    "correct_index": 2,
+    "explanation": "Die Pororoca, auch Amazonaswelle genannt, ist eine Tidenwelle: Bei Voll- und Neumond drückt der Atlantik zweimal am Tag riesige Wassermengen in die Flussmündung. Die Welle türmt sich bis zu fünf Meter hoch auf und wird bis zu 65 Kilometer pro Stunde schnell. Der Name kommt aus der Sprache Tupi und bedeutet „großes Brüllen“.",
+    "difficulty": 2,
+    "tags": [
+      "Fluss",
+      "Welle",
+      "Gezeiten"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Pororoca",
+    "source_url": "https://de.wikipedia.org/wiki/Pororoca",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Twice a day a huge wave can travel up the Amazon. What causes this pororoca?",
+        "options": [
+          "Heavy rainfall in the Andes",
+          "Earthquakes under the river",
+          "The incoming Atlantic tide",
+          "Collapsing banks of the river"
+        ],
+        "explanation": "The pororoca, also called the Amazon wave, is a tidal bore: at full and new moon the Atlantic pushes huge amounts of water into the river mouth twice a day. The wave piles up to five metres high and reaches up to 65 kilometres per hour. The name comes from the Tupi language and means ‘great roar’."
+      }
+    }
+  },
+  {
+    "id": "eg143",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Büsingen am Hochrhein ist die einzige deutsche Gemeinde, die ganz von fremdem Staatsgebiet umgeben ist – von der Schweiz. Welche Buchstaben stehen dort auf den Autokennzeichen?",
+    "options": [
+      "CH",
+      "KN",
+      "SH",
+      "BÜS"
+    ],
+    "correct_index": 3,
+    "explanation": "Büsingen gehört zum Landkreis Konstanz und müsste eigentlich KN-Kennzeichen haben. Seit Anfang 1968 tragen Büsinger Fahrzeuge aber BÜS – das erleichterte den Schweizer Zollbeamten die Arbeit. Büsingen ist bis heute der kleinste Zulassungsbezirk Deutschlands.",
+    "difficulty": 2,
+    "tags": [
+      "Grenze",
+      "Deutschland",
+      "Schweiz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Büsingen am Hochrhein",
+    "source_url": "https://de.wikipedia.org/wiki/Büsingen am Hochrhein",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Büsingen am Hochrhein is the only German municipality entirely surrounded by another country – Switzerland. Which letters appear on its car number plates?",
+        "options": [
+          "CH",
+          "KN",
+          "SH",
+          "BÜS"
+        ],
+        "explanation": "Büsingen belongs to the district of Konstanz and should really have KN plates. But since early 1968 Büsingen vehicles have carried BÜS – which made the work of Swiss customs officers easier. Büsingen is still Germany's smallest vehicle registration district."
+      }
+    }
+  },
+  {
+    "id": "eg144",
+    "kind": "question",
+    "category_id": "earth",
+    "question": "Im Grenzort Baarle verläuft die Staatsgrenze zwischen Belgien und den Niederlanden teils mitten durch Gebäude. Was mussten Gäste in manchen Restaurants deshalb früher tun?",
+    "options": [
+      "Zur Sperrstunde an andere Tische gehen",
+      "Am Eingang ihren Reisepass vorzeigen",
+      "Für jedes Land ein Formular ausfüllen",
+      "Nach Ländern getrennt an Tischen essen"
+    ],
+    "correct_index": 0,
+    "explanation": "Baarle-Hertog ist eine belgische Exklave in den Niederlanden und besteht aus 24 einzelnen Landstücken, in denen wiederum niederländische Enklaven liegen. Die Grenze verläuft durch einige Gebäude. Als niederländische Gesetze Restaurants früher schließen ließen als belgische, mussten die betroffenen Gäste einfach an andere Tische wechseln.",
+    "difficulty": 2,
+    "tags": [
+      "Grenze",
+      "Belgien",
+      "Niederlande"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Baarle-Hertog",
+    "source_url": "https://de.wikipedia.org/wiki/Baarle-Hertog",
+    "created_at": "2026-11-08T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the border town of Baarle, the border between Belgium and the Netherlands runs right through some buildings. What did guests in some restaurants once have to do because of this?",
+        "options": [
+          "Switch tables at closing time",
+          "Show a passport at the entrance",
+          "Fill in a form for each country",
+          "Eat in groups split by country"
+        ],
+        "explanation": "Baarle-Hertog is a Belgian exclave in the Netherlands made up of 24 separate pieces of land, which in turn contain Dutch enclaves. The border runs through some buildings. When Dutch law made restaurants close earlier than Belgian law, the guests affected simply had to move to other tables."
+      }
+    }
+  },
+  {
+    "id": "t149",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Rund ums Mittelmeer nennt man ein bestimmtes Schöpfrad „Noria“. Was treibt eine Noria an?",
+    "options": [
+      "Ein Tier, das im Kreis läuft",
+      "Die Strömung des Wassers",
+      "Der Wind über dem Fluss",
+      "Eine kleine Dampfmaschine"
+    ],
+    "correct_index": 1,
+    "explanation": "Ein Schöpfrad hebt Wasser mit Kübeln: Sie füllen sich beim Eintauchen in den Fluss und leeren sich oben in ein Becken, aus dem das Wasser in einen Bewässerungskanal fließt. Rund ums Mittelmeer heißt ein von der Strömung angetriebenes Schöpfrad Noria – eines mit äußerem, ursprünglich tierischem Antrieb dagegen Sakia.",
+    "difficulty": 2,
+    "tags": [
+      "Wasser",
+      "Landwirtschaft",
+      "Maschine"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schöpfrad",
+    "source_url": "https://de.wikipedia.org/wiki/Schöpfrad",
+    "created_at": "2026-11-07T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Around the Mediterranean a certain kind of water wheel is called a ‘noria’. What drives a noria?",
+        "options": [
+          "An animal walking in circles",
+          "The current of the water",
+          "Wind blowing over the river",
+          "A small steam engine nearby"
+        ],
+        "explanation": "A water wheel lifts water in buckets: they fill as they dip into the river and empty at the top into a basin that feeds an irrigation channel. Around the Mediterranean, a wheel driven by the current is called a noria – one with an outside drive, originally by animals, is called a sakia."
+      }
+    }
+  },
+  {
+    "id": "t150",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Zwischen 1832 und 1849 liefen Nachrichten von Berlin bis in die Rheinprovinz über einen Telegrafen ganz ohne Strom. Wie?",
+    "options": [
+      "Mit Boten, die im Galopp ritten",
+      "Mit Brieftauben in langen Staffeln",
+      "Über Rauchzeichen von Berg zu Berg",
+      "Über Masten mit beweglichen Armen"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Preußische optische Telegraf hatte bis zu 62 Stationen mit Signalmasten, an denen je sechs Arme hingen, bedient über Seilzüge. Mit Fernrohren lasen die Telegrafisten die Zeichen der Nachbarstation ab und gaben sie sofort weiter – über 588 Kilometer. Mit der elektrischen Telegrafie wurde die Anlage überflüssig.",
+    "difficulty": 2,
+    "tags": [
+      "Nachrichten",
+      "Signal",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Preußischer optischer Telegraf",
+    "source_url": "https://de.wikipedia.org/wiki/Preußischer optischer Telegraf",
+    "created_at": "2026-11-27T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Between 1832 and 1849, messages travelled from Berlin to the Rhine Province by telegraph without any electricity. How?",
+        "options": [
+          "By riders on galloping horses",
+          "By relays of carrier pigeons",
+          "By smoke signals hill to hill",
+          "Via masts with movable arms"
+        ],
+        "explanation": "The Prussian optical telegraph had up to 62 stations with signal masts, each carrying six arms worked by cables. Using telescopes, the operators read the signals of the neighbouring station and passed them straight on – over 588 kilometres. Electric telegraphy made the system obsolete."
+      }
+    }
+  },
+  {
+    "id": "t151",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Manche Bergbahnen fahren ganz ohne Motor. Was bringt die Wagen in Bewegung?",
+    "options": [
+      "Wasser, das man oben in einen Tank füllt",
+      "Ein großes Schwungrad in der Talstation",
+      "Ein Windrad oben auf der Bergstation",
+      "Federn, die man in der Talstation spannt"
+    ],
+    "correct_index": 0,
+    "explanation": "Wasserballastbahnen nutzen die Schwerkraft: Zwischen zwei Fahrten wird der Tank des Wagens in der Bergstation mit Wasser gefüllt, der des Wagens in der Talstation geleert. Der schwerere obere Wagen fährt talwärts und zieht dabei den leichteren unteren hinauf. Pro Fahrgast rechnet man mit etwa 80 Litern Wasser.",
+    "difficulty": 2,
+    "tags": [
+      "Bahn",
+      "Wasser",
+      "Berge"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Wasserballastbahn",
+    "source_url": "https://de.wikipedia.org/wiki/Wasserballastbahn",
+    "created_at": "2026-11-26T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Some mountain railways run without any engine at all. What sets the cars in motion?",
+        "options": [
+          "Water filled into a tank at the top",
+          "A big flywheel in the valley station",
+          "A wind turbine on the mountain station",
+          "Springs wound up at the valley station"
+        ],
+        "explanation": "Water-ballast railways use gravity: between trips, the tank of the car at the top station is filled with water and the one at the bottom is emptied. The heavier upper car runs downhill and pulls the lighter lower car up. About 80 litres of water are reckoned per passenger."
+      }
+    }
+  },
+  {
+    "id": "t152",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Eine Schiffmühle ist eine Wassermühle auf einem schwimmenden Schiffskörper. Was war ihr großer Vorteil?",
+    "options": [
+      "Sie mahlte Korn während jeder Fahrt",
+      "Ihre Energie war immer verfügbar",
+      "Sie brauchte keinen Müller an Bord",
+      "Sie kam ganz ohne ein Wasserrad aus"
+    ],
+    "correct_index": 1,
+    "explanation": "Eine Schiffmühle wurde an der strömungsreichsten Stelle im Fluss verankert, etwa an Brückenpfeilern. Anders als Wind- und herkömmliche Wassermühlen hatte sie immer Energie – nicht besonders viel, aber ständig. Bei Eisgang oder niedrigem Wasserstand konnte man sie ans sichere Ufer ziehen.",
+    "difficulty": 2,
+    "tags": [
+      "Mühle",
+      "Fluss",
+      "Energie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Schiffmühle",
+    "source_url": "https://de.wikipedia.org/wiki/Schiffmühle",
+    "created_at": "2026-11-25T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A ship mill is a water mill built on a floating hull. What was its big advantage?",
+        "options": [
+          "It ground grain while sailing",
+          "Its power was always available",
+          "It needed no miller on board",
+          "It worked without a water wheel"
+        ],
+        "explanation": "A ship mill was anchored at the point in the river with the strongest current, for example at bridge piers. Unlike windmills and ordinary water mills, it always had power – not very much, but all the time. When there was drifting ice or low water, it could be pulled to the safety of the bank."
+      }
+    }
+  },
+  {
+    "id": "t153",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Das Nebelhorn löste im 19. Jahrhundert die Nebelglocke ab. Welche zwei Musikinstrumente standen bei seiner Erfindung Pate?",
+    "options": [
+      "Querflöte und Posaune",
+      "Kirchenorgel und Pauke",
+      "Klarinette und Trompete",
+      "Dudelsack und Basstuba"
+    ],
+    "correct_index": 2,
+    "explanation": "Celadon Daboll erfand das Nebelhorn 1851. Er verband die Klangerzeugung der Klarinette mit der gerichteten Schallabstrahlung einer Trompete: Druckluft versetzt ein kleines Metallplättchen in Schwingungen. Die Nebelglocke davor war viel zu schlecht zu hören.",
+    "difficulty": 2,
+    "tags": [
+      "Schifffahrt",
+      "Schall",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Nebelhorn",
+    "source_url": "https://de.wikipedia.org/wiki/Nebelhorn",
+    "created_at": "2026-11-24T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In the 19th century the foghorn replaced the fog bell. Which two musical instruments inspired its invention?",
+        "options": [
+          "Flute and trombone",
+          "Organ and kettledrum",
+          "Clarinet and trumpet",
+          "Bagpipes and tuba"
+        ],
+        "explanation": "Celadon Daboll invented the foghorn in 1851. He combined the way a clarinet makes its sound with the directed sound of a trumpet: compressed air makes a small metal plate vibrate. The fog bell before it was far too hard to hear."
+      }
+    }
+  },
+  {
+    "id": "t154",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "In vielen Häfen fiel früher zu einer festen Uhrzeit ein großer Ball von einem Mast. Wozu?",
+    "options": [
+      "Zum Öffnen der Hafenschleuse",
+      "Als Warnung vor einem Sturm",
+      "Als Zeichen für Ebbe und Flut",
+      "Zum Prüfen der Schiffsuhren"
+    ],
+    "correct_index": 3,
+    "explanation": "Der Zeitball fiel zu einem festen Zeitpunkt, damit Seeleute ihre Schiffschronometer überprüfen konnten. Im 19. Jahrhundert brauchte man die genaue Uhrzeit, um auf See den Längengrad zu bestimmen. Ein Sichtsignal eignete sich besser als ein Ton, weil es kürzer unterwegs ist. In Greenwich fiel der Ball um 13 Uhr; als erster deutscher Hafen bekam Cuxhaven 1874 einen Zeitball.",
+    "difficulty": 2,
+    "tags": [
+      "Zeit",
+      "Schifffahrt",
+      "Hafen"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Zeitball",
+    "source_url": "https://de.wikipedia.org/wiki/Zeitball",
+    "created_at": "2026-11-23T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In many ports a large ball used to drop from a mast at a fixed time of day. What for?",
+        "options": [
+          "To open the harbour lock gates",
+          "As a warning of a coming storm",
+          "To signal high and low tide",
+          "To let sailors check ship clocks"
+        ],
+        "explanation": "The time ball dropped at a fixed moment so that sailors could check their ships' chronometers. In the 19th century the exact time was essential for working out longitude at sea. A visual signal worked better than a sound because it arrives faster. At Greenwich the ball dropped at 1 pm; Cuxhaven was the first German port to get a time ball, in 1874."
+      }
+    }
+  },
+  {
+    "id": "t155",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Ein hydraulischer Widder pumpt Wasser bergauf – ohne Strom und ohne Motor. Woher nimmt er die Energie?",
+    "options": [
+      "Aus dem fließenden Wasser",
+      "Aus einer kleinen Handkurbel",
+      "Aus einem kleinen Windrad",
+      "Aus Sonnenlicht auf dem Dach"
+    ],
+    "correct_index": 0,
+    "explanation": "Der hydraulische Widder, auch Stoßheber genannt, ist eine wassergetriebene Pumpe. Er nutzt den Druckstoß des strömenden Wassers, um einen Teil davon auf ein höheres Niveau zu heben. Gern versorgt er Berghütten oder Ferienhäuser an Bächen, die weder an die Wasserversorgung noch ans Stromnetz angeschlossen sind.",
+    "difficulty": 2,
+    "tags": [
+      "Wasser",
+      "Pumpe",
+      "Energie"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Hydraulischer Widder",
+    "source_url": "https://de.wikipedia.org/wiki/Hydraulischer Widder",
+    "created_at": "2026-11-22T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "A hydraulic ram pumps water uphill – without electricity or a motor. Where does it get its energy?",
+        "options": [
+          "From the flowing water",
+          "From a hand crank",
+          "From a small windmill",
+          "From sunlight on a roof"
+        ],
+        "explanation": "The hydraulic ram is a water-powered pump. It uses the pressure surge of flowing water to lift part of that water to a higher level. It is popular for mountain huts or holiday homes by streams that are connected neither to mains water nor to the power grid."
+      }
+    }
+  },
+  {
+    "id": "t156",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Die Bockwindmühle ist der älteste Windmühlentyp Europas. Was wird bei ihr in den Wind gedreht?",
+    "options": [
+      "Nur die drehbare Kappe",
+      "Das ganze Mühlenhaus",
+      "Nur das Flügelkreuz",
+      "Nur der Mühlstein"
+    ],
+    "correct_index": 1,
+    "explanation": "Bei der Bockwindmühle steht das gesamte Mühlenhaus auf einem einzigen dicken Pfahl, dem „Hausbaum“. Über einen langen Balken außen dreht man die ganze Mühle samt Maschinerie in den Wind – bei wechselndem Wind sehr beschwerlich. In Norddeutschland wurde sie seit dem 16. Jahrhundert nach und nach von Holländermühlen verdrängt.",
+    "difficulty": 2,
+    "tags": [
+      "Mühle",
+      "Wind",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Bockwindmühle",
+    "source_url": "https://de.wikipedia.org/wiki/Bockwindmühle",
+    "created_at": "2026-11-21T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The post mill is the oldest type of windmill in Europe. What gets turned into the wind?",
+        "options": [
+          "Only the rotating cap",
+          "The whole mill house",
+          "Only the set of sails",
+          "Only the millstone"
+        ],
+        "explanation": "In a post mill the entire mill house stands on a single thick post. Using a long beam on the outside, the whole mill including its machinery is turned into the wind – hard work when the wind keeps changing. From the 16th century on, in northern Germany, it was gradually replaced by Dutch-style mills."
+      }
+    }
+  },
+  {
+    "id": "t157",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie hießen die tönernen Öllampen, die schon in der Antike unter Tage leuchteten?",
+    "options": [
+      "Eulenlampen",
+      "Fischlampen",
+      "Froschlampen",
+      "Schneckenlampen"
+    ],
+    "correct_index": 2,
+    "explanation": "Schon in der Antike nutzte man tönerne Froschlampen als Öllampen, gefüllt mit Talg. Im Mittelalter folgten offene und geschlossene Froschlampen aus Ton, Messing oder Eisen, die sich besser für die Arbeit unter Tage eigneten; eine kleine Froschlampe hieß Krüsel. Ein altes Sprichwort sagt: „Ein Bergmann ohne Licht ist ein armer Wicht.“",
+    "difficulty": 3,
+    "tags": [
+      "Bergbau",
+      "Licht",
+      "Antike"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Grubenlampe",
+    "source_url": "https://de.wikipedia.org/wiki/Grubenlampe",
+    "created_at": "2026-11-20T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What were the clay oil lamps called that already lit up mines in ancient times?",
+        "options": [
+          "Owl lamps",
+          "Fish lamps",
+          "Frog lamps",
+          "Snail lamps"
+        ],
+        "explanation": "Already in ancient times, clay ‘frog lamps’ filled with tallow were used as oil lamps. In the Middle Ages came open and closed frog lamps of clay, brass or iron that were better suited to work underground; a small frog lamp was called a Krüsel. An old German saying goes: a miner without light is a poor wretch."
+      }
+    }
+  },
+  {
+    "id": "t158",
+    "kind": "question",
+    "category_id": "technology",
+    "question": "Wie kamen Bergleute mit der „Fahrkunst“ in den Schacht hinab und wieder hinauf?",
+    "options": [
+      "Über Leitern mit vielen Rastplätzen",
+      "In einem Korb an einem langen Seil",
+      "Auf einer langen, gewundenen Rutsche",
+      "Durch Umsteigen zwischen zwei Stangen"
+    ],
+    "correct_index": 3,
+    "explanation": "Bei der Fahrkunst bewegten sich zwei Stangen im Schacht gegenläufig auf und ab. Nach jeder halben Raddrehung stieg der Bergmann auf die andere Stange um und kam so Stück für Stück hinab oder hinauf. Um 1800 waren die Gruben im Oberharz 500 bis 600 Meter tief; über die Leitern brauchte ein Bergmann zwei Stunden für den Weg nach oben. 1833 stattete Dörell die Stangen mit Trittbrettern und Handgriffen aus.",
+    "difficulty": 2,
+    "tags": [
+      "Bergbau",
+      "Harz",
+      "Erfindung"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fahrkunst",
+    "source_url": "https://de.wikipedia.org/wiki/Fahrkunst",
+    "created_at": "2026-11-19T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did miners use the ‘man engine’ to get down the shaft and back up again?",
+        "options": [
+          "On ladders with rest stops",
+          "In a cage on a long rope",
+          "On a long, winding slide",
+          "By stepping between two rods"
+        ],
+        "explanation": "In a man engine, two rods in the shaft moved up and down in opposite directions. After each half-turn of the wheel the miner stepped across to the other rod, going down or up bit by bit. Around 1800 the mines of the Upper Harz were 500 to 600 metres deep; climbing out on ladders took a miner two hours. In 1833 Dörell fitted the rods with footboards and handles."
+      }
+    }
+  },
+  {
+    "id": "sp191",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Bei der Tour de France gibt es eine inoffizielle „Auszeichnung“: die rote Laterne. Wer bekommt sie?",
+    "options": [
+      "Der beste Bergfahrer im Feld",
+      "Der Letzte der Gesamtwertung",
+      "Der jüngste Fahrer im Feld",
+      "Der Sieger der letzten Etappe"
+    ],
+    "correct_index": 1,
+    "explanation": "Die Lanterne rouge, die rote Laterne, ist eine inoffizielle Auszeichnung für den Letzten der Gesamtwertung. Der Name kommt von den roten Rücklichtern am letzten Waggon eines Zuges. Sie ist sogar begehrt, weil der Letzte, der Paris erreicht, besondere Aufmerksamkeit bekommt – er darf aber die Karenzzeit nicht überschreiten, sonst ist die Tour für ihn beendet.",
+    "difficulty": 2,
+    "tags": [
+      "Radsport",
+      "Frankreich",
+      "Name"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Lanterne Rouge",
+    "source_url": "https://de.wikipedia.org/wiki/Lanterne Rouge",
+    "created_at": "2026-11-18T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "The Tour de France has an unofficial ‘award’: the red lantern. Who gets it?",
+        "options": [
+          "The best mountain climber",
+          "The last rider overall",
+          "The youngest in the race",
+          "The final stage's winner"
+        ],
+        "explanation": "The lanterne rouge, or red lantern, is an unofficial award for the rider in last place overall. The name comes from the red tail lights on the last carriage of a train. It is even sought after, because the last rider to reach Paris gets special attention – but he must stay within the time limit, or his Tour is over."
+      }
+    }
+  },
+  {
+    "id": "sp192",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wie liefen die allerersten Sechstagerennen ab 1875 ab?",
+    "options": [
+      "Jeden Tag fand ein eigenes Rennen statt",
+      "Teams aus zwei Fahrern wechselten sich ab",
+      "Einzelne Fahrer fuhren rund um die Uhr",
+      "Gefahren wurde immer nur in der Nacht"
+    ],
+    "correct_index": 2,
+    "explanation": "Das erste Sechstagerennen fand 1875 im britischen Birmingham statt. Einzelne Fahrer fuhren sechs Tage lang rund um die Uhr und legten teils mehrere tausend Kilometer zurück. In den USA wurde die Fahrtzeit später auf 18 Stunden am Tag beschränkt, und ab 1899 durften sich in New York zwei Fahrer als Mannschaft abwechseln.",
+    "difficulty": 2,
+    "tags": [
+      "Radsport",
+      "Ausdauer",
+      "Geschichte"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Sechstagerennen",
+    "source_url": "https://de.wikipedia.org/wiki/Sechstagerennen",
+    "created_at": "2026-11-17T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "How did the very first six-day races, from 1875 onwards, work?",
+        "options": [
+          "Each day had its own separate race",
+          "Two-rider teams took turns riding",
+          "Single riders rode around the clock",
+          "Riders raced only during the night"
+        ],
+        "explanation": "The first six-day race took place in 1875 in Birmingham, England. Single riders rode around the clock for six days, sometimes covering several thousand kilometres. In the USA riding time was later limited to 18 hours a day, and from 1899 two riders in New York were allowed to form a team and take turns."
+      }
+    }
+  },
+  {
+    "id": "sp193",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Was macht man beim Skijöring?",
+    "options": [
+      "Man fährt rückwärts auf einem Ski",
+      "Man springt auf Skiern über Hürden",
+      "Man fährt Ski und schießt dabei",
+      "Man lässt sich auf Skiern ziehen"
+    ],
+    "correct_index": 3,
+    "explanation": "Skijöring ist in den nordischen Ländern entstanden; der Name kommt aus dem Norwegischen und bedeutet so viel wie „Schnurfahren“. Ein Skifahrer hält sich an einem Seil fest und lässt sich ziehen – von einem Pferd, einem Hund, einem Rentier oder auch einem Motorschlitten. Hinter Pferden wurde es 1906 erstmals in St. Moritz in der Schweiz als Wettbewerb ausgetragen.",
+    "difficulty": 2,
+    "tags": [
+      "Wintersport",
+      "Ski",
+      "Pferde"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Skijöring",
+    "source_url": "https://de.wikipedia.org/wiki/Skijöring",
+    "created_at": "2026-11-16T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What do you do in skijoring?",
+        "options": [
+          "Ski backwards on one ski",
+          "Jump over hurdles on skis",
+          "Ski and shoot at targets",
+          "Get pulled along on skis"
+        ],
+        "explanation": "Skijoring originated in the Nordic countries; the name comes from Norwegian and means something like ‘line driving’. A skier holds on to a rope and is pulled along – by a horse, a dog, a reindeer or even a snowmobile. Behind horses it was first held as a competition in 1906 in St. Moritz, Switzerland."
+      }
+    }
+  },
+  {
+    "id": "sp194",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Wo fand 1905 der erste dokumentierte Treppenlauf-Wettkampf mit Zeitnahme statt?",
+    "options": [
+      "Am Eiffelturm in Paris",
+      "Am Kölner Dom",
+      "Am Schiefen Turm von Pisa",
+      "An der Freiheitsstatue"
+    ],
+    "correct_index": 0,
+    "explanation": "Der erste dokumentierte Treppenlauf mit Zeitnahme führte 1905 hinauf bis zur ersten Plattform des Eiffelturms in Paris. Beim Treppenlauf rennen Athleten einen Wolkenkratzer, einen Turm oder eine Treppe in freier Natur hinauf. Die Neuzeit des Sports begann 1978 mit einem Lauf auf einen Wolkenkratzer in New York.",
+    "difficulty": 2,
+    "tags": [
+      "Laufen",
+      "Treppe",
+      "Paris"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Treppenlauf (Laufwettbewerb)",
+    "source_url": "https://de.wikipedia.org/wiki/Treppenlauf (Laufwettbewerb)",
+    "created_at": "2026-11-15T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Where did the first documented timed stair-climbing race take place in 1905?",
+        "options": [
+          "At the Eiffel Tower in Paris",
+          "At Cologne Cathedral",
+          "At the Leaning Tower of Pisa",
+          "At the Statue of Liberty"
+        ],
+        "explanation": "The first documented timed stair race, in 1905, went up to the first platform of the Eiffel Tower in Paris. In stair running, athletes race up skyscrapers, towers or outdoor stairways. The modern era of the sport began in 1978 with a race up a skyscraper in New York."
+      }
+    }
+  },
+  {
+    "id": "sp195",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Welches Team gewinnt beim Gordon-Bennett-Cup, dem ältesten jährlichen Wettbewerb für Gasballone?",
+    "options": [
+      "Das ein festes Ziel am schnellsten erreicht",
+      "Das am weitesten vom Start entfernt landet",
+      "Das mit dem Ballon am höchsten aufsteigt",
+      "Das am längsten in der Luft bleiben kann"
+    ],
+    "correct_index": 1,
+    "explanation": "Der Gordon-Bennett-Cup ist die älteste jährlich stattfindende internationale Veranstaltung für Gasballone. Es siegt das Team, das bei der Landung am weitesten vom Startpunkt entfernt ist. Das erste Rennen startete am 30. September 1906 in Paris; der Sieger erreichte nach mehr als 640 km die Nordostküste Englands. Das Heimatland der Gewinner richtet das übernächste Rennen aus.",
+    "difficulty": 2,
+    "tags": [
+      "Ballon",
+      "Luftfahrt",
+      "Wettbewerb"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Gordon-Bennett-Cup (Ballonfahren)",
+    "source_url": "https://de.wikipedia.org/wiki/Gordon-Bennett-Cup (Ballonfahren)",
+    "created_at": "2026-11-14T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Which team wins the Gordon Bennett Cup, the oldest annual competition for gas balloons?",
+        "options": [
+          "The one that reaches a set goal fastest",
+          "The one landing farthest from the start",
+          "The one whose balloon climbs the highest",
+          "The one that stays up in the air longest"
+        ],
+        "explanation": "The Gordon Bennett Cup is the oldest annual international event for gas balloons. The winning team is the one that lands farthest from the starting point. The first race started in Paris on 30 September 1906; the winner reached the north-east coast of England after more than 640 km. The winners' home country hosts the race after next."
+      }
+    }
+  },
+  {
+    "id": "sp196",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Fernschach werden die Züge per Post oder elektronisch übermittelt. Was ist dabei – anders als bei anderen Schachwettkämpfen – erlaubt?",
+    "options": [
+      "Zwei Züge direkt hintereinander",
+      "Jederzeit einen Zug zurückzunehmen",
+      "Hilfsmittel wie Bücher und Computer",
+      "Mitten im Spiel die Farbe zu wechseln"
+    ],
+    "correct_index": 2,
+    "explanation": "Beim Fernschach sind Hilfsmittel wie Literatur, Beratung durch andere Spieler und Computerprogramme nicht verboten – anders als bei anderen Schachwettkämpfen. Traditionell gingen die Züge per Postkarte oder Brief hin und her, heute auch elektronisch. Eine Fernpartie kann Wochen, Monate oder sogar Jahre dauern.",
+    "difficulty": 2,
+    "tags": [
+      "Schach",
+      "Post",
+      "Denksport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Fernschach",
+    "source_url": "https://de.wikipedia.org/wiki/Fernschach",
+    "created_at": "2026-11-13T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In correspondence chess, moves are sent by post or electronically. What is allowed here, unlike in other chess competitions?",
+        "options": [
+          "Making two moves in a row",
+          "Taking back a move at any time",
+          "Aids like books and computers",
+          "Switching colours mid-game"
+        ],
+        "explanation": "In correspondence chess, aids such as books, advice from other players and computer programs are not forbidden – unlike in other chess competitions. Traditionally moves went back and forth by postcard or letter, today also electronically. A correspondence game can last weeks, months or even years."
+      }
+    }
+  },
+  {
+    "id": "sp197",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Jeu de Paume, ein Vorläufer des Tennis, heißt übersetzt „Spiel mit der Handinnenfläche“. Womit wird es heute in der Regel gespielt?",
+    "options": [
+      "Mit einem kleinen Netzkorb",
+      "Mit der bloßen Hand",
+      "Mit einem Lederhandschuh",
+      "Mit einem Holzschläger"
+    ],
+    "correct_index": 3,
+    "explanation": "Anders als der Name vermuten lässt, spielt man Jeu de Paume in der Regel mit einem Holzschläger. Der Name geht auf die Anfänge zurück, als man mit bloßer Handfläche oder mit Handschuhen spielte. Das Spiel ist schon im Mittelalter in Kreuzgängen belegt, wird wie Squash mit Wänden gespielt und war 1908 in London olympische Disziplin.",
+    "difficulty": 2,
+    "tags": [
+      "Ballsport",
+      "Frankreich",
+      "Tennis"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Jeu de Paume",
+    "source_url": "https://de.wikipedia.org/wiki/Jeu de Paume",
+    "created_at": "2026-11-12T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "Jeu de paume, a forerunner of tennis, translates as ‘game of the palm’. What is it usually played with today?",
+        "options": [
+          "A small net basket",
+          "The bare hand",
+          "A leather glove",
+          "A wooden racket"
+        ],
+        "explanation": "Despite its name, jeu de paume is usually played with a wooden racket. The name goes back to its beginnings, when it was played with the bare palm or with gloves. The game is recorded in medieval cloisters, uses the walls like squash and was an Olympic event in London in 1908."
+      }
+    }
+  },
+  {
+    "id": "sp198",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Worum geht es beim Chinlone, einem traditionellen Ballspiel aus Myanmar?",
+    "options": [
+      "Darum, möglichst schön zu spielen",
+      "Darum, die meisten Tore zu schießen",
+      "Darum, das andere Team zu besiegen",
+      "Darum, als Erster im Ziel zu sein"
+    ],
+    "correct_index": 0,
+    "explanation": "Chinlone ist eine Mischung aus Sport und Tanz – ein Mannschaftssport ohne gegnerisches Team. Sechs Spieler spielen sich einen Ball aus Rattan mit Füßen und Knien zu und drehen sich dabei im Kreis. Fällt der Ball auf den Boden, beginnt die Runde von vorn. Es geht nicht ums Gewinnen, sondern darum, wie schön gespielt wird.",
+    "difficulty": 2,
+    "tags": [
+      "Ballsport",
+      "Myanmar",
+      "Tanz"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Chinlone",
+    "source_url": "https://de.wikipedia.org/wiki/Chinlone",
+    "created_at": "2026-11-11T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "What is chinlone, a traditional ball game from Myanmar, all about?",
+        "options": [
+          "Playing as beautifully as possible",
+          "Scoring as many goals as possible",
+          "Beating the opposing team",
+          "Being the first to cross the line"
+        ],
+        "explanation": "Chinlone is a mix of sport and dance – a team sport with no opposing team. Six players pass a rattan ball with their feet and knees while turning in a circle. If the ball touches the ground, the round starts again. It's not about winning, but about how beautifully you play."
+      }
+    }
+  },
+  {
+    "id": "sp199",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Shuffleboard schiebt man mit einem Stock runde Scheiben auf Felder mit Punkten. Wo war das Spiel schon Ende des 19. Jahrhunderts beliebt?",
+    "options": [
+      "In Kohlebergwerken",
+      "Auf Ozeandampfern",
+      "In Eisenbahnwagen",
+      "In Klosterhöfen"
+    ],
+    "correct_index": 1,
+    "explanation": "Beim Shuffleboard schiebt man mit einem Cue, einer Art Schieber, runde Scheiben über das Spielfeld, damit sie auf möglichst hohen Punktefeldern liegen bleiben. Schon Ende des 19. Jahrhunderts war das Spiel auf Ozeandampfern beliebt – heute ist es das vor allem auf Kreuzfahrtschiffen und in Hotelanlagen im Süden.",
+    "difficulty": 2,
+    "tags": [
+      "Spiel",
+      "Schiff",
+      "Freizeit"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Shuffleboard",
+    "source_url": "https://de.wikipedia.org/wiki/Shuffleboard",
+    "created_at": "2026-11-10T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In shuffleboard you push round discs with a stick onto scoring zones. Where was the game already popular in the late 19th century?",
+        "options": [
+          "In coal mines",
+          "On ocean liners",
+          "On railway trains",
+          "In cloister yards"
+        ],
+        "explanation": "In shuffleboard you use a cue, a kind of pusher, to send round discs down the court so they stop on the highest-scoring zones possible. The game was already popular on ocean liners in the late 19th century – today it is mainly played on cruise ships and at holiday resorts in the south."
+      }
+    }
+  },
+  {
+    "id": "sp200",
+    "kind": "question",
+    "category_id": "sport",
+    "question": "Beim Eisspeedway rasen Motorräder mit bis zu 28 mm langen Spikes über das Eis. Was haben die Maschinen nicht?",
+    "options": [
+      "Eine Kette",
+      "Einen Lenker",
+      "Bremsen",
+      "Einen Sattel"
+    ],
+    "correct_index": 2,
+    "explanation": "Eisspeedway-Motorräder haben statt Bremsen einen Zündunterbrecher, der mit einer dünnen Schnur am Handgelenk des Fahrers befestigt ist. Die Reifen tragen Spikes von höchstens 28 mm Länge. Dank ihres enormen Halts erreichen die Fahrer die größten Schräglagen im Motorradsport. Den Sport gibt es seit etwa den 1920er-Jahren.",
+    "difficulty": 2,
+    "tags": [
+      "Motorsport",
+      "Eis",
+      "Wintersport"
+    ],
+    "verification_status": "ai_checked",
+    "status": "published",
+    "show_in_feed": true,
+    "demo_popularity": 0,
+    "source_name": "Wikipedia: Eisspeedway",
+    "source_url": "https://de.wikipedia.org/wiki/Eisspeedway",
+    "created_at": "2026-11-09T12:00:00Z",
+    "min_age": 10,
+    "max_age": null,
+    "translations": {
+      "en": {
+        "question": "In ice speedway, motorbikes race across the ice on spikes up to 28 mm long. What do the machines not have?",
+        "options": [
+          "A chain",
+          "Handlebars",
+          "Brakes",
+          "A seat"
+        ],
+        "explanation": "Instead of brakes, ice speedway bikes have an ignition cut-off attached to the rider's wrist with a thin cord. The tyres carry spikes no longer than 28 mm. Thanks to their enormous grip, riders reach the steepest lean angles in motorcycle sport. The sport has existed since around the 1920s."
+      }
+    }
+  }
+]
